@@ -1,4 +1,4 @@
-import { readFile, writeFile, mkdir } from 'node:fs/promises';
+import { writeFile, mkdir } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 import { fetchItems } from './lib/rss.mjs';
@@ -8,6 +8,7 @@ import { createRenderer } from './lib/render.mjs';
 import { uploadFiles, assertPublic } from './lib/upload.mjs';
 import { alert, sendStory } from './lib/notify.mjs';
 import { createGraph } from './lib/graph.mjs';
+import { loadState, markPublished, publishedGuids, nextSlot, MIN_GAP_HOURS } from './lib/state.mjs';
 
 const STATE_FILE = new URL('../state/published.json', import.meta.url);
 const OUT_DIR = new URL('../out/', import.meta.url);
@@ -33,20 +34,7 @@ function requireEnv(keys) {
   if (missing.length) throw new Error(`Variables manquantes : ${missing.join(', ')}`);
 }
 
-async function loadState() {
-  try {
-    return JSON.parse(await readFile(STATE_FILE, 'utf8'));
-  } catch (e) {
-    if (e.code === 'ENOENT') return [];
-    throw e;
-  }
-}
-
-async function markPublished(guid) {
-  const state = await loadState();
-  if (!state.includes(guid)) state.push(guid);
-  await writeFile(STATE_FILE, `${JSON.stringify(state, null, 2)}\n`);
-}
+const paris = (ms) => new Date(ms).toLocaleString('fr-FR', { timeZone: 'Europe/Paris', dateStyle: 'short', timeStyle: 'short' });
 
 const show = (s) => s.replace(/ /g, '⍽').replace(/ /g, '·'); // espaces visibles dans le log
 
@@ -75,7 +63,7 @@ async function processItem(item, { graph, publicBase }) {
   const problems = [];
   let source = null;
   if (!item.image) {
-    problems.push('aucune image media:content dans le flux');
+    problems.push('aucune image (enclosure) dans le flux');
   } else {
     source = await loadSource(item.image);
     console.log(`   Image source : ${source.width}x${source.height} ${item.image}`);
@@ -86,7 +74,7 @@ async function processItem(item, { graph, publicBase }) {
 
   const { usage } = await graph.publishingLimit();
   if (usage >= MAX_POSTS_24H) problems.push(`quota atteint : ${usage} publications sur les dernières 24 h`);
-  if ((await loadState()).includes(item.guid)) problems.push('guid déjà présent dans state/published.json');
+  if (publishedGuids(await loadState(STATE_FILE)).has(item.guid)) problems.push('guid déjà présent dans state/published.json');
 
   // Rendu
   let slides = null;
@@ -155,7 +143,7 @@ async function processItem(item, { graph, publicBase }) {
   const mediaId = await graph.publish(carousel);
   console.log(`   Publié sur Instagram : ${mediaId}`);
 
-  await markPublished(item.guid);
+  await markPublished(STATE_FILE, item.guid, mediaId);
 
   // Story : envoi manuel, non bloquant
   try {
@@ -176,11 +164,23 @@ async function main() {
   if (DRY_RUN) console.log('Mode DRY_RUN : rien ne sera publié.');
 
   const items = await fetchItems(process.env.RSS_URL || DEFAULT_RSS);
-  const published = await loadState();
+  const state = await loadState(STATE_FILE);
+  const published = publishedGuids(state);
   const now = Date.now();
   let queue = items
-    .filter((i) => !published.includes(i.guid) && now - i.date <= MAX_AGE_HOURS * 3600e3)
+    .filter((i) => !published.has(i.guid) && now - i.date <= MAX_AGE_HOURS * 3600e3)
     .sort((a, b) => a.date - b.date);
+
+  // Écart minimum entre deux publications : les articles attendent le prochain créneau
+  const slot = nextSlot(state);
+  if (queue.length && now < slot) {
+    const waiting = `${queue.length} article(s) en attente, prochaine publication possible à partir de ${paris(slot)} (écart minimum ${MIN_GAP_HOURS} h)`;
+    if (!DRY_RUN) {
+      console.log(waiting);
+      return;
+    }
+    console.log(`DRY_RUN : ${waiting} — ignoré à blanc.`);
+  }
 
   if (DRY_RUN) {
     // DRY_RUN_LATEST=n : les n derniers articles du flux ; sinon les récents, ou à défaut le dernier
@@ -189,7 +189,7 @@ async function main() {
     if (latest) queue = newest.slice(0, latest);
     else if (!queue.length) queue = newest.slice(0, 1);
   } else {
-    queue = queue.slice(0, 1); // un article par run
+    queue = queue.slice(0, 1); // un article par run, le plus ancien
   }
   if (!queue.length) {
     console.log('Rien de nouveau.');

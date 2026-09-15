@@ -49,6 +49,7 @@ export async function buildDossier(article, { memory, useCache = false, log = co
       log(`   Dossier (cache ${cached.source}) : ${article.title}`);
       const ready = typeset(cached);
       ready.facebook.commentLead ??= nextCommentLead(memory);
+      ready.cached = true; // aucun appel IA facturé
       return ready;
     } catch {
       // pas en cache

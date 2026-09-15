@@ -37,7 +37,7 @@ let tokensOut = 0;
 try {
   for (const article of articles) {
     const dossier = await buildDossier(article, { memory, useCache: true, log: (m) => console.log(m) });
-    if (dossier.usage) { tokensIn += dossier.usage.input; tokensOut += dossier.usage.output; }
+    if (dossier.usage && !dossier.cached) { tokensIn += dossier.usage.input; tokensOut += dossier.usage.output; }
     try {
       const pkg = await prepare(article, { dossier, renderer, log: () => {} });
       rows.push({ article, dossier, pkg });

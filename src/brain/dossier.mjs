@@ -7,6 +7,7 @@ import { resolvePlace, candidateZones, placeNames } from './geo.mjs';
 import { checkDossier } from './guards.mjs';
 import { fallbackDossier } from './fallback.mjs';
 import { nextAngles } from './memory.mjs';
+import { nextCommentLead } from './compose.mjs';
 
 const ed = JSON.parse(readFileSync(fromRoot('config/editorial.json'), 'utf8'));
 const system = readFileSync(fromRoot('prompts/editorial.md'), 'utf8');
@@ -24,7 +25,7 @@ function typeset(d) {
     rubrique: d.rubrique.trim().replace(/'/g, '’'),
     visuel: { titre: t(d.visuel.titre), surlignage: t(d.visuel.surlignage), description: t(d.visuel.description ?? ''), texte_alternatif: t(d.visuel.texte_alternatif) },
     instagram: { ...d.instagram, texte: t(d.instagram.texte) },
-    facebook: { texte: t(d.facebook.texte) },
+    facebook: { ...d.facebook, texte: t(d.facebook.texte) },
     bluesky: { ...d.bluesky, texte: t(d.bluesky.texte) },
     threads: { texte: t(d.threads.texte), sujet: String(d.threads.sujet ?? '').trim().replace(/^#/, '') },
     x: { texte: t(d.x.texte) },
@@ -46,7 +47,9 @@ export async function buildDossier(article, { memory, useCache = false, log = co
     try {
       const cached = JSON.parse(await readFile(cacheFile, 'utf8'));
       log(`   Dossier (cache ${cached.source}) : ${article.title}`);
-      return typeset(cached);
+      const ready = typeset(cached);
+      ready.facebook.commentLead ??= nextCommentLead(memory);
+      return ready;
     } catch {
       // pas en cache
     }
@@ -79,7 +82,14 @@ export async function buildDossier(article, { memory, useCache = false, log = co
     const dossier = typeset(result.dossier);
     const problems = checkDossier(dossier, { ...ed, source, knownNames: [...ed.knownNames, ...placeNames(), ...ed.themes.map((t) => t.rubrique)], memory: memory.recent ?? {}, questions });
     if (!problems.length) {
-      const final = { ...dossier, source: 'ia', model: result.model, usage: { input: result.usage.input_tokens, output: result.usage.output_tokens }, angles };
+      const final = {
+        ...dossier,
+        facebook: { ...dossier.facebook, commentLead: nextCommentLead(memory) },
+        source: 'ia',
+        model: result.model,
+        usage: { input: result.usage.input_tokens, output: result.usage.output_tokens },
+        angles,
+      };
       await mkdir(CACHE, { recursive: true });
       await writeFile(cacheFile, JSON.stringify(final, null, 2));
       log(`   IA : dossier validé (essai ${attempt}, ${result.usage.input_tokens} + ${result.usage.output_tokens} tokens)`);

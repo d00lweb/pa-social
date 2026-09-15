@@ -10,7 +10,7 @@ export function buildPreviewText({ article, dossier, caption, items, when }) {
   const awaiting = items.some((i) => i.status === 'awaiting');
   const blocks = [
     ['instagram', caption],
-    ['facebook', `${dossier.facebook.texte}\n[1er commentaire : ${facebookComment(article)}]`],
+    ['facebook', `${dossier.facebook.texte}\n[1er commentaire : ${facebookComment(article, dossier)}]`],
     ['bluesky', composeBluesky(dossier)],
     ['threads', `${dossier.threads.texte}${dossier.threads.sujet ? `\n[sujet : ${dossier.threads.sujet}]` : ''}`],
     ['x', composeX(dossier, article.link)],

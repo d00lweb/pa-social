@@ -99,7 +99,7 @@ const previewData = {
     images: pkg ? { slide1: `out/${pkg.files[0].name}`, slide2: `out/${pkg.files[1].name}`, story: `out/${pkg.files[2].name}` } : null,
     networks: {
       instagram: { text: pkg?.caption ?? d.instagram.texte, hashtags: d.instagram.hashtags },
-      facebook: { text: d.facebook.texte, comment: facebookComment(article) },
+      facebook: { text: d.facebook.texte, comment: facebookComment(article, d) },
       bluesky: { text: composeBluesky(d) },
       threads: { text: d.threads.texte, sujet: d.threads.sujet ?? '' },
       x: { text: d.x.texte, link: article.link },
@@ -116,7 +116,7 @@ const report = rows.map(({ article, dossier: d, pkg }) => [
   `- Rubrique : ${d.rubrique} · Titre visuel : ${d.visuel.titre} · Surligné : « ${d.visuel.surlignage} »`,
   `- Texte alternatif : ${d.visuel.texte_alternatif}`,
   '', '**Instagram**', '```', pkg?.caption ?? d.instagram.texte, '```',
-  `**Facebook** : ${d.facebook.texte}`, `> 1er commentaire : ${facebookComment(article)}`, '',
+  `**Facebook** : ${d.facebook.texte}`, `> 1er commentaire : ${facebookComment(article, d)}`, '',
   `**Bluesky** : ${composeBluesky(d)}`, '',
   `**Threads** : ${d.threads.texte}${d.threads.sujet ? ` [sujet : ${d.threads.sujet}]` : ''}`, '',
   `**X** : ${composeX(d, article.link)}`, '',

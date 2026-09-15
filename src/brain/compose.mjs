@@ -22,9 +22,11 @@ export function composeBluesky({ bluesky }) {
 // X : texte puis lien sur la même ligne
 export const composeX = ({ x }, link) => `${x.texte} ${link}`;
 
-// Commentaire Facebook : formule variée (stable par article) + lien
-export function facebookComment(article) {
+// Commentaire Facebook : formule choisie en rotation à la création du dossier, sinon stable par article, + lien
+export function facebookComment(article, dossier) {
   const leads = ed.facebookCommentLeads;
-  const index = parseInt(createHash('sha1').update(String(article.guid)).digest('hex').slice(0, 6), 16) % leads.length;
-  return `${leads[index]} ${article.link}`;
+  const lead = dossier?.facebook?.commentLead ?? leads[parseInt(createHash('sha1').update(String(article.guid)).digest('hex').slice(0, 6), 16) % leads.length];
+  return `${lead} ${article.link}`;
 }
+
+export const nextCommentLead = (memory) => ed.facebookCommentLeads[(memory.angleIndex ?? 0) % ed.facebookCommentLeads.length];

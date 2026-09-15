@@ -33,7 +33,7 @@ function properNames(text) {
       const raw = line.slice(0, m.index);
       if (raw.endsWith('#')) continue;
       const before = raw.replace(/[«"“(\s  ]+$/u, '');
-      if (!before || /[.!?:…•\-–—]$/u.test(before)) continue;
+      if (!before || /[.!?:…•\-–—⠀]$/u.test(before) || /\p{Extended_Pictographic}️?$/u.test(before)) continue;
       out.push(m[0].replace(/^[LD][’']/, ''));
     }
   }

@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Régie Passion Aquitaine</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+  /* Tenir à jour après chaque étape de docs/ROADMAP.md */
+  :root {
+    --ground: #F6F4F2;
+    --panel: #FFFFFF;
+    --ink: #1C1A19;
+    --muted: #726A65;
+    --line: #E6E0DC;
+    --red: #CD402C;
+    --red-soft: #FBEAE6;
+    --live: #1E7A4C;
+    --live-soft: #E3F2EA;
+    --next: #95620F;
+    --next-soft: #FAF0DC;
+    --idle: #6E6A67;
+    --idle-soft: #EEEBE8;
+    --shadow: 0 1px 2px rgba(28, 26, 25, .05), 0 8px 24px rgba(28, 26, 25, .06);
+    --display: "Montserrat", "Segoe UI", system-ui, sans-serif;
+    --mono: "IBM Plex Mono", ui-monospace, Consolas, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ground: #141211; --panel: #1D1A19; --ink: #EEE9E6; --muted: #A59D98; --line: #332E2C;
+      --red: #E8664F; --red-soft: #3A201B; --live: #5CC08E; --live-soft: #15301F;
+      --next: #E1AA4E; --next-soft: #33280F; --idle: #A7A19C; --idle-soft: #2A2624;
+      --shadow: 0 1px 2px rgba(0,0,0,.3), 0 8px 24px rgba(0,0,0,.25);
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--ground); color: var(--ink); font-family: var(--display); font-size: 15px; line-height: 1.55; padding: 40px 24px 80px; }
+  .wrap { max-width: 1120px; margin: 0 auto; display: grid; gap: 44px; }
+  a { color: inherit; text-decoration-color: var(--red); text-underline-offset: 3px; }
+  a:hover { color: var(--red); }
+  a:focus-visible { outline: 2px solid var(--red); outline-offset: 2px; border-radius: 3px; }
+  h1, h2, h3, p { margin: 0; }
+  .label { font-size: 11px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+  code, .mono { font-family: var(--mono); font-size: 12.5px; }
+  code { background: var(--idle-soft); padding: 1px 6px; border-radius: 4px; }
+
+  /* En-tête */
+  header { display: grid; grid-template-columns: 1fr auto; gap: 24px; align-items: end; padding-bottom: 28px; border-bottom: 1px solid var(--line); }
+  .brand { display: flex; align-items: center; gap: 14px; }
+  .mark { width: 44px; height: 44px; border-radius: 10px; background: var(--red); color: #fff; display: grid; place-items: center; font-weight: 800; font-size: 17px; letter-spacing: -.5px; }
+  h1 { font-size: clamp(26px, 4vw, 36px); font-weight: 800; letter-spacing: -.02em; line-height: 1.1; }
+  h1 span { color: var(--red); }
+  .sub { color: var(--muted); margin-top: 6px; max-width: 60ch; }
+  .onair { display: inline-flex; align-items: center; gap: 10px; padding: 10px 16px; border-radius: 999px; background: var(--live-soft); color: var(--live); font-weight: 700; font-size: 13px; white-space: nowrap; }
+  .onair i { width: 9px; height: 9px; border-radius: 50%; background: var(--live); box-shadow: 0 0 0 0 var(--live); animation: pulse 2.2s infinite; }
+  @keyframes pulse { 0% { box-shadow: 0 0 0 0 rgba(30,122,76,.45); } 70% { box-shadow: 0 0 0 9px rgba(30,122,76,0); } 100% { box-shadow: 0 0 0 0 rgba(30,122,76,0); } }
+  @media (prefers-reduced-motion: reduce) { .onair i { animation: none; } }
+
+  /* Chiffres clés */
+  .kpis { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; }
+  .kpi { background: var(--panel); padding: 18px 20px; display: grid; gap: 4px; }
+  .kpi b { font-size: 26px; font-weight: 800; letter-spacing: -.02em; font-variant-numeric: tabular-nums; }
+  .kpi span { color: var(--muted); font-size: 13px; line-height: 1.35; }
+
+  section { display: grid; gap: 18px; }
+  .sec-head { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; flex-wrap: wrap; }
+  h2 { font-size: 20px; font-weight: 800; letter-spacing: -.01em; }
+  .hint { color: var(--muted); font-size: 13px; }
+
+  /* Réseaux */
+  .nets { display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 16px; }
+  .net { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; box-shadow: var(--shadow); display: grid; grid-template-rows: auto 1fr auto; overflow: hidden; }
+  .net-top { padding: 18px 20px 14px; display: flex; justify-content: space-between; align-items: center; gap: 10px; }
+  .net-name { display: flex; align-items: center; gap: 10px; font-weight: 800; font-size: 17px; }
+  .glyph { width: 30px; height: 30px; border-radius: 8px; display: grid; place-items: center; color: #fff; font-size: 13px; font-weight: 800; }
+  .pill { font-size: 11px; font-weight: 700; padding: 4px 10px; border-radius: 999px; white-space: nowrap; }
+  .pill.live { background: var(--live-soft); color: var(--live); }
+  .pill.next { background: var(--next-soft); color: var(--next); }
+  .pill.idle { background: var(--idle-soft); color: var(--idle); }
+  .net dl { margin: 0; padding: 0 20px 16px; display: grid; gap: 10px; }
+  .net dl div { display: grid; grid-template-columns: 92px 1fr; gap: 10px; align-items: baseline; }
+  .net dt { font-size: 11px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+  .net dd { margin: 0; font-size: 13.5px; line-height: 1.4; }
+  .net-foot { border-top: 1px solid var(--line); padding: 12px 20px; display: flex; justify-content: space-between; align-items: center; gap: 10px; font-size: 13px; }
+  .net-foot a { font-weight: 600; }
+  .net-foot .mono { color: var(--muted); }
+  .ratio { display: inline-block; vertical-align: -3px; border: 1.5px solid currentColor; border-radius: 2px; margin-right: 6px; opacity: .7; }
+
+  /* Maquettes */
+  .mock { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; box-shadow: var(--shadow); padding: 22px; display: grid; grid-template-columns: repeat(3, auto) 1fr; gap: 18px; align-items: start; }
+  .mock figure { margin: 0; display: grid; gap: 8px; }
+  .mock img { display: block; height: 300px; width: auto; max-width: 100%; border-radius: 8px; background: var(--idle-soft); }
+  .mock figcaption { font-size: 12px; color: var(--muted); }
+  .caption { background: var(--ground); border-radius: 10px; padding: 16px; font-size: 13.5px; line-height: 1.5; white-space: pre-line; align-self: stretch; }
+  .caption .tags { color: #1F5FB8; font-weight: 600; }
+  .sheet { background: var(--panel); border: 1px dashed var(--line); border-radius: 14px; padding: 18px 20px; display: grid; gap: 12px; }
+  .sheet img { width: 100%; border-radius: 8px; }
+  .sheet .empty { color: var(--muted); font-size: 13.5px; }
+
+  /* Feuille de route */
+  .road { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(10, 1fr); gap: 6px; }
+  .road li { display: grid; gap: 8px; }
+  .road .bar { height: 6px; border-radius: 3px; background: var(--line); }
+  .road .done .bar { background: var(--live); }
+  .road .now .bar { background: var(--red); }
+  .road b { font-size: 12px; font-weight: 700; }
+  .road span { font-size: 12px; color: var(--muted); line-height: 1.3; }
+  .road .now b { color: var(--red); }
+
+  /* Deux colonnes */
+  .duo { display: grid; grid-template-columns: 1.1fr .9fr; gap: 16px; }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; box-shadow: var(--shadow); padding: 20px 22px; display: grid; gap: 14px; align-content: start; }
+  .card h3 { font-size: 15px; font-weight: 800; }
+  .rows { display: grid; gap: 0; }
+  .row { display: grid; grid-template-columns: 1fr auto; gap: 12px; padding: 10px 0; border-top: 1px solid var(--line); font-size: 13.5px; align-items: center; }
+  .row:first-child { border-top: 0; }
+  .row small { display: block; color: var(--muted); font-size: 12px; }
+  .when { font-size: 12px; font-weight: 700; white-space: nowrap; }
+
+  footer { color: var(--muted); font-size: 12.5px; border-top: 1px solid var(--line); padding-top: 18px; display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+
+  @media (max-width: 900px) {
+    .kpis { grid-template-columns: repeat(2, 1fr); }
+    .duo { grid-template-columns: 1fr; }
+    .mock { grid-template-columns: repeat(3, 1fr); }
+    .mock img { height: auto; width: 100%; }
+    .caption { grid-column: 1 / -1; }
+    .road { grid-template-columns: repeat(5, 1fr); row-gap: 16px; }
+  }
+  @media (max-width: 560px) {
+    body { padding: 24px 16px 60px; }
+    header { grid-template-columns: 1fr; }
+    .mock { grid-template-columns: 1fr 1fr; }
+    .road { grid-template-columns: repeat(2, 1fr); }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div>
+      <div class="brand">
+        <div class="mark">PA</div>
+        <div>
+          <p class="label">pa-social · régie</p>
+          <h1>Relais réseaux <span>Passion Aquitaine</span></h1>
+        </div>
+      </div>
+      <p class="sub">Chaque article du site devient automatiquement un post adapté à chaque réseau : visuel, texte rédigé par l'IA, horaire. Mis à jour le 15 septembre 2026.</p>
+    </div>
+    <div class="onair"><i></i>Instagram en production</div>
+  </header>
+
+  <div class="kpis">
+    <div class="kpi"><b>1 / 5</b><span>réseaux publiés automatiquement</span></div>
+    <div class="kpi"><b>2</b><span>posts Instagram publiés depuis le 15/09</span></div>
+    <div class="kpi"><b>20 min</b><span>vérification du flux (cron o2switch)</span></div>
+    <div class="kpi"><b>≈ 3 €</b><span>par mois (rédaction IA), le reste est gratuit</span></div>
+  </div>
+
+  <!-- Réseaux -->
+  <section>
+    <div class="sec-head">
+      <h2>Réseaux</h2>
+      <p class="hint">3 h minimum entre deux posts d'un même réseau · jamais entre 23 h et 7 h</p>
+    </div>
+    <div class="nets">
+
+      <article class="net">
+        <div class="net-top">
+          <div class="net-name"><span class="glyph" style="background:linear-gradient(135deg,#F58529,#DD2A7B 55%,#8134AF)">IG</span>Instagram</div>
+          <span class="pill live">En ligne</span>
+        </div>
+        <dl>
+          <div><dt>Publication</dt><dd>Carrousel 2 images : titre sur photo + description</dd></div>
+          <div><dt>Format</dt><dd><span class="ratio" style="width:12px;height:15px"></span>4:5 · 1440×1800</dd></div>
+          <div><dt>Texte</dt><dd>Accroche IA + « Article complet sur le site » + 3 hashtags</dd></div>
+          <div><dt>Story</dt><dd>9:16 · 1080×1920, envoyée sur Telegram, sticker lien à poser à la main</dd></div>
+        </dl>
+        <div class="net-foot"><a href="https://www.instagram.com/lovaquitaine/" target="_blank" rel="noopener">@lovaquitaine ↗</a><span class="mono">API connectée</span></div>
+      </article>
+
+      <article class="net">
+        <div class="net-top">
+          <div class="net-name"><span class="glyph" style="background:#1185FE">B</span>Bluesky</div>
+          <span class="pill next">Étape 6</span>
+        </div>
+        <dl>
+          <div><dt>Publication</dt><dd>Carte de lien avec notre visuel (4 posts sur 5), image + lien (1 sur 5)</dd></div>
+          <div><dt>Format</dt><dd><span class="ratio" style="width:19px;height:10px"></span>Carte 1200×627 · image 4:5</dd></div>
+          <div><dt>Texte</dt><dd>Accroche 150–260 car., sans emoji, 1 hashtag de lieu</dd></div>
+          <div><dt>Lien</dt><dd>URL de l'article + suivi des clics</dd></div>
+        </dl>
+        <div class="net-foot"><a href="https://bsky.app/profile/passion-aquitaine.bsky.social" target="_blank" rel="noopener">passion-aquitaine.bsky.social ↗</a><span class="mono">Compte créé</span></div>
+      </article>
+
+      <article class="net">
+        <div class="net-top">
+          <div class="net-name"><span class="glyph" style="background:#1877F2">f</span>Facebook</div>
+          <span class="pill next">Étape 7</span>
+        </div>
+        <dl>
+          <div><dt>Publication</dt><dd>1 image + lien de l'article en premier commentaire</dd></div>
+          <div><dt>Format</dt><dd><span class="ratio" style="width:12px;height:15px"></span>4:5 · 1440×1800</dd></div>
+          <div><dt>Texte</dt><dd>1 à 3 phrases qui invitent au commentaire</dd></div>
+          <div><dt>Rythme</dt><dd>Montée progressive : 1, puis 2, puis 3 posts par jour</dd></div>
+        </dl>
+        <div class="net-foot"><a href="https://www.facebook.com/227437307428711" target="_blank" rel="noopener">Page Passion Aquitaine ↗</a><span class="mono">42 630 abonnés</span></div>
+      </article>
+
+      <article class="net">
+        <div class="net-top">
+          <div class="net-name"><span class="glyph" style="background:#101010">@</span>Threads</div>
+          <span class="pill next">Étape 8</span>
+        </div>
+        <dl>
+          <div><dt>Publication</dt><dd>Rotation : image + lien · carte de lien · lien en réponse</dd></div>
+          <div><dt>Format</dt><dd><span class="ratio" style="width:12px;height:15px"></span>4:5 · 1440×1800</dd></div>
+          <div><dt>Texte</dt><dd>Conversationnel, une question ouverte 1 fois sur 3</dd></div>
+          <div><dt>Lien</dt><dd>URL de l'article</dd></div>
+        </dl>
+        <div class="net-foot"><a href="https://www.threads.com/@lovaquitaine" target="_blank" rel="noopener">@lovaquitaine ↗</a><span class="mono">Compte créé</span></div>
+      </article>
+
+      <article class="net">
+        <div class="net-top">
+          <div class="net-name"><span class="glyph" style="background:#000">X</span>X</div>
+          <span class="pill idle">Manuel · étape 5</span>
+        </div>
+        <dl>
+          <div><dt>Publication</dt><dd>Kit reçu sur Telegram, publié à la main (0 €)</dd></div>
+          <div><dt>Format</dt><dd><span class="ratio" style="width:19px;height:11px"></span>16:9 · 1600×900</dd></div>
+          <div><dt>Texte</dt><dd>230 car. max, compréhensible sans cliquer</dd></div>
+          <div><dt>Lien</dt><dd>URL de l'article, bouton « Publier sur X » pré-rempli</dd></div>
+        </dl>
+        <div class="net-foot"><span>Compte X à préciser</span><span class="mono">Pas d'API</span></div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- Maquettes -->
+  <section>
+    <div class="sec-head">
+      <h2>Rendu actuel</h2>
+      <p class="hint">Visuels réels générés pour l'article « matrimoine », tels qu'hébergés sur le site</p>
+    </div>
+    <div class="mock">
+      <figure><img src="https://passion-aquitaine.ouest-france.fr/social/20260915-7c47bbf2-1.jpg" alt="Slide 1 : photo, rubrique Bordeaux, titre avec matrimoine surligné"><figcaption>Slide 1 · titre</figcaption></figure>
+      <figure><img src="https://passion-aquitaine.ouest-france.fr/social/20260915-7c47bbf2-2.jpg" alt="Slide 2 : description sur fond rouge"><figcaption>Slide 2 · description</figcaption></figure>
+      <figure><img src="https://passion-aquitaine.ouest-france.fr/social/20260915-7c47bbf2-story.jpg" alt="Story 9:16"><figcaption>Story · Telegram</figcaption></figure>
+      <div class="caption"><span class="label">Légende Instagram (IA)</span>
+Et si le mot « patrimoine » avait une sœur plus ancienne ? 🤔
+À Bordeaux, le terme matrimoine refait surface depuis plusieurs années, porté par des festivals. On vous raconte son origine et son histoire.
+
+➡️ Article complet sur le site Passion Aquitaine
+
+<span class="tags">#Bordeaux #Matrimoine #Histoire</span></div>
+    </div>
+    <div class="sheet">
+      <div class="sec-head"><h3>Planche d'aperçu locale</h3><p class="hint">Générée par <code>npm run preview</code> · textes de tous les réseaux dans <code>out/preview-textes.md</code></p></div>
+      <img src="out/preview-1.jpg" alt="Planche d'aperçu des articles de test" onerror="this.hidden=true; this.nextElementSibling.hidden=false">
+      <p class="empty" hidden>Aucune planche pour l'instant sur ce poste. Lance <code>npm run preview</code> (articles de test) ou <code>npm run preview -- --latest=6</code> (derniers articles), puis recharge la page.</p>
+    </div>
+  </section>
+
+  <!-- Feuille de route -->
+  <section>
+    <div class="sec-head">
+      <h2>Feuille de route</h2>
+      <p class="hint">Détail et tests d'acceptation dans <code>docs/ROADMAP.md</code></p>
+    </div>
+    <ol class="road">
+      <li class="done"><div class="bar"></div><b>1 · Socle</b><span>Planification, tests</span></li>
+      <li class="done"><div class="bar"></div><b>2 · IA</b><span>Textes, rubriques, légende</span></li>
+      <li class="now"><div class="bar"></div><b>3 · Telegram</b><span>Aperçus, validation</span></li>
+      <li><div class="bar"></div><b>4 · Liens</b><span>URL + suivi</span></li>
+      <li><div class="bar"></div><b>5 · Kit X</b><span>Publication manuelle</span></li>
+      <li><div class="bar"></div><b>6 · Bluesky</b><span>API connectée</span></li>
+      <li><div class="bar"></div><b>7 · Facebook</b><span>API connectée</span></li>
+      <li><div class="bar"></div><b>8 · Threads</b><span>API connectée</span></li>
+      <li><div class="bar"></div><b>9 · Mesure</b><span>Rapport hebdo</span></li>
+      <li><div class="bar"></div><b>10 · Plus</b><span>Vidéo, recyclage</span></li>
+    </ol>
+  </section>
+
+  <!-- Pilotage -->
+  <div class="duo">
+    <div class="card">
+      <h3>Quand chaque réseau se connecte</h3>
+      <div class="rows">
+        <div class="row"><div>Instagram<small>Publication automatique active</small></div><span class="when" style="color:var(--live)">Depuis le 15/09</span></div>
+        <div class="row"><div>Validation par Telegram<small>Tu vois et valides chaque post avant qu'il parte</small></div><span class="when">Étape 3</span></div>
+        <div class="row"><div>X<small>Aucune API : kit prêt à publier</small></div><span class="when">Étape 5</span></div>
+        <div class="row"><div>Bluesky<small>Mot de passe d'application à créer</small></div><span class="when">Étape 6</span></div>
+        <div class="row"><div>Facebook<small>2 autorisations à ajouter à l'app Meta</small></div><span class="when">Étape 7</span></div>
+        <div class="row"><div>Threads<small>Cas d'usage Threads à ajouter à l'app Meta</small></div><span class="when">Étape 8</span></div>
+      </div>
+    </div>
+    <div class="card">
+      <h3>Piloter</h3>
+      <div class="rows">
+        <div class="row"><div>Tout arrêter<small>Supprimer la variable <code>PUBLISH_ENABLED</code></small></div><a class="when" href="https://github.com/d00lweb/pa-social/settings/variables/actions" target="_blank" rel="noopener">Ouvrir ↗</a></div>
+        <div class="row"><div>Voir les exécutions<small>Journal de chaque passage</small></div><a class="when" href="https://github.com/d00lweb/pa-social/actions" target="_blank" rel="noopener">Actions ↗</a></div>
+        <div class="row"><div>File d'attente<small>Posts prévus et heures</small></div><a class="when" href="https://github.com/d00lweb/pa-social/blob/main/state/queue.json" target="_blank" rel="noopener">queue.json ↗</a></div>
+        <div class="row"><div>Ton et style de l'IA<small>Charte éditoriale modifiable</small></div><a class="when" href="https://github.com/d00lweb/pa-social/blob/main/prompts/editorial.md" target="_blank" rel="noopener">Charte ↗</a></div>
+        <div class="row"><div>Documentation<small>Comptes, dépannage, reprise</small></div><a class="when" href="https://github.com/d00lweb/pa-social#readme" target="_blank" rel="noopener">README ↗</a></div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <span>pa-social · page mise à jour à chaque étape de la feuille de route</span>
+    <span>Alertes et stories : bot Telegram @PA_aquibot</span>
+  </footer>
+
+</div>
+</body>
+</html>

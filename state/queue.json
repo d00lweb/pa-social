@@ -67,5 +67,74 @@
       }
     },
     "previewSent": true
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35428",
+    "channel": "bluesky",
+    "dueAt": 1789542437903,
+    "status": "awaiting",
+    "attempts": 0,
+    "article": {
+      "title": "Pourquoi Bordeaux parle désormais de « matrimoine »",
+      "link": "https://passion-aquitaine.ouest-france.fr/pourquoi-bordeaux-parle-desormais-de-matrimoine/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35428",
+      "pubDate": "Tue, 15 Sep 2026 05:30:50 +0000",
+      "date": 1789450250000,
+      "categories": [
+        "Actus",
+        "Bordeaux",
+        "Culture & traditions"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/09/voix-matrimoine-bordeaux.jpg",
+      "description": "Le mot matrimoine, plus vieux que patrimoine, resurgit à Bordeaux depuis plusieurs années. Origine, histoire et festivals."
+    },
+    "dossier": {
+      "nature": "evergreen",
+      "sensible": false,
+      "rubrique": "Bordeaux",
+      "visuel": {
+        "titre": "Pourquoi Bordeaux parle désormais de « matrimoine »",
+        "surlignage": "matrimoine",
+        "description": "Plus ancien que le mot patrimoine, le terme matrimoine refait surface à Bordeaux depuis plusieurs années. Origine, histoire et festivals qui lui redonnent vie.",
+        "texte_alternatif": "Visuel avec la rubrique Bordeaux et le titre : Pourquoi Bordeaux parle désormais de matrimoine, sur une image illustrant le patrimoine bordelais."
+      },
+      "instagram": {
+        "texte": "Et si le mot « matrimoine » était plus vieux que « patrimoine » ?\nÀ Bordeaux, ce terme oublié resurgit depuis plusieurs années, porté par des festivals. Origine, histoire et renaissance d’un mot qui raconte la ville autrement 📚",
+        "hashtags": [
+          "#Bordeaux",
+          "#Matrimoine",
+          "#Histoire"
+        ]
+      },
+      "facebook": {
+        "texte": "Le mot matrimoine est plus ancien que patrimoine. Et il revient à Bordeaux depuis plusieurs années.",
+        "commentLead": "👉 Tous les détails :"
+      },
+      "bluesky": {
+        "texte": "À Bordeaux, un mot longtemps oublié refait surface : matrimoine. Plus ancien que patrimoine, il revient depuis plusieurs années dans les débats et les festivals de la ville. Retour sur son origine et son histoire.",
+        "hashtag": "#Bordeaux"
+      },
+      "threads": {
+        "texte": "Surprise : le mot « matrimoine » n’a rien d’une invention récente. Il est même plus vieux que « patrimoine ». À Bordeaux, il resurgit depuis plusieurs années, notamment grâce à des festivals qui lui redonnent une place. Petit voyage dans l’origine et l’histoire d’un terme qui change le regard sur la ville 🏛️",
+        "sujet": "Bordeaux"
+      },
+      "x": {
+        "texte": "Matrimoine : un mot plus ancien que patrimoine, revenu à Bordeaux depuis plusieurs années. Son origine, son histoire et les festivals qui le remettent en lumière, expliqués simplement."
+      },
+      "source": "ia",
+      "model": "claude-opus-5",
+      "usage": {
+        "input": 3934,
+        "output": 777
+      },
+      "angles": {
+        "instagram": "question intrigante",
+        "facebook": "chiffre ou fait marquant en tête",
+        "bluesky": "lieu en tête",
+        "threads": "effet de surprise",
+        "x": "bénéfice pour le lecteur"
+      }
+    },
+    "previewSent": true
   }
 ]

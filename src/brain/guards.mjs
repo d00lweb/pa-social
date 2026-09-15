@@ -47,7 +47,7 @@ const EMOJIS = /\p{Extended_Pictographic}️?/gu;
 const bareEmoji = (e) => e.replace(/️/g, '');
 export const extractEmojis = (text) => (String(text).match(EMOJIS) ?? []).map(bareEmoji);
 
-export function checkDossier(d, { source, limits, stopwords, genericCategories, internalCategoryPattern, bannedHashtags, knownNames, similarityMax, memorySimilarityMax, memory = {}, questions = {}, baitPatterns = [], sensitiveEmojis = [], recentEmojis = {} }) {
+export function checkDossier(d, { source, limits, stopwords, genericCategories, internalCategoryPattern, bannedHashtags, knownNames, similarityMax, memorySimilarityMax, memory = {}, questions = {}, baitPatterns = [], sensitiveEmojis = [], recentEmojis = {}, emojiPlacement = {} }) {
   const problems = [];
   const stop = new Set(stopwords.map((w) => fold(w)));
   const src = fold(source);
@@ -87,6 +87,11 @@ export function checkDossier(d, { source, limits, stopwords, genericCategories, 
     if (found.length > (d.sensible ? 1 : emax)) problems.push(`${net} : ${found.length} emojis, ${d.sensible ? 1 : emax} max`);
     const sober = sensitiveEmojis.map(bareEmoji);
     if (d.sensible && found.some((e) => !sober.includes(e))) problems.push(`${net} : sujet sensible, emoji sobre uniquement (${sensitiveEmojis.join(' ')})`);
+    // placement imposé : en tête ou non (les autres positions sont laissées au jugement du rédacteur)
+    const placement = emojiPlacement[net];
+    const startsWithEmoji = /^\s*\p{Extended_Pictographic}/u.test(text);
+    if (placement === 'en tête du texte' && !startsWithEmoji) problems.push(`${net} : emoji attendu en tête du texte`);
+    if (placement && placement !== 'en tête du texte' && startsWithEmoji) problems.push(`${net} : emoji pas en tête pour ce post (${placement})`);
     const recent = new Set((recentEmojis[net] ?? []).flat());
     if (!d.sensible && found.length && found.every((e) => recent.has(e))) problems.push(`${net} : emoji(s) ${found.join('')} déjà utilisés dans les derniers posts`);
     if (/#[\p{L}\p{N}]/u.test(text)) problems.push(`${net} : pas de hashtag dans le texte`);

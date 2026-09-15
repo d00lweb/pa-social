@@ -113,6 +113,23 @@ test('contrôles : emojis obligatoires, sobres si sensible, non répétés', () 
   assert.match(checkDossier(d, base).join(' | '), /sujet sensible, emoji sobre/);
 });
 
+test('contrôles : placement de l’emoji imposé, rotation par réseau', async () => {
+  const { nextAngles, nextEmojiPositions } = await import('../src/brain/memory.mjs');
+  const d = good();
+  d.bluesky.hashtag = '#Bordeaux';
+  assert.match(checkDossier(d, { ...ctx, emojiPlacement: { instagram: 'en tête du texte' } }).join(' | '), /instagram : emoji attendu en tête/);
+  d.instagram.texte = `👀 ${d.instagram.texte.replace(' 👀', '')}`;
+  assert.deepEqual(checkDossier(d, { ...ctx, emojiPlacement: { instagram: 'en tête du texte' } }), []);
+  assert.match(checkDossier(d, { ...ctx, emojiPlacement: { instagram: 'en fin de texte' } }).join(' | '), /pas en tête/);
+  const memory = { angleIndex: 0 };
+  nextAngles(memory, ed.angles, ed.networks);
+  const first = nextEmojiPositions(memory, ed.emojiPositions, ed.networks);
+  nextAngles(memory, ed.angles, ed.networks);
+  const second = nextEmojiPositions(memory, ed.emojiPositions, ed.networks);
+  assert.notEqual(first.instagram, second.instagram);
+  assert.ok(new Set(Object.values(first)).size >= 4);
+});
+
 test('contrôles : questions limitées, appâts et point avant emoji refusés', () => {
   const d = good();
   d.bluesky.hashtag = '#Bordeaux';

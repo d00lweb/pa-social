@@ -1,7 +1,8 @@
 {
   "model": "claude-opus-5",
   "effort": "low",
-  "promptVersion": 4,
+  "promptVersion": 5,
+  "emojiPositions": ["en tête du texte", "à la fin de la première phrase", "devant l'information clé", "en fin de texte"],
   "sensitiveEmojis": ["📍", "🗞️", "📰", "ℹ️"],
   "fallbackEmojis": { "Patrimoine": "🏛️", "Nature": "🌿", "Gastronomie": "🍽️", "Sport": "🏅", "Culture": "🎭", "Économie": "💶", "Tourisme": "🧳", "default": "📍" },
   "questionEvery": 3,

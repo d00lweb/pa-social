@@ -6,7 +6,7 @@ import { frenchTypography } from './editorial.mjs';
 import { resolvePlace, candidateZones, placeNames } from './geo.mjs';
 import { checkDossier } from './guards.mjs';
 import { fallbackDossier } from './fallback.mjs';
-import { nextAngles } from './memory.mjs';
+import { nextAngles, nextEmojiPositions } from './memory.mjs';
 import { nextCommentLead } from './compose.mjs';
 
 const ed = JSON.parse(readFileSync(fromRoot('config/editorial.json'), 'utf8'));
@@ -36,6 +36,7 @@ function typeset(d) {
 export async function buildDossier(article, { memory, useCache = false, log = console.log } = {}) {
   const place = resolvePlace(article);
   const angles = nextAngles(memory, ed.angles, ed.networks);
+  const emojiPlacement = nextEmojiPositions(memory, ed.emojiPositions, ed.networks);
   // Questions limitées (anti-appât) : angle « question », ou 1 article sur N pour Facebook et Threads
   const questions = Object.fromEntries(
     ed.networks.map((n) => [n, angles[n] === 'question intrigante' || (['facebook', 'threads'].includes(n) && memory.angleIndex % ed.questionEvery === 0)]),
@@ -69,6 +70,7 @@ export async function buildDossier(article, { memory, useCache = false, log = co
     angles,
     questions_autorisees: questions,
     emojis_recents: memory.emojis ?? {},
+    emoji_placement: emojiPlacement,
     dernieres_accroches: memory.recent ?? {},
   };
 
@@ -82,7 +84,7 @@ export async function buildDossier(article, { memory, useCache = false, log = co
       return fallbackDossier(article);
     }
     const dossier = typeset(result.dossier);
-    const problems = checkDossier(dossier, { ...ed, source, knownNames: [...ed.knownNames, ...placeNames(), ...ed.themes.map((t) => t.rubrique)], memory: memory.recent ?? {}, questions, recentEmojis: memory.emojis ?? {} });
+    const problems = checkDossier(dossier, { ...ed, source, knownNames: [...ed.knownNames, ...placeNames(), ...ed.themes.map((t) => t.rubrique)], memory: memory.recent ?? {}, questions, recentEmojis: memory.emojis ?? {}, emojiPlacement });
     if (!problems.length) {
       const final = {
         ...dossier,

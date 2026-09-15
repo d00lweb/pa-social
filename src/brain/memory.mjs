@@ -26,6 +26,12 @@ export function nextAngles(memory, angles, networks) {
   return Object.fromEntries(networks.map((net, i) => [net, angles[(start + i) % angles.length]]));
 }
 
+// Placement de l'emoji : différent d'un réseau à l'autre, décalé à chaque article (après nextAngles)
+export function nextEmojiPositions(memory, positions, networks) {
+  const start = ((memory.angleIndex ?? 1) * 3) % positions.length;
+  return Object.fromEntries(networks.map((net, i) => [net, positions[(start + i) % positions.length]]));
+}
+
 export function remember(memory, dossier, networks, size) {
   memory.recent ??= {};
   memory.emojis ??= {};

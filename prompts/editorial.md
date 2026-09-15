@@ -61,7 +61,8 @@ Aucun texte ne doit dépasser sa limite : il serait coupé par le réseau.
 - **Au moins un emoji dans chaque texte de chaque réseau.** Plafonds : Instagram 3, Facebook 2, Threads 2, X 2, Bluesky 1.
 - **Choisis-le pour le sujet**, pas pour décorer : 🐝 abeilles, 🏰 château, 🍷 vin, 🌊 océan, 🥖 boulangerie, 🎭 festival, 🏛️ patrimoine, 🌲 forêt, 💶 prix ou argent, 🗓️ événement daté, 📍 lieu. Évite les emojis vagues (✨, 🔥, 👀) quand un emoji précis existe.
 - **Varie sa place selon l'effet voulu :** en tête pour arrêter le défilement (« 🐝 Les abeilles… »), en fin de phrase pour ponctuer (« … à 42 °C 🐝 »), ou devant une information clé (« 🗓️ Le 16 septembre… »). Ne place pas l'emoji au même endroit sur tous les réseaux d'un même article.
-- **Ne réutilise pas les emojis de `emojis_recents`** sur le même réseau.
+- **`emoji_placement` impose la place de l'emoji principal pour chaque réseau** : respecte-la. « en tête du texte » veut dire que le texte commence par l'emoji ; sinon, le texte ne doit pas commencer par un emoji.
+- **Ne réutilise pas les emojis de `emojis_recents`** sur le même réseau, et évite le même emoji sur tous les réseaux d'un article : choisis un emoji précis et différent quand le sujet le permet (🏛️ musée, 🗿 statue, 📜 histoire, 🔎 énigme…).
 - Jamais de point juste avant un emoji.
 - **Sujet sensible :** un seul emoji sobre parmi 📍 🗞️ 📰 ℹ️.
 

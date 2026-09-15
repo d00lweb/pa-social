@@ -6,11 +6,12 @@ import { fetchItems } from '../src/sources/rss.mjs';
 import { prepare } from '../src/channels/instagram.mjs';
 import * as xkit from '../src/channels/x.mjs';
 import { buildDossier } from '../src/brain/dossier.mjs';
-import { loadMemory } from '../src/brain/memory.mjs';
+import { loadMemory, remember } from '../src/brain/memory.mjs';
 import { createRenderer } from '../src/media/render.mjs';
 import { fromRoot } from '../src/core/config.mjs';
 import { composeBluesky, composeX, composeXText, facebookComment } from '../src/brain/compose.mjs';
 
+const editorialConfig = JSON.parse(await readFile(fromRoot('config/editorial.json'), 'utf8'));
 const latest = Number(process.argv.find((a) => a.startsWith('--latest='))?.split('=')[1]) || 0;
 if (process.argv.includes('--sans-ia')) delete process.env.ANTHROPIC_API_KEY;
 const articles = latest
@@ -38,6 +39,7 @@ let tokensOut = 0;
 try {
   for (const article of articles) {
     const dossier = await buildDossier(article, { memory, useCache: true, log: (m) => console.log(m) });
+    remember(memory, dossier, editorialConfig.networks, editorialConfig.memorySize); // comme en production (mémoire non enregistrée)
     if (dossier.usage && !dossier.cached) { tokensIn += dossier.usage.input; tokensOut += dossier.usage.output; }
     try {
       const pkg = await prepare(article, { dossier, renderer, log: () => {} });

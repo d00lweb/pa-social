@@ -17,7 +17,7 @@ Stratégie détaillée et données : note « Plan Bluesky, Threads, X » (v2, 15
 - [x] 1. Socle modulaire (15/09/2026)
 - [x] 2. Rédacteur en chef IA + nouvelle légende Instagram (15/09/2026)
 - [x] 3. Centre de contrôle Telegram (15/09/2026)
-- [ ] 4. Liens et suivi des clics
+- [x] 4. Liens : annulée le 15/09/2026 (URL réelle partout, sans suivi des clics)
 - [ ] 5. Kit X
 - [ ] 6. Bluesky
 - [ ] 7. Facebook
@@ -51,7 +51,7 @@ src/
   media/
     render.mjs, crop.mjs, brush.mjs
     templates/         ig-slide.html, ig-desc.html, story.html, card-1200x630.html, x-16x9.html
-  links/links.mjs      URL réelle de l'article, UTM seulement quand le lien n'est pas visible
+  brain/compose.mjs    mise en forme par réseau (hashtags intégrés, liens, commentaire Facebook)
   storage/ftp.mjs      dépôt des visuels
   channels/            instagram, facebook, bluesky, threads, x-kit, telegram
                        interface commune : prepare(dossier) → publish() → verify()
@@ -160,7 +160,9 @@ Règles de conception :
 
 ---
 
-## Étape 4 · Liens et suivi des clics
+## Étape 4 · Liens (annulée)
+
+**Décision du 15/09/2026 :** pas de suivi des clics. L'URL réelle de l'article est utilisée partout, sans paramètres UTM. La mise en forme des liens par réseau est dans `src/brain/compose.mjs` (lien X à la suite du texte, formule avant le lien en commentaire Facebook). Le texte ci-dessous est conservé pour mémoire.
 
 **Action de ta part :** aucune. Pas de raccourcisseur : on utilise l'URL réelle de l'article partout.
 
@@ -219,7 +221,7 @@ Règles de conception :
 
 **Action de ta part :** ajouter le cas d'usage Threads à l'app Meta, autoriser l'app.
 
-**Livrables :** rotation A (image 4:5 1440×1800 + URL dans le texte) / B (texte + carte avec URL + UTM) / C (image + URL en réponse) ; 1 sujet ; question ouverte 1 fois sur 3 (jamais si `sensible`) ; `maintenance.yml` renouvelle le token tous les 30 jours avec alerte ; 2 semaines en mode validation.
+**Livrables :** rotation A (image 4:5 1440×1800 + URL dans le texte) / B (texte + carte avec URL réelle) / C (image + URL en réponse) ; 1 sujet ; question ouverte 1 fois sur 3 (jamais si `sensible`) ; `maintenance.yml` renouvelle le token tous les 30 jours avec alerte ; 2 semaines en mode validation.
 
 **Test d'acceptation :** 3 formats publiés correctement ; renouvellement du token testé.
 
@@ -253,8 +255,8 @@ Règles de conception :
 |---|---|---|---|---|---|
 | Instagram | Carrousel 4:5, 1440×1800 | Accroche ≤ 125 car. en tête, mots-clés | Aucun (non cliquable) | 3 intelligents | Enregistrements et partages, texte alternatif, Reels (étape 10) |
 | Facebook | 1 image 4:5, 1440×1800 | 1 à 3 phrases | URL réelle en premier commentaire | 0 | Visuel original, conversation, pas de lien dans le corps |
-| Bluesky | Carte 1200×627 · 20 % image 4:5 1440×1800 | Accroche 150–250 car., sans emoji | Carte (URL + UTM) ou facette | 1 lieu | Heures d'audience, engagement précoce |
-| Threads | Rotation image 4:5 1440×1800 / carte / réponse | Conversationnel, question 1/3 | URL réelle (UTM si carte) | 1 sujet | Réponses, sujets, vidéo (étape 10) |
+| Bluesky | Carte 1200×627 · 20 % image 4:5 1440×1800 | Accroche 150–250 car., sans emoji | Carte ou facette (URL réelle) | 1 lieu | Heures d'audience, engagement précoce |
+| Threads | Rotation image 4:5 1440×1800 / carte / réponse | Conversationnel, question 1/3 | URL réelle | 1 sujet | Réponses, sujets, vidéo (étape 10) |
 | X (manuel) | 16:9, 1600×900 | ≤ 250 car. autonome | URL réelle (compte 23 car.) | 0–1 | Rapidité sur l'actu chaude |
 | Story Instagram | 9:16, 1080×1920 | — | Sticker à la main | — | Inchangé |
 

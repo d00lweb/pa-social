@@ -8,7 +8,7 @@ import { buildDossier } from '../src/brain/dossier.mjs';
 import { loadMemory } from '../src/brain/memory.mjs';
 import { createRenderer } from '../src/media/render.mjs';
 import { fromRoot } from '../src/core/config.mjs';
-import { composeBluesky, composeX, facebookComment } from '../src/brain/compose.mjs';
+import { composeBluesky, composeX, composeXText, facebookComment } from '../src/brain/compose.mjs';
 
 const latest = Number(process.argv.find((a) => a.startsWith('--latest='))?.split('=')[1]) || 0;
 if (process.argv.includes('--sans-ia')) delete process.env.ANTHROPIC_API_KEY;
@@ -102,7 +102,7 @@ const previewData = {
       facebook: { text: d.facebook.texte, comment: facebookComment(article, d) },
       bluesky: { text: composeBluesky(d) },
       threads: { text: d.threads.texte, sujet: d.threads.sujet ?? '' },
-      x: { text: d.x.texte, link: article.link },
+      x: { text: composeXText(d), link: article.link },
     },
   })),
 };

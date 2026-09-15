@@ -158,6 +158,14 @@
   .road span { font-size: 12px; color: var(--muted); line-height: 1.3; }
   .road .now b { color: var(--red); }
 
+  /* Anti-bannissement */
+  .shield { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; }
+  .shield div { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; display: grid; gap: 4px; align-content: start; }
+  .shield b { font-size: 14px; font-weight: 800; }
+  .shield span { font-size: 13px; color: var(--muted); line-height: 1.45; }
+  .shield .human { background: var(--next-soft); border-color: transparent; }
+  .shield .human b { color: var(--next); }
+
   /* Deux colonnes */
   .duo { display: grid; grid-template-columns: 1.1fr .9fr; gap: 16px; }
   .card { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; box-shadow: var(--shadow); padding: 20px 22px; display: grid; gap: 14px; align-content: start; }
@@ -214,7 +222,7 @@
   <section>
     <div class="sec-head">
       <h2>Réseaux</h2>
-      <p class="hint">3 h minimum entre deux posts d'un même réseau · jamais entre 23 h et 7 h</p>
+      <p class="hint">3 h à 4 h 30 entre deux posts d'un même réseau · heure jamais fixe · jamais entre 23 h et 7 h</p>
     </div>
     <div class="nets">
 
@@ -242,7 +250,7 @@
           <div><dt>Publication</dt><dd>Carte de lien avec notre visuel (4 posts sur 5), image + lien (1 sur 5)</dd></div>
           <div><dt>Format</dt><dd><span class="ratio" style="width:19px;height:10px"></span>Carte 1200×627 · image 4:5</dd></div>
           <div><dt>Texte</dt><dd>Accroche 150–260 car., sans emoji, 1 hashtag de lieu</dd></div>
-          <div><dt>Lien</dt><dd>URL de l'article + suivi des clics</dd></div>
+          <div><dt>Lien</dt><dd>URL de l'article</dd></div>
         </dl>
         <div class="net-foot"><a href="https://bsky.app/profile/passion-aquitaine.bsky.social" target="_blank" rel="noopener">passion-aquitaine.bsky.social ↗</a><span class="mono">Compte créé</span></div>
       </article>
@@ -324,14 +332,29 @@
       <li class="done"><div class="bar"></div><b>1 · Socle</b><span>Planification, tests</span></li>
       <li class="done"><div class="bar"></div><b>2 · IA</b><span>Textes, rubriques, légende</span></li>
       <li class="done"><div class="bar"></div><b>3 · Telegram</b><span>Aperçus, validation</span></li>
-      <li class="now"><div class="bar"></div><b>4 · Liens</b><span>URL + suivi</span></li>
-      <li><div class="bar"></div><b>5 · Kit X</b><span>Publication manuelle</span></li>
+      <li class="done"><div class="bar"></div><b>4 · Liens</b><span>Annulée : URL réelle</span></li>
+      <li class="now"><div class="bar"></div><b>5 · Kit X</b><span>Publication manuelle</span></li>
       <li><div class="bar"></div><b>6 · Bluesky</b><span>API connectée</span></li>
       <li><div class="bar"></div><b>7 · Facebook</b><span>API connectée</span></li>
       <li><div class="bar"></div><b>8 · Threads</b><span>API connectée</span></li>
       <li><div class="bar"></div><b>9 · Mesure</b><span>Rapport hebdo</span></li>
       <li><div class="bar"></div><b>10 · Plus</b><span>Vidéo, recyclage</span></li>
     </ol>
+  </section>
+
+  <!-- Anti-bannissement -->
+  <section>
+    <div class="sec-head">
+      <h2>Protection anti-bannissement</h2>
+      <p class="hint">Automatique, réglages dans <code>config/channels.json</code></p>
+    </div>
+    <div class="shield">
+      <div><b>Heures imprévisibles</b><span>Écart 3 h – 4 h 30 tiré au hasard, décalage 5–40 min, reprise du matin variable, attente 0–9 min au moment de publier</span></div>
+      <div><b>Textes jamais identiques</b><span>Angles en rotation, tournures reprises refusées, questions limitées, formules d'appât interdites</span></div>
+      <div><b>Coupe-circuit</b><span>Limite ou restriction signalée par le réseau : pause automatique + alerte, reprise avec <code>/reprise</code></span></div>
+      <div><b>API officielles seulement</b><span>Aucun like, abonnement ou réponse automatique ; 6 posts max par 24 h</span></div>
+      <div class="human"><b>Ta part</b><span>Ouvrir les apps régulièrement, répondre aux commentaires, publier parfois à la main (story, coulisses), double authentification</span></div>
+    </div>
   </section>
 
   <!-- Pilotage -->
@@ -426,7 +449,7 @@
       const t = a.networks.x.text;
       const counted = `${t} ${'x'.repeat(23)}`;
       return `<article class="post">${head('x', counted, 'lien = 23 · ')}${who('Passion Aquitaine', 'X')}
-        <div class="ptext">${esc(t)} <span class="lnk">${esc(a.link.replace(/^https?:\/\//, '').slice(0, 30))}…</span></div>${img(a.images.slide1, 'r169', a.alt, 'Visuel 16:9 définitif : étape 5')}
+        <div class="ptext">${tags(t)} <span class="lnk">${esc(a.link.replace(/^https?:\/\//, '').slice(0, 30))}…</span></div>${img(a.images.slide1, 'r169', a.alt, 'Visuel 16:9 définitif : étape 5')}
         <p class="manual" style="margin-top:10px">Kit envoyé sur Telegram, publication manuelle</p></article>`;
     },
   };

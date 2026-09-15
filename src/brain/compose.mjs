@@ -6,21 +6,23 @@ import { fold } from './geo.mjs';
 const ed = JSON.parse(readFileSync(fromRoot('config/editorial.json'), 'utf8'));
 const escapeRe = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 
-// Bluesky : le hashtag remplace le mot dans le texte s'il y figure déjà, sinon il est ajouté à la fin
-export function composeBluesky({ bluesky }) {
-  const tag = bluesky.hashtag;
-  const word = tag.replace(/^#/, '');
+// Transforme en hashtag la première occurrence du mot du hashtag ; null s'il n'est pas dans le texte
+function inlineTag(text, tag) {
+  const word = String(tag ?? '').replace(/^#/, '');
+  if (!word) return null;
   const re = new RegExp(`(^|[^\\p{L}\\p{N}#])(${escapeRe(word)})(?![\\p{L}\\p{N}])`, 'iu');
-  const match = bluesky.texte.match(re);
-  if (match && fold(match[2]) === fold(word)) {
-    const at = match.index + match[1].length;
-    return `${bluesky.texte.slice(0, at)}#${match[2]}${bluesky.texte.slice(at + match[2].length)}`;
-  }
-  return `${bluesky.texte} ${tag}`;
+  const match = text.match(re);
+  if (!match || fold(match[2]) !== fold(word)) return null;
+  const at = match.index + match[1].length;
+  return `${text.slice(0, at)}#${match[2]}${text.slice(at + match[2].length)}`;
 }
 
-// X : texte puis lien sur la même ligne
-export const composeX = ({ x }, link) => `${x.texte} ${link}`;
+// Bluesky : hashtag du lieu dans le texte s'il y figure, sinon ajouté à la fin
+export const composeBluesky = ({ bluesky }) => inlineTag(bluesky.texte, bluesky.hashtag) ?? `${bluesky.texte} ${bluesky.hashtag}`;
+
+// X : hashtag du lieu seulement s'il figure déjà dans le texte (jamais ajouté), puis lien sur la même ligne
+export const composeXText = ({ x, bluesky }) => inlineTag(x.texte, bluesky?.hashtag) ?? x.texte;
+export const composeX = (dossier, link) => `${composeXText(dossier)} ${link}`;
 
 // Commentaire Facebook : formule choisie en rotation à la création du dossier, sinon stable par article, + lien
 export function facebookComment(article, dossier) {

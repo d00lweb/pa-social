@@ -3,13 +3,16 @@
   "maxAgeHours": 24,
   "queueRetentionDays": 7,
   "retry": { "maxAttempts": 3, "delayMinutes": 30 },
+  "restriction": { "codes": [4, 17, 32, 368, 613], "subcodes": [2207051, 2207042] },
   "channels": {
     "instagram": {
       "enabled": true,
       "validation": true,
-      "gapHours": 3,
+      "gapHours": [3, 4.5],
       "quietHours": { "start": 23, "end": 7 },
-      "jitterMinutes": [5, 35],
+      "jitterMinutes": [5, 40],
+      "morningJitterMinutes": [10, 95],
+      "publishDelayMinutes": [0, 9],
       "maxPer24h": 6
     }
   }

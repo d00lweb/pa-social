@@ -94,6 +94,8 @@ test('composition : hashtag Bluesky dans le texte, lien X à la suite, commentai
   d.bluesky.texte = 'Au Pays basque, un centre soigne les animaux.';
   assert.equal(composeBluesky(d), 'Au Pays basque, un centre soigne les animaux. #PaysBasque');
   assert.equal(composeX(d, 'https://x.fr/a'), `${d.x.texte} https://x.fr/a`);
+  d.bluesky.hashtag = '#Bordeaux';
+  assert.equal(composeX(d, 'https://x.fr/a'), 'Matrimoine : le mot oublié que #Bordeaux remet à l’honneur. https://x.fr/a');
   const comment = facebookComment({ guid: 'g1', link: 'https://x.fr/a' });
   assert.match(comment, /^\S+ .+ : https:\/\/x\.fr\/a$/u);
   assert.equal(comment, facebookComment({ guid: 'g1', link: 'https://x.fr/a' }));

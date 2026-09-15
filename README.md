@@ -47,7 +47,7 @@ Republication automatique des articles de **Passion Aquitaine** (passion-aquitai
 ## Fonctionnement d'une exécution
 
 1. Lecture du flux RSS.
-2. Planification : chaque nouvel article de **moins de 24 h** entre dans la file `state/queue.json` avec une heure prévue par réseau. Elle tombe au moins **3 h** après la publication précédente, jamais entre **23 h et 7 h** (heure de Paris), avec un décalage aléatoire de **5 à 35 min**.
+2. Planification : chaque nouvel article de **moins de 24 h** entre dans la file `state/queue.json` avec une heure prévue par réseau. Elle tombe **3 h à 4 h 30** après la publication précédente (écart tiré au hasard), jamais entre **23 h et 7 h** (heure de Paris), avec un décalage aléatoire de **5 à 40 min**. La reprise du matin est elle aussi variable, entre 7 h 10 et 8 h 35.
 3. Exécution : au plus **une publication due par réseau** à chaque passage. L'écart et les heures creuses sont revérifiés au moment de publier.
 4. Garde-fous (voir ci-dessous). Si l'un saute, l'article est **bloqué**, avec une seule alerte Telegram. Une erreur passagère donne lieu à **3 essais** espacés, avec une alerte au premier et au dernier. Si le quota Instagram est atteint, la publication est reportée d'1 h.
 5. Rendu des 3 visuels (Playwright + Chromium).
@@ -121,7 +121,7 @@ Pas de serveur : le bot lit boutons et commandes à **chaque passage du cron** (
 - **Mise en forme par le code** (`src/brain/compose.mjs`) :
   - Instagram : ligne blanche entre chaque paragraphe.
   - Bluesky : le hashtag remplace le mot du lieu s'il figure déjà dans le texte, sinon il est ajouté à la fin.
-  - X : lien sur la même ligne que le texte.
+  - X : hashtag du lieu seulement s'il figure déjà dans le texte (jamais ajouté), lien sur la même ligne.
   - Facebook : premier commentaire = formule variée (« 📖 L'article complet : »…) + lien.
 - **Anti-appât** (règle Meta sur l'« engagement bait ») :
   - questions limitées : seulement quand l'angle est « question », ou 1 article sur 3 pour Facebook et Threads ;
@@ -149,13 +149,36 @@ Pas de serveur : le bot lit boutons et commandes à **chaque passage du cron** (
 | Règle | Valeur | Fichier |
 |---|---|---|
 | Âge max d'un article | 24 h | `config/channels.json` (`maxAgeHours`) |
-| Écart min entre publications | 3 h | `config/channels.json` (`gapHours`) |
+| Écart entre publications | 3 h – 4 h 30, tiré au hasard | `config/channels.json` (`gapHours`) |
 | Heures creuses | 23 h – 7 h | `config/channels.json` (`quietHours`) |
-| Décalage aléatoire | 5 – 35 min | `config/channels.json` (`jitterMinutes`) |
+| Décalage aléatoire | 5 – 40 min | `config/channels.json` (`jitterMinutes`) |
+| Reprise du matin | 7 h + 10 à 95 min | `config/channels.json` (`morningJitterMinutes`) |
+| Attente avant publication | 0 – 9 min | `config/channels.json` (`publishDelayMinutes`) |
+| Coupe-circuit | codes Meta 4, 17, 32, 368, 613 (+ sous-codes de blocage) | `config/channels.json` (`restriction`) |
 | Publications max / 24 h | 6 | `config/channels.json` (`maxPer24h`) |
 | Essais en cas d'erreur | 3 (délai de 30 min × n° d'essai) | `config/channels.json` (`retry`) |
 | Largeur min image source | 1200 px | `src/channels/instagram.mjs` |
 | Description max | 300 caractères | `src/channels/instagram.mjs` |
+
+### Protection anti-bannissement
+
+- **API officielles uniquement**, aucune interaction automatique (likes, abonnements, réponses).
+- **Heures imprévisibles :**
+  - écart variable entre deux posts ;
+  - décalage aléatoire, reprise du matin variable ;
+  - **attente aléatoire de 0 à 9 min au moment de publier**, pour que les posts ne tombent pas sur les minutes fixes du cron (:00, :20) ;
+  - validation humaine par Telegram, qui ajoute une variation naturelle.
+- **Textes toujours différents :**
+  - angles en rotation, contrôle des tournures reprises ;
+  - questions limitées, formules d'appât interdites ;
+  - formules de commentaire Facebook en rotation.
+- **Coupe-circuit :** si Meta renvoie une erreur de limite ou de restriction, le réseau est **mis en pause automatiquement** avec une alerte Telegram, et la reprise se fait à la main avec `/reprise <réseau>`.
+- **Volume :** au plus 6 posts par 24 h par réseau, un article par passage.
+- **À faire côté humain :**
+  - ouvrir régulièrement les apps depuis les mêmes appareils ;
+  - répondre soi-même aux commentaires ;
+  - publier de temps en temps un contenu à la main (coulisses, story, sondage) ;
+  - garder la double authentification et des profils complets.
 
 ### Règles rédactionnelles (`src/brain/editorial.mjs`)
 
@@ -400,3 +423,4 @@ Dépendances : `fast-xml-parser`, `sharp`, `playwright`, `basic-ftp`. Node 24, E
 | 15/09/2026 | Étape 3 : centre de contrôle Telegram (aperçu visuels + textes des 5 réseaux, validation ✅/❌/🔁, commandes /statut /file /pause /reprise /validation, notification de publication, expiration à 24 h). Instagram passe en mode validation. |
 | 15/09/2026 | Textes jamais tronqués (Facebook ≤ 120 car.), texte IA pour la 2ᵉ image du carrousel, sujet Threads, plafond d'emojis par réseau, hashtags interdits dans le corps des textes (charte v2). |
 | 15/09/2026 | Charte v3 : ligne blanche entre paragraphes Instagram, hashtag Bluesky intégré au texte, lien X à la suite, formule avant le lien en commentaire Facebook, questions limitées et formules d'appât interdites, pas de point avant un emoji. |
+| 15/09/2026 | Anti-bannissement renforcé : écart variable 3 h – 4 h 30, reprise du matin variable, attente aléatoire de 0 à 9 min avant publication, coupe-circuit (pause automatique sur erreur de limite ou de restriction Meta). Hashtag du lieu intégré au texte X. Étape 4 annulée : URL réelle partout, sans suivi des clics. |

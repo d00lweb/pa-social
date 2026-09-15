@@ -1,4 +1,4 @@
-// Planification pure (sans E/S) : écart entre publications, heures creuses, décalage aléatoire
+// Planification pure (sans E/S) : écart variable, heures creuses, reprise du matin variable, décalage aléatoire
 const MINUTE = 60e3;
 const HOUR = 60 * MINUTE;
 
@@ -21,21 +21,25 @@ export function nextOpen(ms, quiet, timeZone) {
   return t;
 }
 
-export const jitter = ([min, max], rng = Math.random) => (min + rng() * (max - min)) * MINUTE;
+const pick = ([min, max], rng) => min + rng() * (max - min);
+export const jitter = (range, rng = Math.random) => pick(range, rng) * MINUTE;
+// gapHours : nombre fixe ou intervalle [min, max] tiré au hasard à chaque publication
+const range = (v) => (Array.isArray(v) ? v : [v, v]);
+export const minGapMs = (channel) => range(channel.gapHours)[0] * HOUR;
 
-// Heure prévue : après l'écart depuis la dernière publication (ou prévision), hors nuit, décalage aléatoire
+// Heure prévue : écart variable après la dernière publication (ou prévision), hors nuit, décalage aléatoire
 export function planDueAt({ now, lastAt = 0, lastPlannedAt = 0, channel, timeZone, rng = Math.random }) {
   const base = Math.max(lastAt, lastPlannedAt);
-  let due = Math.max(now, base ? base + channel.gapHours * HOUR : 0) + jitter(channel.jitterMinutes, rng);
+  let due = Math.max(now, base ? base + pick(range(channel.gapHours), rng) * HOUR : 0) + jitter(channel.jitterMinutes, rng);
   if (isQuiet(due, channel.quietHours, timeZone)) {
-    due = nextOpen(due, channel.quietHours, timeZone) + jitter(channel.jitterMinutes, rng);
+    due = nextOpen(due, channel.quietHours, timeZone) + jitter(channel.morningJitterMinutes ?? channel.jitterMinutes, rng);
   }
   return Math.round(due);
 }
 
 // Au moment de publier : null si c'est possible, sinon la nouvelle heure prévue
 export function recheck({ now, lastAt = 0, channel, timeZone, rng = Math.random }) {
-  if (lastAt && now < lastAt + channel.gapHours * HOUR) return planDueAt({ now, lastAt, channel, timeZone, rng });
+  if (lastAt && now < lastAt + minGapMs(channel)) return planDueAt({ now, lastAt, channel, timeZone, rng });
   if (isQuiet(now, channel.quietHours, timeZone)) return planDueAt({ now, channel, timeZone, rng });
   return null;
 }

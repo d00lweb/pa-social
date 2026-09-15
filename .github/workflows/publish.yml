@@ -22,7 +22,7 @@ jobs:
     # Verrou : aucune publication (cron, déclencheur externe ou manuel) si PUBLISH_ENABLED ne vaut pas true ; le test à blanc reste possible
     if: vars.PUBLISH_ENABLED == 'true' || inputs.dry_run
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
 

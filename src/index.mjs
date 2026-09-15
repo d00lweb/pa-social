@@ -2,7 +2,7 @@ import { readFileSync } from 'node:fs';
 import { config, DRY_RUN, DRY_RUN_LATEST, enabledChannels, fromRoot } from './core/config.mjs';
 import { GuardError, DeferError } from './core/errors.mjs';
 import { loadHistory, saveHistory, loadQueue, saveQueue, loadJson, saveJson, hasPublished, lastPublishedAt } from './core/state.mjs';
-import { planDueAt, recheck } from './core/scheduler.mjs';
+import { planDueAt, recheck, jitter } from './core/scheduler.mjs';
 import { NETWORKS, NAMES, shortId, parseCommand, defaultControls, isPaused, needsValidation, targets, applyDecision } from './core/control.mjs';
 import { fetchItems } from './sources/rss.mjs';
 import { buildDossier } from './brain/dossier.mjs';
@@ -261,6 +261,12 @@ async function execute({ history, queue, memory, controls, now }) {
       item.dossier ??= await buildDossier(item.article, { memory });
       const impl = CHANNELS[channel.id];
       const pkg = await impl.prepare(item.article, { dossier: item.dossier });
+      // délai aléatoire : les publications ne tombent pas pile sur les minutes du cron
+      if (channel.publishDelayMinutes) {
+        const wait = jitter(channel.publishDelayMinutes);
+        console.log(`Attente aléatoire avant publication : ${Math.round(wait / 1000)} s`);
+        await new Promise((r) => setTimeout(r, wait));
+      }
       const { mediaId } = await impl.publish(pkg, { channel });
       history.push({ guid: item.guid, channel: channel.id, at: new Date().toISOString(), mediaId });
       queue.splice(queue.indexOf(item), 1);
@@ -279,6 +285,11 @@ async function execute({ history, queue, memory, controls, now }) {
       if (err instanceof GuardError) {
         item.status = 'blocked';
         await notify(err.message);
+      } else if (config.restriction.codes.includes(err.code) || config.restriction.subcodes.includes(err.subcode)) {
+        // coupe-circuit : limite ou restriction du réseau → pause automatique, reprise manuelle
+        controls.paused[channel.id] = true;
+        item.dueAt = now + HOUR;
+        await notify(`🛑 ${NAMES[channel.id]} mis en pause automatiquement : le réseau signale une limite ou une restriction.\n${err.message}\nVérifie le compte dans l'app, puis envoie /reprise ${channel.id}`);
       } else {
         console.error(err.stack ?? err.message);
         const final = item.attempts >= config.retry.maxAttempts;

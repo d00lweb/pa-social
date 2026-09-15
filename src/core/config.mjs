@@ -13,5 +13,6 @@ export const DRY_RUN_LATEST = Number(process.env.DRY_RUN_LATEST) || 0;
 
 export const enabledChannels = () =>
   Object.entries(config.channels)
-    .filter(([, channel]) => channel.enabled)
+    // un réseau dont les identifiants manquent reste inactif
+    .filter(([, channel]) => channel.enabled && (channel.requiresEnv ?? []).every((key) => process.env[key]))
     .map(([id, channel]) => ({ id, ...channel }));

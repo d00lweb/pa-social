@@ -19,7 +19,7 @@ Stratégie détaillée et données : note « Plan Bluesky, Threads, X » (v2, 15
 - [x] 3. Centre de contrôle Telegram (15/09/2026)
 - [x] 4. Liens : annulée le 15/09/2026 (URL réelle partout, sans suivi des clics)
 - [x] 5. Kit X (15/09/2026)
-- [ ] 6. Bluesky
+- [ ] 6. Bluesky (code livré le 15/09/2026, en attente des identifiants et du premier post validé)
 - [ ] 7. Facebook
 - [ ] 8. Threads
 - [ ] 9. Mesure et apprentissage

@@ -11,8 +11,9 @@ import { alert, telegramEnabled, send, sendPhotos, getUpdates, answerCallback, c
 import { buildPreviewText, previewButtons, esc } from './channels/preview.mjs';
 import * as instagram from './channels/instagram.mjs';
 import * as x from './channels/x.mjs';
+import * as bluesky from './channels/bluesky.mjs';
 
-const CHANNELS = { instagram, x };
+const CHANNELS = { instagram, x, bluesky };
 const DEFAULT_RSS = 'https://passion-aquitaine.ouest-france.fr/feed/';
 const HOUR = 3600e3;
 const TZ = config.timezone;
@@ -288,7 +289,7 @@ async function execute({ history, queue, memory, controls, now }) {
       if (err instanceof GuardError) {
         item.status = 'blocked';
         await notify(err.message);
-      } else if (config.restriction.codes.includes(err.code) || config.restriction.subcodes.includes(err.subcode)) {
+      } else if (err.restriction || config.restriction.codes.includes(err.code) || config.restriction.subcodes.includes(err.subcode)) {
         // coupe-circuit : limite ou restriction du réseau → pause automatique, reprise manuelle
         controls.paused[channel.id] = true;
         item.dueAt = now + HOUR;

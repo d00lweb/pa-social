@@ -244,11 +244,12 @@
       <article class="net">
         <div class="net-top">
           <div class="net-name"><span class="glyph" style="background:#1185FE">B</span>Bluesky</div>
-          <span class="pill next">Étape 6</span>
+          <span class="pill next">Prêt · identifiants à fournir</span>
         </div>
         <dl>
-          <div><dt>Publication</dt><dd>Carte de lien avec notre visuel (4 posts sur 5), image + lien (1 sur 5)</dd></div>
-          <div><dt>Format</dt><dd><span class="ratio" style="width:19px;height:10px"></span>Carte 1200×627 · image 4:5</dd></div>
+          <div><dt>Publication</dt><dd>Carte de lien avec notre visuel (4 articles sur 5), image + « ➡️ Lire l’article » (1 sur 5)</dd></div>
+          <div><dt>Format</dt><dd><span class="ratio" style="width:19px;height:10px"></span>Carte 1200×627 · image 4:5 1080×1350</dd></div>
+          <div><dt>Mode</dt><dd>Validation Telegram, jamais entre 22 h et 8 h</dd></div>
           <div><dt>Texte</dt><dd>Accroche 150–260 car. · 1 emoji · 1 hashtag de lieu intégré</dd></div>
           <div><dt>Lien</dt><dd>URL de l'article</dd></div>
         </dl>
@@ -435,10 +436,14 @@
         <div class="comment" style="margin-top:12px"><span class="avatar">PA</span><div><b>Passion Aquitaine</b><br>${esc(a.networks.facebook.comment).replace(/(https?:\/\/\S+)/, '<span style="color:#1F6FD1">$1</span>')}</div></div></article>`;
     },
     bluesky(a) {
-      const t = a.networks.bluesky.text;
-      return `<article class="post">${head('bluesky', t)}${who('Passion Aquitaine', '@passion-aquitaine.bsky.social')}
-        <div class="ptext">${tags(t)}</div>
-        <div class="card-link">${img(a.images.slide1, 'r191', a.alt, 'Visuel carte définitif : étape 6')}<div><small>passion-aquitaine.ouest-france.fr</small><b>${esc(a.title)}</b></div></div></article>`;
+      const b = a.networks.bluesky;
+      const t = b.text;
+      const text = tags(t).replace('Lire l’article', '<span class="lnk">Lire l’article</span>');
+      const media = b.mode === 'image'
+        ? img(a.images.bluesky ?? a.images.slide1, 'r45', a.alt)
+        : `<div class="card-link">${img(a.images.bluesky ?? a.images.slide1, 'r191', a.alt)}<div><small>passion-aquitaine.ouest-france.fr</small><b>${esc(a.title)}</b></div></div>`;
+      return `<article class="post">${head('bluesky', t, b.mode === 'image' ? 'image · ' : 'carte · ')}${who('Passion Aquitaine', '@passion-aquitaine.bsky.social')}
+        <div class="ptext">${text}</div>${media}</article>`;
     },
     threads(a) {
       const th = a.networks.threads;

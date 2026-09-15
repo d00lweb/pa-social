@@ -15,6 +15,17 @@
       "publishDelayMinutes": [0, 9],
       "maxPer24h": 6
     },
+    "bluesky": {
+      "enabled": true,
+      "requiresEnv": ["BLUESKY_HANDLE", "BLUESKY_APP_PASSWORD"],
+      "validation": true,
+      "imageEvery": 5,
+      "gapHours": [2.5, 4],
+      "quietHours": { "start": 22, "end": 8 },
+      "jitterMinutes": [5, 40],
+      "morningJitterMinutes": [10, 80],
+      "publishDelayMinutes": [0, 9]
+    },
     "x": {
       "enabled": true,
       "validation": true,

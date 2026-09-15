@@ -5,6 +5,7 @@ import sharp from 'sharp';
 import { fetchItems } from '../src/sources/rss.mjs';
 import { prepare } from '../src/channels/instagram.mjs';
 import * as xkit from '../src/channels/x.mjs';
+import * as bsky from '../src/channels/bluesky.mjs';
 import { buildDossier } from '../src/brain/dossier.mjs';
 import { loadMemory, remember } from '../src/brain/memory.mjs';
 import { createRenderer } from '../src/media/render.mjs';
@@ -44,7 +45,8 @@ try {
     try {
       const pkg = await prepare(article, { dossier, renderer, log: () => {} });
       const xpkg = await xkit.prepare(article, { dossier, renderer, log: () => {} });
-      rows.push({ article, dossier, pkg, xpkg });
+      const bpkg = await bsky.prepare(article, { dossier, renderer, log: () => {} });
+      rows.push({ article, dossier, pkg, xpkg, bpkg });
       console.log(`OK [${dossier.source}] ${article.title}`);
     } catch (err) {
       rows.push({ article, dossier, error: err.problems?.join(' · ') ?? err.message });
@@ -89,7 +91,7 @@ for (let sheet = 0; sheet * 6 < rows.length; sheet++) {
 // Données de la page pilotage.html (aperçus par réseau)
 const previewData = {
   generatedAt: new Date().toISOString(),
-  articles: rows.map(({ article, dossier: d, pkg, xpkg, error }) => ({
+  articles: rows.map(({ article, dossier: d, pkg, xpkg, bpkg, error }) => ({
     title: article.title,
     link: article.link,
     date: article.date,
@@ -100,11 +102,11 @@ const previewData = {
     surlignage: d.visuel.surlignage,
     alt: d.visuel.texte_alternatif,
     error: error ?? null,
-    images: pkg ? { slide1: `out/${pkg.files[0].name}`, slide2: `out/${pkg.files[1].name}`, story: `out/${pkg.files[2].name}`, x: xpkg ? `out/${xpkg.files[0].name}` : null } : null,
+    images: pkg ? { slide1: `out/${pkg.files[0].name}`, slide2: `out/${pkg.files[1].name}`, story: `out/${pkg.files[2].name}`, x: xpkg ? `out/${xpkg.files[0].name}` : null, bluesky: bpkg ? `out/${bpkg.files[0].name}` : null } : null,
     networks: {
       instagram: { text: pkg?.caption ?? d.instagram.texte, hashtags: d.instagram.hashtags },
       facebook: { text: d.facebook.texte, comment: facebookComment(article, d) },
-      bluesky: { text: composeBluesky(d) },
+      bluesky: { text: bpkg?.text ?? composeBluesky(d), mode: bpkg?.mode ?? 'card' },
       threads: { text: d.threads.texte, sujet: d.threads.sujet ?? '' },
       x: { text: composeXText(d), link: article.link },
     },

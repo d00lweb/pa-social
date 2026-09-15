@@ -68,6 +68,18 @@ Légende Instagram :
 
 Les lignes « vides » contiennent le caractère invisible U+2800, car Instagram supprime les lignes réellement vides.
 
+### Bluesky (`src/channels/bluesky.mjs`)
+
+API AT Protocol officielle et gratuite : connexion par **mot de passe d'application** (`BLUESKY_HANDLE`, `BLUESKY_APP_PASSWORD`). Le canal reste **inactif tant que ces deux variables manquent** (`requiresEnv`).
+
+- **4 articles sur 5 : carte de lien** avec notre visuel en 1200×627 (1,91:1, moins de 1 Mo). La carte affiche le titre et la description de l'article, et le texte ne contient pas d'URL.
+- **1 article sur 5 : image 4:5** (1080×1350) avec texte alternatif, puis « ➡️ Lire l'article » à la ligne, rendu cliquable. Le choix est stable pour un même article (`imageEvery`).
+- **Texte :** hashtag du lieu cliquable, intégré au texte, 300 caractères maximum, langue du post déclarée en français.
+- **Réglages :** validation Telegram, écart de 2 h 30 à 4 h, rien entre 22 h et 8 h, attente aléatoire avant publication.
+- **Coupe-circuit** en cas de limite (HTTP 429) ou de sanction du compte.
+- **Test d'accès, sans publier :** `npm run smoke:bsky`.
+- **Identifiant de domaine** `@passion-aquitaine.fr` (optionnel) : enregistrement DNS TXT `_atproto.passion-aquitaine.fr` = `did=did:plc:ypqeiof554p2x7wxn5syoq7o`, puis dans l'app Bluesky : Réglages → Compte → Identifiant → « J'ai mon propre domaine ». Mettre ensuite à jour `BLUESKY_HANDLE`.
+
 ### Kit X (`src/channels/x.mjs`)
 
 Pas d'API, qui est payante : X est un canal « manuel » de la file (`manual: true`), avec la même validation que les autres réseaux, et rien n'est envoyé entre 22 h et 7 h. Une fois l'article validé, le bot envoie sur Telegram :
@@ -287,6 +299,8 @@ Modèle : `.env.example`. Le même contenu est stocké dans le secret GitHub `SO
 | `TELEGRAM_BOT_TOKEN` | Token du bot | @BotFather |
 | `TELEGRAM_CHAT_ID` | Chat destinataire | `getUpdates` du bot après lui avoir écrit |
 | `ANTHROPIC_API_KEY` | Clé API Claude (rédacteur IA) | console.anthropic.com → API Keys (clé « pa-social ») |
+| `BLUESKY_HANDLE` | Identifiant Bluesky | `passion-aquitaine.bsky.social` (ou le domaine une fois configuré) |
+| `BLUESKY_APP_PASSWORD` | Mot de passe d'application | App Bluesky → Réglages → Confidentialité et sécurité → Mots de passe d'application |
 | `TEST_IMAGE` | Image publique pour `smoke-ig.mjs` | une ou plusieurs URL, séparées par des virgules |
 
 Variables de test : `DRY_RUN=1` (rendu + FTP, sans Instagram ni Telegram ni état) et `DRY_RUN_LATEST=n` (avec `DRY_RUN`, traite les n derniers articles du flux).
@@ -398,7 +412,9 @@ src/channels/instagram.mjs      canal Instagram : prepare (rendu + garde-fous), 
 src/channels/meta-graph.mjs     client API Graph (Instagram, Facebook)
 src/channels/telegram.mjs       client Telegram (messages, photos, boutons, commandes, story)
 src/channels/preview.mjs        message d'aperçu et boutons
-src/channels/x.mjs              kit X : visuel 16:9, texte, lien de rédaction pré-remplie
+src/channels/x.mjs              kit X : visuel 4:5, post avec lien, lien de rédaction pré-remplie
+src/channels/bluesky.mjs        Bluesky : carte de lien ou image, facettes, AT Protocol
+scripts/smoke-bsky.mjs          test de connexion Bluesky
 src/core/control.mjs            commandes, pause, validation, décisions (logique pure)
 scripts/telegram-test.mjs       menu du bot + aperçu d'exemple
 state/controls.json             pauses et validation réglées par Telegram (commité par le bot)
@@ -439,3 +455,4 @@ Dépendances : `fast-xml-parser`, `sharp`, `playwright`, `basic-ftp`. Node 24, E
 | 15/09/2026 | Étape 5 : kit X sur Telegram (visuel 16:9 1600×900, texte copiable avec lien, bouton de rédaction pré-remplie), canal X manuel dans la file avec validation, variante sans logo Ouest-France prête. |
 | 15/09/2026 | Kit X revu d'après les données (Buffer, Nieman Lab) : post natif texte + image sans lien, lien publié en réponse. Visuel X : bandeau centré, titre sur toute la largeur, dégradé bas. |
 | 15/09/2026 | Charte v4, décisions utilisateur : X en image 4:5 (1080×1350) + texte + « ➡️ lien » à la ligne ; au moins un emoji stratégique dans chaque texte de chaque réseau (choisi selon le sujet, placement varié, non répété, sobre si sujet sensible). |
+| 15/09/2026 | Charte v5 : placement de l'emoji imposé par réseau, en rotation. Étape 6 : canal Bluesky livré (carte de lien 1200×627 ou image 4:5 + lien, hashtag cliquable, validation Telegram, coupe-circuit), inactif tant que les identifiants manquent. |

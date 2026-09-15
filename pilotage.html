@@ -101,6 +101,53 @@
   .sheet img { width: 100%; border-radius: 8px; }
   .sheet .empty { color: var(--muted); font-size: 13.5px; }
 
+  /* Aperçus par réseau */
+  .pv-bar { display: flex; flex-wrap: wrap; gap: 12px 20px; align-items: end; justify-content: space-between; }
+  .pv-select { display: grid; gap: 6px; min-width: 0; flex: 1 1 320px; max-width: 560px; }
+  .pv-select select { font: inherit; font-size: 14px; padding: 9px 12px; border-radius: 10px; border: 1px solid var(--line); background: var(--panel); color: var(--ink); width: 100%; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+  .chip { font: inherit; font-size: 13px; font-weight: 600; padding: 7px 14px; border-radius: 999px; border: 1px solid var(--line); background: var(--panel); color: var(--ink); cursor: pointer; }
+  .chip:hover { border-color: var(--red); }
+  .chip.on { background: var(--ink); color: var(--panel); border-color: var(--ink); }
+  .chip:focus-visible, .pv-select select:focus-visible { outline: 2px solid var(--red); outline-offset: 2px; }
+  .pv-meta { display: flex; flex-wrap: wrap; gap: 8px; font-size: 13px; color: var(--muted); }
+  .pv-meta span { background: var(--panel); border: 1px solid var(--line); border-radius: 999px; padding: 3px 10px; }
+  .pv-meta .warn { color: var(--next); background: var(--next-soft); border-color: transparent; }
+  .pv-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; align-items: start; }
+  .pv-grid.single { grid-template-columns: minmax(0, 460px); }
+  .post { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; box-shadow: var(--shadow); overflow: hidden; display: grid; }
+  .post-net { display: flex; justify-content: space-between; align-items: center; padding: 10px 14px; font-size: 12px; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); border-bottom: 1px solid var(--line); background: var(--ground); }
+  .count { font-family: var(--mono); font-weight: 500; letter-spacing: 0; text-transform: none; }
+  .count.bad { color: var(--red); }
+  .who { display: flex; align-items: center; gap: 10px; padding: 12px 14px 8px; }
+  .avatar { width: 34px; height: 34px; border-radius: 50%; background: var(--red); color: #fff; display: grid; place-items: center; font-weight: 800; font-size: 12px; flex: none; }
+  .who b { font-size: 14px; display: block; line-height: 1.2; }
+  .who small { color: var(--muted); font-size: 12px; }
+  .ptext { padding: 4px 14px 12px; font-size: 14px; line-height: 1.45; white-space: pre-line; overflow-wrap: anywhere; }
+  .ptext .tag, .ptext .lnk { color: #1F6FD1; }
+  .more { color: var(--muted); cursor: pointer; background: none; border: 0; font: inherit; padding: 0; }
+  .media { position: relative; background: var(--idle-soft); }
+  .media img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .r45 { aspect-ratio: 4 / 5; }
+  .r169 { aspect-ratio: 16 / 9; }
+  .r191 { aspect-ratio: 1.91 / 1; }
+  .tmp { position: absolute; top: 8px; left: 8px; background: rgba(0,0,0,.72); color: #fff; font-size: 11px; font-weight: 600; padding: 3px 8px; border-radius: 6px; }
+  .dots { position: absolute; bottom: 10px; left: 0; right: 0; display: flex; justify-content: center; gap: 6px; }
+  .dots button { width: 8px; height: 8px; padding: 0; border-radius: 50%; border: 0; background: rgba(255,255,255,.55); cursor: pointer; }
+  .dots button.on { background: #fff; }
+  .card-link { margin: 0 14px 14px; border: 1px solid var(--line); border-radius: 12px; overflow: hidden; }
+  .card-link div { padding: 8px 12px 10px; display: grid; gap: 2px; }
+  .card-link small { color: var(--muted); font-size: 12px; }
+  .card-link b { font-size: 13.5px; line-height: 1.3; }
+  .comment { margin: 0 14px 14px; display: flex; gap: 8px; align-items: flex-start; }
+  .comment .avatar { width: 26px; height: 26px; font-size: 10px; }
+  .comment div { background: var(--ground); border-radius: 14px; padding: 7px 12px; font-size: 13px; overflow-wrap: anywhere; }
+  .topic { display: inline-block; margin: 0 14px 12px; font-size: 12.5px; color: var(--muted); border: 1px solid var(--line); border-radius: 999px; padding: 2px 10px; }
+  .story { display: flex; gap: 12px; align-items: center; padding: 12px 14px; border-top: 1px solid var(--line); font-size: 12.5px; color: var(--muted); }
+  .story img { width: 54px; aspect-ratio: 9 / 16; object-fit: cover; border-radius: 6px; }
+  .manual { margin: 0 14px 14px; font-size: 12px; color: var(--muted); }
+  .empty-box { background: var(--panel); border: 1px dashed var(--line); border-radius: 14px; padding: 22px; color: var(--muted); }
+
   /* Feuille de route */
   .road { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(10, 1fr); gap: 6px; }
   .road li { display: grid; gap: 8px; }
@@ -245,29 +292,26 @@
     </div>
   </section>
 
-  <!-- Maquettes -->
-  <section>
+  <!-- Aperçus par réseau (données : out/preview-data.js, généré par npm run preview) -->
+  <section id="apercus">
     <div class="sec-head">
-      <h2>Rendu actuel</h2>
-      <p class="hint">Visuels réels générés pour l'article « matrimoine », tels qu'hébergés sur le site</p>
+      <h2>Aperçus par réseau</h2>
+      <p class="hint" id="pv-stamp">Généré par <code>npm run preview -- --latest=6</code></p>
     </div>
-    <div class="mock">
-      <figure><img src="https://passion-aquitaine.ouest-france.fr/social/20260915-7c47bbf2-1.jpg" alt="Slide 1 : photo, rubrique Bordeaux, titre avec matrimoine surligné"><figcaption>Slide 1 · titre</figcaption></figure>
-      <figure><img src="https://passion-aquitaine.ouest-france.fr/social/20260915-7c47bbf2-2.jpg" alt="Slide 2 : description sur fond rouge"><figcaption>Slide 2 · description</figcaption></figure>
-      <figure><img src="https://passion-aquitaine.ouest-france.fr/social/20260915-7c47bbf2-story.jpg" alt="Story 9:16"><figcaption>Story · Telegram</figcaption></figure>
-      <div class="caption"><span class="label">Légende Instagram (IA)</span>
-Et si le mot « patrimoine » avait une sœur plus ancienne ? 🤔
-À Bordeaux, le terme matrimoine refait surface depuis plusieurs années, porté par des festivals. On vous raconte son origine et son histoire.
-
-➡️ Article complet sur le site Passion Aquitaine
-
-<span class="tags">#Bordeaux #Matrimoine #Histoire</span></div>
+    <div class="pv-bar">
+      <label class="pv-select"><span class="label">Article</span><select id="pv-article"></select></label>
+      <div class="chips" role="tablist" aria-label="Filtrer par réseau" id="pv-chips">
+        <button type="button" class="chip on" data-net="all">Tous</button>
+        <button type="button" class="chip" data-net="instagram">Instagram</button>
+        <button type="button" class="chip" data-net="facebook">Facebook</button>
+        <button type="button" class="chip" data-net="bluesky">Bluesky</button>
+        <button type="button" class="chip" data-net="threads">Threads</button>
+        <button type="button" class="chip" data-net="x">X</button>
+      </div>
     </div>
-    <details class="sheet">
-      <summary class="sec-head"><h3>Planche d'aperçu locale ▾</h3><p class="hint">Générée par <code>npm run preview</code> · textes de tous les réseaux dans <code>out/preview-textes.md</code></p></summary>
-      <img src="out/preview-1.jpg" alt="Planche d'aperçu des articles de test" onerror="this.hidden=true; this.nextElementSibling.hidden=false">
-      <p class="empty" hidden>Aucune planche pour l'instant sur ce poste. Lance <code>npm run preview</code> (articles de test) ou <code>npm run preview -- --latest=6</code> (derniers articles), puis recharge la page.</p>
-    </details>
+    <div id="pv-meta" class="pv-meta"></div>
+    <div id="pv-grid" class="pv-grid"></div>
+    <p id="pv-empty" class="empty-box" hidden>Aucun aperçu sur ce poste. Lance <code>npm run preview -- --latest=6</code> (derniers articles du flux) ou <code>npm run preview</code> (articles de test), puis recharge la page.</p>
   </section>
 
   <!-- Feuille de route -->
@@ -322,5 +366,105 @@ Et si le mot « patrimoine » avait une sœur plus ancienne ? 🤔
   </footer>
 
 </div>
+<script src="out/preview-data.js"></script>
+<script>
+(() => {
+  const data = window.PREVIEW;
+  const grid = document.getElementById('pv-grid');
+  const select = document.getElementById('pv-article');
+  const meta = document.getElementById('pv-meta');
+  if (!data || !data.articles?.length) {
+    document.getElementById('pv-empty').hidden = false;
+    document.querySelector('.pv-bar').hidden = true;
+    return;
+  }
+  const bust = `?v=${Date.parse(data.generatedAt)}`;
+  document.getElementById('pv-stamp').textContent = `Aperçus générés le ${new Date(data.generatedAt).toLocaleString('fr-FR', { dateStyle: 'short', timeStyle: 'short' })} · npm run preview -- --latest=6 pour actualiser`;
+  data.articles.forEach((a, i) => select.add(new Option(a.title, i)));
+
+  const LIMITS = { instagram: 2200, facebook: 120, bluesky: 300, threads: 500, x: 280 };
+  const NAMES = { instagram: 'Instagram', facebook: 'Facebook', bluesky: 'Bluesky', threads: 'Threads', x: 'X' };
+  let net = 'all';
+  const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
+  const len = (s) => [...String(s ?? '')].length;
+  const tags = (s) => esc(s).replace(/(#[\p{L}\p{N}]+)/gu, '<span class="tag">$1</span>');
+  const img = (src, cls, alt, badge) => `<div class="media ${cls}"><img src="${esc(src)}${bust}" alt="${esc(alt)}" loading="lazy">${badge ? `<span class="tmp">${badge}</span>` : ''}</div>`;
+  const head = (id, text, extra = '') => {
+    const n = len(text);
+    return `<div class="post-net"><span>${NAMES[id]}</span><span class="count ${n > LIMITS[id] ? 'bad' : ''}">${extra}${n} / ${LIMITS[id]}</span></div>`;
+  };
+  const who = (name, sub) => `<div class="who"><span class="avatar">PA</span><div><b>${esc(name)}</b><small>${esc(sub)}</small></div></div>`;
+
+  const renderers = {
+    instagram(a) {
+      const t = a.networks.instagram.text;
+      const short = len(t) > 125 ? `${esc([...t].slice(0, 125).join(''))}… <button type="button" class="more" data-full>plus</button>` : tags(t);
+      return `<article class="post">${head('instagram', t)}${who('lovaquitaine', a.rubrique)}
+        <div class="media r45" data-carousel><img src="${esc(a.images.slide1)}${bust}" alt="${esc(a.alt)}"><div class="dots"><button type="button" class="on" data-slide="${esc(a.images.slide1)}" aria-label="Image 1"></button><button type="button" data-slide="${esc(a.images.slide2)}" aria-label="Image 2"></button></div></div>
+        <div class="ptext" data-full-text="${esc(t)}">${short}</div>
+        <div class="story"><img src="${esc(a.images.story)}${bust}" alt="Story"><span>Story envoyée sur Telegram, sticker lien à poser à la main</span></div></article>`;
+    },
+    facebook(a) {
+      const t = a.networks.facebook.text;
+      return `<article class="post">${head('facebook', t)}${who('Passion Aquitaine', 'Page · Média')}
+        <div class="ptext">${esc(t)}</div>${img(a.images.slide1, 'r45', a.alt)}
+        <div class="comment" style="margin-top:12px"><span class="avatar">PA</span><div><b>Passion Aquitaine</b><br><span style="color:#1F6FD1">${esc(a.networks.facebook.comment)}</span></div></div></article>`;
+    },
+    bluesky(a) {
+      const b = a.networks.bluesky;
+      const t = `${b.text} ${b.hashtag}`;
+      return `<article class="post">${head('bluesky', t)}${who('Passion Aquitaine', '@passion-aquitaine.bsky.social')}
+        <div class="ptext">${tags(t)}</div>
+        <div class="card-link">${img(a.images.slide1, 'r191', a.alt, 'Visuel carte définitif : étape 6')}<div><small>passion-aquitaine.ouest-france.fr</small><b>${esc(a.title)}</b></div></div></article>`;
+    },
+    threads(a) {
+      const th = a.networks.threads;
+      return `<article class="post">${head('threads', th.text)}${who('lovaquitaine', 'Threads')}
+        <div class="ptext">${esc(th.text)}</div>${th.sujet ? `<span class="topic"># ${esc(th.sujet)}</span>` : ''}${img(a.images.slide1, 'r45', a.alt)}
+        <div class="ptext" style="padding-top:10px"><span class="lnk">${esc(a.link)}</span></div></article>`;
+    },
+    x(a) {
+      const t = a.networks.x.text;
+      return `<article class="post">${head('x', t, 'lien = 23 · ')}${who('Passion Aquitaine', 'X')}
+        <div class="ptext">${esc(t)}\n<span class="lnk">${esc(a.link.replace(/^https?:\/\//, '').slice(0, 30))}…</span></div>${img(a.images.slide1, 'r169', a.alt, 'Visuel 16:9 définitif : étape 5')}
+        <p class="manual" style="margin-top:10px">Kit envoyé sur Telegram, publication manuelle</p></article>`;
+    },
+  };
+
+  function render() {
+    const a = data.articles[select.value];
+    meta.innerHTML = [`<span>${esc(a.rubrique)}</span>`, `<span>Rédaction ${a.source === 'ia' ? 'IA' : 'règles de secours'}</span>`, a.nature ? `<span>${esc(a.nature)}</span>` : '', a.sensible ? '<span class="warn">sujet sensible</span>' : '', a.error ? `<span class="warn">Bloqué : ${esc(a.error)}</span>` : '', `<span><a href="${esc(a.link)}" target="_blank" rel="noopener">Article ↗</a></span>`].join('');
+    if (!a.images) {
+      grid.innerHTML = '<p class="empty-box">Visuels non générés pour cet article (bloqué).</p>';
+      return;
+    }
+    const nets = net === 'all' ? Object.keys(renderers) : [net];
+    grid.classList.toggle('single', net !== 'all');
+    grid.innerHTML = nets.map((n) => renderers[n](a)).join('');
+  }
+
+  document.getElementById('pv-chips').addEventListener('click', (e) => {
+    const chip = e.target.closest('.chip');
+    if (!chip) return;
+    net = chip.dataset.net;
+    document.querySelectorAll('.chip').forEach((c) => c.classList.toggle('on', c === chip));
+    render();
+  });
+  grid.addEventListener('click', (e) => {
+    const dot = e.target.closest('[data-slide]');
+    if (dot) {
+      const box = dot.closest('[data-carousel]');
+      box.querySelector('img').src = dot.dataset.slide + bust;
+      box.querySelectorAll('[data-slide]').forEach((d) => d.classList.toggle('on', d === dot));
+    }
+    if (e.target.matches('[data-full]')) {
+      const p = e.target.closest('[data-full-text]');
+      p.innerHTML = tags(p.dataset.fullText);
+    }
+  });
+  select.addEventListener('change', render);
+  render();
+})();
+</script>
 </body>
 </html>

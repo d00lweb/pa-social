@@ -81,6 +81,33 @@ for (let sheet = 0; sheet * 6 < rows.length; sheet++) {
   console.log(`Planche : ${file}`);
 }
 
+// Données de la page pilotage.html (aperçus par réseau)
+const previewData = {
+  generatedAt: new Date().toISOString(),
+  articles: rows.map(({ article, dossier: d, pkg, error }) => ({
+    title: article.title,
+    link: article.link,
+    date: article.date,
+    rubrique: d.rubrique,
+    source: d.source,
+    nature: d.nature ?? null,
+    sensible: Boolean(d.sensible),
+    surlignage: d.visuel.surlignage,
+    alt: d.visuel.texte_alternatif,
+    error: error ?? null,
+    images: pkg ? { slide1: `out/${pkg.files[0].name}`, slide2: `out/${pkg.files[1].name}`, story: `out/${pkg.files[2].name}` } : null,
+    networks: {
+      instagram: { text: pkg?.caption ?? d.instagram.texte, hashtags: d.instagram.hashtags },
+      facebook: { text: d.facebook.texte, comment: article.link },
+      bluesky: { text: d.bluesky.texte, hashtag: d.bluesky.hashtag },
+      threads: { text: d.threads.texte, sujet: d.threads.sujet ?? '' },
+      x: { text: d.x.texte },
+    },
+  })),
+};
+await writeFile(fromRoot('out', 'preview-data.js'), `window.PREVIEW = ${JSON.stringify(previewData)};\n`);
+console.log(`Données de pilotage : ${fromRoot('out', 'preview-data.js')}`);
+
 // Rapport texte : tous les réseaux, pour relecture
 const report = rows.map(({ article, dossier: d, pkg }) => [
   `## ${article.title}`,

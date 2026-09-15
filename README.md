@@ -2,7 +2,7 @@
 
 Republication automatique des articles de **Passion Aquitaine** (passion-aquitaine.ouest-france.fr) en **carrousel Instagram**, avec une **story** envoyée sur Telegram pour publication manuelle.
 
-> **Vue centrale** : ouvrir [pilotage.html](pilotage.html) dans un navigateur (réseaux, formats, rendu, avancement, leviers).
+> **Vue centrale** : ouvrir [pilotage.html](pilotage.html) dans un navigateur (réseaux, formats, avancement, leviers). Ses **aperçus par réseau**, avec filtre et choix de l'article, se mettent à jour avec `npm run preview -- --latest=6`, qui écrit `out/preview-data.js` (fichier local, non versionné).
 >
 > **Chantier en cours** : relais réseaux sociaux intelligent (Bluesky, Facebook, Threads, kit X, IA éditoriale), suivi dans [docs/ROADMAP.md](docs/ROADMAP.md).
 >

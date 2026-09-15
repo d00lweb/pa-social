@@ -2,6 +2,8 @@
 
 Republication automatique des articles de **Passion Aquitaine** (passion-aquitaine.ouest-france.fr) en **carrousel Instagram**, avec une **story** envoyée sur Telegram pour publication manuelle.
 
+> **Chantier en cours** : relais réseaux sociaux intelligent (Bluesky, Facebook, Threads, kit X, IA éditoriale), suivi dans [docs/ROADMAP.md](docs/ROADMAP.md).
+>
 > **Règle de maintenance** : ce document est la mémoire du projet. Il doit être mis à jour après chaque fonctionnalité ou modification importante (sections concernées + [Journal des évolutions](#journal-des-évolutions)). Dépôt public : n'y écrire **aucun secret** (mot de passe, token, identifiant de compte).
 
 ---
@@ -290,3 +292,4 @@ Dépendances : `fast-xml-parser`, `sharp`, `playwright`, `basic-ftp`. Node 24, E
 | 15/09/2026 | Écart minimum de 3 h entre deux publications ; état enrichi (heure, id Instagram). |
 | 15/09/2026 | Première publication (00h14, Montaigne), puis « matrimoine ». Cron GitHub jugé non fiable → déclenchement par tâche cron o2switch ; verrou appliqué à tous les déclenchements. |
 | 15/09/2026 | Création de ce README. |
+| 15/09/2026 | Stratégie multi-réseaux validée (Bluesky, Facebook 1 image + lien en commentaire, Threads, X en kit Telegram, IA éditoriale) et feuille de route technique `docs/ROADMAP.md`. |

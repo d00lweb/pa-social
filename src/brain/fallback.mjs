@@ -13,6 +13,9 @@ export function themeOf(article) {
   return ed.themes.find((t) => t.match.some((m) => new RegExp(`(^|[^\\p{L}])${fold(m).replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}`, 'u').test(text))) ?? null;
 }
 
+// Règles de secours : un emoji du thème en fin de texte, sans point juste avant
+const withEmoji = (text, emoji) => `${text.replace(/[.…\s]+$/u, '')} ${emoji}`;
+
 const clip = (s, n) => ([...s].length <= n ? s : `${[...s].slice(0, n - 1).join('').replace(/\s+\S*$/, '')}…`);
 
 // Dossier sans IA : règles, lexique géographique et thèmes
@@ -23,6 +26,7 @@ export function fallbackDossier(article) {
   const titre = frenchTypography(stripGeoLead(article.title, rubrique));
   const { highlight } = pickHighlight(titre, { avoid: [rubrique] });
   const description = frenchTypography(article.description);
+  const emoji = ed.fallbackEmojis[theme?.rubrique] ?? ed.fallbackEmojis.default;
 
   const tags = [place?.hashtag ?? (rubrique === ed.defaultRubrique ? null : toHashtag(rubrique)), theme?.hashtag, ed.regionHashtag]
     .filter(Boolean)
@@ -34,12 +38,12 @@ export function fallbackDossier(article) {
     sensible: false,
     rubrique,
     visuel: { titre, surlignage: highlight, description, texte_alternatif: clip(`${rubrique} : ${titre}`, ed.limits.altText) },
-    instagram: { texte: description, hashtags: tags.slice(0, 3) },
+    instagram: { texte: withEmoji(description, emoji), hashtags: tags.slice(0, 3) },
     // Facebook sans « Voir plus » : le titre s'il tient, jamais un texte coupé
-    facebook: { texte: [...titre].length <= ed.limits.facebook ? titre : clip(titre, ed.limits.facebook) },
-    bluesky: { texte: clip(description, ed.limits.bluesky), hashtag: tags[0] },
-    threads: { texte: clip(description, ed.limits.threads), sujet: (place?.name ?? theme?.rubrique ?? rubrique).replace(/[.&#]/g, '') },
-    x: { texte: clip(titre, ed.limits.x) },
+    facebook: { texte: withEmoji([...titre].length <= ed.limits.facebook - 3 ? titre : clip(titre, ed.limits.facebook - 3), emoji) },
+    bluesky: { texte: withEmoji(clip(description, ed.limits.bluesky - 3), emoji), hashtag: tags[0] },
+    threads: { texte: withEmoji(clip(description, ed.limits.threads - 3), emoji), sujet: (place?.name ?? theme?.rubrique ?? rubrique).replace(/[.&#]/g, '') },
+    x: { texte: withEmoji(clip(titre, ed.limits.x - 3), emoji) },
     source: 'regles',
   };
 }

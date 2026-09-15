@@ -9,7 +9,7 @@ import { buildDossier } from '../src/brain/dossier.mjs';
 import { loadMemory } from '../src/brain/memory.mjs';
 import { createRenderer } from '../src/media/render.mjs';
 import { fromRoot } from '../src/core/config.mjs';
-import { composeBluesky, composeXText, facebookComment } from '../src/brain/compose.mjs';
+import { composeBluesky, composeX, composeXText, facebookComment } from '../src/brain/compose.mjs';
 
 const latest = Number(process.argv.find((a) => a.startsWith('--latest='))?.split('=')[1]) || 0;
 if (process.argv.includes('--sans-ia')) delete process.env.ANTHROPIC_API_KEY;
@@ -121,7 +121,7 @@ const report = rows.map(({ article, dossier: d, pkg }) => [
   `**Facebook** : ${d.facebook.texte}`, `> 1er commentaire : ${facebookComment(article, d)}`, '',
   `**Bluesky** : ${composeBluesky(d)}`, '',
   `**Threads** : ${d.threads.texte}${d.threads.sujet ? ` [sujet : ${d.threads.sujet}]` : ''}`, '',
-  `**X** : ${composeXText(d)}`, `> Réponse : L’article complet 👉 ${article.link}`, '',
+  `**X** : ${composeX(d, article.link)}`, '',
 ].join('\n')).join('\n');
 const cost = (tokensIn * 5 + tokensOut * 25) / 1e6;
 await writeFile(fromRoot('out', 'preview-textes.md'), `# Aperçu des textes\n\nNouveaux appels IA : ${tokensIn} tokens en entrée, ${tokensOut} en sortie, ~${cost.toFixed(3)} $.\n\n${report}`);

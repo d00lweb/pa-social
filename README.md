@@ -71,12 +71,11 @@ Les lignes « vides » contiennent le caractère invisible U+2800, car Instagram
 ### Kit X (`src/channels/x.mjs`)
 
 Pas d'API, qui est payante : X est un canal « manuel » de la file (`manual: true`), avec la même validation que les autres réseaux, et rien n'est envoyé entre 22 h et 7 h. Une fois l'article validé, le bot envoie sur Telegram :
-- le **visuel 16:9 en 1600×900**, en fichier pour garder la qualité d'origine ;
-- le **texte du post**, sans lien et avec le hashtag du lieu intégré, dans un bloc qui se copie d'un appui, avec le compteur sur 280 ;
-- la **réponse à publier sous le post** : « L'article complet 👉 lien » ;
-- un bouton **« ✍️ Publier sur X »**, un lien `x.com/intent/post` qui ouvre X avec le texte pré-rempli. Il ne reste qu'à joindre l'image.
+- le **visuel titre en 4:5 (1080×1350)**, le même que le slide 1 d'Instagram, en fichier pour garder la qualité d'origine ;
+- le **post**, qui se copie d'un appui : texte avec le hashtag du lieu intégré, puis à la ligne « ➡️ lien », avec le compteur X sur 280 (un lien compte 23, un emoji 2) ;
+- un bouton **« ✍️ Publier sur X »**, un lien `x.com/intent/post` qui ouvre X avec le post pré-rempli. Il ne reste qu'à joindre l'image.
 
-Pourquoi le lien part en réponse : sur un compte X sans Premium, les posts avec lien ont un engagement médian de 0 % (Buffer, 18,8 millions de posts, août 2025), et une analyse de 18 éditeurs confirme qu'ils font nettement moins bien (Nieman Lab, avril 2026). Le post natif (texte + image) garde sa portée, et le lien reste accessible juste en dessous.
+Format décidé par l'utilisateur le 15/09/2026, sur le modèle des posts du Figaro : image 4:5, texte, puis lien à la ligne. Les études (Buffer, Nieman Lab) indiquent qu'un lien réduit la portée sur X ; à surveiller à l'étape 9.
 
 Variante du visuel sans le logo Ouest-France : `"hideOuestFrance": true` dans `config/channels.json`.
 
@@ -123,17 +122,17 @@ Pas de serveur : le bot lit boutons et commandes à **chaque passage du cron** (
 
   | Réseau | Longueur max | Emojis | Hashtags |
   |---|---|---|---|
-  | Instagram | 1ʳᵉ ligne ≤ 125 car. (le reste passe sous « plus », c'est inévitable) | 0–2 | 3 en fin de légende |
-  | Facebook | **120 car.** (pas de « Voir plus » sur mobile) | 0–1 | 0 |
-  | Bluesky | 260 car. (limite 300) | 0 | 1 de lieu |
-  | Threads | 450 car. (limite 500) | 0–1 | 0 dans le texte + 1 sujet Threads (`topic_tag`) |
-  | X | 230 car. (limite 280) | 0–1 | 0 |
+  | Instagram | 1ʳᵉ ligne ≤ 125 car. (le reste passe sous « plus », c'est inévitable) | 1–3 | 3 en fin de légende |
+  | Facebook | **120 car.** (pas de « Voir plus » sur mobile) | 1–2 | 0 |
+  | Bluesky | 260 car. (limite 300) | 1 | 1 de lieu |
+  | Threads | 450 car. (limite 500) | 1–2 | 0 dans le texte + 1 sujet Threads (`topic_tag`) |
+  | X | 230 car. + « ➡️ lien » à la ligne | 1–2 | 1 de lieu, s'il figure dans le texte |
 
-  Aucun emoji sur un sujet sensible.
+  **Emojis stratégiques :** au moins un par texte, choisi selon le sujet (🐝, 🏰, 🍷…), placé à des endroits variés (en tête, en fin de phrase, devant une information clé). Contrôles : pas les mêmes emojis que dans les 2 derniers posts du réseau, et sur un sujet sensible un seul emoji sobre (📍 🗞️ 📰 ℹ️). Les règles de secours ajoutent l'emoji du thème.
 - **Mise en forme par le code** (`src/brain/compose.mjs`) :
   - Instagram : ligne blanche entre chaque paragraphe.
   - Bluesky : le hashtag remplace le mot du lieu s'il figure déjà dans le texte, sinon il est ajouté à la fin.
-  - X : hashtag du lieu seulement s'il figure déjà dans le texte (jamais ajouté) ; post sans lien, lien publié en réponse.
+  - X : hashtag du lieu seulement s'il figure déjà dans le texte (jamais ajouté), puis « ➡️ lien » à la ligne.
   - Facebook : premier commentaire = formule variée (« 📖 L'article complet : »…) + lien.
 - **Anti-appât** (règle Meta sur l'« engagement bait ») :
   - questions limitées : seulement quand l'angle est « question », ou 1 article sur 3 pour Facebook et Threads ;
@@ -439,3 +438,4 @@ Dépendances : `fast-xml-parser`, `sharp`, `playwright`, `basic-ftp`. Node 24, E
 | 15/09/2026 | Anti-bannissement renforcé : écart variable 3 h – 4 h 30, reprise du matin variable, attente aléatoire de 0 à 9 min avant publication, coupe-circuit (pause automatique sur erreur de limite ou de restriction Meta). Hashtag du lieu intégré au texte X. Étape 4 annulée : URL réelle partout, sans suivi des clics. |
 | 15/09/2026 | Étape 5 : kit X sur Telegram (visuel 16:9 1600×900, texte copiable avec lien, bouton de rédaction pré-remplie), canal X manuel dans la file avec validation, variante sans logo Ouest-France prête. |
 | 15/09/2026 | Kit X revu d'après les données (Buffer, Nieman Lab) : post natif texte + image sans lien, lien publié en réponse. Visuel X : bandeau centré, titre sur toute la largeur, dégradé bas. |
+| 15/09/2026 | Charte v4, décisions utilisateur : X en image 4:5 (1080×1350) + texte + « ➡️ lien » à la ligne ; au moins un emoji stratégique dans chaque texte de chaque réseau (choisi selon le sujet, placement varié, non répété, sobre si sujet sensible). |

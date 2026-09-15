@@ -20,9 +20,9 @@ function inlineTag(text, tag) {
 // Bluesky : hashtag du lieu dans le texte s'il y figure, sinon ajouté à la fin
 export const composeBluesky = ({ bluesky }) => inlineTag(bluesky.texte, bluesky.hashtag) ?? `${bluesky.texte} ${bluesky.hashtag}`;
 
-// X : hashtag du lieu seulement s'il figure déjà dans le texte (jamais ajouté), puis lien sur la même ligne
+// X : hashtag du lieu seulement s'il figure déjà dans le texte (jamais ajouté), puis « ➡️ lien » à la ligne
 export const composeXText = ({ x, bluesky }) => inlineTag(x.texte, bluesky?.hashtag) ?? x.texte;
-export const composeX = (dossier, link) => `${composeXText(dossier)} ${link}`;
+export const composeX = (dossier, link) => `${composeXText(dossier)}\n➡️ ${link}`;
 
 // Commentaire Facebook : formule choisie en rotation à la création du dossier, sinon stable par article, + lien
 export function facebookComment(article, dossier) {

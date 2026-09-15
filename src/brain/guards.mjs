@@ -43,7 +43,11 @@ function properNames(text) {
 const tokens = (s) => String(s).split(/[\s  ]+/).filter(Boolean);
 
 // Problèmes d'un dossier IA ; liste vide = publiable
-export function checkDossier(d, { source, limits, stopwords, genericCategories, internalCategoryPattern, bannedHashtags, knownNames, similarityMax, memorySimilarityMax, memory = {}, questions = {}, baitPatterns = [] }) {
+const EMOJIS = /\p{Extended_Pictographic}️?/gu;
+const bareEmoji = (e) => e.replace(/️/g, '');
+export const extractEmojis = (text) => (String(text).match(EMOJIS) ?? []).map(bareEmoji);
+
+export function checkDossier(d, { source, limits, stopwords, genericCategories, internalCategoryPattern, bannedHashtags, knownNames, similarityMax, memorySimilarityMax, memory = {}, questions = {}, baitPatterns = [], sensitiveEmojis = [], recentEmojis = {} }) {
   const problems = [];
   const stop = new Set(stopwords.map((w) => fold(w)));
   const src = fold(source);
@@ -76,10 +80,15 @@ export function checkDossier(d, { source, limits, stopwords, genericCategories, 
     if (!text?.trim()) problems.push(`${net} : texte vide`);
     if (graphemes(text) > max[net]) problems.push(`${net} : ${graphemes(text)} caractères (${max[net]} max)`);
     if (/https?:\/\/|www\./i.test(text)) problems.push(`${net} : pas de lien dans le texte`);
-    if (d.sensible && EMOJI.test(text)) problems.push(`${net} : aucun emoji sur un sujet sensible`);
-    const emojis = (String(text).match(/\p{Extended_Pictographic}/gu) ?? []).length;
-    const emojiMax = limits.emoji?.[net] ?? 0;
-    if (emojis > emojiMax) problems.push(`${net} : ${emojis} emoji(s), ${emojiMax} max`);
+    // emojis : au moins 1, plafond par réseau ; sujet sensible : un seul, sobre ; pas les mêmes que les derniers posts
+    const found = extractEmojis(text);
+    const [emin, emax] = [].concat(limits.emoji?.[net] ?? [0, 0]).concat(limits.emoji?.[net] ?? 0).slice(0, 2);
+    if (found.length < emin) problems.push(`${net} : au moins ${emin} emoji (choisi selon le sujet)`);
+    if (found.length > (d.sensible ? 1 : emax)) problems.push(`${net} : ${found.length} emojis, ${d.sensible ? 1 : emax} max`);
+    const sober = sensitiveEmojis.map(bareEmoji);
+    if (d.sensible && found.some((e) => !sober.includes(e))) problems.push(`${net} : sujet sensible, emoji sobre uniquement (${sensitiveEmojis.join(' ')})`);
+    const recent = new Set((recentEmojis[net] ?? []).flat());
+    if (!d.sensible && found.length && found.every((e) => recent.has(e))) problems.push(`${net} : emoji(s) ${found.join('')} déjà utilisés dans les derniers posts`);
     if (/#[\p{L}\p{N}]/u.test(text)) problems.push(`${net} : pas de hashtag dans le texte`);
     if (questions[net] === false && /\?/.test(text)) problems.push(`${net} : pas de question pour ce post (questions limitées)`);
     const bait = baitPatterns.find((p) => fold(text).includes(fold(p)));

@@ -68,6 +68,7 @@ export async function buildDossier(article, { memory, useCache = false, log = co
     zones_possibles: candidateZones(article, place),
     angles,
     questions_autorisees: questions,
+    emojis_recents: memory.emojis ?? {},
     dernieres_accroches: memory.recent ?? {},
   };
 
@@ -81,7 +82,7 @@ export async function buildDossier(article, { memory, useCache = false, log = co
       return fallbackDossier(article);
     }
     const dossier = typeset(result.dossier);
-    const problems = checkDossier(dossier, { ...ed, source, knownNames: [...ed.knownNames, ...placeNames(), ...ed.themes.map((t) => t.rubrique)], memory: memory.recent ?? {}, questions });
+    const problems = checkDossier(dossier, { ...ed, source, knownNames: [...ed.knownNames, ...placeNames(), ...ed.themes.map((t) => t.rubrique)], memory: memory.recent ?? {}, questions, recentEmojis: memory.emojis ?? {} });
     if (!problems.length) {
       const final = {
         ...dossier,

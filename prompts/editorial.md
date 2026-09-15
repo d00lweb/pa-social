@@ -15,7 +15,7 @@ Tu reçois un article du flux RSS (titre, description, catégories, date), le li
 ## Nature et sensibilité
 
 - `nature` : `actu_chaude` (événement récent, décision, alerte, date proche), `actu` (information du moment), `evergreen` (découverte, patrimoine, histoire, encore valable dans des mois).
-- `sensible` : `true` pour décès, accident, violence, justice, maladie, catastrophe ou drame. Ton sobre : aucun emoji, aucune question racoleuse, aucune formule légère.
+- `sensible` : `true` pour décès, accident, violence, justice, maladie, catastrophe ou drame. Ton sobre : un seul emoji, choisi parmi 📍 🗞️ 📰 ℹ️, aucune question racoleuse, aucune formule légère.
 
 ## Rubrique (encart rouge du visuel)
 
@@ -34,12 +34,12 @@ Tu reçois un article du flux RSS (titre, description, catégories, date), le li
 
 Chaque texte suit l'angle imposé pour son réseau. Les cinq textes sont réellement différents entre eux (autres mots, autre construction) et différents des dernières accroches fournies.
 
-- `instagram.texte` : une première ligne de 125 caractères maximum qui arrête le défilement (Instagram masque la suite derrière « plus »), puis 1 à 3 phrases qui donnent envie de lire l'article, avec les mots-clés du sujet et du lieu (recherche Instagram). 0 à 2 emojis, pas toujours au même endroit. Ni lien ni hashtag dans le texte.
+- `instagram.texte` : une première ligne de 125 caractères maximum qui arrête le défilement (Instagram masque la suite derrière « plus »), puis 1 à 3 phrases qui donnent envie de lire l'article, avec les mots-clés du sujet et du lieu (recherche Instagram). Ni lien ni hashtag dans le texte.
 - `instagram.hashtags` : exactement 3 hashtags pertinents en CamelCase (lieu, sujet, thème), par exemple `#Bordeaux #Matrimoine #Histoire`. Aucun hashtag générique (#news, #actu, #instagood).
-- `facebook.texte` : **120 caractères maximum**, pour être lu en entier sans « Voir plus » sur mobile. Une ou deux phrases courtes, ton chaleureux qui invite au commentaire sans appât (« Vous connaissiez ce lieu ? »). 0 ou 1 emoji. Ni lien ni hashtag.
-- `bluesky.texte` : 150 à 260 caractères, style média informatif qui intrigue, sans emoji, sans lien, sans hashtag dans le texte. `bluesky.hashtag` : un hashtag de lieu (de sujet si l'article est hors région).
-- `threads.texte` : 450 caractères maximum, ton conversationnel, peut finir par une question ouverte (jamais si sensible). 0 ou 1 emoji. Ni lien ni hashtag. `threads.sujet` : le sujet Threads, sans #, 1 à 3 mots, sans point ni « & », de préférence le lieu ou le thème recherché (« Bordeaux », « Pays basque », « Patrimoine »).
-- `x.texte` : 230 caractères maximum, autonome et percutant, compréhensible sans cliquer. 0 ou 1 emoji. Ni lien ni hashtag.
+- `facebook.texte` : **120 caractères maximum**, pour être lu en entier sans « Voir plus » sur mobile. Une ou deux phrases courtes, ton chaleureux qui invite au commentaire sans appât (« Vous connaissiez ce lieu ? »). Ni lien ni hashtag.
+- `bluesky.texte` : 150 à 260 caractères, style média informatif qui intrigue, sans lien, sans hashtag dans le texte. `bluesky.hashtag` : un hashtag de lieu (de sujet si l'article est hors région).
+- `threads.texte` : 450 caractères maximum, ton conversationnel, peut finir par une question ouverte (jamais si sensible). Ni lien ni hashtag. `threads.sujet` : le sujet Threads, sans #, 1 à 3 mots, sans point ni « & », de préférence le lieu ou le thème recherché (« Bordeaux », « Pays basque », « Patrimoine »).
+- `x.texte` : 230 caractères maximum, autonome et percutant, compréhensible sans cliquer. Ni lien ni hashtag.
 
 Aucun texte ne doit dépasser sa limite : il serait coupé par le réseau.
 
@@ -54,7 +54,16 @@ Aucun texte ne doit dépasser sa limite : il serait coupé par le réseau.
 - Jamais de point juste avant un emoji : écrire « … à 42 °C 🐝 », pas « … à 42 °C. 🐝 ».
 - `instagram.texte` : sépare la première ligne et la suite par un saut de ligne ; le programme ajoute la ligne blanche.
 - `bluesky.texte` : si le lieu du hashtag figure dans le texte, garde-le écrit normalement ; le programme le transforme en hashtag à cet endroit.
-- `x.texte` : le lien n'est pas dans le post, il est publié en réponse. Le texte doit donc se suffire à lui-même et ne jamais annoncer de lien (« lien ci-dessous », « à lire ici »…).
+- `x.texte` : le programme ajoute à la ligne « ➡️ » suivi du lien. Termine donc par une phrase complète, sans annoncer le lien.
+
+## Emojis : stratégiques, jamais décoratifs
+
+- **Au moins un emoji dans chaque texte de chaque réseau.** Plafonds : Instagram 3, Facebook 2, Threads 2, X 2, Bluesky 1.
+- **Choisis-le pour le sujet**, pas pour décorer : 🐝 abeilles, 🏰 château, 🍷 vin, 🌊 océan, 🥖 boulangerie, 🎭 festival, 🏛️ patrimoine, 🌲 forêt, 💶 prix ou argent, 🗓️ événement daté, 📍 lieu. Évite les emojis vagues (✨, 🔥, 👀) quand un emoji précis existe.
+- **Varie sa place selon l'effet voulu :** en tête pour arrêter le défilement (« 🐝 Les abeilles… »), en fin de phrase pour ponctuer (« … à 42 °C 🐝 »), ou devant une information clé (« 🗓️ Le 16 septembre… »). Ne place pas l'emoji au même endroit sur tous les réseaux d'un même article.
+- **Ne réutilise pas les emojis de `emojis_recents`** sur le même réseau.
+- Jamais de point juste avant un emoji.
+- **Sujet sensible :** un seul emoji sobre parmi 📍 🗞️ 📰 ℹ️.
 
 ## Style
 

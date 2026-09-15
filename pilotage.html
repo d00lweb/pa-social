@@ -234,7 +234,7 @@
         <dl>
           <div><dt>Publication</dt><dd>Carrousel 2 images : titre sur photo + texte rédigé par l'IA</dd></div>
           <div><dt>Format</dt><dd><span class="ratio" style="width:12px;height:15px"></span>4:5 · 1440×1800</dd></div>
-          <div><dt>Texte</dt><dd>Accroche IA (1ʳᵉ ligne ≤ 125 car.) · 0–2 emojis · 3 hashtags</dd></div>
+          <div><dt>Texte</dt><dd>Accroche IA (1ʳᵉ ligne ≤ 125 car.) · 1–3 emojis · 3 hashtags</dd></div>
           <div><dt>Story</dt><dd>9:16 · 1080×1920, envoyée sur Telegram, sticker lien à poser à la main</dd></div>
           <div><dt>Mode</dt><dd>Validation Telegram avant chaque post</dd></div>
         </dl>
@@ -249,7 +249,7 @@
         <dl>
           <div><dt>Publication</dt><dd>Carte de lien avec notre visuel (4 posts sur 5), image + lien (1 sur 5)</dd></div>
           <div><dt>Format</dt><dd><span class="ratio" style="width:19px;height:10px"></span>Carte 1200×627 · image 4:5</dd></div>
-          <div><dt>Texte</dt><dd>Accroche 150–260 car., sans emoji, 1 hashtag de lieu</dd></div>
+          <div><dt>Texte</dt><dd>Accroche 150–260 car. · 1 emoji · 1 hashtag de lieu intégré</dd></div>
           <div><dt>Lien</dt><dd>URL de l'article</dd></div>
         </dl>
         <div class="net-foot"><a href="https://bsky.app/profile/passion-aquitaine.bsky.social" target="_blank" rel="noopener">passion-aquitaine.bsky.social ↗</a><span class="mono">Compte créé</span></div>
@@ -263,7 +263,7 @@
         <dl>
           <div><dt>Publication</dt><dd>1 image + lien de l'article en premier commentaire</dd></div>
           <div><dt>Format</dt><dd><span class="ratio" style="width:12px;height:15px"></span>4:5 · 1440×1800</dd></div>
-          <div><dt>Texte</dt><dd>120 car. max, lu en entier sans « Voir plus » · 0–1 emoji · 0 hashtag</dd></div>
+          <div><dt>Texte</dt><dd>120 car. max, lu en entier sans « Voir plus » · 1–2 emojis · 0 hashtag</dd></div>
           <div><dt>Rythme</dt><dd>Montée progressive : 1, puis 2, puis 3 posts par jour</dd></div>
         </dl>
         <div class="net-foot"><a href="https://www.facebook.com/227437307428711" target="_blank" rel="noopener">Page Passion Aquitaine ↗</a><span class="mono">42 630 abonnés</span></div>
@@ -277,7 +277,7 @@
         <dl>
           <div><dt>Publication</dt><dd>Rotation : image + lien · carte de lien · lien en réponse</dd></div>
           <div><dt>Format</dt><dd><span class="ratio" style="width:12px;height:15px"></span>4:5 · 1440×1800</dd></div>
-          <div><dt>Texte</dt><dd>450 car. max, conversationnel · 0–1 emoji · 1 sujet Threads</dd></div>
+          <div><dt>Texte</dt><dd>450 car. max, conversationnel · 1–2 emojis · 1 sujet Threads</dd></div>
           <div><dt>Lien</dt><dd>URL de l'article</dd></div>
         </dl>
         <div class="net-foot"><a href="https://www.threads.com/@lovaquitaine" target="_blank" rel="noopener">@lovaquitaine ↗</a><span class="mono">Compte créé</span></div>
@@ -290,9 +290,9 @@
         </div>
         <dl>
           <div><dt>Publication</dt><dd>Kit reçu sur Telegram, publié à la main (0 €)</dd></div>
-          <div><dt>Format</dt><dd><span class="ratio" style="width:19px;height:11px"></span>16:9 · 1600×900</dd></div>
-          <div><dt>Texte</dt><dd>230 car. max, compréhensible sans cliquer · 0–1 emoji · 0 hashtag</dd></div>
-          <div><dt>Lien</dt><dd>En réponse au post, pas dans le post (lien = portée quasi nulle sur X)</dd></div>
+          <div><dt>Format</dt><dd><span class="ratio" style="width:12px;height:15px"></span>4:5 · 1080×1350</dd></div>
+          <div><dt>Texte</dt><dd>230 car. max · 1–2 emojis · hashtag du lieu intégré</dd></div>
+          <div><dt>Lien</dt><dd>À la ligne dans le post : « ➡️ lien »</dd></div>
           <div><dt>Mode</dt><dd>Après ta validation, kit reçu sur Telegram (jamais entre 22 h et 7 h)</dd></div>
         </dl>
         <div class="net-foot"><span>Compte X à préciser</span><span class="mono">Pas d'API · 0 €</span></div>
@@ -448,10 +448,10 @@
     },
     x(a) {
       const t = a.networks.x.text;
-      return `<article class="post">${head('x', t)}${who('Passion Aquitaine', 'X')}
-        <div class="ptext">${tags(t)}</div>${a.images.x ? img(a.images.x, 'r169', a.alt) : img(a.images.slide1, 'r169', a.alt, 'Visuel X non généré')}
-        <div class="comment" style="margin-top:12px"><span class="avatar">PA</span><div><b>Réponse</b><br>L’article complet 👉 <span style="color:#1F6FD1">${esc(a.link)}</span></div></div>
-        <p class="manual">Kit envoyé sur Telegram, publication manuelle</p></article>`;
+      const counted = `${t}\n➡️ ${'x'.repeat(23)}`;
+      return `<article class="post">${head('x', counted)}${who('Passion Aquitaine', 'X')}
+        <div class="ptext">${tags(t)}\n➡️ <span class="lnk">${esc(a.link.replace(/^https?:\/\//, '').slice(0, 30))}…</span></div>${img(a.images.x ?? a.images.slide1, 'r45', a.alt)}
+        <p class="manual" style="margin-top:10px">Kit envoyé sur Telegram, publication manuelle</p></article>`;
     },
   };
 

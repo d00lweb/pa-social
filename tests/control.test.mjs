@@ -39,14 +39,15 @@ test('réglages : Telegram prioritaire sur la configuration', () => {
 });
 
 test('kit X : lien de rédaction pré-remplie, message copiable, statut « déjà publié »', async () => {
-  const { intentUrl, kitMessage } = await import('../src/channels/x.mjs');
-  const url = new URL(intentUrl('Le matrimoine revient à #Bordeaux'));
+  const { intentUrl, kitMessage, xLength } = await import('../src/channels/x.mjs');
+  const post = 'Le matrimoine revient à #Bordeaux 🎭\n➡️ https://site.fr/un-tres-long-lien-d-article';
+  const url = new URL(intentUrl(post));
   assert.equal(url.origin + url.pathname, 'https://x.com/intent/post');
-  assert.equal(url.searchParams.get('text'), 'Le matrimoine revient à #Bordeaux');
-  assert.equal(url.searchParams.get('url'), null);
-  const msg = kitMessage({ article: { title: 'A & B' }, text: 'Texte <ok>', link: 'https://site.fr/a' });
-  assert.ok(msg.includes('<code>Texte &lt;ok&gt;</code>') && msg.includes('A &amp; B'));
-  assert.ok(msg.includes('<code>L’article complet 👉 https://site.fr/a</code>'));
+  assert.equal(url.searchParams.get('text'), post);
+  // 34 caractères + emoji (2) + saut de ligne (1) + ➡️ (2) + espace (1) + lien (23)
+  assert.equal(xLength(post), 34 + 2 + 1 + 2 + 1 + 23);
+  const msg = kitMessage({ article: { title: 'A & B' }, text: 'Texte <ok>\n➡️ https://site.fr/a', link: 'https://site.fr/a' });
+  assert.ok(msg.includes('<code>Texte &lt;ok&gt;\n➡️ https://site.fr/a</code>') && msg.includes('A &amp; B'));
   const dossier = { rubrique: 'R', source: 'ia', facebook: { texte: 'f' }, bluesky: { texte: 'b', hashtag: '#R' }, threads: { texte: 't' }, x: { texte: 'x' } };
   const text = buildPreviewText({ article: { guid: 'g', title: 'T', link: 'https://x' }, dossier, caption: 'c', items: [{ channel: 'x', status: 'awaiting', dueAt: 0 }], published: ['instagram'], when: () => 'vers 9h' });
   assert.ok(text.includes('<b>Instagram</b> · <i>déjà publié</i>') && text.includes('kit Telegram'));

@@ -28,9 +28,12 @@ export function nextAngles(memory, angles, networks) {
 
 export function remember(memory, dossier, networks, size) {
   memory.recent ??= {};
+  memory.emojis ??= {};
   for (const net of networks) {
     const text = dossier[net]?.texte;
     if (!text) continue;
     memory.recent[net] = [...(memory.recent[net] ?? []), text.slice(0, 160)].slice(-size);
+    const emojis = (text.match(/\p{Extended_Pictographic}/gu) ?? []);
+    memory.emojis[net] = [...(memory.emojis[net] ?? []), emojis].slice(-2);
   }
 }

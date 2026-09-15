@@ -21,11 +21,11 @@ const good = () => ({
   sensible: false,
   rubrique: 'Bordeaux',
   visuel: { titre: 'Pourquoi Bordeaux parle désormais de « matrimoine »', surlignage: 'matrimoine', description: 'Plus ancien que patrimoine, le matrimoine revient à Bordeaux, porté par les festivals.', texte_alternatif: 'Bordeaux : pourquoi la ville parle de matrimoine' },
-  instagram: { texte: 'Un mot plus vieux que patrimoine refait surface.\nÀ Bordeaux, festivals et histoire lui redonnent vie.', hashtags: ['#Bordeaux', '#Matrimoine', '#Histoire'] },
-  facebook: { texte: 'Vous connaissiez le matrimoine ? Ce terme ancien revient dans les festivals bordelais.' },
-  bluesky: { texte: 'Plus ancien que « patrimoine », le mot matrimoine resurgit depuis plusieurs années dans la vie culturelle bordelaise. Origine et usages.' },
-  threads: { texte: 'On parle beaucoup de patrimoine. Et si son jumeau oublié revenait ? À Bordeaux, les festivals remettent le matrimoine au centre.', sujet: 'Bordeaux' },
-  x: { texte: 'Matrimoine : le mot oublié que Bordeaux remet à l’honneur.' },
+  instagram: { texte: 'Un mot plus vieux que patrimoine refait surface 👀\nÀ Bordeaux, festivals et histoire lui redonnent vie.', hashtags: ['#Bordeaux', '#Matrimoine', '#Histoire'] },
+  facebook: { texte: 'Vous connaissiez le matrimoine ? Ce terme ancien revient dans les festivals bordelais 🎭' },
+  bluesky: { texte: 'Plus ancien que « patrimoine », le mot matrimoine resurgit depuis plusieurs années dans la vie culturelle bordelaise 🏛️ Origine et usages.' },
+  threads: { texte: 'On parle beaucoup de patrimoine. Et si son jumeau oublié revenait ? 🎭 À Bordeaux, les festivals remettent le matrimoine au centre.', sujet: 'Bordeaux' },
+  x: { texte: 'Matrimoine : le mot oublié que Bordeaux remet à l’honneur 🎭' },
 });
 const ctx = { ...ed, source, knownNames: ed.knownNames };
 
@@ -48,7 +48,7 @@ test('contrôles : les défauts connus sont refusés', () => {
     [(d) => { d.threads.texte = d.facebook.texte; }, /mêmes tournures/],
     [(d) => { d.facebook.texte = `${d.facebook.texte} Un rendez-vous culturel à ne pas manquer cette saison.`; }, /facebook : \d+ caractères/],
     [(d) => { d.x.texte = 'Le matrimoine revient à Bordeaux #Bordeaux'; }, /hashtag dans le texte/],
-    [(d) => { d.facebook.texte = 'Le matrimoine revient 🎭✨'; }, /emoji/],
+    [(d) => { d.facebook.texte = 'Le matrimoine revient 🎭✨🎉'; }, /emoji/],
     [(d) => { d.visuel.description = 'x'.repeat(230); }, /2ᵉ image/],
     [(d) => { d.threads.sujet = 'Bordeaux & Co.'; }, /sujet Threads/],
   ];
@@ -87,18 +87,30 @@ test('composition : hashtag Bluesky dans le texte, lien X à la suite, commentai
   const { composeBluesky, composeX, facebookComment } = await import('../src/brain/compose.mjs');
   const d = good();
   d.bluesky.hashtag = '#Bordeaux';
-  assert.equal(composeBluesky(d), 'Plus ancien que « patrimoine », le mot matrimoine resurgit depuis plusieurs années dans la vie culturelle bordelaise. Origine et usages. #Bordeaux');
+  assert.equal(composeBluesky(d), 'Plus ancien que « patrimoine », le mot matrimoine resurgit depuis plusieurs années dans la vie culturelle bordelaise 🏛️ Origine et usages. #Bordeaux');
   d.bluesky.texte = 'À Bordeaux, le matrimoine revient.';
   assert.equal(composeBluesky(d), 'À #Bordeaux, le matrimoine revient.');
   d.bluesky.hashtag = '#PaysBasque';
   d.bluesky.texte = 'Au Pays basque, un centre soigne les animaux.';
   assert.equal(composeBluesky(d), 'Au Pays basque, un centre soigne les animaux. #PaysBasque');
-  assert.equal(composeX(d, 'https://x.fr/a'), `${d.x.texte} https://x.fr/a`);
+  assert.equal(composeX(d, 'https://x.fr/a'), `${d.x.texte}\n➡️ https://x.fr/a`);
   d.bluesky.hashtag = '#Bordeaux';
-  assert.equal(composeX(d, 'https://x.fr/a'), 'Matrimoine : le mot oublié que #Bordeaux remet à l’honneur. https://x.fr/a');
+  assert.equal(composeX(d, 'https://x.fr/a'), 'Matrimoine : le mot oublié que #Bordeaux remet à l’honneur 🎭\n➡️ https://x.fr/a');
   const comment = facebookComment({ guid: 'g1', link: 'https://x.fr/a' });
   assert.match(comment, /^\S+ .+ : https:\/\/x\.fr\/a$/u);
   assert.equal(comment, facebookComment({ guid: 'g1', link: 'https://x.fr/a' }));
+});
+
+test('contrôles : emojis obligatoires, sobres si sensible, non répétés', () => {
+  const d = good();
+  d.bluesky.hashtag = '#Bordeaux';
+  const base = { ...ctx, sensitiveEmojis: ['📍', '🗞️', '📰', 'ℹ️'] };
+  d.x.texte = 'Matrimoine : le mot oublié que Bordeaux remet à l’honneur';
+  assert.match(checkDossier(d, base).join(' | '), /x : au moins 1 emoji/);
+  d.x.texte = 'Matrimoine : le mot oublié que Bordeaux remet à l’honneur 🎭';
+  assert.match(checkDossier(d, { ...base, recentEmojis: { x: [['🎭']] } }).join(' | '), /x : emoji\(s\) 🎭 déjà utilisés/);
+  d.sensible = true;
+  assert.match(checkDossier(d, base).join(' | '), /sujet sensible, emoji sobre/);
 });
 
 test('contrôles : questions limitées, appâts et point avant emoji refusés', () => {
@@ -121,6 +133,6 @@ test('contrôles : début de ligne, hashtag et rubrique ne sont pas des noms inv
   const d = good();
   d.bluesky.hashtag = '#Bordeaux';
   d.visuel.texte_alternatif = 'Visuel aux couleurs de Bordeaux : le matrimoine';
-  d.instagram.texte = 'Comprendre le matrimoine en une minute.\nVous connaissiez ce mot bordelais ?';
+  d.instagram.texte = 'Comprendre le matrimoine en une minute 🎭\nVous connaissiez ce mot bordelais ?';
   assert.deepEqual(checkDossier(d, ctx), []);
 });

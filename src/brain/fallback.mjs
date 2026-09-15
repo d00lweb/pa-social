@@ -33,11 +33,12 @@ export function fallbackDossier(article) {
     nature: 'actu',
     sensible: false,
     rubrique,
-    visuel: { titre, surlignage: highlight, texte_alternatif: clip(`${rubrique} : ${titre}`, ed.limits.altText) },
+    visuel: { titre, surlignage: highlight, description, texte_alternatif: clip(`${rubrique} : ${titre}`, ed.limits.altText) },
     instagram: { texte: description, hashtags: tags.slice(0, 3) },
-    facebook: { texte: clip(description, ed.limits.facebook) },
+    // Facebook sans « Voir plus » : le titre s'il tient, jamais un texte coupé
+    facebook: { texte: [...titre].length <= ed.limits.facebook ? titre : clip(titre, ed.limits.facebook) },
     bluesky: { texte: clip(description, ed.limits.bluesky), hashtag: tags[0] },
-    threads: { texte: clip(description, ed.limits.threads) },
+    threads: { texte: clip(description, ed.limits.threads), sujet: (place?.name ?? theme?.rubrique ?? rubrique).replace(/[.&#]/g, '') },
     x: { texte: clip(titre, ed.limits.x) },
     source: 'regles',
   };

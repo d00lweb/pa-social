@@ -64,6 +64,10 @@ export function checkDossier(d, { source, limits, stopwords, genericCategories, 
   if (hl.length && (stop.has(fold(hl[0])) || stop.has(fold(hl.at(-1))))) problems.push(`surlignage « ${surlignage} » : ne doit ni commencer ni finir par un petit mot`);
   if (hl.length === 1 && graphemes(hl[0]) < 3 && !/\d/.test(hl[0])) problems.push(`surlignage « ${surlignage} » trop faible`);
   if (graphemes(d.visuel.texte_alternatif) > limits.altText) problems.push('texte alternatif trop long');
+  if (!d.visuel.description?.trim()) problems.push('texte de la 2ᵉ image vide');
+  if (graphemes(d.visuel.description) > limits.slideText) problems.push(`texte de la 2ᵉ image : ${graphemes(d.visuel.description)} caractères (${limits.slideText} max)`);
+  if (EMOJI.test(d.visuel.description) || d.visuel.description.includes('#')) problems.push('texte de la 2ᵉ image : ni emoji ni hashtag');
+  if (!d.threads.sujet || graphemes(d.threads.sujet) > limits.threadsTopic || /[.&#]/.test(d.threads.sujet)) problems.push(`sujet Threads invalide : « ${d.threads.sujet} »`);
 
   // textes
   const texts = { instagram: d.instagram.texte, facebook: d.facebook.texte, bluesky: d.bluesky.texte, threads: d.threads.texte, x: d.x.texte };
@@ -73,9 +77,12 @@ export function checkDossier(d, { source, limits, stopwords, genericCategories, 
     if (graphemes(text) > max[net]) problems.push(`${net} : ${graphemes(text)} caractères (${max[net]} max)`);
     if (/https?:\/\/|www\./i.test(text)) problems.push(`${net} : pas de lien dans le texte`);
     if (d.sensible && EMOJI.test(text)) problems.push(`${net} : aucun emoji sur un sujet sensible`);
+    const emojis = (String(text).match(/\p{Extended_Pictographic}/gu) ?? []).length;
+    const emojiMax = limits.emoji?.[net] ?? 0;
+    if (emojis > emojiMax) problems.push(`${net} : ${emojis} emoji(s), ${emojiMax} max`);
+    if (/#[\p{L}\p{N}]/u.test(text)) problems.push(`${net} : pas de hashtag dans le texte`);
   }
   if (graphemes(d.instagram.texte.split('\n')[0]) > limits.instagramFirstLine) problems.push(`instagram : première ligne > ${limits.instagramFirstLine} caractères`);
-  if (EMOJI.test(d.bluesky.texte)) problems.push('bluesky : pas d’emoji');
 
   // hashtags
   const tags = d.instagram.hashtags;
@@ -87,7 +94,7 @@ export function checkDossier(d, { source, limits, stopwords, genericCategories, 
   }
 
   // anti-invention : chiffres et noms propres présents dans les données
-  const produced = [titre, d.visuel.texte_alternatif, ...Object.values(texts)];
+  const produced = [titre, d.visuel.description, d.visuel.texte_alternatif, ...Object.values(texts)];
   for (const n of new Set(produced.flatMap(numbers))) if (!srcNumbers.has(n)) problems.push(`chiffre absent des données : ${n}`);
   const allowed = [...knownNames, d.rubrique].map(fold);
   for (const name of new Set(produced.flatMap(properNames))) {

@@ -8,11 +8,12 @@ export const DossierSchema = z.object({
   visuel: z.object({
     titre: z.string(),
     surlignage: z.string(),
+    description: z.string(),
     texte_alternatif: z.string(),
   }),
   instagram: z.object({ texte: z.string(), hashtags: z.array(z.string()) }),
   facebook: z.object({ texte: z.string() }),
   bluesky: z.object({ texte: z.string(), hashtag: z.string() }),
-  threads: z.object({ texte: z.string() }),
+  threads: z.object({ texte: z.string(), sujet: z.string() }),
   x: z.object({ texte: z.string() }),
 });

@@ -1,7 +1,7 @@
 {
   "model": "claude-opus-5",
   "effort": "low",
-  "promptVersion": 1,
+  "promptVersion": 2,
   "instagramCaptionSource": "ai",
   "memorySize": 10,
   "networks": ["instagram", "facebook", "bluesky", "threads", "x"],
@@ -18,13 +18,16 @@
     "visualTitle": 90,
     "highlight": 24,
     "rubrique": 24,
+    "slideText": 220,
     "instagramText": 700,
     "instagramFirstLine": 125,
-    "facebook": 400,
+    "facebook": 120,
     "bluesky": 260,
     "threads": 450,
+    "threadsTopic": 50,
     "x": 230,
-    "altText": 300
+    "altText": 300,
+    "emoji": { "instagram": 2, "facebook": 1, "threads": 1, "x": 1, "bluesky": 0 }
   },
   "similarityMax": 0.5,
   "memorySimilarityMax": 0.5,

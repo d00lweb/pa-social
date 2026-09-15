@@ -22,11 +22,11 @@ function typeset(d) {
   return {
     ...d,
     rubrique: d.rubrique.trim().replace(/'/g, '’'),
-    visuel: { titre: t(d.visuel.titre), surlignage: t(d.visuel.surlignage), texte_alternatif: t(d.visuel.texte_alternatif) },
+    visuel: { titre: t(d.visuel.titre), surlignage: t(d.visuel.surlignage), description: t(d.visuel.description ?? ''), texte_alternatif: t(d.visuel.texte_alternatif) },
     instagram: { ...d.instagram, texte: t(d.instagram.texte) },
     facebook: { texte: t(d.facebook.texte) },
     bluesky: { ...d.bluesky, texte: t(d.bluesky.texte) },
-    threads: { texte: t(d.threads.texte) },
+    threads: { texte: t(d.threads.texte), sujet: String(d.threads.sujet ?? '').trim().replace(/^#/, '') },
     x: { texte: t(d.x.texte) },
   };
 }

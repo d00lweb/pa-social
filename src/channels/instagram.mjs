@@ -34,6 +34,8 @@ export async function prepare(article, { dossier = fallbackDossier(article), ren
   log(`\n━━ ${article.title}\n   ${article.link}`);
   const parts = splitAround(dossier.visuel.titre, dossier.visuel.surlignage);
   const description = frenchTypography(article.description);
+  // 2ᵉ image : texte rédigé par l'IA, sinon la description de l'article
+  const slideText = dossier.visuel.description?.trim() || description;
   log(`   [${dossier.source}] Rubrique : ${dossier.rubrique} | Titre : ${show(dossier.visuel.titre)} | Surligné : « ${show(parts.highlight)} » | ${dossier.instagram.hashtags.join(' ')}`);
 
   const problems = [];
@@ -45,8 +47,8 @@ export async function prepare(article, { dossier = fallbackDossier(article), ren
     log(`   Image source : ${source.width}x${source.height}`);
     if (source.width < MIN_SOURCE_WIDTH) problems.push(`image source trop petite : ${source.width}px de large (min ${MIN_SOURCE_WIDTH})`);
   }
-  if (!description) problems.push('description vide');
-  else if (description.length > MAX_DESC) problems.push(`description trop longue : ${description.length} caractères (max ${MAX_DESC})`);
+  if (!slideText) problems.push('description vide');
+  else if (slideText.length > MAX_DESC) problems.push(`texte de la 2ᵉ image trop long : ${slideText.length} caractères (max ${MAX_DESC})`);
   if (!source) throw new GuardError(article, problems);
 
   const renderer = shared ?? (await createRenderer());
@@ -57,7 +59,7 @@ export async function prepare(article, { dossier = fallbackDossier(article), ren
     const common = { rubrique: dossier.rubrique, ...parts };
     slides = {
       s1: await renderer.render('slide1', { ...common, photo: photo.buffer, darken: photo.darken }),
-      s2: await renderer.render('slide2', { description }),
+      s2: await renderer.render('slide2', { description: slideText }),
       story: await renderer.render('story', { ...common, photo: storyPhoto.buffer, darken: storyPhoto.darken }),
     };
   } finally {

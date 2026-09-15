@@ -20,11 +20,11 @@ const good = () => ({
   nature: 'evergreen',
   sensible: false,
   rubrique: 'Bordeaux',
-  visuel: { titre: 'Pourquoi Bordeaux parle désormais de « matrimoine »', surlignage: 'matrimoine', texte_alternatif: 'Bordeaux : pourquoi la ville parle de matrimoine' },
+  visuel: { titre: 'Pourquoi Bordeaux parle désormais de « matrimoine »', surlignage: 'matrimoine', description: 'Plus ancien que patrimoine, le matrimoine revient à Bordeaux, porté par les festivals.', texte_alternatif: 'Bordeaux : pourquoi la ville parle de matrimoine' },
   instagram: { texte: 'Un mot plus vieux que patrimoine refait surface.\nÀ Bordeaux, festivals et histoire lui redonnent vie.', hashtags: ['#Bordeaux', '#Matrimoine', '#Histoire'] },
   facebook: { texte: 'Vous connaissiez le matrimoine ? Ce terme ancien revient dans les festivals bordelais.' },
   bluesky: { texte: 'Plus ancien que « patrimoine », le mot matrimoine resurgit depuis plusieurs années dans la vie culturelle bordelaise. Origine et usages.' },
-  threads: { texte: 'On parle beaucoup de patrimoine. Et si son jumeau oublié revenait ? À Bordeaux, les festivals remettent le matrimoine au centre.' },
+  threads: { texte: 'On parle beaucoup de patrimoine. Et si son jumeau oublié revenait ? À Bordeaux, les festivals remettent le matrimoine au centre.', sujet: 'Bordeaux' },
   x: { texte: 'Matrimoine : le mot oublié que Bordeaux remet à l’honneur.' },
 });
 const ctx = { ...ed, source, knownNames: ed.knownNames };
@@ -46,6 +46,11 @@ test('contrôles : les défauts connus sont refusés', () => {
     [(d) => { d.instagram.hashtags = ['#Bordeaux', '#Histoire']; }, /exactement 3/],
     [(d) => { d.sensible = true; d.facebook.texte = 'Un drame bouleverse Bordeaux 😢'; }, /emoji/],
     [(d) => { d.threads.texte = d.facebook.texte; }, /mêmes tournures/],
+    [(d) => { d.facebook.texte = `${d.facebook.texte} Un rendez-vous culturel à ne pas manquer cette saison.`; }, /facebook : \d+ caractères/],
+    [(d) => { d.x.texte = 'Le matrimoine revient à Bordeaux #Bordeaux'; }, /hashtag dans le texte/],
+    [(d) => { d.facebook.texte = 'Le matrimoine revient 🎭✨'; }, /emoji/],
+    [(d) => { d.visuel.description = 'x'.repeat(230); }, /2ᵉ image/],
+    [(d) => { d.threads.sujet = 'Bordeaux & Co.'; }, /sujet Threads/],
   ];
   for (const [mutate, expected] of cases) {
     const d = good();

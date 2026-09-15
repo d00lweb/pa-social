@@ -92,7 +92,7 @@ Pas de serveur : le bot lit boutons et commandes à **chaque passage du cron** (
 À la planification, **un appel Claude par article** (`claude-opus-5`, effort bas) produit un **dossier de publication**, conservé dans la file :
 - nature (actu chaude, actu, intemporel) et sensibilité ;
 - rubrique identitaire ;
-- titre adapté au visuel et groupe surligné ;
+- titre adapté au visuel et groupe surligné, **texte de la 2ᵉ image** (220 caractères max) ;
 - texte alternatif ;
 - textes Instagram (+ 3 hashtags), Facebook, Bluesky (+ hashtag), Threads et X.
 
@@ -107,6 +107,17 @@ Pas de serveur : le bot lit boutons et commandes à **chaque passage du cron** (
   - pas de tournures reprises entre réseaux ni depuis les accroches récentes.
 
   Jusqu'à 3 essais avec les corrections, sinon **règles de secours** (`fallback.mjs` : lexique géographique, thèmes, surlignage chiffre > nom propre > fin de titre).
+- **Jamais de texte tronqué par un réseau :**
+
+  | Réseau | Longueur max | Emojis | Hashtags |
+  |---|---|---|---|
+  | Instagram | 1ʳᵉ ligne ≤ 125 car. (le reste passe sous « plus », c'est inévitable) | 0–2 | 3 en fin de légende |
+  | Facebook | **120 car.** (pas de « Voir plus » sur mobile) | 0–1 | 0 |
+  | Bluesky | 260 car. (limite 300) | 0 | 1 de lieu |
+  | Threads | 450 car. (limite 500) | 0–1 | 0 dans le texte + 1 sujet Threads (`topic_tag`) |
+  | X | 230 car. (limite 280) | 0–1 | 0 |
+
+  Aucun emoji sur un sujet sensible.
 - **Charte éditoriale modifiable sans code :** `prompts/editorial.md`. Réglages : `config/editorial.json` (modèle, angles, limites, mots vides, thèmes, hashtags interdits). Zones identitaires : `config/geo.json` (Pays basque, Béarn, Médoc, Périgord…).
 - **Coût mesuré :** environ 3 100 tokens en entrée et 750 en sortie, soit **~0,03 $ par article** (~2,5–3 €/mois).
 - **Sans `ANTHROPIC_API_KEY`**, ou si l'API est indisponible : règles de secours, la publication continue.
@@ -378,3 +389,4 @@ Dépendances : `fast-xml-parser`, `sharp`, `playwright`, `basic-ftp`. Node 24, E
 | 15/09/2026 | Étape 1 : socle modulaire (config, planificateur par réseau avec heures creuses 23 h–7 h et décalage aléatoire, file d'attente, canal Instagram isolé), article bloqué signalé une seule fois, 3 essais sur erreur passagère, report si quota atteint, visuels 4:5 en 1440×1800, 27 tests et 12 articles de test, planches d'aperçu. |
 | 15/09/2026 | Étape 2 : rédacteur en chef IA (dossier par article, textes différents par réseau, contrôles anti-invention et diversité, règles de secours), lexique géographique (Pays basque, Béarn…), rubrique jamais « Actus », surlignage chiffre > nom propre > fin de titre sans petit mot, guillemets insécables, nouvelle légende Instagram avec 3 hashtags. |
 | 15/09/2026 | Étape 3 : centre de contrôle Telegram (aperçu visuels + textes des 5 réseaux, validation ✅/❌/🔁, commandes /statut /file /pause /reprise /validation, notification de publication, expiration à 24 h). Instagram passe en mode validation. |
+| 15/09/2026 | Textes jamais tronqués (Facebook ≤ 120 car.), texte IA pour la 2ᵉ image du carrousel, sujet Threads, plafond d'emojis par réseau, hashtags interdits dans le corps des textes (charte v2). |

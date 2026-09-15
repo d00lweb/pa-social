@@ -11,7 +11,7 @@ export function buildPreviewText({ article, dossier, caption, items, when }) {
     ['instagram', caption],
     ['facebook', dossier.facebook.texte],
     ['bluesky', `${dossier.bluesky.texte} ${dossier.bluesky.hashtag}`],
-    ['threads', dossier.threads.texte],
+    ['threads', `${dossier.threads.texte}${dossier.threads.sujet ? `\n[sujet : ${dossier.threads.sujet}]` : ''}`],
     ['x', dossier.x.texte],
   ];
   for (const limit of [900, 600, 400, 250]) {

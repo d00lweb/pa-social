@@ -7,10 +7,10 @@ const BAND_START = 0.6;
 const LUMINANCE_MAX = 150;
 const MAP_WIDTH = 200;
 const COVERAGE_MIN = 0.7; // part du sujet à garder, sinon on élargit le cadre
-const FADE = 140;
+const FADE_RATIO = 0.13; // hauteur du fondu, en part de la largeur du visuel
 
 // Cadres candidats (largeur/hauteur), du plus serré au plus large
-export const SLIDE = { width: 1080, height: 1350, ratios: [0.8, 0.9, 1, 1.125, 1.25], photoCenter: null };
+export const SLIDE = { width: 1440, height: 1800, ratios: [0.8, 0.9, 1, 1.125, 1.25], photoCenter: null };
 export const STORY = { width: 1080, height: 1920, ratios: [0.5625, 0.66, 0.8, 0.9, 1], photoCenter: 0.43 };
 
 export async function loadSource(url) {
@@ -165,8 +165,9 @@ export async function cropTo(src, { width, height, ratios, photoCenter }) {
     // photo nette + même photo floutée en fond, raccord en fondu
     mode = 'cadre élargi';
     const photoTop = photoCenter == null ? 0 : Math.max(0, Math.min(height - photoH, Math.round(photoCenter * height - photoH / 2)));
-    const fadeTop = photoTop > 0 ? FADE / photoH : 0;
-    const fadeBottom = photoTop + photoH < height ? FADE / photoH : 0;
+    const fade = Math.round(width * FADE_RATIO);
+    const fadeTop = photoTop > 0 ? fade / photoH : 0;
+    const fadeBottom = photoTop + photoH < height ? fade / photoH : 0;
     const mask = `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${photoH}">
       <defs><linearGradient id="f" x1="0" y1="0" x2="0" y2="1">
         <stop offset="0" stop-color="#fff" stop-opacity="${fadeTop ? 0 : 1}"/>

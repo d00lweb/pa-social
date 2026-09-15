@@ -9,7 +9,10 @@
   },
   "scripts": {
     "smoke": "node --env-file=.env scripts/smoke-ig.mjs",
-    "run": "node --env-file=.env src/index.mjs"
+    "run": "node --env-file=.env src/index.mjs",
+    "test": "node --test \"tests/*.test.mjs\"",
+    "preview": "node --env-file=.env scripts/preview.mjs",
+    "fixtures": "node scripts/capture-fixtures.mjs"
   },
   "dependencies": {
     "basic-ftp": "^5.3.1",

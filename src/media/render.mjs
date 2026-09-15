@@ -7,7 +7,7 @@ import { toMetaJpeg } from './crop.mjs';
 import { brushMask } from './brush.mjs';
 
 const ROOT = fileURLToPath(new URL('../../', import.meta.url));
-const TEMPLATE = join(ROOT, 'src/template/card.html');
+const TEMPLATE = join(ROOT, 'src/media/templates/card.html');
 const FONT = join(ROOT, 'assets/fonts/Montserrat[wght].ttf');
 const FONT_URL = 'https://github.com/google/fonts/raw/main/ofl/montserrat/Montserrat%5Bwght%5D.ttf';
 // logos HD du bandeau (vectoriel Ouest-France, PNG transparent Passion Aquitaine)
@@ -15,10 +15,11 @@ const LOGO_OF = join(ROOT, 'assets/logo-ouest-france.svg');
 const LOGO_PA = join(ROOT, 'assets/logo-passion-aquitaine.png');
 const SUPERSAMPLING = 2; // rendu x2 puis réduction : texte et logos plus nets
 
+// width/height : canevas de mise en page (px CSS) ; out : taille du fichier livré
 const FORMATS = {
-  slide1: { width: 1080, height: 1350 },
-  slide2: { width: 1080, height: 1350 },
-  story: { width: 1080, height: 1920 },
+  slide1: { width: 1080, height: 1350, out: [1440, 1800] }, // largeur max des API Instagram et Threads
+  slide2: { width: 1080, height: 1350, out: [1440, 1800] },
+  story: { width: 1080, height: 1920, out: [1080, 1920] },
 };
 
 const exists = (p) => access(p).then(() => true, () => false);
@@ -72,7 +73,7 @@ export async function createRenderer() {
   const browser = await chromium.launch();
 
   async function render(format, data) {
-    const { width, height } = FORMATS[format];
+    const { width, height, out } = FORMATS[format];
     const html = fill(template, {
       ...assets,
       FORMAT: format,
@@ -105,7 +106,7 @@ export async function createRenderer() {
       }
 
       const shot = await page.locator('#root').screenshot({ type: 'png' });
-      const png = await sharp(shot).resize(width, height, { kernel: 'lanczos3' }).png().toBuffer();
+      const png = await sharp(shot).resize(out[0], out[1], { kernel: 'lanczos3' }).png().toBuffer();
       return { buffer: await toMetaJpeg(png), ...result };
     } finally {
       await page.close();

@@ -1,5 +1,5 @@
 // node --env-file=.env scripts/smoke-ig.mjs --mode=single|carousel [--publish]
-import { createGraph } from '../src/lib/graph.mjs';
+import { createGraph } from '../src/channels/meta-graph.mjs';
 
 const args = Object.fromEntries(
   process.argv.slice(2).map((a) => {

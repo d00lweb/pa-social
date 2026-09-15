@@ -45,13 +45,13 @@ Republication automatique des articles de **Passion Aquitaine** (passion-aquitai
 ## Fonctionnement d'une exécution
 
 1. Lecture du flux RSS.
-2. Sélection : articles de **moins de 24 h**, **non publiés**, le **plus ancien** d'abord, **un seul par exécution**.
-3. Écart minimum : si la dernière publication date de **moins de 3 h**, rien n'est publié (message « en attente » dans le journal, sans alerte).
-4. Garde-fous (voir ci-dessous). Si l'un saute : rien n'est publié, alerte Telegram, sortie en erreur.
+2. Planification : chaque nouvel article de **moins de 24 h** entre dans la file `state/queue.json` avec une heure prévue par réseau. Elle tombe au moins **3 h** après la publication précédente, jamais entre **23 h et 7 h** (heure de Paris), avec un décalage aléatoire de **5 à 35 min**.
+3. Exécution : au plus **une publication due par réseau** à chaque passage. L'écart et les heures creuses sont revérifiés au moment de publier.
+4. Garde-fous (voir ci-dessous). Si l'un saute, l'article est **bloqué**, avec une seule alerte Telegram. Une erreur passagère donne lieu à **3 essais** espacés, avec une alerte au premier et au dernier. Si le quota Instagram est atteint, la publication est reportée d'1 h.
 5. Rendu des 3 visuels (Playwright + Chromium).
 6. Dépôt FTPS des 3 JPEG, puis vérification que chaque URL publique répond `200 image/jpeg`.
 7. Publication Instagram : 2 conteneurs image → attente `FINISHED` → conteneur carrousel → attente → `media_publish`.
-8. Enregistrement dans `state/published.json` (guid, heure, id Instagram), commité par le bot sur `main`.
+8. Enregistrement dans `state/published.json` (guid, réseau, heure, id), puis retrait de la file. Le dossier `state/` est commité par le bot sur `main`.
 9. Envoi de la story sur Telegram (image en document + titre + lien de l'article). Un échec ici ne bloque pas.
 
 Légende Instagram :
@@ -81,13 +81,16 @@ La ligne du milieu contient le caractère invisible U+2800 (Instagram supprime l
 
 | Règle | Valeur | Fichier |
 |---|---|---|
-| Âge max d'un article | 24 h | `src/index.mjs` (`MAX_AGE_HOURS`) |
-| Écart min entre publications | 3 h | `src/lib/state.mjs` (`MIN_GAP_HOURS`) |
-| Largeur min image source | 1200 px | `src/index.mjs` |
-| Description max | 300 caractères | `src/index.mjs` |
-| Publications max / 24 h | 6 | `src/index.mjs` |
+| Âge max d'un article | 24 h | `config/channels.json` (`maxAgeHours`) |
+| Écart min entre publications | 3 h | `config/channels.json` (`gapHours`) |
+| Heures creuses | 23 h – 7 h | `config/channels.json` (`quietHours`) |
+| Décalage aléatoire | 5 – 35 min | `config/channels.json` (`jitterMinutes`) |
+| Publications max / 24 h | 6 | `config/channels.json` (`maxPer24h`) |
+| Essais en cas d'erreur | 3 (délai de 30 min × n° d'essai) | `config/channels.json` (`retry`) |
+| Largeur min image source | 1200 px | `src/channels/instagram.mjs` |
+| Description max | 300 caractères | `src/channels/instagram.mjs` |
 
-### Règles rédactionnelles (`src/lib/editorial.mjs`)
+### Règles rédactionnelles (`src/brain/editorial.mjs`)
 
 - **Lecture du flux** : image = URL de `<enclosure>` (jamais `<media:content>`, vignette 400 px). Description = premier `<p>` de `<description>`, sans le paragraphe « L'article … est apparu en premier sur … », entités décodées, apostrophes typographiques, parenthèse finale de moins de 40 caractères supprimée.
 - **Rubrique** (encart rouge) : catégorie géographique (liste des départements et villes de Nouvelle-Aquitaine) > première catégorie qui n'est ni « Actus » ni « Actualités » > première catégorie. Casse d'origine.
@@ -99,20 +102,20 @@ La ligne du milieu contient le caractère invisible U+2800 (Instagram supprime l
 
 ## Rendu des visuels
 
-Gabarit unique `src/template/card.html`, rendu à ×2 puis réduit (netteté), JPEG qualité 95 en 4:4:4, sRGB, < 8 Mo.
+Gabarit unique `src/media/templates/card.html`, mis en page en 1080×1350 (px CSS), rendu à ×2 puis réduit à la taille livrée, JPEG qualité 95 en 4:4:4, sRGB, < 8 Mo.
 
 | Visuel | Taille | Contenu |
 |---|---|---|
-| Slide 1 | 1080×1350 | Photo, dégradé sombre, bandeau logos, rubrique, titre avec surlignage |
-| Slide 2 | 1080×1350 | Fond rouge `#CD402C`, bandeau identique au slide 1, description centrée |
+| Slide 1 | 1440×1800 | Photo, dégradé sombre, bandeau logos, rubrique, titre avec surlignage |
+| Slide 2 | 1440×1800 | Fond rouge `#CD402C`, bandeau identique au slide 1, description centrée |
 | Story | 1080×1920 | Comme le slide 1, bandeau à 140 px du haut (×1,3), bloc titre calé à 380 px du bas (zone sticker lien) |
 
 - **Bandeau** : construit en HTML (logo Ouest-France SVG vectoriel + « avec » en Montserrat + logo Passion Aquitaine PNG 524×205). Position et taille strictement identiques sur les slides 1 et 2.
 - **Police** : Montserrat variable (`assets/fonts/`, licence OFL).
 - **Tailles automatiques** : titre 44–66 px (4 lignes max), description 40–76 px (9 lignes max), par recherche binaire.
-- **Cadrage** (`src/lib/crop.mjs`) : les photos du flux sont en paysage (souvent 16:9). Une carte du sujet (zones détaillées et distinctes du fond) choisit la fenêtre qui garde au moins 70 % du sujet. Si un cadrage plein cadre ne suffit pas, le cadre est élargi et le reste du canevas est rempli par la même photo floutée et assombrie, raccordée en fondu. Fenêtre descendue de 10 % pour que le sujet reste au-dessus du titre.
+- **Cadrage** (`src/media/crop.mjs`) : les photos du flux sont en paysage (souvent 16:9). Une carte du sujet (zones détaillées et distinctes du fond) choisit la fenêtre qui garde au moins 70 % du sujet. Si un cadrage plein cadre ne suffit pas, le cadre est élargi et le reste du canevas est rempli par la même photo floutée et assombrie, raccordée en fondu. Fenêtre descendue de 10 % pour que le sujet reste au-dessus du titre.
 - **Lisibilité** : si la luminance de la bande 60–100 % dépasse 150/255, le dégradé sombre est renforcé.
-- **Surlignage** (`src/lib/brush.mjs`) : texture de pinceau sec générée (fibres, manques laissant voir l'image, bouts effilochés), rouge `#CD402C`, légèrement différente pour chaque titre.
+- **Surlignage** (`src/media/brush.mjs`) : texture de pinceau sec générée (fibres, manques laissant voir l'image, bouts effilochés), rouge `#CD402C`, légèrement différente pour chaque titre.
 
 ---
 
@@ -207,7 +210,13 @@ Commandes locales :
 npm run smoke -- --mode=single        # accès Meta : compte, quota, conteneur, sans publier
 npm run smoke -- --mode=carousel      # idem en carrousel ; ajouter --publish pour publier réellement
 DRY_RUN=1 DRY_RUN_LATEST=3 node --env-file=.env src/index.mjs   # rendu + FTP des 3 derniers articles, sans publier
+npm test                              # tests hors ligne (règles, planificateur, état, 12 articles réels)
+npm run preview                       # planches d'aperçu out/preview-*.jpg des articles de test, sans dépôt
+npm run preview -- --latest=6         # idem sur les 6 derniers articles du flux
+npm run fixtures                      # régénère tests/fixtures/articles.json depuis le flux
 ```
+
+La file d'attente se lit dans `state/queue.json` : heure prévue (`dueAt`), statut `pending` (en attente), `blocked` (garde-fou) ou `failed` (3 essais échoués), dernière erreur. Les entrées bloquées ou en échec sont effacées après 7 jours.
 
 Sous PowerShell : `$env:DRY_RUN='1'; $env:DRY_RUN_LATEST='3'; node --env-file=.env src/index.mjs`. Les images sont écrites dans `out/`.
 
@@ -245,8 +254,6 @@ La production ne dépend pas du poste : elle tourne entièrement sur GitHub et o
 
 ## Limites connues et pistes
 
-- **Alertes répétées** : un article bloqué par un garde-fou redéclenche l'alerte à chaque passage pendant 24 h. Piste : ne signaler qu'une fois et l'ignorer ensuite.
-- **Publications de nuit possibles** (écart de 3 h). Piste : plage horaire sans publication (ex. 23 h–7 h).
 - **Images qui s'accumulent** sur le FTP (~1 Mo par article). Piste : purge des images de plus de 7 jours.
 - **Plus de 8 articles en 24 h** : avec l'écart de 3 h et la fenêtre de 24 h, les plus anciens seraient abandonnés.
 - Les posts Instagram publiés à la main ne comptent pas dans l'écart de 3 h.
@@ -259,21 +266,30 @@ La production ne dépend pas du poste : elle tourne entièrement sur GitHub et o
 ## Structure du code
 
 ```
-.github/workflows/publish.yml   workflow GitHub Actions
-src/index.mjs                   orchestrateur (sélection, garde-fous, rendu, dépôt, publication, état)
-src/lib/rss.mjs                 lecture et nettoyage du flux
-src/lib/editorial.mjs           rubrique, titre, groupe surligné, typographie
-src/lib/crop.mjs                cadrage adaptatif, remplissage flouté, JPEG conforme Meta
-src/lib/render.mjs              rendu Playwright, ajustement des tailles, assets
-src/lib/brush.mjs               texture du surlignage
-src/lib/upload.mjs              dépôt FTPS, vérification des URL publiques
-src/lib/graph.mjs               appels API Instagram Graph
-src/lib/notify.mjs              Telegram (alertes, story)
-src/lib/state.mjs               état des publications, écart minimum
-src/template/card.html          gabarit des 3 visuels
+.github/workflows/publish.yml   workflow GitHub Actions (tests puis publication)
+config/channels.json            réseaux actifs, écart, heures creuses, décalage, quota, essais
+src/index.mjs                   orchestrateur : planifie la file, exécute ce qui est dû
+src/core/config.mjs             configuration, chemins, mode DRY_RUN
+src/core/scheduler.mjs          calcul des heures prévues (pur, testé)
+src/core/state.mjs              historique par réseau et file d'attente
+src/core/errors.mjs             GuardError (bloqué) et DeferError (reporté)
+src/sources/rss.mjs             lecture et nettoyage du flux
+src/brain/editorial.mjs         rubrique, titre, groupe surligné, typographie
+src/media/crop.mjs              cadrage adaptatif, remplissage flouté, JPEG conforme Meta
+src/media/render.mjs            rendu Playwright, ajustement des tailles, assets
+src/media/brush.mjs             texture du surlignage
+src/media/templates/card.html   gabarit des 3 visuels
+src/storage/ftp.mjs             dépôt FTPS, vérification des URL publiques
+src/channels/instagram.mjs      canal Instagram : prepare (rendu + garde-fous), stage (dépôt), publish
+src/channels/meta-graph.mjs     client API Graph (Instagram, Facebook)
+src/channels/telegram.mjs       Telegram (alertes, story)
+tests/                          tests node:test + fixtures/articles.json (12 articles réels)
 scripts/smoke-ig.mjs            test d'accès Meta
+scripts/preview.mjs             planches d'aperçu
+scripts/capture-fixtures.mjs    capture des articles de test
 assets/                         logos, police
-state/published.json            publications réalisées (commité par le bot)
+state/published.json            publications réalisées, par réseau (commité par le bot)
+state/queue.json                file d'attente planifiée (commitée par le bot)
 ```
 
 Dépendances : `fast-xml-parser`, `sharp`, `playwright`, `basic-ftp`. Node 24, ESM (`.mjs`), sans TypeScript ni framework.
@@ -294,3 +310,4 @@ Dépendances : `fast-xml-parser`, `sharp`, `playwright`, `basic-ftp`. Node 24, E
 | 15/09/2026 | Création de ce README. |
 | 15/09/2026 | Stratégie multi-réseaux validée (Bluesky, Facebook 1 image + lien en commentaire, Threads, X en kit Telegram, IA éditoriale) et feuille de route technique `docs/ROADMAP.md`. |
 | 15/09/2026 | Feuille de route ajustée : IA limitée au flux RSS (titre, description, catégories), URL réelle au lieu d'un lien court, dimensions d'images vérifiées (4:5 en 1440×1800, carte Bluesky 1200×627, X 1600×900), comptes Bluesky et Threads créés. |
+| 15/09/2026 | Étape 1 : socle modulaire (config, planificateur par réseau avec heures creuses 23 h–7 h et décalage aléatoire, file d'attente, canal Instagram isolé), article bloqué signalé une seule fois, 3 essais sur erreur passagère, report si quota atteint, visuels 4:5 en 1440×1800, 27 tests et 12 articles de test, planches d'aperçu. |

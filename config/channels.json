@@ -1,0 +1,15 @@
+{
+  "timezone": "Europe/Paris",
+  "maxAgeHours": 24,
+  "queueRetentionDays": 7,
+  "retry": { "maxAttempts": 3, "delayMinutes": 30 },
+  "channels": {
+    "instagram": {
+      "enabled": true,
+      "gapHours": 3,
+      "quietHours": { "start": 23, "end": 7 },
+      "jitterMinutes": [5, 35],
+      "maxPer24h": 6
+    }
+  }
+}

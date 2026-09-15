@@ -248,6 +248,7 @@ La production ne dépend pas du poste : elle tourne entièrement sur GitHub et o
 | Images déposées mais URL en 301 puis 404 | compte FTP pointant vers un autre dossier `social` que celui du site | recréer le compte FTP sur le dossier à côté de `wp-config.php` |
 | Article non publié pendant des heures | cron GitHub quasi pas déclenché (2 passages en 9 h) | déclenchement par tâche cron o2switch |
 | Passage de la minute 40 absent | réglage des minutes de la tâche o2switch | assumé (mettre `0,20,40` pour le rétablir) |
+| Dépôt FTP bloqué depuis le poste de bureau (TCP et bannière OK, connexion chiffrée qui ne répond plus) | réseau local qui bloque le FTPS ; GitHub n'est pas concerné | valider le dépôt par un test à blanc lancé sur GitHub (Run workflow, case cochée) |
 | Commandes `node -e` cassées sous PowerShell 5.1 | guillemets doubles et apostrophes typographiques mal passés | utiliser des backticks JS ou un fichier script |
 
 ---

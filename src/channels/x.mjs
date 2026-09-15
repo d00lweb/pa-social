@@ -13,8 +13,8 @@ import { config, fromRoot } from '../core/config.mjs';
 export const id = 'x';
 export const publishedLabel = '📨 <b>Kit X envoyé</b>, à publier depuis Telegram';
 
-// Lien de rédaction pré-remplie ; X ajoute l'URL après le texte
-export const intentUrl = (text, link) => `https://x.com/intent/post?${new URLSearchParams({ text, url: link })}`;
+// Post natif sans lien (les posts avec lien sont quasi invisibles sur X) ; le lien part en réponse
+export const intentUrl = (text) => `https://x.com/intent/post?${new URLSearchParams({ text })}`;
 
 export async function prepare(article, { dossier, renderer: shared, log = console.log } = {}) {
   if (!article.image) throw new GuardError(article, ['aucune image (enclosure) dans le flux']);
@@ -42,20 +42,20 @@ export async function prepare(article, { dossier, renderer: shared, log = consol
   await writeFile(fromRoot('out', name), visual.buffer);
 
   const text = composeXText(dossier);
-  return { article, dossier, files: [{ name, buffer: visual.buffer }], text, link: article.link, intent: intentUrl(text, article.link) };
+  return { article, dossier, files: [{ name, buffer: visual.buffer }], text, link: article.link, intent: intentUrl(text) };
 }
 
 export function kitMessage(pkg) {
-  const count = [...pkg.text].length + 24; // un lien compte pour 23 caractères, plus l'espace
   return [
     `🐦 <b>Kit X</b> · ${esc(pkg.article.title)}`,
     '',
-    `<b>Texte</b> (${count}/280 avec le lien, touche pour copier) :`,
-    `<code>${esc(`${pkg.text} ${pkg.link}`)}</code>`,
+    `<b>1. Post</b> (${[...pkg.text].length}/280, touche pour copier) :`,
+    `<code>${esc(pkg.text)}</code>`,
     '',
-    '1. Enregistre l’image ci-dessus',
-    '2. Touche « Publier sur X » : texte et lien sont déjà remplis',
-    '3. Joins l’image et publie',
+    '<b>2. Réponse à ton post</b> (touche pour copier) :',
+    `<code>${esc(`L’article complet 👉 ${pkg.link}`)}</code>`,
+    '',
+    'Enregistre l’image ci-dessus, touche « Publier sur X » (texte pré-rempli), joins l’image et publie. Puis réponds à ton post avec le lien : sur X, un post avec lien est quasi invisible.',
   ].join('\n');
 }
 

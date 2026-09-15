@@ -72,8 +72,11 @@ Les lignes « vides » contiennent le caractère invisible U+2800, car Instagram
 
 Pas d'API, qui est payante : X est un canal « manuel » de la file (`manual: true`), avec la même validation que les autres réseaux, et rien n'est envoyé entre 22 h et 7 h. Une fois l'article validé, le bot envoie sur Telegram :
 - le **visuel 16:9 en 1600×900**, en fichier pour garder la qualité d'origine ;
-- le **texte à publier**, avec le hashtag du lieu intégré et le lien sur la même ligne, dans un bloc qui se copie d'un appui, avec le compteur sur 280 ;
-- un bouton **« ✍️ Publier sur X »**, un lien `x.com/intent/post` qui ouvre X avec le texte et le lien pré-remplis. Il ne reste qu'à joindre l'image.
+- le **texte du post**, sans lien et avec le hashtag du lieu intégré, dans un bloc qui se copie d'un appui, avec le compteur sur 280 ;
+- la **réponse à publier sous le post** : « L'article complet 👉 lien » ;
+- un bouton **« ✍️ Publier sur X »**, un lien `x.com/intent/post` qui ouvre X avec le texte pré-rempli. Il ne reste qu'à joindre l'image.
+
+Pourquoi le lien part en réponse : sur un compte X sans Premium, les posts avec lien ont un engagement médian de 0 % (Buffer, 18,8 millions de posts, août 2025), et une analyse de 18 éditeurs confirme qu'ils font nettement moins bien (Nieman Lab, avril 2026). Le post natif (texte + image) garde sa portée, et le lien reste accessible juste en dessous.
 
 Variante du visuel sans le logo Ouest-France : `"hideOuestFrance": true` dans `config/channels.json`.
 
@@ -130,7 +133,7 @@ Pas de serveur : le bot lit boutons et commandes à **chaque passage du cron** (
 - **Mise en forme par le code** (`src/brain/compose.mjs`) :
   - Instagram : ligne blanche entre chaque paragraphe.
   - Bluesky : le hashtag remplace le mot du lieu s'il figure déjà dans le texte, sinon il est ajouté à la fin.
-  - X : hashtag du lieu seulement s'il figure déjà dans le texte (jamais ajouté), lien sur la même ligne.
+  - X : hashtag du lieu seulement s'il figure déjà dans le texte (jamais ajouté) ; post sans lien, lien publié en réponse.
   - Facebook : premier commentaire = formule variée (« 📖 L'article complet : »…) + lien.
 - **Anti-appât** (règle Meta sur l'« engagement bait ») :
   - questions limitées : seulement quand l'angle est « question », ou 1 article sur 3 pour Facebook et Threads ;
@@ -435,3 +438,4 @@ Dépendances : `fast-xml-parser`, `sharp`, `playwright`, `basic-ftp`. Node 24, E
 | 15/09/2026 | Charte v3 : ligne blanche entre paragraphes Instagram, hashtag Bluesky intégré au texte, lien X à la suite, formule avant le lien en commentaire Facebook, questions limitées et formules d'appât interdites, pas de point avant un emoji. |
 | 15/09/2026 | Anti-bannissement renforcé : écart variable 3 h – 4 h 30, reprise du matin variable, attente aléatoire de 0 à 9 min avant publication, coupe-circuit (pause automatique sur erreur de limite ou de restriction Meta). Hashtag du lieu intégré au texte X. Étape 4 annulée : URL réelle partout, sans suivi des clics. |
 | 15/09/2026 | Étape 5 : kit X sur Telegram (visuel 16:9 1600×900, texte copiable avec lien, bouton de rédaction pré-remplie), canal X manuel dans la file avec validation, variante sans logo Ouest-France prête. |
+| 15/09/2026 | Kit X revu d'après les données (Buffer, Nieman Lab) : post natif texte + image sans lien, lien publié en réponse. Visuel X : bandeau centré, titre sur toute la largeur, dégradé bas. |

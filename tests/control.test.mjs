@@ -40,12 +40,13 @@ test('réglages : Telegram prioritaire sur la configuration', () => {
 
 test('kit X : lien de rédaction pré-remplie, message copiable, statut « déjà publié »', async () => {
   const { intentUrl, kitMessage } = await import('../src/channels/x.mjs');
-  const url = new URL(intentUrl('Le matrimoine revient à #Bordeaux', 'https://site.fr/a'));
+  const url = new URL(intentUrl('Le matrimoine revient à #Bordeaux'));
   assert.equal(url.origin + url.pathname, 'https://x.com/intent/post');
   assert.equal(url.searchParams.get('text'), 'Le matrimoine revient à #Bordeaux');
-  assert.equal(url.searchParams.get('url'), 'https://site.fr/a');
+  assert.equal(url.searchParams.get('url'), null);
   const msg = kitMessage({ article: { title: 'A & B' }, text: 'Texte <ok>', link: 'https://site.fr/a' });
-  assert.ok(msg.includes('<code>Texte &lt;ok&gt; https://site.fr/a</code>') && msg.includes('A &amp; B'));
+  assert.ok(msg.includes('<code>Texte &lt;ok&gt;</code>') && msg.includes('A &amp; B'));
+  assert.ok(msg.includes('<code>L’article complet 👉 https://site.fr/a</code>'));
   const dossier = { rubrique: 'R', source: 'ia', facebook: { texte: 'f' }, bluesky: { texte: 'b', hashtag: '#R' }, threads: { texte: 't' }, x: { texte: 'x' } };
   const text = buildPreviewText({ article: { guid: 'g', title: 'T', link: 'https://x' }, dossier, caption: 'c', items: [{ channel: 'x', status: 'awaiting', dueAt: 0 }], published: ['instagram'], when: () => 'vers 9h' });
   assert.ok(text.includes('<b>Instagram</b> · <i>déjà publié</i>') && text.includes('kit Telegram'));

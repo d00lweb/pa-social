@@ -292,7 +292,7 @@
           <div><dt>Publication</dt><dd>Kit reçu sur Telegram, publié à la main (0 €)</dd></div>
           <div><dt>Format</dt><dd><span class="ratio" style="width:19px;height:11px"></span>16:9 · 1600×900</dd></div>
           <div><dt>Texte</dt><dd>230 car. max, compréhensible sans cliquer · 0–1 emoji · 0 hashtag</dd></div>
-          <div><dt>Lien</dt><dd>URL à la suite du texte, bouton « Publier sur X » pré-rempli</dd></div>
+          <div><dt>Lien</dt><dd>En réponse au post, pas dans le post (lien = portée quasi nulle sur X)</dd></div>
           <div><dt>Mode</dt><dd>Après ta validation, kit reçu sur Telegram (jamais entre 22 h et 7 h)</dd></div>
         </dl>
         <div class="net-foot"><span>Compte X à préciser</span><span class="mono">Pas d'API · 0 €</span></div>
@@ -448,10 +448,10 @@
     },
     x(a) {
       const t = a.networks.x.text;
-      const counted = `${t} ${'x'.repeat(23)}`;
-      return `<article class="post">${head('x', counted, 'lien = 23 · ')}${who('Passion Aquitaine', 'X')}
-        <div class="ptext">${tags(t)} <span class="lnk">${esc(a.link.replace(/^https?:\/\//, '').slice(0, 30))}…</span></div>${a.images.x ? img(a.images.x, 'r169', a.alt) : img(a.images.slide1, 'r169', a.alt, 'Visuel X non généré')}
-        <p class="manual" style="margin-top:10px">Kit envoyé sur Telegram, publication manuelle</p></article>`;
+      return `<article class="post">${head('x', t)}${who('Passion Aquitaine', 'X')}
+        <div class="ptext">${tags(t)}</div>${a.images.x ? img(a.images.x, 'r169', a.alt) : img(a.images.slide1, 'r169', a.alt, 'Visuel X non généré')}
+        <div class="comment" style="margin-top:12px"><span class="avatar">PA</span><div><b>Réponse</b><br>L’article complet 👉 <span style="color:#1F6FD1">${esc(a.link)}</span></div></div>
+        <p class="manual">Kit envoyé sur Telegram, publication manuelle</p></article>`;
     },
   };
 

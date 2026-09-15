@@ -54,7 +54,7 @@ Aucun texte ne doit dépasser sa limite : il serait coupé par le réseau.
 - Jamais de point juste avant un emoji : écrire « … à 42 °C 🐝 », pas « … à 42 °C. 🐝 ».
 - `instagram.texte` : sépare la première ligne et la suite par un saut de ligne ; le programme ajoute la ligne blanche.
 - `bluesky.texte` : si le lieu du hashtag figure dans le texte, garde-le écrit normalement ; le programme le transforme en hashtag à cet endroit.
-- `x.texte` : le programme ajoute le lien juste après le texte, sur la même ligne ; termine donc par une phrase complète.
+- `x.texte` : le lien n'est pas dans le post, il est publié en réponse. Le texte doit donc se suffire à lui-même et ne jamais annoncer de lien (« lien ci-dessous », « à lire ici »…).
 
 ## Style
 

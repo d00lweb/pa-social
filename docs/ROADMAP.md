@@ -15,7 +15,7 @@ Stratégie détaillée et données : note « Plan Bluesky, Threads, X » (v2, 15
 ## État
 
 - [x] 1. Socle modulaire (15/09/2026)
-- [ ] 2. Rédacteur en chef IA + nouvelle légende Instagram
+- [x] 2. Rédacteur en chef IA + nouvelle légende Instagram (15/09/2026)
 - [ ] 3. Centre de contrôle Telegram
 - [ ] 4. Liens et suivi des clics
 - [ ] 5. Kit X

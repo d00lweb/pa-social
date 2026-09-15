@@ -1,14 +1,18 @@
-import { config, DRY_RUN, DRY_RUN_LATEST, enabledChannels } from './core/config.mjs';
+import { readFileSync } from 'node:fs';
+import { config, DRY_RUN, DRY_RUN_LATEST, enabledChannels, fromRoot } from './core/config.mjs';
 import { GuardError, DeferError } from './core/errors.mjs';
 import { loadHistory, saveHistory, loadQueue, saveQueue, hasPublished, lastPublishedAt } from './core/state.mjs';
 import { planDueAt, recheck } from './core/scheduler.mjs';
 import { fetchItems } from './sources/rss.mjs';
+import { buildDossier } from './brain/dossier.mjs';
+import { loadMemory, saveMemory, remember } from './brain/memory.mjs';
 import { alert } from './channels/telegram.mjs';
 import * as instagram from './channels/instagram.mjs';
 
 const CHANNELS = { instagram };
 const DEFAULT_RSS = 'https://passion-aquitaine.ouest-france.fr/feed/';
 const HOUR = 3600e3;
+const ed = JSON.parse(readFileSync(fromRoot('config/editorial.json'), 'utf8'));
 
 const paris = (ms) => new Date(ms).toLocaleString('fr-FR', { timeZone: config.timezone, dateStyle: 'short', timeStyle: 'short' });
 const notify = (text) => alert(text).catch((e) => console.error(`Alerte Telegram impossible : ${e.message}`));
@@ -18,14 +22,16 @@ function requireEnv(keys) {
   if (missing.length) throw new Error(`Variables manquantes : ${missing.join(', ')}`);
 }
 
-// À blanc : rendu + dépôt FTP des derniers articles, sans publication ni état
+// À blanc : dossier IA + rendu + dépôt FTP des derniers articles, sans publication ni état
 async function dryRun(items) {
   console.log('Mode DRY_RUN : rien ne sera publié ni enregistré.');
+  const memory = await loadMemory();
   const newest = [...items].sort((a, b) => b.date - a.date).slice(0, DRY_RUN_LATEST || 1);
   let failed = 0;
   for (const article of newest) {
     try {
-      const pkg = await instagram.prepare(article);
+      const dossier = await buildDossier(article, { memory, useCache: true });
+      const pkg = await instagram.prepare(article, { dossier });
       const urls = await instagram.stage(pkg);
       console.log(`   En ligne :\n     ${urls.join('\n     ')}`);
       console.log(`   Légende prévue :\n${pkg.caption.replace(/^/gm, '     | ')}`);
@@ -37,17 +43,21 @@ async function dryRun(items) {
   if (failed) process.exitCode = 1;
 }
 
-// Nouveaux articles → file, avec une heure prévue par canal
-function plan(items, history, queue, now) {
+// Nouveaux articles → dossier éditorial (une fois) → file, avec une heure prévue par canal
+async function plan(items, history, queue, memory, now) {
   const fresh = items.filter((a) => now - a.date <= config.maxAgeHours * HOUR).sort((a, b) => a.date - b.date);
-  for (const channel of enabledChannels()) {
-    for (const article of fresh) {
-      const known = hasPublished(history, article.guid, channel.id) || queue.some((q) => q.guid === article.guid && q.channel === channel.id);
-      if (known) continue;
+  for (const article of fresh) {
+    const channels = enabledChannels().filter(
+      (c) => !hasPublished(history, article.guid, c.id) && !queue.some((q) => q.guid === article.guid && q.channel === c.id),
+    );
+    if (!channels.length) continue;
+    const dossier = queue.find((q) => q.guid === article.guid)?.dossier ?? (await buildDossier(article, { memory }));
+    remember(memory, dossier, ed.networks, ed.memorySize);
+    for (const channel of channels) {
       const lastPlannedAt = Math.max(0, ...queue.filter((q) => q.channel === channel.id && q.status === 'pending').map((q) => q.dueAt));
       const dueAt = planDueAt({ now, lastAt: lastPublishedAt(history, channel.id), lastPlannedAt, channel, timeZone: config.timezone });
-      queue.push({ guid: article.guid, channel: channel.id, dueAt, status: 'pending', attempts: 0, article });
-      console.log(`Planifié ${channel.id} : ${article.title} → ${paris(dueAt)}`);
+      queue.push({ guid: article.guid, channel: channel.id, dueAt, status: 'pending', attempts: 0, article, dossier });
+      console.log(`Planifié ${channel.id} : ${article.title} → ${paris(dueAt)} [${dossier.source}]`);
     }
   }
 }
@@ -61,7 +71,7 @@ function prune(queue, now) {
 }
 
 // Au plus une publication due par canal
-async function execute(history, queue, now) {
+async function execute(history, queue, memory, now) {
   let failed = 0;
   for (const channel of enabledChannels()) {
     const item = queue
@@ -81,8 +91,9 @@ async function execute(history, queue, now) {
     }
 
     try {
+      item.dossier ??= await buildDossier(item.article, { memory });
       const impl = CHANNELS[channel.id];
-      const pkg = await impl.prepare(item.article);
+      const pkg = await impl.prepare(item.article, { dossier: item.dossier });
       const { mediaId } = await impl.publish(pkg, { channel });
       history.push({ guid: item.guid, channel: channel.id, at: new Date().toISOString(), mediaId });
       queue.splice(queue.indexOf(item), 1);
@@ -120,14 +131,14 @@ async function main() {
   if (DRY_RUN) return dryRun(items);
 
   const now = Date.now();
-  const [history, queue] = await Promise.all([loadHistory(), loadQueue()]);
+  const [history, queue, memory] = await Promise.all([loadHistory(), loadQueue(), loadMemory()]);
   let failed = 0;
   try {
-    plan(items, history, queue, now);
+    await plan(items, history, queue, memory, now);
     prune(queue, now);
-    failed = await execute(history, queue, now);
+    failed = await execute(history, queue, memory, now);
   } finally {
-    await Promise.all([saveHistory(history), saveQueue(queue)]);
+    await Promise.all([saveHistory(history), saveQueue(queue), saveMemory(memory)]);
   }
   const pending = queue.filter((q) => q.status === 'pending');
   console.log(pending.length ? `File : ${pending.map((q) => `${q.channel} ${paris(q.dueAt)}`).join(' · ')}` : 'File vide.');

@@ -57,12 +57,38 @@ Republication automatique des articles de **Passion Aquitaine** (passion-aquitai
 Légende Instagram :
 
 ```
-<description de l'article>
+<accroche rédigée par l'IA>
 ⠀
 ➡️ Article complet sur le site Passion Aquitaine
+⠀
+#Lieu #Sujet #Thème
 ```
 
-La ligne du milieu contient le caractère invisible U+2800 (Instagram supprime les lignes réellement vides).
+Les lignes « vides » contiennent le caractère invisible U+2800, car Instagram supprime les lignes réellement vides.
+
+### Rédacteur en chef IA (`src/brain/`)
+
+À la planification, **un appel Claude par article** (`claude-opus-5`, effort bas) produit un **dossier de publication**, conservé dans la file :
+- nature (actu chaude, actu, intemporel) et sensibilité ;
+- rubrique identitaire ;
+- titre adapté au visuel et groupe surligné ;
+- texte alternatif ;
+- textes Instagram (+ 3 hashtags), Facebook, Bluesky (+ hashtag), Threads et X.
+
+- **Données fournies :** titre, description, catégories et date du flux seulement, plus le lieu détecté par `config/geo.json`, un angle d'accroche différent par réseau (rotation dans `config/editorial.json`) et les 10 dernières accroches par réseau (`state/memory.json`).
+- **Contrôles** (`guards.mjs`) :
+  - longueurs ;
+  - surlignage copié du titre, sans petit mot en bordure ;
+  - rubrique jamais générique ni interne (« Actus », « … LOI ») ;
+  - 3 hashtags valides ;
+  - **aucun chiffre ni nom propre absent des données** ;
+  - aucun emoji sur un sujet sensible ;
+  - pas de tournures reprises entre réseaux ni depuis les accroches récentes.
+
+  Jusqu'à 3 essais avec les corrections, sinon **règles de secours** (`fallback.mjs` : lexique géographique, thèmes, surlignage chiffre > nom propre > fin de titre).
+- **Charte éditoriale modifiable sans code :** `prompts/editorial.md`. Réglages : `config/editorial.json` (modèle, angles, limites, mots vides, thèmes, hashtags interdits). Zones identitaires : `config/geo.json` (Pays basque, Béarn, Médoc, Périgord…).
+- **Coût mesuré :** environ 3 100 tokens en entrée et 750 en sortie, soit **~0,03 $ par article** (~2,5–3 €/mois).
+- **Sans `ANTHROPIC_API_KEY`**, ou si l'API est indisponible : règles de secours, la publication continue.
 
 ---
 
@@ -185,6 +211,7 @@ Modèle : `.env.example`. Le même contenu est stocké dans le secret GitHub `SO
 | `PUBLIC_BASE_URL` | URL publique du dossier | `https://passion-aquitaine.ouest-france.fr/social` |
 | `TELEGRAM_BOT_TOKEN` | Token du bot | @BotFather |
 | `TELEGRAM_CHAT_ID` | Chat destinataire | `getUpdates` du bot après lui avoir écrit |
+| `ANTHROPIC_API_KEY` | Clé API Claude (rédacteur IA) | console.anthropic.com → API Keys (clé « pa-social ») |
 | `TEST_IMAGE` | Image publique pour `smoke-ig.mjs` | une ou plusieurs URL, séparées par des virgules |
 
 Variables de test : `DRY_RUN=1` (rendu + FTP, sans Instagram ni Telegram ni état) et `DRY_RUN_LATEST=n` (avec `DRY_RUN`, traite les n derniers articles du flux).
@@ -275,7 +302,18 @@ src/core/scheduler.mjs          calcul des heures prévues (pur, testé)
 src/core/state.mjs              historique par réseau et file d'attente
 src/core/errors.mjs             GuardError (bloqué) et DeferError (reporté)
 src/sources/rss.mjs             lecture et nettoyage du flux
-src/brain/editorial.mjs         rubrique, titre, groupe surligné, typographie
+src/brain/editorial.mjs         règles : rubrique, amorce géographique, surlignage, typographie
+src/brain/dossier.mjs           dossier de publication : IA contrôlée, sinon règles de secours
+src/brain/ai.mjs                appel Claude (JSON contraint par schéma, repli serveur)
+src/brain/schema.mjs            schéma du dossier
+src/brain/guards.mjs            contrôles du dossier (anti-invention, diversité…)
+src/brain/fallback.mjs          dossier sans IA
+src/brain/geo.mjs               détection des zones identitaires
+src/brain/memory.mjs            rotation des angles, accroches récentes
+config/editorial.json           réglages éditoriaux
+config/geo.json                 lexique géographique
+prompts/editorial.md            charte éditoriale de l'IA
+state/memory.json               accroches récentes (commité par le bot)
 src/media/crop.mjs              cadrage adaptatif, remplissage flouté, JPEG conforme Meta
 src/media/render.mjs            rendu Playwright, ajustement des tailles, assets
 src/media/brush.mjs             texture du surlignage
@@ -312,3 +350,4 @@ Dépendances : `fast-xml-parser`, `sharp`, `playwright`, `basic-ftp`. Node 24, E
 | 15/09/2026 | Stratégie multi-réseaux validée (Bluesky, Facebook 1 image + lien en commentaire, Threads, X en kit Telegram, IA éditoriale) et feuille de route technique `docs/ROADMAP.md`. |
 | 15/09/2026 | Feuille de route ajustée : IA limitée au flux RSS (titre, description, catégories), URL réelle au lieu d'un lien court, dimensions d'images vérifiées (4:5 en 1440×1800, carte Bluesky 1200×627, X 1600×900), comptes Bluesky et Threads créés. |
 | 15/09/2026 | Étape 1 : socle modulaire (config, planificateur par réseau avec heures creuses 23 h–7 h et décalage aléatoire, file d'attente, canal Instagram isolé), article bloqué signalé une seule fois, 3 essais sur erreur passagère, report si quota atteint, visuels 4:5 en 1440×1800, 27 tests et 12 articles de test, planches d'aperçu. |
+| 15/09/2026 | Étape 2 : rédacteur en chef IA (dossier par article, textes différents par réseau, contrôles anti-invention et diversité, règles de secours), lexique géographique (Pays basque, Béarn…), rubrique jamais « Actus », surlignage chiffre > nom propre > fin de titre sans petit mot, guillemets insécables, nouvelle légende Instagram avec 3 hashtags. |

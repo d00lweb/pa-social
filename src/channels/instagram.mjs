@@ -1,6 +1,8 @@
+import { readFileSync } from 'node:fs';
 import { writeFile, mkdir } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
-import { pickRubrique, stripGeoLead, splitHighlight, frenchTypography } from '../brain/editorial.mjs';
+import { frenchTypography, splitAround } from '../brain/editorial.mjs';
+import { fallbackDossier } from '../brain/fallback.mjs';
 import { loadSource, cropTo, SLIDE, STORY } from '../media/crop.mjs';
 import { createRenderer } from '../media/render.mjs';
 import { uploadFiles, assertPublic } from '../storage/ftp.mjs';
@@ -11,6 +13,7 @@ import { fromRoot } from '../core/config.mjs';
 
 export const id = 'instagram';
 
+const ed = JSON.parse(readFileSync(fromRoot('config/editorial.json'), 'utf8'));
 const MIN_SOURCE_WIDTH = 1200;
 const MAX_DESC = 300;
 const DEFAULT_PUBLIC = 'https://passion-aquitaine.ouest-france.fr/social';
@@ -18,22 +21,20 @@ const DEFAULT_PUBLIC = 'https://passion-aquitaine.ouest-france.fr/social';
 const BLANK_LINE = '⠀';
 const show = (s) => s.replace(/ /g, '⍽').replace(/ /g, '·'); // espaces visibles dans le journal
 
-export function buildCaption({ description }) {
-  return [description, BLANK_LINE, '➡️ Article complet sur le site Passion Aquitaine'].join('\n');
-}
-
-// Règles rédactionnelles appliquées à un article du flux
-export function editorialize(article) {
-  const rubrique = pickRubrique(article.categories);
-  const title = frenchTypography(stripGeoLead(article.title, rubrique));
-  return { rubrique, title, parts: splitHighlight(title), description: frenchTypography(article.description) };
+// Texte, ligne vide, renvoi vers le site, ligne vide, 3 hashtags
+export function buildCaption(dossier, description) {
+  const raw = ed.instagramCaptionSource === 'ai' && dossier.source === 'ia' ? dossier.instagram.texte : description;
+  // lignes vides remplacées par U+2800, une seule à la suite
+  const text = raw.split('\n').map((l) => (l.trim() ? l : BLANK_LINE)).filter((l, i, a) => !(l === BLANK_LINE && a[i - 1] === BLANK_LINE)).join('\n');
+  return [text, BLANK_LINE, '➡️ Article complet sur le site Passion Aquitaine', BLANK_LINE, dossier.instagram.hashtags.join(' ')].join('\n');
 }
 
 // Rendu des 3 visuels + garde-fous de contenu ; GuardError si l'article ne peut pas être publié
-export async function prepare(article, { renderer: shared, log = console.log } = {}) {
+export async function prepare(article, { dossier = fallbackDossier(article), renderer: shared, log = console.log } = {}) {
   log(`\n━━ ${article.title}\n   ${article.link}`);
-  const ed = editorialize(article);
-  log(`   Rubrique : ${ed.rubrique} | Titre : ${show(ed.title)} | Surligné : « ${show(ed.parts.highlight)} »`);
+  const parts = splitAround(dossier.visuel.titre, dossier.visuel.surlignage);
+  const description = frenchTypography(article.description);
+  log(`   [${dossier.source}] Rubrique : ${dossier.rubrique} | Titre : ${show(dossier.visuel.titre)} | Surligné : « ${show(parts.highlight)} » | ${dossier.instagram.hashtags.join(' ')}`);
 
   const problems = [];
   let source = null;
@@ -44,8 +45,8 @@ export async function prepare(article, { renderer: shared, log = console.log } =
     log(`   Image source : ${source.width}x${source.height}`);
     if (source.width < MIN_SOURCE_WIDTH) problems.push(`image source trop petite : ${source.width}px de large (min ${MIN_SOURCE_WIDTH})`);
   }
-  if (!ed.description) problems.push('description vide');
-  else if (ed.description.length > MAX_DESC) problems.push(`description trop longue : ${ed.description.length} caractères (max ${MAX_DESC})`);
+  if (!description) problems.push('description vide');
+  else if (description.length > MAX_DESC) problems.push(`description trop longue : ${description.length} caractères (max ${MAX_DESC})`);
   if (!source) throw new GuardError(article, problems);
 
   const renderer = shared ?? (await createRenderer());
@@ -53,10 +54,10 @@ export async function prepare(article, { renderer: shared, log = console.log } =
   try {
     const [photo, storyPhoto] = await Promise.all([cropTo(source, SLIDE), cropTo(source, STORY)]);
     log(`   Cadrage : ${photo.info} | story : ${storyPhoto.info}`);
-    const common = { rubrique: ed.rubrique, ...ed.parts };
+    const common = { rubrique: dossier.rubrique, ...parts };
     slides = {
       s1: await renderer.render('slide1', { ...common, photo: photo.buffer, darken: photo.darken }),
-      s2: await renderer.render('slide2', { description: ed.description }),
+      s2: await renderer.render('slide2', { description }),
       story: await renderer.render('story', { ...common, photo: storyPhoto.buffer, darken: storyPhoto.darken }),
     };
   } finally {
@@ -80,7 +81,7 @@ export async function prepare(article, { renderer: shared, log = console.log } =
   await Promise.all(files.map((f) => writeFile(fromRoot('out', f.name), f.buffer)));
 
   if (problems.length) throw new GuardError(article, problems);
-  return { article, ed, files, caption: buildCaption(ed) };
+  return { article, dossier, files, caption: buildCaption(dossier, description) };
 }
 
 // Dépôt FTP + vérification des URL publiques

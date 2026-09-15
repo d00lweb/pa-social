@@ -1,0 +1,33 @@
+{
+  "region": "Nouvelle-Aquitaine",
+  "departments": [
+    "Charente", "Charente-Maritime", "Corrèze", "Creuse", "Dordogne", "Gironde", "Landes",
+    "Lot-et-Garonne", "Deux-Sèvres", "Pyrénées-Atlantiques", "Haute-Vienne", "Vienne"
+  ],
+  "zones": [
+    { "name": "Pays basque", "department": "Pyrénées-Atlantiques", "hashtag": "#PaysBasque", "match": ["Pays basque", "Bayonne", "Biarritz", "Anglet", "Saint-Jean-de-Luz", "Hendaye", "Espelette", "Ustaritz", "Cambo-les-Bains", "Saint-Jean-Pied-de-Port", "Bidart", "Guéthary", "Ciboure", "Hasparren", "Mauléon", "Labourd", "Soule", "La Rhune", "Sare", "Urrugne", "Itxassou"] },
+    { "name": "Béarn", "department": "Pyrénées-Atlantiques", "hashtag": "#Bearn", "match": ["Béarn", "Pau", "Oloron", "Oloron-Sainte-Marie", "Orthez", "Jurançon", "Lescar", "Salies-de-Béarn", "Laruns", "vallée d’Ossau", "vallée d’Aspe", "Loubieng", "Monein", "Navarrenx", "Section paloise"] },
+    { "name": "Bassin d’Arcachon", "department": "Gironde", "hashtag": "#BassinDArcachon", "match": ["Bassin d’Arcachon", "Arcachon", "Cap Ferret", "Lège-Cap-Ferret", "La Teste-de-Buch", "Pyla", "dune du Pilat", "Andernos", "Gujan-Mestras", "Biganos", "Arès"] },
+    { "name": "Médoc", "department": "Gironde", "hashtag": "#Medoc", "match": ["Médoc", "Lacanau", "Soulac", "Pauillac", "Margaux", "Hourtin", "Lesparre", "Saint-Estèphe"] },
+    { "name": "Saint-Émilion", "department": "Gironde", "hashtag": "#SaintEmilion", "match": ["Saint-Émilion", "Libourne", "Libournais"] },
+    { "name": "Bordeaux", "department": "Gironde", "hashtag": "#Bordeaux", "match": ["Bordeaux", "Bordelais", "Bordelaise", "Mérignac", "Pessac", "Talence", "Bègles", "Cenon", "Lormont", "Floirac", "Le Bouscat", "Villenave-d’Ornon", "Girondins"] },
+    { "name": "Périgord", "department": "Dordogne", "hashtag": "#Perigord", "match": ["Périgord", "Sarlat", "Périgueux", "Bergerac", "Brantôme", "Domme", "Lascaux", "Montignac", "Les Eyzies", "Vézère", "Beynac"] },
+    { "name": "Île de Ré", "department": "Charente-Maritime", "hashtag": "#IleDeRe", "match": ["Île de Ré", "Saint-Martin-de-Ré", "Ars-en-Ré", "Rivedoux"] },
+    { "name": "Oléron", "department": "Charente-Maritime", "hashtag": "#Oleron", "match": ["Oléron", "Boyardville", "Fort Boyard"] },
+    { "name": "La Rochelle", "department": "Charente-Maritime", "hashtag": "#LaRochelle", "match": ["La Rochelle", "rochelais", "rochelaise", "rochelaises"] },
+    { "name": "Royan", "department": "Charente-Maritime", "hashtag": "#Royan", "match": ["Royan", "Meschers", "Talmont"] },
+    { "name": "Saintonge", "department": "Charente-Maritime", "hashtag": "#Saintonge", "match": ["Saintonge", "Saintes", "Rochefort", "Brouage", "Taillebourg"] },
+    { "name": "Côte landaise", "department": "Landes", "hashtag": "#Landes", "match": ["Hossegor", "Capbreton", "Mimizan", "Biscarrosse", "Seignosse", "Vieux-Boucau", "Moliets"] },
+    { "name": "Dax", "department": "Landes", "hashtag": "#Dax", "match": ["Dax"] },
+    { "name": "Mont-de-Marsan", "department": "Landes", "hashtag": "#MontDeMarsan", "match": ["Mont-de-Marsan"] },
+    { "name": "Agenais", "department": "Lot-et-Garonne", "hashtag": "#Agen", "match": ["Agen", "Agenais", "Marmande", "Villeneuve-sur-Lot", "Nérac"] },
+    { "name": "Cognac", "department": "Charente", "hashtag": "#Cognac", "match": ["Cognac", "Jarnac"] },
+    { "name": "Angoulême", "department": "Charente", "hashtag": "#Angouleme", "match": ["Angoulême"] },
+    { "name": "Marais poitevin", "department": "Deux-Sèvres", "hashtag": "#MaraisPoitevin", "match": ["Marais poitevin", "Coulon"] },
+    { "name": "Niort", "department": "Deux-Sèvres", "hashtag": "#Niort", "match": ["Niort"] },
+    { "name": "Poitiers", "department": "Vienne", "hashtag": "#Poitiers", "match": ["Poitiers", "Futuroscope", "Sanxay", "Saint-Sauvant"] },
+    { "name": "Limoges", "department": "Haute-Vienne", "hashtag": "#Limoges", "match": ["Limoges", "Oradour-sur-Glane"] },
+    { "name": "Brive", "department": "Corrèze", "hashtag": "#Brive", "match": ["Brive", "Collonges-la-Rouge", "Turenne"] },
+    { "name": "Limousin", "department": "Creuse", "hashtag": "#Limousin", "match": ["Limousin", "Aubusson", "Millevaches", "Guéret", "Sous-Parsat"] }
+  ]
+}

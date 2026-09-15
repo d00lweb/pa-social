@@ -1,45 +1,49 @@
-// Planches d'aperçu (6 articles par image) : node --env-file=.env scripts/preview.mjs [--latest=N]
+// Planches d'aperçu (6 articles par image) + rapport des textes : node --env-file=.env scripts/preview.mjs [--latest=N] [--sans-ia]
 // Sans option : les articles de tests/fixtures/articles.json. Aucune publication, aucun dépôt.
-import { readFile, mkdir } from 'node:fs/promises';
+import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import sharp from 'sharp';
 import { fetchItems } from '../src/sources/rss.mjs';
 import { prepare } from '../src/channels/instagram.mjs';
+import { buildDossier } from '../src/brain/dossier.mjs';
+import { loadMemory } from '../src/brain/memory.mjs';
 import { createRenderer } from '../src/media/render.mjs';
 import { fromRoot } from '../src/core/config.mjs';
 
 const latest = Number(process.argv.find((a) => a.startsWith('--latest='))?.split('=')[1]) || 0;
+if (process.argv.includes('--sans-ia')) delete process.env.ANTHROPIC_API_KEY;
 const articles = latest
   ? (await fetchItems(process.env.RSS_URL || 'https://passion-aquitaine.ouest-france.fr/feed/')).sort((a, b) => b.date - a.date).slice(0, latest)
   : JSON.parse(await readFile(fromRoot('tests/fixtures/articles.json'), 'utf8'));
 
 const ROW = 450;
 const COLS = [360, 360, 253];
-const LABEL = 380;
+const LABEL = 420;
 const GAP = 10;
 const WIDTH = COLS.reduce((s, w) => s + w + GAP, GAP) + LABEL + GAP;
 const esc = (s) => String(s).replace(/[<>&"]/g, (c) => ({ '<': '&lt;', '>': '&gt;', '&': '&amp;', '"': '&quot;' })[c]);
 const wrap = (s, n) => String(s).split(/\s+/).reduce((lines, w) => {
-  if (!lines.length || (lines.at(-1) + ' ' + w).length > n) lines.push(w);
+  if (!lines.length || `${lines.at(-1)} ${w}`.length > n) lines.push(w);
   else lines[lines.length - 1] += ` ${w}`;
   return lines;
 }, []);
+const label = (lines, color) => Buffer.from(`<svg xmlns="http://www.w3.org/2000/svg" width="${LABEL}" height="${ROW}"><rect width="100%" height="100%" fill="#F3F0EE"/><text font-family="Arial, sans-serif" font-size="14" fill="${color}">${lines.slice(0, 22).map((l, i) => `<tspan x="12" dy="${i ? 19 : 22}">${esc(l)}</tspan>`).join('')}</text></svg>`);
 
-function label(lines, color = '#1D1B1A') {
-  const tspans = lines.slice(0, 20).map((l, i) => `<tspan x="12" dy="${i ? 21 : 24}">${esc(l)}</tspan>`).join('');
-  return Buffer.from(`<svg xmlns="http://www.w3.org/2000/svg" width="${LABEL}" height="${ROW}"><rect width="100%" height="100%" fill="#F3F0EE"/><text font-family="Arial, sans-serif" font-size="15" fill="${color}">${tspans}</text></svg>`);
-}
-
+const memory = await loadMemory();
 const renderer = await createRenderer();
 const rows = [];
+let tokensIn = 0;
+let tokensOut = 0;
 try {
   for (const article of articles) {
+    const dossier = await buildDossier(article, { memory, useCache: true, log: (m) => console.log(m) });
+    if (dossier.usage) { tokensIn += dossier.usage.input; tokensOut += dossier.usage.output; }
     try {
-      const pkg = await prepare(article, { renderer, log: () => {} });
-      rows.push({ article, pkg });
-      console.log(`OK      ${article.title}`);
+      const pkg = await prepare(article, { dossier, renderer, log: () => {} });
+      rows.push({ article, dossier, pkg });
+      console.log(`OK [${dossier.source}] ${article.title}`);
     } catch (err) {
-      rows.push({ article, error: err.problems?.join(' · ') ?? err.message });
-      console.log(`BLOQUÉ  ${article.title} → ${err.problems?.join(' · ') ?? err.message}`);
+      rows.push({ article, dossier, error: err.problems?.join(' · ') ?? err.message });
+      console.log(`BLOQUÉ ${article.title} → ${err.problems?.join(' · ') ?? err.message}`);
     }
   }
 } finally {
@@ -53,27 +57,42 @@ for (let sheet = 0; sheet * 6 < rows.length; sheet++) {
   for (const [r, row] of chunk.entries()) {
     const top = GAP + r * (ROW + GAP);
     let left = GAP;
-    if (row.pkg) {
-      for (const [i, file] of row.pkg.files.entries()) {
-        layers.push({ input: await sharp(file.buffer).resize(COLS[i], ROW, { fit: 'contain', background: '#FFFFFF' }).toBuffer(), top, left });
-        left += COLS[i] + GAP;
-      }
-    } else {
-      left += COLS.reduce((s, w) => s + w + GAP, 0);
+    for (const [i, file] of (row.pkg?.files ?? []).entries()) {
+      layers.push({ input: await sharp(file.buffer).resize(COLS[i], ROW, { fit: 'contain', background: '#FFFFFF' }).toBuffer(), top, left });
+      left += COLS[i] + GAP;
     }
-    const { article, pkg, error } = row;
+    if (!row.pkg) left += COLS.reduce((s, w) => s + w + GAP, 0);
+    const d = row.dossier;
     const lines = [
-      `[${article.label ?? 'article'}]`,
-      ...wrap(article.title, 40),
+      `[${row.article.label ?? 'article'}] source : ${d.source}${d.nature ? ` · ${d.nature}` : ''}${d.sensible ? ' · SENSIBLE' : ''}`,
+      ...wrap(row.article.title, 46),
       '',
-      ...(pkg ? [`Rubrique : ${pkg.ed.rubrique}`, ...wrap(`Surligné : « ${pkg.ed.parts.highlight} »`, 40)] : ['BLOQUÉ :', ...wrap(error, 40)]),
+      `Rubrique : ${d.rubrique}`,
+      ...wrap(`Surligné : « ${d.visuel.surlignage} »`, 46),
+      `Hashtags : ${d.instagram.hashtags.join(' ')}`,
       '',
-      ...wrap(`Catégories : ${article.categories.join(', ')}`, 40),
+      ...wrap(`Légende : ${d.source === 'ia' ? d.instagram.texte : '(description)'}`, 46).slice(0, 9),
+      ...(row.error ? ['', 'BLOQUÉ :', ...wrap(row.error, 46)] : []),
     ];
-    layers.push({ input: label(lines, pkg ? '#1D1B1A' : '#B42318'), top, left });
+    layers.push({ input: label(lines, row.pkg ? '#1D1B1A' : '#B42318'), top, left });
   }
-  const height = GAP + chunk.length * (ROW + GAP);
   const file = fromRoot('out', `preview-${sheet + 1}.jpg`);
-  await sharp({ create: { width: WIDTH, height, channels: 3, background: '#FFFFFF' } }).composite(layers).jpeg({ quality: 82 }).toFile(file);
+  await sharp({ create: { width: WIDTH, height: GAP + chunk.length * (ROW + GAP), channels: 3, background: '#FFFFFF' } }).composite(layers).jpeg({ quality: 82 }).toFile(file);
   console.log(`Planche : ${file}`);
 }
+
+// Rapport texte : tous les réseaux, pour relecture
+const report = rows.map(({ article, dossier: d, pkg }) => [
+  `## ${article.title}`,
+  `- Source : ${d.source}${d.nature ? ` · ${d.nature}` : ''}${d.sensible ? ' · sensible' : ''}${d.angles ? ` · angles : ${Object.entries(d.angles).map(([k, v]) => `${k} = ${v}`).join(', ')}` : ''}`,
+  `- Rubrique : ${d.rubrique} · Titre visuel : ${d.visuel.titre} · Surligné : « ${d.visuel.surlignage} »`,
+  `- Texte alternatif : ${d.visuel.texte_alternatif}`,
+  '', '**Instagram**', '```', pkg?.caption ?? d.instagram.texte, '```',
+  `**Facebook** : ${d.facebook.texte}`, '',
+  `**Bluesky** : ${d.bluesky.texte} ${d.bluesky.hashtag}`, '',
+  `**Threads** : ${d.threads.texte}`, '',
+  `**X** : ${d.x.texte}`, '',
+].join('\n')).join('\n');
+const cost = (tokensIn * 5 + tokensOut * 25) / 1e6;
+await writeFile(fromRoot('out', 'preview-textes.md'), `# Aperçu des textes\n\nNouveaux appels IA : ${tokensIn} tokens en entrée, ${tokensOut} en sortie, ~${cost.toFixed(3)} $.\n\n${report}`);
+console.log(`Rapport : ${fromRoot('out', 'preview-textes.md')} | nouveaux appels IA : ${tokensIn} + ${tokensOut} tokens ≈ ${cost.toFixed(3)} $`);

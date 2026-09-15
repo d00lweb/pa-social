@@ -1,0 +1,53 @@
+{
+  "model": "claude-opus-5",
+  "effort": "low",
+  "promptVersion": 1,
+  "instagramCaptionSource": "ai",
+  "memorySize": 10,
+  "networks": ["instagram", "facebook", "bluesky", "threads", "x"],
+  "angles": [
+    "question intrigante",
+    "chiffre ou fait marquant en tête",
+    "lieu en tête",
+    "effet de surprise",
+    "bénéfice pour le lecteur",
+    "le saviez-vous",
+    "image évocatrice"
+  ],
+  "limits": {
+    "visualTitle": 90,
+    "highlight": 24,
+    "rubrique": 24,
+    "instagramText": 700,
+    "instagramFirstLine": 125,
+    "facebook": 400,
+    "bluesky": 260,
+    "threads": 450,
+    "x": 230,
+    "altText": 300
+  },
+  "similarityMax": 0.5,
+  "memorySimilarityMax": 0.5,
+  "genericCategories": ["actus", "actu", "actualites", "actualite", "a la une", "non classe", "divers"],
+  "internalCategoryPattern": "\\bLOI$",
+  "stopwords": [
+    "de", "du", "des", "d’", "le", "la", "les", "l’", "un", "une", "d’un", "d’une",
+    "à", "au", "aux", "en", "par", "pour", "sur", "dans", "avec", "sans", "sous", "entre", "chez", "vers",
+    "et", "ou", "mais", "donc", "qui", "que", "qu’", "dont", "où",
+    "ce", "cet", "cette", "ces", "son", "sa", "ses", "leur", "leurs", "notre", "votre",
+    "plus", "moins", "très", "trop", "bien", "déjà", "encore", "aussi", "an", "ans", "fois", "y", "a", "est", "sont"
+  ],
+  "themes": [
+    { "rubrique": "Patrimoine", "hashtag": "#Patrimoine", "match": ["château", "église", "abbaye", "tombeau", "monastère", "musée", "patrimoine", "romain", "médiéval", "fresque", "troglodyte", "tour", "villa"] },
+    { "rubrique": "Nature", "hashtag": "#Nature", "match": ["forêt", "animaux", "castor", "abeille", "oiseau", "plage", "dune", "lac", "rivière", "marais", "faune", "flore", "hippocampe", "brebis"] },
+    { "rubrique": "Gastronomie", "hashtag": "#Gastronomie", "match": ["restaurant", "boulangerie", "vin", "gastronomie", "fromage", "huître", "chocolat", "recette", "chef", "vignoble"] },
+    { "rubrique": "Sport", "hashtag": "#Sport", "match": ["rugby", "football", "basket", "surf", "marathon", "triathlon", "match", "Girondins"] },
+    { "rubrique": "Culture", "hashtag": "#Culture", "match": ["festival", "concert", "exposition", "cinéma", "théâtre", "artiste", "livre", "spectacle"] },
+    { "rubrique": "Économie", "hashtag": "#Economie", "match": ["prix", "emploi", "entreprise", "usine", "immobilier", "euros", "€", "chantier", "courses"] },
+    { "rubrique": "Tourisme", "hashtag": "#Tourisme", "match": ["vacances", "visite", "séjour", "camping", "hébergement", "road trip", "balade", "randonnée", "ville"] }
+  ],
+  "defaultRubrique": "À découvrir",
+  "regionHashtag": "#NouvelleAquitaine",
+  "bannedHashtags": ["#news", "#actu", "#actus", "#instagood", "#follow", "#like", "#viral", "#fyp"],
+  "knownNames": ["Passion Aquitaine", "Ouest-France", "Nouvelle-Aquitaine", "Aquitaine", "France", "Europe", "Instagram", "Facebook"]
+}

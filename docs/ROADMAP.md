@@ -17,7 +17,7 @@ Stratégie détaillée et données : note « Plan Bluesky, Threads, X » (v2, 15
 - [ ] 1. Socle modulaire
 - [ ] 2. Rédacteur en chef IA + nouvelle légende Instagram
 - [ ] 3. Centre de contrôle Telegram
-- [ ] 4. Liens courts
+- [ ] 4. Liens et suivi des clics
 - [ ] 5. Kit X
 - [ ] 6. Bluesky
 - [ ] 7. Facebook
@@ -51,7 +51,7 @@ src/
   media/
     render.mjs, crop.mjs, brush.mjs
     templates/         ig-slide.html, ig-desc.html, story.html, card-1200x630.html, x-16x9.html
-  links/yourls.mjs     lien court + UTM par réseau
+  links/links.mjs      URL réelle de l'article, UTM seulement quand le lien n'est pas visible
   storage/ftp.mjs      dépôt des visuels
   channels/            instagram, facebook, bluesky, threads, x-kit, telegram
                        interface commune : prepare(dossier) → publish() → verify()
@@ -87,6 +87,7 @@ Règles de conception :
 - Réorganisation selon l'architecture cible, **sans changement visible** pour Instagram.
 - `core/scheduler` : file par canal, écart minimum, heures creuses 23 h–7 h, décalage aléatoire 5–35 min, priorités (voir étape 2).
 - État migré : `published.json` actuel conservé, `queue.json` créé.
+- Visuels 4:5 produits en **1440×1800** (largeur maximale acceptée par les API Instagram et Threads, recommandée par Meta), même mise en page qu'aujourd'hui.
 - `tests/fixtures/` : 12 articles réels couvrant les cas limites (titre très long, guillemets, chiffres, Pyrénées-Atlantiques, hors région, fait divers, événement daté, catégorie « Actus » seule…).
 - `scripts/preview.mjs` : planche d'aperçu unique.
 - Tests `node:test` + exécution dans le workflow avant publication.
@@ -99,9 +100,11 @@ Règles de conception :
 
 **Action de ta part :** créer une clé API Anthropic (console.anthropic.com), l'ajouter au secret `SOCIAL` (`ANTHROPIC_API_KEY=`) et à ton `.env`.
 
-**Principe :** un seul appel Claude par article produit tout le dossier de publication, en JSON validé. Modèle `claude-opus-5`. Coût estimé : ~0,04–0,07 $ par article avec le texte complet, soit **~4–6 € par mois** pour ~90 articles.
+**Principe :** un seul appel Claude par article produit tout le dossier de publication, en JSON validé. Modèle `claude-opus-5`, effort bas. **L'IA ne dispose que des données du flux RSS** (pas de lecture de l'article). Coût estimé : ~0,03 $ par article, soit **~2,5–3 € par mois** pour ~90 articles ; l'essentiel du coût vient des 5 textes produits, pas de la lecture.
 
-**Entrées :** titre, description, catégories, texte complet de l'article (1 500 mots max), date, zone géographique détectée, 30 dernières accroches par réseau (anti-répétition).
+**Entrées :** titre, description, catégories et date du flux ; zone géographique détectée par le lexique ; angle d'accroche imposé par réseau ; 10 dernières accroches par réseau, en version compacte (anti-répétition).
+
+**Diversité garantie par le code, pas seulement par l'IA :** pour chaque article, le programme attribue à chaque réseau un angle différent, tiré en rotation (question, chiffre ou fait marquant, lieu en tête, surprise, bénéfice pour le lecteur, citation, « le saviez-vous »). L'IA doit s'y conformer.
 
 **Sortie (schéma) :**
 - `nature` : `actu_chaude` · `actu` · `evergreen` ; `sensible` (décès, accident, justice, drame) ; `ton` : `sobre` · `standard` · `léger`
@@ -123,7 +126,8 @@ Règles de conception :
 
 **Gardes automatiques (sinon 1 nouvel essai, puis repli sur les règles actuelles) :**
 - longueurs par réseau respectées ; surlignage présent dans le titre ; 3 hashtags au format `#MotCamelCase`
-- **tout chiffre, date ou nom propre des textes doit figurer dans l'article** (anti-invention)
+- **tout chiffre, date ou nom propre des textes doit figurer dans le titre, la description ou les catégories du flux** (anti-invention)
+- **textes différents entre réseaux** : similarité entre deux textes du même article inférieure à un seuil (mots en commun), sinon régénération
 - article `sensible` : aucun emoji, aucune formule légère, pas de question racoleuse
 - aucune accroche identique ou quasi identique aux 30 précédentes du réseau
 - jamais de promesse absente de l'article, jamais de « vous ne devinerez jamais »
@@ -156,15 +160,18 @@ Règles de conception :
 
 ---
 
-## Étape 4 · Liens courts
+## Étape 4 · Liens et suivi des clics
 
-**Action de ta part :** confirmer que `passion-aquitaine.fr` est dans ton cPanel ; installer YOURLS (guide pas à pas fourni en début d'étape) ; créer la clé API YOURLS et l'ajouter au secret.
+**Action de ta part :** aucune. Pas de raccourcisseur : on utilise l'URL réelle de l'article partout.
 
-**Livrables :** `links/yourls.mjs` (identifiant lisible ≤ 14 caractères, UTM par réseau, réutilisation si le lien existe).
+**Règle :**
+- Lien **non visible** (carte Bluesky, carte Threads) : URL réelle + UTM (`utm_source=bluesky&utm_medium=social`), pour mesurer les clics dans les statistiques du site.
+- Lien **visible** (texte X, texte ou réponse Threads, commentaire Facebook) : URL réelle propre, sans UTM. Les statistiques du site attribuent quand même la visite au réseau d'origine.
+- Sur X, toute URL compte pour 23 caractères et s'affiche tronquée (`passion-aquitaine.ouest-france.fr/pourquoi-bor…`). Sur Bluesky, une facette peut afficher un texte court cliquable qui pointe vers l'URL réelle.
 
-**Longueur du lien :** `passion-aquitaine.fr/matrimoine` (31 caractères) ne pose problème nulle part. Sur X, tout lien compte pour 23 caractères et s'affiche raccourci ; sur Bluesky, la carte n'affiche aucune URL et le texte peut afficher une version courte ; sur Threads (500 caractères) et en commentaire Facebook, il s'affiche entier. Seule précaution : identifiant plafonné à ~14 caractères.
+**Livrables :** `links/links.mjs`, un seul endroit pour construire les liens selon le réseau et la visibilité.
 
-**Test d'acceptation :** lien créé, redirection 301 vers l'article avec UTM, clic compté.
+**Test d'acceptation :** chaque canal reçoit la bonne forme d'URL ; une URL avec UTM ouvre bien l'article.
 
 ---
 
@@ -172,7 +179,7 @@ Règles de conception :
 
 **Action de ta part :** aucune.
 
-**Livrables :** gabarit `x-16x9` (1200×675, variante sans logo Ouest-France prête si besoin) ; message Telegram : image, texte ≤ 250 caractères + lien court dans un bloc copiable, bouton « Publier sur X » (texte et lien pré-remplis).
+**Livrables :** gabarit `x-16x9` (**1600×900**, le format qui s'affiche sans recadrage sur mobile et ordinateur ; variante sans logo Ouest-France prête si besoin) ; message Telegram : image, texte ≤ 250 caractères + URL réelle dans un bloc copiable, bouton « Publier sur X » (texte et lien pré-remplis).
 
 **Test d'acceptation :** du message Telegram à la publication sur X en moins de 30 secondes.
 
@@ -180,9 +187,11 @@ Règles de conception :
 
 ## Étape 6 · Bluesky
 
-**Action de ta part :** créer le compte, mot de passe d'application, identifiant `@passion-aquitaine.fr` (enregistrement DNS guidé).
+**Compte créé :** `passion-aquitaine.bsky.social` (nom, bio et avatar présents ; bannière à ajouter, 1500×500).
 
-**Livrables :** gabarit `card-1200x630` ; post carte de lien (vignette = visuel), 1 hashtag de lieu, texte alternatif ; variante image 4:5 (20 %) ; liens cliquables par facettes ; 2 semaines en mode validation puis automatique.
+**Action de ta part :** créer un mot de passe d'application ; passer l'identifiant en `@passion-aquitaine.fr` (enregistrement DNS guidé).
+
+**Livrables :** gabarit `card-1200x627` (1,91:1, < 1 Mo) ; post carte de lien (vignette = visuel), 1 hashtag de lieu, texte alternatif ; variante image 4:5 en 1440×1800 (< 2 Mo, 20 % des posts) avec lien par facette ; 2 semaines en mode validation puis automatique.
 
 **Visibilité Discover :** publier aux heures d'audience (8 h–20 h), mots-clés du sujet dans le texte, hashtag de lieu, réponses humaines rapides aux premiers commentaires (l'engagement précoce compte).
 
@@ -194,7 +203,9 @@ Règles de conception :
 
 **Action de ta part :** ajouter `pages_manage_posts` et `pages_manage_engagement` à l'app Meta, régénérer le token de Page.
 
-**Livrables :** post **1 image** (visuel 4:5) + texte 1 à 3 phrases, puis lien court en **premier commentaire** de la Page ; montée en charge : 1/jour pendant 2 semaines, puis 2, puis 3.
+**Livrables :** post **1 image** (visuel 4:5 en 1440×1800) + texte 1 à 3 phrases, puis URL réelle en **premier commentaire**, publié automatiquement par la Page ; montée en charge : 1/jour pendant 2 semaines, puis 2, puis 3.
+
+**Risque du commentaire automatique :** faible. Commenter ses propres posts via l'API officielle (`pages_manage_engagement`) est un usage documenté par Meta et proposé par les outils de programmation. Ce qui est sanctionné, ce sont les commentaires automatiques sur les contenus des autres. Garde-fous : un seul commentaire par post, texte variable (« L'article complet : », « À lire ici : »…), publié 1 à 3 minutes après le post.
 
 **Visibilité (recommandations aux non-abonnés) :** contenu visuel original, texte qui appelle le commentaire sans appât (« Vous connaissiez ce lieu ? »), jamais de lien dans le corps.
 
@@ -204,9 +215,11 @@ Règles de conception :
 
 ## Étape 8 · Threads
 
-**Action de ta part :** créer le compte Threads (lié à @lovaquitaine), ajouter le cas d'usage Threads à l'app Meta, autoriser l'app.
+**Compte créé :** `@lovaquitaine`.
 
-**Livrables :** rotation A (image + lien court) / B (texte + carte) / C (image + lien en réponse) ; 1 sujet ; question ouverte 1 fois sur 3 (jamais si `sensible`) ; `maintenance.yml` renouvelle le token tous les 30 jours avec alerte ; 2 semaines en mode validation.
+**Action de ta part :** ajouter le cas d'usage Threads à l'app Meta, autoriser l'app.
+
+**Livrables :** rotation A (image 4:5 1440×1800 + URL dans le texte) / B (texte + carte avec URL + UTM) / C (image + URL en réponse) ; 1 sujet ; question ouverte 1 fois sur 3 (jamais si `sensible`) ; `maintenance.yml` renouvelle le token tous les 30 jours avec alerte ; 2 semaines en mode validation.
 
 **Test d'acceptation :** 3 formats publiés correctement ; renouvellement du token testé.
 
@@ -216,7 +229,7 @@ Règles de conception :
 
 **Action de ta part :** aucune.
 
-**Livrables :** relevé hebdomadaire par post et par réseau (interactions via API, clics YOURLS) ; rapport Telegram le lundi (top/flop, meilleurs formats et horaires) ; **boucle d'apprentissage** : les 10 meilleures accroches du mois sont injectées comme exemples dans le prompt ; ajustement des poids de formats dans `config/channels.json`.
+**Livrables :** relevé hebdomadaire par post et par réseau (interactions via API, visites par réseau dans les statistiques du site) ; rapport Telegram le lundi (top/flop, meilleurs formats et horaires) ; **boucle d'apprentissage** : les 10 meilleures accroches du mois sont injectées comme exemples dans le prompt ; ajustement des poids de formats dans `config/channels.json`.
 
 **Test d'acceptation :** premier rapport reçu, poids ajustables sans code.
 
@@ -238,12 +251,20 @@ Règles de conception :
 
 | Réseau | Visuel | Texte | Lien | Hashtags | Visibilité / actu |
 |---|---|---|---|---|---|
-| Instagram | Carrousel 1080×1350 (titre + description) | Accroche ≤ 125 car. en tête, mots-clés | Aucun (non cliquable) | 3 intelligents | Enregistrements et partages, texte alternatif, Reels (étape 10) |
-| Facebook | 1 image 1080×1350 | 1 à 3 phrases | Premier commentaire | 0 | Visuel original, conversation, pas de lien dans le corps |
-| Bluesky | Carte 1200×630 · 20 % image 4:5 | Accroche 150–250 car., sans emoji | Carte ou facette | 1 lieu | Heures d'audience, engagement précoce |
-| Threads | Rotation image 4:5 / carte / réponse | Conversationnel, question 1/3 | Texte, carte ou réponse | 1 sujet | Réponses, sujets, vidéo (étape 10) |
-| X (manuel) | 1200×675 | ≤ 250 car. autonome | Dans le texte | 0–1 | Rapidité sur l'actu chaude |
+| Instagram | Carrousel 4:5, 1440×1800 | Accroche ≤ 125 car. en tête, mots-clés | Aucun (non cliquable) | 3 intelligents | Enregistrements et partages, texte alternatif, Reels (étape 10) |
+| Facebook | 1 image 4:5, 1440×1800 | 1 à 3 phrases | URL réelle en premier commentaire | 0 | Visuel original, conversation, pas de lien dans le corps |
+| Bluesky | Carte 1200×627 · 20 % image 4:5 1440×1800 | Accroche 150–250 car., sans emoji | Carte (URL + UTM) ou facette | 1 lieu | Heures d'audience, engagement précoce |
+| Threads | Rotation image 4:5 1440×1800 / carte / réponse | Conversationnel, question 1/3 | URL réelle (UTM si carte) | 1 sujet | Réponses, sujets, vidéo (étape 10) |
+| X (manuel) | 16:9, 1600×900 | ≤ 250 car. autonome | URL réelle (compte 23 car.) | 0–1 | Rapidité sur l'actu chaude |
+| Story Instagram | 9:16, 1080×1920 | — | Sticker à la main | — | Inchangé |
+
+**Dimensions vérifiées (septembre 2026) :**
+- **Instagram :** l'app affiche la grille du profil en 3:4 depuis 2025, mais l'API de publication n'accepte que du 4:5 au 1,91:1, avec une largeur de 1440 px maximum. Le 4:5 est donc le plus haut format publiable. Dans la grille, un 4:5 perd environ 34 px de chaque côté : titre, rubrique et bandeau restent à plus de 88 px des bords.
+- **Facebook :** 4:5 recommandé pour le fil mobile ; Meta conseille 1440 px de large.
+- **Threads :** 1440 px de large maximum, 8 Mo, sRGB.
+- **Bluesky :** images jusqu'à 2 Mo, affichées jusqu'à 4000 px (avril 2026) ; vignette de carte en 1,91:1.
+- **X :** 16:9 (1600×900), le format qui s'affiche sans recadrage partout. Test d'un 4:5 prévu à l'étape 9.
 
 ## Règles anti-bannissement (rappel)
 
-API officielles uniquement · jamais d'interaction automatique · humains derrière chaque compte · démarrage en mode validation · écarts, nuit, décalage aléatoire · textes différents par réseau et par post · liens de marque · coupe-circuits par canal · accrocheur jamais trompeur.
+API officielles uniquement · jamais d'interaction automatique · humains derrière chaque compte · démarrage en mode validation · écarts, nuit, décalage aléatoire · textes différents par réseau et par post · URL réelle du site, pas de raccourcisseur · coupe-circuits par canal · accrocheur jamais trompeur.

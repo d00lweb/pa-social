@@ -196,7 +196,8 @@ async function plan(items, { history, queue, memory, controls, now }) {
 
 // Un aperçu Telegram par article (visuels + textes + boutons) ; réessayé au passage suivant en cas d'échec
 async function sendPreviews({ queue, memory, history, now }) {
-  if (!telegramEnabled()) return;
+  // aperçus désactivés par défaut (publication automatique, décision du 15/09/2026)
+  if (!telegramEnabled() || !config.telegram?.previews) return;
   const groups = new Map();
   for (const q of queue) if (OPEN.includes(q.status) && !q.previewSent) groups.set(q.guid, [...(groups.get(q.guid) ?? []), q]);
   for (const [guid, items] of groups) {
@@ -276,7 +277,7 @@ async function execute({ history, queue, memory, controls, now }) {
       await Promise.all([saveHistory(history), saveQueue(queue)]);
       console.log(`Publié ${channel.id} : ${mediaId}`);
       if (impl.publishedLabel) console.log(`Kit ${channel.id} envoyé`);
-      else await say(`📣 <b>Publié sur ${NAMES[channel.id]}</b>\n${esc(item.article.title)}`);
+      else if (config.telegram?.publishedNotice) await say(`📣 <b>Publié sur ${NAMES[channel.id]}</b>\n${esc(item.article.title)}`);
     } catch (err) {
       if (err instanceof DeferError) {
         item.dueAt = now + HOUR;

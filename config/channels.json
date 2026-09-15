@@ -3,11 +3,12 @@
   "maxAgeHours": 24,
   "queueRetentionDays": 7,
   "retry": { "maxAttempts": 3, "delayMinutes": 30 },
+  "telegram": { "previews": false, "publishedNotice": false },
   "restriction": { "codes": [4, 17, 32, 368, 613], "subcodes": [2207051, 2207042] },
   "channels": {
     "instagram": {
       "enabled": true,
-      "validation": true,
+      "validation": false,
       "gapHours": [3, 4.5],
       "quietHours": { "start": 23, "end": 7 },
       "jitterMinutes": [5, 40],
@@ -18,7 +19,7 @@
     "bluesky": {
       "enabled": true,
       "requiresEnv": ["BLUESKY_HANDLE", "BLUESKY_APP_PASSWORD"],
-      "validation": true,
+      "validation": false,
       "imageEvery": 5,
       "gapHours": [2.5, 4],
       "quietHours": { "start": 22, "end": 8 },
@@ -28,7 +29,7 @@
     },
     "x": {
       "enabled": true,
-      "validation": true,
+      "validation": false,
       "manual": true,
       "hideOuestFrance": false,
       "gapHours": 0,

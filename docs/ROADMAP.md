@@ -27,6 +27,8 @@ Stratégie détaillée et données : note « Plan Bluesky, Threads, X » (v2, 15
 
 ---
 
+> **Décision du 15/09/2026 :** plus aucune validation Telegram. Chaque réseau mis en production publie automatiquement dès son activation ; les « 2 semaines en mode validation » prévues ci-dessous ne s'appliquent plus. Telegram ne reçoit que le kit X, la story Instagram et les alertes.
+
 ## Architecture cible
 
 Principe : **un article → un « dossier de publication » unique → des canaux indépendants**. Ajouter un réseau = ajouter un fichier de canal, sans toucher au reste.

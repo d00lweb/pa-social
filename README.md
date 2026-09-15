@@ -91,6 +91,15 @@ Format décidé par l'utilisateur le 15/09/2026, sur le modèle des posts du Fig
 
 Variante du visuel sans le logo Ouest-France : `"hideOuestFrance": true` dans `config/channels.json`.
 
+### Publication automatique (décision du 15/09/2026)
+
+**Aucune validation manuelle.** Instagram, Bluesky et tous les réseaux ajoutés ensuite publient automatiquement (`"validation": false` dans `config/channels.json`). Telegram ne reçoit plus que :
+- le **kit X**, à publier à la main ;
+- la **story Instagram**, avec le sticker lien à poser à la main ;
+- les **alertes** : garde-fou, échec, coupe-circuit.
+
+Aperçus et avis de publication sont désactivés (`"telegram": { "previews": false, "publishedNotice": false }`), mais peuvent être réactivés sans toucher au code. Les commandes `/statut`, `/file`, `/pause` et `/reprise` restent disponibles. `/validation <réseau> on` réactive la validation d'un réseau, mais sans aperçu il n'y aurait rien à valider : il faudrait aussi remettre `previews` à `true`.
+
 ### Centre de contrôle Telegram (bot @PA_aquibot)
 
 Pas de serveur : le bot lit boutons et commandes à **chaque passage du cron** (toutes les 20 min environ), avec `getUpdates`. Le curseur de lecture est dans `state/telegram.json`. Seuls les messages du chat `TELEGRAM_CHAT_ID` sont pris en compte.
@@ -456,3 +465,4 @@ Dépendances : `fast-xml-parser`, `sharp`, `playwright`, `basic-ftp`. Node 24, E
 | 15/09/2026 | Kit X revu d'après les données (Buffer, Nieman Lab) : post natif texte + image sans lien, lien publié en réponse. Visuel X : bandeau centré, titre sur toute la largeur, dégradé bas. |
 | 15/09/2026 | Charte v4, décisions utilisateur : X en image 4:5 (1080×1350) + texte + « ➡️ lien » à la ligne ; au moins un emoji stratégique dans chaque texte de chaque réseau (choisi selon le sujet, placement varié, non répété, sobre si sujet sensible). |
 | 15/09/2026 | Charte v5 : placement de l'emoji imposé par réseau, en rotation. Étape 6 : canal Bluesky livré (carte de lien 1200×627 ou image 4:5 + lien, hashtag cliquable, validation Telegram, coupe-circuit), inactif tant que les identifiants manquent. |
+| 15/09/2026 | Bluesky en production (identifiant certifié @passion-aquitaine.ouest-france.fr). Publication automatique sur tous les réseaux, sans validation ; Telegram limité au kit X, à la story Instagram et aux alertes. |

@@ -253,7 +253,7 @@
           <div><dt>Texte</dt><dd>Accroche 150–260 car. · 1 emoji · 1 hashtag de lieu intégré</dd></div>
           <div><dt>Lien</dt><dd>URL de l'article</dd></div>
         </dl>
-        <div class="net-foot"><a href="https://bsky.app/profile/passion-aquitaine.bsky.social" target="_blank" rel="noopener">passion-aquitaine.bsky.social ↗</a><span class="mono">Compte créé</span></div>
+        <div class="net-foot"><a href="https://bsky.app/profile/passion-aquitaine.ouest-france.fr" target="_blank" rel="noopener">@passion-aquitaine.ouest-france.fr ↗</a><span class="mono">Identifiant certifié</span></div>
       </article>
 
       <article class="net">
@@ -442,7 +442,7 @@
       const media = b.mode === 'image'
         ? img(a.images.bluesky ?? a.images.slide1, 'r45', a.alt)
         : `<div class="card-link">${img(a.images.bluesky ?? a.images.slide1, 'r191', a.alt)}<div><small>passion-aquitaine.ouest-france.fr</small><b>${esc(a.title)}</b></div></div>`;
-      return `<article class="post">${head('bluesky', t, b.mode === 'image' ? 'image · ' : 'carte · ')}${who('Passion Aquitaine', '@passion-aquitaine.bsky.social')}
+      return `<article class="post">${head('bluesky', t, b.mode === 'image' ? 'image · ' : 'carte · ')}${who('Passion Aquitaine - Ouest-France', '@passion-aquitaine.ouest-france.fr')}
         <div class="ptext">${text}</div>${media}</article>`;
     },
     threads(a) {

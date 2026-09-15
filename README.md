@@ -78,7 +78,7 @@ API AT Protocol officielle et gratuite : connexion par **mot de passe d'applicat
 - **Réglages :** validation Telegram, écart de 2 h 30 à 4 h, rien entre 22 h et 8 h, attente aléatoire avant publication.
 - **Coupe-circuit** en cas de limite (HTTP 429) ou de sanction du compte.
 - **Test d'accès, sans publier :** `npm run smoke:bsky`.
-- **Identifiant de domaine** `@passion-aquitaine.fr` (optionnel) : enregistrement DNS TXT `_atproto.passion-aquitaine.fr` = `did=did:plc:ypqeiof554p2x7wxn5syoq7o`, puis dans l'app Bluesky : Réglages → Compte → Identifiant → « J'ai mon propre domaine ». Mettre ensuite à jour `BLUESKY_HANDLE`.
+- **Identifiant de domaine :** `@passion-aquitaine.ouest-france.fr` (depuis le 15/09/2026), vérifié par le fichier `https://passion-aquitaine.ouest-france.fr/.well-known/atproto-did`, qui contient `did:plc:ypqeiof554p2x7wxn5syoq7o`. Ce fichier est dans le dossier `.well-known` à la racine du site. **Ne jamais le supprimer**, sinon l'identifiant retombe en invalide.
 
 ### Kit X (`src/channels/x.mjs`)
 
@@ -299,7 +299,7 @@ Modèle : `.env.example`. Le même contenu est stocké dans le secret GitHub `SO
 | `TELEGRAM_BOT_TOKEN` | Token du bot | @BotFather |
 | `TELEGRAM_CHAT_ID` | Chat destinataire | `getUpdates` du bot après lui avoir écrit |
 | `ANTHROPIC_API_KEY` | Clé API Claude (rédacteur IA) | console.anthropic.com → API Keys (clé « pa-social ») |
-| `BLUESKY_HANDLE` | Identifiant Bluesky | `passion-aquitaine.bsky.social` (ou le domaine une fois configuré) |
+| `BLUESKY_HANDLE` | Identifiant Bluesky | `passion-aquitaine.ouest-france.fr` |
 | `BLUESKY_APP_PASSWORD` | Mot de passe d'application | App Bluesky → Réglages → Confidentialité et sécurité → Mots de passe d'application |
 | `TEST_IMAGE` | Image publique pour `smoke-ig.mjs` | une ou plusieurs URL, séparées par des virgules |
 

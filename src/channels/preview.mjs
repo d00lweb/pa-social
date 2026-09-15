@@ -1,4 +1,5 @@
 import { NAMES } from '../core/control.mjs';
+import { composeBluesky, composeX, facebookComment } from '../brain/compose.mjs';
 
 export const esc = (s) => String(s ?? '').replace(/[&<>]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' })[c]);
 const clip = (s, n) => ([...String(s)].length <= n ? String(s) : `${[...String(s)].slice(0, n - 1).join('')}…`);
@@ -9,10 +10,10 @@ export function buildPreviewText({ article, dossier, caption, items, when }) {
   const awaiting = items.some((i) => i.status === 'awaiting');
   const blocks = [
     ['instagram', caption],
-    ['facebook', dossier.facebook.texte],
-    ['bluesky', `${dossier.bluesky.texte} ${dossier.bluesky.hashtag}`],
+    ['facebook', `${dossier.facebook.texte}\n[1er commentaire : ${facebookComment(article)}]`],
+    ['bluesky', composeBluesky(dossier)],
     ['threads', `${dossier.threads.texte}${dossier.threads.sujet ? `\n[sujet : ${dossier.threads.sujet}]` : ''}`],
-    ['x', dossier.x.texte],
+    ['x', composeX(dossier, article.link)],
   ];
   for (const limit of [900, 600, 400, 250]) {
     const parts = [

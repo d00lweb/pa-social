@@ -43,7 +43,7 @@ function properNames(text) {
 const tokens = (s) => String(s).split(/[\s  ]+/).filter(Boolean);
 
 // Problèmes d'un dossier IA ; liste vide = publiable
-export function checkDossier(d, { source, limits, stopwords, genericCategories, internalCategoryPattern, bannedHashtags, knownNames, similarityMax, memorySimilarityMax, memory = {} }) {
+export function checkDossier(d, { source, limits, stopwords, genericCategories, internalCategoryPattern, bannedHashtags, knownNames, similarityMax, memorySimilarityMax, memory = {}, questions = {}, baitPatterns = [] }) {
   const problems = [];
   const stop = new Set(stopwords.map((w) => fold(w)));
   const src = fold(source);
@@ -81,6 +81,10 @@ export function checkDossier(d, { source, limits, stopwords, genericCategories, 
     const emojiMax = limits.emoji?.[net] ?? 0;
     if (emojis > emojiMax) problems.push(`${net} : ${emojis} emoji(s), ${emojiMax} max`);
     if (/#[\p{L}\p{N}]/u.test(text)) problems.push(`${net} : pas de hashtag dans le texte`);
+    if (questions[net] === false && /\?/.test(text)) problems.push(`${net} : pas de question pour ce post (questions limitées)`);
+    const bait = baitPatterns.find((p) => fold(text).includes(fold(p)));
+    if (bait) problems.push(`${net} : formule d'appel à l'engagement interdite (« ${bait} »)`);
+    if (/[.…]\s*\p{Extended_Pictographic}/u.test(text)) problems.push(`${net} : pas de point juste avant un emoji`);
   }
   if (graphemes(d.instagram.texte.split('\n')[0]) > limits.instagramFirstLine) problems.push(`instagram : première ligne > ${limits.instagramFirstLine} caractères`);
 

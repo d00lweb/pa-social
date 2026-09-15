@@ -408,11 +408,10 @@
       const t = a.networks.facebook.text;
       return `<article class="post">${head('facebook', t)}${who('Passion Aquitaine', 'Page · Média')}
         <div class="ptext">${esc(t)}</div>${img(a.images.slide1, 'r45', a.alt)}
-        <div class="comment" style="margin-top:12px"><span class="avatar">PA</span><div><b>Passion Aquitaine</b><br><span style="color:#1F6FD1">${esc(a.networks.facebook.comment)}</span></div></div></article>`;
+        <div class="comment" style="margin-top:12px"><span class="avatar">PA</span><div><b>Passion Aquitaine</b><br>${esc(a.networks.facebook.comment).replace(/(https?:\/\/\S+)/, '<span style="color:#1F6FD1">$1</span>')}</div></div></article>`;
     },
     bluesky(a) {
-      const b = a.networks.bluesky;
-      const t = `${b.text} ${b.hashtag}`;
+      const t = a.networks.bluesky.text;
       return `<article class="post">${head('bluesky', t)}${who('Passion Aquitaine', '@passion-aquitaine.bsky.social')}
         <div class="ptext">${tags(t)}</div>
         <div class="card-link">${img(a.images.slide1, 'r191', a.alt, 'Visuel carte définitif : étape 6')}<div><small>passion-aquitaine.ouest-france.fr</small><b>${esc(a.title)}</b></div></div></article>`;
@@ -425,8 +424,9 @@
     },
     x(a) {
       const t = a.networks.x.text;
-      return `<article class="post">${head('x', t, 'lien = 23 · ')}${who('Passion Aquitaine', 'X')}
-        <div class="ptext">${esc(t)}\n<span class="lnk">${esc(a.link.replace(/^https?:\/\//, '').slice(0, 30))}…</span></div>${img(a.images.slide1, 'r169', a.alt, 'Visuel 16:9 définitif : étape 5')}
+      const counted = `${t} ${'x'.repeat(23)}`;
+      return `<article class="post">${head('x', counted, 'lien = 23 · ')}${who('Passion Aquitaine', 'X')}
+        <div class="ptext">${esc(t)} <span class="lnk">${esc(a.link.replace(/^https?:\/\//, '').slice(0, 30))}…</span></div>${img(a.images.slide1, 'r169', a.alt, 'Visuel 16:9 définitif : étape 5')}
         <p class="manual" style="margin-top:10px">Kit envoyé sur Telegram, publication manuelle</p></article>`;
     },
   };

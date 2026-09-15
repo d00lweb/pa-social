@@ -35,6 +35,10 @@ function typeset(d) {
 export async function buildDossier(article, { memory, useCache = false, log = console.log } = {}) {
   const place = resolvePlace(article);
   const angles = nextAngles(memory, ed.angles, ed.networks);
+  // Questions limitées (anti-appât) : angle « question », ou 1 article sur N pour Facebook et Threads
+  const questions = Object.fromEntries(
+    ed.networks.map((n) => [n, angles[n] === 'question intrigante' || (['facebook', 'threads'].includes(n) && memory.angleIndex % ed.questionEvery === 0)]),
+  );
   const key = createHash('sha1').update(JSON.stringify([ed.promptVersion, article.guid, article.title, article.description])).digest('hex').slice(0, 16);
   const cacheFile = fromRoot('.cache', 'dossiers', `${key}.json`);
 
@@ -59,6 +63,7 @@ export async function buildDossier(article, { memory, useCache = false, log = co
     lieu_detecte: place?.name ?? null,
     zones_possibles: candidateZones(article, place),
     angles,
+    questions_autorisees: questions,
     dernieres_accroches: memory.recent ?? {},
   };
 
@@ -72,7 +77,7 @@ export async function buildDossier(article, { memory, useCache = false, log = co
       return fallbackDossier(article);
     }
     const dossier = typeset(result.dossier);
-    const problems = checkDossier(dossier, { ...ed, source, knownNames: [...ed.knownNames, ...placeNames(), ...ed.themes.map((t) => t.rubrique)], memory: memory.recent ?? {} });
+    const problems = checkDossier(dossier, { ...ed, source, knownNames: [...ed.knownNames, ...placeNames(), ...ed.themes.map((t) => t.rubrique)], memory: memory.recent ?? {}, questions });
     if (!problems.length) {
       const final = { ...dossier, source: 'ia', model: result.model, usage: { input: result.usage.input_tokens, output: result.usage.output_tokens }, angles };
       await mkdir(CACHE, { recursive: true });

@@ -79,6 +79,35 @@ test('légende Instagram : lignes vides préservées, 3 hashtags en fin', async 
   d.instagram.texte = 'Accroche\n\nSuite';
   const lines = buildCaption(d, 'desc').split('\n');
   assert.deepEqual(lines, ['Accroche', '⠀', 'Suite', '⠀', '➡️ Article complet sur le site Passion Aquitaine', '⠀', '#Bordeaux #Matrimoine #Histoire']);
+  d.instagram.texte = 'Accroche\nSuite';
+  assert.deepEqual(buildCaption(d, 'desc').split('\n').slice(0, 3), ['Accroche', '⠀', 'Suite']);
+});
+
+test('composition : hashtag Bluesky dans le texte, lien X à la suite, commentaire Facebook', async () => {
+  const { composeBluesky, composeX, facebookComment } = await import('../src/brain/compose.mjs');
+  const d = good();
+  d.bluesky.hashtag = '#Bordeaux';
+  assert.equal(composeBluesky(d), 'Plus ancien que « patrimoine », le mot matrimoine resurgit depuis plusieurs années dans la vie culturelle bordelaise. Origine et usages. #Bordeaux');
+  d.bluesky.texte = 'À Bordeaux, le matrimoine revient.';
+  assert.equal(composeBluesky(d), 'À #Bordeaux, le matrimoine revient.');
+  d.bluesky.hashtag = '#PaysBasque';
+  d.bluesky.texte = 'Au Pays basque, un centre soigne les animaux.';
+  assert.equal(composeBluesky(d), 'Au Pays basque, un centre soigne les animaux. #PaysBasque');
+  assert.equal(composeX(d, 'https://x.fr/a'), `${d.x.texte} https://x.fr/a`);
+  const comment = facebookComment({ guid: 'g1', link: 'https://x.fr/a' });
+  assert.match(comment, /^\S+ .+ : https:\/\/x\.fr\/a$/u);
+  assert.equal(comment, facebookComment({ guid: 'g1', link: 'https://x.fr/a' }));
+});
+
+test('contrôles : questions limitées, appâts et point avant emoji refusés', () => {
+  const d = good();
+  d.bluesky.hashtag = '#Bordeaux';
+  assert.match(checkDossier(d, { ...ctx, questions: { facebook: false } }).join(' | '), /facebook : pas de question/);
+  assert.deepEqual(checkDossier(d, { ...ctx, questions: { facebook: true } }), []);
+  d.x.texte = 'Le matrimoine revient à Bordeaux, partagez !';
+  assert.match(checkDossier(d, { ...ctx, baitPatterns: ['partagez'] }).join(' | '), /appel à l'engagement/);
+  d.x.texte = 'Le matrimoine revient à Bordeaux. 🎭';
+  assert.match(checkDossier(d, ctx).join(' | '), /point juste avant un emoji/);
 });
 
 test('similarité : tournures reprises, pas vocabulaire partagé', () => {

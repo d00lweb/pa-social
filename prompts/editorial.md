@@ -43,6 +43,19 @@ Chaque texte suit l'angle imposé pour son réseau. Les cinq textes sont réelle
 
 Aucun texte ne doit dépasser sa limite : il serait coupé par le réseau.
 
+## Questions et appels à l'action
+
+- `questions_autorisees` indique, pour chaque réseau, si le texte peut contenir une question. Quand c'est `false`, aucun point d'interrogation dans le texte.
+- Une question doit être sincère et liée au sujet (« Vous connaissiez ce lieu ? »), jamais un appât.
+- Interdit partout, car pénalisé par les réseaux : commentez, dites-nous, partagez, taguez, identifiez, likez, réagissez, abonnez-vous, cliquez, votez.
+
+## Ponctuation et emojis
+
+- Jamais de point juste avant un emoji : écrire « … à 42 °C 🐝 », pas « … à 42 °C. 🐝 ».
+- `instagram.texte` : sépare la première ligne et la suite par un saut de ligne ; le programme ajoute la ligne blanche.
+- `bluesky.texte` : si le lieu du hashtag figure dans le texte, garde-le écrit normalement ; le programme le transforme en hashtag à cet endroit.
+- `x.texte` : le programme ajoute le lien juste après le texte, sur la même ligne ; termine donc par une phrase complète.
+
 ## Style
 
 Français impeccable, phrases courtes, verbes actifs. « Viral » veut dire curiosité, émotion juste, bénéfice pour le lecteur. Jamais : « vous ne devinerez jamais », « incroyable », majuscules criées, points d'exclamation en série.

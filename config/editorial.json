@@ -1,7 +1,10 @@
 {
   "model": "claude-opus-5",
   "effort": "low",
-  "promptVersion": 2,
+  "promptVersion": 3,
+  "questionEvery": 3,
+  "baitPatterns": ["commentez", "en commentaire", "dites-nous", "partagez", "taguez", "identifiez un", "identifiez vos", "likez", "aimez si", "réagissez", "abonnez-vous", "cliquez", "tapez oui", "votez"],
+  "facebookCommentLeads": ["📖 L'article complet :", "👉 Tous les détails :", "📰 À lire ici :", "🔎 Pour tout savoir :", "📍 L'histoire complète :"],
   "instagramCaptionSource": "ai",
   "memorySize": 10,
   "networks": ["instagram", "facebook", "bluesky", "threads", "x"],

@@ -8,6 +8,7 @@ import { buildDossier } from '../src/brain/dossier.mjs';
 import { loadMemory } from '../src/brain/memory.mjs';
 import { createRenderer } from '../src/media/render.mjs';
 import { fromRoot } from '../src/core/config.mjs';
+import { composeBluesky, composeX, facebookComment } from '../src/brain/compose.mjs';
 
 const latest = Number(process.argv.find((a) => a.startsWith('--latest='))?.split('=')[1]) || 0;
 if (process.argv.includes('--sans-ia')) delete process.env.ANTHROPIC_API_KEY;
@@ -98,10 +99,10 @@ const previewData = {
     images: pkg ? { slide1: `out/${pkg.files[0].name}`, slide2: `out/${pkg.files[1].name}`, story: `out/${pkg.files[2].name}` } : null,
     networks: {
       instagram: { text: pkg?.caption ?? d.instagram.texte, hashtags: d.instagram.hashtags },
-      facebook: { text: d.facebook.texte, comment: article.link },
-      bluesky: { text: d.bluesky.texte, hashtag: d.bluesky.hashtag },
+      facebook: { text: d.facebook.texte, comment: facebookComment(article) },
+      bluesky: { text: composeBluesky(d) },
       threads: { text: d.threads.texte, sujet: d.threads.sujet ?? '' },
-      x: { text: d.x.texte },
+      x: { text: d.x.texte, link: article.link },
     },
   })),
 };
@@ -115,10 +116,10 @@ const report = rows.map(({ article, dossier: d, pkg }) => [
   `- Rubrique : ${d.rubrique} · Titre visuel : ${d.visuel.titre} · Surligné : « ${d.visuel.surlignage} »`,
   `- Texte alternatif : ${d.visuel.texte_alternatif}`,
   '', '**Instagram**', '```', pkg?.caption ?? d.instagram.texte, '```',
-  `**Facebook** : ${d.facebook.texte}`, '',
-  `**Bluesky** : ${d.bluesky.texte} ${d.bluesky.hashtag}`, '',
-  `**Threads** : ${d.threads.texte}`, '',
-  `**X** : ${d.x.texte}`, '',
+  `**Facebook** : ${d.facebook.texte}`, `> 1er commentaire : ${facebookComment(article)}`, '',
+  `**Bluesky** : ${composeBluesky(d)}`, '',
+  `**Threads** : ${d.threads.texte}${d.threads.sujet ? ` [sujet : ${d.threads.sujet}]` : ''}`, '',
+  `**X** : ${composeX(d, article.link)}`, '',
 ].join('\n')).join('\n');
 const cost = (tokensIn * 5 + tokensOut * 25) / 1e6;
 await writeFile(fromRoot('out', 'preview-textes.md'), `# Aperçu des textes\n\nNouveaux appels IA : ${tokensIn} tokens en entrée, ${tokensOut} en sortie, ~${cost.toFixed(3)} $.\n\n${report}`);

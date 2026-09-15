@@ -24,8 +24,8 @@ const show = (s) => s.replace(/ /g, '⍽').replace(/ /g, '·'); // espaces vi
 // Texte, ligne vide, renvoi vers le site, ligne vide, 3 hashtags
 export function buildCaption(dossier, description) {
   const raw = ed.instagramCaptionSource === 'ai' && dossier.source === 'ia' ? dossier.instagram.texte : description;
-  // lignes vides remplacées par U+2800, une seule à la suite
-  const text = raw.split('\n').map((l) => (l.trim() ? l : BLANK_LINE)).filter((l, i, a) => !(l === BLANK_LINE && a[i - 1] === BLANK_LINE)).join('\n');
+  // une ligne blanche (U+2800) entre chaque paragraphe
+  const text = raw.split('\n').map((l) => l.trim()).filter(Boolean).join(`\n${BLANK_LINE}\n`);
   return [text, BLANK_LINE, '➡️ Article complet sur le site Passion Aquitaine', BLANK_LINE, dossier.instagram.hashtags.join(' ')].join('\n');
 }
 

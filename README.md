@@ -118,6 +118,15 @@ Pas de serveur : le bot lit boutons et commandes à **chaque passage du cron** (
   | X | 230 car. (limite 280) | 0–1 | 0 |
 
   Aucun emoji sur un sujet sensible.
+- **Mise en forme par le code** (`src/brain/compose.mjs`) :
+  - Instagram : ligne blanche entre chaque paragraphe.
+  - Bluesky : le hashtag remplace le mot du lieu s'il figure déjà dans le texte, sinon il est ajouté à la fin.
+  - X : lien sur la même ligne que le texte.
+  - Facebook : premier commentaire = formule variée (« 📖 L'article complet : »…) + lien.
+- **Anti-appât** (règle Meta sur l'« engagement bait ») :
+  - questions limitées : seulement quand l'angle est « question », ou 1 article sur 3 pour Facebook et Threads ;
+  - formules interdites : commentez, partagez, taguez, likez, cliquez… ;
+  - jamais de point juste avant un emoji.
 - **Charte éditoriale modifiable sans code :** `prompts/editorial.md`. Réglages : `config/editorial.json` (modèle, angles, limites, mots vides, thèmes, hashtags interdits). Zones identitaires : `config/geo.json` (Pays basque, Béarn, Médoc, Périgord…).
 - **Coût mesuré :** environ 3 100 tokens en entrée et 750 en sortie, soit **~0,03 $ par article** (~2,5–3 €/mois).
 - **Sans `ANTHROPIC_API_KEY`**, ou si l'API est indisponible : règles de secours, la publication continue.
@@ -390,3 +399,4 @@ Dépendances : `fast-xml-parser`, `sharp`, `playwright`, `basic-ftp`. Node 24, E
 | 15/09/2026 | Étape 2 : rédacteur en chef IA (dossier par article, textes différents par réseau, contrôles anti-invention et diversité, règles de secours), lexique géographique (Pays basque, Béarn…), rubrique jamais « Actus », surlignage chiffre > nom propre > fin de titre sans petit mot, guillemets insécables, nouvelle légende Instagram avec 3 hashtags. |
 | 15/09/2026 | Étape 3 : centre de contrôle Telegram (aperçu visuels + textes des 5 réseaux, validation ✅/❌/🔁, commandes /statut /file /pause /reprise /validation, notification de publication, expiration à 24 h). Instagram passe en mode validation. |
 | 15/09/2026 | Textes jamais tronqués (Facebook ≤ 120 car.), texte IA pour la 2ᵉ image du carrousel, sujet Threads, plafond d'emojis par réseau, hashtags interdits dans le corps des textes (charte v2). |
+| 15/09/2026 | Charte v3 : ligne blanche entre paragraphes Instagram, hashtag Bluesky intégré au texte, lien X à la suite, formule avant le lien en commentaire Facebook, questions limitées et formules d'appât interdites, pas de point avant un emoji. |

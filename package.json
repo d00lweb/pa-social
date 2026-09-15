@@ -12,7 +12,8 @@
     "run": "node --env-file=.env src/index.mjs",
     "test": "node --test \"tests/*.test.mjs\"",
     "preview": "node --env-file=.env scripts/preview.mjs",
-    "fixtures": "node scripts/capture-fixtures.mjs"
+    "fixtures": "node scripts/capture-fixtures.mjs",
+    "telegram:test": "node --env-file=.env scripts/telegram-test.mjs"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.125.0",

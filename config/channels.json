@@ -6,6 +6,7 @@
   "channels": {
     "instagram": {
       "enabled": true,
+      "validation": true,
       "gapHours": 3,
       "quietHours": { "start": 23, "end": 7 },
       "jitterMinutes": [5, 35],

@@ -68,6 +68,25 @@ Légende Instagram :
 
 Les lignes « vides » contiennent le caractère invisible U+2800, car Instagram supprime les lignes réellement vides.
 
+### Centre de contrôle Telegram (bot @PA_aquibot)
+
+Pas de serveur : le bot lit boutons et commandes à **chaque passage du cron** (toutes les 20 min environ), avec `getUpdates`. Le curseur de lecture est dans `state/telegram.json`. Seuls les messages du chat `TELEGRAM_CHAT_ID` sont pris en compte.
+
+- **Aperçu de chaque nouvel article :** les 2 visuels, puis les textes des 5 réseaux (citations repliables) avec l'heure prévue.
+  - En **mode validation**, statut `awaiting` : boutons ✅ Valider, ❌ Refuser, 🔁 Régénérer les textes (nouvel appel IA, puis nouvel aperçu).
+  - En automatique : boutons ❌ Annuler et 🔁 Régénérer.
+  - Un garde-fou détecté au moment de l'aperçu bloque l'article tout de suite.
+- **Commandes :**
+  - `/statut`, `/file` ;
+  - `/pause <réseau|tout>`, `/reprise <réseau|tout>` ;
+  - `/validation <réseau> on|off` ;
+  - `/aide`.
+
+  Les réglages sont stockés dans `state/controls.json` et priment sur `config/channels.json`.
+- **Notifications :** 📣 publié, ⌛ non validé avant 24 h (article abandonné), ❌ échec, ⛔ bloqué, et la story à poster.
+- **Mode validation par défaut :** `"validation": true` par réseau dans `config/channels.json`. Instagram est en validation depuis le 15/09/2026 ; pour le repasser en automatique : `/validation instagram off`.
+- **Test :** `npm run telegram:test` installe le menu de commandes et envoie un aperçu d'exemple, dont les boutons restent sans effet.
+
 ### Rédacteur en chef IA (`src/brain/`)
 
 À la planification, **un appel Claude par article** (`claude-opus-5`, effort bas) produit un **dossier de publication**, conservé dans la file :
@@ -323,7 +342,12 @@ src/media/templates/card.html   gabarit des 3 visuels
 src/storage/ftp.mjs             dépôt FTPS, vérification des URL publiques
 src/channels/instagram.mjs      canal Instagram : prepare (rendu + garde-fous), stage (dépôt), publish
 src/channels/meta-graph.mjs     client API Graph (Instagram, Facebook)
-src/channels/telegram.mjs       Telegram (alertes, story)
+src/channels/telegram.mjs       client Telegram (messages, photos, boutons, commandes, story)
+src/channels/preview.mjs        message d'aperçu et boutons
+src/core/control.mjs            commandes, pause, validation, décisions (logique pure)
+scripts/telegram-test.mjs       menu du bot + aperçu d'exemple
+state/controls.json             pauses et validation réglées par Telegram (commité par le bot)
+state/telegram.json             curseur de lecture des messages Telegram (commité par le bot)
 tests/                          tests node:test + fixtures/articles.json (12 articles réels)
 scripts/smoke-ig.mjs            test d'accès Meta
 scripts/preview.mjs             planches d'aperçu
@@ -353,3 +377,4 @@ Dépendances : `fast-xml-parser`, `sharp`, `playwright`, `basic-ftp`. Node 24, E
 | 15/09/2026 | Feuille de route ajustée : IA limitée au flux RSS (titre, description, catégories), URL réelle au lieu d'un lien court, dimensions d'images vérifiées (4:5 en 1440×1800, carte Bluesky 1200×627, X 1600×900), comptes Bluesky et Threads créés. |
 | 15/09/2026 | Étape 1 : socle modulaire (config, planificateur par réseau avec heures creuses 23 h–7 h et décalage aléatoire, file d'attente, canal Instagram isolé), article bloqué signalé une seule fois, 3 essais sur erreur passagère, report si quota atteint, visuels 4:5 en 1440×1800, 27 tests et 12 articles de test, planches d'aperçu. |
 | 15/09/2026 | Étape 2 : rédacteur en chef IA (dossier par article, textes différents par réseau, contrôles anti-invention et diversité, règles de secours), lexique géographique (Pays basque, Béarn…), rubrique jamais « Actus », surlignage chiffre > nom propre > fin de titre sans petit mot, guillemets insécables, nouvelle légende Instagram avec 3 hashtags. |
+| 15/09/2026 | Étape 3 : centre de contrôle Telegram (aperçu visuels + textes des 5 réseaux, validation ✅/❌/🔁, commandes /statut /file /pause /reprise /validation, notification de publication, expiration à 24 h). Instagram passe en mode validation. |

@@ -181,6 +181,7 @@
           <div><dt>Format</dt><dd><span class="ratio" style="width:12px;height:15px"></span>4:5 · 1440×1800</dd></div>
           <div><dt>Texte</dt><dd>Accroche IA + « Article complet sur le site » + 3 hashtags</dd></div>
           <div><dt>Story</dt><dd>9:16 · 1080×1920, envoyée sur Telegram, sticker lien à poser à la main</dd></div>
+          <div><dt>Mode</dt><dd>Validation Telegram avant chaque post</dd></div>
         </dl>
         <div class="net-foot"><a href="https://www.instagram.com/lovaquitaine/" target="_blank" rel="noopener">@lovaquitaine ↗</a><span class="mono">API connectée</span></div>
       </article>
@@ -278,8 +279,8 @@ Et si le mot « patrimoine » avait une sœur plus ancienne ? 🤔
     <ol class="road">
       <li class="done"><div class="bar"></div><b>1 · Socle</b><span>Planification, tests</span></li>
       <li class="done"><div class="bar"></div><b>2 · IA</b><span>Textes, rubriques, légende</span></li>
-      <li class="now"><div class="bar"></div><b>3 · Telegram</b><span>Aperçus, validation</span></li>
-      <li><div class="bar"></div><b>4 · Liens</b><span>URL + suivi</span></li>
+      <li class="done"><div class="bar"></div><b>3 · Telegram</b><span>Aperçus, validation</span></li>
+      <li class="now"><div class="bar"></div><b>4 · Liens</b><span>URL + suivi</span></li>
       <li><div class="bar"></div><b>5 · Kit X</b><span>Publication manuelle</span></li>
       <li><div class="bar"></div><b>6 · Bluesky</b><span>API connectée</span></li>
       <li><div class="bar"></div><b>7 · Facebook</b><span>API connectée</span></li>
@@ -295,7 +296,7 @@ Et si le mot « patrimoine » avait une sœur plus ancienne ? 🤔
       <h3>Quand chaque réseau se connecte</h3>
       <div class="rows">
         <div class="row"><div>Instagram<small>Publication automatique active</small></div><span class="when" style="color:var(--live)">Depuis le 15/09</span></div>
-        <div class="row"><div>Validation par Telegram<small>Tu vois et valides chaque post avant qu'il parte</small></div><span class="when">Étape 3</span></div>
+        <div class="row"><div>Validation par Telegram<small>Chaque post Instagram attend ton ✅ (24 h max)</small></div><span class="when" style="color:var(--live)">Active</span></div>
         <div class="row"><div>X<small>Aucune API : kit prêt à publier</small></div><span class="when">Étape 5</span></div>
         <div class="row"><div>Bluesky<small>Mot de passe d'application à créer</small></div><span class="when">Étape 6</span></div>
         <div class="row"><div>Facebook<small>2 autorisations à ajouter à l'app Meta</small></div><span class="when">Étape 7</span></div>
@@ -305,6 +306,7 @@ Et si le mot « patrimoine » avait une sœur plus ancienne ? 🤔
     <div class="card">
       <h3>Piloter</h3>
       <div class="rows">
+        <div class="row"><div>Depuis Telegram<small><code>/statut</code> · <code>/file</code> · <code>/pause instagram</code> · <code>/validation instagram off</code></small></div><span class="when">@PA_aquibot</span></div>
         <div class="row"><div>Tout arrêter<small>Supprimer la variable <code>PUBLISH_ENABLED</code></small></div><a class="when" href="https://github.com/d00lweb/pa-social/settings/variables/actions" target="_blank" rel="noopener">Ouvrir ↗</a></div>
         <div class="row"><div>Voir les exécutions<small>Journal de chaque passage</small></div><a class="when" href="https://github.com/d00lweb/pa-social/actions" target="_blank" rel="noopener">Actions ↗</a></div>
         <div class="row"><div>File d'attente<small>Posts prévus et heures</small></div><a class="when" href="https://github.com/d00lweb/pa-social/blob/main/state/queue.json" target="_blank" rel="noopener">queue.json ↗</a></div>

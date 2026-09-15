@@ -29,6 +29,10 @@ export const saveHistory = (history, dir = DEFAULT_DIR) => writeJson(dir, 'publi
 export const loadQueue = (dir = DEFAULT_DIR) => readJson(join(dir, 'queue.json'), []);
 export const saveQueue = (queue, dir = DEFAULT_DIR) => writeJson(dir, 'queue.json', queue);
 
+// Petits fichiers d'état (contrôles Telegram, curseur de lecture…)
+export const loadJson = (name, fallback, dir = DEFAULT_DIR) => readJson(join(dir, name), fallback);
+export const saveJson = (name, data, dir = DEFAULT_DIR) => writeJson(dir, name, data);
+
 export const hasPublished = (history, guid, channel) => history.some((e) => e.guid === guid && e.channel === channel);
 export const lastPublishedAt = (history, channel) =>
   Math.max(0, ...history.filter((e) => e.channel === channel).map((e) => Date.parse(e.at) || 0));

@@ -3,7 +3,7 @@
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=35428",
     "channel": "x",
     "dueAt": 1789535682806,
-    "status": "pending",
+    "status": "refused",
     "attempts": 0,
     "article": {
       "title": "Pourquoi Bordeaux parle désormais de « matrimoine »",
@@ -25,7 +25,7 @@
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=35428",
     "channel": "bluesky",
     "dueAt": 1789542437903,
-    "status": "pending",
+    "status": "refused",
     "attempts": 0,
     "article": {
       "title": "Pourquoi Bordeaux parle désormais de « matrimoine »",

@@ -4,6 +4,7 @@ import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import sharp from 'sharp';
 import { fetchItems } from '../src/sources/rss.mjs';
 import { prepare } from '../src/channels/instagram.mjs';
+import * as xkit from '../src/channels/x.mjs';
 import { buildDossier } from '../src/brain/dossier.mjs';
 import { loadMemory } from '../src/brain/memory.mjs';
 import { createRenderer } from '../src/media/render.mjs';
@@ -40,7 +41,8 @@ try {
     if (dossier.usage && !dossier.cached) { tokensIn += dossier.usage.input; tokensOut += dossier.usage.output; }
     try {
       const pkg = await prepare(article, { dossier, renderer, log: () => {} });
-      rows.push({ article, dossier, pkg });
+      const xpkg = await xkit.prepare(article, { dossier, renderer, log: () => {} });
+      rows.push({ article, dossier, pkg, xpkg });
       console.log(`OK [${dossier.source}] ${article.title}`);
     } catch (err) {
       rows.push({ article, dossier, error: err.problems?.join(' · ') ?? err.message });
@@ -85,7 +87,7 @@ for (let sheet = 0; sheet * 6 < rows.length; sheet++) {
 // Données de la page pilotage.html (aperçus par réseau)
 const previewData = {
   generatedAt: new Date().toISOString(),
-  articles: rows.map(({ article, dossier: d, pkg, error }) => ({
+  articles: rows.map(({ article, dossier: d, pkg, xpkg, error }) => ({
     title: article.title,
     link: article.link,
     date: article.date,
@@ -96,7 +98,7 @@ const previewData = {
     surlignage: d.visuel.surlignage,
     alt: d.visuel.texte_alternatif,
     error: error ?? null,
-    images: pkg ? { slide1: `out/${pkg.files[0].name}`, slide2: `out/${pkg.files[1].name}`, story: `out/${pkg.files[2].name}` } : null,
+    images: pkg ? { slide1: `out/${pkg.files[0].name}`, slide2: `out/${pkg.files[1].name}`, story: `out/${pkg.files[2].name}`, x: xpkg ? `out/${xpkg.files[0].name}` : null } : null,
     networks: {
       instagram: { text: pkg?.caption ?? d.instagram.texte, hashtags: d.instagram.hashtags },
       facebook: { text: d.facebook.texte, comment: facebookComment(article, d) },

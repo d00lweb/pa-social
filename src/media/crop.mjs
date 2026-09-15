@@ -11,6 +11,7 @@ const FADE_RATIO = 0.13; // hauteur du fondu, en part de la largeur du visuel
 
 // Cadres candidats (largeur/hauteur), du plus serré au plus large
 export const SLIDE = { width: 1440, height: 1800, ratios: [0.8, 0.9, 1, 1.125, 1.25], photoCenter: null };
+export const X_FORMAT = { width: 1600, height: 900, ratios: [1.78, 1.9, 2.1], photoCenter: 0.5 };
 export const STORY = { width: 1080, height: 1920, ratios: [0.5625, 0.66, 0.8, 0.9, 1], photoCenter: 0.43 };
 
 export async function loadSource(url) {

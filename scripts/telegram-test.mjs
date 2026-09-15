@@ -19,3 +19,9 @@ await send(`🧪 <b>Exemple d'aperçu</b> (test, rien ne sera publié)\n\n${buil
   reply_markup: JSON.stringify({ inline_keyboard: previewButtons('exemple', true) }),
 });
 console.log(`Aperçu d'exemple envoyé : ${article.title}`);
+
+// Exemple de kit X, identique à l'envoi réel
+const xkit = await import('../src/channels/x.mjs');
+await send('🧪 <b>Exemple de kit X</b> (test)');
+await xkit.publish(await xkit.prepare(article, { dossier, log: () => {} }));
+console.log('Kit X d’exemple envoyé');

@@ -20,6 +20,7 @@ const FORMATS = {
   slide1: { width: 1080, height: 1350, out: [1440, 1800] }, // largeur max des API Instagram et Threads
   slide2: { width: 1080, height: 1350, out: [1440, 1800] },
   story: { width: 1080, height: 1920, out: [1080, 1920] },
+  x: { width: 1600, height: 900, out: [1600, 900] }, // 16:9, affiché sans recadrage sur X
 };
 
 const exists = (p) => access(p).then(() => true, () => false);
@@ -77,6 +78,7 @@ export async function createRenderer() {
     const html = fill(template, {
       ...assets,
       FORMAT: format,
+      VARIANT: data.variant ?? '',
       WIDTH: width,
       HEIGHT: height,
       PHOTO: data.photo ? dataUri(data.photo, 'image/jpeg') : '',
@@ -100,9 +102,9 @@ export async function createRenderer() {
           selector: '.desc', box: '.desc-box', min: 40, max: 76, maxLines: 9, lineHeight: 1.24,
         });
       } else {
-        result.title = await page.evaluate(fitText, {
-          selector: '.title', box: null, min: 44, max: 66, maxLines: 4, lineHeight: 1.16,
-        });
+        result.title = await page.evaluate(fitText, format === 'x'
+          ? { selector: '.title', box: null, min: 44, max: 72, maxLines: 3, lineHeight: 1.16 }
+          : { selector: '.title', box: null, min: 44, max: 66, maxLines: 4, lineHeight: 1.16 });
       }
 
       const shot = await page.locator('#root').screenshot({ type: 'png' });

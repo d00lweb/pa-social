@@ -14,6 +14,16 @@
       "morningJitterMinutes": [10, 95],
       "publishDelayMinutes": [0, 9],
       "maxPer24h": 6
+    },
+    "x": {
+      "enabled": true,
+      "validation": true,
+      "manual": true,
+      "hideOuestFrance": false,
+      "gapHours": 0,
+      "quietHours": { "start": 22, "end": 7 },
+      "jitterMinutes": [1, 10],
+      "morningJitterMinutes": [5, 60]
     }
   }
 }

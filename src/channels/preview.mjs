@@ -5,7 +5,7 @@ export const esc = (s) => String(s ?? '').replace(/[&<>]/g, (c) => ({ '&': '&amp
 const clip = (s, n) => ([...String(s)].length <= n ? String(s) : `${[...String(s)].slice(0, n - 1).join('')}…`);
 
 // Message Telegram d'aperçu : textes de chaque réseau (citations repliables), heure prévue, statut
-export function buildPreviewText({ article, dossier, caption, items, when }) {
+export function buildPreviewText({ article, dossier, caption, items, published = [], when }) {
   const planned = Object.fromEntries(items.map((i) => [i.channel, i]));
   const awaiting = items.some((i) => i.status === 'awaiting');
   const blocks = [
@@ -23,7 +23,10 @@ export function buildPreviewText({ article, dossier, caption, items, when }) {
       '',
       ...blocks.map(([net, text]) => {
         const item = planned[net];
-        const status = item ? (item.status === 'awaiting' ? `à valider, puis ${when(item.dueAt)}` : when(item.dueAt)) : 'réseau pas encore actif';
+        const kit = net === 'x' ? 'kit Telegram ' : '';
+        const status = item
+          ? (item.status === 'awaiting' ? `à valider, puis ${kit}${when(item.dueAt)}` : `${kit}${when(item.dueAt)}`)
+          : published.includes(net) ? 'déjà publié' : 'réseau pas encore actif';
         return `<b>${NAMES[net]}</b> · <i>${esc(status)}</i>\n<blockquote expandable>${esc(clip(text, limit))}</blockquote>`;
       }),
       `<i>Rédaction : ${dossier.source === 'ia' ? 'IA' : 'règles de secours'}${dossier.nature ? ` · ${dossier.nature}` : ''}${dossier.sensible ? ' · sujet sensible' : ''}</i>`,

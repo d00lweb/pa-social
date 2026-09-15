@@ -68,6 +68,15 @@ Légende Instagram :
 
 Les lignes « vides » contiennent le caractère invisible U+2800, car Instagram supprime les lignes réellement vides.
 
+### Kit X (`src/channels/x.mjs`)
+
+Pas d'API, qui est payante : X est un canal « manuel » de la file (`manual: true`), avec la même validation que les autres réseaux, et rien n'est envoyé entre 22 h et 7 h. Une fois l'article validé, le bot envoie sur Telegram :
+- le **visuel 16:9 en 1600×900**, en fichier pour garder la qualité d'origine ;
+- le **texte à publier**, avec le hashtag du lieu intégré et le lien sur la même ligne, dans un bloc qui se copie d'un appui, avec le compteur sur 280 ;
+- un bouton **« ✍️ Publier sur X »**, un lien `x.com/intent/post` qui ouvre X avec le texte et le lien pré-remplis. Il ne reste qu'à joindre l'image.
+
+Variante du visuel sans le logo Ouest-France : `"hideOuestFrance": true` dans `config/channels.json`.
+
 ### Centre de contrôle Telegram (bot @PA_aquibot)
 
 Pas de serveur : le bot lit boutons et commandes à **chaque passage du cron** (toutes les 20 min environ), avec `getUpdates`. Le curseur de lecture est dans `state/telegram.json`. Seuls les messages du chat `TELEGRAM_CHAT_ID` sont pris en compte.
@@ -387,6 +396,7 @@ src/channels/instagram.mjs      canal Instagram : prepare (rendu + garde-fous), 
 src/channels/meta-graph.mjs     client API Graph (Instagram, Facebook)
 src/channels/telegram.mjs       client Telegram (messages, photos, boutons, commandes, story)
 src/channels/preview.mjs        message d'aperçu et boutons
+src/channels/x.mjs              kit X : visuel 16:9, texte, lien de rédaction pré-remplie
 src/core/control.mjs            commandes, pause, validation, décisions (logique pure)
 scripts/telegram-test.mjs       menu du bot + aperçu d'exemple
 state/controls.json             pauses et validation réglées par Telegram (commité par le bot)
@@ -424,3 +434,4 @@ Dépendances : `fast-xml-parser`, `sharp`, `playwright`, `basic-ftp`. Node 24, E
 | 15/09/2026 | Textes jamais tronqués (Facebook ≤ 120 car.), texte IA pour la 2ᵉ image du carrousel, sujet Threads, plafond d'emojis par réseau, hashtags interdits dans le corps des textes (charte v2). |
 | 15/09/2026 | Charte v3 : ligne blanche entre paragraphes Instagram, hashtag Bluesky intégré au texte, lien X à la suite, formule avant le lien en commentaire Facebook, questions limitées et formules d'appât interdites, pas de point avant un emoji. |
 | 15/09/2026 | Anti-bannissement renforcé : écart variable 3 h – 4 h 30, reprise du matin variable, attente aléatoire de 0 à 9 min avant publication, coupe-circuit (pause automatique sur erreur de limite ou de restriction Meta). Hashtag du lieu intégré au texte X. Étape 4 annulée : URL réelle partout, sans suivi des clics. |
+| 15/09/2026 | Étape 5 : kit X sur Telegram (visuel 16:9 1600×900, texte copiable avec lien, bouton de rédaction pré-remplie), canal X manuel dans la file avec validation, variante sans logo Ouest-France prête. |

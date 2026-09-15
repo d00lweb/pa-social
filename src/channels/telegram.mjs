@@ -71,6 +71,17 @@ export async function setCommands(commands) {
   await call('setMyCommands', new URLSearchParams({ commands: JSON.stringify(commands) }));
 }
 
+// Image envoyée en fichier (qualité d'origine, à enregistrer puis joindre au post)
+export async function sendDocument(buffer, filename, caption = '') {
+  const c = config();
+  if (!c) return null;
+  const form = new FormData();
+  form.append('chat_id', c.chat);
+  if (caption) form.append('caption', caption);
+  form.append('document', new Blob([buffer], { type: 'image/jpeg' }), filename);
+  return call('sendDocument', form);
+}
+
 // Story envoyée en document (pas de recompression) : le sticker lien se pose à la main
 export async function sendStory({ buffer, url, title, link }) {
   const c = config();

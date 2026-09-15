@@ -10,8 +10,9 @@ import { loadMemory, saveMemory, remember } from './brain/memory.mjs';
 import { alert, telegramEnabled, send, sendPhotos, getUpdates, answerCallback, clearButtons } from './channels/telegram.mjs';
 import { buildPreviewText, previewButtons, esc } from './channels/preview.mjs';
 import * as instagram from './channels/instagram.mjs';
+import * as x from './channels/x.mjs';
 
-const CHANNELS = { instagram };
+const CHANNELS = { instagram, x };
 const DEFAULT_RSS = 'https://passion-aquitaine.ouest-france.fr/feed/';
 const HOUR = 3600e3;
 const TZ = config.timezone;
@@ -91,7 +92,7 @@ function statusText({ controls, queue, history }) {
       continue;
     }
     const state = isPaused(controls, id) ? '⏸ en pause' : '▶️ actif';
-    const mode = needsValidation(controls, { id, ...ch }) ? 'validation' : 'automatique';
+    const mode = `${ch.manual ? 'kit Telegram, ' : ''}${needsValidation(controls, { id, ...ch }) ? 'validation' : 'automatique'}`;
     const last = lastPublishedAt(history, id);
     lines.push(`<b>${NAMES[id]}</b> : ${state} · ${mode}${last ? ` · dernier post ${paris(last)}` : ''}`);
   }
@@ -193,7 +194,7 @@ async function plan(items, { history, queue, memory, controls, now }) {
 }
 
 // Un aperçu Telegram par article (visuels + textes + boutons) ; réessayé au passage suivant en cas d'échec
-async function sendPreviews({ queue, memory, now }) {
+async function sendPreviews({ queue, memory, history, now }) {
   if (!telegramEnabled()) return;
   const groups = new Map();
   for (const q of queue) if (OPEN.includes(q.status) && !q.previewSent) groups.set(q.guid, [...(groups.get(q.guid) ?? []), q]);
@@ -205,7 +206,8 @@ async function sendPreviews({ queue, memory, now }) {
       const pkg = await instagram.prepare(article, { dossier, log: () => {} });
       await sendPhotos([pkg.files[0].buffer, pkg.files[1].buffer]);
       const awaiting = items.some((i) => i.status === 'awaiting');
-      const text = buildPreviewText({ article, dossier, caption: pkg.caption, items, when: (ms) => when(ms, now) });
+      const published = NETWORKS.filter((n) => hasPublished(history, guid, n));
+      const text = buildPreviewText({ article, dossier, caption: pkg.caption, items, published, when: (ms) => when(ms, now) });
       await send(text, { reply_markup: JSON.stringify({ inline_keyboard: previewButtons(shortId(guid), awaiting) }) });
       for (const i of items) i.previewSent = true;
       console.log(`Aperçu Telegram envoyé : ${article.title}`);
@@ -272,7 +274,8 @@ async function execute({ history, queue, memory, controls, now }) {
       queue.splice(queue.indexOf(item), 1);
       await Promise.all([saveHistory(history), saveQueue(queue)]);
       console.log(`Publié ${channel.id} : ${mediaId}`);
-      await say(`📣 <b>Publié sur ${NAMES[channel.id]}</b>\n${esc(item.article.title)}`);
+      if (impl.publishedLabel) console.log(`Kit ${channel.id} envoyé`);
+      else await say(`📣 <b>Publié sur ${NAMES[channel.id]}</b>\n${esc(item.article.title)}`);
     } catch (err) {
       if (err instanceof DeferError) {
         item.dueAt = now + HOUR;

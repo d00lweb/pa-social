@@ -96,6 +96,8 @@
   .caption { background: var(--ground); border-radius: 10px; padding: 16px; font-size: 13.5px; line-height: 1.5; white-space: pre-line; align-self: stretch; }
   .caption .tags { color: #1F5FB8; font-weight: 600; }
   .sheet { background: var(--panel); border: 1px dashed var(--line); border-radius: 14px; padding: 18px 20px; display: grid; gap: 12px; }
+  .sheet summary { cursor: pointer; list-style: none; }
+  .sheet summary::-webkit-details-marker { display: none; }
   .sheet img { width: 100%; border-radius: 8px; }
   .sheet .empty { color: var(--muted); font-size: 13.5px; }
 
@@ -260,11 +262,11 @@ Et si le mot « patrimoine » avait une sœur plus ancienne ? 🤔
 
 <span class="tags">#Bordeaux #Matrimoine #Histoire</span></div>
     </div>
-    <div class="sheet">
-      <div class="sec-head"><h3>Planche d'aperçu locale</h3><p class="hint">Générée par <code>npm run preview</code> · textes de tous les réseaux dans <code>out/preview-textes.md</code></p></div>
+    <details class="sheet">
+      <summary class="sec-head"><h3>Planche d'aperçu locale ▾</h3><p class="hint">Générée par <code>npm run preview</code> · textes de tous les réseaux dans <code>out/preview-textes.md</code></p></summary>
       <img src="out/preview-1.jpg" alt="Planche d'aperçu des articles de test" onerror="this.hidden=true; this.nextElementSibling.hidden=false">
       <p class="empty" hidden>Aucune planche pour l'instant sur ce poste. Lance <code>npm run preview</code> (articles de test) ou <code>npm run preview -- --latest=6</code> (derniers articles), puis recharge la page.</p>
-    </div>
+    </details>
   </section>
 
   <!-- Feuille de route -->

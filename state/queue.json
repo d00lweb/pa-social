@@ -42,5 +42,212 @@
       "description": "Le mot matrimoine, plus vieux que patrimoine, resurgit à Bordeaux depuis plusieurs années. Origine, histoire et festivals."
     },
     "previewSent": true
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35578",
+    "channel": "instagram",
+    "dueAt": 1789579695718,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Le Village Alzheimer des Landes sécurise son avenir financier",
+      "link": "https://passion-aquitaine.ouest-france.fr/village-alzheimer-landes-protocole-financement/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35578",
+      "pubDate": "Wed, 16 Sep 2026 17:08:29 +0000",
+      "date": 1789578509000,
+      "categories": [
+        "Actus",
+        "Landes",
+        "Landes LOI"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/09/visite-village-alzheimer.jpg",
+      "description": "L’État et le Département des Landes ont signé un protocole garantissant 800 000 euros par an au Village Landais Alzheimer, avant fin 2026."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Landes",
+      "visuel": {
+        "titre": "Le Village Alzheimer des Landes sécurise son avenir financier",
+        "surlignage": "avenir financier",
+        "description": "L’État et le Département des Landes ont signé un protocole garantissant 800 000 euros par an à la structure, avant la fin 2026. Un engagement qui pérennise ce lieu de vie unique consacré aux malades.",
+        "texte_alternatif": "Visuel Passion Aquitaine, rubrique Landes : le Village Landais Alzheimer voit son financement garanti, photo d’un lieu de vie pour personnes malades"
+      },
+      "instagram": {
+        "texte": "Dans les Landes, le Village Alzheimer tient désormais son financement 💶\nL’État et le Département ont signé un protocole qui assure 800 000 euros par an à ce lieu de vie unique, avant la fin 2026.",
+        "hashtags": [
+          "#Landes",
+          "#VillageAlzheimer",
+          "#Sante"
+        ]
+      },
+      "facebook": {
+        "texte": "Le Village Alzheimer des Landes obtient 💶 800 000 euros par an. Une bonne nouvelle pour vous ?",
+        "commentLead": "🔎 Pour tout savoir :"
+      },
+      "bluesky": {
+        "texte": "Les familles landaises peuvent souffler : le Village Landais Alzheimer connaît maintenant le montant sur lequel il pourra compter chaque année. Un protocole signé entre l’État et le Département fixe 800 000 euros annuels, avant la fin 2026 🗓️",
+        "hashtag": "#Landes"
+      },
+      "threads": {
+        "texte": "📜 Le saviez-vous ? Le Village Landais Alzheimer vient de voir son avenir financier sécurisé. L’État et le Département des Landes ont signé un protocole qui lui garantit 800 000 euros par an, avant la fin 2026. De quoi envisager la suite plus sereinement pour ce lieu de vie hors du commun. Connaissiez-vous ce village ?",
+        "sujet": "Landes"
+      },
+      "x": {
+        "texte": "Un village entier pensé pour les malades d’Alzheimer, au cœur des Landes 🏡 Son financement est désormais garanti : 800 000 euros par an, actés par un protocole entre l’État et le Département, avant la fin 2026.\n"
+      },
+      "source": "ia",
+      "model": "claude-opus-5",
+      "usage": {
+        "input": 5954,
+        "output": 778
+      },
+      "angles": {
+        "instagram": "lieu en tête",
+        "facebook": "effet de surprise",
+        "bluesky": "bénéfice pour le lecteur",
+        "threads": "le saviez-vous",
+        "x": "image évocatrice"
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35578",
+    "channel": "bluesky",
+    "dueAt": 1789579669868,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Le Village Alzheimer des Landes sécurise son avenir financier",
+      "link": "https://passion-aquitaine.ouest-france.fr/village-alzheimer-landes-protocole-financement/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35578",
+      "pubDate": "Wed, 16 Sep 2026 17:08:29 +0000",
+      "date": 1789578509000,
+      "categories": [
+        "Actus",
+        "Landes",
+        "Landes LOI"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/09/visite-village-alzheimer.jpg",
+      "description": "L’État et le Département des Landes ont signé un protocole garantissant 800 000 euros par an au Village Landais Alzheimer, avant fin 2026."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Landes",
+      "visuel": {
+        "titre": "Le Village Alzheimer des Landes sécurise son avenir financier",
+        "surlignage": "avenir financier",
+        "description": "L’État et le Département des Landes ont signé un protocole garantissant 800 000 euros par an à la structure, avant la fin 2026. Un engagement qui pérennise ce lieu de vie unique consacré aux malades.",
+        "texte_alternatif": "Visuel Passion Aquitaine, rubrique Landes : le Village Landais Alzheimer voit son financement garanti, photo d’un lieu de vie pour personnes malades"
+      },
+      "instagram": {
+        "texte": "Dans les Landes, le Village Alzheimer tient désormais son financement 💶\nL’État et le Département ont signé un protocole qui assure 800 000 euros par an à ce lieu de vie unique, avant la fin 2026.",
+        "hashtags": [
+          "#Landes",
+          "#VillageAlzheimer",
+          "#Sante"
+        ]
+      },
+      "facebook": {
+        "texte": "Le Village Alzheimer des Landes obtient 💶 800 000 euros par an. Une bonne nouvelle pour vous ?",
+        "commentLead": "🔎 Pour tout savoir :"
+      },
+      "bluesky": {
+        "texte": "Les familles landaises peuvent souffler : le Village Landais Alzheimer connaît maintenant le montant sur lequel il pourra compter chaque année. Un protocole signé entre l’État et le Département fixe 800 000 euros annuels, avant la fin 2026 🗓️",
+        "hashtag": "#Landes"
+      },
+      "threads": {
+        "texte": "📜 Le saviez-vous ? Le Village Landais Alzheimer vient de voir son avenir financier sécurisé. L’État et le Département des Landes ont signé un protocole qui lui garantit 800 000 euros par an, avant la fin 2026. De quoi envisager la suite plus sereinement pour ce lieu de vie hors du commun. Connaissiez-vous ce village ?",
+        "sujet": "Landes"
+      },
+      "x": {
+        "texte": "Un village entier pensé pour les malades d’Alzheimer, au cœur des Landes 🏡 Son financement est désormais garanti : 800 000 euros par an, actés par un protocole entre l’État et le Département, avant la fin 2026.\n"
+      },
+      "source": "ia",
+      "model": "claude-opus-5",
+      "usage": {
+        "input": 5954,
+        "output": 778
+      },
+      "angles": {
+        "instagram": "lieu en tête",
+        "facebook": "effet de surprise",
+        "bluesky": "bénéfice pour le lecteur",
+        "threads": "le saviez-vous",
+        "x": "image évocatrice"
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35578",
+    "channel": "x",
+    "dueAt": 1789579534252,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Le Village Alzheimer des Landes sécurise son avenir financier",
+      "link": "https://passion-aquitaine.ouest-france.fr/village-alzheimer-landes-protocole-financement/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35578",
+      "pubDate": "Wed, 16 Sep 2026 17:08:29 +0000",
+      "date": 1789578509000,
+      "categories": [
+        "Actus",
+        "Landes",
+        "Landes LOI"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/09/visite-village-alzheimer.jpg",
+      "description": "L’État et le Département des Landes ont signé un protocole garantissant 800 000 euros par an au Village Landais Alzheimer, avant fin 2026."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Landes",
+      "visuel": {
+        "titre": "Le Village Alzheimer des Landes sécurise son avenir financier",
+        "surlignage": "avenir financier",
+        "description": "L’État et le Département des Landes ont signé un protocole garantissant 800 000 euros par an à la structure, avant la fin 2026. Un engagement qui pérennise ce lieu de vie unique consacré aux malades.",
+        "texte_alternatif": "Visuel Passion Aquitaine, rubrique Landes : le Village Landais Alzheimer voit son financement garanti, photo d’un lieu de vie pour personnes malades"
+      },
+      "instagram": {
+        "texte": "Dans les Landes, le Village Alzheimer tient désormais son financement 💶\nL’État et le Département ont signé un protocole qui assure 800 000 euros par an à ce lieu de vie unique, avant la fin 2026.",
+        "hashtags": [
+          "#Landes",
+          "#VillageAlzheimer",
+          "#Sante"
+        ]
+      },
+      "facebook": {
+        "texte": "Le Village Alzheimer des Landes obtient 💶 800 000 euros par an. Une bonne nouvelle pour vous ?",
+        "commentLead": "🔎 Pour tout savoir :"
+      },
+      "bluesky": {
+        "texte": "Les familles landaises peuvent souffler : le Village Landais Alzheimer connaît maintenant le montant sur lequel il pourra compter chaque année. Un protocole signé entre l’État et le Département fixe 800 000 euros annuels, avant la fin 2026 🗓️",
+        "hashtag": "#Landes"
+      },
+      "threads": {
+        "texte": "📜 Le saviez-vous ? Le Village Landais Alzheimer vient de voir son avenir financier sécurisé. L’État et le Département des Landes ont signé un protocole qui lui garantit 800 000 euros par an, avant la fin 2026. De quoi envisager la suite plus sereinement pour ce lieu de vie hors du commun. Connaissiez-vous ce village ?",
+        "sujet": "Landes"
+      },
+      "x": {
+        "texte": "Un village entier pensé pour les malades d’Alzheimer, au cœur des Landes 🏡 Son financement est désormais garanti : 800 000 euros par an, actés par un protocole entre l’État et le Département, avant la fin 2026.\n"
+      },
+      "source": "ia",
+      "model": "claude-opus-5",
+      "usage": {
+        "input": 5954,
+        "output": 778
+      },
+      "angles": {
+        "instagram": "lieu en tête",
+        "facebook": "effet de surprise",
+        "bluesky": "bénéfice pour le lecteur",
+        "threads": "le saviez-vous",
+        "x": "image évocatrice"
+      }
+    },
+    "previewSent": false
   }
 ]

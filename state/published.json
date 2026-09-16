@@ -28,5 +28,23 @@
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=35377",
     "at": "2026-09-16T07:09:13.776Z",
     "mediaId": "18114343033806183"
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35578",
+    "channel": "instagram",
+    "at": "2026-09-16T18:08:32.309Z",
+    "mediaId": "18055799816797673"
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35578",
+    "channel": "bluesky",
+    "at": "2026-09-16T18:08:45.055Z",
+    "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mvnqbgmplk2n"
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35578",
+    "channel": "x",
+    "at": "2026-09-16T18:08:54.370Z",
+    "mediaId": "kit-telegram"
   }
 ]

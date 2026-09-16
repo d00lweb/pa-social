@@ -12,15 +12,21 @@
     "mediaId": "17922898128204983"
   },
   {
-    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35377",
     "channel": "bluesky",
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35377",
     "at": "2026-09-16T06:21:28.154Z",
     "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mvmiqoystk23"
   },
   {
-    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35377",
     "channel": "x",
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35377",
     "at": "2026-09-16T06:21:32.212Z",
     "mediaId": "kit-telegram"
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35377",
+    "channel": "instagram",
+    "at": "2026-09-16T07:09:13.776Z",
+    "mediaId": "18114343033806183"
   }
 ]

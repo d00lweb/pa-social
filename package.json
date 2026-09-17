@@ -17,7 +17,8 @@
     "smoke:bsky": "node --env-file=.env scripts/smoke-bsky.mjs",
     "smoke:fb": "node --env-file=.env scripts/smoke-fb.mjs",
     "smoke:threads": "node --env-file=.env scripts/smoke-threads.mjs",
-    "threads:refresh": "node --env-file=.env scripts/refresh-threads.mjs"
+    "threads:refresh": "node --env-file=.env scripts/refresh-threads.mjs",
+    "threads:setup": "node --env-file=.env scripts/threads-setup.mjs"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.125.0",

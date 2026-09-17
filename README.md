@@ -368,7 +368,8 @@ Modèle : `.env.example`. Le même contenu est stocké dans le secret GitHub `SO
 | `FB_PAGE_ID` | Id de la Page Facebook | `227437307428711` |
 | `FB_TOKEN` | Token **de Page** avec `pages_manage_posts` et `pages_manage_engagement` | `GET /me/accounts?fields=name,access_token` avec le token utilisateur. Un token d'utilisateur est refusé : « Unpublished posts must be posted to a page as the page itself ». `npm run smoke:fb` affiche `type : PAGE` quand c'est le bon. |
 | `THREADS_USER_ID` | Id du compte Threads | `GET https://graph.threads.net/v1.0/me?fields=id,username` |
-| `THREADS_TOKEN` | Jeton Threads longue durée (60 jours, à rafraîchir) | App Meta « cas d'usage Threads » → autorisation → échange en jeton longue durée |
+| `THREADS_TOKEN` | Jeton Threads longue durée (60 jours, à rafraîchir) | produit par `npm run threads:setup -- <jeton-court>` |
+| `THREADS_APP_SECRET` | Clé secrète de l'app Threads | App Dashboard → Paramètres → Général. Sert uniquement à l'échange en jeton longue durée |
 | `TEST_IMAGE` | Image publique pour `smoke-ig.mjs` | une ou plusieurs URL, séparées par des virgules |
 
 Variables de test : `DRY_RUN=1` (rendu + FTP, sans Instagram ni Telegram ni état) et `DRY_RUN_LATEST=n` (avec `DRY_RUN`, traite les n derniers articles du flux).
@@ -401,6 +402,7 @@ npm run preview                       # planches d'aperçu out/preview-*.jpg des
 npm run preview -- --latest=6         # idem sur les 6 derniers articles du flux
 npm run fixtures                      # régénère tests/fixtures/articles.json depuis le flux
 npm run smoke:fb                      # jeton Facebook : Page, permissions, brouillon accepté — sans rien publier
+npm run threads:setup -- <jeton-court> # échange le jeton du tableau de bord en jeton 60 jours + écrit THREADS_TOKEN et THREADS_USER_ID
 npm run smoke:threads                 # jeton Threads : profil, conteneur accepté — sans rien publier
 npm run threads:refresh -- --ecrire   # prolonge le jeton Threads de 60 jours et l'écrit dans .env
 ```

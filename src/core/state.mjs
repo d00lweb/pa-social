@@ -1,5 +1,5 @@
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
-import { join } from 'node:path';
+import { dirname, join } from 'node:path';
 import { fromRoot } from './config.mjs';
 
 const DEFAULT_DIR = fromRoot('state');
@@ -14,8 +14,10 @@ async function readJson(file, fallback) {
 }
 
 async function writeJson(dir, name, data) {
-  await mkdir(dir, { recursive: true });
-  await writeFile(join(dir, name), `${JSON.stringify(data, null, 2)}\n`);
+  const chemin = join(dir, name);
+  // `name` peut contenir un sous-dossier (rapports/2026-09.json) : on le crée aussi
+  await mkdir(dirname(chemin), { recursive: true });
+  await writeFile(chemin, `${JSON.stringify(data, null, 2)}\n`);
 }
 
 // Historique { guid, channel, at, mediaId } ; les entrées d'avant l'étape 1 (sans canal) sont des publications Instagram

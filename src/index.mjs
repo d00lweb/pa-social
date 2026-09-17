@@ -8,6 +8,10 @@ import { fetchItems, matchArticle } from './sources/rss.mjs';
 import { buildDossier } from './brain/dossier.mjs';
 import { resoudreComptes } from './brain/comptes.mjs';
 import { resoudreLieu } from './brain/lieux.mjs';
+import { collecter } from './measure/collect.mjs';
+import { diffuser } from './measure/diffusion.mjs';
+import { ecrire as ecrirePilotage } from './measure/pilotage.mjs';
+import { verifier as verifierJetons } from './measure/jetons.mjs';
 import { loadMemory, saveMemory, remember } from './brain/memory.mjs';
 import { alert, telegramEnabled, send, sendPhotos, getUpdates, answerCallback, clearButtons } from './channels/telegram.mjs';
 import { buildPreviewText, previewButtons, esc } from './channels/preview.mjs';
@@ -300,7 +304,16 @@ async function execute({ history, queue, memory, controls, now }) {
         await new Promise((r) => setTimeout(r, wait));
       }
       const { mediaId } = await impl.publish(pkg, { channel });
-      history.push({ guid: item.guid, channel: channel.id, at: new Date().toISOString(), mediaId });
+      // format tiré et présence de mentions : c'est ce qui rend la mesure comparable d'un post à l'autre
+      history.push({
+        guid: item.guid,
+        channel: channel.id,
+        at: new Date().toISOString(),
+        mediaId,
+        titre: item.article.title,
+        format: pkg.mode ?? null,
+        mention: (item.dossier.comptes?.[channel.id] ?? []).length > 0,
+      });
       queue.splice(queue.indexOf(item), 1);
       await Promise.all([saveHistory(history), saveQueue(queue)]);
       console.log(`Publié ${channel.id} : ${mediaId}`);
@@ -366,6 +379,13 @@ async function main() {
     await expire(ctx);
     prune(queue, ctx.now);
     failed = await execute(ctx);
+
+    // Mesure : relevé des interactions, rapports dus, puis instantané pour la page de pilotage.
+    // Lecture seule côté réseaux, et aucun réglage n'est modifié automatiquement.
+    const mesures = await collecter({ log: console.log, maintenant: ctx.now });
+    await diffuser({ history, mesures, now: ctx.now });
+    await verifierJetons({ now: ctx.now });
+    await ecrirePilotage({ history, queue, now: ctx.now });
   } finally {
     await Promise.all([saveHistory(history), saveQueue(queue), saveMemory(memory), saveJson('controls.json', controls), saveJson('telegram.json', tg)]);
   }

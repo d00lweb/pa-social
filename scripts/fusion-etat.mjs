@@ -1,4 +1,4 @@
-import { readFileSync, writeFileSync, existsSync } from 'node:fs';
+import { readFileSync, writeFileSync, existsSync, cpSync } from 'node:fs';
 import { join } from 'node:path';
 import { fromRoot } from '../src/core/config.mjs';
 
@@ -42,11 +42,15 @@ export function fusionnerDossiers(localDir) {
   ecrire('published.json', historique);
   ecrire('queue.json', file);
 
-  // mémoire, contrôles et compteur Telegram : la version de l'exécution, la plus récente
-  for (const nom of ['memory.json', 'controls.json', 'telegram.json']) {
+  // mémoire, contrôles, compteur Telegram, mesures et instantané : la version de l'exécution,
+  // la plus récente. Sans cette liste, une course entre deux passages les effacerait.
+  for (const nom of ['memory.json', 'controls.json', 'telegram.json', 'mesures.json', 'pilotage.json', 'jetons.json']) {
     const valeur = lire(localDir, nom, null);
     if (valeur !== null) ecrire(nom, valeur);
   }
+  // rapports mensuels : dossier entier, ils ne sont écrits qu'une fois par mois
+  const rapports = join(localDir, 'rapports');
+  if (existsSync(rapports)) cpSync(rapports, fromRoot('state', 'rapports'), { recursive: true });
   return { total: historique.length, ajoutees: historique.length - distant.length, file: file.length };
 }
 

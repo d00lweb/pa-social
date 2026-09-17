@@ -206,17 +206,40 @@
           <h1>Relais réseaux <span>Passion Aquitaine</span></h1>
         </div>
       </div>
-      <p class="sub">Chaque article du site devient automatiquement un post adapté à chaque réseau : visuel, texte rédigé par l'IA, horaire. Mis à jour le 15 septembre 2026.</p>
+      <p class="sub">Chaque article du site devient automatiquement un post adapté à chaque réseau : visuel, texte rédigé par l'IA, horaire. Cette page lit l'état réel du robot à chaque ouverture.</p>
     </div>
-    <div class="onair"><i></i>Instagram en production</div>
+    <div class="onair"><i></i>5 réseaux en production</div>
   </header>
 
   <div class="kpis">
-    <div class="kpi"><b>2 / 5</b><span>réseaux publiés automatiquement, + kit X manuel</span></div>
-    <div class="kpi"><b>2</b><span>posts Instagram publiés depuis le 15/09</span></div>
+    <div class="kpi"><b id="k-reseaux">4 / 5</b><span>réseaux publiés automatiquement, + kit X manuel</span></div>
+    <div class="kpi"><b id="k-posts">—</b><span>publications au total</span></div>
     <div class="kpi"><b>20 min</b><span>vérification du flux (cron o2switch)</span></div>
     <div class="kpi"><b>≈ 3 €</b><span>par mois (rédaction IA), le reste est gratuit</span></div>
   </div>
+
+  <!-- En direct : lu à chaque ouverture depuis state/pilotage.json publié par le robot -->
+  <section id="live">
+    <div class="sec-head">
+      <h2>En direct</h2>
+      <p class="hint" id="live-stamp">Chargement de l'état du robot…</p>
+    </div>
+    <div class="rows" id="live-alertes" hidden></div>
+    <div class="nets" id="live-nets"></div>
+    <div class="sec-head" style="margin-top:26px"><h2>Prochaines publications</h2></div>
+    <div class="rows" id="live-file"><div class="row"><div>Chargement…</div></div></div>
+    <div class="sec-head" style="margin-top:26px">
+      <h2>Dernières publications</h2>
+      <p class="hint" id="live-mesures"></p>
+    </div>
+    <div class="rows" id="live-derniers"></div>
+    <div class="sec-head" style="margin-top:26px">
+      <h2>Rapports mensuels</h2>
+      <p class="hint">Bilan par réseau, par format et par créneau. Les conseils ne sont jamais appliqués sans ta validation.</p>
+    </div>
+    <label class="pv-select"><span class="label">Mois</span><select id="live-rapport-mois"></select></label>
+    <div class="rows" id="live-rapport"><div class="row"><div>Aucun rapport mensuel pour l'instant.</div></div></div>
+  </section>
 
   <!-- Réseaux -->
   <section>
@@ -394,7 +417,7 @@
   </div>
 
   <footer>
-    <span>pa-social · page mise à jour à chaque étape de la feuille de route</span>
+    <span>pa-social · section « En direct » lue depuis l'état publié par le robot</span>
     <span>Alertes et stories : bot Telegram @PA_aquibot</span>
   </footer>
 
@@ -501,6 +524,91 @@
   });
   select.addEventListener('change', render);
   render();
+})();
+</script>
+<script>
+// En direct : l'état publié par le robot à chaque passage, lu depuis GitHub (dépôt public).
+(async () => {
+  const BASE = 'https://raw.githubusercontent.com/d00lweb/pa-social/main/state';
+  const $ = (id) => document.getElementById(id);
+  const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
+  const NOMS = { instagram: 'Instagram', facebook: 'Facebook', bluesky: 'Bluesky', threads: 'Threads', x: 'X (kit)' };
+  const quand = (iso) => new Date(iso).toLocaleString('fr-FR', { weekday: 'short', day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit' });
+  const lire = async (chemin) => {
+    const r = await fetch(`${BASE}/${chemin}?t=${Date.now()}`, { cache: 'no-store' });
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    return r.json();
+  };
+
+  let etat;
+  try {
+    etat = await lire('pilotage.json');
+  } catch (e) {
+    $('live-stamp').textContent = `État indisponible (${e.message}). La page reste consultable hors ligne.`;
+    return;
+  }
+
+  $('live-stamp').textContent = `Dernière vérification du robot : ${quand(etat.genereLe)} · actualisé à chaque ouverture`;
+
+  // Réseaux : rythme du jour et dernière publication
+  const actifs = Object.values(etat.reseaux).filter((r) => r.actif).length;
+  $('k-reseaux').textContent = `${actifs} / 5`;
+  $('k-posts').textContent = String(Object.values(etat.reseaux).reduce((n, r) => n + (r.total ?? 0), 0));
+  $('live-nets').innerHTML = Object.entries(etat.reseaux).map(([id, r]) => `
+    <article class="net">
+      <div class="net-top">
+        <div class="net-name">${esc(NOMS[id] ?? id)}</div>
+        <span class="pill ${r.actif ? 'live' : 'next'}">${r.actif ? 'en ligne' : 'inactif'}</span>
+      </div>
+      <dl>
+        <div><dt>Aujourd'hui</dt><dd>${r.aujourdhui} / ${r.maxParJour ?? '—'}</dd></div>
+        <div><dt>Total</dt><dd>${r.total}</dd></div>
+        <div><dt>Dernier</dt><dd>${r.dernier ? quand(r.dernier) : 'jamais'}</dd></div>
+      </dl>
+    </article>`).join('');
+
+  // Alertes en premier : c'est ce qu'on veut voir sans chercher
+  if (etat.alertes?.length) {
+    $('live-alertes').hidden = false;
+    $('live-alertes').innerHTML = etat.alertes.map((a) => `
+      <div class="row"><div>⚠️ ${esc(NOMS[a.channel] ?? a.channel)} · ${esc(a.titre)}<small>${esc(a.raison)}</small></div><span class="when">${esc(a.statut)}</span></div>`).join('');
+  }
+
+  $('live-file').innerHTML = etat.file?.length
+    ? etat.file.map((f) => `<div class="row"><div>${esc(NOMS[f.channel] ?? f.channel)}<small>${esc(f.titre)}</small></div><span class="when">${quand(f.dueAt)}</span></div>`).join('')
+    : '<div class="row"><div>Rien en attente<small>Le prochain article du flux sera planifié automatiquement</small></div></div>';
+
+  $('live-derniers').innerHTML = (etat.derniers ?? []).map((d) => `
+    <div class="row"><div>${esc(NOMS[d.channel] ?? d.channel)}<small>${esc(d.titre)}</small></div><span class="when">${quand(d.at)}</span></div>`).join('');
+
+  const m = etat.mesures?.parReseau ?? {};
+  const resume = Object.entries(m).map(([k, v]) => `${NOMS[k] ?? k} ${v.interactionsMoyennes}`).join(' · ');
+  $('live-mesures').textContent = resume ? `Interactions moyennes à 7 jours — ${resume}` : 'Mesures en cours de collecte.';
+
+  // Rapports mensuels
+  const select = $('live-rapport-mois');
+  const zone = $('live-rapport');
+  const rapports = etat.rapports ?? [];
+  if (!rapports.length) return;
+  rapports.forEach((mois) => select.add(new Option(mois, mois)));
+  const afficher = async (mois) => {
+    zone.innerHTML = '<div class="row"><div>Chargement…</div></div>';
+    try {
+      const r = await lire(`rapports/${mois}.json`);
+      const bloc = (titre, obj) => Object.entries(obj ?? {}).map(([k, v]) =>
+        `<div class="row"><div>${esc(titre)} · ${esc(NOMS[k] ?? k)}<small>${v.posts} post(s)</small></div><span class="when">${v.moyenne}</span></div>`).join('');
+      zone.innerHTML = [
+        `<div class="row"><div><b>${r.posts} posts mesurés</b><small>Interactions moyennes par publication</small></div><span class="when mono">${esc(r.mois)}</span></div>`,
+        bloc('Réseau', r.parReseau), bloc('Format', r.parFormat), bloc('Créneau', r.parCreneau),
+        ...(r.conseils ?? []).map((c) => `<div class="row"><div>💡 ${esc(c)}</div></div>`),
+        '<div class="row"><div><i>Aucun réglage n\'a été modifié : ces conseils attendent ta validation.</i></div></div>',
+      ].join('');
+    } catch (e) {
+      zone.innerHTML = `<div class="row"><div>Rapport indisponible (${esc(e.message)})</div></div>`;
+    }
+  };
+  select.addEventListener('change', () => afficher(select.value));
+  afficher(rapports[0]);
 })();
 </script>
 </body>

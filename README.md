@@ -116,6 +116,19 @@ Compte `@lovaquitaine`, **inactif tant que `THREADS_USER_ID` et `THREADS_TOKEN` 
 - Si la réponse échoue, le post reste en ligne et une alerte Telegram le signale : la publication n'est jamais rejouée.
 - **Jeton à durée de vie limitée** : 60 jours, renouvelable par `npm run threads:refresh`. Passé ce délai sans renouvellement, il est perdu et il faut réautoriser l'application.
 
+### Mesure et rapports (`src/measure/`)
+
+**Aucun réglage n'est jamais modifié automatiquement.** Les rapports observent, comparent et conseillent ; c'est toi qui décides d'appliquer ou non.
+
+- **Relevés** : pour chaque publication, les interactions sont relevées à **J+1** et **J+7** (`state/mesures.json`). Disponible sans permission supplémentaire : likes et commentaires sur Instagram, likes, commentaires et partages sur Facebook, likes, reposts, réponses et citations sur Bluesky. La **portée** demande `instagram_manage_insights`, `read_insights` et `threads_manage_insights`, qui se cochent sans validation de Meta pour nos propres comptes.
+- **Rapport hebdomadaire** : envoyé sur Telegram **le lundi après 8 h**, une seule fois (un marqueur d'état empêche les envois répétés du cron). Court : classements par réseau, par format et par créneau, meilleur et moins bon post, effet des mentions, puis des conseils chiffrés.
+- **Rapports mensuels** : figés le 1er du mois dans `state/rapports/AAAA-MM.json` et consultables depuis `pilotage.html`.
+- **Surveillance des jetons** : alerte Telegram 30 jours avant la fin de l'accès Meta, 15 jours avant l'échéance Threads, une fois par semaine au maximum.
+
+### Pilotage en direct
+
+`pilotage.html` lit `state/pilotage.json` **à chaque ouverture**, directement depuis GitHub (dépôt public, lecture autorisée entre domaines). La page affiche donc l'état réel : rythme du jour par réseau, prochaines publications, dernières publications, alertes, interactions moyennes et rapports mensuels. Aucun serveur, aucun coût.
+
 ### Mentions de comptes et localisation
 
 **Principe : le texte ne porte jamais une liste de comptes.** Une mention n'apparaît dans un texte que si elle remplace un nom déjà écrit (« la boulangerie @lamidupain17 ») ; sinon elle passe par un canal invisible, ou elle n'a pas lieu.
@@ -534,6 +547,7 @@ Dépendances : `fast-xml-parser`, `sharp`, `playwright`, `basic-ftp`. Node 24, E
 | 15/09/2026 | Charte v4, décisions utilisateur : X en image 4:5 (1080×1350) + texte + « ➡️ lien » à la ligne ; au moins un emoji stratégique dans chaque texte de chaque réseau (choisi selon le sujet, placement varié, non répété, sobre si sujet sensible). |
 | 15/09/2026 | Charte v5 : placement de l'emoji imposé par réseau, en rotation. Étape 6 : canal Bluesky livré (carte de lien 1200×627 ou image 4:5 + lien, hashtag cliquable, validation Telegram, coupe-circuit), inactif tant que les identifiants manquent. |
 | 15/09/2026 | Bluesky en production (identifiant certifié @passion-aquitaine.ouest-france.fr). Publication automatique sur tous les réseaux, sans validation ; Telegram limité au kit X, à la story Instagram et aux alertes. |
+| 17/09/2026 | Étape 9 : mesure et rapports. Relevés J+1 et J+7, rapport Telegram le lundi, rapports mensuels, surveillance des jetons, et pilotage qui lit l'état réel à chaque ouverture. **Les conseils ne sont jamais appliqués sans validation.** |
 | 17/09/2026 | **Facebook et Threads en production.** Les cinq réseaux sont actifs. Piège rencontré : le générateur de jetons du tableau de bord Meta délivre déjà un jeton Threads de 60 jours, que l'échange refuse (« Session key invalid ») — la mise en service gère désormais les deux cas. Jeton Threads à renouveler avant le 16/11/2026. |
 | 17/09/2026 | Étape 8 : canal Threads livré (rotation de 3 formats, sujet, texte alternatif, lien en réponse, mentions vérifiées, 3 posts par jour). Renouvellement du jeton outillé. Inactif tant que le jeton n'est pas fourni. |
 | 17/09/2026 | Plafond quotidien par réseau (Instagram 2, Facebook 2, Bluesky 3, kit X 3) et réserve : le surplus reste en file et part au premier créneau du lendemain. Facebook passe à 2 posts par jour espacés de 3 h minimum. |

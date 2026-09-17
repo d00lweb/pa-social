@@ -403,6 +403,7 @@ npm run preview -- --latest=6         # idem sur les 6 derniers articles du flux
 npm run fixtures                      # régénère tests/fixtures/articles.json depuis le flux
 npm run smoke:fb                      # jeton Facebook : Page, permissions, brouillon accepté — sans rien publier
 npm run threads:setup -- <jeton-court> # échange le jeton du tableau de bord en jeton 60 jours + écrit THREADS_TOKEN et THREADS_USER_ID
+npm run threads:setup                 # idem, en lisant le jeton dans THREADS_SHORT_TOKEN (.env) : rien ne transite par la ligne de commande
 npm run smoke:threads                 # jeton Threads : profil, conteneur accepté — sans rien publier
 npm run threads:refresh -- --ecrire   # prolonge le jeton Threads de 60 jours et l'écrit dans .env
 ```

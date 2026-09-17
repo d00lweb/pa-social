@@ -56,8 +56,10 @@ const poser = (cle, valeur) => {
 };
 poser('THREADS_TOKEN', longue.access_token);
 poser('THREADS_USER_ID', profil.id);
-writeFileSync('.env', lignes.join('\n'));
-console.log('   ✔ THREADS_TOKEN et THREADS_USER_ID enregistrés (valeurs jamais affichées)');
+// le jeton court a fait son office : il ne doit pas rester dans la configuration, ni partir dans le secret
+const restantes = lignes.filter((l) => !l.startsWith('THREADS_SHORT_TOKEN='));
+writeFileSync('.env', restantes.join('\n'));
+console.log('   ✔ THREADS_TOKEN et THREADS_USER_ID enregistrés, jeton temporaire retiré (valeurs jamais affichées)');
 
 console.log('\nIl reste à :');
 console.log('  1. envoyer la configuration à GitHub, depuis Git Bash :  gh secret set SOCIAL < .env');

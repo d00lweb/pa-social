@@ -81,31 +81,33 @@ export async function prepare(article, { dossier, renderer: shared, log = consol
   return { article, dossier, mode, files: [{ name, buffer }], text, replyText, link: article.link, intent: intentUrl(text) };
 }
 
-// Un champ par élément : chaque bloc se copie d'une seule touche
-export function kitMessage(pkg) {
+// Un message par élément : chacun se copie d'une seule touche, sans rien sélectionner à la main
+export function kitMessages(pkg) {
   const mode = pkg.mode ?? 'image';
-  const lignes = [
-    `🐦 <b>Kit X</b> · ${esc(pkg.article.title)}`,
-    `<i>Format : ${LIBELLES[mode] ?? mode}</i>`,
-    '',
-    `<b>Post</b> (${xLength(pkg.text)}/280, touche pour copier) :`,
-    `<code>${esc(pkg.text)}</code>`,
-  ];
-  if (pkg.replyText) lignes.push('', '<b>Réponse</b> (à publier juste après, touche pour copier) :', `<code>${esc(pkg.replyText)}</code>`);
-
-  // un champ par élément : chacun se copie séparément
-  const comptes = pkg.dossier?.comptes?.x ?? [];
-  for (const c of comptes.slice(0, 2)) lignes.push('', `<b>Compte à taguer sur l’image</b> (${esc(c.nom)}) :`, `<code>@${esc(c.handle)}</code>`);
+  const comptes = (pkg.dossier?.comptes?.x ?? []).slice(0, 2);
   const lieu = pkg.dossier?.lieu;
-  if (lieu) lignes.push('', '<b>Lieu à taguer</b> :', `<code>${esc(lieu.nom)}</code>`);
 
-  lignes.push('', CONSIGNES[mode] ?? '');
-  if (comptes.length) lignes.push('Les comptes se taguent sur l’image : ils ne comptent pas dans les 280 caractères.');
-  return lignes.join('\n');
+  const messages = [
+    [
+      `🐦 <b>Kit X</b> · ${esc(pkg.article.title)}`,
+      `<i>Format : ${LIBELLES[mode] ?? mode}</i>`,
+      '',
+      CONSIGNES[mode] ?? '',
+      comptes.length ? 'Les comptes se taguent sur l’image : ils ne comptent pas dans les 280 caractères.' : '',
+    ].filter(Boolean).join('\n'),
+    `📝 <b>Texte du post</b> (${xLength(pkg.text)}/280)\n<code>${esc(pkg.text)}</code>`,
+  ];
+  if (pkg.replyText) messages.push(`💬 <b>Réponse à publier juste après</b>\n<code>${esc(pkg.replyText)}</code>`);
+  for (const c of comptes) messages.push(`👤 <b>Compte à taguer</b> · ${esc(c.nom)}\n<code>@${esc(c.handle)}</code>`);
+  if (lieu) messages.push(`📍 <b>Lieu à taguer</b>\n<code>${esc(lieu.nom)}</code>`);
+  return messages;
 }
 
 export async function publish(pkg) {
   if (pkg.files.length) await sendDocument(pkg.files[0].buffer, pkg.files[0].name);
-  await send(kitMessage(pkg), { reply_markup: JSON.stringify({ inline_keyboard: [[{ text: '✍️ Publier sur X', url: pkg.intent }]] }) });
+  const [consignes, ...elements] = kitMessages(pkg);
+  await send(consignes, { reply_markup: JSON.stringify({ inline_keyboard: [[{ text: '✍️ Publier sur X', url: pkg.intent }]] }) });
+  // un message par élément : texte, réponse, comptes, lieu — chacun se copie seul
+  for (const message of elements) await send(message);
   return { mediaId: 'kit-telegram' };
 }

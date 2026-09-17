@@ -39,20 +39,31 @@ test('réglages : Telegram prioritaire sur la configuration', () => {
 });
 
 test('kit X : lien de rédaction pré-remplie, message copiable, statut « déjà publié »', async () => {
-  const { intentUrl, kitMessage, xLength } = await import('../src/channels/x.mjs');
+  const { intentUrl, kitMessages, xLength } = await import('../src/channels/x.mjs');
   const post = 'Le matrimoine revient à #Bordeaux 🎭\n➡️ https://site.fr/un-tres-long-lien-d-article';
   const url = new URL(intentUrl(post));
   assert.equal(url.origin + url.pathname, 'https://x.com/intent/post');
   assert.equal(url.searchParams.get('text'), post);
   // 34 caractères + emoji (2) + saut de ligne (1) + ➡️ (2) + espace (1) + lien (23)
   assert.equal(xLength(post), 34 + 2 + 1 + 2 + 1 + 23);
-  const msg = kitMessage({ article: { title: 'A & B' }, mode: 'image', text: 'Texte <ok>\n➡️ https://site.fr/a', link: 'https://site.fr/a' });
-  assert.ok(msg.includes('<code>Texte &lt;ok&gt;\n➡️ https://site.fr/a</code>') && msg.includes('A &amp; B'));
-  assert.ok(!msg.includes('<b>Réponse</b>'), 'pas de champ réponse quand le lien est dans le post');
-  // format « lien en réponse » : deux champs copiables distincts, aucun lien dans le post
-  const kit = kitMessage({ article: { title: 'T' }, mode: 'reponse', text: 'Texte seul', replyText: '📖 L’article : https://site.fr/a' });
-  assert.ok(kit.includes('<code>Texte seul</code>') && kit.includes('<code>📖 L’article : https://site.fr/a</code>'));
-  assert.ok(kit.includes('<b>Réponse</b>'));
+  const msgs = kitMessages({ article: { title: 'A & B' }, mode: 'image', text: 'Texte <ok>\n➡️ https://site.fr/a', link: 'https://site.fr/a' });
+  assert.equal(msgs.length, 2, 'consignes + texte, rien d’autre à copier');
+  assert.ok(msgs[0].includes('A &amp; B'));
+  assert.ok(msgs[1].includes('<code>Texte &lt;ok&gt;\n➡️ https://site.fr/a</code>'));
+
+  // chaque élément dans son propre message, pour être copié indépendamment
+  const kit = kitMessages({
+    article: { title: 'T' },
+    mode: 'reponse',
+    text: 'Texte seul',
+    replyText: '📖 L’article : https://site.fr/a',
+    dossier: { comptes: { x: [{ nom: 'Musée', handle: 'MuseeAquitaine' }] }, lieu: { nom: 'Bordeaux' } },
+  });
+  assert.equal(kit.length, 5, 'consignes, texte, réponse, compte, lieu');
+  assert.ok(kit[1].includes('<code>Texte seul</code>'));
+  assert.ok(kit[2].includes('<code>📖 L’article : https://site.fr/a</code>'));
+  assert.ok(kit[3].includes('<code>@MuseeAquitaine</code>') && kit[3].includes('Musée'));
+  assert.ok(kit[4].includes('<code>Bordeaux</code>'));
   const dossier = { rubrique: 'R', source: 'ia', facebook: { texte: 'f' }, bluesky: { texte: 'b', hashtag: '#R' }, threads: { texte: 't' }, x: { texte: 'x' } };
   const text = buildPreviewText({ article: { guid: 'g', title: 'T', link: 'https://x' }, dossier, caption: 'c', items: [{ channel: 'x', status: 'awaiting', dueAt: 0 }], published: ['instagram'], when: () => 'vers 9h' });
   assert.ok(text.includes('<b>Instagram</b> · <i>déjà publié</i>') && text.includes('kit Telegram'));

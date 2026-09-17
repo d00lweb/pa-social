@@ -89,16 +89,16 @@ export async function sendStory({ buffer, url, title, link, comptes = [], lieu =
     console.log(`Story à poster à la main : ${url}\n  Sticker lien : ${link}`);
     return;
   }
-  // un élément par ligne, chacun se copie d'une seule touche
-  const extras = [
-    ...comptes.map((h) => `👤 Compte à mentionner : @${h}`),
-    lieu ? `📍 Lieu à taguer : ${lieu}` : null,
-  ].filter(Boolean);
   const form = new FormData();
   form.append('chat_id', c.chat);
-  form.append('caption', [`📲 Story à poster`, title, '', `🔗 Sticker lien : ${link}`, ...extras].join('\n'));
+  form.append('caption', `📲 Story à poster\n${title}`);
   form.append('document', new Blob([buffer], { type: 'image/jpeg' }), 'story.jpg');
   await call('sendDocument', form);
+
+  // un message par élément : chacun se copie d'une seule touche
+  await send(`🔗 <b>Sticker lien</b>\n<code>${link}</code>`);
+  for (const h of comptes) await send(`👤 <b>Compte à mentionner</b>\n<code>@${h}</code>`);
+  if (lieu) await send(`📍 <b>Lieu à taguer</b>\n<code>${lieu}</code>`);
 }
 
 export const BOT_COMMANDS = [

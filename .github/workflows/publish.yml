@@ -1,8 +1,10 @@
 name: Publication Instagram
 
 on:
+  # Le déclenchement vient de la tâche cron o2switch, toutes les 20 min. Ce cron GitHub n'est qu'un
+  # filet de sécurité : à l'heure pile seulement, pour ne pas croiser les passages d'o2switch.
   schedule:
-    - cron: '*/20 * * * *'
+    - cron: '10 * * * *'
   workflow_dispatch:
     inputs:
       dry_run:
@@ -57,24 +59,44 @@ jobs:
           SOCIAL: ${{ secrets.SOCIAL }}
         run: printf '%s\n' "$SOCIAL" > .env
 
+      # Une exécution mise en file d'attente repart du dépôt tel qu'il était à son déclenchement :
+      # sans ce rafraîchissement, elle ne voit pas les publications faites entre-temps et les refait.
+      - name: Reprendre l'état publié le plus récent
+        run: |
+          git fetch -q origin main
+          git checkout -q origin/main -- state/
+          echo "État repris : $(git log -1 --format='%h %ad' --date=format:'%d/%m %H:%M' origin/main -- state/)"
+
       - name: Publier
         env:
           DRY_RUN: ${{ inputs.dry_run && '1' || '' }}
           RELANCE: ${{ inputs.relance }}
         run: node --env-file=.env src/index.mjs
 
-      # always() : l'état est poussé même si une étape après publication échoue
+      # always() : l'état est poussé même si une étape après publication échoue.
+      # En cas de course entre deux exécutions, les historiques sont fusionnés au lieu d'être écrasés.
       - name: Enregistrer l'état
         if: always()
         run: |
           rm -f .env
-          if [ -z "$(git status --porcelain -- state/)" ]; then
-            echo "État inchangé."
-            exit 0
-          fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add state/
-          git commit -m "État : publication Instagram [skip ci]"
-          git pull --rebase
-          git push
+          for essai in 1 2 3; do
+            rm -rf /tmp/etat-local && cp -a state /tmp/etat-local
+            git fetch -q origin main
+            git reset -q --hard origin/main
+            node scripts/fusion-etat.mjs /tmp/etat-local
+            if [ -z "$(git status --porcelain -- state/)" ]; then
+              echo "État inchangé."
+              exit 0
+            fi
+            git add state/
+            git commit -q -m "État : publication [skip ci]"
+            if git push -q origin HEAD:main; then
+              echo "État enregistré (tentative $essai)."
+              exit 0
+            fi
+            echo "Le distant a bougé, nouvelle fusion…"
+          done
+          echo "::error::État non enregistré après 3 tentatives"
+          exit 1

@@ -446,6 +446,7 @@ La production ne dépend pas du poste : elle tourne entièrement sur GitHub et o
 | `npm install` : ERESOLVE sharp | ancienne dépendance smartcrop-sharp exigeait sharp 0.32 | smartcrop retiré ; sharp épinglé en `^0.32.6` |
 | Meta `(#100) nonexisting field (content_publishing_limit)` | `IG_USER_ID` erroné (pas l'id du compte Instagram professionnel) | utiliser l'id `instagram_business_account` du bon compte |
 | Garde-fou « image trop petite : 400 px » | image lue dans `<media:content>` (vignette) | lire `<enclosure>` |
+| Exécution en échec dès l'envoi, sans journal d'étape, « workflow file issue » | condition d'étape testant `env.X` alors que `X` est défini dans le bloc `env` de cette même étape : GitHub refuse le fichier | poser le drapeau dans une étape dédiée (`id`, `$GITHUB_OUTPUT`) puis tester `steps.<id>.outputs.<nom>` |
 | FTP : `Timed out while waiting for handshake` (port 22) | SSH fermé par o2switch | passage en FTPS port 21 (`basic-ftp`) |
 | FTPS : `ERR_TLS_CERT_ALTNAME_INVALID` | certificat émis pour `pasta.o2switch.net` | `SFTP_HOST=pasta.o2switch.net` |
 | FTP `530 Login authentication failed` | identifiant FTP d'un ancien compte | identifiant exact du compte (inclut `@domaine`) |

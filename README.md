@@ -229,7 +229,8 @@ Pas de serveur : le bot lit boutons et commandes à **chaque passage du cron** (
 | Reprise du matin | 7 h + 10 à 95 min | `config/channels.json` (`morningJitterMinutes`) |
 | Attente avant publication | 0 – 9 min | `config/channels.json` (`publishDelayMinutes`) |
 | Coupe-circuit | codes Meta 4, 17, 32, 368, 613 (+ sous-codes de blocage) | `config/channels.json` (`restriction`) |
-| Publications max / 24 h | 6 | `config/channels.json` (`maxPer24h`) |
+| Publications max / jour | Instagram 2 · Facebook 2 · Bluesky 3 · kit X 3 | `config/channels.json` (`maxPerDay`) |
+| Quota Meta / 24 h | 6 (limite d'Instagram elle-même) | `config/channels.json` (`maxPer24h`) |
 | Essais en cas d'erreur | 3 (délai de 30 min × n° d'essai) | `config/channels.json` (`retry`) |
 | Largeur min image source | 1200 px | `src/channels/instagram.mjs` |
 | Description max | 300 caractères | `src/channels/instagram.mjs` |
@@ -241,7 +242,8 @@ Pas de serveur : le bot lit boutons et commandes à **chaque passage du cron** (
   - écart variable entre deux posts ;
   - décalage aléatoire, reprise du matin variable ;
   - **attente aléatoire de 0 à 9 min au moment de publier**, pour que les posts ne tombent pas sur les minutes fixes du cron (:00, :20) ;
-  - validation humaine par Telegram, qui ajoute une variation naturelle.
+  - plafond quotidien par réseau, compté à l'heure de Paris et remis à zéro chaque jour.
+- **Réserve (entonnoir) :** quand le plafond du jour est atteint, l'article n'est ni perdu ni forcé — il reste en file et part au premier créneau du lendemain. Un flux chargé s'écoule ainsi sur plusieurs jours, au rythme choisi, sans jamais publier en rafale.
 - **Textes toujours différents :**
   - angles en rotation, contrôle des tournures reprises ;
   - questions limitées, formules d'appât interdites ;
@@ -514,6 +516,7 @@ Dépendances : `fast-xml-parser`, `sharp`, `playwright`, `basic-ftp`. Node 24, E
 | 15/09/2026 | Charte v4, décisions utilisateur : X en image 4:5 (1080×1350) + texte + « ➡️ lien » à la ligne ; au moins un emoji stratégique dans chaque texte de chaque réseau (choisi selon le sujet, placement varié, non répété, sobre si sujet sensible). |
 | 15/09/2026 | Charte v5 : placement de l'emoji imposé par réseau, en rotation. Étape 6 : canal Bluesky livré (carte de lien 1200×627 ou image 4:5 + lien, hashtag cliquable, validation Telegram, coupe-circuit), inactif tant que les identifiants manquent. |
 | 15/09/2026 | Bluesky en production (identifiant certifié @passion-aquitaine.ouest-france.fr). Publication automatique sur tous les réseaux, sans validation ; Telegram limité au kit X, à la story Instagram et aux alertes. |
+| 17/09/2026 | Plafond quotidien par réseau (Instagram 2, Facebook 2, Bluesky 3, kit X 3) et réserve : le surplus reste en file et part au premier créneau du lendemain. Facebook passe à 2 posts par jour espacés de 3 h minimum. |
 | 17/09/2026 | Étape 7 : canal Facebook livré (image 4:5, texte sans lien, URL en premier commentaire 1 à 3 min après, lieu, 1 post par jour). Inactif tant que le jeton de Page n'est pas fourni. |
 | 17/09/2026 | **Publication en double corrigée.** Une exécution mise en file d'attente repartait du dépôt tel qu'il était à son déclenchement (`actions/checkout` se cale sur la révision d'origine) : elle ne voyait pas les publications faites entre-temps et les refaisait, puis échouait à enregistrer son état sur un conflit. Désormais l'état publié est repris juste avant de publier, l'enregistrement fusionne les historiques au lieu de les écraser (`scripts/fusion-etat.mjs`, 3 tentatives), et le cron GitHub passe à une fois par heure pour ne plus croiser celui d'o2switch. |
 | 17/09/2026 | Telegram : un message par élément (texte, réponse, chaque compte, lieu), pour copier chacun d'une seule touche. |

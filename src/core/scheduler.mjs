@@ -21,6 +21,21 @@ export function nextOpen(ms, quiet, timeZone) {
   return t;
 }
 
+// Jour civil local (aaaa-mm-jj) : sert à compter les publications de la journée
+export const dayKey = (ms, timeZone) => new Intl.DateTimeFormat('en-CA', { timeZone, year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date(ms));
+
+// Publications déjà faites aujourd'hui sur un réseau
+export const countToday = (history, channelId, now, timeZone) =>
+  history.filter((e) => e.channel === channelId && dayKey(new Date(e.at).getTime(), timeZone) === dayKey(now, timeZone)).length;
+
+// Premier créneau ouvert du lendemain : ce qui dépasse le plafond du jour attend là
+export function nextDay(ms, quiet, timeZone) {
+  const jour = dayKey(ms, timeZone);
+  let t = ms;
+  for (let i = 0; i < 48 && dayKey(t, timeZone) === jour; i++) t += HOUR;
+  return nextOpen(t, quiet, timeZone);
+}
+
 const pick = ([min, max], rng) => min + rng() * (max - min);
 export const jitter = (range, rng = Math.random) => pick(range, rng) * MINUTE;
 // gapHours : nombre fixe ou intervalle [min, max] tiré au hasard à chaque publication

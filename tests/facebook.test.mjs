@@ -12,10 +12,11 @@ test('Facebook : inactif tant que le jeton de Page manque', () => {
   assert.equal(fb.validation, false, 'publication automatique comme les autres réseaux');
 });
 
-test('Facebook : un post par jour au plus, jamais la nuit', () => {
+test('Facebook : deux posts par jour au plus, espacés d’au moins 3 h, jamais la nuit', () => {
   const fb = config.channels.facebook;
   const [min] = fb.gapHours;
-  assert.ok(min >= 20, `écart minimum de ${min} h : la montée en charge commence à 1 post par jour`);
+  assert.equal(fb.maxPerDay, 2);
+  assert.ok(min >= 3, `écart minimum de ${min} h entre deux posts Facebook`);
   assert.equal(fb.quietHours.start, 22);
   assert.equal(fb.quietHours.end, 8);
   const [tot, tard] = fb.commentDelayMinutes;

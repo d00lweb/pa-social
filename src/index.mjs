@@ -2,7 +2,7 @@ import { readFileSync } from 'node:fs';
 import { config, DRY_RUN, DRY_RUN_LATEST, enabledChannels, fromRoot } from './core/config.mjs';
 import { GuardError, DeferError } from './core/errors.mjs';
 import { loadHistory, saveHistory, loadQueue, saveQueue, loadJson, saveJson, hasPublished, lastPublishedAt } from './core/state.mjs';
-import { planDueAt, recheck, jitter } from './core/scheduler.mjs';
+import { planDueAt, recheck, jitter, countToday, nextDay } from './core/scheduler.mjs';
 import { NETWORKS, NAMES, shortId, parseCommand, defaultControls, isPaused, needsValidation, targets, applyDecision } from './core/control.mjs';
 import { fetchItems, matchArticle } from './sources/rss.mjs';
 import { buildDossier } from './brain/dossier.mjs';
@@ -271,6 +271,15 @@ async function execute({ history, queue, memory, controls, now }) {
       queue.splice(queue.indexOf(item), 1);
       continue;
     }
+    // Plafond du jour atteint : l'article reste en réserve et passe au premier créneau de demain.
+    // Rien n'est perdu — la file s'écoule d'elle-même sur les jours suivants.
+    const dejaAujourdhui = countToday(history, channel.id, now, TZ);
+    if (channel.maxPerDay && dejaAujourdhui >= channel.maxPerDay) {
+      item.dueAt = planDueAt({ now: nextDay(now, channel.quietHours, TZ), channel, timeZone: TZ });
+      console.log(`Réserve ${channel.id} : ${dejaAujourdhui}/${channel.maxPerDay} publiés aujourd'hui, « ${item.article.title} » → ${paris(item.dueAt)}`);
+      continue;
+    }
+
     const later = recheck({ now, lastAt: lastPublishedAt(history, channel.id), channel, timeZone: TZ });
     if (later) {
       item.dueAt = later;

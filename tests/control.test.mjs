@@ -46,8 +46,13 @@ test('kit X : lien de rédaction pré-remplie, message copiable, statut « déj�
   assert.equal(url.searchParams.get('text'), post);
   // 34 caractères + emoji (2) + saut de ligne (1) + ➡️ (2) + espace (1) + lien (23)
   assert.equal(xLength(post), 34 + 2 + 1 + 2 + 1 + 23);
-  const msg = kitMessage({ article: { title: 'A & B' }, text: 'Texte <ok>\n➡️ https://site.fr/a', link: 'https://site.fr/a' });
+  const msg = kitMessage({ article: { title: 'A & B' }, mode: 'image', text: 'Texte <ok>\n➡️ https://site.fr/a', link: 'https://site.fr/a' });
   assert.ok(msg.includes('<code>Texte &lt;ok&gt;\n➡️ https://site.fr/a</code>') && msg.includes('A &amp; B'));
+  assert.ok(!msg.includes('<b>Réponse</b>'), 'pas de champ réponse quand le lien est dans le post');
+  // format « lien en réponse » : deux champs copiables distincts, aucun lien dans le post
+  const kit = kitMessage({ article: { title: 'T' }, mode: 'reponse', text: 'Texte seul', replyText: '📖 L’article : https://site.fr/a' });
+  assert.ok(kit.includes('<code>Texte seul</code>') && kit.includes('<code>📖 L’article : https://site.fr/a</code>'));
+  assert.ok(kit.includes('<b>Réponse</b>'));
   const dossier = { rubrique: 'R', source: 'ia', facebook: { texte: 'f' }, bluesky: { texte: 'b', hashtag: '#R' }, threads: { texte: 't' }, x: { texte: 'x' } };
   const text = buildPreviewText({ article: { guid: 'g', title: 'T', link: 'https://x' }, dossier, caption: 'c', items: [{ channel: 'x', status: 'awaiting', dueAt: 0 }], published: ['instagram'], when: () => 'vers 9h' });
   assert.ok(text.includes('<b>Instagram</b> · <i>déjà publié</i>') && text.includes('kit Telegram'));

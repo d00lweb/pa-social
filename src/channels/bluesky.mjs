@@ -2,7 +2,7 @@ import { writeFile, mkdir } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import sharp from 'sharp';
 import { splitAround, frenchTypography } from '../brain/editorial.mjs';
-import { composeBluesky } from '../brain/compose.mjs';
+import { composeBluesky, linkLead } from '../brain/compose.mjs';
 import { loadSource, cropTo, X_FORMAT, SLIDE } from '../media/crop.mjs';
 import { createRenderer } from '../media/render.mjs';
 import { GuardError } from '../core/errors.mjs';
@@ -21,8 +21,12 @@ export const LINK_LABEL = 'Lire l’article';
 const graphemes = (s) => [...new Intl.Segmenter('fr', { granularity: 'grapheme' }).segment(String(s))].length;
 const hashNum = (s) => parseInt(createHash('sha1').update(String(s)).digest('hex').slice(0, 8), 16);
 
-// 1 article sur N en image 4:5 + lien, les autres en carte de lien (stable par article)
-export const modeFor = (guid, every = config.channels.bluesky?.imageEvery ?? 5) => (hashNum(guid) % every === 0 ? 'image' : 'card');
+// Rotation des 3 formats, stable par article : carte de lien · image + lien · image, lien en réponse
+export const FORMATS = config.channels.bluesky?.formats ?? ['card', 'image', 'reply'];
+export const modeFor = (guid, formats = FORMATS) => formats[hashNum(guid) % formats.length];
+
+// Réponse portant le lien : formule tournante, jamais deux fois la même d'un article à l'autre
+export const replyTextFor = (article) => `${linkLead(article.guid, 'bluesky')} ${article.link}`;
 
 export function postText(dossier, mode) {
   const base = composeBluesky(dossier);
@@ -42,6 +46,10 @@ export function buildFacets(text, link, linkLabel) {
   if (link && linkLabel) {
     const at = text.lastIndexOf(linkLabel);
     if (at >= 0) facets.push({ index: { byteStart: byteAt(at), byteEnd: byteAt(at + linkLabel.length) }, features: [{ $type: 'app.bsky.richtext.facet#link', uri: link }] });
+  }
+  // lien écrit en clair (réponse) : la facette porte sur l'URL elle-même
+  for (const m of text.matchAll(/https?:\/\/\S+/g)) {
+    facets.push({ index: { byteStart: byteAt(m.index), byteEnd: byteAt(m.index + m[0].length) }, features: [{ $type: 'app.bsky.richtext.facet#link', uri: m[0] }] });
   }
   return facets;
 }
@@ -77,8 +85,9 @@ export async function prepare(article, { dossier, renderer: shared, log = consol
   const name = `${stamp}-${createHash('sha1').update(article.guid).digest('hex').slice(0, 8)}-bsky.jpg`;
   await mkdir(fromRoot('out'), { recursive: true });
   await writeFile(fromRoot('out', name), buffer);
-  log(`   Bluesky : ${mode === 'card' ? 'carte de lien' : 'image 4:5 + lien'}, ${graphemes(text)}/${MAX_GRAPHEMES} caractères, ${Math.round(buffer.length / 1024)} Ko`);
-  return { article, dossier, mode, text, files: [{ name, buffer }], alt: dossier.visuel.texte_alternatif };
+  const libelle = { card: 'carte de lien', image: 'image 4:5 + lien', reply: 'image 4:5, lien en réponse' }[mode];
+  log(`   Bluesky : ${libelle}, ${graphemes(text)}/${MAX_GRAPHEMES} caractères, ${Math.round(buffer.length / 1024)} Ko`);
+  return { article, dossier, mode, text, files: [{ name, buffer }], alt: dossier.visuel.texte_alternatif, replyText: mode === 'reply' ? replyTextFor(article) : null };
 }
 
 async function xrpc(method, { token, body, contentType = 'application/json' } = {}) {
@@ -116,6 +125,20 @@ export async function publish(pkg) {
     facets: buildFacets(pkg.text, pkg.article.link, pkg.mode === 'image' ? LINK_LABEL : null),
     embed,
   };
-  const { uri } = await xrpc('com.atproto.repo.createRecord', { token, body: { repo: did, collection: 'app.bsky.feed.post', record } });
+  const { uri, cid } = await xrpc('com.atproto.repo.createRecord', { token, body: { repo: did, collection: 'app.bsky.feed.post', record } });
+
+  // format « lien en réponse » : le lien part dans une réponse à notre propre post
+  if (pkg.replyText) {
+    const ref = { uri, cid };
+    const reply = {
+      $type: 'app.bsky.feed.post',
+      text: pkg.replyText,
+      createdAt: new Date().toISOString(),
+      langs: ['fr'],
+      facets: buildFacets(pkg.replyText),
+      reply: { root: ref, parent: ref },
+    };
+    await xrpc('com.atproto.repo.createRecord', { token, body: { repo: did, collection: 'app.bsky.feed.post', record: reply } });
+  }
   return { mediaId: uri };
 }

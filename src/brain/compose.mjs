@@ -31,4 +31,10 @@ export function facebookComment(article, dossier) {
   return `${lead} ${article.link}`;
 }
 
+// Formule avant le lien (réponse Bluesky, réponse X) : en rotation, stable par article et par réseau
+export const linkLead = (guid, net) => {
+  const leads = ed.facebookCommentLeads;
+  return leads[parseInt(createHash('sha1').update(`${net}:${guid}`).digest('hex').slice(0, 6), 16) % leads.length];
+};
+
 export const nextCommentLead = (memory) => ed.facebookCommentLeads[(memory.angleIndex ?? 0) % ed.facebookCommentLeads.length];

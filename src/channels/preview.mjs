@@ -12,7 +12,7 @@ export function buildPreviewText({ article, dossier, caption, items, published =
   const blocks = [
     ['instagram', caption],
     ['facebook', `${dossier.facebook.texte}\n[1er commentaire : ${facebookComment(article, dossier)}]`],
-    ['bluesky', `${postText(dossier, modeFor(article.guid))}\n[${modeFor(article.guid) === 'card' ? 'carte de lien' : 'image 4:5, lien sur « Lire l’article »'}]`],
+    ['bluesky', `${postText(dossier, modeFor(article.guid))}\n[${{ card: 'carte de lien', image: 'image 4:5, lien sur « Lire l’article »', reply: 'image 4:5, lien en réponse' }[modeFor(article.guid)]}]`],
     ['threads', `${dossier.threads.texte}${dossier.threads.sujet ? `\n[sujet : ${dossier.threads.sujet}]` : ''}`],
     ['x', composeX(dossier, article.link)],
   ];

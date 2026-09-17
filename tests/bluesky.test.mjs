@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { buildFacets, postText, modeFor, LINK_LABEL } from '../src/channels/bluesky.mjs';
+import { buildFacets, postText, modeFor, replyTextFor, LINK_LABEL } from '../src/channels/bluesky.mjs';
 
 const bytes = (s) => new TextEncoder().encode(s).length;
 
@@ -17,11 +17,24 @@ test('facettes : hashtags et lien en octets UTF-8 (accents, emojis)', () => {
   assert.equal(link.index.byteEnd, bytes(text));
 });
 
-test('mode : environ 1 article sur 5 en image, stable par article', () => {
-  const modes = Array.from({ length: 400 }, (_, i) => modeFor(`https://site.fr/?p=${i}`));
-  const images = modes.filter((m) => m === 'image').length;
-  assert.ok(images > 50 && images < 110, `images : ${images}`);
+test('formats : les 3 se répartissent équitablement et restent stables par article', () => {
+  const modes = Array.from({ length: 600 }, (_, i) => modeFor(`https://site.fr/?p=${i}`));
+  for (const f of ['card', 'image', 'reply']) {
+    const n = modes.filter((m) => m === f).length;
+    assert.ok(n > 140 && n < 260, `${f} : ${n}`);
+  }
   assert.equal(modeFor('https://site.fr/?p=7'), modeFor('https://site.fr/?p=7'));
+});
+
+test('réponse : formule tournante + lien cliquable, sans lien dans le post', () => {
+  const dossier = { bluesky: { texte: 'À Bordeaux, le matrimoine revient 🎭', hashtag: '#Bordeaux' } };
+  assert.equal(postText(dossier, 'reply'), 'À #Bordeaux, le matrimoine revient 🎭');
+  const a = replyTextFor({ guid: 'g1', link: 'https://site.fr/a' });
+  assert.match(a, /^\S+ .+ https:\/\/site\.fr\/a$/u);
+  assert.equal(a, replyTextFor({ guid: 'g1', link: 'https://site.fr/a' }), 'stable par article');
+  const [facet] = buildFacets(a);
+  assert.equal(facet.features[0].uri, 'https://site.fr/a');
+  assert.equal(facet.index.byteEnd, bytes(a));
 });
 
 test('texte : lien ajouté seulement en mode image', () => {

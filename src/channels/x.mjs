@@ -2,7 +2,7 @@ import { writeFile, mkdir } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import sharp from 'sharp';
 import { splitAround } from '../brain/editorial.mjs';
-import { composeX } from '../brain/compose.mjs';
+import { composeX, composeXText, linkLead } from '../brain/compose.mjs';
 import { loadSource, cropTo, toMetaJpeg, SLIDE } from '../media/crop.mjs';
 import { createRenderer } from '../media/render.mjs';
 import { send, sendDocument } from './telegram.mjs';
@@ -15,6 +15,22 @@ export const id = 'x';
 export const publishedLabel = '📨 <b>Kit X envoyé</b>, à publier depuis Telegram';
 const SIZE = [1080, 1350]; // 4:5, format choisi pour X
 
+// Rotation des 3 formats, stable par article
+export const FORMATS = config.channels.x?.formats ?? ['image', 'lien', 'reponse'];
+const hashNum = (s) => parseInt(createHash('sha1').update(String(s)).digest('hex').slice(0, 8), 16);
+export const modeFor = (guid, formats = FORMATS) => formats[hashNum(guid) % formats.length];
+
+const LIBELLES = {
+  image: 'image + lien dans le post',
+  lien: 'lien seul, X affiche l’aperçu',
+  reponse: 'image, lien en réponse',
+};
+const CONSIGNES = {
+  image: 'Enregistre l’image ci-dessus, touche « Publier sur X », joins l’image et publie.',
+  lien: 'Touche « Publier sur X » et publie : l’aperçu du lien s’affiche tout seul, aucune image à joindre.',
+  reponse: 'Enregistre l’image, touche « Publier sur X », joins l’image et publie. Réponds ensuite à ton propre post avec le second texte.',
+};
+
 // Lien de rédaction pré-remplie : texte + « ➡️ lien » à la ligne
 export const intentUrl = (text) => `https://x.com/intent/post?${new URLSearchParams({ text })}`;
 
@@ -25,6 +41,15 @@ export const xLength = (text) => {
 };
 
 export async function prepare(article, { dossier, renderer: shared, log = console.log } = {}) {
+  const mode = modeFor(article.guid);
+
+  // format « lien seul » : pas de visuel, X affiche l'aperçu de l'article
+  if (mode === 'lien') {
+    const text = composeX(dossier, article.link);
+    log(`   Kit X : ${LIBELLES[mode]}`);
+    return { article, dossier, mode, files: [], text, link: article.link, intent: intentUrl(text) };
+  }
+
   if (!article.image) throw new GuardError(article, ['aucune image (enclosure) dans le flux']);
   const source = await loadSource(article.image);
   const renderer = shared ?? (await createRenderer());
@@ -48,25 +73,31 @@ export async function prepare(article, { dossier, renderer: shared, log = consol
   const name = `${stamp}-${createHash('sha1').update(article.guid).digest('hex').slice(0, 8)}-x.jpg`;
   await mkdir(fromRoot('out'), { recursive: true });
   await writeFile(fromRoot('out', name), buffer);
-  log(`   Visuel X : ${SIZE.join('×')}`);
+  log(`   Kit X : ${LIBELLES[mode]}, visuel ${SIZE.join('×')}`);
 
-  const text = composeX(dossier, article.link);
-  return { article, dossier, files: [{ name, buffer }], text, link: article.link, intent: intentUrl(text) };
+  // « image » : le lien suit le texte ; « reponse » : le lien part dans une réponse
+  const text = mode === 'image' ? composeX(dossier, article.link) : composeXText(dossier);
+  const replyText = mode === 'reponse' ? `${linkLead(article.guid, 'x')} ${article.link}` : null;
+  return { article, dossier, mode, files: [{ name, buffer }], text, replyText, link: article.link, intent: intentUrl(text) };
 }
 
+// Un champ par élément : chaque bloc se copie d'une seule touche
 export function kitMessage(pkg) {
-  return [
+  const mode = pkg.mode ?? 'image';
+  const lignes = [
     `🐦 <b>Kit X</b> · ${esc(pkg.article.title)}`,
+    `<i>Format : ${LIBELLES[mode] ?? mode}</i>`,
     '',
     `<b>Post</b> (${xLength(pkg.text)}/280, touche pour copier) :`,
     `<code>${esc(pkg.text)}</code>`,
-    '',
-    'Enregistre l’image ci-dessus, touche « Publier sur X » (texte et lien déjà remplis), joins l’image et publie.',
-  ].join('\n');
+  ];
+  if (pkg.replyText) lignes.push('', '<b>Réponse</b> (à publier juste après, touche pour copier) :', `<code>${esc(pkg.replyText)}</code>`);
+  lignes.push('', CONSIGNES[mode] ?? '');
+  return lignes.join('\n');
 }
 
 export async function publish(pkg) {
-  await sendDocument(pkg.files[0].buffer, pkg.files[0].name);
+  if (pkg.files.length) await sendDocument(pkg.files[0].buffer, pkg.files[0].name);
   await send(kitMessage(pkg), { reply_markup: JSON.stringify({ inline_keyboard: [[{ text: '✍️ Publier sur X', url: pkg.intent }]] }) });
   return { mediaId: 'kit-telegram' };
 }

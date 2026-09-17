@@ -72,8 +72,11 @@ Les lignes « vides » contiennent le caractère invisible U+2800, car Instagram
 
 API AT Protocol officielle et gratuite : connexion par **mot de passe d'application** (`BLUESKY_HANDLE`, `BLUESKY_APP_PASSWORD`). Le canal reste **inactif tant que ces deux variables manquent** (`requiresEnv`).
 
-- **4 articles sur 5 : carte de lien** avec notre visuel en 1200×627 (1,91:1, moins de 1 Mo). La carte affiche le titre et la description de l'article, et le texte ne contient pas d'URL.
-- **1 article sur 5 : image 4:5** (1080×1350) avec texte alternatif, puis « ➡️ Lire l'article » à la ligne, rendu cliquable. Le choix est stable pour un même article (`imageEvery`).
+**Rotation de 3 formats** (`formats` dans `config/channels.json`), tirée d'après l'identifiant de l'article, donc stable pour un même article :
+
+- **carte de lien** avec notre visuel en 1200×627 (1,91:1, moins de 1 Mo). La carte affiche le titre et la description de l'article, et le texte ne contient pas d'URL.
+- **image 4:5** (1080×1350) avec texte alternatif, puis « ➡️ Lire l'article » à la ligne, rendu cliquable.
+- **image 4:5, lien en réponse** : le post ne porte aucun lien, une réponse à notre propre post apporte le lien, précédé d'une formule tournante (« 📖 L'article complet : »…). Protège la portée du post, au prix des clics : l'étape 9 tranchera avec nos chiffres.
 - **Texte :** hashtag du lieu cliquable, intégré au texte, 300 caractères maximum, langue du post déclarée en français.
 - **Réglages :** validation Telegram, écart de 2 h 30 à 4 h, rien entre 22 h et 8 h, attente aléatoire avant publication.
 - **Coupe-circuit** en cas de limite (HTTP 429) ou de sanction du compte.
@@ -423,7 +426,7 @@ src/channels/meta-graph.mjs     client API Graph (Instagram, Facebook)
 src/channels/telegram.mjs       client Telegram (messages, photos, boutons, commandes, story)
 src/channels/preview.mjs        message d'aperçu et boutons
 src/channels/x.mjs              kit X : visuel 4:5, post avec lien, lien de rédaction pré-remplie
-src/channels/bluesky.mjs        Bluesky : carte de lien ou image, facettes, AT Protocol
+src/channels/bluesky.mjs        Bluesky : 3 formats (carte, image, lien en réponse), facettes, AT Protocol
 scripts/smoke-bsky.mjs          test de connexion Bluesky
 src/core/control.mjs            commandes, pause, validation, décisions (logique pure)
 scripts/telegram-test.mjs       menu du bot + aperçu d'exemple
@@ -467,4 +470,5 @@ Dépendances : `fast-xml-parser`, `sharp`, `playwright`, `basic-ftp`. Node 24, E
 | 15/09/2026 | Charte v4, décisions utilisateur : X en image 4:5 (1080×1350) + texte + « ➡️ lien » à la ligne ; au moins un emoji stratégique dans chaque texte de chaque réseau (choisi selon le sujet, placement varié, non répété, sobre si sujet sensible). |
 | 15/09/2026 | Charte v5 : placement de l'emoji imposé par réseau, en rotation. Étape 6 : canal Bluesky livré (carte de lien 1200×627 ou image 4:5 + lien, hashtag cliquable, validation Telegram, coupe-circuit), inactif tant que les identifiants manquent. |
 | 15/09/2026 | Bluesky en production (identifiant certifié @passion-aquitaine.ouest-france.fr). Publication automatique sur tous les réseaux, sans validation ; Telegram limité au kit X, à la story Instagram et aux alertes. |
+| 17/09/2026 | Rotation de 3 formats sur Bluesky (carte de lien · image + lien · image avec lien en réponse) et sur le kit X (image + lien · lien seul · image avec lien en réponse), formule avant le lien tournante par article et par réseau. Le kit Telegram donne un champ copiable par élément. |
 | 17/09/2026 | Relance manuelle d'un ancien article : champ « Relancer un ancien article » au déclenchement du workflow (mots du titre ou adresse), l'âge de 24 h est ignoré, les règles anti-bannissement restent appliquées. |

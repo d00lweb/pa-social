@@ -373,7 +373,7 @@ Variables de test : `DRY_RUN=1` (rendu + FTP, sans Instagram ni Telegram ni éta
 | Voir ce qu'une exécution a fait | Actions → exécution → étape « Publier » |
 | Republier un article déjà publié | retirer son entrée de `state/published.json`, committer (attention au doublon Instagram) |
 | Activer Facebook | renseigner `FB_PAGE_ID` et `FB_TOKEN` dans `.env` **et** dans le secret `SOCIAL`, vérifier avec `npm run smoke:fb` |
-| Mettre à jour les secrets | coller le `.env` complet dans le secret `SOCIAL` |
+| Mettre à jour les secrets | coller le `.env` complet dans le secret `SOCIAL`. En ligne de commande, **depuis Git Bash** : `gh secret set SOCIAL < .env`. Jamais via un tube PowerShell (`Get-Content \| gh secret set`) : il ajoute un marqueur d'encodage invisible qui casse la première variable, et toutes les exécutions échouent sur `Variables manquantes : IG_USER_ID`. |
 
 Commandes locales :
 

@@ -42,22 +42,27 @@ jobs:
             echo "::warning::Jeton Threads non renouvelé"
           fi
 
-      # Le secret n'est réécrit que si le jeton a changé, et jamais affiché
-      - name: Mettre à jour le secret SOCIAL
-        if: steps.threads.outputs.renouvele == 'oui' && env.PAT != ''
+      # Une étape ne peut pas tester une variable qu'elle définit elle-même : le drapeau est posé ici
+      - name: Vérifier la clé d'écriture
+        id: cle
         env:
           PAT: ${{ secrets.GH_PAT }}
+        run: |
+          if [ -n "$PAT" ]; then
+            echo "presente=oui" >> "$GITHUB_OUTPUT"
+          else
+            echo "presente=non" >> "$GITHUB_OUTPUT"
+            echo "::warning::Secret GH_PAT absent : le jeton sera prolongé mais le secret SOCIAL ne sera pas réécrit."
+          fi
+
+      # Le secret n'est réécrit que si le jeton a changé, et sa valeur n'est jamais affichée
+      - name: Mettre à jour le secret SOCIAL
+        if: steps.threads.outputs.renouvele == 'oui' && steps.cle.outputs.presente == 'oui'
+        env:
           GH_TOKEN: ${{ secrets.GH_PAT }}
         run: |
           gh secret set SOCIAL < .env
           echo "Secret SOCIAL mis à jour."
-
-      - name: Avertir si la clé d'écriture manque
-        if: steps.threads.outputs.renouvele == 'oui' && env.PAT == ''
-        env:
-          PAT: ${{ secrets.GH_PAT }}
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-        run: echo "::warning::Jeton prolongé mais secret non réécrit : ajoute le secret GH_PAT (permission Secrets en écriture)."
 
       - name: Effacer les traces
         if: always()

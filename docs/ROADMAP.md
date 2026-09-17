@@ -21,7 +21,7 @@ Stratégie détaillée et données : note « Plan Bluesky, Threads, X » (v2, 15
 - [x] 5. Kit X (15/09/2026)
 - [x] 6. Bluesky (en production depuis le 15/09/2026, identifiant certifié)
 - [x] 6 bis. Rotation de 3 formats, mentions de comptes et localisation (17/09/2026)
-- [ ] 7. Facebook
+- [ ] 7. Facebook (code livré le 17/09/2026, en attente du jeton de Page avec droits de publication)
 - [ ] 8. Threads
 - [ ] 9. Mesure et apprentissage
 - [ ] 10. Accélérateurs « média de référence »

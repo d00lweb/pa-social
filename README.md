@@ -94,6 +94,17 @@ Format décidé par l'utilisateur le 15/09/2026, sur le modèle des posts du Fig
 
 Variante du visuel sans le logo Ouest-France : `"hideOuestFrance": true` dans `config/channels.json`.
 
+### Facebook (`src/channels/facebook.mjs`)
+
+Page Passion Aquitaine, **inactif tant que `FB_PAGE_ID` et `FB_TOKEN` ne sont pas renseignés**.
+
+- **Une seule image** 4:5 en 1440×1800, déposée sur le site puis publiée par son URL (Meta la télécharge).
+- **Texte de 120 caractères maximum**, lu en entier sans « Voir plus », sans lien ni hashtag dans le corps.
+- **Le lien part en premier commentaire**, 1 à 3 minutes après le post, précédé d'une formule tournante. Si le commentaire échoue, le post reste en ligne et une alerte Telegram le signale : la publication n'est jamais rejouée, sous peine de doublon.
+- **Lieu** : même identifiant que sur Instagram ; s'il est refusé, le post part sans lieu.
+- **Rythme** : un post par jour au plus (écart de 20 à 26 h), jamais entre 22 h et 8 h — la montée en charge se règle en abaissant `gapHours`.
+- **Mentions** : reportées. Facebook exige l'identifiant numérique de la page mentionnée, que notre application ne peut pas encore lire.
+
 ### Mentions de comptes et localisation
 
 **Principe : le texte ne porte jamais une liste de comptes.** Une mention n'apparaît dans un texte que si elle remplace un nom déjà écrit (« la boulangerie @lamidupain17 ») ; sinon elle passe par un canal invisible, ou elle n'a pas lieu.
@@ -341,6 +352,8 @@ Modèle : `.env.example`. Le même contenu est stocké dans le secret GitHub `SO
 | `ANTHROPIC_API_KEY` | Clé API Claude (rédacteur IA) | console.anthropic.com → API Keys (clé « pa-social ») |
 | `BLUESKY_HANDLE` | Identifiant Bluesky | `passion-aquitaine.ouest-france.fr` |
 | `BLUESKY_APP_PASSWORD` | Mot de passe d'application | App Bluesky → Réglages → Confidentialité et sécurité → Mots de passe d'application |
+| `FB_PAGE_ID` | Id de la Page Facebook | `227437307428711` |
+| `FB_TOKEN` | Token de Page avec `pages_manage_posts` et `pages_manage_engagement` | Graph API Explorer → Page Passion Aquitaine → jeton longue durée |
 | `TEST_IMAGE` | Image publique pour `smoke-ig.mjs` | une ou plusieurs URL, séparées par des virgules |
 
 Variables de test : `DRY_RUN=1` (rendu + FTP, sans Instagram ni Telegram ni état) et `DRY_RUN_LATEST=n` (avec `DRY_RUN`, traite les n derniers articles du flux).
@@ -359,6 +372,7 @@ Variables de test : `DRY_RUN=1` (rendu + FTP, sans Instagram ni Telegram ni éta
 | Vérifier les déclenchements o2switch | lire `~/pa-social-cron.log` (lignes `204`) |
 | Voir ce qu'une exécution a fait | Actions → exécution → étape « Publier » |
 | Republier un article déjà publié | retirer son entrée de `state/published.json`, committer (attention au doublon Instagram) |
+| Activer Facebook | renseigner `FB_PAGE_ID` et `FB_TOKEN` dans `.env` **et** dans le secret `SOCIAL`, vérifier avec `npm run smoke:fb` |
 | Mettre à jour les secrets | coller le `.env` complet dans le secret `SOCIAL` |
 
 Commandes locales :
@@ -371,6 +385,7 @@ npm test                              # tests hors ligne (règles, planificateur
 npm run preview                       # planches d'aperçu out/preview-*.jpg des articles de test, sans dépôt
 npm run preview -- --latest=6         # idem sur les 6 derniers articles du flux
 npm run fixtures                      # régénère tests/fixtures/articles.json depuis le flux
+npm run smoke:fb                      # jeton Facebook : Page, permissions, brouillon accepté — sans rien publier
 ```
 
 La file d'attente se lit dans `state/queue.json` : heure prévue (`dueAt`), statut `pending` (en attente), `blocked` (garde-fou) ou `failed` (3 essais échoués), dernière erreur. Les entrées bloquées ou en échec sont effacées après 7 jours.
@@ -455,6 +470,7 @@ src/channels/telegram.mjs       client Telegram (messages, photos, boutons, comm
 src/channels/preview.mjs        message d'aperçu et boutons
 src/channels/x.mjs              kit X : visuel 4:5, post avec lien, lien de rédaction pré-remplie
 src/channels/bluesky.mjs        Bluesky : 3 formats (carte, image, lien en réponse), facettes, AT Protocol
+src/channels/facebook.mjs       Facebook : image 4:5, lieu, lien en premier commentaire
 scripts/smoke-bsky.mjs          test de connexion Bluesky
 src/core/control.mjs            commandes, pause, validation, décisions (logique pure)
 scripts/telegram-test.mjs       menu du bot + aperçu d'exemple
@@ -498,6 +514,7 @@ Dépendances : `fast-xml-parser`, `sharp`, `playwright`, `basic-ftp`. Node 24, E
 | 15/09/2026 | Charte v4, décisions utilisateur : X en image 4:5 (1080×1350) + texte + « ➡️ lien » à la ligne ; au moins un emoji stratégique dans chaque texte de chaque réseau (choisi selon le sujet, placement varié, non répété, sobre si sujet sensible). |
 | 15/09/2026 | Charte v5 : placement de l'emoji imposé par réseau, en rotation. Étape 6 : canal Bluesky livré (carte de lien 1200×627 ou image 4:5 + lien, hashtag cliquable, validation Telegram, coupe-circuit), inactif tant que les identifiants manquent. |
 | 15/09/2026 | Bluesky en production (identifiant certifié @passion-aquitaine.ouest-france.fr). Publication automatique sur tous les réseaux, sans validation ; Telegram limité au kit X, à la story Instagram et aux alertes. |
+| 17/09/2026 | Étape 7 : canal Facebook livré (image 4:5, texte sans lien, URL en premier commentaire 1 à 3 min après, lieu, 1 post par jour). Inactif tant que le jeton de Page n'est pas fourni. |
 | 17/09/2026 | **Publication en double corrigée.** Une exécution mise en file d'attente repartait du dépôt tel qu'il était à son déclenchement (`actions/checkout` se cale sur la révision d'origine) : elle ne voyait pas les publications faites entre-temps et les refaisait, puis échouait à enregistrer son état sur un conflit. Désormais l'état publié est repris juste avant de publier, l'enregistrement fusionne les historiques au lieu de les écraser (`scripts/fusion-etat.mjs`, 3 tentatives), et le cron GitHub passe à une fois par heure pour ne plus croiser celui d'o2switch. |
 | 17/09/2026 | Telegram : un message par élément (texte, réponse, chaque compte, lieu), pour copier chacun d'une seule touche. |
 | 17/09/2026 | Mentions de comptes et localisation : l'IA fournit des noms d'entités, les comptes viennent de Wikidata puis du site officiel, et sont vérifiés avant publication (mots entiers, écart des comptes de fans et des homonymes). Tags invisibles sur l'image Instagram, lieu sur le carrousel (lieu précis → ville → département), mention par substitution du nom sur Bluesky, comptes et lieu fournis dans le kit X et la story. |

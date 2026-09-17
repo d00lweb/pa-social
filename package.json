@@ -14,7 +14,8 @@
     "preview": "node --env-file=.env scripts/preview.mjs",
     "fixtures": "node scripts/capture-fixtures.mjs",
     "telegram:test": "node --env-file=.env scripts/telegram-test.mjs",
-    "smoke:bsky": "node --env-file=.env scripts/smoke-bsky.mjs"
+    "smoke:bsky": "node --env-file=.env scripts/smoke-bsky.mjs",
+    "smoke:fb": "node --env-file=.env scripts/smoke-fb.mjs"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.125.0",

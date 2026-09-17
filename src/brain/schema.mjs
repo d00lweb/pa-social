@@ -11,6 +11,10 @@ export const DossierSchema = z.object({
     description: z.string(),
     texte_alternatif: z.string(),
   }),
+  // entités réellement citées ou impliquées, par ordre de pertinence ; liste vide si aucune
+  entites: z.array(z.object({ nom: z.string(), role: z.enum(['sujet', 'acteur', 'tutelle', 'theme']) })),
+  // localisation du sujet : du plus précis au plus large, chaîne vide si inconnu
+  lieu: z.object({ precis: z.string(), ville: z.string(), departement: z.string() }),
   instagram: z.object({ texte: z.string(), hashtags: z.array(z.string()) }),
   facebook: z.object({ texte: z.string() }),
   bluesky: z.object({ texte: z.string(), hashtag: z.string() }),

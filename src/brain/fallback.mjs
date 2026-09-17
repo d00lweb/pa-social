@@ -37,6 +37,9 @@ export function fallbackDossier(article) {
     nature: 'actu',
     sensible: false,
     rubrique,
+    // sans IA, aucune entité n'est identifiable : pas de mention, et le lieu se limite à ce que le lexique donne
+    entites: [],
+    lieu: { precis: '', ville: '', departement: place?.name ?? '' },
     visuel: { titre, surlignage: highlight, description, texte_alternatif: clip(`${rubrique} : ${titre}`, ed.limits.altText) },
     instagram: { texte: withEmoji(description, emoji), hashtags: tags.slice(0, 3) },
     // Facebook sans « Voir plus » : le titre s'il tient, jamais un texte coupé

@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { buildFacets, postText, modeFor, replyTextFor, LINK_LABEL } from '../src/channels/bluesky.mjs';
+import { buildFacets, postText, modeFor, replyTextFor, mentionFacets, LINK_LABEL } from '../src/channels/bluesky.mjs';
 
 const bytes = (s) => new TextEncoder().encode(s).length;
 
@@ -24,6 +24,18 @@ test('formats : les 3 se répartissent équitablement et restent stables par art
     assert.ok(n > 140 && n < 260, `${f} : ${n}`);
   }
   assert.equal(modeFor('https://site.fr/?p=7'), modeFor('https://site.fr/?p=7'));
+});
+
+test('mention : facette sur le pseudo, rien si le compte n’existe pas', async () => {
+  const text = 'Au @musee-aquitaine.bsky.social, le monument dédié à Montaigne 🏛️';
+  const [facet, ...reste] = await mentionFacets(text, async (h) => (h === 'musee-aquitaine.bsky.social' ? 'did:plc:abc' : null));
+  assert.equal(reste.length, 0);
+  assert.equal(facet.features[0].$type, 'app.bsky.richtext.facet#mention');
+  assert.equal(facet.features[0].did, 'did:plc:abc');
+  assert.equal(facet.index.byteStart, bytes('Au '));
+  assert.equal(facet.index.byteEnd, bytes('Au @musee-aquitaine.bsky.social'));
+  // compte introuvable : aucune facette, la mention resterait du texte inerte
+  assert.deepEqual(await mentionFacets(text, async () => null), []);
 });
 
 test('réponse : formule tournante + lien cliquable, sans lien dans le post', () => {

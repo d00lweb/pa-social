@@ -100,6 +100,28 @@ export async function stage(pkg) {
   return urls;
 }
 
+// Un compte renommé ou passé en privé ne doit jamais empêcher la publication : on retire la mention
+async function creerImage(graph, url, userTags) {
+  try {
+    return await graph.createImage(url, { carouselItem: true, userTags });
+  } catch (err) {
+    if (!userTags.length) throw err;
+    console.error(`   Mentions abandonnées : ${err.message}`);
+    return graph.createImage(url, { carouselItem: true });
+  }
+}
+
+// Idem pour le lieu : un identifiant devenu invalide ne bloque pas le post
+async function creerCarrousel(graph, children, caption, locationId) {
+  try {
+    return await graph.createCarousel(children, caption, { locationId });
+  } catch (err) {
+    if (!locationId) throw err;
+    console.error(`   Lieu abandonné : ${err.message}`);
+    return graph.createCarousel(children, caption);
+  }
+}
+
 // Carrousel Instagram + story envoyée sur Telegram
 export async function publish(pkg, { channel }) {
   const graph = createGraph({ userId: process.env.IG_USER_ID, token: process.env.IG_TOKEN, version: process.env.GRAPH_VERSION });
@@ -107,16 +129,30 @@ export async function publish(pkg, { channel }) {
   if (usage >= channel.maxPer24h) throw new DeferError(`quota atteint : ${usage} publications sur 24 h`);
 
   const [url1, url2, storyUrl] = await stage(pkg);
+  // mentions posées sur la 1ʳᵉ image (invisibles dans le texte), lieu porté par le carrousel
+  const comptes = (pkg.dossier.comptes?.instagram ?? []).slice(0, 2);
+  const userTags = comptes.map((c, i) => ({ username: c.handle, x: 0.25 + i * 0.5, y: 0.9 }));
+  const lieu = pkg.dossier.lieu ?? null;
+  if (userTags.length) console.log(`   Mentions : ${comptes.map((c) => `@${c.handle}`).join(' ')}`);
+  if (lieu) console.log(`   Lieu : ${lieu.nom} (${lieu.niveau})`);
+
   const children = [];
-  for (const url of [url1, url2]) children.push(await graph.createImage(url, { carouselItem: true }));
+  for (const [i, url] of [url1, url2].entries()) children.push(await creerImage(graph, url, i === 0 ? userTags : []));
   for (const child of children) await graph.waitFinished(child);
-  const carousel = await graph.createCarousel(children, pkg.caption);
+  const carousel = await creerCarrousel(graph, children, pkg.caption, lieu?.id);
   await graph.waitFinished(carousel);
   const mediaId = await graph.publish(carousel);
 
   // story : envoi manuel, non bloquant
   try {
-    await sendStory({ buffer: pkg.files[2].buffer, url: storyUrl, title: pkg.article.title, link: pkg.article.link });
+    await sendStory({
+      buffer: pkg.files[2].buffer,
+      url: storyUrl,
+      title: pkg.article.title,
+      link: pkg.article.link,
+      comptes: comptes.map((c) => c.handle),
+      lieu: lieu?.nom ?? null,
+    });
   } catch (e) {
     console.error(`   Story non envoyée : ${e.message}\n   ${storyUrl}`);
   }

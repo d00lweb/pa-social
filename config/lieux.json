@@ -1,0 +1,9 @@
+{
+  "_lecture": "Identifiants de lieu Facebook, seule forme acceptée par Meta : 13 chiffres et plus. Les identifiants courts (9-10 chiffres), hérités de l'ancien Instagram, sont systématiquement refusés. Les villes sont retrouvées automatiquement par Wikidata ; ce fichier complète ce qu'elle ne connaît pas, surtout les départements.",
+  "departements": {
+    "Haute-Vienne": "228169691058500"
+  },
+  "communes": {
+    "Saintes": "120745988556024"
+  }
+}

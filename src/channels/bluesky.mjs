@@ -3,6 +3,8 @@ import { createHash } from 'node:crypto';
 import sharp from 'sharp';
 import { splitAround, frenchTypography } from '../brain/editorial.mjs';
 import { composeBluesky, linkLead } from '../brain/compose.mjs';
+import { substituer } from '../brain/annuaire.mjs';
+import { resoudreHandle } from '../sources/bsky-public.mjs';
 import { loadSource, cropTo, X_FORMAT, SLIDE } from '../media/crop.mjs';
 import { createRenderer } from '../media/render.mjs';
 import { GuardError } from '../core/errors.mjs';
@@ -54,6 +56,20 @@ export function buildFacets(text, link, linkLabel) {
   return facets;
 }
 
+// Une mention n'est cliquable que si la facette porte l'identifiant technique du compte
+export async function mentionFacets(text, resoudre = resoudreHandle) {
+  const enc = new TextEncoder();
+  const byteAt = (i) => enc.encode(text.slice(0, i)).length;
+  const facets = [];
+  for (const m of text.matchAll(/(^|[\s(])@([a-z0-9-]+(?:\.[a-z0-9-]+)+)/gi)) {
+    const did = await resoudre(m[2]);
+    if (!did) continue;
+    const start = m.index + m[1].length;
+    facets.push({ index: { byteStart: byteAt(start), byteEnd: byteAt(start + 1 + m[2].length) }, features: [{ $type: 'app.bsky.richtext.facet#mention', did }] });
+  }
+  return facets;
+}
+
 async function underLimit(input, [width, height]) {
   for (const quality of [90, 82, 74, 66, 58]) {
     const buffer = await sharp(input).resize(width, height, { fit: 'cover' }).jpeg({ quality, mozjpeg: true }).toBuffer();
@@ -65,7 +81,17 @@ async function underLimit(input, [width, height]) {
 export async function prepare(article, { dossier, renderer: shared, log = console.log } = {}) {
   if (!article.image) throw new GuardError(article, ['aucune image (enclosure) dans le flux']);
   const mode = modeFor(article.guid);
-  const text = postText(dossier, mode);
+  let text = postText(dossier, mode);
+
+  // mention uniquement en remplaçant le nom déjà écrit : jamais de pseudo ajouté en bout de phrase
+  const mention = (dossier.comptes?.bluesky ?? [])[0];
+  if (mention) {
+    const avecMention = substituer(text, mention.nom, mention.handle);
+    if (avecMention && graphemes(avecMention) <= MAX_GRAPHEMES) {
+      text = avecMention;
+      log(`   Mention : @${mention.handle}`);
+    }
+  }
   if (graphemes(text) > MAX_GRAPHEMES) throw new GuardError(article, [`texte Bluesky trop long : ${graphemes(text)} / ${MAX_GRAPHEMES}`]);
 
   const source = await loadSource(article.image);
@@ -122,7 +148,7 @@ export async function publish(pkg) {
     text: pkg.text,
     createdAt: new Date().toISOString(),
     langs: ['fr'],
-    facets: buildFacets(pkg.text, pkg.article.link, pkg.mode === 'image' ? LINK_LABEL : null),
+    facets: [...buildFacets(pkg.text, pkg.article.link, pkg.mode === 'image' ? LINK_LABEL : null), ...(await mentionFacets(pkg.text))],
     embed,
   };
   const { uri, cid } = await xrpc('com.atproto.repo.createRecord', { token, body: { repo: did, collection: 'app.bsky.feed.post', record } });

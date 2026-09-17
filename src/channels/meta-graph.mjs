@@ -43,20 +43,21 @@ export function createGraph({ userId, token, version }) {
       return { usage: data?.[0]?.quota_usage ?? 0, total: data?.[0]?.config?.quota_total ?? null };
     },
 
-    async createImage(imageUrl, { carouselItem = false, caption } = {}) {
+    // userTags : [{ username, x, y }] — mentions posées sur l'image, invisibles dans le texte
+    async createImage(imageUrl, { carouselItem = false, caption, userTags } = {}) {
       const params = { image_url: imageUrl };
       if (carouselItem) params.is_carousel_item = 'true';
       if (caption) params.caption = caption;
+      if (userTags?.length) params.user_tags = JSON.stringify(userTags);
       const { id } = await call('POST', `${userId}/media`, params);
       return id;
     },
 
-    async createCarousel(children, caption) {
-      const { id } = await call('POST', `${userId}/media`, {
-        media_type: 'CAROUSEL',
-        children: children.join(','),
-        caption,
-      });
+    // locationId : identifiant de lieu Facebook (forme longue) porté par le carrousel lui-même
+    async createCarousel(children, caption, { locationId } = {}) {
+      const params = { media_type: 'CAROUSEL', children: children.join(','), caption };
+      if (locationId) params.location_id = String(locationId);
+      const { id } = await call('POST', `${userId}/media`, params);
       return id;
     },
 

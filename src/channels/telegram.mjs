@@ -83,15 +83,20 @@ export async function sendDocument(buffer, filename, caption = '') {
 }
 
 // Story envoyée en document (pas de recompression) : le sticker lien se pose à la main
-export async function sendStory({ buffer, url, title, link }) {
+export async function sendStory({ buffer, url, title, link, comptes = [], lieu = null }) {
   const c = config();
   if (!c) {
     console.log(`Story à poster à la main : ${url}\n  Sticker lien : ${link}`);
     return;
   }
+  // un élément par ligne, chacun se copie d'une seule touche
+  const extras = [
+    ...comptes.map((h) => `👤 Compte à mentionner : @${h}`),
+    lieu ? `📍 Lieu à taguer : ${lieu}` : null,
+  ].filter(Boolean);
   const form = new FormData();
   form.append('chat_id', c.chat);
-  form.append('caption', `📲 Story à poster\n${title}\n\n🔗 Sticker lien : ${link}`);
+  form.append('caption', [`📲 Story à poster`, title, '', `🔗 Sticker lien : ${link}`, ...extras].join('\n'));
   form.append('document', new Blob([buffer], { type: 'image/jpeg' }), 'story.jpg');
   await call('sendDocument', form);
 }

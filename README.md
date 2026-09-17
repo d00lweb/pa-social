@@ -94,6 +94,30 @@ Format décidé par l'utilisateur le 15/09/2026, sur le modèle des posts du Fig
 
 Variante du visuel sans le logo Ouest-France : `"hideOuestFrance": true` dans `config/channels.json`.
 
+### Mentions de comptes et localisation
+
+**Principe : le texte ne porte jamais une liste de comptes.** Une mention n'apparaît dans un texte que si elle remplace un nom déjà écrit (« la boulangerie @lamidupain17 ») ; sinon elle passe par un canal invisible, ou elle n'a pas lieu.
+
+| Réseau | Mentions | Localisation |
+|---|---|---|
+| Instagram | tag sur la 1ʳᵉ image du carrousel, invisible dans le texte | portée par le carrousel |
+| Bluesky | dans le texte, par substitution du nom, sinon aucune | impossible, la fonction n'existe pas |
+| X | comptes fournis dans le kit, tagués sur l'image (0 caractère) | lieu fourni dans le kit |
+| Threads | dans le texte, et seulement si le compte a un profil Threads | après autorisation Meta |
+| Facebook | premier commentaire, avec le lien | portée par le post |
+
+**Comment un compte est trouvé** (`src/brain/comptes.mjs`), sans annuaire figé et sans rien deviner :
+
+1. l'IA fournit des **noms d'entités**, jamais des pseudos (`entites`, avec un rôle : sujet, acteur, tutelle, thème) ;
+2. la fiche Wikidata de l'entité donne ses comptes déclarés et son **site officiel** ; le site donne le pseudo réel, réseau par réseau (il diffère souvent : *danslenoirbordeaux* sur Facebook, *danslenoirgroup* sur Instagram) ;
+3. sur Bluesky, la recherche publique propose des comptes, et seuls ceux dont **tous les mots du nom** correspondent sont retenus, comparés en mots entiers (sans quoi « ami » se reconnaît dans « g**ami**ng », et une équipe d'e-sport se retrouve taguée) ;
+4. un compte de fans, une parodie ou un profil vide sont écartés ; sur Threads, la présence d'un vrai profil est vérifiée ;
+5. deux comptes au maximum, le sujet avant le thème, **et zéro quand rien n'est sûr**.
+
+Si Meta refuse une mention (compte renommé ou passé en privé), la publication part sans elle : une mention n'empêche jamais un post.
+
+**Localisation** (`src/brain/lieux.mjs`) : lieu précis nommé → ville → département → rien. Meta n'accepte que les identifiants longs (13 chiffres et plus) ; les identifiants courts hérités de l'ancien Instagram sont systématiquement refusés. Les villes viennent de Wikidata, les départements de `config/lieux.json`.
+
 ### Publication automatique (décision du 15/09/2026)
 
 **Aucune validation manuelle.** Instagram, Bluesky et tous les réseaux ajoutés ensuite publient automatiquement (`"validation": false` dans `config/channels.json`). Telegram ne reçoit plus que :
@@ -470,5 +494,6 @@ Dépendances : `fast-xml-parser`, `sharp`, `playwright`, `basic-ftp`. Node 24, E
 | 15/09/2026 | Charte v4, décisions utilisateur : X en image 4:5 (1080×1350) + texte + « ➡️ lien » à la ligne ; au moins un emoji stratégique dans chaque texte de chaque réseau (choisi selon le sujet, placement varié, non répété, sobre si sujet sensible). |
 | 15/09/2026 | Charte v5 : placement de l'emoji imposé par réseau, en rotation. Étape 6 : canal Bluesky livré (carte de lien 1200×627 ou image 4:5 + lien, hashtag cliquable, validation Telegram, coupe-circuit), inactif tant que les identifiants manquent. |
 | 15/09/2026 | Bluesky en production (identifiant certifié @passion-aquitaine.ouest-france.fr). Publication automatique sur tous les réseaux, sans validation ; Telegram limité au kit X, à la story Instagram et aux alertes. |
+| 17/09/2026 | Mentions de comptes et localisation : l'IA fournit des noms d'entités, les comptes viennent de Wikidata puis du site officiel, et sont vérifiés avant publication (mots entiers, écart des comptes de fans et des homonymes). Tags invisibles sur l'image Instagram, lieu sur le carrousel (lieu précis → ville → département), mention par substitution du nom sur Bluesky, comptes et lieu fournis dans le kit X et la story. |
 | 17/09/2026 | Rotation de 3 formats sur Bluesky (carte de lien · image + lien · image avec lien en réponse) et sur le kit X (image + lien · lien seul · image avec lien en réponse), formule avant le lien tournante par article et par réseau. Le kit Telegram donne un champ copiable par élément. |
 | 17/09/2026 | Relance manuelle d'un ancien article : champ « Relancer un ancien article » au déclenchement du workflow (mots du titre ou adresse), l'âge de 24 h est ignoré, les règles anti-bannissement restent appliquées. |

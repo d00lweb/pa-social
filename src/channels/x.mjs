@@ -92,7 +92,15 @@ export function kitMessage(pkg) {
     `<code>${esc(pkg.text)}</code>`,
   ];
   if (pkg.replyText) lignes.push('', '<b>Réponse</b> (à publier juste après, touche pour copier) :', `<code>${esc(pkg.replyText)}</code>`);
+
+  // un champ par élément : chacun se copie séparément
+  const comptes = pkg.dossier?.comptes?.x ?? [];
+  for (const c of comptes.slice(0, 2)) lignes.push('', `<b>Compte à taguer sur l’image</b> (${esc(c.nom)}) :`, `<code>@${esc(c.handle)}</code>`);
+  const lieu = pkg.dossier?.lieu;
+  if (lieu) lignes.push('', '<b>Lieu à taguer</b> :', `<code>${esc(lieu.nom)}</code>`);
+
   lignes.push('', CONSIGNES[mode] ?? '');
+  if (comptes.length) lignes.push('Les comptes se taguent sur l’image : ils ne comptent pas dans les 280 caractères.');
   return lignes.join('\n');
 }
 

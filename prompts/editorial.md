@@ -37,7 +37,7 @@ Chaque texte suit l'angle imposé pour son réseau. Les cinq textes sont réelle
 - `instagram.texte` : une première ligne de 125 caractères maximum qui arrête le défilement (Instagram masque la suite derrière « plus »), puis 1 à 3 phrases qui donnent envie de lire l'article, avec les mots-clés du sujet et du lieu (recherche Instagram). Ni lien ni hashtag dans le texte.
 - `instagram.hashtags` : exactement 3 hashtags pertinents en CamelCase (lieu, sujet, thème), par exemple `#Bordeaux #Matrimoine #Histoire`. Aucun hashtag générique (#news, #actu, #instagood).
 - `facebook.texte` : **120 caractères maximum**, pour être lu en entier sans « Voir plus » sur mobile. Une ou deux phrases courtes, ton chaleureux qui invite au commentaire sans appât (« Vous connaissiez ce lieu ? »). Ni lien ni hashtag.
-- `bluesky.texte` : 150 à 260 caractères, style média informatif qui intrigue, sans lien, sans hashtag dans le texte. `bluesky.hashtag` : un hashtag de lieu (de sujet si l'article est hors région).
+- `bluesky.texte` : 150 à 260 caractères, style média informatif qui intrigue, sans lien, sans hashtag dans le texte. `bluesky.hashtag` : un hashtag de lieu (de sujet si l'article est hors région). **Le mot du hashtag doit figurer dans le texte, écrit normalement** (« … les abeilles de Haute-Vienne forment une boule… » pour `#HauteVienne`) : le programme le transforme en hashtag à cet endroit. Écris-le exactement comme dans le hashtag, sans le couper.
 - `threads.texte` : 450 caractères maximum, ton conversationnel, peut finir par une question ouverte (jamais si sensible). Ni lien ni hashtag. `threads.sujet` : le sujet Threads, sans #, 1 à 3 mots, sans point ni « & », de préférence le lieu ou le thème recherché (« Bordeaux », « Pays basque », « Patrimoine »).
 - `x.texte` : 230 caractères maximum, autonome et percutant, compréhensible sans cliquer. Ni lien ni hashtag.
 
@@ -67,6 +67,8 @@ Aucun texte ne doit dépasser sa limite : il serait coupé par le réseau.
 - **Sujet sensible :** un seul emoji sobre parmi 📍 🗞️ 📰 ℹ️.
 
 ## Style
+
+**Formule bannie partout :** « Le saviez-vous », « Saviez-vous que », et toute variante de ce type. Entre directement dans le fait, sans préambule.
 
 Français impeccable, phrases courtes, verbes actifs. « Viral » veut dire curiosité, émotion juste, bénéfice pour le lecteur. Jamais : « vous ne devinerez jamais », « incroyable », majuscules criées, points d'exclamation en série.
 

@@ -4,7 +4,7 @@ import { GuardError, DeferError } from './core/errors.mjs';
 import { loadHistory, saveHistory, loadQueue, saveQueue, loadJson, saveJson, hasPublished, lastPublishedAt } from './core/state.mjs';
 import { planDueAt, recheck, jitter } from './core/scheduler.mjs';
 import { NETWORKS, NAMES, shortId, parseCommand, defaultControls, isPaused, needsValidation, targets, applyDecision } from './core/control.mjs';
-import { fetchItems } from './sources/rss.mjs';
+import { fetchItems, matchArticle } from './sources/rss.mjs';
 import { buildDossier } from './brain/dossier.mjs';
 import { loadMemory, saveMemory, remember } from './brain/memory.mjs';
 import { alert, telegramEnabled, send, sendPhotos, getUpdates, answerCallback, clearButtons } from './channels/telegram.mjs';
@@ -177,8 +177,9 @@ async function handleTelegram(ctx) {
 // ── Planification, aperçus, publication ──
 
 // Nouveaux articles → dossier éditorial (une fois) → file, avec une heure prévue par canal
-async function plan(items, { history, queue, memory, controls, now }) {
-  const fresh = items.filter((a) => now - a.date <= config.maxAgeHours * HOUR).sort((a, b) => a.date - b.date);
+// forcedGuid : article relancé à la main, quel que soit son âge, publié dès que les règles le permettent
+async function plan(items, { history, queue, memory, controls, now, forcedGuid }) {
+  const fresh = items.filter((a) => a.guid === forcedGuid || now - a.date <= config.maxAgeHours * HOUR).sort((a, b) => a.date - b.date);
   for (const article of fresh) {
     const channels = enabledChannels().filter((c) => !hasPublished(history, article.guid, c.id) && !queue.some((q) => q.guid === article.guid && q.channel === c.id));
     if (!channels.length) continue;
@@ -186,7 +187,7 @@ async function plan(items, { history, queue, memory, controls, now }) {
     remember(memory, dossier, ed.networks, ed.memorySize);
     for (const channel of channels) {
       const lastPlannedAt = Math.max(0, ...queue.filter((q) => q.channel === channel.id && OPEN.includes(q.status)).map((q) => q.dueAt));
-      const dueAt = planDueAt({ now, lastAt: lastPublishedAt(history, channel.id), lastPlannedAt, channel, timeZone: TZ });
+      const dueAt = article.guid === forcedGuid ? now : planDueAt({ now, lastAt: lastPublishedAt(history, channel.id), lastPlannedAt, channel, timeZone: TZ });
       const status = telegramEnabled() && needsValidation(controls, channel) ? 'awaiting' : 'pending';
       queue.push({ guid: article.guid, channel: channel.id, dueAt, status, attempts: 0, article, dossier, previewSent: false });
       console.log(`Planifié ${channel.id} (${status}) : ${article.title} → ${paris(dueAt)} [${dossier.source}]`);
@@ -320,6 +321,16 @@ async function main() {
   controls.paused ??= {};
   controls.validation ??= {};
   const ctx = { now: Date.now(), history, queue, memory, controls, tg };
+
+  // RELANCE=mots du titre : remet un ancien article dans la file (déclenchement manuel du workflow)
+  const relance = process.env.RELANCE?.trim();
+  if (relance) {
+    const forced = matchArticle(items, relance);
+    if (!forced) throw new Error(`Relance : aucun article du flux ne correspond à « ${relance} »`);
+    ctx.forcedGuid = forced.guid;
+    console.log(`Relance : ${forced.title} (article du ${paris(forced.date)})`);
+  }
+
   let failed = 0;
   try {
     await handleTelegram(ctx);

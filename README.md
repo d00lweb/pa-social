@@ -324,6 +324,7 @@ Variables de test : `DRY_RUN=1` (rendu + FTP, sans Instagram ni Telegram ni éta
 | Réactiver | recréer `PUBLISH_ENABLED` = `true` |
 | Publier tout de suite (respecte les règles) | Actions → Publication Instagram → Run workflow (case décochée) |
 | Tester sans publier sur GitHub | Run workflow avec « Test à blanc » cochée |
+| Relancer un ancien article (plus de 24 h) | Run workflow, champ « Relancer un ancien article » : mots du titre (`abeilles`), ou l'adresse de l'article. Il est mis en file pour tous les réseaux non encore publiés, dès que les règles d'écart et d'heures creuses le permettent |
 | Vérifier les déclenchements o2switch | lire `~/pa-social-cron.log` (lignes `204`) |
 | Voir ce qu'une exécution a fait | Actions → exécution → étape « Publier » |
 | Republier un article déjà publié | retirer son entrée de `state/published.json`, committer (attention au doublon Instagram) |
@@ -466,3 +467,4 @@ Dépendances : `fast-xml-parser`, `sharp`, `playwright`, `basic-ftp`. Node 24, E
 | 15/09/2026 | Charte v4, décisions utilisateur : X en image 4:5 (1080×1350) + texte + « ➡️ lien » à la ligne ; au moins un emoji stratégique dans chaque texte de chaque réseau (choisi selon le sujet, placement varié, non répété, sobre si sujet sensible). |
 | 15/09/2026 | Charte v5 : placement de l'emoji imposé par réseau, en rotation. Étape 6 : canal Bluesky livré (carte de lien 1200×627 ou image 4:5 + lien, hashtag cliquable, validation Telegram, coupe-circuit), inactif tant que les identifiants manquent. |
 | 15/09/2026 | Bluesky en production (identifiant certifié @passion-aquitaine.ouest-france.fr). Publication automatique sur tous les réseaux, sans validation ; Telegram limité au kit X, à la story Instagram et aux alertes. |
+| 17/09/2026 | Relance manuelle d'un ancien article : champ « Relancer un ancien article » au déclenchement du workflow (mots du titre ou adresse), l'âge de 24 h est ignoré, les règles anti-bannissement restent appliquées. |

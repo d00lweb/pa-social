@@ -64,6 +64,18 @@ function pickImage(item) {
   return image?.['@_url'] ?? null;
 }
 
+const fold = (s) => s.normalize('NFD').replace(/\p{Diacritic}/gu, '').replace(/[’'-]/g, ' ').toLowerCase();
+
+// Relance manuelle : retrouve un article du flux par identifiant, lien, ou mots du titre
+export function matchArticle(items, term) {
+  const raw = String(term ?? '').trim();
+  const words = fold(raw).split(/\s+/).filter(Boolean);
+  if (!words.length) return null;
+  const exact = items.find((a) => a.guid === raw || a.link === raw);
+  if (exact) return exact;
+  return items.filter((a) => words.every((w) => fold(a.title).includes(w))).sort((a, b) => b.date - a.date)[0] ?? null;
+}
+
 export async function fetchItems(url) {
   const res = await fetch(url, { headers: { 'User-Agent': UA } });
   if (!res.ok) throw new Error(`Flux RSS ${res.status} : ${url}`);

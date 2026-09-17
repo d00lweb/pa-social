@@ -9,6 +9,10 @@ on:
         description: 'Test à blanc (images + FTP, sans publier)'
         type: boolean
         default: false
+      relance:
+        description: "Relancer un ancien article : mots du titre (ex. : abeilles)"
+        type: string
+        default: ''
 
 permissions:
   contents: write
@@ -56,6 +60,7 @@ jobs:
       - name: Publier
         env:
           DRY_RUN: ${{ inputs.dry_run && '1' || '' }}
+          RELANCE: ${{ inputs.relance }}
         run: node --env-file=.env src/index.mjs
 
       # always() : l'état est poussé même si une étape après publication échoue

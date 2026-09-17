@@ -42,5 +42,79 @@
       "description": "Le mot matrimoine, plus vieux que patrimoine, resurgit à Bordeaux depuis plusieurs années. Origine, histoire et festivals."
     },
     "previewSent": true
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35561",
+    "channel": "facebook",
+    "dueAt": 1789713110653,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Le brunch le plus généreux de Bordeaux a rouvert ses portes",
+      "link": "https://passion-aquitaine.ouest-france.fr/reouverture-brunch-sans-pression-bordeaux/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35561",
+      "pubDate": "Thu, 17 Sep 2026 14:17:57 +0000",
+      "date": 1789654677000,
+      "categories": [
+        "Actus",
+        "Bordeaux",
+        "Restaurants"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/09/sans-pression-bordeaux.jpg",
+      "description": "Fermé pour travaux, le brunch gargantuesque du Sans Pression a rouvert à Bordeaux le 12 septembre, avec un tarif revu."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Bordeaux",
+      "entites": [],
+      "lieu": {
+        "id": "115838035093755",
+        "nom": "Bordeaux",
+        "niveau": "departement"
+      },
+      "visuel": {
+        "titre": "Le brunch le plus généreux de Bordeaux a rouvert ses portes",
+        "surlignage": "portes",
+        "description": "Fermé pour travaux, le brunch gargantuesque du Sans Pression a rouvert à Bordeaux le 12 septembre, avec un tarif revu.",
+        "texte_alternatif": "Bordeaux : Le brunch le plus généreux de Bordeaux a rouvert ses portes"
+      },
+      "instagram": {
+        "texte": "Fermé pour travaux, le brunch gargantuesque du Sans Pression a rouvert à Bordeaux le 12 septembre, avec un tarif revu 📍",
+        "hashtags": [
+          "#Bordeaux",
+          "#NouvelleAquitaine",
+          "#Decouverte"
+        ]
+      },
+      "facebook": {
+        "texte": "Le brunch le plus généreux de Bordeaux a rouvert ses portes 📍"
+      },
+      "bluesky": {
+        "texte": "Fermé pour travaux, le brunch gargantuesque du Sans Pression a rouvert à Bordeaux le 12 septembre, avec un tarif revu 📍",
+        "hashtag": "#Bordeaux"
+      },
+      "threads": {
+        "texte": "Fermé pour travaux, le brunch gargantuesque du Sans Pression a rouvert à Bordeaux le 12 septembre, avec un tarif revu 📍",
+        "sujet": "Bordeaux"
+      },
+      "x": {
+        "texte": "Le brunch le plus généreux de Bordeaux a rouvert ses portes 📍"
+      },
+      "source": "regles",
+      "lieuSource": {
+        "precis": "",
+        "ville": "",
+        "departement": "Bordeaux"
+      },
+      "comptes": {
+        "instagram": [],
+        "x": [],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
   }
 ]

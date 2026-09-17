@@ -15,8 +15,9 @@ import * as instagram from './channels/instagram.mjs';
 import * as x from './channels/x.mjs';
 import * as bluesky from './channels/bluesky.mjs';
 import * as facebook from './channels/facebook.mjs';
+import * as threads from './channels/threads.mjs';
 
-const CHANNELS = { instagram, x, bluesky, facebook };
+const CHANNELS = { instagram, x, bluesky, facebook, threads };
 const DEFAULT_RSS = 'https://passion-aquitaine.ouest-france.fr/feed/';
 const HOUR = 3600e3;
 const TZ = config.timezone;

@@ -105,6 +105,17 @@ Page Passion Aquitaine, **inactif tant que `FB_PAGE_ID` et `FB_TOKEN` ne sont pa
 - **Rythme** : un post par jour au plus (écart de 20 à 26 h), jamais entre 22 h et 8 h — la montée en charge se règle en abaissant `gapHours`.
 - **Mentions** : reportées. Facebook exige l'identifiant numérique de la page mentionnée, que notre application ne peut pas encore lire.
 
+### Threads (`src/channels/threads.mjs`)
+
+Compte `@lovaquitaine`, **inactif tant que `THREADS_USER_ID` et `THREADS_TOKEN` ne sont pas renseignés**. Publication en deux temps : un conteneur, 30 secondes d'attente (recommandation de Meta), puis la publication.
+
+- **Rotation de 3 formats** : image 4:5 + lien dans le texte · lien seul, avec l'aperçu natif de l'article · image dont le lien part **en réponse** à notre propre post, 1 à 3 minutes après.
+- **500 caractères maximum**, un sujet Threads (`topic_tag`), texte alternatif sur l'image.
+- **Mentions** : seulement en remplaçant un nom déjà écrit, et seulement si le compte possède un vrai profil Threads — sinon un @ n'est que du texte mort.
+- **3 publications par jour au plus**, 2 h 30 à 4 h d'écart, jamais entre 22 h et 8 h.
+- Si la réponse échoue, le post reste en ligne et une alerte Telegram le signale : la publication n'est jamais rejouée.
+- **Jeton à durée de vie limitée** : 60 jours, renouvelable par `npm run threads:refresh`. Passé ce délai sans renouvellement, il est perdu et il faut réautoriser l'application.
+
 ### Mentions de comptes et localisation
 
 **Principe : le texte ne porte jamais une liste de comptes.** Une mention n'apparaît dans un texte que si elle remplace un nom déjà écrit (« la boulangerie @lamidupain17 ») ; sinon elle passe par un canal invisible, ou elle n'a pas lieu.
@@ -356,6 +367,8 @@ Modèle : `.env.example`. Le même contenu est stocké dans le secret GitHub `SO
 | `BLUESKY_APP_PASSWORD` | Mot de passe d'application | App Bluesky → Réglages → Confidentialité et sécurité → Mots de passe d'application |
 | `FB_PAGE_ID` | Id de la Page Facebook | `227437307428711` |
 | `FB_TOKEN` | Token **de Page** avec `pages_manage_posts` et `pages_manage_engagement` | `GET /me/accounts?fields=name,access_token` avec le token utilisateur. Un token d'utilisateur est refusé : « Unpublished posts must be posted to a page as the page itself ». `npm run smoke:fb` affiche `type : PAGE` quand c'est le bon. |
+| `THREADS_USER_ID` | Id du compte Threads | `GET https://graph.threads.net/v1.0/me?fields=id,username` |
+| `THREADS_TOKEN` | Jeton Threads longue durée (60 jours, à rafraîchir) | App Meta « cas d'usage Threads » → autorisation → échange en jeton longue durée |
 | `TEST_IMAGE` | Image publique pour `smoke-ig.mjs` | une ou plusieurs URL, séparées par des virgules |
 
 Variables de test : `DRY_RUN=1` (rendu + FTP, sans Instagram ni Telegram ni état) et `DRY_RUN_LATEST=n` (avec `DRY_RUN`, traite les n derniers articles du flux).
@@ -388,6 +401,8 @@ npm run preview                       # planches d'aperçu out/preview-*.jpg des
 npm run preview -- --latest=6         # idem sur les 6 derniers articles du flux
 npm run fixtures                      # régénère tests/fixtures/articles.json depuis le flux
 npm run smoke:fb                      # jeton Facebook : Page, permissions, brouillon accepté — sans rien publier
+npm run smoke:threads                 # jeton Threads : profil, conteneur accepté — sans rien publier
+npm run threads:refresh -- --ecrire   # prolonge le jeton Threads de 60 jours et l'écrit dans .env
 ```
 
 La file d'attente se lit dans `state/queue.json` : heure prévue (`dueAt`), statut `pending` (en attente), `blocked` (garde-fou) ou `failed` (3 essais échoués), dernière erreur. Les entrées bloquées ou en échec sont effacées après 7 jours.
@@ -516,6 +531,7 @@ Dépendances : `fast-xml-parser`, `sharp`, `playwright`, `basic-ftp`. Node 24, E
 | 15/09/2026 | Charte v4, décisions utilisateur : X en image 4:5 (1080×1350) + texte + « ➡️ lien » à la ligne ; au moins un emoji stratégique dans chaque texte de chaque réseau (choisi selon le sujet, placement varié, non répété, sobre si sujet sensible). |
 | 15/09/2026 | Charte v5 : placement de l'emoji imposé par réseau, en rotation. Étape 6 : canal Bluesky livré (carte de lien 1200×627 ou image 4:5 + lien, hashtag cliquable, validation Telegram, coupe-circuit), inactif tant que les identifiants manquent. |
 | 15/09/2026 | Bluesky en production (identifiant certifié @passion-aquitaine.ouest-france.fr). Publication automatique sur tous les réseaux, sans validation ; Telegram limité au kit X, à la story Instagram et aux alertes. |
+| 17/09/2026 | Étape 8 : canal Threads livré (rotation de 3 formats, sujet, texte alternatif, lien en réponse, mentions vérifiées, 3 posts par jour). Renouvellement du jeton outillé. Inactif tant que le jeton n'est pas fourni. |
 | 17/09/2026 | Plafond quotidien par réseau (Instagram 2, Facebook 2, Bluesky 3, kit X 3) et réserve : le surplus reste en file et part au premier créneau du lendemain. Facebook passe à 2 posts par jour espacés de 3 h minimum. |
 | 17/09/2026 | Étape 7 : canal Facebook livré (image 4:5, texte sans lien, URL en premier commentaire 1 à 3 min après, lieu, 1 post par jour). Inactif tant que le jeton de Page n'est pas fourni. |
 | 17/09/2026 | **Publication en double corrigée.** Une exécution mise en file d'attente repartait du dépôt tel qu'il était à son déclenchement (`actions/checkout` se cale sur la révision d'origine) : elle ne voyait pas les publications faites entre-temps et les refaisait, puis échouait à enregistrer son état sur un conflit. Désormais l'état publié est repris juste avant de publier, l'enregistrement fusionne les historiques au lieu de les écraser (`scripts/fusion-etat.mjs`, 3 tentatives), et le cron GitHub passe à une fois par heure pour ne plus croiser celui d'o2switch. |

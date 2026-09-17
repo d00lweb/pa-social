@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-17T21:20:35.618Z",
+  "genereLe": "2026-09-17T21:27:34.609Z",
   "jour": "2026-09-17",
   "reseaux": {
     "instagram": {
@@ -38,92 +38,7 @@
       "dernier": "2026-09-17T15:13:30.308Z"
     }
   },
-  "derniers": [
-    {
-      "channel": "x",
-      "at": "2026-09-17T15:13:30.308Z",
-      "titre": "Le brunch le plus généreux de Bordeaux a rouvert ses portes",
-      "lien": "https://passion-aquitaine.ouest-france.fr/reouverture-brunch-sans-pression-bordeaux/",
-      "mediaId": "kit-telegram"
-    },
-    {
-      "channel": "bluesky",
-      "at": "2026-09-17T15:13:20.878Z",
-      "titre": "Le brunch le plus généreux de Bordeaux a rouvert ses portes",
-      "lien": "https://passion-aquitaine.ouest-france.fr/reouverture-brunch-sans-pression-bordeaux/",
-      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mvpwwpo2ki2n"
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-09-17T15:05:35.965Z",
-      "titre": "Le brunch le plus généreux de Bordeaux a rouvert ses portes",
-      "lien": "https://passion-aquitaine.ouest-france.fr/reouverture-brunch-sans-pression-bordeaux/",
-      "mediaId": "18071283440738292"
-    },
-    {
-      "channel": "x",
-      "at": "2026-09-17T08:02:14.425Z",
-      "titre": "https://passion-aquitaine.ouest-france.fr/?p=35494",
-      "lien": null,
-      "mediaId": "kit-telegram"
-    },
-    {
-      "channel": "bluesky",
-      "at": "2026-09-17T08:02:06.919Z",
-      "titre": "https://passion-aquitaine.ouest-france.fr/?p=35494",
-      "lien": null,
-      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mvp6tmjsh52c"
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-09-17T07:53:48.379Z",
-      "titre": "https://passion-aquitaine.ouest-france.fr/?p=35494",
-      "lien": null,
-      "mediaId": "18074225591450394"
-    },
-    {
-      "channel": "x",
-      "at": "2026-09-16T18:08:54.370Z",
-      "titre": "https://passion-aquitaine.ouest-france.fr/?p=35578",
-      "lien": null,
-      "mediaId": "kit-telegram"
-    },
-    {
-      "channel": "bluesky",
-      "at": "2026-09-16T18:08:45.055Z",
-      "titre": "https://passion-aquitaine.ouest-france.fr/?p=35578",
-      "lien": null,
-      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mvnqbgmplk2n"
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-09-16T18:08:32.309Z",
-      "titre": "https://passion-aquitaine.ouest-france.fr/?p=35578",
-      "lien": null,
-      "mediaId": "18055799816797673"
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-09-16T07:09:13.776Z",
-      "titre": "https://passion-aquitaine.ouest-france.fr/?p=35377",
-      "lien": null,
-      "mediaId": "18114343033806183"
-    },
-    {
-      "channel": "x",
-      "at": "2026-09-16T06:21:32.212Z",
-      "titre": "https://passion-aquitaine.ouest-france.fr/?p=35377",
-      "lien": null,
-      "mediaId": "kit-telegram"
-    },
-    {
-      "channel": "bluesky",
-      "at": "2026-09-16T06:21:28.154Z",
-      "titre": "https://passion-aquitaine.ouest-france.fr/?p=35377",
-      "lien": null,
-      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mvmiqoystk23"
-    }
-  ],
+  "articles": [],
   "file": [
     {
       "channel": "threads",

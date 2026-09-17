@@ -223,16 +223,12 @@
     <div class="sec-head">
       <h2>En direct</h2>
       <p class="hint" id="live-stamp">Chargement de l'état du robot…</p>
+      <p class="hint" id="live-mesures"></p>
     </div>
     <div class="rows" id="live-alertes" hidden></div>
     <div class="nets" id="live-nets"></div>
     <div class="sec-head" style="margin-top:26px"><h2>Prochaines publications</h2></div>
     <div class="rows" id="live-file"><div class="row"><div>Chargement…</div></div></div>
-    <div class="sec-head" style="margin-top:26px">
-      <h2>Dernières publications</h2>
-      <p class="hint" id="live-mesures"></p>
-    </div>
-    <div class="rows" id="live-derniers"></div>
     <div class="sec-head" style="margin-top:26px">
       <h2>Rapports mensuels</h2>
       <p class="hint">Bilan par réseau, par format et par créneau. Les conseils ne sont jamais appliqués sans ta validation.</p>
@@ -334,8 +330,8 @@
   <!-- Aperçus par réseau (données : out/preview-data.js, généré par npm run preview) -->
   <section id="apercus">
     <div class="sec-head">
-      <h2>Aperçus par réseau</h2>
-      <p class="hint" id="pv-stamp">Généré par <code>npm run preview -- --latest=6</code></p>
+      <h2>Ce qui a été publié</h2>
+      <p class="hint" id="pv-stamp">Tes derniers articles, tels qu'ils sont partis sur chaque réseau</p>
     </div>
     <div class="pv-bar">
       <label class="pv-select"><span class="label">Article</span><select id="pv-article"></select></label>
@@ -350,27 +346,7 @@
     </div>
     <div id="pv-meta" class="pv-meta"></div>
     <div id="pv-grid" class="pv-grid"></div>
-    <p id="pv-empty" class="empty-box" hidden>Aucun aperçu sur ce poste. Lance <code>npm run preview -- --latest=6</code> (derniers articles du flux) ou <code>npm run preview</code> (articles de test), puis recharge la page.</p>
-  </section>
-
-  <!-- Feuille de route -->
-  <section>
-    <div class="sec-head">
-      <h2>Feuille de route</h2>
-      <p class="hint">Détail et tests d'acceptation dans <code>docs/ROADMAP.md</code></p>
-    </div>
-    <ol class="road">
-      <li class="done"><div class="bar"></div><b>1 · Socle</b><span>Planification, tests</span></li>
-      <li class="done"><div class="bar"></div><b>2 · IA</b><span>Textes, rubriques, légende</span></li>
-      <li class="done"><div class="bar"></div><b>3 · Telegram</b><span>Aperçus, validation</span></li>
-      <li class="done"><div class="bar"></div><b>4 · Liens</b><span>Annulée : URL réelle</span></li>
-      <li class="done"><div class="bar"></div><b>5 · Kit X</b><span>Publication manuelle</span></li>
-      <li class="done"><div class="bar"></div><b>6 · Bluesky</b><span>En production</span></li>
-      <li class="done"><div class="bar"></div><b>7 · Facebook</b><span>En production</span></li>
-      <li class="done"><div class="bar"></div><b>8 · Threads</b><span>En production</span></li>
-      <li><div class="bar"></div><b>9 · Mesure</b><span>Rapport hebdo</span></li>
-      <li><div class="bar"></div><b>10 · Plus</b><span>Vidéo, recyclage</span></li>
-    </ol>
+    <p id="pv-empty" class="empty-box" hidden>Les aperçus apparaîtront dès la prochaine publication : ils sont capturés au moment où chaque post part.</p>
   </section>
 
   <!-- Anti-bannissement -->
@@ -383,25 +359,13 @@
       <div><b>Heures imprévisibles</b><span>Écart 3 h – 4 h 30 tiré au hasard, décalage 5–40 min, reprise du matin variable, attente 0–9 min au moment de publier</span></div>
       <div><b>Textes jamais identiques</b><span>Angles en rotation, tournures reprises refusées, questions limitées, formules d'appât interdites</span></div>
       <div><b>Coupe-circuit</b><span>Limite ou restriction signalée par le réseau : pause automatique + alerte, reprise avec <code>/reprise</code></span></div>
-      <div><b>API officielles seulement</b><span>Aucun like, abonnement ou réponse automatique ; 6 posts max par 24 h</span></div>
+      <div><b>API officielles seulement</b><span>Aucun like, abonnement ou réponse automatique · plafond quotidien par réseau : Instagram 2, Facebook 2, Bluesky 3, Threads 3, kit X 3</span></div>
       <div class="human"><b>Ta part</b><span>Ouvrir les apps régulièrement, répondre aux commentaires, publier parfois à la main (story, coulisses), double authentification</span></div>
     </div>
   </section>
 
   <!-- Pilotage -->
   <div class="duo">
-    <div class="card">
-      <h3>Quand chaque réseau se connecte</h3>
-      <div class="rows">
-        <div class="row"><div>Instagram<small>Publication automatique active</small></div><span class="when" style="color:var(--live)">Depuis le 15/09</span></div>
-        <div class="row"><div>Validation par Telegram<small>Supprimée : tout publie automatiquement, Telegram reçoit le kit X, la story et les alertes</small></div><span class="when">Désactivée</span></div>
-        <div class="row"><div>Bluesky<small>Identifiant certifié @passion-aquitaine.ouest-france.fr</small></div><span class="when" style="color:var(--live)">Depuis le 15/09</span></div>
-        <div class="row"><div>X<small>Aucune API : kit prêt à publier sur Telegram</small></div><span class="when" style="color:var(--live)">Actif</span></div>
-        <div class="row"><div>Bluesky<small>Mot de passe d'application à créer</small></div><span class="when">Étape 6</span></div>
-        <div class="row"><div>Facebook<small>2 autorisations à ajouter à l'app Meta</small></div><span class="when">Étape 7</span></div>
-        <div class="row"><div>Threads<small>Cas d'usage Threads à ajouter à l'app Meta</small></div><span class="when">Étape 8</span></div>
-      </div>
-    </div>
     <div class="card">
       <h3>Piloter</h3>
       <div class="rows">
@@ -422,20 +386,52 @@
   </footer>
 
 </div>
-<script src="out/preview-data.js"></script>
 <script>
-(() => {
-  const data = window.PREVIEW;
+// Aperçus : ce qui a réellement été publié, lu dans le même instantané que la section « En direct ».
+(async () => {
+  const BASE = 'https://raw.githubusercontent.com/d00lweb/pa-social/main/state';
   const grid = document.getElementById('pv-grid');
   const select = document.getElementById('pv-article');
   const meta = document.getElementById('pv-meta');
-  if (!data || !data.articles?.length) {
+  const vide = () => {
     document.getElementById('pv-empty').hidden = false;
     document.querySelector('.pv-bar').hidden = true;
+  };
+
+  let etat;
+  try {
+    const r = await fetch(`${BASE}/pilotage.json?t=${Date.now()}`, { cache: 'no-store' });
+    etat = await r.json();
+  } catch {
+    vide();
     return;
   }
-  const bust = `?v=${Date.parse(data.generatedAt)}`;
-  document.getElementById('pv-stamp').textContent = `Aperçus générés le ${new Date(data.generatedAt).toLocaleString('fr-FR', { dateStyle: 'short', timeStyle: 'short' })} · npm run preview -- --latest=6 pour actualiser`;
+  if (!etat.articles?.length) { vide(); return; }
+
+  // L'instantané est traduit dans la forme attendue par le rendu, réseau par réseau
+  const data = {
+    articles: etat.articles.map((a) => {
+      const r = a.reseaux ?? {};
+      const image = r.instagram?.image ?? r.facebook?.image ?? r.threads?.image ?? r.x?.image ?? r.bluesky?.image ?? null;
+      const reseaux = {};
+      if (r.instagram) reseaux.instagram = { text: r.instagram.texte };
+      if (r.facebook) reseaux.facebook = { text: r.facebook.texte, comment: r.facebook.reponse ?? '' };
+      if (r.bluesky) reseaux.bluesky = { text: r.bluesky.texte, mode: r.bluesky.mode === 'card' ? 'card' : 'image' };
+      if (r.threads) reseaux.threads = { text: r.threads.texte, sujet: r.threads.sujet ?? '' };
+      if (r.x) reseaux.x = { text: r.x.texte };
+      return {
+        title: a.titre || a.guid,
+        link: a.lien ?? '#',
+        rubrique: new Date(a.at).toLocaleString('fr-FR', { dateStyle: 'short', timeStyle: 'short' }),
+        alt: a.titre ?? '',
+        images: { slide1: image, slide2: image, story: image, bluesky: r.bluesky?.image ?? image, x: r.x?.image ?? image },
+        networks: reseaux,
+      };
+    }),
+  };
+
+  const bust = '';
+  document.getElementById('pv-stamp').textContent = `Tes ${data.articles.length} derniers articles, tels qu'ils sont réellement partis · actualisé à chaque ouverture`;
   data.articles.forEach((a, i) => select.add(new Option(a.title, i)));
 
   const LIMITS = { instagram: 2200, facebook: 120, bluesky: 300, threads: 500, x: 280 };
@@ -498,7 +494,9 @@
       grid.innerHTML = '<p class="empty-box">Visuels non générés pour cet article (bloqué).</p>';
       return;
     }
-    const nets = net === 'all' ? Object.keys(renderers) : [net];
+    // seuls les réseaux sur lesquels l'article est réellement parti
+    const publies = Object.keys(renderers).filter((n) => a.networks[n]);
+    const nets = net === 'all' ? publies : publies.filter((n) => n === net);
     grid.classList.toggle('single', net !== 'all');
     grid.innerHTML = nets.map((n) => renderers[n](a)).join('');
   }
@@ -577,9 +575,6 @@
   $('live-file').innerHTML = etat.file?.length
     ? etat.file.map((f) => `<div class="row"><div>${esc(NOMS[f.channel] ?? f.channel)}<small>${esc(f.titre)}</small></div><span class="when">${quand(f.dueAt)}</span></div>`).join('')
     : '<div class="row"><div>Rien en attente<small>Le prochain article du flux sera planifié automatiquement</small></div></div>';
-
-  $('live-derniers').innerHTML = (etat.derniers ?? []).map((d) => `
-    <div class="row"><div>${esc(NOMS[d.channel] ?? d.channel)}<small>${esc(d.titre)}</small></div><span class="when">${quand(d.at)}</span></div>`).join('');
 
   const m = etat.mesures?.parReseau ?? {};
   const resume = Object.entries(m).map(([k, v]) => `${NOMS[k] ?? k} ${v.interactionsMoyennes}`).join(' · ');

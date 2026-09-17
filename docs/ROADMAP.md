@@ -244,11 +244,24 @@ Règles de conception :
 
 À lancer une fois les étapes 1 à 9 stables.
 
-- **Vidéo courte automatique** 9:16 (8–12 s, visuels animés + sous-titres) pour Reels Instagram et Facebook, Threads, Bluesky : la vidéo est le format le plus engageant sur Threads et Bluesky.
-- **Recyclage des articles intemporels** (`evergreen`) : republication espacée de plusieurs mois, avec de nouvelles accroches.
-- **File prioritaire « actu chaude »** : publication immédiate, hors créneau habituel (sauf nuit).
-- **Séries éditoriales** récurrentes (ex. « Le lieu secret de la semaine »), repérables et attendues.
-- **Story Instagram** avec sticker lien : kit Telegram enrichi.
+Quatre idées, expliquées simplement. Chacune est indépendante : on en prend une, deux, ou aucune.
+
+**1. Vidéo courte automatique (8 à 12 secondes)**
+Aujourd'hui nous publions des images fixes. Le programme fabriquerait une petite vidéo verticale à partir de la même photo : léger mouvement, titre qui apparaît, sous-titres. Publiée en Reel sur Instagram et Facebook, et en vidéo sur Threads et Bluesky.
+*Pourquoi :* la vidéo est le format le plus poussé par ces réseaux ; à contenu égal, elle est montrée à bien plus de monde.
+*Ce que ça coûte :* rien de plus en argent, mais chaque publication prend une minute de calcul supplémentaire.
+
+**2. Recyclage des articles intemporels**
+Certains articles ne périment pas : un château, une légende, une recette. Le programme les repère déjà (`nature: evergreen`). L'idée est de les republier six mois plus tard, avec un texte entièrement réécrit et un visuel différent, pour que personne ne voie de répétition.
+*Pourquoi :* le fonds d'articles travaille à la place du flux quotidien ; les jours creux ne sont plus vides.
+
+**3. File prioritaire pour l'actualité chaude**
+Quand un article est une vraie actualité (décision, événement, alerte), attendre le prochain créneau lui fait perdre son intérêt. Cette file le publierait tout de suite, en sautant l'écart habituel — jamais la nuit.
+*Pourquoi :* une information chaude publiée trois heures trop tard ne vaut plus rien.
+
+**4. Séries éditoriales récurrentes**
+Un rendez-vous fixe, par exemple « Le lieu secret du vendredi » : même habillage, même jour, même promesse. Le programme choisirait l'article qui correspond.
+*Pourquoi :* c'est ce qui transforme des lecteurs de passage en abonnés qui reviennent.
 
 ---
 

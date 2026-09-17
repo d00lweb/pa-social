@@ -12,6 +12,7 @@ import { collecter } from './measure/collect.mjs';
 import { diffuser } from './measure/diffusion.mjs';
 import { ecrire as ecrirePilotage } from './measure/pilotage.mjs';
 import { verifier as verifierJetons } from './measure/jetons.mjs';
+import { capturer as capturerApercu } from './measure/apercus.mjs';
 import { loadMemory, saveMemory, remember } from './brain/memory.mjs';
 import { alert, telegramEnabled, send, sendPhotos, getUpdates, answerCallback, clearButtons } from './channels/telegram.mjs';
 import { buildPreviewText, previewButtons, esc } from './channels/preview.mjs';
@@ -304,15 +305,18 @@ async function execute({ history, queue, memory, controls, now }) {
         await new Promise((r) => setTimeout(r, wait));
       }
       const { mediaId } = await impl.publish(pkg, { channel });
-      // format tiré et présence de mentions : c'est ce qui rend la mesure comparable d'un post à l'autre
+      // format tiré, mentions, et aperçu réel : c'est ce qui rend la mesure comparable
+      // d'un post à l'autre et ce que la page de pilotage affiche.
       history.push({
         guid: item.guid,
         channel: channel.id,
         at: new Date().toISOString(),
         mediaId,
         titre: item.article.title,
+        lien: item.article.link,
         format: pkg.mode ?? null,
         mention: (item.dossier.comptes?.[channel.id] ?? []).length > 0,
+        apercu: await capturerApercu(pkg, channel.id).catch(() => null),
       });
       queue.splice(queue.indexOf(item), 1);
       await Promise.all([saveHistory(history), saveQueue(queue)]);

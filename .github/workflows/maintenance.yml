@@ -1,0 +1,64 @@
+name: Entretien des jetons
+
+# Le jeton Threads vit 60 jours et meurt s'il n'est pas prolongé. Ce passage le prolonge
+# tous les 15 jours et réécrit le secret SOCIAL, pour qu'il n'y ait jamais rien à faire à la main.
+# Nécessite un secret GH_PAT : jeton GitHub restreint à ce dépôt, permission « Secrets : lecture et écriture ».
+on:
+  schedule:
+    - cron: '20 5 1,16 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pa-social-maintenance
+  cancel-in-progress: false
+
+jobs:
+  jetons:
+    if: vars.PUBLISH_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Préparer .env
+        env:
+          SOCIAL: ${{ secrets.SOCIAL }}
+        run: printf '%s\n' "$SOCIAL" > .env
+
+      - name: Prolonger le jeton Threads
+        id: threads
+        run: |
+          if node --env-file=.env scripts/refresh-threads.mjs --ecrire; then
+            echo "renouvele=oui" >> "$GITHUB_OUTPUT"
+          else
+            echo "renouvele=non" >> "$GITHUB_OUTPUT"
+            echo "::warning::Jeton Threads non renouvelé"
+          fi
+
+      # Le secret n'est réécrit que si le jeton a changé, et jamais affiché
+      - name: Mettre à jour le secret SOCIAL
+        if: steps.threads.outputs.renouvele == 'oui' && env.PAT != ''
+        env:
+          PAT: ${{ secrets.GH_PAT }}
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          gh secret set SOCIAL < .env
+          echo "Secret SOCIAL mis à jour."
+
+      - name: Avertir si la clé d'écriture manque
+        if: steps.threads.outputs.renouvele == 'oui' && env.PAT == ''
+        env:
+          PAT: ${{ secrets.GH_PAT }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        run: echo "::warning::Jeton prolongé mais secret non réécrit : ajoute le secret GH_PAT (permission Secrets en écriture)."
+
+      - name: Effacer les traces
+        if: always()
+        run: rm -f .env

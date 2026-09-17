@@ -37,17 +37,9 @@ export function construire({ history, queue, mesures = [], rapports = [], mainte
     }),
   );
 
-  // Les 12 dernières publications, la plus récente en tête
-  const derniers = [...history].slice(-12).reverse().map((e) => {
-    const enFile = queue.find((q) => q.guid === e.guid);
-    return {
-      channel: e.channel,
-      at: e.at,
-      titre: titre(enFile) || e.guid,
-      lien: enFile?.article?.link ?? null,
-      mediaId: e.mediaId ?? null,
-    };
-  });
+  // Les derniers articles réellement publiés, avec ce qui est parti sur chaque réseau :
+  // c'est ce que la page affiche en aperçu, à la place des anciennes planches de démonstration.
+  const articles = derniersArticles(history, 6);
 
   const file = queue
     .filter((q) => OUVERTS.includes(q.status))
@@ -63,13 +55,31 @@ export function construire({ history, queue, mesures = [], rapports = [], mainte
     genereLe: new Date(maintenant).toISOString(),
     jour: dayKey(maintenant, TZ),
     reseaux,
-    derniers,
+    articles,
     file,
     alertes,
     mesures: resume(mesures),
     rapports,
     jetons: jetons(),
   };
+}
+
+// Regroupe l'historique par article, du plus récent au plus ancien, avec l'aperçu de chaque réseau
+export function derniersArticles(history, combien = 6) {
+  const parArticle = new Map();
+  for (const e of history) {
+    if (!e.at) continue;
+    const a = parArticle.get(e.guid) ?? { guid: e.guid, titre: e.titre ?? '', lien: e.lien ?? null, at: e.at, reseaux: {} };
+    a.titre ||= e.titre ?? '';
+    a.lien ??= e.lien ?? null;
+    if (new Date(e.at) > new Date(a.at)) a.at = e.at;
+    if (e.apercu) a.reseaux[e.channel] = { ...e.apercu, publieLe: e.at };
+    parArticle.set(e.guid, a);
+  }
+  return [...parArticle.values()]
+    .filter((a) => Object.keys(a.reseaux).length)
+    .sort((x, y) => new Date(y.at) - new Date(x.at))
+    .slice(0, combien);
 }
 
 // Résumé léger : de quoi afficher un classement, pas toute la matière

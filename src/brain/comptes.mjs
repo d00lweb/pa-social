@@ -1,8 +1,21 @@
+import { readFileSync } from 'node:fs';
+import { fromRoot } from '../core/config.mjs';
 import { fiche } from '../sources/wikidata.mjs';
 import { handlesFromSite } from '../sources/site.mjs';
 import { chercheActeurs, profil } from '../sources/bsky-public.mjs';
 import { surThreads } from '../sources/threads.mjs';
-import { correspond, suspect, choisir } from './annuaire.mjs';
+import { correspond, suspect, choisir, fold } from './annuaire.mjs';
+
+// Dernier recours pour les collectivités de notre zone : certains sites chargent leurs réseaux
+// en JavaScript, donc ni la fiche ni le balayage ne les voient. Table courte et vérifiée.
+const { institutions = {} } = JSON.parse(readFileSync(fromRoot('config/comptes.json'), 'utf8'));
+const PREFIXE = /^(?:le\s+)?(?:département|departement|conseil départemental|conseil departemental)\s+(?:de\s+la\s+|de\s+l[’']|de\s+|des\s+|du\s+|d[’'])?/i;
+
+const depuisTable = (nom) => {
+  const cle = fold(String(nom).replace(PREFIXE, '').trim());
+  const trouvee = Object.keys(institutions).find((k) => fold(k) === cle);
+  return trouvee ? institutions[trouvee] : null;
+};
 
 // De « Musée d'Aquitaine » aux comptes réels, réseau par réseau.
 // Chaîne : fiche officielle → site de l'entité → vérification. Jamais de pseudo deviné.
@@ -11,9 +24,10 @@ import { correspond, suspect, choisir } from './annuaire.mjs';
 async function comptesMeta(entite) {
   const f = await fiche(entite.nom);
   const site = f?.site ? await handlesFromSite(f.site) : { insta: [], x: [], facebook: [] };
+  const table = depuisTable(entite.nom) ?? {};
   return {
-    instagram: f?.insta ?? site.insta[0] ?? null,
-    x: f?.x ?? site.x[0] ?? null,
+    instagram: f?.insta ?? site.insta[0] ?? table.instagram ?? null,
+    x: f?.x ?? site.x[0] ?? table.x ?? null,
     // Facebook : fiche officielle seulement. Un site cite souvent d'autres pages que la sienne
     // (bordeaux.fr renvoyait « bordeauxmaville », un site d'actualité) et l'erreur serait invisible.
     facebook: f?.facebook ?? null,

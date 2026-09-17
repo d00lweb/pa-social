@@ -22,10 +22,19 @@ export function extractHandles(html) {
   };
 }
 
-// Comptes affichés sur un site ; listes vides si le site est injoignable
+// Archives et encyclopédies : leurs pages affichent les comptes de l'institution qui les héberge,
+// pas ceux de l'entité. Une fiche pointant vers Gallica nous faisait taguer la BnF.
+const HEBERGEURS = /(?:^|\.)(?:gallica\.bnf\.fr|data\.bnf\.fr|archive\.org|wikipedia\.org|wikimedia\.org|persee\.fr|openstreetmap\.org)$/i;
+
+// Comptes affichés sur un site ; listes vides si le site est injoignable ou n'appartient pas à l'entité
 export async function handlesFromSite(url) {
   const vide = { insta: [], x: [], facebook: [] };
   if (!url) return vide;
+  try {
+    if (HEBERGEURS.test(new URL(url).hostname)) return vide;
+  } catch {
+    return vide;
+  }
   try {
     const res = await fetch(url, { headers: { 'User-Agent': UA }, redirect: 'follow', signal: AbortSignal.timeout(TIMEOUT) });
     if (!res.ok) return vide;

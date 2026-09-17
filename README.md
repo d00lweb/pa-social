@@ -114,6 +114,10 @@ Variante du visuel sans le logo Ouest-France : `"hideOuestFrance": true` dans `c
 4. un compte de fans, une parodie ou un profil vide sont écartés ; sur Threads, la présence d'un vrai profil est vérifiée ;
 5. deux comptes au maximum, le sujet avant le thème, **et zéro quand rien n'est sûr**.
 
+`config/comptes.json` ne sert qu'en dernier recours, pour les douze départements de notre zone : leurs sites chargent parfois leurs réseaux en JavaScript, invisibles au balayage. Ces comptes ont été relevés sur les sites officiels puis vérifiés par Meta. Tout le reste est trouvé dynamiquement — cette table complète la recherche, elle ne la remplace pas.
+
+Trois pièges rencontrés en conditions réelles, chacun devenu un test : « ami » se reconnaissait dans « g**ami**ng » (d'où une équipe d'e-sport taguée), « Ville de Bordeaux » désignait un cargo sur Wikidata, et « Département de la Gironde » menait à un journal du XIXᵉ numérisé par Gallica, dont les comptes appartiennent à la BnF.
+
 Si Meta refuse une mention (compte renommé ou passé en privé), la publication part sans elle : une mention n'empêche jamais un post.
 
 **Localisation** (`src/brain/lieux.mjs`) : lieu précis nommé → ville → département → rien. Meta n'accepte que les identifiants longs (13 chiffres et plus) ; les identifiants courts hérités de l'ancien Instagram sont systématiquement refusés. Les villes viennent de Wikidata, les départements de `config/lieux.json`.

@@ -1,0 +1,17 @@
+{
+  "_lecture": "Dernier recours pour les collectivités de notre zone, quand la fiche Wikidata et le site officiel ne donnent rien (certains sites chargent leurs réseaux en JavaScript). Ces comptes ont été trouvés sur les sites officiels et vérifiés par Meta le 17/09/2026. Tout le reste est trouvé dynamiquement : cette table ne remplace pas la recherche, elle la complète.",
+  "institutions": {
+    "Gironde": { "instagram": "departementgironde" },
+    "Landes": { "instagram": "departement_landes" },
+    "Dordogne": { "instagram": "cddordogne24", "x": "cddordogne" },
+    "Lot-et-Garonne": { "instagram": "lotetgaronneledepartement" },
+    "Pyrénées-Atlantiques": { "instagram": "departement64", "x": "departement64" },
+    "Charente": { "instagram": "departementcharente" },
+    "Charente-Maritime": { "instagram": "ma_charente_maritime", "x": "departement17" },
+    "Corrèze": { "instagram": "correzeledepartement" },
+    "Creuse": { "instagram": "departement_creuse" },
+    "Haute-Vienne": { "instagram": "hautevienne_dep" },
+    "Vienne": { "instagram": "departement86", "x": "departement86" },
+    "Deux-Sèvres": { "instagram": "deuxsevres79" }
+  }
+}

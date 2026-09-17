@@ -7,7 +7,12 @@ import { variantes } from '../src/sources/wikidata.mjs';
 test('fiche : le préfixe administratif est retiré, l’article conservé', () => {
   // « Ville de Bordeaux » désigne un cargo sur Wikidata, « Bordeaux » la ville et ses comptes
   assert.deepEqual(variantes('Ville de Bordeaux'), ['Ville de Bordeaux', 'Bordeaux']);
-  assert.deepEqual(variantes('Ville de La Rochelle'), ['Ville de La Rochelle', 'La Rochelle', 'Rochelle']);
+  // l'article est conservé pour une commune, sans quoi il resterait « Rochelle »
+  assert.deepEqual(variantes('Ville de La Rochelle'), ['Ville de La Rochelle', 'La Rochelle']);
+  // pour un département, « la Gironde » (un journal numérisé par Gallica) doit mener à « Gironde »
+  assert.deepEqual(variantes('Département de la Gironde'), ['Département de la Gironde', 'la Gironde', 'Gironde']);
+  assert.deepEqual(variantes('Département des Landes'), ['Département des Landes', 'Landes']);
+  assert.ok(!variantes('Département des Landes').includes('ndes'), 'jamais de nom amputé');
   assert.deepEqual(variantes('Musée d’Aquitaine'), ['Musée d’Aquitaine']);
 });
 
@@ -28,6 +33,10 @@ test('correspondance : tous les mots du nom, accents et casse ignorés', () => {
   assert.ok(!correspond('Charente-Maritime', { handle: 'x.bsky.social', nom: 'La Charente Maritime Info' }));
   assert.ok(correspond('Bordeaux', { handle: 'villedebordeaux.bsky.social', nom: 'Ville de Bordeaux' }), 'un mot civique reste admis');
   assert.ok(correspond('Landes', { handle: 'departementlandes.bsky.social', nom: 'Département des Landes' }));
+  // rencontré en conditions réelles : la fiche trouvée pour « Département de la Gironde » était Gallica,
+  // ses comptes auraient été tagués à la place de ceux du Département
+  assert.ok(!correspond('Département de la Gironde', { nom: 'Gallica' }));
+  assert.ok(correspond('Gironde', { nom: 'Gironde' }), 'la variante sans préfixe reste acceptée');
 });
 
 test('jugement : compte de fans, compte d’info et squatteur écartés', () => {

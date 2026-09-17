@@ -353,7 +353,7 @@ Modèle : `.env.example`. Le même contenu est stocké dans le secret GitHub `SO
 | `BLUESKY_HANDLE` | Identifiant Bluesky | `passion-aquitaine.ouest-france.fr` |
 | `BLUESKY_APP_PASSWORD` | Mot de passe d'application | App Bluesky → Réglages → Confidentialité et sécurité → Mots de passe d'application |
 | `FB_PAGE_ID` | Id de la Page Facebook | `227437307428711` |
-| `FB_TOKEN` | Token de Page avec `pages_manage_posts` et `pages_manage_engagement` | Graph API Explorer → Page Passion Aquitaine → jeton longue durée |
+| `FB_TOKEN` | Token **de Page** avec `pages_manage_posts` et `pages_manage_engagement` | `GET /me/accounts?fields=name,access_token` avec le token utilisateur. Un token d'utilisateur est refusé : « Unpublished posts must be posted to a page as the page itself ». `npm run smoke:fb` affiche `type : PAGE` quand c'est le bon. |
 | `TEST_IMAGE` | Image publique pour `smoke-ig.mjs` | une ou plusieurs URL, séparées par des virgules |
 
 Variables de test : `DRY_RUN=1` (rendu + FTP, sans Instagram ni Telegram ni état) et `DRY_RUN_LATEST=n` (avec `DRY_RUN`, traite les n derniers articles du flux).

@@ -43,6 +43,8 @@ function requireEnv(keys) {
 // À blanc : dossier IA + rendu + dépôt FTP des derniers articles, sans publication ni état
 async function dryRun(items) {
   console.log('Mode DRY_RUN : rien ne sera publié ni enregistré.');
+  // révèle quels réseaux sont réellement configurés, sans rien publier
+  console.log(`Canaux actifs : ${enabledChannels().map((c) => c.id).join(', ') || 'aucun'}`);
   const memory = await loadMemory();
   const newest = [...items].sort((a, b) => b.date - a.date).slice(0, DRY_RUN_LATEST || 1);
   let failed = 0;

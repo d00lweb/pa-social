@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-18T09:52:50.551Z",
+  "genereLe": "2026-09-18T10:00:33.534Z",
   "jour": "2026-09-18",
   "reseaux": {
     "instagram": {
@@ -122,11 +122,6 @@
   ],
   "file": [
     {
-      "channel": "facebook",
-      "dueAt": "2026-09-18T09:53:36.755Z",
-      "titre": "Morimoto Bordeaux dévoile son nouveau menu déjeuner à 33 €"
-    },
-    {
       "channel": "threads",
       "dueAt": "2026-09-18T10:22:50.551Z",
       "titre": "Morimoto Bordeaux dévoile son nouveau menu déjeuner à 33 €"
@@ -135,6 +130,11 @@
       "channel": "instagram",
       "dueAt": "2026-09-18T10:52:21.310Z",
       "titre": "Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée du Périgord"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-09-18T11:12:33.264Z",
+      "titre": "Morimoto Bordeaux dévoile son nouveau menu déjeuner à 33 €"
     },
     {
       "channel": "facebook",

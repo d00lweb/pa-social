@@ -141,3 +141,22 @@ export function recheck({ now, lastAt = 0, channel, timeZone, nature = null, rng
   if (isQuiet(now, channel.quietHours, timeZone)) return planDueAt({ now, channel, timeZone, rng });
   return null;
 }
+
+// ── Minute de départ dans un passage ──
+// Chaque réseau dû à un passage part à une minute tirée au hasard, entre 2 et 14 min après le début
+// du passage, et au moins 1 à 3 min (tirées elles aussi) après le réseau précédent : jamais pile à
+// l'heure, jamais deux réseaux à la même minute, jamais le même écart entre eux.
+// Mesuré le 18/09/2026 avant ce changement, sur 24 publications : 7 paires de réseaux parties à
+// moins de 2 min d'intervalle, dont Instagram, Bluesky et le kit X à la même minute, parce qu'une
+// réserve d'attente commune de 6 min, vite épuisée, faisait partir les suivants aussitôt.
+export const FENETRE_DEPART = [2, 14];
+export const ESPACEMENT_RESEAUX = [1, 3];
+
+// precedent : départ réel du réseau précédent dans ce passage, en ms depuis son début (null au premier)
+export function tirerDepart(precedent = null, rng = Math.random) {
+  const [debut, fin] = FENETRE_DEPART.map((m) => m * MINUTE);
+  const plancher = precedent === null ? debut : Math.max(debut, precedent + jitter(ESPACEMENT_RESEAUX, rng));
+  // fenêtre épuisée : on part juste après le précédent, la durée du passage reste bornée
+  if (plancher >= fin) return Math.round(plancher);
+  return Math.round(plancher + rng() * (fin - plancher));
+}

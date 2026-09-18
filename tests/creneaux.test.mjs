@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { planDueAt, recheck, creneauDe, dayKey } from '../src/core/scheduler.mjs';
+import { planDueAt, recheck, creneauDe, dayKey, tirerDepart, FENETRE_DEPART } from '../src/core/scheduler.mjs';
 import { config } from '../src/core/config.mjs';
 
 // Facebook : un post le matin, un en fin de journée, jamais deux dans le même créneau, et toujours
@@ -144,4 +144,33 @@ test('changement d’heure d’octobre : le créneau reste à l’heure de Paris
   const due = planDueAt({ now, channel: fb, timeZone: TZ, rng: () => 0 });
   assert.equal(paris(due), '08:00');
   assert.equal(new Date(due).toISOString(), '2026-10-26T07:00:00.000Z');
+});
+
+// ── Minute de départ dans un passage ──
+// Avant : 7 paires de réseaux parties à moins de 2 min d'intervalle sur 24 posts, dont trois réseaux
+// à la même minute. Ces tests verrouillent l'étalement.
+const MIN = 60e3;
+
+test('premier départ : jamais pile au passage, toujours dans la fenêtre', () => {
+  assert.equal(tirerDepart(null, () => 0), FENETRE_DEPART[0] * MIN, 'au plus tôt 2 min après');
+  assert.equal(tirerDepart(null, () => 1), FENETRE_DEPART[1] * MIN, 'au plus tard 14 min après');
+});
+
+test('deux réseaux d’un même passage ne partent jamais à la même minute', () => {
+  for (let i = 0; i < 2000; i++) {
+    const premier = tirerDepart(null);
+    const second = tirerDepart(premier);
+    assert.ok(second - premier >= MIN, `écart de ${Math.round((second - premier) / 1000)} s`);
+  }
+});
+
+test('les minutes de départ varient d’un passage à l’autre', () => {
+  const minutes = new Set(Array.from({ length: 300 }, () => Math.floor(tirerDepart(null) / MIN)));
+  assert.ok(minutes.size >= 10, `${minutes.size} minutes différentes sur 300 passages`);
+});
+
+test('la durée d’un passage reste bornée, même avec tous les réseaux dus', () => {
+  let depart = null;
+  for (let i = 0; i < 4; i++) depart = tirerDepart(depart, () => 1);
+  assert.ok(depart <= (FENETRE_DEPART[1] + 3 * 3) * MIN, `dernier départ à ${depart / MIN} min`);
 });

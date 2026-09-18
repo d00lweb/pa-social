@@ -5,7 +5,7 @@
   "retry": { "maxAttempts": 3, "delayMinutes": 30 },
   "telegram": { "previews": false, "publishedNotice": true },
   "restriction": { "codes": [4, 17, 32, 368, 613], "subcodes": [2207051, 2207042] },
-  "_horaires": "Moteur des meilleurs horaires (18/09/2026). Chaque réseau publie dans ses créneaux, un post au plus par créneau, à un passage du robot (:00 ou :20) tiré au hasard. Une actualité chaude part au passage suivant sans attendre. Toujours : heures creuses, écart minimum avec le post précédent, plafond du jour. Chaque créneau doit tenir hors des heures creuses et laisser au moins ecartMinHeures avant le suivant : c'est vérifié par les tests.",
+  "_horaires": "Moteur des meilleurs horaires (18/09/2026). Chaque réseau publie dans ses créneaux, un post au plus par créneau, à un passage du robot (:00 ou :20) tiré au hasard ; puis chaque réseau part à sa propre minute, tirée entre 2 et 14 min après le début du passage, au moins 1 à 3 min après un autre réseau (tirerDepart, src/core/scheduler.mjs). Une actualité chaude part au passage suivant sans attendre. Toujours : heures creuses, écart minimum avec le post précédent, plafond du jour. Chaque créneau doit tenir hors des heures creuses et laisser au moins ecartMinHeures avant le suivant : c'est vérifié par les tests.",
   "channels": {
     "instagram": {
       "enabled": true,
@@ -15,7 +15,6 @@
       "creneaux": [["12:00", "13:30"], ["18:00", "19:30"]],
       "ecartMinHeures": 2,
       "quietHours": { "start": 23, "end": 7 },
-      "publishDelayMinutes": [0, 9],
       "maxPer24h": 6
     },
     "bluesky": {
@@ -27,8 +26,7 @@
       "_creneaux": "Fil chronologique par défaut : un post n'est vu que par les abonnés en ligne à ce moment-là, l'heure compte donc davantage qu'ailleurs. Aucune étude rigoureuse à ce jour (juin 2026) ; les données d'éditeurs d'outils convergent sur 8 h – 10 h et 18 h – 21 h. Calé sur les pics d'usage français : matin, midi, 18 h.",
       "creneaux": [["08:00", "09:30"], ["12:00", "13:30"], ["18:00", "19:30"]],
       "ecartMinHeures": 2,
-      "quietHours": { "start": 22, "end": 8 },
-      "publishDelayMinutes": [0, 9]
+      "quietHours": { "start": 22, "end": 8 }
     },
     "facebook": {
       "enabled": true,
@@ -39,7 +37,6 @@
       "creneaux": [["08:00", "09:30"], ["20:00", "21:30"]],
       "ecartMinHeures": 3,
       "quietHours": { "start": 22, "end": 8 },
-      "publishDelayMinutes": [0, 9],
       "commentDelayMinutes": [1, 3]
     },
     "threads": {
@@ -52,7 +49,6 @@
       "creneaux": [["07:00", "08:30"], ["10:00", "11:30"], ["13:00", "14:30"]],
       "ecartMinHeures": 1.5,
       "quietHours": { "start": 22, "end": 7 },
-      "publishDelayMinutes": [0, 9],
       "replyDelayMinutes": [1, 3]
     },
     "x": {

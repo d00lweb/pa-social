@@ -2,7 +2,7 @@ import { readFileSync } from 'node:fs';
 import { config, DRY_RUN, DRY_RUN_LATEST, enabledChannels, fromRoot } from './core/config.mjs';
 import { GuardError, DeferError } from './core/errors.mjs';
 import { loadHistory, saveHistory, loadQueue, saveQueue, loadJson, saveJson, hasPublished, lastPublishedAt } from './core/state.mjs';
-import { planDueAt, recheck, jitter, countToday, nextDay } from './core/scheduler.mjs';
+import { planDueAt, recheck, tirerDepart, countToday, nextDay } from './core/scheduler.mjs';
 import { NETWORKS, NAMES, shortId, parseCommand, defaultControls, isPaused, needsValidation, targets, applyDecision } from './core/control.mjs';
 import { fetchItems, matchArticle } from './sources/rss.mjs';
 import { buildDossier } from './brain/dossier.mjs';
@@ -276,9 +276,11 @@ function prune(queue, now) {
 // Au plus une publication due par canal actif et non en pause
 async function execute({ history, queue, memory, controls, now }) {
   let failed = 0;
-  // L'attente aléatoire s'appliquait à chaque réseau : trois réseaux dus au même passage
-  // cumulaient jusqu'à 27 min et l'exécution était tuée avant d'avoir fini. Budget partagé.
-  let budgetAttente = 6 * 60e3;
+  // Départs étalés dans le passage (voir tirerDepart) : chaque réseau part à sa propre minute, tirée
+  // au hasard, jamais à la même que le précédent. Le temps déjà passé à publier compte dans l'attente,
+  // si bien qu'un passage reste de durée bornée, contrairement aux attentes cumulées d'autrefois.
+  const debutPassage = Date.now();
+  let dernierDepart = null;
   for (const channel of enabledChannels()) {
     if (isPaused(controls, channel.id)) continue;
     const item = queue.filter((q) => q.channel === channel.id && q.status === 'pending' && q.dueAt <= now).sort((a, b) => a.dueAt - b.dueAt)[0];
@@ -309,12 +311,13 @@ async function execute({ history, queue, memory, controls, now }) {
       await enrichir(item.dossier, item.article);
       const impl = CHANNELS[channel.id];
       const pkg = await impl.prepare(item.article, { dossier: item.dossier });
-      // délai aléatoire : les publications ne tombent pas pile sur les minutes du cron
-      if (channel.publishDelayMinutes && budgetAttente > 0) {
-        const wait = Math.min(jitter(channel.publishDelayMinutes), budgetAttente);
-        budgetAttente -= wait;
-        console.log(`Attente aléatoire avant publication : ${Math.round(wait / 1000)} s (budget restant ${Math.round(budgetAttente / 1000)} s)`);
-        await new Promise((r) => setTimeout(r, wait));
+      // minute de départ tirée au hasard ; le kit X, publié à la main, n'a pas à attendre
+      if (!channel.manual) {
+        const depart = tirerDepart(dernierDepart);
+        const attente = debutPassage + depart - Date.now();
+        console.log(`Départ tiré à +${(depart / 60e3).toFixed(1)} min dans le passage${attente > 0 ? ` : attente de ${Math.round(attente / 1000)} s` : ', déjà atteint'}`);
+        if (attente > 0) await new Promise((r) => setTimeout(r, attente));
+        dernierDepart = Date.now() - debutPassage;
       }
       const { mediaId, lien: lienPost = null } = await impl.publish(pkg, { channel });
       // format tiré, mentions, et aperçu réel : c'est ce qui rend la mesure comparable

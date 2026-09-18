@@ -2,7 +2,7 @@ import { readFileSync } from 'node:fs';
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import { fromRoot } from '../core/config.mjs';
-import { frenchTypography } from './editorial.mjs';
+import { frenchTypography, pickHighlight } from './editorial.mjs';
 import { resolvePlace, candidateZones, placeNames } from './geo.mjs';
 import { checkDossier } from './guards.mjs';
 import { fallbackDossier } from './fallback.mjs';
@@ -30,6 +30,35 @@ function typeset(d) {
     threads: { texte: t(d.threads.texte), sujet: String(d.threads.sujet ?? '').trim().replace(/^#/, '') },
     x: { texte: t(d.x.texte) },
   };
+}
+
+// Défauts mécaniques réparables. Jeter cinq textes bien écrits parce qu'un mot surligné dépasse
+// de deux caractères est disproportionné : on corrige soi-même, puis on repasse les contrôles.
+// Tout le reste (invention, répétition, appât, emojis) continue de provoquer le repli sur les règles.
+export function reparer(dossier, problems) {
+  const repare = { ...dossier, visuel: { ...dossier.visuel } };
+  const faits = [];
+
+  if (problems.some((p) => p.includes('surlignage'))) {
+    const { highlight } = pickHighlight(repare.visuel.titre, { avoid: [repare.rubrique] });
+    if (highlight && highlight !== repare.visuel.surlignage) {
+      repare.visuel.surlignage = highlight;
+      faits.push('surlignage');
+    }
+  }
+
+  if (problems.some((p) => p.includes('point juste avant un emoji'))) {
+    for (const net of ['instagram', 'facebook', 'bluesky', 'threads', 'x']) {
+      const texte = repare[net]?.texte;
+      if (!texte) continue;
+      const propre = texte.replace(/[.…]\s*(\p{Extended_Pictographic})/gu, ' $1').replace(/ {2,}/g, ' ');
+      if (propre !== texte) {
+        repare[net] = { ...repare[net], texte: propre };
+        faits.push(net);
+      }
+    }
+  }
+  return { repare, faits };
 }
 
 // Dossier de publication d'un article : IA contrôlée, sinon règles de secours
@@ -83,12 +112,11 @@ export async function buildDossier(article, { memory, useCache = false, log = co
       log(`   IA indisponible (${err.message}) : règles de secours`);
       return fallbackDossier(article);
     }
-    const dossier = typeset(result.dossier);
-    const problems = checkDossier(dossier, { ...ed, source, knownNames: [...ed.knownNames, ...placeNames(), ...ed.themes.map((t) => t.rubrique)], memory: memory.recent ?? {}, questions, recentEmojis: memory.emojis ?? {}, emojiPlacement });
-    if (!problems.length) {
+    const controle = (d) => checkDossier(d, { ...ed, source, knownNames: [...ed.knownNames, ...placeNames(), ...ed.themes.map((t) => t.rubrique)], memory: memory.recent ?? {}, questions, recentEmojis: memory.emojis ?? {}, emojiPlacement });
+    const finaliser = async (d, note) => {
       const final = {
-        ...dossier,
-        facebook: { ...dossier.facebook, commentLead: nextCommentLead(memory) },
+        ...d,
+        facebook: { ...d.facebook, commentLead: nextCommentLead(memory) },
         source: 'ia',
         model: result.model,
         usage: { input: result.usage.input_tokens, output: result.usage.output_tokens },
@@ -96,9 +124,18 @@ export async function buildDossier(article, { memory, useCache = false, log = co
       };
       await mkdir(CACHE, { recursive: true });
       await writeFile(cacheFile, JSON.stringify(final, null, 2));
-      log(`   IA : dossier validé (essai ${attempt}, ${result.usage.input_tokens} + ${result.usage.output_tokens} tokens)`);
+      log(`   IA : dossier validé (essai ${attempt}${note}, ${result.usage.input_tokens} + ${result.usage.output_tokens} tokens)`);
       return final;
-    }
+    };
+
+    const dossier = typeset(result.dossier);
+    const problems = controle(dossier);
+    if (!problems.length) return finaliser(dossier, '');
+
+    // Réparation des défauts mécaniques avant de renoncer à un dossier par ailleurs correct
+    const { repare, faits } = reparer(dossier, problems);
+    if (faits.length && !controle(repare).length) return finaliser(repare, `, réparé : ${faits.join(', ')}`);
+
     log(`   IA essai ${attempt} refusé : ${problems.join(' | ')}`);
     corrections = problems;
   }

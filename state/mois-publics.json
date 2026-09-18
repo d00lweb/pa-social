@@ -1,0 +1,59 @@
+{
+  "2026-09": {
+    "cle": "2026-09",
+    "publications": 24,
+    "articles": 8,
+    "interactions": 57,
+    "parReseau": {
+      "facebook": 2,
+      "instagram": 8,
+      "x": 6,
+      "threads": 2,
+      "bluesky": 6
+    },
+    "gains": {
+      "facebook": null,
+      "instagram": null,
+      "x": null,
+      "threads": null,
+      "bluesky": null
+    },
+    "top": [
+      {
+        "reseau": "instagram",
+        "titre": "En Haute-Vienne, les abeilles tuent le frelon asiatique en le chauffant vivant à 42°C",
+        "lien": "https://www.instagram.com/p/DdYXqThl1Aa/",
+        "image": "https://passion-aquitaine.ouest-france.fr/social/20260913-def258f4-1-vignette.jpg",
+        "interactions": 37
+      },
+      {
+        "reseau": "instagram",
+        "titre": "Pourquoi Bordeaux parle désormais de « matrimoine »",
+        "lien": "https://passion-aquitaine.ouest-france.fr/pourquoi-bordeaux-parle-desormais-de-matrimoine/",
+        "image": "https://passion-aquitaine.ouest-france.fr/social/20260915-7c47bbf2-1-vignette.jpg",
+        "interactions": 6
+      },
+      {
+        "reseau": "instagram",
+        "titre": "Le Village Alzheimer des Landes sécurise son avenir financier",
+        "lien": "https://www.instagram.com/p/DdW5Nk3m_hV/",
+        "image": "https://passion-aquitaine.ouest-france.fr/social/20260916-cfa65144-1-vignette.jpg",
+        "interactions": 5
+      },
+      {
+        "reseau": "instagram",
+        "titre": "Le corps de Montaigne a disparu pendant plus d’un siècle",
+        "lien": "https://passion-aquitaine.ouest-france.fr/tombeau-montaigne-musee-aquitaine-bordeaux/",
+        "image": "https://passion-aquitaine.ouest-france.fr/social/20260914-6b9e9334-1-vignette.jpg",
+        "interactions": 4
+      },
+      {
+        "reseau": "instagram",
+        "titre": "Dans le Noir, le restaurant bordelais où l’on dîne à l’aveugle",
+        "lien": "https://www.instagram.com/p/DdVtxO9DG1L/",
+        "image": "https://passion-aquitaine.ouest-france.fr/social/20260916-6d6361f5-1-vignette.jpg",
+        "interactions": 3
+      }
+    ]
+  }
+}

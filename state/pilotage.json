@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-18T16:20:47.536Z",
+  "genereLe": "2026-09-18T17:00:36.838Z",
   "jour": "2026-09-18",
   "reseaux": {
     "instagram": {
@@ -329,7 +329,7 @@
       "at": "2026-09-18T07:18:51.326Z",
       "titre": "Le brunch le plus généreux de Bordeaux a rouvert ses portes",
       "lien": "https://passion-aquitaine.ouest-france.fr/reouverture-brunch-sans-pression-bordeaux/",
-      "lienPost": null,
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/Dda4Biqm0-S",
       "format": "reponse",
       "texte": "Fermé pour travaux, le brunch gargantuesque du Sans Pression a rouvert à Bordeaux le 12 septembre, avec un tarif revu 📍",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20260917-6158b577-th.jpg"
@@ -339,7 +339,7 @@
       "at": "2026-09-18T07:13:27.681Z",
       "titre": "Le brunch le plus généreux de Bordeaux a rouvert ses portes",
       "lien": "https://passion-aquitaine.ouest-france.fr/reouverture-brunch-sans-pression-bordeaux/",
-      "lienPost": null,
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1723720813087133",
       "format": null,
       "texte": "Le brunch le plus généreux de Bordeaux a rouvert ses portes 📍",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20260917-6158b577-fb.jpg"
@@ -349,7 +349,7 @@
       "at": "2026-09-18T07:05:53.823Z",
       "titre": "Morimoto Bordeaux dévoile son nouveau menu déjeuner à 33 €",
       "lien": "https://passion-aquitaine.ouest-france.fr/nouveau-menu-morimoto-bordeaux/",
-      "lienPost": null,
+      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mvrm5zanwc2i",
       "format": "image",
       "texte": "33 € et 45 minutes : c’est le nouveau format du déjeuner chez Morimoto, le restaurant japonais du Mondrian #Bordeaux Les Carmes. Une formule pensée pour les midis pressés, dans l’une des adresses les plus commentées de la ville 🥢\n➡️ Lire l’article",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20260918-d98b6f23-bsky.jpg"
@@ -369,7 +369,7 @@
       "at": "2026-09-18T06:25:34.962Z",
       "titre": "Morimoto Bordeaux dévoile son nouveau menu déjeuner à 33 €",
       "lien": "https://passion-aquitaine.ouest-france.fr/nouveau-menu-morimoto-bordeaux/",
-      "lienPost": null,
+      "lienPost": "https://www.instagram.com/p/DdayW2FD944/",
       "format": null,
       "texte": "Une table japonaise de Bordeaux ouvre sa pause déjeuner à 33 € 🍣\n⠀\nLe restaurant Morimoto, installé au Mondrian Bordeaux Les Carmes, lance une formule du midi servie en 45 minutes. De quoi déjeuner vite dans un cadre signé par un chef japonais.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #Morimoto #Restaurant",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20260918-d98b6f23-1.jpg"
@@ -490,11 +490,19 @@
       "pct": 0,
       "depuis": "2026-09-18",
       "au": "2026-09-18"
+    },
+    "x": {
+      "debut": 2940,
+      "fin": 2940,
+      "gain": 0,
+      "pct": 0,
+      "depuis": "2026-09-18",
+      "au": "2026-09-18"
     }
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-18T16:20:48.210Z",
+    "genereLe": "2026-09-18T17:00:39.789Z",
     "posts": 9,
     "parReseau": {
       "instagram": {
@@ -552,7 +560,7 @@
       "partages": null,
       "vues": null,
       "titre": null,
-      "lien": null,
+      "lien": "https://www.instagram.com/p/DdYXqThl1Aa/",
       "format": null,
       "mention": false,
       "creneau": "matin",
@@ -570,7 +578,7 @@
       "partages": 0,
       "vues": null,
       "titre": null,
-      "lien": null,
+      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mvp6tmjsh52c",
       "format": null,
       "mention": false,
       "creneau": "matin",
@@ -621,6 +629,14 @@
       "threads": {
         "debut": 1144,
         "fin": 1144,
+        "gain": 0,
+        "pct": 0,
+        "depuis": "2026-09-18",
+        "au": "2026-09-18"
+      },
+      "x": {
+        "debut": 2940,
+        "fin": 2940,
         "gain": 0,
         "pct": 0,
         "depuis": "2026-09-18",

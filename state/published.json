@@ -15,7 +15,9 @@
     "channel": "bluesky",
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=35377",
     "at": "2026-09-16T06:21:28.154Z",
-    "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mvmiqoystk23"
+    "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mvmiqoystk23",
+    "lienCherche": true,
+    "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mvmiqoystk23"
   },
   {
     "channel": "x",
@@ -27,19 +29,25 @@
     "channel": "instagram",
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=35377",
     "at": "2026-09-16T07:09:13.776Z",
-    "mediaId": "18114343033806183"
+    "mediaId": "18114343033806183",
+    "lienCherche": true,
+    "lienPost": "https://www.instagram.com/p/DdVtxO9DG1L/"
   },
   {
     "channel": "instagram",
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=35578",
     "at": "2026-09-16T18:08:32.309Z",
-    "mediaId": "18055799816797673"
+    "mediaId": "18055799816797673",
+    "lienCherche": true,
+    "lienPost": "https://www.instagram.com/p/DdW5Nk3m_hV/"
   },
   {
     "channel": "bluesky",
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=35578",
     "at": "2026-09-16T18:08:45.055Z",
-    "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mvnqbgmplk2n"
+    "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mvnqbgmplk2n",
+    "lienCherche": true,
+    "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mvnqbgmplk2n"
   },
   {
     "channel": "x",
@@ -51,13 +59,17 @@
     "channel": "instagram",
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=35494",
     "at": "2026-09-17T07:53:48.379Z",
-    "mediaId": "18074225591450394"
+    "mediaId": "18074225591450394",
+    "lienCherche": true,
+    "lienPost": "https://www.instagram.com/p/DdYXqThl1Aa/"
   },
   {
     "channel": "bluesky",
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=35494",
     "at": "2026-09-17T08:02:06.919Z",
-    "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mvp6tmjsh52c"
+    "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mvp6tmjsh52c",
+    "lienCherche": true,
+    "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mvp6tmjsh52c"
   },
   {
     "channel": "x",
@@ -69,13 +81,16 @@
     "channel": "instagram",
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=35561",
     "at": "2026-09-17T15:05:35.965Z",
-    "mediaId": "18071283440738292"
+    "mediaId": "18071283440738292",
+    "lienCherche": true
   },
   {
     "channel": "bluesky",
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=35561",
     "at": "2026-09-17T15:13:20.878Z",
-    "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mvpwwpo2ki2n"
+    "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mvpwwpo2ki2n",
+    "lienCherche": true,
+    "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mvpwwpo2ki2n"
   },
   {
     "channel": "x",
@@ -98,7 +113,9 @@
       "mode": null,
       "reponse": null,
       "sujet": null
-    }
+    },
+    "lienCherche": true,
+    "lienPost": "https://www.instagram.com/p/DdayW2FD944/"
   },
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=34715",
@@ -132,7 +149,9 @@
       "mode": "image",
       "reponse": null,
       "sujet": null
-    }
+    },
+    "lienCherche": true,
+    "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mvrm5zanwc2i"
   },
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=35561",
@@ -149,7 +168,9 @@
       "mode": null,
       "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/reouverture-brunch-sans-pression-bordeaux/",
       "sujet": null
-    }
+    },
+    "lienCherche": true,
+    "lienPost": "https://www.facebook.com/1720946116697936/posts/1723720813087133"
   },
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=35561",
@@ -166,7 +187,9 @@
       "mode": "reponse",
       "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/reouverture-brunch-sans-pression-bordeaux/",
       "sujet": "Bordeaux"
-    }
+    },
+    "lienCherche": true,
+    "lienPost": "https://www.threads.com/@lovaquitaine/post/Dda4Biqm0-S"
   },
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=35569",

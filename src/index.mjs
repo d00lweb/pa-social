@@ -217,7 +217,7 @@ async function plan(items, { history, queue, memory, controls, now, forcedGuid }
     remember(memory, dossier, ed.networks, ed.memorySize);
     for (const channel of channels) {
       const lastPlannedAt = Math.max(0, ...queue.filter((q) => q.channel === channel.id && OPEN.includes(q.status)).map((q) => q.dueAt));
-      const dueAt = article.guid === forcedGuid ? now : planDueAt({ now, lastAt: lastPublishedAt(history, channel.id), lastPlannedAt, channel, timeZone: TZ });
+      const dueAt = article.guid === forcedGuid ? now : planDueAt({ now, lastAt: lastPublishedAt(history, channel.id), lastPlannedAt, channel, timeZone: TZ, nature: dossier.nature });
       const status = telegramEnabled() && needsValidation(controls, channel) ? 'awaiting' : 'pending';
       queue.push({ guid: article.guid, channel: channel.id, dueAt, status, attempts: 0, article, dossier, previewSent: false });
       console.log(`Planifié ${channel.id} (${status}) : ${article.title} → ${paris(dueAt)} [${dossier.source}]`);
@@ -292,12 +292,12 @@ async function execute({ history, queue, memory, controls, now }) {
     // Rien n'est perdu — la file s'écoule d'elle-même sur les jours suivants.
     const dejaAujourdhui = countToday(history, channel.id, now, TZ);
     if (channel.maxPerDay && dejaAujourdhui >= channel.maxPerDay) {
-      item.dueAt = planDueAt({ now: nextDay(now, channel.quietHours, TZ), channel, timeZone: TZ });
+      item.dueAt = planDueAt({ now: nextDay(now, channel.quietHours, TZ), channel, timeZone: TZ, nature: item.dossier?.nature });
       console.log(`Réserve ${channel.id} : ${dejaAujourdhui}/${channel.maxPerDay} publiés aujourd'hui, « ${item.article.title} » → ${paris(item.dueAt)}`);
       continue;
     }
 
-    const later = recheck({ now, lastAt: lastPublishedAt(history, channel.id), channel, timeZone: TZ });
+    const later = recheck({ now, lastAt: lastPublishedAt(history, channel.id), channel, timeZone: TZ, nature: item.dossier?.nature });
     if (later) {
       item.dueAt = later;
       console.log(`Reporté ${channel.id} : ${item.article.title} → ${paris(later)}`);

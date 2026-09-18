@@ -5,15 +5,16 @@
   "retry": { "maxAttempts": 3, "delayMinutes": 30 },
   "telegram": { "previews": false, "publishedNotice": true },
   "restriction": { "codes": [4, 17, 32, 368, 613], "subcodes": [2207051, 2207042] },
+  "_horaires": "Moteur des meilleurs horaires (18/09/2026). Chaque réseau publie dans ses créneaux, un post au plus par créneau, à un passage du robot (:00 ou :20) tiré au hasard. Une actualité chaude part au passage suivant sans attendre. Toujours : heures creuses, écart minimum avec le post précédent, plafond du jour. Chaque créneau doit tenir hors des heures creuses et laisser au moins ecartMinHeures avant le suivant : c'est vérifié par les tests.",
   "channels": {
     "instagram": {
       "enabled": true,
       "validation": false,
       "maxPerDay": 2,
-      "gapHours": [3, 4.5],
+      "_creneaux": "Midi et début de soirée : les deux pics d'usage mobile des réseaux sociaux en France (Médiamétrie : 12 h – 14 h, puis 18 h – 19 h ; pic du web à 18 h 41). Buffer (9,6 M de posts) place mercredi 12 h et 18 h dans son trio de tête ; Sprout Social, la plage 12 h – 21 h. Fil algorithmique : les premières interactions décident de la diffusion.",
+      "creneaux": [["12:00", "13:30"], ["18:00", "19:30"]],
+      "ecartMinHeures": 2,
       "quietHours": { "start": 23, "end": 7 },
-      "jitterMinutes": [5, 40],
-      "morningJitterMinutes": [10, 95],
       "publishDelayMinutes": [0, 9],
       "maxPer24h": 6
     },
@@ -23,10 +24,10 @@
       "validation": false,
       "maxPerDay": 3,
       "formats": ["card", "image", "reply"],
-      "gapHours": [2.5, 4],
+      "_creneaux": "Fil chronologique par défaut : un post n'est vu que par les abonnés en ligne à ce moment-là, l'heure compte donc davantage qu'ailleurs. Aucune étude rigoureuse à ce jour (juin 2026) ; les données d'éditeurs d'outils convergent sur 8 h – 10 h et 18 h – 21 h. Calé sur les pics d'usage français : matin, midi, 18 h.",
+      "creneaux": [["08:00", "09:30"], ["12:00", "13:30"], ["18:00", "19:30"]],
+      "ecartMinHeures": 2,
       "quietHours": { "start": 22, "end": 8 },
-      "jitterMinutes": [5, 40],
-      "morningJitterMinutes": [10, 80],
       "publishDelayMinutes": [0, 9]
     },
     "facebook": {
@@ -34,8 +35,9 @@
       "requiresEnv": ["FB_PAGE_ID", "FB_TOKEN"],
       "validation": false,
       "maxPerDay": 2,
-      "_creneaux": "Un post le matin, un en fin de journée (décision du 18/09/2026). Matin : les études au taux d'engagement (Hootsuite 8 h, Buffer 9 h) — lecture de l'actualité, fil encore peu chargé. Soir : les études au volume (Sprout Social, jusqu'à 20 h) et françaises (20 h – 23 h), heures de loisir où l'on prépare ses sorties. Chaque créneau contient quatre passages du robot, tirés au hasard.",
+      "_creneaux": "Un post le matin, un en fin de journée (décision du 18/09/2026). Matin : les études au taux d'engagement (Hootsuite 8 h, Buffer 9 h) — lecture de l'actualité, fil encore peu chargé. Soir : les études au volume (Sprout Social, jusqu'à 20 h) et françaises (20 h – 23 h), heures de loisir où l'on prépare ses sorties.",
       "creneaux": [["08:00", "09:30"], ["20:00", "21:30"]],
+      "ecartMinHeures": 3,
       "quietHours": { "start": 22, "end": 8 },
       "publishDelayMinutes": [0, 9],
       "commentDelayMinutes": [1, 3]
@@ -46,10 +48,10 @@
       "validation": false,
       "maxPerDay": 3,
       "formats": ["image", "lien", "reponse"],
-      "gapHours": [2.5, 4],
-      "quietHours": { "start": 22, "end": 8 },
-      "jitterMinutes": [5, 40],
-      "morningJitterMinutes": [10, 80],
+      "_creneaux": "Buffer (2,5 M de posts Threads, 2026) : les matinées de semaine dominent (6 h – 11 h, jeudi 9 h en tête) et les soirées (18 h – 23 h) sous-performent tous les jours — l'audience est faite d'actifs qui lisent en se rendant au travail ou au café. Trois créneaux entre 7 h et 14 h 30.",
+      "creneaux": [["07:00", "08:30"], ["10:00", "11:30"], ["13:00", "14:30"]],
+      "ecartMinHeures": 1.5,
+      "quietHours": { "start": 22, "end": 7 },
       "publishDelayMinutes": [0, 9],
       "replyDelayMinutes": [1, 3]
     },
@@ -60,10 +62,10 @@
       "maxPerDay": 3,
       "formats": ["image", "lien", "reponse"],
       "hideOuestFrance": false,
-      "gapHours": 0,
-      "quietHours": { "start": 22, "end": 7 },
-      "jitterMinutes": [1, 10],
-      "morningJitterMinutes": [5, 60]
+      "_creneaux": "Buffer (8,7 M de posts, mars 2026) : mardi 9 h, mercredi 9 h et 10 h en tête, 9 h – 11 h du mardi au jeudi ; les soirées sont les plus faibles. Publication à la main : les créneaux tombent aussi dans la journée de travail de l'équipe, qui reçoit le kit au début du créneau.",
+      "creneaux": [["09:00", "10:30"], ["12:00", "13:30"], ["16:00", "17:30"]],
+      "ecartMinHeures": 1.5,
+      "quietHours": { "start": 22, "end": 7 }
     }
   }
 }

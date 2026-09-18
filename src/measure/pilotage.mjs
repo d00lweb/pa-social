@@ -55,6 +55,7 @@ export function construire({ history, queue, mesures = [], rapports = [], mainte
         // le rythme tel qu'il est réellement configuré : la page le lit ici plutôt que de le recopier
         creneaux: canal.creneaux ?? null,
         ecart: canal.gapHours ?? null,
+        ecartMin: canal.ecartMinHeures ?? null,
         nuit: canal.quietHours ?? null,
         formats: canal.formats ?? null,
         aujourdhui: countToday(history, id, maintenant, TZ),
@@ -94,6 +95,8 @@ export function construire({ history, queue, mesures = [], rapports = [], mainte
       dueAt: new Date(q.dueAt).toISOString(),
       // heure à laquelle le post peut réellement partir, l'échéance seule étant trompeuse
       prochainPassage: prochainPassage(q.dueAt, maintenant).toISOString(),
+      // une actualité chaude part sans attendre de créneau : la page doit le savoir pour l'annoncer juste
+      nature: q.dossier?.nature ?? null,
       titre: titre(q),
     }));
 

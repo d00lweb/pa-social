@@ -187,6 +187,29 @@
   .shield .human { background: var(--warn-soft); border-color: transparent; }
   .shield .human b { color: var(--warn); }
 
+  /* Meilleurs horaires : frise de la journée et justification par réseau */
+  .timeline { display: grid; gap: 8px; }
+  .tl-row { display: grid; grid-template-columns: 116px 1fr; gap: 12px; align-items: center; }
+  .tl-row .nom { display: flex; align-items: center; gap: 8px; font-weight: 700; font-size: 13.5px; }
+  .tl-track { position: relative; height: 28px; background: var(--ground); border-radius: 7px; }
+  .tl-axe .tl-track { background: none; height: 16px; }
+  .tl-axe .h { position: absolute; transform: translateX(-50%); font-family: var(--mono); font-size: 11px; color: var(--muted); white-space: nowrap; }
+  .tl-axe .h:first-child { transform: none; }
+  .tl-axe .h:last-child { transform: translateX(-100%); }
+  .nw { white-space: nowrap; }
+  .faq.engine { grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
+  .tl-nuit { position: absolute; top: 0; bottom: 0; background: repeating-linear-gradient(135deg, var(--idle-soft) 0 5px, transparent 5px 10px); }
+  .tl-win { position: absolute; top: 3px; bottom: 3px; border-radius: 5px; color: #fff; font-size: 11px; font-weight: 700; display: grid; place-items: center; overflow: hidden; white-space: nowrap; box-shadow: 0 1px 2px rgba(0, 0, 0, .15); }
+  .tl-now { position: absolute; top: -3px; bottom: -3px; width: 2px; margin-left: -1px; background: var(--red); border-radius: 1px; }
+  table.why { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+  table.why thead th { text-align: left; font-size: 11px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); padding: 12px 14px; border-bottom: 1px solid var(--line); background: var(--ground); }
+  table.why td, table.why tbody th { padding: 14px; border-top: 1px solid var(--line); vertical-align: top; text-align: left; font-weight: 500; line-height: 1.5; }
+  table.why tbody tr:first-child > * { border-top: 0; }
+  table.why tbody th { white-space: nowrap; font-weight: 800; }
+  table.why tbody th .glyph { vertical-align: -5px; margin-right: 6px; }
+  table.why td.cr { font-weight: 700; min-width: 150px; }
+  table.why td.src a { display: block; font-size: 12.5px; font-weight: 600; }
+
   footer { color: var(--muted); font-size: 12.5px; border-top: 1px solid var(--line); padding-top: 18px; display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
   .toast { position: fixed; left: 50%; bottom: 24px; transform: translate(-50%, 20px); opacity: 0; background: var(--ink); color: var(--panel); padding: 10px 16px; border-radius: 999px; font-size: 13.5px; font-weight: 600; transition: opacity .2s, transform .2s; pointer-events: none; }
   .toast.on { opacity: 1; transform: translate(-50%, 0); }
@@ -212,6 +235,14 @@
     .slot .rel { grid-column: 3; }
     .post { grid-template-columns: 84px 1fr; }
     .bar-row { grid-template-columns: 96px 1fr 56px; }
+    .tl-row { grid-template-columns: 84px 1fr; gap: 8px; }
+    .tl-row .nom { font-size: 12px; }
+    .tl-win { font-size: 0; }
+    table.why thead { display: none; }
+    table.why, table.why tbody, table.why tr, table.why td, table.why tbody th { display: block; width: 100%; }
+    table.why tr { padding: 14px 16px; border-top: 1px solid var(--line); }
+    table.why tbody tr:first-child { border-top: 0; }
+    table.why td, table.why tbody th { padding: 3px 0; border: 0; }
   }
 </style>
 </head>
@@ -270,6 +301,30 @@
     <div class="posts" id="publies"><p class="empty">Chargement…</p></div>
   </section>
 
+  <section aria-labelledby="t-horaires">
+    <div class="sec-head">
+      <h2 id="t-horaires">Meilleurs horaires</h2>
+      <p class="hint">Quand chaque réseau publie, et pourquoi · heure de Paris</p>
+    </div>
+    <div class="panel pad">
+      <div class="timeline" id="timeline" role="img" aria-label="Créneaux de publication de chaque réseau, de 6 h à minuit"></div>
+      <p class="note">Bandes : créneaux de publication · hachures : heures creuses, rien ne part · trait rouge : maintenant.</p>
+    </div>
+    <div class="panel">
+      <table class="why">
+        <thead><tr><th scope="col">Réseau</th><th scope="col">Créneaux</th><th scope="col">Pourquoi ces heures</th><th scope="col">Sources</th></tr></thead>
+        <tbody id="pourquoi"></tbody>
+      </table>
+    </div>
+    <div class="faq engine">
+      <article><b>Le prochain créneau libre</b><p>Chaque post part dans le prochain créneau libre de son réseau : jamais deux dans le même créneau, jamais au-delà du plafond du jour, jamais trop près du post précédent.</p></article>
+      <article><b>Jamais la même heure</b><p>Dans le créneau, l’heure est tirée au hasard parmi les passages réels du robot (:00 et :20) : régulier pour l’audience, imprévisible pour les filtres anti-robots.</p></article>
+      <article><b>L’actualité d’abord</b><p>Une actualité chaude (événement du jour, alerte, date proche) part au passage suivant sans attendre de créneau, comme dans une rédaction. Les posts prévus plus tard lui cèdent la place.</p></article>
+      <article><b>Un article vit toute la journée</b><p>Les réseaux n’ont pas les mêmes heures : un même article part de Threads le matin jusqu’à Facebook le soir, au lieu d’être publié partout d’un coup.</p></article>
+      <article><b>Affiné par vos chiffres</b><p>Le rapport mensuel compare les créneaux entre eux ; avec les statistiques de vos comptes, il dira s’il faut en déplacer un ou distinguer le week-end. Rien ne bouge sans votre validation.</p></article>
+    </div>
+  </section>
+
   <div class="duo">
     <section class="card" aria-labelledby="t-semaine">
       <h2 id="t-semaine">Les 7 derniers jours</h2>
@@ -312,7 +367,7 @@
   <details class="panel rules">
     <summary><h2>Garde-fous anti-bannissement</h2><span class="hint">Automatiques, réglés dans <code>config/channels.json</code></span></summary>
     <div class="shield">
-      <div><b>Heures imprévisibles</b><span>Facebook : un passage tiré au hasard dans chaque créneau. Autres réseaux : écart de 2 h 30 à 4 h 30 tiré au hasard. Toujours une attente de 0 à 9 min avant de publier.</span></div>
+      <div><b>Heures imprévisibles</b><span>Dans chaque créneau, un passage du robot tiré au hasard, puis une attente de 0 à 9 min : régulier pour l’audience, jamais la même heure.</span></div>
       <div><b>Textes jamais identiques</b><span>Angles en rotation, tournures déjà publiées refusées, questions limitées, formules d’appât interdites.</span></div>
       <div><b>Coupe-circuit</b><span>Limite ou restriction signalée par un réseau : pause automatique et alerte. Reprise avec <code>/reprise</code>.</span></div>
       <div><b>API officielles seulement</b><span>Aucun like, abonnement ou réponse automatique. Plafonds quotidiens : Instagram 2, Facebook 2, Bluesky 3, Threads 3, kit X 3.</span></div>
@@ -377,7 +432,7 @@
     instagram: {
       nom: 'Instagram', glyph: 'IG', couleur: 'linear-gradient(135deg,#F58529,#DD2A7B 55%,#8134AF)',
       compte: '@lovaquitaine', url: 'https://www.instagram.com/lovaquitaine/',
-      publication: 'Carrousel de 2 images, story à poser à la main', rythme: '2 par jour, 3 h à 4 h 30 d’écart', acces: 'Jeton Meta',
+      publication: 'Carrousel de 2 images, story à poser à la main', rythme: '2 par jour', acces: 'Jeton Meta',
       details: [
         ['Publication', 'Carrousel de 2 images : le titre sur la photo, puis le texte de l’article. La story (9:16) arrive sur Telegram, à poster à la main avec le sticker lien.'],
         ['Texte', '1ʳᵉ ligne de 125 caractères au plus (avant « plus »), 1 à 3 emojis, 3 hashtags.'],
@@ -403,7 +458,7 @@
     bluesky: {
       nom: 'Bluesky', glyph: 'B', couleur: '#1185FE',
       compte: '@passion-aquitaine.ouest-france.fr', url: 'https://bsky.app/profile/passion-aquitaine.ouest-france.fr',
-      publication: '3 formats en rotation', rythme: '3 par jour, 2 h 30 à 4 h d’écart', acces: 'Mot de passe d’application, sans expiration',
+      publication: '3 formats en rotation', rythme: '3 par jour', acces: 'Mot de passe d’application, sans expiration',
       details: [
         ['Publication', 'Rotation de 3 formats : carte de lien, image avec lien dans le texte, image avec le lien en réponse.'],
         ['Texte', '150 à 260 caractères, 1 emoji, 1 hashtag de lieu placé dans le texte — la commune quand l’article en nomme une.'],
@@ -415,7 +470,7 @@
     threads: {
       nom: 'Threads', glyph: '@', couleur: '#101010',
       compte: '@lovaquitaine', url: 'https://www.threads.com/@lovaquitaine',
-      publication: '3 formats en rotation', rythme: '3 par jour, 2 h 30 à 4 h d’écart', acces: 'Jeton Threads',
+      publication: '3 formats en rotation', rythme: '3 par jour', acces: 'Jeton Threads',
       details: [
         ['Publication', 'Rotation de 3 formats : image avec lien, lien seul (aperçu de l’article), image avec le lien en réponse.'],
         ['Texte', '450 caractères au plus, ton conversationnel, 1 à 2 emojis.'],
@@ -438,6 +493,45 @@
     },
   };
   const ORDRE = ['instagram', 'facebook', 'bluesky', 'threads', 'x'];
+
+  // Meilleurs horaires : pourquoi chaque réseau publie quand il publie. Les créneaux affichés sont ceux
+  // de la configuration, lus dans l'instantané ; ceux-ci ne servent qu'en attendant son chargement.
+  const HORAIRES = {
+    instagram: {
+      creneaux: [['12:00', '13:30'], ['18:00', '19:30']], nuit: { start: 23, end: 7 },
+      logique: 'Fil algorithmique : les premières interactions décident de la diffusion.',
+      pourquoi: 'Midi et début de soirée, les deux pics d’usage mobile des réseaux sociaux en France (Médiamétrie : 12 h – 14 h, puis 18 h – 19 h, avec le pic du web à 18 h 41). Buffer, sur 9,6 millions de posts, classe mercredi 12 h et 18 h dans son trio de tête.',
+      sources: [['Buffer · Sprout · Hootsuite', 'https://socialk.it/en/best-time-to-post/instagram'], ['Swello', 'https://swello.com/fr/blog/quand-poster-sur-instagram/'], ['Médiamétrie', 'https://www.blogdumoderateur.com/francais-usage-internet-chiffres-mediametrie-2025/']],
+    },
+    facebook: {
+      creneaux: [['08:00', '09:30'], ['20:00', '21:30']], nuit: { start: 22, end: 8 },
+      logique: 'Fil algorithmique.',
+      pourquoi: 'Le matin suit les études au taux d’engagement (Hootsuite 8 h, Buffer 9 h) : on lit l’actualité, le fil est encore peu chargé. Le soir suit les études au volume et françaises (20 h – 23 h) : heures de loisir, on prépare ses sorties.',
+      sources: [['Sprout Social', 'https://sproutsocial.com/insights/best-times-to-post-on-social-media/'], ['Comparatif des études', 'https://socialk.it/en/best-time-to-post/facebook'], ['Swello', 'https://swello.com/fr/blog/quand-poster-sur-facebook/']],
+    },
+    bluesky: {
+      creneaux: [['08:00', '09:30'], ['12:00', '13:30'], ['18:00', '19:30']], nuit: { start: 22, end: 8 },
+      logique: 'Fil chronologique : un post n’est vu que par les abonnés en ligne à ce moment-là.',
+      pourquoi: 'Aucune étude rigoureuse n’existe encore ; les données d’éditeurs d’outils convergent sur 8 h – 10 h et 18 h – 21 h. Calé sur les trois pics d’usage français : matin, midi, 18 h.',
+      sources: [['Comparatif des données', 'https://socialk.it/en/best-time-to-post/bluesky'], ['Hopper HQ', 'https://www.hopperhq.com/blog/best-time-to-post-on-bluesky/']],
+    },
+    threads: {
+      creneaux: [['07:00', '08:30'], ['10:00', '11:30'], ['13:00', '14:30']], nuit: { start: 22, end: 7 },
+      logique: 'Fil algorithmique.',
+      pourquoi: 'Buffer, sur 2,5 millions de posts Threads (2026) : les matinées de semaine dominent, jeudi 9 h en tête, et les soirées sous-performent tous les jours. Une audience d’actifs qui lit le matin.',
+      sources: [['Buffer', 'https://buffer.com/resources/the-best-time-to-post-on-threads/']],
+    },
+    x: {
+      creneaux: [['09:00', '10:30'], ['12:00', '13:30'], ['16:00', '17:30']], nuit: { start: 22, end: 7 },
+      logique: 'Fil algorithmique : les interactions de la première heure décident.',
+      pourquoi: 'Buffer, sur 8,7 millions de posts (mars 2026) : mardi et mercredi 9 h – 10 h en tête, soirées les plus faibles. Publication à la main : le kit arrive au début du créneau, pendant la journée de travail.',
+      sources: [['Buffer', 'https://buffer.com/resources/best-time-to-post-on-twitter-x/'], ['Sprout Social', 'https://sproutsocial.com/insights/best-times-to-post-on-twitter/']],
+    },
+  };
+  const listeCreneaux = (c) => {
+    const t = c.map(([a, b]) => `${hhmm(a)} – ${hhmm(b)}`);
+    return t.length > 1 ? `${t.slice(0, -1).join(', ')} et ${t.at(-1)}` : t[0] ?? '';
+  };
   const nom = (id) => NETS[id]?.nom ?? id;
   const glyphe = (id, taille = '') => {
     const n = NETS[id] ?? { glyph: '?', couleur: '#777' };
@@ -496,6 +590,12 @@
       .map((q) => {
         const r = etat.reseaux?.[q.channel];
         if (!r?.creneaux) return { ...q, reel: passageReel(q.dueAt) };
+        // actualité chaude : part au passage suivant, sans attendre de créneau, et compte dans le plafond
+        if (q.nature === 'actu_chaude') {
+          const reel = passageReel(q.dueAt);
+          noter(q.channel, reel, r.creneaux);
+          return { ...q, reel, urgent: true };
+        }
         const t = new Date(Math.ceil(Math.max(new Date(q.dueAt).getTime(), Date.now()) / 60000) * 60000);
         for (let n = 0; n <= 60 * 24 * 4; n++, t.setTime(t.getTime() + 60000)) {
           if (!passages.includes(t.getUTCMinutes())) continue;
@@ -512,8 +612,10 @@
 
   function rythme(id, r) {
     const unite = NETS[id].unite ?? '';
-    const max = r?.maxParJour ? `${r.maxParJour}${unite ? ` ${unite}` : ''} par jour` : '';
-    if (r?.creneaux?.length) return `${max} : ${r.creneaux.map(([a, b]) => `${hhmm(a)} – ${hhmm(b)}`).join(' et ')}`;
+    const max = `${r?.maxParJour ?? HORAIRES[id].creneaux.length}${unite ? ` ${unite}` : ''} par jour`;
+    // avant le premier chargement, les créneaux de référence ; ensuite, ceux de la configuration
+    const creneaux = r ? r.creneaux : HORAIRES[id].creneaux;
+    if (creneaux?.length) return `${max} : ${listeCreneaux(creneaux)}`;
     if (Array.isArray(r?.ecart) || r?.ecart) {
       const [a, b] = Array.isArray(r.ecart) ? r.ecart : [r.ecart, r.ecart];
       const ecart = a ? `, ${duree(a)}${b !== a ? ` à ${duree(b)}` : ''} d’écart` : '';
@@ -629,14 +731,17 @@
     $('planning').innerHTML = [...jours].map(([jour, items]) => `<div class="day"><h3>${esc(jour)}</h3><ol>${items.map((q) => {
       const creneaux = etat.reseaux?.[q.channel]?.creneaux;
       // échéance hors créneau : le robot la reportera, ce n'est pas un retard
-      const reporte = Boolean(creneaux) && passageReel(q.dueAt) !== q.reel;
+      const reporte = Boolean(creneaux) && !q.urgent && passageReel(q.dueAt) !== q.reel;
       const retard = !reporte && new Date(q.dueAt).getTime() < Date.now();
       let creneau = '';
-      if (creneaux) {
+      if (q.urgent) {
+        creneau = '<span class="pill warn" title="Actualité chaude : part au passage suivant, sans attendre de créneau.">actu chaude</span>';
+      } else if (creneaux) {
+        // nommé par ses heures : Threads a deux créneaux le matin, « du matin » serait ambigu
         const i = creneauDe(q.reel, creneaux);
-        const quel = i === 0 ? 'du matin' : i === creneaux.length - 1 ? 'du soir' : `n° ${i + 1}`;
+        const quel = i >= 0 ? `${hhmm(creneaux[i][0])} – ${hhmm(creneaux[i][1])}` : '';
         creneau = reporte
-          ? `<span class="pill info" title="Échéance hors créneau : le robot reportera ce post au créneau ${quel}, à un passage tiré au hasard.">reporté au créneau ${quel}</span>`
+          ? `<span class="pill info" title="Échéance hors créneau : le robot reportera ce post dans ce créneau, à un passage tiré au hasard.">reporté au créneau ${quel}</span>`
           : `<span class="pill info">créneau ${quel}</span>`;
       }
       const tard = retard ? `<span class="pill warn" title="Échéance de ${heure(q.dueAt)} dépassée : part au passage suivant">en retard</span>` : '';
@@ -755,11 +860,40 @@
     }
   }
 
+  // Frise de la journée (6 h – minuit) : créneaux, heures creuses, maintenant ; puis le pourquoi
+  function rendreHoraires() {
+    const DEBUT = 6;
+    const FIN = 24;
+    const borne = (h) => Math.min(Math.max(h, DEBUT), FIN);
+    const pct = (h) => `${(((borne(h) - DEBUT) / (FIN - DEBUT)) * 100).toFixed(2)}%`;
+    const largeur = (a, b) => `${(((borne(b) - borne(a)) / (FIN - DEBUT)) * 100).toFixed(2)}%`;
+    const [hh, mm] = heure(Date.now()).split(':').map(Number);
+    const maintenant = hh + mm / 60;
+    const trait = maintenant >= DEBUT ? `<i class="tl-now" style="left:${pct(maintenant)}" aria-hidden="true"></i>` : '';
+    const axe = [6, 9, 12, 15, 18, 21, 24].map((h) => `<span class="h" style="left:${pct(h)}">${h} h</span>`).join('');
+    const lignes = ORDRE.map((id) => {
+      const r = etat?.reseaux?.[id];
+      const creneaux = r?.creneaux ?? HORAIRES[id].creneaux;
+      const nuit = r?.nuit ?? HORAIRES[id].nuit;
+      const zones = nuit ? [[nuit.start, FIN], [DEBUT, nuit.end]].filter(([a, b]) => b > a) : [];
+      const gris = zones.map(([a, b]) => `<span class="tl-nuit" style="left:${pct(a)};width:${largeur(a, b)}"></span>`).join('');
+      const bandes = creneaux.map(([a, b]) => `<span class="tl-win" style="left:${pct(enHeures(a))};width:${largeur(enHeures(a), enHeures(b))};background:${NETS[id].couleur}" title="${esc(`${nom(id)} : ${hhmm(a)} – ${hhmm(b)}`)}">${esc(hhmm(a))}</span>`).join('');
+      return `<div class="tl-row"><span class="nom">${glyphe(id, 'sm')}${esc(nom(id))}</span><div class="tl-track">${gris}${bandes}${trait}</div></div>`;
+    }).join('');
+    $('timeline').innerHTML = `<div class="tl-row tl-axe"><span></span><div class="tl-track">${axe}</div></div>${lignes}`;
+    $('pourquoi').innerHTML = ORDRE.map((id) => {
+      const h = HORAIRES[id];
+      const creneaux = etat?.reseaux?.[id]?.creneaux ?? h.creneaux;
+      return `<tr><th scope="row">${glyphe(id, 'sm')}${esc(nom(id))}</th><td class="cr">${creneaux.map(([a, b]) => `<span class="nw">${esc(`${hhmm(a)} – ${hhmm(b)}`)}</span>`).join('<br>')}</td><td><b>${esc(h.logique)}</b> ${esc(h.pourquoi)}</td><td class="src">${h.sources.map(([l, u]) => `<a href="${u}" target="_blank" rel="noopener">${esc(l)} ↗</a>`).join('')}</td></tr>`;
+    }).join('');
+  }
+
   function toutRendre() {
     rendreStatut();
     rendreReseaux();
     rendrePlanning();
     rendrePublications();
+    rendreHoraires();
     rendreSemaine();
     rendreLieux();
   }
@@ -824,6 +958,7 @@
     rendreStatut();
     rendrePlanning();
     rendrePublications();
+    rendreHoraires();
   }, 30000);
 })();
 </script>

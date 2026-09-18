@@ -1,4 +1,4 @@
-// Planification pure (sans E/S) : écart variable, heures creuses, reprise du matin variable, décalage aléatoire
+// Planification pure (sans E/S) : créneaux par réseau, heures creuses, écart minimum, décalage aléatoire
 const MINUTE = 60e3;
 const HOUR = 60 * MINUTE;
 
@@ -42,16 +42,21 @@ export const jitter = (range, rng = Math.random) => pick(range, rng) * MINUTE;
 const range = (v) => (Array.isArray(v) ? v : [v, v]);
 export const minGapMs = (channel) => range(channel.gapHours)[0] * HOUR;
 
-// ── Créneaux fixes ──
-// Facebook : un post le matin, un en fin de journée. Chaque créneau reçoit au plus un post, à un
-// passage du robot tiré au hasard parmi ceux qu'il contient : l'heure n'est jamais fixe, et elle est
-// toujours réelle — un instant tiré entre deux passages ne partirait qu'au suivant, parfois hors créneau.
+// ── Le moteur des meilleurs horaires ──
+// Chaque réseau a ses créneaux, choisis d'après les études d'audience (sources dans
+// config/channels.json) : un post au plus par créneau, à un passage du robot tiré au hasard parmi
+// ceux que le créneau contient. L'heure n'est jamais fixe, et elle est toujours réelle : un instant
+// tiré entre deux passages ne partirait qu'au suivant, parfois hors créneau.
+// Exception : une actualité chaude part au passage suivant sans attendre de créneau, comme dans une
+// rédaction — la fraîcheur prime sur l'horaire. Dans tous les cas : heures creuses respectées, écart
+// minimum avec le post précédent du même réseau, plafond du jour vérifié au moment de publier.
 
 // Cadence du robot : le cron o2switch le déclenche à :00 et :20. Le cron GitHub, trop irrégulier
 // (2 passages sur 48 demandés, mesuré le 18/09/2026), n'entre pas dans le calcul.
 export const PASSAGES = [0, 20];
 // Le robot démarre au passage mais n'atteint la publication que quelques minutes plus tard
 const TOLERANCE_H = 0.25;
+export const URGENT = 'actu_chaude';
 
 const enHeures = (hhmm) => {
   const [h, m = 0] = String(hhmm).split(':').map(Number);
@@ -69,6 +74,8 @@ const cleCreneau = (ms, creneaux, timeZone, tolerance = 0) => {
   return i < 0 ? null : `${dayKey(ms, timeZone)}#${i}`;
 };
 
+const ecartMinMs = (channel) => (channel.ecartMinHeures ?? 0) * HOUR;
+
 // Passages du robot à partir de `ms` (inclus), sur 9 jours au plus. Les minutes sont les mêmes
 // en heure de Paris et en UTC, le décalage étant d'heures entières, changements d'heure compris.
 function* passagesDepuis(ms, passages) {
@@ -78,13 +85,21 @@ function* passagesDepuis(ms, passages) {
   }
 }
 
-export function planCreneau({ now, lastAt = 0, lastPlannedAt = 0, channel, timeZone, rng = Math.random, passages = PASSAGES }) {
+export function planCreneau({ now, lastAt = 0, lastPlannedAt = 0, channel, timeZone, nature = null, rng = Math.random, passages = PASSAGES }) {
+  // Actualité chaude : premier passage hors nuit, à l'écart minimum du dernier post PUBLIÉ.
+  // Elle ne se range pas derrière les posts prévus plus tard : c'est eux qui lui céderont la place.
+  if (nature === URGENT) {
+    const depart = Math.max(now, lastAt ? lastAt + ecartMinMs(channel) : 0);
+    for (const t of passagesDepuis(depart, passages)) if (!isQuiet(t, channel.quietHours, timeZone)) return t;
+    return Math.round(depart);
+  }
   const dernier = Math.max(lastAt, lastPlannedAt);
   // le créneau du dernier post, publié ou prévu, est pris : on passe au suivant
   const pris = dernier ? cleCreneau(dernier, channel.creneaux, timeZone, TOLERANCE_H) : null;
+  const depart = Math.max(now, dernier ? dernier + Math.max(ecartMinMs(channel), MINUTE) : 0);
   const candidats = [];
   let retenu = null;
-  for (const t of passagesDepuis(Math.max(now, dernier + 1), passages)) {
+  for (const t of passagesDepuis(depart, passages)) {
     const cle = cleCreneau(t, channel.creneaux, timeZone);
     if (!cle || cle === pris) {
       if (candidats.length) break;
@@ -98,9 +113,10 @@ export function planCreneau({ now, lastAt = 0, lastPlannedAt = 0, channel, timeZ
   return candidats[Math.min(candidats.length - 1, Math.floor(rng() * candidats.length))];
 }
 
-// Heure prévue : écart variable après la dernière publication (ou prévision), hors nuit, décalage aléatoire
-export function planDueAt({ now, lastAt = 0, lastPlannedAt = 0, channel, timeZone, rng = Math.random }) {
-  if (channel.creneaux) return planCreneau({ now, lastAt, lastPlannedAt, channel, timeZone, rng });
+// Heure prévue. Réseau à créneaux : le moteur des meilleurs horaires. Réseau sans créneaux (conservé
+// pour la compatibilité) : écart variable après le dernier post, hors nuit, décalage aléatoire.
+export function planDueAt({ now, lastAt = 0, lastPlannedAt = 0, channel, timeZone, nature = null, rng = Math.random }) {
+  if (channel.creneaux) return planCreneau({ now, lastAt, lastPlannedAt, channel, timeZone, nature, rng });
   const base = Math.max(lastAt, lastPlannedAt);
   let due = Math.max(now, base ? base + pick(range(channel.gapHours), rng) * HOUR : 0) + jitter(channel.jitterMinutes, rng);
   if (isQuiet(due, channel.quietHours, timeZone)) {
@@ -110,12 +126,16 @@ export function planDueAt({ now, lastAt = 0, lastPlannedAt = 0, channel, timeZon
 }
 
 // Au moment de publier : null si c'est possible, sinon la nouvelle heure prévue
-export function recheck({ now, lastAt = 0, channel, timeZone, rng = Math.random }) {
-  // créneaux : on publie si l'on est dans un créneau encore libre aujourd'hui, sinon au suivant
+export function recheck({ now, lastAt = 0, channel, timeZone, nature = null, rng = Math.random }) {
   if (channel.creneaux) {
+    const tropTot = Boolean(lastAt) && now - lastAt < ecartMinMs(channel);
+    const replanifier = () => planCreneau({ now, lastAt, channel, timeZone, nature, rng });
+    // actualité chaude : dès que la nuit et l'écart minimum le permettent
+    if (nature === URGENT) return !tropTot && !isQuiet(now, channel.quietHours, timeZone) ? null : replanifier();
+    // sinon : dans un créneau encore libre aujourd'hui, à l'écart minimum du post précédent
     const ici = cleCreneau(now, channel.creneaux, timeZone, TOLERANCE_H);
     const pris = lastAt ? cleCreneau(lastAt, channel.creneaux, timeZone, TOLERANCE_H) : null;
-    return ici && ici !== pris ? null : planCreneau({ now, lastAt, channel, timeZone, rng });
+    return ici && ici !== pris && !tropTot ? null : replanifier();
   }
   if (lastAt && now < lastAt + minGapMs(channel)) return planDueAt({ now, lastAt, channel, timeZone, rng });
   if (isQuiet(now, channel.quietHours, timeZone)) return planDueAt({ now, channel, timeZone, rng });

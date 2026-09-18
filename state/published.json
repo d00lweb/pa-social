@@ -167,5 +167,22 @@
       "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/reouverture-brunch-sans-pression-bordeaux/",
       "sujet": "Bordeaux"
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35569",
+    "channel": "x",
+    "at": "2026-09-18T07:20:44.799Z",
+    "mediaId": "kit-telegram",
+    "titre": "Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée du Périgord",
+    "lien": "https://passion-aquitaine.ouest-france.fr/perigordine-ultra-trail-2026-parcours/",
+    "format": "reponse",
+    "mention": false,
+    "apercu": {
+      "texte": "Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée du Périgord 🏛️",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260918-98a782d2-x.jpg",
+      "mode": "reponse",
+      "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/perigordine-ultra-trail-2026-parcours/",
+      "sujet": null
+    }
   }
 ]

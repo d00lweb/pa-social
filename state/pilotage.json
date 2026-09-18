@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-18T07:00:55.475Z",
+  "genereLe": "2026-09-18T07:20:36.196Z",
   "jour": "2026-09-18",
   "reseaux": {
     "instagram": {
@@ -33,12 +33,28 @@
     "x": {
       "actif": true,
       "maxParJour": 3,
-      "aujourdhui": 1,
-      "total": 5,
-      "dernier": "2026-09-18T06:25:35.593Z"
+      "aujourdhui": 2,
+      "total": 6,
+      "dernier": "2026-09-18T07:20:44.799Z"
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35569",
+      "titre": "Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée du Périgord",
+      "lien": "https://passion-aquitaine.ouest-france.fr/perigordine-ultra-trail-2026-parcours/",
+      "at": "2026-09-18T07:20:44.799Z",
+      "reseaux": {
+        "x": {
+          "texte": "Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée du Périgord 🏛️",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260918-98a782d2-x.jpg",
+          "mode": "reponse",
+          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/perigordine-ultra-trail-2026-parcours/",
+          "sujet": null,
+          "publieLe": "2026-09-18T07:20:44.799Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35561",
       "titre": "Le brunch le plus généreux de Bordeaux a rouvert ses portes",
@@ -97,11 +113,6 @@
     }
   ],
   "file": [
-    {
-      "channel": "x",
-      "dueAt": "2026-09-18T07:10:02.716Z",
-      "titre": "Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée du Périgord"
-    },
     {
       "channel": "bluesky",
       "dueAt": "2026-09-18T09:26:09.246Z",

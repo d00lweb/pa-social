@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-18T14:00:38.983Z",
+  "genereLe": "2026-09-18T14:20:45.097Z",
   "jour": "2026-09-18",
   "reseaux": {
     "instagram": {
@@ -378,16 +378,20 @@
   "file": [
     {
       "channel": "threads",
-      "dueAt": "2026-09-19T06:20:00.000Z",
-      "prochainPassage": "2026-09-19T06:20:00.000Z",
+      "dueAt": "2026-09-19T06:28:44.793Z",
+      "prochainPassage": "2026-09-19T07:00:00.000Z",
       "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
       "titre": "Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée du Périgord"
     },
     {
       "channel": "facebook",
-      "dueAt": "2026-09-19T07:00:00.000Z",
-      "prochainPassage": "2026-09-19T07:00:00.000Z",
+      "dueAt": "2026-09-19T07:03:17.682Z",
+      "prochainPassage": "2026-09-19T07:20:00.000Z",
       "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
       "titre": "Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée du Périgord"
     }
   ],

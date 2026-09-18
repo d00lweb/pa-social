@@ -30,10 +30,10 @@ test('réserve : ce qui dépasse le plafond part au premier créneau du lendemai
   assert.ok(heure >= quiet.end && heure < quiet.start, `créneau ouvert (${heure} h), jamais pendant la nuit`);
 });
 
-test('plafonds configurés : 2 par jour sur Facebook, avec 3 h d’écart minimum', () => {
+test('plafonds configurés : 2 par jour sur Facebook, un par créneau', () => {
   const fb = config.channels.facebook;
   assert.equal(fb.maxPerDay, 2);
-  assert.equal(fb.gapHours[0], 3, 'au moins 3 h entre deux posts Facebook');
+  assert.equal(fb.creneaux.length, fb.maxPerDay, 'autant de créneaux que de posts autorisés : un le matin, un le soir');
   for (const [nom, canal] of Object.entries(config.channels)) {
     assert.ok(canal.maxPerDay >= 1, `${nom} : un plafond quotidien est défini`);
   }

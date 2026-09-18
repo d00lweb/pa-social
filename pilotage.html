@@ -4,25 +4,20 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Régie Passion Aquitaine</title>
+<meta name="description" content="Pilotage des publications Passion Aquitaine sur les réseaux sociaux : état en direct, planning, dernières publications.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23CD402C'/%3E%3Ctext x='32' y='42' font-family='Arial' font-weight='700' font-size='26' fill='white' text-anchor='middle'%3EPA%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
-  /* Tenir à jour après chaque étape de docs/ROADMAP.md */
+  /* Page de pilotage : lit state/pilotage.json, publié par le robot à chaque passage. */
   :root {
-    --ground: #F6F4F2;
-    --panel: #FFFFFF;
-    --ink: #1C1A19;
-    --muted: #726A65;
-    --line: #E6E0DC;
-    --red: #CD402C;
-    --red-soft: #FBEAE6;
-    --live: #1E7A4C;
-    --live-soft: #E3F2EA;
-    --next: #95620F;
-    --next-soft: #FAF0DC;
-    --idle: #6E6A67;
-    --idle-soft: #EEEBE8;
+    --ground: #F6F4F2; --panel: #FFFFFF; --ink: #1C1A19; --muted: #6F6762; --line: #E6E0DC;
+    --red: #CD402C; --red-soft: #FBEAE6;
+    --live: #1E7A4C; --live-soft: #E3F2EA;
+    --warn: #9A5B0B; --warn-soft: #FAF0DC;
+    --info: #2563A8; --info-soft: #E4EEF9;
+    --idle: #6E6A67; --idle-soft: #EEEBE8;
     --shadow: 0 1px 2px rgba(28, 26, 25, .05), 0 8px 24px rgba(28, 26, 25, .06);
     --display: "Montserrat", "Segoe UI", system-ui, sans-serif;
     --mono: "IBM Plex Mono", ui-monospace, Consolas, monospace;
@@ -31,601 +26,805 @@
     :root {
       --ground: #141211; --panel: #1D1A19; --ink: #EEE9E6; --muted: #A59D98; --line: #332E2C;
       --red: #E8664F; --red-soft: #3A201B; --live: #5CC08E; --live-soft: #15301F;
-      --next: #E1AA4E; --next-soft: #33280F; --idle: #A7A19C; --idle-soft: #2A2624;
+      --warn: #E1AA4E; --warn-soft: #33280F; --info: #7FB0EA; --info-soft: #172638;
+      --idle: #A7A19C; --idle-soft: #2A2624;
       --shadow: 0 1px 2px rgba(0,0,0,.3), 0 8px 24px rgba(0,0,0,.25);
     }
   }
   * { box-sizing: border-box; }
-  body { margin: 0; background: var(--ground); color: var(--ink); font-family: var(--display); font-size: 15px; line-height: 1.55; padding: 40px 24px 80px; }
-  .wrap { max-width: 1120px; margin: 0 auto; display: grid; gap: 44px; }
+  /* sans cette règle, « section { display: grid } » ferait réapparaître les blocs masqués */
+  [hidden] { display: none !important; }
+  body { margin: 0; background: var(--ground); color: var(--ink); font-family: var(--display); font-size: 15px; line-height: 1.55; padding: 36px 24px 72px; }
+  .wrap { max-width: 1180px; margin: 0 auto; display: grid; gap: 40px; }
   a { color: inherit; text-decoration-color: var(--red); text-underline-offset: 3px; }
   a:hover { color: var(--red); }
-  a:focus-visible { outline: 2px solid var(--red); outline-offset: 2px; border-radius: 3px; }
+  a:focus-visible, button:focus-visible, select:focus-visible, summary:focus-visible, code.cmd:focus-visible { outline: 2px solid var(--red); outline-offset: 2px; border-radius: 4px; }
   h1, h2, h3, p { margin: 0; }
+  h2 { font-size: 20px; font-weight: 800; letter-spacing: -.01em; }
+  h3 { font-size: 15px; font-weight: 800; }
   .label { font-size: 11px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
-  code, .mono { font-family: var(--mono); font-size: 12.5px; }
-  code { background: var(--idle-soft); padding: 1px 6px; border-radius: 4px; }
+  .hint, .muted { color: var(--muted); font-size: 13px; }
+  code { font-family: var(--mono); font-size: 12.5px; background: var(--idle-soft); padding: 1px 6px; border-radius: 4px; }
+  code.cmd { cursor: copy; border: 1px dashed transparent; }
+  code.cmd:hover { border-color: var(--red); }
+  section { display: grid; gap: 16px; }
+  .sec-head { display: flex; justify-content: space-between; align-items: baseline; gap: 8px 16px; flex-wrap: wrap; }
+  .panel { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; box-shadow: var(--shadow); overflow: hidden; }
+  .pad { padding: 18px 20px; display: grid; gap: 14px; }
+  .empty { color: var(--muted); padding: 22px; font-size: 14px; }
+  .note { color: var(--muted); font-size: 12.5px; }
 
   /* En-tête */
-  header { display: grid; grid-template-columns: 1fr auto; gap: 24px; align-items: end; padding-bottom: 28px; border-bottom: 1px solid var(--line); }
-  .brand { display: flex; align-items: center; gap: 14px; }
-  .mark { width: 44px; height: 44px; border-radius: 10px; background: var(--red); color: #fff; display: grid; place-items: center; font-weight: 800; font-size: 17px; letter-spacing: -.5px; }
-  h1 { font-size: clamp(26px, 4vw, 36px); font-weight: 800; letter-spacing: -.02em; line-height: 1.1; }
+  header.top { display: grid; grid-template-columns: 1fr auto; gap: 20px; align-items: end; padding-bottom: 24px; border-bottom: 1px solid var(--line); }
+  .brand { display: flex; align-items: flex-start; gap: 14px; }
+  .mark { width: 46px; height: 46px; flex: none; border-radius: 11px; background: var(--red); color: #fff; display: grid; place-items: center; font-weight: 800; font-size: 17px; letter-spacing: -.5px; }
+  h1 { font-size: clamp(24px, 4vw, 34px); font-weight: 800; letter-spacing: -.02em; line-height: 1.1; margin-top: 2px; }
   h1 span { color: var(--red); }
-  .sub { color: var(--muted); margin-top: 6px; max-width: 60ch; }
-  .onair { display: inline-flex; align-items: center; gap: 10px; padding: 10px 16px; border-radius: 999px; background: var(--live-soft); color: var(--live); font-weight: 700; font-size: 13px; white-space: nowrap; }
-  .onair i { width: 9px; height: 9px; border-radius: 50%; background: var(--live); box-shadow: 0 0 0 0 var(--live); animation: pulse 2.2s infinite; }
-  @keyframes pulse { 0% { box-shadow: 0 0 0 0 rgba(30,122,76,.45); } 70% { box-shadow: 0 0 0 9px rgba(30,122,76,0); } 100% { box-shadow: 0 0 0 0 rgba(30,122,76,0); } }
-  @media (prefers-reduced-motion: reduce) { .onair i { animation: none; } }
+  .sub { color: var(--muted); margin-top: 8px; max-width: 62ch; font-size: 14px; }
+  .health { display: grid; justify-items: end; gap: 6px; }
+  .status { display: inline-flex; align-items: center; gap: 10px; padding: 10px 16px; border-radius: 999px; font-weight: 700; font-size: 14px; white-space: nowrap; }
+  .status i { width: 9px; height: 9px; border-radius: 50%; background: currentColor; }
+  .status.ok { background: var(--live-soft); color: var(--live); }
+  .status.ok i { animation: pulse 2.2s infinite; }
+  .status.warn { background: var(--warn-soft); color: var(--warn); }
+  .status.bad { background: var(--red-soft); color: var(--red); }
+  .status.idle { background: var(--idle-soft); color: var(--idle); }
+  @keyframes pulse { 0% { box-shadow: 0 0 0 0 color-mix(in srgb, currentColor 45%, transparent); } 70% { box-shadow: 0 0 0 9px transparent; } 100% { box-shadow: 0 0 0 0 transparent; } }
+  @media (prefers-reduced-motion: reduce) { .status.ok i { animation: none; } }
+  .fresh { color: var(--muted); font-size: 12.5px; }
 
-  /* Chiffres clés */
-  .kpis { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; }
-  .kpi { background: var(--panel); padding: 18px 20px; display: grid; gap: 4px; }
-  .kpi b { font-size: 26px; font-weight: 800; letter-spacing: -.02em; font-variant-numeric: tabular-nums; }
-  .kpi span { color: var(--muted); font-size: 13px; line-height: 1.35; }
+  /* À traiter */
+  .alerts { display: grid; gap: 10px; }
+  .alert { background: var(--panel); border: 1px solid var(--line); border-left: 4px solid var(--warn); border-radius: 12px; padding: 14px 18px; display: grid; gap: 4px; }
+  .alert.alerte { border-left-color: var(--red); }
+  .alert b { font-size: 14.5px; }
+  .alert p { font-size: 13.5px; color: var(--muted); }
+  .alert .do { color: var(--ink); font-weight: 600; }
 
-  section { display: grid; gap: 18px; }
-  .sec-head { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; flex-wrap: wrap; }
-  h2 { font-size: 20px; font-weight: 800; letter-spacing: -.01em; }
-  .hint { color: var(--muted); font-size: 13px; }
-
-  /* Réseaux */
-  .nets { display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 16px; }
-  .net { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; box-shadow: var(--shadow); display: grid; grid-template-rows: auto 1fr auto; overflow: hidden; }
-  .net-top { padding: 18px 20px 14px; display: flex; justify-content: space-between; align-items: center; gap: 10px; }
-  .net-name { display: flex; align-items: center; gap: 10px; font-weight: 800; font-size: 17px; }
-  .glyph { width: 30px; height: 30px; border-radius: 8px; display: grid; place-items: center; color: #fff; font-size: 13px; font-weight: 800; }
-  .pill { font-size: 11px; font-weight: 700; padding: 4px 10px; border-radius: 999px; white-space: nowrap; }
+  /* Pastilles et glyphes */
+  .pill { display: inline-block; font-size: 11.5px; font-weight: 700; padding: 4px 10px; border-radius: 999px; white-space: nowrap; }
   .pill.live { background: var(--live-soft); color: var(--live); }
-  .pill.next { background: var(--next-soft); color: var(--next); }
+  .pill.warn { background: var(--warn-soft); color: var(--warn); }
+  .pill.info { background: var(--info-soft); color: var(--info); }
   .pill.idle { background: var(--idle-soft); color: var(--idle); }
-  .net dl { margin: 0; padding: 0 20px 16px; display: grid; gap: 10px; }
-  .net dl div { display: grid; grid-template-columns: 92px 1fr; gap: 10px; align-items: baseline; }
-  .net dt { font-size: 11px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
-  .net dd { margin: 0; font-size: 13.5px; line-height: 1.4; }
-  .net-foot { border-top: 1px solid var(--line); padding: 12px 20px; display: flex; justify-content: space-between; align-items: center; gap: 10px; font-size: 13px; }
-  .net-foot a { font-weight: 600; }
-  .net-foot .mono { color: var(--muted); }
-  .ratio { display: inline-block; vertical-align: -3px; border: 1.5px solid currentColor; border-radius: 2px; margin-right: 6px; opacity: .7; }
+  .glyph { width: 30px; height: 30px; flex: none; border-radius: 8px; display: inline-grid; place-items: center; color: #fff; font-size: 12px; font-weight: 800; }
+  .glyph.sm { width: 22px; height: 22px; border-radius: 6px; font-size: 10px; }
+  .glyph.lg { width: 100%; height: 100%; border-radius: 0; font-size: 22px; }
 
-  /* Maquettes */
-  .mock { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; box-shadow: var(--shadow); padding: 22px; display: grid; grid-template-columns: repeat(3, auto) 1fr; gap: 18px; align-items: start; }
-  .mock figure { margin: 0; display: grid; gap: 8px; }
-  .mock img { display: block; height: 300px; width: auto; max-width: 100%; border-radius: 8px; background: var(--idle-soft); }
-  .mock figcaption { font-size: 12px; color: var(--muted); }
-  .caption { background: var(--ground); border-radius: 10px; padding: 16px; font-size: 13.5px; line-height: 1.5; white-space: pre-line; align-self: stretch; }
-  .caption .tags { color: #1F5FB8; font-weight: 600; }
-  .sheet { background: var(--panel); border: 1px dashed var(--line); border-radius: 14px; padding: 18px 20px; display: grid; gap: 12px; }
-  .sheet summary { cursor: pointer; list-style: none; }
-  .sheet summary::-webkit-details-marker { display: none; }
-  .sheet img { width: 100%; border-radius: 8px; }
-  .sheet .empty { color: var(--muted); font-size: 13.5px; }
+  /* Tableau des réseaux */
+  table.nets { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+  table.nets thead th { text-align: left; font-size: 11px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); padding: 12px 14px; border-bottom: 1px solid var(--line); background: var(--ground); }
+  table.nets td, table.nets tbody th { padding: 14px; border-top: 1px solid var(--line); vertical-align: middle; text-align: left; font-weight: 500; }
+  table.nets tbody tr:first-child > * { border-top: 0; }
+  table.nets .num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  tr.net-row:hover { background: color-mix(in srgb, var(--ground) 60%, transparent); }
+  .toggle { all: unset; cursor: pointer; display: inline-flex; align-items: center; gap: 10px; font-weight: 800; font-size: 15px; }
+  .toggle .chev { display: inline-block; width: 12px; color: var(--muted); font-size: 18px; transition: transform .15s; }
+  .toggle[aria-expanded="true"] .chev { transform: rotate(90deg); }
+  .compte { display: block; margin: 4px 0 0 52px; font-size: 12.5px; font-weight: 500; color: var(--muted); }
+  tr.detail td { background: var(--ground); padding: 4px 18px 18px 66px; border-top: 0; }
+  tr.detail dl { margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px 24px; }
+  tr.detail dt { font-size: 11px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin-bottom: 2px; }
+  tr.detail dd { margin: 0; font-size: 13.5px; line-height: 1.45; }
+  table.nets tr[hidden] { display: none !important; }
 
-  /* Aperçus par réseau */
-  .pv-bar { display: flex; flex-wrap: wrap; gap: 12px 20px; align-items: end; justify-content: space-between; }
-  .pv-select { display: grid; gap: 6px; min-width: 0; flex: 1 1 320px; max-width: 560px; }
-  .pv-select select { font: inherit; font-size: 14px; padding: 9px 12px; border-radius: 10px; border: 1px solid var(--line); background: var(--panel); color: var(--ink); width: 100%; }
-  .chips { display: flex; flex-wrap: wrap; gap: 6px; }
-  .chip { font: inherit; font-size: 13px; font-weight: 600; padding: 7px 14px; border-radius: 999px; border: 1px solid var(--line); background: var(--panel); color: var(--ink); cursor: pointer; }
-  .chip:hover { border-color: var(--red); }
-  .chip.on { background: var(--ink); color: var(--panel); border-color: var(--ink); }
-  .chip:focus-visible, .pv-select select:focus-visible { outline: 2px solid var(--red); outline-offset: 2px; }
-  .pv-meta { display: flex; flex-wrap: wrap; gap: 8px; font-size: 13px; color: var(--muted); }
-  .pv-meta span { background: var(--panel); border: 1px solid var(--line); border-radius: 999px; padding: 3px 10px; }
-  .pv-meta .warn { color: var(--next); background: var(--next-soft); border-color: transparent; }
-  .pv-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; align-items: start; }
-  .pv-grid.single { grid-template-columns: minmax(0, 460px); }
-  .post { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; box-shadow: var(--shadow); overflow: hidden; display: grid; }
-  .post-net { display: flex; justify-content: space-between; align-items: center; padding: 10px 14px; font-size: 12px; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); border-bottom: 1px solid var(--line); background: var(--ground); }
-  .count { font-family: var(--mono); font-weight: 500; letter-spacing: 0; text-transform: none; }
-  .count.bad { color: var(--red); }
-  .who { display: flex; align-items: center; gap: 10px; padding: 12px 14px 8px; }
-  .avatar { width: 34px; height: 34px; border-radius: 50%; background: var(--red); color: #fff; display: grid; place-items: center; font-weight: 800; font-size: 12px; flex: none; }
-  .who b { font-size: 14px; display: block; line-height: 1.2; }
-  .who small { color: var(--muted); font-size: 12px; }
-  .ptext { padding: 4px 14px 12px; font-size: 14px; line-height: 1.45; white-space: pre-line; overflow-wrap: anywhere; }
-  .ptext .tag, .ptext .lnk { color: #1F6FD1; }
-  .more { color: var(--muted); cursor: pointer; background: none; border: 0; font: inherit; padding: 0; }
-  .media { position: relative; background: var(--idle-soft); }
-  .media img { display: block; width: 100%; height: 100%; object-fit: cover; }
-  .r45 { aspect-ratio: 4 / 5; }
-  .r169 { aspect-ratio: 16 / 9; }
-  .r191 { aspect-ratio: 1.91 / 1; }
-  .tmp { position: absolute; top: 8px; left: 8px; background: rgba(0,0,0,.72); color: #fff; font-size: 11px; font-weight: 600; padding: 3px 8px; border-radius: 6px; }
-  .dots { position: absolute; bottom: 10px; left: 0; right: 0; display: flex; justify-content: center; gap: 6px; }
-  .dots button { width: 8px; height: 8px; padding: 0; border-radius: 50%; border: 0; background: rgba(255,255,255,.55); cursor: pointer; }
-  .dots button.on { background: #fff; }
-  .card-link { margin: 0 14px 14px; border: 1px solid var(--line); border-radius: 12px; overflow: hidden; }
-  .card-link div { padding: 8px 12px 10px; display: grid; gap: 2px; }
-  .card-link small { color: var(--muted); font-size: 12px; }
-  .card-link b { font-size: 13.5px; line-height: 1.3; }
-  .comment { margin: 0 14px 14px; display: flex; gap: 8px; align-items: flex-start; }
-  .comment .avatar { width: 26px; height: 26px; font-size: 10px; }
-  .comment div { background: var(--ground); border-radius: 14px; padding: 7px 12px; font-size: 13px; overflow-wrap: anywhere; }
-  .topic { display: inline-block; margin: 0 14px 12px; font-size: 12.5px; color: var(--muted); border: 1px solid var(--line); border-radius: 999px; padding: 2px 10px; }
-  .story { display: flex; gap: 12px; align-items: center; padding: 12px 14px; border-top: 1px solid var(--line); font-size: 12.5px; color: var(--muted); }
-  .story img { width: 54px; aspect-ratio: 9 / 16; object-fit: cover; border-radius: 6px; }
-  .manual { margin: 0 14px 14px; font-size: 12px; color: var(--muted); }
-  .empty-box { background: var(--panel); border: 1px dashed var(--line); border-radius: 14px; padding: 22px; color: var(--muted); }
+  /* Planning */
+  .day + .day { border-top: 1px solid var(--line); }
+  .day h3 { font-size: 12px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); padding: 14px 18px 4px; }
+  .day ol { list-style: none; margin: 0; padding: 0 0 8px; }
+  .slot { display: grid; grid-template-columns: 64px auto 1fr auto; gap: 12px; align-items: center; padding: 9px 18px; }
+  .slot time { font-family: var(--mono); font-size: 16px; font-weight: 500; font-variant-numeric: tabular-nums; }
+  .slot .what { display: grid; gap: 1px; min-width: 0; }
+  .slot .what b { font-size: 14px; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+  .slot .titre { color: var(--muted); font-size: 13px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .slot .rel { font-size: 12.5px; color: var(--muted); white-space: nowrap; }
+  .slot.late time { color: var(--warn); }
 
-  /* Feuille de route */
-  .road { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(10, 1fr); gap: 6px; }
-  .road li { display: grid; gap: 8px; }
-  .road .bar { height: 6px; border-radius: 3px; background: var(--line); }
-  .road .done .bar { background: var(--live); }
-  .road .now .bar { background: var(--red); }
-  .road b { font-size: 12px; font-weight: 700; }
-  .road span { font-size: 12px; color: var(--muted); line-height: 1.3; }
-  .road .now b { color: var(--red); }
-
-  /* Anti-bannissement */
-  .shield { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; }
-  .shield div { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; display: grid; gap: 4px; align-content: start; }
-  .shield b { font-size: 14px; font-weight: 800; }
-  .shield span { font-size: 13px; color: var(--muted); line-height: 1.45; }
-  .shield .human { background: var(--next-soft); border-color: transparent; }
-  .shield .human b { color: var(--next); }
+  /* Dernières publications */
+  .posts { display: grid; gap: 12px; }
+  .post { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; box-shadow: var(--shadow); display: grid; grid-template-columns: 112px 1fr; overflow: hidden; }
+  /* vignette carrée, calée en haut : étirée sur toute la hauteur de la carte, elle laissait un vide */
+  .thumb { background: var(--idle-soft); position: relative; aspect-ratio: 1 / 1; align-self: start; }
+  .thumb > * { position: absolute; inset: 0; width: 100%; height: 100%; }
+  .thumb img { object-fit: cover; display: block; }
+  .post .body { padding: 14px 18px; display: grid; gap: 6px; align-content: start; min-width: 0; }
+  .post .meta { display: flex; align-items: center; gap: 8px; font-size: 13px; flex-wrap: wrap; }
+  .post .meta time { color: var(--muted); }
+  .post h3 { font-size: 15px; line-height: 1.35; }
+  .post .texte { font-size: 13.5px; color: var(--muted); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; white-space: pre-line; }
+  .actions { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 4px; }
+  .btn { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; font-weight: 700; padding: 7px 13px; border-radius: 999px; border: 1px solid var(--line); text-decoration: none; background: var(--panel); }
+  .btn:hover { border-color: var(--red); color: var(--red); }
+  .btn.primary { background: var(--ink); color: var(--panel); border-color: var(--ink); }
+  .btn.primary:hover { background: var(--red); border-color: var(--red); color: #fff; }
+  .btn.ghost { color: var(--muted); border-style: dashed; cursor: default; }
 
   /* Deux colonnes */
-  .duo { display: grid; grid-template-columns: 1.1fr .9fr; gap: 16px; }
+  .duo { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; align-items: start; }
   .card { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; box-shadow: var(--shadow); padding: 20px 22px; display: grid; gap: 14px; align-content: start; }
-  .card h3 { font-size: 15px; font-weight: 800; }
-  .rows { display: grid; gap: 0; }
-  .row { display: grid; grid-template-columns: 1fr auto; gap: 12px; padding: 10px 0; border-top: 1px solid var(--line); font-size: 13.5px; align-items: center; }
+  .card h2 { font-size: 17px; }
+  .bars { display: grid; gap: 10px; }
+  .bar-row { display: grid; grid-template-columns: 118px 1fr 64px; gap: 12px; align-items: center; font-size: 13.5px; }
+  .bar-row .nom { display: flex; align-items: center; gap: 8px; font-weight: 600; }
+  .bar { height: 8px; border-radius: 4px; background: var(--idle-soft); overflow: hidden; }
+  .bar i { display: block; height: 100%; background: var(--red); border-radius: 4px; }
+  .bar-val { text-align: right; font-variant-numeric: tabular-nums; font-weight: 700; }
+  .bar-val small { color: var(--muted); font-weight: 500; }
+  .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
+  .stats div { background: var(--panel); padding: 12px 14px; display: grid; }
+  .stats b { font-size: 22px; font-weight: 800; font-variant-numeric: tabular-nums; }
+  .stats span { font-size: 12px; color: var(--muted); }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+  .chip { font-size: 12.5px; font-weight: 600; padding: 4px 11px; border-radius: 999px; border: 1px solid var(--line); background: var(--ground); }
+  .howto { background: var(--info-soft); color: var(--ink); border-radius: 10px; padding: 12px 14px; font-size: 13.5px; }
+  .howto b { color: var(--info); }
+
+  /* Rapports */
+  .field { display: grid; gap: 6px; max-width: 320px; }
+  .field select { font: inherit; font-size: 14px; padding: 9px 12px; border-radius: 10px; border: 1px solid var(--line); background: var(--panel); color: var(--ink); }
+  .rows { display: grid; }
+  .row { display: grid; grid-template-columns: 1fr auto; gap: 12px; padding: 9px 0; border-top: 1px solid var(--line); font-size: 13.5px; align-items: center; }
   .row:first-child { border-top: 0; }
   .row small { display: block; color: var(--muted); font-size: 12px; }
-  .when { font-size: 12px; font-weight: 700; white-space: nowrap; }
+  .row .val { font-weight: 700; font-variant-numeric: tabular-nums; }
+
+  /* Que faire si… */
+  .faq { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px; }
+  .faq article { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 16px 18px; display: grid; gap: 6px; align-content: start; }
+  .faq b { font-size: 14.5px; }
+  .faq p { font-size: 13.5px; color: var(--muted); line-height: 1.5; }
+  .faq a { font-size: 13px; font-weight: 700; }
+
+  /* Garde-fous */
+  details.rules > summary { list-style: none; cursor: pointer; padding: 18px 20px; display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+  details.rules > summary::-webkit-details-marker { display: none; }
+  details.rules > summary h2::after { content: " ›"; color: var(--muted); display: inline-block; transition: transform .15s; }
+  details.rules[open] > summary h2::after { transform: rotate(90deg); }
+  .shield { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 12px; padding: 0 20px 20px; }
+  .shield div { border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; display: grid; gap: 4px; align-content: start; }
+  .shield b { font-size: 14px; }
+  .shield span { font-size: 13px; color: var(--muted); line-height: 1.45; }
+  .shield .human { background: var(--warn-soft); border-color: transparent; }
+  .shield .human b { color: var(--warn); }
 
   footer { color: var(--muted); font-size: 12.5px; border-top: 1px solid var(--line); padding-top: 18px; display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+  .toast { position: fixed; left: 50%; bottom: 24px; transform: translate(-50%, 20px); opacity: 0; background: var(--ink); color: var(--panel); padding: 10px 16px; border-radius: 999px; font-size: 13.5px; font-weight: 600; transition: opacity .2s, transform .2s; pointer-events: none; }
+  .toast.on { opacity: 1; transform: translate(-50%, 0); }
 
   @media (max-width: 900px) {
-    .kpis { grid-template-columns: repeat(2, 1fr); }
     .duo { grid-template-columns: 1fr; }
-    .mock { grid-template-columns: repeat(3, 1fr); }
-    .mock img { height: auto; width: 100%; }
-    .caption { grid-column: 1 / -1; }
-    .road { grid-template-columns: repeat(5, 1fr); row-gap: 16px; }
   }
-  @media (max-width: 560px) {
+  @media (max-width: 760px) {
     body { padding: 24px 16px 60px; }
-    header { grid-template-columns: 1fr; }
-    .mock { grid-template-columns: 1fr 1fr; }
-    .road { grid-template-columns: repeat(2, 1fr); }
+    header.top { grid-template-columns: 1fr; }
+    .health { justify-items: start; }
+    table.nets thead { display: none; }
+    table.nets, table.nets tbody, table.nets tr, table.nets td, table.nets tbody th { display: block; width: 100%; }
+    table.nets tr.net-row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px 14px; padding: 14px 16px; border-top: 1px solid var(--line); }
+    table.nets tbody tr:first-child { border-top: 0; }
+    table.nets tr.net-row > * { padding: 0; border: 0; }
+    table.nets tr.net-row > th, table.nets tr.net-row > td[data-label="Publication"], table.nets tr.net-row > td[data-label="Rythme"] { grid-column: 1 / -1; }
+    table.nets td[data-label]::before { content: attr(data-label); display: block; font-size: 10.5px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+    table.nets .num { text-align: left; }
+    .compte { margin-left: 52px; }
+    tr.detail td { padding: 0 16px 16px; }
+    .slot { grid-template-columns: 52px auto 1fr; }
+    .slot .rel { grid-column: 3; }
+    .post { grid-template-columns: 84px 1fr; }
+    .bar-row { grid-template-columns: 96px 1fr 56px; }
   }
 </style>
 </head>
 <body>
 <div class="wrap">
 
-  <header>
-    <div>
-      <div class="brand">
-        <div class="mark">PA</div>
-        <div>
-          <p class="label">pa-social · régie</p>
-          <h1>Relais réseaux <span>Passion Aquitaine</span></h1>
-        </div>
+  <header class="top">
+    <div class="brand">
+      <div class="mark" aria-hidden="true">PA</div>
+      <div>
+        <p class="label">pa-social · régie</p>
+        <h1>Relais réseaux <span>Passion Aquitaine</span></h1>
+        <p class="sub">Chaque article du site devient un post adapté à chaque réseau : visuel, texte rédigé par l’IA, horaire. Cette page lit l’état réel du robot et s’actualise toute seule.</p>
       </div>
-      <p class="sub">Chaque article du site devient automatiquement un post adapté à chaque réseau : visuel, texte rédigé par l'IA, horaire. Cette page lit l'état réel du robot à chaque ouverture.</p>
     </div>
-    <div class="onair"><i></i>5 réseaux en production</div>
+    <div class="health">
+      <div class="status idle" id="statut" role="status"><i aria-hidden="true"></i><span>Chargement…</span></div>
+      <p class="fresh" id="fraicheur">&nbsp;</p>
+    </div>
   </header>
 
-  <div class="kpis">
-    <div class="kpi"><b id="k-reseaux">4 / 5</b><span>réseaux publiés automatiquement, + kit X manuel</span></div>
-    <div class="kpi"><b id="k-posts">—</b><span>publications au total</span></div>
-    <div class="kpi"><b>20 min</b><span>vérification du flux (cron o2switch)</span></div>
-    <div class="kpi"><b>≈ 3 €</b><span>par mois (rédaction IA), le reste est gratuit</span></div>
-  </div>
-
-  <!-- En direct : lu à chaque ouverture depuis state/pilotage.json publié par le robot -->
-  <section id="live">
-    <div class="sec-head">
-      <h2>En direct</h2>
-      <p class="hint" id="live-stamp">Chargement de l'état du robot…</p>
-      <p class="hint" id="live-mesures"></p>
-    </div>
-    <div class="rows" id="live-alertes" hidden></div>
-    <div class="nets" id="live-nets"></div>
-    <div class="sec-head" style="margin-top:26px"><h2>Prochaines publications</h2></div>
-    <div class="rows" id="live-file"><div class="row"><div>Chargement…</div></div></div>
-    <div class="sec-head" style="margin-top:26px">
-      <h2>Rapports mensuels</h2>
-      <p class="hint">Bilan par réseau, par format et par créneau. Les conseils ne sont jamais appliqués sans ta validation.</p>
-    </div>
-    <label class="pv-select"><span class="label">Mois</span><select id="live-rapport-mois"></select></label>
-    <div class="rows" id="live-rapport"><div class="row"><div>Aucun rapport mensuel pour l'instant.</div></div></div>
+  <section id="attention" aria-labelledby="t-attention" hidden>
+    <div class="sec-head"><h2 id="t-attention">À traiter</h2></div>
+    <div class="alerts" id="alertes"></div>
   </section>
 
-  <!-- Réseaux -->
-  <section>
+  <section aria-labelledby="t-reseaux">
     <div class="sec-head">
-      <h2>Réseaux</h2>
-      <p class="hint">3 h à 4 h 30 entre deux posts d'un même réseau · heure jamais fixe · jamais entre 23 h et 7 h</p>
+      <h2 id="t-reseaux">Réseaux</h2>
+      <p class="hint">Ce que le robot publie, où et à quel rythme. Ouvrez une ligne pour le détail.</p>
     </div>
-    <div class="nets">
-
-      <article class="net">
-        <div class="net-top">
-          <div class="net-name"><span class="glyph" style="background:linear-gradient(135deg,#F58529,#DD2A7B 55%,#8134AF)">IG</span>Instagram</div>
-          <span class="pill live">En ligne</span>
-        </div>
-        <dl>
-          <div><dt>Publication</dt><dd>Carrousel 2 images : titre sur photo + texte rédigé par l'IA</dd></div>
-          <div><dt>Format</dt><dd><span class="ratio" style="width:12px;height:15px"></span>4:5 · 1440×1800</dd></div>
-          <div><dt>Texte</dt><dd>Accroche IA (1ʳᵉ ligne ≤ 125 car.) · 1–3 emojis · 3 hashtags</dd></div>
-          <div><dt>Story</dt><dd>9:16 · 1080×1920, envoyée sur Telegram, sticker lien à poser à la main</dd></div>
-          <div><dt>Mode</dt><dd>Publication automatique</dd></div>
-          <div><dt>Mentions</dt><dd>Jusqu'à 2 comptes tagués sur l'image, invisibles dans le texte</dd></div>
-          <div><dt>Lieu</dt><dd>Identifiant sur les posts Instagram et Facebook — lieux connus, et tous ceux appris en relisant la page Facebook · nom du lieu à taguer dans la story et le kit X · commune en sujet Threads et en hashtag Bluesky. On ne fait qu'élargir, jamais vers un voisin : aucun lieu plutôt qu'un lieu faux.</dd></div>
-          <div><dt>Accessibilité</dt><dd>Texte alternatif sur chaque image, phrase orale décrivant le sujet · Instagram, Facebook, Threads, Bluesky · fourni à copier dans le kit X</dd></div>
-        </dl>
-        <div class="net-foot"><a href="https://www.instagram.com/lovaquitaine/" target="_blank" rel="noopener">@lovaquitaine ↗</a><span class="mono">API connectée</span></div>
-      </article>
-
-      <article class="net">
-        <div class="net-top">
-          <div class="net-name"><span class="glyph" style="background:#1185FE">B</span>Bluesky</div>
-          <span class="pill live">En ligne</span>
-        </div>
-        <dl>
-          <div><dt>Publication</dt><dd>Carte de lien avec notre visuel (4 articles sur 5), image + « ➡️ Lire l’article » (1 sur 5)</dd></div>
-          <div><dt>Format</dt><dd><span class="ratio" style="width:19px;height:10px"></span>Carte 1200×627 · image 4:5 1080×1350</dd></div>
-          <div><dt>Mode</dt><dd>Publication automatique, jamais entre 22 h et 8 h</dd></div>
-          <div><dt>Formats</dt><dd>Rotation : carte de lien · image + lien · image avec lien en réponse</dd></div>
-          <div><dt>Mentions</dt><dd>Dans le texte, seulement en remplaçant un nom déjà écrit ; sinon aucune</dd></div>
-          <div><dt>Texte</dt><dd>Accroche 150–260 car. · 1 emoji · 1 hashtag de lieu intégré</dd></div>
-          <div><dt>Lien</dt><dd>URL de l'article</dd></div>
-        </dl>
-        <div class="net-foot"><a href="https://bsky.app/profile/passion-aquitaine.ouest-france.fr" target="_blank" rel="noopener">@passion-aquitaine.ouest-france.fr ↗</a><span class="mono">Identifiant certifié</span></div>
-      </article>
-
-      <article class="net">
-        <div class="net-top">
-          <div class="net-name"><span class="glyph" style="background:#1877F2">f</span>Facebook</div>
-          <span class="pill live">En ligne</span>
-        </div>
-        <dl>
-          <div><dt>Publication</dt><dd>1 image + lien de l'article en premier commentaire</dd></div>
-          <div><dt>Format</dt><dd><span class="ratio" style="width:12px;height:15px"></span>4:5 · 1440×1800</dd></div>
-          <div><dt>Texte</dt><dd>120 car. max, lu en entier sans « Voir plus » · 1–2 emojis · 0 hashtag</dd></div>
-          <div><dt>Rythme</dt><dd>2 posts par jour maximum, 3 h d'écart minimum ; le surplus passe au lendemain</dd></div>
-        </dl>
-        <div class="net-foot"><a href="https://www.facebook.com/227437307428711" target="_blank" rel="noopener">Page Passion Aquitaine ↗</a><span class="mono">42 630 abonnés</span></div>
-      </article>
-
-      <article class="net">
-        <div class="net-top">
-          <div class="net-name"><span class="glyph" style="background:#101010">@</span>Threads</div>
-          <span class="pill live">En ligne</span>
-        </div>
-        <dl>
-          <div><dt>Formats</dt><dd>Rotation : image + lien · lien seul (aperçu) · image avec lien en réponse</dd></div>
-          <div><dt>Format</dt><dd><span class="ratio" style="width:12px;height:15px"></span>4:5 · 1440×1800</dd></div>
-          <div><dt>Texte</dt><dd>450 car. max, conversationnel · 1–2 emojis · 1 sujet Threads</dd></div>
-          <div><dt>Lien</dt><dd>URL de l'article</dd></div>
-        </dl>
-        <div class="net-foot"><a href="https://www.threads.com/@lovaquitaine" target="_blank" rel="noopener">@lovaquitaine ↗</a><span class="mono">Compte créé</span></div>
-      </article>
-
-      <article class="net">
-        <div class="net-top">
-          <div class="net-name"><span class="glyph" style="background:#000">X</span>X</div>
-          <span class="pill live">Kit actif</span>
-        </div>
-        <dl>
-          <div><dt>Publication</dt><dd>Kit reçu sur Telegram, publié à la main (0 €)</dd></div>
-          <div><dt>Format</dt><dd><span class="ratio" style="width:12px;height:15px"></span>4:5 · 1080×1350</dd></div>
-          <div><dt>Texte</dt><dd>230 car. max · 1–2 emojis · hashtag du lieu intégré</dd></div>
-          <div><dt>Lien</dt><dd>À la ligne dans le post : « ➡️ lien »</dd></div>
-          <div><dt>Mode</dt><dd>Kit reçu automatiquement sur Telegram (jamais entre 22 h et 7 h)</dd></div>
-          <div><dt>Formats</dt><dd>Rotation : image + lien · lien seul · image avec lien en réponse</dd></div>
-          <div><dt>Mentions</dt><dd>Comptes et lieu fournis dans le kit, à taguer sur l'image (0 caractère)</dd></div>
-        </dl>
-        <div class="net-foot"><span>Compte X à préciser</span><span class="mono">Pas d'API · 0 €</span></div>
-      </article>
-
+    <div class="panel">
+      <table class="nets">
+        <thead>
+          <tr><th scope="col">Réseau</th><th scope="col">Publication</th><th scope="col">Rythme</th><th scope="col" class="num">Aujourd’hui</th><th scope="col" class="num">7 jours</th><th scope="col">Dernier post</th><th scope="col">État</th></tr>
+        </thead>
+        <tbody id="reseaux"></tbody>
+      </table>
     </div>
   </section>
 
-  <!-- Aperçus par réseau (données : out/preview-data.js, généré par npm run preview) -->
-  <section id="apercus">
+  <section aria-labelledby="t-planning">
     <div class="sec-head">
-      <h2>Ce qui a été publié</h2>
-      <p class="hint" id="pv-stamp">Tes derniers articles, tels qu'ils sont partis sur chaque réseau</p>
+      <h2 id="t-planning">Planning à venir</h2>
+      <p class="hint" id="prochain"></p>
     </div>
-    <div class="pv-bar">
-      <label class="pv-select"><span class="label">Article</span><select id="pv-article"></select></label>
-      <div class="chips" role="tablist" aria-label="Filtrer par réseau" id="pv-chips">
-        <button type="button" class="chip on" data-net="all">Tous</button>
-        <button type="button" class="chip" data-net="instagram">Instagram</button>
-        <button type="button" class="chip" data-net="facebook">Facebook</button>
-        <button type="button" class="chip" data-net="bluesky">Bluesky</button>
-        <button type="button" class="chip" data-net="threads">Threads</button>
-        <button type="button" class="chip" data-net="x">X</button>
-      </div>
-    </div>
-    <div id="pv-meta" class="pv-meta"></div>
-    <div id="pv-grid" class="pv-grid"></div>
-    <p id="pv-empty" class="empty-box" hidden>Les aperçus apparaîtront dès la prochaine publication : ils sont capturés au moment où chaque post part.</p>
+    <div class="panel" id="planning"><p class="empty">Chargement…</p></div>
+    <p class="note">Heures réelles de départ : le robot passe à <b>:00</b> et <b>:20</b>, puis attend de 0 à 9 minutes au hasard avant de publier. Une échéance tombée entre deux passages part au suivant.</p>
   </section>
 
-  <!-- Anti-bannissement -->
-  <section>
+  <section aria-labelledby="t-publies">
     <div class="sec-head">
-      <h2>Protection anti-bannissement</h2>
-      <p class="hint">Automatique, réglages dans <code>config/channels.json</code></p>
+      <h2 id="t-publies">Dernières publications</h2>
+      <p class="hint">Les 5 derniers posts, avec le lien direct vers chacun</p>
     </div>
-    <div class="shield">
-      <div><b>Heures imprévisibles</b><span>Écart 3 h – 4 h 30 tiré au hasard, décalage 5–40 min, reprise du matin variable, attente 0–9 min au moment de publier</span></div>
-      <div><b>Textes jamais identiques</b><span>Angles en rotation, tournures reprises refusées, questions limitées, formules d'appât interdites</span></div>
-      <div><b>Coupe-circuit</b><span>Limite ou restriction signalée par le réseau : pause automatique + alerte, reprise avec <code>/reprise</code></span></div>
-      <div><b>API officielles seulement</b><span>Aucun like, abonnement ou réponse automatique · plafond quotidien par réseau : Instagram 2, Facebook 2, Bluesky 3, Threads 3, kit X 3</span></div>
-      <div class="human"><b>Ta part</b><span>Ouvrir les apps régulièrement, répondre aux commentaires, publier parfois à la main (story, coulisses), double authentification</span></div>
-    </div>
+    <div class="posts" id="publies"><p class="empty">Chargement…</p></div>
   </section>
 
-  <!-- Pilotage -->
   <div class="duo">
-    <div class="card">
-      <h3>Piloter</h3>
-      <div class="rows">
-        <div class="row"><div>Depuis Telegram<small><code>/statut</code> · <code>/file</code> · <code>/pause instagram</code> · <code>/validation instagram off</code></small></div><span class="when">@PA_aquibot</span></div>
-        <div class="row"><div>Avis de publication<small>Dès qu'un post part : message court et bouton « Voir sur … » qui ouvre la publication d'une touche · X excepté, sa publication restant manuelle</small></div><span class="when">Automatique</span></div>
-        <div class="row"><div>Tout arrêter<small>Supprimer la variable <code>PUBLISH_ENABLED</code></small></div><a class="when" href="https://github.com/d00lweb/pa-social/settings/variables/actions" target="_blank" rel="noopener">Ouvrir ↗</a></div>
-        <div class="row"><div>Relancer un ancien article<small>Actions → Run workflow → champ « Relancer un ancien article » : mots du titre</small></div><a class="when" href="https://github.com/d00lweb/pa-social/actions/workflows/publish.yml" target="_blank" rel="noopener">Lancer ↗</a></div>
-        <div class="row"><div>Voir les exécutions<small>Journal de chaque passage</small></div><a class="when" href="https://github.com/d00lweb/pa-social/actions" target="_blank" rel="noopener">Actions ↗</a></div>
-        <div class="row"><div>File d'attente<small>Posts prévus et heures</small></div><a class="when" href="https://github.com/d00lweb/pa-social/blob/main/state/queue.json" target="_blank" rel="noopener">queue.json ↗</a></div>
-        <div class="row"><div>Ton et style de l'IA<small>Charte éditoriale modifiable</small></div><a class="when" href="https://github.com/d00lweb/pa-social/blob/main/prompts/editorial.md" target="_blank" rel="noopener">Charte ↗</a></div>
-        <div class="row"><div>Documentation<small>Comptes, dépannage, reprise</small></div><a class="when" href="https://github.com/d00lweb/pa-social#readme" target="_blank" rel="noopener">README ↗</a></div>
-      </div>
-    </div>
+    <section class="card" aria-labelledby="t-semaine">
+      <h2 id="t-semaine">Les 7 derniers jours</h2>
+      <div id="semaine"><p class="empty">Chargement…</p></div>
+    </section>
+    <section class="card" aria-labelledby="t-lieux">
+      <h2 id="t-lieux">Bibliothèque de lieux</h2>
+      <div id="lieux"><p class="empty">Chargement…</p></div>
+    </section>
   </div>
+
+  <section aria-labelledby="t-rapports">
+    <div class="sec-head">
+      <h2 id="t-rapports">Rapports mensuels</h2>
+      <p class="hint">Bilan par réseau, par format et par créneau. Aucun conseil n’est appliqué sans votre validation.</p>
+    </div>
+    <div class="panel pad">
+      <label class="field"><span class="label">Mois</span><select id="rapport-mois" disabled><option>Aucun rapport pour l’instant</option></select></label>
+      <div class="rows" id="rapport"></div>
+    </div>
+  </section>
+
+  <section aria-labelledby="t-faq">
+    <div class="sec-head">
+      <h2 id="t-faq">Que faire si…</h2>
+      <p class="hint">Les commandes se tapent dans le bot Telegram @PA_aquibot ; un clic les copie.</p>
+    </div>
+    <div class="faq">
+      <article><b>Je veux suspendre un réseau</b><p>Envoyer <code class="cmd" tabindex="0">/pause facebook</code> au bot, ou <code class="cmd" tabindex="0">/pause tout</code>. Pour reprendre : <code class="cmd" tabindex="0">/reprise facebook</code>.</p></article>
+      <article><b>Il faut tout arrêter, tout de suite</b><p>Supprimer la variable <code>PUBLISH_ENABLED</code> : plus rien ne part, quel que soit le déclenchement.</p><a href="https://github.com/d00lweb/pa-social/settings/variables/actions" target="_blank" rel="noopener">Ouvrir les variables ↗</a></article>
+      <article><b>Je veux republier un ancien article</b><p>Lancer le robot à la main et remplir « Relancer un ancien article » avec quelques mots du titre.</p><a href="https://github.com/d00lweb/pa-social/actions/workflows/publish.yml" target="_blank" rel="noopener">Lancer le robot ↗</a></article>
+      <article><b>Un lieu manque sur les posts</b><p>Le taguer une fois, à la main, sur une publication de la page Facebook. Le robot l’apprend dans l’heure, le fait valider par Instagram et vous prévient sur Telegram.</p></article>
+      <article><b>Je veux savoir où en est le robot, depuis mon téléphone</b><p><code class="cmd" tabindex="0">/statut</code> pour l’état des réseaux, <code class="cmd" tabindex="0">/file</code> pour les posts à venir.</p></article>
+      <article><b>Un post a échoué ou n’est pas parti</b><p>L’alerte arrive sur Telegram. Le journal de chaque passage du robot dit pourquoi.</p><a href="https://github.com/d00lweb/pa-social/actions" target="_blank" rel="noopener">Journal des passages ↗</a></article>
+      <article><b>Je veux changer le ton des textes</b><p>La charte éditoriale suivie par l’IA se modifie comme un document : ton, formules interdites, longueurs, emojis.</p><a href="https://github.com/d00lweb/pa-social/blob/main/prompts/editorial.md" target="_blank" rel="noopener">Ouvrir la charte ↗</a></article>
+      <article><b>Je dois publier sur X</b><p>Le kit arrive sur Telegram : visuel, texte, comptes à taguer, lieu et description d’image, chacun dans son propre message à copier.</p></article>
+    </div>
+  </section>
+
+  <details class="panel rules">
+    <summary><h2>Garde-fous anti-bannissement</h2><span class="hint">Automatiques, réglés dans <code>config/channels.json</code></span></summary>
+    <div class="shield">
+      <div><b>Heures imprévisibles</b><span>Facebook : un passage tiré au hasard dans chaque créneau. Autres réseaux : écart de 2 h 30 à 4 h 30 tiré au hasard. Toujours une attente de 0 à 9 min avant de publier.</span></div>
+      <div><b>Textes jamais identiques</b><span>Angles en rotation, tournures déjà publiées refusées, questions limitées, formules d’appât interdites.</span></div>
+      <div><b>Coupe-circuit</b><span>Limite ou restriction signalée par un réseau : pause automatique et alerte. Reprise avec <code>/reprise</code>.</span></div>
+      <div><b>API officielles seulement</b><span>Aucun like, abonnement ou réponse automatique. Plafonds quotidiens : Instagram 2, Facebook 2, Bluesky 3, Threads 3, kit X 3.</span></div>
+      <div class="human"><b>Votre part</b><span>Ouvrir les applications régulièrement, répondre aux commentaires, publier parfois à la main (story, coulisses), activer la double authentification.</span></div>
+    </div>
+  </details>
 
   <footer>
-    <span>pa-social · section « En direct » lue depuis l'état publié par le robot</span>
-    <span>Avis de publication, alertes et stories : bot Telegram @PA_aquibot</span>
+    <span>pa-social · état lu depuis <code>state/pilotage.json</code>, publié par le robot à chaque passage · coût ≈ 3 €/mois (rédaction IA), le reste est gratuit</span>
+    <span>Avis de publication, alertes, stories et kits X : bot Telegram @PA_aquibot</span>
   </footer>
-
 </div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
 <script>
-// Aperçus : ce qui a réellement été publié, lu dans le même instantané que la section « En direct ».
-(async () => {
+(() => {
+  'use strict';
   const BASE = 'https://raw.githubusercontent.com/d00lweb/pa-social/main/state';
-  const grid = document.getElementById('pv-grid');
-  const select = document.getElementById('pv-article');
-  const meta = document.getElementById('pv-meta');
-  const vide = () => {
-    document.getElementById('pv-empty').hidden = false;
-    document.querySelector('.pv-bar').hidden = true;
+  const ACTIONS = 'https://github.com/d00lweb/pa-social/actions';
+  const TZ = 'Europe/Paris';
+  const $ = (id) => document.getElementById(id);
+  const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
+
+  // ── Dates, toujours à l'heure de Paris ──
+  const fmt = (opts) => new Intl.DateTimeFormat('fr-FR', { timeZone: TZ, ...opts });
+  const heure = (d) => fmt({ hour: '2-digit', minute: '2-digit' }).format(new Date(d));
+  const cleJour = (d) => fmt({ year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date(d));
+  const dateLongue = (d) => fmt({ weekday: 'long', day: 'numeric', month: 'long', hour: '2-digit', minute: '2-digit' }).format(new Date(d));
+  const dateJour = (d) => fmt({ day: 'numeric', month: 'long', year: 'numeric' }).format(new Date(d));
+  const maj = (s) => s.charAt(0).toUpperCase() + s.slice(1);
+  const libelleJour = (d) => {
+    if (cleJour(d) === cleJour(Date.now())) return 'Aujourd’hui';
+    if (cleJour(d) === cleJour(Date.now() + 864e5)) return 'Demain';
+    return maj(fmt({ weekday: 'long', day: 'numeric', month: 'long' }).format(new Date(d)));
+  };
+  const ilYa = (d) => {
+    const s = (Date.now() - new Date(d).getTime()) / 1000;
+    if (s < 90) return 'à l’instant';
+    if (s < 3600) return `il y a ${Math.round(s / 60)} min`;
+    if (cleJour(d) === cleJour(Date.now())) return `aujourd’hui à ${heure(d)}`;
+    if (cleJour(d) === cleJour(Date.now() - 864e5)) return `hier à ${heure(d)}`;
+    return `${fmt({ weekday: 'short', day: 'numeric', month: 'short' }).format(new Date(d))} à ${heure(d)}`;
+  };
+  const duree = (h) => {
+    const entiere = Math.floor(h);
+    const min = Math.round((h - entiere) * 60);
+    return min ? `${entiere} h ${String(min).padStart(2, '0')}` : `${entiere} h`;
+  };
+  const dans = (d) => {
+    const m = Math.round((new Date(d).getTime() - Date.now()) / 60000);
+    if (m <= 1) return 'imminent';
+    return m < 60 ? `dans ${m} min` : `dans ${duree(m / 60)}`;
+  };
+  const hhmm = (s) => {
+    const [h, m] = String(s).split(':').map(Number);
+    return m ? `${h} h ${String(m).padStart(2, '0')}` : `${h} h`;
+  };
+  const joursAvant = (iso) => Math.round((new Date(iso).getTime() - Date.now()) / 864e5);
+
+  // ── Ce que la page sait d'avance sur chaque réseau ; le rythme et l'activité viennent du robot ──
+  const NETS = {
+    instagram: {
+      nom: 'Instagram', glyph: 'IG', couleur: 'linear-gradient(135deg,#F58529,#DD2A7B 55%,#8134AF)',
+      compte: '@lovaquitaine', url: 'https://www.instagram.com/lovaquitaine/',
+      publication: 'Carrousel de 2 images, story à poser à la main', rythme: '2 par jour, 3 h à 4 h 30 d’écart', acces: 'Jeton Meta',
+      details: [
+        ['Publication', 'Carrousel de 2 images : le titre sur la photo, puis le texte de l’article. La story (9:16) arrive sur Telegram, à poster à la main avec le sticker lien.'],
+        ['Texte', '1ʳᵉ ligne de 125 caractères au plus (avant « plus »), 1 à 3 emojis, 3 hashtags.'],
+        ['Lien de l’article', 'Un post Instagram n’a pas de lien cliquable : il passe par le sticker de la story.'],
+        ['Mentions', 'Jusqu’à 2 comptes tagués sur la 1ʳᵉ image, invisibles dans le texte.'],
+        ['Lieu', 'Identifiant de lieu tiré de la bibliothèque. Aucun lieu plutôt qu’un lieu approximatif.'],
+        ['Accessibilité', 'Texte alternatif sur chaque image.'],
+      ],
+    },
+    facebook: {
+      nom: 'Facebook', glyph: 'f', couleur: '#1877F2',
+      compte: 'Page Passion Aquitaine', url: 'https://www.facebook.com/227437307428711',
+      publication: '1 image, lien en premier commentaire', rythme: '2 par jour : 8 h – 9 h 30 et 20 h – 21 h 30', acces: 'Jeton Meta',
+      details: [
+        ['Publication', '1 image 4:5, puis le lien de l’article en premier commentaire, 1 à 3 minutes plus tard.'],
+        ['Créneaux', 'Matin, 8 h – 9 h 30 : lecture de l’actualité, fil encore peu chargé. Soir, 20 h – 21 h 30 : heures de loisir, on prépare ses sorties. Un post par créneau, à un passage tiré au hasard.'],
+        ['Texte', '120 caractères au plus, lu en entier sans « Voir plus », 1 à 2 emojis, aucun hashtag.'],
+        ['Lien de l’article', 'En premier commentaire : un lien dans le texte fait chuter la portée.'],
+        ['Lieu', 'Identifiant de lieu tiré de la bibliothèque. C’est aussi sur cette page que le robot apprend les nouveaux lieux.'],
+        ['Accessibilité', 'Texte alternatif sur l’image.'],
+      ],
+    },
+    bluesky: {
+      nom: 'Bluesky', glyph: 'B', couleur: '#1185FE',
+      compte: '@passion-aquitaine.ouest-france.fr', url: 'https://bsky.app/profile/passion-aquitaine.ouest-france.fr',
+      publication: '3 formats en rotation', rythme: '3 par jour, 2 h 30 à 4 h d’écart', acces: 'Mot de passe d’application, sans expiration',
+      details: [
+        ['Publication', 'Rotation de 3 formats : carte de lien, image avec lien dans le texte, image avec le lien en réponse.'],
+        ['Texte', '150 à 260 caractères, 1 emoji, 1 hashtag de lieu placé dans le texte — la commune quand l’article en nomme une.'],
+        ['Mentions', 'Dans le texte, uniquement en remplaçant un nom déjà écrit.'],
+        ['Lieu', 'Hashtag : Bluesky ne connaît pas la géolocalisation.'],
+        ['Accessibilité', 'Texte alternatif sur l’image.'],
+      ],
+    },
+    threads: {
+      nom: 'Threads', glyph: '@', couleur: '#101010',
+      compte: '@lovaquitaine', url: 'https://www.threads.com/@lovaquitaine',
+      publication: '3 formats en rotation', rythme: '3 par jour, 2 h 30 à 4 h d’écart', acces: 'Jeton Threads',
+      details: [
+        ['Publication', 'Rotation de 3 formats : image avec lien, lien seul (aperçu de l’article), image avec le lien en réponse.'],
+        ['Texte', '450 caractères au plus, ton conversationnel, 1 à 2 emojis.'],
+        ['Mentions', 'Dans le texte, uniquement en remplaçant un nom déjà écrit.'],
+        ['Lieu', 'La commune en sujet Threads. La géolocalisation native attend une validation de Meta.'],
+        ['Accessibilité', 'Texte alternatif sur l’image (le format lien seul n’en a pas).'],
+      ],
+    },
+    x: {
+      nom: 'X', glyph: 'X', couleur: '#000', unite: 'kits',
+      compte: 'Compte à préciser', url: null,
+      publication: 'Kit sur Telegram, publié à la main', rythme: '3 kits par jour', acces: 'Pas d’API (payante) : 0 €',
+      details: [
+        ['Publication', 'Kit complet sur Telegram — visuel, texte, comptes, lieu, description d’image — chaque élément dans son propre message à copier.'],
+        ['Texte', '230 caractères au plus, 1 à 2 emojis, hashtag de lieu s’il figure déjà dans le texte.'],
+        ['Mentions', 'Comptes à taguer fournis dans le kit.'],
+        ['Lieu', 'Nom du lieu à taguer, fourni dans le kit, même sans identifiant.'],
+        ['Accessibilité', 'Description d’image fournie, à coller dans le bouton « ALT ».'],
+      ],
+    },
+  };
+  const ORDRE = ['instagram', 'facebook', 'bluesky', 'threads', 'x'];
+  const nom = (id) => NETS[id]?.nom ?? id;
+  const glyphe = (id, taille = '') => {
+    const n = NETS[id] ?? { glyph: '?', couleur: '#777' };
+    return `<span class="glyph ${taille}" style="background:${n.couleur}" aria-hidden="true">${esc(n.glyph)}</span>`;
   };
 
-  let etat;
-  try {
-    const r = await fetch(`${BASE}/pilotage.json?t=${Date.now()}`, { cache: 'no-store' });
-    etat = await r.json();
-  } catch {
-    vide();
-    return;
+  let etat = null;
+  let erreur = null;
+  const ouverts = new Set();
+
+  // Le robot ne tourne qu'à ses passages : une échéance tombée entre deux passages part au suivant.
+  // Recalculé ici plutôt que repris de l'instantané, déjà périmé quand la page est ouverte plus tard.
+  // Règle de référence et tests : src/measure/pilotage.mjs
+  const enHeures = (texte) => {
+    const [h, m = 0] = String(texte).split(':').map(Number);
+    return h + m / 60;
+  };
+  // Index du créneau, en heure de Paris, qui contient l'instant ; -1 hors créneau
+  const creneauDe = (ms, creneaux) => {
+    const [h, m] = heure(ms).split(':').map(Number);
+    return creneaux.findIndex(([a, b]) => h + m / 60 >= enHeures(a) && h + m / 60 <= enHeures(b));
+  };
+  // Premier passage du robot à partir de l'échéance
+  const passageReel = (dueAt) => {
+    const passages = etat?.passages ?? [0, 20];
+    const base = Math.max(new Date(dueAt).getTime(), Date.now());
+    const t = new Date(Math.ceil(base / 60000) * 60000);
+    for (let i = 0; i <= 120; i++, t.setTime(t.getTime() + 60000)) {
+      if (passages.includes(t.getUTCMinutes())) return t.getTime();
+    }
+    return base;
+  };
+
+  // Heure réelle de chaque post en file, en rejouant les règles du robot (src/core/scheduler.mjs,
+  // où elles sont testées). Réseaux à créneaux (Facebook) : jamais hors créneau, un seul post par
+  // créneau, plafond du jour — les publications déjà faites aujourd'hui comptent. Deux posts dus en
+  // même temps ne partent donc pas ensemble : le second glisse au créneau libre suivant.
+  function planifier(file) {
+    const occupes = new Map();
+    const parJour = new Map();
+    const cle = (ms, i) => `${cleJour(ms)}#${i}`;
+    const noter = (channel, ms, creneaux) => {
+      const jours = parJour.get(channel) ?? new Map();
+      jours.set(cleJour(ms), (jours.get(cleJour(ms)) ?? 0) + 1);
+      parJour.set(channel, jours);
+      const i = creneauDe(ms, creneaux);
+      if (i >= 0) occupes.set(channel, new Set([...(occupes.get(channel) ?? []), cle(ms, i)]));
+    };
+    for (const p of etat.publications ?? []) {
+      const creneaux = etat.reseaux?.[p.channel]?.creneaux;
+      if (creneaux) noter(p.channel, new Date(p.at).getTime(), creneaux);
+    }
+    const passages = etat.passages ?? [0, 20];
+    return [...file]
+      .sort((a, b) => new Date(a.dueAt) - new Date(b.dueAt))
+      .map((q) => {
+        const r = etat.reseaux?.[q.channel];
+        if (!r?.creneaux) return { ...q, reel: passageReel(q.dueAt) };
+        const t = new Date(Math.ceil(Math.max(new Date(q.dueAt).getTime(), Date.now()) / 60000) * 60000);
+        for (let n = 0; n <= 60 * 24 * 4; n++, t.setTime(t.getTime() + 60000)) {
+          if (!passages.includes(t.getUTCMinutes())) continue;
+          const i = creneauDe(t.getTime(), r.creneaux);
+          if (i < 0 || occupes.get(q.channel)?.has(cle(t.getTime(), i))) continue;
+          if ((parJour.get(q.channel)?.get(cleJour(t.getTime())) ?? 0) >= (r.maxParJour ?? Infinity)) continue;
+          noter(q.channel, t.getTime(), r.creneaux);
+          return { ...q, reel: t.getTime() };
+        }
+        return { ...q, reel: passageReel(q.dueAt) };
+      })
+      .sort((a, b) => a.reel - b.reel);
   }
-  if (!etat.articles?.length) { vide(); return; }
 
-  // L'instantané est traduit dans la forme attendue par le rendu, réseau par réseau
-  const data = {
-    articles: etat.articles.map((a) => {
-      const r = a.reseaux ?? {};
-      const image = r.instagram?.image ?? r.facebook?.image ?? r.threads?.image ?? r.x?.image ?? r.bluesky?.image ?? null;
-      const reseaux = {};
-      if (r.instagram) reseaux.instagram = { text: r.instagram.texte };
-      if (r.facebook) reseaux.facebook = { text: r.facebook.texte, comment: r.facebook.reponse ?? '' };
-      if (r.bluesky) reseaux.bluesky = { text: r.bluesky.texte, mode: r.bluesky.mode === 'card' ? 'card' : 'image' };
-      if (r.threads) reseaux.threads = { text: r.threads.texte, sujet: r.threads.sujet ?? '' };
-      if (r.x) reseaux.x = { text: r.x.texte };
-      return {
-        title: a.titre || a.guid,
-        link: a.lien ?? '#',
-        rubrique: new Date(a.at).toLocaleString('fr-FR', { dateStyle: 'short', timeStyle: 'short' }),
-        alt: a.titre ?? '',
-        images: { slide1: image, slide2: image, story: image, bluesky: r.bluesky?.image ?? image, x: r.x?.image ?? image },
-        networks: reseaux,
-      };
-    }),
-  };
+  function rythme(id, r) {
+    const unite = NETS[id].unite ?? '';
+    const max = r?.maxParJour ? `${r.maxParJour}${unite ? ` ${unite}` : ''} par jour` : '';
+    if (r?.creneaux?.length) return `${max} : ${r.creneaux.map(([a, b]) => `${hhmm(a)} – ${hhmm(b)}`).join(' et ')}`;
+    if (Array.isArray(r?.ecart) || r?.ecart) {
+      const [a, b] = Array.isArray(r.ecart) ? r.ecart : [r.ecart, r.ecart];
+      const ecart = a ? `, ${duree(a)}${b !== a ? ` à ${duree(b)}` : ''} d’écart` : '';
+      return `${max}${ecart}`;
+    }
+    return NETS[id].rythme;
+  }
 
-  const bust = '';
-  document.getElementById('pv-stamp').textContent = `Tes ${data.articles.length} derniers articles, tels qu'ils sont réellement partis · actualisé à chaque ouverture`;
-  data.articles.forEach((a, i) => select.add(new Option(a.title, i)));
+  function etatPill(id, r) {
+    if (!r) return '<span class="pill idle">—</span>';
+    if (r.pause) return '<span class="pill warn">En pause</span>';
+    if (!r.actif) return '<span class="pill idle">Inactif</span>';
+    if (r.manuel) return '<span class="pill info">Kit manuel</span>';
+    return '<span class="pill live">Automatique</span>';
+  }
 
-  const LIMITS = { instagram: 2200, facebook: 120, bluesky: 300, threads: 500, x: 280 };
-  const NAMES = { instagram: 'Instagram', facebook: 'Facebook', bluesky: 'Bluesky', threads: 'Threads', x: 'X' };
-  let net = 'all';
-  const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
-  const len = (s) => [...String(s ?? '')].length;
-  const tags = (s) => esc(s).replace(/(#[\p{L}\p{N}]+)/gu, '<span class="tag">$1</span>');
-  const img = (src, cls, alt, badge) => `<div class="media ${cls}"><img src="${esc(src)}${bust}" alt="${esc(alt)}" loading="lazy">${badge ? `<span class="tmp">${badge}</span>` : ''}</div>`;
-  const head = (id, text, extra = '') => {
-    const n = len(text);
-    return `<div class="post-net"><span>${NAMES[id]}</span><span class="count ${n > LIMITS[id] ? 'bad' : ''}">${extra}${n} / ${LIMITS[id]}</span></div>`;
-  };
-  const who = (name, sub) => `<div class="who"><span class="avatar">PA</span><div><b>${esc(name)}</b><small>${esc(sub)}</small></div></div>`;
+  function acces(id) {
+    const j = etat?.jetons;
+    let texte = NETS[id].acces;
+    if ((id === 'instagram' || id === 'facebook') && j?.meta?.expireLe) texte = `Jeton Meta valable jusqu’au ${dateJour(j.meta.expireLe)} (renouvellement ${j.meta.renouvellement ?? 'manuel'})`;
+    if (id === 'threads' && j?.threads?.expireLe) texte = `Jeton Threads valable jusqu’au ${dateJour(j.threads.expireLe)}`;
+    return `<div><dt>Accès</dt><dd>${esc(texte)}</dd></div>`;
+  }
 
-  const renderers = {
-    instagram(a) {
-      const t = a.networks.instagram.text;
-      const short = len(t) > 125 ? `${esc([...t].slice(0, 125).join(''))}… <button type="button" class="more" data-full>plus</button>` : tags(t);
-      return `<article class="post">${head('instagram', t)}${who('lovaquitaine', a.rubrique)}
-        <div class="media r45" data-carousel><img src="${esc(a.images.slide1)}${bust}" alt="${esc(a.alt)}"><div class="dots"><button type="button" class="on" data-slide="${esc(a.images.slide1)}" aria-label="Image 1"></button><button type="button" data-slide="${esc(a.images.slide2)}" aria-label="Image 2"></button></div></div>
-        <div class="ptext" data-full-text="${esc(t)}">${short}</div>
-        <div class="story"><img src="${esc(a.images.story)}${bust}" alt="Story"><span>Story envoyée sur Telegram, sticker lien à poser à la main</span></div></article>`;
-    },
-    facebook(a) {
-      const t = a.networks.facebook.text;
-      return `<article class="post">${head('facebook', t)}${who('Passion Aquitaine', 'Page · Média')}
-        <div class="ptext">${esc(t)}</div>${img(a.images.slide1, 'r45', a.alt)}
-        <div class="comment" style="margin-top:12px"><span class="avatar">PA</span><div><b>Passion Aquitaine</b><br>${esc(a.networks.facebook.comment).replace(/(https?:\/\/\S+)/, '<span style="color:#1F6FD1">$1</span>')}</div></div></article>`;
-    },
-    bluesky(a) {
-      const b = a.networks.bluesky;
-      const t = b.text;
-      const text = tags(t).replace('Lire l’article', '<span class="lnk">Lire l’article</span>');
-      const media = b.mode === 'image'
-        ? img(a.images.bluesky ?? a.images.slide1, 'r45', a.alt)
-        : `<div class="card-link">${img(a.images.bluesky ?? a.images.slide1, 'r191', a.alt)}<div><small>passion-aquitaine.ouest-france.fr</small><b>${esc(a.title)}</b></div></div>`;
-      return `<article class="post">${head('bluesky', t, b.mode === 'image' ? 'image · ' : 'carte · ')}${who('Passion Aquitaine - Ouest-France', '@passion-aquitaine.ouest-france.fr')}
-        <div class="ptext">${text}</div>${media}</article>`;
-    },
-    threads(a) {
-      const th = a.networks.threads;
-      return `<article class="post">${head('threads', th.text)}${who('lovaquitaine', 'Threads')}
-        <div class="ptext">${esc(th.text)}</div>${th.sujet ? `<span class="topic"># ${esc(th.sujet)}</span>` : ''}${img(a.images.slide1, 'r45', a.alt)}
-        <div class="ptext" style="padding-top:10px"><span class="lnk">${esc(a.link)}</span></div></article>`;
-    },
-    x(a) {
-      const t = a.networks.x.text;
-      const counted = `${t}\n➡️ ${'x'.repeat(23)}`;
-      return `<article class="post">${head('x', counted)}${who('Passion Aquitaine', 'X')}
-        <div class="ptext">${tags(t)}\n➡️ <span class="lnk">${esc(a.link.replace(/^https?:\/\//, '').slice(0, 30))}…</span></div>${img(a.images.x ?? a.images.slide1, 'r45', a.alt)}
-        <p class="manual" style="margin-top:10px">Kit envoyé sur Telegram, publication manuelle</p></article>`;
-    },
-  };
+  // ── Ce qui demande une action, du plus grave au moins grave ──
+  function points() {
+    if (erreur && !etat) return [{ niveau: 'info', titre: 'État du robot indisponible', texte: `Lecture impossible (${erreur}). Nouvel essai dans 2 minutes.` }];
+    if (!etat) return [];
+    const out = [];
+    const silence = (Date.now() - new Date(etat.genereLe).getTime()) / 3600e3;
+    if (silence > 50 / 60) {
+      out.push({ niveau: 'alerte', titre: `Le robot ne s’est pas manifesté depuis ${duree(silence)}`, texte: 'Il passe normalement toutes les 20 minutes.', action: `<a href="${ACTIONS}" target="_blank" rel="noopener">Voir le journal des passages ↗</a>` });
+    }
+    for (const a of etat.alertes ?? []) {
+      out.push({
+        niveau: 'alerte',
+        titre: `${nom(a.channel)} · ${a.titre}`,
+        texte: a.statut === 'blocked' ? `Bloqué par un garde-fou : ${a.raison}` : `Échec après plusieurs essais : ${a.raison}`,
+        action: `<a href="${ACTIONS}" target="_blank" rel="noopener">Voir le journal ↗</a>`,
+      });
+    }
+    for (const id of ORDRE) {
+      if (etat.reseaux?.[id]?.pause) out.push({ niveau: 'info', titre: `${nom(id)} est en pause`, texte: 'Rien ne part sur ce réseau tant que la pause dure.', action: `Pour reprendre : <code class="cmd" tabindex="0">/reprise ${id}</code>` });
+    }
+    const meta = etat.jetons?.meta;
+    if (meta?.expireLe && joursAvant(meta.expireLe) < 30) {
+      const j = joursAvant(meta.expireLe);
+      out.push({ niveau: j < 10 ? 'alerte' : 'info', titre: `Jeton Meta : expire ${j <= 0 ? 'aujourd’hui' : `dans ${j} jours`}`, texte: 'Instagram et Facebook s’arrêteront à son expiration.', action: 'Renouvellement manuel : voir le README' });
+    }
+    const threads = etat.jetons?.threads;
+    if (threads?.expireLe && joursAvant(threads.expireLe) < 10) {
+      out.push({ niveau: 'info', titre: `Jeton Threads : expire dans ${joursAvant(threads.expireLe)} jours`, texte: 'Threads s’arrêtera à son expiration.', action: 'Voir le README' });
+    }
+    return out.sort((a, b) => (a.niveau === 'alerte' ? 0 : 1) - (b.niveau === 'alerte' ? 0 : 1));
+  }
 
-  function render() {
-    const a = data.articles[select.value];
-    meta.innerHTML = [`<span>${esc(a.rubrique)}</span>`, `<span>Rédaction ${a.source === 'ia' ? 'IA' : 'règles de secours'}</span>`, a.nature ? `<span>${esc(a.nature)}</span>` : '', a.sensible ? '<span class="warn">sujet sensible</span>' : '', a.error ? `<span class="warn">Bloqué : ${esc(a.error)}</span>` : '', `<span><a href="${esc(a.link)}" target="_blank" rel="noopener">Article ↗</a></span>`].join('');
-    if (!a.images) {
-      grid.innerHTML = '<p class="empty-box">Visuels non générés pour cet article (bloqué).</p>';
+  function rendreStatut() {
+    const pts = points();
+    const graves = pts.filter((p) => p.niveau === 'alerte').length;
+    const statut = $('statut');
+    const [classe, texte] = !etat
+      ? ['idle', erreur ? 'État indisponible' : 'Chargement…']
+      : graves ? ['bad', `${graves} point${graves > 1 ? 's' : ''} à traiter`]
+      : pts.length ? ['warn', `${pts.length} point${pts.length > 1 ? 's' : ''} d’attention`]
+      : ['ok', 'Tout fonctionne'];
+    statut.className = `status ${classe}`;
+    statut.querySelector('span').textContent = texte;
+    $('fraicheur').textContent = etat ? `Robot vu ${ilYa(etat.genereLe)} · page actualisée toutes les 2 min` : '';
+    $('attention').hidden = !pts.length;
+    $('alertes').innerHTML = pts.map((p) => `<div class="alert ${p.niveau}"><b>${esc(p.titre)}</b><p>${esc(p.texte)}</p>${p.action ? `<p class="do">${p.action}</p>` : ''}</div>`).join('');
+  }
+
+  function rendreReseaux() {
+    $('reseaux').innerHTML = ORDRE.map((id) => {
+      const n = NETS[id];
+      const r = etat?.reseaux?.[id];
+      const ouvert = ouverts.has(id);
+      const compte = n.url ? `<a href="${n.url}" target="_blank" rel="noopener">${esc(n.compte)} ↗</a>` : esc(n.compte);
+      const dernier = !r ? '—'
+        : r.dernier ? `${esc(ilYa(r.dernier))}${r.lienDernier ? ` · <a href="${esc(r.lienDernier)}" target="_blank" rel="noopener">voir ↗</a>` : ''}`
+        : '<span class="muted">jamais</span>';
+      return `<tr class="net-row">
+          <th scope="row"><button type="button" class="toggle" aria-expanded="${ouvert}" aria-controls="d-${id}" data-net="${id}"><span class="chev" aria-hidden="true">›</span>${glyphe(id)}<span>${n.nom}</span></button><span class="compte">${compte}</span></th>
+          <td data-label="Publication">${esc(n.publication)}</td>
+          <td data-label="Rythme">${esc(rythme(id, r))}</td>
+          <td data-label="Aujourd’hui" class="num">${r ? `${r.aujourdhui} / ${r.maxParJour ?? '—'}` : '—'}</td>
+          <td data-label="7 jours" class="num">${r?.semaine ?? '—'}</td>
+          <td data-label="Dernier post">${dernier}</td>
+          <td data-label="État">${etatPill(id, r)}</td>
+        </tr>
+        <tr class="detail" id="d-${id}"${ouvert ? '' : ' hidden'}><td colspan="7"><dl>${n.details.map(([k, v]) => `<div><dt>${esc(k)}</dt><dd>${esc(v)}</dd></div>`).join('')}${acces(id)}</dl></td></tr>`;
+    }).join('');
+  }
+
+  function rendrePlanning() {
+    if (!etat) {
+      $('planning').innerHTML = `<p class="empty">${erreur ? 'Planning indisponible pour l’instant.' : 'Chargement…'}</p>`;
+      $('prochain').textContent = '';
       return;
     }
-    // seuls les réseaux sur lesquels l'article est réellement parti
-    const publies = Object.keys(renderers).filter((n) => a.networks[n]);
-    const nets = net === 'all' ? publies : publies.filter((n) => n === net);
-    grid.classList.toggle('single', net !== 'all');
-    grid.innerHTML = nets.map((n) => renderers[n](a)).join('');
+    const file = planifier(etat.file ?? []);
+    if (!file.length) {
+      $('planning').innerHTML = '<p class="empty">Rien de prévu. Le prochain article du site sera planifié dès sa parution.</p>';
+      $('prochain').textContent = '';
+      return;
+    }
+    $('prochain').textContent = `Prochain départ : ${nom(file[0].channel)}, ${dans(file[0].reel)}`;
+    const jours = new Map();
+    for (const q of file) {
+      const cle = libelleJour(q.reel);
+      jours.set(cle, [...(jours.get(cle) ?? []), q]);
+    }
+    $('planning').innerHTML = [...jours].map(([jour, items]) => `<div class="day"><h3>${esc(jour)}</h3><ol>${items.map((q) => {
+      const creneaux = etat.reseaux?.[q.channel]?.creneaux;
+      // échéance hors créneau : le robot la reportera, ce n'est pas un retard
+      const reporte = Boolean(creneaux) && passageReel(q.dueAt) !== q.reel;
+      const retard = !reporte && new Date(q.dueAt).getTime() < Date.now();
+      let creneau = '';
+      if (creneaux) {
+        const i = creneauDe(q.reel, creneaux);
+        const quel = i === 0 ? 'du matin' : i === creneaux.length - 1 ? 'du soir' : `n° ${i + 1}`;
+        creneau = reporte
+          ? `<span class="pill info" title="Échéance hors créneau : le robot reportera ce post au créneau ${quel}, à un passage tiré au hasard.">reporté au créneau ${quel}</span>`
+          : `<span class="pill info">créneau ${quel}</span>`;
+      }
+      const tard = retard ? `<span class="pill warn" title="Échéance de ${heure(q.dueAt)} dépassée : part au passage suivant">en retard</span>` : '';
+      return `<li class="slot${retard ? ' late' : ''}"><time datetime="${new Date(q.reel).toISOString()}">${heure(q.reel)}</time>${glyphe(q.channel)}<div class="what"><b>${esc(nom(q.channel))}${creneau}${tard}</b><span class="titre" title="${esc(q.titre)}">${esc(q.titre)}</span></div><span class="rel">${esc(dans(q.reel))}</span></li>`;
+    }).join('')}</ol></div>`).join('');
   }
 
-  document.getElementById('pv-chips').addEventListener('click', (e) => {
-    const chip = e.target.closest('.chip');
-    if (!chip) return;
-    net = chip.dataset.net;
-    document.querySelectorAll('.chip').forEach((c) => c.classList.toggle('on', c === chip));
-    render();
-  });
-  grid.addEventListener('click', (e) => {
-    const dot = e.target.closest('[data-slide]');
-    if (dot) {
-      const box = dot.closest('[data-carousel]');
-      box.querySelector('img').src = dot.dataset.slide + bust;
-      box.querySelectorAll('[data-slide]').forEach((d) => d.classList.toggle('on', d === dot));
+  // Ancien instantané, sans la liste des publications : on la reconstitue depuis les articles
+  function publications() {
+    if (etat?.publications?.length) return etat.publications;
+    const liste = [];
+    for (const a of etat?.articles ?? []) {
+      for (const [channel, p] of Object.entries(a.reseaux ?? {})) liste.push({ channel, at: p.publieLe, titre: a.titre, lien: a.lien, lienPost: null, texte: p.texte, image: p.image });
     }
-    if (e.target.matches('[data-full]')) {
-      const p = e.target.closest('[data-full-text]');
-      p.innerHTML = tags(p.dataset.fullText);
-    }
-  });
-  select.addEventListener('change', render);
-  render();
-})();
-</script>
-<script>
-// En direct : l'état publié par le robot à chaque passage, lu depuis GitHub (dépôt public).
-(async () => {
-  const BASE = 'https://raw.githubusercontent.com/d00lweb/pa-social/main/state';
-  const $ = (id) => document.getElementById(id);
-  const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
-  const NOMS = { instagram: 'Instagram', facebook: 'Facebook', bluesky: 'Bluesky', threads: 'Threads', x: 'X (kit)' };
-  const quand = (iso) => new Date(iso).toLocaleString('fr-FR', { weekday: 'short', day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit' });
-  const lire = async (chemin) => {
-    const r = await fetch(`${BASE}/${chemin}?t=${Date.now()}`, { cache: 'no-store' });
-    if (!r.ok) throw new Error(`HTTP ${r.status}`);
-    return r.json();
-  };
-
-  let etat;
-  try {
-    etat = await lire('pilotage.json');
-  } catch (e) {
-    $('live-stamp').textContent = `État indisponible (${e.message}). La page reste consultable hors ligne.`;
-    return;
+    return liste.sort((x, y) => new Date(y.at) - new Date(x.at));
   }
 
-  $('live-stamp').textContent = `Dernière vérification du robot : ${quand(etat.genereLe)} · actualisé à chaque ouverture`;
+  function rendrePublications() {
+    if (!etat) {
+      $('publies').innerHTML = `<p class="empty">${erreur ? 'Publications indisponibles pour l’instant.' : 'Chargement…'}</p>`;
+      return;
+    }
+    const liste = publications().slice(0, 5);
+    if (!liste.length) {
+      $('publies').innerHTML = '<p class="empty">Aucune publication pour l’instant.</p>';
+      return;
+    }
+    $('publies').innerHTML = liste.map((p) => {
+      // le logo du réseau reste dessous : si l'image ne charge pas, il prend sa place au lieu d'un carré vide
+      const vignette = glyphe(p.channel, 'lg') + (p.image ? `<img src="${esc(p.image)}" alt="" loading="lazy" onerror="this.remove()">` : '');
+      const voir = p.lienPost
+        ? `<a class="btn primary" href="${esc(p.lienPost)}" target="_blank" rel="noopener">Voir sur ${esc(nom(p.channel))} ↗</a>`
+        : p.channel === 'x' ? '<span class="btn ghost">Kit envoyé sur Telegram</span>' : '';
+      const article = p.lien ? `<a class="btn" href="${esc(p.lien)}" target="_blank" rel="noopener">Article ↗</a>` : '';
+      return `<article class="post">
+          <div class="thumb">${vignette}</div>
+          <div class="body">
+            <p class="meta">${glyphe(p.channel, 'sm')}<b>${esc(nom(p.channel))}</b><time datetime="${esc(p.at)}" title="${esc(dateLongue(p.at))}">${esc(ilYa(p.at))}</time></p>
+            <h3>${esc(p.titre)}</h3>
+            ${p.texte ? `<p class="texte">${esc(p.texte)}</p>` : ''}
+            <div class="actions">${voir}${article}</div>
+          </div>
+        </article>`;
+    }).join('');
+  }
 
-  // Réseaux : rythme du jour et dernière publication
-  const actifs = Object.values(etat.reseaux).filter((r) => r.actif).length;
-  $('k-reseaux').textContent = `${actifs} / 5`;
-  $('k-posts').textContent = String(Object.values(etat.reseaux).reduce((n, r) => n + (r.total ?? 0), 0));
-  $('live-nets').innerHTML = Object.entries(etat.reseaux).map(([id, r]) => `
-    <article class="net">
-      <div class="net-top">
-        <div class="net-name">${esc(NOMS[id] ?? id)}</div>
-        <span class="pill ${r.actif ? 'live' : 'next'}">${r.actif ? 'en ligne' : 'inactif'}</span>
+  function rendreSemaine() {
+    if (!etat) {
+      $('semaine').innerHTML = `<p class="empty">${erreur ? 'Indisponible pour l’instant.' : 'Chargement…'}</p>`;
+      return;
+    }
+    const mesures = etat.mesures?.parReseau ?? {};
+    const lignes = ORDRE.map((id) => {
+      const r = etat.reseaux?.[id];
+      if (!r) return '';
+      const capacite = (r.maxParJour ?? 0) * 7;
+      const fait = r.semaine ?? 0;
+      const pct = capacite ? Math.min(100, Math.round((fait / capacite) * 100)) : 0;
+      return `<div class="bar-row"><span class="nom">${glyphe(id, 'sm')}${esc(nom(id))}</span><span class="bar" role="img" aria-label="${fait} sur ${capacite}"><i style="width:${pct}%"></i></span><span class="bar-val">${fait}<small> / ${capacite}</small></span></div>`;
+    }).join('');
+    const moyennes = Object.entries(mesures).map(([id, v]) => `${esc(nom(id))} ${v.interactionsMoyennes}`).join(' · ');
+    $('semaine').innerHTML = `<div class="bars">${lignes}</div>
+      <p class="note">Publications des 7 derniers jours, sur la capacité maximale (plafond quotidien × 7).</p>
+      <p class="note">${moyennes ? `Interactions moyennes, mesurées 7 jours après chaque post : ${moyennes}.` : 'Interactions : premières mesures 7 jours après les premiers posts.'}</p>`;
+  }
+
+  function rendreLieux() {
+    const l = etat?.lieux;
+    const mode = '<p class="howto"><b>Pour en ajouter un</b> : le taguer une fois, à la main, sur une publication de la page Facebook. Le robot l’apprend dans l’heure et vous prévient sur Telegram. Il sera ensuite tagué automatiquement sur Instagram et Facebook dès qu’un article le nomme.</p>';
+    if (!l) {
+      $('lieux').innerHTML = `<p class="muted">Le robot apprend les lieux tagués sur la page Facebook. Le décompte apparaîtra après son prochain passage.</p>${mode}`;
+      return;
+    }
+    const precis = l.precis ?? [];
+    const communes = l.communes ?? [];
+    const apercu = precis.slice(0, 10).map((p) => `<span class="chip">${esc(p)}</span>`).join('') + (precis.length > 10 ? `<span class="chip">+ ${precis.length - 10}</span>` : '');
+    $('lieux').innerHTML = `<div class="stats">
+        <div><b>${communes.length + precis.length}</b><span>lieux appris</span></div>
+        <div><b>${communes.length}</b><span>communes</span></div>
+        <div><b>${precis.length}</b><span>lieux précis</span></div>
       </div>
-      <dl>
-        <div><dt>Aujourd'hui</dt><dd>${r.aujourdhui} / ${r.maxParJour ?? '—'}</dd></div>
-        <div><dt>Total</dt><dd>${r.total}</dd></div>
-        <div><dt>Dernier</dt><dd>${r.dernier ? quand(r.dernier) : 'jamais'}</dd></div>
-      </dl>
-    </article>`).join('');
-
-  // Alertes en premier : c'est ce qu'on veut voir sans chercher
-  if (etat.alertes?.length) {
-    $('live-alertes').hidden = false;
-    $('live-alertes').innerHTML = etat.alertes.map((a) => `
-      <div class="row"><div>⚠️ ${esc(NOMS[a.channel] ?? a.channel)} · ${esc(a.titre)}<small>${esc(a.raison)}</small></div><span class="when">${esc(a.statut)}</span></div>`).join('');
+      ${communes.length ? `<div><p class="label" style="margin-bottom:6px">Communes</p><div class="chips">${communes.map((c) => `<span class="chip">${esc(c)}</span>`).join('')}</div></div>` : ''}
+      ${precis.length ? `<div><p class="label" style="margin-bottom:6px">Lieux précis</p><div class="chips">${apercu}</div></div>` : ''}
+      ${mode}
+      <p class="note">S’ajoutent aux 12 lieux de départ. Chaque lieu est validé par Instagram avant d’entrer ; ${l.refuses ?? 0} ont été refusés.</p>`;
   }
 
-  // Le robot ne tourne qu'aux passages du cron o2switch, à :00 et :20 : une échéance tombée entre
-  // deux passages ne part qu'au suivant. On recalcule ici plutôt que de réutiliser l'heure inscrite
-  // dans l'instantané, qui serait déjà dépassée dès que la page est ouverte un peu plus tard.
-  // Règle de référence et tests : src/measure/pilotage.mjs
-  const passageReel = (dueAt) => {
-    const base = Math.max(new Date(dueAt).getTime(), Date.now());
-    const d = new Date(base);
-    d.setSeconds(0, 0);
-    for (let i = 0; i <= 60; i++) {
-      const essai = new Date(d.getTime() + i * 60000);
-      if ([0, 20].includes(essai.getUTCMinutes()) && essai.getTime() >= base) return essai;
-    }
-    return new Date(base);
-  };
-
-  $('live-file').innerHTML = etat.file?.length
-    ? etat.file.map((f) => {
-        // une heure dépassée ne doit pas s'annoncer comme « prévue » : le post attend le prochain passage
-        const retard = new Date(f.dueAt) < new Date();
-        const reel = passageReel(f.dueAt);
-        return `<div class="row"><div>${esc(NOMS[f.channel] ?? f.channel)}<small>${esc(f.titre)}</small></div><span class="when"${retard ? ' style="color:var(--warn,#c2410c)"' : ''}>${retard ? 'en retard, part vers' : 'vers'} ${quand(reel)}</span></div>`;
-      }).join('')
-    : '<div class="row"><div>Rien en attente<small>Le prochain article du flux sera planifié automatiquement</small></div></div>';
-
-  const m = etat.mesures?.parReseau ?? {};
-  const resume = Object.entries(m).map(([k, v]) => `${NOMS[k] ?? k} ${v.interactionsMoyennes}`).join(' · ');
-  $('live-mesures').textContent = resume ? `Interactions moyennes à 7 jours — ${resume}` : 'Mesures en cours de collecte.';
-
-  // Rapports mensuels
-  const select = $('live-rapport-mois');
-  const zone = $('live-rapport');
-  const rapports = etat.rapports ?? [];
-  if (!rapports.length) return;
-  rapports.forEach((mois) => select.add(new Option(mois, mois)));
-  const afficher = async (mois) => {
+  // ── Rapports mensuels : chargés à la demande ──
+  let rapportsPrets = false;
+  function initRapports() {
+    const liste = etat?.rapports ?? [];
+    if (rapportsPrets || !liste.length) return;
+    rapportsPrets = true;
+    const select = $('rapport-mois');
+    select.innerHTML = '';
+    select.disabled = false;
+    liste.forEach((mois) => select.add(new Option(mois, mois)));
+    select.addEventListener('change', () => afficherRapport(select.value));
+    afficherRapport(liste[0]);
+  }
+  async function afficherRapport(mois) {
+    const zone = $('rapport');
     zone.innerHTML = '<div class="row"><div>Chargement…</div></div>';
     try {
-      const r = await lire(`rapports/${mois}.json`);
+      const r = await (await fetch(`${BASE}/rapports/${mois}.json?t=${Date.now()}`, { cache: 'no-store' })).json();
       const bloc = (titre, obj) => Object.entries(obj ?? {}).map(([k, v]) =>
-        `<div class="row"><div>${esc(titre)} · ${esc(NOMS[k] ?? k)}<small>${v.posts} post(s)</small></div><span class="when">${v.moyenne}</span></div>`).join('');
+        `<div class="row"><div>${esc(titre)} · ${esc(NETS[k]?.nom ?? k)}<small>${v.posts} post${v.posts > 1 ? 's' : ''}</small></div><span class="val">${v.moyenne}</span></div>`).join('');
       zone.innerHTML = [
-        `<div class="row"><div><b>${r.posts} posts mesurés</b><small>Interactions moyennes par publication</small></div><span class="when mono">${esc(r.mois)}</span></div>`,
+        `<div class="row"><div><b>${r.posts} posts mesurés</b><small>Interactions moyennes par publication</small></div><span class="val">${esc(r.mois)}</span></div>`,
         bloc('Réseau', r.parReseau), bloc('Format', r.parFormat), bloc('Créneau', r.parCreneau),
         ...(r.conseils ?? []).map((c) => `<div class="row"><div>💡 ${esc(c)}</div></div>`),
-        '<div class="row"><div><i>Aucun réglage n\'a été modifié : ces conseils attendent ta validation.</i></div></div>',
+        '<div class="row"><div class="muted">Aucun réglage n’a été modifié : ces conseils attendent votre validation.</div></div>',
       ].join('');
     } catch (e) {
       zone.innerHTML = `<div class="row"><div>Rapport indisponible (${esc(e.message)})</div></div>`;
     }
+  }
+
+  function toutRendre() {
+    rendreStatut();
+    rendreReseaux();
+    rendrePlanning();
+    rendrePublications();
+    rendreSemaine();
+    rendreLieux();
+  }
+
+  async function charger() {
+    try {
+      const r = await fetch(`${BASE}/pilotage.json?t=${Date.now()}`, { cache: 'no-store' });
+      if (!r.ok) throw new Error(`HTTP ${r.status}`);
+      etat = await r.json();
+      erreur = null;
+    } catch (e) {
+      erreur = e.message;
+    }
+    toutRendre();
+    initRapports();
+  }
+
+  // ── Interactions ──
+  $('reseaux').addEventListener('click', (e) => {
+    const bouton = e.target.closest('.toggle');
+    if (!bouton) return;
+    const id = bouton.dataset.net;
+    const ouvert = bouton.getAttribute('aria-expanded') !== 'true';
+    bouton.setAttribute('aria-expanded', String(ouvert));
+    $(`d-${id}`).hidden = !ouvert;
+    if (ouvert) ouverts.add(id); else ouverts.delete(id);
+  });
+
+  let minuteur;
+  const toast = (texte) => {
+    const t = $('toast');
+    t.textContent = texte;
+    t.classList.add('on');
+    clearTimeout(minuteur);
+    minuteur = setTimeout(() => t.classList.remove('on'), 1800);
   };
-  select.addEventListener('change', () => afficher(select.value));
-  afficher(rapports[0]);
+  const copier = async (el) => {
+    try {
+      await navigator.clipboard.writeText(el.textContent.trim());
+      toast(`Copié : ${el.textContent.trim()}`);
+    } catch {
+      toast('Copie impossible : sélectionnez le texte à la main');
+    }
+  };
+  document.addEventListener('click', (e) => {
+    const cmd = e.target.closest('code.cmd');
+    if (cmd) copier(cmd);
+  });
+  document.addEventListener('keydown', (e) => {
+    if ((e.key === 'Enter' || e.key === ' ') && e.target.matches?.('code.cmd')) {
+      e.preventDefault();
+      copier(e.target);
+    }
+  });
+
+  toutRendre();
+  charger();
+  setInterval(charger, 120000);
+  // les durées relatives (« dans 12 min », « il y a 3 h ») restent justes entre deux actualisations
+  setInterval(() => {
+    if (!etat) return;
+    rendreStatut();
+    rendrePlanning();
+    rendrePublications();
+  }, 30000);
 })();
 </script>
 </body>

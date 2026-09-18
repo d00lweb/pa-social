@@ -1,7 +1,7 @@
 import { readFileSync } from 'node:fs';
 import { loadJson, saveJson } from '../core/state.mjs';
 import { config, fromRoot, enabledChannels } from '../core/config.mjs';
-import { countToday, dayKey } from '../core/scheduler.mjs';
+import { countToday, dayKey, PASSAGES } from '../core/scheduler.mjs';
 
 // Instantané lu par pilotage.html : l'état réel du robot, publié à chaque passage.
 // Volontairement compact — la page le télécharge à chaque ouverture.
@@ -15,8 +15,8 @@ const titre = (item) => item?.article?.title ?? '';
 // l'heure théorique de la file. Un post dû à 12:22 sort à 13:00, pas à 12:22.
 // Les minutes sont identiques dans tout fuseau décalé d'un nombre entier d'heures : on peut donc
 // raisonner sur l'horodatage sans convertir. Le cron GitHub peut déclencher plus tôt, mais il est
-// trop irrégulier pour qu'on promette son heure.
-export const PASSAGES = [0, 20];
+// trop irrégulier pour qu'on promette son heure. La cadence (PASSAGES) vit avec le planificateur,
+// qui s'en sert aussi pour placer les créneaux : une seule définition pour les deux.
 
 export function prochainPassage(dueAt, maintenant = Date.now()) {
   const base = Math.max(new Date(dueAt).getTime(), maintenant);
@@ -40,21 +40,47 @@ function jetons() {
   return meta;
 }
 
-export function construire({ history, queue, mesures = [], rapports = [], maintenant = Date.now() }) {
+export function construire({ history, queue, mesures = [], rapports = [], maintenant = Date.now(), controls = {}, lieux = null }) {
   const actifs = enabledChannels().map((c) => c.id);
+  const ilYaSeptJours = maintenant - 7 * 24 * 3600e3;
 
   const reseaux = Object.fromEntries(
     Object.entries(config.channels).map(([id, canal]) => {
       const publies = history.filter((e) => e.channel === id);
       return [id, {
         actif: actifs.includes(id),
+        pause: Boolean(controls.paused?.[id]),
+        manuel: Boolean(canal.manual),
         maxParJour: canal.maxPerDay ?? null,
+        // le rythme tel qu'il est réellement configuré : la page le lit ici plutôt que de le recopier
+        creneaux: canal.creneaux ?? null,
+        ecart: canal.gapHours ?? null,
+        nuit: canal.quietHours ?? null,
+        formats: canal.formats ?? null,
         aujourdhui: countToday(history, id, maintenant, TZ),
+        semaine: publies.filter((e) => Date.parse(e.at) >= ilYaSeptJours).length,
         total: publies.length,
         dernier: publies.at(-1)?.at ?? null,
+        lienDernier: publies.at(-1)?.lienPost ?? null,
       }];
     }),
   );
+
+  // Les dernières publications une à une, avec le lien direct vers chaque post
+  const publications = history
+    .filter((e) => e.at)
+    .slice(-10)
+    .reverse()
+    .map((e) => ({
+      channel: e.channel,
+      at: e.at,
+      titre: e.titre ?? '',
+      lien: e.lien ?? null,
+      lienPost: e.lienPost ?? null,
+      format: e.format ?? null,
+      texte: e.apercu?.texte ?? null,
+      image: e.apercu?.image ?? null,
+    }));
 
   // Les derniers articles réellement publiés, avec ce qui est parti sur chaque réseau :
   // c'est ce que la page affiche en aperçu, à la place des anciennes planches de démonstration.
@@ -81,12 +107,22 @@ export function construire({ history, queue, mesures = [], rapports = [], mainte
     jour: dayKey(maintenant, TZ),
     reseaux,
     articles,
+    publications,
     file,
     alertes,
     mesures: resume(mesures),
     rapports,
     jetons: jetons(),
+    passages: PASSAGES,
+    lieux: resumeLieux(lieux),
   };
+}
+
+// Bibliothèque de lieux : de quoi montrer ce que le robot sait taguer, pas les identifiants
+function resumeLieux(lieux) {
+  if (!lieux) return null;
+  const tri = (o) => Object.keys(o ?? {}).sort((a, b) => a.localeCompare(b, 'fr'));
+  return { communes: tri(lieux.communes), precis: tri(lieux.lieux), refuses: (lieux.refuses ?? []).length, derniere: lieux.derniere ?? null };
 }
 
 // Regroupe l'historique par article, du plus récent au plus ancien, avec l'aperçu de chaque réseau
@@ -124,13 +160,15 @@ function resume(mesures) {
 }
 
 export async function ecrire(contexte) {
-  const [history, queue, mesures] = await Promise.all([
+  const [history, queue, mesures, controls, lieux] = await Promise.all([
     contexte.history ? Promise.resolve(contexte.history) : loadJson('published.json', []),
     contexte.queue ? Promise.resolve(contexte.queue) : loadJson('queue.json', []),
     loadJson('mesures.json', []),
+    contexte.controls ? Promise.resolve(contexte.controls) : loadJson('controls.json', {}),
+    loadJson('lieux-appris.json', null),
   ]);
   const rapports = await loadJson('rapports/index.json', []);
-  const instantane = construire({ history, queue, mesures, rapports, maintenant: contexte.now ?? Date.now() });
+  const instantane = construire({ history, queue, mesures, rapports, maintenant: contexte.now ?? Date.now(), controls, lieux });
   await saveJson('pilotage.json', instantane);
   return instantane;
 }

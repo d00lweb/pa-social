@@ -34,10 +34,9 @@
       "requiresEnv": ["FB_PAGE_ID", "FB_TOKEN"],
       "validation": false,
       "maxPerDay": 2,
-      "gapHours": [3, 5],
+      "_creneaux": "Un post le matin, un en fin de journée (décision du 18/09/2026). Matin : les études au taux d'engagement (Hootsuite 8 h, Buffer 9 h) — lecture de l'actualité, fil encore peu chargé. Soir : les études au volume (Sprout Social, jusqu'à 20 h) et françaises (20 h – 23 h), heures de loisir où l'on prépare ses sorties. Chaque créneau contient quatre passages du robot, tirés au hasard.",
+      "creneaux": [["08:00", "09:30"], ["20:00", "21:30"]],
       "quietHours": { "start": 22, "end": 8 },
-      "jitterMinutes": [10, 60],
-      "morningJitterMinutes": [15, 120],
       "publishDelayMinutes": [0, 9],
       "commentDelayMinutes": [1, 3]
     },

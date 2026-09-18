@@ -422,7 +422,7 @@ async function main() {
         await say(`📍 <b>${appris.length} lieu${appris.length > 1 ? 'x' : ''} appris</b> depuis la page Facebook\n${esc(liste)}\n\nDésormais tagué${appris.length > 1 ? 's' : ''} automatiquement sur Instagram et Facebook quand un article les nomme.`);
       }
     }
-    await ecrirePilotage({ history, queue, now: ctx.now });
+    await ecrirePilotage({ history, queue, controls, now: ctx.now });
   } finally {
     await Promise.all([saveHistory(history), saveQueue(queue), saveMemory(memory), saveJson('controls.json', controls), saveJson('telegram.json', tg)]);
   }

@@ -12,13 +12,17 @@ test('Facebook : inactif tant que le jeton de Page manque', () => {
   assert.equal(fb.validation, false, 'publication automatique comme les autres réseaux');
 });
 
-test('Facebook : deux posts par jour au plus, espacés d’au moins 3 h, jamais la nuit', () => {
+test('Facebook : deux posts par jour au plus, un le matin, un en fin de journée, jamais la nuit', () => {
   const fb = config.channels.facebook;
-  const [min] = fb.gapHours;
+  const h = (s) => { const [a, b] = s.split(':').map(Number); return a + b / 60; };
+  const [[debutMatin, finMatin], [debutSoir, finSoir]] = fb.creneaux;
   assert.equal(fb.maxPerDay, 2);
-  assert.ok(min >= 3, `écart minimum de ${min} h entre deux posts Facebook`);
+  assert.ok(h(finMatin) <= 12 && h(debutSoir) >= 18, 'un créneau le matin, un en fin de journée');
+  // l'ancienne garantie de 3 h d'écart est tenue, et largement : plus de 10 h entre les deux créneaux
+  assert.ok(h(debutSoir) - h(finMatin) >= 3, 'toujours plus de 3 h entre deux posts Facebook');
   assert.equal(fb.quietHours.start, 22);
   assert.equal(fb.quietHours.end, 8);
+  assert.ok(h(debutMatin) >= fb.quietHours.end && h(finSoir) <= fb.quietHours.start, 'aucun créneau pendant la nuit');
   const [tot, tard] = fb.commentDelayMinutes;
   assert.ok(tot >= 1 && tard <= 5, 'le commentaire suit le post de 1 à 3 minutes, jamais instantanément');
 });

@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-18T11:00:34.780Z",
+  "genereLe": "2026-09-18T11:20:31.908Z",
   "jour": "2026-09-18",
   "reseaux": {
     "instagram": {
@@ -19,9 +19,9 @@
     "facebook": {
       "actif": true,
       "maxParJour": 2,
-      "aujourdhui": 1,
-      "total": 1,
-      "dernier": "2026-09-18T07:13:27.681Z"
+      "aujourdhui": 2,
+      "total": 2,
+      "dernier": "2026-09-18T11:22:43.533Z"
     },
     "threads": {
       "actif": true,
@@ -43,7 +43,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=34715",
       "titre": "Morimoto Bordeaux dévoile son nouveau menu déjeuner à 33 €",
       "lien": "https://passion-aquitaine.ouest-france.fr/nouveau-menu-morimoto-bordeaux/",
-      "at": "2026-09-18T11:07:55.596Z",
+      "at": "2026-09-18T11:22:43.533Z",
       "reseaux": {
         "instagram": {
           "texte": "Une table japonaise de Bordeaux ouvre sa pause déjeuner à 33 € 🍣\n⠀\nLe restaurant Morimoto, installé au Mondrian Bordeaux Les Carmes, lance une formule du midi servie en 45 minutes. De quoi déjeuner vite dans un cadre signé par un chef japonais.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #Morimoto #Restaurant",
@@ -76,6 +76,14 @@
           "reponse": null,
           "sujet": "Bordeaux",
           "publieLe": "2026-09-18T11:07:55.596Z"
+        },
+        "facebook": {
+          "texte": "Déjeuner chez Morimoto à Bordeaux pour 🍱 33 € et en 45 minutes : la formule vous tente ?",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260918-d98b6f23-fb.jpg",
+          "mode": null,
+          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/nouveau-menu-morimoto-bordeaux/",
+          "sujet": null,
+          "publieLe": "2026-09-18T11:22:43.533Z"
         }
       }
     },
@@ -137,12 +145,6 @@
     }
   ],
   "file": [
-    {
-      "channel": "facebook",
-      "dueAt": "2026-09-18T11:12:33.264Z",
-      "prochainPassage": "2026-09-18T11:20:00.000Z",
-      "titre": "Morimoto Bordeaux dévoile son nouveau menu déjeuner à 33 €"
-    },
     {
       "channel": "facebook",
       "dueAt": "2026-09-18T13:29:29.782Z",

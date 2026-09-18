@@ -238,5 +238,23 @@
       "reponse": null,
       "sujet": "Bordeaux"
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=34715",
+    "channel": "facebook",
+    "at": "2026-09-18T11:22:43.533Z",
+    "mediaId": "227437307428711_1723889383070276",
+    "titre": "Morimoto Bordeaux dévoile son nouveau menu déjeuner à 33 €",
+    "lien": "https://passion-aquitaine.ouest-france.fr/nouveau-menu-morimoto-bordeaux/",
+    "lienPost": "https://www.facebook.com/1720946116697936/posts/1723889383070276",
+    "format": null,
+    "mention": false,
+    "apercu": {
+      "texte": "Déjeuner chez Morimoto à Bordeaux pour 🍱 33 € et en 45 minutes : la formule vous tente ?",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260918-d98b6f23-fb.jpg",
+      "mode": null,
+      "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/nouveau-menu-morimoto-bordeaux/",
+      "sujet": null
+    }
   }
 ]

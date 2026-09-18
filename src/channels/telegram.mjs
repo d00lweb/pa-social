@@ -108,5 +108,6 @@ export const BOT_COMMANDS = [
   { command: 'pause', description: 'Mettre un réseau en pause : /pause instagram (ou tout)' },
   { command: 'reprise', description: 'Reprendre un réseau : /reprise instagram (ou tout)' },
   { command: 'validation', description: 'Validation manuelle : /validation instagram on|off' },
+  { command: 'x', description: 'Abonnés X du jour : /x 2940' },
   { command: 'aide', description: 'Liste des commandes' },
 ];

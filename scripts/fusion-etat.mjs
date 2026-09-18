@@ -9,12 +9,20 @@ import { fromRoot } from '../src/core/config.mjs';
 export const cle = (e) => `${e.guid}|${e.channel}`;
 
 // Logique pure : union des deux historiques, la publication la plus ancienne faisant foi,
-// et la file débarrassée de ce qui figure déjà comme publié.
+// et la file débarrassée de ce qui figure déjà comme publié. Ce que l'autre version sait en plus
+// (un lien retrouvé après coup, par exemple) complète la fiche sans jamais remplacer une valeur.
 export function fusionner({ distant = [], local = [], file = [] }) {
   const parCle = new Map();
   for (const e of [...distant, ...local]) {
     const connue = parCle.get(cle(e));
-    if (!connue || new Date(e.at) < new Date(connue.at)) parCle.set(cle(e), e);
+    if (!connue) {
+      parCle.set(cle(e), e);
+      continue;
+    }
+    const [foi, autre] = new Date(e.at) < new Date(connue.at) ? [e, connue] : [connue, e];
+    const fiche = { ...foi };
+    for (const [k, v] of Object.entries(autre)) if (fiche[k] === undefined || fiche[k] === null) fiche[k] = v;
+    parCle.set(cle(e), fiche);
   }
   const historique = [...parCle.values()].sort((a, b) => new Date(a.at) - new Date(b.at));
   return { historique, file: file.filter((item) => !parCle.has(cle(item))) };
@@ -46,7 +54,7 @@ export function fusionnerDossiers(localDir) {
   // l'exécution, la plus récente. Sans cette liste, une course entre deux passages les effacerait.
   // Les lieux appris ne font que croître et se retrouvent en relisant la page : un écrasement
   // occasionnel se rattrape tout seul au passage suivant.
-  for (const nom of ['memory.json', 'controls.json', 'telegram.json', 'mesures.json', 'pilotage.json', 'jetons.json', 'lieux-appris.json', 'abonnes.json']) {
+  for (const nom of ['memory.json', 'controls.json', 'telegram.json', 'mesures.json', 'pilotage.json', 'jetons.json', 'lieux-appris.json', 'abonnes.json', 'mois-publics.json']) {
     const valeur = lire(localDir, nom, null);
     if (valeur !== null) ecrire(nom, valeur);
   }

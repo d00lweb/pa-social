@@ -10,7 +10,8 @@ import { resoudreComptes } from './brain/comptes.mjs';
 import { resoudreLieu, lieuNomme } from './brain/lieux.mjs';
 import { recolterLieux } from './measure/recolte.mjs';
 import { collecter } from './measure/collect.mjs';
-import { releverAbonnes } from './measure/abonnes.mjs';
+import { releverAbonnes, saisirAbonnes, lireNombre } from './measure/abonnes.mjs';
+import { completerLiens } from './measure/liens.mjs';
 import { diffuser } from './measure/diffusion.mjs';
 import { ecrire as ecrirePilotage } from './measure/pilotage.mjs';
 import { publierPublic } from './measure/public.mjs';
@@ -129,6 +130,7 @@ const HELP = [
   '/pause instagram (ou /pause tout)',
   '/reprise instagram (ou /reprise tout)',
   '/validation instagram on|off',
+  '/x 2940 : abonnés X du jour (X ne les donne pas autrement)',
   '',
   'Sous chaque aperçu : ✅ Valider, ❌ Refuser, 🔁 Régénérer les textes.',
   '<i>Le bot lit tes messages à chaque passage, toutes les 20 min environ.</i>',
@@ -154,6 +156,14 @@ async function onCommand(text, ctx) {
       if (!NETWORKS.includes(net) || !['on', 'off'].includes(value)) return say('Exemple : /validation instagram off');
       controls.validation[net] = value === 'on';
       return say(`Validation ${NAMES[net]} : ${value === 'on' ? 'activée, chaque post attend ton ✅' : 'désactivée, publication automatique'}`);
+    }
+    case 'x': {
+      const n = lireNombre(cmd.args.join(''));
+      if (n === null) return say('Exemple : /x 2940');
+      const { avant } = await saisirAbonnes('x', n, { now: ctx.now });
+      const ecart = avant ? n - avant.n : null;
+      const depuis = avant ? ` (${ecart >= 0 ? '+' : '−'}${Math.abs(ecart).toLocaleString('fr-FR')} depuis le ${avant.jour.split('-').reverse().slice(0, 2).join('/')})` : '';
+      return say(`𝕏 <b>${n.toLocaleString('fr-FR')} abonnés</b> enregistrés${depuis}.\nLa page de l’équipe est à jour au prochain passage.`);
     }
     case 'statut':
       return say(statusText(ctx));
@@ -436,6 +446,8 @@ async function main() {
         await say(`📍 <b>${appris.length} lieu${appris.length > 1 ? 'x' : ''} appris</b> depuis la page Facebook\n${esc(liste)}\n\nDésormais tagué${appris.length > 1 ? 's' : ''} automatiquement sur Instagram et Facebook quand un article les nomme.`);
       }
     }
+    // lien direct des publications anciennes, relevé avant le 18/09/2026 : retrouvé une fois pour toutes
+    await completerLiens(history).catch((e) => console.error(`Liens des publications : ${e.message}`));
     await ecrirePilotage({ history, queue, controls, now: ctx.now });
     // page publique de l'équipe : données filtrées par liste blanche, déposées sur le site
     await publierPublic({ history, queue, controls, articles: items, maintenant: ctx.now }).catch((e) => console.error(`Page équipe : ${e.message}`));

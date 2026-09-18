@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-wDVK8NB+jre+ZeGY7noxce5h5sZfej6whiylOzL2Xwk='; style-src 'sha256-aoYBE03SlMds6lLcHPLEEUzw38FlzPLt0hbBr70E5bE='; img-src 'self' data:; font-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-hClh/29xpfczt3Oz3B6AdM7R6hz0rEXp7E66200Ku+M='; style-src 'sha256-kw4+IrR7rD9dmTtIN33X1VEiuKSSprk6a+vlYitZCVo='; img-src 'self' data:; font-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'">
 <meta name="referrer" content="no-referrer">
 <meta name="robots" content="noindex, nofollow, noarchive">
 <meta name="color-scheme" content="light dark">
@@ -24,7 +24,7 @@
   --shadow:0 1px 2px rgba(27,20,18,.04),0 12px 32px -14px rgba(27,20,18,.18);
   --shadow-hover:0 2px 4px rgba(27,20,18,.05),0 22px 44px -18px rgba(27,20,18,.28);
   --up:#15803d;--up-bg:rgba(21,128,61,.10);--down:#b42318;--down-bg:rgba(180,35,24,.08);
-  --facebook:#1877f2;--instagram:#e1306c;--threads:#111;--bluesky:#1185fe;
+  --facebook:#1877f2;--instagram:#e1306c;--threads:#111;--bluesky:#1185fe;--x:#0f1419;
   --hero:#140e0c;--hero-ink:#fbf4ef;--hero-ink-2:rgba(251,244,239,.66);--hero-line:rgba(255,255,255,.1);
   --radius:22px;--radius-sm:14px;
   --font:"Montserrat PA",Montserrat,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Arial,sans-serif;
@@ -37,7 +37,7 @@
     --shadow:0 1px 2px rgba(0,0,0,.3),0 14px 34px -16px rgba(0,0,0,.6);
     --shadow-hover:0 2px 4px rgba(0,0,0,.35),0 24px 48px -18px rgba(0,0,0,.75);
     --up:#4ade80;--up-bg:rgba(74,222,128,.12);--down:#f87171;--down-bg:rgba(248,113,113,.12);
-    --threads:#f2f2f2;--hero:#0b0807;
+    --threads:#f2f2f2;--x:#e7e9ea;--hero:#0b0807;
     color-scheme:dark;
   }
 }
@@ -58,7 +58,7 @@ h1,h2,h3,p{margin:0}
 .ico--trait{fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
 
 /* ---------- Hero ---------- */
-.hero{position:relative;isolation:isolate;overflow:hidden;background:var(--hero);color:var(--hero-ink);padding:22px 0 64px;--threads:#f2f2f2}
+.hero{position:relative;isolation:isolate;overflow:hidden;background:var(--hero);color:var(--hero-ink);padding:22px 0 64px;--threads:#f2f2f2;--x:#aab4bd}
 .hero__lueur{position:absolute;inset:-30% -10% auto -10%;height:140%;z-index:-1;pointer-events:none}
 .hero__lueur::before,.hero__lueur::after{content:"";position:absolute;border-radius:50%;filter:blur(70px);opacity:.55;will-change:transform}
 .hero__lueur::before{width:62vw;height:62vw;max-width:820px;max-height:820px;left:48%;top:-8%;background:radial-gradient(circle at 40% 40%,#e2482f 0%,rgba(205,64,44,.5) 38%,transparent 70%);animation:derive 22s ease-in-out infinite alternate}
@@ -98,7 +98,7 @@ h1 em{font-style:normal;background:linear-gradient(92deg,#ff8a5c 0%,var(--brand-
 a.prochaine:hover{transform:translateY(-3px);border-color:rgba(238,106,67,.7)}
 .prochaine__etiquette{display:flex;align-items:center;gap:8px;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.14em;color:#ffb199}
 .prochaine__compte{margin-top:12px;font-size:clamp(34px,4.6vw,52px);font-weight:800;letter-spacing:-.035em;line-height:1.02}
-.prochaine__quand{margin-top:8px;display:flex;align-items:center;gap:8px;font-size:14px;color:var(--hero-ink-2)}
+.prochaine__quand{margin-top:10px;display:flex;flex-wrap:wrap;align-items:center;gap:8px 10px;font-size:14px;color:var(--hero-ink-2)}
 .prochaine__quand .badge{background:rgba(255,255,255,.1);color:var(--hero-ink)}
 .prochaine__article{display:flex;gap:14px;align-items:center;margin-top:auto;padding-top:20px}
 .prochaine__article img{width:64px;height:64px;border-radius:12px;object-fit:cover;flex:none;background:rgba(255,255,255,.08)}
@@ -135,7 +135,10 @@ h2{margin-top:10px;font-size:clamp(28px,3.6vw,42px);font-weight:800;letter-spaci
 .apparait.vu{opacity:1;transform:none}
 
 /* ---------- Comptes ---------- */
-.comptes{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}
+/* deux grands comptes en tête, les trois autres dessous */
+.comptes{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:18px}
+.comptes>*{grid-column:span 2}
+.comptes>:nth-child(-n+2){grid-column:span 3}
 .compte{position:relative;display:flex;flex-direction:column;padding:22px 22px 18px;overflow:hidden;transition:transform .35s cubic-bezier(.2,.8,.2,1),box-shadow .35s}
 .compte:hover{transform:translateY(-4px);box-shadow:var(--shadow-hover)}
 .compte::before{content:"";position:absolute;inset:0 0 auto;height:4px;background:var(--c)}
@@ -143,13 +146,13 @@ h2{margin-top:10px;font-size:clamp(28px,3.6vw,42px);font-weight:800;letter-spaci
 .compte__tete{display:flex;align-items:center;gap:12px}
 .pastille{display:grid;place-items:center;width:42px;height:42px;border-radius:13px;background:var(--c);color:#fff;font-size:22px;flex:none}
 .pastille--instagram{background:radial-gradient(circle at 30% 107%,#fdf497 0%,#fd5949 45%,#d6249f 60%,#285aeb 90%)}
-.pastille--threads{color:var(--bg)}
+.pastille--threads,.pastille--x{color:var(--bg)}
 .compte__nom{min-width:0}
 .compte__nom h3{font-size:17px;font-weight:700;letter-spacing:-.01em;line-height:1.2}
 .compte__nom p{font-size:13px;color:var(--ink-3);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .suivre{margin-left:auto;display:grid;place-items:center;width:36px;height:36px;border-radius:50%;border:1px solid var(--line);font-size:16px;text-decoration:none;color:var(--ink);transition:background .2s,border-color .2s,color .2s;flex:none}
 .suivre:hover{background:var(--c);border-color:var(--c);color:#fff}
-.compte--threads .suivre:hover{color:var(--bg)}
+.compte--threads .suivre:hover,.compte--x .suivre:hover{color:var(--bg)}
 .compte__nombre{margin-top:24px;font-size:clamp(34px,3.4vw,44px);font-weight:800;letter-spacing:-.04em;line-height:1}
 .compte__label{margin-top:6px;font-size:14px;color:var(--ink-2)}
 .compte__gain{margin-top:14px}
@@ -181,8 +184,15 @@ a.rdv__carte:hover{background:var(--surface-2)}
 .rdv__img{width:72px;height:72px;border-radius:12px;object-fit:cover;flex:none;background:var(--line-2)}
 .rdv__texte{min-width:0}
 .rdv__titre{margin-top:6px;font-size:15px;font-weight:600;line-height:1.35;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-.rdv__quand{display:block;margin-top:4px;font-size:13px;color:var(--ink-3)}
-.rdv--prochain .rdv__quand{color:var(--brand);font-weight:700}
+.rdv__quand{display:block;margin-top:5px;font-size:13px;font-weight:700;color:var(--brand)}
+.rdv__etiquettes{display:flex;flex-wrap:wrap;align-items:center;gap:6px}
+/* publication faite à la main, au moment indiqué */
+.manuel{display:inline-flex;align-items:center;gap:5px;padding:3px 9px 3px 7px;border-radius:999px;font-size:11.5px;font-weight:700;color:var(--ink-2);background:var(--surface);border:1px dashed color-mix(in srgb,var(--ink) 28%,transparent);white-space:nowrap}
+.manuel .ico{font-size:13px}
+.hero .manuel{color:var(--hero-ink);background:rgba(255,255,255,.06);border-color:rgba(255,255,255,.3)}
+/* vignette de story : l'anneau des stories Instagram */
+.anneau{display:block;width:72px;height:72px;flex:none;border-radius:50%;padding:3px;background:conic-gradient(from 200deg,#feda75,#fa7e1e,#d62976,#962fbf,#4f5bd5,#feda75)}
+.anneau img,.anneau span{display:block;width:100%;height:100%;border-radius:50%;object-fit:cover;border:2.5px solid var(--surface);background:var(--line-2)}
 .maintenant{padding:24px}
 .maintenant h3{font-size:18px;font-weight:800;letter-spacing:-.02em}
 .maintenant>p{margin-top:6px;font-size:14px;color:var(--ink-2)}
@@ -207,7 +217,7 @@ a.rdv__carte:hover{background:var(--surface-2)}
 .piste{position:relative;height:44px;border-radius:12px;background:repeating-linear-gradient(90deg,var(--line-2) 0 1px,transparent 1px calc(100% / 18));background-color:var(--surface-2)}
 .creneau{position:absolute;top:6px;bottom:6px;border-radius:9px;background:var(--c);display:flex;align-items:center;justify-content:center;overflow:hidden;color:#fff;font-size:11px;font-weight:700;letter-spacing:-.01em;white-space:nowrap;box-shadow:0 6px 16px -8px var(--c)}
 .creneau--instagram{background:linear-gradient(90deg,#f58529,#dd2a7b 55%,#8134af)}
-.creneau--threads{color:var(--bg)}
+.creneau--threads,.creneau--x{color:var(--bg)}
 .creneau.en-cours{animation:halo 2.4s ease-in-out infinite}
 @keyframes halo{50%{box-shadow:0 0 0 5px color-mix(in srgb,var(--c) 25%,transparent),0 6px 16px -8px var(--c)}}
 .axe{display:grid;grid-template-columns:170px minmax(0,1fr);gap:18px;margin-top:6px}
@@ -223,7 +233,7 @@ a.rdv__carte:hover{background:var(--surface-2)}
 .pubs{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}
 .pub{display:flex;flex-direction:column;overflow:hidden;transition:transform .35s cubic-bezier(.2,.8,.2,1),box-shadow .35s}
 .pub:hover{transform:translateY(-4px);box-shadow:var(--shadow-hover)}
-.pub__visuel{position:relative;display:block;aspect-ratio:4/3;overflow:hidden;background:linear-gradient(135deg,color-mix(in srgb,var(--c) 30%,var(--surface-2)),var(--surface-2))}
+.pub__visuel{position:relative;display:block;aspect-ratio:4/5;overflow:hidden;background:linear-gradient(135deg,color-mix(in srgb,var(--c) 30%,var(--surface-2)),var(--surface-2))}
 .pub__visuel img{width:100%;height:100%;object-fit:cover;transition:transform .8s cubic-bezier(.2,.8,.2,1)}
 .pub:hover .pub__visuel img{transform:scale(1.05)}
 .pub__visuel .ico--grand{position:absolute;inset:0;margin:auto;font-size:44px;color:var(--c);opacity:.5}
@@ -235,9 +245,15 @@ a.pub__titre:hover{color:var(--brand)}
 .puce{display:inline-flex;align-items:center;gap:5px;padding:5px 10px 5px 8px;border-radius:999px;font-size:12px;font-weight:700;text-decoration:none;color:var(--c);background:color-mix(in srgb,var(--c) 11%,transparent);transition:background .2s,color .2s}
 .puce .ico{font-size:14px}
 a.puce:hover{background:var(--c);color:#fff}
-a.puce--threads:hover{color:var(--bg)}
+a.puce--threads:hover,a.puce--x:hover{color:var(--bg)}
+.puce--x{padding:5px 9px}
 
 /* ---------- Ce mois-ci ---------- */
+.onglets{display:flex;gap:4px;padding:4px;border-radius:999px;background:var(--surface);border:1px solid var(--line);box-shadow:var(--shadow);overflow-x:auto;scrollbar-width:none;max-width:100%}
+.onglets::-webkit-scrollbar{display:none}
+.onglet{flex:none;appearance:none;border:0;background:transparent;font:inherit;font-size:14px;font-weight:700;color:var(--ink-2);padding:8px 16px;border-radius:999px;cursor:pointer;transition:background .2s,color .2s}
+.onglet:hover{color:var(--ink)}
+.onglet[aria-selected="true"]{background:var(--brand);color:#fff}
 .kpis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}
 .kpi{padding:22px 22px 20px}
 .kpi__valeur{font-size:clamp(32px,3.6vw,46px);font-weight:800;letter-spacing:-.04em;line-height:1}
@@ -292,6 +308,8 @@ a.puce--threads:hover{color:var(--bg)}
 /* ---------- Adaptations ---------- */
 @media (max-width:1100px){
   .comptes,.pubs,.piliers{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .comptes>*,.comptes>:nth-child(-n+2){grid-column:auto}
+  .comptes>:last-child:nth-child(odd){grid-column:1/-1}
   .kpis{grid-template-columns:repeat(2,minmax(0,1fr))}
 }
 @media (max-width:900px){
@@ -312,6 +330,8 @@ a.puce--threads:hover{color:var(--bg)}
   .prochaine{padding:22px 20px 20px}
   .chiffres li{padding:14px 16px}
   .comptes{grid-template-columns:minmax(0,1fr)}
+  .comptes>:last-child:nth-child(odd){grid-column:auto}
+  .anneau{width:56px;height:56px}
   .piliers{grid-template-columns:minmax(0,1fr)}
   .pubs{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
   .pub__corps{padding:10px 12px 12px}
@@ -352,6 +372,8 @@ a.puce--threads:hover{color:var(--bg)}
   <symbol id="i-instagram" viewBox="0 0 24 24"><path d="M12 3.2c2.9 0 3.2 0 4.3.1 1.1.1 1.7.2 2.1.4.5.2.9.5 1.3.9s.7.8.9 1.3c.2.4.3 1 .4 2.1.1 1.1.1 1.5.1 4.3s0 3.2-.1 4.3c-.1 1.1-.2 1.7-.4 2.1-.2.5-.5.9-.9 1.3s-.8.7-1.3.9c-.4.2-1 .3-2.1.4-1.1.1-1.5.1-4.3.1s-3.2 0-4.3-.1c-1.1-.1-1.7-.2-2.1-.4-.5-.2-.9-.5-1.3-.9s-.7-.8-.9-1.3c-.2-.4-.3-1-.4-2.1C3.2 15.2 3.2 14.9 3.2 12s0-3.2.1-4.3c.1-1.1.2-1.7.4-2.1.2-.5.5-.9.9-1.3s.8-.7 1.3-.9c.4-.2 1-.3 2.1-.4C8.8 3.2 9.1 3.2 12 3.2zm0 1.9c-2.8 0-3.1 0-4.2.1-1 0-1.5.2-1.9.3-.5.2-.8.4-1.1.7-.3.3-.6.7-.7 1.1-.1.4-.3.9-.3 1.9-.1 1.1-.1 1.4-.1 4.2s0 3.1.1 4.2c0 1 .2 1.5.3 1.9.2.5.4.8.7 1.1.3.3.7.6 1.1.7.4.1.9.3 1.9.3 1.1.1 1.4.1 4.2.1s3.1 0 4.2-.1c1 0 1.5-.2 1.9-.3.5-.2.8-.4 1.1-.7.3-.3.6-.7.7-1.1.1-.4.3-.9.3-1.9.1-1.1.1-1.4.1-4.2s0-3.1-.1-4.2c0-1-.2-1.5-.3-1.9-.2-.5-.4-.8-.7-1.1-.3-.3-.7-.6-1.1-.7-.4-.1-.9-.3-1.9-.3-1.1-.1-1.4-.1-4.2-.1zm0 3.2a3.7 3.7 0 1 1 0 7.4 3.7 3.7 0 0 1 0-7.4zm0 6a2.3 2.3 0 1 0 0-4.6 2.3 2.3 0 0 0 0 4.6zm4.7-6.2a.9.9 0 1 1-1.8 0 .9.9 0 0 1 1.8 0z"/></symbol>
   <symbol id="i-threads" viewBox="0 0 24 24"><path d="M16.8 11.3l-.3-.1c-.2-2.9-1.8-4.6-4.5-4.6-1.6 0-3 .7-3.8 2l1.5 1c.6-.9 1.5-1.1 2.3-1.1 1 0 1.7.3 2.1.9.3.4.5 1 .6 1.7-.8-.1-1.7-.2-2.6-.1-2.6.1-4.3 1.7-4.2 3.8.1 1.1.6 2 1.5 2.6.8.5 1.8.8 2.8.7 1.4-.1 2.5-.6 3.2-1.6.6-.7.9-1.7 1-2.9.7.4 1.2.9 1.4 1.6.5 1.1.5 2.9-1 4.4-1.3 1.3-2.9 1.9-5.3 1.9-2.6 0-4.6-.9-5.9-2.5-1.2-1.5-1.8-3.7-1.9-6.5.1-2.8.7-5 1.9-6.5C6.9 4.4 8.9 3.6 11.5 3.6c2.6 0 4.7.8 6 2.5.7.8 1.2 1.8 1.5 3l1.8-.5c-.4-1.5-1-2.7-1.9-3.8C17.2 2.8 14.7 1.8 11.5 1.8 8.3 1.8 5.8 2.8 4.1 4.9 2.6 6.8 1.8 9.4 1.8 12.6s.8 5.8 2.3 7.7c1.7 2.1 4.2 3.1 7.4 3.1h.1c2.8 0 4.8-.7 6.5-2.4 2.2-2.2 2.1-5 1.4-6.6-.5-1.2-1.5-2.2-2.7-2.9zm-4.7 4.6c-1.1.1-2.2-.4-2.3-1.4 0-.8.5-1.6 2.3-1.7h.6c.7 0 1.3.1 1.9.2-.2 2.4-1.4 2.8-2.5 2.9z"/></symbol>
   <symbol id="i-bluesky" viewBox="0 0 24 24"><path d="M6.3 4.4c2.1 1.6 4.3 4.7 5.7 6.4 1.4-1.7 3.6-4.8 5.7-6.4 1.5-1.1 3.9-2 3.9.8 0 .6-.3 4.6-.5 5.2-.7 2.3-3 2.9-5.2 2.5 3.8.6 4.7 2.8 2.6 4.9-3.9 4-5.6-1-6.1-2.3l-.1-.3-.1.3c-.4 1.3-2.2 6.3-6.1 2.3-2.1-2.1-1.1-4.3 2.6-4.9-2.1.4-4.5-.3-5.2-2.5-.2-.6-.5-4.6-.5-5.2 0-2.8 2.4-1.9 3.9-.8z"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><path d="M17.75 3h3.07l-6.7 7.66L22 21h-6.17l-4.83-6.32L5.47 21H2.4l7.17-8.2L2 3h6.33l4.37 5.77L17.75 3zm-1.08 16.18h1.7L7.4 4.73H5.58l11.09 14.45z"/></symbol>
+  <symbol id="i-main" viewBox="0 0 24 24"><path d="M18 11V6a2 2 0 0 0-4 0"/><path d="M14 10V4a2 2 0 0 0-4 0v2"/><path d="M10 10.5V6a2 2 0 0 0-4 0v8"/><path d="M18 8a2 2 0 1 1 4 0v6a8 8 0 0 1-8 8h-2c-2.8 0-4.5-.9-6-2.3l-3.6-3.6a2 2 0 0 1 2.8-2.8L7 15"/></symbol>
   <symbol id="i-fleche" viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8"/></symbol>
   <symbol id="i-horloge" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
   <symbol id="i-formats" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="9" rx="2"/><rect x="14" y="3" width="7" height="5" rx="2"/><rect x="14" y="12" width="7" height="9" rx="2"/><rect x="3" y="16" width="7" height="5" rx="2"/></symbol>
@@ -377,7 +399,7 @@ a.puce--threads:hover{color:var(--bg)}
       <div class="total">
         <p class="total__etiquette">Communauté totale</p>
         <p class="total__nombre num" id="total"><span class="squelette"></span></p>
-        <p class="total__sous" id="total-sous">abonnés sur Facebook, Instagram, Threads et Bluesky</p>
+        <p class="total__sous" id="total-sous">abonnés sur Facebook, Instagram, X, Threads et Bluesky</p>
         <div class="repartition" id="repartition" aria-hidden="true"></div>
         <ul class="legende" id="legende"></ul>
       </div>
@@ -404,7 +426,7 @@ a.puce--threads:hover{color:var(--bg)}
 
 <main id="contenu">
   <section class="section wrap" id="comptes" aria-labelledby="t-comptes">
-    <div class="tete"><div><p class="kicker">Nos comptes</p><h2 id="t-comptes">Quatre réseaux, une même ligne éditoriale</h2><p class="chapo">L’audience de chaque compte, sa progression et son rythme de publication.</p></div></div>
+    <div class="tete"><div><p class="kicker">Nos comptes</p><h2 id="t-comptes">Cinq réseaux, une même ligne éditoriale</h2><p class="chapo">L’audience de chaque compte, sa progression et son rythme de publication.</p></div></div>
     <div class="comptes" id="liste-comptes"><div class="squelette"></div><div class="squelette"></div><div class="squelette"></div><div class="squelette"></div></div>
   </section>
 
@@ -429,15 +451,15 @@ a.puce--threads:hover{color:var(--bg)}
   </section>
 
   <section class="section wrap" id="publications" aria-labelledby="t-pubs">
-    <div class="tete"><div><p class="kicker">Dernières publications</p><h2 id="t-pubs">Ce qui vient de paraître</h2><p class="chapo">Les derniers articles relayés sur nos réseaux. Chaque pastille ouvre la publication correspondante.</p></div></div>
+    <div class="tete"><div><p class="kicker">Dernières publications</p><h2 id="t-pubs">Ce qui vient de paraître</h2><p class="chapo">Les derniers articles relayés sur nos réseaux, avec leur visuel. Chaque pastille ouvre la publication sur le réseau.</p></div></div>
     <div class="pubs" id="pubs"><div class="squelette"></div><div class="squelette"></div><div class="squelette"></div><div class="squelette"></div></div>
   </section>
 
   <section class="section wrap" id="ce-mois" aria-labelledby="t-mois">
-    <div class="tete"><div><p class="kicker" id="mois-nom">Ce mois-ci</p><h2 id="t-mois">Le bilan du mois, jour après jour</h2><p class="chapo">Publications, interactions et nouveaux abonnés depuis le 1<sup>er</sup> du mois.</p></div></div>
+    <div class="tete"><div><p class="kicker" id="mois-nom">Ce mois-ci</p><h2 id="t-mois">Le bilan du mois, jour après jour</h2><p class="chapo" id="mois-chapo">Publications, interactions et nouveaux abonnés depuis le 1<sup>er</sup> du mois.</p></div><div class="onglets" id="mois-choix" role="tablist" aria-label="Choisir le mois" hidden></div></div>
     <div class="kpis" id="kpis"></div>
     <div class="mois">
-      <div class="carte bloc"><h3>Publications par réseau</h3><p>Depuis le début du mois</p><ul class="barres" id="barres"></ul></div>
+      <div class="carte bloc"><h3>Publications par réseau</h3><p id="barres-note">Depuis le début du mois</p><ul class="barres" id="barres"></ul></div>
       <div class="carte bloc"><h3>Les plus engageantes</h3><p>Mentions J’aime, commentaires et partages</p><ol class="top" id="top"></ol></div>
     </div>
   </section>
@@ -445,7 +467,7 @@ a.puce--threads:hover{color:var(--bg)}
   <section class="section wrap" id="methode" aria-labelledby="t-methode">
     <div class="tete"><div><p class="kicker">Notre méthode</p><h2 id="t-methode">Chaque article, raconté pour chaque réseau</h2></div></div>
     <div class="piliers">
-      <article class="carte pilier"><span class="pilier__ico"><svg class="ico ico--trait"><use href="#i-formats"/></svg></span><h3>Le bon format</h3><p>Visuel, ton et longueur sont pensés pour chaque réseau : carrousel sur Instagram, publication illustrée sur Facebook, conversation sur Threads et Bluesky.</p></article>
+      <article class="carte pilier"><span class="pilier__ico"><svg class="ico ico--trait"><use href="#i-formats"/></svg></span><h3>Le bon format</h3><p>Visuel, ton et longueur sont pensés pour chaque réseau : carrousel et story sur Instagram, publication illustrée sur Facebook, conversation sur X, Threads et Bluesky.</p></article>
       <article class="carte pilier"><span class="pilier__ico"><svg class="ico ico--trait"><use href="#i-horloge"/></svg></span><h3>Le bon moment</h3><p>Nous publions aux heures où chaque audience est la plus présente, sans jamais enchaîner les publications. Une actualité chaude part sans attendre.</p></article>
       <article class="carte pilier"><span class="pilier__ico"><svg class="ico ico--trait"><use href="#i-lieu"/></svg></span><h3>Ancré dans le territoire</h3><p>Dès que le réseau le permet, chaque publication est localisée sur la commune ou le lieu dont parle l’article.</p></article>
       <article class="carte pilier"><span class="pilier__ico"><svg class="ico ico--trait"><use href="#i-oeil"/></svg></span><h3>Accessible à tous</h3><p>Chaque image est accompagnée d’une description, lue par les personnes malvoyantes et utile aux moteurs de recherche.</p></article>
@@ -475,11 +497,12 @@ a.puce--threads:hover{color:var(--bg)}
   const COMPTES = {
     facebook: { nom: 'Facebook', compte: 'Passion Aquitaine', url: 'https://www.facebook.com/227437307428711' },
     instagram: { nom: 'Instagram', compte: '@lovaquitaine', url: 'https://www.instagram.com/lovaquitaine/' },
+    x: { nom: 'X', compte: '@lovaquitaine', url: 'https://x.com/lovaquitaine' },
     threads: { nom: 'Threads', compte: '@lovaquitaine', url: 'https://www.threads.com/@lovaquitaine' },
     bluesky: { nom: 'Bluesky', compte: '@passion-aquitaine.ouest-france.fr', url: 'https://bsky.app/profile/passion-aquitaine.ouest-france.fr' },
   };
-  const ORDRE = ['facebook', 'instagram', 'threads', 'bluesky'];
-  const DOMAINES_LIENS = [SITE, 'instagram.com', 'facebook.com', 'threads.com', 'threads.net', 'bsky.app'];
+  const ORDRE = ['facebook', 'instagram', 'x', 'threads', 'bluesky'];
+  const DOMAINES_LIENS = [SITE, 'instagram.com', 'facebook.com', 'threads.com', 'threads.net', 'bsky.app', 'x.com'];
   const reduit = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
   let donnees = null;
@@ -527,7 +550,10 @@ a.puce--threads:hover{color:var(--bg)}
   }
   const icone = (id, cls = 'ico') => s('svg', { class: cls, 'aria-hidden': 'true' }, s('use', { href: '#i-' + id }));
   const couleur = (id) => `var(--${id})`;
-  const badge = (id) => h('span', { class: `badge badge--${id}`, c: couleur(id) }, icone(id), COMPTES[id].nom);
+  const badge = (id, format) => h('span', { class: `badge badge--${id}`, c: couleur(id) }, icone(id), COMPTES[id].nom, format === 'story' ? ' · Story' : '');
+  // Publication faite à la main, au moment indiqué (X, stories Instagram)
+  const manuelle = () => h('span', { class: 'manuel', title: 'Publiée à la main, au moment indiqué' }, icone('main', 'ico ico--trait'), 'Publication manuelle');
+  const etiquettes = (p) => h('span', { class: 'rdv__etiquettes' }, badge(p.reseau, p.format), p.manuel ? manuelle() : null);
   const pastille = (id) => h('span', { class: `pastille pastille--${id}` }, icone(id));
   const vignette = (url, cls, taille) => (imageSure(url) ? h('img', { class: cls, src: url, alt: '', width: taille[0], height: taille[1] }) : h('span', { class: cls }));
   const remplir = (el, ...enfants) => el.replaceChildren(...enfants.flat(Infinity).filter(Boolean));
@@ -604,7 +630,7 @@ a.puce--threads:hover{color:var(--bg)}
     const gainSemaine = liste.reduce((n, r) => n + (r.gainSemaine || 0), 0);
     const sous = document.getElementById('total-sous');
     if (liste.some(suivi)) remplir(sous, h('b', { text: signe(gainSemaine) }), ' abonnés sur les 7 derniers jours');
-    else remplir(sous, 'abonnés sur Facebook, Instagram, Threads et Bluesky');
+    else remplir(sous, 'abonnés sur Facebook, Instagram, X, Threads et Bluesky');
 
     remplir(document.getElementById('repartition'), liste.map((r) => {
       const el = h('span', { c: couleur(r.id), title: `${COMPTES[r.id].nom} : ${nf.format(r.abonnes)}` });
@@ -618,7 +644,7 @@ a.puce--threads:hover{color:var(--bg)}
     remplir(document.getElementById('legende'), liste.map((r) => h('li', { c: couleur(r.id) }, h('i'), COMPTES[r.id].nom, ' ', h('b', { class: 'num', text: total ? part(r.abonnes) : '' }))));
 
     const programmees = aVenir().filter((p) => Date.parse(p.heure) > Date.now()).length;
-    const m = donnees.mois || {};
+    const m = moisListe()[0] || {};
     const chiffres = [
       [nf.format(m.publications || 0), 'publications ce mois-ci'],
       [nf.format(m.articles || 0), 'articles relayés ce mois-ci'],
@@ -637,7 +663,7 @@ a.puce--threads:hover{color:var(--bg)}
     const t = p ? Date.parse(p.heure) : 0;
     const reste = Math.round((t - now) / 6e4);
     const compte = p ? (reste > 0 ? `dans ${duree(reste)}` : 'Maintenant') : 'Bientôt';
-    const cle = p ? `${p.reseau}|${p.heure}|${p.titre}|${parties(now).cle}` : 'aucune';
+    const cle = p ? `${p.reseau}|${p.format}|${p.heure}|${p.titre}|${parties(now).cle}` : 'aucune';
     if (!forcer && cle === prochaineCle) {
       bloc.querySelector('.prochaine__compte').textContent = compte;
       return;
@@ -649,7 +675,7 @@ a.puce--threads:hover{color:var(--bg)}
     ];
     if (!p) contenu.push(h('p', { class: 'prochaine__vide', text: 'La prochaine publication apparaîtra ici dès la parution d’un nouvel article.' }));
     else contenu.push(
-      h('p', { class: 'prochaine__quand' }, badge(p.reseau), `${libelleJour(t, now)} à ${heure(t)}`),
+      h('p', { class: 'prochaine__quand' }, badge(p.reseau, p.format), h('span', { class: 'nw', text: `${libelleJour(t, now)} à ${heure(t)}` }), p.manuel ? manuelle() : null),
       h('div', { class: 'prochaine__article' }, imageSure(p.image) ? h('img', { src: p.image, alt: '', width: 64, height: 64 }) : null, h('p', { text: p.titre })),
     );
     const nouveau = p && lienSur(p.lien) ? h('a', { class: 'prochaine', id: 'prochaine', href: p.lien }, ...contenu) : h('div', { class: 'prochaine', id: 'prochaine' }, ...contenu);
@@ -679,8 +705,10 @@ a.puce--threads:hover{color:var(--bg)}
     return svg;
   }
 
+  // date du premier relevé de ce compte (X est suivi à partir de sa première saisie)
+  const depuisDe = (r) => (r?.depuis ? fCourt.format(new Date(dateJour(r.depuis))) : depuisLe());
   function gainPastille(r, cle, suffixe) {
-    if (!suivi(r)) return h('span', { class: 'gain gain--neutre', text: `Suivi depuis le ${depuisLe()}` });
+    if (!suivi(r)) return h('span', { class: 'gain gain--neutre', text: `Suivi depuis le ${depuisDe(r)}` });
     const n = r[cle] || 0;
     const sens = n > 0 ? 'up' : n < 0 ? 'down' : 'neutre';
     return h('span', { class: `gain gain--${sens}` }, n === 0 ? `Stable ${suffixe}` : `${signe(n)} ${suffixe}`);
@@ -706,7 +734,7 @@ a.puce--threads:hover{color:var(--bg)}
         h('p', { class: 'compte__label', text: `${r.abonnes > 1 ? 'abonnés' : 'abonné'}${part ? ` · ${part} % de la communauté` : ''}` }),
         h('div', { class: 'compte__gain' }, gainPastille(r, 'gainSemaine', 'cette semaine')),
         courbe(r),
-        h('p', { class: 'courbe__note', text: suivi(r) ? `${signe(r.gainTotal || 0)} depuis le ${depuisLe()}` : 'La courbe se dessine jour après jour.' }),
+        h('p', { class: 'courbe__note', text: suivi(r) ? `${signe(r.gainTotal || 0)} depuis le ${depuisDe(r)}` : 'La courbe se dessine jour après jour.' }),
         h('dl', { class: 'compte__stats' },
           h('div', {}, h('dt', { text: '7 derniers jours' }), h('dd', { class: 'num', text: `${nf.format(r.postsSemaine || 0)} publication${r.postsSemaine > 1 ? 's' : ''}` })),
           h('div', {}, h('dt', { text: 'Rendez-vous' }), h('dd', { text: rendezVous || '—' }))));
@@ -734,8 +762,8 @@ a.puce--threads:hover{color:var(--bg)}
         h('ol', { class: 'rdvs' }, items.map((p) => {
           const t = Date.parse(p.heure);
           const carte = [
-            vignette(p.image, 'rdv__img', [72, 72]),
-            h('span', { class: 'rdv__texte' }, badge(p.reseau), h('span', { class: 'rdv__titre', text: p.titre }), h('span', { class: 'rdv__quand', 'data-quand': String(t), text: t <= now ? 'Publication en cours' : relatif(t, now) })),
+            p.format === 'story' ? h('span', { class: 'anneau' }, vignette(p.image, '', [72, 72])) : vignette(p.image, 'rdv__img', [72, 72]),
+            h('span', { class: 'rdv__texte' }, etiquettes(p), h('span', { class: 'rdv__titre', text: p.titre }), h('span', { class: 'rdv__quand', 'data-quand': String(t), text: t <= now ? 'Publication en cours' : relatif(t, now) })),
           ];
           return h('li', { class: `rdv${p.heure === prochaineHeure ? ' rdv--prochain' : ''}`, c: couleur(p.reseau) },
             h('time', { class: 'rdv__heure num', datetime: p.heure, text: heure(t) }),
@@ -820,42 +848,67 @@ a.puce--threads:hover{color:var(--bg)}
     remplir(document.getElementById('pubs'), liste.map((p) => {
       const t = Date.parse(p.heure);
       const principal = p.reseaux[0].reseau;
-      const visuel = imageSure(p.image) ? h('img', { src: p.image, alt: '', width: 400, height: 300 }) : icone(principal, 'ico ico--grand');
+      const visuel = imageSure(p.image) ? h('img', { src: p.image, alt: '', width: 600, height: 750 }) : icone(principal, 'ico ico--grand');
       const lien = lienSur(p.lien);
       return h('article', { class: entree('carte pub'), c: couleur(principal) },
         lien ? h('a', { class: 'pub__visuel', href: p.lien, tabindex: '-1', 'aria-hidden': 'true' }, visuel) : h('div', { class: 'pub__visuel' }, visuel),
         h('div', { class: 'pub__corps' },
           lien ? h('a', { class: 'pub__titre', href: p.lien, text: p.titre }) : h('p', { class: 'pub__titre', text: p.titre }),
           h('p', { class: 'pub__quand', 'data-quand': String(t), text: relatif(t, now) }),
+          // chaque pastille ouvre le post lui-même ; X ne communique pas le lien de ses posts :
+          // sa pastille ouvre le compte, où la publication figure en tête
           h('div', { class: 'pub__reseaux', role: 'list', 'aria-label': 'Voir la publication sur' }, p.reseaux.map((r) => {
-            const contenu = [icone(r.reseau), COMPTES[r.reseau].nom];
-            return lienSur(r.lien)
-              ? h('a', { class: `puce puce--${r.reseau}`, role: 'listitem', href: r.lien, c: couleur(r.reseau), 'aria-label': `Voir sur ${COMPTES[r.reseau].nom}`, title: `Voir sur ${COMPTES[r.reseau].nom} · ${heure(Date.parse(r.heure))}` }, ...contenu)
-              : h('span', { class: `puce puce--${r.reseau}`, role: 'listitem', c: couleur(r.reseau) }, ...contenu);
+            const nom = COMPTES[r.reseau].nom;
+            const post = lienSur(r.lien);
+            return h('a', {
+              class: `puce puce--${r.reseau}`, role: 'listitem', href: post || COMPTES[r.reseau].url, c: couleur(r.reseau),
+              'aria-label': post ? `Voir la publication sur ${nom}` : `Voir le compte ${nom}`,
+              title: post ? `Voir la publication sur ${nom} · ${heure(Date.parse(r.heure))}` : `Voir le compte ${nom} · publiée à ${heure(Date.parse(r.heure))}`,
+            }, icone(r.reseau), r.reseau === 'x' ? null : nom);
           }))));
     }));
   }
 
+  // Bilans mensuels, du plus récent au plus ancien ; le premier est le mois en cours
+  const moisListe = () => (Array.isArray(donnees?.mois) ? donnees.mois : []).filter((m) => m && /^\d{4}-\d{2}$/.test(m.cle));
+  const nomMois = (cle) => majuscule(fMois.format(new Date(dateJour(`${cle}-15`))));
+  let moisChoisi = null;
+
   function mois() {
-    const m = donnees.mois || {};
-    if (m.cle) document.getElementById('mois-nom').textContent = majuscule(fMois.format(new Date(dateJour(`${m.cle}-15`))));
-    const liste = reseaux();
-    const gains = liste.filter((r) => Number.isFinite(r.gainMois));
-    const gain = gains.reduce((n, r) => n + r.gainMois, 0);
-    const suivis = liste.some(suivi);
+    const liste = moisListe();
+    if (!liste.some((x) => x.cle === moisChoisi)) moisChoisi = liste[0]?.cle ?? null;
+    const m = liste.find((x) => x.cle === moisChoisi) || {};
+    const enCours = Boolean(m.cle) && m.cle === liste[0]?.cle;
+
+    // sélecteur de mois, dès qu'il y a un mois passé à consulter
+    const choix = document.getElementById('mois-choix');
+    choix.hidden = liste.length < 2;
+    remplir(choix, liste.map((x) => {
+      const bouton = h('button', { type: 'button', class: 'onglet', role: 'tab', 'aria-selected': String(x.cle === moisChoisi), text: nomMois(x.cle) });
+      bouton.addEventListener('click', () => { moisChoisi = x.cle; mois(); });
+      return bouton;
+    }));
+    if (m.cle) document.getElementById('mois-nom').textContent = enCours ? `${nomMois(m.cle)} · en cours` : nomMois(m.cle);
+    document.getElementById('mois-chapo').textContent = enCours
+      ? 'Publications, interactions et nouveaux abonnés depuis le 1ᵉʳ du mois.'
+      : 'Publications, interactions et nouveaux abonnés sur l’ensemble du mois.';
+    document.getElementById('barres-note').textContent = enCours ? 'Depuis le début du mois' : 'Sur l’ensemble du mois';
+
+    const gains = Object.values(m.gains || {}).filter(Number.isFinite);
     const kpis = [
-      [nf.format(m.publications || 0), 'Publications', 'sur les quatre réseaux'],
+      [nf.format(m.publications || 0), 'Publications', 'sur nos cinq réseaux'],
       [nf.format(m.articles || 0), 'Articles relayés', 'du site vers les réseaux'],
       [nf.format(m.interactions || 0), 'Interactions', 'J’aime, commentaires, partages'],
-      [suivis ? signe(gain) : '—', 'Nouveaux abonnés', suivis ? 'tous réseaux confondus' : `suivi depuis le ${depuisLe()}`],
+      [gains.length ? signe(gains.reduce((n, g) => n + g, 0)) : '—', 'Nouveaux abonnés', gains.length ? 'tous réseaux confondus' : enCours ? `suivi depuis le ${depuisLe()}` : 'non mesuré ce mois-là'],
     ];
     remplir(document.getElementById('kpis'), kpis.map(([v, l, d]) => h('div', { class: entree('carte kpi') }, h('p', { class: 'kpi__valeur num', text: v }), h('p', { class: 'kpi__label', text: l }), h('p', { class: 'kpi__detail', text: d }))));
 
-    const max = Math.max(1, ...liste.map((r) => r.postsMois || 0));
-    remplir(document.getElementById('barres'), liste.map((r) => {
+    const parReseau = m.parReseau || {};
+    const max = Math.max(1, ...ORDRE.map((id) => parReseau[id] || 0));
+    remplir(document.getElementById('barres'), ORDRE.map((id) => {
       const barre = h('i');
-      barre.style.width = `${((r.postsMois || 0) / max) * 100}%`;
-      return h('li', { c: couleur(r.id) }, h('span', {}, icone(r.id), COMPTES[r.id].nom), h('span', { class: 'barres__piste' }, barre), h('b', { class: 'num', text: nf.format(r.postsMois || 0) }));
+      barre.style.width = `${((parReseau[id] || 0) / max) * 100}%`;
+      return h('li', { c: couleur(id) }, h('span', {}, icone(id), COMPTES[id].nom), h('span', { class: 'barres__piste' }, barre), h('b', { class: 'num', text: nf.format(parReseau[id] || 0) }));
     }));
 
     const top = (m.top || []).filter(connu);
@@ -869,7 +922,7 @@ a.puce--threads:hover{color:var(--bg)}
         ];
         return h('li', {}, lienSur(t.lien) ? h('a', { href: t.lien }, ...contenu) : h('div', { class: 'top__ligne' }, ...contenu));
       })
-      : [h('li', { class: 'vide', text: 'Les premières interactions du mois apparaîtront ici.' })]);
+      : [h('li', { class: 'vide', text: enCours ? 'Les premières interactions du mois apparaîtront ici.' : 'Aucune interaction relevée ce mois-là.' })]);
   }
 
   function pied() {
@@ -899,7 +952,7 @@ a.puce--threads:hover{color:var(--bg)}
   }
 
   function conforme(d) {
-    return d && typeof d === 'object' && Array.isArray(d.reseaux) && Array.isArray(d.planning) && Array.isArray(d.publications) && typeof d.majLe === 'string';
+    return d && typeof d === 'object' && Array.isArray(d.reseaux) && Array.isArray(d.planning) && Array.isArray(d.publications) && Array.isArray(d.mois) && typeof d.majLe === 'string';
   }
   // l'heure d'actualisation change à chaque dépôt : seul le contenu décide d'un nouvel affichage
   const empreinte = (d) => JSON.stringify({ ...d, majLe: null });

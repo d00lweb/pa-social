@@ -1,6 +1,6 @@
 {
   "_lecture": "Identifiants de lieu Facebook, seule forme acceptée par Meta : 13 chiffres et plus. Les identifiants courts (9-10 chiffres), hérités de l'ancien Instagram, sont systématiquement refusés. Wikidata (propriété P1997) ne connaît un identifiant que pour une poignée de communes notables : sur 65 communes et départements testés, 12 en ont un. Ce fichier les fige, tous confirmés un par un par Meta.",
-  "_ajouter": "Pour ajouter un lieu : ouvrir la publication Instagram d'un compte local qui a tagué ce lieu, cliquer sur le nom du lieu, et copier le nombre présent dans l'URL instagram.com/explore/locations/<nombre>/. S'il fait 13 chiffres ou plus, le coller ici. Aucune autre vérification n'est nécessaire : un identifiant refusé par Meta est abandonné en cours de publication sans faire échouer le post.",
+  "_ajouter": "Pour ajouter un lieu : le taguer une fois, à la main, sur n'importe quelle publication de la page Facebook. Le robot relit les lieux de la page chaque heure, fait accepter chacun par Instagram, et l'apprend pour toujours dans state/lieux-appris.json. Ce fichier-ci ne garde que les identifiants posés à la main ; ils priment sur ceux appris.",
   "_zones": "Les zones identitaires (Périgord, Pays basque…) ne sont pas des lieux pour Meta. On remonte au département qui les contient, correspondance lue dans config/geo.json, seule source. On ne descend jamais vers une commune de la zone : le Pays basque n'est pas Bayonne, le Périgord n'est pas Périgueux.",
   "departements": {
     "Haute-Vienne": "228169691058500",

@@ -99,7 +99,13 @@ export function kitMessages(pkg) {
       messages.push(`👤 <b>Piste</b> · ${esc(c.nom)} — compte vérifié sur Instagram, à confirmer sur X\n<code>@${esc(c.handle)}</code>`);
     }
   }
-  if (lieu) messages.push(`📍 <b>Lieu à taguer</b>\n<code>${esc(lieu.nom)}</code>`);
+  // sur X on tague à la main : un nom suffit, pas besoin d'identifiant Meta
+  const nomLieu = pkg.dossier?.lieuNom ?? lieu?.nom;
+  if (nomLieu) {
+    const commune = pkg.dossier?.commune;
+    const repli = commune && commune !== nomLieu ? `\nS'il n'apparaît pas : <code>${esc(commune)}</code>` : '';
+    messages.push(`📍 <b>Lieu à taguer</b>\n<code>${esc(nomLieu)}</code>${repli}`);
+  }
   // X permet d'ajouter une description d'image à la main : autant la fournir prête à coller
   const alt = pkg.dossier?.visuel?.texte_alternatif;
   if (alt) messages.push(`🖼️ <b>Description de l'image</b> (bouton « ALT » sur X)\n<code>${esc(alt)}</code>`);

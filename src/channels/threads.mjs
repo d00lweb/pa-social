@@ -56,7 +56,10 @@ export async function prepare(article, { dossier, renderer: shared, log = consol
   }
   if (compte(texte) > MAX_TEXT) throw new GuardError(article, [`texte Threads trop long : ${compte(texte)} / ${MAX_TEXT}`]);
 
-  const sujet = String(dossier.threads?.sujet ?? '').replace(/[#.&]/g, '').trim() || null;
+  // sujet : la commune quand l'article en nomme une, plus précise que la rubrique ; sinon celui de l'IA.
+  // Threads refuse « . » et « & », et limite le sujet à 50 caractères.
+  const nettoyer = (s) => String(s ?? '').replace(/[#.&]/g, '').trim().slice(0, 50) || null;
+  const sujet = nettoyer(dossier.commune) ?? nettoyer(dossier.threads?.sujet);
   const base = { article, dossier, mode, text: texte, sujet, lieu: dossier.lieu ?? null };
 
   // format « lien seul » : pas de visuel, Threads affiche l'aperçu de l'article

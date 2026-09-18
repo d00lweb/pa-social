@@ -7,7 +7,8 @@ import { NETWORKS, NAMES, shortId, parseCommand, defaultControls, isPaused, need
 import { fetchItems, matchArticle } from './sources/rss.mjs';
 import { buildDossier } from './brain/dossier.mjs';
 import { resoudreComptes } from './brain/comptes.mjs';
-import { resoudreLieu } from './brain/lieux.mjs';
+import { resoudreLieu, lieuNomme } from './brain/lieux.mjs';
+import { recolterLieux } from './measure/recolte.mjs';
 import { collecter } from './measure/collect.mjs';
 import { diffuser } from './measure/diffusion.mjs';
 import { ecrire as ecrirePilotage } from './measure/pilotage.mjs';
@@ -190,12 +191,17 @@ async function handleTelegram(ctx) {
 // Comptes à mentionner et lieu à taguer : résolus une seule fois par article, réutilisés par tous les réseaux.
 // Le lieu brut de l'IA est conservé ; `dossier.lieu` devient le lieu vérifié, ou null si rien de fiable.
 async function enrichir(dossier, article = null) {
-  if (dossier.comptes) return dossier;
   dossier.lieuSource ??= dossier.lieu ?? null;
+  // la rubrique porte la zone identitaire (« Périgord ») quand le champ département porte le nom administratif
+  const source = { ...(dossier.lieuSource ?? {}), zone: dossier.rubrique ?? '' };
+  // Nom du lieu, indépendant de tout identifiant Meta : ce qu'on tape pour taguer à la main (story, kit X),
+  // et la commune que Threads et Bluesky acceptent telle quelle. Calculés aussi pour les dossiers déjà en file.
+  dossier.lieuNom ??= lieuNomme(source);
+  dossier.commune ??= String(dossier.lieuSource?.ville ?? '').trim() || null;
+  if (dossier.comptes) return dossier;
   // l'image de l'article sert à faire confirmer par Meta l'existence d'un compte trouvé
   dossier.comptes = await resoudreComptes(dossier.entites ?? [], { image: article?.image ?? null, log: console.log });
-  // la rubrique porte la zone identitaire (« Périgord ») quand le champ département porte le nom administratif
-  dossier.lieu = await resoudreLieu({ ...(dossier.lieuSource ?? {}), zone: dossier.rubrique ?? '' });
+  dossier.lieu = await resoudreLieu(source);
   return dossier;
 }
 
@@ -402,6 +408,20 @@ async function main() {
     const mesures = await collecter({ log: console.log, maintenant: ctx.now });
     await diffuser({ history, mesures, now: ctx.now });
     await verifierJetons({ now: ctx.now });
+    // Lieux tagués sur la page Facebook, à la main ou par le robot : appris une fois, réutilisés partout.
+    // Le support des vérifications est une image déjà publiée, donc publique et hébergée chez nous.
+    if (!DRY_RUN) {
+      const image = [...history].reverse().find((e) => e.apercu?.image)?.apercu.image ?? null;
+      const appris = await recolterLieux({ now: ctx.now, image, log: console.log }).catch((e) => {
+        console.error(`Récolte des lieux : ${e.message}`);
+        return [];
+      });
+      if (appris.length) {
+        const noms = appris.map((l) => l.nom);
+        const liste = noms.slice(0, 15).join(', ') + (noms.length > 15 ? ` et ${noms.length - 15} autres` : '');
+        await say(`📍 <b>${appris.length} lieu${appris.length > 1 ? 'x' : ''} appris</b> depuis la page Facebook\n${esc(liste)}\n\nDésormais tagué${appris.length > 1 ? 's' : ''} automatiquement sur Instagram et Facebook quand un article les nomme.`);
+      }
+    }
     await ecrirePilotage({ history, queue, now: ctx.now });
   } finally {
     await Promise.all([saveHistory(history), saveQueue(queue), saveMemory(memory), saveJson('controls.json', controls), saveJson('telegram.json', tg)]);

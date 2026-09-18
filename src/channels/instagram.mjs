@@ -155,7 +155,8 @@ export async function publish(pkg, { channel }) {
       title: pkg.article.title,
       link: pkg.article.link,
       comptes: comptes.map((c) => c.handle),
-      lieu: lieu?.nom ?? null,
+      // la story se tague à la main : le nom du lieu suffit, même sans identifiant Meta
+      lieu: pkg.dossier.lieuNom ?? lieu?.nom ?? null,
     });
   } catch (e) {
     console.error(`   Story non envoyée : ${e.message}\n   ${storyUrl}`);

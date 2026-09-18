@@ -48,17 +48,25 @@ test('une ville nommée interdit de retomber sur une autre commune', () => {
 
 test('sans ville nommée, le nom de la zone est tenté tel quel', () => {
   const source = { departement: 'Dordogne', zone: 'Périgord' };
-  assert.deepEqual(noms(source), ['Dordogne', 'Dordogne', 'Périgord', 'Dordogne']);
+  // « Dordogne » n'est plus tenté comme commune : un département ne se résout jamais en village
+  assert.deepEqual(noms(source), ['Dordogne', 'Dordogne', 'Périgord']);
   assert.equal(niveaux(source).at(-1), 'zone');
 });
 
 test('les champs vides ne créent pas de marche', () => {
   assert.deepEqual(etapes({}), []);
-  assert.deepEqual(noms({ precis: '  ', ville: '', departement: 'Vienne' }), ['Vienne', 'Vienne']);
+  assert.deepEqual(noms({ precis: '  ', ville: '', departement: 'Vienne' }), ['Vienne'], 'Vienne, département, jamais la commune de l’Isère');
 });
 
 test('seuls les identifiants longs sont acceptés', () => {
   assert.ok(identifiantValide('228169691058500'));
   assert.ok(!identifiantValide('233577251'), 'ancien format Instagram, refusé par Meta');
   assert.ok(!identifiantValide(''));
+});
+
+test('un nom de département n’est jamais tenté comme commune', () => {
+  // Corrèze est aussi un village : un article sur le département ne doit pas être tagué au village
+  const source = { departement: 'Corrèze', zone: 'Brive' };
+  assert.ok(!etapes(source).some(([niveau, nom]) => niveau === 'zone' && nom === 'Corrèze'));
+  assert.ok(etapes(source).some(([niveau, nom]) => niveau === 'zone' && nom === 'Brive'), 'la zone, elle, reste tentée');
 });

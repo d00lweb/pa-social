@@ -17,11 +17,32 @@ function inlineTag(text, tag) {
   return `${text.slice(0, at)}#${match[2]}${text.slice(at + match[2].length)}`;
 }
 
-// Bluesky : hashtag du lieu dans le texte s'il y figure, sinon ajouté à la fin
-export const composeBluesky = ({ bluesky }) => inlineTag(bluesky.texte, bluesky.hashtag) ?? `${bluesky.texte} ${bluesky.hashtag}`;
+// Hashtag d'une commune, à la façon des hashtags de lieu du projet : sans accents, en CamelCase
+// (« Saint-Émilion » → #SaintEmilion).
+export function hashtagCommune(nom) {
+  const mots = String(nom ?? '').normalize('NFD').replace(/\p{Diacritic}/gu, '').split(/[^\p{L}\p{N}]+/u).filter(Boolean);
+  return mots.length ? `#${mots.map((m) => m[0].toUpperCase() + m.slice(1)).join('')}` : null;
+}
 
-// X : hashtag du lieu seulement s'il figure déjà dans le texte (jamais ajouté), puis « ➡️ lien » à la ligne
-export const composeXText = ({ x, bluesky }) => inlineTag(x.texte, bluesky?.hashtag) ?? x.texte;
+// La commune nommée par l'article, en hashtag à sa place dans le texte : plus précise que la rubrique.
+// Seulement si elle y figure telle quelle — jamais ajoutée en fin de texte, ce qui évite toute
+// orthographe inventée (« Périgueux » accentué ne devient pas #Perigueux) — et jamais collée à une
+// apostrophe : « piment d'#Espelette » est illisible, la rubrique reprend alors la main.
+function avecCommune(texte, dossier) {
+  const tag = dossier?.commune ? hashtagCommune(dossier.commune) : null;
+  const resultat = tag ? inlineTag(texte, tag) : null;
+  return resultat && !/['’]#/.test(resultat) ? resultat : null;
+}
+
+// Bluesky : hashtag de la commune s'il se place dans le texte, sinon celui du lieu de la rubrique
+// dans le texte s'il y figure, sinon ajouté à la fin
+export const composeBluesky = (dossier) => {
+  const { bluesky } = dossier;
+  return avecCommune(bluesky.texte, dossier) ?? inlineTag(bluesky.texte, bluesky.hashtag) ?? `${bluesky.texte} ${bluesky.hashtag}`;
+};
+
+// X : hashtag de lieu seulement s'il figure déjà dans le texte (jamais ajouté), puis « ➡️ lien » à la ligne
+export const composeXText = (dossier) => avecCommune(dossier.x.texte, dossier) ?? inlineTag(dossier.x.texte, dossier.bluesky?.hashtag) ?? dossier.x.texte;
 export const composeX = (dossier, link) => `${composeXText(dossier)}\n➡️ ${link}`;
 
 // Commentaire Facebook : formule choisie en rotation à la création du dossier, sinon stable par article, + lien

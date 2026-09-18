@@ -1,0 +1,44 @@
+{
+  "communes": {
+    "Gamarde-les-Bains": "115412131809526",
+    "Châtelaillon-Plage": "114786071867451",
+    "Saint-Jean-de-Luz": "109421139076826",
+    "Domme": "109120399106474",
+    "Anglet": "112304128782646",
+    "Sarlat-la-Canéda": "107938435901383"
+  },
+  "lieux": {
+    "Pyrenees": "106184116078597",
+    "Marathon International de Biarritz -  Pays Basque": "189476765929897",
+    "Dune du Pilat": "138503822862006",
+    "Lac De Montagnon": "542579302535343",
+    "Cristóbal Balenciaga Museoa": "214157481948203",
+    "Garorock Festival": "153827021329419",
+    "Deli Bretzel": "106484564507066",
+    "S.B Artisans Burger": "1651043741825180",
+    "Restaurant Le Bordeaux": "1006881796032414",
+    "Fêtes de Bayonne": "40816509477",
+    "Lac marin vieux-boucau": "247355688632513",
+    "San Sebastián": "198409207347457",
+    "La Rhune": "103147026392588",
+    "Ville de Dax": "106849122682128",
+    "Dax La Feria!": "130950200382759",
+    "Pampelune": "114830741863254",
+    "Baie de Bonne Anse": "1427337090836209",
+    "Cognac Blues Passions": "164898090235679",
+    "Les Prés d'Eugénie": "123718987688591",
+    "Festival International de la Bande Dessinée d'Angoulême": "228009833887942",
+    "Lascaux": "949930461708577",
+    "Vieux Boucau Plages": "101166549954994",
+    "Grande Plage de Biarritz": "155405404490321",
+    "Lac de Soustons": "116554395118493",
+    "Ile de Patiras": "179135385481690"
+  },
+  "refuses": [
+    "298653744417",
+    "129922490360882",
+    "510685669122762"
+  ],
+  "amorce": true,
+  "derniere": "2026-09-18T11:03:31.994Z"
+}

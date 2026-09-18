@@ -42,9 +42,11 @@ export function fusionnerDossiers(localDir) {
   ecrire('published.json', historique);
   ecrire('queue.json', file);
 
-  // mémoire, contrôles, compteur Telegram, mesures et instantané : la version de l'exécution,
-  // la plus récente. Sans cette liste, une course entre deux passages les effacerait.
-  for (const nom of ['memory.json', 'controls.json', 'telegram.json', 'mesures.json', 'pilotage.json', 'jetons.json']) {
+  // mémoire, contrôles, compteur Telegram, mesures, instantané et lieux appris : la version de
+  // l'exécution, la plus récente. Sans cette liste, une course entre deux passages les effacerait.
+  // Les lieux appris ne font que croître et se retrouvent en relisant la page : un écrasement
+  // occasionnel se rattrape tout seul au passage suivant.
+  for (const nom of ['memory.json', 'controls.json', 'telegram.json', 'mesures.json', 'pilotage.json', 'jetons.json', 'lieux-appris.json']) {
     const valeur = lire(localDir, nom, null);
     if (valeur !== null) ecrire(nom, valeur);
   }

@@ -1,41 +1,126 @@
 {
-  "genereLe": "2026-09-18T12:20:38.307Z",
+  "genereLe": "2026-09-18T13:00:36.179Z",
   "jour": "2026-09-18",
   "reseaux": {
     "instagram": {
       "actif": true,
+      "pause": false,
+      "manuel": false,
       "maxParJour": 2,
+      "creneaux": null,
+      "ecart": [
+        3,
+        4.5
+      ],
+      "nuit": {
+        "start": 23,
+        "end": 7
+      },
+      "formats": null,
       "aujourdhui": 2,
+      "semaine": 8,
       "total": 8,
-      "dernier": "2026-09-18T11:01:48.310Z"
+      "dernier": "2026-09-18T11:01:48.310Z",
+      "lienDernier": "https://www.instagram.com/p/DdbR-NbnGSM/"
     },
     "bluesky": {
       "actif": true,
+      "pause": false,
+      "manuel": false,
       "maxParJour": 3,
+      "creneaux": null,
+      "ecart": [
+        2.5,
+        4
+      ],
+      "nuit": {
+        "start": 22,
+        "end": 8
+      },
+      "formats": [
+        "card",
+        "image",
+        "reply"
+      ],
       "aujourdhui": 2,
+      "semaine": 6,
       "total": 6,
-      "dernier": "2026-09-18T09:59:00.492Z"
+      "dernier": "2026-09-18T09:59:00.492Z",
+      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mvrvtko3vk2o"
     },
     "facebook": {
       "actif": true,
+      "pause": false,
+      "manuel": false,
       "maxParJour": 2,
+      "creneaux": [
+        [
+          "08:00",
+          "09:30"
+        ],
+        [
+          "20:00",
+          "21:30"
+        ]
+      ],
+      "ecart": null,
+      "nuit": {
+        "start": 22,
+        "end": 8
+      },
+      "formats": null,
       "aujourdhui": 2,
+      "semaine": 2,
       "total": 2,
-      "dernier": "2026-09-18T11:22:43.533Z"
+      "dernier": "2026-09-18T11:22:43.533Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1723889383070276"
     },
     "threads": {
       "actif": true,
+      "pause": false,
+      "manuel": false,
       "maxParJour": 3,
+      "creneaux": null,
+      "ecart": [
+        2.5,
+        4
+      ],
+      "nuit": {
+        "start": 22,
+        "end": 8
+      },
+      "formats": [
+        "image",
+        "lien",
+        "reponse"
+      ],
       "aujourdhui": 2,
+      "semaine": 2,
       "total": 2,
-      "dernier": "2026-09-18T11:07:55.596Z"
+      "dernier": "2026-09-18T11:07:55.596Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DdbSnKokXjW"
     },
     "x": {
       "actif": true,
+      "pause": false,
+      "manuel": true,
       "maxParJour": 3,
+      "creneaux": null,
+      "ecart": 0,
+      "nuit": {
+        "start": 22,
+        "end": 7
+      },
+      "formats": [
+        "image",
+        "lien",
+        "reponse"
+      ],
       "aujourdhui": 2,
+      "semaine": 6,
       "total": 6,
-      "dernier": "2026-09-18T07:20:44.799Z"
+      "dernier": "2026-09-18T07:20:44.799Z",
+      "lienDernier": null
     }
   },
   "articles": [
@@ -144,6 +229,108 @@
       }
     }
   ],
+  "publications": [
+    {
+      "channel": "facebook",
+      "at": "2026-09-18T11:22:43.533Z",
+      "titre": "Morimoto Bordeaux dévoile son nouveau menu déjeuner à 33 €",
+      "lien": "https://passion-aquitaine.ouest-france.fr/nouveau-menu-morimoto-bordeaux/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1723889383070276",
+      "format": null,
+      "texte": "Déjeuner chez Morimoto à Bordeaux pour 🍱 33 € et en 45 minutes : la formule vous tente ?",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260918-d98b6f23-fb.jpg"
+    },
+    {
+      "channel": "threads",
+      "at": "2026-09-18T11:07:55.596Z",
+      "titre": "Morimoto Bordeaux dévoile son nouveau menu déjeuner à 33 €",
+      "lien": "https://passion-aquitaine.ouest-france.fr/nouveau-menu-morimoto-bordeaux/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/DdbSnKokXjW",
+      "format": "lien",
+      "texte": "🍙 Bordeaux, quartier des Carmes. Le restaurant Morimoto, au sein du Mondrian, met en place un nouveau menu déjeuner à 33 €, servi en 45 minutes. Une façon de goûter à la cuisine du chef japonais sans y passer toute la pause de midi.",
+      "image": null
+    },
+    {
+      "channel": "instagram",
+      "at": "2026-09-18T11:01:48.310Z",
+      "titre": "Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée du Périgord",
+      "lien": "https://passion-aquitaine.ouest-france.fr/perigordine-ultra-trail-2026-parcours/",
+      "lienPost": "https://www.instagram.com/p/DdbR-NbnGSM/",
+      "format": null,
+      "texte": "80 km de sentiers entre une grotte, une rivière et des châteaux du Périgord\n⠀\nLa Périgordine Ultra Trail lance sa première édition 🗓️ le 27 septembre, avec un parcours qui raconte une histoire méconnue de la Dordogne.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Perigord #UltraTrail #Dordogne",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260918-98a782d2-1.jpg"
+    },
+    {
+      "channel": "bluesky",
+      "at": "2026-09-18T09:59:00.492Z",
+      "titre": "Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée du Périgord",
+      "lien": "https://passion-aquitaine.ouest-france.fr/perigordine-ultra-trail-2026-parcours/",
+      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mvrvtko3vk2o",
+      "format": "reply",
+      "texte": "🥾 On n’imagine pas un trail comme une leçon d’histoire. La Périgordine Ultra Trail, elle, fait passer ses coureurs devant une grotte, une rivière et des châteaux sur 80 km. Première édition le 27 septembre en Périgord. #Perigord",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260918-98a782d2-bsky.jpg"
+    },
+    {
+      "channel": "x",
+      "at": "2026-09-18T07:20:44.799Z",
+      "titre": "Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée du Périgord",
+      "lien": "https://passion-aquitaine.ouest-france.fr/perigordine-ultra-trail-2026-parcours/",
+      "lienPost": null,
+      "format": "reponse",
+      "texte": "Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée du Périgord 🏛️",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260918-98a782d2-x.jpg"
+    },
+    {
+      "channel": "threads",
+      "at": "2026-09-18T07:18:51.326Z",
+      "titre": "Le brunch le plus généreux de Bordeaux a rouvert ses portes",
+      "lien": "https://passion-aquitaine.ouest-france.fr/reouverture-brunch-sans-pression-bordeaux/",
+      "lienPost": null,
+      "format": "reponse",
+      "texte": "Fermé pour travaux, le brunch gargantuesque du Sans Pression a rouvert à Bordeaux le 12 septembre, avec un tarif revu 📍",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260917-6158b577-th.jpg"
+    },
+    {
+      "channel": "facebook",
+      "at": "2026-09-18T07:13:27.681Z",
+      "titre": "Le brunch le plus généreux de Bordeaux a rouvert ses portes",
+      "lien": "https://passion-aquitaine.ouest-france.fr/reouverture-brunch-sans-pression-bordeaux/",
+      "lienPost": null,
+      "format": null,
+      "texte": "Le brunch le plus généreux de Bordeaux a rouvert ses portes 📍",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260917-6158b577-fb.jpg"
+    },
+    {
+      "channel": "bluesky",
+      "at": "2026-09-18T07:05:53.823Z",
+      "titre": "Morimoto Bordeaux dévoile son nouveau menu déjeuner à 33 €",
+      "lien": "https://passion-aquitaine.ouest-france.fr/nouveau-menu-morimoto-bordeaux/",
+      "lienPost": null,
+      "format": "image",
+      "texte": "33 € et 45 minutes : c’est le nouveau format du déjeuner chez Morimoto, le restaurant japonais du Mondrian #Bordeaux Les Carmes. Une formule pensée pour les midis pressés, dans l’une des adresses les plus commentées de la ville 🥢\n➡️ Lire l’article",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260918-d98b6f23-bsky.jpg"
+    },
+    {
+      "channel": "x",
+      "at": "2026-09-18T06:25:35.593Z",
+      "titre": "Morimoto Bordeaux dévoile son nouveau menu déjeuner à 33 €",
+      "lien": "https://passion-aquitaine.ouest-france.fr/nouveau-menu-morimoto-bordeaux/",
+      "lienPost": null,
+      "format": "lien",
+      "texte": "On n’attendait pas une grande table japonaise sur le créneau du midi express 🥢 À #Bordeaux, Morimoto lance un menu déjeuner à 33 €, servi en 45 minutes, au Mondrian Les Carmes.\n➡️ https://passion-aquitaine.ouest-france.fr/nouveau-menu-morimoto-bordeaux/",
+      "image": null
+    },
+    {
+      "channel": "instagram",
+      "at": "2026-09-18T06:25:34.962Z",
+      "titre": "Morimoto Bordeaux dévoile son nouveau menu déjeuner à 33 €",
+      "lien": "https://passion-aquitaine.ouest-france.fr/nouveau-menu-morimoto-bordeaux/",
+      "lienPost": null,
+      "format": null,
+      "texte": "Une table japonaise de Bordeaux ouvre sa pause déjeuner à 33 € 🍣\n⠀\nLe restaurant Morimoto, installé au Mondrian Bordeaux Les Carmes, lance une formule du midi servie en 45 minutes. De quoi déjeuner vite dans un cadre signé par un chef japonais.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #Morimoto #Restaurant",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260918-d98b6f23-1.jpg"
+    }
+  ],
   "file": [
     {
       "channel": "facebook",
@@ -177,5 +364,48 @@
       "renouvellement": "commande npm run threads:refresh"
     },
     "alertes": {}
+  },
+  "passages": [
+    0,
+    20
+  ],
+  "lieux": {
+    "communes": [
+      "Anglet",
+      "Châtelaillon-Plage",
+      "Domme",
+      "Gamarde-les-Bains",
+      "Saint-Jean-de-Luz",
+      "Sarlat-la-Canéda"
+    ],
+    "precis": [
+      "Baie de Bonne Anse",
+      "Cognac Blues Passions",
+      "Cristóbal Balenciaga Museoa",
+      "Dax La Feria!",
+      "Deli Bretzel",
+      "Dune du Pilat",
+      "Festival International de la Bande Dessinée d'Angoulême",
+      "Fêtes de Bayonne",
+      "Garorock Festival",
+      "Grande Plage de Biarritz",
+      "Ile de Patiras",
+      "La Rhune",
+      "Lac De Montagnon",
+      "Lac de Soustons",
+      "Lac marin vieux-boucau",
+      "Lascaux",
+      "Les Prés d'Eugénie",
+      "Marathon International de Biarritz -  Pays Basque",
+      "Pampelune",
+      "Pyrenees",
+      "Restaurant Le Bordeaux",
+      "S.B Artisans Burger",
+      "San Sebastián",
+      "Vieux Boucau Plages",
+      "Ville de Dax"
+    ],
+    "refuses": 3,
+    "derniere": "2026-09-18T12:20:38.307Z"
   }
 }

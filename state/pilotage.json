@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-18T09:20:48.678Z",
+  "genereLe": "2026-09-18T09:52:50.551Z",
   "jour": "2026-09-18",
   "reseaux": {
     "instagram": {
@@ -12,9 +12,9 @@
     "bluesky": {
       "actif": true,
       "maxParJour": 3,
-      "aujourdhui": 1,
-      "total": 5,
-      "dernier": "2026-09-18T07:05:53.823Z"
+      "aujourdhui": 2,
+      "total": 6,
+      "dernier": "2026-09-18T09:59:00.492Z"
     },
     "facebook": {
       "actif": true,
@@ -43,7 +43,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35569",
       "titre": "Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée du Périgord",
       "lien": "https://passion-aquitaine.ouest-france.fr/perigordine-ultra-trail-2026-parcours/",
-      "at": "2026-09-18T07:20:44.799Z",
+      "at": "2026-09-18T09:59:00.492Z",
       "reseaux": {
         "x": {
           "texte": "Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée du Périgord 🏛️",
@@ -52,6 +52,14 @@
           "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/perigordine-ultra-trail-2026-parcours/",
           "sujet": null,
           "publieLe": "2026-09-18T07:20:44.799Z"
+        },
+        "bluesky": {
+          "texte": "🥾 On n’imagine pas un trail comme une leçon d’histoire. La Périgordine Ultra Trail, elle, fait passer ses coureurs devant une grotte, une rivière et des châteaux sur 80 km. Première édition le 27 septembre en Périgord. #Perigord",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260918-98a782d2-bsky.jpg",
+          "mode": "reply",
+          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/perigordine-ultra-trail-2026-parcours/",
+          "sujet": null,
+          "publieLe": "2026-09-18T09:59:00.492Z"
         }
       }
     },
@@ -114,18 +122,13 @@
   ],
   "file": [
     {
-      "channel": "bluesky",
-      "dueAt": "2026-09-18T09:26:09.246Z",
-      "titre": "Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée du Périgord"
-    },
-    {
-      "channel": "threads",
-      "dueAt": "2026-09-18T09:46:20.346Z",
+      "channel": "facebook",
+      "dueAt": "2026-09-18T09:53:36.755Z",
       "titre": "Morimoto Bordeaux dévoile son nouveau menu déjeuner à 33 €"
     },
     {
-      "channel": "facebook",
-      "dueAt": "2026-09-18T09:53:36.755Z",
+      "channel": "threads",
+      "dueAt": "2026-09-18T10:22:50.551Z",
       "titre": "Morimoto Bordeaux dévoile son nouveau menu déjeuner à 33 €"
     },
     {

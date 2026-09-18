@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-18T05:20:36.066Z",
+  "genereLe": "2026-09-18T05:53:52.544Z",
   "jour": "2026-09-18",
   "reseaux": {
     "instagram": {
@@ -41,6 +41,16 @@
   "articles": [],
   "file": [
     {
+      "channel": "x",
+      "dueAt": "2026-09-18T06:00:45.742Z",
+      "titre": "Morimoto Bordeaux dévoile son nouveau menu déjeuner à 33 €"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-09-18T06:05:47.191Z",
+      "titre": "Morimoto Bordeaux dévoile son nouveau menu déjeuner à 33 €"
+    },
+    {
       "channel": "threads",
       "dueAt": "2026-09-18T06:29:35.908Z",
       "titre": "Le brunch le plus généreux de Bordeaux a rouvert ses portes"
@@ -49,6 +59,21 @@
       "channel": "facebook",
       "dueAt": "2026-09-18T06:31:50.653Z",
       "titre": "Le brunch le plus généreux de Bordeaux a rouvert ses portes"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-09-18T06:32:10.443Z",
+      "titre": "Morimoto Bordeaux dévoile son nouveau menu déjeuner à 33 €"
+    },
+    {
+      "channel": "threads",
+      "dueAt": "2026-09-18T09:46:20.346Z",
+      "titre": "Morimoto Bordeaux dévoile son nouveau menu déjeuner à 33 €"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-09-18T09:53:36.755Z",
+      "titre": "Morimoto Bordeaux dévoile son nouveau menu déjeuner à 33 €"
     }
   ],
   "alertes": [],

@@ -190,5 +190,515 @@
       }
     },
     "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=34715",
+    "channel": "instagram",
+    "dueAt": 1789711547191,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Morimoto Bordeaux dévoile son nouveau menu déjeuner à 33 €",
+      "link": "https://passion-aquitaine.ouest-france.fr/nouveau-menu-morimoto-bordeaux/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=34715",
+      "pubDate": "Fri, 18 Sep 2026 05:30:40 +0000",
+      "date": 1789709440000,
+      "categories": [
+        "Actus",
+        "Bordeaux",
+        "Restaurants"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/09/dejeuner-morimoto-bordeaux.jpg",
+      "description": "Le restaurant Morimoto du Mondrian Bordeaux Les Carmes lance un nouveau menu déjeuner à 33 €, servi en 45 minutes."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Bordeaux",
+      "visuel": {
+        "titre": "Morimoto dévoile son nouveau menu déjeuner à 33 €",
+        "surlignage": "33 €",
+        "description": "Au Mondrian Bordeaux Les Carmes, la table du chef Morimoto propose une formule du midi servie en 45 minutes, pensée pour les pauses déjeuner courtes.",
+        "texte_alternatif": "Visuel avec la rubrique Bordeaux et le titre annonçant le nouveau menu déjeuner à 33 € du restaurant Morimoto, illustré par une assiette de restaurant"
+      },
+      "entites": [
+        {
+          "nom": "Morimoto",
+          "role": "sujet"
+        },
+        {
+          "nom": "Mondrian Bordeaux Les Carmes",
+          "role": "acteur"
+        }
+      ],
+      "lieu": {
+        "id": "115838035093755",
+        "nom": "Bordeaux",
+        "niveau": "ville"
+      },
+      "instagram": {
+        "texte": "Une table japonaise de Bordeaux ouvre sa pause déjeuner à 33 € 🍣\nLe restaurant Morimoto, installé au Mondrian Bordeaux Les Carmes, lance une formule du midi servie en 45 minutes. De quoi déjeuner vite dans un cadre signé par un chef japonais.",
+        "hashtags": [
+          "#Bordeaux",
+          "#Morimoto",
+          "#Restaurant"
+        ]
+      },
+      "facebook": {
+        "texte": "Déjeuner chez Morimoto à Bordeaux pour 🍱 33 € et en 45 minutes : la formule vous tente ?",
+        "commentLead": "📰 À lire ici :"
+      },
+      "bluesky": {
+        "texte": "33 € et 45 minutes : c’est le nouveau format du déjeuner chez Morimoto, le restaurant japonais du Mondrian Bordeaux Les Carmes. Une formule pensée pour les midis pressés, dans l’une des adresses les plus commentées de la ville 🥢",
+        "hashtag": "#Bordeaux"
+      },
+      "threads": {
+        "texte": "🍙 Bordeaux, quartier des Carmes. Le restaurant Morimoto, au sein du Mondrian, met en place un nouveau menu déjeuner à 33 €, servi en 45 minutes. Une façon de goûter à la cuisine du chef japonais sans y passer toute la pause de midi.",
+        "sujet": "Bordeaux"
+      },
+      "x": {
+        "texte": "On n’attendait pas une grande table japonaise sur le créneau du midi express 🥢 À Bordeaux, Morimoto lance un menu déjeuner à 33 €, servi en 45 minutes, au Mondrian Les Carmes."
+      },
+      "source": "ia",
+      "model": "claude-opus-5",
+      "usage": {
+        "input": 8620,
+        "output": 905
+      },
+      "angles": {
+        "instagram": "image évocatrice",
+        "facebook": "question intrigante",
+        "bluesky": "chiffre ou fait marquant en tête",
+        "threads": "lieu en tête",
+        "x": "effet de surprise"
+      },
+      "lieuSource": {
+        "precis": "Mondrian Bordeaux Les Carmes",
+        "ville": "Bordeaux",
+        "departement": "Gironde"
+      },
+      "comptes": {
+        "instagram": [],
+        "x": [],
+        "bluesky": [
+          {
+            "nom": "Morimoto",
+            "handle": "morimoto-ska.bsky.social",
+            "role": "sujet"
+          }
+        ],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=34715",
+    "channel": "bluesky",
+    "dueAt": 1789713130443,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Morimoto Bordeaux dévoile son nouveau menu déjeuner à 33 €",
+      "link": "https://passion-aquitaine.ouest-france.fr/nouveau-menu-morimoto-bordeaux/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=34715",
+      "pubDate": "Fri, 18 Sep 2026 05:30:40 +0000",
+      "date": 1789709440000,
+      "categories": [
+        "Actus",
+        "Bordeaux",
+        "Restaurants"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/09/dejeuner-morimoto-bordeaux.jpg",
+      "description": "Le restaurant Morimoto du Mondrian Bordeaux Les Carmes lance un nouveau menu déjeuner à 33 €, servi en 45 minutes."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Bordeaux",
+      "visuel": {
+        "titre": "Morimoto dévoile son nouveau menu déjeuner à 33 €",
+        "surlignage": "33 €",
+        "description": "Au Mondrian Bordeaux Les Carmes, la table du chef Morimoto propose une formule du midi servie en 45 minutes, pensée pour les pauses déjeuner courtes.",
+        "texte_alternatif": "Visuel avec la rubrique Bordeaux et le titre annonçant le nouveau menu déjeuner à 33 € du restaurant Morimoto, illustré par une assiette de restaurant"
+      },
+      "entites": [
+        {
+          "nom": "Morimoto",
+          "role": "sujet"
+        },
+        {
+          "nom": "Mondrian Bordeaux Les Carmes",
+          "role": "acteur"
+        }
+      ],
+      "lieu": {
+        "id": "115838035093755",
+        "nom": "Bordeaux",
+        "niveau": "ville"
+      },
+      "instagram": {
+        "texte": "Une table japonaise de Bordeaux ouvre sa pause déjeuner à 33 € 🍣\nLe restaurant Morimoto, installé au Mondrian Bordeaux Les Carmes, lance une formule du midi servie en 45 minutes. De quoi déjeuner vite dans un cadre signé par un chef japonais.",
+        "hashtags": [
+          "#Bordeaux",
+          "#Morimoto",
+          "#Restaurant"
+        ]
+      },
+      "facebook": {
+        "texte": "Déjeuner chez Morimoto à Bordeaux pour 🍱 33 € et en 45 minutes : la formule vous tente ?",
+        "commentLead": "📰 À lire ici :"
+      },
+      "bluesky": {
+        "texte": "33 € et 45 minutes : c’est le nouveau format du déjeuner chez Morimoto, le restaurant japonais du Mondrian Bordeaux Les Carmes. Une formule pensée pour les midis pressés, dans l’une des adresses les plus commentées de la ville 🥢",
+        "hashtag": "#Bordeaux"
+      },
+      "threads": {
+        "texte": "🍙 Bordeaux, quartier des Carmes. Le restaurant Morimoto, au sein du Mondrian, met en place un nouveau menu déjeuner à 33 €, servi en 45 minutes. Une façon de goûter à la cuisine du chef japonais sans y passer toute la pause de midi.",
+        "sujet": "Bordeaux"
+      },
+      "x": {
+        "texte": "On n’attendait pas une grande table japonaise sur le créneau du midi express 🥢 À Bordeaux, Morimoto lance un menu déjeuner à 33 €, servi en 45 minutes, au Mondrian Les Carmes."
+      },
+      "source": "ia",
+      "model": "claude-opus-5",
+      "usage": {
+        "input": 8620,
+        "output": 905
+      },
+      "angles": {
+        "instagram": "image évocatrice",
+        "facebook": "question intrigante",
+        "bluesky": "chiffre ou fait marquant en tête",
+        "threads": "lieu en tête",
+        "x": "effet de surprise"
+      },
+      "lieuSource": {
+        "precis": "Mondrian Bordeaux Les Carmes",
+        "ville": "Bordeaux",
+        "departement": "Gironde"
+      },
+      "comptes": {
+        "instagram": [],
+        "x": [],
+        "bluesky": [
+          {
+            "nom": "Morimoto",
+            "handle": "morimoto-ska.bsky.social",
+            "role": "sujet"
+          }
+        ],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=34715",
+    "channel": "facebook",
+    "dueAt": 1789725216755,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Morimoto Bordeaux dévoile son nouveau menu déjeuner à 33 €",
+      "link": "https://passion-aquitaine.ouest-france.fr/nouveau-menu-morimoto-bordeaux/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=34715",
+      "pubDate": "Fri, 18 Sep 2026 05:30:40 +0000",
+      "date": 1789709440000,
+      "categories": [
+        "Actus",
+        "Bordeaux",
+        "Restaurants"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/09/dejeuner-morimoto-bordeaux.jpg",
+      "description": "Le restaurant Morimoto du Mondrian Bordeaux Les Carmes lance un nouveau menu déjeuner à 33 €, servi en 45 minutes."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Bordeaux",
+      "visuel": {
+        "titre": "Morimoto dévoile son nouveau menu déjeuner à 33 €",
+        "surlignage": "33 €",
+        "description": "Au Mondrian Bordeaux Les Carmes, la table du chef Morimoto propose une formule du midi servie en 45 minutes, pensée pour les pauses déjeuner courtes.",
+        "texte_alternatif": "Visuel avec la rubrique Bordeaux et le titre annonçant le nouveau menu déjeuner à 33 € du restaurant Morimoto, illustré par une assiette de restaurant"
+      },
+      "entites": [
+        {
+          "nom": "Morimoto",
+          "role": "sujet"
+        },
+        {
+          "nom": "Mondrian Bordeaux Les Carmes",
+          "role": "acteur"
+        }
+      ],
+      "lieu": {
+        "id": "115838035093755",
+        "nom": "Bordeaux",
+        "niveau": "ville"
+      },
+      "instagram": {
+        "texte": "Une table japonaise de Bordeaux ouvre sa pause déjeuner à 33 € 🍣\nLe restaurant Morimoto, installé au Mondrian Bordeaux Les Carmes, lance une formule du midi servie en 45 minutes. De quoi déjeuner vite dans un cadre signé par un chef japonais.",
+        "hashtags": [
+          "#Bordeaux",
+          "#Morimoto",
+          "#Restaurant"
+        ]
+      },
+      "facebook": {
+        "texte": "Déjeuner chez Morimoto à Bordeaux pour 🍱 33 € et en 45 minutes : la formule vous tente ?",
+        "commentLead": "📰 À lire ici :"
+      },
+      "bluesky": {
+        "texte": "33 € et 45 minutes : c’est le nouveau format du déjeuner chez Morimoto, le restaurant japonais du Mondrian Bordeaux Les Carmes. Une formule pensée pour les midis pressés, dans l’une des adresses les plus commentées de la ville 🥢",
+        "hashtag": "#Bordeaux"
+      },
+      "threads": {
+        "texte": "🍙 Bordeaux, quartier des Carmes. Le restaurant Morimoto, au sein du Mondrian, met en place un nouveau menu déjeuner à 33 €, servi en 45 minutes. Une façon de goûter à la cuisine du chef japonais sans y passer toute la pause de midi.",
+        "sujet": "Bordeaux"
+      },
+      "x": {
+        "texte": "On n’attendait pas une grande table japonaise sur le créneau du midi express 🥢 À Bordeaux, Morimoto lance un menu déjeuner à 33 €, servi en 45 minutes, au Mondrian Les Carmes."
+      },
+      "source": "ia",
+      "model": "claude-opus-5",
+      "usage": {
+        "input": 8620,
+        "output": 905
+      },
+      "angles": {
+        "instagram": "image évocatrice",
+        "facebook": "question intrigante",
+        "bluesky": "chiffre ou fait marquant en tête",
+        "threads": "lieu en tête",
+        "x": "effet de surprise"
+      },
+      "lieuSource": {
+        "precis": "Mondrian Bordeaux Les Carmes",
+        "ville": "Bordeaux",
+        "departement": "Gironde"
+      },
+      "comptes": {
+        "instagram": [],
+        "x": [],
+        "bluesky": [
+          {
+            "nom": "Morimoto",
+            "handle": "morimoto-ska.bsky.social",
+            "role": "sujet"
+          }
+        ],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=34715",
+    "channel": "threads",
+    "dueAt": 1789724780346,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Morimoto Bordeaux dévoile son nouveau menu déjeuner à 33 €",
+      "link": "https://passion-aquitaine.ouest-france.fr/nouveau-menu-morimoto-bordeaux/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=34715",
+      "pubDate": "Fri, 18 Sep 2026 05:30:40 +0000",
+      "date": 1789709440000,
+      "categories": [
+        "Actus",
+        "Bordeaux",
+        "Restaurants"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/09/dejeuner-morimoto-bordeaux.jpg",
+      "description": "Le restaurant Morimoto du Mondrian Bordeaux Les Carmes lance un nouveau menu déjeuner à 33 €, servi en 45 minutes."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Bordeaux",
+      "visuel": {
+        "titre": "Morimoto dévoile son nouveau menu déjeuner à 33 €",
+        "surlignage": "33 €",
+        "description": "Au Mondrian Bordeaux Les Carmes, la table du chef Morimoto propose une formule du midi servie en 45 minutes, pensée pour les pauses déjeuner courtes.",
+        "texte_alternatif": "Visuel avec la rubrique Bordeaux et le titre annonçant le nouveau menu déjeuner à 33 € du restaurant Morimoto, illustré par une assiette de restaurant"
+      },
+      "entites": [
+        {
+          "nom": "Morimoto",
+          "role": "sujet"
+        },
+        {
+          "nom": "Mondrian Bordeaux Les Carmes",
+          "role": "acteur"
+        }
+      ],
+      "lieu": {
+        "id": "115838035093755",
+        "nom": "Bordeaux",
+        "niveau": "ville"
+      },
+      "instagram": {
+        "texte": "Une table japonaise de Bordeaux ouvre sa pause déjeuner à 33 € 🍣\nLe restaurant Morimoto, installé au Mondrian Bordeaux Les Carmes, lance une formule du midi servie en 45 minutes. De quoi déjeuner vite dans un cadre signé par un chef japonais.",
+        "hashtags": [
+          "#Bordeaux",
+          "#Morimoto",
+          "#Restaurant"
+        ]
+      },
+      "facebook": {
+        "texte": "Déjeuner chez Morimoto à Bordeaux pour 🍱 33 € et en 45 minutes : la formule vous tente ?",
+        "commentLead": "📰 À lire ici :"
+      },
+      "bluesky": {
+        "texte": "33 € et 45 minutes : c’est le nouveau format du déjeuner chez Morimoto, le restaurant japonais du Mondrian Bordeaux Les Carmes. Une formule pensée pour les midis pressés, dans l’une des adresses les plus commentées de la ville 🥢",
+        "hashtag": "#Bordeaux"
+      },
+      "threads": {
+        "texte": "🍙 Bordeaux, quartier des Carmes. Le restaurant Morimoto, au sein du Mondrian, met en place un nouveau menu déjeuner à 33 €, servi en 45 minutes. Une façon de goûter à la cuisine du chef japonais sans y passer toute la pause de midi.",
+        "sujet": "Bordeaux"
+      },
+      "x": {
+        "texte": "On n’attendait pas une grande table japonaise sur le créneau du midi express 🥢 À Bordeaux, Morimoto lance un menu déjeuner à 33 €, servi en 45 minutes, au Mondrian Les Carmes."
+      },
+      "source": "ia",
+      "model": "claude-opus-5",
+      "usage": {
+        "input": 8620,
+        "output": 905
+      },
+      "angles": {
+        "instagram": "image évocatrice",
+        "facebook": "question intrigante",
+        "bluesky": "chiffre ou fait marquant en tête",
+        "threads": "lieu en tête",
+        "x": "effet de surprise"
+      },
+      "lieuSource": {
+        "precis": "Mondrian Bordeaux Les Carmes",
+        "ville": "Bordeaux",
+        "departement": "Gironde"
+      },
+      "comptes": {
+        "instagram": [],
+        "x": [],
+        "bluesky": [
+          {
+            "nom": "Morimoto",
+            "handle": "morimoto-ska.bsky.social",
+            "role": "sujet"
+          }
+        ],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=34715",
+    "channel": "x",
+    "dueAt": 1789711245742,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Morimoto Bordeaux dévoile son nouveau menu déjeuner à 33 €",
+      "link": "https://passion-aquitaine.ouest-france.fr/nouveau-menu-morimoto-bordeaux/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=34715",
+      "pubDate": "Fri, 18 Sep 2026 05:30:40 +0000",
+      "date": 1789709440000,
+      "categories": [
+        "Actus",
+        "Bordeaux",
+        "Restaurants"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/09/dejeuner-morimoto-bordeaux.jpg",
+      "description": "Le restaurant Morimoto du Mondrian Bordeaux Les Carmes lance un nouveau menu déjeuner à 33 €, servi en 45 minutes."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Bordeaux",
+      "visuel": {
+        "titre": "Morimoto dévoile son nouveau menu déjeuner à 33 €",
+        "surlignage": "33 €",
+        "description": "Au Mondrian Bordeaux Les Carmes, la table du chef Morimoto propose une formule du midi servie en 45 minutes, pensée pour les pauses déjeuner courtes.",
+        "texte_alternatif": "Visuel avec la rubrique Bordeaux et le titre annonçant le nouveau menu déjeuner à 33 € du restaurant Morimoto, illustré par une assiette de restaurant"
+      },
+      "entites": [
+        {
+          "nom": "Morimoto",
+          "role": "sujet"
+        },
+        {
+          "nom": "Mondrian Bordeaux Les Carmes",
+          "role": "acteur"
+        }
+      ],
+      "lieu": {
+        "id": "115838035093755",
+        "nom": "Bordeaux",
+        "niveau": "ville"
+      },
+      "instagram": {
+        "texte": "Une table japonaise de Bordeaux ouvre sa pause déjeuner à 33 € 🍣\nLe restaurant Morimoto, installé au Mondrian Bordeaux Les Carmes, lance une formule du midi servie en 45 minutes. De quoi déjeuner vite dans un cadre signé par un chef japonais.",
+        "hashtags": [
+          "#Bordeaux",
+          "#Morimoto",
+          "#Restaurant"
+        ]
+      },
+      "facebook": {
+        "texte": "Déjeuner chez Morimoto à Bordeaux pour 🍱 33 € et en 45 minutes : la formule vous tente ?",
+        "commentLead": "📰 À lire ici :"
+      },
+      "bluesky": {
+        "texte": "33 € et 45 minutes : c’est le nouveau format du déjeuner chez Morimoto, le restaurant japonais du Mondrian Bordeaux Les Carmes. Une formule pensée pour les midis pressés, dans l’une des adresses les plus commentées de la ville 🥢",
+        "hashtag": "#Bordeaux"
+      },
+      "threads": {
+        "texte": "🍙 Bordeaux, quartier des Carmes. Le restaurant Morimoto, au sein du Mondrian, met en place un nouveau menu déjeuner à 33 €, servi en 45 minutes. Une façon de goûter à la cuisine du chef japonais sans y passer toute la pause de midi.",
+        "sujet": "Bordeaux"
+      },
+      "x": {
+        "texte": "On n’attendait pas une grande table japonaise sur le créneau du midi express 🥢 À Bordeaux, Morimoto lance un menu déjeuner à 33 €, servi en 45 minutes, au Mondrian Les Carmes."
+      },
+      "source": "ia",
+      "model": "claude-opus-5",
+      "usage": {
+        "input": 8620,
+        "output": 905
+      },
+      "angles": {
+        "instagram": "image évocatrice",
+        "facebook": "question intrigante",
+        "bluesky": "chiffre ou fait marquant en tête",
+        "threads": "lieu en tête",
+        "x": "effet de surprise"
+      },
+      "lieuSource": {
+        "precis": "Mondrian Bordeaux Les Carmes",
+        "ville": "Bordeaux",
+        "departement": "Gironde"
+      },
+      "comptes": {
+        "instagram": [],
+        "x": [],
+        "bluesky": [
+          {
+            "nom": "Morimoto",
+            "handle": "morimoto-ska.bsky.social",
+            "role": "sujet"
+          }
+        ],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
   }
 ]

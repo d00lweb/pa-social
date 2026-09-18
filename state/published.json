@@ -202,5 +202,41 @@
       "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/perigordine-ultra-trail-2026-parcours/",
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35569",
+    "channel": "instagram",
+    "at": "2026-09-18T11:01:48.310Z",
+    "mediaId": "18018840107922721",
+    "titre": "Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée du Périgord",
+    "lien": "https://passion-aquitaine.ouest-france.fr/perigordine-ultra-trail-2026-parcours/",
+    "lienPost": "https://www.instagram.com/p/DdbR-NbnGSM/",
+    "format": null,
+    "mention": false,
+    "apercu": {
+      "texte": "80 km de sentiers entre une grotte, une rivière et des châteaux du Périgord\n⠀\nLa Périgordine Ultra Trail lance sa première édition 🗓️ le 27 septembre, avec un parcours qui raconte une histoire méconnue de la Dordogne.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Perigord #UltraTrail #Dordogne",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260918-98a782d2-1.jpg",
+      "mode": null,
+      "reponse": null,
+      "sujet": null
+    }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=34715",
+    "channel": "threads",
+    "at": "2026-09-18T11:07:55.596Z",
+    "mediaId": "17993025915047865",
+    "titre": "Morimoto Bordeaux dévoile son nouveau menu déjeuner à 33 €",
+    "lien": "https://passion-aquitaine.ouest-france.fr/nouveau-menu-morimoto-bordeaux/",
+    "lienPost": "https://www.threads.com/@lovaquitaine/post/DdbSnKokXjW",
+    "format": "lien",
+    "mention": false,
+    "apercu": {
+      "texte": "🍙 Bordeaux, quartier des Carmes. Le restaurant Morimoto, au sein du Mondrian, met en place un nouveau menu déjeuner à 33 €, servi en 45 minutes. Une façon de goûter à la cuisine du chef japonais sans y passer toute la pause de midi.",
+      "image": null,
+      "mode": "lien",
+      "reponse": null,
+      "sujet": "Bordeaux"
+    }
   }
 ]

@@ -24,6 +24,7 @@ Stratégie détaillée et données : note « Plan Bluesky, Threads, X » (v2, 15
 - [x] 7. Facebook (en production depuis le 17/09/2026, Page Passion Aquitaine)
 - [x] 8. Threads (en production depuis le 17/09/2026, @lovaquitaine)
 - [x] 9. Mesure et apprentissage (17/09/2026) — relevés J+1 et J+7, rapport Telegram le lundi, rapports mensuels dans le pilotage. **Les conseils ne sont jamais appliqués sans validation.**
+- [x] 9 bis. Horaires par réseau, suivi des abonnés, rapports mensuels enrichis, page publique de l'équipe `site/reseaux-sociaux.html` (18/09/2026)
 - [ ] 10. Accélérateurs « média de référence »
 
 ---

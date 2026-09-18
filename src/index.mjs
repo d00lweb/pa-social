@@ -13,6 +13,7 @@ import { collecter } from './measure/collect.mjs';
 import { releverAbonnes } from './measure/abonnes.mjs';
 import { diffuser } from './measure/diffusion.mjs';
 import { ecrire as ecrirePilotage } from './measure/pilotage.mjs';
+import { publierPublic } from './measure/public.mjs';
 import { verifier as verifierJetons } from './measure/jetons.mjs';
 import { capturer as capturerApercu } from './measure/apercus.mjs';
 import { loadMemory, saveMemory, remember } from './brain/memory.mjs';
@@ -436,6 +437,8 @@ async function main() {
       }
     }
     await ecrirePilotage({ history, queue, controls, now: ctx.now });
+    // page publique de l'équipe : données filtrées par liste blanche, déposées sur le site
+    await publierPublic({ history, queue, controls, articles: items, maintenant: ctx.now }).catch((e) => console.error(`Page équipe : ${e.message}`));
   } finally {
     await Promise.all([saveHistory(history), saveQueue(queue), saveMemory(memory), saveJson('controls.json', controls), saveJson('telegram.json', tg)]);
   }

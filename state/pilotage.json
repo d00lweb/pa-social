@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-18T13:20:49.909Z",
+  "genereLe": "2026-09-18T14:00:38.983Z",
   "jour": "2026-09-18",
   "reseaux": {
     "instagram": {
@@ -7,11 +7,18 @@
       "pause": false,
       "manuel": false,
       "maxParJour": 2,
-      "creneaux": null,
-      "ecart": [
-        3,
-        4.5
+      "creneaux": [
+        [
+          "12:00",
+          "13:30"
+        ],
+        [
+          "18:00",
+          "19:30"
+        ]
       ],
+      "ecart": null,
+      "ecartMin": 2,
       "nuit": {
         "start": 23,
         "end": 7
@@ -28,11 +35,22 @@
       "pause": false,
       "manuel": false,
       "maxParJour": 3,
-      "creneaux": null,
-      "ecart": [
-        2.5,
-        4
+      "creneaux": [
+        [
+          "08:00",
+          "09:30"
+        ],
+        [
+          "12:00",
+          "13:30"
+        ],
+        [
+          "18:00",
+          "19:30"
+        ]
       ],
+      "ecart": null,
+      "ecartMin": 2,
       "nuit": {
         "start": 22,
         "end": 8
@@ -64,6 +82,7 @@
         ]
       ],
       "ecart": null,
+      "ecartMin": 3,
       "nuit": {
         "start": 22,
         "end": 8
@@ -80,14 +99,25 @@
       "pause": false,
       "manuel": false,
       "maxParJour": 3,
-      "creneaux": null,
-      "ecart": [
-        2.5,
-        4
+      "creneaux": [
+        [
+          "07:00",
+          "08:30"
+        ],
+        [
+          "10:00",
+          "11:30"
+        ],
+        [
+          "13:00",
+          "14:30"
+        ]
       ],
+      "ecart": null,
+      "ecartMin": 1.5,
       "nuit": {
         "start": 22,
-        "end": 8
+        "end": 7
       },
       "formats": [
         "image",
@@ -105,8 +135,22 @@
       "pause": false,
       "manuel": true,
       "maxParJour": 3,
-      "creneaux": null,
-      "ecart": 0,
+      "creneaux": [
+        [
+          "09:00",
+          "10:30"
+        ],
+        [
+          "12:00",
+          "13:30"
+        ],
+        [
+          "16:00",
+          "17:30"
+        ]
+      ],
+      "ecart": null,
+      "ecartMin": 1.5,
       "nuit": {
         "start": 22,
         "end": 7
@@ -333,15 +377,17 @@
   ],
   "file": [
     {
-      "channel": "facebook",
-      "dueAt": "2026-09-18T13:29:29.782Z",
-      "prochainPassage": "2026-09-18T14:00:00.000Z",
+      "channel": "threads",
+      "dueAt": "2026-09-19T06:20:00.000Z",
+      "prochainPassage": "2026-09-19T06:20:00.000Z",
+      "nature": "actu",
       "titre": "Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée du Périgord"
     },
     {
-      "channel": "threads",
-      "dueAt": "2026-09-18T13:46:57.020Z",
-      "prochainPassage": "2026-09-18T14:00:00.000Z",
+      "channel": "facebook",
+      "dueAt": "2026-09-19T07:00:00.000Z",
+      "prochainPassage": "2026-09-19T07:00:00.000Z",
+      "nature": "actu",
       "titre": "Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée du Périgord"
     }
   ],

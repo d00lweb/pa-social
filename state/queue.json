@@ -46,7 +46,7 @@
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=35569",
     "channel": "facebook",
-    "dueAt": 1789738169782,
+    "dueAt": 1789801200000,
     "status": "pending",
     "attempts": 0,
     "article": {
@@ -135,7 +135,7 @@
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=35569",
     "channel": "threads",
-    "dueAt": 1789739217020,
+    "dueAt": 1789798800000,
     "status": "pending",
     "attempts": 0,
     "article": {

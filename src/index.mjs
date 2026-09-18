@@ -10,6 +10,7 @@ import { resoudreComptes } from './brain/comptes.mjs';
 import { resoudreLieu, lieuNomme } from './brain/lieux.mjs';
 import { recolterLieux } from './measure/recolte.mjs';
 import { collecter } from './measure/collect.mjs';
+import { releverAbonnes } from './measure/abonnes.mjs';
 import { diffuser } from './measure/diffusion.mjs';
 import { ecrire as ecrirePilotage } from './measure/pilotage.mjs';
 import { verifier as verifierJetons } from './measure/jetons.mjs';
@@ -416,6 +417,8 @@ async function main() {
     // Mesure : relevé des interactions, rapports dus, puis instantané pour la page de pilotage.
     // Lecture seule côté réseaux, et aucun réglage n'est modifié automatiquement.
     const mesures = await collecter({ log: console.log, maintenant: ctx.now });
+    // abonnés de chaque compte, une fois par jour : suivi commencé le 18/09/2026
+    await releverAbonnes({ now: ctx.now, log: console.log }).catch((e) => console.error(`Abonnés : ${e.message}`));
     await diffuser({ history, mesures, now: ctx.now });
     await verifierJetons({ now: ctx.now });
     // Lieux tagués sur la page Facebook, à la main ou par le robot : appris une fois, réutilisés partout.

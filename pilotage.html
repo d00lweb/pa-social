@@ -200,6 +200,33 @@
   .tl-win { position: absolute; top: 3px; bottom: 3px; border-radius: 5px; color: #fff; font-size: 11px; font-weight: 700; display: grid; place-items: center; overflow: hidden; white-space: nowrap; box-shadow: 0 1px 2px rgba(0, 0, 0, .15); }
   .tl-now { position: absolute; top: -3px; bottom: -3px; width: 2px; margin-left: -1px; background: var(--red); border-radius: 1px; }
 
+  /* Abonnés et rapport mensuel */
+  .nw { white-space: nowrap; }
+  .gain { display: block; font-size: 12px; font-weight: 600; color: var(--muted); white-space: nowrap; }
+  .gain.up, .up { color: var(--live); }
+  .gain.down, .down { color: var(--red); }
+  #abonnes-total b { color: var(--ink); }
+  .rapport { display: grid; gap: 16px; }
+  .r-head { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+  .r-head h3 { font-size: 19px; }
+  .r-kpis { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: 12px; overflow: hidden; }
+  .r-kpi { background: var(--panel); padding: 14px 16px; display: grid; gap: 2px; align-content: start; }
+  .r-kpi b { font-size: 24px; font-weight: 800; letter-spacing: -.01em; font-variant-numeric: tabular-nums; }
+  .r-kpi span { font-size: 13px; font-weight: 700; }
+  .r-kpi small { font-size: 12px; color: var(--muted); }
+  .r-scroll { overflow-x: auto; }
+  table.r-table { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+  table.r-table th, table.r-table td { padding: 10px 12px; border-top: 1px solid var(--line); text-align: left; white-space: nowrap; }
+  table.r-table thead th { font-size: 11px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); border-top: 0; }
+  table.r-table .num { text-align: right; font-variant-numeric: tabular-nums; }
+  table.r-table tbody th { font-weight: 700; }
+  table.r-table tbody th .glyph { vertical-align: -6px; margin-right: 8px; }
+  table.r-table small { color: var(--muted); font-weight: 500; }
+  .r-duo { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+  .r-list { list-style: none; margin: 8px 0 0; padding: 0; display: grid; gap: 9px; font-size: 13.5px; line-height: 1.45; }
+  .r-list li { display: flex; gap: 8px; align-items: flex-start; }
+  .r-list li .glyph { margin-top: 1px; }
+
   footer { color: var(--muted); font-size: 12.5px; border-top: 1px solid var(--line); padding-top: 18px; display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
   .toast { position: fixed; left: 50%; bottom: 24px; transform: translate(-50%, 20px); opacity: 0; background: var(--ink); color: var(--panel); padding: 10px 16px; border-radius: 999px; font-size: 13.5px; font-weight: 600; transition: opacity .2s, transform .2s; pointer-events: none; }
   .toast.on { opacity: 1; transform: translate(-50%, 0); }
@@ -228,6 +255,17 @@
     .tl-row { grid-template-columns: 84px 1fr; gap: 8px; }
     .tl-row .nom { font-size: 12px; }
     .tl-win { font-size: 0; }
+    .r-kpis { grid-template-columns: repeat(2, 1fr); }
+    .r-duo { grid-template-columns: 1fr; }
+    /* rapport sur téléphone : une fiche par réseau, plus de colonnes cachées hors de l'écran */
+    table.r-table thead { display: none; }
+    table.r-table, table.r-table tbody, table.r-table tr, table.r-table th, table.r-table td { display: block; }
+    table.r-table tr { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px 10px; padding: 12px 0; border-top: 1px solid var(--line); }
+    table.r-table tbody tr:first-child { border-top: 0; }
+    table.r-table tr > * { border: 0; padding: 0; white-space: normal; }
+    table.r-table tr > th { grid-column: 1 / -1; }
+    table.r-table .num { text-align: left; }
+    table.r-table td[data-label]::before { content: attr(data-label); display: block; font-size: 10.5px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
   }
 </style>
 </head>
@@ -262,11 +300,12 @@
     <div class="panel">
       <table class="nets">
         <thead>
-          <tr><th scope="col">Réseau</th><th scope="col">Publication</th><th scope="col">Rythme</th><th scope="col" class="num">Aujourd’hui</th><th scope="col" class="num">7 jours</th><th scope="col">Dernier post</th><th scope="col">État</th></tr>
+          <tr><th scope="col">Réseau</th><th scope="col">Publication</th><th scope="col">Rythme</th><th scope="col" class="num">Aujourd’hui</th><th scope="col" class="num">Posts 7 j</th><th scope="col">Dernier post</th><th scope="col" class="num">Abonnés</th><th scope="col">État</th></tr>
         </thead>
         <tbody id="reseaux"></tbody>
       </table>
     </div>
+    <p class="note" id="abonnes-total"></p>
   </section>
 
   <section aria-labelledby="t-planning">
@@ -311,11 +350,11 @@
   <section aria-labelledby="t-rapports">
     <div class="sec-head">
       <h2 id="t-rapports">Rapports mensuels</h2>
-      <p class="hint">Bilan par réseau, par format et par créneau. Aucun conseil n’est appliqué sans votre validation.</p>
+      <p class="hint">Abonnés, publications, engagement, horaires. Le mois en cours se met à jour à chaque passage ; le bilan est figé le 1er du mois suivant et résumé sur Telegram.</p>
     </div>
     <div class="panel pad">
-      <label class="field"><span class="label">Mois</span><select id="rapport-mois" disabled><option>Aucun rapport pour l’instant</option></select></label>
-      <div class="rows" id="rapport"></div>
+      <label class="field"><span class="label">Mois</span><select id="rapport-mois" disabled><option>Chargement…</option></select></label>
+      <div id="rapport" class="rapport"></div>
     </div>
   </section>
 
@@ -475,10 +514,6 @@
     threads: { creneaux: [['07:00', '08:30'], ['10:00', '11:30'], ['13:00', '14:30']], nuit: { start: 22, end: 7 } },
     x: { creneaux: [['09:00', '10:30'], ['12:00', '13:30'], ['16:00', '17:30']], nuit: { start: 22, end: 7 } },
   };
-  const listeCreneaux = (c) => {
-    const t = c.map(([a, b]) => `${hhmm(a)} – ${hhmm(b)}`);
-    return t.length > 1 ? `${t.slice(0, -1).join(', ')} et ${t.at(-1)}` : t[0] ?? '';
-  };
   const nom = (id) => NETS[id]?.nom ?? id;
   const glyphe = (id, taille = '') => {
     const n = NETS[id] ?? { glyph: '?', couleur: '#777' };
@@ -501,18 +536,36 @@
     return t;
   };
 
+  // Rythme d'un réseau, en HTML : chaque créneau reste d'un seul tenant (« 19 h 30 » ne se coupe plus)
   function rythme(id, r) {
     const unite = NETS[id].unite ?? '';
     const max = `${r?.maxParJour ?? HORAIRES[id].creneaux.length}${unite ? ` ${unite}` : ''} par jour`;
     // avant le premier chargement, les créneaux de référence ; ensuite, ceux de la configuration
     const creneaux = r ? r.creneaux : HORAIRES[id].creneaux;
-    if (creneaux?.length) return `${max} : ${listeCreneaux(creneaux)}`;
+    if (creneaux?.length) return `${esc(max)}<br>${creneaux.map(([a, b]) => `<span class="nw">${esc(`${hhmm(a)} – ${hhmm(b)}`)}</span>`).join(' · ')}`;
     if (Array.isArray(r?.ecart) || r?.ecart) {
       const [a, b] = Array.isArray(r.ecart) ? r.ecart : [r.ecart, r.ecart];
       const ecart = a ? `, ${duree(a)}${b !== a ? ` à ${duree(b)}` : ''} d’écart` : '';
-      return `${max}${ecart}`;
+      return esc(`${max}${ecart}`);
     }
-    return NETS[id].rythme;
+    return esc(NETS[id].rythme);
+  }
+
+  const nombre = (n) => Number(n).toLocaleString('fr-FR');
+  const signe = (n) => `${n > 0 ? '+' : n < 0 ? '−' : ''}${nombre(Math.abs(n))}`;
+  // « cette semaine », ou « depuis le 18/09 » tant que le suivi a moins de 7 jours
+  const periodeAbonnes = (a) => (Date.now() - Date.parse(`${a.depuis}T12:00:00Z`) < 6.5 * 864e5
+    ? `depuis le ${fmt({ day: '2-digit', month: '2-digit' }).format(new Date(`${a.depuis}T12:00:00Z`))}`
+    : 'cette semaine');
+
+  // Abonnés d'un compte : total, et gain des 7 derniers jours
+  function celluleAbonnes(id) {
+    const a = etat?.abonnes?.[id];
+    if (!a) return id === 'x' ? '<span class="muted" title="X n’a pas d’API gratuite">non suivi</span>' : '—';
+    const gain = a.depuis === a.au
+      ? '<small class="gain">suivi depuis aujourd’hui</small>'
+      : `<small class="gain ${a.gain > 0 ? 'up' : a.gain < 0 ? 'down' : ''}">${signe(a.gain)} ${periodeAbonnes(a)}</small>`;
+    return `<b>${nombre(a.fin)}</b>${gain}`;
   }
 
   function etatPill(id, r) {
@@ -591,14 +644,22 @@
       return `<tr class="net-row">
           <th scope="row"><button type="button" class="toggle" aria-expanded="${ouvert}" aria-controls="d-${id}" data-net="${id}"><span class="chev" aria-hidden="true">›</span>${glyphe(id)}<span>${n.nom}</span></button><span class="compte">${compte}</span></th>
           <td data-label="Publication">${esc(n.publication)}</td>
-          <td data-label="Rythme">${esc(rythme(id, r))}</td>
+          <td data-label="Rythme">${rythme(id, r)}</td>
           <td data-label="Aujourd’hui" class="num">${r ? `${r.aujourdhui} / ${r.maxParJour ?? '—'}` : '—'}</td>
-          <td data-label="7 jours" class="num">${r?.semaine ?? '—'}</td>
+          <td data-label="Posts 7 j" class="num">${r?.semaine ?? '—'}</td>
           <td data-label="Dernier post">${dernier}</td>
+          <td data-label="Abonnés" class="num">${celluleAbonnes(id)}</td>
           <td data-label="État">${etatPill(id, r)}</td>
         </tr>
-        <tr class="detail" id="d-${id}"${ouvert ? '' : ' hidden'}><td colspan="7"><dl>${n.details.map(([k, v]) => `<div><dt>${esc(k)}</dt><dd>${esc(v)}</dd></div>`).join('')}${acces(id)}</dl></td></tr>`;
+        <tr class="detail" id="d-${id}"${ouvert ? '' : ' hidden'}><td colspan="8"><dl>${n.details.map(([k, v]) => `<div><dt>${esc(k)}</dt><dd>${esc(v)}</dd></div>`).join('')}${acces(id)}</dl></td></tr>`;
     }).join('');
+    // total des comptes suivis, sous le tableau
+    const suivis = Object.values(etat?.abonnes ?? {}).filter(Boolean);
+    const gain = suivis.reduce((s, a) => s + a.gain, 0);
+    const premierJour = suivis.every((a) => a.depuis === a.au);
+    $('abonnes-total').innerHTML = suivis.length
+      ? `<b>${nombre(suivis.reduce((s, a) => s + a.fin, 0))}</b> abonnés sur les comptes suivis · ${premierJour ? 'suivi commencé aujourd’hui' : `<span class="${gain > 0 ? 'up' : gain < 0 ? 'down' : ''}">${signe(gain)} ${periodeAbonnes(suivis[0])}</span> · relevé chaque jour depuis le 18/09/2026`} · X non suivi (pas d’API gratuite)`
+      : '';
   }
 
   // La file du robot dit la vérité : il la revalide en entier à chaque passage et fixe à l'avance la
@@ -724,34 +785,98 @@
       <p class="note">S’ajoutent aux 12 lieux de départ. Chaque lieu est validé par Instagram avant d’entrer ; ${l.refuses ?? 0} ont été refusés.</p>`;
   }
 
-  // ── Rapports mensuels : chargés à la demande ──
+  // ── Rapports mensuels : le mois en cours (provisoire, lu dans l'instantané), puis les mois figés ──
+  const nomMois = (mois) => maj(new Date(`${mois}-15T12:00:00Z`).toLocaleDateString('fr-FR', { month: 'long', year: 'numeric' }));
+  const pct = (n) => String(n).replace('.', ',');
+
+  function rendreRapport(r, provisoire) {
+    const zone = $('rapport');
+    if (!r) {
+      zone.innerHTML = '<p class="empty">Aucune donnée pour ce mois.</p>';
+      return;
+    }
+    const suivis = Object.entries(r.abonnes ?? {}).filter(([, e]) => e);
+    const gain = suivis.reduce((s, [, e]) => s + e.gain, 0);
+    const base = suivis.reduce((s, [, e]) => s + e.debut, 0);
+    const publies = Object.values(r.publies ?? {}).reduce((s, n) => s + n, 0);
+    const taux = Object.entries(r.engagement ?? {}).sort((a, b) => b[1] - a[1]);
+    const jourMois = (j) => fmt({ day: '2-digit', month: '2-digit' }).format(new Date(`${j.slice(0, 10)}T12:00:00Z`));
+    // premier jour du suivi : rien à comparer encore, on le dit plutôt que d'afficher des zéros
+    const debutSuivi = suivis.length > 0 && suivis.every(([, e]) => e.depuis === e.au);
+    const depuisLe = suivis[0]?.[1].depuis;
+    const kpi = (valeur, libelle, detail = '') => `<div class="r-kpi"><b>${valeur}</b><span>${libelle}</span>${detail ? `<small>${detail}</small>` : ''}</div>`;
+    const lignes = ORDRE.map((id) => {
+      const e = r.abonnes?.[id];
+      const v = r.parReseau?.[id];
+      const t = r.engagement?.[id];
+      const p = r.publies?.[id] ?? 0;
+      if (!e && !v && !p) return '';
+      const sens = e?.gain > 0 ? 'up' : e?.gain < 0 ? 'down' : '';
+      const evolution = !e ? '<span class="muted">—</span>'
+        : e.depuis === e.au ? `<small>suivi depuis le ${jourMois(e.depuis)}</small>`
+        : `${signe(e.gain)}${e.pct !== null ? ` <small>(${signe(e.pct).replace('.', ',')} %)</small>` : ''}`;
+      return `<tr><th scope="row">${glyphe(id, 'sm')}${esc(nom(id))}</th>
+        <td class="num" data-label="Abonnés">${e ? nombre(e.fin) : '<span class="muted">—</span>'}</td>
+        <td class="num ${sens}" data-label="Évolution">${evolution}</td>
+        <td class="num" data-label="Posts">${p}</td>
+        <td class="num" data-label="Interactions / post">${v ? pct(v.moyenne) : '<span class="muted">—</span>'}</td>
+        <td class="num" data-label="Engagement">${t !== undefined ? `${pct(t)} %` : '<span class="muted">—</span>'}</td></tr>`;
+    }).join('');
+    // meilleur créneau de chaque réseau, dès 3 posts mesurés : c'est la vérification de la stratégie horaire
+    const creneaux = Object.entries(r.parCreneauReseau ?? {}).map(([id, c]) => {
+      const [k, v] = Object.entries(c).find(([cle, val]) => cle !== 'hors créneau' && val.posts >= 3) ?? [];
+      return k ? `<li>${glyphe(id, 'sm')}<span><b>${esc(nom(id))}</b> · meilleur créneau ${esc(k)} · ${pct(v.moyenne)} interactions par post sur ${v.posts} posts</span></li>` : '';
+    }).join('');
+    const m = r.meilleur;
+    // les posts d'avant le 17/09 n'avaient pas leur titre dans l'historique : on les nomme par leur date
+    const titreMeilleur = m ? (m.titre ?? `Post ${nom(m.channel)} du ${jourMois(m.publieLe)}`) : '';
+    const meilleur = m
+      ? `<li>🥇 <span>${m.lien ? `<a href="${esc(m.lien)}" target="_blank" rel="noopener"><b>${esc(titreMeilleur)}</b></a>` : `<b>${esc(titreMeilleur)}</b>`} · ${esc(nom(m.channel))}, ${(m.likes ?? 0) + (m.commentaires ?? 0) + (m.partages ?? 0)} interactions</span></li>`
+      : '';
+    const detailAbonnes = debutSuivi
+      ? `suivi commencé le ${jourMois(depuisLe)}`
+      : `${base ? `${signe(Math.round((gain / base) * 1000) / 10).replace('.', ',')} %` : ''}${depuisLe && depuisLe > `${r.mois}-01` ? ` depuis le ${jourMois(depuisLe)}` : ' sur le mois'}`;
+    zone.innerHTML = `
+      <div class="r-head"><h3>${esc(nomMois(r.mois))}</h3>${provisoire ? '<span class="pill info">provisoire · mis à jour à chaque passage</span>' : '<span class="pill live">bilan figé</span>'}</div>
+      <div class="r-kpis">
+        ${kpi(debutSuivi ? '—' : signe(gain), 'abonnés gagnés', detailAbonnes)}
+        ${kpi(nombre(publies), 'posts publiés', `${r.posts} mesurés`)}
+        ${kpi(nombre(r.interactionsTotal ?? 0), 'interactions', 'likes, commentaires, partages')}
+        ${kpi(taux[0] ? esc(nom(taux[0][0])) : '—', 'meilleur engagement', taux[0] ? `${pct(taux[0][1])} % des abonnés par post` : 'dès les premiers posts mesurés')}
+      </div>
+      <div class="r-scroll"><table class="r-table">
+        <thead><tr><th scope="col">Réseau</th><th scope="col" class="num">Abonnés</th><th scope="col" class="num">Évolution</th><th scope="col" class="num">Posts</th><th scope="col" class="num">Interactions / post</th><th scope="col" class="num">Engagement</th></tr></thead>
+        <tbody>${lignes}</tbody>
+      </table></div>
+      <div class="r-duo">
+        <div><p class="label">Ce qui a le mieux marché</p><ul class="r-list">${meilleur}${creneaux || '<li class="muted">Le meilleur créneau de chaque réseau apparaîtra dès 3 posts mesurés par créneau.</li>'}</ul></div>
+        <div><p class="label">Conseils</p><ul class="r-list">${(r.conseils ?? []).map((c) => `<li>💡 <span>${esc(c)}</span></li>`).join('')}</ul><p class="note">Rien n’est appliqué sans votre validation.</p></div>
+      </div>`;
+  }
+
   let rapportsPrets = false;
   function initRapports() {
-    const liste = etat?.rapports ?? [];
-    if (rapportsPrets || !liste.length) return;
+    if (rapportsPrets || !etat) return;
     rapportsPrets = true;
     const select = $('rapport-mois');
     select.innerHTML = '';
     select.disabled = false;
-    liste.forEach((mois) => select.add(new Option(mois, mois)));
+    select.add(new Option('Mois en cours (provisoire)', 'encours'));
+    (etat.rapports ?? []).forEach((mois) => select.add(new Option(nomMois(mois), mois)));
     select.addEventListener('change', () => afficherRapport(select.value));
-    afficherRapport(liste[0]);
+    afficherRapport('encours');
   }
   async function afficherRapport(mois) {
-    const zone = $('rapport');
-    zone.innerHTML = '<div class="row"><div>Chargement…</div></div>';
+    if (mois === 'encours') {
+      rendreRapport(etat?.rapportEnCours, true);
+      return;
+    }
+    $('rapport').innerHTML = '<p class="empty">Chargement…</p>';
     try {
       const r = await (await fetch(`${BASE}/rapports/${mois}.json?t=${Date.now()}`, { cache: 'no-store' })).json();
-      const bloc = (titre, obj) => Object.entries(obj ?? {}).map(([k, v]) =>
-        `<div class="row"><div>${esc(titre)} · ${esc(NETS[k]?.nom ?? k)}<small>${v.posts} post${v.posts > 1 ? 's' : ''}</small></div><span class="val">${v.moyenne}</span></div>`).join('');
-      zone.innerHTML = [
-        `<div class="row"><div><b>${r.posts} posts mesurés</b><small>Interactions moyennes par publication</small></div><span class="val">${esc(r.mois)}</span></div>`,
-        bloc('Réseau', r.parReseau), bloc('Format', r.parFormat), bloc('Créneau', r.parCreneau),
-        ...(r.conseils ?? []).map((c) => `<div class="row"><div>💡 ${esc(c)}</div></div>`),
-        '<div class="row"><div class="muted">Aucun réglage n’a été modifié : ces conseils attendent votre validation.</div></div>',
-      ].join('');
+      rendreRapport(r, false);
     } catch (e) {
-      zone.innerHTML = `<div class="row"><div>Rapport indisponible (${esc(e.message)})</div></div>`;
+      $('rapport').innerHTML = `<p class="empty">Rapport indisponible (${esc(e.message)})</p>`;
     }
   }
 
@@ -799,6 +924,8 @@
     }
     toutRendre();
     initRapports();
+    // le mois en cours suit l'instantané : il se met à jour à chaque actualisation
+    if ($('rapport-mois').value === 'encours') rendreRapport(etat?.rapportEnCours, true);
   }
 
   // ── Interactions ──

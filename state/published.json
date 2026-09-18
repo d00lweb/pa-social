@@ -116,5 +116,56 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=34715",
+    "channel": "bluesky",
+    "at": "2026-09-18T07:05:53.823Z",
+    "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mvrm5zanwc2i",
+    "titre": "Morimoto Bordeaux dévoile son nouveau menu déjeuner à 33 €",
+    "lien": "https://passion-aquitaine.ouest-france.fr/nouveau-menu-morimoto-bordeaux/",
+    "format": "image",
+    "mention": false,
+    "apercu": {
+      "texte": "33 € et 45 minutes : c’est le nouveau format du déjeuner chez Morimoto, le restaurant japonais du Mondrian #Bordeaux Les Carmes. Une formule pensée pour les midis pressés, dans l’une des adresses les plus commentées de la ville 🥢\n➡️ Lire l’article",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260918-d98b6f23-bsky.jpg",
+      "mode": "image",
+      "reponse": null,
+      "sujet": null
+    }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35561",
+    "channel": "facebook",
+    "at": "2026-09-18T07:13:27.681Z",
+    "mediaId": "227437307428711_1723720813087133",
+    "titre": "Le brunch le plus généreux de Bordeaux a rouvert ses portes",
+    "lien": "https://passion-aquitaine.ouest-france.fr/reouverture-brunch-sans-pression-bordeaux/",
+    "format": null,
+    "mention": false,
+    "apercu": {
+      "texte": "Le brunch le plus généreux de Bordeaux a rouvert ses portes 📍",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260917-6158b577-fb.jpg",
+      "mode": null,
+      "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/reouverture-brunch-sans-pression-bordeaux/",
+      "sujet": null
+    }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35561",
+    "channel": "threads",
+    "at": "2026-09-18T07:18:51.326Z",
+    "mediaId": "18141798838595514",
+    "titre": "Le brunch le plus généreux de Bordeaux a rouvert ses portes",
+    "lien": "https://passion-aquitaine.ouest-france.fr/reouverture-brunch-sans-pression-bordeaux/",
+    "format": "reponse",
+    "mention": false,
+    "apercu": {
+      "texte": "Fermé pour travaux, le brunch gargantuesque du Sans Pression a rouvert à Bordeaux le 12 septembre, avec un tarif revu 📍",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260917-6158b577-th.jpg",
+      "mode": "reponse",
+      "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/reouverture-brunch-sans-pression-bordeaux/",
+      "sujet": "Bordeaux"
+    }
   }
 ]

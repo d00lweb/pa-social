@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-18T06:20:38.247Z",
+  "genereLe": "2026-09-18T07:00:55.475Z",
   "jour": "2026-09-18",
   "reseaux": {
     "instagram": {
@@ -12,23 +12,23 @@
     "bluesky": {
       "actif": true,
       "maxParJour": 3,
-      "aujourdhui": 0,
-      "total": 4,
-      "dernier": "2026-09-17T15:13:20.878Z"
+      "aujourdhui": 1,
+      "total": 5,
+      "dernier": "2026-09-18T07:05:53.823Z"
     },
     "facebook": {
       "actif": true,
       "maxParJour": 2,
-      "aujourdhui": 0,
-      "total": 0,
-      "dernier": null
+      "aujourdhui": 1,
+      "total": 1,
+      "dernier": "2026-09-18T07:13:27.681Z"
     },
     "threads": {
       "actif": true,
       "maxParJour": 3,
-      "aujourdhui": 0,
-      "total": 0,
-      "dernier": null
+      "aujourdhui": 1,
+      "total": 1,
+      "dernier": "2026-09-18T07:18:51.326Z"
     },
     "x": {
       "actif": true,
@@ -40,10 +40,34 @@
   },
   "articles": [
     {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35561",
+      "titre": "Le brunch le plus généreux de Bordeaux a rouvert ses portes",
+      "lien": "https://passion-aquitaine.ouest-france.fr/reouverture-brunch-sans-pression-bordeaux/",
+      "at": "2026-09-18T07:18:51.326Z",
+      "reseaux": {
+        "facebook": {
+          "texte": "Le brunch le plus généreux de Bordeaux a rouvert ses portes 📍",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260917-6158b577-fb.jpg",
+          "mode": null,
+          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/reouverture-brunch-sans-pression-bordeaux/",
+          "sujet": null,
+          "publieLe": "2026-09-18T07:13:27.681Z"
+        },
+        "threads": {
+          "texte": "Fermé pour travaux, le brunch gargantuesque du Sans Pression a rouvert à Bordeaux le 12 septembre, avec un tarif revu 📍",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260917-6158b577-th.jpg",
+          "mode": "reponse",
+          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/reouverture-brunch-sans-pression-bordeaux/",
+          "sujet": "Bordeaux",
+          "publieLe": "2026-09-18T07:18:51.326Z"
+        }
+      }
+    },
+    {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=34715",
       "titre": "Morimoto Bordeaux dévoile son nouveau menu déjeuner à 33 €",
       "lien": "https://passion-aquitaine.ouest-france.fr/nouveau-menu-morimoto-bordeaux/",
-      "at": "2026-09-18T06:25:35.593Z",
+      "at": "2026-09-18T07:05:53.823Z",
       "reseaux": {
         "instagram": {
           "texte": "Une table japonaise de Bordeaux ouvre sa pause déjeuner à 33 € 🍣\n⠀\nLe restaurant Morimoto, installé au Mondrian Bordeaux Les Carmes, lance une formule du midi servie en 45 minutes. De quoi déjeuner vite dans un cadre signé par un chef japonais.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #Morimoto #Restaurant",
@@ -60,25 +84,28 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-09-18T06:25:35.593Z"
+        },
+        "bluesky": {
+          "texte": "33 € et 45 minutes : c’est le nouveau format du déjeuner chez Morimoto, le restaurant japonais du Mondrian #Bordeaux Les Carmes. Une formule pensée pour les midis pressés, dans l’une des adresses les plus commentées de la ville 🥢\n➡️ Lire l’article",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260918-d98b6f23-bsky.jpg",
+          "mode": "image",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-09-18T07:05:53.823Z"
         }
       }
     }
   ],
   "file": [
     {
-      "channel": "threads",
-      "dueAt": "2026-09-18T06:29:35.908Z",
-      "titre": "Le brunch le plus généreux de Bordeaux a rouvert ses portes"
-    },
-    {
-      "channel": "facebook",
-      "dueAt": "2026-09-18T06:31:50.653Z",
-      "titre": "Le brunch le plus généreux de Bordeaux a rouvert ses portes"
+      "channel": "x",
+      "dueAt": "2026-09-18T07:10:02.716Z",
+      "titre": "Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée du Périgord"
     },
     {
       "channel": "bluesky",
-      "dueAt": "2026-09-18T06:32:10.443Z",
-      "titre": "Morimoto Bordeaux dévoile son nouveau menu déjeuner à 33 €"
+      "dueAt": "2026-09-18T09:26:09.246Z",
+      "titre": "Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée du Périgord"
     },
     {
       "channel": "threads",
@@ -89,6 +116,21 @@
       "channel": "facebook",
       "dueAt": "2026-09-18T09:53:36.755Z",
       "titre": "Morimoto Bordeaux dévoile son nouveau menu déjeuner à 33 €"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-09-18T10:52:21.310Z",
+      "titre": "Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée du Périgord"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-09-18T13:29:29.782Z",
+      "titre": "Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée du Périgord"
+    },
+    {
+      "channel": "threads",
+      "dueAt": "2026-09-18T13:46:57.020Z",
+      "titre": "Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée du Périgord"
     }
   ],
   "alertes": [],

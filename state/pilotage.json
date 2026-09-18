@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-18T10:00:33.534Z",
+  "genereLe": "2026-09-18T10:20:38.198Z",
   "jour": "2026-09-18",
   "reseaux": {
     "instagram": {
@@ -124,26 +124,31 @@
     {
       "channel": "threads",
       "dueAt": "2026-09-18T10:22:50.551Z",
+      "prochainPassage": "2026-09-18T11:00:00.000Z",
       "titre": "Morimoto Bordeaux dévoile son nouveau menu déjeuner à 33 €"
     },
     {
       "channel": "instagram",
       "dueAt": "2026-09-18T10:52:21.310Z",
+      "prochainPassage": "2026-09-18T11:00:00.000Z",
       "titre": "Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée du Périgord"
     },
     {
       "channel": "facebook",
       "dueAt": "2026-09-18T11:12:33.264Z",
+      "prochainPassage": "2026-09-18T11:20:00.000Z",
       "titre": "Morimoto Bordeaux dévoile son nouveau menu déjeuner à 33 €"
     },
     {
       "channel": "facebook",
       "dueAt": "2026-09-18T13:29:29.782Z",
+      "prochainPassage": "2026-09-18T14:00:00.000Z",
       "titre": "Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée du Périgord"
     },
     {
       "channel": "threads",
       "dueAt": "2026-09-18T13:46:57.020Z",
+      "prochainPassage": "2026-09-18T14:00:00.000Z",
       "titre": "Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée du Périgord"
     }
   ],

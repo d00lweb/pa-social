@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-18T14:20:45.097Z",
+  "genereLe": "2026-09-18T14:30:35.269Z",
   "jour": "2026-09-18",
   "reseaux": {
     "instagram": {
@@ -456,6 +456,178 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-09-18T13:20:49.909Z"
+    "derniere": "2026-09-18T14:30:35.269Z"
+  },
+  "abonnes": {
+    "instagram": {
+      "debut": 10146,
+      "fin": 10146,
+      "gain": 0,
+      "pct": 0,
+      "depuis": "2026-09-18",
+      "au": "2026-09-18"
+    },
+    "facebook": {
+      "debut": 42626,
+      "fin": 42626,
+      "gain": 0,
+      "pct": 0,
+      "depuis": "2026-09-18",
+      "au": "2026-09-18"
+    },
+    "bluesky": {
+      "debut": 1,
+      "fin": 1,
+      "gain": 0,
+      "pct": 0,
+      "depuis": "2026-09-18",
+      "au": "2026-09-18"
+    },
+    "threads": {
+      "debut": 1144,
+      "fin": 1144,
+      "gain": 0,
+      "pct": 0,
+      "depuis": "2026-09-18",
+      "au": "2026-09-18"
+    }
+  },
+  "rapportEnCours": {
+    "mois": "2026-09",
+    "genereLe": "2026-09-18T14:30:38.964Z",
+    "posts": 8,
+    "parReseau": {
+      "instagram": {
+        "posts": 5,
+        "moyenne": 11
+      },
+      "bluesky": {
+        "posts": 3,
+        "moyenne": 0.3
+      }
+    },
+    "parFormat": {},
+    "parCreneau": {
+      "matin": {
+        "posts": 6,
+        "moyenne": 8.5
+      },
+      "soir": {
+        "posts": 2,
+        "moyenne": 2.5
+      }
+    },
+    "parCreneauReseau": {
+      "instagram": {
+        "hors créneau": {
+          "posts": 5,
+          "moyenne": 11
+        }
+      },
+      "bluesky": {
+        "8 h – 9 h 30": {
+          "posts": 1,
+          "moyenne": 1
+        },
+        "hors créneau": {
+          "posts": 2,
+          "moyenne": 0
+        }
+      }
+    },
+    "interactionsTotal": 56,
+    "meilleur": {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35494",
+      "channel": "instagram",
+      "mediaId": "18074225591450394",
+      "publieLe": "2026-09-17T07:53:48.379Z",
+      "jalon": 1,
+      "releveLe": "2026-09-18T08:00:40.328Z",
+      "likes": 17,
+      "commentaires": 20,
+      "partages": null,
+      "vues": null,
+      "titre": null,
+      "lien": null,
+      "format": null,
+      "mention": false,
+      "creneau": "matin",
+      "creneauReseau": "hors créneau"
+    },
+    "moinsBon": {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35494",
+      "channel": "bluesky",
+      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mvp6tmjsh52c",
+      "publieLe": "2026-09-17T08:02:06.919Z",
+      "jalon": 1,
+      "releveLe": "2026-09-18T08:20:42.512Z",
+      "likes": 0,
+      "commentaires": 0,
+      "partages": 0,
+      "vues": null,
+      "titre": null,
+      "lien": null,
+      "format": null,
+      "mention": false,
+      "creneau": "matin",
+      "creneauReseau": "hors créneau"
+    },
+    "mentions": {
+      "avec": {
+        "posts": 0,
+        "moyenne": 0
+      },
+      "sans": {
+        "posts": 8,
+        "moyenne": 7
+      }
+    },
+    "publies": {
+      "instagram": 8,
+      "bluesky": 6,
+      "x": 6,
+      "facebook": 2,
+      "threads": 2
+    },
+    "abonnes": {
+      "instagram": {
+        "debut": 10146,
+        "fin": 10146,
+        "gain": 0,
+        "pct": 0,
+        "depuis": "2026-09-18",
+        "au": "2026-09-18"
+      },
+      "facebook": {
+        "debut": 42626,
+        "fin": 42626,
+        "gain": 0,
+        "pct": 0,
+        "depuis": "2026-09-18",
+        "au": "2026-09-18"
+      },
+      "bluesky": {
+        "debut": 1,
+        "fin": 1,
+        "gain": 0,
+        "pct": 0,
+        "depuis": "2026-09-18",
+        "au": "2026-09-18"
+      },
+      "threads": {
+        "debut": 1144,
+        "fin": 1144,
+        "gain": 0,
+        "pct": 0,
+        "depuis": "2026-09-18",
+        "au": "2026-09-18"
+      }
+    },
+    "engagement": {
+      "instagram": 0.11
+    },
+    "conseils": [
+      "Trop peu de recul pour conseiller quoi que ce soit : il faut une dizaine de posts mesurés."
+    ]
   }
 }

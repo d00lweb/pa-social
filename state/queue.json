@@ -245,41 +245,60 @@
       "nature": "actu",
       "sensible": false,
       "rubrique": "Périgord",
-      "entites": [],
-      "lieu": null,
       "visuel": {
-        "titre": "Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée du Périgord",
+        "titre": "Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée",
         "surlignage": "80 km",
-        "description": "La première édition de la Périgordine Ultra Trail a lieu le 27 septembre. Cette course permet de découvrir une histoire méconnue du Périgord.",
-        "texte_alternatif": "Périgord : Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée du Périgord"
+        "description": "La première édition de la Périgordine Ultra Trail se court le 27 septembre. Un parcours qui relie grotte, rivière et châteaux, et fait découvrir une histoire méconnue de la région.",
+        "texte_alternatif": "Visuel Passion Aquitaine, rubrique Périgord : la Périgordine Ultra Trail, course de 80 km à travers grotte, rivière et châteaux du Périgord."
       },
+      "entites": [
+        {
+          "nom": "Périgordine Ultra Trail",
+          "role": "sujet"
+        }
+      ],
+      "lieu": null,
       "instagram": {
-        "texte": "La première édition de la Périgordine Ultra Trail a lieu le 27 septembre. Cette course permet de découvrir une histoire méconnue du Périgord 🏛️",
+        "texte": "80 km de sentiers entre une grotte, une rivière et des châteaux du Périgord\nLa Périgordine Ultra Trail lance sa première édition 🗓️ le 27 septembre, avec un parcours qui raconte une histoire méconnue de la Dordogne.",
         "hashtags": [
           "#Perigord",
-          "#Patrimoine",
-          "#NouvelleAquitaine"
+          "#UltraTrail",
+          "#Dordogne"
         ]
       },
       "facebook": {
-        "texte": "Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée du Périgord 🏛️"
+        "texte": "En Périgord, un trail de 80 km relie grotte, rivière et châteaux le 27 septembre 🏃",
+        "commentLead": "📰 À lire ici :"
       },
       "bluesky": {
-        "texte": "La première édition de la Périgordine Ultra Trail a lieu le 27 septembre. Cette course permet de découvrir une histoire méconnue du Périgord 🏛️",
+        "texte": "🥾 On n’imagine pas un trail comme une leçon d’histoire. La Périgordine Ultra Trail, elle, fait passer ses coureurs devant une grotte, une rivière et des châteaux sur 80 km. Première édition le 27 septembre en Périgord.",
         "hashtag": "#Perigord"
       },
       "threads": {
-        "texte": "La première édition de la Périgordine Ultra Trail a lieu le 27 septembre. Cette course permet de découvrir une histoire méconnue du Périgord 🏛️",
+        "texte": "Courir et découvrir en même temps, c’est la promesse de cette nouvelle épreuve 🗺️ La Périgordine Ultra Trail propose 80 km à travers une grotte, une rivière et des châteaux, pour sa première édition le 27 septembre. De quoi voir le Périgord autrement, et croiser une histoire que les guides touristiques racontent rarement.",
         "sujet": "Périgord"
       },
       "x": {
-        "texte": "Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée du Périgord 🏛️"
+        "texte": "Une course de 80 km qui sert aussi de parcours patrimonial 🏰 La Périgordine Ultra Trail passe par une grotte, une rivière et des châteaux du Périgord. Première édition le 27 septembre."
       },
-      "source": "regles",
+      "source": "ia",
+      "model": "claude-opus-5",
+      "usage": {
+        "input": 9398,
+        "output": 843
+      },
+      "angles": {
+        "instagram": "chiffre ou fait marquant en tête",
+        "facebook": "lieu en tête",
+        "bluesky": "effet de surprise",
+        "threads": "bénéfice pour le lecteur",
+        "x": "détail méconnu"
+      },
+      "cached": true,
       "lieuSource": {
         "precis": "",
         "ville": "",
-        "departement": "Périgord"
+        "departement": "Dordogne"
       },
       "comptes": {
         "instagram": [],
@@ -315,41 +334,60 @@
       "nature": "actu",
       "sensible": false,
       "rubrique": "Périgord",
-      "entites": [],
-      "lieu": null,
       "visuel": {
-        "titre": "Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée du Périgord",
+        "titre": "Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée",
         "surlignage": "80 km",
-        "description": "La première édition de la Périgordine Ultra Trail a lieu le 27 septembre. Cette course permet de découvrir une histoire méconnue du Périgord.",
-        "texte_alternatif": "Périgord : Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée du Périgord"
+        "description": "La première édition de la Périgordine Ultra Trail se court le 27 septembre. Un parcours qui relie grotte, rivière et châteaux, et fait découvrir une histoire méconnue de la région.",
+        "texte_alternatif": "Visuel Passion Aquitaine, rubrique Périgord : la Périgordine Ultra Trail, course de 80 km à travers grotte, rivière et châteaux du Périgord."
       },
+      "entites": [
+        {
+          "nom": "Périgordine Ultra Trail",
+          "role": "sujet"
+        }
+      ],
+      "lieu": null,
       "instagram": {
-        "texte": "La première édition de la Périgordine Ultra Trail a lieu le 27 septembre. Cette course permet de découvrir une histoire méconnue du Périgord 🏛️",
+        "texte": "80 km de sentiers entre une grotte, une rivière et des châteaux du Périgord\nLa Périgordine Ultra Trail lance sa première édition 🗓️ le 27 septembre, avec un parcours qui raconte une histoire méconnue de la Dordogne.",
         "hashtags": [
           "#Perigord",
-          "#Patrimoine",
-          "#NouvelleAquitaine"
+          "#UltraTrail",
+          "#Dordogne"
         ]
       },
       "facebook": {
-        "texte": "Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée du Périgord 🏛️"
+        "texte": "En Périgord, un trail de 80 km relie grotte, rivière et châteaux le 27 septembre 🏃",
+        "commentLead": "📰 À lire ici :"
       },
       "bluesky": {
-        "texte": "La première édition de la Périgordine Ultra Trail a lieu le 27 septembre. Cette course permet de découvrir une histoire méconnue du Périgord 🏛️",
+        "texte": "🥾 On n’imagine pas un trail comme une leçon d’histoire. La Périgordine Ultra Trail, elle, fait passer ses coureurs devant une grotte, une rivière et des châteaux sur 80 km. Première édition le 27 septembre en Périgord.",
         "hashtag": "#Perigord"
       },
       "threads": {
-        "texte": "La première édition de la Périgordine Ultra Trail a lieu le 27 septembre. Cette course permet de découvrir une histoire méconnue du Périgord 🏛️",
+        "texte": "Courir et découvrir en même temps, c’est la promesse de cette nouvelle épreuve 🗺️ La Périgordine Ultra Trail propose 80 km à travers une grotte, une rivière et des châteaux, pour sa première édition le 27 septembre. De quoi voir le Périgord autrement, et croiser une histoire que les guides touristiques racontent rarement.",
         "sujet": "Périgord"
       },
       "x": {
-        "texte": "Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée du Périgord 🏛️"
+        "texte": "Une course de 80 km qui sert aussi de parcours patrimonial 🏰 La Périgordine Ultra Trail passe par une grotte, une rivière et des châteaux du Périgord. Première édition le 27 septembre."
       },
-      "source": "regles",
+      "source": "ia",
+      "model": "claude-opus-5",
+      "usage": {
+        "input": 9398,
+        "output": 843
+      },
+      "angles": {
+        "instagram": "chiffre ou fait marquant en tête",
+        "facebook": "lieu en tête",
+        "bluesky": "effet de surprise",
+        "threads": "bénéfice pour le lecteur",
+        "x": "détail méconnu"
+      },
+      "cached": true,
       "lieuSource": {
         "precis": "",
         "ville": "",
-        "departement": "Périgord"
+        "departement": "Dordogne"
       },
       "comptes": {
         "instagram": [],
@@ -385,41 +423,60 @@
       "nature": "actu",
       "sensible": false,
       "rubrique": "Périgord",
-      "entites": [],
-      "lieu": null,
       "visuel": {
-        "titre": "Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée du Périgord",
+        "titre": "Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée",
         "surlignage": "80 km",
-        "description": "La première édition de la Périgordine Ultra Trail a lieu le 27 septembre. Cette course permet de découvrir une histoire méconnue du Périgord.",
-        "texte_alternatif": "Périgord : Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée du Périgord"
+        "description": "La première édition de la Périgordine Ultra Trail se court le 27 septembre. Un parcours qui relie grotte, rivière et châteaux, et fait découvrir une histoire méconnue de la région.",
+        "texte_alternatif": "Visuel Passion Aquitaine, rubrique Périgord : la Périgordine Ultra Trail, course de 80 km à travers grotte, rivière et châteaux du Périgord."
       },
+      "entites": [
+        {
+          "nom": "Périgordine Ultra Trail",
+          "role": "sujet"
+        }
+      ],
+      "lieu": null,
       "instagram": {
-        "texte": "La première édition de la Périgordine Ultra Trail a lieu le 27 septembre. Cette course permet de découvrir une histoire méconnue du Périgord 🏛️",
+        "texte": "80 km de sentiers entre une grotte, une rivière et des châteaux du Périgord\nLa Périgordine Ultra Trail lance sa première édition 🗓️ le 27 septembre, avec un parcours qui raconte une histoire méconnue de la Dordogne.",
         "hashtags": [
           "#Perigord",
-          "#Patrimoine",
-          "#NouvelleAquitaine"
+          "#UltraTrail",
+          "#Dordogne"
         ]
       },
       "facebook": {
-        "texte": "Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée du Périgord 🏛️"
+        "texte": "En Périgord, un trail de 80 km relie grotte, rivière et châteaux le 27 septembre 🏃",
+        "commentLead": "📰 À lire ici :"
       },
       "bluesky": {
-        "texte": "La première édition de la Périgordine Ultra Trail a lieu le 27 septembre. Cette course permet de découvrir une histoire méconnue du Périgord 🏛️",
+        "texte": "🥾 On n’imagine pas un trail comme une leçon d’histoire. La Périgordine Ultra Trail, elle, fait passer ses coureurs devant une grotte, une rivière et des châteaux sur 80 km. Première édition le 27 septembre en Périgord.",
         "hashtag": "#Perigord"
       },
       "threads": {
-        "texte": "La première édition de la Périgordine Ultra Trail a lieu le 27 septembre. Cette course permet de découvrir une histoire méconnue du Périgord 🏛️",
+        "texte": "Courir et découvrir en même temps, c’est la promesse de cette nouvelle épreuve 🗺️ La Périgordine Ultra Trail propose 80 km à travers une grotte, une rivière et des châteaux, pour sa première édition le 27 septembre. De quoi voir le Périgord autrement, et croiser une histoire que les guides touristiques racontent rarement.",
         "sujet": "Périgord"
       },
       "x": {
-        "texte": "Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée du Périgord 🏛️"
+        "texte": "Une course de 80 km qui sert aussi de parcours patrimonial 🏰 La Périgordine Ultra Trail passe par une grotte, une rivière et des châteaux du Périgord. Première édition le 27 septembre."
       },
-      "source": "regles",
+      "source": "ia",
+      "model": "claude-opus-5",
+      "usage": {
+        "input": 9398,
+        "output": 843
+      },
+      "angles": {
+        "instagram": "chiffre ou fait marquant en tête",
+        "facebook": "lieu en tête",
+        "bluesky": "effet de surprise",
+        "threads": "bénéfice pour le lecteur",
+        "x": "détail méconnu"
+      },
+      "cached": true,
       "lieuSource": {
         "precis": "",
         "ville": "",
-        "departement": "Périgord"
+        "departement": "Dordogne"
       },
       "comptes": {
         "instagram": [],
@@ -455,41 +512,60 @@
       "nature": "actu",
       "sensible": false,
       "rubrique": "Périgord",
-      "entites": [],
-      "lieu": null,
       "visuel": {
-        "titre": "Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée du Périgord",
+        "titre": "Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée",
         "surlignage": "80 km",
-        "description": "La première édition de la Périgordine Ultra Trail a lieu le 27 septembre. Cette course permet de découvrir une histoire méconnue du Périgord.",
-        "texte_alternatif": "Périgord : Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée du Périgord"
+        "description": "La première édition de la Périgordine Ultra Trail se court le 27 septembre. Un parcours qui relie grotte, rivière et châteaux, et fait découvrir une histoire méconnue de la région.",
+        "texte_alternatif": "Visuel Passion Aquitaine, rubrique Périgord : la Périgordine Ultra Trail, course de 80 km à travers grotte, rivière et châteaux du Périgord."
       },
+      "entites": [
+        {
+          "nom": "Périgordine Ultra Trail",
+          "role": "sujet"
+        }
+      ],
+      "lieu": null,
       "instagram": {
-        "texte": "La première édition de la Périgordine Ultra Trail a lieu le 27 septembre. Cette course permet de découvrir une histoire méconnue du Périgord 🏛️",
+        "texte": "80 km de sentiers entre une grotte, une rivière et des châteaux du Périgord\nLa Périgordine Ultra Trail lance sa première édition 🗓️ le 27 septembre, avec un parcours qui raconte une histoire méconnue de la Dordogne.",
         "hashtags": [
           "#Perigord",
-          "#Patrimoine",
-          "#NouvelleAquitaine"
+          "#UltraTrail",
+          "#Dordogne"
         ]
       },
       "facebook": {
-        "texte": "Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée du Périgord 🏛️"
+        "texte": "En Périgord, un trail de 80 km relie grotte, rivière et châteaux le 27 septembre 🏃",
+        "commentLead": "📰 À lire ici :"
       },
       "bluesky": {
-        "texte": "La première édition de la Périgordine Ultra Trail a lieu le 27 septembre. Cette course permet de découvrir une histoire méconnue du Périgord 🏛️",
+        "texte": "🥾 On n’imagine pas un trail comme une leçon d’histoire. La Périgordine Ultra Trail, elle, fait passer ses coureurs devant une grotte, une rivière et des châteaux sur 80 km. Première édition le 27 septembre en Périgord.",
         "hashtag": "#Perigord"
       },
       "threads": {
-        "texte": "La première édition de la Périgordine Ultra Trail a lieu le 27 septembre. Cette course permet de découvrir une histoire méconnue du Périgord 🏛️",
+        "texte": "Courir et découvrir en même temps, c’est la promesse de cette nouvelle épreuve 🗺️ La Périgordine Ultra Trail propose 80 km à travers une grotte, une rivière et des châteaux, pour sa première édition le 27 septembre. De quoi voir le Périgord autrement, et croiser une histoire que les guides touristiques racontent rarement.",
         "sujet": "Périgord"
       },
       "x": {
-        "texte": "Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée du Périgord 🏛️"
+        "texte": "Une course de 80 km qui sert aussi de parcours patrimonial 🏰 La Périgordine Ultra Trail passe par une grotte, une rivière et des châteaux du Périgord. Première édition le 27 septembre."
       },
-      "source": "regles",
+      "source": "ia",
+      "model": "claude-opus-5",
+      "usage": {
+        "input": 9398,
+        "output": 843
+      },
+      "angles": {
+        "instagram": "chiffre ou fait marquant en tête",
+        "facebook": "lieu en tête",
+        "bluesky": "effet de surprise",
+        "threads": "bénéfice pour le lecteur",
+        "x": "détail méconnu"
+      },
+      "cached": true,
       "lieuSource": {
         "precis": "",
         "ville": "",
-        "departement": "Périgord"
+        "departement": "Dordogne"
       },
       "comptes": {
         "instagram": [],

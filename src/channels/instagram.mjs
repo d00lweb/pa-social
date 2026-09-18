@@ -142,6 +142,8 @@ export async function publish(pkg, { channel }) {
   const carousel = await creerCarrousel(graph, children, pkg.caption, lieu?.id);
   await graph.waitFinished(carousel);
   const mediaId = await graph.publish(carousel);
+  // permalien pour l'avis Telegram : un échec ici ne doit rien casser, le post est déjà en ligne
+  const lien = await graph.permalink(mediaId).catch(() => null);
 
   // story : envoi manuel, non bloquant
   try {
@@ -156,5 +158,5 @@ export async function publish(pkg, { channel }) {
   } catch (e) {
     console.error(`   Story non envoyée : ${e.message}\n   ${storyUrl}`);
   }
-  return { mediaId };
+  return { mediaId, lien };
 }

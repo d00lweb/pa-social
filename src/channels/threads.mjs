@@ -116,6 +116,14 @@ function client(token) {
   };
 }
 
+// Permalien du post, demandé en lecture : client() ne fait que des POST.
+async function lienDuPost(postId, token) {
+  const params = new URLSearchParams({ fields: 'permalink', access_token: token });
+  const res = await fetch(`${API}/${postId}?${params}`, { signal: AbortSignal.timeout(15000) });
+  const json = await res.json().catch(() => ({}));
+  return json.permalink ?? null;
+}
+
 export async function publish(pkg, { channel } = {}) {
   const token = process.env.THREADS_TOKEN;
   const userId = process.env.THREADS_USER_ID;
@@ -132,6 +140,8 @@ export async function publish(pkg, { channel } = {}) {
   const { id: conteneur } = await appel(`${userId}/threads`, params);
   await sleep(ATTENTE_CONTENEUR);
   const { id: postId } = await appel(`${userId}/threads_publish`, { creation_id: conteneur });
+  // permalien pour l'avis Telegram : un échec ici ne doit rien casser, le post est déjà en ligne
+  const lien = await lienDuPost(postId, token).catch(() => null);
 
   // Le lien part en réponse à notre propre post. Un échec ici ne doit jamais faire
   // réessayer la publication, qui est déjà en ligne.
@@ -147,5 +157,5 @@ export async function publish(pkg, { channel } = {}) {
       await alert(`⚠️ Threads : post publié mais réponse (lien) non postée\n${pkg.article.title}\n${pkg.replyText}`).catch(() => {});
     }
   }
-  return { mediaId: postId };
+  return { mediaId: postId, lien };
 }

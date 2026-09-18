@@ -29,6 +29,15 @@ function client({ pageId, token, version }) {
   };
 }
 
+// Le permalien ne se devine pas : dans le lien rendu par Meta, l'identifiant de page diffère
+// de FB_PAGE_ID. Une URL reconstruite à la main serait fausse, il faut la demander.
+async function lienDuPost(postId, { token, version }) {
+  const params = new URLSearchParams({ fields: 'permalink_url', access_token: token });
+  const res = await fetch(`https://graph.facebook.com/${version || 'v23.0'}/${postId}?${params}`, { signal: AbortSignal.timeout(15000) });
+  const json = await res.json().catch(() => ({}));
+  return json.permalink_url ?? null;
+}
+
 export async function prepare(article, { dossier, renderer: shared, log = console.log } = {}) {
   if (!article.image) throw new GuardError(article, ['aucune image (enclosure) dans le flux']);
   const texte = dossier.facebook?.texte?.trim();
@@ -95,6 +104,7 @@ export async function publish(pkg, { channel } = {}) {
     reponse = await call(`${pageId}/photos`, params);
   }
   const postId = reponse.post_id ?? reponse.id;
+  const lien = await lienDuPost(postId, { token: process.env.FB_TOKEN, version: process.env.GRAPH_VERSION }).catch(() => null);
 
   // Le lien part en commentaire, 1 à 3 minutes plus tard : jamais dans le même souffle que le post.
   // Un échec ici ne doit surtout pas faire réessayer la publication, qui est déjà en ligne.
@@ -106,5 +116,5 @@ export async function publish(pkg, { channel } = {}) {
     console.error(`   Commentaire non publié : ${err.message}`);
     await alert(`⚠️ Facebook : post publié mais commentaire (lien) non posté\n${pkg.article.title}\n${pkg.comment}`).catch(() => {});
   }
-  return { mediaId: postId };
+  return { mediaId: postId, lien };
 }

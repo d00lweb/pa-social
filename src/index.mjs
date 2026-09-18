@@ -310,7 +310,7 @@ async function execute({ history, queue, memory, controls, now }) {
         console.log(`Attente aléatoire avant publication : ${Math.round(wait / 1000)} s (budget restant ${Math.round(budgetAttente / 1000)} s)`);
         await new Promise((r) => setTimeout(r, wait));
       }
-      const { mediaId } = await impl.publish(pkg, { channel });
+      const { mediaId, lien: lienPost = null } = await impl.publish(pkg, { channel });
       // format tiré, mentions, et aperçu réel : c'est ce qui rend la mesure comparable
       // d'un post à l'autre et ce que la page de pilotage affiche.
       history.push({
@@ -320,6 +320,7 @@ async function execute({ history, queue, memory, controls, now }) {
         mediaId,
         titre: item.article.title,
         lien: item.article.link,
+        lienPost,
         format: pkg.mode ?? null,
         mention: (item.dossier.comptes?.[channel.id] ?? []).length > 0,
         apercu: await capturerApercu(pkg, channel.id).catch(() => null),
@@ -328,7 +329,13 @@ async function execute({ history, queue, memory, controls, now }) {
       await Promise.all([saveHistory(history), saveQueue(queue)]);
       console.log(`Publié ${channel.id} : ${mediaId}`);
       if (impl.publishedLabel) console.log(`Kit ${channel.id} envoyé`);
-      else if (config.telegram?.publishedNotice) await say(`📣 <b>Publié sur ${NAMES[channel.id]}</b>\n${esc(item.article.title)}`);
+      else if (config.telegram?.publishedNotice) {
+        // le lien part dans un bouton : une URL noyée dans un texte ne se clique pas d'un geste
+        const bouton = lienPost
+          ? { reply_markup: JSON.stringify({ inline_keyboard: [[{ text: `👁️ Voir sur ${NAMES[channel.id]}`, url: lienPost }]] }) }
+          : undefined;
+        await say(`📣 <b>Publié sur ${NAMES[channel.id]}</b>\n${esc(item.article.title)}`, bouton);
+      }
     } catch (err) {
       if (err instanceof DeferError) {
         item.dueAt = now + HOUR;

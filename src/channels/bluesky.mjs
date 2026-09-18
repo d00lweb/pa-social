@@ -166,5 +166,12 @@ export async function publish(pkg) {
     };
     await xrpc('com.atproto.repo.createRecord', { token, body: { repo: did, collection: 'app.bsky.feed.post', record: reply } });
   }
-  return { mediaId: uri };
+  return { mediaId: uri, lien: lienPublic(uri) };
+}
+
+// at://did:plc:…/app.bsky.feed.post/3mvrm5zanwc2i → https://bsky.app/profile/<compte>/post/3mvrm5zanwc2i
+// Aucun appel réseau : l'identifiant du post contient déjà tout ce qu'il faut.
+export function lienPublic(uri, compte = process.env.BLUESKY_HANDLE) {
+  const rkey = String(uri ?? '').split('/').pop();
+  return rkey && compte ? `https://bsky.app/profile/${compte}/post/${rkey}` : null;
 }

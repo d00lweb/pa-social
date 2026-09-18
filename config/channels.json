@@ -3,7 +3,7 @@
   "maxAgeHours": 24,
   "queueRetentionDays": 7,
   "retry": { "maxAttempts": 3, "delayMinutes": 30 },
-  "telegram": { "previews": false, "publishedNotice": false },
+  "telegram": { "previews": false, "publishedNotice": true },
   "restriction": { "codes": [4, 17, 32, 368, 613], "subcodes": [2207051, 2207042] },
   "channels": {
     "instagram": {

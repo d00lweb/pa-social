@@ -76,5 +76,11 @@ export function createGraph({ userId, token, version }) {
       const { id } = await call('POST', `${userId}/media_publish`, { creation_id: creationId });
       return id;
     },
+
+    // Permalien public du post : c'est lui qui rend l'avis Telegram cliquable d'un geste
+    async permalink(mediaId) {
+      const { permalink } = await call('GET', mediaId, { fields: 'permalink' });
+      return permalink ?? null;
+    },
   };
 }

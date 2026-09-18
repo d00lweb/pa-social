@@ -194,7 +194,8 @@ async function enrichir(dossier, article = null) {
   dossier.lieuSource ??= dossier.lieu ?? null;
   // l'image de l'article sert à faire confirmer par Meta l'existence d'un compte trouvé
   dossier.comptes = await resoudreComptes(dossier.entites ?? [], { image: article?.image ?? null, log: console.log });
-  dossier.lieu = await resoudreLieu(dossier.lieuSource ?? {});
+  // la rubrique porte la zone identitaire (« Périgord ») quand le champ département porte le nom administratif
+  dossier.lieu = await resoudreLieu({ ...(dossier.lieuSource ?? {}), zone: dossier.rubrique ?? '' });
   return dossier;
 }
 

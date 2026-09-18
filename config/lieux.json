@@ -1,27 +1,32 @@
 {
-  "_lecture": "Identifiants de lieu Facebook, seule forme acceptée par Meta : 13 chiffres et plus. Les identifiants courts (9-10 chiffres), hérités de l'ancien Instagram, sont systématiquement refusés. Les villes sont retrouvées automatiquement par Wikidata ; ce fichier complète ce qu'elle ne connaît pas, surtout les départements.",
-  "_zones": "Nos rubriques emploient des noms d'identité (Périgord, Pays basque…) que Meta ne connaît pas comme lieux. Cette table les traduit en département, ce qui permet de retrouver un identifiant valable.",
-  "zones": {
-    "Périgord": "Dordogne",
-    "Pays basque": "Pyrénées-Atlantiques",
-    "Béarn": "Pyrénées-Atlantiques",
-    "Médoc": "Gironde",
-    "Bassin d'Arcachon": "Gironde",
-    "Entre-deux-Mers": "Gironde",
-    "Landes de Gascogne": "Landes",
-    "Île de Ré": "Charente-Maritime",
-    "Île d'Oléron": "Charente-Maritime",
-    "Saintonge": "Charente-Maritime",
-    "Aunis": "Charente-Maritime",
-    "Limousin": "Haute-Vienne",
-    "Marais poitevin": "Deux-Sèvres",
-    "Poitou": "Vienne"
+  "_lecture": "Identifiants de lieu Facebook, seule forme acceptée par Meta : 13 chiffres et plus. Les identifiants courts (9-10 chiffres), hérités de l'ancien Instagram, sont systématiquement refusés. Wikidata (propriété P1997) ne connaît un identifiant que pour une poignée de communes notables : sur 65 communes et départements testés, 12 en ont un. Ce fichier les fige et complète le reste.",
+  "_ajouter": "Pour ajouter un lieu : ouvrir la publication Instagram d'un compte local qui a tagué ce lieu, cliquer sur le nom du lieu, et copier le nombre présent dans l'URL instagram.com/explore/locations/<nombre>/. S'il fait 13 chiffres ou plus, le coller ici. Aucune autre vérification n'est nécessaire : un identifiant refusé par Meta est abandonné en cours de publication sans faire échouer le post.",
+  "_zones": "Les zones identitaires (Périgord, Pays basque…) ne sont pas des lieux pour Meta. La correspondance zone → département vient de config/geo.json, seule source. Ce fichier n'ajoute que la ville qui est réellement le cœur d'une zone, employée en dernier repli.",
+  "villesDeZone": {
+    "Périgord": "Périgueux",
+    "Pays basque": "Bayonne",
+    "Béarn": "Pau",
+    "Bassin d’Arcachon": "Arcachon",
+    "Saintonge": "Saintes",
+    "Agenais": "Agen",
+    "Île de Ré": "Saint-Martin-de-Ré",
+    "Oléron": "Saint-Pierre-d'Oléron",
+    "Marais poitevin": "Coulon"
   },
   "departements": {
     "Haute-Vienne": "228169691058500",
     "Deux-Sèvres": "104023509634749"
   },
   "communes": {
-    "Saintes": "120745988556024"
+    "Bordeaux": "115838035093755",
+    "Arcachon": "109549805730498",
+    "Périgueux": "114515511898211",
+    "Bayonne": "106251232746712",
+    "Biarritz": "108150429217683",
+    "La Rochelle": "109370652426488",
+    "Saintes": "120745988556024",
+    "Cognac": "111829332169017",
+    "Poitiers": "106278366077101",
+    "Limoges": "111518152200515"
   }
 }

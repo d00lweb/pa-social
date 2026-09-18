@@ -107,12 +107,12 @@ Règles de conception :
 
 **Entrées :** titre, description, catégories et date du flux ; zone géographique détectée par le lexique ; angle d'accroche imposé par réseau ; 10 dernières accroches par réseau, en version compacte (anti-répétition).
 
-**Diversité garantie par le code, pas seulement par l'IA :** pour chaque article, le programme attribue à chaque réseau un angle différent, tiré en rotation (question, chiffre ou fait marquant, lieu en tête, surprise, bénéfice pour le lecteur, citation, « le saviez-vous »). L'IA doit s'y conformer.
+**Diversité garantie par le code, pas seulement par l'IA :** pour chaque article, le programme attribue à chaque réseau un angle différent, tiré en rotation (question intrigante, chiffre ou fait marquant en tête, lieu en tête, effet de surprise, bénéfice pour le lecteur, détail méconnu, image évocatrice). L'IA doit s'y conformer. La formule « Le saviez-vous » est bannie : elle figure dans les motifs d'appât qui font refuser un texte.
 
 **Sortie (schéma) :**
 - `nature` : `actu_chaude` · `actu` · `evergreen` ; `sensible` (décès, accident, justice, drame) ; `ton` : `sobre` · `standard` · `léger`
 - `lieu` : rubrique affichée (terme identitaire), zone, hashtag de lieu
-- `visuel` : titre adapté (≤ 70 caractères, sens intact), groupe surligné (sous-chaîne exacte), texte alternatif
+- `visuel` : titre adapté (≤ 90 caractères, sens intact), groupe surligné (sous-chaîne exacte, ≤ 24 caractères), description de la 2ᵉ image (≤ 220 caractères), texte alternatif
 - `instagram` : accroche (première ligne ≤ 125 caractères, avant le « plus »), 3 hashtags
 - `facebook`, `bluesky`, `threads`, `x` : texte propre à chaque réseau
 - `threads.format` suggéré ; `slug` du lien court (≤ 14 caractères)

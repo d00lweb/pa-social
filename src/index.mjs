@@ -2,7 +2,7 @@ import { readFileSync } from 'node:fs';
 import { config, DRY_RUN, DRY_RUN_LATEST, enabledChannels, fromRoot } from './core/config.mjs';
 import { GuardError, DeferError } from './core/errors.mjs';
 import { loadHistory, saveHistory, loadQueue, saveQueue, loadJson, saveJson, hasPublished, lastPublishedAt } from './core/state.mjs';
-import { planDueAt, recheck, tirerDepart, countToday, nextDay } from './core/scheduler.mjs';
+import { planDueAt, recheck, countToday, nextDay, passageDe, ordonnerFile } from './core/scheduler.mjs';
 import { NETWORKS, NAMES, shortId, parseCommand, defaultControls, isPaused, needsValidation, targets, applyDecision } from './core/control.mjs';
 import { fetchItems, matchArticle } from './sources/rss.mjs';
 import { buildDossier } from './brain/dossier.mjs';
@@ -219,7 +219,7 @@ async function plan(items, { history, queue, memory, controls, now, forcedGuid }
       const lastPlannedAt = Math.max(0, ...queue.filter((q) => q.channel === channel.id && OPEN.includes(q.status)).map((q) => q.dueAt));
       const dueAt = article.guid === forcedGuid ? now : planDueAt({ now, lastAt: lastPublishedAt(history, channel.id), lastPlannedAt, channel, timeZone: TZ, nature: dossier.nature });
       const status = telegramEnabled() && needsValidation(controls, channel) ? 'awaiting' : 'pending';
-      queue.push({ guid: article.guid, channel: channel.id, dueAt, status, attempts: 0, article, dossier, previewSent: false });
+      queue.push({ guid: article.guid, channel: channel.id, dueAt, status, attempts: 0, article, dossier, previewSent: false, nouveau: true });
       console.log(`Planifié ${channel.id} (${status}) : ${article.title} → ${paris(dueAt)} [${dossier.source}]`);
     }
   }
@@ -273,18 +273,23 @@ function prune(queue, now) {
   }
 }
 
-// Au plus une publication due par canal actif et non en pause
+// La file toujours vraie : revalidée en entier à chaque passage, minute exacte fixée à l'avance
+function ordonner({ queue, history, controls }) {
+  const canaux = Object.fromEntries(enabledChannels().filter((c) => !isPaused(controls, c.id)).map((c) => [c.id, c]));
+  const changements = ordonnerFile({ items: queue.filter((q) => q.status === 'pending'), historique: history, canaux, now: Date.now(), timeZone: TZ });
+  for (const c of changements) console.log(`Heure recalculée ${c.channel} (${c.raison}) : « ${c.titre} » ${paris(c.avant)} → ${paris(c.apres)}`);
+}
+
+// Posts de ce passage : au plus un par réseau actif et non en pause, publiés dans l'ordre de leur
+// minute de départ, fixée à l'avance par ordonnerFile. Le robot attend cette minute, puis publie.
 async function execute({ history, queue, memory, controls, now }) {
   let failed = 0;
-  // Départs étalés dans le passage (voir tirerDepart) : chaque réseau part à sa propre minute, tirée
-  // au hasard, jamais à la même que le précédent. Le temps déjà passé à publier compte dans l'attente,
-  // si bien qu'un passage reste de durée bornée, contrairement aux attentes cumulées d'autrefois.
-  const debutPassage = Date.now();
-  let dernierDepart = null;
-  for (const channel of enabledChannels()) {
-    if (isPaused(controls, channel.id)) continue;
-    const item = queue.filter((q) => q.channel === channel.id && q.status === 'pending' && q.dueAt <= now).sort((a, b) => a.dueAt - b.dueAt)[0];
-    if (!item) continue;
+  const aPublier = enabledChannels()
+    .filter((channel) => !isPaused(controls, channel.id))
+    .map((channel) => ({ channel, item: queue.filter((q) => q.channel === channel.id && q.status === 'pending' && passageDe(q.dueAt) <= now).sort((a, b) => a.dueAt - b.dueAt)[0] }))
+    .filter(({ item }) => item)
+    .sort((a, b) => a.item.dueAt - b.item.dueAt);
+  for (const { channel, item } of aPublier) {
 
     if (hasPublished(history, item.guid, channel.id)) {
       queue.splice(queue.indexOf(item), 1);
@@ -292,14 +297,15 @@ async function execute({ history, queue, memory, controls, now }) {
     }
     // Plafond du jour atteint : l'article reste en réserve et passe au premier créneau de demain.
     // Rien n'est perdu — la file s'écoule d'elle-même sur les jours suivants.
-    const dejaAujourdhui = countToday(history, channel.id, now, TZ);
+    // filets de sécurité : la file est déjà en ordre (ordonnerFile), ces cas ne devraient plus survenir
+    const dejaAujourdhui = countToday(history, channel.id, Date.now(), TZ);
     if (channel.maxPerDay && dejaAujourdhui >= channel.maxPerDay) {
-      item.dueAt = planDueAt({ now: nextDay(now, channel.quietHours, TZ), channel, timeZone: TZ, nature: item.dossier?.nature });
+      item.dueAt = planDueAt({ now: nextDay(Date.now(), channel.quietHours, TZ), channel, timeZone: TZ, nature: item.dossier?.nature });
       console.log(`Réserve ${channel.id} : ${dejaAujourdhui}/${channel.maxPerDay} publiés aujourd'hui, « ${item.article.title} » → ${paris(item.dueAt)}`);
       continue;
     }
 
-    const later = recheck({ now, lastAt: lastPublishedAt(history, channel.id), channel, timeZone: TZ, nature: item.dossier?.nature });
+    const later = recheck({ now: Date.now(), lastAt: lastPublishedAt(history, channel.id), channel, timeZone: TZ, nature: item.dossier?.nature });
     if (later) {
       item.dueAt = later;
       console.log(`Reporté ${channel.id} : ${item.article.title} → ${paris(later)}`);
@@ -311,13 +317,11 @@ async function execute({ history, queue, memory, controls, now }) {
       await enrichir(item.dossier, item.article);
       const impl = CHANNELS[channel.id];
       const pkg = await impl.prepare(item.article, { dossier: item.dossier });
-      // minute de départ tirée au hasard ; le kit X, publié à la main, n'a pas à attendre
-      if (!channel.manual) {
-        const depart = tirerDepart(dernierDepart);
-        const attente = debutPassage + depart - Date.now();
-        console.log(`Départ tiré à +${(depart / 60e3).toFixed(1)} min dans le passage${attente > 0 ? ` : attente de ${Math.round(attente / 1000)} s` : ', déjà atteint'}`);
-        if (attente > 0) await new Promise((r) => setTimeout(r, attente));
-        dernierDepart = Date.now() - debutPassage;
+      // minute de départ fixée à l'avance par ordonnerFile : on l'attend, les visuels déjà prêts
+      const attente = item.dueAt - Date.now();
+      if (attente > 0) {
+        console.log(`Départ ${channel.id} à ${paris(item.dueAt)} : attente de ${Math.round(attente / 1000)} s`);
+        await new Promise((r) => setTimeout(r, attente));
       }
       const { mediaId, lien: lienPost = null } = await impl.publish(pkg, { channel });
       // format tiré, mentions, et aperçu réel : c'est ce qui rend la mesure comparable
@@ -401,10 +405,13 @@ async function main() {
   try {
     await handleTelegram(ctx);
     await plan(items, ctx);
+    ordonner(ctx);
     await sendPreviews(ctx);
     await expire(ctx);
     prune(queue, ctx.now);
     failed = await execute(ctx);
+    // ce qui a été reporté pendant le passage (échec, quota) retrouve aussitôt une heure valable
+    ordonner(ctx);
 
     // Mesure : relevé des interactions, rapports dus, puis instantané pour la page de pilotage.
     // Lecture seule côté réseaux, et aucun réglage n'est modifié automatiquement.

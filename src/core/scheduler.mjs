@@ -142,21 +142,151 @@ export function recheck({ now, lastAt = 0, channel, timeZone, nature = null, rng
   return null;
 }
 
-// ── Minute de départ dans un passage ──
-// Chaque réseau dû à un passage part à une minute tirée au hasard, entre 2 et 14 min après le début
-// du passage, et au moins 1 à 3 min (tirées elles aussi) après le réseau précédent : jamais pile à
-// l'heure, jamais deux réseaux à la même minute, jamais le même écart entre eux.
-// Mesuré le 18/09/2026 avant ce changement, sur 24 publications : 7 paires de réseaux parties à
-// moins de 2 min d'intervalle, dont Instagram, Bluesky et le kit X à la même minute, parce qu'une
-// réserve d'attente commune de 6 min, vite épuisée, faisait partir les suivants aussitôt.
-export const FENETRE_DEPART = [2, 14];
-export const ESPACEMENT_RESEAUX = [1, 3];
+// ── Minute exacte de départ ──
+// Chaque post automatique reçoit, à l'avance, sa minute de départ dans son passage : tirée au hasard
+// entre 3 et 15 min après le début du passage, à 3 min au moins de tout autre réseau du même passage.
+// Jamais pile à l'heure, jamais deux réseaux ensemble — et l'heure affichée est l'heure réelle.
+// Mesuré le 18/09/2026 avant l'étalement : 7 paires de réseaux parties à moins de 2 min d'intervalle
+// sur 24 publications, dont Instagram, Bluesky et le kit X à la même minute.
+export const FENETRE_DEPART = [3, 15];
+export const ECART_DEPARTS = 3;
 
-// precedent : départ réel du réseau précédent dans ce passage, en ms depuis son début (null au premier)
-export function tirerDepart(precedent = null, rng = Math.random) {
-  const [debut, fin] = FENETRE_DEPART.map((m) => m * MINUTE);
-  const plancher = precedent === null ? debut : Math.max(debut, precedent + jitter(ESPACEMENT_RESEAUX, rng));
-  // fenêtre épuisée : on part juste après le précédent, la durée du passage reste bornée
-  if (plancher >= fin) return Math.round(plancher);
-  return Math.round(plancher + rng() * (fin - plancher));
+// pris : minutes déjà attribuées dans ce passage, en ms depuis son début.
+// max : dernière minute permise, pour ne jamais dépasser la fin du créneau affiché.
+// Le tirage se fait dans les intervalles réellement libres : s'il reste une place, elle est trouvée.
+export function tirerMinute(pris = [], rng = Math.random, max = FENETRE_DEPART[1] * MINUTE) {
+  const debut = FENETRE_DEPART[0] * MINUTE;
+  const fin = Math.max(debut, Math.min(max, FENETRE_DEPART[1] * MINUTE));
+  const ecart = ECART_DEPARTS * MINUTE;
+  let libres = [[debut, fin]];
+  for (const p of pris) {
+    libres = libres.flatMap(([a, b]) => [[a, Math.min(b, p - ecart)], [Math.max(a, p + ecart), b]]).filter(([a, b]) => b >= a);
+  }
+  // passage saturé : juste après le plus tardif, la durée d'un passage reste bornée
+  if (!libres.length) return Math.max(debut, ...pris) + ecart;
+  let reste = rng() * libres.reduce((s, [a, b]) => s + (b - a), 0);
+  for (const [a, b] of libres) {
+    if (reste <= b - a) return Math.round(a + reste);
+    reste -= b - a;
+  }
+  return libres.at(-1)[1];
+}
+
+// Dernière minute de départ permise dans ce passage : jamais au-delà de la fin du créneau affiché
+function limiteMinute(channel, passage, nature, timeZone) {
+  const max = FENETRE_DEPART[1] * MINUTE;
+  if (nature === URGENT || !channel.creneaux) return max;
+  const i = creneauDe(passage, channel.creneaux, timeZone);
+  if (i < 0) return max;
+  const reste = (enHeures(channel.creneaux[i][1]) - localHour(passage, timeZone)) * HOUR;
+  return Math.max(FENETRE_DEPART[0] * MINUTE, Math.min(max, Math.round(reste)));
+}
+
+// Début du passage du robot qui contient l'instant
+export function passageDe(ms, passages = PASSAGES) {
+  const t = Math.floor(ms / MINUTE) * MINUTE;
+  for (let i = 0; i < 60; i++) if (passages.includes(new Date(t - i * MINUTE).getUTCMinutes())) return t - i * MINUTE;
+  return t;
+}
+
+// ── La file, toujours vraie ──
+// À chaque passage, le robot revalide TOUTE la file selon les règles en vigueur, pas seulement les posts
+// arrivés à échéance. Une heure devenue fausse (règles changées, créneau terminé ou occupé, plafond du
+// jour atteint, post trop proche du précédent) est recalculée aussitôt, raison notée ; une heure juste
+// ne bouge plus. Chaque post reçoit en même temps sa minute exacte. La file dit donc toujours la vérité,
+// et la page de pilotage l'affiche telle quelle, sans rien deviner. Avant, l'heure n'était recalculée
+// qu'à l'échéance et la page devait la deviner : d'où les « reporté » et « en retard » affichés à tort.
+const MARGE_SANS_MINUTE = 20 * MINUTE; // tant que la minute n'est pas tirée, on compte large
+
+function motifInvalide({ q, passage, nature, channel, courant, dernier, parJour, creneauxPris, timeZone }) {
+  if (passage < courant) return 'son créneau était passé';
+  if (nature === URGENT) {
+    if (isQuiet(q.dueAt, channel.quietHours, timeZone)) return 'l’heure tombait dans les heures creuses';
+  } else {
+    const cle = cleCreneau(passage, channel.creneaux, timeZone);
+    if (!cle) return 'l’heure n’était pas dans les créneaux du réseau';
+    if (creneauxPris.has(cle)) return 'un autre post occupait déjà ce créneau';
+  }
+  if ((parJour.get(dayKey(q.dueAt, timeZone)) ?? 0) >= channel.maxPerDay) return 'le nombre de posts du jour était atteint';
+  if (dernier && q.dueAt - dernier < ecartMinMs(channel)) return 'trop proche du post précédent';
+  return null;
+}
+
+// items : posts en attente, modifiés sur place (dueAt, et au besoin prevuInitialement et raison).
+// canaux : { id: configuration } des réseaux actifs et non en pause. Rend la liste des recalculs.
+export function ordonnerFile({ items, historique = [], canaux, now, timeZone, rng = Math.random, passages = PASSAGES }) {
+  const courant = passageDe(now, passages);
+  const minutesPrises = new Map();
+  const prendre = (ms) => {
+    const p = passageDe(ms, passages);
+    minutesPrises.set(p, [...(minutesPrises.get(p) ?? []), ms - p]);
+  };
+  const aTirer = [];
+  const changements = [];
+
+  for (const [id, channel] of Object.entries(canaux)) {
+    if (!channel.creneaux) continue;
+    const file = items.filter((q) => q.channel === id).sort((a, b) => a.dueAt - b.dueAt);
+    if (!file.length) continue;
+    const parJour = new Map();
+    const creneauxPris = new Set();
+    const occuper = (ms) => {
+      const jour = dayKey(ms, timeZone);
+      parJour.set(jour, (parJour.get(jour) ?? 0) + 1);
+      const cle = cleCreneau(ms, channel.creneaux, timeZone, TOLERANCE_H);
+      if (cle) creneauxPris.add(cle);
+    };
+    const publies = historique.filter((e) => e.channel === id && e.at).map((e) => Date.parse(e.at)).sort((a, b) => a - b);
+    publies.forEach(occuper);
+    let dernier = publies.at(-1) ?? 0;
+
+    for (const q of file) {
+      const nature = q.dossier?.nature ?? null;
+      const passage = passageDe(q.dueAt, passages);
+      const motif = motifInvalide({ q, passage, nature, channel, courant, dernier, parJour, creneauxPris, timeZone });
+      if (!motif) {
+        occuper(passage);
+        const minute = q.dueAt - passage;
+        if (channel.manual) {
+          // le kit X part au passage : rien à attendre, c'est l'équipe qui publie
+          q.dueAt = passage;
+          dernier = passage;
+        } else if (minute < FENETRE_DEPART[0] * MINUTE || minute > limiteMinute(channel, passage, nature, timeZone)) {
+          // pas encore de minute exacte, ou une minute venue d'ailleurs (ancienne file, nouvel essai) qui
+          // sortirait du créneau affiché ou ferait attendre le robot trop longtemps : on la tire
+          aTirer.push({ q, passage, max: limiteMinute(channel, passage, nature, timeZone) });
+          dernier = passage + MARGE_SANS_MINUTE;
+        } else {
+          prendre(q.dueAt);
+          dernier = q.dueAt;
+        }
+        continue;
+      }
+      // prochaine heure valable, plafond du jour compris
+      let p = planDueAt({ now, lastAt: dernier, channel, timeZone, nature, rng });
+      for (let k = 0; k < 8 && (parJour.get(dayKey(p, timeZone)) ?? 0) >= channel.maxPerDay; k++) {
+        p = planDueAt({ now: nextDay(p, channel.quietHours, timeZone), lastAt: dernier, channel, timeZone, nature, rng });
+      }
+      // un post planifié à ce passage même n'a pas d'« heure initiale » à montrer
+      if (!q.nouveau) {
+        q.prevuInitialement ??= q.dueAt;
+        q.raison = motif;
+      }
+      changements.push({ q, channel: id, titre: q.article?.title ?? '', avant: q.dueAt, raison: motif });
+      q.dueAt = p;
+      occuper(p);
+      const nouveauPassage = passageDe(p, passages);
+      if (!channel.manual) aTirer.push({ q, passage: nouveauPassage, max: limiteMinute(channel, nouveauPassage, nature, timeZone) });
+      dernier = channel.manual ? p : nouveauPassage + MARGE_SANS_MINUTE;
+    }
+  }
+
+  // minutes exactes, tirées une fois pour toutes, jamais à moins de 3 min d'un autre réseau ; dans un
+  // même passage, le réseau dont le créneau se termine le plus tôt tire en premier, pour garder sa place
+  for (const { q, passage, max } of aTirer.sort((a, b) => a.passage - b.passage || a.max - b.max)) {
+    q.dueAt = passage + tirerMinute(minutesPrises.get(passage) ?? [], rng, max);
+    prendre(q.dueAt);
+  }
+  for (const q of items) delete q.nouveau;
+  return changements.map(({ q, ...c }) => ({ ...c, apres: q.dueAt }));
 }

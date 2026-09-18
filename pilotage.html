@@ -118,7 +118,7 @@
   .slot .what b { font-size: 14px; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
   .slot .titre { color: var(--muted); font-size: 13px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   .slot .rel { font-size: 12.5px; color: var(--muted); white-space: nowrap; }
-  .slot.late time { color: var(--warn); }
+  .slot .recalc { display: block; font-size: 12px; color: var(--muted); margin-top: 2px; }
 
   /* Dernières publications */
   .posts { display: grid; gap: 12px; }
@@ -275,7 +275,7 @@
       <p class="hint" id="prochain"></p>
     </div>
     <div class="panel" id="planning"><p class="empty">Chargement…</p></div>
-    <p class="note">Heures des passages du robot (<b>:00</b> et <b>:20</b>) : chaque réseau part ensuite à une minute tirée au hasard, 2 à 14 minutes plus tard, jamais à la même minute qu’un autre réseau. Une échéance tombée entre deux passages part au suivant.</p>
+    <p class="note">Heures exactes de publication. Le robot tire à l’avance la minute de chaque post, 3 à 15 minutes après son passage (:00 ou :20) et jamais à moins de 3 minutes d’un autre réseau. À chaque passage, il revérifie tout le planning ; si une heure doit changer, il la recalcule aussitôt et l’indique.</p>
   </section>
 
   <section aria-labelledby="t-publies">
@@ -339,7 +339,7 @@
   <details class="panel rules">
     <summary><h2>Garde-fous anti-bannissement</h2><span class="hint">Automatiques, réglés dans <code>config/channels.json</code></span></summary>
     <div class="shield">
-      <div><b>Heures imprévisibles</b><span>Dans chaque créneau, un passage du robot tiré au hasard ; puis chaque réseau part à sa propre minute, 2 à 14 min plus tard, au moins 1 à 3 min après un autre réseau. Jamais pile à l’heure, jamais deux réseaux ensemble.</span></div>
+      <div><b>Heures imprévisibles</b><span>Dans chaque créneau, un passage du robot tiré au hasard, puis une minute de départ tirée elle aussi, 3 à 15 min plus tard, à 3 min au moins d’un autre réseau. Jamais pile à l’heure, jamais deux réseaux ensemble.</span></div>
       <div><b>Textes jamais identiques</b><span>Angles en rotation, tournures déjà publiées refusées, questions limitées, formules d’appât interdites.</span></div>
       <div><b>Coupe-circuit</b><span>Limite ou restriction signalée par un réseau : pause automatique et alerte. Reprise avec <code>/reprise</code>.</span></div>
       <div><b>API officielles seulement</b><span>Aucun like, abonnement ou réponse automatique. Plafonds quotidiens : Instagram 2, Facebook 2, Bluesky 3, Threads 3, kit X 3.</span></div>
@@ -489,73 +489,17 @@
   let erreur = null;
   const ouverts = new Set();
 
-  // Le robot ne tourne qu'à ses passages : une échéance tombée entre deux passages part au suivant.
-  // Recalculé ici plutôt que repris de l'instantané, déjà périmé quand la page est ouverte plus tard.
-  // Règle de référence et tests : src/measure/pilotage.mjs
   const enHeures = (texte) => {
     const [h, m = 0] = String(texte).split(':').map(Number);
     return h + m / 60;
   };
-  // Index du créneau, en heure de Paris, qui contient l'instant ; -1 hors créneau
-  const creneauDe = (ms, creneaux) => {
-    const [h, m] = heure(ms).split(':').map(Number);
-    return creneaux.findIndex(([a, b]) => h + m / 60 >= enHeures(a) && h + m / 60 <= enHeures(b));
-  };
-  // Premier passage du robot à partir de l'échéance
-  const passageReel = (dueAt) => {
+  // Début du passage du robot qui contient l'instant (même règle que src/core/scheduler.mjs)
+  const passageDe = (ms) => {
     const passages = etat?.passages ?? [0, 20];
-    const base = Math.max(new Date(dueAt).getTime(), Date.now());
-    const t = new Date(Math.ceil(base / 60000) * 60000);
-    for (let i = 0; i <= 120; i++, t.setTime(t.getTime() + 60000)) {
-      if (passages.includes(t.getUTCMinutes())) return t.getTime();
-    }
-    return base;
+    const t = Math.floor(new Date(ms).getTime() / 60000) * 60000;
+    for (let i = 0; i < 60; i++) if (passages.includes(new Date(t - i * 60000).getUTCMinutes())) return t - i * 60000;
+    return t;
   };
-
-  // Heure réelle de chaque post en file, en rejouant les règles du robot (src/core/scheduler.mjs,
-  // où elles sont testées). Réseaux à créneaux (Facebook) : jamais hors créneau, un seul post par
-  // créneau, plafond du jour — les publications déjà faites aujourd'hui comptent. Deux posts dus en
-  // même temps ne partent donc pas ensemble : le second glisse au créneau libre suivant.
-  function planifier(file) {
-    const occupes = new Map();
-    const parJour = new Map();
-    const cle = (ms, i) => `${cleJour(ms)}#${i}`;
-    const noter = (channel, ms, creneaux) => {
-      const jours = parJour.get(channel) ?? new Map();
-      jours.set(cleJour(ms), (jours.get(cleJour(ms)) ?? 0) + 1);
-      parJour.set(channel, jours);
-      const i = creneauDe(ms, creneaux);
-      if (i >= 0) occupes.set(channel, new Set([...(occupes.get(channel) ?? []), cle(ms, i)]));
-    };
-    for (const p of etat.publications ?? []) {
-      const creneaux = etat.reseaux?.[p.channel]?.creneaux;
-      if (creneaux) noter(p.channel, new Date(p.at).getTime(), creneaux);
-    }
-    const passages = etat.passages ?? [0, 20];
-    return [...file]
-      .sort((a, b) => new Date(a.dueAt) - new Date(b.dueAt))
-      .map((q) => {
-        const r = etat.reseaux?.[q.channel];
-        if (!r?.creneaux) return { ...q, reel: passageReel(q.dueAt) };
-        // actualité chaude : part au passage suivant, sans attendre de créneau, et compte dans le plafond
-        if (q.nature === 'actu_chaude') {
-          const reel = passageReel(q.dueAt);
-          noter(q.channel, reel, r.creneaux);
-          return { ...q, reel, urgent: true };
-        }
-        const t = new Date(Math.ceil(Math.max(new Date(q.dueAt).getTime(), Date.now()) / 60000) * 60000);
-        for (let n = 0; n <= 60 * 24 * 4; n++, t.setTime(t.getTime() + 60000)) {
-          if (!passages.includes(t.getUTCMinutes())) continue;
-          const i = creneauDe(t.getTime(), r.creneaux);
-          if (i < 0 || occupes.get(q.channel)?.has(cle(t.getTime(), i))) continue;
-          if ((parJour.get(q.channel)?.get(cleJour(t.getTime())) ?? 0) >= (r.maxParJour ?? Infinity)) continue;
-          noter(q.channel, t.getTime(), r.creneaux);
-          return { ...q, reel: t.getTime() };
-        }
-        return { ...q, reel: passageReel(q.dueAt) };
-      })
-      .sort((a, b) => a.reel - b.reel);
-  }
 
   function rythme(id, r) {
     const unite = NETS[id].unite ?? '';
@@ -657,42 +601,46 @@
     }).join('');
   }
 
+  // La file du robot dit la vérité : il la revalide en entier à chaque passage et fixe à l'avance la
+  // minute exacte de chaque post (ordonnerFile, src/core/scheduler.mjs, où c'est testé). La page
+  // l'affiche telle quelle, sans rien recalculer : l'heure affichée est l'heure de publication.
   function rendrePlanning() {
     if (!etat) {
       $('planning').innerHTML = `<p class="empty">${erreur ? 'Planning indisponible pour l’instant.' : 'Chargement…'}</p>`;
       $('prochain').textContent = '';
       return;
     }
-    const file = planifier(etat.file ?? []);
+    const file = [...(etat.file ?? [])].sort((a, b) => new Date(a.dueAt) - new Date(b.dueAt));
     if (!file.length) {
       $('planning').innerHTML = '<p class="empty">Rien de prévu. Le prochain article du site sera planifié dès sa parution.</p>';
       $('prochain').textContent = '';
       return;
     }
-    $('prochain').textContent = `Prochain départ : ${nom(file[0].channel)}, ${dans(file[0].reel)}`;
+    const prochain = file.find((q) => !etat.reseaux?.[q.channel]?.pause);
+    $('prochain').textContent = prochain ? `Prochain départ : ${nom(prochain.channel)} à ${heure(prochain.dueAt)}, ${dans(prochain.dueAt)}` : '';
     const jours = new Map();
     for (const q of file) {
-      const cle = libelleJour(q.reel);
+      const cle = libelleJour(q.dueAt);
       jours.set(cle, [...(jours.get(cle) ?? []), q]);
     }
     $('planning').innerHTML = [...jours].map(([jour, items]) => `<div class="day"><h3>${esc(jour)}</h3><ol>${items.map((q) => {
-      const creneaux = etat.reseaux?.[q.channel]?.creneaux;
-      // échéance hors créneau : le robot la reportera, ce n'est pas un retard
-      const reporte = Boolean(creneaux) && !q.urgent && passageReel(q.dueAt) !== q.reel;
-      const retard = !reporte && new Date(q.dueAt).getTime() < Date.now();
-      let creneau = '';
-      if (q.urgent) {
-        creneau = '<span class="pill warn" title="Actualité chaude : part au passage suivant, sans attendre de créneau.">actu chaude</span>';
-      } else if (creneaux) {
-        // nommé par ses heures : Threads a deux créneaux le matin, « du matin » serait ambigu
-        const i = creneauDe(q.reel, creneaux);
-        const quel = i >= 0 ? `${hhmm(creneaux[i][0])} – ${hhmm(creneaux[i][1])}` : '';
-        creneau = reporte
-          ? `<span class="pill info" title="Échéance hors créneau : le robot reportera ce post dans ce créneau, à un passage tiré au hasard.">reporté au créneau ${quel}</span>`
-          : `<span class="pill info">créneau ${quel}</span>`;
-      }
-      const tard = retard ? `<span class="pill warn" title="Échéance de ${heure(q.dueAt)} dépassée : part au passage suivant">en retard</span>` : '';
-      return `<li class="slot${retard ? ' late' : ''}"><time datetime="${new Date(q.reel).toISOString()}">${heure(q.reel)}</time>${glyphe(q.channel)}<div class="what"><b>${esc(nom(q.channel))}${creneau}${tard}</b><span class="titre" title="${esc(q.titre)}">${esc(q.titre)}</span></div><span class="rel">${esc(dans(q.reel))}</span></li>`;
+      const reseau = etat.reseaux?.[q.channel] ?? {};
+      const debut = passageDe(q.dueAt);
+      const enCours = !reseau.pause && debut <= Date.now();
+      // passage commencé depuis plus de 30 min sans publication : le robot ne tourne plus, alerte en tête
+      const bloque = enCours && Date.now() - debut > 30 * 60e3;
+      const tags = [
+        q.nature === 'actu_chaude' ? '<span class="pill info" title="Actualité chaude : part sans attendre de créneau">actu chaude</span>' : '',
+        reseau.manuel ? '<span class="pill idle">kit Telegram</span>' : '',
+        reseau.pause ? '<span class="pill idle">réseau en pause</span>' : '',
+        enCours && !bloque ? '<span class="pill live">publication en cours</span>' : '',
+      ].join('');
+      // transparence : si le robot a dû changer l'heure, l'ancienne et la raison restent visibles
+      const recalcul = q.prevuInitialement
+        ? `<span class="recalc">Heure recalculée : prévu initialement ${esc(libelleJour(q.prevuInitialement).toLowerCase())} à ${esc(heure(q.prevuInitialement))}${q.raison ? ` — ${esc(q.raison)}` : ''}</span>`
+        : '';
+      const rel = reseau.pause ? '' : bloque ? 'en attente du robot' : enCours ? 'en cours' : dans(q.dueAt);
+      return `<li class="slot"><time datetime="${new Date(q.dueAt).toISOString()}">${heure(q.dueAt)}</time>${glyphe(q.channel)}<div class="what"><b>${esc(nom(q.channel))}${tags}</b><span class="titre" title="${esc(q.titre)}">${esc(q.titre)}</span>${recalcul}</div><span class="rel">${esc(rel)}</span></li>`;
     }).join('')}</ol></div>`).join('');
   }
 

@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { planDueAt, recheck, creneauDe, dayKey, tirerDepart, FENETRE_DEPART } from '../src/core/scheduler.mjs';
+import { planDueAt, recheck, creneauDe, dayKey, tirerMinute, FENETRE_DEPART } from '../src/core/scheduler.mjs';
 import { config } from '../src/core/config.mjs';
 
 // Facebook : un post le matin, un en fin de journée, jamais deux dans le même créneau, et toujours
@@ -151,26 +151,39 @@ test('changement d’heure d’octobre : le créneau reste à l’heure de Paris
 // à la même minute. Ces tests verrouillent l'étalement.
 const MIN = 60e3;
 
-test('premier départ : jamais pile au passage, toujours dans la fenêtre', () => {
-  assert.equal(tirerDepart(null, () => 0), FENETRE_DEPART[0] * MIN, 'au plus tôt 2 min après');
-  assert.equal(tirerDepart(null, () => 1), FENETRE_DEPART[1] * MIN, 'au plus tard 14 min après');
+test('minute de départ : jamais pile au passage, toujours dans la fenêtre', () => {
+  assert.equal(tirerMinute([], () => 0), FENETRE_DEPART[0] * MIN, 'au plus tôt 3 min après');
+  assert.equal(tirerMinute([], () => 1), FENETRE_DEPART[1] * MIN, 'au plus tard 15 min après');
 });
 
-test('deux réseaux d’un même passage ne partent jamais à la même minute', () => {
+test('trois réseaux d’un même passage partent à 3 min d’écart au moins', () => {
   for (let i = 0; i < 2000; i++) {
-    const premier = tirerDepart(null);
-    const second = tirerDepart(premier);
-    assert.ok(second - premier >= MIN, `écart de ${Math.round((second - premier) / 1000)} s`);
+    const a = tirerMinute([]);
+    const b = tirerMinute([a]);
+    const c = tirerMinute([a, b]);
+    for (const [x, y] of [[a, b], [a, c], [b, c]]) assert.ok(Math.abs(x - y) >= 3 * MIN, `écart de ${Math.round(Math.abs(x - y) / 1000)} s`);
   }
 });
 
 test('les minutes de départ varient d’un passage à l’autre', () => {
-  const minutes = new Set(Array.from({ length: 300 }, () => Math.floor(tirerDepart(null) / MIN)));
+  const minutes = new Set(Array.from({ length: 300 }, () => Math.floor(tirerMinute([]) / MIN)));
   assert.ok(minutes.size >= 10, `${minutes.size} minutes différentes sur 300 passages`);
 });
 
-test('la durée d’un passage reste bornée, même avec tous les réseaux dus', () => {
-  let depart = null;
-  for (let i = 0; i < 4; i++) depart = tirerDepart(depart, () => 1);
-  assert.ok(depart <= (FENETRE_DEPART[1] + 3 * 3) * MIN, `dernier départ à ${depart / MIN} min`);
+test('la minute ne dépasse jamais la limite demandée (fin du créneau affiché)', () => {
+  assert.equal(tirerMinute([], () => 1, 10 * MIN), 10 * MIN);
+  for (let i = 0; i < 1000; i++) assert.ok(tirerMinute([], Math.random, 10 * MIN) <= 10 * MIN);
+});
+
+test('s’il reste une place dans le passage, elle est trouvée', () => {
+  // deux départs à 4 et 8 min : seule la plage 11 – 15 min reste libre
+  for (let i = 0; i < 500; i++) {
+    const m = tirerMinute([4 * MIN, 8 * MIN]);
+    assert.ok(m >= 11 * MIN && m <= 15 * MIN, `${m / MIN} min`);
+  }
+});
+
+test('fenêtre saturée : départ juste après le plus tardif, durée bornée', () => {
+  const pris = [3, 6, 9, 12, 15].map((m) => m * MIN);
+  assert.equal(tirerMinute(pris, () => 0), 18 * MIN);
 });

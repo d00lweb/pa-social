@@ -97,6 +97,9 @@ export function construire({ history, queue, mesures = [], rapports = [], mainte
       prochainPassage: prochainPassage(q.dueAt, maintenant).toISOString(),
       // une actualité chaude part sans attendre de créneau : la page doit le savoir pour l'annoncer juste
       nature: q.dossier?.nature ?? null,
+      // transparence : quand le robot a recalculé une heure, la page montre l'ancienne et la raison
+      prevuInitialement: q.prevuInitialement ? new Date(q.prevuInitialement).toISOString() : null,
+      raison: q.raison ?? null,
       titre: titre(q),
     }));
 

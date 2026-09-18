@@ -27,7 +27,7 @@ const LIBELLES = {
 };
 const CONSIGNES = {
   image: 'Enregistre l’image ci-dessus, touche « Publier sur X », joins l’image et publie.',
-  lien: 'Touche « Publier sur X » et publie : l’aperçu du lien s’affiche tout seul, aucune image à joindre.',
+  lien: 'Touche « Publier sur X » et publie sans joindre l’image : X affiche l’aperçu du lien. Le visuel reste fourni si tu le préfères.',
   reponse: 'Enregistre l’image, touche « Publier sur X », joins l’image et publie. Réponds ensuite à ton propre post avec le second texte.',
 };
 
@@ -42,13 +42,6 @@ export const xLength = (text) => {
 
 export async function prepare(article, { dossier, renderer: shared, log = console.log } = {}) {
   const mode = modeFor(article.guid);
-
-  // format « lien seul » : pas de visuel, X affiche l'aperçu de l'article
-  if (mode === 'lien') {
-    const text = composeX(dossier, article.link);
-    log(`   Kit X : ${LIBELLES[mode]}`);
-    return { article, dossier, mode, files: [], text, link: article.link, intent: intentUrl(text) };
-  }
 
   if (!article.image) throw new GuardError(article, ['aucune image (enclosure) dans le flux']);
   const source = await loadSource(article.image);
@@ -99,6 +92,13 @@ export function kitMessages(pkg) {
   ];
   if (pkg.replyText) messages.push(`💬 <b>Réponse à publier juste après</b>\n<code>${esc(pkg.replyText)}</code>`);
   for (const c of comptes) messages.push(`👤 <b>Compte à taguer</b> · ${esc(c.nom)}\n<code>@${esc(c.handle)}</code>`);
+
+  // Aucun compte X connu : on propose celui vérifié sur Instagram, en disant clairement ce que c'est
+  if (!comptes.length) {
+    for (const c of (pkg.dossier?.comptes?.instagram ?? []).slice(0, 2)) {
+      messages.push(`👤 <b>Piste</b> · ${esc(c.nom)} — compte vérifié sur Instagram, à confirmer sur X\n<code>@${esc(c.handle)}</code>`);
+    }
+  }
   if (lieu) messages.push(`📍 <b>Lieu à taguer</b>\n<code>${esc(lieu.nom)}</code>`);
   return messages;
 }

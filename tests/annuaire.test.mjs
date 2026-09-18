@@ -1,6 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { correspond, suspect, choisir, substituer, motsCles } from '../src/brain/annuaire.mjs';
+import { correspond, suspect, choisir, substituer, motsCles, nomExploitable } from '../src/brain/annuaire.mjs';
+import { variantesHandle } from '../src/brain/comptes.mjs';
 import { identifiantValide } from '../src/brain/lieux.mjs';
 import { variantes } from '../src/sources/wikidata.mjs';
 
@@ -32,6 +33,11 @@ test('correspondance : tous les mots du nom, accents et casse ignorés', () => {
   assert.ok(!correspond('Bordeaux', { handle: 'univbordeaux.bsky.social', nom: 'Université de Bordeaux' }));
   assert.ok(!correspond('Charente-Maritime', { handle: 'x.bsky.social', nom: 'La Charente Maritime Info' }));
   assert.ok(correspond('Bordeaux', { handle: 'villedebordeaux.bsky.social', nom: 'Ville de Bordeaux' }), 'un mot civique reste admis');
+  // rencontré en conditions réelles : « Morimoto » a retenu un compte personnel nommé « Morimoto🌱 »
+  assert.ok(!nomExploitable('Morimoto'), 'un nom d’un seul mot ne permet aucune vérification');
+  assert.ok(nomExploitable('Morimoto Bordeaux'));
+  assert.deepEqual(variantesHandle('Morimoto Bordeaux'), ['morimotobordeaux', 'morimoto_bordeaux', 'morimoto.bordeaux']);
+  assert.deepEqual(variantesHandle('Morimoto'), [], 'aucun pseudo généré depuis un nom trop court');
   assert.ok(correspond('Landes', { handle: 'departementlandes.bsky.social', nom: 'Département des Landes' }));
   // rencontré en conditions réelles : la fiche trouvée pour « Département de la Gironde » était Gallica,
   // ses comptes auraient été tagués à la place de ceux du Département

@@ -4,7 +4,7 @@ import { fiche } from '../sources/wikidata.mjs';
 import { handlesFromSite } from '../sources/site.mjs';
 import { chercheActeurs, profil } from '../sources/bsky-public.mjs';
 import { surThreads } from '../sources/threads.mjs';
-import { correspond, suspect, choisir, fold } from './annuaire.mjs';
+import { correspond, suspect, choisir, fold, motsCles, nomExploitable } from './annuaire.mjs';
 
 // Dernier recours pour les collectivités de notre zone : certains sites chargent leurs réseaux
 // en JavaScript, donc ni la fiche ni le balayage ne les voient. Table courte et vérifiée.
@@ -20,13 +20,49 @@ const depuisTable = (nom) => {
 // De « Musée d'Aquitaine » aux comptes réels, réseau par réseau.
 // Chaîne : fiche officielle → site de l'entité → vérification. Jamais de pseudo deviné.
 
+// Pseudos dérivés du nom exact, dans un ordre fixe : « Morimoto Bordeaux » donne morimotobordeaux,
+// morimoto_bordeaux, morimoto.bordeaux. Chacun est ensuite soumis à Meta, qui confirme ou non son
+// existence : un commerce absent de Wikidata devient ainsi trouvable, sans jamais rien inventer.
+export const variantesHandle = (nom) => {
+  const m = motsCles(nom);
+  return m.length < 2 ? [] : [m.join(''), m.join('_'), m.join('.')];
+};
+
+// Meta refuse un pseudo inexistant ou privé : c'est notre preuve d'existence.
+async function existeSurInstagram(handle, image) {
+  const token = process.env.IG_TOKEN;
+  const userId = process.env.IG_USER_ID;
+  if (!token || !userId || !image) return false;
+  try {
+    const res = await fetch(`https://graph.facebook.com/${process.env.GRAPH_VERSION || 'v23.0'}/${userId}/media`, {
+      method: 'POST',
+      body: new URLSearchParams({
+        image_url: image,
+        is_carousel_item: 'true',
+        user_tags: JSON.stringify([{ username: handle, x: 0.5, y: 0.9 }]),
+        access_token: token,
+      }),
+    });
+    return res.ok;
+  } catch {
+    return false;
+  }
+}
+
 // Instagram et X : la fiche donne parfois le compte, le site officiel presque toujours
-async function comptesMeta(entite) {
+async function comptesMeta(entite, image) {
   const f = await fiche(entite.nom);
   const site = f?.site ? await handlesFromSite(f.site) : { insta: [], x: [], facebook: [] };
   const table = depuisTable(entite.nom) ?? {};
+
+  let instagram = f?.insta ?? site.insta[0] ?? table.instagram ?? null;
+  if (!instagram) {
+    for (const candidat of variantesHandle(entite.nom)) {
+      if (await existeSurInstagram(candidat, image)) { instagram = candidat; break; }
+    }
+  }
   return {
-    instagram: f?.insta ?? site.insta[0] ?? table.instagram ?? null,
+    instagram,
     x: f?.x ?? site.x[0] ?? table.x ?? null,
     // Facebook : fiche officielle seulement. Un site cite souvent d'autres pages que la sienne
     // (bordeaux.fr renvoyait « bordeauxmaville », un site d'actualité) et l'erreur serait invisible.
@@ -45,12 +81,18 @@ async function compteBluesky(entite) {
 }
 
 // Un compte par entité et par réseau, deux entités au maximum
-export async function resoudreComptes(entites = [], { max = 2, log = () => {} } = {}) {
+export async function resoudreComptes(entites = [], { max = 2, image = null, log = () => {} } = {}) {
   const plan = { instagram: [], x: [], bluesky: [], threads: [], facebook: [] };
-  const retenues = choisir(entites.map((e) => ({ ...e, entite: e.nom, handle: e.nom })), { max });
+  // Un nom d'un seul mot ne se vérifie pas : on préfère aucune mention à un homonyme
+  const exploitables = entites.filter((e) => {
+    if (nomExploitable(e.nom)) return true;
+    log(`   Entité « ${e.nom} » ignorée : nom trop court pour être vérifié`);
+    return false;
+  });
+  const retenues = choisir(exploitables.map((e) => ({ ...e, entite: e.nom, handle: e.nom })), { max });
 
   for (const entite of retenues) {
-    const [meta, bluesky] = await Promise.all([comptesMeta(entite), compteBluesky(entite)]);
+    const [meta, bluesky] = await Promise.all([comptesMeta(entite, image), compteBluesky(entite)]);
     const sur = meta.instagram ? await surThreads(meta.instagram) : false;
 
     if (meta.instagram) plan.instagram.push({ nom: entite.nom, handle: meta.instagram, role: entite.role });

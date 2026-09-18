@@ -34,7 +34,8 @@ Tu reçois un article du flux RSS (titre, description, catégories, date), le li
 
 Ces deux champs servent à taguer des comptes et un lieu. Ils ne changent pas les textes.
 
-- `entites` : les organisations liées à l'article, **par leur nom usuel exact** (« Musée d'Aquitaine », « Département des Landes », « Union nationale de l'apiculture française »). Jamais de pseudo, jamais d'arobase : le programme retrouve les comptes lui-même à partir du nom. Pour une commune, écris le nom seul (« La Rochelle », « Bordeaux »), jamais « Ville de… » ni « Mairie de… ».
+- `entites` : **toujours le nom complet et qualifié**, jamais un nom seul : « Morimoto Bordeaux » et non « Morimoto », « Mondrian Bordeaux » et non « Mondrian ». Ajoute la ville quand l'entité est un lieu, un commerce ou un établissement — c'est ce qui permet de retrouver le bon compte et d'écarter les homonymes. Un nom d'un seul mot est ignoré par le programme.
+- Les organisations liées à l'article, **par leur nom usuel exact** (« Musée d'Aquitaine », « Département des Landes », « Union nationale de l'apiculture française »). Jamais de pseudo, jamais d'arobase : le programme retrouve les comptes lui-même à partir du nom. Pour une commune, écris le nom seul (« La Rochelle », « Bordeaux »), jamais « Ville de… » ni « Mairie de… ».
   - `role: "sujet"` — l'entité dont parle l'article.
   - `role: "acteur"` — celle qui agit dans les faits (la collectivité qui signe, qui finance).
   - `role: "tutelle"` — celle qui gère l'entité citée quand celle-ci n'a probablement pas de compte (la mairie pour un musée municipal).

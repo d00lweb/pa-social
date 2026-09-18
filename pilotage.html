@@ -573,7 +573,7 @@
   }
 
   $('live-file').innerHTML = etat.file?.length
-    ? etat.file.map((f) => `<div class="row"><div>${esc(NOMS[f.channel] ?? f.channel)}<small>${esc(f.titre)}</small></div><span class="when">${quand(f.dueAt)}</span></div>`).join('')
+    ? etat.file.map((f) => `<div class="row"><div>${esc(NOMS[f.channel] ?? f.channel)}<small>${esc(f.titre)}</small></div><span class="when">prévu ${quand(f.dueAt)}</span></div>`).join('')
     : '<div class="row"><div>Rien en attente<small>Le prochain article du flux sera planifié automatiquement</small></div></div>';
 
   const m = etat.mesures?.parReseau ?? {};

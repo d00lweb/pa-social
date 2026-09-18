@@ -90,7 +90,7 @@ async function onCallback(cb, ctx) {
     return say(`❌ <b>Refusé</b>, ne sera pas publié\n${title}`, reply);
   }
   await answerCallback(cb.id, 'Nouvelle version en préparation');
-  const dossier = await enrichir(await buildDossier(items[0].article, { memory: ctx.memory }));
+  const dossier = await enrichir(await buildDossier(items[0].article, { memory: ctx.memory }), items[0].article);
   for (const i of items) i.dossier = dossier;
   return say(`🔁 <b>Textes régénérés</b>, nouvel aperçu ci-dessous\n${title}`, reply);
 }
@@ -189,10 +189,11 @@ async function handleTelegram(ctx) {
 
 // Comptes à mentionner et lieu à taguer : résolus une seule fois par article, réutilisés par tous les réseaux.
 // Le lieu brut de l'IA est conservé ; `dossier.lieu` devient le lieu vérifié, ou null si rien de fiable.
-async function enrichir(dossier) {
+async function enrichir(dossier, article = null) {
   if (dossier.comptes) return dossier;
   dossier.lieuSource ??= dossier.lieu ?? null;
-  dossier.comptes = await resoudreComptes(dossier.entites ?? [], { log: console.log });
+  // l'image de l'article sert à faire confirmer par Meta l'existence d'un compte trouvé
+  dossier.comptes = await resoudreComptes(dossier.entites ?? [], { image: article?.image ?? null, log: console.log });
   dossier.lieu = await resoudreLieu(dossier.lieuSource ?? {});
   return dossier;
 }
@@ -205,7 +206,7 @@ async function plan(items, { history, queue, memory, controls, now, forcedGuid }
     const channels = enabledChannels().filter((c) => !hasPublished(history, article.guid, c.id) && !queue.some((q) => q.guid === article.guid && q.channel === c.id));
     if (!channels.length) continue;
     const dossier = queue.find((q) => q.guid === article.guid)?.dossier ?? (await buildDossier(article, { memory }));
-    await enrichir(dossier);
+    await enrichir(dossier, article);
     remember(memory, dossier, ed.networks, ed.memorySize);
     for (const channel of channels) {
       const lastPlannedAt = Math.max(0, ...queue.filter((q) => q.channel === channel.id && OPEN.includes(q.status)).map((q) => q.dueAt));
@@ -295,7 +296,7 @@ async function execute({ history, queue, memory, controls, now }) {
 
     try {
       item.dossier ??= await buildDossier(item.article, { memory });
-      await enrichir(item.dossier);
+      await enrichir(item.dossier, item.article);
       const impl = CHANNELS[channel.id];
       const pkg = await impl.prepare(item.article, { dossier: item.dossier });
       // délai aléatoire : les publications ne tombent pas pile sur les minutes du cron

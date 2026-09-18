@@ -27,6 +27,13 @@ export function correspond(entite, candidat) {
   return motsCles(candidat.nom ?? '').every((m) => attendus.has(m));
 }
 
+// Un nom d'un seul mot ne permet aucune vérification sérieuse : « Morimoto » a retenu un compte
+// personnel thaïlandais nommé « Morimoto🌱 », qui serait parti publiquement. Aucun filtre structurel
+// ne départage ces cas — on exige donc un nom qualifié (« Morimoto Bordeaux »), sinon pas de mention.
+export function nomExploitable(nom) {
+  return motsCles(nom).length >= 2;
+}
+
 // Signaux d'un compte qui porte le bon nom sans être l'officiel (fan, parodie, revue de presse)
 const SUSPECTS = /\b(fan|fans|parodie|parody|non officiel|unofficial|actu|info|news|l'antre|antre)\b/i;
 

@@ -95,8 +95,9 @@ export async function sendStory({ buffer, url, title, link, comptes = [], lieu =
   form.append('document', new Blob([buffer], { type: 'image/jpeg' }), 'story.jpg');
   await call('sendDocument', form);
 
-  // un message par élément : chacun se copie d'une seule touche
-  await send(`🔗 <b>Sticker lien</b>\n<code>${link}</code>`);
+  // un message par élément : chacun se copie d'une seule touche.
+  // Le lien part seul, sans rien autour, pour être copié d'un geste dans le sticker.
+  await send(`<code>${link}</code>`);
   for (const h of comptes) await send(`👤 <b>Compte à mentionner</b>\n<code>@${h}</code>`);
   if (lieu) await send(`📍 <b>Lieu à taguer</b>\n<code>${lieu}</code>`);
 }

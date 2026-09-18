@@ -1,10 +1,11 @@
 name: Publication Instagram
 
 on:
-  # Le déclenchement vient de la tâche cron o2switch, toutes les 20 min. Ce cron GitHub n'est qu'un
-  # filet de sécurité : à l'heure pile seulement, pour ne pas croiser les passages d'o2switch.
+  # o2switch ne déclenche qu'à :00 et :20 — jamais à :40, ce qui laissait un trou de 40 min par heure
+  # et retardait d'autant les publications dues dans cet intervalle. Ce cron comble les manques,
+  # à :10 et :40, sans croiser les passages d'o2switch. Cadence obtenue : :00, :10, :20, :40.
   schedule:
-    - cron: '10 * * * *'
+    - cron: '10,40 * * * *'
   workflow_dispatch:
     inputs:
       dry_run:

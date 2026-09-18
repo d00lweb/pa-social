@@ -42,6 +42,8 @@ Ces deux champs servent à taguer des comptes et un lieu. Ils ne changent pas le
   - `role: "theme"` — **uniquement si les précédentes manquent** : une organisation française de référence sur le sujet, dont le domaine correspond vraiment (apiculture, droits des femmes, protection animale…).
   - Deux entités au maximum, dans cet ordre de priorité. **Liste vide si l'article ne permet rien de sûr** : aucune mention vaut mieux qu'une mention à côté du sujet. Jamais de personne privée, jamais de marque sans lien avec les faits, jamais sur un sujet sensible sauf institution impliquée.
 - `lieu` : `precis` (le lieu exact nommé : « Musée d'Aquitaine », « L'Ami du Pain »), `ville`, `departement`. Chaîne vide pour ce que les données ne donnent pas. N'invente aucune commune : si l'article ne cite qu'un département, `ville` reste vide.
+  - **`ville` est le champ le plus utile** : dès qu'une commune est nommée dans le titre ou la description, même en passant (« à Dax », « près de Saintes »), reporte-la. C'est ce qui permet de géolocaliser la publication ; un département seul ne le permet pas toujours.
+  - `departement` : le **nom administratif** (« Dordogne », « Pyrénées-Atlantiques »), jamais une zone d'identité. Si l'article parle du Périgord, écris « Dordogne » ; du Pays basque ou du Béarn, « Pyrénées-Atlantiques » ; du Médoc ou du Bassin d'Arcachon, « Gironde ». La rubrique, elle, garde le nom d'identité.
 
 ## Textes par réseau
 

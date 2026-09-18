@@ -23,12 +23,23 @@ async function identifiant(nom, section) {
   return identifiantValide(f?.lieu) ? f.lieu : null;
 }
 
-// { precis, ville, departement } → { id, nom, niveau } ou null si rien de fiable
+// « Périgord » ou « Pays basque » ne sont pas des lieux pour Meta : on les traduit en département
+export function departementDeZone(nom) {
+  const zones = table.zones ?? {};
+  const cle = Object.keys(zones).find((z) => z.toLowerCase() === String(nom ?? '').trim().toLowerCase());
+  return cle ? zones[cle] : null;
+}
+
+// { precis, ville, departement } → { id, nom, niveau } ou null si rien de fiable.
+// Du plus précis au plus large : lieu nommé, ville, département, puis le département
+// correspondant à la zone identitaire employée comme rubrique.
 export async function resoudreLieu({ precis, ville, departement } = {}) {
+  const zone = departementDeZone(departement);
   for (const [niveau, nom, section] of [
     ['precis', precis, 'communes'],
     ['ville', ville, 'communes'],
     ['departement', departement, 'departements'],
+    ['departement', zone, 'departements'],
   ]) {
     const id = await identifiant(nom, section);
     if (id) return { id, nom, niveau };

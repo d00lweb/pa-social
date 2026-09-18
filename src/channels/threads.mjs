@@ -131,8 +131,11 @@ export async function publish(pkg, { channel } = {}) {
   const url = await stage(pkg);
 
   const params = { media_type: url ? 'IMAGE' : 'TEXT', text: pkg.text };
-  if (url) params.image_url = url;
-  if (pkg.dossier.visuel?.texte_alternatif) params.alt_text = pkg.dossier.visuel.texte_alternatif;
+  if (url) {
+    params.image_url = url;
+    // Meta refuse alt_text sur un post sans image : « cannot be used with the TEXT media type »
+    if (pkg.dossier.visuel?.texte_alternatif) params.alt_text = pkg.dossier.visuel.texte_alternatif;
+  }
   if (pkg.sujet) params.topic_tag = pkg.sujet;
   // format « lien seul » : l'aperçu de l'article remplace le visuel
   if (pkg.mode === 'lien') params.link_attachment = pkg.article.link;

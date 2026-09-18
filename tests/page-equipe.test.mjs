@@ -1,6 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
+import vm from 'node:vm';
 import { construirePublic, nomVignette, visuelSource } from '../src/measure/public.mjs';
 import { PAGE, politique, cspDeLaPage } from '../scripts/page-equipe.mjs';
 
@@ -115,6 +116,18 @@ test('page : la politique de sécurité correspond au code (node scripts/page-eq
   assert.equal(politique(html.replace(/\r?\n/g, '\r\n')), politique(html), 'empreintes identiques en fins de ligne Windows');
   assert.match(html, /<meta name="robots" content="noindex/);
   assert.match(html, /<meta name="referrer" content="no-referrer">/);
+});
+
+test('page : une adresse vide, relative ou étrangère n’est jamais un lien ni une image', () => {
+  // la fonction de la page elle-même, exécutée hors navigateur
+  const source = html.match(/function urlSure[\s\S]*?\r?\n {2}}\r?\n/)[0].replace('function urlSure', 'function');
+  const urlSure = vm.runInNewContext(`(${source})`, { URL });
+  const domaines = ['passion-aquitaine.ouest-france.fr', 'instagram.com'];
+  for (const v of [null, undefined, '', 'null', '/social/a.jpg', 'javascript:alert(1)', 'http://www.instagram.com/p/a', 'https://evil.example.com/x', 'https://instagram.com.evil.example.com/']) {
+    assert.equal(urlSure(v, domaines), null, `refusé : ${v}`);
+  }
+  assert.equal(urlSure('https://www.instagram.com/p/A/', domaines), 'https://www.instagram.com/p/A/');
+  assert.equal(urlSure('https://passion-aquitaine.ouest-france.fr/social/a.jpg', domaines), 'https://passion-aquitaine.ouest-france.fr/social/a.jpg');
 });
 
 test('page : aucun mot de l’envers du décor', () => {

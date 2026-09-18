@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-hClh/29xpfczt3Oz3B6AdM7R6hz0rEXp7E66200Ku+M='; style-src 'sha256-kw4+IrR7rD9dmTtIN33X1VEiuKSSprk6a+vlYitZCVo='; img-src 'self' data:; font-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-ubBPO6E/n5YbbyldMbowEJeuo+G8/fi1yRTejsQ3zIo='; style-src 'sha256-kw4+IrR7rD9dmTtIN33X1VEiuKSSprk6a+vlYitZCVo='; img-src 'self' data:; font-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'">
 <meta name="referrer" content="no-referrer">
 <meta name="robots" content="noindex, nofollow, noarchive">
 <meta name="color-scheme" content="light dark">
@@ -510,12 +510,13 @@ a.puce--threads:hover,a.puce--x:hover{color:var(--bg)}
   let derniereReussite = 0;
 
   // ---------- Sûreté : seuls des liens et visuels attendus sont affichés ----------
+  // adresse complète en https uniquement : une valeur vide ou relative n'est jamais un lien
   function urlSure(u, domaines) {
+    if (typeof u !== 'string' || !u.startsWith('https://')) return null;
     try {
-      const url = new URL(String(u), location.href);
-      if (url.protocol !== 'https:' && url.origin !== location.origin) return null;
+      const url = new URL(u);
       const hote = url.hostname.replace(/^www\./, '');
-      if (url.origin === location.origin || domaines.some((d) => hote === d || hote.endsWith('.' + d))) return url.href;
+      if (domaines.some((d) => hote === d || hote.endsWith('.' + d))) return url.href;
     } catch (e) { /* adresse illisible */ }
     return null;
   }

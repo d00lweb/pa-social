@@ -100,6 +100,9 @@ export function kitMessages(pkg) {
     }
   }
   if (lieu) messages.push(`📍 <b>Lieu à taguer</b>\n<code>${esc(lieu.nom)}</code>`);
+  // X permet d'ajouter une description d'image à la main : autant la fournir prête à coller
+  const alt = pkg.dossier?.visuel?.texte_alternatif;
+  if (alt) messages.push(`🖼️ <b>Description de l'image</b> (bouton « ALT » sur X)\n<code>${esc(alt)}</code>`);
   return messages;
 }
 

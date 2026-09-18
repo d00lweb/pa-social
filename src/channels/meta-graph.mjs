@@ -44,10 +44,12 @@ export function createGraph({ userId, token, version }) {
     },
 
     // userTags : [{ username, x, y }] — mentions posées sur l'image, invisibles dans le texte
-    async createImage(imageUrl, { carouselItem = false, caption, userTags } = {}) {
+    // altText : description pour les lecteurs d'écran, portée par chaque image du carrousel
+    async createImage(imageUrl, { carouselItem = false, caption, userTags, altText } = {}) {
       const params = { image_url: imageUrl };
       if (carouselItem) params.is_carousel_item = 'true';
       if (caption) params.caption = caption;
+      if (altText) params.alt_text = altText;
       if (userTags?.length) params.user_tags = JSON.stringify(userTags);
       const { id } = await call('POST', `${userId}/media`, params);
       return id;

@@ -101,13 +101,13 @@ export async function stage(pkg) {
 }
 
 // Un compte renommé ou passé en privé ne doit jamais empêcher la publication : on retire la mention
-async function creerImage(graph, url, userTags) {
+async function creerImage(graph, url, userTags, altText) {
   try {
-    return await graph.createImage(url, { carouselItem: true, userTags });
+    return await graph.createImage(url, { carouselItem: true, userTags, altText });
   } catch (err) {
     if (!userTags.length) throw err;
     console.error(`   Mentions abandonnées : ${err.message}`);
-    return graph.createImage(url, { carouselItem: true });
+    return graph.createImage(url, { carouselItem: true, altText });
   }
 }
 
@@ -136,8 +136,10 @@ export async function publish(pkg, { channel }) {
   if (userTags.length) console.log(`   Mentions : ${comptes.map((c) => `@${c.handle}`).join(' ')}`);
   if (lieu) console.log(`   Lieu : ${lieu.nom} (${lieu.niveau})`);
 
+  // la 1ʳᵉ image porte la description du sujet ; la 2ᵉ n'est que du texte, son texte alternatif est ce texte
+  const alts = [pkg.dossier.visuel?.texte_alternatif ?? '', pkg.dossier.visuel?.description ?? ''];
   const children = [];
-  for (const [i, url] of [url1, url2].entries()) children.push(await creerImage(graph, url, i === 0 ? userTags : []));
+  for (const [i, url] of [url1, url2].entries()) children.push(await creerImage(graph, url, i === 0 ? userTags : [], alts[i]));
   for (const child of children) await graph.waitFinished(child);
   const carousel = await creerCarrousel(graph, children, pkg.caption, lieu?.id);
   await graph.waitFinished(carousel);

@@ -28,7 +28,10 @@ Tu reçois un article du flux RSS (titre, description, catégories, date), le li
 - `titre` : le titre de l'article adapté au visuel, 90 caractères maximum, sens intact, jamais tronqué. Retire une amorce de lieu qui répète la rubrique (« En Haute-Vienne, … » avec la rubrique Haute-Vienne).
 - `surlignage` : le groupe de 1 à 3 mots le plus fort du titre, **copié exactement** depuis `titre` (même casse, mêmes apostrophes), 24 caractères maximum. Un chiffre avec son unité ou son nom (« 2 500 animaux », « 400 000 € »), un nom propre évocateur, ou le mot-clé du sujet (« matrimoine »). Jamais un groupe qui commence ou finit par un petit mot (de, du, des, le, la, les, un, une, à, au, en, par, pour, plus, an…). Évite de surligner la rubrique.
 - `description` : le texte de la 2ᵉ image du carrousel (fond rouge), 220 caractères maximum, 1 à 3 phrases. Il complète le titre sans le répéter : l'essentiel de l'article, formulé pour donner envie de lire. Pas d'emoji, pas de hashtag, pas de question racoleuse.
-- `texte_alternatif` : description factuelle du visuel pour les personnes aveugles (rubrique, titre, sujet de la photo d'après les données), sans détail visuel inventé.
+- `texte_alternatif` : ce qu'on dirait à quelqu'un qui ne voit pas l'image, simplement, à l'oral. 300 caractères maximum, une ou deux phrases.
+  - **Commence par le sujet concret** : « Le château de Hautefort domine la vallée, en Périgord. » Jamais par la mécanique du visuel : pas de « Visuel avec… », « Image montrant… », « illustré par… », et ne nomme ni la rubrique, ni l'encart, ni le titre en tant que titre.
+  - **N'affirme que ce que les données donnent** : le lieu, l'établissement, l'objet ou la personne dont parle l'article, la commune, et le fait marquant s'il s'insère naturellement dans la phrase. Tu ne vois pas la photo : jamais de couleur, de cadrage, de nombre de personnes, de météo ni d'émotion inventés.
+  - Les mots du lieu et du sujet doivent **venir d'eux-mêmes dans la phrase**, jamais en énumération de mots-clés.
 
 ## Entités à mentionner et localisation
 

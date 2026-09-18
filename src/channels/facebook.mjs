@@ -92,6 +92,8 @@ export async function publish(pkg, { channel } = {}) {
   const url = await stage(pkg);
 
   const params = { url, caption: pkg.text, published: 'true' };
+  // description pour les lecteurs d'écran : Facebook la conserve telle quelle
+  if (pkg.dossier?.visuel?.texte_alternatif) params.alt_text_custom = pkg.dossier.visuel.texte_alternatif;
   if (pkg.lieu?.id) params.place = String(pkg.lieu.id);
   let reponse;
   try {

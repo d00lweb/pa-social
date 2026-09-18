@@ -317,7 +317,7 @@ Les valeurs sensibles ne sont **jamais** dans ce dépôt. Elles sont dans le sec
 
 - Dépôt **public** `d00lweb/pa-social` : minutes Actions illimitées et gratuites (en privé, le quota gratuit serait dépassé). Aucun secret dans le code ; `.env` et `out/` sont ignorés.
 - Workflow `.github/workflows/publish.yml` :
-  - déclencheurs : `schedule` `*/20 * * * *` (peu fiable, sert de secours) et `workflow_dispatch` (utilisé par le cron o2switch et à la main) ;
+  - déclencheurs : `schedule` `*/10 * * * *` et `workflow_dispatch` (utilisé par le cron o2switch et à la main). **Le `schedule` n'est pas une horloge** : mesuré le 18/09/2026, GitHub n'a exécuté que 2 des 48 passages demandés, à des minutes arbitraires. On demande donc le plus court intervalle utile, non pour tenir une cadence mais pour multiplier les chances le jour où o2switch s'interrompt. La cadence réelle vient d'o2switch, à :00 et :20 ;
   - case « Test à blanc » au lancement manuel (`dry_run`) ;
   - `concurrency` : jamais deux exécutions simultanées ;
   - Node 24, cache npm et cache du navigateur Playwright ;

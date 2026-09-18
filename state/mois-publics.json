@@ -12,11 +12,11 @@
       "bluesky": 6
     },
     "gains": {
-      "facebook": null,
-      "instagram": null,
+      "facebook": -1,
+      "instagram": -2,
       "x": null,
-      "threads": null,
-      "bluesky": null
+      "threads": 0,
+      "bluesky": 1
     },
     "top": [
       {

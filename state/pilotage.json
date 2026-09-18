@@ -1,6 +1,6 @@
 {
-  "genereLe": "2026-09-18T21:20:52.714Z",
-  "jour": "2026-09-18",
+  "genereLe": "2026-09-18T22:00:42.904Z",
+  "jour": "2026-09-19",
   "reseaux": {
     "instagram": {
       "actif": true,
@@ -24,7 +24,7 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 2,
+      "aujourdhui": 0,
       "semaine": 8,
       "total": 8,
       "dernier": "2026-09-18T11:01:48.310Z",
@@ -60,7 +60,7 @@
         "image",
         "reply"
       ],
-      "aujourdhui": 2,
+      "aujourdhui": 0,
       "semaine": 6,
       "total": 6,
       "dernier": "2026-09-18T09:59:00.492Z",
@@ -88,7 +88,7 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 2,
+      "aujourdhui": 0,
       "semaine": 2,
       "total": 2,
       "dernier": "2026-09-18T11:22:43.533Z",
@@ -124,7 +124,7 @@
         "lien",
         "reponse"
       ],
-      "aujourdhui": 2,
+      "aujourdhui": 0,
       "semaine": 2,
       "total": 2,
       "dernier": "2026-09-18T11:07:55.596Z",
@@ -160,7 +160,7 @@
         "lien",
         "reponse"
       ],
-      "aujourdhui": 2,
+      "aujourdhui": 0,
       "semaine": 6,
       "total": 6,
       "dernier": "2026-09-18T07:20:44.799Z",
@@ -402,15 +402,15 @@
   },
   "rapports": [],
   "jetons": {
-    "verifieLe": "2026-09-17T22:00:39.387Z",
+    "verifieLe": "2026-09-18T22:00:42.904Z",
     "meta": {
       "expireLe": "2026-12-16T20:08:59.000Z",
-      "restant": 90,
+      "restant": 89,
       "renouvellement": "manuel"
     },
     "threads": {
       "expireLe": "2026-11-16T21:12:39.531Z",
-      "restant": 60,
+      "restant": 59,
       "renouvellement": "commande npm run threads:refresh"
     },
     "alertes": {}
@@ -461,27 +461,27 @@
   "abonnes": {
     "instagram": {
       "debut": 10146,
-      "fin": 10146,
-      "gain": 0,
+      "fin": 10144,
+      "gain": -2,
       "pct": 0,
       "depuis": "2026-09-18",
-      "au": "2026-09-18"
+      "au": "2026-09-19"
     },
     "facebook": {
       "debut": 42626,
-      "fin": 42626,
-      "gain": 0,
+      "fin": 42625,
+      "gain": -1,
       "pct": 0,
       "depuis": "2026-09-18",
-      "au": "2026-09-18"
+      "au": "2026-09-19"
     },
     "bluesky": {
       "debut": 1,
-      "fin": 1,
-      "gain": 0,
-      "pct": 0,
+      "fin": 2,
+      "gain": 1,
+      "pct": 100,
       "depuis": "2026-09-18",
-      "au": "2026-09-18"
+      "au": "2026-09-19"
     },
     "threads": {
       "debut": 1144,
@@ -489,7 +489,7 @@
       "gain": 0,
       "pct": 0,
       "depuis": "2026-09-18",
-      "au": "2026-09-18"
+      "au": "2026-09-19"
     },
     "x": {
       "debut": 2940,
@@ -502,7 +502,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-18T21:20:54.554Z",
+    "genereLe": "2026-09-18T22:00:46.494Z",
     "posts": 9,
     "parReseau": {
       "instagram": {
@@ -604,27 +604,27 @@
     "abonnes": {
       "instagram": {
         "debut": 10146,
-        "fin": 10146,
-        "gain": 0,
+        "fin": 10144,
+        "gain": -2,
         "pct": 0,
         "depuis": "2026-09-18",
-        "au": "2026-09-18"
+        "au": "2026-09-19"
       },
       "facebook": {
         "debut": 42626,
-        "fin": 42626,
-        "gain": 0,
+        "fin": 42625,
+        "gain": -1,
         "pct": 0,
         "depuis": "2026-09-18",
-        "au": "2026-09-18"
+        "au": "2026-09-19"
       },
       "bluesky": {
         "debut": 1,
-        "fin": 1,
-        "gain": 0,
-        "pct": 0,
+        "fin": 2,
+        "gain": 1,
+        "pct": 100,
         "depuis": "2026-09-18",
-        "au": "2026-09-18"
+        "au": "2026-09-19"
       },
       "threads": {
         "debut": 1144,
@@ -632,7 +632,7 @@
         "gain": 0,
         "pct": 0,
         "depuis": "2026-09-18",
-        "au": "2026-09-18"
+        "au": "2026-09-19"
       },
       "x": {
         "debut": 2940,
@@ -647,7 +647,7 @@
       "instagram": 0.11
     },
     "conseils": [
-      "Trop peu de recul pour conseiller quoi que ce soit : il faut une dizaine de posts mesurés."
+      "Abonnés : aucun compte ne progresse."
     ]
   }
 }

@@ -10,6 +10,25 @@ const OUVERTS = ['pending', 'awaiting'];
 
 const titre = (item) => item?.article?.title ?? '';
 
+// Le robot ne tourne qu'aux passages du cron o2switch, à :00 et :20. Une publication due entre
+// deux passages ne peut pas partir avant le suivant : la page doit annoncer l'heure réelle, pas
+// l'heure théorique de la file. Un post dû à 12:22 sort à 13:00, pas à 12:22.
+// Les minutes sont identiques dans tout fuseau décalé d'un nombre entier d'heures : on peut donc
+// raisonner sur l'horodatage sans convertir. Le cron GitHub peut déclencher plus tôt, mais il est
+// trop irrégulier pour qu'on promette son heure.
+export const PASSAGES = [0, 20];
+
+export function prochainPassage(dueAt, maintenant = Date.now()) {
+  const base = Math.max(new Date(dueAt).getTime(), maintenant);
+  const depart = new Date(base);
+  depart.setSeconds(0, 0);
+  for (let i = 0; i <= 60; i++) {
+    const essai = new Date(depart.getTime() + i * 60_000);
+    if (PASSAGES.includes(essai.getUTCMinutes()) && essai.getTime() >= base) return essai;
+  }
+  return new Date(base);
+}
+
 // Expiration connue des jetons : Meta ne la prolonge pas tout seul, Threads si.
 function jetons() {
   let meta = null;
@@ -44,7 +63,13 @@ export function construire({ history, queue, mesures = [], rapports = [], mainte
   const file = queue
     .filter((q) => OUVERTS.includes(q.status))
     .sort((a, b) => a.dueAt - b.dueAt)
-    .map((q) => ({ channel: q.channel, dueAt: new Date(q.dueAt).toISOString(), titre: titre(q) }));
+    .map((q) => ({
+      channel: q.channel,
+      dueAt: new Date(q.dueAt).toISOString(),
+      // heure à laquelle le post peut réellement partir, l'échéance seule étant trompeuse
+      prochainPassage: prochainPassage(q.dueAt, maintenant).toISOString(),
+      titre: titre(q),
+    }));
 
   // Ce qui a échoué ou a été bloqué reste visible une semaine : c'est ce qu'on veut voir en premier
   const alertes = queue

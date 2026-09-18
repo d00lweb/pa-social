@@ -574,11 +574,27 @@
       <div class="row"><div>⚠️ ${esc(NOMS[a.channel] ?? a.channel)} · ${esc(a.titre)}<small>${esc(a.raison)}</small></div><span class="when">${esc(a.statut)}</span></div>`).join('');
   }
 
+  // Le robot ne tourne qu'aux passages du cron o2switch, à :00 et :20 : une échéance tombée entre
+  // deux passages ne part qu'au suivant. On recalcule ici plutôt que de réutiliser l'heure inscrite
+  // dans l'instantané, qui serait déjà dépassée dès que la page est ouverte un peu plus tard.
+  // Règle de référence et tests : src/measure/pilotage.mjs
+  const passageReel = (dueAt) => {
+    const base = Math.max(new Date(dueAt).getTime(), Date.now());
+    const d = new Date(base);
+    d.setSeconds(0, 0);
+    for (let i = 0; i <= 60; i++) {
+      const essai = new Date(d.getTime() + i * 60000);
+      if ([0, 20].includes(essai.getUTCMinutes()) && essai.getTime() >= base) return essai;
+    }
+    return new Date(base);
+  };
+
   $('live-file').innerHTML = etat.file?.length
     ? etat.file.map((f) => {
         // une heure dépassée ne doit pas s'annoncer comme « prévue » : le post attend le prochain passage
         const retard = new Date(f.dueAt) < new Date();
-        return `<div class="row"><div>${esc(NOMS[f.channel] ?? f.channel)}<small>${esc(f.titre)}</small></div><span class="when"${retard ? ' style="color:var(--warn,#c2410c)"' : ''}>${retard ? 'en attente depuis' : 'prévu'} ${quand(f.dueAt)}</span></div>`;
+        const reel = passageReel(f.dueAt);
+        return `<div class="row"><div>${esc(NOMS[f.channel] ?? f.channel)}<small>${esc(f.titre)}</small></div><span class="when"${retard ? ' style="color:var(--warn,#c2410c)"' : ''}>${retard ? 'en retard, part vers' : 'vers'} ${quand(reel)}</span></div>`;
       }).join('')
     : '<div class="row"><div>Rien en attente<small>Le prochain article du flux sera planifié automatiquement</small></div></div>';
 

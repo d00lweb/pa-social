@@ -42,6 +42,8 @@ async function existeSurInstagram(handle, image) {
         user_tags: JSON.stringify([{ username: handle, x: 0.5, y: 0.9 }]),
         access_token: token,
       }),
+      // sans délai, un appel qui ne répond pas fige toute l'exécution
+      signal: AbortSignal.timeout(15000),
     });
     return res.ok;
   } catch {

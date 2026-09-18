@@ -33,7 +33,8 @@ export async function uploadFiles(files, { host, user, pass, dir }) {
 
 // Meta télécharge l'image : elle doit être servie publiquement en JPEG
 export async function assertPublic(url) {
-  const res = await fetch(url, { cache: 'no-store', redirect: 'manual' });
+  // sans délai, une réponse qui ne vient jamais fige toute l'exécution
+  const res = await fetch(url, { cache: 'no-store', redirect: 'manual', signal: AbortSignal.timeout(20000) });
   await res.body?.cancel();
   const type = res.headers.get('content-type') ?? '';
   if (!res.ok || !type.startsWith('image/')) {

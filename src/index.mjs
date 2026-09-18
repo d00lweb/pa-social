@@ -269,6 +269,9 @@ function prune(queue, now) {
 // Au plus une publication due par canal actif et non en pause
 async function execute({ history, queue, memory, controls, now }) {
   let failed = 0;
+  // L'attente aléatoire s'appliquait à chaque réseau : trois réseaux dus au même passage
+  // cumulaient jusqu'à 27 min et l'exécution était tuée avant d'avoir fini. Budget partagé.
+  let budgetAttente = 6 * 60e3;
   for (const channel of enabledChannels()) {
     if (isPaused(controls, channel.id)) continue;
     const item = queue.filter((q) => q.channel === channel.id && q.status === 'pending' && q.dueAt <= now).sort((a, b) => a.dueAt - b.dueAt)[0];
@@ -300,9 +303,10 @@ async function execute({ history, queue, memory, controls, now }) {
       const impl = CHANNELS[channel.id];
       const pkg = await impl.prepare(item.article, { dossier: item.dossier });
       // délai aléatoire : les publications ne tombent pas pile sur les minutes du cron
-      if (channel.publishDelayMinutes) {
-        const wait = jitter(channel.publishDelayMinutes);
-        console.log(`Attente aléatoire avant publication : ${Math.round(wait / 1000)} s`);
+      if (channel.publishDelayMinutes && budgetAttente > 0) {
+        const wait = Math.min(jitter(channel.publishDelayMinutes), budgetAttente);
+        budgetAttente -= wait;
+        console.log(`Attente aléatoire avant publication : ${Math.round(wait / 1000)} s (budget restant ${Math.round(budgetAttente / 1000)} s)`);
         await new Promise((r) => setTimeout(r, wait));
       }
       const { mediaId } = await impl.publish(pkg, { channel });

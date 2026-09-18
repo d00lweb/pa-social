@@ -573,7 +573,11 @@
   }
 
   $('live-file').innerHTML = etat.file?.length
-    ? etat.file.map((f) => `<div class="row"><div>${esc(NOMS[f.channel] ?? f.channel)}<small>${esc(f.titre)}</small></div><span class="when">prévu ${quand(f.dueAt)}</span></div>`).join('')
+    ? etat.file.map((f) => {
+        // une heure dépassée ne doit pas s'annoncer comme « prévue » : le post attend le prochain passage
+        const retard = new Date(f.dueAt) < new Date();
+        return `<div class="row"><div>${esc(NOMS[f.channel] ?? f.channel)}<small>${esc(f.titre)}</small></div><span class="when"${retard ? ' style="color:var(--warn,#c2410c)"' : ''}>${retard ? 'en attente depuis' : 'prévu'} ${quand(f.dueAt)}</span></div>`;
+      }).join('')
     : '<div class="row"><div>Rien en attente<small>Le prochain article du flux sera planifié automatiquement</small></div></div>';
 
   const m = etat.mesures?.parReseau ?? {};

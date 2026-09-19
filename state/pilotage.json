@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-19T05:22:11.402Z",
+  "genereLe": "2026-09-19T05:51:44.513Z",
   "jour": "2026-09-19",
   "reseaux": {
     "instagram": {
@@ -393,6 +393,51 @@
       "prevuInitialement": null,
       "raison": null,
       "titre": "Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée du Périgord"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-09-19T07:26:31.772Z",
+      "prochainPassage": "2026-09-19T08:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "À Capbreton, un canyon de 4 500 mètres dort sous les bateaux"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-09-19T08:00:00.000Z",
+      "prochainPassage": "2026-09-19T08:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "À Capbreton, un canyon de 4 500 mètres dort sous les bateaux"
+    },
+    {
+      "channel": "threads",
+      "dueAt": "2026-09-19T09:11:03.366Z",
+      "prochainPassage": "2026-09-19T09:20:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "À Capbreton, un canyon de 4 500 mètres dort sous les bateaux"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-09-19T10:14:17.255Z",
+      "prochainPassage": "2026-09-19T10:20:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "À Capbreton, un canyon de 4 500 mètres dort sous les bateaux"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-09-19T19:13:32.431Z",
+      "prochainPassage": "2026-09-19T19:20:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "À Capbreton, un canyon de 4 500 mètres dort sous les bateaux"
     }
   ],
   "alertes": [],
@@ -502,7 +547,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-19T05:22:12.000Z",
+    "genereLe": "2026-09-19T05:51:59.518Z",
     "posts": 9,
     "parReseau": {
       "instagram": {

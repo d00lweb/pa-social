@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-19T09:20:46.031Z",
+  "genereLe": "2026-09-19T10:00:35.469Z",
   "jour": "2026-09-19",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 8,
-      "total": 8,
-      "dernier": "2026-09-18T11:01:48.310Z",
-      "lienDernier": "https://www.instagram.com/p/DdbR-NbnGSM/"
+      "aujourdhui": 1,
+      "semaine": 9,
+      "total": 9,
+      "dernier": "2026-09-19T10:14:43.372Z",
+      "lienDernier": "https://www.instagram.com/p/DddxYSwjf4g/"
     },
     "bluesky": {
       "actif": true,
@@ -172,7 +172,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=34145",
       "titre": "À Capbreton, un canyon de 4 500 mètres dort sous les bateaux",
       "lien": "https://passion-aquitaine.ouest-france.fr/gouf-capbreton-canyon-abysse-landes/",
-      "at": "2026-09-19T09:13:35.029Z",
+      "at": "2026-09-19T10:14:43.372Z",
       "reseaux": {
         "bluesky": {
           "texte": "🐋 Devant les plages de #Capbreton, le plancher océanique s’effondre : le Gouf plonge à 4 500 mètres, à seulement 300 mètres du bord. Ce canyon explique les vagues d’Hossegor et la présence de cachalots et d’orques.",
@@ -197,6 +197,14 @@
           "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/gouf-capbreton-canyon-abysse-landes/",
           "sujet": "Capbreton",
           "publieLe": "2026-09-19T09:13:35.029Z"
+        },
+        "instagram": {
+          "texte": "À 300 mètres du sable, le fond de l’océan tombe à 4 500 mètres de profondeur\n⠀\nLe Gouf de Capbreton est un canyon sous-marin qui commence juste devant les plages 🌊 Il façonne les vagues d’Hossegor et attire cachalots et orques.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Capbreton #Hossegor #Landes",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260919-139f1e9d-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-09-19T10:14:43.372Z"
         }
       }
     },
@@ -323,6 +331,16 @@
   ],
   "publications": [
     {
+      "channel": "instagram",
+      "at": "2026-09-19T10:14:43.372Z",
+      "titre": "À Capbreton, un canyon de 4 500 mètres dort sous les bateaux",
+      "lien": "https://passion-aquitaine.ouest-france.fr/gouf-capbreton-canyon-abysse-landes/",
+      "lienPost": "https://www.instagram.com/p/DddxYSwjf4g/",
+      "format": null,
+      "texte": "À 300 mètres du sable, le fond de l’océan tombe à 4 500 mètres de profondeur\n⠀\nLe Gouf de Capbreton est un canyon sous-marin qui commence juste devant les plages 🌊 Il façonne les vagues d’Hossegor et attire cachalots et orques.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Capbreton #Hossegor #Landes",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260919-139f1e9d-1.jpg"
+    },
+    {
       "channel": "threads",
       "at": "2026-09-19T09:13:35.029Z",
       "titre": "À Capbreton, un canyon de 4 500 mètres dort sous les bateaux",
@@ -411,28 +429,9 @@
       "format": "reply",
       "texte": "🥾 On n’imagine pas un trail comme une leçon d’histoire. La Périgordine Ultra Trail, elle, fait passer ses coureurs devant une grotte, une rivière et des châteaux sur 80 km. Première édition le 27 septembre en Périgord. #Perigord",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20260918-98a782d2-bsky.jpg"
-    },
-    {
-      "channel": "x",
-      "at": "2026-09-18T07:20:44.799Z",
-      "titre": "Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée du Périgord",
-      "lien": "https://passion-aquitaine.ouest-france.fr/perigordine-ultra-trail-2026-parcours/",
-      "lienPost": null,
-      "format": "reponse",
-      "texte": "Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée du Périgord 🏛️",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20260918-98a782d2-x.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "instagram",
-      "dueAt": "2026-09-19T10:14:17.255Z",
-      "prochainPassage": "2026-09-19T10:20:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "À Capbreton, un canyon de 4 500 mètres dort sous les bateaux"
-    },
     {
       "channel": "x",
       "dueAt": "2026-09-19T10:20:00.000Z",
@@ -490,7 +489,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 13,
+    "releves": 14,
     "parReseau": {}
   },
   "rapports": [],
@@ -595,8 +594,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-19T09:20:46.775Z",
-    "posts": 13,
+    "genereLe": "2026-09-19T10:14:43.929Z",
+    "posts": 14,
     "parReseau": {
       "instagram": {
         "posts": 6,
@@ -611,12 +610,16 @@
         "moyenne": 1
       },
       "bluesky": {
-        "posts": 5,
-        "moyenne": 0.4
+        "posts": 6,
+        "moyenne": 0.5
       }
     },
     "parFormat": {
       "reponse": {
+        "posts": 1,
+        "moyenne": 1
+      },
+      "reply": {
         "posts": 1,
         "moyenne": 1
       },
@@ -627,8 +630,8 @@
     },
     "parCreneau": {
       "matin": {
-        "posts": 10,
-        "moyenne": 5.6
+        "posts": 11,
+        "moyenne": 5.2
       },
       "soir": {
         "posts": 2,
@@ -652,8 +655,8 @@
           "moyenne": 0.5
         },
         "hors créneau": {
-          "posts": 3,
-          "moyenne": 0.3
+          "posts": 4,
+          "moyenne": 0.5
         }
       },
       "facebook": {
@@ -669,7 +672,7 @@
         }
       }
     },
-    "interactionsTotal": 62,
+    "interactionsTotal": 63,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35494",
       "channel": "instagram",
@@ -712,12 +715,12 @@
         "moyenne": 0
       },
       "sans": {
-        "posts": 13,
-        "moyenne": 4.8
+        "posts": 14,
+        "moyenne": 4.5
       }
     },
     "publies": {
-      "instagram": 8,
+      "instagram": 9,
       "bluesky": 7,
       "x": 7,
       "facebook": 3,

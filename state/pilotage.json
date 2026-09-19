@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-19T11:20:39.655Z",
+  "genereLe": "2026-09-19T12:00:43.178Z",
   "jour": "2026-09-19",
   "reseaux": {
     "instagram": {
@@ -495,7 +495,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 16,
+    "releves": 17,
     "parReseau": {}
   },
   "rapports": [],
@@ -554,7 +554,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-09-19T10:20:42.578Z"
+    "derniere": "2026-09-19T12:00:43.178Z"
   },
   "abonnes": {
     "instagram": {
@@ -600,8 +600,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-19T11:20:41.134Z",
-    "posts": 16,
+    "genereLe": "2026-09-19T12:00:46.403Z",
+    "posts": 17,
     "parReseau": {
       "instagram": {
         "posts": 7,
@@ -612,7 +612,7 @@
         "moyenne": 2
       },
       "facebook": {
-        "posts": 1,
+        "posts": 2,
         "moyenne": 1
       },
       "bluesky": {
@@ -643,12 +643,12 @@
         "posts": 11,
         "moyenne": 5.2
       },
-      "après-midi": {
-        "posts": 3,
-        "moyenne": 3
-      },
       "soir": {
         "posts": 2,
+        "moyenne": 2.5
+      },
+      "après-midi": {
+        "posts": 4,
         "moyenne": 2.5
       }
     },
@@ -677,6 +677,10 @@
         "8 h – 9 h 30": {
           "posts": 1,
           "moyenne": 1
+        },
+        "hors créneau": {
+          "posts": 1,
+          "moyenne": 1
         }
       },
       "threads": {
@@ -690,7 +694,7 @@
         }
       }
     },
-    "interactionsTotal": 71,
+    "interactionsTotal": 72,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35494",
       "channel": "instagram",
@@ -733,8 +737,8 @@
         "moyenne": 0
       },
       "sans": {
-        "posts": 16,
-        "moyenne": 4.4
+        "posts": 17,
+        "moyenne": 4.2
       }
     },
     "publies": {

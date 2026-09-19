@@ -1,6 +1,6 @@
 {
-  "genereLe": "2026-09-19T21:40:29.115Z",
-  "jour": "2026-09-19",
+  "genereLe": "2026-09-19T22:00:38.001Z",
+  "jour": "2026-09-20",
   "reseaux": {
     "instagram": {
       "actif": true,
@@ -24,7 +24,7 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 2,
+      "aujourdhui": 0,
       "semaine": 10,
       "total": 10,
       "dernier": "2026-09-19T16:07:56.872Z",
@@ -60,7 +60,7 @@
         "image",
         "reply"
       ],
-      "aujourdhui": 2,
+      "aujourdhui": 0,
       "semaine": 8,
       "total": 8,
       "dernier": "2026-09-19T10:27:27.860Z",
@@ -88,7 +88,7 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 2,
+      "aujourdhui": 0,
       "semaine": 4,
       "total": 4,
       "dernier": "2026-09-19T19:15:44.864Z",
@@ -124,7 +124,7 @@
         "lien",
         "reponse"
       ],
-      "aujourdhui": 3,
+      "aujourdhui": 0,
       "semaine": 5,
       "total": 5,
       "dernier": "2026-09-19T12:28:00.908Z",
@@ -160,7 +160,7 @@
         "lien",
         "reponse"
       ],
-      "aujourdhui": 2,
+      "aujourdhui": 0,
       "semaine": 8,
       "total": 8,
       "dernier": "2026-09-19T10:20:53.165Z",
@@ -497,15 +497,15 @@
   },
   "rapports": [],
   "jetons": {
-    "verifieLe": "2026-09-18T22:00:42.904Z",
+    "verifieLe": "2026-09-19T22:00:38.001Z",
     "meta": {
       "expireLe": "2026-12-16T20:08:59.000Z",
-      "restant": 89,
+      "restant": 88,
       "renouvellement": "manuel"
     },
     "threads": {
       "expireLe": "2026-11-16T21:12:39.531Z",
-      "restant": 59,
+      "restant": 58,
       "renouvellement": "commande npm run threads:refresh"
     },
     "alertes": {}
@@ -556,35 +556,35 @@
   "abonnes": {
     "instagram": {
       "debut": 10146,
-      "fin": 10144,
-      "gain": -2,
+      "fin": 10147,
+      "gain": 1,
       "pct": 0,
       "depuis": "2026-09-18",
-      "au": "2026-09-19"
+      "au": "2026-09-20"
     },
     "facebook": {
       "debut": 42626,
-      "fin": 42625,
-      "gain": -1,
+      "fin": 42624,
+      "gain": -2,
       "pct": 0,
       "depuis": "2026-09-18",
-      "au": "2026-09-19"
+      "au": "2026-09-20"
     },
     "bluesky": {
       "debut": 1,
-      "fin": 2,
-      "gain": 1,
-      "pct": 100,
+      "fin": 3,
+      "gain": 2,
+      "pct": 200,
       "depuis": "2026-09-18",
-      "au": "2026-09-19"
+      "au": "2026-09-20"
     },
     "threads": {
       "debut": 1144,
-      "fin": 1144,
-      "gain": 0,
-      "pct": 0,
+      "fin": 1146,
+      "gain": 2,
+      "pct": 0.2,
       "depuis": "2026-09-18",
-      "au": "2026-09-19"
+      "au": "2026-09-20"
     },
     "x": {
       "debut": 2940,
@@ -597,7 +597,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-19T21:40:31.301Z",
+    "genereLe": "2026-09-19T22:00:41.712Z",
     "posts": 17,
     "parReseau": {
       "instagram": {
@@ -748,35 +748,35 @@
     "abonnes": {
       "instagram": {
         "debut": 10146,
-        "fin": 10144,
-        "gain": -2,
+        "fin": 10147,
+        "gain": 1,
         "pct": 0,
         "depuis": "2026-09-18",
-        "au": "2026-09-19"
+        "au": "2026-09-20"
       },
       "facebook": {
         "debut": 42626,
-        "fin": 42625,
-        "gain": -1,
+        "fin": 42624,
+        "gain": -2,
         "pct": 0,
         "depuis": "2026-09-18",
-        "au": "2026-09-19"
+        "au": "2026-09-20"
       },
       "bluesky": {
         "debut": 1,
-        "fin": 2,
-        "gain": 1,
-        "pct": 100,
+        "fin": 3,
+        "gain": 2,
+        "pct": 200,
         "depuis": "2026-09-18",
-        "au": "2026-09-19"
+        "au": "2026-09-20"
       },
       "threads": {
         "debut": 1144,
-        "fin": 1144,
-        "gain": 0,
-        "pct": 0,
+        "fin": 1146,
+        "gain": 2,
+        "pct": 0.2,
         "depuis": "2026-09-18",
-        "au": "2026-09-19"
+        "au": "2026-09-20"
       },
       "x": {
         "debut": 2940,
@@ -794,7 +794,7 @@
     },
     "conseils": [
       "Le format « lien » fait 30 fois mieux que « image » (3 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « image » de la rotation dans config/channels.json.",
-      "Abonnés : aucun compte ne progresse."
+      "Abonnés : Threads progresse le plus (+2, +0,2 %) ; Facebook recule (−2), à surveiller."
     ]
   }
 }

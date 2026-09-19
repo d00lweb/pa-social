@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-19T08:20:43.077Z",
+  "genereLe": "2026-09-19T09:00:42.597Z",
   "jour": "2026-09-19",
   "reseaux": {
     "instagram": {
@@ -124,11 +124,11 @@
         "lien",
         "reponse"
       ],
-      "aujourdhui": 1,
-      "semaine": 3,
-      "total": 3,
-      "dernier": "2026-09-19T06:31:31.799Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DddXjCNm5xH"
+      "aujourdhui": 2,
+      "semaine": 4,
+      "total": 4,
+      "dernier": "2026-09-19T09:13:35.029Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DddqHvLGzq2"
     },
     "x": {
       "actif": true,
@@ -172,7 +172,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=34145",
       "titre": "À Capbreton, un canyon de 4 500 mètres dort sous les bateaux",
       "lien": "https://passion-aquitaine.ouest-france.fr/gouf-capbreton-canyon-abysse-landes/",
-      "at": "2026-09-19T08:00:55.324Z",
+      "at": "2026-09-19T09:13:35.029Z",
       "reseaux": {
         "bluesky": {
           "texte": "🐋 Devant les plages de #Capbreton, le plancher océanique s’effondre : le Gouf plonge à 4 500 mètres, à seulement 300 mètres du bord. Ce canyon explique les vagues d’Hossegor et la présence de cachalots et d’orques.",
@@ -189,6 +189,14 @@
           "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/gouf-capbreton-canyon-abysse-landes/",
           "sujet": null,
           "publieLe": "2026-09-19T08:00:55.324Z"
+        },
+        "threads": {
+          "texte": "Se baigner à quelques mètres d’un canyon de 4 500 mètres de profondeur, c’est possible à Capbreton 🌊 Le Gouf démarre à 300 mètres des plages. C’est lui qui donne aux vagues d’Hossegor leur réputation, et qui attire au large cachalots et orques. De quoi regarder l’horizon landais autrement lors de votre prochaine baignade.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260919-139f1e9d-th.jpg",
+          "mode": "reponse",
+          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/gouf-capbreton-canyon-abysse-landes/",
+          "sujet": "Capbreton",
+          "publieLe": "2026-09-19T09:13:35.029Z"
         }
       }
     },
@@ -315,6 +323,16 @@
   ],
   "publications": [
     {
+      "channel": "threads",
+      "at": "2026-09-19T09:13:35.029Z",
+      "titre": "À Capbreton, un canyon de 4 500 mètres dort sous les bateaux",
+      "lien": "https://passion-aquitaine.ouest-france.fr/gouf-capbreton-canyon-abysse-landes/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/DddqHvLGzq2",
+      "format": "reponse",
+      "texte": "Se baigner à quelques mètres d’un canyon de 4 500 mètres de profondeur, c’est possible à Capbreton 🌊 Le Gouf démarre à 300 mètres des plages. C’est lui qui donne aux vagues d’Hossegor leur réputation, et qui attire au large cachalots et orques. De quoi regarder l’horizon landais autrement lors de votre prochaine baignade.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260919-139f1e9d-th.jpg"
+    },
+    {
       "channel": "x",
       "at": "2026-09-19T08:00:55.324Z",
       "titre": "À Capbreton, un canyon de 4 500 mètres dort sous les bateaux",
@@ -403,28 +421,9 @@
       "format": "reponse",
       "texte": "Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée du Périgord 🏛️",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20260918-98a782d2-x.jpg"
-    },
-    {
-      "channel": "threads",
-      "at": "2026-09-18T07:18:51.326Z",
-      "titre": "Le brunch le plus généreux de Bordeaux a rouvert ses portes",
-      "lien": "https://passion-aquitaine.ouest-france.fr/reouverture-brunch-sans-pression-bordeaux/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/Dda4Biqm0-S",
-      "format": "reponse",
-      "texte": "Fermé pour travaux, le brunch gargantuesque du Sans Pression a rouvert à Bordeaux le 12 septembre, avec un tarif revu 📍",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20260917-6158b577-th.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "threads",
-      "dueAt": "2026-09-19T09:11:03.366Z",
-      "prochainPassage": "2026-09-19T09:20:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "À Capbreton, un canyon de 4 500 mètres dort sous les bateaux"
-    },
     {
       "channel": "instagram",
       "dueAt": "2026-09-19T10:14:17.255Z",
@@ -550,7 +549,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-09-19T07:21:09.081Z"
+    "derniere": "2026-09-19T09:00:42.597Z"
   },
   "abonnes": {
     "instagram": {
@@ -596,7 +595,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-19T08:20:43.814Z",
+    "genereLe": "2026-09-19T09:13:37.139Z",
     "posts": 13,
     "parReseau": {
       "instagram": {
@@ -722,7 +721,7 @@
       "bluesky": 7,
       "x": 7,
       "facebook": 3,
-      "threads": 3
+      "threads": 4
     },
     "abonnes": {
       "instagram": {

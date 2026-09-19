@@ -391,5 +391,41 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35586",
+    "channel": "x",
+    "at": "2026-09-19T10:20:53.165Z",
+    "mediaId": "kit-telegram",
+    "titre": "Cette maison du Lot-et-Garonne raconte la vie de son propriétaire à travers 600 céramiques",
+    "lien": "https://passion-aquitaine.ouest-france.fr/maison-assiettes-bias-lot-et-garonne/",
+    "lienPost": null,
+    "format": "reponse",
+    "mention": true,
+    "apercu": {
+      "texte": "Des murs couverts de 600 céramiques, du sol au plafond 🍽️ La Maison des Assiettes, décorée par Léon De Brondeau en Lot-et-Garonne, rouvre ses portes pour les Journées Européennes du Patrimoine.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260919-10392677-x.jpg",
+      "mode": "reponse",
+      "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/maison-assiettes-bias-lot-et-garonne/",
+      "sujet": null
+    }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35586",
+    "channel": "bluesky",
+    "at": "2026-09-19T10:27:27.860Z",
+    "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mvuhveevl22i",
+    "titre": "Cette maison du Lot-et-Garonne raconte la vie de son propriétaire à travers 600 céramiques",
+    "lien": "https://passion-aquitaine.ouest-france.fr/maison-assiettes-bias-lot-et-garonne/",
+    "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mvuhveevl22i",
+    "format": "reply",
+    "mention": false,
+    "apercu": {
+      "texte": "Visiter une maison dont les murs racontent une biographie : c’est ce que propose la Maison des Assiettes, en Lot-et-Garonne. Léon De Brondeau y a posé 600 céramiques, et le lieu rouvre pour les Journées Européennes du Patrimoine 🏺 #LotEtGaronne",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260919-10392677-bsky.jpg",
+      "mode": "reply",
+      "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/maison-assiettes-bias-lot-et-garonne/",
+      "sujet": null
+    }
   }
 ]

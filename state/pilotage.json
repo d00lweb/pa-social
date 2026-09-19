@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-19T10:00:35.469Z",
+  "genereLe": "2026-09-19T10:20:42.578Z",
   "jour": "2026-09-19",
   "reseaux": {
     "instagram": {
@@ -60,11 +60,11 @@
         "image",
         "reply"
       ],
-      "aujourdhui": 1,
-      "semaine": 7,
-      "total": 7,
-      "dernier": "2026-09-19T07:26:34.983Z",
-      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mvu5rvtywv2b"
+      "aujourdhui": 2,
+      "semaine": 8,
+      "total": 8,
+      "dernier": "2026-09-19T10:27:27.860Z",
+      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mvuhveevl22i"
     },
     "facebook": {
       "actif": true,
@@ -160,14 +160,38 @@
         "lien",
         "reponse"
       ],
-      "aujourdhui": 1,
-      "semaine": 7,
-      "total": 7,
-      "dernier": "2026-09-19T08:00:55.324Z",
+      "aujourdhui": 2,
+      "semaine": 8,
+      "total": 8,
+      "dernier": "2026-09-19T10:20:53.165Z",
       "lienDernier": null
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35586",
+      "titre": "Cette maison du Lot-et-Garonne raconte la vie de son propriétaire à travers 600 céramiques",
+      "lien": "https://passion-aquitaine.ouest-france.fr/maison-assiettes-bias-lot-et-garonne/",
+      "at": "2026-09-19T10:27:27.860Z",
+      "reseaux": {
+        "x": {
+          "texte": "Des murs couverts de 600 céramiques, du sol au plafond 🍽️ La Maison des Assiettes, décorée par Léon De Brondeau en Lot-et-Garonne, rouvre ses portes pour les Journées Européennes du Patrimoine.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260919-10392677-x.jpg",
+          "mode": "reponse",
+          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/maison-assiettes-bias-lot-et-garonne/",
+          "sujet": null,
+          "publieLe": "2026-09-19T10:20:53.165Z"
+        },
+        "bluesky": {
+          "texte": "Visiter une maison dont les murs racontent une biographie : c’est ce que propose la Maison des Assiettes, en Lot-et-Garonne. Léon De Brondeau y a posé 600 céramiques, et le lieu rouvre pour les Journées Européennes du Patrimoine 🏺 #LotEtGaronne",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260919-10392677-bsky.jpg",
+          "mode": "reply",
+          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/maison-assiettes-bias-lot-et-garonne/",
+          "sujet": null,
+          "publieLe": "2026-09-19T10:27:27.860Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=34145",
       "titre": "À Capbreton, un canyon de 4 500 mètres dort sous les bateaux",
@@ -331,6 +355,26 @@
   ],
   "publications": [
     {
+      "channel": "bluesky",
+      "at": "2026-09-19T10:27:27.860Z",
+      "titre": "Cette maison du Lot-et-Garonne raconte la vie de son propriétaire à travers 600 céramiques",
+      "lien": "https://passion-aquitaine.ouest-france.fr/maison-assiettes-bias-lot-et-garonne/",
+      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mvuhveevl22i",
+      "format": "reply",
+      "texte": "Visiter une maison dont les murs racontent une biographie : c’est ce que propose la Maison des Assiettes, en Lot-et-Garonne. Léon De Brondeau y a posé 600 céramiques, et le lieu rouvre pour les Journées Européennes du Patrimoine 🏺 #LotEtGaronne",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260919-10392677-bsky.jpg"
+    },
+    {
+      "channel": "x",
+      "at": "2026-09-19T10:20:53.165Z",
+      "titre": "Cette maison du Lot-et-Garonne raconte la vie de son propriétaire à travers 600 céramiques",
+      "lien": "https://passion-aquitaine.ouest-france.fr/maison-assiettes-bias-lot-et-garonne/",
+      "lienPost": null,
+      "format": "reponse",
+      "texte": "Des murs couverts de 600 céramiques, du sol au plafond 🍽️ La Maison des Assiettes, décorée par Léon De Brondeau en Lot-et-Garonne, rouvre ses portes pour les Journées Européennes du Patrimoine.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260919-10392677-x.jpg"
+    },
+    {
       "channel": "instagram",
       "at": "2026-09-19T10:14:43.372Z",
       "titre": "À Capbreton, un canyon de 4 500 mètres dort sous les bateaux",
@@ -409,47 +453,9 @@
       "format": "lien",
       "texte": "🍙 Bordeaux, quartier des Carmes. Le restaurant Morimoto, au sein du Mondrian, met en place un nouveau menu déjeuner à 33 €, servi en 45 minutes. Une façon de goûter à la cuisine du chef japonais sans y passer toute la pause de midi.",
       "image": null
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-09-18T11:01:48.310Z",
-      "titre": "Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée du Périgord",
-      "lien": "https://passion-aquitaine.ouest-france.fr/perigordine-ultra-trail-2026-parcours/",
-      "lienPost": "https://www.instagram.com/p/DdbR-NbnGSM/",
-      "format": null,
-      "texte": "80 km de sentiers entre une grotte, une rivière et des châteaux du Périgord\n⠀\nLa Périgordine Ultra Trail lance sa première édition 🗓️ le 27 septembre, avec un parcours qui raconte une histoire méconnue de la Dordogne.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Perigord #UltraTrail #Dordogne",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20260918-98a782d2-1.jpg"
-    },
-    {
-      "channel": "bluesky",
-      "at": "2026-09-18T09:59:00.492Z",
-      "titre": "Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée du Périgord",
-      "lien": "https://passion-aquitaine.ouest-france.fr/perigordine-ultra-trail-2026-parcours/",
-      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mvrvtko3vk2o",
-      "format": "reply",
-      "texte": "🥾 On n’imagine pas un trail comme une leçon d’histoire. La Périgordine Ultra Trail, elle, fait passer ses coureurs devant une grotte, une rivière et des châteaux sur 80 km. Première édition le 27 septembre en Périgord. #Perigord",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20260918-98a782d2-bsky.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "x",
-      "dueAt": "2026-09-19T10:20:00.000Z",
-      "prochainPassage": "2026-09-19T10:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Cette maison du Lot-et-Garonne raconte la vie de son propriétaire à travers 600 céramiques"
-    },
-    {
-      "channel": "bluesky",
-      "dueAt": "2026-09-19T10:27:25.567Z",
-      "prochainPassage": "2026-09-19T11:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Cette maison du Lot-et-Garonne raconte la vie de son propriétaire à travers 600 céramiques"
-    },
     {
       "channel": "threads",
       "dueAt": "2026-09-19T12:24:57.982Z",
@@ -548,7 +554,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-09-19T09:00:42.597Z"
+    "derniere": "2026-09-19T10:20:42.578Z"
   },
   "abonnes": {
     "instagram": {
@@ -594,7 +600,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-19T10:14:43.929Z",
+    "genereLe": "2026-09-19T10:27:34.040Z",
     "posts": 14,
     "parReseau": {
       "instagram": {
@@ -721,8 +727,8 @@
     },
     "publies": {
       "instagram": 9,
-      "bluesky": 7,
-      "x": 7,
+      "bluesky": 8,
+      "x": 8,
       "facebook": 3,
       "threads": 4
     },

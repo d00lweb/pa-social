@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-19T07:21:09.081Z",
+  "genereLe": "2026-09-19T08:00:45.460Z",
   "jour": "2026-09-19",
   "reseaux": {
     "instagram": {
@@ -160,10 +160,10 @@
         "lien",
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 6,
-      "total": 6,
-      "dernier": "2026-09-18T07:20:44.799Z",
+      "aujourdhui": 1,
+      "semaine": 7,
+      "total": 7,
+      "dernier": "2026-09-19T08:00:55.324Z",
       "lienDernier": null
     }
   },
@@ -172,7 +172,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=34145",
       "titre": "À Capbreton, un canyon de 4 500 mètres dort sous les bateaux",
       "lien": "https://passion-aquitaine.ouest-france.fr/gouf-capbreton-canyon-abysse-landes/",
-      "at": "2026-09-19T07:26:34.983Z",
+      "at": "2026-09-19T08:00:55.324Z",
       "reseaux": {
         "bluesky": {
           "texte": "🐋 Devant les plages de #Capbreton, le plancher océanique s’effondre : le Gouf plonge à 4 500 mètres, à seulement 300 mètres du bord. Ce canyon explique les vagues d’Hossegor et la présence de cachalots et d’orques.",
@@ -181,6 +181,14 @@
           "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/gouf-capbreton-canyon-abysse-landes/",
           "sujet": null,
           "publieLe": "2026-09-19T07:26:34.983Z"
+        },
+        "x": {
+          "texte": "Le Gouf de #Capbreton commence 🌊 à 300 mètres des plages et descend à 4 500 mètres. Ce canyon sous-marin façonne les vagues d’Hossegor et attire cachalots et orques au large des Landes.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260919-139f1e9d-x.jpg",
+          "mode": "reponse",
+          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/gouf-capbreton-canyon-abysse-landes/",
+          "sujet": null,
+          "publieLe": "2026-09-19T08:00:55.324Z"
         }
       }
     },
@@ -307,6 +315,16 @@
   ],
   "publications": [
     {
+      "channel": "x",
+      "at": "2026-09-19T08:00:55.324Z",
+      "titre": "À Capbreton, un canyon de 4 500 mètres dort sous les bateaux",
+      "lien": "https://passion-aquitaine.ouest-france.fr/gouf-capbreton-canyon-abysse-landes/",
+      "lienPost": null,
+      "format": "reponse",
+      "texte": "Le Gouf de #Capbreton commence 🌊 à 300 mètres des plages et descend à 4 500 mètres. Ce canyon sous-marin façonne les vagues d’Hossegor et attire cachalots et orques au large des Landes.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260919-139f1e9d-x.jpg"
+    },
+    {
       "channel": "bluesky",
       "at": "2026-09-19T07:26:34.983Z",
       "titre": "À Capbreton, un canyon de 4 500 mètres dort sous les bateaux",
@@ -395,28 +413,9 @@
       "format": "reponse",
       "texte": "Fermé pour travaux, le brunch gargantuesque du Sans Pression a rouvert à Bordeaux le 12 septembre, avec un tarif revu 📍",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20260917-6158b577-th.jpg"
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-09-18T07:13:27.681Z",
-      "titre": "Le brunch le plus généreux de Bordeaux a rouvert ses portes",
-      "lien": "https://passion-aquitaine.ouest-france.fr/reouverture-brunch-sans-pression-bordeaux/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1723720813087133",
-      "format": null,
-      "texte": "Le brunch le plus généreux de Bordeaux a rouvert ses portes 📍",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20260917-6158b577-fb.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "x",
-      "dueAt": "2026-09-19T08:00:00.000Z",
-      "prochainPassage": "2026-09-19T08:00:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "À Capbreton, un canyon de 4 500 mètres dort sous les bateaux"
-    },
     {
       "channel": "threads",
       "dueAt": "2026-09-19T09:11:03.366Z",
@@ -597,7 +596,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-19T07:26:42.011Z",
+    "genereLe": "2026-09-19T08:01:00.093Z",
     "posts": 13,
     "parReseau": {
       "instagram": {
@@ -721,7 +720,7 @@
     "publies": {
       "instagram": 8,
       "bluesky": 7,
-      "x": 6,
+      "x": 7,
       "facebook": 3,
       "threads": 3
     },

@@ -283,5 +283,23 @@
       "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/nouveau-menu-morimoto-bordeaux/",
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35569",
+    "channel": "threads",
+    "at": "2026-09-19T06:31:31.799Z",
+    "mediaId": "18126514783885632",
+    "titre": "Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée du Périgord",
+    "lien": "https://passion-aquitaine.ouest-france.fr/perigordine-ultra-trail-2026-parcours/",
+    "lienPost": "https://www.threads.com/@lovaquitaine/post/DddXjCNm5xH",
+    "format": "reponse",
+    "mention": false,
+    "apercu": {
+      "texte": "Courir et découvrir en même temps, c’est la promesse de cette nouvelle épreuve 🗺️ La Périgordine Ultra Trail propose 80 km à travers une grotte, une rivière et des châteaux, pour sa première édition le 27 septembre. De quoi voir le Périgord autrement, et croiser une histoire que les guides touristiques racontent rarement.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260918-98a782d2-th.jpg",
+      "mode": "reponse",
+      "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/perigordine-ultra-trail-2026-parcours/",
+      "sujet": "Périgord"
+    }
   }
 ]

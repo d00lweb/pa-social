@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-19T06:00:41.122Z",
+  "genereLe": "2026-09-19T06:20:44.424Z",
   "jour": "2026-09-19",
   "reseaux": {
     "instagram": {
@@ -124,11 +124,11 @@
         "lien",
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 2,
-      "total": 2,
-      "dernier": "2026-09-18T11:07:55.596Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DdbSnKokXjW"
+      "aujourdhui": 1,
+      "semaine": 3,
+      "total": 3,
+      "dernier": "2026-09-19T06:31:31.799Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DddXjCNm5xH"
     },
     "x": {
       "actif": true,
@@ -168,6 +168,46 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35569",
+      "titre": "Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée du Périgord",
+      "lien": "https://passion-aquitaine.ouest-france.fr/perigordine-ultra-trail-2026-parcours/",
+      "at": "2026-09-19T06:31:31.799Z",
+      "reseaux": {
+        "x": {
+          "texte": "Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée du Périgord 🏛️",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260918-98a782d2-x.jpg",
+          "mode": "reponse",
+          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/perigordine-ultra-trail-2026-parcours/",
+          "sujet": null,
+          "publieLe": "2026-09-18T07:20:44.799Z"
+        },
+        "bluesky": {
+          "texte": "🥾 On n’imagine pas un trail comme une leçon d’histoire. La Périgordine Ultra Trail, elle, fait passer ses coureurs devant une grotte, une rivière et des châteaux sur 80 km. Première édition le 27 septembre en Périgord. #Perigord",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260918-98a782d2-bsky.jpg",
+          "mode": "reply",
+          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/perigordine-ultra-trail-2026-parcours/",
+          "sujet": null,
+          "publieLe": "2026-09-18T09:59:00.492Z"
+        },
+        "instagram": {
+          "texte": "80 km de sentiers entre une grotte, une rivière et des châteaux du Périgord\n⠀\nLa Périgordine Ultra Trail lance sa première édition 🗓️ le 27 septembre, avec un parcours qui raconte une histoire méconnue de la Dordogne.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Perigord #UltraTrail #Dordogne",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260918-98a782d2-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-09-18T11:01:48.310Z"
+        },
+        "threads": {
+          "texte": "Courir et découvrir en même temps, c’est la promesse de cette nouvelle épreuve 🗺️ La Périgordine Ultra Trail propose 80 km à travers une grotte, une rivière et des châteaux, pour sa première édition le 27 septembre. De quoi voir le Périgord autrement, et croiser une histoire que les guides touristiques racontent rarement.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260918-98a782d2-th.jpg",
+          "mode": "reponse",
+          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/perigordine-ultra-trail-2026-parcours/",
+          "sujet": "Périgord",
+          "publieLe": "2026-09-19T06:31:31.799Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=34715",
       "titre": "Morimoto Bordeaux dévoile son nouveau menu déjeuner à 33 €",
@@ -217,38 +257,6 @@
       }
     },
     {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35569",
-      "titre": "Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée du Périgord",
-      "lien": "https://passion-aquitaine.ouest-france.fr/perigordine-ultra-trail-2026-parcours/",
-      "at": "2026-09-18T11:01:48.310Z",
-      "reseaux": {
-        "x": {
-          "texte": "Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée du Périgord 🏛️",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260918-98a782d2-x.jpg",
-          "mode": "reponse",
-          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/perigordine-ultra-trail-2026-parcours/",
-          "sujet": null,
-          "publieLe": "2026-09-18T07:20:44.799Z"
-        },
-        "bluesky": {
-          "texte": "🥾 On n’imagine pas un trail comme une leçon d’histoire. La Périgordine Ultra Trail, elle, fait passer ses coureurs devant une grotte, une rivière et des châteaux sur 80 km. Première édition le 27 septembre en Périgord. #Perigord",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260918-98a782d2-bsky.jpg",
-          "mode": "reply",
-          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/perigordine-ultra-trail-2026-parcours/",
-          "sujet": null,
-          "publieLe": "2026-09-18T09:59:00.492Z"
-        },
-        "instagram": {
-          "texte": "80 km de sentiers entre une grotte, une rivière et des châteaux du Périgord\n⠀\nLa Périgordine Ultra Trail lance sa première édition 🗓️ le 27 septembre, avec un parcours qui raconte une histoire méconnue de la Dordogne.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Perigord #UltraTrail #Dordogne",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260918-98a782d2-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-18T11:01:48.310Z"
-        }
-      }
-    },
-    {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35561",
       "titre": "Le brunch le plus généreux de Bordeaux a rouvert ses portes",
       "lien": "https://passion-aquitaine.ouest-france.fr/reouverture-brunch-sans-pression-bordeaux/",
@@ -274,6 +282,16 @@
     }
   ],
   "publications": [
+    {
+      "channel": "threads",
+      "at": "2026-09-19T06:31:31.799Z",
+      "titre": "Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée du Périgord",
+      "lien": "https://passion-aquitaine.ouest-france.fr/perigordine-ultra-trail-2026-parcours/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/DddXjCNm5xH",
+      "format": "reponse",
+      "texte": "Courir et découvrir en même temps, c’est la promesse de cette nouvelle épreuve 🗺️ La Périgordine Ultra Trail propose 80 km à travers une grotte, une rivière et des châteaux, pour sa première édition le 27 septembre. De quoi voir le Périgord autrement, et croiser une histoire que les guides touristiques racontent rarement.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260918-98a782d2-th.jpg"
+    },
     {
       "channel": "facebook",
       "at": "2026-09-18T11:22:43.533Z",
@@ -363,28 +381,9 @@
       "format": "lien",
       "texte": "On n’attendait pas une grande table japonaise sur le créneau du midi express 🥢 À #Bordeaux, Morimoto lance un menu déjeuner à 33 €, servi en 45 minutes, au Mondrian Les Carmes.\n➡️ https://passion-aquitaine.ouest-france.fr/nouveau-menu-morimoto-bordeaux/",
       "image": null
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-09-18T06:25:34.962Z",
-      "titre": "Morimoto Bordeaux dévoile son nouveau menu déjeuner à 33 €",
-      "lien": "https://passion-aquitaine.ouest-france.fr/nouveau-menu-morimoto-bordeaux/",
-      "lienPost": "https://www.instagram.com/p/DdayW2FD944/",
-      "format": null,
-      "texte": "Une table japonaise de Bordeaux ouvre sa pause déjeuner à 33 € 🍣\n⠀\nLe restaurant Morimoto, installé au Mondrian Bordeaux Les Carmes, lance une formule du midi servie en 45 minutes. De quoi déjeuner vite dans un cadre signé par un chef japonais.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #Morimoto #Restaurant",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20260918-d98b6f23-1.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "threads",
-      "dueAt": "2026-09-19T06:28:44.793Z",
-      "prochainPassage": "2026-09-19T07:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée du Périgord"
-    },
     {
       "channel": "facebook",
       "dueAt": "2026-09-19T07:03:17.682Z",
@@ -547,7 +546,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-19T06:00:43.455Z",
+    "genereLe": "2026-09-19T06:31:32.611Z",
     "posts": 9,
     "parReseau": {
       "instagram": {
@@ -644,7 +643,7 @@
       "bluesky": 6,
       "x": 6,
       "facebook": 2,
-      "threads": 2
+      "threads": 3
     },
     "abonnes": {
       "instagram": {

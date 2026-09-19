@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-19T11:00:54.479Z",
+  "genereLe": "2026-09-19T11:20:39.655Z",
   "jour": "2026-09-19",
   "reseaux": {
     "instagram": {
@@ -495,7 +495,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 14,
+    "releves": 16,
     "parReseau": {}
   },
   "rapports": [],
@@ -600,18 +600,18 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-19T11:00:55.038Z",
-    "posts": 14,
+    "genereLe": "2026-09-19T11:20:41.134Z",
+    "posts": 16,
     "parReseau": {
       "instagram": {
-        "posts": 6,
-        "moyenne": 9.7
-      },
-      "facebook": {
-        "posts": 1,
-        "moyenne": 1
+        "posts": 7,
+        "moyenne": 9
       },
       "threads": {
+        "posts": 2,
+        "moyenne": 2
+      },
+      "facebook": {
         "posts": 1,
         "moyenne": 1
       },
@@ -621,6 +621,10 @@
       }
     },
     "parFormat": {
+      "lien": {
+        "posts": 1,
+        "moyenne": 3
+      },
       "reponse": {
         "posts": 1,
         "moyenne": 1
@@ -639,13 +643,13 @@
         "posts": 11,
         "moyenne": 5.2
       },
+      "après-midi": {
+        "posts": 3,
+        "moyenne": 3
+      },
       "soir": {
         "posts": 2,
         "moyenne": 2.5
-      },
-      "après-midi": {
-        "posts": 1,
-        "moyenne": 1
       }
     },
     "parCreneauReseau": {
@@ -653,6 +657,10 @@
         "hors créneau": {
           "posts": 6,
           "moyenne": 9.7
+        },
+        "12 h – 13 h 30": {
+          "posts": 1,
+          "moyenne": 5
         }
       },
       "bluesky": {
@@ -672,13 +680,17 @@
         }
       },
       "threads": {
+        "13 h – 14 h 30": {
+          "posts": 1,
+          "moyenne": 3
+        },
         "hors créneau": {
           "posts": 1,
           "moyenne": 1
         }
       }
     },
-    "interactionsTotal": 63,
+    "interactionsTotal": 71,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35494",
       "channel": "instagram",
@@ -721,8 +733,8 @@
         "moyenne": 0
       },
       "sans": {
-        "posts": 14,
-        "moyenne": 4.5
+        "posts": 16,
+        "moyenne": 4.4
       }
     },
     "publies": {
@@ -775,12 +787,12 @@
       }
     },
     "engagement": {
-      "instagram": 0.1,
-      "facebook": 0,
-      "threads": 0.09
+      "instagram": 0.09,
+      "threads": 0.17,
+      "facebook": 0
     },
     "conseils": [
-      "Le format « reponse » fait 10 fois mieux que « image » (1 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « image » de la rotation dans config/channels.json.",
+      "Le format « lien » fait 30 fois mieux que « image » (3 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « image » de la rotation dans config/channels.json.",
       "Abonnés : aucun compte ne progresse."
     ]
   }

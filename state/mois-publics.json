@@ -3,7 +3,7 @@
     "cle": "2026-09",
     "publications": 32,
     "articles": 10,
-    "interactions": 63,
+    "interactions": 71,
     "parReseau": {
       "facebook": 3,
       "instagram": 9,
@@ -42,17 +42,17 @@
       },
       {
         "reseau": "instagram",
+        "titre": "Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée du Périgord",
+        "lien": "https://www.instagram.com/p/DdbR-NbnGSM/",
+        "image": "https://passion-aquitaine.ouest-france.fr/social/20260918-98a782d2-1-vignette.jpg",
+        "interactions": 5
+      },
+      {
+        "reseau": "instagram",
         "titre": "Le corps de Montaigne a disparu pendant plus d’un siècle",
         "lien": "https://www.instagram.com/p/DdSLxZRlOrg/",
         "image": "https://passion-aquitaine.ouest-france.fr/social/20260914-6b9e9334-1-vignette.jpg",
         "interactions": 4
-      },
-      {
-        "reseau": "instagram",
-        "titre": "Dans le Noir, le restaurant bordelais où l’on dîne à l’aveugle",
-        "lien": "https://www.instagram.com/p/DdVtxO9DG1L/",
-        "image": "https://passion-aquitaine.ouest-france.fr/social/20260916-6d6361f5-1-vignette.jpg",
-        "interactions": 3
       }
     ]
   }

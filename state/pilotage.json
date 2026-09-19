@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-19T06:20:44.424Z",
+  "genereLe": "2026-09-19T07:00:34.975Z",
   "jour": "2026-09-19",
   "reseaux": {
     "instagram": {
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 2,
-      "total": 2,
-      "dernier": "2026-09-18T11:22:43.533Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1723889383070276"
+      "aujourdhui": 1,
+      "semaine": 3,
+      "total": 3,
+      "dernier": "2026-09-19T07:06:06.447Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1724696099656271"
     },
     "threads": {
       "actif": true,
@@ -172,7 +172,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35569",
       "titre": "Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée du Périgord",
       "lien": "https://passion-aquitaine.ouest-france.fr/perigordine-ultra-trail-2026-parcours/",
-      "at": "2026-09-19T06:31:31.799Z",
+      "at": "2026-09-19T07:06:06.447Z",
       "reseaux": {
         "x": {
           "texte": "Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée du Périgord 🏛️",
@@ -205,6 +205,14 @@
           "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/perigordine-ultra-trail-2026-parcours/",
           "sujet": "Périgord",
           "publieLe": "2026-09-19T06:31:31.799Z"
+        },
+        "facebook": {
+          "texte": "En Périgord, un trail de 80 km relie grotte, rivière et châteaux le 27 septembre 🏃",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260918-98a782d2-fb.jpg",
+          "mode": null,
+          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/perigordine-ultra-trail-2026-parcours/",
+          "sujet": null,
+          "publieLe": "2026-09-19T07:06:06.447Z"
         }
       }
     },
@@ -282,6 +290,16 @@
     }
   ],
   "publications": [
+    {
+      "channel": "facebook",
+      "at": "2026-09-19T07:06:06.447Z",
+      "titre": "Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée du Périgord",
+      "lien": "https://passion-aquitaine.ouest-france.fr/perigordine-ultra-trail-2026-parcours/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1724696099656271",
+      "format": null,
+      "texte": "En Périgord, un trail de 80 km relie grotte, rivière et châteaux le 27 septembre 🏃",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260918-98a782d2-fb.jpg"
+    },
     {
       "channel": "threads",
       "at": "2026-09-19T06:31:31.799Z",
@@ -371,28 +389,9 @@
       "format": "image",
       "texte": "33 € et 45 minutes : c’est le nouveau format du déjeuner chez Morimoto, le restaurant japonais du Mondrian #Bordeaux Les Carmes. Une formule pensée pour les midis pressés, dans l’une des adresses les plus commentées de la ville 🥢\n➡️ Lire l’article",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20260918-d98b6f23-bsky.jpg"
-    },
-    {
-      "channel": "x",
-      "at": "2026-09-18T06:25:35.593Z",
-      "titre": "Morimoto Bordeaux dévoile son nouveau menu déjeuner à 33 €",
-      "lien": "https://passion-aquitaine.ouest-france.fr/nouveau-menu-morimoto-bordeaux/",
-      "lienPost": null,
-      "format": "lien",
-      "texte": "On n’attendait pas une grande table japonaise sur le créneau du midi express 🥢 À #Bordeaux, Morimoto lance un menu déjeuner à 33 €, servi en 45 minutes, au Mondrian Les Carmes.\n➡️ https://passion-aquitaine.ouest-france.fr/nouveau-menu-morimoto-bordeaux/",
-      "image": null
     }
   ],
   "file": [
-    {
-      "channel": "facebook",
-      "dueAt": "2026-09-19T07:03:17.682Z",
-      "prochainPassage": "2026-09-19T07:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée du Périgord"
-    },
     {
       "channel": "bluesky",
       "dueAt": "2026-09-19T07:26:31.772Z",
@@ -441,7 +440,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 9,
+    "releves": 10,
     "parReseau": {}
   },
   "rapports": [],
@@ -546,12 +545,12 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-19T06:31:32.611Z",
-    "posts": 9,
+    "genereLe": "2026-09-19T07:06:07.348Z",
+    "posts": 10,
     "parReseau": {
       "instagram": {
-        "posts": 5,
-        "moyenne": 11
+        "posts": 6,
+        "moyenne": 9.7
       },
       "bluesky": {
         "posts": 4,
@@ -561,8 +560,8 @@
     "parFormat": {},
     "parCreneau": {
       "matin": {
-        "posts": 6,
-        "moyenne": 8.5
+        "posts": 7,
+        "moyenne": 7.7
       },
       "soir": {
         "posts": 2,
@@ -576,8 +575,8 @@
     "parCreneauReseau": {
       "instagram": {
         "hors créneau": {
-          "posts": 5,
-          "moyenne": 11
+          "posts": 6,
+          "moyenne": 9.7
         }
       },
       "bluesky": {
@@ -591,7 +590,7 @@
         }
       }
     },
-    "interactionsTotal": 57,
+    "interactionsTotal": 60,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35494",
       "channel": "instagram",
@@ -634,15 +633,15 @@
         "moyenne": 0
       },
       "sans": {
-        "posts": 9,
-        "moyenne": 6.3
+        "posts": 10,
+        "moyenne": 6
       }
     },
     "publies": {
       "instagram": 8,
       "bluesky": 6,
       "x": 6,
-      "facebook": 2,
+      "facebook": 3,
       "threads": 3
     },
     "abonnes": {
@@ -688,7 +687,7 @@
       }
     },
     "engagement": {
-      "instagram": 0.11
+      "instagram": 0.1
     },
     "conseils": [
       "Abonnés : aucun compte ne progresse."

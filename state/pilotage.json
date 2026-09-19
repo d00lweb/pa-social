@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-19T12:00:43.178Z",
+  "genereLe": "2026-09-19T12:20:35.921Z",
   "jour": "2026-09-19",
   "reseaux": {
     "instagram": {
@@ -124,11 +124,11 @@
         "lien",
         "reponse"
       ],
-      "aujourdhui": 2,
-      "semaine": 4,
-      "total": 4,
-      "dernier": "2026-09-19T09:13:35.029Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DddqHvLGzq2"
+      "aujourdhui": 3,
+      "semaine": 5,
+      "total": 5,
+      "dernier": "2026-09-19T12:28:00.908Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DdeAT1CFqKH"
     },
     "x": {
       "actif": true,
@@ -172,7 +172,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35586",
       "titre": "Cette maison du Lot-et-Garonne raconte la vie de son propriétaire à travers 600 céramiques",
       "lien": "https://passion-aquitaine.ouest-france.fr/maison-assiettes-bias-lot-et-garonne/",
-      "at": "2026-09-19T10:27:27.860Z",
+      "at": "2026-09-19T12:28:00.908Z",
       "reseaux": {
         "x": {
           "texte": "Des murs couverts de 600 céramiques, du sol au plafond 🍽️ La Maison des Assiettes, décorée par Léon De Brondeau en Lot-et-Garonne, rouvre ses portes pour les Journées Européennes du Patrimoine.",
@@ -189,6 +189,14 @@
           "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/maison-assiettes-bias-lot-et-garonne/",
           "sujet": null,
           "publieLe": "2026-09-19T10:27:27.860Z"
+        },
+        "threads": {
+          "texte": "🏺 Détail méconnu : les 600 céramiques de cette maison du Lot-et-Garonne ne sont pas là pour faire joli. Léon De Brondeau les a choisies et posées comme autant de repères de sa propre existence. Une façon d’écrire une autobiographie sur les murs. Le lieu rouvre pour les Journées Européennes du Patrimoine. Seriez-vous tenté par la visite ?",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260919-10392677-th.jpg",
+          "mode": "reponse",
+          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/maison-assiettes-bias-lot-et-garonne/",
+          "sujet": "Lot-et-Garonne",
+          "publieLe": "2026-09-19T12:28:00.908Z"
         }
       }
     },
@@ -355,6 +363,16 @@
   ],
   "publications": [
     {
+      "channel": "threads",
+      "at": "2026-09-19T12:28:00.908Z",
+      "titre": "Cette maison du Lot-et-Garonne raconte la vie de son propriétaire à travers 600 céramiques",
+      "lien": "https://passion-aquitaine.ouest-france.fr/maison-assiettes-bias-lot-et-garonne/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/DdeAT1CFqKH",
+      "format": "reponse",
+      "texte": "🏺 Détail méconnu : les 600 céramiques de cette maison du Lot-et-Garonne ne sont pas là pour faire joli. Léon De Brondeau les a choisies et posées comme autant de repères de sa propre existence. Une façon d’écrire une autobiographie sur les murs. Le lieu rouvre pour les Journées Européennes du Patrimoine. Seriez-vous tenté par la visite ?",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260919-10392677-th.jpg"
+    },
+    {
       "channel": "bluesky",
       "at": "2026-09-19T10:27:27.860Z",
       "titre": "Cette maison du Lot-et-Garonne raconte la vie de son propriétaire à travers 600 céramiques",
@@ -443,28 +461,9 @@
       "format": null,
       "texte": "Déjeuner chez Morimoto à Bordeaux pour 🍱 33 € et en 45 minutes : la formule vous tente ?",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20260918-d98b6f23-fb.jpg"
-    },
-    {
-      "channel": "threads",
-      "at": "2026-09-18T11:07:55.596Z",
-      "titre": "Morimoto Bordeaux dévoile son nouveau menu déjeuner à 33 €",
-      "lien": "https://passion-aquitaine.ouest-france.fr/nouveau-menu-morimoto-bordeaux/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/DdbSnKokXjW",
-      "format": "lien",
-      "texte": "🍙 Bordeaux, quartier des Carmes. Le restaurant Morimoto, au sein du Mondrian, met en place un nouveau menu déjeuner à 33 €, servi en 45 minutes. Une façon de goûter à la cuisine du chef japonais sans y passer toute la pause de midi.",
-      "image": null
     }
   ],
   "file": [
-    {
-      "channel": "threads",
-      "dueAt": "2026-09-19T12:24:57.982Z",
-      "prochainPassage": "2026-09-19T13:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Cette maison du Lot-et-Garonne raconte la vie de son propriétaire à travers 600 céramiques"
-    },
     {
       "channel": "instagram",
       "dueAt": "2026-09-19T16:07:20.900Z",
@@ -600,7 +599,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-19T12:00:46.403Z",
+    "genereLe": "2026-09-19T12:28:01.474Z",
     "posts": 17,
     "parReseau": {
       "instagram": {
@@ -746,7 +745,7 @@
       "bluesky": 8,
       "x": 8,
       "facebook": 3,
-      "threads": 4
+      "threads": 5
     },
     "abonnes": {
       "instagram": {

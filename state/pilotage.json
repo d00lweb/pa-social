@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-19T18:20:36.995Z",
+  "genereLe": "2026-09-19T19:00:48.920Z",
   "jour": "2026-09-19",
   "reseaux": {
     "instagram": {
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 1,
-      "semaine": 3,
-      "total": 3,
-      "dernier": "2026-09-19T07:06:06.447Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1724696099656271"
+      "aujourdhui": 2,
+      "semaine": 4,
+      "total": 4,
+      "dernier": "2026-09-19T19:15:44.864Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1725251196267428"
     },
     "threads": {
       "actif": true,
@@ -169,6 +169,54 @@
   },
   "articles": [
     {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=34145",
+      "titre": "À Capbreton, un canyon de 4 500 mètres dort sous les bateaux",
+      "lien": "https://passion-aquitaine.ouest-france.fr/gouf-capbreton-canyon-abysse-landes/",
+      "at": "2026-09-19T19:15:44.864Z",
+      "reseaux": {
+        "bluesky": {
+          "texte": "🐋 Devant les plages de #Capbreton, le plancher océanique s’effondre : le Gouf plonge à 4 500 mètres, à seulement 300 mètres du bord. Ce canyon explique les vagues d’Hossegor et la présence de cachalots et d’orques.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260919-139f1e9d-bsky.jpg",
+          "mode": "reply",
+          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/gouf-capbreton-canyon-abysse-landes/",
+          "sujet": null,
+          "publieLe": "2026-09-19T07:26:34.983Z"
+        },
+        "x": {
+          "texte": "Le Gouf de #Capbreton commence 🌊 à 300 mètres des plages et descend à 4 500 mètres. Ce canyon sous-marin façonne les vagues d’Hossegor et attire cachalots et orques au large des Landes.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260919-139f1e9d-x.jpg",
+          "mode": "reponse",
+          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/gouf-capbreton-canyon-abysse-landes/",
+          "sujet": null,
+          "publieLe": "2026-09-19T08:00:55.324Z"
+        },
+        "threads": {
+          "texte": "Se baigner à quelques mètres d’un canyon de 4 500 mètres de profondeur, c’est possible à Capbreton 🌊 Le Gouf démarre à 300 mètres des plages. C’est lui qui donne aux vagues d’Hossegor leur réputation, et qui attire au large cachalots et orques. De quoi regarder l’horizon landais autrement lors de votre prochaine baignade.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260919-139f1e9d-th.jpg",
+          "mode": "reponse",
+          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/gouf-capbreton-canyon-abysse-landes/",
+          "sujet": "Capbreton",
+          "publieLe": "2026-09-19T09:13:35.029Z"
+        },
+        "instagram": {
+          "texte": "À 300 mètres du sable, le fond de l’océan tombe à 4 500 mètres de profondeur\n⠀\nLe Gouf de Capbreton est un canyon sous-marin qui commence juste devant les plages 🌊 Il façonne les vagues d’Hossegor et attire cachalots et orques.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Capbreton #Hossegor #Landes",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260919-139f1e9d-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-09-19T10:14:43.372Z"
+        },
+        "facebook": {
+          "texte": "Capbreton cache un canyon sous-marin de 4 500 mètres, à 300 mètres des plages 🌊",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260919-139f1e9d-fb.jpg",
+          "mode": null,
+          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/gouf-capbreton-canyon-abysse-landes/",
+          "sujet": null,
+          "publieLe": "2026-09-19T19:15:44.864Z"
+        }
+      }
+    },
+    {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35586",
       "titre": "Cette maison du Lot-et-Garonne raconte la vie de son propriétaire à travers 600 céramiques",
       "lien": "https://passion-aquitaine.ouest-france.fr/maison-assiettes-bias-lot-et-garonne/",
@@ -205,46 +253,6 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-09-19T16:07:56.872Z"
-        }
-      }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=34145",
-      "titre": "À Capbreton, un canyon de 4 500 mètres dort sous les bateaux",
-      "lien": "https://passion-aquitaine.ouest-france.fr/gouf-capbreton-canyon-abysse-landes/",
-      "at": "2026-09-19T10:14:43.372Z",
-      "reseaux": {
-        "bluesky": {
-          "texte": "🐋 Devant les plages de #Capbreton, le plancher océanique s’effondre : le Gouf plonge à 4 500 mètres, à seulement 300 mètres du bord. Ce canyon explique les vagues d’Hossegor et la présence de cachalots et d’orques.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260919-139f1e9d-bsky.jpg",
-          "mode": "reply",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/gouf-capbreton-canyon-abysse-landes/",
-          "sujet": null,
-          "publieLe": "2026-09-19T07:26:34.983Z"
-        },
-        "x": {
-          "texte": "Le Gouf de #Capbreton commence 🌊 à 300 mètres des plages et descend à 4 500 mètres. Ce canyon sous-marin façonne les vagues d’Hossegor et attire cachalots et orques au large des Landes.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260919-139f1e9d-x.jpg",
-          "mode": "reponse",
-          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/gouf-capbreton-canyon-abysse-landes/",
-          "sujet": null,
-          "publieLe": "2026-09-19T08:00:55.324Z"
-        },
-        "threads": {
-          "texte": "Se baigner à quelques mètres d’un canyon de 4 500 mètres de profondeur, c’est possible à Capbreton 🌊 Le Gouf démarre à 300 mètres des plages. C’est lui qui donne aux vagues d’Hossegor leur réputation, et qui attire au large cachalots et orques. De quoi regarder l’horizon landais autrement lors de votre prochaine baignade.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260919-139f1e9d-th.jpg",
-          "mode": "reponse",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/gouf-capbreton-canyon-abysse-landes/",
-          "sujet": "Capbreton",
-          "publieLe": "2026-09-19T09:13:35.029Z"
-        },
-        "instagram": {
-          "texte": "À 300 mètres du sable, le fond de l’océan tombe à 4 500 mètres de profondeur\n⠀\nLe Gouf de Capbreton est un canyon sous-marin qui commence juste devant les plages 🌊 Il façonne les vagues d’Hossegor et attire cachalots et orques.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Capbreton #Hossegor #Landes",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260919-139f1e9d-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-19T10:14:43.372Z"
         }
       }
     },
@@ -371,6 +379,16 @@
   ],
   "publications": [
     {
+      "channel": "facebook",
+      "at": "2026-09-19T19:15:44.864Z",
+      "titre": "À Capbreton, un canyon de 4 500 mètres dort sous les bateaux",
+      "lien": "https://passion-aquitaine.ouest-france.fr/gouf-capbreton-canyon-abysse-landes/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1725251196267428",
+      "format": null,
+      "texte": "Capbreton cache un canyon sous-marin de 4 500 mètres, à 300 mètres des plages 🌊",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260919-139f1e9d-fb.jpg"
+    },
+    {
       "channel": "instagram",
       "at": "2026-09-19T16:07:56.872Z",
       "titre": "Cette maison du Lot-et-Garonne raconte la vie de son propriétaire à travers 600 céramiques",
@@ -459,28 +477,9 @@
       "format": null,
       "texte": "En Périgord, un trail de 80 km relie grotte, rivière et châteaux le 27 septembre 🏃",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20260918-98a782d2-fb.jpg"
-    },
-    {
-      "channel": "threads",
-      "at": "2026-09-19T06:31:31.799Z",
-      "titre": "Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée du Périgord",
-      "lien": "https://passion-aquitaine.ouest-france.fr/perigordine-ultra-trail-2026-parcours/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/DddXjCNm5xH",
-      "format": "reponse",
-      "texte": "Courir et découvrir en même temps, c’est la promesse de cette nouvelle épreuve 🗺️ La Périgordine Ultra Trail propose 80 km à travers une grotte, une rivière et des châteaux, pour sa première édition le 27 septembre. De quoi voir le Périgord autrement, et croiser une histoire que les guides touristiques racontent rarement.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20260918-98a782d2-th.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "facebook",
-      "dueAt": "2026-09-19T19:13:32.431Z",
-      "prochainPassage": "2026-09-19T19:20:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "À Capbreton, un canyon de 4 500 mètres dort sous les bateaux"
-    },
     {
       "channel": "facebook",
       "dueAt": "2026-09-20T06:05:09.433Z",
@@ -552,7 +551,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-09-19T18:00:42.399Z"
+    "derniere": "2026-09-19T19:00:48.920Z"
   },
   "abonnes": {
     "instagram": {
@@ -598,7 +597,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-19T18:20:37.467Z",
+    "genereLe": "2026-09-19T19:15:47.420Z",
     "posts": 17,
     "parReseau": {
       "instagram": {
@@ -743,7 +742,7 @@
       "instagram": 10,
       "bluesky": 8,
       "x": 8,
-      "facebook": 3,
+      "facebook": 4,
       "threads": 5
     },
     "abonnes": {

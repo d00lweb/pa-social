@@ -463,5 +463,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=34145",
+    "channel": "facebook",
+    "at": "2026-09-19T19:15:44.864Z",
+    "mediaId": "227437307428711_1725251196267428",
+    "titre": "À Capbreton, un canyon de 4 500 mètres dort sous les bateaux",
+    "lien": "https://passion-aquitaine.ouest-france.fr/gouf-capbreton-canyon-abysse-landes/",
+    "lienPost": "https://www.facebook.com/1720946116697936/posts/1725251196267428",
+    "format": null,
+    "mention": false,
+    "apercu": {
+      "texte": "Capbreton cache un canyon sous-marin de 4 500 mètres, à 300 mètres des plages 🌊",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260919-139f1e9d-fb.jpg",
+      "mode": null,
+      "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/gouf-capbreton-canyon-abysse-landes/",
+      "sujet": null
+    }
   }
 ]

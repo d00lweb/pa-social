@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-20T07:20:41.364Z",
+  "genereLe": "2026-09-20T08:00:36.108Z",
   "jour": "2026-09-20",
   "reseaux": {
     "instagram": {
@@ -160,10 +160,10 @@
         "lien",
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 8,
-      "total": 8,
-      "dernier": "2026-09-19T10:20:53.165Z",
+      "aujourdhui": 1,
+      "semaine": 9,
+      "total": 9,
+      "dernier": "2026-09-20T08:00:45.886Z",
       "lienDernier": null
     }
   },
@@ -172,7 +172,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35478",
       "titre": "Ces dauphins près des plages d’Hossegor ne sont pas bon signe",
       "lien": "https://passion-aquitaine.ouest-france.fr/dauphins-hossegor-signal-alerte-gouf-capbreton/",
-      "at": "2026-09-20T07:25:05.112Z",
+      "at": "2026-09-20T08:00:45.886Z",
       "reseaux": {
         "threads": {
           "texte": "Un matin de promenade sur le sable, des ailerons qui fendent l’eau à quelques dizaines de mètres, et tout le monde s’arrête. C’est la scène que vivent les promeneurs d’Hossegor et de Capbreton. Sauf qu’une biologiste marine ne partage pas tout à fait cet émerveillement : pour elle, des dauphins aussi proches du rivage racontent autre chose 🐬\n➡️ https://passion-aquitaine.ouest-france.fr/dauphins-hossegor-signal-alerte-gouf-capbreton/",
@@ -189,6 +189,14 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-09-20T07:25:05.112Z"
+        },
+        "x": {
+          "texte": "🐬 Pourquoi des dauphins viennent-ils nager si près des plages d’#Hossegor et de Capbreton ? Les promeneurs y voient un spectacle. Une biologiste marine, elle, y lit un signal d’alerte.\n➡️ https://passion-aquitaine.ouest-france.fr/dauphins-hossegor-signal-alerte-gouf-capbreton/",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260920-834e0391-x.jpg",
+          "mode": "image",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-09-20T08:00:45.886Z"
         }
       }
     },
@@ -411,6 +419,16 @@
   ],
   "publications": [
     {
+      "channel": "x",
+      "at": "2026-09-20T08:00:45.886Z",
+      "titre": "Ces dauphins près des plages d’Hossegor ne sont pas bon signe",
+      "lien": "https://passion-aquitaine.ouest-france.fr/dauphins-hossegor-signal-alerte-gouf-capbreton/",
+      "lienPost": null,
+      "format": "image",
+      "texte": "🐬 Pourquoi des dauphins viennent-ils nager si près des plages d’#Hossegor et de Capbreton ? Les promeneurs y voient un spectacle. Une biologiste marine, elle, y lit un signal d’alerte.\n➡️ https://passion-aquitaine.ouest-france.fr/dauphins-hossegor-signal-alerte-gouf-capbreton/",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260920-834e0391-x.jpg"
+    },
+    {
       "channel": "bluesky",
       "at": "2026-09-20T07:25:05.112Z",
       "titre": "Ces dauphins près des plages d’Hossegor ne sont pas bon signe",
@@ -499,28 +517,9 @@
       "format": null,
       "texte": "À 300 mètres du sable, le fond de l’océan tombe à 4 500 mètres de profondeur\n⠀\nLe Gouf de Capbreton est un canyon sous-marin qui commence juste devant les plages 🌊 Il façonne les vagues d’Hossegor et attire cachalots et orques.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Capbreton #Hossegor #Landes",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20260919-139f1e9d-1.jpg"
-    },
-    {
-      "channel": "threads",
-      "at": "2026-09-19T09:13:35.029Z",
-      "titre": "À Capbreton, un canyon de 4 500 mètres dort sous les bateaux",
-      "lien": "https://passion-aquitaine.ouest-france.fr/gouf-capbreton-canyon-abysse-landes/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/DddqHvLGzq2",
-      "format": "reponse",
-      "texte": "Se baigner à quelques mètres d’un canyon de 4 500 mètres de profondeur, c’est possible à Capbreton 🌊 Le Gouf démarre à 300 mètres des plages. C’est lui qui donne aux vagues d’Hossegor leur réputation, et qui attire au large cachalots et orques. De quoi regarder l’horizon landais autrement lors de votre prochaine baignade.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20260919-139f1e9d-th.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "x",
-      "dueAt": "2026-09-20T08:00:00.000Z",
-      "prochainPassage": "2026-09-20T08:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Ces dauphins près des plages d’Hossegor ne sont pas bon signe"
-    },
     {
       "channel": "instagram",
       "dueAt": "2026-09-20T11:27:08.831Z",
@@ -542,7 +541,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 19,
+    "releves": 20,
     "parReseau": {}
   },
   "rapports": [],
@@ -647,8 +646,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-20T07:25:10.737Z",
-    "posts": 19,
+    "genereLe": "2026-09-20T08:00:49.376Z",
+    "posts": 20,
     "parReseau": {
       "instagram": {
         "posts": 7,
@@ -663,8 +662,8 @@
         "moyenne": 1
       },
       "bluesky": {
-        "posts": 6,
-        "moyenne": 0.5
+        "posts": 7,
+        "moyenne": 0.6
       }
     },
     "parFormat": {
@@ -677,7 +676,7 @@
         "moyenne": 1
       },
       "reply": {
-        "posts": 1,
+        "posts": 2,
         "moyenne": 1
       },
       "image": {
@@ -687,8 +686,8 @@
     },
     "parCreneau": {
       "matin": {
-        "posts": 13,
-        "moyenne": 4.5
+        "posts": 14,
+        "moyenne": 4.3
       },
       "soir": {
         "posts": 2,
@@ -712,8 +711,8 @@
       },
       "bluesky": {
         "8 h – 9 h 30": {
-          "posts": 2,
-          "moyenne": 0.5
+          "posts": 3,
+          "moyenne": 0.7
         },
         "hors créneau": {
           "posts": 4,
@@ -745,7 +744,7 @@
         }
       }
     },
-    "interactionsTotal": 74,
+    "interactionsTotal": 75,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35494",
       "channel": "instagram",
@@ -788,14 +787,14 @@
         "moyenne": 0
       },
       "sans": {
-        "posts": 19,
-        "moyenne": 3.9
+        "posts": 20,
+        "moyenne": 3.8
       }
     },
     "publies": {
       "instagram": 10,
       "bluesky": 9,
-      "x": 8,
+      "x": 9,
       "facebook": 5,
       "threads": 6
     },

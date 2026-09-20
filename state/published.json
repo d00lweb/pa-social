@@ -535,5 +535,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35478",
+    "channel": "x",
+    "at": "2026-09-20T08:00:45.886Z",
+    "mediaId": "kit-telegram",
+    "titre": "Ces dauphins près des plages d’Hossegor ne sont pas bon signe",
+    "lien": "https://passion-aquitaine.ouest-france.fr/dauphins-hossegor-signal-alerte-gouf-capbreton/",
+    "lienPost": null,
+    "format": "image",
+    "mention": false,
+    "apercu": {
+      "texte": "🐬 Pourquoi des dauphins viennent-ils nager si près des plages d’#Hossegor et de Capbreton ? Les promeneurs y voient un spectacle. Une biologiste marine, elle, y lit un signal d’alerte.\n➡️ https://passion-aquitaine.ouest-france.fr/dauphins-hossegor-signal-alerte-gouf-capbreton/",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260920-834e0391-x.jpg",
+      "mode": "image",
+      "reponse": null,
+      "sujet": null
+    }
   }
 ]

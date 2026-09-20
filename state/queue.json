@@ -44,105 +44,468 @@
     "previewSent": true
   },
   {
-    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35586",
-    "channel": "facebook",
-    "dueAt": 1789884309433,
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35478",
+    "channel": "instagram",
+    "dueAt": 1789903628831,
     "status": "pending",
     "attempts": 0,
     "article": {
-      "title": "Cette maison du Lot-et-Garonne raconte la vie de son propriétaire à travers 600 céramiques",
-      "link": "https://passion-aquitaine.ouest-france.fr/maison-assiettes-bias-lot-et-garonne/",
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35586",
-      "pubDate": "Sat, 19 Sep 2026 07:20:21 +0000",
-      "date": 1789802421000,
+      "title": "Ces dauphins près des plages d’Hossegor ne sont pas bon signe",
+      "link": "https://passion-aquitaine.ouest-france.fr/dauphins-hossegor-signal-alerte-gouf-capbreton/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35478",
+      "pubDate": "Sun, 20 Sep 2026 05:30:09 +0000",
+      "date": 1789882209000,
       "categories": [
         "Actus",
-        "Culture & traditions",
-        "Lot-et-Garonne",
-        "Visites & loisirs"
+        "Landes",
+        "Landes LOI"
       ],
-      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/09/maison_assiettes_02.jpg",
-      "description": "La Maison des Assiettes, décorée par Léon De Brondeau, va de nouveau ouvrir ses portes à l’occasion des Journées Européennes du Patrimoine."
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/09/dauphins-landes-hossegor.jpg",
+      "description": "Les dauphins vus près d’Hossegor et Capbreton émerveillent les promeneurs. Une biologiste marine y voit pourtant un signal d’alerte."
     },
     "dossier": {
       "nature": "actu",
       "sensible": false,
-      "rubrique": "Lot-et-Garonne",
+      "rubrique": "Côte landaise",
       "visuel": {
-        "titre": "Cette maison raconte la vie de son propriétaire à travers 600 céramiques",
-        "surlignage": "600 céramiques",
-        "description": "Décorée par Léon De Brondeau, la Maison des Assiettes rouvre ses portes pour les Journées Européennes du Patrimoine. Ses murs couverts de faïences racontent le parcours de celui qui les a posées.",
-        "texte_alternatif": "La Maison des Assiettes, en Lot-et-Garonne, présente des murs couverts de six cents céramiques posées par Léon De Brondeau. Elle rouvre au public pour les Journées Européennes du Patrimoine."
+        "titre": "Ces dauphins près des plages d’Hossegor ne sont pas bon signe",
+        "surlignage": "dauphins",
+        "description": "Au large d’Hossegor et de Capbreton, les dauphins s’approchent du rivage sous les yeux des promeneurs. Une biologiste marine explique pourquoi cette présence inhabituelle doit alerter.",
+        "texte_alternatif": "Des dauphins nagent près des plages d’Hossegor et de Capbreton, sur la côte landaise, où leur présence intrigue les promeneurs."
       },
       "entites": [
         {
-          "nom": "Maison des Assiettes",
+          "nom": "Hossegor",
           "role": "sujet"
         },
         {
-          "nom": "Journées Européennes du Patrimoine",
-          "role": "acteur"
+          "nom": "Capbreton",
+          "role": "sujet"
         }
       ],
       "lieu": null,
       "instagram": {
-        "texte": "En Lot-et-Garonne, une maison entière est tapissée de 600 céramiques 🍽️\nLa Maison des Assiettes, décorée par Léon De Brondeau, rouvre ses portes à l’occasion des Journées Européennes du Patrimoine. Chaque pièce posée sur les murs raconte un morceau de la vie de son propriétaire.",
+        "texte": "🐬 Voir des dauphins depuis la plage d’Hossegor, c’est magique. Et c’est justement le problème\nÀ Hossegor comme à Capbreton, les promeneurs s’émerveillent de ces apparitions. Une biologiste marine, elle, y lit un signal d’alerte pour l’océan.",
         "hashtags": [
-          "#LotEtGaronne",
-          "#MaisonDesAssiettes",
-          "#Patrimoine"
+          "#Hossegor",
+          "#Dauphins",
+          "#Landes"
         ]
       },
       "facebook": {
-        "texte": "Un propriétaire a raconté sa vie avec 🍽️ 600 assiettes posées sur ses murs. Vous connaissiez ce lieu ?",
-        "commentLead": "🔎 Pour tout savoir :"
+        "texte": "Des dauphins s’approchent des plages d’Hossegor 🐬 Une biologiste marine y voit un signal d’alerte.",
+        "commentLead": "📍 L'histoire complète :"
       },
       "bluesky": {
-        "texte": "Visiter une maison dont les murs racontent une biographie : c’est ce que propose la Maison des Assiettes, en Lot-et-Garonne. Léon De Brondeau y a posé 600 céramiques, et le lieu rouvre pour les Journées Européennes du Patrimoine 🏺",
-        "hashtag": "#LotEtGaronne"
+        "texte": "Sur le littoral, les apparitions de dauphins ravissent les promeneurs. Mais leur présence si près du bord n’a rien d’anodin : une biologiste marine y voit 🐬 un signal d’alerte, entre Capbreton et Hossegor.",
+        "hashtag": "#Hossegor"
       },
       "threads": {
-        "texte": "🏺 Détail méconnu : les 600 céramiques de cette maison du Lot-et-Garonne ne sont pas là pour faire joli. Léon De Brondeau les a choisies et posées comme autant de repères de sa propre existence. Une façon d’écrire une autobiographie sur les murs. Le lieu rouvre pour les Journées Européennes du Patrimoine. Seriez-vous tenté par la visite ?",
-        "sujet": "Lot-et-Garonne"
+        "texte": "Un matin de promenade sur le sable, des ailerons qui fendent l’eau à quelques dizaines de mètres, et tout le monde s’arrête. C’est la scène que vivent les promeneurs d’Hossegor et de Capbreton. Sauf qu’une biologiste marine ne partage pas tout à fait cet émerveillement : pour elle, des dauphins aussi proches du rivage racontent autre chose 🐬",
+        "sujet": "Hossegor"
       },
       "x": {
-        "texte": "Des murs couverts de 600 céramiques, du sol au plafond 🍽️ La Maison des Assiettes, décorée par Léon De Brondeau en Lot-et-Garonne, rouvre ses portes pour les Journées Européennes du Patrimoine."
+        "texte": "🐬 Pourquoi des dauphins viennent-ils nager si près des plages d’Hossegor et de Capbreton ? Les promeneurs y voient un spectacle. Une biologiste marine, elle, y lit un signal d’alerte."
       },
       "source": "ia",
       "model": "claude-opus-5",
       "usage": {
-        "input": 9999,
-        "output": 1013
+        "input": 10011,
+        "output": 893
       },
       "angles": {
-        "instagram": "lieu en tête",
-        "facebook": "effet de surprise",
-        "bluesky": "bénéfice pour le lecteur",
-        "threads": "détail méconnu",
-        "x": "image évocatrice"
+        "instagram": "effet de surprise",
+        "facebook": "bénéfice pour le lecteur",
+        "bluesky": "détail méconnu",
+        "threads": "image évocatrice",
+        "x": "question intrigante"
       },
       "lieuSource": {
-        "precis": "Maison des Assiettes",
-        "ville": "",
-        "departement": "Lot-et-Garonne"
+        "precis": "",
+        "ville": "Hossegor",
+        "departement": "Landes"
       },
-      "lieuNom": "Maison des Assiettes",
-      "commune": null,
+      "lieuNom": "Hossegor",
+      "commune": "Hossegor",
       "comptes": {
-        "instagram": [
-          {
-            "nom": "Journées Européennes du Patrimoine",
-            "handle": "europeanheritagedays",
-            "role": "acteur"
-          }
-        ],
-        "x": [
-          {
-            "nom": "Journées Européennes du Patrimoine",
-            "handle": "JEP_EHD",
-            "role": "acteur"
-          }
-        ],
+        "instagram": [],
+        "x": [],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35478",
+    "channel": "bluesky",
+    "dueAt": 1789889102440,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Ces dauphins près des plages d’Hossegor ne sont pas bon signe",
+      "link": "https://passion-aquitaine.ouest-france.fr/dauphins-hossegor-signal-alerte-gouf-capbreton/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35478",
+      "pubDate": "Sun, 20 Sep 2026 05:30:09 +0000",
+      "date": 1789882209000,
+      "categories": [
+        "Actus",
+        "Landes",
+        "Landes LOI"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/09/dauphins-landes-hossegor.jpg",
+      "description": "Les dauphins vus près d’Hossegor et Capbreton émerveillent les promeneurs. Une biologiste marine y voit pourtant un signal d’alerte."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Côte landaise",
+      "visuel": {
+        "titre": "Ces dauphins près des plages d’Hossegor ne sont pas bon signe",
+        "surlignage": "dauphins",
+        "description": "Au large d’Hossegor et de Capbreton, les dauphins s’approchent du rivage sous les yeux des promeneurs. Une biologiste marine explique pourquoi cette présence inhabituelle doit alerter.",
+        "texte_alternatif": "Des dauphins nagent près des plages d’Hossegor et de Capbreton, sur la côte landaise, où leur présence intrigue les promeneurs."
+      },
+      "entites": [
+        {
+          "nom": "Hossegor",
+          "role": "sujet"
+        },
+        {
+          "nom": "Capbreton",
+          "role": "sujet"
+        }
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "🐬 Voir des dauphins depuis la plage d’Hossegor, c’est magique. Et c’est justement le problème\nÀ Hossegor comme à Capbreton, les promeneurs s’émerveillent de ces apparitions. Une biologiste marine, elle, y lit un signal d’alerte pour l’océan.",
+        "hashtags": [
+          "#Hossegor",
+          "#Dauphins",
+          "#Landes"
+        ]
+      },
+      "facebook": {
+        "texte": "Des dauphins s’approchent des plages d’Hossegor 🐬 Une biologiste marine y voit un signal d’alerte.",
+        "commentLead": "📍 L'histoire complète :"
+      },
+      "bluesky": {
+        "texte": "Sur le littoral, les apparitions de dauphins ravissent les promeneurs. Mais leur présence si près du bord n’a rien d’anodin : une biologiste marine y voit 🐬 un signal d’alerte, entre Capbreton et Hossegor.",
+        "hashtag": "#Hossegor"
+      },
+      "threads": {
+        "texte": "Un matin de promenade sur le sable, des ailerons qui fendent l’eau à quelques dizaines de mètres, et tout le monde s’arrête. C’est la scène que vivent les promeneurs d’Hossegor et de Capbreton. Sauf qu’une biologiste marine ne partage pas tout à fait cet émerveillement : pour elle, des dauphins aussi proches du rivage racontent autre chose 🐬",
+        "sujet": "Hossegor"
+      },
+      "x": {
+        "texte": "🐬 Pourquoi des dauphins viennent-ils nager si près des plages d’Hossegor et de Capbreton ? Les promeneurs y voient un spectacle. Une biologiste marine, elle, y lit un signal d’alerte."
+      },
+      "source": "ia",
+      "model": "claude-opus-5",
+      "usage": {
+        "input": 10011,
+        "output": 893
+      },
+      "angles": {
+        "instagram": "effet de surprise",
+        "facebook": "bénéfice pour le lecteur",
+        "bluesky": "détail méconnu",
+        "threads": "image évocatrice",
+        "x": "question intrigante"
+      },
+      "lieuSource": {
+        "precis": "",
+        "ville": "Hossegor",
+        "departement": "Landes"
+      },
+      "lieuNom": "Hossegor",
+      "commune": "Hossegor",
+      "comptes": {
+        "instagram": [],
+        "x": [],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35478",
+    "channel": "facebook",
+    "dueAt": 1789928752893,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Ces dauphins près des plages d’Hossegor ne sont pas bon signe",
+      "link": "https://passion-aquitaine.ouest-france.fr/dauphins-hossegor-signal-alerte-gouf-capbreton/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35478",
+      "pubDate": "Sun, 20 Sep 2026 05:30:09 +0000",
+      "date": 1789882209000,
+      "categories": [
+        "Actus",
+        "Landes",
+        "Landes LOI"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/09/dauphins-landes-hossegor.jpg",
+      "description": "Les dauphins vus près d’Hossegor et Capbreton émerveillent les promeneurs. Une biologiste marine y voit pourtant un signal d’alerte."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Côte landaise",
+      "visuel": {
+        "titre": "Ces dauphins près des plages d’Hossegor ne sont pas bon signe",
+        "surlignage": "dauphins",
+        "description": "Au large d’Hossegor et de Capbreton, les dauphins s’approchent du rivage sous les yeux des promeneurs. Une biologiste marine explique pourquoi cette présence inhabituelle doit alerter.",
+        "texte_alternatif": "Des dauphins nagent près des plages d’Hossegor et de Capbreton, sur la côte landaise, où leur présence intrigue les promeneurs."
+      },
+      "entites": [
+        {
+          "nom": "Hossegor",
+          "role": "sujet"
+        },
+        {
+          "nom": "Capbreton",
+          "role": "sujet"
+        }
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "🐬 Voir des dauphins depuis la plage d’Hossegor, c’est magique. Et c’est justement le problème\nÀ Hossegor comme à Capbreton, les promeneurs s’émerveillent de ces apparitions. Une biologiste marine, elle, y lit un signal d’alerte pour l’océan.",
+        "hashtags": [
+          "#Hossegor",
+          "#Dauphins",
+          "#Landes"
+        ]
+      },
+      "facebook": {
+        "texte": "Des dauphins s’approchent des plages d’Hossegor 🐬 Une biologiste marine y voit un signal d’alerte.",
+        "commentLead": "📍 L'histoire complète :"
+      },
+      "bluesky": {
+        "texte": "Sur le littoral, les apparitions de dauphins ravissent les promeneurs. Mais leur présence si près du bord n’a rien d’anodin : une biologiste marine y voit 🐬 un signal d’alerte, entre Capbreton et Hossegor.",
+        "hashtag": "#Hossegor"
+      },
+      "threads": {
+        "texte": "Un matin de promenade sur le sable, des ailerons qui fendent l’eau à quelques dizaines de mètres, et tout le monde s’arrête. C’est la scène que vivent les promeneurs d’Hossegor et de Capbreton. Sauf qu’une biologiste marine ne partage pas tout à fait cet émerveillement : pour elle, des dauphins aussi proches du rivage racontent autre chose 🐬",
+        "sujet": "Hossegor"
+      },
+      "x": {
+        "texte": "🐬 Pourquoi des dauphins viennent-ils nager si près des plages d’Hossegor et de Capbreton ? Les promeneurs y voient un spectacle. Une biologiste marine, elle, y lit un signal d’alerte."
+      },
+      "source": "ia",
+      "model": "claude-opus-5",
+      "usage": {
+        "input": 10011,
+        "output": 893
+      },
+      "angles": {
+        "instagram": "effet de surprise",
+        "facebook": "bénéfice pour le lecteur",
+        "bluesky": "détail méconnu",
+        "threads": "image évocatrice",
+        "x": "question intrigante"
+      },
+      "lieuSource": {
+        "precis": "",
+        "ville": "Hossegor",
+        "departement": "Landes"
+      },
+      "lieuNom": "Hossegor",
+      "commune": "Hossegor",
+      "comptes": {
+        "instagram": [],
+        "x": [],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35478",
+    "channel": "threads",
+    "dueAt": 1789885544238,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Ces dauphins près des plages d’Hossegor ne sont pas bon signe",
+      "link": "https://passion-aquitaine.ouest-france.fr/dauphins-hossegor-signal-alerte-gouf-capbreton/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35478",
+      "pubDate": "Sun, 20 Sep 2026 05:30:09 +0000",
+      "date": 1789882209000,
+      "categories": [
+        "Actus",
+        "Landes",
+        "Landes LOI"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/09/dauphins-landes-hossegor.jpg",
+      "description": "Les dauphins vus près d’Hossegor et Capbreton émerveillent les promeneurs. Une biologiste marine y voit pourtant un signal d’alerte."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Côte landaise",
+      "visuel": {
+        "titre": "Ces dauphins près des plages d’Hossegor ne sont pas bon signe",
+        "surlignage": "dauphins",
+        "description": "Au large d’Hossegor et de Capbreton, les dauphins s’approchent du rivage sous les yeux des promeneurs. Une biologiste marine explique pourquoi cette présence inhabituelle doit alerter.",
+        "texte_alternatif": "Des dauphins nagent près des plages d’Hossegor et de Capbreton, sur la côte landaise, où leur présence intrigue les promeneurs."
+      },
+      "entites": [
+        {
+          "nom": "Hossegor",
+          "role": "sujet"
+        },
+        {
+          "nom": "Capbreton",
+          "role": "sujet"
+        }
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "🐬 Voir des dauphins depuis la plage d’Hossegor, c’est magique. Et c’est justement le problème\nÀ Hossegor comme à Capbreton, les promeneurs s’émerveillent de ces apparitions. Une biologiste marine, elle, y lit un signal d’alerte pour l’océan.",
+        "hashtags": [
+          "#Hossegor",
+          "#Dauphins",
+          "#Landes"
+        ]
+      },
+      "facebook": {
+        "texte": "Des dauphins s’approchent des plages d’Hossegor 🐬 Une biologiste marine y voit un signal d’alerte.",
+        "commentLead": "📍 L'histoire complète :"
+      },
+      "bluesky": {
+        "texte": "Sur le littoral, les apparitions de dauphins ravissent les promeneurs. Mais leur présence si près du bord n’a rien d’anodin : une biologiste marine y voit 🐬 un signal d’alerte, entre Capbreton et Hossegor.",
+        "hashtag": "#Hossegor"
+      },
+      "threads": {
+        "texte": "Un matin de promenade sur le sable, des ailerons qui fendent l’eau à quelques dizaines de mètres, et tout le monde s’arrête. C’est la scène que vivent les promeneurs d’Hossegor et de Capbreton. Sauf qu’une biologiste marine ne partage pas tout à fait cet émerveillement : pour elle, des dauphins aussi proches du rivage racontent autre chose 🐬",
+        "sujet": "Hossegor"
+      },
+      "x": {
+        "texte": "🐬 Pourquoi des dauphins viennent-ils nager si près des plages d’Hossegor et de Capbreton ? Les promeneurs y voient un spectacle. Une biologiste marine, elle, y lit un signal d’alerte."
+      },
+      "source": "ia",
+      "model": "claude-opus-5",
+      "usage": {
+        "input": 10011,
+        "output": 893
+      },
+      "angles": {
+        "instagram": "effet de surprise",
+        "facebook": "bénéfice pour le lecteur",
+        "bluesky": "détail méconnu",
+        "threads": "image évocatrice",
+        "x": "question intrigante"
+      },
+      "lieuSource": {
+        "precis": "",
+        "ville": "Hossegor",
+        "departement": "Landes"
+      },
+      "lieuNom": "Hossegor",
+      "commune": "Hossegor",
+      "comptes": {
+        "instagram": [],
+        "x": [],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35478",
+    "channel": "x",
+    "dueAt": 1789891200000,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Ces dauphins près des plages d’Hossegor ne sont pas bon signe",
+      "link": "https://passion-aquitaine.ouest-france.fr/dauphins-hossegor-signal-alerte-gouf-capbreton/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35478",
+      "pubDate": "Sun, 20 Sep 2026 05:30:09 +0000",
+      "date": 1789882209000,
+      "categories": [
+        "Actus",
+        "Landes",
+        "Landes LOI"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/09/dauphins-landes-hossegor.jpg",
+      "description": "Les dauphins vus près d’Hossegor et Capbreton émerveillent les promeneurs. Une biologiste marine y voit pourtant un signal d’alerte."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Côte landaise",
+      "visuel": {
+        "titre": "Ces dauphins près des plages d’Hossegor ne sont pas bon signe",
+        "surlignage": "dauphins",
+        "description": "Au large d’Hossegor et de Capbreton, les dauphins s’approchent du rivage sous les yeux des promeneurs. Une biologiste marine explique pourquoi cette présence inhabituelle doit alerter.",
+        "texte_alternatif": "Des dauphins nagent près des plages d’Hossegor et de Capbreton, sur la côte landaise, où leur présence intrigue les promeneurs."
+      },
+      "entites": [
+        {
+          "nom": "Hossegor",
+          "role": "sujet"
+        },
+        {
+          "nom": "Capbreton",
+          "role": "sujet"
+        }
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "🐬 Voir des dauphins depuis la plage d’Hossegor, c’est magique. Et c’est justement le problème\nÀ Hossegor comme à Capbreton, les promeneurs s’émerveillent de ces apparitions. Une biologiste marine, elle, y lit un signal d’alerte pour l’océan.",
+        "hashtags": [
+          "#Hossegor",
+          "#Dauphins",
+          "#Landes"
+        ]
+      },
+      "facebook": {
+        "texte": "Des dauphins s’approchent des plages d’Hossegor 🐬 Une biologiste marine y voit un signal d’alerte.",
+        "commentLead": "📍 L'histoire complète :"
+      },
+      "bluesky": {
+        "texte": "Sur le littoral, les apparitions de dauphins ravissent les promeneurs. Mais leur présence si près du bord n’a rien d’anodin : une biologiste marine y voit 🐬 un signal d’alerte, entre Capbreton et Hossegor.",
+        "hashtag": "#Hossegor"
+      },
+      "threads": {
+        "texte": "Un matin de promenade sur le sable, des ailerons qui fendent l’eau à quelques dizaines de mètres, et tout le monde s’arrête. C’est la scène que vivent les promeneurs d’Hossegor et de Capbreton. Sauf qu’une biologiste marine ne partage pas tout à fait cet émerveillement : pour elle, des dauphins aussi proches du rivage racontent autre chose 🐬",
+        "sujet": "Hossegor"
+      },
+      "x": {
+        "texte": "🐬 Pourquoi des dauphins viennent-ils nager si près des plages d’Hossegor et de Capbreton ? Les promeneurs y voient un spectacle. Une biologiste marine, elle, y lit un signal d’alerte."
+      },
+      "source": "ia",
+      "model": "claude-opus-5",
+      "usage": {
+        "input": 10011,
+        "output": 893
+      },
+      "angles": {
+        "instagram": "effet de surprise",
+        "facebook": "bénéfice pour le lecteur",
+        "bluesky": "détail méconnu",
+        "threads": "image évocatrice",
+        "x": "question intrigante"
+      },
+      "lieuSource": {
+        "precis": "",
+        "ville": "Hossegor",
+        "departement": "Landes"
+      },
+      "lieuNom": "Hossegor",
+      "commune": "Hossegor",
+      "comptes": {
+        "instagram": [],
+        "x": [],
         "bluesky": [],
         "threads": [],
         "facebook": []

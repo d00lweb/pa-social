@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-20T05:20:34.365Z",
+  "genereLe": "2026-09-20T06:01:19.996Z",
   "jour": "2026-09-20",
   "reseaux": {
     "instagram": {
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 4,
-      "total": 4,
-      "dernier": "2026-09-19T19:15:44.864Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1725251196267428"
+      "aujourdhui": 1,
+      "semaine": 5,
+      "total": 5,
+      "dernier": "2026-09-20T06:07:43.299Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1725646786227869"
     },
     "threads": {
       "actif": true,
@@ -169,6 +169,54 @@
   },
   "articles": [
     {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35586",
+      "titre": "Cette maison du Lot-et-Garonne raconte la vie de son propriétaire à travers 600 céramiques",
+      "lien": "https://passion-aquitaine.ouest-france.fr/maison-assiettes-bias-lot-et-garonne/",
+      "at": "2026-09-20T06:07:43.299Z",
+      "reseaux": {
+        "x": {
+          "texte": "Des murs couverts de 600 céramiques, du sol au plafond 🍽️ La Maison des Assiettes, décorée par Léon De Brondeau en Lot-et-Garonne, rouvre ses portes pour les Journées Européennes du Patrimoine.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260919-10392677-x.jpg",
+          "mode": "reponse",
+          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/maison-assiettes-bias-lot-et-garonne/",
+          "sujet": null,
+          "publieLe": "2026-09-19T10:20:53.165Z"
+        },
+        "bluesky": {
+          "texte": "Visiter une maison dont les murs racontent une biographie : c’est ce que propose la Maison des Assiettes, en Lot-et-Garonne. Léon De Brondeau y a posé 600 céramiques, et le lieu rouvre pour les Journées Européennes du Patrimoine 🏺 #LotEtGaronne",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260919-10392677-bsky.jpg",
+          "mode": "reply",
+          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/maison-assiettes-bias-lot-et-garonne/",
+          "sujet": null,
+          "publieLe": "2026-09-19T10:27:27.860Z"
+        },
+        "threads": {
+          "texte": "🏺 Détail méconnu : les 600 céramiques de cette maison du Lot-et-Garonne ne sont pas là pour faire joli. Léon De Brondeau les a choisies et posées comme autant de repères de sa propre existence. Une façon d’écrire une autobiographie sur les murs. Le lieu rouvre pour les Journées Européennes du Patrimoine. Seriez-vous tenté par la visite ?",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260919-10392677-th.jpg",
+          "mode": "reponse",
+          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/maison-assiettes-bias-lot-et-garonne/",
+          "sujet": "Lot-et-Garonne",
+          "publieLe": "2026-09-19T12:28:00.908Z"
+        },
+        "instagram": {
+          "texte": "En Lot-et-Garonne, une maison entière est tapissée de 600 céramiques 🍽️\n⠀\nLa Maison des Assiettes, décorée par Léon De Brondeau, rouvre ses portes à l’occasion des Journées Européennes du Patrimoine. Chaque pièce posée sur les murs raconte un morceau de la vie de son propriétaire.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#LotEtGaronne #MaisonDesAssiettes #Patrimoine",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260919-10392677-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-09-19T16:07:56.872Z"
+        },
+        "facebook": {
+          "texte": "Un propriétaire a raconté sa vie avec 🍽️ 600 assiettes posées sur ses murs. Vous connaissiez ce lieu ?",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260919-10392677-fb.jpg",
+          "mode": null,
+          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/maison-assiettes-bias-lot-et-garonne/",
+          "sujet": null,
+          "publieLe": "2026-09-20T06:07:43.299Z"
+        }
+      }
+    },
+    {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=34145",
       "titre": "À Capbreton, un canyon de 4 500 mètres dort sous les bateaux",
       "lien": "https://passion-aquitaine.ouest-france.fr/gouf-capbreton-canyon-abysse-landes/",
@@ -213,46 +261,6 @@
           "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/gouf-capbreton-canyon-abysse-landes/",
           "sujet": null,
           "publieLe": "2026-09-19T19:15:44.864Z"
-        }
-      }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35586",
-      "titre": "Cette maison du Lot-et-Garonne raconte la vie de son propriétaire à travers 600 céramiques",
-      "lien": "https://passion-aquitaine.ouest-france.fr/maison-assiettes-bias-lot-et-garonne/",
-      "at": "2026-09-19T16:07:56.872Z",
-      "reseaux": {
-        "x": {
-          "texte": "Des murs couverts de 600 céramiques, du sol au plafond 🍽️ La Maison des Assiettes, décorée par Léon De Brondeau en Lot-et-Garonne, rouvre ses portes pour les Journées Européennes du Patrimoine.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260919-10392677-x.jpg",
-          "mode": "reponse",
-          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/maison-assiettes-bias-lot-et-garonne/",
-          "sujet": null,
-          "publieLe": "2026-09-19T10:20:53.165Z"
-        },
-        "bluesky": {
-          "texte": "Visiter une maison dont les murs racontent une biographie : c’est ce que propose la Maison des Assiettes, en Lot-et-Garonne. Léon De Brondeau y a posé 600 céramiques, et le lieu rouvre pour les Journées Européennes du Patrimoine 🏺 #LotEtGaronne",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260919-10392677-bsky.jpg",
-          "mode": "reply",
-          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/maison-assiettes-bias-lot-et-garonne/",
-          "sujet": null,
-          "publieLe": "2026-09-19T10:27:27.860Z"
-        },
-        "threads": {
-          "texte": "🏺 Détail méconnu : les 600 céramiques de cette maison du Lot-et-Garonne ne sont pas là pour faire joli. Léon De Brondeau les a choisies et posées comme autant de repères de sa propre existence. Une façon d’écrire une autobiographie sur les murs. Le lieu rouvre pour les Journées Européennes du Patrimoine. Seriez-vous tenté par la visite ?",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260919-10392677-th.jpg",
-          "mode": "reponse",
-          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/maison-assiettes-bias-lot-et-garonne/",
-          "sujet": "Lot-et-Garonne",
-          "publieLe": "2026-09-19T12:28:00.908Z"
-        },
-        "instagram": {
-          "texte": "En Lot-et-Garonne, une maison entière est tapissée de 600 céramiques 🍽️\n⠀\nLa Maison des Assiettes, décorée par Léon De Brondeau, rouvre ses portes à l’occasion des Journées Européennes du Patrimoine. Chaque pièce posée sur les murs raconte un morceau de la vie de son propriétaire.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#LotEtGaronne #MaisonDesAssiettes #Patrimoine",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260919-10392677-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-19T16:07:56.872Z"
         }
       }
     },
@@ -380,6 +388,16 @@
   "publications": [
     {
       "channel": "facebook",
+      "at": "2026-09-20T06:07:43.299Z",
+      "titre": "Cette maison du Lot-et-Garonne raconte la vie de son propriétaire à travers 600 céramiques",
+      "lien": "https://passion-aquitaine.ouest-france.fr/maison-assiettes-bias-lot-et-garonne/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1725646786227869",
+      "format": null,
+      "texte": "Un propriétaire a raconté sa vie avec 🍽️ 600 assiettes posées sur ses murs. Vous connaissiez ce lieu ?",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260919-10392677-fb.jpg"
+    },
+    {
+      "channel": "facebook",
       "at": "2026-09-19T19:15:44.864Z",
       "titre": "À Capbreton, un canyon de 4 500 mètres dort sous les bateaux",
       "lien": "https://passion-aquitaine.ouest-france.fr/gouf-capbreton-canyon-abysse-landes/",
@@ -467,27 +485,53 @@
       "format": "reply",
       "texte": "🐋 Devant les plages de #Capbreton, le plancher océanique s’effondre : le Gouf plonge à 4 500 mètres, à seulement 300 mètres du bord. Ce canyon explique les vagues d’Hossegor et la présence de cachalots et d’orques.",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20260919-139f1e9d-bsky.jpg"
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-09-19T07:06:06.447Z",
-      "titre": "Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée du Périgord",
-      "lien": "https://passion-aquitaine.ouest-france.fr/perigordine-ultra-trail-2026-parcours/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1724696099656271",
-      "format": null,
-      "texte": "En Périgord, un trail de 80 km relie grotte, rivière et châteaux le 27 septembre 🏃",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20260918-98a782d2-fb.jpg"
     }
   ],
   "file": [
     {
-      "channel": "facebook",
-      "dueAt": "2026-09-20T06:05:09.433Z",
-      "prochainPassage": "2026-09-20T06:20:00.000Z",
+      "channel": "threads",
+      "dueAt": "2026-09-20T06:25:44.238Z",
+      "prochainPassage": "2026-09-20T07:00:00.000Z",
       "nature": "actu",
       "prevuInitialement": null,
       "raison": null,
-      "titre": "Cette maison du Lot-et-Garonne raconte la vie de son propriétaire à travers 600 céramiques"
+      "titre": "Ces dauphins près des plages d’Hossegor ne sont pas bon signe"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-09-20T07:25:02.440Z",
+      "prochainPassage": "2026-09-20T08:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Ces dauphins près des plages d’Hossegor ne sont pas bon signe"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-09-20T08:00:00.000Z",
+      "prochainPassage": "2026-09-20T08:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Ces dauphins près des plages d’Hossegor ne sont pas bon signe"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-09-20T11:27:08.831Z",
+      "prochainPassage": "2026-09-20T12:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Ces dauphins près des plages d’Hossegor ne sont pas bon signe"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-09-20T18:25:52.893Z",
+      "prochainPassage": "2026-09-20T19:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Ces dauphins près des plages d’Hossegor ne sont pas bon signe"
     }
   ],
   "alertes": [],
@@ -551,7 +595,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-09-20T04:20:48.768Z"
+    "derniere": "2026-09-20T06:01:19.996Z"
   },
   "abonnes": {
     "instagram": {
@@ -597,7 +641,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-20T05:20:34.896Z",
+    "genereLe": "2026-09-20T06:07:45.830Z",
     "posts": 17,
     "parReseau": {
       "instagram": {
@@ -742,7 +786,7 @@
       "instagram": 10,
       "bluesky": 8,
       "x": 8,
-      "facebook": 4,
+      "facebook": 5,
       "threads": 5
     },
     "abonnes": {

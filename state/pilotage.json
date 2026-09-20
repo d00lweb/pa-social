@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-20T10:00:36.273Z",
+  "genereLe": "2026-09-20T10:20:38.803Z",
   "jour": "2026-09-20",
   "reseaux": {
     "instagram": {
@@ -541,7 +541,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 21,
+    "releves": 22,
     "parReseau": {}
   },
   "rapports": [],
@@ -600,7 +600,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-09-20T09:20:37.089Z"
+    "derniere": "2026-09-20T10:20:38.803Z"
   },
   "abonnes": {
     "instagram": {
@@ -646,16 +646,16 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-20T10:00:36.855Z",
-    "posts": 21,
+    "genereLe": "2026-09-20T10:20:41.637Z",
+    "posts": 22,
     "parReseau": {
       "threads": {
         "posts": 4,
         "moyenne": 10.5
       },
       "instagram": {
-        "posts": 7,
-        "moyenne": 9
+        "posts": 8,
+        "moyenne": 10.1
       },
       "facebook": {
         "posts": 3,
@@ -689,24 +689,24 @@
         "posts": 15,
         "moyenne": 6.5
       },
+      "après-midi": {
+        "posts": 5,
+        "moyenne": 5.6
+      },
       "soir": {
         "posts": 2,
-        "moyenne": 2.5
-      },
-      "après-midi": {
-        "posts": 4,
         "moyenne": 2.5
       }
     },
     "parCreneauReseau": {
       "instagram": {
+        "12 h – 13 h 30": {
+          "posts": 2,
+          "moyenne": 11.5
+        },
         "hors créneau": {
           "posts": 6,
           "moyenne": 9.7
-        },
-        "12 h – 13 h 30": {
-          "posts": 1,
-          "moyenne": 5
         }
       },
       "bluesky": {
@@ -748,7 +748,7 @@
         }
       }
     },
-    "interactionsTotal": 112,
+    "interactionsTotal": 130,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35494",
       "channel": "instagram",
@@ -791,8 +791,8 @@
         "moyenne": 0
       },
       "sans": {
-        "posts": 21,
-        "moyenne": 5.3
+        "posts": 22,
+        "moyenne": 5.9
       }
     },
     "publies": {
@@ -846,7 +846,7 @@
     },
     "engagement": {
       "threads": 0.92,
-      "instagram": 0.09,
+      "instagram": 0.1,
       "facebook": 0
     },
     "conseils": [

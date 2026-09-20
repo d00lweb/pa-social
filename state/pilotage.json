@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-20T12:20:35.515Z",
+  "genereLe": "2026-09-20T13:00:40.899Z",
   "jour": "2026-09-20",
   "reseaux": {
     "instagram": {
@@ -540,7 +540,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 23,
+    "releves": 24,
     "parReseau": {}
   },
   "rapports": [],
@@ -599,7 +599,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-09-20T12:00:40.059Z"
+    "derniere": "2026-09-20T13:00:40.899Z"
   },
   "abonnes": {
     "instagram": {
@@ -645,16 +645,16 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-20T12:20:36.165Z",
-    "posts": 23,
+    "genereLe": "2026-09-20T13:00:43.584Z",
+    "posts": 24,
     "parReseau": {
-      "threads": {
-        "posts": 4,
-        "moyenne": 10.5
-      },
       "instagram": {
         "posts": 8,
         "moyenne": 10.1
+      },
+      "threads": {
+        "posts": 5,
+        "moyenne": 9.6
       },
       "facebook": {
         "posts": 3,
@@ -667,8 +667,8 @@
     },
     "parFormat": {
       "reponse": {
-        "posts": 3,
-        "moyenne": 13
+        "posts": 4,
+        "moyenne": 11.3
       },
       "lien": {
         "posts": 1,
@@ -689,8 +689,8 @@
         "moyenne": 6.5
       },
       "après-midi": {
-        "posts": 6,
-        "moyenne": 4.8
+        "posts": 7,
+        "moyenne": 5
       },
       "soir": {
         "posts": 2,
@@ -738,8 +738,8 @@
           "moyenne": 37
         },
         "13 h – 14 h 30": {
-          "posts": 1,
-          "moyenne": 3
+          "posts": 2,
+          "moyenne": 4.5
         },
         "hors créneau": {
           "posts": 1,
@@ -751,7 +751,7 @@
         }
       }
     },
-    "interactionsTotal": 131,
+    "interactionsTotal": 137,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35494",
       "channel": "instagram",
@@ -794,7 +794,7 @@
         "moyenne": 0
       },
       "sans": {
-        "posts": 23,
+        "posts": 24,
         "moyenne": 5.7
       }
     },
@@ -848,12 +848,12 @@
       }
     },
     "engagement": {
-      "threads": 0.92,
       "instagram": 0.1,
+      "threads": 0.84,
       "facebook": 0
     },
     "conseils": [
-      "Le format « reponse » fait 130 fois mieux que « image » (13 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « image » de la rotation dans config/channels.json.",
+      "Le format « reponse » fait 113 fois mieux que « image » (11.3 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « image » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+2, +0,2 %) ; Facebook recule (−2), à surveiller."
     ]
   }

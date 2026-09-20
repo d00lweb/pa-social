@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-20T06:20:41.147Z",
+  "genereLe": "2026-09-20T07:00:40.293Z",
   "jour": "2026-09-20",
   "reseaux": {
     "instagram": {
@@ -543,7 +543,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 17,
+    "releves": 18,
     "parReseau": {}
   },
   "rapports": [],
@@ -648,16 +648,16 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-20T06:26:29.928Z",
-    "posts": 17,
+    "genereLe": "2026-09-20T07:00:41.402Z",
+    "posts": 18,
     "parReseau": {
       "instagram": {
         "posts": 7,
         "moyenne": 9
       },
       "threads": {
-        "posts": 2,
-        "moyenne": 2
+        "posts": 3,
+        "moyenne": 1.7
       },
       "facebook": {
         "posts": 2,
@@ -674,7 +674,7 @@
         "moyenne": 3
       },
       "reponse": {
-        "posts": 1,
+        "posts": 2,
         "moyenne": 1
       },
       "reply": {
@@ -688,8 +688,8 @@
     },
     "parCreneau": {
       "matin": {
-        "posts": 11,
-        "moyenne": 5.2
+        "posts": 12,
+        "moyenne": 4.8
       },
       "soir": {
         "posts": 2,
@@ -739,10 +739,14 @@
         "hors créneau": {
           "posts": 1,
           "moyenne": 1
+        },
+        "7 h – 8 h 30": {
+          "posts": 1,
+          "moyenne": 1
         }
       }
     },
-    "interactionsTotal": 72,
+    "interactionsTotal": 73,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35494",
       "channel": "instagram",
@@ -785,8 +789,8 @@
         "moyenne": 0
       },
       "sans": {
-        "posts": 17,
-        "moyenne": 4.2
+        "posts": 18,
+        "moyenne": 4.1
       }
     },
     "publies": {
@@ -840,7 +844,7 @@
     },
     "engagement": {
       "instagram": 0.09,
-      "threads": 0.17,
+      "threads": 0.15,
       "facebook": 0
     },
     "conseils": [

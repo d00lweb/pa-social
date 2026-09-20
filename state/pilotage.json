@@ -1,6 +1,6 @@
 {
-  "genereLe": "2026-09-20T21:29:06.652Z",
-  "jour": "2026-09-20",
+  "genereLe": "2026-09-20T22:00:44.364Z",
+  "jour": "2026-09-21",
   "reseaux": {
     "instagram": {
       "actif": true,
@@ -24,7 +24,7 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 1,
+      "aujourdhui": 0,
       "semaine": 11,
       "total": 11,
       "dernier": "2026-09-20T11:27:45.615Z",
@@ -60,7 +60,7 @@
         "image",
         "reply"
       ],
-      "aujourdhui": 1,
+      "aujourdhui": 0,
       "semaine": 9,
       "total": 9,
       "dernier": "2026-09-20T07:25:05.112Z",
@@ -88,7 +88,7 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 2,
+      "aujourdhui": 0,
       "semaine": 6,
       "total": 6,
       "dernier": "2026-09-20T18:27:17.265Z",
@@ -124,7 +124,7 @@
         "lien",
         "reponse"
       ],
-      "aujourdhui": 1,
+      "aujourdhui": 0,
       "semaine": 6,
       "total": 6,
       "dernier": "2026-09-20T06:26:29.167Z",
@@ -160,7 +160,7 @@
         "lien",
         "reponse"
       ],
-      "aujourdhui": 1,
+      "aujourdhui": 0,
       "semaine": 9,
       "total": 9,
       "dernier": "2026-09-20T08:00:45.886Z",
@@ -543,15 +543,15 @@
   },
   "rapports": [],
   "jetons": {
-    "verifieLe": "2026-09-19T22:00:38.001Z",
+    "verifieLe": "2026-09-20T22:00:44.364Z",
     "meta": {
       "expireLe": "2026-12-16T20:08:59.000Z",
-      "restant": 88,
+      "restant": 87,
       "renouvellement": "manuel"
     },
     "threads": {
       "expireLe": "2026-11-16T21:12:39.531Z",
-      "restant": 58,
+      "restant": 57,
       "renouvellement": "commande npm run threads:refresh"
     },
     "alertes": {}
@@ -606,15 +606,15 @@
       "gain": 1,
       "pct": 0,
       "depuis": "2026-09-18",
-      "au": "2026-09-20"
+      "au": "2026-09-21"
     },
     "facebook": {
       "debut": 42626,
-      "fin": 42624,
-      "gain": -2,
+      "fin": 42622,
+      "gain": -4,
       "pct": 0,
       "depuis": "2026-09-18",
-      "au": "2026-09-20"
+      "au": "2026-09-21"
     },
     "bluesky": {
       "debut": 1,
@@ -622,15 +622,15 @@
       "gain": 2,
       "pct": 200,
       "depuis": "2026-09-18",
-      "au": "2026-09-20"
+      "au": "2026-09-21"
     },
     "threads": {
       "debut": 1144,
-      "fin": 1146,
-      "gain": 2,
-      "pct": 0.2,
+      "fin": 1147,
+      "gain": 3,
+      "pct": 0.3,
       "depuis": "2026-09-18",
-      "au": "2026-09-20"
+      "au": "2026-09-21"
     },
     "x": {
       "debut": 2940,
@@ -643,7 +643,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-20T21:29:07.333Z",
+    "genereLe": "2026-09-20T22:00:46.469Z",
     "posts": 26,
     "parReseau": {
       "threads": {
@@ -818,15 +818,15 @@
         "gain": 1,
         "pct": 0,
         "depuis": "2026-09-18",
-        "au": "2026-09-20"
+        "au": "2026-09-21"
       },
       "facebook": {
         "debut": 42626,
-        "fin": 42624,
-        "gain": -2,
+        "fin": 42622,
+        "gain": -4,
         "pct": 0,
         "depuis": "2026-09-18",
-        "au": "2026-09-20"
+        "au": "2026-09-21"
       },
       "bluesky": {
         "debut": 1,
@@ -834,15 +834,15 @@
         "gain": 2,
         "pct": 200,
         "depuis": "2026-09-18",
-        "au": "2026-09-20"
+        "au": "2026-09-21"
       },
       "threads": {
         "debut": 1144,
-        "fin": 1146,
-        "gain": 2,
-        "pct": 0.2,
+        "fin": 1147,
+        "gain": 3,
+        "pct": 0.3,
         "depuis": "2026-09-18",
-        "au": "2026-09-20"
+        "au": "2026-09-21"
       },
       "x": {
         "debut": 2940,
@@ -860,7 +860,7 @@
     },
     "conseils": [
       "Le format « reponse » fait 113 fois mieux que « image » (11.3 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « image » de la rotation dans config/channels.json.",
-      "Abonnés : Threads progresse le plus (+2, +0,2 %) ; Facebook recule (−2), à surveiller."
+      "Abonnés : Threads progresse le plus (+3, +0,3 %) ; Facebook recule (−4), à surveiller."
     ]
   }
 }

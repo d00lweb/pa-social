@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-20T06:01:19.996Z",
+  "genereLe": "2026-09-20T06:20:41.147Z",
   "jour": "2026-09-20",
   "reseaux": {
     "instagram": {
@@ -124,11 +124,11 @@
         "lien",
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 5,
-      "total": 5,
-      "dernier": "2026-09-19T12:28:00.908Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DdeAT1CFqKH"
+      "aujourdhui": 1,
+      "semaine": 6,
+      "total": 6,
+      "dernier": "2026-09-20T06:26:29.167Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/Ddf7_wFHH0j"
     },
     "x": {
       "actif": true,
@@ -168,6 +168,22 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35478",
+      "titre": "Ces dauphins près des plages d’Hossegor ne sont pas bon signe",
+      "lien": "https://passion-aquitaine.ouest-france.fr/dauphins-hossegor-signal-alerte-gouf-capbreton/",
+      "at": "2026-09-20T06:26:29.167Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Un matin de promenade sur le sable, des ailerons qui fendent l’eau à quelques dizaines de mètres, et tout le monde s’arrête. C’est la scène que vivent les promeneurs d’Hossegor et de Capbreton. Sauf qu’une biologiste marine ne partage pas tout à fait cet émerveillement : pour elle, des dauphins aussi proches du rivage racontent autre chose 🐬\n➡️ https://passion-aquitaine.ouest-france.fr/dauphins-hossegor-signal-alerte-gouf-capbreton/",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260920-834e0391-th.jpg",
+          "mode": "image",
+          "reponse": null,
+          "sujet": "Hossegor",
+          "publieLe": "2026-09-20T06:26:29.167Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35586",
       "titre": "Cette maison du Lot-et-Garonne raconte la vie de son propriétaire à travers 600 céramiques",
@@ -387,6 +403,16 @@
   ],
   "publications": [
     {
+      "channel": "threads",
+      "at": "2026-09-20T06:26:29.167Z",
+      "titre": "Ces dauphins près des plages d’Hossegor ne sont pas bon signe",
+      "lien": "https://passion-aquitaine.ouest-france.fr/dauphins-hossegor-signal-alerte-gouf-capbreton/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/Ddf7_wFHH0j",
+      "format": "image",
+      "texte": "Un matin de promenade sur le sable, des ailerons qui fendent l’eau à quelques dizaines de mètres, et tout le monde s’arrête. C’est la scène que vivent les promeneurs d’Hossegor et de Capbreton. Sauf qu’une biologiste marine ne partage pas tout à fait cet émerveillement : pour elle, des dauphins aussi proches du rivage racontent autre chose 🐬\n➡️ https://passion-aquitaine.ouest-france.fr/dauphins-hossegor-signal-alerte-gouf-capbreton/",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260920-834e0391-th.jpg"
+    },
+    {
       "channel": "facebook",
       "at": "2026-09-20T06:07:43.299Z",
       "titre": "Cette maison du Lot-et-Garonne raconte la vie de son propriétaire à travers 600 céramiques",
@@ -475,28 +501,9 @@
       "format": "reponse",
       "texte": "Le Gouf de #Capbreton commence 🌊 à 300 mètres des plages et descend à 4 500 mètres. Ce canyon sous-marin façonne les vagues d’Hossegor et attire cachalots et orques au large des Landes.",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20260919-139f1e9d-x.jpg"
-    },
-    {
-      "channel": "bluesky",
-      "at": "2026-09-19T07:26:34.983Z",
-      "titre": "À Capbreton, un canyon de 4 500 mètres dort sous les bateaux",
-      "lien": "https://passion-aquitaine.ouest-france.fr/gouf-capbreton-canyon-abysse-landes/",
-      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mvu5rvtywv2b",
-      "format": "reply",
-      "texte": "🐋 Devant les plages de #Capbreton, le plancher océanique s’effondre : le Gouf plonge à 4 500 mètres, à seulement 300 mètres du bord. Ce canyon explique les vagues d’Hossegor et la présence de cachalots et d’orques.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20260919-139f1e9d-bsky.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "threads",
-      "dueAt": "2026-09-20T06:25:44.238Z",
-      "prochainPassage": "2026-09-20T07:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Ces dauphins près des plages d’Hossegor ne sont pas bon signe"
-    },
     {
       "channel": "bluesky",
       "dueAt": "2026-09-20T07:25:02.440Z",
@@ -641,7 +648,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-20T06:07:45.830Z",
+    "genereLe": "2026-09-20T06:26:29.928Z",
     "posts": 17,
     "parReseau": {
       "instagram": {
@@ -787,7 +794,7 @@
       "bluesky": 8,
       "x": 8,
       "facebook": 5,
-      "threads": 5
+      "threads": 6
     },
     "abonnes": {
       "instagram": {

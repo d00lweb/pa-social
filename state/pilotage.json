@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-20T11:00:34.506Z",
+  "genereLe": "2026-09-20T11:20:34.356Z",
   "jour": "2026-09-20",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 10,
-      "total": 10,
-      "dernier": "2026-09-19T16:07:56.872Z",
-      "lienDernier": "https://www.instagram.com/p/DdeZzBCk0Lo/"
+      "aujourdhui": 1,
+      "semaine": 11,
+      "total": 11,
+      "dernier": "2026-09-20T11:27:45.615Z",
+      "lienDernier": "https://www.instagram.com/p/DdgehsLmC8L/"
     },
     "bluesky": {
       "actif": true,
@@ -172,7 +172,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35478",
       "titre": "Ces dauphins près des plages d’Hossegor ne sont pas bon signe",
       "lien": "https://passion-aquitaine.ouest-france.fr/dauphins-hossegor-signal-alerte-gouf-capbreton/",
-      "at": "2026-09-20T08:00:45.886Z",
+      "at": "2026-09-20T11:27:45.615Z",
       "reseaux": {
         "threads": {
           "texte": "Un matin de promenade sur le sable, des ailerons qui fendent l’eau à quelques dizaines de mètres, et tout le monde s’arrête. C’est la scène que vivent les promeneurs d’Hossegor et de Capbreton. Sauf qu’une biologiste marine ne partage pas tout à fait cet émerveillement : pour elle, des dauphins aussi proches du rivage racontent autre chose 🐬\n➡️ https://passion-aquitaine.ouest-france.fr/dauphins-hossegor-signal-alerte-gouf-capbreton/",
@@ -197,6 +197,14 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-09-20T08:00:45.886Z"
+        },
+        "instagram": {
+          "texte": "🐬 Voir des dauphins depuis la plage d’Hossegor, c’est magique. Et c’est justement le problème\n⠀\nÀ Hossegor comme à Capbreton, les promeneurs s’émerveillent de ces apparitions. Une biologiste marine, elle, y lit un signal d’alerte pour l’océan.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Hossegor #Dauphins #Landes",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260920-834e0391-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-09-20T11:27:45.615Z"
         }
       }
     },
@@ -419,6 +427,16 @@
   ],
   "publications": [
     {
+      "channel": "instagram",
+      "at": "2026-09-20T11:27:45.615Z",
+      "titre": "Ces dauphins près des plages d’Hossegor ne sont pas bon signe",
+      "lien": "https://passion-aquitaine.ouest-france.fr/dauphins-hossegor-signal-alerte-gouf-capbreton/",
+      "lienPost": "https://www.instagram.com/p/DdgehsLmC8L/",
+      "format": null,
+      "texte": "🐬 Voir des dauphins depuis la plage d’Hossegor, c’est magique. Et c’est justement le problème\n⠀\nÀ Hossegor comme à Capbreton, les promeneurs s’émerveillent de ces apparitions. Une biologiste marine, elle, y lit un signal d’alerte pour l’océan.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Hossegor #Dauphins #Landes",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260920-834e0391-1.jpg"
+    },
+    {
       "channel": "x",
       "at": "2026-09-20T08:00:45.886Z",
       "titre": "Ces dauphins près des plages d’Hossegor ne sont pas bon signe",
@@ -507,28 +525,9 @@
       "format": "reponse",
       "texte": "Des murs couverts de 600 céramiques, du sol au plafond 🍽️ La Maison des Assiettes, décorée par Léon De Brondeau en Lot-et-Garonne, rouvre ses portes pour les Journées Européennes du Patrimoine.",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20260919-10392677-x.jpg"
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-09-19T10:14:43.372Z",
-      "titre": "À Capbreton, un canyon de 4 500 mètres dort sous les bateaux",
-      "lien": "https://passion-aquitaine.ouest-france.fr/gouf-capbreton-canyon-abysse-landes/",
-      "lienPost": "https://www.instagram.com/p/DddxYSwjf4g/",
-      "format": null,
-      "texte": "À 300 mètres du sable, le fond de l’océan tombe à 4 500 mètres de profondeur\n⠀\nLe Gouf de Capbreton est un canyon sous-marin qui commence juste devant les plages 🌊 Il façonne les vagues d’Hossegor et attire cachalots et orques.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Capbreton #Hossegor #Landes",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20260919-139f1e9d-1.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "instagram",
-      "dueAt": "2026-09-20T11:27:08.831Z",
-      "prochainPassage": "2026-09-20T12:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Ces dauphins près des plages d’Hossegor ne sont pas bon signe"
-    },
     {
       "channel": "facebook",
       "dueAt": "2026-09-20T18:25:52.893Z",
@@ -646,7 +645,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-20T11:00:35.519Z",
+    "genereLe": "2026-09-20T11:27:45.997Z",
     "posts": 23,
     "parReseau": {
       "threads": {
@@ -800,7 +799,7 @@
       }
     },
     "publies": {
-      "instagram": 10,
+      "instagram": 11,
       "bluesky": 9,
       "x": 9,
       "facebook": 5,

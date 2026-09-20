@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-20T07:04:37.860Z",
+  "genereLe": "2026-09-20T07:20:41.364Z",
   "jour": "2026-09-20",
   "reseaux": {
     "instagram": {
@@ -60,11 +60,11 @@
         "image",
         "reply"
       ],
-      "aujourdhui": 0,
-      "semaine": 8,
-      "total": 8,
-      "dernier": "2026-09-19T10:27:27.860Z",
-      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mvuhveevl22i"
+      "aujourdhui": 1,
+      "semaine": 9,
+      "total": 9,
+      "dernier": "2026-09-20T07:25:05.112Z",
+      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mvwo65y5nt2e"
     },
     "facebook": {
       "actif": true,
@@ -172,7 +172,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35478",
       "titre": "Ces dauphins près des plages d’Hossegor ne sont pas bon signe",
       "lien": "https://passion-aquitaine.ouest-france.fr/dauphins-hossegor-signal-alerte-gouf-capbreton/",
-      "at": "2026-09-20T06:26:29.167Z",
+      "at": "2026-09-20T07:25:05.112Z",
       "reseaux": {
         "threads": {
           "texte": "Un matin de promenade sur le sable, des ailerons qui fendent l’eau à quelques dizaines de mètres, et tout le monde s’arrête. C’est la scène que vivent les promeneurs d’Hossegor et de Capbreton. Sauf qu’une biologiste marine ne partage pas tout à fait cet émerveillement : pour elle, des dauphins aussi proches du rivage racontent autre chose 🐬\n➡️ https://passion-aquitaine.ouest-france.fr/dauphins-hossegor-signal-alerte-gouf-capbreton/",
@@ -181,6 +181,14 @@
           "reponse": null,
           "sujet": "Hossegor",
           "publieLe": "2026-09-20T06:26:29.167Z"
+        },
+        "bluesky": {
+          "texte": "Sur le littoral, les apparitions de dauphins ravissent les promeneurs. Mais leur présence si près du bord n’a rien d’anodin : une biologiste marine y voit 🐬 un signal d’alerte, entre Capbreton et #Hossegor.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260920-834e0391-bsky.jpg",
+          "mode": "card",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-09-20T07:25:05.112Z"
         }
       }
     },
@@ -403,6 +411,16 @@
   ],
   "publications": [
     {
+      "channel": "bluesky",
+      "at": "2026-09-20T07:25:05.112Z",
+      "titre": "Ces dauphins près des plages d’Hossegor ne sont pas bon signe",
+      "lien": "https://passion-aquitaine.ouest-france.fr/dauphins-hossegor-signal-alerte-gouf-capbreton/",
+      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mvwo65y5nt2e",
+      "format": "card",
+      "texte": "Sur le littoral, les apparitions de dauphins ravissent les promeneurs. Mais leur présence si près du bord n’a rien d’anodin : une biologiste marine y voit 🐬 un signal d’alerte, entre Capbreton et #Hossegor.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260920-834e0391-bsky.jpg"
+    },
+    {
       "channel": "threads",
       "at": "2026-09-20T06:26:29.167Z",
       "titre": "Ces dauphins près des plages d’Hossegor ne sont pas bon signe",
@@ -491,28 +509,9 @@
       "format": "reponse",
       "texte": "Se baigner à quelques mètres d’un canyon de 4 500 mètres de profondeur, c’est possible à Capbreton 🌊 Le Gouf démarre à 300 mètres des plages. C’est lui qui donne aux vagues d’Hossegor leur réputation, et qui attire au large cachalots et orques. De quoi regarder l’horizon landais autrement lors de votre prochaine baignade.",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20260919-139f1e9d-th.jpg"
-    },
-    {
-      "channel": "x",
-      "at": "2026-09-19T08:00:55.324Z",
-      "titre": "À Capbreton, un canyon de 4 500 mètres dort sous les bateaux",
-      "lien": "https://passion-aquitaine.ouest-france.fr/gouf-capbreton-canyon-abysse-landes/",
-      "lienPost": null,
-      "format": "reponse",
-      "texte": "Le Gouf de #Capbreton commence 🌊 à 300 mètres des plages et descend à 4 500 mètres. Ce canyon sous-marin façonne les vagues d’Hossegor et attire cachalots et orques au large des Landes.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20260919-139f1e9d-x.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "bluesky",
-      "dueAt": "2026-09-20T07:25:02.440Z",
-      "prochainPassage": "2026-09-20T08:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Ces dauphins près des plages d’Hossegor ne sont pas bon signe"
-    },
     {
       "channel": "x",
       "dueAt": "2026-09-20T08:00:00.000Z",
@@ -543,7 +542,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 18,
+    "releves": 19,
     "parReseau": {}
   },
   "rapports": [],
@@ -648,8 +647,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-20T07:04:39.904Z",
-    "posts": 18,
+    "genereLe": "2026-09-20T07:25:10.737Z",
+    "posts": 19,
     "parReseau": {
       "instagram": {
         "posts": 7,
@@ -660,7 +659,7 @@
         "moyenne": 1.7
       },
       "facebook": {
-        "posts": 2,
+        "posts": 3,
         "moyenne": 1
       },
       "bluesky": {
@@ -688,8 +687,8 @@
     },
     "parCreneau": {
       "matin": {
-        "posts": 12,
-        "moyenne": 4.8
+        "posts": 13,
+        "moyenne": 4.5
       },
       "soir": {
         "posts": 2,
@@ -723,7 +722,7 @@
       },
       "facebook": {
         "8 h – 9 h 30": {
-          "posts": 1,
+          "posts": 2,
           "moyenne": 1
         },
         "hors créneau": {
@@ -746,7 +745,7 @@
         }
       }
     },
-    "interactionsTotal": 73,
+    "interactionsTotal": 74,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35494",
       "channel": "instagram",
@@ -789,13 +788,13 @@
         "moyenne": 0
       },
       "sans": {
-        "posts": 18,
-        "moyenne": 4.1
+        "posts": 19,
+        "moyenne": 3.9
       }
     },
     "publies": {
       "instagram": 10,
-      "bluesky": 8,
+      "bluesky": 9,
       "x": 8,
       "facebook": 5,
       "threads": 6

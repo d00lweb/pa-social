@@ -517,5 +517,23 @@
       "reponse": null,
       "sujet": "Hossegor"
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35478",
+    "channel": "bluesky",
+    "at": "2026-09-20T07:25:05.112Z",
+    "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mvwo65y5nt2e",
+    "titre": "Ces dauphins près des plages d’Hossegor ne sont pas bon signe",
+    "lien": "https://passion-aquitaine.ouest-france.fr/dauphins-hossegor-signal-alerte-gouf-capbreton/",
+    "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mvwo65y5nt2e",
+    "format": "card",
+    "mention": false,
+    "apercu": {
+      "texte": "Sur le littoral, les apparitions de dauphins ravissent les promeneurs. Mais leur présence si près du bord n’a rien d’anodin : une biologiste marine y voit 🐬 un signal d’alerte, entre Capbreton et #Hossegor.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260920-834e0391-bsky.jpg",
+      "mode": "card",
+      "reponse": null,
+      "sujet": null
+    }
   }
 ]

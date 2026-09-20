@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-20T18:00:41.645Z",
+  "genereLe": "2026-09-20T18:20:45.793Z",
   "jour": "2026-09-20",
   "reseaux": {
     "instagram": {
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 1,
-      "semaine": 5,
-      "total": 5,
-      "dernier": "2026-09-20T06:07:43.299Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1725646786227869"
+      "aujourdhui": 2,
+      "semaine": 6,
+      "total": 6,
+      "dernier": "2026-09-20T18:27:17.265Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1726185072840707"
     },
     "threads": {
       "actif": true,
@@ -172,7 +172,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35478",
       "titre": "Ces dauphins près des plages d’Hossegor ne sont pas bon signe",
       "lien": "https://passion-aquitaine.ouest-france.fr/dauphins-hossegor-signal-alerte-gouf-capbreton/",
-      "at": "2026-09-20T11:27:45.615Z",
+      "at": "2026-09-20T18:27:17.265Z",
       "reseaux": {
         "threads": {
           "texte": "Un matin de promenade sur le sable, des ailerons qui fendent l’eau à quelques dizaines de mètres, et tout le monde s’arrête. C’est la scène que vivent les promeneurs d’Hossegor et de Capbreton. Sauf qu’une biologiste marine ne partage pas tout à fait cet émerveillement : pour elle, des dauphins aussi proches du rivage racontent autre chose 🐬\n➡️ https://passion-aquitaine.ouest-france.fr/dauphins-hossegor-signal-alerte-gouf-capbreton/",
@@ -205,6 +205,14 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-09-20T11:27:45.615Z"
+        },
+        "facebook": {
+          "texte": "Des dauphins s’approchent des plages d’Hossegor 🐬 Une biologiste marine y voit un signal d’alerte.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260920-834e0391-fb.jpg",
+          "mode": null,
+          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/dauphins-hossegor-signal-alerte-gouf-capbreton/",
+          "sujet": null,
+          "publieLe": "2026-09-20T18:27:17.265Z"
         }
       }
     },
@@ -427,6 +435,16 @@
   ],
   "publications": [
     {
+      "channel": "facebook",
+      "at": "2026-09-20T18:27:17.265Z",
+      "titre": "Ces dauphins près des plages d’Hossegor ne sont pas bon signe",
+      "lien": "https://passion-aquitaine.ouest-france.fr/dauphins-hossegor-signal-alerte-gouf-capbreton/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1726185072840707",
+      "format": null,
+      "texte": "Des dauphins s’approchent des plages d’Hossegor 🐬 Une biologiste marine y voit un signal d’alerte.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260920-834e0391-fb.jpg"
+    },
+    {
       "channel": "instagram",
       "at": "2026-09-20T11:27:45.615Z",
       "titre": "Ces dauphins près des plages d’Hossegor ne sont pas bon signe",
@@ -515,29 +533,9 @@
       "format": "reply",
       "texte": "Visiter une maison dont les murs racontent une biographie : c’est ce que propose la Maison des Assiettes, en Lot-et-Garonne. Léon De Brondeau y a posé 600 céramiques, et le lieu rouvre pour les Journées Européennes du Patrimoine 🏺 #LotEtGaronne",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20260919-10392677-bsky.jpg"
-    },
-    {
-      "channel": "x",
-      "at": "2026-09-19T10:20:53.165Z",
-      "titre": "Cette maison du Lot-et-Garonne raconte la vie de son propriétaire à travers 600 céramiques",
-      "lien": "https://passion-aquitaine.ouest-france.fr/maison-assiettes-bias-lot-et-garonne/",
-      "lienPost": null,
-      "format": "reponse",
-      "texte": "Des murs couverts de 600 céramiques, du sol au plafond 🍽️ La Maison des Assiettes, décorée par Léon De Brondeau en Lot-et-Garonne, rouvre ses portes pour les Journées Européennes du Patrimoine.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20260919-10392677-x.jpg"
     }
   ],
-  "file": [
-    {
-      "channel": "facebook",
-      "dueAt": "2026-09-20T18:25:52.893Z",
-      "prochainPassage": "2026-09-20T19:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Ces dauphins près des plages d’Hossegor ne sont pas bon signe"
-    }
-  ],
+  "file": [],
   "alertes": [],
   "mesures": {
     "releves": 25,
@@ -645,7 +643,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-20T18:00:45.014Z",
+    "genereLe": "2026-09-20T18:27:17.979Z",
     "posts": 25,
     "parReseau": {
       "threads": {
@@ -806,7 +804,7 @@
       "instagram": 11,
       "bluesky": 9,
       "x": 9,
-      "facebook": 5,
+      "facebook": 6,
       "threads": 6
     },
     "abonnes": {

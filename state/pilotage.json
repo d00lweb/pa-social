@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-21T11:01:10.437Z",
+  "genereLe": "2026-09-21T11:20:42.742Z",
   "jour": "2026-09-21",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 11,
-      "total": 11,
-      "dernier": "2026-09-20T11:27:45.615Z",
-      "lienDernier": "https://www.instagram.com/p/DdgehsLmC8L/"
+      "aujourdhui": 1,
+      "semaine": 12,
+      "total": 12,
+      "dernier": "2026-09-21T11:27:50.317Z",
+      "lienDernier": "https://www.instagram.com/p/DdjDVYpmPB4/"
     },
     "bluesky": {
       "actif": true,
@@ -172,7 +172,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35372",
       "titre": "En Vienne, huit monuments cachent 500 ans de peintures murales",
       "lien": "https://passion-aquitaine.ouest-france.fr/vallee-des-fresques-gartempe-vienne/",
-      "at": "2026-09-21T08:20:51.790Z",
+      "at": "2026-09-21T11:27:50.317Z",
       "reseaux": {
         "threads": {
           "texte": "Entre Saint-Savin et Saulgé, huit édifices religieux forment la Vallée des Fresques, un itinéraire méconnu de peintures murales en Vienne 🏛️",
@@ -205,6 +205,14 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-09-21T08:20:51.790Z"
+        },
+        "instagram": {
+          "texte": "Entre Saint-Savin et Saulgé, huit édifices religieux forment la Vallée des Fresques, un itinéraire méconnu de peintures murales en Vienne.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Vienne #Patrimoine #NouvelleAquitaine",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260921-881162d1-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-09-21T11:27:50.317Z"
         }
       }
     },
@@ -451,6 +459,16 @@
   ],
   "publications": [
     {
+      "channel": "instagram",
+      "at": "2026-09-21T11:27:50.317Z",
+      "titre": "En Vienne, huit monuments cachent 500 ans de peintures murales",
+      "lien": "https://passion-aquitaine.ouest-france.fr/vallee-des-fresques-gartempe-vienne/",
+      "lienPost": "https://www.instagram.com/p/DdjDVYpmPB4/",
+      "format": null,
+      "texte": "Entre Saint-Savin et Saulgé, huit édifices religieux forment la Vallée des Fresques, un itinéraire méconnu de peintures murales en Vienne.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Vienne #Patrimoine #NouvelleAquitaine",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260921-881162d1-1.jpg"
+    },
+    {
       "channel": "x",
       "at": "2026-09-21T08:20:51.790Z",
       "titre": "En Vienne, huit monuments cachent 500 ans de peintures murales",
@@ -539,29 +557,9 @@
       "format": "image",
       "texte": "Un matin de promenade sur le sable, des ailerons qui fendent l’eau à quelques dizaines de mètres, et tout le monde s’arrête. C’est la scène que vivent les promeneurs d’Hossegor et de Capbreton. Sauf qu’une biologiste marine ne partage pas tout à fait cet émerveillement : pour elle, des dauphins aussi proches du rivage racontent autre chose 🐬\n➡️ https://passion-aquitaine.ouest-france.fr/dauphins-hossegor-signal-alerte-gouf-capbreton/",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20260920-834e0391-th.jpg"
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-09-20T06:07:43.299Z",
-      "titre": "Cette maison du Lot-et-Garonne raconte la vie de son propriétaire à travers 600 céramiques",
-      "lien": "https://passion-aquitaine.ouest-france.fr/maison-assiettes-bias-lot-et-garonne/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1725646786227869",
-      "format": null,
-      "texte": "Un propriétaire a raconté sa vie avec 🍽️ 600 assiettes posées sur ses murs. Vous connaissiez ce lieu ?",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20260919-10392677-fb.jpg"
     }
   ],
-  "file": [
-    {
-      "channel": "instagram",
-      "dueAt": "2026-09-21T11:27:19.700Z",
-      "prochainPassage": "2026-09-21T12:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "En Vienne, huit monuments cachent 500 ans de peintures murales"
-    }
-  ],
+  "file": [],
   "alertes": [],
   "mesures": {
     "releves": 29,
@@ -669,7 +667,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-21T11:01:11.237Z",
+    "genereLe": "2026-09-21T11:27:50.637Z",
     "posts": 29,
     "parReseau": {
       "instagram": {
@@ -835,7 +833,7 @@
       }
     },
     "publies": {
-      "instagram": 11,
+      "instagram": 12,
       "bluesky": 10,
       "x": 10,
       "facebook": 7,

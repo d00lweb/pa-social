@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-21T07:20:50.310Z",
+  "genereLe": "2026-09-21T08:00:48.416Z",
   "jour": "2026-09-21",
   "reseaux": {
     "instagram": {
@@ -565,7 +565,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 28,
+    "releves": 29,
     "parReseau": {}
   },
   "rapports": [],
@@ -670,8 +670,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-21T07:20:52.236Z",
-    "posts": 28,
+    "genereLe": "2026-09-21T08:00:49.262Z",
+    "posts": 29,
     "parReseau": {
       "instagram": {
         "posts": 9,
@@ -686,7 +686,7 @@
         "moyenne": 1
       },
       "bluesky": {
-        "posts": 8,
+        "posts": 9,
         "moyenne": 0.6
       }
     },
@@ -706,12 +706,16 @@
       "reply": {
         "posts": 3,
         "moyenne": 1
+      },
+      "card": {
+        "posts": 1,
+        "moyenne": 0
       }
     },
     "parCreneau": {
       "matin": {
-        "posts": 17,
-        "moyenne": 5.9
+        "posts": 18,
+        "moyenne": 5.6
       },
       "après-midi": {
         "posts": 7,
@@ -743,8 +747,8 @@
           "moyenne": 1
         },
         "8 h – 9 h 30": {
-          "posts": 3,
-          "moyenne": 0.7
+          "posts": 4,
+          "moyenne": 0.5
         },
         "hors créneau": {
           "posts": 4,
@@ -804,19 +808,19 @@
       "creneauReseau": "hors créneau"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=34715",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35478",
       "channel": "bluesky",
-      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mvrm5zanwc2i",
-      "publieLe": "2026-09-18T07:05:53.823Z",
+      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mvwo65y5nt2e",
+      "publieLe": "2026-09-20T07:25:05.112Z",
       "jalon": 1,
-      "releveLe": "2026-09-19T07:21:09.081Z",
+      "releveLe": "2026-09-21T08:00:48.416Z",
       "likes": 0,
       "commentaires": 0,
       "partages": 0,
       "vues": null,
-      "titre": "Morimoto Bordeaux dévoile son nouveau menu déjeuner à 33 €",
-      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mvrm5zanwc2i",
-      "format": "image",
+      "titre": "Ces dauphins près des plages d’Hossegor ne sont pas bon signe",
+      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mvwo65y5nt2e",
+      "format": "card",
       "mention": false,
       "creneau": "matin",
       "creneauReseau": "8 h – 9 h 30"
@@ -827,8 +831,8 @@
         "moyenne": 4
       },
       "sans": {
-        "posts": 27,
-        "moyenne": 5.2
+        "posts": 28,
+        "moyenne": 5
       }
     },
     "publies": {
@@ -886,7 +890,7 @@
       "facebook": 0
     },
     "conseils": [
-      "Le format « reponse » fait 11,3 fois mieux que « reply » (11.3 contre 1 interactions). Si ça se confirme le mois prochain, on peut retirer « reply » de la rotation dans config/channels.json.",
+      "Le format « reponse » fait 113 fois mieux que « card » (11.3 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « card » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+3, +0,3 %) ; Facebook recule (−4), à surveiller."
     ]
   }

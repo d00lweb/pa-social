@@ -625,5 +625,23 @@
       "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/vallee-des-fresques-gartempe-vienne/",
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35372",
+    "channel": "bluesky",
+    "at": "2026-09-21T07:12:52.996Z",
+    "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mvz5xaxgkm2b",
+    "titre": "En Vienne, huit monuments cachent 500 ans de peintures murales",
+    "lien": "https://passion-aquitaine.ouest-france.fr/vallee-des-fresques-gartempe-vienne/",
+    "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mvz5xaxgkm2b",
+    "format": "image",
+    "mention": false,
+    "apercu": {
+      "texte": "Entre Saint-Savin et Saulgé, huit édifices religieux forment la Vallée des Fresques, un itinéraire méconnu de peintures murales en #Vienne 🏛️\n➡️ Lire l’article",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260921-881162d1-bsky.jpg",
+      "mode": "image",
+      "reponse": null,
+      "sujet": null
+    }
   }
 ]

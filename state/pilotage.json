@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-21T06:20:47.069Z",
+  "genereLe": "2026-09-21T07:00:36.091Z",
   "jour": "2026-09-21",
   "reseaux": {
     "instagram": {
@@ -60,11 +60,11 @@
         "image",
         "reply"
       ],
-      "aujourdhui": 0,
-      "semaine": 9,
-      "total": 9,
-      "dernier": "2026-09-20T07:25:05.112Z",
-      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mvwo65y5nt2e"
+      "aujourdhui": 1,
+      "semaine": 10,
+      "total": 10,
+      "dernier": "2026-09-21T07:12:52.996Z",
+      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mvz5xaxgkm2b"
     },
     "facebook": {
       "actif": true,
@@ -172,7 +172,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35372",
       "titre": "En Vienne, huit monuments cachent 500 ans de peintures murales",
       "lien": "https://passion-aquitaine.ouest-france.fr/vallee-des-fresques-gartempe-vienne/",
-      "at": "2026-09-21T06:35:49.359Z",
+      "at": "2026-09-21T07:12:52.996Z",
       "reseaux": {
         "threads": {
           "texte": "Entre Saint-Savin et Saulgé, huit édifices religieux forment la Vallée des Fresques, un itinéraire méconnu de peintures murales en Vienne 🏛️",
@@ -189,6 +189,14 @@
           "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/vallee-des-fresques-gartempe-vienne/",
           "sujet": null,
           "publieLe": "2026-09-21T06:35:49.359Z"
+        },
+        "bluesky": {
+          "texte": "Entre Saint-Savin et Saulgé, huit édifices religieux forment la Vallée des Fresques, un itinéraire méconnu de peintures murales en #Vienne 🏛️\n➡️ Lire l’article",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260921-881162d1-bsky.jpg",
+          "mode": "image",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-09-21T07:12:52.996Z"
         }
       }
     },
@@ -435,6 +443,16 @@
   ],
   "publications": [
     {
+      "channel": "bluesky",
+      "at": "2026-09-21T07:12:52.996Z",
+      "titre": "En Vienne, huit monuments cachent 500 ans de peintures murales",
+      "lien": "https://passion-aquitaine.ouest-france.fr/vallee-des-fresques-gartempe-vienne/",
+      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mvz5xaxgkm2b",
+      "format": "image",
+      "texte": "Entre Saint-Savin et Saulgé, huit édifices religieux forment la Vallée des Fresques, un itinéraire méconnu de peintures murales en #Vienne 🏛️\n➡️ Lire l’article",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260921-881162d1-bsky.jpg"
+    },
+    {
       "channel": "facebook",
       "at": "2026-09-21T06:35:49.359Z",
       "titre": "En Vienne, huit monuments cachent 500 ans de peintures murales",
@@ -523,28 +541,9 @@
       "format": null,
       "texte": "Capbreton cache un canyon sous-marin de 4 500 mètres, à 300 mètres des plages 🌊",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20260919-139f1e9d-fb.jpg"
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-09-19T16:07:56.872Z",
-      "titre": "Cette maison du Lot-et-Garonne raconte la vie de son propriétaire à travers 600 céramiques",
-      "lien": "https://passion-aquitaine.ouest-france.fr/maison-assiettes-bias-lot-et-garonne/",
-      "lienPost": "https://www.instagram.com/p/DdeZzBCk0Lo/",
-      "format": null,
-      "texte": "En Lot-et-Garonne, une maison entière est tapissée de 600 céramiques 🍽️\n⠀\nLa Maison des Assiettes, décorée par Léon De Brondeau, rouvre ses portes à l’occasion des Journées Européennes du Patrimoine. Chaque pièce posée sur les murs raconte un morceau de la vie de son propriétaire.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#LotEtGaronne #MaisonDesAssiettes #Patrimoine",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20260919-10392677-1.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "bluesky",
-      "dueAt": "2026-09-21T07:12:50.312Z",
-      "prochainPassage": "2026-09-21T07:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "En Vienne, huit monuments cachent 500 ans de peintures murales"
-    },
     {
       "channel": "x",
       "dueAt": "2026-09-21T08:20:00.000Z",
@@ -566,7 +565,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 27,
+    "releves": 28,
     "parReseau": {}
   },
   "rapports": [],
@@ -671,16 +670,16 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-21T06:35:51.257Z",
-    "posts": 27,
+    "genereLe": "2026-09-21T07:12:56.871Z",
+    "posts": 28,
     "parReseau": {
-      "threads": {
-        "posts": 5,
-        "moyenne": 9.6
-      },
       "instagram": {
         "posts": 9,
         "moyenne": 9.4
+      },
+      "threads": {
+        "posts": 6,
+        "moyenne": 8.3
       },
       "facebook": {
         "posts": 5,
@@ -700,19 +699,19 @@
         "posts": 1,
         "moyenne": 3
       },
+      "image": {
+        "posts": 2,
+        "moyenne": 1
+      },
       "reply": {
         "posts": 3,
         "moyenne": 1
-      },
-      "image": {
-        "posts": 1,
-        "moyenne": 0
       }
     },
     "parCreneau": {
       "matin": {
-        "posts": 16,
-        "moyenne": 6.1
+        "posts": 17,
+        "moyenne": 5.9
       },
       "après-midi": {
         "posts": 7,
@@ -775,17 +774,17 @@
           "posts": 2,
           "moyenne": 4.5
         },
-        "hors créneau": {
-          "posts": 1,
-          "moyenne": 1
-        },
         "7 h – 8 h 30": {
+          "posts": 2,
+          "moyenne": 1.5
+        },
+        "hors créneau": {
           "posts": 1,
           "moyenne": 1
         }
       }
     },
-    "interactionsTotal": 143,
+    "interactionsTotal": 145,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35494",
       "channel": "instagram",
@@ -828,13 +827,13 @@
         "moyenne": 4
       },
       "sans": {
-        "posts": 26,
-        "moyenne": 5.3
+        "posts": 27,
+        "moyenne": 5.2
       }
     },
     "publies": {
       "instagram": 11,
-      "bluesky": 9,
+      "bluesky": 10,
       "x": 9,
       "facebook": 7,
       "threads": 7
@@ -882,12 +881,12 @@
       }
     },
     "engagement": {
-      "threads": 0.84,
       "instagram": 0.09,
+      "threads": 0.72,
       "facebook": 0
     },
     "conseils": [
-      "Le format « reponse » fait 113 fois mieux que « image » (11.3 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « image » de la rotation dans config/channels.json.",
+      "Le format « reponse » fait 11,3 fois mieux que « reply » (11.3 contre 1 interactions). Si ça se confirme le mois prochain, on peut retirer « reply » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+3, +0,3 %) ; Facebook recule (−4), à surveiller."
     ]
   }

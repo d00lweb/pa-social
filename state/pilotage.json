@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-21T06:00:43.478Z",
+  "genereLe": "2026-09-21T06:20:47.069Z",
   "jour": "2026-09-21",
   "reseaux": {
     "instagram": {
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 6,
-      "total": 6,
-      "dernier": "2026-09-20T18:27:17.265Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1726185072840707"
+      "aujourdhui": 1,
+      "semaine": 7,
+      "total": 7,
+      "dernier": "2026-09-21T06:35:49.359Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1726632872795927"
     },
     "threads": {
       "actif": true,
@@ -124,11 +124,11 @@
         "lien",
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 6,
-      "total": 6,
-      "dernier": "2026-09-20T06:26:29.167Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/Ddf7_wFHH0j"
+      "aujourdhui": 1,
+      "semaine": 7,
+      "total": 7,
+      "dernier": "2026-09-21T06:28:10.054Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/Ddig--0lSGV"
     },
     "x": {
       "actif": true,
@@ -168,6 +168,30 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35372",
+      "titre": "En Vienne, huit monuments cachent 500 ans de peintures murales",
+      "lien": "https://passion-aquitaine.ouest-france.fr/vallee-des-fresques-gartempe-vienne/",
+      "at": "2026-09-21T06:35:49.359Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Entre Saint-Savin et Saulgé, huit édifices religieux forment la Vallée des Fresques, un itinéraire méconnu de peintures murales en Vienne 🏛️",
+          "image": null,
+          "mode": "lien",
+          "reponse": null,
+          "sujet": "Patrimoine",
+          "publieLe": "2026-09-21T06:28:10.054Z"
+        },
+        "facebook": {
+          "texte": "Huit monuments cachent 500 ans de peintures murales 🏛️",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260921-881162d1-fb.jpg",
+          "mode": null,
+          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/vallee-des-fresques-gartempe-vienne/",
+          "sujet": null,
+          "publieLe": "2026-09-21T06:35:49.359Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35478",
       "titre": "Ces dauphins près des plages d’Hossegor ne sont pas bon signe",
@@ -407,33 +431,29 @@
           "publieLe": "2026-09-18T11:22:43.533Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35561",
-      "titre": "Le brunch le plus généreux de Bordeaux a rouvert ses portes",
-      "lien": "https://passion-aquitaine.ouest-france.fr/reouverture-brunch-sans-pression-bordeaux/",
-      "at": "2026-09-18T07:18:51.326Z",
-      "reseaux": {
-        "facebook": {
-          "texte": "Le brunch le plus généreux de Bordeaux a rouvert ses portes 📍",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260917-6158b577-fb.jpg",
-          "mode": null,
-          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/reouverture-brunch-sans-pression-bordeaux/",
-          "sujet": null,
-          "publieLe": "2026-09-18T07:13:27.681Z"
-        },
-        "threads": {
-          "texte": "Fermé pour travaux, le brunch gargantuesque du Sans Pression a rouvert à Bordeaux le 12 septembre, avec un tarif revu 📍",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260917-6158b577-th.jpg",
-          "mode": "reponse",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/reouverture-brunch-sans-pression-bordeaux/",
-          "sujet": "Bordeaux",
-          "publieLe": "2026-09-18T07:18:51.326Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "facebook",
+      "at": "2026-09-21T06:35:49.359Z",
+      "titre": "En Vienne, huit monuments cachent 500 ans de peintures murales",
+      "lien": "https://passion-aquitaine.ouest-france.fr/vallee-des-fresques-gartempe-vienne/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1726632872795927",
+      "format": null,
+      "texte": "Huit monuments cachent 500 ans de peintures murales 🏛️",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260921-881162d1-fb.jpg"
+    },
+    {
+      "channel": "threads",
+      "at": "2026-09-21T06:28:10.054Z",
+      "titre": "En Vienne, huit monuments cachent 500 ans de peintures murales",
+      "lien": "https://passion-aquitaine.ouest-france.fr/vallee-des-fresques-gartempe-vienne/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/Ddig--0lSGV",
+      "format": "lien",
+      "texte": "Entre Saint-Savin et Saulgé, huit édifices religieux forment la Vallée des Fresques, un itinéraire méconnu de peintures murales en Vienne 🏛️",
+      "image": null
+    },
     {
       "channel": "facebook",
       "at": "2026-09-20T18:27:17.265Z",
@@ -513,47 +533,9 @@
       "format": null,
       "texte": "En Lot-et-Garonne, une maison entière est tapissée de 600 céramiques 🍽️\n⠀\nLa Maison des Assiettes, décorée par Léon De Brondeau, rouvre ses portes à l’occasion des Journées Européennes du Patrimoine. Chaque pièce posée sur les murs raconte un morceau de la vie de son propriétaire.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#LotEtGaronne #MaisonDesAssiettes #Patrimoine",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20260919-10392677-1.jpg"
-    },
-    {
-      "channel": "threads",
-      "at": "2026-09-19T12:28:00.908Z",
-      "titre": "Cette maison du Lot-et-Garonne raconte la vie de son propriétaire à travers 600 céramiques",
-      "lien": "https://passion-aquitaine.ouest-france.fr/maison-assiettes-bias-lot-et-garonne/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/DdeAT1CFqKH",
-      "format": "reponse",
-      "texte": "🏺 Détail méconnu : les 600 céramiques de cette maison du Lot-et-Garonne ne sont pas là pour faire joli. Léon De Brondeau les a choisies et posées comme autant de repères de sa propre existence. Une façon d’écrire une autobiographie sur les murs. Le lieu rouvre pour les Journées Européennes du Patrimoine. Seriez-vous tenté par la visite ?",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20260919-10392677-th.jpg"
-    },
-    {
-      "channel": "bluesky",
-      "at": "2026-09-19T10:27:27.860Z",
-      "titre": "Cette maison du Lot-et-Garonne raconte la vie de son propriétaire à travers 600 céramiques",
-      "lien": "https://passion-aquitaine.ouest-france.fr/maison-assiettes-bias-lot-et-garonne/",
-      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mvuhveevl22i",
-      "format": "reply",
-      "texte": "Visiter une maison dont les murs racontent une biographie : c’est ce que propose la Maison des Assiettes, en Lot-et-Garonne. Léon De Brondeau y a posé 600 céramiques, et le lieu rouvre pour les Journées Européennes du Patrimoine 🏺 #LotEtGaronne",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20260919-10392677-bsky.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "threads",
-      "dueAt": "2026-09-21T06:27:30.760Z",
-      "prochainPassage": "2026-09-21T07:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "En Vienne, huit monuments cachent 500 ans de peintures murales"
-    },
-    {
-      "channel": "facebook",
-      "dueAt": "2026-09-21T06:33:28.931Z",
-      "prochainPassage": "2026-09-21T07:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "En Vienne, huit monuments cachent 500 ans de peintures murales"
-    },
     {
       "channel": "bluesky",
       "dueAt": "2026-09-21T07:12:50.312Z",
@@ -584,7 +566,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 26,
+    "releves": 27,
     "parReseau": {}
   },
   "rapports": [],
@@ -643,7 +625,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-09-21T05:20:42.689Z"
+    "derniere": "2026-09-21T06:20:47.069Z"
   },
   "abonnes": {
     "instagram": {
@@ -689,8 +671,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-21T06:00:45.164Z",
-    "posts": 26,
+    "genereLe": "2026-09-21T06:35:51.257Z",
+    "posts": 27,
     "parReseau": {
       "threads": {
         "posts": 5,
@@ -701,7 +683,7 @@
         "moyenne": 9.4
       },
       "facebook": {
-        "posts": 4,
+        "posts": 5,
         "moyenne": 1
       },
       "bluesky": {
@@ -729,8 +711,8 @@
     },
     "parCreneau": {
       "matin": {
-        "posts": 15,
-        "moyenne": 6.5
+        "posts": 16,
+        "moyenne": 6.1
       },
       "après-midi": {
         "posts": 7,
@@ -772,7 +754,7 @@
       },
       "facebook": {
         "8 h – 9 h 30": {
-          "posts": 2,
+          "posts": 3,
           "moyenne": 1
         },
         "hors créneau": {
@@ -803,7 +785,7 @@
         }
       }
     },
-    "interactionsTotal": 142,
+    "interactionsTotal": 143,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35494",
       "channel": "instagram",
@@ -846,16 +828,16 @@
         "moyenne": 4
       },
       "sans": {
-        "posts": 25,
-        "moyenne": 5.5
+        "posts": 26,
+        "moyenne": 5.3
       }
     },
     "publies": {
       "instagram": 11,
       "bluesky": 9,
       "x": 9,
-      "facebook": 6,
-      "threads": 6
+      "facebook": 7,
+      "threads": 7
     },
     "abonnes": {
       "instagram": {

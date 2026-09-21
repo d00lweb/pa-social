@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-21T05:20:42.689Z",
+  "genereLe": "2026-09-21T06:00:43.478Z",
   "jour": "2026-09-21",
   "reseaux": {
     "instagram": {
@@ -535,7 +535,53 @@
       "image": "https://passion-aquitaine.ouest-france.fr/social/20260919-10392677-bsky.jpg"
     }
   ],
-  "file": [],
+  "file": [
+    {
+      "channel": "threads",
+      "dueAt": "2026-09-21T06:27:30.760Z",
+      "prochainPassage": "2026-09-21T07:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "En Vienne, huit monuments cachent 500 ans de peintures murales"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-09-21T06:33:28.931Z",
+      "prochainPassage": "2026-09-21T07:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "En Vienne, huit monuments cachent 500 ans de peintures murales"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-09-21T07:12:50.312Z",
+      "prochainPassage": "2026-09-21T07:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "En Vienne, huit monuments cachent 500 ans de peintures murales"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-09-21T08:20:00.000Z",
+      "prochainPassage": "2026-09-21T08:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "En Vienne, huit monuments cachent 500 ans de peintures murales"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-09-21T11:27:19.700Z",
+      "prochainPassage": "2026-09-21T12:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "En Vienne, huit monuments cachent 500 ans de peintures murales"
+    }
+  ],
   "alertes": [],
   "mesures": {
     "releves": 26,
@@ -643,7 +689,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-21T05:20:44.699Z",
+    "genereLe": "2026-09-21T06:00:45.164Z",
     "posts": 26,
     "parReseau": {
       "threads": {

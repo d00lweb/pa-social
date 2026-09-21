@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-21T22:00:40.981Z",
+  "genereLe": "2026-09-21T22:20:58.232Z",
   "jour": "2026-09-22",
   "reseaux": {
     "instagram": {
@@ -25,7 +25,7 @@
       },
       "formats": null,
       "aujourdhui": 0,
-      "semaine": 12,
+      "semaine": 11,
       "total": 12,
       "dernier": "2026-09-21T11:27:50.317Z",
       "lienDernier": "https://www.instagram.com/p/DdjDVYpmPB4/"
@@ -562,8 +562,13 @@
   "file": [],
   "alertes": [],
   "mesures": {
-    "releves": 31,
-    "parReseau": {}
+    "releves": 32,
+    "parReseau": {
+      "instagram": {
+        "posts": 1,
+        "interactionsMoyennes": 4
+      }
+    }
   },
   "rapports": [],
   "jetons": {
@@ -667,7 +672,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-21T22:00:50.592Z",
+    "genereLe": "2026-09-21T22:21:00.086Z",
     "posts": 31,
     "parReseau": {
       "instagram": {

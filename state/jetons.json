@@ -1,13 +1,13 @@
 {
-  "verifieLe": "2026-09-20T22:00:44.364Z",
+  "verifieLe": "2026-09-21T22:00:40.981Z",
   "meta": {
     "expireLe": "2026-12-16T20:08:59.000Z",
-    "restant": 87,
+    "restant": 86,
     "renouvellement": "manuel"
   },
   "threads": {
     "expireLe": "2026-11-16T21:12:39.531Z",
-    "restant": 57,
+    "restant": 56,
     "renouvellement": "commande npm run threads:refresh"
   },
   "alertes": {}

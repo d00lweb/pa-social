@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-21T11:20:42.742Z",
+  "genereLe": "2026-09-21T12:00:44.030Z",
   "jour": "2026-09-21",
   "reseaux": {
     "instagram": {
@@ -562,7 +562,7 @@
   "file": [],
   "alertes": [],
   "mesures": {
-    "releves": 29,
+    "releves": 30,
     "parReseau": {}
   },
   "rapports": [],
@@ -621,7 +621,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-09-21T10:20:56.638Z"
+    "derniere": "2026-09-21T12:00:44.030Z"
   },
   "abonnes": {
     "instagram": {
@@ -667,12 +667,12 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-21T11:27:50.637Z",
-    "posts": 29,
+    "genereLe": "2026-09-21T12:00:46.417Z",
+    "posts": 30,
     "parReseau": {
       "instagram": {
-        "posts": 9,
-        "moyenne": 9.4
+        "posts": 10,
+        "moyenne": 12
       },
       "threads": {
         "posts": 6,
@@ -710,13 +710,13 @@
       }
     },
     "parCreneau": {
+      "après-midi": {
+        "posts": 8,
+        "moyenne": 8.8
+      },
       "matin": {
         "posts": 18,
         "moyenne": 5.6
-      },
-      "après-midi": {
-        "posts": 7,
-        "moyenne": 5
       },
       "soir": {
         "posts": 4,
@@ -726,8 +726,8 @@
     "parCreneauReseau": {
       "instagram": {
         "12 h – 13 h 30": {
-          "posts": 2,
-          "moyenne": 11.5
+          "posts": 3,
+          "moyenne": 19.3
         },
         "hors créneau": {
           "posts": 6,
@@ -785,7 +785,7 @@
         }
       }
     },
-    "interactionsTotal": 145,
+    "interactionsTotal": 180,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35494",
       "channel": "instagram",
@@ -828,8 +828,8 @@
         "moyenne": 4
       },
       "sans": {
-        "posts": 28,
-        "moyenne": 5
+        "posts": 29,
+        "moyenne": 6.1
       }
     },
     "publies": {
@@ -882,7 +882,7 @@
       }
     },
     "engagement": {
-      "instagram": 0.09,
+      "instagram": 0.12,
       "threads": 0.72,
       "facebook": 0
     },

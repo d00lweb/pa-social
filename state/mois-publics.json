@@ -3,7 +3,7 @@
     "cle": "2026-09",
     "publications": 46,
     "articles": 12,
-    "interactions": 145,
+    "interactions": 180,
     "parReseau": {
       "facebook": 7,
       "instagram": 12,
@@ -35,6 +35,13 @@
       },
       {
         "reseau": "instagram",
+        "titre": "Ces dauphins près des plages d’Hossegor ne sont pas bon signe",
+        "lien": "https://www.instagram.com/p/DdgehsLmC8L/",
+        "image": "https://passion-aquitaine.ouest-france.fr/social/20260920-834e0391-1-vignette.jpg",
+        "interactions": 35
+      },
+      {
+        "reseau": "instagram",
         "titre": "À Capbreton, un canyon de 4 500 mètres dort sous les bateaux",
         "lien": "https://www.instagram.com/p/DddxYSwjf4g/",
         "image": "https://passion-aquitaine.ouest-france.fr/social/20260919-139f1e9d-1-vignette.jpg",
@@ -45,13 +52,6 @@
         "titre": "Pourquoi Bordeaux parle désormais de « matrimoine »",
         "lien": "https://www.instagram.com/p/DdTAqJ0IK_e/",
         "image": "https://passion-aquitaine.ouest-france.fr/social/20260915-7c47bbf2-1-vignette.jpg",
-        "interactions": 6
-      },
-      {
-        "reseau": "threads",
-        "titre": "Cette maison du Lot-et-Garonne raconte la vie de son propriétaire à travers 600 céramiques",
-        "lien": "https://www.threads.com/@lovaquitaine/post/DdeAT1CFqKH",
-        "image": "https://passion-aquitaine.ouest-france.fr/social/20260919-10392677-1-vignette.jpg",
         "interactions": 6
       }
     ]

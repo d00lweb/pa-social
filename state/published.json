@@ -643,5 +643,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35372",
+    "channel": "x",
+    "at": "2026-09-21T08:20:51.790Z",
+    "mediaId": "kit-telegram",
+    "titre": "En Vienne, huit monuments cachent 500 ans de peintures murales",
+    "lien": "https://passion-aquitaine.ouest-france.fr/vallee-des-fresques-gartempe-vienne/",
+    "lienPost": null,
+    "format": "lien",
+    "mention": false,
+    "apercu": {
+      "texte": "Huit monuments cachent 500 ans de peintures murales 🏛️",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260921-881162d1-x.jpg",
+      "mode": "lien",
+      "reponse": null,
+      "sujet": null
+    }
   }
 ]

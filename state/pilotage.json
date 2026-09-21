@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-21T08:00:48.416Z",
+  "genereLe": "2026-09-21T08:20:43.949Z",
   "jour": "2026-09-21",
   "reseaux": {
     "instagram": {
@@ -160,10 +160,10 @@
         "lien",
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 9,
-      "total": 9,
-      "dernier": "2026-09-20T08:00:45.886Z",
+      "aujourdhui": 1,
+      "semaine": 10,
+      "total": 10,
+      "dernier": "2026-09-21T08:20:51.790Z",
       "lienDernier": null
     }
   },
@@ -172,7 +172,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35372",
       "titre": "En Vienne, huit monuments cachent 500 ans de peintures murales",
       "lien": "https://passion-aquitaine.ouest-france.fr/vallee-des-fresques-gartempe-vienne/",
-      "at": "2026-09-21T07:12:52.996Z",
+      "at": "2026-09-21T08:20:51.790Z",
       "reseaux": {
         "threads": {
           "texte": "Entre Saint-Savin et Saulgé, huit édifices religieux forment la Vallée des Fresques, un itinéraire méconnu de peintures murales en Vienne 🏛️",
@@ -197,6 +197,14 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-09-21T07:12:52.996Z"
+        },
+        "x": {
+          "texte": "Huit monuments cachent 500 ans de peintures murales 🏛️",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260921-881162d1-x.jpg",
+          "mode": "lien",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-09-21T08:20:51.790Z"
         }
       }
     },
@@ -443,6 +451,16 @@
   ],
   "publications": [
     {
+      "channel": "x",
+      "at": "2026-09-21T08:20:51.790Z",
+      "titre": "En Vienne, huit monuments cachent 500 ans de peintures murales",
+      "lien": "https://passion-aquitaine.ouest-france.fr/vallee-des-fresques-gartempe-vienne/",
+      "lienPost": null,
+      "format": "lien",
+      "texte": "Huit monuments cachent 500 ans de peintures murales 🏛️",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260921-881162d1-x.jpg"
+    },
+    {
       "channel": "bluesky",
       "at": "2026-09-21T07:12:52.996Z",
       "titre": "En Vienne, huit monuments cachent 500 ans de peintures murales",
@@ -531,28 +549,9 @@
       "format": null,
       "texte": "Un propriétaire a raconté sa vie avec 🍽️ 600 assiettes posées sur ses murs. Vous connaissiez ce lieu ?",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20260919-10392677-fb.jpg"
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-09-19T19:15:44.864Z",
-      "titre": "À Capbreton, un canyon de 4 500 mètres dort sous les bateaux",
-      "lien": "https://passion-aquitaine.ouest-france.fr/gouf-capbreton-canyon-abysse-landes/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1725251196267428",
-      "format": null,
-      "texte": "Capbreton cache un canyon sous-marin de 4 500 mètres, à 300 mètres des plages 🌊",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20260919-139f1e9d-fb.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "x",
-      "dueAt": "2026-09-21T08:20:00.000Z",
-      "prochainPassage": "2026-09-21T08:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "En Vienne, huit monuments cachent 500 ans de peintures murales"
-    },
     {
       "channel": "instagram",
       "dueAt": "2026-09-21T11:27:19.700Z",
@@ -670,7 +669,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-21T08:00:49.262Z",
+    "genereLe": "2026-09-21T08:20:56.341Z",
     "posts": 29,
     "parReseau": {
       "instagram": {
@@ -838,7 +837,7 @@
     "publies": {
       "instagram": 11,
       "bluesky": 10,
-      "x": 9,
+      "x": 10,
       "facebook": 7,
       "threads": 7
     },

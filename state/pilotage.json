@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-22T06:20:38.509Z",
+  "genereLe": "2026-09-22T06:42:55.744Z",
   "jour": "2026-09-22",
   "reseaux": {
     "instagram": {
@@ -567,7 +567,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 33,
+    "releves": 35,
     "parReseau": {
       "instagram": {
         "posts": 2,
@@ -631,7 +631,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-09-22T05:20:45.705Z"
+    "derniere": "2026-09-22T06:42:55.744Z"
   },
   "abonnes": {
     "instagram": {
@@ -677,19 +677,19 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-22T06:30:55.538Z",
-    "posts": 31,
+    "genereLe": "2026-09-22T06:42:59.744Z",
+    "posts": 33,
     "parReseau": {
       "instagram": {
         "posts": 10,
         "moyenne": 12
       },
       "threads": {
-        "posts": 6,
-        "moyenne": 8.3
+        "posts": 7,
+        "moyenne": 7.1
       },
       "facebook": {
-        "posts": 6,
+        "posts": 7,
         "moyenne": 1
       },
       "bluesky": {
@@ -703,8 +703,8 @@
         "moyenne": 11.3
       },
       "lien": {
-        "posts": 1,
-        "moyenne": 3
+        "posts": 2,
+        "moyenne": 1.5
       },
       "image": {
         "posts": 2,
@@ -725,8 +725,8 @@
         "moyenne": 8.8
       },
       "matin": {
-        "posts": 18,
-        "moyenne": 5.6
+        "posts": 20,
+        "moyenne": 5.1
       },
       "soir": {
         "posts": 5,
@@ -764,7 +764,7 @@
       },
       "facebook": {
         "8 h – 9 h 30": {
-          "posts": 3,
+          "posts": 4,
           "moyenne": 1
         },
         "hors créneau": {
@@ -785,17 +785,17 @@
           "posts": 2,
           "moyenne": 4.5
         },
-        "7 h – 8 h 30": {
-          "posts": 2,
-          "moyenne": 1.5
-        },
         "hors créneau": {
           "posts": 1,
+          "moyenne": 1
+        },
+        "7 h – 8 h 30": {
+          "posts": 3,
           "moyenne": 1
         }
       }
     },
-    "interactionsTotal": 181,
+    "interactionsTotal": 182,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35494",
       "channel": "instagram",
@@ -815,22 +815,22 @@
       "creneauReseau": "hors créneau"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35478",
-      "channel": "bluesky",
-      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mvwo65y5nt2e",
-      "publieLe": "2026-09-20T07:25:05.112Z",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35372",
+      "channel": "threads",
+      "mediaId": "18172245766456968",
+      "publieLe": "2026-09-21T06:28:10.054Z",
       "jalon": 1,
-      "releveLe": "2026-09-21T08:00:48.416Z",
+      "releveLe": "2026-09-22T06:42:55.744Z",
       "likes": 0,
       "commentaires": 0,
       "partages": 0,
-      "vues": null,
-      "titre": "Ces dauphins près des plages d’Hossegor ne sont pas bon signe",
-      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mvwo65y5nt2e",
-      "format": "card",
+      "vues": 78,
+      "titre": "En Vienne, huit monuments cachent 500 ans de peintures murales",
+      "lien": "https://www.threads.com/@lovaquitaine/post/Ddig--0lSGV",
+      "format": "lien",
       "mention": false,
       "creneau": "matin",
-      "creneauReseau": "8 h – 9 h 30"
+      "creneauReseau": "7 h – 8 h 30"
     },
     "mentions": {
       "avec": {
@@ -838,8 +838,8 @@
         "moyenne": 4
       },
       "sans": {
-        "posts": 30,
-        "moyenne": 5.9
+        "posts": 32,
+        "moyenne": 5.6
       }
     },
     "publies": {
@@ -893,7 +893,7 @@
     },
     "engagement": {
       "instagram": 0.12,
-      "threads": 0.72,
+      "threads": 0.62,
       "facebook": 0
     },
     "conseils": [

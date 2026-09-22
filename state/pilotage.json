@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-22T09:20:41.023Z",
+  "genereLe": "2026-09-22T10:00:45.031Z",
   "jour": "2026-09-22",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 10,
-      "total": 12,
-      "dernier": "2026-09-21T11:27:50.317Z",
-      "lienDernier": "https://www.instagram.com/p/DdjDVYpmPB4/"
+      "aujourdhui": 1,
+      "semaine": 11,
+      "total": 13,
+      "dernier": "2026-09-22T10:05:25.139Z",
+      "lienDernier": "https://www.instagram.com/p/Ddler9vkzj2/"
     },
     "bluesky": {
       "actif": true,
@@ -172,7 +172,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35605",
       "titre": "À Bordeaux, 200 danseurs pour un French Cancan géant sur le Miroir d’Eau",
       "lien": "https://passion-aquitaine.ouest-france.fr/record-french-cancan-bordeaux-miroir-eau/",
-      "at": "2026-09-22T08:20:48.051Z",
+      "at": "2026-09-22T10:05:25.139Z",
       "reseaux": {
         "threads": {
           "texte": "Le 30 septembre 2026, plus de 200 danseurs tentent un record du monde de French Cancan sur le Miroir d’eau de Bordeaux 📍",
@@ -205,6 +205,14 @@
           "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/record-french-cancan-bordeaux-miroir-eau/",
           "sujet": null,
           "publieLe": "2026-09-22T08:20:48.051Z"
+        },
+        "instagram": {
+          "texte": "Le 30 septembre 2026, plus de 200 danseurs tentent un record du monde de French Cancan sur le Miroir d’eau de Bordeaux.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #NouvelleAquitaine #Decouverte",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260922-6c111e03-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-09-22T10:05:25.139Z"
         }
       }
     },
@@ -451,6 +459,16 @@
   ],
   "publications": [
     {
+      "channel": "instagram",
+      "at": "2026-09-22T10:05:25.139Z",
+      "titre": "À Bordeaux, 200 danseurs pour un French Cancan géant sur le Miroir d’Eau",
+      "lien": "https://passion-aquitaine.ouest-france.fr/record-french-cancan-bordeaux-miroir-eau/",
+      "lienPost": "https://www.instagram.com/p/Ddler9vkzj2/",
+      "format": null,
+      "texte": "Le 30 septembre 2026, plus de 200 danseurs tentent un record du monde de French Cancan sur le Miroir d’eau de Bordeaux.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #NouvelleAquitaine #Decouverte",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260922-6c111e03-1.jpg"
+    },
+    {
       "channel": "x",
       "at": "2026-09-22T08:20:48.051Z",
       "titre": "À Bordeaux, 200 danseurs pour un French Cancan géant sur le Miroir d’Eau",
@@ -539,29 +557,9 @@
       "format": "lien",
       "texte": "Entre Saint-Savin et Saulgé, huit édifices religieux forment la Vallée des Fresques, un itinéraire méconnu de peintures murales en Vienne 🏛️",
       "image": null
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-09-20T18:27:17.265Z",
-      "titre": "Ces dauphins près des plages d’Hossegor ne sont pas bon signe",
-      "lien": "https://passion-aquitaine.ouest-france.fr/dauphins-hossegor-signal-alerte-gouf-capbreton/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1726185072840707",
-      "format": null,
-      "texte": "Des dauphins s’approchent des plages d’Hossegor 🐬 Une biologiste marine y voit un signal d’alerte.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20260920-834e0391-fb.jpg"
     }
   ],
-  "file": [
-    {
-      "channel": "instagram",
-      "dueAt": "2026-09-22T10:04:46.868Z",
-      "prochainPassage": "2026-09-22T10:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "À Bordeaux, 200 danseurs pour un French Cancan géant sur le Miroir d’Eau"
-    }
-  ],
+  "file": [],
   "alertes": [],
   "mesures": {
     "releves": 36,
@@ -674,7 +672,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-22T09:20:43.989Z",
+    "genereLe": "2026-09-22T10:05:25.572Z",
     "posts": 34,
     "parReseau": {
       "instagram": {
@@ -840,7 +838,7 @@
       }
     },
     "publies": {
-      "instagram": 12,
+      "instagram": 13,
       "bluesky": 11,
       "x": 11,
       "facebook": 8,

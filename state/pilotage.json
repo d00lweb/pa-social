@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-22T05:20:45.705Z",
+  "genereLe": "2026-09-22T06:00:40.490Z",
   "jour": "2026-09-22",
   "reseaux": {
     "instagram": {
@@ -25,7 +25,7 @@
       },
       "formats": null,
       "aujourdhui": 0,
-      "semaine": 11,
+      "semaine": 10,
       "total": 12,
       "dernier": "2026-09-21T11:27:50.317Z",
       "lienDernier": "https://www.instagram.com/p/DdjDVYpmPB4/"
@@ -559,14 +559,60 @@
       "image": "https://passion-aquitaine.ouest-france.fr/social/20260920-834e0391-th.jpg"
     }
   ],
-  "file": [],
+  "file": [
+    {
+      "channel": "threads",
+      "dueAt": "2026-09-22T06:28:04.020Z",
+      "prochainPassage": "2026-09-22T07:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "À Bordeaux, 200 danseurs pour un French Cancan géant sur le Miroir d’Eau"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-09-22T07:13:40.063Z",
+      "prochainPassage": "2026-09-22T07:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "À Bordeaux, 200 danseurs pour un French Cancan géant sur le Miroir d’Eau"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-09-22T07:24:15.893Z",
+      "prochainPassage": "2026-09-22T08:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "À Bordeaux, 200 danseurs pour un French Cancan géant sur le Miroir d’Eau"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-09-22T08:20:00.000Z",
+      "prochainPassage": "2026-09-22T08:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "À Bordeaux, 200 danseurs pour un French Cancan géant sur le Miroir d’Eau"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-09-22T10:04:46.868Z",
+      "prochainPassage": "2026-09-22T10:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "À Bordeaux, 200 danseurs pour un French Cancan géant sur le Miroir d’Eau"
+    }
+  ],
   "alertes": [],
   "mesures": {
-    "releves": 32,
+    "releves": 33,
     "parReseau": {
       "instagram": {
-        "posts": 1,
-        "interactionsMoyennes": 4
+        "posts": 2,
+        "interactionsMoyennes": 5
       }
     }
   },
@@ -672,7 +718,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-22T05:20:48.228Z",
+    "genereLe": "2026-09-22T06:00:42.742Z",
     "posts": 31,
     "parReseau": {
       "instagram": {

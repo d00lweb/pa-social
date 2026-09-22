@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-22T08:00:47.428Z",
+  "genereLe": "2026-09-22T08:20:39.159Z",
   "jour": "2026-09-22",
   "reseaux": {
     "instagram": {
@@ -160,10 +160,10 @@
         "lien",
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 10,
-      "total": 10,
-      "dernier": "2026-09-21T08:20:51.790Z",
+      "aujourdhui": 1,
+      "semaine": 11,
+      "total": 11,
+      "dernier": "2026-09-22T08:20:48.051Z",
       "lienDernier": null
     }
   },
@@ -172,7 +172,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35605",
       "titre": "À Bordeaux, 200 danseurs pour un French Cancan géant sur le Miroir d’Eau",
       "lien": "https://passion-aquitaine.ouest-france.fr/record-french-cancan-bordeaux-miroir-eau/",
-      "at": "2026-09-22T07:25:51.212Z",
+      "at": "2026-09-22T08:20:48.051Z",
       "reseaux": {
         "threads": {
           "texte": "Le 30 septembre 2026, plus de 200 danseurs tentent un record du monde de French Cancan sur le Miroir d’eau de Bordeaux 📍",
@@ -197,6 +197,14 @@
           "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/record-french-cancan-bordeaux-miroir-eau/",
           "sujet": null,
           "publieLe": "2026-09-22T07:25:51.212Z"
+        },
+        "x": {
+          "texte": "200 danseurs pour un French Cancan géant sur le Miroir d’Eau 📍",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260922-6c111e03-x.jpg",
+          "mode": "reponse",
+          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/record-french-cancan-bordeaux-miroir-eau/",
+          "sujet": null,
+          "publieLe": "2026-09-22T08:20:48.051Z"
         }
       }
     },
@@ -443,6 +451,16 @@
   ],
   "publications": [
     {
+      "channel": "x",
+      "at": "2026-09-22T08:20:48.051Z",
+      "titre": "À Bordeaux, 200 danseurs pour un French Cancan géant sur le Miroir d’Eau",
+      "lien": "https://passion-aquitaine.ouest-france.fr/record-french-cancan-bordeaux-miroir-eau/",
+      "lienPost": null,
+      "format": "reponse",
+      "texte": "200 danseurs pour un French Cancan géant sur le Miroir d’Eau 📍",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260922-6c111e03-x.jpg"
+    },
+    {
       "channel": "facebook",
       "at": "2026-09-22T07:25:51.212Z",
       "titre": "À Bordeaux, 200 danseurs pour un French Cancan géant sur le Miroir d’Eau",
@@ -531,28 +549,9 @@
       "format": null,
       "texte": "Des dauphins s’approchent des plages d’Hossegor 🐬 Une biologiste marine y voit un signal d’alerte.",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20260920-834e0391-fb.jpg"
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-09-20T11:27:45.615Z",
-      "titre": "Ces dauphins près des plages d’Hossegor ne sont pas bon signe",
-      "lien": "https://passion-aquitaine.ouest-france.fr/dauphins-hossegor-signal-alerte-gouf-capbreton/",
-      "lienPost": "https://www.instagram.com/p/DdgehsLmC8L/",
-      "format": null,
-      "texte": "🐬 Voir des dauphins depuis la plage d’Hossegor, c’est magique. Et c’est justement le problème\n⠀\nÀ Hossegor comme à Capbreton, les promeneurs s’émerveillent de ces apparitions. Une biologiste marine, elle, y lit un signal d’alerte pour l’océan.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Hossegor #Dauphins #Landes",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20260920-834e0391-1.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "x",
-      "dueAt": "2026-09-22T08:20:00.000Z",
-      "prochainPassage": "2026-09-22T08:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "À Bordeaux, 200 danseurs pour un French Cancan géant sur le Miroir d’Eau"
-    },
     {
       "channel": "instagram",
       "dueAt": "2026-09-22T10:04:46.868Z",
@@ -675,7 +674,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-22T08:00:50.337Z",
+    "genereLe": "2026-09-22T08:20:51.997Z",
     "posts": 34,
     "parReseau": {
       "instagram": {
@@ -843,7 +842,7 @@
     "publies": {
       "instagram": 12,
       "bluesky": 11,
-      "x": 10,
+      "x": 11,
       "facebook": 8,
       "threads": 8
     },

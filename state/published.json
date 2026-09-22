@@ -733,5 +733,23 @@
       "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/record-french-cancan-bordeaux-miroir-eau/",
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35605",
+    "channel": "x",
+    "at": "2026-09-22T08:20:48.051Z",
+    "mediaId": "kit-telegram",
+    "titre": "À Bordeaux, 200 danseurs pour un French Cancan géant sur le Miroir d’Eau",
+    "lien": "https://passion-aquitaine.ouest-france.fr/record-french-cancan-bordeaux-miroir-eau/",
+    "lienPost": null,
+    "format": "reponse",
+    "mention": false,
+    "apercu": {
+      "texte": "200 danseurs pour un French Cancan géant sur le Miroir d’Eau 📍",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260922-6c111e03-x.jpg",
+      "mode": "reponse",
+      "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/record-french-cancan-bordeaux-miroir-eau/",
+      "sujet": null
+    }
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-22T06:00:40.490Z",
+  "genereLe": "2026-09-22T06:20:38.509Z",
   "jour": "2026-09-22",
   "reseaux": {
     "instagram": {
@@ -124,11 +124,11 @@
         "lien",
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 7,
-      "total": 7,
-      "dernier": "2026-09-21T06:28:10.054Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/Ddig--0lSGV"
+      "aujourdhui": 1,
+      "semaine": 8,
+      "total": 8,
+      "dernier": "2026-09-22T06:30:54.943Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DdlF2lClkyx"
     },
     "x": {
       "actif": true,
@@ -168,6 +168,22 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35605",
+      "titre": "À Bordeaux, 200 danseurs pour un French Cancan géant sur le Miroir d’Eau",
+      "lien": "https://passion-aquitaine.ouest-france.fr/record-french-cancan-bordeaux-miroir-eau/",
+      "at": "2026-09-22T06:30:54.943Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Le 30 septembre 2026, plus de 200 danseurs tentent un record du monde de French Cancan sur le Miroir d’eau de Bordeaux 📍",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260922-6c111e03-th.jpg",
+          "mode": "reponse",
+          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/record-french-cancan-bordeaux-miroir-eau/",
+          "sujet": "Bordeaux",
+          "publieLe": "2026-09-22T06:30:54.943Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35372",
       "titre": "En Vienne, huit monuments cachent 500 ans de peintures murales",
@@ -407,57 +423,19 @@
           "publieLe": "2026-09-19T07:06:06.447Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=34715",
-      "titre": "Morimoto Bordeaux dévoile son nouveau menu déjeuner à 33 €",
-      "lien": "https://passion-aquitaine.ouest-france.fr/nouveau-menu-morimoto-bordeaux/",
-      "at": "2026-09-18T11:22:43.533Z",
-      "reseaux": {
-        "instagram": {
-          "texte": "Une table japonaise de Bordeaux ouvre sa pause déjeuner à 33 € 🍣\n⠀\nLe restaurant Morimoto, installé au Mondrian Bordeaux Les Carmes, lance une formule du midi servie en 45 minutes. De quoi déjeuner vite dans un cadre signé par un chef japonais.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #Morimoto #Restaurant",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260918-d98b6f23-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-18T06:25:34.962Z"
-        },
-        "x": {
-          "texte": "On n’attendait pas une grande table japonaise sur le créneau du midi express 🥢 À #Bordeaux, Morimoto lance un menu déjeuner à 33 €, servi en 45 minutes, au Mondrian Les Carmes.\n➡️ https://passion-aquitaine.ouest-france.fr/nouveau-menu-morimoto-bordeaux/",
-          "image": null,
-          "mode": "lien",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-18T06:25:35.593Z"
-        },
-        "bluesky": {
-          "texte": "33 € et 45 minutes : c’est le nouveau format du déjeuner chez Morimoto, le restaurant japonais du Mondrian #Bordeaux Les Carmes. Une formule pensée pour les midis pressés, dans l’une des adresses les plus commentées de la ville 🥢\n➡️ Lire l’article",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260918-d98b6f23-bsky.jpg",
-          "mode": "image",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-18T07:05:53.823Z"
-        },
-        "threads": {
-          "texte": "🍙 Bordeaux, quartier des Carmes. Le restaurant Morimoto, au sein du Mondrian, met en place un nouveau menu déjeuner à 33 €, servi en 45 minutes. Une façon de goûter à la cuisine du chef japonais sans y passer toute la pause de midi.",
-          "image": null,
-          "mode": "lien",
-          "reponse": null,
-          "sujet": "Bordeaux",
-          "publieLe": "2026-09-18T11:07:55.596Z"
-        },
-        "facebook": {
-          "texte": "Déjeuner chez Morimoto à Bordeaux pour 🍱 33 € et en 45 minutes : la formule vous tente ?",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260918-d98b6f23-fb.jpg",
-          "mode": null,
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/nouveau-menu-morimoto-bordeaux/",
-          "sujet": null,
-          "publieLe": "2026-09-18T11:22:43.533Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "threads",
+      "at": "2026-09-22T06:30:54.943Z",
+      "titre": "À Bordeaux, 200 danseurs pour un French Cancan géant sur le Miroir d’Eau",
+      "lien": "https://passion-aquitaine.ouest-france.fr/record-french-cancan-bordeaux-miroir-eau/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/DdlF2lClkyx",
+      "format": "reponse",
+      "texte": "Le 30 septembre 2026, plus de 200 danseurs tentent un record du monde de French Cancan sur le Miroir d’eau de Bordeaux 📍",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260922-6c111e03-th.jpg"
+    },
     {
       "channel": "instagram",
       "at": "2026-09-21T11:27:50.317Z",
@@ -547,28 +525,9 @@
       "format": "card",
       "texte": "Sur le littoral, les apparitions de dauphins ravissent les promeneurs. Mais leur présence si près du bord n’a rien d’anodin : une biologiste marine y voit 🐬 un signal d’alerte, entre Capbreton et #Hossegor.",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20260920-834e0391-bsky.jpg"
-    },
-    {
-      "channel": "threads",
-      "at": "2026-09-20T06:26:29.167Z",
-      "titre": "Ces dauphins près des plages d’Hossegor ne sont pas bon signe",
-      "lien": "https://passion-aquitaine.ouest-france.fr/dauphins-hossegor-signal-alerte-gouf-capbreton/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/Ddf7_wFHH0j",
-      "format": "image",
-      "texte": "Un matin de promenade sur le sable, des ailerons qui fendent l’eau à quelques dizaines de mètres, et tout le monde s’arrête. C’est la scène que vivent les promeneurs d’Hossegor et de Capbreton. Sauf qu’une biologiste marine ne partage pas tout à fait cet émerveillement : pour elle, des dauphins aussi proches du rivage racontent autre chose 🐬\n➡️ https://passion-aquitaine.ouest-france.fr/dauphins-hossegor-signal-alerte-gouf-capbreton/",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20260920-834e0391-th.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "threads",
-      "dueAt": "2026-09-22T06:28:04.020Z",
-      "prochainPassage": "2026-09-22T07:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "À Bordeaux, 200 danseurs pour un French Cancan géant sur le Miroir d’Eau"
-    },
     {
       "channel": "bluesky",
       "dueAt": "2026-09-22T07:13:40.063Z",
@@ -718,7 +677,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-22T06:00:42.742Z",
+    "genereLe": "2026-09-22T06:30:55.538Z",
     "posts": 31,
     "parReseau": {
       "instagram": {
@@ -888,7 +847,7 @@
       "bluesky": 10,
       "x": 10,
       "facebook": 7,
-      "threads": 7
+      "threads": 8
     },
     "abonnes": {
       "instagram": {

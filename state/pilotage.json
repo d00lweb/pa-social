@@ -1,6 +1,6 @@
 {
-  "genereLe": "2026-09-22T21:20:45.643Z",
-  "jour": "2026-09-22",
+  "genereLe": "2026-09-22T22:00:38.499Z",
+  "jour": "2026-09-23",
   "reseaux": {
     "instagram": {
       "actif": true,
@@ -24,7 +24,7 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 1,
+      "aujourdhui": 0,
       "semaine": 11,
       "total": 13,
       "dernier": "2026-09-22T10:05:25.139Z",
@@ -60,7 +60,7 @@
         "image",
         "reply"
       ],
-      "aujourdhui": 1,
+      "aujourdhui": 0,
       "semaine": 11,
       "total": 11,
       "dernier": "2026-09-22T07:13:43.649Z",
@@ -88,7 +88,7 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 1,
+      "aujourdhui": 0,
       "semaine": 8,
       "total": 8,
       "dernier": "2026-09-22T07:25:51.212Z",
@@ -124,7 +124,7 @@
         "lien",
         "reponse"
       ],
-      "aujourdhui": 1,
+      "aujourdhui": 0,
       "semaine": 8,
       "total": 8,
       "dernier": "2026-09-22T06:30:54.943Z",
@@ -160,7 +160,7 @@
         "lien",
         "reponse"
       ],
-      "aujourdhui": 1,
+      "aujourdhui": 0,
       "semaine": 11,
       "total": 11,
       "dernier": "2026-09-22T08:20:48.051Z",
@@ -572,7 +572,7 @@
   },
   "rapports": [],
   "jetons": {
-    "verifieLe": "2026-09-21T22:00:40.981Z",
+    "verifieLe": "2026-09-22T22:00:38.499Z",
     "meta": {
       "expireLe": "2026-12-16T20:08:59.000Z",
       "restant": 86,
@@ -580,7 +580,7 @@
     },
     "threads": {
       "expireLe": "2026-11-16T21:12:39.531Z",
-      "restant": 56,
+      "restant": 55,
       "renouvellement": "commande npm run threads:refresh"
     },
     "alertes": {}
@@ -651,15 +651,15 @@
       "gain": 2,
       "pct": 200,
       "depuis": "2026-09-18",
-      "au": "2026-09-22"
+      "au": "2026-09-23"
     },
     "threads": {
       "debut": 1144,
-      "fin": 1147,
-      "gain": 3,
+      "fin": 1148,
+      "gain": 4,
       "pct": 0.3,
       "depuis": "2026-09-18",
-      "au": "2026-09-22"
+      "au": "2026-09-23"
     },
     "x": {
       "debut": 2940,
@@ -672,7 +672,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-22T21:20:46.326Z",
+    "genereLe": "2026-09-22T22:00:40.541Z",
     "posts": 35,
     "parReseau": {
       "instagram": {
@@ -867,15 +867,15 @@
         "gain": 2,
         "pct": 200,
         "depuis": "2026-09-18",
-        "au": "2026-09-22"
+        "au": "2026-09-23"
       },
       "threads": {
         "debut": 1144,
-        "fin": 1147,
-        "gain": 3,
+        "fin": 1148,
+        "gain": 4,
         "pct": 0.3,
         "depuis": "2026-09-18",
-        "au": "2026-09-22"
+        "au": "2026-09-23"
       },
       "x": {
         "debut": 2940,
@@ -893,7 +893,7 @@
     },
     "conseils": [
       "Le format « reponse » fait 113 fois mieux que « card » (11.3 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « card » de la rotation dans config/channels.json.",
-      "Abonnés : Threads progresse le plus (+3, +0,3 %) ; Facebook recule (−6), à surveiller."
+      "Abonnés : Threads progresse le plus (+4, +0,3 %) ; Facebook recule (−6), à surveiller."
     ]
   }
 }

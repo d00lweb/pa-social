@@ -697,5 +697,23 @@
       "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/record-french-cancan-bordeaux-miroir-eau/",
       "sujet": "Bordeaux"
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35605",
+    "channel": "bluesky",
+    "at": "2026-09-22T07:13:43.649Z",
+    "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mw3ohocmj32e",
+    "titre": "À Bordeaux, 200 danseurs pour un French Cancan géant sur le Miroir d’Eau",
+    "lien": "https://passion-aquitaine.ouest-france.fr/record-french-cancan-bordeaux-miroir-eau/",
+    "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mw3ohocmj32e",
+    "format": "reply",
+    "mention": false,
+    "apercu": {
+      "texte": "Le 30 septembre 2026, plus de 200 danseurs tentent un record du monde de French Cancan sur le Miroir d’eau de #Bordeaux 📍",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260922-6c111e03-bsky.jpg",
+      "mode": "reply",
+      "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/record-french-cancan-bordeaux-miroir-eau/",
+      "sujet": null
+    }
   }
 ]

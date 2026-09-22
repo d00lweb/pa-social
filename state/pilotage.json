@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-22T07:00:48.938Z",
+  "genereLe": "2026-09-22T07:20:38.898Z",
   "jour": "2026-09-22",
   "reseaux": {
     "instagram": {
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 7,
-      "total": 7,
-      "dernier": "2026-09-21T06:35:49.359Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1726632872795927"
+      "aujourdhui": 1,
+      "semaine": 8,
+      "total": 8,
+      "dernier": "2026-09-22T07:25:51.212Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1727665046026043"
     },
     "threads": {
       "actif": true,
@@ -172,7 +172,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35605",
       "titre": "À Bordeaux, 200 danseurs pour un French Cancan géant sur le Miroir d’Eau",
       "lien": "https://passion-aquitaine.ouest-france.fr/record-french-cancan-bordeaux-miroir-eau/",
-      "at": "2026-09-22T07:13:43.649Z",
+      "at": "2026-09-22T07:25:51.212Z",
       "reseaux": {
         "threads": {
           "texte": "Le 30 septembre 2026, plus de 200 danseurs tentent un record du monde de French Cancan sur le Miroir d’eau de Bordeaux 📍",
@@ -189,6 +189,14 @@
           "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/record-french-cancan-bordeaux-miroir-eau/",
           "sujet": null,
           "publieLe": "2026-09-22T07:13:43.649Z"
+        },
+        "facebook": {
+          "texte": "200 danseurs pour un French Cancan géant sur le Miroir d’Eau 📍",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260922-6c111e03-fb.jpg",
+          "mode": null,
+          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/record-french-cancan-bordeaux-miroir-eau/",
+          "sujet": null,
+          "publieLe": "2026-09-22T07:25:51.212Z"
         }
       }
     },
@@ -435,6 +443,16 @@
   ],
   "publications": [
     {
+      "channel": "facebook",
+      "at": "2026-09-22T07:25:51.212Z",
+      "titre": "À Bordeaux, 200 danseurs pour un French Cancan géant sur le Miroir d’Eau",
+      "lien": "https://passion-aquitaine.ouest-france.fr/record-french-cancan-bordeaux-miroir-eau/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1727665046026043",
+      "format": null,
+      "texte": "200 danseurs pour un French Cancan géant sur le Miroir d’Eau 📍",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260922-6c111e03-fb.jpg"
+    },
+    {
       "channel": "bluesky",
       "at": "2026-09-22T07:13:43.649Z",
       "titre": "À Bordeaux, 200 danseurs pour un French Cancan géant sur le Miroir d’Eau",
@@ -523,28 +541,9 @@
       "format": null,
       "texte": "🐬 Voir des dauphins depuis la plage d’Hossegor, c’est magique. Et c’est justement le problème\n⠀\nÀ Hossegor comme à Capbreton, les promeneurs s’émerveillent de ces apparitions. Une biologiste marine, elle, y lit un signal d’alerte pour l’océan.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Hossegor #Dauphins #Landes",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20260920-834e0391-1.jpg"
-    },
-    {
-      "channel": "x",
-      "at": "2026-09-20T08:00:45.886Z",
-      "titre": "Ces dauphins près des plages d’Hossegor ne sont pas bon signe",
-      "lien": "https://passion-aquitaine.ouest-france.fr/dauphins-hossegor-signal-alerte-gouf-capbreton/",
-      "lienPost": null,
-      "format": "image",
-      "texte": "🐬 Pourquoi des dauphins viennent-ils nager si près des plages d’#Hossegor et de Capbreton ? Les promeneurs y voient un spectacle. Une biologiste marine, elle, y lit un signal d’alerte.\n➡️ https://passion-aquitaine.ouest-france.fr/dauphins-hossegor-signal-alerte-gouf-capbreton/",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20260920-834e0391-x.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "facebook",
-      "dueAt": "2026-09-22T07:24:15.893Z",
-      "prochainPassage": "2026-09-22T08:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "À Bordeaux, 200 danseurs pour un French Cancan géant sur le Miroir d’Eau"
-    },
     {
       "channel": "x",
       "dueAt": "2026-09-22T08:20:00.000Z",
@@ -566,7 +565,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 35,
+    "releves": 36,
     "parReseau": {
       "instagram": {
         "posts": 2,
@@ -676,8 +675,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-22T07:13:48.918Z",
-    "posts": 33,
+    "genereLe": "2026-09-22T07:25:52.019Z",
+    "posts": 34,
     "parReseau": {
       "instagram": {
         "posts": 10,
@@ -692,8 +691,8 @@
         "moyenne": 1
       },
       "bluesky": {
-        "posts": 9,
-        "moyenne": 0.6
+        "posts": 10,
+        "moyenne": 0.5
       }
     },
     "parFormat": {
@@ -705,13 +704,13 @@
         "posts": 2,
         "moyenne": 1.5
       },
-      "image": {
-        "posts": 2,
-        "moyenne": 1
-      },
       "reply": {
         "posts": 3,
         "moyenne": 1
+      },
+      "image": {
+        "posts": 3,
+        "moyenne": 0.7
       },
       "card": {
         "posts": 1,
@@ -724,8 +723,8 @@
         "moyenne": 8.8
       },
       "matin": {
-        "posts": 20,
-        "moyenne": 5.1
+        "posts": 21,
+        "moyenne": 4.8
       },
       "soir": {
         "posts": 5,
@@ -752,13 +751,13 @@
           "posts": 1,
           "moyenne": 1
         },
-        "8 h – 9 h 30": {
-          "posts": 4,
-          "moyenne": 0.5
-        },
         "hors créneau": {
           "posts": 4,
           "moyenne": 0.5
+        },
+        "8 h – 9 h 30": {
+          "posts": 5,
+          "moyenne": 0.4
         }
       },
       "facebook": {
@@ -815,21 +814,21 @@
     },
     "moinsBon": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35372",
-      "channel": "threads",
-      "mediaId": "18172245766456968",
-      "publieLe": "2026-09-21T06:28:10.054Z",
+      "channel": "bluesky",
+      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mvz5xaxgkm2b",
+      "publieLe": "2026-09-21T07:12:52.996Z",
       "jalon": 1,
-      "releveLe": "2026-09-22T06:42:55.744Z",
+      "releveLe": "2026-09-22T07:20:38.898Z",
       "likes": 0,
       "commentaires": 0,
       "partages": 0,
-      "vues": 78,
+      "vues": null,
       "titre": "En Vienne, huit monuments cachent 500 ans de peintures murales",
-      "lien": "https://www.threads.com/@lovaquitaine/post/Ddig--0lSGV",
-      "format": "lien",
+      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mvz5xaxgkm2b",
+      "format": "image",
       "mention": false,
       "creneau": "matin",
-      "creneauReseau": "7 h – 8 h 30"
+      "creneauReseau": "8 h – 9 h 30"
     },
     "mentions": {
       "avec": {
@@ -837,15 +836,15 @@
         "moyenne": 4
       },
       "sans": {
-        "posts": 32,
-        "moyenne": 5.6
+        "posts": 33,
+        "moyenne": 5.4
       }
     },
     "publies": {
       "instagram": 12,
       "bluesky": 11,
       "x": 10,
-      "facebook": 7,
+      "facebook": 8,
       "threads": 8
     },
     "abonnes": {

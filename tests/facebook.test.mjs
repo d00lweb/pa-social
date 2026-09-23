@@ -76,7 +76,7 @@ test('Facebook sans IA : le repli n’est plus le titre, et l’emoji n’est pa
   assert.notEqual(texte.replace(/\s\p{Extended_Pictographic}$/u, ''), article.title, 'le texte ne redit pas le titre');
   assert.ok([...texte].length <= ed.limits.facebook, `${[...texte].length} caractères`);
   assert.doesNotMatch(texte, /[\r\n]/, 'une seule phrase');
-  assert.match(texte, /🎭$/, 'emoji du thème reconnu (danse, record du monde)');
+  assert.match(texte, /💃$/, 'emoji du sujet : des danseuses, pas le trophée du record');
 
   // la phrase retenue est celle qui accroche, pas forcément la première
   const accroche = accrocheFacebook({
@@ -86,4 +86,22 @@ test('Facebook sans IA : le repli n’est plus le titre, et l’emoji n’est pa
   });
   assert.match(accroche, /pourtant/, 'le renversement l’emporte sur la première phrase');
   assert.doesNotMatch(accroche, /\p{Extended_Pictographic}/u, 'sans thème reconnu, pas d’emoji plutôt qu’un emoji creux');
+});
+
+test('Facebook : aucune date dans le texte, et l’emoji colle au sujet', async () => {
+  const { sansDate, emojiPour } = await import('../src/brain/fallback.mjs');
+  // « Le 30 septembre 2026, plus de 200 danseurs… » ouvre sur l'information la moins engageante
+  assert.equal(sansDate('Le 30 septembre 2026, plus de 200 danseurs tentent un record.'), 'Plus de 200 danseurs tentent un record.');
+  assert.equal(sansDate('À partir du 3 octobre, le musée ouvre la nuit.'), 'Le musée ouvre la nuit.');
+  assert.equal(sansDate('Dès le 4 mai, les navettes reprennent.'), 'Les navettes reprennent.');
+  assert.equal(sansDate('Depuis 2019, la fréquentation a doublé.'), 'La fréquentation a doublé.');
+  // les nombres qui font l'intérêt restent, et « mai » ne doit pas manger « mais »
+  assert.equal(sansDate('Son brunch passe à 29 euros, mais la formule reste la même.'), 'Son brunch passe à 29 euros, mais la formule reste la même.');
+  assert.equal(sansDate('Le musée du Louvre ouvre le samedi.'), 'Le musée du Louvre ouvre le samedi.');
+
+  // l'emoji suit le sujet, pas l'événement : des danseuses plutôt qu'un trophée
+  assert.equal(emojiPour({ title: 'French Cancan géant', description: '200 danseurs tentent un record du monde' }), '💃');
+  assert.equal(emojiPour({ title: 'Ces dauphins ne sont pas bon signe', description: 'une biologiste alerte' }), '🐬');
+  assert.equal(emojiPour({ title: 'Le brunch le plus généreux', description: 'à volonté' }), '🥐');
+  assert.equal(emojiPour({ title: 'Un sujet sans mot connu', description: 'rien de reconnaissable' }), null, 'aucun emoji plutôt qu’un emoji creux');
 });

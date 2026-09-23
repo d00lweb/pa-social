@@ -18,6 +18,36 @@ const withEmoji = (text, emoji) => (emoji ? `${text.replace(/[.…\s]+$/u, '')} 
 
 const clip = (s, n) => ([...s].length <= n ? s : `${[...s].slice(0, n - 1).join('').replace(/\s+\S*$/, '')}…`);
 
+// Une date n'est jamais une accroche : « Le 30 septembre 2026, plus de 200 danseurs… » commence par
+// l'information la moins engageante, et l'article la donne de toute façon. On retire les jours, les
+// mois et les années — jamais les autres nombres, qui font souvent tout l'intérêt (200 danseurs, 29 €).
+const MOIS = 'janvier|février|mars|avril|mai|juin|juillet|août|septembre|octobre|novembre|décembre';
+export function sansDate(texte) {
+  return String(texte ?? '')
+    // « mai » ne doit pas manger « mais » : la fin du mois est une frontière de mot
+    .replace(new RegExp(`\\b(?:\\d{1,2}(?:er)?\\s+)?(?:${MOIS})\\b(?:\\s+\\d{4})?`, 'gi'), '')
+    .replace(/\b(?:en|dès|depuis)\s+(?:19|20)\d{2}\b/gi, '')
+    // la préposition laissée seule par la date part avec elle : « À partir du , le musée… »
+    // (pas de \b ici : il ne reconnaît pas le « À » accenté en tête de phrase)
+    .replace(/(^|[^\p{L}])(?:à partir (?:du|de)|à compter du|dès le|dès|depuis le|depuis la|depuis|le|du)\s*(?=[,.;:])/giu, '$1')
+    .replace(/\s*,\s*,/g, ',')
+    .replace(/^[\s,;:–—-]+/, '')
+    .replace(/\s{2,}/g, ' ')
+    // espace en trop devant la virgule ou le point seulement : en français, « ; : ! ? » gardent la leur
+    .replace(/\s+([,.])/g, '$1')
+    .replace(/^(.)/, (c) => c.toLocaleUpperCase('fr-FR'))
+    .trim();
+}
+
+// Emoji choisi sur le mot du sujet (danseuses, dauphin, château…), sinon sur le thème, sinon aucun.
+// Un 📍 générique ne dit rien : mieux vaut ne rien mettre.
+export function emojiPour(article, theme) {
+  // l'ordre du tableau fait la priorité : le sujet (danseuses, dauphin) avant l'événement (record)
+  const texte = fold(`${article.title ?? ''} ${article.description ?? ''}`);
+  const trouve = Object.keys(ed.emojiMots ?? {}).find((m) => texte.includes(fold(m)));
+  return trouve ? ed.emojiMots[trouve] : (theme ? ed.fallbackEmojis[theme.rubrique] : null);
+}
+
 // Facebook, format « publication avec lien » : la carte d'aperçu affiche déjà le titre de l'article
 // juste sous le texte. Répéter ce titre n'apporte rien et n'ajoute aucune raison de cliquer — c'est
 // le reproche fait au repli du 23/09/2026. On part donc de la description, en sautant sa première
@@ -33,9 +63,9 @@ export function accrocheFacebook({ titre, description, emoji, max }) {
   };
   // parmi les phrases qui ne redisent pas le titre, on garde celle qui accroche : un renversement
   // (« pourtant », « mais »), puis un chiffre ou une date, sinon la première
-  const candidates = phrases.filter((p) => !memeQueTitre(p));
+  const candidates = phrases.filter((p) => !memeQueTitre(p)).map(sansDate).filter(Boolean);
   const note = (p) => (/(^|\s)(pourtant|mais|en revanche|sauf|désormais|pour la première fois)(\s|,)/i.test(p) ? 2 : 0) + (/\d/.test(p) ? 1 : 0);
-  const utile = candidates.slice().sort((a, b) => note(b) - note(a))[0] ?? phrases[0] ?? titre;
+  const utile = candidates.slice().sort((a, b) => note(b) - note(a))[0] ?? sansDate(phrases[0] ?? titre);
   return withEmoji(clip(frenchTypography(utile), max - (emoji ? 3 : 1)), emoji);
 }
 
@@ -64,7 +94,7 @@ export function fallbackDossier(article) {
     visuel: { titre, surlignage: highlight, description, texte_alternatif: clip(`${rubrique} : ${titre}`, ed.limits.altText) },
     instagram: { texte: withEmoji(description, emoji), hashtags: tags.slice(0, 3) },
     // Facebook : le texte tient au-dessus de la carte d'aperçu, il ne redit donc pas le titre
-    facebook: { texte: accrocheFacebook({ titre, description, emoji: theme ? emoji : null, max: ed.limits.facebook }) },
+    facebook: { texte: accrocheFacebook({ titre, description, emoji: emojiPour(article, theme), max: ed.limits.facebook }) },
     bluesky: { texte: withEmoji(clip(description, ed.limits.bluesky - 3), emoji), hashtag: tags[0] },
     threads: { texte: withEmoji(clip(description, ed.limits.threads - 3), emoji), sujet: (place?.name ?? theme?.rubrique ?? rubrique).replace(/[.&#]/g, '') },
     x: { texte: withEmoji(clip(titre, ed.limits.x - 3), emoji) },

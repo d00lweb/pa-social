@@ -29,16 +29,13 @@ export function nextAngles(memory, angles, networks) {
 // Placement de l'emoji : différent d'un réseau à l'autre, décalé à chaque article (après nextAngles).
 // Facebook est tenu à l'écart de la position « en tête » : sur ce réseau, le texte est coupé vers
 // 125 caractères et les premiers mots doivent porter le fait, pas un pictogramme.
-const SANS_TETE = ['facebook'];
-const EN_TETE = 'en tête du texte';
+// Facebook ne tient qu'en une phrase, posée au-dessus de la carte d'aperçu : l'emoji la referme,
+// toujours. Placé en tête il mange les premiers mots, placé au milieu il coupe la lecture
+// (« Ils seront plus de 💃 200 danseurs… »).
+const PLACEMENT_IMPOSE = { facebook: 'en fin de texte' };
 export function nextEmojiPositions(memory, positions, networks) {
   const start = ((memory.angleIndex ?? 1) * 3) % positions.length;
-  const autres = positions.filter((p) => p !== EN_TETE);
-  return Object.fromEntries(networks.map((net, i) => {
-    const place = positions[(start + i) % positions.length];
-    if (place !== EN_TETE || !SANS_TETE.includes(net)) return [net, place];
-    return [net, autres[(start + i) % autres.length] ?? place];
-  }));
+  return Object.fromEntries(networks.map((net, i) => [net, PLACEMENT_IMPOSE[net] ?? positions[(start + i) % positions.length]]));
 }
 
 export function remember(memory, dossier, networks, size) {

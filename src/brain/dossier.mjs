@@ -5,7 +5,7 @@ import { fromRoot } from '../core/config.mjs';
 import { frenchTypography, pickHighlight } from './editorial.mjs';
 import { resolvePlace, candidateZones, placeNames } from './geo.mjs';
 import { checkDossier } from './guards.mjs';
-import { fallbackDossier } from './fallback.mjs';
+import { fallbackDossier, sansDate } from './fallback.mjs';
 import { nextAngles, nextEmojiPositions } from './memory.mjs';
 
 const ed = JSON.parse(readFileSync(fromRoot('config/editorial.json'), 'utf8'));
@@ -24,7 +24,9 @@ function typeset(d) {
     rubrique: d.rubrique.trim().replace(/'/g, '’'),
     visuel: { titre: t(d.visuel.titre), surlignage: t(d.visuel.surlignage), description: t(d.visuel.description ?? ''), texte_alternatif: t(d.visuel.texte_alternatif) },
     instagram: { ...d.instagram, texte: t(d.instagram.texte) },
-    facebook: { ...d.facebook, texte: t(d.facebook.texte) },
+    // Facebook : jamais de date dans le texte. Elle ouvre sur l'information la moins engageante,
+    // et la carte d'aperçu comme l'article la donnent déjà. Retirée quelle que soit sa provenance.
+    facebook: { ...d.facebook, texte: sansDate(t(d.facebook.texte)) },
     bluesky: { ...d.bluesky, texte: t(d.bluesky.texte) },
     threads: { texte: t(d.threads.texte), sujet: String(d.threads.sujet ?? '').trim().replace(/^#/, '') },
     x: { texte: t(d.x.texte) },

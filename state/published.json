@@ -895,5 +895,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35446",
+    "channel": "facebook",
+    "at": "2026-09-23T18:10:02.422Z",
+    "mediaId": "227437307428711_1729197252539489",
+    "titre": "Près de Limoges, on dort au milieu des girafes et des loups",
+    "lien": "https://passion-aquitaine.ouest-france.fr/lodges-zoo-reynou-limoges-hebergement-insolite/",
+    "lienPost": "https://www.facebook.com/1720946116697936/posts/1729197252539489",
+    "format": null,
+    "mention": false,
+    "apercu": {
+      "texte": "On dort au milieu des girafes et des loups 📍",
+      "image": null,
+      "mode": null,
+      "reponse": null,
+      "sujet": null
+    }
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-23T17:20:59.596Z",
+  "genereLe": "2026-09-23T18:00:56.517Z",
   "jour": "2026-09-23",
   "reseaux": {
     "instagram": {
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 8,
-      "total": 8,
-      "dernier": "2026-09-22T07:25:51.212Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1727665046026043"
+      "aujourdhui": 1,
+      "semaine": 9,
+      "total": 9,
+      "dernier": "2026-09-23T18:10:02.422Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1729197252539489"
     },
     "threads": {
       "actif": true,
@@ -169,42 +169,10 @@
   },
   "articles": [
     {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35635",
-      "titre": "Une levure fait déjà perdre 1° d’alcool au vin : à Bordeaux, la recherche va plus loin",
-      "lien": "https://passion-aquitaine.ouest-france.fr/levures-vin-changement-climatique-bordeaux/",
-      "at": "2026-09-23T17:26:21.974Z",
-      "reseaux": {
-        "x": {
-          "texte": "Des vins moins alcoolisés sans perdre leur goût : à #Bordeaux, une levure permet déjà de retirer 1° d’alcool. Les chercheurs poursuivent leurs travaux avec Oenoledge pour adapter les vignobles au changement climatique 🍷\n➡️ https://passion-aquitaine.ouest-france.fr/levures-vin-changement-climatique-bordeaux/",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260923-fffcf708-x.jpg",
-          "mode": "image",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-23T15:20:59.732Z"
-        },
-        "instagram": {
-          "texte": "Et si une levure suffisait à baisser le degré d’alcool de votre verre ?\n⠀\nÀ Bordeaux, des chercheurs travaillent sur des levures capables de faire perdre 1° d’alcool au vin. Avec la création d’Oenoledge, ils poussent leurs études plus loin pour adapter les vignobles girondins au changement climatique 🍷\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #Vin #Levures",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260923-fffcf708-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-23T17:04:19.720Z"
-        },
-        "bluesky": {
-          "texte": "#Bordeaux devient un laboratoire du vin de demain 🍷 Une levure permet déjà de retirer un degré d’alcool. Avec la création d’Oenoledge, les chercheurs poursuivent leurs travaux pour adapter les cépages au changement climatique.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260923-fffcf708-bsky.jpg",
-          "mode": "card",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-23T17:26:21.974Z"
-        }
-      }
-    },
-    {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35446",
       "titre": "Près de Limoges, on dort au milieu des girafes et des loups",
       "lien": "https://passion-aquitaine.ouest-france.fr/lodges-zoo-reynou-limoges-hebergement-insolite/",
-      "at": "2026-09-23T11:30:15.672Z",
+      "at": "2026-09-23T18:10:02.422Z",
       "reseaux": {
         "threads": {
           "texte": "À dix minutes de Limoges, les lodges du Parc Zoo du Reynou permettent de dormir face aux girafes ou au cœur de l’enclos des loups 📍",
@@ -237,6 +205,46 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-09-23T11:30:15.672Z"
+        },
+        "facebook": {
+          "texte": "On dort au milieu des girafes et des loups 📍",
+          "image": null,
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-09-23T18:10:02.422Z"
+        }
+      }
+    },
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35635",
+      "titre": "Une levure fait déjà perdre 1° d’alcool au vin : à Bordeaux, la recherche va plus loin",
+      "lien": "https://passion-aquitaine.ouest-france.fr/levures-vin-changement-climatique-bordeaux/",
+      "at": "2026-09-23T17:26:21.974Z",
+      "reseaux": {
+        "x": {
+          "texte": "Des vins moins alcoolisés sans perdre leur goût : à #Bordeaux, une levure permet déjà de retirer 1° d’alcool. Les chercheurs poursuivent leurs travaux avec Oenoledge pour adapter les vignobles au changement climatique 🍷\n➡️ https://passion-aquitaine.ouest-france.fr/levures-vin-changement-climatique-bordeaux/",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260923-fffcf708-x.jpg",
+          "mode": "image",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-09-23T15:20:59.732Z"
+        },
+        "instagram": {
+          "texte": "Et si une levure suffisait à baisser le degré d’alcool de votre verre ?\n⠀\nÀ Bordeaux, des chercheurs travaillent sur des levures capables de faire perdre 1° d’alcool au vin. Avec la création d’Oenoledge, ils poussent leurs études plus loin pour adapter les vignobles girondins au changement climatique 🍷\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #Vin #Levures",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260923-fffcf708-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-09-23T17:04:19.720Z"
+        },
+        "bluesky": {
+          "texte": "#Bordeaux devient un laboratoire du vin de demain 🍷 Une levure permet déjà de retirer un degré d’alcool. Avec la création d’Oenoledge, les chercheurs poursuivent leurs travaux pour adapter les cépages au changement climatique.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260923-fffcf708-bsky.jpg",
+          "mode": "card",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-09-23T17:26:21.974Z"
         }
       }
     },
@@ -435,6 +443,16 @@
   ],
   "publications": [
     {
+      "channel": "facebook",
+      "at": "2026-09-23T18:10:02.422Z",
+      "titre": "Près de Limoges, on dort au milieu des girafes et des loups",
+      "lien": "https://passion-aquitaine.ouest-france.fr/lodges-zoo-reynou-limoges-hebergement-insolite/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1729197252539489",
+      "format": null,
+      "texte": "On dort au milieu des girafes et des loups 📍",
+      "image": null
+    },
+    {
       "channel": "bluesky",
       "at": "2026-09-23T17:26:21.974Z",
       "titre": "Une levure fait déjà perdre 1° d’alcool au vin : à Bordeaux, la recherche va plus loin",
@@ -523,28 +541,9 @@
       "format": "reponse",
       "texte": "200 danseurs pour un French Cancan géant sur le Miroir d’Eau 📍",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20260922-6c111e03-x.jpg"
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-09-22T07:25:51.212Z",
-      "titre": "À Bordeaux, 200 danseurs pour un French Cancan géant sur le Miroir d’Eau",
-      "lien": "https://passion-aquitaine.ouest-france.fr/record-french-cancan-bordeaux-miroir-eau/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1727665046026043",
-      "format": null,
-      "texte": "200 danseurs pour un French Cancan géant sur le Miroir d’Eau 📍",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20260922-6c111e03-fb.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "facebook",
-      "dueAt": "2026-09-23T18:09:57.308Z",
-      "prochainPassage": "2026-09-23T18:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": "2026-09-23T08:20:38.691Z",
-      "raison": "l’heure n’était pas dans les créneaux du réseau",
-      "titre": "Près de Limoges, on dort au milieu des girafes et des loups"
-    },
     {
       "channel": "threads",
       "dueAt": "2026-09-24T06:26:46.957Z",
@@ -634,7 +633,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-09-23T16:21:18.482Z"
+    "derniere": "2026-09-23T18:00:56.517Z"
   },
   "abonnes": {
     "instagram": {
@@ -680,7 +679,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-23T17:26:27.148Z",
+    "genereLe": "2026-09-23T18:10:05.547Z",
     "posts": 39,
     "parReseau": {
       "threads": {
@@ -849,7 +848,7 @@
       "instagram": 15,
       "bluesky": 13,
       "x": 13,
-      "facebook": 8,
+      "facebook": 9,
       "threads": 9
     },
     "abonnes": {

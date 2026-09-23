@@ -26,9 +26,13 @@ export const jetons = (usage = {}) => ({
   cacheEcrit: usage.cache_creation_input_tokens ?? 0,
 });
 
+// L'API renvoie parfois un identifiant daté (« claude-haiku-4-5-20251001 ») : sans cette
+// normalisation, le modèle est inconnu et se voit facturer au tarif Opus, cinq fois trop cher.
+export const tarifDe = (modele) => TARIFS[modele] ?? TARIFS[String(modele ?? '').replace(/-\d{8}$/, '')] ?? TARIF_DEFAUT;
+
 // Coût d'un appel, en dollars
 export function cout(usage, modele) {
-  const t = TARIFS[modele] ?? TARIF_DEFAUT;
+  const t = tarifDe(modele);
   const j = jetons(usage);
   return (j.entree * t.entree + j.cacheLu * t.entree * CACHE_LU + j.cacheEcrit * t.entree * CACHE_ECRIT + j.sortie * t.sortie) / 1e6;
 }
@@ -58,6 +62,25 @@ export async function enregistrer({ modele, usage, quoi = 'dossier', now = Date.
     log(`   Coût IA non enregistré : ${e.message}`);
     return null;
   }
+}
+
+// Rédacteur injoignable (crédit épuisé, panne de l'API, clé refusée) : sans lui, les cinq réseaux
+// publient une copie dégradée, sans accroche travaillée ni compte mentionné. Une alerte par jour,
+// pas une par passage : la panne dure, le rappel ne doit pas devenir du bruit.
+export async function signalerIaIndisponible(message, { now = Date.now(), envoyer } = {}) {
+  const etat = await loadJson('ia.json', {});
+  const jour = dayKey(now, TZ);
+  if (etat.alerte === jour) return false;
+  etat.alerte = jour;
+  etat.dernierMessage = String(message ?? '').slice(0, 300);
+  await saveJson('ia.json', etat);
+  const manqueDeCredit = /credit balance|insufficient|quota/i.test(message ?? '');
+  const texte = manqueDeCredit
+    ? `🧠 <b>Plus de crédit sur la clé Claude</b>\nLe rédacteur ne tourne plus : les publications partent en version de secours, sans accroche travaillée, sans mention de compte.\n\nRecharger sur console.anthropic.com → Plans &amp; Billing. Les articles en attente repartiront ensuite tout seuls.`
+    : `🧠 <b>Rédacteur IA injoignable</b>\n${String(message ?? '').slice(0, 200)}\n\nLes publications partent en version de secours en attendant.`;
+  const envoi = envoyer ?? (await import('../channels/telegram.mjs')).alert;
+  await envoi(texte);
+  return true;
 }
 
 const vide = { appels: 0, entree: 0, sortie: 0, cout: 0 };

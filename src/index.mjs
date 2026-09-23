@@ -33,6 +33,8 @@ const TZ = config.timezone;
 const OPEN = ['awaiting', 'pending'];
 // reports successifs pour cause de jeton refusé avant d'abandonner une publication (2 jours environ)
 const REPORTS_JETON_MAX = 48;
+// délai laissé au rédacteur IA pour revenir avant de publier une version de secours
+const ATTENTE_IA_MAX = 6 * HOUR;
 const ed = JSON.parse(readFileSync(fromRoot('config/editorial.json'), 'utf8'));
 
 const paris = (ms) => new Date(ms).toLocaleString('fr-FR', { timeZone: TZ, dateStyle: 'short', timeStyle: 'short' });
@@ -227,6 +229,13 @@ async function plan(items, { history, queue, memory, controls, now, forcedGuid }
     const channels = enabledChannels().filter((c) => !hasPublished(history, article.guid, c.id) && !queue.some((q) => q.guid === article.guid && q.channel === c.id));
     if (!channels.length) continue;
     const dossier = queue.find((q) => q.guid === article.guid)?.dossier ?? (await buildDossier(article, { memory }));
+    // Rédacteur injoignable : publier tout de suite donnerait une copie de secours sur cinq réseaux,
+    // sans accroche travaillée ni compte mentionné. On laisse sa chance au rédacteur pendant quelques
+    // heures — l'article reste dans le flux et sera repris au passage suivant.
+    if (dossier.raison === 'ia-indisponible' && now - article.date < ATTENTE_IA_MAX) {
+      console.log(`En attente du rédacteur : ${article.title} (${Math.round((now - article.date) / 60e3)} min)`);
+      continue;
+    }
     await enrichir(dossier, article);
     remember(memory, dossier, ed.networks, ed.memorySize);
     for (const channel of channels) {

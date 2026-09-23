@@ -55,3 +55,24 @@ test('relevé vide : tout à zéro, jamais d’erreur', () => {
   assert.equal(r.depuis, null);
   assert.ok(TARIFS['claude-opus-5'].sortie > TARIFS['claude-opus-5'].entree);
 });
+
+test('modèle daté : le tarif est retrouvé, pas celui d’Opus par défaut', async () => {
+  const { tarifDe, TARIFS } = await import('../src/brain/couts.mjs');
+  // l'API renvoie « claude-haiku-4-5-20251001 » : sans normalisation, 0,90 centime devenait 4,50
+  assert.deepEqual(tarifDe('claude-haiku-4-5-20251001'), TARIFS['claude-haiku-4-5']);
+  assert.deepEqual(tarifDe('claude-sonnet-5'), TARIFS['claude-sonnet-5']);
+  assert.deepEqual(tarifDe('modèle-inconnu'), TARIFS['claude-opus-5'], 'modèle inconnu : le tarif le plus cher, jamais une sous-estimation');
+});
+
+test('rédacteur injoignable : une alerte par jour, et le manque de crédit est nommé', async () => {
+  const { signalerIaIndisponible } = await import('../src/brain/couts.mjs');
+  const envoyes = [];
+  const envoyer = async (t) => envoyes.push(t);
+  const jour1 = Date.parse('2026-09-24T08:00:00Z');
+  assert.equal(await signalerIaIndisponible('400 Your credit balance is too low', { now: jour1, envoyer }), true);
+  assert.equal(await signalerIaIndisponible('toujours la même panne', { now: jour1 + 4 * 3600e3, envoyer }), false, 'pas de rappel toutes les 20 minutes');
+  assert.equal(await signalerIaIndisponible('panne réseau', { now: jour1 + 26 * 3600e3, envoyer }), true, 'un rappel par jour tant que ça dure');
+  assert.match(envoyes[0], /Plus de crédit/, 'le manque de crédit est nommé, avec la marche à suivre');
+  assert.match(envoyes[0], /console\.anthropic\.com/);
+  assert.match(envoyes[1], /injoignable/, 'une panne ordinaire ne parle pas de crédit');
+});

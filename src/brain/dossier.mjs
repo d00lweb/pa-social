@@ -6,6 +6,7 @@ import { frenchTypography, pickHighlight } from './editorial.mjs';
 import { resolvePlace, candidateZones, placeNames } from './geo.mjs';
 import { checkDossier } from './guards.mjs';
 import { fallbackDossier, sansDate } from './fallback.mjs';
+import { signalerIaIndisponible } from './couts.mjs';
 import { nextAngles, nextEmojiPositions } from './memory.mjs';
 
 const ed = JSON.parse(readFileSync(fromRoot('config/editorial.json'), 'utf8'));
@@ -110,7 +111,9 @@ export async function buildDossier(article, { memory, useCache = false, log = co
       result = await askEditor({ system, payload: corrections ? { ...payload, corrections } : payload, model: ed.model, effort: ed.effort });
     } catch (err) {
       log(`   IA indisponible (${err.message}) : règles de secours`);
-      return fallbackDossier(article);
+      // prévenir une fois par jour : sans rédacteur, les cinq réseaux publient une copie dégradée
+      await signalerIaIndisponible(err.message, { now: Date.now() }).catch(() => {});
+      return { ...fallbackDossier(article), raison: 'ia-indisponible' };
     }
     const controle = (d) => checkDossier(d, { ...ed, source, knownNames: [...ed.knownNames, ...placeNames(), ...ed.themes.map((t) => t.rubrique)], memory: memory.recent ?? {}, questions, recentEmojis: memory.emojis ?? {}, emojiPlacement });
     const finaliser = async (d, note) => {

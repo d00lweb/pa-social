@@ -5,8 +5,8 @@ import { splitAround } from '../brain/editorial.mjs';
 import { composeX, composeXText, linkLead } from '../brain/compose.mjs';
 import { loadSource, cropTo, toMetaJpeg, SLIDE } from '../media/crop.mjs';
 import { createRenderer } from '../media/render.mjs';
-import { send, sendDocument } from './telegram.mjs';
-import { esc } from './preview.mjs';
+import { send, sendCopie, sendDocument } from './telegram.mjs';
+import { esc } from './messages.mjs';
 import { GuardError } from '../core/errors.mjs';
 import { config, fromRoot } from '../core/config.mjs';
 
@@ -31,8 +31,12 @@ const CONSIGNES = {
   reponse: 'Enregistre l’image, touche « Publier sur X », joins l’image et publie. Réponds ensuite à ton propre post avec le second texte.',
 };
 
-// Lien de rédaction pré-remplie : texte + « ➡️ lien » à la ligne
-export const intentUrl = (text) => `https://x.com/intent/post?${new URLSearchParams({ text })}`;
+// Lien de rédaction pré-remplie : texte + « ➡️ lien » à la ligne.
+// Le texte est débarrassé de tout blanc de bordure — un saut de ligne en tête ferait commencer le
+// post par une ligne vide. Encodage en %20 plutôt qu'en « + » : tous les clients ne relisent pas
+// le « + » comme une espace.
+export const intentUrl = (text) =>
+  `https://x.com/intent/post?text=${encodeURIComponent(String(text).trim())}`;
 
 // Longueur comptée par X : lien = 23, emoji = 2
 export const xLength = (text) => {
@@ -68,55 +72,51 @@ export async function prepare(article, { dossier, renderer: shared, log = consol
   await writeFile(fromRoot('out', name), buffer);
   log(`   Kit X : ${LIBELLES[mode]}, visuel ${SIZE.join('×')}`);
 
-  // « image » : le lien suit le texte ; « reponse » : le lien part dans une réponse
-  const text = mode === 'image' ? composeX(dossier, article.link) : composeXText(dossier);
+  // « image » et « lien » : l'adresse suit le texte — sans elle, le format « lien seul » ne
+  // produirait aucun aperçu, ce qui est pourtant tout son intérêt. « reponse » : elle part à part.
+  const text = mode === 'reponse' ? composeXText(dossier) : composeX(dossier, article.link);
   const replyText = mode === 'reponse' ? `${linkLead(article.guid, 'x')} ${article.link}` : null;
   return { article, dossier, mode, files: [{ name, buffer }], text, replyText, link: article.link, intent: intentUrl(text) };
 }
 
-// Un message par élément : chacun se copie d'une seule touche, sans rien sélectionner à la main
+// Un message par élément, et chaque message ne contient QUE ce qu'il faut copier : l'étiquette est
+// portée par le bouton. Auparavant le titre (« 📝 Texte du post (246/280) ») était dans le message :
+// une copie le ramenait avec, il fallait l'effacer dans X, et la ligne vide laissée derrière faisait
+// commencer le post par un saut de ligne. Le sommaire annonce l'ordre une fois pour toutes.
 export function kitMessages(pkg) {
   const mode = pkg.mode ?? 'image';
   const comptes = (pkg.dossier?.comptes?.x ?? []).slice(0, 2);
-  const lieu = pkg.dossier?.lieu;
-
-  const messages = [
-    [
-      `🐦 <b>Kit X</b> · ${esc(pkg.article.title)}`,
-      `<i>Format : ${LIBELLES[mode] ?? mode}</i>`,
-      '',
-      CONSIGNES[mode] ?? '',
-      comptes.length ? 'Les comptes se taguent sur l’image : ils ne comptent pas dans les 280 caractères.' : '',
-    ].filter(Boolean).join('\n'),
-    `📝 <b>Texte du post</b> (${xLength(pkg.text)}/280)\n<code>${esc(pkg.text)}</code>`,
-  ];
-  if (pkg.replyText) messages.push(`💬 <b>Réponse à publier juste après</b>\n<code>${esc(pkg.replyText)}</code>`);
-  for (const c of comptes) messages.push(`👤 <b>Compte à taguer</b> · ${esc(c.nom)}\n<code>@${esc(c.handle)}</code>`);
-
-  // Aucun compte X connu : on propose celui vérifié sur Instagram, en disant clairement ce que c'est
-  if (!comptes.length) {
-    for (const c of (pkg.dossier?.comptes?.instagram ?? []).slice(0, 2)) {
-      messages.push(`👤 <b>Piste</b> · ${esc(c.nom)} — compte vérifié sur Instagram, à confirmer sur X\n<code>@${esc(c.handle)}</code>`);
-    }
-  }
-  // sur X on tague à la main : un nom suffit, pas besoin d'identifiant Meta
-  const nomLieu = pkg.dossier?.lieuNom ?? lieu?.nom;
-  if (nomLieu) {
-    const commune = pkg.dossier?.commune;
-    const repli = commune && commune !== nomLieu ? `\nS'il n'apparaît pas : <code>${esc(commune)}</code>` : '';
-    messages.push(`📍 <b>Lieu à taguer</b>\n<code>${esc(nomLieu)}</code>${repli}`);
-  }
-  // X permet d'ajouter une description d'image à la main : autant la fournir prête à coller
+  const pistes = comptes.length ? [] : (pkg.dossier?.comptes?.instagram ?? []).slice(0, 2);
+  const nomLieu = pkg.dossier?.lieuNom ?? pkg.dossier?.lieu?.nom;
+  const commune = pkg.dossier?.commune;
   const alt = pkg.dossier?.visuel?.texte_alternatif;
-  if (alt) messages.push(`🖼️ <b>Description de l'image</b> (bouton « ALT » sur X)\n<code>${esc(alt)}</code>`);
-  return messages;
+
+  const elements = [
+    { etiquette: `Copier le texte du post (${xLength(pkg.text)}/280)`, valeur: pkg.text, sommaire: 'le texte du post' },
+    pkg.replyText && { etiquette: 'Copier la réponse', valeur: pkg.replyText, sommaire: 'la réponse à publier juste après' },
+    ...comptes.map((c) => ({ etiquette: `Copier @${c.handle}`, valeur: `@${c.handle}`, sommaire: `le compte de ${c.nom}` })),
+    ...pistes.map((c) => ({ etiquette: `Copier @${c.handle}`, valeur: `@${c.handle}`, sommaire: `une piste : ${c.nom}, vérifié sur Instagram, à confirmer sur X` })),
+    nomLieu && { etiquette: 'Copier le lieu', valeur: nomLieu, sommaire: 'le lieu à taguer', note: commune && commune !== nomLieu ? `S'il n'apparaît pas sur X, essayer : ${commune}` : null },
+    alt && { etiquette: 'Copier la description', valeur: alt, sommaire: 'la description de l’image (bouton « ALT » sur X)' },
+  ].filter(Boolean);
+
+  const sommaire = [
+    `🐦 <b>Kit X</b> · ${esc(pkg.article.title)}`,
+    `<i>Format : ${LIBELLES[mode] ?? mode}</i>`,
+    '',
+    CONSIGNES[mode] ?? '',
+    comptes.length ? 'Les comptes se taguent sur l’image : ils ne comptent pas dans les 280 caractères.' : '',
+    '',
+    `<i>Ci-dessous, dans l’ordre : ${elements.map((e) => e.sommaire).join(' · ')}. Chaque message ne contient que le texte à copier, le bouton le met dans le presse-papier.</i>`,
+  ].filter(Boolean).join('\n');
+
+  return { sommaire, elements };
 }
 
 export async function publish(pkg) {
   if (pkg.files.length) await sendDocument(pkg.files[0].buffer, pkg.files[0].name);
-  const [consignes, ...elements] = kitMessages(pkg);
-  await send(consignes, { reply_markup: JSON.stringify({ inline_keyboard: [[{ text: '✍️ Publier sur X', url: pkg.intent }]] }) });
-  // un message par élément : texte, réponse, comptes, lieu — chacun se copie seul
-  for (const message of elements) await send(message);
+  const { sommaire, elements } = kitMessages(pkg);
+  await send(sommaire, { reply_markup: JSON.stringify({ inline_keyboard: [[{ text: '✍️ Publier sur X', url: pkg.intent }]] }) });
+  for (const e of elements) await sendCopie(e.etiquette, e.valeur, { note: e.note ?? null });
   return { mediaId: 'kit-telegram' };
 }

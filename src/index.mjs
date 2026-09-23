@@ -20,7 +20,8 @@ import { verifier as verifierJetons } from './measure/jetons.mjs';
 import { capturer as capturerApercu } from './measure/apercus.mjs';
 import { loadMemory, saveMemory, remember } from './brain/memory.mjs';
 import { alert, telegramEnabled, send, sendPhotos, getUpdates, answerCallback, clearButtons } from './channels/telegram.mjs';
-import { buildPreviewText, previewButtons, esc } from './channels/preview.mjs';
+import { buildPreviewText, previewButtons } from './channels/preview.mjs';
+import { esc, alerteJetonRefuse } from './channels/messages.mjs';
 import * as instagram from './channels/instagram.mjs';
 import * as x from './channels/x.mjs';
 import * as bluesky from './channels/bluesky.mjs';
@@ -398,10 +399,7 @@ ${esc(item.article.title)}`);
         if (controls.alerteJeton !== jour) {
           controls.alerteJeton = jour;
           failed++;
-          await notify(`🔑 <b>Jeton ${NAMES[channel.id]} refusé</b>
-${esc(err.message)}
-
-Les publications concernées sont mises en attente, pas abandonnées : elles repartiront dès le jeton refait.`);
+          await notify(alerteJetonRefuse(NAMES[channel.id], err.message));
         }
         continue;
       }

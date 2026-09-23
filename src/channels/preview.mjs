@@ -2,7 +2,9 @@ import { NAMES } from '../core/control.mjs';
 import { composeX } from '../brain/compose.mjs';
 import { postText, modeFor } from './bluesky.mjs';
 
-export const esc = (s) => String(s ?? '').replace(/[&<>]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' })[c]);
+// Un seul échappement pour tout le projet : il vit dans messages.mjs, avec le reste des règles.
+export { esc } from './messages.mjs';
+import { esc } from './messages.mjs';
 const clip = (s, n) => ([...String(s)].length <= n ? String(s) : `${[...String(s)].slice(0, n - 1).join('')}…`);
 
 // Message Telegram d'aperçu : textes de chaque réseau (citations repliables), heure prévue, statut

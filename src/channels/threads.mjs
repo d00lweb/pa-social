@@ -4,6 +4,7 @@ import sharp from 'sharp';
 import { splitAround } from '../brain/editorial.mjs';
 import { linkLead } from '../brain/compose.mjs';
 import { substituer } from '../brain/annuaire.mjs';
+import { alerteThreadsReponse } from './messages.mjs';
 import { loadSource, cropTo, toMetaJpeg, SLIDE } from '../media/crop.mjs';
 import { createRenderer } from '../media/render.mjs';
 import { uploadFiles, assertPublic } from '../storage/ftp.mjs';
@@ -160,7 +161,7 @@ export async function publish(pkg, { channel } = {}) {
       console.log('   Réponse publiée');
     } catch (err) {
       console.error(`   Réponse non publiée : ${err.message}`);
-      await alert(`⚠️ Threads : post publié mais réponse (lien) non postée\n${pkg.article.title}\n${pkg.replyText}`).catch(() => {});
+      await alert(alerteThreadsReponse(pkg.article.title, pkg.replyText)).catch(() => {});
     }
   }
   return { mediaId: postId, lien };

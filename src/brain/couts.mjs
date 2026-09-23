@@ -1,6 +1,7 @@
 import { loadJson, saveJson } from '../core/state.mjs';
 import { dayKey } from '../core/scheduler.mjs';
 import { config } from '../core/config.mjs';
+import { alerteBudget, alerteIa } from '../channels/messages.mjs';
 
 // Ce que l'IA coûte réellement, relevé appel par appel dans state/couts.json.
 // Aucune estimation : les jetons viennent de la réponse de l'API, le prix de la grille publique.
@@ -114,12 +115,7 @@ export async function verifierBudget({ now = Date.now(), envoyer } = {}) {
   if (memo.budget !== cle) {
     memo.budget = cle;
     await saveJson('ia.json', memo);
-    const euros = (n) => `${n.toFixed(2).replace('.', ',')} $`;
-    const texte = etat.depasse
-      ? COUPER_AU_PLAFOND
-        ? `🛑 <b>Budget IA du mois atteint</b> — ${euros(etat.depense)} sur ${euros(etat.budget)}.\nLe rédacteur n'est plus appelé : les publications partent en version de secours jusqu'au 1er du mois.\nPour relever le plafond : <code>budgetMensuelUSD</code> dans config/channels.json.`
-        : `🛑 <b>Budget IA du mois dépassé</b> — ${euros(etat.depense)} sur ${euros(etat.budget)}.\nLe rédacteur continue d'écrire : rien n'est dégradé. Pour qu'il s'arrête au plafond, passer <code>couperAuPlafond</code> à <code>true</code> dans config/channels.json.`
-      : `⚠️ <b>Budget IA : ${Math.round(etat.part * 100)} % consommés</b> — ${euros(etat.depense)} sur ${euros(etat.budget)}.${COUPER_AU_PLAFOND ? '\nAu-delà, les publications passeront en version de secours.' : '\nAu-delà, tu seras prévenu : le rédacteur continuera d’écrire normalement.'}`;
+    const texte = alerteBudget(etat, { couperAuPlafond: COUPER_AU_PLAFOND });
     const envoi = envoyer ?? (await import('../channels/telegram.mjs')).alert;
     await envoi(texte).catch(() => {});
   }
@@ -177,9 +173,7 @@ export async function signalerIaIndisponible(message, { now = Date.now(), envoye
   etat.dernierMessage = String(message ?? '').slice(0, 300);
   await saveJson('ia.json', etat);
   const manqueDeCredit = /credit balance|insufficient|quota/i.test(message ?? '');
-  const texte = manqueDeCredit
-    ? `🧠 <b>Plus de crédit sur la clé Claude</b>\nLe rédacteur ne tourne plus : les publications partent en version de secours, sans accroche travaillée, sans mention de compte.\n\nRecharger sur console.anthropic.com → Plans &amp; Billing. Les articles en attente repartiront ensuite tout seuls.`
-    : `🧠 <b>Rédacteur IA injoignable</b>\n${String(message ?? '').slice(0, 200)}\n\nLes publications partent en version de secours en attendant.`;
+  const texte = alerteIa(message, { manqueDeCredit });
   const envoi = envoyer ?? (await import('../channels/telegram.mjs')).alert;
   await envoi(texte);
   return true;

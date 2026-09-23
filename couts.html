@@ -115,7 +115,7 @@
     'claude-opus-5': [5, 25], 'claude-opus-4-8': [5, 25],
     'claude-sonnet-5': [2, 10], 'claude-haiku-4-5': [1, 5],
   };
-  const BUDGET = 5; // plafond mensuel, aligné sur budgetMensuelUSD de config/channels.json
+  const BUDGET = 6; // plafond mensuel, aligné sur budgetMensuelUSD de config/channels.json
   const TZ = 'Europe/Paris';
   const $ = (id) => document.getElementById(id);
   const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);

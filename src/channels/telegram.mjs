@@ -1,3 +1,5 @@
+import { aCopier } from './messages.mjs';
+
 const API = 'https://api.telegram.org';
 
 function config() {
@@ -16,21 +18,47 @@ async function call(method, body) {
   return json.result;
 }
 
+// Balises interprétées par Telegram ; tout le reste doit être échappé à l'écriture du message.
+const sansBalises = (t) => String(t).replace(/<\/?(?:b|i|u|s|code|pre|a|blockquote)(?:\s[^>]*)?>/g, '')
+  .replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&');
+
+// Envoi HTML, avec repli en texte nu si Telegram refuse le balisage. Sans ce repli, un message
+// mal formé (une esperluette oubliée dans un titre) ne partirait pas du tout.
+async function envoyer(text, extra = {}) {
+  const c = config();
+  const base = { chat_id: c.chat, disable_web_page_preview: 'true', ...extra };
+  try {
+    return await call('sendMessage', new URLSearchParams({ ...base, text, parse_mode: 'HTML' }));
+  } catch (e) {
+    if (!/parse|entit|tag/i.test(e.message)) throw e;
+    console.error(`Telegram : balisage refusé (${e.message}), envoi en texte nu`);
+    return call('sendMessage', new URLSearchParams({ ...base, text: sansBalises(text) }));
+  }
+}
+
+// Alerte : même rendu que les autres messages. Elle passait auparavant sans parse_mode, ce qui
+// affichait « <b>Budget IA</b> » en clair dans Telegram.
 export async function alert(text) {
-  console.error(text);
+  console.error(sansBalises(text));
   const c = config();
   if (!c) return;
-  await call('sendMessage', new URLSearchParams({ chat_id: c.chat, text, disable_web_page_preview: 'true' }));
+  await envoyer(text);
 }
 
 // Message HTML ; extra : reply_markup (JSON), reply_to_message_id…
 export async function send(text, extra = {}) {
   const c = config();
   if (!c) {
-    console.log(text);
+    console.log(sansBalises(text));
     return null;
   }
-  return call('sendMessage', new URLSearchParams({ chat_id: c.chat, text, parse_mode: 'HTML', disable_web_page_preview: 'true', ...extra }));
+  return envoyer(text, extra);
+}
+
+// Élément à copier : le message ne porte que la valeur, l'étiquette est sur le bouton.
+export async function sendCopie(etiquette, valeur, options = {}) {
+  const { text, options: extra } = aCopier(etiquette, valeur, options);
+  return send(text, extra);
 }
 
 export async function sendPhotos(buffers) {
@@ -95,11 +123,12 @@ export async function sendStory({ buffer, url, title, link, comptes = [], lieu =
   form.append('document', new Blob([buffer], { type: 'image/jpeg' }), 'story.jpg');
   await call('sendDocument', form);
 
-  // un message par élément : chacun se copie d'une seule touche.
-  // Le lien part seul, sans rien autour, pour être copié d'un geste dans le sticker.
-  await send(`<code>${link}</code>`);
-  for (const h of comptes) await send(`👤 <b>Compte à mentionner</b>\n<code>@${h}</code>`);
-  if (lieu) await send(`📍 <b>Lieu à taguer</b>\n<code>${lieu}</code>`);
+  // Un message par élément, et chaque message ne contient que ce qu'il faut copier : l'étiquette
+  // est portée par le bouton. Copier le message entier donne donc exactement la valeur, sans
+  // titre à effacer ensuite — et sans la ligne vide que cet effacement laissait derrière lui.
+  await sendCopie('Copier le lien du sticker', link);
+  for (const h of comptes) await sendCopie(`Copier @${h}`, `@${h}`);
+  if (lieu) await sendCopie('Copier le lieu à taguer', lieu);
 }
 
 export const BOT_COMMANDS = [

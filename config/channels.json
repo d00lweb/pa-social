@@ -1,6 +1,6 @@
 {
   "timezone": "Europe/Paris",
-  "budgetMensuelUSD": 5,
+  "budgetMensuelUSD": 6,
   "_budget": "Plafond de dépense du rédacteur IA, en dollars par mois. couperAuPlafond=false : on est seulement prévenu sur Telegram, l IA continue. Le passer à true coupe l IA au plafond (publications en version de secours).",
   "maxAgeHours": 24,
   "queueRetentionDays": 7,

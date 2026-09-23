@@ -44,12 +44,20 @@ test('kit X : lien de rédaction pré-remplie, message copiable, statut « déj�
   const url = new URL(intentUrl(post));
   assert.equal(url.origin + url.pathname, 'https://x.com/intent/post');
   assert.equal(url.searchParams.get('text'), post);
+  assert.equal(new URL(intentUrl(`
+${post}
+`)).searchParams.get('text'), post, 'jamais de blanc de bordure : le post commencerait par une ligne vide');
   // 34 caractères + emoji (2) + saut de ligne (1) + ➡️ (2) + espace (1) + lien (23)
   assert.equal(xLength(post), 34 + 2 + 1 + 2 + 1 + 23);
-  const msgs = kitMessages({ article: { title: 'A & B' }, mode: 'image', text: 'Texte <ok>\n➡️ https://site.fr/a', link: 'https://site.fr/a' });
-  assert.equal(msgs.length, 2, 'consignes + texte, rien d’autre à copier');
-  assert.ok(msgs[0].includes('A &amp; B'));
-  assert.ok(msgs[1].includes('<code>Texte &lt;ok&gt;\n➡️ https://site.fr/a</code>'));
+  // Un message à copier ne contient QUE ce qu'il faut copier : l'étiquette est sur le bouton.
+  // Avec le titre dans le message, une copie le ramenait avec ; l'effacer laissait une ligne vide,
+  // et le post partait sur X en commençant par un saut de ligne.
+  const texteX = `Texte <ok>\n➡️ https://site.fr/a`;
+  const kit1 = kitMessages({ article: { title: 'A & B' }, mode: 'image', text: texteX, link: 'https://site.fr/a' });
+  assert.ok(kit1.sommaire.includes('A &amp; B'));
+  assert.equal(kit1.elements.length, 1, 'un seul élément à copier : le texte du post');
+  assert.equal(kit1.elements[0].valeur, texteX);
+  assert.match(kit1.elements[0].etiquette, /^Copier le texte du post/);
 
   // chaque élément dans son propre message, pour être copié indépendamment
   const kit = kitMessages({
@@ -57,13 +65,18 @@ test('kit X : lien de rédaction pré-remplie, message copiable, statut « déj�
     mode: 'reponse',
     text: 'Texte seul',
     replyText: '📖 L’article : https://site.fr/a',
-    dossier: { comptes: { x: [{ nom: 'Musée', handle: 'MuseeAquitaine' }] }, lieu: { nom: 'Bordeaux' } },
+    dossier: { comptes: { x: [{ nom: 'Musée', handle: 'MuseeAquitaine' }] }, lieu: { nom: 'Bordeaux' }, visuel: { texte_alternatif: 'Une façade' } },
   });
-  assert.equal(kit.length, 5, 'consignes, texte, réponse, compte, lieu');
-  assert.ok(kit[1].includes('<code>Texte seul</code>'));
-  assert.ok(kit[2].includes('<code>📖 L’article : https://site.fr/a</code>'));
-  assert.ok(kit[3].includes('<code>@MuseeAquitaine</code>') && kit[3].includes('Musée'));
-  assert.ok(kit[4].includes('<code>Bordeaux</code>'));
+  assert.deepEqual(kit.elements.map((e) => e.valeur), ['Texte seul', '📖 L’article : https://site.fr/a', '@MuseeAquitaine', 'Bordeaux', 'Une façade']);
+  assert.ok(kit.sommaire.includes('le compte de Musée'), 'le sommaire annonce l’ordre des messages');
+
+  // le message ne porte que la valeur, échappée ; le bouton copie exactement cette valeur
+  const { aCopier } = await import('../src/channels/messages.mjs');
+  const { text: corps, options } = aCopier('Copier le texte du post', kit1.elements[0].valeur);
+  assert.equal(corps, `<code>${texteX.replace('<ok>', '&lt;ok&gt;')}</code>`, 'rien que la valeur, échappée');
+  assert.equal(JSON.parse(options.reply_markup).inline_keyboard[0][0].copy_text.text, kit1.elements[0].valeur);
+  assert.equal(aCopier('x', 'a'.repeat(300)).options.reply_markup, undefined, 'au-delà de 256 caractères, pas de bouton');
+
   const dossier = { rubrique: 'R', source: 'ia', facebook: { texte: 'f' }, bluesky: { texte: 'b', hashtag: '#R' }, threads: { texte: 't' }, x: { texte: 'x' } };
   const text = buildPreviewText({ article: { guid: 'g', title: 'T', link: 'https://x' }, dossier, caption: 'c', items: [{ channel: 'x', status: 'awaiting', dueAt: 0 }], published: ['instagram'], when: () => 'vers 9h' });
   assert.ok(text.includes('<b>Instagram</b> · <i>déjà publié</i>') && text.includes('kit Telegram'));

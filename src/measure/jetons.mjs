@@ -1,6 +1,7 @@
 import { loadJson, saveJson } from '../core/state.mjs';
 import { dayKey } from '../core/scheduler.mjs';
 import { alert } from '../channels/telegram.mjs';
+import { alerteJeton } from '../channels/messages.mjs';
 import { config } from '../core/config.mjs';
 
 // Surveillance des jetons : ce qui peut être prolongé automatiquement l'est, le reste est annoncé

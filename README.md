@@ -21,11 +21,12 @@ Republication automatique des articles de **Passion Aquitaine** (passion-aquitai
 7. [Opérations courantes](#opérations-courantes)
 8. [Reprise sur un nouveau poste](#reprise-sur-un-nouveau-poste)
 9. [Coût de l'IA : relevé, pas estimé](#coût-de-lia--relevé-pas-estimé)
-10. [Refaire les jetons Meta (Facebook + Instagram)](#refaire-les-jetons-meta-facebook--instagram)
-11. [Dépannage : problèmes déjà rencontrés](#dépannage--problèmes-déjà-rencontrés)
-12. [Limites connues et pistes](#limites-connues-et-pistes)
-13. [Structure du code](#structure-du-code)
-14. [Journal des évolutions](#journal-des-évolutions)
+10. [Messages Telegram](#messages-telegram)
+11. [Refaire les jetons Meta (Facebook + Instagram)](#refaire-les-jetons-meta-facebook--instagram)
+12. [Dépannage : problèmes déjà rencontrés](#dépannage--problèmes-déjà-rencontrés)
+13. [Limites connues et pistes](#limites-connues-et-pistes)
+14. [Structure du code](#structure-du-code)
+15. [Journal des évolutions](#journal-des-évolutions)
 
 ---
 
@@ -472,6 +473,37 @@ Chaque appel au rédacteur IA est compté dans `state/couts.json` : jetons d'ent
 - **Tarifs** (`src/brain/couts.mjs`, relevés le 23/09/2026, en $ par million de jetons) : Opus 5 — 5 entrée / 25 sortie ; Sonnet 5 — 2 / 10 ; Haiku 4.5 — 1 / 5. Lecture de cache 10 % du prix d'entrée, écriture 125 %. À corriger ici si la grille change.
 - **La vue est locale** : `couts.html`, jamais sur le site ni dans la page de l'équipe. `pilotage.html` reste inchangé.
 
+## Messages Telegram
+
+Tout ce que le robot dit sur Telegram s'écrit dans **`src/channels/messages.mjs`** : les modèles de message, la fonction d'échappement, le bouton « copier », et le **catalogue** ci-dessous. `tests/messages.test.mjs` vérifie qu'aucun module n'envoie sur Telegram sans figurer au catalogue.
+
+| Message | Quand | Fréquence | À copier |
+|---|---|---|---|
+| Aperçu d'un article | à chaque article retenu | 1 à 3 par jour | non |
+| Kit X | au créneau X de l'article | 1 par article | **oui** |
+| Story Instagram | après la publication du carrousel | 1 par article | **oui** |
+| Publication faite | après chaque publication automatique | 3 à 8 par jour | non |
+| Bilan de diffusion | lundi matin | 1 par semaine | non |
+| Bilan du mois | le 1er du mois | 1 par mois | non |
+| Point conso du rédacteur IA | dimanche après 19 h | 1 par semaine | non |
+| Alerte budget | 70 % du plafond, puis dépassement | au plus 1 par jour et par seuil | non |
+| Rédacteur IA injoignable | panne ou crédit épuisé | au plus 1 par jour | non |
+| Jeton bientôt expiré | seuil de jours restants | au plus 1 par semaine et par jeton | non |
+| Jeton refusé | refus du réseau à la publication | au plus 1 par jour | non |
+| Réponse Threads non postée | échec de la réponse portant le lien | rare | **oui** |
+| Réponses aux commandes | `/statut` `/file` `/pause` `/reprise` `/validation` `/x` `/aide` | à la demande | non |
+
+Un jour ordinaire : 1 à 3 aperçus, autant de kits X et de stories, quelques confirmations de publication. Les alertes ne parlent que quand quelque chose cloche, une fois par jour au plus.
+
+### Les quatre règles
+
+1. **HTML partout.** Telegram n'interprète les balises que si l'envoi passe `parse_mode: HTML`. Les alertes partaient sans lui : elles affichaient `<b>Budget IA</b>` en clair. `alert()` et `send()` envoient désormais toutes deux en HTML, avec repli automatique en texte nu si Telegram refuse le balisage — un message mal formé part quand même.
+2. **Tout texte extérieur est échappé** par `esc()` : titre d'article, message d'erreur, nom de lieu. Un titre contenant `&` ferait échouer l'envoi entier.
+3. **Un message à copier ne contient que ce qu'il faut copier.** Pas d'étiquette, pas d'emoji de titre, pas de compteur : l'étiquette est portée par le bouton. C'est la correction du 23/09/2026 — le titre dans le message était copié avec le texte, il fallait l'effacer dans X, et la ligne vide laissée derrière faisait commencer le post par un saut de ligne.
+4. **Un seul geste.** Le bouton `copy_text` met le texte exact dans le presse-papier. Il est limité à 256 caractères par Telegram ; au-delà le bouton disparaît, mais le message ne contenant que la valeur, le copier suffit.
+
+`npm run telegram:test` envoie un aperçu et un kit X d'exemple, à l'identique de la production, sans rien publier.
+
 ## Refaire les jetons Meta (Facebook + Instagram)
 
 **Quand :** alerte Telegram « 🔑 Jeton refusé », ou `npm run meta:check` en échec. Un jeton Meta peut mourir **avant son échéance** : changement de mot de passe, déconnexion de toutes les sessions, contrôle de sécurité Meta, app retirée dans « Intégrations professionnelles », ou session de l'Explorateur d'API renouvelée. Le message est alors *« The session has been invalidated… »* (code 190, **sous-code 460**).
@@ -673,3 +705,5 @@ Dépendances : `fast-xml-parser`, `sharp`, `playwright`, `basic-ftp`. Node 24, E
 | 23/09/2026 | **Essai comparatif de modèles sur 10 articles réels** (`npm run essai:modele`, `scripts/essai-modele.mjs` : même consigne, mêmes contrôles, mêmes 3 tentatives, cache désactivé). Résultat sans appel : **Opus 5 en effort bas reste le meilleur choix, y compris sur le coût**. Sonnet 5 en effort bas ne passe les contrôles que 3 fois sur 10 (7 articles publiés en règles de secours) et, à force de tentatives, revient à 0,225 $ par article réellement rédigé ; Sonnet 5 en effort haut remonte à 7/10 mais sa réflexion fait exploser la sortie (7 187 jetons contre 894) et le coût à 0,237 $. Opus : 9/10 et 0,101 $ par article rédigé, soit **4,65 $ par mois** au rythme de 1,7 article par jour — le vrai prix du média, au-dessus du plafond de 3 $. Détail et textes comparés dans `state/rapports/`. |
 | 23/09/2026 | **Surlignage : un chiffre avec son unité n'est plus refusé.** « 500 ans » tombait sous la règle des petits mots (« an », « ans » y figurent) alors que la charte demande précisément un chiffre avec son unité. L'article repartait pour une tentative, facturée, avec le bon surlignage. Le mot qui suit un chiffre ne compte plus comme petit mot ; en tête, la règle ne bouge pas. |
 | 23/09/2026 | **Plafond mensuel porté de 3 à 5 $** (`budgetMensuelUSD`). L'essai comparatif a donné le vrai prix : 0,0569 $ l'appel, 1,6 appel par article (tentatives comprises), soit **0,091 $ par article** tous réseaux confondus. Au rythme relevé de 1,7 article par jour : 4,71 $ par mois. À 2 articles par jour : **5,54 $** — le plafond serait franchi en fin de mois, l'alerte Telegram partirait autour du 27. À 3 articles par jour : 8,32 $. Le choix reste Opus 5 en effort bas, Sonnet coûtant plus cher par article réellement rédigé. |
+| 23/09/2026 | **Plafond porté à 6 $** : à 2 articles par jour, le rédacteur coûte 5,50 $ par mois (0,091 $ l'article, 1,6 appel par article). Un plafond à 5 $ aurait déclenché une alerte chaque fin de mois sans qu'il y ait de dérive. |
+| 23/09/2026 | **Tous les messages Telegram rassemblés dans `src/channels/messages.mjs`**, avec un catalogue (déclencheur, fréquence, module) vérifié par `tests/messages.test.mjs` : un module qui envoie sans figurer au catalogue fait échouer les tests. Trois corrections au passage. **Les alertes affichaient leurs balises en clair** (« `<b>Budget IA</b>` ») : `alert()` partait sans `parse_mode`, contrairement à `send()` ; l'envoi est désormais en HTML des deux côtés, avec repli en texte nu si Telegram refuse le balisage. **Les messages à copier contenaient leur titre** (« 📝 Texte du post (246/280) ») : copier le message ramenait le titre, qu'il fallait effacer dans X — et la ligne vide laissée derrière faisait commencer le post par un saut de ligne. Chaque message à copier ne contient plus que la valeur, l'étiquette est portée par un bouton `copy_text` qui met le texte exact dans le presse-papier ; un sommaire annonce l'ordre des messages. **Le format X « lien seul » ne contenait aucun lien** : il ne pouvait donc pas produire l'aperçu qui fait tout son intérêt. Le lien de rédaction pré-remplie est en outre débarrassé de tout blanc de bordure et encodé en `%20`. |

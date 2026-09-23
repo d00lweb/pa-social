@@ -17,11 +17,41 @@ import { fromRoot } from '../src/core/config.mjs';
 
 const arg = process.argv[2];
 const moisCourant = new Date().toISOString().slice(0, 7);
+const CLE_PROJET = 'pa-social'; // nom de la clé dans la console : les autres projets du compte sont écartés
 
 const ecrire = async (fichier) => {
   await writeFile(fromRoot('state/couts-console.json'), `${JSON.stringify(fichier, null, 2)}\n`);
   console.log('state/couts-console.json écrit. Committer ce fichier met la page à jour.');
 };
+
+// ── Exports CSV de la console ──────────────────────────────────────────────────
+// « npm run couts:facture export-couts.csv export-jetons.csv » — c'est la voie la plus fiable
+// sans clé d'organisation : la console exporte les deux fichiers (Settings → Usage → Export).
+if (arg && /\.csv$/i.test(arg)) {
+  const { readFile } = await import('node:fs/promises');
+  const { fusionnerExports, modelesDunExport } = await import('../src/brain/exports.mjs');
+  const chemins = process.argv.slice(2).filter((a) => /\.csv$/i.test(a));
+  const textes = await Promise.all(chemins.map((c) => readFile(c, 'utf8')));
+  const jours = fusionnerExports(textes, CLE_PROJET);
+  if (!Object.keys(jours).length) {
+    console.error(`Aucune ligne pour la clé « ${CLE_PROJET} » dans ${chemins.join(', ')}.`);
+    console.error('Vérifier la colonne api_key de l’export : c’est le nom de la clé dans la console.');
+    process.exit(1);
+  }
+  const total = Object.values(jours).reduce((n, v) => n + v, 0);
+  await ecrire({ maj: new Date().toISOString(), source: 'export', cle: CLE_PROJET, jours, total: Math.round(total * 1e4) / 1e4 });
+
+  const eur = (n) => `${n.toFixed(4).replace('.', ',')} $`;
+  console.log(`Facturation de la clé « ${CLE_PROJET} », d’après ${chemins.length} export${chemins.length > 1 ? 's' : ''} :`);
+  for (const [j, v] of Object.entries(jours).sort()) console.log(`   ${j}   ${eur(v).padStart(10)}`);
+  console.log('   ──────────────────────');
+  console.log(`   total  ${eur(total).padStart(10)}`);
+  for (const texte of textes) {
+    const modeles = modelesDunExport(texte, CLE_PROJET);
+    for (const [m, v] of Object.entries(modeles).sort((a, b) => b[1] - a[1])) console.log(`   · ${m.padEnd(22)} ${eur(v)}`);
+  }
+  process.exit(0);
+}
 
 // ── Saisie manuelle ────────────────────────────────────────────────────────────
 // « npm run couts:facture 4,12 » ou « … 4,12 2026-09 » pour un mois précédent.

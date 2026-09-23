@@ -176,6 +176,12 @@
     const dateMaj = facture?.maj
       ? new Intl.DateTimeFormat('fr-FR', { day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit', timeZone: TZ }).format(new Date(facture.maj))
       : null;
+    const origineFacture = facture?.source === 'saisie' ? `saisi le ${dateMaj} d’après la console`
+      : facture?.source === 'export' ? `exports de la console, lus le ${dateMaj}`
+      : `relevé le ${dateMaj}`;
+    // Pour un jour donné, la facturation l'emporte sur le relevé maison dès qu'elle est plus élevée :
+    // tous les appels de la clé y figurent, y compris ceux qui ne passent pas par le robot.
+    const reel = (jours, compte) => Math.max(compte, facture?.jours ? jours.reduce((n, j) => n + (facture.jours[j] ?? 0), 0) : 0);
 
     const tuile = (label, valeur, detail, fort) =>
       `<div class="kpi${fort ? ' kpi--fort' : ''}"><span class="label">${esc(label)}</span><b>${esc(valeur)}</b><small>${esc(detail)}</small></div>`;
@@ -196,14 +202,14 @@
 
     $('resume').innerHTML = `
       <div class="kpis">
-        ${tuile('Aujourd’hui', `${dollars(cumul(releve, [aujourdhui]).cout)} $`, appels(cumul(releve, [aujourdhui]).appels))}
-        ${tuile('7 derniers jours', `${dollars(cumul(releve, septDerniers).cout)} $`, appels(cumul(releve, septDerniers).appels))}
-        ${tuile('Mois en cours', `${dollars(mensuel)} $`, factureMois === null ? appels(cMois.appels) : `facturé — ${facture.source === 'saisie' ? 'saisi' : 'relevé'} le ${dateMaj}`, true)}
+        ${tuile('Aujourd’hui', `${dollars(reel([aujourdhui], cumul(releve, [aujourdhui]).cout))} $`, appels(cumul(releve, [aujourdhui]).appels))}
+        ${tuile('7 derniers jours', `${dollars(reel(septDerniers, cumul(releve, septDerniers).cout))} $`, appels(cumul(releve, septDerniers).appels))}
+        ${tuile('Mois en cours', `${dollars(mensuel)} $`, factureMois === null ? appels(cMois.appels) : `facturé — ${origineFacture}`, true)}
         ${tuile('Projection du mois', `${dollars(projection)} $`, 'au rythme actuel')}
       </div>
       <p class="note">${factureMois === null
-        ? `<b>Relevé maison, démarré le ${esc(jourCourt(jours[0]))}</b> : ce qui a été facturé avant cette date n’y est pas. Pour le montant du mois complet, lancer <code>npm run couts:sync</code>, ou inscrire le total lu dans la console : <code>npm run couts:facture 4,12</code>.`
-        : `<b>Chiffre facturé par Anthropic</b>, ${facture.source === 'saisie' ? 'saisi' : 'relevé'} le ${esc(dateMaj)}${facture.source === 'saisie' ? ' d’après la console' : ' (<code>npm run couts:sync</code>)'}. Le relevé maison, qui compte les appels un par un, en a enregistré ${dollars(cMois.cout)} $ depuis le ${esc(jourCourt(jours[0]))}.`}</p>
+        ? `<b>Relevé maison, démarré le ${esc(jourCourt(jours[0]))}</b> : ce qui a été facturé avant cette date n’y est pas. Pour le mois complet, importer les exports de la console — <code>npm run couts:facture export-couts.csv export-jetons.csv</code>.`
+        : `<b>Chiffre facturé par Anthropic</b> — ${esc(origineFacture)}. Le relevé maison, qui compte les appels du robot un par un, en a enregistré ${dollars(cMois.cout)} $ depuis le ${esc(jourCourt(jours[0]))} : l’écart, ce sont les appels passés hors du robot.`}</p>
       <div>
         <div class="barres" role="img" aria-label="Dépense des 14 derniers jours">${barres}</div>
         <div class="axe"><span>${jourCourt(serie[0][0])}</span><span>${jourCourt(serie.at(-1)[0])}</span></div>

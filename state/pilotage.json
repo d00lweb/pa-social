@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-23T18:00:56.517Z",
+  "genereLe": "2026-09-23T18:20:39.039Z",
   "jour": "2026-09-23",
   "reseaux": {
     "instagram": {
@@ -25,7 +25,7 @@
       },
       "formats": null,
       "aujourdhui": 2,
-      "semaine": 12,
+      "semaine": 11,
       "total": 15,
       "dernier": "2026-09-23T17:04:19.720Z",
       "lienDernier": "https://www.instagram.com/p/Ddozb-SFPym/"
@@ -61,7 +61,7 @@
         "reply"
       ],
       "aujourdhui": 2,
-      "semaine": 12,
+      "semaine": 11,
       "total": 13,
       "dernier": "2026-09-23T17:26:21.974Z",
       "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mw7b643a742q"
@@ -161,7 +161,7 @@
         "reponse"
       ],
       "aujourdhui": 2,
-      "semaine": 12,
+      "semaine": 11,
       "total": 13,
       "dernier": "2026-09-23T15:20:59.732Z",
       "lienDernier": null
@@ -565,15 +565,15 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 43,
+    "releves": 45,
     "parReseau": {
       "instagram": {
-        "posts": 3,
-        "interactionsMoyennes": 4.3
+        "posts": 4,
+        "interactionsMoyennes": 5.8
       },
       "bluesky": {
-        "posts": 1,
-        "interactionsMoyennes": 1
+        "posts": 2,
+        "interactionsMoyennes": 0.5
       }
     }
   },
@@ -679,7 +679,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-23T18:10:05.547Z",
+    "genereLe": "2026-09-23T18:20:40.357Z",
     "posts": 39,
     "parReseau": {
       "threads": {
@@ -688,7 +688,7 @@
       },
       "instagram": {
         "posts": 12,
-        "moyenne": 16.3
+        "moyenne": 16.8
       },
       "facebook": {
         "posts": 8,
@@ -732,7 +732,7 @@
       },
       "soir": {
         "posts": 5,
-        "moyenne": 2.2
+        "moyenne": 3.2
       }
     },
     "parCreneauReseau": {
@@ -743,7 +743,7 @@
         },
         "hors créneau": {
           "posts": 6,
-          "moyenne": 9.7
+          "moyenne": 10.5
         },
         "18 h – 19 h 30": {
           "posts": 1,
@@ -797,7 +797,7 @@
         }
       }
     },
-    "interactionsTotal": 375,
+    "interactionsTotal": 380,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35605",
       "channel": "threads",
@@ -841,7 +841,7 @@
       },
       "sans": {
         "posts": 38,
-        "moyenne": 9.8
+        "moyenne": 9.9
       }
     },
     "publies": {
@@ -895,7 +895,7 @@
     },
     "engagement": {
       "threads": 1.79,
-      "instagram": 0.16,
+      "instagram": 0.17,
       "facebook": 0
     },
     "conseils": [

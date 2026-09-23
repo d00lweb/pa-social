@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-23T06:20:40.017Z",
+  "genereLe": "2026-09-23T06:33:10.577Z",
   "jour": "2026-09-23",
   "reseaux": {
     "instagram": {
@@ -61,7 +61,7 @@
         "reply"
       ],
       "aujourdhui": 0,
-      "semaine": 11,
+      "semaine": 10,
       "total": 11,
       "dernier": "2026-09-22T07:13:43.649Z",
       "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mw3ohocmj32e"
@@ -161,7 +161,7 @@
         "reponse"
       ],
       "aujourdhui": 0,
-      "semaine": 11,
+      "semaine": 10,
       "total": 11,
       "dernier": "2026-09-22T08:20:48.051Z",
       "lienDernier": null
@@ -529,15 +529,6 @@
   ],
   "file": [
     {
-      "channel": "facebook",
-      "dueAt": "2026-09-23T06:29:15.863Z",
-      "prochainPassage": "2026-09-23T07:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Près de Limoges, on dort au milieu des girafes et des loups"
-    },
-    {
       "channel": "bluesky",
       "dueAt": "2026-09-23T07:12:15.500Z",
       "prochainPassage": "2026-09-23T07:20:00.000Z",
@@ -556,6 +547,15 @@
       "titre": "Près de Limoges, on dort au milieu des girafes et des loups"
     },
     {
+      "channel": "facebook",
+      "dueAt": "2026-09-23T07:29:01.107Z",
+      "prochainPassage": "2026-09-23T08:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Près de Limoges, on dort au milieu des girafes et des loups"
+    },
+    {
       "channel": "instagram",
       "dueAt": "2026-09-23T11:29:44.456Z",
       "prochainPassage": "2026-09-23T12:00:00.000Z",
@@ -567,11 +567,15 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 37,
+    "releves": 39,
     "parReseau": {
       "instagram": {
         "posts": 2,
         "interactionsMoyennes": 5
+      },
+      "bluesky": {
+        "posts": 1,
+        "interactionsMoyennes": 1
       }
     }
   },
@@ -677,16 +681,16 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-23T06:32:06.113Z",
-    "posts": 35,
+    "genereLe": "2026-09-23T06:33:22.617Z",
+    "posts": 36,
     "parReseau": {
+      "threads": {
+        "posts": 8,
+        "moyenne": 20.6
+      },
       "instagram": {
         "posts": 11,
         "moyenne": 11.4
-      },
-      "threads": {
-        "posts": 7,
-        "moyenne": 7.1
       },
       "facebook": {
         "posts": 7,
@@ -699,8 +703,8 @@
     },
     "parFormat": {
       "reponse": {
-        "posts": 4,
-        "moyenne": 11.3
+        "posts": 5,
+        "moyenne": 32
       },
       "lien": {
         "posts": 2,
@@ -720,13 +724,13 @@
       }
     },
     "parCreneau": {
+      "matin": {
+        "posts": 22,
+        "moyenne": 9.8
+      },
       "après-midi": {
         "posts": 9,
         "moyenne": 8.3
-      },
-      "matin": {
-        "posts": 21,
-        "moyenne": 4.8
       },
       "soir": {
         "posts": 5,
@@ -781,6 +785,10 @@
           "posts": 1,
           "moyenne": 37
         },
+        "7 h – 8 h 30": {
+          "posts": 4,
+          "moyenne": 29.5
+        },
         "13 h – 14 h 30": {
           "posts": 2,
           "moyenne": 4.5
@@ -788,31 +796,27 @@
         "hors créneau": {
           "posts": 1,
           "moyenne": 1
-        },
-        "7 h – 8 h 30": {
-          "posts": 3,
-          "moyenne": 1
         }
       }
     },
-    "interactionsTotal": 187,
+    "interactionsTotal": 302,
     "meilleur": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35494",
-      "channel": "instagram",
-      "mediaId": "18074225591450394",
-      "publieLe": "2026-09-17T07:53:48.379Z",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35605",
+      "channel": "threads",
+      "mediaId": "17965669728187759",
+      "publieLe": "2026-09-22T06:30:54.943Z",
       "jalon": 1,
-      "releveLe": "2026-09-18T08:00:40.328Z",
-      "likes": 17,
-      "commentaires": 20,
-      "partages": null,
-      "vues": null,
-      "titre": null,
-      "lien": "https://www.instagram.com/p/DdYXqThl1Aa/",
-      "format": null,
+      "releveLe": "2026-09-23T06:33:10.577Z",
+      "likes": 109,
+      "commentaires": 2,
+      "partages": 4,
+      "vues": 6496,
+      "titre": "À Bordeaux, 200 danseurs pour un French Cancan géant sur le Miroir d’Eau",
+      "lien": "https://www.threads.com/@lovaquitaine/post/DdlF2lClkyx",
+      "format": "reponse",
       "mention": false,
       "creneau": "matin",
-      "creneauReseau": "hors créneau"
+      "creneauReseau": "7 h – 8 h 30"
     },
     "moinsBon": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35372",
@@ -838,8 +842,8 @@
         "moyenne": 4
       },
       "sans": {
-        "posts": 34,
-        "moyenne": 5.4
+        "posts": 35,
+        "moyenne": 8.5
       }
     },
     "publies": {
@@ -892,12 +896,12 @@
       }
     },
     "engagement": {
+      "threads": 1.79,
       "instagram": 0.11,
-      "threads": 0.62,
       "facebook": 0
     },
     "conseils": [
-      "Le format « reponse » fait 113 fois mieux que « card » (11.3 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « card » de la rotation dans config/channels.json.",
+      "Le format « reponse » fait 320 fois mieux que « card » (32 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « card » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+4, +0,3 %) ; Facebook recule (−6), à surveiller."
     ]
   }

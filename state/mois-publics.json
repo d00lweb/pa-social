@@ -3,7 +3,7 @@
     "cle": "2026-09",
     "publications": 52,
     "articles": 14,
-    "interactions": 187,
+    "interactions": 302,
     "parReseau": {
       "facebook": 8,
       "instagram": 13,
@@ -19,6 +19,13 @@
       "bluesky": 2
     },
     "top": [
+      {
+        "reseau": "threads",
+        "titre": "À Bordeaux, 200 danseurs pour un French Cancan géant sur le Miroir d’Eau",
+        "lien": "https://www.threads.com/@lovaquitaine/post/DdlF2lClkyx",
+        "image": "https://passion-aquitaine.ouest-france.fr/social/20260922-6c111e03-1-vignette.jpg",
+        "interactions": 115
+      },
       {
         "reseau": "instagram",
         "titre": "En Haute-Vienne, les abeilles tuent le frelon asiatique en le chauffant vivant à 42°C",
@@ -46,13 +53,6 @@
         "lien": "https://www.instagram.com/p/DddxYSwjf4g/",
         "image": "https://passion-aquitaine.ouest-france.fr/social/20260919-139f1e9d-1-vignette.jpg",
         "interactions": 18
-      },
-      {
-        "reseau": "instagram",
-        "titre": "Pourquoi Bordeaux parle désormais de « matrimoine »",
-        "lien": "https://www.instagram.com/p/DdTAqJ0IK_e/",
-        "image": "https://passion-aquitaine.ouest-france.fr/social/20260915-7c47bbf2-1-vignette.jpg",
-        "interactions": 6
       }
     ]
   }

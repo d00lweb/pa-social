@@ -161,9 +161,10 @@
     // Ce qu'Anthropic a réellement facturé ce mois-ci, quand la synchronisation a été faite.
     // Le relevé maison ne commence qu'au jour de sa mise en service : lui seul ne suffit pas à
     // répondre « combien ce mois-ci ».
+    // jour par jour quand elle vient de l'API, total du mois quand elle a été saisie à la main
     const factureMois = facture?.jours
       ? Object.entries(facture.jours).filter(([j]) => j.startsWith(mois)).reduce((n, [, v]) => n + v, 0)
-      : null;
+      : (facture?.mois === mois && Number.isFinite(facture.total) ? facture.total : null);
     // Le relevé facturé peut avoir quelques heures de retard, le relevé maison ne couvre pas les
     // jours antérieurs à sa mise en service : on retient le plus élevé des deux, jamais le plus flatteur.
     const mensuel = factureMois === null ? cMois.cout : Math.max(factureMois, cMois.cout);
@@ -197,12 +198,12 @@
       <div class="kpis">
         ${tuile('Aujourd’hui', `${dollars(cumul(releve, [aujourdhui]).cout)} $`, appels(cumul(releve, [aujourdhui]).appels))}
         ${tuile('7 derniers jours', `${dollars(cumul(releve, septDerniers).cout)} $`, appels(cumul(releve, septDerniers).appels))}
-        ${tuile('Mois en cours', `${dollars(mensuel)} $`, factureMois === null ? appels(cMois.appels) : `facturé, relevé le ${dateMaj}`, true)}
+        ${tuile('Mois en cours', `${dollars(mensuel)} $`, factureMois === null ? appels(cMois.appels) : `facturé — ${facture.source === 'saisie' ? 'saisi' : 'relevé'} le ${dateMaj}`, true)}
         ${tuile('Projection du mois', `${dollars(projection)} $`, 'au rythme actuel')}
       </div>
       <p class="note">${factureMois === null
-        ? `<b>Relevé maison, démarré le ${esc(jourCourt(jours[0]))}</b> : ce qui a été facturé avant cette date n’y est pas. Pour le montant du mois complet, lancer <code>npm run couts:sync</code> — la page affichera alors le chiffre facturé par Anthropic.`
-        : `<b>Chiffre facturé par Anthropic</b>, relevé le ${esc(dateMaj)} (<code>npm run couts:sync</code>). Le relevé maison, qui compte les appels un par un, en a enregistré ${dollars(cMois.cout)} $ depuis le ${esc(jourCourt(jours[0]))}.`}</p>
+        ? `<b>Relevé maison, démarré le ${esc(jourCourt(jours[0]))}</b> : ce qui a été facturé avant cette date n’y est pas. Pour le montant du mois complet, lancer <code>npm run couts:sync</code>, ou inscrire le total lu dans la console : <code>npm run couts:facture 4,12</code>.`
+        : `<b>Chiffre facturé par Anthropic</b>, ${facture.source === 'saisie' ? 'saisi' : 'relevé'} le ${esc(dateMaj)}${facture.source === 'saisie' ? ' d’après la console' : ' (<code>npm run couts:sync</code>)'}. Le relevé maison, qui compte les appels un par un, en a enregistré ${dollars(cMois.cout)} $ depuis le ${esc(jourCourt(jours[0]))}.`}</p>
       <div>
         <div class="barres" role="img" aria-label="Dépense des 14 derniers jours">${barres}</div>
         <div class="axe"><span>${jourCourt(serie[0][0])}</span><span>${jourCourt(serie.at(-1)[0])}</span></div>

@@ -78,6 +78,14 @@ export const BUDGET_MOIS = config.budgetMensuelUSD ?? 3;
 // dégradée coûte plus cher en qualité que quelques centimes de dépassement.
 export const COUPER_AU_PLAFOND = config.couperAuPlafond === true;
 
+// Facturation relevée dans state/couts-console.json : jour par jour quand elle vient de l'API,
+// un total de mois quand elle a été saisie à la main depuis la console (comptes individuels).
+export function factureDuMois(facture, mois) {
+  if (facture?.jours) return Object.entries(facture.jours).filter(([j]) => j.startsWith(mois)).reduce((n, [, v]) => n + v, 0);
+  if (facture?.mois === mois && Number.isFinite(facture.total)) return facture.total;
+  return null;
+}
+
 export function budgetDuMois(releve = {}, now = Date.now(), timeZone = TZ, facture = null) {
   const mois = dayKey(now, timeZone).slice(0, 7);
   const lignes = Object.entries(releve).filter(([j]) => j.startsWith(mois)).map(([, l]) => l);
@@ -88,9 +96,7 @@ export function budgetDuMois(releve = {}, now = Date.now(), timeZone = TZ, factu
   // Le montant facturé par Anthropic (npm run couts:sync) couvre aussi les jours antérieurs au
   // relevé, mais peut avoir quelques heures de retard. On garde le plus élevé des deux : une alerte
   // de budget doit se tromper du côté prudent.
-  const factureMois = facture?.jours
-    ? Object.entries(facture.jours).filter(([j]) => j.startsWith(mois)).reduce((n, [, v]) => n + v, 0)
-    : null;
+  const factureMois = factureDuMois(facture, mois);
   const depense = factureMois === null ? compte : Math.max(factureMois, compte);
   const robot = lignes.reduce((n, l) => n + (l.parOrigine?.robot?.cout ?? (l.parOrigine ? 0 : l.cout ?? 0)), 0);
   const local = lignes.reduce((n, l) => n + (l.parOrigine?.local?.cout ?? 0), 0);

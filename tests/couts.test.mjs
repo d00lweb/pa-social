@@ -95,9 +95,18 @@ test('au plafond, on prévient sans couper : le réglage est explicite', async (
   const { COUPER_AU_PLAFOND, verifierBudget } = await import('../src/brain/couts.mjs');
   assert.equal(COUPER_AU_PLAFOND, false, 'par défaut le rédacteur continue : une publication dégradée coûte plus cher que quelques centimes');
   const envoyes = [];
-  // le relevé réel sert de base : on vérifie seulement la forme du message, pas le montant
-  await verifierBudget({ now: Date.parse('2026-09-24T09:00:00Z'), envoyer: async (t) => envoyes.push(t) });
-  if (envoyes.length) assert.doesNotMatch(envoyes[0], /version de secours/, 'tant que couperAuPlafond est faux, aucun message ne promet une coupure');
+  // le relevé réel sert de base : on vérifie seulement la forme du message, pas le montant.
+  // La mémoire des alertes est remise comme elle était : un test ne doit pas consommer l'alerte
+  // du jour, sinon le vrai dépassement passerait sous silence.
+  const { fromRoot } = await import('../src/core/config.mjs');
+  const { readFile, writeFile, rm } = await import('node:fs/promises');
+  const avant = await readFile(fromRoot('state/ia.json'), 'utf8').catch(() => null);
+  try {
+    await verifierBudget({ now: Date.parse('2026-09-24T09:00:00Z'), envoyer: async (t) => envoyes.push(t) });
+    if (envoyes.length) assert.doesNotMatch(envoyes[0], /version de secours/, 'tant que couperAuPlafond est faux, aucun message ne promet une coupure');
+  } finally {
+    await (avant === null ? rm(fromRoot('state/ia.json'), { force: true }) : writeFile(fromRoot('state/ia.json'), avant));
+  }
 });
 
 test('le budget compte tout ce qui est facturé, et dit d’où la dépense vient', async () => {
@@ -126,8 +135,10 @@ test('le budget compte tout ce qui est facturé, et dit d’où la dépense vien
 test('point conso : le dimanche vers 19 h, une seule fois, sur les 7 derniers jours', async () => {
   const { resumeHebdoCouts } = await import('../src/brain/couts.mjs');
   const { fromRoot } = await import('../src/core/config.mjs');
-  const { readFile, writeFile, mkdir } = await import('node:fs/promises');
-  const fichiers = ['state/ia.json', 'state/couts.json'];
+  const { readFile, writeFile, mkdir, rm } = await import('node:fs/promises');
+  // couts-console.json est repris ici aussi : le point du dimanche se cale sur la facturation
+  // réelle quand elle est présente, et le relevé du poste ne doit pas s'inviter dans le test.
+  const fichiers = ['state/ia.json', 'state/couts.json', 'state/couts-console.json'];
   const sauve = await Promise.all(fichiers.map((f) => readFile(fromRoot(f), 'utf8').catch(() => null)));
   await mkdir(fromRoot('state'), { recursive: true });
   const jours = {};
@@ -138,6 +149,7 @@ test('point conso : le dimanche vers 19 h, une seule fois, sur les 7 derniers jo
   try {
     await writeFile(fromRoot('state/couts.json'), JSON.stringify(jours));
     await writeFile(fromRoot('state/ia.json'), '{}');
+    await writeFile(fromRoot('state/couts-console.json'), JSON.stringify({ maj: '2026-09-27T17:00:00Z', source: 'saisie', mois: '2026-09', total: 1.4 }));
     const envoyes = [];
     const envoyer = async (m) => { envoyes.push(m); };
     // dimanche 27 septembre 2026 : rien avant 19 h (heure de Paris)
@@ -151,6 +163,7 @@ test('point conso : le dimanche vers 19 h, une seule fois, sur les 7 derniers jo
     assert.equal(r.semaine.appels, 21, '7 jours × 3 articles du robot');
     assert.match(envoyes[0], /la semaine/);
     assert.match(envoyes[0], /21 articles rédigés/);
+    // le relevé maison compte 1,68 $, la facturation saisie 1,40 : on ne descend jamais sous le relevé
     assert.match(envoyes[0], /Ce mois-ci : <b>1,68 \$<\/b>/, 'le mois annoncé est celui facturé, tout compris');
     assert.match(envoyes[0], /Dont 1,26 \$ de publications et 0,42 \$ de mises au point/, 'la part de chacun est dite');
     assert.doesNotMatch(envoyes[0], /\n\n/, 'aucune ligne vide dans le message');
@@ -158,7 +171,9 @@ test('point conso : le dimanche vers 19 h, une seule fois, sur les 7 derniers jo
     assert.equal(await resumeHebdoCouts({ now: Date.parse('2026-09-27T19:00:00Z'), envoyer }), null, 'une seule fois dans la soirée');
     assert.equal(envoyes.length, 1);
   } finally {
-    await Promise.all(fichiers.map((f, i) => (sauve[i] === null ? null : writeFile(fromRoot(f), sauve[i]))));
+    // un fichier absent avant le test le reste après : sinon le test laisserait derrière lui une
+    // facturation inventée, que la page et les alertes prendraient pour argent comptant
+    await Promise.all(fichiers.map((f, i) => (sauve[i] === null ? rm(fromRoot(f), { force: true }) : writeFile(fromRoot(f), sauve[i]))));
   }
 });
 

@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-23T12:20:37.649Z",
+  "genereLe": "2026-09-23T13:00:45.696Z",
   "jour": "2026-09-23",
   "reseaux": {
     "instagram": {
@@ -553,6 +553,33 @@
   ],
   "file": [
     {
+      "channel": "x",
+      "dueAt": "2026-09-23T15:20:00.000Z",
+      "prochainPassage": "2026-09-23T15:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Une levure fait déjà perdre 1° d’alcool au vin : à Bordeaux, la recherche va plus loin"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-09-23T17:03:55.902Z",
+      "prochainPassage": "2026-09-23T17:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Une levure fait déjà perdre 1° d’alcool au vin : à Bordeaux, la recherche va plus loin"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-09-23T17:26:19.747Z",
+      "prochainPassage": "2026-09-23T18:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Une levure fait déjà perdre 1° d’alcool au vin : à Bordeaux, la recherche va plus loin"
+    },
+    {
       "channel": "facebook",
       "dueAt": "2026-09-23T18:09:57.308Z",
       "prochainPassage": "2026-09-23T18:20:00.000Z",
@@ -560,6 +587,24 @@
       "prevuInitialement": "2026-09-23T08:20:38.691Z",
       "raison": "l’heure n’était pas dans les créneaux du réseau",
       "titre": "Près de Limoges, on dort au milieu des girafes et des loups"
+    },
+    {
+      "channel": "threads",
+      "dueAt": "2026-09-24T06:26:46.957Z",
+      "prochainPassage": "2026-09-24T07:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Une levure fait déjà perdre 1° d’alcool au vin : à Bordeaux, la recherche va plus loin"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-09-24T07:10:28.433Z",
+      "prochainPassage": "2026-09-24T07:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Une levure fait déjà perdre 1° d’alcool au vin : à Bordeaux, la recherche va plus loin"
     }
   ],
   "alertes": [],
@@ -632,7 +677,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-09-23T11:20:46.859Z"
+    "derniere": "2026-09-23T13:00:45.696Z"
   },
   "abonnes": {
     "instagram": {
@@ -678,7 +723,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-23T12:20:38.285Z",
+    "genereLe": "2026-09-23T13:01:02.922Z",
     "posts": 39,
     "parReseau": {
       "threads": {
@@ -904,29 +949,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 13,
-      "entree": 87376,
-      "sortie": 11469,
-      "cout": 0.723605,
+      "appels": 14,
+      "entree": 97771,
+      "sortie": 12393,
+      "cout": 0.79868,
       "cle": "2026-09-23"
     },
     "semaine": {
-      "appels": 13,
-      "entree": 87376,
-      "sortie": 11469,
-      "cout": 0.723605
+      "appels": 14,
+      "entree": 97771,
+      "sortie": 12393,
+      "cout": 0.79868
     },
     "mois": {
-      "appels": 13,
-      "entree": 87376,
-      "sortie": 11469,
-      "cout": 0.723605,
+      "appels": 14,
+      "entree": 97771,
+      "sortie": 12393,
+      "cout": 0.79868,
       "cle": "2026-09"
     },
-    "projection": 0.94,
-    "moyenneAppel": 0.0557,
+    "projection": 1.04,
+    "moyenneAppel": 0.057,
     "parModele": {
-      "claude-opus-5": 13
+      "claude-opus-5": 14
     },
     "serie": [
       [
@@ -983,7 +1028,7 @@
       ],
       [
         "2026-09-23",
-        0.7236
+        0.7987
       ]
     ],
     "depuis": "2026-09-23"

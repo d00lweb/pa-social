@@ -88,6 +88,10 @@ Aucun texte ne doit dépasser sa limite : il serait coupé par le réseau.
 
 **Formule bannie partout :** « Le saviez-vous », « Saviez-vous que », et toute variante de ce type. Entre directement dans le fait, sans préambule.
 
+**Ne commence jamais par une date, sur aucun réseau.** « Le 30 septembre 2026, plus de 200 danseurs… » ouvre sur l'information la moins engageante. Commence par ce qui accroche — le fait, le lieu, le chiffre — et place la date plus loin si elle compte vraiment. Sur Facebook, la date est même retirée entièrement : la carte d'aperçu et l'article la donnent déjà.
+
+**Choisis l'emoji sur le sujet lui-même**, pas sur la rubrique : des danseuses pour une danse, un dauphin pour un dauphin, un château pour un château. Un emoji vague vaut moins que pas d'emoji.
+
 Français impeccable, phrases courtes, verbes actifs. « Viral » veut dire curiosité, émotion juste, bénéfice pour le lecteur. Jamais : « vous ne devinerez jamais », « incroyable », majuscules criées, points d'exclamation en série.
 
 Si des corrections sont demandées, applique-les toutes.

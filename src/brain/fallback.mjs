@@ -48,12 +48,12 @@ export function emojiPour(article, theme) {
   return trouve ? ed.emojiMots[trouve] : (theme ? ed.fallbackEmojis[theme.rubrique] : null);
 }
 
-// Facebook, format « publication avec lien » : la carte d'aperçu affiche déjà le titre de l'article
+// Réseaux où le lien devient une carte d'aperçu (Facebook, X) : cette carte affiche déjà le titre
 // juste sous le texte. Répéter ce titre n'apporte rien et n'ajoute aucune raison de cliquer — c'est
 // le reproche fait au repli du 23/09/2026. On part donc de la description, en sautant sa première
 // phrase quand elle redit le titre, et l'emoji n'est posé que si un thème a été reconnu : un 📍
 // générique vaut moins que pas d'emoji du tout.
-export function accrocheFacebook({ titre, description, emoji, max }) {
+export function accroche({ titre, description, emoji, max }) {
   const phrases = String(description ?? '').split(/(?<=[.!?…])\s+/).map((p) => p.trim()).filter(Boolean);
   const memeQueTitre = (p) => {
     const mots = (s) => new Set(fold(s).split(/[^\p{L}\p{N}]+/u).filter((m) => m.length > 3));
@@ -77,7 +77,7 @@ export function fallbackDossier(article) {
   const titre = frenchTypography(stripGeoLead(article.title, rubrique));
   const { highlight } = pickHighlight(titre, { avoid: [rubrique] });
   const description = frenchTypography(article.description);
-  const emoji = ed.fallbackEmojis[theme?.rubrique] ?? ed.fallbackEmojis.default;
+  const emoji = emojiPour(article, theme);
 
   const tags = [place?.hashtag ?? (rubrique === ed.defaultRubrique ? null : toHashtag(rubrique)), theme?.hashtag, ed.regionHashtag]
     .filter(Boolean)
@@ -94,10 +94,11 @@ export function fallbackDossier(article) {
     visuel: { titre, surlignage: highlight, description, texte_alternatif: clip(`${rubrique} : ${titre}`, ed.limits.altText) },
     instagram: { texte: withEmoji(description, emoji), hashtags: tags.slice(0, 3) },
     // Facebook : le texte tient au-dessus de la carte d'aperçu, il ne redit donc pas le titre
-    facebook: { texte: accrocheFacebook({ titre, description, emoji: emojiPour(article, theme), max: ed.limits.facebook }) },
+    facebook: { texte: accroche({ titre, description, emoji, max: ed.limits.facebook }) },
     bluesky: { texte: withEmoji(clip(description, ed.limits.bluesky - 3), emoji), hashtag: tags[0] },
     threads: { texte: withEmoji(clip(description, ed.limits.threads - 3), emoji), sujet: (place?.name ?? theme?.rubrique ?? rubrique).replace(/[.&#]/g, '') },
-    x: { texte: withEmoji(clip(titre, ed.limits.x - 3), emoji) },
+    // X affiche lui aussi une carte de lien avec le titre : le texte doit apporter autre chose
+    x: { texte: accroche({ titre, description, emoji, max: ed.limits.x }) },
     source: 'regles',
   };
 }

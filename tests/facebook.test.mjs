@@ -64,7 +64,7 @@ test('Facebook : un retour à la ligne est refusé par les contrôles', async ()
 });
 
 test('Facebook sans IA : le repli n’est plus le titre, et l’emoji n’est pas posé au hasard', async () => {
-  const { fallbackDossier, accrocheFacebook } = await import('../src/brain/fallback.mjs');
+  const { fallbackDossier, accroche } = await import('../src/brain/fallback.mjs');
   // 23/09/2026 : « 200 danseurs pour un French Cancan géant sur le Miroir d’Eau 📍 » — le titre,
   // que la carte d’aperçu affiche déjà juste en dessous, avec un emoji passe-partout.
   const article = {
@@ -79,13 +79,13 @@ test('Facebook sans IA : le repli n’est plus le titre, et l’emoji n’est pa
   assert.match(texte, /💃$/, 'emoji du sujet : des danseuses, pas le trophée du record');
 
   // la phrase retenue est celle qui accroche, pas forcément la première
-  const accroche = accrocheFacebook({
+  const accroche2 = accroche({
     titre: 'Ces dauphins ne sont pas bon signe',
     description: 'Les dauphins émerveillent les promeneurs. Une biologiste marine y voit pourtant un signal d’alerte.',
     emoji: null, max: 140,
   });
-  assert.match(accroche, /pourtant/, 'le renversement l’emporte sur la première phrase');
-  assert.doesNotMatch(accroche, /\p{Extended_Pictographic}/u, 'sans thème reconnu, pas d’emoji plutôt qu’un emoji creux');
+  assert.match(accroche2, /pourtant/, 'le renversement l’emporte sur la première phrase');
+  assert.doesNotMatch(accroche2, /\p{Extended_Pictographic}/u, 'sans emoji fourni, aucun emoji ajouté');
 });
 
 test('Facebook : aucune date dans le texte, et l’emoji colle au sujet', async () => {
@@ -104,4 +104,24 @@ test('Facebook : aucune date dans le texte, et l’emoji colle au sujet', async 
   assert.equal(emojiPour({ title: 'Ces dauphins ne sont pas bon signe', description: 'une biologiste alerte' }), '🐬');
   assert.equal(emojiPour({ title: 'Le brunch le plus généreux', description: 'à volonté' }), '🥐');
   assert.equal(emojiPour({ title: 'Un sujet sans mot connu', description: 'rien de reconnaissable' }), null, 'aucun emoji plutôt qu’un emoji creux');
+});
+
+test('les mêmes règles ailleurs : X aussi affiche une carte, Instagram et Threads non', async () => {
+  const { fallbackDossier } = await import('../src/brain/fallback.mjs');
+  const article = {
+    title: 'À Bordeaux, 200 danseurs pour un French Cancan géant sur le Miroir d’Eau',
+    description: 'Le 30 septembre 2026, plus de 200 danseurs tentent un record du monde de French Cancan sur le Miroir d’eau de Bordeaux.',
+    categories: ['Bordeaux'], link: 'https://site.fr/a', guid: 'g', date: Date.now(),
+  };
+  const d = fallbackDossier(article);
+  // X publie le lien : sa carte répète le titre, donc le texte part de la description, sans date
+  assert.doesNotMatch(d.x.texte, /septembre|2026/, 'X : pas de date, comme Facebook');
+  assert.notEqual(d.x.texte.replace(/\s\p{Extended_Pictographic}$/u, ''), article.title);
+  // Instagram et Threads n'ont pas de carte : le texte porte seul l'information, date comprise
+  assert.match(d.instagram.texte, /septembre/, 'Instagram garde la date : rien d’autre ne la donne');
+  assert.match(d.threads.texte, /septembre/);
+  // l'emoji du sujet vaut pour tous les réseaux, plus seulement Facebook
+  for (const net of ['instagram', 'facebook', 'bluesky', 'threads', 'x']) {
+    assert.match(d[net].texte, /💃$/, `${net} : emoji du sujet en fin de texte`);
+  }
 });

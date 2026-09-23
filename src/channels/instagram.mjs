@@ -23,7 +23,10 @@ const show = (s) => s.replace(/ /g, '⍽').replace(/ /g, '·'); // espaces vi
 
 // Texte, ligne vide, renvoi vers le site, ligne vide, 3 hashtags
 export function buildCaption(dossier, description) {
-  const raw = ed.instagramCaptionSource === 'ai' && dossier.source === 'ia' ? dossier.instagram.texte : description;
+  // Sans IA, le dossier de secours écrit lui aussi un texte Instagram : la description de l'article,
+  // fermée par un emoji du sujet. Retomber sur la description brute, comme avant le 23/09/2026,
+  // publiait une légende sans aucun emoji — c'est ce qu'on a vu sur le post des lodges du Reynou.
+  const raw = ed.instagramCaptionSource === 'ai' ? (dossier.instagram?.texte?.trim() || description) : description;
   // une ligne blanche (U+2800) entre chaque paragraphe
   const text = raw.split('\n').map((l) => l.trim()).filter(Boolean).join(`\n${BLANK_LINE}\n`);
   return [text, BLANK_LINE, '➡️ Article complet sur le site Passion Aquitaine', BLANK_LINE, dossier.instagram.hashtags.join(' ')].join('\n');

@@ -125,3 +125,20 @@ test('les mêmes règles ailleurs : X aussi affiche une carte, Instagram et Thre
     assert.match(d[net].texte, /💃$/, `${net} : emoji du sujet en fin de texte`);
   }
 });
+
+test('Instagram sans IA : la légende garde l’emoji du dossier de secours', async () => {
+  const [{ buildCaption }, { fallbackDossier }] = await Promise.all([
+    import('../src/channels/instagram.mjs'),
+    import('../src/brain/fallback.mjs'),
+  ]);
+  // 23/09/2026 : le post des lodges du Reynou est parti sans aucun emoji. La légende retombait sur
+  // la description brute de l'article dès que le dossier venait des règles, ignorant son texte.
+  const article = {
+    title: 'Près de Limoges, on dort au milieu des girafes et des loups',
+    description: 'À dix minutes de Limoges, les lodges du Parc Zoo du Reynou permettent de dormir face aux girafes ou au cœur de l’enclos des loups.',
+    categories: ['Haute-Vienne'], link: 'https://site.fr/a', guid: 'g', date: Date.now(),
+  };
+  const premiereLigne = buildCaption(fallbackDossier(article), article.description).split('\n')[0];
+  assert.match(premiereLigne, /\p{Extended_Pictographic}$/u, 'la légende se ferme sur l’emoji du sujet');
+  assert.doesNotMatch(premiereLigne, /\.\s*\p{Extended_Pictographic}$/u, 'jamais de point juste avant l’emoji');
+});

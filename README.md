@@ -476,11 +476,21 @@ Lecture seule, aucune publication, aucune valeur de jeton affichée. Vérifie le
 
 Un jeton d'utilisateur système appartient à l'entreprise, pas à une personne : il survit aux changements de mot de passe et aux contrôles de sécurité du compte, et n'expire pas.
 
-1. [business.facebook.com/settings](https://business.facebook.com/settings) → **Utilisateurs** → **Utilisateurs système** → **Ajouter** : nom `pa-social`, rôle *Administrateur*.
-2. **Ajouter des actifs** → *Pages* → **Passion Aquitaine** → contrôle total ; puis *Comptes Instagram* → **@lovaquitaine** → contrôle total.
-3. **Générer un nouveau jeton** → app « Passion Aquitaine Social » → expiration **Jamais** → cocher les mêmes permissions qu'en voie A.
-4. Copier le jeton (affiché **une seule fois**), puis appeler `GET /me/accounts?fields=name,access_token` avec lui : le jeton de Page obtenu n'expire pas non plus.
-5. `npm run meta:check` doit afficher `type SYSTEM_USER` ou un jeton de Page sans expiration.
+**Prérequis**, sans quoi les boutons n'apparaissent pas :
+- être **administrateur** du portefeuille d'entreprise (Business portfolio) ;
+- la **Page** et le **compte Instagram** doivent appartenir à ce portefeuille (Paramètres → *Comptes* → *Pages* / *Comptes Instagram*) ;
+- l'**app** « Passion Aquitaine Social » doit y être ajoutée : Paramètres → *Comptes* → **Applications** → *Ajouter* → **Connecter un identifiant d'app**, avec l'identifiant lu sur [developers.facebook.com](https://developers.facebook.com/apps) → l'app → *Paramètres* → *Général* → « Identifiant de l'app ». Sans cette étape, l'app n'apparaît pas dans la liste déroulante de l'étape 4.
+
+1. Ouvrir directement [business.facebook.com/latest/settings/system_users](https://business.facebook.com/latest/settings/system_users) (ancienne interface : [business.facebook.com/settings/system-users](https://business.facebook.com/settings/system-users)). Par les menus : **Paramètres d'entreprise** → colonne de gauche, **Utilisateurs** → **Utilisateurs système**.
+2. **Ajouter** (bouton bleu en haut de la liste) : nom `pa-social`, rôle **Administrateur**, puis *Créer un utilisateur système*.
+3. **Cliquer sur le nom `pa-social` dans la liste.** C'est l'étape qu'on oublie : tant que l'utilisateur système n'est pas sélectionné, le panneau de droite est vide et aucun bouton n'existe. Une fois sélectionné, une barre de boutons apparaît à droite : *Ajouter des actifs*, **Générer un nouveau token** (parfois *Generate new token*), *Supprimer*.
+4. **Ajouter des actifs** d'abord : *Pages* → **Passion Aquitaine** → **Contrôle total** ; puis *Comptes Instagram* → **@lovaquitaine** → **Contrôle total**. Enregistrer. Un utilisateur système sans actif produit un jeton qui ne sait rien faire.
+5. **Générer un nouveau token** : dans la fenêtre, choisir l'**app** « Passion Aquitaine Social », l'**expiration = Jamais**, puis cocher les permissions (champ de recherche) : `pages_show_list`, `pages_read_engagement`, `pages_manage_posts`, `pages_manage_engagement`, `instagram_basic`, `instagram_content_publish`, `instagram_manage_insights`, `read_insights`, `business_management`. Valider par *Générer un token*.
+6. **Copier le jeton tout de suite** : Meta ne l'affiche qu'une seule fois, il n'est plus jamais consultable ensuite.
+7. Avec ce jeton, appeler `GET /me/accounts?fields=name,access_token` (Explorateur d'API, ou navigateur sur `https://graph.facebook.com/v23.0/me/accounts?fields=name,access_token&access_token=…`) : **le jeton de Page obtenu n'expire pas non plus**, c'est celui qui va dans `FB_TOKEN` et `IG_TOKEN`.
+8. `npm run meta:check` doit afficher `type SYSTEM_USER`, ou un jeton de Page **sans expiration**.
+
+**Si le bouton « Générer un nouveau token » reste introuvable ou grisé :** l'utilisateur système n'est pas sélectionné (étape 3), ou le compte n'est pas administrateur du portefeuille, ou aucun actif ne lui est attribué (étape 4). **S'il n'existe aucun portefeuille d'entreprise**, la voie B n'est pas possible en l'état : rester en voie A, et créer le portefeuille est un chantier à part (il faut y rattacher la Page et le compte Instagram).
 
 ### Mettre en service
 

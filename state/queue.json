@@ -176,9 +176,9 @@
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=35446",
     "channel": "facebook",
-    "dueAt": 1790145120902,
+    "dueAt": 1790144955863,
     "status": "pending",
-    "attempts": 0,
+    "attempts": 1,
     "article": {
       "title": "Près de Limoges, on dort au milieu des girafes et des loups",
       "link": "https://passion-aquitaine.ouest-france.fr/lodges-zoo-reynou-limoges-hebergement-insolite/",
@@ -247,83 +247,8 @@
         "facebook": []
       }
     },
-    "previewSent": false
-  },
-  {
-    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35446",
-    "channel": "threads",
-    "dueAt": 1790144936909,
-    "status": "pending",
-    "attempts": 0,
-    "article": {
-      "title": "Près de Limoges, on dort au milieu des girafes et des loups",
-      "link": "https://passion-aquitaine.ouest-france.fr/lodges-zoo-reynou-limoges-hebergement-insolite/",
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35446",
-      "pubDate": "Wed, 23 Sep 2026 05:30:03 +0000",
-      "date": 1790141403000,
-      "categories": [
-        "Actus",
-        "Haute-Vienne",
-        "Hébergements"
-      ],
-      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/09/lodges-reynou-limoges.jpg",
-      "description": "À dix minutes de Limoges, les lodges du Parc Zoo du Reynou permettent de dormir face aux girafes ou au cœur de l’enclos des loups."
-    },
-    "dossier": {
-      "nature": "actu",
-      "sensible": false,
-      "rubrique": "Limoges",
-      "entites": [],
-      "lieu": {
-        "id": "111518152200515",
-        "nom": "Limoges",
-        "niveau": "departement"
-      },
-      "visuel": {
-        "titre": "On dort au milieu des girafes et des loups",
-        "surlignage": "des loups",
-        "description": "À dix minutes de Limoges, les lodges du Parc Zoo du Reynou permettent de dormir face aux girafes ou au cœur de l’enclos des loups.",
-        "texte_alternatif": "Limoges : On dort au milieu des girafes et des loups"
-      },
-      "instagram": {
-        "texte": "À dix minutes de Limoges, les lodges du Parc Zoo du Reynou permettent de dormir face aux girafes ou au cœur de l’enclos des loups 📍",
-        "hashtags": [
-          "#Limoges",
-          "#NouvelleAquitaine",
-          "#Decouverte"
-        ]
-      },
-      "facebook": {
-        "texte": "On dort au milieu des girafes et des loups 📍"
-      },
-      "bluesky": {
-        "texte": "À dix minutes de Limoges, les lodges du Parc Zoo du Reynou permettent de dormir face aux girafes ou au cœur de l’enclos des loups 📍",
-        "hashtag": "#Limoges"
-      },
-      "threads": {
-        "texte": "À dix minutes de Limoges, les lodges du Parc Zoo du Reynou permettent de dormir face aux girafes ou au cœur de l’enclos des loups 📍",
-        "sujet": "Limoges"
-      },
-      "x": {
-        "texte": "On dort au milieu des girafes et des loups 📍"
-      },
-      "source": "regles",
-      "lieuSource": {
-        "precis": "",
-        "ville": "",
-        "departement": "Limoges"
-      },
-      "lieuNom": "Limoges",
-      "commune": null,
-      "comptes": {
-        "instagram": [],
-        "x": [],
-        "bluesky": [],
-        "threads": [],
-        "facebook": []
-      }
-    },
-    "previewSent": false
+    "previewSent": false,
+    "lastError": "Meta HTTP 400 · code 190 · sous-code 460 : Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons. (fbtrace Aoy6ijqNmFQ8X_ChHXyPeTS)"
   },
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=35446",

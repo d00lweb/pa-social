@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-23T06:00:42.194Z",
+  "genereLe": "2026-09-23T06:20:40.017Z",
   "jour": "2026-09-23",
   "reseaux": {
     "instagram": {
@@ -124,11 +124,11 @@
         "lien",
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 8,
-      "total": 8,
-      "dernier": "2026-09-22T06:30:54.943Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DdlF2lClkyx"
+      "aujourdhui": 1,
+      "semaine": 9,
+      "total": 9,
+      "dernier": "2026-09-23T06:29:35.955Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DdnqvOvGwgz"
     },
     "x": {
       "actif": true,
@@ -168,6 +168,22 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35446",
+      "titre": "Près de Limoges, on dort au milieu des girafes et des loups",
+      "lien": "https://passion-aquitaine.ouest-france.fr/lodges-zoo-reynou-limoges-hebergement-insolite/",
+      "at": "2026-09-23T06:29:35.955Z",
+      "reseaux": {
+        "threads": {
+          "texte": "À dix minutes de Limoges, les lodges du Parc Zoo du Reynou permettent de dormir face aux girafes ou au cœur de l’enclos des loups 📍",
+          "image": null,
+          "mode": "lien",
+          "reponse": null,
+          "sujet": "Limoges",
+          "publieLe": "2026-09-23T06:29:35.955Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35605",
       "titre": "À Bordeaux, 200 danseurs pour un French Cancan géant sur le Miroir d’Eau",
@@ -407,57 +423,19 @@
           "publieLe": "2026-09-19T19:15:44.864Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35569",
-      "titre": "Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée du Périgord",
-      "lien": "https://passion-aquitaine.ouest-france.fr/perigordine-ultra-trail-2026-parcours/",
-      "at": "2026-09-19T07:06:06.447Z",
-      "reseaux": {
-        "x": {
-          "texte": "Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée du Périgord 🏛️",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260918-98a782d2-x.jpg",
-          "mode": "reponse",
-          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/perigordine-ultra-trail-2026-parcours/",
-          "sujet": null,
-          "publieLe": "2026-09-18T07:20:44.799Z"
-        },
-        "bluesky": {
-          "texte": "🥾 On n’imagine pas un trail comme une leçon d’histoire. La Périgordine Ultra Trail, elle, fait passer ses coureurs devant une grotte, une rivière et des châteaux sur 80 km. Première édition le 27 septembre en Périgord. #Perigord",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260918-98a782d2-bsky.jpg",
-          "mode": "reply",
-          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/perigordine-ultra-trail-2026-parcours/",
-          "sujet": null,
-          "publieLe": "2026-09-18T09:59:00.492Z"
-        },
-        "instagram": {
-          "texte": "80 km de sentiers entre une grotte, une rivière et des châteaux du Périgord\n⠀\nLa Périgordine Ultra Trail lance sa première édition 🗓️ le 27 septembre, avec un parcours qui raconte une histoire méconnue de la Dordogne.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Perigord #UltraTrail #Dordogne",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260918-98a782d2-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-18T11:01:48.310Z"
-        },
-        "threads": {
-          "texte": "Courir et découvrir en même temps, c’est la promesse de cette nouvelle épreuve 🗺️ La Périgordine Ultra Trail propose 80 km à travers une grotte, une rivière et des châteaux, pour sa première édition le 27 septembre. De quoi voir le Périgord autrement, et croiser une histoire que les guides touristiques racontent rarement.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260918-98a782d2-th.jpg",
-          "mode": "reponse",
-          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/perigordine-ultra-trail-2026-parcours/",
-          "sujet": "Périgord",
-          "publieLe": "2026-09-19T06:31:31.799Z"
-        },
-        "facebook": {
-          "texte": "En Périgord, un trail de 80 km relie grotte, rivière et châteaux le 27 septembre 🏃",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260918-98a782d2-fb.jpg",
-          "mode": null,
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/perigordine-ultra-trail-2026-parcours/",
-          "sujet": null,
-          "publieLe": "2026-09-19T07:06:06.447Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "threads",
+      "at": "2026-09-23T06:29:35.955Z",
+      "titre": "Près de Limoges, on dort au milieu des girafes et des loups",
+      "lien": "https://passion-aquitaine.ouest-france.fr/lodges-zoo-reynou-limoges-hebergement-insolite/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/DdnqvOvGwgz",
+      "format": "lien",
+      "texte": "À dix minutes de Limoges, les lodges du Parc Zoo du Reynou permettent de dormir face aux girafes ou au cœur de l’enclos des loups 📍",
+      "image": null
+    },
     {
       "channel": "instagram",
       "at": "2026-09-22T10:05:25.139Z",
@@ -547,31 +525,12 @@
       "format": null,
       "texte": "Huit monuments cachent 500 ans de peintures murales 🏛️",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20260921-881162d1-fb.jpg"
-    },
-    {
-      "channel": "threads",
-      "at": "2026-09-21T06:28:10.054Z",
-      "titre": "En Vienne, huit monuments cachent 500 ans de peintures murales",
-      "lien": "https://passion-aquitaine.ouest-france.fr/vallee-des-fresques-gartempe-vienne/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/Ddig--0lSGV",
-      "format": "lien",
-      "texte": "Entre Saint-Savin et Saulgé, huit édifices religieux forment la Vallée des Fresques, un itinéraire méconnu de peintures murales en Vienne 🏛️",
-      "image": null
     }
   ],
   "file": [
     {
-      "channel": "threads",
-      "dueAt": "2026-09-23T06:28:56.909Z",
-      "prochainPassage": "2026-09-23T07:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Près de Limoges, on dort au milieu des girafes et des loups"
-    },
-    {
       "channel": "facebook",
-      "dueAt": "2026-09-23T06:32:00.902Z",
+      "dueAt": "2026-09-23T06:29:15.863Z",
       "prochainPassage": "2026-09-23T07:00:00.000Z",
       "nature": "actu",
       "prevuInitialement": null,
@@ -718,7 +677,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-23T06:00:44.243Z",
+    "genereLe": "2026-09-23T06:32:06.113Z",
     "posts": 35,
     "parReseau": {
       "instagram": {
@@ -888,7 +847,7 @@
       "bluesky": 11,
       "x": 11,
       "facebook": 8,
-      "threads": 8
+      "threads": 9
     },
     "abonnes": {
       "instagram": {

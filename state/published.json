@@ -769,5 +769,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35446",
+    "channel": "threads",
+    "at": "2026-09-23T06:29:35.955Z",
+    "mediaId": "17868637209646908",
+    "titre": "Près de Limoges, on dort au milieu des girafes et des loups",
+    "lien": "https://passion-aquitaine.ouest-france.fr/lodges-zoo-reynou-limoges-hebergement-insolite/",
+    "lienPost": "https://www.threads.com/@lovaquitaine/post/DdnqvOvGwgz",
+    "format": "lien",
+    "mention": false,
+    "apercu": {
+      "texte": "À dix minutes de Limoges, les lodges du Parc Zoo du Reynou permettent de dormir face aux girafes ou au cœur de l’enclos des loups 📍",
+      "image": null,
+      "mode": "lien",
+      "reponse": null,
+      "sujet": "Limoges"
+    }
   }
 ]

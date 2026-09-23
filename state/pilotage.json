@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-23T05:20:47.115Z",
+  "genereLe": "2026-09-23T06:00:42.194Z",
   "jour": "2026-09-23",
   "reseaux": {
     "instagram": {
@@ -559,7 +559,53 @@
       "image": null
     }
   ],
-  "file": [],
+  "file": [
+    {
+      "channel": "threads",
+      "dueAt": "2026-09-23T06:28:56.909Z",
+      "prochainPassage": "2026-09-23T07:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Près de Limoges, on dort au milieu des girafes et des loups"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-09-23T06:32:00.902Z",
+      "prochainPassage": "2026-09-23T07:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Près de Limoges, on dort au milieu des girafes et des loups"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-09-23T07:12:15.500Z",
+      "prochainPassage": "2026-09-23T07:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Près de Limoges, on dort au milieu des girafes et des loups"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-09-23T07:20:00.000Z",
+      "prochainPassage": "2026-09-23T07:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Près de Limoges, on dort au milieu des girafes et des loups"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-09-23T11:29:44.456Z",
+      "prochainPassage": "2026-09-23T12:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Près de Limoges, on dort au milieu des girafes et des loups"
+    }
+  ],
   "alertes": [],
   "mesures": {
     "releves": 37,
@@ -672,7 +718,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-23T05:20:47.937Z",
+    "genereLe": "2026-09-23T06:00:44.243Z",
     "posts": 35,
     "parReseau": {
       "instagram": {

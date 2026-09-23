@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-23T11:00:41.999Z",
+  "genereLe": "2026-09-23T11:20:46.859Z",
   "jour": "2026-09-23",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 10,
-      "total": 13,
-      "dernier": "2026-09-22T10:05:25.139Z",
-      "lienDernier": "https://www.instagram.com/p/Ddler9vkzj2/"
+      "aujourdhui": 1,
+      "semaine": 11,
+      "total": 14,
+      "dernier": "2026-09-23T11:30:15.672Z",
+      "lienDernier": "https://www.instagram.com/p/DdoNMmaGW9W/"
     },
     "bluesky": {
       "actif": true,
@@ -172,7 +172,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35446",
       "titre": "Près de Limoges, on dort au milieu des girafes et des loups",
       "lien": "https://passion-aquitaine.ouest-france.fr/lodges-zoo-reynou-limoges-hebergement-insolite/",
-      "at": "2026-09-23T07:20:45.297Z",
+      "at": "2026-09-23T11:30:15.672Z",
       "reseaux": {
         "threads": {
           "texte": "À dix minutes de Limoges, les lodges du Parc Zoo du Reynou permettent de dormir face aux girafes ou au cœur de l’enclos des loups 📍",
@@ -197,6 +197,14 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-09-23T07:20:45.297Z"
+        },
+        "instagram": {
+          "texte": "À dix minutes de Limoges, les lodges du Parc Zoo du Reynou permettent de dormir face aux girafes ou au cœur de l’enclos des loups.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Limoges #NouvelleAquitaine #Decouverte",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260923-dac08af2-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-09-23T11:30:15.672Z"
         }
       }
     },
@@ -443,6 +451,16 @@
   ],
   "publications": [
     {
+      "channel": "instagram",
+      "at": "2026-09-23T11:30:15.672Z",
+      "titre": "Près de Limoges, on dort au milieu des girafes et des loups",
+      "lien": "https://passion-aquitaine.ouest-france.fr/lodges-zoo-reynou-limoges-hebergement-insolite/",
+      "lienPost": "https://www.instagram.com/p/DdoNMmaGW9W/",
+      "format": null,
+      "texte": "À dix minutes de Limoges, les lodges du Parc Zoo du Reynou permettent de dormir face aux girafes ou au cœur de l’enclos des loups.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Limoges #NouvelleAquitaine #Decouverte",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260923-dac08af2-1.jpg"
+    },
+    {
       "channel": "x",
       "at": "2026-09-23T07:20:45.297Z",
       "titre": "Près de Limoges, on dort au milieu des girafes et des loups",
@@ -531,28 +549,9 @@
       "format": null,
       "texte": "Entre Saint-Savin et Saulgé, huit édifices religieux forment la Vallée des Fresques, un itinéraire méconnu de peintures murales en Vienne.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Vienne #Patrimoine #NouvelleAquitaine",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20260921-881162d1-1.jpg"
-    },
-    {
-      "channel": "x",
-      "at": "2026-09-21T08:20:51.790Z",
-      "titre": "En Vienne, huit monuments cachent 500 ans de peintures murales",
-      "lien": "https://passion-aquitaine.ouest-france.fr/vallee-des-fresques-gartempe-vienne/",
-      "lienPost": null,
-      "format": "lien",
-      "texte": "Huit monuments cachent 500 ans de peintures murales 🏛️",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20260921-881162d1-x.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "instagram",
-      "dueAt": "2026-09-23T11:29:44.456Z",
-      "prochainPassage": "2026-09-23T12:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Près de Limoges, on dort au milieu des girafes et des loups"
-    },
     {
       "channel": "facebook",
       "dueAt": "2026-09-23T18:09:57.308Z",
@@ -633,7 +632,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-09-23T10:20:40.488Z"
+    "derniere": "2026-09-23T11:20:46.859Z"
   },
   "abonnes": {
     "instagram": {
@@ -679,7 +678,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-23T11:00:42.957Z",
+    "genereLe": "2026-09-23T11:30:17.312Z",
     "posts": 39,
     "parReseau": {
       "threads": {
@@ -845,7 +844,7 @@
       }
     },
     "publies": {
-      "instagram": 13,
+      "instagram": 14,
       "bluesky": 12,
       "x": 12,
       "facebook": 8,

@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-23T13:20:38.469Z",
+  "genereLe": "2026-09-23T14:00:33.543Z",
   "jour": "2026-09-23",
   "reseaux": {
     "instagram": {
@@ -723,7 +723,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-23T13:20:39.110Z",
+    "genereLe": "2026-09-23T14:00:34.356Z",
     "posts": 39,
     "parReseau": {
       "threads": {
@@ -949,29 +949,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 22,
-      "entree": 152651,
-      "sortie": 19136,
-      "cout": 1.241655,
+      "appels": 27,
+      "entree": 187306,
+      "sortie": 23092,
+      "cout": 1.51383,
       "cle": "2026-09-23"
     },
     "semaine": {
-      "appels": 22,
-      "entree": 152651,
-      "sortie": 19136,
-      "cout": 1.241655
+      "appels": 27,
+      "entree": 187306,
+      "sortie": 23092,
+      "cout": 1.51383
     },
     "mois": {
-      "appels": 22,
-      "entree": 152651,
-      "sortie": 19136,
-      "cout": 1.241655,
+      "appels": 27,
+      "entree": 187306,
+      "sortie": 23092,
+      "cout": 1.51383,
       "cle": "2026-09"
     },
-    "projection": 1.62,
-    "moyenneAppel": 0.0564,
+    "projection": 1.97,
+    "moyenneAppel": 0.0561,
     "parModele": {
-      "claude-opus-5": 22
+      "claude-opus-5": 27
     },
     "serie": [
       [
@@ -1028,7 +1028,7 @@
       ],
       [
         "2026-09-23",
-        1.2417
+        1.5138
       ]
     ],
     "depuis": "2026-09-23"

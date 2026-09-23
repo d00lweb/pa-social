@@ -43,7 +43,13 @@ export async function enregistrer({ modele, usage, quoi = 'dossier', now = Date.
     const releve = await loadJson('couts.json', {});
     const jour = dayKey(now, TZ);
     const j = jetons(usage);
-    const ligne = releve[jour] ?? { appels: 0, entree: 0, sortie: 0, cacheLu: 0, cacheEcrit: 0, cout: 0, parModele: {}, parUsage: {} };
+    const ligne = releve[jour] ?? { appels: 0, entree: 0, sortie: 0, cacheLu: 0, cacheEcrit: 0, cout: 0, parModele: {}, parUsage: {}, parOrigine: {} };
+    // Un appel du robot et un appel lancé depuis un poste n'ont pas le même sens : le premier fait
+    // tourner le média, le second est une mise au point. Les confondre fausse la lecture du budget.
+    ligne.parOrigine ??= {};
+    const origine = process.env.GITHUB_ACTIONS ? 'robot' : 'local';
+    const compteur = ligne.parOrigine[origine] ?? { appels: 0, cout: 0 };
+    ligne.parOrigine[origine] = { appels: compteur.appels + 1, cout: Math.round((compteur.cout + cout(usage, modele)) * 1e6) / 1e6 };
     ligne.appels += 1;
     ligne.entree += j.entree;
     ligne.sortie += j.sortie;
@@ -73,10 +79,12 @@ export const COUPER_AU_PLAFOND = config.couperAuPlafond === true;
 
 export function budgetDuMois(releve = {}, now = Date.now(), timeZone = TZ) {
   const mois = dayKey(now, timeZone).slice(0, 7);
-  const depense = Object.entries(releve)
-    .filter(([j]) => j.startsWith(mois))
-    .reduce((n, [, l]) => n + (l.cout ?? 0), 0);
-  return { depense: Math.round(depense * 1e4) / 1e4, budget: BUDGET_MOIS, part: BUDGET_MOIS ? depense / BUDGET_MOIS : 0, depasse: depense >= BUDGET_MOIS };
+  const lignes = Object.entries(releve).filter(([j]) => j.startsWith(mois)).map(([, l]) => l);
+  // le budget suit la dépense du robot ; les appels lancés depuis un poste (mises au point) sont
+  // comptés à part, sinon une séance de réglages ferait croire à une dérive de la production
+  const depense = lignes.reduce((n, l) => n + (l.parOrigine?.robot?.cout ?? (l.parOrigine ? 0 : l.cout ?? 0)), 0);
+  const local = lignes.reduce((n, l) => n + (l.parOrigine?.local?.cout ?? 0), 0);
+  return { depense: Math.round(depense * 1e4) / 1e4, local: Math.round(local * 1e4) / 1e4, budget: BUDGET_MOIS, part: BUDGET_MOIS ? depense / BUDGET_MOIS : 0, depasse: depense >= BUDGET_MOIS };
 }
 
 // Prévient à 70 % du budget, puis refuse d'appeler au-delà de 100 %. Une alerte par jour et par seuil.
@@ -102,17 +110,22 @@ export async function verifierBudget({ now = Date.now(), envoyer } = {}) {
   return etat;
 }
 
-// Point quotidien sur la dépense, envoyé une fois par jour au premier passage après 8 h.
-// C'est le suivi ordinaire : les alertes de seuil, elles, signalent un écart.
-export async function resumeQuotidienCouts({ now = Date.now(), envoyer } = {}) {
+// Point hebdomadaire sur la dépense : le dimanche, au premier passage après 19 h.
+// C'est le suivi ordinaire ; les alertes de seuil, elles, signalent un écart.
+export async function resumeHebdoCouts({ now = Date.now(), envoyer } = {}) {
   const jour = dayKey(now, TZ);
-  if (localHeure(now) < 8) return null;
+  if (jourSemaine(now) !== 'Sun' || localHeure(now) < 19) return null;
   const memo = await loadJson('ia.json', {});
   if (memo.resume === jour) return null;
 
   const releve = await loadJson('couts.json', {});
-  const hier = dayKey(now - 86400e3, TZ);
-  const veille = releve[hier];
+  const septJours = Array.from({ length: 7 }, (_, i) => dayKey(now - i * 86400e3, TZ));
+  const semaine = septJours.reduce((n, j) => {
+    const l = releve[j];
+    if (!l) return n;
+    const robot = l.parOrigine?.robot ?? (l.parOrigine ? { appels: 0, cout: 0 } : { appels: l.appels, cout: l.cout });
+    return { appels: n.appels + robot.appels, cout: n.cout + robot.cout };
+  }, { appels: 0, cout: 0 });
   const etat = budgetDuMois(releve, now, TZ);
   memo.resume = jour;
   await saveJson('ia.json', memo);
@@ -122,15 +135,18 @@ export async function resumeQuotidienCouts({ now = Date.now(), envoyer } = {}) {
   const joursDuMois = new Date(Number(jour.slice(0, 4)), Number(jour.slice(5, 7)), 0).getDate();
   const projection = numeroJour ? (etat.depense / numeroJour) * joursDuMois : 0;
   const lignes = [
-    '💶 <b>Rédacteur IA — point du jour</b>',
-    veille ? `Hier : ${veille.appels} appel${veille.appels > 1 ? 's' : ''}, ${euros(veille.cout)}` : 'Hier : aucun appel',
+    '💶 <b>Rédacteur IA — la semaine</b>',
+    semaine.appels ? `7 derniers jours : ${semaine.appels} article${semaine.appels > 1 ? 's' : ''} rédigé${semaine.appels > 1 ? 's' : ''}, ${euros(semaine.cout)}` : '7 derniers jours : aucun article rédigé',
     `Ce mois-ci : <b>${euros(etat.depense)}</b> sur ${euros(etat.budget)} (${Math.round(etat.part * 100)} %)`,
     `Fin de mois au rythme actuel : ${euros(projection)}`,
+    etat.local ? `<i>Hors budget : ${euros(etat.local)} de mises au point lancées depuis un poste.</i>` : '',
   ];
   const envoi = envoyer ?? (await import('../channels/telegram.mjs')).send;
-  await envoi(lignes.join('\n')).catch(() => {});
-  return { depense: etat.depense, projection };
+  await envoi(lignes.filter(Boolean).join('\n')).catch(() => {});
+  return { semaine, depense: etat.depense, projection };
 }
+
+const jourSemaine = (ms, timeZone = TZ) => new Intl.DateTimeFormat('en-GB', { timeZone, weekday: 'short' }).format(new Date(ms));
 
 const localHeure = (ms, timeZone = TZ) => Number(new Intl.DateTimeFormat('en-GB', { timeZone, hour: '2-digit', hourCycle: 'h23' }).format(new Date(ms)));
 

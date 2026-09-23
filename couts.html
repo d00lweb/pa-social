@@ -91,6 +91,7 @@
   <section>
     <h2>Jour par jour</h2>
     <div class="panel" id="detail"><p class="vide">Chargement…</p></div>
+    <p class="hint">Ce tableau compte <b>tous</b> les appels de la clé, robot et mises au point lancées depuis un poste : c'est ce total que montre la console Anthropic. Les chiffres du haut, eux, ne suivent que le robot — c'est lui que le budget de 3 $ encadre.</p>
   </section>
 
   <section>
@@ -124,6 +125,15 @@
   const decale = (jour, n) => cleJour(Date.parse(`${jour}T12:00:00Z`) + n * 86400e3);
   const appels = (n) => `${nf.format(n)} appel${n > 1 ? 's' : ''}`;
 
+  // un appel du robot fait tourner le média ; un appel lancé depuis un poste est une mise au point.
+  // Le budget ne suit que le premier : sinon une séance de réglages ressemble à une dérive.
+  const partRobot = (l) => l.parOrigine?.robot ?? (l.parOrigine ? { appels: 0, cout: 0 } : { appels: l.appels, cout: l.cout });
+  const partLocale = (l) => l.parOrigine?.local ?? { appels: 0, cout: 0 };
+  const cumulPart = (releve, jours, part) => jours.reduce((t, j) => {
+    const l = releve[j];
+    return l ? { appels: t.appels + part(l).appels, cout: t.cout + part(l).cout } : t;
+  }, { appels: 0, cout: 0 });
+
   function cumul(releve, jours) {
     return jours.reduce((t, j) => {
       const l = releve[j];
@@ -144,21 +154,29 @@
     const septDerniers = Array.from({ length: 7 }, (_, i) => decale(aujourdhui, -i));
 
     const cMois = cumul(releve, duMois);
+    const rMois = cumulPart(releve, duMois, partRobot);
+    const robotMois = rMois.cout;
+    const robotAppels = rMois.appels;
+    const localMois = cumulPart(releve, duMois, partLocale).cout;
+    const rJour = cumulPart(releve, [aujourdhui], partRobot);
+    const rSemaine = cumulPart(releve, septDerniers, partRobot);
     const numero = Number(aujourdhui.slice(8));
     const joursDuMois = new Date(Number(mois.slice(0, 4)), Number(mois.slice(5, 7)), 0).getDate();
-    const projection = numero ? (cMois.cout / numero) * joursDuMois : 0;
-    const moyenne = cMois.appels ? cMois.cout / cMois.appels : 0;
-    const part = BUDGET ? cMois.cout / BUDGET : 0;
+    const projection = numero ? (robotMois / numero) * joursDuMois : 0;
+    const moyenne = robotAppels ? robotMois / robotAppels : 0;
+    const part = BUDGET ? robotMois / BUDGET : 0;
 
     const tuile = (label, valeur, detail, fort) =>
       `<div class="kpi${fort ? ' kpi--fort' : ''}"><span class="label">${esc(label)}</span><b>${esc(valeur)}</b><small>${esc(detail)}</small></div>`;
 
     // 14 derniers jours
-    const serie = Array.from({ length: 14 }, (_, i) => decale(aujourdhui, i - 13)).map((j) => [j, releve[j]?.cout ?? 0]);
+    const serie = Array.from({ length: 14 }, (_, i) => decale(aujourdhui, i - 13)).map((j) => [j, releve[j] ? partRobot(releve[j]).cout : 0]);
     const max = Math.max(...serie.map(([, v]) => v), 0.0001);
     const barres = serie.map(([j, v]) => {
       const h = Math.max(3, Math.round((v / max) * 100));
-      const t = `${jourLong(j)} — ${v ? `${dollars(v)} $ · ${appels(releve[j].appels)}` : 'aucun appel'}`;
+      const local = releve[j] ? partLocale(releve[j]).cout : 0;
+      const t = `${jourLong(j)} — ${v ? `${dollars(v)} $ · ${appels(partRobot(releve[j]).appels)}` : 'aucun appel'}`
+        + (local ? ` · + ${dollars(local)} $ de mise au point` : '');
       return `<span${v ? '' : ' data-vide'} title="${esc(t)}"><i style="height:${h}%"></i></span>`;
     }).join('');
 
@@ -167,9 +185,9 @@
 
     $('resume').innerHTML = `
       <div class="kpis">
-        ${tuile('Aujourd’hui', `${dollars(cumul(releve, [aujourdhui]).cout)} $`, appels(cumul(releve, [aujourdhui]).appels))}
-        ${tuile('7 derniers jours', `${dollars(cumul(releve, septDerniers).cout)} $`, appels(cumul(releve, septDerniers).appels))}
-        ${tuile('Mois en cours', `${dollars(cMois.cout)} $`, appels(cMois.appels), true)}
+        ${tuile('Aujourd’hui', `${dollars(rJour.cout)} $`, appels(rJour.appels))}
+        ${tuile('7 derniers jours', `${dollars(rSemaine.cout)} $`, appels(rSemaine.appels))}
+        ${tuile('Mois en cours', `${dollars(robotMois)} $`, appels(robotAppels), true)}
         ${tuile('Projection du mois', `${dollars(projection)} $`, 'au rythme actuel')}
       </div>
       <div>
@@ -177,15 +195,16 @@
         <div class="axe"><span>${jourCourt(serie[0][0])}</span><span>${jourCourt(serie.at(-1)[0])}</span></div>
       </div>
       <div class="jauge-bloc">
-        <div class="jauge-tete"><span>Budget du mois</span><b>${dollars(cMois.cout)} $ / ${dollars(BUDGET)} $</b></div>
+        <div class="jauge-tete"><span>Budget du mois</span><b>${dollars(robotMois)} $ / ${dollars(BUDGET)} $</b></div>
         <div class="jauge"><i class="${part >= 1 ? 'plein' : part >= 0.7 ? 'chaud' : ''}" style="width:${Math.min(100, Math.round(part * 100))}%"></i></div>
         <p class="note">${part >= 1
           ? 'Plafond dépassé : tu es prévenu sur Telegram, le rédacteur continue d’écrire normalement (réglage couperAuPlafond).'
-          : `Alerte Telegram à 70 %, puis au plafond. Le rédacteur continue d’écrire dans tous les cas. Reste ${dollars(Math.max(0, BUDGET - cMois.cout))} $, soit environ ${Math.floor(Math.max(0, BUDGET - cMois.cout) / (moyenne || 0.056))} articles.`}</p>
+          : `Alerte Telegram à 70 %, puis au plafond. Le rédacteur continue d’écrire dans tous les cas. Reste ${dollars(Math.max(0, BUDGET - robotMois))} $, soit environ ${Math.floor(Math.max(0, BUDGET - robotMois) / (moyenne || 0.056))} articles.`}</p>
       </div>
       <div class="puces">
         <span class="puce">Coût moyen d’un appel <b>${dollars(moyenne)} $</b></span>
-        <span class="puce">Jetons du mois <b>${nf.format(cMois.entree)}</b> entrée · <b>${nf.format(cMois.sortie)}</b> sortie</span>
+        ${localMois ? `<span class="puce">Mises au point depuis un poste <b>${dollars(localMois)} $</b> — hors budget</span>` : ''}
+        <span class="puce">Jetons du mois, tout compris <b>${nf.format(cMois.entree)}</b> entrée · <b>${nf.format(cMois.sortie)}</b> sortie</span>
         ${Object.entries(parModele).map(([m, n]) => `<span class="puce">${esc(m.replace('claude-', ''))} <b>× ${n}</b></span>`).join('')}
       </div>`;
 

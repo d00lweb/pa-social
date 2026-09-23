@@ -98,3 +98,60 @@ test('au plafond, on prévient sans couper : le réglage est explicite', async (
   await verifierBudget({ now: Date.parse('2026-09-24T09:00:00Z'), envoyer: async (t) => envoyes.push(t) });
   if (envoyes.length) assert.doesNotMatch(envoyes[0], /version de secours/, 'tant que couperAuPlafond est faux, aucun message ne promet une coupure');
 });
+
+test('le budget suit le robot, pas les mises au point lancées depuis un poste', async () => {
+  const { budgetDuMois } = await import('../src/brain/couts.mjs');
+  const now = Date.parse('2026-09-23T16:00:00Z');
+  // 23/09/2026 : une séance de réglages a fait monter le relevé à 1,51 $ alors que le média,
+  // lui, n'avait coûté que 7 centimes. Le budget ne doit compter que ce qui fait tourner le média.
+  const releve = {
+    '2026-09-23': {
+      appels: 27, entree: 0, sortie: 0, cout: 1.514,
+      parOrigine: { robot: { appels: 1, cout: 0.075 }, local: { appels: 26, cout: 1.439 } },
+    },
+  };
+  const etat = budgetDuMois(releve, now);
+  assert.equal(etat.depense, 0.075, 'seul le robot entame le budget');
+  assert.equal(etat.local, 1.439, 'la dépense de mise au point reste visible, à part');
+  assert.equal(etat.depasse, false);
+  // un relevé antérieur au partage n'a pas d'origine : il est attribué au robot, comme avant
+  assert.equal(budgetDuMois({ '2026-09-23': { appels: 3, cout: 0.21 } }, now).depense, 0.21);
+});
+
+test('point conso : le dimanche vers 19 h, une seule fois, sur les 7 derniers jours', async () => {
+  const { resumeHebdoCouts } = await import('../src/brain/couts.mjs');
+  const { fromRoot } = await import('../src/core/config.mjs');
+  const { readFile, writeFile, mkdir } = await import('node:fs/promises');
+  const fichiers = ['state/ia.json', 'state/couts.json'];
+  const sauve = await Promise.all(fichiers.map((f) => readFile(fromRoot(f), 'utf8').catch(() => null)));
+  await mkdir(fromRoot('state'), { recursive: true });
+  const jours = {};
+  for (let i = 0; i < 7; i++) {
+    const j = new Date(Date.parse('2026-09-27T12:00:00Z') - i * 86400e3).toISOString().slice(0, 10);
+    jours[j] = { appels: 4, entree: 0, sortie: 0, cout: 0.24, parOrigine: { robot: { appels: 3, cout: 0.18 }, local: { appels: 1, cout: 0.06 } } };
+  }
+  try {
+    await writeFile(fromRoot('state/couts.json'), JSON.stringify(jours));
+    await writeFile(fromRoot('state/ia.json'), '{}');
+    const envoyes = [];
+    const envoyer = async (m) => { envoyes.push(m); };
+    // dimanche 27 septembre 2026 : rien avant 19 h (heure de Paris)
+    assert.equal(await resumeHebdoCouts({ now: Date.parse('2026-09-27T14:00:00Z'), envoyer }), null, 'pas de point l’après-midi');
+    // samedi soir non plus : le point est hebdomadaire
+    assert.equal(await resumeHebdoCouts({ now: Date.parse('2026-09-26T18:00:00Z'), envoyer }), null, 'pas de point le samedi');
+    assert.equal(envoyes.length, 0);
+
+    const r = await resumeHebdoCouts({ now: Date.parse('2026-09-27T17:10:00Z'), envoyer });
+    assert.ok(r, 'dimanche 19 h 10 à Paris : le point part');
+    assert.equal(r.semaine.appels, 21, '7 jours × 3 articles du robot');
+    assert.match(envoyes[0], /la semaine/);
+    assert.match(envoyes[0], /21 articles rédigés/);
+    assert.match(envoyes[0], /Hors budget/, 'les mises au point sont dites, mais hors budget');
+    assert.doesNotMatch(envoyes[0], /\n\n/, 'aucune ligne vide dans le message');
+
+    assert.equal(await resumeHebdoCouts({ now: Date.parse('2026-09-27T19:00:00Z'), envoyer }), null, 'une seule fois dans la soirée');
+    assert.equal(envoyes.length, 1);
+  } finally {
+    await Promise.all(fichiers.map((f, i) => (sauve[i] === null ? null : writeFile(fromRoot(f), sauve[i]))));
+  }
+});

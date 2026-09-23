@@ -11,6 +11,16 @@
     },
     "parUsage": {
       "dossier": 27
+    },
+    "parOrigine": {
+      "robot": {
+        "appels": 1,
+        "cout": 0.075075
+      },
+      "local": {
+        "appels": 26,
+        "cout": 1.438755
+      }
     }
   }
 }

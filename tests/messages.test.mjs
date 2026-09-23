@@ -94,3 +94,14 @@ test('le catalogue couvre tous les envois du code', () => {
     assert.ok(m.id && m.titre && m.quand && m.frequence, `${m.id} : entrée incomplète`);
   }
 });
+
+test('publication : le lien direct est dans un bouton, pas dans le texte', async () => {
+  const { messagePublie } = await import('../src/channels/messages.mjs');
+  const { text, options } = messagePublie('Instagram', 'Un titre & <balise>', 'https://www.instagram.com/p/Abc/');
+  assert.equal(text, '📣 <b>Publié sur Instagram</b>\nUn titre &amp; &lt;balise&gt;');
+  const bouton = JSON.parse(options.reply_markup).inline_keyboard[0][0];
+  assert.equal(bouton.text, '👁️ Voir sur Instagram');
+  assert.equal(bouton.url, 'https://www.instagram.com/p/Abc/');
+  // lien pas encore connu : le message part quand même, sans bouton mort
+  assert.deepEqual(messagePublie('Bluesky', 'T', null).options, {});
+});

@@ -11,7 +11,7 @@ import { resoudreLieu, lieuNomme } from './brain/lieux.mjs';
 import { recolterLieux } from './measure/recolte.mjs';
 import { collecter } from './measure/collect.mjs';
 import { releverAbonnes, saisirAbonnes, lireNombre } from './measure/abonnes.mjs';
-import { completerLiens } from './measure/liens.mjs';
+import { completerLiens, LECTEURS } from './measure/liens.mjs';
 import { resumeHebdoCouts } from './brain/couts.mjs';
 import { diffuser } from './measure/diffusion.mjs';
 import { ecrire as ecrirePilotage } from './measure/pilotage.mjs';
@@ -21,7 +21,7 @@ import { capturer as capturerApercu } from './measure/apercus.mjs';
 import { loadMemory, saveMemory, remember } from './brain/memory.mjs';
 import { alert, telegramEnabled, send, sendPhotos, getUpdates, answerCallback, clearButtons } from './channels/telegram.mjs';
 import { buildPreviewText, previewButtons } from './channels/preview.mjs';
-import { esc, alerteJetonRefuse } from './channels/messages.mjs';
+import { esc, alerteJetonRefuse, messagePublie } from './channels/messages.mjs';
 import * as instagram from './channels/instagram.mjs';
 import * as x from './channels/x.mjs';
 import * as bluesky from './channels/bluesky.mjs';
@@ -361,7 +361,14 @@ async function execute({ history, queue, memory, controls, now }) {
         console.log(`Départ ${channel.id} à ${paris(item.dueAt)} : attente de ${Math.round(attente / 1000)} s`);
         await new Promise((r) => setTimeout(r, attente));
       }
-      const { mediaId, lien: lienPost = null } = await impl.publish(pkg, { channel });
+      const { mediaId, lien: publieLien = null } = await impl.publish(pkg, { channel });
+      // Lien direct, tout de suite : Instagram ne le renvoie pas à la publication, et sans lui le
+      // message Telegram n'aurait pas de bouton pour aller voir le post. En cas d'échec, la reprise
+      // de completerLiens le retrouvera au passage suivant.
+      const lienPost = publieLien
+        ?? (LECTEURS[channel.id] && !String(mediaId).startsWith('kit')
+          ? await LECTEURS[channel.id](mediaId).catch((e) => { console.log(`   Lien ${channel.id} pas encore disponible (${e.message})`); return null; })
+          : null);
       // format tiré, mentions, et aperçu réel : c'est ce qui rend la mesure comparable
       // d'un post à l'autre et ce que la page de pilotage affiche.
       history.push({
@@ -381,11 +388,8 @@ async function execute({ history, queue, memory, controls, now }) {
       console.log(`Publié ${channel.id} : ${mediaId}`);
       if (impl.publishedLabel) console.log(`Kit ${channel.id} envoyé`);
       else if (config.telegram?.publishedNotice) {
-        // le lien part dans un bouton : une URL noyée dans un texte ne se clique pas d'un geste
-        const bouton = lienPost
-          ? { reply_markup: JSON.stringify({ inline_keyboard: [[{ text: `👁️ Voir sur ${NAMES[channel.id]}`, url: lienPost }]] }) }
-          : undefined;
-        await say(`📣 <b>Publié sur ${NAMES[channel.id]}</b>\n${esc(item.article.title)}`, bouton);
+        const { text, options } = messagePublie(NAMES[channel.id], item.article.title, lienPost);
+        await say(text, options);
       }
     } catch (err) {
       if (err instanceof DeferError) {

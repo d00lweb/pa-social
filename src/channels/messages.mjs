@@ -33,6 +33,15 @@ export function aCopier(etiquette, valeur, { note = null, lien = null } = {}) {
   return message;
 }
 
+// ── Publication ────────────────────────────────────────────────────────────────
+// Message envoyé après chaque publication automatique. Le lien part dans un bouton : une URL
+// noyée dans un texte ne se clique pas d'un geste, et Telegram en ferait un aperçu encombrant.
+export function messagePublie(reseau, titre, lien) {
+  const text = `📣 <b>Publié sur ${esc(reseau)}</b>\n${esc(titre)}`;
+  if (!lien) return { text, options: {} };
+  return { text, options: { reply_markup: JSON.stringify({ inline_keyboard: [[{ text: `👁️ Voir sur ${reseau}`, url: lien }]] }) } };
+}
+
 // ── Alertes ────────────────────────────────────────────────────────────────────
 const euros = (n) => `${Number(n).toFixed(2).replace('.', ',')} $`;
 

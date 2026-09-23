@@ -3,7 +3,7 @@
     "cle": "2026-09",
     "publications": 54,
     "articles": 14,
-    "interactions": 304,
+    "interactions": 375,
     "parReseau": {
       "facebook": 8,
       "instagram": 13,
@@ -28,6 +28,13 @@
       },
       {
         "reseau": "instagram",
+        "titre": "À Bordeaux, 200 danseurs pour un French Cancan géant sur le Miroir d’Eau",
+        "lien": "https://www.instagram.com/p/Ddler9vkzj2/",
+        "image": "https://passion-aquitaine.ouest-france.fr/social/20260922-6c111e03-1-vignette.jpg",
+        "interactions": 71
+      },
+      {
+        "reseau": "instagram",
         "titre": "En Haute-Vienne, les abeilles tuent le frelon asiatique en le chauffant vivant à 42°C",
         "lien": "https://www.instagram.com/p/DdYXqThl1Aa/",
         "image": "https://passion-aquitaine.ouest-france.fr/social/20260913-def258f4-1-vignette.jpg",
@@ -46,13 +53,6 @@
         "lien": "https://www.instagram.com/p/DdgehsLmC8L/",
         "image": "https://passion-aquitaine.ouest-france.fr/social/20260920-834e0391-1-vignette.jpg",
         "interactions": 35
-      },
-      {
-        "reseau": "instagram",
-        "titre": "À Capbreton, un canyon de 4 500 mètres dort sous les bateaux",
-        "lien": "https://www.instagram.com/p/DddxYSwjf4g/",
-        "image": "https://passion-aquitaine.ouest-france.fr/social/20260919-139f1e9d-1-vignette.jpg",
-        "interactions": 18
       }
     ]
   }

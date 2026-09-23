@@ -110,25 +110,28 @@ export async function sendDocument(buffer, filename, caption = '') {
   return call('sendDocument', form);
 }
 
-// Story envoyée en document (pas de recompression) : le sticker lien se pose à la main
+// Story envoyée en document (pas de recompression) : le sticker lien se pose à la main.
+// Même forme que le kit X : l'image, puis un message par élément à copier — l'étiquette est sur
+// le bouton, le message ne contient que la valeur. La légende annonce l'ordre.
 export async function sendStory({ buffer, url, title, link, comptes = [], lieu = null }) {
   const c = config();
   if (!c) {
     console.log(`Story à poster à la main : ${url}\n  Sticker lien : ${link}`);
     return;
   }
+  const elements = [
+    { etiquette: 'Copier le lien du sticker', valeur: link, sommaire: 'le lien du sticker' },
+    ...comptes.map((h) => ({ etiquette: `Copier @${h}`, valeur: `@${h}`, sommaire: `le compte @${h} à mentionner` })),
+    ...(lieu ? [{ etiquette: 'Copier le lieu', valeur: lieu, sommaire: 'le lieu à taguer' }] : []),
+  ];
+
   const form = new FormData();
   form.append('chat_id', c.chat);
-  form.append('caption', `📲 Story à poster\n${title}`);
+  form.append('caption', `📲 Story à poster · ${title}\n\nEnregistre l’image, publie-la en story, puis pose le sticker lien.\nCi-dessous, dans l’ordre : ${elements.map((e) => e.sommaire).join(' · ')}.`);
   form.append('document', new Blob([buffer], { type: 'image/jpeg' }), 'story.jpg');
   await call('sendDocument', form);
 
-  // Un message par élément, et chaque message ne contient que ce qu'il faut copier : l'étiquette
-  // est portée par le bouton. Copier le message entier donne donc exactement la valeur, sans
-  // titre à effacer ensuite — et sans la ligne vide que cet effacement laissait derrière lui.
-  await sendCopie('Copier le lien du sticker', link);
-  for (const h of comptes) await sendCopie(`Copier @${h}`, `@${h}`);
-  if (lieu) await sendCopie('Copier le lieu à taguer', lieu);
+  for (const e of elements) await sendCopie(e.etiquette, e.valeur);
 }
 
 export const BOT_COMMANDS = [

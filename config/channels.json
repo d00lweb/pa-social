@@ -10,7 +10,8 @@
   },
   "telegram": {
     "previews": false,
-    "publishedNotice": true
+    "publishedNotice": false,
+    "_telegram": "previews: aperçu avant publication (validation manuelle). publishedNotice: confirmation après chaque publication. Les deux à false : seuls le kit X et la story arrivent sur Telegram, plus les alertes quand quelque chose cloche."
   },
   "restriction": {
     "codes": [

@@ -40,6 +40,7 @@ test('réglages : Telegram prioritaire sur la configuration', () => {
 
 test('kit X : lien de rédaction pré-remplie, message copiable, statut « déjà publié »', async () => {
   const { intentUrl, kitMessages, xLength } = await import('../src/channels/x.mjs');
+  const { aCopier } = await import('../src/channels/messages.mjs');
   const post = 'Le matrimoine revient à #Bordeaux 🎭\n➡️ https://site.fr/un-tres-long-lien-d-article';
   const url = new URL(intentUrl(post));
   assert.equal(url.origin + url.pathname, 'https://x.com/intent/post');
@@ -53,11 +54,17 @@ ${post}
   // Avec le titre dans le message, une copie le ramenait avec ; l'effacer laissait une ligne vide,
   // et le post partait sur X en commençant par un saut de ligne.
   const texteX = `Texte <ok>\n➡️ https://site.fr/a`;
-  const kit1 = kitMessages({ article: { title: 'A & B' }, mode: 'image', text: texteX, link: 'https://site.fr/a' });
+  const kit1 = kitMessages({ article: { title: 'A & B' }, mode: 'image', text: texteX, link: 'https://site.fr/a', intent: intentUrl(texteX) });
   assert.ok(kit1.sommaire.includes('A &amp; B'));
   assert.equal(kit1.elements.length, 1, 'un seul élément à copier : le texte du post');
   assert.equal(kit1.elements[0].valeur, texteX);
-  assert.match(kit1.elements[0].etiquette, /^Copier le texte du post/);
+  assert.match(kit1.elements[0].etiquette, /^Copier le texte \(\d+\/280\)$/);
+  // le bouton « Publier sur X » est contre le texte à coller, pas trois messages plus haut
+  const { options: boutonsTexte } = aCopier(kit1.elements[0].etiquette, kit1.elements[0].valeur, { lien: kit1.elements[0].lien });
+  const rangee = JSON.parse(boutonsTexte.reply_markup).inline_keyboard[0];
+  assert.equal(rangee.length, 2);
+  assert.equal(rangee[1].text, '✍️ Publier sur X');
+  assert.ok(rangee[1].url.startsWith('https://x.com/intent/post?text='));
 
   // chaque élément dans son propre message, pour être copié indépendamment
   const kit = kitMessages({
@@ -71,7 +78,6 @@ ${post}
   assert.ok(kit.sommaire.includes('le compte de Musée'), 'le sommaire annonce l’ordre des messages');
 
   // le message ne porte que la valeur, échappée ; le bouton copie exactement cette valeur
-  const { aCopier } = await import('../src/channels/messages.mjs');
   const { text: corps, options } = aCopier('Copier le texte du post', kit1.elements[0].valeur);
   assert.equal(corps, `<code>${texteX.replace('<ok>', '&lt;ok&gt;')}</code>`, 'rien que la valeur, échappée');
   assert.equal(JSON.parse(options.reply_markup).inline_keyboard[0][0].copy_text.text, kit1.elements[0].valeur);

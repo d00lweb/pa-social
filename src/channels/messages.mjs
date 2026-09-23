@@ -20,13 +20,16 @@ export const esc = (s) => String(s ?? '').replace(/[&<>]/g, (c) => ({ '&': '&amp
 export const COPIE_MAX = 256;
 
 // Un élément à copier : le message ne porte que la valeur, l'étiquette est sur le bouton.
-export function aCopier(etiquette, valeur, { note = null } = {}) {
+// `lien` ajoute un second bouton à côté — « Publier sur X » se trouve ainsi contre le texte
+// qu'il faut y coller, et non trois messages plus haut.
+export function aCopier(etiquette, valeur, { note = null, lien = null } = {}) {
   const texte = String(valeur ?? '').trim();
   const message = { text: `<code>${esc(texte)}</code>`, options: {} };
   if (note) message.text += `\n<i>${esc(note)}</i>`;
-  if ([...texte].length <= COPIE_MAX) {
-    message.options.reply_markup = JSON.stringify({ inline_keyboard: [[{ text: `📋 ${etiquette}`, copy_text: { text: texte } }]] });
-  }
+  const boutons = [];
+  if ([...texte].length <= COPIE_MAX) boutons.push({ text: `📋 ${etiquette}`, copy_text: { text: texte } });
+  if (lien) boutons.push({ text: lien.texte, url: lien.url });
+  if (boutons.length) message.options.reply_markup = JSON.stringify({ inline_keyboard: [boutons] });
   return message;
 }
 

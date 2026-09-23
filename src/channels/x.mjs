@@ -92,7 +92,7 @@ export function kitMessages(pkg) {
   const alt = pkg.dossier?.visuel?.texte_alternatif;
 
   const elements = [
-    { etiquette: `Copier le texte du post (${xLength(pkg.text)}/280)`, valeur: pkg.text, sommaire: 'le texte du post' },
+    { etiquette: `Copier le texte (${xLength(pkg.text)}/280)`, valeur: pkg.text, sommaire: 'le texte du post', lien: pkg.intent ? { texte: '✍️ Publier sur X', url: pkg.intent } : null },
     pkg.replyText && { etiquette: 'Copier la réponse', valeur: pkg.replyText, sommaire: 'la réponse à publier juste après' },
     ...comptes.map((c) => ({ etiquette: `Copier @${c.handle}`, valeur: `@${c.handle}`, sommaire: `le compte de ${c.nom}` })),
     ...pistes.map((c) => ({ etiquette: `Copier @${c.handle}`, valeur: `@${c.handle}`, sommaire: `une piste : ${c.nom}, vérifié sur Instagram, à confirmer sur X` })),
@@ -117,6 +117,6 @@ export async function publish(pkg) {
   if (pkg.files.length) await sendDocument(pkg.files[0].buffer, pkg.files[0].name);
   const { sommaire, elements } = kitMessages(pkg);
   await send(sommaire, { reply_markup: JSON.stringify({ inline_keyboard: [[{ text: '✍️ Publier sur X', url: pkg.intent }]] }) });
-  for (const e of elements) await sendCopie(e.etiquette, e.valeur, { note: e.note ?? null });
+  for (const e of elements) await sendCopie(e.etiquette, e.valeur, { note: e.note ?? null, lien: e.lien ?? null });
   return { mediaId: 'kit-telegram' };
 }

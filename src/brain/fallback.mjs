@@ -65,7 +65,16 @@ export function accroche({ titre, description, emoji, max }) {
   // (« pourtant », « mais »), puis un chiffre ou une date, sinon la première
   const candidates = phrases.filter((p) => !memeQueTitre(p)).map(sansDate).filter(Boolean);
   const note = (p) => (/(^|\s)(pourtant|mais|en revanche|sauf|désormais|pour la première fois)(\s|,)/i.test(p) ? 2 : 0) + (/\d/.test(p) ? 1 : 0);
-  const utile = candidates.slice().sort((a, b) => note(b) - note(a))[0] ?? sansDate(phrases[0] ?? titre);
+  // Dernier recours : aucune phrase ne se distingue du titre. Plutôt que de le redire — la carte
+  // d'aperçu l'affiche déjà juste en dessous —, on prend la phrase qui apporte le plus de mots
+  // nouveaux. Le titre lui-même ne sert que si la description est vide.
+  const apport = (p) => {
+    const mots = (s) => new Set(fold(s).split(/[^\p{L}\p{N}]+/u).filter((m) => m.length > 3));
+    const t = mots(titre);
+    return [...mots(p)].filter((m) => !t.has(m)).length;
+  };
+  const repli = phrases.map(sansDate).filter(Boolean).sort((a, b) => apport(b) - apport(a))[0];
+  const utile = candidates.slice().sort((a, b) => note(b) - note(a))[0] ?? repli ?? sansDate(titre);
   return withEmoji(clip(frenchTypography(utile), max - (emoji ? 3 : 1)), emoji);
 }
 

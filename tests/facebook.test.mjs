@@ -143,3 +143,31 @@ test('Instagram sans IA : la légende garde l’emoji du dossier de secours', as
   assert.match(premiereLigne, /\p{Extended_Pictographic}$/u, 'la légende se ferme sur l’emoji du sujet');
   assert.doesNotMatch(premiereLigne, /\.\s*\p{Extended_Pictographic}$/u, 'jamais de point juste avant l’emoji');
 });
+
+test('le texte de secours ne redit jamais le titre, même quand la description le répète', async () => {
+  const { accroche } = await import('../src/brain/fallback.mjs');
+  // 23/09/2026 : « On dort au milieu des girafes et des loups 📍 » est parti sur Facebook à 18 h —
+  // le titre de l'article moins son amorce de lieu, avec un emoji passe-partout. La carte d'aperçu
+  // affichait le même titre juste en dessous : la phrase n'apportait rien.
+  const motsCommuns = (a, b) => {
+    const mots = (s) => new Set(String(s).toLowerCase().normalize('NFD').replace(/\p{M}/gu, '').split(/[^\p{L}\p{N}]+/u).filter((m) => m.length > 3));
+    const t = mots(a);
+    return t.size ? [...mots(b)].filter((m) => t.has(m)).length / t.size : 0;
+  };
+  const titre = 'Près de Limoges, on dort au milieu des girafes et des loups';
+  const texte = accroche({
+    titre,
+    description: 'À dix minutes de Limoges, les lodges du Parc Zoo du Reynou permettent de dormir face aux girafes ou au cœur de l’enclos des loups.',
+    emoji: '🐺', max: 140,
+  });
+  assert.ok(motsCommuns(titre, texte) < 0.6, `trop proche du titre : « ${texte} »`);
+  assert.match(texte, /Reynou|lodges/, 'la phrase retenue apporte ce que le titre ne dit pas');
+
+  // description qui ne fait que reformuler le titre : on prend quand même ce qui ajoute le plus
+  const pauvre = accroche({
+    titre: 'À Dax, le marché de Noël ouvre ses portes',
+    description: 'À Dax, le marché de Noël ouvre ses portes. Quarante chalets s’installent sur la place de la Fontaine chaude.',
+    emoji: null, max: 140,
+  });
+  assert.match(pauvre, /chalets/, 'la phrase qui apporte des faits nouveaux l’emporte');
+});

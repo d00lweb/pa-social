@@ -339,6 +339,19 @@ async function execute({ history, queue, memory, controls, now }) {
 
     try {
       item.dossier ??= await buildDossier(item.article, { memory });
+      // Un dossier de secours n'est pas définitif. Il est écrit une fois, à l'arrivée de l'article,
+      // et servait ensuite à tous les réseaux : Facebook, qui publie le soir, sortait douze heures
+      // plus tard le texte écrit le matin alors que le rédacteur était injoignable — la description
+      // de l'article recopiée à l'identique sur les cinq réseaux. On retente donc juste avant de
+      // publier. Le cache évite de payer deux fois pour le même article.
+      if (item.dossier.source !== 'ia' && process.env.ANTHROPIC_API_KEY) {
+        const frais = await buildDossier(item.article, { memory, useCache: true });
+        if (frais.source === 'ia') {
+          console.log(`   Dossier de secours remplacé par le rédacteur IA avant publication ${channel.id}`);
+          item.dossier = frais;
+          for (const autre of queue) if (autre.guid === item.guid && autre !== item) autre.dossier = frais;
+        }
+      }
       await enrichir(item.dossier, item.article);
       const impl = CHANNELS[channel.id];
       const pkg = await impl.prepare(item.article, { dossier: item.dossier });

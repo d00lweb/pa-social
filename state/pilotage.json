@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-23T07:20:38.691Z",
+  "genereLe": "2026-09-23T08:00:52.878Z",
   "jour": "2026-09-23",
   "reseaux": {
     "instagram": {
@@ -565,11 +565,11 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 40,
+    "releves": 42,
     "parReseau": {
       "instagram": {
-        "posts": 2,
-        "interactionsMoyennes": 5
+        "posts": 3,
+        "interactionsMoyennes": 4.3
       },
       "bluesky": {
         "posts": 1,
@@ -633,24 +633,24 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-09-22T14:20:38.287Z"
+    "derniere": "2026-09-23T08:00:52.878Z"
   },
   "abonnes": {
     "instagram": {
       "debut": 10146,
-      "fin": 10147,
-      "gain": 1,
+      "fin": 10145,
+      "gain": -1,
       "pct": 0,
       "depuis": "2026-09-18",
-      "au": "2026-09-22"
+      "au": "2026-09-23"
     },
     "facebook": {
       "debut": 42626,
-      "fin": 42620,
-      "gain": -6,
+      "fin": 42616,
+      "gain": -10,
       "pct": 0,
       "depuis": "2026-09-18",
-      "au": "2026-09-22"
+      "au": "2026-09-23"
     },
     "bluesky": {
       "debut": 1,
@@ -679,8 +679,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-23T07:29:06.485Z",
-    "posts": 37,
+    "genereLe": "2026-09-23T08:00:56.844Z",
+    "posts": 38,
     "parReseau": {
       "threads": {
         "posts": 8,
@@ -691,7 +691,7 @@
         "moyenne": 11.4
       },
       "facebook": {
-        "posts": 7,
+        "posts": 8,
         "moyenne": 1
       },
       "bluesky": {
@@ -723,8 +723,8 @@
     },
     "parCreneau": {
       "matin": {
-        "posts": 23,
-        "moyenne": 9.4
+        "posts": 24,
+        "moyenne": 9.1
       },
       "après-midi": {
         "posts": 9,
@@ -766,7 +766,7 @@
       },
       "facebook": {
         "8 h – 9 h 30": {
-          "posts": 4,
+          "posts": 5,
           "moyenne": 1
         },
         "hors créneau": {
@@ -797,7 +797,7 @@
         }
       }
     },
-    "interactionsTotal": 303,
+    "interactionsTotal": 304,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35605",
       "channel": "threads",
@@ -840,8 +840,8 @@
         "moyenne": 4
       },
       "sans": {
-        "posts": 36,
-        "moyenne": 8.3
+        "posts": 37,
+        "moyenne": 8.1
       }
     },
     "publies": {
@@ -854,19 +854,19 @@
     "abonnes": {
       "instagram": {
         "debut": 10146,
-        "fin": 10147,
-        "gain": 1,
+        "fin": 10145,
+        "gain": -1,
         "pct": 0,
         "depuis": "2026-09-18",
-        "au": "2026-09-22"
+        "au": "2026-09-23"
       },
       "facebook": {
         "debut": 42626,
-        "fin": 42620,
-        "gain": -6,
+        "fin": 42616,
+        "gain": -10,
         "pct": 0,
         "depuis": "2026-09-18",
-        "au": "2026-09-22"
+        "au": "2026-09-23"
       },
       "bluesky": {
         "debut": 1,
@@ -900,7 +900,7 @@
     },
     "conseils": [
       "Le format « reponse » fait 320 fois mieux que « card » (32 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « card » de la rotation dans config/channels.json.",
-      "Abonnés : Threads progresse le plus (+4, +0,3 %) ; Facebook recule (−6), à surveiller."
+      "Abonnés : Threads progresse le plus (+4, +0,3 %) ; Facebook recule (−10), à surveiller."
     ]
   }
 }

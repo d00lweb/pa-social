@@ -54,6 +54,24 @@
   .empty { color: var(--muted); padding: 22px; font-size: 14px; }
   .note { color: var(--muted); font-size: 12.5px; }
 
+  /* Coût de l'IA */
+  .kpis { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+  .kpi { border: 1px solid var(--line); border-radius: 11px; padding: 14px 16px; display: grid; gap: 2px; align-content: start; }
+  .kpi b { font-family: var(--mono); font-size: 24px; font-weight: 500; letter-spacing: -.02em; }
+  .kpi .label { font-size: 10.5px; }
+  .kpi small { color: var(--muted); font-size: 12px; }
+  .kpi--fort { background: var(--red-soft); border-color: transparent; }
+  .kpi--fort b { color: var(--red); }
+  .barres-jours { display: flex; align-items: flex-end; gap: 3px; height: 92px; padding-top: 6px; }
+  .barres-jours > span { flex: 1; display: flex; flex-direction: column; justify-content: flex-end; height: 100%; }
+  .barres-jours i { display: block; background: var(--red); border-radius: 3px 3px 0 0; min-height: 2px; opacity: .85; }
+  .barres-jours > span:last-child i { opacity: 1; }
+  .barres-jours > span[data-vide] i { background: var(--line); }
+  .axe-jours { display: flex; justify-content: space-between; font-size: 11px; color: var(--muted); font-family: var(--mono); }
+  .detail-couts { display: flex; flex-wrap: wrap; gap: 6px 22px; font-size: 13px; color: var(--muted); }
+  .detail-couts b { color: var(--ink); font-family: var(--mono); font-weight: 500; }
+  @media (max-width: 720px) { .kpis { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+
   /* En-tête */
   header.top { display: grid; grid-template-columns: 1fr auto; gap: 20px; align-items: end; padding-bottom: 24px; border-bottom: 1px solid var(--line); }
   .brand { display: flex; align-items: flex-start; gap: 14px; }
@@ -346,6 +364,14 @@
       <div id="lieux"><p class="empty">Chargement…</p></div>
     </section>
   </div>
+
+  <section aria-labelledby="t-couts">
+    <div class="sec-head">
+      <h2 id="t-couts">Coût de l'intelligence éditoriale</h2>
+      <p class="hint">Compté appel par appel, à partir des jetons réellement facturés par l'API — jamais estimé. Un appel rédige un article pour les cinq réseaux.</p>
+    </div>
+    <div class="panel pad" id="couts"><p class="empty">Chargement…</p></div>
+  </section>
 
   <section aria-labelledby="t-rapports">
     <div class="sec-head">
@@ -903,7 +929,52 @@
     $('timeline').innerHTML = `<div class="tl-row tl-axe"><span></span><div class="tl-track">${axe}</div></div>${lignes}`;
   }
 
+  // Coût réel de l'IA : relevé par le robot à chaque appel, d'après les jetons facturés (state/couts.json)
+  const dollars = (n) => (n >= 10 ? n.toFixed(0) : n >= 1 ? n.toFixed(2) : n.toFixed(3)).replace('.', ',');
+  const jetonsCourt = (n) => (n >= 1e6 ? `${(n / 1e6).toFixed(1).replace('.', ',')} M` : n >= 1e3 ? `${Math.round(n / 1e3)} k` : String(n));
+  const jourCourt = (j) => fmt({ day: '2-digit', month: '2-digit' }).format(new Date(`${j}T12:00:00Z`));
+
+  function rendreCouts() {
+    const c = etat?.couts;
+    if (!c) {
+      $('couts').innerHTML = `<p class="empty">${erreur ? 'Indisponible pour l’instant.' : 'Chargement…'}</p>`;
+      return;
+    }
+    const tuile = (label, valeur, detail, fort) =>
+      `<div class="kpi${fort ? ' kpi--fort' : ''}"><span class="label">${esc(label)}</span><b>${esc(valeur)}</b><small>${esc(detail)}</small></div>`;
+    const appels = (n) => `${n} appel${n > 1 ? 's' : ''}`;
+
+    const max = Math.max(...c.serie.map(([, v]) => v), 0.0001);
+    const barres = c.serie.map(([jour, v]) => {
+      const hauteur = Math.max(2, Math.round((v / max) * 100));
+      const titre = `${jourCourt(jour)} : ${v ? `${dollars(v)} $` : 'aucun appel'}`;
+      return `<span${v ? '' : ' data-vide'} title="${esc(titre)}"><i style="height:${hauteur}%"></i></span>`;
+    }).join('');
+
+    const modeles = Object.entries(c.parModele ?? {}).map(([m, n]) => `${esc(m.replace('claude-', ''))} × ${n}`).join(' · ');
+    const depuis = c.depuis ? `Relevé commencé le ${jourCourt(c.depuis)}` : 'Aucun appel relevé pour l’instant';
+
+    $('couts').innerHTML = `
+      <div class="kpis">
+        ${tuile('Aujourd’hui', `${dollars(c.jour.cout)} $`, appels(c.jour.appels))}
+        ${tuile('7 derniers jours', `${dollars(c.semaine.cout)} $`, appels(c.semaine.appels))}
+        ${tuile('Mois en cours', `${dollars(c.mois.cout)} $`, appels(c.mois.appels), true)}
+        ${tuile('Projection du mois', `${dollars(c.projection)} $`, 'au rythme actuel')}
+      </div>
+      <div>
+        <div class="barres-jours" role="img" aria-label="Dépense des 14 derniers jours">${barres}</div>
+        <div class="axe-jours"><span>${jourCourt(c.serie[0][0])}</span><span>${jourCourt(c.serie.at(-1)[0])}</span></div>
+      </div>
+      <div class="detail-couts">
+        <span>Coût moyen d’un appel <b>${dollars(c.moyenneAppel)} $</b></span>
+        <span>Jetons du mois <b>${jetonsCourt(c.mois.entree)}</b> en entrée · <b>${jetonsCourt(c.mois.sortie)}</b> en sortie</span>
+        ${modeles ? `<span>Modèle <b>${modeles}</b></span>` : ''}
+      </div>
+      <p class="note">${esc(depuis)}. Les dépenses antérieures n’y figurent pas : elles ne sont visibles que dans la console Anthropic. La sortie comprend la réflexion du modèle, facturée au même prix que le texte.</p>`;
+  }
+
   function toutRendre() {
+    rendreCouts();
     rendreStatut();
     rendreReseaux();
     rendrePlanning();

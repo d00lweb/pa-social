@@ -4,6 +4,7 @@ import { config, fromRoot, enabledChannels } from '../core/config.mjs';
 import { countToday, dayKey, PASSAGES } from '../core/scheduler.mjs';
 import { resumeSemaine } from './abonnes.mjs';
 import { rapportMensuel } from './rapport.mjs';
+import { resume as resumeCouts } from '../brain/couts.mjs';
 
 // Instantané lu par pilotage.html : l'état réel du robot, publié à chaque passage.
 // Volontairement compact — la page le télécharge à chaque ouverture.
@@ -42,7 +43,7 @@ function jetons() {
   return meta;
 }
 
-export function construire({ history, queue, mesures = [], rapports = [], maintenant = Date.now(), controls = {}, lieux = null, releves = {} }) {
+export function construire({ history, queue, mesures = [], rapports = [], maintenant = Date.now(), controls = {}, lieux = null, releves = {}, couts = {} }) {
   const actifs = enabledChannels().map((c) => c.id);
   const ilYaSeptJours = maintenant - 7 * 24 * 3600e3;
 
@@ -127,6 +128,8 @@ export function construire({ history, queue, mesures = [], rapports = [], mainte
     abonnes: resumeSemaine(releves, maintenant, TZ),
     // bilan du mois en cours, provisoire : le même calcul que le rapport figé le 1er du mois suivant
     rapportEnCours: rapportMensuel(mesures, history, dayKey(maintenant, TZ).slice(0, 7), { releves }),
+    // ce que l'IA coûte réellement, compté appel par appel (state/couts.json)
+    couts: resumeCouts(couts, maintenant, TZ),
   };
 }
 
@@ -172,16 +175,17 @@ function resume(mesures) {
 }
 
 export async function ecrire(contexte) {
-  const [history, queue, mesures, controls, lieux, releves] = await Promise.all([
+  const [history, queue, mesures, controls, lieux, releves, couts] = await Promise.all([
     contexte.history ? Promise.resolve(contexte.history) : loadJson('published.json', []),
     contexte.queue ? Promise.resolve(contexte.queue) : loadJson('queue.json', []),
     loadJson('mesures.json', []),
     contexte.controls ? Promise.resolve(contexte.controls) : loadJson('controls.json', {}),
     loadJson('lieux-appris.json', null),
     loadJson('abonnes.json', {}),
+    loadJson('couts.json', {}),
   ]);
   const rapports = await loadJson('rapports/index.json', []);
-  const instantane = construire({ history, queue, mesures, rapports, maintenant: contexte.now ?? Date.now(), controls, lieux, releves });
+  const instantane = construire({ history, queue, mesures, rapports, maintenant: contexte.now ?? Date.now(), controls, lieux, releves, couts });
   await saveJson('pilotage.json', instantane);
   return instantane;
 }

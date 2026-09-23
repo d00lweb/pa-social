@@ -1,11 +1,12 @@
 import Anthropic from '@anthropic-ai/sdk';
 import { zodOutputFormat } from '@anthropic-ai/sdk/helpers/zod';
 import { DossierSchema } from './schema.mjs';
+import { enregistrer } from './couts.mjs';
 
 let client;
 
 // Un appel Claude : sortie JSON contrainte par le schéma, repli serveur automatique en cas de refus
-export async function askEditor({ system, payload, model, effort }) {
+export async function askEditor({ system, payload, model, effort, quoi = 'dossier' }) {
   client ??= new Anthropic();
   const response = await client.beta.messages.create({
     model,
@@ -16,6 +17,9 @@ export async function askEditor({ system, payload, model, effort }) {
     output_config: { effort, format: zodOutputFormat(DossierSchema) },
     messages: [{ role: 'user', content: JSON.stringify(payload, null, 1) }],
   });
+
+  // tout appel est compté, réussi ou non : c'est facturé dans les deux cas
+  await enregistrer({ modele: response.model, usage: response.usage, quoi });
 
   if (response.stop_reason === 'refusal') throw new Error('refus du modèle');
   if (response.stop_reason === 'max_tokens') throw new Error('réponse tronquée');

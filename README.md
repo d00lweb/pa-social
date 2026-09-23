@@ -20,11 +20,12 @@ Republication automatique des articles de **Passion Aquitaine** (passion-aquitai
 6. [Configuration (.env)](#configuration-env)
 7. [Opérations courantes](#opérations-courantes)
 8. [Reprise sur un nouveau poste](#reprise-sur-un-nouveau-poste)
-9. [Refaire les jetons Meta (Facebook + Instagram)](#refaire-les-jetons-meta-facebook--instagram)
-10. [Dépannage : problèmes déjà rencontrés](#dépannage--problèmes-déjà-rencontrés)
-11. [Limites connues et pistes](#limites-connues-et-pistes)
-12. [Structure du code](#structure-du-code)
-13. [Journal des évolutions](#journal-des-évolutions)
+9. [Coût de l'IA : relevé, pas estimé](#coût-de-lia--relevé-pas-estimé)
+10. [Refaire les jetons Meta (Facebook + Instagram)](#refaire-les-jetons-meta-facebook--instagram)
+11. [Dépannage : problèmes déjà rencontrés](#dépannage--problèmes-déjà-rencontrés)
+12. [Limites connues et pistes](#limites-connues-et-pistes)
+13. [Structure du code](#structure-du-code)
+14. [Journal des évolutions](#journal-des-évolutions)
 
 ---
 
@@ -454,6 +455,15 @@ La production ne dépend pas du poste : elle tourne entièrement sur GitHub et o
 
 ---
 
+## Coût de l'IA : relevé, pas estimé
+
+Chaque appel au rédacteur IA est compté dans `state/couts.json` : jetons d'entrée, de sortie, de cache, modèle, et coût calculé sur la grille publique Anthropic. La page `pilotage.html` en fait une vue — aujourd'hui, 7 jours, mois en cours, projection, coût moyen par appel, courbe sur 14 jours.
+
+- **Pourquoi mesurer plutôt qu'estimer :** le 23/09/2026, une estimation à la main annonçait 3,2 centimes par appel ; la mesure en a donné **5,5**. L'écart venait de l'entrée sous-évaluée (6 400 jetons réels contre 3 250 estimés) et surtout de la **réflexion du modèle, facturée avec la sortie**. Un article peut aussi demander jusqu'à 3 appels (nouvelle tentative si le dossier ne passe pas les contrôles).
+- **Ce que le relevé couvre :** tous les appels, réussis ou non — un refus ou un JSON hors schéma est facturé aussi. Il démarre le jour de sa mise en service ; les dépenses antérieures ne sont visibles que dans la console Anthropic.
+- **Tarifs** (`src/brain/couts.mjs`, relevés le 23/09/2026, en $ par million de jetons) : Opus 5 — 5 entrée / 25 sortie ; Sonnet 5 — 2 / 10 ; Haiku 4.5 — 1 / 5. Lecture de cache 10 % du prix d'entrée, écriture 125 %. À corriger ici si la grille change.
+- **La vue est locale** : elle n'apparaît que dans `pilotage.html`, jamais sur la page publique de l'équipe.
+
 ## Refaire les jetons Meta (Facebook + Instagram)
 
 **Quand :** alerte Telegram « 🔑 Jeton refusé », ou `npm run meta:check` en échec. Un jeton Meta peut mourir **avant son échéance** : changement de mot de passe, déconnexion de toutes les sessions, contrôle de sécurité Meta, app retirée dans « Intégrations professionnelles », ou session de l'Explorateur d'API renouvelée. Le message est alors *« The session has been invalidated… »* (code 190, **sous-code 460**).
@@ -629,6 +639,7 @@ Dépendances : `fast-xml-parser`, `sharp`, `playwright`, `basic-ftp`. Node 24, E
 | 18/09/2026 | Page de l'équipe, mise en page : en-tête plus compact, répartition des cinq réseaux sur une seule rangée, **les cinq comptes sur une même ligne** (la courbe cède la place à l'évolution chiffrée : 7 derniers jours et depuis le début du suivi, en nombre et en %), « En direct · à jour à » donne l'heure de la dernière vérification de la page, textes des sections sur toute la largeur. |
 | 23/09/2026 | **Jeton Meta invalidé sans préavis** (code 190, sous-code 460 : mot de passe changé ou session coupée par Meta) alors que `state/jetons.json` annonçait encore 86 jours restants. Deux correctifs : un jeton refusé **ne consomme plus d'essai** — la publication est reportée d'heure en heure (48 au plus) et repart seule dès le jeton remplacé, au lieu d'être abandonnée au 3ᵉ échec ; la surveillance lit la **validité** et non plus seulement l'échéance, rappelle le jeton refusé chaque jour, revérifie à chaque passage tant qu'il l'est, et ne marque le passage en échec qu'une fois par jour. |
 | 23/09/2026 | Procédure complète « Refaire les jetons Meta » (voie rapide par l'Explorateur d'API, voie durable par utilisateur système, mise en service et pièges connus) et commande `npm run meta:check` : contrôle en lecture seule des deux jetons Meta, de la Page, du compte Instagram, de Threads et de Bluesky, sans jamais afficher de jeton. |
+| 23/09/2026 | **Coût réel de l'IA relevé appel par appel** (`src/brain/couts.mjs` → `state/couts.json`, vue dans `pilotage.html` : jour, 7 jours, mois, projection, coût moyen, courbe 14 jours). Une estimation annonçait 3,2 centimes par appel ; la mesure en donne 5,5 — l'entrée était sous-évaluée et la réflexion du modèle, facturée en sortie, n'était pas comptée. |
 | 17/09/2026 | Pilotage épuré et vivant : plus d'historique ni de feuille de route dans la page, les aperçus montrent **les derniers articles réellement publiés** (texte et visuel capturés au moment du post), et seules les prochaines publications sont listées. Renouvellement automatique du jeton Threads par `maintenance.yml` (nécessite le secret `GH_PAT`). |
 | 17/09/2026 | Étape 9 : mesure et rapports. Relevés J+1 et J+7, rapport Telegram le lundi, rapports mensuels, surveillance des jetons, et pilotage qui lit l'état réel à chaque ouverture. **Les conseils ne sont jamais appliqués sans validation.** |
 | 17/09/2026 | **Facebook et Threads en production.** Les cinq réseaux sont actifs. Piège rencontré : le générateur de jetons du tableau de bord Meta délivre déjà un jeton Threads de 60 jours, que l'échange refuse (« Session key invalid ») — la mise en service gère désormais les deux cas. Jeton Threads à renouveler avant le 16/11/2026. |

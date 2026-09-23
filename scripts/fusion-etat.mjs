@@ -54,7 +54,7 @@ export function fusionnerDossiers(localDir) {
   // l'exécution, la plus récente. Sans cette liste, une course entre deux passages les effacerait.
   // Les lieux appris ne font que croître et se retrouvent en relisant la page : un écrasement
   // occasionnel se rattrape tout seul au passage suivant.
-  for (const nom of ['memory.json', 'controls.json', 'telegram.json', 'mesures.json', 'pilotage.json', 'jetons.json', 'lieux-appris.json', 'abonnes.json', 'mois-publics.json']) {
+  for (const nom of ['memory.json', 'controls.json', 'telegram.json', 'mesures.json', 'pilotage.json', 'jetons.json', 'lieux-appris.json', 'abonnes.json', 'mois-publics.json', 'couts.json']) {
     const valeur = lire(localDir, nom, null);
     if (valeur !== null) ecrire(nom, valeur);
   }

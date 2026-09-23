@@ -197,7 +197,11 @@
         "fresque",
         "troglodyte",
         "tour",
-        "villa"
+        "villa",
+        "fresques",
+        "vestige",
+        "donjon",
+        "remparts"
       ]
     },
     {
@@ -217,7 +221,16 @@
         "faune",
         "flore",
         "hippocampe",
-        "brebis"
+        "brebis",
+        "dauphin",
+        "baleine",
+        "loup",
+        "girafe",
+        "zoo",
+        "frelon",
+        "océan",
+        "sentier",
+        "gouf"
       ]
     },
     {
@@ -233,7 +246,13 @@
         "chocolat",
         "recette",
         "chef",
-        "vignoble"
+        "vignoble",
+        "brunch",
+        "menu",
+        "déjeuner",
+        "table",
+        "bistrot",
+        "cave"
       ]
     },
     {
@@ -247,7 +266,12 @@
         "marathon",
         "triathlon",
         "match",
-        "Girondins"
+        "Girondins",
+        "trail",
+        "ultra",
+        "course",
+        "cycliste",
+        "voile"
       ]
     },
     {
@@ -261,7 +285,17 @@
         "théâtre",
         "artiste",
         "livre",
-        "spectacle"
+        "spectacle",
+        "danse",
+        "danseur",
+        "danseurs",
+        "cancan",
+        "record du monde",
+        "carnaval",
+        "fanfare",
+        "bal",
+        "défilé",
+        "musée vivant"
       ]
     },
     {
@@ -291,7 +325,13 @@
         "road trip",
         "balade",
         "randonnée",
-        "ville"
+        "ville",
+        "lodge",
+        "insolite",
+        "nuit",
+        "dormir",
+        "cabane",
+        "escapade"
       ]
     }
   ],

@@ -62,3 +62,28 @@ test('Facebook : un retour à la ligne est refusé par les contrôles', async ()
   assert.ok(!checkDossier(dossier(dUneLigne), ctx).some((p) => p.includes('retour à la ligne')), 'une phrase d’un bloc passe');
   assert.ok(checkDossier(dossier(`${dUneLigne}\nOrigine et usages.`), ctx).some((p) => p.includes('retour à la ligne')), 'deux lignes sont refusées');
 });
+
+test('Facebook sans IA : le repli n’est plus le titre, et l’emoji n’est pas posé au hasard', async () => {
+  const { fallbackDossier, accrocheFacebook } = await import('../src/brain/fallback.mjs');
+  // 23/09/2026 : « 200 danseurs pour un French Cancan géant sur le Miroir d’Eau 📍 » — le titre,
+  // que la carte d’aperçu affiche déjà juste en dessous, avec un emoji passe-partout.
+  const article = {
+    title: 'À Bordeaux, 200 danseurs pour un French Cancan géant sur le Miroir d’Eau',
+    description: 'Le 30 septembre 2026, plus de 200 danseurs tentent un record du monde de French Cancan sur le Miroir d’eau de Bordeaux.',
+    categories: ['Bordeaux'], link: 'https://site.fr/a', guid: 'g', date: Date.now(),
+  };
+  const texte = fallbackDossier(article).facebook.texte;
+  assert.notEqual(texte.replace(/\s\p{Extended_Pictographic}$/u, ''), article.title, 'le texte ne redit pas le titre');
+  assert.ok([...texte].length <= ed.limits.facebook, `${[...texte].length} caractères`);
+  assert.doesNotMatch(texte, /[\r\n]/, 'une seule phrase');
+  assert.match(texte, /🎭$/, 'emoji du thème reconnu (danse, record du monde)');
+
+  // la phrase retenue est celle qui accroche, pas forcément la première
+  const accroche = accrocheFacebook({
+    titre: 'Ces dauphins ne sont pas bon signe',
+    description: 'Les dauphins émerveillent les promeneurs. Une biologiste marine y voit pourtant un signal d’alerte.',
+    emoji: null, max: 140,
+  });
+  assert.match(accroche, /pourtant/, 'le renversement l’emporte sur la première phrase');
+  assert.doesNotMatch(accroche, /\p{Extended_Pictographic}/u, 'sans thème reconnu, pas d’emoji plutôt qu’un emoji creux');
+});

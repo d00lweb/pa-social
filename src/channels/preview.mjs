@@ -1,5 +1,5 @@
 import { NAMES } from '../core/control.mjs';
-import { composeX, facebookComment } from '../brain/compose.mjs';
+import { composeX } from '../brain/compose.mjs';
 import { postText, modeFor } from './bluesky.mjs';
 
 export const esc = (s) => String(s ?? '').replace(/[&<>]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' })[c]);
@@ -11,7 +11,7 @@ export function buildPreviewText({ article, dossier, caption, items, published =
   const awaiting = items.some((i) => i.status === 'awaiting');
   const blocks = [
     ['instagram', caption],
-    ['facebook', `${dossier.facebook.texte}\n[1er commentaire : ${facebookComment(article, dossier)}]`],
+    ['facebook', `${dossier.facebook.texte}\n[carte d’aperçu : ${article.link}]`],
     ['bluesky', `${postText(dossier, modeFor(article.guid))}\n[${{ card: 'carte de lien', image: 'image 4:5, lien sur « Lire l’article »', reply: 'image 4:5, lien en réponse' }[modeFor(article.guid)]}]`],
     ['threads', `${dossier.threads.texte}${dossier.threads.sujet ? `\n[sujet : ${dossier.threads.sujet}]` : ''}`],
     ['x', composeX(dossier, article.link)],

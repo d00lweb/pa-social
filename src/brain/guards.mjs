@@ -80,6 +80,9 @@ export function checkDossier(d, { source, limits, stopwords, genericCategories, 
     if (!text?.trim()) problems.push(`${net} : texte vide`);
     if (graphemes(text) > max[net]) problems.push(`${net} : ${graphemes(text)} caractères (${max[net]} max)`);
     if (/https?:\/\/|www\./i.test(text)) problems.push(`${net} : pas de lien dans le texte`);
+    // Facebook : le texte est lu d'un bloc, au-dessus de la carte d'aperçu. Un retour à la ligne
+    // pousse la suite derrière « Voir plus » (environ 125 caractères visibles sur mobile).
+    if (net === 'facebook' && /[\r\n]/.test(text)) problems.push('facebook : une seule phrase, sans retour à la ligne');
     // emojis : au moins 1, plafond par réseau ; sujet sensible : un seul, sobre ; pas les mêmes que les derniers posts
     const found = extractEmojis(text);
     const [emin, emax] = [].concat(limits.emoji?.[net] ?? [0, 0]).concat(limits.emoji?.[net] ?? 0).slice(0, 2);

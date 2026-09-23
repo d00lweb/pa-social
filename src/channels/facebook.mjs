@@ -1,25 +1,17 @@
-import { writeFile, mkdir } from 'node:fs/promises';
-import { createHash } from 'node:crypto';
-import sharp from 'sharp';
-import { splitAround } from '../brain/editorial.mjs';
-import { facebookComment } from '../brain/compose.mjs';
-import { loadSource, cropTo, toMetaJpeg, SLIDE } from '../media/crop.mjs';
-import { createRenderer } from '../media/render.mjs';
-import { uploadFiles, assertPublic } from '../storage/ftp.mjs';
 import { GraphError } from './meta-graph.mjs';
-import { alert } from './telegram.mjs';
-import { jitter } from '../core/scheduler.mjs';
 import { GuardError } from '../core/errors.mjs';
-import { config, fromRoot } from '../core/config.mjs';
 
-// Facebook : une seule image 4:5, texte court sans lien, et l'URL en premier commentaire.
+// Facebook : publication avec lien. Le texte tient en une phrase, et Facebook fabrique sous lui
+// une carte d'aperçu (image, titre, domaine) à partir des balises Open Graph de l'article.
+//
+// Pourquoi ce format, décidé le 23/09/2026 : les huit premières publications — visuel 4:5 habillé,
+// texte reprenant le titre, lien en premier commentaire — ont fait 0 réaction et 0 clic. Le lien en
+// commentaire n'est plus qu'une légende de 2018 ; surtout, il obligeait à ouvrir les commentaires
+// pour trouver l'article. Ici, la carte reste cliquable en entier, même quand le texte est replié
+// derrière « Voir plus ».
 export const id = 'facebook';
 
-const SIZE = [1440, 1800]; // 4:5
-const DEFAULT_PUBLIC = 'https://passion-aquitaine.ouest-france.fr/social';
-const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
-
-function client({ pageId, token, version }) {
+function client({ token, version }) {
   const base = `https://graph.facebook.com/${version || 'v23.0'}`;
   return async function call(chemin, params = {}) {
     const res = await fetch(`${base}/${chemin}`, { method: 'POST', body: new URLSearchParams({ ...params, access_token: token }) });
@@ -38,85 +30,43 @@ async function lienDuPost(postId, { token, version }) {
   return json.permalink_url ?? null;
 }
 
-export async function prepare(article, { dossier, renderer: shared, log = console.log } = {}) {
-  if (!article.image) throw new GuardError(article, ['aucune image (enclosure) dans le flux']);
+// Ce qui part réellement à Facebook. Fonction pure : c'est elle que les tests vérifient.
+export function parametres(pkg) {
+  const params = { message: pkg.text, link: pkg.lien, published: 'true' };
+  if (pkg.lieu?.id) params.place = String(pkg.lieu.id);
+  return params;
+}
+
+export async function prepare(article, { dossier, log = console.log } = {}) {
   const texte = dossier.facebook?.texte?.trim();
   if (!texte) throw new GuardError(article, ['texte Facebook vide']);
-  // le lien vit dans le commentaire : dans le corps, il ferait chuter la portée
-  if (/https?:\/\//.test(texte)) throw new GuardError(article, ['lien dans le texte Facebook : il doit rester en commentaire']);
-
-  const source = await loadSource(article.image);
-  const renderer = shared ?? (await createRenderer());
-  let visual;
-  try {
-    const photo = await cropTo(source, SLIDE);
-    visual = await renderer.render('slide1', {
-      rubrique: dossier.rubrique,
-      ...splitAround(dossier.visuel.titre, dossier.visuel.surlignage),
-      photo: photo.buffer,
-      darken: photo.darken,
-    });
-  } finally {
-    if (!shared) await renderer.close();
-  }
-  if (!visual.title.fits) throw new GuardError(article, ['titre trop long pour le visuel Facebook']);
-
-  const buffer = await toMetaJpeg(await sharp(visual.buffer).resize(SIZE[0], SIZE[1], { kernel: 'lanczos3' }).png().toBuffer());
-  const stamp = new Date(article.date).toISOString().slice(0, 10).replaceAll('-', '');
-  const name = `${stamp}-${createHash('sha1').update(article.guid).digest('hex').slice(0, 8)}-fb.jpg`;
-  await mkdir(fromRoot('out'), { recursive: true });
-  await writeFile(fromRoot('out', name), buffer);
+  // le lien est porté par la carte d'aperçu : dans le texte, il ferait doublon et mangerait la place
+  if (/https?:\/\//.test(texte)) throw new GuardError(article, ['lien dans le texte Facebook : il est ajouté par la carte d’aperçu']);
+  // un retour à la ligne pousse la fin du texte derrière « Voir plus » : une seule phrase, d'un bloc
+  if (/[\r\n]/.test(texte)) throw new GuardError(article, ['retour à la ligne dans le texte Facebook : une seule phrase']);
+  if (!article.link) throw new GuardError(article, ['aucun lien d’article à publier']);
 
   const lieu = dossier.lieu ?? null;
-  log(`   Facebook : image ${SIZE.join('×')}, ${[...texte].length} caractères${lieu ? `, lieu ${lieu.nom}` : ''}`);
-  return { article, dossier, files: [{ name, buffer }], text: texte, comment: facebookComment(article, dossier), lieu };
+  log(`   Facebook : lien + aperçu, ${[...texte].length} caractères${lieu ? `, lieu ${lieu.nom}` : ''}`);
+  return { article, dossier, text: texte, lien: article.link, lieu, files: [] };
 }
 
-// Dépôt FTP puis vérification de l'URL publique : Meta télécharge l'image depuis notre site
-export async function stage(pkg) {
-  await uploadFiles(pkg.files, {
-    host: process.env.SFTP_HOST,
-    user: process.env.SFTP_USER,
-    pass: process.env.SFTP_PASS,
-    dir: process.env.SFTP_DIR,
-  });
-  const base = (process.env.PUBLIC_BASE_URL || DEFAULT_PUBLIC).replace(/\/+$/, '');
-  const url = `${base}/${pkg.files[0].name}`;
-  await assertPublic(url);
-  return url;
-}
-
-export async function publish(pkg, { channel } = {}) {
-  const call = client({ pageId: process.env.FB_PAGE_ID, token: process.env.FB_TOKEN, version: process.env.GRAPH_VERSION });
+export async function publish(pkg) {
+  const call = client({ token: process.env.FB_TOKEN, version: process.env.GRAPH_VERSION });
   const pageId = process.env.FB_PAGE_ID;
-  const url = await stage(pkg);
+  const params = parametres(pkg);
 
-  const params = { url, caption: pkg.text, published: 'true' };
-  // description pour les lecteurs d'écran : Facebook la conserve telle quelle
-  if (pkg.dossier?.visuel?.texte_alternatif) params.alt_text_custom = pkg.dossier.visuel.texte_alternatif;
-  if (pkg.lieu?.id) params.place = String(pkg.lieu.id);
   let reponse;
   try {
-    reponse = await call(`${pageId}/photos`, params);
+    reponse = await call(`${pageId}/feed`, params);
   } catch (err) {
     // un lieu devenu invalide ne doit pas empêcher la publication
     if (!params.place) throw err;
     console.error(`   Lieu abandonné : ${err.message}`);
     delete params.place;
-    reponse = await call(`${pageId}/photos`, params);
+    reponse = await call(`${pageId}/feed`, params);
   }
   const postId = reponse.post_id ?? reponse.id;
   const lien = await lienDuPost(postId, { token: process.env.FB_TOKEN, version: process.env.GRAPH_VERSION }).catch(() => null);
-
-  // Le lien part en commentaire, 1 à 3 minutes plus tard : jamais dans le même souffle que le post.
-  // Un échec ici ne doit surtout pas faire réessayer la publication, qui est déjà en ligne.
-  try {
-    await sleep(jitter(channel?.commentDelayMinutes ?? [1, 3]));
-    await call(`${postId}/comments`, { message: pkg.comment });
-    console.log('   Commentaire publié');
-  } catch (err) {
-    console.error(`   Commentaire non publié : ${err.message}`);
-    await alert(`⚠️ Facebook : post publié mais commentaire (lien) non posté\n${pkg.article.title}\n${pkg.comment}`).catch(() => {});
-  }
   return { mediaId: postId, lien };
 }

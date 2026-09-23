@@ -127,7 +127,12 @@ test('contrôles : placement de l’emoji imposé, rotation par réseau', async 
   nextAngles(memory, ed.angles, ed.networks);
   const second = nextEmojiPositions(memory, ed.emojiPositions, ed.networks);
   assert.notEqual(first.instagram, second.instagram);
-  assert.ok(new Set(Object.values(first)).size >= 4);
+  // les placements restent variés d'un réseau à l'autre ; une répétition est possible depuis que
+  // Facebook est tenu à l'écart de la position « en tête » (ses 125 premiers caractères sont comptés)
+  assert.ok(new Set(Object.values(first)).size >= 3);
+  for (const memory of [{ angleIndex: 0 }, { angleIndex: 1 }, { angleIndex: 2 }, { angleIndex: 3 }]) {
+    assert.notEqual(nextEmojiPositions(memory, ed.emojiPositions, ed.networks).facebook, 'en tête du texte', 'jamais d’emoji en ouverture sur Facebook');
+  }
 });
 
 test('contrôles : questions limitées, appâts et point avant emoji refusés', () => {

@@ -1,10 +1,15 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
-import { facebookComment } from '../src/brain/compose.mjs';
+import { parametres } from '../src/channels/facebook.mjs';
 import { fromRoot } from '../src/core/config.mjs';
 
 const config = JSON.parse(readFileSync(fromRoot('config/channels.json'), 'utf8'));
+const ed = JSON.parse(readFileSync(fromRoot('config/editorial.json'), 'utf8'));
+
+// 23/09/2026 : les huit premières publications Facebook — visuel habillé, texte reprenant le titre,
+// lien en premier commentaire — ont fait 0 réaction et 0 clic. Le format devient une publication
+// avec lien : une phrase, puis la carte d'aperçu que Facebook fabrique depuis l'article.
 
 test('Facebook : inactif tant que le jeton de Page manque', () => {
   const fb = config.channels.facebook;
@@ -18,27 +23,42 @@ test('Facebook : deux posts par jour au plus, un le matin, un en fin de journée
   const [[debutMatin, finMatin], [debutSoir, finSoir]] = fb.creneaux;
   assert.equal(fb.maxPerDay, 2);
   assert.ok(h(finMatin) <= 12 && h(debutSoir) >= 18, 'un créneau le matin, un en fin de journée');
-  // l'ancienne garantie de 3 h d'écart est tenue, et largement : plus de 10 h entre les deux créneaux
   assert.ok(h(debutSoir) - h(finMatin) >= 3, 'toujours plus de 3 h entre deux posts Facebook');
   assert.equal(fb.quietHours.start, 22);
   assert.equal(fb.quietHours.end, 8);
   assert.ok(h(debutMatin) >= fb.quietHours.end && h(finSoir) <= fb.quietHours.start, 'aucun créneau pendant la nuit');
-  const [tot, tard] = fb.commentDelayMinutes;
-  assert.ok(tot >= 1 && tard <= 5, 'le commentaire suit le post de 1 à 3 minutes, jamais instantanément');
+  assert.equal(fb.commentDelayMinutes, undefined, 'plus de lien en commentaire : il est dans la carte d’aperçu');
 });
 
-test('Facebook : le lien est dans le commentaire, précédé d’une formule variable', () => {
-  const article = { guid: 'g1', link: 'https://site.fr/a' };
-  const commentaire = facebookComment(article, { facebook: { commentLead: '📖 L’article complet :' } });
-  assert.equal(commentaire, '📖 L’article complet : https://site.fr/a');
-  // sans formule imposée, elle reste stable pour un même article
-  const sansDossier = facebookComment(article, {});
-  assert.match(sansDossier, /^\S+ .+ https:\/\/site\.fr\/a$/u);
-  assert.equal(sansDossier, facebookComment(article, {}));
+test('Facebook : le lien part avec le post, et le lieu quand il est connu', () => {
+  const pkg = { text: 'Une phrase qui donne envie de cliquer 🐬', lien: 'https://site.fr/a', lieu: { id: '123', nom: 'Hossegor' } };
+  assert.deepEqual(parametres(pkg), { message: pkg.text, link: 'https://site.fr/a', published: 'true', place: '123' });
+  assert.equal(parametres({ ...pkg, lieu: null }).place, undefined, 'sans lieu, aucun paramètre de lieu');
 });
 
-test('Facebook : le texte du dossier tient sans « Voir plus » et ne porte aucun lien', () => {
-  const ed = JSON.parse(readFileSync(fromRoot('config/editorial.json'), 'utf8'));
-  assert.equal(ed.limits.facebook, 120, 'lu en entier sur mobile');
-  assert.deepEqual(ed.limits.emoji.facebook, [1, 2]);
+test('Facebook : une seule phrase courte, un seul emoji', () => {
+  assert.equal(ed.limits.facebook, 140, 'l’essentiel reste visible avant « Voir plus »');
+  assert.deepEqual(ed.limits.emoji.facebook, [1, 1], 'un emoji, choisi pour le sujet');
+  const consigne = readFileSync(fromRoot('prompts/editorial.md'), 'utf8').match(/- `facebook\.texte` :.*/)[0];
+  assert.match(consigne, /sans aucun retour à la ligne/);
+  assert.match(consigne, /donner envie de cliquer/);
+  assert.match(consigne, /uniquement si `questions_autorisees\.facebook` est vrai/, 'la question n’est pas systématique');
+});
+
+test('Facebook : un retour à la ligne est refusé par les contrôles', async () => {
+  const { checkDossier } = await import('../src/brain/guards.mjs');
+  const source = 'Pourquoi Bordeaux parle désormais de « matrimoine »\nLe mot matrimoine, plus vieux que patrimoine, resurgit à Bordeaux.\nBordeaux, Culture';
+  const dossier = (texte) => ({
+    nature: 'evergreen', sensible: false, rubrique: 'Bordeaux',
+    visuel: { titre: 'Pourquoi Bordeaux parle désormais de « matrimoine »', surlignage: 'matrimoine', description: 'Plus ancien que patrimoine, le matrimoine revient à Bordeaux, porté par les festivals.', texte_alternatif: 'Bordeaux : pourquoi la ville parle de matrimoine' },
+    instagram: { texte: 'Un mot plus vieux que patrimoine refait surface 👀\nÀ Bordeaux, festivals et histoire lui redonnent vie.', hashtags: ['#Bordeaux', '#Matrimoine', '#Histoire'] },
+    facebook: { texte },
+    bluesky: { texte: 'Plus ancien que « patrimoine », le mot matrimoine resurgit depuis plusieurs années dans la vie culturelle bordelaise 🏛️ Origine et usages.', hashtag: '#Bordeaux' },
+    threads: { texte: 'On parle beaucoup de patrimoine. Et si son jumeau oublié revenait ? 🎭 À Bordeaux, les festivals remettent le matrimoine au centre.', sujet: 'Bordeaux' },
+    x: { texte: 'Matrimoine : le mot oublié que Bordeaux remet à l’honneur 🎭' },
+  });
+  const ctx = { ...ed, source, knownNames: ed.knownNames };
+  const dUneLigne = 'Le matrimoine, plus vieux que le patrimoine, revient dans les festivals bordelais 🎭';
+  assert.ok(!checkDossier(dossier(dUneLigne), ctx).some((p) => p.includes('retour à la ligne')), 'une phrase d’un bloc passe');
+  assert.ok(checkDossier(dossier(`${dUneLigne}\nOrigine et usages.`), ctx).some((p) => p.includes('retour à la ligne')), 'deux lignes sont refusées');
 });

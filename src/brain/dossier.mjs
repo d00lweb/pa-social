@@ -7,7 +7,6 @@ import { resolvePlace, candidateZones, placeNames } from './geo.mjs';
 import { checkDossier } from './guards.mjs';
 import { fallbackDossier } from './fallback.mjs';
 import { nextAngles, nextEmojiPositions } from './memory.mjs';
-import { nextCommentLead } from './compose.mjs';
 
 const ed = JSON.parse(readFileSync(fromRoot('config/editorial.json'), 'utf8'));
 const system = readFileSync(fromRoot('prompts/editorial.md'), 'utf8');
@@ -78,7 +77,6 @@ export async function buildDossier(article, { memory, useCache = false, log = co
       const cached = JSON.parse(await readFile(cacheFile, 'utf8'));
       log(`   Dossier (cache ${cached.source}) : ${article.title}`);
       const ready = typeset(cached);
-      ready.facebook.commentLead ??= nextCommentLead(memory);
       ready.cached = true; // aucun appel IA facturé
       return ready;
     } catch {
@@ -116,7 +114,6 @@ export async function buildDossier(article, { memory, useCache = false, log = co
     const finaliser = async (d, note) => {
       const final = {
         ...d,
-        facebook: { ...d.facebook, commentLead: nextCommentLead(memory) },
         source: 'ia',
         model: result.model,
         usage: { input: result.usage.input_tokens, output: result.usage.output_tokens },

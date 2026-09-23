@@ -1,16 +1,16 @@
 {
   "2026-09-23": {
-    "appels": 1,
-    "entree": 6233,
-    "sortie": 894,
+    "appels": 13,
+    "entree": 87376,
+    "sortie": 11469,
     "cacheLu": 0,
     "cacheEcrit": 0,
-    "cout": 0.053515,
+    "cout": 0.723605,
     "parModele": {
-      "claude-opus-5": 1
+      "claude-opus-5": 13
     },
     "parUsage": {
-      "dossier": 1
+      "dossier": 13
     }
   }
 }

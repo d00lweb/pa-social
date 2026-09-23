@@ -1,16 +1,65 @@
 {
   "model": "claude-opus-5",
   "effort": "low",
-  "promptVersion": 7,
-  "emojiPositions": ["en tête du texte", "à la fin de la première phrase", "devant l'information clé", "en fin de texte"],
-  "sensitiveEmojis": ["📍", "🗞️", "📰", "ℹ️"],
-  "fallbackEmojis": { "Patrimoine": "🏛️", "Nature": "🌿", "Gastronomie": "🍽️", "Sport": "🏅", "Culture": "🎭", "Économie": "💶", "Tourisme": "🧳", "default": "📍" },
+  "promptVersion": 8,
+  "emojiPositions": [
+    "en tête du texte",
+    "à la fin de la première phrase",
+    "devant l'information clé",
+    "en fin de texte"
+  ],
+  "sensitiveEmojis": [
+    "📍",
+    "🗞️",
+    "📰",
+    "ℹ️"
+  ],
+  "fallbackEmojis": {
+    "Patrimoine": "🏛️",
+    "Nature": "🌿",
+    "Gastronomie": "🍽️",
+    "Sport": "🏅",
+    "Culture": "🎭",
+    "Économie": "💶",
+    "Tourisme": "🧳",
+    "default": "📍"
+  },
   "questionEvery": 3,
-  "baitPatterns": ["le saviez-vous", "saviez-vous", "vous ne le saviez", "commentez", "en commentaire", "dites-nous", "partagez", "taguez", "identifiez un", "identifiez vos", "likez", "aimez si", "réagissez", "abonnez-vous", "cliquez", "tapez oui", "votez"],
-  "facebookCommentLeads": ["📖 L'article complet :", "👉 Tous les détails :", "📰 À lire ici :", "🔎 Pour tout savoir :", "📍 L'histoire complète :"],
+  "baitPatterns": [
+    "le saviez-vous",
+    "saviez-vous",
+    "vous ne le saviez",
+    "commentez",
+    "en commentaire",
+    "dites-nous",
+    "partagez",
+    "taguez",
+    "identifiez un",
+    "identifiez vos",
+    "likez",
+    "aimez si",
+    "réagissez",
+    "abonnez-vous",
+    "cliquez",
+    "tapez oui",
+    "votez"
+  ],
+  "facebookCommentLeads": [
+    "📖 L'article complet :",
+    "👉 Tous les détails :",
+    "📰 À lire ici :",
+    "🔎 Pour tout savoir :",
+    "📍 L'histoire complète :"
+  ],
   "instagramCaptionSource": "ai",
   "memorySize": 10,
-  "networks": ["instagram", "facebook", "bluesky", "threads", "x"],
+  "networks": [
+    "instagram",
+    "facebook",
+    "bluesky",
+    "threads",
+    "x"
+  ],
   "angles": [
     "question intrigante",
     "chiffre ou fait marquant en tête",
@@ -27,36 +76,255 @@
     "slideText": 220,
     "instagramText": 700,
     "instagramFirstLine": 125,
-    "facebook": 120,
+    "facebook": 140,
     "bluesky": 260,
     "threads": 450,
     "threadsTopic": 50,
     "x": 230,
     "altText": 300,
-    "emoji": { "instagram": [1, 3], "facebook": [1, 2], "threads": [1, 2], "x": [1, 2], "bluesky": [1, 1] }
+    "emoji": {
+      "instagram": [
+        1,
+        3
+      ],
+      "facebook": [
+        1,
+        1
+      ],
+      "threads": [
+        1,
+        2
+      ],
+      "x": [
+        1,
+        2
+      ],
+      "bluesky": [
+        1,
+        1
+      ]
+    }
   },
   "similarityMax": 0.5,
   "memorySimilarityMax": 0.5,
-  "genericCategories": ["actus", "actu", "actualites", "actualite", "a la une", "non classe", "divers"],
+  "genericCategories": [
+    "actus",
+    "actu",
+    "actualites",
+    "actualite",
+    "a la une",
+    "non classe",
+    "divers"
+  ],
   "internalCategoryPattern": "\\bLOI$",
   "stopwords": [
-    "de", "du", "des", "d’", "le", "la", "les", "l’", "un", "une", "d’un", "d’une",
-    "à", "au", "aux", "en", "par", "pour", "sur", "dans", "avec", "sans", "sous", "entre", "chez", "vers",
-    "et", "ou", "mais", "donc", "qui", "que", "qu’", "dont", "où",
-    "ce", "cet", "cette", "ces", "son", "sa", "ses", "leur", "leurs", "notre", "votre",
-    "plus", "moins", "très", "trop", "bien", "déjà", "encore", "aussi", "an", "ans", "fois", "y", "a", "est", "sont"
+    "de",
+    "du",
+    "des",
+    "d’",
+    "le",
+    "la",
+    "les",
+    "l’",
+    "un",
+    "une",
+    "d’un",
+    "d’une",
+    "à",
+    "au",
+    "aux",
+    "en",
+    "par",
+    "pour",
+    "sur",
+    "dans",
+    "avec",
+    "sans",
+    "sous",
+    "entre",
+    "chez",
+    "vers",
+    "et",
+    "ou",
+    "mais",
+    "donc",
+    "qui",
+    "que",
+    "qu’",
+    "dont",
+    "où",
+    "ce",
+    "cet",
+    "cette",
+    "ces",
+    "son",
+    "sa",
+    "ses",
+    "leur",
+    "leurs",
+    "notre",
+    "votre",
+    "plus",
+    "moins",
+    "très",
+    "trop",
+    "bien",
+    "déjà",
+    "encore",
+    "aussi",
+    "an",
+    "ans",
+    "fois",
+    "y",
+    "a",
+    "est",
+    "sont"
   ],
   "themes": [
-    { "rubrique": "Patrimoine", "hashtag": "#Patrimoine", "match": ["château", "église", "abbaye", "tombeau", "monastère", "musée", "patrimoine", "romain", "médiéval", "fresque", "troglodyte", "tour", "villa"] },
-    { "rubrique": "Nature", "hashtag": "#Nature", "match": ["forêt", "animaux", "castor", "abeille", "oiseau", "plage", "dune", "lac", "rivière", "marais", "faune", "flore", "hippocampe", "brebis"] },
-    { "rubrique": "Gastronomie", "hashtag": "#Gastronomie", "match": ["restaurant", "boulangerie", "vin", "gastronomie", "fromage", "huître", "chocolat", "recette", "chef", "vignoble"] },
-    { "rubrique": "Sport", "hashtag": "#Sport", "match": ["rugby", "football", "basket", "surf", "marathon", "triathlon", "match", "Girondins"] },
-    { "rubrique": "Culture", "hashtag": "#Culture", "match": ["festival", "concert", "exposition", "cinéma", "théâtre", "artiste", "livre", "spectacle"] },
-    { "rubrique": "Économie", "hashtag": "#Economie", "match": ["prix", "emploi", "entreprise", "usine", "immobilier", "euros", "€", "chantier", "courses"] },
-    { "rubrique": "Tourisme", "hashtag": "#Tourisme", "match": ["vacances", "visite", "séjour", "camping", "hébergement", "road trip", "balade", "randonnée", "ville"] }
+    {
+      "rubrique": "Patrimoine",
+      "hashtag": "#Patrimoine",
+      "match": [
+        "château",
+        "église",
+        "abbaye",
+        "tombeau",
+        "monastère",
+        "musée",
+        "patrimoine",
+        "romain",
+        "médiéval",
+        "fresque",
+        "troglodyte",
+        "tour",
+        "villa"
+      ]
+    },
+    {
+      "rubrique": "Nature",
+      "hashtag": "#Nature",
+      "match": [
+        "forêt",
+        "animaux",
+        "castor",
+        "abeille",
+        "oiseau",
+        "plage",
+        "dune",
+        "lac",
+        "rivière",
+        "marais",
+        "faune",
+        "flore",
+        "hippocampe",
+        "brebis"
+      ]
+    },
+    {
+      "rubrique": "Gastronomie",
+      "hashtag": "#Gastronomie",
+      "match": [
+        "restaurant",
+        "boulangerie",
+        "vin",
+        "gastronomie",
+        "fromage",
+        "huître",
+        "chocolat",
+        "recette",
+        "chef",
+        "vignoble"
+      ]
+    },
+    {
+      "rubrique": "Sport",
+      "hashtag": "#Sport",
+      "match": [
+        "rugby",
+        "football",
+        "basket",
+        "surf",
+        "marathon",
+        "triathlon",
+        "match",
+        "Girondins"
+      ]
+    },
+    {
+      "rubrique": "Culture",
+      "hashtag": "#Culture",
+      "match": [
+        "festival",
+        "concert",
+        "exposition",
+        "cinéma",
+        "théâtre",
+        "artiste",
+        "livre",
+        "spectacle"
+      ]
+    },
+    {
+      "rubrique": "Économie",
+      "hashtag": "#Economie",
+      "match": [
+        "prix",
+        "emploi",
+        "entreprise",
+        "usine",
+        "immobilier",
+        "euros",
+        "€",
+        "chantier",
+        "courses"
+      ]
+    },
+    {
+      "rubrique": "Tourisme",
+      "hashtag": "#Tourisme",
+      "match": [
+        "vacances",
+        "visite",
+        "séjour",
+        "camping",
+        "hébergement",
+        "road trip",
+        "balade",
+        "randonnée",
+        "ville"
+      ]
+    }
   ],
   "defaultRubrique": "À découvrir",
   "regionHashtag": "#NouvelleAquitaine",
-  "bannedHashtags": ["#news", "#actu", "#actus", "#instagood", "#follow", "#like", "#viral", "#fyp"],
-  "knownNames": ["Passion Aquitaine", "Ouest-France", "Nouvelle-Aquitaine", "Aquitaine", "France", "Europe", "Instagram", "Facebook", "Vous", "Nous", "Ici", "Aujourd'hui", "Pourquoi", "Comment", "Découvrez", "Direction", "Bonne", "Entre"]
+  "bannedHashtags": [
+    "#news",
+    "#actu",
+    "#actus",
+    "#instagood",
+    "#follow",
+    "#like",
+    "#viral",
+    "#fyp"
+  ],
+  "knownNames": [
+    "Passion Aquitaine",
+    "Ouest-France",
+    "Nouvelle-Aquitaine",
+    "Aquitaine",
+    "France",
+    "Europe",
+    "Instagram",
+    "Facebook",
+    "Vous",
+    "Nous",
+    "Ici",
+    "Aujourd'hui",
+    "Pourquoi",
+    "Comment",
+    "Découvrez",
+    "Direction",
+    "Bonne",
+    "Entre"
+  ]
 }

@@ -91,7 +91,7 @@
   <section>
     <h2>Jour par jour</h2>
     <div class="panel" id="detail"><p class="vide">Chargement…</p></div>
-    <p class="hint">Ce tableau compte <b>tous</b> les appels de la clé, robot et mises au point lancées depuis un poste : c'est ce total que montre la console Anthropic. Les chiffres du haut, eux, ne suivent que le robot — c'est lui que le budget de 3 $ encadre.</p>
+    <p class="hint">Tous les chiffres de cette page comptent <b>tous</b> les appels de la clé — publications du robot et mises au point lancées depuis un poste — puisque tout est facturé sur le même compte. La pastille « dont… » indique la part de chacun.</p>
   </section>
 
   <section>
@@ -109,6 +109,8 @@
 <script>
   // Les données viennent du dépôt public, comme pour la page de pilotage : rien à installer.
   const SOURCE = 'https://raw.githubusercontent.com/d00lweb/pa-social/main/state/couts.json';
+  // Facturation relevée auprès d'Anthropic par « npm run couts:sync » : c'est elle qui fait foi.
+  const CONSOLE = 'https://raw.githubusercontent.com/d00lweb/pa-social/main/state/couts-console.json';
   const TARIFS = {
     'claude-opus-5': [5, 25], 'claude-opus-4-8': [5, 25],
     'claude-sonnet-5': [2, 10], 'claude-haiku-4-5': [1, 5],
@@ -125,8 +127,8 @@
   const decale = (jour, n) => cleJour(Date.parse(`${jour}T12:00:00Z`) + n * 86400e3);
   const appels = (n) => `${nf.format(n)} appel${n > 1 ? 's' : ''}`;
 
-  // un appel du robot fait tourner le média ; un appel lancé depuis un poste est une mise au point.
-  // Le budget ne suit que le premier : sinon une séance de réglages ressemble à une dérive.
+  // Les chiffres affichés sont ceux facturés par Anthropic : tout ce qui passe par la clé compte,
+  // robot comme mise au point. L'origine ne sert qu'à dire d'où vient la dépense, jamais à l'exclure.
   const partRobot = (l) => l.parOrigine?.robot ?? (l.parOrigine ? { appels: 0, cout: 0 } : { appels: l.appels, cout: l.cout });
   const partLocale = (l) => l.parOrigine?.local ?? { appels: 0, cout: 0 };
   const cumulPart = (releve, jours, part) => jours.reduce((t, j) => {
@@ -141,7 +143,7 @@
     }, { appels: 0, entree: 0, sortie: 0, cout: 0 });
   }
 
-  function rendre(releve) {
+  function rendre(releve, facture = null) {
     const jours = Object.keys(releve).sort();
     if (!jours.length) {
       $('resume').innerHTML = '<p class="vide">Aucun appel relevé pour l’instant. La page se remplit dès le premier article rédigé par l’IA.</p>';
@@ -154,29 +156,37 @@
     const septDerniers = Array.from({ length: 7 }, (_, i) => decale(aujourdhui, -i));
 
     const cMois = cumul(releve, duMois);
-    const rMois = cumulPart(releve, duMois, partRobot);
-    const robotMois = rMois.cout;
-    const robotAppels = rMois.appels;
+    const robotMois = cumulPart(releve, duMois, partRobot).cout;
     const localMois = cumulPart(releve, duMois, partLocale).cout;
-    const rJour = cumulPart(releve, [aujourdhui], partRobot);
-    const rSemaine = cumulPart(releve, septDerniers, partRobot);
+    // Ce qu'Anthropic a réellement facturé ce mois-ci, quand la synchronisation a été faite.
+    // Le relevé maison ne commence qu'au jour de sa mise en service : lui seul ne suffit pas à
+    // répondre « combien ce mois-ci ».
+    const factureMois = facture?.jours
+      ? Object.entries(facture.jours).filter(([j]) => j.startsWith(mois)).reduce((n, [, v]) => n + v, 0)
+      : null;
+    // Le relevé facturé peut avoir quelques heures de retard, le relevé maison ne couvre pas les
+    // jours antérieurs à sa mise en service : on retient le plus élevé des deux, jamais le plus flatteur.
+    const mensuel = factureMois === null ? cMois.cout : Math.max(factureMois, cMois.cout);
     const numero = Number(aujourdhui.slice(8));
     const joursDuMois = new Date(Number(mois.slice(0, 4)), Number(mois.slice(5, 7)), 0).getDate();
-    const projection = numero ? (robotMois / numero) * joursDuMois : 0;
-    const moyenne = robotAppels ? robotMois / robotAppels : 0;
-    const part = BUDGET ? robotMois / BUDGET : 0;
+    const projection = numero ? (mensuel / numero) * joursDuMois : 0;
+    const moyenne = cMois.appels ? cMois.cout / cMois.appels : 0;
+    const part = BUDGET ? mensuel / BUDGET : 0;
+    const dateMaj = facture?.maj
+      ? new Intl.DateTimeFormat('fr-FR', { day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit', timeZone: TZ }).format(new Date(facture.maj))
+      : null;
 
     const tuile = (label, valeur, detail, fort) =>
       `<div class="kpi${fort ? ' kpi--fort' : ''}"><span class="label">${esc(label)}</span><b>${esc(valeur)}</b><small>${esc(detail)}</small></div>`;
 
     // 14 derniers jours
-    const serie = Array.from({ length: 14 }, (_, i) => decale(aujourdhui, i - 13)).map((j) => [j, releve[j] ? partRobot(releve[j]).cout : 0]);
+    const serie = Array.from({ length: 14 }, (_, i) => decale(aujourdhui, i - 13)).map((j) => [j, releve[j]?.cout ?? 0]);
     const max = Math.max(...serie.map(([, v]) => v), 0.0001);
     const barres = serie.map(([j, v]) => {
       const h = Math.max(3, Math.round((v / max) * 100));
       const local = releve[j] ? partLocale(releve[j]).cout : 0;
-      const t = `${jourLong(j)} — ${v ? `${dollars(v)} $ · ${appels(partRobot(releve[j]).appels)}` : 'aucun appel'}`
-        + (local ? ` · + ${dollars(local)} $ de mise au point` : '');
+      const t = `${jourLong(j)} — ${v ? `${dollars(v)} $ · ${appels(releve[j].appels)}` : 'aucun appel'}`
+        + (local ? ` · dont ${dollars(local)} $ de mise au point` : '');
       return `<span${v ? '' : ' data-vide'} title="${esc(t)}"><i style="height:${h}%"></i></span>`;
     }).join('');
 
@@ -185,26 +195,29 @@
 
     $('resume').innerHTML = `
       <div class="kpis">
-        ${tuile('Aujourd’hui', `${dollars(rJour.cout)} $`, appels(rJour.appels))}
-        ${tuile('7 derniers jours', `${dollars(rSemaine.cout)} $`, appels(rSemaine.appels))}
-        ${tuile('Mois en cours', `${dollars(robotMois)} $`, appels(robotAppels), true)}
+        ${tuile('Aujourd’hui', `${dollars(cumul(releve, [aujourdhui]).cout)} $`, appels(cumul(releve, [aujourdhui]).appels))}
+        ${tuile('7 derniers jours', `${dollars(cumul(releve, septDerniers).cout)} $`, appels(cumul(releve, septDerniers).appels))}
+        ${tuile('Mois en cours', `${dollars(mensuel)} $`, factureMois === null ? appels(cMois.appels) : `facturé, relevé le ${dateMaj}`, true)}
         ${tuile('Projection du mois', `${dollars(projection)} $`, 'au rythme actuel')}
       </div>
+      <p class="note">${factureMois === null
+        ? `<b>Relevé maison, démarré le ${esc(jourCourt(jours[0]))}</b> : ce qui a été facturé avant cette date n’y est pas. Pour le montant du mois complet, lancer <code>npm run couts:sync</code> — la page affichera alors le chiffre facturé par Anthropic.`
+        : `<b>Chiffre facturé par Anthropic</b>, relevé le ${esc(dateMaj)} (<code>npm run couts:sync</code>). Le relevé maison, qui compte les appels un par un, en a enregistré ${dollars(cMois.cout)} $ depuis le ${esc(jourCourt(jours[0]))}.`}</p>
       <div>
         <div class="barres" role="img" aria-label="Dépense des 14 derniers jours">${barres}</div>
         <div class="axe"><span>${jourCourt(serie[0][0])}</span><span>${jourCourt(serie.at(-1)[0])}</span></div>
       </div>
       <div class="jauge-bloc">
-        <div class="jauge-tete"><span>Budget du mois</span><b>${dollars(robotMois)} $ / ${dollars(BUDGET)} $</b></div>
+        <div class="jauge-tete"><span>Budget du mois</span><b>${dollars(mensuel)} $ / ${dollars(BUDGET)} $</b></div>
         <div class="jauge"><i class="${part >= 1 ? 'plein' : part >= 0.7 ? 'chaud' : ''}" style="width:${Math.min(100, Math.round(part * 100))}%"></i></div>
         <p class="note">${part >= 1
           ? 'Plafond dépassé : tu es prévenu sur Telegram, le rédacteur continue d’écrire normalement (réglage couperAuPlafond).'
-          : `Alerte Telegram à 70 %, puis au plafond. Le rédacteur continue d’écrire dans tous les cas. Reste ${dollars(Math.max(0, BUDGET - robotMois))} $, soit environ ${Math.floor(Math.max(0, BUDGET - robotMois) / (moyenne || 0.056))} articles.`}</p>
+          : `Alerte Telegram à 70 %, puis au plafond. Le rédacteur continue d’écrire dans tous les cas. Reste ${dollars(Math.max(0, BUDGET - mensuel))} $, soit environ ${Math.floor(Math.max(0, BUDGET - mensuel) / (moyenne || 0.056))} articles.`}</p>
       </div>
       <div class="puces">
         <span class="puce">Coût moyen d’un appel <b>${dollars(moyenne)} $</b></span>
-        ${localMois ? `<span class="puce">Mises au point depuis un poste <b>${dollars(localMois)} $</b> — hors budget</span>` : ''}
-        <span class="puce">Jetons du mois, tout compris <b>${nf.format(cMois.entree)}</b> entrée · <b>${nf.format(cMois.sortie)}</b> sortie</span>
+        ${localMois ? `<span class="puce">Dont publications <b>${dollars(robotMois)} $</b> · mises au point depuis un poste <b>${dollars(localMois)} $</b></span>` : ''}
+        <span class="puce">Jetons du mois <b>${nf.format(cMois.entree)}</b> entrée · <b>${nf.format(cMois.sortie)}</b> sortie</span>
         ${Object.entries(parModele).map(([m, n]) => `<span class="puce">${esc(m.replace('claude-', ''))} <b>× ${n}</b></span>`).join('')}
       </div>`;
 
@@ -227,10 +240,14 @@
 
   async function charger() {
     try {
-      const r = await fetch(`${SOURCE}?t=${Date.now()}`, { cache: 'no-store' });
+      const [r, rc] = await Promise.all([
+        fetch(`${SOURCE}?t=${Date.now()}`, { cache: 'no-store' }),
+        fetch(`${CONSOLE}?t=${Date.now()}`, { cache: 'no-store' }).catch(() => null),
+      ]);
       if (!r.ok) throw new Error(`HTTP ${r.status}`);
       const releve = await r.json();
-      rendre(releve);
+      const facture = rc?.ok ? await rc.json().catch(() => null) : null;
+      rendre(releve, facture);
       $('etat').textContent = `Relevé lu à ${new Intl.DateTimeFormat('fr-FR', { hour: '2-digit', minute: '2-digit', timeZone: TZ }).format(new Date())}`;
     } catch (e) {
       $('etat').textContent = 'Relevé indisponible';

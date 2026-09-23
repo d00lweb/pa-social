@@ -3,8 +3,9 @@ import assert from 'node:assert/strict';
 import { cout, resume, TARIFS } from '../src/brain/couts.mjs';
 
 // Le 23/09/2026, une estimation « à la main » annonçait 3,2 centimes par appel ; la mesure réelle
-// en donnait 5,5. L'écart venait de l'entrée sous-évaluée et de la réflexion du modèle, facturée
-// avec la sortie. D'où ce relevé : on ne calcule plus, on compte ce que l'API a facturé.
+// en donnait 5,5. L'écart venait de l'entrée, largement sous-évaluée : la consigne et le contexte
+// pèsent environ 85 % d'un appel. D'où ce relevé : on ne calcule plus, on compte les jetons
+// facturés — et « npm run couts:sync » va chercher le montant facturé par Anthropic, qui fait foi.
 
 test('coût d’un appel : entrée, sortie, et cache à son vrai prix', () => {
   const usage = { input_tokens: 6393, output_tokens: 856 };
@@ -99,11 +100,12 @@ test('au plafond, on prévient sans couper : le réglage est explicite', async (
   if (envoyes.length) assert.doesNotMatch(envoyes[0], /version de secours/, 'tant que couperAuPlafond est faux, aucun message ne promet une coupure');
 });
 
-test('le budget suit le robot, pas les mises au point lancées depuis un poste', async () => {
+test('le budget compte tout ce qui est facturé, et dit d’où la dépense vient', async () => {
   const { budgetDuMois } = await import('../src/brain/couts.mjs');
   const now = Date.parse('2026-09-23T16:00:00Z');
-  // 23/09/2026 : une séance de réglages a fait monter le relevé à 1,51 $ alors que le média,
-  // lui, n'avait coûté que 7 centimes. Le budget ne doit compter que ce qui fait tourner le média.
+  // 23/09/2026 : sur les 1,51 $ facturés ce jour-là, 7 centimes venaient du robot, le reste d'une
+  // séance de réglages. Tout part du même compte Anthropic : le budget compte tout et dit la part
+  // de chacun. Écarter les mises au point afficherait 0,07 $ quand la console en montre 1,51.
   const releve = {
     '2026-09-23': {
       appels: 27, entree: 0, sortie: 0, cout: 1.514,
@@ -111,11 +113,14 @@ test('le budget suit le robot, pas les mises au point lancées depuis un poste',
     },
   };
   const etat = budgetDuMois(releve, now);
-  assert.equal(etat.depense, 0.075, 'seul le robot entame le budget');
-  assert.equal(etat.local, 1.439, 'la dépense de mise au point reste visible, à part');
+  assert.equal(etat.depense, 1.514, 'le budget suit ce qui est facturé, comme la console');
+  assert.equal(etat.robot, 0.075, 'la part des publications reste lisible');
+  assert.equal(etat.local, 1.439, 'celle des mises au point aussi');
   assert.equal(etat.depasse, false);
   // un relevé antérieur au partage n'a pas d'origine : il est attribué au robot, comme avant
-  assert.equal(budgetDuMois({ '2026-09-23': { appels: 3, cout: 0.21 } }, now).depense, 0.21);
+  const ancien = budgetDuMois({ '2026-09-23': { appels: 3, cout: 0.21 } }, now);
+  assert.equal(ancien.depense, 0.21);
+  assert.equal(ancien.robot, 0.21);
 });
 
 test('point conso : le dimanche vers 19 h, une seule fois, sur les 7 derniers jours', async () => {
@@ -146,7 +151,8 @@ test('point conso : le dimanche vers 19 h, une seule fois, sur les 7 derniers jo
     assert.equal(r.semaine.appels, 21, '7 jours × 3 articles du robot');
     assert.match(envoyes[0], /la semaine/);
     assert.match(envoyes[0], /21 articles rédigés/);
-    assert.match(envoyes[0], /Hors budget/, 'les mises au point sont dites, mais hors budget');
+    assert.match(envoyes[0], /Ce mois-ci : <b>1,68 \$<\/b>/, 'le mois annoncé est celui facturé, tout compris');
+    assert.match(envoyes[0], /Dont 1,26 \$ de publications et 0,42 \$ de mises au point/, 'la part de chacun est dite');
     assert.doesNotMatch(envoyes[0], /\n\n/, 'aucune ligne vide dans le message');
 
     assert.equal(await resumeHebdoCouts({ now: Date.parse('2026-09-27T19:00:00Z'), envoyer }), null, 'une seule fois dans la soirée');
@@ -154,4 +160,21 @@ test('point conso : le dimanche vers 19 h, une seule fois, sur les 7 derniers jo
   } finally {
     await Promise.all(fichiers.map((f, i) => (sauve[i] === null ? null : writeFile(fromRoot(f), sauve[i]))));
   }
+});
+
+test('le montant facturé par Anthropic prime sur le relevé maison', async () => {
+  const { budgetDuMois } = await import('../src/brain/couts.mjs');
+  const now = Date.parse('2026-09-23T16:00:00Z');
+  // Le relevé maison ne démarre qu'au jour de sa mise en service : il ignorait tout le début du
+  // mois. « npm run couts:sync » va chercher la facturation réelle, qui fait foi.
+  const releve = { '2026-09-23': { appels: 27, cout: 1.514 } };
+  const facture = { maj: '2026-09-23T17:00:00Z', jours: { '2026-09-17': 0.9, '2026-09-23': 1.4 }, total: 2.3 };
+  const etat = budgetDuMois(releve, now, 'Europe/Paris', facture);
+  assert.equal(etat.depense, 2.3, 'les jours antérieurs au relevé comptent aussi');
+  assert.equal(Math.round(etat.part * 100), 77, 'l’alerte des 70 % part sur le montant facturé');
+  // la facturation peut avoir quelques heures de retard : on ne descend jamais sous le relevé
+  const enRetard = budgetDuMois(releve, now, 'Europe/Paris', { maj: '2026-09-23T06:00:00Z', jours: { '2026-09-23': 0.2 } });
+  assert.equal(enRetard.depense, 1.514, 'le plus élevé des deux l’emporte');
+  // un mois précédent ne compte pas
+  assert.equal(budgetDuMois({}, now, 'Europe/Paris', { jours: { '2026-08-30': 12 } }).depense, 0);
 });

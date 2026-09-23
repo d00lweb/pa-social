@@ -4,7 +4,8 @@ import { config } from '../core/config.mjs';
 
 // Ce que l'IA coûte réellement, relevé appel par appel dans state/couts.json.
 // Aucune estimation : les jetons viennent de la réponse de l'API, le prix de la grille publique.
-// La réflexion du modèle est facturée avec la sortie — c'est elle qu'un calcul « à la main » oublie.
+// L'entrée pèse le plus lourd (consigne et contexte, ~85 % d'un appel) : c'est elle qu'un calcul
+// « à la main » sous-évalue. Pour le montant réellement facturé, voir scripts/couts-console.mjs.
 const TZ = config.timezone;
 
 // $ par million de jetons (grille publique Anthropic, relevée le 23/09/2026)
@@ -77,20 +78,29 @@ export const BUDGET_MOIS = config.budgetMensuelUSD ?? 3;
 // dégradée coûte plus cher en qualité que quelques centimes de dépassement.
 export const COUPER_AU_PLAFOND = config.couperAuPlafond === true;
 
-export function budgetDuMois(releve = {}, now = Date.now(), timeZone = TZ) {
+export function budgetDuMois(releve = {}, now = Date.now(), timeZone = TZ, facture = null) {
   const mois = dayKey(now, timeZone).slice(0, 7);
   const lignes = Object.entries(releve).filter(([j]) => j.startsWith(mois)).map(([, l]) => l);
-  // le budget suit la dépense du robot ; les appels lancés depuis un poste (mises au point) sont
-  // comptés à part, sinon une séance de réglages ferait croire à une dérive de la production
-  const depense = lignes.reduce((n, l) => n + (l.parOrigine?.robot?.cout ?? (l.parOrigine ? 0 : l.cout ?? 0)), 0);
+  // Le budget suit la dépense réelle : tout ce qui passe par la clé est facturé sur le même compte,
+  // qu'il vienne du robot ou d'une mise au point. L'origine ne sert qu'à dire d'où vient la dépense.
+  const arrondi = (n) => Math.round(n * 1e4) / 1e4;
+  const compte = lignes.reduce((n, l) => n + (l.cout ?? 0), 0);
+  // Le montant facturé par Anthropic (npm run couts:sync) couvre aussi les jours antérieurs au
+  // relevé, mais peut avoir quelques heures de retard. On garde le plus élevé des deux : une alerte
+  // de budget doit se tromper du côté prudent.
+  const factureMois = facture?.jours
+    ? Object.entries(facture.jours).filter(([j]) => j.startsWith(mois)).reduce((n, [, v]) => n + v, 0)
+    : null;
+  const depense = factureMois === null ? compte : Math.max(factureMois, compte);
+  const robot = lignes.reduce((n, l) => n + (l.parOrigine?.robot?.cout ?? (l.parOrigine ? 0 : l.cout ?? 0)), 0);
   const local = lignes.reduce((n, l) => n + (l.parOrigine?.local?.cout ?? 0), 0);
-  return { depense: Math.round(depense * 1e4) / 1e4, local: Math.round(local * 1e4) / 1e4, budget: BUDGET_MOIS, part: BUDGET_MOIS ? depense / BUDGET_MOIS : 0, depasse: depense >= BUDGET_MOIS };
+  return { depense: arrondi(depense), robot: arrondi(robot), local: arrondi(local), budget: BUDGET_MOIS, part: BUDGET_MOIS ? depense / BUDGET_MOIS : 0, depasse: depense >= BUDGET_MOIS };
 }
 
 // Prévient à 70 % du budget, puis refuse d'appeler au-delà de 100 %. Une alerte par jour et par seuil.
 export async function verifierBudget({ now = Date.now(), envoyer } = {}) {
   const releve = await loadJson('couts.json', {});
-  const etat = budgetDuMois(releve, now);
+  const etat = budgetDuMois(releve, now, TZ, await loadJson('couts-console.json', null));
   const seuil = etat.depasse ? 'plafond' : etat.part >= 0.7 ? 'alerte' : null;
   if (!seuil) return etat;
   const memo = await loadJson('ia.json', {});
@@ -126,7 +136,7 @@ export async function resumeHebdoCouts({ now = Date.now(), envoyer } = {}) {
     const robot = l.parOrigine?.robot ?? (l.parOrigine ? { appels: 0, cout: 0 } : { appels: l.appels, cout: l.cout });
     return { appels: n.appels + robot.appels, cout: n.cout + robot.cout };
   }, { appels: 0, cout: 0 });
-  const etat = budgetDuMois(releve, now, TZ);
+  const etat = budgetDuMois(releve, now, TZ, await loadJson('couts-console.json', null));
   memo.resume = jour;
   await saveJson('ia.json', memo);
 
@@ -139,7 +149,7 @@ export async function resumeHebdoCouts({ now = Date.now(), envoyer } = {}) {
     semaine.appels ? `7 derniers jours : ${semaine.appels} article${semaine.appels > 1 ? 's' : ''} rédigé${semaine.appels > 1 ? 's' : ''}, ${euros(semaine.cout)}` : '7 derniers jours : aucun article rédigé',
     `Ce mois-ci : <b>${euros(etat.depense)}</b> sur ${euros(etat.budget)} (${Math.round(etat.part * 100)} %)`,
     `Fin de mois au rythme actuel : ${euros(projection)}`,
-    etat.local ? `<i>Hors budget : ${euros(etat.local)} de mises au point lancées depuis un poste.</i>` : '',
+    etat.local ? `<i>Dont ${euros(etat.robot)} de publications et ${euros(etat.local)} de mises au point lancées depuis un poste.</i>` : '',
   ];
   const envoi = envoyer ?? (await import('../channels/telegram.mjs')).send;
   await envoi(lignes.filter(Boolean).join('\n')).catch(() => {});

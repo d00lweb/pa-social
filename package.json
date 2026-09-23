@@ -20,7 +20,8 @@
     "threads:refresh": "node --env-file=.env scripts/refresh-threads.mjs",
     "threads:setup": "node --env-file=.env scripts/threads-setup.mjs",
     "meta:check": "node --env-file=.env scripts/meta-check.mjs",
-    "meta:page": "node --env-file=.env scripts/meta-page.mjs"
+    "meta:page": "node --env-file=.env scripts/meta-page.mjs",
+    "couts:sync": "node --env-file=.env scripts/couts-console.mjs"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.125.0",

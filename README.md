@@ -20,10 +20,11 @@ Republication automatique des articles de **Passion Aquitaine** (passion-aquitai
 6. [Configuration (.env)](#configuration-env)
 7. [Opérations courantes](#opérations-courantes)
 8. [Reprise sur un nouveau poste](#reprise-sur-un-nouveau-poste)
-9. [Dépannage : problèmes déjà rencontrés](#dépannage--problèmes-déjà-rencontrés)
-10. [Limites connues et pistes](#limites-connues-et-pistes)
-11. [Structure du code](#structure-du-code)
-12. [Journal des évolutions](#journal-des-évolutions)
+9. [Refaire les jetons Meta (Facebook + Instagram)](#refaire-les-jetons-meta-facebook--instagram)
+10. [Dépannage : problèmes déjà rencontrés](#dépannage--problèmes-déjà-rencontrés)
+11. [Limites connues et pistes](#limites-connues-et-pistes)
+12. [Structure du code](#structure-du-code)
+13. [Journal des évolutions](#journal-des-évolutions)
 
 ---
 
@@ -415,6 +416,7 @@ Variables de test : `DRY_RUN=1` (rendu + FTP, sans Instagram ni Telegram ni éta
 | Voir ce qu'une exécution a fait | Actions → exécution → étape « Publier » |
 | Republier un article déjà publié | retirer son entrée de `state/published.json`, committer (attention au doublon Instagram) |
 | Activer Facebook | renseigner `FB_PAGE_ID` et `FB_TOKEN` dans `.env` **et** dans le secret `SOCIAL`, vérifier avec `npm run smoke:fb` |
+| Contrôler les jetons | `npm run meta:check` — lecture seule, dit lequel est refusé et ce qui manque ; procédure complète : « Refaire les jetons Meta » |
 | Mettre à jour les secrets | coller le `.env` complet dans le secret `SOCIAL`. En ligne de commande, **depuis Git Bash** : `gh secret set SOCIAL < .env`. Jamais via un tube PowerShell (`Get-Content \| gh secret set`) : il ajoute un marqueur d'encodage invisible qui casse la première variable, et toutes les exécutions échouent sur `Variables manquantes : IG_USER_ID`. |
 
 Commandes locales :
@@ -451,6 +453,42 @@ Sous PowerShell : `$env:DRY_RUN='1'; $env:DRY_RUN_LATEST='3'; node --env-file=.e
 La production ne dépend pas du poste : elle tourne entièrement sur GitHub et o2switch.
 
 ---
+
+## Refaire les jetons Meta (Facebook + Instagram)
+
+**Quand :** alerte Telegram « 🔑 Jeton refusé », ou `npm run meta:check` en échec. Un jeton Meta peut mourir **avant son échéance** : changement de mot de passe, déconnexion de toutes les sessions, contrôle de sécurité Meta, app retirée dans « Intégrations professionnelles », ou session de l'Explorateur d'API renouvelée. Le message est alors *« The session has been invalidated… »* (code 190, **sous-code 460**).
+
+Pendant la panne, **rien n'est perdu** : les publications concernées sont reportées d'heure en heure (48 au plus) et repartent seules une fois le jeton remplacé.
+
+### Contrôler l'état — `npm run meta:check`
+
+Lecture seule, aucune publication, aucune valeur de jeton affichée. Vérifie les deux jetons Meta (validité, type, droits, échéance), la Page, le compte Instagram, Threads et Bluesky.
+
+### Voie A — jeton de Page par l'Explorateur d'API (rapide, ~10 min)
+
+1. [developers.facebook.com/tools/explorer](https://developers.facebook.com/tools/explorer) — app **« Passion Aquitaine Social »**, type **User Token**.
+2. Cocher les permissions : `pages_show_list`, `pages_read_engagement`, `pages_manage_posts`, `pages_manage_engagement`, `instagram_basic`, `instagram_content_publish`, `instagram_manage_insights`, `read_insights`, `business_management`.
+3. **Generate Access Token**, se connecter, accepter la Page *Passion Aquitaine* et le compte *@lovaquitaine*.
+4. Allonger sa durée : icône ⓘ à côté du jeton → **Open in Access Token Tool** → **Extend Access Token** (un jeton court dure quelques heures seulement).
+5. Revenir à l'Explorateur avec le jeton allongé et appeler `GET /me/accounts?fields=name,access_token`. **Le jeton à garder est celui de la Page**, dans la réponse — pas celui d'utilisateur, que Facebook refuse pour publier (« Unpublished posts must be posted to a page as the page itself »).
+
+### Voie B — utilisateur système (recommandé : ne dépend d'aucune session personnelle)
+
+Un jeton d'utilisateur système appartient à l'entreprise, pas à une personne : il survit aux changements de mot de passe et aux contrôles de sécurité du compte, et n'expire pas.
+
+1. [business.facebook.com/settings](https://business.facebook.com/settings) → **Utilisateurs** → **Utilisateurs système** → **Ajouter** : nom `pa-social`, rôle *Administrateur*.
+2. **Ajouter des actifs** → *Pages* → **Passion Aquitaine** → contrôle total ; puis *Comptes Instagram* → **@lovaquitaine** → contrôle total.
+3. **Générer un nouveau jeton** → app « Passion Aquitaine Social » → expiration **Jamais** → cocher les mêmes permissions qu'en voie A.
+4. Copier le jeton (affiché **une seule fois**), puis appeler `GET /me/accounts?fields=name,access_token` avec lui : le jeton de Page obtenu n'expire pas non plus.
+5. `npm run meta:check` doit afficher `type SYSTEM_USER` ou un jeton de Page sans expiration.
+
+### Mettre en service
+
+1. Dans `.env` : coller la **même** valeur dans `FB_TOKEN` **et** `IG_TOKEN` (le jeton de Page sert aux deux réseaux). `IG_USER_ID`, `FB_PAGE_ID` ne changent pas.
+2. `npm run meta:check` → tout doit être ✔.
+3. `npm run smoke:fb` (facultatif) : essai de publication en brouillon, invisible sur la Page.
+4. Publier le secret, **depuis Git Bash** : `gh secret set SOCIAL < .env`. Jamais par un tube PowerShell : il ajoute un marqueur d'encodage invisible qui casse la première variable.
+5. Attendre le passage suivant (:00 ou :20) : les publications en attente repartent d'elles-mêmes. Vérifier sur Telegram, ou avec `/statut`.
 
 ## Dépannage : problèmes déjà rencontrés
 
@@ -580,6 +618,7 @@ Dépendances : `fast-xml-parser`, `sharp`, `playwright`, `basic-ftp`. Node 24, E
 | 18/09/2026 | Page de l'équipe, retours : **X parmi nos réseaux** (abonnés saisis par la commande Telegram `/x 2940`, 2 940 au 18/09), publications manuelles (X, story Instagram) annoncées dans le planning, heures du planning toutes en rouge, **visuels 4:5** en vignettes légères, **pastilles vers le post lui-même** (liens des anciennes publications retrouvés par l'API ; la fusion de l'état complète désormais une fiche au lieu d'ignorer l'ajout), **sélecteur de mois** avec archive `state/mois-publics.json`. |
 | 18/09/2026 | Page de l'équipe, mise en page : en-tête plus compact, répartition des cinq réseaux sur une seule rangée, **les cinq comptes sur une même ligne** (la courbe cède la place à l'évolution chiffrée : 7 derniers jours et depuis le début du suivi, en nombre et en %), « En direct · à jour à » donne l'heure de la dernière vérification de la page, textes des sections sur toute la largeur. |
 | 23/09/2026 | **Jeton Meta invalidé sans préavis** (code 190, sous-code 460 : mot de passe changé ou session coupée par Meta) alors que `state/jetons.json` annonçait encore 86 jours restants. Deux correctifs : un jeton refusé **ne consomme plus d'essai** — la publication est reportée d'heure en heure (48 au plus) et repart seule dès le jeton remplacé, au lieu d'être abandonnée au 3ᵉ échec ; la surveillance lit la **validité** et non plus seulement l'échéance, rappelle le jeton refusé chaque jour, revérifie à chaque passage tant qu'il l'est, et ne marque le passage en échec qu'une fois par jour. |
+| 23/09/2026 | Procédure complète « Refaire les jetons Meta » (voie rapide par l'Explorateur d'API, voie durable par utilisateur système, mise en service et pièges connus) et commande `npm run meta:check` : contrôle en lecture seule des deux jetons Meta, de la Page, du compte Instagram, de Threads et de Bluesky, sans jamais afficher de jeton. |
 | 17/09/2026 | Pilotage épuré et vivant : plus d'historique ni de feuille de route dans la page, les aperçus montrent **les derniers articles réellement publiés** (texte et visuel capturés au moment du post), et seules les prochaines publications sont listées. Renouvellement automatique du jeton Threads par `maintenance.yml` (nécessite le secret `GH_PAT`). |
 | 17/09/2026 | Étape 9 : mesure et rapports. Relevés J+1 et J+7, rapport Telegram le lundi, rapports mensuels, surveillance des jetons, et pilotage qui lit l'état réel à chaque ouverture. **Les conseils ne sont jamais appliqués sans validation.** |
 | 17/09/2026 | **Facebook et Threads en production.** Les cinq réseaux sont actifs. Piège rencontré : le générateur de jetons du tableau de bord Meta délivre déjà un jeton Threads de 60 jours, que l'échange refuse (« Session key invalid ») — la mise en service gère désormais les deux cas. Jeton Threads à renouveler avant le 16/11/2026. |

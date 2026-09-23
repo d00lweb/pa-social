@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Maquettes Facebook</title>
+<style>
+  :root { --fb-text:#080809; --fb-muted:#65676b; --fb-line:#ced0d4; --fb-bg:#f0f2f5; --fb-blue:#0866ff; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:#e4e6eb; font-family:"Segoe UI",system-ui,-apple-system,Helvetica,Arial,sans-serif; color:var(--fb-text); }
+  .rangee { display:flex; gap:28px; padding:28px; align-items:flex-start; }
+  .colonne { width:420px; flex:none; }
+  .etiquette { font-weight:800; font-size:14px; margin:0 0 4px; letter-spacing:.02em; }
+  .verdict { font-size:12.5px; color:#444; margin:0 0 12px; min-height:34px; }
+  .post { background:#fff; border-radius:10px; box-shadow:0 1px 2px rgba(0,0,0,.2); overflow:hidden; }
+  .tete { display:flex; align-items:center; gap:10px; padding:12px 12px 0; }
+  .ava { width:40px; height:40px; border-radius:50%; background:#cd402c; color:#fff; display:grid; place-items:center; font-weight:800; font-size:14px; flex:none; }
+  .nom { font-weight:600; font-size:15px; line-height:1.2; }
+  .quand { font-size:12px; color:var(--fb-muted); display:flex; align-items:center; gap:4px; }
+  .txt { padding:10px 12px 12px; font-size:15px; line-height:1.34; white-space:pre-wrap; }
+  .txt .plus { color:var(--fb-muted); }
+  .txt a { color:var(--fb-blue); text-decoration:none; word-break:break-all; }
+  .photo { display:block; width:100%; }
+  .carte-lien { border:1px solid var(--fb-line); border-top:none; background:#f7f8fa; }
+  .carte-lien img { display:block; width:100%; aspect-ratio:1.91/1; object-fit:cover; }
+  .carte-lien .meta { padding:10px 12px; }
+  .carte-lien .dom { font-size:12px; color:var(--fb-muted); text-transform:uppercase; letter-spacing:.02em; }
+  .carte-lien .ti { font-size:16px; font-weight:700; line-height:1.25; margin-top:2px; }
+  .carte-lien .de { font-size:13px; color:var(--fb-muted); margin-top:2px; }
+  .stats { display:flex; justify-content:space-between; padding:8px 12px; font-size:13px; color:var(--fb-muted); border-bottom:1px solid #e4e6eb; }
+  .actions { display:flex; }
+  .actions span { flex:1; text-align:center; padding:8px 0; font-size:14px; font-weight:600; color:var(--fb-muted); }
+  .commentaire { display:flex; gap:8px; padding:10px 12px; align-items:flex-start; }
+  .commentaire .ava { width:28px; height:28px; font-size:10px; }
+  .bulle { background:#f0f2f5; border-radius:14px; padding:7px 11px; font-size:13.5px; line-height:1.35; }
+  .bulle b { display:block; font-size:12.5px; }
+  .bulle a { color:var(--fb-blue); word-break:break-all; text-decoration:none; }
+  .drapeau { display:inline-block; font-size:11px; font-weight:700; padding:2px 7px; border-radius:20px; margin-left:6px; vertical-align:middle; }
+  .ko { background:#ffe3e0; color:#b3261e; }
+  .ok { background:#e2f3e8; color:#1e7a4c; }
+</style>
+</head>
+<body>
+<div class="rangee">
+
+  <!-- A. Ce qui est publié aujourd'hui -->
+  <div class="colonne">
+    <p class="etiquette">A · Aujourd’hui<span class="drapeau ko">0 réaction, 0 clic</span></p>
+    <p class="verdict">Visuel habillé, texte qui répète le titre déjà incrusté, lien invisible : rien à lire, rien à cliquer.</p>
+    <div class="post">
+      <div class="tete"><span class="ava">PA</span><div><div class="nom">Passion Aquitaine</div><div class="quand">22 septembre, 09:25 · 🌍</div></div></div>
+      <div class="txt">200 danseurs pour un French Cancan géant sur le Miroir d’Eau 📍</div>
+      <img class="photo" src="https://passion-aquitaine.ouest-france.fr/social/20260922-6c111e03-fb.jpg" alt="">
+      <div class="stats"><span></span><span>1 commentaire</span></div>
+      <div class="actions"><span>👍 J’aime</span><span>💬 Commenter</span><span>↗ Partager</span></div>
+      <div class="commentaire"><span class="ava">PA</span><div class="bulle"><b>Passion Aquitaine</b>📖 L’article complet : <a href="#">passion-aquitaine.ouest-france.fr/record-french-cancan-bordeaux-miroir-eau/</a></div></div>
+    </div>
+  </div>
+
+  <!-- B. Photo + lien dans le texte -->
+  <div class="colonne">
+    <p class="etiquette">B · Photo + lien dans le texte<span class="drapeau ko">lien masqué</span></p>
+    <p class="verdict">La photo respire et le texte donne envie — mais sur mobile, Facebook coupe au bout de 3 lignes : le lien tombe derrière « Voir plus ».</p>
+    <div class="post">
+      <div class="tete"><span class="ava">PA</span><div><div class="nom">Passion Aquitaine</div><div class="quand">Aujourd’hui, 09:12 · 🌍</div></div></div>
+      <div class="txt">Le 30 septembre 2026, le Miroir d’eau de Bordeaux va vibrer sous les jambes de 200 danseurs 💃
+Un record du monde de French Cancan sera tenté en plein centre-ville, devant le public. <span class="plus">… Voir plus</span></div>
+      <img class="photo" src="https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/09/french-cancan-bordeaux.jpg" alt="">
+      <div class="stats"><span>👍❤️ 14</span><span>3 commentaires</span></div>
+      <div class="actions"><span>👍 J’aime</span><span>💬 Commenter</span><span>↗ Partager</span></div>
+    </div>
+  </div>
+
+  <!-- C. Publication avec lien -->
+  <div class="colonne">
+    <p class="etiquette">C · Publication avec lien<span class="drapeau ok">carte cliquable</span></p>
+    <p class="verdict">Le texte tient au-dessus de la coupure, et la carte reste cliquable en entier, même quand le texte est replié. C’est ce que je recommande.</p>
+    <div class="post">
+      <div class="tete"><span class="ava">PA</span><div><div class="nom">Passion Aquitaine</div><div class="quand">Aujourd’hui, 09:12 · 🌍</div></div></div>
+      <div class="txt">Le 30 septembre, le Miroir d’eau de Bordeaux vibre sous les jambes de 200 danseurs 💃
+Record du monde de French Cancan tenté en plein centre-ville. Vous irez voir ?</div>
+      <div class="carte-lien">
+        <img src="https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/09/french-cancan-bordeaux.jpg" alt="">
+        <div class="meta">
+          <div class="dom">passion-aquitaine.ouest-france.fr</div>
+          <div class="ti">À Bordeaux, 200 danseurs pour un French Cancan géant sur le Miroir d’Eau</div>
+          <div class="de">Le 30 septembre 2026, plus de 200 danseurs tentent un record du monde.</div>
+        </div>
+      </div>
+      <div class="stats"><span>👍❤️ 11</span><span>2 commentaires · 4 partages</span></div>
+      <div class="actions"><span>👍 J’aime</span><span>💬 Commenter</span><span>↗ Partager</span></div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

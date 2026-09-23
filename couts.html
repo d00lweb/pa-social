@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Coûts IA — Passion Aquitaine</title>
+<meta name="description" content="Ce que le rédacteur IA coûte réellement : relevé appel par appel, d'après les jetons facturés par l'API.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23CD402C'/%3E%3Ctext x='32' y='43' font-family='Arial' font-weight='700' font-size='30' fill='white' text-anchor='middle'%3E$%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+  /* Page locale : lit state/couts.json, écrit par le robot à chaque appel au rédacteur IA. */
+  :root {
+    --ground:#F6F4F2; --panel:#FFFFFF; --ink:#1C1A19; --muted:#6F6762; --line:#E6E0DC;
+    --red:#CD402C; --red-soft:#FBEAE6; --live:#1E7A4C; --live-soft:#E3F2EA;
+    --warn:#9A5B0B; --warn-soft:#FAF0DC; --idle-soft:#EEEBE8;
+    --shadow:0 1px 2px rgba(28,26,25,.05), 0 8px 24px rgba(28,26,25,.06);
+    --display:"Montserrat","Segoe UI",system-ui,sans-serif; --mono:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  }
+  @media (prefers-color-scheme:dark) {
+    :root { --ground:#141211; --panel:#1D1A19; --ink:#EEE9E6; --muted:#A59D98; --line:#332E2C;
+      --red:#E8664F; --red-soft:#3A201B; --live:#5CC08E; --live-soft:#15301F; --warn:#E1AA4E; --warn-soft:#33280F; --idle-soft:#2A2624;
+      --shadow:0 1px 2px rgba(0,0,0,.3), 0 8px 24px rgba(0,0,0,.25); }
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--ground); color:var(--ink); font-family:var(--display); font-size:15px; line-height:1.55; padding:36px 24px 72px; }
+  .wrap { max-width:1000px; margin:0 auto; display:grid; gap:32px; }
+  h1,h2,h3,p { margin:0; }
+  h1 { font-size:26px; font-weight:800; letter-spacing:-.02em; }
+  h2 { font-size:18px; font-weight:800; }
+  .label { font-size:11px; font-weight:700; letter-spacing:.12em; text-transform:uppercase; color:var(--muted); }
+  .hint { color:var(--muted); font-size:13.5px; }
+  .note { color:var(--muted); font-size:12.5px; }
+  a { color:inherit; text-decoration-color:var(--red); text-underline-offset:3px; }
+  header.top { display:flex; justify-content:space-between; align-items:flex-end; gap:20px; flex-wrap:wrap; padding-bottom:22px; border-bottom:1px solid var(--line); }
+  .marque { display:flex; gap:14px; align-items:flex-start; }
+  .mark { width:46px; height:46px; flex:none; border-radius:11px; background:var(--red); color:#fff; display:grid; place-items:center; font-weight:800; font-size:20px; }
+  .etat { font-size:12.5px; color:var(--muted); font-family:var(--mono); }
+  section { display:grid; gap:14px; }
+  .panel { background:var(--panel); border:1px solid var(--line); border-radius:14px; box-shadow:var(--shadow); padding:20px; display:grid; gap:18px; }
+  .kpis { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:12px; }
+  .kpi { border:1px solid var(--line); border-radius:11px; padding:14px 16px; display:grid; gap:2px; align-content:start; }
+  .kpi b { font-family:var(--mono); font-size:26px; font-weight:500; letter-spacing:-.02em; }
+  .kpi small { color:var(--muted); font-size:12px; }
+  .kpi--fort { background:var(--red-soft); border-color:transparent; }
+  .kpi--fort b { color:var(--red); }
+  .barres { display:flex; align-items:flex-end; gap:4px; height:110px; }
+  .barres > span { flex:1; display:flex; flex-direction:column; justify-content:flex-end; height:100%; cursor:default; }
+  .barres i { display:block; background:var(--red); border-radius:3px 3px 0 0; min-height:3px; opacity:.85; transition:opacity .15s; }
+  .barres > span:hover i { opacity:1; }
+  .barres > span[data-vide] i { background:var(--line); }
+  .axe { display:flex; justify-content:space-between; font-size:11px; color:var(--muted); font-family:var(--mono); }
+  table { width:100%; border-collapse:collapse; font-size:13.5px; }
+  th { text-align:left; font-size:11px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:var(--muted); padding:0 10px 8px 0; }
+  td { padding:8px 10px 8px 0; border-top:1px solid var(--line); font-variant-numeric:tabular-nums; }
+  td.n, th.n { text-align:right; font-family:var(--mono); }
+  tr.total td { font-weight:800; border-top:2px solid var(--line); }
+  .puces { display:flex; flex-wrap:wrap; gap:8px; }
+  .puce { font-size:12.5px; background:var(--idle-soft); border-radius:999px; padding:4px 12px; }
+  .puce b { font-family:var(--mono); font-weight:500; }
+  .vide { padding:26px; text-align:center; color:var(--muted); font-size:14px; }
+  .alerte { background:var(--warn-soft); color:var(--warn); border-radius:11px; padding:12px 16px; font-size:13.5px; }
+  @media (max-width:720px) { body { padding:22px 14px 50px; } .kpis { grid-template-columns:repeat(2,minmax(0,1fr)); } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div class="marque">
+      <span class="mark">$</span>
+      <div>
+        <h1>Coût du rédacteur IA</h1>
+        <p class="hint">Relevé appel par appel, d'après les jetons réellement facturés par l'API. Aucune estimation.</p>
+      </div>
+    </div>
+    <p class="etat" id="etat">Chargement…</p>
+  </header>
+
+  <section>
+    <div class="panel" id="resume"><p class="vide">Chargement…</p></div>
+  </section>
+
+  <section>
+    <h2>Jour par jour</h2>
+    <div class="panel" id="detail"><p class="vide">Chargement…</p></div>
+  </section>
+
+  <section>
+    <h2>Comment ce chiffre est obtenu</h2>
+    <div class="panel">
+      <p class="hint">Chaque appel au rédacteur renvoie le nombre de jetons facturés. Le robot les enregistre dans <code>state/couts.json</code> et cette page applique la grille publique Anthropic.</p>
+      <div class="puces" id="tarifs"></div>
+      <p class="note"><b>Ce qui est compté :</b> tous les appels, y compris ceux qui échouent — un refus ou un dossier invalide est facturé de la même façon. Un article peut demander jusqu'à trois appels si les contrôles éditoriaux ne passent pas.</p>
+      <p class="note"><b>La sortie comprend la réflexion du modèle</b>, facturée au même prix que le texte visible. C'est ce que rate un calcul « à la main ».</p>
+      <p class="note"><b>Ce qui n'y est pas :</b> les dépenses antérieures à la mise en service du relevé, visibles seulement dans la <a href="https://console.anthropic.com/settings/usage" target="_blank" rel="noopener">console Anthropic</a>.</p>
+    </div>
+  </section>
+</div>
+
+<script>
+  // Les données viennent du dépôt public, comme pour la page de pilotage : rien à installer.
+  const SOURCE = 'https://raw.githubusercontent.com/d00lweb/pa-social/main/state/couts.json';
+  const TARIFS = {
+    'claude-opus-5': [5, 25], 'claude-opus-4-8': [5, 25],
+    'claude-sonnet-5': [2, 10], 'claude-haiku-4-5': [1, 5],
+  };
+  const TZ = 'Europe/Paris';
+  const $ = (id) => document.getElementById(id);
+  const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
+  const dollars = (n) => (n >= 10 ? n.toFixed(2) : n >= 1 ? n.toFixed(2) : n.toFixed(3)).replace('.', ',');
+  const nf = new Intl.NumberFormat('fr-FR');
+  const jourCourt = (j) => new Intl.DateTimeFormat('fr-FR', { day: '2-digit', month: '2-digit', timeZone: TZ }).format(new Date(`${j}T12:00:00Z`));
+  const jourLong = (j) => new Intl.DateTimeFormat('fr-FR', { weekday: 'short', day: 'numeric', month: 'long', timeZone: TZ }).format(new Date(`${j}T12:00:00Z`));
+  const cleJour = (ms) => new Intl.DateTimeFormat('fr-CA', { timeZone: TZ }).format(new Date(ms));
+  const decale = (jour, n) => cleJour(Date.parse(`${jour}T12:00:00Z`) + n * 86400e3);
+  const appels = (n) => `${nf.format(n)} appel${n > 1 ? 's' : ''}`;
+
+  function cumul(releve, jours) {
+    return jours.reduce((t, j) => {
+      const l = releve[j];
+      return l ? { appels: t.appels + l.appels, entree: t.entree + l.entree, sortie: t.sortie + l.sortie, cout: t.cout + l.cout } : t;
+    }, { appels: 0, entree: 0, sortie: 0, cout: 0 });
+  }
+
+  function rendre(releve) {
+    const jours = Object.keys(releve).sort();
+    if (!jours.length) {
+      $('resume').innerHTML = '<p class="vide">Aucun appel relevé pour l’instant. La page se remplit dès le premier article rédigé par l’IA.</p>';
+      $('detail').innerHTML = '<p class="vide">Rien à afficher.</p>';
+      return;
+    }
+    const aujourdhui = cleJour(Date.now());
+    const mois = aujourdhui.slice(0, 7);
+    const duMois = jours.filter((j) => j.startsWith(mois));
+    const septDerniers = Array.from({ length: 7 }, (_, i) => decale(aujourdhui, -i));
+
+    const cMois = cumul(releve, duMois);
+    const numero = Number(aujourdhui.slice(8));
+    const joursDuMois = new Date(Number(mois.slice(0, 4)), Number(mois.slice(5, 7)), 0).getDate();
+    const projection = numero ? (cMois.cout / numero) * joursDuMois : 0;
+    const moyenne = cMois.appels ? cMois.cout / cMois.appels : 0;
+
+    const tuile = (label, valeur, detail, fort) =>
+      `<div class="kpi${fort ? ' kpi--fort' : ''}"><span class="label">${esc(label)}</span><b>${esc(valeur)}</b><small>${esc(detail)}</small></div>`;
+
+    // 14 derniers jours
+    const serie = Array.from({ length: 14 }, (_, i) => decale(aujourdhui, i - 13)).map((j) => [j, releve[j]?.cout ?? 0]);
+    const max = Math.max(...serie.map(([, v]) => v), 0.0001);
+    const barres = serie.map(([j, v]) => {
+      const h = Math.max(3, Math.round((v / max) * 100));
+      const t = `${jourLong(j)} — ${v ? `${dollars(v)} $ · ${appels(releve[j].appels)}` : 'aucun appel'}`;
+      return `<span${v ? '' : ' data-vide'} title="${esc(t)}"><i style="height:${h}%"></i></span>`;
+    }).join('');
+
+    const parModele = {};
+    for (const j of duMois) for (const [m, n] of Object.entries(releve[j].parModele ?? {})) parModele[m] = (parModele[m] ?? 0) + n;
+
+    $('resume').innerHTML = `
+      <div class="kpis">
+        ${tuile('Aujourd’hui', `${dollars(cumul(releve, [aujourdhui]).cout)} $`, appels(cumul(releve, [aujourdhui]).appels))}
+        ${tuile('7 derniers jours', `${dollars(cumul(releve, septDerniers).cout)} $`, appels(cumul(releve, septDerniers).appels))}
+        ${tuile('Mois en cours', `${dollars(cMois.cout)} $`, appels(cMois.appels), true)}
+        ${tuile('Projection du mois', `${dollars(projection)} $`, 'au rythme actuel')}
+      </div>
+      <div>
+        <div class="barres" role="img" aria-label="Dépense des 14 derniers jours">${barres}</div>
+        <div class="axe"><span>${jourCourt(serie[0][0])}</span><span>${jourCourt(serie.at(-1)[0])}</span></div>
+      </div>
+      <div class="puces">
+        <span class="puce">Coût moyen d’un appel <b>${dollars(moyenne)} $</b></span>
+        <span class="puce">Jetons du mois <b>${nf.format(cMois.entree)}</b> entrée · <b>${nf.format(cMois.sortie)}</b> sortie</span>
+        ${Object.entries(parModele).map(([m, n]) => `<span class="puce">${esc(m.replace('claude-', ''))} <b>× ${n}</b></span>`).join('')}
+      </div>`;
+
+    const lignes = [...jours].reverse().slice(0, 30).map((j) => {
+      const l = releve[j];
+      const usages = Object.entries(l.parUsage ?? {}).map(([k, n]) => `${esc(k)} × ${n}`).join(', ');
+      return `<tr><td>${esc(jourLong(j))}</td><td class="n">${nf.format(l.appels)}</td><td class="n">${nf.format(l.entree)}</td><td class="n">${nf.format(l.sortie)}</td><td class="n">${dollars(l.cout)} $</td><td>${usages}</td></tr>`;
+    }).join('');
+    const tout = cumul(releve, jours);
+    $('detail').innerHTML = `
+      <table>
+        <thead><tr><th>Jour</th><th class="n">Appels</th><th class="n">Jetons entrée</th><th class="n">Jetons sortie</th><th class="n">Coût</th><th>Nature</th></tr></thead>
+        <tbody>${lignes}</tbody>
+        <tfoot><tr class="total"><td>Depuis le ${esc(jourCourt(jours[0]))}</td><td class="n">${nf.format(tout.appels)}</td><td class="n">${nf.format(tout.entree)}</td><td class="n">${nf.format(tout.sortie)}</td><td class="n">${dollars(tout.cout)} $</td><td></td></tr></tfoot>
+      </table>`;
+
+    $('tarifs').innerHTML = Object.entries(TARIFS).map(([m, [e, s]]) => `<span class="puce">${esc(m.replace('claude-', ''))} <b>${e} $</b> entrée · <b>${s} $</b> sortie <small>/ M jetons</small></span>`).join('')
+      + '<span class="puce">cache <b>10 %</b> en lecture · <b>125 %</b> en écriture</span>';
+  }
+
+  async function charger() {
+    try {
+      const r = await fetch(`${SOURCE}?t=${Date.now()}`, { cache: 'no-store' });
+      if (!r.ok) throw new Error(`HTTP ${r.status}`);
+      const releve = await r.json();
+      rendre(releve);
+      $('etat').textContent = `Relevé lu à ${new Intl.DateTimeFormat('fr-FR', { hour: '2-digit', minute: '2-digit', timeZone: TZ }).format(new Date())}`;
+    } catch (e) {
+      $('etat').textContent = 'Relevé indisponible';
+      $('resume').innerHTML = `<div class="alerte">Impossible de lire le relevé (${esc(e.message)}). Il est publié à chaque passage du robot : si le fichier n’existe pas encore, il apparaîtra au premier article rédigé.</div>`;
+      $('detail').innerHTML = '<p class="vide">Rien à afficher.</p>';
+    }
+  }
+
+  charger();
+  setInterval(charger, 120000);
+</script>
+</body>
+</html>

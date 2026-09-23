@@ -12,18 +12,29 @@ const PREVENIR_A = { meta: 30, threads: 15 }; // jours restants déclenchant l'a
 
 const jours = (iso, maintenant) => Math.round((new Date(iso).getTime() - maintenant) / JOUR);
 
+// Ce que dit la réponse de debug_token. Un jeton peut mourir bien avant son échéance (mot de passe
+// changé, session coupée par Meta) : l'échéance connue n'a alors plus aucun sens, c'est l'invalidité
+// qu'il faut annoncer — sans quoi le pilotage affiche « 86 jours restants » sur un jeton mort.
+export function etatMeta(json, connu, maintenant) {
+  if (json?.error || json?.data?.is_valid === false) {
+    const message = json?.error?.message ?? json?.data?.error?.message ?? 'jeton refusé';
+    return { expireLe: connu?.meta?.expireLe ?? null, restant: 0, renouvellement: 'à refaire', invalide: true, message };
+  }
+  const fin = json?.data?.data_access_expires_at;
+  if (!fin) return null;
+  const expireLe = new Date(fin * 1000).toISOString();
+  return { expireLe, restant: jours(expireLe, maintenant), renouvellement: 'manuel' };
+}
+
 // Meta : « n'expire jamais », mais l'accès aux données s'arrête à une date fixe qu'aucune API ne prolonge
-async function meta(maintenant) {
+async function meta(maintenant, connu) {
   const token = process.env.FB_TOKEN || process.env.IG_TOKEN;
   if (!token) return null;
   const V = process.env.GRAPH_VERSION || 'v23.0';
   try {
     const res = await fetch(`https://graph.facebook.com/${V}/debug_token?input_token=${token}&access_token=${token}`);
     const json = await res.json().catch(() => ({}));
-    const fin = json.data?.data_access_expires_at;
-    if (!fin) return null;
-    const expireLe = new Date(fin * 1000).toISOString();
-    return { expireLe, restant: jours(expireLe, maintenant), renouvellement: 'manuel' };
+    return etatMeta(json, connu, maintenant);
   } catch {
     return null;
   }
@@ -35,7 +46,7 @@ async function threads(maintenant, connu) {
   if (!process.env.THREADS_TOKEN) return null;
   try {
     const res = await fetch(`https://graph.threads.net/v1.0/me?fields=id&access_token=${process.env.THREADS_TOKEN}`);
-    if (!res.ok) return { expireLe: null, restant: 0, renouvellement: 'à refaire', invalide: true };
+    if (!res.ok) return { expireLe: null, restant: 0, renouvellement: 'à refaire', invalide: true, message: 'jeton refusé par Threads' };
   } catch {
     return connu?.threads ?? null;
   }
@@ -47,11 +58,13 @@ async function threads(maintenant, connu) {
 // Une vérification par jour suffit : le résultat est gardé dans state/jetons.json, lu par le pilotage
 export async function verifier({ now = Date.now(), log = console.log } = {}) {
   const connu = await loadJson('jetons.json', null);
-  if (connu?.verifieLe && dayKey(new Date(connu.verifieLe).getTime(), TZ) === dayKey(now, TZ)) return connu;
+  // une vérification par jour, sauf tant qu'un jeton est refusé : on veut voir tout de suite qu'il est réparé
+  const enPanne = Object.values(connu ?? {}).some((v) => v && typeof v === 'object' && v.invalide);
+  if (!enPanne && connu?.verifieLe && dayKey(new Date(connu.verifieLe).getTime(), TZ) === dayKey(now, TZ)) return connu;
 
   const etat = {
     verifieLe: new Date(now).toISOString(),
-    meta: (await meta(now)) ?? connu?.meta ?? null,
+    meta: (await meta(now, connu)) ?? connu?.meta ?? null,
     threads: (await threads(now, connu)) ?? null,
     alertes: connu?.alertes ?? {},
   };

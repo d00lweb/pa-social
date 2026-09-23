@@ -14,3 +14,8 @@ export class DeferError extends Error {
     this.name = 'DeferError';
   }
 }
+
+// Jeton refusé par le réseau (invalidé, expiré, permission retirée). La publication n'y est pour
+// rien : elle est reportée sans consommer d'essai, et repart d'elle-même dès le jeton refait.
+export const jetonInvalide = (err) => err?.code === 190
+  || /access token|session has expired|oauthexception/i.test(err?.message ?? '');

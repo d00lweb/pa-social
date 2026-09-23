@@ -1,8 +1,8 @@
 import { readFileSync } from 'node:fs';
 import { config, DRY_RUN, DRY_RUN_LATEST, enabledChannels, fromRoot } from './core/config.mjs';
-import { GuardError, DeferError } from './core/errors.mjs';
+import { GuardError, DeferError, jetonInvalide } from './core/errors.mjs';
 import { loadHistory, saveHistory, loadQueue, saveQueue, loadJson, saveJson, hasPublished, lastPublishedAt } from './core/state.mjs';
-import { planDueAt, recheck, countToday, nextDay, passageDe, ordonnerFile } from './core/scheduler.mjs';
+import { planDueAt, recheck, countToday, nextDay, passageDe, ordonnerFile, dayKey } from './core/scheduler.mjs';
 import { NETWORKS, NAMES, shortId, parseCommand, defaultControls, isPaused, needsValidation, targets, applyDecision } from './core/control.mjs';
 import { fetchItems, matchArticle } from './sources/rss.mjs';
 import { buildDossier } from './brain/dossier.mjs';
@@ -31,6 +31,8 @@ const DEFAULT_RSS = 'https://passion-aquitaine.ouest-france.fr/feed/';
 const HOUR = 3600e3;
 const TZ = config.timezone;
 const OPEN = ['awaiting', 'pending'];
+// reports successifs pour cause de jeton refusé avant d'abandonner une publication (2 jours environ)
+const REPORTS_JETON_MAX = 48;
 const ed = JSON.parse(readFileSync(fromRoot('config/editorial.json'), 'utf8'));
 
 const paris = (ms) => new Date(ms).toLocaleString('fr-FR', { timeZone: TZ, dateStyle: 'short', timeStyle: 'short' });
@@ -365,6 +367,32 @@ async function execute({ history, queue, memory, controls, now }) {
       if (err instanceof DeferError) {
         item.dueAt = now + HOUR;
         console.log(`Reporté ${channel.id} (${err.message}) → ${paris(item.dueAt)}`);
+        continue;
+      }
+      // Jeton refusé : l'article n'y est pour rien. Il serait abandonné au bout de trois essais alors
+      // qu'il suffit de refaire le jeton, donc on le reporte sans compter d'essai — il repart seul une
+      // fois le jeton remplacé. Une alerte par jour, et le passage n'est en échec que ce jour-là :
+      // un jeton mort ne doit pas signaler un échec toutes les 20 minutes.
+      if (jetonInvalide(err)) {
+        item.lastError = err.message;
+        item.reportsJeton = (item.reportsJeton ?? 0) + 1;
+        if (item.reportsJeton >= REPORTS_JETON_MAX) {
+          item.status = 'failed';
+          await notify(`❌ <b>${NAMES[channel.id]}</b> : abandon après ${item.reportsJeton} reports, le jeton est toujours refusé
+${esc(item.article.title)}`);
+        } else {
+          item.dueAt = now + HOUR;
+        }
+        console.error(`Jeton refusé par ${channel.id} : ${err.message}`);
+        const jour = dayKey(now, TZ);
+        if (controls.alerteJeton !== jour) {
+          controls.alerteJeton = jour;
+          failed++;
+          await notify(`🔑 <b>Jeton ${NAMES[channel.id]} refusé</b>
+${esc(err.message)}
+
+Les publications concernées sont mises en attente, pas abandonnées : elles repartiront dès le jeton refait.`);
+        }
         continue;
       }
       failed++;

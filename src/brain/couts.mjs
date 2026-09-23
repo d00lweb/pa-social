@@ -67,6 +67,9 @@ export async function enregistrer({ modele, usage, quoi = 'dossier', now = Date.
 // Budget mensuel : au-delà, le rédacteur n'est plus appelé. C'est un filet, pas un réglage courant —
 // au rythme mesuré (un appel par article, 5,6 centimes), un mois ordinaire coûte moins de 2 $.
 export const BUDGET_MOIS = config.budgetMensuelUSD ?? 3;
+// Au plafond : prévenir seulement, ou couper le rédacteur. Par défaut on prévient — une publication
+// dégradée coûte plus cher en qualité que quelques centimes de dépassement.
+export const COUPER_AU_PLAFOND = config.couperAuPlafond === true;
 
 export function budgetDuMois(releve = {}, now = Date.now(), timeZone = TZ) {
   const mois = dayKey(now, timeZone).slice(0, 7);
@@ -89,13 +92,47 @@ export async function verifierBudget({ now = Date.now(), envoyer } = {}) {
     await saveJson('ia.json', memo);
     const euros = (n) => `${n.toFixed(2).replace('.', ',')} $`;
     const texte = etat.depasse
-      ? `🛑 <b>Budget IA du mois atteint</b> — ${euros(etat.depense)} sur ${euros(etat.budget)}.\nLe rédacteur n'est plus appelé : les publications partent en version de secours jusqu'au 1er du mois.\nPour relever le plafond : <code>budgetMensuelUSD</code> dans config/editorial.json.`
-      : `⚠️ <b>Budget IA : ${Math.round(etat.part * 100)} % consommés</b> — ${euros(etat.depense)} sur ${euros(etat.budget)}.\nAu-delà, les publications passeront en version de secours.`;
+      ? COUPER_AU_PLAFOND
+        ? `🛑 <b>Budget IA du mois atteint</b> — ${euros(etat.depense)} sur ${euros(etat.budget)}.\nLe rédacteur n'est plus appelé : les publications partent en version de secours jusqu'au 1er du mois.\nPour relever le plafond : <code>budgetMensuelUSD</code> dans config/channels.json.`
+        : `🛑 <b>Budget IA du mois dépassé</b> — ${euros(etat.depense)} sur ${euros(etat.budget)}.\nLe rédacteur continue d'écrire : rien n'est dégradé. Pour qu'il s'arrête au plafond, passer <code>couperAuPlafond</code> à <code>true</code> dans config/channels.json.`
+      : `⚠️ <b>Budget IA : ${Math.round(etat.part * 100)} % consommés</b> — ${euros(etat.depense)} sur ${euros(etat.budget)}.${COUPER_AU_PLAFOND ? '\nAu-delà, les publications passeront en version de secours.' : '\nAu-delà, tu seras prévenu : le rédacteur continuera d’écrire normalement.'}`;
     const envoi = envoyer ?? (await import('../channels/telegram.mjs')).alert;
     await envoi(texte).catch(() => {});
   }
   return etat;
 }
+
+// Point quotidien sur la dépense, envoyé une fois par jour au premier passage après 8 h.
+// C'est le suivi ordinaire : les alertes de seuil, elles, signalent un écart.
+export async function resumeQuotidienCouts({ now = Date.now(), envoyer } = {}) {
+  const jour = dayKey(now, TZ);
+  if (localHeure(now) < 8) return null;
+  const memo = await loadJson('ia.json', {});
+  if (memo.resume === jour) return null;
+
+  const releve = await loadJson('couts.json', {});
+  const hier = dayKey(now - 86400e3, TZ);
+  const veille = releve[hier];
+  const etat = budgetDuMois(releve, now, TZ);
+  memo.resume = jour;
+  await saveJson('ia.json', memo);
+
+  const euros = (n) => `${n.toFixed(2).replace('.', ',')} $`;
+  const numeroJour = Number(jour.slice(8));
+  const joursDuMois = new Date(Number(jour.slice(0, 4)), Number(jour.slice(5, 7)), 0).getDate();
+  const projection = numeroJour ? (etat.depense / numeroJour) * joursDuMois : 0;
+  const lignes = [
+    '💶 <b>Rédacteur IA — point du jour</b>',
+    veille ? `Hier : ${veille.appels} appel${veille.appels > 1 ? 's' : ''}, ${euros(veille.cout)}` : 'Hier : aucun appel',
+    `Ce mois-ci : <b>${euros(etat.depense)}</b> sur ${euros(etat.budget)} (${Math.round(etat.part * 100)} %)`,
+    `Fin de mois au rythme actuel : ${euros(projection)}`,
+  ];
+  const envoi = envoyer ?? (await import('../channels/telegram.mjs')).send;
+  await envoi(lignes.join('\n')).catch(() => {});
+  return { depense: etat.depense, projection };
+}
+
+const localHeure = (ms, timeZone = TZ) => Number(new Intl.DateTimeFormat('en-GB', { timeZone, hour: '2-digit', hourCycle: 'h23' }).format(new Date(ms)));
 
 // Rédacteur injoignable (crédit épuisé, panne de l'API, clé refusée) : sans lui, les cinq réseaux
 // publient une copie dégradée, sans accroche travaillée ni compte mentionné. Une alerte par jour,

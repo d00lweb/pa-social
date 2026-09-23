@@ -180,8 +180,8 @@
         <div class="jauge-tete"><span>Budget du mois</span><b>${dollars(cMois.cout)} $ / ${dollars(BUDGET)} $</b></div>
         <div class="jauge"><i class="${part >= 1 ? 'plein' : part >= 0.7 ? 'chaud' : ''}" style="width:${Math.min(100, Math.round(part * 100))}%"></i></div>
         <p class="note">${part >= 1
-          ? 'Plafond atteint : le rédacteur n’est plus appelé, les publications partent en version de secours jusqu’au 1ᵉʳ du mois.'
-          : `Au-delà, le rédacteur n’est plus appelé. Alerte Telegram à 70 %. Reste ${dollars(Math.max(0, BUDGET - cMois.cout))} $, soit environ ${Math.floor(Math.max(0, BUDGET - cMois.cout) / (moyenne || 0.056))} articles.`}</p>
+          ? 'Plafond dépassé : tu es prévenu sur Telegram, le rédacteur continue d’écrire normalement (réglage couperAuPlafond).'
+          : `Alerte Telegram à 70 %, puis au plafond. Le rédacteur continue d’écrire dans tous les cas. Reste ${dollars(Math.max(0, BUDGET - cMois.cout))} $, soit environ ${Math.floor(Math.max(0, BUDGET - cMois.cout) / (moyenne || 0.056))} articles.`}</p>
       </div>
       <div class="puces">
         <span class="puce">Coût moyen d’un appel <b>${dollars(moyenne)} $</b></span>

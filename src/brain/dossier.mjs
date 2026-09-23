@@ -6,7 +6,7 @@ import { frenchTypography, pickHighlight } from './editorial.mjs';
 import { resolvePlace, candidateZones, placeNames } from './geo.mjs';
 import { checkDossier } from './guards.mjs';
 import { fallbackDossier, sansDate } from './fallback.mjs';
-import { signalerIaIndisponible, verifierBudget } from './couts.mjs';
+import { signalerIaIndisponible, verifierBudget, COUPER_AU_PLAFOND } from './couts.mjs';
 import { nextAngles, nextEmojiPositions } from './memory.mjs';
 
 const ed = JSON.parse(readFileSync(fromRoot('config/editorial.json'), 'utf8'));
@@ -91,10 +91,11 @@ export async function buildDossier(article, { memory, useCache = false, log = co
     return fallbackDossier(article);
   }
 
-  // Filet de dépense : au-delà du budget du mois, on n'appelle plus le rédacteur. L'article est
-  // alors reporté comme lors d'une panne (jusqu'à 6 h), puis publié avec les règles s'il le faut.
+  // Suivi de la dépense : l'alerte Telegram part à 70 % puis au plafond. Le rédacteur ne s'arrête
+  // que si `couperAuPlafond` est activé — sinon on préfère quelques centimes de dépassement à une
+  // publication dégradée. L'article serait alors reporté (6 h) avant de partir avec les règles.
   const budget = await verifierBudget({ now: Date.now() });
-  if (budget.depasse) {
+  if (budget.depasse && COUPER_AU_PLAFOND) {
     log(`   IA : budget du mois atteint (${budget.depense.toFixed(2)} $ sur ${budget.budget} $), règles de secours`);
     return { ...fallbackDossier(article), raison: 'budget-atteint' };
   }

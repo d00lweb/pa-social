@@ -89,3 +89,12 @@ test('budget du mois : alerte à 70 %, plus aucun appel au-delà de 100 %', asyn
   // seuls les jours du mois en cours comptent
   assert.equal(budgetDuMois({ '2026-08-31': { appels: 9, cout: 9 } }, now).depense, 0);
 });
+
+test('au plafond, on prévient sans couper : le réglage est explicite', async () => {
+  const { COUPER_AU_PLAFOND, verifierBudget } = await import('../src/brain/couts.mjs');
+  assert.equal(COUPER_AU_PLAFOND, false, 'par défaut le rédacteur continue : une publication dégradée coûte plus cher que quelques centimes');
+  const envoyes = [];
+  // le relevé réel sert de base : on vérifie seulement la forme du message, pas le montant
+  await verifierBudget({ now: Date.parse('2026-09-24T09:00:00Z'), envoyer: async (t) => envoyes.push(t) });
+  if (envoyes.length) assert.doesNotMatch(envoyes[0], /version de secours/, 'tant que couperAuPlafond est faux, aucun message ne promet une coupure');
+});

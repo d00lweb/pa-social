@@ -12,6 +12,7 @@ import { recolterLieux } from './measure/recolte.mjs';
 import { collecter } from './measure/collect.mjs';
 import { releverAbonnes, saisirAbonnes, lireNombre } from './measure/abonnes.mjs';
 import { completerLiens } from './measure/liens.mjs';
+import { resumeQuotidienCouts } from './brain/couts.mjs';
 import { diffuser } from './measure/diffusion.mjs';
 import { ecrire as ecrirePilotage } from './measure/pilotage.mjs';
 import { publierPublic } from './measure/public.mjs';
@@ -468,6 +469,8 @@ async function main() {
     // abonnés de chaque compte, une fois par jour : suivi commencé le 18/09/2026
     await releverAbonnes({ now: ctx.now, log: console.log }).catch((e) => console.error(`Abonnés : ${e.message}`));
     await diffuser({ history, mesures, now: ctx.now });
+    // point quotidien sur la dépense du rédacteur IA, une fois par jour après 8 h
+    await resumeQuotidienCouts({ now: ctx.now }).catch((e) => console.error(`Point coûts : ${e.message}`));
     await verifierJetons({ now: ctx.now });
     // Lieux tagués sur la page Facebook, à la main ou par le robot : appris une fois, réutilisés partout.
     // Le support des vérifications est une image déjà publiée, donc publique et hébergée chez nous.

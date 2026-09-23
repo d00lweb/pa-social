@@ -82,10 +82,12 @@ test('budget du mois : alerte à 70 %, plus aucun appel au-delà de 100 %', asyn
   const { budgetDuMois, BUDGET_MOIS } = await import('../src/brain/couts.mjs');
   const jour = (cout) => ({ '2026-09-23': { appels: 1, entree: 0, sortie: 0, cout, parModele: {}, parUsage: {} } });
   const now = Date.parse('2026-09-23T16:00:00Z');
-  assert.equal(BUDGET_MOIS, 3, 'plafond fixé à 3 $ par mois');
-  assert.equal(budgetDuMois(jour(1.2), now).depasse, false);
-  assert.equal(Math.round(budgetDuMois(jour(2.1), now).part * 100), 70, 'seuil d’alerte');
-  assert.equal(budgetDuMois(jour(3), now).depasse, true, 'au plafond, le rédacteur n’est plus appelé');
+  // 23/09/2026 : 3 $ était un chiffre posé avant d'avoir mesuré. L'essai comparatif donne 0,091 $
+  // par article avec Opus 5, soit 4,65 $ par mois au rythme relevé de 1,7 article par jour.
+  assert.equal(BUDGET_MOIS, 5, 'plafond fixé à 5 $ par mois');
+  assert.equal(budgetDuMois(jour(2), now).depasse, false);
+  assert.equal(Math.round(budgetDuMois(jour(3.5), now).part * 100), 70, 'seuil d’alerte');
+  assert.equal(budgetDuMois(jour(5), now).depasse, true, 'au plafond, le rédacteur n’est plus appelé');
   assert.equal(budgetDuMois({}, now).depense, 0);
   // seuls les jours du mois en cours comptent
   assert.equal(budgetDuMois({ '2026-08-31': { appels: 9, cout: 9 } }, now).depense, 0);
@@ -183,10 +185,10 @@ test('le montant facturé par Anthropic prime sur le relevé maison', async () =
   // Le relevé maison ne démarre qu'au jour de sa mise en service : il ignorait tout le début du
   // mois. « npm run couts:sync » va chercher la facturation réelle, qui fait foi.
   const releve = { '2026-09-23': { appels: 27, cout: 1.514 } };
-  const facture = { maj: '2026-09-23T17:00:00Z', jours: { '2026-09-17': 0.9, '2026-09-23': 1.4 }, total: 2.3 };
+  const facture = { maj: '2026-09-23T17:00:00Z', jours: { '2026-09-17': 2.1, '2026-09-23': 1.4 }, total: 3.5 };
   const etat = budgetDuMois(releve, now, 'Europe/Paris', facture);
-  assert.equal(etat.depense, 2.3, 'les jours antérieurs au relevé comptent aussi');
-  assert.equal(Math.round(etat.part * 100), 77, 'l’alerte des 70 % part sur le montant facturé');
+  assert.equal(etat.depense, 3.5, 'les jours antérieurs au relevé comptent aussi');
+  assert.equal(Math.round(etat.part * 100), 70, 'l’alerte des 70 % part sur le montant facturé');
   // la facturation peut avoir quelques heures de retard : on ne descend jamais sous le relevé
   const enRetard = budgetDuMois(releve, now, 'Europe/Paris', { maj: '2026-09-23T06:00:00Z', jours: { '2026-09-23': 0.2 } });
   assert.equal(enRetard.depense, 1.514, 'le plus élevé des deux l’emporte');

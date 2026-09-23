@@ -39,10 +39,13 @@ async function jetonMeta(nom, token) {
   }
   if (d.is_valid === false) return ko('jeton invalide');
   ok(`valide · type ${d.type ?? '?'}`);
-  if (d.type === 'PAGE') info('jeton de Page : lié à la session du compte qui l’a créé');
-  if (d.type === 'SYSTEM_USER' || d.type === 'SYSTEM_USER_APP') ok('utilisateur système : indépendant d’une session personnelle');
   const expire = d.expires_at ? new Date(d.expires_at * 1000) : null;
   const acces = d.data_access_expires_at ? new Date(d.data_access_expires_at * 1000) : null;
+  // un jeton de Page sans aucune échéance vient d'un utilisateur système : il ne dépend d'aucune
+  // session personnelle, donc un mot de passe changé ou un contrôle de sécurité ne le tue pas
+  if (d.type === 'SYSTEM_USER' || d.type === 'SYSTEM_USER_APP') ok('utilisateur système : indépendant d’une session personnelle');
+  else if (d.type === 'PAGE' && !expire && !acces) ok('jeton de Page sans aucune échéance : signature d’un utilisateur système');
+  else if (d.type === 'PAGE') info('jeton de Page daté : issu d’une session personnelle, il peut être invalidé avec elle');
   info(`expiration du jeton : ${expire ? `${expire.toLocaleDateString('fr-FR')} (${Math.round((expire - Date.now()) / JOUR)} j)` : 'aucune'}`);
   if (acces) {
     const jours = Math.round((acces - Date.now()) / JOUR);

@@ -42,15 +42,18 @@ export async function saisirAbonnes(id, n, { now = Date.now(), timeZone = config
   return { jour, avant };
 }
 
-// Un relevé par jour, au premier passage de la journée. Un réseau illisible ce jour-là reste vide :
-// les comparaisons prennent la valeur disponible la plus proche, rien n'est inventé.
+// Un relevé par jour, au premier passage de la journée. Un compte illisible (jeton refusé, panne du
+// réseau) est réessayé aux passages suivants, jusqu'à ce qu'il réponde : le 23/09/2026, Facebook et
+// Instagram sont restés vides toute la journée parce qu'une case remplie à « null » comptait comme lue.
+// Les comparaisons prennent la valeur disponible la plus proche, rien n'est inventé.
 // Une saisie manuelle faite plus tôt dans la journée ne dispense pas du relevé automatique.
-export async function releverAbonnes({ now = Date.now(), log = console.log, timeZone = config.timezone } = {}) {
-  const releves = await loadJson('abonnes.json', {});
+export async function releverAbonnes({ now = Date.now(), log = console.log, timeZone = config.timezone, lecteurs = LECTEURS, dir } = {}) {
+  const releves = await loadJson('abonnes.json', {}, ...(dir ? [dir] : []));
   const jour = dayKey(now, timeZone);
-  if (Object.keys(LECTEURS).every((id) => id in (releves[jour] ?? {}))) return releves;
+  const manquants = Object.entries(lecteurs).filter(([id]) => !Number.isFinite(releves[jour]?.[id]));
+  if (!manquants.length) return releves;
   const ligne = {};
-  for (const [id, lecteur] of Object.entries(LECTEURS)) {
+  for (const [id, lecteur] of manquants) {
     try {
       const n = await lecteur();
       ligne[id] = Number.isFinite(n) ? n : null;
@@ -60,7 +63,7 @@ export async function releverAbonnes({ now = Date.now(), log = console.log, time
     }
   }
   releves[jour] = { ...releves[jour], ...ligne };
-  await saveJson('abonnes.json', releves);
+  await saveJson('abonnes.json', releves, ...(dir ? [dir] : []));
   log(`Abonnés du ${jour} : ${Object.entries(ligne).map(([k, v]) => `${k} ${v ?? '?'}`).join(' · ')}`);
   return releves;
 }

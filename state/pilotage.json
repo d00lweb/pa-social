@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-23T15:00:45.767Z",
+  "genereLe": "2026-09-23T15:20:51.625Z",
   "jour": "2026-09-23",
   "reseaux": {
     "instagram": {
@@ -160,14 +160,30 @@
         "lien",
         "reponse"
       ],
-      "aujourdhui": 1,
-      "semaine": 11,
-      "total": 12,
-      "dernier": "2026-09-23T07:20:45.297Z",
+      "aujourdhui": 2,
+      "semaine": 12,
+      "total": 13,
+      "dernier": "2026-09-23T15:20:59.732Z",
       "lienDernier": null
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35635",
+      "titre": "Une levure fait déjà perdre 1° d’alcool au vin : à Bordeaux, la recherche va plus loin",
+      "lien": "https://passion-aquitaine.ouest-france.fr/levures-vin-changement-climatique-bordeaux/",
+      "at": "2026-09-23T15:20:59.732Z",
+      "reseaux": {
+        "x": {
+          "texte": "Des vins moins alcoolisés sans perdre leur goût : à #Bordeaux, une levure permet déjà de retirer 1° d’alcool. Les chercheurs poursuivent leurs travaux avec Oenoledge pour adapter les vignobles au changement climatique 🍷\n➡️ https://passion-aquitaine.ouest-france.fr/levures-vin-changement-climatique-bordeaux/",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260923-fffcf708-x.jpg",
+          "mode": "image",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-09-23T15:20:59.732Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35446",
       "titre": "Près de Limoges, on dort au milieu des girafes et des loups",
@@ -399,57 +415,19 @@
           "publieLe": "2026-09-20T06:07:43.299Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=34145",
-      "titre": "À Capbreton, un canyon de 4 500 mètres dort sous les bateaux",
-      "lien": "https://passion-aquitaine.ouest-france.fr/gouf-capbreton-canyon-abysse-landes/",
-      "at": "2026-09-19T19:15:44.864Z",
-      "reseaux": {
-        "bluesky": {
-          "texte": "🐋 Devant les plages de #Capbreton, le plancher océanique s’effondre : le Gouf plonge à 4 500 mètres, à seulement 300 mètres du bord. Ce canyon explique les vagues d’Hossegor et la présence de cachalots et d’orques.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260919-139f1e9d-bsky.jpg",
-          "mode": "reply",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/gouf-capbreton-canyon-abysse-landes/",
-          "sujet": null,
-          "publieLe": "2026-09-19T07:26:34.983Z"
-        },
-        "x": {
-          "texte": "Le Gouf de #Capbreton commence 🌊 à 300 mètres des plages et descend à 4 500 mètres. Ce canyon sous-marin façonne les vagues d’Hossegor et attire cachalots et orques au large des Landes.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260919-139f1e9d-x.jpg",
-          "mode": "reponse",
-          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/gouf-capbreton-canyon-abysse-landes/",
-          "sujet": null,
-          "publieLe": "2026-09-19T08:00:55.324Z"
-        },
-        "threads": {
-          "texte": "Se baigner à quelques mètres d’un canyon de 4 500 mètres de profondeur, c’est possible à Capbreton 🌊 Le Gouf démarre à 300 mètres des plages. C’est lui qui donne aux vagues d’Hossegor leur réputation, et qui attire au large cachalots et orques. De quoi regarder l’horizon landais autrement lors de votre prochaine baignade.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260919-139f1e9d-th.jpg",
-          "mode": "reponse",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/gouf-capbreton-canyon-abysse-landes/",
-          "sujet": "Capbreton",
-          "publieLe": "2026-09-19T09:13:35.029Z"
-        },
-        "instagram": {
-          "texte": "À 300 mètres du sable, le fond de l’océan tombe à 4 500 mètres de profondeur\n⠀\nLe Gouf de Capbreton est un canyon sous-marin qui commence juste devant les plages 🌊 Il façonne les vagues d’Hossegor et attire cachalots et orques.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Capbreton #Hossegor #Landes",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260919-139f1e9d-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-19T10:14:43.372Z"
-        },
-        "facebook": {
-          "texte": "Capbreton cache un canyon sous-marin de 4 500 mètres, à 300 mètres des plages 🌊",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260919-139f1e9d-fb.jpg",
-          "mode": null,
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/gouf-capbreton-canyon-abysse-landes/",
-          "sujet": null,
-          "publieLe": "2026-09-19T19:15:44.864Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "x",
+      "at": "2026-09-23T15:20:59.732Z",
+      "titre": "Une levure fait déjà perdre 1° d’alcool au vin : à Bordeaux, la recherche va plus loin",
+      "lien": "https://passion-aquitaine.ouest-france.fr/levures-vin-changement-climatique-bordeaux/",
+      "lienPost": null,
+      "format": "image",
+      "texte": "Des vins moins alcoolisés sans perdre leur goût : à #Bordeaux, une levure permet déjà de retirer 1° d’alcool. Les chercheurs poursuivent leurs travaux avec Oenoledge pour adapter les vignobles au changement climatique 🍷\n➡️ https://passion-aquitaine.ouest-france.fr/levures-vin-changement-climatique-bordeaux/",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260923-fffcf708-x.jpg"
+    },
     {
       "channel": "instagram",
       "at": "2026-09-23T11:30:15.672Z",
@@ -539,28 +517,9 @@
       "format": "reponse",
       "texte": "Le 30 septembre 2026, plus de 200 danseurs tentent un record du monde de French Cancan sur le Miroir d’eau de Bordeaux 📍",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20260922-6c111e03-th.jpg"
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-09-21T11:27:50.317Z",
-      "titre": "En Vienne, huit monuments cachent 500 ans de peintures murales",
-      "lien": "https://passion-aquitaine.ouest-france.fr/vallee-des-fresques-gartempe-vienne/",
-      "lienPost": "https://www.instagram.com/p/DdjDVYpmPB4/",
-      "format": null,
-      "texte": "Entre Saint-Savin et Saulgé, huit édifices religieux forment la Vallée des Fresques, un itinéraire méconnu de peintures murales en Vienne.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Vienne #Patrimoine #NouvelleAquitaine",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20260921-881162d1-1.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "x",
-      "dueAt": "2026-09-23T15:20:00.000Z",
-      "prochainPassage": "2026-09-23T15:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Une levure fait déjà perdre 1° d’alcool au vin : à Bordeaux, la recherche va plus loin"
-    },
     {
       "channel": "instagram",
       "dueAt": "2026-09-23T17:03:55.902Z",
@@ -677,7 +636,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-09-23T14:20:41.060Z"
+    "derniere": "2026-09-23T15:20:51.625Z"
   },
   "abonnes": {
     "instagram": {
@@ -723,7 +682,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-23T15:00:46.801Z",
+    "genereLe": "2026-09-23T15:21:06.615Z",
     "posts": 39,
     "parReseau": {
       "threads": {
@@ -891,7 +850,7 @@
     "publies": {
       "instagram": 14,
       "bluesky": 12,
-      "x": 12,
+      "x": 13,
       "facebook": 8,
       "threads": 9
     },
@@ -949,29 +908,30 @@
   },
   "couts": {
     "jour": {
-      "appels": 27,
-      "entree": 187306,
-      "sortie": 23092,
-      "cout": 1.51383,
+      "appels": 96,
+      "entree": 670272,
+      "sortie": 207594,
+      "cout": 4.940082,
       "cle": "2026-09-23"
     },
     "semaine": {
-      "appels": 27,
-      "entree": 187306,
-      "sortie": 23092,
-      "cout": 1.51383
+      "appels": 96,
+      "entree": 670272,
+      "sortie": 207594,
+      "cout": 4.940082
     },
     "mois": {
-      "appels": 27,
-      "entree": 187306,
-      "sortie": 23092,
-      "cout": 1.51383,
+      "appels": 96,
+      "entree": 670272,
+      "sortie": 207594,
+      "cout": 4.940082,
       "cle": "2026-09"
     },
-    "projection": 1.97,
-    "moyenneAppel": 0.0561,
+    "projection": 6.44,
+    "moyenneAppel": 0.0515,
     "parModele": {
-      "claude-opus-5": 27
+      "claude-opus-5": 45,
+      "claude-sonnet-5": 51
     },
     "serie": [
       [
@@ -1028,7 +988,7 @@
       ],
       [
         "2026-09-23",
-        1.5138
+        4.9401
       ]
     ],
     "depuis": "2026-09-23"

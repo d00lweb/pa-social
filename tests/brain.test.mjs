@@ -158,3 +158,28 @@ test('contrôles : début de ligne, hashtag et rubrique ne sont pas des noms inv
   d.instagram.texte = 'Comprendre le matrimoine en une minute 🎭\nVous connaissiez ce mot bordelais ?';
   assert.deepEqual(checkDossier(d, ctx), []);
 });
+
+test('surlignage : un chiffre avec son unité est valide, même si l’unité est un petit mot', async () => {
+  const { checkDossier } = await import('../src/brain/guards.mjs');
+  const { readFileSync } = await import('node:fs');
+  const { fromRoot } = await import('../src/core/config.mjs');
+  const ed = JSON.parse(readFileSync(fromRoot('config/editorial.json'), 'utf8'));
+  // 23/09/2026 : « 500 ans » était refusé parce que « ans » figure dans les petits mots, alors que
+  // la charte demande justement un chiffre avec son unité. L'article repartait pour un tour — un
+  // appel facturé de plus, pour un surlignage qui était le bon.
+  const base = {
+    nature: 'evergreen', sensible: false, rubrique: 'Vienne',
+    visuel: { titre: 'Huit monuments cachent 500 ans de peintures murales', surlignage: '500 ans', description: 'Des fresques du Moyen Âge à nos jours, huit monuments de la Vienne conservent des peintures murales.', texte_alternatif: 'Des peintures murales couvrent les murs de huit monuments de la Vienne.' },
+    instagram: { texte: 'Huit monuments de la Vienne cachent des fresques 🎨\nCertaines remontent à plusieurs siècles.', hashtags: ['#Vienne', '#Fresques', '#Patrimoine'] },
+    facebook: { texte: 'Huit monuments de la Vienne conservent des peintures murales que presque personne ne regarde 🎨' },
+    bluesky: { texte: 'En Vienne, huit monuments conservent des peintures murales qui couvrent cinq siècles de savoir-faire, des fresques religieuses aux décors plus tardifs 🎨', hashtag: '#Vienne' },
+    threads: { texte: 'On passe devant sans lever les yeux : huit monuments de la Vienne gardent des peintures murales sur cinq siècles 🖌️', sujet: 'Vienne' },
+    x: { texte: 'Huit monuments de la Vienne conservent 500 ans de peintures murales 🖌️' },
+  };
+  const source = 'Huit monuments cachent 500 ans de peintures murales\nDes fresques du Moyen Âge à nos jours, huit monuments de la Vienne conservent des peintures murales.\nVienne';
+  const ctx = { ...ed, source, knownNames: [...ed.knownNames, 'Moyen', 'Âge'] };
+  assert.ok(!checkDossier(base, ctx).some((p) => p.includes('petit mot')), '« 500 ans » passe');
+  // le petit mot en tête reste refusé, et un petit mot final sans chiffre devant aussi
+  const enTete = { ...base, visuel: { ...base.visuel, titre: 'Ces ans de peintures murales oubliées', surlignage: 'ans de peintures' } };
+  assert.ok(checkDossier(enTete, ctx).some((p) => p.includes('petit mot')), 'commencer par un petit mot reste refusé');
+});

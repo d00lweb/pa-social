@@ -22,7 +22,8 @@
     "meta:check": "node --env-file=.env scripts/meta-check.mjs",
     "meta:page": "node --env-file=.env scripts/meta-page.mjs",
     "couts:sync": "node --env-file=.env scripts/couts-console.mjs",
-    "couts:facture": "node --env-file=.env scripts/couts-console.mjs"
+    "couts:facture": "node --env-file=.env scripts/couts-console.mjs",
+    "essai:modele": "node --env-file=.env scripts/essai-modele.mjs"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.125.0",

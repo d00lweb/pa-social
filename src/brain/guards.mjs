@@ -65,7 +65,12 @@ export function checkDossier(d, { source, limits, stopwords, genericCategories, 
   if (!surlignage || !titre.includes(surlignage)) problems.push('le surlignage doit être copié exactement depuis le titre du visuel');
   const hl = tokens(surlignage);
   if (hl.length > 3 || graphemes(surlignage) > limits.highlight) problems.push(`surlignage trop long (3 mots et ${limits.highlight} caractères max)`);
-  if (hl.length && (stop.has(fold(hl[0])) || stop.has(fold(hl.at(-1))))) problems.push(`surlignage « ${surlignage} » : ne doit ni commencer ni finir par un petit mot`);
+  // Un chiffre suivi de son unité est le meilleur surlignage qui soit (« 500 ans », « 2 500 animaux ») :
+  // le mot qui le suit ne compte pas comme petit mot, même s'il figure dans la liste (an, ans, fois…).
+  const chiffreEnTete = hl.length > 1 && /^\d/.test(hl[0]);
+  if (hl.length && (stop.has(fold(hl[0])) || (!chiffreEnTete && stop.has(fold(hl.at(-1)))))) {
+    problems.push(`surlignage « ${surlignage} » : ne doit ni commencer ni finir par un petit mot`);
+  }
   if (hl.length === 1 && graphemes(hl[0]) < 3 && !/\d/.test(hl[0])) problems.push(`surlignage « ${surlignage} » trop faible`);
   if (graphemes(d.visuel.texte_alternatif) > limits.altText) problems.push('texte alternatif trop long');
   if (!d.visuel.description?.trim()) problems.push('texte de la 2ᵉ image vide');

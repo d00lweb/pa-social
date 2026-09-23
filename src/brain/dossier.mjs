@@ -64,7 +64,9 @@ export function reparer(dossier, problems) {
 }
 
 // Dossier de publication d'un article : IA contrôlée, sinon règles de secours
-export async function buildDossier(article, { memory, useCache = false, log = console.log } = {}) {
+// `modele` et `effort` ne servent qu'aux essais comparatifs (scripts/essai-modele.mjs) : la
+// production prend ceux de config/editorial.json, pour que l'essai passe par le même code qu'elle.
+export async function buildDossier(article, { memory, useCache = false, log = console.log, modele = ed.model, effort = ed.effort } = {}) {
   const place = resolvePlace(article);
   const angles = nextAngles(memory, ed.angles, ed.networks);
   const emojiPlacement = nextEmojiPositions(memory, ed.emojiPositions, ed.networks);
@@ -123,7 +125,7 @@ export async function buildDossier(article, { memory, useCache = false, log = co
   for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt++) {
     let result;
     try {
-      result = await askEditor({ system, payload: corrections ? { ...payload, corrections } : payload, model: ed.model, effort: ed.effort });
+      result = await askEditor({ system, payload: corrections ? { ...payload, corrections } : payload, model: modele, effort });
     } catch (err) {
       log(`   IA indisponible (${err.message}) : règles de secours`);
       // prévenir une fois par jour : sans rédacteur, les cinq réseaux publient une copie dégradée

@@ -1,0 +1,882 @@
+{
+  "quand": "2026-09-23T15:04:33.915Z",
+  "articles": [
+    "Une levure fait déjà perdre 1° d’alcool au vin : à Bordeaux, la recherche va plus loin",
+    "Près de Limoges, on dort au milieu des girafes et des loups",
+    "À Bordeaux, 200 danseurs pour un French Cancan géant sur le Miroir d’Eau",
+    "En Vienne, huit monuments cachent 500 ans de peintures murales",
+    "Ces dauphins près des plages d’Hossegor ne sont pas bon signe",
+    "Cette maison du Lot-et-Garonne raconte la vie de son propriétaire à travers 600 céramiques",
+    "À Capbreton, un canyon de 4 500 mètres dort sous les bateaux",
+    "Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée du Périgord",
+    "Morimoto Bordeaux dévoile son nouveau menu déjeuner à 33 €",
+    "Le brunch le plus généreux de Bordeaux a rouvert ses portes"
+  ],
+  "resultats": [
+    {
+      "modele": "claude-opus-5",
+      "effort": "low",
+      "nom": "opus-5 · effort low",
+      "articles": 10,
+      "valides": 9,
+      "replis": 1,
+      "appels": 16,
+      "essaiMoyen": 1.44,
+      "entreeMoyenne": 6968,
+      "sortieMoyenne": 894,
+      "secondes": 19.2,
+      "refus": {
+        "IA essai 1 refusé : threads : emoji(s) 🍇 déjà utilisés dans les derniers posts": 1,
+        "IA essai 1 refusé : nom propre absent des données : Bourse": 1,
+        "bluesky : trop proche d'une accroche récente": 1,
+        "IA essai 2 refusé : nom propre absent des données : XIXe": 1,
+        "IA essai 3 refusé : nom propre absent des données : Bourse": 1,
+        "IA essai 1 refusé : surlignage « 500 ans » : ne doit ni commencer ni finir par un petit mot": 1,
+        "nom propre absent des données : Moyen": 1,
+        "nom propre absent des données : Renaissance": 1,
+        "IA essai 2 refusé : bluesky : trop proche d'une accroche récente": 1,
+        "IA essai 1 refusé : instagram : au moins 1 emoji (choisi selon le sujet)": 1
+      },
+      "cout": 0.9106,
+      "coutParArticle": 0.0911,
+      "coutParAppel": 0.0569,
+      "lignes": [
+        {
+          "titre": "Une levure fait déjà perdre 1° d’alcool au vin : à Bordeaux, la recherche va plus loin",
+          "valide": true,
+          "essais": 2,
+          "secondes": 24.8,
+          "usage": {
+            "input": 7045,
+            "output": 894
+          },
+          "messages": [
+            "IA essai 1 refusé : threads : emoji(s) 🍇 déjà utilisés dans les derniers posts",
+            "IA : dossier validé (essai 2, 7045 + 894 tokens)"
+          ],
+          "textes": {
+            "rubrique": "Bordeaux",
+            "visuelTitre": "Une levure fait déjà perdre 1° d’alcool au vin : la recherche va plus loin",
+            "surlignage": "1° d’alcool",
+            "description": "Avec la création d’Oenoledge, les chercheurs bordelais poursuivent leurs travaux sur les levures pour adapter les vins au changement climatique.",
+            "instagram": "Un degré d’alcool en moins dans le verre, grâce à une simple levure 🧪\nÀ Bordeaux, les chercheurs poursuivent leurs travaux avec la création d’Oenoledge, pour adapter les vins de Gironde au changement climatique.",
+            "facebook": "À Bordeaux, des levures étudiées en laboratoire pourraient bien changer le goût de nos prochains millésimes 🧫",
+            "bluesky": "🔬 Réduire l’alcool d’un vin sans toucher à la vigne : c’est déjà possible grâce à une levure, qui fait perdre un degré. Avec Oenoledge, les chercheurs de Bordeaux poussent la recherche plus loin pour affronter le changement climatique.",
+            "threads": "Des vins plus légers, sans sacrifier le plaisir du verre : c’est la promesse d’une levure qui retire déjà un degré d’alcool 🍾 À Bordeaux, la création d’Oenoledge permet aux chercheurs d’aller plus loin dans l’étude de ces micro-organismes, pour adapter les vins au réchauffement. De quoi imaginer les bouteilles des prochaines décennies.",
+            "x": "Ce ne sont ni le cépage ni la vendange qui font baisser le degré, mais 🧫 une levure : elle retire déjà 1° d’alcool au vin. À Bordeaux, Oenoledge prolonge ces recherches pour adapter les vins au changement climatique."
+          }
+        },
+        {
+          "titre": "Près de Limoges, on dort au milieu des girafes et des loups",
+          "valide": true,
+          "essais": 1,
+          "secondes": 10.4,
+          "usage": {
+            "input": 6938,
+            "output": 886
+          },
+          "messages": [
+            "IA : dossier validé (essai 1, réparé : surlignage, 6938 + 886 tokens)"
+          ],
+          "textes": {
+            "rubrique": "Haute-Vienne",
+            "visuelTitre": "Près de Limoges, on dort au milieu des girafes et des loups",
+            "surlignage": "Limoges",
+            "description": "Au Parc Zoo du Reynou, des lodges sont installés face à l’enclos des girafes et au cœur de celui des loups, à dix minutes de Limoges.",
+            "instagram": "À dix minutes de Limoges, une nuit se passe à quelques mètres des girafes 🦒\nAu Parc Zoo du Reynou, des lodges sont posés face aux grands herbivores, d’autres au cœur de l’enclos des loups. Un hébergement insolite en Haute-Vienne.",
+            "facebook": "Votre voisin de chambre peut être une girafe, ou une meute de loups, à quelques minutes de Limoges 🦒",
+            "bluesky": "Dormir à quelques mètres d’une girafe, se réveiller au milieu d’un enclos de loups : le Parc Zoo du Reynou, à dix minutes de Limoges, propose des lodges installés au plus près des animaux. Une nuit de zoo plutôt qu’une simple visite 🐺",
+            "threads": "🐺 On connaît le Parc Zoo du Reynou pour ses animaux, moins pour ses lodges. Certains donnent directement sur les girafes, d’autres sont installés au cœur de l’enclos des loups, à dix minutes de Limoges. De quoi transformer une visite en nuit entière. Vous tenteriez l’expérience ?",
+            "x": "Se réveiller avec une girafe derrière la vitre 🦒 À dix minutes de Limoges, le Parc Zoo du Reynou loue des lodges face aux grands herbivores, et d’autres installés au cœur de l’enclos des loups."
+          }
+        },
+        {
+          "titre": "À Bordeaux, 200 danseurs pour un French Cancan géant sur le Miroir d’Eau",
+          "valide": false,
+          "essais": 3,
+          "secondes": 36.1,
+          "usage": null,
+          "messages": [
+            "IA essai 1 refusé : nom propre absent des données : Bourse | bluesky : trop proche d'une accroche récente",
+            "IA essai 2 refusé : nom propre absent des données : XIXe",
+            "IA essai 3 refusé : nom propre absent des données : Bourse",
+            "IA : contrôles non satisfaits, règles de secours"
+          ],
+          "textes": {
+            "rubrique": "Bordeaux",
+            "visuelTitre": "200 danseurs pour un French Cancan géant sur le Miroir d’Eau",
+            "surlignage": "200 danseurs",
+            "description": "Le 30 septembre 2026, plus de 200 danseurs tentent un record du monde de French Cancan sur le Miroir d’eau de Bordeaux.",
+            "instagram": "Le 30 septembre 2026, plus de 200 danseurs tentent un record du monde de French Cancan sur le Miroir d’eau de Bordeaux 💃",
+            "facebook": "Plus de 200 danseurs tentent un record du monde de French Cancan sur le Miroir d’eau de Bordeaux 💃",
+            "bluesky": "Le 30 septembre 2026, plus de 200 danseurs tentent un record du monde de French Cancan sur le Miroir d’eau de Bordeaux 💃",
+            "threads": "Le 30 septembre 2026, plus de 200 danseurs tentent un record du monde de French Cancan sur le Miroir d’eau de Bordeaux 💃",
+            "x": "Plus de 200 danseurs tentent un record du monde de French Cancan sur le Miroir d’eau de Bordeaux 💃"
+          }
+        },
+        {
+          "titre": "En Vienne, huit monuments cachent 500 ans de peintures murales",
+          "valide": true,
+          "essais": 3,
+          "secondes": 36.4,
+          "usage": {
+            "input": 6967,
+            "output": 895
+          },
+          "messages": [
+            "IA essai 1 refusé : surlignage « 500 ans » : ne doit ni commencer ni finir par un petit mot | nom propre absent des données : Moyen | nom propre absent des données : Renaissance",
+            "IA essai 2 refusé : bluesky : trop proche d'une accroche récente",
+            "IA : dossier validé (essai 3, 6967 + 895 tokens)"
+          ],
+          "textes": {
+            "rubrique": "Vienne",
+            "visuelTitre": "Huit monuments cachent 500 ans de peintures murales",
+            "surlignage": "peintures murales",
+            "description": "De Saint-Savin à Saulgé, huit édifices religieux composent la Vallée des Fresques, un itinéraire encore méconnu à travers cinq siècles de décors peints.",
+            "instagram": "Un itinéraire de huit édifices religieux à parcourir entre Saint-Savin et Saulgé, dans la Vienne\nLa Vallée des Fresques réunit cinq siècles de peintures murales, dans des églises souvent ignorées des visiteurs. De quoi construire une belle journée de visites 🎨",
+            "facebook": "Huit églises de la Vienne conservent des décors peints que presque personne ne vient voir 🖌️",
+            "bluesky": "Des murs peints il y a cinq siècles, encore lisibles aujourd’hui dans huit édifices religieux 🎨 Entre Saint-Savin et Saulgé, la Vallée des Fresques trace un itinéraire discret à travers le patrimoine peint de la Vienne.",
+            "threads": "On connaît Saint-Savin et son abbaye. Mais sept autres édifices religieux prolongent l’histoire jusqu’à Saulgé, avec 🎨 cinq siècles de peintures murales réunies sur un même itinéraire, la Vallée des Fresques. Un parcours encore très peu fréquenté dans la Vienne. Vous en aviez déjà entendu parler ?",
+            "x": "500 ans de peintures murales réparties dans huit édifices religieux : entre Saint-Savin et Saulgé, la Vallée des Fresques forme un itinéraire méconnu du patrimoine de la Vienne 🖌️"
+          }
+        },
+        {
+          "titre": "Ces dauphins près des plages d’Hossegor ne sont pas bon signe",
+          "valide": true,
+          "essais": 1,
+          "secondes": 13.4,
+          "usage": {
+            "input": 6953,
+            "output": 913
+          },
+          "messages": [
+            "IA : dossier validé (essai 1, 6953 + 913 tokens)"
+          ],
+          "textes": {
+            "rubrique": "Côte landaise",
+            "visuelTitre": "Ces dauphins près des plages d’Hossegor ne sont pas bon signe",
+            "surlignage": "dauphins",
+            "description": "Au large d’Hossegor et de Capbreton, les dauphins s’approchent du rivage et ravissent les promeneurs. Une biologiste marine, elle, y lit un signal d’alerte pour l’océan.",
+            "instagram": "Voir des dauphins depuis la plage d’Hossegor n’a rien d’une bonne nouvelle pour l’océan\nÀ Capbreton comme à Hossegor, les promeneurs s’arrêtent net devant les ailerons 🐬 Une biologiste marine explique pourquoi cette proximité inhabituelle avec le rivage l’inquiète.",
+            "facebook": "Des ailerons à quelques mètres du sable landais : faut-il vraiment s’en réjouir 🐬",
+            "bluesky": "🌊 Et si ces dauphins si proches du rivage disaient quelque chose de l’état de l’océan ? Entre Hossegor et Capbreton, les promeneurs les observent avec émerveillement. Une biologiste marine, elle, y voit un signal d’alerte.",
+            "threads": "Des dauphins visibles depuis la plage, c’est le genre de scène qu’on raconte le soir même 🐬 Sauf qu’entre Hossegor et Capbreton, une biologiste marine ne partage pas l’enthousiasme des promeneurs : cette proximité avec le rivage ressemble davantage à un avertissement qu’à une belle surprise. Vous en avez déjà croisé sur la côte landaise ?",
+            "x": "Entre Hossegor et Capbreton, les dauphins s’approchent des plages et attirent les promeneurs 🐬 Une biologiste marine y voit pourtant un signal d’alerte pour l’océan."
+          }
+        },
+        {
+          "titre": "Cette maison du Lot-et-Garonne raconte la vie de son propriétaire à travers 600 céramiques",
+          "valide": true,
+          "essais": 1,
+          "secondes": 11.7,
+          "usage": {
+            "input": 6970,
+            "output": 961
+          },
+          "messages": [
+            "IA : dossier validé (essai 1, 6970 + 961 tokens)"
+          ],
+          "textes": {
+            "rubrique": "Lot-et-Garonne",
+            "visuelTitre": "Cette maison raconte la vie de son propriétaire à travers 600 céramiques",
+            "surlignage": "600 céramiques",
+            "description": "Décorée par Léon De Brondeau, la Maison des Assiettes rouvre ses portes le temps des Journées Européennes du Patrimoine. Ses murs couverts d’assiettes composent le récit d’une vie entière.",
+            "instagram": "Six cents assiettes couvrent les murs de cette maison du Lot-et-Garonne, et chacune a son histoire 🍽️\nLéon De Brondeau y a raconté sa vie entière en céramiques. La Maison des Assiettes rouvre ses portes pour les Journées Européennes du Patrimoine.",
+            "facebook": "Que raconte un homme quand il tapisse sa maison de 600 assiettes du sol au plafond 🍽️",
+            "bluesky": "600 céramiques recouvrent les murs d’une maison du Lot-et-Garonne. Léon De Brondeau y a inscrit, assiette après assiette, le récit de sa propre vie. La Maison des Assiettes rouvre pour les Journées Européennes du Patrimoine 🏺",
+            "threads": "🏠 En Lot-et-Garonne, une maison entière sert de livre ouvert. Léon De Brondeau en a décoré les murs avec 600 céramiques, qui racontent son parcours et sa vie. On l’appelle la Maison des Assiettes, et elle rouvre ses portes le temps des Journées Européennes du Patrimoine.",
+            "x": "Une maison du Lot-et-Garonne se lit comme une autobiographie 🖼️ Léon De Brondeau en a couvert les murs de 600 céramiques. La Maison des Assiettes rouvre pour les Journées Européennes du Patrimoine."
+          }
+        },
+        {
+          "titre": "À Capbreton, un canyon de 4 500 mètres dort sous les bateaux",
+          "valide": true,
+          "essais": 1,
+          "secondes": 11.7,
+          "usage": {
+            "input": 6972,
+            "output": 887
+          },
+          "messages": [
+            "IA : dossier validé (essai 1, 6972 + 887 tokens)"
+          ],
+          "textes": {
+            "rubrique": "Côte landaise",
+            "visuelTitre": "Un canyon de 4 500 mètres dort sous les bateaux, à Capbreton",
+            "surlignage": "4 500 mètres",
+            "description": "À 300 mètres des plages, le Gouf de Capbreton plonge dans les profondeurs. Cette faille sous-marine façonne les vagues d’Hossegor et attire cachalots et orques.",
+            "instagram": "Et si l’eau devenait noire à 300 mètres du bord ?\nÀ Capbreton, le Gouf plonge jusqu’à 4 500 mètres sous la surface. Ce canyon sous-marin fabrique les vagues d’Hossegor et attire cachalots et orques au large des Landes 🐋",
+            "facebook": "4 500 mètres de profondeur à 300 mètres des plages : le Gouf de Capbreton n’a rien d’une légende 🌊",
+            "bluesky": "Capbreton cache un canyon sous-marin qui descend à 4 500 mètres de fond 🐋 Il démarre à 300 mètres seulement des plages. Cette faille explique les vagues puissantes d’Hossegor et la présence de cachalots et d’orques au large.",
+            "threads": "On imagine le fond de l’océan comme une pente douce. À Capbreton, il s’effondre 🐋 à 300 mètres du rivage, le Gouf plonge jusqu’à 4 500 mètres. C’est ce gouffre qui donne aux vagues d’Hossegor leur puissance, et qui amène cachalots et orques tout près de la côte landaise.",
+            "x": "Les vagues d’Hossegor ne doivent rien au hasard : un canyon de 4 500 mètres de profondeur commence à 300 mètres des plages de Capbreton. Cachalots et orques y circulent 🌊"
+          }
+        },
+        {
+          "titre": "Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée du Périgord",
+          "valide": true,
+          "essais": 2,
+          "secondes": 21.7,
+          "usage": {
+            "input": 6984,
+            "output": 838
+          },
+          "messages": [
+            "IA essai 1 refusé : instagram : au moins 1 emoji (choisi selon le sujet)",
+            "IA : dossier validé (essai 2, réparé : surlignage, 6984 + 838 tokens)"
+          ],
+          "textes": {
+            "rubrique": "Périgord",
+            "visuelTitre": "Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée du Périgord",
+            "surlignage": "80 km",
+            "description": "La Périgordine Ultra Trail lance sa première édition le 27 septembre. Le parcours relie grotte, rivière et châteaux, et fait découvrir une histoire méconnue du territoire.",
+            "instagram": "80 km de sentiers 🏃 entre une grotte, une rivière et des châteaux du Périgord.\nLa Périgordine Ultra Trail lance sa toute première édition le 27 septembre. Un parcours qui raconte une histoire méconnue de la Dordogne, pas à pas.",
+            "facebook": "En Périgord, un nouveau tracé de 80 km fait passer les coureurs d’une grotte à des châteaux 🏰",
+            "bluesky": "🏰 On pense course d’endurance, on découvre un parcours d’histoire. La première Périgordine Ultra Trail emmène les coureurs sur 80 km, d’une grotte à une rivière puis à des châteaux du Périgord, le 27 septembre.",
+            "threads": "Courir peut aussi servir à apprendre quelque chose 🏃 La première Périgordine Ultra Trail propose 80 km à travers une grotte, une rivière et des châteaux, le 27 septembre. De quoi repartir avec une lecture différente du Périgord, celle d’une histoire qu’on ne raconte pas toujours aux visiteurs.",
+            "x": "Une grotte, une rivière, des châteaux 🏰 : le tracé de 80 km de la première Périgordine Ultra Trail passe par une histoire méconnue du Périgord. Première édition le 27 septembre."
+          }
+        },
+        {
+          "titre": "Morimoto Bordeaux dévoile son nouveau menu déjeuner à 33 €",
+          "valide": true,
+          "essais": 1,
+          "secondes": 12.6,
+          "usage": {
+            "input": 6950,
+            "output": 913
+          },
+          "messages": [
+            "IA : dossier validé (essai 1, 6950 + 913 tokens)"
+          ],
+          "textes": {
+            "rubrique": "Bordeaux",
+            "visuelTitre": "Morimoto dévoile son nouveau menu déjeuner à 33 €",
+            "surlignage": "33 €",
+            "description": "Au sein du Mondrian Bordeaux Les Carmes, le restaurant japonais propose une formule du midi servie en 45 minutes, pensée pour les pauses déjeuner courtes.",
+            "instagram": "À Bordeaux, le Morimoto du Mondrian Les Carmes ouvre sa table du midi à une formule courte 🍣\nUn menu déjeuner à 33 €, servi en 45 minutes, pour goûter la cuisine japonaise du chef sans y passer l’après-midi.",
+            "facebook": "Une table signée Morimoto en 45 minutes chrono et pour 33 € le midi, vous vous attendiez à ce prix 🍱",
+            "bluesky": "Déjeuner japonais à Bordeaux sans sacrifier sa pause : le Morimoto du Mondrian Les Carmes lance une formule à 33 €, servie en 45 minutes. De quoi découvrir la cuisine du chef au tarif d’un repas de midi 🍜",
+            "threads": "🥢 Détail qui change tout dans ce nouveau menu déjeuner du Morimoto, au Mondrian Bordeaux Les Carmes : il est calibré pour être servi en 45 minutes. Une table japonaise de ce niveau à 33 € le midi, avec la contrainte de l’heure de pause en tête. Vous tenteriez l’expérience entre deux rendez-vous ?",
+            "x": "Un comptoir japonais, un plateau posé en quelques minutes et l’addition à 33 € 🍣 Le Morimoto du Mondrian Bordeaux Les Carmes lance un menu déjeuner servi en 45 minutes."
+          }
+        },
+        {
+          "titre": "Le brunch le plus généreux de Bordeaux a rouvert ses portes",
+          "valide": true,
+          "essais": 1,
+          "secondes": 13,
+          "usage": {
+            "input": 6934,
+            "output": 863
+          },
+          "messages": [
+            "IA : dossier validé (essai 1, réparé : surlignage, 6934 + 863 tokens)"
+          ],
+          "textes": {
+            "rubrique": "Bordeaux",
+            "visuelTitre": "Le brunch le plus généreux de Bordeaux a rouvert ses portes",
+            "surlignage": "portes",
+            "description": "Fermé pour travaux, le brunch gargantuesque du Sans Pression accueille de nouveau les clients depuis le 12 septembre, avec un tarif revu.",
+            "instagram": "🥞 Le brunch réputé le plus copieux de Bordeaux est de retour, et son tarif a changé\nAprès des travaux, le Sans Pression a rouvert le 12 septembre avec sa formule gargantuesque. De quoi caler une matinée entière dans le centre de Bordeaux.",
+            "facebook": "Les travaux sont finis : le brunch le plus copieux de la ville revient avec un nouveau tarif 🥐",
+            "bluesky": "Fermé pour travaux, le Sans Pression a rouvert ses portes 🍳 Son brunch, connu à Bordeaux pour ses portions démesurées, est de nouveau servi depuis le 12 septembre. Détail passé inaperçu : le tarif de la formule a été revu.",
+            "threads": "Des tables couvertes d’assiettes, des convives qui renoncent au dessert faute de place : le brunch du Sans Pression avait laissé des souvenirs à Bordeaux. Après une fermeture pour travaux, il est servi de nouveau depuis le 12 septembre, avec un tarif revu 🥓",
+            "x": "🍽️ Combien de temps tenez-vous devant le brunch le plus copieux de Bordeaux ? Fermé pour travaux, le Sans Pression a rouvert le 12 septembre et propose sa formule gargantuesque à un tarif revu."
+          }
+        }
+      ]
+    },
+    {
+      "modele": "claude-sonnet-5",
+      "effort": "low",
+      "nom": "sonnet-5 · effort low",
+      "articles": 10,
+      "valides": 3,
+      "replis": 7,
+      "appels": 28,
+      "essaiMoyen": 2.33,
+      "entreeMoyenne": 7063,
+      "sortieMoyenne": 1979,
+      "secondes": 30.8,
+      "refus": {
+        "bluesky : trop proche d'une accroche récente": 7,
+        "instagram et x reprennent les mêmes tournures": 6,
+        "bluesky : au moins 1 emoji (choisi selon le sujet)": 6,
+        "x : emoji pas en tête pour ce post (devant l'information clé)": 4,
+        "bluesky et x reprennent les mêmes tournures": 4,
+        "threads : emoji(s) 🍇 déjà utilisés dans les derniers posts": 3,
+        "IA essai 1 refusé : bluesky : au moins 1 emoji (choisi selon le sujet)": 3,
+        "threads : emoji pas en tête pour ce post (devant l'information clé)": 3,
+        "threads et x reprennent les mêmes tournures": 3,
+        "facebook et threads reprennent les mêmes tournures": 3,
+        "instagram et bluesky reprennent les mêmes tournures": 3,
+        "x : trop proche d'une accroche récente": 3,
+        "IA essai 1 refusé : instagram : emoji pas en tête pour ce post (devant l'information clé)": 2,
+        "bluesky : emoji(s) 📍 déjà utilisés dans les derniers posts": 2,
+        "threads : pas de point juste avant un emoji": 2,
+        "IA essai 1 refusé : surlignage trop long (3 mots et 24 caractères max)": 2,
+        "facebook : emoji(s) 📍 déjà utilisés dans les derniers posts": 2,
+        "IA essai 3 refusé : surlignage trop long (3 mots et 24 caractères max)": 2,
+        "facebook et bluesky reprennent les mêmes tournures": 2,
+        "instagram : emoji(s) 📍 déjà utilisés dans les derniers posts": 2,
+        "facebook : emoji(s) 🍇 déjà utilisés dans les derniers posts": 1,
+        "IA essai 2 refusé : surlignage trop long (3 mots et 24 caractères max)": 1,
+        "nom propre absent des données : Bourse": 1,
+        "IA essai 2 refusé : bluesky : pas de point juste avant un emoji": 1,
+        "IA essai 1 refusé : surlignage « 500 ans » : ne doit ni commencer ni finir par un petit mot": 1,
+        "IA essai 2 refusé : instagram : pas de point juste avant un emoji": 1,
+        "IA essai 3 refusé : surlignage « 500 ans » : ne doit ni commencer ni finir par un petit mot": 1,
+        "IA essai 2 refusé : instagram : emoji pas en tête pour ce post (devant l'information clé)": 1,
+        "IA essai 3 refusé : instagram : emoji pas en tête pour ce post (devant l'information clé)": 1,
+        "bluesky : emoji attendu en tête du texte": 1,
+        "IA essai 2 refusé : instagram et bluesky reprennent les mêmes tournures": 1,
+        "IA essai 3 refusé : facebook : emoji(s) 📍 déjà utilisés dans les derniers posts": 1,
+        "IA essai 1 refusé : instagram : au moins 1 emoji (choisi selon le sujet)": 1,
+        "threads : pas de question pour ce post (questions limitées)": 1,
+        "IA essai 2 refusé : instagram : au moins 1 emoji (choisi selon le sujet)": 1,
+        "IA essai 3 refusé : threads : emoji pas en tête pour ce post (devant l'information clé)": 1,
+        "IA essai 1 refusé : x : emoji pas en tête pour ce post (devant l'information clé)": 1,
+        "IA essai 2 refusé : x : emoji pas en tête pour ce post (devant l'information clé)": 1,
+        "IA essai 3 refusé : x : emoji pas en tête pour ce post (devant l'information clé)": 1,
+        "x : emoji(s) 📍 déjà utilisés dans les derniers posts": 1,
+        "IA essai 2 refusé : surlignage « le plus généreux » : ne doit ni commencer ni finir par un petit mot": 1,
+        "bluesky : emoji pas en tête pour ce post (devant l'information clé)": 1
+      },
+      "cout": 0.6746,
+      "coutParArticle": 0.0675,
+      "coutParAppel": 0.0241,
+      "lignes": [
+        {
+          "titre": "Une levure fait déjà perdre 1° d’alcool au vin : à Bordeaux, la recherche va plus loin",
+          "valide": true,
+          "essais": 2,
+          "secondes": 33.9,
+          "usage": {
+            "input": 7190,
+            "output": 2673
+          },
+          "messages": [
+            "IA essai 1 refusé : instagram : emoji pas en tête pour ce post (devant l'information clé) | facebook : emoji(s) 🍇 déjà utilisés dans les derniers posts | bluesky : emoji(s) 📍 déjà utilisés dans les derniers posts | threads : emoji(s) 🍇 déjà utilisés dans les derniers posts | threads : pas de point juste avant un emoji | x : emoji pas en tête pour ce post (devant l'information clé)",
+            "IA : dossier validé (essai 2, 7190 + 2673 tokens)"
+          ],
+          "textes": {
+            "rubrique": "Bordeaux",
+            "visuelTitre": "Une levure fait déjà perdre 1° d’alcool au vin : la recherche va plus loin",
+            "surlignage": "1° d’alcool",
+            "description": "Avec la création d’Oenoledge, les chercheurs bordelais poursuivent leurs travaux sur les levures pour adapter les vins au changement climatique.",
+            "instagram": "1° d’alcool en moins grâce à une simple levure 🌡️ : à Bordeaux, les chercheurs veulent aller encore plus loin.\n\nAvec la création d’Oenoledge, les scientifiques bordelais poursuivent leurs recherches sur les levures pour adapter le vin au changement climatique.",
+            "facebook": "À Bordeaux, une simple levure fait déjà baisser d’un degré le taux d’alcool du vin, et les chercheurs veulent aller plus loin 🌡️",
+            "bluesky": "🍇 Une levure suffit déjà à retirer un degré d’alcool au vin : à Bordeaux, les chercheurs vont plus loin avec Oenoledge, pour adapter le vin au changement climatique.",
+            "threads": "Des vins plus légers sans perdre leur caractère 🍷 À Bordeaux, les chercheurs travaillent sur des levures capables d’adapter le vin au changement climatique, avec la création d’Oenoledge. Pour les amateurs, ça pourrait vouloir dire des bouteilles mieux équilibrées, même avec des étés plus chauds.",
+            "x": "Une levure fait déjà perdre 1° d’alcool au vin 🍇 : à Bordeaux, les chercheurs de l’unité Oenoledge veulent aller plus loin face au changement climatique."
+          }
+        },
+        {
+          "titre": "Près de Limoges, on dort au milieu des girafes et des loups",
+          "valide": false,
+          "essais": 3,
+          "secondes": 29.2,
+          "usage": null,
+          "messages": [
+            "IA essai 1 refusé : surlignage trop long (3 mots et 24 caractères max) | instagram et x reprennent les mêmes tournures | bluesky : trop proche d'une accroche récente",
+            "IA essai 2 refusé : surlignage trop long (3 mots et 24 caractères max) | facebook : emoji(s) 📍 déjà utilisés dans les derniers posts | bluesky : au moins 1 emoji (choisi selon le sujet) | bluesky : trop proche d'une accroche récente",
+            "IA essai 3 refusé : surlignage trop long (3 mots et 24 caractères max) | bluesky et x reprennent les mêmes tournures | bluesky : trop proche d'une accroche récente",
+            "IA : contrôles non satisfaits, règles de secours"
+          ],
+          "textes": {
+            "rubrique": "Limoges",
+            "visuelTitre": "On dort au milieu des girafes et des loups",
+            "surlignage": "des loups",
+            "description": "À dix minutes de Limoges, les lodges du Parc Zoo du Reynou permettent de dormir face aux girafes ou au cœur de l’enclos des loups.",
+            "instagram": "À dix minutes de Limoges, les lodges du Parc Zoo du Reynou permettent de dormir face aux girafes ou au cœur de l’enclos des loups 🐺",
+            "facebook": "À dix minutes de Limoges, les lodges du Parc Zoo du Reynou permettent de dormir face aux girafes ou au cœur de l’enclos des loups 🐺",
+            "bluesky": "À dix minutes de Limoges, les lodges du Parc Zoo du Reynou permettent de dormir face aux girafes ou au cœur de l’enclos des loups 🐺",
+            "threads": "À dix minutes de Limoges, les lodges du Parc Zoo du Reynou permettent de dormir face aux girafes ou au cœur de l’enclos des loups 🐺",
+            "x": "À dix minutes de Limoges, les lodges du Parc Zoo du Reynou permettent de dormir face aux girafes ou au cœur de l’enclos des loups 🐺"
+          }
+        },
+        {
+          "titre": "À Bordeaux, 200 danseurs pour un French Cancan géant sur le Miroir d’Eau",
+          "valide": true,
+          "essais": 3,
+          "secondes": 41.6,
+          "usage": {
+            "input": 6987,
+            "output": 2391
+          },
+          "messages": [
+            "IA essai 1 refusé : bluesky : au moins 1 emoji (choisi selon le sujet) | nom propre absent des données : Bourse",
+            "IA essai 2 refusé : bluesky : pas de point juste avant un emoji | bluesky : trop proche d'une accroche récente",
+            "IA : dossier validé (essai 3, 6987 + 2391 tokens)"
+          ],
+          "textes": {
+            "rubrique": "Bordeaux",
+            "visuelTitre": "200 danseurs pour un French Cancan géant sur le Miroir d’Eau",
+            "surlignage": "French Cancan géant",
+            "description": "Le 30 septembre 2026, plus de 200 danseurs tentent un record du monde sur le Miroir d’eau, symbole de la ville.",
+            "instagram": "💃 200 danseurs vont tenter un record du monde en plein cœur de Bordeaux\nLe 30 septembre 2026, ils envahissent le Miroir d’eau pour un French Cancan géant, une tentative de record du monde inédite dans la ville.",
+            "facebook": "Le Miroir d’eau de Bordeaux va vibrer sous les pas de 200 danseurs de French Cancan 🎊",
+            "bluesky": "Bordeaux tente un record inhabituel : plus de 200 danseurs de French Cancan réunis sur le Miroir d’eau pour une chorégraphie géante 🕺, symbole inattendu de la ville.",
+            "threads": "Imaginez le Miroir d’eau de Bordeaux recouvert de jupons et de froufrous : plus de 200 danseurs s’apprêtent à y exécuter un French Cancan géant, dans une tentative de record du monde le 30 septembre 2026 🎭",
+            "x": "🎉 Combien de danseurs faut-il pour un record du monde de French Cancan ? Réponse au Miroir d’eau de Bordeaux, où plus de 200 participants tentent l’exploit le 30 septembre 2026."
+          }
+        },
+        {
+          "titre": "En Vienne, huit monuments cachent 500 ans de peintures murales",
+          "valide": false,
+          "essais": 3,
+          "secondes": 40.6,
+          "usage": null,
+          "messages": [
+            "IA essai 1 refusé : surlignage « 500 ans » : ne doit ni commencer ni finir par un petit mot | threads : emoji pas en tête pour ce post (devant l'information clé) | bluesky : trop proche d'une accroche récente | threads et x reprennent les mêmes tournures",
+            "IA essai 2 refusé : instagram : pas de point juste avant un emoji | facebook et bluesky reprennent les mêmes tournures | facebook et threads reprennent les mêmes tournures | bluesky : trop proche d'une accroche récente",
+            "IA essai 3 refusé : surlignage « 500 ans » : ne doit ni commencer ni finir par un petit mot | threads : emoji pas en tête pour ce post (devant l'information clé) | facebook et threads reprennent les mêmes tournures | bluesky : trop proche d'une accroche récente",
+            "IA : contrôles non satisfaits, règles de secours"
+          ],
+          "textes": {
+            "rubrique": "Vienne",
+            "visuelTitre": "Huit monuments cachent 500 ans de peintures murales",
+            "surlignage": "500",
+            "description": "Entre Saint-Savin et Saulgé, huit édifices religieux forment la Vallée des Fresques, un itinéraire méconnu de peintures murales en Vienne.",
+            "instagram": "Entre Saint-Savin et Saulgé, huit édifices religieux forment la Vallée des Fresques, un itinéraire méconnu de peintures murales en Vienne 🖼️",
+            "facebook": "Entre Saint-Savin et Saulgé, huit édifices religieux forment la Vallée des Fresques, un itinéraire méconnu de peintures murales en 🖼️",
+            "bluesky": "Entre Saint-Savin et Saulgé, huit édifices religieux forment la Vallée des Fresques, un itinéraire méconnu de peintures murales en Vienne 🖼️",
+            "threads": "Entre Saint-Savin et Saulgé, huit édifices religieux forment la Vallée des Fresques, un itinéraire méconnu de peintures murales en Vienne 🖼️",
+            "x": "Entre Saint-Savin et Saulgé, huit édifices religieux forment la Vallée des Fresques, un itinéraire méconnu de peintures murales en Vienne 🖼️"
+          }
+        },
+        {
+          "titre": "Ces dauphins près des plages d’Hossegor ne sont pas bon signe",
+          "valide": false,
+          "essais": 3,
+          "secondes": 31,
+          "usage": null,
+          "messages": [
+            "IA essai 1 refusé : instagram : emoji pas en tête pour ce post (devant l'information clé) | x : emoji pas en tête pour ce post (devant l'information clé)",
+            "IA essai 2 refusé : instagram : emoji pas en tête pour ce post (devant l'information clé) | bluesky : emoji(s) 📍 déjà utilisés dans les derniers posts | x : emoji pas en tête pour ce post (devant l'information clé)",
+            "IA essai 3 refusé : instagram : emoji pas en tête pour ce post (devant l'information clé) | bluesky : au moins 1 emoji (choisi selon le sujet) | bluesky : emoji attendu en tête du texte | x : emoji pas en tête pour ce post (devant l'information clé)",
+            "IA : contrôles non satisfaits, règles de secours"
+          ],
+          "textes": {
+            "rubrique": "Côte landaise",
+            "visuelTitre": "Ces dauphins près des plages d’Hossegor ne sont pas bon signe",
+            "surlignage": "Hossegor",
+            "description": "Les dauphins vus près d’Hossegor et Capbreton émerveillent les promeneurs. Une biologiste marine y voit pourtant un signal d’alerte.",
+            "instagram": "Les dauphins vus près d’Hossegor et Capbreton émerveillent les promeneurs. Une biologiste marine y voit pourtant un signal d’alerte 🐬",
+            "facebook": "Une biologiste marine y voit pourtant un signal d’alerte 🐬",
+            "bluesky": "Les dauphins vus près d’Hossegor et Capbreton émerveillent les promeneurs. Une biologiste marine y voit pourtant un signal d’alerte 🐬",
+            "threads": "Les dauphins vus près d’Hossegor et Capbreton émerveillent les promeneurs. Une biologiste marine y voit pourtant un signal d’alerte 🐬",
+            "x": "Une biologiste marine y voit pourtant un signal d’alerte 🐬"
+          }
+        },
+        {
+          "titre": "Cette maison du Lot-et-Garonne raconte la vie de son propriétaire à travers 600 céramiques",
+          "valide": false,
+          "essais": 3,
+          "secondes": 30.2,
+          "usage": null,
+          "messages": [
+            "IA essai 1 refusé : bluesky : au moins 1 emoji (choisi selon le sujet)",
+            "IA essai 2 refusé : instagram et bluesky reprennent les mêmes tournures | instagram et x reprennent les mêmes tournures | facebook et bluesky reprennent les mêmes tournures | bluesky et x reprennent les mêmes tournures",
+            "IA essai 3 refusé : facebook : emoji(s) 📍 déjà utilisés dans les derniers posts | bluesky : au moins 1 emoji (choisi selon le sujet) | threads : emoji(s) 🍇 déjà utilisés dans les derniers posts | instagram et bluesky reprennent les mêmes tournures",
+            "IA : contrôles non satisfaits, règles de secours"
+          ],
+          "textes": {
+            "rubrique": "Lot-et-Garonne",
+            "visuelTitre": "Cette maison du Lot-et-Garonne raconte la vie de son propriétaire à travers 600 céramiques",
+            "surlignage": "600 céramiques",
+            "description": "La Maison des Assiettes, décorée par Léon De Brondeau, va de nouveau ouvrir ses portes à l’occasion des Journées Européennes du Patrimoine.",
+            "instagram": "La Maison des Assiettes, décorée par Léon De Brondeau, va de nouveau ouvrir ses portes à l’occasion des Journées Européennes du Patrimoine 🏛️",
+            "facebook": "La Maison des Assiettes, décorée par Léon De Brondeau, va de nouveau ouvrir ses portes à l’occasion des Journées Européennes du 🏛️",
+            "bluesky": "La Maison des Assiettes, décorée par Léon De Brondeau, va de nouveau ouvrir ses portes à l’occasion des Journées Européennes du Patrimoine 🏛️",
+            "threads": "La Maison des Assiettes, décorée par Léon De Brondeau, va de nouveau ouvrir ses portes à l’occasion des Journées Européennes du Patrimoine 🏛️",
+            "x": "La Maison des Assiettes, décorée par Léon De Brondeau, va de nouveau ouvrir ses portes à l’occasion des Journées Européennes du Patrimoine 🏛️"
+          }
+        },
+        {
+          "titre": "À Capbreton, un canyon de 4 500 mètres dort sous les bateaux",
+          "valide": false,
+          "essais": 3,
+          "secondes": 30,
+          "usage": null,
+          "messages": [
+            "IA essai 1 refusé : instagram : au moins 1 emoji (choisi selon le sujet) | bluesky : au moins 1 emoji (choisi selon le sujet) | threads : emoji pas en tête pour ce post (devant l'information clé) | threads : pas de question pour ce post (questions limitées) | bluesky et x reprennent les mêmes tournures",
+            "IA essai 2 refusé : instagram : au moins 1 emoji (choisi selon le sujet) | bluesky : au moins 1 emoji (choisi selon le sujet) | threads : pas de point juste avant un emoji",
+            "IA essai 3 refusé : threads : emoji pas en tête pour ce post (devant l'information clé) | instagram et bluesky reprennent les mêmes tournures | instagram et x reprennent les mêmes tournures | facebook et threads reprennent les mêmes tournures | bluesky et x reprennent les mêmes tournures | threads et x reprennent les mêmes tournures",
+            "IA : contrôles non satisfaits, règles de secours"
+          ],
+          "textes": {
+            "rubrique": "Côte landaise",
+            "visuelTitre": "À Capbreton, un canyon de 4 500 mètres dort sous les bateaux",
+            "surlignage": "4 500 mètres",
+            "description": "À 300 mètres des plages de Capbreton, un canyon plonge à 4 500 mètres. Le Gouf crée les vagues d’Hossegor, attire cachalots et orques.",
+            "instagram": "À 300 mètres des plages de Capbreton, un canyon plonge à 4 500 mètres. Le Gouf crée les vagues d’Hossegor, attire cachalots et orques 🏖️",
+            "facebook": "À 300 mètres des plages de Capbreton, un canyon plonge à 4 500 mètres 🏖️",
+            "bluesky": "À 300 mètres des plages de Capbreton, un canyon plonge à 4 500 mètres. Le Gouf crée les vagues d’Hossegor, attire cachalots et orques 🏖️",
+            "threads": "À 300 mètres des plages de Capbreton, un canyon plonge à 4 500 mètres. Le Gouf crée les vagues d’Hossegor, attire cachalots et orques 🏖️",
+            "x": "À 300 mètres des plages de Capbreton, un canyon plonge à 4 500 mètres 🏖️"
+          }
+        },
+        {
+          "titre": "Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée du Périgord",
+          "valide": false,
+          "essais": 3,
+          "secondes": 25.6,
+          "usage": null,
+          "messages": [
+            "IA essai 1 refusé : x : emoji pas en tête pour ce post (devant l'information clé) | instagram et x reprennent les mêmes tournures | threads et x reprennent les mêmes tournures",
+            "IA essai 2 refusé : x : emoji pas en tête pour ce post (devant l'information clé)",
+            "IA essai 3 refusé : x : emoji pas en tête pour ce post (devant l'information clé)",
+            "IA : contrôles non satisfaits, règles de secours"
+          ],
+          "textes": {
+            "rubrique": "Périgord",
+            "visuelTitre": "Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée du Périgord",
+            "surlignage": "80 km",
+            "description": "La première édition de la Périgordine Ultra Trail a lieu le 27 septembre. Cette course permet de découvrir une histoire méconnue du Périgord.",
+            "instagram": "La première édition de la Périgordine Ultra Trail a lieu le 27 septembre. Cette course permet de découvrir une histoire méconnue du Périgord 🏞️",
+            "facebook": "La première édition de la Périgordine Ultra Trail a lieu 🏞️",
+            "bluesky": "La première édition de la Périgordine Ultra Trail a lieu le 27 septembre. Cette course permet de découvrir une histoire méconnue du Périgord 🏞️",
+            "threads": "La première édition de la Périgordine Ultra Trail a lieu le 27 septembre. Cette course permet de découvrir une histoire méconnue du Périgord 🏞️",
+            "x": "La première édition de la Périgordine Ultra Trail a lieu 🏞️"
+          }
+        },
+        {
+          "titre": "Morimoto Bordeaux dévoile son nouveau menu déjeuner à 33 €",
+          "valide": true,
+          "essais": 2,
+          "secondes": 18.9,
+          "usage": {
+            "input": 7012,
+            "output": 873
+          },
+          "messages": [
+            "IA essai 1 refusé : bluesky : au moins 1 emoji (choisi selon le sujet) | instagram et x reprennent les mêmes tournures",
+            "IA : dossier validé (essai 2, 7012 + 873 tokens)"
+          ],
+          "textes": {
+            "rubrique": "Bordeaux",
+            "visuelTitre": "Morimoto Bordeaux dévoile son nouveau menu déjeuner à 33 €",
+            "surlignage": "33 €",
+            "description": "Le restaurant Morimoto, au Mondrian Bordeaux Les Carmes, lance un menu déjeuner servi en 45 minutes. Une formule pensée pour une pause rapide sans sacrifier la qualité.",
+            "instagram": "À Bordeaux, le restaurant Morimoto propose un nouveau menu déjeuner 🍽️\n\nServi en seulement 45 minutes, ce menu à 33 € s’adresse à ceux qui veulent bien manger sans sacrifier leur pause de midi.",
+            "facebook": "33 € et 45 minutes chrono : le nouveau pari déjeuner de Morimoto à Bordeaux vous tente 🍽️",
+            "bluesky": "À Bordeaux, le restaurant Morimoto du Mondrian Les Carmes lance un menu déjeuner à 33 €, servi en 45 minutes chrono. De quoi concilier gastronomie et pause de midi sans perdre de temps 🍽️",
+            "threads": "🍽️ Peu de gens savent qu’on peut déjeuner chez Morimoto, au Mondrian Bordeaux Les Carmes, en seulement 45 minutes. Le restaurant vient de lancer un menu à 33 € pensé pour les pauses de midi. Vous testeriez ?",
+            "x": "Menu déjeuner à 33 €, servi en 45 minutes : le restaurant Morimoto du Mondrian Bordeaux Les Carmes revoit sa formule de midi 🍽️"
+          }
+        },
+        {
+          "titre": "Le brunch le plus généreux de Bordeaux a rouvert ses portes",
+          "valide": false,
+          "essais": 3,
+          "secondes": 26.6,
+          "usage": null,
+          "messages": [
+            "IA essai 1 refusé : surlignage trop long (3 mots et 24 caractères max) | instagram : emoji(s) 📍 déjà utilisés dans les derniers posts | facebook : emoji(s) 📍 déjà utilisés dans les derniers posts | bluesky : au moins 1 emoji (choisi selon le sujet) | threads : emoji(s) 🍇 déjà utilisés dans les derniers posts | x : emoji(s) 📍 déjà utilisés dans les derniers posts | x : trop proche d'une accroche récente",
+            "IA essai 2 refusé : surlignage « le plus généreux » : ne doit ni commencer ni finir par un petit mot | bluesky : emoji pas en tête pour ce post (devant l'information clé) | x : trop proche d'une accroche récente",
+            "IA essai 3 refusé : surlignage trop long (3 mots et 24 caractères max) | instagram : emoji(s) 📍 déjà utilisés dans les derniers posts | instagram et bluesky reprennent les mêmes tournures | instagram et x reprennent les mêmes tournures | x : trop proche d'une accroche récente",
+            "IA : contrôles non satisfaits, règles de secours"
+          ],
+          "textes": {
+            "rubrique": "Bordeaux",
+            "visuelTitre": "Le brunch le plus généreux de Bordeaux a rouvert ses portes",
+            "surlignage": "portes",
+            "description": "Fermé pour travaux, le brunch gargantuesque du Sans Pression a rouvert à Bordeaux le 12 septembre, avec un tarif revu.",
+            "instagram": "Fermé pour travaux, le brunch gargantuesque du Sans Pression a rouvert à Bordeaux le 12 septembre, avec un tarif revu 🥐",
+            "facebook": "Fermé pour travaux, le brunch gargantuesque du Sans Pression a rouvert à Bordeaux, avec un tarif revu 🥐",
+            "bluesky": "Fermé pour travaux, le brunch gargantuesque du Sans Pression a rouvert à Bordeaux le 12 septembre, avec un tarif revu 🥐",
+            "threads": "Fermé pour travaux, le brunch gargantuesque du Sans Pression a rouvert à Bordeaux le 12 septembre, avec un tarif revu 🥐",
+            "x": "Fermé pour travaux, le brunch gargantuesque du Sans Pression a rouvert à Bordeaux, avec un tarif revu 🥐"
+          }
+        }
+      ]
+    },
+    {
+      "modele": "claude-sonnet-5",
+      "effort": "high",
+      "nom": "sonnet-5 · effort high",
+      "articles": 10,
+      "valides": 7,
+      "replis": 3,
+      "appels": 20,
+      "essaiMoyen": 1.57,
+      "entreeMoyenne": 6999,
+      "sortieMoyenne": 7187,
+      "secondes": 128.3,
+      "refus": {
+        "x : emoji pas en tête pour ce post (devant l'information clé)": 4,
+        "IA essai 1 refusé : instagram : emoji pas en tête pour ce post (devant l'information clé)": 3,
+        "x : trop proche d'une accroche récente": 3,
+        "bluesky : trop proche d'une accroche récente": 2,
+        "facebook et bluesky reprennent les mêmes tournures": 2,
+        "facebook : trop proche d'une accroche récente": 1,
+        "IA essai 1 refusé : instagram : trop proche d'une accroche récente": 1,
+        "IA essai 1 refusé : surlignage « 500 ans » : ne doit ni commencer ni finir par un petit mot": 1,
+        "threads : emoji pas en tête pour ce post (devant l'information clé)": 1,
+        "threads et x reprennent les mêmes tournures": 1,
+        "hashtag invalide : « Hossegor »": 1,
+        "IA essai 2 refusé : instagram : première ligne > 125 caractères": 1,
+        "IA essai 3 refusé : x : emoji pas en tête pour ce post (devant l'information clé)": 1,
+        "IA essai 1 refusé : instagram et facebook reprennent les mêmes tournures": 1,
+        "instagram et x reprennent les mêmes tournures": 1,
+        "hashtag invalide : « Périgord »": 1,
+        "IA essai 2 refusé : bluesky et x reprennent les mêmes tournures": 1,
+        "IA essai 3 refusé : instagram : emoji pas en tête pour ce post (devant l'information clé)": 1,
+        "IA essai 1 refusé : facebook : trop proche d'une accroche récente": 1,
+        "IA essai 2 refusé : surlignage trop long (3 mots et 24 caractères max)": 1,
+        "IA essai 3 refusé : facebook : trop proche d'une accroche récente": 1
+      },
+      "cout": 1.659,
+      "coutParArticle": 0.1659,
+      "coutParAppel": 0.0829,
+      "lignes": [
+        {
+          "titre": "Une levure fait déjà perdre 1° d’alcool au vin : à Bordeaux, la recherche va plus loin",
+          "valide": true,
+          "essais": 2,
+          "secondes": 183.4,
+          "usage": {
+            "input": 7090,
+            "output": 11971
+          },
+          "messages": [
+            "IA essai 1 refusé : instagram : emoji pas en tête pour ce post (devant l'information clé) | x : emoji pas en tête pour ce post (devant l'information clé) | facebook : trop proche d'une accroche récente",
+            "IA : dossier validé (essai 2, 7090 + 11971 tokens)"
+          ],
+          "textes": {
+            "rubrique": "Bordeaux",
+            "visuelTitre": "Une levure fait déjà perdre 1° d’alcool au vin : à Bordeaux, la recherche va plus loin",
+            "surlignage": "1° d’alcool",
+            "description": "Avec la création d’Oenoledge, les chercheurs bordelais poursuivent l’étude des levures capables de réduire le degré d’alcool du vin, pour adapter les vignobles au changement climatique.",
+            "instagram": "À Bordeaux, une levure fait déjà perdre 🌡️1° d’alcool au vin\nLes chercheurs bordelais lancent Oenoledge pour aller plus loin dans l’étude des levures et adapter les vins au changement climatique.",
+            "facebook": "À Bordeaux, une levure fait déjà tomber le degré d’alcool du vin, et les chercheurs veulent aller plus loin 🧪",
+            "bluesky": "🔬 Une simple levure suffit déjà à faire perdre un degré d’alcool au vin. À Bordeaux, les chercheurs poursuivent leurs travaux pour adapter les vignobles au changement climatique, sans perdre en goût.",
+            "threads": "À Bordeaux, une levure permet déjà de réduire d’un degré le taux d’alcool du vin 🌱 Avec la création d’Oenoledge, les chercheurs veulent adapter les vignobles au changement climatique sans perdre en qualité de dégustation.",
+            "x": "À Bordeaux, une levure fait déjà 🍾 perdre un degré d’alcool au vin, avant même le lancement d’Oenoledge pour aller plus loin dans l’adaptation au changement climatique."
+          }
+        },
+        {
+          "titre": "Près de Limoges, on dort au milieu des girafes et des loups",
+          "valide": true,
+          "essais": 1,
+          "secondes": 47.4,
+          "usage": {
+            "input": 6938,
+            "output": 4751
+          },
+          "messages": [
+            "IA : dossier validé (essai 1, réparé : surlignage, 6938 + 4751 tokens)"
+          ],
+          "textes": {
+            "rubrique": "Haute-Vienne",
+            "visuelTitre": "Près de Limoges, on dort au milieu des girafes et des loups",
+            "surlignage": "Limoges",
+            "description": "Les lodges du Parc Zoo du Reynou, à dix minutes de Limoges, plongent les visiteurs au cœur des enclos, face aux girafes ou en immersion parmi les loups, pour une nuit hors du commun.",
+            "instagram": "À Limoges, on peut dormir au cœur d’un enclos de girafes ou de loups 🦒\nLes lodges du Parc Zoo du Reynou offrent une immersion totale avec les animaux, pour une nuit pas comme les autres à seulement dix minutes du centre-ville.",
+            "facebook": "Certains lodges du Parc Zoo du Reynou permettent de s’endormir au cœur même de l’enclos des loups 🐺",
+            "bluesky": "Près de Limoges, le Parc Zoo du Reynou installe ses visiteurs dans des lodges au cœur des enclos, face aux girafes ou parmi les loups, pour une nuit immersive au plus près des animaux 🌙",
+            "threads": "🐾 Dormir au cœur d’un enclos de loups, ça existe vraiment près de Limoges. Le Parc Zoo du Reynou a imaginé des lodges qui plongent les visiteurs face aux girafes ou en immersion totale avec les loups, pour une expérience de nuit peu commune. Vous imaginez la sensation d’être si proche de ces animaux ?",
+            "x": "Face aux girafes ou au cœur des loups : ce sont les nuits insolites proposées par le Parc Zoo du Reynou, près de Limoges 🏕️"
+          }
+        },
+        {
+          "titre": "À Bordeaux, 200 danseurs pour un French Cancan géant sur le Miroir d’Eau",
+          "valide": true,
+          "essais": 2,
+          "secondes": 127.1,
+          "usage": {
+            "input": 6986,
+            "output": 4634
+          },
+          "messages": [
+            "IA essai 1 refusé : instagram : trop proche d'une accroche récente | bluesky : trop proche d'une accroche récente",
+            "IA : dossier validé (essai 2, 6986 + 4634 tokens)"
+          ],
+          "textes": {
+            "rubrique": "Bordeaux",
+            "visuelTitre": "200 danseurs pour un French Cancan géant sur le Miroir d’Eau",
+            "surlignage": "French Cancan",
+            "description": "Le 30 septembre 2026, ils tenteront d’entrer dans le livre des records du monde, sur l’un des sites les plus photographiés de Bordeaux.",
+            "instagram": "💃 200 danseurs vont envahir le Miroir d’eau de Bordeaux pour tenter un record du monde\nLe 30 septembre 2026, ils uniront énergie et précision pour inscrire ce French Cancan géant dans l’histoire, sur l’un des lieux les plus emblématiques de la ville.",
+            "facebook": "Assister à cette tentative de record sur le Miroir d’eau, c’est vivre un moment unique en plein cœur de Bordeaux 💃",
+            "bluesky": "Le 30 septembre 2026, le Miroir d’eau de Bordeaux servira de piste pour une tentative de record du monde : plus de 200 danseurs y exécuteront un French Cancan géant, un défi peu commun pour ce lieu habituellement calme 🩰",
+            "threads": "Imaginez le Miroir d’eau de Bordeaux transformé en piste de danse géante, avec plus de 200 danseurs qui synchronisent leurs pas pour un French Cancan collectif. Le 30 septembre 2026, ils tenteront d’entrer dans l’histoire en visant un record du monde, sur ce site emblématique où la ville se reflète habituellement en silence 🕺",
+            "x": "🎭 200 danseurs suffiront-ils à faire entrer Bordeaux dans le livre des records du monde de French Cancan, le 30 septembre 2026 sur le Miroir d’eau ?"
+          }
+        },
+        {
+          "titre": "En Vienne, huit monuments cachent 500 ans de peintures murales",
+          "valide": true,
+          "essais": 2,
+          "secondes": 113.3,
+          "usage": {
+            "input": 7030,
+            "output": 7341
+          },
+          "messages": [
+            "IA essai 1 refusé : surlignage « 500 ans » : ne doit ni commencer ni finir par un petit mot | threads : emoji pas en tête pour ce post (devant l'information clé) | threads et x reprennent les mêmes tournures",
+            "IA : dossier validé (essai 2, 7030 + 7341 tokens)"
+          ],
+          "textes": {
+            "rubrique": "Vienne",
+            "visuelTitre": "Huit monuments cachent 500 ans de peintures murales",
+            "surlignage": "peintures murales",
+            "description": "Entre Saint-Savin et Saulgé, la Vallée des Fresques relie huit édifices religieux le long d’un itinéraire méconnu, témoin de plusieurs siècles d’art pictural en Vienne.",
+            "instagram": "En Vienne, huit édifices religieux cachent 500 ans de peintures murales à découvrir en un seul itinéraire.\n\nEntre Saint-Savin et Saulgé, la Vallée des Fresques vous emmène de sanctuaire en sanctuaire, sur les traces d’un art pictural rare en Nouvelle-Aquitaine 🎨",
+            "facebook": "Huit édifices oubliés du grand public cachent cinq siècles de peintures murales entre Saint-Savin et Saulgé 🏰",
+            "bluesky": "Entre Saint-Savin et Saulgé, huit édifices religieux dessinent une route silencieuse à travers les campagnes de la Vienne 🖼️ Sur leurs murs, des scènes peintes il y a plusieurs siècles ont traversé le temps sans jamais quitter leur pierre d’origine.",
+            "threads": "En Vienne, il existe un itinéraire que peu de gens connaissent : la Vallée des Fresques relie huit édifices religieux entre Saint-Savin et Saulgé. Ce sont 🏛️ cinq siècles de peintures murales qui se dévoilent au fil du parcours, sur les murs d’églises souvent discrètes. Vous connaissiez cette route avant aujourd’hui ?",
+            "x": "500 ans de peintures murales se cachent dans huit édifices religieux de la Vienne, reliés par la Vallée des Fresques, entre Saint-Savin et Saulgé 🖌️"
+          }
+        },
+        {
+          "titre": "Ces dauphins près des plages d’Hossegor ne sont pas bon signe",
+          "valide": false,
+          "essais": 3,
+          "secondes": 199.2,
+          "usage": null,
+          "messages": [
+            "IA essai 1 refusé : instagram : emoji pas en tête pour ce post (devant l'information clé) | x : emoji pas en tête pour ce post (devant l'information clé) | hashtag invalide : « Hossegor »",
+            "IA essai 2 refusé : instagram : première ligne > 125 caractères",
+            "IA essai 3 refusé : x : emoji pas en tête pour ce post (devant l'information clé)",
+            "IA : contrôles non satisfaits, règles de secours"
+          ],
+          "textes": {
+            "rubrique": "Côte landaise",
+            "visuelTitre": "Ces dauphins près des plages d’Hossegor ne sont pas bon signe",
+            "surlignage": "Hossegor",
+            "description": "Les dauphins vus près d’Hossegor et Capbreton émerveillent les promeneurs. Une biologiste marine y voit pourtant un signal d’alerte.",
+            "instagram": "Les dauphins vus près d’Hossegor et Capbreton émerveillent les promeneurs. Une biologiste marine y voit pourtant un signal d’alerte 🐬",
+            "facebook": "Une biologiste marine y voit pourtant un signal d’alerte 🐬",
+            "bluesky": "Les dauphins vus près d’Hossegor et Capbreton émerveillent les promeneurs. Une biologiste marine y voit pourtant un signal d’alerte 🐬",
+            "threads": "Les dauphins vus près d’Hossegor et Capbreton émerveillent les promeneurs. Une biologiste marine y voit pourtant un signal d’alerte 🐬",
+            "x": "Une biologiste marine y voit pourtant un signal d’alerte 🐬"
+          }
+        },
+        {
+          "titre": "Cette maison du Lot-et-Garonne raconte la vie de son propriétaire à travers 600 céramiques",
+          "valide": true,
+          "essais": 1,
+          "secondes": 78,
+          "usage": {
+            "input": 6970,
+            "output": 8863
+          },
+          "messages": [
+            "IA : dossier validé (essai 1, 6970 + 8863 tokens)"
+          ],
+          "textes": {
+            "rubrique": "Agenais",
+            "visuelTitre": "Cette maison du Lot-et-Garonne raconte la vie de son propriétaire à travers 600 céramiques",
+            "surlignage": "600 céramiques",
+            "description": "La Maison des Assiettes rouvre ses portes lors des Journées Européennes du Patrimoine. Léon De Brondeau y a couvert les murs de plus de 600 céramiques, racontant son histoire à travers ce décor unique en Lot-et-Garonne.",
+            "instagram": "Une maison du Lot-et-Garonne cache 600 céramiques qui racontent toute une vie 🍽️\n\nÀ l’occasion des Journées Européennes du Patrimoine, la Maison des Assiettes rouvre ses portes en Agenais. Le décor entier, imaginé par Léon De Brondeau, est composé de céramiques anciennes assemblées pièce par pièce.",
+            "facebook": "Comment une maison du Lot-et-Garonne peut-elle raconter toute une vie en 600 céramiques ? 🏺",
+            "bluesky": "600 céramiques recouvrent les murs d’une maison en Agenais, où Léon De Brondeau a raconté toute sa vie en décor. La Maison des Assiettes rouvre pour les Journées Européennes du Patrimoine 🖼️",
+            "threads": "🏠 En Agenais, dans le Lot-et-Garonne, une maison cache un trésor insolite : 600 céramiques qui racontent toute la vie de son propriétaire, Léon De Brondeau. Ce décor unique rouvre ses portes lors des Journées Européennes du Patrimoine, une occasion rare de découvrir cet univers façonné pièce par pièce.",
+            "x": "Dans cette maison du Lot-et-Garonne, 600 céramiques racontent toute la vie de son propriétaire 🎨 Un décor signé Léon De Brondeau, à découvrir lors des Journées Européennes du Patrimoine."
+          }
+        },
+        {
+          "titre": "À Capbreton, un canyon de 4 500 mètres dort sous les bateaux",
+          "valide": true,
+          "essais": 2,
+          "secondes": 130.8,
+          "usage": {
+            "input": 7028,
+            "output": 6191
+          },
+          "messages": [
+            "IA essai 1 refusé : instagram et facebook reprennent les mêmes tournures | instagram et x reprennent les mêmes tournures",
+            "IA : dossier validé (essai 2, réparé : instagram, 7028 + 6191 tokens)"
+          ],
+          "textes": {
+            "rubrique": "Côte landaise",
+            "visuelTitre": "À Capbreton, un canyon de 4 500 mètres dort sous les bateaux",
+            "surlignage": "4 500 mètres",
+            "description": "Ce gouffre marin s’étend à seulement 300 mètres des plages de Capbreton. Il façonne les vagues d’Hossegor et attire cachalots et orques au large des côtes landaises.",
+            "instagram": "Un canyon de 4 500 mètres se cache-t-il vraiment sous les vagues d’Hossegor ?\n\nÀ seulement 300 mètres des plages de Capbreton, le Gouf attire cachalots et orques au large des Landes 🐳",
+            "facebook": "4 500 mètres de profondeur juste sous les vagues d’Hossegor : le Gouf de Capbreton dévoile son secret 🌊",
+            "bluesky": "À Capbreton, un canyon sous-marin plonge à 4 500 mètres de profondeur, à seulement 300 mètres des plages 🐬 Il façonne les vagues d’Hossegor et attire cachalots et orques au large des Landes.",
+            "threads": "On pourrait croire que la côte landaise ne cache que du sable et des vagues. Pourtant, sous les surfeurs d’Hossegor se creuse un canyon sous-marin qui plonge à 🐋 4 500 mètres de profondeur, à peine à 300 mètres des plages de Capbreton. De quoi attirer cachalots et orques juste au large.",
+            "x": "Savoir qu’un canyon profond de 4 500 mètres se cache à 300 mètres des plages de Capbreton change le regard qu’on porte sur les vagues d’Hossegor et leurs visiteurs, cachalots et orques compris 🦭"
+          }
+        },
+        {
+          "titre": "Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée du Périgord",
+          "valide": false,
+          "essais": 3,
+          "secondes": 208.6,
+          "usage": null,
+          "messages": [
+            "IA essai 1 refusé : instagram : emoji pas en tête pour ce post (devant l'information clé) | x : emoji pas en tête pour ce post (devant l'information clé) | hashtag invalide : « Périgord » | facebook et bluesky reprennent les mêmes tournures",
+            "IA essai 2 refusé : bluesky et x reprennent les mêmes tournures",
+            "IA essai 3 refusé : instagram : emoji pas en tête pour ce post (devant l'information clé) | x : emoji pas en tête pour ce post (devant l'information clé) | facebook et bluesky reprennent les mêmes tournures",
+            "IA : contrôles non satisfaits, règles de secours"
+          ],
+          "textes": {
+            "rubrique": "Périgord",
+            "visuelTitre": "Grotte, rivière, châteaux : cette course de 80 km traverse l’histoire cachée du Périgord",
+            "surlignage": "80 km",
+            "description": "La première édition de la Périgordine Ultra Trail a lieu le 27 septembre. Cette course permet de découvrir une histoire méconnue du Périgord.",
+            "instagram": "La première édition de la Périgordine Ultra Trail a lieu le 27 septembre. Cette course permet de découvrir une histoire méconnue du Périgord 🏞️",
+            "facebook": "La première édition de la Périgordine Ultra Trail a lieu 🏞️",
+            "bluesky": "La première édition de la Périgordine Ultra Trail a lieu le 27 septembre. Cette course permet de découvrir une histoire méconnue du Périgord 🏞️",
+            "threads": "La première édition de la Périgordine Ultra Trail a lieu le 27 septembre. Cette course permet de découvrir une histoire méconnue du Périgord 🏞️",
+            "x": "La première édition de la Périgordine Ultra Trail a lieu 🏞️"
+          }
+        },
+        {
+          "titre": "Morimoto Bordeaux dévoile son nouveau menu déjeuner à 33 €",
+          "valide": true,
+          "essais": 1,
+          "secondes": 59.7,
+          "usage": {
+            "input": 6950,
+            "output": 6557
+          },
+          "messages": [
+            "IA : dossier validé (essai 1, 6950 + 6557 tokens)"
+          ],
+          "textes": {
+            "rubrique": "Bordeaux",
+            "visuelTitre": "Morimoto Bordeaux dévoile son nouveau menu déjeuner à 33 €",
+            "surlignage": "33 €",
+            "description": "Le restaurant Morimoto du Mondrian Bordeaux Les Carmes lance un nouveau menu déjeuner à 33 €, servi en 45 minutes.",
+            "instagram": "Bordeaux : le restaurant Morimoto dévoile un nouveau menu déjeuner à 33 € 🍣\nLe menu est servi en seulement 45 minutes, au Mondrian Bordeaux Les Carmes.",
+            "facebook": "33 € pour un menu complet servi en seulement 45 minutes, le pari surprenant du restaurant Morimoto 🍣",
+            "bluesky": "Le restaurant Morimoto, situé à Bordeaux, lance un nouveau menu déjeuner à 33 €, servi en 45 minutes seulement, une option rapide pour découvrir sa cuisine japonaise en plein midi 🥢",
+            "threads": "🍜 Le restaurant Morimoto à Bordeaux mise sur la rapidité : son nouveau menu déjeuner à 33 € est servi en seulement 45 minutes. De quoi profiter d’une pause gourmande sans sacrifier son temps. Vous connaissez déjà cette adresse au Mondrian Bordeaux Les Carmes ?",
+            "x": "Le restaurant Morimoto de Bordeaux lance un menu déjeuner à 33 €, servi en 45 minutes chrono 🍱. Une offre rapide au Mondrian Bordeaux Les Carmes."
+          }
+        },
+        {
+          "titre": "Le brunch le plus généreux de Bordeaux a rouvert ses portes",
+          "valide": false,
+          "essais": 3,
+          "secondes": 135.9,
+          "usage": null,
+          "messages": [
+            "IA essai 1 refusé : facebook : trop proche d'une accroche récente | x : trop proche d'une accroche récente",
+            "IA essai 2 refusé : surlignage trop long (3 mots et 24 caractères max) | x : trop proche d'une accroche récente",
+            "IA essai 3 refusé : facebook : trop proche d'une accroche récente | bluesky : trop proche d'une accroche récente | x : trop proche d'une accroche récente",
+            "IA : contrôles non satisfaits, règles de secours"
+          ],
+          "textes": {
+            "rubrique": "Bordeaux",
+            "visuelTitre": "Le brunch le plus généreux de Bordeaux a rouvert ses portes",
+            "surlignage": "portes",
+            "description": "Fermé pour travaux, le brunch gargantuesque du Sans Pression a rouvert à Bordeaux le 12 septembre, avec un tarif revu.",
+            "instagram": "Fermé pour travaux, le brunch gargantuesque du Sans Pression a rouvert à Bordeaux le 12 septembre, avec un tarif revu 🥐",
+            "facebook": "Fermé pour travaux, le brunch gargantuesque du Sans Pression a rouvert à Bordeaux, avec un tarif revu 🥐",
+            "bluesky": "Fermé pour travaux, le brunch gargantuesque du Sans Pression a rouvert à Bordeaux le 12 septembre, avec un tarif revu 🥐",
+            "threads": "Fermé pour travaux, le brunch gargantuesque du Sans Pression a rouvert à Bordeaux le 12 septembre, avec un tarif revu 🥐",
+            "x": "Fermé pour travaux, le brunch gargantuesque du Sans Pression a rouvert à Bordeaux, avec un tarif revu 🥐"
+          }
+        }
+      ]
+    }
+  ]
+}

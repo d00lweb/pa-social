@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-23T16:21:18.482Z",
+  "genereLe": "2026-09-23T17:00:41.657Z",
   "jour": "2026-09-23",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 1,
-      "semaine": 11,
-      "total": 14,
-      "dernier": "2026-09-23T11:30:15.672Z",
-      "lienDernier": "https://www.instagram.com/p/DdoNMmaGW9W/"
+      "aujourdhui": 2,
+      "semaine": 12,
+      "total": 15,
+      "dernier": "2026-09-23T17:04:19.720Z",
+      "lienDernier": "https://www.instagram.com/p/Ddozb-SFPym/"
     },
     "bluesky": {
       "actif": true,
@@ -172,7 +172,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35635",
       "titre": "Une levure fait déjà perdre 1° d’alcool au vin : à Bordeaux, la recherche va plus loin",
       "lien": "https://passion-aquitaine.ouest-france.fr/levures-vin-changement-climatique-bordeaux/",
-      "at": "2026-09-23T15:20:59.732Z",
+      "at": "2026-09-23T17:04:19.720Z",
       "reseaux": {
         "x": {
           "texte": "Des vins moins alcoolisés sans perdre leur goût : à #Bordeaux, une levure permet déjà de retirer 1° d’alcool. Les chercheurs poursuivent leurs travaux avec Oenoledge pour adapter les vignobles au changement climatique 🍷\n➡️ https://passion-aquitaine.ouest-france.fr/levures-vin-changement-climatique-bordeaux/",
@@ -181,6 +181,14 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-09-23T15:20:59.732Z"
+        },
+        "instagram": {
+          "texte": "Et si une levure suffisait à baisser le degré d’alcool de votre verre ?\n⠀\nÀ Bordeaux, des chercheurs travaillent sur des levures capables de faire perdre 1° d’alcool au vin. Avec la création d’Oenoledge, ils poussent leurs études plus loin pour adapter les vignobles girondins au changement climatique 🍷\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #Vin #Levures",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260923-fffcf708-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-09-23T17:04:19.720Z"
         }
       }
     },
@@ -419,6 +427,16 @@
   ],
   "publications": [
     {
+      "channel": "instagram",
+      "at": "2026-09-23T17:04:19.720Z",
+      "titre": "Une levure fait déjà perdre 1° d’alcool au vin : à Bordeaux, la recherche va plus loin",
+      "lien": "https://passion-aquitaine.ouest-france.fr/levures-vin-changement-climatique-bordeaux/",
+      "lienPost": "https://www.instagram.com/p/Ddozb-SFPym/",
+      "format": null,
+      "texte": "Et si une levure suffisait à baisser le degré d’alcool de votre verre ?\n⠀\nÀ Bordeaux, des chercheurs travaillent sur des levures capables de faire perdre 1° d’alcool au vin. Avec la création d’Oenoledge, ils poussent leurs études plus loin pour adapter les vignobles girondins au changement climatique 🍷\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #Vin #Levures",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260923-fffcf708-1.jpg"
+    },
+    {
       "channel": "x",
       "at": "2026-09-23T15:20:59.732Z",
       "titre": "Une levure fait déjà perdre 1° d’alcool au vin : à Bordeaux, la recherche va plus loin",
@@ -507,28 +525,9 @@
       "format": "reply",
       "texte": "Le 30 septembre 2026, plus de 200 danseurs tentent un record du monde de French Cancan sur le Miroir d’eau de #Bordeaux 📍",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20260922-6c111e03-bsky.jpg"
-    },
-    {
-      "channel": "threads",
-      "at": "2026-09-22T06:30:54.943Z",
-      "titre": "À Bordeaux, 200 danseurs pour un French Cancan géant sur le Miroir d’Eau",
-      "lien": "https://passion-aquitaine.ouest-france.fr/record-french-cancan-bordeaux-miroir-eau/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/DdlF2lClkyx",
-      "format": "reponse",
-      "texte": "Le 30 septembre 2026, plus de 200 danseurs tentent un record du monde de French Cancan sur le Miroir d’eau de Bordeaux 📍",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20260922-6c111e03-th.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "instagram",
-      "dueAt": "2026-09-23T17:03:55.902Z",
-      "prochainPassage": "2026-09-23T17:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Une levure fait déjà perdre 1° d’alcool au vin : à Bordeaux, la recherche va plus loin"
-    },
     {
       "channel": "bluesky",
       "dueAt": "2026-09-23T17:26:19.747Z",
@@ -682,7 +681,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-23T16:21:21.165Z",
+    "genereLe": "2026-09-23T17:04:20.150Z",
     "posts": 39,
     "parReseau": {
       "threads": {
@@ -848,7 +847,7 @@
       }
     },
     "publies": {
-      "instagram": 14,
+      "instagram": 15,
       "bluesky": 12,
       "x": 13,
       "facebook": 8,

@@ -1,28 +1,6 @@
 [
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=35428",
-    "channel": "x",
-    "dueAt": 1789535682806,
-    "status": "refused",
-    "attempts": 0,
-    "article": {
-      "title": "Pourquoi Bordeaux parle désormais de « matrimoine »",
-      "link": "https://passion-aquitaine.ouest-france.fr/pourquoi-bordeaux-parle-desormais-de-matrimoine/",
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35428",
-      "pubDate": "Tue, 15 Sep 2026 05:30:50 +0000",
-      "date": 1789450250000,
-      "categories": [
-        "Actus",
-        "Bordeaux",
-        "Culture & traditions"
-      ],
-      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/09/voix-matrimoine-bordeaux.jpg",
-      "description": "Le mot matrimoine, plus vieux que patrimoine, resurgit à Bordeaux depuis plusieurs années. Origine, histoire et festivals."
-    },
-    "previewSent": true
-  },
-  {
-    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35428",
     "channel": "bluesky",
     "dueAt": 1789542437903,
     "status": "refused",

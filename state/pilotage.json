@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-23T07:00:47.155Z",
+  "genereLe": "2026-09-23T07:20:38.691Z",
   "jour": "2026-09-23",
   "reseaux": {
     "instagram": {
@@ -25,7 +25,7 @@
       },
       "formats": null,
       "aujourdhui": 0,
-      "semaine": 11,
+      "semaine": 10,
       "total": 13,
       "dernier": "2026-09-22T10:05:25.139Z",
       "lienDernier": "https://www.instagram.com/p/Ddler9vkzj2/"
@@ -160,10 +160,10 @@
         "lien",
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 10,
-      "total": 11,
-      "dernier": "2026-09-22T08:20:48.051Z",
+      "aujourdhui": 1,
+      "semaine": 11,
+      "total": 12,
+      "dernier": "2026-09-23T07:20:45.297Z",
       "lienDernier": null
     }
   },
@@ -172,7 +172,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35446",
       "titre": "Près de Limoges, on dort au milieu des girafes et des loups",
       "lien": "https://passion-aquitaine.ouest-france.fr/lodges-zoo-reynou-limoges-hebergement-insolite/",
-      "at": "2026-09-23T07:12:17.971Z",
+      "at": "2026-09-23T07:20:45.297Z",
       "reseaux": {
         "threads": {
           "texte": "À dix minutes de Limoges, les lodges du Parc Zoo du Reynou permettent de dormir face aux girafes ou au cœur de l’enclos des loups 📍",
@@ -189,6 +189,14 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-09-23T07:12:17.971Z"
+        },
+        "x": {
+          "texte": "On dort au milieu des girafes et des loups 📍",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260923-dac08af2-x.jpg",
+          "mode": "lien",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-09-23T07:20:45.297Z"
         }
       }
     },
@@ -435,6 +443,16 @@
   ],
   "publications": [
     {
+      "channel": "x",
+      "at": "2026-09-23T07:20:45.297Z",
+      "titre": "Près de Limoges, on dort au milieu des girafes et des loups",
+      "lien": "https://passion-aquitaine.ouest-france.fr/lodges-zoo-reynou-limoges-hebergement-insolite/",
+      "lienPost": null,
+      "format": "lien",
+      "texte": "On dort au milieu des girafes et des loups 📍",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260923-dac08af2-x.jpg"
+    },
+    {
       "channel": "bluesky",
       "at": "2026-09-23T07:12:17.971Z",
       "titre": "Près de Limoges, on dort au milieu des girafes et des loups",
@@ -523,37 +541,9 @@
       "format": "lien",
       "texte": "Huit monuments cachent 500 ans de peintures murales 🏛️",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20260921-881162d1-x.jpg"
-    },
-    {
-      "channel": "bluesky",
-      "at": "2026-09-21T07:12:52.996Z",
-      "titre": "En Vienne, huit monuments cachent 500 ans de peintures murales",
-      "lien": "https://passion-aquitaine.ouest-france.fr/vallee-des-fresques-gartempe-vienne/",
-      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mvz5xaxgkm2b",
-      "format": "image",
-      "texte": "Entre Saint-Savin et Saulgé, huit édifices religieux forment la Vallée des Fresques, un itinéraire méconnu de peintures murales en #Vienne 🏛️\n➡️ Lire l’article",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20260921-881162d1-bsky.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "x",
-      "dueAt": "2026-09-23T07:20:00.000Z",
-      "prochainPassage": "2026-09-23T07:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Près de Limoges, on dort au milieu des girafes et des loups"
-    },
-    {
-      "channel": "facebook",
-      "dueAt": "2026-09-23T07:29:01.107Z",
-      "prochainPassage": "2026-09-23T08:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Près de Limoges, on dort au milieu des girafes et des loups"
-    },
     {
       "channel": "instagram",
       "dueAt": "2026-09-23T11:29:44.456Z",
@@ -562,11 +552,20 @@
       "prevuInitialement": null,
       "raison": null,
       "titre": "Près de Limoges, on dort au milieu des girafes et des loups"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-09-23T18:09:57.308Z",
+      "prochainPassage": "2026-09-23T18:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": "2026-09-23T08:20:38.691Z",
+      "raison": "l’heure n’était pas dans les créneaux du réseau",
+      "titre": "Près de Limoges, on dort au milieu des girafes et des loups"
     }
   ],
   "alertes": [],
   "mesures": {
-    "releves": 39,
+    "releves": 40,
     "parReseau": {
       "instagram": {
         "posts": 2,
@@ -680,8 +679,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-23T07:12:22.850Z",
-    "posts": 36,
+    "genereLe": "2026-09-23T07:29:06.485Z",
+    "posts": 37,
     "parReseau": {
       "threads": {
         "posts": 8,
@@ -696,7 +695,7 @@
         "moyenne": 1
       },
       "bluesky": {
-        "posts": 10,
+        "posts": 11,
         "moyenne": 0.5
       }
     },
@@ -710,7 +709,7 @@
         "moyenne": 1.5
       },
       "reply": {
-        "posts": 3,
+        "posts": 4,
         "moyenne": 1
       },
       "image": {
@@ -724,8 +723,8 @@
     },
     "parCreneau": {
       "matin": {
-        "posts": 22,
-        "moyenne": 9.8
+        "posts": 23,
+        "moyenne": 9.4
       },
       "après-midi": {
         "posts": 9,
@@ -756,13 +755,13 @@
           "posts": 1,
           "moyenne": 1
         },
+        "8 h – 9 h 30": {
+          "posts": 6,
+          "moyenne": 0.5
+        },
         "hors créneau": {
           "posts": 4,
           "moyenne": 0.5
-        },
-        "8 h – 9 h 30": {
-          "posts": 5,
-          "moyenne": 0.4
         }
       },
       "facebook": {
@@ -798,7 +797,7 @@
         }
       }
     },
-    "interactionsTotal": 302,
+    "interactionsTotal": 303,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35605",
       "channel": "threads",
@@ -841,14 +840,14 @@
         "moyenne": 4
       },
       "sans": {
-        "posts": 35,
-        "moyenne": 8.5
+        "posts": 36,
+        "moyenne": 8.3
       }
     },
     "publies": {
       "instagram": 13,
       "bluesky": 12,
-      "x": 11,
+      "x": 12,
       "facebook": 8,
       "threads": 9
     },

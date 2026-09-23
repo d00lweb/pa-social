@@ -64,6 +64,39 @@ export async function enregistrer({ modele, usage, quoi = 'dossier', now = Date.
   }
 }
 
+// Budget mensuel : au-delà, le rédacteur n'est plus appelé. C'est un filet, pas un réglage courant —
+// au rythme mesuré (un appel par article, 5,6 centimes), un mois ordinaire coûte moins de 2 $.
+export const BUDGET_MOIS = config.budgetMensuelUSD ?? 3;
+
+export function budgetDuMois(releve = {}, now = Date.now(), timeZone = TZ) {
+  const mois = dayKey(now, timeZone).slice(0, 7);
+  const depense = Object.entries(releve)
+    .filter(([j]) => j.startsWith(mois))
+    .reduce((n, [, l]) => n + (l.cout ?? 0), 0);
+  return { depense: Math.round(depense * 1e4) / 1e4, budget: BUDGET_MOIS, part: BUDGET_MOIS ? depense / BUDGET_MOIS : 0, depasse: depense >= BUDGET_MOIS };
+}
+
+// Prévient à 70 % du budget, puis refuse d'appeler au-delà de 100 %. Une alerte par jour et par seuil.
+export async function verifierBudget({ now = Date.now(), envoyer } = {}) {
+  const releve = await loadJson('couts.json', {});
+  const etat = budgetDuMois(releve, now);
+  const seuil = etat.depasse ? 'plafond' : etat.part >= 0.7 ? 'alerte' : null;
+  if (!seuil) return etat;
+  const memo = await loadJson('ia.json', {});
+  const cle = `${seuil}-${dayKey(now, TZ)}`;
+  if (memo.budget !== cle) {
+    memo.budget = cle;
+    await saveJson('ia.json', memo);
+    const euros = (n) => `${n.toFixed(2).replace('.', ',')} $`;
+    const texte = etat.depasse
+      ? `🛑 <b>Budget IA du mois atteint</b> — ${euros(etat.depense)} sur ${euros(etat.budget)}.\nLe rédacteur n'est plus appelé : les publications partent en version de secours jusqu'au 1er du mois.\nPour relever le plafond : <code>budgetMensuelUSD</code> dans config/editorial.json.`
+      : `⚠️ <b>Budget IA : ${Math.round(etat.part * 100)} % consommés</b> — ${euros(etat.depense)} sur ${euros(etat.budget)}.\nAu-delà, les publications passeront en version de secours.`;
+    const envoi = envoyer ?? (await import('../channels/telegram.mjs')).alert;
+    await envoi(texte).catch(() => {});
+  }
+  return etat;
+}
+
 // Rédacteur injoignable (crédit épuisé, panne de l'API, clé refusée) : sans lui, les cinq réseaux
 // publient une copie dégradée, sans accroche travaillée ni compte mentionné. Une alerte par jour,
 // pas une par passage : la panne dure, le rappel ne doit pas devenir du bruit.

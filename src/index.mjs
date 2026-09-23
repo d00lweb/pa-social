@@ -232,7 +232,7 @@ async function plan(items, { history, queue, memory, controls, now, forcedGuid }
     // Rédacteur injoignable : publier tout de suite donnerait une copie de secours sur cinq réseaux,
     // sans accroche travaillée ni compte mentionné. On laisse sa chance au rédacteur pendant quelques
     // heures — l'article reste dans le flux et sera repris au passage suivant.
-    if (dossier.raison === 'ia-indisponible' && now - article.date < ATTENTE_IA_MAX) {
+    if (['ia-indisponible', 'budget-atteint'].includes(dossier.raison) && now - article.date < ATTENTE_IA_MAX) {
       console.log(`En attente du rédacteur : ${article.title} (${Math.round((now - article.date) / 60e3)} min)`);
       continue;
     }

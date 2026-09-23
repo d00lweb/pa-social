@@ -76,3 +76,16 @@ test('rédacteur injoignable : une alerte par jour, et le manque de crédit est 
   assert.match(envoyes[0], /console\.anthropic\.com/);
   assert.match(envoyes[1], /injoignable/, 'une panne ordinaire ne parle pas de crédit');
 });
+
+test('budget du mois : alerte à 70 %, plus aucun appel au-delà de 100 %', async () => {
+  const { budgetDuMois, BUDGET_MOIS } = await import('../src/brain/couts.mjs');
+  const jour = (cout) => ({ '2026-09-23': { appels: 1, entree: 0, sortie: 0, cout, parModele: {}, parUsage: {} } });
+  const now = Date.parse('2026-09-23T16:00:00Z');
+  assert.equal(BUDGET_MOIS, 3, 'plafond fixé à 3 $ par mois');
+  assert.equal(budgetDuMois(jour(1.2), now).depasse, false);
+  assert.equal(Math.round(budgetDuMois(jour(2.1), now).part * 100), 70, 'seuil d’alerte');
+  assert.equal(budgetDuMois(jour(3), now).depasse, true, 'au plafond, le rédacteur n’est plus appelé');
+  assert.equal(budgetDuMois({}, now).depense, 0);
+  // seuls les jours du mois en cours comptent
+  assert.equal(budgetDuMois({ '2026-08-31': { appels: 9, cout: 9 } }, now).depense, 0);
+});

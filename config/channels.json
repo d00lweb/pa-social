@@ -1,5 +1,7 @@
 {
   "timezone": "Europe/Paris",
+  "budgetMensuelUSD": 3,
+  "_budget": "Plafond de dépense du rédacteur IA, en dollars par mois. Au-delà, le robot publie sans IA et prévient sur Telegram. Mesuré dans state/couts.json.",
   "maxAgeHours": 24,
   "queueRetentionDays": 7,
   "retry": {

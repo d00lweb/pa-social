@@ -6,7 +6,7 @@ import { frenchTypography, pickHighlight } from './editorial.mjs';
 import { resolvePlace, candidateZones, placeNames } from './geo.mjs';
 import { checkDossier } from './guards.mjs';
 import { fallbackDossier, sansDate } from './fallback.mjs';
-import { signalerIaIndisponible } from './couts.mjs';
+import { signalerIaIndisponible, verifierBudget } from './couts.mjs';
 import { nextAngles, nextEmojiPositions } from './memory.mjs';
 
 const ed = JSON.parse(readFileSync(fromRoot('config/editorial.json'), 'utf8'));
@@ -91,6 +91,14 @@ export async function buildDossier(article, { memory, useCache = false, log = co
     return fallbackDossier(article);
   }
 
+  // Filet de dépense : au-delà du budget du mois, on n'appelle plus le rédacteur. L'article est
+  // alors reporté comme lors d'une panne (jusqu'à 6 h), puis publié avec les règles s'il le faut.
+  const budget = await verifierBudget({ now: Date.now() });
+  if (budget.depasse) {
+    log(`   IA : budget du mois atteint (${budget.depense.toFixed(2)} $ sur ${budget.budget} $), règles de secours`);
+    return { ...fallbackDossier(article), raison: 'budget-atteint' };
+  }
+
   const { askEditor } = await import('./ai.mjs');
   const source = [article.title, article.description, cleanCategories(article.categories).join(', '), frDate(article.date), new Date(article.date).toISOString().slice(0, 10)].join('\n');
   const payload = {
@@ -101,7 +109,13 @@ export async function buildDossier(article, { memory, useCache = false, log = co
     questions_autorisees: questions,
     emojis_recents: memory.emojis ?? {},
     emoji_placement: emojiPlacement,
-    dernieres_accroches: memory.recent ?? {},
+    // Les accroches récentes ne servent qu'à éviter de se répéter : les 3 dernières, réduites à
+    // leur ouverture, suffisent au rédacteur. La mémoire complète (10 par réseau) reste utilisée
+    // localement par le contrôle de similarité, qui refuse un texte trop proche d'un ancien.
+    // Envoyer les 50 textes entiers coûtait 3 055 jetons par appel, soit 1,5 centime.
+    dernieres_accroches: Object.fromEntries(
+      Object.entries(memory.recent ?? {}).map(([net, textes]) => [net, textes.slice(-3).map((t) => t.split('\n')[0].slice(0, 90))]),
+    ),
   };
 
   let corrections = null;

@@ -56,6 +56,13 @@
   td { padding:8px 10px 8px 0; border-top:1px solid var(--line); font-variant-numeric:tabular-nums; }
   td.n, th.n { text-align:right; font-family:var(--mono); }
   tr.total td { font-weight:800; border-top:2px solid var(--line); }
+  .jauge-bloc { display: grid; gap: 8px; }
+  .jauge-tete { display: flex; justify-content: space-between; align-items: baseline; font-size: 13px; color: var(--muted); }
+  .jauge-tete b { color: var(--ink); font-family: var(--mono); font-weight: 500; font-size: 15px; }
+  .jauge { height: 10px; border-radius: 999px; background: var(--idle-soft); overflow: hidden; }
+  .jauge i { display: block; height: 100%; border-radius: 999px; background: var(--live); transition: width .4s; }
+  .jauge i.chaud { background: var(--warn); }
+  .jauge i.plein { background: var(--red); }
   .puces { display:flex; flex-wrap:wrap; gap:8px; }
   .puce { font-size:12.5px; background:var(--idle-soft); border-radius:999px; padding:4px 12px; }
   .puce b { font-family:var(--mono); font-weight:500; }
@@ -92,7 +99,7 @@
       <p class="hint">Chaque appel au rédacteur renvoie le nombre de jetons facturés. Le robot les enregistre dans <code>state/couts.json</code> et cette page applique la grille publique Anthropic.</p>
       <div class="puces" id="tarifs"></div>
       <p class="note"><b>Ce qui est compté :</b> tous les appels, y compris ceux qui échouent — un refus ou un dossier invalide est facturé de la même façon. Un article peut demander jusqu'à trois appels si les contrôles éditoriaux ne passent pas.</p>
-      <p class="note"><b>La sortie comprend la réflexion du modèle</b>, facturée au même prix que le texte visible. C'est ce que rate un calcul « à la main ».</p>
+      <p class="note"><b>L'entrée pèse le plus lourd</b> : la consigne de rédaction et le contexte représentent environ 85 % des jetons d'un appel, contre 15 % pour les textes produits. À l'effort bas, le modèle ne réfléchit pas (<code>thinking_tokens: 0</code>) : la sortie est du texte utile.</p>
       <p class="note"><b>Ce qui n'y est pas :</b> les dépenses antérieures à la mise en service du relevé, visibles seulement dans la <a href="https://console.anthropic.com/settings/usage" target="_blank" rel="noopener">console Anthropic</a>.</p>
     </div>
   </section>
@@ -105,6 +112,7 @@
     'claude-opus-5': [5, 25], 'claude-opus-4-8': [5, 25],
     'claude-sonnet-5': [2, 10], 'claude-haiku-4-5': [1, 5],
   };
+  const BUDGET = 3; // plafond mensuel, aligné sur budgetMensuelUSD de config/channels.json
   const TZ = 'Europe/Paris';
   const $ = (id) => document.getElementById(id);
   const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
@@ -140,6 +148,7 @@
     const joursDuMois = new Date(Number(mois.slice(0, 4)), Number(mois.slice(5, 7)), 0).getDate();
     const projection = numero ? (cMois.cout / numero) * joursDuMois : 0;
     const moyenne = cMois.appels ? cMois.cout / cMois.appels : 0;
+    const part = BUDGET ? cMois.cout / BUDGET : 0;
 
     const tuile = (label, valeur, detail, fort) =>
       `<div class="kpi${fort ? ' kpi--fort' : ''}"><span class="label">${esc(label)}</span><b>${esc(valeur)}</b><small>${esc(detail)}</small></div>`;
@@ -166,6 +175,13 @@
       <div>
         <div class="barres" role="img" aria-label="Dépense des 14 derniers jours">${barres}</div>
         <div class="axe"><span>${jourCourt(serie[0][0])}</span><span>${jourCourt(serie.at(-1)[0])}</span></div>
+      </div>
+      <div class="jauge-bloc">
+        <div class="jauge-tete"><span>Budget du mois</span><b>${dollars(cMois.cout)} $ / ${dollars(BUDGET)} $</b></div>
+        <div class="jauge"><i class="${part >= 1 ? 'plein' : part >= 0.7 ? 'chaud' : ''}" style="width:${Math.min(100, Math.round(part * 100))}%"></i></div>
+        <p class="note">${part >= 1
+          ? 'Plafond atteint : le rédacteur n’est plus appelé, les publications partent en version de secours jusqu’au 1ᵉʳ du mois.'
+          : `Au-delà, le rédacteur n’est plus appelé. Alerte Telegram à 70 %. Reste ${dollars(Math.max(0, BUDGET - cMois.cout))} $, soit environ ${Math.floor(Math.max(0, BUDGET - cMois.cout) / (moyenne || 0.056))} articles.`}</p>
       </div>
       <div class="puces">
         <span class="puce">Coût moyen d’un appel <b>${dollars(moyenne)} $</b></span>

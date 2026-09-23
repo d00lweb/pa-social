@@ -40,9 +40,10 @@ test('Facebook : une seule phrase courte, un seul emoji', () => {
   assert.equal(ed.limits.facebook, 140, 'l’essentiel reste visible avant « Voir plus »');
   assert.deepEqual(ed.limits.emoji.facebook, [1, 1], 'un emoji, choisi pour le sujet');
   const consigne = readFileSync(fromRoot('prompts/editorial.md'), 'utf8').match(/- `facebook\.texte` :.*/)[0];
-  assert.match(consigne, /sans aucun retour à la ligne/);
+  assert.match(consigne, /sans retour à la ligne/);
   assert.match(consigne, /donner envie de cliquer/);
-  assert.match(consigne, /uniquement si `questions_autorisees\.facebook` est vrai/, 'la question n’est pas systématique');
+  assert.match(consigne, /Question seulement si `questions_autorisees\.facebook` est vrai/, 'la question n’est pas systématique');
+  assert.match(consigne, /sans date/, 'aucune date dans le texte');
 });
 
 test('Facebook : un retour à la ligne est refusé par les contrôles', async () => {

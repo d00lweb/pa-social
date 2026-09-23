@@ -32,7 +32,8 @@
     "Vieux Boucau Plages": "101166549954994",
     "Grande Plage de Biarritz": "155405404490321",
     "Lac de Soustons": "116554395118493",
-    "Ile de Patiras": "179135385481690"
+    "Ile de Patiras": "179135385481690",
+    "Parc Zoo Du Reynou": "1452053185017269"
   },
   "refuses": [
     "298653744417",
@@ -40,5 +41,5 @@
     "510685669122762"
   ],
   "amorce": true,
-  "derniere": "2026-09-23T19:00:56.984Z"
+  "derniere": "2026-09-23T20:00:58.997Z"
 }

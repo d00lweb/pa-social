@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-24T11:20:41.597Z",
+  "genereLe": "2026-09-24T12:00:53.872Z",
   "jour": "2026-09-24",
   "reseaux": {
     "instagram": {
@@ -567,7 +567,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 49,
+    "releves": 51,
     "parReseau": {
       "instagram": {
         "posts": 5,
@@ -682,16 +682,16 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-24T11:25:15.242Z",
-    "posts": 41,
+    "genereLe": "2026-09-24T12:00:54.974Z",
+    "posts": 42,
     "parReseau": {
+      "instagram": {
+        "posts": 13,
+        "moyenne": 18.9
+      },
       "threads": {
         "posts": 9,
         "moyenne": 18.3
-      },
-      "instagram": {
-        "posts": 12,
-        "moyenne": 17.6
       },
       "facebook": {
         "posts": 8,
@@ -726,8 +726,8 @@
     },
     "parCreneau": {
       "après-midi": {
-        "posts": 10,
-        "moyenne": 14.6
+        "posts": 11,
+        "moyenne": 16.5
       },
       "matin": {
         "posts": 26,
@@ -741,8 +741,8 @@
     "parCreneauReseau": {
       "instagram": {
         "12 h – 13 h 30": {
-          "posts": 5,
-          "moyenne": 26.8
+          "posts": 6,
+          "moyenne": 28.2
         },
         "hors créneau": {
           "posts": 6,
@@ -800,7 +800,7 @@
         }
       }
     },
-    "interactionsTotal": 390,
+    "interactionsTotal": 425,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35605",
       "channel": "threads",
@@ -843,8 +843,8 @@
         "moyenne": 4
       },
       "sans": {
-        "posts": 40,
-        "moyenne": 9.7
+        "posts": 41,
+        "moyenne": 10.3
       }
     },
     "publies": {
@@ -897,8 +897,8 @@
       }
     },
     "engagement": {
+      "instagram": 0.19,
       "threads": 1.59,
-      "instagram": 0.17,
       "facebook": 0
     },
     "conseils": [
@@ -908,29 +908,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 3,
-      "entree": 20895,
-      "sortie": 2534,
-      "cout": 0.167825,
+      "appels": 4,
+      "entree": 27861,
+      "sortie": 3426,
+      "cout": 0.224955,
       "cle": "2026-09-24"
     },
     "semaine": {
-      "appels": 99,
-      "entree": 691167,
-      "sortie": 210128,
-      "cout": 5.107907
+      "appels": 100,
+      "entree": 698133,
+      "sortie": 211020,
+      "cout": 5.165037
     },
     "mois": {
-      "appels": 99,
-      "entree": 691167,
-      "sortie": 210128,
-      "cout": 5.107907,
+      "appels": 100,
+      "entree": 698133,
+      "sortie": 211020,
+      "cout": 5.165037,
       "cle": "2026-09"
     },
-    "projection": 6.38,
-    "moyenneAppel": 0.0516,
+    "projection": 6.46,
+    "moyenneAppel": 0.0517,
     "parModele": {
-      "claude-opus-5": 48,
+      "claude-opus-5": 49,
       "claude-sonnet-5": 51
     },
     "serie": [
@@ -988,7 +988,7 @@
       ],
       [
         "2026-09-24",
-        0.1678
+        0.225
       ]
     ],
     "depuis": "2026-09-23"

@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-24T17:21:25.438Z",
+  "genereLe": "2026-09-24T18:00:41.596Z",
   "jour": "2026-09-24",
   "reseaux": {
     "instagram": {
@@ -569,7 +569,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 54,
+    "releves": 55,
     "parReseau": {
       "instagram": {
         "posts": 6,
@@ -684,8 +684,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-24T17:21:29.862Z",
-    "posts": 43,
+    "genereLe": "2026-09-24T18:00:42.404Z",
+    "posts": 44,
     "parReseau": {
       "threads": {
         "posts": 9,
@@ -700,7 +700,7 @@
         "moyenne": 1
       },
       "bluesky": {
-        "posts": 12,
+        "posts": 13,
         "moyenne": 0.5
       }
     },
@@ -722,7 +722,7 @@
         "moyenne": 0.5
       },
       "card": {
-        "posts": 1,
+        "posts": 2,
         "moyenne": 0
       }
     },
@@ -736,8 +736,8 @@
         "moyenne": 8.8
       },
       "soir": {
-        "posts": 6,
-        "moyenne": 3.7
+        "posts": 7,
+        "moyenne": 3.1
       }
     },
     "parCreneauReseau": {
@@ -767,6 +767,10 @@
         "8 h – 9 h 30": {
           "posts": 7,
           "moyenne": 0.4
+        },
+        "18 h – 19 h 30": {
+          "posts": 1,
+          "moyenne": 0
         }
       },
       "facebook": {
@@ -822,22 +826,22 @@
       "creneauReseau": "7 h – 8 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35446",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35635",
       "channel": "bluesky",
-      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mw66u2s3f32x",
-      "publieLe": "2026-09-23T07:12:17.971Z",
+      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mw7b643a742q",
+      "publieLe": "2026-09-23T17:26:21.974Z",
       "jalon": 1,
-      "releveLe": "2026-09-24T07:20:44.455Z",
+      "releveLe": "2026-09-24T18:00:41.596Z",
       "likes": 0,
       "commentaires": 0,
       "partages": 0,
       "vues": null,
-      "titre": "Près de Limoges, on dort au milieu des girafes et des loups",
-      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mw66u2s3f32x",
-      "format": "image",
+      "titre": "Une levure fait déjà perdre 1° d’alcool au vin : à Bordeaux, la recherche va plus loin",
+      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mw7b643a742q",
+      "format": "card",
       "mention": false,
-      "creneau": "matin",
-      "creneauReseau": "8 h – 9 h 30"
+      "creneau": "soir",
+      "creneauReseau": "18 h – 19 h 30"
     },
     "mentions": {
       "avec": {
@@ -845,8 +849,8 @@
         "moyenne": 4
       },
       "sans": {
-        "posts": 42,
-        "moyenne": 10.2
+        "posts": 43,
+        "moyenne": 9.9
       }
     },
     "publies": {

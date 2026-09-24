@@ -931,5 +931,23 @@
       "reponse": null,
       "sujet": "Bordeaux"
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35635",
+    "channel": "facebook",
+    "at": "2026-09-24T07:10:39.016Z",
+    "mediaId": "227437307428711_1729707029155178",
+    "titre": "Une levure fait déjà perdre 1° d’alcool au vin : à Bordeaux, la recherche va plus loin",
+    "lien": "https://passion-aquitaine.ouest-france.fr/levures-vin-changement-climatique-bordeaux/",
+    "lienPost": "https://www.facebook.com/1720946116697936/posts/1729707029155178",
+    "format": null,
+    "mention": false,
+    "apercu": {
+      "texte": "Une simple levure retire déjà un degré d’alcool au vin, et les chercheurs bordelais ne comptent pas s’arrêter là 🍇",
+      "image": null,
+      "mode": null,
+      "reponse": null,
+      "sujet": null
+    }
   }
 ]

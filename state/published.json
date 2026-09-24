@@ -967,5 +967,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=28135",
+    "channel": "x",
+    "at": "2026-09-24T08:01:14.657Z",
+    "mediaId": "kit-telegram",
+    "titre": "Top 6 des activités insolites autour de La Rochelle",
+    "lien": "https://passion-aquitaine.ouest-france.fr/activites-insolites-la-rochelle-top/",
+    "lienPost": null,
+    "format": "image",
+    "mention": false,
+    "apercu": {
+      "texte": "Peu de visiteurs le savent : autour de La Rochelle, on peut descendre dans un bunker allemand 🕳️, parcourir une maison aux couloirs superposés ou visiter une ferme de spiruline.\n➡️ https://passion-aquitaine.ouest-france.fr/activites-insolites-la-rochelle-top/",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-005b146f-x.jpg",
+      "mode": "image",
+      "reponse": null,
+      "sujet": null
+    }
   }
 ]

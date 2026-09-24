@@ -1,13 +1,13 @@
 {
   "2026-09": {
     "cle": "2026-09",
-    "publications": 62,
+    "publications": 63,
     "articles": 16,
-    "interactions": 380,
+    "interactions": 390,
     "parReseau": {
       "facebook": 10,
       "instagram": 15,
-      "x": 13,
+      "x": 14,
       "threads": 10,
       "bluesky": 14
     },
@@ -38,7 +38,7 @@
         "titre": "En Haute-Vienne, les abeilles tuent le frelon asiatique en le chauffant vivant à 42°C",
         "lien": "https://www.instagram.com/p/DdYXqThl1Aa/",
         "image": "https://passion-aquitaine.ouest-france.fr/social/20260913-def258f4-1-vignette.jpg",
-        "interactions": 37
+        "interactions": 47
       },
       {
         "reseau": "threads",

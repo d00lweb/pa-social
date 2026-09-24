@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-24T07:20:44.455Z",
+  "genereLe": "2026-09-24T08:01:07.343Z",
   "jour": "2026-09-24",
   "reseaux": {
     "instagram": {
@@ -25,7 +25,7 @@
       },
       "formats": null,
       "aujourdhui": 0,
-      "semaine": 11,
+      "semaine": 10,
       "total": 15,
       "dernier": "2026-09-23T17:04:19.720Z",
       "lienDernier": "https://www.instagram.com/p/Ddozb-SFPym/"
@@ -160,10 +160,10 @@
         "lien",
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 11,
-      "total": 13,
-      "dernier": "2026-09-23T15:20:59.732Z",
+      "aujourdhui": 1,
+      "semaine": 12,
+      "total": 14,
+      "dernier": "2026-09-24T08:01:14.657Z",
       "lienDernier": null
     }
   },
@@ -172,7 +172,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=28135",
       "titre": "Top 6 des activités insolites autour de La Rochelle",
       "lien": "https://passion-aquitaine.ouest-france.fr/activites-insolites-la-rochelle-top/",
-      "at": "2026-09-24T07:27:04.328Z",
+      "at": "2026-09-24T08:01:14.657Z",
       "reseaux": {
         "bluesky": {
           "texte": "🌀 Une maison dont les couloirs se superposent, un bunker allemand enfoui, une ferme où pousse la spiruline : autour de La Rochelle, six activités sortent complètement des circuits touristiques habituels. #LaRochelle",
@@ -181,6 +181,14 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-09-24T07:27:04.328Z"
+        },
+        "x": {
+          "texte": "Peu de visiteurs le savent : autour de La Rochelle, on peut descendre dans un bunker allemand 🕳️, parcourir une maison aux couloirs superposés ou visiter une ferme de spiruline.\n➡️ https://passion-aquitaine.ouest-france.fr/activites-insolites-la-rochelle-top/",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-005b146f-x.jpg",
+          "mode": "image",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-09-24T08:01:14.657Z"
         }
       }
     },
@@ -427,6 +435,16 @@
   ],
   "publications": [
     {
+      "channel": "x",
+      "at": "2026-09-24T08:01:14.657Z",
+      "titre": "Top 6 des activités insolites autour de La Rochelle",
+      "lien": "https://passion-aquitaine.ouest-france.fr/activites-insolites-la-rochelle-top/",
+      "lienPost": null,
+      "format": "image",
+      "texte": "Peu de visiteurs le savent : autour de La Rochelle, on peut descendre dans un bunker allemand 🕳️, parcourir une maison aux couloirs superposés ou visiter une ferme de spiruline.\n➡️ https://passion-aquitaine.ouest-france.fr/activites-insolites-la-rochelle-top/",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-005b146f-x.jpg"
+    },
+    {
       "channel": "bluesky",
       "at": "2026-09-24T07:27:04.328Z",
       "titre": "Top 6 des activités insolites autour de La Rochelle",
@@ -515,28 +533,9 @@
       "format": "lien",
       "texte": "On dort au milieu des girafes et des loups 📍",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20260923-dac08af2-x.jpg"
-    },
-    {
-      "channel": "bluesky",
-      "at": "2026-09-23T07:12:17.971Z",
-      "titre": "Près de Limoges, on dort au milieu des girafes et des loups",
-      "lien": "https://passion-aquitaine.ouest-france.fr/lodges-zoo-reynou-limoges-hebergement-insolite/",
-      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mw66u2s3f32x",
-      "format": "image",
-      "texte": "À dix minutes de #Limoges, les lodges du Parc Zoo du Reynou permettent de dormir face aux girafes ou au cœur de l’enclos des loups 📍\n➡️ Lire l’article",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20260923-dac08af2-bsky.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "x",
-      "dueAt": "2026-09-24T08:00:00.000Z",
-      "prochainPassage": "2026-09-24T08:00:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Top 6 des activités insolites autour de La Rochelle"
-    },
     {
       "channel": "threads",
       "dueAt": "2026-09-24T08:27:55.073Z",
@@ -612,11 +611,11 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 47,
+    "releves": 48,
     "parReseau": {
       "instagram": {
-        "posts": 4,
-        "interactionsMoyennes": 5.8
+        "posts": 5,
+        "interactionsMoyennes": 14
       },
       "bluesky": {
         "posts": 2,
@@ -681,7 +680,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-09-24T06:38:57.822Z"
+    "derniere": "2026-09-24T08:01:07.343Z"
   },
   "abonnes": {
     "instagram": {
@@ -727,7 +726,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-24T07:27:08.567Z",
+    "genereLe": "2026-09-24T08:01:20.477Z",
     "posts": 41,
     "parReseau": {
       "threads": {
@@ -736,7 +735,7 @@
       },
       "instagram": {
         "posts": 12,
-        "moyenne": 16.8
+        "moyenne": 17.6
       },
       "facebook": {
         "posts": 8,
@@ -776,7 +775,7 @@
       },
       "matin": {
         "posts": 26,
-        "moyenne": 8.4
+        "moyenne": 8.8
       },
       "soir": {
         "posts": 5,
@@ -791,7 +790,7 @@
         },
         "hors créneau": {
           "posts": 6,
-          "moyenne": 10.5
+          "moyenne": 12.2
         },
         "18 h – 19 h 30": {
           "posts": 1,
@@ -845,7 +844,7 @@
         }
       }
     },
-    "interactionsTotal": 380,
+    "interactionsTotal": 390,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35605",
       "channel": "threads",
@@ -889,13 +888,13 @@
       },
       "sans": {
         "posts": 40,
-        "moyenne": 9.4
+        "moyenne": 9.7
       }
     },
     "publies": {
       "instagram": 15,
       "bluesky": 14,
-      "x": 13,
+      "x": 14,
       "facebook": 10,
       "threads": 10
     },

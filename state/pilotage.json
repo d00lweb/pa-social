@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-24T10:00:45.641Z",
+  "genereLe": "2026-09-24T10:20:39.790Z",
   "jour": "2026-09-24",
   "reseaux": {
     "instagram": {
@@ -514,7 +514,7 @@
   "file": [
     {
       "channel": "instagram",
-      "dueAt": "2026-09-24T10:25:57.220Z",
+      "dueAt": "2026-09-24T10:29:45.278Z",
       "prochainPassage": "2026-09-24T11:00:00.000Z",
       "nature": "evergreen",
       "prevuInitialement": null,
@@ -638,7 +638,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-09-24T09:20:37.359Z"
+    "derniere": "2026-09-24T10:20:39.790Z"
   },
   "abonnes": {
     "instagram": {
@@ -684,7 +684,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-24T10:12:20.159Z",
+    "genereLe": "2026-09-24T10:26:21.972Z",
     "posts": 41,
     "parReseau": {
       "threads": {

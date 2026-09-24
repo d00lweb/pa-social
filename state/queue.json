@@ -2,9 +2,9 @@
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=28135",
     "channel": "instagram",
-    "dueAt": 1790245557220,
+    "dueAt": 1790245785278,
     "status": "pending",
-    "attempts": 0,
+    "attempts": 1,
     "article": {
       "title": "Top 6 des activités insolites autour de La Rochelle",
       "link": "https://passion-aquitaine.ouest-france.fr/activites-insolites-la-rochelle-top/",
@@ -90,7 +90,8 @@
         "facebook": []
       }
     },
-    "previewSent": false
+    "previewSent": false,
+    "lastError": "Meta HTTP 400 · code 9007 · sous-code 2207027 : Media ID is not available — Impossible de publier — Le contenu n’est pas prêt à être publié, patientez un peu (fbtrace A_EK62aNbfAEDyRQ_-iOfuO)"
   },
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=28135",

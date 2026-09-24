@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-24T15:20:40.986Z",
+  "genereLe": "2026-09-24T16:00:39.018Z",
   "jour": "2026-09-24",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 1,
-      "semaine": 10,
-      "total": 16,
-      "dernier": "2026-09-24T11:25:13.145Z",
-      "lienDernier": "https://www.instagram.com/p/Ddqxam5Eccf/"
+      "aujourdhui": 2,
+      "semaine": 11,
+      "total": 17,
+      "dernier": "2026-09-24T16:05:58.276Z",
+      "lienDernier": "https://www.instagram.com/p/DdrRjJRFL_0/"
     },
     "bluesky": {
       "actif": true,
@@ -172,7 +172,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35626",
       "titre": "Des trimarans à nos mezzanines, ces filets sont cousus à Bordeaux",
       "lien": "https://passion-aquitaine.ouest-france.fr/des-trimarans-a-nos-mezzanines-ces-filets-sont-cousus-a-bordeaux/",
-      "at": "2026-09-24T12:30:13.883Z",
+      "at": "2026-09-24T16:05:58.276Z",
       "reseaux": {
         "bluesky": {
           "texte": "Aux Bassins à flot, à #Bordeaux, des couturières assemblent les filets qui équipent les trimarans de course. Les mêmes gestes servent à fabriquer des filets sur-mesure pour les mezzanines des maisons, taillés au centimètre près 🪢",
@@ -197,6 +197,14 @@
           "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/des-trimarans-a-nos-mezzanines-ces-filets-sont-cousus-a-bordeaux/",
           "sujet": "Bordeaux",
           "publieLe": "2026-09-24T12:30:13.883Z"
+        },
+        "instagram": {
+          "texte": "À Bordeaux, aux Bassins à flot, un atelier coud les filets des trimarans de course 🪡\n⠀\nLes mêmes couturières réalisent aussi des filets sur-mesure pour les mezzanines des maisons. Un savoir-faire discret, entre voile de compétition et aménagement intérieur.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #Trimaran #SavoirFaire",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-860ea888-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-09-24T16:05:58.276Z"
         }
       }
     },
@@ -435,6 +443,16 @@
   ],
   "publications": [
     {
+      "channel": "instagram",
+      "at": "2026-09-24T16:05:58.276Z",
+      "titre": "Des trimarans à nos mezzanines, ces filets sont cousus à Bordeaux",
+      "lien": "https://passion-aquitaine.ouest-france.fr/des-trimarans-a-nos-mezzanines-ces-filets-sont-cousus-a-bordeaux/",
+      "lienPost": "https://www.instagram.com/p/DdrRjJRFL_0/",
+      "format": null,
+      "texte": "À Bordeaux, aux Bassins à flot, un atelier coud les filets des trimarans de course 🪡\n⠀\nLes mêmes couturières réalisent aussi des filets sur-mesure pour les mezzanines des maisons. Un savoir-faire discret, entre voile de compétition et aménagement intérieur.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #Trimaran #SavoirFaire",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-860ea888-1.jpg"
+    },
+    {
       "channel": "threads",
       "at": "2026-09-24T12:30:13.883Z",
       "titre": "Des trimarans à nos mezzanines, ces filets sont cousus à Bordeaux",
@@ -523,27 +541,17 @@
       "format": "image",
       "texte": "On imagine le vin comme une affaire de terroir et de patience. C’est aussi une affaire de micro-organismes. À Bordeaux, une levure fait déjà perdre 🍇 1° d’alcool au vin, et les chercheurs continuent d’explorer cette piste avec la création d’Oenoledge. L’objectif : adapter les vins au changement climatique, qui fait grimper les degrés dans les bouteilles.\n➡️ https://passion-aquitaine.ouest-france.fr/levures-vin-changement-climatique-bordeaux/",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20260923-fffcf708-th.jpg"
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-09-23T18:10:02.422Z",
-      "titre": "Près de Limoges, on dort au milieu des girafes et des loups",
-      "lien": "https://passion-aquitaine.ouest-france.fr/lodges-zoo-reynou-limoges-hebergement-insolite/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1729197252539489",
-      "format": null,
-      "texte": "On dort au milieu des girafes et des loups 📍",
-      "image": null
     }
   ],
   "file": [
     {
-      "channel": "instagram",
-      "dueAt": "2026-09-24T16:05:33.725Z",
-      "prochainPassage": "2026-09-24T16:20:00.000Z",
-      "nature": "evergreen",
+      "channel": "bluesky",
+      "dueAt": "2026-09-24T16:33:47.982Z",
+      "prochainPassage": "2026-09-24T17:00:00.000Z",
+      "nature": "actu",
       "prevuInitialement": null,
       "raison": null,
-      "titre": "Des trimarans à nos mezzanines, ces filets sont cousus à Bordeaux"
+      "titre": "En Charente-Maritime, nouveau succès pour l’Ultra Trail de Pons"
     },
     {
       "channel": "facebook",
@@ -555,6 +563,15 @@
       "titre": "Top 6 des activités insolites autour de La Rochelle"
     },
     {
+      "channel": "threads",
+      "dueAt": "2026-09-25T05:30:33.918Z",
+      "prochainPassage": "2026-09-25T06:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "En Charente-Maritime, nouveau succès pour l’Ultra Trail de Pons"
+    },
+    {
       "channel": "facebook",
       "dueAt": "2026-09-25T07:11:23.295Z",
       "prochainPassage": "2026-09-25T07:20:00.000Z",
@@ -562,6 +579,33 @@
       "prevuInitialement": null,
       "raison": null,
       "titre": "Des trimarans à nos mezzanines, ces filets sont cousus à Bordeaux"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-09-25T07:20:00.000Z",
+      "prochainPassage": "2026-09-25T07:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "En Charente-Maritime, nouveau succès pour l’Ultra Trail de Pons"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-09-25T10:04:32.441Z",
+      "prochainPassage": "2026-09-25T10:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "En Charente-Maritime, nouveau succès pour l’Ultra Trail de Pons"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-09-25T19:12:19.522Z",
+      "prochainPassage": "2026-09-25T19:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "En Charente-Maritime, nouveau succès pour l’Ultra Trail de Pons"
     }
   ],
   "alertes": [],
@@ -681,7 +725,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-24T15:20:43.226Z",
+    "genereLe": "2026-09-24T16:05:58.445Z",
     "posts": 42,
     "parReseau": {
       "instagram": {
@@ -847,7 +891,7 @@
       }
     },
     "publies": {
-      "instagram": 16,
+      "instagram": 17,
       "bluesky": 15,
       "x": 15,
       "facebook": 10,
@@ -907,29 +951,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 4,
-      "entree": 27861,
-      "sortie": 3426,
-      "cout": 0.224955,
+      "appels": 6,
+      "entree": 41910,
+      "sortie": 5140,
+      "cout": 0.33805,
       "cle": "2026-09-24"
     },
     "semaine": {
-      "appels": 100,
-      "entree": 698133,
-      "sortie": 211020,
-      "cout": 5.165037
+      "appels": 102,
+      "entree": 712182,
+      "sortie": 212734,
+      "cout": 5.278132
     },
     "mois": {
-      "appels": 100,
-      "entree": 698133,
-      "sortie": 211020,
-      "cout": 5.165037,
+      "appels": 102,
+      "entree": 712182,
+      "sortie": 212734,
+      "cout": 5.278132,
       "cle": "2026-09"
     },
-    "projection": 6.46,
+    "projection": 6.6,
     "moyenneAppel": 0.0517,
     "parModele": {
-      "claude-opus-5": 49,
+      "claude-opus-5": 51,
       "claude-sonnet-5": 51
     },
     "serie": [
@@ -987,7 +1031,7 @@
       ],
       [
         "2026-09-24",
-        0.225
+        0.3381
       ]
     ],
     "depuis": "2026-09-23"

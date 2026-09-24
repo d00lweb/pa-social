@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-24T09:20:37.359Z",
+  "genereLe": "2026-09-24T10:00:45.641Z",
   "jour": "2026-09-24",
   "reseaux": {
     "instagram": {
@@ -60,11 +60,11 @@
         "image",
         "reply"
       ],
-      "aujourdhui": 1,
-      "semaine": 11,
-      "total": 14,
-      "dernier": "2026-09-24T07:27:04.328Z",
-      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mwaq5fuemj2o"
+      "aujourdhui": 2,
+      "semaine": 12,
+      "total": 15,
+      "dernier": "2026-09-24T10:12:15.872Z",
+      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mwazervmal2v"
     },
     "facebook": {
       "actif": true,
@@ -168,6 +168,22 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35626",
+      "titre": "Des trimarans à nos mezzanines, ces filets sont cousus à Bordeaux",
+      "lien": "https://passion-aquitaine.ouest-france.fr/des-trimarans-a-nos-mezzanines-ces-filets-sont-cousus-a-bordeaux/",
+      "at": "2026-09-24T10:12:15.872Z",
+      "reseaux": {
+        "bluesky": {
+          "texte": "Aux Bassins à flot, à #Bordeaux, des couturières assemblent les filets qui équipent les trimarans de course. Les mêmes gestes servent à fabriquer des filets sur-mesure pour les mezzanines des maisons, taillés au centimètre près 🪢",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-860ea888-bsky.jpg",
+          "mode": "reply",
+          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/des-trimarans-a-nos-mezzanines-ces-filets-sont-cousus-a-bordeaux/",
+          "sujet": null,
+          "publieLe": "2026-09-24T10:12:15.872Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=28135",
       "titre": "Top 6 des activités insolites autour de La Rochelle",
@@ -391,57 +407,19 @@
           "publieLe": "2026-09-21T11:27:50.317Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35478",
-      "titre": "Ces dauphins près des plages d’Hossegor ne sont pas bon signe",
-      "lien": "https://passion-aquitaine.ouest-france.fr/dauphins-hossegor-signal-alerte-gouf-capbreton/",
-      "at": "2026-09-20T18:27:17.265Z",
-      "reseaux": {
-        "threads": {
-          "texte": "Un matin de promenade sur le sable, des ailerons qui fendent l’eau à quelques dizaines de mètres, et tout le monde s’arrête. C’est la scène que vivent les promeneurs d’Hossegor et de Capbreton. Sauf qu’une biologiste marine ne partage pas tout à fait cet émerveillement : pour elle, des dauphins aussi proches du rivage racontent autre chose 🐬\n➡️ https://passion-aquitaine.ouest-france.fr/dauphins-hossegor-signal-alerte-gouf-capbreton/",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260920-834e0391-th.jpg",
-          "mode": "image",
-          "reponse": null,
-          "sujet": "Hossegor",
-          "publieLe": "2026-09-20T06:26:29.167Z"
-        },
-        "bluesky": {
-          "texte": "Sur le littoral, les apparitions de dauphins ravissent les promeneurs. Mais leur présence si près du bord n’a rien d’anodin : une biologiste marine y voit 🐬 un signal d’alerte, entre Capbreton et #Hossegor.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260920-834e0391-bsky.jpg",
-          "mode": "card",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-20T07:25:05.112Z"
-        },
-        "x": {
-          "texte": "🐬 Pourquoi des dauphins viennent-ils nager si près des plages d’#Hossegor et de Capbreton ? Les promeneurs y voient un spectacle. Une biologiste marine, elle, y lit un signal d’alerte.\n➡️ https://passion-aquitaine.ouest-france.fr/dauphins-hossegor-signal-alerte-gouf-capbreton/",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260920-834e0391-x.jpg",
-          "mode": "image",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-20T08:00:45.886Z"
-        },
-        "instagram": {
-          "texte": "🐬 Voir des dauphins depuis la plage d’Hossegor, c’est magique. Et c’est justement le problème\n⠀\nÀ Hossegor comme à Capbreton, les promeneurs s’émerveillent de ces apparitions. Une biologiste marine, elle, y lit un signal d’alerte pour l’océan.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Hossegor #Dauphins #Landes",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260920-834e0391-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-20T11:27:45.615Z"
-        },
-        "facebook": {
-          "texte": "Des dauphins s’approchent des plages d’Hossegor 🐬 Une biologiste marine y voit un signal d’alerte.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260920-834e0391-fb.jpg",
-          "mode": null,
-          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/dauphins-hossegor-signal-alerte-gouf-capbreton/",
-          "sujet": null,
-          "publieLe": "2026-09-20T18:27:17.265Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "bluesky",
+      "at": "2026-09-24T10:12:15.872Z",
+      "titre": "Des trimarans à nos mezzanines, ces filets sont cousus à Bordeaux",
+      "lien": "https://passion-aquitaine.ouest-france.fr/des-trimarans-a-nos-mezzanines-ces-filets-sont-cousus-a-bordeaux/",
+      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mwazervmal2v",
+      "format": "reply",
+      "texte": "Aux Bassins à flot, à #Bordeaux, des couturières assemblent les filets qui équipent les trimarans de course. Les mêmes gestes servent à fabriquer des filets sur-mesure pour les mezzanines des maisons, taillés au centimètre près 🪢",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-860ea888-bsky.jpg"
+    },
     {
       "channel": "threads",
       "at": "2026-09-24T08:28:40.031Z",
@@ -531,28 +509,9 @@
       "format": "image",
       "texte": "Des vins moins alcoolisés sans perdre leur goût : à #Bordeaux, une levure permet déjà de retirer 1° d’alcool. Les chercheurs poursuivent leurs travaux avec Oenoledge pour adapter les vignobles au changement climatique 🍷\n➡️ https://passion-aquitaine.ouest-france.fr/levures-vin-changement-climatique-bordeaux/",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20260923-fffcf708-x.jpg"
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-09-23T11:30:15.672Z",
-      "titre": "Près de Limoges, on dort au milieu des girafes et des loups",
-      "lien": "https://passion-aquitaine.ouest-france.fr/lodges-zoo-reynou-limoges-hebergement-insolite/",
-      "lienPost": "https://www.instagram.com/p/DdoNMmaGW9W/",
-      "format": null,
-      "texte": "À dix minutes de Limoges, les lodges du Parc Zoo du Reynou permettent de dormir face aux girafes ou au cœur de l’enclos des loups.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Limoges #NouvelleAquitaine #Decouverte",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20260923-dac08af2-1.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "bluesky",
-      "dueAt": "2026-09-24T10:12:13.431Z",
-      "prochainPassage": "2026-09-24T10:20:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Des trimarans à nos mezzanines, ces filets sont cousus à Bordeaux"
-    },
     {
       "channel": "instagram",
       "dueAt": "2026-09-24T10:25:57.220Z",
@@ -725,7 +684,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-24T09:20:39.890Z",
+    "genereLe": "2026-09-24T10:12:20.159Z",
     "posts": 41,
     "parReseau": {
       "threads": {
@@ -892,7 +851,7 @@
     },
     "publies": {
       "instagram": 15,
-      "bluesky": 14,
+      "bluesky": 15,
       "x": 14,
       "facebook": 10,
       "threads": 11

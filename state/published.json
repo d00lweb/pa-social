@@ -1003,5 +1003,23 @@
       "reponse": null,
       "sujet": "La Rochelle"
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35626",
+    "channel": "bluesky",
+    "at": "2026-09-24T10:12:15.872Z",
+    "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mwazervmal2v",
+    "titre": "Des trimarans à nos mezzanines, ces filets sont cousus à Bordeaux",
+    "lien": "https://passion-aquitaine.ouest-france.fr/des-trimarans-a-nos-mezzanines-ces-filets-sont-cousus-a-bordeaux/",
+    "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mwazervmal2v",
+    "format": "reply",
+    "mention": false,
+    "apercu": {
+      "texte": "Aux Bassins à flot, à #Bordeaux, des couturières assemblent les filets qui équipent les trimarans de course. Les mêmes gestes servent à fabriquer des filets sur-mesure pour les mezzanines des maisons, taillés au centimètre près 🪢",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-860ea888-bsky.jpg",
+      "mode": "reply",
+      "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/des-trimarans-a-nos-mezzanines-ces-filets-sont-cousus-a-bordeaux/",
+      "sujet": null
+    }
   }
 ]

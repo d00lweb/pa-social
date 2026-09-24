@@ -1021,5 +1021,41 @@
       "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/des-trimarans-a-nos-mezzanines-ces-filets-sont-cousus-a-bordeaux/",
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35626",
+    "channel": "x",
+    "at": "2026-09-24T11:20:47.689Z",
+    "mediaId": "kit-telegram",
+    "titre": "Des trimarans à nos mezzanines, ces filets sont cousus à Bordeaux",
+    "lien": "https://passion-aquitaine.ouest-france.fr/des-trimarans-a-nos-mezzanines-ces-filets-sont-cousus-a-bordeaux/",
+    "lienPost": null,
+    "format": "reponse",
+    "mention": false,
+    "apercu": {
+      "texte": "Le filet tendu sous un trimaran de course et celui d’une mezzanine peuvent sortir du même atelier 🪡 Aux Bassins à flot, à #Bordeaux, des couturières les assemblent sur-mesure, du large au salon.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-860ea888-x.jpg",
+      "mode": "reponse",
+      "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/des-trimarans-a-nos-mezzanines-ces-filets-sont-cousus-a-bordeaux/",
+      "sujet": null
+    }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=28135",
+    "channel": "instagram",
+    "at": "2026-09-24T11:25:13.145Z",
+    "mediaId": "18170260570457066",
+    "titre": "Top 6 des activités insolites autour de La Rochelle",
+    "lien": "https://passion-aquitaine.ouest-france.fr/activites-insolites-la-rochelle-top/",
+    "lienPost": "https://www.instagram.com/p/Ddqxam5Eccf/",
+    "format": null,
+    "mention": false,
+    "apercu": {
+      "texte": "Six activités insolites 🕳️ à faire autour de La Rochelle, loin des visites classiques du vieux port.\n⠀\nUn bunker allemand, une maison aux couloirs superposés, une ferme de spiruline : la Charente-Maritime cache des sorties que peu de visiteurs connaissent.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#LaRochelle #CharenteMaritime #Tourisme",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-005b146f-1.jpg",
+      "mode": null,
+      "reponse": null,
+      "sujet": null
+    }
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-24T11:00:43.256Z",
+  "genereLe": "2026-09-24T11:20:41.597Z",
   "jour": "2026-09-24",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 10,
-      "total": 15,
-      "dernier": "2026-09-23T17:04:19.720Z",
-      "lienDernier": "https://www.instagram.com/p/Ddozb-SFPym/"
+      "aujourdhui": 1,
+      "semaine": 11,
+      "total": 16,
+      "dernier": "2026-09-24T11:25:13.145Z",
+      "lienDernier": "https://www.instagram.com/p/Ddqxam5Eccf/"
     },
     "bluesky": {
       "actif": true,
@@ -160,35 +160,19 @@
         "lien",
         "reponse"
       ],
-      "aujourdhui": 1,
-      "semaine": 11,
-      "total": 14,
-      "dernier": "2026-09-24T08:01:14.657Z",
+      "aujourdhui": 2,
+      "semaine": 12,
+      "total": 15,
+      "dernier": "2026-09-24T11:20:47.689Z",
       "lienDernier": null
     }
   },
   "articles": [
     {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35626",
-      "titre": "Des trimarans à nos mezzanines, ces filets sont cousus à Bordeaux",
-      "lien": "https://passion-aquitaine.ouest-france.fr/des-trimarans-a-nos-mezzanines-ces-filets-sont-cousus-a-bordeaux/",
-      "at": "2026-09-24T10:12:15.872Z",
-      "reseaux": {
-        "bluesky": {
-          "texte": "Aux Bassins à flot, à #Bordeaux, des couturières assemblent les filets qui équipent les trimarans de course. Les mêmes gestes servent à fabriquer des filets sur-mesure pour les mezzanines des maisons, taillés au centimètre près 🪢",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-860ea888-bsky.jpg",
-          "mode": "reply",
-          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/des-trimarans-a-nos-mezzanines-ces-filets-sont-cousus-a-bordeaux/",
-          "sujet": null,
-          "publieLe": "2026-09-24T10:12:15.872Z"
-        }
-      }
-    },
-    {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=28135",
       "titre": "Top 6 des activités insolites autour de La Rochelle",
       "lien": "https://passion-aquitaine.ouest-france.fr/activites-insolites-la-rochelle-top/",
-      "at": "2026-09-24T08:28:40.031Z",
+      "at": "2026-09-24T11:25:13.145Z",
       "reseaux": {
         "bluesky": {
           "texte": "🌀 Une maison dont les couloirs se superposent, un bunker allemand enfoui, une ferme où pousse la spiruline : autour de La Rochelle, six activités sortent complètement des circuits touristiques habituels. #LaRochelle",
@@ -213,6 +197,38 @@
           "reponse": null,
           "sujet": "La Rochelle",
           "publieLe": "2026-09-24T08:28:40.031Z"
+        },
+        "instagram": {
+          "texte": "Six activités insolites 🕳️ à faire autour de La Rochelle, loin des visites classiques du vieux port.\n⠀\nUn bunker allemand, une maison aux couloirs superposés, une ferme de spiruline : la Charente-Maritime cache des sorties que peu de visiteurs connaissent.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#LaRochelle #CharenteMaritime #Tourisme",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-005b146f-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-09-24T11:25:13.145Z"
+        }
+      }
+    },
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35626",
+      "titre": "Des trimarans à nos mezzanines, ces filets sont cousus à Bordeaux",
+      "lien": "https://passion-aquitaine.ouest-france.fr/des-trimarans-a-nos-mezzanines-ces-filets-sont-cousus-a-bordeaux/",
+      "at": "2026-09-24T11:20:47.689Z",
+      "reseaux": {
+        "bluesky": {
+          "texte": "Aux Bassins à flot, à #Bordeaux, des couturières assemblent les filets qui équipent les trimarans de course. Les mêmes gestes servent à fabriquer des filets sur-mesure pour les mezzanines des maisons, taillés au centimètre près 🪢",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-860ea888-bsky.jpg",
+          "mode": "reply",
+          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/des-trimarans-a-nos-mezzanines-ces-filets-sont-cousus-a-bordeaux/",
+          "sujet": null,
+          "publieLe": "2026-09-24T10:12:15.872Z"
+        },
+        "x": {
+          "texte": "Le filet tendu sous un trimaran de course et celui d’une mezzanine peuvent sortir du même atelier 🪡 Aux Bassins à flot, à #Bordeaux, des couturières les assemblent sur-mesure, du large au salon.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-860ea888-x.jpg",
+          "mode": "reponse",
+          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/des-trimarans-a-nos-mezzanines-ces-filets-sont-cousus-a-bordeaux/",
+          "sujet": null,
+          "publieLe": "2026-09-24T11:20:47.689Z"
         }
       }
     },
@@ -411,6 +427,26 @@
   ],
   "publications": [
     {
+      "channel": "instagram",
+      "at": "2026-09-24T11:25:13.145Z",
+      "titre": "Top 6 des activités insolites autour de La Rochelle",
+      "lien": "https://passion-aquitaine.ouest-france.fr/activites-insolites-la-rochelle-top/",
+      "lienPost": "https://www.instagram.com/p/Ddqxam5Eccf/",
+      "format": null,
+      "texte": "Six activités insolites 🕳️ à faire autour de La Rochelle, loin des visites classiques du vieux port.\n⠀\nUn bunker allemand, une maison aux couloirs superposés, une ferme de spiruline : la Charente-Maritime cache des sorties que peu de visiteurs connaissent.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#LaRochelle #CharenteMaritime #Tourisme",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-005b146f-1.jpg"
+    },
+    {
+      "channel": "x",
+      "at": "2026-09-24T11:20:47.689Z",
+      "titre": "Des trimarans à nos mezzanines, ces filets sont cousus à Bordeaux",
+      "lien": "https://passion-aquitaine.ouest-france.fr/des-trimarans-a-nos-mezzanines-ces-filets-sont-cousus-a-bordeaux/",
+      "lienPost": null,
+      "format": "reponse",
+      "texte": "Le filet tendu sous un trimaran de course et celui d’une mezzanine peuvent sortir du même atelier 🪡 Aux Bassins à flot, à #Bordeaux, des couturières les assemblent sur-mesure, du large au salon.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-860ea888-x.jpg"
+    },
+    {
       "channel": "bluesky",
       "at": "2026-09-24T10:12:15.872Z",
       "titre": "Des trimarans à nos mezzanines, ces filets sont cousus à Bordeaux",
@@ -489,47 +525,9 @@
       "format": "card",
       "texte": "#Bordeaux devient un laboratoire du vin de demain 🍷 Une levure permet déjà de retirer un degré d’alcool. Avec la création d’Oenoledge, les chercheurs poursuivent leurs travaux pour adapter les cépages au changement climatique.",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20260923-fffcf708-bsky.jpg"
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-09-23T17:04:19.720Z",
-      "titre": "Une levure fait déjà perdre 1° d’alcool au vin : à Bordeaux, la recherche va plus loin",
-      "lien": "https://passion-aquitaine.ouest-france.fr/levures-vin-changement-climatique-bordeaux/",
-      "lienPost": "https://www.instagram.com/p/Ddozb-SFPym/",
-      "format": null,
-      "texte": "Et si une levure suffisait à baisser le degré d’alcool de votre verre ?\n⠀\nÀ Bordeaux, des chercheurs travaillent sur des levures capables de faire perdre 1° d’alcool au vin. Avec la création d’Oenoledge, ils poussent leurs études plus loin pour adapter les vignobles girondins au changement climatique 🍷\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #Vin #Levures",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20260923-fffcf708-1.jpg"
-    },
-    {
-      "channel": "x",
-      "at": "2026-09-23T15:20:59.732Z",
-      "titre": "Une levure fait déjà perdre 1° d’alcool au vin : à Bordeaux, la recherche va plus loin",
-      "lien": "https://passion-aquitaine.ouest-france.fr/levures-vin-changement-climatique-bordeaux/",
-      "lienPost": null,
-      "format": "image",
-      "texte": "Des vins moins alcoolisés sans perdre leur goût : à #Bordeaux, une levure permet déjà de retirer 1° d’alcool. Les chercheurs poursuivent leurs travaux avec Oenoledge pour adapter les vignobles au changement climatique 🍷\n➡️ https://passion-aquitaine.ouest-france.fr/levures-vin-changement-climatique-bordeaux/",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20260923-fffcf708-x.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "x",
-      "dueAt": "2026-09-24T11:20:00.000Z",
-      "prochainPassage": "2026-09-24T11:20:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Des trimarans à nos mezzanines, ces filets sont cousus à Bordeaux"
-    },
-    {
-      "channel": "instagram",
-      "dueAt": "2026-09-24T11:24:40.995Z",
-      "prochainPassage": "2026-09-24T12:00:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": "2026-09-24T10:29:45.278Z",
-      "raison": "son créneau était passé",
-      "titre": "Top 6 des activités insolites autour de La Rochelle"
-    },
     {
       "channel": "threads",
       "dueAt": "2026-09-24T12:25:49.748Z",
@@ -638,7 +636,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-09-24T10:20:39.790Z"
+    "derniere": "2026-09-24T11:20:41.597Z"
   },
   "abonnes": {
     "instagram": {
@@ -684,7 +682,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-24T11:00:44.060Z",
+    "genereLe": "2026-09-24T11:25:15.242Z",
     "posts": 41,
     "parReseau": {
       "threads": {
@@ -850,9 +848,9 @@
       }
     },
     "publies": {
-      "instagram": 15,
+      "instagram": 16,
       "bluesky": 15,
-      "x": 14,
+      "x": 15,
       "facebook": 10,
       "threads": 11
     },

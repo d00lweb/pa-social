@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-24T10:20:39.790Z",
+  "genereLe": "2026-09-24T11:00:43.256Z",
   "jour": "2026-09-24",
   "reseaux": {
     "instagram": {
@@ -513,15 +513,6 @@
   ],
   "file": [
     {
-      "channel": "instagram",
-      "dueAt": "2026-09-24T10:29:45.278Z",
-      "prochainPassage": "2026-09-24T11:00:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Top 6 des activités insolites autour de La Rochelle"
-    },
-    {
       "channel": "x",
       "dueAt": "2026-09-24T11:20:00.000Z",
       "prochainPassage": "2026-09-24T11:20:00.000Z",
@@ -529,6 +520,15 @@
       "prevuInitialement": null,
       "raison": null,
       "titre": "Des trimarans à nos mezzanines, ces filets sont cousus à Bordeaux"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-09-24T11:24:40.995Z",
+      "prochainPassage": "2026-09-24T12:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": "2026-09-24T10:29:45.278Z",
+      "raison": "son créneau était passé",
+      "titre": "Top 6 des activités insolites autour de La Rochelle"
     },
     {
       "channel": "threads",
@@ -684,7 +684,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-24T10:26:21.972Z",
+    "genereLe": "2026-09-24T11:00:44.060Z",
     "posts": 41,
     "parReseau": {
       "threads": {

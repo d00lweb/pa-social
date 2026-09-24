@@ -35,9 +35,16 @@ jobs:
     # 14 min après le début, plus 1 à 3 min entre deux réseaux) et avec ses conteneurs à attendre
     timeout-minutes: 40
     steps:
-      - uses: actions/checkout@v4
+      # Actions épinglées au commit, pas au numéro de version : un tag est modifiable par celui qui
+      # le publie, et ce passage a sous la main le secret SOCIAL — soit les cinq comptes du média.
+      # Pour les remettre à jour (dépôt public, donc sans jeton) :
+      #   gh api repos/actions/checkout/releases --jq '.[0].tag_name'
+      #   gh api repos/actions/checkout/git/ref/tags/<tag> --jq '.object.sha'
+      # puis un test à blanc (workflow_dispatch → « Test à blanc ») avant de compter dessus : il
+      # exerce tout le passage, y compris l'enregistrement de l'état, sans rien publier.
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
         with:
           node-version: 24
           cache: npm
@@ -51,7 +58,7 @@ jobs:
         id: pw
         run: echo "version=$(node -p "require('./node_modules/playwright/package.json').version")" >> "$GITHUB_OUTPUT"
 
-      - uses: actions/cache@v4
+      - uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
         with:
           path: ~/.cache/ms-playwright
           key: playwright-${{ runner.os }}-${{ steps.pw.outputs.version }}

@@ -913,5 +913,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35635",
+    "channel": "threads",
+    "at": "2026-09-24T06:27:31.734Z",
+    "mediaId": "18018308987732039",
+    "titre": "Une levure fait déjà perdre 1° d’alcool au vin : à Bordeaux, la recherche va plus loin",
+    "lien": "https://passion-aquitaine.ouest-france.fr/levures-vin-changement-climatique-bordeaux/",
+    "lienPost": "https://www.threads.com/@lovaquitaine/post/DdqPS9-m8XR",
+    "format": "image",
+    "mention": false,
+    "apercu": {
+      "texte": "On imagine le vin comme une affaire de terroir et de patience. C’est aussi une affaire de micro-organismes. À Bordeaux, une levure fait déjà perdre 🍇 1° d’alcool au vin, et les chercheurs continuent d’explorer cette piste avec la création d’Oenoledge. L’objectif : adapter les vins au changement climatique, qui fait grimper les degrés dans les bouteilles.\n➡️ https://passion-aquitaine.ouest-france.fr/levures-vin-changement-climatique-bordeaux/",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260923-fffcf708-th.jpg",
+      "mode": "image",
+      "reponse": null,
+      "sujet": "Bordeaux"
+    }
   }
 ]

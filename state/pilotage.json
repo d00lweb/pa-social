@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-24T05:20:51.632Z",
+  "genereLe": "2026-09-24T06:00:37.568Z",
   "jour": "2026-09-24",
   "reseaux": {
     "instagram": {
@@ -561,6 +561,96 @@
       "prevuInitialement": null,
       "raison": null,
       "titre": "Une levure fait déjà perdre 1° d’alcool au vin : à Bordeaux, la recherche va plus loin"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-09-24T07:27:02.550Z",
+      "prochainPassage": "2026-09-24T08:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Top 6 des activités insolites autour de La Rochelle"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-09-24T08:00:00.000Z",
+      "prochainPassage": "2026-09-24T08:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Top 6 des activités insolites autour de La Rochelle"
+    },
+    {
+      "channel": "threads",
+      "dueAt": "2026-09-24T08:27:55.073Z",
+      "prochainPassage": "2026-09-24T09:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Top 6 des activités insolites autour de La Rochelle"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-09-24T10:12:13.431Z",
+      "prochainPassage": "2026-09-24T10:20:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Des trimarans à nos mezzanines, ces filets sont cousus à Bordeaux"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-09-24T10:25:57.220Z",
+      "prochainPassage": "2026-09-24T11:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Top 6 des activités insolites autour de La Rochelle"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-09-24T11:20:00.000Z",
+      "prochainPassage": "2026-09-24T11:20:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Des trimarans à nos mezzanines, ces filets sont cousus à Bordeaux"
+    },
+    {
+      "channel": "threads",
+      "dueAt": "2026-09-24T12:25:49.748Z",
+      "prochainPassage": "2026-09-24T13:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Des trimarans à nos mezzanines, ces filets sont cousus à Bordeaux"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-09-24T16:05:33.725Z",
+      "prochainPassage": "2026-09-24T16:20:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Des trimarans à nos mezzanines, ces filets sont cousus à Bordeaux"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-09-24T19:09:47.271Z",
+      "prochainPassage": "2026-09-24T19:20:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Top 6 des activités insolites autour de La Rochelle"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-09-25T07:11:23.295Z",
+      "prochainPassage": "2026-09-25T07:20:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Des trimarans à nos mezzanines, ces filets sont cousus à Bordeaux"
     }
   ],
   "alertes": [],
@@ -680,7 +770,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-24T05:20:55.493Z",
+    "genereLe": "2026-09-24T06:01:15.620Z",
     "posts": 39,
     "parReseau": {
       "threads": {
@@ -906,29 +996,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 0,
-      "entree": 0,
-      "sortie": 0,
-      "cout": 0,
+      "appels": 3,
+      "entree": 20895,
+      "sortie": 2534,
+      "cout": 0.167825,
       "cle": "2026-09-24"
     },
     "semaine": {
-      "appels": 96,
-      "entree": 670272,
-      "sortie": 207594,
-      "cout": 4.940082
+      "appels": 99,
+      "entree": 691167,
+      "sortie": 210128,
+      "cout": 5.107907
     },
     "mois": {
-      "appels": 96,
-      "entree": 670272,
-      "sortie": 207594,
-      "cout": 4.940082,
+      "appels": 99,
+      "entree": 691167,
+      "sortie": 210128,
+      "cout": 5.107907,
       "cle": "2026-09"
     },
-    "projection": 6.18,
-    "moyenneAppel": 0.0515,
+    "projection": 6.38,
+    "moyenneAppel": 0.0516,
     "parModele": {
-      "claude-opus-5": 45,
+      "claude-opus-5": 48,
       "claude-sonnet-5": 51
     },
     "serie": [
@@ -986,7 +1076,7 @@
       ],
       [
         "2026-09-24",
-        0
+        0.1678
       ]
     ],
     "depuis": "2026-09-23"

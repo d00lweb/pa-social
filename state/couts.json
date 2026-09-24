@@ -23,5 +23,25 @@
         "cout": 4.865007
       }
     }
+  },
+  "2026-09-24": {
+    "appels": 3,
+    "entree": 20895,
+    "sortie": 2534,
+    "cacheLu": 0,
+    "cacheEcrit": 0,
+    "cout": 0.167825,
+    "parModele": {
+      "claude-opus-5": 3
+    },
+    "parUsage": {
+      "dossier": 3
+    },
+    "parOrigine": {
+      "robot": {
+        "appels": 3,
+        "cout": 0.167825
+      }
+    }
   }
 }

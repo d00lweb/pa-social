@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-24T06:20:43.742Z",
+  "genereLe": "2026-09-24T06:38:57.822Z",
   "jour": "2026-09-24",
   "reseaux": {
     "instagram": {
@@ -654,7 +654,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 45,
+    "releves": 46,
     "parReseau": {
       "instagram": {
         "posts": 4,
@@ -723,7 +723,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-09-24T05:20:51.632Z"
+    "derniere": "2026-09-24T06:38:57.822Z"
   },
   "abonnes": {
     "instagram": {
@@ -769,12 +769,12 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-24T06:27:32.617Z",
-    "posts": 39,
+    "genereLe": "2026-09-24T06:38:59.993Z",
+    "posts": 40,
     "parReseau": {
       "threads": {
-        "posts": 8,
-        "moyenne": 20.6
+        "posts": 9,
+        "moyenne": 18.3
       },
       "instagram": {
         "posts": 12,
@@ -794,12 +794,12 @@
         "posts": 5,
         "moyenne": 32
       },
-      "lien": {
-        "posts": 2,
-        "moyenne": 1.5
-      },
       "reply": {
         "posts": 4,
+        "moyenne": 1
+      },
+      "lien": {
+        "posts": 3,
         "moyenne": 1
       },
       "image": {
@@ -817,8 +817,8 @@
         "moyenne": 14.6
       },
       "matin": {
-        "posts": 24,
-        "moyenne": 9.1
+        "posts": 25,
+        "moyenne": 8.7
       },
       "soir": {
         "posts": 5,
@@ -874,8 +874,8 @@
           "moyenne": 37
         },
         "7 h – 8 h 30": {
-          "posts": 4,
-          "moyenne": 29.5
+          "posts": 5,
+          "moyenne": 23.6
         },
         "13 h – 14 h 30": {
           "posts": 2,
@@ -907,22 +907,22 @@
       "creneauReseau": "7 h – 8 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35372",
-      "channel": "bluesky",
-      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mvz5xaxgkm2b",
-      "publieLe": "2026-09-21T07:12:52.996Z",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35446",
+      "channel": "threads",
+      "mediaId": "17868637209646908",
+      "publieLe": "2026-09-23T06:29:35.955Z",
       "jalon": 1,
-      "releveLe": "2026-09-22T07:20:38.898Z",
+      "releveLe": "2026-09-24T06:38:57.822Z",
       "likes": 0,
       "commentaires": 0,
       "partages": 0,
-      "vues": null,
-      "titre": "En Vienne, huit monuments cachent 500 ans de peintures murales",
-      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mvz5xaxgkm2b",
-      "format": "image",
+      "vues": 213,
+      "titre": "Près de Limoges, on dort au milieu des girafes et des loups",
+      "lien": "https://www.threads.com/@lovaquitaine/post/DdnqvOvGwgz",
+      "format": "lien",
       "mention": false,
       "creneau": "matin",
-      "creneauReseau": "8 h – 9 h 30"
+      "creneauReseau": "7 h – 8 h 30"
     },
     "mentions": {
       "avec": {
@@ -930,8 +930,8 @@
         "moyenne": 4
       },
       "sans": {
-        "posts": 38,
-        "moyenne": 9.9
+        "posts": 39,
+        "moyenne": 9.6
       }
     },
     "publies": {
@@ -984,7 +984,7 @@
       }
     },
     "engagement": {
-      "threads": 1.79,
+      "threads": 1.59,
       "instagram": 0.17,
       "facebook": 0
     },

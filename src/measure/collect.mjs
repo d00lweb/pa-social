@@ -95,6 +95,11 @@ export async function collecter({ log = console.log, maintenant = Date.now() } =
     } catch (err) {
       // un post supprimé ou une permission manquante ne doit pas interrompre le relevé
       log(`   Mesure ${entree.channel} J+${jalon} impossible : ${err.message}`);
+      // Post introuvable chez le réseau (supprimé, ou publication qui n'a jamais abouti) : le
+      // relevé est clos pour ce jalon. Sans cela, le même échec repart à chaque passage, indéfiniment.
+      if (/does not exist|Unsupported get request|Object with ID/i.test(err.message)) {
+        mesures.push({ guid: entree.guid, channel: entree.channel, publieLe: entree.at, jalon, releveLe: new Date(maintenant).toISOString(), introuvable: true });
+      }
     }
   }
   await saveJson('mesures.json', mesures);

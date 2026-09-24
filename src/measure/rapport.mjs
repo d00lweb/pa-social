@@ -39,7 +39,9 @@ export function creneau(iso, timeZone = 'Europe/Paris') {
 // Un relevé par post : on garde le jalon le plus tardif disponible (J+7 s'il existe, sinon J+1)
 export function parPost(mesures) {
   const meilleur = new Map();
-  for (const m of mesures) {
+  // Les relevés marqués « introuvable » ne portent aucun chiffre : ils n'existent que pour clore
+  // un jalon dont le post a disparu chez le réseau. Les compter tirerait les moyennes vers zéro.
+  for (const m of mesures.filter((x) => !x.introuvable)) {
     const cle = `${m.guid}|${m.channel}`;
     const connu = meilleur.get(cle);
     if (!connu || m.jalon > connu.jalon) meilleur.set(cle, m);

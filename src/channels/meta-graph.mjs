@@ -74,9 +74,22 @@ export function createGraph({ userId, token, version }) {
       throw new Error(`Conteneur ${id} : pas FINISHED après ${tries} essais`);
     },
 
-    async publish(creationId) {
-      const { id } = await call('POST', `${userId}/media_publish`, { creation_id: creationId });
-      return id;
+    // 24/09/2026 : le conteneur répondait FINISHED, et media_publish refusait tout de même avec
+    // « code 9007 · sous-code 2207027 : Media ID is not available ». C'est une latence interne de
+    // Meta, pas un dossier invalide : rien n'est publié, et le même conteneur passe quelques
+    // secondes plus tard. On réessaie donc sur ce seul code, en espaçant.
+    async publish(creationId, { attentes = [5000, 15000, 30000], log = console.log } = {}) {
+      for (let i = 0; ; i++) {
+        try {
+          const { id } = await call('POST', `${userId}/media_publish`, { creation_id: creationId });
+          return id;
+        } catch (err) {
+          const pasPret = err.code === 9007 || err.subcode === 2207027;
+          if (!pasPret || i >= attentes.length) throw err;
+          log(`   Instagram : conteneur pas encore publiable, nouvel essai dans ${attentes[i] / 1000} s`);
+          await sleep(attentes[i]);
+        }
+      }
     },
 
     // Permalien public du post : c'est lui qui rend l'avis Telegram cliquable d'un geste

@@ -146,7 +146,15 @@ export async function publish(pkg, { channel }) {
   for (const child of children) await graph.waitFinished(child);
   const carousel = await creerCarrousel(graph, children, pkg.caption, lieu?.id);
   await graph.waitFinished(carousel);
-  const mediaId = await graph.publish(carousel);
+  // Si Meta n'est toujours pas prêt après les reprises, l'article n'y est pour rien : on reporte
+  // sans consommer d'essai, comme pour le quota. Trois échecs auraient abandonné la publication.
+  let mediaId;
+  try {
+    mediaId = await graph.publish(carousel);
+  } catch (err) {
+    if (err.code === 9007 || err.subcode === 2207027) throw new DeferError(`Instagram n’a pas fini de préparer le carrousel (${err.message})`);
+    throw err;
+  }
   // permalien pour l'avis Telegram : un échec ici ne doit rien casser, le post est déjà en ligne
   const lien = await graph.permalink(mediaId).catch(() => null);
 

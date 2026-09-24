@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-24T18:20:41.721Z",
+  "genereLe": "2026-09-24T19:01:16.852Z",
   "jour": "2026-09-24",
   "reseaux": {
     "instagram": {
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 1,
-      "semaine": 10,
-      "total": 10,
-      "dernier": "2026-09-24T07:10:39.016Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1729707029155178"
+      "aujourdhui": 2,
+      "semaine": 11,
+      "total": 11,
+      "dernier": "2026-09-24T19:09:59.003Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1730323139093567"
     },
     "threads": {
       "actif": true,
@@ -169,6 +169,54 @@
   },
   "articles": [
     {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=28135",
+      "titre": "Top 6 des activités insolites autour de La Rochelle",
+      "lien": "https://passion-aquitaine.ouest-france.fr/activites-insolites-la-rochelle-top/",
+      "at": "2026-09-24T19:09:59.003Z",
+      "reseaux": {
+        "bluesky": {
+          "texte": "🌀 Une maison dont les couloirs se superposent, un bunker allemand enfoui, une ferme où pousse la spiruline : autour de La Rochelle, six activités sortent complètement des circuits touristiques habituels. #LaRochelle",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-005b146f-bsky.jpg",
+          "mode": "card",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-09-24T07:27:04.328Z"
+        },
+        "x": {
+          "texte": "Peu de visiteurs le savent : autour de La Rochelle, on peut descendre dans un bunker allemand 🕳️, parcourir une maison aux couloirs superposés ou visiter une ferme de spiruline.\n➡️ https://passion-aquitaine.ouest-france.fr/activites-insolites-la-rochelle-top/",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-005b146f-x.jpg",
+          "mode": "image",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-09-24T08:01:14.657Z"
+        },
+        "threads": {
+          "texte": "Passer un week-end à La Rochelle sans refaire les tours du vieux port, c’est possible 🧭 Six adresses insolites attendent les curieux : un bunker allemand, une maison aux couloirs superposés, une ferme de spiruline. De quoi occuper deux jours autrement, même quand on croit déjà bien connaître la ville.\n➡️ https://passion-aquitaine.ouest-france.fr/activites-insolites-la-rochelle-top/",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-005b146f-th.jpg",
+          "mode": "image",
+          "reponse": null,
+          "sujet": "La Rochelle",
+          "publieLe": "2026-09-24T08:28:40.031Z"
+        },
+        "instagram": {
+          "texte": "Six activités insolites 🕳️ à faire autour de La Rochelle, loin des visites classiques du vieux port.\n⠀\nUn bunker allemand, une maison aux couloirs superposés, une ferme de spiruline : la Charente-Maritime cache des sorties que peu de visiteurs connaissent.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#LaRochelle #CharenteMaritime #Tourisme",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-005b146f-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-09-24T11:25:13.145Z"
+        },
+        "facebook": {
+          "texte": "Autour de La Rochelle, on visite un bunker allemand et une ferme de spiruline dans la même journée 🕳️",
+          "image": null,
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-09-24T19:09:59.003Z"
+        }
+      }
+    },
+    {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35642",
       "titre": "En Charente-Maritime, nouveau succès pour l’Ultra Trail de Pons",
       "lien": "https://passion-aquitaine.ouest-france.fr/bilan-ultra-trail-pons-2026/",
@@ -221,46 +269,6 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-09-24T16:05:58.276Z"
-        }
-      }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=28135",
-      "titre": "Top 6 des activités insolites autour de La Rochelle",
-      "lien": "https://passion-aquitaine.ouest-france.fr/activites-insolites-la-rochelle-top/",
-      "at": "2026-09-24T11:25:13.145Z",
-      "reseaux": {
-        "bluesky": {
-          "texte": "🌀 Une maison dont les couloirs se superposent, un bunker allemand enfoui, une ferme où pousse la spiruline : autour de La Rochelle, six activités sortent complètement des circuits touristiques habituels. #LaRochelle",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-005b146f-bsky.jpg",
-          "mode": "card",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-24T07:27:04.328Z"
-        },
-        "x": {
-          "texte": "Peu de visiteurs le savent : autour de La Rochelle, on peut descendre dans un bunker allemand 🕳️, parcourir une maison aux couloirs superposés ou visiter une ferme de spiruline.\n➡️ https://passion-aquitaine.ouest-france.fr/activites-insolites-la-rochelle-top/",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-005b146f-x.jpg",
-          "mode": "image",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-24T08:01:14.657Z"
-        },
-        "threads": {
-          "texte": "Passer un week-end à La Rochelle sans refaire les tours du vieux port, c’est possible 🧭 Six adresses insolites attendent les curieux : un bunker allemand, une maison aux couloirs superposés, une ferme de spiruline. De quoi occuper deux jours autrement, même quand on croit déjà bien connaître la ville.\n➡️ https://passion-aquitaine.ouest-france.fr/activites-insolites-la-rochelle-top/",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-005b146f-th.jpg",
-          "mode": "image",
-          "reponse": null,
-          "sujet": "La Rochelle",
-          "publieLe": "2026-09-24T08:28:40.031Z"
-        },
-        "instagram": {
-          "texte": "Six activités insolites 🕳️ à faire autour de La Rochelle, loin des visites classiques du vieux port.\n⠀\nUn bunker allemand, une maison aux couloirs superposés, une ferme de spiruline : la Charente-Maritime cache des sorties que peu de visiteurs connaissent.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#LaRochelle #CharenteMaritime #Tourisme",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-005b146f-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-24T11:25:13.145Z"
         }
       }
     },
@@ -411,6 +419,16 @@
   ],
   "publications": [
     {
+      "channel": "facebook",
+      "at": "2026-09-24T19:09:59.003Z",
+      "titre": "Top 6 des activités insolites autour de La Rochelle",
+      "lien": "https://passion-aquitaine.ouest-france.fr/activites-insolites-la-rochelle-top/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1730323139093567",
+      "format": null,
+      "texte": "Autour de La Rochelle, on visite un bunker allemand et une ferme de spiruline dans la même journée 🕳️",
+      "image": null
+    },
+    {
       "channel": "bluesky",
       "at": "2026-09-24T16:33:50.685Z",
       "titre": "En Charente-Maritime, nouveau succès pour l’Ultra Trail de Pons",
@@ -499,28 +517,9 @@
       "format": "card",
       "texte": "🌀 Une maison dont les couloirs se superposent, un bunker allemand enfoui, une ferme où pousse la spiruline : autour de La Rochelle, six activités sortent complètement des circuits touristiques habituels. #LaRochelle",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-005b146f-bsky.jpg"
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-09-24T07:10:39.016Z",
-      "titre": "Une levure fait déjà perdre 1° d’alcool au vin : à Bordeaux, la recherche va plus loin",
-      "lien": "https://passion-aquitaine.ouest-france.fr/levures-vin-changement-climatique-bordeaux/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1729707029155178",
-      "format": null,
-      "texte": "Une simple levure retire déjà un degré d’alcool au vin, et les chercheurs bordelais ne comptent pas s’arrêter là 🍇",
-      "image": null
     }
   ],
   "file": [
-    {
-      "channel": "facebook",
-      "dueAt": "2026-09-24T19:09:47.271Z",
-      "prochainPassage": "2026-09-24T19:20:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Top 6 des activités insolites autour de La Rochelle"
-    },
     {
       "channel": "threads",
       "dueAt": "2026-09-25T05:30:33.918Z",
@@ -638,7 +637,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-09-24T17:21:25.438Z"
+    "derniere": "2026-09-24T19:01:16.852Z"
   },
   "abonnes": {
     "instagram": {
@@ -684,7 +683,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-24T18:20:42.367Z",
+    "genereLe": "2026-09-24T19:10:00.675Z",
     "posts": 45,
     "parReseau": {
       "threads": {
@@ -857,7 +856,7 @@
       "instagram": 17,
       "bluesky": 16,
       "x": 15,
-      "facebook": 10,
+      "facebook": 11,
       "threads": 12
     },
     "abonnes": {

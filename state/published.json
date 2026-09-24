@@ -1057,5 +1057,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35626",
+    "channel": "threads",
+    "at": "2026-09-24T12:30:13.883Z",
+    "mediaId": "17901570219596397",
+    "titre": "Des trimarans à nos mezzanines, ces filets sont cousus à Bordeaux",
+    "lien": "https://passion-aquitaine.ouest-france.fr/des-trimarans-a-nos-mezzanines-ces-filets-sont-cousus-a-bordeaux/",
+    "lienPost": "https://www.threads.com/@lovaquitaine/post/Ddq4YpSEWa4",
+    "format": "reponse",
+    "mention": false,
+    "apercu": {
+      "texte": "🧵 On croit les filets de course réservés aux bateaux du large. En réalité, ceux des trimarans sont cousus aux Bassins à flot, à Bordeaux, par des couturières qui fabriquent aussi les filets tendus au-dessus de nos mezzanines. Même matière, même exigence, deux usages très différents. Vous connaissiez cet atelier ?",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-860ea888-th.jpg",
+      "mode": "reponse",
+      "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/des-trimarans-a-nos-mezzanines-ces-filets-sont-cousus-a-bordeaux/",
+      "sujet": "Bordeaux"
+    }
   }
 ]

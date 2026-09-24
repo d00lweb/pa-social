@@ -949,5 +949,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=28135",
+    "channel": "bluesky",
+    "at": "2026-09-24T07:27:04.328Z",
+    "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mwaq5fuemj2o",
+    "titre": "Top 6 des activités insolites autour de La Rochelle",
+    "lien": "https://passion-aquitaine.ouest-france.fr/activites-insolites-la-rochelle-top/",
+    "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mwaq5fuemj2o",
+    "format": "card",
+    "mention": false,
+    "apercu": {
+      "texte": "🌀 Une maison dont les couloirs se superposent, un bunker allemand enfoui, une ferme où pousse la spiruline : autour de La Rochelle, six activités sortent complètement des circuits touristiques habituels. #LaRochelle",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-005b146f-bsky.jpg",
+      "mode": "card",
+      "reponse": null,
+      "sujet": null
+    }
   }
 ]

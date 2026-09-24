@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-24T07:01:03.039Z",
+  "genereLe": "2026-09-24T07:20:44.455Z",
   "jour": "2026-09-24",
   "reseaux": {
     "instagram": {
@@ -60,11 +60,11 @@
         "image",
         "reply"
       ],
-      "aujourdhui": 0,
-      "semaine": 11,
-      "total": 13,
-      "dernier": "2026-09-23T17:26:21.974Z",
-      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mw7b643a742q"
+      "aujourdhui": 1,
+      "semaine": 12,
+      "total": 14,
+      "dernier": "2026-09-24T07:27:04.328Z",
+      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mwaq5fuemj2o"
     },
     "facebook": {
       "actif": true,
@@ -168,6 +168,22 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=28135",
+      "titre": "Top 6 des activités insolites autour de La Rochelle",
+      "lien": "https://passion-aquitaine.ouest-france.fr/activites-insolites-la-rochelle-top/",
+      "at": "2026-09-24T07:27:04.328Z",
+      "reseaux": {
+        "bluesky": {
+          "texte": "🌀 Une maison dont les couloirs se superposent, un bunker allemand enfoui, une ferme où pousse la spiruline : autour de La Rochelle, six activités sortent complètement des circuits touristiques habituels. #LaRochelle",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-005b146f-bsky.jpg",
+          "mode": "card",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-09-24T07:27:04.328Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35635",
       "titre": "Une levure fait déjà perdre 1° d’alcool au vin : à Bordeaux, la recherche va plus loin",
@@ -407,57 +423,19 @@
           "publieLe": "2026-09-20T18:27:17.265Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35586",
-      "titre": "Cette maison du Lot-et-Garonne raconte la vie de son propriétaire à travers 600 céramiques",
-      "lien": "https://passion-aquitaine.ouest-france.fr/maison-assiettes-bias-lot-et-garonne/",
-      "at": "2026-09-20T06:07:43.299Z",
-      "reseaux": {
-        "x": {
-          "texte": "Des murs couverts de 600 céramiques, du sol au plafond 🍽️ La Maison des Assiettes, décorée par Léon De Brondeau en Lot-et-Garonne, rouvre ses portes pour les Journées Européennes du Patrimoine.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260919-10392677-x.jpg",
-          "mode": "reponse",
-          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/maison-assiettes-bias-lot-et-garonne/",
-          "sujet": null,
-          "publieLe": "2026-09-19T10:20:53.165Z"
-        },
-        "bluesky": {
-          "texte": "Visiter une maison dont les murs racontent une biographie : c’est ce que propose la Maison des Assiettes, en Lot-et-Garonne. Léon De Brondeau y a posé 600 céramiques, et le lieu rouvre pour les Journées Européennes du Patrimoine 🏺 #LotEtGaronne",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260919-10392677-bsky.jpg",
-          "mode": "reply",
-          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/maison-assiettes-bias-lot-et-garonne/",
-          "sujet": null,
-          "publieLe": "2026-09-19T10:27:27.860Z"
-        },
-        "threads": {
-          "texte": "🏺 Détail méconnu : les 600 céramiques de cette maison du Lot-et-Garonne ne sont pas là pour faire joli. Léon De Brondeau les a choisies et posées comme autant de repères de sa propre existence. Une façon d’écrire une autobiographie sur les murs. Le lieu rouvre pour les Journées Européennes du Patrimoine. Seriez-vous tenté par la visite ?",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260919-10392677-th.jpg",
-          "mode": "reponse",
-          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/maison-assiettes-bias-lot-et-garonne/",
-          "sujet": "Lot-et-Garonne",
-          "publieLe": "2026-09-19T12:28:00.908Z"
-        },
-        "instagram": {
-          "texte": "En Lot-et-Garonne, une maison entière est tapissée de 600 céramiques 🍽️\n⠀\nLa Maison des Assiettes, décorée par Léon De Brondeau, rouvre ses portes à l’occasion des Journées Européennes du Patrimoine. Chaque pièce posée sur les murs raconte un morceau de la vie de son propriétaire.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#LotEtGaronne #MaisonDesAssiettes #Patrimoine",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260919-10392677-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-19T16:07:56.872Z"
-        },
-        "facebook": {
-          "texte": "Un propriétaire a raconté sa vie avec 🍽️ 600 assiettes posées sur ses murs. Vous connaissiez ce lieu ?",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260919-10392677-fb.jpg",
-          "mode": null,
-          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/maison-assiettes-bias-lot-et-garonne/",
-          "sujet": null,
-          "publieLe": "2026-09-20T06:07:43.299Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "bluesky",
+      "at": "2026-09-24T07:27:04.328Z",
+      "titre": "Top 6 des activités insolites autour de La Rochelle",
+      "lien": "https://passion-aquitaine.ouest-france.fr/activites-insolites-la-rochelle-top/",
+      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mwaq5fuemj2o",
+      "format": "card",
+      "texte": "🌀 Une maison dont les couloirs se superposent, un bunker allemand enfoui, une ferme où pousse la spiruline : autour de La Rochelle, six activités sortent complètement des circuits touristiques habituels. #LaRochelle",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-005b146f-bsky.jpg"
+    },
     {
       "channel": "facebook",
       "at": "2026-09-24T07:10:39.016Z",
@@ -547,28 +525,9 @@
       "format": "image",
       "texte": "À dix minutes de #Limoges, les lodges du Parc Zoo du Reynou permettent de dormir face aux girafes ou au cœur de l’enclos des loups 📍\n➡️ Lire l’article",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20260923-dac08af2-bsky.jpg"
-    },
-    {
-      "channel": "threads",
-      "at": "2026-09-23T06:29:35.955Z",
-      "titre": "Près de Limoges, on dort au milieu des girafes et des loups",
-      "lien": "https://passion-aquitaine.ouest-france.fr/lodges-zoo-reynou-limoges-hebergement-insolite/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/DdnqvOvGwgz",
-      "format": "lien",
-      "texte": "À dix minutes de Limoges, les lodges du Parc Zoo du Reynou permettent de dormir face aux girafes ou au cœur de l’enclos des loups 📍",
-      "image": null
     }
   ],
   "file": [
-    {
-      "channel": "bluesky",
-      "dueAt": "2026-09-24T07:27:02.550Z",
-      "prochainPassage": "2026-09-24T08:00:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Top 6 des activités insolites autour de La Rochelle"
-    },
     {
       "channel": "x",
       "dueAt": "2026-09-24T08:00:00.000Z",
@@ -653,7 +612,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 46,
+    "releves": 47,
     "parReseau": {
       "instagram": {
         "posts": 4,
@@ -768,8 +727,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-24T07:10:39.844Z",
-    "posts": 40,
+    "genereLe": "2026-09-24T07:27:08.567Z",
+    "posts": 41,
     "parReseau": {
       "threads": {
         "posts": 9,
@@ -784,7 +743,7 @@
         "moyenne": 1
       },
       "bluesky": {
-        "posts": 11,
+        "posts": 12,
         "moyenne": 0.5
       }
     },
@@ -802,8 +761,8 @@
         "moyenne": 1
       },
       "image": {
-        "posts": 3,
-        "moyenne": 0.7
+        "posts": 4,
+        "moyenne": 0.5
       },
       "card": {
         "posts": 1,
@@ -816,8 +775,8 @@
         "moyenne": 14.6
       },
       "matin": {
-        "posts": 25,
-        "moyenne": 8.7
+        "posts": 26,
+        "moyenne": 8.4
       },
       "soir": {
         "posts": 5,
@@ -844,13 +803,13 @@
           "posts": 1,
           "moyenne": 1
         },
-        "8 h – 9 h 30": {
-          "posts": 6,
-          "moyenne": 0.5
-        },
         "hors créneau": {
           "posts": 4,
           "moyenne": 0.5
+        },
+        "8 h – 9 h 30": {
+          "posts": 7,
+          "moyenne": 0.4
         }
       },
       "facebook": {
@@ -907,21 +866,21 @@
     },
     "moinsBon": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35446",
-      "channel": "threads",
-      "mediaId": "17868637209646908",
-      "publieLe": "2026-09-23T06:29:35.955Z",
+      "channel": "bluesky",
+      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mw66u2s3f32x",
+      "publieLe": "2026-09-23T07:12:17.971Z",
       "jalon": 1,
-      "releveLe": "2026-09-24T06:38:57.822Z",
+      "releveLe": "2026-09-24T07:20:44.455Z",
       "likes": 0,
       "commentaires": 0,
       "partages": 0,
-      "vues": 213,
+      "vues": null,
       "titre": "Près de Limoges, on dort au milieu des girafes et des loups",
-      "lien": "https://www.threads.com/@lovaquitaine/post/DdnqvOvGwgz",
-      "format": "lien",
+      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mw66u2s3f32x",
+      "format": "image",
       "mention": false,
       "creneau": "matin",
-      "creneauReseau": "7 h – 8 h 30"
+      "creneauReseau": "8 h – 9 h 30"
     },
     "mentions": {
       "avec": {
@@ -929,13 +888,13 @@
         "moyenne": 4
       },
       "sans": {
-        "posts": 39,
-        "moyenne": 9.6
+        "posts": 40,
+        "moyenne": 9.4
       }
     },
     "publies": {
       "instagram": 15,
-      "bluesky": 13,
+      "bluesky": 14,
       "x": 13,
       "facebook": 10,
       "threads": 10

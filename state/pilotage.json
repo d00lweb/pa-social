@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-25T12:20:38.623Z",
+  "genereLe": "2026-09-25T12:57:58.361Z",
   "jour": "2026-09-25",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 1,
-      "semaine": 10,
-      "total": 18,
-      "dernier": "2026-09-25T10:04:59.257Z",
-      "lienDernier": "https://www.instagram.com/p/DdtNCBBnJ3V/"
+      "aujourdhui": 0,
+      "semaine": 9,
+      "total": 17,
+      "dernier": "2026-09-24T16:05:58.276Z",
+      "lienDernier": "https://www.instagram.com/p/DdrRjJRFL_0/"
     },
     "bluesky": {
       "actif": true,
@@ -193,46 +193,6 @@
       }
     },
     {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35642",
-      "titre": "En Charente-Maritime, nouveau succès pour l’Ultra Trail de Pons",
-      "lien": "https://passion-aquitaine.ouest-france.fr/bilan-ultra-trail-pons-2026/",
-      "at": "2026-09-25T10:04:59.257Z",
-      "reseaux": {
-        "bluesky": {
-          "texte": "L’Ultra Trail de #Pons n’attire plus seulement les habitués de Charente-Maritime : parmi les 🏅 2 740 inscrits de l’édition 2026, certains sont venus du Canada ou de La Réunion. Un record pour cette course de Saintonge.\n➡️ Lire l’article",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-1bda31df-bsky.jpg",
-          "mode": "image",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-24T16:33:50.685Z"
-        },
-        "threads": {
-          "texte": "Des chemins de Saintonge, des dossards par milliers et des accents venus de très loin. À Pons, 2 740 personnes se sont inscrites à l’Ultra Trail, certaines depuis le Canada ou La Réunion. L’édition 2026 devient la plus fournie que la course ait connue 🏃",
-          "image": null,
-          "mode": "lien",
-          "reponse": null,
-          "sujet": "Pons",
-          "publieLe": "2026-09-25T05:31:21.817Z"
-        },
-        "x": {
-          "texte": "🏃 Comment une course de Charente-Maritime attire-t-elle des coureurs du Canada et de La Réunion ? L’Ultra Trail de #Pons a réuni 2 740 inscrits pour son édition 2026, un record.\n➡️ https://passion-aquitaine.ouest-france.fr/bilan-ultra-trail-pons-2026/",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-1bda31df-x.jpg",
-          "mode": "lien",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-25T07:21:25.943Z"
-        },
-        "instagram": {
-          "texte": "🏃 2 740 coureurs à Pons : le petit trail charentais attire désormais jusqu’au Canada\n⠀\nVenus de France, du Canada ou de La Réunion, les inscrits ont fait de cette édition 2026 la plus fournie de l’histoire de l’Ultra Trail de Pons, en Charente-Maritime.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Pons #UltraTrail #CharenteMaritime",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-1bda31df-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-25T10:04:59.257Z"
-        }
-      }
-    },
-    {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=34448",
       "titre": "À Bidache, vivez 2000 ans d’histoire en un week-end",
       "lien": "https://passion-aquitaine.ouest-france.fr/historiques-bidache-2026-chateau-gramont/",
@@ -261,6 +221,38 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-09-25T10:00:48.759Z"
+        }
+      }
+    },
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35642",
+      "titre": "En Charente-Maritime, nouveau succès pour l’Ultra Trail de Pons",
+      "lien": "https://passion-aquitaine.ouest-france.fr/bilan-ultra-trail-pons-2026/",
+      "at": "2026-09-25T07:21:25.943Z",
+      "reseaux": {
+        "bluesky": {
+          "texte": "L’Ultra Trail de #Pons n’attire plus seulement les habitués de Charente-Maritime : parmi les 🏅 2 740 inscrits de l’édition 2026, certains sont venus du Canada ou de La Réunion. Un record pour cette course de Saintonge.\n➡️ Lire l’article",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-1bda31df-bsky.jpg",
+          "mode": "image",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-09-24T16:33:50.685Z"
+        },
+        "threads": {
+          "texte": "Des chemins de Saintonge, des dossards par milliers et des accents venus de très loin. À Pons, 2 740 personnes se sont inscrites à l’Ultra Trail, certaines depuis le Canada ou La Réunion. L’édition 2026 devient la plus fournie que la course ait connue 🏃",
+          "image": null,
+          "mode": "lien",
+          "reponse": null,
+          "sujet": "Pons",
+          "publieLe": "2026-09-25T05:31:21.817Z"
+        },
+        "x": {
+          "texte": "🏃 Comment une course de Charente-Maritime attire-t-elle des coureurs du Canada et de La Réunion ? L’Ultra Trail de #Pons a réuni 2 740 inscrits pour son édition 2026, un record.\n➡️ https://passion-aquitaine.ouest-france.fr/bilan-ultra-trail-pons-2026/",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-1bda31df-x.jpg",
+          "mode": "lien",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-09-25T07:21:25.943Z"
         }
       }
     },
@@ -431,16 +423,6 @@
       "image": "https://passion-aquitaine.ouest-france.fr/social/20260925-93e1ab54-bsky.jpg"
     },
     {
-      "channel": "instagram",
-      "at": "2026-09-25T10:04:59.257Z",
-      "titre": "En Charente-Maritime, nouveau succès pour l’Ultra Trail de Pons",
-      "lien": "https://passion-aquitaine.ouest-france.fr/bilan-ultra-trail-pons-2026/",
-      "lienPost": "https://www.instagram.com/p/DdtNCBBnJ3V/",
-      "format": null,
-      "texte": "🏃 2 740 coureurs à Pons : le petit trail charentais attire désormais jusqu’au Canada\n⠀\nVenus de France, du Canada ou de La Réunion, les inscrits ont fait de cette édition 2026 la plus fournie de l’histoire de l’Ultra Trail de Pons, en Charente-Maritime.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Pons #UltraTrail #CharenteMaritime",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-1bda31df-1.jpg"
-    },
-    {
       "channel": "x",
       "at": "2026-09-25T10:00:48.759Z",
       "titre": "À Bidache, vivez 2000 ans d’histoire en un week-end",
@@ -509,6 +491,16 @@
       "format": null,
       "texte": "Autour de La Rochelle, on visite un bunker allemand et une ferme de spiruline dans la même journée 🕳️",
       "image": null
+    },
+    {
+      "channel": "bluesky",
+      "at": "2026-09-24T16:33:50.685Z",
+      "titre": "En Charente-Maritime, nouveau succès pour l’Ultra Trail de Pons",
+      "lien": "https://passion-aquitaine.ouest-france.fr/bilan-ultra-trail-pons-2026/",
+      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mwbop3zhbj2x",
+      "format": "image",
+      "texte": "L’Ultra Trail de #Pons n’attire plus seulement les habitués de Charente-Maritime : parmi les 🏅 2 740 inscrits de l’édition 2026, certains sont venus du Canada ou de La Réunion. Un record pour cette course de Saintonge.\n➡️ Lire l’article",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-1bda31df-bsky.jpg"
     }
   ],
   "file": [
@@ -523,12 +515,12 @@
     },
     {
       "channel": "instagram",
-      "dueAt": "2026-09-25T16:28:19.276Z",
-      "prochainPassage": "2026-09-25T17:00:00.000Z",
+      "dueAt": "2026-09-25T17:27:31.804Z",
+      "prochainPassage": "2026-09-25T18:00:00.000Z",
       "nature": "actu",
       "prevuInitialement": null,
       "raison": null,
-      "titre": "À Bidache, vivez 2000 ans d’histoire en un week-end"
+      "titre": "En Charente-Maritime, nouveau succès pour l’Ultra Trail de Pons"
     },
     {
       "channel": "facebook",
@@ -550,11 +542,20 @@
     },
     {
       "channel": "instagram",
-      "dueAt": "2026-09-26T10:12:10.178Z",
-      "prochainPassage": "2026-09-26T10:20:00.000Z",
+      "dueAt": "2026-09-26T10:23:15.144Z",
+      "prochainPassage": "2026-09-26T11:00:00.000Z",
       "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
+      "prevuInitialement": "2026-09-25T16:28:19.276Z",
+      "raison": "un autre post occupait déjà ce créneau",
+      "titre": "À Bidache, vivez 2000 ans d’histoire en un week-end"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-09-26T16:34:34.090Z",
+      "prochainPassage": "2026-09-26T17:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": "2026-09-26T10:12:10.178Z",
+      "raison": "un autre post occupait déjà ce créneau",
       "titre": "Ce TER de Nouvelle-Aquitaine cache une batterie de 80 km : il remplace son moteur diesel"
     },
     {
@@ -569,7 +570,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 70,
+    "releves": 71,
     "parReseau": {
       "instagram": {
         "posts": 8,
@@ -692,16 +693,16 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-25T12:20:48.790Z",
-    "posts": 51,
+    "genereLe": "2026-09-25T12:57:59.378Z",
+    "posts": 52,
     "parReseau": {
       "instagram": {
         "posts": 15,
         "moyenne": 17.2
       },
       "threads": {
-        "posts": 11,
-        "moyenne": 15
+        "posts": 12,
+        "moyenne": 14
       },
       "facebook": {
         "posts": 10,
@@ -714,8 +715,8 @@
     },
     "parFormat": {
       "reponse": {
-        "posts": 5,
-        "moyenne": 32
+        "posts": 6,
+        "moyenne": 27.2
       },
       "reply": {
         "posts": 5,
@@ -736,8 +737,8 @@
     },
     "parCreneau": {
       "après-midi": {
-        "posts": 13,
-        "moyenne": 14.3
+        "posts": 14,
+        "moyenne": 13.5
       },
       "matin": {
         "posts": 30,
@@ -805,8 +806,8 @@
           "moyenne": 18.5
         },
         "13 h – 14 h 30": {
-          "posts": 2,
-          "moyenne": 4.5
+          "posts": 3,
+          "moyenne": 4
         },
         "hors créneau": {
           "posts": 1,
@@ -814,7 +815,7 @@
         }
       }
     },
-    "interactionsTotal": 438,
+    "interactionsTotal": 441,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35605",
       "channel": "threads",
@@ -857,12 +858,12 @@
         "moyenne": 4
       },
       "sans": {
-        "posts": 50,
-        "moyenne": 8.7
+        "posts": 51,
+        "moyenne": 8.6
       }
     },
     "publies": {
-      "instagram": 18,
+      "instagram": 17,
       "bluesky": 18,
       "x": 17,
       "facebook": 12,
@@ -912,11 +913,12 @@
     },
     "engagement": {
       "instagram": 0.17,
-      "threads": 1.31,
+      "threads": 1.22,
       "facebook": 0
     },
     "conseils": [
-      "Le format « reponse » fait 320 fois mieux que « card » (32 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « card » de la rotation dans config/channels.json.",
+      "Threads : le créneau 7 h – 8 h 30 fait 4,9 fois mieux que 13 h – 14 h 30 (19.7 contre 4 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
+      "Le format « reponse » fait 272 fois mieux que « card » (27.2 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « card » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+4, +0,3 %) ; Facebook recule (−14), à surveiller."
     ]
   },

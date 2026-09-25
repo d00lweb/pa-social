@@ -96,30 +96,31 @@ test('lieu : seuls les identifiants longs sont acceptés par Meta', () => {
   assert.ok(!identifiantValide(null));
 });
 
-test('plusieurs pseudos pour une entité : le plus suivi l’emporte', async () => {
-  const { departager } = await import('../src/brain/comptes.mjs');
+test('plusieurs pseudos pour une entité : les deux meilleurs, les miettes écartées', async () => {
+  const { garderLesMeilleurs, AUDIENCE_MINIMALE } = await import('../src/brain/comptes.mjs');
   const dit = [];
   const log = (m) => dit.push(m.trim());
-  // 25/09/2026 : @ultratraildepons et @ultratraildepons_officiel existent tous deux et acceptent
-  // d'être tagués. Meta prouve l'existence, jamais l'identité — il faut donc départager.
-  const abonnes = { a: 120, b: 8400, c: null };
-  assert.equal(await departager(['a', 'b'], 'X', log, async (h) => abonnes[h]), 'b', 'le plus suivi');
-  assert.match(dit.at(-1), /8400 abonnés/);
+  const abonnes = { petit: 43, moyen: 800, gros: 50000, muet1: null, muet2: null, muet_officiel: null };
+  const mesurer = async (h) => abonnes[h] ?? null;
 
-  // un compte personnel ne publie pas ses abonnés : on retient celui qui se déclare officiel
-  dit.length = 0;
-  const muet = async () => null;
-  assert.equal(await departager(['ultratraildepons', 'ultratraildepons_officiel'], 'Ultra Trail de Pons', log, muet), 'ultratraildepons_officiel');
-  assert.match(dit.at(-1), /seul à se déclarer officiel/);
+  // 25/09/2026 : « Miroir d'eau » a produit trois pseudos dont un à 43 abonnés. Tous tagués, ils
+  // occupaient les trois places et évinçaient les comptes de référence, qui pèsent cent fois plus.
+  assert.deepEqual(await garderLesMeilleurs(['petit', 'moyen', 'gros'], 'X', log, mesurer), ['gros', 'moyen'], 'les deux plus suivis');
+  assert.ok(dit.at(-1).includes('écartés @petit (43 abonnés)'), dit.at(-1));
+  assert.equal(AUDIENCE_MINIMALE, 100, 'en dessous, un compte n’apporte rien');
 
-  // un seul compte connu face à des muets : il l'emporte, un chiffre vaut mieux qu'aucun
-  assert.equal(await departager(['c', 'a'], 'X', () => {}, async (h) => abonnes[h]), 'a');
+  // deux au maximum : la troisième place revient à un compte de référence
+  assert.equal((await garderLesMeilleurs(['gros', 'moyen', 'muet1', 'muet2'], 'X', () => {}, mesurer)).length, 2);
 
-  // rien ne tranche : on garde le premier, et l'appelant tague les autres avec lui — ils sont tous
-  // bâtis sur les mots du nom de l'entité, et chacun peut décider de suivre à son tour
-  dit.length = 0;
-  assert.equal(await departager(['unetruc', 'autretruc'], 'X', log, muet), 'unetruc');
-  assert.match(dit.at(-1), /tous tagués/);
+  // comptes personnels, tous muets : celui qui se déclare officiel passe devant, et les deux sont
+  // tagués — chacun peut décider de suivre à son tour. C'est le cas de l'Ultra Trail de Pons.
+  assert.deepEqual(
+    await garderLesMeilleurs(['ultratraildepons', 'ultratraildepons_officiel'], 'Ultra Trail de Pons', () => {}, async () => null),
+    ['ultratraildepons_officiel', 'ultratraildepons'],
+  );
+
+  // tous sous le seuil : plutôt que de ne rien taguer, on garde le premier candidat
+  assert.deepEqual(await garderLesMeilleurs(['petit'], 'X', () => {}, mesurer), ['petit']);
 });
 
 test('comptes de référence d’un thème : seulement si l’article parle vraiment du sujet', async () => {

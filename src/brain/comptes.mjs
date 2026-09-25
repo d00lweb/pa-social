@@ -91,29 +91,30 @@ export async function abonnesDe(handle) {
   }
 }
 
-// Plusieurs pseudos existent pour la même entité. Le plus suivi est le bon dans l'immense majorité
-// des cas : un squatteur ou un compte abandonné ne rassemble pas d'audience. Quand aucun compte ne
-// publie son nombre d'abonnés — ils sont tous personnels —, on retient celui qui se déclare
-// officiel ; et si même ça ne tranche pas, on s'abstient plutôt que de taguer au hasard.
-export async function departager(handles, nom, log = () => {}, mesurer = abonnesDe) {
+// Audience en dessous de laquelle un compte n'apporte rien : un squatteur, un compte abandonné,
+// ou un homonyme minuscule. Ne s'applique qu'aux comptes dont Instagram publie les abonnés —
+// un compte personnel reste muet et garde sa chance.
+export const AUDIENCE_MINIMALE = 100;
+// Deux comptes au plus pour une même entité : la troisième place revient à un compte de référence,
+// dont l'audience se compte en dizaines de milliers.
+const HOMONYMES_MAX = 2;
+
+export async function garderLesMeilleurs(handles, nom, log = () => {}, mesurer = abonnesDe) {
   const mesures = await Promise.all(handles.map(async (h) => ({ handle: h, abonnes: await mesurer(h) })));
-  const connus = mesures.filter((m) => m.abonnes !== null).sort((a, b) => b.abonnes - a.abonnes);
-  if (connus.length) {
-    const [premier] = connus;
-    log(`   « ${nom} » : ${handles.length} pseudos existent, retenu @${premier.handle} (${premier.abonnes} abonnés) — ${connus.slice(1).map((m) => `@${m.handle} ${m.abonnes}`).join(', ') || 'les autres ne publient pas leur nombre d’abonnés'}`);
-    return premier.handle;
-  }
-  const officiels = handles.filter((h) => /officiel|_off$/.test(h));
-  if (officiels.length === 1) {
-    log(`   « ${nom} » : ${handles.length} pseudos existent, aucun ne publie ses abonnés — retenu @${officiels[0]}, seul à se déclarer officiel`);
-    return officiels[0];
-  }
-  // Rien ne tranche : on garde le premier candidat, et l'appelant taguera les autres avec lui.
-  // Ces pseudos sont tous bâtis sur les mots du nom de l'entité — aucun n'est étranger au sujet,
-  // et chacun peut décider de suivre à son tour. Décision du 25/09/2026.
-  log(`   « ${nom} » : ${handles.length} pseudos existent (${handles.join(', ')}), aucun ne publie ses abonnés — tous tagués.`);
-  return handles[0];
+  const utiles = mesures.filter((m) => m.abonnes === null || m.abonnes >= AUDIENCE_MINIMALE);
+  const ecartes = mesures.filter((m) => !utiles.includes(m));
+  // les plus suivis d'abord ; les muets ensuite, dans l'ordre des candidats
+  const classe = [...utiles].sort((a, b) => (b.abonnes ?? -1) - (a.abonnes ?? -1));
+  const preferes = classe.some((m) => m.abonnes !== null) ? classe : rangerLesOfficiels(utiles);
+  const retenus = preferes.slice(0, HOMONYMES_MAX).map((m) => m.handle);
+  if (!retenus.length) return [handles[0]];
+  log(`   « ${nom} » : ${handles.length} pseudos existent, retenus ${retenus.map((h) => `@${h}`).join(', ')}`
+    + `${ecartes.length ? ` — écartés ${ecartes.map((m) => `@${m.handle} (${m.abonnes} abonnés)`).join(', ')}` : ''}`);
+  return retenus;
 }
+
+// Aucun compte ne publie ses abonnés : celui qui se déclare officiel passe devant.
+const rangerLesOfficiels = (mesures) => [...mesures].sort((a, b) => Number(/officiel|_off$/.test(b.handle)) - Number(/officiel|_off$/.test(a.handle)));
 
 // Instagram et X : la fiche donne parfois le compte, le site officiel presque toujours
 async function comptesMeta(entite, image, log = () => {}) {
@@ -134,10 +135,16 @@ async function comptesMeta(entite, image, log = () => {}) {
       if (await existeSurInstagram(candidat, image)) acceptes.push(candidat);
     }
     if (acceptes.length === 1) [instagram] = acceptes;
-    else if (acceptes.length > 1) instagram = await departager(acceptes, entite.nom, log);
-    // Plusieurs comptes pour la même entité : on les tague tous. Ils sont bâtis sur les mots du
-    // nom, aucun n'est étranger au sujet, et chacun peut décider de suivre à son tour.
-    if (acceptes.length > 1) autres = acceptes.filter((h) => h !== instagram);
+    else if (acceptes.length > 1) {
+      // Plusieurs comptes pour la même entité : on en tague deux, pas davantage. Ils sont bâtis
+      // sur les mots du nom, donc aucun n'est étranger au sujet, et chacun peut suivre à son tour.
+      // Mais « Miroir d'eau » en a produit trois d'un coup, dont un à 43 abonnés : ils occupaient
+      // les trois places et évinçaient les comptes de référence, qui pèsent cent fois plus. Une
+      // place reste donc toujours libre, et un compte dont on sait l'audience négligeable sort.
+      const retenus = await garderLesMeilleurs(acceptes, entite.nom, log);
+      [instagram] = retenus;
+      autres = retenus.slice(1);
+    }
   }
   return {
     instagram,

@@ -19,7 +19,7 @@ import { ecrire as ecrirePilotage } from './measure/pilotage.mjs';
 import { publierPublic } from './measure/public.mjs';
 import { verifier as verifierJetons } from './measure/jetons.mjs';
 import { capturer as capturerApercu } from './measure/apercus.mjs';
-import { loadMemory, saveMemory, remember } from './brain/memory.mjs';
+import { loadMemory, saveMemory, remember, retenirMentions } from './brain/memory.mjs';
 import { alert, telegramEnabled, send, sendPhotos, getUpdates, answerCallback, clearButtons } from './channels/telegram.mjs';
 import { buildPreviewText, previewButtons } from './channels/preview.mjs';
 import { esc, alerteJetonRefuse, messagePublie } from './channels/messages.mjs';
@@ -209,7 +209,7 @@ async function handleTelegram(ctx) {
 
 // Comptes à mentionner et lieu à taguer : résolus une seule fois par article, réutilisés par tous les réseaux.
 // Le lieu brut de l'IA est conservé ; `dossier.lieu` devient le lieu vérifié, ou null si rien de fiable.
-async function enrichir(dossier, article = null) {
+async function enrichir(dossier, article = null, memory = null) {
   dossier.lieuSource ??= dossier.lieu ?? null;
   // la rubrique porte la zone identitaire (« Périgord ») quand le champ département porte le nom administratif
   const source = { ...(dossier.lieuSource ?? {}), zone: dossier.rubrique ?? '' };
@@ -224,8 +224,11 @@ async function enrichir(dossier, article = null) {
     // les données de l'article servent à reconnaître le thème : « trail » doit y figurer en toutes
     // lettres pour que les comptes de référence du trail soient ajoutés
     texte: [article?.title, article?.description, ...(article?.categories ?? [])].filter(Boolean).join(' '),
+    // comptes de référence déjà mentionnés : la rotation les écarte au profit des autres
+    recents: memory?.mentions ?? [],
     log: console.log,
   });
+  if (memory) for (const liste of Object.values(dossier.comptes)) retenirMentions(memory, liste);
   dossier.lieu = await resoudreLieu(source);
   return dossier;
 }
@@ -245,7 +248,7 @@ async function plan(items, { history, queue, memory, controls, now, forcedGuid }
       console.log(`En attente du rédacteur : ${article.title} (${Math.round((now - article.date) / 60e3)} min)`);
       continue;
     }
-    await enrichir(dossier, article);
+    await enrichir(dossier, article, memory);
     remember(memory, dossier, ed.networks, ed.memorySize);
     for (const channel of channels) {
       const lastPlannedAt = Math.max(0, ...queue.filter((q) => q.channel === channel.id && OPEN.includes(q.status)).map((q) => q.dueAt));
@@ -369,7 +372,7 @@ async function execute({ history, queue, memory, controls, now }) {
           for (const autre of queue) if (autre.guid === item.guid && autre !== item) autre.dossier = frais;
         }
       }
-      await enrichir(item.dossier, item.article);
+      await enrichir(item.dossier, item.article, memory);
       const impl = CHANNELS[channel.id];
       const pkg = await impl.prepare(item.article, { dossier: item.dossier });
       // minute de départ fixée à l'avance par ordonnerFile : on l'attend, les visuels déjà prêts

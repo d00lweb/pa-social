@@ -140,3 +140,32 @@ test('comptes de référence d’un thème : seulement si l’article parle vrai
   // rôle « theme » : il distingue ces comptes de ceux que l'article nomme
   assert.equal(comptesThematiques(pons, 'instagram', table)[0].role, 'theme');
 });
+
+test('rotation des comptes de référence : jamais les mêmes deux fois de suite', async () => {
+  const { rotation } = await import('../src/brain/comptes.mjs');
+  const { retenirMentions } = await import('../src/brain/memory.mjs');
+  // Mentionner toujours les deux mêmes comptes d'un thème, c'est parler chaque fois aux abonnés
+  // déjà touchés : ceux qui devaient suivre l'ont fait au premier article. D'où la rotation.
+  const vivier = ['a', 'b', 'c', 'd'].map((h) => ({ nom: 'train', handle: h, role: 'theme', thematique: true }));
+  const memory = {};
+  const tours = [];
+  for (let i = 0; i < 4; i++) {
+    const choisis = rotation(vivier, memory.mentions ?? [], 2);
+    retenirMentions(memory, choisis);
+    tours.push(choisis.map((c) => c.handle).join('+'));
+  }
+  assert.deepEqual(tours, ['a+b', 'c+d', 'a+b', 'c+d'], 'le vivier est parcouru avant de recommencer');
+  assert.equal(memory.mentions.length, 8, 'chaque mention est retenue');
+
+  // jamais mentionné passe devant ; à égalité, l'ordre du vivier tranche
+  assert.deepEqual(rotation(vivier, ['a', 'b'], 2).map((c) => c.handle), ['c', 'd']);
+  assert.deepEqual(rotation(vivier, ['d', 'c', 'b', 'a'], 2).map((c) => c.handle), ['d', 'c'], 'le plus anciennement mentionné d’abord');
+  assert.deepEqual(rotation(vivier, [], 0), [], 'aucune place libre, aucun compte');
+  assert.deepEqual(rotation([], ['a'], 3), []);
+
+  // seuls les comptes de vivier entrent dans la mémoire : ceux que l'article nomme n'y sont pas,
+  // sinon on s'interdirait de retaguer l'organisateur d'un événement qui revient chaque année
+  const m = {};
+  retenirMentions(m, [{ handle: 'ultratraildepons_officiel', role: 'sujet' }, { handle: 'lestraileurs', role: 'theme', thematique: true }]);
+  assert.deepEqual(m.mentions, ['lestraileurs']);
+});

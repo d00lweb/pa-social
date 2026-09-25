@@ -38,6 +38,16 @@ export function nextEmojiPositions(memory, positions, networks) {
   return Object.fromEntries(networks.map((net, i) => [net, PLACEMENT_IMPOSE[net] ?? positions[(start + i) % positions.length]]));
 }
 
+// Comptes de référence déjà mentionnés, du plus ancien au plus récent. C'est cette mémoire qui
+// fait tourner les viviers : sans elle, chaque article sur le trail mentionnerait les deux mêmes
+// comptes, et parlerait chaque fois aux abonnés déjà touchés.
+export function retenirMentions(memory, comptes = [], taille = 40) {
+  const handles = comptes.filter((c) => c.thematique).map((c) => c.handle);
+  if (!handles.length) return memory;
+  memory.mentions = [...(memory.mentions ?? []), ...handles].slice(-taille);
+  return memory;
+}
+
 export function remember(memory, dossier, networks, size) {
   memory.recent ??= {};
   memory.emojis ??= {};

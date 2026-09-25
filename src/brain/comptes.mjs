@@ -167,6 +167,20 @@ async function compteBluesky(entite) {
 //  · la table est écrite à la main, chaque compte vérifié (nom, bio, abonnés) avant inscription ;
 //  · le thème ne s'applique que si l'un de ses mots figure vraiment dans l'article, en mot entier ;
 //  · ces comptes ne viennent qu'après ceux que l'article nomme, et seulement s'il reste de la place.
+// Rotation : le même article publié deux fois ne doit pas toucher deux fois la même audience.
+// Mentionner systématiquement les deux plus gros comptes d'un thème, c'est parler chaque fois aux
+// mêmes abonnés — ceux qui devaient suivre l'ont déjà fait. On prend donc en priorité ceux qu'on
+// n'a jamais mentionnés, puis les plus anciennement mentionnés ; à égalité, l'ordre du vivier
+// tranche (les tableaux sont rangés du plus large au plus étroit).
+export function rotation(candidats, recents = [], combien = 3) {
+  const vus = recents.map(fold);
+  return candidats
+    .map((c, ordre) => ({ c, ordre, vu: vus.lastIndexOf(fold(c.handle)) }))
+    .sort((a, b) => a.vu - b.vu || a.ordre - b.ordre)
+    .slice(0, Math.max(0, combien))
+    .map((x) => x.c);
+}
+
 export function comptesThematiques(texte, reseau = 'instagram', table = thematiques) {
   const t = fold(texte ?? '');
   const mot = (m) => new RegExp(`(^|[^\\p{L}])${fold(m).replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}([^\\p{L}]|$)`, 'u').test(t);
@@ -181,7 +195,7 @@ export function comptesThematiques(texte, reseau = 'instagram', table = thematiq
 // Un compte par entité et par réseau, trois entités au maximum
 // Trois mentions au plus : c'est le levier le plus efficace pour être découvert — un compte
 // mentionné est notifié, et va voir. Au-delà, la publication ressemble à du démarchage.
-export async function resoudreComptes(entites = [], { max = 3, image = null, texte = null, log = () => {} } = {}) {
+export async function resoudreComptes(entites = [], { max = 3, image = null, texte = null, recents = [], log = () => {} } = {}) {
   const plan = { instagram: [], x: [], bluesky: [], threads: [], facebook: [] };
   // Un nom d'un seul mot ne se vérifie pas : on préfère aucune mention à un homonyme
   const exploitables = entites.filter((e) => {
@@ -211,8 +225,8 @@ export async function resoudreComptes(entites = [], { max = 3, image = null, tex
   // l'article nomme passent toujours devant.
   for (const [reseau, liste] of Object.entries(plan)) {
     if (!texte || liste.length >= max) continue;
-    for (const c of comptesThematiques(texte, reseau)) {
-      if (liste.length >= max || liste.some((x) => fold(x.handle) === fold(c.handle))) continue;
+    const libres = comptesThematiques(texte, reseau).filter((c) => !liste.some((x) => fold(x.handle) === fold(c.handle)));
+    for (const c of rotation(libres, recents, max - liste.length)) {
       liste.push(c);
       log(`   Compte de référence « ${c.nom} » ajouté sur ${reseau} : @${c.handle}`);
     }

@@ -45,7 +45,7 @@
       "instagram": "ultratraildepons_officiel"
     }
   },
-  "_thematiques": "Comptes de référence français, vérifiés à la main (nom, bio, abonnés) avant d inscription. Ils ne sont ajoutés que si un mot-clé du thème figure vraiment dans l article, et seulement pour combler les places restantes apres les comptes cites par l article. Ajouter un compte ici est un acte editorial : jamais de compte devine, jamais de compte etranger.",
+  "_thematiques": "Viviers de comptes de reference francais, verifies a la main (nom, bio, abonnes). Un vivier s applique si l un de ses motsCles figure en mot entier dans l article. Les comptes sont pris EN ROTATION : jamais les memes deux fois de suite, pour toucher une audience differente a chaque fois. Ordre du tableau = ordre de preference a egalite. Ajouter un compte ici est un acte editorial : jamais de compte devine, jamais de compte etranger.",
   "thematiques": {
     "trail": {
       "motsCles": [
@@ -54,12 +54,54 @@
         "ultratrail",
         "traileur",
         "traileuse",
-        "course nature",
-        "course à pied"
+        "course nature"
       ],
       "instagram": [
         "lestraileurs",
         "trail.passion"
+      ]
+    },
+    "train": {
+      "motsCles": [
+        "TER",
+        "SNCF",
+        "train",
+        "ferroviaire",
+        "gare"
+      ],
+      "instagram": [
+        "sncfvoyageurs",
+        "voyagerentrain.fr",
+        "groupesncf",
+        "sncf.ter.nouvelle.aquitaine"
+      ]
+    },
+    "Pays basque": {
+      "motsCles": [
+        "Pays basque",
+        "Bidache",
+        "Basse-Navarre",
+        "Bayonne",
+        "Biarritz",
+        "Saint-Jean-de-Luz",
+        "Euskal"
+      ],
+      "instagram": [
+        "paysbasque_net",
+        "paysbasque_tourisme",
+        "bienvenue_au_pays_basque",
+        "enpaysbasque_euskalherrian"
+      ]
+    },
+    "La Rochelle": {
+      "motsCles": [
+        "La Rochelle",
+        "rochelais",
+        "rochelaise"
+      ],
+      "instagram": [
+        "nouslarochelle",
+        "larochelleensemble"
       ]
     }
   }

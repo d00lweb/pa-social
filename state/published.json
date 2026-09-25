@@ -1255,5 +1255,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35661",
+    "channel": "bluesky",
+    "at": "2026-09-25T11:08:26.481Z",
+    "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mwdmy63kcb2x",
+    "titre": "Ce TER de Nouvelle-Aquitaine cache une batterie de 80 km : il remplace son moteur diesel",
+    "lien": "https://passion-aquitaine.ouest-france.fr/ter-batteries-nouvelle-aquitaine-bordeaux-mont-de-marsan/",
+    "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mwdmy63kcb2x",
+    "format": "card",
+    "mention": true,
+    "apercu": {
+      "texte": "🔌 Que devient un train quand la caténaire s’arrête en pleine campagne des #Landes ? Le premier TER à batteries de Nouvelle-Aquitaine, en service entre Bordeaux et Mont-de-Marsan, bascule sur 80 km d’autonomie électrique au lieu de rallumer son diesel.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260925-93e1ab54-bsky.jpg",
+      "mode": "card",
+      "reponse": null,
+      "sujet": null
+    }
   }
 ]

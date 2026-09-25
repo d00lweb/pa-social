@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-25T10:20:42.959Z",
+  "genereLe": "2026-09-25T11:00:53.741Z",
   "jour": "2026-09-25",
   "reseaux": {
     "instagram": {
@@ -60,11 +60,11 @@
         "image",
         "reply"
       ],
-      "aujourdhui": 1,
-      "semaine": 11,
-      "total": 17,
-      "dernier": "2026-09-25T07:24:07.459Z",
-      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mwdah2cm6c2v"
+      "aujourdhui": 2,
+      "semaine": 12,
+      "total": 18,
+      "dernier": "2026-09-25T11:08:26.481Z",
+      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mwdmy63kcb2x"
     },
     "facebook": {
       "actif": true,
@@ -168,6 +168,22 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35661",
+      "titre": "Ce TER de Nouvelle-Aquitaine cache une batterie de 80 km : il remplace son moteur diesel",
+      "lien": "https://passion-aquitaine.ouest-france.fr/ter-batteries-nouvelle-aquitaine-bordeaux-mont-de-marsan/",
+      "at": "2026-09-25T11:08:26.481Z",
+      "reseaux": {
+        "bluesky": {
+          "texte": "🔌 Que devient un train quand la caténaire s’arrête en pleine campagne des #Landes ? Le premier TER à batteries de Nouvelle-Aquitaine, en service entre Bordeaux et Mont-de-Marsan, bascule sur 80 km d’autonomie électrique au lieu de rallumer son diesel.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260925-93e1ab54-bsky.jpg",
+          "mode": "card",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-09-25T11:08:26.481Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35642",
       "titre": "En Charente-Maritime, nouveau succès pour l’Ultra Trail de Pons",
@@ -383,57 +399,19 @@
           "publieLe": "2026-09-24T07:10:39.016Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35446",
-      "titre": "Près de Limoges, on dort au milieu des girafes et des loups",
-      "lien": "https://passion-aquitaine.ouest-france.fr/lodges-zoo-reynou-limoges-hebergement-insolite/",
-      "at": "2026-09-23T18:10:02.422Z",
-      "reseaux": {
-        "threads": {
-          "texte": "À dix minutes de Limoges, les lodges du Parc Zoo du Reynou permettent de dormir face aux girafes ou au cœur de l’enclos des loups 📍",
-          "image": null,
-          "mode": "lien",
-          "reponse": null,
-          "sujet": "Limoges",
-          "publieLe": "2026-09-23T06:29:35.955Z"
-        },
-        "bluesky": {
-          "texte": "À dix minutes de #Limoges, les lodges du Parc Zoo du Reynou permettent de dormir face aux girafes ou au cœur de l’enclos des loups 📍\n➡️ Lire l’article",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260923-dac08af2-bsky.jpg",
-          "mode": "image",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-23T07:12:17.971Z"
-        },
-        "x": {
-          "texte": "On dort au milieu des girafes et des loups 📍",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260923-dac08af2-x.jpg",
-          "mode": "lien",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-23T07:20:45.297Z"
-        },
-        "instagram": {
-          "texte": "À dix minutes de Limoges, les lodges du Parc Zoo du Reynou permettent de dormir face aux girafes ou au cœur de l’enclos des loups.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Limoges #NouvelleAquitaine #Decouverte",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260923-dac08af2-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-23T11:30:15.672Z"
-        },
-        "facebook": {
-          "texte": "On dort au milieu des girafes et des loups 📍",
-          "image": null,
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-23T18:10:02.422Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "bluesky",
+      "at": "2026-09-25T11:08:26.481Z",
+      "titre": "Ce TER de Nouvelle-Aquitaine cache une batterie de 80 km : il remplace son moteur diesel",
+      "lien": "https://passion-aquitaine.ouest-france.fr/ter-batteries-nouvelle-aquitaine-bordeaux-mont-de-marsan/",
+      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mwdmy63kcb2x",
+      "format": "card",
+      "texte": "🔌 Que devient un train quand la caténaire s’arrête en pleine campagne des #Landes ? Le premier TER à batteries de Nouvelle-Aquitaine, en service entre Bordeaux et Mont-de-Marsan, bascule sur 80 km d’autonomie électrique au lieu de rallumer son diesel.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260925-93e1ab54-bsky.jpg"
+    },
     {
       "channel": "instagram",
       "at": "2026-09-25T10:04:59.257Z",
@@ -523,28 +501,9 @@
       "format": "image",
       "texte": "L’Ultra Trail de #Pons n’attire plus seulement les habitués de Charente-Maritime : parmi les 🏅 2 740 inscrits de l’édition 2026, certains sont venus du Canada ou de La Réunion. Un record pour cette course de Saintonge.\n➡️ Lire l’article",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-1bda31df-bsky.jpg"
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-09-24T16:05:58.276Z",
-      "titre": "Des trimarans à nos mezzanines, ces filets sont cousus à Bordeaux",
-      "lien": "https://passion-aquitaine.ouest-france.fr/des-trimarans-a-nos-mezzanines-ces-filets-sont-cousus-a-bordeaux/",
-      "lienPost": "https://www.instagram.com/p/DdrRjJRFL_0/",
-      "format": null,
-      "texte": "À Bordeaux, aux Bassins à flot, un atelier coud les filets des trimarans de course 🪡\n⠀\nLes mêmes couturières réalisent aussi des filets sur-mesure pour les mezzanines des maisons. Un savoir-faire discret, entre voile de compétition et aménagement intérieur.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #Trimaran #SavoirFaire",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-860ea888-1.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "bluesky",
-      "dueAt": "2026-09-25T11:08:24.379Z",
-      "prochainPassage": "2026-09-25T11:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Ce TER de Nouvelle-Aquitaine cache une batterie de 80 km : il remplace son moteur diesel"
-    },
     {
       "channel": "threads",
       "dueAt": "2026-09-25T11:31:44.358Z",
@@ -688,7 +647,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-09-25T10:00:40.062Z"
+    "derniere": "2026-09-25T11:00:53.741Z"
   },
   "abonnes": {
     "instagram": {
@@ -734,7 +693,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-25T10:20:43.611Z",
+    "genereLe": "2026-09-25T11:08:32.044Z",
     "posts": 50,
     "parReseau": {
       "instagram": {
@@ -905,7 +864,7 @@
     },
     "publies": {
       "instagram": 18,
-      "bluesky": 17,
+      "bluesky": 18,
       "x": 17,
       "facebook": 12,
       "threads": 14

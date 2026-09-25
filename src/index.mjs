@@ -226,6 +226,8 @@ async function enrichir(dossier, article = null, memory = null) {
     texte: [article?.title, article?.description, ...(article?.categories ?? [])].filter(Boolean).join(' '),
     // comptes de référence déjà mentionnés : la rotation les écarte au profit des autres
     domaines: dossier.domaines ?? [],
+    // la commune du sujet : ses comptes passent avant ceux du territoire élargi
+    commune: dossier.commune ?? dossier.lieuSource?.ville ?? null,
     recents: memory?.mentions ?? [],
     log: console.log,
   });

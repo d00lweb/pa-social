@@ -89,3 +89,31 @@ test('découverte Bluesky : la recherche propose, le filtre dispose', async () =
   });
   assert.deepEqual(trouves.map((c) => c.handle), ['osezlefeminisme.bsky.social'], 'l’association passe, la militante et le collectif norvégien non');
 });
+
+test('l’échelle géographique : la commune d’abord, et son nom peut être court', async () => {
+  const { formesCommune, parleDu, retenir } = await import('../src/brain/decouverte.mjs');
+  // Les formes usuelles d'une commune française sont stables : c'est ce qui rend la découverte
+  // fiable ici, là où elle échoue sur un domaine abstrait.
+  const f = formesCommune('Bayonne');
+  assert.ok(f.includes('bayonnemaville') && f.includes('visitbayonne'), f.join(' '));
+  assert.ok(formesCommune('Saint-Jean-de-Luz').includes('visitsaintjeandeluz'), 'les traits d’union tombent');
+  assert.deepEqual(formesCommune('X'), []);
+
+  // « Dax » fait trois lettres : le filtre l'écartait, privant l'article du compte de sa ville
+  assert.ok(parleDu('Dax', { nom: 'Grand Dax Tourisme' }));
+  assert.ok(retenir({ handle: 'daxtourisme', nom: 'Grand Dax Tourisme', description: 'Compte officiel de l’Office de Tourisme du Grand Dax', abonnes: 5295 }, { domaine: 'Dax', reseau: 'instagram' }).garde);
+
+  // mais la racine doit commencer un mot : sans cette frontière, « trail » se reconnaissait dans
+  // « PaperTrail Media », une rédaction d'investigation allemande
+  assert.equal(parleDu('trail', { nom: 'PaperTrail Media' }), false);
+  assert.ok(parleDu('trail', { nom: 'Trail Passion' }));
+  assert.ok(parleDu('trail', { nom: 'Lestraileurs | Conseils & Actus Trail' }));
+
+  // le domaine national du pseudo tranche aussi
+  const allemand = { handle: 'papertrailmedia.de', nom: 'Trail Media', description: 'Une rédaction de référence', abonnes: 9000 };
+  assert.match(retenir(allemand, { domaine: 'trail', reseau: 'bluesky' }).motif, /domaine national étranger/);
+
+  // et le piège de La Rochelle reste fermé : un domaine événementiel brésilien à 92 295 abonnés
+  const bresil = { handle: 'villelarochelle', nom: 'VILLE LA ROCHELLE | Locação para Eventos', description: 'Uma propriedade familiar no estilo europeu para eventos no interior de São Paulo', abonnes: 92295 };
+  assert.match(retenir(bresil, { domaine: 'La Rochelle', reseau: 'instagram' }).motif, /biographie non française/);
+});

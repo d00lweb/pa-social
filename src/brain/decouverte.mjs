@@ -50,19 +50,37 @@ export const semblFrancais = (texte) => {
 // la biographie cite le domaine — ne la franchissent pas. Mesuré le 25/09/2026 : sans cette règle,
 // la recherche « gastronomie » proposait trois particuliers sur quatre résultats.
 export function parleDu(domaine, compte) {
-  const mots = fold(domaine).split(/[^a-z0-9]+/).filter((m) => m.length > 3);
+  // 3 lettres suffisent : « Dax », « Pau », « Agen » sont des communes, et les écarter privait
+  // leurs articles du compte de leur propre ville. La sécurité vient de la frontière de mot.
+  const mots = fold(domaine).split(/[^a-z0-9]+/).filter((m) => m.length >= 3);
   if (!mots.length) return false;
   const nom = fold(compte.nom ?? '');
-  // racine de 4 lettres : « féminisme » reconnaît « féministe », « apiculture » reconnaît « apiculteur »
-  return mots.every((m) => nom.includes(m.slice(0, Math.max(4, m.length - 3))));
+  return mots.every((m) => {
+    // racine : « féminisme » reconnaît « féministe », « apiculture » reconnaît « apiculteur »
+    const racine = m.slice(0, Math.max(4, m.length - 3));
+    // ...mais en **début de mot** seulement. Sans cette frontière, « trail » se reconnaissait dans
+    // « PaperTrail Media », une rédaction d'investigation allemande, retenue comme référence du
+    // trail le 25/09/2026.
+    return new RegExp(`(^|[^\\p{L}\\p{N}])${racine}`, 'u').test(nom);
+  });
 }
 
 // Les quatre portes, dans l'ordre où elles coûtent le moins cher à franchir.
-export function retenir(compte, { domaine, reseau }) {
+// Un domaine national étranger dans le pseudo suffit à trancher : @papertrailmedia.de est une
+// rédaction allemande. Les .com et .fr ne disent rien, les autres disent beaucoup.
+const TLD_ETRANGER = /\.(de|es|it|uk|nl|be|ch|ca|no|se|dk|pt|pl|at|ie|br|us|jp)$/i;
+
+// `exigerNom` : la porte de l'institution. Elle vaut pour un domaine, où le candidat vient d'une
+// recherche et peut parler d'autre chose. Elle ne vaut pas pour une commune, où le pseudo est
+// **construit** depuis le nom de la ville — @visitbordeaux vient de « Bordeaux », l'exiger dans
+// son nom d'affichage le rejetterait pour un détail de graphie. Le garde-fou reste la biographie :
+// c'est elle qui démasque « VILLE LA ROCHELLE », domaine événementiel brésilien.
+export function retenir(compte, { domaine, reseau, exigerNom = true }) {
+  if (TLD_ETRANGER.test(String(compte.handle ?? ''))) return { garde: false, motif: 'pseudo sur un domaine national étranger' };
   const abonnes = compte.abonnes ?? null;
   if (abonnes === null) return { garde: false, motif: 'audience inconnue' };
   if (abonnes < (SEUILS[reseau] ?? 1000)) return { garde: false, motif: `${abonnes} abonnés, sous le seuil de ${SEUILS[reseau]}` };
-  if (!parleDu(domaine, compte)) return { garde: false, motif: `« ${compte.nom} » n’est pas une institution du domaine` };
+  if (exigerNom && !parleDu(domaine, compte)) return { garde: false, motif: `« ${compte.nom} » n’est pas une institution du domaine` };
   // la langue se juge sur la biographie seule : une enseigne peut se dire « France » et écrire
   // en espagnol. Une biographie vide ne prouve rien, donc elle ne passe pas.
   if (!semblFrancais(compte.description)) return { garde: false, motif: 'biographie non française ou absente' };
@@ -77,14 +95,24 @@ export const formesInstagram = (domaine) => {
   return [mot, `france${mot}`, `${mot}france`, `${mot}_france`, `${mot}.fr`, `${mot}_fr`, `${mot}officiel`, `les${mot}`, `le${mot}`];
 };
 
+// Pseudos usuels d'une commune et de son office de tourisme. Ces formes-là sont stables en France,
+// et c'est ce qui rend la découverte fiable ici là où elle échoue sur un domaine abstrait :
+// mesuré le 25/09/2026, elles trouvent @bayonnemaville (54 116) et @visitbayonne (34 458),
+// @visitbordeaux (118 223), @limogestourisme (22 539), @daxtourisme (5 295).
+export const formesCommune = (ville) => {
+  const v = fold(ville).replace(/[^a-z0-9]+/g, '');
+  if (v.length < 3) return [];
+  return [`ville${v}`, `${v}maville`, `mairie${v}`, `visit${v}`, `${v}tourisme`, `tourisme${v}`, `${v}_tourisme`, `${v}ville`, `ot${v}`];
+};
+
 // Découverte sur Instagram : pseudos fabriqués, décrits par l'API, filtrés.
-export async function surInstagram(domaine, { decrire, log = () => {} }) {
+export async function surInstagram(domaine, { decrire, log = () => {}, formes = formesInstagram, exigerNom = true } = {}) {
   const trouves = [];
-  for (const handle of formesInstagram(domaine)) {
+  for (const handle of formes(domaine)) {
     const b = await decrire(handle);
     if (!b) continue;
     const compte = { handle: b.username ?? handle, nom: b.name ?? '', description: b.biography ?? '', abonnes: b.followers_count ?? null };
-    const { garde, motif } = retenir(compte, { domaine, reseau: 'instagram' });
+    const { garde, motif } = retenir(compte, { domaine, reseau: 'instagram', exigerNom });
     if (garde) trouves.push(compte);
     else log(`   @${compte.handle} écarté : ${motif}`);
   }

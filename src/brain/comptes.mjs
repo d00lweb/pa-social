@@ -201,6 +201,39 @@ export function comptesThematiques(texte, reseau = 'instagram', table = thematiq
   return sortie;
 }
 
+// Comptes de la commune où se passe l'article : la ville et son office de tourisme.
+//
+// L'échelle géographique est un ordre de priorité, pas une option. Plus l'audience est proche du
+// sujet, plus elle a de raisons de suivre : qui suit @bayonnemaville lit un article sur une escale
+// à Bayonne, qui suit un compte « Pays basque » n'y verra qu'une actualité parmi d'autres, et le
+// département est encore un cran plus loin. La commune passe donc avant le territoire élargi.
+export async function comptesDeLaCommune(ville, { log = () => {}, jours = 90, maintenant = Date.now() } = {}) {
+  if (!ville) return [];
+  const { loadJson, saveJson } = await import('../core/state.mjs');
+  const connu = await loadJson('comptes-appris.json', {});
+  const cle = `commune:${fold(ville)}`;
+  if (!connu[cle] || maintenant - Date.parse(connu[cle].cherche ?? 0) > jours * 86400e3) {
+    const { surInstagram, formesCommune } = await import('./decouverte.mjs');
+    const trouves = await surInstagram(ville, { decrire: decrireInstagram, formes: formesCommune, exigerNom: false, log: () => {} }).catch(() => []);
+    connu[cle] = { cherche: new Date(maintenant).toISOString(), instagram: trouves.slice(0, 2).map((c) => ({ handle: c.handle, nom: c.nom, abonnes: c.abonnes })) };
+    await saveJson('comptes-appris.json', connu);
+    log(`   Commune « ${ville} » : ${connu[cle].instagram.map((c) => `@${c.handle} (${c.abonnes})`).join(' · ') || 'aucun compte trouvé'}`);
+  }
+  return (connu[cle].instagram ?? []).map((c) => ({ nom: c.nom || ville, handle: c.handle, role: 'commune', thematique: true }));
+}
+
+// Description d'un compte Instagram par l'API : sert à la découverte comme au départage.
+async function decrireInstagram(handle) {
+  const token = process.env.IG_TOKEN;
+  const userId = process.env.IG_USER_ID;
+  if (!token || !userId) return null;
+  try {
+    const champs = `business_discovery.username(${handle}){username,name,biography,followers_count}`;
+    const r = await fetch(`https://graph.facebook.com/${process.env.GRAPH_VERSION || 'v23.0'}/${userId}?fields=${encodeURIComponent(champs)}&access_token=${token}`, { signal: AbortSignal.timeout(15000) });
+    return (await r.json().catch(() => ({})))?.business_discovery ?? null;
+  } catch { return null; }
+}
+
 // Annuaire des comptes de référence, constitué par la découverte et conservé d'un passage à
 // l'autre. Un domaine déjà exploré n'est pas cherché deux fois : la recherche coûte des appels,
 // et les organisations de référence d'un domaine ne changent pas d'une semaine sur l'autre.
@@ -287,7 +320,7 @@ async function chercherDomaine(domaine, log) {
 // Un compte par entité et par réseau, trois entités au maximum
 // Trois mentions au plus : c'est le levier le plus efficace pour être découvert — un compte
 // mentionné est notifié, et va voir. Au-delà, la publication ressemble à du démarchage.
-export async function resoudreComptes(entites = [], { max = 3, image = null, texte = null, domaines = [], recents = [], log = () => {} } = {}) {
+export async function resoudreComptes(entites = [], { max = 3, image = null, texte = null, domaines = [], commune = null, recents = [], log = () => {} } = {}) {
   const plan = { instagram: [], x: [], bluesky: [], threads: [], facebook: [] };
   // Un nom d'un seul mot ne se vérifie pas : on préfère aucune mention à un homonyme
   // Un nom d'un seul mot — « Belem », « Hermione » — ne permet aucune devinette : @lebelem est un
@@ -321,16 +354,24 @@ export async function resoudreComptes(entites = [], { max = 3, image = null, tex
   // nomme passent toujours devant. Deux sources, dans cet ordre — la table écrite à la main, puis
   // la découverte automatique, dont les trouvailles sont mémorisées et deviennent l'annuaire.
   const appris = domaines.length ? await annuaire(domaines, { log }) : {};
+  const locaux = await comptesDeLaCommune(commune, { log }).catch(() => []);
   for (const [reseau, liste] of Object.entries(plan)) {
     if (liste.length >= max) continue;
-    const candidats = [
-      ...(texte ? comptesThematiques(texte, reseau) : []),
-      ...(appris[reseau] ?? []),
-    ].filter((c, i, tout) => tout.findIndex((x) => fold(x.handle) === fold(c.handle)) === i
-      && !liste.some((x) => fold(x.handle) === fold(c.handle)));
-    for (const c of rotation(candidats, recents, max - liste.length)) {
-      liste.push(c);
-      log(`   Compte de référence « ${c.nom} » ajouté sur ${reseau} : @${c.handle}`);
+    // L'échelle géographique est un ordre de priorité : la commune d'abord, le territoire élargi
+    // et le domaine ensuite. La rotation joue **à l'intérieur** de chaque échelon, jamais entre
+    // eux — sans quoi un compte thématique jamais mentionné passerait devant la ville du sujet.
+    const echelons = [
+      reseau === 'instagram' ? locaux : [],
+      texte ? comptesThematiques(texte, reseau) : [],
+      appris[reseau] ?? [],
+    ];
+    for (const echelon of echelons) {
+      if (liste.length >= max) break;
+      const libres = echelon.filter((c) => !liste.some((x) => fold(x.handle) === fold(c.handle)));
+      for (const c of rotation(libres, recents, max - liste.length)) {
+        liste.push(c);
+        log(`   Compte ${c.role === 'commune' ? 'de la commune' : 'de référence'} « ${c.nom} » ajouté sur ${reseau} : @${c.handle}`);
+      }
     }
   }
   return plan;

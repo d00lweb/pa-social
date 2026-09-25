@@ -12,6 +12,7 @@ import { recolterLieux } from './measure/recolte.mjs';
 import { collecter } from './measure/collect.mjs';
 import { releverAbonnes, saisirAbonnes, lireNombre } from './measure/abonnes.mjs';
 import { completerLiens, LECTEURS } from './measure/liens.mjs';
+import { modererCommentaires } from './measure/moderation.mjs';
 import { resumeHebdoCouts } from './brain/couts.mjs';
 import { diffuser } from './measure/diffusion.mjs';
 import { ecrire as ecrirePilotage } from './measure/pilotage.mjs';
@@ -513,6 +514,8 @@ async function main() {
     }
     // lien direct des publications anciennes, relevé avant le 18/09/2026 : retrouvé une fois pour toutes
     await completerLiens(history).catch((e) => console.error(`Liens des publications : ${e.message}`));
+    // Commentaires de spam : relevés et retirés à chaque passage, sous les 12 dernières publications
+    await modererCommentaires({ history, now: ctx.now }).catch((e) => console.error(`Modération : ${e.message}`));
     await ecrirePilotage({ history, queue, controls, now: ctx.now });
     // page publique de l'équipe : données filtrées par liste blanche, déposées sur le site
     await publierPublic({ history, queue, controls, articles: items, maintenant: ctx.now }).catch((e) => console.error(`Page équipe : ${e.message}`));

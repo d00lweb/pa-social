@@ -181,5 +181,14 @@
       }
     }
   },
-  "couperAuPlafond": false
+  "couperAuPlafond": false,
+  "moderation": {
+    "_moderation": "Commentaires de spam sur Instagram. motifs : marques déguisées par les robots publicitaires, comparées après normalisation (sosies cyrilliques, gras mathématique, 0 pour o, caractères invisibles) — un motif trouvé vaut suppression. seuilDoublons : un même texte sous ce nombre de publications, avec une adresse, est masqué.",
+    "motifs": [
+      "tepu.lol",
+      "teupu.lol"
+    ],
+    "seuilDoublons": 2,
+    "publicationsSuivies": 12
+  }
 }

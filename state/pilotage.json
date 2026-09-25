@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-25T16:00:36.536Z",
+  "genereLe": "2026-09-25T16:20:46.383Z",
   "jour": "2026-09-25",
   "reseaux": {
     "instagram": {
@@ -569,7 +569,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 71,
+    "releves": 72,
     "parReseau": {
       "instagram": {
         "posts": 8,
@@ -692,12 +692,12 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-25T16:00:39.252Z",
-    "posts": 52,
+    "genereLe": "2026-09-25T16:20:47.538Z",
+    "posts": 53,
     "parReseau": {
       "instagram": {
-        "posts": 15,
-        "moyenne": 17.2
+        "posts": 16,
+        "moyenne": 16.4
       },
       "threads": {
         "posts": 12,
@@ -744,8 +744,8 @@
         "moyenne": 7.7
       },
       "soir": {
-        "posts": 8,
-        "moyenne": 2.8
+        "posts": 9,
+        "moyenne": 3
       }
     },
     "parCreneauReseau": {
@@ -759,7 +759,7 @@
           "moyenne": 12.5
         },
         "18 h – 19 h 30": {
-          "posts": 2,
+          "posts": 3,
           "moyenne": 5
         }
       },
@@ -814,7 +814,7 @@
         }
       }
     },
-    "interactionsTotal": 441,
+    "interactionsTotal": 446,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35605",
       "channel": "threads",
@@ -857,8 +857,8 @@
         "moyenne": 4
       },
       "sans": {
-        "posts": 51,
-        "moyenne": 8.6
+        "posts": 52,
+        "moyenne": 8.5
       }
     },
     "publies": {
@@ -911,11 +911,12 @@
       }
     },
     "engagement": {
-      "instagram": 0.17,
+      "instagram": 0.16,
       "threads": 1.22,
       "facebook": 0
     },
     "conseils": [
+      "Instagram : le créneau 12 h – 13 h 30 fait 4,9 fois mieux que 18 h – 19 h 30 (24.7 contre 5 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Threads : le créneau 7 h – 8 h 30 fait 4,9 fois mieux que 13 h – 14 h 30 (19.7 contre 4 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Le format « reponse » fait 272 fois mieux que « card » (27.2 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « card » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+4, +0,3 %) ; Facebook recule (−14), à surveiller."

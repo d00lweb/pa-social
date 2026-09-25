@@ -5,7 +5,7 @@ import { loadHistory, saveHistory, loadQueue, saveQueue, loadJson, saveJson, has
 import { planDueAt, recheck, countToday, nextDay, passageDe, ordonnerFile, dayKey } from './core/scheduler.mjs';
 import { NETWORKS, NAMES, shortId, parseCommand, defaultControls, isPaused, needsValidation, targets, applyDecision } from './core/control.mjs';
 import { fetchItems, matchArticle } from './sources/rss.mjs';
-import { buildDossier } from './brain/dossier.mjs';
+import { buildDossier, rubriqueJustifiee } from './brain/dossier.mjs';
 import { resoudreComptes } from './brain/comptes.mjs';
 import { resoudreLieu, lieuNomme } from './brain/lieux.mjs';
 import { recolterLieux } from './measure/recolte.mjs';
@@ -344,8 +344,18 @@ async function execute({ history, queue, memory, controls, now }) {
       // plus tard le texte écrit le matin alors que le rédacteur était injoignable — la description
       // de l'article recopiée à l'identique sur les cinq réseaux. On retente donc juste avant de
       // publier. Le cache évite de payer deux fois pour le même article.
+      // La rubrique s'affiche en gros sur le visuel : une zone d'identité que les données ne
+      // justifient pas y devient un contresens géographique — « Saintonge » pour un événement à
+      // Pons, le 25/09/2026. Un dossier écrit avant que la règle ne se durcisse est donc réécrit
+      // ici, avant de partir, plutôt que de publier une seconde fois la même erreur.
+      const rubriqueFausse = !rubriqueJustifiee(item.article, item.dossier.rubrique);
+      if (rubriqueFausse) {
+        console.error(`   Rubrique « ${item.dossier.rubrique} » non justifiée par l'article : dossier réécrit`);
+        delete item.dossier.comptes;
+        item.dossier = { ...item.dossier, source: 'a-refaire' };
+      }
       if (item.dossier.source !== 'ia' && process.env.ANTHROPIC_API_KEY) {
-        const frais = await buildDossier(item.article, { memory, useCache: true });
+        const frais = await buildDossier(item.article, { memory, useCache: !rubriqueFausse });
         if (frais.source === 'ia') {
           console.log(`   Dossier de secours remplacé par le rédacteur IA avant publication ${channel.id}`);
           item.dossier = frais;

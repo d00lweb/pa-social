@@ -47,7 +47,7 @@ const EMOJIS = /\p{Extended_Pictographic}️?/gu;
 const bareEmoji = (e) => e.replace(/️/g, '');
 export const extractEmojis = (text) => (String(text).match(EMOJIS) ?? []).map(bareEmoji);
 
-export function checkDossier(d, { source, limits, stopwords, genericCategories, internalCategoryPattern, bannedHashtags, knownNames, similarityMax, memorySimilarityMax, memory = {}, questions = {}, baitPatterns = [], sensitiveEmojis = [], recentEmojis = {}, emojiPlacement = {} }) {
+export function checkDossier(d, { source, limits, stopwords, genericCategories, internalCategoryPattern, bannedHashtags, knownNames, similarityMax, memorySimilarityMax, memory = {}, questions = {}, baitPatterns = [], sensitiveEmojis = [], recentEmojis = {}, emojiPlacement = {}, rubriquesAutorisees = null }) {
   const problems = [];
   const stop = new Set(stopwords.map((w) => fold(w)));
   const src = fold(source);
@@ -58,6 +58,17 @@ export function checkDossier(d, { source, limits, stopwords, genericCategories, 
   if (!rub) problems.push('rubrique vide');
   if (graphemes(d.rubrique) > limits.rubrique) problems.push(`rubrique trop longue (${limits.rubrique} max)`);
   if (genericCategories.includes(rub) || new RegExp(internalCategoryPattern, 'i').test(d.rubrique)) problems.push(`rubrique générique interdite : « ${d.rubrique} »`);
+  // La rubrique est le seul texte que le contrôle anti-invention laissait passer : elle sert
+  // elle-même de référence aux autres. Or elle s'affiche en gros sur le visuel, et une zone
+  // d'identité inventée y devient un contresens géographique — « Saintonge » pour un événement
+  // à Pons, le 25/09/2026. Elle doit donc venir des données, d'une zone que les données
+  // justifient, ou de la liste des rubriques thématiques. Rien d'autre.
+  if (rub && rubriquesAutorisees) {
+    const permises = rubriquesAutorisees.map(fold).filter(Boolean);
+    if (!permises.includes(rub) && !src.includes(rub)) {
+      problems.push(`rubrique absente des données : « ${d.rubrique} »`);
+    }
+  }
 
   // visuel
   const { titre, surlignage } = d.visuel;

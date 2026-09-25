@@ -3,7 +3,7 @@ import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import { fromRoot } from '../core/config.mjs';
 import { frenchTypography, pickHighlight } from './editorial.mjs';
-import { resolvePlace, candidateZones, placeNames } from './geo.mjs';
+import { resolvePlace, candidateZones, placeNames, geo, fold } from './geo.mjs';
 import { checkDossier } from './guards.mjs';
 import { fallbackDossier, sansDate } from './fallback.mjs';
 import { signalerIaIndisponible, verifierBudget, COUPER_AU_PLAFOND } from './couts.mjs';
@@ -61,6 +61,23 @@ export function reparer(dossier, problems) {
     }
   }
   return { repare, faits };
+}
+
+// Rubriques que les données d'un article autorisent : les thèmes, les zones d'identité que les
+// données justifient, le département, la région, la commune détectée, les catégories du flux.
+// La rubrique s'affiche en gros sur le visuel : ce qu'elle nomme doit exister dans l'article.
+export function rubriquesPermises(article) {
+  const place = resolvePlace(article);
+  return [...ed.themes.map((t) => t.rubrique), ...candidateZones(article, place), ...geo.departments, geo.region, place?.name, ...cleanCategories(article.categories ?? [])].filter(Boolean);
+}
+
+// Une rubrique déjà écrite tient-elle encore ? Sert au contrôle d'un dossier repris dans la file,
+// écrit avant que les règles ne se durcissent.
+export function rubriqueJustifiee(article, rubrique) {
+  const r = fold(rubrique);
+  if (!r) return false;
+  const source = fold([article.title, article.description, ...cleanCategories(article.categories ?? [])].join(' '));
+  return rubriquesPermises(article).some((p) => fold(p) === r) || source.includes(r);
 }
 
 // Dossier de publication d'un article : IA contrôlée, sinon règles de secours
@@ -132,7 +149,11 @@ export async function buildDossier(article, { memory, useCache = false, log = co
       await signalerIaIndisponible(err.message, { now: Date.now() }).catch(() => {});
       return { ...fallbackDossier(article), raison: 'ia-indisponible' };
     }
-    const controle = (d) => checkDossier(d, { ...ed, source, knownNames: [...ed.knownNames, ...placeNames(), ...ed.themes.map((t) => t.rubrique)], memory: memory.recent ?? {}, questions, recentEmojis: memory.emojis ?? {}, emojiPlacement });
+    // Les rubriques permises sont plus étroites que les noms propres permis : une zone d'identité
+    // n'est acceptable que si les données la justifient (voir candidateZones), sinon la rubrique
+    // retombe sur la commune, le département ou un thème.
+    const rubriquesAutorisees = rubriquesPermises(article);
+    const controle = (d) => checkDossier(d, { ...ed, source, knownNames: [...ed.knownNames, ...placeNames(), ...ed.themes.map((t) => t.rubrique)], memory: memory.recent ?? {}, questions, recentEmojis: memory.emojis ?? {}, emojiPlacement, rubriquesAutorisees });
     const finaliser = async (d, note) => {
       const final = {
         ...d,

@@ -23,12 +23,12 @@
     "dossier": {
       "nature": "actu",
       "sensible": false,
-      "rubrique": "Saintonge",
+      "rubrique": "Charente-Maritime",
       "visuel": {
-        "titre": "Nouveau succès pour l’Ultra Trail de Pons",
-        "surlignage": "Ultra Trail",
-        "description": "Avec 2 740 inscrits venus de France, du Canada ou de La Réunion, la course signe une édition 2026 record dans les chemins de Charente-Maritime.",
-        "texte_alternatif": "L’Ultra Trail de Pons, en Charente-Maritime, rassemble 2 740 inscrits pour son édition 2026, venus de France, du Canada ou de La Réunion."
+        "titre": "Nouveau succès pour l’Ultra Trail de Pons, avec 2 740 inscrits",
+        "surlignage": "2 740 inscrits",
+        "description": "Des coureurs venus de France, du Canada ou de La Réunion se sont alignés sur les chemins de la Saintonge. L’édition 2026 de l’Ultra Trail de Pons établit un record d’inscriptions.",
+        "texte_alternatif": "L’Ultra Trail de Pons, en Charente-Maritime, a réuni 2 740 inscrits pour son édition 2026, avec des coureurs venus du Canada et de La Réunion."
       },
       "entites": [
         {
@@ -40,9 +40,14 @@
           "role": "acteur"
         }
       ],
+      "domaines": [
+        "trail",
+        "course",
+        "sport"
+      ],
       "lieu": null,
       "instagram": {
-        "texte": "🏃 2 740 coureurs à Pons : le petit trail charentais attire désormais jusqu’au Canada\nVenus de France, du Canada ou de La Réunion, les inscrits ont fait de cette édition 2026 la plus fournie de l’histoire de l’Ultra Trail de Pons, en Charente-Maritime.",
+        "texte": "Des chemins de Saintonge foulés par des coureurs arrivés du Canada et de La Réunion 🌍\nL’Ultra Trail de Pons a rassemblé 2 740 inscrits pour son édition 2026, un record pour cette course de Charente-Maritime.",
         "hashtags": [
           "#Pons",
           "#UltraTrail",
@@ -50,44 +55,99 @@
         ]
       },
       "facebook": {
-        "texte": "Certains coureurs ont traversé un océan pour venir fouler les chemins de Pons cette année 🏃"
+        "texte": "Qu’est-ce qui pousse 2 740 coureurs, dont certains venus de La Réunion, à s’aligner sur les chemins de Pons 🥾"
       },
       "bluesky": {
-        "texte": "L’Ultra Trail de Pons n’attire plus seulement les habitués de Charente-Maritime : parmi les 🏅 2 740 inscrits de l’édition 2026, certains sont venus du Canada ou de La Réunion. Un record pour cette course de Saintonge.",
+        "texte": "2 740 dossards pour une seule course : l’édition 2026 de l’Ultra Trail bat tous ses records. Venus de France, du Canada ou de La Réunion, les participants se sont donné rendez-vous sur les chemins de Pons, en Saintonge 🌍",
         "hashtag": "#Pons"
       },
       "threads": {
-        "texte": "Des chemins de Saintonge, des dossards par milliers et des accents venus de très loin. À Pons, 2 740 personnes se sont inscrites à l’Ultra Trail, certaines depuis le Canada ou La Réunion. L’édition 2026 devient la plus fournie que la course ait connue 🏃",
+        "texte": "🏞️ Pons, en Charente-Maritime, n’est pas la première ville qui vient à l’esprit quand on parle de trail international. Et pourtant : 2 740 inscrits cette année, avec des coureurs arrivés du Canada et de La Réunion pour parcourir les chemins de Saintonge. L’édition 2026 devient la plus fréquentée de l’histoire de la course.",
         "sujet": "Charente-Maritime"
       },
       "x": {
-        "texte": "🏃 Comment une course de Charente-Maritime attire-t-elle des coureurs du Canada et de La Réunion ? L’Ultra Trail de Pons a réuni 2 740 inscrits pour son édition 2026, un record."
+        "texte": "Une course de Saintonge qui fait traverser l’Atlantique 👟 L’Ultra Trail de Pons a réuni 2 740 inscrits en 2026, venus de France, du Canada et de La Réunion. Un record pour cette épreuve de Charente-Maritime."
       },
       "source": "ia",
       "model": "claude-opus-5",
       "usage": {
-        "input": 7048,
-        "output": 866
+        "input": 7660,
+        "output": 1384
       },
       "angles": {
-        "instagram": "effet de surprise",
-        "facebook": "bénéfice pour le lecteur",
-        "bluesky": "détail méconnu",
-        "threads": "image évocatrice",
-        "x": "question intrigante"
+        "instagram": "image évocatrice",
+        "facebook": "question intrigante",
+        "bluesky": "chiffre ou fait marquant en tête",
+        "threads": "lieu en tête",
+        "x": "effet de surprise"
       },
       "lieuSource": {
-        "precis": "Ultra Trail de Pons",
+        "precis": "",
         "ville": "Pons",
         "departement": "Charente-Maritime"
       },
-      "lieuNom": "Ultra Trail de Pons",
+      "lieuNom": "Pons",
       "commune": "Pons",
       "comptes": {
-        "instagram": [],
-        "x": [],
+        "instagram": [
+          {
+            "nom": "Ultra Trail de Pons",
+            "handle": "ultratraildepons_officiel",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "sujet",
+            "echelon": "sujet"
+          },
+          {
+            "nom": "Lestraileurs | Conseils & Actus Trail",
+            "handle": "lestraileurs",
+            "abonnes": 100507,
+            "preuve": 3,
+            "role": "theme",
+            "echelon": "domaine",
+            "thematique": true
+          },
+          {
+            "nom": "Trail Passion",
+            "handle": "trail.passion",
+            "abonnes": 71212,
+            "preuve": 3,
+            "role": "theme",
+            "echelon": "domaine",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "Pons",
+            "handle": "RaccourciAgency",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "acteur",
+            "echelon": "sujet"
+          },
+          {
+            "nom": "Charente-Maritime",
+            "handle": "departement17",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
         "bluesky": [],
-        "threads": [],
+        "threads": [
+          {
+            "nom": "La Charente-Maritime",
+            "handle": "ma_charente_maritime",
+            "abonnes": 34788,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
         "facebook": []
       }
     },
@@ -527,100 +587,6 @@
             "role": "acteur"
           }
         ],
-        "threads": [],
-        "facebook": []
-      }
-    },
-    "previewSent": false
-  },
-  {
-    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35642",
-    "channel": "instagram",
-    "dueAt": 1790357251804,
-    "status": "pending",
-    "attempts": 0,
-    "article": {
-      "title": "En Charente-Maritime, nouveau succès pour l’Ultra Trail de Pons",
-      "link": "https://passion-aquitaine.ouest-france.fr/bilan-ultra-trail-pons-2026/",
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35642",
-      "pubDate": "Thu, 24 Sep 2026 15:30:55 +0000",
-      "date": 1790263855000,
-      "categories": [
-        "Actus",
-        "Charente-Maritime",
-        "Sport",
-        "Charente MA LOI"
-      ],
-      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/09/utp-pons-2026.jpg",
-      "description": "2 740 inscrits venus de France, du Canada ou de La Réunion : l’Ultra Trail de Pons signe une édition 2026 record."
-    },
-    "dossier": {
-      "nature": "actu",
-      "sensible": false,
-      "rubrique": "Saintonge",
-      "visuel": {
-        "titre": "Nouveau succès pour l’Ultra Trail de Pons",
-        "surlignage": "Ultra Trail",
-        "description": "Avec 2 740 inscrits venus de France, du Canada ou de La Réunion, la course signe une édition 2026 record dans les chemins de Charente-Maritime.",
-        "texte_alternatif": "L’Ultra Trail de Pons, en Charente-Maritime, rassemble 2 740 inscrits pour son édition 2026, venus de France, du Canada ou de La Réunion."
-      },
-      "entites": [
-        {
-          "nom": "Ultra Trail de Pons",
-          "role": "sujet"
-        },
-        {
-          "nom": "Pons",
-          "role": "acteur"
-        }
-      ],
-      "lieu": null,
-      "instagram": {
-        "texte": "🏃 2 740 coureurs à Pons : le petit trail charentais attire désormais jusqu’au Canada\nVenus de France, du Canada ou de La Réunion, les inscrits ont fait de cette édition 2026 la plus fournie de l’histoire de l’Ultra Trail de Pons, en Charente-Maritime.",
-        "hashtags": [
-          "#Pons",
-          "#UltraTrail",
-          "#CharenteMaritime"
-        ]
-      },
-      "facebook": {
-        "texte": "Certains coureurs ont traversé un océan pour venir fouler les chemins de Pons cette année 🏃"
-      },
-      "bluesky": {
-        "texte": "L’Ultra Trail de Pons n’attire plus seulement les habitués de Charente-Maritime : parmi les 🏅 2 740 inscrits de l’édition 2026, certains sont venus du Canada ou de La Réunion. Un record pour cette course de Saintonge.",
-        "hashtag": "#Pons"
-      },
-      "threads": {
-        "texte": "Des chemins de Saintonge, des dossards par milliers et des accents venus de très loin. À Pons, 2 740 personnes se sont inscrites à l’Ultra Trail, certaines depuis le Canada ou La Réunion. L’édition 2026 devient la plus fournie que la course ait connue 🏃",
-        "sujet": "Charente-Maritime"
-      },
-      "x": {
-        "texte": "🏃 Comment une course de Charente-Maritime attire-t-elle des coureurs du Canada et de La Réunion ? L’Ultra Trail de Pons a réuni 2 740 inscrits pour son édition 2026, un record."
-      },
-      "source": "ia",
-      "model": "claude-opus-5",
-      "usage": {
-        "input": 7048,
-        "output": 866
-      },
-      "angles": {
-        "instagram": "effet de surprise",
-        "facebook": "bénéfice pour le lecteur",
-        "bluesky": "détail méconnu",
-        "threads": "image évocatrice",
-        "x": "question intrigante"
-      },
-      "lieuSource": {
-        "precis": "Ultra Trail de Pons",
-        "ville": "Pons",
-        "departement": "Charente-Maritime"
-      },
-      "lieuNom": "Ultra Trail de Pons",
-      "commune": "Pons",
-      "comptes": {
-        "instagram": [],
-        "x": [],
-        "bluesky": [],
         "threads": [],
         "facebook": []
       }

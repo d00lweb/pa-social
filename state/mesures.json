@@ -806,5 +806,29 @@
     "commentaires": 0,
     "partages": 0,
     "vues": 276
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=34715",
+    "channel": "facebook",
+    "mediaId": "227437307428711_1723889383070276",
+    "publieLe": "2026-09-18T11:22:43.533Z",
+    "jalon": 7,
+    "releveLe": "2026-09-25T12:00:52.936Z",
+    "likes": 0,
+    "commentaires": 1,
+    "partages": 0,
+    "vues": null
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=28135",
+    "channel": "instagram",
+    "mediaId": "18170260570457066",
+    "publieLe": "2026-09-24T11:25:13.145Z",
+    "jalon": 1,
+    "releveLe": "2026-09-25T12:00:52.936Z",
+    "likes": 2,
+    "commentaires": 1,
+    "partages": null,
+    "vues": null
   }
 ]

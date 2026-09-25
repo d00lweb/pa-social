@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-25T11:20:43.962Z",
+  "genereLe": "2026-09-25T12:00:52.936Z",
   "jour": "2026-09-25",
   "reseaux": {
     "instagram": {
@@ -89,7 +89,7 @@
       },
       "formats": null,
       "aujourdhui": 1,
-      "semaine": 11,
+      "semaine": 10,
       "total": 12,
       "dernier": "2026-09-25T07:11:29.899Z",
       "lienDernier": "https://www.facebook.com/1720946116697936/posts/1730843055708242"
@@ -569,7 +569,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 68,
+    "releves": 70,
     "parReseau": {
       "instagram": {
         "posts": 8,
@@ -580,7 +580,7 @@
         "interactionsMoyennes": 0.5
       },
       "facebook": {
-        "posts": 1,
+        "posts": 2,
         "interactionsMoyennes": 1
       },
       "threads": {
@@ -692,12 +692,12 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-25T11:32:29.304Z",
-    "posts": 50,
+    "genereLe": "2026-09-25T12:01:18.165Z",
+    "posts": 51,
     "parReseau": {
       "instagram": {
-        "posts": 14,
-        "moyenne": 18.2
+        "posts": 15,
+        "moyenne": 17.2
       },
       "threads": {
         "posts": 11,
@@ -736,8 +736,8 @@
     },
     "parCreneau": {
       "après-midi": {
-        "posts": 12,
-        "moyenne": 15.3
+        "posts": 13,
+        "moyenne": 14.3
       },
       "matin": {
         "posts": 30,
@@ -751,8 +751,8 @@
     "parCreneauReseau": {
       "instagram": {
         "12 h – 13 h 30": {
-          "posts": 6,
-          "moyenne": 28.3
+          "posts": 7,
+          "moyenne": 24.7
         },
         "hors créneau": {
           "posts": 6,
@@ -814,7 +814,7 @@
         }
       }
     },
-    "interactionsTotal": 435,
+    "interactionsTotal": 438,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35605",
       "channel": "threads",
@@ -857,8 +857,8 @@
         "moyenne": 4
       },
       "sans": {
-        "posts": 49,
-        "moyenne": 8.8
+        "posts": 50,
+        "moyenne": 8.7
       }
     },
     "publies": {
@@ -911,7 +911,7 @@
       }
     },
     "engagement": {
-      "instagram": 0.18,
+      "instagram": 0.17,
       "threads": 1.31,
       "facebook": 0
     },

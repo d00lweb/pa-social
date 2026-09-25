@@ -8,21 +8,23 @@ const cache = new Map();
 
 export const titreIndiqueAbsence = (titre) => /Threads\s*•\s*Log in/i.test(String(titre ?? ''));
 
+// true : présent · false : absent · null : impossible de savoir (réseau, page inattendue).
+// Le doute n'est jamais mémorisé comme une absence : il se retente au passage suivant.
 export async function surThreads(handle) {
   const cle = String(handle ?? '').toLowerCase();
   if (!cle) return false;
   if (cache.has(cle)) return cache.get(cle);
 
-  let present = false;
   try {
     const res = await fetch(`https://www.threads.com/@${cle}`, { headers: { 'User-Agent': UA }, redirect: 'follow', signal: AbortSignal.timeout(TIMEOUT) });
-    if (res.ok) {
-      const titre = /<title>([^<]{0,120})/.exec(await res.text())?.[1] ?? '';
-      present = titre.length > 0 && !titreIndiqueAbsence(titre);
-    }
+    if (!res.ok) return null;
+    const titre = /<title>([^<]{0,120})/.exec(await res.text())?.[1] ?? '';
+    if (!titre) return null;
+    const present = !titreIndiqueAbsence(titre);
+    cache.set(cle, present);
+    return present;
   } catch (e) {
     console.error(`   Threads « ${handle} » : ${e.message}`);
+    return null;
   }
-  cache.set(cle, present);
-  return present;
 }

@@ -131,11 +131,13 @@ export async function publish(pkg) {
   await send(sommaire, { reply_markup: JSON.stringify({ inline_keyboard: [[{ text: '✍️ Publier sur X', url: pkg.intent }]] }) });
   for (const e of elements) await sendCopie(e.etiquette, e.valeur, { note: e.note ?? null, lien: e.lien ?? null });
   if (aChercher.length) {
+    // le pseudo Instagram est donné : c'est souvent le même sur X, et c'est la recherche la plus rapide
+    const pourquoi = { sujet: 'cité par l’article', commune: 'la commune', domaine: 'référence du sujet', territoire: 'le territoire' };
     await send([
       '🔎 <b>Comptes à chercher sur X</b>',
-      '<i>Confirmés sur les autres réseaux pour cet article ; X n’ayant pas d’API gratuite, leur pseudo reste à trouver à la main.</i>',
+      '<i>Confirmés sur les autres réseaux pour cet article ; X n’ayant pas d’API gratuite, leur pseudo reste à trouver à la main — souvent le même qu’ailleurs.</i>',
       '',
-      ...aChercher.map((c) => `· <b>${esc(c.nom)}</b>${c.thematique ? ' — compte de référence du domaine' : ''}`),
+      ...aChercher.map((c) => `· <b>${esc(c.nom)}</b> — ${pourquoi[c.echelon] ?? (c.thematique ? 'référence du sujet' : 'cité par l’article')} · <code>@${esc(c.handle)}</code> ailleurs`),
     ].join('\n'));
   }
   return { mediaId: 'kit-telegram' };

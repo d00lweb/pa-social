@@ -42,6 +42,22 @@ export async function profil(acteur) {
   }
 }
 
+// Profil, en distinguant l'absence de la panne : « Profile not found » (400) renvoie null, et se
+// mémorise ; un réseau coupé ou une erreur du serveur lève une exception, et ne conclut rien.
+export async function lireProfil(acteur) {
+  const res = await fetch(`${API}/app.bsky.actor.getProfile?${new URLSearchParams({ actor: acteur })}`, { signal: AbortSignal.timeout(TIMEOUT) });
+  if (res.status === 400 || res.status === 404) return null;
+  if (!res.ok) throw new Error(`Bluesky HTTP ${res.status}`);
+  const json = await res.json();
+  if (!json?.handle) return null;
+  return {
+    handle: json.handle,
+    nom: json.displayName ?? '',
+    description: (json.description ?? '').replace(/\s+/g, ' '),
+    abonnes: json.followersCount ?? 0,
+  };
+}
+
 // Identifiant technique exigé par une mention ; null si le compte n'existe pas
 export async function resoudreHandle(handle) {
   try {

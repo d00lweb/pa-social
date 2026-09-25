@@ -222,13 +222,17 @@ async function enrichir(dossier, article = null, memory = null) {
   dossier.comptes = await resoudreComptes(dossier.entites ?? [], {
     image: article?.image ?? null,
     // les données de l'article servent à reconnaître le thème : « trail » doit y figurer en toutes
-    // lettres pour que les comptes de référence du trail soient ajoutés
-    texte: [article?.title, article?.description, ...(article?.categories ?? [])].filter(Boolean).join(' '),
-    // comptes de référence déjà mentionnés : la rotation les écarte au profit des autres
+    // lettres pour que les comptes de référence du trail soient ajoutés ; la rubrique (« Pays
+    // basque ») désigne le territoire vécu
+    texte: [article?.title, article?.description, ...(article?.categories ?? []), dossier.rubrique].filter(Boolean).join(' '),
     domaines: dossier.domaines ?? [],
     // la commune du sujet : ses comptes passent avant ceux du territoire élargi
     commune: dossier.commune ?? dossier.lieuSource?.ville ?? null,
+    departement: String(dossier.lieuSource?.departement ?? '').trim() || null,
+    // les liens de l'article mènent au site officiel des entités qu'il nomme
+    lien: article?.link ?? null,
     categories: article?.categories ?? [],
+    // comptes de référence déjà mentionnés : la rotation les écarte au profit des autres
     recents: memory?.mentions ?? [],
     log: console.log,
   });

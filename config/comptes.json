@@ -1,166 +1,164 @@
 {
-  "_lecture": "Dernier recours pour les collectivités de notre zone, quand la fiche Wikidata et le site officiel ne donnent rien (certains sites chargent leurs réseaux en JavaScript). Ces comptes ont été trouvés sur les sites officiels et vérifiés par Meta le 17/09/2026. Tout le reste est trouvé dynamiquement : cette table ne remplace pas la recherche, elle la complète.",
+  "_lecture": "Tables vérifiées à la main : chaque compte a été décrit par l'API Instagram (nom, biographie, abonnés) avant d'être inscrit. Elles complètent la recherche automatique, elles ne la remplacent pas : les communes, les sites officiels, Wikidata et les jumeaux Bluesky et Threads sont trouvés sans rien écrire ici. N'y inscrire que ce qu'aucune règle ne peut trouver.",
+  "_institutions": "Organisations nommées par les articles, quand la recherche ne suffit pas (compte personnel invisible à l'API, site qui charge ses réseaux en JavaScript). Le nom doit être celui que l'article emploie. lies : comptes voisins du sujet, dont l'audience est proche.",
   "institutions": {
+    "Ultra Trail de Pons": {
+      "instagram": "ultratraildepons_officiel"
+    },
+    "Morimoto Bordeaux": {
+      "instagram": "morimotobordeaux",
+      "lies": ["mondrianbordeaux"]
+    },
+    "Hermione": {
+      "instagram": "hermione_lafayette",
+      "x": "LHERMIONE_SHIP"
+    },
+    "Fédération française de surf": {
+      "instagram": "surfingfrance",
+      "x": "surfingfrance"
+    },
+    "Bureau national interprofessionnel du cognac": {
+      "instagram": "cognac_official",
+      "x": "cognac_official"
+    },
+    "BNIC": {
+      "instagram": "cognac_official",
+      "x": "cognac_official"
+    },
+    "Région Nouvelle-Aquitaine": {
+      "instagram": "region_nouvelle_aquitaine",
+      "x": "NvelleAquitaine",
+      "bluesky": "nouvelleaquitaine.bsky.social"
+    }
+  },
+  "_territoires": "Les douze départements : le compte du conseil départemental (instagram, x, bluesky) et celui de la destination touristique (tourisme), vérifiés le 25/09/2026. Le compte tourisme n'est mentionné que pour un sujet de visiteurs. Pyrénées-Atlantiques : deux destinations, Pays basque et Béarn, dans les viviers de territoire ci-dessous. Haute-Vienne : aucun compte tourisme trouvé.",
+  "territoires": {
     "Gironde": {
-      "instagram": "departementgironde"
+      "instagram": "departementgironde",
+      "x": "gironde",
+      "bluesky": "departementgironde.bsky.social",
+      "tourisme": "girondetourisme"
     },
     "Landes": {
-      "instagram": "departement_landes"
+      "instagram": "departement_landes",
+      "tourisme": "les_landes"
     },
     "Dordogne": {
       "instagram": "cddordogne24",
-      "x": "cddordogne"
+      "x": "cddordogne",
+      "tourisme": "dordogneperigordtourisme"
     },
     "Lot-et-Garonne": {
-      "instagram": "lotetgaronneledepartement"
+      "instagram": "lotetgaronneledepartement",
+      "tourisme": "tourismelotetgaronne"
     },
     "Pyrénées-Atlantiques": {
       "instagram": "departement64",
       "x": "departement64"
     },
     "Charente": {
-      "instagram": "departementcharente"
+      "instagram": "departementcharente",
+      "tourisme": ["infinimentcharentes", "charente_tourisme"]
     },
     "Charente-Maritime": {
       "instagram": "ma_charente_maritime",
-      "x": "departement17"
+      "x": "departement17",
+      "tourisme": "infinimentcharentes"
     },
     "Corrèze": {
-      "instagram": "correzeledepartement"
+      "instagram": "correzeledepartement",
+      "tourisme": "tourismecorreze"
     },
     "Creuse": {
-      "instagram": "departement_creuse"
+      "instagram": "departement_creuse",
+      "x": "Departement_23",
+      "tourisme": "tourismecreuse"
     },
     "Haute-Vienne": {
       "instagram": "hautevienne_dep"
     },
     "Vienne": {
       "instagram": "departement86",
-      "x": "departement86"
+      "x": "departement86",
+      "tourisme": "laviennetourisme"
     },
     "Deux-Sèvres": {
-      "instagram": "deuxsevres79"
-    },
-    "Ultra Trail de Pons": {
-      "instagram": "ultratraildepons_officiel"
-    },
-    "Morimoto Bordeaux": {
-      "instagram": "morimotobordeaux",
-      "lies": [
-        "mondrianbordeaux"
-      ]
-    },
-    "Hermione": {
-      "instagram": "hermione_lafayette",
-      "x": "LHERMIONE_SHIP"
+      "instagram": "deuxsevres79",
+      "x": "DeuxSevres",
+      "tourisme": "deuxsevres_tourisme"
     }
   },
-  "_thematiques": "Viviers de comptes de reference francais, verifies a la main (nom, bio, abonnes). Un vivier s applique si l un de ses motsCles figure en mot entier dans l article. Les comptes sont pris EN ROTATION : jamais les memes deux fois de suite, pour toucher une audience differente a chaque fois. Ordre du tableau = ordre de preference a egalite. Ajouter un compte ici est un acte editorial : jamais de compte devine, jamais de compte etranger.",
+  "_thematiques": "Viviers de comptes de référence français, vérifiés à la main. Un vivier s'applique si l'un de ses motsCles figure en mot entier dans l'article ; avec lieux, il faut aussi l'un de ces lieux (les huîtres d'Arcachon ne valent pas à Marennes). echelon : domaine (par défaut), commune ou territoire — il fixe la place du vivier dans l'ordre des mentions. touristique : seulement pour un sujet de visiteurs. Les comptes sont pris en rotation. Instagram suffit : Threads et Bluesky sont complétés automatiquement quand le compte y existe. Ajouter un compte ici est un acte éditorial : jamais de compte deviné, jamais de compte étranger.",
   "thematiques": {
     "French Cancan": {
-      "motsCles": [
-        "French Cancan",
-        "cancan",
-        "cabaret",
-        "Moulin Rouge",
-        "revue parisienne"
-      ],
-      "instagram": [
-        "moulinrougeofficiel"
-      ]
+      "motsCles": ["French Cancan", "cancan", "cabaret", "Moulin Rouge", "revue parisienne"],
+      "instagram": ["moulinrougeofficiel"]
+    },
+    "cognac": {
+      "motsCles": ["eau-de-vie", "eaux-de-vie", "spiritueux", "vigne", "vignes", "vignoble", "vignobles", "viticulteur", "viticulteurs", "viticole", "distillerie", "distillation", "chai", "chais", "pineau", "BNIC"],
+      "lieux": ["Cognac", "Jarnac", "Segonzac", "Grande Champagne", "Borderies", "Charente"],
+      "instagram": ["cognac_official", "lartducognac"]
+    },
+    "huîtres du Bassin": {
+      "motsCles": ["huître", "huîtres", "ostréiculture", "ostréiculteur", "ostréiculteurs", "ostréicole", "conchyliculture", "conchylicole"],
+      "lieux": ["Arcachon", "Cap Ferret", "Cap-Ferret", "Gujan-Mestras", "Andernos", "Arès", "Lège", "La Teste", "Taussat", "Biganos", "Audenge", "Lanton"],
+      "instagram": ["huitresarcachoncapferret"]
     },
     "vin": {
-      "motsCles": [
-        "vin",
-        "vins",
-        "vignoble",
-        "viticole",
-        "oenologie",
-        "œnologie",
-        "cépage",
-        "levure",
-        "vendange",
-        "château viticole"
-      ],
-      "instagram": [
-        "vinsdebordeaux",
-        "vinetsociete"
-      ]
+      "motsCles": ["vin", "vins", "vignoble", "viticole", "oenologie", "œnologie", "cépage", "levure", "vendange", "château viticole"],
+      "instagram": ["vinsdebordeaux", "vinetsociete"]
+    },
+    "apiculture": {
+      "motsCles": ["abeille", "abeilles", "apiculteur", "apiculteurs", "apicultrice", "apiculture", "ruche", "ruches", "miel", "pollinisateur", "pollinisateurs"],
+      "instagram": ["unafapiculture"]
+    },
+    "biodiversité et nature": {
+      "motsCles": ["biodiversité", "faune", "flore", "espèce protégée", "espèces protégées", "espèce invasive", "espèces invasives", "frelon asiatique", "oiseau", "oiseaux", "zone humide", "zones humides", "réserve naturelle", "écosystème", "pollinisateurs"],
+      "instagram": ["ofbiodiversite", "lpo_officiel", "wwffrance", "fondationnh"]
     },
     "transition écologique": {
-      "motsCles": [
-        "décarbonation",
-        "durable",
-        "écologique",
-        "transition énergétique",
-        "batterie",
-        "zéro émission",
-        "biodiversité",
-        "climatique"
-      ],
-      "instagram": [
-        "positivr",
-        "wedemain",
-        "novethic"
-      ]
+      "motsCles": ["décarbonation", "durable", "écologique", "transition énergétique", "batterie", "zéro émission", "climatique"],
+      "instagram": ["positivr", "wedemain", "novethic"]
     },
     "trail": {
-      "motsCles": [
-        "trail",
-        "ultra-trail",
-        "ultratrail",
-        "traileur",
-        "traileuse",
-        "course nature"
-      ],
-      "instagram": [
-        "lestraileurs",
-        "trail.passion"
-      ]
+      "motsCles": ["trail", "ultra-trail", "ultratrail", "traileur", "traileuse", "course nature"],
+      "instagram": ["lestraileurs", "trail.passion"]
+    },
+    "surf": {
+      "motsCles": ["surf", "surfeur", "surfeurs", "surfeuse", "surfeuses", "surfing"],
+      "instagram": ["surfingfrance", "ripitup.fr"]
     },
     "train": {
-      "motsCles": [
-        "TER",
-        "SNCF",
-        "train",
-        "ferroviaire",
-        "gare"
-      ],
-      "instagram": [
-        "sncfvoyageurs",
-        "voyagerentrain.fr",
-        "groupesncf",
-        "sncf.ter.nouvelle.aquitaine"
-      ]
-    },
-    "Pays basque": {
-      "motsCles": [
-        "Pays basque",
-        "Bidache",
-        "Basse-Navarre",
-        "Bayonne",
-        "Biarritz",
-        "Saint-Jean-de-Luz",
-        "Euskal"
-      ],
-      "instagram": [
-        "paysbasque_net",
-        "paysbasque_tourisme",
-        "bienvenue_au_pays_basque",
-        "enpaysbasque_euskalherrian"
-      ]
+      "motsCles": ["TER", "SNCF", "train", "ferroviaire", "gare"],
+      "instagram": ["sncfvoyageurs", "voyagerentrain.fr", "groupesncf", "sncf.ter.nouvelle.aquitaine"]
     },
     "La Rochelle": {
-      "motsCles": [
-        "La Rochelle",
-        "rochelais",
-        "rochelaise"
-      ],
-      "instagram": [
-        "nouslarochelle",
-        "larochelleensemble"
-      ]
+      "echelon": "commune",
+      "motsCles": ["La Rochelle", "rochelais", "rochelaise"],
+      "instagram": ["nouslarochelle", "larochelleensemble"]
+    },
+    "Pays basque": {
+      "echelon": "territoire",
+      "motsCles": ["Pays basque", "Bidache", "Basse-Navarre", "Bayonne", "Biarritz", "Saint-Jean-de-Luz", "Euskal"],
+      "instagram": ["paysbasque_net", "bienvenue_au_pays_basque", "enpaysbasque_euskalherrian"]
+    },
+    "Pays basque tourisme": {
+      "echelon": "territoire",
+      "touristique": true,
+      "motsCles": ["Pays basque", "Bidache", "Basse-Navarre", "Bayonne", "Biarritz", "Saint-Jean-de-Luz", "Euskal"],
+      "instagram": ["paysbasque_tourisme"]
+    },
+    "Béarn tourisme": {
+      "echelon": "territoire",
+      "touristique": true,
+      "motsCles": ["Béarn", "Pau", "Oloron", "Orthez", "Salies-de-Béarn", "Jurançon", "vallée d'Ossau", "vallée d'Aspe"],
+      "instagram": ["bearnpyrenees_tourisme"]
+    },
+    "Nouvelle-Aquitaine tourisme": {
+      "echelon": "territoire",
+      "touristique": true,
+      "motsCles": ["Nouvelle-Aquitaine"],
+      "instagram": ["en_nouvelle_aquitaine"]
     }
-  },
-  "_institutions_lies": "lies : comptes liés à l entite, verifies a la main. Le Mondrian Bordeaux heberge le restaurant Morimoto et le dit dans sa bio : le taguer touche une audience proche du sujet."
+  }
 }

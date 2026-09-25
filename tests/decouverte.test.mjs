@@ -141,7 +141,8 @@ test('la porte de la langue ferme aussi sur le contenu adulte', async () => {
   // les vrais comptes français du même domaine passent toujours
   assert.ok(semblFrancais('Revue bilingue spécialisée en #HistoireDuLivre, disponible en ligne'));
   assert.ok(semblFrancais('La Fondation pour la recherche sur la biodiversité est une fondation'));
-  // le contenu adulte est écarté quelle que soit l'audience
+  // le contenu adulte est écarté quelle que soit l'audience, et quelle que soit la preuve d'identité
   const adulte = { handle: 'x.bsky.social', nom: 'Livre', description: 'Compte français pour adultes, contenu érotique', abonnes: 50000 };
-  assert.match(retenir(adulte, { domaine: 'livre', reseau: 'bluesky' }).motif, /biographie non française/);
+  assert.match(retenir(adulte, { domaine: 'livre', reseau: 'bluesky' }).motif, /adultes/);
+  assert.match(retenir(adulte, { domaine: 'livre', reseau: 'bluesky', preuve: 3 }).motif, /adultes/);
 });

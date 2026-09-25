@@ -147,27 +147,38 @@ Compte `@lovaquitaine`, **inactif tant que `THREADS_USER_ID` et `THREADS_TOKEN` 
 
 ### Mentions de comptes et localisation
 
-**Principe : le texte ne porte jamais une liste de comptes.** Une mention n'apparaît dans un texte que si elle remplace un nom déjà écrit (« la boulangerie @lamidupain17 ») ; sinon elle passe par un canal invisible, ou elle n'a pas lieu.
+**Trois comptes au plus par réseau**, choisis par le moteur de mentions (`src/brain/comptes.mjs`). Ils sont posés ainsi :
 
 | Réseau | Mentions | Localisation |
 |---|---|---|
-| Instagram | tag sur la 1ʳᵉ image du carrousel, invisible dans le texte | portée par le carrousel |
-| Bluesky | dans le texte, par substitution du nom, sinon aucune | impossible, la fonction n'existe pas |
-| X | comptes fournis dans le kit, tagués sur l'image (0 caractère) | lieu fourni dans le kit |
-| Threads | dans le texte, et seulement si le compte a un profil Threads | après autorisation Meta |
-| Facebook | premier commentaire, avec le lien | portée par le post |
+| Instagram | tags sur la 1ʳᵉ image du carrousel, invisibles dans le texte | portée par le carrousel |
+| Bluesky | le nom remplacé dans le texte quand il y figure (« le @bdangouleme.bsky.social dévoile… »), les autres sur une dernière ligne avant le lien | impossible, la fonction n'existe pas |
+| Threads | comme Bluesky, et seulement des comptes qui ont un vrai profil Threads | sujet (commune) du post |
+| X | pas d'API gratuite : comptes à copier dans le kit Telegram, et un message « Comptes à chercher sur X » avec le pseudo connu ailleurs | lieu fourni dans le kit |
+| Facebook | aucune (il faudrait l'accès « Page Public Content », réservé) | portée par le post |
 
-**Comment un compte est trouvé** (`src/brain/comptes.mjs`), sans annuaire figé et sans rien deviner :
+**Quatre échelons, du plus proche du sujet au plus large** :
 
-1. l'IA fournit des **noms d'entités**, jamais des pseudos (`entites`, avec un rôle : sujet, acteur, tutelle, thème) ;
-2. la fiche Wikidata de l'entité donne ses comptes déclarés et son **site officiel** ; le site donne le pseudo réel, réseau par réseau (il diffère souvent : *danslenoirbordeaux* sur Facebook, *danslenoirgroup* sur Instagram) ;
-3. sur Bluesky, la recherche publique propose des comptes, et seuls ceux dont **tous les mots du nom** correspondent sont retenus, comparés en mots entiers (sans quoi « ami » se reconnaît dans « g**ami**ng », et une équipe d'e-sport se retrouve taguée) ;
-4. un compte de fans, une parodie ou un profil vide sont écartés ; sur Threads, la présence d'un vrai profil est vérifiée ;
-5. deux comptes au maximum, le sujet avant le thème, **et zéro quand rien n'est sûr**.
+1. **sujet** — ce que l'article nomme : l'organisateur, le lieu, l'institution en cause (l'IA donne des *noms*, jamais des pseudos) ;
+2. **commune** — la ville où cela se passe ; son office de tourisme seulement pour un sujet qui s'adresse aux visiteurs ;
+3. **domaine** — les références du sujet : le Moulin Rouge pour un French Cancan, un club de surf de la commune pour un championnat, les vins de Bordeaux pour un sujet viticole ;
+4. **territoire** — le Pays basque, le département : l'audience la plus large, donc la dernière servie.
 
-`config/comptes.json` ne sert qu'en dernier recours, pour les douze départements de notre zone : leurs sites chargent parfois leurs réseaux en JavaScript, invisibles au balayage. Ces comptes ont été relevés sur les sites officiels puis vérifiés par Meta. Tout le reste est trouvé dynamiquement — cette table complète la recherche, elle ne la remplace pas.
+**L'équilibre** est déclaré en tours (`TOURS`) : le sujet prend ce qu'il lui faut, puis une place pour la commune et une pour le domaine, puis ce qui reste. Le French Cancan du FAB tague donc le festival, la ville et le Moulin Rouge ; l'escale de l'Hermione à Bayonne tague le navire, @bayonnemaville et @visitbayonne avant tout compte du département. Dans chaque vivier, une **rotation** évite de mentionner deux fois de suite les mêmes comptes ; le sujet n'y entre jamais.
 
-Trois pièges rencontrés en conditions réelles, chacun devenu un test : « ami » se reconnaissait dans « g**ami**ng » (d'où une équipe d'e-sport taguée), « Ville de Bordeaux » désignait un cargo sur Wikidata, et « Département de la Gironde » menait à un journal du XIXᵉ numérisé par Gallica, dont les comptes appartiennent à la BnF.
+**Comment un compte est trouvé** (`src/brain/identite.mjs`) : chaque source est interrogée de la plus sûre à la moins sûre, et la première qui répond clôt la recherche. Ce qui compte n'est pas qu'un pseudo existe — Meta le confirme pour n'importe quel homonyme — mais qu'on sache **qui** le tient.
+
+1. **ce que l'entité déclare** : les tables vérifiées (`config/comptes.json`), sa fiche Wikidata (Instagram, X, Bluesky, Threads, site), les liens de son site officiel — y compris le site que l'article lui-même cite (l'article sur l'Ultra Trail de Pons renvoie vers ultratraildepons.fr, qui déclare @ultratraildepons_officiel) ;
+2. **ce que le compte déclare** : un compte Instagram dont le site web est celui de l'entité est le sien (@villedebergerac renvoie à bergerac.fr) ; un compte Bluesky nommé d'après ce domaine l'a prouvé à Bluesky ;
+3. **ce qu'on construit** : le nom porté par le domaine du site (bdangouleme.com → @bdangouleme), les formes bâties sur le nom exact, puis, pour les comptes personnels que l'API ne décrit pas, un essai d'identification — deux comptes au plus.
+
+Pour une **commune**, la fiche Wikidata et le site de la mairie déclarent le compte (@villedebordeaux, 204 783 abonnés ; @ville_pau ; @ville2biarritz), les formes usuelles (`ville{X}`, `villede{X}`, `visit{X}`, `destination{X}`…) ne servant qu'en dernier recours. **Threads et Bluesky** reprennent les comptes établis sur Instagram : même pseudo, présence vérifiée sur Threads, jumeau `{pseudo}.bsky.social` au même nom sur Bluesky — la recherche Bluesky ne trouvait ni la Ville de Bergerac, ni le Festival de la BD, ni le Département de la Gironde.
+
+**Le jugement** (`src/brain/decouverte.mjs`) pose ses questions selon la preuve : un compte que l'entité déclare est le sien, quelle que soit sa taille ; un compte construit ou trouvé doit porter le nom, avoir une audience (3 000 abonnés sur Instagram, 300 sur Bluesky ; 1 000 et 100 pour un compte ancré dans la commune), écrire en français (l'anglais toléré pour un compte local, jamais le portugais ni l'espagnol), et, pour une référence nationale d'un domaine, **se nommer par ce domaine** (« Santé publique France », pas « Espace Santé Trans »). Le contenu pour adultes et les domaines nationaux étrangers sont exclus quelle que soit la preuve.
+
+**Les recherches sont mémorisées** (`state/comptes-appris.json`) : 90 jours pour une commune ou un département, 30 pour un domaine. Une lecture incertaine — quota, réseau coupé — n'est jamais mémorisée comme une absence.
+
+`config/comptes.json` ne contient que ce qu'aucune règle ne peut trouver : les douze départements (conseil départemental et destination touristique), quelques institutions, et des viviers de référence par thème (vin, cognac, huîtres du Bassin, surf, trail, apiculture, biodiversité, train…). Un vivier peut être ancré dans un lieu (`lieux`) ou réservé aux sujets de visiteurs (`touristique`). Y ajouter un compte est un acte éditorial : jamais de compte deviné, jamais de compte étranger.
 
 Si Meta refuse une mention (compte renommé ou passé en privé), la publication part sans elle : une mention n'empêche jamais un post.
 
@@ -618,6 +629,12 @@ src/channels/preview.mjs        message d'aperçu et boutons
 src/channels/x.mjs              kit X : visuel 4:5, post avec lien, lien de rédaction pré-remplie
 src/channels/bluesky.mjs        Bluesky : 3 formats (carte, image, lien en réponse), facettes, AT Protocol
 src/channels/facebook.mjs       Facebook : image 4:5, lieu, lien en premier commentaire
+src/brain/comptes.mjs           mentions : échelons (sujet, commune, domaine, territoire), rotation, sélection
+src/brain/identite.mjs          identité d'une entité ou d'une commune : ce qu'elle déclare, puis ce qu'on construit
+src/brain/decouverte.mjs        jugement des comptes candidats (preuve, audience, langue) et formes de pseudos
+src/sources/instagram-public.mjs  lecture des comptes Instagram d'autrui (nom, bio, abonnés, site)
+src/sources/article.mjs         liens sortants de l'article : les sites officiels des entités citées
+config/comptes.json             tables vérifiées : institutions, départements, viviers de référence
 scripts/smoke-bsky.mjs          test de connexion Bluesky
 src/core/control.mjs            commandes, pause, validation, décisions (logique pure)
 scripts/telegram-test.mjs       menu du bot + aperçu d'exemple
@@ -736,3 +753,4 @@ Dépendances : `fast-xml-parser`, `sharp`, `playwright`, `basic-ftp`. Node 24, E
 | 25/09/2026 | **Trois défauts trouvés en éprouvant le filtre sur dix articles.** « Dax » fait trois lettres et tombait sous le seuil de longueur : l'article perdait le compte de sa propre ville. « trail » se reconnaissait à l'intérieur de « PaperTrail Media », une rédaction d'investigation **allemande** — la racine doit désormais commencer un mot, et un pseudo sur un domaine national étranger (`.de`, `.es`, `.uk`…) est écarté d'office. Enfin la frontière de mot rejetait `@visitbordeaux`, dont le nom d'affichage est un seul mot collé : l'exigence du nom ne s'applique plus à l'échelon commune, où le pseudo est **construit** depuis la ville — la biographie reste le garde-fou, et c'est elle qui démasque « VILLE LA ROCHELLE », domaine événementiel brésilien à 92 295 abonnés. |
 | 25/09/2026 | **L'office de tourisme ne se tague que pour les sujets qui parlent aux visiteurs.** Erreur relevée à l'usage : `@daxtourisme` sous le financement d'un village Alzheimer, `@limogestourisme` sous un article sur les frelons asiatiques, `@visitbordeaux` sous une recherche œnologique — la mauvaise audience, et ça se voit. L'échelon commune distingue désormais deux natures : la **ville** (`ville{X}`, `{X}maville`, `mairie{X}`), proposée à tout sujet local, et l'**office de tourisme** (`visit{X}`, `{X}tourisme`, `ot{X}`), réservé aux articles touristiques — reconnus par les catégories du flux (Visites & loisirs, Agenda, Restaurants, Patrimoine…) ou par les mots du texte (visite, escale, festival, week-end, dormir, dégustation). Frontières de mot obligatoires : sans elles, « Agriculture » contenait « culture » et les frelons devenaient un sujet touristique. |
 | 25/09/2026 | **Deux portes ajoutées après une série d'essais sur dix sujets inventés.** Le portugais et l'espagnol passaient, « livre » et « surf » étant aussi des mots français : `@sagradalivre` (astrologie, 2 573 abonnés), `@vitinhosurfista` (Rio de Janeiro, 1 759) et surtout **`@ksal-livre`, un compte adulte à 2 065 abonnés**, ont franchi le filtre. Le contenu pour adultes est désormais écarté quelle que soit l'audience — une mention de ce genre sous un post du média, c'est une capture d'écran qui circule — et les marques lusophones, hispanophones et les drapeaux de pays tiers ferment la porte. Les deux tests se font sur le texte **sans accents** : `\bérotique\b` ne se reconnaissait pas, l'accent n'étant pas un caractère de mot. |
+| 25/09/2026 | **Moteur de mentions refondu : l'identité d'abord, les règles ensuite.** Dix comptes réels manquaient sur des cas éprouvés (@villedebergerac, @villedecognac, @bdangouleme, @cognac_official, @les_landes, @surfingfrance, @hossegorsurfclub…), et @villedebordeaux (204 783 abonnés) n'était jamais trouvé. Les règles s'étaient empilées ; le moteur est réorganisé en quatre échelons (sujet, commune, domaine, territoire) et une seule décision graduée par la **preuve d'identité** : ce que l'entité déclare (table, Wikidata, site officiel — y compris celui cité par l'article), ce que le compte déclare (son site web), puis seulement ce qu'on construit. Nouvelles sources : fiche Wikidata et site de la commune, nom du domaine du site (bdangouleme.com → @bdangouleme), liens de l'article, comptes Bluesky et Threads déclarés sur Wikidata ; jumeaux Bluesky et présence Threads pour chaque compte établi. Nouveaux garde-fous : une référence nationale se nomme par son domaine (écarte « Espace Santé Trans » sous une maternité), comptage de langue (écarte le portugais « há mentes livres »), une organisation une mention (FNE et ses antennes), plus jamais de compte personnel inconnu quand un compte vérifié porte le nom (TER), fiche Wikidata au nom complet sans exiger de mot commun avec l'article (les Girondins, et non leur équipe C). Bluesky et Threads passent à trois mentions. Le doute (quota, réseau) n'est plus jamais mémorisé comme une absence. Éprouvé sur 21 articles réels ou inventés ; 8 tests ajoutés (241). |

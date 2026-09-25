@@ -3,7 +3,7 @@ import { createHash } from 'node:crypto';
 import sharp from 'sharp';
 import { splitAround, frenchTypography } from '../brain/editorial.mjs';
 import { composeBluesky, linkLead } from '../brain/compose.mjs';
-import { substituer } from '../brain/annuaire.mjs';
+import { placerMentions } from '../brain/annuaire.mjs';
 import { resoudreHandle } from '../sources/bsky-public.mjs';
 import { loadSource, cropTo, X_FORMAT, SLIDE } from '../media/crop.mjs';
 import { createRenderer } from '../media/render.mjs';
@@ -81,32 +81,17 @@ async function underLimit(input, [width, height]) {
 export async function prepare(article, { dossier, renderer: shared, log = console.log } = {}) {
   if (!article.image) throw new GuardError(article, ['aucune image (enclosure) dans le flux']);
   const mode = modeFor(article.guid);
-  let text = postText(dossier, mode);
+  const suffixe = postText(dossier, mode).slice(composeBluesky(dossier).length);
 
-  // mention uniquement en remplaçant le nom déjà écrit : jamais de pseudo ajouté en bout de phrase
-  // Les comptes de référence sont exclus de la substitution : leur « nom » est un domaine
-  // (« patrimoine »), et le remplacer en plein texte donnerait « Le mot @fond-patrimoine, plus
-  // vieux que patrimoine… ». Seuls les comptes que l'article nomme sont substitués.
-  const mention = (dossier.comptes?.bluesky ?? []).find((c) => !c.thematique);
-  if (mention) {
-    const avecMention = substituer(text, mention.nom, mention.handle);
-    if (avecMention && graphemes(avecMention) <= MAX_GRAPHEMES) {
-      text = avecMention;
-      log(`   Mention : @${mention.handle}`);
-    }
-  }
-  // Un compte de référence ne peut pas se substituer à un nom absent du texte : il s'ajoute donc
-  // en fin de post, sur sa propre ligne. C'est l'usage sur Bluesky, et c'est la seule façon de
-  // faire découvrir le média à l'audience d'une organisation du domaine. Un seul, et seulement
-  // s'il reste de la place : la longueur du texte prime.
-  const reference = (dossier.comptes?.bluesky ?? []).find((c) => c.thematique);
-  if (reference) {
-    const avec = `${text}\n@${reference.handle}`;
-    if (graphemes(avec) <= MAX_GRAPHEMES) {
-      text = avec;
-      log(`   Compte de référence mentionné : @${reference.handle}`);
-    } else log(`   Compte de référence @${reference.handle} non mentionné : texte déjà à ${graphemes(text)} caractères`);
-  }
+  // Trois mentions au plus, comme sur Instagram. Un compte que l'article nomme remplace son nom
+  // dans le texte ; les autres (commune, références du domaine) forment une ligne à part, avant
+  // le lien. Jamais un nom de domaine remplacé en plein texte : « Le mot @fond-patrimoine, plus
+  // vieux que patrimoine… ». Le texte prime : ce qui ne tient pas dans 300 signes n'est pas mentionné.
+  const { texte, places } = placerMentions(composeBluesky(dossier), dossier.comptes?.bluesky ?? [], {
+    tient: (t) => graphemes(t + suffixe) <= MAX_GRAPHEMES,
+  });
+  const text = texte + suffixe;
+  if (places.length) log(`   Mentions : ${places.map((c) => `@${c.handle}`).join(' ')}`);
   if (graphemes(text) > MAX_GRAPHEMES) throw new GuardError(article, [`texte Bluesky trop long : ${graphemes(text)} / ${MAX_GRAPHEMES}`]);
 
   const source = await loadSource(article.image);

@@ -3,7 +3,7 @@ import { createHash } from 'node:crypto';
 import sharp from 'sharp';
 import { splitAround } from '../brain/editorial.mjs';
 import { linkLead } from '../brain/compose.mjs';
-import { substituer } from '../brain/annuaire.mjs';
+import { placerMentions } from '../brain/annuaire.mjs';
 import { alerteThreadsReponse } from './messages.mjs';
 import { loadSource, cropTo, toMetaJpeg, SLIDE } from '../media/crop.mjs';
 import { createRenderer } from '../media/render.mjs';
@@ -43,28 +43,17 @@ const compte = (texte) => [...texte].length;
 
 export async function prepare(article, { dossier, renderer: shared, log = console.log } = {}) {
   const mode = modeFor(article.guid);
-  let texte = postText(dossier, mode, article.link);
-  if (!texte) throw new GuardError(article, ['texte Threads vide']);
+  const corps = String(dossier.threads?.texte ?? '').trim();
+  if (!corps) throw new GuardError(article, ['texte Threads vide']);
+  const suffixe = postText(dossier, mode, article.link).slice(corps.length);
 
-  // mention seulement en remplaçant un nom déjà écrit, et seulement si le compte est sur Threads
-  // idem Bluesky : un compte de référence porte un nom de domaine, pas un nom cité dans le texte
-  const mention = (dossier.comptes?.threads ?? []).find((c) => !c.thematique);
-  if (mention) {
-    const avecMention = substituer(texte, mention.nom, mention.handle);
-    if (avecMention && compte(avecMention) <= MAX_TEXT) {
-      texte = avecMention;
-      log(`   Mention : @${mention.handle}`);
-    }
-  }
-  // idem Bluesky : le compte de référence s'ajoute en fin de post, faute de nom à substituer
-  const reference = (dossier.comptes?.threads ?? []).find((c) => c.thematique);
-  if (reference) {
-    const avec = `${texte}\n@${reference.handle}`;
-    if (compte(avec) <= MAX_TEXT) {
-      texte = avec;
-      log(`   Compte de référence mentionné : @${reference.handle}`);
-    }
-  }
+  // Comme sur Bluesky : trois mentions au plus, le nom remplacé quand l'article le porte, les
+  // autres sur une ligne à part avant le lien. Seuls les comptes vérifiés sur Threads y figurent.
+  const { texte: avecMentions, places } = placerMentions(corps, dossier.comptes?.threads ?? [], {
+    tient: (t) => compte(t + suffixe) <= MAX_TEXT,
+  });
+  const texte = avecMentions + suffixe;
+  if (places.length) log(`   Mentions : ${places.map((c) => `@${c.handle}`).join(' ')}`);
   if (compte(texte) > MAX_TEXT) throw new GuardError(article, [`texte Threads trop long : ${compte(texte)} / ${MAX_TEXT}`]);
 
   // sujet : la commune quand l'article en nomme une, plus précise que la rubrique ; sinon celui de l'IA.

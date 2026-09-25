@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-25T05:20:45.479Z",
+  "genereLe": "2026-09-25T06:00:41.603Z",
   "jour": "2026-09-25",
   "reseaux": {
     "instagram": {
@@ -547,6 +547,33 @@
       "titre": "En Charente-Maritime, nouveau succès pour l’Ultra Trail de Pons"
     },
     {
+      "channel": "bluesky",
+      "dueAt": "2026-09-25T07:24:05.543Z",
+      "prochainPassage": "2026-09-25T08:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "À Bidache, vivez 2000 ans d’histoire en un week-end"
+    },
+    {
+      "channel": "threads",
+      "dueAt": "2026-09-25T09:10:39.812Z",
+      "prochainPassage": "2026-09-25T09:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "À Bidache, vivez 2000 ans d’histoire en un week-end"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-09-25T10:00:00.000Z",
+      "prochainPassage": "2026-09-25T10:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "À Bidache, vivez 2000 ans d’histoire en un week-end"
+    },
+    {
       "channel": "instagram",
       "dueAt": "2026-09-25T10:04:32.441Z",
       "prochainPassage": "2026-09-25T10:20:00.000Z",
@@ -556,6 +583,42 @@
       "titre": "En Charente-Maritime, nouveau succès pour l’Ultra Trail de Pons"
     },
     {
+      "channel": "bluesky",
+      "dueAt": "2026-09-25T11:08:24.379Z",
+      "prochainPassage": "2026-09-25T11:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Ce TER de Nouvelle-Aquitaine cache une batterie de 80 km : il remplace son moteur diesel"
+    },
+    {
+      "channel": "threads",
+      "dueAt": "2026-09-25T11:31:44.358Z",
+      "prochainPassage": "2026-09-25T12:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Ce TER de Nouvelle-Aquitaine cache une batterie de 80 km : il remplace son moteur diesel"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-09-25T15:00:00.000Z",
+      "prochainPassage": "2026-09-25T15:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Ce TER de Nouvelle-Aquitaine cache une batterie de 80 km : il remplace son moteur diesel"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-09-25T16:28:19.276Z",
+      "prochainPassage": "2026-09-25T17:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "À Bidache, vivez 2000 ans d’histoire en un week-end"
+    },
+    {
       "channel": "facebook",
       "dueAt": "2026-09-25T19:12:19.522Z",
       "prochainPassage": "2026-09-25T19:20:00.000Z",
@@ -563,6 +626,33 @@
       "prevuInitialement": null,
       "raison": null,
       "titre": "En Charente-Maritime, nouveau succès pour l’Ultra Trail de Pons"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-09-26T07:25:27.129Z",
+      "prochainPassage": "2026-09-26T08:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "À Bidache, vivez 2000 ans d’histoire en un week-end"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-09-26T10:12:10.178Z",
+      "prochainPassage": "2026-09-26T10:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Ce TER de Nouvelle-Aquitaine cache une batterie de 80 km : il remplace son moteur diesel"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-09-26T18:10:49.844Z",
+      "prochainPassage": "2026-09-26T18:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Ce TER de Nouvelle-Aquitaine cache une batterie de 80 km : il remplace son moteur diesel"
     }
   ],
   "alertes": [],
@@ -682,7 +772,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-25T05:31:22.382Z",
+    "genereLe": "2026-09-25T06:01:24.549Z",
     "posts": 45,
     "parReseau": {
       "threads": {
@@ -912,29 +1002,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 0,
-      "entree": 0,
-      "sortie": 0,
-      "cout": 0,
+      "appels": 2,
+      "entree": 14086,
+      "sortie": 1967,
+      "cout": 0.119605,
       "cle": "2026-09-25"
     },
     "semaine": {
-      "appels": 102,
-      "entree": 712182,
-      "sortie": 212734,
-      "cout": 5.278132
+      "appels": 104,
+      "entree": 726268,
+      "sortie": 214701,
+      "cout": 5.397737
     },
     "mois": {
-      "appels": 102,
-      "entree": 712182,
-      "sortie": 212734,
-      "cout": 5.278132,
+      "appels": 104,
+      "entree": 726268,
+      "sortie": 214701,
+      "cout": 5.397737,
       "cle": "2026-09"
     },
-    "projection": 6.33,
-    "moyenneAppel": 0.0517,
+    "projection": 6.48,
+    "moyenneAppel": 0.0519,
     "parModele": {
-      "claude-opus-5": 51,
+      "claude-opus-5": 53,
       "claude-sonnet-5": 51
     },
     "serie": [
@@ -992,7 +1082,7 @@
       ],
       [
         "2026-09-25",
-        0
+        0.1196
       ]
     ],
     "depuis": "2026-09-23"

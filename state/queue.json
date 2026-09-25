@@ -372,5 +372,1095 @@
       }
     },
     "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=34448",
+    "channel": "instagram",
+    "dueAt": 1790353699276,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "À Bidache, vivez 2000 ans d’histoire en un week-end",
+      "link": "https://passion-aquitaine.ouest-france.fr/historiques-bidache-2026-chateau-gramont/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=34448",
+      "pubDate": "Fri, 25 Sep 2026 05:30:29 +0000",
+      "date": 1790314229000,
+      "categories": [
+        "Actus",
+        "Agenda",
+        "Pyrénées-Atlantiques",
+        "Basque LOI"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/09/chevaliers-historiques-bidache.jpg",
+      "description": "Les 3 et 4 octobre 2026, plus de 200 reconstituteurs animent le château de Gramont à Bidache : une fête historique."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Pays basque",
+      "visuel": {
+        "titre": "À Bidache, vivez 2000 ans d’histoire en un week-end",
+        "surlignage": "2000 ans d’histoire",
+        "description": "Les 3 et 4 octobre 2026, plus de 200 reconstituteurs s’installent dans le château de Gramont. Campements, costumes et scènes animées font défiler vingt siècles en deux jours.",
+        "texte_alternatif": "Le château de Gramont, à Bidache, accueille une fête historique début octobre 2026, avec plus de 200 reconstituteurs réunis pour faire revivre deux mille ans d’histoire."
+      },
+      "entites": [
+        {
+          "nom": "Château de Gramont Bidache",
+          "role": "sujet"
+        },
+        {
+          "nom": "Bidache",
+          "role": "acteur"
+        }
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "Deux jours pour traverser vingt siècles, sans quitter les murs du château de Gramont, à Bidache\nLes 3 et 4 octobre 2026, plus de 200 reconstituteurs installent leurs campements dans ce site du Pays basque. Une fête historique à vivre en famille 🏰",
+        "hashtags": [
+          "#Bidache",
+          "#PaysBasque",
+          "#Patrimoine"
+        ]
+      },
+      "facebook": {
+        "texte": "Plus de 200 passionnés viennent camper dans les ruines d’un château du Pays basque pour rejouer vingt siècles ⚔️"
+      },
+      "bluesky": {
+        "texte": "Des tentes dressées au pied des ruines, des armures, des métiers oubliés remis en gestes : le château de Gramont change d’époque le temps d’un week-end 🏰 Plus de 200 reconstituteurs y feront défiler 2000 ans d’histoire, à Bidache.",
+        "hashtag": "#Bidache"
+      },
+      "threads": {
+        "texte": "Combien de siècles peut-on traverser en un seul week-end ? À Bidache, la réponse tient en 🏰 2000 ans d’histoire, rejoués dans le château de Gramont les 3 et 4 octobre 2026. Plus de 200 reconstituteurs y plantent leurs campements et refont vivre les gestes, les costumes et les combats d’époques très différentes. Vous êtes déjà allé voir une fête historique de ce genre ?",
+        "sujet": "Pays basque"
+      },
+      "x": {
+        "texte": "Plus de 200 reconstituteurs investissent le château de Gramont, à Bidache, les 3 et 4 octobre 2026. Campements, costumes et scènes rejouées : 2000 ans d’histoire condensés en un week-end ⚔️"
+      },
+      "source": "ia",
+      "model": "claude-opus-5",
+      "usage": {
+        "input": 6990,
+        "output": 946
+      },
+      "angles": {
+        "instagram": "bénéfice pour le lecteur",
+        "facebook": "détail méconnu",
+        "bluesky": "image évocatrice",
+        "threads": "question intrigante",
+        "x": "chiffre ou fait marquant en tête"
+      },
+      "lieuSource": {
+        "precis": "Château de Gramont",
+        "ville": "Bidache",
+        "departement": "Pyrénées-Atlantiques"
+      },
+      "lieuNom": "Château de Gramont",
+      "commune": "Bidache",
+      "comptes": {
+        "instagram": [],
+        "x": [],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=34448",
+    "channel": "bluesky",
+    "dueAt": 1790321045543,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "À Bidache, vivez 2000 ans d’histoire en un week-end",
+      "link": "https://passion-aquitaine.ouest-france.fr/historiques-bidache-2026-chateau-gramont/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=34448",
+      "pubDate": "Fri, 25 Sep 2026 05:30:29 +0000",
+      "date": 1790314229000,
+      "categories": [
+        "Actus",
+        "Agenda",
+        "Pyrénées-Atlantiques",
+        "Basque LOI"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/09/chevaliers-historiques-bidache.jpg",
+      "description": "Les 3 et 4 octobre 2026, plus de 200 reconstituteurs animent le château de Gramont à Bidache : une fête historique."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Pays basque",
+      "visuel": {
+        "titre": "À Bidache, vivez 2000 ans d’histoire en un week-end",
+        "surlignage": "2000 ans d’histoire",
+        "description": "Les 3 et 4 octobre 2026, plus de 200 reconstituteurs s’installent dans le château de Gramont. Campements, costumes et scènes animées font défiler vingt siècles en deux jours.",
+        "texte_alternatif": "Le château de Gramont, à Bidache, accueille une fête historique début octobre 2026, avec plus de 200 reconstituteurs réunis pour faire revivre deux mille ans d’histoire."
+      },
+      "entites": [
+        {
+          "nom": "Château de Gramont Bidache",
+          "role": "sujet"
+        },
+        {
+          "nom": "Bidache",
+          "role": "acteur"
+        }
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "Deux jours pour traverser vingt siècles, sans quitter les murs du château de Gramont, à Bidache\nLes 3 et 4 octobre 2026, plus de 200 reconstituteurs installent leurs campements dans ce site du Pays basque. Une fête historique à vivre en famille 🏰",
+        "hashtags": [
+          "#Bidache",
+          "#PaysBasque",
+          "#Patrimoine"
+        ]
+      },
+      "facebook": {
+        "texte": "Plus de 200 passionnés viennent camper dans les ruines d’un château du Pays basque pour rejouer vingt siècles ⚔️"
+      },
+      "bluesky": {
+        "texte": "Des tentes dressées au pied des ruines, des armures, des métiers oubliés remis en gestes : le château de Gramont change d’époque le temps d’un week-end 🏰 Plus de 200 reconstituteurs y feront défiler 2000 ans d’histoire, à Bidache.",
+        "hashtag": "#Bidache"
+      },
+      "threads": {
+        "texte": "Combien de siècles peut-on traverser en un seul week-end ? À Bidache, la réponse tient en 🏰 2000 ans d’histoire, rejoués dans le château de Gramont les 3 et 4 octobre 2026. Plus de 200 reconstituteurs y plantent leurs campements et refont vivre les gestes, les costumes et les combats d’époques très différentes. Vous êtes déjà allé voir une fête historique de ce genre ?",
+        "sujet": "Pays basque"
+      },
+      "x": {
+        "texte": "Plus de 200 reconstituteurs investissent le château de Gramont, à Bidache, les 3 et 4 octobre 2026. Campements, costumes et scènes rejouées : 2000 ans d’histoire condensés en un week-end ⚔️"
+      },
+      "source": "ia",
+      "model": "claude-opus-5",
+      "usage": {
+        "input": 6990,
+        "output": 946
+      },
+      "angles": {
+        "instagram": "bénéfice pour le lecteur",
+        "facebook": "détail méconnu",
+        "bluesky": "image évocatrice",
+        "threads": "question intrigante",
+        "x": "chiffre ou fait marquant en tête"
+      },
+      "lieuSource": {
+        "precis": "Château de Gramont",
+        "ville": "Bidache",
+        "departement": "Pyrénées-Atlantiques"
+      },
+      "lieuNom": "Château de Gramont",
+      "commune": "Bidache",
+      "comptes": {
+        "instagram": [],
+        "x": [],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=34448",
+    "channel": "facebook",
+    "dueAt": 1790407527129,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "À Bidache, vivez 2000 ans d’histoire en un week-end",
+      "link": "https://passion-aquitaine.ouest-france.fr/historiques-bidache-2026-chateau-gramont/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=34448",
+      "pubDate": "Fri, 25 Sep 2026 05:30:29 +0000",
+      "date": 1790314229000,
+      "categories": [
+        "Actus",
+        "Agenda",
+        "Pyrénées-Atlantiques",
+        "Basque LOI"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/09/chevaliers-historiques-bidache.jpg",
+      "description": "Les 3 et 4 octobre 2026, plus de 200 reconstituteurs animent le château de Gramont à Bidache : une fête historique."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Pays basque",
+      "visuel": {
+        "titre": "À Bidache, vivez 2000 ans d’histoire en un week-end",
+        "surlignage": "2000 ans d’histoire",
+        "description": "Les 3 et 4 octobre 2026, plus de 200 reconstituteurs s’installent dans le château de Gramont. Campements, costumes et scènes animées font défiler vingt siècles en deux jours.",
+        "texte_alternatif": "Le château de Gramont, à Bidache, accueille une fête historique début octobre 2026, avec plus de 200 reconstituteurs réunis pour faire revivre deux mille ans d’histoire."
+      },
+      "entites": [
+        {
+          "nom": "Château de Gramont Bidache",
+          "role": "sujet"
+        },
+        {
+          "nom": "Bidache",
+          "role": "acteur"
+        }
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "Deux jours pour traverser vingt siècles, sans quitter les murs du château de Gramont, à Bidache\nLes 3 et 4 octobre 2026, plus de 200 reconstituteurs installent leurs campements dans ce site du Pays basque. Une fête historique à vivre en famille 🏰",
+        "hashtags": [
+          "#Bidache",
+          "#PaysBasque",
+          "#Patrimoine"
+        ]
+      },
+      "facebook": {
+        "texte": "Plus de 200 passionnés viennent camper dans les ruines d’un château du Pays basque pour rejouer vingt siècles ⚔️"
+      },
+      "bluesky": {
+        "texte": "Des tentes dressées au pied des ruines, des armures, des métiers oubliés remis en gestes : le château de Gramont change d’époque le temps d’un week-end 🏰 Plus de 200 reconstituteurs y feront défiler 2000 ans d’histoire, à Bidache.",
+        "hashtag": "#Bidache"
+      },
+      "threads": {
+        "texte": "Combien de siècles peut-on traverser en un seul week-end ? À Bidache, la réponse tient en 🏰 2000 ans d’histoire, rejoués dans le château de Gramont les 3 et 4 octobre 2026. Plus de 200 reconstituteurs y plantent leurs campements et refont vivre les gestes, les costumes et les combats d’époques très différentes. Vous êtes déjà allé voir une fête historique de ce genre ?",
+        "sujet": "Pays basque"
+      },
+      "x": {
+        "texte": "Plus de 200 reconstituteurs investissent le château de Gramont, à Bidache, les 3 et 4 octobre 2026. Campements, costumes et scènes rejouées : 2000 ans d’histoire condensés en un week-end ⚔️"
+      },
+      "source": "ia",
+      "model": "claude-opus-5",
+      "usage": {
+        "input": 6990,
+        "output": 946
+      },
+      "angles": {
+        "instagram": "bénéfice pour le lecteur",
+        "facebook": "détail méconnu",
+        "bluesky": "image évocatrice",
+        "threads": "question intrigante",
+        "x": "chiffre ou fait marquant en tête"
+      },
+      "lieuSource": {
+        "precis": "Château de Gramont",
+        "ville": "Bidache",
+        "departement": "Pyrénées-Atlantiques"
+      },
+      "lieuNom": "Château de Gramont",
+      "commune": "Bidache",
+      "comptes": {
+        "instagram": [],
+        "x": [],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=34448",
+    "channel": "threads",
+    "dueAt": 1790327439812,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "À Bidache, vivez 2000 ans d’histoire en un week-end",
+      "link": "https://passion-aquitaine.ouest-france.fr/historiques-bidache-2026-chateau-gramont/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=34448",
+      "pubDate": "Fri, 25 Sep 2026 05:30:29 +0000",
+      "date": 1790314229000,
+      "categories": [
+        "Actus",
+        "Agenda",
+        "Pyrénées-Atlantiques",
+        "Basque LOI"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/09/chevaliers-historiques-bidache.jpg",
+      "description": "Les 3 et 4 octobre 2026, plus de 200 reconstituteurs animent le château de Gramont à Bidache : une fête historique."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Pays basque",
+      "visuel": {
+        "titre": "À Bidache, vivez 2000 ans d’histoire en un week-end",
+        "surlignage": "2000 ans d’histoire",
+        "description": "Les 3 et 4 octobre 2026, plus de 200 reconstituteurs s’installent dans le château de Gramont. Campements, costumes et scènes animées font défiler vingt siècles en deux jours.",
+        "texte_alternatif": "Le château de Gramont, à Bidache, accueille une fête historique début octobre 2026, avec plus de 200 reconstituteurs réunis pour faire revivre deux mille ans d’histoire."
+      },
+      "entites": [
+        {
+          "nom": "Château de Gramont Bidache",
+          "role": "sujet"
+        },
+        {
+          "nom": "Bidache",
+          "role": "acteur"
+        }
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "Deux jours pour traverser vingt siècles, sans quitter les murs du château de Gramont, à Bidache\nLes 3 et 4 octobre 2026, plus de 200 reconstituteurs installent leurs campements dans ce site du Pays basque. Une fête historique à vivre en famille 🏰",
+        "hashtags": [
+          "#Bidache",
+          "#PaysBasque",
+          "#Patrimoine"
+        ]
+      },
+      "facebook": {
+        "texte": "Plus de 200 passionnés viennent camper dans les ruines d’un château du Pays basque pour rejouer vingt siècles ⚔️"
+      },
+      "bluesky": {
+        "texte": "Des tentes dressées au pied des ruines, des armures, des métiers oubliés remis en gestes : le château de Gramont change d’époque le temps d’un week-end 🏰 Plus de 200 reconstituteurs y feront défiler 2000 ans d’histoire, à Bidache.",
+        "hashtag": "#Bidache"
+      },
+      "threads": {
+        "texte": "Combien de siècles peut-on traverser en un seul week-end ? À Bidache, la réponse tient en 🏰 2000 ans d’histoire, rejoués dans le château de Gramont les 3 et 4 octobre 2026. Plus de 200 reconstituteurs y plantent leurs campements et refont vivre les gestes, les costumes et les combats d’époques très différentes. Vous êtes déjà allé voir une fête historique de ce genre ?",
+        "sujet": "Pays basque"
+      },
+      "x": {
+        "texte": "Plus de 200 reconstituteurs investissent le château de Gramont, à Bidache, les 3 et 4 octobre 2026. Campements, costumes et scènes rejouées : 2000 ans d’histoire condensés en un week-end ⚔️"
+      },
+      "source": "ia",
+      "model": "claude-opus-5",
+      "usage": {
+        "input": 6990,
+        "output": 946
+      },
+      "angles": {
+        "instagram": "bénéfice pour le lecteur",
+        "facebook": "détail méconnu",
+        "bluesky": "image évocatrice",
+        "threads": "question intrigante",
+        "x": "chiffre ou fait marquant en tête"
+      },
+      "lieuSource": {
+        "precis": "Château de Gramont",
+        "ville": "Bidache",
+        "departement": "Pyrénées-Atlantiques"
+      },
+      "lieuNom": "Château de Gramont",
+      "commune": "Bidache",
+      "comptes": {
+        "instagram": [],
+        "x": [],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=34448",
+    "channel": "x",
+    "dueAt": 1790330400000,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "À Bidache, vivez 2000 ans d’histoire en un week-end",
+      "link": "https://passion-aquitaine.ouest-france.fr/historiques-bidache-2026-chateau-gramont/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=34448",
+      "pubDate": "Fri, 25 Sep 2026 05:30:29 +0000",
+      "date": 1790314229000,
+      "categories": [
+        "Actus",
+        "Agenda",
+        "Pyrénées-Atlantiques",
+        "Basque LOI"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/09/chevaliers-historiques-bidache.jpg",
+      "description": "Les 3 et 4 octobre 2026, plus de 200 reconstituteurs animent le château de Gramont à Bidache : une fête historique."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Pays basque",
+      "visuel": {
+        "titre": "À Bidache, vivez 2000 ans d’histoire en un week-end",
+        "surlignage": "2000 ans d’histoire",
+        "description": "Les 3 et 4 octobre 2026, plus de 200 reconstituteurs s’installent dans le château de Gramont. Campements, costumes et scènes animées font défiler vingt siècles en deux jours.",
+        "texte_alternatif": "Le château de Gramont, à Bidache, accueille une fête historique début octobre 2026, avec plus de 200 reconstituteurs réunis pour faire revivre deux mille ans d’histoire."
+      },
+      "entites": [
+        {
+          "nom": "Château de Gramont Bidache",
+          "role": "sujet"
+        },
+        {
+          "nom": "Bidache",
+          "role": "acteur"
+        }
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "Deux jours pour traverser vingt siècles, sans quitter les murs du château de Gramont, à Bidache\nLes 3 et 4 octobre 2026, plus de 200 reconstituteurs installent leurs campements dans ce site du Pays basque. Une fête historique à vivre en famille 🏰",
+        "hashtags": [
+          "#Bidache",
+          "#PaysBasque",
+          "#Patrimoine"
+        ]
+      },
+      "facebook": {
+        "texte": "Plus de 200 passionnés viennent camper dans les ruines d’un château du Pays basque pour rejouer vingt siècles ⚔️"
+      },
+      "bluesky": {
+        "texte": "Des tentes dressées au pied des ruines, des armures, des métiers oubliés remis en gestes : le château de Gramont change d’époque le temps d’un week-end 🏰 Plus de 200 reconstituteurs y feront défiler 2000 ans d’histoire, à Bidache.",
+        "hashtag": "#Bidache"
+      },
+      "threads": {
+        "texte": "Combien de siècles peut-on traverser en un seul week-end ? À Bidache, la réponse tient en 🏰 2000 ans d’histoire, rejoués dans le château de Gramont les 3 et 4 octobre 2026. Plus de 200 reconstituteurs y plantent leurs campements et refont vivre les gestes, les costumes et les combats d’époques très différentes. Vous êtes déjà allé voir une fête historique de ce genre ?",
+        "sujet": "Pays basque"
+      },
+      "x": {
+        "texte": "Plus de 200 reconstituteurs investissent le château de Gramont, à Bidache, les 3 et 4 octobre 2026. Campements, costumes et scènes rejouées : 2000 ans d’histoire condensés en un week-end ⚔️"
+      },
+      "source": "ia",
+      "model": "claude-opus-5",
+      "usage": {
+        "input": 6990,
+        "output": 946
+      },
+      "angles": {
+        "instagram": "bénéfice pour le lecteur",
+        "facebook": "détail méconnu",
+        "bluesky": "image évocatrice",
+        "threads": "question intrigante",
+        "x": "chiffre ou fait marquant en tête"
+      },
+      "lieuSource": {
+        "precis": "Château de Gramont",
+        "ville": "Bidache",
+        "departement": "Pyrénées-Atlantiques"
+      },
+      "lieuNom": "Château de Gramont",
+      "commune": "Bidache",
+      "comptes": {
+        "instagram": [],
+        "x": [],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35661",
+    "channel": "instagram",
+    "dueAt": 1790417530178,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Ce TER de Nouvelle-Aquitaine cache une batterie de 80 km : il remplace son moteur diesel",
+      "link": "https://passion-aquitaine.ouest-france.fr/ter-batteries-nouvelle-aquitaine-bordeaux-mont-de-marsan/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35661",
+      "pubDate": "Fri, 25 Sep 2026 05:48:13 +0000",
+      "date": 1790315293000,
+      "categories": [
+        "Actus",
+        "Gironde",
+        "Landes",
+        "Nouvelle Aquitaine",
+        "Transports",
+        "Gironde LOI"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/09/ter_aquitaine_01.jpg",
+      "description": "Le premier TER à batteries de Nouvelle-Aquitaine circule entre Bordeaux et Mont-de-Marsan. Une première étape dans la décarbonation du train."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Landes",
+      "visuel": {
+        "titre": "Ce TER de Nouvelle-Aquitaine cache une batterie de 80 km : il remplace son moteur diesel",
+        "surlignage": "80 km",
+        "description": "Le premier TER à batteries de la région relie Bordeaux à Mont-de-Marsan. Sur les portions sans caténaire, l’électricité stockée prend le relais du diesel. Une première étape vers la décarbonation du rail.",
+        "texte_alternatif": "Le premier TER à batteries de Nouvelle-Aquitaine circule entre Bordeaux et Mont-de-Marsan, avec une autonomie de 80 kilomètres qui lui permet de se passer de son moteur diesel."
+      },
+      "entites": [
+        {
+          "nom": "Mont-de-Marsan",
+          "role": "sujet"
+        },
+        {
+          "nom": "Région Nouvelle-Aquitaine",
+          "role": "acteur"
+        }
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "Entre Bordeaux et Mont-de-Marsan, un train roule désormais sur 🔋 80 km d’autonomie sans brûler une goutte de diesel\nC’est le premier TER à batteries de Nouvelle-Aquitaine. Là où la caténaire s’arrête, l’énergie stockée prend le relais. Une première étape dans la décarbonation du train régional.",
+        "hashtags": [
+          "#MontDeMarsan",
+          "#TER",
+          "#Transports"
+        ]
+      },
+      "facebook": {
+        "texte": "Entre Bordeaux et Mont-de-Marsan, un train avance sur 80 km sans le moindre bruit de moteur diesel 🚆"
+      },
+      "bluesky": {
+        "texte": "🔌 Que devient un train quand la caténaire s’arrête en pleine campagne des Landes ? Le premier TER à batteries de Nouvelle-Aquitaine, en service entre Bordeaux et Mont-de-Marsan, bascule sur 80 km d’autonomie électrique au lieu de rallumer son diesel.",
+        "hashtag": "#Landes"
+      },
+      "threads": {
+        "texte": "80 kilomètres d’autonomie sur batteries, c’est ce qui sépare désormais ce TER de son ancien moteur diesel 🔋 Il circule entre Bordeaux et Mont-de-Marsan et devient le premier du genre en Nouvelle-Aquitaine. Sur les tronçons sans caténaire, l’électricité stockée prend le relais. Le début d’une longue transition pour le rail régional. Vous monteriez à bord ?",
+        "sujet": "Landes"
+      },
+      "x": {
+        "texte": "Entre Bordeaux et Mont-de-Marsan circule le premier TER à batteries de Nouvelle-Aquitaine : 🔋 80 km d’autonomie électrique qui remplacent le moteur diesel sur les portions sans caténaire."
+      },
+      "source": "ia",
+      "model": "claude-opus-5",
+      "usage": {
+        "input": 7096,
+        "output": 1021
+      },
+      "angles": {
+        "instagram": "détail méconnu",
+        "facebook": "image évocatrice",
+        "bluesky": "question intrigante",
+        "threads": "chiffre ou fait marquant en tête",
+        "x": "lieu en tête"
+      },
+      "lieuSource": {
+        "precis": "",
+        "ville": "Mont-de-Marsan",
+        "departement": "Landes"
+      },
+      "lieuNom": "Mont-de-Marsan",
+      "commune": "Mont-de-Marsan",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Mont-de-Marsan",
+            "handle": "montdemarsan_ville",
+            "role": "sujet"
+          },
+          {
+            "nom": "Région Nouvelle-Aquitaine",
+            "handle": "Nouvelle_Aquitaine",
+            "role": "acteur"
+          }
+        ],
+        "x": [
+          {
+            "nom": "Mont-de-Marsan",
+            "handle": "MontdeMarsan",
+            "role": "sujet"
+          },
+          {
+            "nom": "Région Nouvelle-Aquitaine",
+            "handle": "NvelleAquitaine",
+            "role": "acteur"
+          }
+        ],
+        "bluesky": [
+          {
+            "nom": "Région Nouvelle-Aquitaine",
+            "handle": "nouvelleaquitaine.bsky.social",
+            "role": "acteur"
+          }
+        ],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35661",
+    "channel": "bluesky",
+    "dueAt": 1790334504379,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Ce TER de Nouvelle-Aquitaine cache une batterie de 80 km : il remplace son moteur diesel",
+      "link": "https://passion-aquitaine.ouest-france.fr/ter-batteries-nouvelle-aquitaine-bordeaux-mont-de-marsan/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35661",
+      "pubDate": "Fri, 25 Sep 2026 05:48:13 +0000",
+      "date": 1790315293000,
+      "categories": [
+        "Actus",
+        "Gironde",
+        "Landes",
+        "Nouvelle Aquitaine",
+        "Transports",
+        "Gironde LOI"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/09/ter_aquitaine_01.jpg",
+      "description": "Le premier TER à batteries de Nouvelle-Aquitaine circule entre Bordeaux et Mont-de-Marsan. Une première étape dans la décarbonation du train."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Landes",
+      "visuel": {
+        "titre": "Ce TER de Nouvelle-Aquitaine cache une batterie de 80 km : il remplace son moteur diesel",
+        "surlignage": "80 km",
+        "description": "Le premier TER à batteries de la région relie Bordeaux à Mont-de-Marsan. Sur les portions sans caténaire, l’électricité stockée prend le relais du diesel. Une première étape vers la décarbonation du rail.",
+        "texte_alternatif": "Le premier TER à batteries de Nouvelle-Aquitaine circule entre Bordeaux et Mont-de-Marsan, avec une autonomie de 80 kilomètres qui lui permet de se passer de son moteur diesel."
+      },
+      "entites": [
+        {
+          "nom": "Mont-de-Marsan",
+          "role": "sujet"
+        },
+        {
+          "nom": "Région Nouvelle-Aquitaine",
+          "role": "acteur"
+        }
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "Entre Bordeaux et Mont-de-Marsan, un train roule désormais sur 🔋 80 km d’autonomie sans brûler une goutte de diesel\nC’est le premier TER à batteries de Nouvelle-Aquitaine. Là où la caténaire s’arrête, l’énergie stockée prend le relais. Une première étape dans la décarbonation du train régional.",
+        "hashtags": [
+          "#MontDeMarsan",
+          "#TER",
+          "#Transports"
+        ]
+      },
+      "facebook": {
+        "texte": "Entre Bordeaux et Mont-de-Marsan, un train avance sur 80 km sans le moindre bruit de moteur diesel 🚆"
+      },
+      "bluesky": {
+        "texte": "🔌 Que devient un train quand la caténaire s’arrête en pleine campagne des Landes ? Le premier TER à batteries de Nouvelle-Aquitaine, en service entre Bordeaux et Mont-de-Marsan, bascule sur 80 km d’autonomie électrique au lieu de rallumer son diesel.",
+        "hashtag": "#Landes"
+      },
+      "threads": {
+        "texte": "80 kilomètres d’autonomie sur batteries, c’est ce qui sépare désormais ce TER de son ancien moteur diesel 🔋 Il circule entre Bordeaux et Mont-de-Marsan et devient le premier du genre en Nouvelle-Aquitaine. Sur les tronçons sans caténaire, l’électricité stockée prend le relais. Le début d’une longue transition pour le rail régional. Vous monteriez à bord ?",
+        "sujet": "Landes"
+      },
+      "x": {
+        "texte": "Entre Bordeaux et Mont-de-Marsan circule le premier TER à batteries de Nouvelle-Aquitaine : 🔋 80 km d’autonomie électrique qui remplacent le moteur diesel sur les portions sans caténaire."
+      },
+      "source": "ia",
+      "model": "claude-opus-5",
+      "usage": {
+        "input": 7096,
+        "output": 1021
+      },
+      "angles": {
+        "instagram": "détail méconnu",
+        "facebook": "image évocatrice",
+        "bluesky": "question intrigante",
+        "threads": "chiffre ou fait marquant en tête",
+        "x": "lieu en tête"
+      },
+      "lieuSource": {
+        "precis": "",
+        "ville": "Mont-de-Marsan",
+        "departement": "Landes"
+      },
+      "lieuNom": "Mont-de-Marsan",
+      "commune": "Mont-de-Marsan",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Mont-de-Marsan",
+            "handle": "montdemarsan_ville",
+            "role": "sujet"
+          },
+          {
+            "nom": "Région Nouvelle-Aquitaine",
+            "handle": "Nouvelle_Aquitaine",
+            "role": "acteur"
+          }
+        ],
+        "x": [
+          {
+            "nom": "Mont-de-Marsan",
+            "handle": "MontdeMarsan",
+            "role": "sujet"
+          },
+          {
+            "nom": "Région Nouvelle-Aquitaine",
+            "handle": "NvelleAquitaine",
+            "role": "acteur"
+          }
+        ],
+        "bluesky": [
+          {
+            "nom": "Région Nouvelle-Aquitaine",
+            "handle": "nouvelleaquitaine.bsky.social",
+            "role": "acteur"
+          }
+        ],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35661",
+    "channel": "facebook",
+    "dueAt": 1790446249844,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Ce TER de Nouvelle-Aquitaine cache une batterie de 80 km : il remplace son moteur diesel",
+      "link": "https://passion-aquitaine.ouest-france.fr/ter-batteries-nouvelle-aquitaine-bordeaux-mont-de-marsan/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35661",
+      "pubDate": "Fri, 25 Sep 2026 05:48:13 +0000",
+      "date": 1790315293000,
+      "categories": [
+        "Actus",
+        "Gironde",
+        "Landes",
+        "Nouvelle Aquitaine",
+        "Transports",
+        "Gironde LOI"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/09/ter_aquitaine_01.jpg",
+      "description": "Le premier TER à batteries de Nouvelle-Aquitaine circule entre Bordeaux et Mont-de-Marsan. Une première étape dans la décarbonation du train."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Landes",
+      "visuel": {
+        "titre": "Ce TER de Nouvelle-Aquitaine cache une batterie de 80 km : il remplace son moteur diesel",
+        "surlignage": "80 km",
+        "description": "Le premier TER à batteries de la région relie Bordeaux à Mont-de-Marsan. Sur les portions sans caténaire, l’électricité stockée prend le relais du diesel. Une première étape vers la décarbonation du rail.",
+        "texte_alternatif": "Le premier TER à batteries de Nouvelle-Aquitaine circule entre Bordeaux et Mont-de-Marsan, avec une autonomie de 80 kilomètres qui lui permet de se passer de son moteur diesel."
+      },
+      "entites": [
+        {
+          "nom": "Mont-de-Marsan",
+          "role": "sujet"
+        },
+        {
+          "nom": "Région Nouvelle-Aquitaine",
+          "role": "acteur"
+        }
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "Entre Bordeaux et Mont-de-Marsan, un train roule désormais sur 🔋 80 km d’autonomie sans brûler une goutte de diesel\nC’est le premier TER à batteries de Nouvelle-Aquitaine. Là où la caténaire s’arrête, l’énergie stockée prend le relais. Une première étape dans la décarbonation du train régional.",
+        "hashtags": [
+          "#MontDeMarsan",
+          "#TER",
+          "#Transports"
+        ]
+      },
+      "facebook": {
+        "texte": "Entre Bordeaux et Mont-de-Marsan, un train avance sur 80 km sans le moindre bruit de moteur diesel 🚆"
+      },
+      "bluesky": {
+        "texte": "🔌 Que devient un train quand la caténaire s’arrête en pleine campagne des Landes ? Le premier TER à batteries de Nouvelle-Aquitaine, en service entre Bordeaux et Mont-de-Marsan, bascule sur 80 km d’autonomie électrique au lieu de rallumer son diesel.",
+        "hashtag": "#Landes"
+      },
+      "threads": {
+        "texte": "80 kilomètres d’autonomie sur batteries, c’est ce qui sépare désormais ce TER de son ancien moteur diesel 🔋 Il circule entre Bordeaux et Mont-de-Marsan et devient le premier du genre en Nouvelle-Aquitaine. Sur les tronçons sans caténaire, l’électricité stockée prend le relais. Le début d’une longue transition pour le rail régional. Vous monteriez à bord ?",
+        "sujet": "Landes"
+      },
+      "x": {
+        "texte": "Entre Bordeaux et Mont-de-Marsan circule le premier TER à batteries de Nouvelle-Aquitaine : 🔋 80 km d’autonomie électrique qui remplacent le moteur diesel sur les portions sans caténaire."
+      },
+      "source": "ia",
+      "model": "claude-opus-5",
+      "usage": {
+        "input": 7096,
+        "output": 1021
+      },
+      "angles": {
+        "instagram": "détail méconnu",
+        "facebook": "image évocatrice",
+        "bluesky": "question intrigante",
+        "threads": "chiffre ou fait marquant en tête",
+        "x": "lieu en tête"
+      },
+      "lieuSource": {
+        "precis": "",
+        "ville": "Mont-de-Marsan",
+        "departement": "Landes"
+      },
+      "lieuNom": "Mont-de-Marsan",
+      "commune": "Mont-de-Marsan",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Mont-de-Marsan",
+            "handle": "montdemarsan_ville",
+            "role": "sujet"
+          },
+          {
+            "nom": "Région Nouvelle-Aquitaine",
+            "handle": "Nouvelle_Aquitaine",
+            "role": "acteur"
+          }
+        ],
+        "x": [
+          {
+            "nom": "Mont-de-Marsan",
+            "handle": "MontdeMarsan",
+            "role": "sujet"
+          },
+          {
+            "nom": "Région Nouvelle-Aquitaine",
+            "handle": "NvelleAquitaine",
+            "role": "acteur"
+          }
+        ],
+        "bluesky": [
+          {
+            "nom": "Région Nouvelle-Aquitaine",
+            "handle": "nouvelleaquitaine.bsky.social",
+            "role": "acteur"
+          }
+        ],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35661",
+    "channel": "threads",
+    "dueAt": 1790335904358,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Ce TER de Nouvelle-Aquitaine cache une batterie de 80 km : il remplace son moteur diesel",
+      "link": "https://passion-aquitaine.ouest-france.fr/ter-batteries-nouvelle-aquitaine-bordeaux-mont-de-marsan/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35661",
+      "pubDate": "Fri, 25 Sep 2026 05:48:13 +0000",
+      "date": 1790315293000,
+      "categories": [
+        "Actus",
+        "Gironde",
+        "Landes",
+        "Nouvelle Aquitaine",
+        "Transports",
+        "Gironde LOI"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/09/ter_aquitaine_01.jpg",
+      "description": "Le premier TER à batteries de Nouvelle-Aquitaine circule entre Bordeaux et Mont-de-Marsan. Une première étape dans la décarbonation du train."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Landes",
+      "visuel": {
+        "titre": "Ce TER de Nouvelle-Aquitaine cache une batterie de 80 km : il remplace son moteur diesel",
+        "surlignage": "80 km",
+        "description": "Le premier TER à batteries de la région relie Bordeaux à Mont-de-Marsan. Sur les portions sans caténaire, l’électricité stockée prend le relais du diesel. Une première étape vers la décarbonation du rail.",
+        "texte_alternatif": "Le premier TER à batteries de Nouvelle-Aquitaine circule entre Bordeaux et Mont-de-Marsan, avec une autonomie de 80 kilomètres qui lui permet de se passer de son moteur diesel."
+      },
+      "entites": [
+        {
+          "nom": "Mont-de-Marsan",
+          "role": "sujet"
+        },
+        {
+          "nom": "Région Nouvelle-Aquitaine",
+          "role": "acteur"
+        }
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "Entre Bordeaux et Mont-de-Marsan, un train roule désormais sur 🔋 80 km d’autonomie sans brûler une goutte de diesel\nC’est le premier TER à batteries de Nouvelle-Aquitaine. Là où la caténaire s’arrête, l’énergie stockée prend le relais. Une première étape dans la décarbonation du train régional.",
+        "hashtags": [
+          "#MontDeMarsan",
+          "#TER",
+          "#Transports"
+        ]
+      },
+      "facebook": {
+        "texte": "Entre Bordeaux et Mont-de-Marsan, un train avance sur 80 km sans le moindre bruit de moteur diesel 🚆"
+      },
+      "bluesky": {
+        "texte": "🔌 Que devient un train quand la caténaire s’arrête en pleine campagne des Landes ? Le premier TER à batteries de Nouvelle-Aquitaine, en service entre Bordeaux et Mont-de-Marsan, bascule sur 80 km d’autonomie électrique au lieu de rallumer son diesel.",
+        "hashtag": "#Landes"
+      },
+      "threads": {
+        "texte": "80 kilomètres d’autonomie sur batteries, c’est ce qui sépare désormais ce TER de son ancien moteur diesel 🔋 Il circule entre Bordeaux et Mont-de-Marsan et devient le premier du genre en Nouvelle-Aquitaine. Sur les tronçons sans caténaire, l’électricité stockée prend le relais. Le début d’une longue transition pour le rail régional. Vous monteriez à bord ?",
+        "sujet": "Landes"
+      },
+      "x": {
+        "texte": "Entre Bordeaux et Mont-de-Marsan circule le premier TER à batteries de Nouvelle-Aquitaine : 🔋 80 km d’autonomie électrique qui remplacent le moteur diesel sur les portions sans caténaire."
+      },
+      "source": "ia",
+      "model": "claude-opus-5",
+      "usage": {
+        "input": 7096,
+        "output": 1021
+      },
+      "angles": {
+        "instagram": "détail méconnu",
+        "facebook": "image évocatrice",
+        "bluesky": "question intrigante",
+        "threads": "chiffre ou fait marquant en tête",
+        "x": "lieu en tête"
+      },
+      "lieuSource": {
+        "precis": "",
+        "ville": "Mont-de-Marsan",
+        "departement": "Landes"
+      },
+      "lieuNom": "Mont-de-Marsan",
+      "commune": "Mont-de-Marsan",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Mont-de-Marsan",
+            "handle": "montdemarsan_ville",
+            "role": "sujet"
+          },
+          {
+            "nom": "Région Nouvelle-Aquitaine",
+            "handle": "Nouvelle_Aquitaine",
+            "role": "acteur"
+          }
+        ],
+        "x": [
+          {
+            "nom": "Mont-de-Marsan",
+            "handle": "MontdeMarsan",
+            "role": "sujet"
+          },
+          {
+            "nom": "Région Nouvelle-Aquitaine",
+            "handle": "NvelleAquitaine",
+            "role": "acteur"
+          }
+        ],
+        "bluesky": [
+          {
+            "nom": "Région Nouvelle-Aquitaine",
+            "handle": "nouvelleaquitaine.bsky.social",
+            "role": "acteur"
+          }
+        ],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35661",
+    "channel": "x",
+    "dueAt": 1790348400000,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Ce TER de Nouvelle-Aquitaine cache une batterie de 80 km : il remplace son moteur diesel",
+      "link": "https://passion-aquitaine.ouest-france.fr/ter-batteries-nouvelle-aquitaine-bordeaux-mont-de-marsan/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35661",
+      "pubDate": "Fri, 25 Sep 2026 05:48:13 +0000",
+      "date": 1790315293000,
+      "categories": [
+        "Actus",
+        "Gironde",
+        "Landes",
+        "Nouvelle Aquitaine",
+        "Transports",
+        "Gironde LOI"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/09/ter_aquitaine_01.jpg",
+      "description": "Le premier TER à batteries de Nouvelle-Aquitaine circule entre Bordeaux et Mont-de-Marsan. Une première étape dans la décarbonation du train."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Landes",
+      "visuel": {
+        "titre": "Ce TER de Nouvelle-Aquitaine cache une batterie de 80 km : il remplace son moteur diesel",
+        "surlignage": "80 km",
+        "description": "Le premier TER à batteries de la région relie Bordeaux à Mont-de-Marsan. Sur les portions sans caténaire, l’électricité stockée prend le relais du diesel. Une première étape vers la décarbonation du rail.",
+        "texte_alternatif": "Le premier TER à batteries de Nouvelle-Aquitaine circule entre Bordeaux et Mont-de-Marsan, avec une autonomie de 80 kilomètres qui lui permet de se passer de son moteur diesel."
+      },
+      "entites": [
+        {
+          "nom": "Mont-de-Marsan",
+          "role": "sujet"
+        },
+        {
+          "nom": "Région Nouvelle-Aquitaine",
+          "role": "acteur"
+        }
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "Entre Bordeaux et Mont-de-Marsan, un train roule désormais sur 🔋 80 km d’autonomie sans brûler une goutte de diesel\nC’est le premier TER à batteries de Nouvelle-Aquitaine. Là où la caténaire s’arrête, l’énergie stockée prend le relais. Une première étape dans la décarbonation du train régional.",
+        "hashtags": [
+          "#MontDeMarsan",
+          "#TER",
+          "#Transports"
+        ]
+      },
+      "facebook": {
+        "texte": "Entre Bordeaux et Mont-de-Marsan, un train avance sur 80 km sans le moindre bruit de moteur diesel 🚆"
+      },
+      "bluesky": {
+        "texte": "🔌 Que devient un train quand la caténaire s’arrête en pleine campagne des Landes ? Le premier TER à batteries de Nouvelle-Aquitaine, en service entre Bordeaux et Mont-de-Marsan, bascule sur 80 km d’autonomie électrique au lieu de rallumer son diesel.",
+        "hashtag": "#Landes"
+      },
+      "threads": {
+        "texte": "80 kilomètres d’autonomie sur batteries, c’est ce qui sépare désormais ce TER de son ancien moteur diesel 🔋 Il circule entre Bordeaux et Mont-de-Marsan et devient le premier du genre en Nouvelle-Aquitaine. Sur les tronçons sans caténaire, l’électricité stockée prend le relais. Le début d’une longue transition pour le rail régional. Vous monteriez à bord ?",
+        "sujet": "Landes"
+      },
+      "x": {
+        "texte": "Entre Bordeaux et Mont-de-Marsan circule le premier TER à batteries de Nouvelle-Aquitaine : 🔋 80 km d’autonomie électrique qui remplacent le moteur diesel sur les portions sans caténaire."
+      },
+      "source": "ia",
+      "model": "claude-opus-5",
+      "usage": {
+        "input": 7096,
+        "output": 1021
+      },
+      "angles": {
+        "instagram": "détail méconnu",
+        "facebook": "image évocatrice",
+        "bluesky": "question intrigante",
+        "threads": "chiffre ou fait marquant en tête",
+        "x": "lieu en tête"
+      },
+      "lieuSource": {
+        "precis": "",
+        "ville": "Mont-de-Marsan",
+        "departement": "Landes"
+      },
+      "lieuNom": "Mont-de-Marsan",
+      "commune": "Mont-de-Marsan",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Mont-de-Marsan",
+            "handle": "montdemarsan_ville",
+            "role": "sujet"
+          },
+          {
+            "nom": "Région Nouvelle-Aquitaine",
+            "handle": "Nouvelle_Aquitaine",
+            "role": "acteur"
+          }
+        ],
+        "x": [
+          {
+            "nom": "Mont-de-Marsan",
+            "handle": "MontdeMarsan",
+            "role": "sujet"
+          },
+          {
+            "nom": "Région Nouvelle-Aquitaine",
+            "handle": "NvelleAquitaine",
+            "role": "acteur"
+          }
+        ],
+        "bluesky": [
+          {
+            "nom": "Région Nouvelle-Aquitaine",
+            "handle": "nouvelleaquitaine.bsky.social",
+            "role": "acteur"
+          }
+        ],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
   }
 ]

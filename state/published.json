@@ -1147,5 +1147,23 @@
       "reponse": null,
       "sujet": "Pons"
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35626",
+    "channel": "facebook",
+    "at": "2026-09-25T07:11:29.899Z",
+    "mediaId": "227437307428711_1730843055708242",
+    "titre": "Des trimarans à nos mezzanines, ces filets sont cousus à Bordeaux",
+    "lien": "https://passion-aquitaine.ouest-france.fr/des-trimarans-a-nos-mezzanines-ces-filets-sont-cousus-a-bordeaux/",
+    "lienPost": "https://www.facebook.com/1720946116697936/posts/1730843055708242",
+    "format": null,
+    "mention": false,
+    "apercu": {
+      "texte": "Le filet de votre mezzanine et celui d’un trimaran de course sortent parfois du même atelier bordelais ⛵",
+      "image": null,
+      "mode": null,
+      "reponse": null,
+      "sujet": null
+    }
   }
 ]

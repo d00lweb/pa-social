@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-25T06:20:39.868Z",
+  "genereLe": "2026-09-25T07:00:41.439Z",
   "jour": "2026-09-25",
   "reseaux": {
     "instagram": {
@@ -25,7 +25,7 @@
       },
       "formats": null,
       "aujourdhui": 0,
-      "semaine": 11,
+      "semaine": 10,
       "total": 17,
       "dernier": "2026-09-24T16:05:58.276Z",
       "lienDernier": "https://www.instagram.com/p/DdrRjJRFL_0/"
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 11,
-      "total": 11,
-      "dernier": "2026-09-24T19:09:59.003Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1730323139093567"
+      "aujourdhui": 1,
+      "semaine": 12,
+      "total": 12,
+      "dernier": "2026-09-25T07:11:29.899Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1730843055708242"
     },
     "threads": {
       "actif": true,
@@ -161,13 +161,61 @@
         "reponse"
       ],
       "aujourdhui": 0,
-      "semaine": 11,
+      "semaine": 10,
       "total": 15,
       "dernier": "2026-09-24T11:20:47.689Z",
       "lienDernier": null
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35626",
+      "titre": "Des trimarans à nos mezzanines, ces filets sont cousus à Bordeaux",
+      "lien": "https://passion-aquitaine.ouest-france.fr/des-trimarans-a-nos-mezzanines-ces-filets-sont-cousus-a-bordeaux/",
+      "at": "2026-09-25T07:11:29.899Z",
+      "reseaux": {
+        "bluesky": {
+          "texte": "Aux Bassins à flot, à #Bordeaux, des couturières assemblent les filets qui équipent les trimarans de course. Les mêmes gestes servent à fabriquer des filets sur-mesure pour les mezzanines des maisons, taillés au centimètre près 🪢",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-860ea888-bsky.jpg",
+          "mode": "reply",
+          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/des-trimarans-a-nos-mezzanines-ces-filets-sont-cousus-a-bordeaux/",
+          "sujet": null,
+          "publieLe": "2026-09-24T10:12:15.872Z"
+        },
+        "x": {
+          "texte": "Le filet tendu sous un trimaran de course et celui d’une mezzanine peuvent sortir du même atelier 🪡 Aux Bassins à flot, à #Bordeaux, des couturières les assemblent sur-mesure, du large au salon.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-860ea888-x.jpg",
+          "mode": "reponse",
+          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/des-trimarans-a-nos-mezzanines-ces-filets-sont-cousus-a-bordeaux/",
+          "sujet": null,
+          "publieLe": "2026-09-24T11:20:47.689Z"
+        },
+        "threads": {
+          "texte": "🧵 On croit les filets de course réservés aux bateaux du large. En réalité, ceux des trimarans sont cousus aux Bassins à flot, à Bordeaux, par des couturières qui fabriquent aussi les filets tendus au-dessus de nos mezzanines. Même matière, même exigence, deux usages très différents. Vous connaissiez cet atelier ?",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-860ea888-th.jpg",
+          "mode": "reponse",
+          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/des-trimarans-a-nos-mezzanines-ces-filets-sont-cousus-a-bordeaux/",
+          "sujet": "Bordeaux",
+          "publieLe": "2026-09-24T12:30:13.883Z"
+        },
+        "instagram": {
+          "texte": "À Bordeaux, aux Bassins à flot, un atelier coud les filets des trimarans de course 🪡\n⠀\nLes mêmes couturières réalisent aussi des filets sur-mesure pour les mezzanines des maisons. Un savoir-faire discret, entre voile de compétition et aménagement intérieur.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #Trimaran #SavoirFaire",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-860ea888-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-09-24T16:05:58.276Z"
+        },
+        "facebook": {
+          "texte": "Le filet de votre mezzanine et celui d’un trimaran de course sortent parfois du même atelier bordelais ⛵",
+          "image": null,
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-09-25T07:11:29.899Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35642",
       "titre": "En Charente-Maritime, nouveau succès pour l’Ultra Trail de Pons",
@@ -237,46 +285,6 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-09-24T19:09:59.003Z"
-        }
-      }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35626",
-      "titre": "Des trimarans à nos mezzanines, ces filets sont cousus à Bordeaux",
-      "lien": "https://passion-aquitaine.ouest-france.fr/des-trimarans-a-nos-mezzanines-ces-filets-sont-cousus-a-bordeaux/",
-      "at": "2026-09-24T16:05:58.276Z",
-      "reseaux": {
-        "bluesky": {
-          "texte": "Aux Bassins à flot, à #Bordeaux, des couturières assemblent les filets qui équipent les trimarans de course. Les mêmes gestes servent à fabriquer des filets sur-mesure pour les mezzanines des maisons, taillés au centimètre près 🪢",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-860ea888-bsky.jpg",
-          "mode": "reply",
-          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/des-trimarans-a-nos-mezzanines-ces-filets-sont-cousus-a-bordeaux/",
-          "sujet": null,
-          "publieLe": "2026-09-24T10:12:15.872Z"
-        },
-        "x": {
-          "texte": "Le filet tendu sous un trimaran de course et celui d’une mezzanine peuvent sortir du même atelier 🪡 Aux Bassins à flot, à #Bordeaux, des couturières les assemblent sur-mesure, du large au salon.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-860ea888-x.jpg",
-          "mode": "reponse",
-          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/des-trimarans-a-nos-mezzanines-ces-filets-sont-cousus-a-bordeaux/",
-          "sujet": null,
-          "publieLe": "2026-09-24T11:20:47.689Z"
-        },
-        "threads": {
-          "texte": "🧵 On croit les filets de course réservés aux bateaux du large. En réalité, ceux des trimarans sont cousus aux Bassins à flot, à Bordeaux, par des couturières qui fabriquent aussi les filets tendus au-dessus de nos mezzanines. Même matière, même exigence, deux usages très différents. Vous connaissiez cet atelier ?",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-860ea888-th.jpg",
-          "mode": "reponse",
-          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/des-trimarans-a-nos-mezzanines-ces-filets-sont-cousus-a-bordeaux/",
-          "sujet": "Bordeaux",
-          "publieLe": "2026-09-24T12:30:13.883Z"
-        },
-        "instagram": {
-          "texte": "À Bordeaux, aux Bassins à flot, un atelier coud les filets des trimarans de course 🪡\n⠀\nLes mêmes couturières réalisent aussi des filets sur-mesure pour les mezzanines des maisons. Un savoir-faire discret, entre voile de compétition et aménagement intérieur.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #Trimaran #SavoirFaire",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-860ea888-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-24T16:05:58.276Z"
         }
       }
     },
@@ -427,6 +435,16 @@
   ],
   "publications": [
     {
+      "channel": "facebook",
+      "at": "2026-09-25T07:11:29.899Z",
+      "titre": "Des trimarans à nos mezzanines, ces filets sont cousus à Bordeaux",
+      "lien": "https://passion-aquitaine.ouest-france.fr/des-trimarans-a-nos-mezzanines-ces-filets-sont-cousus-a-bordeaux/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1730843055708242",
+      "format": null,
+      "texte": "Le filet de votre mezzanine et celui d’un trimaran de course sortent parfois du même atelier bordelais ⛵",
+      "image": null
+    },
+    {
       "channel": "threads",
       "at": "2026-09-25T05:31:21.817Z",
       "titre": "En Charente-Maritime, nouveau succès pour l’Ultra Trail de Pons",
@@ -515,28 +533,9 @@
       "format": "image",
       "texte": "Passer un week-end à La Rochelle sans refaire les tours du vieux port, c’est possible 🧭 Six adresses insolites attendent les curieux : un bunker allemand, une maison aux couloirs superposés, une ferme de spiruline. De quoi occuper deux jours autrement, même quand on croit déjà bien connaître la ville.\n➡️ https://passion-aquitaine.ouest-france.fr/activites-insolites-la-rochelle-top/",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-005b146f-th.jpg"
-    },
-    {
-      "channel": "x",
-      "at": "2026-09-24T08:01:14.657Z",
-      "titre": "Top 6 des activités insolites autour de La Rochelle",
-      "lien": "https://passion-aquitaine.ouest-france.fr/activites-insolites-la-rochelle-top/",
-      "lienPost": null,
-      "format": "image",
-      "texte": "Peu de visiteurs le savent : autour de La Rochelle, on peut descendre dans un bunker allemand 🕳️, parcourir une maison aux couloirs superposés ou visiter une ferme de spiruline.\n➡️ https://passion-aquitaine.ouest-france.fr/activites-insolites-la-rochelle-top/",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-005b146f-x.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "facebook",
-      "dueAt": "2026-09-25T07:11:23.295Z",
-      "prochainPassage": "2026-09-25T07:20:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Des trimarans à nos mezzanines, ces filets sont cousus à Bordeaux"
-    },
     {
       "channel": "x",
       "dueAt": "2026-09-25T07:20:00.000Z",
@@ -657,11 +656,11 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 56,
+    "releves": 58,
     "parReseau": {
       "instagram": {
-        "posts": 6,
-        "interactionsMoyennes": 11.7
+        "posts": 7,
+        "interactionsMoyennes": 10.7
       },
       "bluesky": {
         "posts": 4,
@@ -772,16 +771,16 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-25T06:20:41.520Z",
-    "posts": 45,
+    "genereLe": "2026-09-25T07:11:30.892Z",
+    "posts": 46,
     "parReseau": {
-      "threads": {
-        "posts": 9,
-        "moyenne": 18.3
-      },
       "instagram": {
         "posts": 14,
-        "moyenne": 18
+        "moyenne": 18.1
+      },
+      "threads": {
+        "posts": 10,
+        "moyenne": 16.5
       },
       "facebook": {
         "posts": 9,
@@ -806,8 +805,8 @@
         "moyenne": 1
       },
       "image": {
-        "posts": 4,
-        "moyenne": 0.5
+        "posts": 5,
+        "moyenne": 0.4
       },
       "card": {
         "posts": 2,
@@ -820,8 +819,8 @@
         "moyenne": 16.5
       },
       "matin": {
-        "posts": 26,
-        "moyenne": 8.8
+        "posts": 27,
+        "moyenne": 8.5
       },
       "soir": {
         "posts": 8,
@@ -836,7 +835,7 @@
         },
         "hors créneau": {
           "posts": 6,
-          "moyenne": 12.2
+          "moyenne": 12.5
         },
         "18 h – 19 h 30": {
           "posts": 2,
@@ -881,8 +880,8 @@
           "moyenne": 37
         },
         "7 h – 8 h 30": {
-          "posts": 5,
-          "moyenne": 23.6
+          "posts": 6,
+          "moyenne": 19.7
         },
         "13 h – 14 h 30": {
           "posts": 2,
@@ -894,7 +893,7 @@
         }
       }
     },
-    "interactionsTotal": 431,
+    "interactionsTotal": 433,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35605",
       "channel": "threads",
@@ -914,22 +913,22 @@
       "creneauReseau": "7 h – 8 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35446",
-      "channel": "facebook",
-      "mediaId": "227437307428711_1729197252539489",
-      "publieLe": "2026-09-23T18:10:02.422Z",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35635",
+      "channel": "threads",
+      "mediaId": "18018308987732039",
+      "publieLe": "2026-09-24T06:27:31.734Z",
       "jalon": 1,
-      "releveLe": "2026-09-24T18:20:41.721Z",
+      "releveLe": "2026-09-25T07:00:41.439Z",
       "likes": 0,
       "commentaires": 0,
       "partages": 0,
-      "vues": null,
-      "titre": "Près de Limoges, on dort au milieu des girafes et des loups",
-      "lien": "https://www.facebook.com/1720946116697936/posts/1729197252539489",
-      "format": null,
+      "vues": 43,
+      "titre": "Une levure fait déjà perdre 1° d’alcool au vin : à Bordeaux, la recherche va plus loin",
+      "lien": "https://www.threads.com/@lovaquitaine/post/DdqPS9-m8XR",
+      "format": "image",
       "mention": false,
-      "creneau": "soir",
-      "creneauReseau": "20 h – 21 h 30"
+      "creneau": "matin",
+      "creneauReseau": "7 h – 8 h 30"
     },
     "mentions": {
       "avec": {
@@ -937,15 +936,15 @@
         "moyenne": 4
       },
       "sans": {
-        "posts": 44,
-        "moyenne": 9.7
+        "posts": 45,
+        "moyenne": 9.5
       }
     },
     "publies": {
       "instagram": 17,
       "bluesky": 16,
       "x": 15,
-      "facebook": 11,
+      "facebook": 12,
       "threads": 13
     },
     "abonnes": {
@@ -991,8 +990,8 @@
       }
     },
     "engagement": {
-      "threads": 1.59,
       "instagram": 0.18,
+      "threads": 1.44,
       "facebook": 0
     },
     "conseils": [

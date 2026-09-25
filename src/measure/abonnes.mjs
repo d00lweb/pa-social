@@ -63,9 +63,37 @@ export async function releverAbonnes({ now = Date.now(), log = console.log, time
     }
   }
   releves[jour] = { ...releves[jour], ...ligne };
+  await relevrMouvements(releves, { log });
   await saveJson('abonnes.json', releves, ...(dir ? [dir] : []));
   log(`Abonnés du ${jour} : ${Object.entries(ligne).map(([k, v]) => `${k} ${v ?? '?'}`).join(' · ')}`);
   return releves;
+}
+
+// Le solde ne dit pas l'essentiel. Une page peut perdre un abonné par jour parce qu'elle n'en
+// gagne aucun, ou parce qu'elle en perd trente et en gagne vingt-neuf : ce ne sont pas les mêmes
+// problèmes. Facebook sait distinguer les deux, on le relève donc, sur 30 jours glissants.
+// Mesuré le 25/09/2026 : 3 arrivées et 24 départs sur le mois écoulé — le média ne recrute pas.
+export async function relevrMouvements(releves, { log = console.log, lire: lecteur = lire } = {}) {
+  if (!process.env.FB_PAGE_ID || !process.env.FB_TOKEN) return releves;
+  const V = () => process.env.GRAPH_VERSION || 'v23.0';
+  const serie = async (metric) => {
+    const url = `https://graph.facebook.com/${V()}/${process.env.FB_PAGE_ID}/insights?metric=${metric}&period=day&date_preset=last_30d&access_token=${process.env.FB_TOKEN}`;
+    return (await lecteur(url)).data?.[0]?.values ?? [];
+  };
+  try {
+    const [plus, moins] = await Promise.all([serie('page_daily_follows_unique'), serie('page_daily_unfollows_unique')]);
+    const par = {};
+    for (const v of plus) par[v.end_time.slice(0, 10)] = { plus: v.value ?? 0, moins: 0 };
+    for (const v of moins) (par[v.end_time.slice(0, 10)] ??= { plus: 0, moins: 0 }).moins = v.value ?? 0;
+    for (const [j, m] of Object.entries(par)) {
+      if (!releves[j]) continue; // ne crée pas de jour que le suivi ne couvre pas
+      releves[j] = { ...releves[j], facebookMouvements: m };
+    }
+    return releves;
+  } catch (e) {
+    log(`   Mouvements Facebook : lecture impossible (${e.message})`);
+    return releves;
+  }
 }
 
 const jours = (releves, id) => Object.keys(releves).filter((j) => Number.isFinite(releves[j]?.[id])).sort();

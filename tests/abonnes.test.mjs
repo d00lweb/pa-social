@@ -71,3 +71,38 @@ test('message du lundi : les abonnés gagnés dans la semaine', () => {
   assert.match(texte, /Abonnés/);
   assert.match(texte, /Instagram \+54/);
 });
+
+test('mouvements Facebook : les arrivées et les départs sont relevés à part du solde', async () => {
+  const { relevrMouvements } = await import('../src/measure/abonnes.mjs');
+  // 25/09/2026 : le solde Facebook baissait de deux par jour. Le détail montre que la page ne
+  // perd pas ses abonnés — elle n'en gagne plus : 3 arrivées pour 24 départs sur 30 jours.
+  const avant = { FB_PAGE_ID: process.env.FB_PAGE_ID, FB_TOKEN: process.env.FB_TOKEN };
+  process.env.FB_PAGE_ID = '123';
+  process.env.FB_TOKEN = 'jeton';
+  try {
+    const lire = async (url) => ({
+      data: [{
+        values: /follows_unique/.test(url) && !/unfollows/.test(url)
+          ? [{ end_time: '2026-09-24T07:00:00+0000', value: 0 }, { end_time: '2026-09-25T07:00:00+0000', value: 2 }]
+          : [{ end_time: '2026-09-24T07:00:00+0000', value: 3 }, { end_time: '2026-09-25T07:00:00+0000', value: 1 }],
+      }],
+    });
+    const releves = { '2026-09-24': { facebook: 42614 }, '2026-09-25': { facebook: 42612 } };
+    await relevrMouvements(releves, { lire, log: () => {} });
+    assert.deepEqual(releves['2026-09-24'].facebookMouvements, { plus: 0, moins: 3 });
+    assert.deepEqual(releves['2026-09-25'].facebookMouvements, { plus: 2, moins: 1 });
+    assert.equal(releves['2026-09-25'].facebook, 42612, 'le relevé d’abonnés n’est pas touché');
+
+    // un jour absent du suivi n'est pas inventé
+    const partiel = { '2026-09-25': { facebook: 42612 } };
+    await relevrMouvements(partiel, { lire, log: () => {} });
+    assert.equal(partiel['2026-09-24'], undefined);
+
+    // une panne de l'API ne fait pas échouer le relevé
+    const casse = { '2026-09-25': { facebook: 1 } };
+    await relevrMouvements(casse, { lire: async () => { throw new Error('HTTP 400'); }, log: () => {} });
+    assert.equal(casse['2026-09-25'].facebook, 1);
+  } finally {
+    Object.assign(process.env, avant);
+  }
+});

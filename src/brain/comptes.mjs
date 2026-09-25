@@ -123,7 +123,9 @@ async function comptesMeta(entite, image, log = () => {}) {
   const table = depuisTable(entite.nom) ?? {};
 
   // Table vérifiée d'abord : c'est la seule source qui prouve l'identité, pas seulement l'existence.
-  let autres = [];
+  // `lies` : comptes voisins du sujet, inscrits à la main — le Mondrian Bordeaux héberge le
+  // restaurant Morimoto et le dit dans sa bio, le taguer touche une audience déjà proche.
+  let autres = [...(table.lies ?? [])];
   let instagram = table.instagram ?? f?.insta ?? site.insta[0] ?? null;
   if (!instagram) {
     // Meta prouve qu'un pseudo existe, jamais qu'il désigne la bonne entité. Le 25/09/2026,
@@ -143,7 +145,7 @@ async function comptesMeta(entite, image, log = () => {}) {
       // place reste donc toujours libre, et un compte dont on sait l'audience négligeable sort.
       const retenus = await garderLesMeilleurs(acceptes, entite.nom, log);
       [instagram] = retenus;
-      autres = retenus.slice(1);
+      autres = [...autres, ...retenus.slice(1)];
     }
   }
   return {

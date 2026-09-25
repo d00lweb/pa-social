@@ -170,3 +170,27 @@ test('rotation des comptes de référence : jamais les mêmes deux fois de suite
   retenirMentions(m, [{ handle: 'ultratraildepons_officiel', role: 'sujet' }, { handle: 'lestraileurs', role: 'theme', thematique: true }]);
   assert.deepEqual(m.mentions, ['lestraileurs']);
 });
+
+test('le compte au cœur de l’article passe toujours avant les comptes de référence', async () => {
+  const { comptesThematiques, rotation } = await import('../src/brain/comptes.mjs');
+  // Le sujet de l'article n'est jamais évincé par la rotation : c'est lui que le lecteur cherche,
+  // et c'est lui qui a le plus de raisons de relayer. Les comptes de référence comblent le reste.
+  const MAX = 3;
+  const table = { trail: { motsCles: ['trail'], instagram: ['lestraileurs', 'trail.passion', 'a', 'b'] } };
+  const texte = 'l’Ultra Trail de Pons signe une édition record';
+  const sujets = [{ nom: 'Ultra Trail de Pons', handle: 'ultratraildepons_officiel', role: 'sujet' }];
+  const libres = comptesThematiques(texte, 'instagram', table);
+  const final = [...sujets, ...rotation(libres, [], MAX - sujets.length)];
+  assert.equal(final[0].handle, 'ultratraildepons_officiel', 'le sujet en premier');
+  assert.equal(final.length, MAX);
+  assert.equal(final.filter((c) => c.role === 'sujet').length, 1);
+
+  // deux comptes pour le sujet : une seule place reste, et elle va au premier du vivier
+  const deux = [...sujets, { nom: 'Ultra Trail de Pons', handle: 'ultratraildepons', role: 'sujet' }];
+  const avecDeux = [...deux, ...rotation(libres, [], MAX - deux.length)];
+  assert.deepEqual(avecDeux.map((c) => c.handle), ['ultratraildepons_officiel', 'ultratraildepons', 'lestraileurs']);
+
+  // trois comptes pour le sujet : aucun compte de référence, le sujet occupe tout
+  const trois = [...deux, { nom: 'X', handle: 'x', role: 'acteur' }];
+  assert.deepEqual(rotation(libres, [], MAX - trois.length), [], 'plus aucune place');
+});

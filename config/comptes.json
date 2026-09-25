@@ -43,10 +43,63 @@
     },
     "Ultra Trail de Pons": {
       "instagram": "ultratraildepons_officiel"
+    },
+    "Morimoto Bordeaux": {
+      "instagram": "morimotobordeaux",
+      "lies": [
+        "mondrianbordeaux"
+      ]
     }
   },
   "_thematiques": "Viviers de comptes de reference francais, verifies a la main (nom, bio, abonnes). Un vivier s applique si l un de ses motsCles figure en mot entier dans l article. Les comptes sont pris EN ROTATION : jamais les memes deux fois de suite, pour toucher une audience differente a chaque fois. Ordre du tableau = ordre de preference a egalite. Ajouter un compte ici est un acte editorial : jamais de compte devine, jamais de compte etranger.",
   "thematiques": {
+    "French Cancan": {
+      "motsCles": [
+        "French Cancan",
+        "cancan",
+        "cabaret",
+        "Moulin Rouge",
+        "revue parisienne"
+      ],
+      "instagram": [
+        "moulinrougeofficiel"
+      ]
+    },
+    "vin": {
+      "motsCles": [
+        "vin",
+        "vins",
+        "vignoble",
+        "viticole",
+        "oenologie",
+        "œnologie",
+        "cépage",
+        "levure",
+        "vendange",
+        "château viticole"
+      ],
+      "instagram": [
+        "vinsdebordeaux",
+        "vinetsociete"
+      ]
+    },
+    "transition écologique": {
+      "motsCles": [
+        "décarbonation",
+        "durable",
+        "écologique",
+        "transition énergétique",
+        "batterie",
+        "zéro émission",
+        "biodiversité",
+        "climatique"
+      ],
+      "instagram": [
+        "positivr",
+        "wedemain",
+        "novethic"
+      ]
+    },
     "trail": {
       "motsCles": [
         "trail",
@@ -104,5 +157,6 @@
         "larochelleensemble"
       ]
     }
-  }
+  },
+  "_institutions_lies": "lies : comptes liés à l entite, verifies a la main. Le Mondrian Bordeaux heberge le restaurant Morimoto et le dit dans sa bio : le taguer touche une audience proche du sujet."
 }

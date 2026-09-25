@@ -94,10 +94,22 @@ test('l’échelle géographique : la commune d’abord, et son nom peut être c
   const { formesCommune, parleDu, retenir } = await import('../src/brain/decouverte.mjs');
   // Les formes usuelles d'une commune française sont stables : c'est ce qui rend la découverte
   // fiable ici, là où elle échoue sur un domaine abstrait.
-  const f = formesCommune('Bayonne');
-  assert.ok(f.includes('bayonnemaville') && f.includes('visitbayonne'), f.join(' '));
-  assert.ok(formesCommune('Saint-Jean-de-Luz').includes('visitsaintjeandeluz'), 'les traits d’union tombent');
+  // deux natures, et elles ne se taguent pas dans les mêmes articles
+  assert.ok(formesCommune('Bayonne', 'mairie').includes('bayonnemaville'));
+  assert.ok(formesCommune('Bayonne', 'tourisme').includes('visitbayonne'));
+  assert.ok(!formesCommune('Bayonne', 'mairie').includes('visitbayonne'), 'l’office de tourisme n’est pas une mairie');
+  assert.ok(formesCommune('Saint-Jean-de-Luz', 'tourisme').includes('visitsaintjeandeluz'), 'les traits d’union tombent');
   assert.deepEqual(formesCommune('X'), []);
+
+  // 25/09/2026 : @daxtourisme sous le financement d'un village Alzheimer, @visitbordeaux sous une
+  // recherche sur les levures œnologiques — la mauvaise audience, et ça se voit.
+  const { sujetTouristique } = await import('../src/brain/decouverte.mjs');
+  assert.equal(sujetTouristique('Le Village Alzheimer des Landes sécurise son avenir financier', ['Actus', 'Landes']), false);
+  assert.equal(sujetTouristique('Les abeilles tuent le frelon asiatique en le chauffant à 42°C', ['Actus', 'Agriculture']), false);
+  assert.equal(sujetTouristique('Une levure fait perdre 1° d’alcool au vin', ['Actus', 'Développement durable']), false);
+  assert.ok(sujetTouristique('Près de Limoges, on peut dormir au milieu des girafes', ['Visites & loisirs']));
+  assert.ok(sujetTouristique('L’Hermione fait escale à Bayonne', ['Actus']), 'une escale s’adresse aux visiteurs');
+  assert.ok(sujetTouristique('Le château ouvre ses portes le week-end', ['Agenda']));
 
   // « Dax » fait trois lettres : le filtre l'écartait, privant l'article du compte de sa ville
   assert.ok(parleDu('Dax', { nom: 'Grand Dax Tourisme' }));
@@ -116,4 +128,20 @@ test('l’échelle géographique : la commune d’abord, et son nom peut être c
   // et le piège de La Rochelle reste fermé : un domaine événementiel brésilien à 92 295 abonnés
   const bresil = { handle: 'villelarochelle', nom: 'VILLE LA ROCHELLE | Locação para Eventos', description: 'Uma propriedade familiar no estilo europeu para eventos no interior de São Paulo', abonnes: 92295 };
   assert.match(retenir(bresil, { domaine: 'La Rochelle', reseau: 'instagram' }).motif, /biographie non française/);
+});
+
+test('la porte de la langue ferme aussi sur le contenu adulte', async () => {
+  const { semblFrancais, retenir } = await import('../src/brain/decouverte.mjs');
+  // 25/09/2026 : trois comptes lusophones ont franchi les portes parce que « livre » et « surf »
+  // sont aussi des mots français. L'un d'eux, @ksal-livre (2 065 abonnés), est un compte adulte —
+  // le mentionner sous un article de Passion Aquitaine serait une capture d'écran qui circule.
+  assert.equal(semblFrancais('Somos um casal comum, com uma família linda 🔞🔥'), false);
+  assert.equal(semblFrancais('escritora & orácula (astrologia & tarot) ✨ céu/horóscopo'), false);
+  assert.equal(semblFrancais('50% OFF 📍RIO DE JANEIRO - RJ 🇧🇷 privacy.com.br/@vitinho'), false);
+  // les vrais comptes français du même domaine passent toujours
+  assert.ok(semblFrancais('Revue bilingue spécialisée en #HistoireDuLivre, disponible en ligne'));
+  assert.ok(semblFrancais('La Fondation pour la recherche sur la biodiversité est une fondation'));
+  // le contenu adulte est écarté quelle que soit l'audience
+  const adulte = { handle: 'x.bsky.social', nom: 'Livre', description: 'Compte français pour adultes, contenu érotique', abonnes: 50000 };
+  assert.match(retenir(adulte, { domaine: 'livre', reseau: 'bluesky' }).motif, /biographie non française/);
 });

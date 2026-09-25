@@ -4,6 +4,7 @@ import { fiche } from '../sources/wikidata.mjs';
 import { handlesFromSite } from '../sources/site.mjs';
 import { chercheActeurs, profil } from '../sources/bsky-public.mjs';
 import { surThreads } from '../sources/threads.mjs';
+import { sujetTouristique } from './decouverte.mjs';
 import { correspond, suspect, choisir, fold, motsCles, nomExploitable } from './annuaire.mjs';
 
 // Dernier recours pour les collectivités de notre zone : certains sites chargent leurs réseaux
@@ -207,19 +208,28 @@ export function comptesThematiques(texte, reseau = 'instagram', table = thematiq
 // sujet, plus elle a de raisons de suivre : qui suit @bayonnemaville lit un article sur une escale
 // à Bayonne, qui suit un compte « Pays basque » n'y verra qu'une actualité parmi d'autres, et le
 // département est encore un cran plus loin. La commune passe donc avant le territoire élargi.
-export async function comptesDeLaCommune(ville, { log = () => {}, jours = 90, maintenant = Date.now() } = {}) {
+export async function comptesDeLaCommune(ville, { log = () => {}, jours = 90, maintenant = Date.now(), touristique = false } = {}) {
   if (!ville) return [];
   const { loadJson, saveJson } = await import('../core/state.mjs');
+  const { surInstagram, formesCommune } = await import('./decouverte.mjs');
   const connu = await loadJson('comptes-appris.json', {});
-  const cle = `commune:${fold(ville)}`;
-  if (!connu[cle] || maintenant - Date.parse(connu[cle].cherche ?? 0) > jours * 86400e3) {
-    const { surInstagram, formesCommune } = await import('./decouverte.mjs');
-    const trouves = await surInstagram(ville, { decrire: decrireInstagram, formes: formesCommune, exigerNom: false, log: () => {} }).catch(() => []);
-    connu[cle] = { cherche: new Date(maintenant).toISOString(), instagram: trouves.slice(0, 2).map((c) => ({ handle: c.handle, nom: c.nom, abonnes: c.abonnes })) };
-    await saveJson('comptes-appris.json', connu);
-    log(`   Commune « ${ville} » : ${connu[cle].instagram.map((c) => `@${c.handle} (${c.abonnes})`).join(' · ') || 'aucun compte trouvé'}`);
+  // Les deux natures sont cherchées et rangées séparément : l'office de tourisme n'est proposé
+  // qu'aux articles qui s'adressent à des visiteurs.
+  const natures = touristique ? ['mairie', 'tourisme'] : ['mairie'];
+  const sortie = [];
+  let neuf = false;
+  for (const nature of natures) {
+    const cle = `commune:${nature}:${fold(ville)}`;
+    if (!connu[cle] || maintenant - Date.parse(connu[cle].cherche ?? 0) > jours * 86400e3) {
+      const trouves = await surInstagram(ville, { decrire: decrireInstagram, formes: (v) => formesCommune(v, nature), exigerNom: false, log: () => {} }).catch(() => []);
+      connu[cle] = { cherche: new Date(maintenant).toISOString(), instagram: trouves.slice(0, 2).map((c) => ({ handle: c.handle, nom: c.nom, abonnes: c.abonnes })) };
+      neuf = true;
+      log(`   Commune « ${ville} » (${nature}) : ${connu[cle].instagram.map((c) => `@${c.handle} (${c.abonnes})`).join(' · ') || 'aucun compte trouvé'}`);
+    }
+    for (const c of connu[cle].instagram ?? []) sortie.push({ nom: c.nom || ville, handle: c.handle, role: 'commune', thematique: true });
   }
-  return (connu[cle].instagram ?? []).map((c) => ({ nom: c.nom || ville, handle: c.handle, role: 'commune', thematique: true }));
+  if (neuf) await saveJson('comptes-appris.json', connu);
+  return sortie;
 }
 
 // Description d'un compte Instagram par l'API : sert à la découverte comme au départage.
@@ -320,7 +330,7 @@ async function chercherDomaine(domaine, log) {
 // Un compte par entité et par réseau, trois entités au maximum
 // Trois mentions au plus : c'est le levier le plus efficace pour être découvert — un compte
 // mentionné est notifié, et va voir. Au-delà, la publication ressemble à du démarchage.
-export async function resoudreComptes(entites = [], { max = 3, image = null, texte = null, domaines = [], commune = null, recents = [], log = () => {} } = {}) {
+export async function resoudreComptes(entites = [], { max = 3, image = null, texte = null, domaines = [], commune = null, categories = [], recents = [], log = () => {} } = {}) {
   const plan = { instagram: [], x: [], bluesky: [], threads: [], facebook: [] };
   // Un nom d'un seul mot ne se vérifie pas : on préfère aucune mention à un homonyme
   // Un nom d'un seul mot — « Belem », « Hermione » — ne permet aucune devinette : @lebelem est un
@@ -354,7 +364,9 @@ export async function resoudreComptes(entites = [], { max = 3, image = null, tex
   // nomme passent toujours devant. Deux sources, dans cet ordre — la table écrite à la main, puis
   // la découverte automatique, dont les trouvailles sont mémorisées et deviennent l'annuaire.
   const appris = domaines.length ? await annuaire(domaines, { log }) : {};
-  const locaux = await comptesDeLaCommune(commune, { log }).catch(() => []);
+  // l'office de tourisme ne s'adresse qu'aux articles qui parlent aux visiteurs
+  const touristique = sujetTouristique(texte, categories);
+  const locaux = await comptesDeLaCommune(commune, { log, touristique }).catch(() => []);
   for (const [reseau, liste] of Object.entries(plan)) {
     if (liste.length >= max) continue;
     // L'échelle géographique est un ordre de priorité : la commune d'abord, le territoire élargi

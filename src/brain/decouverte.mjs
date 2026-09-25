@@ -37,9 +37,22 @@ const FRANCAIS = /\b(le|la|les|des|du|de|au|aux|une|un|et|pour|avec|sur|dans|not
 // se convertit pas en abonnés.
 const HORS_DE_FRANCE = /\b(quebec|québec|canada|canadien|suisse|belgique|belge|luxembourg|maroc|tunisie|senegal|sénégal)\b/i;
 
+// Portugais et espagnol passaient : @sagradalivre (astrologie, 2 573), @ksal-livre (compte
+// adulte, 2 065) et @vitinhosurfista (Rio de Janeiro, 1 759) ont franchi les portes le
+// 25/09/2026 parce que « livre » et « surf » sont aussi des mots français.
+const LUSO_HISPANIQUE = /\b(somos|uma|voce|nao|muito|familia|escritora|obrigad\w*|brasil|nuestra|nuestros|gracias|hola)\b|\.com\.br\b|\.br\b|🇧🇷|🇵🇹|🇪🇸|🇮🇹|🇩🇪|🇬🇧|🇺🇸/i;
+// Contenu pour adultes : jamais, à aucune condition. Un post de Passion Aquitaine qui mentionne
+// un tel compte, c'est une capture d'écran qui circule et une réputation abîmée.
+const ADULTE = /🔞|\b(onlyfans|privacy\.com|nsfw|hot|sexy|erotique|coquin\w*)\b/i;
+// Les deux se testent sur le texte sans accents : « érotique » précédé d'un \b ne se reconnaît
+// pas, l'accent n'étant pas un caractère de mot pour une expression régulière.
+const sansAccents = (t) => String(t).normalize('NFD').replace(/\p{M}/gu, '');
+
 export const semblFrancais = (texte) => {
   const t = String(texte ?? '');
   if (!t.trim()) return false;
+  const nu = sansAccents(t);
+  if (ADULTE.test(nu) || LUSO_HISPANIQUE.test(nu)) return false;
   return FRANCAIS.test(t) && !ETRANGER.test(t) && !HORS_DE_FRANCE.test(t);
 };
 
@@ -99,11 +112,27 @@ export const formesInstagram = (domaine) => {
 // et c'est ce qui rend la découverte fiable ici là où elle échoue sur un domaine abstrait :
 // mesuré le 25/09/2026, elles trouvent @bayonnemaville (54 116) et @visitbayonne (34 458),
 // @visitbordeaux (118 223), @limogestourisme (22 539), @daxtourisme (5 295).
-export const formesCommune = (ville) => {
+// Deux natures de compte, et elles ne se taguent pas dans les mêmes articles. La ville parle de
+// tout ce qui arrive sur son territoire ; l'office de tourisme parle aux visiteurs. Taguer
+// @daxtourisme sous le financement d'un village Alzheimer, ou @visitbordeaux sous une recherche
+// sur les levures œnologiques, c'est s'adresser à la mauvaise audience et le montrer.
+export const formesCommune = (ville, nature = 'mairie') => {
   const v = fold(ville).replace(/[^a-z0-9]+/g, '');
   if (v.length < 3) return [];
-  return [`ville${v}`, `${v}maville`, `mairie${v}`, `visit${v}`, `${v}tourisme`, `tourisme${v}`, `${v}_tourisme`, `${v}ville`, `ot${v}`];
+  return nature === 'tourisme'
+    ? [`visit${v}`, `${v}tourisme`, `tourisme${v}`, `${v}_tourisme`, `ot${v}`]
+    : [`ville${v}`, `${v}maville`, `mairie${v}`, `${v}ville`, `${v}_officiel`];
 };
+
+// L'article s'adresse-t-il à des visiteurs ? C'est la question qui autorise l'office de tourisme.
+// Les catégories du flux tranchent mieux que le texte : elles sont posées par la rédaction.
+// Frontières de mot obligatoires : sans elles, « Agriculture » contenait « culture » et un article
+// sur des frelons asiatiques devenait un sujet touristique.
+const CATEGORIES_TOURISME = /\b(visites?|loisirs|agenda|tourisme|restaurants?|sortir|patrimoine|culture|balades?|randonn\w*)\b/i;
+const MOTS_TOURISME = /\b(visite[rs]?|visiteurs?|touristes?|séjour|escale|festival|exposition|billetterie|réserver|ouvre ses portes|week-?end|à découvrir|dormir|nuitée|dégustation|parcours|itinéraire)\b/i;
+
+export const sujetTouristique = (texte, categories = []) =>
+  categories.some((c) => CATEGORIES_TOURISME.test(String(c))) || MOTS_TOURISME.test(String(texte ?? ''));
 
 // Découverte sur Instagram : pseudos fabriqués, décrits par l'API, filtrés.
 export async function surInstagram(domaine, { decrire, log = () => {}, formes = formesInstagram, exigerNom = true } = {}) {

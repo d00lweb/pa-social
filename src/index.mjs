@@ -228,6 +228,7 @@ async function enrichir(dossier, article = null, memory = null) {
     domaines: dossier.domaines ?? [],
     // la commune du sujet : ses comptes passent avant ceux du territoire élargi
     commune: dossier.commune ?? dossier.lieuSource?.ville ?? null,
+    categories: article?.categories ?? [],
     recents: memory?.mentions ?? [],
     log: console.log,
   });

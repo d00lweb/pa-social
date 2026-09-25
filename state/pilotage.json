@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-25T16:20:46.383Z",
+  "genereLe": "2026-09-25T17:00:40.007Z",
   "jour": "2026-09-25",
   "reseaux": {
     "instagram": {
@@ -569,7 +569,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 72,
+    "releves": 73,
     "parReseau": {
       "instagram": {
         "posts": 8,
@@ -646,7 +646,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-09-25T16:00:36.536Z"
+    "derniere": "2026-09-25T17:00:40.007Z"
   },
   "abonnes": {
     "instagram": {
@@ -692,8 +692,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-25T16:20:47.538Z",
-    "posts": 53,
+    "genereLe": "2026-09-25T17:00:43.814Z",
+    "posts": 54,
     "parReseau": {
       "instagram": {
         "posts": 16,
@@ -708,8 +708,8 @@
         "moyenne": 0.8
       },
       "bluesky": {
-        "posts": 15,
-        "moyenne": 0.5
+        "posts": 16,
+        "moyenne": 0.4
       }
     },
     "parFormat": {
@@ -726,7 +726,7 @@
         "moyenne": 1
       },
       "image": {
-        "posts": 6,
+        "posts": 7,
         "moyenne": 0.3
       },
       "card": {
@@ -744,8 +744,8 @@
         "moyenne": 7.7
       },
       "soir": {
-        "posts": 9,
-        "moyenne": 3
+        "posts": 10,
+        "moyenne": 2.7
       }
     },
     "parCreneauReseau": {
@@ -777,7 +777,7 @@
           "moyenne": 0.4
         },
         "18 h – 19 h 30": {
-          "posts": 1,
+          "posts": 2,
           "moyenne": 0
         }
       },
@@ -834,22 +834,22 @@
       "creneauReseau": "7 h – 8 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=28135",
-      "channel": "threads",
-      "mediaId": "18131240894507073",
-      "publieLe": "2026-09-24T08:28:40.031Z",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35642",
+      "channel": "bluesky",
+      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mwbop3zhbj2x",
+      "publieLe": "2026-09-24T16:33:50.685Z",
       "jalon": 1,
-      "releveLe": "2026-09-25T09:01:15.281Z",
+      "releveLe": "2026-09-25T17:00:40.007Z",
       "likes": 0,
       "commentaires": 0,
       "partages": 0,
-      "vues": 35,
-      "titre": "Top 6 des activités insolites autour de La Rochelle",
-      "lien": "https://www.threads.com/@lovaquitaine/post/DdqdKMeG-5K",
+      "vues": null,
+      "titre": "En Charente-Maritime, nouveau succès pour l’Ultra Trail de Pons",
+      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mwbop3zhbj2x",
       "format": "image",
       "mention": false,
-      "creneau": "matin",
-      "creneauReseau": "10 h – 11 h 30"
+      "creneau": "soir",
+      "creneauReseau": "18 h – 19 h 30"
     },
     "mentions": {
       "avec": {
@@ -857,8 +857,8 @@
         "moyenne": 4
       },
       "sans": {
-        "posts": 52,
-        "moyenne": 8.5
+        "posts": 53,
+        "moyenne": 8.3
       }
     },
     "publies": {

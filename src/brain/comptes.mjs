@@ -117,8 +117,8 @@ export async function garderLesMeilleurs(handles, nom, log = () => {}, mesurer =
 const rangerLesOfficiels = (mesures) => [...mesures].sort((a, b) => Number(/officiel|_off$/.test(b.handle)) - Number(/officiel|_off$/.test(a.handle)));
 
 // Instagram et X : la fiche donne parfois le compte, le site officiel presque toujours
-async function comptesMeta(entite, image, log = () => {}) {
-  const f = await fiche(entite.nom);
+async function comptesMeta(entite, image, log = () => {}, contexte = '') {
+  const f = await fiche(entite.nom, contexte);
   const site = f?.site ? await handlesFromSite(f.site) : { insta: [], x: [], facebook: [] };
   const table = depuisTable(entite.nom) ?? {};
 
@@ -290,15 +290,19 @@ async function chercherDomaine(domaine, log) {
 export async function resoudreComptes(entites = [], { max = 3, image = null, texte = null, domaines = [], recents = [], log = () => {} } = {}) {
   const plan = { instagram: [], x: [], bluesky: [], threads: [], facebook: [] };
   // Un nom d'un seul mot ne se vérifie pas : on préfère aucune mention à un homonyme
-  const exploitables = entites.filter((e) => {
-    if (nomExploitable(e.nom)) return true;
-    log(`   Entité « ${e.nom} » ignorée : nom trop court pour être vérifié`);
-    return false;
-  });
+  // Un nom d'un seul mot — « Belem », « Hermione » — ne permet aucune devinette : @lebelem est un
+  // café bar, @belem_officiel une personne. Il reste pourtant exploitable par la seule voie sûre,
+  // la fiche officielle départagée par le contexte de l'article : elle mène au site du Belem, qui
+  // déclare @troismatsbelem. On ne l'écarte donc plus, on lui interdit les raccourcis —
+  // variantesHandle ne produit rien pour un mot seul, et la recherche Bluesky lui est fermée.
+  const exploitables = entites.map((e) => ({ ...e, seul: !nomExploitable(e.nom) }));
   const retenues = choisir(exploitables.map((e) => ({ ...e, entite: e.nom, handle: e.nom })), { max });
 
   for (const entite of retenues) {
-    const [meta, bluesky] = await Promise.all([comptesMeta(entite, image, log), compteBluesky(entite)]);
+    const [meta, bluesky] = await Promise.all([
+      comptesMeta(entite, image, log, texte ?? ''),
+      entite.seul ? null : compteBluesky(entite),
+    ]);
     const sur = meta.instagram ? await surThreads(meta.instagram) : false;
 
     if (meta.instagram) plan.instagram.push({ nom: entite.nom, handle: meta.instagram, role: entite.role });

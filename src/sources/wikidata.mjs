@@ -43,14 +43,16 @@ export const variantes = (nom) => {
 const renseignee = (f) => Boolean(f && (f.insta || f.x));
 
 // Cherche l'entité par son nom et renvoie ses comptes déclarés ; null si aucune fiche
-export async function fiche(nom) {
-  const cle = String(nom ?? '').trim().toLowerCase();
-  if (!cle) return null;
+export async function fiche(nom, contexte = '') {
+  const propre = String(nom ?? '').trim().toLowerCase();
+  if (!propre) return null;
+  // le contexte change le résultat : il fait donc partie de la clé du cache
+  const cle = `${propre}|${String(contexte ?? '').length}`;
   if (cache.has(cle)) return cache.get(cle);
 
   let resultat = null;
   for (const variante of variantes(String(nom).trim())) {
-    const trouvee = await ficheBrute(variante);
+    const trouvee = await ficheBrute(variante, contexte);
     // une fiche qui ne porte pas le bon nom n'est pas la bonne entité : « Département de la Gironde »
     // tombait sur Gallica, et nous aurions tagué la BnF à la place du Département
     if (!trouvee || !correspond(variante, { nom: trouvee.label })) continue;
@@ -62,12 +64,30 @@ export async function fiche(nom) {
   return resultat;
 }
 
-// Les premiers résultats sont examinés, pas seulement le tout premier : « Landes » renvoie d'abord
-// une commune homonyme, et le département — celui qui porte les comptes — arrive juste après.
-async function ficheBrute(nom) {
-  let resultat = null;
+// Mots du contexte qui servent à départager des homonymes : assez longs pour être distinctifs.
+const motsDistinctifs = (texte) => new Set(
+  String(texte ?? '').toLowerCase().normalize('NFD').replace(/\p{M}/gu, '')
+    .split(/[^a-z0-9]+/).filter((m) => m.length >= 5),
+);
+
+// Le contexte de l'article départage les homonymes, et c'est indispensable.
+//
+// 25/09/2026, mesuré : « Belem » renvoie d'abord la capitale de l'État de Pará au Brésil, et le
+// trois-mâts français arrive deuxième ; « Hermione » renvoie un prénom, un genre de plantes,
+// Hermione Granger, un astéroïde — et le navire de guerre en huitième position. Chercher sur trois
+// résultats et prendre le premier renseigné donnait donc la mairie de Belém.
+//
+// Avec le contexte, la bonne fiche se reconnaît : sa description partage un mot avec l'article
+// (« trois-mâts barque français », « navire de guerre français »). Et son site officiel suffit —
+// fondationbelem.com livre @troismatsbelem, hermione.com livre @hermione_lafayette.
+async function ficheBrute(nom, contexte = '') {
+  const mots = motsDistinctifs(contexte);
+  const note = (c) => (mots.size && [...motsDistinctifs(c.description)].some((m) => mots.has(m)) ? 2 : 0)
+    + (renseignee(c) ? 1 : 0)
+    + (c.site ? 0.5 : 0);
+  const candidats = [];
   try {
-    const recherche = await json(`${API}?action=wbsearchentities&search=${encodeURIComponent(nom)}&language=fr&uselang=fr&format=json&limit=3`);
+    const recherche = await json(`${API}?action=wbsearchentities&search=${encodeURIComponent(nom)}&language=fr&uselang=fr&format=json&limit=8`);
     for (const top of (recherche.search ?? []).filter((r) => correspond(nom, { nom: r.label }))) {
       const detail = await json(`${API}?action=wbgetentities&ids=${top.id}&props=claims&format=json`);
       const claims = detail.entities?.[top.id]?.claims ?? {};
@@ -77,12 +97,17 @@ async function ficheBrute(nom) {
         description: top.description ?? '',
         ...Object.fromEntries(Object.entries(PROPS).map(([k, p]) => [k, valeur(claims, p)])),
       };
-      if (renseignee(candidat)) return candidat;
-      resultat ??= candidat;
+      candidats.push(candidat);
+      // une fiche qui porte les comptes ET colle au contexte ne sera pas battue : on s'arrête là
+      if (note(candidat) >= 3) return candidat;
     }
   } catch (e) {
     // réseau indisponible : on préfère aucune mention à une mention hasardeuse
     console.error(`   Wikidata « ${nom} » : ${e.message}`);
   }
-  return resultat;
+  if (!candidats.length) return null;
+  const classe = [...candidats].sort((a, b) => note(b) - note(a));
+  // sans contexte exploitable, rien ne départage : on ne renvoie que si un candidat se détache
+  if (mots.size && note(classe[0]) < 2) return null;
+  return classe[0];
 }

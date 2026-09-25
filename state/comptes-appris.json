@@ -1,60 +1,6 @@
 {
-  "biodiversite": {
-    "cherche": "2026-09-25T14:14:24.831Z",
-    "instagram": [
-      {
-        "handle": "humanite_biodiversite",
-        "nom": "Humanité et Biodiversité",
-        "abonnes": 3549
-      }
-    ],
-    "bluesky": [
-      {
-        "handle": "frbiodiv.bsky.social",
-        "nom": "FRB｜Fondation pour la recherche sur la biodiversité",
-        "abonnes": 2392
-      },
-      {
-        "handle": "humabio.bsky.social",
-        "nom": "Humanité et Biodiversité",
-        "abonnes": 444
-      }
-    ]
-  },
-  "apiculture": {
-    "cherche": "2026-09-25T14:14:24.831Z",
-    "instagram": [],
-    "bluesky": []
-  },
-  "feminisme": {
-    "cherche": "2026-09-25T14:14:24.831Z",
-    "instagram": [
-      {
-        "handle": "osez_le_feminisme",
-        "nom": "Osez le Féminisme",
-        "abonnes": 93126
-      }
-    ],
-    "bluesky": [
-      {
-        "handle": "osezlefeminisme.bsky.social",
-        "nom": "Osez le Féminisme",
-        "abonnes": 1805
-      },
-      {
-        "handle": "lawphilisee.bsky.social",
-        "nom": "Droit et féminisme",
-        "abonnes": 921
-      }
-    ]
-  },
-  "nautisme": {
-    "cherche": "2026-09-25T14:15:11.061Z",
-    "instagram": [],
-    "bluesky": []
-  },
   "patrimoine": {
-    "cherche": "2026-09-25T14:15:11.061Z",
+    "cherche": "2026-09-25T14:24:42.183Z",
     "instagram": [],
     "bluesky": [
       {
@@ -62,6 +8,7 @@
         "nom": "Fondation du patrimoine",
         "abonnes": 334
       }
-    ]
+    ],
+    "threads": []
   }
 }

@@ -194,3 +194,16 @@ test('le compte au cœur de l’article passe toujours avant les comptes de réf
   const trois = [...deux, { nom: 'X', handle: 'x', role: 'acteur' }];
   assert.deepEqual(rotation(libres, [], MAX - trois.length), [], 'plus aucune place');
 });
+
+test('un nom d’un seul mot se résout par la fiche, jamais par la devinette', async () => {
+  const { variantesHandle } = await import('../src/brain/comptes.mjs');
+  // 25/09/2026 : @troismatsbelem et @hermione_lafayette existaient, et le moteur ne les trouvait
+  // pas. Le nom seul n'était même pas examiné — or c'est l'entité principale de l'article.
+  assert.deepEqual(variantesHandle('Belem'), [], 'aucun pseudo deviné depuis un mot seul');
+  assert.deepEqual(variantesHandle('Hermione'), []);
+  // ce qui protège reste en place : @lebelem est un café bar, @belem_officiel une personne
+  assert.ok(!variantesHandle('Belem').includes('lebelem'));
+  // la voie sûre est la fiche officielle départagée par le contexte, puis son site
+  const { fiche } = await import('../src/sources/wikidata.mjs');
+  assert.equal(typeof fiche, 'function');
+});

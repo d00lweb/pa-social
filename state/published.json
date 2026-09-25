@@ -1219,5 +1219,41 @@
       "reponse": null,
       "sujet": "Bidache"
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=34448",
+    "channel": "x",
+    "at": "2026-09-25T10:00:48.759Z",
+    "mediaId": "kit-telegram",
+    "titre": "À Bidache, vivez 2000 ans d’histoire en un week-end",
+    "lien": "https://passion-aquitaine.ouest-france.fr/historiques-bidache-2026-chateau-gramont/",
+    "lienPost": null,
+    "format": "lien",
+    "mention": false,
+    "apercu": {
+      "texte": "Plus de 200 reconstituteurs investissent le château de Gramont, à #Bidache, les 3 et 4 octobre 2026. Campements, costumes et scènes rejouées : 2000 ans d’histoire condensés en un week-end ⚔️\n➡️ https://passion-aquitaine.ouest-france.fr/historiques-bidache-2026-chateau-gramont/",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260925-3e20f7ef-x.jpg",
+      "mode": "lien",
+      "reponse": null,
+      "sujet": null
+    }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35642",
+    "channel": "instagram",
+    "at": "2026-09-25T10:04:59.257Z",
+    "mediaId": "18131325625663328",
+    "titre": "En Charente-Maritime, nouveau succès pour l’Ultra Trail de Pons",
+    "lien": "https://passion-aquitaine.ouest-france.fr/bilan-ultra-trail-pons-2026/",
+    "lienPost": "https://www.instagram.com/p/DdtNCBBnJ3V/",
+    "format": null,
+    "mention": false,
+    "apercu": {
+      "texte": "🏃 2 740 coureurs à Pons : le petit trail charentais attire désormais jusqu’au Canada\n⠀\nVenus de France, du Canada ou de La Réunion, les inscrits ont fait de cette édition 2026 la plus fournie de l’histoire de l’Ultra Trail de Pons, en Charente-Maritime.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Pons #UltraTrail #CharenteMaritime",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-1bda31df-1.jpg",
+      "mode": null,
+      "reponse": null,
+      "sujet": null
+    }
   }
 ]

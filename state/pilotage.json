@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-25T09:21:16.205Z",
+  "genereLe": "2026-09-25T10:00:40.062Z",
   "jour": "2026-09-25",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 10,
-      "total": 17,
-      "dernier": "2026-09-24T16:05:58.276Z",
-      "lienDernier": "https://www.instagram.com/p/DdrRjJRFL_0/"
+      "aujourdhui": 1,
+      "semaine": 11,
+      "total": 18,
+      "dernier": "2026-09-25T10:04:59.257Z",
+      "lienDernier": "https://www.instagram.com/p/DdtNCBBnJ3V/"
     },
     "bluesky": {
       "actif": true,
@@ -61,7 +61,7 @@
         "reply"
       ],
       "aujourdhui": 1,
-      "semaine": 12,
+      "semaine": 11,
       "total": 17,
       "dernier": "2026-09-25T07:24:07.459Z",
       "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mwdah2cm6c2v"
@@ -160,43 +160,19 @@
         "lien",
         "reponse"
       ],
-      "aujourdhui": 1,
-      "semaine": 10,
-      "total": 16,
-      "dernier": "2026-09-25T07:21:25.943Z",
+      "aujourdhui": 2,
+      "semaine": 11,
+      "total": 17,
+      "dernier": "2026-09-25T10:00:48.759Z",
       "lienDernier": null
     }
   },
   "articles": [
     {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=34448",
-      "titre": "À Bidache, vivez 2000 ans d’histoire en un week-end",
-      "lien": "https://passion-aquitaine.ouest-france.fr/historiques-bidache-2026-chateau-gramont/",
-      "at": "2026-09-25T09:11:22.159Z",
-      "reseaux": {
-        "bluesky": {
-          "texte": "Des tentes dressées au pied des ruines, des armures, des métiers oubliés remis en gestes : le château de Gramont change d’époque le temps d’un week-end 🏰 Plus de 200 reconstituteurs y feront défiler 2000 ans d’histoire, à #Bidache.\n➡️ Lire l’article",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260925-3e20f7ef-bsky.jpg",
-          "mode": "image",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-25T07:24:07.459Z"
-        },
-        "threads": {
-          "texte": "Combien de siècles peut-on traverser en un seul week-end ? À Bidache, la réponse tient en 🏰 2000 ans d’histoire, rejoués dans le château de Gramont les 3 et 4 octobre 2026. Plus de 200 reconstituteurs y plantent leurs campements et refont vivre les gestes, les costumes et les combats d’époques très différentes. Vous êtes déjà allé voir une fête historique de ce genre ?",
-          "image": null,
-          "mode": "lien",
-          "reponse": null,
-          "sujet": "Bidache",
-          "publieLe": "2026-09-25T09:11:22.159Z"
-        }
-      }
-    },
-    {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35642",
       "titre": "En Charente-Maritime, nouveau succès pour l’Ultra Trail de Pons",
       "lien": "https://passion-aquitaine.ouest-france.fr/bilan-ultra-trail-pons-2026/",
-      "at": "2026-09-25T07:21:25.943Z",
+      "at": "2026-09-25T10:04:59.257Z",
       "reseaux": {
         "bluesky": {
           "texte": "L’Ultra Trail de #Pons n’attire plus seulement les habitués de Charente-Maritime : parmi les 🏅 2 740 inscrits de l’édition 2026, certains sont venus du Canada ou de La Réunion. Un record pour cette course de Saintonge.\n➡️ Lire l’article",
@@ -221,6 +197,46 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-09-25T07:21:25.943Z"
+        },
+        "instagram": {
+          "texte": "🏃 2 740 coureurs à Pons : le petit trail charentais attire désormais jusqu’au Canada\n⠀\nVenus de France, du Canada ou de La Réunion, les inscrits ont fait de cette édition 2026 la plus fournie de l’histoire de l’Ultra Trail de Pons, en Charente-Maritime.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Pons #UltraTrail #CharenteMaritime",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-1bda31df-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-09-25T10:04:59.257Z"
+        }
+      }
+    },
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=34448",
+      "titre": "À Bidache, vivez 2000 ans d’histoire en un week-end",
+      "lien": "https://passion-aquitaine.ouest-france.fr/historiques-bidache-2026-chateau-gramont/",
+      "at": "2026-09-25T10:00:48.759Z",
+      "reseaux": {
+        "bluesky": {
+          "texte": "Des tentes dressées au pied des ruines, des armures, des métiers oubliés remis en gestes : le château de Gramont change d’époque le temps d’un week-end 🏰 Plus de 200 reconstituteurs y feront défiler 2000 ans d’histoire, à #Bidache.\n➡️ Lire l’article",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260925-3e20f7ef-bsky.jpg",
+          "mode": "image",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-09-25T07:24:07.459Z"
+        },
+        "threads": {
+          "texte": "Combien de siècles peut-on traverser en un seul week-end ? À Bidache, la réponse tient en 🏰 2000 ans d’histoire, rejoués dans le château de Gramont les 3 et 4 octobre 2026. Plus de 200 reconstituteurs y plantent leurs campements et refont vivre les gestes, les costumes et les combats d’époques très différentes. Vous êtes déjà allé voir une fête historique de ce genre ?",
+          "image": null,
+          "mode": "lien",
+          "reponse": null,
+          "sujet": "Bidache",
+          "publieLe": "2026-09-25T09:11:22.159Z"
+        },
+        "x": {
+          "texte": "Plus de 200 reconstituteurs investissent le château de Gramont, à #Bidache, les 3 et 4 octobre 2026. Campements, costumes et scènes rejouées : 2000 ans d’histoire condensés en un week-end ⚔️\n➡️ https://passion-aquitaine.ouest-france.fr/historiques-bidache-2026-chateau-gramont/",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260925-3e20f7ef-x.jpg",
+          "mode": "lien",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-09-25T10:00:48.759Z"
         }
       }
     },
@@ -419,6 +435,26 @@
   ],
   "publications": [
     {
+      "channel": "instagram",
+      "at": "2026-09-25T10:04:59.257Z",
+      "titre": "En Charente-Maritime, nouveau succès pour l’Ultra Trail de Pons",
+      "lien": "https://passion-aquitaine.ouest-france.fr/bilan-ultra-trail-pons-2026/",
+      "lienPost": "https://www.instagram.com/p/DdtNCBBnJ3V/",
+      "format": null,
+      "texte": "🏃 2 740 coureurs à Pons : le petit trail charentais attire désormais jusqu’au Canada\n⠀\nVenus de France, du Canada ou de La Réunion, les inscrits ont fait de cette édition 2026 la plus fournie de l’histoire de l’Ultra Trail de Pons, en Charente-Maritime.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Pons #UltraTrail #CharenteMaritime",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-1bda31df-1.jpg"
+    },
+    {
+      "channel": "x",
+      "at": "2026-09-25T10:00:48.759Z",
+      "titre": "À Bidache, vivez 2000 ans d’histoire en un week-end",
+      "lien": "https://passion-aquitaine.ouest-france.fr/historiques-bidache-2026-chateau-gramont/",
+      "lienPost": null,
+      "format": "lien",
+      "texte": "Plus de 200 reconstituteurs investissent le château de Gramont, à #Bidache, les 3 et 4 octobre 2026. Campements, costumes et scènes rejouées : 2000 ans d’histoire condensés en un week-end ⚔️\n➡️ https://passion-aquitaine.ouest-france.fr/historiques-bidache-2026-chateau-gramont/",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260925-3e20f7ef-x.jpg"
+    },
+    {
       "channel": "threads",
       "at": "2026-09-25T09:11:22.159Z",
       "titre": "À Bidache, vivez 2000 ans d’histoire en un week-end",
@@ -497,47 +533,9 @@
       "format": null,
       "texte": "À Bordeaux, aux Bassins à flot, un atelier coud les filets des trimarans de course 🪡\n⠀\nLes mêmes couturières réalisent aussi des filets sur-mesure pour les mezzanines des maisons. Un savoir-faire discret, entre voile de compétition et aménagement intérieur.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #Trimaran #SavoirFaire",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-860ea888-1.jpg"
-    },
-    {
-      "channel": "threads",
-      "at": "2026-09-24T12:30:13.883Z",
-      "titre": "Des trimarans à nos mezzanines, ces filets sont cousus à Bordeaux",
-      "lien": "https://passion-aquitaine.ouest-france.fr/des-trimarans-a-nos-mezzanines-ces-filets-sont-cousus-a-bordeaux/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/Ddq4YpSEWa4",
-      "format": "reponse",
-      "texte": "🧵 On croit les filets de course réservés aux bateaux du large. En réalité, ceux des trimarans sont cousus aux Bassins à flot, à Bordeaux, par des couturières qui fabriquent aussi les filets tendus au-dessus de nos mezzanines. Même matière, même exigence, deux usages très différents. Vous connaissiez cet atelier ?",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-860ea888-th.jpg"
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-09-24T11:25:13.145Z",
-      "titre": "Top 6 des activités insolites autour de La Rochelle",
-      "lien": "https://passion-aquitaine.ouest-france.fr/activites-insolites-la-rochelle-top/",
-      "lienPost": "https://www.instagram.com/p/Ddqxam5Eccf/",
-      "format": null,
-      "texte": "Six activités insolites 🕳️ à faire autour de La Rochelle, loin des visites classiques du vieux port.\n⠀\nUn bunker allemand, une maison aux couloirs superposés, une ferme de spiruline : la Charente-Maritime cache des sorties que peu de visiteurs connaissent.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#LaRochelle #CharenteMaritime #Tourisme",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-005b146f-1.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "x",
-      "dueAt": "2026-09-25T10:00:00.000Z",
-      "prochainPassage": "2026-09-25T10:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "À Bidache, vivez 2000 ans d’histoire en un week-end"
-    },
-    {
-      "channel": "instagram",
-      "dueAt": "2026-09-25T10:04:32.441Z",
-      "prochainPassage": "2026-09-25T10:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "En Charente-Maritime, nouveau succès pour l’Ultra Trail de Pons"
-    },
     {
       "channel": "bluesky",
       "dueAt": "2026-09-25T11:08:24.379Z",
@@ -613,15 +611,15 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 64,
+    "releves": 65,
     "parReseau": {
       "instagram": {
         "posts": 7,
         "interactionsMoyennes": 10.7
       },
       "bluesky": {
-        "posts": 5,
-        "interactionsMoyennes": 0.4
+        "posts": 6,
+        "interactionsMoyennes": 0.5
       },
       "facebook": {
         "posts": 1,
@@ -690,7 +688,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-09-25T08:21:22.288Z"
+    "derniere": "2026-09-25T10:00:40.062Z"
   },
   "abonnes": {
     "instagram": {
@@ -736,7 +734,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-25T09:21:16.697Z",
+    "genereLe": "2026-09-25T10:05:01.007Z",
     "posts": 49,
     "parReseau": {
       "instagram": {
@@ -906,9 +904,9 @@
       }
     },
     "publies": {
-      "instagram": 17,
+      "instagram": 18,
       "bluesky": 17,
-      "x": 16,
+      "x": 17,
       "facebook": 12,
       "threads": 14
     },

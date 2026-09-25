@@ -1,6 +1,6 @@
 {
-  "genereLe": "2026-09-25T21:25:36.888Z",
-  "jour": "2026-09-25",
+  "genereLe": "2026-09-25T22:00:41.368Z",
+  "jour": "2026-09-26",
   "reseaux": {
     "instagram": {
       "actif": true,
@@ -24,7 +24,7 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 1,
+      "aujourdhui": 0,
       "semaine": 10,
       "total": 18,
       "dernier": "2026-09-25T17:27:59.215Z",
@@ -60,7 +60,7 @@
         "image",
         "reply"
       ],
-      "aujourdhui": 2,
+      "aujourdhui": 0,
       "semaine": 12,
       "total": 18,
       "dernier": "2026-09-25T11:08:26.481Z",
@@ -88,7 +88,7 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 2,
+      "aujourdhui": 0,
       "semaine": 11,
       "total": 13,
       "dernier": "2026-09-25T19:12:23.786Z",
@@ -124,7 +124,7 @@
         "lien",
         "reponse"
       ],
-      "aujourdhui": 3,
+      "aujourdhui": 0,
       "semaine": 13,
       "total": 15,
       "dernier": "2026-09-25T11:32:28.277Z",
@@ -160,7 +160,7 @@
         "lien",
         "reponse"
       ],
-      "aujourdhui": 3,
+      "aujourdhui": 0,
       "semaine": 12,
       "total": 18,
       "dernier": "2026-09-25T15:01:12.900Z",
@@ -589,7 +589,7 @@
   },
   "rapports": [],
   "jetons": {
-    "verifieLe": "2026-09-24T22:00:53.821Z",
+    "verifieLe": "2026-09-25T22:00:41.368Z",
     "meta": {
       "expireLe": "2026-12-16T20:08:59.000Z",
       "restant": 86,
@@ -597,7 +597,7 @@
     },
     "threads": {
       "expireLe": "2026-11-16T21:12:39.531Z",
-      "restant": 53,
+      "restant": 52,
       "renouvellement": "commande npm run threads:refresh"
     },
     "alertes": {}
@@ -648,49 +648,42 @@
   },
   "abonnes": {
     "instagram": {
-      "debut": 10146,
+      "debut": 10144,
       "fin": 10144,
-      "gain": -2,
+      "gain": 0,
       "pct": 0,
-      "depuis": "2026-09-18",
-      "au": "2026-09-25"
+      "depuis": "2026-09-19",
+      "au": "2026-09-26"
     },
     "facebook": {
-      "debut": 42626,
-      "fin": 42612,
+      "debut": 42625,
+      "fin": 42611,
       "gain": -14,
       "pct": 0,
-      "depuis": "2026-09-18",
-      "au": "2026-09-25"
+      "depuis": "2026-09-19",
+      "au": "2026-09-26"
     },
     "bluesky": {
-      "debut": 1,
+      "debut": 2,
       "fin": 4,
-      "gain": 3,
-      "pct": 300,
-      "depuis": "2026-09-18",
-      "au": "2026-09-25"
+      "gain": 2,
+      "pct": 100,
+      "depuis": "2026-09-19",
+      "au": "2026-09-26"
     },
     "threads": {
       "debut": 1144,
       "fin": 1148,
       "gain": 4,
       "pct": 0.3,
-      "depuis": "2026-09-18",
-      "au": "2026-09-25"
+      "depuis": "2026-09-19",
+      "au": "2026-09-26"
     },
-    "x": {
-      "debut": 2940,
-      "fin": 2940,
-      "gain": 0,
-      "pct": 0,
-      "depuis": "2026-09-18",
-      "au": "2026-09-18"
-    }
+    "x": null
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-25T21:25:43.052Z",
+    "genereLe": "2026-09-25T22:00:52.488Z",
     "posts": 55,
     "parReseau": {
       "instagram": {
@@ -873,15 +866,15 @@
         "gain": -2,
         "pct": 0,
         "depuis": "2026-09-18",
-        "au": "2026-09-25"
+        "au": "2026-09-26"
       },
       "facebook": {
         "debut": 42626,
-        "fin": 42612,
-        "gain": -14,
+        "fin": 42611,
+        "gain": -15,
         "pct": 0,
         "depuis": "2026-09-18",
-        "au": "2026-09-25"
+        "au": "2026-09-26"
       },
       "bluesky": {
         "debut": 1,
@@ -889,7 +882,7 @@
         "gain": 3,
         "pct": 300,
         "depuis": "2026-09-18",
-        "au": "2026-09-25"
+        "au": "2026-09-26"
       },
       "threads": {
         "debut": 1144,
@@ -897,7 +890,7 @@
         "gain": 4,
         "pct": 0.3,
         "depuis": "2026-09-18",
-        "au": "2026-09-25"
+        "au": "2026-09-26"
       },
       "x": {
         "debut": 2940,
@@ -922,11 +915,11 @@
   },
   "couts": {
     "jour": {
-      "appels": 3,
-      "entree": 21746,
-      "sortie": 3351,
-      "cout": 0.192505,
-      "cle": "2026-09-25"
+      "appels": 0,
+      "entree": 0,
+      "sortie": 0,
+      "cout": 0,
+      "cle": "2026-09-26"
     },
     "semaine": {
       "appels": 105,
@@ -941,17 +934,13 @@
       "cout": 5.470637,
       "cle": "2026-09"
     },
-    "projection": 6.56,
+    "projection": 6.31,
     "moyenneAppel": 0.0521,
     "parModele": {
       "claude-opus-5": 54,
       "claude-sonnet-5": 51
     },
     "serie": [
-      [
-        "2026-09-12",
-        0
-      ],
       [
         "2026-09-13",
         0
@@ -1003,6 +992,10 @@
       [
         "2026-09-25",
         0.1925
+      ],
+      [
+        "2026-09-26",
+        0
       ]
     ],
     "depuis": "2026-09-23"

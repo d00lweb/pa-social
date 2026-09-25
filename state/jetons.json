@@ -1,5 +1,5 @@
 {
-  "verifieLe": "2026-09-24T22:00:53.821Z",
+  "verifieLe": "2026-09-25T22:00:41.368Z",
   "meta": {
     "expireLe": "2026-12-16T20:08:59.000Z",
     "restant": 86,
@@ -7,7 +7,7 @@
   },
   "threads": {
     "expireLe": "2026-11-16T21:12:39.531Z",
-    "restant": 53,
+    "restant": 52,
     "renouvellement": "commande npm run threads:refresh"
   },
   "alertes": {}

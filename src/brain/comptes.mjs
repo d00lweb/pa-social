@@ -73,6 +73,45 @@ async function existeSurInstagram(handle, image) {
   }
 }
 
+// Nombre d'abonnés d'un compte, quand Instagram accepte de le dire. `business_discovery` ne
+// répond que pour les comptes professionnels ou créateurs : un compte personnel reste muet, et
+// c'est justement le cas des deux « Ultra Trail de Pons ». D'où le repli qui suit.
+export async function abonnesDe(handle) {
+  const token = process.env.IG_TOKEN;
+  const userId = process.env.IG_USER_ID;
+  if (!token || !userId) return null;
+  try {
+    const champs = `business_discovery.username(${handle}){followers_count}`;
+    const res = await fetch(`https://graph.facebook.com/${process.env.GRAPH_VERSION || 'v23.0'}/${userId}?fields=${encodeURIComponent(champs)}&access_token=${token}`, { signal: AbortSignal.timeout(15000) });
+    const json = await res.json().catch(() => ({}));
+    const n = json?.business_discovery?.followers_count;
+    return Number.isFinite(n) ? n : null;
+  } catch {
+    return null;
+  }
+}
+
+// Plusieurs pseudos existent pour la même entité. Le plus suivi est le bon dans l'immense majorité
+// des cas : un squatteur ou un compte abandonné ne rassemble pas d'audience. Quand aucun compte ne
+// publie son nombre d'abonnés — ils sont tous personnels —, on retient celui qui se déclare
+// officiel ; et si même ça ne tranche pas, on s'abstient plutôt que de taguer au hasard.
+export async function departager(handles, nom, log = () => {}, mesurer = abonnesDe) {
+  const mesures = await Promise.all(handles.map(async (h) => ({ handle: h, abonnes: await mesurer(h) })));
+  const connus = mesures.filter((m) => m.abonnes !== null).sort((a, b) => b.abonnes - a.abonnes);
+  if (connus.length) {
+    const [premier] = connus;
+    log(`   « ${nom} » : ${handles.length} pseudos existent, retenu @${premier.handle} (${premier.abonnes} abonnés) — ${connus.slice(1).map((m) => `@${m.handle} ${m.abonnes}`).join(', ') || 'les autres ne publient pas leur nombre d’abonnés'}`);
+    return premier.handle;
+  }
+  const officiels = handles.filter((h) => /officiel|_off$/.test(h));
+  if (officiels.length === 1) {
+    log(`   « ${nom} » : ${handles.length} pseudos existent, aucun ne publie ses abonnés — retenu @${officiels[0]}, seul à se déclarer officiel`);
+    return officiels[0];
+  }
+  log(`   « ${nom} » : ${handles.length} pseudos existent (${handles.join(', ')}), aucun ne publie ses abonnés et rien ne tranche — pas de mention. À arbitrer dans config/comptes.json.`);
+  return null;
+}
+
 // Instagram et X : la fiche donne parfois le compte, le site officiel presque toujours
 async function comptesMeta(entite, image, log = () => {}) {
   const f = await fiche(entite.nom);
@@ -91,13 +130,7 @@ async function comptesMeta(entite, image, log = () => {}) {
       if (await existeSurInstagram(candidat, image)) acceptes.push(candidat);
     }
     if (acceptes.length === 1) [instagram] = acceptes;
-    else if (acceptes.length > 1) {
-      // Un compte qui se déclare « officiel » revendique l'entité ; s'ils sont plusieurs à le
-      // faire, ou aucun, on renonce. Mieux vaut pas de mention qu'une mention au mauvais compte.
-      const officiels = acceptes.filter((h) => /officiel|_off$/.test(h));
-      if (officiels.length === 1) [instagram] = officiels;
-      else log(`   « ${entite.nom} » : ${acceptes.length} pseudos existent (${acceptes.join(', ')}), aucun moyen de trancher — pas de mention. À arbitrer dans config/comptes.json.`);
-    }
+    else if (acceptes.length > 1) instagram = await departager(acceptes, entite.nom, log);
   }
   return {
     instagram,
@@ -119,7 +152,9 @@ async function compteBluesky(entite) {
 }
 
 // Un compte par entité et par réseau, deux entités au maximum
-export async function resoudreComptes(entites = [], { max = 2, image = null, log = () => {} } = {}) {
+// Trois mentions au plus : c'est le levier le plus efficace pour être découvert — un compte
+// mentionné est notifié, et va voir. Au-delà, la publication ressemble à du démarchage.
+export async function resoudreComptes(entites = [], { max = 3, image = null, log = () => {} } = {}) {
   const plan = { instagram: [], x: [], bluesky: [], threads: [], facebook: [] };
   // Un nom d'un seul mot ne se vérifie pas : on préfère aucune mention à un homonyme
   const exploitables = entites.filter((e) => {

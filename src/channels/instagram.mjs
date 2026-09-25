@@ -16,6 +16,9 @@ export const id = 'instagram';
 const ed = JSON.parse(readFileSync(fromRoot('config/editorial.json'), 'utf8'));
 const MIN_SOURCE_WIDTH = 1200;
 const MAX_DESC = 300;
+// Trois mentions au plus sur l’image : chacune notifie le compte tagué, c’est le levier de
+// découverte le plus direct. Au-delà, la publication ressemble à du démarchage.
+const MAX_TAGS = 3;
 const DEFAULT_PUBLIC = 'https://passion-aquitaine.ouest-france.fr/social';
 // ligne « vide » en U+2800 : Instagram supprime les lignes réellement vides
 const BLANK_LINE = '⠀';
@@ -133,8 +136,9 @@ export async function publish(pkg, { channel }) {
 
   const [url1, url2, storyUrl] = await stage(pkg);
   // mentions posées sur la 1ʳᵉ image (invisibles dans le texte), lieu porté par le carrousel
-  const comptes = (pkg.dossier.comptes?.instagram ?? []).slice(0, 2);
-  const userTags = comptes.map((c, i) => ({ username: c.handle, x: 0.25 + i * 0.5, y: 0.9 }));
+  const comptes = (pkg.dossier.comptes?.instagram ?? []).slice(0, MAX_TAGS);
+  // répartition régulière : 1 tag au centre, 2 aux quarts, 3 aux sixièmes — jamais hors du cadre
+  const userTags = comptes.map((c, i) => ({ username: c.handle, x: (i + 0.5) / comptes.length, y: 0.9 }));
   const lieu = pkg.dossier.lieu ?? null;
   if (userTags.length) console.log(`   Mentions : ${comptes.map((c) => `@${c.handle}`).join(' ')}`);
   if (lieu) console.log(`   Lieu : ${lieu.nom} (${lieu.niveau})`);

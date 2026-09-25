@@ -95,3 +95,28 @@ test('lieu : seuls les identifiants longs sont acceptés par Meta', () => {
   assert.ok(!identifiantValide(''));
   assert.ok(!identifiantValide(null));
 });
+
+test('plusieurs pseudos pour une entité : le plus suivi l’emporte', async () => {
+  const { departager } = await import('../src/brain/comptes.mjs');
+  const dit = [];
+  const log = (m) => dit.push(m.trim());
+  // 25/09/2026 : @ultratraildepons et @ultratraildepons_officiel existent tous deux et acceptent
+  // d'être tagués. Meta prouve l'existence, jamais l'identité — il faut donc départager.
+  const abonnes = { a: 120, b: 8400, c: null };
+  assert.equal(await departager(['a', 'b'], 'X', log, async (h) => abonnes[h]), 'b', 'le plus suivi');
+  assert.match(dit.at(-1), /8400 abonnés/);
+
+  // un compte personnel ne publie pas ses abonnés : on retient celui qui se déclare officiel
+  dit.length = 0;
+  const muet = async () => null;
+  assert.equal(await departager(['ultratraildepons', 'ultratraildepons_officiel'], 'Ultra Trail de Pons', log, muet), 'ultratraildepons_officiel');
+  assert.match(dit.at(-1), /seul à se déclarer officiel/);
+
+  // un seul compte connu face à des muets : il l'emporte, un chiffre vaut mieux qu'aucun
+  assert.equal(await departager(['c', 'a'], 'X', () => {}, async (h) => abonnes[h]), 'a');
+
+  // rien ne tranche : aucune mention plutôt qu'une mention au hasard
+  dit.length = 0;
+  assert.equal(await departager(['unetruc', 'autretruc'], 'X', log, muet), null);
+  assert.match(dit.at(-1), /pas de mention/);
+});

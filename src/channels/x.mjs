@@ -85,8 +85,8 @@ export async function prepare(article, { dossier, renderer: shared, log = consol
 // commencer le post par un saut de ligne. Le sommaire annonce l'ordre une fois pour toutes.
 export function kitMessages(pkg) {
   const mode = pkg.mode ?? 'image';
-  const comptes = (pkg.dossier?.comptes?.x ?? []).slice(0, 2);
-  const pistes = comptes.length ? [] : (pkg.dossier?.comptes?.instagram ?? []).slice(0, 2);
+  const comptes = (pkg.dossier?.comptes?.x ?? []).slice(0, 3);
+  const pistes = comptes.length ? [] : (pkg.dossier?.comptes?.instagram ?? []).slice(0, 3);
   const nomLieu = pkg.dossier?.lieuNom ?? pkg.dossier?.lieu?.nom;
   const commune = pkg.dossier?.commune;
   const alt = pkg.dossier?.visuel?.texte_alternatif;

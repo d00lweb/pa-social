@@ -20,12 +20,34 @@ const depuisTable = (nom) => {
 // De « Musée d'Aquitaine » aux comptes réels, réseau par réseau.
 // Chaîne : fiche officielle → site de l'entité → vérification. Jamais de pseudo deviné.
 
-// Pseudos dérivés du nom exact, dans un ordre fixe : « Morimoto Bordeaux » donne morimotobordeaux,
-// morimoto_bordeaux, morimoto.bordeaux. Chacun est ensuite soumis à Meta, qui confirme ou non son
+// Pseudos dérivés du nom exact. Chacun est ensuite soumis à Meta, qui confirme ou non son
 // existence : un commerce absent de Wikidata devient ainsi trouvable, sans jamais rien inventer.
+//
+// 25/09/2026 : « Ultra Trail de Pons » n'a produit que ultratrailpons, ultra_trail_pons et
+// ultra.trail.pons. Le compte réel est @ultratraildepons_officiel — il garde le « de » et ajoute
+// « _officiel ». Trois formes contre des dizaines d'usages réels : le compte existait, était
+// taguable, et n'a jamais été proposé.
+//
+// Élargir ne fait courir aucun risque d'invention, puisque Meta reste l'arbitre : un pseudo
+// inexistant est refusé. Le seul risque serait l'homonyme, et il est écarté autrement — chaque
+// candidat est bâti sur **tous** les mots distinctifs du nom, et un nom d'un seul mot est refusé
+// en amont. On ne cherche jamais « pons », seulement « ultratraildepons ».
+const SUFFIXES = ['', '_officiel', 'officiel', '.officiel', '_off'];
+
 export const variantesHandle = (nom) => {
-  const m = motsCles(nom);
-  return m.length < 2 ? [] : [m.join(''), m.join('_'), m.join('.')];
+  const forts = motsCles(nom);                                             // sans les petits mots
+  if (forts.length < 2) return [];
+  const tous = fold(nom).split(/[^a-z0-9]+/).filter(Boolean);              // « de », « du », « la » compris
+  const bases = [];
+  for (const mots of tous.length > forts.length ? [tous, forts] : [forts]) {
+    for (const lien of ['', '_', '.']) bases.push(mots.join(lien));
+  }
+  // Les formes les plus courantes d'abord : le premier pseudo confirmé arrête la recherche.
+  const sortie = [];
+  for (const suffixe of SUFFIXES) for (const base of bases) sortie.push(base + suffixe);
+  // Chaque candidat coûte un appel à Meta : on s'arrête aux douze formes les plus courantes,
+  // ordonnées du plus probable au moins probable. Au-delà, on paierait cher un gain marginal.
+  return [...new Set(sortie)].filter((h) => h.length <= 30).slice(0, 12); // 30 = limite d'Instagram
 };
 
 // Meta refuse un pseudo inexistant ou privé : c'est notre preuve d'existence.
@@ -52,15 +74,29 @@ async function existeSurInstagram(handle, image) {
 }
 
 // Instagram et X : la fiche donne parfois le compte, le site officiel presque toujours
-async function comptesMeta(entite, image) {
+async function comptesMeta(entite, image, log = () => {}) {
   const f = await fiche(entite.nom);
   const site = f?.site ? await handlesFromSite(f.site) : { insta: [], x: [], facebook: [] };
   const table = depuisTable(entite.nom) ?? {};
 
-  let instagram = f?.insta ?? site.insta[0] ?? table.instagram ?? null;
+  // Table vérifiée d'abord : c'est la seule source qui prouve l'identité, pas seulement l'existence.
+  let instagram = table.instagram ?? f?.insta ?? site.insta[0] ?? null;
   if (!instagram) {
+    // Meta prouve qu'un pseudo existe, jamais qu'il désigne la bonne entité. Le 25/09/2026,
+    // @ultratraildepons et @ultratraildepons_officiel ont tous deux été acceptés, et aucune API
+    // ne sait dire lequel est le compte de l'épreuve : tous deux sont des comptes personnels,
+    // invisibles à business_discovery. On relève donc tous les pseudos acceptés avant de trancher.
+    const acceptes = [];
     for (const candidat of variantesHandle(entite.nom)) {
-      if (await existeSurInstagram(candidat, image)) { instagram = candidat; break; }
+      if (await existeSurInstagram(candidat, image)) acceptes.push(candidat);
+    }
+    if (acceptes.length === 1) [instagram] = acceptes;
+    else if (acceptes.length > 1) {
+      // Un compte qui se déclare « officiel » revendique l'entité ; s'ils sont plusieurs à le
+      // faire, ou aucun, on renonce. Mieux vaut pas de mention qu'une mention au mauvais compte.
+      const officiels = acceptes.filter((h) => /officiel|_off$/.test(h));
+      if (officiels.length === 1) [instagram] = officiels;
+      else log(`   « ${entite.nom} » : ${acceptes.length} pseudos existent (${acceptes.join(', ')}), aucun moyen de trancher — pas de mention. À arbitrer dans config/comptes.json.`);
     }
   }
   return {
@@ -94,7 +130,7 @@ export async function resoudreComptes(entites = [], { max = 2, image = null, log
   const retenues = choisir(exploitables.map((e) => ({ ...e, entite: e.nom, handle: e.nom })), { max });
 
   for (const entite of retenues) {
-    const [meta, bluesky] = await Promise.all([comptesMeta(entite, image), compteBluesky(entite)]);
+    const [meta, bluesky] = await Promise.all([comptesMeta(entite, image, log), compteBluesky(entite)]);
     const sur = meta.instagram ? await surThreads(meta.instagram) : false;
 
     if (meta.instagram) plan.instagram.push({ nom: entite.nom, handle: meta.instagram, role: entite.role });

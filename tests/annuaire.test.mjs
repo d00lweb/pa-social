@@ -36,8 +36,17 @@ test('correspondance : tous les mots du nom, accents et casse ignorés', () => {
   // rencontré en conditions réelles : « Morimoto » a retenu un compte personnel nommé « Morimoto🌱 »
   assert.ok(!nomExploitable('Morimoto'), 'un nom d’un seul mot ne permet aucune vérification');
   assert.ok(nomExploitable('Morimoto Bordeaux'));
-  assert.deepEqual(variantesHandle('Morimoto Bordeaux'), ['morimotobordeaux', 'morimoto_bordeaux', 'morimoto.bordeaux']);
+  assert.deepEqual(variantesHandle('Morimoto Bordeaux').slice(0, 3), ['morimotobordeaux', 'morimoto_bordeaux', 'morimoto.bordeaux'], 'les formes les plus courantes d’abord');
   assert.deepEqual(variantesHandle('Morimoto'), [], 'aucun pseudo généré depuis un nom trop court');
+  // 25/09/2026 : @ultratraildepons_officiel existait, était taguable, et n'était pas proposé — le
+  // générateur perdait le « de » et ignorait le suffixe « officiel », très répandu en France.
+  const pons = variantesHandle('Ultra Trail de Pons');
+  assert.ok(pons.includes('ultratraildepons_officiel'), `absent : ${pons.join(', ')}`);
+  assert.ok(pons.includes('ultratraildepons'), 'la forme qui garde les petits mots');
+  assert.ok(pons.includes('ultratrailpons'), 'et celle qui les retire');
+  assert.ok(pons.length <= 12, `${pons.length} candidats : chacun coûte un appel à Meta`);
+  assert.ok(pons.every((h) => h.length <= 30), 'limite d’Instagram');
+  assert.equal(new Set(pons).size, pons.length, 'aucun doublon à vérifier deux fois');
   assert.ok(correspond('Landes', { handle: 'departementlandes.bsky.social', nom: 'Département des Landes' }));
   // rencontré en conditions réelles : la fiche trouvée pour « Département de la Gironde » était Gallica,
   // ses comptes auraient été tagués à la place de ceux du Département

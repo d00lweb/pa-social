@@ -97,3 +97,26 @@ test('aperçu : échappement HTML, limite de 4000 caractères, boutons', () => {
   assert.equal(previewButtons('abc', true)[0][0].callback_data, 'v:abc');
   assert.ok(previewButtons('abc', true).flat().every((b) => Buffer.byteLength(b.callback_data) <= 64));
 });
+
+test('kit X : les comptes à chercher à la main sont proposés, pas devinés', async () => {
+  const { kitMessages } = await import('../src/channels/x.mjs');
+  // X n'a pas d'API gratuite : aucun pseudo n'y est vérifiable. Plutôt que de se taire, le kit
+  // donne les organisations confirmées sur les autres réseaux — le nom est sûr, le pseudo non.
+  const kit = kitMessages({
+    article: { title: 'T' }, mode: 'lien', text: 'Texte',
+    dossier: {
+      comptes: {
+        x: [],
+        instagram: [{ nom: 'Parc Zoo du Reynou', handle: 'parczooreynou' }, { nom: 'biodiversité', handle: 'ofbiodiversite', thematique: true }],
+        bluesky: [{ nom: 'biodiversité', handle: 'ofbiodiversite.bsky.social', thematique: true }],
+      },
+    },
+  });
+  assert.deepEqual(kit.aChercher.map((c) => c.nom), ['Parc Zoo du Reynou', 'biodiversité'], 'une organisation citée une seule fois');
+  // un compte déjà connu sur X n'est pas proposé à la recherche
+  const avecX = kitMessages({
+    article: { title: 'T' }, mode: 'lien', text: 'Texte',
+    dossier: { comptes: { x: [{ nom: 'Parc Zoo du Reynou', handle: 'parczooreynou' }], instagram: [{ nom: 'Parc Zoo du Reynou', handle: 'parczooreynou' }] } },
+  });
+  assert.deepEqual(avecX.aChercher, []);
+});

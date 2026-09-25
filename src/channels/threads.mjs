@@ -56,6 +56,15 @@ export async function prepare(article, { dossier, renderer: shared, log = consol
       log(`   Mention : @${mention.handle}`);
     }
   }
+  // idem Bluesky : le compte de référence s'ajoute en fin de post, faute de nom à substituer
+  const reference = (dossier.comptes?.threads ?? []).find((c) => c.thematique);
+  if (reference) {
+    const avec = `${texte}\n@${reference.handle}`;
+    if (compte(avec) <= MAX_TEXT) {
+      texte = avec;
+      log(`   Compte de référence mentionné : @${reference.handle}`);
+    }
+  }
   if (compte(texte) > MAX_TEXT) throw new GuardError(article, [`texte Threads trop long : ${compte(texte)} / ${MAX_TEXT}`]);
 
   // sujet : la commune quand l'article en nomme une, plus précise que la rubrique ; sinon celui de l'IA.

@@ -100,6 +100,18 @@ export function kitMessages(pkg) {
     alt && { etiquette: 'Copier la description', valeur: alt, sommaire: 'la description de l’image (bouton « ALT » sur X)' },
   ].filter(Boolean);
 
+  // X n'a pas d'API gratuite : impossible d'y vérifier un pseudo. Plutôt que de ne rien dire, on
+  // donne les organisations à chercher — celles que les autres réseaux ont confirmées pour cet
+  // article. Le nom est sûr, le pseudo reste à trouver : trente secondes de recherche pour une
+  // mention qui, elle, touche une audience entière.
+  const aChercher = [
+    ...(pkg.dossier?.comptes?.instagram ?? []),
+    ...(pkg.dossier?.comptes?.bluesky ?? []),
+  ]
+    .filter((c) => !comptes.some((x) => x.handle === c.handle))
+    .filter((c, i, t) => t.findIndex((x) => (x.nom ?? '') === (c.nom ?? '')) === i)
+    .slice(0, 3);
+
   const sommaire = [
     `🐦 <b>Kit X</b> · ${esc(pkg.article.title)}`,
     `<i>Format : ${LIBELLES[mode] ?? mode}</i>`,
@@ -110,13 +122,21 @@ export function kitMessages(pkg) {
     `<i>Ci-dessous, dans l’ordre : ${elements.map((e) => e.sommaire).join(' · ')}. Chaque message ne contient que le texte à copier, le bouton le met dans le presse-papier.</i>`,
   ].filter(Boolean).join('\n');
 
-  return { sommaire, elements };
+  return { sommaire, elements, aChercher };
 }
 
 export async function publish(pkg) {
   if (pkg.files.length) await sendDocument(pkg.files[0].buffer, pkg.files[0].name);
-  const { sommaire, elements } = kitMessages(pkg);
+  const { sommaire, elements, aChercher } = kitMessages(pkg);
   await send(sommaire, { reply_markup: JSON.stringify({ inline_keyboard: [[{ text: '✍️ Publier sur X', url: pkg.intent }]] }) });
   for (const e of elements) await sendCopie(e.etiquette, e.valeur, { note: e.note ?? null, lien: e.lien ?? null });
+  if (aChercher.length) {
+    await send([
+      '🔎 <b>Comptes à chercher sur X</b>',
+      '<i>Confirmés sur les autres réseaux pour cet article ; X n’ayant pas d’API gratuite, leur pseudo reste à trouver à la main.</i>',
+      '',
+      ...aChercher.map((c) => `· <b>${esc(c.nom)}</b>${c.thematique ? ' — compte de référence du domaine' : ''}`),
+    ].join('\n'));
+  }
   return { mediaId: 'kit-telegram' };
 }

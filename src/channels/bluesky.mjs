@@ -95,6 +95,18 @@ export async function prepare(article, { dossier, renderer: shared, log = consol
       log(`   Mention : @${mention.handle}`);
     }
   }
+  // Un compte de référence ne peut pas se substituer à un nom absent du texte : il s'ajoute donc
+  // en fin de post, sur sa propre ligne. C'est l'usage sur Bluesky, et c'est la seule façon de
+  // faire découvrir le média à l'audience d'une organisation du domaine. Un seul, et seulement
+  // s'il reste de la place : la longueur du texte prime.
+  const reference = (dossier.comptes?.bluesky ?? []).find((c) => c.thematique);
+  if (reference) {
+    const avec = `${text}\n@${reference.handle}`;
+    if (graphemes(avec) <= MAX_GRAPHEMES) {
+      text = avec;
+      log(`   Compte de référence mentionné : @${reference.handle}`);
+    } else log(`   Compte de référence @${reference.handle} non mentionné : texte déjà à ${graphemes(text)} caractères`);
+  }
   if (graphemes(text) > MAX_GRAPHEMES) throw new GuardError(article, [`texte Bluesky trop long : ${graphemes(text)} / ${MAX_GRAPHEMES}`]);
 
   const source = await loadSource(article.image);

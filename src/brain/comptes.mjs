@@ -233,7 +233,7 @@ export async function annuaire(domaines, { log = () => {}, jours = 30, maintenan
 // Une recherche par domaine, sur les deux réseaux qui permettent de découvrir : Instagram par
 // pseudos plausibles soumis à l'API, Bluesky par sa recherche d'acteurs. Le filtre est le même.
 async function chercherDomaine(domaine, log) {
-  const [{ surInstagram, surBluesky }, { chercheActeurs, profil }] = await Promise.all([
+  const [{ surInstagram, surBluesky, retenir }, { chercheActeurs, profil }] = await Promise.all([
     import('./decouverte.mjs'),
     import('../sources/bsky-public.mjs'),
   ]);
@@ -251,12 +251,37 @@ async function chercherDomaine(domaine, log) {
     const p = await profil(handle).catch(() => null);
     return p ? { nom: p.nom ?? p.displayName, description: p.description, abonnes: p.abonnes ?? p.followersCount } : null;
   };
-  const [instagram, bluesky] = await Promise.all([
+  const [devines, bluesky] = await Promise.all([
     surInstagram(domaine, { decrire, log: () => {} }).catch(() => []),
     surBluesky(domaine, { chercher: chercheActeurs, lireProfil, log: () => {} }).catch(() => []),
   ]);
+
+  // Le pont entre les deux réseaux, et c'est lui qui rend la découverte utile sur Instagram.
+  // Un pseudo fabriqué depuis le mot du domaine ne trouvera jamais l'Office français de la
+  // biodiversité, qui se nomme @ofbiodiversite et compte 50 383 abonnés — ni la Ligue pour la
+  // protection des oiseaux, qui est @lpo_officiel et non @lpofrance, comme je l'avais supposé.
+  // Bluesky, lui, donne le **nom** de l'organisation ; Wikidata et son site officiel donnent
+  // ensuite ses pseudos. Deux vérifications enchaînées, aucune devinette.
+  const ponts = [];
+  for (const org of bluesky) {
+    if (!org.nom) continue;
+    const meta = await comptesMeta({ nom: org.nom, role: 'theme' }, null, () => {}).catch(() => null);
+    if (!meta?.instagram) continue;
+    const b = await decrire(meta.instagram);
+    if (!b) continue;
+    const compte = { handle: b.username ?? meta.instagram, nom: b.name ?? org.nom, description: b.biography ?? '', abonnes: b.followers_count ?? null };
+    const { garde } = retenir(compte, { domaine, reseau: 'instagram' });
+    if (garde) ponts.push(compte);
+  }
+
+  const instagram = [...devines, ...ponts].filter((c, i, t) => t.findIndex((x) => fold(x.handle) === fold(c.handle)) === i);
   const garder = (liste) => liste.slice(0, 3).map((c) => ({ handle: c.handle, nom: c.nom, abonnes: c.abonnes }));
-  return { instagram: garder(instagram), bluesky: garder(bluesky) };
+  // Threads reprend le pseudo Instagram : un compte de référence trouvé sur Instagram y est
+  // mentionnable tel quel, à condition d'y exister vraiment. La vérification est gratuite.
+  const retenusIg = garder(instagram);
+  const threads = [];
+  for (const c of retenusIg) if (await surThreads(c.handle).catch(() => false)) threads.push(c);
+  return { instagram: retenusIg, bluesky: garder(bluesky), threads };
 }
 
 // Un compte par entité et par réseau, trois entités au maximum

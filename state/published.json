@@ -1165,5 +1165,41 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35642",
+    "channel": "x",
+    "at": "2026-09-25T07:21:25.943Z",
+    "mediaId": "kit-telegram",
+    "titre": "En Charente-Maritime, nouveau succès pour l’Ultra Trail de Pons",
+    "lien": "https://passion-aquitaine.ouest-france.fr/bilan-ultra-trail-pons-2026/",
+    "lienPost": null,
+    "format": "lien",
+    "mention": false,
+    "apercu": {
+      "texte": "🏃 Comment une course de Charente-Maritime attire-t-elle des coureurs du Canada et de La Réunion ? L’Ultra Trail de #Pons a réuni 2 740 inscrits pour son édition 2026, un record.\n➡️ https://passion-aquitaine.ouest-france.fr/bilan-ultra-trail-pons-2026/",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-1bda31df-x.jpg",
+      "mode": "lien",
+      "reponse": null,
+      "sujet": null
+    }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=34448",
+    "channel": "bluesky",
+    "at": "2026-09-25T07:24:07.459Z",
+    "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mwdah2cm6c2v",
+    "titre": "À Bidache, vivez 2000 ans d’histoire en un week-end",
+    "lien": "https://passion-aquitaine.ouest-france.fr/historiques-bidache-2026-chateau-gramont/",
+    "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mwdah2cm6c2v",
+    "format": "image",
+    "mention": false,
+    "apercu": {
+      "texte": "Des tentes dressées au pied des ruines, des armures, des métiers oubliés remis en gestes : le château de Gramont change d’époque le temps d’un week-end 🏰 Plus de 200 reconstituteurs y feront défiler 2000 ans d’histoire, à #Bidache.\n➡️ Lire l’article",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260925-3e20f7ef-bsky.jpg",
+      "mode": "image",
+      "reponse": null,
+      "sujet": null
+    }
   }
 ]

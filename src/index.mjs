@@ -219,7 +219,13 @@ async function enrichir(dossier, article = null) {
   dossier.commune ??= String(dossier.lieuSource?.ville ?? '').trim() || null;
   if (dossier.comptes) return dossier;
   // l'image de l'article sert à faire confirmer par Meta l'existence d'un compte trouvé
-  dossier.comptes = await resoudreComptes(dossier.entites ?? [], { image: article?.image ?? null, log: console.log });
+  dossier.comptes = await resoudreComptes(dossier.entites ?? [], {
+    image: article?.image ?? null,
+    // les données de l'article servent à reconnaître le thème : « trail » doit y figurer en toutes
+    // lettres pour que les comptes de référence du trail soient ajoutés
+    texte: [article?.title, article?.description, ...(article?.categories ?? [])].filter(Boolean).join(' '),
+    log: console.log,
+  });
   dossier.lieu = await resoudreLieu(source);
   return dossier;
 }

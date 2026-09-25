@@ -115,8 +115,28 @@ test('plusieurs pseudos pour une entité : le plus suivi l’emporte', async () 
   // un seul compte connu face à des muets : il l'emporte, un chiffre vaut mieux qu'aucun
   assert.equal(await departager(['c', 'a'], 'X', () => {}, async (h) => abonnes[h]), 'a');
 
-  // rien ne tranche : aucune mention plutôt qu'une mention au hasard
+  // rien ne tranche : on garde le premier, et l'appelant tague les autres avec lui — ils sont tous
+  // bâtis sur les mots du nom de l'entité, et chacun peut décider de suivre à son tour
   dit.length = 0;
-  assert.equal(await departager(['unetruc', 'autretruc'], 'X', log, muet), null);
-  assert.match(dit.at(-1), /pas de mention/);
+  assert.equal(await departager(['unetruc', 'autretruc'], 'X', log, muet), 'unetruc');
+  assert.match(dit.at(-1), /tous tagués/);
+});
+
+test('comptes de référence d’un thème : seulement si l’article parle vraiment du sujet', async () => {
+  const { comptesThematiques } = await import('../src/brain/comptes.mjs');
+  const table = { trail: { motsCles: ['trail', 'traileur'], instagram: ['lestraileurs', 'trail.passion'], bluesky: [] } };
+  const pons = 'En Charente-Maritime, nouveau succès pour l’Ultra Trail de Pons. 2 740 inscrits. Sport';
+  assert.deepEqual(comptesThematiques(pons, 'instagram', table).map((c) => c.handle), ['lestraileurs', 'trail.passion']);
+  // le thème ne se force pas : une course qui ne dit jamais « trail » n'appelle pas ces comptes
+  assert.deepEqual(comptesThematiques('Cette course de 80 km traverse le Périgord. Sport', 'instagram', table), []);
+  assert.deepEqual(comptesThematiques('Près de Limoges, on dort au milieu des girafes', 'instagram', table), []);
+  // mot entier seulement : « traileur » compte, « retail » non
+  assert.equal(comptesThematiques('Le traileur bordelais termine 3e', 'instagram', table).length, 2);
+  assert.deepEqual(comptesThematiques('Le retail se porte bien à Bordeaux', 'instagram', table), []);
+  // un réseau sans compte de référence n'en invente pas
+  assert.deepEqual(comptesThematiques(pons, 'bluesky', table), []);
+  assert.deepEqual(comptesThematiques(pons, 'facebook', table), []);
+  assert.deepEqual(comptesThematiques(null, 'instagram', table), []);
+  // rôle « theme » : il distingue ces comptes de ceux que l'article nomme
+  assert.equal(comptesThematiques(pons, 'instagram', table)[0].role, 'theme');
 });

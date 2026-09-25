@@ -8,7 +8,7 @@ import { correspond, suspect, choisir, fold, motsCles, nomExploitable } from './
 
 // Dernier recours pour les collectivités de notre zone : certains sites chargent leurs réseaux
 // en JavaScript, donc ni la fiche ni le balayage ne les voient. Table courte et vérifiée.
-const { institutions = {} } = JSON.parse(readFileSync(fromRoot('config/comptes.json'), 'utf8'));
+const { institutions = {}, thematiques = {} } = JSON.parse(readFileSync(fromRoot('config/comptes.json'), 'utf8'));
 const PREFIXE = /^(?:le\s+)?(?:département|departement|conseil départemental|conseil departemental)\s+(?:de\s+la\s+|de\s+l[’']|de\s+|des\s+|du\s+|d[’'])?/i;
 
 const depuisTable = (nom) => {
@@ -108,8 +108,11 @@ export async function departager(handles, nom, log = () => {}, mesurer = abonnes
     log(`   « ${nom} » : ${handles.length} pseudos existent, aucun ne publie ses abonnés — retenu @${officiels[0]}, seul à se déclarer officiel`);
     return officiels[0];
   }
-  log(`   « ${nom} » : ${handles.length} pseudos existent (${handles.join(', ')}), aucun ne publie ses abonnés et rien ne tranche — pas de mention. À arbitrer dans config/comptes.json.`);
-  return null;
+  // Rien ne tranche : on garde le premier candidat, et l'appelant taguera les autres avec lui.
+  // Ces pseudos sont tous bâtis sur les mots du nom de l'entité — aucun n'est étranger au sujet,
+  // et chacun peut décider de suivre à son tour. Décision du 25/09/2026.
+  log(`   « ${nom} » : ${handles.length} pseudos existent (${handles.join(', ')}), aucun ne publie ses abonnés — tous tagués.`);
+  return handles[0];
 }
 
 // Instagram et X : la fiche donne parfois le compte, le site officiel presque toujours
@@ -119,6 +122,7 @@ async function comptesMeta(entite, image, log = () => {}) {
   const table = depuisTable(entite.nom) ?? {};
 
   // Table vérifiée d'abord : c'est la seule source qui prouve l'identité, pas seulement l'existence.
+  let autres = [];
   let instagram = table.instagram ?? f?.insta ?? site.insta[0] ?? null;
   if (!instagram) {
     // Meta prouve qu'un pseudo existe, jamais qu'il désigne la bonne entité. Le 25/09/2026,
@@ -131,9 +135,13 @@ async function comptesMeta(entite, image, log = () => {}) {
     }
     if (acceptes.length === 1) [instagram] = acceptes;
     else if (acceptes.length > 1) instagram = await departager(acceptes, entite.nom, log);
+    // Plusieurs comptes pour la même entité : on les tague tous. Ils sont bâtis sur les mots du
+    // nom, aucun n'est étranger au sujet, et chacun peut décider de suivre à son tour.
+    if (acceptes.length > 1) autres = acceptes.filter((h) => h !== instagram);
   }
   return {
     instagram,
+    autres,
     x: f?.x ?? site.x[0] ?? table.x ?? null,
     // Facebook : fiche officielle seulement. Un site cite souvent d'autres pages que la sienne
     // (bordeaux.fr renvoyait « bordeauxmaville », un site d'actualité) et l'erreur serait invisible.
@@ -151,10 +159,29 @@ async function compteBluesky(entite) {
   return null;
 }
 
-// Un compte par entité et par réseau, deux entités au maximum
+// Comptes de référence d'un thème : pas des comptes cités par l'article, mais des audiences déjà
+// rassemblées autour du sujet. Les taguer fait découvrir le média à des gens qui s'y intéressent
+// déjà — c'est le levier de croissance le plus direct dont on dispose.
+//
+// Trois garde-fous, parce qu'une mention hors sujet coûte plus qu'elle ne rapporte :
+//  · la table est écrite à la main, chaque compte vérifié (nom, bio, abonnés) avant inscription ;
+//  · le thème ne s'applique que si l'un de ses mots figure vraiment dans l'article, en mot entier ;
+//  · ces comptes ne viennent qu'après ceux que l'article nomme, et seulement s'il reste de la place.
+export function comptesThematiques(texte, reseau = 'instagram', table = thematiques) {
+  const t = fold(texte ?? '');
+  const mot = (m) => new RegExp(`(^|[^\\p{L}])${fold(m).replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}([^\\p{L}]|$)`, 'u').test(t);
+  const sortie = [];
+  for (const [nom, theme] of Object.entries(table)) {
+    if (!(theme.motsCles ?? []).some(mot)) continue;
+    for (const handle of theme[reseau] ?? []) sortie.push({ nom, handle, role: 'theme', thematique: true });
+  }
+  return sortie;
+}
+
+// Un compte par entité et par réseau, trois entités au maximum
 // Trois mentions au plus : c'est le levier le plus efficace pour être découvert — un compte
 // mentionné est notifié, et va voir. Au-delà, la publication ressemble à du démarchage.
-export async function resoudreComptes(entites = [], { max = 3, image = null, log = () => {} } = {}) {
+export async function resoudreComptes(entites = [], { max = 3, image = null, texte = null, log = () => {} } = {}) {
   const plan = { instagram: [], x: [], bluesky: [], threads: [], facebook: [] };
   // Un nom d'un seul mot ne se vérifie pas : on préfère aucune mention à un homonyme
   const exploitables = entites.filter((e) => {
@@ -169,6 +196,8 @@ export async function resoudreComptes(entites = [], { max = 3, image = null, log
     const sur = meta.instagram ? await surThreads(meta.instagram) : false;
 
     if (meta.instagram) plan.instagram.push({ nom: entite.nom, handle: meta.instagram, role: entite.role });
+    // homonymes du même nom : tagués aussi, ils peuvent suivre à leur tour
+    for (const h of meta.autres ?? []) plan.instagram.push({ nom: entite.nom, handle: h, role: entite.role });
     if (meta.x) plan.x.push({ nom: entite.nom, handle: meta.x, role: entite.role });
     if (meta.facebook) plan.facebook.push({ nom: entite.nom, handle: meta.facebook, role: entite.role });
     if (bluesky) plan.bluesky.push({ nom: entite.nom, handle: bluesky, role: entite.role });
@@ -176,6 +205,17 @@ export async function resoudreComptes(entites = [], { max = 3, image = null, log
 
     const trouve = [meta.instagram && 'Instagram', bluesky && 'Bluesky', sur && 'Threads', meta.x && 'X'].filter(Boolean);
     log(`   Comptes « ${entite.nom} » (${entite.role}) : ${trouve.join(', ') || 'aucun, pas de mention'}`);
+  }
+
+  // Places restantes comblées par les comptes de référence du thème, jamais l'inverse : ceux que
+  // l'article nomme passent toujours devant.
+  for (const [reseau, liste] of Object.entries(plan)) {
+    if (!texte || liste.length >= max) continue;
+    for (const c of comptesThematiques(texte, reseau)) {
+      if (liste.length >= max || liste.some((x) => fold(x.handle) === fold(c.handle))) continue;
+      liste.push(c);
+      log(`   Compte de référence « ${c.nom} » ajouté sur ${reseau} : @${c.handle}`);
+    }
   }
   return plan;
 }

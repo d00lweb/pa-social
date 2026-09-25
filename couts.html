@@ -3,268 +3,388 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Coûts IA — Passion Aquitaine</title>
-<meta name="description" content="Ce que le rédacteur IA coûte réellement : relevé appel par appel, d'après les jetons facturés par l'API.">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23CD402C'/%3E%3Ctext x='32' y='43' font-family='Arial' font-weight='700' font-size='30' fill='white' text-anchor='middle'%3E$%3C/text%3E%3C/svg%3E">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<title>Coût du rédacteur IA — pa-social</title>
 <style>
-  /* Page locale : lit state/couts.json, écrit par le robot à chaque appel au rédacteur IA. */
+  /* Rôles de couleur : définis une fois, redéfinis pour le thème sombre. Le corps de la page
+     n'utilise que les rôles, jamais un hex. Palette validée (CVD ΔE 24,7 clair / 26,8 sombre). */
   :root {
-    --ground:#F6F4F2; --panel:#FFFFFF; --ink:#1C1A19; --muted:#6F6762; --line:#E6E0DC;
-    --red:#CD402C; --red-soft:#FBEAE6; --live:#1E7A4C; --live-soft:#E3F2EA;
-    --warn:#9A5B0B; --warn-soft:#FAF0DC; --idle-soft:#EEEBE8;
-    --shadow:0 1px 2px rgba(28,26,25,.05), 0 8px 24px rgba(28,26,25,.06);
-    --display:"Montserrat","Segoe UI",system-ui,sans-serif; --mono:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+    color-scheme: light;
+    --fond: #f5f5f3;
+    --surface: #fcfcfb;
+    --surface-2: #f0efec;
+    --bord: #e2e1dc;
+    --encre: #0b0b0b;
+    --encre-2: #52514e;
+    --encre-3: #86847d;
+    --serie-1: #2a78d6;   /* coût */
+    --serie-2: #eb6834;   /* articles */
+    --bon: #0ca30c;
+    --attention: #fab219;
+    --critique: #d03b3b;
+    --mono: ui-monospace, 'SF Mono', 'Cascadia Mono', Menlo, monospace;
+    --ombre: 0 1px 2px rgb(11 11 11 / .04), 0 4px 16px rgb(11 11 11 / .04);
   }
-  @media (prefers-color-scheme:dark) {
-    :root { --ground:#141211; --panel:#1D1A19; --ink:#EEE9E6; --muted:#A59D98; --line:#332E2C;
-      --red:#E8664F; --red-soft:#3A201B; --live:#5CC08E; --live-soft:#15301F; --warn:#E1AA4E; --warn-soft:#33280F; --idle-soft:#2A2624;
-      --shadow:0 1px 2px rgba(0,0,0,.3), 0 8px 24px rgba(0,0,0,.25); }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      color-scheme: dark;
+      --fond: #121211;
+      --surface: #1a1a19;
+      --surface-2: #232321;
+      --bord: #322f2d;
+      --encre: #ffffff;
+      --encre-2: #c3c2b7;
+      --encre-3: #8b8a82;
+      --serie-1: #3987e5;
+      --serie-2: #d95926;
+      --ombre: none;
+    }
   }
-  * { box-sizing:border-box; }
-  body { margin:0; background:var(--ground); color:var(--ink); font-family:var(--display); font-size:15px; line-height:1.55; padding:36px 24px 72px; }
-  .wrap { max-width:1000px; margin:0 auto; display:grid; gap:32px; }
-  h1,h2,h3,p { margin:0; }
-  h1 { font-size:26px; font-weight:800; letter-spacing:-.02em; }
-  h2 { font-size:18px; font-weight:800; }
-  .label { font-size:11px; font-weight:700; letter-spacing:.12em; text-transform:uppercase; color:var(--muted); }
-  .hint { color:var(--muted); font-size:13.5px; }
-  .note { color:var(--muted); font-size:12.5px; }
-  a { color:inherit; text-decoration-color:var(--red); text-underline-offset:3px; }
-  header.top { display:flex; justify-content:space-between; align-items:flex-end; gap:20px; flex-wrap:wrap; padding-bottom:22px; border-bottom:1px solid var(--line); }
-  .marque { display:flex; gap:14px; align-items:flex-start; }
-  .mark { width:46px; height:46px; flex:none; border-radius:11px; background:var(--red); color:#fff; display:grid; place-items:center; font-weight:800; font-size:20px; }
-  .etat { font-size:12.5px; color:var(--muted); font-family:var(--mono); }
-  section { display:grid; gap:14px; }
-  .panel { background:var(--panel); border:1px solid var(--line); border-radius:14px; box-shadow:var(--shadow); padding:20px; display:grid; gap:18px; }
-  .kpis { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:12px; }
-  .kpi { border:1px solid var(--line); border-radius:11px; padding:14px 16px; display:grid; gap:2px; align-content:start; }
-  .kpi b { font-family:var(--mono); font-size:26px; font-weight:500; letter-spacing:-.02em; }
-  .kpi small { color:var(--muted); font-size:12px; }
-  .kpi--fort { background:var(--red-soft); border-color:transparent; }
-  .kpi--fort b { color:var(--red); }
-  .barres { display:flex; align-items:flex-end; gap:4px; height:110px; }
-  .barres > span { flex:1; display:flex; flex-direction:column; justify-content:flex-end; height:100%; cursor:default; }
-  .barres i { display:block; background:var(--red); border-radius:3px 3px 0 0; min-height:3px; opacity:.85; transition:opacity .15s; }
-  .barres > span:hover i { opacity:1; }
-  .barres > span[data-vide] i { background:var(--line); }
-  .axe { display:flex; justify-content:space-between; font-size:11px; color:var(--muted); font-family:var(--mono); }
-  table { width:100%; border-collapse:collapse; font-size:13.5px; }
-  th { text-align:left; font-size:11px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:var(--muted); padding:0 10px 8px 0; }
-  td { padding:8px 10px 8px 0; border-top:1px solid var(--line); font-variant-numeric:tabular-nums; }
-  td.n, th.n { text-align:right; font-family:var(--mono); }
-  tr.total td { font-weight:800; border-top:2px solid var(--line); }
-  .jauge-bloc { display: grid; gap: 8px; }
-  .jauge-tete { display: flex; justify-content: space-between; align-items: baseline; font-size: 13px; color: var(--muted); }
-  .jauge-tete b { color: var(--ink); font-family: var(--mono); font-weight: 500; font-size: 15px; }
-  .jauge { height: 10px; border-radius: 999px; background: var(--idle-soft); overflow: hidden; }
-  .jauge i { display: block; height: 100%; border-radius: 999px; background: var(--live); transition: width .4s; }
-  .jauge i.chaud { background: var(--warn); }
-  .jauge i.plein { background: var(--red); }
-  .puces { display:flex; flex-wrap:wrap; gap:8px; }
-  .puce { font-size:12.5px; background:var(--idle-soft); border-radius:999px; padding:4px 12px; }
-  .puce b { font-family:var(--mono); font-weight:500; }
-  .vide { padding:26px; text-align:center; color:var(--muted); font-size:14px; }
-  .alerte { background:var(--warn-soft); color:var(--warn); border-radius:11px; padding:12px 16px; font-size:13.5px; }
-  @media (max-width:720px) { body { padding:22px 14px 50px; } .kpis { grid-template-columns:repeat(2,minmax(0,1fr)); } }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --fond: #121211; --surface: #1a1a19; --surface-2: #232321; --bord: #322f2d;
+    --encre: #ffffff; --encre-2: #c3c2b7; --encre-3: #8b8a82;
+    --serie-1: #3987e5; --serie-2: #d95926; --ombre: none;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--fond); color: var(--encre);
+    font: 15px/1.55 ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  .page { max-width: 1060px; margin: 0 auto; padding: 32px 16px 64px; }
+
+  header { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; flex-wrap: wrap; margin-bottom: 28px; }
+  h1 { font-size: 21px; font-weight: 640; letter-spacing: -.01em; margin: 0; }
+  .sous { color: var(--encre-2); font-size: 13.5px; margin: 4px 0 0; }
+  .etat { color: var(--encre-3); font-size: 12.5px; font-variant-numeric: tabular-nums; }
+
+  .carte { background: var(--surface); border: 1px solid var(--bord); border-radius: 14px; box-shadow: var(--ombre); }
+  section { margin-bottom: 20px; }
+  h2 { font-size: 13px; font-weight: 620; letter-spacing: .02em; text-transform: uppercase; color: var(--encre-3); margin: 0 0 10px; }
+
+  /* Hero : le chiffre du mois, et ce qu'il reste avant le plafond */
+  .hero { padding: 24px 26px; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.3fr); gap: 32px; align-items: center; }
+  .hero .montant { font-size: 46px; font-weight: 660; letter-spacing: -.025em; line-height: 1; font-variant-numeric: tabular-nums; }
+  .hero .montant small { font-size: 20px; font-weight: 520; color: var(--encre-2); margin-left: 4px; }
+  .hero .libelle { color: var(--encre-2); font-size: 13.5px; margin-top: 8px; }
+  .jauge { height: 8px; border-radius: 99px; background: var(--surface-2); overflow: hidden; margin: 10px 0 8px; }
+  .jauge i { display: block; height: 100%; border-radius: 99px; background: var(--serie-1); transition: width .4s ease; }
+  .jauge i.chaud { background: var(--attention); }
+  .jauge i.plein { background: var(--critique); }
+  .jauge-tete { display: flex; justify-content: space-between; align-items: baseline; font-size: 13px; color: var(--encre-2); }
+  .jauge-tete b { font-family: var(--mono); font-weight: 560; color: var(--encre); font-size: 14px; }
+  .jauge-note { font-size: 12.5px; color: var(--encre-3); margin: 0; }
+
+  /* KPI : quatre chiffres qui pilotent la dépense */
+  .kpis { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+  .kpi { padding: 16px 18px; }
+  .kpi .label { display: block; font-size: 12px; color: var(--encre-3); margin-bottom: 7px; }
+  .kpi b { display: block; font-size: 25px; font-weight: 620; letter-spacing: -.02em; font-variant-numeric: tabular-nums; line-height: 1.1; }
+  .kpi small { display: block; font-size: 12px; color: var(--encre-2); margin-top: 5px; }
+
+  /* Graphiques : une mesure par graphique, jamais deux axes */
+  .graph { padding: 20px 22px 16px; }
+  .graph h3 { font-size: 14px; font-weight: 580; margin: 0 0 2px; }
+  .graph .hint { font-size: 12.5px; color: var(--encre-3); margin: 0 0 16px; }
+  .barres { display: flex; align-items: flex-end; gap: 2px; height: 130px; position: relative; }
+  .barres.courte { height: 62px; }
+  .barres > span { flex: 1; height: 100%; display: flex; align-items: flex-end; position: relative; cursor: default; border-radius: 4px 4px 0 0; }
+  .barres > span:hover { background: var(--surface-2); }
+  .barres i { display: block; width: 100%; border-radius: 4px 4px 0 0; background: var(--serie-1); min-height: 2px; }
+  .barres.articles i { background: var(--serie-2); }
+  .barres > span[data-vide] i { background: var(--bord); }
+  .axe { display: flex; justify-content: space-between; font-size: 11.5px; color: var(--encre-3); margin-top: 8px; font-variant-numeric: tabular-nums; }
+  .pic { position: absolute; top: -20px; left: 50%; transform: translateX(-50%); font-size: 11.5px; font-family: var(--mono); color: var(--encre-2); white-space: nowrap; }
+
+  /* Infobulle : un graphique HTML est interactif par nature */
+  #bulle {
+    position: fixed; z-index: 10; pointer-events: none; opacity: 0; transition: opacity .12s;
+    background: var(--surface); border: 1px solid var(--bord); border-radius: 10px; padding: 9px 12px;
+    box-shadow: 0 4px 20px rgb(11 11 11 / .16); font-size: 12.5px; line-height: 1.5; max-width: 260px;
+  }
+  #bulle .j { font-weight: 600; margin-bottom: 3px; }
+  #bulle .v { font-family: var(--mono); font-variant-numeric: tabular-nums; }
+  #bulle .m { color: var(--encre-3); }
+
+  table { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+  th, td { padding: 9px 12px; text-align: left; border-bottom: 1px solid var(--bord); }
+  th { font-size: 11.5px; text-transform: uppercase; letter-spacing: .03em; color: var(--encre-3); font-weight: 580; }
+  td.n, th.n { text-align: right; font-family: var(--mono); font-variant-numeric: tabular-nums; }
+  tbody tr:hover { background: var(--surface-2); }
+  tfoot td { font-weight: 620; border-bottom: none; border-top: 1px solid var(--encre-3); }
+  .tableau { padding: 6px 10px 2px; overflow-x: auto; }
+
+  .puces { display: flex; flex-wrap: wrap; gap: 8px; padding: 0 22px 20px; }
+  .puce { font-size: 12.5px; background: var(--surface-2); border-radius: 99px; padding: 5px 13px; color: var(--encre-2); }
+  .puce b { font-family: var(--mono); font-weight: 560; color: var(--encre); }
+  .notes { padding: 18px 22px 20px; }
+  .notes p { margin: 0 0 10px; font-size: 13px; color: var(--encre-2); }
+  .notes p:last-child { margin-bottom: 0; }
+  .notes b { color: var(--encre); font-weight: 600; }
+  code { font-family: var(--mono); font-size: .92em; background: var(--surface-2); padding: 1px 6px; border-radius: 5px; }
+  a { color: var(--serie-1); }
+  .vide, .alerte { padding: 28px 22px; color: var(--encre-2); font-size: 14px; text-align: center; }
+  .alerte { color: var(--critique); }
+
+  @media (max-width: 860px) {
+    .hero { grid-template-columns: 1fr; gap: 20px; }
+    .kpis { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 480px) {
+    .page { padding: 20px 14px 48px; }
+    .hero { padding: 20px; }
+    .hero .montant { font-size: 38px; }
+  }
 </style>
 </head>
 <body>
-<div class="wrap">
-  <header class="top">
-    <div class="marque">
-      <span class="mark">$</span>
-      <div>
-        <h1>Coût du rédacteur IA</h1>
-        <p class="hint">Relevé appel par appel, d'après les jetons réellement facturés par l'API. Aucune estimation.</p>
-      </div>
+<div class="page">
+  <header>
+    <div>
+      <h1>Coût du rédacteur IA</h1>
+      <p class="sous">Consommation de la clé API <b>pa-social</b>, relevée appel par appel. Aucune estimation.</p>
     </div>
     <p class="etat" id="etat">Chargement…</p>
   </header>
 
-  <section>
-    <div class="panel" id="resume"><p class="vide">Chargement…</p></div>
-  </section>
+  <section><div class="carte hero" id="hero"><p class="vide">Chargement…</p></div></section>
+  <section><div class="kpis" id="kpis"></div></section>
+  <section><div class="carte graph" id="graph-cout"></div></section>
+  <section><div class="carte graph" id="graph-articles"></div></section>
 
   <section>
     <h2>Jour par jour</h2>
-    <div class="panel" id="detail"><p class="vide">Chargement…</p></div>
-    <p class="hint">Tous les chiffres de cette page comptent <b>tous</b> les appels de la clé — publications du robot et mises au point lancées depuis un poste — puisque tout est facturé sur le même compte. La pastille « dont… » indique la part de chacun.</p>
+    <div class="carte tableau" id="detail"></div>
   </section>
 
   <section>
     <h2>Comment ce chiffre est obtenu</h2>
-    <div class="panel">
-      <p class="hint">Chaque appel au rédacteur renvoie le nombre de jetons facturés. Le robot les enregistre dans <code>state/couts.json</code> et cette page applique la grille publique Anthropic.</p>
+    <div class="carte">
       <div class="puces" id="tarifs"></div>
-      <p class="note"><b>Ce qui est compté :</b> tous les appels, y compris ceux qui échouent — un refus ou un dossier invalide est facturé de la même façon. Un article peut demander jusqu'à trois appels si les contrôles éditoriaux ne passent pas.</p>
-      <p class="note"><b>L'entrée pèse le plus lourd</b> : la consigne de rédaction et le contexte représentent environ 85 % des jetons d'un appel, contre 15 % pour les textes produits. À l'effort bas, le modèle ne réfléchit pas (<code>thinking_tokens: 0</code>) : la sortie est du texte utile.</p>
-      <p class="note"><b>Ce qui n'y est pas :</b> les dépenses antérieures à la mise en service du relevé, visibles seulement dans la <a href="https://console.anthropic.com/settings/usage" target="_blank" rel="noopener">console Anthropic</a>.</p>
+      <div class="notes">
+        <p><b>Ce qui est compté :</b> chaque appel au rédacteur renvoie le nombre de jetons facturés ; le robot les enregistre dans <code>state/couts.json</code> et cette page applique la grille publique Anthropic. Les appels qui échouent comptent aussi — un dossier refusé par les contrôles éditoriaux est facturé comme les autres.</p>
+        <p><b>Un article, pas une publication :</b> un même article est rédigé une fois et sert aux cinq réseaux. Le coût par article est donc le chiffre qui pilote la dépense, pas le nombre de posts.</p>
+        <p><b>L'entrée pèse le plus lourd :</b> la consigne de rédaction et le contexte représentent environ 85 % des jetons d'un appel, contre 15 % pour les textes produits. À l'effort bas, le modèle ne réfléchit pas (<code>thinking_tokens: 0</code>).</p>
+        <p id="note-hors" hidden></p>
+        <p><b>Ce qui n'y est pas :</b> les dépenses antérieures au 23/09/2026, jour de mise en service du relevé. Elles ne sont visibles que dans la <a href="https://console.anthropic.com/settings/usage" target="_blank" rel="noopener">console Anthropic</a>, dont les exports s'importent par <code>npm run couts:facture</code>.</p>
+      </div>
     </div>
   </section>
 </div>
 
+<div id="bulle" role="status" aria-live="polite"></div>
+
 <script>
-  // Les données viennent du dépôt public, comme pour la page de pilotage : rien à installer.
-  const SOURCE = 'https://raw.githubusercontent.com/d00lweb/pa-social/main/state/couts.json';
-  // Facturation relevée auprès d'Anthropic par « npm run couts:sync » : c'est elle qui fait foi.
-  const CONSOLE = 'https://raw.githubusercontent.com/d00lweb/pa-social/main/state/couts-console.json';
+  // Données publiques du dépôt : rien à installer, la page s'ouvre depuis le disque.
+  const DEPOT = 'https://raw.githubusercontent.com/d00lweb/pa-social/main/state/';
+  const BUDGET = 6;        // plafond mensuel, aligné sur budgetMensuelUSD de config/channels.json
+  const JOURS = 30;        // profondeur des graphiques
+  const TZ = 'Europe/Paris';
   const TARIFS = {
     'claude-opus-5': [5, 25], 'claude-opus-4-8': [5, 25],
     'claude-sonnet-5': [2, 10], 'claude-haiku-4-5': [1, 5],
   };
-  const BUDGET = 6; // plafond mensuel, aligné sur budgetMensuelUSD de config/channels.json
-  const TZ = 'Europe/Paris';
+
   const $ = (id) => document.getElementById(id);
   const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
-  const dollars = (n) => (n >= 10 ? n.toFixed(2) : n >= 1 ? n.toFixed(2) : n.toFixed(3)).replace('.', ',');
   const nf = new Intl.NumberFormat('fr-FR');
-  const jourCourt = (j) => new Intl.DateTimeFormat('fr-FR', { day: '2-digit', month: '2-digit', timeZone: TZ }).format(new Date(`${j}T12:00:00Z`));
-  const jourLong = (j) => new Intl.DateTimeFormat('fr-FR', { weekday: 'short', day: 'numeric', month: 'long', timeZone: TZ }).format(new Date(`${j}T12:00:00Z`));
+  const dollars = (n) => `${(Math.round(n * 100) / 100).toFixed(2).replace('.', ',')} $`;
+  const centimes = (n) => `${(Math.round(n * 1000) / 10).toFixed(1).replace('.', ',')} ¢`;
   const cleJour = (ms) => new Intl.DateTimeFormat('fr-CA', { timeZone: TZ }).format(new Date(ms));
+  const jourCourt = (j) => new Intl.DateTimeFormat('fr-FR', { day: '2-digit', month: '2-digit', timeZone: 'UTC' }).format(new Date(`${j}T12:00:00Z`));
+  const jourLong = (j) => new Intl.DateTimeFormat('fr-FR', { weekday: 'long', day: 'numeric', month: 'long', timeZone: 'UTC' }).format(new Date(`${j}T12:00:00Z`));
   const decale = (jour, n) => cleJour(Date.parse(`${jour}T12:00:00Z`) + n * 86400e3);
-  const appels = (n) => `${nf.format(n)} appel${n > 1 ? 's' : ''}`;
 
-  // Les chiffres affichés sont ceux facturés par Anthropic : tout ce qui passe par la clé compte,
-  // robot comme mise au point. L'origine ne sert qu'à dire d'où vient la dépense, jamais à l'exclure.
-  const partRobot = (l) => l.parOrigine?.robot ?? (l.parOrigine ? { appels: 0, cout: 0 } : { appels: l.appels, cout: l.cout });
-  const partLocale = (l) => l.parOrigine?.local ?? { appels: 0, cout: 0 };
-  const cumulPart = (releve, jours, part) => jours.reduce((t, j) => {
-    const l = releve[j];
-    return l ? { appels: t.appels + part(l).appels, cout: t.cout + part(l).cout } : t;
+  // Le robot fait tourner le média ; un appel lancé depuis un poste de travail est une mise au
+  // point. Les deux sortent de la même clé, mais seul le premier se reproduit tous les jours :
+  // c'est lui que les indicateurs suivent, et la part de l'autre est dite en toutes lettres.
+  const robot = (l) => l?.parOrigine?.robot ?? (l?.parOrigine ? { appels: 0, cout: 0 } : { appels: l?.appels ?? 0, cout: l?.cout ?? 0 });
+  const poste = (l) => l?.parOrigine?.local ?? { appels: 0, cout: 0 };
+  const somme = (jours, releve, part) => jours.reduce((t, j) => {
+    const p = part(releve[j]);
+    return { appels: t.appels + p.appels, cout: t.cout + p.cout };
   }, { appels: 0, cout: 0 });
 
-  function cumul(releve, jours) {
-    return jours.reduce((t, j) => {
-      const l = releve[j];
-      return l ? { appels: t.appels + l.appels, entree: t.entree + l.entree, sortie: t.sortie + l.sortie, cout: t.cout + l.cout } : t;
-    }, { appels: 0, entree: 0, sortie: 0, cout: 0 });
+  // ── Infobulle ────────────────────────────────────────────────────────────────
+  const bulle = $('bulle');
+  function survol(el, html) {
+    el.addEventListener('pointerenter', () => { bulle.innerHTML = html; bulle.style.opacity = '1'; });
+    el.addEventListener('pointermove', (e) => {
+      const marge = 14;
+      const x = Math.min(e.clientX + marge, window.innerWidth - bulle.offsetWidth - 8);
+      const y = Math.max(8, e.clientY - bulle.offsetHeight - marge);
+      bulle.style.left = `${x}px`;
+      bulle.style.top = `${y}px`;
+    });
+    el.addEventListener('pointerleave', () => { bulle.style.opacity = '0'; });
   }
 
-  function rendre(releve, facture = null) {
+  // ── Graphique en barres : une seule mesure, jamais deux axes ─────────────────
+  function barres(cible, { titre, hint, serie, valeur, infobulle, classe = '', pic = true }) {
+    const max = Math.max(...serie.map(valeur), 0.0001);
+    const corps = serie.map((d) => {
+      const v = valeur(d);
+      const h = v > 0 ? Math.max(3, Math.round((v / max) * 100)) : 2;
+      const sommet = pic && v === max && v > 0 ? `<em class="pic">${esc(infobulle(d).pic ?? '')}</em>` : '';
+      return `<span${v ? '' : ' data-vide'} data-jour="${d.jour}">${sommet}<i style="height:${h}%"></i></span>`;
+    }).join('');
+    cible.innerHTML = `
+      <h3>${esc(titre)}</h3>
+      <p class="hint">${esc(hint)}</p>
+      <div class="barres ${classe}">${corps}</div>
+      <div class="axe"><span>${jourCourt(serie[0].jour)}</span><span>${jourCourt(serie.at(-1).jour)}</span></div>`;
+    for (const el of cible.querySelectorAll('.barres > span')) {
+      const d = serie.find((x) => x.jour === el.dataset.jour);
+      survol(el, infobulle(d).html);
+    }
+  }
+
+  function rendre(releve, historique) {
     const jours = Object.keys(releve).sort();
     if (!jours.length) {
-      $('resume').innerHTML = '<p class="vide">Aucun appel relevé pour l’instant. La page se remplit dès le premier article rédigé par l’IA.</p>';
+      $('hero').innerHTML = '<p class="vide">Aucun appel relevé pour l’instant. La page se remplit dès le premier article rédigé.</p>';
       $('detail').innerHTML = '<p class="vide">Rien à afficher.</p>';
       return;
     }
     const aujourdhui = cleJour(Date.now());
     const mois = aujourdhui.slice(0, 7);
     const duMois = jours.filter((j) => j.startsWith(mois));
-    const septDerniers = Array.from({ length: 7 }, (_, i) => decale(aujourdhui, -i));
+    // Fenêtre : depuis le premier jour connu (relevé ou publication), 30 jours au plus. Afficher
+    // trente cases quand le relevé en couvre trois donnerait un graphique vide aux neuf dixièmes.
+    const premierArticle = historique.length ? cleJour(Math.min(...historique.map((e) => Date.parse(e.at)))) : aujourdhui;
+    const debut = [decale(aujourdhui, -(JOURS - 1)), jours[0] < premierArticle ? jours[0] : premierArticle].sort().at(-1);
+    const largeur = Math.max(1, Math.round((Date.parse(`${aujourdhui}T12:00:00Z`) - Date.parse(`${debut}T12:00:00Z`)) / 86400e3) + 1);
+    const fenetre = Array.from({ length: largeur }, (_, i) => decale(debut, i));
 
-    const cMois = cumul(releve, duMois);
-    const robotMois = cumulPart(releve, duMois, partRobot).cout;
-    const localMois = cumulPart(releve, duMois, partLocale).cout;
-    // Ce qu'Anthropic a réellement facturé ce mois-ci, quand la synchronisation a été faite.
-    // Le relevé maison ne commence qu'au jour de sa mise en service : lui seul ne suffit pas à
-    // répondre « combien ce mois-ci ».
-    // jour par jour quand elle vient de l'API, total du mois quand elle a été saisie à la main
-    const factureMois = facture?.jours
-      ? Object.entries(facture.jours).filter(([j]) => j.startsWith(mois)).reduce((n, [, v]) => n + v, 0)
-      : (facture?.mois === mois && Number.isFinite(facture.total) ? facture.total : null);
-    // Le relevé facturé peut avoir quelques heures de retard, le relevé maison ne couvre pas les
-    // jours antérieurs à sa mise en service : on retient le plus élevé des deux, jamais le plus flatteur.
-    const mensuel = factureMois === null ? cMois.cout : Math.max(factureMois, cMois.cout);
-    const numero = Number(aujourdhui.slice(8));
+    // articles distincts rédigés par jour, d'après l'historique des publications
+    const articlesParJour = {};
+    for (const e of historique) {
+      const j = cleJour(Date.parse(e.at));
+      (articlesParJour[j] ??= new Set()).add(e.guid);
+    }
+    const articles = (j) => articlesParJour[j]?.size ?? 0;
+
+    const moisRobot = somme(duMois, releve, robot);
+    const moisPoste = somme(duMois, releve, poste);
+    const jourRobot = somme([aujourdhui], releve, robot);
+    const articlesMois = duMois.reduce((n, j) => n + articles(j), 0);
+    // Le rythme se calcule sur les jours que le relevé couvre réellement, pas sur le quantième du
+    // mois : le relevé a démarré le 23/09, diviser par 25 donnerait un rythme trois fois trop bas.
+    const joursCouverts = Math.max(1, duMois.length);
     const joursDuMois = new Date(Number(mois.slice(0, 4)), Number(mois.slice(5, 7)), 0).getDate();
-    const projection = numero ? (mensuel / numero) * joursDuMois : 0;
-    const moyenne = cMois.appels ? cMois.cout / cMois.appels : 0;
-    const part = BUDGET ? mensuel / BUDGET : 0;
-    const dateMaj = facture?.maj
-      ? new Intl.DateTimeFormat('fr-FR', { day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit', timeZone: TZ }).format(new Date(facture.maj))
-      : null;
-    const origineFacture = facture?.source === 'saisie' ? `saisi le ${dateMaj} d’après la console`
-      : facture?.source === 'export' ? `exports de la console, lus le ${dateMaj}`
-      : `relevé le ${dateMaj}`;
-    // Pour un jour donné, la facturation l'emporte sur le relevé maison dès qu'elle est plus élevée :
-    // tous les appels de la clé y figurent, y compris ceux qui ne passent pas par le robot.
-    const reel = (jours, compte) => Math.max(compte, facture?.jours ? jours.reduce((n, j) => n + (facture.jours[j] ?? 0), 0) : 0);
+    const parJour = moisRobot.cout / joursCouverts;
+    const projection = parJour * joursDuMois;
+    const part = BUDGET ? moisRobot.cout / BUDGET : 0;
+    const parArticle = articlesMois ? moisRobot.cout / articlesMois : 0;
+    const parAppel = moisRobot.appels ? moisRobot.cout / moisRobot.appels : 0;
+    const reprises = articlesMois ? moisRobot.appels / articlesMois : 0;
 
-    const tuile = (label, valeur, detail, fort) =>
-      `<div class="kpi${fort ? ' kpi--fort' : ''}"><span class="label">${esc(label)}</span><b>${esc(valeur)}</b><small>${esc(detail)}</small></div>`;
-
-    // 14 derniers jours
-    const serie = Array.from({ length: 14 }, (_, i) => decale(aujourdhui, i - 13)).map((j) => [j, releve[j]?.cout ?? 0]);
-    const max = Math.max(...serie.map(([, v]) => v), 0.0001);
-    const barres = serie.map(([j, v]) => {
-      const h = Math.max(3, Math.round((v / max) * 100));
-      const local = releve[j] ? partLocale(releve[j]).cout : 0;
-      const t = `${jourLong(j)} — ${v ? `${dollars(v)} $ · ${appels(releve[j].appels)}` : 'aucun appel'}`
-        + (local ? ` · dont ${dollars(local)} $ de mise au point` : '');
-      return `<span${v ? '' : ' data-vide'} title="${esc(t)}"><i style="height:${h}%"></i></span>`;
-    }).join('');
-
-    const parModele = {};
-    for (const j of duMois) for (const [m, n] of Object.entries(releve[j].parModele ?? {})) parModele[m] = (parModele[m] ?? 0) + n;
-
-    $('resume').innerHTML = `
-      <div class="kpis">
-        ${tuile('Aujourd’hui', `${dollars(reel([aujourdhui], cumul(releve, [aujourdhui]).cout))} $`, appels(cumul(releve, [aujourdhui]).appels))}
-        ${tuile('7 derniers jours', `${dollars(reel(septDerniers, cumul(releve, septDerniers).cout))} $`, appels(cumul(releve, septDerniers).appels))}
-        ${tuile('Mois en cours', `${dollars(mensuel)} $`, factureMois === null ? appels(cMois.appels) : `facturé — ${origineFacture}`, true)}
-        ${tuile('Projection du mois', `${dollars(projection)} $`, 'au rythme actuel')}
-      </div>
-      <p class="note">${factureMois === null
-        ? `<b>Relevé maison, démarré le ${esc(jourCourt(jours[0]))}</b> : ce qui a été facturé avant cette date n’y est pas. Pour le mois complet, importer les exports de la console — <code>npm run couts:facture export-couts.csv export-jetons.csv</code>.`
-        : `<b>Chiffre facturé par Anthropic</b> — ${esc(origineFacture)}. Le relevé maison, qui compte les appels du robot un par un, en a enregistré ${dollars(cMois.cout)} $ depuis le ${esc(jourCourt(jours[0]))} : l’écart, ce sont les appels passés hors du robot.`}</p>
+    const etat = part >= 1 ? 'plein' : part >= 0.7 ? 'chaud' : '';
+    $('hero').innerHTML = `
       <div>
-        <div class="barres" role="img" aria-label="Dépense des 14 derniers jours">${barres}</div>
-        <div class="axe"><span>${jourCourt(serie[0][0])}</span><span>${jourCourt(serie.at(-1)[0])}</span></div>
+        <div class="montant">${dollars(moisRobot.cout)}<small>ce mois-ci</small></div>
+        <p class="libelle">${nf.format(articlesMois)} article${articlesMois > 1 ? 's' : ''} rédigé${articlesMois > 1 ? 's' : ''} pour les cinq réseaux, en ${nf.format(moisRobot.appels)} appel${moisRobot.appels > 1 ? 's' : ''}.</p>
       </div>
-      <div class="jauge-bloc">
-        <div class="jauge-tete"><span>Budget du mois</span><b>${dollars(mensuel)} $ / ${dollars(BUDGET)} $</b></div>
-        <div class="jauge"><i class="${part >= 1 ? 'plein' : part >= 0.7 ? 'chaud' : ''}" style="width:${Math.min(100, Math.round(part * 100))}%"></i></div>
-        <p class="note">${part >= 1
-          ? 'Plafond dépassé : tu es prévenu sur Telegram, le rédacteur continue d’écrire normalement (réglage couperAuPlafond).'
-          : `Alerte Telegram à 70 %, puis au plafond. Le rédacteur continue d’écrire dans tous les cas. Reste ${dollars(Math.max(0, BUDGET - mensuel))} $, soit environ ${Math.floor(Math.max(0, BUDGET - mensuel) / (moyenne || 0.056))} articles.`}</p>
-      </div>
-      <div class="puces">
-        <span class="puce">Coût moyen d’un appel <b>${dollars(moyenne)} $</b></span>
-        ${localMois ? `<span class="puce">Dont publications <b>${dollars(robotMois)} $</b> · mises au point depuis un poste <b>${dollars(localMois)} $</b></span>` : ''}
-        <span class="puce">Jetons du mois <b>${nf.format(cMois.entree)}</b> entrée · <b>${nf.format(cMois.sortie)}</b> sortie</span>
-        ${Object.entries(parModele).map(([m, n]) => `<span class="puce">${esc(m.replace('claude-', ''))} <b>× ${n}</b></span>`).join('')}
+      <div>
+        <div class="jauge-tete"><span>Budget du mois</span><b>${dollars(moisRobot.cout)} / ${dollars(BUDGET)}</b></div>
+        <div class="jauge"><i class="${etat}" style="width:${Math.min(100, Math.round(part * 100))}%"></i></div>
+        <p class="jauge-note">${part >= 1
+          ? 'Plafond dépassé. Tu es prévenu sur Telegram ; le rédacteur continue d’écrire, rien n’est dégradé.'
+          : `Il reste ${dollars(Math.max(0, BUDGET - moisRobot.cout))}, soit environ ${Math.floor(Math.max(0, BUDGET - moisRobot.cout) / (parArticle || 0.09))} articles. Alerte Telegram à 70 %, puis au plafond.`}</p>
       </div>`;
 
+    const tuile = (label, valeur, detail) =>
+      `<div class="carte kpi"><span class="label">${esc(label)}</span><b>${esc(valeur)}</b><small>${esc(detail)}</small></div>`;
+    $('kpis').innerHTML = [
+      tuile('Coût d’un article', parArticle ? centimes(parArticle) : '—', 'cinq réseaux, visuels compris'),
+      tuile('Fin de mois', dollars(projection), `au rythme de ${(articlesMois / joursCouverts).toFixed(1).replace('.', ',')} article/jour`),
+      tuile('Appels par article', reprises ? reprises.toFixed(2).replace('.', ',') : '—', reprises > 1.3 ? 'les reprises pèsent sur la facture' : 'peu de reprises'),
+      tuile('Aujourd’hui', dollars(jourRobot.cout), `${articles(aujourdhui)} article${articles(aujourdhui) > 1 ? 's' : ''} · ${jourRobot.appels} appel${jourRobot.appels > 1 ? 's' : ''}`),
+    ].join('');
+
+    const serie = fenetre.map((j) => ({ jour: j, cout: robot(releve[j]).cout, appels: robot(releve[j]).appels, articles: articles(j) }));
+    barres($('graph-cout'), {
+      titre: 'Dépense par jour',
+      hint: `en dollars facturés — le relevé commence le ${jourCourt(jours[0])}, les jours gris d’avant ne sont pas comptés`,
+      serie,
+      valeur: (d) => d.cout,
+      infobulle: (d) => ({
+        pic: dollars(d.cout),
+        html: `<div class="j">${esc(jourLong(d.jour))}</div>`
+          + (d.cout
+            ? `<div class="v">${dollars(d.cout)}</div><div class="m">${d.articles} article${d.articles > 1 ? 's' : ''} · ${d.appels} appel${d.appels > 1 ? 's' : ''}</div>`
+            : '<div class="m">aucun appel</div>'),
+      }),
+    });
+    barres($('graph-articles'), {
+      titre: 'Articles rédigés par jour',
+      hint: 'la même période — c’est le volume qui fait la dépense, pas le prix unitaire',
+      serie,
+      valeur: (d) => d.articles,
+      classe: 'articles',
+      pic: false,
+      infobulle: (d) => ({
+        html: `<div class="j">${esc(jourLong(d.jour))}</div>`
+          + (d.articles
+            ? `<div class="v">${d.articles} article${d.articles > 1 ? 's' : ''}</div><div class="m">${dollars(d.cout)}</div>`
+            : '<div class="m">aucun article</div>'),
+      }),
+    });
+
+    // Les jetons ne sont pas ventilés par origine dans le relevé : les afficher par jour mêlerait
+    // le robot et les mises au point. La colonne donne donc le coût d'un article, lisible tel quel.
     const lignes = [...jours].reverse().slice(0, 30).map((j) => {
-      const l = releve[j];
-      const usages = Object.entries(l.parUsage ?? {}).map(([k, n]) => `${esc(k)} × ${n}`).join(', ');
-      return `<tr><td>${esc(jourLong(j))}</td><td class="n">${nf.format(l.appels)}</td><td class="n">${nf.format(l.entree)}</td><td class="n">${nf.format(l.sortie)}</td><td class="n">${dollars(l.cout)} $</td><td>${usages}</td></tr>`;
+      const r = robot(releve[j]);
+      const a = articles(j);
+      return `<tr><td>${esc(jourLong(j))}</td><td class="n">${a || '—'}</td><td class="n">${nf.format(r.appels)}</td><td class="n">${dollars(r.cout)}</td></tr>`;
     }).join('');
-    const tout = cumul(releve, jours);
+    const total = somme(jours, releve, robot);
+    const articlesTotal = jours.reduce((n, j) => n + articles(j), 0);
     $('detail').innerHTML = `
       <table>
-        <thead><tr><th>Jour</th><th class="n">Appels</th><th class="n">Jetons entrée</th><th class="n">Jetons sortie</th><th class="n">Coût</th><th>Nature</th></tr></thead>
+        <thead><tr><th>Jour</th><th class="n">Articles publiés</th><th class="n">Appels au rédacteur</th><th class="n">Coût</th></tr></thead>
         <tbody>${lignes}</tbody>
-        <tfoot><tr class="total"><td>Depuis le ${esc(jourCourt(jours[0]))}</td><td class="n">${nf.format(tout.appels)}</td><td class="n">${nf.format(tout.entree)}</td><td class="n">${nf.format(tout.sortie)}</td><td class="n">${dollars(tout.cout)} $</td><td></td></tr></tfoot>
+        <tfoot><tr><td>Depuis le ${esc(jourCourt(jours[0]))} — ${articlesTotal ? `${centimes(total.cout / articlesTotal)} par article` : ''}</td><td class="n">${nf.format(articlesTotal)}</td><td class="n">${nf.format(total.appels)}</td><td class="n">${dollars(total.cout)}</td></tr></tfoot>
       </table>`;
 
-    $('tarifs').innerHTML = Object.entries(TARIFS).map(([m, [e, s]]) => `<span class="puce">${esc(m.replace('claude-', ''))} <b>${e} $</b> entrée · <b>${s} $</b> sortie <small>/ M jetons</small></span>`).join('')
-      + '<span class="puce">cache <b>10 %</b> en lecture · <b>125 %</b> en écriture</span>';
+    // Entrée moyenne : mesurée sur les seuls jours où le robot a tourné seul, sinon les essais
+    // lancés depuis un poste fausseraient la moyenne.
+    const jourPur = duMois.filter((j) => poste(releve[j]).appels === 0 && robot(releve[j]).appels > 0);
+    const entreeMoyenne = jourPur.length
+      ? Math.round(jourPur.reduce((n, j) => n + releve[j].entree, 0) / jourPur.reduce((n, j) => n + robot(releve[j]).appels, 0))
+      : 0;
+    $('tarifs').innerHTML = Object.entries(TARIFS).map(([m, [e, s]]) =>
+      `<span class="puce">${esc(m.replace('claude-', ''))} <b>${e} $</b> entrée · <b>${s} $</b> sortie <small>/ M jetons</small></span>`).join('')
+      + `<span class="puce">Coût moyen d’un appel <b>${centimes(parAppel)}</b></span>`
+      + (entreeMoyenne ? `<span class="puce">Entrée moyenne d’un appel <b>${nf.format(entreeMoyenne)}</b> jetons</span>` : '')
+      + '';
+
+    // La part hors production est dite, jamais noyée dans les indicateurs.
+    if (moisPoste.cout > 0.005) {
+      const note = $('note-hors');
+      note.hidden = false;
+      note.innerHTML = `<b>Hors production :</b> ${dollars(moisPoste.cout)} ce mois-ci, en ${nf.format(moisPoste.appels)} appel${moisPoste.appels > 1 ? 's' : ''} lancés depuis un poste de travail — mises au point du rédacteur, essais de modèle. C'est la même clé, donc la même facture, mais ce n'est pas la dépense du média : les indicateurs ci-dessus ne suivent que le robot.`;
+    }
   }
 
   async function charger() {
     try {
-      const [r, rc] = await Promise.all([
-        fetch(`${SOURCE}?t=${Date.now()}`, { cache: 'no-store' }),
-        fetch(`${CONSOLE}?t=${Date.now()}`, { cache: 'no-store' }).catch(() => null),
+      const [rc, rh] = await Promise.all([
+        fetch(`${DEPOT}couts.json?t=${Date.now()}`, { cache: 'no-store' }),
+        fetch(`${DEPOT}published.json?t=${Date.now()}`, { cache: 'no-store' }),
       ]);
-      if (!r.ok) throw new Error(`HTTP ${r.status}`);
-      const releve = await r.json();
-      const facture = rc?.ok ? await rc.json().catch(() => null) : null;
-      rendre(releve, facture);
+      if (!rc.ok) throw new Error(`HTTP ${rc.status}`);
+      rendre(await rc.json(), rh.ok ? await rh.json() : []);
       $('etat').textContent = `Relevé lu à ${new Intl.DateTimeFormat('fr-FR', { hour: '2-digit', minute: '2-digit', timeZone: TZ }).format(new Date())}`;
     } catch (e) {
       $('etat').textContent = 'Relevé indisponible';
-      $('resume').innerHTML = `<div class="alerte">Impossible de lire le relevé (${esc(e.message)}). Il est publié à chaque passage du robot : si le fichier n’existe pas encore, il apparaîtra au premier article rédigé.</div>`;
-      $('detail').innerHTML = '<p class="vide">Rien à afficher.</p>';
+      $('hero').innerHTML = `<p class="alerte">Impossible de lire le relevé (${esc(e.message)}). Il est publié à chaque passage du robot.</p>`;
     }
   }
 
   charger();
-  setInterval(charger, 120000);
+  setInterval(charger, 180000);
 </script>
 </body>
 </html>

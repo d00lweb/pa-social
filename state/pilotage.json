@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-25T07:21:17.640Z",
+  "genereLe": "2026-09-25T07:34:05.678Z",
   "jour": "2026-09-25",
   "reseaux": {
     "instagram": {
@@ -614,7 +614,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 62,
+    "releves": 63,
     "parReseau": {
       "instagram": {
         "posts": 7,
@@ -737,8 +737,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-25T07:24:13.974Z",
-    "posts": 47,
+    "genereLe": "2026-09-25T07:34:06.417Z",
+    "posts": 48,
     "parReseau": {
       "instagram": {
         "posts": 14,
@@ -753,8 +753,8 @@
         "moyenne": 0.8
       },
       "bluesky": {
-        "posts": 13,
-        "moyenne": 0.5
+        "posts": 14,
+        "moyenne": 0.4
       }
     },
     "parFormat": {
@@ -775,7 +775,7 @@
         "moyenne": 0.4
       },
       "card": {
-        "posts": 2,
+        "posts": 3,
         "moyenne": 0
       }
     },
@@ -785,8 +785,8 @@
         "moyenne": 16.5
       },
       "matin": {
-        "posts": 28,
-        "moyenne": 8.2
+        "posts": 29,
+        "moyenne": 7.9
       },
       "soir": {
         "posts": 8,
@@ -818,7 +818,7 @@
           "moyenne": 0.5
         },
         "8 h – 9 h 30": {
-          "posts": 7,
+          "posts": 8,
           "moyenne": 0.4
         },
         "18 h – 19 h 30": {
@@ -879,19 +879,19 @@
       "creneauReseau": "7 h – 8 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35635",
-      "channel": "facebook",
-      "mediaId": "227437307428711_1729707029155178",
-      "publieLe": "2026-09-24T07:10:39.016Z",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=28135",
+      "channel": "bluesky",
+      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mwaq5fuemj2o",
+      "publieLe": "2026-09-24T07:27:04.328Z",
       "jalon": 1,
-      "releveLe": "2026-09-25T07:21:17.640Z",
+      "releveLe": "2026-09-25T07:34:05.678Z",
       "likes": 0,
       "commentaires": 0,
       "partages": 0,
       "vues": null,
-      "titre": "Une levure fait déjà perdre 1° d’alcool au vin : à Bordeaux, la recherche va plus loin",
-      "lien": "https://www.facebook.com/1720946116697936/posts/1729707029155178",
-      "format": null,
+      "titre": "Top 6 des activités insolites autour de La Rochelle",
+      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mwaq5fuemj2o",
+      "format": "card",
       "mention": false,
       "creneau": "matin",
       "creneauReseau": "8 h – 9 h 30"
@@ -902,8 +902,8 @@
         "moyenne": 4
       },
       "sans": {
-        "posts": 46,
-        "moyenne": 9.3
+        "posts": 47,
+        "moyenne": 9.1
       }
     },
     "publies": {

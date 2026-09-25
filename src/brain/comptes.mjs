@@ -201,10 +201,68 @@ export function comptesThematiques(texte, reseau = 'instagram', table = thematiq
   return sortie;
 }
 
+// Annuaire des comptes de référence, constitué par la découverte et conservé d'un passage à
+// l'autre. Un domaine déjà exploré n'est pas cherché deux fois : la recherche coûte des appels,
+// et les organisations de référence d'un domaine ne changent pas d'une semaine sur l'autre.
+// C'est ainsi que la table se remplit toute seule, au fil des articles, sans rien écrire à la main.
+export async function annuaire(domaines, { log = () => {}, jours = 30, maintenant = Date.now() } = {}) {
+  const { loadJson, saveJson } = await import('../core/state.mjs');
+  const connu = await loadJson('comptes-appris.json', {});
+  const sortie = { instagram: [], bluesky: [], threads: [], x: [], facebook: [] };
+  let neuf = false;
+
+  for (const domaine of domaines.slice(0, 3)) {
+    const cle = fold(domaine);
+    const fiche = connu[cle];
+    if (!fiche || maintenant - Date.parse(fiche.cherche ?? 0) > jours * 86400e3) {
+      const trouve = await chercherDomaine(domaine, log);
+      connu[cle] = { cherche: new Date(maintenant).toISOString(), ...trouve };
+      neuf = true;
+      const total = Object.values(trouve).flat().length;
+      log(`   Domaine « ${domaine} » : ${total ? Object.entries(trouve).filter(([, v]) => v.length).map(([r, v]) => `${r} ${v.map((c) => `@${c.handle}`).join(' ')}`).join(' · ') : 'aucune organisation de référence trouvée'}`);
+    }
+    for (const [reseau, comptes] of Object.entries(connu[cle])) {
+      if (reseau === 'cherche' || !sortie[reseau]) continue;
+      for (const c of comptes) sortie[reseau].push({ nom: c.nom || domaine, handle: c.handle, role: 'theme', thematique: true });
+    }
+  }
+  if (neuf) await saveJson('comptes-appris.json', connu);
+  return sortie;
+}
+
+// Une recherche par domaine, sur les deux réseaux qui permettent de découvrir : Instagram par
+// pseudos plausibles soumis à l'API, Bluesky par sa recherche d'acteurs. Le filtre est le même.
+async function chercherDomaine(domaine, log) {
+  const [{ surInstagram, surBluesky }, { chercheActeurs, profil }] = await Promise.all([
+    import('./decouverte.mjs'),
+    import('../sources/bsky-public.mjs'),
+  ]);
+  const decrire = async (handle) => {
+    const token = process.env.IG_TOKEN;
+    const userId = process.env.IG_USER_ID;
+    if (!token || !userId) return null;
+    try {
+      const champs = `business_discovery.username(${handle}){username,name,biography,followers_count}`;
+      const r = await fetch(`https://graph.facebook.com/${process.env.GRAPH_VERSION || 'v23.0'}/${userId}?fields=${encodeURIComponent(champs)}&access_token=${token}`, { signal: AbortSignal.timeout(15000) });
+      return (await r.json().catch(() => ({})))?.business_discovery ?? null;
+    } catch { return null; }
+  };
+  const lireProfil = async (handle) => {
+    const p = await profil(handle).catch(() => null);
+    return p ? { nom: p.nom ?? p.displayName, description: p.description, abonnes: p.abonnes ?? p.followersCount } : null;
+  };
+  const [instagram, bluesky] = await Promise.all([
+    surInstagram(domaine, { decrire, log: () => {} }).catch(() => []),
+    surBluesky(domaine, { chercher: chercheActeurs, lireProfil, log: () => {} }).catch(() => []),
+  ]);
+  const garder = (liste) => liste.slice(0, 3).map((c) => ({ handle: c.handle, nom: c.nom, abonnes: c.abonnes }));
+  return { instagram: garder(instagram), bluesky: garder(bluesky) };
+}
+
 // Un compte par entité et par réseau, trois entités au maximum
 // Trois mentions au plus : c'est le levier le plus efficace pour être découvert — un compte
 // mentionné est notifié, et va voir. Au-delà, la publication ressemble à du démarchage.
-export async function resoudreComptes(entites = [], { max = 3, image = null, texte = null, recents = [], log = () => {} } = {}) {
+export async function resoudreComptes(entites = [], { max = 3, image = null, texte = null, domaines = [], recents = [], log = () => {} } = {}) {
   const plan = { instagram: [], x: [], bluesky: [], threads: [], facebook: [] };
   // Un nom d'un seul mot ne se vérifie pas : on préfère aucune mention à un homonyme
   const exploitables = entites.filter((e) => {
@@ -230,12 +288,18 @@ export async function resoudreComptes(entites = [], { max = 3, image = null, tex
     log(`   Comptes « ${entite.nom} » (${entite.role}) : ${trouve.join(', ') || 'aucun, pas de mention'}`);
   }
 
-  // Places restantes comblées par les comptes de référence du thème, jamais l'inverse : ceux que
-  // l'article nomme passent toujours devant.
+  // Places restantes comblées par les comptes de référence, jamais l'inverse : ceux que l'article
+  // nomme passent toujours devant. Deux sources, dans cet ordre — la table écrite à la main, puis
+  // la découverte automatique, dont les trouvailles sont mémorisées et deviennent l'annuaire.
+  const appris = domaines.length ? await annuaire(domaines, { log }) : {};
   for (const [reseau, liste] of Object.entries(plan)) {
-    if (!texte || liste.length >= max) continue;
-    const libres = comptesThematiques(texte, reseau).filter((c) => !liste.some((x) => fold(x.handle) === fold(c.handle)));
-    for (const c of rotation(libres, recents, max - liste.length)) {
+    if (liste.length >= max) continue;
+    const candidats = [
+      ...(texte ? comptesThematiques(texte, reseau) : []),
+      ...(appris[reseau] ?? []),
+    ].filter((c, i, tout) => tout.findIndex((x) => fold(x.handle) === fold(c.handle)) === i
+      && !liste.some((x) => fold(x.handle) === fold(c.handle)));
+    for (const c of rotation(candidats, recents, max - liste.length)) {
       liste.push(c);
       log(`   Compte de référence « ${c.nom} » ajouté sur ${reseau} : @${c.handle}`);
     }

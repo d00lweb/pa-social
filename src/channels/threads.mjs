@@ -47,7 +47,8 @@ export async function prepare(article, { dossier, renderer: shared, log = consol
   if (!texte) throw new GuardError(article, ['texte Threads vide']);
 
   // mention seulement en remplaçant un nom déjà écrit, et seulement si le compte est sur Threads
-  const mention = (dossier.comptes?.threads ?? [])[0];
+  // idem Bluesky : un compte de référence porte un nom de domaine, pas un nom cité dans le texte
+  const mention = (dossier.comptes?.threads ?? []).find((c) => !c.thematique);
   if (mention) {
     const avecMention = substituer(texte, mention.nom, mention.handle);
     if (avecMention && compte(avecMention) <= MAX_TEXT) {

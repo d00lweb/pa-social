@@ -1,0 +1,141 @@
+{
+  "patrimoine": {
+    "cherche": "2026-09-25T14:04:41.359Z",
+    "instagram": [],
+    "bluesky": [
+      {
+        "handle": "fond-patrimoine.bsky.social",
+        "nom": "Fondation du patrimoine",
+        "abonnes": 334
+      }
+    ]
+  },
+  "histoire": {
+    "cherche": "2026-09-25T14:04:41.359Z",
+    "instagram": [
+      {
+        "handle": "histoirefrance",
+        "nom": "Histoire de France",
+        "abonnes": 72198
+      }
+    ],
+    "bluesky": [
+      {
+        "handle": "histoires-crepues.bsky.social",
+        "nom": "Histoires Crépues",
+        "abonnes": 8589
+      },
+      {
+        "handle": "hycarius.bsky.social",
+        "nom": "Hycarius - Histoire Appliquée",
+        "abonnes": 6407
+      },
+      {
+        "handle": "histoirechemin.bsky.social",
+        "nom": "L'Histoire trouve toujours un chemin",
+        "abonnes": 3518
+      }
+    ]
+  },
+  "feminisme": {
+    "cherche": "2026-09-25T14:04:51.359Z",
+    "instagram": [],
+    "bluesky": [
+      {
+        "handle": "osezlefeminisme.bsky.social",
+        "nom": "Osez le Féminisme",
+        "abonnes": 1805
+      },
+      {
+        "handle": "lawphilisee.bsky.social",
+        "nom": "Droit et féminisme",
+        "abonnes": 921
+      }
+    ]
+  },
+  "gastronomie": {
+    "cherche": "2026-09-25T14:05:19.373Z",
+    "instagram": [],
+    "bluesky": []
+  },
+  "handicap": {
+    "cherche": "2026-09-25T14:05:19.373Z",
+    "instagram": [
+      {
+        "handle": "handicap_fr",
+        "nom": "Handicap.fr",
+        "abonnes": 12914
+      }
+    ],
+    "bluesky": [
+      {
+        "handle": "apfhandicap.bsky.social",
+        "nom": "APF France handicap",
+        "abonnes": 673
+      },
+      {
+        "handle": "chandicaps.bsky.social",
+        "nom": "Collectif Handicaps",
+        "abonnes": 521
+      },
+      {
+        "handle": "handicapinter-fr.bsky.social",
+        "nom": "Handicap International France",
+        "abonnes": 574
+      }
+    ]
+  },
+  "alzheimer": {
+    "cherche": "2026-09-25T14:05:34.140Z",
+    "instagram": [
+      {
+        "handle": "francealzheimer",
+        "nom": "France Alzheimer",
+        "abonnes": 10700
+      }
+    ],
+    "bluesky": []
+  },
+  "sante": {
+    "cherche": "2026-09-25T14:05:34.140Z",
+    "instagram": [],
+    "bluesky": [
+      {
+        "handle": "winslowsp.bsky.social",
+        "nom": "Winslow Santé Publique",
+        "abonnes": 5767
+      },
+      {
+        "handle": "lab-iris.bsky.social",
+        "nom": "IRIS - Sciences sociales, Politique, Santé",
+        "abonnes": 2025
+      },
+      {
+        "handle": "davidsanterre.bsky.social",
+        "nom": "David Santerre",
+        "abonnes": 799
+      }
+    ]
+  },
+  "apiculture": {
+    "cherche": "2026-09-25T14:05:45.716Z",
+    "instagram": [],
+    "bluesky": []
+  },
+  "biodiversite": {
+    "cherche": "2026-09-25T14:05:45.716Z",
+    "instagram": [],
+    "bluesky": [
+      {
+        "handle": "frbiodiv.bsky.social",
+        "nom": "FRB｜Fondation pour la recherche sur la biodiversité",
+        "abonnes": 2392
+      },
+      {
+        "handle": "humabio.bsky.social",
+        "nom": "Humanité et Biodiversité",
+        "abonnes": 444
+      }
+    ]
+  }
+}

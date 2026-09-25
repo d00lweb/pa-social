@@ -84,7 +84,10 @@ export async function prepare(article, { dossier, renderer: shared, log = consol
   let text = postText(dossier, mode);
 
   // mention uniquement en remplaçant le nom déjà écrit : jamais de pseudo ajouté en bout de phrase
-  const mention = (dossier.comptes?.bluesky ?? [])[0];
+  // Les comptes de référence sont exclus de la substitution : leur « nom » est un domaine
+  // (« patrimoine »), et le remplacer en plein texte donnerait « Le mot @fond-patrimoine, plus
+  // vieux que patrimoine… ». Seuls les comptes que l'article nomme sont substitués.
+  const mention = (dossier.comptes?.bluesky ?? []).find((c) => !c.thematique);
   if (mention) {
     const avecMention = substituer(text, mention.nom, mention.handle);
     if (avecMention && graphemes(avecMention) <= MAX_GRAPHEMES) {

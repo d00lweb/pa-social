@@ -225,6 +225,7 @@ async function enrichir(dossier, article = null, memory = null) {
     // lettres pour que les comptes de référence du trail soient ajoutés
     texte: [article?.title, article?.description, ...(article?.categories ?? [])].filter(Boolean).join(' '),
     // comptes de référence déjà mentionnés : la rotation les écarte au profit des autres
+    domaines: dossier.domaines ?? [],
     recents: memory?.mentions ?? [],
     log: console.log,
   });

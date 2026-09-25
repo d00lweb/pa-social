@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-25T05:00:43.331Z",
+  "genereLe": "2026-09-25T05:20:45.479Z",
   "jour": "2026-09-25",
   "reseaux": {
     "instagram": {
@@ -124,11 +124,11 @@
         "lien",
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 12,
-      "total": 12,
-      "dernier": "2026-09-24T12:30:13.883Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/Ddq4YpSEWa4"
+      "aujourdhui": 1,
+      "semaine": 13,
+      "total": 13,
+      "dernier": "2026-09-25T05:31:21.817Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DdstpZNkWiz"
     },
     "x": {
       "actif": true,
@@ -168,6 +168,30 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35642",
+      "titre": "En Charente-Maritime, nouveau succès pour l’Ultra Trail de Pons",
+      "lien": "https://passion-aquitaine.ouest-france.fr/bilan-ultra-trail-pons-2026/",
+      "at": "2026-09-25T05:31:21.817Z",
+      "reseaux": {
+        "bluesky": {
+          "texte": "L’Ultra Trail de #Pons n’attire plus seulement les habitués de Charente-Maritime : parmi les 🏅 2 740 inscrits de l’édition 2026, certains sont venus du Canada ou de La Réunion. Un record pour cette course de Saintonge.\n➡️ Lire l’article",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-1bda31df-bsky.jpg",
+          "mode": "image",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-09-24T16:33:50.685Z"
+        },
+        "threads": {
+          "texte": "Des chemins de Saintonge, des dossards par milliers et des accents venus de très loin. À Pons, 2 740 personnes se sont inscrites à l’Ultra Trail, certaines depuis le Canada ou La Réunion. L’édition 2026 devient la plus fournie que la course ait connue 🏃",
+          "image": null,
+          "mode": "lien",
+          "reponse": null,
+          "sujet": "Pons",
+          "publieLe": "2026-09-25T05:31:21.817Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=28135",
       "titre": "Top 6 des activités insolites autour de La Rochelle",
@@ -213,22 +237,6 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-09-24T19:09:59.003Z"
-        }
-      }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35642",
-      "titre": "En Charente-Maritime, nouveau succès pour l’Ultra Trail de Pons",
-      "lien": "https://passion-aquitaine.ouest-france.fr/bilan-ultra-trail-pons-2026/",
-      "at": "2026-09-24T16:33:50.685Z",
-      "reseaux": {
-        "bluesky": {
-          "texte": "L’Ultra Trail de #Pons n’attire plus seulement les habitués de Charente-Maritime : parmi les 🏅 2 740 inscrits de l’édition 2026, certains sont venus du Canada ou de La Réunion. Un record pour cette course de Saintonge.\n➡️ Lire l’article",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-1bda31df-bsky.jpg",
-          "mode": "image",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-24T16:33:50.685Z"
         }
       }
     },
@@ -419,6 +427,16 @@
   ],
   "publications": [
     {
+      "channel": "threads",
+      "at": "2026-09-25T05:31:21.817Z",
+      "titre": "En Charente-Maritime, nouveau succès pour l’Ultra Trail de Pons",
+      "lien": "https://passion-aquitaine.ouest-france.fr/bilan-ultra-trail-pons-2026/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/DdstpZNkWiz",
+      "format": "lien",
+      "texte": "Des chemins de Saintonge, des dossards par milliers et des accents venus de très loin. À Pons, 2 740 personnes se sont inscrites à l’Ultra Trail, certaines depuis le Canada ou La Réunion. L’édition 2026 devient la plus fournie que la course ait connue 🏃",
+      "image": null
+    },
+    {
       "channel": "facebook",
       "at": "2026-09-24T19:09:59.003Z",
       "titre": "Top 6 des activités insolites autour de La Rochelle",
@@ -507,28 +525,9 @@
       "format": "image",
       "texte": "Peu de visiteurs le savent : autour de La Rochelle, on peut descendre dans un bunker allemand 🕳️, parcourir une maison aux couloirs superposés ou visiter une ferme de spiruline.\n➡️ https://passion-aquitaine.ouest-france.fr/activites-insolites-la-rochelle-top/",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-005b146f-x.jpg"
-    },
-    {
-      "channel": "bluesky",
-      "at": "2026-09-24T07:27:04.328Z",
-      "titre": "Top 6 des activités insolites autour de La Rochelle",
-      "lien": "https://passion-aquitaine.ouest-france.fr/activites-insolites-la-rochelle-top/",
-      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mwaq5fuemj2o",
-      "format": "card",
-      "texte": "🌀 Une maison dont les couloirs se superposent, un bunker allemand enfoui, une ferme où pousse la spiruline : autour de La Rochelle, six activités sortent complètement des circuits touristiques habituels. #LaRochelle",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-005b146f-bsky.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "threads",
-      "dueAt": "2026-09-25T05:30:33.918Z",
-      "prochainPassage": "2026-09-25T06:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "En Charente-Maritime, nouveau succès pour l’Ultra Trail de Pons"
-    },
     {
       "channel": "facebook",
       "dueAt": "2026-09-25T07:11:23.295Z",
@@ -683,7 +682,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-25T05:00:44.700Z",
+    "genereLe": "2026-09-25T05:31:22.382Z",
     "posts": 45,
     "parReseau": {
       "threads": {
@@ -857,7 +856,7 @@
       "bluesky": 16,
       "x": 15,
       "facebook": 11,
-      "threads": 12
+      "threads": 13
     },
     "abonnes": {
       "instagram": {

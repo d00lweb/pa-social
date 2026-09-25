@@ -1129,5 +1129,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35642",
+    "channel": "threads",
+    "at": "2026-09-25T05:31:21.817Z",
+    "mediaId": "18629012179025712",
+    "titre": "En Charente-Maritime, nouveau succès pour l’Ultra Trail de Pons",
+    "lien": "https://passion-aquitaine.ouest-france.fr/bilan-ultra-trail-pons-2026/",
+    "lienPost": "https://www.threads.com/@lovaquitaine/post/DdstpZNkWiz",
+    "format": "lien",
+    "mention": false,
+    "apercu": {
+      "texte": "Des chemins de Saintonge, des dossards par milliers et des accents venus de très loin. À Pons, 2 740 personnes se sont inscrites à l’Ultra Trail, certaines depuis le Canada ou La Réunion. L’édition 2026 devient la plus fournie que la course ait connue 🏃",
+      "image": null,
+      "mode": "lien",
+      "reponse": null,
+      "sujet": "Pons"
+    }
   }
 ]

@@ -1309,5 +1309,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35642",
+    "channel": "facebook",
+    "at": "2026-09-25T19:12:23.786Z",
+    "mediaId": "227437307428711_1731499398975941",
+    "titre": "En Charente-Maritime, nouveau succès pour l’Ultra Trail de Pons",
+    "lien": "https://passion-aquitaine.ouest-france.fr/bilan-ultra-trail-pons-2026/",
+    "lienPost": "https://www.facebook.com/1720946116697936/posts/1731499398975941",
+    "format": null,
+    "mention": false,
+    "apercu": {
+      "texte": "Qu’est-ce qui pousse 2 740 coureurs, dont certains venus de La Réunion, à s’aligner sur les chemins de Pons 🥾",
+      "image": null,
+      "mode": null,
+      "reponse": null,
+      "sujet": null
+    }
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-25T18:20:48.611Z",
+  "genereLe": "2026-09-25T19:00:40.000Z",
   "jour": "2026-09-25",
   "reseaux": {
     "instagram": {
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 1,
-      "semaine": 10,
-      "total": 12,
-      "dernier": "2026-09-25T07:11:29.899Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1730843055708242"
+      "aujourdhui": 2,
+      "semaine": 11,
+      "total": 13,
+      "dernier": "2026-09-25T19:12:23.786Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1731499398975941"
     },
     "threads": {
       "actif": true,
@@ -172,7 +172,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35642",
       "titre": "En Charente-Maritime, nouveau succès pour l’Ultra Trail de Pons",
       "lien": "https://passion-aquitaine.ouest-france.fr/bilan-ultra-trail-pons-2026/",
-      "at": "2026-09-25T17:27:59.215Z",
+      "at": "2026-09-25T19:12:23.786Z",
       "reseaux": {
         "bluesky": {
           "texte": "L’Ultra Trail de #Pons n’attire plus seulement les habitués de Charente-Maritime : parmi les 🏅 2 740 inscrits de l’édition 2026, certains sont venus du Canada ou de La Réunion. Un record pour cette course de Saintonge.\n➡️ Lire l’article",
@@ -205,6 +205,14 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-09-25T17:27:59.215Z"
+        },
+        "facebook": {
+          "texte": "Qu’est-ce qui pousse 2 740 coureurs, dont certains venus de La Réunion, à s’aligner sur les chemins de Pons 🥾",
+          "image": null,
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-09-25T19:12:23.786Z"
         }
       }
     },
@@ -419,6 +427,16 @@
   ],
   "publications": [
     {
+      "channel": "facebook",
+      "at": "2026-09-25T19:12:23.786Z",
+      "titre": "En Charente-Maritime, nouveau succès pour l’Ultra Trail de Pons",
+      "lien": "https://passion-aquitaine.ouest-france.fr/bilan-ultra-trail-pons-2026/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1731499398975941",
+      "format": null,
+      "texte": "Qu’est-ce qui pousse 2 740 coureurs, dont certains venus de La Réunion, à s’aligner sur les chemins de Pons 🥾",
+      "image": null
+    },
+    {
       "channel": "instagram",
       "at": "2026-09-25T17:27:59.215Z",
       "titre": "En Charente-Maritime, nouveau succès pour l’Ultra Trail de Pons",
@@ -507,28 +525,9 @@
       "format": null,
       "texte": "Le filet de votre mezzanine et celui d’un trimaran de course sortent parfois du même atelier bordelais ⛵",
       "image": null
-    },
-    {
-      "channel": "threads",
-      "at": "2026-09-25T05:31:21.817Z",
-      "titre": "En Charente-Maritime, nouveau succès pour l’Ultra Trail de Pons",
-      "lien": "https://passion-aquitaine.ouest-france.fr/bilan-ultra-trail-pons-2026/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/DdstpZNkWiz",
-      "format": "lien",
-      "texte": "Des chemins de Saintonge, des dossards par milliers et des accents venus de très loin. À Pons, 2 740 personnes se sont inscrites à l’Ultra Trail, certaines depuis le Canada ou La Réunion. L’édition 2026 devient la plus fournie que la course ait connue 🏃",
-      "image": null
     }
   ],
   "file": [
-    {
-      "channel": "facebook",
-      "dueAt": "2026-09-25T19:12:19.522Z",
-      "prochainPassage": "2026-09-25T19:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "En Charente-Maritime, nouveau succès pour l’Ultra Trail de Pons"
-    },
     {
       "channel": "facebook",
       "dueAt": "2026-09-26T07:25:27.129Z",
@@ -691,7 +690,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-25T18:20:56.535Z",
+    "genereLe": "2026-09-25T19:12:33.780Z",
     "posts": 54,
     "parReseau": {
       "instagram": {
@@ -864,7 +863,7 @@
       "instagram": 18,
       "bluesky": 18,
       "x": 18,
-      "facebook": 12,
+      "facebook": 13,
       "threads": 15
     },
     "abonnes": {

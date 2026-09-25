@@ -1273,5 +1273,23 @@
       "reponse": null,
       "sujet": "Mont-de-Marsan"
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35661",
+    "channel": "x",
+    "at": "2026-09-25T15:01:12.900Z",
+    "mediaId": "kit-telegram",
+    "titre": "Ce TER de Nouvelle-Aquitaine cache une batterie de 80 km : il remplace son moteur diesel",
+    "lien": "https://passion-aquitaine.ouest-france.fr/ter-batteries-nouvelle-aquitaine-bordeaux-mont-de-marsan/",
+    "lienPost": null,
+    "format": "image",
+    "mention": true,
+    "apercu": {
+      "texte": "Entre Bordeaux et Mont-de-Marsan circule le premier TER à batteries de Nouvelle-Aquitaine : 🔋 80 km d’autonomie électrique qui remplacent le moteur diesel sur les portions sans caténaire.\n➡️ https://passion-aquitaine.ouest-france.fr/ter-batteries-nouvelle-aquitaine-bordeaux-mont-de-marsan/",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260925-93e1ab54-x.jpg",
+      "mode": "image",
+      "reponse": null,
+      "sujet": null
+    }
   }
 ]

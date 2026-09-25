@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-25T08:21:22.288Z",
+  "genereLe": "2026-09-25T09:01:15.281Z",
   "jour": "2026-09-25",
   "reseaux": {
     "instagram": {
@@ -124,11 +124,11 @@
         "lien",
         "reponse"
       ],
-      "aujourdhui": 1,
-      "semaine": 12,
-      "total": 13,
-      "dernier": "2026-09-25T05:31:21.817Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DdstpZNkWiz"
+      "aujourdhui": 2,
+      "semaine": 13,
+      "total": 14,
+      "dernier": "2026-09-25T09:11:22.159Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DdtG1dgkcCa"
     },
     "x": {
       "actif": true,
@@ -172,7 +172,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=34448",
       "titre": "À Bidache, vivez 2000 ans d’histoire en un week-end",
       "lien": "https://passion-aquitaine.ouest-france.fr/historiques-bidache-2026-chateau-gramont/",
-      "at": "2026-09-25T07:24:07.459Z",
+      "at": "2026-09-25T09:11:22.159Z",
       "reseaux": {
         "bluesky": {
           "texte": "Des tentes dressées au pied des ruines, des armures, des métiers oubliés remis en gestes : le château de Gramont change d’époque le temps d’un week-end 🏰 Plus de 200 reconstituteurs y feront défiler 2000 ans d’histoire, à #Bidache.\n➡️ Lire l’article",
@@ -181,6 +181,14 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-09-25T07:24:07.459Z"
+        },
+        "threads": {
+          "texte": "Combien de siècles peut-on traverser en un seul week-end ? À Bidache, la réponse tient en 🏰 2000 ans d’histoire, rejoués dans le château de Gramont les 3 et 4 octobre 2026. Plus de 200 reconstituteurs y plantent leurs campements et refont vivre les gestes, les costumes et les combats d’époques très différentes. Vous êtes déjà allé voir une fête historique de ce genre ?",
+          "image": null,
+          "mode": "lien",
+          "reponse": null,
+          "sujet": "Bidache",
+          "publieLe": "2026-09-25T09:11:22.159Z"
         }
       }
     },
@@ -411,6 +419,16 @@
   ],
   "publications": [
     {
+      "channel": "threads",
+      "at": "2026-09-25T09:11:22.159Z",
+      "titre": "À Bidache, vivez 2000 ans d’histoire en un week-end",
+      "lien": "https://passion-aquitaine.ouest-france.fr/historiques-bidache-2026-chateau-gramont/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/DdtG1dgkcCa",
+      "format": "lien",
+      "texte": "Combien de siècles peut-on traverser en un seul week-end ? À Bidache, la réponse tient en 🏰 2000 ans d’histoire, rejoués dans le château de Gramont les 3 et 4 octobre 2026. Plus de 200 reconstituteurs y plantent leurs campements et refont vivre les gestes, les costumes et les combats d’époques très différentes. Vous êtes déjà allé voir une fête historique de ce genre ?",
+      "image": null
+    },
+    {
       "channel": "bluesky",
       "at": "2026-09-25T07:24:07.459Z",
       "titre": "À Bidache, vivez 2000 ans d’histoire en un week-end",
@@ -499,28 +517,9 @@
       "format": null,
       "texte": "Six activités insolites 🕳️ à faire autour de La Rochelle, loin des visites classiques du vieux port.\n⠀\nUn bunker allemand, une maison aux couloirs superposés, une ferme de spiruline : la Charente-Maritime cache des sorties que peu de visiteurs connaissent.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#LaRochelle #CharenteMaritime #Tourisme",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-005b146f-1.jpg"
-    },
-    {
-      "channel": "x",
-      "at": "2026-09-24T11:20:47.689Z",
-      "titre": "Des trimarans à nos mezzanines, ces filets sont cousus à Bordeaux",
-      "lien": "https://passion-aquitaine.ouest-france.fr/des-trimarans-a-nos-mezzanines-ces-filets-sont-cousus-a-bordeaux/",
-      "lienPost": null,
-      "format": "reponse",
-      "texte": "Le filet tendu sous un trimaran de course et celui d’une mezzanine peuvent sortir du même atelier 🪡 Aux Bassins à flot, à #Bordeaux, des couturières les assemblent sur-mesure, du large au salon.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-860ea888-x.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "threads",
-      "dueAt": "2026-09-25T09:10:39.812Z",
-      "prochainPassage": "2026-09-25T09:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "À Bidache, vivez 2000 ans d’histoire en un week-end"
-    },
     {
       "channel": "x",
       "dueAt": "2026-09-25T10:00:00.000Z",
@@ -614,7 +613,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 63,
+    "releves": 64,
     "parReseau": {
       "instagram": {
         "posts": 7,
@@ -737,16 +736,16 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-25T08:21:23.994Z",
-    "posts": 48,
+    "genereLe": "2026-09-25T09:11:22.869Z",
+    "posts": 49,
     "parReseau": {
       "instagram": {
         "posts": 14,
         "moyenne": 18.1
       },
       "threads": {
-        "posts": 10,
-        "moyenne": 16.5
+        "posts": 11,
+        "moyenne": 15
       },
       "facebook": {
         "posts": 10,
@@ -771,8 +770,8 @@
         "moyenne": 1
       },
       "image": {
-        "posts": 5,
-        "moyenne": 0.4
+        "posts": 6,
+        "moyenne": 0.3
       },
       "card": {
         "posts": 3,
@@ -785,8 +784,8 @@
         "moyenne": 16.5
       },
       "matin": {
-        "posts": 29,
-        "moyenne": 7.9
+        "posts": 30,
+        "moyenne": 7.7
       },
       "soir": {
         "posts": 8,
@@ -841,13 +840,13 @@
         }
       },
       "threads": {
-        "10 h – 11 h 30": {
-          "posts": 1,
-          "moyenne": 37
-        },
         "7 h – 8 h 30": {
           "posts": 6,
           "moyenne": 19.7
+        },
+        "10 h – 11 h 30": {
+          "posts": 2,
+          "moyenne": 18.5
         },
         "13 h – 14 h 30": {
           "posts": 2,
@@ -880,21 +879,21 @@
     },
     "moinsBon": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=28135",
-      "channel": "bluesky",
-      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mwaq5fuemj2o",
-      "publieLe": "2026-09-24T07:27:04.328Z",
+      "channel": "threads",
+      "mediaId": "18131240894507073",
+      "publieLe": "2026-09-24T08:28:40.031Z",
       "jalon": 1,
-      "releveLe": "2026-09-25T07:34:05.678Z",
+      "releveLe": "2026-09-25T09:01:15.281Z",
       "likes": 0,
       "commentaires": 0,
       "partages": 0,
-      "vues": null,
+      "vues": 35,
       "titre": "Top 6 des activités insolites autour de La Rochelle",
-      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mwaq5fuemj2o",
-      "format": "card",
+      "lien": "https://www.threads.com/@lovaquitaine/post/DdqdKMeG-5K",
+      "format": "image",
       "mention": false,
       "creneau": "matin",
-      "creneauReseau": "8 h – 9 h 30"
+      "creneauReseau": "10 h – 11 h 30"
     },
     "mentions": {
       "avec": {
@@ -902,8 +901,8 @@
         "moyenne": 4
       },
       "sans": {
-        "posts": 47,
-        "moyenne": 9.1
+        "posts": 48,
+        "moyenne": 8.9
       }
     },
     "publies": {
@@ -911,7 +910,7 @@
       "bluesky": 17,
       "x": 16,
       "facebook": 12,
-      "threads": 13
+      "threads": 14
     },
     "abonnes": {
       "instagram": {
@@ -957,7 +956,7 @@
     },
     "engagement": {
       "instagram": 0.18,
-      "threads": 1.44,
+      "threads": 1.31,
       "facebook": 0
     },
     "conseils": [

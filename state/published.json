@@ -1201,5 +1201,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=34448",
+    "channel": "threads",
+    "at": "2026-09-25T09:11:22.159Z",
+    "mediaId": "18005748488989866",
+    "titre": "À Bidache, vivez 2000 ans d’histoire en un week-end",
+    "lien": "https://passion-aquitaine.ouest-france.fr/historiques-bidache-2026-chateau-gramont/",
+    "lienPost": "https://www.threads.com/@lovaquitaine/post/DdtG1dgkcCa",
+    "format": "lien",
+    "mention": false,
+    "apercu": {
+      "texte": "Combien de siècles peut-on traverser en un seul week-end ? À Bidache, la réponse tient en 🏰 2000 ans d’histoire, rejoués dans le château de Gramont les 3 et 4 octobre 2026. Plus de 200 reconstituteurs y plantent leurs campements et refont vivre les gestes, les costumes et les combats d’époques très différentes. Vous êtes déjà allé voir une fête historique de ce genre ?",
+      "image": null,
+      "mode": "lien",
+      "reponse": null,
+      "sujet": "Bidache"
+    }
   }
 ]

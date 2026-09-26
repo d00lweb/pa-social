@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-26T09:00:49.202Z",
+  "genereLe": "2026-09-26T09:20:47.951Z",
   "jour": "2026-09-26",
   "reseaux": {
     "instagram": {
@@ -125,7 +125,7 @@
         "reponse"
       ],
       "aujourdhui": 1,
-      "semaine": 13,
+      "semaine": 12,
       "total": 16,
       "dernier": "2026-09-26T06:24:54.350Z",
       "lienDernier": "https://www.threads.com/@lovaquitaine/post/DdvYlXYFj8_"
@@ -568,7 +568,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 80,
+    "releves": 82,
     "parReseau": {
       "instagram": {
         "posts": 8,
@@ -583,8 +583,8 @@
         "interactionsMoyennes": 1
       },
       "threads": {
-        "posts": 3,
-        "interactionsMoyennes": 1.7
+        "posts": 4,
+        "interactionsMoyennes": 10.5
       }
     }
   },
@@ -645,7 +645,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-09-26T08:20:41.890Z"
+    "derniere": "2026-09-26T09:20:47.951Z"
   },
   "abonnes": {
     "instagram": {
@@ -684,16 +684,16 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-26T09:00:57.657Z",
-    "posts": 58,
+    "genereLe": "2026-09-26T09:20:56.929Z",
+    "posts": 59,
     "parReseau": {
       "instagram": {
         "posts": 16,
         "moyenne": 16.4
       },
       "threads": {
-        "posts": 13,
-        "moyenne": 12.9
+        "posts": 14,
+        "moyenne": 12
       },
       "facebook": {
         "posts": 12,
@@ -714,8 +714,8 @@
         "moyenne": 1
       },
       "lien": {
-        "posts": 4,
-        "moyenne": 0.8
+        "posts": 5,
+        "moyenne": 0.6
       },
       "image": {
         "posts": 8,
@@ -732,8 +732,8 @@
         "moyenne": 13.5
       },
       "matin": {
-        "posts": 33,
-        "moyenne": 7
+        "posts": 34,
+        "moyenne": 6.8
       },
       "soir": {
         "posts": 11,
@@ -788,13 +788,13 @@
         }
       },
       "threads": {
-        "10 h – 11 h 30": {
-          "posts": 2,
-          "moyenne": 18.5
-        },
         "7 h – 8 h 30": {
           "posts": 7,
           "moyenne": 16.9
+        },
+        "10 h – 11 h 30": {
+          "posts": 3,
+          "moyenne": 12.3
         },
         "13 h – 14 h 30": {
           "posts": 3,
@@ -827,21 +827,21 @@
     },
     "moinsBon": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=34448",
-      "channel": "bluesky",
-      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mwdah2cm6c2v",
-      "publieLe": "2026-09-25T07:24:07.459Z",
+      "channel": "threads",
+      "mediaId": "18005748488989866",
+      "publieLe": "2026-09-25T09:11:22.159Z",
       "jalon": 1,
-      "releveLe": "2026-09-26T08:00:43.891Z",
+      "releveLe": "2026-09-26T09:20:47.951Z",
       "likes": 0,
       "commentaires": 0,
       "partages": 0,
-      "vues": null,
+      "vues": 33,
       "titre": "À Bidache, vivez 2000 ans d’histoire en un week-end",
-      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mwdah2cm6c2v",
-      "format": "image",
+      "lien": "https://www.threads.com/@lovaquitaine/post/DdtG1dgkcCa",
+      "format": "lien",
       "mention": false,
       "creneau": "matin",
-      "creneauReseau": "8 h – 9 h 30"
+      "creneauReseau": "10 h – 11 h 30"
     },
     "mentions": {
       "avec": {
@@ -849,8 +849,8 @@
         "moyenne": 4
       },
       "sans": {
-        "posts": 57,
-        "moyenne": 7.8
+        "posts": 58,
+        "moyenne": 7.6
       }
     },
     "publies": {
@@ -904,7 +904,7 @@
     },
     "engagement": {
       "instagram": 0.16,
-      "threads": 1.12,
+      "threads": 1.05,
       "facebook": 0
     },
     "conseils": [

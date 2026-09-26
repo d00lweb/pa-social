@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-26T17:20:37.750Z",
+  "genereLe": "2026-09-26T17:42:42.128Z",
   "jour": "2026-09-26",
   "reseaux": {
     "instagram": {
@@ -566,7 +566,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 88,
+    "releves": 89,
     "parReseau": {
       "instagram": {
         "posts": 10,
@@ -682,12 +682,12 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-26T17:20:47.108Z",
-    "posts": 61,
+    "genereLe": "2026-09-26T17:42:50.932Z",
+    "posts": 62,
     "parReseau": {
       "instagram": {
-        "posts": 16,
-        "moyenne": 16.9
+        "posts": 17,
+        "moyenne": 17.6
       },
       "threads": {
         "posts": 15,
@@ -734,8 +734,8 @@
         "moyenne": 6.8
       },
       "soir": {
-        "posts": 11,
-        "moyenne": 2.6
+        "posts": 12,
+        "moyenne": 4.8
       }
     },
     "parCreneauReseau": {
@@ -749,8 +749,8 @@
           "moyenne": 12.5
         },
         "18 h – 19 h 30": {
-          "posts": 3,
-          "moyenne": 5.7
+          "posts": 4,
+          "moyenne": 11.5
         }
       },
       "bluesky": {
@@ -804,7 +804,7 @@
         }
       }
     },
-    "interactionsTotal": 454,
+    "interactionsTotal": 483,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35605",
       "channel": "threads",
@@ -843,8 +843,8 @@
     },
     "mentions": {
       "avec": {
-        "posts": 2,
-        "moyenne": 3
+        "posts": 3,
+        "moyenne": 11.7
       },
       "sans": {
         "posts": 59,
@@ -906,7 +906,7 @@
       "facebook": 0
     },
     "conseils": [
-      "Instagram : le créneau 12 h – 13 h 30 fait 4,5 fois mieux que 18 h – 19 h 30 (25.4 contre 5.7 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
+      "Instagram : le créneau 12 h – 13 h 30 fait 2,2 fois mieux que 18 h – 19 h 30 (25.4 contre 11.5 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Bluesky : le créneau 12 h – 13 h 30 fait 3,3 fois mieux que 8 h – 9 h 30 (1 contre 0.3 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Threads : le créneau 7 h – 8 h 30 fait 5,6 fois mieux que 13 h – 14 h 30 (16.9 contre 3 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Le format « reponse » fait 272 fois mieux que « card » (27.2 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « card » de la rotation dans config/channels.json."

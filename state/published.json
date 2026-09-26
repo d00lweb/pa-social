@@ -1381,5 +1381,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35450",
+    "channel": "x",
+    "at": "2026-09-26T08:00:51.822Z",
+    "mediaId": "kit-telegram",
+    "titre": "À Poitiers, la tombe d’un patriote polonais indique une erreur",
+    "lien": "https://passion-aquitaine.ouest-france.fr/tombe-chodzko-poitiers-exile-polonais/",
+    "lienPost": null,
+    "format": "lien",
+    "mention": true,
+    "apercu": {
+      "texte": "Une visite de cimetière à #Poitiers réserve une surprise : la tombe de l’historien polonais exilé Leonard Chodźko porte une date de décès erronée. De quoi regarder les pierres tombales autrement 🪦\n➡️ https://passion-aquitaine.ouest-france.fr/tombe-chodzko-poitiers-exile-polonais/",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260926-e7578bc9-x.jpg",
+      "mode": "lien",
+      "reponse": null,
+      "sujet": null
+    }
   }
 ]

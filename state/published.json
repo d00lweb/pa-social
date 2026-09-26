@@ -1435,5 +1435,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35661",
+    "channel": "facebook",
+    "at": "2026-09-26T18:11:01.450Z",
+    "mediaId": "227437307428711_1732554588870422",
+    "titre": "Ce TER de Nouvelle-Aquitaine cache une batterie de 80 km : il remplace son moteur diesel",
+    "lien": "https://passion-aquitaine.ouest-france.fr/ter-batteries-nouvelle-aquitaine-bordeaux-mont-de-marsan/",
+    "lienPost": "https://www.facebook.com/1720946116697936/posts/1732554588870422",
+    "format": null,
+    "mention": false,
+    "apercu": {
+      "texte": "Entre Bordeaux et Mont-de-Marsan, un train avance sur 80 km sans le moindre bruit de moteur diesel 🚆",
+      "image": null,
+      "mode": null,
+      "reponse": null,
+      "sujet": null
+    }
   }
 ]

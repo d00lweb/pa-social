@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-26T17:42:42.128Z",
+  "genereLe": "2026-09-26T18:01:00.333Z",
   "jour": "2026-09-26",
   "reseaux": {
     "instagram": {
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 1,
-      "semaine": 11,
-      "total": 14,
-      "dernier": "2026-09-26T07:25:30.861Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1732004645592083"
+      "aujourdhui": 2,
+      "semaine": 12,
+      "total": 15,
+      "dernier": "2026-09-26T18:11:01.450Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1732554588870422"
     },
     "threads": {
       "actif": true,
@@ -172,7 +172,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35661",
       "titre": "Ce TER de Nouvelle-Aquitaine cache une batterie de 80 km : il remplace son moteur diesel",
       "lien": "https://passion-aquitaine.ouest-france.fr/ter-batteries-nouvelle-aquitaine-bordeaux-mont-de-marsan/",
-      "at": "2026-09-26T16:35:03.591Z",
+      "at": "2026-09-26T18:11:01.450Z",
       "reseaux": {
         "bluesky": {
           "texte": "🔌 Que devient un train quand la caténaire s’arrête en pleine campagne des #Landes ? Le premier TER à batteries de Nouvelle-Aquitaine, en service entre Bordeaux et Mont-de-Marsan, bascule sur 80 km d’autonomie électrique au lieu de rallumer son diesel.",
@@ -205,6 +205,14 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-09-26T16:35:03.591Z"
+        },
+        "facebook": {
+          "texte": "Entre Bordeaux et Mont-de-Marsan, un train avance sur 80 km sans le moindre bruit de moteur diesel 🚆",
+          "image": null,
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-09-26T18:11:01.450Z"
         }
       }
     },
@@ -435,6 +443,16 @@
   ],
   "publications": [
     {
+      "channel": "facebook",
+      "at": "2026-09-26T18:11:01.450Z",
+      "titre": "Ce TER de Nouvelle-Aquitaine cache une batterie de 80 km : il remplace son moteur diesel",
+      "lien": "https://passion-aquitaine.ouest-france.fr/ter-batteries-nouvelle-aquitaine-bordeaux-mont-de-marsan/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1732554588870422",
+      "format": null,
+      "texte": "Entre Bordeaux et Mont-de-Marsan, un train avance sur 80 km sans le moindre bruit de moteur diesel 🚆",
+      "image": null
+    },
+    {
       "channel": "instagram",
       "at": "2026-09-26T16:35:03.591Z",
       "titre": "Ce TER de Nouvelle-Aquitaine cache une batterie de 80 km : il remplace son moteur diesel",
@@ -523,28 +541,9 @@
       "format": "image",
       "texte": "Entre Bordeaux et Mont-de-Marsan circule le premier TER à batteries de Nouvelle-Aquitaine : 🔋 80 km d’autonomie électrique qui remplacent le moteur diesel sur les portions sans caténaire.\n➡️ https://passion-aquitaine.ouest-france.fr/ter-batteries-nouvelle-aquitaine-bordeaux-mont-de-marsan/",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20260925-93e1ab54-x.jpg"
-    },
-    {
-      "channel": "threads",
-      "at": "2026-09-25T11:32:28.277Z",
-      "titre": "Ce TER de Nouvelle-Aquitaine cache une batterie de 80 km : il remplace son moteur diesel",
-      "lien": "https://passion-aquitaine.ouest-france.fr/ter-batteries-nouvelle-aquitaine-bordeaux-mont-de-marsan/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/DdtW_OrlSPs",
-      "format": "image",
-      "texte": "80 kilomètres d’autonomie sur batteries, c’est ce qui sépare désormais ce TER de son ancien moteur diesel 🔋 Il circule entre Bordeaux et Mont-de-Marsan et devient le premier du genre en Nouvelle-Aquitaine. Sur les tronçons sans caténaire, l’électricité stockée prend le relais. Le début d’une longue transition pour le rail régional. Vous monteriez à bord ?\n➡️ https://passion-aquitaine.ouest-france.fr/ter-batteries-nouvelle-aquitaine-bordeaux-mont-de-marsan/",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20260925-93e1ab54-th.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "facebook",
-      "dueAt": "2026-09-26T18:10:49.844Z",
-      "prochainPassage": "2026-09-26T18:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Ce TER de Nouvelle-Aquitaine cache une batterie de 80 km : il remplace son moteur diesel"
-    },
     {
       "channel": "facebook",
       "dueAt": "2026-09-27T06:09:14.836Z",
@@ -682,7 +681,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-26T17:42:50.932Z",
+    "genereLe": "2026-09-26T18:11:20.186Z",
     "posts": 62,
     "parReseau": {
       "instagram": {
@@ -855,7 +854,7 @@
       "instagram": 20,
       "bluesky": 19,
       "x": 19,
-      "facebook": 14,
+      "facebook": 15,
       "threads": 16
     },
     "abonnes": {

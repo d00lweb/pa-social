@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-26T10:00:40.744Z",
+  "genereLe": "2026-09-26T10:21:10.197Z",
   "jour": "2026-09-26",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 0,
+      "aujourdhui": 1,
       "semaine": 10,
-      "total": 18,
-      "dernier": "2026-09-25T17:27:59.215Z",
-      "lienDernier": "https://www.instagram.com/p/Ddt_ugjl2g3/"
+      "total": 19,
+      "dernier": "2026-09-26T10:23:43.733Z",
+      "lienDernier": "https://www.instagram.com/p/Ddvz-JyjgPK/"
     },
     "bluesky": {
       "actif": true,
@@ -161,7 +161,7 @@
         "reponse"
       ],
       "aujourdhui": 1,
-      "semaine": 12,
+      "semaine": 11,
       "total": 19,
       "dernier": "2026-09-26T08:00:51.822Z",
       "lienDernier": null
@@ -169,42 +169,10 @@
   },
   "articles": [
     {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35450",
-      "titre": "À Poitiers, la tombe d’un patriote polonais indique une erreur",
-      "lien": "https://passion-aquitaine.ouest-france.fr/tombe-chodzko-poitiers-exile-polonais/",
-      "at": "2026-09-26T08:00:51.822Z",
-      "reseaux": {
-        "threads": {
-          "texte": "On imagine mal une erreur sur une tombe. C’est pourtant le cas dans un cimetière de Poitiers, où repose 📜 Leonard Chodźko, historien polonais exilé en France. La date de son décès, gravée dans la pierre, est inexacte. Sa mémoire vit donc avec une faute que personne n’a corrigée.\n@fondationdupatrimoine",
-          "image": null,
-          "mode": "lien",
-          "reponse": null,
-          "sujet": "Poitiers",
-          "publieLe": "2026-09-26T06:24:54.350Z"
-        },
-        "bluesky": {
-          "texte": "À #Poitiers, un cimetière abrite la sépulture de Leonard Chodźko, historien polonais exilé en France 📜 La date de décès gravée sur la pierre ne correspond pas à la réalité. Une erreur qui accompagne sa mémoire depuis des décennies.\n@fond-patrimoine.bsky.social\n➡️ Lire l’article",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260926-e7578bc9-bsky.jpg",
-          "mode": "image",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-26T07:30:01.007Z"
-        },
-        "x": {
-          "texte": "Une visite de cimetière à #Poitiers réserve une surprise : la tombe de l’historien polonais exilé Leonard Chodźko porte une date de décès erronée. De quoi regarder les pierres tombales autrement 🪦\n➡️ https://passion-aquitaine.ouest-france.fr/tombe-chodzko-poitiers-exile-polonais/",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260926-e7578bc9-x.jpg",
-          "mode": "lien",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-26T08:00:51.822Z"
-        }
-      }
-    },
-    {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=34448",
       "titre": "À Bidache, vivez 2000 ans d’histoire en un week-end",
       "lien": "https://passion-aquitaine.ouest-france.fr/historiques-bidache-2026-chateau-gramont/",
-      "at": "2026-09-26T07:25:30.861Z",
+      "at": "2026-09-26T10:23:43.733Z",
       "reseaux": {
         "bluesky": {
           "texte": "Des tentes dressées au pied des ruines, des armures, des métiers oubliés remis en gestes : le château de Gramont change d’époque le temps d’un week-end 🏰 Plus de 200 reconstituteurs y feront défiler 2000 ans d’histoire, à #Bidache.\n➡️ Lire l’article",
@@ -237,6 +205,46 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-09-26T07:25:30.861Z"
+        },
+        "instagram": {
+          "texte": "Plus de 🏰 200 reconstituteurs au château de Gramont, à Bidache, pour traverser vingt siècles en un seul week-end\n⠀\nLes 3 et 4 octobre 2026, la fête historique de Bidache fait revivre 2000 ans d’histoire dans les ruines du château, en Pays basque.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bidache #ChateauDeGramont #Reconstitution",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260925-3e20f7ef-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-09-26T10:23:43.733Z"
+        }
+      }
+    },
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35450",
+      "titre": "À Poitiers, la tombe d’un patriote polonais indique une erreur",
+      "lien": "https://passion-aquitaine.ouest-france.fr/tombe-chodzko-poitiers-exile-polonais/",
+      "at": "2026-09-26T08:00:51.822Z",
+      "reseaux": {
+        "threads": {
+          "texte": "On imagine mal une erreur sur une tombe. C’est pourtant le cas dans un cimetière de Poitiers, où repose 📜 Leonard Chodźko, historien polonais exilé en France. La date de son décès, gravée dans la pierre, est inexacte. Sa mémoire vit donc avec une faute que personne n’a corrigée.\n@fondationdupatrimoine",
+          "image": null,
+          "mode": "lien",
+          "reponse": null,
+          "sujet": "Poitiers",
+          "publieLe": "2026-09-26T06:24:54.350Z"
+        },
+        "bluesky": {
+          "texte": "À #Poitiers, un cimetière abrite la sépulture de Leonard Chodźko, historien polonais exilé en France 📜 La date de décès gravée sur la pierre ne correspond pas à la réalité. Une erreur qui accompagne sa mémoire depuis des décennies.\n@fond-patrimoine.bsky.social\n➡️ Lire l’article",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260926-e7578bc9-bsky.jpg",
+          "mode": "image",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-09-26T07:30:01.007Z"
+        },
+        "x": {
+          "texte": "Une visite de cimetière à #Poitiers réserve une surprise : la tombe de l’historien polonais exilé Leonard Chodźko porte une date de décès erronée. De quoi regarder les pierres tombales autrement 🪦\n➡️ https://passion-aquitaine.ouest-france.fr/tombe-chodzko-poitiers-exile-polonais/",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260926-e7578bc9-x.jpg",
+          "mode": "lien",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-09-26T08:00:51.822Z"
         }
       }
     },
@@ -419,6 +427,16 @@
   ],
   "publications": [
     {
+      "channel": "instagram",
+      "at": "2026-09-26T10:23:43.733Z",
+      "titre": "À Bidache, vivez 2000 ans d’histoire en un week-end",
+      "lien": "https://passion-aquitaine.ouest-france.fr/historiques-bidache-2026-chateau-gramont/",
+      "lienPost": "https://www.instagram.com/p/Ddvz-JyjgPK/",
+      "format": null,
+      "texte": "Plus de 🏰 200 reconstituteurs au château de Gramont, à Bidache, pour traverser vingt siècles en un seul week-end\n⠀\nLes 3 et 4 octobre 2026, la fête historique de Bidache fait revivre 2000 ans d’histoire dans les ruines du château, en Pays basque.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bidache #ChateauDeGramont #Reconstitution",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260925-3e20f7ef-1.jpg"
+    },
+    {
       "channel": "x",
       "at": "2026-09-26T08:00:51.822Z",
       "titre": "À Poitiers, la tombe d’un patriote polonais indique une erreur",
@@ -507,28 +525,9 @@
       "format": "card",
       "texte": "🔌 Que devient un train quand la caténaire s’arrête en pleine campagne des #Landes ? Le premier TER à batteries de Nouvelle-Aquitaine, en service entre Bordeaux et Mont-de-Marsan, bascule sur 80 km d’autonomie électrique au lieu de rallumer son diesel.",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20260925-93e1ab54-bsky.jpg"
-    },
-    {
-      "channel": "x",
-      "at": "2026-09-25T10:00:48.759Z",
-      "titre": "À Bidache, vivez 2000 ans d’histoire en un week-end",
-      "lien": "https://passion-aquitaine.ouest-france.fr/historiques-bidache-2026-chateau-gramont/",
-      "lienPost": null,
-      "format": "lien",
-      "texte": "Plus de 200 reconstituteurs investissent le château de Gramont, à #Bidache, les 3 et 4 octobre 2026. Campements, costumes et scènes rejouées : 2000 ans d’histoire condensés en un week-end ⚔️\n➡️ https://passion-aquitaine.ouest-france.fr/historiques-bidache-2026-chateau-gramont/",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20260925-3e20f7ef-x.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "instagram",
-      "dueAt": "2026-09-26T10:23:15.144Z",
-      "prochainPassage": "2026-09-26T11:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": "2026-09-25T16:28:19.276Z",
-      "raison": "un autre post occupait déjà ce créneau",
-      "titre": "À Bidache, vivez 2000 ans d’histoire en un week-end"
-    },
     {
       "channel": "instagram",
       "dueAt": "2026-09-26T16:34:34.090Z",
@@ -568,11 +567,11 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 82,
+    "releves": 83,
     "parReseau": {
       "instagram": {
-        "posts": 8,
-        "interactionsMoyennes": 10.1
+        "posts": 9,
+        "interactionsMoyennes": 11.6
       },
       "bluesky": {
         "posts": 7,
@@ -645,7 +644,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-09-26T09:20:47.951Z"
+    "derniere": "2026-09-26T10:21:10.197Z"
   },
   "abonnes": {
     "instagram": {
@@ -684,12 +683,12 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-26T10:00:48.247Z",
+    "genereLe": "2026-09-26T10:24:04.225Z",
     "posts": 59,
     "parReseau": {
       "instagram": {
         "posts": 16,
-        "moyenne": 16.4
+        "moyenne": 16.8
       },
       "threads": {
         "posts": 14,
@@ -729,7 +728,7 @@
     "parCreneau": {
       "après-midi": {
         "posts": 14,
-        "moyenne": 13.5
+        "moyenne": 13.9
       },
       "matin": {
         "posts": 34,
@@ -744,7 +743,7 @@
       "instagram": {
         "12 h – 13 h 30": {
           "posts": 7,
-          "moyenne": 24.7
+          "moyenne": 25.4
         },
         "hors créneau": {
           "posts": 6,
@@ -806,7 +805,7 @@
         }
       }
     },
-    "interactionsTotal": 446,
+    "interactionsTotal": 451,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35605",
       "channel": "threads",
@@ -850,11 +849,11 @@
       },
       "sans": {
         "posts": 58,
-        "moyenne": 7.6
+        "moyenne": 7.7
       }
     },
     "publies": {
-      "instagram": 18,
+      "instagram": 19,
       "bluesky": 19,
       "x": 19,
       "facebook": 14,
@@ -903,12 +902,12 @@
       }
     },
     "engagement": {
-      "instagram": 0.16,
+      "instagram": 0.17,
       "threads": 1.05,
       "facebook": 0
     },
     "conseils": [
-      "Instagram : le créneau 12 h – 13 h 30 fait 4,9 fois mieux que 18 h – 19 h 30 (24.7 contre 5 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
+      "Instagram : le créneau 12 h – 13 h 30 fait 5,1 fois mieux que 18 h – 19 h 30 (25.4 contre 5 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Threads : le créneau 7 h – 8 h 30 fait 4,2 fois mieux que 13 h – 14 h 30 (16.9 contre 4 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Le format « reponse » fait 272 fois mieux que « card » (27.2 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « card » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+4, +0,3 %) ; Facebook recule (−15), à surveiller."

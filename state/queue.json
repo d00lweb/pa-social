@@ -438,5 +438,830 @@
       }
     },
     "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35450",
+    "channel": "instagram",
+    "dueAt": 1790508236704,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "À Poitiers, la tombe d’un patriote polonais indique une erreur",
+      "link": "https://passion-aquitaine.ouest-france.fr/tombe-chodzko-poitiers-exile-polonais/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35450",
+      "pubDate": "Sat, 26 Sep 2026 05:30:33 +0000",
+      "date": 1790400633000,
+      "categories": [
+        "Actus",
+        "Vienne"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/09/tombe-leonard-chodzko.jpg",
+      "description": "Dans un cimetière de Poitiers, la tombe de Leonard Chodźko, historien polonais exilé, porte une erreur sur sa propre date de décès."
+    },
+    "dossier": {
+      "nature": "evergreen",
+      "sensible": false,
+      "rubrique": "Poitiers",
+      "visuel": {
+        "titre": "La tombe d’un patriote polonais porte une erreur sur sa date de décès",
+        "surlignage": "décès",
+        "description": "Exilé en France, l’historien polonais Leonard Chodźko repose dans un cimetière de Poitiers. Sa pierre tombale indique une date de mort qui n’est pas la bonne.",
+        "texte_alternatif": "La tombe de l’historien polonais Leonard Chodźko, exilé en France, se trouve dans un cimetière de Poitiers. La date de décès gravée sur la pierre est erronée."
+      },
+      "entites": [
+        {
+          "nom": "Leonard Chodźko",
+          "role": "sujet"
+        },
+        {
+          "nom": "Poitiers",
+          "role": "acteur"
+        }
+      ],
+      "domaines": [
+        "patrimoine",
+        "histoire"
+      ],
+      "lieu": {
+        "id": "106278366077101",
+        "nom": "Poitiers",
+        "niveau": "ville"
+      },
+      "instagram": {
+        "texte": "Et si votre pierre tombale mentait sur le jour de votre mort ?\nDans un cimetière de Poitiers repose Leonard Chodźko, historien polonais exilé en France. La date gravée sur sa tombe n’est pas la bonne 🪦",
+        "hashtags": [
+          "#Poitiers",
+          "#Histoire",
+          "#Patrimoine"
+        ]
+      },
+      "facebook": {
+        "texte": "Une date de décès gravée dans la pierre, et pourtant fausse : c’est le sort de cet exilé polonais de Poitiers 🪶"
+      },
+      "bluesky": {
+        "texte": "À Poitiers, un cimetière abrite la sépulture de Leonard Chodźko, historien polonais exilé en France 📜 La date de décès gravée sur la pierre ne correspond pas à la réalité. Une erreur qui accompagne sa mémoire depuis des décennies.",
+        "hashtag": "#Poitiers"
+      },
+      "threads": {
+        "texte": "On imagine mal une erreur sur une tombe. C’est pourtant le cas dans un cimetière de Poitiers, où repose 📜 Leonard Chodźko, historien polonais exilé en France. La date de son décès, gravée dans la pierre, est inexacte. Sa mémoire vit donc avec une faute que personne n’a corrigée.",
+        "sujet": "Poitiers"
+      },
+      "x": {
+        "texte": "Une visite de cimetière à Poitiers réserve une surprise : la tombe de l’historien polonais exilé Leonard Chodźko porte une date de décès erronée. De quoi regarder les pierres tombales autrement 🪦"
+      },
+      "source": "ia",
+      "model": "claude-opus-5",
+      "usage": {
+        "input": 7669,
+        "output": 876
+      },
+      "angles": {
+        "instagram": "question intrigante",
+        "facebook": "chiffre ou fait marquant en tête",
+        "bluesky": "lieu en tête",
+        "threads": "effet de surprise",
+        "x": "bénéfice pour le lecteur"
+      },
+      "lieuSource": {
+        "precis": "",
+        "ville": "Poitiers",
+        "departement": "Vienne"
+      },
+      "lieuNom": "Poitiers",
+      "commune": "Poitiers",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Poitiers",
+            "handle": "ville_de_poitiers",
+            "abonnes": 29733,
+            "preuve": 3,
+            "role": "acteur",
+            "echelon": "sujet"
+          },
+          {
+            "nom": "Fondation du patrimoine",
+            "handle": "fondationdupatrimoine",
+            "abonnes": 73760,
+            "preuve": 2,
+            "role": "theme",
+            "echelon": "domaine",
+            "thematique": true
+          },
+          {
+            "nom": "Histoire de France",
+            "handle": "histoirefrance",
+            "abonnes": 72195,
+            "preuve": 2,
+            "role": "theme",
+            "echelon": "domaine",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "Poitiers",
+            "handle": "poitiersfr",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "acteur",
+            "echelon": "sujet"
+          },
+          {
+            "nom": "Vienne",
+            "handle": "departement86",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "bluesky": [
+          {
+            "nom": "Fondation du patrimoine",
+            "handle": "fond-patrimoine.bsky.social",
+            "abonnes": 334,
+            "preuve": 1,
+            "role": "theme",
+            "echelon": "domaine",
+            "thematique": true
+          }
+        ],
+        "threads": [
+          {
+            "nom": "Fondation du patrimoine",
+            "handle": "fondationdupatrimoine",
+            "abonnes": 73760,
+            "preuve": 2,
+            "role": "theme",
+            "echelon": "domaine",
+            "thematique": true
+          }
+        ],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35450",
+    "channel": "bluesky",
+    "dueAt": 1790407798972,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "À Poitiers, la tombe d’un patriote polonais indique une erreur",
+      "link": "https://passion-aquitaine.ouest-france.fr/tombe-chodzko-poitiers-exile-polonais/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35450",
+      "pubDate": "Sat, 26 Sep 2026 05:30:33 +0000",
+      "date": 1790400633000,
+      "categories": [
+        "Actus",
+        "Vienne"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/09/tombe-leonard-chodzko.jpg",
+      "description": "Dans un cimetière de Poitiers, la tombe de Leonard Chodźko, historien polonais exilé, porte une erreur sur sa propre date de décès."
+    },
+    "dossier": {
+      "nature": "evergreen",
+      "sensible": false,
+      "rubrique": "Poitiers",
+      "visuel": {
+        "titre": "La tombe d’un patriote polonais porte une erreur sur sa date de décès",
+        "surlignage": "décès",
+        "description": "Exilé en France, l’historien polonais Leonard Chodźko repose dans un cimetière de Poitiers. Sa pierre tombale indique une date de mort qui n’est pas la bonne.",
+        "texte_alternatif": "La tombe de l’historien polonais Leonard Chodźko, exilé en France, se trouve dans un cimetière de Poitiers. La date de décès gravée sur la pierre est erronée."
+      },
+      "entites": [
+        {
+          "nom": "Leonard Chodźko",
+          "role": "sujet"
+        },
+        {
+          "nom": "Poitiers",
+          "role": "acteur"
+        }
+      ],
+      "domaines": [
+        "patrimoine",
+        "histoire"
+      ],
+      "lieu": {
+        "id": "106278366077101",
+        "nom": "Poitiers",
+        "niveau": "ville"
+      },
+      "instagram": {
+        "texte": "Et si votre pierre tombale mentait sur le jour de votre mort ?\nDans un cimetière de Poitiers repose Leonard Chodźko, historien polonais exilé en France. La date gravée sur sa tombe n’est pas la bonne 🪦",
+        "hashtags": [
+          "#Poitiers",
+          "#Histoire",
+          "#Patrimoine"
+        ]
+      },
+      "facebook": {
+        "texte": "Une date de décès gravée dans la pierre, et pourtant fausse : c’est le sort de cet exilé polonais de Poitiers 🪶"
+      },
+      "bluesky": {
+        "texte": "À Poitiers, un cimetière abrite la sépulture de Leonard Chodźko, historien polonais exilé en France 📜 La date de décès gravée sur la pierre ne correspond pas à la réalité. Une erreur qui accompagne sa mémoire depuis des décennies.",
+        "hashtag": "#Poitiers"
+      },
+      "threads": {
+        "texte": "On imagine mal une erreur sur une tombe. C’est pourtant le cas dans un cimetière de Poitiers, où repose 📜 Leonard Chodźko, historien polonais exilé en France. La date de son décès, gravée dans la pierre, est inexacte. Sa mémoire vit donc avec une faute que personne n’a corrigée.",
+        "sujet": "Poitiers"
+      },
+      "x": {
+        "texte": "Une visite de cimetière à Poitiers réserve une surprise : la tombe de l’historien polonais exilé Leonard Chodźko porte une date de décès erronée. De quoi regarder les pierres tombales autrement 🪦"
+      },
+      "source": "ia",
+      "model": "claude-opus-5",
+      "usage": {
+        "input": 7669,
+        "output": 876
+      },
+      "angles": {
+        "instagram": "question intrigante",
+        "facebook": "chiffre ou fait marquant en tête",
+        "bluesky": "lieu en tête",
+        "threads": "effet de surprise",
+        "x": "bénéfice pour le lecteur"
+      },
+      "lieuSource": {
+        "precis": "",
+        "ville": "Poitiers",
+        "departement": "Vienne"
+      },
+      "lieuNom": "Poitiers",
+      "commune": "Poitiers",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Poitiers",
+            "handle": "ville_de_poitiers",
+            "abonnes": 29733,
+            "preuve": 3,
+            "role": "acteur",
+            "echelon": "sujet"
+          },
+          {
+            "nom": "Fondation du patrimoine",
+            "handle": "fondationdupatrimoine",
+            "abonnes": 73760,
+            "preuve": 2,
+            "role": "theme",
+            "echelon": "domaine",
+            "thematique": true
+          },
+          {
+            "nom": "Histoire de France",
+            "handle": "histoirefrance",
+            "abonnes": 72195,
+            "preuve": 2,
+            "role": "theme",
+            "echelon": "domaine",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "Poitiers",
+            "handle": "poitiersfr",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "acteur",
+            "echelon": "sujet"
+          },
+          {
+            "nom": "Vienne",
+            "handle": "departement86",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "bluesky": [
+          {
+            "nom": "Fondation du patrimoine",
+            "handle": "fond-patrimoine.bsky.social",
+            "abonnes": 334,
+            "preuve": 1,
+            "role": "theme",
+            "echelon": "domaine",
+            "thematique": true
+          }
+        ],
+        "threads": [
+          {
+            "nom": "Fondation du patrimoine",
+            "handle": "fondationdupatrimoine",
+            "abonnes": 73760,
+            "preuve": 2,
+            "role": "theme",
+            "echelon": "domaine",
+            "thematique": true
+          }
+        ],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35450",
+    "channel": "facebook",
+    "dueAt": 1790489354836,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "À Poitiers, la tombe d’un patriote polonais indique une erreur",
+      "link": "https://passion-aquitaine.ouest-france.fr/tombe-chodzko-poitiers-exile-polonais/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35450",
+      "pubDate": "Sat, 26 Sep 2026 05:30:33 +0000",
+      "date": 1790400633000,
+      "categories": [
+        "Actus",
+        "Vienne"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/09/tombe-leonard-chodzko.jpg",
+      "description": "Dans un cimetière de Poitiers, la tombe de Leonard Chodźko, historien polonais exilé, porte une erreur sur sa propre date de décès."
+    },
+    "dossier": {
+      "nature": "evergreen",
+      "sensible": false,
+      "rubrique": "Poitiers",
+      "visuel": {
+        "titre": "La tombe d’un patriote polonais porte une erreur sur sa date de décès",
+        "surlignage": "décès",
+        "description": "Exilé en France, l’historien polonais Leonard Chodźko repose dans un cimetière de Poitiers. Sa pierre tombale indique une date de mort qui n’est pas la bonne.",
+        "texte_alternatif": "La tombe de l’historien polonais Leonard Chodźko, exilé en France, se trouve dans un cimetière de Poitiers. La date de décès gravée sur la pierre est erronée."
+      },
+      "entites": [
+        {
+          "nom": "Leonard Chodźko",
+          "role": "sujet"
+        },
+        {
+          "nom": "Poitiers",
+          "role": "acteur"
+        }
+      ],
+      "domaines": [
+        "patrimoine",
+        "histoire"
+      ],
+      "lieu": {
+        "id": "106278366077101",
+        "nom": "Poitiers",
+        "niveau": "ville"
+      },
+      "instagram": {
+        "texte": "Et si votre pierre tombale mentait sur le jour de votre mort ?\nDans un cimetière de Poitiers repose Leonard Chodźko, historien polonais exilé en France. La date gravée sur sa tombe n’est pas la bonne 🪦",
+        "hashtags": [
+          "#Poitiers",
+          "#Histoire",
+          "#Patrimoine"
+        ]
+      },
+      "facebook": {
+        "texte": "Une date de décès gravée dans la pierre, et pourtant fausse : c’est le sort de cet exilé polonais de Poitiers 🪶"
+      },
+      "bluesky": {
+        "texte": "À Poitiers, un cimetière abrite la sépulture de Leonard Chodźko, historien polonais exilé en France 📜 La date de décès gravée sur la pierre ne correspond pas à la réalité. Une erreur qui accompagne sa mémoire depuis des décennies.",
+        "hashtag": "#Poitiers"
+      },
+      "threads": {
+        "texte": "On imagine mal une erreur sur une tombe. C’est pourtant le cas dans un cimetière de Poitiers, où repose 📜 Leonard Chodźko, historien polonais exilé en France. La date de son décès, gravée dans la pierre, est inexacte. Sa mémoire vit donc avec une faute que personne n’a corrigée.",
+        "sujet": "Poitiers"
+      },
+      "x": {
+        "texte": "Une visite de cimetière à Poitiers réserve une surprise : la tombe de l’historien polonais exilé Leonard Chodźko porte une date de décès erronée. De quoi regarder les pierres tombales autrement 🪦"
+      },
+      "source": "ia",
+      "model": "claude-opus-5",
+      "usage": {
+        "input": 7669,
+        "output": 876
+      },
+      "angles": {
+        "instagram": "question intrigante",
+        "facebook": "chiffre ou fait marquant en tête",
+        "bluesky": "lieu en tête",
+        "threads": "effet de surprise",
+        "x": "bénéfice pour le lecteur"
+      },
+      "lieuSource": {
+        "precis": "",
+        "ville": "Poitiers",
+        "departement": "Vienne"
+      },
+      "lieuNom": "Poitiers",
+      "commune": "Poitiers",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Poitiers",
+            "handle": "ville_de_poitiers",
+            "abonnes": 29733,
+            "preuve": 3,
+            "role": "acteur",
+            "echelon": "sujet"
+          },
+          {
+            "nom": "Fondation du patrimoine",
+            "handle": "fondationdupatrimoine",
+            "abonnes": 73760,
+            "preuve": 2,
+            "role": "theme",
+            "echelon": "domaine",
+            "thematique": true
+          },
+          {
+            "nom": "Histoire de France",
+            "handle": "histoirefrance",
+            "abonnes": 72195,
+            "preuve": 2,
+            "role": "theme",
+            "echelon": "domaine",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "Poitiers",
+            "handle": "poitiersfr",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "acteur",
+            "echelon": "sujet"
+          },
+          {
+            "nom": "Vienne",
+            "handle": "departement86",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "bluesky": [
+          {
+            "nom": "Fondation du patrimoine",
+            "handle": "fond-patrimoine.bsky.social",
+            "abonnes": 334,
+            "preuve": 1,
+            "role": "theme",
+            "echelon": "domaine",
+            "thematique": true
+          }
+        ],
+        "threads": [
+          {
+            "nom": "Fondation du patrimoine",
+            "handle": "fondationdupatrimoine",
+            "abonnes": 73760,
+            "preuve": 2,
+            "role": "theme",
+            "echelon": "domaine",
+            "thematique": true
+          }
+        ],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35450",
+    "channel": "threads",
+    "dueAt": 1790403854314,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "À Poitiers, la tombe d’un patriote polonais indique une erreur",
+      "link": "https://passion-aquitaine.ouest-france.fr/tombe-chodzko-poitiers-exile-polonais/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35450",
+      "pubDate": "Sat, 26 Sep 2026 05:30:33 +0000",
+      "date": 1790400633000,
+      "categories": [
+        "Actus",
+        "Vienne"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/09/tombe-leonard-chodzko.jpg",
+      "description": "Dans un cimetière de Poitiers, la tombe de Leonard Chodźko, historien polonais exilé, porte une erreur sur sa propre date de décès."
+    },
+    "dossier": {
+      "nature": "evergreen",
+      "sensible": false,
+      "rubrique": "Poitiers",
+      "visuel": {
+        "titre": "La tombe d’un patriote polonais porte une erreur sur sa date de décès",
+        "surlignage": "décès",
+        "description": "Exilé en France, l’historien polonais Leonard Chodźko repose dans un cimetière de Poitiers. Sa pierre tombale indique une date de mort qui n’est pas la bonne.",
+        "texte_alternatif": "La tombe de l’historien polonais Leonard Chodźko, exilé en France, se trouve dans un cimetière de Poitiers. La date de décès gravée sur la pierre est erronée."
+      },
+      "entites": [
+        {
+          "nom": "Leonard Chodźko",
+          "role": "sujet"
+        },
+        {
+          "nom": "Poitiers",
+          "role": "acteur"
+        }
+      ],
+      "domaines": [
+        "patrimoine",
+        "histoire"
+      ],
+      "lieu": {
+        "id": "106278366077101",
+        "nom": "Poitiers",
+        "niveau": "ville"
+      },
+      "instagram": {
+        "texte": "Et si votre pierre tombale mentait sur le jour de votre mort ?\nDans un cimetière de Poitiers repose Leonard Chodźko, historien polonais exilé en France. La date gravée sur sa tombe n’est pas la bonne 🪦",
+        "hashtags": [
+          "#Poitiers",
+          "#Histoire",
+          "#Patrimoine"
+        ]
+      },
+      "facebook": {
+        "texte": "Une date de décès gravée dans la pierre, et pourtant fausse : c’est le sort de cet exilé polonais de Poitiers 🪶"
+      },
+      "bluesky": {
+        "texte": "À Poitiers, un cimetière abrite la sépulture de Leonard Chodźko, historien polonais exilé en France 📜 La date de décès gravée sur la pierre ne correspond pas à la réalité. Une erreur qui accompagne sa mémoire depuis des décennies.",
+        "hashtag": "#Poitiers"
+      },
+      "threads": {
+        "texte": "On imagine mal une erreur sur une tombe. C’est pourtant le cas dans un cimetière de Poitiers, où repose 📜 Leonard Chodźko, historien polonais exilé en France. La date de son décès, gravée dans la pierre, est inexacte. Sa mémoire vit donc avec une faute que personne n’a corrigée.",
+        "sujet": "Poitiers"
+      },
+      "x": {
+        "texte": "Une visite de cimetière à Poitiers réserve une surprise : la tombe de l’historien polonais exilé Leonard Chodźko porte une date de décès erronée. De quoi regarder les pierres tombales autrement 🪦"
+      },
+      "source": "ia",
+      "model": "claude-opus-5",
+      "usage": {
+        "input": 7669,
+        "output": 876
+      },
+      "angles": {
+        "instagram": "question intrigante",
+        "facebook": "chiffre ou fait marquant en tête",
+        "bluesky": "lieu en tête",
+        "threads": "effet de surprise",
+        "x": "bénéfice pour le lecteur"
+      },
+      "lieuSource": {
+        "precis": "",
+        "ville": "Poitiers",
+        "departement": "Vienne"
+      },
+      "lieuNom": "Poitiers",
+      "commune": "Poitiers",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Poitiers",
+            "handle": "ville_de_poitiers",
+            "abonnes": 29733,
+            "preuve": 3,
+            "role": "acteur",
+            "echelon": "sujet"
+          },
+          {
+            "nom": "Fondation du patrimoine",
+            "handle": "fondationdupatrimoine",
+            "abonnes": 73760,
+            "preuve": 2,
+            "role": "theme",
+            "echelon": "domaine",
+            "thematique": true
+          },
+          {
+            "nom": "Histoire de France",
+            "handle": "histoirefrance",
+            "abonnes": 72195,
+            "preuve": 2,
+            "role": "theme",
+            "echelon": "domaine",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "Poitiers",
+            "handle": "poitiersfr",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "acteur",
+            "echelon": "sujet"
+          },
+          {
+            "nom": "Vienne",
+            "handle": "departement86",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "bluesky": [
+          {
+            "nom": "Fondation du patrimoine",
+            "handle": "fond-patrimoine.bsky.social",
+            "abonnes": 334,
+            "preuve": 1,
+            "role": "theme",
+            "echelon": "domaine",
+            "thematique": true
+          }
+        ],
+        "threads": [
+          {
+            "nom": "Fondation du patrimoine",
+            "handle": "fondationdupatrimoine",
+            "abonnes": 73760,
+            "preuve": 2,
+            "role": "theme",
+            "echelon": "domaine",
+            "thematique": true
+          }
+        ],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35450",
+    "channel": "x",
+    "dueAt": 1790409600000,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "À Poitiers, la tombe d’un patriote polonais indique une erreur",
+      "link": "https://passion-aquitaine.ouest-france.fr/tombe-chodzko-poitiers-exile-polonais/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35450",
+      "pubDate": "Sat, 26 Sep 2026 05:30:33 +0000",
+      "date": 1790400633000,
+      "categories": [
+        "Actus",
+        "Vienne"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/09/tombe-leonard-chodzko.jpg",
+      "description": "Dans un cimetière de Poitiers, la tombe de Leonard Chodźko, historien polonais exilé, porte une erreur sur sa propre date de décès."
+    },
+    "dossier": {
+      "nature": "evergreen",
+      "sensible": false,
+      "rubrique": "Poitiers",
+      "visuel": {
+        "titre": "La tombe d’un patriote polonais porte une erreur sur sa date de décès",
+        "surlignage": "décès",
+        "description": "Exilé en France, l’historien polonais Leonard Chodźko repose dans un cimetière de Poitiers. Sa pierre tombale indique une date de mort qui n’est pas la bonne.",
+        "texte_alternatif": "La tombe de l’historien polonais Leonard Chodźko, exilé en France, se trouve dans un cimetière de Poitiers. La date de décès gravée sur la pierre est erronée."
+      },
+      "entites": [
+        {
+          "nom": "Leonard Chodźko",
+          "role": "sujet"
+        },
+        {
+          "nom": "Poitiers",
+          "role": "acteur"
+        }
+      ],
+      "domaines": [
+        "patrimoine",
+        "histoire"
+      ],
+      "lieu": {
+        "id": "106278366077101",
+        "nom": "Poitiers",
+        "niveau": "ville"
+      },
+      "instagram": {
+        "texte": "Et si votre pierre tombale mentait sur le jour de votre mort ?\nDans un cimetière de Poitiers repose Leonard Chodźko, historien polonais exilé en France. La date gravée sur sa tombe n’est pas la bonne 🪦",
+        "hashtags": [
+          "#Poitiers",
+          "#Histoire",
+          "#Patrimoine"
+        ]
+      },
+      "facebook": {
+        "texte": "Une date de décès gravée dans la pierre, et pourtant fausse : c’est le sort de cet exilé polonais de Poitiers 🪶"
+      },
+      "bluesky": {
+        "texte": "À Poitiers, un cimetière abrite la sépulture de Leonard Chodźko, historien polonais exilé en France 📜 La date de décès gravée sur la pierre ne correspond pas à la réalité. Une erreur qui accompagne sa mémoire depuis des décennies.",
+        "hashtag": "#Poitiers"
+      },
+      "threads": {
+        "texte": "On imagine mal une erreur sur une tombe. C’est pourtant le cas dans un cimetière de Poitiers, où repose 📜 Leonard Chodźko, historien polonais exilé en France. La date de son décès, gravée dans la pierre, est inexacte. Sa mémoire vit donc avec une faute que personne n’a corrigée.",
+        "sujet": "Poitiers"
+      },
+      "x": {
+        "texte": "Une visite de cimetière à Poitiers réserve une surprise : la tombe de l’historien polonais exilé Leonard Chodźko porte une date de décès erronée. De quoi regarder les pierres tombales autrement 🪦"
+      },
+      "source": "ia",
+      "model": "claude-opus-5",
+      "usage": {
+        "input": 7669,
+        "output": 876
+      },
+      "angles": {
+        "instagram": "question intrigante",
+        "facebook": "chiffre ou fait marquant en tête",
+        "bluesky": "lieu en tête",
+        "threads": "effet de surprise",
+        "x": "bénéfice pour le lecteur"
+      },
+      "lieuSource": {
+        "precis": "",
+        "ville": "Poitiers",
+        "departement": "Vienne"
+      },
+      "lieuNom": "Poitiers",
+      "commune": "Poitiers",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Poitiers",
+            "handle": "ville_de_poitiers",
+            "abonnes": 29733,
+            "preuve": 3,
+            "role": "acteur",
+            "echelon": "sujet"
+          },
+          {
+            "nom": "Fondation du patrimoine",
+            "handle": "fondationdupatrimoine",
+            "abonnes": 73760,
+            "preuve": 2,
+            "role": "theme",
+            "echelon": "domaine",
+            "thematique": true
+          },
+          {
+            "nom": "Histoire de France",
+            "handle": "histoirefrance",
+            "abonnes": 72195,
+            "preuve": 2,
+            "role": "theme",
+            "echelon": "domaine",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "Poitiers",
+            "handle": "poitiersfr",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "acteur",
+            "echelon": "sujet"
+          },
+          {
+            "nom": "Vienne",
+            "handle": "departement86",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "bluesky": [
+          {
+            "nom": "Fondation du patrimoine",
+            "handle": "fond-patrimoine.bsky.social",
+            "abonnes": 334,
+            "preuve": 1,
+            "role": "theme",
+            "echelon": "domaine",
+            "thematique": true
+          }
+        ],
+        "threads": [
+          {
+            "nom": "Fondation du patrimoine",
+            "handle": "fondationdupatrimoine",
+            "abonnes": 73760,
+            "preuve": 2,
+            "role": "theme",
+            "echelon": "domaine",
+            "thematique": true
+          }
+        ],
+        "facebook": []
+      }
+    },
+    "previewSent": false
   }
 ]

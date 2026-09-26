@@ -113,5 +113,120 @@
       "bluesky": [],
       "x": []
     }
+  },
+  "commune:mairie:poitiers": {
+    "v": 2,
+    "cherche": "2026-09-26T06:01:03.679Z",
+    "instagram": [
+      {
+        "handle": "ville_de_poitiers",
+        "nom": "",
+        "abonnes": 29733,
+        "preuve": 3
+      }
+    ],
+    "x": [
+      {
+        "handle": "poitiersfr",
+        "nom": "",
+        "abonnes": null,
+        "preuve": 3
+      }
+    ],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:poitiers:patrimoine": {
+    "v": 2,
+    "cherche": "2026-09-26T06:01:03.679Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "domaine:patrimoine": {
+    "v": 2,
+    "cherche": "2026-09-26T06:01:03.679Z",
+    "instagram": [
+      {
+        "handle": "fondationdupatrimoine",
+        "nom": "Fondation du patrimoine",
+        "abonnes": 73760,
+        "preuve": 2
+      }
+    ],
+    "bluesky": [
+      {
+        "handle": "fond-patrimoine.bsky.social",
+        "nom": "Fondation du patrimoine",
+        "abonnes": 334,
+        "preuve": 1
+      }
+    ],
+    "threads": [
+      {
+        "handle": "fondationdupatrimoine",
+        "nom": "Fondation du patrimoine",
+        "abonnes": 73760,
+        "preuve": 2
+      }
+    ]
+  },
+  "locale:poitiers:histoire": {
+    "v": 2,
+    "cherche": "2026-09-26T06:01:03.679Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "domaine:histoire": {
+    "v": 2,
+    "cherche": "2026-09-26T06:01:03.679Z",
+    "instagram": [
+      {
+        "handle": "histoirefrance",
+        "nom": "Histoire de France",
+        "abonnes": 72195,
+        "preuve": 2
+      }
+    ],
+    "bluesky": [],
+    "threads": []
+  },
+  "territoire:vienne:departement86,laviennetourisme": {
+    "v": 2,
+    "cherche": "2026-09-26T06:01:03.679Z",
+    "conseil": {
+      "instagram": [
+        {
+          "handle": "departement86",
+          "nom": "Département de la Vienne",
+          "abonnes": 9474,
+          "preuve": 3
+        }
+      ],
+      "threads": [],
+      "bluesky": [],
+      "x": [
+        {
+          "handle": "departement86",
+          "nom": "",
+          "abonnes": null,
+          "preuve": 3
+        }
+      ]
+    },
+    "tourisme": {
+      "instagram": [
+        {
+          "handle": "laviennetourisme",
+          "nom": "La Vienne, à vous de jouer",
+          "abonnes": 8178,
+          "preuve": 3
+        }
+      ],
+      "threads": [],
+      "bluesky": [],
+      "x": []
+    }
   }
 }

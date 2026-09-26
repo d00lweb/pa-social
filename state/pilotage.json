@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-26T05:21:15.989Z",
+  "genereLe": "2026-09-26T06:00:51.665Z",
   "jour": "2026-09-26",
   "reseaux": {
     "instagram": {
@@ -529,6 +529,15 @@
   ],
   "file": [
     {
+      "channel": "threads",
+      "dueAt": "2026-09-26T06:24:14.314Z",
+      "prochainPassage": "2026-09-26T07:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "À Poitiers, la tombe d’un patriote polonais indique une erreur"
+    },
+    {
       "channel": "facebook",
       "dueAt": "2026-09-26T07:25:27.129Z",
       "prochainPassage": "2026-09-26T08:00:00.000Z",
@@ -536,6 +545,24 @@
       "prevuInitialement": null,
       "raison": null,
       "titre": "À Bidache, vivez 2000 ans d’histoire en un week-end"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-09-26T07:29:58.972Z",
+      "prochainPassage": "2026-09-26T08:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "À Poitiers, la tombe d’un patriote polonais indique une erreur"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-09-26T08:00:00.000Z",
+      "prochainPassage": "2026-09-26T08:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "À Poitiers, la tombe d’un patriote polonais indique une erreur"
     },
     {
       "channel": "instagram",
@@ -563,11 +590,29 @@
       "prevuInitialement": null,
       "raison": null,
       "titre": "Ce TER de Nouvelle-Aquitaine cache une batterie de 80 km : il remplace son moteur diesel"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-09-27T06:09:14.836Z",
+      "prochainPassage": "2026-09-27T06:20:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "À Poitiers, la tombe d’un patriote polonais indique une erreur"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-09-27T11:23:56.704Z",
+      "prochainPassage": "2026-09-27T12:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "À Poitiers, la tombe d’un patriote polonais indique une erreur"
     }
   ],
   "alertes": [],
   "mesures": {
-    "releves": 74,
+    "releves": 75,
     "parReseau": {
       "instagram": {
         "posts": 8,
@@ -644,7 +689,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-09-26T04:55:28.817Z"
+    "derniere": "2026-09-26T06:00:51.665Z"
   },
   "abonnes": {
     "instagram": {
@@ -683,16 +728,16 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-26T05:21:21.930Z",
-    "posts": 55,
+    "genereLe": "2026-09-26T06:01:22.034Z",
+    "posts": 56,
     "parReseau": {
       "instagram": {
         "posts": 16,
         "moyenne": 16.4
       },
       "threads": {
-        "posts": 12,
-        "moyenne": 14
+        "posts": 13,
+        "moyenne": 12.9
       },
       "facebook": {
         "posts": 11,
@@ -713,8 +758,8 @@
         "moyenne": 1
       },
       "lien": {
-        "posts": 3,
-        "moyenne": 1
+        "posts": 4,
+        "moyenne": 0.8
       },
       "image": {
         "posts": 7,
@@ -731,8 +776,8 @@
         "moyenne": 13.5
       },
       "matin": {
-        "posts": 30,
-        "moyenne": 7.7
+        "posts": 31,
+        "moyenne": 7.4
       },
       "soir": {
         "posts": 11,
@@ -787,13 +832,13 @@
         }
       },
       "threads": {
-        "7 h – 8 h 30": {
-          "posts": 6,
-          "moyenne": 19.7
-        },
         "10 h – 11 h 30": {
           "posts": 2,
           "moyenne": 18.5
+        },
+        "7 h – 8 h 30": {
+          "posts": 7,
+          "moyenne": 16.9
         },
         "13 h – 14 h 30": {
           "posts": 3,
@@ -825,22 +870,22 @@
       "creneauReseau": "7 h – 8 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=28135",
-      "channel": "facebook",
-      "mediaId": "227437307428711_1730323139093567",
-      "publieLe": "2026-09-24T19:09:59.003Z",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35642",
+      "channel": "threads",
+      "mediaId": "18629012179025712",
+      "publieLe": "2026-09-25T05:31:21.817Z",
       "jalon": 1,
-      "releveLe": "2026-09-25T19:20:40.703Z",
+      "releveLe": "2026-09-26T06:00:51.665Z",
       "likes": 0,
       "commentaires": 0,
       "partages": 0,
-      "vues": null,
-      "titre": "Top 6 des activités insolites autour de La Rochelle",
-      "lien": "https://www.facebook.com/1720946116697936/posts/1730323139093567",
-      "format": null,
+      "vues": 115,
+      "titre": "En Charente-Maritime, nouveau succès pour l’Ultra Trail de Pons",
+      "lien": "https://www.threads.com/@lovaquitaine/post/DdstpZNkWiz",
+      "format": "lien",
       "mention": false,
-      "creneau": "soir",
-      "creneauReseau": "20 h – 21 h 30"
+      "creneau": "matin",
+      "creneauReseau": "7 h – 8 h 30"
     },
     "mentions": {
       "avec": {
@@ -848,8 +893,8 @@
         "moyenne": 4
       },
       "sans": {
-        "posts": 54,
-        "moyenne": 8.2
+        "posts": 55,
+        "moyenne": 8
       }
     },
     "publies": {
@@ -903,41 +948,41 @@
     },
     "engagement": {
       "instagram": 0.16,
-      "threads": 1.22,
+      "threads": 1.12,
       "facebook": 0
     },
     "conseils": [
       "Instagram : le créneau 12 h – 13 h 30 fait 4,9 fois mieux que 18 h – 19 h 30 (24.7 contre 5 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Facebook : le créneau 8 h – 9 h 30 fait 1,6 fois mieux que 20 h – 21 h 30 (0.8 contre 0.5 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
-      "Threads : le créneau 7 h – 8 h 30 fait 4,9 fois mieux que 13 h – 14 h 30 (19.7 contre 4 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
+      "Threads : le créneau 7 h – 8 h 30 fait 4,2 fois mieux que 13 h – 14 h 30 (16.9 contre 4 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Le format « reponse » fait 272 fois mieux que « card » (27.2 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « card » de la rotation dans config/channels.json."
     ]
   },
   "couts": {
     "jour": {
-      "appels": 0,
-      "entree": 0,
-      "sortie": 0,
-      "cout": 0,
+      "appels": 1,
+      "entree": 7669,
+      "sortie": 876,
+      "cout": 0.060245,
       "cle": "2026-09-26"
     },
     "semaine": {
-      "appels": 105,
-      "entree": 733928,
-      "sortie": 216085,
-      "cout": 5.470637
+      "appels": 106,
+      "entree": 741597,
+      "sortie": 216961,
+      "cout": 5.530882
     },
     "mois": {
-      "appels": 105,
-      "entree": 733928,
-      "sortie": 216085,
-      "cout": 5.470637,
+      "appels": 106,
+      "entree": 741597,
+      "sortie": 216961,
+      "cout": 5.530882,
       "cle": "2026-09"
     },
-    "projection": 6.31,
-    "moyenneAppel": 0.0521,
+    "projection": 6.38,
+    "moyenneAppel": 0.0522,
     "parModele": {
-      "claude-opus-5": 54,
+      "claude-opus-5": 55,
       "claude-sonnet-5": 51
     },
     "serie": [
@@ -995,7 +1040,7 @@
       ],
       [
         "2026-09-26",
-        0
+        0.0602
       ]
     ],
     "depuis": "2026-09-23"

@@ -1345,5 +1345,41 @@
       "reponse": null,
       "sujet": "Poitiers"
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=34448",
+    "channel": "facebook",
+    "at": "2026-09-26T07:25:30.861Z",
+    "mediaId": "227437307428711_1732004645592083",
+    "titre": "À Bidache, vivez 2000 ans d’histoire en un week-end",
+    "lien": "https://passion-aquitaine.ouest-france.fr/historiques-bidache-2026-chateau-gramont/",
+    "lienPost": "https://www.facebook.com/1720946116697936/posts/1732004645592083",
+    "format": null,
+    "mention": false,
+    "apercu": {
+      "texte": "Au château de Gramont, à Bidache, vingt siècles d’histoire tiennent dans un seul week-end d’automne ⚔️",
+      "image": null,
+      "mode": null,
+      "reponse": null,
+      "sujet": null
+    }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35450",
+    "channel": "bluesky",
+    "at": "2026-09-26T07:30:01.007Z",
+    "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mwfraj6vr52h",
+    "titre": "À Poitiers, la tombe d’un patriote polonais indique une erreur",
+    "lien": "https://passion-aquitaine.ouest-france.fr/tombe-chodzko-poitiers-exile-polonais/",
+    "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mwfraj6vr52h",
+    "format": "image",
+    "mention": true,
+    "apercu": {
+      "texte": "À #Poitiers, un cimetière abrite la sépulture de Leonard Chodźko, historien polonais exilé en France 📜 La date de décès gravée sur la pierre ne correspond pas à la réalité. Une erreur qui accompagne sa mémoire depuis des décennies.\n@fond-patrimoine.bsky.social\n➡️ Lire l’article",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260926-e7578bc9-bsky.jpg",
+      "mode": "image",
+      "reponse": null,
+      "sujet": null
+    }
   }
 ]

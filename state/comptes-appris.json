@@ -228,5 +228,114 @@
       "bluesky": [],
       "x": []
     }
+  },
+  "commune:mairie:bidache": {
+    "v": 2,
+    "cherche": "2026-09-26T07:21:00.684Z",
+    "instagram": [],
+    "x": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "commune:tourisme:bidache": {
+    "v": 2,
+    "cherche": "2026-09-26T07:21:00.684Z",
+    "instagram": [],
+    "x": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:bidache:patrimoine": {
+    "v": 2,
+    "cherche": "2026-09-26T07:21:00.684Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:bidache:histoire": {
+    "v": 2,
+    "cherche": "2026-09-26T07:21:00.684Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "vivier:pays basque:paysbasque_net,bienvenue_au_pays_basque,enpaysbasque_euskalherrian": {
+    "v": 2,
+    "cherche": "2026-09-26T07:21:00.684Z",
+    "instagram": [
+      {
+        "handle": "paysbasque_net",
+        "nom": "Pays basque",
+        "abonnes": 129268,
+        "preuve": 3
+      },
+      {
+        "handle": "bienvenue_au_pays_basque",
+        "nom": "Bienvenue au pays basque",
+        "abonnes": 53761,
+        "preuve": 3
+      },
+      {
+        "handle": "enpaysbasque_euskalherrian",
+        "nom": "En Pays Basque - Euskal Herrian |  Office de tourisme",
+        "abonnes": 24660,
+        "preuve": 3
+      }
+    ],
+    "threads": [
+      {
+        "handle": "paysbasque_net",
+        "nom": "Pays basque",
+        "abonnes": 129268,
+        "preuve": 3
+      }
+    ],
+    "bluesky": [],
+    "x": []
+  },
+  "vivier:pays basque tourisme:paysbasque_tourisme": {
+    "v": 2,
+    "cherche": "2026-09-26T07:21:00.684Z",
+    "instagram": [
+      {
+        "handle": "paysbasque_tourisme",
+        "nom": "Pays basque Tourisme",
+        "abonnes": 92877,
+        "preuve": 3
+      }
+    ],
+    "threads": [],
+    "bluesky": [],
+    "x": []
+  },
+  "territoire:pyrenees-atlantiques:departement64": {
+    "v": 2,
+    "cherche": "2026-09-26T07:21:00.684Z",
+    "conseil": {
+      "instagram": [
+        {
+          "handle": "departement64",
+          "nom": "Département 64",
+          "abonnes": 10023,
+          "preuve": 3
+        }
+      ],
+      "threads": [],
+      "bluesky": [],
+      "x": [
+        {
+          "handle": "departement64",
+          "nom": "",
+          "abonnes": null,
+          "preuve": 3
+        }
+      ]
+    },
+    "tourisme": {
+      "instagram": [],
+      "threads": [],
+      "bluesky": [],
+      "x": []
+    }
   }
 }

@@ -23,16 +23,16 @@
     "dossier": {
       "nature": "actu",
       "sensible": false,
-      "rubrique": "Pays basque",
+      "rubrique": "Bidache",
       "visuel": {
-        "titre": "À Bidache, vivez 2000 ans d’histoire en un week-end",
+        "titre": "Vivez 2000 ans d’histoire en un week-end",
         "surlignage": "2000 ans d’histoire",
-        "description": "Les 3 et 4 octobre 2026, plus de 200 reconstituteurs s’installent dans le château de Gramont. Campements, costumes et scènes animées font défiler vingt siècles en deux jours.",
-        "texte_alternatif": "Le château de Gramont, à Bidache, accueille une fête historique début octobre 2026, avec plus de 200 reconstituteurs réunis pour faire revivre deux mille ans d’histoire."
+        "description": "Plus de 200 reconstituteurs investissent le château de Gramont les 3 et 4 octobre 2026. Campements, costumes et scènes de vie se succèdent pour traverser vingt siècles en deux jours.",
+        "texte_alternatif": "Le château de Gramont, à Bidache, accueille une fête historique avec plus de 200 reconstituteurs les 3 et 4 octobre 2026."
       },
       "entites": [
         {
-          "nom": "Château de Gramont Bidache",
+          "nom": "Château de Gramont à Bidache",
           "role": "sujet"
         },
         {
@@ -40,41 +40,45 @@
           "role": "acteur"
         }
       ],
+      "domaines": [
+        "patrimoine",
+        "histoire"
+      ],
       "lieu": null,
       "instagram": {
-        "texte": "Deux jours pour traverser vingt siècles, sans quitter les murs du château de Gramont, à Bidache\nLes 3 et 4 octobre 2026, plus de 200 reconstituteurs installent leurs campements dans ce site du Pays basque. Une fête historique à vivre en famille 🏰",
+        "texte": "Plus de 🏰 200 reconstituteurs au château de Gramont, à Bidache, pour traverser vingt siècles en un seul week-end\nLes 3 et 4 octobre 2026, la fête historique de Bidache fait revivre 2000 ans d’histoire dans les ruines du château, en Pays basque.",
         "hashtags": [
           "#Bidache",
-          "#PaysBasque",
-          "#Patrimoine"
+          "#ChateauDeGramont",
+          "#Reconstitution"
         ]
       },
       "facebook": {
-        "texte": "Plus de 200 passionnés viennent camper dans les ruines d’un château du Pays basque pour rejouer vingt siècles ⚔️"
+        "texte": "Au château de Gramont, à Bidache, vingt siècles d’histoire tiennent dans un seul week-end d’automne ⚔️"
       },
       "bluesky": {
-        "texte": "Des tentes dressées au pied des ruines, des armures, des métiers oubliés remis en gestes : le château de Gramont change d’époque le temps d’un week-end 🏰 Plus de 200 reconstituteurs y feront défiler 2000 ans d’histoire, à Bidache.",
+        "texte": "🛡️ Deux mille ans d’histoire condensés en deux jours : c’est le pari du château de Gramont, à Bidache, où plus de 200 reconstituteurs installent leurs campements les 3 et 4 octobre 2026.",
         "hashtag": "#Bidache"
       },
       "threads": {
-        "texte": "Combien de siècles peut-on traverser en un seul week-end ? À Bidache, la réponse tient en 🏰 2000 ans d’histoire, rejoués dans le château de Gramont les 3 et 4 octobre 2026. Plus de 200 reconstituteurs y plantent leurs campements et refont vivre les gestes, les costumes et les combats d’époques très différentes. Vous êtes déjà allé voir une fête historique de ce genre ?",
+        "texte": "Passer d’un campement antique à une scène de vie médiévale en quelques pas 🏰 c’est ce que propose le château de Gramont les 3 et 4 octobre 2026. Plus de 200 reconstituteurs occupent les lieux le temps d’un week-end, à Bidache. De quoi offrir aux curieux une plongée concrète dans 2000 ans d’histoire, sans jamais quitter le Pays basque.",
         "sujet": "Pays basque"
       },
       "x": {
-        "texte": "Plus de 200 reconstituteurs investissent le château de Gramont, à Bidache, les 3 et 4 octobre 2026. Campements, costumes et scènes rejouées : 2000 ans d’histoire condensés en un week-end ⚔️"
+        "texte": "Ce ne sont pas des figurants mais des reconstituteurs : ⚔️ plus de 200 passionnés font revivre 2000 ans d’histoire au château de Gramont, à Bidache, les 3 et 4 octobre 2026."
       },
       "source": "ia",
       "model": "claude-opus-5",
       "usage": {
-        "input": 6990,
-        "output": 946
+        "input": 7688,
+        "output": 923
       },
       "angles": {
-        "instagram": "bénéfice pour le lecteur",
-        "facebook": "détail méconnu",
-        "bluesky": "image évocatrice",
-        "threads": "question intrigante",
-        "x": "chiffre ou fait marquant en tête"
+        "instagram": "chiffre ou fait marquant en tête",
+        "facebook": "lieu en tête",
+        "bluesky": "effet de surprise",
+        "threads": "bénéfice pour le lecteur",
+        "x": "détail méconnu"
       },
       "lieuSource": {
         "precis": "Château de Gramont",
@@ -84,110 +88,83 @@
       "lieuNom": "Château de Gramont",
       "commune": "Bidache",
       "comptes": {
-        "instagram": [],
-        "x": [],
-        "bluesky": [],
-        "threads": [],
+        "instagram": [
+          {
+            "nom": "Histoire de France",
+            "handle": "histoirefrance",
+            "abonnes": 72195,
+            "preuve": 2,
+            "role": "theme",
+            "echelon": "domaine",
+            "thematique": true
+          },
+          {
+            "nom": "Fondation du patrimoine",
+            "handle": "fondationdupatrimoine",
+            "abonnes": 73760,
+            "preuve": 2,
+            "role": "theme",
+            "echelon": "domaine",
+            "thematique": true
+          },
+          {
+            "nom": "Pays basque",
+            "handle": "paysbasque_net",
+            "abonnes": 129268,
+            "preuve": 3,
+            "role": "theme",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "Pyrénées-Atlantiques",
+            "handle": "departement64",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "bluesky": [
+          {
+            "nom": "Fondation du patrimoine",
+            "handle": "fond-patrimoine.bsky.social",
+            "abonnes": 334,
+            "preuve": 1,
+            "role": "theme",
+            "echelon": "domaine",
+            "thematique": true
+          }
+        ],
+        "threads": [
+          {
+            "nom": "Fondation du patrimoine",
+            "handle": "fondationdupatrimoine",
+            "abonnes": 73760,
+            "preuve": 2,
+            "role": "theme",
+            "echelon": "domaine",
+            "thematique": true
+          },
+          {
+            "nom": "Pays basque",
+            "handle": "paysbasque_net",
+            "abonnes": 129268,
+            "preuve": 3,
+            "role": "theme",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
         "facebook": []
       }
     },
     "previewSent": false,
     "prevuInitialement": 1790353699276,
     "raison": "un autre post occupait déjà ce créneau"
-  },
-  {
-    "guid": "https://passion-aquitaine.ouest-france.fr/?p=34448",
-    "channel": "facebook",
-    "dueAt": 1790407527129,
-    "status": "pending",
-    "attempts": 0,
-    "article": {
-      "title": "À Bidache, vivez 2000 ans d’histoire en un week-end",
-      "link": "https://passion-aquitaine.ouest-france.fr/historiques-bidache-2026-chateau-gramont/",
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=34448",
-      "pubDate": "Fri, 25 Sep 2026 05:30:29 +0000",
-      "date": 1790314229000,
-      "categories": [
-        "Actus",
-        "Agenda",
-        "Pyrénées-Atlantiques",
-        "Basque LOI"
-      ],
-      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/09/chevaliers-historiques-bidache.jpg",
-      "description": "Les 3 et 4 octobre 2026, plus de 200 reconstituteurs animent le château de Gramont à Bidache : une fête historique."
-    },
-    "dossier": {
-      "nature": "actu",
-      "sensible": false,
-      "rubrique": "Pays basque",
-      "visuel": {
-        "titre": "À Bidache, vivez 2000 ans d’histoire en un week-end",
-        "surlignage": "2000 ans d’histoire",
-        "description": "Les 3 et 4 octobre 2026, plus de 200 reconstituteurs s’installent dans le château de Gramont. Campements, costumes et scènes animées font défiler vingt siècles en deux jours.",
-        "texte_alternatif": "Le château de Gramont, à Bidache, accueille une fête historique début octobre 2026, avec plus de 200 reconstituteurs réunis pour faire revivre deux mille ans d’histoire."
-      },
-      "entites": [
-        {
-          "nom": "Château de Gramont Bidache",
-          "role": "sujet"
-        },
-        {
-          "nom": "Bidache",
-          "role": "acteur"
-        }
-      ],
-      "lieu": null,
-      "instagram": {
-        "texte": "Deux jours pour traverser vingt siècles, sans quitter les murs du château de Gramont, à Bidache\nLes 3 et 4 octobre 2026, plus de 200 reconstituteurs installent leurs campements dans ce site du Pays basque. Une fête historique à vivre en famille 🏰",
-        "hashtags": [
-          "#Bidache",
-          "#PaysBasque",
-          "#Patrimoine"
-        ]
-      },
-      "facebook": {
-        "texte": "Plus de 200 passionnés viennent camper dans les ruines d’un château du Pays basque pour rejouer vingt siècles ⚔️"
-      },
-      "bluesky": {
-        "texte": "Des tentes dressées au pied des ruines, des armures, des métiers oubliés remis en gestes : le château de Gramont change d’époque le temps d’un week-end 🏰 Plus de 200 reconstituteurs y feront défiler 2000 ans d’histoire, à Bidache.",
-        "hashtag": "#Bidache"
-      },
-      "threads": {
-        "texte": "Combien de siècles peut-on traverser en un seul week-end ? À Bidache, la réponse tient en 🏰 2000 ans d’histoire, rejoués dans le château de Gramont les 3 et 4 octobre 2026. Plus de 200 reconstituteurs y plantent leurs campements et refont vivre les gestes, les costumes et les combats d’époques très différentes. Vous êtes déjà allé voir une fête historique de ce genre ?",
-        "sujet": "Pays basque"
-      },
-      "x": {
-        "texte": "Plus de 200 reconstituteurs investissent le château de Gramont, à Bidache, les 3 et 4 octobre 2026. Campements, costumes et scènes rejouées : 2000 ans d’histoire condensés en un week-end ⚔️"
-      },
-      "source": "ia",
-      "model": "claude-opus-5",
-      "usage": {
-        "input": 6990,
-        "output": 946
-      },
-      "angles": {
-        "instagram": "bénéfice pour le lecteur",
-        "facebook": "détail méconnu",
-        "bluesky": "image évocatrice",
-        "threads": "question intrigante",
-        "x": "chiffre ou fait marquant en tête"
-      },
-      "lieuSource": {
-        "precis": "Château de Gramont",
-        "ville": "Bidache",
-        "departement": "Pyrénées-Atlantiques"
-      },
-      "lieuNom": "Château de Gramont",
-      "commune": "Bidache",
-      "comptes": {
-        "instagram": [],
-        "x": [],
-        "bluesky": [],
-        "threads": [],
-        "facebook": []
-      }
-    },
-    "previewSent": false
   },
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=35661",
@@ -443,171 +420,6 @@
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=35450",
     "channel": "instagram",
     "dueAt": 1790508236704,
-    "status": "pending",
-    "attempts": 0,
-    "article": {
-      "title": "À Poitiers, la tombe d’un patriote polonais indique une erreur",
-      "link": "https://passion-aquitaine.ouest-france.fr/tombe-chodzko-poitiers-exile-polonais/",
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35450",
-      "pubDate": "Sat, 26 Sep 2026 05:30:33 +0000",
-      "date": 1790400633000,
-      "categories": [
-        "Actus",
-        "Vienne"
-      ],
-      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/09/tombe-leonard-chodzko.jpg",
-      "description": "Dans un cimetière de Poitiers, la tombe de Leonard Chodźko, historien polonais exilé, porte une erreur sur sa propre date de décès."
-    },
-    "dossier": {
-      "nature": "evergreen",
-      "sensible": false,
-      "rubrique": "Poitiers",
-      "visuel": {
-        "titre": "La tombe d’un patriote polonais porte une erreur sur sa date de décès",
-        "surlignage": "décès",
-        "description": "Exilé en France, l’historien polonais Leonard Chodźko repose dans un cimetière de Poitiers. Sa pierre tombale indique une date de mort qui n’est pas la bonne.",
-        "texte_alternatif": "La tombe de l’historien polonais Leonard Chodźko, exilé en France, se trouve dans un cimetière de Poitiers. La date de décès gravée sur la pierre est erronée."
-      },
-      "entites": [
-        {
-          "nom": "Leonard Chodźko",
-          "role": "sujet"
-        },
-        {
-          "nom": "Poitiers",
-          "role": "acteur"
-        }
-      ],
-      "domaines": [
-        "patrimoine",
-        "histoire"
-      ],
-      "lieu": {
-        "id": "106278366077101",
-        "nom": "Poitiers",
-        "niveau": "ville"
-      },
-      "instagram": {
-        "texte": "Et si votre pierre tombale mentait sur le jour de votre mort ?\nDans un cimetière de Poitiers repose Leonard Chodźko, historien polonais exilé en France. La date gravée sur sa tombe n’est pas la bonne 🪦",
-        "hashtags": [
-          "#Poitiers",
-          "#Histoire",
-          "#Patrimoine"
-        ]
-      },
-      "facebook": {
-        "texte": "Une date de décès gravée dans la pierre, et pourtant fausse : c’est le sort de cet exilé polonais de Poitiers 🪶"
-      },
-      "bluesky": {
-        "texte": "À Poitiers, un cimetière abrite la sépulture de Leonard Chodźko, historien polonais exilé en France 📜 La date de décès gravée sur la pierre ne correspond pas à la réalité. Une erreur qui accompagne sa mémoire depuis des décennies.",
-        "hashtag": "#Poitiers"
-      },
-      "threads": {
-        "texte": "On imagine mal une erreur sur une tombe. C’est pourtant le cas dans un cimetière de Poitiers, où repose 📜 Leonard Chodźko, historien polonais exilé en France. La date de son décès, gravée dans la pierre, est inexacte. Sa mémoire vit donc avec une faute que personne n’a corrigée.",
-        "sujet": "Poitiers"
-      },
-      "x": {
-        "texte": "Une visite de cimetière à Poitiers réserve une surprise : la tombe de l’historien polonais exilé Leonard Chodźko porte une date de décès erronée. De quoi regarder les pierres tombales autrement 🪦"
-      },
-      "source": "ia",
-      "model": "claude-opus-5",
-      "usage": {
-        "input": 7669,
-        "output": 876
-      },
-      "angles": {
-        "instagram": "question intrigante",
-        "facebook": "chiffre ou fait marquant en tête",
-        "bluesky": "lieu en tête",
-        "threads": "effet de surprise",
-        "x": "bénéfice pour le lecteur"
-      },
-      "lieuSource": {
-        "precis": "",
-        "ville": "Poitiers",
-        "departement": "Vienne"
-      },
-      "lieuNom": "Poitiers",
-      "commune": "Poitiers",
-      "comptes": {
-        "instagram": [
-          {
-            "nom": "Poitiers",
-            "handle": "ville_de_poitiers",
-            "abonnes": 29733,
-            "preuve": 3,
-            "role": "acteur",
-            "echelon": "sujet"
-          },
-          {
-            "nom": "Fondation du patrimoine",
-            "handle": "fondationdupatrimoine",
-            "abonnes": 73760,
-            "preuve": 2,
-            "role": "theme",
-            "echelon": "domaine",
-            "thematique": true
-          },
-          {
-            "nom": "Histoire de France",
-            "handle": "histoirefrance",
-            "abonnes": 72195,
-            "preuve": 2,
-            "role": "theme",
-            "echelon": "domaine",
-            "thematique": true
-          }
-        ],
-        "x": [
-          {
-            "nom": "Poitiers",
-            "handle": "poitiersfr",
-            "abonnes": null,
-            "preuve": 3,
-            "role": "acteur",
-            "echelon": "sujet"
-          },
-          {
-            "nom": "Vienne",
-            "handle": "departement86",
-            "abonnes": null,
-            "preuve": 3,
-            "role": "territoire",
-            "echelon": "territoire",
-            "thematique": true
-          }
-        ],
-        "bluesky": [
-          {
-            "nom": "Fondation du patrimoine",
-            "handle": "fond-patrimoine.bsky.social",
-            "abonnes": 334,
-            "preuve": 1,
-            "role": "theme",
-            "echelon": "domaine",
-            "thematique": true
-          }
-        ],
-        "threads": [
-          {
-            "nom": "Fondation du patrimoine",
-            "handle": "fondationdupatrimoine",
-            "abonnes": 73760,
-            "preuve": 2,
-            "role": "theme",
-            "echelon": "domaine",
-            "thematique": true
-          }
-        ],
-        "facebook": []
-      }
-    },
-    "previewSent": false
-  },
-  {
-    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35450",
-    "channel": "bluesky",
-    "dueAt": 1790407798972,
     "status": "pending",
     "attempts": 0,
     "article": {

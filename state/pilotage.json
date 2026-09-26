@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-26T06:00:51.665Z",
+  "genereLe": "2026-09-26T06:20:38.155Z",
   "jour": "2026-09-26",
   "reseaux": {
     "instagram": {
@@ -124,11 +124,11 @@
         "lien",
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 13,
-      "total": 15,
-      "dernier": "2026-09-25T11:32:28.277Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DdtW_OrlSPs"
+      "aujourdhui": 1,
+      "semaine": 14,
+      "total": 16,
+      "dernier": "2026-09-26T06:24:54.350Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DdvYlXYFj8_"
     },
     "x": {
       "actif": true,
@@ -168,6 +168,22 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35450",
+      "titre": "À Poitiers, la tombe d’un patriote polonais indique une erreur",
+      "lien": "https://passion-aquitaine.ouest-france.fr/tombe-chodzko-poitiers-exile-polonais/",
+      "at": "2026-09-26T06:24:54.350Z",
+      "reseaux": {
+        "threads": {
+          "texte": "On imagine mal une erreur sur une tombe. C’est pourtant le cas dans un cimetière de Poitiers, où repose 📜 Leonard Chodźko, historien polonais exilé en France. La date de son décès, gravée dans la pierre, est inexacte. Sa mémoire vit donc avec une faute que personne n’a corrigée.\n@fondationdupatrimoine",
+          "image": null,
+          "mode": "lien",
+          "reponse": null,
+          "sujet": "Poitiers",
+          "publieLe": "2026-09-26T06:24:54.350Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35642",
       "titre": "En Charente-Maritime, nouveau succès pour l’Ultra Trail de Pons",
@@ -375,57 +391,19 @@
           "publieLe": "2026-09-24T19:09:59.003Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35635",
-      "titre": "Une levure fait déjà perdre 1° d’alcool au vin : à Bordeaux, la recherche va plus loin",
-      "lien": "https://passion-aquitaine.ouest-france.fr/levures-vin-changement-climatique-bordeaux/",
-      "at": "2026-09-24T07:10:39.016Z",
-      "reseaux": {
-        "x": {
-          "texte": "Des vins moins alcoolisés sans perdre leur goût : à #Bordeaux, une levure permet déjà de retirer 1° d’alcool. Les chercheurs poursuivent leurs travaux avec Oenoledge pour adapter les vignobles au changement climatique 🍷\n➡️ https://passion-aquitaine.ouest-france.fr/levures-vin-changement-climatique-bordeaux/",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260923-fffcf708-x.jpg",
-          "mode": "image",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-23T15:20:59.732Z"
-        },
-        "instagram": {
-          "texte": "Et si une levure suffisait à baisser le degré d’alcool de votre verre ?\n⠀\nÀ Bordeaux, des chercheurs travaillent sur des levures capables de faire perdre 1° d’alcool au vin. Avec la création d’Oenoledge, ils poussent leurs études plus loin pour adapter les vignobles girondins au changement climatique 🍷\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #Vin #Levures",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260923-fffcf708-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-23T17:04:19.720Z"
-        },
-        "bluesky": {
-          "texte": "#Bordeaux devient un laboratoire du vin de demain 🍷 Une levure permet déjà de retirer un degré d’alcool. Avec la création d’Oenoledge, les chercheurs poursuivent leurs travaux pour adapter les cépages au changement climatique.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260923-fffcf708-bsky.jpg",
-          "mode": "card",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-23T17:26:21.974Z"
-        },
-        "threads": {
-          "texte": "On imagine le vin comme une affaire de terroir et de patience. C’est aussi une affaire de micro-organismes. À Bordeaux, une levure fait déjà perdre 🍇 1° d’alcool au vin, et les chercheurs continuent d’explorer cette piste avec la création d’Oenoledge. L’objectif : adapter les vins au changement climatique, qui fait grimper les degrés dans les bouteilles.\n➡️ https://passion-aquitaine.ouest-france.fr/levures-vin-changement-climatique-bordeaux/",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260923-fffcf708-th.jpg",
-          "mode": "image",
-          "reponse": null,
-          "sujet": "Bordeaux",
-          "publieLe": "2026-09-24T06:27:31.734Z"
-        },
-        "facebook": {
-          "texte": "Une simple levure retire déjà un degré d’alcool au vin, et les chercheurs bordelais ne comptent pas s’arrêter là 🍇",
-          "image": null,
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-24T07:10:39.016Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "threads",
+      "at": "2026-09-26T06:24:54.350Z",
+      "titre": "À Poitiers, la tombe d’un patriote polonais indique une erreur",
+      "lien": "https://passion-aquitaine.ouest-france.fr/tombe-chodzko-poitiers-exile-polonais/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/DdvYlXYFj8_",
+      "format": "lien",
+      "texte": "On imagine mal une erreur sur une tombe. C’est pourtant le cas dans un cimetière de Poitiers, où repose 📜 Leonard Chodźko, historien polonais exilé en France. La date de son décès, gravée dans la pierre, est inexacte. Sa mémoire vit donc avec une faute que personne n’a corrigée.\n@fondationdupatrimoine",
+      "image": null
+    },
     {
       "channel": "facebook",
       "at": "2026-09-25T19:12:23.786Z",
@@ -515,28 +493,9 @@
       "format": "lien",
       "texte": "🏃 Comment une course de Charente-Maritime attire-t-elle des coureurs du Canada et de La Réunion ? L’Ultra Trail de #Pons a réuni 2 740 inscrits pour son édition 2026, un record.\n➡️ https://passion-aquitaine.ouest-france.fr/bilan-ultra-trail-pons-2026/",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-1bda31df-x.jpg"
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-09-25T07:11:29.899Z",
-      "titre": "Des trimarans à nos mezzanines, ces filets sont cousus à Bordeaux",
-      "lien": "https://passion-aquitaine.ouest-france.fr/des-trimarans-a-nos-mezzanines-ces-filets-sont-cousus-a-bordeaux/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1730843055708242",
-      "format": null,
-      "texte": "Le filet de votre mezzanine et celui d’un trimaran de course sortent parfois du même atelier bordelais ⛵",
-      "image": null
     }
   ],
   "file": [
-    {
-      "channel": "threads",
-      "dueAt": "2026-09-26T06:24:14.314Z",
-      "prochainPassage": "2026-09-26T07:00:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "À Poitiers, la tombe d’un patriote polonais indique une erreur"
-    },
     {
       "channel": "facebook",
       "dueAt": "2026-09-26T07:25:27.129Z",
@@ -728,7 +687,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-26T06:01:22.034Z",
+    "genereLe": "2026-09-26T06:25:02.549Z",
     "posts": 56,
     "parReseau": {
       "instagram": {
@@ -902,7 +861,7 @@
       "bluesky": 18,
       "x": 18,
       "facebook": 13,
-      "threads": 15
+      "threads": 16
     },
     "abonnes": {
       "instagram": {

@@ -1,6 +1,6 @@
 {
-  "genereLe": "2026-09-26T21:20:38.386Z",
-  "jour": "2026-09-26",
+  "genereLe": "2026-09-26T22:00:41.112Z",
+  "jour": "2026-09-27",
   "reseaux": {
     "instagram": {
       "actif": true,
@@ -24,7 +24,7 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 2,
+      "aujourdhui": 0,
       "semaine": 10,
       "total": 20,
       "dernier": "2026-09-26T16:35:03.591Z",
@@ -60,7 +60,7 @@
         "image",
         "reply"
       ],
-      "aujourdhui": 1,
+      "aujourdhui": 0,
       "semaine": 11,
       "total": 19,
       "dernier": "2026-09-26T07:30:01.007Z",
@@ -88,7 +88,7 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 2,
+      "aujourdhui": 0,
       "semaine": 11,
       "total": 15,
       "dernier": "2026-09-26T18:11:01.450Z",
@@ -124,7 +124,7 @@
         "lien",
         "reponse"
       ],
-      "aujourdhui": 1,
+      "aujourdhui": 0,
       "semaine": 11,
       "total": 16,
       "dernier": "2026-09-26T06:24:54.350Z",
@@ -160,7 +160,7 @@
         "lien",
         "reponse"
       ],
-      "aujourdhui": 1,
+      "aujourdhui": 0,
       "semaine": 11,
       "total": 19,
       "dernier": "2026-09-26T08:00:51.822Z",
@@ -587,7 +587,7 @@
   },
   "rapports": [],
   "jetons": {
-    "verifieLe": "2026-09-25T22:00:41.368Z",
+    "verifieLe": "2026-09-26T22:00:41.112Z",
     "meta": {
       "expireLe": "2026-12-16T20:08:59.000Z",
       "restant": 86,
@@ -595,7 +595,7 @@
     },
     "threads": {
       "expireLe": "2026-11-16T21:12:39.531Z",
-      "restant": 52,
+      "restant": 51,
       "renouvellement": "commande npm run threads:refresh"
     },
     "alertes": {}
@@ -646,42 +646,42 @@
   },
   "abonnes": {
     "instagram": {
-      "debut": 10144,
-      "fin": 10144,
-      "gain": 0,
+      "debut": 10147,
+      "fin": 10143,
+      "gain": -4,
       "pct": 0,
-      "depuis": "2026-09-19",
-      "au": "2026-09-26"
+      "depuis": "2026-09-20",
+      "au": "2026-09-27"
     },
     "facebook": {
-      "debut": 42625,
+      "debut": 42624,
       "fin": 42611,
-      "gain": -14,
+      "gain": -13,
       "pct": 0,
-      "depuis": "2026-09-19",
-      "au": "2026-09-26"
+      "depuis": "2026-09-20",
+      "au": "2026-09-27"
     },
     "bluesky": {
-      "debut": 2,
+      "debut": 3,
       "fin": 4,
-      "gain": 2,
-      "pct": 100,
-      "depuis": "2026-09-19",
-      "au": "2026-09-26"
+      "gain": 1,
+      "pct": 33.3,
+      "depuis": "2026-09-20",
+      "au": "2026-09-27"
     },
     "threads": {
-      "debut": 1144,
-      "fin": 1148,
-      "gain": 4,
+      "debut": 1146,
+      "fin": 1149,
+      "gain": 3,
       "pct": 0.3,
-      "depuis": "2026-09-19",
-      "au": "2026-09-26"
+      "depuis": "2026-09-20",
+      "au": "2026-09-27"
     },
     "x": null
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-26T21:20:48.503Z",
+    "genereLe": "2026-09-26T22:00:55.367Z",
     "posts": 63,
     "parReseau": {
       "instagram": {
@@ -860,11 +860,11 @@
     "abonnes": {
       "instagram": {
         "debut": 10146,
-        "fin": 10144,
-        "gain": -2,
+        "fin": 10143,
+        "gain": -3,
         "pct": 0,
         "depuis": "2026-09-18",
-        "au": "2026-09-26"
+        "au": "2026-09-27"
       },
       "facebook": {
         "debut": 42626,
@@ -872,7 +872,7 @@
         "gain": -15,
         "pct": 0,
         "depuis": "2026-09-18",
-        "au": "2026-09-26"
+        "au": "2026-09-27"
       },
       "bluesky": {
         "debut": 1,
@@ -880,15 +880,15 @@
         "gain": 3,
         "pct": 300,
         "depuis": "2026-09-18",
-        "au": "2026-09-26"
+        "au": "2026-09-27"
       },
       "threads": {
         "debut": 1144,
-        "fin": 1148,
-        "gain": 4,
-        "pct": 0.3,
+        "fin": 1149,
+        "gain": 5,
+        "pct": 0.4,
         "depuis": "2026-09-18",
-        "au": "2026-09-26"
+        "au": "2026-09-27"
       },
       "x": {
         "debut": 2940,
@@ -901,7 +901,7 @@
     },
     "engagement": {
       "instagram": 0.17,
-      "threads": 0.98,
+      "threads": 0.97,
       "facebook": 0
     },
     "conseils": [
@@ -913,11 +913,11 @@
   },
   "couts": {
     "jour": {
-      "appels": 3,
-      "entree": 23013,
-      "sortie": 2653,
-      "cout": 0.18139,
-      "cle": "2026-09-26"
+      "appels": 0,
+      "entree": 0,
+      "sortie": 0,
+      "cout": 0,
+      "cle": "2026-09-27"
     },
     "semaine": {
       "appels": 108,
@@ -932,17 +932,13 @@
       "cout": 5.652027,
       "cle": "2026-09"
     },
-    "projection": 6.52,
+    "projection": 6.28,
     "moyenneAppel": 0.0523,
     "parModele": {
       "claude-opus-5": 57,
       "claude-sonnet-5": 51
     },
     "serie": [
-      [
-        "2026-09-13",
-        0
-      ],
       [
         "2026-09-14",
         0
@@ -994,6 +990,10 @@
       [
         "2026-09-26",
         0.1814
+      ],
+      [
+        "2026-09-27",
+        0
       ]
     ],
     "depuis": "2026-09-23"

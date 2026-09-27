@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-27T07:20:40.942Z",
+  "genereLe": "2026-09-27T08:00:42.384Z",
   "jour": "2026-09-27",
   "reseaux": {
     "instagram": {
@@ -61,7 +61,7 @@
         "reply"
       ],
       "aujourdhui": 1,
-      "semaine": 12,
+      "semaine": 11,
       "total": 20,
       "dernier": "2026-09-27T07:24:52.368Z",
       "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mwibgacyik2o"
@@ -566,15 +566,15 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 94,
+    "releves": 97,
     "parReseau": {
       "instagram": {
         "posts": 10,
         "interactionsMoyennes": 11
       },
       "bluesky": {
-        "posts": 8,
-        "interactionsMoyennes": 0.8
+        "posts": 9,
+        "interactionsMoyennes": 0.7
       },
       "facebook": {
         "posts": 5,
@@ -682,8 +682,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-27T07:25:13.770Z",
-    "posts": 64,
+    "genereLe": "2026-09-27T08:00:50.759Z",
+    "posts": 66,
     "parReseau": {
       "instagram": {
         "posts": 17,
@@ -694,11 +694,11 @@
         "moyenne": 10.5
       },
       "facebook": {
-        "posts": 13,
+        "posts": 14,
         "moyenne": 0.6
       },
       "bluesky": {
-        "posts": 18,
+        "posts": 19,
         "moyenne": 0.4
       }
     },
@@ -716,7 +716,7 @@
         "moyenne": 0.5
       },
       "image": {
-        "posts": 9,
+        "posts": 10,
         "moyenne": 0.2
       },
       "card": {
@@ -730,8 +730,8 @@
         "moyenne": 12.2
       },
       "matin": {
-        "posts": 35,
-        "moyenne": 6.6
+        "posts": 37,
+        "moyenne": 6.2
       },
       "soir": {
         "posts": 13,
@@ -763,7 +763,7 @@
           "moyenne": 0.5
         },
         "8 h – 9 h 30": {
-          "posts": 9,
+          "posts": 10,
           "moyenne": 0.3
         },
         "18 h – 19 h 30": {
@@ -777,8 +777,8 @@
           "moyenne": 1
         },
         "8 h – 9 h 30": {
-          "posts": 7,
-          "moyenne": 0.7
+          "posts": 8,
+          "moyenne": 0.6
         },
         "20 h – 21 h 30": {
           "posts": 5,
@@ -825,30 +825,30 @@
     },
     "moinsBon": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35450",
-      "channel": "threads",
-      "mediaId": "18460685395141969",
-      "publieLe": "2026-09-26T06:24:54.350Z",
+      "channel": "bluesky",
+      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mwfraj6vr52h",
+      "publieLe": "2026-09-26T07:30:01.007Z",
       "jalon": 1,
-      "releveLe": "2026-09-27T06:47:49.379Z",
+      "releveLe": "2026-09-27T08:00:42.384Z",
       "likes": 0,
       "commentaires": 0,
       "partages": 0,
-      "vues": 246,
+      "vues": null,
       "titre": "À Poitiers, la tombe d’un patriote polonais indique une erreur",
-      "lien": "https://www.threads.com/@lovaquitaine/post/DdvYlXYFj8_",
-      "format": "lien",
+      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mwfraj6vr52h",
+      "format": "image",
       "mention": true,
       "creneau": "matin",
-      "creneauReseau": "7 h – 8 h 30"
+      "creneauReseau": "8 h – 9 h 30"
     },
     "mentions": {
       "avec": {
-        "posts": 4,
-        "moyenne": 8.8
+        "posts": 5,
+        "moyenne": 7
       },
       "sans": {
-        "posts": 60,
-        "moyenne": 7.5
+        "posts": 61,
+        "moyenne": 7.3
       }
     },
     "publies": {
@@ -908,8 +908,8 @@
     "conseils": [
       "Instagram : le créneau 12 h – 13 h 30 fait 2,2 fois mieux que 18 h – 19 h 30 (25.4 contre 11.5 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Bluesky : le créneau 12 h – 13 h 30 fait 3,3 fois mieux que 8 h – 9 h 30 (1 contre 0.3 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
-      "Facebook : le créneau 8 h – 9 h 30 fait 1,7 fois mieux que 20 h – 21 h 30 (0.7 contre 0.4 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
-      "Threads : le créneau 7 h – 8 h 30 fait 4,9 fois mieux que 13 h – 14 h 30 (14.8 contre 3 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json."
+      "Threads : le créneau 7 h – 8 h 30 fait 4,9 fois mieux que 13 h – 14 h 30 (14.8 contre 3 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
+      "Le format « reponse » fait 272 fois mieux que « card » (27.2 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « card » de la rotation dans config/channels.json."
     ]
   },
   "couts": {

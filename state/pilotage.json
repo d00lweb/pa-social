@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-27T06:00:55.197Z",
+  "genereLe": "2026-09-27T06:20:38.456Z",
   "jour": "2026-09-27",
   "reseaux": {
     "instagram": {
@@ -89,7 +89,7 @@
       },
       "formats": null,
       "aujourdhui": 1,
-      "semaine": 12,
+      "semaine": 11,
       "total": 16,
       "dernier": "2026-09-27T06:09:18.002Z",
       "lienDernier": "https://www.facebook.com/1720946116697936/posts/1733043368821544"
@@ -124,11 +124,11 @@
         "lien",
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 11,
-      "total": 16,
-      "dernier": "2026-09-26T06:24:54.350Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DdvYlXYFj8_"
+      "aujourdhui": 1,
+      "semaine": 12,
+      "total": 17,
+      "dernier": "2026-09-27T06:23:46.007Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/Ddx9PrAFWz0"
     },
     "x": {
       "actif": true,
@@ -168,6 +168,22 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35433",
+      "titre": "Pau abrite la 3e plus vieille église orthodoxe de France",
+      "lien": "https://passion-aquitaine.ouest-france.fr/plus-belles-eglises-pau-histoire/",
+      "at": "2026-09-27T06:23:46.007Z",
+      "reseaux": {
+        "threads": {
+          "texte": "⛪ On associe rarement le Béarn aux coupoles orthodoxes. Pourtant, Pau conserve la troisième plus ancienne église orthodoxe de France, derrière Nice et Paris seulement. Derrière ces murs se cache toute une histoire de familles venues de loin, qui ont fait de la ville un carrefour cosmopolite. Vous connaissiez ce lieu ?\n@francetourisme @fondationdupatrimoine",
+          "image": null,
+          "mode": "lien",
+          "reponse": null,
+          "sujet": "Pau",
+          "publieLe": "2026-09-27T06:23:46.007Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35450",
       "titre": "À Poitiers, la tombe d’un patriote polonais indique une erreur",
@@ -399,57 +415,19 @@
           "publieLe": "2026-09-25T07:11:29.899Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=28135",
-      "titre": "Top 6 des activités insolites autour de La Rochelle",
-      "lien": "https://passion-aquitaine.ouest-france.fr/activites-insolites-la-rochelle-top/",
-      "at": "2026-09-24T19:09:59.003Z",
-      "reseaux": {
-        "bluesky": {
-          "texte": "🌀 Une maison dont les couloirs se superposent, un bunker allemand enfoui, une ferme où pousse la spiruline : autour de La Rochelle, six activités sortent complètement des circuits touristiques habituels. #LaRochelle",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-005b146f-bsky.jpg",
-          "mode": "card",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-24T07:27:04.328Z"
-        },
-        "x": {
-          "texte": "Peu de visiteurs le savent : autour de La Rochelle, on peut descendre dans un bunker allemand 🕳️, parcourir une maison aux couloirs superposés ou visiter une ferme de spiruline.\n➡️ https://passion-aquitaine.ouest-france.fr/activites-insolites-la-rochelle-top/",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-005b146f-x.jpg",
-          "mode": "image",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-24T08:01:14.657Z"
-        },
-        "threads": {
-          "texte": "Passer un week-end à La Rochelle sans refaire les tours du vieux port, c’est possible 🧭 Six adresses insolites attendent les curieux : un bunker allemand, une maison aux couloirs superposés, une ferme de spiruline. De quoi occuper deux jours autrement, même quand on croit déjà bien connaître la ville.\n➡️ https://passion-aquitaine.ouest-france.fr/activites-insolites-la-rochelle-top/",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-005b146f-th.jpg",
-          "mode": "image",
-          "reponse": null,
-          "sujet": "La Rochelle",
-          "publieLe": "2026-09-24T08:28:40.031Z"
-        },
-        "instagram": {
-          "texte": "Six activités insolites 🕳️ à faire autour de La Rochelle, loin des visites classiques du vieux port.\n⠀\nUn bunker allemand, une maison aux couloirs superposés, une ferme de spiruline : la Charente-Maritime cache des sorties que peu de visiteurs connaissent.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#LaRochelle #CharenteMaritime #Tourisme",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-005b146f-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-24T11:25:13.145Z"
-        },
-        "facebook": {
-          "texte": "Autour de La Rochelle, on visite un bunker allemand et une ferme de spiruline dans la même journée 🕳️",
-          "image": null,
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-24T19:09:59.003Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "threads",
+      "at": "2026-09-27T06:23:46.007Z",
+      "titre": "Pau abrite la 3e plus vieille église orthodoxe de France",
+      "lien": "https://passion-aquitaine.ouest-france.fr/plus-belles-eglises-pau-histoire/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/Ddx9PrAFWz0",
+      "format": "lien",
+      "texte": "⛪ On associe rarement le Béarn aux coupoles orthodoxes. Pourtant, Pau conserve la troisième plus ancienne église orthodoxe de France, derrière Nice et Paris seulement. Derrière ces murs se cache toute une histoire de familles venues de loin, qui ont fait de la ville un carrefour cosmopolite. Vous connaissiez ce lieu ?\n@francetourisme @fondationdupatrimoine",
+      "image": null
+    },
     {
       "channel": "facebook",
       "at": "2026-09-27T06:09:18.002Z",
@@ -539,28 +517,9 @@
       "format": null,
       "texte": "Qu’est-ce qui pousse 2 740 coureurs, dont certains venus de La Réunion, à s’aligner sur les chemins de Pons 🥾",
       "image": null
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-09-25T17:27:59.215Z",
-      "titre": "En Charente-Maritime, nouveau succès pour l’Ultra Trail de Pons",
-      "lien": "https://passion-aquitaine.ouest-france.fr/bilan-ultra-trail-pons-2026/",
-      "lienPost": "https://www.instagram.com/p/Ddt_ugjl2g3/",
-      "format": null,
-      "texte": "Des chemins de Saintonge foulés par des coureurs arrivés du Canada et de La Réunion 🌍\n⠀\nL’Ultra Trail de Pons a rassemblé 2 740 inscrits pour son édition 2026, un record pour cette course de Charente-Maritime.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Pons #UltraTrail #CharenteMaritime",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-1bda31df-1.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "threads",
-      "dueAt": "2026-09-27T06:23:04.241Z",
-      "prochainPassage": "2026-09-27T07:00:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Pau abrite la 3e plus vieille église orthodoxe de France"
-    },
     {
       "channel": "x",
       "dueAt": "2026-09-27T07:20:00.000Z",
@@ -609,7 +568,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 91,
+    "releves": 92,
     "parReseau": {
       "instagram": {
         "posts": 10,
@@ -620,7 +579,7 @@
         "interactionsMoyennes": 0.8
       },
       "facebook": {
-        "posts": 4,
+        "posts": 5,
         "interactionsMoyennes": 1
       },
       "threads": {
@@ -686,7 +645,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-09-27T05:20:37.041Z"
+    "derniere": "2026-09-27T06:20:38.456Z"
   },
   "abonnes": {
     "instagram": {
@@ -725,7 +684,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-27T06:09:24.808Z",
+    "genereLe": "2026-09-27T06:23:54.557Z",
     "posts": 63,
     "parReseau": {
       "instagram": {
@@ -899,7 +858,7 @@
       "bluesky": 19,
       "x": 19,
       "facebook": 16,
-      "threads": 16
+      "threads": 17
     },
     "abonnes": {
       "instagram": {

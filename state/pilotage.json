@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-27T19:00:42.828Z",
+  "genereLe": "2026-09-27T19:20:38.909Z",
   "jour": "2026-09-27",
   "reseaux": {
     "instagram": {
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 1,
-      "semaine": 10,
-      "total": 16,
-      "dernier": "2026-09-27T06:09:18.002Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1733043368821544"
+      "aujourdhui": 2,
+      "semaine": 11,
+      "total": 17,
+      "dernier": "2026-09-27T19:27:08.111Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1733698938755987"
     },
     "threads": {
       "actif": true,
@@ -172,7 +172,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35433",
       "titre": "Pau abrite la 3e plus vieille église orthodoxe de France",
       "lien": "https://passion-aquitaine.ouest-france.fr/plus-belles-eglises-pau-histoire/",
-      "at": "2026-09-27T16:11:12.775Z",
+      "at": "2026-09-27T19:27:08.111Z",
       "reseaux": {
         "threads": {
           "texte": "⛪ On associe rarement le Béarn aux coupoles orthodoxes. Pourtant, Pau conserve la troisième plus ancienne église orthodoxe de France, derrière Nice et Paris seulement. Derrière ces murs se cache toute une histoire de familles venues de loin, qui ont fait de la ville un carrefour cosmopolite. Vous connaissiez ce lieu ?\n@francetourisme @fondationdupatrimoine",
@@ -205,6 +205,14 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-09-27T16:11:12.775Z"
+        },
+        "facebook": {
+          "texte": "Pour voir une église orthodoxe plus ancienne que celle de Pau, il faut aller jusqu’à Nice ou Paris 🕯️",
+          "image": null,
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-09-27T19:27:08.111Z"
         }
       }
     },
@@ -451,6 +459,16 @@
   ],
   "publications": [
     {
+      "channel": "facebook",
+      "at": "2026-09-27T19:27:08.111Z",
+      "titre": "Pau abrite la 3e plus vieille église orthodoxe de France",
+      "lien": "https://passion-aquitaine.ouest-france.fr/plus-belles-eglises-pau-histoire/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1733698938755987",
+      "format": null,
+      "texte": "Pour voir une église orthodoxe plus ancienne que celle de Pau, il faut aller jusqu’à Nice ou Paris 🕯️",
+      "image": null
+    },
+    {
       "channel": "instagram",
       "at": "2026-09-27T16:11:12.775Z",
       "titre": "Pau abrite la 3e plus vieille église orthodoxe de France",
@@ -539,29 +557,9 @@
       "format": null,
       "texte": "Plus de 🏰 200 reconstituteurs au château de Gramont, à Bidache, pour traverser vingt siècles en un seul week-end\n⠀\nLes 3 et 4 octobre 2026, la fête historique de Bidache fait revivre 2000 ans d’histoire dans les ruines du château, en Pays basque.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bidache #ChateauDeGramont #Reconstitution",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20260925-3e20f7ef-1.jpg"
-    },
-    {
-      "channel": "x",
-      "at": "2026-09-26T08:00:51.822Z",
-      "titre": "À Poitiers, la tombe d’un patriote polonais indique une erreur",
-      "lien": "https://passion-aquitaine.ouest-france.fr/tombe-chodzko-poitiers-exile-polonais/",
-      "lienPost": null,
-      "format": "lien",
-      "texte": "Une visite de cimetière à #Poitiers réserve une surprise : la tombe de l’historien polonais exilé Leonard Chodźko porte une date de décès erronée. De quoi regarder les pierres tombales autrement 🪦\n➡️ https://passion-aquitaine.ouest-france.fr/tombe-chodzko-poitiers-exile-polonais/",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20260926-e7578bc9-x.jpg"
     }
   ],
-  "file": [
-    {
-      "channel": "facebook",
-      "dueAt": "2026-09-27T19:27:03.403Z",
-      "prochainPassage": "2026-09-27T20:00:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Pau abrite la 3e plus vieille église orthodoxe de France"
-    }
-  ],
+  "file": [],
   "alertes": [],
   "mesures": {
     "releves": 102,
@@ -680,7 +678,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-27T19:00:50.999Z",
+    "genereLe": "2026-09-27T19:27:18.839Z",
     "posts": 69,
     "parReseau": {
       "instagram": {
@@ -853,7 +851,7 @@
       "instagram": 22,
       "bluesky": 20,
       "x": 20,
-      "facebook": 16,
+      "facebook": 17,
       "threads": 17
     },
     "abonnes": {

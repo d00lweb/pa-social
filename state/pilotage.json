@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-27T05:20:37.041Z",
+  "genereLe": "2026-09-27T06:00:55.197Z",
   "jour": "2026-09-27",
   "reseaux": {
     "instagram": {
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 11,
-      "total": 15,
-      "dernier": "2026-09-26T18:11:01.450Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1732554588870422"
+      "aujourdhui": 1,
+      "semaine": 12,
+      "total": 16,
+      "dernier": "2026-09-27T06:09:18.002Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1733043368821544"
     },
     "threads": {
       "actif": true,
@@ -168,6 +168,46 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35450",
+      "titre": "À Poitiers, la tombe d’un patriote polonais indique une erreur",
+      "lien": "https://passion-aquitaine.ouest-france.fr/tombe-chodzko-poitiers-exile-polonais/",
+      "at": "2026-09-27T06:09:18.002Z",
+      "reseaux": {
+        "threads": {
+          "texte": "On imagine mal une erreur sur une tombe. C’est pourtant le cas dans un cimetière de Poitiers, où repose 📜 Leonard Chodźko, historien polonais exilé en France. La date de son décès, gravée dans la pierre, est inexacte. Sa mémoire vit donc avec une faute que personne n’a corrigée.\n@fondationdupatrimoine",
+          "image": null,
+          "mode": "lien",
+          "reponse": null,
+          "sujet": "Poitiers",
+          "publieLe": "2026-09-26T06:24:54.350Z"
+        },
+        "bluesky": {
+          "texte": "À #Poitiers, un cimetière abrite la sépulture de Leonard Chodźko, historien polonais exilé en France 📜 La date de décès gravée sur la pierre ne correspond pas à la réalité. Une erreur qui accompagne sa mémoire depuis des décennies.\n@fond-patrimoine.bsky.social\n➡️ Lire l’article",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260926-e7578bc9-bsky.jpg",
+          "mode": "image",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-09-26T07:30:01.007Z"
+        },
+        "x": {
+          "texte": "Une visite de cimetière à #Poitiers réserve une surprise : la tombe de l’historien polonais exilé Leonard Chodźko porte une date de décès erronée. De quoi regarder les pierres tombales autrement 🪦\n➡️ https://passion-aquitaine.ouest-france.fr/tombe-chodzko-poitiers-exile-polonais/",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260926-e7578bc9-x.jpg",
+          "mode": "lien",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-09-26T08:00:51.822Z"
+        },
+        "facebook": {
+          "texte": "Une date de décès gravée dans la pierre, et pourtant fausse : c’est le sort de cet exilé polonais de Poitiers 🪶",
+          "image": null,
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-09-27T06:09:18.002Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35661",
       "titre": "Ce TER de Nouvelle-Aquitaine cache une batterie de 80 km : il remplace son moteur diesel",
@@ -261,38 +301,6 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-09-26T10:23:43.733Z"
-        }
-      }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35450",
-      "titre": "À Poitiers, la tombe d’un patriote polonais indique une erreur",
-      "lien": "https://passion-aquitaine.ouest-france.fr/tombe-chodzko-poitiers-exile-polonais/",
-      "at": "2026-09-26T08:00:51.822Z",
-      "reseaux": {
-        "threads": {
-          "texte": "On imagine mal une erreur sur une tombe. C’est pourtant le cas dans un cimetière de Poitiers, où repose 📜 Leonard Chodźko, historien polonais exilé en France. La date de son décès, gravée dans la pierre, est inexacte. Sa mémoire vit donc avec une faute que personne n’a corrigée.\n@fondationdupatrimoine",
-          "image": null,
-          "mode": "lien",
-          "reponse": null,
-          "sujet": "Poitiers",
-          "publieLe": "2026-09-26T06:24:54.350Z"
-        },
-        "bluesky": {
-          "texte": "À #Poitiers, un cimetière abrite la sépulture de Leonard Chodźko, historien polonais exilé en France 📜 La date de décès gravée sur la pierre ne correspond pas à la réalité. Une erreur qui accompagne sa mémoire depuis des décennies.\n@fond-patrimoine.bsky.social\n➡️ Lire l’article",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260926-e7578bc9-bsky.jpg",
-          "mode": "image",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-26T07:30:01.007Z"
-        },
-        "x": {
-          "texte": "Une visite de cimetière à #Poitiers réserve une surprise : la tombe de l’historien polonais exilé Leonard Chodźko porte une date de décès erronée. De quoi regarder les pierres tombales autrement 🪦\n➡️ https://passion-aquitaine.ouest-france.fr/tombe-chodzko-poitiers-exile-polonais/",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260926-e7578bc9-x.jpg",
-          "mode": "lien",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-26T08:00:51.822Z"
         }
       }
     },
@@ -444,6 +452,16 @@
   "publications": [
     {
       "channel": "facebook",
+      "at": "2026-09-27T06:09:18.002Z",
+      "titre": "À Poitiers, la tombe d’un patriote polonais indique une erreur",
+      "lien": "https://passion-aquitaine.ouest-france.fr/tombe-chodzko-poitiers-exile-polonais/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1733043368821544",
+      "format": null,
+      "texte": "Une date de décès gravée dans la pierre, et pourtant fausse : c’est le sort de cet exilé polonais de Poitiers 🪶",
+      "image": null
+    },
+    {
+      "channel": "facebook",
       "at": "2026-09-26T18:11:01.450Z",
       "titre": "Ce TER de Nouvelle-Aquitaine cache une batterie de 80 km : il remplace son moteur diesel",
       "lien": "https://passion-aquitaine.ouest-france.fr/ter-batteries-nouvelle-aquitaine-bordeaux-mont-de-marsan/",
@@ -531,27 +549,35 @@
       "format": null,
       "texte": "Des chemins de Saintonge foulés par des coureurs arrivés du Canada et de La Réunion 🌍\n⠀\nL’Ultra Trail de Pons a rassemblé 2 740 inscrits pour son édition 2026, un record pour cette course de Charente-Maritime.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Pons #UltraTrail #CharenteMaritime",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-1bda31df-1.jpg"
-    },
-    {
-      "channel": "x",
-      "at": "2026-09-25T15:01:12.900Z",
-      "titre": "Ce TER de Nouvelle-Aquitaine cache une batterie de 80 km : il remplace son moteur diesel",
-      "lien": "https://passion-aquitaine.ouest-france.fr/ter-batteries-nouvelle-aquitaine-bordeaux-mont-de-marsan/",
-      "lienPost": null,
-      "format": "image",
-      "texte": "Entre Bordeaux et Mont-de-Marsan circule le premier TER à batteries de Nouvelle-Aquitaine : 🔋 80 km d’autonomie électrique qui remplacent le moteur diesel sur les portions sans caténaire.\n➡️ https://passion-aquitaine.ouest-france.fr/ter-batteries-nouvelle-aquitaine-bordeaux-mont-de-marsan/",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20260925-93e1ab54-x.jpg"
     }
   ],
   "file": [
     {
-      "channel": "facebook",
-      "dueAt": "2026-09-27T06:09:14.836Z",
-      "prochainPassage": "2026-09-27T06:20:00.000Z",
+      "channel": "threads",
+      "dueAt": "2026-09-27T06:23:04.241Z",
+      "prochainPassage": "2026-09-27T07:00:00.000Z",
       "nature": "evergreen",
       "prevuInitialement": null,
       "raison": null,
-      "titre": "À Poitiers, la tombe d’un patriote polonais indique une erreur"
+      "titre": "Pau abrite la 3e plus vieille église orthodoxe de France"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-09-27T07:20:00.000Z",
+      "prochainPassage": "2026-09-27T07:20:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Pau abrite la 3e plus vieille église orthodoxe de France"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-09-27T07:24:50.427Z",
+      "prochainPassage": "2026-09-27T08:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Pau abrite la 3e plus vieille église orthodoxe de France"
     },
     {
       "channel": "instagram",
@@ -561,6 +587,24 @@
       "prevuInitialement": null,
       "raison": null,
       "titre": "À Poitiers, la tombe d’un patriote polonais indique une erreur"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-09-27T16:10:40.594Z",
+      "prochainPassage": "2026-09-27T16:20:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Pau abrite la 3e plus vieille église orthodoxe de France"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-09-27T19:27:03.403Z",
+      "prochainPassage": "2026-09-27T20:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Pau abrite la 3e plus vieille église orthodoxe de France"
     }
   ],
   "alertes": [],
@@ -681,7 +725,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-27T05:20:45.364Z",
+    "genereLe": "2026-09-27T06:09:24.808Z",
     "posts": 63,
     "parReseau": {
       "instagram": {
@@ -854,7 +898,7 @@
       "instagram": 20,
       "bluesky": 19,
       "x": 19,
-      "facebook": 15,
+      "facebook": 16,
       "threads": 16
     },
     "abonnes": {
@@ -913,29 +957,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 0,
-      "entree": 0,
-      "sortie": 0,
-      "cout": 0,
+      "appels": 2,
+      "entree": 15387,
+      "sortie": 1784,
+      "cout": 0.121535,
       "cle": "2026-09-27"
     },
     "semaine": {
-      "appels": 108,
-      "entree": 756941,
-      "sortie": 218738,
-      "cout": 5.652027
+      "appels": 110,
+      "entree": 772328,
+      "sortie": 220522,
+      "cout": 5.773562
     },
     "mois": {
-      "appels": 108,
-      "entree": 756941,
-      "sortie": 218738,
-      "cout": 5.652027,
+      "appels": 110,
+      "entree": 772328,
+      "sortie": 220522,
+      "cout": 5.773562,
       "cle": "2026-09"
     },
-    "projection": 6.28,
-    "moyenneAppel": 0.0523,
+    "projection": 6.42,
+    "moyenneAppel": 0.0525,
     "parModele": {
-      "claude-opus-5": 57,
+      "claude-opus-5": 59,
       "claude-sonnet-5": 51
     },
     "serie": [
@@ -993,7 +1037,7 @@
       ],
       [
         "2026-09-27",
-        0
+        0.1215
       ]
     ],
     "depuis": "2026-09-23"

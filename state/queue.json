@@ -165,118 +165,114 @@
     "previewSent": false
   },
   {
-    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35450",
-    "channel": "facebook",
-    "dueAt": 1790489354836,
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35433",
+    "channel": "instagram",
+    "dueAt": 1790525440594,
     "status": "pending",
     "attempts": 0,
     "article": {
-      "title": "À Poitiers, la tombe d’un patriote polonais indique une erreur",
-      "link": "https://passion-aquitaine.ouest-france.fr/tombe-chodzko-poitiers-exile-polonais/",
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35450",
-      "pubDate": "Sat, 26 Sep 2026 05:30:33 +0000",
-      "date": 1790400633000,
+      "title": "Pau abrite la 3e plus vieille église orthodoxe de France",
+      "link": "https://passion-aquitaine.ouest-france.fr/plus-belles-eglises-pau-histoire/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35433",
+      "pubDate": "Sun, 27 Sep 2026 05:30:56 +0000",
+      "date": 1790487056000,
       "categories": [
-        "Actus",
-        "Vienne"
+        "Culture & traditions",
+        "Pyrénées-Atlantiques",
+        "Visites & loisirs",
+        "Basque LOI"
       ],
-      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/09/tombe-leonard-chodzko.jpg",
-      "description": "Dans un cimetière de Poitiers, la tombe de Leonard Chodźko, historien polonais exilé, porte une erreur sur sa propre date de décès."
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/09/eglise-nevsky-pau.jpeg",
+      "description": "Pau abrite la troisième plus ancienne église orthodoxe de France, juste derrière Nice et Paris. Une histoire révélant un passé cosmopolite."
     },
     "dossier": {
       "nature": "evergreen",
       "sensible": false,
-      "rubrique": "Poitiers",
+      "rubrique": "Béarn",
       "visuel": {
-        "titre": "La tombe d’un patriote polonais porte une erreur sur sa date de décès",
-        "surlignage": "décès",
-        "description": "Exilé en France, l’historien polonais Leonard Chodźko repose dans un cimetière de Poitiers. Sa pierre tombale indique une date de mort qui n’est pas la bonne.",
-        "texte_alternatif": "La tombe de l’historien polonais Leonard Chodźko, exilé en France, se trouve dans un cimetière de Poitiers. La date de décès gravée sur la pierre est erronée."
+        "titre": "Pau abrite la 3e plus vieille église orthodoxe de France",
+        "surlignage": "église orthodoxe",
+        "description": "Derrière Nice et Paris, la cité béarnaise conserve l’une des plus anciennes églises orthodoxes du pays. Un édifice qui raconte le passé cosmopolite de la ville et ses visiteurs venus de loin.",
+        "texte_alternatif": "L’église orthodoxe de Pau, en Béarn, compte parmi les plus anciennes de France, juste après celles de Nice et de Paris."
       },
       "entites": [
         {
-          "nom": "Leonard Chodźko",
+          "nom": "Pau",
           "role": "sujet"
-        },
-        {
-          "nom": "Poitiers",
-          "role": "acteur"
         }
       ],
       "domaines": [
         "patrimoine",
-        "histoire"
+        "religion",
+        "tourisme"
       ],
-      "lieu": {
-        "id": "106278366077101",
-        "nom": "Poitiers",
-        "niveau": "ville"
-      },
+      "lieu": null,
       "instagram": {
-        "texte": "Et si votre pierre tombale mentait sur le jour de votre mort ?\nDans un cimetière de Poitiers repose Leonard Chodźko, historien polonais exilé en France. La date gravée sur sa tombe n’est pas la bonne 🪦",
+        "texte": "À Pau, une église orthodoxe figure parmi les trois plus anciennes de toute la France ⛪\nSeules Nice et Paris la devancent. Un édifice discret qui raconte le passé cosmopolite de la ville béarnaise et ses visiteurs venus de l’Est.",
         "hashtags": [
-          "#Poitiers",
-          "#Histoire",
+          "#Pau",
+          "#Béarn",
           "#Patrimoine"
         ]
       },
       "facebook": {
-        "texte": "Une date de décès gravée dans la pierre, et pourtant fausse : c’est le sort de cet exilé polonais de Poitiers 🪶"
+        "texte": "Pour voir une église orthodoxe plus ancienne que celle de Pau, il faut aller jusqu’à Nice ou Paris 🕯️"
       },
       "bluesky": {
-        "texte": "À Poitiers, un cimetière abrite la sépulture de Leonard Chodźko, historien polonais exilé en France 📜 La date de décès gravée sur la pierre ne correspond pas à la réalité. Une erreur qui accompagne sa mémoire depuis des décennies.",
-        "hashtag": "#Poitiers"
+        "texte": "Une visite à Pau réserve une découverte inattendue : la troisième plus ancienne église orthodoxe de France, devancée seulement par Nice et Paris. De quoi comprendre en une halte le passé cosmopolite de la ville 🕍",
+        "hashtag": "#Pau"
       },
       "threads": {
-        "texte": "On imagine mal une erreur sur une tombe. C’est pourtant le cas dans un cimetière de Poitiers, où repose 📜 Leonard Chodźko, historien polonais exilé en France. La date de son décès, gravée dans la pierre, est inexacte. Sa mémoire vit donc avec une faute que personne n’a corrigée.",
-        "sujet": "Poitiers"
+        "texte": "⛪ On associe rarement le Béarn aux coupoles orthodoxes. Pourtant, Pau conserve la troisième plus ancienne église orthodoxe de France, derrière Nice et Paris seulement. Derrière ces murs se cache toute une histoire de familles venues de loin, qui ont fait de la ville un carrefour cosmopolite. Vous connaissiez ce lieu ?",
+        "sujet": "Béarn"
       },
       "x": {
-        "texte": "Une visite de cimetière à Poitiers réserve une surprise : la tombe de l’historien polonais exilé Leonard Chodźko porte une date de décès erronée. De quoi regarder les pierres tombales autrement 🪦"
+        "texte": "Des icônes et un passé venu de l’Est au cœur du Béarn 🕯️ Pau abrite la troisième plus ancienne église orthodoxe de France, juste derrière Nice et Paris. Le témoin d’une ville longtemps cosmopolite."
       },
       "source": "ia",
       "model": "claude-opus-5",
       "usage": {
-        "input": 7669,
-        "output": 876
+        "input": 7708,
+        "output": 897
       },
       "angles": {
-        "instagram": "question intrigante",
-        "facebook": "chiffre ou fait marquant en tête",
-        "bluesky": "lieu en tête",
-        "threads": "effet de surprise",
-        "x": "bénéfice pour le lecteur"
+        "instagram": "lieu en tête",
+        "facebook": "effet de surprise",
+        "bluesky": "bénéfice pour le lecteur",
+        "threads": "détail méconnu",
+        "x": "image évocatrice"
       },
       "lieuSource": {
-        "precis": "",
-        "ville": "Poitiers",
-        "departement": "Vienne"
+        "precis": "Église orthodoxe de Pau",
+        "ville": "Pau",
+        "departement": "Pyrénées-Atlantiques"
       },
-      "lieuNom": "Poitiers",
-      "commune": "Poitiers",
+      "lieuNom": "Église orthodoxe de Pau",
+      "commune": "Pau",
       "comptes": {
         "instagram": [
           {
-            "nom": "Poitiers",
-            "handle": "ville_de_poitiers",
-            "abonnes": 29733,
+            "nom": "Pau",
+            "handle": "ville_pau",
+            "abonnes": 48176,
             "preuve": 3,
-            "role": "acteur",
+            "role": "sujet",
             "echelon": "sujet"
           },
           {
-            "nom": "Fondation du patrimoine",
-            "handle": "fondationdupatrimoine",
-            "abonnes": 73760,
+            "nom": "Pau Pyrénées Tourisme",
+            "handle": "tourismepau",
+            "abonnes": 17454,
             "preuve": 2,
-            "role": "theme",
-            "echelon": "domaine",
-            "thematique": true
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "tourisme"
           },
           {
-            "nom": "Histoire de France",
-            "handle": "histoirefrance",
-            "abonnes": 72195,
+            "nom": "France Tourisme",
+            "handle": "francetourisme",
+            "abonnes": 39474,
             "preuve": 2,
             "role": "theme",
             "echelon": "domaine",
@@ -285,16 +281,16 @@
         ],
         "x": [
           {
-            "nom": "Poitiers",
-            "handle": "poitiersfr",
+            "nom": "Pau",
+            "handle": "Ville_Pau",
             "abonnes": null,
             "preuve": 3,
-            "role": "acteur",
+            "role": "sujet",
             "echelon": "sujet"
           },
           {
-            "nom": "Vienne",
-            "handle": "departement86",
+            "nom": "Pyrénées-Atlantiques",
+            "handle": "departement64",
             "abonnes": null,
             "preuve": 3,
             "role": "territoire",
@@ -314,6 +310,695 @@
           }
         ],
         "threads": [
+          {
+            "nom": "France Tourisme",
+            "handle": "francetourisme",
+            "abonnes": 39474,
+            "preuve": 2,
+            "role": "theme",
+            "echelon": "domaine",
+            "thematique": true
+          },
+          {
+            "nom": "Fondation du patrimoine",
+            "handle": "fondationdupatrimoine",
+            "abonnes": 73760,
+            "preuve": 2,
+            "role": "theme",
+            "echelon": "domaine",
+            "thematique": true
+          }
+        ],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35433",
+    "channel": "bluesky",
+    "dueAt": 1790493890427,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Pau abrite la 3e plus vieille église orthodoxe de France",
+      "link": "https://passion-aquitaine.ouest-france.fr/plus-belles-eglises-pau-histoire/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35433",
+      "pubDate": "Sun, 27 Sep 2026 05:30:56 +0000",
+      "date": 1790487056000,
+      "categories": [
+        "Culture & traditions",
+        "Pyrénées-Atlantiques",
+        "Visites & loisirs",
+        "Basque LOI"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/09/eglise-nevsky-pau.jpeg",
+      "description": "Pau abrite la troisième plus ancienne église orthodoxe de France, juste derrière Nice et Paris. Une histoire révélant un passé cosmopolite."
+    },
+    "dossier": {
+      "nature": "evergreen",
+      "sensible": false,
+      "rubrique": "Béarn",
+      "visuel": {
+        "titre": "Pau abrite la 3e plus vieille église orthodoxe de France",
+        "surlignage": "église orthodoxe",
+        "description": "Derrière Nice et Paris, la cité béarnaise conserve l’une des plus anciennes églises orthodoxes du pays. Un édifice qui raconte le passé cosmopolite de la ville et ses visiteurs venus de loin.",
+        "texte_alternatif": "L’église orthodoxe de Pau, en Béarn, compte parmi les plus anciennes de France, juste après celles de Nice et de Paris."
+      },
+      "entites": [
+        {
+          "nom": "Pau",
+          "role": "sujet"
+        }
+      ],
+      "domaines": [
+        "patrimoine",
+        "religion",
+        "tourisme"
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "À Pau, une église orthodoxe figure parmi les trois plus anciennes de toute la France ⛪\nSeules Nice et Paris la devancent. Un édifice discret qui raconte le passé cosmopolite de la ville béarnaise et ses visiteurs venus de l’Est.",
+        "hashtags": [
+          "#Pau",
+          "#Béarn",
+          "#Patrimoine"
+        ]
+      },
+      "facebook": {
+        "texte": "Pour voir une église orthodoxe plus ancienne que celle de Pau, il faut aller jusqu’à Nice ou Paris 🕯️"
+      },
+      "bluesky": {
+        "texte": "Une visite à Pau réserve une découverte inattendue : la troisième plus ancienne église orthodoxe de France, devancée seulement par Nice et Paris. De quoi comprendre en une halte le passé cosmopolite de la ville 🕍",
+        "hashtag": "#Pau"
+      },
+      "threads": {
+        "texte": "⛪ On associe rarement le Béarn aux coupoles orthodoxes. Pourtant, Pau conserve la troisième plus ancienne église orthodoxe de France, derrière Nice et Paris seulement. Derrière ces murs se cache toute une histoire de familles venues de loin, qui ont fait de la ville un carrefour cosmopolite. Vous connaissiez ce lieu ?",
+        "sujet": "Béarn"
+      },
+      "x": {
+        "texte": "Des icônes et un passé venu de l’Est au cœur du Béarn 🕯️ Pau abrite la troisième plus ancienne église orthodoxe de France, juste derrière Nice et Paris. Le témoin d’une ville longtemps cosmopolite."
+      },
+      "source": "ia",
+      "model": "claude-opus-5",
+      "usage": {
+        "input": 7708,
+        "output": 897
+      },
+      "angles": {
+        "instagram": "lieu en tête",
+        "facebook": "effet de surprise",
+        "bluesky": "bénéfice pour le lecteur",
+        "threads": "détail méconnu",
+        "x": "image évocatrice"
+      },
+      "lieuSource": {
+        "precis": "Église orthodoxe de Pau",
+        "ville": "Pau",
+        "departement": "Pyrénées-Atlantiques"
+      },
+      "lieuNom": "Église orthodoxe de Pau",
+      "commune": "Pau",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Pau",
+            "handle": "ville_pau",
+            "abonnes": 48176,
+            "preuve": 3,
+            "role": "sujet",
+            "echelon": "sujet"
+          },
+          {
+            "nom": "Pau Pyrénées Tourisme",
+            "handle": "tourismepau",
+            "abonnes": 17454,
+            "preuve": 2,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "tourisme"
+          },
+          {
+            "nom": "France Tourisme",
+            "handle": "francetourisme",
+            "abonnes": 39474,
+            "preuve": 2,
+            "role": "theme",
+            "echelon": "domaine",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "Pau",
+            "handle": "Ville_Pau",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "sujet",
+            "echelon": "sujet"
+          },
+          {
+            "nom": "Pyrénées-Atlantiques",
+            "handle": "departement64",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "bluesky": [
+          {
+            "nom": "Fondation du patrimoine",
+            "handle": "fond-patrimoine.bsky.social",
+            "abonnes": 334,
+            "preuve": 1,
+            "role": "theme",
+            "echelon": "domaine",
+            "thematique": true
+          }
+        ],
+        "threads": [
+          {
+            "nom": "France Tourisme",
+            "handle": "francetourisme",
+            "abonnes": 39474,
+            "preuve": 2,
+            "role": "theme",
+            "echelon": "domaine",
+            "thematique": true
+          },
+          {
+            "nom": "Fondation du patrimoine",
+            "handle": "fondationdupatrimoine",
+            "abonnes": 73760,
+            "preuve": 2,
+            "role": "theme",
+            "echelon": "domaine",
+            "thematique": true
+          }
+        ],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35433",
+    "channel": "facebook",
+    "dueAt": 1790537223403,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Pau abrite la 3e plus vieille église orthodoxe de France",
+      "link": "https://passion-aquitaine.ouest-france.fr/plus-belles-eglises-pau-histoire/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35433",
+      "pubDate": "Sun, 27 Sep 2026 05:30:56 +0000",
+      "date": 1790487056000,
+      "categories": [
+        "Culture & traditions",
+        "Pyrénées-Atlantiques",
+        "Visites & loisirs",
+        "Basque LOI"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/09/eglise-nevsky-pau.jpeg",
+      "description": "Pau abrite la troisième plus ancienne église orthodoxe de France, juste derrière Nice et Paris. Une histoire révélant un passé cosmopolite."
+    },
+    "dossier": {
+      "nature": "evergreen",
+      "sensible": false,
+      "rubrique": "Béarn",
+      "visuel": {
+        "titre": "Pau abrite la 3e plus vieille église orthodoxe de France",
+        "surlignage": "église orthodoxe",
+        "description": "Derrière Nice et Paris, la cité béarnaise conserve l’une des plus anciennes églises orthodoxes du pays. Un édifice qui raconte le passé cosmopolite de la ville et ses visiteurs venus de loin.",
+        "texte_alternatif": "L’église orthodoxe de Pau, en Béarn, compte parmi les plus anciennes de France, juste après celles de Nice et de Paris."
+      },
+      "entites": [
+        {
+          "nom": "Pau",
+          "role": "sujet"
+        }
+      ],
+      "domaines": [
+        "patrimoine",
+        "religion",
+        "tourisme"
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "À Pau, une église orthodoxe figure parmi les trois plus anciennes de toute la France ⛪\nSeules Nice et Paris la devancent. Un édifice discret qui raconte le passé cosmopolite de la ville béarnaise et ses visiteurs venus de l’Est.",
+        "hashtags": [
+          "#Pau",
+          "#Béarn",
+          "#Patrimoine"
+        ]
+      },
+      "facebook": {
+        "texte": "Pour voir une église orthodoxe plus ancienne que celle de Pau, il faut aller jusqu’à Nice ou Paris 🕯️"
+      },
+      "bluesky": {
+        "texte": "Une visite à Pau réserve une découverte inattendue : la troisième plus ancienne église orthodoxe de France, devancée seulement par Nice et Paris. De quoi comprendre en une halte le passé cosmopolite de la ville 🕍",
+        "hashtag": "#Pau"
+      },
+      "threads": {
+        "texte": "⛪ On associe rarement le Béarn aux coupoles orthodoxes. Pourtant, Pau conserve la troisième plus ancienne église orthodoxe de France, derrière Nice et Paris seulement. Derrière ces murs se cache toute une histoire de familles venues de loin, qui ont fait de la ville un carrefour cosmopolite. Vous connaissiez ce lieu ?",
+        "sujet": "Béarn"
+      },
+      "x": {
+        "texte": "Des icônes et un passé venu de l’Est au cœur du Béarn 🕯️ Pau abrite la troisième plus ancienne église orthodoxe de France, juste derrière Nice et Paris. Le témoin d’une ville longtemps cosmopolite."
+      },
+      "source": "ia",
+      "model": "claude-opus-5",
+      "usage": {
+        "input": 7708,
+        "output": 897
+      },
+      "angles": {
+        "instagram": "lieu en tête",
+        "facebook": "effet de surprise",
+        "bluesky": "bénéfice pour le lecteur",
+        "threads": "détail méconnu",
+        "x": "image évocatrice"
+      },
+      "lieuSource": {
+        "precis": "Église orthodoxe de Pau",
+        "ville": "Pau",
+        "departement": "Pyrénées-Atlantiques"
+      },
+      "lieuNom": "Église orthodoxe de Pau",
+      "commune": "Pau",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Pau",
+            "handle": "ville_pau",
+            "abonnes": 48176,
+            "preuve": 3,
+            "role": "sujet",
+            "echelon": "sujet"
+          },
+          {
+            "nom": "Pau Pyrénées Tourisme",
+            "handle": "tourismepau",
+            "abonnes": 17454,
+            "preuve": 2,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "tourisme"
+          },
+          {
+            "nom": "France Tourisme",
+            "handle": "francetourisme",
+            "abonnes": 39474,
+            "preuve": 2,
+            "role": "theme",
+            "echelon": "domaine",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "Pau",
+            "handle": "Ville_Pau",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "sujet",
+            "echelon": "sujet"
+          },
+          {
+            "nom": "Pyrénées-Atlantiques",
+            "handle": "departement64",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "bluesky": [
+          {
+            "nom": "Fondation du patrimoine",
+            "handle": "fond-patrimoine.bsky.social",
+            "abonnes": 334,
+            "preuve": 1,
+            "role": "theme",
+            "echelon": "domaine",
+            "thematique": true
+          }
+        ],
+        "threads": [
+          {
+            "nom": "France Tourisme",
+            "handle": "francetourisme",
+            "abonnes": 39474,
+            "preuve": 2,
+            "role": "theme",
+            "echelon": "domaine",
+            "thematique": true
+          },
+          {
+            "nom": "Fondation du patrimoine",
+            "handle": "fondationdupatrimoine",
+            "abonnes": 73760,
+            "preuve": 2,
+            "role": "theme",
+            "echelon": "domaine",
+            "thematique": true
+          }
+        ],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35433",
+    "channel": "threads",
+    "dueAt": 1790490184241,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Pau abrite la 3e plus vieille église orthodoxe de France",
+      "link": "https://passion-aquitaine.ouest-france.fr/plus-belles-eglises-pau-histoire/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35433",
+      "pubDate": "Sun, 27 Sep 2026 05:30:56 +0000",
+      "date": 1790487056000,
+      "categories": [
+        "Culture & traditions",
+        "Pyrénées-Atlantiques",
+        "Visites & loisirs",
+        "Basque LOI"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/09/eglise-nevsky-pau.jpeg",
+      "description": "Pau abrite la troisième plus ancienne église orthodoxe de France, juste derrière Nice et Paris. Une histoire révélant un passé cosmopolite."
+    },
+    "dossier": {
+      "nature": "evergreen",
+      "sensible": false,
+      "rubrique": "Béarn",
+      "visuel": {
+        "titre": "Pau abrite la 3e plus vieille église orthodoxe de France",
+        "surlignage": "église orthodoxe",
+        "description": "Derrière Nice et Paris, la cité béarnaise conserve l’une des plus anciennes églises orthodoxes du pays. Un édifice qui raconte le passé cosmopolite de la ville et ses visiteurs venus de loin.",
+        "texte_alternatif": "L’église orthodoxe de Pau, en Béarn, compte parmi les plus anciennes de France, juste après celles de Nice et de Paris."
+      },
+      "entites": [
+        {
+          "nom": "Pau",
+          "role": "sujet"
+        }
+      ],
+      "domaines": [
+        "patrimoine",
+        "religion",
+        "tourisme"
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "À Pau, une église orthodoxe figure parmi les trois plus anciennes de toute la France ⛪\nSeules Nice et Paris la devancent. Un édifice discret qui raconte le passé cosmopolite de la ville béarnaise et ses visiteurs venus de l’Est.",
+        "hashtags": [
+          "#Pau",
+          "#Béarn",
+          "#Patrimoine"
+        ]
+      },
+      "facebook": {
+        "texte": "Pour voir une église orthodoxe plus ancienne que celle de Pau, il faut aller jusqu’à Nice ou Paris 🕯️"
+      },
+      "bluesky": {
+        "texte": "Une visite à Pau réserve une découverte inattendue : la troisième plus ancienne église orthodoxe de France, devancée seulement par Nice et Paris. De quoi comprendre en une halte le passé cosmopolite de la ville 🕍",
+        "hashtag": "#Pau"
+      },
+      "threads": {
+        "texte": "⛪ On associe rarement le Béarn aux coupoles orthodoxes. Pourtant, Pau conserve la troisième plus ancienne église orthodoxe de France, derrière Nice et Paris seulement. Derrière ces murs se cache toute une histoire de familles venues de loin, qui ont fait de la ville un carrefour cosmopolite. Vous connaissiez ce lieu ?",
+        "sujet": "Béarn"
+      },
+      "x": {
+        "texte": "Des icônes et un passé venu de l’Est au cœur du Béarn 🕯️ Pau abrite la troisième plus ancienne église orthodoxe de France, juste derrière Nice et Paris. Le témoin d’une ville longtemps cosmopolite."
+      },
+      "source": "ia",
+      "model": "claude-opus-5",
+      "usage": {
+        "input": 7708,
+        "output": 897
+      },
+      "angles": {
+        "instagram": "lieu en tête",
+        "facebook": "effet de surprise",
+        "bluesky": "bénéfice pour le lecteur",
+        "threads": "détail méconnu",
+        "x": "image évocatrice"
+      },
+      "lieuSource": {
+        "precis": "Église orthodoxe de Pau",
+        "ville": "Pau",
+        "departement": "Pyrénées-Atlantiques"
+      },
+      "lieuNom": "Église orthodoxe de Pau",
+      "commune": "Pau",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Pau",
+            "handle": "ville_pau",
+            "abonnes": 48176,
+            "preuve": 3,
+            "role": "sujet",
+            "echelon": "sujet"
+          },
+          {
+            "nom": "Pau Pyrénées Tourisme",
+            "handle": "tourismepau",
+            "abonnes": 17454,
+            "preuve": 2,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "tourisme"
+          },
+          {
+            "nom": "France Tourisme",
+            "handle": "francetourisme",
+            "abonnes": 39474,
+            "preuve": 2,
+            "role": "theme",
+            "echelon": "domaine",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "Pau",
+            "handle": "Ville_Pau",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "sujet",
+            "echelon": "sujet"
+          },
+          {
+            "nom": "Pyrénées-Atlantiques",
+            "handle": "departement64",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "bluesky": [
+          {
+            "nom": "Fondation du patrimoine",
+            "handle": "fond-patrimoine.bsky.social",
+            "abonnes": 334,
+            "preuve": 1,
+            "role": "theme",
+            "echelon": "domaine",
+            "thematique": true
+          }
+        ],
+        "threads": [
+          {
+            "nom": "France Tourisme",
+            "handle": "francetourisme",
+            "abonnes": 39474,
+            "preuve": 2,
+            "role": "theme",
+            "echelon": "domaine",
+            "thematique": true
+          },
+          {
+            "nom": "Fondation du patrimoine",
+            "handle": "fondationdupatrimoine",
+            "abonnes": 73760,
+            "preuve": 2,
+            "role": "theme",
+            "echelon": "domaine",
+            "thematique": true
+          }
+        ],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35433",
+    "channel": "x",
+    "dueAt": 1790493600000,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Pau abrite la 3e plus vieille église orthodoxe de France",
+      "link": "https://passion-aquitaine.ouest-france.fr/plus-belles-eglises-pau-histoire/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35433",
+      "pubDate": "Sun, 27 Sep 2026 05:30:56 +0000",
+      "date": 1790487056000,
+      "categories": [
+        "Culture & traditions",
+        "Pyrénées-Atlantiques",
+        "Visites & loisirs",
+        "Basque LOI"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/09/eglise-nevsky-pau.jpeg",
+      "description": "Pau abrite la troisième plus ancienne église orthodoxe de France, juste derrière Nice et Paris. Une histoire révélant un passé cosmopolite."
+    },
+    "dossier": {
+      "nature": "evergreen",
+      "sensible": false,
+      "rubrique": "Béarn",
+      "visuel": {
+        "titre": "Pau abrite la 3e plus vieille église orthodoxe de France",
+        "surlignage": "église orthodoxe",
+        "description": "Derrière Nice et Paris, la cité béarnaise conserve l’une des plus anciennes églises orthodoxes du pays. Un édifice qui raconte le passé cosmopolite de la ville et ses visiteurs venus de loin.",
+        "texte_alternatif": "L’église orthodoxe de Pau, en Béarn, compte parmi les plus anciennes de France, juste après celles de Nice et de Paris."
+      },
+      "entites": [
+        {
+          "nom": "Pau",
+          "role": "sujet"
+        }
+      ],
+      "domaines": [
+        "patrimoine",
+        "religion",
+        "tourisme"
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "À Pau, une église orthodoxe figure parmi les trois plus anciennes de toute la France ⛪\nSeules Nice et Paris la devancent. Un édifice discret qui raconte le passé cosmopolite de la ville béarnaise et ses visiteurs venus de l’Est.",
+        "hashtags": [
+          "#Pau",
+          "#Béarn",
+          "#Patrimoine"
+        ]
+      },
+      "facebook": {
+        "texte": "Pour voir une église orthodoxe plus ancienne que celle de Pau, il faut aller jusqu’à Nice ou Paris 🕯️"
+      },
+      "bluesky": {
+        "texte": "Une visite à Pau réserve une découverte inattendue : la troisième plus ancienne église orthodoxe de France, devancée seulement par Nice et Paris. De quoi comprendre en une halte le passé cosmopolite de la ville 🕍",
+        "hashtag": "#Pau"
+      },
+      "threads": {
+        "texte": "⛪ On associe rarement le Béarn aux coupoles orthodoxes. Pourtant, Pau conserve la troisième plus ancienne église orthodoxe de France, derrière Nice et Paris seulement. Derrière ces murs se cache toute une histoire de familles venues de loin, qui ont fait de la ville un carrefour cosmopolite. Vous connaissiez ce lieu ?",
+        "sujet": "Béarn"
+      },
+      "x": {
+        "texte": "Des icônes et un passé venu de l’Est au cœur du Béarn 🕯️ Pau abrite la troisième plus ancienne église orthodoxe de France, juste derrière Nice et Paris. Le témoin d’une ville longtemps cosmopolite."
+      },
+      "source": "ia",
+      "model": "claude-opus-5",
+      "usage": {
+        "input": 7708,
+        "output": 897
+      },
+      "angles": {
+        "instagram": "lieu en tête",
+        "facebook": "effet de surprise",
+        "bluesky": "bénéfice pour le lecteur",
+        "threads": "détail méconnu",
+        "x": "image évocatrice"
+      },
+      "lieuSource": {
+        "precis": "Église orthodoxe de Pau",
+        "ville": "Pau",
+        "departement": "Pyrénées-Atlantiques"
+      },
+      "lieuNom": "Église orthodoxe de Pau",
+      "commune": "Pau",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Pau",
+            "handle": "ville_pau",
+            "abonnes": 48176,
+            "preuve": 3,
+            "role": "sujet",
+            "echelon": "sujet"
+          },
+          {
+            "nom": "Pau Pyrénées Tourisme",
+            "handle": "tourismepau",
+            "abonnes": 17454,
+            "preuve": 2,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "tourisme"
+          },
+          {
+            "nom": "France Tourisme",
+            "handle": "francetourisme",
+            "abonnes": 39474,
+            "preuve": 2,
+            "role": "theme",
+            "echelon": "domaine",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "Pau",
+            "handle": "Ville_Pau",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "sujet",
+            "echelon": "sujet"
+          },
+          {
+            "nom": "Pyrénées-Atlantiques",
+            "handle": "departement64",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "bluesky": [
+          {
+            "nom": "Fondation du patrimoine",
+            "handle": "fond-patrimoine.bsky.social",
+            "abonnes": 334,
+            "preuve": 1,
+            "role": "theme",
+            "echelon": "domaine",
+            "thematique": true
+          }
+        ],
+        "threads": [
+          {
+            "nom": "France Tourisme",
+            "handle": "francetourisme",
+            "abonnes": 39474,
+            "preuve": 2,
+            "role": "theme",
+            "echelon": "domaine",
+            "thematique": true
+          },
           {
             "nom": "Fondation du patrimoine",
             "handle": "fondationdupatrimoine",

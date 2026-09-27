@@ -1453,5 +1453,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35450",
+    "channel": "facebook",
+    "at": "2026-09-27T06:09:18.002Z",
+    "mediaId": "227437307428711_1733043368821544",
+    "titre": "À Poitiers, la tombe d’un patriote polonais indique une erreur",
+    "lien": "https://passion-aquitaine.ouest-france.fr/tombe-chodzko-poitiers-exile-polonais/",
+    "lienPost": "https://www.facebook.com/1720946116697936/posts/1733043368821544",
+    "format": null,
+    "mention": false,
+    "apercu": {
+      "texte": "Une date de décès gravée dans la pierre, et pourtant fausse : c’est le sort de cet exilé polonais de Poitiers 🪶",
+      "image": null,
+      "mode": null,
+      "reponse": null,
+      "sujet": null
+    }
   }
 ]

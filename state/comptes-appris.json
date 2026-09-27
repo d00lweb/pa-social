@@ -337,5 +337,113 @@
       "bluesky": [],
       "x": []
     }
+  },
+  "commune:mairie:pau": {
+    "v": 2,
+    "cherche": "2026-09-27T06:01:20.076Z",
+    "instagram": [
+      {
+        "handle": "ville_pau",
+        "nom": "Ville de Pau",
+        "abonnes": 48176,
+        "preuve": 3
+      }
+    ],
+    "x": [
+      {
+        "handle": "Ville_Pau",
+        "nom": "",
+        "abonnes": null,
+        "preuve": 3
+      }
+    ],
+    "threads": [],
+    "bluesky": []
+  },
+  "commune:tourisme:pau": {
+    "v": 2,
+    "cherche": "2026-09-27T06:01:20.076Z",
+    "instagram": [
+      {
+        "handle": "tourismepau",
+        "nom": "Pau Pyrénées Tourisme",
+        "abonnes": 17454,
+        "preuve": 2
+      }
+    ],
+    "x": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:pau:patrimoine": {
+    "v": 2,
+    "cherche": "2026-09-27T06:01:20.076Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:pau:religion": {
+    "v": 2,
+    "cherche": "2026-09-27T06:01:20.076Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "domaine:religion": {
+    "v": 2,
+    "cherche": "2026-09-27T06:01:20.076Z",
+    "instagram": [],
+    "bluesky": [],
+    "threads": []
+  },
+  "locale:pau:tourisme": {
+    "v": 2,
+    "cherche": "2026-09-27T06:01:20.076Z",
+    "instagram": [
+      {
+        "handle": "tourismepau",
+        "nom": "Pau Pyrénées Tourisme",
+        "abonnes": 17454,
+        "preuve": 2
+      }
+    ],
+    "threads": [],
+    "bluesky": []
+  },
+  "domaine:tourisme": {
+    "v": 2,
+    "cherche": "2026-09-27T06:01:20.076Z",
+    "instagram": [
+      {
+        "handle": "francetourisme",
+        "nom": "France Tourisme",
+        "abonnes": 39474,
+        "preuve": 2
+      }
+    ],
+    "bluesky": [],
+    "threads": [
+      {
+        "handle": "francetourisme",
+        "nom": "France Tourisme",
+        "abonnes": 39474,
+        "preuve": 2
+      }
+    ]
+  },
+  "vivier:bearn tourisme:bearnpyrenees_tourisme": {
+    "v": 2,
+    "cherche": "2026-09-27T06:01:20.076Z",
+    "instagram": [
+      {
+        "handle": "bearnpyrenees_tourisme",
+        "nom": "Béarn Pyrénées Tourisme",
+        "abonnes": 34449,
+        "preuve": 3
+      }
+    ],
+    "threads": [],
+    "bluesky": [],
+    "x": []
   }
 }

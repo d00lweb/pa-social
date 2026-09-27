@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-27T15:20:36.519Z",
+  "genereLe": "2026-09-27T16:00:41.267Z",
   "jour": "2026-09-27",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 1,
-      "semaine": 10,
-      "total": 21,
-      "dernier": "2026-09-27T11:24:24.874Z",
-      "lienDernier": "https://www.instagram.com/p/DdyftbFl8cX/"
+      "aujourdhui": 2,
+      "semaine": 11,
+      "total": 22,
+      "dernier": "2026-09-27T16:11:12.775Z",
+      "lienDernier": "https://www.instagram.com/p/DdzAh6bGHb7/"
     },
     "bluesky": {
       "actif": true,
@@ -169,6 +169,46 @@
   },
   "articles": [
     {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35433",
+      "titre": "Pau abrite la 3e plus vieille église orthodoxe de France",
+      "lien": "https://passion-aquitaine.ouest-france.fr/plus-belles-eglises-pau-histoire/",
+      "at": "2026-09-27T16:11:12.775Z",
+      "reseaux": {
+        "threads": {
+          "texte": "⛪ On associe rarement le Béarn aux coupoles orthodoxes. Pourtant, Pau conserve la troisième plus ancienne église orthodoxe de France, derrière Nice et Paris seulement. Derrière ces murs se cache toute une histoire de familles venues de loin, qui ont fait de la ville un carrefour cosmopolite. Vous connaissiez ce lieu ?\n@francetourisme @fondationdupatrimoine",
+          "image": null,
+          "mode": "lien",
+          "reponse": null,
+          "sujet": "Pau",
+          "publieLe": "2026-09-27T06:23:46.007Z"
+        },
+        "x": {
+          "texte": "Des icônes et un passé venu de l’Est au cœur du Béarn 🕯️ #Pau abrite la troisième plus ancienne église orthodoxe de France, juste derrière Nice et Paris. Le témoin d’une ville longtemps cosmopolite.\n➡️ https://passion-aquitaine.ouest-france.fr/plus-belles-eglises-pau-histoire/",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260927-81d8a18c-x.jpg",
+          "mode": "lien",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-09-27T07:20:49.412Z"
+        },
+        "bluesky": {
+          "texte": "Une visite à #Pau réserve une découverte inattendue : la troisième plus ancienne église orthodoxe de France, devancée seulement par Nice et Paris. De quoi comprendre en une halte le passé cosmopolite de la ville 🕍\n@fond-patrimoine.bsky.social\n➡️ Lire l’article",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260927-81d8a18c-bsky.jpg",
+          "mode": "image",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-09-27T07:24:52.368Z"
+        },
+        "instagram": {
+          "texte": "À Pau, une église orthodoxe figure parmi les trois plus anciennes de toute la France ⛪\n⠀\nSeules Nice et Paris la devancent. Un édifice discret qui raconte le passé cosmopolite de la ville béarnaise et ses visiteurs venus de l’Est.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Pau #Béarn #Patrimoine",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260927-81d8a18c-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-09-27T16:11:12.775Z"
+        }
+      }
+    },
+    {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35450",
       "titre": "À Poitiers, la tombe d’un patriote polonais indique une erreur",
       "lien": "https://passion-aquitaine.ouest-france.fr/tombe-chodzko-poitiers-exile-polonais/",
@@ -213,38 +253,6 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-09-27T11:24:24.874Z"
-        }
-      }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35433",
-      "titre": "Pau abrite la 3e plus vieille église orthodoxe de France",
-      "lien": "https://passion-aquitaine.ouest-france.fr/plus-belles-eglises-pau-histoire/",
-      "at": "2026-09-27T07:24:52.368Z",
-      "reseaux": {
-        "threads": {
-          "texte": "⛪ On associe rarement le Béarn aux coupoles orthodoxes. Pourtant, Pau conserve la troisième plus ancienne église orthodoxe de France, derrière Nice et Paris seulement. Derrière ces murs se cache toute une histoire de familles venues de loin, qui ont fait de la ville un carrefour cosmopolite. Vous connaissiez ce lieu ?\n@francetourisme @fondationdupatrimoine",
-          "image": null,
-          "mode": "lien",
-          "reponse": null,
-          "sujet": "Pau",
-          "publieLe": "2026-09-27T06:23:46.007Z"
-        },
-        "x": {
-          "texte": "Des icônes et un passé venu de l’Est au cœur du Béarn 🕯️ #Pau abrite la troisième plus ancienne église orthodoxe de France, juste derrière Nice et Paris. Le témoin d’une ville longtemps cosmopolite.\n➡️ https://passion-aquitaine.ouest-france.fr/plus-belles-eglises-pau-histoire/",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260927-81d8a18c-x.jpg",
-          "mode": "lien",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-27T07:20:49.412Z"
-        },
-        "bluesky": {
-          "texte": "Une visite à #Pau réserve une découverte inattendue : la troisième plus ancienne église orthodoxe de France, devancée seulement par Nice et Paris. De quoi comprendre en une halte le passé cosmopolite de la ville 🕍\n@fond-patrimoine.bsky.social\n➡️ Lire l’article",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260927-81d8a18c-bsky.jpg",
-          "mode": "image",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-27T07:24:52.368Z"
         }
       }
     },
@@ -444,6 +452,16 @@
   "publications": [
     {
       "channel": "instagram",
+      "at": "2026-09-27T16:11:12.775Z",
+      "titre": "Pau abrite la 3e plus vieille église orthodoxe de France",
+      "lien": "https://passion-aquitaine.ouest-france.fr/plus-belles-eglises-pau-histoire/",
+      "lienPost": "https://www.instagram.com/p/DdzAh6bGHb7/",
+      "format": null,
+      "texte": "À Pau, une église orthodoxe figure parmi les trois plus anciennes de toute la France ⛪\n⠀\nSeules Nice et Paris la devancent. Un édifice discret qui raconte le passé cosmopolite de la ville béarnaise et ses visiteurs venus de l’Est.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Pau #Béarn #Patrimoine",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260927-81d8a18c-1.jpg"
+    },
+    {
+      "channel": "instagram",
       "at": "2026-09-27T11:24:24.874Z",
       "titre": "À Poitiers, la tombe d’un patriote polonais indique une erreur",
       "lien": "https://passion-aquitaine.ouest-france.fr/tombe-chodzko-poitiers-exile-polonais/",
@@ -531,28 +549,9 @@
       "format": "lien",
       "texte": "Une visite de cimetière à #Poitiers réserve une surprise : la tombe de l’historien polonais exilé Leonard Chodźko porte une date de décès erronée. De quoi regarder les pierres tombales autrement 🪦\n➡️ https://passion-aquitaine.ouest-france.fr/tombe-chodzko-poitiers-exile-polonais/",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20260926-e7578bc9-x.jpg"
-    },
-    {
-      "channel": "bluesky",
-      "at": "2026-09-26T07:30:01.007Z",
-      "titre": "À Poitiers, la tombe d’un patriote polonais indique une erreur",
-      "lien": "https://passion-aquitaine.ouest-france.fr/tombe-chodzko-poitiers-exile-polonais/",
-      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mwfraj6vr52h",
-      "format": "image",
-      "texte": "À #Poitiers, un cimetière abrite la sépulture de Leonard Chodźko, historien polonais exilé en France 📜 La date de décès gravée sur la pierre ne correspond pas à la réalité. Une erreur qui accompagne sa mémoire depuis des décennies.\n@fond-patrimoine.bsky.social\n➡️ Lire l’article",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20260926-e7578bc9-bsky.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "instagram",
-      "dueAt": "2026-09-27T16:10:40.594Z",
-      "prochainPassage": "2026-09-27T16:20:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Pau abrite la 3e plus vieille église orthodoxe de France"
-    },
     {
       "channel": "facebook",
       "dueAt": "2026-09-27T19:27:03.403Z",
@@ -642,7 +641,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-09-27T14:20:43.664Z"
+    "derniere": "2026-09-27T16:00:41.267Z"
   },
   "abonnes": {
     "instagram": {
@@ -681,7 +680,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-27T15:20:45.396Z",
+    "genereLe": "2026-09-27T16:11:28.191Z",
     "posts": 67,
     "parReseau": {
       "instagram": {
@@ -851,7 +850,7 @@
       }
     },
     "publies": {
-      "instagram": 21,
+      "instagram": 22,
       "bluesky": 20,
       "x": 20,
       "facebook": 16,

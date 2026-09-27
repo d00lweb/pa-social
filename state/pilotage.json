@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-27T11:00:35.289Z",
+  "genereLe": "2026-09-27T11:20:40.233Z",
   "jour": "2026-09-27",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 10,
-      "total": 20,
-      "dernier": "2026-09-26T16:35:03.591Z",
-      "lienDernier": "https://www.instagram.com/p/Ddwed9Nj4Q1/"
+      "aujourdhui": 1,
+      "semaine": 11,
+      "total": 21,
+      "dernier": "2026-09-27T11:24:24.874Z",
+      "lienDernier": "https://www.instagram.com/p/DdyftbFl8cX/"
     },
     "bluesky": {
       "actif": true,
@@ -169,42 +169,10 @@
   },
   "articles": [
     {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35433",
-      "titre": "Pau abrite la 3e plus vieille église orthodoxe de France",
-      "lien": "https://passion-aquitaine.ouest-france.fr/plus-belles-eglises-pau-histoire/",
-      "at": "2026-09-27T07:24:52.368Z",
-      "reseaux": {
-        "threads": {
-          "texte": "⛪ On associe rarement le Béarn aux coupoles orthodoxes. Pourtant, Pau conserve la troisième plus ancienne église orthodoxe de France, derrière Nice et Paris seulement. Derrière ces murs se cache toute une histoire de familles venues de loin, qui ont fait de la ville un carrefour cosmopolite. Vous connaissiez ce lieu ?\n@francetourisme @fondationdupatrimoine",
-          "image": null,
-          "mode": "lien",
-          "reponse": null,
-          "sujet": "Pau",
-          "publieLe": "2026-09-27T06:23:46.007Z"
-        },
-        "x": {
-          "texte": "Des icônes et un passé venu de l’Est au cœur du Béarn 🕯️ #Pau abrite la troisième plus ancienne église orthodoxe de France, juste derrière Nice et Paris. Le témoin d’une ville longtemps cosmopolite.\n➡️ https://passion-aquitaine.ouest-france.fr/plus-belles-eglises-pau-histoire/",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260927-81d8a18c-x.jpg",
-          "mode": "lien",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-27T07:20:49.412Z"
-        },
-        "bluesky": {
-          "texte": "Une visite à #Pau réserve une découverte inattendue : la troisième plus ancienne église orthodoxe de France, devancée seulement par Nice et Paris. De quoi comprendre en une halte le passé cosmopolite de la ville 🕍\n@fond-patrimoine.bsky.social\n➡️ Lire l’article",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260927-81d8a18c-bsky.jpg",
-          "mode": "image",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-27T07:24:52.368Z"
-        }
-      }
-    },
-    {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35450",
       "titre": "À Poitiers, la tombe d’un patriote polonais indique une erreur",
       "lien": "https://passion-aquitaine.ouest-france.fr/tombe-chodzko-poitiers-exile-polonais/",
-      "at": "2026-09-27T06:09:18.002Z",
+      "at": "2026-09-27T11:24:24.874Z",
       "reseaux": {
         "threads": {
           "texte": "On imagine mal une erreur sur une tombe. C’est pourtant le cas dans un cimetière de Poitiers, où repose 📜 Leonard Chodźko, historien polonais exilé en France. La date de son décès, gravée dans la pierre, est inexacte. Sa mémoire vit donc avec une faute que personne n’a corrigée.\n@fondationdupatrimoine",
@@ -237,6 +205,46 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-09-27T06:09:18.002Z"
+        },
+        "instagram": {
+          "texte": "Et si votre pierre tombale mentait sur le jour de votre mort ?\n⠀\nDans un cimetière de Poitiers repose Leonard Chodźko, historien polonais exilé en France. La date gravée sur sa tombe n’est pas la bonne 🪦\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Poitiers #Histoire #Patrimoine",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260926-e7578bc9-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-09-27T11:24:24.874Z"
+        }
+      }
+    },
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35433",
+      "titre": "Pau abrite la 3e plus vieille église orthodoxe de France",
+      "lien": "https://passion-aquitaine.ouest-france.fr/plus-belles-eglises-pau-histoire/",
+      "at": "2026-09-27T07:24:52.368Z",
+      "reseaux": {
+        "threads": {
+          "texte": "⛪ On associe rarement le Béarn aux coupoles orthodoxes. Pourtant, Pau conserve la troisième plus ancienne église orthodoxe de France, derrière Nice et Paris seulement. Derrière ces murs se cache toute une histoire de familles venues de loin, qui ont fait de la ville un carrefour cosmopolite. Vous connaissiez ce lieu ?\n@francetourisme @fondationdupatrimoine",
+          "image": null,
+          "mode": "lien",
+          "reponse": null,
+          "sujet": "Pau",
+          "publieLe": "2026-09-27T06:23:46.007Z"
+        },
+        "x": {
+          "texte": "Des icônes et un passé venu de l’Est au cœur du Béarn 🕯️ #Pau abrite la troisième plus ancienne église orthodoxe de France, juste derrière Nice et Paris. Le témoin d’une ville longtemps cosmopolite.\n➡️ https://passion-aquitaine.ouest-france.fr/plus-belles-eglises-pau-histoire/",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260927-81d8a18c-x.jpg",
+          "mode": "lien",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-09-27T07:20:49.412Z"
+        },
+        "bluesky": {
+          "texte": "Une visite à #Pau réserve une découverte inattendue : la troisième plus ancienne église orthodoxe de France, devancée seulement par Nice et Paris. De quoi comprendre en une halte le passé cosmopolite de la ville 🕍\n@fond-patrimoine.bsky.social\n➡️ Lire l’article",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260927-81d8a18c-bsky.jpg",
+          "mode": "image",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-09-27T07:24:52.368Z"
         }
       }
     },
@@ -435,6 +443,16 @@
   ],
   "publications": [
     {
+      "channel": "instagram",
+      "at": "2026-09-27T11:24:24.874Z",
+      "titre": "À Poitiers, la tombe d’un patriote polonais indique une erreur",
+      "lien": "https://passion-aquitaine.ouest-france.fr/tombe-chodzko-poitiers-exile-polonais/",
+      "lienPost": "https://www.instagram.com/p/DdyftbFl8cX/",
+      "format": null,
+      "texte": "Et si votre pierre tombale mentait sur le jour de votre mort ?\n⠀\nDans un cimetière de Poitiers repose Leonard Chodźko, historien polonais exilé en France. La date gravée sur sa tombe n’est pas la bonne 🪦\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Poitiers #Histoire #Patrimoine",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260926-e7578bc9-1.jpg"
+    },
+    {
       "channel": "bluesky",
       "at": "2026-09-27T07:24:52.368Z",
       "titre": "Pau abrite la 3e plus vieille église orthodoxe de France",
@@ -523,28 +541,9 @@
       "format": "image",
       "texte": "À #Poitiers, un cimetière abrite la sépulture de Leonard Chodźko, historien polonais exilé en France 📜 La date de décès gravée sur la pierre ne correspond pas à la réalité. Une erreur qui accompagne sa mémoire depuis des décennies.\n@fond-patrimoine.bsky.social\n➡️ Lire l’article",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20260926-e7578bc9-bsky.jpg"
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-09-26T07:25:30.861Z",
-      "titre": "À Bidache, vivez 2000 ans d’histoire en un week-end",
-      "lien": "https://passion-aquitaine.ouest-france.fr/historiques-bidache-2026-chateau-gramont/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1732004645592083",
-      "format": null,
-      "texte": "Au château de Gramont, à Bidache, vingt siècles d’histoire tiennent dans un seul week-end d’automne ⚔️",
-      "image": null
     }
   ],
   "file": [
-    {
-      "channel": "instagram",
-      "dueAt": "2026-09-27T11:23:56.704Z",
-      "prochainPassage": "2026-09-27T12:00:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "À Poitiers, la tombe d’un patriote polonais indique une erreur"
-    },
     {
       "channel": "instagram",
       "dueAt": "2026-09-27T16:10:40.594Z",
@@ -643,7 +642,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-09-27T10:00:45.117Z"
+    "derniere": "2026-09-27T11:20:40.233Z"
   },
   "abonnes": {
     "instagram": {
@@ -682,7 +681,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-27T11:00:52.707Z",
+    "genereLe": "2026-09-27T11:24:31.070Z",
     "posts": 67,
     "parReseau": {
       "instagram": {
@@ -852,7 +851,7 @@
       }
     },
     "publies": {
-      "instagram": 20,
+      "instagram": 21,
       "bluesky": 20,
       "x": 20,
       "facebook": 16,

@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-27T06:20:38.456Z",
+  "genereLe": "2026-09-27T06:47:49.379Z",
   "jour": "2026-09-27",
   "reseaux": {
     "instagram": {
@@ -125,7 +125,7 @@
         "reponse"
       ],
       "aujourdhui": 1,
-      "semaine": 12,
+      "semaine": 11,
       "total": 17,
       "dernier": "2026-09-27T06:23:46.007Z",
       "lienDernier": "https://www.threads.com/@lovaquitaine/post/Ddx9PrAFWz0"
@@ -568,7 +568,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 92,
+    "releves": 94,
     "parReseau": {
       "instagram": {
         "posts": 10,
@@ -583,8 +583,8 @@
         "interactionsMoyennes": 1
       },
       "threads": {
-        "posts": 5,
-        "interactionsMoyennes": 9.6
+        "posts": 6,
+        "interactionsMoyennes": 8.3
       }
     }
   },
@@ -684,16 +684,16 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-27T06:23:54.557Z",
-    "posts": 63,
+    "genereLe": "2026-09-27T06:47:57.037Z",
+    "posts": 64,
     "parReseau": {
       "instagram": {
         "posts": 17,
         "moyenne": 17.6
       },
       "threads": {
-        "posts": 15,
-        "moyenne": 11.2
+        "posts": 16,
+        "moyenne": 10.5
       },
       "facebook": {
         "posts": 13,
@@ -714,8 +714,8 @@
         "moyenne": 1.2
       },
       "lien": {
-        "posts": 5,
-        "moyenne": 0.6
+        "posts": 6,
+        "moyenne": 0.5
       },
       "image": {
         "posts": 9,
@@ -732,8 +732,8 @@
         "moyenne": 12.2
       },
       "matin": {
-        "posts": 34,
-        "moyenne": 6.8
+        "posts": 35,
+        "moyenne": 6.6
       },
       "soir": {
         "posts": 13,
@@ -789,8 +789,8 @@
       },
       "threads": {
         "7 h – 8 h 30": {
-          "posts": 7,
-          "moyenne": 16.9
+          "posts": 8,
+          "moyenne": 14.8
         },
         "10 h – 11 h 30": {
           "posts": 3,
@@ -826,27 +826,27 @@
       "creneauReseau": "7 h – 8 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35642",
-      "channel": "facebook",
-      "mediaId": "227437307428711_1731499398975941",
-      "publieLe": "2026-09-25T19:12:23.786Z",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35450",
+      "channel": "threads",
+      "mediaId": "18460685395141969",
+      "publieLe": "2026-09-26T06:24:54.350Z",
       "jalon": 1,
-      "releveLe": "2026-09-26T19:20:36.271Z",
+      "releveLe": "2026-09-27T06:47:49.379Z",
       "likes": 0,
       "commentaires": 0,
       "partages": 0,
-      "vues": null,
-      "titre": "En Charente-Maritime, nouveau succès pour l’Ultra Trail de Pons",
-      "lien": "https://www.facebook.com/1720946116697936/posts/1731499398975941",
-      "format": null,
-      "mention": false,
-      "creneau": "soir",
-      "creneauReseau": "20 h – 21 h 30"
+      "vues": 246,
+      "titre": "À Poitiers, la tombe d’un patriote polonais indique une erreur",
+      "lien": "https://www.threads.com/@lovaquitaine/post/DdvYlXYFj8_",
+      "format": "lien",
+      "mention": true,
+      "creneau": "matin",
+      "creneauReseau": "7 h – 8 h 30"
     },
     "mentions": {
       "avec": {
-        "posts": 3,
-        "moyenne": 11.7
+        "posts": 4,
+        "moyenne": 8.8
       },
       "sans": {
         "posts": 60,
@@ -904,14 +904,14 @@
     },
     "engagement": {
       "instagram": 0.17,
-      "threads": 0.97,
+      "threads": 0.91,
       "facebook": 0
     },
     "conseils": [
       "Instagram : le créneau 12 h – 13 h 30 fait 2,2 fois mieux que 18 h – 19 h 30 (25.4 contre 11.5 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Bluesky : le créneau 12 h – 13 h 30 fait 3,3 fois mieux que 8 h – 9 h 30 (1 contre 0.3 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Facebook : le créneau 8 h – 9 h 30 fait 1,7 fois mieux que 20 h – 21 h 30 (0.7 contre 0.4 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
-      "Threads : le créneau 7 h – 8 h 30 fait 5,6 fois mieux que 13 h – 14 h 30 (16.9 contre 3 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json."
+      "Threads : le créneau 7 h – 8 h 30 fait 4,9 fois mieux que 13 h – 14 h 30 (14.8 contre 3 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json."
     ]
   },
   "couts": {

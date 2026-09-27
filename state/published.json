@@ -1489,5 +1489,41 @@
       "reponse": null,
       "sujet": "Pau"
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35433",
+    "channel": "x",
+    "at": "2026-09-27T07:20:49.412Z",
+    "mediaId": "kit-telegram",
+    "titre": "Pau abrite la 3e plus vieille église orthodoxe de France",
+    "lien": "https://passion-aquitaine.ouest-france.fr/plus-belles-eglises-pau-histoire/",
+    "lienPost": null,
+    "format": "lien",
+    "mention": true,
+    "apercu": {
+      "texte": "Des icônes et un passé venu de l’Est au cœur du Béarn 🕯️ #Pau abrite la troisième plus ancienne église orthodoxe de France, juste derrière Nice et Paris. Le témoin d’une ville longtemps cosmopolite.\n➡️ https://passion-aquitaine.ouest-france.fr/plus-belles-eglises-pau-histoire/",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260927-81d8a18c-x.jpg",
+      "mode": "lien",
+      "reponse": null,
+      "sujet": null
+    }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35433",
+    "channel": "bluesky",
+    "at": "2026-09-27T07:24:52.368Z",
+    "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mwibgacyik2o",
+    "titre": "Pau abrite la 3e plus vieille église orthodoxe de France",
+    "lien": "https://passion-aquitaine.ouest-france.fr/plus-belles-eglises-pau-histoire/",
+    "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mwibgacyik2o",
+    "format": "image",
+    "mention": true,
+    "apercu": {
+      "texte": "Une visite à #Pau réserve une découverte inattendue : la troisième plus ancienne église orthodoxe de France, devancée seulement par Nice et Paris. De quoi comprendre en une halte le passé cosmopolite de la ville 🕍\n@fond-patrimoine.bsky.social\n➡️ Lire l’article",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260927-81d8a18c-bsky.jpg",
+      "mode": "image",
+      "reponse": null,
+      "sujet": null
+    }
   }
 ]

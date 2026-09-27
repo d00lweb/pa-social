@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-27T16:20:37.552Z",
+  "genereLe": "2026-09-27T17:00:40.835Z",
   "jour": "2026-09-27",
   "reseaux": {
     "instagram": {
@@ -564,7 +564,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 99,
+    "releves": 100,
     "parReseau": {
       "instagram": {
         "posts": 11,
@@ -680,12 +680,12 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-27T16:20:45.780Z",
-    "posts": 67,
+    "genereLe": "2026-09-27T17:00:50.037Z",
+    "posts": 68,
     "parReseau": {
       "instagram": {
-        "posts": 18,
-        "moyenne": 16.9
+        "posts": 19,
+        "moyenne": 18
       },
       "threads": {
         "posts": 16,
@@ -727,13 +727,13 @@
         "posts": 17,
         "moyenne": 11.8
       },
+      "soir": {
+        "posts": 14,
+        "moyenne": 6.9
+      },
       "matin": {
         "posts": 37,
         "moyenne": 6.2
-      },
-      "soir": {
-        "posts": 13,
-        "moyenne": 4.5
       }
     },
     "parCreneauReseau": {
@@ -742,13 +742,13 @@
           "posts": 8,
           "moyenne": 22.9
         },
+        "18 h – 19 h 30": {
+          "posts": 5,
+          "moyenne": 16.8
+        },
         "hors créneau": {
           "posts": 6,
           "moyenne": 12.5
-        },
-        "18 h – 19 h 30": {
-          "posts": 4,
-          "moyenne": 11.5
         }
       },
       "bluesky": {
@@ -802,7 +802,7 @@
         }
       }
     },
-    "interactionsTotal": 488,
+    "interactionsTotal": 526,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35605",
       "channel": "threads",
@@ -841,8 +841,8 @@
     },
     "mentions": {
       "avec": {
-        "posts": 6,
-        "moyenne": 6.2
+        "posts": 7,
+        "moyenne": 10.7
       },
       "sans": {
         "posts": 61,
@@ -899,15 +899,15 @@
       }
     },
     "engagement": {
-      "instagram": 0.17,
+      "instagram": 0.18,
       "threads": 0.91,
       "facebook": 0
     },
     "conseils": [
-      "Instagram : le créneau 12 h – 13 h 30 fait 2 fois mieux que 18 h – 19 h 30 (22.9 contre 11.5 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Bluesky : le créneau 12 h – 13 h 30 fait 3,3 fois mieux que 8 h – 9 h 30 (1 contre 0.3 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Threads : le créneau 7 h – 8 h 30 fait 4,9 fois mieux que 13 h – 14 h 30 (14.8 contre 3 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
-      "Le format « reponse » fait 272 fois mieux que « card » (27.2 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « card » de la rotation dans config/channels.json."
+      "Le format « reponse » fait 272 fois mieux que « card » (27.2 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « card » de la rotation dans config/channels.json.",
+      "Abonnés : Threads progresse le plus (+5, +0,4 %) ; Facebook recule (−15), à surveiller."
     ]
   },
   "couts": {

@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-27T18:00:41.802Z",
+  "genereLe": "2026-09-27T18:20:48.517Z",
   "jour": "2026-09-27",
   "reseaux": {
     "instagram": {
@@ -564,7 +564,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 100,
+    "releves": 101,
     "parReseau": {
       "instagram": {
         "posts": 11,
@@ -641,7 +641,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-09-27T17:17:44.229Z"
+    "derniere": "2026-09-27T18:20:48.517Z"
   },
   "abonnes": {
     "instagram": {
@@ -680,8 +680,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-27T18:00:54.502Z",
-    "posts": 68,
+    "genereLe": "2026-09-27T18:20:58.521Z",
+    "posts": 69,
     "parReseau": {
       "instagram": {
         "posts": 19,
@@ -692,8 +692,8 @@
         "moyenne": 10.5
       },
       "facebook": {
-        "posts": 14,
-        "moyenne": 0.6
+        "posts": 15,
+        "moyenne": 0.5
       },
       "bluesky": {
         "posts": 19,
@@ -728,8 +728,8 @@
         "moyenne": 11.8
       },
       "soir": {
-        "posts": 14,
-        "moyenne": 6.9
+        "posts": 15,
+        "moyenne": 6.4
       },
       "matin": {
         "posts": 37,
@@ -779,8 +779,8 @@
           "moyenne": 0.6
         },
         "20 h – 21 h 30": {
-          "posts": 5,
-          "moyenne": 0.4
+          "posts": 6,
+          "moyenne": 0.3
         }
       },
       "threads": {
@@ -822,22 +822,22 @@
       "creneauReseau": "7 h – 8 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35450",
-      "channel": "bluesky",
-      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mwfraj6vr52h",
-      "publieLe": "2026-09-26T07:30:01.007Z",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35661",
+      "channel": "facebook",
+      "mediaId": "227437307428711_1732554588870422",
+      "publieLe": "2026-09-26T18:11:01.450Z",
       "jalon": 1,
-      "releveLe": "2026-09-27T08:00:42.384Z",
+      "releveLe": "2026-09-27T18:20:48.517Z",
       "likes": 0,
       "commentaires": 0,
       "partages": 0,
       "vues": null,
-      "titre": "À Poitiers, la tombe d’un patriote polonais indique une erreur",
-      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mwfraj6vr52h",
-      "format": "image",
-      "mention": true,
-      "creneau": "matin",
-      "creneauReseau": "8 h – 9 h 30"
+      "titre": "Ce TER de Nouvelle-Aquitaine cache une batterie de 80 km : il remplace son moteur diesel",
+      "lien": "https://www.facebook.com/1720946116697936/posts/1732554588870422",
+      "format": null,
+      "mention": false,
+      "creneau": "soir",
+      "creneauReseau": "20 h – 21 h 30"
     },
     "mentions": {
       "avec": {
@@ -845,8 +845,8 @@
         "moyenne": 10.7
       },
       "sans": {
-        "posts": 61,
-        "moyenne": 7.4
+        "posts": 62,
+        "moyenne": 7.3
       }
     },
     "publies": {
@@ -905,9 +905,9 @@
     },
     "conseils": [
       "Bluesky : le créneau 12 h – 13 h 30 fait 3,3 fois mieux que 8 h – 9 h 30 (1 contre 0.3 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
+      "Facebook : le créneau 8 h – 9 h 30 fait 2 fois mieux que 20 h – 21 h 30 (0.6 contre 0.3 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Threads : le créneau 7 h – 8 h 30 fait 4,9 fois mieux que 13 h – 14 h 30 (14.8 contre 3 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
-      "Le format « reponse » fait 272 fois mieux que « card » (27.2 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « card » de la rotation dans config/channels.json.",
-      "Abonnés : Threads progresse le plus (+5, +0,4 %) ; Facebook recule (−15), à surveiller."
+      "Le format « reponse » fait 272 fois mieux que « card » (27.2 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « card » de la rotation dans config/channels.json."
     ]
   },
   "couts": {

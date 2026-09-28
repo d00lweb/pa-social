@@ -1579,5 +1579,41 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35338",
+    "channel": "threads",
+    "at": "2026-09-28T06:30:42.917Z",
+    "mediaId": "18078010499439800",
+    "titre": "À Anglet, une chapelle de paille survit depuis 1847",
+    "lien": "https://passion-aquitaine.ouest-france.fr/anglet-chapelle-paille-saint-bernard/",
+    "lienPost": "https://www.threads.com/@lovaquitaine/post/Dd0igItkSpy",
+    "format": "reponse",
+    "mention": true,
+    "apercu": {
+      "texte": "Des murs de paille, une charpente, et une chapelle qui traverse presque deux siècles au bord du Pays basque. Celle du monastère Saint Bernard, à Anglet, a été bâtie ainsi en 1847. En 2007, plutôt que de la remplacer par du plus solide, on l’a refaite à l’identique, paille comprise 🏡\n@fondationdupatrimoine @paysbasque_net",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260928-3a4003de-th.jpg",
+      "mode": "reponse",
+      "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/anglet-chapelle-paille-saint-bernard/",
+      "sujet": "Anglet"
+    }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35338",
+    "channel": "bluesky",
+    "at": "2026-09-28T06:30:54.266Z",
+    "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mwkoun5maq2a",
+    "titre": "À Anglet, une chapelle de paille survit depuis 1847",
+    "lien": "https://passion-aquitaine.ouest-france.fr/anglet-chapelle-paille-saint-bernard/",
+    "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mwkoun5maq2a",
+    "format": "reply",
+    "mention": true,
+    "apercu": {
+      "texte": "Au monastère Saint Bernard, à #Anglet, la chapelle n’est ni en pierre ni en brique : elle a été 🌾 bâtie en paille dès 1847. Le matériau a été conservé lors de sa reconstruction à l’identique, en 2007.\n@fond-patrimoine.bsky.social",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260928-3a4003de-bsky.jpg",
+      "mode": "reply",
+      "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/anglet-chapelle-paille-saint-bernard/",
+      "sujet": null
+    }
   }
 ]

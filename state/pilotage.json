@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-28T06:00:48.868Z",
+  "genereLe": "2026-09-28T06:20:43.795Z",
   "jour": "2026-09-28",
   "reseaux": {
     "instagram": {
@@ -60,11 +60,11 @@
         "image",
         "reply"
       ],
-      "aujourdhui": 0,
-      "semaine": 11,
-      "total": 20,
-      "dernier": "2026-09-27T07:24:52.368Z",
-      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mwibgacyik2o"
+      "aujourdhui": 1,
+      "semaine": 12,
+      "total": 21,
+      "dernier": "2026-09-28T06:30:54.266Z",
+      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mwkoun5maq2a"
     },
     "facebook": {
       "actif": true,
@@ -124,11 +124,11 @@
         "lien",
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 11,
-      "total": 17,
-      "dernier": "2026-09-27T06:23:46.007Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/Ddx9PrAFWz0"
+      "aujourdhui": 1,
+      "semaine": 12,
+      "total": 18,
+      "dernier": "2026-09-28T06:30:42.917Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/Dd0igItkSpy"
     },
     "x": {
       "actif": true,
@@ -168,6 +168,30 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35338",
+      "titre": "À Anglet, une chapelle de paille survit depuis 1847",
+      "lien": "https://passion-aquitaine.ouest-france.fr/anglet-chapelle-paille-saint-bernard/",
+      "at": "2026-09-28T06:30:54.266Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Des murs de paille, une charpente, et une chapelle qui traverse presque deux siècles au bord du Pays basque. Celle du monastère Saint Bernard, à Anglet, a été bâtie ainsi en 1847. En 2007, plutôt que de la remplacer par du plus solide, on l’a refaite à l’identique, paille comprise 🏡\n@fondationdupatrimoine @paysbasque_net",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260928-3a4003de-th.jpg",
+          "mode": "reponse",
+          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/anglet-chapelle-paille-saint-bernard/",
+          "sujet": "Anglet",
+          "publieLe": "2026-09-28T06:30:42.917Z"
+        },
+        "bluesky": {
+          "texte": "Au monastère Saint Bernard, à #Anglet, la chapelle n’est ni en pierre ni en brique : elle a été 🌾 bâtie en paille dès 1847. Le matériau a été conservé lors de sa reconstruction à l’identique, en 2007.\n@fond-patrimoine.bsky.social",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260928-3a4003de-bsky.jpg",
+          "mode": "reply",
+          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/anglet-chapelle-paille-saint-bernard/",
+          "sujet": null,
+          "publieLe": "2026-09-28T06:30:54.266Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35433",
       "titre": "Pau abrite la 3e plus vieille église orthodoxe de France",
@@ -407,57 +431,29 @@
           "publieLe": "2026-09-25T19:12:23.786Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35626",
-      "titre": "Des trimarans à nos mezzanines, ces filets sont cousus à Bordeaux",
-      "lien": "https://passion-aquitaine.ouest-france.fr/des-trimarans-a-nos-mezzanines-ces-filets-sont-cousus-a-bordeaux/",
-      "at": "2026-09-25T07:11:29.899Z",
-      "reseaux": {
-        "bluesky": {
-          "texte": "Aux Bassins à flot, à #Bordeaux, des couturières assemblent les filets qui équipent les trimarans de course. Les mêmes gestes servent à fabriquer des filets sur-mesure pour les mezzanines des maisons, taillés au centimètre près 🪢",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-860ea888-bsky.jpg",
-          "mode": "reply",
-          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/des-trimarans-a-nos-mezzanines-ces-filets-sont-cousus-a-bordeaux/",
-          "sujet": null,
-          "publieLe": "2026-09-24T10:12:15.872Z"
-        },
-        "x": {
-          "texte": "Le filet tendu sous un trimaran de course et celui d’une mezzanine peuvent sortir du même atelier 🪡 Aux Bassins à flot, à #Bordeaux, des couturières les assemblent sur-mesure, du large au salon.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-860ea888-x.jpg",
-          "mode": "reponse",
-          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/des-trimarans-a-nos-mezzanines-ces-filets-sont-cousus-a-bordeaux/",
-          "sujet": null,
-          "publieLe": "2026-09-24T11:20:47.689Z"
-        },
-        "threads": {
-          "texte": "🧵 On croit les filets de course réservés aux bateaux du large. En réalité, ceux des trimarans sont cousus aux Bassins à flot, à Bordeaux, par des couturières qui fabriquent aussi les filets tendus au-dessus de nos mezzanines. Même matière, même exigence, deux usages très différents. Vous connaissiez cet atelier ?",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-860ea888-th.jpg",
-          "mode": "reponse",
-          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/des-trimarans-a-nos-mezzanines-ces-filets-sont-cousus-a-bordeaux/",
-          "sujet": "Bordeaux",
-          "publieLe": "2026-09-24T12:30:13.883Z"
-        },
-        "instagram": {
-          "texte": "À Bordeaux, aux Bassins à flot, un atelier coud les filets des trimarans de course 🪡\n⠀\nLes mêmes couturières réalisent aussi des filets sur-mesure pour les mezzanines des maisons. Un savoir-faire discret, entre voile de compétition et aménagement intérieur.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #Trimaran #SavoirFaire",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-860ea888-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-24T16:05:58.276Z"
-        },
-        "facebook": {
-          "texte": "Le filet de votre mezzanine et celui d’un trimaran de course sortent parfois du même atelier bordelais ⛵",
-          "image": null,
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-25T07:11:29.899Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "bluesky",
+      "at": "2026-09-28T06:30:54.266Z",
+      "titre": "À Anglet, une chapelle de paille survit depuis 1847",
+      "lien": "https://passion-aquitaine.ouest-france.fr/anglet-chapelle-paille-saint-bernard/",
+      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mwkoun5maq2a",
+      "format": "reply",
+      "texte": "Au monastère Saint Bernard, à #Anglet, la chapelle n’est ni en pierre ni en brique : elle a été 🌾 bâtie en paille dès 1847. Le matériau a été conservé lors de sa reconstruction à l’identique, en 2007.\n@fond-patrimoine.bsky.social",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260928-3a4003de-bsky.jpg"
+    },
+    {
+      "channel": "threads",
+      "at": "2026-09-28T06:30:42.917Z",
+      "titre": "À Anglet, une chapelle de paille survit depuis 1847",
+      "lien": "https://passion-aquitaine.ouest-france.fr/anglet-chapelle-paille-saint-bernard/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/Dd0igItkSpy",
+      "format": "reponse",
+      "texte": "Des murs de paille, une charpente, et une chapelle qui traverse presque deux siècles au bord du Pays basque. Celle du monastère Saint Bernard, à Anglet, a été bâtie ainsi en 1847. En 2007, plutôt que de la remplacer par du plus solide, on l’a refaite à l’identique, paille comprise 🏡\n@fondationdupatrimoine @paysbasque_net",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260928-3a4003de-th.jpg"
+    },
     {
       "channel": "facebook",
       "at": "2026-09-27T19:27:08.111Z",
@@ -537,47 +533,9 @@
       "format": null,
       "texte": "Entre Bordeaux et Mont-de-Marsan, un train avance sur 80 km sans le moindre bruit de moteur diesel 🚆",
       "image": null
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-09-26T16:35:03.591Z",
-      "titre": "Ce TER de Nouvelle-Aquitaine cache une batterie de 80 km : il remplace son moteur diesel",
-      "lien": "https://passion-aquitaine.ouest-france.fr/ter-batteries-nouvelle-aquitaine-bordeaux-mont-de-marsan/",
-      "lienPost": "https://www.instagram.com/p/Ddwed9Nj4Q1/",
-      "format": null,
-      "texte": "Entre Bordeaux et Mont-de-Marsan, un train roule désormais sur 🔋 80 km d’autonomie sans brûler une goutte de diesel\n⠀\nC’est le premier TER à batteries de Nouvelle-Aquitaine. Là où la caténaire s’arrête, l’énergie stockée prend le relais. Une première étape dans la décarbonation du train régional.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#MontDeMarsan #TER #Transports",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20260925-93e1ab54-1.jpg"
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-09-26T10:23:43.733Z",
-      "titre": "À Bidache, vivez 2000 ans d’histoire en un week-end",
-      "lien": "https://passion-aquitaine.ouest-france.fr/historiques-bidache-2026-chateau-gramont/",
-      "lienPost": "https://www.instagram.com/p/Ddvz-JyjgPK/",
-      "format": null,
-      "texte": "Plus de 🏰 200 reconstituteurs au château de Gramont, à Bidache, pour traverser vingt siècles en un seul week-end\n⠀\nLes 3 et 4 octobre 2026, la fête historique de Bidache fait revivre 2000 ans d’histoire dans les ruines du château, en Pays basque.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bidache #ChateauDeGramont #Reconstitution",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20260925-3e20f7ef-1.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "threads",
-      "dueAt": "2026-09-28T06:27:00.670Z",
-      "prochainPassage": "2026-09-28T07:00:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "À Anglet, une chapelle de paille survit depuis 1847"
-    },
-    {
-      "channel": "bluesky",
-      "dueAt": "2026-09-28T06:30:25.032Z",
-      "prochainPassage": "2026-09-28T07:00:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "À Anglet, une chapelle de paille survit depuis 1847"
-    },
     {
       "channel": "facebook",
       "dueAt": "2026-09-28T07:05:10.927Z",
@@ -608,7 +566,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 102,
+    "releves": 103,
     "parReseau": {
       "instagram": {
         "posts": 11,
@@ -685,7 +643,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-09-28T05:20:42.729Z"
+    "derniere": "2026-09-28T06:20:43.795Z"
   },
   "abonnes": {
     "instagram": {
@@ -724,8 +682,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-28T06:01:12.508Z",
-    "posts": 69,
+    "genereLe": "2026-09-28T06:31:07.949Z",
+    "posts": 70,
     "parReseau": {
       "instagram": {
         "posts": 19,
@@ -736,7 +694,7 @@
         "moyenne": 10.5
       },
       "facebook": {
-        "posts": 15,
+        "posts": 16,
         "moyenne": 0.5
       },
       "bluesky": {
@@ -776,8 +734,8 @@
         "moyenne": 6.4
       },
       "matin": {
-        "posts": 37,
-        "moyenne": 6.2
+        "posts": 38,
+        "moyenne": 6.1
       }
     },
     "parCreneauReseau": {
@@ -819,7 +777,7 @@
           "moyenne": 1
         },
         "8 h – 9 h 30": {
-          "posts": 8,
+          "posts": 9,
           "moyenne": 0.6
         },
         "20 h – 21 h 30": {
@@ -866,22 +824,22 @@
       "creneauReseau": "7 h – 8 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35661",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35450",
       "channel": "facebook",
-      "mediaId": "227437307428711_1732554588870422",
-      "publieLe": "2026-09-26T18:11:01.450Z",
+      "mediaId": "227437307428711_1733043368821544",
+      "publieLe": "2026-09-27T06:09:18.002Z",
       "jalon": 1,
-      "releveLe": "2026-09-27T18:20:48.517Z",
+      "releveLe": "2026-09-28T06:20:43.795Z",
       "likes": 0,
       "commentaires": 0,
       "partages": 0,
       "vues": null,
-      "titre": "Ce TER de Nouvelle-Aquitaine cache une batterie de 80 km : il remplace son moteur diesel",
-      "lien": "https://www.facebook.com/1720946116697936/posts/1732554588870422",
+      "titre": "À Poitiers, la tombe d’un patriote polonais indique une erreur",
+      "lien": "https://www.facebook.com/1720946116697936/posts/1733043368821544",
       "format": null,
       "mention": false,
-      "creneau": "soir",
-      "creneauReseau": "20 h – 21 h 30"
+      "creneau": "matin",
+      "creneauReseau": "8 h – 9 h 30"
     },
     "mentions": {
       "avec": {
@@ -889,16 +847,16 @@
         "moyenne": 10.7
       },
       "sans": {
-        "posts": 62,
-        "moyenne": 7.3
+        "posts": 63,
+        "moyenne": 7.2
       }
     },
     "publies": {
       "instagram": 22,
-      "bluesky": 20,
+      "bluesky": 21,
       "x": 20,
       "facebook": 17,
-      "threads": 17
+      "threads": 18
     },
     "abonnes": {
       "instagram": {

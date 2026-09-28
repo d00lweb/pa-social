@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-28T19:20:52.559Z",
+  "genereLe": "2026-09-28T20:00:46.393Z",
   "jour": "2026-09-28",
   "reseaux": {
     "instagram": {
@@ -562,7 +562,7 @@
   "file": [],
   "alertes": [],
   "mesures": {
-    "releves": 111,
+    "releves": 112,
     "parReseau": {
       "instagram": {
         "posts": 12,
@@ -678,8 +678,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-28T19:21:01.880Z",
-    "posts": 74,
+    "genereLe": "2026-09-28T20:00:54.057Z",
+    "posts": 75,
     "parReseau": {
       "instagram": {
         "posts": 21,
@@ -690,7 +690,7 @@
         "moyenne": 10.1
       },
       "facebook": {
-        "posts": 16,
+        "posts": 17,
         "moyenne": 0.5
       },
       "bluesky": {
@@ -726,8 +726,8 @@
         "moyenne": 12.6
       },
       "soir": {
-        "posts": 16,
-        "moyenne": 8.2
+        "posts": 17,
+        "moyenne": 7.7
       },
       "matin": {
         "posts": 40,
@@ -777,7 +777,7 @@
           "moyenne": 0.6
         },
         "20 h – 21 h 30": {
-          "posts": 6,
+          "posts": 7,
           "moyenne": 0.3
         }
       },
@@ -821,21 +821,21 @@
     },
     "moinsBon": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35433",
-      "channel": "bluesky",
-      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mwibgacyik2o",
-      "publieLe": "2026-09-27T07:24:52.368Z",
+      "channel": "facebook",
+      "mediaId": "227437307428711_1733698938755987",
+      "publieLe": "2026-09-27T19:27:08.111Z",
       "jalon": 1,
-      "releveLe": "2026-09-28T07:46:09.928Z",
+      "releveLe": "2026-09-28T20:00:46.393Z",
       "likes": 0,
       "commentaires": 0,
       "partages": 0,
       "vues": null,
       "titre": "Pau abrite la 3e plus vieille église orthodoxe de France",
-      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mwibgacyik2o",
-      "format": "image",
-      "mention": true,
-      "creneau": "matin",
-      "creneauReseau": "8 h – 9 h 30"
+      "lien": "https://www.facebook.com/1720946116697936/posts/1733698938755987",
+      "format": null,
+      "mention": false,
+      "creneau": "soir",
+      "creneauReseau": "20 h – 21 h 30"
     },
     "mentions": {
       "avec": {
@@ -843,8 +843,8 @@
         "moyenne": 12.5
       },
       "sans": {
-        "posts": 63,
-        "moyenne": 7.2
+        "posts": 64,
+        "moyenne": 7.1
       }
     },
     "publies": {

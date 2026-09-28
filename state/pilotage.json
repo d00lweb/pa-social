@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-28T11:20:37.713Z",
+  "genereLe": "2026-09-28T12:01:00.826Z",
   "jour": "2026-09-28",
   "reseaux": {
     "instagram": {
@@ -25,7 +25,7 @@
       },
       "formats": null,
       "aujourdhui": 1,
-      "semaine": 12,
+      "semaine": 11,
       "total": 23,
       "dernier": "2026-09-28T11:03:55.148Z",
       "lienDernier": "https://www.instagram.com/p/Dd1CKFEmAuc/"
@@ -562,11 +562,11 @@
   "file": [],
   "alertes": [],
   "mesures": {
-    "releves": 108,
+    "releves": 110,
     "parReseau": {
       "instagram": {
-        "posts": 11,
-        "interactionsMoyennes": 13.5
+        "posts": 12,
+        "interactionsMoyennes": 12.8
       },
       "bluesky": {
         "posts": 10,
@@ -678,12 +678,12 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-28T11:20:44.147Z",
-    "posts": 72,
+    "genereLe": "2026-09-28T12:01:13.339Z",
+    "posts": 73,
     "parReseau": {
       "instagram": {
-        "posts": 19,
-        "moyenne": 18
+        "posts": 20,
+        "moyenne": 18.4
       },
       "threads": {
         "posts": 17,
@@ -722,8 +722,8 @@
     },
     "parCreneau": {
       "après-midi": {
-        "posts": 17,
-        "moyenne": 11.8
+        "posts": 18,
+        "moyenne": 12.6
       },
       "soir": {
         "posts": 15,
@@ -737,8 +737,8 @@
     "parCreneauReseau": {
       "instagram": {
         "12 h – 13 h 30": {
-          "posts": 8,
-          "moyenne": 22.9
+          "posts": 9,
+          "moyenne": 23.2
         },
         "18 h – 19 h 30": {
           "posts": 5,
@@ -800,7 +800,7 @@
         }
       }
     },
-    "interactionsTotal": 529,
+    "interactionsTotal": 555,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35605",
       "channel": "threads",
@@ -839,8 +839,8 @@
     },
     "mentions": {
       "avec": {
-        "posts": 9,
-        "moyenne": 8.7
+        "posts": 10,
+        "moyenne": 10.3
       },
       "sans": {
         "posts": 63,

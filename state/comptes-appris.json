@@ -445,5 +445,56 @@
     "threads": [],
     "bluesky": [],
     "x": []
+  },
+  "commune:mairie:anglet": {
+    "v": 2,
+    "cherche": "2026-09-28T06:01:00.896Z",
+    "instagram": [
+      {
+        "handle": "villeanglet",
+        "nom": "Ville d’Anglet",
+        "abonnes": 29616,
+        "preuve": 3
+      }
+    ],
+    "x": [
+      {
+        "handle": "VilleAnglet",
+        "nom": "",
+        "abonnes": null,
+        "preuve": 3
+      }
+    ],
+    "threads": [],
+    "bluesky": []
+  },
+  "commune:tourisme:anglet": {
+    "v": 2,
+    "cherche": "2026-09-28T06:01:00.896Z",
+    "instagram": [],
+    "x": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:anglet:patrimoine": {
+    "v": 2,
+    "cherche": "2026-09-28T06:01:00.896Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:anglet:architecture": {
+    "v": 2,
+    "cherche": "2026-09-28T06:01:00.896Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "domaine:architecture": {
+    "v": 2,
+    "cherche": "2026-09-28T06:01:00.896Z",
+    "instagram": [],
+    "bluesky": [],
+    "threads": []
   }
 }

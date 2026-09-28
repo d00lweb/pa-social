@@ -1633,5 +1633,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35338",
+    "channel": "x",
+    "at": "2026-09-28T07:20:50.863Z",
+    "mediaId": "kit-telegram",
+    "titre": "À Anglet, une chapelle de paille survit depuis 1847",
+    "lien": "https://passion-aquitaine.ouest-france.fr/anglet-chapelle-paille-saint-bernard/",
+    "lienPost": null,
+    "format": "reponse",
+    "mention": true,
+    "apercu": {
+      "texte": "🌾 Une chapelle en paille peut-elle tenir près de deux siècles ? À #Anglet, celle du monastère Saint Bernard a été bâtie ainsi en 1847, puis refaite à l’identique en 2007.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260928-3a4003de-x.jpg",
+      "mode": "reponse",
+      "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/anglet-chapelle-paille-saint-bernard/",
+      "sujet": null
+    }
   }
 ]

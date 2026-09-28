@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-28T16:06:33.867Z",
+  "genereLe": "2026-09-28T16:20:50.687Z",
   "jour": "2026-09-28",
   "reseaux": {
     "instagram": {
@@ -562,7 +562,7 @@
   "file": [],
   "alertes": [],
   "mesures": {
-    "releves": 110,
+    "releves": 111,
     "parReseau": {
       "instagram": {
         "posts": 12,
@@ -678,12 +678,12 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-28T16:06:44.295Z",
-    "posts": 73,
+    "genereLe": "2026-09-28T16:20:59.089Z",
+    "posts": 74,
     "parReseau": {
       "instagram": {
-        "posts": 20,
-        "moyenne": 18.4
+        "posts": 21,
+        "moyenne": 19.2
       },
       "threads": {
         "posts": 17,
@@ -726,8 +726,8 @@
         "moyenne": 12.6
       },
       "soir": {
-        "posts": 15,
-        "moyenne": 6.4
+        "posts": 16,
+        "moyenne": 8.2
       },
       "matin": {
         "posts": 40,
@@ -741,8 +741,8 @@
           "moyenne": 23.2
         },
         "18 h – 19 h 30": {
-          "posts": 5,
-          "moyenne": 16.8
+          "posts": 6,
+          "moyenne": 19.8
         },
         "hors créneau": {
           "posts": 6,
@@ -800,7 +800,7 @@
         }
       }
     },
-    "interactionsTotal": 555,
+    "interactionsTotal": 590,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35605",
       "channel": "threads",
@@ -839,8 +839,8 @@
     },
     "mentions": {
       "avec": {
-        "posts": 10,
-        "moyenne": 10.3
+        "posts": 11,
+        "moyenne": 12.5
       },
       "sans": {
         "posts": 63,
@@ -897,7 +897,7 @@
       }
     },
     "engagement": {
-      "instagram": 0.18,
+      "instagram": 0.19,
       "threads": 0.88,
       "facebook": 0
     },

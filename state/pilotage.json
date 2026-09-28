@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-28T06:20:43.795Z",
+  "genereLe": "2026-09-28T07:00:50.461Z",
   "jour": "2026-09-28",
   "reseaux": {
     "instagram": {
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 0,
+      "aujourdhui": 1,
       "semaine": 11,
-      "total": 17,
-      "dernier": "2026-09-27T19:27:08.111Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1733698938755987"
+      "total": 18,
+      "dernier": "2026-09-28T07:05:19.721Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1734176315374916"
     },
     "threads": {
       "actif": true,
@@ -125,7 +125,7 @@
         "reponse"
       ],
       "aujourdhui": 1,
-      "semaine": 12,
+      "semaine": 11,
       "total": 18,
       "dernier": "2026-09-28T06:30:42.917Z",
       "lienDernier": "https://www.threads.com/@lovaquitaine/post/Dd0igItkSpy"
@@ -172,7 +172,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35338",
       "titre": "À Anglet, une chapelle de paille survit depuis 1847",
       "lien": "https://passion-aquitaine.ouest-france.fr/anglet-chapelle-paille-saint-bernard/",
-      "at": "2026-09-28T06:30:54.266Z",
+      "at": "2026-09-28T07:05:19.721Z",
       "reseaux": {
         "threads": {
           "texte": "Des murs de paille, une charpente, et une chapelle qui traverse presque deux siècles au bord du Pays basque. Celle du monastère Saint Bernard, à Anglet, a été bâtie ainsi en 1847. En 2007, plutôt que de la remplacer par du plus solide, on l’a refaite à l’identique, paille comprise 🏡\n@fondationdupatrimoine @paysbasque_net",
@@ -189,6 +189,14 @@
           "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/anglet-chapelle-paille-saint-bernard/",
           "sujet": null,
           "publieLe": "2026-09-28T06:30:54.266Z"
+        },
+        "facebook": {
+          "texte": "À Anglet, on peut voir une chapelle dont les murs sont faits de paille, une technique conservée depuis 1847 🌾",
+          "image": null,
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-09-28T07:05:19.721Z"
         }
       }
     },
@@ -435,6 +443,16 @@
   ],
   "publications": [
     {
+      "channel": "facebook",
+      "at": "2026-09-28T07:05:19.721Z",
+      "titre": "À Anglet, une chapelle de paille survit depuis 1847",
+      "lien": "https://passion-aquitaine.ouest-france.fr/anglet-chapelle-paille-saint-bernard/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1734176315374916",
+      "format": null,
+      "texte": "À Anglet, on peut voir une chapelle dont les murs sont faits de paille, une technique conservée depuis 1847 🌾",
+      "image": null
+    },
+    {
       "channel": "bluesky",
       "at": "2026-09-28T06:30:54.266Z",
       "titre": "À Anglet, une chapelle de paille survit depuis 1847",
@@ -523,28 +541,9 @@
       "format": null,
       "texte": "Une date de décès gravée dans la pierre, et pourtant fausse : c’est le sort de cet exilé polonais de Poitiers 🪶",
       "image": null
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-09-26T18:11:01.450Z",
-      "titre": "Ce TER de Nouvelle-Aquitaine cache une batterie de 80 km : il remplace son moteur diesel",
-      "lien": "https://passion-aquitaine.ouest-france.fr/ter-batteries-nouvelle-aquitaine-bordeaux-mont-de-marsan/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1732554588870422",
-      "format": null,
-      "texte": "Entre Bordeaux et Mont-de-Marsan, un train avance sur 80 km sans le moindre bruit de moteur diesel 🚆",
-      "image": null
     }
   ],
   "file": [
-    {
-      "channel": "facebook",
-      "dueAt": "2026-09-28T07:05:10.927Z",
-      "prochainPassage": "2026-09-28T07:20:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "À Anglet, une chapelle de paille survit depuis 1847"
-    },
     {
       "channel": "x",
       "dueAt": "2026-09-28T07:20:00.000Z",
@@ -566,7 +565,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 103,
+    "releves": 106,
     "parReseau": {
       "instagram": {
         "posts": 11,
@@ -577,12 +576,12 @@
         "interactionsMoyennes": 0.7
       },
       "facebook": {
-        "posts": 6,
+        "posts": 7,
         "interactionsMoyennes": 1
       },
       "threads": {
-        "posts": 6,
-        "interactionsMoyennes": 8.3
+        "posts": 7,
+        "interactionsMoyennes": 7.1
       }
     }
   },
@@ -682,16 +681,16 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-28T06:31:07.949Z",
-    "posts": 70,
+    "genereLe": "2026-09-28T07:05:31.148Z",
+    "posts": 71,
     "parReseau": {
       "instagram": {
         "posts": 19,
         "moyenne": 18
       },
       "threads": {
-        "posts": 16,
-        "moyenne": 10.5
+        "posts": 17,
+        "moyenne": 10.1
       },
       "facebook": {
         "posts": 16,
@@ -712,8 +711,8 @@
         "moyenne": 1.2
       },
       "lien": {
-        "posts": 6,
-        "moyenne": 0.5
+        "posts": 7,
+        "moyenne": 0.9
       },
       "image": {
         "posts": 10,
@@ -734,8 +733,8 @@
         "moyenne": 6.4
       },
       "matin": {
-        "posts": 38,
-        "moyenne": 6.1
+        "posts": 39,
+        "moyenne": 6
       }
     },
     "parCreneauReseau": {
@@ -787,8 +786,8 @@
       },
       "threads": {
         "7 h – 8 h 30": {
-          "posts": 8,
-          "moyenne": 14.8
+          "posts": 9,
+          "moyenne": 13.4
         },
         "10 h – 11 h 30": {
           "posts": 3,
@@ -804,7 +803,7 @@
         }
       }
     },
-    "interactionsTotal": 526,
+    "interactionsTotal": 529,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35605",
       "channel": "threads",
@@ -843,8 +842,8 @@
     },
     "mentions": {
       "avec": {
-        "posts": 7,
-        "moyenne": 10.7
+        "posts": 8,
+        "moyenne": 9.8
       },
       "sans": {
         "posts": 63,
@@ -855,7 +854,7 @@
       "instagram": 22,
       "bluesky": 21,
       "x": 20,
-      "facebook": 17,
+      "facebook": 18,
       "threads": 18
     },
     "abonnes": {
@@ -902,13 +901,13 @@
     },
     "engagement": {
       "instagram": 0.18,
-      "threads": 0.91,
+      "threads": 0.88,
       "facebook": 0
     },
     "conseils": [
       "Bluesky : le créneau 12 h – 13 h 30 fait 3,3 fois mieux que 8 h – 9 h 30 (1 contre 0.3 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Facebook : le créneau 8 h – 9 h 30 fait 2 fois mieux que 20 h – 21 h 30 (0.6 contre 0.3 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
-      "Threads : le créneau 7 h – 8 h 30 fait 4,9 fois mieux que 13 h – 14 h 30 (14.8 contre 3 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
+      "Threads : le créneau 7 h – 8 h 30 fait 4,5 fois mieux que 13 h – 14 h 30 (13.4 contre 3 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Le format « reponse » fait 272 fois mieux que « card » (27.2 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « card » de la rotation dans config/channels.json."
     ]
   },

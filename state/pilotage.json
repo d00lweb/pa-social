@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-28T10:20:43.207Z",
+  "genereLe": "2026-09-28T11:00:47.285Z",
   "jour": "2026-09-28",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 11,
-      "total": 22,
-      "dernier": "2026-09-27T16:11:12.775Z",
-      "lienDernier": "https://www.instagram.com/p/DdzAh6bGHb7/"
+      "aujourdhui": 1,
+      "semaine": 12,
+      "total": 23,
+      "dernier": "2026-09-28T11:03:55.148Z",
+      "lienDernier": "https://www.instagram.com/p/Dd1CKFEmAuc/"
     },
     "bluesky": {
       "actif": true,
@@ -172,7 +172,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35338",
       "titre": "À Anglet, une chapelle de paille survit depuis 1847",
       "lien": "https://passion-aquitaine.ouest-france.fr/anglet-chapelle-paille-saint-bernard/",
-      "at": "2026-09-28T07:20:50.863Z",
+      "at": "2026-09-28T11:03:55.148Z",
       "reseaux": {
         "threads": {
           "texte": "Des murs de paille, une charpente, et une chapelle qui traverse presque deux siècles au bord du Pays basque. Celle du monastère Saint Bernard, à Anglet, a été bâtie ainsi en 1847. En 2007, plutôt que de la remplacer par du plus solide, on l’a refaite à l’identique, paille comprise 🏡\n@fondationdupatrimoine @paysbasque_net",
@@ -205,6 +205,14 @@
           "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/anglet-chapelle-paille-saint-bernard/",
           "sujet": null,
           "publieLe": "2026-09-28T07:20:50.863Z"
+        },
+        "instagram": {
+          "texte": "🌾 À Anglet, une chapelle tient debout en paille depuis 1847\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Anglet #PaysBasque #Patrimoine",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260928-3a4003de-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-09-28T11:03:55.148Z"
         }
       }
     },
@@ -451,6 +459,16 @@
   ],
   "publications": [
     {
+      "channel": "instagram",
+      "at": "2026-09-28T11:03:55.148Z",
+      "titre": "À Anglet, une chapelle de paille survit depuis 1847",
+      "lien": "https://passion-aquitaine.ouest-france.fr/anglet-chapelle-paille-saint-bernard/",
+      "lienPost": "https://www.instagram.com/p/Dd1CKFEmAuc/",
+      "format": null,
+      "texte": "🌾 À Anglet, une chapelle tient debout en paille depuis 1847\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Anglet #PaysBasque #Patrimoine",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260928-3a4003de-1.jpg"
+    },
+    {
       "channel": "x",
       "at": "2026-09-28T07:20:50.863Z",
       "titre": "À Anglet, une chapelle de paille survit depuis 1847",
@@ -539,29 +557,9 @@
       "format": "lien",
       "texte": "Des icônes et un passé venu de l’Est au cœur du Béarn 🕯️ #Pau abrite la troisième plus ancienne église orthodoxe de France, juste derrière Nice et Paris. Le témoin d’une ville longtemps cosmopolite.\n➡️ https://passion-aquitaine.ouest-france.fr/plus-belles-eglises-pau-histoire/",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20260927-81d8a18c-x.jpg"
-    },
-    {
-      "channel": "threads",
-      "at": "2026-09-27T06:23:46.007Z",
-      "titre": "Pau abrite la 3e plus vieille église orthodoxe de France",
-      "lien": "https://passion-aquitaine.ouest-france.fr/plus-belles-eglises-pau-histoire/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/Ddx9PrAFWz0",
-      "format": "lien",
-      "texte": "⛪ On associe rarement le Béarn aux coupoles orthodoxes. Pourtant, Pau conserve la troisième plus ancienne église orthodoxe de France, derrière Nice et Paris seulement. Derrière ces murs se cache toute une histoire de familles venues de loin, qui ont fait de la ville un carrefour cosmopolite. Vous connaissiez ce lieu ?\n@francetourisme @fondationdupatrimoine",
-      "image": null
     }
   ],
-  "file": [
-    {
-      "channel": "instagram",
-      "dueAt": "2026-09-28T11:03:21.169Z",
-      "prochainPassage": "2026-09-28T11:20:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "À Anglet, une chapelle de paille survit depuis 1847"
-    }
-  ],
+  "file": [],
   "alertes": [],
   "mesures": {
     "releves": 108,
@@ -680,7 +678,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-28T10:20:48.689Z",
+    "genereLe": "2026-09-28T11:04:01.682Z",
     "posts": 72,
     "parReseau": {
       "instagram": {
@@ -850,7 +848,7 @@
       }
     },
     "publies": {
-      "instagram": 22,
+      "instagram": 23,
       "bluesky": 21,
       "x": 21,
       "facebook": 18,

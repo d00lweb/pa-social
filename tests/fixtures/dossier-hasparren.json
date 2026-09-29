@@ -1,0 +1,47 @@
+{
+  "note": "Dossier réel validé : Opus 5.5, effort bas, essai du 29/09/2026 (state/rapports/essai-modele-2026-09-29.json).",
+  "article": {
+    "title": "Le Hasparren Athletic Club forme 90 % de ses joueurs",
+    "description": "À 25 km de Bayonne, le Hasparren Athletic Club forme 90 % de ses joueurs en interne, avec l’un des plus petits budgets de sa division.",
+    "categories": [
+      "Actus",
+      "Pyrénées-Atlantiques",
+      "Sport",
+      "Basque LOI"
+    ],
+    "date": 1790659800000
+  },
+  "dossier": {
+    "nature": "evergreen",
+    "sensible": false,
+    "rubrique": "Pays basque",
+    "visuel": {
+      "titre": "Le Hasparren Athletic Club forme 90 % de ses joueurs",
+      "surlignage": "Hasparren Athletic Club",
+      "description": "À 25 km de Bayonne, ce club mise sur la formation en interne. Et il le fait avec l’un des plus petits budgets de sa division.",
+      "texte_alternatif": "Le Hasparren Athletic Club, au Pays basque, à 25 km de Bayonne, forme lui-même 90 % de ses joueurs."
+    },
+    "instagram": {
+      "texte": "À Hasparren, le club ne court pas après les recrues : 🎓 90 % des joueurs sont formés en interne\nAu Pays basque, à 25 km de Bayonne, le Hasparren Athletic Club fait grandir ses propres talents. Une méthode tenue avec l’un des plus petits budgets de sa division.",
+      "hashtags": [
+        "#Hasparren",
+        "#PaysBasque",
+        "#FormationSportive"
+      ]
+    },
+    "facebook": {
+      "texte": "Ici, presque tous les joueurs de l’équipe ont grandi dans les rangs du club, à deux pas de Bayonne 🤝"
+    },
+    "bluesky": {
+      "texte": "🌱 Comment exister avec l’un des plus petits budgets de sa division ? À Hasparren, l’Athletic Club a trouvé sa réponse : 90 % de ses joueurs sortent de sa propre formation.",
+      "hashtag": "#Hasparren"
+    },
+    "threads": {
+      "texte": "90 % des joueurs formés à la maison 🏟️ C’est la marque de fabrique du Hasparren Athletic Club, à 25 km de Bayonne. Et tout ça avec l’un des plus petits budgets de sa division. Former plutôt qu’acheter, ça vous semble l’avenir des clubs amateurs ?",
+      "sujet": "Pays basque"
+    },
+    "x": {
+      "texte": "Hasparren, à 25 km de Bayonne, cultive ses propres talents : son Athletic Club forme 90 % de ses joueurs en interne, avec 💶 l’un des plus petits budgets de sa division."
+    }
+  }
+}

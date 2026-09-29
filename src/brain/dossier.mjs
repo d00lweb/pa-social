@@ -2,12 +2,13 @@ import { readFileSync } from 'node:fs';
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import { fromRoot } from '../core/config.mjs';
-import { frenchTypography, pickHighlight } from './editorial.mjs';
+import { frenchTypography } from './editorial.mjs';
 import { resolvePlace, candidateZones, placeNames, geo, fold } from './geo.mjs';
 import { checkDossier } from './guards.mjs';
 import { fallbackDossier, sansDate } from './fallback.mjs';
 import { signalerIaIndisponible, verifierBudget, COUPER_AU_PLAFOND } from './couts.mjs';
 import { nextAngles, nextEmojiPositions } from './memory.mjs';
+import { reparer } from './reparations.mjs';
 
 const ed = JSON.parse(readFileSync(fromRoot('config/editorial.json'), 'utf8'));
 const system = readFileSync(fromRoot('prompts/editorial.md'), 'utf8');
@@ -32,35 +33,6 @@ function typeset(d) {
     threads: { texte: t(d.threads.texte), sujet: String(d.threads.sujet ?? '').trim().replace(/^#/, '') },
     x: { texte: t(d.x.texte) },
   };
-}
-
-// Défauts mécaniques réparables. Jeter cinq textes bien écrits parce qu'un mot surligné dépasse
-// de deux caractères est disproportionné : on corrige soi-même, puis on repasse les contrôles.
-// Tout le reste (invention, répétition, appât, emojis) continue de provoquer le repli sur les règles.
-export function reparer(dossier, problems) {
-  const repare = { ...dossier, visuel: { ...dossier.visuel } };
-  const faits = [];
-
-  if (problems.some((p) => p.includes('surlignage'))) {
-    const { highlight } = pickHighlight(repare.visuel.titre, { avoid: [repare.rubrique] });
-    if (highlight && highlight !== repare.visuel.surlignage) {
-      repare.visuel.surlignage = highlight;
-      faits.push('surlignage');
-    }
-  }
-
-  if (problems.some((p) => p.includes('point juste avant un emoji'))) {
-    for (const net of ['instagram', 'facebook', 'bluesky', 'threads', 'x']) {
-      const texte = repare[net]?.texte;
-      if (!texte) continue;
-      const propre = texte.replace(/[.…]\s*(\p{Extended_Pictographic})/gu, ' $1').replace(/ {2,}/g, ' ');
-      if (propre !== texte) {
-        repare[net] = { ...repare[net], texte: propre };
-        faits.push(net);
-      }
-    }
-  }
-  return { repare, faits };
 }
 
 // Rubriques que les données d'un article autorisent : les thèmes, les zones d'identité que les
@@ -173,7 +145,7 @@ export async function buildDossier(article, { memory, useCache = false, log = co
     if (!problems.length) return finaliser(dossier, '');
 
     // Réparation des défauts mécaniques avant de renoncer à un dossier par ailleurs correct
-    const { repare, faits } = reparer(dossier, problems);
+    const { repare, faits } = reparer(dossier, problems, { emojiPlacement, recentEmojis: memory.emojis ?? {}, sensitiveEmojis: ed.sensitiveEmojis, limits: ed.limits });
     if (faits.length && !controle(repare).length) return finaliser(repare, `, réparé : ${faits.join(', ')}`);
 
     log(`   IA essai ${attempt} refusé : ${problems.join(' | ')}`);

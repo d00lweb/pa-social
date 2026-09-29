@@ -1,7 +1,7 @@
 import { fold } from './geo.mjs';
 
 const EMOJI = /\p{Extended_Pictographic}/u;
-const HASHTAG = /^#[\p{L}\p{N}]+$/u;
+export const HASHTAG = /^#[\p{L}\p{N}]+$/u;
 const graphemes = (s) => [...String(s)].length;
 
 // Suites de 3 mots : mesure la reprise de tournures, pas le partage du vocabulaire du sujet

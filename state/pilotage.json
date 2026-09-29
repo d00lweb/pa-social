@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-29T12:00:51.508Z",
+  "genereLe": "2026-09-29T12:20:52.324Z",
   "jour": "2026-09-29",
   "reseaux": {
     "instagram": {
@@ -639,7 +639,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-09-29T11:00:56.712Z"
+    "derniere": "2026-09-29T12:20:52.324Z"
   },
   "abonnes": {
     "instagram": {
@@ -678,7 +678,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-29T12:01:01.961Z",
+    "genereLe": "2026-09-29T12:21:12.101Z",
     "posts": 79,
     "parReseau": {
       "instagram": {
@@ -910,30 +910,32 @@
   },
   "couts": {
     "jour": {
-      "appels": 2,
-      "entree": 15389,
-      "sortie": 1801,
-      "cout": 0.12197,
+      "appels": 21,
+      "entree": 161850,
+      "sortie": 18739,
+      "cout": 0.761724,
       "cle": "2026-09-29"
     },
     "semaine": {
-      "appels": 113,
-      "entree": 795354,
-      "sortie": 223149,
-      "cout": 5.954367
+      "appels": 132,
+      "entree": 941815,
+      "sortie": 240087,
+      "cout": 6.594121
     },
     "mois": {
-      "appels": 113,
-      "entree": 795354,
-      "sortie": 223149,
-      "cout": 5.954367,
+      "appels": 132,
+      "entree": 941815,
+      "sortie": 240087,
+      "cout": 6.594121,
       "cle": "2026-09"
     },
-    "projection": 6.16,
-    "moyenneAppel": 0.0527,
+    "projection": 6.82,
+    "moyenneAppel": 0.05,
     "parModele": {
       "claude-opus-5": 62,
-      "claude-sonnet-5": 51
+      "claude-sonnet-5": 51,
+      "claude-opus-5-5": 7,
+      "claude-sonnet-5-5": 12
     },
     "serie": [
       [
@@ -990,7 +992,7 @@
       ],
       [
         "2026-09-29",
-        0.122
+        0.7617
       ]
     ],
     "depuis": "2026-09-23"

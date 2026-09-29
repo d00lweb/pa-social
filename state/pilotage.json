@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-29T06:20:39.626Z",
+  "genereLe": "2026-09-29T07:00:42.104Z",
   "jour": "2026-09-29",
   "reseaux": {
     "instagram": {
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 11,
-      "total": 18,
-      "dernier": "2026-09-28T07:05:19.721Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1734176315374916"
+      "aujourdhui": 1,
+      "semaine": 12,
+      "total": 19,
+      "dernier": "2026-09-29T07:06:20.693Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1735301915262356"
     },
     "threads": {
       "actif": true,
@@ -125,7 +125,7 @@
         "reponse"
       ],
       "aujourdhui": 1,
-      "semaine": 12,
+      "semaine": 11,
       "total": 19,
       "dernier": "2026-09-29T06:26:28.680Z",
       "lienDernier": "https://www.threads.com/@lovaquitaine/post/Dd3HI8jlokt"
@@ -172,7 +172,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=33184",
       "titre": "Le Hasparren Athletic Club forme 90 % de ses joueurs",
       "lien": "https://passion-aquitaine.ouest-france.fr/hasparren-athletic-club-modele-formateur/",
-      "at": "2026-09-29T06:26:28.680Z",
+      "at": "2026-09-29T07:06:20.693Z",
       "reseaux": {
         "threads": {
           "texte": "Un club peut-il tenir son rang sans recruter ? À Hasparren, à 25 km de Bayonne, l’Athletic Club forme 🏉 90 % de ses joueurs en interne, et compose avec l’un des plus petits budgets de sa division. Le pari de la formation plutôt que du portefeuille. Vous connaissiez ce club basque ?\n@francerugby @paysbasque_net",
@@ -181,6 +181,14 @@
           "reponse": null,
           "sujet": "Hasparren",
           "publieLe": "2026-09-29T06:26:28.680Z"
+        },
+        "facebook": {
+          "texte": "Son budget est l’un des plus petits de la division, et pourtant ce club basque aligne surtout ses propres jeunes 🏉",
+          "image": null,
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-09-29T07:06:20.693Z"
         }
       }
     },
@@ -427,6 +435,16 @@
   ],
   "publications": [
     {
+      "channel": "facebook",
+      "at": "2026-09-29T07:06:20.693Z",
+      "titre": "Le Hasparren Athletic Club forme 90 % de ses joueurs",
+      "lien": "https://passion-aquitaine.ouest-france.fr/hasparren-athletic-club-modele-formateur/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1735301915262356",
+      "format": null,
+      "texte": "Son budget est l’un des plus petits de la division, et pourtant ce club basque aligne surtout ses propres jeunes 🏉",
+      "image": null
+    },
+    {
       "channel": "threads",
       "at": "2026-09-29T06:26:28.680Z",
       "titre": "Le Hasparren Athletic Club forme 90 % de ses joueurs",
@@ -515,28 +533,9 @@
       "format": null,
       "texte": "Et si votre pierre tombale mentait sur le jour de votre mort ?\n⠀\nDans un cimetière de Poitiers repose Leonard Chodźko, historien polonais exilé en France. La date gravée sur sa tombe n’est pas la bonne 🪦\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Poitiers #Histoire #Patrimoine",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20260926-e7578bc9-1.jpg"
-    },
-    {
-      "channel": "bluesky",
-      "at": "2026-09-27T07:24:52.368Z",
-      "titre": "Pau abrite la 3e plus vieille église orthodoxe de France",
-      "lien": "https://passion-aquitaine.ouest-france.fr/plus-belles-eglises-pau-histoire/",
-      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mwibgacyik2o",
-      "format": "image",
-      "texte": "Une visite à #Pau réserve une découverte inattendue : la troisième plus ancienne église orthodoxe de France, devancée seulement par Nice et Paris. De quoi comprendre en une halte le passé cosmopolite de la ville 🕍\n@fond-patrimoine.bsky.social\n➡️ Lire l’article",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20260927-81d8a18c-bsky.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "facebook",
-      "dueAt": "2026-09-29T07:06:14.846Z",
-      "prochainPassage": "2026-09-29T07:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Le Hasparren Athletic Club forme 90 % de ses joueurs"
-    },
     {
       "channel": "bluesky",
       "dueAt": "2026-09-29T07:24:56.269Z",
@@ -567,7 +566,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 112,
+    "releves": 115,
     "parReseau": {
       "instagram": {
         "posts": 12,
@@ -582,8 +581,8 @@
         "interactionsMoyennes": 1
       },
       "threads": {
-        "posts": 7,
-        "interactionsMoyennes": 7.1
+        "posts": 8,
+        "interactionsMoyennes": 20.8
       }
     }
   },
@@ -644,7 +643,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-09-29T05:20:50.891Z"
+    "derniere": "2026-09-29T07:00:42.104Z"
   },
   "abonnes": {
     "instagram": {
@@ -683,33 +682,33 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-29T06:26:35.387Z",
-    "posts": 75,
+    "genereLe": "2026-09-29T07:06:28.512Z",
+    "posts": 77,
     "parReseau": {
       "instagram": {
         "posts": 21,
         "moyenne": 19.2
       },
       "threads": {
-        "posts": 17,
-        "moyenne": 10.1
+        "posts": 18,
+        "moyenne": 10.3
       },
       "facebook": {
         "posts": 17,
         "moyenne": 0.5
       },
       "bluesky": {
-        "posts": 20,
+        "posts": 21,
         "moyenne": 0.4
       }
     },
     "parFormat": {
       "reponse": {
-        "posts": 6,
-        "moyenne": 27.2
+        "posts": 7,
+        "moyenne": 25.4
       },
       "reply": {
-        "posts": 5,
+        "posts": 6,
         "moyenne": 1.2
       },
       "lien": {
@@ -735,8 +734,8 @@
         "moyenne": 7.7
       },
       "matin": {
-        "posts": 40,
-        "moyenne": 5.8
+        "posts": 42,
+        "moyenne": 5.9
       }
     },
     "parCreneauReseau": {
@@ -764,7 +763,7 @@
           "moyenne": 0.5
         },
         "8 h – 9 h 30": {
-          "posts": 11,
+          "posts": 12,
           "moyenne": 0.3
         },
         "18 h – 19 h 30": {
@@ -788,8 +787,8 @@
       },
       "threads": {
         "7 h – 8 h 30": {
-          "posts": 9,
-          "moyenne": 13.4
+          "posts": 10,
+          "moyenne": 13.6
         },
         "10 h – 11 h 30": {
           "posts": 3,
@@ -805,18 +804,18 @@
         }
       }
     },
-    "interactionsTotal": 590,
+    "interactionsTotal": 606,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35605",
       "channel": "threads",
       "mediaId": "17965669728187759",
       "publieLe": "2026-09-22T06:30:54.943Z",
-      "jalon": 1,
-      "releveLe": "2026-09-23T06:33:10.577Z",
-      "likes": 109,
+      "jalon": 7,
+      "releveLe": "2026-09-29T07:00:42.104Z",
+      "likes": 110,
       "commentaires": 2,
       "partages": 4,
-      "vues": 6496,
+      "vues": 6784,
       "titre": "À Bordeaux, 200 danseurs pour un French Cancan géant sur le Miroir d’Eau",
       "lien": "https://www.threads.com/@lovaquitaine/post/DdlF2lClkyx",
       "format": "reponse",
@@ -844,8 +843,8 @@
     },
     "mentions": {
       "avec": {
-        "posts": 11,
-        "moyenne": 12.5
+        "posts": 13,
+        "moyenne": 11.8
       },
       "sans": {
         "posts": 64,
@@ -856,7 +855,7 @@
       "instagram": 23,
       "bluesky": 21,
       "x": 21,
-      "facebook": 18,
+      "facebook": 19,
       "threads": 19
     },
     "abonnes": {
@@ -903,14 +902,14 @@
     },
     "engagement": {
       "instagram": 0.19,
-      "threads": 0.88,
+      "threads": 0.9,
       "facebook": 0
     },
     "conseils": [
       "Bluesky : le créneau 12 h – 13 h 30 fait 3,3 fois mieux que 8 h – 9 h 30 (1 contre 0.3 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Facebook : le créneau 8 h – 9 h 30 fait 2 fois mieux que 20 h – 21 h 30 (0.6 contre 0.3 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
-      "Threads : le créneau 7 h – 8 h 30 fait 4,5 fois mieux que 13 h – 14 h 30 (13.4 contre 3 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
-      "Le format « reponse » fait 272 fois mieux que « card » (27.2 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « card » de la rotation dans config/channels.json."
+      "Threads : le créneau 7 h – 8 h 30 fait 4,5 fois mieux que 13 h – 14 h 30 (13.6 contre 3 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
+      "Le format « reponse » fait 254 fois mieux que « card » (25.4 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « card » de la rotation dans config/channels.json."
     ]
   },
   "couts": {

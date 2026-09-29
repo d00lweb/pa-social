@@ -1723,5 +1723,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=33184",
+    "channel": "x",
+    "at": "2026-09-29T08:00:59.158Z",
+    "mediaId": "kit-telegram",
+    "titre": "Le Hasparren Athletic Club forme 90 % de ses joueurs",
+    "lien": "https://passion-aquitaine.ouest-france.fr/hasparren-athletic-club-modele-formateur/",
+    "lienPost": null,
+    "format": "lien",
+    "mention": true,
+    "apercu": {
+      "texte": "90 % des joueurs formés au club, et l’un des plus petits budgets de sa division : le #Hasparren Athletic Club, à 25 km de Bayonne, mise tout sur ses jeunes 🏉\n➡️ https://passion-aquitaine.ouest-france.fr/hasparren-athletic-club-modele-formateur/",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260929-cec4dd2f-x.jpg",
+      "mode": "lien",
+      "reponse": null,
+      "sujet": null
+    }
   }
 ]

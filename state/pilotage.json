@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-29T07:41:13.486Z",
+  "genereLe": "2026-09-29T08:00:50.207Z",
   "jour": "2026-09-29",
   "reseaux": {
     "instagram": {
@@ -160,10 +160,10 @@
         "lien",
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 11,
-      "total": 21,
-      "dernier": "2026-09-28T07:20:50.863Z",
+      "aujourdhui": 1,
+      "semaine": 12,
+      "total": 22,
+      "dernier": "2026-09-29T08:00:59.158Z",
       "lienDernier": null
     }
   },
@@ -172,7 +172,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=33184",
       "titre": "Le Hasparren Athletic Club forme 90 % de ses joueurs",
       "lien": "https://passion-aquitaine.ouest-france.fr/hasparren-athletic-club-modele-formateur/",
-      "at": "2026-09-29T07:24:58.824Z",
+      "at": "2026-09-29T08:00:59.158Z",
       "reseaux": {
         "threads": {
           "texte": "Un club peut-il tenir son rang sans recruter ? À Hasparren, à 25 km de Bayonne, l’Athletic Club forme 🏉 90 % de ses joueurs en interne, et compose avec l’un des plus petits budgets de sa division. Le pari de la formation plutôt que du portefeuille. Vous connaissiez ce club basque ?\n@francerugby @paysbasque_net",
@@ -197,6 +197,14 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-09-29T07:24:58.824Z"
+        },
+        "x": {
+          "texte": "90 % des joueurs formés au club, et l’un des plus petits budgets de sa division : le #Hasparren Athletic Club, à 25 km de Bayonne, mise tout sur ses jeunes 🏉\n➡️ https://passion-aquitaine.ouest-france.fr/hasparren-athletic-club-modele-formateur/",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260929-cec4dd2f-x.jpg",
+          "mode": "lien",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-09-29T08:00:59.158Z"
         }
       }
     },
@@ -443,6 +451,16 @@
   ],
   "publications": [
     {
+      "channel": "x",
+      "at": "2026-09-29T08:00:59.158Z",
+      "titre": "Le Hasparren Athletic Club forme 90 % de ses joueurs",
+      "lien": "https://passion-aquitaine.ouest-france.fr/hasparren-athletic-club-modele-formateur/",
+      "lienPost": null,
+      "format": "lien",
+      "texte": "90 % des joueurs formés au club, et l’un des plus petits budgets de sa division : le #Hasparren Athletic Club, à 25 km de Bayonne, mise tout sur ses jeunes 🏉\n➡️ https://passion-aquitaine.ouest-france.fr/hasparren-athletic-club-modele-formateur/",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260929-cec4dd2f-x.jpg"
+    },
+    {
       "channel": "bluesky",
       "at": "2026-09-29T07:24:58.824Z",
       "titre": "Le Hasparren Athletic Club forme 90 % de ses joueurs",
@@ -531,28 +549,9 @@
       "format": null,
       "texte": "Pour voir une église orthodoxe plus ancienne que celle de Pau, il faut aller jusqu’à Nice ou Paris 🕯️",
       "image": null
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-09-27T16:11:12.775Z",
-      "titre": "Pau abrite la 3e plus vieille église orthodoxe de France",
-      "lien": "https://passion-aquitaine.ouest-france.fr/plus-belles-eglises-pau-histoire/",
-      "lienPost": "https://www.instagram.com/p/DdzAh6bGHb7/",
-      "format": null,
-      "texte": "À Pau, une église orthodoxe figure parmi les trois plus anciennes de toute la France ⛪\n⠀\nSeules Nice et Paris la devancent. Un édifice discret qui raconte le passé cosmopolite de la ville béarnaise et ses visiteurs venus de l’Est.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Pau #Béarn #Patrimoine",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20260927-81d8a18c-1.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "x",
-      "dueAt": "2026-09-29T08:00:00.000Z",
-      "prochainPassage": "2026-09-29T08:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Le Hasparren Athletic Club forme 90 % de ses joueurs"
-    },
     {
       "channel": "instagram",
       "dueAt": "2026-09-29T10:26:11.299Z",
@@ -642,7 +641,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-09-29T07:00:42.104Z"
+    "derniere": "2026-09-29T08:00:50.207Z"
   },
   "abonnes": {
     "instagram": {
@@ -681,7 +680,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-29T07:41:19.035Z",
+    "genereLe": "2026-09-29T08:01:14.519Z",
     "posts": 78,
     "parReseau": {
       "instagram": {
@@ -853,7 +852,7 @@
     "publies": {
       "instagram": 23,
       "bluesky": 22,
-      "x": 21,
+      "x": 22,
       "facebook": 19,
       "threads": 19
     },

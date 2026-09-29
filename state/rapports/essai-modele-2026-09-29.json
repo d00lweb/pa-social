@@ -1,0 +1,271 @@
+{
+  "quand": "2026-09-29T07:52:47.803Z",
+  "articles": [
+    "Le Hasparren Athletic Club forme 90 % de ses joueurs",
+    "À Anglet, une chapelle de paille survit depuis 1847",
+    "Pau abrite la 3e plus vieille église orthodoxe de France",
+    "À Poitiers, la tombe d’un patriote polonais indique une erreur"
+  ],
+  "resultats": [
+    {
+      "modele": "claude-opus-5-5",
+      "effort": "low",
+      "nom": "opus-5-5 · effort low",
+      "articles": 4,
+      "valides": 3,
+      "replis": 1,
+      "appels": 7,
+      "essaiMoyen": 1.33,
+      "entreeMoyenne": 7691,
+      "sortieMoyenne": 1220,
+      "secondes": 19.2,
+      "refus": {
+        "bluesky : emoji attendu en tête du texte": 3,
+        "IA essai 1 refusé : bluesky et x reprennent les mêmes tournures": 1,
+        "IA essai 1 refusé : bluesky : au moins 1 emoji (choisi selon le sujet)": 1,
+        "IA essai 2 refusé : bluesky : au moins 1 emoji (choisi selon le sujet)": 1,
+        "IA essai 3 refusé : bluesky : au moins 1 emoji (choisi selon le sujet)": 1,
+        "threads : au moins 1 emoji (choisi selon le sujet)": 1,
+        "nom propre absent des données : C’est": 1
+      },
+      "cout": 0.3549,
+      "coutParArticle": 0.0887,
+      "coutParAppel": 0.0507,
+      "lignes": [
+        {
+          "titre": "Le Hasparren Athletic Club forme 90 % de ses joueurs",
+          "valide": true,
+          "essais": 2,
+          "secondes": 32.6,
+          "usage": {
+            "input": 7715,
+            "output": 1909
+          },
+          "messages": [
+            "IA essai 1 refusé : bluesky et x reprennent les mêmes tournures",
+            "IA : dossier validé (essai 2, 7715 + 1909 tokens)"
+          ],
+          "textes": {
+            "rubrique": "Pays basque",
+            "visuelTitre": "Le Hasparren Athletic Club forme 90 % de ses joueurs",
+            "surlignage": "Hasparren Athletic Club",
+            "description": "À 25 km de Bayonne, ce club mise sur la formation en interne. Et il le fait avec l’un des plus petits budgets de sa division.",
+            "instagram": "À Hasparren, le club ne court pas après les recrues : 🎓 90 % des joueurs sont formés en interne\nAu Pays basque, à 25 km de Bayonne, le Hasparren Athletic Club fait grandir ses propres talents. Une méthode tenue avec l’un des plus petits budgets de sa division.",
+            "facebook": "Ici, presque tous les joueurs de l’équipe ont grandi dans les rangs du club, à deux pas de Bayonne 🤝",
+            "bluesky": "🌱 Comment exister avec l’un des plus petits budgets de sa division ? À Hasparren, l’Athletic Club a trouvé sa réponse : 90 % de ses joueurs sortent de sa propre formation.",
+            "threads": "90 % des joueurs formés à la maison 🏟️ C’est la marque de fabrique du Hasparren Athletic Club, à 25 km de Bayonne. Et tout ça avec l’un des plus petits budgets de sa division. Former plutôt qu’acheter, ça vous semble l’avenir des clubs amateurs ?",
+            "x": "Hasparren, à 25 km de Bayonne, cultive ses propres talents : son Athletic Club forme 90 % de ses joueurs en interne, avec 💶 l’un des plus petits budgets de sa division."
+          }
+        },
+        {
+          "titre": "À Anglet, une chapelle de paille survit depuis 1847",
+          "valide": true,
+          "essais": 1,
+          "secondes": 10.8,
+          "usage": {
+            "input": 7669,
+            "output": 877
+          },
+          "messages": [
+            "IA : dossier validé (essai 1, 7669 + 877 tokens)"
+          ],
+          "textes": {
+            "rubrique": "Pays basque",
+            "visuelTitre": "À Anglet, une chapelle de paille survit depuis 1847",
+            "surlignage": "chapelle de paille",
+            "description": "Au monastère Saint Bernard, la chapelle a été bâtie en paille dès 1847. En 2007, elle a été refaite à l’identique, fidèle à sa construction d’origine.",
+            "instagram": "Des murs de paille, un clocher, et près de deux siècles d’histoire au Pays basque ⛪\nÀ Anglet, la chapelle du monastère Saint Bernard a été bâtie en paille dès 1847. Refaite à l’identique en 2007, elle perpétue un patrimoine étonnant à visiter.",
+            "facebook": "Une chapelle entièrement en paille, reconstruite à l’identique pour rester fidèle à celle de 1847, ça vous intrigue ? 🛖",
+            "bluesky": "1847 : c’est l’année où la chapelle du monastère Saint Bernard a été bâtie en paille, à Anglet. En 2007, elle a été refaite à l’identique, sans renoncer à ce matériau inattendu 🛕",
+            "threads": "🙏 Anglet, monastère Saint Bernard. Ici, la chapelle ne repose pas sur la pierre : elle a été bâtie en paille, dès 1847. Et quand il a fallu la refaire en 2007, le choix a été de la reconstruire à l’identique. Un bel exemple de patrimoine basque qui a traversé le temps sans changer de nature.",
+            "x": "Ses murs sont en paille, et pourtant elle tient depuis 1847 🔔 À Anglet, la chapelle du monastère Saint Bernard a été refaite à l’identique en 2007."
+          }
+        },
+        {
+          "titre": "Pau abrite la 3e plus vieille église orthodoxe de France",
+          "valide": true,
+          "essais": 1,
+          "secondes": 9,
+          "usage": {
+            "input": 7690,
+            "output": 873
+          },
+          "messages": [
+            "IA : dossier validé (essai 1, 7690 + 873 tokens)"
+          ],
+          "textes": {
+            "rubrique": "Béarn",
+            "visuelTitre": "Pau abrite la 3e plus vieille église orthodoxe de France",
+            "surlignage": "église orthodoxe",
+            "description": "Seules Nice et Paris comptent une église orthodoxe plus ancienne. Derrière ce lieu de culte se dessine le passé cosmopolite de la ville béarnaise.",
+            "instagram": "Quelle ville suit Nice et Paris pour son église orthodoxe la plus ancienne ? La réponse est en Béarn.\nC’est à Pau que se trouve la troisième plus vieille église orthodoxe de France. Un patrimoine religieux discret qui raconte le passé cosmopolite de la cité béarnaise ☦️",
+            "facebook": "Troisième plus ancienne de France, l’église orthodoxe de Pau garde la trace d’une ville bien plus cosmopolite qu’on ne l’imagine 🕍",
+            "bluesky": "Pau, en Béarn, possède la troisième plus ancienne église orthodoxe du pays 🧭 Seules Nice et Paris la devancent. Un héritage religieux qui révèle le passé cosmopolite de la ville.",
+            "threads": "On ne l’attendait pas au pied des Pyrénées. Et pourtant, ☦️ Pau abrite la troisième plus vieille église orthodoxe de France, juste derrière Nice et Paris. Ce lieu de culte raconte une histoire méconnue : celle d’une ville béarnaise ouverte sur le monde, au passé bien plus cosmopolite qu’il n’y paraît.",
+            "x": "Une visite à Pau peut vous mener vers un patrimoine rare : la 3e plus ancienne église orthodoxe de France, après Nice et Paris. De quoi découvrir le passé cosmopolite de la ville ☦️"
+          }
+        },
+        {
+          "titre": "À Poitiers, la tombe d’un patriote polonais indique une erreur",
+          "valide": false,
+          "essais": 3,
+          "secondes": 24.4,
+          "usage": null,
+          "messages": [
+            "IA essai 1 refusé : bluesky : au moins 1 emoji (choisi selon le sujet) | bluesky : emoji attendu en tête du texte",
+            "IA essai 2 refusé : bluesky : au moins 1 emoji (choisi selon le sujet) | bluesky : emoji attendu en tête du texte",
+            "IA essai 3 refusé : bluesky : au moins 1 emoji (choisi selon le sujet) | bluesky : emoji attendu en tête du texte | threads : au moins 1 emoji (choisi selon le sujet) | nom propre absent des données : C’est",
+            "IA : contrôles non satisfaits, règles de secours"
+          ],
+          "textes": {
+            "rubrique": "Poitiers",
+            "visuelTitre": "La tombe d’un patriote polonais indique une erreur",
+            "surlignage": "une erreur",
+            "description": "Dans un cimetière de Poitiers, la tombe de Leonard Chodźko, historien polonais exilé, porte une erreur sur sa propre date de décès.",
+            "instagram": "Dans un cimetière de Poitiers, la tombe de Leonard Chodźko, historien polonais exilé, porte une erreur sur sa propre date de décès.",
+            "facebook": "Dans un cimetière de Poitiers, la tombe de Leonard Chodźko, historien polonais exilé, porte une erreur sur sa propre date de décès.",
+            "bluesky": "Dans un cimetière de Poitiers, la tombe de Leonard Chodźko, historien polonais exilé, porte une erreur sur sa propre date de décès.",
+            "threads": "Dans un cimetière de Poitiers, la tombe de Leonard Chodźko, historien polonais exilé, porte une erreur sur sa propre date de décès.",
+            "x": "Dans un cimetière de Poitiers, la tombe de Leonard Chodźko, historien polonais exilé, porte une erreur sur sa propre date de décès."
+          }
+        }
+      ]
+    },
+    {
+      "modele": "claude-sonnet-5-5",
+      "effort": "low",
+      "nom": "sonnet-5-5 · effort low",
+      "articles": 4,
+      "valides": 0,
+      "replis": 4,
+      "appels": 12,
+      "essaiMoyen": 0,
+      "entreeMoyenne": 0,
+      "sortieMoyenne": 0,
+      "secondes": 19.3,
+      "refus": {
+        "hashtag invalide : « Poitiers »": 3,
+        "hashtag invalide : « Anglet »": 2,
+        "IA essai 3 refusé : x : pas de question pour ce post (questions limitées)": 2,
+        "IA essai 1 refusé : threads : pas de question pour ce post (questions limitées)": 2,
+        "hashtag invalide : « Pau »": 2,
+        "IA essai 1 refusé : surlignage trop long (3 mots et 24 caractères max)": 1,
+        "facebook : pas de point juste avant un emoji": 1,
+        "x : pas de point juste avant un emoji": 1,
+        "bluesky et x reprennent les mêmes tournures": 1,
+        "IA essai 2 refusé : hashtag invalide : « Hasparren »": 1,
+        "IA essai 3 refusé : surlignage trop long (3 mots et 24 caractères max)": 1,
+        "hashtag invalide : « Hasparren »": 1,
+        "instagram et x reprennent les mêmes tournures": 1,
+        "IA essai 1 refusé : x : pas de question pour ce post (questions limitées)": 1,
+        "IA essai 2 refusé : hashtag invalide : « Anglet »": 1,
+        "hashtag invalide : « Béarn »": 1,
+        "IA essai 2 refusé : x : pas de question pour ce post (questions limitées)": 1,
+        "nom propre absent des données : Sud-Ouest": 1,
+        "IA essai 2 refusé : x : emoji pas en tête pour ce post (devant l'information clé)": 1,
+        "IA essai 3 refusé : x : pas de point juste avant un emoji": 1
+      },
+      "cout": 0.2848,
+      "coutParArticle": 0.0712,
+      "coutParAppel": 0.0237,
+      "lignes": [
+        {
+          "titre": "Le Hasparren Athletic Club forme 90 % de ses joueurs",
+          "valide": false,
+          "essais": 3,
+          "secondes": 19.1,
+          "usage": null,
+          "messages": [
+            "IA essai 1 refusé : surlignage trop long (3 mots et 24 caractères max) | facebook : pas de point juste avant un emoji | x : pas de point juste avant un emoji | bluesky et x reprennent les mêmes tournures",
+            "IA essai 2 refusé : hashtag invalide : « Hasparren »",
+            "IA essai 3 refusé : surlignage trop long (3 mots et 24 caractères max) | hashtag invalide : « Hasparren » | instagram et x reprennent les mêmes tournures",
+            "IA : contrôles non satisfaits, règles de secours"
+          ],
+          "textes": {
+            "rubrique": "Pays basque",
+            "visuelTitre": "Le Hasparren Athletic Club forme 90 % de ses joueurs",
+            "surlignage": "90 %",
+            "description": "À 25 km de Bayonne, le Hasparren Athletic Club forme 90 % de ses joueurs en interne, avec l’un des plus petits budgets de sa division.",
+            "instagram": "À 25 km de Bayonne, le Hasparren Athletic Club forme 90 % de ses joueurs en interne, avec l’un des plus petits budgets de sa division.",
+            "facebook": "À 25 km de Bayonne, le Hasparren Athletic Club forme 90 % de ses joueurs en interne, avec l’un des plus petits budgets de sa division.",
+            "bluesky": "À 25 km de Bayonne, le Hasparren Athletic Club forme 90 % de ses joueurs en interne, avec l’un des plus petits budgets de sa division.",
+            "threads": "À 25 km de Bayonne, le Hasparren Athletic Club forme 90 % de ses joueurs en interne, avec l’un des plus petits budgets de sa division.",
+            "x": "À 25 km de Bayonne, le Hasparren Athletic Club forme 90 % de ses joueurs en interne, avec l’un des plus petits budgets de sa division."
+          }
+        },
+        {
+          "titre": "À Anglet, une chapelle de paille survit depuis 1847",
+          "valide": false,
+          "essais": 3,
+          "secondes": 20.9,
+          "usage": null,
+          "messages": [
+            "IA essai 1 refusé : x : pas de question pour ce post (questions limitées) | hashtag invalide : « Anglet »",
+            "IA essai 2 refusé : hashtag invalide : « Anglet »",
+            "IA essai 3 refusé : x : pas de question pour ce post (questions limitées) | hashtag invalide : « Anglet »",
+            "IA : contrôles non satisfaits, règles de secours"
+          ],
+          "textes": {
+            "rubrique": "Pays basque",
+            "visuelTitre": "À Anglet, une chapelle de paille survit depuis 1847",
+            "surlignage": "1847",
+            "description": "À Anglet, la chapelle du monastère Saint Bernard fut bâtie en paille dès 1847 et refaite à l’identique en 2007.",
+            "instagram": "À Anglet, la chapelle du monastère Saint Bernard fut bâtie en paille dès 1847 et refaite à l’identique en 2007 🏛️",
+            "facebook": "À Anglet, la chapelle du monastère Saint Bernard fut bâtie en paille dès 1847 et refaite à l’identique 🏛️",
+            "bluesky": "À Anglet, la chapelle du monastère Saint Bernard fut bâtie en paille dès 1847 et refaite à l’identique en 2007 🏛️",
+            "threads": "À Anglet, la chapelle du monastère Saint Bernard fut bâtie en paille dès 1847 et refaite à l’identique en 2007 🏛️",
+            "x": "À Anglet, la chapelle du monastère Saint Bernard fut bâtie en paille dès 1847 et refaite à l’identique 🏛️"
+          }
+        },
+        {
+          "titre": "Pau abrite la 3e plus vieille église orthodoxe de France",
+          "valide": false,
+          "essais": 3,
+          "secondes": 18.4,
+          "usage": null,
+          "messages": [
+            "IA essai 1 refusé : threads : pas de question pour ce post (questions limitées) | hashtag invalide : « Béarn »",
+            "IA essai 2 refusé : x : pas de question pour ce post (questions limitées) | hashtag invalide : « Pau » | nom propre absent des données : Sud-Ouest",
+            "IA essai 3 refusé : x : pas de question pour ce post (questions limitées) | hashtag invalide : « Pau »",
+            "IA : contrôles non satisfaits, règles de secours"
+          ],
+          "textes": {
+            "rubrique": "Béarn",
+            "visuelTitre": "Pau abrite la 3e plus vieille église orthodoxe de France",
+            "surlignage": "3",
+            "description": "Pau abrite la troisième plus ancienne église orthodoxe de France, juste derrière Nice et Paris. Une histoire révélant un passé cosmopolite.",
+            "instagram": "Pau abrite la troisième plus ancienne église orthodoxe de France, juste derrière Nice et Paris. Une histoire révélant un passé cosmopolite ⛪",
+            "facebook": "Une histoire révélant un passé cosmopolite ⛪",
+            "bluesky": "Pau abrite la troisième plus ancienne église orthodoxe de France, juste derrière Nice et Paris. Une histoire révélant un passé cosmopolite ⛪",
+            "threads": "Pau abrite la troisième plus ancienne église orthodoxe de France, juste derrière Nice et Paris. Une histoire révélant un passé cosmopolite ⛪",
+            "x": "Une histoire révélant un passé cosmopolite ⛪"
+          }
+        },
+        {
+          "titre": "À Poitiers, la tombe d’un patriote polonais indique une erreur",
+          "valide": false,
+          "essais": 3,
+          "secondes": 18.7,
+          "usage": null,
+          "messages": [
+            "IA essai 1 refusé : threads : pas de question pour ce post (questions limitées) | hashtag invalide : « Poitiers »",
+            "IA essai 2 refusé : x : emoji pas en tête pour ce post (devant l'information clé) | hashtag invalide : « Poitiers »",
+            "IA essai 3 refusé : x : pas de point juste avant un emoji | hashtag invalide : « Poitiers »",
+            "IA : contrôles non satisfaits, règles de secours"
+          ],
+          "textes": {
+            "rubrique": "Poitiers",
+            "visuelTitre": "La tombe d’un patriote polonais indique une erreur",
+            "surlignage": "une erreur",
+            "description": "Dans un cimetière de Poitiers, la tombe de Leonard Chodźko, historien polonais exilé, porte une erreur sur sa propre date de décès.",
+            "instagram": "Dans un cimetière de Poitiers, la tombe de Leonard Chodźko, historien polonais exilé, porte une erreur sur sa propre date de décès.",
+            "facebook": "Dans un cimetière de Poitiers, la tombe de Leonard Chodźko, historien polonais exilé, porte une erreur sur sa propre date de décès.",
+            "bluesky": "Dans un cimetière de Poitiers, la tombe de Leonard Chodźko, historien polonais exilé, porte une erreur sur sa propre date de décès.",
+            "threads": "Dans un cimetière de Poitiers, la tombe de Leonard Chodźko, historien polonais exilé, porte une erreur sur sa propre date de décès.",
+            "x": "Dans un cimetière de Poitiers, la tombe de Leonard Chodźko, historien polonais exilé, porte une erreur sur sa propre date de décès."
+          }
+        }
+      ]
+    }
+  ]
+}

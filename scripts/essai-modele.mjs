@@ -1,6 +1,6 @@
 // Essai comparatif de modèles sur de vrais articles, par le chemin de production.
 //
-//   npm run essai:modele                      10 articles, Opus 5 bas / Sonnet 5.5 bas / Sonnet 5.5 haut
+//   npm run essai:modele                      10 articles, Opus 5.5 bas / Sonnet 5.5 bas / Sonnet 5.5 moyen
 //   npm run essai:modele -- 6                 6 articles
 //   npm run essai:modele -- 10 claude-sonnet-5-5:high
 //
@@ -25,9 +25,9 @@ const combien = Number(process.argv[2]) || 10;
 const arms = process.argv.slice(3).length
   ? process.argv.slice(3).map((a) => { const [modele, effort = 'low'] = a.split(':'); return { modele, effort }; })
   : [
-    { modele: 'claude-opus-5', effort: 'low' },
+    { modele: 'claude-opus-5-5', effort: 'low' },
     { modele: 'claude-sonnet-5-5', effort: 'low' },
-    { modele: 'claude-sonnet-5-5', effort: 'high' },
+    { modele: 'claude-sonnet-5-5', effort: 'medium' },
   ];
 
 const nom = ({ modele, effort }) => `${modele.replace('claude-', '')} · effort ${effort}`;

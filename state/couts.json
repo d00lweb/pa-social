@@ -125,22 +125,28 @@
     }
   },
   "2026-09-29": {
-    "appels": 2,
-    "entree": 15389,
-    "sortie": 1801,
+    "appels": 21,
+    "entree": 161850,
+    "sortie": 18739,
     "cacheLu": 0,
     "cacheEcrit": 0,
-    "cout": 0.12197,
+    "cout": 0.761724,
     "parModele": {
-      "claude-opus-5": 2
+      "claude-opus-5": 2,
+      "claude-opus-5-5": 7,
+      "claude-sonnet-5-5": 12
     },
     "parUsage": {
-      "dossier": 2
+      "dossier": 21
     },
     "parOrigine": {
       "robot": {
         "appels": 2,
         "cout": 0.12197
+      },
+      "local": {
+        "appels": 19,
+        "cout": 0.639754
       }
     }
   }

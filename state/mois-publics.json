@@ -1,12 +1,12 @@
 {
   "2026-09": {
     "cle": "2026-09",
-    "publications": 105,
+    "publications": 106,
     "articles": 24,
-    "interactions": 606,
+    "interactions": 696,
     "parReseau": {
       "facebook": 19,
-      "instagram": 23,
+      "instagram": 24,
       "x": 22,
       "threads": 19,
       "bluesky": 22
@@ -20,18 +20,18 @@
     },
     "top": [
       {
+        "reseau": "instagram",
+        "titre": "À Bordeaux, 200 danseurs pour un French Cancan géant sur le Miroir d’Eau",
+        "lien": "https://www.instagram.com/p/Ddler9vkzj2/",
+        "image": "https://passion-aquitaine.ouest-france.fr/social/20260922-6c111e03-1-vignette.jpg",
+        "interactions": 161
+      },
+      {
         "reseau": "threads",
         "titre": "À Bordeaux, 200 danseurs pour un French Cancan géant sur le Miroir d’Eau",
         "lien": "https://www.threads.com/@lovaquitaine/post/DdlF2lClkyx",
         "image": "https://passion-aquitaine.ouest-france.fr/social/20260922-6c111e03-1-vignette.jpg",
         "interactions": 116
-      },
-      {
-        "reseau": "instagram",
-        "titre": "À Bordeaux, 200 danseurs pour un French Cancan géant sur le Miroir d’Eau",
-        "lien": "https://www.instagram.com/p/Ddler9vkzj2/",
-        "image": "https://passion-aquitaine.ouest-france.fr/social/20260922-6c111e03-1-vignette.jpg",
-        "interactions": 71
       },
       {
         "reseau": "instagram",

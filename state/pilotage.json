@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-29T10:00:46.975Z",
+  "genereLe": "2026-09-29T10:20:42.252Z",
   "jour": "2026-09-29",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 0,
+      "aujourdhui": 1,
       "semaine": 11,
-      "total": 23,
-      "dernier": "2026-09-28T11:03:55.148Z",
-      "lienDernier": "https://www.instagram.com/p/Dd1CKFEmAuc/"
+      "total": 24,
+      "dernier": "2026-09-29T10:26:47.677Z",
+      "lienDernier": "https://www.instagram.com/p/Dd3is5bmDtx/"
     },
     "bluesky": {
       "actif": true,
@@ -172,7 +172,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=33184",
       "titre": "Le Hasparren Athletic Club forme 90 % de ses joueurs",
       "lien": "https://passion-aquitaine.ouest-france.fr/hasparren-athletic-club-modele-formateur/",
-      "at": "2026-09-29T08:00:59.158Z",
+      "at": "2026-09-29T10:26:47.677Z",
       "reseaux": {
         "threads": {
           "texte": "Un club peut-il tenir son rang sans recruter ? À Hasparren, à 25 km de Bayonne, l’Athletic Club forme 🏉 90 % de ses joueurs en interne, et compose avec l’un des plus petits budgets de sa division. Le pari de la formation plutôt que du portefeuille. Vous connaissiez ce club basque ?\n@francerugby @paysbasque_net",
@@ -205,6 +205,14 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-09-29T08:00:59.158Z"
+        },
+        "instagram": {
+          "texte": "Former ses joueurs plutôt que les recruter : la méthode d’un club basque à 25 km de Bayonne\n⠀\nÀ Hasparren, l’Athletic Club fait émerger 90 % de son effectif en interne, avec l’un des plus petits budgets de sa division. Une leçon de patience et de travail local 🏉\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Hasparren #Rugby #PaysBasque",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260929-cec4dd2f-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-09-29T10:26:47.677Z"
         }
       }
     },
@@ -451,6 +459,16 @@
   ],
   "publications": [
     {
+      "channel": "instagram",
+      "at": "2026-09-29T10:26:47.677Z",
+      "titre": "Le Hasparren Athletic Club forme 90 % de ses joueurs",
+      "lien": "https://passion-aquitaine.ouest-france.fr/hasparren-athletic-club-modele-formateur/",
+      "lienPost": "https://www.instagram.com/p/Dd3is5bmDtx/",
+      "format": null,
+      "texte": "Former ses joueurs plutôt que les recruter : la méthode d’un club basque à 25 km de Bayonne\n⠀\nÀ Hasparren, l’Athletic Club fait émerger 90 % de son effectif en interne, avec l’un des plus petits budgets de sa division. Une leçon de patience et de travail local 🏉\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Hasparren #Rugby #PaysBasque",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260929-cec4dd2f-1.jpg"
+    },
+    {
       "channel": "x",
       "at": "2026-09-29T08:00:59.158Z",
       "titre": "Le Hasparren Athletic Club forme 90 % de ses joueurs",
@@ -539,36 +557,16 @@
       "format": "reponse",
       "texte": "Des murs de paille, une charpente, et une chapelle qui traverse presque deux siècles au bord du Pays basque. Celle du monastère Saint Bernard, à Anglet, a été bâtie ainsi en 1847. En 2007, plutôt que de la remplacer par du plus solide, on l’a refaite à l’identique, paille comprise 🏡\n@fondationdupatrimoine @paysbasque_net",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20260928-3a4003de-th.jpg"
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-09-27T19:27:08.111Z",
-      "titre": "Pau abrite la 3e plus vieille église orthodoxe de France",
-      "lien": "https://passion-aquitaine.ouest-france.fr/plus-belles-eglises-pau-histoire/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1733698938755987",
-      "format": null,
-      "texte": "Pour voir une église orthodoxe plus ancienne que celle de Pau, il faut aller jusqu’à Nice ou Paris 🕯️",
-      "image": null
     }
   ],
-  "file": [
-    {
-      "channel": "instagram",
-      "dueAt": "2026-09-29T10:26:11.299Z",
-      "prochainPassage": "2026-09-29T11:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Le Hasparren Athletic Club forme 90 % de ses joueurs"
-    }
-  ],
+  "file": [],
   "alertes": [],
   "mesures": {
-    "releves": 118,
+    "releves": 119,
     "parReseau": {
       "instagram": {
-        "posts": 12,
-        "interactionsMoyennes": 12.8
+        "posts": 13,
+        "interactionsMoyennes": 24.2
       },
       "bluesky": {
         "posts": 11,
@@ -680,12 +678,12 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-29T10:00:54.189Z",
+    "genereLe": "2026-09-29T10:26:56.296Z",
     "posts": 78,
     "parReseau": {
       "instagram": {
         "posts": 21,
-        "moyenne": 19.2
+        "moyenne": 23.5
       },
       "threads": {
         "posts": 18,
@@ -725,7 +723,7 @@
     "parCreneau": {
       "après-midi": {
         "posts": 18,
-        "moyenne": 12.6
+        "moyenne": 17.6
       },
       "soir": {
         "posts": 17,
@@ -740,7 +738,7 @@
       "instagram": {
         "12 h – 13 h 30": {
           "posts": 9,
-          "moyenne": 23.2
+          "moyenne": 33.2
         },
         "18 h – 19 h 30": {
           "posts": 6,
@@ -802,24 +800,24 @@
         }
       }
     },
-    "interactionsTotal": 606,
+    "interactionsTotal": 696,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35605",
-      "channel": "threads",
-      "mediaId": "17965669728187759",
-      "publieLe": "2026-09-22T06:30:54.943Z",
+      "channel": "instagram",
+      "mediaId": "17967669675172011",
+      "publieLe": "2026-09-22T10:05:25.139Z",
       "jalon": 7,
-      "releveLe": "2026-09-29T07:00:42.104Z",
-      "likes": 110,
-      "commentaires": 2,
-      "partages": 4,
-      "vues": 6784,
+      "releveLe": "2026-09-29T10:20:42.252Z",
+      "likes": 130,
+      "commentaires": 31,
+      "partages": null,
+      "vues": null,
       "titre": "À Bordeaux, 200 danseurs pour un French Cancan géant sur le Miroir d’Eau",
-      "lien": "https://www.threads.com/@lovaquitaine/post/DdlF2lClkyx",
-      "format": "reponse",
+      "lien": "https://www.instagram.com/p/Ddler9vkzj2/",
+      "format": null,
       "mention": false,
-      "creneau": "matin",
-      "creneauReseau": "7 h – 8 h 30"
+      "creneau": "après-midi",
+      "creneauReseau": "12 h – 13 h 30"
     },
     "moinsBon": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35338",
@@ -846,11 +844,11 @@
       },
       "sans": {
         "posts": 65,
-        "moyenne": 7
+        "moyenne": 8.4
       }
     },
     "publies": {
-      "instagram": 23,
+      "instagram": 24,
       "bluesky": 22,
       "x": 22,
       "facebook": 19,
@@ -899,15 +897,15 @@
       }
     },
     "engagement": {
-      "instagram": 0.19,
+      "instagram": 0.23,
       "threads": 0.9,
       "facebook": 0
     },
     "conseils": [
+      "Instagram : le créneau 12 h – 13 h 30 fait 1,7 fois mieux que 18 h – 19 h 30 (33.2 contre 19.8 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Bluesky : le créneau 12 h – 13 h 30 fait 3,3 fois mieux que 8 h – 9 h 30 (1 contre 0.3 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Facebook : le créneau 8 h – 9 h 30 fait 1,7 fois mieux que 20 h – 21 h 30 (0.5 contre 0.3 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
-      "Threads : le créneau 7 h – 8 h 30 fait 4,5 fois mieux que 13 h – 14 h 30 (13.6 contre 3 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
-      "Le format « reponse » fait 254 fois mieux que « card » (25.4 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « card » de la rotation dans config/channels.json."
+      "Threads : le créneau 7 h – 8 h 30 fait 4,5 fois mieux que 13 h – 14 h 30 (13.6 contre 3 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json."
     ]
   },
   "couts": {

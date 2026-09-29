@@ -1669,5 +1669,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=33184",
+    "channel": "threads",
+    "at": "2026-09-29T06:26:28.680Z",
+    "mediaId": "17936397864382799",
+    "titre": "Le Hasparren Athletic Club forme 90 % de ses joueurs",
+    "lien": "https://passion-aquitaine.ouest-france.fr/hasparren-athletic-club-modele-formateur/",
+    "lienPost": "https://www.threads.com/@lovaquitaine/post/Dd3HI8jlokt",
+    "format": "lien",
+    "mention": true,
+    "apercu": {
+      "texte": "Un club peut-il tenir son rang sans recruter ? À Hasparren, à 25 km de Bayonne, l’Athletic Club forme 🏉 90 % de ses joueurs en interne, et compose avec l’un des plus petits budgets de sa division. Le pari de la formation plutôt que du portefeuille. Vous connaissiez ce club basque ?\n@francerugby @paysbasque_net",
+      "image": null,
+      "mode": "lien",
+      "reponse": null,
+      "sujet": "Hasparren"
+    }
   }
 ]

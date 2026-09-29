@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-29T06:00:41.715Z",
+  "genereLe": "2026-09-29T06:20:39.626Z",
   "jour": "2026-09-29",
   "reseaux": {
     "instagram": {
@@ -124,11 +124,11 @@
         "lien",
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 11,
-      "total": 18,
-      "dernier": "2026-09-28T06:30:42.917Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/Dd0igItkSpy"
+      "aujourdhui": 1,
+      "semaine": 12,
+      "total": 19,
+      "dernier": "2026-09-29T06:26:28.680Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/Dd3HI8jlokt"
     },
     "x": {
       "actif": true,
@@ -168,6 +168,22 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=33184",
+      "titre": "Le Hasparren Athletic Club forme 90 % de ses joueurs",
+      "lien": "https://passion-aquitaine.ouest-france.fr/hasparren-athletic-club-modele-formateur/",
+      "at": "2026-09-29T06:26:28.680Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Un club peut-il tenir son rang sans recruter ? À Hasparren, à 25 km de Bayonne, l’Athletic Club forme 🏉 90 % de ses joueurs en interne, et compose avec l’un des plus petits budgets de sa division. Le pari de la formation plutôt que du portefeuille. Vous connaissiez ce club basque ?\n@francerugby @paysbasque_net",
+          "image": null,
+          "mode": "lien",
+          "reponse": null,
+          "sujet": "Hasparren",
+          "publieLe": "2026-09-29T06:26:28.680Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35338",
       "titre": "À Anglet, une chapelle de paille survit depuis 1847",
@@ -407,57 +423,19 @@
           "publieLe": "2026-09-26T10:23:43.733Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35642",
-      "titre": "En Charente-Maritime, nouveau succès pour l’Ultra Trail de Pons",
-      "lien": "https://passion-aquitaine.ouest-france.fr/bilan-ultra-trail-pons-2026/",
-      "at": "2026-09-25T19:12:23.786Z",
-      "reseaux": {
-        "bluesky": {
-          "texte": "L’Ultra Trail de #Pons n’attire plus seulement les habitués de Charente-Maritime : parmi les 🏅 2 740 inscrits de l’édition 2026, certains sont venus du Canada ou de La Réunion. Un record pour cette course de Saintonge.\n➡️ Lire l’article",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-1bda31df-bsky.jpg",
-          "mode": "image",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-24T16:33:50.685Z"
-        },
-        "threads": {
-          "texte": "Des chemins de Saintonge, des dossards par milliers et des accents venus de très loin. À Pons, 2 740 personnes se sont inscrites à l’Ultra Trail, certaines depuis le Canada ou La Réunion. L’édition 2026 devient la plus fournie que la course ait connue 🏃",
-          "image": null,
-          "mode": "lien",
-          "reponse": null,
-          "sujet": "Pons",
-          "publieLe": "2026-09-25T05:31:21.817Z"
-        },
-        "x": {
-          "texte": "🏃 Comment une course de Charente-Maritime attire-t-elle des coureurs du Canada et de La Réunion ? L’Ultra Trail de #Pons a réuni 2 740 inscrits pour son édition 2026, un record.\n➡️ https://passion-aquitaine.ouest-france.fr/bilan-ultra-trail-pons-2026/",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-1bda31df-x.jpg",
-          "mode": "lien",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-25T07:21:25.943Z"
-        },
-        "instagram": {
-          "texte": "Des chemins de Saintonge foulés par des coureurs arrivés du Canada et de La Réunion 🌍\n⠀\nL’Ultra Trail de Pons a rassemblé 2 740 inscrits pour son édition 2026, un record pour cette course de Charente-Maritime.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Pons #UltraTrail #CharenteMaritime",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-1bda31df-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-25T17:27:59.215Z"
-        },
-        "facebook": {
-          "texte": "Qu’est-ce qui pousse 2 740 coureurs, dont certains venus de La Réunion, à s’aligner sur les chemins de Pons 🥾",
-          "image": null,
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-25T19:12:23.786Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "threads",
+      "at": "2026-09-29T06:26:28.680Z",
+      "titre": "Le Hasparren Athletic Club forme 90 % de ses joueurs",
+      "lien": "https://passion-aquitaine.ouest-france.fr/hasparren-athletic-club-modele-formateur/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/Dd3HI8jlokt",
+      "format": "lien",
+      "texte": "Un club peut-il tenir son rang sans recruter ? À Hasparren, à 25 km de Bayonne, l’Athletic Club forme 🏉 90 % de ses joueurs en interne, et compose avec l’un des plus petits budgets de sa division. Le pari de la formation plutôt que du portefeuille. Vous connaissiez ce club basque ?\n@francerugby @paysbasque_net",
+      "image": null
+    },
     {
       "channel": "instagram",
       "at": "2026-09-28T11:03:55.148Z",
@@ -547,28 +525,9 @@
       "format": "image",
       "texte": "Une visite à #Pau réserve une découverte inattendue : la troisième plus ancienne église orthodoxe de France, devancée seulement par Nice et Paris. De quoi comprendre en une halte le passé cosmopolite de la ville 🕍\n@fond-patrimoine.bsky.social\n➡️ Lire l’article",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20260927-81d8a18c-bsky.jpg"
-    },
-    {
-      "channel": "x",
-      "at": "2026-09-27T07:20:49.412Z",
-      "titre": "Pau abrite la 3e plus vieille église orthodoxe de France",
-      "lien": "https://passion-aquitaine.ouest-france.fr/plus-belles-eglises-pau-histoire/",
-      "lienPost": null,
-      "format": "lien",
-      "texte": "Des icônes et un passé venu de l’Est au cœur du Béarn 🕯️ #Pau abrite la troisième plus ancienne église orthodoxe de France, juste derrière Nice et Paris. Le témoin d’une ville longtemps cosmopolite.\n➡️ https://passion-aquitaine.ouest-france.fr/plus-belles-eglises-pau-histoire/",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20260927-81d8a18c-x.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "threads",
-      "dueAt": "2026-09-29T06:25:44.063Z",
-      "prochainPassage": "2026-09-29T07:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Le Hasparren Athletic Club forme 90 % de ses joueurs"
-    },
     {
       "channel": "facebook",
       "dueAt": "2026-09-29T07:06:14.846Z",
@@ -724,7 +683,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-29T06:01:23.472Z",
+    "genereLe": "2026-09-29T06:26:35.387Z",
     "posts": 75,
     "parReseau": {
       "instagram": {
@@ -898,7 +857,7 @@
       "bluesky": 21,
       "x": 21,
       "facebook": 18,
-      "threads": 18
+      "threads": 19
     },
     "abonnes": {
       "instagram": {

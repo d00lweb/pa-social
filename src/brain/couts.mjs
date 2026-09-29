@@ -9,15 +9,19 @@ import { alerteBudget, alerteIa } from '../channels/messages.mjs';
 // « à la main » sous-évalue. Pour le montant réellement facturé, voir scripts/couts-console.mjs.
 const TZ = config.timezone;
 
-// $ par million de jetons (grille publique Anthropic, relevée le 23/09/2026)
+// $ par million de jetons (grille publique Anthropic, relevée le 29/09/2026). Un modèle absent de
+// cette table est compté au tarif Opus 5 : Sonnet 5.5 l'aurait été, 2,5 fois trop cher.
+// `cacheLu` : part du prix d'entrée facturée à la lecture de cache, quand elle n'est pas de 10 %.
 export const TARIFS = {
+  'claude-opus-5-5': { entree: 4, sortie: 20, cacheLu: 0.05 },
   'claude-opus-5': { entree: 5, sortie: 25 },
   'claude-opus-4-8': { entree: 5, sortie: 25 },
+  'claude-sonnet-5-5': { entree: 2, sortie: 10 },
   'claude-sonnet-5': { entree: 2, sortie: 10 },
   'claude-haiku-4-5': { entree: 1, sortie: 5 },
 };
 export const TARIF_DEFAUT = TARIFS['claude-opus-5'];
-// Lecture de cache : 10 % du prix d'entrée. Écriture : 125 %.
+// Lecture de cache : 10 % du prix d'entrée (5 % sur Opus 5.5). Écriture : 125 %.
 const CACHE_LU = 0.1;
 const CACHE_ECRIT = 1.25;
 
@@ -36,7 +40,7 @@ export const tarifDe = (modele) => TARIFS[modele] ?? TARIFS[String(modele ?? '')
 export function cout(usage, modele) {
   const t = tarifDe(modele);
   const j = jetons(usage);
-  return (j.entree * t.entree + j.cacheLu * t.entree * CACHE_LU + j.cacheEcrit * t.entree * CACHE_ECRIT + j.sortie * t.sortie) / 1e6;
+  return (j.entree * t.entree + j.cacheLu * t.entree * (t.cacheLu ?? CACHE_LU) + j.cacheEcrit * t.entree * CACHE_ECRIT + j.sortie * t.sortie) / 1e6;
 }
 
 // Ajoute un appel au relevé du jour, sans jamais faire échouer la publication

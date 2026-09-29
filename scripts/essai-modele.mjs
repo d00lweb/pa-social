@@ -1,8 +1,8 @@
 // Essai comparatif de modèles sur de vrais articles, par le chemin de production.
 //
-//   npm run essai:modele                      10 articles, Opus bas / Sonnet bas / Sonnet haut
+//   npm run essai:modele                      10 articles, Opus 5 bas / Sonnet 5.5 bas / Sonnet 5.5 haut
 //   npm run essai:modele -- 6                 6 articles
-//   npm run essai:modele -- 10 claude-sonnet-5:high
+//   npm run essai:modele -- 10 claude-sonnet-5-5:high
 //
 // Chaque dossier passe par buildDossier : même consigne, mêmes contrôles éditoriaux, mêmes trois
 // tentatives, même réparation des défauts mécaniques. Ce qui est mesuré est donc ce qui serait
@@ -26,8 +26,8 @@ const arms = process.argv.slice(3).length
   ? process.argv.slice(3).map((a) => { const [modele, effort = 'low'] = a.split(':'); return { modele, effort }; })
   : [
     { modele: 'claude-opus-5', effort: 'low' },
-    { modele: 'claude-sonnet-5', effort: 'low' },
-    { modele: 'claude-sonnet-5', effort: 'high' },
+    { modele: 'claude-sonnet-5-5', effort: 'low' },
+    { modele: 'claude-sonnet-5-5', effort: 'high' },
   ];
 
 const nom = ({ modele, effort }) => `${modele.replace('claude-', '')} · effort ${effort}`;

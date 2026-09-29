@@ -65,6 +65,17 @@ test('modèle daté : le tarif est retrouvé, pas celui d’Opus par défaut', a
   assert.deepEqual(tarifDe('modèle-inconnu'), TARIFS['claude-opus-5'], 'modèle inconnu : le tarif le plus cher, jamais une sous-estimation');
 });
 
+test('Sonnet 5.5 et Opus 5.5 : comptés à leur prix, pas à celui d’Opus 5 par défaut', async () => {
+  const { cout, tarifDe, TARIFS } = await import('../src/brain/couts.mjs');
+  // 29/09/2026 : absent de la table, Sonnet 5.5 aurait été compté au tarif Opus 5, 2,5 fois trop cher
+  assert.deepEqual(tarifDe('claude-sonnet-5-5'), { entree: 2, sortie: 10 });
+  assert.deepEqual(tarifDe('claude-sonnet-5-5'), TARIFS['claude-sonnet-5'], 'même prix par jeton que Sonnet 5');
+  const usage = { input_tokens: 10000, output_tokens: 2000, cache_read_input_tokens: 10000 };
+  assert.equal(Math.round(cout(usage, 'claude-sonnet-5-5') * 1e4) / 1e4, 0.042, '10 000 × 2 + 10 000 × 0,2 + 2 000 × 10 millionièmes');
+  // Opus 5.5 facture la lecture de cache 5 % du prix d'entrée, pas 10 %
+  assert.equal(Math.round(cout(usage, 'claude-opus-5-5') * 1e4) / 1e4, 0.082, '10 000 × 4 + 10 000 × 0,2 + 2 000 × 20 millionièmes');
+});
+
 test('rédacteur injoignable : une alerte par jour, et le manque de crédit est nommé', async () => {
   const { signalerIaIndisponible } = await import('../src/brain/couts.mjs');
   const envoyes = [];

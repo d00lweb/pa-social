@@ -73,10 +73,13 @@ jobs:
 
       # Une exécution mise en file d'attente repart du dépôt tel qu'il était à son déclenchement :
       # sans ce rafraîchissement, elle ne voit pas les publications faites entre-temps et les refait.
+      # L'état repris est gardé de côté : la fusion du relevé des coûts y lit ce que l'exécution a
+      # dépensé elle-même, pour l'ajouter au relevé du dépôt au lieu de le remplacer.
       - name: Reprendre l'état publié le plus récent
         run: |
           git fetch -q origin main
           git checkout -q origin/main -- state/
+          rm -rf /tmp/etat-base && cp -a state /tmp/etat-base
           echo "État repris : $(git log -1 --format='%h %ad' --date=format:'%d/%m %H:%M' origin/main -- state/)"
 
       - name: Publier
@@ -97,7 +100,7 @@ jobs:
             rm -rf /tmp/etat-local && cp -a state /tmp/etat-local
             git fetch -q origin main
             git reset -q --hard origin/main
-            node scripts/fusion-etat.mjs /tmp/etat-local
+            node scripts/fusion-etat.mjs /tmp/etat-local /tmp/etat-base
             if [ -z "$(git status --porcelain -- state/)" ]; then
               echo "État inchangé."
               exit 0

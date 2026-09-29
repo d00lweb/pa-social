@@ -496,5 +496,62 @@
     "instagram": [],
     "bluesky": [],
     "threads": []
+  },
+  "commune:mairie:hasparren": {
+    "v": 2,
+    "cherche": "2026-09-29T06:01:07.890Z",
+    "instagram": [
+      {
+        "handle": "ville_de_hasparren",
+        "nom": "Ville de Hasparren",
+        "abonnes": 1894,
+        "preuve": 2
+      }
+    ],
+    "x": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:hasparren:rugby": {
+    "v": 2,
+    "cherche": "2026-09-29T06:01:07.890Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "domaine:rugby": {
+    "v": 2,
+    "cherche": "2026-09-29T06:01:07.890Z",
+    "instagram": [
+      {
+        "handle": "francerugby",
+        "nom": "France Rugby",
+        "abonnes": 1368131,
+        "preuve": 2
+      }
+    ],
+    "bluesky": [
+      {
+        "handle": "francerugby.bsky.social",
+        "nom": "France Rugby",
+        "abonnes": 9442,
+        "preuve": 2
+      }
+    ],
+    "threads": [
+      {
+        "handle": "francerugby",
+        "nom": "France Rugby",
+        "abonnes": 1368131,
+        "preuve": 2
+      }
+    ]
+  },
+  "locale:hasparren:sport": {
+    "v": 2,
+    "cherche": "2026-09-29T06:01:07.890Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
   }
 }

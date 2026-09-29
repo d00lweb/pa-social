@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-29T05:20:50.891Z",
+  "genereLe": "2026-09-29T06:00:41.715Z",
   "jour": "2026-09-29",
   "reseaux": {
     "instagram": {
@@ -559,7 +559,53 @@
       "image": "https://passion-aquitaine.ouest-france.fr/social/20260927-81d8a18c-x.jpg"
     }
   ],
-  "file": [],
+  "file": [
+    {
+      "channel": "threads",
+      "dueAt": "2026-09-29T06:25:44.063Z",
+      "prochainPassage": "2026-09-29T07:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Le Hasparren Athletic Club forme 90 % de ses joueurs"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-09-29T07:06:14.846Z",
+      "prochainPassage": "2026-09-29T07:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Le Hasparren Athletic Club forme 90 % de ses joueurs"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-09-29T07:24:56.269Z",
+      "prochainPassage": "2026-09-29T08:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Le Hasparren Athletic Club forme 90 % de ses joueurs"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-09-29T08:00:00.000Z",
+      "prochainPassage": "2026-09-29T08:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Le Hasparren Athletic Club forme 90 % de ses joueurs"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-09-29T10:26:11.299Z",
+      "prochainPassage": "2026-09-29T11:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Le Hasparren Athletic Club forme 90 % de ses joueurs"
+    }
+  ],
   "alertes": [],
   "mesures": {
     "releves": 112,
@@ -678,7 +724,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-29T05:21:00.500Z",
+    "genereLe": "2026-09-29T06:01:23.472Z",
     "posts": 75,
     "parReseau": {
       "instagram": {
@@ -910,29 +956,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 0,
-      "entree": 0,
-      "sortie": 0,
-      "cout": 0,
+      "appels": 2,
+      "entree": 15389,
+      "sortie": 1801,
+      "cout": 0.12197,
       "cle": "2026-09-29"
     },
     "semaine": {
-      "appels": 111,
-      "entree": 779965,
-      "sortie": 221348,
-      "cout": 5.832397
+      "appels": 113,
+      "entree": 795354,
+      "sortie": 223149,
+      "cout": 5.954367
     },
     "mois": {
-      "appels": 111,
-      "entree": 779965,
-      "sortie": 221348,
-      "cout": 5.832397,
+      "appels": 113,
+      "entree": 795354,
+      "sortie": 223149,
+      "cout": 5.954367,
       "cle": "2026-09"
     },
-    "projection": 6.03,
-    "moyenneAppel": 0.0525,
+    "projection": 6.16,
+    "moyenneAppel": 0.0527,
     "parModele": {
-      "claude-opus-5": 60,
+      "claude-opus-5": 62,
       "claude-sonnet-5": 51
     },
     "serie": [
@@ -990,7 +1036,7 @@
       ],
       [
         "2026-09-29",
-        0
+        0.122
       ]
     ],
     "depuis": "2026-09-23"

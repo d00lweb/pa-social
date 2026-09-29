@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-29T07:20:42.263Z",
+  "genereLe": "2026-09-29T07:41:13.486Z",
   "jour": "2026-09-29",
   "reseaux": {
     "instagram": {
@@ -89,7 +89,7 @@
       },
       "formats": null,
       "aujourdhui": 1,
-      "semaine": 12,
+      "semaine": 11,
       "total": 19,
       "dernier": "2026-09-29T07:06:20.693Z",
       "lienDernier": "https://www.facebook.com/1720946116697936/posts/1735301915262356"
@@ -565,7 +565,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 117,
+    "releves": 118,
     "parReseau": {
       "instagram": {
         "posts": 12,
@@ -576,7 +576,7 @@
         "interactionsMoyennes": 0.6
       },
       "facebook": {
-        "posts": 7,
+        "posts": 8,
         "interactionsMoyennes": 1
       },
       "threads": {
@@ -681,7 +681,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-29T07:25:10.607Z",
+    "genereLe": "2026-09-29T07:41:19.035Z",
     "posts": 78,
     "parReseau": {
       "instagram": {

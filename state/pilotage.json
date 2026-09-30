@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-30T11:20:41.078Z",
+  "genereLe": "2026-09-30T12:01:01.490Z",
   "jour": "2026-09-30",
   "reseaux": {
     "instagram": {
@@ -25,7 +25,7 @@
       },
       "formats": null,
       "aujourdhui": 1,
-      "semaine": 12,
+      "semaine": 11,
       "total": 25,
       "dernier": "2026-09-30T11:05:12.329Z",
       "lienDernier": "https://www.instagram.com/p/Dd6L4p0E7US/"
@@ -562,11 +562,11 @@
   "file": [],
   "alertes": [],
   "mesures": {
-    "releves": 126,
+    "releves": 127,
     "parReseau": {
       "instagram": {
-        "posts": 13,
-        "interactionsMoyennes": 24.2
+        "posts": 14,
+        "interactionsMoyennes": 24.9
       },
       "bluesky": {
         "posts": 12,
@@ -639,7 +639,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-09-30T11:00:56.144Z"
+    "derniere": "2026-09-30T12:01:01.490Z"
   },
   "abonnes": {
     "instagram": {
@@ -678,7 +678,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-30T11:20:52.397Z",
+    "genereLe": "2026-09-30T12:01:08.380Z",
     "posts": 83,
     "parReseau": {
       "instagram": {
@@ -723,7 +723,7 @@
     "parCreneau": {
       "après-midi": {
         "posts": 20,
-        "moyenne": 17.9
+        "moyenne": 17.8
       },
       "soir": {
         "posts": 17,
@@ -738,7 +738,7 @@
       "instagram": {
         "12 h – 13 h 30": {
           "posts": 11,
-          "moyenne": 30.9
+          "moyenne": 30.8
         },
         "18 h – 19 h 30": {
           "posts": 6,
@@ -800,7 +800,7 @@
         }
       }
     },
-    "interactionsTotal": 737,
+    "interactionsTotal": 736,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35605",
       "channel": "instagram",
@@ -902,7 +902,7 @@
       "facebook": 0
     },
     "conseils": [
-      "Instagram : le créneau 12 h – 13 h 30 fait 1,6 fois mieux que 18 h – 19 h 30 (30.9 contre 19.8 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
+      "Instagram : le créneau 12 h – 13 h 30 fait 1,6 fois mieux que 18 h – 19 h 30 (30.8 contre 19.8 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Bluesky : le créneau 12 h – 13 h 30 fait 3,3 fois mieux que 8 h – 9 h 30 (1 contre 0.3 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Facebook : le créneau 8 h – 9 h 30 fait 1,7 fois mieux que 20 h – 21 h 30 (0.5 contre 0.3 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Threads : le créneau 7 h – 8 h 30 fait 4,1 fois mieux que 13 h – 14 h 30 (12.4 contre 3 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json."

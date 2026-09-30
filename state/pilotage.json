@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-30T08:00:45.999Z",
+  "genereLe": "2026-09-30T08:20:47.988Z",
   "jour": "2026-09-30",
   "reseaux": {
     "instagram": {
@@ -160,10 +160,10 @@
         "lien",
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 10,
-      "total": 22,
-      "dernier": "2026-09-29T08:00:59.158Z",
+      "aujourdhui": 1,
+      "semaine": 11,
+      "total": 23,
+      "dernier": "2026-09-30T08:20:58.932Z",
       "lienDernier": null
     }
   },
@@ -172,7 +172,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35391",
       "titre": "À Bordeaux, la chasse aux champignons démarre après les premières pluies",
       "lien": "https://passion-aquitaine.ouest-france.fr/champignons-pluies-automne-bordeaux/",
-      "at": "2026-09-30T07:27:48.941Z",
+      "at": "2026-09-30T08:20:58.932Z",
       "reseaux": {
         "bluesky": {
           "texte": "🌧️ Pourquoi guetter la pluie cet automne autour de #Bordeaux ? Parce que les premières averses relancent la traque aux champignons en Gironde, avec en ligne de mire le fameux cèpe qui porte le nom de la ville.\n@villedebordeaux.bsky.social @departementgironde.bsky.social\n➡️ Lire l’article",
@@ -197,6 +197,14 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-09-30T07:27:48.941Z"
+        },
+        "x": {
+          "texte": "#Bordeaux et la Gironde se remettent à fouiller les sous-bois : avec les premières pluies d’automne, 🍄 la chasse au fameux cèpe de Bordeaux reprend.\n➡️ https://passion-aquitaine.ouest-france.fr/champignons-pluies-automne-bordeaux/",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260930-376822fc-x.jpg",
+          "mode": "lien",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-09-30T08:20:58.932Z"
         }
       }
     },
@@ -443,6 +451,16 @@
   ],
   "publications": [
     {
+      "channel": "x",
+      "at": "2026-09-30T08:20:58.932Z",
+      "titre": "À Bordeaux, la chasse aux champignons démarre après les premières pluies",
+      "lien": "https://passion-aquitaine.ouest-france.fr/champignons-pluies-automne-bordeaux/",
+      "lienPost": null,
+      "format": "lien",
+      "texte": "#Bordeaux et la Gironde se remettent à fouiller les sous-bois : avec les premières pluies d’automne, 🍄 la chasse au fameux cèpe de Bordeaux reprend.\n➡️ https://passion-aquitaine.ouest-france.fr/champignons-pluies-automne-bordeaux/",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260930-376822fc-x.jpg"
+    },
+    {
       "channel": "facebook",
       "at": "2026-09-30T07:27:48.941Z",
       "titre": "À Bordeaux, la chasse aux champignons démarre après les premières pluies",
@@ -531,28 +549,9 @@
       "format": null,
       "texte": "🌾 À Anglet, une chapelle tient debout en paille depuis 1847\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Anglet #PaysBasque #Patrimoine",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20260928-3a4003de-1.jpg"
-    },
-    {
-      "channel": "x",
-      "at": "2026-09-28T07:20:50.863Z",
-      "titre": "À Anglet, une chapelle de paille survit depuis 1847",
-      "lien": "https://passion-aquitaine.ouest-france.fr/anglet-chapelle-paille-saint-bernard/",
-      "lienPost": null,
-      "format": "reponse",
-      "texte": "🌾 Une chapelle en paille peut-elle tenir près de deux siècles ? À #Anglet, celle du monastère Saint Bernard a été bâtie ainsi en 1847, puis refaite à l’identique en 2007.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20260928-3a4003de-x.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "x",
-      "dueAt": "2026-09-30T08:20:00.000Z",
-      "prochainPassage": "2026-09-30T08:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "À Bordeaux, la chasse aux champignons démarre après les premières pluies"
-    },
     {
       "channel": "instagram",
       "dueAt": "2026-09-30T11:04:31.673Z",
@@ -642,7 +641,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-09-30T07:00:50.741Z"
+    "derniere": "2026-09-30T08:20:47.988Z"
   },
   "abonnes": {
     "instagram": {
@@ -681,7 +680,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-30T08:00:54.297Z",
+    "genereLe": "2026-09-30T08:21:09.737Z",
     "posts": 82,
     "parReseau": {
       "instagram": {
@@ -853,7 +852,7 @@
     "publies": {
       "instagram": 24,
       "bluesky": 23,
-      "x": 22,
+      "x": 23,
       "facebook": 20,
       "threads": 20
     },

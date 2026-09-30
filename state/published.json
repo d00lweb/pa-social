@@ -1795,5 +1795,23 @@
       "reponse": null,
       "sujet": "Bordeaux"
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35391",
+    "channel": "facebook",
+    "at": "2026-09-30T07:27:48.941Z",
+    "mediaId": "227437307428711_1736436825148865",
+    "titre": "À Bordeaux, la chasse aux champignons démarre après les premières pluies",
+    "lien": "https://passion-aquitaine.ouest-france.fr/champignons-pluies-automne-bordeaux/",
+    "lienPost": "https://www.facebook.com/1720946116697936/posts/1736436825148865",
+    "format": null,
+    "mention": false,
+    "apercu": {
+      "texte": "Un panier, un sous-bois encore humide de pluie et, peut-être, un cèpe de Bordeaux caché sous les feuilles 🧺",
+      "image": null,
+      "mode": null,
+      "reponse": null,
+      "sujet": null
+    }
   }
 ]

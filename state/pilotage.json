@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-30T07:00:50.741Z",
+  "genereLe": "2026-09-30T07:20:40.098Z",
   "jour": "2026-09-30",
   "reseaux": {
     "instagram": {
@@ -61,7 +61,7 @@
         "reply"
       ],
       "aujourdhui": 1,
-      "semaine": 12,
+      "semaine": 11,
       "total": 23,
       "dernier": "2026-09-30T06:23:24.593Z",
       "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mwppf3rtw42t"
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 11,
-      "total": 19,
-      "dernier": "2026-09-29T07:06:20.693Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1735301915262356"
+      "aujourdhui": 1,
+      "semaine": 12,
+      "total": 20,
+      "dernier": "2026-09-30T07:27:48.941Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1736436825148865"
     },
     "threads": {
       "actif": true,
@@ -172,7 +172,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35391",
       "titre": "À Bordeaux, la chasse aux champignons démarre après les premières pluies",
       "lien": "https://passion-aquitaine.ouest-france.fr/champignons-pluies-automne-bordeaux/",
-      "at": "2026-09-30T06:29:07.418Z",
+      "at": "2026-09-30T07:27:48.941Z",
       "reseaux": {
         "bluesky": {
           "texte": "🌧️ Pourquoi guetter la pluie cet automne autour de #Bordeaux ? Parce que les premières averses relancent la traque aux champignons en Gironde, avec en ligne de mire le fameux cèpe qui porte le nom de la ville.\n@villedebordeaux.bsky.social @departementgironde.bsky.social\n➡️ Lire l’article",
@@ -189,6 +189,14 @@
           "reponse": null,
           "sujet": "Bordeaux",
           "publieLe": "2026-09-30T06:29:07.418Z"
+        },
+        "facebook": {
+          "texte": "Un panier, un sous-bois encore humide de pluie et, peut-être, un cèpe de Bordeaux caché sous les feuilles 🧺",
+          "image": null,
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-09-30T07:27:48.941Z"
         }
       }
     },
@@ -435,6 +443,16 @@
   ],
   "publications": [
     {
+      "channel": "facebook",
+      "at": "2026-09-30T07:27:48.941Z",
+      "titre": "À Bordeaux, la chasse aux champignons démarre après les premières pluies",
+      "lien": "https://passion-aquitaine.ouest-france.fr/champignons-pluies-automne-bordeaux/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1736436825148865",
+      "format": null,
+      "texte": "Un panier, un sous-bois encore humide de pluie et, peut-être, un cèpe de Bordeaux caché sous les feuilles 🧺",
+      "image": null
+    },
+    {
       "channel": "threads",
       "at": "2026-09-30T06:29:07.418Z",
       "titre": "À Bordeaux, la chasse aux champignons démarre après les premières pluies",
@@ -523,28 +541,9 @@
       "format": "reponse",
       "texte": "🌾 Une chapelle en paille peut-elle tenir près de deux siècles ? À #Anglet, celle du monastère Saint Bernard a été bâtie ainsi en 1847, puis refaite à l’identique en 2007.",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20260928-3a4003de-x.jpg"
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-09-28T07:05:19.721Z",
-      "titre": "À Anglet, une chapelle de paille survit depuis 1847",
-      "lien": "https://passion-aquitaine.ouest-france.fr/anglet-chapelle-paille-saint-bernard/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1734176315374916",
-      "format": null,
-      "texte": "À Anglet, on peut voir une chapelle dont les murs sont faits de paille, une technique conservée depuis 1847 🌾",
-      "image": null
     }
   ],
   "file": [
-    {
-      "channel": "facebook",
-      "dueAt": "2026-09-30T07:27:41.279Z",
-      "prochainPassage": "2026-09-30T08:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "À Bordeaux, la chasse aux champignons démarre après les premières pluies"
-    },
     {
       "channel": "x",
       "dueAt": "2026-09-30T08:20:00.000Z",
@@ -566,14 +565,14 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 122,
+    "releves": 124,
     "parReseau": {
       "instagram": {
         "posts": 13,
         "interactionsMoyennes": 24.2
       },
       "bluesky": {
-        "posts": 11,
+        "posts": 12,
         "interactionsMoyennes": 0.6
       },
       "facebook": {
@@ -682,8 +681,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-30T07:01:06.458Z",
-    "posts": 80,
+    "genereLe": "2026-09-30T07:27:53.594Z",
+    "posts": 81,
     "parReseau": {
       "instagram": {
         "posts": 22,
@@ -698,7 +697,7 @@
         "moyenne": 0.4
       },
       "facebook": {
-        "posts": 18,
+        "posts": 19,
         "moyenne": 0.4
       }
     },
@@ -734,8 +733,8 @@
         "moyenne": 7.7
       },
       "matin": {
-        "posts": 44,
-        "moyenne": 5.7
+        "posts": 45,
+        "moyenne": 5.5
       }
     },
     "parCreneauReseau": {
@@ -777,7 +776,7 @@
           "moyenne": 1
         },
         "8 h – 9 h 30": {
-          "posts": 10,
+          "posts": 11,
           "moyenne": 0.5
         },
         "20 h – 21 h 30": {
@@ -825,21 +824,21 @@
     },
     "moinsBon": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=33184",
-      "channel": "threads",
-      "mediaId": "17936397864382799",
-      "publieLe": "2026-09-29T06:26:28.680Z",
+      "channel": "facebook",
+      "mediaId": "227437307428711_1735301915262356",
+      "publieLe": "2026-09-29T07:06:20.693Z",
       "jalon": 1,
-      "releveLe": "2026-09-30T07:00:50.741Z",
+      "releveLe": "2026-09-30T07:20:40.098Z",
       "likes": 0,
       "commentaires": 0,
       "partages": 0,
-      "vues": 139,
+      "vues": null,
       "titre": "Le Hasparren Athletic Club forme 90 % de ses joueurs",
-      "lien": "https://www.threads.com/@lovaquitaine/post/Dd3HI8jlokt",
-      "format": "lien",
-      "mention": true,
+      "lien": "https://www.facebook.com/1720946116697936/posts/1735301915262356",
+      "format": null,
+      "mention": false,
       "creneau": "matin",
-      "creneauReseau": "7 h – 8 h 30"
+      "creneauReseau": "8 h – 9 h 30"
     },
     "mentions": {
       "avec": {
@@ -847,15 +846,15 @@
         "moyenne": 12.7
       },
       "sans": {
-        "posts": 65,
-        "moyenne": 8.4
+        "posts": 66,
+        "moyenne": 8.2
       }
     },
     "publies": {
       "instagram": 24,
       "bluesky": 23,
       "x": 22,
-      "facebook": 19,
+      "facebook": 20,
       "threads": 20
     },
     "abonnes": {

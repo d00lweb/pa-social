@@ -1,6 +1,6 @@
 {
-  "genereLe": "2026-09-30T21:20:50.158Z",
-  "jour": "2026-09-30",
+  "genereLe": "2026-09-30T22:00:48.027Z",
+  "jour": "2026-10-01",
   "reseaux": {
     "instagram": {
       "actif": true,
@@ -24,7 +24,7 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 1,
+      "aujourdhui": 0,
       "semaine": 10,
       "total": 25,
       "dernier": "2026-09-30T11:05:12.329Z",
@@ -60,7 +60,7 @@
         "image",
         "reply"
       ],
-      "aujourdhui": 1,
+      "aujourdhui": 0,
       "semaine": 10,
       "total": 23,
       "dernier": "2026-09-30T06:23:24.593Z",
@@ -88,7 +88,7 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 1,
+      "aujourdhui": 0,
       "semaine": 11,
       "total": 20,
       "dernier": "2026-09-30T07:27:48.941Z",
@@ -124,7 +124,7 @@
         "lien",
         "reponse"
       ],
-      "aujourdhui": 1,
+      "aujourdhui": 0,
       "semaine": 11,
       "total": 20,
       "dernier": "2026-09-30T06:29:07.418Z",
@@ -160,7 +160,7 @@
         "lien",
         "reponse"
       ],
-      "aujourdhui": 1,
+      "aujourdhui": 0,
       "semaine": 10,
       "total": 23,
       "dernier": "2026-09-30T08:20:58.932Z",
@@ -582,9 +582,11 @@
       }
     }
   },
-  "rapports": [],
+  "rapports": [
+    "2026-09"
+  ],
   "jetons": {
-    "verifieLe": "2026-09-29T22:00:46.451Z",
+    "verifieLe": "2026-09-30T22:00:48.027Z",
     "meta": {
       "expireLe": "2026-12-16T20:08:59.000Z",
       "restant": 86,
@@ -592,7 +594,7 @@
     },
     "threads": {
       "expireLe": "2026-11-16T21:12:39.531Z",
-      "restant": 48,
+      "restant": 47,
       "renouvellement": "commande npm run threads:refresh"
     },
     "alertes": {}
@@ -644,304 +646,125 @@
   "abonnes": {
     "instagram": {
       "debut": 10145,
-      "fin": 10139,
-      "gain": -6,
+      "fin": 10136,
+      "gain": -9,
       "pct": -0.1,
-      "depuis": "2026-09-23",
-      "au": "2026-09-30"
+      "depuis": "2026-09-24",
+      "au": "2026-10-01"
     },
     "facebook": {
-      "debut": 42616,
-      "fin": 42609,
+      "debut": 42614,
+      "fin": 42607,
       "gain": -7,
       "pct": 0,
-      "depuis": "2026-09-23",
-      "au": "2026-09-30"
+      "depuis": "2026-09-24",
+      "au": "2026-10-01"
     },
     "bluesky": {
       "debut": 3,
       "fin": 4,
       "gain": 1,
       "pct": 33.3,
-      "depuis": "2026-09-23",
-      "au": "2026-09-30"
+      "depuis": "2026-09-24",
+      "au": "2026-10-01"
     },
     "threads": {
       "debut": 1148,
       "fin": 1149,
       "gain": 1,
       "pct": 0.1,
-      "depuis": "2026-09-23",
-      "au": "2026-09-30"
+      "depuis": "2026-09-24",
+      "au": "2026-10-01"
     },
     "x": null
   },
   "rapportEnCours": {
-    "mois": "2026-09",
-    "genereLe": "2026-09-30T21:20:58.832Z",
-    "posts": 83,
-    "parReseau": {
-      "instagram": {
-        "posts": 23,
-        "moyenne": 23.3
+    "mois": "2026-10",
+    "genereLe": "2026-09-30T22:01:00.052Z",
+    "posts": 0,
+    "parReseau": {},
+    "parFormat": {},
+    "parCreneau": {},
+    "parCreneauReseau": {},
+    "interactionsTotal": 0,
+    "meilleur": null,
+    "moinsBon": null,
+    "mentions": {
+      "avec": {
+        "posts": 0,
+        "moyenne": 0
       },
-      "threads": {
-        "posts": 19,
-        "moyenne": 9.8
-      },
-      "bluesky": {
-        "posts": 22,
-        "moyenne": 0.4
-      },
-      "facebook": {
-        "posts": 19,
-        "moyenne": 0.4
-      }
-    },
-    "parFormat": {
-      "reponse": {
-        "posts": 7,
-        "moyenne": 25.4
-      },
-      "reply": {
-        "posts": 6,
-        "moyenne": 1.2
-      },
-      "lien": {
-        "posts": 8,
-        "moyenne": 0.8
-      },
-      "image": {
-        "posts": 12,
-        "moyenne": 0.2
-      },
-      "card": {
-        "posts": 4,
+      "sans": {
+        "posts": 0,
         "moyenne": 0
       }
     },
-    "parCreneau": {
-      "après-midi": {
-        "posts": 20,
-        "moyenne": 17.8
-      },
-      "soir": {
-        "posts": 17,
-        "moyenne": 7.9
-      },
-      "matin": {
-        "posts": 46,
-        "moyenne": 5.4
-      }
-    },
-    "parCreneauReseau": {
-      "instagram": {
-        "12 h – 13 h 30": {
-          "posts": 11,
-          "moyenne": 30.8
-        },
-        "18 h – 19 h 30": {
-          "posts": 6,
-          "moyenne": 20.3
-        },
-        "hors créneau": {
-          "posts": 6,
-          "moyenne": 12.5
-        }
-      },
-      "bluesky": {
-        "12 h – 13 h 30": {
-          "posts": 3,
-          "moyenne": 1
-        },
-        "hors créneau": {
-          "posts": 4,
-          "moyenne": 0.5
-        },
-        "8 h – 9 h 30": {
-          "posts": 13,
-          "moyenne": 0.3
-        },
-        "18 h – 19 h 30": {
-          "posts": 2,
-          "moyenne": 0
-        }
-      },
-      "facebook": {
-        "hors créneau": {
-          "posts": 1,
-          "moyenne": 1
-        },
-        "8 h – 9 h 30": {
-          "posts": 11,
-          "moyenne": 0.5
-        },
-        "20 h – 21 h 30": {
-          "posts": 7,
-          "moyenne": 0.3
-        }
-      },
-      "threads": {
-        "7 h – 8 h 30": {
-          "posts": 11,
-          "moyenne": 12.4
-        },
-        "10 h – 11 h 30": {
-          "posts": 3,
-          "moyenne": 12.3
-        },
-        "13 h – 14 h 30": {
-          "posts": 4,
-          "moyenne": 3
-        },
-        "hors créneau": {
-          "posts": 1,
-          "moyenne": 1
-        }
-      }
-    },
-    "interactionsTotal": 739,
-    "meilleur": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35605",
-      "channel": "instagram",
-      "mediaId": "17967669675172011",
-      "publieLe": "2026-09-22T10:05:25.139Z",
-      "jalon": 7,
-      "releveLe": "2026-09-29T10:20:42.252Z",
-      "likes": 130,
-      "commentaires": 31,
-      "partages": null,
-      "vues": null,
-      "titre": "À Bordeaux, 200 danseurs pour un French Cancan géant sur le Miroir d’Eau",
-      "lien": "https://www.instagram.com/p/Ddler9vkzj2/",
-      "format": null,
-      "mention": false,
-      "creneau": "après-midi",
-      "creneauReseau": "12 h – 13 h 30"
-    },
-    "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=33184",
-      "channel": "bluesky",
-      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mwncebdt2i2a",
-      "publieLe": "2026-09-29T07:24:58.824Z",
-      "jalon": 1,
-      "releveLe": "2026-09-30T08:00:45.999Z",
-      "likes": 0,
-      "commentaires": 0,
-      "partages": 0,
-      "vues": null,
-      "titre": "Le Hasparren Athletic Club forme 90 % de ses joueurs",
-      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mwncebdt2i2a",
-      "format": "image",
-      "mention": true,
-      "creneau": "matin",
-      "creneauReseau": "8 h – 9 h 30"
-    },
-    "mentions": {
-      "avec": {
-        "posts": 17,
-        "moyenne": 11.4
-      },
-      "sans": {
-        "posts": 66,
-        "moyenne": 8.3
-      }
-    },
-    "publies": {
-      "instagram": 25,
-      "bluesky": 23,
-      "x": 23,
-      "facebook": 20,
-      "threads": 20
-    },
+    "publies": {},
     "abonnes": {
       "instagram": {
-        "debut": 10146,
-        "fin": 10139,
-        "gain": -7,
-        "pct": -0.1,
-        "depuis": "2026-09-18",
-        "au": "2026-09-30"
-      },
-      "facebook": {
-        "debut": 42626,
-        "fin": 42609,
-        "gain": -17,
-        "pct": 0,
-        "depuis": "2026-09-18",
-        "au": "2026-09-30"
-      },
-      "bluesky": {
-        "debut": 1,
-        "fin": 4,
-        "gain": 3,
-        "pct": 300,
-        "depuis": "2026-09-18",
-        "au": "2026-09-30"
-      },
-      "threads": {
-        "debut": 1144,
-        "fin": 1149,
-        "gain": 5,
-        "pct": 0.4,
-        "depuis": "2026-09-18",
-        "au": "2026-09-30"
-      },
-      "x": {
-        "debut": 2940,
-        "fin": 2940,
+        "debut": 10136,
+        "fin": 10136,
         "gain": 0,
         "pct": 0,
-        "depuis": "2026-09-18",
-        "au": "2026-09-18"
-      }
+        "depuis": "2026-10-01",
+        "au": "2026-10-01"
+      },
+      "facebook": {
+        "debut": 42607,
+        "fin": 42607,
+        "gain": 0,
+        "pct": 0,
+        "depuis": "2026-10-01",
+        "au": "2026-10-01"
+      },
+      "bluesky": {
+        "debut": 4,
+        "fin": 4,
+        "gain": 0,
+        "pct": 0,
+        "depuis": "2026-10-01",
+        "au": "2026-10-01"
+      },
+      "threads": {
+        "debut": 1149,
+        "fin": 1149,
+        "gain": 0,
+        "pct": 0,
+        "depuis": "2026-10-01",
+        "au": "2026-10-01"
+      },
+      "x": null
     },
-    "engagement": {
-      "instagram": 0.23,
-      "threads": 0.85,
-      "facebook": 0
-    },
+    "engagement": {},
     "conseils": [
-      "Instagram : le créneau 12 h – 13 h 30 fait 1,5 fois mieux que 18 h – 19 h 30 (30.8 contre 20.3 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
-      "Bluesky : le créneau 12 h – 13 h 30 fait 3,3 fois mieux que 8 h – 9 h 30 (1 contre 0.3 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
-      "Facebook : le créneau 8 h – 9 h 30 fait 1,7 fois mieux que 20 h – 21 h 30 (0.5 contre 0.3 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
-      "Threads : le créneau 7 h – 8 h 30 fait 4,1 fois mieux que 13 h – 14 h 30 (12.4 contre 3 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json."
+      "Trop peu de recul pour conseiller quoi que ce soit : il faut une dizaine de posts mesurés."
     ]
   },
   "couts": {
     "jour": {
-      "appels": 1,
-      "entree": 7672,
-      "sortie": 803,
-      "cout": 0.046748,
-      "cle": "2026-09-30"
+      "appels": 0,
+      "entree": 0,
+      "sortie": 0,
+      "cout": 0,
+      "cle": "2026-10-01"
     },
     "semaine": {
-      "appels": 37,
-      "entree": 279215,
-      "sortie": 33296,
-      "cout": 1.7007869999999998
+      "appels": 31,
+      "entree": 237305,
+      "sortie": 28156,
+      "cout": 1.3627369999999999
     },
     "mois": {
-      "appels": 133,
-      "entree": 949487,
-      "sortie": 240890,
-      "cout": 6.640869,
-      "cle": "2026-09"
+      "appels": 0,
+      "entree": 0,
+      "sortie": 0,
+      "cout": 0,
+      "cle": "2026-10"
     },
-    "projection": 6.64,
-    "moyenneAppel": 0.0499,
-    "parModele": {
-      "claude-opus-5": 62,
-      "claude-sonnet-5": 51,
-      "claude-opus-5-5": 8,
-      "claude-sonnet-5-5": 12
-    },
+    "projection": 0,
+    "moyenneAppel": 0,
+    "parModele": {},
     "serie": [
-      [
-        "2026-09-17",
-        0
-      ],
       [
         "2026-09-18",
         0
@@ -993,6 +816,10 @@
       [
         "2026-09-30",
         0.0467
+      ],
+      [
+        "2026-10-01",
+        0
       ]
     ],
     "depuis": "2026-09-23"

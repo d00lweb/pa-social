@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-30T07:20:40.098Z",
+  "genereLe": "2026-09-30T08:00:45.999Z",
   "jour": "2026-09-30",
   "reseaux": {
     "instagram": {
@@ -161,7 +161,7 @@
         "reponse"
       ],
       "aujourdhui": 0,
-      "semaine": 11,
+      "semaine": 10,
       "total": 22,
       "dernier": "2026-09-29T08:00:59.158Z",
       "lienDernier": null
@@ -565,7 +565,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 124,
+    "releves": 125,
     "parReseau": {
       "instagram": {
         "posts": 13,
@@ -681,8 +681,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-30T07:27:53.594Z",
-    "posts": 81,
+    "genereLe": "2026-09-30T08:00:54.297Z",
+    "posts": 82,
     "parReseau": {
       "instagram": {
         "posts": 22,
@@ -693,7 +693,7 @@
         "moyenne": 9.8
       },
       "bluesky": {
-        "posts": 21,
+        "posts": 22,
         "moyenne": 0.4
       },
       "facebook": {
@@ -715,7 +715,7 @@
         "moyenne": 0.8
       },
       "image": {
-        "posts": 11,
+        "posts": 12,
         "moyenne": 0.2
       },
       "card": {
@@ -733,8 +733,8 @@
         "moyenne": 7.7
       },
       "matin": {
-        "posts": 45,
-        "moyenne": 5.5
+        "posts": 46,
+        "moyenne": 5.4
       }
     },
     "parCreneauReseau": {
@@ -762,7 +762,7 @@
           "moyenne": 0.5
         },
         "8 h – 9 h 30": {
-          "posts": 12,
+          "posts": 13,
           "moyenne": 0.3
         },
         "18 h – 19 h 30": {
@@ -824,26 +824,26 @@
     },
     "moinsBon": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=33184",
-      "channel": "facebook",
-      "mediaId": "227437307428711_1735301915262356",
-      "publieLe": "2026-09-29T07:06:20.693Z",
+      "channel": "bluesky",
+      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mwncebdt2i2a",
+      "publieLe": "2026-09-29T07:24:58.824Z",
       "jalon": 1,
-      "releveLe": "2026-09-30T07:20:40.098Z",
+      "releveLe": "2026-09-30T08:00:45.999Z",
       "likes": 0,
       "commentaires": 0,
       "partages": 0,
       "vues": null,
       "titre": "Le Hasparren Athletic Club forme 90 % de ses joueurs",
-      "lien": "https://www.facebook.com/1720946116697936/posts/1735301915262356",
-      "format": null,
-      "mention": false,
+      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mwncebdt2i2a",
+      "format": "image",
+      "mention": true,
       "creneau": "matin",
       "creneauReseau": "8 h – 9 h 30"
     },
     "mentions": {
       "avec": {
-        "posts": 15,
-        "moyenne": 12.7
+        "posts": 16,
+        "moyenne": 11.9
       },
       "sans": {
         "posts": 66,

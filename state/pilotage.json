@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-30T06:21:18.114Z",
+  "genereLe": "2026-09-30T07:00:50.741Z",
   "jour": "2026-09-30",
   "reseaux": {
     "instagram": {
@@ -125,7 +125,7 @@
         "reponse"
       ],
       "aujourdhui": 1,
-      "semaine": 12,
+      "semaine": 11,
       "total": 20,
       "dernier": "2026-09-30T06:29:07.418Z",
       "lienDernier": "https://www.threads.com/@lovaquitaine/post/Dd5sPJFGxIu"
@@ -566,7 +566,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 120,
+    "releves": 122,
     "parReseau": {
       "instagram": {
         "posts": 13,
@@ -581,8 +581,8 @@
         "interactionsMoyennes": 1
       },
       "threads": {
-        "posts": 8,
-        "interactionsMoyennes": 20.8
+        "posts": 9,
+        "interactionsMoyennes": 18.4
       }
     }
   },
@@ -643,7 +643,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-09-30T06:00:39.974Z"
+    "derniere": "2026-09-30T07:00:50.741Z"
   },
   "abonnes": {
     "instagram": {
@@ -682,16 +682,16 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-30T06:29:14.981Z",
-    "posts": 79,
+    "genereLe": "2026-09-30T07:01:06.458Z",
+    "posts": 80,
     "parReseau": {
       "instagram": {
         "posts": 22,
         "moyenne": 24.1
       },
       "threads": {
-        "posts": 18,
-        "moyenne": 10.3
+        "posts": 19,
+        "moyenne": 9.8
       },
       "bluesky": {
         "posts": 21,
@@ -712,8 +712,8 @@
         "moyenne": 1.2
       },
       "lien": {
-        "posts": 7,
-        "moyenne": 0.9
+        "posts": 8,
+        "moyenne": 0.8
       },
       "image": {
         "posts": 11,
@@ -734,8 +734,8 @@
         "moyenne": 7.7
       },
       "matin": {
-        "posts": 43,
-        "moyenne": 5.8
+        "posts": 44,
+        "moyenne": 5.7
       }
     },
     "parCreneauReseau": {
@@ -787,8 +787,8 @@
       },
       "threads": {
         "7 h – 8 h 30": {
-          "posts": 10,
-          "moyenne": 13.6
+          "posts": 11,
+          "moyenne": 12.4
         },
         "10 h – 11 h 30": {
           "posts": 3,
@@ -824,27 +824,27 @@
       "creneauReseau": "12 h – 13 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35338",
-      "channel": "facebook",
-      "mediaId": "227437307428711_1734176315374916",
-      "publieLe": "2026-09-28T07:05:19.721Z",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=33184",
+      "channel": "threads",
+      "mediaId": "17936397864382799",
+      "publieLe": "2026-09-29T06:26:28.680Z",
       "jalon": 1,
-      "releveLe": "2026-09-29T07:20:42.263Z",
+      "releveLe": "2026-09-30T07:00:50.741Z",
       "likes": 0,
       "commentaires": 0,
       "partages": 0,
-      "vues": null,
-      "titre": "À Anglet, une chapelle de paille survit depuis 1847",
-      "lien": "https://www.facebook.com/1720946116697936/posts/1734176315374916",
-      "format": null,
-      "mention": false,
+      "vues": 139,
+      "titre": "Le Hasparren Athletic Club forme 90 % de ses joueurs",
+      "lien": "https://www.threads.com/@lovaquitaine/post/Dd3HI8jlokt",
+      "format": "lien",
+      "mention": true,
       "creneau": "matin",
-      "creneauReseau": "8 h – 9 h 30"
+      "creneauReseau": "7 h – 8 h 30"
     },
     "mentions": {
       "avec": {
-        "posts": 14,
-        "moyenne": 13.6
+        "posts": 15,
+        "moyenne": 12.7
       },
       "sans": {
         "posts": 65,
@@ -902,14 +902,14 @@
     },
     "engagement": {
       "instagram": 0.24,
-      "threads": 0.9,
+      "threads": 0.85,
       "facebook": 0
     },
     "conseils": [
       "Instagram : le créneau 12 h – 13 h 30 fait 1,7 fois mieux que 18 h – 19 h 30 (33.6 contre 19.8 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Bluesky : le créneau 12 h – 13 h 30 fait 3,3 fois mieux que 8 h – 9 h 30 (1 contre 0.3 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Facebook : le créneau 8 h – 9 h 30 fait 1,7 fois mieux que 20 h – 21 h 30 (0.5 contre 0.3 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
-      "Threads : le créneau 7 h – 8 h 30 fait 4,5 fois mieux que 13 h – 14 h 30 (13.6 contre 3 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json."
+      "Threads : le créneau 7 h – 8 h 30 fait 4,1 fois mieux que 13 h – 14 h 30 (12.4 contre 3 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json."
     ]
   },
   "couts": {

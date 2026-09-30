@@ -553,5 +553,142 @@
     "instagram": [],
     "threads": [],
     "bluesky": []
+  },
+  "commune:mairie:bordeaux": {
+    "v": 2,
+    "cherche": "2026-09-30T06:00:53.909Z",
+    "instagram": [
+      {
+        "handle": "villedebordeaux",
+        "nom": "Bordeaux",
+        "abonnes": 205109,
+        "preuve": 3
+      }
+    ],
+    "x": [
+      {
+        "handle": "Bordeaux",
+        "nom": "",
+        "abonnes": null,
+        "preuve": 3
+      }
+    ],
+    "threads": [
+      {
+        "handle": "villedebordeaux",
+        "nom": "Bordeaux",
+        "abonnes": 205109,
+        "preuve": 3
+      }
+    ],
+    "bluesky": [
+      {
+        "handle": "villedebordeaux.bsky.social",
+        "nom": "Ville de Bordeaux",
+        "abonnes": 1008,
+        "preuve": 3
+      }
+    ]
+  },
+  "commune:tourisme:bordeaux": {
+    "v": 2,
+    "cherche": "2026-09-30T06:00:53.909Z",
+    "instagram": [
+      {
+        "handle": "visitbordeaux",
+        "nom": "visitbordeaux",
+        "abonnes": 118265,
+        "preuve": 2
+      }
+    ],
+    "x": [],
+    "threads": [
+      {
+        "handle": "visitbordeaux",
+        "nom": "visitbordeaux",
+        "abonnes": 118265,
+        "preuve": 2
+      }
+    ],
+    "bluesky": []
+  },
+  "locale:bordeaux:mycologie": {
+    "v": 2,
+    "cherche": "2026-09-30T06:00:53.909Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "domaine:mycologie": {
+    "v": 2,
+    "cherche": "2026-09-30T06:00:53.909Z",
+    "instagram": [],
+    "bluesky": [],
+    "threads": []
+  },
+  "locale:bordeaux:nature": {
+    "v": 2,
+    "cherche": "2026-09-30T06:00:53.909Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "domaine:nature": {
+    "v": 2,
+    "cherche": "2026-09-30T06:00:53.909Z",
+    "instagram": [],
+    "bluesky": [],
+    "threads": []
+  },
+  "territoire:gironde:departementgironde,girondetourisme": {
+    "v": 2,
+    "cherche": "2026-09-30T06:00:53.909Z",
+    "conseil": {
+      "instagram": [
+        {
+          "handle": "departementgironde",
+          "nom": "Département de la Gironde",
+          "abonnes": 29102,
+          "preuve": 3
+        }
+      ],
+      "threads": [
+        {
+          "handle": "departementgironde",
+          "nom": "Département de la Gironde",
+          "abonnes": 29102,
+          "preuve": 3
+        }
+      ],
+      "bluesky": [
+        {
+          "handle": "departementgironde.bsky.social",
+          "nom": "",
+          "abonnes": null,
+          "preuve": 3
+        }
+      ],
+      "x": [
+        {
+          "handle": "gironde",
+          "nom": "",
+          "abonnes": null,
+          "preuve": 3
+        }
+      ]
+    },
+    "tourisme": {
+      "instagram": [
+        {
+          "handle": "girondetourisme",
+          "nom": "Gironde Tourisme",
+          "abonnes": 25789,
+          "preuve": 3
+        }
+      ],
+      "threads": [],
+      "bluesky": [],
+      "x": []
+    }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-30T05:20:37.387Z",
+  "genereLe": "2026-09-30T06:00:39.974Z",
   "jour": "2026-09-30",
   "reseaux": {
     "instagram": {
@@ -559,7 +559,53 @@
       "image": "https://passion-aquitaine.ouest-france.fr/social/20260928-3a4003de-th.jpg"
     }
   ],
-  "file": [],
+  "file": [
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-09-30T06:23:21.843Z",
+      "prochainPassage": "2026-09-30T07:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "À Bordeaux, la chasse aux champignons démarre après les premières pluies"
+    },
+    {
+      "channel": "threads",
+      "dueAt": "2026-09-30T06:28:22.124Z",
+      "prochainPassage": "2026-09-30T07:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "À Bordeaux, la chasse aux champignons démarre après les premières pluies"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-09-30T07:27:41.279Z",
+      "prochainPassage": "2026-09-30T08:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "À Bordeaux, la chasse aux champignons démarre après les premières pluies"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-09-30T08:20:00.000Z",
+      "prochainPassage": "2026-09-30T08:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "À Bordeaux, la chasse aux champignons démarre après les premières pluies"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-09-30T11:04:31.673Z",
+      "prochainPassage": "2026-09-30T11:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "À Bordeaux, la chasse aux champignons démarre après les premières pluies"
+    }
+  ],
   "alertes": [],
   "mesures": {
     "releves": 120,
@@ -639,7 +685,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-09-30T04:25:38.295Z"
+    "derniere": "2026-09-30T06:00:39.974Z"
   },
   "abonnes": {
     "instagram": {
@@ -678,7 +724,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-30T05:20:43.661Z",
+    "genereLe": "2026-09-30T06:01:12.800Z",
     "posts": 79,
     "parReseau": {
       "instagram": {
@@ -910,31 +956,31 @@
   },
   "couts": {
     "jour": {
-      "appels": 0,
-      "entree": 0,
-      "sortie": 0,
-      "cout": 0,
+      "appels": 1,
+      "entree": 7672,
+      "sortie": 803,
+      "cout": 0.046748,
       "cle": "2026-09-30"
     },
     "semaine": {
-      "appels": 36,
-      "entree": 271543,
-      "sortie": 32493,
-      "cout": 1.6540389999999998
+      "appels": 37,
+      "entree": 279215,
+      "sortie": 33296,
+      "cout": 1.7007869999999998
     },
     "mois": {
-      "appels": 132,
-      "entree": 941815,
-      "sortie": 240087,
-      "cout": 6.594121,
+      "appels": 133,
+      "entree": 949487,
+      "sortie": 240890,
+      "cout": 6.640869,
       "cle": "2026-09"
     },
-    "projection": 6.59,
-    "moyenneAppel": 0.05,
+    "projection": 6.64,
+    "moyenneAppel": 0.0499,
     "parModele": {
       "claude-opus-5": 62,
       "claude-sonnet-5": 51,
-      "claude-opus-5-5": 7,
+      "claude-opus-5-5": 8,
       "claude-sonnet-5-5": 12
     },
     "serie": [
@@ -992,7 +1038,7 @@
       ],
       [
         "2026-09-30",
-        0
+        0.0467
       ]
     ],
     "depuis": "2026-09-23"

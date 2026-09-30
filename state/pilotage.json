@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-30T10:20:36.689Z",
+  "genereLe": "2026-09-30T11:00:56.144Z",
   "jour": "2026-09-30",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 11,
-      "total": 24,
-      "dernier": "2026-09-29T10:26:47.677Z",
-      "lienDernier": "https://www.instagram.com/p/Dd3is5bmDtx/"
+      "aujourdhui": 1,
+      "semaine": 12,
+      "total": 25,
+      "dernier": "2026-09-30T11:05:12.329Z",
+      "lienDernier": "https://www.instagram.com/p/Dd6L4p0E7US/"
     },
     "bluesky": {
       "actif": true,
@@ -172,7 +172,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35391",
       "titre": "À Bordeaux, la chasse aux champignons démarre après les premières pluies",
       "lien": "https://passion-aquitaine.ouest-france.fr/champignons-pluies-automne-bordeaux/",
-      "at": "2026-09-30T08:20:58.932Z",
+      "at": "2026-09-30T11:05:12.329Z",
       "reseaux": {
         "bluesky": {
           "texte": "🌧️ Pourquoi guetter la pluie cet automne autour de #Bordeaux ? Parce que les premières averses relancent la traque aux champignons en Gironde, avec en ligne de mire le fameux cèpe qui porte le nom de la ville.\n@villedebordeaux.bsky.social @departementgironde.bsky.social\n➡️ Lire l’article",
@@ -205,6 +205,14 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-09-30T08:20:58.932Z"
+        },
+        "instagram": {
+          "texte": "Le cèpe porte le nom de Bordeaux, et c’est avec les premières pluies d’automne que sa traque reprend 🍄\n⠀\nEn Gironde, les amateurs de champignons ressortent paniers et couteaux. La saison de cueillette démarre, et le fameux cèpe de Bordeaux reste la prise la plus convoitée.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #Champignons #Automne",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20260930-376822fc-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-09-30T11:05:12.329Z"
         }
       }
     },
@@ -451,6 +459,16 @@
   ],
   "publications": [
     {
+      "channel": "instagram",
+      "at": "2026-09-30T11:05:12.329Z",
+      "titre": "À Bordeaux, la chasse aux champignons démarre après les premières pluies",
+      "lien": "https://passion-aquitaine.ouest-france.fr/champignons-pluies-automne-bordeaux/",
+      "lienPost": "https://www.instagram.com/p/Dd6L4p0E7US/",
+      "format": null,
+      "texte": "Le cèpe porte le nom de Bordeaux, et c’est avec les premières pluies d’automne que sa traque reprend 🍄\n⠀\nEn Gironde, les amateurs de champignons ressortent paniers et couteaux. La saison de cueillette démarre, et le fameux cèpe de Bordeaux reste la prise la plus convoitée.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #Champignons #Automne",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20260930-376822fc-1.jpg"
+    },
+    {
       "channel": "x",
       "at": "2026-09-30T08:20:58.932Z",
       "titre": "À Bordeaux, la chasse aux champignons démarre après les premières pluies",
@@ -539,32 +557,12 @@
       "format": "lien",
       "texte": "Un club peut-il tenir son rang sans recruter ? À Hasparren, à 25 km de Bayonne, l’Athletic Club forme 🏉 90 % de ses joueurs en interne, et compose avec l’un des plus petits budgets de sa division. Le pari de la formation plutôt que du portefeuille. Vous connaissiez ce club basque ?\n@francerugby @paysbasque_net",
       "image": null
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-09-28T11:03:55.148Z",
-      "titre": "À Anglet, une chapelle de paille survit depuis 1847",
-      "lien": "https://passion-aquitaine.ouest-france.fr/anglet-chapelle-paille-saint-bernard/",
-      "lienPost": "https://www.instagram.com/p/Dd1CKFEmAuc/",
-      "format": null,
-      "texte": "🌾 À Anglet, une chapelle tient debout en paille depuis 1847\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Anglet #PaysBasque #Patrimoine",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20260928-3a4003de-1.jpg"
     }
   ],
-  "file": [
-    {
-      "channel": "instagram",
-      "dueAt": "2026-09-30T11:04:31.673Z",
-      "prochainPassage": "2026-09-30T11:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "À Bordeaux, la chasse aux champignons démarre après les premières pluies"
-    }
-  ],
+  "file": [],
   "alertes": [],
   "mesures": {
-    "releves": 125,
+    "releves": 126,
     "parReseau": {
       "instagram": {
         "posts": 13,
@@ -641,7 +639,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-09-30T09:21:00.871Z"
+    "derniere": "2026-09-30T11:00:56.144Z"
   },
   "abonnes": {
     "instagram": {
@@ -680,12 +678,12 @@
   },
   "rapportEnCours": {
     "mois": "2026-09",
-    "genereLe": "2026-09-30T10:20:40.412Z",
-    "posts": 82,
+    "genereLe": "2026-09-30T11:05:23.882Z",
+    "posts": 83,
     "parReseau": {
       "instagram": {
-        "posts": 22,
-        "moyenne": 24.1
+        "posts": 23,
+        "moyenne": 23.2
       },
       "threads": {
         "posts": 19,
@@ -724,8 +722,8 @@
     },
     "parCreneau": {
       "après-midi": {
-        "posts": 19,
-        "moyenne": 18.6
+        "posts": 20,
+        "moyenne": 17.9
       },
       "soir": {
         "posts": 17,
@@ -739,8 +737,8 @@
     "parCreneauReseau": {
       "instagram": {
         "12 h – 13 h 30": {
-          "posts": 10,
-          "moyenne": 33.6
+          "posts": 11,
+          "moyenne": 30.9
         },
         "18 h – 19 h 30": {
           "posts": 6,
@@ -802,7 +800,7 @@
         }
       }
     },
-    "interactionsTotal": 733,
+    "interactionsTotal": 737,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35605",
       "channel": "instagram",
@@ -841,8 +839,8 @@
     },
     "mentions": {
       "avec": {
-        "posts": 16,
-        "moyenne": 11.9
+        "posts": 17,
+        "moyenne": 11.4
       },
       "sans": {
         "posts": 66,
@@ -850,7 +848,7 @@
       }
     },
     "publies": {
-      "instagram": 24,
+      "instagram": 25,
       "bluesky": 23,
       "x": 23,
       "facebook": 20,
@@ -899,12 +897,12 @@
       }
     },
     "engagement": {
-      "instagram": 0.24,
+      "instagram": 0.23,
       "threads": 0.85,
       "facebook": 0
     },
     "conseils": [
-      "Instagram : le créneau 12 h – 13 h 30 fait 1,7 fois mieux que 18 h – 19 h 30 (33.6 contre 19.8 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
+      "Instagram : le créneau 12 h – 13 h 30 fait 1,6 fois mieux que 18 h – 19 h 30 (30.9 contre 19.8 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Bluesky : le créneau 12 h – 13 h 30 fait 3,3 fois mieux que 8 h – 9 h 30 (1 contre 0.3 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Facebook : le créneau 8 h – 9 h 30 fait 1,7 fois mieux que 20 h – 21 h 30 (0.5 contre 0.3 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Threads : le créneau 7 h – 8 h 30 fait 4,1 fois mieux que 13 h – 14 h 30 (12.4 contre 3 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json."

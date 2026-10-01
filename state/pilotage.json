@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-01T05:39:57.643Z",
+  "genereLe": "2026-10-01T06:00:49.511Z",
   "jour": "2026-10-01",
   "reseaux": {
     "instagram": {
@@ -124,11 +124,11 @@
         "lien",
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 11,
-      "total": 20,
-      "dernier": "2026-09-30T06:29:07.418Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/Dd5sPJFGxIu"
+      "aujourdhui": 1,
+      "semaine": 12,
+      "total": 21,
+      "dernier": "2026-10-01T06:13:47.420Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/Dd8O6QekaDi"
     },
     "x": {
       "actif": true,
@@ -168,6 +168,22 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35379",
+      "titre": "À Vouillé, un lieu vieux de 500 ans devient salle de mariage",
+      "lien": "https://passion-aquitaine.ouest-france.fr/nid-de-plumes-vouille-hebergement-insolite/",
+      "at": "2026-10-01T06:13:47.420Z",
+      "reseaux": {
+        "threads": {
+          "texte": "🏛️ Vouillé, dans la Vienne : une ancienne usine de plumes, vieille de 500 ans, change complètement de vocation. Elle s’appelle désormais Le Nid de Plumes et accueille mariages et séminaires. Un joli nom pour un lieu qui garde la mémoire de son passé.\n@leniddeplumes @fondationdupatrimoine",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261001-b7818531-th.jpg",
+          "mode": "reponse",
+          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/nid-de-plumes-vouille-hebergement-insolite/",
+          "sujet": "Vouillé",
+          "publieLe": "2026-10-01T06:13:47.420Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35391",
       "titre": "À Bordeaux, la chasse aux champignons démarre après les premières pluies",
@@ -407,57 +423,19 @@
           "publieLe": "2026-09-27T11:24:24.874Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35661",
-      "titre": "Ce TER de Nouvelle-Aquitaine cache une batterie de 80 km : il remplace son moteur diesel",
-      "lien": "https://passion-aquitaine.ouest-france.fr/ter-batteries-nouvelle-aquitaine-bordeaux-mont-de-marsan/",
-      "at": "2026-09-26T18:11:01.450Z",
-      "reseaux": {
-        "bluesky": {
-          "texte": "🔌 Que devient un train quand la caténaire s’arrête en pleine campagne des #Landes ? Le premier TER à batteries de Nouvelle-Aquitaine, en service entre Bordeaux et Mont-de-Marsan, bascule sur 80 km d’autonomie électrique au lieu de rallumer son diesel.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260925-93e1ab54-bsky.jpg",
-          "mode": "card",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-25T11:08:26.481Z"
-        },
-        "threads": {
-          "texte": "80 kilomètres d’autonomie sur batteries, c’est ce qui sépare désormais ce TER de son ancien moteur diesel 🔋 Il circule entre Bordeaux et Mont-de-Marsan et devient le premier du genre en Nouvelle-Aquitaine. Sur les tronçons sans caténaire, l’électricité stockée prend le relais. Le début d’une longue transition pour le rail régional. Vous monteriez à bord ?\n➡️ https://passion-aquitaine.ouest-france.fr/ter-batteries-nouvelle-aquitaine-bordeaux-mont-de-marsan/",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260925-93e1ab54-th.jpg",
-          "mode": "image",
-          "reponse": null,
-          "sujet": "Mont-de-Marsan",
-          "publieLe": "2026-09-25T11:32:28.277Z"
-        },
-        "x": {
-          "texte": "Entre Bordeaux et Mont-de-Marsan circule le premier TER à batteries de Nouvelle-Aquitaine : 🔋 80 km d’autonomie électrique qui remplacent le moteur diesel sur les portions sans caténaire.\n➡️ https://passion-aquitaine.ouest-france.fr/ter-batteries-nouvelle-aquitaine-bordeaux-mont-de-marsan/",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260925-93e1ab54-x.jpg",
-          "mode": "image",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-25T15:01:12.900Z"
-        },
-        "instagram": {
-          "texte": "Entre Bordeaux et Mont-de-Marsan, un train roule désormais sur 🔋 80 km d’autonomie sans brûler une goutte de diesel\n⠀\nC’est le premier TER à batteries de Nouvelle-Aquitaine. Là où la caténaire s’arrête, l’énergie stockée prend le relais. Une première étape dans la décarbonation du train régional.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#MontDeMarsan #TER #Transports",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260925-93e1ab54-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-26T16:35:03.591Z"
-        },
-        "facebook": {
-          "texte": "Entre Bordeaux et Mont-de-Marsan, un train avance sur 80 km sans le moindre bruit de moteur diesel 🚆",
-          "image": null,
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-26T18:11:01.450Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "threads",
+      "at": "2026-10-01T06:13:47.420Z",
+      "titre": "À Vouillé, un lieu vieux de 500 ans devient salle de mariage",
+      "lien": "https://passion-aquitaine.ouest-france.fr/nid-de-plumes-vouille-hebergement-insolite/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/Dd8O6QekaDi",
+      "format": "reponse",
+      "texte": "🏛️ Vouillé, dans la Vienne : une ancienne usine de plumes, vieille de 500 ans, change complètement de vocation. Elle s’appelle désormais Le Nid de Plumes et accueille mariages et séminaires. Un joli nom pour un lieu qui garde la mémoire de son passé.\n@leniddeplumes @fondationdupatrimoine",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261001-b7818531-th.jpg"
+    },
     {
       "channel": "instagram",
       "at": "2026-09-30T11:05:12.329Z",
@@ -547,28 +525,9 @@
       "format": null,
       "texte": "Son budget est l’un des plus petits de la division, et pourtant ce club basque aligne surtout ses propres jeunes 🏉",
       "image": null
-    },
-    {
-      "channel": "threads",
-      "at": "2026-09-29T06:26:28.680Z",
-      "titre": "Le Hasparren Athletic Club forme 90 % de ses joueurs",
-      "lien": "https://passion-aquitaine.ouest-france.fr/hasparren-athletic-club-modele-formateur/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/Dd3HI8jlokt",
-      "format": "lien",
-      "texte": "Un club peut-il tenir son rang sans recruter ? À Hasparren, à 25 km de Bayonne, l’Athletic Club forme 🏉 90 % de ses joueurs en interne, et compose avec l’un des plus petits budgets de sa division. Le pari de la formation plutôt que du portefeuille. Vous connaissiez ce club basque ?\n@francerugby @paysbasque_net",
-      "image": null
     }
   ],
   "file": [
-    {
-      "channel": "threads",
-      "dueAt": "2026-10-01T06:09:44.195Z",
-      "prochainPassage": "2026-10-01T06:20:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "À Vouillé, un lieu vieux de 500 ans devient salle de mariage"
-    },
     {
       "channel": "facebook",
       "dueAt": "2026-10-01T06:23:14.469Z",
@@ -726,7 +685,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-01T05:40:27.568Z",
+    "genereLe": "2026-10-01T06:14:00.369Z",
     "posts": 0,
     "parReseau": {},
     "parFormat": {},
@@ -745,7 +704,9 @@
         "moyenne": 0
       }
     },
-    "publies": {},
+    "publies": {
+      "threads": 1
+    },
     "abonnes": {
       "instagram": {
         "debut": 10136,

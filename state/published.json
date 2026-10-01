@@ -1903,5 +1903,23 @@
       "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/nid-de-plumes-vouille-hebergement-insolite/",
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35379",
+    "channel": "x",
+    "at": "2026-10-01T08:00:48.631Z",
+    "mediaId": "kit-telegram",
+    "titre": "À Vouillé, un lieu vieux de 500 ans devient salle de mariage",
+    "lien": "https://passion-aquitaine.ouest-france.fr/nid-de-plumes-vouille-hebergement-insolite/",
+    "lienPost": null,
+    "format": "reponse",
+    "mention": true,
+    "apercu": {
+      "texte": "On y travaillait la plume, on y célèbre aujourd’hui des mariages 💒 À Vouillé, une usine vieille de 500 ans devient Le Nid de Plumes, lieu de réception.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261001-b7818531-x.jpg",
+      "mode": "reponse",
+      "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/nid-de-plumes-vouille-hebergement-insolite/",
+      "sujet": null
+    }
   }
 ]

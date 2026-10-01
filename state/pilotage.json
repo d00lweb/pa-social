@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-01T07:20:42.882Z",
+  "genereLe": "2026-10-01T08:00:39.697Z",
   "jour": "2026-10-01",
   "reseaux": {
     "instagram": {
@@ -61,7 +61,7 @@
         "reply"
       ],
       "aujourdhui": 1,
-      "semaine": 11,
+      "semaine": 10,
       "total": 24,
       "dernier": "2026-10-01T06:28:24.938Z",
       "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mwsa4xbxqx2s"
@@ -160,10 +160,10 @@
         "lien",
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 10,
-      "total": 23,
-      "dernier": "2026-09-30T08:20:58.932Z",
+      "aujourdhui": 1,
+      "semaine": 11,
+      "total": 24,
+      "dernier": "2026-10-01T08:00:48.631Z",
       "lienDernier": null
     }
   },
@@ -172,7 +172,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35379",
       "titre": "À Vouillé, un lieu vieux de 500 ans devient salle de mariage",
       "lien": "https://passion-aquitaine.ouest-france.fr/nid-de-plumes-vouille-hebergement-insolite/",
-      "at": "2026-10-01T06:28:24.938Z",
+      "at": "2026-10-01T08:00:48.631Z",
       "reseaux": {
         "threads": {
           "texte": "🏛️ Vouillé, dans la Vienne : une ancienne usine de plumes, vieille de 500 ans, change complètement de vocation. Elle s’appelle désormais Le Nid de Plumes et accueille mariages et séminaires. Un joli nom pour un lieu qui garde la mémoire de son passé.\n@leniddeplumes @fondationdupatrimoine",
@@ -197,6 +197,14 @@
           "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/nid-de-plumes-vouille-hebergement-insolite/",
           "sujet": null,
           "publieLe": "2026-10-01T06:28:24.938Z"
+        },
+        "x": {
+          "texte": "On y travaillait la plume, on y célèbre aujourd’hui des mariages 💒 À Vouillé, une usine vieille de 500 ans devient Le Nid de Plumes, lieu de réception.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261001-b7818531-x.jpg",
+          "mode": "reponse",
+          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/nid-de-plumes-vouille-hebergement-insolite/",
+          "sujet": null,
+          "publieLe": "2026-10-01T08:00:48.631Z"
         }
       }
     },
@@ -443,6 +451,16 @@
   ],
   "publications": [
     {
+      "channel": "x",
+      "at": "2026-10-01T08:00:48.631Z",
+      "titre": "À Vouillé, un lieu vieux de 500 ans devient salle de mariage",
+      "lien": "https://passion-aquitaine.ouest-france.fr/nid-de-plumes-vouille-hebergement-insolite/",
+      "lienPost": null,
+      "format": "reponse",
+      "texte": "On y travaillait la plume, on y célèbre aujourd’hui des mariages 💒 À Vouillé, une usine vieille de 500 ans devient Le Nid de Plumes, lieu de réception.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261001-b7818531-x.jpg"
+    },
+    {
       "channel": "bluesky",
       "at": "2026-10-01T06:28:24.938Z",
       "titre": "À Vouillé, un lieu vieux de 500 ans devient salle de mariage",
@@ -531,28 +549,9 @@
       "format": null,
       "texte": "Former ses joueurs plutôt que les recruter : la méthode d’un club basque à 25 km de Bayonne\n⠀\nÀ Hasparren, l’Athletic Club fait émerger 90 % de son effectif en interne, avec l’un des plus petits budgets de sa division. Une leçon de patience et de travail local 🏉\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Hasparren #Rugby #PaysBasque",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20260929-cec4dd2f-1.jpg"
-    },
-    {
-      "channel": "x",
-      "at": "2026-09-29T08:00:59.158Z",
-      "titre": "Le Hasparren Athletic Club forme 90 % de ses joueurs",
-      "lien": "https://passion-aquitaine.ouest-france.fr/hasparren-athletic-club-modele-formateur/",
-      "lienPost": null,
-      "format": "lien",
-      "texte": "90 % des joueurs formés au club, et l’un des plus petits budgets de sa division : le #Hasparren Athletic Club, à 25 km de Bayonne, mise tout sur ses jeunes 🏉\n➡️ https://passion-aquitaine.ouest-france.fr/hasparren-athletic-club-modele-formateur/",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20260929-cec4dd2f-x.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "x",
-      "dueAt": "2026-10-01T08:00:00.000Z",
-      "prochainPassage": "2026-10-01T08:00:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "À Vouillé, un lieu vieux de 500 ans devient salle de mariage"
-    },
     {
       "channel": "instagram",
       "dueAt": "2026-10-01T10:08:53.899Z",
@@ -565,14 +564,14 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 134,
+    "releves": 136,
     "parReseau": {
       "instagram": {
         "posts": 15,
         "interactionsMoyennes": 23.9
       },
       "bluesky": {
-        "posts": 13,
+        "posts": 14,
         "interactionsMoyennes": 0.5
       },
       "facebook": {
@@ -683,7 +682,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-01T07:20:49.476Z",
+    "genereLe": "2026-10-01T08:01:06.535Z",
     "posts": 0,
     "parReseau": {},
     "parFormat": {},
@@ -705,7 +704,8 @@
     "publies": {
       "threads": 1,
       "facebook": 1,
-      "bluesky": 1
+      "bluesky": 1,
+      "x": 1
     },
     "abonnes": {
       "instagram": {

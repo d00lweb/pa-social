@@ -690,5 +690,34 @@
       "bluesky": [],
       "x": []
     }
+  },
+  "commune:mairie:vouille": {
+    "v": 2,
+    "cherche": "2026-10-01T05:40:08.069Z",
+    "instagram": [],
+    "x": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:vouille:mariage": {
+    "v": 2,
+    "cherche": "2026-10-01T05:40:08.069Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "domaine:mariage": {
+    "v": 2,
+    "cherche": "2026-10-01T05:40:08.069Z",
+    "instagram": [],
+    "bluesky": [],
+    "threads": []
+  },
+  "locale:vouille:patrimoine": {
+    "v": 2,
+    "cherche": "2026-10-01T05:40:08.069Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
   }
 }

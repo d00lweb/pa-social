@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-01T05:20:45.148Z",
+  "genereLe": "2026-10-01T05:39:57.643Z",
   "jour": "2026-10-01",
   "reseaux": {
     "instagram": {
@@ -559,7 +559,53 @@
       "image": null
     }
   ],
-  "file": [],
+  "file": [
+    {
+      "channel": "threads",
+      "dueAt": "2026-10-01T06:09:44.195Z",
+      "prochainPassage": "2026-10-01T06:20:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "À Vouillé, un lieu vieux de 500 ans devient salle de mariage"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-10-01T06:23:14.469Z",
+      "prochainPassage": "2026-10-01T07:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "À Vouillé, un lieu vieux de 500 ans devient salle de mariage"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-10-01T06:28:22.821Z",
+      "prochainPassage": "2026-10-01T07:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "À Vouillé, un lieu vieux de 500 ans devient salle de mariage"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-10-01T08:00:00.000Z",
+      "prochainPassage": "2026-10-01T08:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "À Vouillé, un lieu vieux de 500 ans devient salle de mariage"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-10-01T10:08:53.899Z",
+      "prochainPassage": "2026-10-01T10:20:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "À Vouillé, un lieu vieux de 500 ans devient salle de mariage"
+    }
+  ],
   "alertes": [],
   "mesures": {
     "releves": 130,
@@ -641,7 +687,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-01T04:20:48.568Z"
+    "derniere": "2026-10-01T05:39:57.643Z"
   },
   "abonnes": {
     "instagram": {
@@ -680,7 +726,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-01T05:20:52.478Z",
+    "genereLe": "2026-10-01T05:40:27.568Z",
     "posts": 0,
     "parReseau": {},
     "parFormat": {},
@@ -742,28 +788,30 @@
   },
   "couts": {
     "jour": {
-      "appels": 0,
-      "entree": 0,
-      "sortie": 0,
-      "cout": 0,
+      "appels": 1,
+      "entree": 7649,
+      "sortie": 839,
+      "cout": 0.047376,
       "cle": "2026-10-01"
     },
     "semaine": {
-      "appels": 31,
-      "entree": 237305,
-      "sortie": 28156,
-      "cout": 1.3627369999999999
+      "appels": 32,
+      "entree": 244954,
+      "sortie": 28995,
+      "cout": 1.4101129999999997
     },
     "mois": {
-      "appels": 0,
-      "entree": 0,
-      "sortie": 0,
-      "cout": 0,
+      "appels": 1,
+      "entree": 7649,
+      "sortie": 839,
+      "cout": 0.047376,
       "cle": "2026-10"
     },
-    "projection": 0,
-    "moyenneAppel": 0,
-    "parModele": {},
+    "projection": 1.47,
+    "moyenneAppel": 0.0474,
+    "parModele": {
+      "claude-opus-5-5": 1
+    },
     "serie": [
       [
         "2026-09-18",
@@ -819,7 +867,7 @@
       ],
       [
         "2026-10-01",
-        0
+        0.0474
       ]
     ],
     "depuis": "2026-09-23"

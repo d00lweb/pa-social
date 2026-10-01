@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-01T06:00:49.511Z",
+  "genereLe": "2026-10-01T06:20:37.753Z",
   "jour": "2026-10-01",
   "reseaux": {
     "instagram": {
@@ -60,11 +60,11 @@
         "image",
         "reply"
       ],
-      "aujourdhui": 0,
-      "semaine": 10,
-      "total": 23,
-      "dernier": "2026-09-30T06:23:24.593Z",
-      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mwppf3rtw42t"
+      "aujourdhui": 1,
+      "semaine": 11,
+      "total": 24,
+      "dernier": "2026-10-01T06:28:24.938Z",
+      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mwsa4xbxqx2s"
     },
     "facebook": {
       "actif": true,
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 11,
-      "total": 20,
-      "dernier": "2026-09-30T07:27:48.941Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1736436825148865"
+      "aujourdhui": 1,
+      "semaine": 12,
+      "total": 21,
+      "dernier": "2026-10-01T06:23:21.001Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1737542675038280"
     },
     "threads": {
       "actif": true,
@@ -172,7 +172,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35379",
       "titre": "À Vouillé, un lieu vieux de 500 ans devient salle de mariage",
       "lien": "https://passion-aquitaine.ouest-france.fr/nid-de-plumes-vouille-hebergement-insolite/",
-      "at": "2026-10-01T06:13:47.420Z",
+      "at": "2026-10-01T06:28:24.938Z",
       "reseaux": {
         "threads": {
           "texte": "🏛️ Vouillé, dans la Vienne : une ancienne usine de plumes, vieille de 500 ans, change complètement de vocation. Elle s’appelle désormais Le Nid de Plumes et accueille mariages et séminaires. Un joli nom pour un lieu qui garde la mémoire de son passé.\n@leniddeplumes @fondationdupatrimoine",
@@ -181,6 +181,22 @@
           "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/nid-de-plumes-vouille-hebergement-insolite/",
           "sujet": "Vouillé",
           "publieLe": "2026-10-01T06:13:47.420Z"
+        },
+        "facebook": {
+          "texte": "Et si vous vous mariiez dans une ancienne usine de plumes, vieille de 500 ans, rebaptisée Le Nid de Plumes ? 🪶",
+          "image": null,
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-01T06:23:21.001Z"
+        },
+        "bluesky": {
+          "texte": "500 ans d’histoire et une nouvelle vie : à Vouillé, dans la #Vienne, une ancienne usine de plumes devient Le Nid de Plumes, lieu de réception pour mariages et séminaires 🕊️\n@fond-patrimoine.bsky.social",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261001-b7818531-bsky.jpg",
+          "mode": "reply",
+          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/nid-de-plumes-vouille-hebergement-insolite/",
+          "sujet": null,
+          "publieLe": "2026-10-01T06:28:24.938Z"
         }
       }
     },
@@ -427,6 +443,26 @@
   ],
   "publications": [
     {
+      "channel": "bluesky",
+      "at": "2026-10-01T06:28:24.938Z",
+      "titre": "À Vouillé, un lieu vieux de 500 ans devient salle de mariage",
+      "lien": "https://passion-aquitaine.ouest-france.fr/nid-de-plumes-vouille-hebergement-insolite/",
+      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mwsa4xbxqx2s",
+      "format": "reply",
+      "texte": "500 ans d’histoire et une nouvelle vie : à Vouillé, dans la #Vienne, une ancienne usine de plumes devient Le Nid de Plumes, lieu de réception pour mariages et séminaires 🕊️\n@fond-patrimoine.bsky.social",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261001-b7818531-bsky.jpg"
+    },
+    {
+      "channel": "facebook",
+      "at": "2026-10-01T06:23:21.001Z",
+      "titre": "À Vouillé, un lieu vieux de 500 ans devient salle de mariage",
+      "lien": "https://passion-aquitaine.ouest-france.fr/nid-de-plumes-vouille-hebergement-insolite/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1737542675038280",
+      "format": null,
+      "texte": "Et si vous vous mariiez dans une ancienne usine de plumes, vieille de 500 ans, rebaptisée Le Nid de Plumes ? 🪶",
+      "image": null
+    },
+    {
       "channel": "threads",
       "at": "2026-10-01T06:13:47.420Z",
       "titre": "À Vouillé, un lieu vieux de 500 ans devient salle de mariage",
@@ -505,47 +541,9 @@
       "format": "lien",
       "texte": "90 % des joueurs formés au club, et l’un des plus petits budgets de sa division : le #Hasparren Athletic Club, à 25 km de Bayonne, mise tout sur ses jeunes 🏉\n➡️ https://passion-aquitaine.ouest-france.fr/hasparren-athletic-club-modele-formateur/",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20260929-cec4dd2f-x.jpg"
-    },
-    {
-      "channel": "bluesky",
-      "at": "2026-09-29T07:24:58.824Z",
-      "titre": "Le Hasparren Athletic Club forme 90 % de ses joueurs",
-      "lien": "https://passion-aquitaine.ouest-france.fr/hasparren-athletic-club-modele-formateur/",
-      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mwncebdt2i2a",
-      "format": "image",
-      "texte": "À 25 km de Bayonne, un club forme lui-même 90 % de ses joueurs 🏉 Le #Hasparren Athletic Club s’appuie sur ses jeunes plutôt que sur le recrutement, avec l’un des plus petits budgets de sa division.\n@francerugby.bsky.social\n➡️ Lire l’article",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20260929-cec4dd2f-bsky.jpg"
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-09-29T07:06:20.693Z",
-      "titre": "Le Hasparren Athletic Club forme 90 % de ses joueurs",
-      "lien": "https://passion-aquitaine.ouest-france.fr/hasparren-athletic-club-modele-formateur/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1735301915262356",
-      "format": null,
-      "texte": "Son budget est l’un des plus petits de la division, et pourtant ce club basque aligne surtout ses propres jeunes 🏉",
-      "image": null
     }
   ],
   "file": [
-    {
-      "channel": "facebook",
-      "dueAt": "2026-10-01T06:23:14.469Z",
-      "prochainPassage": "2026-10-01T07:00:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "À Vouillé, un lieu vieux de 500 ans devient salle de mariage"
-    },
-    {
-      "channel": "bluesky",
-      "dueAt": "2026-10-01T06:28:22.821Z",
-      "prochainPassage": "2026-10-01T07:00:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "À Vouillé, un lieu vieux de 500 ans devient salle de mariage"
-    },
     {
       "channel": "x",
       "dueAt": "2026-10-01T08:00:00.000Z",
@@ -685,7 +683,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-01T06:14:00.369Z",
+    "genereLe": "2026-10-01T06:28:33.736Z",
     "posts": 0,
     "parReseau": {},
     "parFormat": {},
@@ -705,7 +703,9 @@
       }
     },
     "publies": {
-      "threads": 1
+      "threads": 1,
+      "facebook": 1,
+      "bluesky": 1
     },
     "abonnes": {
       "instagram": {

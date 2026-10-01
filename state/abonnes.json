@@ -134,6 +134,16 @@
     "instagram": 10136,
     "facebook": 42607,
     "bluesky": 4,
-    "threads": 1149
+    "threads": 1149,
+    "facebookMouvements": {
+      "plus": 0,
+      "moins": 0
+    }
+  },
+  "2026-10-02": {
+    "instagram": 10137,
+    "facebook": 42606,
+    "bluesky": 5,
+    "threads": 1150
   }
 }

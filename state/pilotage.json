@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-01T08:20:42.887Z",
+  "genereLe": "2026-10-01T09:00:45.121Z",
   "jour": "2026-10-01",
   "reseaux": {
     "instagram": {
@@ -125,7 +125,7 @@
         "reponse"
       ],
       "aujourdhui": 1,
-      "semaine": 11,
+      "semaine": 10,
       "total": 21,
       "dernier": "2026-10-01T06:13:47.420Z",
       "lienDernier": "https://www.threads.com/@lovaquitaine/post/Dd8O6QekaDi"
@@ -564,7 +564,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 136,
+    "releves": 137,
     "parReseau": {
       "instagram": {
         "posts": 15,
@@ -579,8 +579,8 @@
         "interactionsMoyennes": 0.8
       },
       "threads": {
-        "posts": 10,
-        "interactionsMoyennes": 16.6
+        "posts": 11,
+        "interactionsMoyennes": 15.1
       }
     }
   },
@@ -682,7 +682,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-01T08:20:48.224Z",
+    "genereLe": "2026-10-01T09:00:59.115Z",
     "posts": 0,
     "parReseau": {},
     "parFormat": {},

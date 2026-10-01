@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-01T11:01:32.987Z",
+  "genereLe": "2026-10-01T11:20:46.624Z",
   "jour": "2026-10-01",
   "reseaux": {
     "instagram": {
@@ -562,7 +562,7 @@
   "file": [],
   "alertes": [],
   "mesures": {
-    "releves": 138,
+    "releves": 139,
     "parReseau": {
       "instagram": {
         "posts": 15,
@@ -680,7 +680,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-01T11:01:43.202Z",
+    "genereLe": "2026-10-01T11:20:53.749Z",
     "posts": 0,
     "parReseau": {},
     "parFormat": {},

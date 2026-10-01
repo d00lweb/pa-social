@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-01T09:20:55.797Z",
+  "genereLe": "2026-10-01T10:00:51.700Z",
   "jour": "2026-10-01",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 10,
-      "total": 25,
-      "dernier": "2026-09-30T11:05:12.329Z",
-      "lienDernier": "https://www.instagram.com/p/Dd6L4p0E7US/"
+      "aujourdhui": 1,
+      "semaine": 11,
+      "total": 26,
+      "dernier": "2026-10-01T10:09:29.344Z",
+      "lienDernier": "https://www.instagram.com/p/Dd8qT5nmPi0/"
     },
     "bluesky": {
       "actif": true,
@@ -172,7 +172,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35379",
       "titre": "À Vouillé, un lieu vieux de 500 ans devient salle de mariage",
       "lien": "https://passion-aquitaine.ouest-france.fr/nid-de-plumes-vouille-hebergement-insolite/",
-      "at": "2026-10-01T08:00:48.631Z",
+      "at": "2026-10-01T10:09:29.344Z",
       "reseaux": {
         "threads": {
           "texte": "🏛️ Vouillé, dans la Vienne : une ancienne usine de plumes, vieille de 500 ans, change complètement de vocation. Elle s’appelle désormais Le Nid de Plumes et accueille mariages et séminaires. Un joli nom pour un lieu qui garde la mémoire de son passé.\n@leniddeplumes @fondationdupatrimoine",
@@ -205,6 +205,14 @@
           "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/nid-de-plumes-vouille-hebergement-insolite/",
           "sujet": null,
           "publieLe": "2026-10-01T08:00:48.631Z"
+        },
+        "instagram": {
+          "texte": "Là où l’on travaillait la plume, on dit désormais oui 💍\n⠀\nÀ Vouillé, dans la Vienne, une ancienne usine de plumes vieille de 500 ans devient Le Nid de Plumes. Mariages et séminaires y trouvent un cadre chargé d’histoire.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Vienne #Mariage #Patrimoine",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261001-b7818531-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-01T10:09:29.344Z"
         }
       }
     },
@@ -451,6 +459,16 @@
   ],
   "publications": [
     {
+      "channel": "instagram",
+      "at": "2026-10-01T10:09:29.344Z",
+      "titre": "À Vouillé, un lieu vieux de 500 ans devient salle de mariage",
+      "lien": "https://passion-aquitaine.ouest-france.fr/nid-de-plumes-vouille-hebergement-insolite/",
+      "lienPost": "https://www.instagram.com/p/Dd8qT5nmPi0/",
+      "format": null,
+      "texte": "Là où l’on travaillait la plume, on dit désormais oui 💍\n⠀\nÀ Vouillé, dans la Vienne, une ancienne usine de plumes vieille de 500 ans devient Le Nid de Plumes. Mariages et séminaires y trouvent un cadre chargé d’histoire.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Vienne #Mariage #Patrimoine",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261001-b7818531-1.jpg"
+    },
+    {
       "channel": "x",
       "at": "2026-10-01T08:00:48.631Z",
       "titre": "À Vouillé, un lieu vieux de 500 ans devient salle de mariage",
@@ -539,29 +557,9 @@
       "format": "image",
       "texte": "🌧️ Pourquoi guetter la pluie cet automne autour de #Bordeaux ? Parce que les premières averses relancent la traque aux champignons en Gironde, avec en ligne de mire le fameux cèpe qui porte le nom de la ville.\n@villedebordeaux.bsky.social @departementgironde.bsky.social\n➡️ Lire l’article",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20260930-376822fc-bsky.jpg"
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-09-29T10:26:47.677Z",
-      "titre": "Le Hasparren Athletic Club forme 90 % de ses joueurs",
-      "lien": "https://passion-aquitaine.ouest-france.fr/hasparren-athletic-club-modele-formateur/",
-      "lienPost": "https://www.instagram.com/p/Dd3is5bmDtx/",
-      "format": null,
-      "texte": "Former ses joueurs plutôt que les recruter : la méthode d’un club basque à 25 km de Bayonne\n⠀\nÀ Hasparren, l’Athletic Club fait émerger 90 % de son effectif en interne, avec l’un des plus petits budgets de sa division. Une leçon de patience et de travail local 🏉\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Hasparren #Rugby #PaysBasque",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20260929-cec4dd2f-1.jpg"
     }
   ],
-  "file": [
-    {
-      "channel": "instagram",
-      "dueAt": "2026-10-01T10:08:53.899Z",
-      "prochainPassage": "2026-10-01T10:20:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "À Vouillé, un lieu vieux de 500 ans devient salle de mariage"
-    }
-  ],
+  "file": [],
   "alertes": [],
   "mesures": {
     "releves": 137,
@@ -682,7 +680,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-01T09:21:06.334Z",
+    "genereLe": "2026-10-01T10:09:36.340Z",
     "posts": 0,
     "parReseau": {},
     "parFormat": {},
@@ -705,7 +703,8 @@
       "threads": 1,
       "facebook": 1,
       "bluesky": 1,
-      "x": 1
+      "x": 1,
+      "instagram": 1
     },
     "abonnes": {
       "instagram": {

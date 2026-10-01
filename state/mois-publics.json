@@ -1,12 +1,12 @@
 {
   "2026-10": {
     "cle": "2026-10",
-    "publications": 4,
+    "publications": 5,
     "articles": 1,
     "interactions": 0,
     "parReseau": {
       "facebook": 1,
-      "instagram": 0,
+      "instagram": 1,
       "x": 1,
       "threads": 1,
       "bluesky": 1

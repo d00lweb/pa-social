@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-01T11:20:46.624Z",
+  "genereLe": "2026-10-01T11:50:21.485Z",
   "jour": "2026-10-01",
   "reseaux": {
     "instagram": {
@@ -25,7 +25,7 @@
       },
       "formats": null,
       "aujourdhui": 1,
-      "semaine": 11,
+      "semaine": 10,
       "total": 26,
       "dernier": "2026-10-01T10:09:29.344Z",
       "lienDernier": "https://www.instagram.com/p/Dd8qT5nmPi0/"
@@ -161,7 +161,7 @@
         "reponse"
       ],
       "aujourdhui": 1,
-      "semaine": 10,
+      "semaine": 9,
       "total": 24,
       "dernier": "2026-10-01T08:00:48.631Z",
       "lienDernier": null
@@ -562,11 +562,11 @@
   "file": [],
   "alertes": [],
   "mesures": {
-    "releves": 139,
+    "releves": 140,
     "parReseau": {
       "instagram": {
-        "posts": 15,
-        "interactionsMoyennes": 23.9
+        "posts": 16,
+        "interactionsMoyennes": 22.6
       },
       "bluesky": {
         "posts": 15,
@@ -680,7 +680,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-01T11:20:53.749Z",
+    "genereLe": "2026-10-01T11:50:29.304Z",
     "posts": 0,
     "parReseau": {},
     "parFormat": {},

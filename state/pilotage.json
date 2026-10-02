@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-02T06:00:40.127Z",
+  "genereLe": "2026-10-02T06:20:44.257Z",
   "jour": "2026-10-02",
   "reseaux": {
     "instagram": {
@@ -124,11 +124,11 @@
         "lien",
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 8,
-      "total": 21,
-      "dernier": "2026-10-01T06:13:47.420Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/Dd8O6QekaDi"
+      "aujourdhui": 1,
+      "semaine": 9,
+      "total": 22,
+      "dernier": "2026-10-02T06:25:24.848Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/Dd-1aTPmxJJ"
     },
     "x": {
       "actif": true,
@@ -168,6 +168,22 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35407",
+      "titre": "À Poitiers, une doctorante restaure des tablettes du Louvre",
+      "lien": "https://passion-aquitaine.ouest-france.fr/doctorante-poitiers-tablettes-mesopotamiennes-louvre/",
+      "at": "2026-10-02T06:25:24.848Z",
+      "reseaux": {
+        "threads": {
+          "texte": "On imagine les trésors du Louvre restaurés dans ses propres ateliers. Une partie du travail se fait pourtant à Poitiers 🧱 La doctorante Jeanne Maucourt y œuvre avec le musée pour sauver des tablettes mésopotamiennes en terre crue, une matière qui ne pardonne aucune erreur.\n@fondationdupatrimoine\n➡️ https://passion-aquitaine.ouest-france.fr/doctorante-poitiers-tablettes-mesopotamiennes-louvre/",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261002-fa646ed7-th.jpg",
+          "mode": "image",
+          "reponse": null,
+          "sujet": "Poitiers",
+          "publieLe": "2026-10-02T06:25:24.848Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35379",
       "titre": "À Vouillé, un lieu vieux de 500 ans devient salle de mariage",
@@ -407,57 +423,19 @@
           "publieLe": "2026-09-27T19:27:08.111Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35450",
-      "titre": "À Poitiers, la tombe d’un patriote polonais indique une erreur",
-      "lien": "https://passion-aquitaine.ouest-france.fr/tombe-chodzko-poitiers-exile-polonais/",
-      "at": "2026-09-27T11:24:24.874Z",
-      "reseaux": {
-        "threads": {
-          "texte": "On imagine mal une erreur sur une tombe. C’est pourtant le cas dans un cimetière de Poitiers, où repose 📜 Leonard Chodźko, historien polonais exilé en France. La date de son décès, gravée dans la pierre, est inexacte. Sa mémoire vit donc avec une faute que personne n’a corrigée.\n@fondationdupatrimoine",
-          "image": null,
-          "mode": "lien",
-          "reponse": null,
-          "sujet": "Poitiers",
-          "publieLe": "2026-09-26T06:24:54.350Z"
-        },
-        "bluesky": {
-          "texte": "À #Poitiers, un cimetière abrite la sépulture de Leonard Chodźko, historien polonais exilé en France 📜 La date de décès gravée sur la pierre ne correspond pas à la réalité. Une erreur qui accompagne sa mémoire depuis des décennies.\n@fond-patrimoine.bsky.social\n➡️ Lire l’article",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260926-e7578bc9-bsky.jpg",
-          "mode": "image",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-26T07:30:01.007Z"
-        },
-        "x": {
-          "texte": "Une visite de cimetière à #Poitiers réserve une surprise : la tombe de l’historien polonais exilé Leonard Chodźko porte une date de décès erronée. De quoi regarder les pierres tombales autrement 🪦\n➡️ https://passion-aquitaine.ouest-france.fr/tombe-chodzko-poitiers-exile-polonais/",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260926-e7578bc9-x.jpg",
-          "mode": "lien",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-26T08:00:51.822Z"
-        },
-        "facebook": {
-          "texte": "Une date de décès gravée dans la pierre, et pourtant fausse : c’est le sort de cet exilé polonais de Poitiers 🪶",
-          "image": null,
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-27T06:09:18.002Z"
-        },
-        "instagram": {
-          "texte": "Et si votre pierre tombale mentait sur le jour de votre mort ?\n⠀\nDans un cimetière de Poitiers repose Leonard Chodźko, historien polonais exilé en France. La date gravée sur sa tombe n’est pas la bonne 🪦\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Poitiers #Histoire #Patrimoine",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260926-e7578bc9-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-27T11:24:24.874Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "threads",
+      "at": "2026-10-02T06:25:24.848Z",
+      "titre": "À Poitiers, une doctorante restaure des tablettes du Louvre",
+      "lien": "https://passion-aquitaine.ouest-france.fr/doctorante-poitiers-tablettes-mesopotamiennes-louvre/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/Dd-1aTPmxJJ",
+      "format": "image",
+      "texte": "On imagine les trésors du Louvre restaurés dans ses propres ateliers. Une partie du travail se fait pourtant à Poitiers 🧱 La doctorante Jeanne Maucourt y œuvre avec le musée pour sauver des tablettes mésopotamiennes en terre crue, une matière qui ne pardonne aucune erreur.\n@fondationdupatrimoine\n➡️ https://passion-aquitaine.ouest-france.fr/doctorante-poitiers-tablettes-mesopotamiennes-louvre/",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261002-fa646ed7-th.jpg"
+    },
     {
       "channel": "instagram",
       "at": "2026-10-01T10:09:29.344Z",
@@ -547,28 +525,9 @@
       "format": "lien",
       "texte": "Il suffit des premières pluies d’automne pour que la saison des champignons redémarre 🍂 En Gironde, la traque reprend, et un nom fait rêver tous les cueilleurs : le cèpe de Bordeaux. Vous avez déjà vos coins secrets ou vous partez à l’aventure ?\n@villedebordeaux @visitbordeaux @departementgironde",
       "image": null
-    },
-    {
-      "channel": "bluesky",
-      "at": "2026-09-30T06:23:24.593Z",
-      "titre": "À Bordeaux, la chasse aux champignons démarre après les premières pluies",
-      "lien": "https://passion-aquitaine.ouest-france.fr/champignons-pluies-automne-bordeaux/",
-      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mwppf3rtw42t",
-      "format": "image",
-      "texte": "🌧️ Pourquoi guetter la pluie cet automne autour de #Bordeaux ? Parce que les premières averses relancent la traque aux champignons en Gironde, avec en ligne de mire le fameux cèpe qui porte le nom de la ville.\n@villedebordeaux.bsky.social @departementgironde.bsky.social\n➡️ Lire l’article",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20260930-376822fc-bsky.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "threads",
-      "dueAt": "2026-10-02T06:24:38.320Z",
-      "prochainPassage": "2026-10-02T07:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "À Poitiers, une doctorante restaure des tablettes du Louvre"
-    },
     {
       "channel": "x",
       "dueAt": "2026-10-02T07:00:00.000Z",
@@ -608,7 +567,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 145,
+    "releves": 146,
     "parReseau": {
       "instagram": {
         "posts": 17,
@@ -726,19 +685,75 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-02T06:01:34.822Z",
-    "posts": 0,
-    "parReseau": {},
-    "parFormat": {},
-    "parCreneau": {},
-    "parCreneauReseau": {},
-    "interactionsTotal": 0,
-    "meilleur": null,
-    "moinsBon": null,
+    "genereLe": "2026-10-02T06:25:32.805Z",
+    "posts": 1,
+    "parReseau": {
+      "threads": {
+        "posts": 1,
+        "moyenne": 2
+      }
+    },
+    "parFormat": {
+      "reponse": {
+        "posts": 1,
+        "moyenne": 2
+      }
+    },
+    "parCreneau": {
+      "matin": {
+        "posts": 1,
+        "moyenne": 2
+      }
+    },
+    "parCreneauReseau": {
+      "threads": {
+        "7 h – 8 h 30": {
+          "posts": 1,
+          "moyenne": 2
+        }
+      }
+    },
+    "interactionsTotal": 2,
+    "meilleur": {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35379",
+      "channel": "threads",
+      "mediaId": "18177946834433190",
+      "publieLe": "2026-10-01T06:13:47.420Z",
+      "jalon": 1,
+      "releveLe": "2026-10-02T06:20:44.257Z",
+      "likes": 1,
+      "commentaires": 1,
+      "partages": 0,
+      "vues": 215,
+      "titre": "À Vouillé, un lieu vieux de 500 ans devient salle de mariage",
+      "lien": "https://www.threads.com/@lovaquitaine/post/Dd8O6QekaDi",
+      "format": "reponse",
+      "mention": true,
+      "creneau": "matin",
+      "creneauReseau": "7 h – 8 h 30"
+    },
+    "moinsBon": {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35379",
+      "channel": "threads",
+      "mediaId": "18177946834433190",
+      "publieLe": "2026-10-01T06:13:47.420Z",
+      "jalon": 1,
+      "releveLe": "2026-10-02T06:20:44.257Z",
+      "likes": 1,
+      "commentaires": 1,
+      "partages": 0,
+      "vues": 215,
+      "titre": "À Vouillé, un lieu vieux de 500 ans devient salle de mariage",
+      "lien": "https://www.threads.com/@lovaquitaine/post/Dd8O6QekaDi",
+      "format": "reponse",
+      "mention": true,
+      "creneau": "matin",
+      "creneauReseau": "7 h – 8 h 30"
+    },
     "mentions": {
       "avec": {
-        "posts": 0,
-        "moyenne": 0
+        "posts": 1,
+        "moyenne": 2
       },
       "sans": {
         "posts": 0,
@@ -746,7 +761,7 @@
       }
     },
     "publies": {
-      "threads": 1,
+      "threads": 2,
       "facebook": 1,
       "bluesky": 1,
       "x": 1,
@@ -787,7 +802,9 @@
       },
       "x": null
     },
-    "engagement": {},
+    "engagement": {
+      "threads": 0.17
+    },
     "conseils": [
       "Abonnés : Threads progresse le plus (+1, +0,1 %) ; Facebook recule (−1), à surveiller."
     ]

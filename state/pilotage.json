@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-02T07:00:42.551Z",
+  "genereLe": "2026-10-02T07:20:41.001Z",
   "jour": "2026-10-02",
   "reseaux": {
     "instagram": {
@@ -60,11 +60,11 @@
         "image",
         "reply"
       ],
-      "aujourdhui": 0,
-      "semaine": 8,
-      "total": 24,
-      "dernier": "2026-10-01T06:28:24.938Z",
-      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mwsa4xbxqx2s"
+      "aujourdhui": 1,
+      "semaine": 9,
+      "total": 25,
+      "dernier": "2026-10-02T07:28:23.307Z",
+      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mwutx4ty2o2v"
     },
     "facebook": {
       "actif": true,
@@ -89,7 +89,7 @@
       },
       "formats": null,
       "aujourdhui": 1,
-      "semaine": 11,
+      "semaine": 10,
       "total": 22,
       "dernier": "2026-10-02T07:10:27.616Z",
       "lienDernier": "https://www.facebook.com/1720946116697936/posts/1738781528247728"
@@ -160,10 +160,10 @@
         "lien",
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 9,
-      "total": 24,
-      "dernier": "2026-10-01T08:00:48.631Z",
+      "aujourdhui": 1,
+      "semaine": 10,
+      "total": 25,
+      "dernier": "2026-10-02T07:20:50.133Z",
       "lienDernier": null
     }
   },
@@ -172,7 +172,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35407",
       "titre": "À Poitiers, une doctorante restaure des tablettes du Louvre",
       "lien": "https://passion-aquitaine.ouest-france.fr/doctorante-poitiers-tablettes-mesopotamiennes-louvre/",
-      "at": "2026-10-02T07:10:27.616Z",
+      "at": "2026-10-02T07:28:23.307Z",
       "reseaux": {
         "threads": {
           "texte": "On imagine les trésors du Louvre restaurés dans ses propres ateliers. Une partie du travail se fait pourtant à Poitiers 🧱 La doctorante Jeanne Maucourt y œuvre avec le musée pour sauver des tablettes mésopotamiennes en terre crue, une matière qui ne pardonne aucune erreur.\n@fondationdupatrimoine\n➡️ https://passion-aquitaine.ouest-france.fr/doctorante-poitiers-tablettes-mesopotamiennes-louvre/",
@@ -189,6 +189,22 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-10-02T07:10:27.616Z"
+        },
+        "x": {
+          "texte": "Des tablettes mésopotamiennes en terre crue du Louvre reprennent vie grâce à Jeanne Maucourt, doctorante à #Poitiers : un savoir-faire rare pour transmettre ces écrits antiques 🔬\n➡️ https://passion-aquitaine.ouest-france.fr/doctorante-poitiers-tablettes-mesopotamiennes-louvre/",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261002-fa646ed7-x.jpg",
+          "mode": "image",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-02T07:20:50.133Z"
+        },
+        "bluesky": {
+          "texte": "À #Poitiers, une doctorante veille sur des trésors du Louvre 📜 Jeanne Maucourt travaille avec le musée pour sauver des tablettes mésopotamiennes en terre crue, un matériau particulièrement fragile.\n@museelouvre.bsky.social @adlfi.eurosky.social @fond-patrimoine.bsky.social",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261002-fa646ed7-bsky.jpg",
+          "mode": "card",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-02T07:28:23.307Z"
         }
       }
     },
@@ -435,6 +451,26 @@
   ],
   "publications": [
     {
+      "channel": "bluesky",
+      "at": "2026-10-02T07:28:23.307Z",
+      "titre": "À Poitiers, une doctorante restaure des tablettes du Louvre",
+      "lien": "https://passion-aquitaine.ouest-france.fr/doctorante-poitiers-tablettes-mesopotamiennes-louvre/",
+      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mwutx4ty2o2v",
+      "format": "card",
+      "texte": "À #Poitiers, une doctorante veille sur des trésors du Louvre 📜 Jeanne Maucourt travaille avec le musée pour sauver des tablettes mésopotamiennes en terre crue, un matériau particulièrement fragile.\n@museelouvre.bsky.social @adlfi.eurosky.social @fond-patrimoine.bsky.social",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261002-fa646ed7-bsky.jpg"
+    },
+    {
+      "channel": "x",
+      "at": "2026-10-02T07:20:50.133Z",
+      "titre": "À Poitiers, une doctorante restaure des tablettes du Louvre",
+      "lien": "https://passion-aquitaine.ouest-france.fr/doctorante-poitiers-tablettes-mesopotamiennes-louvre/",
+      "lienPost": null,
+      "format": "image",
+      "texte": "Des tablettes mésopotamiennes en terre crue du Louvre reprennent vie grâce à Jeanne Maucourt, doctorante à #Poitiers : un savoir-faire rare pour transmettre ces écrits antiques 🔬\n➡️ https://passion-aquitaine.ouest-france.fr/doctorante-poitiers-tablettes-mesopotamiennes-louvre/",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261002-fa646ed7-x.jpg"
+    },
+    {
       "channel": "facebook",
       "at": "2026-10-02T07:10:27.616Z",
       "titre": "À Poitiers, une doctorante restaure des tablettes du Louvre",
@@ -513,47 +549,9 @@
       "format": null,
       "texte": "Le cèpe porte le nom de Bordeaux, et c’est avec les premières pluies d’automne que sa traque reprend 🍄\n⠀\nEn Gironde, les amateurs de champignons ressortent paniers et couteaux. La saison de cueillette démarre, et le fameux cèpe de Bordeaux reste la prise la plus convoitée.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #Champignons #Automne",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20260930-376822fc-1.jpg"
-    },
-    {
-      "channel": "x",
-      "at": "2026-09-30T08:20:58.932Z",
-      "titre": "À Bordeaux, la chasse aux champignons démarre après les premières pluies",
-      "lien": "https://passion-aquitaine.ouest-france.fr/champignons-pluies-automne-bordeaux/",
-      "lienPost": null,
-      "format": "lien",
-      "texte": "#Bordeaux et la Gironde se remettent à fouiller les sous-bois : avec les premières pluies d’automne, 🍄 la chasse au fameux cèpe de Bordeaux reprend.\n➡️ https://passion-aquitaine.ouest-france.fr/champignons-pluies-automne-bordeaux/",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20260930-376822fc-x.jpg"
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-09-30T07:27:48.941Z",
-      "titre": "À Bordeaux, la chasse aux champignons démarre après les premières pluies",
-      "lien": "https://passion-aquitaine.ouest-france.fr/champignons-pluies-automne-bordeaux/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1736436825148865",
-      "format": null,
-      "texte": "Un panier, un sous-bois encore humide de pluie et, peut-être, un cèpe de Bordeaux caché sous les feuilles 🧺",
-      "image": null
     }
   ],
   "file": [
-    {
-      "channel": "x",
-      "dueAt": "2026-10-02T07:20:00.000Z",
-      "prochainPassage": "2026-10-02T07:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "À Poitiers, une doctorante restaure des tablettes du Louvre"
-    },
-    {
-      "channel": "bluesky",
-      "dueAt": "2026-10-02T07:28:20.519Z",
-      "prochainPassage": "2026-10-02T08:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "À Poitiers, une doctorante restaure des tablettes du Louvre"
-    },
     {
       "channel": "instagram",
       "dueAt": "2026-10-02T10:30:15.821Z",
@@ -566,7 +564,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 148,
+    "releves": 149,
     "parReseau": {
       "instagram": {
         "posts": 17,
@@ -577,7 +575,7 @@
         "interactionsMoyennes": 0.5
       },
       "facebook": {
-        "posts": 11,
+        "posts": 12,
         "interactionsMoyennes": 0.7
       },
       "threads": {
@@ -684,7 +682,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-02T07:10:36.292Z",
+    "genereLe": "2026-10-02T07:28:33.435Z",
     "posts": 3,
     "parReseau": {
       "threads": {
@@ -786,8 +784,8 @@
     "publies": {
       "threads": 2,
       "facebook": 2,
-      "bluesky": 1,
-      "x": 1,
+      "bluesky": 2,
+      "x": 2,
       "instagram": 1
     },
     "abonnes": {

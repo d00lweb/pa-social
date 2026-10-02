@@ -1957,5 +1957,23 @@
       "reponse": null,
       "sujet": "Poitiers"
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35407",
+    "channel": "facebook",
+    "at": "2026-10-02T07:10:27.616Z",
+    "mediaId": "227437307428711_1738781528247728",
+    "titre": "À Poitiers, une doctorante restaure des tablettes du Louvre",
+    "lien": "https://passion-aquitaine.ouest-france.fr/doctorante-poitiers-tablettes-mesopotamiennes-louvre/",
+    "lienPost": "https://www.facebook.com/1720946116697936/posts/1738781528247728",
+    "format": null,
+    "mention": false,
+    "apercu": {
+      "texte": "De la terre crue venue de Mésopotamie : c’est la matière fragile que Jeanne Maucourt aide le Louvre à sauver, depuis Poitiers 🏺",
+      "image": null,
+      "mode": null,
+      "reponse": null,
+      "sujet": null
+    }
   }
 ]

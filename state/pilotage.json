@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-02T06:20:44.257Z",
+  "genereLe": "2026-10-02T07:00:42.551Z",
   "jour": "2026-10-02",
   "reseaux": {
     "instagram": {
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 10,
-      "total": 21,
-      "dernier": "2026-10-01T06:23:21.001Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1737542675038280"
+      "aujourdhui": 1,
+      "semaine": 11,
+      "total": 22,
+      "dernier": "2026-10-02T07:10:27.616Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1738781528247728"
     },
     "threads": {
       "actif": true,
@@ -172,7 +172,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35407",
       "titre": "À Poitiers, une doctorante restaure des tablettes du Louvre",
       "lien": "https://passion-aquitaine.ouest-france.fr/doctorante-poitiers-tablettes-mesopotamiennes-louvre/",
-      "at": "2026-10-02T06:25:24.848Z",
+      "at": "2026-10-02T07:10:27.616Z",
       "reseaux": {
         "threads": {
           "texte": "On imagine les trésors du Louvre restaurés dans ses propres ateliers. Une partie du travail se fait pourtant à Poitiers 🧱 La doctorante Jeanne Maucourt y œuvre avec le musée pour sauver des tablettes mésopotamiennes en terre crue, une matière qui ne pardonne aucune erreur.\n@fondationdupatrimoine\n➡️ https://passion-aquitaine.ouest-france.fr/doctorante-poitiers-tablettes-mesopotamiennes-louvre/",
@@ -181,6 +181,14 @@
           "reponse": null,
           "sujet": "Poitiers",
           "publieLe": "2026-10-02T06:25:24.848Z"
+        },
+        "facebook": {
+          "texte": "De la terre crue venue de Mésopotamie : c’est la matière fragile que Jeanne Maucourt aide le Louvre à sauver, depuis Poitiers 🏺",
+          "image": null,
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-02T07:10:27.616Z"
         }
       }
     },
@@ -427,6 +435,16 @@
   ],
   "publications": [
     {
+      "channel": "facebook",
+      "at": "2026-10-02T07:10:27.616Z",
+      "titre": "À Poitiers, une doctorante restaure des tablettes du Louvre",
+      "lien": "https://passion-aquitaine.ouest-france.fr/doctorante-poitiers-tablettes-mesopotamiennes-louvre/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1738781528247728",
+      "format": null,
+      "texte": "De la terre crue venue de Mésopotamie : c’est la matière fragile que Jeanne Maucourt aide le Louvre à sauver, depuis Poitiers 🏺",
+      "image": null
+    },
+    {
       "channel": "threads",
       "at": "2026-10-02T06:25:24.848Z",
       "titre": "À Poitiers, une doctorante restaure des tablettes du Louvre",
@@ -515,31 +533,12 @@
       "format": null,
       "texte": "Un panier, un sous-bois encore humide de pluie et, peut-être, un cèpe de Bordeaux caché sous les feuilles 🧺",
       "image": null
-    },
-    {
-      "channel": "threads",
-      "at": "2026-09-30T06:29:07.418Z",
-      "titre": "À Bordeaux, la chasse aux champignons démarre après les premières pluies",
-      "lien": "https://passion-aquitaine.ouest-france.fr/champignons-pluies-automne-bordeaux/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/Dd5sPJFGxIu",
-      "format": "lien",
-      "texte": "Il suffit des premières pluies d’automne pour que la saison des champignons redémarre 🍂 En Gironde, la traque reprend, et un nom fait rêver tous les cueilleurs : le cèpe de Bordeaux. Vous avez déjà vos coins secrets ou vous partez à l’aventure ?\n@villedebordeaux @visitbordeaux @departementgironde",
-      "image": null
     }
   ],
   "file": [
     {
       "channel": "x",
-      "dueAt": "2026-10-02T07:00:00.000Z",
-      "prochainPassage": "2026-10-02T07:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "À Poitiers, une doctorante restaure des tablettes du Louvre"
-    },
-    {
-      "channel": "facebook",
-      "dueAt": "2026-10-02T07:10:16.650Z",
+      "dueAt": "2026-10-02T07:20:00.000Z",
       "prochainPassage": "2026-10-02T07:20:00.000Z",
       "nature": "actu",
       "prevuInitialement": null,
@@ -567,7 +566,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 146,
+    "releves": 148,
     "parReseau": {
       "instagram": {
         "posts": 17,
@@ -646,7 +645,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-02T06:00:40.127Z"
+    "derniere": "2026-10-02T07:00:42.551Z"
   },
   "abonnes": {
     "instagram": {
@@ -685,24 +684,36 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-02T06:25:32.805Z",
-    "posts": 1,
+    "genereLe": "2026-10-02T07:10:36.292Z",
+    "posts": 3,
     "parReseau": {
       "threads": {
         "posts": 1,
         "moyenne": 2
+      },
+      "bluesky": {
+        "posts": 1,
+        "moyenne": 1
+      },
+      "facebook": {
+        "posts": 1,
+        "moyenne": 0
       }
     },
     "parFormat": {
       "reponse": {
         "posts": 1,
         "moyenne": 2
+      },
+      "reply": {
+        "posts": 1,
+        "moyenne": 1
       }
     },
     "parCreneau": {
       "matin": {
-        "posts": 1,
-        "moyenne": 2
+        "posts": 3,
+        "moyenne": 1
       }
     },
     "parCreneauReseau": {
@@ -711,9 +722,21 @@
           "posts": 1,
           "moyenne": 2
         }
+      },
+      "facebook": {
+        "8 h – 9 h 30": {
+          "posts": 1,
+          "moyenne": 0
+        }
+      },
+      "bluesky": {
+        "8 h – 9 h 30": {
+          "posts": 1,
+          "moyenne": 1
+        }
       }
     },
-    "interactionsTotal": 2,
+    "interactionsTotal": 3,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35379",
       "channel": "threads",
@@ -734,35 +757,35 @@
     },
     "moinsBon": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35379",
-      "channel": "threads",
-      "mediaId": "18177946834433190",
-      "publieLe": "2026-10-01T06:13:47.420Z",
+      "channel": "facebook",
+      "mediaId": "227437307428711_1737542675038280",
+      "publieLe": "2026-10-01T06:23:21.001Z",
       "jalon": 1,
-      "releveLe": "2026-10-02T06:20:44.257Z",
-      "likes": 1,
-      "commentaires": 1,
+      "releveLe": "2026-10-02T07:00:42.551Z",
+      "likes": 0,
+      "commentaires": 0,
       "partages": 0,
-      "vues": 215,
+      "vues": null,
       "titre": "À Vouillé, un lieu vieux de 500 ans devient salle de mariage",
-      "lien": "https://www.threads.com/@lovaquitaine/post/Dd8O6QekaDi",
-      "format": "reponse",
-      "mention": true,
+      "lien": "https://www.facebook.com/1720946116697936/posts/1737542675038280",
+      "format": null,
+      "mention": false,
       "creneau": "matin",
-      "creneauReseau": "7 h – 8 h 30"
+      "creneauReseau": "8 h – 9 h 30"
     },
     "mentions": {
       "avec": {
-        "posts": 1,
-        "moyenne": 2
+        "posts": 2,
+        "moyenne": 1.5
       },
       "sans": {
-        "posts": 0,
+        "posts": 1,
         "moyenne": 0
       }
     },
     "publies": {
       "threads": 2,
-      "facebook": 1,
+      "facebook": 2,
       "bluesky": 1,
       "x": 1,
       "instagram": 1
@@ -803,7 +826,8 @@
       "x": null
     },
     "engagement": {
-      "threads": 0.17
+      "threads": 0.17,
+      "facebook": 0
     },
     "conseils": [
       "Abonnés : Threads progresse le plus (+1, +0,1 %) ; Facebook recule (−1), à surveiller."

@@ -1,12 +1,12 @@
 {
   "2026-10": {
     "cle": "2026-10",
-    "publications": 9,
+    "publications": 10,
     "articles": 2,
-    "interactions": 3,
+    "interactions": 5,
     "parReseau": {
       "facebook": 2,
-      "instagram": 1,
+      "instagram": 2,
       "x": 2,
       "threads": 2,
       "bluesky": 2
@@ -23,6 +23,13 @@
         "reseau": "threads",
         "titre": "À Vouillé, un lieu vieux de 500 ans devient salle de mariage",
         "lien": "https://www.threads.com/@lovaquitaine/post/Dd8O6QekaDi",
+        "image": "https://passion-aquitaine.ouest-france.fr/social/20261001-b7818531-1-vignette.jpg",
+        "interactions": 2
+      },
+      {
+        "reseau": "instagram",
+        "titre": "À Vouillé, un lieu vieux de 500 ans devient salle de mariage",
+        "lien": "https://www.instagram.com/p/Dd8qT5nmPi0/",
         "image": "https://passion-aquitaine.ouest-france.fr/social/20261001-b7818531-1-vignette.jpg",
         "interactions": 2
       },

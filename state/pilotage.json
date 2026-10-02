@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-02T10:00:39.861Z",
+  "genereLe": "2026-10-02T10:20:47.611Z",
   "jour": "2026-10-02",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 9,
-      "total": 26,
-      "dernier": "2026-10-01T10:09:29.344Z",
-      "lienDernier": "https://www.instagram.com/p/Dd8qT5nmPi0/"
+      "aujourdhui": 1,
+      "semaine": 10,
+      "total": 27,
+      "dernier": "2026-10-02T10:30:46.872Z",
+      "lienDernier": "https://www.instagram.com/p/Dd_RjCQmOsy/"
     },
     "bluesky": {
       "actif": true,
@@ -161,7 +161,7 @@
         "reponse"
       ],
       "aujourdhui": 1,
-      "semaine": 9,
+      "semaine": 8,
       "total": 25,
       "dernier": "2026-10-02T07:20:50.133Z",
       "lienDernier": null
@@ -172,7 +172,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35407",
       "titre": "À Poitiers, une doctorante restaure des tablettes du Louvre",
       "lien": "https://passion-aquitaine.ouest-france.fr/doctorante-poitiers-tablettes-mesopotamiennes-louvre/",
-      "at": "2026-10-02T07:28:23.307Z",
+      "at": "2026-10-02T10:30:46.872Z",
       "reseaux": {
         "threads": {
           "texte": "On imagine les trésors du Louvre restaurés dans ses propres ateliers. Une partie du travail se fait pourtant à Poitiers 🧱 La doctorante Jeanne Maucourt y œuvre avec le musée pour sauver des tablettes mésopotamiennes en terre crue, une matière qui ne pardonne aucune erreur.\n@fondationdupatrimoine\n➡️ https://passion-aquitaine.ouest-france.fr/doctorante-poitiers-tablettes-mesopotamiennes-louvre/",
@@ -205,6 +205,14 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-10-02T07:28:23.307Z"
+        },
+        "instagram": {
+          "texte": "Comment sauver une tablette mésopotamienne en terre crue, vieille de plusieurs millénaires ?\n⠀\nÀ Poitiers, la doctorante Jeanne Maucourt travaille avec le Louvre pour préserver ces fragiles témoins de l’écriture antique 🏺\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Poitiers #Mesopotamie #Archeologie",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261002-fa646ed7-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-02T10:30:46.872Z"
         }
       }
     },
@@ -451,6 +459,16 @@
   ],
   "publications": [
     {
+      "channel": "instagram",
+      "at": "2026-10-02T10:30:46.872Z",
+      "titre": "À Poitiers, une doctorante restaure des tablettes du Louvre",
+      "lien": "https://passion-aquitaine.ouest-france.fr/doctorante-poitiers-tablettes-mesopotamiennes-louvre/",
+      "lienPost": "https://www.instagram.com/p/Dd_RjCQmOsy/",
+      "format": null,
+      "texte": "Comment sauver une tablette mésopotamienne en terre crue, vieille de plusieurs millénaires ?\n⠀\nÀ Poitiers, la doctorante Jeanne Maucourt travaille avec le Louvre pour préserver ces fragiles témoins de l’écriture antique 🏺\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Poitiers #Mesopotamie #Archeologie",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261002-fa646ed7-1.jpg"
+    },
+    {
       "channel": "bluesky",
       "at": "2026-10-02T07:28:23.307Z",
       "titre": "À Poitiers, une doctorante restaure des tablettes du Louvre",
@@ -539,32 +557,12 @@
       "format": "reponse",
       "texte": "🏛️ Vouillé, dans la Vienne : une ancienne usine de plumes, vieille de 500 ans, change complètement de vocation. Elle s’appelle désormais Le Nid de Plumes et accueille mariages et séminaires. Un joli nom pour un lieu qui garde la mémoire de son passé.\n@leniddeplumes @fondationdupatrimoine",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261001-b7818531-th.jpg"
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-09-30T11:05:12.329Z",
-      "titre": "À Bordeaux, la chasse aux champignons démarre après les premières pluies",
-      "lien": "https://passion-aquitaine.ouest-france.fr/champignons-pluies-automne-bordeaux/",
-      "lienPost": "https://www.instagram.com/p/Dd6L4p0E7US/",
-      "format": null,
-      "texte": "Le cèpe porte le nom de Bordeaux, et c’est avec les premières pluies d’automne que sa traque reprend 🍄\n⠀\nEn Gironde, les amateurs de champignons ressortent paniers et couteaux. La saison de cueillette démarre, et le fameux cèpe de Bordeaux reste la prise la plus convoitée.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #Champignons #Automne",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20260930-376822fc-1.jpg"
     }
   ],
-  "file": [
-    {
-      "channel": "instagram",
-      "dueAt": "2026-10-02T10:30:15.821Z",
-      "prochainPassage": "2026-10-02T11:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "À Poitiers, une doctorante restaure des tablettes du Louvre"
-    }
-  ],
+  "file": [],
   "alertes": [],
   "mesures": {
-    "releves": 151,
+    "releves": 152,
     "parReseau": {
       "instagram": {
         "posts": 17,
@@ -643,7 +641,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-02T09:20:43.702Z"
+    "derniere": "2026-10-02T10:20:47.611Z"
   },
   "abonnes": {
     "instagram": {
@@ -682,10 +680,14 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-02T10:00:44.613Z",
-    "posts": 3,
+    "genereLe": "2026-10-02T10:30:57.009Z",
+    "posts": 4,
     "parReseau": {
       "threads": {
+        "posts": 1,
+        "moyenne": 2
+      },
+      "instagram": {
         "posts": 1,
         "moyenne": 2
       },
@@ -709,6 +711,10 @@
       }
     },
     "parCreneau": {
+      "après-midi": {
+        "posts": 1,
+        "moyenne": 2
+      },
       "matin": {
         "posts": 3,
         "moyenne": 1
@@ -732,9 +738,15 @@
           "posts": 1,
           "moyenne": 1
         }
+      },
+      "instagram": {
+        "12 h – 13 h 30": {
+          "posts": 1,
+          "moyenne": 2
+        }
       }
     },
-    "interactionsTotal": 3,
+    "interactionsTotal": 5,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35379",
       "channel": "threads",
@@ -773,8 +785,8 @@
     },
     "mentions": {
       "avec": {
-        "posts": 2,
-        "moyenne": 1.5
+        "posts": 3,
+        "moyenne": 1.7
       },
       "sans": {
         "posts": 1,
@@ -786,7 +798,7 @@
       "facebook": 2,
       "bluesky": 2,
       "x": 2,
-      "instagram": 1
+      "instagram": 2
     },
     "abonnes": {
       "instagram": {
@@ -825,6 +837,7 @@
     },
     "engagement": {
       "threads": 0.17,
+      "instagram": 0.02,
       "facebook": 0
     },
     "conseils": [

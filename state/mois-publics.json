@@ -46,7 +46,7 @@
     "cle": "2026-09",
     "publications": 111,
     "articles": 25,
-    "interactions": 761,
+    "interactions": 787,
     "parReseau": {
       "facebook": 20,
       "instagram": 25,
@@ -78,6 +78,13 @@
       },
       {
         "reseau": "instagram",
+        "titre": "En Charente-Maritime, nouveau succès pour l’Ultra Trail de Pons",
+        "lien": "https://www.instagram.com/p/Ddt_ugjl2g3/",
+        "image": "https://passion-aquitaine.ouest-france.fr/social/20260924-1bda31df-1-vignette.jpg",
+        "interactions": 55
+      },
+      {
+        "reseau": "instagram",
         "titre": "En Haute-Vienne, les abeilles tuent le frelon asiatique en le chauffant vivant à 42°C",
         "lien": "https://www.instagram.com/p/DdYXqThl1Aa/",
         "image": "https://passion-aquitaine.ouest-france.fr/social/20260913-def258f4-1-vignette.jpg",
@@ -88,13 +95,6 @@
         "titre": "Ces dauphins près des plages d’Hossegor ne sont pas bon signe",
         "lien": "https://www.instagram.com/p/DdgehsLmC8L/",
         "image": "https://passion-aquitaine.ouest-france.fr/social/20260920-834e0391-1-vignette.jpg",
-        "interactions": 38
-      },
-      {
-        "reseau": "instagram",
-        "titre": "Ce TER de Nouvelle-Aquitaine cache une batterie de 80 km : il remplace son moteur diesel",
-        "lien": "https://www.instagram.com/p/Ddwed9Nj4Q1/",
-        "image": "https://passion-aquitaine.ouest-france.fr/social/20260925-93e1ab54-1-vignette.jpg",
         "interactions": 38
       }
     ]

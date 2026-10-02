@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-02T11:20:46.714Z",
+  "genereLe": "2026-10-02T12:00:44.673Z",
   "jour": "2026-10-02",
   "reseaux": {
     "instagram": {
@@ -125,7 +125,7 @@
         "reponse"
       ],
       "aujourdhui": 1,
-      "semaine": 8,
+      "semaine": 7,
       "total": 22,
       "dernier": "2026-10-02T06:25:24.848Z",
       "lienDernier": "https://www.threads.com/@lovaquitaine/post/Dd-1aTPmxJJ"
@@ -562,7 +562,7 @@
   "file": [],
   "alertes": [],
   "mesures": {
-    "releves": 153,
+    "releves": 154,
     "parReseau": {
       "instagram": {
         "posts": 17,
@@ -577,8 +577,8 @@
         "interactionsMoyennes": 0.7
       },
       "threads": {
-        "posts": 14,
-        "interactionsMoyennes": 12.1
+        "posts": 15,
+        "interactionsMoyennes": 11.3
       }
     }
   },
@@ -641,7 +641,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-02T10:20:47.611Z"
+    "derniere": "2026-10-02T12:00:44.673Z"
   },
   "abonnes": {
     "instagram": {
@@ -680,7 +680,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-02T11:20:54.968Z",
+    "genereLe": "2026-10-02T12:00:51.844Z",
     "posts": 4,
     "parReseau": {
       "threads": {

@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-02T05:20:40.630Z",
+  "genereLe": "2026-10-02T06:00:40.127Z",
   "jour": "2026-10-02",
   "reseaux": {
     "instagram": {
@@ -125,7 +125,7 @@
         "reponse"
       ],
       "aujourdhui": 0,
-      "semaine": 9,
+      "semaine": 8,
       "total": 21,
       "dernier": "2026-10-01T06:13:47.420Z",
       "lienDernier": "https://www.threads.com/@lovaquitaine/post/Dd8O6QekaDi"
@@ -559,10 +559,56 @@
       "image": "https://passion-aquitaine.ouest-france.fr/social/20260930-376822fc-bsky.jpg"
     }
   ],
-  "file": [],
+  "file": [
+    {
+      "channel": "threads",
+      "dueAt": "2026-10-02T06:24:38.320Z",
+      "prochainPassage": "2026-10-02T07:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "À Poitiers, une doctorante restaure des tablettes du Louvre"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-10-02T07:00:00.000Z",
+      "prochainPassage": "2026-10-02T07:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "À Poitiers, une doctorante restaure des tablettes du Louvre"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-10-02T07:10:16.650Z",
+      "prochainPassage": "2026-10-02T07:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "À Poitiers, une doctorante restaure des tablettes du Louvre"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-10-02T07:28:20.519Z",
+      "prochainPassage": "2026-10-02T08:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "À Poitiers, une doctorante restaure des tablettes du Louvre"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-10-02T10:30:15.821Z",
+      "prochainPassage": "2026-10-02T11:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "À Poitiers, une doctorante restaure des tablettes du Louvre"
+    }
+  ],
   "alertes": [],
   "mesures": {
-    "releves": 144,
+    "releves": 145,
     "parReseau": {
       "instagram": {
         "posts": 17,
@@ -577,8 +623,8 @@
         "interactionsMoyennes": 0.7
       },
       "threads": {
-        "posts": 12,
-        "interactionsMoyennes": 14.1
+        "posts": 13,
+        "interactionsMoyennes": 13
       }
     }
   },
@@ -641,7 +687,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-02T04:21:00.789Z"
+    "derniere": "2026-10-02T06:00:40.127Z"
   },
   "abonnes": {
     "instagram": {
@@ -680,7 +726,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-02T05:20:46.934Z",
+    "genereLe": "2026-10-02T06:01:34.822Z",
     "posts": 0,
     "parReseau": {},
     "parFormat": {},
@@ -748,29 +794,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 0,
-      "entree": 0,
-      "sortie": 0,
-      "cout": 0,
+      "appels": 3,
+      "entree": 23062,
+      "sortie": 2556,
+      "cout": 0.143368,
       "cle": "2026-10-02"
     },
     "semaine": {
-      "appels": 29,
-      "entree": 223208,
-      "sortie": 25644,
-      "cout": 1.2176079999999998
+      "appels": 32,
+      "entree": 246270,
+      "sortie": 28200,
+      "cout": 1.3609759999999997
     },
     "mois": {
-      "appels": 1,
-      "entree": 7649,
-      "sortie": 839,
-      "cout": 0.047376,
+      "appels": 4,
+      "entree": 30711,
+      "sortie": 3395,
+      "cout": 0.190744,
       "cle": "2026-10"
     },
-    "projection": 0.73,
-    "moyenneAppel": 0.0474,
+    "projection": 2.96,
+    "moyenneAppel": 0.0477,
     "parModele": {
-      "claude-opus-5-5": 1
+      "claude-opus-5-5": 4
     },
     "serie": [
       [
@@ -827,7 +873,7 @@
       ],
       [
         "2026-10-02",
-        0
+        0.1434
       ]
     ],
     "depuis": "2026-09-23"

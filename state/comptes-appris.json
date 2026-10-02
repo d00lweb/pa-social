@@ -719,5 +719,26 @@
     "instagram": [],
     "threads": [],
     "bluesky": []
+  },
+  "locale:poitiers:archeologie": {
+    "v": 2,
+    "cherche": "2026-10-02T06:01:17.236Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "domaine:archeologie": {
+    "v": 2,
+    "cherche": "2026-10-02T06:01:17.236Z",
+    "instagram": [],
+    "bluesky": [
+      {
+        "handle": "adlfi.eurosky.social",
+        "nom": "Archéologie de la France – Informations",
+        "abonnes": 658,
+        "preuve": 1
+      }
+    ],
+    "threads": []
   }
 }

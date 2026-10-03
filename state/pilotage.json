@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-03T07:00:41.444Z",
+  "genereLe": "2026-10-03T07:20:38.192Z",
   "jour": "2026-10-03",
   "reseaux": {
     "instagram": {
@@ -160,10 +160,10 @@
         "lien",
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 7,
-      "total": 25,
-      "dernier": "2026-10-02T07:20:50.133Z",
+      "aujourdhui": 1,
+      "semaine": 8,
+      "total": 26,
+      "dernier": "2026-10-03T07:20:45.571Z",
       "lienDernier": null
     }
   },
@@ -172,7 +172,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35363",
       "titre": "Les Deux-Sèvres, département le plus fécond de toute la région",
       "lien": "https://passion-aquitaine.ouest-france.fr/deux-sevres-departement-plus-fecond-region/",
-      "at": "2026-10-03T07:07:44.982Z",
+      "at": "2026-10-03T07:20:45.571Z",
       "reseaux": {
         "threads": {
           "texte": "📈 Un classement qu’on attendait peu : pour l’indice de fécondité, les Deux-Sèvres arrivent en tête de toute la Nouvelle-Aquitaine, selon l’Insee. Et le département se situe au-dessus de la moyenne nationale. Vous pensiez à ce département pour ce record ?",
@@ -197,6 +197,14 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-10-03T07:07:44.982Z"
+        },
+        "x": {
+          "texte": "Des berceaux plus nombreux qu’ailleurs 🧸 Sur toute la Nouvelle-Aquitaine, les Deux-Sèvres décrochent le meilleur indice de fécondité, d’après l’Insee, et dépassent la moyenne française.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261003-536318f0-x.jpg",
+          "mode": "reponse",
+          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/deux-sevres-departement-plus-fecond-region/",
+          "sujet": null,
+          "publieLe": "2026-10-03T07:20:45.571Z"
         }
       }
     },
@@ -443,6 +451,16 @@
   ],
   "publications": [
     {
+      "channel": "x",
+      "at": "2026-10-03T07:20:45.571Z",
+      "titre": "Les Deux-Sèvres, département le plus fécond de toute la région",
+      "lien": "https://passion-aquitaine.ouest-france.fr/deux-sevres-departement-plus-fecond-region/",
+      "lienPost": null,
+      "format": "reponse",
+      "texte": "Des berceaux plus nombreux qu’ailleurs 🧸 Sur toute la Nouvelle-Aquitaine, les Deux-Sèvres décrochent le meilleur indice de fécondité, d’après l’Insee, et dépassent la moyenne française.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261003-536318f0-x.jpg"
+    },
+    {
       "channel": "facebook",
       "at": "2026-10-03T07:07:44.982Z",
       "titre": "Les Deux-Sèvres, département le plus fécond de toute la région",
@@ -531,28 +549,9 @@
       "format": null,
       "texte": "Là où l’on travaillait la plume, on dit désormais oui 💍\n⠀\nÀ Vouillé, dans la Vienne, une ancienne usine de plumes vieille de 500 ans devient Le Nid de Plumes. Mariages et séminaires y trouvent un cadre chargé d’histoire.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Vienne #Mariage #Patrimoine",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261001-b7818531-1.jpg"
-    },
-    {
-      "channel": "x",
-      "at": "2026-10-01T08:00:48.631Z",
-      "titre": "À Vouillé, un lieu vieux de 500 ans devient salle de mariage",
-      "lien": "https://passion-aquitaine.ouest-france.fr/nid-de-plumes-vouille-hebergement-insolite/",
-      "lienPost": null,
-      "format": "reponse",
-      "texte": "On y travaillait la plume, on y célèbre aujourd’hui des mariages 💒 À Vouillé, une usine vieille de 500 ans devient Le Nid de Plumes, lieu de réception.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261001-b7818531-x.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "x",
-      "dueAt": "2026-10-03T07:20:00.000Z",
-      "prochainPassage": "2026-10-03T07:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Les Deux-Sèvres, département le plus fécond de toute la région"
-    },
     {
       "channel": "instagram",
       "dueAt": "2026-10-03T10:14:00.609Z",
@@ -565,7 +564,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 158,
+    "releves": 159,
     "parReseau": {
       "instagram": {
         "posts": 18,
@@ -683,8 +682,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-03T07:07:50.613Z",
-    "posts": 5,
+    "genereLe": "2026-10-03T07:20:56.773Z",
+    "posts": 6,
     "parReseau": {
       "instagram": {
         "posts": 1,
@@ -699,7 +698,7 @@
         "moyenne": 1
       },
       "facebook": {
-        "posts": 1,
+        "posts": 2,
         "moyenne": 0
       }
     },
@@ -723,8 +722,8 @@
         "moyenne": 2
       },
       "matin": {
-        "posts": 4,
-        "moyenne": 0.8
+        "posts": 5,
+        "moyenne": 0.6
       }
     },
     "parCreneauReseau": {
@@ -736,7 +735,7 @@
       },
       "facebook": {
         "8 h – 9 h 30": {
-          "posts": 1,
+          "posts": 2,
           "moyenne": 0
         }
       },
@@ -774,21 +773,21 @@
     },
     "moinsBon": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35407",
-      "channel": "threads",
-      "mediaId": "18101440310571470",
-      "publieLe": "2026-10-02T06:25:24.848Z",
+      "channel": "facebook",
+      "mediaId": "227437307428711_1738781528247728",
+      "publieLe": "2026-10-02T07:10:27.616Z",
       "jalon": 1,
-      "releveLe": "2026-10-03T07:00:41.444Z",
+      "releveLe": "2026-10-03T07:20:38.192Z",
       "likes": 0,
       "commentaires": 0,
       "partages": 0,
-      "vues": 96,
+      "vues": null,
       "titre": "À Poitiers, une doctorante restaure des tablettes du Louvre",
-      "lien": "https://www.threads.com/@lovaquitaine/post/Dd-1aTPmxJJ",
-      "format": "image",
-      "mention": true,
+      "lien": "https://www.facebook.com/1720946116697936/posts/1738781528247728",
+      "format": null,
+      "mention": false,
       "creneau": "matin",
-      "creneauReseau": "7 h – 8 h 30"
+      "creneauReseau": "8 h – 9 h 30"
     },
     "mentions": {
       "avec": {
@@ -796,7 +795,7 @@
         "moyenne": 1.3
       },
       "sans": {
-        "posts": 1,
+        "posts": 2,
         "moyenne": 0
       }
     },
@@ -804,7 +803,7 @@
       "threads": 3,
       "facebook": 3,
       "bluesky": 3,
-      "x": 2,
+      "x": 3,
       "instagram": 2
     },
     "abonnes": {

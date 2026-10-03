@@ -2083,5 +2083,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35363",
+    "channel": "x",
+    "at": "2026-10-03T07:20:45.571Z",
+    "mediaId": "kit-telegram",
+    "titre": "Les Deux-Sèvres, département le plus fécond de toute la région",
+    "lien": "https://passion-aquitaine.ouest-france.fr/deux-sevres-departement-plus-fecond-region/",
+    "lienPost": null,
+    "format": "reponse",
+    "mention": true,
+    "apercu": {
+      "texte": "Des berceaux plus nombreux qu’ailleurs 🧸 Sur toute la Nouvelle-Aquitaine, les Deux-Sèvres décrochent le meilleur indice de fécondité, d’après l’Insee, et dépassent la moyenne française.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261003-536318f0-x.jpg",
+      "mode": "reponse",
+      "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/deux-sevres-departement-plus-fecond-region/",
+      "sujet": null
+    }
   }
 ]

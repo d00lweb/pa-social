@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-03T07:57:55.894Z",
+  "genereLe": "2026-10-03T08:00:39.035Z",
   "jour": "2026-10-03",
   "reseaux": {
     "instagram": {
@@ -124,11 +124,11 @@
         "lien",
         "reponse"
       ],
-      "aujourdhui": 1,
-      "semaine": 7,
-      "total": 23,
-      "dernier": "2026-10-03T06:28:41.414Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DeBaNchGzTw"
+      "aujourdhui": 2,
+      "semaine": 8,
+      "total": 24,
+      "dernier": "2026-10-03T08:08:18.952Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DeBlnMlFtPm"
     },
     "x": {
       "actif": true,
@@ -168,6 +168,22 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35670",
+      "titre": "La Rochelle : cette usine fabrique des mâts de 22 mètres grâce à ses cuves uniques",
+      "lien": "https://passion-aquitaine.ouest-france.fr/usine-sparcraft-sainte-soulle-mats-22-metres/",
+      "at": "2026-10-03T08:08:18.952Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Imaginez un mât de bateau couché sur 22 mètres, plongé dans une cuve à sa mesure. C’est le quotidien de la nouvelle usine Sparcraft, installée à Sainte-Soulle, tout près de La Rochelle, où ces mâts sont fabriqués puis traités sur place 🏭\n@ma_charente_maritime",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261003-78debb7f-th.jpg",
+          "mode": "reponse",
+          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/usine-sparcraft-sainte-soulle-mats-22-metres/",
+          "sujet": "Sainte-Soulle",
+          "publieLe": "2026-10-03T08:08:18.952Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35363",
       "titre": "Les Deux-Sèvres, département le plus fécond de toute la région",
@@ -399,57 +415,19 @@
           "publieLe": "2026-09-29T10:26:47.677Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35338",
-      "titre": "À Anglet, une chapelle de paille survit depuis 1847",
-      "lien": "https://passion-aquitaine.ouest-france.fr/anglet-chapelle-paille-saint-bernard/",
-      "at": "2026-09-28T11:03:55.148Z",
-      "reseaux": {
-        "threads": {
-          "texte": "Des murs de paille, une charpente, et une chapelle qui traverse presque deux siècles au bord du Pays basque. Celle du monastère Saint Bernard, à Anglet, a été bâtie ainsi en 1847. En 2007, plutôt que de la remplacer par du plus solide, on l’a refaite à l’identique, paille comprise 🏡\n@fondationdupatrimoine @paysbasque_net",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260928-3a4003de-th.jpg",
-          "mode": "reponse",
-          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/anglet-chapelle-paille-saint-bernard/",
-          "sujet": "Anglet",
-          "publieLe": "2026-09-28T06:30:42.917Z"
-        },
-        "bluesky": {
-          "texte": "Au monastère Saint Bernard, à #Anglet, la chapelle n’est ni en pierre ni en brique : elle a été 🌾 bâtie en paille dès 1847. Le matériau a été conservé lors de sa reconstruction à l’identique, en 2007.\n@fond-patrimoine.bsky.social",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260928-3a4003de-bsky.jpg",
-          "mode": "reply",
-          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/anglet-chapelle-paille-saint-bernard/",
-          "sujet": null,
-          "publieLe": "2026-09-28T06:30:54.266Z"
-        },
-        "facebook": {
-          "texte": "À Anglet, on peut voir une chapelle dont les murs sont faits de paille, une technique conservée depuis 1847 🌾",
-          "image": null,
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-28T07:05:19.721Z"
-        },
-        "x": {
-          "texte": "🌾 Une chapelle en paille peut-elle tenir près de deux siècles ? À #Anglet, celle du monastère Saint Bernard a été bâtie ainsi en 1847, puis refaite à l’identique en 2007.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260928-3a4003de-x.jpg",
-          "mode": "reponse",
-          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/anglet-chapelle-paille-saint-bernard/",
-          "sujet": null,
-          "publieLe": "2026-09-28T07:20:50.863Z"
-        },
-        "instagram": {
-          "texte": "🌾 À Anglet, une chapelle tient debout en paille depuis 1847\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Anglet #PaysBasque #Patrimoine",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260928-3a4003de-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-28T11:03:55.148Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "threads",
+      "at": "2026-10-03T08:08:18.952Z",
+      "titre": "La Rochelle : cette usine fabrique des mâts de 22 mètres grâce à ses cuves uniques",
+      "lien": "https://passion-aquitaine.ouest-france.fr/usine-sparcraft-sainte-soulle-mats-22-metres/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/DeBlnMlFtPm",
+      "format": "reponse",
+      "texte": "Imaginez un mât de bateau couché sur 22 mètres, plongé dans une cuve à sa mesure. C’est le quotidien de la nouvelle usine Sparcraft, installée à Sainte-Soulle, tout près de La Rochelle, où ces mâts sont fabriqués puis traités sur place 🏭\n@ma_charente_maritime",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261003-78debb7f-th.jpg"
+    },
     {
       "channel": "x",
       "at": "2026-10-03T07:20:45.571Z",
@@ -539,28 +517,9 @@
       "format": "image",
       "texte": "On imagine les trésors du Louvre restaurés dans ses propres ateliers. Une partie du travail se fait pourtant à Poitiers 🧱 La doctorante Jeanne Maucourt y œuvre avec le musée pour sauver des tablettes mésopotamiennes en terre crue, une matière qui ne pardonne aucune erreur.\n@fondationdupatrimoine\n➡️ https://passion-aquitaine.ouest-france.fr/doctorante-poitiers-tablettes-mesopotamiennes-louvre/",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261002-fa646ed7-th.jpg"
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-10-01T10:09:29.344Z",
-      "titre": "À Vouillé, un lieu vieux de 500 ans devient salle de mariage",
-      "lien": "https://passion-aquitaine.ouest-france.fr/nid-de-plumes-vouille-hebergement-insolite/",
-      "lienPost": "https://www.instagram.com/p/Dd8qT5nmPi0/",
-      "format": null,
-      "texte": "Là où l’on travaillait la plume, on dit désormais oui 💍\n⠀\nÀ Vouillé, dans la Vienne, une ancienne usine de plumes vieille de 500 ans devient Le Nid de Plumes. Mariages et séminaires y trouvent un cadre chargé d’histoire.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Vienne #Mariage #Patrimoine",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261001-b7818531-1.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "threads",
-      "dueAt": "2026-10-03T08:04:19.329Z",
-      "prochainPassage": "2026-10-03T08:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "La Rochelle : cette usine fabrique des mâts de 22 mètres grâce à ses cuves uniques"
-    },
     {
       "channel": "bluesky",
       "dueAt": "2026-10-03T10:07:34.468Z",
@@ -727,7 +686,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-03T07:58:34.808Z",
+    "genereLe": "2026-10-03T08:08:23.729Z",
     "posts": 7,
     "parReseau": {
       "instagram": {
@@ -849,7 +808,7 @@
       }
     },
     "publies": {
-      "threads": 3,
+      "threads": 4,
       "facebook": 3,
       "bluesky": 3,
       "x": 3,

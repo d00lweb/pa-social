@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-03T10:00:39.714Z",
+  "genereLe": "2026-10-03T10:20:47.307Z",
   "jour": "2026-10-03",
   "reseaux": {
     "instagram": {
@@ -160,14 +160,46 @@
         "lien",
         "reponse"
       ],
-      "aujourdhui": 1,
-      "semaine": 7,
-      "total": 26,
-      "dernier": "2026-10-03T07:20:45.571Z",
+      "aujourdhui": 2,
+      "semaine": 8,
+      "total": 27,
+      "dernier": "2026-10-03T10:20:53.803Z",
       "lienDernier": null
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35670",
+      "titre": "La Rochelle : cette usine fabrique des mâts de 22 mètres grâce à ses cuves uniques",
+      "lien": "https://passion-aquitaine.ouest-france.fr/usine-sparcraft-sainte-soulle-mats-22-metres/",
+      "at": "2026-10-03T10:20:53.803Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Imaginez un mât de bateau couché sur 22 mètres, plongé dans une cuve à sa mesure. C’est le quotidien de la nouvelle usine Sparcraft, installée à Sainte-Soulle, tout près de La Rochelle, où ces mâts sont fabriqués puis traités sur place 🏭\n@ma_charente_maritime",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261003-78debb7f-th.jpg",
+          "mode": "reponse",
+          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/usine-sparcraft-sainte-soulle-mats-22-metres/",
+          "sujet": "Sainte-Soulle",
+          "publieLe": "2026-10-03T08:08:18.952Z"
+        },
+        "bluesky": {
+          "texte": "Près de La Rochelle, la nouvelle usine Sparcraft de Sainte-Soulle ne se contente pas de fabriquer des mâts de bateau : ⚓ elle les traite aussi, dans des cuves uniques capables d’accueillir des pièces de 22 mètres. #LaRochelle",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261003-78debb7f-bsky.jpg",
+          "mode": "reply",
+          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/usine-sparcraft-sainte-soulle-mats-22-metres/",
+          "sujet": null,
+          "publieLe": "2026-10-03T10:07:36.175Z"
+        },
+        "x": {
+          "texte": "⛵ Où traite-t-on un mât de bateau de 22 mètres ? Dans les cuves uniques de la nouvelle usine Sparcraft, à Sainte-Soulle, près de La Rochelle.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261003-78debb7f-x.jpg",
+          "mode": "reponse",
+          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/usine-sparcraft-sainte-soulle-mats-22-metres/",
+          "sujet": null,
+          "publieLe": "2026-10-03T10:20:53.803Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35363",
       "titre": "Les Deux-Sèvres, département le plus fécond de toute la région",
@@ -213,30 +245,6 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-10-03T10:14:33.238Z"
-        }
-      }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35670",
-      "titre": "La Rochelle : cette usine fabrique des mâts de 22 mètres grâce à ses cuves uniques",
-      "lien": "https://passion-aquitaine.ouest-france.fr/usine-sparcraft-sainte-soulle-mats-22-metres/",
-      "at": "2026-10-03T10:07:36.175Z",
-      "reseaux": {
-        "threads": {
-          "texte": "Imaginez un mât de bateau couché sur 22 mètres, plongé dans une cuve à sa mesure. C’est le quotidien de la nouvelle usine Sparcraft, installée à Sainte-Soulle, tout près de La Rochelle, où ces mâts sont fabriqués puis traités sur place 🏭\n@ma_charente_maritime",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261003-78debb7f-th.jpg",
-          "mode": "reponse",
-          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/usine-sparcraft-sainte-soulle-mats-22-metres/",
-          "sujet": "Sainte-Soulle",
-          "publieLe": "2026-10-03T08:08:18.952Z"
-        },
-        "bluesky": {
-          "texte": "Près de La Rochelle, la nouvelle usine Sparcraft de Sainte-Soulle ne se contente pas de fabriquer des mâts de bateau : ⚓ elle les traite aussi, dans des cuves uniques capables d’accueillir des pièces de 22 mètres. #LaRochelle",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261003-78debb7f-bsky.jpg",
-          "mode": "reply",
-          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/usine-sparcraft-sainte-soulle-mats-22-metres/",
-          "sujet": null,
-          "publieLe": "2026-10-03T10:07:36.175Z"
         }
       }
     },
@@ -435,6 +443,16 @@
   ],
   "publications": [
     {
+      "channel": "x",
+      "at": "2026-10-03T10:20:53.803Z",
+      "titre": "La Rochelle : cette usine fabrique des mâts de 22 mètres grâce à ses cuves uniques",
+      "lien": "https://passion-aquitaine.ouest-france.fr/usine-sparcraft-sainte-soulle-mats-22-metres/",
+      "lienPost": null,
+      "format": "reponse",
+      "texte": "⛵ Où traite-t-on un mât de bateau de 22 mètres ? Dans les cuves uniques de la nouvelle usine Sparcraft, à Sainte-Soulle, près de La Rochelle.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261003-78debb7f-x.jpg"
+    },
+    {
       "channel": "instagram",
       "at": "2026-10-03T10:14:33.238Z",
       "titre": "Les Deux-Sèvres, département le plus fécond de toute la région",
@@ -523,28 +541,9 @@
       "format": "card",
       "texte": "À #Poitiers, une doctorante veille sur des trésors du Louvre 📜 Jeanne Maucourt travaille avec le musée pour sauver des tablettes mésopotamiennes en terre crue, un matériau particulièrement fragile.\n@museelouvre.bsky.social @adlfi.eurosky.social @fond-patrimoine.bsky.social",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261002-fa646ed7-bsky.jpg"
-    },
-    {
-      "channel": "x",
-      "at": "2026-10-02T07:20:50.133Z",
-      "titre": "À Poitiers, une doctorante restaure des tablettes du Louvre",
-      "lien": "https://passion-aquitaine.ouest-france.fr/doctorante-poitiers-tablettes-mesopotamiennes-louvre/",
-      "lienPost": null,
-      "format": "image",
-      "texte": "Des tablettes mésopotamiennes en terre crue du Louvre reprennent vie grâce à Jeanne Maucourt, doctorante à #Poitiers : un savoir-faire rare pour transmettre ces écrits antiques 🔬\n➡️ https://passion-aquitaine.ouest-france.fr/doctorante-poitiers-tablettes-mesopotamiennes-louvre/",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261002-fa646ed7-x.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "x",
-      "dueAt": "2026-10-03T10:20:00.000Z",
-      "prochainPassage": "2026-10-03T10:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "La Rochelle : cette usine fabrique des mâts de 22 mètres grâce à ses cuves uniques"
-    },
     {
       "channel": "instagram",
       "dueAt": "2026-10-03T17:27:28.737Z",
@@ -684,7 +683,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-03T10:14:47.552Z",
+    "genereLe": "2026-10-03T10:21:06.448Z",
     "posts": 7,
     "parReseau": {
       "instagram": {
@@ -809,7 +808,7 @@
       "threads": 4,
       "facebook": 3,
       "bluesky": 4,
-      "x": 3,
+      "x": 4,
       "instagram": 3
     },
     "abonnes": {

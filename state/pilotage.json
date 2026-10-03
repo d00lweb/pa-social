@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-03T06:20:44.651Z",
+  "genereLe": "2026-10-03T07:00:41.444Z",
   "jour": "2026-10-03",
   "reseaux": {
     "instagram": {
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 9,
-      "total": 22,
-      "dernier": "2026-10-02T07:10:27.616Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1738781528247728"
+      "aujourdhui": 1,
+      "semaine": 10,
+      "total": 23,
+      "dernier": "2026-10-03T07:07:44.982Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1739967744795773"
     },
     "threads": {
       "actif": true,
@@ -125,7 +125,7 @@
         "reponse"
       ],
       "aujourdhui": 1,
-      "semaine": 8,
+      "semaine": 7,
       "total": 23,
       "dernier": "2026-10-03T06:28:41.414Z",
       "lienDernier": "https://www.threads.com/@lovaquitaine/post/DeBaNchGzTw"
@@ -172,7 +172,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35363",
       "titre": "Les Deux-Sèvres, département le plus fécond de toute la région",
       "lien": "https://passion-aquitaine.ouest-france.fr/deux-sevres-departement-plus-fecond-region/",
-      "at": "2026-10-03T06:30:25.362Z",
+      "at": "2026-10-03T07:07:44.982Z",
       "reseaux": {
         "threads": {
           "texte": "📈 Un classement qu’on attendait peu : pour l’indice de fécondité, les Deux-Sèvres arrivent en tête de toute la Nouvelle-Aquitaine, selon l’Insee. Et le département se situe au-dessus de la moyenne nationale. Vous pensiez à ce département pour ce record ?",
@@ -189,6 +189,14 @@
           "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/deux-sevres-departement-plus-fecond-region/",
           "sujet": null,
           "publieLe": "2026-10-03T06:30:25.362Z"
+        },
+        "facebook": {
+          "texte": "Ni la Gironde ni le Pays basque : c’est un département plus discret qui compte le plus de naissances par femme dans la région 🍼",
+          "image": null,
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-03T07:07:44.982Z"
         }
       }
     },
@@ -435,6 +443,16 @@
   ],
   "publications": [
     {
+      "channel": "facebook",
+      "at": "2026-10-03T07:07:44.982Z",
+      "titre": "Les Deux-Sèvres, département le plus fécond de toute la région",
+      "lien": "https://passion-aquitaine.ouest-france.fr/deux-sevres-departement-plus-fecond-region/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1739967744795773",
+      "format": null,
+      "texte": "Ni la Gironde ni le Pays basque : c’est un département plus discret qui compte le plus de naissances par femme dans la région 🍼",
+      "image": null
+    },
+    {
       "channel": "bluesky",
       "at": "2026-10-03T06:30:25.362Z",
       "titre": "Les Deux-Sèvres, département le plus fécond de toute la région",
@@ -523,28 +541,9 @@
       "format": "reponse",
       "texte": "On y travaillait la plume, on y célèbre aujourd’hui des mariages 💒 À Vouillé, une usine vieille de 500 ans devient Le Nid de Plumes, lieu de réception.",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261001-b7818531-x.jpg"
-    },
-    {
-      "channel": "bluesky",
-      "at": "2026-10-01T06:28:24.938Z",
-      "titre": "À Vouillé, un lieu vieux de 500 ans devient salle de mariage",
-      "lien": "https://passion-aquitaine.ouest-france.fr/nid-de-plumes-vouille-hebergement-insolite/",
-      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mwsa4xbxqx2s",
-      "format": "reply",
-      "texte": "500 ans d’histoire et une nouvelle vie : à Vouillé, dans la #Vienne, une ancienne usine de plumes devient Le Nid de Plumes, lieu de réception pour mariages et séminaires 🕊️\n@fond-patrimoine.bsky.social",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261001-b7818531-bsky.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "facebook",
-      "dueAt": "2026-10-03T07:07:35.049Z",
-      "prochainPassage": "2026-10-03T07:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Les Deux-Sèvres, département le plus fécond de toute la région"
-    },
     {
       "channel": "x",
       "dueAt": "2026-10-03T07:20:00.000Z",
@@ -566,7 +565,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 156,
+    "releves": 158,
     "parReseau": {
       "instagram": {
         "posts": 18,
@@ -581,8 +580,8 @@
         "interactionsMoyennes": 0.6
       },
       "threads": {
-        "posts": 15,
-        "interactionsMoyennes": 11.3
+        "posts": 16,
+        "interactionsMoyennes": 10.6
       }
     }
   },
@@ -684,16 +683,16 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-03T06:30:38.443Z",
-    "posts": 4,
+    "genereLe": "2026-10-03T07:07:50.613Z",
+    "posts": 5,
     "parReseau": {
-      "threads": {
-        "posts": 1,
-        "moyenne": 2
-      },
       "instagram": {
         "posts": 1,
         "moyenne": 2
+      },
+      "threads": {
+        "posts": 2,
+        "moyenne": 1
       },
       "bluesky": {
         "posts": 1,
@@ -712,6 +711,10 @@
       "reply": {
         "posts": 1,
         "moyenne": 1
+      },
+      "image": {
+        "posts": 1,
+        "moyenne": 0
       }
     },
     "parCreneau": {
@@ -720,15 +723,15 @@
         "moyenne": 2
       },
       "matin": {
-        "posts": 3,
-        "moyenne": 1
+        "posts": 4,
+        "moyenne": 0.8
       }
     },
     "parCreneauReseau": {
       "threads": {
         "7 h – 8 h 30": {
-          "posts": 1,
-          "moyenne": 2
+          "posts": 2,
+          "moyenne": 1
         }
       },
       "facebook": {
@@ -770,27 +773,27 @@
       "creneauReseau": "7 h – 8 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35379",
-      "channel": "facebook",
-      "mediaId": "227437307428711_1737542675038280",
-      "publieLe": "2026-10-01T06:23:21.001Z",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35407",
+      "channel": "threads",
+      "mediaId": "18101440310571470",
+      "publieLe": "2026-10-02T06:25:24.848Z",
       "jalon": 1,
-      "releveLe": "2026-10-02T07:00:42.551Z",
+      "releveLe": "2026-10-03T07:00:41.444Z",
       "likes": 0,
       "commentaires": 0,
       "partages": 0,
-      "vues": null,
-      "titre": "À Vouillé, un lieu vieux de 500 ans devient salle de mariage",
-      "lien": "https://www.facebook.com/1720946116697936/posts/1737542675038280",
-      "format": null,
-      "mention": false,
+      "vues": 96,
+      "titre": "À Poitiers, une doctorante restaure des tablettes du Louvre",
+      "lien": "https://www.threads.com/@lovaquitaine/post/Dd-1aTPmxJJ",
+      "format": "image",
+      "mention": true,
       "creneau": "matin",
-      "creneauReseau": "8 h – 9 h 30"
+      "creneauReseau": "7 h – 8 h 30"
     },
     "mentions": {
       "avec": {
-        "posts": 3,
-        "moyenne": 1.7
+        "posts": 4,
+        "moyenne": 1.3
       },
       "sans": {
         "posts": 1,
@@ -799,7 +802,7 @@
     },
     "publies": {
       "threads": 3,
-      "facebook": 2,
+      "facebook": 3,
       "bluesky": 3,
       "x": 2,
       "instagram": 2
@@ -840,11 +843,12 @@
       "x": null
     },
     "engagement": {
-      "threads": 0.17,
       "instagram": 0.02,
+      "threads": 0.09,
       "facebook": 0
     },
     "conseils": [
+      "Le format « reponse » fait 20 fois mieux que « image » (2 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « image » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+1, +0,1 %) ; Facebook recule (−2), à surveiller."
     ]
   },

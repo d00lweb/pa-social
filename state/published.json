@@ -2029,5 +2029,41 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35363",
+    "channel": "threads",
+    "at": "2026-10-03T06:28:41.414Z",
+    "mediaId": "18592693483066933",
+    "titre": "Les Deux-Sèvres, département le plus fécond de toute la région",
+    "lien": "https://passion-aquitaine.ouest-france.fr/deux-sevres-departement-plus-fecond-region/",
+    "lienPost": "https://www.threads.com/@lovaquitaine/post/DeBaNchGzTw",
+    "format": "reponse",
+    "mention": false,
+    "apercu": {
+      "texte": "📈 Un classement qu’on attendait peu : pour l’indice de fécondité, les Deux-Sèvres arrivent en tête de toute la Nouvelle-Aquitaine, selon l’Insee. Et le département se situe au-dessus de la moyenne nationale. Vous pensiez à ce département pour ce record ?",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261003-536318f0-th.jpg",
+      "mode": "reponse",
+      "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/deux-sevres-departement-plus-fecond-region/",
+      "sujet": "Deux-Sèvres"
+    }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35363",
+    "channel": "bluesky",
+    "at": "2026-10-03T06:30:25.362Z",
+    "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mwxb6fe7zr2k",
+    "titre": "Les Deux-Sèvres, département le plus fécond de toute la région",
+    "lien": "https://passion-aquitaine.ouest-france.fr/deux-sevres-departement-plus-fecond-region/",
+    "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mwxb6fe7zr2k",
+    "format": "reply",
+    "mention": true,
+    "apercu": {
+      "texte": "Familles, le constat de l’@insee.fr peut vous parler : en Nouvelle-Aquitaine, aucun département ne fait mieux que les Deux-Sèvres en matière de fécondité, et l’indice y dépasse aussi la moyenne nationale 📊 #NouvelleAquitaine",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261003-536318f0-bsky.jpg",
+      "mode": "reply",
+      "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/deux-sevres-departement-plus-fecond-region/",
+      "sujet": null
+    }
   }
 ]

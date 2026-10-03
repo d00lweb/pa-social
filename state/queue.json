@@ -22,119 +22,118 @@
       "nature": "actu",
       "sensible": false,
       "rubrique": "Deux-Sèvres",
-      "entites": [],
-      "lieu": null,
       "visuel": {
         "titre": "Les Deux-Sèvres, département le plus fécond de toute la région",
-        "surlignage": "la région",
-        "description": "Selon l’Insee, les Deux-Sèvres affichent l’indice de fécondité le plus élevé de Nouvelle-Aquitaine, au-dessus de la moyenne nationale.",
-        "texte_alternatif": "Deux-Sèvres : Les Deux-Sèvres, département le plus fécond de toute la région"
+        "surlignage": "fécond",
+        "description": "D’après l’Insee, aucun autre département de Nouvelle-Aquitaine n’affiche un indice de fécondité aussi élevé. Il dépasse même la moyenne nationale.",
+        "texte_alternatif": "Les Deux-Sèvres ont l’indice de fécondité le plus élevé de Nouvelle-Aquitaine, au-dessus de la moyenne nationale, selon l’Insee."
       },
-      "instagram": {
-        "texte": "Selon l’Insee, les Deux-Sèvres affichent l’indice de fécondité le plus élevé de Nouvelle-Aquitaine, au-dessus de la moyenne nationale.",
-        "hashtags": [
-          "#DeuxSevres",
-          "#NouvelleAquitaine",
-          "#Decouverte"
-        ]
-      },
-      "facebook": {
-        "texte": "Selon l’Insee, les Deux-Sèvres affichent l’indice de fécondité le plus élevé de Nouvelle-Aquitaine, au-dessus de la moyenne nationale."
-      },
-      "bluesky": {
-        "texte": "Selon l’Insee, les Deux-Sèvres affichent l’indice de fécondité le plus élevé de Nouvelle-Aquitaine, au-dessus de la moyenne nationale.",
-        "hashtag": "#DeuxSevres"
-      },
-      "threads": {
-        "texte": "Selon l’Insee, les Deux-Sèvres affichent l’indice de fécondité le plus élevé de Nouvelle-Aquitaine, au-dessus de la moyenne nationale.",
-        "sujet": "Deux-Sèvres"
-      },
-      "x": {
-        "texte": "Selon l’Insee, les Deux-Sèvres affichent l’indice de fécondité le plus élevé de Nouvelle-Aquitaine, au-dessus de la moyenne nationale."
-      },
-      "source": "regles",
-      "lieuSource": {
-        "precis": "",
-        "ville": "",
-        "departement": ""
-      },
-      "lieuNom": "Deux-Sèvres",
-      "commune": null,
-      "comptes": {
-        "instagram": [],
-        "x": [],
-        "bluesky": [],
-        "threads": [],
-        "facebook": []
-      }
-    },
-    "previewSent": false
-  },
-  {
-    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35363",
-    "channel": "bluesky",
-    "dueAt": 1791009023273,
-    "status": "pending",
-    "attempts": 0,
-    "article": {
-      "title": "Les Deux-Sèvres, département le plus fécond de toute la région",
-      "link": "https://passion-aquitaine.ouest-france.fr/deux-sevres-departement-plus-fecond-region/",
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35363",
-      "pubDate": "Sat, 03 Oct 2026 05:30:28 +0000",
-      "date": 1791005428000,
-      "categories": [
-        "Actus",
-        "Deux-Sèvres"
+      "entites": [
+        {
+          "nom": "Insee",
+          "role": "acteur"
+        }
       ],
-      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/09/famille.jpg",
-      "description": "Selon l’Insee, les Deux-Sèvres affichent l’indice de fécondité le plus élevé de Nouvelle-Aquitaine, au-dessus de la moyenne nationale."
-    },
-    "dossier": {
-      "nature": "actu",
-      "sensible": false,
-      "rubrique": "Deux-Sèvres",
-      "entites": [],
-      "lieu": null,
-      "visuel": {
-        "titre": "Les Deux-Sèvres, département le plus fécond de toute la région",
-        "surlignage": "la région",
-        "description": "Selon l’Insee, les Deux-Sèvres affichent l’indice de fécondité le plus élevé de Nouvelle-Aquitaine, au-dessus de la moyenne nationale.",
-        "texte_alternatif": "Deux-Sèvres : Les Deux-Sèvres, département le plus fécond de toute la région"
+      "domaines": [
+        "démographie",
+        "famille"
+      ],
+      "lieu": {
+        "id": "104023509634749",
+        "nom": "Deux-Sèvres",
+        "niveau": "departement"
       },
       "instagram": {
-        "texte": "Selon l’Insee, les Deux-Sèvres affichent l’indice de fécondité le plus élevé de Nouvelle-Aquitaine, au-dessus de la moyenne nationale.",
+        "texte": "Deux-Sèvres : c’est ici que naissent le plus de bébés en Nouvelle-Aquitaine 👶\nL’Insee place le département en tête de la région pour l’indice de fécondité. Il fait même mieux que la moyenne nationale.",
         "hashtags": [
-          "#DeuxSevres",
+          "#DeuxSèvres",
           "#NouvelleAquitaine",
-          "#Decouverte"
+          "#Démographie"
         ]
       },
       "facebook": {
-        "texte": "Selon l’Insee, les Deux-Sèvres affichent l’indice de fécondité le plus élevé de Nouvelle-Aquitaine, au-dessus de la moyenne nationale."
+        "texte": "Ni la Gironde ni le Pays basque : c’est un département plus discret qui compte le plus de naissances par femme dans la région 🍼"
       },
       "bluesky": {
-        "texte": "Selon l’Insee, les Deux-Sèvres affichent l’indice de fécondité le plus élevé de Nouvelle-Aquitaine, au-dessus de la moyenne nationale.",
-        "hashtag": "#DeuxSevres"
+        "texte": "Familles, le constat de l’Insee peut vous parler : en Nouvelle-Aquitaine, aucun département ne fait mieux que les Deux-Sèvres en matière de fécondité, et l’indice y dépasse aussi la moyenne nationale 📊",
+        "hashtag": "#NouvelleAquitaine"
       },
       "threads": {
-        "texte": "Selon l’Insee, les Deux-Sèvres affichent l’indice de fécondité le plus élevé de Nouvelle-Aquitaine, au-dessus de la moyenne nationale.",
+        "texte": "📈 Un classement qu’on attendait peu : pour l’indice de fécondité, les Deux-Sèvres arrivent en tête de toute la Nouvelle-Aquitaine, selon l’Insee. Et le département se situe au-dessus de la moyenne nationale. Vous pensiez à ce département pour ce record ?",
         "sujet": "Deux-Sèvres"
       },
       "x": {
-        "texte": "Selon l’Insee, les Deux-Sèvres affichent l’indice de fécondité le plus élevé de Nouvelle-Aquitaine, au-dessus de la moyenne nationale."
+        "texte": "Des berceaux plus nombreux qu’ailleurs 🧸 Sur toute la Nouvelle-Aquitaine, les Deux-Sèvres décrochent le meilleur indice de fécondité, d’après l’Insee, et dépassent la moyenne française."
       },
-      "source": "regles",
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 7753,
+        "output": 857
+      },
+      "angles": {
+        "instagram": "lieu en tête",
+        "facebook": "effet de surprise",
+        "bluesky": "bénéfice pour le lecteur",
+        "threads": "détail méconnu",
+        "x": "image évocatrice"
+      },
       "lieuSource": {
         "precis": "",
         "ville": "",
-        "departement": ""
+        "departement": "Deux-Sèvres"
       },
       "lieuNom": "Deux-Sèvres",
       "commune": null,
       "comptes": {
-        "instagram": [],
-        "x": [],
-        "bluesky": [],
+        "instagram": [
+          {
+            "nom": "Insee",
+            "handle": "insee_fr",
+            "abonnes": 32388,
+            "preuve": 3,
+            "role": "acteur",
+            "echelon": "sujet"
+          },
+          {
+            "nom": "Département des Deux-Sèvres",
+            "handle": "deuxsevres79",
+            "abonnes": 2823,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "Insee",
+            "handle": "InseeFr",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "acteur",
+            "echelon": "sujet"
+          },
+          {
+            "nom": "Deux-Sèvres",
+            "handle": "DeuxSevres",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "bluesky": [
+          {
+            "nom": "Insee",
+            "handle": "insee.fr",
+            "abonnes": 12304,
+            "preuve": 3,
+            "role": "acteur",
+            "echelon": "sujet"
+          }
+        ],
         "threads": [],
         "facebook": []
       }
@@ -164,119 +163,118 @@
       "nature": "actu",
       "sensible": false,
       "rubrique": "Deux-Sèvres",
-      "entites": [],
-      "lieu": null,
       "visuel": {
         "titre": "Les Deux-Sèvres, département le plus fécond de toute la région",
-        "surlignage": "la région",
-        "description": "Selon l’Insee, les Deux-Sèvres affichent l’indice de fécondité le plus élevé de Nouvelle-Aquitaine, au-dessus de la moyenne nationale.",
-        "texte_alternatif": "Deux-Sèvres : Les Deux-Sèvres, département le plus fécond de toute la région"
+        "surlignage": "fécond",
+        "description": "D’après l’Insee, aucun autre département de Nouvelle-Aquitaine n’affiche un indice de fécondité aussi élevé. Il dépasse même la moyenne nationale.",
+        "texte_alternatif": "Les Deux-Sèvres ont l’indice de fécondité le plus élevé de Nouvelle-Aquitaine, au-dessus de la moyenne nationale, selon l’Insee."
       },
-      "instagram": {
-        "texte": "Selon l’Insee, les Deux-Sèvres affichent l’indice de fécondité le plus élevé de Nouvelle-Aquitaine, au-dessus de la moyenne nationale.",
-        "hashtags": [
-          "#DeuxSevres",
-          "#NouvelleAquitaine",
-          "#Decouverte"
-        ]
-      },
-      "facebook": {
-        "texte": "Selon l’Insee, les Deux-Sèvres affichent l’indice de fécondité le plus élevé de Nouvelle-Aquitaine, au-dessus de la moyenne nationale."
-      },
-      "bluesky": {
-        "texte": "Selon l’Insee, les Deux-Sèvres affichent l’indice de fécondité le plus élevé de Nouvelle-Aquitaine, au-dessus de la moyenne nationale.",
-        "hashtag": "#DeuxSevres"
-      },
-      "threads": {
-        "texte": "Selon l’Insee, les Deux-Sèvres affichent l’indice de fécondité le plus élevé de Nouvelle-Aquitaine, au-dessus de la moyenne nationale.",
-        "sujet": "Deux-Sèvres"
-      },
-      "x": {
-        "texte": "Selon l’Insee, les Deux-Sèvres affichent l’indice de fécondité le plus élevé de Nouvelle-Aquitaine, au-dessus de la moyenne nationale."
-      },
-      "source": "regles",
-      "lieuSource": {
-        "precis": "",
-        "ville": "",
-        "departement": ""
-      },
-      "lieuNom": "Deux-Sèvres",
-      "commune": null,
-      "comptes": {
-        "instagram": [],
-        "x": [],
-        "bluesky": [],
-        "threads": [],
-        "facebook": []
-      }
-    },
-    "previewSent": false
-  },
-  {
-    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35363",
-    "channel": "threads",
-    "dueAt": 1791008681049,
-    "status": "pending",
-    "attempts": 0,
-    "article": {
-      "title": "Les Deux-Sèvres, département le plus fécond de toute la région",
-      "link": "https://passion-aquitaine.ouest-france.fr/deux-sevres-departement-plus-fecond-region/",
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35363",
-      "pubDate": "Sat, 03 Oct 2026 05:30:28 +0000",
-      "date": 1791005428000,
-      "categories": [
-        "Actus",
-        "Deux-Sèvres"
+      "entites": [
+        {
+          "nom": "Insee",
+          "role": "acteur"
+        }
       ],
-      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/09/famille.jpg",
-      "description": "Selon l’Insee, les Deux-Sèvres affichent l’indice de fécondité le plus élevé de Nouvelle-Aquitaine, au-dessus de la moyenne nationale."
-    },
-    "dossier": {
-      "nature": "actu",
-      "sensible": false,
-      "rubrique": "Deux-Sèvres",
-      "entites": [],
-      "lieu": null,
-      "visuel": {
-        "titre": "Les Deux-Sèvres, département le plus fécond de toute la région",
-        "surlignage": "la région",
-        "description": "Selon l’Insee, les Deux-Sèvres affichent l’indice de fécondité le plus élevé de Nouvelle-Aquitaine, au-dessus de la moyenne nationale.",
-        "texte_alternatif": "Deux-Sèvres : Les Deux-Sèvres, département le plus fécond de toute la région"
+      "domaines": [
+        "démographie",
+        "famille"
+      ],
+      "lieu": {
+        "id": "104023509634749",
+        "nom": "Deux-Sèvres",
+        "niveau": "departement"
       },
       "instagram": {
-        "texte": "Selon l’Insee, les Deux-Sèvres affichent l’indice de fécondité le plus élevé de Nouvelle-Aquitaine, au-dessus de la moyenne nationale.",
+        "texte": "Deux-Sèvres : c’est ici que naissent le plus de bébés en Nouvelle-Aquitaine 👶\nL’Insee place le département en tête de la région pour l’indice de fécondité. Il fait même mieux que la moyenne nationale.",
         "hashtags": [
-          "#DeuxSevres",
+          "#DeuxSèvres",
           "#NouvelleAquitaine",
-          "#Decouverte"
+          "#Démographie"
         ]
       },
       "facebook": {
-        "texte": "Selon l’Insee, les Deux-Sèvres affichent l’indice de fécondité le plus élevé de Nouvelle-Aquitaine, au-dessus de la moyenne nationale."
+        "texte": "Ni la Gironde ni le Pays basque : c’est un département plus discret qui compte le plus de naissances par femme dans la région 🍼"
       },
       "bluesky": {
-        "texte": "Selon l’Insee, les Deux-Sèvres affichent l’indice de fécondité le plus élevé de Nouvelle-Aquitaine, au-dessus de la moyenne nationale.",
-        "hashtag": "#DeuxSevres"
+        "texte": "Familles, le constat de l’Insee peut vous parler : en Nouvelle-Aquitaine, aucun département ne fait mieux que les Deux-Sèvres en matière de fécondité, et l’indice y dépasse aussi la moyenne nationale 📊",
+        "hashtag": "#NouvelleAquitaine"
       },
       "threads": {
-        "texte": "Selon l’Insee, les Deux-Sèvres affichent l’indice de fécondité le plus élevé de Nouvelle-Aquitaine, au-dessus de la moyenne nationale.",
+        "texte": "📈 Un classement qu’on attendait peu : pour l’indice de fécondité, les Deux-Sèvres arrivent en tête de toute la Nouvelle-Aquitaine, selon l’Insee. Et le département se situe au-dessus de la moyenne nationale. Vous pensiez à ce département pour ce record ?",
         "sujet": "Deux-Sèvres"
       },
       "x": {
-        "texte": "Selon l’Insee, les Deux-Sèvres affichent l’indice de fécondité le plus élevé de Nouvelle-Aquitaine, au-dessus de la moyenne nationale."
+        "texte": "Des berceaux plus nombreux qu’ailleurs 🧸 Sur toute la Nouvelle-Aquitaine, les Deux-Sèvres décrochent le meilleur indice de fécondité, d’après l’Insee, et dépassent la moyenne française."
       },
-      "source": "regles",
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 7753,
+        "output": 857
+      },
+      "angles": {
+        "instagram": "lieu en tête",
+        "facebook": "effet de surprise",
+        "bluesky": "bénéfice pour le lecteur",
+        "threads": "détail méconnu",
+        "x": "image évocatrice"
+      },
       "lieuSource": {
         "precis": "",
         "ville": "",
-        "departement": ""
+        "departement": "Deux-Sèvres"
       },
       "lieuNom": "Deux-Sèvres",
       "commune": null,
       "comptes": {
-        "instagram": [],
-        "x": [],
-        "bluesky": [],
+        "instagram": [
+          {
+            "nom": "Insee",
+            "handle": "insee_fr",
+            "abonnes": 32388,
+            "preuve": 3,
+            "role": "acteur",
+            "echelon": "sujet"
+          },
+          {
+            "nom": "Département des Deux-Sèvres",
+            "handle": "deuxsevres79",
+            "abonnes": 2823,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "Insee",
+            "handle": "InseeFr",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "acteur",
+            "echelon": "sujet"
+          },
+          {
+            "nom": "Deux-Sèvres",
+            "handle": "DeuxSevres",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "bluesky": [
+          {
+            "nom": "Insee",
+            "handle": "insee.fr",
+            "abonnes": 12304,
+            "preuve": 3,
+            "role": "acteur",
+            "echelon": "sujet"
+          }
+        ],
         "threads": [],
         "facebook": []
       }
@@ -306,48 +304,118 @@
       "nature": "actu",
       "sensible": false,
       "rubrique": "Deux-Sèvres",
-      "entites": [],
-      "lieu": null,
       "visuel": {
         "titre": "Les Deux-Sèvres, département le plus fécond de toute la région",
-        "surlignage": "la région",
-        "description": "Selon l’Insee, les Deux-Sèvres affichent l’indice de fécondité le plus élevé de Nouvelle-Aquitaine, au-dessus de la moyenne nationale.",
-        "texte_alternatif": "Deux-Sèvres : Les Deux-Sèvres, département le plus fécond de toute la région"
+        "surlignage": "fécond",
+        "description": "D’après l’Insee, aucun autre département de Nouvelle-Aquitaine n’affiche un indice de fécondité aussi élevé. Il dépasse même la moyenne nationale.",
+        "texte_alternatif": "Les Deux-Sèvres ont l’indice de fécondité le plus élevé de Nouvelle-Aquitaine, au-dessus de la moyenne nationale, selon l’Insee."
+      },
+      "entites": [
+        {
+          "nom": "Insee",
+          "role": "acteur"
+        }
+      ],
+      "domaines": [
+        "démographie",
+        "famille"
+      ],
+      "lieu": {
+        "id": "104023509634749",
+        "nom": "Deux-Sèvres",
+        "niveau": "departement"
       },
       "instagram": {
-        "texte": "Selon l’Insee, les Deux-Sèvres affichent l’indice de fécondité le plus élevé de Nouvelle-Aquitaine, au-dessus de la moyenne nationale.",
+        "texte": "Deux-Sèvres : c’est ici que naissent le plus de bébés en Nouvelle-Aquitaine 👶\nL’Insee place le département en tête de la région pour l’indice de fécondité. Il fait même mieux que la moyenne nationale.",
         "hashtags": [
-          "#DeuxSevres",
+          "#DeuxSèvres",
           "#NouvelleAquitaine",
-          "#Decouverte"
+          "#Démographie"
         ]
       },
       "facebook": {
-        "texte": "Selon l’Insee, les Deux-Sèvres affichent l’indice de fécondité le plus élevé de Nouvelle-Aquitaine, au-dessus de la moyenne nationale."
+        "texte": "Ni la Gironde ni le Pays basque : c’est un département plus discret qui compte le plus de naissances par femme dans la région 🍼"
       },
       "bluesky": {
-        "texte": "Selon l’Insee, les Deux-Sèvres affichent l’indice de fécondité le plus élevé de Nouvelle-Aquitaine, au-dessus de la moyenne nationale.",
-        "hashtag": "#DeuxSevres"
+        "texte": "Familles, le constat de l’Insee peut vous parler : en Nouvelle-Aquitaine, aucun département ne fait mieux que les Deux-Sèvres en matière de fécondité, et l’indice y dépasse aussi la moyenne nationale 📊",
+        "hashtag": "#NouvelleAquitaine"
       },
       "threads": {
-        "texte": "Selon l’Insee, les Deux-Sèvres affichent l’indice de fécondité le plus élevé de Nouvelle-Aquitaine, au-dessus de la moyenne nationale.",
+        "texte": "📈 Un classement qu’on attendait peu : pour l’indice de fécondité, les Deux-Sèvres arrivent en tête de toute la Nouvelle-Aquitaine, selon l’Insee. Et le département se situe au-dessus de la moyenne nationale. Vous pensiez à ce département pour ce record ?",
         "sujet": "Deux-Sèvres"
       },
       "x": {
-        "texte": "Selon l’Insee, les Deux-Sèvres affichent l’indice de fécondité le plus élevé de Nouvelle-Aquitaine, au-dessus de la moyenne nationale."
+        "texte": "Des berceaux plus nombreux qu’ailleurs 🧸 Sur toute la Nouvelle-Aquitaine, les Deux-Sèvres décrochent le meilleur indice de fécondité, d’après l’Insee, et dépassent la moyenne française."
       },
-      "source": "regles",
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 7753,
+        "output": 857
+      },
+      "angles": {
+        "instagram": "lieu en tête",
+        "facebook": "effet de surprise",
+        "bluesky": "bénéfice pour le lecteur",
+        "threads": "détail méconnu",
+        "x": "image évocatrice"
+      },
       "lieuSource": {
         "precis": "",
         "ville": "",
-        "departement": ""
+        "departement": "Deux-Sèvres"
       },
       "lieuNom": "Deux-Sèvres",
       "commune": null,
       "comptes": {
-        "instagram": [],
-        "x": [],
-        "bluesky": [],
+        "instagram": [
+          {
+            "nom": "Insee",
+            "handle": "insee_fr",
+            "abonnes": 32388,
+            "preuve": 3,
+            "role": "acteur",
+            "echelon": "sujet"
+          },
+          {
+            "nom": "Département des Deux-Sèvres",
+            "handle": "deuxsevres79",
+            "abonnes": 2823,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "Insee",
+            "handle": "InseeFr",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "acteur",
+            "echelon": "sujet"
+          },
+          {
+            "nom": "Deux-Sèvres",
+            "handle": "DeuxSevres",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "bluesky": [
+          {
+            "nom": "Insee",
+            "handle": "insee.fr",
+            "abonnes": 12304,
+            "preuve": 3,
+            "role": "acteur",
+            "echelon": "sujet"
+          }
+        ],
         "threads": [],
         "facebook": []
       }

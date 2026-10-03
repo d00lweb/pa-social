@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-03T06:00:44.600Z",
+  "genereLe": "2026-10-03T06:20:44.651Z",
   "jour": "2026-10-03",
   "reseaux": {
     "instagram": {
@@ -60,11 +60,11 @@
         "image",
         "reply"
       ],
-      "aujourdhui": 0,
-      "semaine": 7,
-      "total": 25,
-      "dernier": "2026-10-02T07:28:23.307Z",
-      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mwutx4ty2o2v"
+      "aujourdhui": 1,
+      "semaine": 8,
+      "total": 26,
+      "dernier": "2026-10-03T06:30:25.362Z",
+      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mwxb6fe7zr2k"
     },
     "facebook": {
       "actif": true,
@@ -124,11 +124,11 @@
         "lien",
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 7,
-      "total": 22,
-      "dernier": "2026-10-02T06:25:24.848Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/Dd-1aTPmxJJ"
+      "aujourdhui": 1,
+      "semaine": 8,
+      "total": 23,
+      "dernier": "2026-10-03T06:28:41.414Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DeBaNchGzTw"
     },
     "x": {
       "actif": true,
@@ -168,6 +168,30 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35363",
+      "titre": "Les Deux-Sèvres, département le plus fécond de toute la région",
+      "lien": "https://passion-aquitaine.ouest-france.fr/deux-sevres-departement-plus-fecond-region/",
+      "at": "2026-10-03T06:30:25.362Z",
+      "reseaux": {
+        "threads": {
+          "texte": "📈 Un classement qu’on attendait peu : pour l’indice de fécondité, les Deux-Sèvres arrivent en tête de toute la Nouvelle-Aquitaine, selon l’Insee. Et le département se situe au-dessus de la moyenne nationale. Vous pensiez à ce département pour ce record ?",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261003-536318f0-th.jpg",
+          "mode": "reponse",
+          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/deux-sevres-departement-plus-fecond-region/",
+          "sujet": "Deux-Sèvres",
+          "publieLe": "2026-10-03T06:28:41.414Z"
+        },
+        "bluesky": {
+          "texte": "Familles, le constat de l’@insee.fr peut vous parler : en Nouvelle-Aquitaine, aucun département ne fait mieux que les Deux-Sèvres en matière de fécondité, et l’indice y dépasse aussi la moyenne nationale 📊 #NouvelleAquitaine",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261003-536318f0-bsky.jpg",
+          "mode": "reply",
+          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/deux-sevres-departement-plus-fecond-region/",
+          "sujet": null,
+          "publieLe": "2026-10-03T06:30:25.362Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35407",
       "titre": "À Poitiers, une doctorante restaure des tablettes du Louvre",
@@ -407,57 +431,29 @@
           "publieLe": "2026-09-28T11:03:55.148Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35433",
-      "titre": "Pau abrite la 3e plus vieille église orthodoxe de France",
-      "lien": "https://passion-aquitaine.ouest-france.fr/plus-belles-eglises-pau-histoire/",
-      "at": "2026-09-27T19:27:08.111Z",
-      "reseaux": {
-        "threads": {
-          "texte": "⛪ On associe rarement le Béarn aux coupoles orthodoxes. Pourtant, Pau conserve la troisième plus ancienne église orthodoxe de France, derrière Nice et Paris seulement. Derrière ces murs se cache toute une histoire de familles venues de loin, qui ont fait de la ville un carrefour cosmopolite. Vous connaissiez ce lieu ?\n@francetourisme @fondationdupatrimoine",
-          "image": null,
-          "mode": "lien",
-          "reponse": null,
-          "sujet": "Pau",
-          "publieLe": "2026-09-27T06:23:46.007Z"
-        },
-        "x": {
-          "texte": "Des icônes et un passé venu de l’Est au cœur du Béarn 🕯️ #Pau abrite la troisième plus ancienne église orthodoxe de France, juste derrière Nice et Paris. Le témoin d’une ville longtemps cosmopolite.\n➡️ https://passion-aquitaine.ouest-france.fr/plus-belles-eglises-pau-histoire/",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260927-81d8a18c-x.jpg",
-          "mode": "lien",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-27T07:20:49.412Z"
-        },
-        "bluesky": {
-          "texte": "Une visite à #Pau réserve une découverte inattendue : la troisième plus ancienne église orthodoxe de France, devancée seulement par Nice et Paris. De quoi comprendre en une halte le passé cosmopolite de la ville 🕍\n@fond-patrimoine.bsky.social\n➡️ Lire l’article",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260927-81d8a18c-bsky.jpg",
-          "mode": "image",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-27T07:24:52.368Z"
-        },
-        "instagram": {
-          "texte": "À Pau, une église orthodoxe figure parmi les trois plus anciennes de toute la France ⛪\n⠀\nSeules Nice et Paris la devancent. Un édifice discret qui raconte le passé cosmopolite de la ville béarnaise et ses visiteurs venus de l’Est.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Pau #Béarn #Patrimoine",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260927-81d8a18c-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-27T16:11:12.775Z"
-        },
-        "facebook": {
-          "texte": "Pour voir une église orthodoxe plus ancienne que celle de Pau, il faut aller jusqu’à Nice ou Paris 🕯️",
-          "image": null,
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-27T19:27:08.111Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "bluesky",
+      "at": "2026-10-03T06:30:25.362Z",
+      "titre": "Les Deux-Sèvres, département le plus fécond de toute la région",
+      "lien": "https://passion-aquitaine.ouest-france.fr/deux-sevres-departement-plus-fecond-region/",
+      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mwxb6fe7zr2k",
+      "format": "reply",
+      "texte": "Familles, le constat de l’@insee.fr peut vous parler : en Nouvelle-Aquitaine, aucun département ne fait mieux que les Deux-Sèvres en matière de fécondité, et l’indice y dépasse aussi la moyenne nationale 📊 #NouvelleAquitaine",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261003-536318f0-bsky.jpg"
+    },
+    {
+      "channel": "threads",
+      "at": "2026-10-03T06:28:41.414Z",
+      "titre": "Les Deux-Sèvres, département le plus fécond de toute la région",
+      "lien": "https://passion-aquitaine.ouest-france.fr/deux-sevres-departement-plus-fecond-region/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/DeBaNchGzTw",
+      "format": "reponse",
+      "texte": "📈 Un classement qu’on attendait peu : pour l’indice de fécondité, les Deux-Sèvres arrivent en tête de toute la Nouvelle-Aquitaine, selon l’Insee. Et le département se situe au-dessus de la moyenne nationale. Vous pensiez à ce département pour ce record ?",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261003-536318f0-th.jpg"
+    },
     {
       "channel": "instagram",
       "at": "2026-10-02T10:30:46.872Z",
@@ -537,47 +533,9 @@
       "format": "reply",
       "texte": "500 ans d’histoire et une nouvelle vie : à Vouillé, dans la #Vienne, une ancienne usine de plumes devient Le Nid de Plumes, lieu de réception pour mariages et séminaires 🕊️\n@fond-patrimoine.bsky.social",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261001-b7818531-bsky.jpg"
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-10-01T06:23:21.001Z",
-      "titre": "À Vouillé, un lieu vieux de 500 ans devient salle de mariage",
-      "lien": "https://passion-aquitaine.ouest-france.fr/nid-de-plumes-vouille-hebergement-insolite/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1737542675038280",
-      "format": null,
-      "texte": "Et si vous vous mariiez dans une ancienne usine de plumes, vieille de 500 ans, rebaptisée Le Nid de Plumes ? 🪶",
-      "image": null
-    },
-    {
-      "channel": "threads",
-      "at": "2026-10-01T06:13:47.420Z",
-      "titre": "À Vouillé, un lieu vieux de 500 ans devient salle de mariage",
-      "lien": "https://passion-aquitaine.ouest-france.fr/nid-de-plumes-vouille-hebergement-insolite/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/Dd8O6QekaDi",
-      "format": "reponse",
-      "texte": "🏛️ Vouillé, dans la Vienne : une ancienne usine de plumes, vieille de 500 ans, change complètement de vocation. Elle s’appelle désormais Le Nid de Plumes et accueille mariages et séminaires. Un joli nom pour un lieu qui garde la mémoire de son passé.\n@leniddeplumes @fondationdupatrimoine",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261001-b7818531-th.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "threads",
-      "dueAt": "2026-10-03T06:24:41.049Z",
-      "prochainPassage": "2026-10-03T07:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Les Deux-Sèvres, département le plus fécond de toute la région"
-    },
-    {
-      "channel": "bluesky",
-      "dueAt": "2026-10-03T06:30:23.273Z",
-      "prochainPassage": "2026-10-03T07:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Les Deux-Sèvres, département le plus fécond de toute la région"
-    },
     {
       "channel": "facebook",
       "dueAt": "2026-10-03T07:07:35.049Z",
@@ -687,7 +645,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-03T05:20:42.337Z"
+    "derniere": "2026-10-03T06:20:44.651Z"
   },
   "abonnes": {
     "instagram": {
@@ -726,7 +684,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-03T06:01:27.361Z",
+    "genereLe": "2026-10-03T06:30:38.443Z",
     "posts": 4,
     "parReseau": {
       "threads": {
@@ -840,9 +798,9 @@
       }
     },
     "publies": {
-      "threads": 2,
+      "threads": 3,
       "facebook": 2,
-      "bluesky": 2,
+      "bluesky": 3,
       "x": 2,
       "instagram": 2
     },
@@ -892,29 +850,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 3,
-      "entree": 23171,
-      "sortie": 2754,
-      "cout": 0.147764,
+      "appels": 5,
+      "entree": 38569,
+      "sortie": 4478,
+      "cout": 0.243836,
       "cle": "2026-10-03"
     },
     "semaine": {
-      "appels": 32,
-      "entree": 246428,
-      "sortie": 28301,
-      "cout": 1.32735
+      "appels": 34,
+      "entree": 261826,
+      "sortie": 30025,
+      "cout": 1.423422
     },
     "mois": {
-      "appels": 7,
-      "entree": 53882,
-      "sortie": 6149,
-      "cout": 0.33850800000000003,
+      "appels": 9,
+      "entree": 69280,
+      "sortie": 7873,
+      "cout": 0.43457999999999997,
       "cle": "2026-10"
     },
-    "projection": 3.5,
-    "moyenneAppel": 0.0484,
+    "projection": 4.49,
+    "moyenneAppel": 0.0483,
     "parModele": {
-      "claude-opus-5-5": 7
+      "claude-opus-5-5": 9
     },
     "serie": [
       [
@@ -971,7 +929,7 @@
       ],
       [
         "2026-10-03",
-        0.1478
+        0.2438
       ]
     ],
     "depuis": "2026-09-23"

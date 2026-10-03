@@ -740,5 +740,56 @@
       }
     ],
     "threads": []
+  },
+  "domaine:demographie": {
+    "v": 2,
+    "cherche": "2026-10-03T06:21:04.063Z",
+    "instagram": [],
+    "bluesky": [],
+    "threads": []
+  },
+  "domaine:famille": {
+    "v": 2,
+    "cherche": "2026-10-03T06:21:04.063Z",
+    "instagram": [],
+    "bluesky": [],
+    "threads": []
+  },
+  "territoire:deux-sevres:deuxsevres79,deuxsevres_tourisme": {
+    "v": 2,
+    "cherche": "2026-10-03T06:21:04.063Z",
+    "conseil": {
+      "instagram": [
+        {
+          "handle": "deuxsevres79",
+          "nom": "Département des Deux-Sèvres",
+          "abonnes": 2823,
+          "preuve": 3
+        }
+      ],
+      "threads": [],
+      "bluesky": [],
+      "x": [
+        {
+          "handle": "DeuxSevres",
+          "nom": "",
+          "abonnes": null,
+          "preuve": 3
+        }
+      ]
+    },
+    "tourisme": {
+      "instagram": [
+        {
+          "handle": "deuxsevres_tourisme",
+          "nom": "Deux-Sèvres Tourisme",
+          "abonnes": 9416,
+          "preuve": 3
+        }
+      ],
+      "threads": [],
+      "bluesky": [],
+      "x": []
+    }
   }
 }

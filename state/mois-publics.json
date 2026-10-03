@@ -3,7 +3,7 @@
     "cle": "2026-10",
     "publications": 14,
     "articles": 3,
-    "interactions": 5,
+    "interactions": 6,
     "parReseau": {
       "facebook": 3,
       "instagram": 2,
@@ -38,6 +38,13 @@
         "titre": "À Vouillé, un lieu vieux de 500 ans devient salle de mariage",
         "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mwsa4xbxqx2s",
         "image": "https://passion-aquitaine.ouest-france.fr/social/20261001-b7818531-1-vignette.jpg",
+        "interactions": 1
+      },
+      {
+        "reseau": "bluesky",
+        "titre": "À Poitiers, une doctorante restaure des tablettes du Louvre",
+        "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mwutx4ty2o2v",
+        "image": "https://passion-aquitaine.ouest-france.fr/social/20261002-fa646ed7-1-vignette.jpg",
         "interactions": 1
       }
     ]

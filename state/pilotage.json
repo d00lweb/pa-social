@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-03T07:20:38.192Z",
+  "genereLe": "2026-10-03T07:57:55.894Z",
   "jour": "2026-10-03",
   "reseaux": {
     "instagram": {
@@ -61,7 +61,7 @@
         "reply"
       ],
       "aujourdhui": 1,
-      "semaine": 8,
+      "semaine": 7,
       "total": 26,
       "dernier": "2026-10-03T06:30:25.362Z",
       "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mwxb6fe7zr2k"
@@ -89,7 +89,7 @@
       },
       "formats": null,
       "aujourdhui": 1,
-      "semaine": 10,
+      "semaine": 9,
       "total": 23,
       "dernier": "2026-10-03T07:07:44.982Z",
       "lienDernier": "https://www.facebook.com/1720946116697936/posts/1739967744795773"
@@ -553,6 +553,24 @@
   ],
   "file": [
     {
+      "channel": "threads",
+      "dueAt": "2026-10-03T08:04:19.329Z",
+      "prochainPassage": "2026-10-03T08:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "La Rochelle : cette usine fabrique des mâts de 22 mètres grâce à ses cuves uniques"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-10-03T10:07:34.468Z",
+      "prochainPassage": "2026-10-03T10:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "La Rochelle : cette usine fabrique des mâts de 22 mètres grâce à ses cuves uniques"
+    },
+    {
       "channel": "instagram",
       "dueAt": "2026-10-03T10:14:00.609Z",
       "prochainPassage": "2026-10-03T10:20:00.000Z",
@@ -560,22 +578,49 @@
       "prevuInitialement": null,
       "raison": null,
       "titre": "Les Deux-Sèvres, département le plus fécond de toute la région"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-10-03T10:20:00.000Z",
+      "prochainPassage": "2026-10-03T10:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "La Rochelle : cette usine fabrique des mâts de 22 mètres grâce à ses cuves uniques"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-10-03T17:27:28.737Z",
+      "prochainPassage": "2026-10-03T18:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "La Rochelle : cette usine fabrique des mâts de 22 mètres grâce à ses cuves uniques"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-10-03T18:06:25.513Z",
+      "prochainPassage": "2026-10-03T18:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "La Rochelle : cette usine fabrique des mâts de 22 mètres grâce à ses cuves uniques"
     }
   ],
   "alertes": [],
   "mesures": {
-    "releves": 159,
+    "releves": 162,
     "parReseau": {
       "instagram": {
         "posts": 18,
         "interactionsMoyennes": 23.4
       },
       "bluesky": {
-        "posts": 18,
+        "posts": 19,
         "interactionsMoyennes": 0.4
       },
       "facebook": {
-        "posts": 13,
+        "posts": 14,
         "interactionsMoyennes": 0.6
       },
       "threads": {
@@ -643,7 +688,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-03T06:20:44.651Z"
+    "derniere": "2026-10-03T07:57:55.894Z"
   },
   "abonnes": {
     "instagram": {
@@ -682,8 +727,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-03T07:20:56.773Z",
-    "posts": 6,
+    "genereLe": "2026-10-03T07:58:34.808Z",
+    "posts": 7,
     "parReseau": {
       "instagram": {
         "posts": 1,
@@ -694,7 +739,7 @@
         "moyenne": 1
       },
       "bluesky": {
-        "posts": 1,
+        "posts": 2,
         "moyenne": 1
       },
       "facebook": {
@@ -711,6 +756,10 @@
         "posts": 1,
         "moyenne": 1
       },
+      "card": {
+        "posts": 1,
+        "moyenne": 1
+      },
       "image": {
         "posts": 1,
         "moyenne": 0
@@ -722,8 +771,8 @@
         "moyenne": 2
       },
       "matin": {
-        "posts": 5,
-        "moyenne": 0.6
+        "posts": 6,
+        "moyenne": 0.7
       }
     },
     "parCreneauReseau": {
@@ -741,7 +790,7 @@
       },
       "bluesky": {
         "8 h – 9 h 30": {
-          "posts": 1,
+          "posts": 2,
           "moyenne": 1
         }
       },
@@ -752,7 +801,7 @@
         }
       }
     },
-    "interactionsTotal": 5,
+    "interactionsTotal": 6,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35379",
       "channel": "threads",
@@ -791,8 +840,8 @@
     },
     "mentions": {
       "avec": {
-        "posts": 4,
-        "moyenne": 1.3
+        "posts": 5,
+        "moyenne": 1.2
       },
       "sans": {
         "posts": 2,
@@ -853,29 +902,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 5,
-      "entree": 38569,
-      "sortie": 4478,
-      "cout": 0.243836,
+      "appels": 6,
+      "entree": 46237,
+      "sortie": 5387,
+      "cout": 0.292688,
       "cle": "2026-10-03"
     },
     "semaine": {
-      "appels": 34,
-      "entree": 261826,
-      "sortie": 30025,
-      "cout": 1.423422
+      "appels": 35,
+      "entree": 269494,
+      "sortie": 30934,
+      "cout": 1.4722739999999999
     },
     "mois": {
-      "appels": 9,
-      "entree": 69280,
-      "sortie": 7873,
-      "cout": 0.43457999999999997,
+      "appels": 10,
+      "entree": 76948,
+      "sortie": 8782,
+      "cout": 0.483432,
       "cle": "2026-10"
     },
-    "projection": 4.49,
+    "projection": 5,
     "moyenneAppel": 0.0483,
     "parModele": {
-      "claude-opus-5-5": 9
+      "claude-opus-5-5": 10
     },
     "serie": [
       [
@@ -932,7 +981,7 @@
       ],
       [
         "2026-10-03",
-        0.2438
+        0.2927
       ]
     ],
     "depuis": "2026-09-23"

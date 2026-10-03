@@ -791,5 +791,76 @@
       "bluesky": [],
       "x": []
     }
+  },
+  "commune:mairie:sainte-soulle": {
+    "v": 2,
+    "cherche": "2026-10-03T07:58:07.400Z",
+    "instagram": [],
+    "x": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "vivier:la rochelle:nouslarochelle,larochelleensemble": {
+    "v": 2,
+    "cherche": "2026-10-03T07:58:07.400Z",
+    "instagram": [
+      {
+        "handle": "nouslarochelle",
+        "nom": "Nous La Rochelle - Office de Tourisme",
+        "abonnes": 45450,
+        "preuve": 3
+      },
+      {
+        "handle": "larochelleensemble",
+        "nom": "La Rochelle Ensemble",
+        "abonnes": 27212,
+        "preuve": 3
+      }
+    ],
+    "threads": [],
+    "bluesky": [],
+    "x": []
+  },
+  "locale:sainte-soulle:nautisme": {
+    "v": 2,
+    "cherche": "2026-10-03T07:58:07.400Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "domaine:nautisme": {
+    "v": 2,
+    "cherche": "2026-10-03T07:58:07.400Z",
+    "instagram": [],
+    "bluesky": [],
+    "threads": []
+  },
+  "locale:sainte-soulle:voile": {
+    "v": 2,
+    "cherche": "2026-10-03T07:58:07.400Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "domaine:voile": {
+    "v": 2,
+    "cherche": "2026-10-03T07:58:07.400Z",
+    "instagram": [],
+    "bluesky": [],
+    "threads": []
+  },
+  "locale:sainte-soulle:industrie": {
+    "v": 2,
+    "cherche": "2026-10-03T07:58:07.400Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "domaine:industrie": {
+    "v": 2,
+    "cherche": "2026-10-03T07:58:07.400Z",
+    "instagram": [],
+    "bluesky": [],
+    "threads": []
   }
 }

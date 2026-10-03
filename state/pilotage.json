@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-03T09:20:34.778Z",
+  "genereLe": "2026-10-03T10:00:39.714Z",
   "jour": "2026-10-03",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 9,
-      "total": 27,
-      "dernier": "2026-10-02T10:30:46.872Z",
-      "lienDernier": "https://www.instagram.com/p/Dd_RjCQmOsy/"
+      "aujourdhui": 1,
+      "semaine": 10,
+      "total": 28,
+      "dernier": "2026-10-03T10:14:33.238Z",
+      "lienDernier": "https://www.instagram.com/p/DeB0esZjo1X/"
     },
     "bluesky": {
       "actif": true,
@@ -60,11 +60,11 @@
         "image",
         "reply"
       ],
-      "aujourdhui": 1,
-      "semaine": 7,
-      "total": 26,
-      "dernier": "2026-10-03T06:30:25.362Z",
-      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mwxb6fe7zr2k"
+      "aujourdhui": 2,
+      "semaine": 8,
+      "total": 27,
+      "dernier": "2026-10-03T10:07:36.175Z",
+      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mwxncql2y42p"
     },
     "facebook": {
       "actif": true,
@@ -169,26 +169,10 @@
   },
   "articles": [
     {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35670",
-      "titre": "La Rochelle : cette usine fabrique des mâts de 22 mètres grâce à ses cuves uniques",
-      "lien": "https://passion-aquitaine.ouest-france.fr/usine-sparcraft-sainte-soulle-mats-22-metres/",
-      "at": "2026-10-03T08:08:18.952Z",
-      "reseaux": {
-        "threads": {
-          "texte": "Imaginez un mât de bateau couché sur 22 mètres, plongé dans une cuve à sa mesure. C’est le quotidien de la nouvelle usine Sparcraft, installée à Sainte-Soulle, tout près de La Rochelle, où ces mâts sont fabriqués puis traités sur place 🏭\n@ma_charente_maritime",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261003-78debb7f-th.jpg",
-          "mode": "reponse",
-          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/usine-sparcraft-sainte-soulle-mats-22-metres/",
-          "sujet": "Sainte-Soulle",
-          "publieLe": "2026-10-03T08:08:18.952Z"
-        }
-      }
-    },
-    {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35363",
       "titre": "Les Deux-Sèvres, département le plus fécond de toute la région",
       "lien": "https://passion-aquitaine.ouest-france.fr/deux-sevres-departement-plus-fecond-region/",
-      "at": "2026-10-03T07:20:45.571Z",
+      "at": "2026-10-03T10:14:33.238Z",
       "reseaux": {
         "threads": {
           "texte": "📈 Un classement qu’on attendait peu : pour l’indice de fécondité, les Deux-Sèvres arrivent en tête de toute la Nouvelle-Aquitaine, selon l’Insee. Et le département se situe au-dessus de la moyenne nationale. Vous pensiez à ce département pour ce record ?",
@@ -221,6 +205,38 @@
           "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/deux-sevres-departement-plus-fecond-region/",
           "sujet": null,
           "publieLe": "2026-10-03T07:20:45.571Z"
+        },
+        "instagram": {
+          "texte": "Deux-Sèvres : c’est ici que naissent le plus de bébés en Nouvelle-Aquitaine 👶\n⠀\nL’Insee place le département en tête de la région pour l’indice de fécondité. Il fait même mieux que la moyenne nationale.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#DeuxSèvres #NouvelleAquitaine #Démographie",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261003-536318f0-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-03T10:14:33.238Z"
+        }
+      }
+    },
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35670",
+      "titre": "La Rochelle : cette usine fabrique des mâts de 22 mètres grâce à ses cuves uniques",
+      "lien": "https://passion-aquitaine.ouest-france.fr/usine-sparcraft-sainte-soulle-mats-22-metres/",
+      "at": "2026-10-03T10:07:36.175Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Imaginez un mât de bateau couché sur 22 mètres, plongé dans une cuve à sa mesure. C’est le quotidien de la nouvelle usine Sparcraft, installée à Sainte-Soulle, tout près de La Rochelle, où ces mâts sont fabriqués puis traités sur place 🏭\n@ma_charente_maritime",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261003-78debb7f-th.jpg",
+          "mode": "reponse",
+          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/usine-sparcraft-sainte-soulle-mats-22-metres/",
+          "sujet": "Sainte-Soulle",
+          "publieLe": "2026-10-03T08:08:18.952Z"
+        },
+        "bluesky": {
+          "texte": "Près de La Rochelle, la nouvelle usine Sparcraft de Sainte-Soulle ne se contente pas de fabriquer des mâts de bateau : ⚓ elle les traite aussi, dans des cuves uniques capables d’accueillir des pièces de 22 mètres. #LaRochelle",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261003-78debb7f-bsky.jpg",
+          "mode": "reply",
+          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/usine-sparcraft-sainte-soulle-mats-22-metres/",
+          "sujet": null,
+          "publieLe": "2026-10-03T10:07:36.175Z"
         }
       }
     },
@@ -419,6 +435,26 @@
   ],
   "publications": [
     {
+      "channel": "instagram",
+      "at": "2026-10-03T10:14:33.238Z",
+      "titre": "Les Deux-Sèvres, département le plus fécond de toute la région",
+      "lien": "https://passion-aquitaine.ouest-france.fr/deux-sevres-departement-plus-fecond-region/",
+      "lienPost": "https://www.instagram.com/p/DeB0esZjo1X/",
+      "format": null,
+      "texte": "Deux-Sèvres : c’est ici que naissent le plus de bébés en Nouvelle-Aquitaine 👶\n⠀\nL’Insee place le département en tête de la région pour l’indice de fécondité. Il fait même mieux que la moyenne nationale.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#DeuxSèvres #NouvelleAquitaine #Démographie",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261003-536318f0-1.jpg"
+    },
+    {
+      "channel": "bluesky",
+      "at": "2026-10-03T10:07:36.175Z",
+      "titre": "La Rochelle : cette usine fabrique des mâts de 22 mètres grâce à ses cuves uniques",
+      "lien": "https://passion-aquitaine.ouest-france.fr/usine-sparcraft-sainte-soulle-mats-22-metres/",
+      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mwxncql2y42p",
+      "format": "reply",
+      "texte": "Près de La Rochelle, la nouvelle usine Sparcraft de Sainte-Soulle ne se contente pas de fabriquer des mâts de bateau : ⚓ elle les traite aussi, dans des cuves uniques capables d’accueillir des pièces de 22 mètres. #LaRochelle",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261003-78debb7f-bsky.jpg"
+    },
+    {
       "channel": "threads",
       "at": "2026-10-03T08:08:18.952Z",
       "titre": "La Rochelle : cette usine fabrique des mâts de 22 mètres grâce à ses cuves uniques",
@@ -497,47 +533,9 @@
       "format": "image",
       "texte": "Des tablettes mésopotamiennes en terre crue du Louvre reprennent vie grâce à Jeanne Maucourt, doctorante à #Poitiers : un savoir-faire rare pour transmettre ces écrits antiques 🔬\n➡️ https://passion-aquitaine.ouest-france.fr/doctorante-poitiers-tablettes-mesopotamiennes-louvre/",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261002-fa646ed7-x.jpg"
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-10-02T07:10:27.616Z",
-      "titre": "À Poitiers, une doctorante restaure des tablettes du Louvre",
-      "lien": "https://passion-aquitaine.ouest-france.fr/doctorante-poitiers-tablettes-mesopotamiennes-louvre/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1738781528247728",
-      "format": null,
-      "texte": "De la terre crue venue de Mésopotamie : c’est la matière fragile que Jeanne Maucourt aide le Louvre à sauver, depuis Poitiers 🏺",
-      "image": null
-    },
-    {
-      "channel": "threads",
-      "at": "2026-10-02T06:25:24.848Z",
-      "titre": "À Poitiers, une doctorante restaure des tablettes du Louvre",
-      "lien": "https://passion-aquitaine.ouest-france.fr/doctorante-poitiers-tablettes-mesopotamiennes-louvre/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/Dd-1aTPmxJJ",
-      "format": "image",
-      "texte": "On imagine les trésors du Louvre restaurés dans ses propres ateliers. Une partie du travail se fait pourtant à Poitiers 🧱 La doctorante Jeanne Maucourt y œuvre avec le musée pour sauver des tablettes mésopotamiennes en terre crue, une matière qui ne pardonne aucune erreur.\n@fondationdupatrimoine\n➡️ https://passion-aquitaine.ouest-france.fr/doctorante-poitiers-tablettes-mesopotamiennes-louvre/",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261002-fa646ed7-th.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "bluesky",
-      "dueAt": "2026-10-03T10:07:34.468Z",
-      "prochainPassage": "2026-10-03T10:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "La Rochelle : cette usine fabrique des mâts de 22 mètres grâce à ses cuves uniques"
-    },
-    {
-      "channel": "instagram",
-      "dueAt": "2026-10-03T10:14:00.609Z",
-      "prochainPassage": "2026-10-03T10:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Les Deux-Sèvres, département le plus fécond de toute la région"
-    },
     {
       "channel": "x",
       "dueAt": "2026-10-03T10:20:00.000Z",
@@ -647,7 +645,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-03T09:00:39.506Z"
+    "derniere": "2026-10-03T10:00:39.714Z"
   },
   "abonnes": {
     "instagram": {
@@ -686,7 +684,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-03T09:20:41.310Z",
+    "genereLe": "2026-10-03T10:14:47.552Z",
     "posts": 7,
     "parReseau": {
       "instagram": {
@@ -810,9 +808,9 @@
     "publies": {
       "threads": 4,
       "facebook": 3,
-      "bluesky": 3,
+      "bluesky": 4,
       "x": 3,
-      "instagram": 2
+      "instagram": 3
     },
     "abonnes": {
       "instagram": {

@@ -2191,5 +2191,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35670",
+    "channel": "facebook",
+    "at": "2026-10-03T18:06:33.712Z",
+    "mediaId": "227437307428711_1740494128076468",
+    "titre": "La Rochelle : cette usine fabrique des mâts de 22 mètres grâce à ses cuves uniques",
+    "lien": "https://passion-aquitaine.ouest-france.fr/usine-sparcraft-sainte-soulle-mats-22-metres/",
+    "lienPost": "https://www.facebook.com/1720946116697936/posts/1740494128076468",
+    "format": null,
+    "mention": false,
+    "apercu": {
+      "texte": "Pour traiter des mâts de bateau de 22 mètres, il faut des cuves hors normes, et c’est à Sainte-Soulle qu’elles se trouvent 🛥️",
+      "image": null,
+      "mode": null,
+      "reponse": null,
+      "sujet": null
+    }
   }
 ]

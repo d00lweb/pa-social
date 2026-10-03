@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-03T17:28:58.538Z",
+  "genereLe": "2026-10-03T18:00:37.251Z",
   "jour": "2026-10-03",
   "reseaux": {
     "instagram": {
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 1,
-      "semaine": 9,
-      "total": 23,
-      "dernier": "2026-10-03T07:07:44.982Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1739967744795773"
+      "aujourdhui": 2,
+      "semaine": 10,
+      "total": 24,
+      "dernier": "2026-10-03T18:06:33.712Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1740494128076468"
     },
     "threads": {
       "actif": true,
@@ -172,7 +172,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35670",
       "titre": "La Rochelle : cette usine fabrique des mâts de 22 mètres grâce à ses cuves uniques",
       "lien": "https://passion-aquitaine.ouest-france.fr/usine-sparcraft-sainte-soulle-mats-22-metres/",
-      "at": "2026-10-03T17:27:55.952Z",
+      "at": "2026-10-03T18:06:33.712Z",
       "reseaux": {
         "threads": {
           "texte": "Imaginez un mât de bateau couché sur 22 mètres, plongé dans une cuve à sa mesure. C’est le quotidien de la nouvelle usine Sparcraft, installée à Sainte-Soulle, tout près de La Rochelle, où ces mâts sont fabriqués puis traités sur place 🏭\n@ma_charente_maritime",
@@ -205,6 +205,14 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-10-03T17:27:55.952Z"
+        },
+        "facebook": {
+          "texte": "Pour traiter des mâts de bateau de 22 mètres, il faut des cuves hors normes, et c’est à Sainte-Soulle qu’elles se trouvent 🛥️",
+          "image": null,
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-03T18:06:33.712Z"
         }
       }
     },
@@ -451,6 +459,16 @@
   ],
   "publications": [
     {
+      "channel": "facebook",
+      "at": "2026-10-03T18:06:33.712Z",
+      "titre": "La Rochelle : cette usine fabrique des mâts de 22 mètres grâce à ses cuves uniques",
+      "lien": "https://passion-aquitaine.ouest-france.fr/usine-sparcraft-sainte-soulle-mats-22-metres/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1740494128076468",
+      "format": null,
+      "texte": "Pour traiter des mâts de bateau de 22 mètres, il faut des cuves hors normes, et c’est à Sainte-Soulle qu’elles se trouvent 🛥️",
+      "image": null
+    },
+    {
       "channel": "instagram",
       "at": "2026-10-03T17:27:55.952Z",
       "titre": "La Rochelle : cette usine fabrique des mâts de 22 mètres grâce à ses cuves uniques",
@@ -539,29 +557,9 @@
       "format": "reponse",
       "texte": "📈 Un classement qu’on attendait peu : pour l’indice de fécondité, les Deux-Sèvres arrivent en tête de toute la Nouvelle-Aquitaine, selon l’Insee. Et le département se situe au-dessus de la moyenne nationale. Vous pensiez à ce département pour ce record ?",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261003-536318f0-th.jpg"
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-10-02T10:30:46.872Z",
-      "titre": "À Poitiers, une doctorante restaure des tablettes du Louvre",
-      "lien": "https://passion-aquitaine.ouest-france.fr/doctorante-poitiers-tablettes-mesopotamiennes-louvre/",
-      "lienPost": "https://www.instagram.com/p/Dd_RjCQmOsy/",
-      "format": null,
-      "texte": "Comment sauver une tablette mésopotamienne en terre crue, vieille de plusieurs millénaires ?\n⠀\nÀ Poitiers, la doctorante Jeanne Maucourt travaille avec le Louvre pour préserver ces fragiles témoins de l’écriture antique 🏺\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Poitiers #Mesopotamie #Archeologie",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261002-fa646ed7-1.jpg"
     }
   ],
-  "file": [
-    {
-      "channel": "facebook",
-      "dueAt": "2026-10-03T18:06:25.513Z",
-      "prochainPassage": "2026-10-03T18:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "La Rochelle : cette usine fabrique des mâts de 22 mètres grâce à ses cuves uniques"
-    }
-  ],
+  "file": [],
   "alertes": [],
   "mesures": {
     "releves": 165,
@@ -682,7 +680,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-03T17:29:07.142Z",
+    "genereLe": "2026-10-03T18:06:42.729Z",
     "posts": 8,
     "parReseau": {
       "instagram": {
@@ -805,7 +803,7 @@
     },
     "publies": {
       "threads": 4,
-      "facebook": 3,
+      "facebook": 4,
       "bluesky": 4,
       "x": 4,
       "instagram": 4

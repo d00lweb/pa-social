@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-03T05:20:42.337Z",
+  "genereLe": "2026-10-03T06:00:44.600Z",
   "jour": "2026-10-03",
   "reseaux": {
     "instagram": {
@@ -559,7 +559,53 @@
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261001-b7818531-th.jpg"
     }
   ],
-  "file": [],
+  "file": [
+    {
+      "channel": "threads",
+      "dueAt": "2026-10-03T06:24:41.049Z",
+      "prochainPassage": "2026-10-03T07:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Les Deux-Sèvres, département le plus fécond de toute la région"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-10-03T06:30:23.273Z",
+      "prochainPassage": "2026-10-03T07:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Les Deux-Sèvres, département le plus fécond de toute la région"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-10-03T07:07:35.049Z",
+      "prochainPassage": "2026-10-03T07:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Les Deux-Sèvres, département le plus fécond de toute la région"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-10-03T07:20:00.000Z",
+      "prochainPassage": "2026-10-03T07:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Les Deux-Sèvres, département le plus fécond de toute la région"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-10-03T10:14:00.609Z",
+      "prochainPassage": "2026-10-03T10:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Les Deux-Sèvres, département le plus fécond de toute la région"
+    }
+  ],
   "alertes": [],
   "mesures": {
     "releves": 156,
@@ -680,7 +726,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-03T05:20:51.595Z",
+    "genereLe": "2026-10-03T06:01:27.361Z",
     "posts": 4,
     "parReseau": {
       "threads": {
@@ -846,29 +892,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 0,
-      "entree": 0,
-      "sortie": 0,
-      "cout": 0,
+      "appels": 3,
+      "entree": 23171,
+      "sortie": 2754,
+      "cout": 0.147764,
       "cle": "2026-10-03"
     },
     "semaine": {
-      "appels": 29,
-      "entree": 223257,
-      "sortie": 25547,
-      "cout": 1.1795859999999998
+      "appels": 32,
+      "entree": 246428,
+      "sortie": 28301,
+      "cout": 1.32735
     },
     "mois": {
-      "appels": 4,
-      "entree": 30711,
-      "sortie": 3395,
-      "cout": 0.190744,
+      "appels": 7,
+      "entree": 53882,
+      "sortie": 6149,
+      "cout": 0.33850800000000003,
       "cle": "2026-10"
     },
-    "projection": 1.97,
-    "moyenneAppel": 0.0477,
+    "projection": 3.5,
+    "moyenneAppel": 0.0484,
     "parModele": {
-      "claude-opus-5-5": 4
+      "claude-opus-5-5": 7
     },
     "serie": [
       [
@@ -925,7 +971,7 @@
       ],
       [
         "2026-10-03",
-        0
+        0.1478
       ]
     ],
     "depuis": "2026-09-23"

@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-04T07:00:46.683Z",
+  "genereLe": "2026-10-04T07:20:40.715Z",
   "jour": "2026-10-04",
   "reseaux": {
     "instagram": {
@@ -565,7 +565,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 170,
+    "releves": 171,
     "parReseau": {
       "instagram": {
         "posts": 20,
@@ -683,8 +683,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-04T07:03:43.936Z",
-    "posts": 10,
+    "genereLe": "2026-10-04T07:20:45.619Z",
+    "posts": 11,
     "parReseau": {
       "instagram": {
         "posts": 2,
@@ -699,7 +699,7 @@
         "moyenne": 1
       },
       "facebook": {
-        "posts": 2,
+        "posts": 3,
         "moyenne": 0
       }
     },
@@ -727,8 +727,8 @@
         "moyenne": 2
       },
       "matin": {
-        "posts": 8,
-        "moyenne": 0.8
+        "posts": 9,
+        "moyenne": 0.7
       }
     },
     "parCreneauReseau": {
@@ -740,7 +740,7 @@
       },
       "facebook": {
         "8 h – 9 h 30": {
-          "posts": 2,
+          "posts": 3,
           "moyenne": 0
         }
       },
@@ -777,18 +777,18 @@
       "creneauReseau": "7 h – 8 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35407",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35363",
       "channel": "facebook",
-      "mediaId": "227437307428711_1738781528247728",
-      "publieLe": "2026-10-02T07:10:27.616Z",
+      "mediaId": "227437307428711_1739967744795773",
+      "publieLe": "2026-10-03T07:07:44.982Z",
       "jalon": 1,
-      "releveLe": "2026-10-03T07:20:38.192Z",
+      "releveLe": "2026-10-04T07:20:40.715Z",
       "likes": 0,
       "commentaires": 0,
       "partages": 0,
       "vues": null,
-      "titre": "À Poitiers, une doctorante restaure des tablettes du Louvre",
-      "lien": "https://www.facebook.com/1720946116697936/posts/1738781528247728",
+      "titre": "Les Deux-Sèvres, département le plus fécond de toute la région",
+      "lien": "https://www.facebook.com/1720946116697936/posts/1739967744795773",
       "format": null,
       "mention": false,
       "creneau": "matin",
@@ -800,7 +800,7 @@
         "moyenne": 1.3
       },
       "sans": {
-        "posts": 3,
+        "posts": 4,
         "moyenne": 0.3
       }
     },

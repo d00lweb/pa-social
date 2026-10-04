@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-04T11:00:42.112Z",
+  "genereLe": "2026-10-04T11:20:37.209Z",
   "jour": "2026-10-04",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 9,
-      "total": 29,
-      "dernier": "2026-10-03T17:27:55.952Z",
-      "lienDernier": "https://www.instagram.com/p/DeCmFQoDYvj/"
+      "aujourdhui": 1,
+      "semaine": 10,
+      "total": 30,
+      "dernier": "2026-10-04T11:29:33.669Z",
+      "lienDernier": "https://www.instagram.com/p/DeEh3MYjNDP/"
     },
     "bluesky": {
       "actif": true,
@@ -172,7 +172,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35474",
       "titre": "À Hendaye, un château cache un observatoire actif jusqu’en 1975",
       "lien": "https://passion-aquitaine.ouest-france.fr/chateau-abbadia-hendaye-observatoire/",
-      "at": "2026-10-04T08:00:51.028Z",
+      "at": "2026-10-04T11:29:33.669Z",
       "reseaux": {
         "threads": {
           "texte": "Un château basque peut-il aussi être un lieu de science ? À Hendaye, la réponse est oui 🔭 Le château d’Abbadia abrite un observatoire astronomique voulu par l’explorateur Antoine d’Abbadie, et il a fonctionné jusqu’en 1975. Vous imaginiez qu’on observait encore le ciel depuis ce château il y a cinquante ans ?\n@fondationdupatrimoine @paysbasque_net",
@@ -205,6 +205,14 @@
           "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/chateau-abbadia-hendaye-observatoire/",
           "sujet": null,
           "publieLe": "2026-10-04T08:00:51.028Z"
+        },
+        "instagram": {
+          "texte": "Une visite à Hendaye qui mène des salons d’un château jusqu’aux étoiles 🔭\n⠀\nAu château d’Abbadia, l’explorateur Antoine d’Abbadie a fait bâtir un observatoire astronomique. Une idée de sortie au Pays basque pour remonter le temps de la science, active jusqu’en 1975 🏰\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Hendaye #PaysBasque #Astronomie",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261004-fbd02dce-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-04T11:29:33.669Z"
         }
       }
     },
@@ -451,6 +459,16 @@
   ],
   "publications": [
     {
+      "channel": "instagram",
+      "at": "2026-10-04T11:29:33.669Z",
+      "titre": "À Hendaye, un château cache un observatoire actif jusqu’en 1975",
+      "lien": "https://passion-aquitaine.ouest-france.fr/chateau-abbadia-hendaye-observatoire/",
+      "lienPost": "https://www.instagram.com/p/DeEh3MYjNDP/",
+      "format": null,
+      "texte": "Une visite à Hendaye qui mène des salons d’un château jusqu’aux étoiles 🔭\n⠀\nAu château d’Abbadia, l’explorateur Antoine d’Abbadie a fait bâtir un observatoire astronomique. Une idée de sortie au Pays basque pour remonter le temps de la science, active jusqu’en 1975 🏰\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Hendaye #PaysBasque #Astronomie",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261004-fbd02dce-1.jpg"
+    },
+    {
       "channel": "x",
       "at": "2026-10-04T08:00:51.028Z",
       "titre": "À Hendaye, un château cache un observatoire actif jusqu’en 1975",
@@ -539,29 +557,9 @@
       "format": "reply",
       "texte": "Près de La Rochelle, la nouvelle usine Sparcraft de Sainte-Soulle ne se contente pas de fabriquer des mâts de bateau : ⚓ elle les traite aussi, dans des cuves uniques capables d’accueillir des pièces de 22 mètres. #LaRochelle",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261003-78debb7f-bsky.jpg"
-    },
-    {
-      "channel": "threads",
-      "at": "2026-10-03T08:08:18.952Z",
-      "titre": "La Rochelle : cette usine fabrique des mâts de 22 mètres grâce à ses cuves uniques",
-      "lien": "https://passion-aquitaine.ouest-france.fr/usine-sparcraft-sainte-soulle-mats-22-metres/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/DeBlnMlFtPm",
-      "format": "reponse",
-      "texte": "Imaginez un mât de bateau couché sur 22 mètres, plongé dans une cuve à sa mesure. C’est le quotidien de la nouvelle usine Sparcraft, installée à Sainte-Soulle, tout près de La Rochelle, où ces mâts sont fabriqués puis traités sur place 🏭\n@ma_charente_maritime",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261003-78debb7f-th.jpg"
     }
   ],
-  "file": [
-    {
-      "channel": "instagram",
-      "dueAt": "2026-10-04T11:29:06.984Z",
-      "prochainPassage": "2026-10-04T12:00:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "À Hendaye, un château cache un observatoire actif jusqu’en 1975"
-    }
-  ],
+  "file": [],
   "alertes": [],
   "mesures": {
     "releves": 175,
@@ -682,7 +680,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-04T11:00:49.426Z",
+    "genereLe": "2026-10-04T11:29:38.231Z",
     "posts": 14,
     "parReseau": {
       "instagram": {
@@ -816,7 +814,7 @@
       "facebook": 5,
       "bluesky": 5,
       "x": 5,
-      "instagram": 4
+      "instagram": 5
     },
     "abonnes": {
       "instagram": {

@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-04T07:20:40.715Z",
+  "genereLe": "2026-10-04T08:00:39.875Z",
   "jour": "2026-10-04",
   "reseaux": {
     "instagram": {
@@ -61,7 +61,7 @@
         "reply"
       ],
       "aujourdhui": 1,
-      "semaine": 9,
+      "semaine": 8,
       "total": 28,
       "dernier": "2026-10-04T06:31:27.066Z",
       "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mwzrp5gcy72r"
@@ -160,10 +160,10 @@
         "lien",
         "reponse"
       ],
-      "aujourdhui": 0,
+      "aujourdhui": 1,
       "semaine": 8,
-      "total": 27,
-      "dernier": "2026-10-03T10:20:53.803Z",
+      "total": 28,
+      "dernier": "2026-10-04T08:00:51.028Z",
       "lienDernier": null
     }
   },
@@ -172,7 +172,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35474",
       "titre": "À Hendaye, un château cache un observatoire actif jusqu’en 1975",
       "lien": "https://passion-aquitaine.ouest-france.fr/chateau-abbadia-hendaye-observatoire/",
-      "at": "2026-10-04T07:03:35.330Z",
+      "at": "2026-10-04T08:00:51.028Z",
       "reseaux": {
         "threads": {
           "texte": "Un château basque peut-il aussi être un lieu de science ? À Hendaye, la réponse est oui 🔭 Le château d’Abbadia abrite un observatoire astronomique voulu par l’explorateur Antoine d’Abbadie, et il a fonctionné jusqu’en 1975. Vous imaginiez qu’on observait encore le ciel depuis ce château il y a cinquante ans ?\n@fondationdupatrimoine @paysbasque_net",
@@ -197,6 +197,14 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-10-04T07:03:35.330Z"
+        },
+        "x": {
+          "texte": "Jusqu’en 1975, on observait encore les astres depuis le château d’Abbadia, à #Hendaye, dans l’observatoire bâti par l’explorateur Antoine d’Abbadie 🔭",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261004-fbd02dce-x.jpg",
+          "mode": "reponse",
+          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/chateau-abbadia-hendaye-observatoire/",
+          "sujet": null,
+          "publieLe": "2026-10-04T08:00:51.028Z"
         }
       }
     },
@@ -443,6 +451,16 @@
   ],
   "publications": [
     {
+      "channel": "x",
+      "at": "2026-10-04T08:00:51.028Z",
+      "titre": "À Hendaye, un château cache un observatoire actif jusqu’en 1975",
+      "lien": "https://passion-aquitaine.ouest-france.fr/chateau-abbadia-hendaye-observatoire/",
+      "lienPost": null,
+      "format": "reponse",
+      "texte": "Jusqu’en 1975, on observait encore les astres depuis le château d’Abbadia, à #Hendaye, dans l’observatoire bâti par l’explorateur Antoine d’Abbadie 🔭",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261004-fbd02dce-x.jpg"
+    },
+    {
       "channel": "facebook",
       "at": "2026-10-04T07:03:35.330Z",
       "titre": "À Hendaye, un château cache un observatoire actif jusqu’en 1975",
@@ -531,28 +549,9 @@
       "format": "reponse",
       "texte": "Imaginez un mât de bateau couché sur 22 mètres, plongé dans une cuve à sa mesure. C’est le quotidien de la nouvelle usine Sparcraft, installée à Sainte-Soulle, tout près de La Rochelle, où ces mâts sont fabriqués puis traités sur place 🏭\n@ma_charente_maritime",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261003-78debb7f-th.jpg"
-    },
-    {
-      "channel": "x",
-      "at": "2026-10-03T07:20:45.571Z",
-      "titre": "Les Deux-Sèvres, département le plus fécond de toute la région",
-      "lien": "https://passion-aquitaine.ouest-france.fr/deux-sevres-departement-plus-fecond-region/",
-      "lienPost": null,
-      "format": "reponse",
-      "texte": "Des berceaux plus nombreux qu’ailleurs 🧸 Sur toute la Nouvelle-Aquitaine, les Deux-Sèvres décrochent le meilleur indice de fécondité, d’après l’Insee, et dépassent la moyenne française.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261003-536318f0-x.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "x",
-      "dueAt": "2026-10-04T08:00:00.000Z",
-      "prochainPassage": "2026-10-04T08:00:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "À Hendaye, un château cache un observatoire actif jusqu’en 1975"
-    },
     {
       "channel": "instagram",
       "dueAt": "2026-10-04T11:29:06.984Z",
@@ -565,14 +564,14 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 171,
+    "releves": 172,
     "parReseau": {
       "instagram": {
         "posts": 20,
         "interactionsMoyennes": 23.2
       },
       "bluesky": {
-        "posts": 19,
+        "posts": 20,
         "interactionsMoyennes": 0.4
       },
       "facebook": {
@@ -644,7 +643,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-04T06:20:45.434Z"
+    "derniere": "2026-10-04T08:00:39.875Z"
   },
   "abonnes": {
     "instagram": {
@@ -683,7 +682,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-04T07:20:45.619Z",
+    "genereLe": "2026-10-04T08:01:07.945Z",
     "posts": 11,
     "parReseau": {
       "instagram": {
@@ -808,7 +807,7 @@
       "threads": 5,
       "facebook": 5,
       "bluesky": 5,
-      "x": 4,
+      "x": 5,
       "instagram": 4
     },
     "abonnes": {

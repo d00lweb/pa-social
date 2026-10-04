@@ -2263,5 +2263,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35474",
+    "channel": "x",
+    "at": "2026-10-04T08:00:51.028Z",
+    "mediaId": "kit-telegram",
+    "titre": "À Hendaye, un château cache un observatoire actif jusqu’en 1975",
+    "lien": "https://passion-aquitaine.ouest-france.fr/chateau-abbadia-hendaye-observatoire/",
+    "lienPost": null,
+    "format": "reponse",
+    "mention": true,
+    "apercu": {
+      "texte": "Jusqu’en 1975, on observait encore les astres depuis le château d’Abbadia, à #Hendaye, dans l’observatoire bâti par l’explorateur Antoine d’Abbadie 🔭",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261004-fbd02dce-x.jpg",
+      "mode": "reponse",
+      "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/chateau-abbadia-hendaye-observatoire/",
+      "sujet": null
+    }
   }
 ]

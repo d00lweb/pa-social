@@ -3,7 +3,7 @@
     "cle": "2026-10",
     "publications": 24,
     "articles": 5,
-    "interactions": 12,
+    "interactions": 40,
     "parReseau": {
       "facebook": 5,
       "instagram": 4,
@@ -19,6 +19,13 @@
       "bluesky": 1
     },
     "top": [
+      {
+        "reseau": "instagram",
+        "titre": "Les Deux-Sèvres, département le plus fécond de toute la région",
+        "lien": "https://www.instagram.com/p/DeB0esZjo1X/",
+        "image": "https://passion-aquitaine.ouest-france.fr/social/20261003-536318f0-1-vignette.jpg",
+        "interactions": 27
+      },
       {
         "reseau": "threads",
         "titre": "À Vouillé, un lieu vieux de 500 ans devient salle de mariage",
@@ -46,13 +53,6 @@
         "lien": "https://www.threads.com/@lovaquitaine/post/DeBlnMlFtPm",
         "image": "https://passion-aquitaine.ouest-france.fr/social/20261003-78debb7f-1-vignette.jpg",
         "interactions": 2
-      },
-      {
-        "reseau": "bluesky",
-        "titre": "À Vouillé, un lieu vieux de 500 ans devient salle de mariage",
-        "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mwsa4xbxqx2s",
-        "image": "https://passion-aquitaine.ouest-france.fr/social/20261001-b7818531-1-vignette.jpg",
-        "interactions": 1
       }
     ]
   },

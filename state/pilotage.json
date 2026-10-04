@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-04T10:00:49.455Z",
+  "genereLe": "2026-10-04T10:20:43.317Z",
   "jour": "2026-10-04",
   "reseaux": {
     "instagram": {
@@ -564,7 +564,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 173,
+    "releves": 175,
     "parReseau": {
       "instagram": {
         "posts": 20,
@@ -643,7 +643,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-04T09:01:26.168Z"
+    "derniere": "2026-10-04T10:20:43.317Z"
   },
   "abonnes": {
     "instagram": {
@@ -682,19 +682,19 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-04T10:00:55.887Z",
-    "posts": 12,
+    "genereLe": "2026-10-04T10:20:52.393Z",
+    "posts": 14,
     "parReseau": {
       "instagram": {
-        "posts": 2,
-        "moyenne": 2
+        "posts": 3,
+        "moyenne": 10.3
       },
       "threads": {
         "posts": 4,
         "moyenne": 1.3
       },
       "bluesky": {
-        "posts": 3,
+        "posts": 4,
         "moyenne": 1
       },
       "facebook": {
@@ -708,7 +708,7 @@
         "moyenne": 1.7
       },
       "reply": {
-        "posts": 2,
+        "posts": 3,
         "moyenne": 1
       },
       "card": {
@@ -722,8 +722,8 @@
     },
     "parCreneau": {
       "après-midi": {
-        "posts": 2,
-        "moyenne": 2
+        "posts": 4,
+        "moyenne": 8
       },
       "matin": {
         "posts": 10,
@@ -751,33 +751,37 @@
         "8 h – 9 h 30": {
           "posts": 3,
           "moyenne": 1
+        },
+        "12 h – 13 h 30": {
+          "posts": 1,
+          "moyenne": 1
         }
       },
       "instagram": {
         "12 h – 13 h 30": {
-          "posts": 2,
-          "moyenne": 2
+          "posts": 3,
+          "moyenne": 10.3
         }
       }
     },
-    "interactionsTotal": 12,
+    "interactionsTotal": 40,
     "meilleur": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35379",
-      "channel": "threads",
-      "mediaId": "18177946834433190",
-      "publieLe": "2026-10-01T06:13:47.420Z",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35363",
+      "channel": "instagram",
+      "mediaId": "18095708000406209",
+      "publieLe": "2026-10-03T10:14:33.238Z",
       "jalon": 1,
-      "releveLe": "2026-10-02T06:20:44.257Z",
-      "likes": 1,
-      "commentaires": 1,
-      "partages": 0,
-      "vues": 215,
-      "titre": "À Vouillé, un lieu vieux de 500 ans devient salle de mariage",
-      "lien": "https://www.threads.com/@lovaquitaine/post/Dd8O6QekaDi",
-      "format": "reponse",
+      "releveLe": "2026-10-04T10:20:43.317Z",
+      "likes": 2,
+      "commentaires": 25,
+      "partages": null,
+      "vues": null,
+      "titre": "Les Deux-Sèvres, département le plus fécond de toute la région",
+      "lien": "https://www.instagram.com/p/DeB0esZjo1X/",
+      "format": null,
       "mention": true,
-      "creneau": "matin",
-      "creneauReseau": "7 h – 8 h 30"
+      "creneau": "après-midi",
+      "creneauReseau": "12 h – 13 h 30"
     },
     "moinsBon": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35363",
@@ -799,12 +803,12 @@
     },
     "mentions": {
       "avec": {
-        "posts": 8,
-        "moyenne": 1.4
+        "posts": 9,
+        "moyenne": 4.2
       },
       "sans": {
-        "posts": 4,
-        "moyenne": 0.3
+        "posts": 5,
+        "moyenne": 0.4
       }
     },
     "publies": {
@@ -850,14 +854,14 @@
       "x": null
     },
     "engagement": {
-      "instagram": 0.02,
+      "instagram": 0.1,
       "threads": 0.11,
       "facebook": 0
     },
     "conseils": [
       "Le format « reponse » fait 17 fois mieux que « image » (1.7 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « image » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+2, +0,2 %) ; Facebook recule (−4), à surveiller.",
-      "Les posts avec mention font 1.1 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
+      "Les posts avec mention font 3.8 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
     ]
   },
   "couts": {

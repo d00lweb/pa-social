@@ -2209,5 +2209,41 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35474",
+    "channel": "threads",
+    "at": "2026-10-04T06:28:15.388Z",
+    "mediaId": "18093591266663350",
+    "titre": "À Hendaye, un château cache un observatoire actif jusqu’en 1975",
+    "lien": "https://passion-aquitaine.ouest-france.fr/chateau-abbadia-hendaye-observatoire/",
+    "lienPost": "https://www.threads.com/@lovaquitaine/post/DeD_GaDEQX3",
+    "format": "reponse",
+    "mention": true,
+    "apercu": {
+      "texte": "Un château basque peut-il aussi être un lieu de science ? À Hendaye, la réponse est oui 🔭 Le château d’Abbadia abrite un observatoire astronomique voulu par l’explorateur Antoine d’Abbadie, et il a fonctionné jusqu’en 1975. Vous imaginiez qu’on observait encore le ciel depuis ce château il y a cinquante ans ?\n@fondationdupatrimoine @paysbasque_net",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261004-fbd02dce-th.jpg",
+      "mode": "reponse",
+      "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/chateau-abbadia-hendaye-observatoire/",
+      "sujet": "Hendaye"
+    }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35474",
+    "channel": "bluesky",
+    "at": "2026-10-04T06:31:27.066Z",
+    "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mwzrp5gcy72r",
+    "titre": "À Hendaye, un château cache un observatoire actif jusqu’en 1975",
+    "lien": "https://passion-aquitaine.ouest-france.fr/chateau-abbadia-hendaye-observatoire/",
+    "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mwzrp5gcy72r",
+    "format": "reply",
+    "mention": true,
+    "apercu": {
+      "texte": "Un château tourné vers les étoiles, face à l’océan à #Hendaye 🌌 Au château d’Abbadia, l’explorateur Antoine d’Abbadie a fait construire un observatoire astronomique, resté en activité jusqu’en 1975.\n@fond-patrimoine.bsky.social",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261004-fbd02dce-bsky.jpg",
+      "mode": "reply",
+      "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/chateau-abbadia-hendaye-observatoire/",
+      "sujet": null
+    }
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-04T06:01:19.722Z",
+  "genereLe": "2026-10-04T06:20:45.434Z",
   "jour": "2026-10-04",
   "reseaux": {
     "instagram": {
@@ -60,11 +60,11 @@
         "image",
         "reply"
       ],
-      "aujourdhui": 0,
-      "semaine": 8,
-      "total": 27,
-      "dernier": "2026-10-03T10:07:36.175Z",
-      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mwxncql2y42p"
+      "aujourdhui": 1,
+      "semaine": 9,
+      "total": 28,
+      "dernier": "2026-10-04T06:31:27.066Z",
+      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mwzrp5gcy72r"
     },
     "facebook": {
       "actif": true,
@@ -89,7 +89,7 @@
       },
       "formats": null,
       "aujourdhui": 0,
-      "semaine": 9,
+      "semaine": 8,
       "total": 24,
       "dernier": "2026-10-03T18:06:33.712Z",
       "lienDernier": "https://www.facebook.com/1720946116697936/posts/1740494128076468"
@@ -124,11 +124,11 @@
         "lien",
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 8,
-      "total": 24,
-      "dernier": "2026-10-03T08:08:18.952Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DeBlnMlFtPm"
+      "aujourdhui": 1,
+      "semaine": 9,
+      "total": 25,
+      "dernier": "2026-10-04T06:28:15.388Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DeD_GaDEQX3"
     },
     "x": {
       "actif": true,
@@ -168,6 +168,30 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35474",
+      "titre": "À Hendaye, un château cache un observatoire actif jusqu’en 1975",
+      "lien": "https://passion-aquitaine.ouest-france.fr/chateau-abbadia-hendaye-observatoire/",
+      "at": "2026-10-04T06:31:27.066Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Un château basque peut-il aussi être un lieu de science ? À Hendaye, la réponse est oui 🔭 Le château d’Abbadia abrite un observatoire astronomique voulu par l’explorateur Antoine d’Abbadie, et il a fonctionné jusqu’en 1975. Vous imaginiez qu’on observait encore le ciel depuis ce château il y a cinquante ans ?\n@fondationdupatrimoine @paysbasque_net",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261004-fbd02dce-th.jpg",
+          "mode": "reponse",
+          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/chateau-abbadia-hendaye-observatoire/",
+          "sujet": "Hendaye",
+          "publieLe": "2026-10-04T06:28:15.388Z"
+        },
+        "bluesky": {
+          "texte": "Un château tourné vers les étoiles, face à l’océan à #Hendaye 🌌 Au château d’Abbadia, l’explorateur Antoine d’Abbadie a fait construire un observatoire astronomique, resté en activité jusqu’en 1975.\n@fond-patrimoine.bsky.social",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261004-fbd02dce-bsky.jpg",
+          "mode": "reply",
+          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/chateau-abbadia-hendaye-observatoire/",
+          "sujet": null,
+          "publieLe": "2026-10-04T06:31:27.066Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35670",
       "titre": "La Rochelle : cette usine fabrique des mâts de 22 mètres grâce à ses cuves uniques",
@@ -407,57 +431,29 @@
           "publieLe": "2026-09-30T11:05:12.329Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=33184",
-      "titre": "Le Hasparren Athletic Club forme 90 % de ses joueurs",
-      "lien": "https://passion-aquitaine.ouest-france.fr/hasparren-athletic-club-modele-formateur/",
-      "at": "2026-09-29T10:26:47.677Z",
-      "reseaux": {
-        "threads": {
-          "texte": "Un club peut-il tenir son rang sans recruter ? À Hasparren, à 25 km de Bayonne, l’Athletic Club forme 🏉 90 % de ses joueurs en interne, et compose avec l’un des plus petits budgets de sa division. Le pari de la formation plutôt que du portefeuille. Vous connaissiez ce club basque ?\n@francerugby @paysbasque_net",
-          "image": null,
-          "mode": "lien",
-          "reponse": null,
-          "sujet": "Hasparren",
-          "publieLe": "2026-09-29T06:26:28.680Z"
-        },
-        "facebook": {
-          "texte": "Son budget est l’un des plus petits de la division, et pourtant ce club basque aligne surtout ses propres jeunes 🏉",
-          "image": null,
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-29T07:06:20.693Z"
-        },
-        "bluesky": {
-          "texte": "À 25 km de Bayonne, un club forme lui-même 90 % de ses joueurs 🏉 Le #Hasparren Athletic Club s’appuie sur ses jeunes plutôt que sur le recrutement, avec l’un des plus petits budgets de sa division.\n@francerugby.bsky.social\n➡️ Lire l’article",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260929-cec4dd2f-bsky.jpg",
-          "mode": "image",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-29T07:24:58.824Z"
-        },
-        "x": {
-          "texte": "90 % des joueurs formés au club, et l’un des plus petits budgets de sa division : le #Hasparren Athletic Club, à 25 km de Bayonne, mise tout sur ses jeunes 🏉\n➡️ https://passion-aquitaine.ouest-france.fr/hasparren-athletic-club-modele-formateur/",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260929-cec4dd2f-x.jpg",
-          "mode": "lien",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-29T08:00:59.158Z"
-        },
-        "instagram": {
-          "texte": "Former ses joueurs plutôt que les recruter : la méthode d’un club basque à 25 km de Bayonne\n⠀\nÀ Hasparren, l’Athletic Club fait émerger 90 % de son effectif en interne, avec l’un des plus petits budgets de sa division. Une leçon de patience et de travail local 🏉\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Hasparren #Rugby #PaysBasque",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260929-cec4dd2f-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-29T10:26:47.677Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "bluesky",
+      "at": "2026-10-04T06:31:27.066Z",
+      "titre": "À Hendaye, un château cache un observatoire actif jusqu’en 1975",
+      "lien": "https://passion-aquitaine.ouest-france.fr/chateau-abbadia-hendaye-observatoire/",
+      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mwzrp5gcy72r",
+      "format": "reply",
+      "texte": "Un château tourné vers les étoiles, face à l’océan à #Hendaye 🌌 Au château d’Abbadia, l’explorateur Antoine d’Abbadie a fait construire un observatoire astronomique, resté en activité jusqu’en 1975.\n@fond-patrimoine.bsky.social",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261004-fbd02dce-bsky.jpg"
+    },
+    {
+      "channel": "threads",
+      "at": "2026-10-04T06:28:15.388Z",
+      "titre": "À Hendaye, un château cache un observatoire actif jusqu’en 1975",
+      "lien": "https://passion-aquitaine.ouest-france.fr/chateau-abbadia-hendaye-observatoire/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/DeD_GaDEQX3",
+      "format": "reponse",
+      "texte": "Un château basque peut-il aussi être un lieu de science ? À Hendaye, la réponse est oui 🔭 Le château d’Abbadia abrite un observatoire astronomique voulu par l’explorateur Antoine d’Abbadie, et il a fonctionné jusqu’en 1975. Vous imaginiez qu’on observait encore le ciel depuis ce château il y a cinquante ans ?\n@fondationdupatrimoine @paysbasque_net",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261004-fbd02dce-th.jpg"
+    },
     {
       "channel": "facebook",
       "at": "2026-10-03T18:06:33.712Z",
@@ -537,47 +533,9 @@
       "format": null,
       "texte": "Ni la Gironde ni le Pays basque : c’est un département plus discret qui compte le plus de naissances par femme dans la région 🍼",
       "image": null
-    },
-    {
-      "channel": "bluesky",
-      "at": "2026-10-03T06:30:25.362Z",
-      "titre": "Les Deux-Sèvres, département le plus fécond de toute la région",
-      "lien": "https://passion-aquitaine.ouest-france.fr/deux-sevres-departement-plus-fecond-region/",
-      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mwxb6fe7zr2k",
-      "format": "reply",
-      "texte": "Familles, le constat de l’@insee.fr peut vous parler : en Nouvelle-Aquitaine, aucun département ne fait mieux que les Deux-Sèvres en matière de fécondité, et l’indice y dépasse aussi la moyenne nationale 📊 #NouvelleAquitaine",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261003-536318f0-bsky.jpg"
-    },
-    {
-      "channel": "threads",
-      "at": "2026-10-03T06:28:41.414Z",
-      "titre": "Les Deux-Sèvres, département le plus fécond de toute la région",
-      "lien": "https://passion-aquitaine.ouest-france.fr/deux-sevres-departement-plus-fecond-region/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/DeBaNchGzTw",
-      "format": "reponse",
-      "texte": "📈 Un classement qu’on attendait peu : pour l’indice de fécondité, les Deux-Sèvres arrivent en tête de toute la Nouvelle-Aquitaine, selon l’Insee. Et le département se situe au-dessus de la moyenne nationale. Vous pensiez à ce département pour ce record ?",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261003-536318f0-th.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "threads",
-      "dueAt": "2026-10-04T06:25:29.871Z",
-      "prochainPassage": "2026-10-04T07:00:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "À Hendaye, un château cache un observatoire actif jusqu’en 1975"
-    },
-    {
-      "channel": "bluesky",
-      "dueAt": "2026-10-04T06:31:24.129Z",
-      "prochainPassage": "2026-10-04T07:00:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "À Hendaye, un château cache un observatoire actif jusqu’en 1975"
-    },
     {
       "channel": "facebook",
       "dueAt": "2026-10-04T07:03:21.350Z",
@@ -608,7 +566,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 166,
+    "releves": 167,
     "parReseau": {
       "instagram": {
         "posts": 20,
@@ -619,7 +577,7 @@
         "interactionsMoyennes": 0.4
       },
       "facebook": {
-        "posts": 15,
+        "posts": 16,
         "interactionsMoyennes": 0.5
       },
       "threads": {
@@ -687,7 +645,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-04T05:20:37.728Z"
+    "derniere": "2026-10-04T06:20:45.434Z"
   },
   "abonnes": {
     "instagram": {
@@ -726,7 +684,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-04T06:01:52.255Z",
+    "genereLe": "2026-10-04T06:31:40.513Z",
     "posts": 8,
     "parReseau": {
       "instagram": {
@@ -848,9 +806,9 @@
       }
     },
     "publies": {
-      "threads": 4,
+      "threads": 5,
       "facebook": 4,
-      "bluesky": 4,
+      "bluesky": 5,
       "x": 4,
       "instagram": 4
     },

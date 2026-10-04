@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-04T05:20:37.728Z",
+  "genereLe": "2026-10-04T06:01:19.722Z",
   "jour": "2026-10-04",
   "reseaux": {
     "instagram": {
@@ -559,7 +559,53 @@
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261003-536318f0-th.jpg"
     }
   ],
-  "file": [],
+  "file": [
+    {
+      "channel": "threads",
+      "dueAt": "2026-10-04T06:25:29.871Z",
+      "prochainPassage": "2026-10-04T07:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "À Hendaye, un château cache un observatoire actif jusqu’en 1975"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-10-04T06:31:24.129Z",
+      "prochainPassage": "2026-10-04T07:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "À Hendaye, un château cache un observatoire actif jusqu’en 1975"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-10-04T07:03:21.350Z",
+      "prochainPassage": "2026-10-04T07:20:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "À Hendaye, un château cache un observatoire actif jusqu’en 1975"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-10-04T08:00:00.000Z",
+      "prochainPassage": "2026-10-04T08:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "À Hendaye, un château cache un observatoire actif jusqu’en 1975"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-10-04T11:29:06.984Z",
+      "prochainPassage": "2026-10-04T12:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "À Hendaye, un château cache un observatoire actif jusqu’en 1975"
+    }
+  ],
   "alertes": [],
   "mesures": {
     "releves": 166,
@@ -680,7 +726,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-04T05:20:57.992Z",
+    "genereLe": "2026-10-04T06:01:52.255Z",
     "posts": 8,
     "parReseau": {
       "instagram": {
@@ -855,29 +901,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 0,
-      "entree": 0,
-      "sortie": 0,
-      "cout": 0,
+      "appels": 1,
+      "entree": 7698,
+      "sortie": 913,
+      "cout": 0.049052,
       "cle": "2026-10-04"
     },
     "semaine": {
-      "appels": 33,
-      "entree": 254107,
-      "sortie": 29150,
-      "cout": 1.350739
+      "appels": 34,
+      "entree": 261805,
+      "sortie": 30063,
+      "cout": 1.3997909999999998
     },
     "mois": {
-      "appels": 10,
-      "entree": 76948,
-      "sortie": 8782,
-      "cout": 0.483432,
+      "appels": 11,
+      "entree": 84646,
+      "sortie": 9695,
+      "cout": 0.532484,
       "cle": "2026-10"
     },
-    "projection": 3.75,
-    "moyenneAppel": 0.0483,
+    "projection": 4.13,
+    "moyenneAppel": 0.0484,
     "parModele": {
-      "claude-opus-5-5": 10
+      "claude-opus-5-5": 11
     },
     "serie": [
       [
@@ -934,7 +980,7 @@
       ],
       [
         "2026-10-04",
-        0
+        0.0491
       ]
     ],
     "depuis": "2026-09-23"

@@ -3,7 +3,7 @@
     "cle": "2026-10",
     "publications": 25,
     "articles": 5,
-    "interactions": 40,
+    "interactions": 64,
     "parReseau": {
       "facebook": 5,
       "instagram": 5,
@@ -27,6 +27,13 @@
         "interactions": 27
       },
       {
+        "reseau": "instagram",
+        "titre": "La Rochelle : cette usine fabrique des mâts de 22 mètres grâce à ses cuves uniques",
+        "lien": "https://www.instagram.com/p/DeCmFQoDYvj/",
+        "image": "https://passion-aquitaine.ouest-france.fr/social/20261003-78debb7f-1-vignette.jpg",
+        "interactions": 24
+      },
+      {
         "reseau": "threads",
         "titre": "À Vouillé, un lieu vieux de 500 ans devient salle de mariage",
         "lien": "https://www.threads.com/@lovaquitaine/post/Dd8O6QekaDi",
@@ -45,13 +52,6 @@
         "titre": "À Poitiers, une doctorante restaure des tablettes du Louvre",
         "lien": "https://www.instagram.com/p/Dd_RjCQmOsy/",
         "image": "https://passion-aquitaine.ouest-france.fr/social/20261002-fa646ed7-1-vignette.jpg",
-        "interactions": 2
-      },
-      {
-        "reseau": "threads",
-        "titre": "La Rochelle : cette usine fabrique des mâts de 22 mètres grâce à ses cuves uniques",
-        "lien": "https://www.threads.com/@lovaquitaine/post/DeBlnMlFtPm",
-        "image": "https://passion-aquitaine.ouest-france.fr/social/20261003-78debb7f-1-vignette.jpg",
         "interactions": 2
       }
     ]

@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-04T17:20:50.488Z",
+  "genereLe": "2026-10-04T18:00:48.459Z",
   "jour": "2026-10-04",
   "reseaux": {
     "instagram": {
@@ -562,7 +562,7 @@
   "file": [],
   "alertes": [],
   "mesures": {
-    "releves": 177,
+    "releves": 178,
     "parReseau": {
       "instagram": {
         "posts": 22,
@@ -641,7 +641,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-04T17:00:39.374Z"
+    "derniere": "2026-10-04T18:00:48.459Z"
   },
   "abonnes": {
     "instagram": {
@@ -680,12 +680,12 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-04T17:20:56.894Z",
-    "posts": 14,
+    "genereLe": "2026-10-04T18:00:54.929Z",
+    "posts": 15,
     "parReseau": {
       "instagram": {
-        "posts": 3,
-        "moyenne": 10.3
+        "posts": 4,
+        "moyenne": 13.8
       },
       "threads": {
         "posts": 4,
@@ -719,6 +719,10 @@
       }
     },
     "parCreneau": {
+      "soir": {
+        "posts": 1,
+        "moyenne": 24
+      },
       "après-midi": {
         "posts": 4,
         "moyenne": 8
@@ -756,13 +760,17 @@
         }
       },
       "instagram": {
+        "18 h – 19 h 30": {
+          "posts": 1,
+          "moyenne": 24
+        },
         "12 h – 13 h 30": {
           "posts": 3,
           "moyenne": 10.3
         }
       }
     },
-    "interactionsTotal": 40,
+    "interactionsTotal": 64,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35363",
       "channel": "instagram",
@@ -801,8 +809,8 @@
     },
     "mentions": {
       "avec": {
-        "posts": 9,
-        "moyenne": 4.2
+        "posts": 10,
+        "moyenne": 6.2
       },
       "sans": {
         "posts": 5,
@@ -852,14 +860,14 @@
       "x": null
     },
     "engagement": {
-      "instagram": 0.1,
+      "instagram": 0.14,
       "threads": 0.11,
       "facebook": 0
     },
     "conseils": [
       "Le format « reponse » fait 17 fois mieux que « image » (1.7 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « image » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+2, +0,2 %) ; Facebook recule (−4), à surveiller.",
-      "Les posts avec mention font 3.8 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
+      "Les posts avec mention font 5.8 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
     ]
   },
   "couts": {

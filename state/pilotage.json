@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-04T18:00:48.459Z",
+  "genereLe": "2026-10-04T18:20:45.296Z",
   "jour": "2026-10-04",
   "reseaux": {
     "instagram": {
@@ -562,7 +562,7 @@
   "file": [],
   "alertes": [],
   "mesures": {
-    "releves": 178,
+    "releves": 179,
     "parReseau": {
       "instagram": {
         "posts": 22,
@@ -680,8 +680,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-04T18:00:54.929Z",
-    "posts": 15,
+    "genereLe": "2026-10-04T18:20:51.197Z",
+    "posts": 16,
     "parReseau": {
       "instagram": {
         "posts": 4,
@@ -696,7 +696,7 @@
         "moyenne": 1
       },
       "facebook": {
-        "posts": 3,
+        "posts": 4,
         "moyenne": 0
       }
     },
@@ -720,8 +720,8 @@
     },
     "parCreneau": {
       "soir": {
-        "posts": 1,
-        "moyenne": 24
+        "posts": 2,
+        "moyenne": 12
       },
       "après-midi": {
         "posts": 4,
@@ -746,6 +746,10 @@
       "facebook": {
         "8 h – 9 h 30": {
           "posts": 3,
+          "moyenne": 0
+        },
+        "20 h – 21 h 30": {
+          "posts": 1,
           "moyenne": 0
         }
       },
@@ -790,22 +794,22 @@
       "creneauReseau": "12 h – 13 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35363",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35670",
       "channel": "facebook",
-      "mediaId": "227437307428711_1739967744795773",
-      "publieLe": "2026-10-03T07:07:44.982Z",
+      "mediaId": "227437307428711_1740494128076468",
+      "publieLe": "2026-10-03T18:06:33.712Z",
       "jalon": 1,
-      "releveLe": "2026-10-04T07:20:40.715Z",
+      "releveLe": "2026-10-04T18:20:45.296Z",
       "likes": 0,
       "commentaires": 0,
       "partages": 0,
       "vues": null,
-      "titre": "Les Deux-Sèvres, département le plus fécond de toute la région",
-      "lien": "https://www.facebook.com/1720946116697936/posts/1739967744795773",
+      "titre": "La Rochelle : cette usine fabrique des mâts de 22 mètres grâce à ses cuves uniques",
+      "lien": "https://www.facebook.com/1720946116697936/posts/1740494128076468",
       "format": null,
       "mention": false,
-      "creneau": "matin",
-      "creneauReseau": "8 h – 9 h 30"
+      "creneau": "soir",
+      "creneauReseau": "20 h – 21 h 30"
     },
     "mentions": {
       "avec": {
@@ -813,8 +817,8 @@
         "moyenne": 6.2
       },
       "sans": {
-        "posts": 5,
-        "moyenne": 0.4
+        "posts": 6,
+        "moyenne": 0.3
       }
     },
     "publies": {
@@ -867,7 +871,7 @@
     "conseils": [
       "Le format « reponse » fait 17 fois mieux que « image » (1.7 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « image » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+2, +0,2 %) ; Facebook recule (−4), à surveiller.",
-      "Les posts avec mention font 5.8 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
+      "Les posts avec mention font 5.9 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
     ]
   },
   "couts": {

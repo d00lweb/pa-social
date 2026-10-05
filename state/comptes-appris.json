@@ -899,5 +899,97 @@
     "instagram": [],
     "threads": [],
     "bluesky": []
+  },
+  "commune:mairie:begles": {
+    "v": 2,
+    "cherche": "2026-10-05T05:55:46.674Z",
+    "instagram": [
+      {
+        "handle": "villedebegles",
+        "nom": "Ville de Bègles",
+        "abonnes": 6532,
+        "preuve": 3
+      }
+    ],
+    "x": [
+      {
+        "handle": "Villedebegles",
+        "nom": "",
+        "abonnes": null,
+        "preuve": 3
+      }
+    ],
+    "threads": [
+      {
+        "handle": "villedebegles",
+        "nom": "Ville de Bègles",
+        "abonnes": 6532,
+        "preuve": 3
+      }
+    ],
+    "bluesky": []
+  },
+  "commune:tourisme:begles": {
+    "v": 2,
+    "cherche": "2026-10-05T05:55:46.674Z",
+    "instagram": [],
+    "x": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:begles:festival": {
+    "v": 2,
+    "cherche": "2026-10-05T05:55:46.674Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "domaine:festival": {
+    "v": 2,
+    "cherche": "2026-10-05T05:55:46.674Z",
+    "instagram": [],
+    "bluesky": [],
+    "threads": []
+  },
+  "locale:begles:musique": {
+    "v": 2,
+    "cherche": "2026-10-05T05:55:46.674Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "domaine:musique": {
+    "v": 2,
+    "cherche": "2026-10-05T05:55:46.674Z",
+    "instagram": [
+      {
+        "handle": "francemusique",
+        "nom": "France Musique",
+        "abonnes": 171563,
+        "preuve": 2
+      },
+      {
+        "handle": "ffmusique",
+        "nom": "Fédération Française de Musique",
+        "abonnes": 3075,
+        "preuve": 2
+      }
+    ],
+    "bluesky": [
+      {
+        "handle": "francemusique.fr",
+        "nom": "France Musique",
+        "abonnes": 2439,
+        "preuve": 1
+      }
+    ],
+    "threads": [
+      {
+        "handle": "francemusique",
+        "nom": "France Musique",
+        "abonnes": 171563,
+        "preuve": 2
+      }
+    ]
   }
 }

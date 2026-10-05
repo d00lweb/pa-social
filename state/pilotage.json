@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-05T05:20:34.092Z",
+  "genereLe": "2026-10-05T05:55:11.996Z",
   "jour": "2026-10-05",
   "reseaux": {
     "instagram": {
@@ -559,7 +559,53 @@
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261003-78debb7f-bsky.jpg"
     }
   ],
-  "file": [],
+  "file": [
+    {
+      "channel": "x",
+      "dueAt": "2026-10-05T06:00:00.000Z",
+      "prochainPassage": "2026-10-05T06:00:00.000Z",
+      "nature": "actu_chaude",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Ce week-end à Bègles, Cerrone et Morcheeba montent sur scène"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-10-05T06:03:05.772Z",
+      "prochainPassage": "2026-10-05T06:20:00.000Z",
+      "nature": "actu_chaude",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Ce week-end à Bègles, Cerrone et Morcheeba montent sur scène"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-10-05T06:06:33.285Z",
+      "prochainPassage": "2026-10-05T06:20:00.000Z",
+      "nature": "actu_chaude",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Ce week-end à Bègles, Cerrone et Morcheeba montent sur scène"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-10-05T06:11:08.904Z",
+      "prochainPassage": "2026-10-05T06:20:00.000Z",
+      "nature": "actu_chaude",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Ce week-end à Bègles, Cerrone et Morcheeba montent sur scène"
+    },
+    {
+      "channel": "threads",
+      "dueAt": "2026-10-05T06:14:58.965Z",
+      "prochainPassage": "2026-10-05T06:20:00.000Z",
+      "nature": "actu_chaude",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Ce week-end à Bègles, Cerrone et Morcheeba montent sur scène"
+    }
+  ],
   "alertes": [],
   "mesures": {
     "releves": 180,
@@ -680,7 +726,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-05T05:20:43.829Z",
+    "genereLe": "2026-10-05T05:56:10.490Z",
     "posts": 16,
     "parReseau": {
       "instagram": {
@@ -876,29 +922,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 0,
-      "entree": 0,
-      "sortie": 0,
-      "cout": 0,
+      "appels": 2,
+      "entree": 15544,
+      "sortie": 3179,
+      "cout": 0.125756,
       "cle": "2026-10-05"
     },
     "semaine": {
-      "appels": 33,
-      "entree": 254168,
-      "sortie": 29237,
-      "cout": 1.3409559999999998
+      "appels": 35,
+      "entree": 269712,
+      "sortie": 32416,
+      "cout": 1.466712
     },
     "mois": {
-      "appels": 11,
-      "entree": 84646,
-      "sortie": 9695,
-      "cout": 0.532484,
+      "appels": 13,
+      "entree": 100190,
+      "sortie": 12874,
+      "cout": 0.6582399999999999,
       "cle": "2026-10"
     },
-    "projection": 3.3,
-    "moyenneAppel": 0.0484,
+    "projection": 4.08,
+    "moyenneAppel": 0.0506,
     "parModele": {
-      "claude-opus-5-5": 11
+      "claude-opus-5-5": 13
     },
     "serie": [
       [
@@ -955,7 +1001,7 @@
       ],
       [
         "2026-10-05",
-        0
+        0.1258
       ]
     ],
     "depuis": "2026-09-23"

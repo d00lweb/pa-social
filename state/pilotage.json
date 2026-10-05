@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-05T06:20:40.976Z",
+  "genereLe": "2026-10-05T07:00:40.031Z",
   "jour": "2026-10-05",
   "reseaux": {
     "instagram": {
@@ -61,7 +61,7 @@
         "reply"
       ],
       "aujourdhui": 1,
-      "semaine": 9,
+      "semaine": 8,
       "total": 29,
       "dernier": "2026-10-05T06:06:35.383Z",
       "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mx4armjgsh2x"
@@ -125,7 +125,7 @@
         "reponse"
       ],
       "aujourdhui": 1,
-      "semaine": 9,
+      "semaine": 8,
       "total": 26,
       "dernier": "2026-10-05T06:18:18.323Z",
       "lienDernier": "https://www.threads.com/@lovaquitaine/post/DeGisFzEfEG"
@@ -562,14 +562,14 @@
   "file": [],
   "alertes": [],
   "mesures": {
-    "releves": 180,
+    "releves": 184,
     "parReseau": {
       "instagram": {
         "posts": 22,
         "interactionsMoyennes": 23.8
       },
       "bluesky": {
-        "posts": 20,
+        "posts": 21,
         "interactionsMoyennes": 0.4
       },
       "facebook": {
@@ -577,8 +577,8 @@
         "interactionsMoyennes": 0.5
       },
       "threads": {
-        "posts": 17,
-        "interactionsMoyennes": 10.1
+        "posts": 18,
+        "interactionsMoyennes": 10.3
       }
     }
   },
@@ -680,19 +680,19 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-05T06:21:08.816Z",
-    "posts": 16,
+    "genereLe": "2026-10-05T07:01:06.117Z",
+    "posts": 18,
     "parReseau": {
       "instagram": {
         "posts": 4,
         "moyenne": 13.8
       },
       "threads": {
-        "posts": 4,
-        "moyenne": 1.3
+        "posts": 5,
+        "moyenne": 1.2
       },
       "bluesky": {
-        "posts": 4,
+        "posts": 5,
         "moyenne": 1
       },
       "facebook": {
@@ -702,11 +702,11 @@
     },
     "parFormat": {
       "reponse": {
-        "posts": 3,
-        "moyenne": 1.7
+        "posts": 4,
+        "moyenne": 1.5
       },
       "reply": {
-        "posts": 3,
+        "posts": 4,
         "moyenne": 1
       },
       "card": {
@@ -728,7 +728,7 @@
         "moyenne": 8
       },
       "matin": {
-        "posts": 10,
+        "posts": 12,
         "moyenne": 0.8
       }
     },
@@ -739,7 +739,7 @@
           "moyenne": 2
         },
         "7 h – 8 h 30": {
-          "posts": 3,
+          "posts": 4,
           "moyenne": 1
         }
       },
@@ -755,7 +755,7 @@
       },
       "bluesky": {
         "8 h – 9 h 30": {
-          "posts": 3,
+          "posts": 4,
           "moyenne": 1
         },
         "12 h – 13 h 30": {
@@ -774,7 +774,7 @@
         }
       }
     },
-    "interactionsTotal": 64,
+    "interactionsTotal": 66,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35363",
       "channel": "instagram",
@@ -813,8 +813,8 @@
     },
     "mentions": {
       "avec": {
-        "posts": 10,
-        "moyenne": 6.2
+        "posts": 12,
+        "moyenne": 5.3
       },
       "sans": {
         "posts": 6,
@@ -865,13 +865,13 @@
     },
     "engagement": {
       "instagram": 0.14,
-      "threads": 0.11,
+      "threads": 0.1,
       "facebook": 0
     },
     "conseils": [
-      "Le format « reponse » fait 17 fois mieux que « image » (1.7 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « image » de la rotation dans config/channels.json.",
+      "Le format « reponse » fait 15 fois mieux que « image » (1.5 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « image » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+2, +0,2 %) ; Facebook recule (−7), à surveiller.",
-      "Les posts avec mention font 5.9 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
+      "Les posts avec mention font 5 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
     ]
   },
   "couts": {

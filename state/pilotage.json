@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-05T07:00:40.031Z",
+  "genereLe": "2026-10-05T07:20:42.471Z",
   "jour": "2026-10-05",
   "reseaux": {
     "instagram": {
@@ -89,7 +89,7 @@
       },
       "formats": null,
       "aujourdhui": 1,
-      "semaine": 9,
+      "semaine": 8,
       "total": 26,
       "dernier": "2026-10-05T06:03:15.421Z",
       "lienDernier": "https://www.facebook.com/1720946116697936/posts/1742010854591462"
@@ -562,7 +562,7 @@
   "file": [],
   "alertes": [],
   "mesures": {
-    "releves": 184,
+    "releves": 186,
     "parReseau": {
       "instagram": {
         "posts": 22,
@@ -573,8 +573,8 @@
         "interactionsMoyennes": 0.4
       },
       "facebook": {
-        "posts": 17,
-        "interactionsMoyennes": 0.5
+        "posts": 18,
+        "interactionsMoyennes": 0.4
       },
       "threads": {
         "posts": 18,
@@ -641,7 +641,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-05T06:20:40.976Z"
+    "derniere": "2026-10-05T07:20:42.471Z"
   },
   "abonnes": {
     "instagram": {
@@ -680,8 +680,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-05T07:01:06.117Z",
-    "posts": 18,
+    "genereLe": "2026-10-05T07:20:49.200Z",
+    "posts": 19,
     "parReseau": {
       "instagram": {
         "posts": 4,
@@ -696,7 +696,7 @@
         "moyenne": 1
       },
       "facebook": {
-        "posts": 4,
+        "posts": 5,
         "moyenne": 0
       }
     },
@@ -728,7 +728,7 @@
         "moyenne": 8
       },
       "matin": {
-        "posts": 12,
+        "posts": 13,
         "moyenne": 0.8
       }
     },
@@ -745,7 +745,7 @@
       },
       "facebook": {
         "8 h – 9 h 30": {
-          "posts": 3,
+          "posts": 4,
           "moyenne": 0
         },
         "20 h – 21 h 30": {
@@ -794,22 +794,22 @@
       "creneauReseau": "12 h – 13 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35670",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35474",
       "channel": "facebook",
-      "mediaId": "227437307428711_1740494128076468",
-      "publieLe": "2026-10-03T18:06:33.712Z",
+      "mediaId": "227437307428711_1741018678024013",
+      "publieLe": "2026-10-04T07:03:35.330Z",
       "jalon": 1,
-      "releveLe": "2026-10-04T18:20:45.296Z",
+      "releveLe": "2026-10-05T07:20:42.471Z",
       "likes": 0,
       "commentaires": 0,
       "partages": 0,
       "vues": null,
-      "titre": "La Rochelle : cette usine fabrique des mâts de 22 mètres grâce à ses cuves uniques",
-      "lien": "https://www.facebook.com/1720946116697936/posts/1740494128076468",
+      "titre": "À Hendaye, un château cache un observatoire actif jusqu’en 1975",
+      "lien": "https://www.facebook.com/1720946116697936/posts/1741018678024013",
       "format": null,
       "mention": false,
-      "creneau": "soir",
-      "creneauReseau": "20 h – 21 h 30"
+      "creneau": "matin",
+      "creneauReseau": "8 h – 9 h 30"
     },
     "mentions": {
       "avec": {
@@ -817,7 +817,7 @@
         "moyenne": 5.3
       },
       "sans": {
-        "posts": 6,
+        "posts": 7,
         "moyenne": 0.3
       }
     },

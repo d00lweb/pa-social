@@ -2299,5 +2299,95 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=30656",
+    "channel": "x",
+    "at": "2026-10-05T06:00:46.273Z",
+    "mediaId": "kit-telegram",
+    "titre": "Ce week-end à Bègles, Cerrone et Morcheeba montent sur scène",
+    "lien": "https://passion-aquitaine.ouest-france.fr/green-paradize-festival-begles-2026/",
+    "lienPost": null,
+    "format": "reponse",
+    "mention": true,
+    "apercu": {
+      "texte": "À #Bègles, le Green Paradize Festival n’a qu’un an et frappe fort : 🕺 Cerrone, Morcheeba et Purple Disco Machine sont attendus sur scène ce week-end.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261005-0255fe27-x.jpg",
+      "mode": "reponse",
+      "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/green-paradize-festival-begles-2026/",
+      "sujet": null
+    }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=30656",
+    "channel": "facebook",
+    "at": "2026-10-05T06:03:15.421Z",
+    "mediaId": "227437307428711_1742010854591462",
+    "titre": "Ce week-end à Bègles, Cerrone et Morcheeba montent sur scène",
+    "lien": "https://passion-aquitaine.ouest-france.fr/green-paradize-festival-begles-2026/",
+    "lienPost": "https://www.facebook.com/1720946116697936/posts/1742010854591462",
+    "format": null,
+    "mention": false,
+    "apercu": {
+      "texte": "Imaginez Bègles transformée en grande piste de danse, avec Cerrone et Purple Disco Machine sur scène ce week-end 🎶",
+      "image": null,
+      "mode": null,
+      "reponse": null,
+      "sujet": null
+    }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=30656",
+    "channel": "bluesky",
+    "at": "2026-10-05T06:06:35.383Z",
+    "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mx4armjgsh2x",
+    "titre": "Ce week-end à Bègles, Cerrone et Morcheeba montent sur scène",
+    "lien": "https://passion-aquitaine.ouest-france.fr/green-paradize-festival-begles-2026/",
+    "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mx4armjgsh2x",
+    "format": "reply",
+    "mention": true,
+    "apercu": {
+      "texte": "🎤 Jusqu’où peut aller un festival né il y a à peine un an ? À #Bègles, le Green Paradize Festival revient déjà, avec Cerrone et Purple Disco Machine en têtes d’affiche ce week-end.\n@francemusique.fr @departementgironde.bsky.social",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261005-0255fe27-bsky.jpg",
+      "mode": "reply",
+      "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/green-paradize-festival-begles-2026/",
+      "sujet": null
+    }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=30656",
+    "channel": "instagram",
+    "at": "2026-10-05T06:11:34.862Z",
+    "mediaId": "18142889470515137",
+    "titre": "Ce week-end à Bègles, Cerrone et Morcheeba montent sur scène",
+    "lien": "https://passion-aquitaine.ouest-france.fr/green-paradize-festival-begles-2026/",
+    "lienPost": "https://www.instagram.com/p/DeGiRXdloQk/",
+    "format": null,
+    "mention": true,
+    "apercu": {
+      "texte": "Le Green Paradize Festival n’a qu’un an, et il s’offre déjà 🪩 Cerrone en tête d’affiche\n⠀\nÀ Bègles, aux portes de Bordeaux, le jeune festival revient ce week-end. Purple Disco Machine et Morcheeba complètent une affiche taillée pour danser.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bègles #GreenParadizeFestival #Musique",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261005-0255fe27-1.jpg",
+      "mode": null,
+      "reponse": null,
+      "sujet": null
+    }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=30656",
+    "channel": "threads",
+    "at": "2026-10-05T06:18:18.323Z",
+    "mediaId": "17879214420546996",
+    "titre": "Ce week-end à Bègles, Cerrone et Morcheeba montent sur scène",
+    "lien": "https://passion-aquitaine.ouest-france.fr/green-paradize-festival-begles-2026/",
+    "lienPost": "https://www.threads.com/@lovaquitaine/post/DeGisFzEfEG",
+    "format": "reponse",
+    "mention": true,
+    "apercu": {
+      "texte": "Un an à peine après sa création, le Green Paradize Festival revient déjà à Bègles 🎧 Au programme ce week-end : Cerrone, Morcheeba et Purple Disco Machine. De quoi réunir plusieurs générations de fans de musique. Vous êtes plutôt disco des origines ou disco revisité ?\n@villedebegles @francemusique @departementgironde",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261005-0255fe27-th.jpg",
+      "mode": "reponse",
+      "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/green-paradize-festival-begles-2026/",
+      "sujet": "Bègles"
+    }
   }
 ]

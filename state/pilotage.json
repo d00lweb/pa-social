@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-05T05:55:11.996Z",
+  "genereLe": "2026-10-05T06:00:39.190Z",
   "jour": "2026-10-05",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 8,
-      "total": 30,
-      "dernier": "2026-10-04T11:29:33.669Z",
-      "lienDernier": "https://www.instagram.com/p/DeEh3MYjNDP/"
+      "aujourdhui": 1,
+      "semaine": 9,
+      "total": 31,
+      "dernier": "2026-10-05T06:11:34.862Z",
+      "lienDernier": "https://www.instagram.com/p/DeGiRXdloQk/"
     },
     "bluesky": {
       "actif": true,
@@ -60,11 +60,11 @@
         "image",
         "reply"
       ],
-      "aujourdhui": 0,
-      "semaine": 8,
-      "total": 28,
-      "dernier": "2026-10-04T06:31:27.066Z",
-      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mwzrp5gcy72r"
+      "aujourdhui": 1,
+      "semaine": 9,
+      "total": 29,
+      "dernier": "2026-10-05T06:06:35.383Z",
+      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mx4armjgsh2x"
     },
     "facebook": {
       "actif": true,
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 8,
-      "total": 25,
-      "dernier": "2026-10-04T07:03:35.330Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1741018678024013"
+      "aujourdhui": 1,
+      "semaine": 9,
+      "total": 26,
+      "dernier": "2026-10-05T06:03:15.421Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1742010854591462"
     },
     "threads": {
       "actif": true,
@@ -124,11 +124,11 @@
         "lien",
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 8,
-      "total": 25,
-      "dernier": "2026-10-04T06:28:15.388Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DeD_GaDEQX3"
+      "aujourdhui": 1,
+      "semaine": 9,
+      "total": 26,
+      "dernier": "2026-10-05T06:18:18.323Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DeGisFzEfEG"
     },
     "x": {
       "actif": true,
@@ -160,14 +160,62 @@
         "lien",
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 8,
-      "total": 28,
-      "dernier": "2026-10-04T08:00:51.028Z",
+      "aujourdhui": 1,
+      "semaine": 9,
+      "total": 29,
+      "dernier": "2026-10-05T06:00:46.273Z",
       "lienDernier": null
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=30656",
+      "titre": "Ce week-end à Bègles, Cerrone et Morcheeba montent sur scène",
+      "lien": "https://passion-aquitaine.ouest-france.fr/green-paradize-festival-begles-2026/",
+      "at": "2026-10-05T06:18:18.323Z",
+      "reseaux": {
+        "x": {
+          "texte": "À #Bègles, le Green Paradize Festival n’a qu’un an et frappe fort : 🕺 Cerrone, Morcheeba et Purple Disco Machine sont attendus sur scène ce week-end.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261005-0255fe27-x.jpg",
+          "mode": "reponse",
+          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/green-paradize-festival-begles-2026/",
+          "sujet": null,
+          "publieLe": "2026-10-05T06:00:46.273Z"
+        },
+        "facebook": {
+          "texte": "Imaginez Bègles transformée en grande piste de danse, avec Cerrone et Purple Disco Machine sur scène ce week-end 🎶",
+          "image": null,
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-05T06:03:15.421Z"
+        },
+        "bluesky": {
+          "texte": "🎤 Jusqu’où peut aller un festival né il y a à peine un an ? À #Bègles, le Green Paradize Festival revient déjà, avec Cerrone et Purple Disco Machine en têtes d’affiche ce week-end.\n@francemusique.fr @departementgironde.bsky.social",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261005-0255fe27-bsky.jpg",
+          "mode": "reply",
+          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/green-paradize-festival-begles-2026/",
+          "sujet": null,
+          "publieLe": "2026-10-05T06:06:35.383Z"
+        },
+        "instagram": {
+          "texte": "Le Green Paradize Festival n’a qu’un an, et il s’offre déjà 🪩 Cerrone en tête d’affiche\n⠀\nÀ Bègles, aux portes de Bordeaux, le jeune festival revient ce week-end. Purple Disco Machine et Morcheeba complètent une affiche taillée pour danser.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bègles #GreenParadizeFestival #Musique",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261005-0255fe27-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-05T06:11:34.862Z"
+        },
+        "threads": {
+          "texte": "Un an à peine après sa création, le Green Paradize Festival revient déjà à Bègles 🎧 Au programme ce week-end : Cerrone, Morcheeba et Purple Disco Machine. De quoi réunir plusieurs générations de fans de musique. Vous êtes plutôt disco des origines ou disco revisité ?\n@villedebegles @francemusique @departementgironde",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261005-0255fe27-th.jpg",
+          "mode": "reponse",
+          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/green-paradize-festival-begles-2026/",
+          "sujet": "Bègles",
+          "publieLe": "2026-10-05T06:18:18.323Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35474",
       "titre": "À Hendaye, un château cache un observatoire actif jusqu’en 1975",
@@ -407,57 +455,59 @@
           "publieLe": "2026-10-01T10:09:29.344Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35391",
-      "titre": "À Bordeaux, la chasse aux champignons démarre après les premières pluies",
-      "lien": "https://passion-aquitaine.ouest-france.fr/champignons-pluies-automne-bordeaux/",
-      "at": "2026-09-30T11:05:12.329Z",
-      "reseaux": {
-        "bluesky": {
-          "texte": "🌧️ Pourquoi guetter la pluie cet automne autour de #Bordeaux ? Parce que les premières averses relancent la traque aux champignons en Gironde, avec en ligne de mire le fameux cèpe qui porte le nom de la ville.\n@villedebordeaux.bsky.social @departementgironde.bsky.social\n➡️ Lire l’article",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260930-376822fc-bsky.jpg",
-          "mode": "image",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-30T06:23:24.593Z"
-        },
-        "threads": {
-          "texte": "Il suffit des premières pluies d’automne pour que la saison des champignons redémarre 🍂 En Gironde, la traque reprend, et un nom fait rêver tous les cueilleurs : le cèpe de Bordeaux. Vous avez déjà vos coins secrets ou vous partez à l’aventure ?\n@villedebordeaux @visitbordeaux @departementgironde",
-          "image": null,
-          "mode": "lien",
-          "reponse": null,
-          "sujet": "Bordeaux",
-          "publieLe": "2026-09-30T06:29:07.418Z"
-        },
-        "facebook": {
-          "texte": "Un panier, un sous-bois encore humide de pluie et, peut-être, un cèpe de Bordeaux caché sous les feuilles 🧺",
-          "image": null,
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-30T07:27:48.941Z"
-        },
-        "x": {
-          "texte": "#Bordeaux et la Gironde se remettent à fouiller les sous-bois : avec les premières pluies d’automne, 🍄 la chasse au fameux cèpe de Bordeaux reprend.\n➡️ https://passion-aquitaine.ouest-france.fr/champignons-pluies-automne-bordeaux/",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260930-376822fc-x.jpg",
-          "mode": "lien",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-30T08:20:58.932Z"
-        },
-        "instagram": {
-          "texte": "Le cèpe porte le nom de Bordeaux, et c’est avec les premières pluies d’automne que sa traque reprend 🍄\n⠀\nEn Gironde, les amateurs de champignons ressortent paniers et couteaux. La saison de cueillette démarre, et le fameux cèpe de Bordeaux reste la prise la plus convoitée.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #Champignons #Automne",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20260930-376822fc-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-09-30T11:05:12.329Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "threads",
+      "at": "2026-10-05T06:18:18.323Z",
+      "titre": "Ce week-end à Bègles, Cerrone et Morcheeba montent sur scène",
+      "lien": "https://passion-aquitaine.ouest-france.fr/green-paradize-festival-begles-2026/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/DeGisFzEfEG",
+      "format": "reponse",
+      "texte": "Un an à peine après sa création, le Green Paradize Festival revient déjà à Bègles 🎧 Au programme ce week-end : Cerrone, Morcheeba et Purple Disco Machine. De quoi réunir plusieurs générations de fans de musique. Vous êtes plutôt disco des origines ou disco revisité ?\n@villedebegles @francemusique @departementgironde",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261005-0255fe27-th.jpg"
+    },
+    {
+      "channel": "instagram",
+      "at": "2026-10-05T06:11:34.862Z",
+      "titre": "Ce week-end à Bègles, Cerrone et Morcheeba montent sur scène",
+      "lien": "https://passion-aquitaine.ouest-france.fr/green-paradize-festival-begles-2026/",
+      "lienPost": "https://www.instagram.com/p/DeGiRXdloQk/",
+      "format": null,
+      "texte": "Le Green Paradize Festival n’a qu’un an, et il s’offre déjà 🪩 Cerrone en tête d’affiche\n⠀\nÀ Bègles, aux portes de Bordeaux, le jeune festival revient ce week-end. Purple Disco Machine et Morcheeba complètent une affiche taillée pour danser.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bègles #GreenParadizeFestival #Musique",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261005-0255fe27-1.jpg"
+    },
+    {
+      "channel": "bluesky",
+      "at": "2026-10-05T06:06:35.383Z",
+      "titre": "Ce week-end à Bègles, Cerrone et Morcheeba montent sur scène",
+      "lien": "https://passion-aquitaine.ouest-france.fr/green-paradize-festival-begles-2026/",
+      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mx4armjgsh2x",
+      "format": "reply",
+      "texte": "🎤 Jusqu’où peut aller un festival né il y a à peine un an ? À #Bègles, le Green Paradize Festival revient déjà, avec Cerrone et Purple Disco Machine en têtes d’affiche ce week-end.\n@francemusique.fr @departementgironde.bsky.social",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261005-0255fe27-bsky.jpg"
+    },
+    {
+      "channel": "facebook",
+      "at": "2026-10-05T06:03:15.421Z",
+      "titre": "Ce week-end à Bègles, Cerrone et Morcheeba montent sur scène",
+      "lien": "https://passion-aquitaine.ouest-france.fr/green-paradize-festival-begles-2026/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1742010854591462",
+      "format": null,
+      "texte": "Imaginez Bègles transformée en grande piste de danse, avec Cerrone et Purple Disco Machine sur scène ce week-end 🎶",
+      "image": null
+    },
+    {
+      "channel": "x",
+      "at": "2026-10-05T06:00:46.273Z",
+      "titre": "Ce week-end à Bègles, Cerrone et Morcheeba montent sur scène",
+      "lien": "https://passion-aquitaine.ouest-france.fr/green-paradize-festival-begles-2026/",
+      "lienPost": null,
+      "format": "reponse",
+      "texte": "À #Bègles, le Green Paradize Festival n’a qu’un an et frappe fort : 🕺 Cerrone, Morcheeba et Purple Disco Machine sont attendus sur scène ce week-end.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261005-0255fe27-x.jpg"
+    },
     {
       "channel": "instagram",
       "at": "2026-10-04T11:29:33.669Z",
@@ -507,105 +557,9 @@
       "format": "reponse",
       "texte": "Un château basque peut-il aussi être un lieu de science ? À Hendaye, la réponse est oui 🔭 Le château d’Abbadia abrite un observatoire astronomique voulu par l’explorateur Antoine d’Abbadie, et il a fonctionné jusqu’en 1975. Vous imaginiez qu’on observait encore le ciel depuis ce château il y a cinquante ans ?\n@fondationdupatrimoine @paysbasque_net",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261004-fbd02dce-th.jpg"
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-10-03T18:06:33.712Z",
-      "titre": "La Rochelle : cette usine fabrique des mâts de 22 mètres grâce à ses cuves uniques",
-      "lien": "https://passion-aquitaine.ouest-france.fr/usine-sparcraft-sainte-soulle-mats-22-metres/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1740494128076468",
-      "format": null,
-      "texte": "Pour traiter des mâts de bateau de 22 mètres, il faut des cuves hors normes, et c’est à Sainte-Soulle qu’elles se trouvent 🛥️",
-      "image": null
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-10-03T17:27:55.952Z",
-      "titre": "La Rochelle : cette usine fabrique des mâts de 22 mètres grâce à ses cuves uniques",
-      "lien": "https://passion-aquitaine.ouest-france.fr/usine-sparcraft-sainte-soulle-mats-22-metres/",
-      "lienPost": "https://www.instagram.com/p/DeCmFQoDYvj/",
-      "format": null,
-      "texte": "⛵ Des mâts de bateau de 22 mètres sortent d’une usine près de La Rochelle\n⠀\nÀ Sainte-Soulle, la nouvelle usine Sparcraft fabrique et traite ces géants grâce à des cuves uniques. Une filière nautique bien ancrée en Charente-Maritime.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#LaRochelle #Nautisme #Voile",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261003-78debb7f-1.jpg"
-    },
-    {
-      "channel": "x",
-      "at": "2026-10-03T10:20:53.803Z",
-      "titre": "La Rochelle : cette usine fabrique des mâts de 22 mètres grâce à ses cuves uniques",
-      "lien": "https://passion-aquitaine.ouest-france.fr/usine-sparcraft-sainte-soulle-mats-22-metres/",
-      "lienPost": null,
-      "format": "reponse",
-      "texte": "⛵ Où traite-t-on un mât de bateau de 22 mètres ? Dans les cuves uniques de la nouvelle usine Sparcraft, à Sainte-Soulle, près de La Rochelle.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261003-78debb7f-x.jpg"
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-10-03T10:14:33.238Z",
-      "titre": "Les Deux-Sèvres, département le plus fécond de toute la région",
-      "lien": "https://passion-aquitaine.ouest-france.fr/deux-sevres-departement-plus-fecond-region/",
-      "lienPost": "https://www.instagram.com/p/DeB0esZjo1X/",
-      "format": null,
-      "texte": "Deux-Sèvres : c’est ici que naissent le plus de bébés en Nouvelle-Aquitaine 👶\n⠀\nL’Insee place le département en tête de la région pour l’indice de fécondité. Il fait même mieux que la moyenne nationale.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#DeuxSèvres #NouvelleAquitaine #Démographie",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261003-536318f0-1.jpg"
-    },
-    {
-      "channel": "bluesky",
-      "at": "2026-10-03T10:07:36.175Z",
-      "titre": "La Rochelle : cette usine fabrique des mâts de 22 mètres grâce à ses cuves uniques",
-      "lien": "https://passion-aquitaine.ouest-france.fr/usine-sparcraft-sainte-soulle-mats-22-metres/",
-      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mwxncql2y42p",
-      "format": "reply",
-      "texte": "Près de La Rochelle, la nouvelle usine Sparcraft de Sainte-Soulle ne se contente pas de fabriquer des mâts de bateau : ⚓ elle les traite aussi, dans des cuves uniques capables d’accueillir des pièces de 22 mètres. #LaRochelle",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261003-78debb7f-bsky.jpg"
     }
   ],
-  "file": [
-    {
-      "channel": "x",
-      "dueAt": "2026-10-05T06:00:00.000Z",
-      "prochainPassage": "2026-10-05T06:00:00.000Z",
-      "nature": "actu_chaude",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Ce week-end à Bègles, Cerrone et Morcheeba montent sur scène"
-    },
-    {
-      "channel": "facebook",
-      "dueAt": "2026-10-05T06:03:05.772Z",
-      "prochainPassage": "2026-10-05T06:20:00.000Z",
-      "nature": "actu_chaude",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Ce week-end à Bègles, Cerrone et Morcheeba montent sur scène"
-    },
-    {
-      "channel": "bluesky",
-      "dueAt": "2026-10-05T06:06:33.285Z",
-      "prochainPassage": "2026-10-05T06:20:00.000Z",
-      "nature": "actu_chaude",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Ce week-end à Bègles, Cerrone et Morcheeba montent sur scène"
-    },
-    {
-      "channel": "instagram",
-      "dueAt": "2026-10-05T06:11:08.904Z",
-      "prochainPassage": "2026-10-05T06:20:00.000Z",
-      "nature": "actu_chaude",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Ce week-end à Bègles, Cerrone et Morcheeba montent sur scène"
-    },
-    {
-      "channel": "threads",
-      "dueAt": "2026-10-05T06:14:58.965Z",
-      "prochainPassage": "2026-10-05T06:20:00.000Z",
-      "nature": "actu_chaude",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Ce week-end à Bègles, Cerrone et Morcheeba montent sur scène"
-    }
-  ],
+  "file": [],
   "alertes": [],
   "mesures": {
     "releves": 180,
@@ -726,7 +680,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-05T05:56:10.490Z",
+    "genereLe": "2026-10-05T06:18:28.377Z",
     "posts": 16,
     "parReseau": {
       "instagram": {
@@ -868,11 +822,11 @@
       }
     },
     "publies": {
-      "threads": 5,
-      "facebook": 5,
-      "bluesky": 5,
-      "x": 5,
-      "instagram": 5
+      "threads": 6,
+      "facebook": 6,
+      "bluesky": 6,
+      "x": 6,
+      "instagram": 6
     },
     "abonnes": {
       "instagram": {

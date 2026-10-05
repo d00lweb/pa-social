@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-05T11:20:47.582Z",
+  "genereLe": "2026-10-05T12:00:45.732Z",
   "jour": "2026-10-05",
   "reseaux": {
     "instagram": {
@@ -562,7 +562,7 @@
   "file": [],
   "alertes": [],
   "mesures": {
-    "releves": 187,
+    "releves": 188,
     "parReseau": {
       "instagram": {
         "posts": 23,
@@ -680,12 +680,12 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-05T11:21:03.343Z",
-    "posts": 19,
+    "genereLe": "2026-10-05T12:00:52.500Z",
+    "posts": 20,
     "parReseau": {
       "instagram": {
-        "posts": 4,
-        "moyenne": 13.8
+        "posts": 5,
+        "moyenne": 17
       },
       "threads": {
         "posts": 5,
@@ -719,13 +719,13 @@
       }
     },
     "parCreneau": {
+      "après-midi": {
+        "posts": 5,
+        "moyenne": 12.4
+      },
       "soir": {
         "posts": 2,
         "moyenne": 12
-      },
-      "après-midi": {
-        "posts": 4,
-        "moyenne": 8
       },
       "matin": {
         "posts": 13,
@@ -769,25 +769,25 @@
           "moyenne": 24
         },
         "12 h – 13 h 30": {
-          "posts": 3,
-          "moyenne": 10.3
+          "posts": 4,
+          "moyenne": 15.3
         }
       }
     },
-    "interactionsTotal": 66,
+    "interactionsTotal": 96,
     "meilleur": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35363",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35474",
       "channel": "instagram",
-      "mediaId": "18095708000406209",
-      "publieLe": "2026-10-03T10:14:33.238Z",
+      "mediaId": "18075420143454805",
+      "publieLe": "2026-10-04T11:29:33.669Z",
       "jalon": 1,
-      "releveLe": "2026-10-04T10:20:43.317Z",
-      "likes": 2,
-      "commentaires": 25,
+      "releveLe": "2026-10-05T12:00:45.732Z",
+      "likes": 4,
+      "commentaires": 26,
       "partages": null,
       "vues": null,
-      "titre": "Les Deux-Sèvres, département le plus fécond de toute la région",
-      "lien": "https://www.instagram.com/p/DeB0esZjo1X/",
+      "titre": "À Hendaye, un château cache un observatoire actif jusqu’en 1975",
+      "lien": "https://www.instagram.com/p/DeEh3MYjNDP/",
       "format": null,
       "mention": true,
       "creneau": "après-midi",
@@ -813,8 +813,8 @@
     },
     "mentions": {
       "avec": {
-        "posts": 12,
-        "moyenne": 5.3
+        "posts": 13,
+        "moyenne": 7.2
       },
       "sans": {
         "posts": 7,
@@ -864,14 +864,14 @@
       "x": null
     },
     "engagement": {
-      "instagram": 0.14,
+      "instagram": 0.17,
       "threads": 0.1,
       "facebook": 0
     },
     "conseils": [
       "Le format « reponse » fait 15 fois mieux que « image » (1.5 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « image » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+2, +0,2 %) ; Facebook recule (−7), à surveiller.",
-      "Les posts avec mention font 5 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
+      "Les posts avec mention font 6.9 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
     ]
   },
   "couts": {

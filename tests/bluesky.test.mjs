@@ -54,3 +54,32 @@ test('texte : lien ajouté seulement en mode image', () => {
   assert.equal(postText(dossier, 'card'), 'À #Bordeaux, le matrimoine revient 🎭');
   assert.equal(postText(dossier, 'image'), `À #Bordeaux, le matrimoine revient 🎭\n➡️ ${LINK_LABEL}`);
 });
+
+test('hashtags : le territoire et le thème en plus du lieu, jamais en double', async () => {
+  const { hashtagsBluesky } = await import('../src/brain/compose.mjs');
+  // Hendaye, 04/10/2026 : la commune est déjà en hashtag dans le texte
+  const hendaye = { rubrique: 'Pays basque', commune: 'Hendaye', domaines: ['astronomie', 'patrimoine'], lieuSource: { departement: 'Pyrénées-Atlantiques' } };
+  assert.deepEqual(hashtagsBluesky(hendaye, 'À #Hendaye, un château cache un observatoire'), ['#PaysBasque', '#Astronomie']);
+  // rubrique = la commune : le département prend la place du territoire
+  const poitiers = { rubrique: 'Poitiers', commune: 'Poitiers', domaines: ['patrimoine'], lieuSource: { departement: 'Vienne' } };
+  assert.deepEqual(hashtagsBluesky(poitiers, 'À #Poitiers, une tombe…'), ['#Vienne', '#Patrimoine']);
+  // territoire déjà écrit dans le texte : on passe au département, jamais de doublon
+  const rochelle = { rubrique: 'La Rochelle', commune: 'Sainte-Soulle', domaines: ['nautisme'], lieuSource: { departement: 'Charente-Maritime' } };
+  assert.deepEqual(hashtagsBluesky(rochelle, 'Près de #LaRochelle, une usine…'), ['#CharenteMaritime', '#Nautisme']);
+  // rubrique thématique : elle sert de thème
+  assert.deepEqual(hashtagsBluesky({ rubrique: 'Patrimoine', commune: 'Pau', lieuSource: { departement: 'Pyrénées-Atlantiques' } }, '#Pau'), ['#PyreneesAtlantiques', '#Patrimoine']);
+  assert.deepEqual(hashtagsBluesky({}, ''), []);
+});
+
+test('hashtags : jamais au-delà de 300 signes, le texte passe avant', async () => {
+  const { avecHashtags } = await import('../src/channels/bluesky.mjs');
+  const court = 'Un château cache un observatoire 🔭';
+  assert.equal(avecHashtags(court, ['#PaysBasque', '#Astronomie']), `${court}\n#PaysBasque #Astronomie`);
+  const long = 'x'.repeat(280); // 280 + 1 + 23 = 304 : les deux ne tiennent pas, le premier oui (292)
+  assert.equal(avecHashtags(long, ['#PaysBasque', '#Astronomie']), `${long}\n#PaysBasque`, 'le second ne tient pas : le premier seul');
+  assert.equal(avecHashtags('x'.repeat(295), ['#PaysBasque']), 'x'.repeat(295), 'rien ne tient : aucun');
+  const suffixe = '\n➡️ Lire l’article';
+  // 275 + 12 + 17 (libellé du lien) = 304 : ne tient pas
+  assert.equal(avecHashtags('x'.repeat(275), ['#PaysBasque'], suffixe), 'x'.repeat(275), 'le libellé du lien compte aussi');
+  assert.equal(avecHashtags(court, []), court);
+});

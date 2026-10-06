@@ -2,7 +2,7 @@ import { writeFile, mkdir } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import sharp from 'sharp';
 import { splitAround, frenchTypography } from '../brain/editorial.mjs';
-import { composeBluesky, linkLead } from '../brain/compose.mjs';
+import { composeBluesky, hashtagsBluesky, linkLead } from '../brain/compose.mjs';
 import { placerMentions } from '../brain/annuaire.mjs';
 import { resoudreHandle } from '../sources/bsky-public.mjs';
 import { loadSource, cropTo, X_FORMAT, SLIDE } from '../media/crop.mjs';
@@ -78,6 +78,16 @@ async function underLimit(input, [width, height]) {
   throw new Error('image Bluesky au-delà de 950 Ko');
 }
 
+// Hashtags de territoire et de thème, sur une ligne après les mentions, s'il reste de la place : les
+// deux, sinon le premier, sinon aucun. Le texte et les mentions passent toujours avant.
+export function avecHashtags(texte, tags, suffixe = '') {
+  for (const choisis of [tags, tags.slice(0, 1)]) {
+    const ligne = choisis.join(' ');
+    if (ligne && graphemes(`${texte}\n${ligne}${suffixe}`) <= MAX_GRAPHEMES) return `${texte}\n${ligne}`;
+  }
+  return texte;
+}
+
 export async function prepare(article, { dossier, renderer: shared, log = console.log } = {}) {
   if (!article.image) throw new GuardError(article, ['aucune image (enclosure) dans le flux']);
   const mode = modeFor(article.guid);
@@ -90,7 +100,7 @@ export async function prepare(article, { dossier, renderer: shared, log = consol
   const { texte, places } = placerMentions(composeBluesky(dossier), dossier.comptes?.bluesky ?? [], {
     tient: (t) => graphemes(t + suffixe) <= MAX_GRAPHEMES,
   });
-  const text = texte + suffixe;
+  const text = avecHashtags(texte, hashtagsBluesky(dossier, texte), suffixe) + suffixe;
   if (places.length) log(`   Mentions : ${places.map((c) => `@${c.handle}`).join(' ')}`);
   if (graphemes(text) > MAX_GRAPHEMES) throw new GuardError(article, [`texte Bluesky trop long : ${graphemes(text)} / ${MAX_GRAPHEMES}`]);
 

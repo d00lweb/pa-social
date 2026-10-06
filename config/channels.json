@@ -118,9 +118,8 @@
       ],
       "validation": false,
       "maxPerDay": 3,
+      "_formats": "Lien en réponse seulement, décidé le 06/10/2026 sur 26 posts mesurés : en médiane, 398 vues pour l'image avec le lien en réponse, 214 pour la carte de lien, 86 pour l'image avec le lien dans le texte. Meta pénalise les liens dans le post.",
       "formats": [
-        "image",
-        "lien",
         "reponse"
       ],
       "_creneaux": "Buffer (2,5 M de posts Threads, 2026) : les matinées de semaine dominent (6 h – 11 h, jeudi 9 h en tête) et les soirées (18 h – 23 h) sous-performent tous les jours — l'audience est faite d'actifs qui lisent en se rendant au travail ou au café. Trois créneaux entre 7 h et 14 h 30.",
@@ -153,9 +152,8 @@
       "validation": false,
       "manual": true,
       "maxPerDay": 3,
+      "_formats": "Lien en réponse seulement, décidé le 06/10/2026 : X réduit la portée des posts qui contiennent un lien, et le même choix a fait ses preuves sur Threads. Pas de mesure sur X (publication à la main).",
       "formats": [
-        "image",
-        "lien",
         "reponse"
       ],
       "hideOuestFrance": false,

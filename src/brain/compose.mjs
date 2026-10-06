@@ -41,6 +41,33 @@ export const composeBluesky = (dossier) => {
   return avecCommune(bluesky.texte, dossier) ?? inlineTag(bluesky.texte, bluesky.hashtag) ?? `${bluesky.texte} ${bluesky.hashtag}`;
 };
 
+// Bluesky : jusqu'à deux hashtags de plus que celui du lieu, sur une ligne à part — le territoire
+// (Pays basque, département) et le thème (patrimoine, festival…). Sur Bluesky, les fils
+// thématiques et la recherche se nourrissent des hashtags : avec quelques abonnés seulement,
+// c'est le moyen d'être vu au-delà d'eux. Jamais un hashtag déjà présent dans le texte.
+const THEMES_RUBRIQUES = new Set(ed.themes.map((t) => fold(t.rubrique)));
+export function hashtagsBluesky(dossier, texte = '') {
+  const presents = new Set([...String(texte).matchAll(/#([\p{L}\p{N}]+)/gu)].map((m) => fold(m[1])));
+  const rubriqueLieu = dossier?.rubrique && !THEMES_RUBRIQUES.has(fold(dossier.rubrique)) ? dossier.rubrique : null;
+  const rubriqueTheme = dossier?.rubrique && THEMES_RUBRIQUES.has(fold(dossier.rubrique)) ? dossier.rubrique : null;
+  const commune = fold(dossier?.commune ?? '');
+  const tags = [];
+  // un candidat par rôle, le premier qui ne fait pas doublon : territoire, puis thème
+  for (const candidats of [
+    [rubriqueLieu, dossier?.lieuSource?.departement, dossier?.lieu?.departement],
+    [rubriqueTheme, ...(dossier?.domaines ?? []).slice(0, 2)],
+  ]) {
+    for (const valeur of candidats) {
+      const tag = valeur ? hashtagCommune(valeur) : null;
+      const cle = tag ? fold(tag.slice(1)) : null;
+      if (!tag || tag.length < 4 || cle === commune || presents.has(cle) || tags.some((t) => fold(t.slice(1)) === cle)) continue;
+      tags.push(tag);
+      break;
+    }
+  }
+  return tags;
+}
+
 // X : hashtag de lieu seulement s'il figure déjà dans le texte (jamais ajouté), puis « ➡️ lien » à la ligne
 export const composeXText = (dossier) => avecCommune(dossier.x.texte, dossier) ?? inlineTag(dossier.x.texte, dossier.bluesky?.hashtag) ?? dossier.x.texte;
 export const composeX = (dossier, link) => `${composeXText(dossier)}\n➡️ ${link}`;

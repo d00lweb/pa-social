@@ -13,16 +13,20 @@ test('Threads : inactif tant que le jeton manque, 3 posts par jour', () => {
   assert.deepEqual(th.requiresEnv, ['THREADS_USER_ID', 'THREADS_TOKEN']);
   assert.equal(th.maxPerDay, 3, 'même rythme que Bluesky et le kit X');
   assert.equal(th.validation, false);
-  assert.deepEqual(th.formats, ['image', 'lien', 'reponse']);
+  // 06/10/2026 : lien en réponse seulement (médiane 398 vues, contre 214 et 86 pour les deux autres)
+  assert.deepEqual(th.formats, ['reponse']);
 });
 
-test('Threads : les 3 formats se répartissent équitablement et restent stables par article', () => {
-  const modes = Array.from({ length: 600 }, (_, i) => modeFor(`https://site.fr/?p=${i}`));
-  for (const f of FORMATS) {
+test('Threads : une rotation de formats se répartit équitablement et reste stable par article', () => {
+  const trois = ['image', 'lien', 'reponse'];
+  const modes = Array.from({ length: 600 }, (_, i) => modeFor(`https://site.fr/?p=${i}`, trois));
+  for (const f of trois) {
     const n = modes.filter((m) => m === f).length;
     assert.ok(n > 140 && n < 260, `${f} : ${n}`);
   }
-  assert.equal(modeFor('https://site.fr/?p=7'), modeFor('https://site.fr/?p=7'));
+  assert.equal(modeFor('https://site.fr/?p=7', trois), modeFor('https://site.fr/?p=7', trois));
+  // réglage actuel : tous les articles partent avec le lien en réponse
+  assert.ok(Array.from({ length: 50 }, (_, i) => modeFor(`https://site.fr/?p=${i}`)).every((m) => m === 'reponse'));
 });
 
 test('Threads : le lien n’est dans le texte que pour le format image', () => {

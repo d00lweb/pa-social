@@ -55,31 +55,44 @@ test('texte : lien ajouté seulement en mode image', () => {
   assert.equal(postText(dossier, 'image'), `À #Bordeaux, le matrimoine revient 🎭\n➡️ ${LINK_LABEL}`);
 });
 
-test('hashtags : le territoire et le thème en plus du lieu, jamais en double', async () => {
-  const { hashtagsBluesky } = await import('../src/brain/compose.mjs');
-  // Hendaye, 04/10/2026 : la commune est déjà en hashtag dans le texte
-  const hendaye = { rubrique: 'Pays basque', commune: 'Hendaye', domaines: ['astronomie', 'patrimoine'], lieuSource: { departement: 'Pyrénées-Atlantiques' } };
-  assert.deepEqual(hashtagsBluesky(hendaye, 'À #Hendaye, un château cache un observatoire'), ['#PaysBasque', '#Astronomie']);
-  // rubrique = la commune : le département prend la place du territoire
-  const poitiers = { rubrique: 'Poitiers', commune: 'Poitiers', domaines: ['patrimoine'], lieuSource: { departement: 'Vienne' } };
-  assert.deepEqual(hashtagsBluesky(poitiers, 'À #Poitiers, une tombe…'), ['#Vienne', '#Patrimoine']);
-  // territoire déjà écrit dans le texte : on passe au département, jamais de doublon
-  const rochelle = { rubrique: 'La Rochelle', commune: 'Sainte-Soulle', domaines: ['nautisme'], lieuSource: { departement: 'Charente-Maritime' } };
-  assert.deepEqual(hashtagsBluesky(rochelle, 'Près de #LaRochelle, une usine…'), ['#CharenteMaritime', '#Nautisme']);
-  // rubrique thématique : elle sert de thème
-  assert.deepEqual(hashtagsBluesky({ rubrique: 'Patrimoine', commune: 'Pau', lieuSource: { departement: 'Pyrénées-Atlantiques' } }, '#Pau'), ['#PyreneesAtlantiques', '#Patrimoine']);
-  assert.deepEqual(hashtagsBluesky({}, ''), []);
+// 06/10/2026 : deux ou trois hashtags au plus, posés sur les mots du texte — jamais une ligne de
+// hashtags en plus (choix de l'équipe). Textes réels des dossiers de fin septembre - début octobre.
+test('hashtags dans le texte : le lieu, le territoire, le thème, trois au plus', async () => {
+  const { composeBluesky } = await import('../src/brain/compose.mjs');
+  const d = (texte, extra) => ({ bluesky: { texte, hashtag: extra.hashtag }, ...extra });
+  assert.equal(
+    composeBluesky(d('🌧️ Pourquoi guetter la pluie cet automne autour de Bordeaux ? Parce que les premières averses relancent la traque aux champignons en Gironde.', { hashtag: '#Bordeaux', commune: 'Bordeaux', rubrique: 'Bordeaux', lieuSource: { departement: 'Gironde' }, domaines: ['mycologie', 'nature'] })),
+    '🌧️ Pourquoi guetter la pluie cet automne autour de #Bordeaux ? Parce que les premières averses relancent la traque aux champignons en #Gironde.',
+  );
+  // plusieurs mots s'assemblent, sans accents
+  assert.equal(
+    composeBluesky(d('En Nouvelle-Aquitaine, aucun département ne fait mieux que les Deux-Sèvres en matière de fécondité 📊', { hashtag: '#NouvelleAquitaine', rubrique: 'Deux-Sèvres', lieuSource: { departement: 'Deux-Sèvres' }, domaines: ['démographie'] })),
+    'En #NouvelleAquitaine, aucun département ne fait mieux que les #DeuxSevres en matière de fécondité 📊',
+  );
+  // le thème ensuite, sur le mot tel qu'écrit
+  assert.equal(
+    composeBluesky(d('🎤 Jusqu’où peut aller un festival né il y a à peine un an ? À Bègles, le Green Paradize Festival revient déjà.', { hashtag: '#Bègles', commune: 'Bègles', rubrique: 'Bordeaux', lieuSource: { departement: 'Gironde' }, domaines: ['festival', 'musique'] })),
+    '🎤 Jusqu’où peut aller un #festival né il y a à peine un an ? À #Bègles, le Green Paradize Festival revient déjà.',
+  );
+  // trois au plus, même quand le texte en offre davantage
+  const plein = composeBluesky(d('À Anglet, au Pays basque, dans les Pyrénées-Atlantiques, le patrimoine et le surf se rencontrent.', { hashtag: '#PaysBasque', commune: 'Anglet', rubrique: 'Pays basque', lieuSource: { departement: 'Pyrénées-Atlantiques' }, domaines: ['patrimoine', 'surf'] }));
+  assert.equal(plein, 'À #Anglet, au #PaysBasque, dans les #PyreneesAtlantiques, le patrimoine et le surf se rencontrent.');
+  assert.ok(!plein.includes('\n'), 'jamais de ligne en plus');
 });
 
-test('hashtags : jamais au-delà de 300 signes, le texte passe avant', async () => {
-  const { avecHashtags } = await import('../src/channels/bluesky.mjs');
-  const court = 'Un château cache un observatoire 🔭';
-  assert.equal(avecHashtags(court, ['#PaysBasque', '#Astronomie']), `${court}\n#PaysBasque #Astronomie`);
-  const long = 'x'.repeat(280); // 280 + 1 + 23 = 304 : les deux ne tiennent pas, le premier oui (292)
-  assert.equal(avecHashtags(long, ['#PaysBasque', '#Astronomie']), `${long}\n#PaysBasque`, 'le second ne tient pas : le premier seul');
-  assert.equal(avecHashtags('x'.repeat(295), ['#PaysBasque']), 'x'.repeat(295), 'rien ne tient : aucun');
-  const suffixe = '\n➡️ Lire l’article';
-  // 275 + 12 + 17 (libellé du lien) = 304 : ne tient pas
-  assert.equal(avecHashtags('x'.repeat(275), ['#PaysBasque'], suffixe), 'x'.repeat(275), 'le libellé du lien compte aussi');
-  assert.equal(avecHashtags(court, []), court);
+test('hashtags : jamais collés à une apostrophe ou à un tiret, ni dans un nom que la mention remplacera', async () => {
+  const { composeBluesky, taguerDansLeTexte } = await import('../src/brain/compose.mjs');
+  assert.equal(taguerDansLeTexte('Le piment d’Espelette sèche.', 'Espelette'), null, 'pas de « d’#Espelette »');
+  assert.equal(taguerDansLeTexte('En Haute-Vienne, la forêt.', 'Vienne'), null, 'pas de « Haute-#Vienne »');
+  assert.equal(taguerDansLeTexte('En Haute-Vienne, la forêt.', 'Haute-Vienne'), 'En #HauteVienne, la forêt.');
+  assert.equal(taguerDansLeTexte('À Périgueux, la cathédrale.', 'Périgueux'), 'À #Périgueux, la cathédrale.', 'l’orthographe du texte, jamais un #Perigueux inventé');
+  // 29/09/2026 : « Le #Hasparren Athletic Club » aurait empêché la mention du club sur Bluesky
+  const hasparren = {
+    bluesky: { texte: 'Le Hasparren Athletic Club forme ses joueurs : à Hasparren, on mise sur les jeunes.', hashtag: '#Hasparren' },
+    commune: 'Hasparren',
+    comptes: { bluesky: [{ nom: 'Hasparren Athletic Club', handle: 'hasparrenac.bsky.social' }] },
+  };
+  assert.equal(composeBluesky(hasparren), 'Le Hasparren Athletic Club forme ses joueurs : à #Hasparren, on mise sur les jeunes.');
+  // aucun mot ne s'y prête : le hashtag de lieu de l'IA ferme le texte, sur la même ligne
+  assert.equal(composeBluesky({ bluesky: { texte: 'Le piment sèche au soleil.', hashtag: '#PaysBasque' }, commune: 'Espelette' }), 'Le piment sèche au soleil. #PaysBasque');
 });

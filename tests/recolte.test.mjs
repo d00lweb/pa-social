@@ -65,11 +65,11 @@ test('la commune nommée devient le hashtag, à sa place dans le texte', () => {
 test('jamais de hashtag de commune inventé ou illisible : la rubrique reprend la main', () => {
   assert.equal(composeBluesky(dossier('Le piment sèche au soleil.', { commune: 'Espelette' })), 'Le piment sèche au soleil. #PaysBasque', 'absente du texte : pas ajoutée');
   assert.equal(composeBluesky(dossier('Le piment d’Espelette sèche.', { commune: 'Espelette' })), 'Le piment d’Espelette sèche. #PaysBasque', 'pas de « d’#Espelette »');
-  assert.equal(composeBluesky(dossier('À Périgueux, la cathédrale.', { commune: 'Périgueux' })), 'À Périgueux, la cathédrale. #PaysBasque', 'pas de #Perigueux inventé');
+  assert.equal(composeBluesky(dossier('À Périgueux, la cathédrale.', { commune: 'Périgueux' })), 'À #Périgueux, la cathédrale.', 'le mot du texte, avec son accent : jamais un #Perigueux inventé');
 });
 
-test('sans commune, le comportement historique est inchangé', () => {
-  assert.equal(composeBluesky(dossier('Au Pays basque, le piment sèche.')), 'Au Pays basque, le piment sèche. #PaysBasque');
+test('sans commune, le lieu de l’IA se pose dans le texte', () => {
+  assert.equal(composeBluesky(dossier('Au Pays basque, le piment sèche.')), 'Au #PaysBasque, le piment sèche.');
 });
 
 // Martell, Château de La Dauphine et Bouillon & Bodega de Mérignac : tagués sur de vrais posts

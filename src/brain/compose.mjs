@@ -34,38 +34,77 @@ function avecCommune(texte, dossier) {
   return resultat && !/['’]#/.test(resultat) ? resultat : null;
 }
 
-// Bluesky : hashtag de la commune s'il se place dans le texte, sinon celui du lieu de la rubrique
-// dans le texte s'il y figure, sinon ajouté à la fin
-export const composeBluesky = (dossier) => {
-  const { bluesky } = dossier;
-  return avecCommune(bluesky.texte, dossier) ?? inlineTag(bluesky.texte, bluesky.hashtag) ?? `${bluesky.texte} ${bluesky.hashtag}`;
-};
-
-// Bluesky : jusqu'à deux hashtags de plus que celui du lieu, sur une ligne à part — le territoire
-// (Pays basque, département) et le thème (patrimoine, festival…). Sur Bluesky, les fils
-// thématiques et la recherche se nourrissent des hashtags : avec quelques abonnés seulement,
-// c'est le moyen d'être vu au-delà d'eux. Jamais un hashtag déjà présent dans le texte.
+// Bluesky : trois hashtags au plus, tous posés sur des mots du texte — jamais une ligne de hashtags
+// en plus (choix de l'équipe, 06/10/2026). Le lieu d'abord : la commune, puis le territoire
+// (« au Pays basque » → « au #PaysBasque ») et le département ; le thème ensuite (« le patrimoine »
+// → « le #patrimoine »). Sur Bluesky, les fils thématiques et la recherche se nourrissent des
+// hashtags : c'est le moyen d'être vu au-delà de ses abonnés. Si aucun mot ne s'y prête, le hashtag
+// de lieu de l'IA ferme le texte, comme avant.
+export const MAX_HASHTAGS_BLUESKY = 3;
 const THEMES_RUBRIQUES = new Set(ed.themes.map((t) => fold(t.rubrique)));
-export function hashtagsBluesky(dossier, texte = '') {
-  const presents = new Set([...String(texte).matchAll(/#([\p{L}\p{N}]+)/gu)].map((m) => fold(m[1])));
-  const rubriqueLieu = dossier?.rubrique && !THEMES_RUBRIQUES.has(fold(dossier.rubrique)) ? dossier.rubrique : null;
-  const rubriqueTheme = dossier?.rubrique && THEMES_RUBRIQUES.has(fold(dossier.rubrique)) ? dossier.rubrique : null;
-  const commune = fold(dossier?.commune ?? '');
-  const tags = [];
-  // un candidat par rôle, le premier qui ne fait pas doublon : territoire, puis thème
-  for (const candidats of [
-    [rubriqueLieu, dossier?.lieuSource?.departement, dossier?.lieu?.departement],
-    [rubriqueTheme, ...(dossier?.domaines ?? []).slice(0, 2)],
-  ]) {
-    for (const valeur of candidats) {
-      const tag = valeur ? hashtagCommune(valeur) : null;
-      const cle = tag ? fold(tag.slice(1)) : null;
-      if (!tag || tag.length < 4 || cle === commune || presents.has(cle) || tags.some((t) => fold(t.slice(1)) === cle)) continue;
-      tags.push(tag);
-      break;
-    }
+const motsDe = (s) => fold(s).split(/[^\p{L}\p{N}]+/u).filter(Boolean);
+export const nombreHashtags = (t) => (String(t ?? '').match(/(^|[^\p{L}\p{N}_#@/])#[\p{L}\p{N}_]+/gu) ?? []).length;
+
+// Les valeurs à chercher dans le texte, dans l'ordre : la commune, le lieu choisi par l'IA
+// (« #PaysBasque » se lit « Pays Basque »), la rubrique de lieu, le département, puis le thème.
+function candidatsHashtags(dossier) {
+  const rubrique = dossier?.rubrique ?? '';
+  const theme = THEMES_RUBRIQUES.has(fold(rubrique));
+  const deCamel = (tag) => String(tag ?? '').replace(/^#/, '').replace(/(\p{Ll})(\p{Lu})/gu, '$1 $2');
+  const valeurs = [
+    dossier?.commune, deCamel(dossier?.bluesky?.hashtag), theme ? null : rubrique,
+    dossier?.lieuSource?.departement, dossier?.lieu?.departement,
+    theme ? rubrique : null, ...(dossier?.domaines ?? []).slice(0, 3),
+  ];
+  const vus = new Set();
+  return valeurs.filter((v) => {
+    const cle = motsDe(v).join(' ');
+    if (cle.length < 3 || vus.has(cle)) return false;
+    vus.add(cle);
+    return true;
+  });
+}
+
+// Pose un hashtag sur la première occurrence de `valeur` dans le texte, telle qu'elle y est écrite
+// (à la casse et aux accents près, mots séparés par une espace ou un tiret). Jamais sur un mot collé
+// à une apostrophe (« d'#Espelette » est illisible) ou à un tiret (« Haute-#Vienne »), ni déjà en
+// hashtag ou en mention, ni dans un nom protégé — celui d'une entité que la mention remplacera.
+// Un mot garde son orthographe (« #Périgueux », jamais un « #Perigueux » inventé) ; plusieurs mots
+// s'assemblent, sans accents (« #PaysBasque », « #CharenteMaritime »). null si rien ne s'y prête.
+export function taguerDansLeTexte(texte, valeur, { proteges = [] } = {}) {
+  const t = String(texte ?? '');
+  const cibles = motsDe(valeur);
+  if (!cibles.length) return null;
+  const jetons = [...t.matchAll(/[\p{L}\p{N}]+/gu)].map((m) => ({ debut: m.index, fin: m.index + m[0].length, cle: fold(m[0]) }));
+  const lie = (i, k) => k === 0 || /^[\s  -]+$/u.test(t.slice(jetons[i + k - 1].fin, jetons[i + k].debut));
+  const trouve = (mots, i) => i + mots.length <= jetons.length && mots.every((m, k) => jetons[i + k].cle === m && lie(i, k));
+  const interdits = new Set();
+  for (const nom of proteges) {
+    const mots = motsDe(nom);
+    for (let i = 0; mots.length && i < jetons.length; i++) if (trouve(mots, i)) mots.forEach((_, k) => interdits.add(i + k));
   }
-  return tags;
+  for (let i = 0; i < jetons.length; i++) {
+    if (!trouve(cibles, i) || cibles.some((_, k) => interdits.has(i + k))) continue;
+    const debut = jetons[i].debut;
+    const fin = jetons[i + cibles.length - 1].fin;
+    if (/[#@'’\p{L}\p{N}_./-]$/u.test(t.slice(0, debut)) || /^[\p{L}\p{N}_'’-]/u.test(t.slice(fin))) continue;
+    const ecrit = t.slice(debut, fin);
+    return t.slice(0, debut) + (cibles.length === 1 ? `#${ecrit}` : hashtagCommune(ecrit)) + t.slice(fin);
+  }
+  return null;
+}
+
+export function composeBluesky(dossier, { max = MAX_HASHTAGS_BLUESKY } = {}) {
+  const { bluesky } = dossier;
+  // Les noms que la mention remplacera ne reçoivent pas de hashtag : « Le #Hasparren Athletic Club »
+  // (29/09/2026) aurait empêché la mention du club s'il avait eu un compte Bluesky.
+  const proteges = (dossier.comptes?.bluesky ?? []).filter((c) => !c.thematique).map((c) => c.nom).filter(Boolean);
+  let t = bluesky.texte;
+  for (const valeur of candidatsHashtags(dossier)) {
+    if (nombreHashtags(t) >= max) break;
+    t = taguerDansLeTexte(t, valeur, { proteges }) ?? t;
+  }
+  return nombreHashtags(t) || !bluesky.hashtag ? t : `${t} ${bluesky.hashtag}`;
 }
 
 // X : hashtag de lieu seulement s'il figure déjà dans le texte (jamais ajouté), puis « ➡️ lien » à la ligne

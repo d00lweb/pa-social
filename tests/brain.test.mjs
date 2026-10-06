@@ -92,7 +92,7 @@ test('composition : hashtag Bluesky dans le texte, lien X à la suite, commentai
   assert.equal(composeBluesky(d), 'À #Bordeaux, le matrimoine revient.');
   d.bluesky.hashtag = '#PaysBasque';
   d.bluesky.texte = 'Au Pays basque, un centre soigne les animaux.';
-  assert.equal(composeBluesky(d), 'Au Pays basque, un centre soigne les animaux. #PaysBasque');
+  assert.equal(composeBluesky(d), 'Au #PaysBasque, un centre soigne les animaux.', 'plusieurs mots s’assemblent dans le texte');
   assert.equal(composeX(d, 'https://x.fr/a'), `${d.x.texte}\n➡️ https://x.fr/a`);
   d.bluesky.hashtag = '#Bordeaux';
   assert.equal(composeX(d, 'https://x.fr/a'), 'Matrimoine : le mot oublié que #Bordeaux remet à l’honneur 🎭\n➡️ https://x.fr/a');

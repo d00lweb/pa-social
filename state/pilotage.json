@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-06T10:20:41.108Z",
+  "genereLe": "2026-10-06T11:00:41.115Z",
   "jour": "2026-10-06",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 0,
+      "aujourdhui": 1,
       "semaine": 8,
-      "total": 31,
-      "dernier": "2026-10-05T06:11:34.862Z",
-      "lienDernier": "https://www.instagram.com/p/DeGiRXdloQk/"
+      "total": 32,
+      "dernier": "2026-10-06T11:12:40.157Z",
+      "lienDernier": "https://www.instagram.com/p/DeJpgtklzof/"
     },
     "bluesky": {
       "actif": true,
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35575",
       "titre": "À Limoges, Le Cheverny abrite une des meilleures caves de France",
       "lien": "https://passion-aquitaine.ouest-france.fr/cheverny-limoges-restaurant-usine-cave/",
-      "at": "2026-10-06T07:00:47.234Z",
+      "at": "2026-10-06T11:12:40.157Z",
       "reseaux": {
         "bluesky": {
           "texte": "L’une des meilleures cartes des vins de France se trouve dans un restaurant familial de #Limoges. Le Cheverny a pris place dans une ancienne usine, devenue une adresse de choix pour les amateurs 🥂\n➡️ Lire l’article",
@@ -201,6 +201,14 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-10-06T07:00:47.234Z"
+        },
+        "instagram": {
+          "texte": "Des bouteilles d’exception là où tournaient autrefois des machines 🍾\n⠀\nÀ Limoges, Le Cheverny, restaurant familial niché dans une ancienne usine, cache l’une des meilleures cartes des vins de France. Une adresse à connaître pour les amateurs de vin en Haute-Vienne.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Limoges #CarteDesVins #HauteVienne",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261006-9ec21692-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-06T11:12:40.157Z"
         }
       }
     },
@@ -447,6 +455,16 @@
   ],
   "publications": [
     {
+      "channel": "instagram",
+      "at": "2026-10-06T11:12:40.157Z",
+      "titre": "À Limoges, Le Cheverny abrite une des meilleures caves de France",
+      "lien": "https://passion-aquitaine.ouest-france.fr/cheverny-limoges-restaurant-usine-cave/",
+      "lienPost": "https://www.instagram.com/p/DeJpgtklzof/",
+      "format": null,
+      "texte": "Des bouteilles d’exception là où tournaient autrefois des machines 🍾\n⠀\nÀ Limoges, Le Cheverny, restaurant familial niché dans une ancienne usine, cache l’une des meilleures cartes des vins de France. Une adresse à connaître pour les amateurs de vin en Haute-Vienne.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Limoges #CarteDesVins #HauteVienne",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261006-9ec21692-1.jpg"
+    },
+    {
       "channel": "x",
       "at": "2026-10-06T07:00:47.234Z",
       "titre": "À Limoges, Le Cheverny abrite une des meilleures caves de France",
@@ -535,36 +553,16 @@
       "format": "reponse",
       "texte": "À #Bègles, le Green Paradize Festival n’a qu’un an et frappe fort : 🕺 Cerrone, Morcheeba et Purple Disco Machine sont attendus sur scène ce week-end.",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261005-0255fe27-x.jpg"
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-10-04T11:29:33.669Z",
-      "titre": "À Hendaye, un château cache un observatoire actif jusqu’en 1975",
-      "lien": "https://passion-aquitaine.ouest-france.fr/chateau-abbadia-hendaye-observatoire/",
-      "lienPost": "https://www.instagram.com/p/DeEh3MYjNDP/",
-      "format": null,
-      "texte": "Une visite à Hendaye qui mène des salons d’un château jusqu’aux étoiles 🔭\n⠀\nAu château d’Abbadia, l’explorateur Antoine d’Abbadie a fait bâtir un observatoire astronomique. Une idée de sortie au Pays basque pour remonter le temps de la science, active jusqu’en 1975 🏰\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Hendaye #PaysBasque #Astronomie",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261004-fbd02dce-1.jpg"
     }
   ],
-  "file": [
-    {
-      "channel": "instagram",
-      "dueAt": "2026-10-06T11:12:05.859Z",
-      "prochainPassage": "2026-10-06T11:20:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "À Limoges, Le Cheverny abrite une des meilleures caves de France"
-    }
-  ],
+  "file": [],
   "alertes": [],
   "mesures": {
-    "releves": 195,
+    "releves": 196,
     "parReseau": {
       "instagram": {
-        "posts": 23,
-        "interactionsMoyennes": 16
+        "posts": 24,
+        "interactionsMoyennes": 15.5
       },
       "bluesky": {
         "posts": 22,
@@ -678,7 +676,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-06T10:20:58.375Z",
+    "genereLe": "2026-10-06T11:12:45.098Z",
     "posts": 24,
     "parReseau": {
       "instagram": {
@@ -832,7 +830,7 @@
       "facebook": 7,
       "bluesky": 7,
       "x": 7,
-      "instagram": 6
+      "instagram": 7
     },
     "abonnes": {
       "instagram": {

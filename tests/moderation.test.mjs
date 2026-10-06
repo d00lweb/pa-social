@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { normaliser, motifTrouve, trier, modererCommentaires, MOTIFS } from '../src/measure/moderation.mjs';
+import { normaliser, motifTrouve, trier, modererCommentaires, MOTIFS, verdictSpam } from '../src/measure/moderation.mjs';
 
 // 25/09/2026 : 26 commentaires publicitaires sous une seule publication Instagram, 16 sous une
 // autre. Tous pour le même site, écrits pour passer les filtres par mot-clé — caractères
@@ -108,4 +108,30 @@ test('passage complet : ce qui est supprimé, ce qui est masqué, et l’arrêt 
     if (avant === undefined) delete process.env.IG_TOKEN; else process.env.IG_TOKEN = avant;
     await (memo === null ? rm(fromRoot('state/moderation.json'), { force: true }) : writeFile(fromRoot('state/moderation.json'), memo));
   }
+});
+
+// Début octobre 2026, nouvelle campagne : « keh92.com », « kehtana.lol ». La marque a changé, pas la
+// façon d'écrire — un caractère invisible entre chaque lettre. Textes réels, invisibles rendus lisibles.
+const CAMPAGNE_OCTOBRE = [
+  'Écris k​e‌h‍t⁠a͏n​a.l⁠o͏l dans C‌h‍r⁠o͏m​e et regarde bien la première v͏i​d‌é‍o 😨',
+  'Never 🔍  k​e‌h‍9⁠2.c⁠o͏m sur s‌a‍f⁠a͏r​i a moins que tes célibataire 😍',
+  'Le s​i‌t‍e k⁠e͏h​9‌2.c‌o‍m cest le sujet de tous mes potes en ce moment 🤣',
+  'Marquer sur g​o‌o‍g⁠l͏e ce s⁠i͏t​e : k‌e‍h⁠9͏2.c͏o​m vous allez pas regretter 😽',
+  'Ya que des 👩‍🦰 qui ont envie de 🐝 sur le s​i‌t‍e k⁠e͏h​9‌2.c‌o‍m , tape sur G͏o​o‌g‍l⁠e tu verras',
+];
+
+test('campagne d’octobre : reconnue sans connaître la marque, à sa façon de déguiser l’adresse', () => {
+  for (const t of CAMPAGNE_OCTOBRE) {
+    const v = verdictSpam(t, { motifs: [] });
+    assert.equal(v?.action, 'supprimer', `manqué : ${t}`);
+    assert.match(v.raison, /adresse déguisée « keh(92\.com|tana\.lol) »/);
+  }
+});
+
+test('aucun lecteur n’est pris pour un spammeur, même avec un emoji composé ou une adresse', () => {
+  for (const t of [...VRAIS, 'Quelle heure ?', '😍😍', '😮', 'Bravo 👩‍🦰 et 👨‍👩‍👧 !']) {
+    assert.equal(verdictSpam(t), null, `faux positif : ${t}`);
+  }
+  // un lecteur qui conseille une adresse n'est jamais supprimé : au pire masqué, ce qui se défait
+  assert.equal(verdictSpam('Cherchez sur hendaye-tourisme.fr pour les horaires')?.action, 'masquer');
 });

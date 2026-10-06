@@ -40,6 +40,48 @@ export function motifTrouve(texte, motifs = MOTIFS) {
   return motifs.find((m) => n.includes(normaliser(m))) ?? null;
 }
 
+// Les marques changent à chaque campagne — « tepu.lol » le 25/09, « keh92.com » et « kehtana.lol »
+// début octobre — mais la façon de les écrire, non. D'où deux signes qui ne dépendent d'aucune
+// marque :
+//  · un caractère invisible glissé entre deux lettres (« k​e‌h‍9⁠2.c⁠o͏m ») : aucun lecteur n'en tape,
+//    c'est la signature d'un texte fabriqué pour passer les filtres ;
+//  · une adresse à « taper sur Google, Safari, ton navigateur » : le lecteur qui partage un lien le
+//    colle, il ne dicte pas une recherche.
+const INVISIBLES = '\\u00AD\\u034F\\u115F\\u1160\\u17B4\\u17B5\\u180E\\u200B-\\u200F\\u202A-\\u202E\\u2060-\\u2064\\u206A-\\u206F\\uFEFF';
+const DEGUISE = new RegExp(`[A-Za-zÀ-ÖØ-öø-ÿ0-9.][${INVISIBLES}]+[A-Za-zÀ-ÖØ-öø-ÿ0-9.]`, 'u');
+const ADRESSE = /\b[a-z0-9][a-z0-9-]{2,}\s?\.\s?(lol|com|net|org|xyz|top|site|shop|club|online|live|fr|io|me|cc|vip|app|tv|link)\b/;
+const CONSIGNE = /\b(tape[rsz]?|ecri[rst]|ecrivez|marque[rsz]?|cherche[rsz]?|google|safari|chrome|navigateur|browser|moteur)\b/;
+// nos propres adresses, et celle du média, ne sont jamais des adresses de spam
+const NOS_ADRESSES = /ouest-?france|passion-?aquitaine|lovaquitaine/;
+
+// Texte lisible pour la recherche d'une adresse : comme normaliser(), mais les points et les
+// espaces restent, sans quoi « keh92.com » et « ce site » se confondent.
+function lisible(texte) {
+  let s = String(texte ?? '').toLowerCase().replace(new RegExp(`[${INVISIBLES}]`, 'gu'), '');
+  s = [...s].map((c) => SOSIES[c] ?? c).join('').normalize('NFKD').replace(/\p{M}/gu, '');
+  return [...s].map((c) => SOSIES[c] ?? c).join('').replace(/[0@](?=[a-z])/g, 'o').replace(/[!|](?=[a-z])/g, 'i');
+}
+
+export const deguise = (texte) => DEGUISE.test(String(texte ?? ''));
+export function adresseDeSpam(texte) {
+  const t = lisible(texte);
+  const adresse = t.match(ADRESSE)?.[0];
+  return adresse && !NOS_ADRESSES.test(t) ? adresse.replace(/\s/g, '') : null;
+}
+
+// Verdict pour un commentaire seul : { action, raison } ou null. La suppression est réservée au
+// certain (marque connue, adresse déguisée) ; le reste est masqué, ce qui se défait : un lecteur
+// peut écrire « cherchez sur hendaye-tourisme.fr », il ne déguise jamais l'adresse.
+export function verdictSpam(texte, { motifs = MOTIFS } = {}) {
+  const motif = motifTrouve(texte, motifs);
+  if (motif) return { action: 'supprimer', raison: `motif « ${motif} »` };
+  const adresse = adresseDeSpam(texte);
+  if (adresse && deguise(texte)) return { action: 'supprimer', raison: `adresse déguisée « ${adresse} »` };
+  if (adresse && CONSIGNE.test(lisible(texte))) return { action: 'masquer', raison: `adresse à taper « ${adresse} »` };
+  if (deguise(texte)) return { action: 'masquer', raison: 'caractères invisibles dans les mots' };
+  return null;
+}
+
 // Verdict pour une liste de commentaires portant sur plusieurs publications.
 // · un motif connu  → suppression, le doute n'existe pas ;
 // · un texte identique répété sous plusieurs publications, avec une adresse dedans → masquage,
@@ -54,17 +96,15 @@ export function trier(commentaires, { motifs = MOTIFS, seuil = SEUIL_DOUBLONS } 
     vu.add(c.publication);
     parTexte.set(n, vu);
   }
-  const adresse = /(\w{3,}\s*[.．]\s*(lol|com|net|xyz|top|site|shop|club|online|live|fr)\b)|https?:\/\//i;
-
   const verdicts = [];
   for (const c of commentaires) {
-    const motif = motifTrouve(c.texte, motifs);
-    if (motif) {
-      verdicts.push({ ...c, action: 'supprimer', raison: `motif « ${motif} »` });
+    const seul = verdictSpam(c.texte, { motifs });
+    if (seul) {
+      verdicts.push({ ...c, ...seul });
       continue;
     }
     const publications = parTexte.get(normaliser(c.texte))?.size ?? 1;
-    if (publications >= seuil && adresse.test(String(c.texte))) {
+    if (publications >= seuil && (adresseDeSpam(c.texte) || /https?:\/\//i.test(String(c.texte)))) {
       verdicts.push({ ...c, action: 'masquer', raison: `même texte sous ${publications} publications, avec une adresse` });
     }
   }

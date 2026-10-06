@@ -4,6 +4,7 @@ import { send } from '../channels/telegram.mjs';
 import { config } from '../core/config.mjs';
 import { agreger, messageHebdo, messageMensuel, rapportMensuel } from './rapport.mjs';
 import { resumeSemaine } from './abonnes.mjs';
+import { VERSION_COMPTAGE } from './collect.mjs';
 
 // Quand diffuser les rapports. Le robot passe toutes les 20 minutes : un marqueur d'état
 // garantit un seul envoi par semaine et un seul rapport par mois.
@@ -45,9 +46,20 @@ export async function diffuser({ history = [], mesures = [], now = Date.now(), l
     log(`Rapport hebdomadaire envoyé (${bilan.posts} posts mesurés).`);
   }
 
+  // Un rapport figé avec l'ancien comptage des commentaires (spam et réponses du robot compris) est
+  // refait une fois, quand tous les relevés de son mois ont été recomptés. Sans nouvel envoi.
+  for (const cle of index) {
+    const fige = await loadJson(`rapports/${cle}.json`, null);
+    if (!fige || fige.comptage === VERSION_COMPTAGE) continue;
+    const duMois = mesures.filter((m) => !m.introuvable && String(m.publieLe ?? '').startsWith(cle));
+    if (!duMois.length || duMois.some((m) => m.v !== VERSION_COMPTAGE)) continue;
+    await saveJson(`rapports/${cle}.json`, { ...rapportMensuel(mesures, history, cle, { releves }), comptage: VERSION_COMPTAGE, refigeLe: dayKey(now, TZ) });
+    log(`Rapport mensuel ${cle} refait sans spam ni réponses du robot.`);
+  }
+
   const aFiger = dueMensuel(etat, now);
   if (aFiger) {
-    const rapport = rapportMensuel(mesures, history, aFiger, { releves });
+    const rapport = { ...rapportMensuel(mesures, history, aFiger, { releves }), comptage: VERSION_COMPTAGE };
     await saveJson(`rapports/${aFiger}.json`, rapport);
     // le bilan part aussi sur Telegram, en version courte ; un échec d'envoi ne bloque pas le rapport
     await send(messageMensuel(rapport)).catch((e) => log(`Bilan mensuel non envoyé : ${e.message}`));

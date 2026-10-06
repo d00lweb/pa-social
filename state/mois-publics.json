@@ -1,15 +1,15 @@
 {
   "2026-10": {
     "cle": "2026-10",
-    "publications": 30,
-    "articles": 6,
-    "interactions": 96,
+    "publications": 33,
+    "articles": 7,
+    "interactions": 127,
     "parReseau": {
-      "facebook": 6,
+      "facebook": 7,
       "instagram": 6,
       "x": 6,
-      "threads": 6,
-      "bluesky": 6
+      "threads": 7,
+      "bluesky": 7
     },
     "gains": {
       "facebook": -7,
@@ -25,6 +25,13 @@
         "lien": "https://www.instagram.com/p/DeEh3MYjNDP/",
         "image": "https://passion-aquitaine.ouest-france.fr/social/20261004-fbd02dce-1-vignette.jpg",
         "interactions": 30
+      },
+      {
+        "reseau": "instagram",
+        "titre": "Ce week-end à Bègles, Cerrone et Morcheeba montent sur scène",
+        "lien": "https://www.instagram.com/p/DeGiRXdloQk/",
+        "image": "https://passion-aquitaine.ouest-france.fr/social/20261005-0255fe27-1-vignette.jpg",
+        "interactions": 29
       },
       {
         "reseau": "instagram",
@@ -44,13 +51,6 @@
         "reseau": "threads",
         "titre": "À Vouillé, un lieu vieux de 500 ans devient salle de mariage",
         "lien": "https://www.threads.com/@lovaquitaine/post/Dd8O6QekaDi",
-        "image": "https://passion-aquitaine.ouest-france.fr/social/20261001-b7818531-1-vignette.jpg",
-        "interactions": 2
-      },
-      {
-        "reseau": "instagram",
-        "titre": "À Vouillé, un lieu vieux de 500 ans devient salle de mariage",
-        "lien": "https://www.instagram.com/p/Dd8qT5nmPi0/",
         "image": "https://passion-aquitaine.ouest-france.fr/social/20261001-b7818531-1-vignette.jpg",
         "interactions": 2
       }

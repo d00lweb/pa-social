@@ -2389,5 +2389,59 @@
       "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/green-paradize-festival-begles-2026/",
       "sujet": "Bègles"
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35575",
+    "channel": "bluesky",
+    "at": "2026-10-06T06:23:57.806Z",
+    "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mx6s7mcb242r",
+    "titre": "À Limoges, Le Cheverny abrite une des meilleures caves de France",
+    "lien": "https://passion-aquitaine.ouest-france.fr/cheverny-limoges-restaurant-usine-cave/",
+    "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mx6s7mcb242r",
+    "format": "image",
+    "mention": false,
+    "apercu": {
+      "texte": "L’une des meilleures cartes des vins de France se trouve dans un restaurant familial de #Limoges. Le Cheverny a pris place dans une ancienne usine, devenue une adresse de choix pour les amateurs 🥂\n➡️ Lire l’article",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261006-9ec21692-bsky.jpg",
+      "mode": "image",
+      "reponse": null,
+      "sujet": null
+    }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35575",
+    "channel": "threads",
+    "at": "2026-10-06T06:29:47.480Z",
+    "mediaId": "17910266178518480",
+    "titre": "À Limoges, Le Cheverny abrite une des meilleures caves de France",
+    "lien": "https://passion-aquitaine.ouest-france.fr/cheverny-limoges-restaurant-usine-cave/",
+    "lienPost": "https://www.threads.com/@lovaquitaine/post/DeJJFvSGxFc",
+    "format": "lien",
+    "mention": true,
+    "apercu": {
+      "texte": "🍇 Limoges, une ancienne usine, et à l’intérieur un restaurant familial : Le Cheverny. Rien ne laisse deviner que sa cave figure parmi les meilleures de France. Une belle surprise pour qui aime le vin et les lieux chargés d’histoire.\n@ville_de_limoges",
+      "image": null,
+      "mode": "lien",
+      "reponse": null,
+      "sujet": "Limoges"
+    }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35575",
+    "channel": "facebook",
+    "at": "2026-10-06T06:34:24.340Z",
+    "mediaId": "227437307428711_1743076294484918",
+    "titre": "À Limoges, Le Cheverny abrite une des meilleures caves de France",
+    "lien": "https://passion-aquitaine.ouest-france.fr/cheverny-limoges-restaurant-usine-cave/",
+    "lienPost": "https://www.facebook.com/1720946116697936/posts/1743076294484918",
+    "format": null,
+    "mention": false,
+    "apercu": {
+      "texte": "Qui imaginerait qu’une ancienne usine de Limoges cache l’une des plus belles cartes des vins de France ? 🍷",
+      "image": null,
+      "mode": null,
+      "reponse": null,
+      "sujet": null
+    }
   }
 ]

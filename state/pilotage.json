@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-06T06:00:45.818Z",
+  "genereLe": "2026-10-06T06:20:47.985Z",
   "jour": "2026-10-06",
   "reseaux": {
     "instagram": {
@@ -60,11 +60,11 @@
         "image",
         "reply"
       ],
-      "aujourdhui": 0,
-      "semaine": 8,
-      "total": 29,
-      "dernier": "2026-10-05T06:06:35.383Z",
-      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mx4armjgsh2x"
+      "aujourdhui": 1,
+      "semaine": 9,
+      "total": 30,
+      "dernier": "2026-10-06T06:23:57.806Z",
+      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mx6s7mcb242r"
     },
     "facebook": {
       "actif": true,
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 8,
-      "total": 26,
-      "dernier": "2026-10-05T06:03:15.421Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1742010854591462"
+      "aujourdhui": 1,
+      "semaine": 9,
+      "total": 27,
+      "dernier": "2026-10-06T06:34:24.340Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1743076294484918"
     },
     "threads": {
       "actif": true,
@@ -124,11 +124,11 @@
         "lien",
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 8,
-      "total": 26,
-      "dernier": "2026-10-05T06:18:18.323Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DeGisFzEfEG"
+      "aujourdhui": 1,
+      "semaine": 9,
+      "total": 27,
+      "dernier": "2026-10-06T06:29:47.480Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DeJJFvSGxFc"
     },
     "x": {
       "actif": true,
@@ -168,6 +168,38 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35575",
+      "titre": "À Limoges, Le Cheverny abrite une des meilleures caves de France",
+      "lien": "https://passion-aquitaine.ouest-france.fr/cheverny-limoges-restaurant-usine-cave/",
+      "at": "2026-10-06T06:34:24.340Z",
+      "reseaux": {
+        "bluesky": {
+          "texte": "L’une des meilleures cartes des vins de France se trouve dans un restaurant familial de #Limoges. Le Cheverny a pris place dans une ancienne usine, devenue une adresse de choix pour les amateurs 🥂\n➡️ Lire l’article",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261006-9ec21692-bsky.jpg",
+          "mode": "image",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-06T06:23:57.806Z"
+        },
+        "threads": {
+          "texte": "🍇 Limoges, une ancienne usine, et à l’intérieur un restaurant familial : Le Cheverny. Rien ne laisse deviner que sa cave figure parmi les meilleures de France. Une belle surprise pour qui aime le vin et les lieux chargés d’histoire.\n@ville_de_limoges",
+          "image": null,
+          "mode": "lien",
+          "reponse": null,
+          "sujet": "Limoges",
+          "publieLe": "2026-10-06T06:29:47.480Z"
+        },
+        "facebook": {
+          "texte": "Qui imaginerait qu’une ancienne usine de Limoges cache l’une des plus belles cartes des vins de France ? 🍷",
+          "image": null,
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-06T06:34:24.340Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=30656",
       "titre": "Ce week-end à Bègles, Cerrone et Morcheeba montent sur scène",
@@ -407,57 +439,39 @@
           "publieLe": "2026-10-02T10:30:46.872Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35379",
-      "titre": "À Vouillé, un lieu vieux de 500 ans devient salle de mariage",
-      "lien": "https://passion-aquitaine.ouest-france.fr/nid-de-plumes-vouille-hebergement-insolite/",
-      "at": "2026-10-01T10:09:29.344Z",
-      "reseaux": {
-        "threads": {
-          "texte": "🏛️ Vouillé, dans la Vienne : une ancienne usine de plumes, vieille de 500 ans, change complètement de vocation. Elle s’appelle désormais Le Nid de Plumes et accueille mariages et séminaires. Un joli nom pour un lieu qui garde la mémoire de son passé.\n@leniddeplumes @fondationdupatrimoine",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261001-b7818531-th.jpg",
-          "mode": "reponse",
-          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/nid-de-plumes-vouille-hebergement-insolite/",
-          "sujet": "Vouillé",
-          "publieLe": "2026-10-01T06:13:47.420Z"
-        },
-        "facebook": {
-          "texte": "Et si vous vous mariiez dans une ancienne usine de plumes, vieille de 500 ans, rebaptisée Le Nid de Plumes ? 🪶",
-          "image": null,
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-01T06:23:21.001Z"
-        },
-        "bluesky": {
-          "texte": "500 ans d’histoire et une nouvelle vie : à Vouillé, dans la #Vienne, une ancienne usine de plumes devient Le Nid de Plumes, lieu de réception pour mariages et séminaires 🕊️\n@fond-patrimoine.bsky.social",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261001-b7818531-bsky.jpg",
-          "mode": "reply",
-          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/nid-de-plumes-vouille-hebergement-insolite/",
-          "sujet": null,
-          "publieLe": "2026-10-01T06:28:24.938Z"
-        },
-        "x": {
-          "texte": "On y travaillait la plume, on y célèbre aujourd’hui des mariages 💒 À Vouillé, une usine vieille de 500 ans devient Le Nid de Plumes, lieu de réception.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261001-b7818531-x.jpg",
-          "mode": "reponse",
-          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/nid-de-plumes-vouille-hebergement-insolite/",
-          "sujet": null,
-          "publieLe": "2026-10-01T08:00:48.631Z"
-        },
-        "instagram": {
-          "texte": "Là où l’on travaillait la plume, on dit désormais oui 💍\n⠀\nÀ Vouillé, dans la Vienne, une ancienne usine de plumes vieille de 500 ans devient Le Nid de Plumes. Mariages et séminaires y trouvent un cadre chargé d’histoire.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Vienne #Mariage #Patrimoine",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261001-b7818531-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-01T10:09:29.344Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "facebook",
+      "at": "2026-10-06T06:34:24.340Z",
+      "titre": "À Limoges, Le Cheverny abrite une des meilleures caves de France",
+      "lien": "https://passion-aquitaine.ouest-france.fr/cheverny-limoges-restaurant-usine-cave/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1743076294484918",
+      "format": null,
+      "texte": "Qui imaginerait qu’une ancienne usine de Limoges cache l’une des plus belles cartes des vins de France ? 🍷",
+      "image": null
+    },
+    {
+      "channel": "threads",
+      "at": "2026-10-06T06:29:47.480Z",
+      "titre": "À Limoges, Le Cheverny abrite une des meilleures caves de France",
+      "lien": "https://passion-aquitaine.ouest-france.fr/cheverny-limoges-restaurant-usine-cave/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/DeJJFvSGxFc",
+      "format": "lien",
+      "texte": "🍇 Limoges, une ancienne usine, et à l’intérieur un restaurant familial : Le Cheverny. Rien ne laisse deviner que sa cave figure parmi les meilleures de France. Une belle surprise pour qui aime le vin et les lieux chargés d’histoire.\n@ville_de_limoges",
+      "image": null
+    },
+    {
+      "channel": "bluesky",
+      "at": "2026-10-06T06:23:57.806Z",
+      "titre": "À Limoges, Le Cheverny abrite une des meilleures caves de France",
+      "lien": "https://passion-aquitaine.ouest-france.fr/cheverny-limoges-restaurant-usine-cave/",
+      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mx6s7mcb242r",
+      "format": "image",
+      "texte": "L’une des meilleures cartes des vins de France se trouve dans un restaurant familial de #Limoges. Le Cheverny a pris place dans une ancienne usine, devenue une adresse de choix pour les amateurs 🥂\n➡️ Lire l’article",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261006-9ec21692-bsky.jpg"
+    },
     {
       "channel": "threads",
       "at": "2026-10-05T06:18:18.323Z",
@@ -527,66 +541,9 @@
       "format": "reponse",
       "texte": "Jusqu’en 1975, on observait encore les astres depuis le château d’Abbadia, à #Hendaye, dans l’observatoire bâti par l’explorateur Antoine d’Abbadie 🔭",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261004-fbd02dce-x.jpg"
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-10-04T07:03:35.330Z",
-      "titre": "À Hendaye, un château cache un observatoire actif jusqu’en 1975",
-      "lien": "https://passion-aquitaine.ouest-france.fr/chateau-abbadia-hendaye-observatoire/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1741018678024013",
-      "format": null,
-      "texte": "Derrière les murs d’un château de Hendaye, des astronomes ont scruté le ciel jusqu’ 🔭",
-      "image": null
-    },
-    {
-      "channel": "bluesky",
-      "at": "2026-10-04T06:31:27.066Z",
-      "titre": "À Hendaye, un château cache un observatoire actif jusqu’en 1975",
-      "lien": "https://passion-aquitaine.ouest-france.fr/chateau-abbadia-hendaye-observatoire/",
-      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mwzrp5gcy72r",
-      "format": "reply",
-      "texte": "Un château tourné vers les étoiles, face à l’océan à #Hendaye 🌌 Au château d’Abbadia, l’explorateur Antoine d’Abbadie a fait construire un observatoire astronomique, resté en activité jusqu’en 1975.\n@fond-patrimoine.bsky.social",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261004-fbd02dce-bsky.jpg"
-    },
-    {
-      "channel": "threads",
-      "at": "2026-10-04T06:28:15.388Z",
-      "titre": "À Hendaye, un château cache un observatoire actif jusqu’en 1975",
-      "lien": "https://passion-aquitaine.ouest-france.fr/chateau-abbadia-hendaye-observatoire/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/DeD_GaDEQX3",
-      "format": "reponse",
-      "texte": "Un château basque peut-il aussi être un lieu de science ? À Hendaye, la réponse est oui 🔭 Le château d’Abbadia abrite un observatoire astronomique voulu par l’explorateur Antoine d’Abbadie, et il a fonctionné jusqu’en 1975. Vous imaginiez qu’on observait encore le ciel depuis ce château il y a cinquante ans ?\n@fondationdupatrimoine @paysbasque_net",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261004-fbd02dce-th.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "bluesky",
-      "dueAt": "2026-10-06T06:23:56.318Z",
-      "prochainPassage": "2026-10-06T07:00:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "À Limoges, Le Cheverny abrite une des meilleures caves de France"
-    },
-    {
-      "channel": "threads",
-      "dueAt": "2026-10-06T06:29:06.017Z",
-      "prochainPassage": "2026-10-06T07:00:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "À Limoges, Le Cheverny abrite une des meilleures caves de France"
-    },
-    {
-      "channel": "facebook",
-      "dueAt": "2026-10-06T06:34:19.154Z",
-      "prochainPassage": "2026-10-06T07:00:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "À Limoges, Le Cheverny abrite une des meilleures caves de France"
-    },
     {
       "channel": "x",
       "dueAt": "2026-10-06T07:00:00.000Z",
@@ -608,7 +565,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 188,
+    "releves": 192,
     "parReseau": {
       "instagram": {
         "posts": 23,
@@ -687,7 +644,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-06T05:00:48.407Z"
+    "derniere": "2026-10-06T06:20:47.985Z"
   },
   "abonnes": {
     "instagram": {
@@ -726,33 +683,33 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-06T06:01:08.909Z",
-    "posts": 20,
+    "genereLe": "2026-10-06T06:34:28.788Z",
+    "posts": 24,
     "parReseau": {
       "instagram": {
-        "posts": 5,
-        "moyenne": 17
+        "posts": 6,
+        "moyenne": 19
       },
       "threads": {
-        "posts": 5,
+        "posts": 6,
         "moyenne": 1.2
       },
       "bluesky": {
-        "posts": 5,
+        "posts": 6,
         "moyenne": 1
       },
       "facebook": {
-        "posts": 5,
+        "posts": 6,
         "moyenne": 0
       }
     },
     "parFormat": {
       "reponse": {
-        "posts": 4,
-        "moyenne": 1.5
+        "posts": 5,
+        "moyenne": 1.4
       },
       "reply": {
-        "posts": 4,
+        "posts": 5,
         "moyenne": 1
       },
       "card": {
@@ -774,8 +731,8 @@
         "moyenne": 12
       },
       "matin": {
-        "posts": 13,
-        "moyenne": 0.8
+        "posts": 17,
+        "moyenne": 2.4
       }
     },
     "parCreneauReseau": {
@@ -785,13 +742,13 @@
           "moyenne": 2
         },
         "7 h – 8 h 30": {
-          "posts": 4,
+          "posts": 5,
           "moyenne": 1
         }
       },
       "facebook": {
         "8 h – 9 h 30": {
-          "posts": 4,
+          "posts": 5,
           "moyenne": 0
         },
         "20 h – 21 h 30": {
@@ -801,7 +758,7 @@
       },
       "bluesky": {
         "8 h – 9 h 30": {
-          "posts": 4,
+          "posts": 5,
           "moyenne": 1
         },
         "12 h – 13 h 30": {
@@ -810,6 +767,10 @@
         }
       },
       "instagram": {
+        "hors créneau": {
+          "posts": 1,
+          "moyenne": 29
+        },
         "18 h – 19 h 30": {
           "posts": 1,
           "moyenne": 24
@@ -820,7 +781,7 @@
         }
       }
     },
-    "interactionsTotal": 96,
+    "interactionsTotal": 127,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35474",
       "channel": "instagram",
@@ -840,18 +801,18 @@
       "creneauReseau": "12 h – 13 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35474",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=30656",
       "channel": "facebook",
-      "mediaId": "227437307428711_1741018678024013",
-      "publieLe": "2026-10-04T07:03:35.330Z",
+      "mediaId": "227437307428711_1742010854591462",
+      "publieLe": "2026-10-05T06:03:15.421Z",
       "jalon": 1,
-      "releveLe": "2026-10-05T07:20:42.471Z",
+      "releveLe": "2026-10-06T06:20:47.985Z",
       "likes": 0,
       "commentaires": 0,
       "partages": 0,
       "vues": null,
-      "titre": "À Hendaye, un château cache un observatoire actif jusqu’en 1975",
-      "lien": "https://www.facebook.com/1720946116697936/posts/1741018678024013",
+      "titre": "Ce week-end à Bègles, Cerrone et Morcheeba montent sur scène",
+      "lien": "https://www.facebook.com/1720946116697936/posts/1742010854591462",
       "format": null,
       "mention": false,
       "creneau": "matin",
@@ -859,18 +820,18 @@
     },
     "mentions": {
       "avec": {
-        "posts": 13,
-        "moyenne": 7.2
+        "posts": 16,
+        "moyenne": 7.8
       },
       "sans": {
-        "posts": 7,
+        "posts": 8,
         "moyenne": 0.3
       }
     },
     "publies": {
-      "threads": 6,
-      "facebook": 6,
-      "bluesky": 6,
+      "threads": 7,
+      "facebook": 7,
+      "bluesky": 7,
       "x": 6,
       "instagram": 6
     },
@@ -910,14 +871,14 @@
       "x": null
     },
     "engagement": {
-      "instagram": 0.17,
+      "instagram": 0.19,
       "threads": 0.1,
       "facebook": 0
     },
     "conseils": [
-      "Le format « reponse » fait 15 fois mieux que « image » (1.5 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « image » de la rotation dans config/channels.json.",
+      "Le format « reponse » fait 14 fois mieux que « image » (1.4 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « image » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+2, +0,2 %) ; Facebook recule (−7), à surveiller.",
-      "Les posts avec mention font 6.9 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
+      "Les posts avec mention font 7.5 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
     ]
   },
   "couts": {

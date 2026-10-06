@@ -106,6 +106,7 @@
     },
     "vin": {
       "motsCles": ["vin", "vins", "vignoble", "viticole", "oenologie", "œnologie", "cépage", "levure", "vendange", "château viticole"],
+      "lieux": ["Bordeaux", "Gironde", "Médoc", "Saint-Émilion", "Pomerol", "Pessac", "Léognan", "Graves", "Sauternes", "Entre-deux-Mers", "Libourne", "Blaye", "Margaux", "Pauillac"],
       "instagram": ["vinsdebordeaux", "vinetsociete"]
     },
     "apiculture": {

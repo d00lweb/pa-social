@@ -1,5 +1,5 @@
 import { fold, choisir, nomExploitable } from './annuaire.mjs';
-import { PREUVE, SEUILS_LOCAUX, retenir, surInstagram, surBluesky, formesLocales, sujetTouristique } from './decouverte.mjs';
+import { PREUVE, SEUILS_LOCAUX, surInstagram, formesLocales, sujetTouristique } from './decouverte.mjs';
 import {
   TABLES, identifier, identifierCommune, territoireDe, threadsDe, jumeauxBluesky, porteLaCommune,
   variantesHandle, garderLesMeilleurs, AUDIENCE_MINIMALE,
@@ -29,8 +29,9 @@ export { variantesHandle, garderLesMeilleurs, AUDIENCE_MINIMALE };
 const RESEAUX = ['instagram', 'x', 'bluesky', 'threads', 'facebook'];
 
 // Version des recherches mémorisées : une entrée d'une autre version est cherchée à nouveau. La 2
-// ajoute la fiche Wikidata des communes, le site des comptes, Threads et les jumeaux Bluesky.
-const VERSION = 2;
+// ajoute la fiche Wikidata des communes, le site des comptes, Threads et les jumeaux Bluesky ; la 3,
+// les sites probables d'une commune quand sa fiche ne donne rien (Hendaye, 06/10/2026).
+const VERSION = 3;
 
 // ── Les outils : tout ce qui interroge l'extérieur, remplaçable dans les tests ──
 
@@ -85,20 +86,33 @@ const listeLog = (liste) => liste.map((c) => `@${c.handle}${c.abonnes ? ` (${c.a
 const resume = (r) => RESEAUX.filter((n) => r[n]?.length).map((n) => `${n} ${listeLog(r[n])}`).join(' · ') || 'aucun compte';
 
 // ── Sujet ──
-async function comptesDesSujets(entites, { max, texte, liens, image, outils, log }) {
+
+// L'entité telle qu'on la cherche. Un lieu ou une organisation nommés d'un seul mot (« Le Cheverny »)
+// se cherchent avec leur commune, comme ils s'écrivent souvent en pseudo (@lechevernylimoges) ;
+// le nom écrit dans l'article reste celui que Bluesky et Threads remplacent par la mention.
+export function aChercher(entite, commune = null) {
+  const nom = String(entite.nom ?? '').trim();
+  const avecCommune = commune && !fold(nom).includes(fold(commune)) && ['lieu', 'organisation'].includes(entite.type)
+    && !nomExploitable(nom) ? `${nom} ${commune}` : nom;
+  // un artiste se cherche sous son nom seul : ses formes propres (official, band…) le départagent
+  const seul = entite.type === 'artiste' ? false : !nomExploitable(avecCommune);
+  return { ...entite, nom: avecCommune, nomFixe: nom, seul };
+}
+
+async function comptesDesSujets(entites, { max, texte, liens, image, commune, outils, log }) {
   // Un nom d'un seul mot — « Belem », « Hermione » — ne permet aucune devinette : @lebelem est un
   // café bar. Il reste exploitable par la seule voie sûre, la fiche départagée par le contexte.
-  const exploitables = entites.map((e) => ({ ...e, seul: !nomExploitable(e.nom) }));
+  const exploitables = entites.map((e) => aChercher(e, commune));
   const retenues = choisir(exploitables.map((e) => ({ ...e, entite: e.nom, handle: e.nom })), { max });
   const resultats = await enParallele(retenues, 3, (entite) => identifier(entite, { contexte: texte ?? '', liens, image, outils, log })
     .catch((e) => { log(`   Comptes « ${entite.nom} » : ${e.message}`); return null; }));
   const viviers = vide();
   retenues.forEach((entite, i) => {
     const r = resultats[i];
-    log(`   Sujet « ${entite.nom} » (${entite.role}) : ${r ? resume(r) : 'aucun compte'}`);
+    log(`   Sujet « ${entite.nom} » (${entite.role}${entite.type ? `, ${entite.type}` : ''}) : ${r ? resume(r) : 'aucun compte'}`);
     if (!r) return;
     for (const reseau of RESEAUX) {
-      for (const c of r[reseau] ?? []) viviers[reseau].push(entree(c, { nomFixe: entite.nom, role: entite.role, echelon: 'sujet' }));
+      for (const c of r[reseau] ?? []) viviers[reseau].push(entree(c, { nomFixe: entite.nomFixe ?? entite.nom, role: entite.role, echelon: 'sujet' }));
     }
   });
   return Object.fromEntries(RESEAUX.map((r) => [r, [viviers[r]]]));
@@ -205,36 +219,11 @@ export function parFamille(comptes) {
   return gardes;
 }
 
-// Une recherche par domaine. Instagram par pseudos plausibles, Bluesky par sa recherche d'acteurs,
-// et le pont entre les deux : la recherche Bluesky donne le **nom** d'une organisation, son
-// identité donne ses pseudos. Un pseudo fabriqué depuis le mot du domaine ne trouvera jamais
-// l'Office français de la biodiversité (@ofbiodiversite) ni la LPO (@lpo_officiel).
-async function chercherDomaine(domaine, { outils }) {
-  const [devines, trouves] = await Promise.all([
-    surInstagram(domaine, { decrire: outils.decrire, reference: true }),
-    surBluesky(domaine, { chercher: outils.chercherBluesky, lireProfil: async (h) => (await outils.profilBluesky(h)) ?? null, reference: true }),
-  ]);
-  const ponts = [];
-  for (const org of trouves.slice(0, 4)) {
-    const r = await identifier({ nom: org.nom, role: 'theme', seul: !nomExploitable(org.nom) }, { outils }).catch(() => null);
-    for (const c of r?.instagram ?? []) {
-      if (c.abonnes && retenir(c, { domaine, reseau: 'instagram', reference: true }).garde) ponts.push(c);
-    }
-  }
-  const instagram = parFamille([...devines, ...ponts].filter((c, i, t) => t.findIndex((x) => fold(x.handle) === fold(c.handle)) === i))
-    .slice(0, 3).map((c) => ({ ...c, preuve: c.preuve ?? PREUVE.CONSTRUITE }));
-  // Bluesky : les organisations trouvées, puis les jumeaux des comptes Instagram qui n'y sont pas déjà
-  const dejaSurBluesky = (c) => trouves.some((b) => racine(b.handle) === racine(c.handle) || fold(b.nom) === fold(c.nom));
-  const [threads, jumeaux] = await Promise.all([
-    threadsDe(instagram, { outils }),
-    jumeauxBluesky(instagram.filter((c) => !dejaSurBluesky(c)), outils, { plancher: SEUILS_LOCAUX.bluesky }),
-  ]);
-  return {
-    instagram: resumer(instagram),
-    bluesky: resumer(parFamille([...trouves.map((c) => ({ ...c, preuve: PREUVE.TROUVEE })), ...jumeaux])).slice(0, 3),
-    threads: resumer(threads),
-  };
-}
+// Plus de recherche nationale par domaine depuis le 06/10/2026. Elle trouvait des comptes réels mais
+// étrangers à l'article : @fondationdupatrimoine sous 7 articles sur 14 parce qu'ils relevaient du
+// patrimoine, @francemusique (radio classique) sous un festival disco. Ces comptes ne repartagent
+// jamais une mention qui ne les concerne pas, et la répétition ressemble à du démarchage. Une
+// référence nationale ne vient plus que de la table, inscrite à la main, ou de l'article qui la nomme.
 
 // Le domaine dans la commune : @hossegorsurfclub pour un championnat de surf à Hossegor.
 async function chercherLocal(ville, domaine, { outils }) {
@@ -251,23 +240,16 @@ async function comptesDuDomaine(domaines, { ville, texte, touristique, ...ctx })
   const ajouter = (v) => { for (const reseau of RESEAUX) echelon[reseau].push(v[reseau] ?? []); };
   const table = await viviersDeLaTable(texte, 'domaine', { touristique, ...ctx });
   const locaux = vide();
-  const nationaux = vide();
-  for (const domaine of domaines.slice(0, 3)) {
-    if (ville) {
-      const e = await memorise(`locale:${fold(ville)}:${fold(domaine)}`, { ...ctx, jours: 90 }, (outils) => chercherLocal(ville, domaine, { outils }));
-      if (e.neuf && (e.instagram ?? []).length) ctx.log(`   « ${domaine} » à ${ville} : ${resume(e)}`);
-      for (const reseau of RESEAUX) for (const c of e[reseau] ?? []) locaux[reseau].push(entree(c, { nom: domaine, role: 'theme', echelon: 'domaine', thematique: true }));
-    }
-    const e = await memorise(`domaine:${fold(domaine)}`, { ...ctx, jours: 30 }, (outils) => chercherDomaine(domaine, { outils }));
-    if (e.neuf) ctx.log(`   Domaine « ${domaine} » : ${resume(e)}`);
-    for (const reseau of RESEAUX) for (const c of e[reseau] ?? []) nationaux[reseau].push(entree(c, { nom: domaine, role: 'theme', echelon: 'domaine', thematique: true }));
+  for (const domaine of ville ? domaines.slice(0, 3) : []) {
+    const e = await memorise(`locale:${fold(ville)}:${fold(domaine)}`, { ...ctx, jours: 90 }, (outils) => chercherLocal(ville, domaine, { outils }));
+    if (e.neuf && (e.instagram ?? []).length) ctx.log(`   « ${domaine} » à ${ville} : ${resume(e)}`);
+    for (const reseau of RESEAUX) for (const c of e[reseau] ?? []) locaux[reseau].push(entree(c, { nom: domaine, role: 'theme', echelon: 'domaine', thematique: true }));
   }
   // Du plus précis au plus général : un vivier ancré dans le lieu de l'article (le cognac à
-  // Cognac), les comptes du domaine dans la commune, les viviers de la table, la découverte.
+  // Cognac), les comptes du domaine dans la commune, puis les viviers généraux de la table.
   for (const v of table.filter((t) => t.specifique)) ajouter(v);
   ajouter(locaux);
   for (const v of table.filter((t) => !t.specifique)) ajouter(v);
-  ajouter(nationaux);
   return echelon;
 }
 
@@ -309,45 +291,56 @@ export function rotation(candidats, recents = [], combien = 3) {
     .map((x) => x.c);
 }
 
-// L'équilibre, déclaré en tours. Le sujet prend ce qu'il lui faut ; la commune puis le domaine
-// reçoivent une place chacun ; s'il en reste, la commune puis le domaine complètent ; le
-// territoire ne vient qu'en dernier. Ainsi le French Cancan de Bordeaux tague le festival, la
-// ville et le Moulin Rouge ; l'escale de l'Hermione à Bayonne tague le navire, @bayonnemaville
-// et @visitbayonne avant tout compte du Pays basque ou du département.
-export const TOURS = [
-  ['sujet', Infinity],
-  ['commune', 1],
-  ['domaine', 1],
-  ['commune', Infinity],
-  ['domaine', Infinity],
-  ['territoire', Infinity],
-];
+// La sélection, décidée le 06/10/2026 après trois semaines de mentions relues une à une.
+//
+// Ce qui fait gagner des abonnés, c'est d'être repartagé par un compte que l'article concerne : le
+// festival, ses artistes, le lieu, le club, la ville. Eux sont tagués à chaque fois — c'est leur
+// actualité, pas du démarchage. Les autres (un compte de thème, le département, le Pays basque)
+// ne le sont qu'à la marge : un seul au plus, là où le tag est discret (posé sur l'image Instagram)
+// ou laissé au choix (kit X), jamais sur Threads ni Bluesky où il s'écrit dans le texte, jamais
+// deux articles de suite, et le moins récemment mentionné d'abord. Mieux vaut une place vide qu'un
+// compte hors sujet : sous 7 articles sur 14, la Fondation du patrimoine finissait par lasser.
+//
+// Plafonds : Instagram accepte vingt tags par image ; cinq laissent la place au sujet entier (un
+// festival et ses têtes d'affiche) et à la ville. Ailleurs la mention s'écrit : trois au plus.
+export const MAX_MENTIONS = { instagram: 5, x: 3, bluesky: 3, threads: 3, facebook: 3 };
+export const AUTRES_MAX = { instagram: 1, x: 1, bluesky: 0, threads: 0, facebook: 0 };
 
-export function selectionner(echelons, { max = 3, recents = [] } = {}) {
+const parReseau = (valeur, reseau) => (Array.isArray(valeur) ? valeur : valeur?.[reseau] ?? []);
+
+// recents : mentions passées, réseau par réseau, de la plus ancienne à la plus récente ;
+// dernier : celles de l'article précédent, réseau par réseau.
+export function selectionner(echelons, { max = MAX_MENTIONS, autres = AUTRES_MAX, recents = {}, dernier = {} } = {}) {
   const plan = vide();
   for (const reseau of RESEAUX) {
+    const plafond = typeof max === 'number' ? max : (max[reseau] ?? 3);
     const liste = plan[reseau];
-    for (const [nom, combien] of TOURS) {
-      let pris = 0;
-      for (const vivier of echelons[nom]?.[reseau] ?? []) {
-        const place = Math.min(max - liste.length, combien - pris);
-        if (place <= 0) break;
-        const libres = vivier.filter((c) => !liste.some((x) => fold(x.handle) === fold(c.handle)));
-        // le sujet n'est pas en rotation : c'est lui que le lecteur cherche, chaque fois
-        const choisis = nom === 'sujet' ? libres.slice(0, place) : rotation(libres, recents, place);
-        liste.push(...choisis);
-        pris += choisis.length;
-      }
-    }
+    const pris = (c) => liste.some((x) => fold(x.handle) === fold(c.handle));
+    const ajouter = (candidats, jusqua) => { for (const c of candidats) if (liste.length < jusqua && !pris(c)) liste.push(c); };
+    const precedent = new Set(parReseau(dernier, reseau).map(fold));
+    const tous = (nom) => (echelons[nom]?.[reseau] ?? []).flat();
+    const sujets = tous('sujet');
+    // la ville, sauf si elle était déjà taguée à l'article précédent (trois articles bordelais d'affilée)
+    const villes = tous('commune').filter((c) => !precedent.has(fold(c.handle)));
+
+    // 1. le sujet, en gardant une place pour la ville quand elle a un compte ; 2. la ville ;
+    // 3. le reste du sujet, s'il en reste
+    ajouter(sujets, plafond - (villes.some((c) => !pris(c)) ? 1 : 0));
+    ajouter(villes, plafond);
+    ajouter(sujets, plafond);
+    // 4. un compte non directement concerné, au plus, en rotation
+    const place = Math.min(plafond - liste.length, autres[reseau] ?? 0);
+    const candidats = [...tous('domaine'), ...tous('territoire')].filter((c) => !precedent.has(fold(c.handle)) && !pris(c));
+    if (place > 0) liste.push(...rotation(candidats, parReseau(recents, reseau), place));
   }
   return plan;
 }
 
-// Trois mentions au plus par réseau : c'est le levier le plus efficace pour être découvert — un
-// compte mentionné est notifié, et va voir. Au-delà, la publication ressemble à du démarchage.
+// Les comptes à taguer, réseau par réseau. Un compte mentionné est notifié, et va voir : c'est le
+// levier le plus efficace pour être découvert, tant qu'il est concerné.
 export async function resoudreComptes(entites = [], {
-  max = 3, image = null, texte = null, domaines = [], commune = null, departement = null, lien = null,
-  categories = [], recents = [], log = () => {}, outils = outilsReels(), maintenant = Date.now(),
+  max = MAX_MENTIONS, image = null, texte = null, domaines = [], commune = null, departement = null, lien = null,
+  categories = [], recents = {}, dernier = {}, log = () => {}, outils = outilsReels(), maintenant = Date.now(),
 } = {}) {
   const valeurs = await outils.charger().catch(() => ({}));
   // les recherches d'une version précédente sont abandonnées : elles seront refaites
@@ -357,14 +350,15 @@ export async function resoudreComptes(entites = [], {
   const liens = lien ? await outils.liensArticle(lien).catch(() => ({ sites: [], instagram: [] })) : { sites: [], instagram: [] };
 
   const echelons = {
-    sujet: await comptesDesSujets(entites, { max, texte, liens, image, outils, log }),
+    // le sujet entier : un festival et ses têtes d'affiche, le lieu qui l'accueille — cinq au plus
+    sujet: await comptesDesSujets(entites, { max: 5, texte, liens, image, commune, outils, log }),
     commune: await comptesDeLaCommune(commune, { departement, touristique, texte, ...ctx }).catch((e) => { log(`   Commune : ${e.message}`); return {}; }),
     domaine: await comptesDuDomaine(domaines, { ville: commune, texte, touristique, ...ctx }).catch((e) => { log(`   Domaine : ${e.message}`); return {}; }),
     territoire: await comptesDuTerritoire(departement, { touristique, texte, ...ctx }).catch((e) => { log(`   Territoire : ${e.message}`); return {}; }),
   };
   if (memoire.modifiee) await outils.enregistrer(memoire.valeurs).catch((e) => log(`   Comptes appris non enregistrés : ${e.message}`));
 
-  const plan = selectionner(echelons, { max, recents });
+  const plan = selectionner(echelons, { max, recents, dernier });
   for (const reseau of ['instagram', 'bluesky', 'threads', 'x']) {
     if (plan[reseau].length) log(`   Mentions ${reseau} : ${plan[reseau].map((c) => `@${c.handle} (${c.echelon})`).join(' · ')}`);
   }

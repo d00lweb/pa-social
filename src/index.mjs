@@ -232,11 +232,13 @@ async function enrichir(dossier, article = null, memory = null) {
     // les liens de l'article mènent au site officiel des entités qu'il nomme
     lien: article?.link ?? null,
     categories: article?.categories ?? [],
-    // comptes de référence déjà mentionnés : la rotation les écarte au profit des autres
-    recents: memory?.mentions ?? [],
+    // mentions passées, réseau par réseau, et celles de l'article précédent : aucun compte non
+    // directement concerné ne revient deux fois de suite, et la rotation sert les moins récents
+    recents: memory?.mentionsParReseau ?? {},
+    dernier: memory?.dernieresMentions ?? {},
     log: console.log,
   });
-  if (memory) for (const liste of Object.values(dossier.comptes)) retenirMentions(memory, liste);
+  if (memory) retenirMentions(memory, dossier.comptes);
   dossier.lieu = await resoudreLieu(source);
   return dossier;
 }

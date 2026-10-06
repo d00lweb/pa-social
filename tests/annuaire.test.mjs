@@ -151,12 +151,13 @@ test('rotation des comptes de référence : jamais les mêmes deux fois de suite
   const memory = {};
   const tours = [];
   for (let i = 0; i < 4; i++) {
-    const choisis = rotation(vivier, memory.mentions ?? [], 2);
-    retenirMentions(memory, choisis);
+    const choisis = rotation(vivier, memory.mentionsParReseau?.instagram ?? [], 2);
+    retenirMentions(memory, { instagram: choisis });
     tours.push(choisis.map((c) => c.handle).join('+'));
   }
   assert.deepEqual(tours, ['a+b', 'c+d', 'a+b', 'c+d'], 'le vivier est parcouru avant de recommencer');
-  assert.equal(memory.mentions.length, 8, 'chaque mention est retenue');
+  assert.equal(memory.mentionsParReseau.instagram.length, 8, 'chaque mention est retenue, réseau par réseau');
+  assert.deepEqual(memory.dernieresMentions.instagram, ['c', 'd'], 'et celles du dernier article à part');
 
   // jamais mentionné passe devant ; à égalité, l'ordre du vivier tranche
   assert.deepEqual(rotation(vivier, ['a', 'b'], 2).map((c) => c.handle), ['c', 'd']);
@@ -164,11 +165,13 @@ test('rotation des comptes de référence : jamais les mêmes deux fois de suite
   assert.deepEqual(rotation(vivier, [], 0), [], 'aucune place libre, aucun compte');
   assert.deepEqual(rotation([], ['a'], 3), []);
 
-  // seuls les comptes de vivier entrent dans la mémoire : ceux que l'article nomme n'y sont pas,
-  // sinon on s'interdirait de retaguer l'organisateur d'un événement qui revient chaque année
+  // Tout est retenu, réseau par réseau, sujet compris : c'est la sélection qui ne l'écarte jamais
+  // (l'organisateur d'un événement annuel est retagué chaque année). Un réseau sans mention ce
+  // jour-là repart à vide pour « l'article précédent ».
   const m = {};
-  retenirMentions(m, [{ handle: 'ultratraildepons_officiel', role: 'sujet' }, { handle: 'lestraileurs', role: 'theme', thematique: true }]);
-  assert.deepEqual(m.mentions, ['lestraileurs']);
+  retenirMentions(m, { instagram: [{ handle: 'ultratraildepons_officiel', role: 'sujet' }, { handle: 'lestraileurs', role: 'theme', thematique: true }], threads: [] });
+  assert.deepEqual(m.mentionsParReseau, { instagram: ['ultratraildepons_officiel', 'lestraileurs'] });
+  assert.deepEqual(m.dernieresMentions, { instagram: ['ultratraildepons_officiel', 'lestraileurs'], threads: [] });
 });
 
 test('le compte au cœur de l’article passe toujours avant les comptes de référence', async () => {

@@ -11,8 +11,14 @@ export const DossierSchema = z.object({
     description: z.string(),
     texte_alternatif: z.string(),
   }),
-  // entités réellement citées ou impliquées, par ordre de pertinence ; liste vide si aucune
-  entites: z.array(z.object({ nom: z.string(), role: z.enum(['sujet', 'acteur', 'tutelle', 'theme']) })),
+  // entités réellement citées ou impliquées, par ordre de pertinence ; liste vide si aucune. Le type
+  // dit comment chercher leur compte : un festival s'abrège en « fest », un artiste ajoute
+  // « official » ou « band », un lieu porte souvent sa ville dans son pseudo.
+  entites: z.array(z.object({
+    nom: z.string(),
+    role: z.enum(['sujet', 'acteur', 'tutelle', 'theme']),
+    type: z.enum(['evenement', 'artiste', 'lieu', 'organisation']),
+  })),
   // domaines dont relève l'article, en un mot chacun : ils servent à chercher les organisations
   // françaises de référence du sujet, jamais à écrire les textes. « matrimoine » relève du
   // féminisme et du patrimoine ; un frelon qui attaque des ruches relève de l'apiculture.

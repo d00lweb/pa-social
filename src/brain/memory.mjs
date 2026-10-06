@@ -38,13 +38,18 @@ export function nextEmojiPositions(memory, positions, networks) {
   return Object.fromEntries(networks.map((net, i) => [net, PLACEMENT_IMPOSE[net] ?? positions[(start + i) % positions.length]]));
 }
 
-// Comptes de référence déjà mentionnés, du plus ancien au plus récent. C'est cette mémoire qui
-// fait tourner les viviers : sans elle, chaque article sur le trail mentionnerait les deux mêmes
-// comptes, et parlerait chaque fois aux abonnés déjà touchés.
-export function retenirMentions(memory, comptes = [], taille = 40) {
-  const handles = comptes.filter((c) => c.thematique).map((c) => c.handle);
-  if (!handles.length) return memory;
-  memory.mentions = [...(memory.mentions ?? []), ...handles].slice(-taille);
+// Mentions passées, réseau par réseau, de la plus ancienne à la plus récente, et celles du dernier
+// article. La première fait tourner les comptes non directement concernés (le moins récemment
+// mentionné d'abord) ; la seconde empêche qu'un même compte revienne deux articles de suite.
+// `plan` : { réseau: [comptes] }, tel que rendu par resoudreComptes.
+export function retenirMentions(memory, plan = {}, taille = 60) {
+  memory.mentionsParReseau ??= {};
+  memory.dernieresMentions ??= {};
+  for (const [reseau, comptes] of Object.entries(plan ?? {})) {
+    const handles = (comptes ?? []).map((c) => c.handle).filter(Boolean);
+    memory.dernieresMentions[reseau] = handles;
+    if (handles.length) memory.mentionsParReseau[reseau] = [...(memory.mentionsParReseau[reseau] ?? []), ...handles].slice(-taille);
+  }
   return memory;
 }
 

@@ -93,6 +93,25 @@ const SUFFIXES = ['', '_officiel', 'officiel', '.officiel', '_off'];
 // souvent du pseudo. On essaie donc aussi le nom sans eux.
 const ADJECTIFS = new Set(['national', 'nationale', 'international', 'internationale', 'municipal', 'municipale', 'departemental', 'departementale', 'regional', 'regionale', 'officiel', 'officielle']);
 
+// Formes propres à la nature de l'entité, essayées après les formes communes. Relevé le 05/10/2026
+// sur le Green Paradize Festival de Bègles : @greenparadizefest (6 851 abonnés), @cerroneofficial
+// (116 882), @morcheebaband (78 561). Aucune n'était bâtie : le festival s'abrège en « fest », et un
+// artiste, au nom souvent d'un seul mot, ajoute « official », « band » ou « music ».
+const SUFFIXES_ARTISTE = ['official', 'officiel', 'band', 'music', '_official', '.official', 'musique', ''];
+export function variantesTypees(nom, { type = null } = {}) {
+  const tous = fold(nom).split(/[^a-z0-9]+/).filter(Boolean);
+  if (!tous.length) return [];
+  const sortie = [];
+  if (type === 'artiste') {
+    for (const base of [...new Set([tous.join(''), tous.join('_'), tous.join('.')])]) for (const s of SUFFIXES_ARTISTE) sortie.push(base + s);
+  }
+  if (type === 'evenement' && tous.includes('festival')) {
+    const sans = tous.filter((m) => m !== 'festival');
+    if (sans.length) for (const base of [...new Set([sans.join(''), sans.join('_')])]) sortie.push(`${base}fest`, `${base}_fest`, `${base}festival`, base);
+  }
+  return [...new Set(sortie)].filter((h) => h.length >= 5 && h.length <= 30);
+}
+
 export const variantesHandle = (nom) => {
   const forts = motsCles(nom);                                             // sans les petits mots
   if (forts.length < 2) return [];
@@ -117,8 +136,23 @@ export const pseudosDuDomaine = (site) => {
   const l = libelle(site);
   if (!l) return [];
   const parties = l.split(/[.-]+/).filter(Boolean);
-  return [...new Set([parties.join(''), parties.join('_'), parties.join('.')])].filter((h) => h.length >= 5 && h.length <= 30);
+  const colle = parties.join('');
+  // greenparadizefestival.com → @greenparadizefest : un festival s'abrège souvent dans son pseudo
+  const abrege = /festival$/.test(colle) && colle.length > 'festival'.length ? [colle.replace(/festival$/, 'fest')] : [];
+  return [...new Set([colle, parties.join('_'), parties.join('.'), ...abrege])].filter((h) => h.length >= 5 && h.length <= 30);
 };
+
+// Un artiste se reconnaît à son nom dans le nom affiché du compte, prénom en plus admis (« Marc
+// Cerrone » pour Cerrone), et à une audience d'artiste : son nom tient souvent en un mot, et un
+// homonyme minuscule ne doit jamais passer. Les comptes de fans restent écartés.
+export const AUDIENCE_ARTISTE = { unMot: 5000, plusieurs: 1000 };
+export function estLArtiste(nom, compte) {
+  const mots = motsCles(nom).length ? motsCles(nom) : fold(nom).split(/[^a-z0-9]+/).filter((m) => m.length >= 3);
+  if (!mots.length) return false;
+  const cible = new Set(fold(`${compte.nom ?? ''}`).split(/[^a-z0-9]+/).filter(Boolean));
+  const plancher = mots.length > 1 ? AUDIENCE_ARTISTE.plusieurs : AUDIENCE_ARTISTE.unMot;
+  return mots.every((m) => cible.has(m)) && (compte.abonnes ?? 0) >= plancher && !suspect(compte);
+}
 
 // Audience en dessous de laquelle un compte bâti sur le nom n'apporte rien : un squatteur, un
 // compte abandonné, un homonyme minuscule. Un compte personnel, muet, garde sa chance.
@@ -191,10 +225,13 @@ async function instagramDe(entite, { table, fiche, site, scan, liens, image, out
   }
 
   // 2 et 3. Ce qu'on construit, décrit par l'API puis jugé
+  // Un artiste se juge à part : son nom tient souvent en un mot, sa biographie est souvent anglaise.
+  const artiste = entite.type === 'artiste';
   const candidats = [
     ...pseudosDuDomaine(site).map((handle) => ({ handle, source: 'domaine' })),
     // un nom d'un seul mot ne permet aucune devinette : @lebelem est un café bar
     ...(entite.seul ? [] : variantesHandle(nom).map((handle) => ({ handle, source: 'nom' }))),
+    ...variantesTypees(nom, { type: entite.type }).map((handle) => ({ handle, source: 'nom' })),
   ].filter((c, i, t) => t.findIndex((x) => x.handle === c.handle) === i);
   const decrits = await enParallele(candidats, 4, async (c) => ({ ...c, compte: await decrire(c.handle) }));
   const retenus = [];
@@ -208,23 +245,24 @@ async function instagramDe(entite, { table, fiche, site, scan, liens, image, out
     // Bâti sur le nom : le compte doit le porter. Depuis le domaine, deux mots propres en commun —
     // « Festival de la BD d'Angoulême » en partage deux avec le nom officiel du festival ; un
     // quelconque @hermione n'en partagerait qu'un.
-    const porte = source === 'nom'
-      ? correspond(nom, compte)
-      : motsPropres(nom).filter((m) => compact(compte.nom).includes(m)).length >= 2;
-    const motif = !porte ? `ne porte pas le nom « ${nom} »`
+    const porte = artiste ? estLArtiste(nom, compte)
+      : source === 'nom' ? correspond(nom, compte)
+        : motsPropres(nom).filter((m) => compact(compte.nom).includes(m)).length >= 2;
+    const motif = !porte ? (artiste ? `ne porte pas le nom « ${nom} » ou audience d’artiste insuffisante` : `ne porte pas le nom « ${nom} »`)
       : suspect(compte) ? 'compte de fans, d’actualité ou vide'
         : (compte.abonnes ?? 0) < AUDIENCE_MINIMALE ? `${compte.abonnes} abonnés`
-          : !semblFrancais(compte.description, { local: true }) ? 'biographie étrangère' : null;
+          : !artiste && !semblFrancais(compte.description, { local: true }) ? 'biographie étrangère' : null;
     if (motif) log(`   @${compte.handle} écarté pour « ${nom} » : ${motif}`);
     else retenus.push({ ...compte, preuve: PREUVE.CONSTRUITE });
   }
   const surs = retenus.filter((c) => c.preuve >= PREUVE.DECLAREE);
   if (surs.length) return surs.slice(0, 1);
-  if (retenus.length) return retenus.sort((a, b) => (b.abonnes ?? 0) - (a.abonnes ?? 0)).slice(0, HOMONYMES_MAX);
+  // un artiste : le plus suivi des comptes qui portent son nom, un seul — jamais deux homonymes
+  if (retenus.length) return retenus.sort((a, b) => (b.abonnes ?? 0) - (a.abonnes ?? 0)).slice(0, artiste ? 1 : HOMONYMES_MAX);
 
   // 4. Comptes personnels, muets : seul l'essai d'identification prouve qu'ils existent. Réservé
   // aux formes bâties sur le nom exact, et limité : chaque essai crée un conteneur chez Meta.
-  if (entite.seul || !image) return [];
+  if (entite.seul || artiste || !image) return [];
   // Seuls les pseudos restés muets sont essayés : un compte décrit puis écarté (43 abonnés, un
   // compte de fans) existe aussi, et l'essai le ferait revenir par la petite porte.
   const muets = new Set(decrits.filter((d) => d.source === 'nom' && d.compte === null).map((d) => d.handle));
@@ -243,11 +281,12 @@ function xDe(nom, { table, fiche, scan, instagram }) {
   if (fiche?.x) return [{ handle: fiche.x, preuve: PREUVE.DECLAREE }];
   // Un site peut citer d'autres comptes X que le sien (Biarritz affichait @mapbox, sa carte) :
   // on garde celui qui porte le nom de l'entité ou de son compte Instagram, ou le seul affiché.
+  // Le seul compte affiché ne suffit plus : le 24/09/2026, le site de l'Ultra Trail de Pons n'affichait
+  // que @RaccourciAgency — l'agence qui l'a construit, présentée dans le kit comme « Pons ».
   const liste = scan.x ?? [];
   const igs = instagram.map((c) => compact(c.handle));
   const porte = liste.find((h) => igs.includes(compact(h)) || couverture(h, nom) >= 0.6);
-  const choisi = porte ?? (liste.length === 1 ? liste[0] : null);
-  return choisi ? [{ handle: choisi, preuve: PREUVE.DECLAREE }] : [];
+  return porte ? [{ handle: porte, preuve: PREUVE.DECLAREE }] : [];
 }
 
 // ── Threads : même pseudo qu'Instagram, présence vérifiée ──
@@ -384,6 +423,26 @@ export async function identifierCommune(ville, { departement = '', nature = 'mai
     .filter((c) => retenir(c, { preuve: PREUVE.DECLAREE }).garde)
     .map((c) => ({ ...c, preuve: PREUVE.DECLAREE }));
 
+  // 1 bis. Les sites probables de la mairie ou de l'office, quand la fiche n'a rien donné. Le compte
+  // doit alors avoir l'allure attendue sans détour : « Ville de… », « mairie », ou « tourisme ».
+  let siteProbable = null;
+  if (!instagram.length) {
+    for (const url of sitesProbables(ville, nature)) {
+      const s = await outils.site(url).catch(() => VIDE);
+      const pseudos = uniques(s?.insta ?? []);
+      if (!pseudos.length) continue;
+      const vus = (await enParallele(pseudos, 4, (h) => outils.decrire(h))).filter(Boolean);
+      const attendu = (c) => natureDe(c) === nature && (nature === 'mairie' ? municipalStrict(ville, c) : porteLaCommune(ville, c));
+      const ok = vus.filter((c) => attendu(c) && retenir(c, { preuve: PREUVE.DECLAREE }).garde)
+        .map((c) => ({ ...c, preuve: domaine(c.site) === domaine(url) ? PREUVE.DECLAREE : PREUVE.CONSTRUITE }));
+      if (ok.length) {
+        instagram = ok;
+        siteProbable = { url, scan: s };
+        break;
+      }
+    }
+  }
+
   // 2. Les formes usuelles, en dernier recours
   if (!instagram.length) {
     const trouves = await surInstagram(ville, {
@@ -398,16 +457,37 @@ export async function identifierCommune(ville, { departement = '', nature = 'mai
   }
   instagram = instagram.sort((a, b) => b.preuve - a.preuve || (b.abonnes ?? 0) - (a.abonnes ?? 0)).slice(0, HOMONYMES_MAX);
 
-  const blueskyDeclare = nature === 'mairie' ? uniques([fiche?.bluesky, ...(scan.bluesky ?? [])]) : [];
+  const scanProbable = siteProbable?.scan ?? VIDE;
+  const blueskyDeclare = nature === 'mairie' ? uniques([fiche?.bluesky, ...(scan.bluesky ?? []), ...(scanProbable.bluesky ?? [])]) : [];
   let bluesky = [];
   for (const h of blueskyDeclare) {
     const p = await outils.profilBluesky(h);
     if (p) { bluesky = [{ handle: p.handle, nom: p.nom, abonnes: p.abonnes, preuve: PREUVE.DECLAREE }]; break; }
   }
-  if (!bluesky.length) bluesky = await parDomaine(nature === 'mairie' ? [dSite] : [], outils);
+  if (!bluesky.length) bluesky = await parDomaine(nature === 'mairie' ? [dSite, domaine(siteProbable?.url)] : [], outils);
   if (!bluesky.length) bluesky = await jumeauxBluesky(instagram, outils);
 
-  const threads = await threadsDe(instagram, { declares: nature === 'mairie' ? [fiche?.threads, ...(scan.threads ?? [])] : [], outils });
+  const threads = await threadsDe(instagram, { declares: nature === 'mairie' ? [fiche?.threads, ...(scan.threads ?? []), ...(scanProbable.threads ?? [])] : [], outils });
   const x = nature === 'mairie' && fiche?.x ? [{ handle: fiche.x, preuve: PREUVE.DECLAREE }] : [];
   return { instagram, x, threads, bluesky };
+}
+
+// Le compte d'une mairie trouvé sur un site deviné doit le dire lui-même : « Ville de… », « Mairie… »,
+// un pseudo « ville » ou « mairie ». Le nom de la commune seul ne suffit pas — une entreprise peut
+// porter le nom de sa ville.
+const municipalStrict = (ville, c) => porteLaCommune(ville, c)
+  && (/\b(ville|mairie|commune|city)\b/.test(fold(c.nom)) || /ville|mairie|maville|commune/.test(c.handle ?? ''));
+
+// Sites probables de la mairie ou de l'office de tourisme, quand la fiche Wikidata n'en donne pas de
+// valable. Le 04/10/2026, celle d'Hendaye indiquait hendaye.com, qui ne répond plus : hendaye.fr
+// déclare @villehendaye64700, hendaye-tourisme.fr @hendaye_tourisme_et_commerce — deux pseudos
+// qu'aucune forme usuelle ne bâtit.
+export function sitesProbables(ville, nature = 'mairie') {
+  const mots = fold(ville).split(/[^a-z0-9]+/).filter(Boolean);
+  if (!mots.length) return [];
+  const [tiret, colle] = [mots.join('-'), mots.join('')];
+  const formes = nature === 'tourisme'
+    ? [`${tiret}-tourisme.fr`, `tourisme-${tiret}.fr`, `${colle}-tourisme.fr`, `${colle}tourisme.fr`]
+    : [`${tiret}.fr`, `${colle}.fr`, `ville-${tiret}.fr`, `mairie-${tiret}.fr`];
+  return [...new Set(formes)].map((d) => `https://www.${d}/`);
 }

@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-06T07:20:39.131Z",
+  "genereLe": "2026-10-06T08:00:40.112Z",
   "jour": "2026-10-06",
   "reseaux": {
     "instagram": {
@@ -61,7 +61,7 @@
         "reply"
       ],
       "aujourdhui": 1,
-      "semaine": 9,
+      "semaine": 8,
       "total": 30,
       "dernier": "2026-10-06T06:23:57.806Z",
       "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mx6s7mcb242r"
@@ -564,14 +564,14 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 194,
+    "releves": 195,
     "parReseau": {
       "instagram": {
         "posts": 23,
         "interactionsMoyennes": 24.4
       },
       "bluesky": {
-        "posts": 21,
+        "posts": 22,
         "interactionsMoyennes": 0.4
       },
       "facebook": {
@@ -643,7 +643,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-06T06:20:47.985Z"
+    "derniere": "2026-10-06T08:00:40.112Z"
   },
   "abonnes": {
     "instagram": {
@@ -682,7 +682,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-06T07:20:47.127Z",
+    "genereLe": "2026-10-06T08:00:48.417Z",
     "posts": 24,
     "parReseau": {
       "instagram": {

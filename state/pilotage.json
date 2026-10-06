@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-06T05:20:40.995Z",
+  "genereLe": "2026-10-06T06:00:45.818Z",
   "jour": "2026-10-06",
   "reseaux": {
     "instagram": {
@@ -559,7 +559,53 @@
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261004-fbd02dce-th.jpg"
     }
   ],
-  "file": [],
+  "file": [
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-10-06T06:23:56.318Z",
+      "prochainPassage": "2026-10-06T07:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "À Limoges, Le Cheverny abrite une des meilleures caves de France"
+    },
+    {
+      "channel": "threads",
+      "dueAt": "2026-10-06T06:29:06.017Z",
+      "prochainPassage": "2026-10-06T07:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "À Limoges, Le Cheverny abrite une des meilleures caves de France"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-10-06T06:34:19.154Z",
+      "prochainPassage": "2026-10-06T07:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "À Limoges, Le Cheverny abrite une des meilleures caves de France"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-10-06T07:00:00.000Z",
+      "prochainPassage": "2026-10-06T07:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "À Limoges, Le Cheverny abrite une des meilleures caves de France"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-10-06T11:12:05.859Z",
+      "prochainPassage": "2026-10-06T11:20:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "À Limoges, Le Cheverny abrite une des meilleures caves de France"
+    }
+  ],
   "alertes": [],
   "mesures": {
     "releves": 188,
@@ -680,7 +726,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-06T05:20:45.301Z",
+    "genereLe": "2026-10-06T06:01:08.909Z",
     "posts": 20,
     "parReseau": {
       "instagram": {
@@ -876,29 +922,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 0,
-      "entree": 0,
-      "sortie": 0,
-      "cout": 0,
+      "appels": 1,
+      "entree": 7721,
+      "sortie": 787,
+      "cout": 0.046624,
       "cle": "2026-10-06"
     },
     "semaine": {
-      "appels": 14,
-      "entree": 107862,
-      "sortie": 13677,
-      "cout": 0.7049880000000001
+      "appels": 15,
+      "entree": 115583,
+      "sortie": 14464,
+      "cout": 0.7516120000000001
     },
     "mois": {
-      "appels": 13,
-      "entree": 100190,
-      "sortie": 12874,
-      "cout": 0.6582399999999999,
+      "appels": 14,
+      "entree": 107911,
+      "sortie": 13661,
+      "cout": 0.7048639999999999,
       "cle": "2026-10"
     },
-    "projection": 3.4,
-    "moyenneAppel": 0.0506,
+    "projection": 3.64,
+    "moyenneAppel": 0.0503,
     "parModele": {
-      "claude-opus-5-5": 13
+      "claude-opus-5-5": 14
     },
     "serie": [
       [
@@ -955,7 +1001,7 @@
       ],
       [
         "2026-10-06",
-        0
+        0.0466
       ]
     ],
     "depuis": "2026-09-23"

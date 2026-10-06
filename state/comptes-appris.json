@@ -991,5 +991,121 @@
         "preuve": 2
       }
     ]
+  },
+  "commune:mairie:limoges": {
+    "v": 2,
+    "cherche": "2026-10-06T06:00:57.672Z",
+    "instagram": [
+      {
+        "handle": "ville_de_limoges",
+        "nom": "Ville de Limoges",
+        "abonnes": 41920,
+        "preuve": 3
+      }
+    ],
+    "x": [
+      {
+        "handle": "VilleLimoges87",
+        "nom": "",
+        "abonnes": null,
+        "preuve": 3
+      }
+    ],
+    "threads": [
+      {
+        "handle": "ville_de_limoges",
+        "nom": "Ville de Limoges",
+        "abonnes": 41920,
+        "preuve": 3
+      }
+    ],
+    "bluesky": []
+  },
+  "commune:tourisme:limoges": {
+    "v": 2,
+    "cherche": "2026-10-06T06:00:57.672Z",
+    "instagram": [
+      {
+        "handle": "limogestourisme",
+        "nom": "Limoges Tourisme",
+        "abonnes": 22724,
+        "preuve": 2
+      }
+    ],
+    "x": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "vivier:vin:vinsdebordeaux,vinetsociete": {
+    "v": 2,
+    "cherche": "2026-10-06T06:00:57.672Z",
+    "instagram": [
+      {
+        "handle": "vinsdebordeaux",
+        "nom": "Vins de Bordeaux",
+        "abonnes": 52236,
+        "preuve": 3
+      },
+      {
+        "handle": "vinetsociete",
+        "nom": "Vin & Société",
+        "abonnes": 2291,
+        "preuve": 3
+      }
+    ],
+    "threads": [],
+    "bluesky": [],
+    "x": []
+  },
+  "locale:limoges:vin": {
+    "v": 2,
+    "cherche": "2026-10-06T06:00:57.672Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "domaine:vin": {
+    "v": 2,
+    "cherche": "2026-10-06T06:00:57.672Z",
+    "instagram": [],
+    "bluesky": [],
+    "threads": []
+  },
+  "locale:limoges:gastronomie": {
+    "v": 2,
+    "cherche": "2026-10-06T06:00:57.672Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "domaine:gastronomie": {
+    "v": 2,
+    "cherche": "2026-10-06T06:00:57.672Z",
+    "instagram": [],
+    "bluesky": [],
+    "threads": []
+  },
+  "territoire:haute-vienne:hautevienne_dep": {
+    "v": 2,
+    "cherche": "2026-10-06T06:00:57.672Z",
+    "conseil": {
+      "instagram": [
+        {
+          "handle": "hautevienne_dep",
+          "nom": "Département de la Haute-Vienne",
+          "abonnes": 13922,
+          "preuve": 3
+        }
+      ],
+      "threads": [],
+      "bluesky": [],
+      "x": []
+    },
+    "tourisme": {
+      "instagram": [],
+      "threads": [],
+      "bluesky": [],
+      "x": []
+    }
   }
 }

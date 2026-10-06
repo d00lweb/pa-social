@@ -1,1 +1,732 @@
-[]
+[
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35575",
+    "channel": "instagram",
+    "dueAt": 1791285125859,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "À Limoges, Le Cheverny abrite une des meilleures caves de France",
+      "link": "https://passion-aquitaine.ouest-france.fr/cheverny-limoges-restaurant-usine-cave/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35575",
+      "pubDate": "Tue, 06 Oct 2026 05:30:00 +0000",
+      "date": 1791264600000,
+      "categories": [
+        "Haute-Vienne",
+        "Restaurants"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/09/cave-vins-cheverny.jpeg",
+      "description": "Le Cheverny, restaurant familial de Limoges installé dans une ancienne usine, possède l’une des meilleures cartes des vins de France."
+    },
+    "dossier": {
+      "nature": "evergreen",
+      "sensible": false,
+      "rubrique": "Limoges",
+      "visuel": {
+        "titre": "Le Cheverny abrite une des meilleures caves de France",
+        "surlignage": "meilleures caves",
+        "description": "Ce restaurant familial s’est installé dans une ancienne usine. Sa carte des vins compte parmi les plus remarquables du pays.",
+        "texte_alternatif": "Le Cheverny, restaurant familial installé dans une ancienne usine à Limoges, possède l’une des meilleures cartes des vins de France."
+      },
+      "entites": [
+        {
+          "nom": "Le Cheverny Limoges",
+          "role": "sujet"
+        }
+      ],
+      "domaines": [
+        "vin",
+        "gastronomie"
+      ],
+      "lieu": {
+        "id": "111518152200515",
+        "nom": "Limoges",
+        "niveau": "ville"
+      },
+      "instagram": {
+        "texte": "Des bouteilles d’exception là où tournaient autrefois des machines 🍾\nÀ Limoges, Le Cheverny, restaurant familial niché dans une ancienne usine, cache l’une des meilleures cartes des vins de France. Une adresse à connaître pour les amateurs de vin en Haute-Vienne.",
+        "hashtags": [
+          "#Limoges",
+          "#CarteDesVins",
+          "#HauteVienne"
+        ]
+      },
+      "facebook": {
+        "texte": "Qui imaginerait qu’une ancienne usine de Limoges cache l’une des plus belles cartes des vins de France ? 🍷"
+      },
+      "bluesky": {
+        "texte": "L’une des meilleures cartes des vins de France se trouve dans un restaurant familial de Limoges. Le Cheverny a pris place dans une ancienne usine, devenue une adresse de choix pour les amateurs 🥂",
+        "hashtag": "#Limoges"
+      },
+      "threads": {
+        "texte": "🍇 Limoges, une ancienne usine, et à l’intérieur un restaurant familial : Le Cheverny. Rien ne laisse deviner que sa cave figure parmi les meilleures de France. Une belle surprise pour qui aime le vin et les lieux chargés d’histoire.",
+        "sujet": "Limoges"
+      },
+      "x": {
+        "texte": "Une ancienne usine de Limoges abrite l’une des meilleures caves de France 🍷 Derrière ce trésor, un restaurant familial : Le Cheverny."
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 7721,
+        "output": 787
+      },
+      "angles": {
+        "instagram": "image évocatrice",
+        "facebook": "question intrigante",
+        "bluesky": "chiffre ou fait marquant en tête",
+        "threads": "lieu en tête",
+        "x": "effet de surprise"
+      },
+      "lieuSource": {
+        "precis": "Le Cheverny",
+        "ville": "Limoges",
+        "departement": "Haute-Vienne"
+      },
+      "lieuNom": "Le Cheverny",
+      "commune": "Limoges",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Le Cheverny Limoges",
+            "handle": "lechevernylimoges",
+            "abonnes": 3009,
+            "preuve": 3,
+            "role": "sujet",
+            "echelon": "sujet"
+          },
+          {
+            "nom": "Ville de Limoges",
+            "handle": "ville_de_limoges",
+            "abonnes": 41920,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          },
+          {
+            "nom": "Vins de Bordeaux",
+            "handle": "vinsdebordeaux",
+            "abonnes": 52236,
+            "preuve": 3,
+            "role": "theme",
+            "echelon": "domaine",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "Limoges",
+            "handle": "VilleLimoges87",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          }
+        ],
+        "bluesky": [],
+        "threads": [
+          {
+            "nom": "Ville de Limoges",
+            "handle": "ville_de_limoges",
+            "abonnes": 41920,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          }
+        ],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35575",
+    "channel": "bluesky",
+    "dueAt": 1791267836318,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "À Limoges, Le Cheverny abrite une des meilleures caves de France",
+      "link": "https://passion-aquitaine.ouest-france.fr/cheverny-limoges-restaurant-usine-cave/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35575",
+      "pubDate": "Tue, 06 Oct 2026 05:30:00 +0000",
+      "date": 1791264600000,
+      "categories": [
+        "Haute-Vienne",
+        "Restaurants"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/09/cave-vins-cheverny.jpeg",
+      "description": "Le Cheverny, restaurant familial de Limoges installé dans une ancienne usine, possède l’une des meilleures cartes des vins de France."
+    },
+    "dossier": {
+      "nature": "evergreen",
+      "sensible": false,
+      "rubrique": "Limoges",
+      "visuel": {
+        "titre": "Le Cheverny abrite une des meilleures caves de France",
+        "surlignage": "meilleures caves",
+        "description": "Ce restaurant familial s’est installé dans une ancienne usine. Sa carte des vins compte parmi les plus remarquables du pays.",
+        "texte_alternatif": "Le Cheverny, restaurant familial installé dans une ancienne usine à Limoges, possède l’une des meilleures cartes des vins de France."
+      },
+      "entites": [
+        {
+          "nom": "Le Cheverny Limoges",
+          "role": "sujet"
+        }
+      ],
+      "domaines": [
+        "vin",
+        "gastronomie"
+      ],
+      "lieu": {
+        "id": "111518152200515",
+        "nom": "Limoges",
+        "niveau": "ville"
+      },
+      "instagram": {
+        "texte": "Des bouteilles d’exception là où tournaient autrefois des machines 🍾\nÀ Limoges, Le Cheverny, restaurant familial niché dans une ancienne usine, cache l’une des meilleures cartes des vins de France. Une adresse à connaître pour les amateurs de vin en Haute-Vienne.",
+        "hashtags": [
+          "#Limoges",
+          "#CarteDesVins",
+          "#HauteVienne"
+        ]
+      },
+      "facebook": {
+        "texte": "Qui imaginerait qu’une ancienne usine de Limoges cache l’une des plus belles cartes des vins de France ? 🍷"
+      },
+      "bluesky": {
+        "texte": "L’une des meilleures cartes des vins de France se trouve dans un restaurant familial de Limoges. Le Cheverny a pris place dans une ancienne usine, devenue une adresse de choix pour les amateurs 🥂",
+        "hashtag": "#Limoges"
+      },
+      "threads": {
+        "texte": "🍇 Limoges, une ancienne usine, et à l’intérieur un restaurant familial : Le Cheverny. Rien ne laisse deviner que sa cave figure parmi les meilleures de France. Une belle surprise pour qui aime le vin et les lieux chargés d’histoire.",
+        "sujet": "Limoges"
+      },
+      "x": {
+        "texte": "Une ancienne usine de Limoges abrite l’une des meilleures caves de France 🍷 Derrière ce trésor, un restaurant familial : Le Cheverny."
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 7721,
+        "output": 787
+      },
+      "angles": {
+        "instagram": "image évocatrice",
+        "facebook": "question intrigante",
+        "bluesky": "chiffre ou fait marquant en tête",
+        "threads": "lieu en tête",
+        "x": "effet de surprise"
+      },
+      "lieuSource": {
+        "precis": "Le Cheverny",
+        "ville": "Limoges",
+        "departement": "Haute-Vienne"
+      },
+      "lieuNom": "Le Cheverny",
+      "commune": "Limoges",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Le Cheverny Limoges",
+            "handle": "lechevernylimoges",
+            "abonnes": 3009,
+            "preuve": 3,
+            "role": "sujet",
+            "echelon": "sujet"
+          },
+          {
+            "nom": "Ville de Limoges",
+            "handle": "ville_de_limoges",
+            "abonnes": 41920,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          },
+          {
+            "nom": "Vins de Bordeaux",
+            "handle": "vinsdebordeaux",
+            "abonnes": 52236,
+            "preuve": 3,
+            "role": "theme",
+            "echelon": "domaine",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "Limoges",
+            "handle": "VilleLimoges87",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          }
+        ],
+        "bluesky": [],
+        "threads": [
+          {
+            "nom": "Ville de Limoges",
+            "handle": "ville_de_limoges",
+            "abonnes": 41920,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          }
+        ],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35575",
+    "channel": "facebook",
+    "dueAt": 1791268459154,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "À Limoges, Le Cheverny abrite une des meilleures caves de France",
+      "link": "https://passion-aquitaine.ouest-france.fr/cheverny-limoges-restaurant-usine-cave/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35575",
+      "pubDate": "Tue, 06 Oct 2026 05:30:00 +0000",
+      "date": 1791264600000,
+      "categories": [
+        "Haute-Vienne",
+        "Restaurants"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/09/cave-vins-cheverny.jpeg",
+      "description": "Le Cheverny, restaurant familial de Limoges installé dans une ancienne usine, possède l’une des meilleures cartes des vins de France."
+    },
+    "dossier": {
+      "nature": "evergreen",
+      "sensible": false,
+      "rubrique": "Limoges",
+      "visuel": {
+        "titre": "Le Cheverny abrite une des meilleures caves de France",
+        "surlignage": "meilleures caves",
+        "description": "Ce restaurant familial s’est installé dans une ancienne usine. Sa carte des vins compte parmi les plus remarquables du pays.",
+        "texte_alternatif": "Le Cheverny, restaurant familial installé dans une ancienne usine à Limoges, possède l’une des meilleures cartes des vins de France."
+      },
+      "entites": [
+        {
+          "nom": "Le Cheverny Limoges",
+          "role": "sujet"
+        }
+      ],
+      "domaines": [
+        "vin",
+        "gastronomie"
+      ],
+      "lieu": {
+        "id": "111518152200515",
+        "nom": "Limoges",
+        "niveau": "ville"
+      },
+      "instagram": {
+        "texte": "Des bouteilles d’exception là où tournaient autrefois des machines 🍾\nÀ Limoges, Le Cheverny, restaurant familial niché dans une ancienne usine, cache l’une des meilleures cartes des vins de France. Une adresse à connaître pour les amateurs de vin en Haute-Vienne.",
+        "hashtags": [
+          "#Limoges",
+          "#CarteDesVins",
+          "#HauteVienne"
+        ]
+      },
+      "facebook": {
+        "texte": "Qui imaginerait qu’une ancienne usine de Limoges cache l’une des plus belles cartes des vins de France ? 🍷"
+      },
+      "bluesky": {
+        "texte": "L’une des meilleures cartes des vins de France se trouve dans un restaurant familial de Limoges. Le Cheverny a pris place dans une ancienne usine, devenue une adresse de choix pour les amateurs 🥂",
+        "hashtag": "#Limoges"
+      },
+      "threads": {
+        "texte": "🍇 Limoges, une ancienne usine, et à l’intérieur un restaurant familial : Le Cheverny. Rien ne laisse deviner que sa cave figure parmi les meilleures de France. Une belle surprise pour qui aime le vin et les lieux chargés d’histoire.",
+        "sujet": "Limoges"
+      },
+      "x": {
+        "texte": "Une ancienne usine de Limoges abrite l’une des meilleures caves de France 🍷 Derrière ce trésor, un restaurant familial : Le Cheverny."
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 7721,
+        "output": 787
+      },
+      "angles": {
+        "instagram": "image évocatrice",
+        "facebook": "question intrigante",
+        "bluesky": "chiffre ou fait marquant en tête",
+        "threads": "lieu en tête",
+        "x": "effet de surprise"
+      },
+      "lieuSource": {
+        "precis": "Le Cheverny",
+        "ville": "Limoges",
+        "departement": "Haute-Vienne"
+      },
+      "lieuNom": "Le Cheverny",
+      "commune": "Limoges",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Le Cheverny Limoges",
+            "handle": "lechevernylimoges",
+            "abonnes": 3009,
+            "preuve": 3,
+            "role": "sujet",
+            "echelon": "sujet"
+          },
+          {
+            "nom": "Ville de Limoges",
+            "handle": "ville_de_limoges",
+            "abonnes": 41920,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          },
+          {
+            "nom": "Vins de Bordeaux",
+            "handle": "vinsdebordeaux",
+            "abonnes": 52236,
+            "preuve": 3,
+            "role": "theme",
+            "echelon": "domaine",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "Limoges",
+            "handle": "VilleLimoges87",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          }
+        ],
+        "bluesky": [],
+        "threads": [
+          {
+            "nom": "Ville de Limoges",
+            "handle": "ville_de_limoges",
+            "abonnes": 41920,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          }
+        ],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35575",
+    "channel": "threads",
+    "dueAt": 1791268146017,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "À Limoges, Le Cheverny abrite une des meilleures caves de France",
+      "link": "https://passion-aquitaine.ouest-france.fr/cheverny-limoges-restaurant-usine-cave/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35575",
+      "pubDate": "Tue, 06 Oct 2026 05:30:00 +0000",
+      "date": 1791264600000,
+      "categories": [
+        "Haute-Vienne",
+        "Restaurants"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/09/cave-vins-cheverny.jpeg",
+      "description": "Le Cheverny, restaurant familial de Limoges installé dans une ancienne usine, possède l’une des meilleures cartes des vins de France."
+    },
+    "dossier": {
+      "nature": "evergreen",
+      "sensible": false,
+      "rubrique": "Limoges",
+      "visuel": {
+        "titre": "Le Cheverny abrite une des meilleures caves de France",
+        "surlignage": "meilleures caves",
+        "description": "Ce restaurant familial s’est installé dans une ancienne usine. Sa carte des vins compte parmi les plus remarquables du pays.",
+        "texte_alternatif": "Le Cheverny, restaurant familial installé dans une ancienne usine à Limoges, possède l’une des meilleures cartes des vins de France."
+      },
+      "entites": [
+        {
+          "nom": "Le Cheverny Limoges",
+          "role": "sujet"
+        }
+      ],
+      "domaines": [
+        "vin",
+        "gastronomie"
+      ],
+      "lieu": {
+        "id": "111518152200515",
+        "nom": "Limoges",
+        "niveau": "ville"
+      },
+      "instagram": {
+        "texte": "Des bouteilles d’exception là où tournaient autrefois des machines 🍾\nÀ Limoges, Le Cheverny, restaurant familial niché dans une ancienne usine, cache l’une des meilleures cartes des vins de France. Une adresse à connaître pour les amateurs de vin en Haute-Vienne.",
+        "hashtags": [
+          "#Limoges",
+          "#CarteDesVins",
+          "#HauteVienne"
+        ]
+      },
+      "facebook": {
+        "texte": "Qui imaginerait qu’une ancienne usine de Limoges cache l’une des plus belles cartes des vins de France ? 🍷"
+      },
+      "bluesky": {
+        "texte": "L’une des meilleures cartes des vins de France se trouve dans un restaurant familial de Limoges. Le Cheverny a pris place dans une ancienne usine, devenue une adresse de choix pour les amateurs 🥂",
+        "hashtag": "#Limoges"
+      },
+      "threads": {
+        "texte": "🍇 Limoges, une ancienne usine, et à l’intérieur un restaurant familial : Le Cheverny. Rien ne laisse deviner que sa cave figure parmi les meilleures de France. Une belle surprise pour qui aime le vin et les lieux chargés d’histoire.",
+        "sujet": "Limoges"
+      },
+      "x": {
+        "texte": "Une ancienne usine de Limoges abrite l’une des meilleures caves de France 🍷 Derrière ce trésor, un restaurant familial : Le Cheverny."
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 7721,
+        "output": 787
+      },
+      "angles": {
+        "instagram": "image évocatrice",
+        "facebook": "question intrigante",
+        "bluesky": "chiffre ou fait marquant en tête",
+        "threads": "lieu en tête",
+        "x": "effet de surprise"
+      },
+      "lieuSource": {
+        "precis": "Le Cheverny",
+        "ville": "Limoges",
+        "departement": "Haute-Vienne"
+      },
+      "lieuNom": "Le Cheverny",
+      "commune": "Limoges",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Le Cheverny Limoges",
+            "handle": "lechevernylimoges",
+            "abonnes": 3009,
+            "preuve": 3,
+            "role": "sujet",
+            "echelon": "sujet"
+          },
+          {
+            "nom": "Ville de Limoges",
+            "handle": "ville_de_limoges",
+            "abonnes": 41920,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          },
+          {
+            "nom": "Vins de Bordeaux",
+            "handle": "vinsdebordeaux",
+            "abonnes": 52236,
+            "preuve": 3,
+            "role": "theme",
+            "echelon": "domaine",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "Limoges",
+            "handle": "VilleLimoges87",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          }
+        ],
+        "bluesky": [],
+        "threads": [
+          {
+            "nom": "Ville de Limoges",
+            "handle": "ville_de_limoges",
+            "abonnes": 41920,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          }
+        ],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35575",
+    "channel": "x",
+    "dueAt": 1791270000000,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "À Limoges, Le Cheverny abrite une des meilleures caves de France",
+      "link": "https://passion-aquitaine.ouest-france.fr/cheverny-limoges-restaurant-usine-cave/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35575",
+      "pubDate": "Tue, 06 Oct 2026 05:30:00 +0000",
+      "date": 1791264600000,
+      "categories": [
+        "Haute-Vienne",
+        "Restaurants"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/09/cave-vins-cheverny.jpeg",
+      "description": "Le Cheverny, restaurant familial de Limoges installé dans une ancienne usine, possède l’une des meilleures cartes des vins de France."
+    },
+    "dossier": {
+      "nature": "evergreen",
+      "sensible": false,
+      "rubrique": "Limoges",
+      "visuel": {
+        "titre": "Le Cheverny abrite une des meilleures caves de France",
+        "surlignage": "meilleures caves",
+        "description": "Ce restaurant familial s’est installé dans une ancienne usine. Sa carte des vins compte parmi les plus remarquables du pays.",
+        "texte_alternatif": "Le Cheverny, restaurant familial installé dans une ancienne usine à Limoges, possède l’une des meilleures cartes des vins de France."
+      },
+      "entites": [
+        {
+          "nom": "Le Cheverny Limoges",
+          "role": "sujet"
+        }
+      ],
+      "domaines": [
+        "vin",
+        "gastronomie"
+      ],
+      "lieu": {
+        "id": "111518152200515",
+        "nom": "Limoges",
+        "niveau": "ville"
+      },
+      "instagram": {
+        "texte": "Des bouteilles d’exception là où tournaient autrefois des machines 🍾\nÀ Limoges, Le Cheverny, restaurant familial niché dans une ancienne usine, cache l’une des meilleures cartes des vins de France. Une adresse à connaître pour les amateurs de vin en Haute-Vienne.",
+        "hashtags": [
+          "#Limoges",
+          "#CarteDesVins",
+          "#HauteVienne"
+        ]
+      },
+      "facebook": {
+        "texte": "Qui imaginerait qu’une ancienne usine de Limoges cache l’une des plus belles cartes des vins de France ? 🍷"
+      },
+      "bluesky": {
+        "texte": "L’une des meilleures cartes des vins de France se trouve dans un restaurant familial de Limoges. Le Cheverny a pris place dans une ancienne usine, devenue une adresse de choix pour les amateurs 🥂",
+        "hashtag": "#Limoges"
+      },
+      "threads": {
+        "texte": "🍇 Limoges, une ancienne usine, et à l’intérieur un restaurant familial : Le Cheverny. Rien ne laisse deviner que sa cave figure parmi les meilleures de France. Une belle surprise pour qui aime le vin et les lieux chargés d’histoire.",
+        "sujet": "Limoges"
+      },
+      "x": {
+        "texte": "Une ancienne usine de Limoges abrite l’une des meilleures caves de France 🍷 Derrière ce trésor, un restaurant familial : Le Cheverny."
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 7721,
+        "output": 787
+      },
+      "angles": {
+        "instagram": "image évocatrice",
+        "facebook": "question intrigante",
+        "bluesky": "chiffre ou fait marquant en tête",
+        "threads": "lieu en tête",
+        "x": "effet de surprise"
+      },
+      "lieuSource": {
+        "precis": "Le Cheverny",
+        "ville": "Limoges",
+        "departement": "Haute-Vienne"
+      },
+      "lieuNom": "Le Cheverny",
+      "commune": "Limoges",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Le Cheverny Limoges",
+            "handle": "lechevernylimoges",
+            "abonnes": 3009,
+            "preuve": 3,
+            "role": "sujet",
+            "echelon": "sujet"
+          },
+          {
+            "nom": "Ville de Limoges",
+            "handle": "ville_de_limoges",
+            "abonnes": 41920,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          },
+          {
+            "nom": "Vins de Bordeaux",
+            "handle": "vinsdebordeaux",
+            "abonnes": 52236,
+            "preuve": 3,
+            "role": "theme",
+            "echelon": "domaine",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "Limoges",
+            "handle": "VilleLimoges87",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          }
+        ],
+        "bluesky": [],
+        "threads": [
+          {
+            "nom": "Ville de Limoges",
+            "handle": "ville_de_limoges",
+            "abonnes": 41920,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          }
+        ],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  }
+]

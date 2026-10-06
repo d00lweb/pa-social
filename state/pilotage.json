@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-06T09:00:45.753Z",
+  "genereLe": "2026-10-06T09:20:52.452Z",
   "jour": "2026-10-06",
   "reseaux": {
     "instagram": {
@@ -564,19 +564,19 @@
     "parReseau": {
       "instagram": {
         "posts": 23,
-        "interactionsMoyennes": 23.5
+        "interactionsMoyennes": 22.1
       },
       "bluesky": {
         "posts": 22,
-        "interactionsMoyennes": 0.3
+        "interactionsMoyennes": 0.2
       },
       "facebook": {
         "posts": 19,
-        "interactionsMoyennes": 0.3
+        "interactionsMoyennes": 0
       },
       "threads": {
         "posts": 19,
-        "interactionsMoyennes": 9.6
+        "interactionsMoyennes": 9.5
       }
     }
   },
@@ -678,7 +678,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-06T09:01:08.101Z",
+    "genereLe": "2026-10-06T09:21:24.492Z",
     "posts": 24,
     "parReseau": {
       "instagram": {

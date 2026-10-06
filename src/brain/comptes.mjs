@@ -2,8 +2,9 @@ import { fold, choisir, nomExploitable } from './annuaire.mjs';
 import { PREUVE, SEUILS_LOCAUX, surInstagram, formesLocales, sujetTouristique } from './decouverte.mjs';
 import {
   TABLES, identifier, identifierCommune, territoireDe, threadsDe, jumeauxBluesky, porteLaCommune,
-  variantesHandle, garderLesMeilleurs, AUDIENCE_MINIMALE,
+  variantesHandle, garderLesMeilleurs, AUDIENCE_MINIMALE, natureDe, decrireEnseignes,
 } from './identite.mjs';
+import { lireEnseignes, comptesEnseignes, VIDE as AUCUN_ENSEIGNE } from './enseignes.mjs';
 import { enParallele } from '../core/parallele.mjs';
 import { fiche } from '../sources/wikidata.mjs';
 import { handlesFromSite } from '../sources/site.mjs';
@@ -54,6 +55,8 @@ export function outilsReels(suivi = { incertain: false }) {
     },
     liensArticle: (url) => liensArticle(url),
     avecSuivi() { return outilsReels({ incertain: false }); },
+    // les comptes enseignés depuis Telegram (/compte, /jamais) : prioritaires sur toute recherche
+    enseignes: () => lireEnseignes(),
     async charger() { const { loadJson } = await import('../core/state.mjs'); return loadJson('comptes-appris.json', {}); },
     async enregistrer(v) { const { saveJson } = await import('../core/state.mjs'); return saveJson('comptes-appris.json', v); },
   };
@@ -99,12 +102,13 @@ export function aChercher(entite, commune = null) {
   return { ...entite, nom: avecCommune, nomFixe: nom, seul };
 }
 
-async function comptesDesSujets(entites, { max, texte, liens, image, commune, outils, log }) {
+async function comptesDesSujets(entites, { max, texte, liens, image, commune, enseignes, outils, log }) {
   // Un nom d'un seul mot — « Belem », « Hermione » — ne permet aucune devinette : @lebelem est un
   // café bar. Il reste exploitable par la seule voie sûre, la fiche départagée par le contexte.
   const exploitables = entites.map((e) => aChercher(e, commune));
   const retenues = choisir(exploitables.map((e) => ({ ...e, entite: e.nom, handle: e.nom })), { max });
-  const resultats = await enParallele(retenues, 3, (entite) => identifier(entite, { contexte: texte ?? '', liens, image, outils, log })
+  const appris = (e) => [...new Set([...comptesEnseignes(enseignes, e.nomFixe), ...comptesEnseignes(enseignes, e.nom)])];
+  const resultats = await enParallele(retenues, 3, (entite) => identifier(entite, { contexte: texte ?? '', liens, image, enseignes: appris(entite), outils, log })
     .catch((e) => { log(`   Comptes « ${entite.nom} » : ${e.message}`); return null; }));
   const viviers = vide();
   retenues.forEach((entite, i) => {
@@ -119,14 +123,25 @@ async function comptesDesSujets(entites, { max, texte, liens, image, commune, ou
 }
 
 // ── Commune ──
-async function comptesDeLaCommune(ville, { departement, touristique, texte, ...ctx }) {
+async function comptesDeLaCommune(ville, { departement, touristique, texte, enseignes, ...ctx }) {
   const echelon = Object.fromEntries(RESEAUX.map((r) => [r, []]));
   if (!ville) return echelon;
   // La mairie parle de tout ce qui arrive sur son territoire ; l'office de tourisme ne parle
   // qu'aux visiteurs. Il n'est donc cherché que pour un sujet qui s'adresse à eux.
   const natures = touristique ? ['mairie', 'tourisme'] : ['mairie'];
   const trouves = vide();
+  // ce que l'équipe a enseigné pour cette commune passe avant la recherche, même mémorisée
+  const appris = await decrireEnseignes(comptesEnseignes(enseignes, ville), ville, ctx.outils);
   for (const nature of natures) {
+    const siens = appris.filter((c) => natureDe(c) === nature);
+    if (siens.length) {
+      const [threads, bluesky] = await Promise.all([threadsDe(siens, { outils: ctx.outils }), jumeauxBluesky(siens, ctx.outils)]);
+      const e = { instagram: siens, threads, bluesky };
+      for (const reseau of RESEAUX) {
+        for (const c of e[reseau] ?? []) trouves[reseau].push(entree(c, { nom: ville, role: 'commune', echelon: 'commune', thematique: true, nature }));
+      }
+      continue;
+    }
     const e = await memorise(`commune:${nature}:${fold(ville)}`, { ...ctx, jours: 90 }, async (outils) => {
       const r = await identifierCommune(ville, { departement, nature, outils, log: () => {} });
       return Object.fromEntries(Object.entries(r).map(([k, v]) => [k, resumer(v)]));
@@ -310,15 +325,17 @@ const parReseau = (valeur, reseau) => (Array.isArray(valeur) ? valeur : valeur?.
 
 // recents : mentions passées, réseau par réseau, de la plus ancienne à la plus récente ;
 // dernier : celles de l'article précédent, réseau par réseau.
-export function selectionner(echelons, { max = MAX_MENTIONS, autres = AUTRES_MAX, recents = {}, dernier = {} } = {}) {
+// exclus : comptes que l'équipe ne veut plus voir tagués (/jamais), sur aucun réseau ni à aucun échelon.
+export function selectionner(echelons, { max = MAX_MENTIONS, autres = AUTRES_MAX, recents = {}, dernier = {}, exclus = [] } = {}) {
   const plan = vide();
+  const bannis = new Set(exclus.map(fold));
   for (const reseau of RESEAUX) {
     const plafond = typeof max === 'number' ? max : (max[reseau] ?? 3);
     const liste = plan[reseau];
     const pris = (c) => liste.some((x) => fold(x.handle) === fold(c.handle));
     const ajouter = (candidats, jusqua) => { for (const c of candidats) if (liste.length < jusqua && !pris(c)) liste.push(c); };
     const precedent = new Set(parReseau(dernier, reseau).map(fold));
-    const tous = (nom) => (echelons[nom]?.[reseau] ?? []).flat();
+    const tous = (nom) => (echelons[nom]?.[reseau] ?? []).flat().filter((c) => !bannis.has(fold(c.handle)));
     const sujets = tous('sujet');
     // la ville, sauf si elle était déjà taguée à l'article précédent (trois articles bordelais d'affilée)
     const villes = tous('commune').filter((c) => !precedent.has(fold(c.handle)));
@@ -347,18 +364,19 @@ export async function resoudreComptes(entites = [], {
   const memoire = { valeurs: Object.fromEntries(Object.entries(valeurs).filter(([, e]) => e?.v === VERSION)), modifiee: Object.keys(valeurs).some((k) => valeurs[k]?.v !== VERSION) };
   const ctx = { outils, memoire, maintenant, log };
   const touristique = sujetTouristique(texte, categories);
+  const enseignes = outils.enseignes ? await outils.enseignes().catch(() => AUCUN_ENSEIGNE()) : AUCUN_ENSEIGNE();
   const liens = lien ? await outils.liensArticle(lien).catch(() => ({ sites: [], instagram: [] })) : { sites: [], instagram: [] };
 
   const echelons = {
     // le sujet entier : un festival et ses têtes d'affiche, le lieu qui l'accueille — cinq au plus
-    sujet: await comptesDesSujets(entites, { max: 5, texte, liens, image, commune, outils, log }),
-    commune: await comptesDeLaCommune(commune, { departement, touristique, texte, ...ctx }).catch((e) => { log(`   Commune : ${e.message}`); return {}; }),
+    sujet: await comptesDesSujets(entites, { max: 5, texte, liens, image, commune, enseignes, outils, log }),
+    commune: await comptesDeLaCommune(commune, { departement, touristique, texte, enseignes, ...ctx }).catch((e) => { log(`   Commune : ${e.message}`); return {}; }),
     domaine: await comptesDuDomaine(domaines, { ville: commune, texte, touristique, ...ctx }).catch((e) => { log(`   Domaine : ${e.message}`); return {}; }),
     territoire: await comptesDuTerritoire(departement, { touristique, texte, ...ctx }).catch((e) => { log(`   Territoire : ${e.message}`); return {}; }),
   };
   if (memoire.modifiee) await outils.enregistrer(memoire.valeurs).catch((e) => log(`   Comptes appris non enregistrés : ${e.message}`));
 
-  const plan = selectionner(echelons, { max, recents, dernier });
+  const plan = selectionner(echelons, { max, recents, dernier, exclus: enseignes.exclus ?? [] });
   for (const reseau of ['instagram', 'bluesky', 'threads', 'x']) {
     if (plan[reseau].length) log(`   Mentions ${reseau} : ${plan[reseau].map((c) => `@${c.handle} (${c.echelon})`).join(' · ')}`);
   }

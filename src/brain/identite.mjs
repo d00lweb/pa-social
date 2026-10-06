@@ -362,13 +362,22 @@ async function blueskyDe(entite, { fiche, scan, site, instagram, outils }) {
 }
 
 // ── Une entité nommée par l'article ──
-export async function identifier(entite, { contexte = '', liens = { sites: [], instagram: [] }, image = null, outils, log = () => {} }) {
+// Comptes enseignés depuis Telegram (/compte) : pris tels quels, décrits quand l'API le peut. Un
+// compte personnel que l'API ne décrit pas reste valable : l'équipe sait qui le tient.
+export async function decrireEnseignes(pseudos, nom, outils) {
+  return enParallele(pseudos, 4, async (h) => ({ ...((await outils.decrire(h)) ?? { nom, abonnes: null }), handle: h, preuve: PREUVE.DECLAREE }));
+}
+
+export async function identifier(entite, { contexte = '', liens = { sites: [], instagram: [] }, image = null, enseignes = [], outils, log = () => {} }) {
   const table = depuisTable(entite.nom) ?? {};
   const fiche = await outils.fiche(entite.nom, contexte);
   // le site officiel : celui de la fiche, sinon le lien de l'article dont l'adresse épelle le nom
   const site = fiche?.site ?? siteCite(entite.nom, liens.sites);
   const scan = site ? await outils.site(site) : VIDE;
-  const instagram = await instagramDe(entite, { table, fiche, site, scan, liens, image, outils, log });
+  // ce que l'équipe a enseigné passe avant toute recherche
+  const instagram = enseignes.length
+    ? await decrireEnseignes(enseignes, entite.nom, outils)
+    : await instagramDe(entite, { table, fiche, site, scan, liens, image, outils, log });
   const [threads, bluesky] = await Promise.all([
     threadsDe(instagram, { declares: [fiche?.threads, ...(scan.threads ?? [])], outils }),
     table.bluesky ? [{ handle: table.bluesky, preuve: PREUVE.DECLAREE }] : blueskyDe(entite, { fiche, scan, site, instagram, outils }),

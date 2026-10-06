@@ -89,6 +89,6 @@ export const CATALOGUE = [
   { id: 'jeton-echeance', titre: 'Jeton bientôt expiré', quand: 'seuil de jours restants', frequence: 'au plus 1 par semaine et par jeton', copiable: false, module: 'measure/jetons.mjs' },
   { id: 'jeton-refuse', titre: 'Jeton refusé', quand: 'refus du réseau à la publication', frequence: 'au plus 1 par jour', copiable: false, module: 'index.mjs' },
   { id: 'threads-reponse', titre: 'Réponse Threads non postée', quand: 'échec de la réponse portant le lien', frequence: 'rare', copiable: true, module: 'channels/threads.mjs' },
-  { id: 'commandes', titre: 'Réponses aux commandes', quand: '/statut /file /pause /reprise /validation /x /aide', frequence: 'à la demande', copiable: false, module: 'core/control.mjs' },
+  { id: 'commandes', titre: 'Réponses aux commandes', quand: '/statut /file /pause /reprise /validation /x /compte /jamais /oublier /comptes /aide', frequence: 'à la demande', copiable: false, module: 'core/control.mjs' },
 ];
 

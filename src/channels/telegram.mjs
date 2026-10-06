@@ -141,5 +141,9 @@ export const BOT_COMMANDS = [
   { command: 'reprise', description: 'Reprendre un réseau : /reprise instagram (ou tout)' },
   { command: 'validation', description: 'Validation manuelle : /validation instagram on|off' },
   { command: 'x', description: 'Abonnés X du jour : /x 2940' },
+  { command: 'compte', description: 'Enseigner un compte : /compte Hendaye @villehendaye64700' },
+  { command: 'jamais', description: 'Ne plus taguer un compte : /jamais @compte' },
+  { command: 'oublier', description: 'Défaire : /oublier Hendaye ou /oublier @compte' },
+  { command: 'comptes', description: 'Comptes enseignés et exclus' },
   { command: 'aide', description: 'Liste des commandes' },
 ];

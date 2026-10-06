@@ -7,6 +7,7 @@ import { NETWORKS, NAMES, shortId, parseCommand, defaultControls, isPaused, need
 import { fetchItems, matchArticle } from './sources/rss.mjs';
 import { buildDossier, rubriqueJustifiee } from './brain/dossier.mjs';
 import { resoudreComptes } from './brain/comptes.mjs';
+import { lireEnseignes, enregistrerEnseignes, enseigner, exclure, oublier, texteEnseignes } from './brain/enseignes.mjs';
 import { resoudreLieu, lieuNomme } from './brain/lieux.mjs';
 import { recolterLieux } from './measure/recolte.mjs';
 import { collecter } from './measure/collect.mjs';
@@ -138,6 +139,9 @@ const HELP = [
   '/reprise instagram (ou /reprise tout)',
   '/validation instagram on|off',
   '/x 2940 : abonnés X du jour (X ne les donne pas autrement)',
+  '/compte Hendaye @villehendaye64700 : ce nom a ce compte (retenu pour toujours)',
+  '/jamais @compte : ne plus jamais taguer ce compte',
+  '/oublier Hendaye (ou @compte) · /comptes : ce qui a été enseigné',
   '',
   'Sous chaque aperçu : ✅ Valider, ❌ Refuser, 🔁 Régénérer les textes.',
   '<i>Le bot lit tes messages à chaque passage, toutes les 20 min environ.</i>',
@@ -171,6 +175,19 @@ async function onCommand(text, ctx) {
       const ecart = avant ? n - avant.n : null;
       const depuis = avant ? ` (${ecart >= 0 ? '+' : '−'}${Math.abs(ecart).toLocaleString('fr-FR')} depuis le ${avant.jour.split('-').reverse().slice(0, 2).join('/')})` : '';
       return say(`𝕏 <b>${n.toLocaleString('fr-FR')} abonnés</b> enregistrés${depuis}.\nLa page de l’équipe est à jour au prochain passage.`);
+    }
+    // comptes enseignés : le nom garde sa casse (« Château d'Abbadia »), d'où la relecture du texte brut
+    case 'compte':
+    case 'jamais':
+    case 'oublier':
+    case 'comptes': {
+      const brut = String(text).trim().split(/\s+/).slice(1);
+      const table = await lireEnseignes();
+      if (cmd.name === 'comptes') return say(texteEnseignes(table));
+      const agir = { compte: enseigner, jamais: exclure, oublier }[cmd.name];
+      const { table: nouvelle, reponse } = agir(table, brut, { jour: new Date(ctx.now).toISOString().slice(0, 10) });
+      if (nouvelle !== table) await enregistrerEnseignes(nouvelle);
+      return say(reponse);
     }
     case 'statut':
       return say(statusText(ctx));

@@ -569,7 +569,9 @@
     "likes": 3,
     "commentaires": 0,
     "partages": null,
-    "vues": null
+    "vues": null,
+    "commentairesBruts": 0,
+    "v": 2
   },
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=35605",
@@ -579,9 +581,11 @@
     "jalon": 1,
     "releveLe": "2026-09-23T08:00:52.878Z",
     "likes": 0,
-    "commentaires": 1,
+    "commentaires": 0,
     "partages": 0,
-    "vues": null
+    "vues": null,
+    "commentairesBruts": 1,
+    "v": 2
   },
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=35605",
@@ -591,9 +595,11 @@
     "jalon": 1,
     "releveLe": "2026-09-23T10:20:40.488Z",
     "likes": 40,
-    "commentaires": 31,
+    "commentaires": 0,
     "partages": null,
-    "vues": null
+    "vues": null,
+    "commentairesBruts": 31,
+    "v": 2
   },
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=35578",
@@ -605,7 +611,9 @@
     "likes": 10,
     "commentaires": 0,
     "partages": null,
-    "vues": null
+    "vues": null,
+    "commentairesBruts": 0,
+    "v": 2
   },
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=35578",
@@ -617,7 +625,9 @@
     "likes": 0,
     "commentaires": 0,
     "partages": 0,
-    "vues": null
+    "vues": null,
+    "commentairesBruts": 0,
+    "v": 2
   },
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=35446",
@@ -629,7 +639,9 @@
     "likes": 0,
     "commentaires": 0,
     "partages": 0,
-    "vues": 213
+    "vues": 213,
+    "commentairesBruts": 0,
+    "v": 2
   },
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=35446",
@@ -641,7 +653,9 @@
     "likes": 0,
     "commentaires": 0,
     "partages": 0,
-    "vues": null
+    "vues": null,
+    "commentairesBruts": 0,
+    "v": 2
   },
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=35494",
@@ -651,9 +665,11 @@
     "jalon": 7,
     "releveLe": "2026-09-24T08:01:07.343Z",
     "likes": 27,
-    "commentaires": 20,
+    "commentaires": 0,
     "partages": null,
-    "vues": null
+    "vues": null,
+    "commentairesBruts": 20,
+    "v": 2
   },
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=35494",
@@ -665,7 +681,9 @@
     "likes": 0,
     "commentaires": 0,
     "partages": 0,
-    "vues": null
+    "vues": null,
+    "commentairesBruts": 0,
+    "v": 2
   },
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=35561",
@@ -683,9 +701,11 @@
     "jalon": 1,
     "releveLe": "2026-09-24T12:00:53.872Z",
     "likes": 3,
-    "commentaires": 32,
+    "commentaires": 0,
     "partages": null,
-    "vues": null
+    "vues": null,
+    "commentairesBruts": 32,
+    "v": 2
   },
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=35561",
@@ -703,9 +723,11 @@
     "jalon": 7,
     "releveLe": "2026-09-24T15:20:40.986Z",
     "likes": 0,
-    "commentaires": 1,
+    "commentaires": 0,
     "partages": 0,
-    "vues": null
+    "vues": null,
+    "commentairesBruts": 1,
+    "v": 2
   },
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=35635",
@@ -717,7 +739,9 @@
     "likes": 5,
     "commentaires": 1,
     "partages": null,
-    "vues": null
+    "vues": null,
+    "commentairesBruts": 1,
+    "v": 2
   },
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=35635",
@@ -729,7 +753,9 @@
     "likes": 0,
     "commentaires": 0,
     "partages": 0,
-    "vues": null
+    "vues": null,
+    "commentairesBruts": 0,
+    "v": 2
   },
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=35446",
@@ -741,7 +767,9 @@
     "likes": 0,
     "commentaires": 0,
     "partages": 0,
-    "vues": null
+    "vues": null,
+    "commentairesBruts": 0,
+    "v": 2
   },
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=34715",
@@ -753,7 +781,9 @@
     "likes": 5,
     "commentaires": 0,
     "partages": null,
-    "vues": null
+    "vues": null,
+    "commentairesBruts": 0,
+    "v": 2
   },
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=35635",
@@ -765,7 +795,9 @@
     "likes": 0,
     "commentaires": 0,
     "partages": 0,
-    "vues": 43
+    "vues": 43,
+    "commentairesBruts": 0,
+    "v": 2
   },
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=34715",
@@ -777,7 +809,9 @@
     "likes": 0,
     "commentaires": 0,
     "partages": 0,
-    "vues": null
+    "vues": null,
+    "commentairesBruts": 0,
+    "v": 2
   },
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=35561",
@@ -787,9 +821,11 @@
     "jalon": 7,
     "releveLe": "2026-09-25T07:21:17.640Z",
     "likes": 0,
-    "commentaires": 1,
+    "commentaires": 0,
     "partages": 0,
-    "vues": null
+    "vues": null,
+    "commentairesBruts": 1,
+    "v": 2
   },
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=35561",
@@ -799,9 +835,11 @@
     "jalon": 7,
     "releveLe": "2026-09-25T07:21:17.640Z",
     "likes": 0,
-    "commentaires": 1,
+    "commentaires": 0,
     "partages": 0,
-    "vues": 54
+    "vues": 54,
+    "commentairesBruts": 1,
+    "v": 2
   },
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=35635",
@@ -813,7 +851,9 @@
     "likes": 0,
     "commentaires": 0,
     "partages": 0,
-    "vues": null
+    "vues": null,
+    "commentairesBruts": 0,
+    "v": 2
   },
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=28135",
@@ -825,7 +865,9 @@
     "likes": 0,
     "commentaires": 0,
     "partages": 0,
-    "vues": null
+    "vues": null,
+    "commentairesBruts": 0,
+    "v": 2
   },
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=28135",
@@ -837,7 +879,9 @@
     "likes": 0,
     "commentaires": 0,
     "partages": 0,
-    "vues": 35
+    "vues": 35,
+    "commentairesBruts": 0,
+    "v": 2
   },
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=35569",
@@ -847,9 +891,11 @@
     "jalon": 7,
     "releveLe": "2026-09-25T10:00:40.062Z",
     "likes": 0,
-    "commentaires": 1,
+    "commentaires": 0,
     "partages": 0,
-    "vues": null
+    "vues": null,
+    "commentairesBruts": 1,
+    "v": 2
   },
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=35626",
@@ -859,9 +905,11 @@
     "jalon": 1,
     "releveLe": "2026-09-25T10:20:42.959Z",
     "likes": 0,
-    "commentaires": 1,
+    "commentaires": 0,
     "partages": 0,
-    "vues": null
+    "vues": null,
+    "commentairesBruts": 1,
+    "v": 2
   },
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=35569",
@@ -873,7 +921,9 @@
     "likes": 6,
     "commentaires": 0,
     "partages": null,
-    "vues": null
+    "vues": null,
+    "commentairesBruts": 0,
+    "v": 2
   },
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=34715",
@@ -885,7 +935,9 @@
     "likes": 3,
     "commentaires": 0,
     "partages": 0,
-    "vues": 276
+    "vues": 276,
+    "commentairesBruts": 0,
+    "v": 2
   },
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=34715",
@@ -895,9 +947,11 @@
     "jalon": 7,
     "releveLe": "2026-09-25T12:00:52.936Z",
     "likes": 0,
-    "commentaires": 1,
+    "commentaires": 0,
     "partages": 0,
-    "vues": null
+    "vues": null,
+    "commentairesBruts": 1,
+    "v": 2
   },
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=28135",
@@ -909,7 +963,9 @@
     "likes": 2,
     "commentaires": 1,
     "partages": null,
-    "vues": null
+    "vues": null,
+    "commentairesBruts": 1,
+    "v": 2
   },
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=35626",
@@ -919,9 +975,11 @@
     "jalon": 1,
     "releveLe": "2026-09-25T12:57:58.361Z",
     "likes": 2,
-    "commentaires": 1,
+    "commentaires": 0,
     "partages": 0,
-    "vues": 473
+    "vues": 473,
+    "commentairesBruts": 1,
+    "v": 2
   },
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=35626",
@@ -933,7 +991,9 @@
     "likes": 5,
     "commentaires": 0,
     "partages": null,
-    "vues": null
+    "vues": null,
+    "commentairesBruts": 0,
+    "v": 2
   },
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=35642",
@@ -945,7 +1005,9 @@
     "likes": 0,
     "commentaires": 0,
     "partages": 0,
-    "vues": null
+    "vues": null,
+    "commentairesBruts": 0,
+    "v": 2
   },
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=28135",
@@ -957,7 +1019,9 @@
     "likes": 0,
     "commentaires": 0,
     "partages": 0,
-    "vues": null
+    "vues": null,
+    "commentairesBruts": 0,
+    "v": 2
   },
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=35642",
@@ -969,7 +1033,9 @@
     "likes": 0,
     "commentaires": 0,
     "partages": 0,
-    "vues": 115
+    "vues": 115,
+    "commentairesBruts": 0,
+    "v": 2
   },
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=35569",
@@ -979,9 +1045,11 @@
     "jalon": 7,
     "releveLe": "2026-09-26T07:01:12.974Z",
     "likes": 0,
-    "commentaires": 1,
+    "commentaires": 0,
     "partages": 0,
-    "vues": 132
+    "vues": 132,
+    "commentairesBruts": 1,
+    "v": 2
   },
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=35569",
@@ -991,9 +1059,11 @@
     "jalon": 7,
     "releveLe": "2026-09-26T07:20:39.652Z",
     "likes": 0,
-    "commentaires": 1,
+    "commentaires": 0,
     "partages": 0,
-    "vues": null
+    "vues": null,
+    "commentairesBruts": 1,
+    "v": 2
   },
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=35626",
@@ -1005,7 +1075,9 @@
     "likes": 0,
     "commentaires": 0,
     "partages": 0,
-    "vues": null
+    "vues": null,
+    "commentairesBruts": 0,
+    "v": 2
   },
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=34145",
@@ -1015,9 +1087,11 @@
     "jalon": 7,
     "releveLe": "2026-09-26T08:00:43.891Z",
     "likes": 0,
-    "commentaires": 1,
+    "commentaires": 0,
     "partages": 0,
-    "vues": null
+    "vues": null,
+    "commentairesBruts": 1,
+    "v": 2
   },
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=34448",
@@ -1029,7 +1103,9 @@
     "likes": 0,
     "commentaires": 0,
     "partages": 0,
-    "vues": null
+    "vues": null,
+    "commentairesBruts": 0,
+    "v": 2
   },
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=34145",
@@ -1039,9 +1115,11 @@
     "jalon": 7,
     "releveLe": "2026-09-26T09:20:47.951Z",
     "likes": 35,
-    "commentaires": 1,
+    "commentaires": 0,
     "partages": 1,
-    "vues": 9617
+    "vues": 9617,
+    "commentairesBruts": 1,
+    "v": 2
   },
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=34448",
@@ -1053,7 +1131,9 @@
     "likes": 0,
     "commentaires": 0,
     "partages": 0,
-    "vues": 33
+    "vues": 33,
+    "commentairesBruts": 0,
+    "v": 2
   },
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=34145",

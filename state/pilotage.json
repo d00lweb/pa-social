@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-06T08:20:45.064Z",
+  "genereLe": "2026-10-06T08:50:44.802Z",
   "jour": "2026-10-06",
   "reseaux": {
     "instagram": {
@@ -120,8 +120,6 @@
         "end": 7
       },
       "formats": [
-        "image",
-        "lien",
         "reponse"
       ],
       "aujourdhui": 1,
@@ -156,8 +154,6 @@
         "end": 7
       },
       "formats": [
-        "image",
-        "lien",
         "reponse"
       ],
       "aujourdhui": 1,
@@ -682,7 +678,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-06T08:20:56.701Z",
+    "genereLe": "2026-10-06T08:51:03.827Z",
     "posts": 24,
     "parReseau": {
       "instagram": {

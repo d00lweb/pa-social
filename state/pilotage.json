@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-06T09:20:52.452Z",
+  "genereLe": "2026-10-06T10:00:45.799Z",
   "jour": "2026-10-06",
   "reseaux": {
     "instagram": {
@@ -564,11 +564,11 @@
     "parReseau": {
       "instagram": {
         "posts": 23,
-        "interactionsMoyennes": 22.1
+        "interactionsMoyennes": 20.7
       },
       "bluesky": {
         "posts": 22,
-        "interactionsMoyennes": 0.2
+        "interactionsMoyennes": 0.1
       },
       "facebook": {
         "posts": 19,
@@ -576,7 +576,7 @@
       },
       "threads": {
         "posts": 19,
-        "interactionsMoyennes": 9.5
+        "interactionsMoyennes": 9.4
       }
     }
   },
@@ -639,7 +639,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-06T09:00:45.753Z"
+    "derniere": "2026-10-06T10:00:45.799Z"
   },
   "abonnes": {
     "instagram": {
@@ -678,7 +678,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-06T09:21:24.492Z",
+    "genereLe": "2026-10-06T10:01:04.168Z",
     "posts": 24,
     "parReseau": {
       "instagram": {
@@ -687,11 +687,11 @@
       },
       "threads": {
         "posts": 6,
-        "moyenne": 1.2
+        "moyenne": 1
       },
       "bluesky": {
         "posts": 6,
-        "moyenne": 1
+        "moyenne": 0.8
       },
       "facebook": {
         "posts": 6,
@@ -701,15 +701,15 @@
     "parFormat": {
       "reponse": {
         "posts": 5,
-        "moyenne": 1.4
-      },
-      "reply": {
-        "posts": 5,
-        "moyenne": 1
+        "moyenne": 1.2
       },
       "card": {
         "posts": 1,
         "moyenne": 1
+      },
+      "reply": {
+        "posts": 5,
+        "moyenne": 0.8
       },
       "image": {
         "posts": 1,
@@ -727,7 +727,7 @@
       },
       "matin": {
         "posts": 17,
-        "moyenne": 2.4
+        "moyenne": 2.3
       }
     },
     "parCreneauReseau": {
@@ -738,7 +738,7 @@
         },
         "7 h – 8 h 30": {
           "posts": 5,
-          "moyenne": 1
+          "moyenne": 0.8
         }
       },
       "facebook": {
@@ -752,13 +752,13 @@
         }
       },
       "bluesky": {
-        "8 h – 9 h 30": {
-          "posts": 5,
-          "moyenne": 1
-        },
         "12 h – 13 h 30": {
           "posts": 1,
           "moyenne": 1
+        },
+        "8 h – 9 h 30": {
+          "posts": 5,
+          "moyenne": 0.8
         }
       },
       "instagram": {
@@ -776,7 +776,7 @@
         }
       }
     },
-    "interactionsTotal": 127,
+    "interactionsTotal": 125,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35474",
       "channel": "instagram",
@@ -816,7 +816,7 @@
     "mentions": {
       "avec": {
         "posts": 16,
-        "moyenne": 7.8
+        "moyenne": 7.7
       },
       "sans": {
         "posts": 8,
@@ -867,13 +867,13 @@
     },
     "engagement": {
       "instagram": 0.19,
-      "threads": 0.1,
+      "threads": 0.09,
       "facebook": 0
     },
     "conseils": [
-      "Le format « reponse » fait 14 fois mieux que « image » (1.4 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « image » de la rotation dans config/channels.json.",
+      "Le format « reponse » fait 12 fois mieux que « image » (1.2 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « image » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+2, +0,2 %) ; Facebook recule (−7), à surveiller.",
-      "Les posts avec mention font 7.5 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
+      "Les posts avec mention font 7.4 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
     ]
   },
   "couts": {

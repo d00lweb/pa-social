@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-06T10:00:45.799Z",
+  "genereLe": "2026-10-06T10:20:41.108Z",
   "jour": "2026-10-06",
   "reseaux": {
     "instagram": {
@@ -564,7 +564,7 @@
     "parReseau": {
       "instagram": {
         "posts": 23,
-        "interactionsMoyennes": 20.7
+        "interactionsMoyennes": 16
       },
       "bluesky": {
         "posts": 22,
@@ -678,20 +678,20 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-06T10:01:04.168Z",
+    "genereLe": "2026-10-06T10:20:58.375Z",
     "posts": 24,
     "parReseau": {
       "instagram": {
         "posts": 6,
-        "moyenne": 19
+        "moyenne": 2.3
       },
       "threads": {
         "posts": 6,
-        "moyenne": 1
+        "moyenne": 0.3
       },
       "bluesky": {
         "posts": 6,
-        "moyenne": 0.8
+        "moyenne": 0.2
       },
       "facebook": {
         "posts": 6,
@@ -699,17 +699,17 @@
       }
     },
     "parFormat": {
-      "reponse": {
-        "posts": 5,
-        "moyenne": 1.2
-      },
       "card": {
         "posts": 1,
         "moyenne": 1
       },
+      "reponse": {
+        "posts": 5,
+        "moyenne": 0.4
+      },
       "reply": {
         "posts": 5,
-        "moyenne": 0.8
+        "moyenne": 0
       },
       "image": {
         "posts": 1,
@@ -719,26 +719,26 @@
     "parCreneau": {
       "après-midi": {
         "posts": 5,
-        "moyenne": 12.4
+        "moyenne": 2
       },
       "soir": {
         "posts": 2,
-        "moyenne": 12
+        "moyenne": 1
       },
       "matin": {
         "posts": 17,
-        "moyenne": 2.3
+        "moyenne": 0.3
       }
     },
     "parCreneauReseau": {
       "threads": {
         "10 h – 11 h 30": {
           "posts": 1,
-          "moyenne": 2
+          "moyenne": 1
         },
         "7 h – 8 h 30": {
           "posts": 5,
-          "moyenne": 0.8
+          "moyenne": 0.2
         }
       },
       "facebook": {
@@ -752,31 +752,31 @@
         }
       },
       "bluesky": {
-        "12 h – 13 h 30": {
-          "posts": 1,
-          "moyenne": 1
-        },
         "8 h – 9 h 30": {
           "posts": 5,
-          "moyenne": 0.8
+          "moyenne": 0.2
+        },
+        "12 h – 13 h 30": {
+          "posts": 1,
+          "moyenne": 0
         }
       },
       "instagram": {
-        "hors créneau": {
-          "posts": 1,
-          "moyenne": 29
+        "12 h – 13 h 30": {
+          "posts": 4,
+          "moyenne": 2.5
         },
         "18 h – 19 h 30": {
           "posts": 1,
-          "moyenne": 24
+          "moyenne": 2
         },
-        "12 h – 13 h 30": {
-          "posts": 4,
-          "moyenne": 15.3
+        "hors créneau": {
+          "posts": 1,
+          "moyenne": 2
         }
       }
     },
-    "interactionsTotal": 125,
+    "interactionsTotal": 17,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35474",
       "channel": "instagram",
@@ -785,9 +785,11 @@
       "jalon": 1,
       "releveLe": "2026-10-05T12:00:45.732Z",
       "likes": 4,
-      "commentaires": 26,
+      "commentaires": 0,
       "partages": null,
       "vues": null,
+      "commentairesBruts": 26,
+      "v": 2,
       "titre": "À Hendaye, un château cache un observatoire actif jusqu’en 1975",
       "lien": "https://www.instagram.com/p/DeEh3MYjNDP/",
       "format": null,
@@ -797,30 +799,32 @@
     },
     "moinsBon": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=30656",
-      "channel": "facebook",
-      "mediaId": "227437307428711_1742010854591462",
-      "publieLe": "2026-10-05T06:03:15.421Z",
+      "channel": "threads",
+      "mediaId": "17879214420546996",
+      "publieLe": "2026-10-05T06:18:18.323Z",
       "jalon": 1,
       "releveLe": "2026-10-06T06:20:47.985Z",
       "likes": 0,
       "commentaires": 0,
       "partages": 0,
-      "vues": null,
+      "vues": 13,
+      "commentairesBruts": 1,
+      "v": 2,
       "titre": "Ce week-end à Bègles, Cerrone et Morcheeba montent sur scène",
-      "lien": "https://www.facebook.com/1720946116697936/posts/1742010854591462",
-      "format": null,
-      "mention": false,
+      "lien": "https://www.threads.com/@lovaquitaine/post/DeGisFzEfEG",
+      "format": "reponse",
+      "mention": true,
       "creneau": "matin",
-      "creneauReseau": "8 h – 9 h 30"
+      "creneauReseau": "7 h – 8 h 30"
     },
     "mentions": {
       "avec": {
         "posts": 16,
-        "moyenne": 7.7
+        "moyenne": 1.1
       },
       "sans": {
         "posts": 8,
-        "moyenne": 0.3
+        "moyenne": 0
       }
     },
     "publies": {
@@ -866,14 +870,14 @@
       "x": null
     },
     "engagement": {
-      "instagram": 0.19,
-      "threads": 0.09,
+      "instagram": 0.02,
+      "threads": 0.03,
       "facebook": 0
     },
     "conseils": [
-      "Le format « reponse » fait 12 fois mieux que « image » (1.2 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « image » de la rotation dans config/channels.json.",
+      "Le format « card » fait 10 fois mieux que « image » (1 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « image » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+2, +0,2 %) ; Facebook recule (−7), à surveiller.",
-      "Les posts avec mention font 7.4 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
+      "Les posts avec mention font 1.1 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
     ]
   },
   "couts": {

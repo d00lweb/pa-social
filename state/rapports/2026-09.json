@@ -1,40 +1,40 @@
 {
   "mois": "2026-09",
-  "genereLe": "2026-09-30T22:00:50.857Z",
-  "posts": 83,
+  "genereLe": "2026-10-06T10:20:52.565Z",
+  "posts": 87,
   "parReseau": {
     "instagram": {
-      "posts": 23,
-      "moyenne": 23.3
+      "posts": 24,
+      "moyenne": 15.7
     },
     "threads": {
-      "posts": 19,
-      "moyenne": 9.8
+      "posts": 20,
+      "moyenne": 9
     },
     "bluesky": {
-      "posts": 22,
-      "moyenne": 0.4
+      "posts": 23,
+      "moyenne": 0.1
     },
     "facebook": {
-      "posts": 19,
-      "moyenne": 0.4
+      "posts": 20,
+      "moyenne": 0
     }
   },
   "parFormat": {
     "reponse": {
       "posts": 7,
-      "moyenne": 25.4
-    },
-    "reply": {
-      "posts": 6,
-      "moyenne": 1.2
+      "moyenne": 24.3
     },
     "lien": {
-      "posts": 8,
+      "posts": 9,
       "moyenne": 0.8
     },
     "image": {
-      "posts": 12,
+      "posts": 13,
+      "moyenne": 0.2
+    },
+    "reply": {
+      "posts": 6,
       "moyenne": 0.2
     },
     "card": {
@@ -44,45 +44,45 @@
   },
   "parCreneau": {
     "après-midi": {
-      "posts": 20,
-      "moyenne": 17.8
+      "posts": 21,
+      "moyenne": 11.1
     },
     "soir": {
       "posts": 17,
-      "moyenne": 7.9
+      "moyenne": 6.4
     },
     "matin": {
-      "posts": 46,
-      "moyenne": 5.4
+      "posts": 49,
+      "moyenne": 4.4
     }
   },
   "parCreneauReseau": {
     "instagram": {
       "12 h – 13 h 30": {
-        "posts": 11,
-        "moyenne": 30.8
+        "posts": 12,
+        "moyenne": 18.6
       },
       "18 h – 19 h 30": {
         "posts": 6,
-        "moyenne": 20.3
+        "moyenne": 16.5
       },
       "hors créneau": {
         "posts": 6,
-        "moyenne": 12.5
+        "moyenne": 9.2
       }
     },
     "bluesky": {
       "12 h – 13 h 30": {
         "posts": 3,
-        "moyenne": 1
+        "moyenne": 0.3
+      },
+      "8 h – 9 h 30": {
+        "posts": 14,
+        "moyenne": 0.1
       },
       "hors créneau": {
         "posts": 4,
-        "moyenne": 0.5
-      },
-      "8 h – 9 h 30": {
-        "posts": 13,
-        "moyenne": 0.3
+        "moyenne": 0
       },
       "18 h – 19 h 30": {
         "posts": 2,
@@ -90,39 +90,39 @@
       }
     },
     "facebook": {
+      "8 h – 9 h 30": {
+        "posts": 12,
+        "moyenne": 0
+      },
       "hors créneau": {
         "posts": 1,
-        "moyenne": 1
-      },
-      "8 h – 9 h 30": {
-        "posts": 11,
-        "moyenne": 0.5
+        "moyenne": 0
       },
       "20 h – 21 h 30": {
         "posts": 7,
-        "moyenne": 0.3
+        "moyenne": 0
       }
     },
     "threads": {
-      "7 h – 8 h 30": {
-        "posts": 11,
-        "moyenne": 12.4
-      },
       "10 h – 11 h 30": {
         "posts": 3,
-        "moyenne": 12.3
+        "moyenne": 12
+      },
+      "7 h – 8 h 30": {
+        "posts": 12,
+        "moyenne": 11.1
       },
       "13 h – 14 h 30": {
         "posts": 4,
-        "moyenne": 3
+        "moyenne": 2.5
       },
       "hors créneau": {
         "posts": 1,
-        "moyenne": 1
+        "moyenne": 0
       }
     }
   },
-  "interactionsTotal": 739,
+  "interactionsTotal": 558,
   "meilleur": {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=35605",
     "channel": "instagram",
@@ -131,9 +131,11 @@
     "jalon": 7,
     "releveLe": "2026-09-29T10:20:42.252Z",
     "likes": 130,
-    "commentaires": 31,
+    "commentaires": 0,
     "partages": null,
     "vues": null,
+    "commentairesBruts": 31,
+    "v": 2,
     "titre": "À Bordeaux, 200 danseurs pour un French Cancan géant sur le Miroir d’Eau",
     "lien": "https://www.instagram.com/p/Ddler9vkzj2/",
     "format": null,
@@ -142,31 +144,33 @@
     "creneauReseau": "12 h – 13 h 30"
   },
   "moinsBon": {
-    "guid": "https://passion-aquitaine.ouest-france.fr/?p=33184",
-    "channel": "bluesky",
-    "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mwncebdt2i2a",
-    "publieLe": "2026-09-29T07:24:58.824Z",
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35391",
+    "channel": "facebook",
+    "mediaId": "227437307428711_1736436825148865",
+    "publieLe": "2026-09-30T07:27:48.941Z",
     "jalon": 1,
-    "releveLe": "2026-09-30T08:00:45.999Z",
+    "releveLe": "2026-10-01T08:00:39.697Z",
     "likes": 0,
     "commentaires": 0,
     "partages": 0,
     "vues": null,
-    "titre": "Le Hasparren Athletic Club forme 90 % de ses joueurs",
-    "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mwncebdt2i2a",
-    "format": "image",
-    "mention": true,
+    "commentairesBruts": 0,
+    "v": 2,
+    "titre": "À Bordeaux, la chasse aux champignons démarre après les premières pluies",
+    "lien": "https://www.facebook.com/1720946116697936/posts/1736436825148865",
+    "format": null,
+    "mention": false,
     "creneau": "matin",
     "creneauReseau": "8 h – 9 h 30"
   },
   "mentions": {
     "avec": {
-      "posts": 17,
-      "moyenne": 11.4
+      "posts": 20,
+      "moyenne": 5.9
     },
     "sans": {
-      "posts": 66,
-      "moyenne": 8.3
+      "posts": 67,
+      "moyenne": 6.6
     }
   },
   "publies": {
@@ -219,14 +223,16 @@
     }
   },
   "engagement": {
-    "instagram": 0.23,
-    "threads": 0.85,
+    "instagram": 0.15,
+    "threads": 0.78,
     "facebook": 0
   },
   "conseils": [
-    "Instagram : le créneau 12 h – 13 h 30 fait 1,5 fois mieux que 18 h – 19 h 30 (30.8 contre 20.3 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
-    "Bluesky : le créneau 12 h – 13 h 30 fait 3,3 fois mieux que 8 h – 9 h 30 (1 contre 0.3 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
-    "Facebook : le créneau 8 h – 9 h 30 fait 1,7 fois mieux que 20 h – 21 h 30 (0.5 contre 0.3 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
-    "Threads : le créneau 7 h – 8 h 30 fait 4,1 fois mieux que 13 h – 14 h 30 (12.4 contre 3 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json."
-  ]
+    "Bluesky : le créneau 12 h – 13 h 30 fait 3 fois mieux que 8 h – 9 h 30 (0.3 contre 0.1 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
+    "Threads : le créneau 10 h – 11 h 30 fait 4,8 fois mieux que 13 h – 14 h 30 (12 contre 2.5 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
+    "Le format « reponse » fait 243 fois mieux que « card » (24.3 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « card » de la rotation dans config/channels.json.",
+    "Abonnés : Threads progresse le plus (+5, +0,4 %) ; Instagram recule (−7), à surveiller."
+  ],
+  "comptage": 2,
+  "refigeLe": "2026-10-06"
 }

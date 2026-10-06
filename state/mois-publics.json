@@ -3,7 +3,7 @@
     "cle": "2026-10",
     "publications": 34,
     "articles": 7,
-    "interactions": 125,
+    "interactions": 17,
     "parReseau": {
       "facebook": 7,
       "instagram": 6,
@@ -24,34 +24,34 @@
         "titre": "À Hendaye, un château cache un observatoire actif jusqu’en 1975",
         "lien": "https://www.instagram.com/p/DeEh3MYjNDP/",
         "image": "https://passion-aquitaine.ouest-france.fr/social/20261004-fbd02dce-1-vignette.jpg",
-        "interactions": 30
-      },
-      {
-        "reseau": "instagram",
-        "titre": "Ce week-end à Bègles, Cerrone et Morcheeba montent sur scène",
-        "lien": "https://www.instagram.com/p/DeGiRXdloQk/",
-        "image": "https://passion-aquitaine.ouest-france.fr/social/20261005-0255fe27-1-vignette.jpg",
-        "interactions": 29
-      },
-      {
-        "reseau": "instagram",
-        "titre": "Les Deux-Sèvres, département le plus fécond de toute la région",
-        "lien": "https://www.instagram.com/p/DeB0esZjo1X/",
-        "image": "https://passion-aquitaine.ouest-france.fr/social/20261003-536318f0-1-vignette.jpg",
-        "interactions": 27
-      },
-      {
-        "reseau": "instagram",
-        "titre": "La Rochelle : cette usine fabrique des mâts de 22 mètres grâce à ses cuves uniques",
-        "lien": "https://www.instagram.com/p/DeCmFQoDYvj/",
-        "image": "https://passion-aquitaine.ouest-france.fr/social/20261003-78debb7f-1-vignette.jpg",
-        "interactions": 24
+        "interactions": 4
       },
       {
         "reseau": "instagram",
         "titre": "À Vouillé, un lieu vieux de 500 ans devient salle de mariage",
         "lien": "https://www.instagram.com/p/Dd8qT5nmPi0/",
         "image": "https://passion-aquitaine.ouest-france.fr/social/20261001-b7818531-1-vignette.jpg",
+        "interactions": 2
+      },
+      {
+        "reseau": "instagram",
+        "titre": "À Poitiers, une doctorante restaure des tablettes du Louvre",
+        "lien": "https://www.instagram.com/p/Dd_RjCQmOsy/",
+        "image": "https://passion-aquitaine.ouest-france.fr/social/20261002-fa646ed7-1-vignette.jpg",
+        "interactions": 2
+      },
+      {
+        "reseau": "instagram",
+        "titre": "Les Deux-Sèvres, département le plus fécond de toute la région",
+        "lien": "https://www.instagram.com/p/DeB0esZjo1X/",
+        "image": "https://passion-aquitaine.ouest-france.fr/social/20261003-536318f0-1-vignette.jpg",
+        "interactions": 2
+      },
+      {
+        "reseau": "instagram",
+        "titre": "La Rochelle : cette usine fabrique des mâts de 22 mètres grâce à ses cuves uniques",
+        "lien": "https://www.instagram.com/p/DeCmFQoDYvj/",
+        "image": "https://passion-aquitaine.ouest-france.fr/social/20261003-78debb7f-1-vignette.jpg",
         "interactions": 2
       }
     ]
@@ -60,7 +60,7 @@
     "cle": "2026-09",
     "publications": 111,
     "articles": 25,
-    "interactions": 668,
+    "interactions": 558,
     "parReseau": {
       "facebook": 20,
       "instagram": 25,
@@ -98,18 +98,18 @@
         "interactions": 55
       },
       {
-        "reseau": "instagram",
-        "titre": "Ce TER de Nouvelle-Aquitaine cache une batterie de 80 km : il remplace son moteur diesel",
-        "lien": "https://www.instagram.com/p/Ddwed9Nj4Q1/",
-        "image": "https://passion-aquitaine.ouest-france.fr/social/20260925-93e1ab54-1-vignette.jpg",
-        "interactions": 40
+        "reseau": "threads",
+        "titre": "À Capbreton, un canyon de 4 500 mètres dort sous les bateaux",
+        "lien": "https://www.threads.com/@lovaquitaine/post/DddqHvLGzq2",
+        "image": "https://passion-aquitaine.ouest-france.fr/social/20260919-139f1e9d-1-vignette.jpg",
+        "interactions": 36
       },
       {
         "reseau": "instagram",
-        "titre": "À Anglet, une chapelle de paille survit depuis 1847",
-        "lien": "https://www.instagram.com/p/Dd1CKFEmAuc/",
-        "image": "https://passion-aquitaine.ouest-france.fr/social/20260928-3a4003de-1-vignette.jpg",
-        "interactions": 38
+        "titre": "Ces dauphins près des plages d’Hossegor ne sont pas bon signe",
+        "lien": "https://www.instagram.com/p/DdgehsLmC8L/",
+        "image": "https://passion-aquitaine.ouest-france.fr/social/20260920-834e0391-1-vignette.jpg",
+        "interactions": 36
       }
     ]
   }

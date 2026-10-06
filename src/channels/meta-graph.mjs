@@ -56,9 +56,11 @@ export function createGraph({ userId, token, version }) {
     },
 
     // locationId : identifiant de lieu Facebook (forme longue) porté par le carrousel lui-même
-    async createCarousel(children, caption, { locationId } = {}) {
+    // collaborators : pseudos invités à cosigner le post (3 au plus, carrousel parent seulement)
+    async createCarousel(children, caption, { locationId, collaborators } = {}) {
       const params = { media_type: 'CAROUSEL', children: children.join(','), caption };
       if (locationId) params.location_id = String(locationId);
+      if (collaborators?.length) params.collaborators = JSON.stringify(collaborators);
       const { id } = await call('POST', `${userId}/media`, params);
       return id;
     },

@@ -408,7 +408,7 @@ async function execute({ history, queue, memory, controls, now }) {
         console.log(`Départ ${channel.id} à ${paris(item.dueAt)} : attente de ${Math.round(attente / 1000)} s`);
         await new Promise((r) => setTimeout(r, attente));
       }
-      const { mediaId, lien: publieLien = null } = await impl.publish(pkg, { channel });
+      const { mediaId, lien: publieLien = null, collaborateurs = [] } = await impl.publish(pkg, { channel });
       // Lien direct, tout de suite : Instagram ne le renvoie pas à la publication, et sans lui le
       // message Telegram n'aurait pas de bouton pour aller voir le post. En cas d'échec, la reprise
       // de completerLiens le retrouvera au passage suivant.
@@ -428,6 +428,8 @@ async function execute({ history, queue, memory, controls, now }) {
         lienPost,
         format: pkg.mode ?? null,
         mention: (item.dossier.comptes?.[channel.id] ?? []).length > 0,
+        // invitations à cosigner (Instagram) : leur acceptation se relira sur le post
+        ...(collaborateurs.length ? { collaborateurs } : {}),
         apercu: await capturerApercu(pkg, channel.id).catch(() => null),
       });
       queue.splice(queue.indexOf(item), 1);

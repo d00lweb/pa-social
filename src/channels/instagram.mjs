@@ -8,6 +8,7 @@ import { createRenderer } from '../media/render.mjs';
 import { uploadFiles, assertPublic } from '../storage/ftp.mjs';
 import { sendStory } from './telegram.mjs';
 import { createGraph } from './meta-graph.mjs';
+import { MAX_MENTIONS } from '../brain/comptes.mjs';
 import { GuardError, DeferError } from '../core/errors.mjs';
 import { fromRoot } from '../core/config.mjs';
 
@@ -16,9 +17,19 @@ export const id = 'instagram';
 const ed = JSON.parse(readFileSync(fromRoot('config/editorial.json'), 'utf8'));
 const MIN_SOURCE_WIDTH = 1200;
 const MAX_DESC = 300;
-// Trois mentions au plus sur l’image : chacune notifie le compte tagué, c’est le levier de
-// découverte le plus direct. Au-delà, la publication ressemble à du démarchage.
-const MAX_TAGS = 3;
+// Depuis le 06/10/2026, le plafond est celui de la sélection (src/brain/comptes.mjs) : cinq, pour le
+// sujet entier (un festival et ses têtes d'affiche) et la ville.
+const MAX_TAGS = MAX_MENTIONS.instagram;
+
+// Collaboration : le compte au cœur de l'article est invité à cosigner le post. S'il accepte, le post
+// paraît aussi sur son profil, devant ses abonnés — le levier gratuit le plus fort pour être
+// découvert. Seulement le sujet lui-même (le festival, le restaurant, le club), deux au plus : ni les
+// artistes à l'affiche, ni la ville, qu'on tague sans leur demander de cosigner. Meta en admet trois.
+export const COLLABORATEURS_MAX = 2;
+export const collaborateurs = (comptes = []) => comptes
+  .filter((c) => c.echelon === 'sujet' && c.role === 'sujet')
+  .slice(0, COLLABORATEURS_MAX)
+  .map((c) => c.handle);
 const DEFAULT_PUBLIC = 'https://passion-aquitaine.ouest-france.fr/social';
 // ligne « vide » en U+2800 : Instagram supprime les lignes réellement vides
 const BLANK_LINE = '⠀';
@@ -117,14 +128,21 @@ async function creerImage(graph, url, userTags, altText) {
   }
 }
 
-// Idem pour le lieu : un identifiant devenu invalide ne bloque pas le post
-async function creerCarrousel(graph, children, caption, locationId) {
+// Idem pour la collaboration puis le lieu : une invitation que Meta refuse (compte privé, ou qui
+// n'accepte pas les collaborations) ou un identifiant de lieu devenu invalide ne bloquent jamais le
+// post. On retire d'abord l'invitation, puis le lieu.
+// Rend l'identifiant du carrousel et les invitations réellement envoyées.
+export async function creerCarrousel(graph, children, caption, { locationId = null, collaborators = [] } = {}, log = console.error) {
   try {
-    return await graph.createCarousel(children, caption, { locationId });
+    return { id: await graph.createCarousel(children, caption, { locationId, collaborators }), collaborateurs: collaborators };
   } catch (err) {
+    if (collaborators.length) {
+      log(`   Collaboration abandonnée : ${err.message}`);
+      return creerCarrousel(graph, children, caption, { locationId }, log);
+    }
     if (!locationId) throw err;
-    console.error(`   Lieu abandonné : ${err.message}`);
-    return graph.createCarousel(children, caption);
+    log(`   Lieu abandonné : ${err.message}`);
+    return { id: await graph.createCarousel(children, caption), collaborateurs: [] };
   }
 }
 
@@ -141,6 +159,8 @@ export async function publish(pkg, { channel }) {
   const userTags = comptes.map((c, i) => ({ username: c.handle, x: (i + 0.5) / comptes.length, y: 0.9 }));
   const lieu = pkg.dossier.lieu ?? null;
   if (userTags.length) console.log(`   Mentions : ${comptes.map((c) => `@${c.handle}`).join(' ')}`);
+  const invites = collaborateurs(comptes);
+  if (invites.length) console.log(`   Collaboration proposée : ${invites.map((h) => `@${h}`).join(' ')}`);
   if (lieu) console.log(`   Lieu : ${lieu.nom} (${lieu.niveau})`);
 
   // la 1ʳᵉ image porte la description du sujet ; la 2ᵉ n'est que du texte, son texte alternatif est ce texte
@@ -148,7 +168,7 @@ export async function publish(pkg, { channel }) {
   const children = [];
   for (const [i, url] of [url1, url2].entries()) children.push(await creerImage(graph, url, i === 0 ? userTags : [], alts[i]));
   for (const child of children) await graph.waitFinished(child);
-  const carousel = await creerCarrousel(graph, children, pkg.caption, lieu?.id);
+  const { id: carousel, collaborateurs: proposes } = await creerCarrousel(graph, children, pkg.caption, { locationId: lieu?.id ?? null, collaborators: invites });
   await graph.waitFinished(carousel);
   // Si Meta n'est toujours pas prêt après les reprises, l'article n'y est pour rien : on reporte
   // sans consommer d'essai, comme pour le quota. Trois échecs auraient abandonné la publication.
@@ -176,5 +196,5 @@ export async function publish(pkg, { channel }) {
   } catch (e) {
     console.error(`   Story non envoyée : ${e.message}\n   ${storyUrl}`);
   }
-  return { mediaId, lien };
+  return { mediaId, lien, collaborateurs: proposes };
 }

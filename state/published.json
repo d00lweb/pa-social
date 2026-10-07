@@ -2518,5 +2518,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=28601",
+    "channel": "facebook",
+    "at": "2026-10-07T07:26:13.040Z",
+    "mediaId": "227437307428711_1744155084377039",
+    "titre": "En Dordogne, des religieuses en exil cachent un secret gourmand",
+    "lien": "https://passion-aquitaine.ouest-france.fr/trappe-echourgnac-fromage-religieuses-dordogne/",
+    "lienPost": "https://www.facebook.com/1720946116697936/posts/1744155084377039",
+    "format": null,
+    "mention": false,
+    "apercu": {
+      "texte": "Un fromage devenu culte en Dordogne doit son secret à une région bien loin d’ici : la Bretagne 🧀",
+      "image": null,
+      "mode": null,
+      "reponse": null,
+      "sujet": null
+    }
   }
 ]

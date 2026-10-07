@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-07T07:00:43.539Z",
+  "genereLe": "2026-10-07T07:20:42.474Z",
   "jour": "2026-10-07",
   "reseaux": {
     "instagram": {
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 8,
-      "total": 27,
-      "dernier": "2026-10-06T06:34:24.340Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1743076294484918"
+      "aujourdhui": 1,
+      "semaine": 9,
+      "total": 28,
+      "dernier": "2026-10-07T07:26:13.040Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1744155084377039"
     },
     "threads": {
       "actif": true,
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=28601",
       "titre": "En Dordogne, des religieuses en exil cachent un secret gourmand",
       "lien": "https://passion-aquitaine.ouest-france.fr/trappe-echourgnac-fromage-religieuses-dordogne/",
-      "at": "2026-10-07T07:05:03.867Z",
+      "at": "2026-10-07T07:26:13.040Z",
       "reseaux": {
         "threads": {
           "texte": "Un fromage culte du Périgord vert, une communauté de religieuses exilées… et un secret breton. À Échourgnac, ces religieuses ont été 🔥 éprouvées par le feu, sans cesser de produire ce fromage devenu culte. Pourtant, son origine ne se trouve pas en Dordogne mais en Bretagne.",
@@ -185,6 +185,14 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-10-07T07:05:03.867Z"
+        },
+        "facebook": {
+          "texte": "Un fromage devenu culte en Dordogne doit son secret à une région bien loin d’ici : la Bretagne 🧀",
+          "image": null,
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-07T07:26:13.040Z"
         }
       }
     },
@@ -431,6 +439,16 @@
   ],
   "publications": [
     {
+      "channel": "facebook",
+      "at": "2026-10-07T07:26:13.040Z",
+      "titre": "En Dordogne, des religieuses en exil cachent un secret gourmand",
+      "lien": "https://passion-aquitaine.ouest-france.fr/trappe-echourgnac-fromage-religieuses-dordogne/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1744155084377039",
+      "format": null,
+      "texte": "Un fromage devenu culte en Dordogne doit son secret à une région bien loin d’ici : la Bretagne 🧀",
+      "image": null
+    },
+    {
       "channel": "bluesky",
       "at": "2026-10-07T07:05:03.867Z",
       "titre": "En Dordogne, des religieuses en exil cachent un secret gourmand",
@@ -519,28 +537,9 @@
       "format": null,
       "texte": "Le Green Paradize Festival n’a qu’un an, et il s’offre déjà 🪩 Cerrone en tête d’affiche\n⠀\nÀ Bègles, aux portes de Bordeaux, le jeune festival revient ce week-end. Purple Disco Machine et Morcheeba complètent une affiche taillée pour danser.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bègles #GreenParadizeFestival #Musique",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261005-0255fe27-1.jpg"
-    },
-    {
-      "channel": "bluesky",
-      "at": "2026-10-05T06:06:35.383Z",
-      "titre": "Ce week-end à Bègles, Cerrone et Morcheeba montent sur scène",
-      "lien": "https://passion-aquitaine.ouest-france.fr/green-paradize-festival-begles-2026/",
-      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mx4armjgsh2x",
-      "format": "reply",
-      "texte": "🎤 Jusqu’où peut aller un festival né il y a à peine un an ? À #Bègles, le Green Paradize Festival revient déjà, avec Cerrone et Purple Disco Machine en têtes d’affiche ce week-end.\n@francemusique.fr @departementgironde.bsky.social",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261005-0255fe27-bsky.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "facebook",
-      "dueAt": "2026-10-07T07:26:04.274Z",
-      "prochainPassage": "2026-10-07T08:00:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "En Dordogne, des religieuses en exil cachent un secret gourmand"
-    },
     {
       "channel": "x",
       "dueAt": "2026-10-07T08:00:00.000Z",
@@ -680,7 +679,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-07T07:05:15.979Z",
+    "genereLe": "2026-10-07T07:26:17.652Z",
     "posts": 27,
     "parReseau": {
       "instagram": {
@@ -835,7 +834,7 @@
     },
     "publies": {
       "threads": 8,
-      "facebook": 7,
+      "facebook": 8,
       "bluesky": 8,
       "x": 7,
       "instagram": 7

@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-07T06:20:59.117Z",
+  "genereLe": "2026-10-07T07:00:43.539Z",
   "jour": "2026-10-07",
   "reseaux": {
     "instagram": {
@@ -60,11 +60,11 @@
         "image",
         "reply"
       ],
-      "aujourdhui": 0,
+      "aujourdhui": 1,
       "semaine": 8,
-      "total": 30,
-      "dernier": "2026-10-06T06:23:57.806Z",
-      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mx6s7mcb242r"
+      "total": 31,
+      "dernier": "2026-10-07T07:05:03.867Z",
+      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mxbexzh6s52s"
     },
     "facebook": {
       "actif": true,
@@ -123,7 +123,7 @@
         "reponse"
       ],
       "aujourdhui": 1,
-      "semaine": 9,
+      "semaine": 8,
       "total": 28,
       "dernier": "2026-10-07T06:28:17.062Z",
       "lienDernier": "https://www.threads.com/@lovaquitaine/post/DeLtXDClr84"
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=28601",
       "titre": "En Dordogne, des religieuses en exil cachent un secret gourmand",
       "lien": "https://passion-aquitaine.ouest-france.fr/trappe-echourgnac-fromage-religieuses-dordogne/",
-      "at": "2026-10-07T06:28:17.062Z",
+      "at": "2026-10-07T07:05:03.867Z",
       "reseaux": {
         "threads": {
           "texte": "Un fromage culte du Périgord vert, une communauté de religieuses exilées… et un secret breton. À Échourgnac, ces religieuses ont été 🔥 éprouvées par le feu, sans cesser de produire ce fromage devenu culte. Pourtant, son origine ne se trouve pas en Dordogne mais en Bretagne.",
@@ -177,6 +177,14 @@
           "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/trappe-echourgnac-fromage-religieuses-dordogne/",
           "sujet": "Échourgnac",
           "publieLe": "2026-10-07T06:28:17.062Z"
+        },
+        "bluesky": {
+          "texte": "En #Dordogne, à #Échourgnac, des religieuses exilées produisent un #fromage devenu culte ⛪ Leur communauté a traversé l’exil et l’épreuve du feu, et leur fromage cache un secret venu de Bretagne.\n➡️ Lire l’article",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261007-c3fc4b16-bsky.jpg",
+          "mode": "image",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-07T07:05:03.867Z"
         }
       }
     },
@@ -423,6 +431,16 @@
   ],
   "publications": [
     {
+      "channel": "bluesky",
+      "at": "2026-10-07T07:05:03.867Z",
+      "titre": "En Dordogne, des religieuses en exil cachent un secret gourmand",
+      "lien": "https://passion-aquitaine.ouest-france.fr/trappe-echourgnac-fromage-religieuses-dordogne/",
+      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mxbexzh6s52s",
+      "format": "image",
+      "texte": "En #Dordogne, à #Échourgnac, des religieuses exilées produisent un #fromage devenu culte ⛪ Leur communauté a traversé l’exil et l’épreuve du feu, et leur fromage cache un secret venu de Bretagne.\n➡️ Lire l’article",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261007-c3fc4b16-bsky.jpg"
+    },
+    {
       "channel": "threads",
       "at": "2026-10-07T06:28:17.062Z",
       "titre": "En Dordogne, des religieuses en exil cachent un secret gourmand",
@@ -511,28 +529,9 @@
       "format": "reply",
       "texte": "🎤 Jusqu’où peut aller un festival né il y a à peine un an ? À #Bègles, le Green Paradize Festival revient déjà, avec Cerrone et Purple Disco Machine en têtes d’affiche ce week-end.\n@francemusique.fr @departementgironde.bsky.social",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261005-0255fe27-bsky.jpg"
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-10-05T06:03:15.421Z",
-      "titre": "Ce week-end à Bègles, Cerrone et Morcheeba montent sur scène",
-      "lien": "https://passion-aquitaine.ouest-france.fr/green-paradize-festival-begles-2026/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1742010854591462",
-      "format": null,
-      "texte": "Imaginez Bègles transformée en grande piste de danse, avec Cerrone et Purple Disco Machine sur scène ce week-end 🎶",
-      "image": null
     }
   ],
   "file": [
-    {
-      "channel": "bluesky",
-      "dueAt": "2026-10-07T07:05:02.088Z",
-      "prochainPassage": "2026-10-07T07:20:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "En Dordogne, des religieuses en exil cachent un secret gourmand"
-    },
     {
       "channel": "facebook",
       "dueAt": "2026-10-07T07:26:04.274Z",
@@ -563,14 +562,14 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 196,
+    "releves": 201,
     "parReseau": {
       "instagram": {
         "posts": 24,
         "interactionsMoyennes": 15.5
       },
       "bluesky": {
-        "posts": 22,
+        "posts": 23,
         "interactionsMoyennes": 0.1
       },
       "facebook": {
@@ -578,8 +577,8 @@
         "interactionsMoyennes": 0
       },
       "threads": {
-        "posts": 19,
-        "interactionsMoyennes": 9.4
+        "posts": 20,
+        "interactionsMoyennes": 9
       }
     }
   },
@@ -681,23 +680,23 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-07T06:28:23.775Z",
-    "posts": 24,
+    "genereLe": "2026-10-07T07:05:15.979Z",
+    "posts": 27,
     "parReseau": {
       "instagram": {
         "posts": 6,
         "moyenne": 2.3
       },
       "threads": {
-        "posts": 6,
+        "posts": 7,
         "moyenne": 0.3
       },
       "bluesky": {
-        "posts": 6,
-        "moyenne": 0.2
+        "posts": 7,
+        "moyenne": 0.1
       },
       "facebook": {
-        "posts": 6,
+        "posts": 7,
         "moyenne": 0
       }
     },
@@ -715,6 +714,10 @@
         "moyenne": 0
       },
       "image": {
+        "posts": 2,
+        "moyenne": 0
+      },
+      "lien": {
         "posts": 1,
         "moyenne": 0
       }
@@ -729,7 +732,7 @@
         "moyenne": 1
       },
       "matin": {
-        "posts": 17,
+        "posts": 20,
         "moyenne": 0.3
       }
     },
@@ -740,13 +743,13 @@
           "moyenne": 1
         },
         "7 h – 8 h 30": {
-          "posts": 5,
+          "posts": 6,
           "moyenne": 0.2
         }
       },
       "facebook": {
         "8 h – 9 h 30": {
-          "posts": 5,
+          "posts": 6,
           "moyenne": 0
         },
         "20 h – 21 h 30": {
@@ -756,7 +759,7 @@
       },
       "bluesky": {
         "8 h – 9 h 30": {
-          "posts": 5,
+          "posts": 6,
           "moyenne": 0.2
         },
         "12 h – 13 h 30": {
@@ -801,39 +804,39 @@
       "creneauReseau": "12 h – 13 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=30656",
-      "channel": "threads",
-      "mediaId": "17879214420546996",
-      "publieLe": "2026-10-05T06:18:18.323Z",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35575",
+      "channel": "facebook",
+      "mediaId": "227437307428711_1743076294484918",
+      "publieLe": "2026-10-06T06:34:24.340Z",
       "jalon": 1,
-      "releveLe": "2026-10-06T06:20:47.985Z",
+      "releveLe": "2026-10-07T07:00:43.539Z",
       "likes": 0,
-      "commentaires": 0,
+      "commentairesBruts": 0,
       "partages": 0,
-      "vues": 13,
-      "commentairesBruts": 1,
+      "vues": null,
+      "commentaires": 0,
       "v": 2,
-      "titre": "Ce week-end à Bègles, Cerrone et Morcheeba montent sur scène",
-      "lien": "https://www.threads.com/@lovaquitaine/post/DeGisFzEfEG",
-      "format": "reponse",
-      "mention": true,
+      "titre": "À Limoges, Le Cheverny abrite une des meilleures caves de France",
+      "lien": "https://www.facebook.com/1720946116697936/posts/1743076294484918",
+      "format": null,
+      "mention": false,
       "creneau": "matin",
-      "creneauReseau": "7 h – 8 h 30"
+      "creneauReseau": "8 h – 9 h 30"
     },
     "mentions": {
       "avec": {
-        "posts": 16,
-        "moyenne": 1.1
+        "posts": 17,
+        "moyenne": 1
       },
       "sans": {
-        "posts": 8,
+        "posts": 10,
         "moyenne": 0
       }
     },
     "publies": {
       "threads": 8,
       "facebook": 7,
-      "bluesky": 7,
+      "bluesky": 8,
       "x": 7,
       "instagram": 7
     },
@@ -878,9 +881,9 @@
       "facebook": 0
     },
     "conseils": [
-      "Le format « card » fait 10 fois mieux que « image » (1 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « image » de la rotation dans config/channels.json.",
+      "Le format « card » fait 10 fois mieux que « lien » (1 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « lien » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+2, +0,2 %) ; Facebook recule (−8), à surveiller.",
-      "Les posts avec mention font 1.1 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
+      "Les posts avec mention font 1 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
     ]
   },
   "couts": {

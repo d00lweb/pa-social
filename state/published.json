@@ -2536,5 +2536,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=28601",
+    "channel": "x",
+    "at": "2026-10-07T08:00:57.983Z",
+    "mediaId": "kit-telegram",
+    "titre": "En Dordogne, des religieuses en exil cachent un secret gourmand",
+    "lien": "https://passion-aquitaine.ouest-france.fr/trappe-echourgnac-fromage-religieuses-dordogne/",
+    "lienPost": null,
+    "format": "reponse",
+    "mention": true,
+    "apercu": {
+      "texte": "Amateurs de fromage, le produit culte des religieuses d’Échourgnac, en #Dordogne, a une histoire d’exil, de feu et un secret venu de Bretagne 🍽️",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261007-c3fc4b16-x.jpg",
+      "mode": "reponse",
+      "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/trappe-echourgnac-fromage-religieuses-dordogne/",
+      "sujet": null
+    }
   }
 ]

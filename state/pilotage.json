@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-07T07:20:42.474Z",
+  "genereLe": "2026-10-07T08:00:46.516Z",
   "jour": "2026-10-07",
   "reseaux": {
     "instagram": {
@@ -89,7 +89,7 @@
       },
       "formats": null,
       "aujourdhui": 1,
-      "semaine": 9,
+      "semaine": 8,
       "total": 28,
       "dernier": "2026-10-07T07:26:13.040Z",
       "lienDernier": "https://www.facebook.com/1720946116697936/posts/1744155084377039"
@@ -156,10 +156,10 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 8,
-      "total": 30,
-      "dernier": "2026-10-06T07:00:47.234Z",
+      "aujourdhui": 1,
+      "semaine": 9,
+      "total": 31,
+      "dernier": "2026-10-07T08:00:57.983Z",
       "lienDernier": null
     }
   },
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=28601",
       "titre": "En Dordogne, des religieuses en exil cachent un secret gourmand",
       "lien": "https://passion-aquitaine.ouest-france.fr/trappe-echourgnac-fromage-religieuses-dordogne/",
-      "at": "2026-10-07T07:26:13.040Z",
+      "at": "2026-10-07T08:00:57.983Z",
       "reseaux": {
         "threads": {
           "texte": "Un fromage culte du Périgord vert, une communauté de religieuses exilées… et un secret breton. À Échourgnac, ces religieuses ont été 🔥 éprouvées par le feu, sans cesser de produire ce fromage devenu culte. Pourtant, son origine ne se trouve pas en Dordogne mais en Bretagne.",
@@ -193,6 +193,14 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-10-07T07:26:13.040Z"
+        },
+        "x": {
+          "texte": "Amateurs de fromage, le produit culte des religieuses d’Échourgnac, en #Dordogne, a une histoire d’exil, de feu et un secret venu de Bretagne 🍽️",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261007-c3fc4b16-x.jpg",
+          "mode": "reponse",
+          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/trappe-echourgnac-fromage-religieuses-dordogne/",
+          "sujet": null,
+          "publieLe": "2026-10-07T08:00:57.983Z"
         }
       }
     },
@@ -439,6 +447,16 @@
   ],
   "publications": [
     {
+      "channel": "x",
+      "at": "2026-10-07T08:00:57.983Z",
+      "titre": "En Dordogne, des religieuses en exil cachent un secret gourmand",
+      "lien": "https://passion-aquitaine.ouest-france.fr/trappe-echourgnac-fromage-religieuses-dordogne/",
+      "lienPost": null,
+      "format": "reponse",
+      "texte": "Amateurs de fromage, le produit culte des religieuses d’Échourgnac, en #Dordogne, a une histoire d’exil, de feu et un secret venu de Bretagne 🍽️",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261007-c3fc4b16-x.jpg"
+    },
+    {
       "channel": "facebook",
       "at": "2026-10-07T07:26:13.040Z",
       "titre": "En Dordogne, des religieuses en exil cachent un secret gourmand",
@@ -527,28 +545,9 @@
       "format": "reponse",
       "texte": "Un an à peine après sa création, le Green Paradize Festival revient déjà à Bègles 🎧 Au programme ce week-end : Cerrone, Morcheeba et Purple Disco Machine. De quoi réunir plusieurs générations de fans de musique. Vous êtes plutôt disco des origines ou disco revisité ?\n@villedebegles @francemusique @departementgironde",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261005-0255fe27-th.jpg"
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-10-05T06:11:34.862Z",
-      "titre": "Ce week-end à Bègles, Cerrone et Morcheeba montent sur scène",
-      "lien": "https://passion-aquitaine.ouest-france.fr/green-paradize-festival-begles-2026/",
-      "lienPost": "https://www.instagram.com/p/DeGiRXdloQk/",
-      "format": null,
-      "texte": "Le Green Paradize Festival n’a qu’un an, et il s’offre déjà 🪩 Cerrone en tête d’affiche\n⠀\nÀ Bègles, aux portes de Bordeaux, le jeune festival revient ce week-end. Purple Disco Machine et Morcheeba complètent une affiche taillée pour danser.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bègles #GreenParadizeFestival #Musique",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261005-0255fe27-1.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "x",
-      "dueAt": "2026-10-07T08:00:00.000Z",
-      "prochainPassage": "2026-10-07T08:00:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "En Dordogne, des religieuses en exil cachent un secret gourmand"
-    },
     {
       "channel": "instagram",
       "dueAt": "2026-10-07T11:14:09.616Z",
@@ -561,7 +560,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 201,
+    "releves": 202,
     "parReseau": {
       "instagram": {
         "posts": 24,
@@ -572,7 +571,7 @@
         "interactionsMoyennes": 0.1
       },
       "facebook": {
-        "posts": 19,
+        "posts": 20,
         "interactionsMoyennes": 0
       },
       "threads": {
@@ -640,7 +639,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-07T06:20:59.117Z"
+    "derniere": "2026-10-07T08:00:46.516Z"
   },
   "abonnes": {
     "instagram": {
@@ -679,7 +678,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-07T07:26:17.652Z",
+    "genereLe": "2026-10-07T08:01:08.632Z",
     "posts": 27,
     "parReseau": {
       "instagram": {
@@ -836,7 +835,7 @@
       "threads": 8,
       "facebook": 8,
       "bluesky": 8,
-      "x": 7,
+      "x": 8,
       "instagram": 7
     },
     "abonnes": {

@@ -1,1 +1,547 @@
-[]
+[
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=28601",
+    "channel": "instagram",
+    "dueAt": 1791371649616,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "En Dordogne, des religieuses en exil cachent un secret gourmand",
+      "link": "https://passion-aquitaine.ouest-france.fr/trappe-echourgnac-fromage-religieuses-dordogne/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=28601",
+      "pubDate": "Wed, 07 Oct 2026 05:30:03 +0000",
+      "date": 1791351003000,
+      "categories": [
+        "Dordogne",
+        "Produits locaux",
+        "Dordogne LOI"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/09/abaye-bonne-esperance.jpg",
+      "description": "À Échourgnac, des religieuses exilées puis éprouvées par le feu produisent un fromage devenu culte. Il cache pourtant un secret de Bretagne."
+    },
+    "dossier": {
+      "nature": "evergreen",
+      "sensible": false,
+      "rubrique": "Dordogne",
+      "visuel": {
+        "titre": "Des religieuses en exil cachent un secret gourmand",
+        "surlignage": "secret gourmand",
+        "description": "À Échourgnac, des religieuses exilées puis éprouvées par le feu produisent un fromage devenu culte. Mais sa recette cache un secret venu de Bretagne.",
+        "texte_alternatif": "Les religieuses d’Échourgnac, en Dordogne, produisent un fromage devenu culte, dont l’origine cache un secret venu de Bretagne."
+      },
+      "entites": [],
+      "domaines": [
+        "fromage",
+        "gastronomie",
+        "patrimoine"
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "Que cache vraiment le fromage culte des religieuses d’Échourgnac ?\nExilées puis éprouvées par le feu, ces religieuses de Dordogne produisent un fromage devenu culte. Son secret, lui, vient de Bretagne 🤫",
+        "hashtags": [
+          "#Dordogne",
+          "#Fromage",
+          "#ProduitsLocaux"
+        ]
+      },
+      "facebook": {
+        "texte": "Un fromage devenu culte en Dordogne doit son secret à une région bien loin d’ici : la Bretagne 🧀"
+      },
+      "bluesky": {
+        "texte": "En Dordogne, à Échourgnac, des religieuses exilées produisent un fromage devenu culte ⛪ Leur communauté a traversé l’exil et l’épreuve du feu, et leur fromage cache un secret venu de Bretagne.",
+        "hashtag": "#Dordogne"
+      },
+      "threads": {
+        "texte": "Un fromage culte du Périgord vert, une communauté de religieuses exilées… et un secret breton. À Échourgnac, ces religieuses ont été 🔥 éprouvées par le feu, sans cesser de produire ce fromage devenu culte. Pourtant, son origine ne se trouve pas en Dordogne mais en Bretagne.",
+        "sujet": "Dordogne"
+      },
+      "x": {
+        "texte": "Amateurs de fromage, le produit culte des religieuses d’Échourgnac, en Dordogne, a une histoire d’exil, de feu et un secret venu de Bretagne 🍽️"
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 7988,
+        "output": 1499
+      },
+      "angles": {
+        "instagram": "question intrigante",
+        "facebook": "chiffre ou fait marquant en tête",
+        "bluesky": "lieu en tête",
+        "threads": "effet de surprise",
+        "x": "bénéfice pour le lecteur"
+      },
+      "lieuSource": {
+        "precis": "",
+        "ville": "Échourgnac",
+        "departement": "Dordogne"
+      },
+      "lieuNom": "Échourgnac",
+      "commune": "Échourgnac",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Conseil départemental de la Dordogne",
+            "handle": "cddordogne24",
+            "abonnes": 3545,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "Dordogne",
+            "handle": "cddordogne",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=28601",
+    "channel": "bluesky",
+    "dueAt": 1791356702088,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "En Dordogne, des religieuses en exil cachent un secret gourmand",
+      "link": "https://passion-aquitaine.ouest-france.fr/trappe-echourgnac-fromage-religieuses-dordogne/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=28601",
+      "pubDate": "Wed, 07 Oct 2026 05:30:03 +0000",
+      "date": 1791351003000,
+      "categories": [
+        "Dordogne",
+        "Produits locaux",
+        "Dordogne LOI"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/09/abaye-bonne-esperance.jpg",
+      "description": "À Échourgnac, des religieuses exilées puis éprouvées par le feu produisent un fromage devenu culte. Il cache pourtant un secret de Bretagne."
+    },
+    "dossier": {
+      "nature": "evergreen",
+      "sensible": false,
+      "rubrique": "Dordogne",
+      "visuel": {
+        "titre": "Des religieuses en exil cachent un secret gourmand",
+        "surlignage": "secret gourmand",
+        "description": "À Échourgnac, des religieuses exilées puis éprouvées par le feu produisent un fromage devenu culte. Mais sa recette cache un secret venu de Bretagne.",
+        "texte_alternatif": "Les religieuses d’Échourgnac, en Dordogne, produisent un fromage devenu culte, dont l’origine cache un secret venu de Bretagne."
+      },
+      "entites": [],
+      "domaines": [
+        "fromage",
+        "gastronomie",
+        "patrimoine"
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "Que cache vraiment le fromage culte des religieuses d’Échourgnac ?\nExilées puis éprouvées par le feu, ces religieuses de Dordogne produisent un fromage devenu culte. Son secret, lui, vient de Bretagne 🤫",
+        "hashtags": [
+          "#Dordogne",
+          "#Fromage",
+          "#ProduitsLocaux"
+        ]
+      },
+      "facebook": {
+        "texte": "Un fromage devenu culte en Dordogne doit son secret à une région bien loin d’ici : la Bretagne 🧀"
+      },
+      "bluesky": {
+        "texte": "En Dordogne, à Échourgnac, des religieuses exilées produisent un fromage devenu culte ⛪ Leur communauté a traversé l’exil et l’épreuve du feu, et leur fromage cache un secret venu de Bretagne.",
+        "hashtag": "#Dordogne"
+      },
+      "threads": {
+        "texte": "Un fromage culte du Périgord vert, une communauté de religieuses exilées… et un secret breton. À Échourgnac, ces religieuses ont été 🔥 éprouvées par le feu, sans cesser de produire ce fromage devenu culte. Pourtant, son origine ne se trouve pas en Dordogne mais en Bretagne.",
+        "sujet": "Dordogne"
+      },
+      "x": {
+        "texte": "Amateurs de fromage, le produit culte des religieuses d’Échourgnac, en Dordogne, a une histoire d’exil, de feu et un secret venu de Bretagne 🍽️"
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 7988,
+        "output": 1499
+      },
+      "angles": {
+        "instagram": "question intrigante",
+        "facebook": "chiffre ou fait marquant en tête",
+        "bluesky": "lieu en tête",
+        "threads": "effet de surprise",
+        "x": "bénéfice pour le lecteur"
+      },
+      "lieuSource": {
+        "precis": "",
+        "ville": "Échourgnac",
+        "departement": "Dordogne"
+      },
+      "lieuNom": "Échourgnac",
+      "commune": "Échourgnac",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Conseil départemental de la Dordogne",
+            "handle": "cddordogne24",
+            "abonnes": 3545,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "Dordogne",
+            "handle": "cddordogne",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=28601",
+    "channel": "facebook",
+    "dueAt": 1791357964274,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "En Dordogne, des religieuses en exil cachent un secret gourmand",
+      "link": "https://passion-aquitaine.ouest-france.fr/trappe-echourgnac-fromage-religieuses-dordogne/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=28601",
+      "pubDate": "Wed, 07 Oct 2026 05:30:03 +0000",
+      "date": 1791351003000,
+      "categories": [
+        "Dordogne",
+        "Produits locaux",
+        "Dordogne LOI"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/09/abaye-bonne-esperance.jpg",
+      "description": "À Échourgnac, des religieuses exilées puis éprouvées par le feu produisent un fromage devenu culte. Il cache pourtant un secret de Bretagne."
+    },
+    "dossier": {
+      "nature": "evergreen",
+      "sensible": false,
+      "rubrique": "Dordogne",
+      "visuel": {
+        "titre": "Des religieuses en exil cachent un secret gourmand",
+        "surlignage": "secret gourmand",
+        "description": "À Échourgnac, des religieuses exilées puis éprouvées par le feu produisent un fromage devenu culte. Mais sa recette cache un secret venu de Bretagne.",
+        "texte_alternatif": "Les religieuses d’Échourgnac, en Dordogne, produisent un fromage devenu culte, dont l’origine cache un secret venu de Bretagne."
+      },
+      "entites": [],
+      "domaines": [
+        "fromage",
+        "gastronomie",
+        "patrimoine"
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "Que cache vraiment le fromage culte des religieuses d’Échourgnac ?\nExilées puis éprouvées par le feu, ces religieuses de Dordogne produisent un fromage devenu culte. Son secret, lui, vient de Bretagne 🤫",
+        "hashtags": [
+          "#Dordogne",
+          "#Fromage",
+          "#ProduitsLocaux"
+        ]
+      },
+      "facebook": {
+        "texte": "Un fromage devenu culte en Dordogne doit son secret à une région bien loin d’ici : la Bretagne 🧀"
+      },
+      "bluesky": {
+        "texte": "En Dordogne, à Échourgnac, des religieuses exilées produisent un fromage devenu culte ⛪ Leur communauté a traversé l’exil et l’épreuve du feu, et leur fromage cache un secret venu de Bretagne.",
+        "hashtag": "#Dordogne"
+      },
+      "threads": {
+        "texte": "Un fromage culte du Périgord vert, une communauté de religieuses exilées… et un secret breton. À Échourgnac, ces religieuses ont été 🔥 éprouvées par le feu, sans cesser de produire ce fromage devenu culte. Pourtant, son origine ne se trouve pas en Dordogne mais en Bretagne.",
+        "sujet": "Dordogne"
+      },
+      "x": {
+        "texte": "Amateurs de fromage, le produit culte des religieuses d’Échourgnac, en Dordogne, a une histoire d’exil, de feu et un secret venu de Bretagne 🍽️"
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 7988,
+        "output": 1499
+      },
+      "angles": {
+        "instagram": "question intrigante",
+        "facebook": "chiffre ou fait marquant en tête",
+        "bluesky": "lieu en tête",
+        "threads": "effet de surprise",
+        "x": "bénéfice pour le lecteur"
+      },
+      "lieuSource": {
+        "precis": "",
+        "ville": "Échourgnac",
+        "departement": "Dordogne"
+      },
+      "lieuNom": "Échourgnac",
+      "commune": "Échourgnac",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Conseil départemental de la Dordogne",
+            "handle": "cddordogne24",
+            "abonnes": 3545,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "Dordogne",
+            "handle": "cddordogne",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=28601",
+    "channel": "threads",
+    "dueAt": 1791354266275,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "En Dordogne, des religieuses en exil cachent un secret gourmand",
+      "link": "https://passion-aquitaine.ouest-france.fr/trappe-echourgnac-fromage-religieuses-dordogne/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=28601",
+      "pubDate": "Wed, 07 Oct 2026 05:30:03 +0000",
+      "date": 1791351003000,
+      "categories": [
+        "Dordogne",
+        "Produits locaux",
+        "Dordogne LOI"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/09/abaye-bonne-esperance.jpg",
+      "description": "À Échourgnac, des religieuses exilées puis éprouvées par le feu produisent un fromage devenu culte. Il cache pourtant un secret de Bretagne."
+    },
+    "dossier": {
+      "nature": "evergreen",
+      "sensible": false,
+      "rubrique": "Dordogne",
+      "visuel": {
+        "titre": "Des religieuses en exil cachent un secret gourmand",
+        "surlignage": "secret gourmand",
+        "description": "À Échourgnac, des religieuses exilées puis éprouvées par le feu produisent un fromage devenu culte. Mais sa recette cache un secret venu de Bretagne.",
+        "texte_alternatif": "Les religieuses d’Échourgnac, en Dordogne, produisent un fromage devenu culte, dont l’origine cache un secret venu de Bretagne."
+      },
+      "entites": [],
+      "domaines": [
+        "fromage",
+        "gastronomie",
+        "patrimoine"
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "Que cache vraiment le fromage culte des religieuses d’Échourgnac ?\nExilées puis éprouvées par le feu, ces religieuses de Dordogne produisent un fromage devenu culte. Son secret, lui, vient de Bretagne 🤫",
+        "hashtags": [
+          "#Dordogne",
+          "#Fromage",
+          "#ProduitsLocaux"
+        ]
+      },
+      "facebook": {
+        "texte": "Un fromage devenu culte en Dordogne doit son secret à une région bien loin d’ici : la Bretagne 🧀"
+      },
+      "bluesky": {
+        "texte": "En Dordogne, à Échourgnac, des religieuses exilées produisent un fromage devenu culte ⛪ Leur communauté a traversé l’exil et l’épreuve du feu, et leur fromage cache un secret venu de Bretagne.",
+        "hashtag": "#Dordogne"
+      },
+      "threads": {
+        "texte": "Un fromage culte du Périgord vert, une communauté de religieuses exilées… et un secret breton. À Échourgnac, ces religieuses ont été 🔥 éprouvées par le feu, sans cesser de produire ce fromage devenu culte. Pourtant, son origine ne se trouve pas en Dordogne mais en Bretagne.",
+        "sujet": "Dordogne"
+      },
+      "x": {
+        "texte": "Amateurs de fromage, le produit culte des religieuses d’Échourgnac, en Dordogne, a une histoire d’exil, de feu et un secret venu de Bretagne 🍽️"
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 7988,
+        "output": 1499
+      },
+      "angles": {
+        "instagram": "question intrigante",
+        "facebook": "chiffre ou fait marquant en tête",
+        "bluesky": "lieu en tête",
+        "threads": "effet de surprise",
+        "x": "bénéfice pour le lecteur"
+      },
+      "lieuSource": {
+        "precis": "",
+        "ville": "Échourgnac",
+        "departement": "Dordogne"
+      },
+      "lieuNom": "Échourgnac",
+      "commune": "Échourgnac",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Conseil départemental de la Dordogne",
+            "handle": "cddordogne24",
+            "abonnes": 3545,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "Dordogne",
+            "handle": "cddordogne",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=28601",
+    "channel": "x",
+    "dueAt": 1791360000000,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "En Dordogne, des religieuses en exil cachent un secret gourmand",
+      "link": "https://passion-aquitaine.ouest-france.fr/trappe-echourgnac-fromage-religieuses-dordogne/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=28601",
+      "pubDate": "Wed, 07 Oct 2026 05:30:03 +0000",
+      "date": 1791351003000,
+      "categories": [
+        "Dordogne",
+        "Produits locaux",
+        "Dordogne LOI"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/09/abaye-bonne-esperance.jpg",
+      "description": "À Échourgnac, des religieuses exilées puis éprouvées par le feu produisent un fromage devenu culte. Il cache pourtant un secret de Bretagne."
+    },
+    "dossier": {
+      "nature": "evergreen",
+      "sensible": false,
+      "rubrique": "Dordogne",
+      "visuel": {
+        "titre": "Des religieuses en exil cachent un secret gourmand",
+        "surlignage": "secret gourmand",
+        "description": "À Échourgnac, des religieuses exilées puis éprouvées par le feu produisent un fromage devenu culte. Mais sa recette cache un secret venu de Bretagne.",
+        "texte_alternatif": "Les religieuses d’Échourgnac, en Dordogne, produisent un fromage devenu culte, dont l’origine cache un secret venu de Bretagne."
+      },
+      "entites": [],
+      "domaines": [
+        "fromage",
+        "gastronomie",
+        "patrimoine"
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "Que cache vraiment le fromage culte des religieuses d’Échourgnac ?\nExilées puis éprouvées par le feu, ces religieuses de Dordogne produisent un fromage devenu culte. Son secret, lui, vient de Bretagne 🤫",
+        "hashtags": [
+          "#Dordogne",
+          "#Fromage",
+          "#ProduitsLocaux"
+        ]
+      },
+      "facebook": {
+        "texte": "Un fromage devenu culte en Dordogne doit son secret à une région bien loin d’ici : la Bretagne 🧀"
+      },
+      "bluesky": {
+        "texte": "En Dordogne, à Échourgnac, des religieuses exilées produisent un fromage devenu culte ⛪ Leur communauté a traversé l’exil et l’épreuve du feu, et leur fromage cache un secret venu de Bretagne.",
+        "hashtag": "#Dordogne"
+      },
+      "threads": {
+        "texte": "Un fromage culte du Périgord vert, une communauté de religieuses exilées… et un secret breton. À Échourgnac, ces religieuses ont été 🔥 éprouvées par le feu, sans cesser de produire ce fromage devenu culte. Pourtant, son origine ne se trouve pas en Dordogne mais en Bretagne.",
+        "sujet": "Dordogne"
+      },
+      "x": {
+        "texte": "Amateurs de fromage, le produit culte des religieuses d’Échourgnac, en Dordogne, a une histoire d’exil, de feu et un secret venu de Bretagne 🍽️"
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 7988,
+        "output": 1499
+      },
+      "angles": {
+        "instagram": "question intrigante",
+        "facebook": "chiffre ou fait marquant en tête",
+        "bluesky": "lieu en tête",
+        "threads": "effet de surprise",
+        "x": "bénéfice pour le lecteur"
+      },
+      "lieuSource": {
+        "precis": "",
+        "ville": "Échourgnac",
+        "departement": "Dordogne"
+      },
+      "lieuNom": "Échourgnac",
+      "commune": "Échourgnac",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Conseil départemental de la Dordogne",
+            "handle": "cddordogne24",
+            "abonnes": 3545,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "Dordogne",
+            "handle": "cddordogne",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  }
+]

@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-07T06:05:16.225Z",
+  "genereLe": "2026-10-07T06:20:59.117Z",
   "jour": "2026-10-07",
   "reseaux": {
     "instagram": {
@@ -122,11 +122,11 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 8,
-      "total": 27,
-      "dernier": "2026-10-06T06:29:47.480Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DeJJFvSGxFc"
+      "aujourdhui": 1,
+      "semaine": 9,
+      "total": 28,
+      "dernier": "2026-10-07T06:28:17.062Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DeLtXDClr84"
     },
     "x": {
       "actif": true,
@@ -164,6 +164,22 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=28601",
+      "titre": "En Dordogne, des religieuses en exil cachent un secret gourmand",
+      "lien": "https://passion-aquitaine.ouest-france.fr/trappe-echourgnac-fromage-religieuses-dordogne/",
+      "at": "2026-10-07T06:28:17.062Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Un fromage culte du Périgord vert, une communauté de religieuses exilées… et un secret breton. À Échourgnac, ces religieuses ont été 🔥 éprouvées par le feu, sans cesser de produire ce fromage devenu culte. Pourtant, son origine ne se trouve pas en Dordogne mais en Bretagne.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261007-c3fc4b16-th.jpg",
+          "mode": "reponse",
+          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/trappe-echourgnac-fromage-religieuses-dordogne/",
+          "sujet": "Échourgnac",
+          "publieLe": "2026-10-07T06:28:17.062Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35575",
       "titre": "À Limoges, Le Cheverny abrite une des meilleures caves de France",
@@ -403,57 +419,19 @@
           "publieLe": "2026-10-03T10:14:33.238Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35407",
-      "titre": "À Poitiers, une doctorante restaure des tablettes du Louvre",
-      "lien": "https://passion-aquitaine.ouest-france.fr/doctorante-poitiers-tablettes-mesopotamiennes-louvre/",
-      "at": "2026-10-02T10:30:46.872Z",
-      "reseaux": {
-        "threads": {
-          "texte": "On imagine les trésors du Louvre restaurés dans ses propres ateliers. Une partie du travail se fait pourtant à Poitiers 🧱 La doctorante Jeanne Maucourt y œuvre avec le musée pour sauver des tablettes mésopotamiennes en terre crue, une matière qui ne pardonne aucune erreur.\n@fondationdupatrimoine\n➡️ https://passion-aquitaine.ouest-france.fr/doctorante-poitiers-tablettes-mesopotamiennes-louvre/",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261002-fa646ed7-th.jpg",
-          "mode": "image",
-          "reponse": null,
-          "sujet": "Poitiers",
-          "publieLe": "2026-10-02T06:25:24.848Z"
-        },
-        "facebook": {
-          "texte": "De la terre crue venue de Mésopotamie : c’est la matière fragile que Jeanne Maucourt aide le Louvre à sauver, depuis Poitiers 🏺",
-          "image": null,
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-02T07:10:27.616Z"
-        },
-        "x": {
-          "texte": "Des tablettes mésopotamiennes en terre crue du Louvre reprennent vie grâce à Jeanne Maucourt, doctorante à #Poitiers : un savoir-faire rare pour transmettre ces écrits antiques 🔬\n➡️ https://passion-aquitaine.ouest-france.fr/doctorante-poitiers-tablettes-mesopotamiennes-louvre/",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261002-fa646ed7-x.jpg",
-          "mode": "image",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-02T07:20:50.133Z"
-        },
-        "bluesky": {
-          "texte": "À #Poitiers, une doctorante veille sur des trésors du Louvre 📜 Jeanne Maucourt travaille avec le musée pour sauver des tablettes mésopotamiennes en terre crue, un matériau particulièrement fragile.\n@museelouvre.bsky.social @adlfi.eurosky.social @fond-patrimoine.bsky.social",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261002-fa646ed7-bsky.jpg",
-          "mode": "card",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-02T07:28:23.307Z"
-        },
-        "instagram": {
-          "texte": "Comment sauver une tablette mésopotamienne en terre crue, vieille de plusieurs millénaires ?\n⠀\nÀ Poitiers, la doctorante Jeanne Maucourt travaille avec le Louvre pour préserver ces fragiles témoins de l’écriture antique 🏺\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Poitiers #Mesopotamie #Archeologie",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261002-fa646ed7-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-02T10:30:46.872Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "threads",
+      "at": "2026-10-07T06:28:17.062Z",
+      "titre": "En Dordogne, des religieuses en exil cachent un secret gourmand",
+      "lien": "https://passion-aquitaine.ouest-france.fr/trappe-echourgnac-fromage-religieuses-dordogne/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/DeLtXDClr84",
+      "format": "reponse",
+      "texte": "Un fromage culte du Périgord vert, une communauté de religieuses exilées… et un secret breton. À Échourgnac, ces religieuses ont été 🔥 éprouvées par le feu, sans cesser de produire ce fromage devenu culte. Pourtant, son origine ne se trouve pas en Dordogne mais en Bretagne.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261007-c3fc4b16-th.jpg"
+    },
     {
       "channel": "instagram",
       "at": "2026-10-06T11:12:40.157Z",
@@ -543,28 +521,9 @@
       "format": null,
       "texte": "Imaginez Bègles transformée en grande piste de danse, avec Cerrone et Purple Disco Machine sur scène ce week-end 🎶",
       "image": null
-    },
-    {
-      "channel": "x",
-      "at": "2026-10-05T06:00:46.273Z",
-      "titre": "Ce week-end à Bègles, Cerrone et Morcheeba montent sur scène",
-      "lien": "https://passion-aquitaine.ouest-france.fr/green-paradize-festival-begles-2026/",
-      "lienPost": null,
-      "format": "reponse",
-      "texte": "À #Bègles, le Green Paradize Festival n’a qu’un an et frappe fort : 🕺 Cerrone, Morcheeba et Purple Disco Machine sont attendus sur scène ce week-end.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261005-0255fe27-x.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "threads",
-      "dueAt": "2026-10-07T06:24:26.275Z",
-      "prochainPassage": "2026-10-07T07:00:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "En Dordogne, des religieuses en exil cachent un secret gourmand"
-    },
     {
       "channel": "bluesky",
       "dueAt": "2026-10-07T07:05:02.088Z",
@@ -683,7 +642,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-07T05:20:59.031Z"
+    "derniere": "2026-10-07T06:20:59.117Z"
   },
   "abonnes": {
     "instagram": {
@@ -722,7 +681,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-07T06:05:21.842Z",
+    "genereLe": "2026-10-07T06:28:23.775Z",
     "posts": 24,
     "parReseau": {
       "instagram": {
@@ -872,7 +831,7 @@
       }
     },
     "publies": {
-      "threads": 7,
+      "threads": 8,
       "facebook": 7,
       "bluesky": 7,
       "x": 7,

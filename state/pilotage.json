@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-07T10:21:14.059Z",
+  "genereLe": "2026-10-07T11:00:44.214Z",
   "jour": "2026-10-07",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 8,
-      "total": 32,
-      "dernier": "2026-10-06T11:12:40.157Z",
-      "lienDernier": "https://www.instagram.com/p/DeJpgtklzof/"
+      "aujourdhui": 1,
+      "semaine": 9,
+      "total": 33,
+      "dernier": "2026-10-07T11:14:39.306Z",
+      "lienDernier": "https://www.instagram.com/p/DeMOiicDODc/"
     },
     "bluesky": {
       "actif": true,
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=28601",
       "titre": "En Dordogne, des religieuses en exil cachent un secret gourmand",
       "lien": "https://passion-aquitaine.ouest-france.fr/trappe-echourgnac-fromage-religieuses-dordogne/",
-      "at": "2026-10-07T08:00:57.983Z",
+      "at": "2026-10-07T11:14:39.306Z",
       "reseaux": {
         "threads": {
           "texte": "Un fromage culte du Périgord vert, une communauté de religieuses exilées… et un secret breton. À Échourgnac, ces religieuses ont été 🔥 éprouvées par le feu, sans cesser de produire ce fromage devenu culte. Pourtant, son origine ne se trouve pas en Dordogne mais en Bretagne.",
@@ -201,6 +201,14 @@
           "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/trappe-echourgnac-fromage-religieuses-dordogne/",
           "sujet": null,
           "publieLe": "2026-10-07T08:00:57.983Z"
+        },
+        "instagram": {
+          "texte": "Que cache vraiment le fromage culte des religieuses d’Échourgnac ?\n⠀\nExilées puis éprouvées par le feu, ces religieuses de Dordogne produisent un fromage devenu culte. Son secret, lui, vient de Bretagne 🤫\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Dordogne #Fromage #ProduitsLocaux",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261007-c3fc4b16-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-07T11:14:39.306Z"
         }
       }
     },
@@ -447,6 +455,16 @@
   ],
   "publications": [
     {
+      "channel": "instagram",
+      "at": "2026-10-07T11:14:39.306Z",
+      "titre": "En Dordogne, des religieuses en exil cachent un secret gourmand",
+      "lien": "https://passion-aquitaine.ouest-france.fr/trappe-echourgnac-fromage-religieuses-dordogne/",
+      "lienPost": "https://www.instagram.com/p/DeMOiicDODc/",
+      "format": null,
+      "texte": "Que cache vraiment le fromage culte des religieuses d’Échourgnac ?\n⠀\nExilées puis éprouvées par le feu, ces religieuses de Dordogne produisent un fromage devenu culte. Son secret, lui, vient de Bretagne 🤫\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Dordogne #Fromage #ProduitsLocaux",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261007-c3fc4b16-1.jpg"
+    },
+    {
       "channel": "x",
       "at": "2026-10-07T08:00:57.983Z",
       "titre": "En Dordogne, des religieuses en exil cachent un secret gourmand",
@@ -535,29 +553,9 @@
       "format": "image",
       "texte": "L’une des meilleures cartes des vins de France se trouve dans un restaurant familial de #Limoges. Le Cheverny a pris place dans une ancienne usine, devenue une adresse de choix pour les amateurs 🥂\n➡️ Lire l’article",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261006-9ec21692-bsky.jpg"
-    },
-    {
-      "channel": "threads",
-      "at": "2026-10-05T06:18:18.323Z",
-      "titre": "Ce week-end à Bègles, Cerrone et Morcheeba montent sur scène",
-      "lien": "https://passion-aquitaine.ouest-france.fr/green-paradize-festival-begles-2026/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/DeGisFzEfEG",
-      "format": "reponse",
-      "texte": "Un an à peine après sa création, le Green Paradize Festival revient déjà à Bègles 🎧 Au programme ce week-end : Cerrone, Morcheeba et Purple Disco Machine. De quoi réunir plusieurs générations de fans de musique. Vous êtes plutôt disco des origines ou disco revisité ?\n@villedebegles @francemusique @departementgironde",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261005-0255fe27-th.jpg"
     }
   ],
-  "file": [
-    {
-      "channel": "instagram",
-      "dueAt": "2026-10-07T11:14:09.616Z",
-      "prochainPassage": "2026-10-07T11:20:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "En Dordogne, des religieuses en exil cachent un secret gourmand"
-    }
-  ],
+  "file": [],
   "alertes": [],
   "mesures": {
     "releves": 202,
@@ -678,7 +676,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-07T10:21:20.768Z",
+    "genereLe": "2026-10-07T11:14:44.909Z",
     "posts": 27,
     "parReseau": {
       "instagram": {
@@ -836,7 +834,7 @@
       "facebook": 8,
       "bluesky": 8,
       "x": 8,
-      "instagram": 7
+      "instagram": 8
     },
     "abonnes": {
       "instagram": {

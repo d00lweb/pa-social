@@ -3,7 +3,7 @@
     "cle": "2026-10",
     "publications": 40,
     "articles": 8,
-    "interactions": 17,
+    "interactions": 82,
     "parReseau": {
       "facebook": 8,
       "instagram": 8,
@@ -19,6 +19,13 @@
       "bluesky": 2
     },
     "top": [
+      {
+        "reseau": "instagram",
+        "titre": "À Limoges, Le Cheverny abrite une des meilleures caves de France",
+        "lien": "https://www.instagram.com/p/DeJpgtklzof/",
+        "image": "https://passion-aquitaine.ouest-france.fr/social/20261006-9ec21692-1-vignette.jpg",
+        "interactions": 65
+      },
       {
         "reseau": "instagram",
         "titre": "À Hendaye, un château cache un observatoire actif jusqu’en 1975",
@@ -46,13 +53,6 @@
         "lien": "https://www.instagram.com/p/DeB0esZjo1X/",
         "image": "https://passion-aquitaine.ouest-france.fr/social/20261003-536318f0-1-vignette.jpg",
         "interactions": 2
-      },
-      {
-        "reseau": "instagram",
-        "titre": "La Rochelle : cette usine fabrique des mâts de 22 mètres grâce à ses cuves uniques",
-        "lien": "https://www.instagram.com/p/DeCmFQoDYvj/",
-        "image": "https://passion-aquitaine.ouest-france.fr/social/20261003-78debb7f-1-vignette.jpg",
-        "interactions": 2
       }
     ]
   },
@@ -60,7 +60,7 @@
     "cle": "2026-09",
     "publications": 111,
     "articles": 25,
-    "interactions": 558,
+    "interactions": 560,
     "parReseau": {
       "facebook": 20,
       "instagram": 25,

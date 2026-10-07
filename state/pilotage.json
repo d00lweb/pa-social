@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-07T11:00:44.214Z",
+  "genereLe": "2026-10-07T11:20:40.763Z",
   "jour": "2026-10-07",
   "reseaux": {
     "instagram": {
@@ -25,7 +25,7 @@
       },
       "formats": null,
       "aujourdhui": 1,
-      "semaine": 9,
+      "semaine": 8,
       "total": 33,
       "dernier": "2026-10-07T11:14:39.306Z",
       "lienDernier": "https://www.instagram.com/p/DeMOiicDODc/"
@@ -558,11 +558,11 @@
   "file": [],
   "alertes": [],
   "mesures": {
-    "releves": 202,
+    "releves": 204,
     "parReseau": {
       "instagram": {
-        "posts": 24,
-        "interactionsMoyennes": 15.5
+        "posts": 25,
+        "interactionsMoyennes": 15.2
       },
       "bluesky": {
         "posts": 23,
@@ -676,12 +676,12 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-07T11:14:44.909Z",
-    "posts": 27,
+    "genereLe": "2026-10-07T11:20:51.177Z",
+    "posts": 28,
     "parReseau": {
       "instagram": {
-        "posts": 6,
-        "moyenne": 2.3
+        "posts": 7,
+        "moyenne": 11.3
       },
       "threads": {
         "posts": 7,
@@ -720,8 +720,8 @@
     },
     "parCreneau": {
       "après-midi": {
-        "posts": 5,
-        "moyenne": 2
+        "posts": 6,
+        "moyenne": 12.5
       },
       "soir": {
         "posts": 2,
@@ -765,8 +765,8 @@
       },
       "instagram": {
         "12 h – 13 h 30": {
-          "posts": 4,
-          "moyenne": 2.5
+          "posts": 5,
+          "moyenne": 15
         },
         "18 h – 19 h 30": {
           "posts": 1,
@@ -778,22 +778,22 @@
         }
       }
     },
-    "interactionsTotal": 17,
+    "interactionsTotal": 82,
     "meilleur": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35474",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35575",
       "channel": "instagram",
-      "mediaId": "18075420143454805",
-      "publieLe": "2026-10-04T11:29:33.669Z",
+      "mediaId": "17981511146907952",
+      "publieLe": "2026-10-06T11:12:40.157Z",
       "jalon": 1,
-      "releveLe": "2026-10-05T12:00:45.732Z",
-      "likes": 4,
-      "commentaires": 0,
+      "releveLe": "2026-10-07T11:20:40.763Z",
+      "likes": 65,
+      "commentairesBruts": 18,
       "partages": null,
       "vues": null,
-      "commentairesBruts": 26,
+      "commentaires": 0,
       "v": 2,
-      "titre": "À Hendaye, un château cache un observatoire actif jusqu’en 1975",
-      "lien": "https://www.instagram.com/p/DeEh3MYjNDP/",
+      "titre": "À Limoges, Le Cheverny abrite une des meilleures caves de France",
+      "lien": "https://www.instagram.com/p/DeJpgtklzof/",
       "format": null,
       "mention": true,
       "creneau": "après-midi",
@@ -821,8 +821,8 @@
     },
     "mentions": {
       "avec": {
-        "posts": 17,
-        "moyenne": 1
+        "posts": 18,
+        "moyenne": 4.6
       },
       "sans": {
         "posts": 10,
@@ -872,14 +872,14 @@
       "x": null
     },
     "engagement": {
-      "instagram": 0.02,
+      "instagram": 0.11,
       "threads": 0.03,
       "facebook": 0
     },
     "conseils": [
       "Le format « card » fait 10 fois mieux que « lien » (1 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « lien » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+2, +0,2 %) ; Facebook recule (−8), à surveiller.",
-      "Les posts avec mention font 1 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
+      "Les posts avec mention font 4.6 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
     ]
   },
   "couts": {

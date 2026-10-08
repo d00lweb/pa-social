@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-08T07:20:44.091Z",
+  "genereLe": "2026-10-08T08:00:48.111Z",
   "jour": "2026-10-08",
   "reseaux": {
     "instagram": {
@@ -561,7 +561,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 209,
+    "releves": 210,
     "parReseau": {
       "instagram": {
         "posts": 25,
@@ -679,8 +679,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-08T07:20:54.978Z",
-    "posts": 30,
+    "genereLe": "2026-10-08T08:00:52.372Z",
+    "posts": 31,
     "parReseau": {
       "instagram": {
         "posts": 7,
@@ -695,7 +695,7 @@
         "moyenne": 0.1
       },
       "facebook": {
-        "posts": 7,
+        "posts": 8,
         "moyenne": 0
       }
     },
@@ -731,7 +731,7 @@
         "moyenne": 1
       },
       "matin": {
-        "posts": 22,
+        "posts": 23,
         "moyenne": 0.3
       }
     },
@@ -748,7 +748,7 @@
       },
       "facebook": {
         "8 h – 9 h 30": {
-          "posts": 6,
+          "posts": 7,
           "moyenne": 0
         },
         "20 h – 21 h 30": {
@@ -804,11 +804,11 @@
     },
     "moinsBon": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=28601",
-      "channel": "bluesky",
-      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mxbexzh6s52s",
-      "publieLe": "2026-10-07T07:05:03.867Z",
+      "channel": "facebook",
+      "mediaId": "227437307428711_1744155084377039",
+      "publieLe": "2026-10-07T07:26:13.040Z",
       "jalon": 1,
-      "releveLe": "2026-10-08T07:20:44.091Z",
+      "releveLe": "2026-10-08T08:00:48.111Z",
       "likes": 0,
       "commentairesBruts": 0,
       "partages": 0,
@@ -816,8 +816,8 @@
       "commentaires": 0,
       "v": 2,
       "titre": "En Dordogne, des religieuses en exil cachent un secret gourmand",
-      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mxbexzh6s52s",
-      "format": "image",
+      "lien": "https://www.facebook.com/1720946116697936/posts/1744155084377039",
+      "format": null,
       "mention": false,
       "creneau": "matin",
       "creneauReseau": "8 h – 9 h 30"
@@ -828,7 +828,7 @@
         "moyenne": 4.6
       },
       "sans": {
-        "posts": 12,
+        "posts": 13,
         "moyenne": 0.2
       }
     },

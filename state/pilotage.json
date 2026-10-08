@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-08T11:00:37.247Z",
+  "genereLe": "2026-10-08T11:20:44.935Z",
   "jour": "2026-10-08",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 7,
-      "total": 33,
-      "dernier": "2026-10-07T11:14:39.306Z",
-      "lienDernier": "https://www.instagram.com/p/DeMOiicDODc/"
+      "aujourdhui": 1,
+      "semaine": 8,
+      "total": 34,
+      "dernier": "2026-10-08T11:29:14.929Z",
+      "lienDernier": "https://www.instagram.com/p/DeO1ASYGAG9/"
     },
     "bluesky": {
       "actif": true,
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=29413",
       "titre": "Poule Marans : l’œuf de James Bond se note de 1 à 9",
       "lien": "https://passion-aquitaine.ouest-france.fr/oeuf-poule-marans-echelle-couleur/",
-      "at": "2026-10-08T08:20:51.804Z",
+      "at": "2026-10-08T11:29:14.929Z",
       "reseaux": {
         "threads": {
           "texte": "Envie de reconnaître un vrai œuf de poule Marans 🥚 En Charente-Maritime, il existe une échelle de 1 à 9 pour le juger, et il faut au moins le niveau 4 pour porter ce nom. Un repère utile la prochaine fois que vous en croiserez un sur un marché. Petit bonus : James Bond en a déjà mangé.",
@@ -201,6 +201,14 @@
           "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/oeuf-poule-marans-echelle-couleur/",
           "sujet": null,
           "publieLe": "2026-10-08T08:20:51.804Z"
+        },
+        "instagram": {
+          "texte": "Au moins 4 sur 9 : c’est la note qu’un 🥚 œuf doit décrocher pour mériter le nom de poule Marans\n⠀\nCe produit local de Charente-Maritime a même eu les honneurs de l’assiette de James Bond. Découvrez comment on évalue cet œuf pas comme les autres.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#CharenteMaritime #PouleMarans #ProduitsLocaux",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261008-aa4ea9c1-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-08T11:29:14.929Z"
         }
       }
     },
@@ -447,6 +455,16 @@
   ],
   "publications": [
     {
+      "channel": "instagram",
+      "at": "2026-10-08T11:29:14.929Z",
+      "titre": "Poule Marans : l’œuf de James Bond se note de 1 à 9",
+      "lien": "https://passion-aquitaine.ouest-france.fr/oeuf-poule-marans-echelle-couleur/",
+      "lienPost": "https://www.instagram.com/p/DeO1ASYGAG9/",
+      "format": null,
+      "texte": "Au moins 4 sur 9 : c’est la note qu’un 🥚 œuf doit décrocher pour mériter le nom de poule Marans\n⠀\nCe produit local de Charente-Maritime a même eu les honneurs de l’assiette de James Bond. Découvrez comment on évalue cet œuf pas comme les autres.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#CharenteMaritime #PouleMarans #ProduitsLocaux",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261008-aa4ea9c1-1.jpg"
+    },
+    {
       "channel": "x",
       "at": "2026-10-08T08:20:51.804Z",
       "titre": "Poule Marans : l’œuf de James Bond se note de 1 à 9",
@@ -535,32 +553,12 @@
       "format": "reponse",
       "texte": "Un fromage culte du Périgord vert, une communauté de religieuses exilées… et un secret breton. À Échourgnac, ces religieuses ont été 🔥 éprouvées par le feu, sans cesser de produire ce fromage devenu culte. Pourtant, son origine ne se trouve pas en Dordogne mais en Bretagne.",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261007-c3fc4b16-th.jpg"
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-10-06T11:12:40.157Z",
-      "titre": "À Limoges, Le Cheverny abrite une des meilleures caves de France",
-      "lien": "https://passion-aquitaine.ouest-france.fr/cheverny-limoges-restaurant-usine-cave/",
-      "lienPost": "https://www.instagram.com/p/DeJpgtklzof/",
-      "format": null,
-      "texte": "Des bouteilles d’exception là où tournaient autrefois des machines 🍾\n⠀\nÀ Limoges, Le Cheverny, restaurant familial niché dans une ancienne usine, cache l’une des meilleures cartes des vins de France. Une adresse à connaître pour les amateurs de vin en Haute-Vienne.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Limoges #CarteDesVins #HauteVienne",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261006-9ec21692-1.jpg"
     }
   ],
-  "file": [
-    {
-      "channel": "instagram",
-      "dueAt": "2026-10-08T11:28:42.133Z",
-      "prochainPassage": "2026-10-08T12:00:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Poule Marans : l’œuf de James Bond se note de 1 à 9"
-    }
-  ],
+  "file": [],
   "alertes": [],
   "mesures": {
-    "releves": 211,
+    "releves": 212,
     "parReseau": {
       "instagram": {
         "posts": 26,
@@ -639,7 +637,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-08T10:00:56.110Z"
+    "derniere": "2026-10-08T11:20:44.935Z"
   },
   "abonnes": {
     "instagram": {
@@ -678,12 +676,12 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-08T11:00:42.755Z",
-    "posts": 31,
+    "genereLe": "2026-10-08T11:29:20.189Z",
+    "posts": 32,
     "parReseau": {
       "instagram": {
-        "posts": 7,
-        "moyenne": 11.3
+        "posts": 8,
+        "moyenne": 10.1
       },
       "threads": {
         "posts": 8,
@@ -722,8 +720,8 @@
     },
     "parCreneau": {
       "après-midi": {
-        "posts": 6,
-        "moyenne": 12.5
+        "posts": 7,
+        "moyenne": 11
       },
       "soir": {
         "posts": 2,
@@ -767,8 +765,8 @@
       },
       "instagram": {
         "12 h – 13 h 30": {
-          "posts": 5,
-          "moyenne": 15
+          "posts": 6,
+          "moyenne": 12.8
         },
         "18 h – 19 h 30": {
           "posts": 1,
@@ -780,7 +778,7 @@
         }
       }
     },
-    "interactionsTotal": 84,
+    "interactionsTotal": 86,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35575",
       "channel": "instagram",
@@ -823,8 +821,8 @@
     },
     "mentions": {
       "avec": {
-        "posts": 18,
-        "moyenne": 4.6
+        "posts": 19,
+        "moyenne": 4.4
       },
       "sans": {
         "posts": 13,
@@ -836,7 +834,7 @@
       "facebook": 9,
       "bluesky": 9,
       "x": 9,
-      "instagram": 8
+      "instagram": 9
     },
     "abonnes": {
       "instagram": {
@@ -874,14 +872,14 @@
       "x": null
     },
     "engagement": {
-      "instagram": 0.11,
+      "instagram": 0.1,
       "threads": 0.04,
       "facebook": 0
     },
     "conseils": [
       "Le format « card » fait 10 fois mieux que « lien » (1 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « lien » de la rotation dans config/channels.json.",
       "Abonnés : Instagram progresse le plus (+6, +0,1 %) ; Facebook recule (−11), à surveiller.",
-      "Les posts avec mention font 4.4 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
+      "Les posts avec mention font 4.2 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
     ]
   },
   "couts": {

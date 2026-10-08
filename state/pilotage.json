@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-08T06:00:48.721Z",
+  "genereLe": "2026-10-08T06:20:42.158Z",
   "jour": "2026-10-08",
   "reseaux": {
     "instagram": {
@@ -122,11 +122,11 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
+      "aujourdhui": 1,
       "semaine": 8,
-      "total": 28,
-      "dernier": "2026-10-07T06:28:17.062Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DeLtXDClr84"
+      "total": 29,
+      "dernier": "2026-10-08T06:27:45.299Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DeOSG-YlvO_"
     },
     "x": {
       "actif": true,
@@ -164,6 +164,22 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=29413",
+      "titre": "Poule Marans : l’œuf de James Bond se note de 1 à 9",
+      "lien": "https://passion-aquitaine.ouest-france.fr/oeuf-poule-marans-echelle-couleur/",
+      "at": "2026-10-08T06:27:45.299Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Envie de reconnaître un vrai œuf de poule Marans 🥚 En Charente-Maritime, il existe une échelle de 1 à 9 pour le juger, et il faut au moins le niveau 4 pour porter ce nom. Un repère utile la prochaine fois que vous en croiserez un sur un marché. Petit bonus : James Bond en a déjà mangé.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261008-aa4ea9c1-th.jpg",
+          "mode": "reponse",
+          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/oeuf-poule-marans-echelle-couleur/",
+          "sujet": "Charente-Maritime",
+          "publieLe": "2026-10-08T06:27:45.299Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=28601",
       "titre": "En Dordogne, des religieuses en exil cachent un secret gourmand",
@@ -403,57 +419,19 @@
           "publieLe": "2026-10-03T18:06:33.712Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35363",
-      "titre": "Les Deux-Sèvres, département le plus fécond de toute la région",
-      "lien": "https://passion-aquitaine.ouest-france.fr/deux-sevres-departement-plus-fecond-region/",
-      "at": "2026-10-03T10:14:33.238Z",
-      "reseaux": {
-        "threads": {
-          "texte": "📈 Un classement qu’on attendait peu : pour l’indice de fécondité, les Deux-Sèvres arrivent en tête de toute la Nouvelle-Aquitaine, selon l’Insee. Et le département se situe au-dessus de la moyenne nationale. Vous pensiez à ce département pour ce record ?",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261003-536318f0-th.jpg",
-          "mode": "reponse",
-          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/deux-sevres-departement-plus-fecond-region/",
-          "sujet": "Deux-Sèvres",
-          "publieLe": "2026-10-03T06:28:41.414Z"
-        },
-        "bluesky": {
-          "texte": "Familles, le constat de l’@insee.fr peut vous parler : en Nouvelle-Aquitaine, aucun département ne fait mieux que les Deux-Sèvres en matière de fécondité, et l’indice y dépasse aussi la moyenne nationale 📊 #NouvelleAquitaine",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261003-536318f0-bsky.jpg",
-          "mode": "reply",
-          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/deux-sevres-departement-plus-fecond-region/",
-          "sujet": null,
-          "publieLe": "2026-10-03T06:30:25.362Z"
-        },
-        "facebook": {
-          "texte": "Ni la Gironde ni le Pays basque : c’est un département plus discret qui compte le plus de naissances par femme dans la région 🍼",
-          "image": null,
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-03T07:07:44.982Z"
-        },
-        "x": {
-          "texte": "Des berceaux plus nombreux qu’ailleurs 🧸 Sur toute la Nouvelle-Aquitaine, les Deux-Sèvres décrochent le meilleur indice de fécondité, d’après l’Insee, et dépassent la moyenne française.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261003-536318f0-x.jpg",
-          "mode": "reponse",
-          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/deux-sevres-departement-plus-fecond-region/",
-          "sujet": null,
-          "publieLe": "2026-10-03T07:20:45.571Z"
-        },
-        "instagram": {
-          "texte": "Deux-Sèvres : c’est ici que naissent le plus de bébés en Nouvelle-Aquitaine 👶\n⠀\nL’Insee place le département en tête de la région pour l’indice de fécondité. Il fait même mieux que la moyenne nationale.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#DeuxSèvres #NouvelleAquitaine #Démographie",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261003-536318f0-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-03T10:14:33.238Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "threads",
+      "at": "2026-10-08T06:27:45.299Z",
+      "titre": "Poule Marans : l’œuf de James Bond se note de 1 à 9",
+      "lien": "https://passion-aquitaine.ouest-france.fr/oeuf-poule-marans-echelle-couleur/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/DeOSG-YlvO_",
+      "format": "reponse",
+      "texte": "Envie de reconnaître un vrai œuf de poule Marans 🥚 En Charente-Maritime, il existe une échelle de 1 à 9 pour le juger, et il faut au moins le niveau 4 pour porter ce nom. Un repère utile la prochaine fois que vous en croiserez un sur un marché. Petit bonus : James Bond en a déjà mangé.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261008-aa4ea9c1-th.jpg"
+    },
     {
       "channel": "instagram",
       "at": "2026-10-07T11:14:39.306Z",
@@ -543,28 +521,9 @@
       "format": "lien",
       "texte": "🍇 Limoges, une ancienne usine, et à l’intérieur un restaurant familial : Le Cheverny. Rien ne laisse deviner que sa cave figure parmi les meilleures de France. Une belle surprise pour qui aime le vin et les lieux chargés d’histoire.\n@ville_de_limoges",
       "image": null
-    },
-    {
-      "channel": "bluesky",
-      "at": "2026-10-06T06:23:57.806Z",
-      "titre": "À Limoges, Le Cheverny abrite une des meilleures caves de France",
-      "lien": "https://passion-aquitaine.ouest-france.fr/cheverny-limoges-restaurant-usine-cave/",
-      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mx6s7mcb242r",
-      "format": "image",
-      "texte": "L’une des meilleures cartes des vins de France se trouve dans un restaurant familial de #Limoges. Le Cheverny a pris place dans une ancienne usine, devenue une adresse de choix pour les amateurs 🥂\n➡️ Lire l’article",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261006-9ec21692-bsky.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "threads",
-      "dueAt": "2026-10-08T06:24:01.968Z",
-      "prochainPassage": "2026-10-08T07:00:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Poule Marans : l’œuf de James Bond se note de 1 à 9"
-    },
     {
       "channel": "bluesky",
       "dueAt": "2026-10-08T07:09:43.742Z",
@@ -604,7 +563,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 204,
+    "releves": 205,
     "parReseau": {
       "instagram": {
         "posts": 25,
@@ -619,8 +578,8 @@
         "interactionsMoyennes": 0
       },
       "threads": {
-        "posts": 20,
-        "interactionsMoyennes": 9
+        "posts": 21,
+        "interactionsMoyennes": 8.6
       }
     }
   },
@@ -683,7 +642,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-08T05:20:39.890Z"
+    "derniere": "2026-10-08T06:20:42.158Z"
   },
   "abonnes": {
     "instagram": {
@@ -722,7 +681,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-08T06:01:07.173Z",
+    "genereLe": "2026-10-08T06:27:54.169Z",
     "posts": 28,
     "parReseau": {
       "instagram": {
@@ -876,7 +835,7 @@
       }
     },
     "publies": {
-      "threads": 8,
+      "threads": 9,
       "facebook": 8,
       "bluesky": 8,
       "x": 8,

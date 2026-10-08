@@ -2572,5 +2572,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=29413",
+    "channel": "threads",
+    "at": "2026-10-08T06:27:45.299Z",
+    "mediaId": "17972757849151008",
+    "titre": "Poule Marans : l’œuf de James Bond se note de 1 à 9",
+    "lien": "https://passion-aquitaine.ouest-france.fr/oeuf-poule-marans-echelle-couleur/",
+    "lienPost": "https://www.threads.com/@lovaquitaine/post/DeOSG-YlvO_",
+    "format": "reponse",
+    "mention": false,
+    "apercu": {
+      "texte": "Envie de reconnaître un vrai œuf de poule Marans 🥚 En Charente-Maritime, il existe une échelle de 1 à 9 pour le juger, et il faut au moins le niveau 4 pour porter ce nom. Un repère utile la prochaine fois que vous en croiserez un sur un marché. Petit bonus : James Bond en a déjà mangé.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261008-aa4ea9c1-th.jpg",
+      "mode": "reponse",
+      "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/oeuf-poule-marans-echelle-couleur/",
+      "sujet": "Charente-Maritime"
+    }
   }
 ]

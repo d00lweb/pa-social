@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-08T10:00:56.110Z",
+  "genereLe": "2026-10-08T10:20:44.320Z",
   "jour": "2026-10-08",
   "reseaux": {
     "instagram": {
@@ -25,7 +25,7 @@
       },
       "formats": null,
       "aujourdhui": 0,
-      "semaine": 8,
+      "semaine": 7,
       "total": 33,
       "dernier": "2026-10-07T11:14:39.306Z",
       "lienDernier": "https://www.instagram.com/p/DeMOiicDODc/"
@@ -560,11 +560,11 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 210,
+    "releves": 211,
     "parReseau": {
       "instagram": {
-        "posts": 25,
-        "interactionsMoyennes": 15.2
+        "posts": 26,
+        "interactionsMoyennes": 14.7
       },
       "bluesky": {
         "posts": 24,
@@ -678,7 +678,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-08T10:01:02.288Z",
+    "genereLe": "2026-10-08T10:20:49.346Z",
     "posts": 31,
     "parReseau": {
       "instagram": {

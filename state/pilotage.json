@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-08T06:20:42.158Z",
+  "genereLe": "2026-10-08T07:01:17.397Z",
   "jour": "2026-10-08",
   "reseaux": {
     "instagram": {
@@ -60,11 +60,11 @@
         "image",
         "reply"
       ],
-      "aujourdhui": 0,
+      "aujourdhui": 1,
       "semaine": 8,
-      "total": 31,
-      "dernier": "2026-10-07T07:05:03.867Z",
-      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mxbexzh6s52s"
+      "total": 32,
+      "dernier": "2026-10-08T07:09:45.122Z",
+      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mxdvpdcc272k"
     },
     "facebook": {
       "actif": true,
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 0,
+      "aujourdhui": 1,
       "semaine": 8,
-      "total": 28,
-      "dernier": "2026-10-07T07:26:13.040Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1744155084377039"
+      "total": 29,
+      "dernier": "2026-10-08T07:12:55.023Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1745177484274799"
     },
     "threads": {
       "actif": true,
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=29413",
       "titre": "Poule Marans : l’œuf de James Bond se note de 1 à 9",
       "lien": "https://passion-aquitaine.ouest-france.fr/oeuf-poule-marans-echelle-couleur/",
-      "at": "2026-10-08T06:27:45.299Z",
+      "at": "2026-10-08T07:12:55.023Z",
       "reseaux": {
         "threads": {
           "texte": "Envie de reconnaître un vrai œuf de poule Marans 🥚 En Charente-Maritime, il existe une échelle de 1 à 9 pour le juger, et il faut au moins le niveau 4 pour porter ce nom. Un repère utile la prochaine fois que vous en croiserez un sur un marché. Petit bonus : James Bond en a déjà mangé.",
@@ -177,6 +177,22 @@
           "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/oeuf-poule-marans-echelle-couleur/",
           "sujet": "Charente-Maritime",
           "publieLe": "2026-10-08T06:27:45.299Z"
+        },
+        "bluesky": {
+          "texte": "🍳 James Bond a déjà goûté un œuf de poule Marans. Mais en #CharenteMaritime, tous les œufs de cette poule ne se valent pas : ils sont notés de 1 à 9, et seuls ceux qui atteignent au moins le niveau 4 méritent ce nom.\n➡️ Lire l’article",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261008-aa4ea9c1-bsky.jpg",
+          "mode": "image",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-08T07:09:45.122Z"
+        },
+        "facebook": {
+          "texte": "En Charente-Maritime, un œuf de poule Marans doit décrocher au moins 4 sur 9 pour avoir le droit de porter son nom 🐔",
+          "image": null,
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-08T07:12:55.023Z"
         }
       }
     },
@@ -423,6 +439,26 @@
   ],
   "publications": [
     {
+      "channel": "facebook",
+      "at": "2026-10-08T07:12:55.023Z",
+      "titre": "Poule Marans : l’œuf de James Bond se note de 1 à 9",
+      "lien": "https://passion-aquitaine.ouest-france.fr/oeuf-poule-marans-echelle-couleur/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1745177484274799",
+      "format": null,
+      "texte": "En Charente-Maritime, un œuf de poule Marans doit décrocher au moins 4 sur 9 pour avoir le droit de porter son nom 🐔",
+      "image": null
+    },
+    {
+      "channel": "bluesky",
+      "at": "2026-10-08T07:09:45.122Z",
+      "titre": "Poule Marans : l’œuf de James Bond se note de 1 à 9",
+      "lien": "https://passion-aquitaine.ouest-france.fr/oeuf-poule-marans-echelle-couleur/",
+      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mxdvpdcc272k",
+      "format": "image",
+      "texte": "🍳 James Bond a déjà goûté un œuf de poule Marans. Mais en #CharenteMaritime, tous les œufs de cette poule ne se valent pas : ils sont notés de 1 à 9, et seuls ceux qui atteignent au moins le niveau 4 méritent ce nom.\n➡️ Lire l’article",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261008-aa4ea9c1-bsky.jpg"
+    },
+    {
       "channel": "threads",
       "at": "2026-10-08T06:27:45.299Z",
       "titre": "Poule Marans : l’œuf de James Bond se note de 1 à 9",
@@ -501,47 +537,9 @@
       "format": "lien",
       "texte": "Une ancienne usine de #Limoges abrite l’une des meilleures caves de France 🍷 Derrière ce trésor, un restaurant familial : Le Cheverny.\n➡️ https://passion-aquitaine.ouest-france.fr/cheverny-limoges-restaurant-usine-cave/",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261006-9ec21692-x.jpg"
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-10-06T06:34:24.340Z",
-      "titre": "À Limoges, Le Cheverny abrite une des meilleures caves de France",
-      "lien": "https://passion-aquitaine.ouest-france.fr/cheverny-limoges-restaurant-usine-cave/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1743076294484918",
-      "format": null,
-      "texte": "Qui imaginerait qu’une ancienne usine de Limoges cache l’une des plus belles cartes des vins de France ? 🍷",
-      "image": null
-    },
-    {
-      "channel": "threads",
-      "at": "2026-10-06T06:29:47.480Z",
-      "titre": "À Limoges, Le Cheverny abrite une des meilleures caves de France",
-      "lien": "https://passion-aquitaine.ouest-france.fr/cheverny-limoges-restaurant-usine-cave/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/DeJJFvSGxFc",
-      "format": "lien",
-      "texte": "🍇 Limoges, une ancienne usine, et à l’intérieur un restaurant familial : Le Cheverny. Rien ne laisse deviner que sa cave figure parmi les meilleures de France. Une belle surprise pour qui aime le vin et les lieux chargés d’histoire.\n@ville_de_limoges",
-      "image": null
     }
   ],
   "file": [
-    {
-      "channel": "bluesky",
-      "dueAt": "2026-10-08T07:09:43.742Z",
-      "prochainPassage": "2026-10-08T07:20:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Poule Marans : l’œuf de James Bond se note de 1 à 9"
-    },
-    {
-      "channel": "facebook",
-      "dueAt": "2026-10-08T07:12:45.584Z",
-      "prochainPassage": "2026-10-08T07:20:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Poule Marans : l’œuf de James Bond se note de 1 à 9"
-    },
     {
       "channel": "x",
       "dueAt": "2026-10-08T08:20:00.000Z",
@@ -563,18 +561,18 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 205,
+    "releves": 208,
     "parReseau": {
       "instagram": {
         "posts": 25,
         "interactionsMoyennes": 15.2
       },
       "bluesky": {
-        "posts": 23,
+        "posts": 24,
         "interactionsMoyennes": 0.1
       },
       "facebook": {
-        "posts": 20,
+        "posts": 21,
         "interactionsMoyennes": 0
       },
       "threads": {
@@ -681,16 +679,16 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-08T06:27:54.169Z",
-    "posts": 28,
+    "genereLe": "2026-10-08T07:13:03.174Z",
+    "posts": 29,
     "parReseau": {
       "instagram": {
         "posts": 7,
         "moyenne": 11.3
       },
       "threads": {
-        "posts": 7,
-        "moyenne": 0.3
+        "posts": 8,
+        "moyenne": 0.5
       },
       "bluesky": {
         "posts": 7,
@@ -707,8 +705,8 @@
         "moyenne": 1
       },
       "reponse": {
-        "posts": 5,
-        "moyenne": 0.4
+        "posts": 6,
+        "moyenne": 0.7
       },
       "reply": {
         "posts": 5,
@@ -733,7 +731,7 @@
         "moyenne": 1
       },
       "matin": {
-        "posts": 20,
+        "posts": 21,
         "moyenne": 0.3
       }
     },
@@ -744,8 +742,8 @@
           "moyenne": 1
         },
         "7 h – 8 h 30": {
-          "posts": 6,
-          "moyenne": 0.2
+          "posts": 7,
+          "moyenne": 0.4
         }
       },
       "facebook": {
@@ -783,7 +781,7 @@
         }
       }
     },
-    "interactionsTotal": 82,
+    "interactionsTotal": 84,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35575",
       "channel": "instagram",
@@ -830,14 +828,14 @@
         "moyenne": 4.6
       },
       "sans": {
-        "posts": 10,
-        "moyenne": 0
+        "posts": 11,
+        "moyenne": 0.2
       }
     },
     "publies": {
       "threads": 9,
-      "facebook": 8,
-      "bluesky": 8,
+      "facebook": 9,
+      "bluesky": 9,
       "x": 8,
       "instagram": 8
     },
@@ -878,13 +876,13 @@
     },
     "engagement": {
       "instagram": 0.11,
-      "threads": 0.03,
+      "threads": 0.04,
       "facebook": 0
     },
     "conseils": [
       "Le format « card » fait 10 fois mieux que « lien » (1 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « lien » de la rotation dans config/channels.json.",
       "Abonnés : Instagram progresse le plus (+6, +0,1 %) ; Facebook recule (−11), à surveiller.",
-      "Les posts avec mention font 4.6 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
+      "Les posts avec mention font 4.4 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
     ]
   },
   "couts": {

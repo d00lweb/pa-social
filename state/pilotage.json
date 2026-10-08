@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-08T05:20:39.890Z",
+  "genereLe": "2026-10-08T06:00:48.721Z",
   "jour": "2026-10-08",
   "reseaux": {
     "instagram": {
@@ -555,7 +555,53 @@
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261006-9ec21692-bsky.jpg"
     }
   ],
-  "file": [],
+  "file": [
+    {
+      "channel": "threads",
+      "dueAt": "2026-10-08T06:24:01.968Z",
+      "prochainPassage": "2026-10-08T07:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Poule Marans : l’œuf de James Bond se note de 1 à 9"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-10-08T07:09:43.742Z",
+      "prochainPassage": "2026-10-08T07:20:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Poule Marans : l’œuf de James Bond se note de 1 à 9"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-10-08T07:12:45.584Z",
+      "prochainPassage": "2026-10-08T07:20:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Poule Marans : l’œuf de James Bond se note de 1 à 9"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-10-08T08:20:00.000Z",
+      "prochainPassage": "2026-10-08T08:20:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Poule Marans : l’œuf de James Bond se note de 1 à 9"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-10-08T11:28:42.133Z",
+      "prochainPassage": "2026-10-08T12:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Poule Marans : l’œuf de James Bond se note de 1 à 9"
+    }
+  ],
   "alertes": [],
   "mesures": {
     "releves": 204,
@@ -676,7 +722,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-08T05:20:45.866Z",
+    "genereLe": "2026-10-08T06:01:07.173Z",
     "posts": 28,
     "parReseau": {
       "instagram": {
@@ -884,29 +930,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 0,
-      "entree": 0,
-      "sortie": 0,
-      "cout": 0,
+      "appels": 1,
+      "entree": 7923,
+      "sortie": 888,
+      "cout": 0.049452,
       "cle": "2026-10-08"
     },
     "semaine": {
-      "appels": 15,
-      "entree": 116185,
-      "sortie": 15145,
-      "cout": 0.7676399999999999
+      "appels": 16,
+      "entree": 124108,
+      "sortie": 16033,
+      "cout": 0.8170919999999999
     },
     "mois": {
-      "appels": 16,
-      "entree": 123834,
-      "sortie": 15984,
-      "cout": 0.815016,
+      "appels": 17,
+      "entree": 131757,
+      "sortie": 16872,
+      "cout": 0.864468,
       "cle": "2026-10"
     },
-    "projection": 3.16,
+    "projection": 3.35,
     "moyenneAppel": 0.0509,
     "parModele": {
-      "claude-opus-5-5": 16
+      "claude-opus-5-5": 17
     },
     "serie": [
       [
@@ -963,7 +1009,7 @@
       ],
       [
         "2026-10-08",
-        0
+        0.0495
       ]
     ],
     "depuis": "2026-09-23"

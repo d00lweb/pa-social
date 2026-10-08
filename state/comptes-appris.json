@@ -64,5 +64,49 @@
       "bluesky": [],
       "x": []
     }
+  },
+  "territoire:charente-maritime:ma_charente_maritime,infinimentcharentes": {
+    "v": 3,
+    "cherche": "2026-10-08T06:00:59.488Z",
+    "conseil": {
+      "instagram": [
+        {
+          "handle": "ma_charente_maritime",
+          "nom": "La Charente-Maritime",
+          "abonnes": 34903,
+          "preuve": 3
+        }
+      ],
+      "threads": [
+        {
+          "handle": "ma_charente_maritime",
+          "nom": "La Charente-Maritime",
+          "abonnes": 34903,
+          "preuve": 3
+        }
+      ],
+      "bluesky": [],
+      "x": [
+        {
+          "handle": "departement17",
+          "nom": "",
+          "abonnes": null,
+          "preuve": 3
+        }
+      ]
+    },
+    "tourisme": {
+      "instagram": [
+        {
+          "handle": "infinimentcharentes",
+          "nom": "Infiniment Charentes",
+          "abonnes": 27684,
+          "preuve": 3
+        }
+      ],
+      "threads": [],
+      "bluesky": [],
+      "x": []
+    }
   }
 }

@@ -2626,5 +2626,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=29413",
+    "channel": "x",
+    "at": "2026-10-08T08:20:51.804Z",
+    "mediaId": "kit-telegram",
+    "titre": "Poule Marans : l’œuf de James Bond se note de 1 à 9",
+    "lien": "https://passion-aquitaine.ouest-france.fr/oeuf-poule-marans-echelle-couleur/",
+    "lienPost": null,
+    "format": "reponse",
+    "mention": true,
+    "apercu": {
+      "texte": "Un œuf de poule Marans se note : en Charente-Maritime, il faut atteindre 🐓 au moins 4 sur 9 pour porter ce nom. Un produit local qui a même nourri James Bond.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261008-aa4ea9c1-x.jpg",
+      "mode": "reponse",
+      "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/oeuf-poule-marans-echelle-couleur/",
+      "sujet": null
+    }
   }
 ]

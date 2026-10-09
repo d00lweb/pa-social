@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-09T15:00:44.670Z",
+  "genereLe": "2026-10-09T15:20:49.727Z",
   "jour": "2026-10-09",
   "reseaux": {
     "instagram": {
@@ -156,10 +156,10 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 2,
-      "semaine": 9,
-      "total": 34,
-      "dernier": "2026-10-09T11:00:48.706Z",
+      "aujourdhui": 3,
+      "semaine": 10,
+      "total": 35,
+      "dernier": "2026-10-09T15:20:59.631Z",
       "lienDernier": null
     }
   },
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35756",
       "titre": "Fouilles à la dune du Pilat, un vestige de 2 500 ans ressurgit",
       "lien": "https://passion-aquitaine.ouest-france.fr/dune-du-pilat-atelier-sel-fouilles/",
-      "at": "2026-10-09T11:36:10.451Z",
+      "at": "2026-10-09T15:20:59.631Z",
       "reseaux": {
         "threads": {
           "texte": "Que faisait-on au pied de la dune du Pilat il y a plus de 2 500 ans ? Réponse : 🧂 on y produisait du sel. Un ancien atelier vient de ressurgir, et les archéologues fouillent avant que l’érosion ne l’emporte. Vous imaginiez le Bassin d’Arcachon aussi ancien ?",
@@ -177,6 +177,14 @@
           "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/dune-du-pilat-atelier-sel-fouilles/",
           "sujet": "Bassin d'Arcachon",
           "publieLe": "2026-10-09T11:36:10.451Z"
+        },
+        "x": {
+          "texte": "Plus de 2 500 ans : c’est l’âge d’un atelier de sel ressurgi au pied de la dune du Pilat. Les archéologues fouillent avant que l’érosion ne l’efface ⏳",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-7fe1d4e9-x.jpg",
+          "mode": "reponse",
+          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/dune-du-pilat-atelier-sel-fouilles/",
+          "sujet": null,
+          "publieLe": "2026-10-09T15:20:59.631Z"
         }
       }
     },
@@ -407,6 +415,16 @@
   ],
   "publications": [
     {
+      "channel": "x",
+      "at": "2026-10-09T15:20:59.631Z",
+      "titre": "Fouilles à la dune du Pilat, un vestige de 2 500 ans ressurgit",
+      "lien": "https://passion-aquitaine.ouest-france.fr/dune-du-pilat-atelier-sel-fouilles/",
+      "lienPost": null,
+      "format": "reponse",
+      "texte": "Plus de 2 500 ans : c’est l’âge d’un atelier de sel ressurgi au pied de la dune du Pilat. Les archéologues fouillent avant que l’érosion ne l’efface ⏳",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-7fe1d4e9-x.jpg"
+    },
+    {
       "channel": "threads",
       "at": "2026-10-09T11:36:10.451Z",
       "titre": "Fouilles à la dune du Pilat, un vestige de 2 500 ans ressurgit",
@@ -495,28 +513,9 @@
       "format": "reponse",
       "texte": "🤐 Un cocktail bar caché à La Rochelle, vous en aviez entendu parler ? Il fait partie de nos cinq adresses pour une soirée qui démarre à l’apéro et se termine à 2 h. Au programme aussi : une guinguette glacée et deux bars installés face aux tours. Et vous, c’est quoi votre adresse rochelaise pour un dernier verre ?",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-1d143348-th.jpg"
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-10-08T11:29:14.929Z",
-      "titre": "Poule Marans : l’œuf de James Bond se note de 1 à 9",
-      "lien": "https://passion-aquitaine.ouest-france.fr/oeuf-poule-marans-echelle-couleur/",
-      "lienPost": "https://www.instagram.com/p/DeO1ASYGAG9/",
-      "format": null,
-      "texte": "Au moins 4 sur 9 : c’est la note qu’un 🥚 œuf doit décrocher pour mériter le nom de poule Marans\n⠀\nCe produit local de Charente-Maritime a même eu les honneurs de l’assiette de James Bond. Découvrez comment on évalue cet œuf pas comme les autres.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#CharenteMaritime #PouleMarans #ProduitsLocaux",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261008-aa4ea9c1-1.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "x",
-      "dueAt": "2026-10-09T15:20:00.000Z",
-      "prochainPassage": "2026-10-09T15:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Fouilles à la dune du Pilat, un vestige de 2 500 ans ressurgit"
-    },
     {
       "channel": "bluesky",
       "dueAt": "2026-10-09T17:08:51.242Z",
@@ -683,7 +682,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-09T15:00:51.080Z",
+    "genereLe": "2026-10-09T15:21:09.405Z",
     "posts": 36,
     "parReseau": {
       "instagram": {
@@ -840,7 +839,7 @@
       "threads": 12,
       "facebook": 10,
       "bluesky": 11,
-      "x": 11,
+      "x": 12,
       "instagram": 10
     },
     "abonnes": {

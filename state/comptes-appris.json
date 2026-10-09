@@ -108,5 +108,70 @@
       "bluesky": [],
       "x": []
     }
+  },
+  "commune:mairie:la rochelle": {
+    "v": 3,
+    "cherche": "2026-10-09T06:00:56.635Z",
+    "instagram": [
+      {
+        "handle": "larochelleensemble",
+        "nom": "La Rochelle Ensemble",
+        "abonnes": 27257,
+        "preuve": 3
+      }
+    ],
+    "x": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "commune:tourisme:la rochelle": {
+    "v": 3,
+    "cherche": "2026-10-09T06:00:56.635Z",
+    "instagram": [],
+    "x": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "vivier:la rochelle:nouslarochelle,larochelleensemble": {
+    "v": 3,
+    "cherche": "2026-10-09T06:00:56.635Z",
+    "instagram": [
+      {
+        "handle": "nouslarochelle",
+        "nom": "Nous La Rochelle - Office de Tourisme",
+        "abonnes": 45455,
+        "preuve": 3
+      },
+      {
+        "handle": "larochelleensemble",
+        "nom": "La Rochelle Ensemble",
+        "abonnes": 27257,
+        "preuve": 3
+      }
+    ],
+    "threads": [],
+    "bluesky": [],
+    "x": []
+  },
+  "locale:la rochelle:bar": {
+    "v": 3,
+    "cherche": "2026-10-09T06:00:56.635Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:la rochelle:cocktail": {
+    "v": 3,
+    "cherche": "2026-10-09T06:00:56.635Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:la rochelle:tourisme": {
+    "v": 3,
+    "cherche": "2026-10-09T06:00:56.635Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
   }
 }

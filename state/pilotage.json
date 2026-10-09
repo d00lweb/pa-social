@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-09T05:20:42.491Z",
+  "genereLe": "2026-10-09T06:00:46.729Z",
   "jour": "2026-10-09",
   "reseaux": {
     "instagram": {
@@ -555,7 +555,53 @@
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261007-c3fc4b16-th.jpg"
     }
   ],
-  "file": [],
+  "file": [
+    {
+      "channel": "threads",
+      "dueAt": "2026-10-09T06:27:22.604Z",
+      "prochainPassage": "2026-10-09T07:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Bars à La Rochelle : 5 adresses incontournables et insolites"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-10-09T07:00:00.000Z",
+      "prochainPassage": "2026-10-09T07:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Bars à La Rochelle : 5 adresses incontournables et insolites"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-10-09T07:23:04.512Z",
+      "prochainPassage": "2026-10-09T08:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Bars à La Rochelle : 5 adresses incontournables et insolites"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-10-09T07:26:48.349Z",
+      "prochainPassage": "2026-10-09T08:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Bars à La Rochelle : 5 adresses incontournables et insolites"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-10-09T10:13:40.273Z",
+      "prochainPassage": "2026-10-09T10:20:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Bars à La Rochelle : 5 adresses incontournables et insolites"
+    }
+  ],
   "alertes": [],
   "mesures": {
     "releves": 212,
@@ -637,7 +683,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-09T05:00:46.606Z"
+    "derniere": "2026-10-09T06:00:46.729Z"
   },
   "abonnes": {
     "instagram": {
@@ -676,7 +722,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-09T05:20:49.336Z",
+    "genereLe": "2026-10-09T06:01:08.936Z",
     "posts": 32,
     "parReseau": {
       "instagram": {
@@ -884,29 +930,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 0,
-      "entree": 0,
-      "sortie": 0,
-      "cout": 0,
+      "appels": 1,
+      "entree": 7948,
+      "sortie": 896,
+      "cout": 0.049712,
       "cle": "2026-10-09"
     },
     "semaine": {
-      "appels": 13,
-      "entree": 101046,
-      "sortie": 13477,
-      "cout": 0.673724
+      "appels": 14,
+      "entree": 108994,
+      "sortie": 14373,
+      "cout": 0.723436
     },
     "mois": {
-      "appels": 17,
-      "entree": 131757,
-      "sortie": 16872,
-      "cout": 0.864468,
+      "appels": 18,
+      "entree": 139705,
+      "sortie": 17768,
+      "cout": 0.91418,
       "cle": "2026-10"
     },
-    "projection": 2.98,
-    "moyenneAppel": 0.0509,
+    "projection": 3.15,
+    "moyenneAppel": 0.0508,
     "parModele": {
-      "claude-opus-5-5": 17
+      "claude-opus-5-5": 18
     },
     "serie": [
       [
@@ -963,7 +1009,7 @@
       ],
       [
         "2026-10-09",
-        0
+        0.0497
       ]
     ],
     "depuis": "2026-09-23"

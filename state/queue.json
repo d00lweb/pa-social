@@ -1,1 +1,612 @@
-[]
+[
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35715",
+    "channel": "instagram",
+    "dueAt": 1791540820273,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Bars à La Rochelle : 5 adresses incontournables et insolites",
+      "link": "https://passion-aquitaine.ouest-france.fr/top-5-bars-incontournables-la-rochelle/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35715",
+      "pubDate": "Fri, 09 Oct 2026 05:30:40 +0000",
+      "date": 1791523840000,
+      "categories": [
+        "Charente-Maritime",
+        "Vacances & week-end",
+        "Charente MA LOI"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/10/guignette-la-rochelle.jpeg",
+      "description": "Une guignette glacée, deux bars face aux tours jusqu’à 2 h, un cocktail bar caché : cinq bars de La Rochelle pour une soirée de l’apéro à 2 h."
+    },
+    "dossier": {
+      "nature": "evergreen",
+      "sensible": false,
+      "rubrique": "La Rochelle",
+      "visuel": {
+        "titre": "Bars à La Rochelle : 5 adresses incontournables et insolites",
+        "surlignage": "5 adresses",
+        "description": "Une guinguette glacée, deux bars face aux tours ouverts jusqu’à 2 h et un cocktail bar caché : le parcours idéal pour une soirée rochelaise, de l’apéro à la fermeture.",
+        "texte_alternatif": "Cinq bars de La Rochelle, en Charente-Maritime, à découvrir pour une soirée, de l’apéro jusqu’à 2 h, dont deux face aux tours et un cocktail bar caché."
+      },
+      "entites": [],
+      "domaines": [
+        "bar",
+        "cocktail",
+        "tourisme"
+      ],
+      "lieu": {
+        "id": "109370652426488",
+        "nom": "La Rochelle",
+        "niveau": "ville"
+      },
+      "instagram": {
+        "texte": "La Rochelle by night : cinq bars pour tenir de l’apéro jusqu’à 2 h 🍸\nUne guinguette glacée, deux comptoirs face aux tours et un cocktail bar bien caché. Notre sélection d’adresses insolites pour une soirée réussie en Charente-Maritime.",
+        "hashtags": [
+          "#LaRochelle",
+          "#BarsLaRochelle",
+          "#CharenteMaritime"
+        ]
+      },
+      "facebook": {
+        "texte": "À La Rochelle, l’un des meilleurs bars pour finir la soirée se cache littéralement, encore faut-il savoir où le trouver 🍹"
+      },
+      "bluesky": {
+        "texte": "Une soirée complète sans chercher : cinq bars de La Rochelle à enchaîner, d’une guinguette glacée à un cocktail bar caché, avec deux adresses face aux tours ouvertes jusqu’à 2 h 🥂",
+        "hashtag": "#LaRochelle"
+      },
+      "threads": {
+        "texte": "🤐 Un cocktail bar caché à La Rochelle, vous en aviez entendu parler ? Il fait partie de nos cinq adresses pour une soirée qui démarre à l’apéro et se termine à 2 h. Au programme aussi : une guinguette glacée et deux bars installés face aux tours. Et vous, c’est quoi votre adresse rochelaise pour un dernier verre ?",
+        "sujet": "La Rochelle"
+      },
+      "x": {
+        "texte": "Les tours de La Rochelle en face, un verre à la main jusqu’à 2 h 🌙 Guinguette glacée, cocktail bar caché : cinq bars pour une soirée rochelaise de l’apéro à la nuit."
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 7948,
+        "output": 896
+      },
+      "angles": {
+        "instagram": "lieu en tête",
+        "facebook": "effet de surprise",
+        "bluesky": "bénéfice pour le lecteur",
+        "threads": "détail méconnu",
+        "x": "image évocatrice"
+      },
+      "lieuSource": {
+        "precis": "",
+        "ville": "La Rochelle",
+        "departement": "Charente-Maritime"
+      },
+      "lieuNom": "La Rochelle",
+      "commune": "La Rochelle",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "La Rochelle Ensemble",
+            "handle": "larochelleensemble",
+            "abonnes": 27257,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          },
+          {
+            "nom": "Nous La Rochelle - Office de Tourisme",
+            "handle": "nouslarochelle",
+            "abonnes": 45455,
+            "preuve": 3,
+            "role": "theme",
+            "echelon": "commune",
+            "thematique": true
+          },
+          {
+            "nom": "Infiniment Charentes",
+            "handle": "infinimentcharentes",
+            "abonnes": 27684,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35715",
+    "channel": "bluesky",
+    "dueAt": 1791530808349,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Bars à La Rochelle : 5 adresses incontournables et insolites",
+      "link": "https://passion-aquitaine.ouest-france.fr/top-5-bars-incontournables-la-rochelle/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35715",
+      "pubDate": "Fri, 09 Oct 2026 05:30:40 +0000",
+      "date": 1791523840000,
+      "categories": [
+        "Charente-Maritime",
+        "Vacances & week-end",
+        "Charente MA LOI"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/10/guignette-la-rochelle.jpeg",
+      "description": "Une guignette glacée, deux bars face aux tours jusqu’à 2 h, un cocktail bar caché : cinq bars de La Rochelle pour une soirée de l’apéro à 2 h."
+    },
+    "dossier": {
+      "nature": "evergreen",
+      "sensible": false,
+      "rubrique": "La Rochelle",
+      "visuel": {
+        "titre": "Bars à La Rochelle : 5 adresses incontournables et insolites",
+        "surlignage": "5 adresses",
+        "description": "Une guinguette glacée, deux bars face aux tours ouverts jusqu’à 2 h et un cocktail bar caché : le parcours idéal pour une soirée rochelaise, de l’apéro à la fermeture.",
+        "texte_alternatif": "Cinq bars de La Rochelle, en Charente-Maritime, à découvrir pour une soirée, de l’apéro jusqu’à 2 h, dont deux face aux tours et un cocktail bar caché."
+      },
+      "entites": [],
+      "domaines": [
+        "bar",
+        "cocktail",
+        "tourisme"
+      ],
+      "lieu": {
+        "id": "109370652426488",
+        "nom": "La Rochelle",
+        "niveau": "ville"
+      },
+      "instagram": {
+        "texte": "La Rochelle by night : cinq bars pour tenir de l’apéro jusqu’à 2 h 🍸\nUne guinguette glacée, deux comptoirs face aux tours et un cocktail bar bien caché. Notre sélection d’adresses insolites pour une soirée réussie en Charente-Maritime.",
+        "hashtags": [
+          "#LaRochelle",
+          "#BarsLaRochelle",
+          "#CharenteMaritime"
+        ]
+      },
+      "facebook": {
+        "texte": "À La Rochelle, l’un des meilleurs bars pour finir la soirée se cache littéralement, encore faut-il savoir où le trouver 🍹"
+      },
+      "bluesky": {
+        "texte": "Une soirée complète sans chercher : cinq bars de La Rochelle à enchaîner, d’une guinguette glacée à un cocktail bar caché, avec deux adresses face aux tours ouvertes jusqu’à 2 h 🥂",
+        "hashtag": "#LaRochelle"
+      },
+      "threads": {
+        "texte": "🤐 Un cocktail bar caché à La Rochelle, vous en aviez entendu parler ? Il fait partie de nos cinq adresses pour une soirée qui démarre à l’apéro et se termine à 2 h. Au programme aussi : une guinguette glacée et deux bars installés face aux tours. Et vous, c’est quoi votre adresse rochelaise pour un dernier verre ?",
+        "sujet": "La Rochelle"
+      },
+      "x": {
+        "texte": "Les tours de La Rochelle en face, un verre à la main jusqu’à 2 h 🌙 Guinguette glacée, cocktail bar caché : cinq bars pour une soirée rochelaise de l’apéro à la nuit."
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 7948,
+        "output": 896
+      },
+      "angles": {
+        "instagram": "lieu en tête",
+        "facebook": "effet de surprise",
+        "bluesky": "bénéfice pour le lecteur",
+        "threads": "détail méconnu",
+        "x": "image évocatrice"
+      },
+      "lieuSource": {
+        "precis": "",
+        "ville": "La Rochelle",
+        "departement": "Charente-Maritime"
+      },
+      "lieuNom": "La Rochelle",
+      "commune": "La Rochelle",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "La Rochelle Ensemble",
+            "handle": "larochelleensemble",
+            "abonnes": 27257,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          },
+          {
+            "nom": "Nous La Rochelle - Office de Tourisme",
+            "handle": "nouslarochelle",
+            "abonnes": 45455,
+            "preuve": 3,
+            "role": "theme",
+            "echelon": "commune",
+            "thematique": true
+          },
+          {
+            "nom": "Infiniment Charentes",
+            "handle": "infinimentcharentes",
+            "abonnes": 27684,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35715",
+    "channel": "facebook",
+    "dueAt": 1791530584512,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Bars à La Rochelle : 5 adresses incontournables et insolites",
+      "link": "https://passion-aquitaine.ouest-france.fr/top-5-bars-incontournables-la-rochelle/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35715",
+      "pubDate": "Fri, 09 Oct 2026 05:30:40 +0000",
+      "date": 1791523840000,
+      "categories": [
+        "Charente-Maritime",
+        "Vacances & week-end",
+        "Charente MA LOI"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/10/guignette-la-rochelle.jpeg",
+      "description": "Une guignette glacée, deux bars face aux tours jusqu’à 2 h, un cocktail bar caché : cinq bars de La Rochelle pour une soirée de l’apéro à 2 h."
+    },
+    "dossier": {
+      "nature": "evergreen",
+      "sensible": false,
+      "rubrique": "La Rochelle",
+      "visuel": {
+        "titre": "Bars à La Rochelle : 5 adresses incontournables et insolites",
+        "surlignage": "5 adresses",
+        "description": "Une guinguette glacée, deux bars face aux tours ouverts jusqu’à 2 h et un cocktail bar caché : le parcours idéal pour une soirée rochelaise, de l’apéro à la fermeture.",
+        "texte_alternatif": "Cinq bars de La Rochelle, en Charente-Maritime, à découvrir pour une soirée, de l’apéro jusqu’à 2 h, dont deux face aux tours et un cocktail bar caché."
+      },
+      "entites": [],
+      "domaines": [
+        "bar",
+        "cocktail",
+        "tourisme"
+      ],
+      "lieu": {
+        "id": "109370652426488",
+        "nom": "La Rochelle",
+        "niveau": "ville"
+      },
+      "instagram": {
+        "texte": "La Rochelle by night : cinq bars pour tenir de l’apéro jusqu’à 2 h 🍸\nUne guinguette glacée, deux comptoirs face aux tours et un cocktail bar bien caché. Notre sélection d’adresses insolites pour une soirée réussie en Charente-Maritime.",
+        "hashtags": [
+          "#LaRochelle",
+          "#BarsLaRochelle",
+          "#CharenteMaritime"
+        ]
+      },
+      "facebook": {
+        "texte": "À La Rochelle, l’un des meilleurs bars pour finir la soirée se cache littéralement, encore faut-il savoir où le trouver 🍹"
+      },
+      "bluesky": {
+        "texte": "Une soirée complète sans chercher : cinq bars de La Rochelle à enchaîner, d’une guinguette glacée à un cocktail bar caché, avec deux adresses face aux tours ouvertes jusqu’à 2 h 🥂",
+        "hashtag": "#LaRochelle"
+      },
+      "threads": {
+        "texte": "🤐 Un cocktail bar caché à La Rochelle, vous en aviez entendu parler ? Il fait partie de nos cinq adresses pour une soirée qui démarre à l’apéro et se termine à 2 h. Au programme aussi : une guinguette glacée et deux bars installés face aux tours. Et vous, c’est quoi votre adresse rochelaise pour un dernier verre ?",
+        "sujet": "La Rochelle"
+      },
+      "x": {
+        "texte": "Les tours de La Rochelle en face, un verre à la main jusqu’à 2 h 🌙 Guinguette glacée, cocktail bar caché : cinq bars pour une soirée rochelaise de l’apéro à la nuit."
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 7948,
+        "output": 896
+      },
+      "angles": {
+        "instagram": "lieu en tête",
+        "facebook": "effet de surprise",
+        "bluesky": "bénéfice pour le lecteur",
+        "threads": "détail méconnu",
+        "x": "image évocatrice"
+      },
+      "lieuSource": {
+        "precis": "",
+        "ville": "La Rochelle",
+        "departement": "Charente-Maritime"
+      },
+      "lieuNom": "La Rochelle",
+      "commune": "La Rochelle",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "La Rochelle Ensemble",
+            "handle": "larochelleensemble",
+            "abonnes": 27257,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          },
+          {
+            "nom": "Nous La Rochelle - Office de Tourisme",
+            "handle": "nouslarochelle",
+            "abonnes": 45455,
+            "preuve": 3,
+            "role": "theme",
+            "echelon": "commune",
+            "thematique": true
+          },
+          {
+            "nom": "Infiniment Charentes",
+            "handle": "infinimentcharentes",
+            "abonnes": 27684,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35715",
+    "channel": "threads",
+    "dueAt": 1791527242604,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Bars à La Rochelle : 5 adresses incontournables et insolites",
+      "link": "https://passion-aquitaine.ouest-france.fr/top-5-bars-incontournables-la-rochelle/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35715",
+      "pubDate": "Fri, 09 Oct 2026 05:30:40 +0000",
+      "date": 1791523840000,
+      "categories": [
+        "Charente-Maritime",
+        "Vacances & week-end",
+        "Charente MA LOI"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/10/guignette-la-rochelle.jpeg",
+      "description": "Une guignette glacée, deux bars face aux tours jusqu’à 2 h, un cocktail bar caché : cinq bars de La Rochelle pour une soirée de l’apéro à 2 h."
+    },
+    "dossier": {
+      "nature": "evergreen",
+      "sensible": false,
+      "rubrique": "La Rochelle",
+      "visuel": {
+        "titre": "Bars à La Rochelle : 5 adresses incontournables et insolites",
+        "surlignage": "5 adresses",
+        "description": "Une guinguette glacée, deux bars face aux tours ouverts jusqu’à 2 h et un cocktail bar caché : le parcours idéal pour une soirée rochelaise, de l’apéro à la fermeture.",
+        "texte_alternatif": "Cinq bars de La Rochelle, en Charente-Maritime, à découvrir pour une soirée, de l’apéro jusqu’à 2 h, dont deux face aux tours et un cocktail bar caché."
+      },
+      "entites": [],
+      "domaines": [
+        "bar",
+        "cocktail",
+        "tourisme"
+      ],
+      "lieu": {
+        "id": "109370652426488",
+        "nom": "La Rochelle",
+        "niveau": "ville"
+      },
+      "instagram": {
+        "texte": "La Rochelle by night : cinq bars pour tenir de l’apéro jusqu’à 2 h 🍸\nUne guinguette glacée, deux comptoirs face aux tours et un cocktail bar bien caché. Notre sélection d’adresses insolites pour une soirée réussie en Charente-Maritime.",
+        "hashtags": [
+          "#LaRochelle",
+          "#BarsLaRochelle",
+          "#CharenteMaritime"
+        ]
+      },
+      "facebook": {
+        "texte": "À La Rochelle, l’un des meilleurs bars pour finir la soirée se cache littéralement, encore faut-il savoir où le trouver 🍹"
+      },
+      "bluesky": {
+        "texte": "Une soirée complète sans chercher : cinq bars de La Rochelle à enchaîner, d’une guinguette glacée à un cocktail bar caché, avec deux adresses face aux tours ouvertes jusqu’à 2 h 🥂",
+        "hashtag": "#LaRochelle"
+      },
+      "threads": {
+        "texte": "🤐 Un cocktail bar caché à La Rochelle, vous en aviez entendu parler ? Il fait partie de nos cinq adresses pour une soirée qui démarre à l’apéro et se termine à 2 h. Au programme aussi : une guinguette glacée et deux bars installés face aux tours. Et vous, c’est quoi votre adresse rochelaise pour un dernier verre ?",
+        "sujet": "La Rochelle"
+      },
+      "x": {
+        "texte": "Les tours de La Rochelle en face, un verre à la main jusqu’à 2 h 🌙 Guinguette glacée, cocktail bar caché : cinq bars pour une soirée rochelaise de l’apéro à la nuit."
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 7948,
+        "output": 896
+      },
+      "angles": {
+        "instagram": "lieu en tête",
+        "facebook": "effet de surprise",
+        "bluesky": "bénéfice pour le lecteur",
+        "threads": "détail méconnu",
+        "x": "image évocatrice"
+      },
+      "lieuSource": {
+        "precis": "",
+        "ville": "La Rochelle",
+        "departement": "Charente-Maritime"
+      },
+      "lieuNom": "La Rochelle",
+      "commune": "La Rochelle",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "La Rochelle Ensemble",
+            "handle": "larochelleensemble",
+            "abonnes": 27257,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          },
+          {
+            "nom": "Nous La Rochelle - Office de Tourisme",
+            "handle": "nouslarochelle",
+            "abonnes": 45455,
+            "preuve": 3,
+            "role": "theme",
+            "echelon": "commune",
+            "thematique": true
+          },
+          {
+            "nom": "Infiniment Charentes",
+            "handle": "infinimentcharentes",
+            "abonnes": 27684,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35715",
+    "channel": "x",
+    "dueAt": 1791529200000,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Bars à La Rochelle : 5 adresses incontournables et insolites",
+      "link": "https://passion-aquitaine.ouest-france.fr/top-5-bars-incontournables-la-rochelle/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35715",
+      "pubDate": "Fri, 09 Oct 2026 05:30:40 +0000",
+      "date": 1791523840000,
+      "categories": [
+        "Charente-Maritime",
+        "Vacances & week-end",
+        "Charente MA LOI"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/10/guignette-la-rochelle.jpeg",
+      "description": "Une guignette glacée, deux bars face aux tours jusqu’à 2 h, un cocktail bar caché : cinq bars de La Rochelle pour une soirée de l’apéro à 2 h."
+    },
+    "dossier": {
+      "nature": "evergreen",
+      "sensible": false,
+      "rubrique": "La Rochelle",
+      "visuel": {
+        "titre": "Bars à La Rochelle : 5 adresses incontournables et insolites",
+        "surlignage": "5 adresses",
+        "description": "Une guinguette glacée, deux bars face aux tours ouverts jusqu’à 2 h et un cocktail bar caché : le parcours idéal pour une soirée rochelaise, de l’apéro à la fermeture.",
+        "texte_alternatif": "Cinq bars de La Rochelle, en Charente-Maritime, à découvrir pour une soirée, de l’apéro jusqu’à 2 h, dont deux face aux tours et un cocktail bar caché."
+      },
+      "entites": [],
+      "domaines": [
+        "bar",
+        "cocktail",
+        "tourisme"
+      ],
+      "lieu": {
+        "id": "109370652426488",
+        "nom": "La Rochelle",
+        "niveau": "ville"
+      },
+      "instagram": {
+        "texte": "La Rochelle by night : cinq bars pour tenir de l’apéro jusqu’à 2 h 🍸\nUne guinguette glacée, deux comptoirs face aux tours et un cocktail bar bien caché. Notre sélection d’adresses insolites pour une soirée réussie en Charente-Maritime.",
+        "hashtags": [
+          "#LaRochelle",
+          "#BarsLaRochelle",
+          "#CharenteMaritime"
+        ]
+      },
+      "facebook": {
+        "texte": "À La Rochelle, l’un des meilleurs bars pour finir la soirée se cache littéralement, encore faut-il savoir où le trouver 🍹"
+      },
+      "bluesky": {
+        "texte": "Une soirée complète sans chercher : cinq bars de La Rochelle à enchaîner, d’une guinguette glacée à un cocktail bar caché, avec deux adresses face aux tours ouvertes jusqu’à 2 h 🥂",
+        "hashtag": "#LaRochelle"
+      },
+      "threads": {
+        "texte": "🤐 Un cocktail bar caché à La Rochelle, vous en aviez entendu parler ? Il fait partie de nos cinq adresses pour une soirée qui démarre à l’apéro et se termine à 2 h. Au programme aussi : une guinguette glacée et deux bars installés face aux tours. Et vous, c’est quoi votre adresse rochelaise pour un dernier verre ?",
+        "sujet": "La Rochelle"
+      },
+      "x": {
+        "texte": "Les tours de La Rochelle en face, un verre à la main jusqu’à 2 h 🌙 Guinguette glacée, cocktail bar caché : cinq bars pour une soirée rochelaise de l’apéro à la nuit."
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 7948,
+        "output": 896
+      },
+      "angles": {
+        "instagram": "lieu en tête",
+        "facebook": "effet de surprise",
+        "bluesky": "bénéfice pour le lecteur",
+        "threads": "détail méconnu",
+        "x": "image évocatrice"
+      },
+      "lieuSource": {
+        "precis": "",
+        "ville": "La Rochelle",
+        "departement": "Charente-Maritime"
+      },
+      "lieuNom": "La Rochelle",
+      "commune": "La Rochelle",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "La Rochelle Ensemble",
+            "handle": "larochelleensemble",
+            "abonnes": 27257,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          },
+          {
+            "nom": "Nous La Rochelle - Office de Tourisme",
+            "handle": "nouslarochelle",
+            "abonnes": 45455,
+            "preuve": 3,
+            "role": "theme",
+            "echelon": "commune",
+            "thematique": true
+          },
+          {
+            "nom": "Infiniment Charentes",
+            "handle": "infinimentcharentes",
+            "abonnes": 27684,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  }
+]

@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-09T17:00:33.341Z",
+  "genereLe": "2026-10-09T17:20:42.029Z",
   "jour": "2026-10-09",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 1,
-      "semaine": 8,
-      "total": 35,
-      "dernier": "2026-10-09T10:14:16.585Z",
-      "lienDernier": "https://www.instagram.com/p/DeRRODaGFGE/"
+      "aujourdhui": 2,
+      "semaine": 9,
+      "total": 36,
+      "dernier": "2026-10-09T17:29:00.597Z",
+      "lienDernier": "https://www.instagram.com/p/DeSC-RKGHLo/"
     },
     "bluesky": {
       "actif": true,
@@ -165,6 +165,46 @@
   },
   "articles": [
     {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35708",
+      "titre": "Une matière ultra-résistante très difficile à recycler : une entreprise de Mérignac a la solution",
+      "lien": "https://passion-aquitaine.ouest-france.fr/recyclage-fibre-carbone-nova-carbon-merignac/",
+      "at": "2026-10-09T17:29:00.597Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Imaginez une matière assez solide pour durer, et justement trop solide pour disparaître proprement. C’est toute l’histoire de la fibre de carbone. En Gironde, à Mérignac, Nova Carbon travaille à lui inventer une seconde vie plutôt qu’une fin au rebut 🏭\n@villedemerignac",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-67a97308-th.jpg",
+          "mode": "reponse",
+          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/recyclage-fibre-carbone-nova-carbon-merignac/",
+          "sujet": "Mérignac",
+          "publieLe": "2026-10-09T09:10:34.124Z"
+        },
+        "bluesky": {
+          "texte": "Robuste mais quasi impossible à recycler : c’est le paradoxe de la fibre de carbone. À #Mérignac, une entreprise s’attaque au problème 🧪 Nova Carbon développe des solutions pour lui offrir une seconde vie.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-67a97308-bsky.jpg",
+          "mode": "reply",
+          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/recyclage-fibre-carbone-nova-carbon-merignac/",
+          "sujet": null,
+          "publieLe": "2026-10-09T10:34:20.459Z"
+        },
+        "x": {
+          "texte": "🔁 Que faire d’une matière conçue pour ne jamais céder ? Nova Carbon, à #Mérignac, développe des solutions pour recycler la fibre de carbone et lui donner une seconde vie.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-67a97308-x.jpg",
+          "mode": "reponse",
+          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/recyclage-fibre-carbone-nova-carbon-merignac/",
+          "sujet": null,
+          "publieLe": "2026-10-09T11:00:48.706Z"
+        },
+        "instagram": {
+          "texte": "♻️ Plus un matériau est solide, plus il est dur à recycler : la fibre de carbone en est la preuve\n⠀\nÀ Mérignac, près de Bordeaux, l’entreprise Nova Carbon développe des solutions pour donner une seconde vie à cette matière ultra-résistante. Une piste concrète pour l’industrie girondine.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Mérignac #FibreDeCarbone #Recyclage",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-67a97308-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-09T17:29:00.597Z"
+        }
+      }
+    },
+    {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35756",
       "titre": "Fouilles à la dune du Pilat, un vestige de 2 500 ans ressurgit",
       "lien": "https://passion-aquitaine.ouest-france.fr/dune-du-pilat-atelier-sel-fouilles/",
@@ -193,38 +233,6 @@
           "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/dune-du-pilat-atelier-sel-fouilles/",
           "sujet": null,
           "publieLe": "2026-10-09T17:08:52.828Z"
-        }
-      }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35708",
-      "titre": "Une matière ultra-résistante très difficile à recycler : une entreprise de Mérignac a la solution",
-      "lien": "https://passion-aquitaine.ouest-france.fr/recyclage-fibre-carbone-nova-carbon-merignac/",
-      "at": "2026-10-09T11:00:48.706Z",
-      "reseaux": {
-        "threads": {
-          "texte": "Imaginez une matière assez solide pour durer, et justement trop solide pour disparaître proprement. C’est toute l’histoire de la fibre de carbone. En Gironde, à Mérignac, Nova Carbon travaille à lui inventer une seconde vie plutôt qu’une fin au rebut 🏭\n@villedemerignac",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-67a97308-th.jpg",
-          "mode": "reponse",
-          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/recyclage-fibre-carbone-nova-carbon-merignac/",
-          "sujet": "Mérignac",
-          "publieLe": "2026-10-09T09:10:34.124Z"
-        },
-        "bluesky": {
-          "texte": "Robuste mais quasi impossible à recycler : c’est le paradoxe de la fibre de carbone. À #Mérignac, une entreprise s’attaque au problème 🧪 Nova Carbon développe des solutions pour lui offrir une seconde vie.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-67a97308-bsky.jpg",
-          "mode": "reply",
-          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/recyclage-fibre-carbone-nova-carbon-merignac/",
-          "sujet": null,
-          "publieLe": "2026-10-09T10:34:20.459Z"
-        },
-        "x": {
-          "texte": "🔁 Que faire d’une matière conçue pour ne jamais céder ? Nova Carbon, à #Mérignac, développe des solutions pour recycler la fibre de carbone et lui donner une seconde vie.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-67a97308-x.jpg",
-          "mode": "reponse",
-          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/recyclage-fibre-carbone-nova-carbon-merignac/",
-          "sujet": null,
-          "publieLe": "2026-10-09T11:00:48.706Z"
         }
       }
     },
@@ -423,6 +431,16 @@
   ],
   "publications": [
     {
+      "channel": "instagram",
+      "at": "2026-10-09T17:29:00.597Z",
+      "titre": "Une matière ultra-résistante très difficile à recycler : une entreprise de Mérignac a la solution",
+      "lien": "https://passion-aquitaine.ouest-france.fr/recyclage-fibre-carbone-nova-carbon-merignac/",
+      "lienPost": "https://www.instagram.com/p/DeSC-RKGHLo/",
+      "format": null,
+      "texte": "♻️ Plus un matériau est solide, plus il est dur à recycler : la fibre de carbone en est la preuve\n⠀\nÀ Mérignac, près de Bordeaux, l’entreprise Nova Carbon développe des solutions pour donner une seconde vie à cette matière ultra-résistante. Une piste concrète pour l’industrie girondine.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Mérignac #FibreDeCarbone #Recyclage",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-67a97308-1.jpg"
+    },
+    {
       "channel": "bluesky",
       "at": "2026-10-09T17:08:52.828Z",
       "titre": "Fouilles à la dune du Pilat, un vestige de 2 500 ans ressurgit",
@@ -511,28 +529,9 @@
       "format": null,
       "texte": "À La Rochelle, l’un des meilleurs bars pour finir la soirée se cache littéralement, encore faut-il savoir où le trouver 🍹",
       "image": null
-    },
-    {
-      "channel": "x",
-      "at": "2026-10-09T07:00:51.987Z",
-      "titre": "Bars à La Rochelle : 5 adresses incontournables et insolites",
-      "lien": "https://passion-aquitaine.ouest-france.fr/top-5-bars-incontournables-la-rochelle/",
-      "lienPost": null,
-      "format": "reponse",
-      "texte": "Les tours de La Rochelle en face, un verre à la main jusqu’à 2 h 🌙 Guinguette glacée, cocktail bar caché : cinq bars pour une soirée rochelaise de l’apéro à la nuit.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-1d143348-x.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "instagram",
-      "dueAt": "2026-10-09T17:28:28.633Z",
-      "prochainPassage": "2026-10-09T18:00:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Une matière ultra-résistante très difficile à recycler : une entreprise de Mérignac a la solution"
-    },
     {
       "channel": "facebook",
       "dueAt": "2026-10-09T18:06:15.199Z",
@@ -642,7 +641,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-09T16:00:48.572Z"
+    "derniere": "2026-10-09T17:20:42.029Z"
   },
   "abonnes": {
     "instagram": {
@@ -681,7 +680,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-09T17:09:00.386Z",
+    "genereLe": "2026-10-09T17:29:08.182Z",
     "posts": 36,
     "parReseau": {
       "instagram": {
@@ -839,7 +838,7 @@
       "facebook": 10,
       "bluesky": 12,
       "x": 12,
-      "instagram": 10
+      "instagram": 11
     },
     "abonnes": {
       "instagram": {

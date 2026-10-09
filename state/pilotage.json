@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-09T10:20:45.824Z",
+  "genereLe": "2026-10-09T11:00:39.462Z",
   "jour": "2026-10-09",
   "reseaux": {
     "instagram": {
@@ -25,7 +25,7 @@
       },
       "formats": null,
       "aujourdhui": 1,
-      "semaine": 9,
+      "semaine": 8,
       "total": 35,
       "dernier": "2026-10-09T10:14:16.585Z",
       "lienDernier": "https://www.instagram.com/p/DeRRODaGFGE/"
@@ -156,10 +156,10 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 1,
-      "semaine": 8,
-      "total": 33,
-      "dernier": "2026-10-09T07:00:51.987Z",
+      "aujourdhui": 2,
+      "semaine": 9,
+      "total": 34,
+      "dernier": "2026-10-09T11:00:48.706Z",
       "lienDernier": null
     }
   },
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35708",
       "titre": "Une matière ultra-résistante très difficile à recycler : une entreprise de Mérignac a la solution",
       "lien": "https://passion-aquitaine.ouest-france.fr/recyclage-fibre-carbone-nova-carbon-merignac/",
-      "at": "2026-10-09T10:34:20.459Z",
+      "at": "2026-10-09T11:00:48.706Z",
       "reseaux": {
         "threads": {
           "texte": "Imaginez une matière assez solide pour durer, et justement trop solide pour disparaître proprement. C’est toute l’histoire de la fibre de carbone. En Gironde, à Mérignac, Nova Carbon travaille à lui inventer une seconde vie plutôt qu’une fin au rebut 🏭\n@villedemerignac",
@@ -185,6 +185,14 @@
           "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/recyclage-fibre-carbone-nova-carbon-merignac/",
           "sujet": null,
           "publieLe": "2026-10-09T10:34:20.459Z"
+        },
+        "x": {
+          "texte": "🔁 Que faire d’une matière conçue pour ne jamais céder ? Nova Carbon, à #Mérignac, développe des solutions pour recycler la fibre de carbone et lui donner une seconde vie.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-67a97308-x.jpg",
+          "mode": "reponse",
+          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/recyclage-fibre-carbone-nova-carbon-merignac/",
+          "sujet": null,
+          "publieLe": "2026-10-09T11:00:48.706Z"
         }
       }
     },
@@ -431,6 +439,16 @@
   ],
   "publications": [
     {
+      "channel": "x",
+      "at": "2026-10-09T11:00:48.706Z",
+      "titre": "Une matière ultra-résistante très difficile à recycler : une entreprise de Mérignac a la solution",
+      "lien": "https://passion-aquitaine.ouest-france.fr/recyclage-fibre-carbone-nova-carbon-merignac/",
+      "lienPost": null,
+      "format": "reponse",
+      "texte": "🔁 Que faire d’une matière conçue pour ne jamais céder ? Nova Carbon, à #Mérignac, développe des solutions pour recycler la fibre de carbone et lui donner une seconde vie.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-67a97308-x.jpg"
+    },
+    {
       "channel": "bluesky",
       "at": "2026-10-09T10:34:20.459Z",
       "titre": "Une matière ultra-résistante très difficile à recycler : une entreprise de Mérignac a la solution",
@@ -519,28 +537,9 @@
       "format": "reponse",
       "texte": "Un œuf de poule Marans se note : en Charente-Maritime, il faut atteindre 🐓 au moins 4 sur 9 pour porter ce nom. Un produit local qui a même nourri James Bond.",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261008-aa4ea9c1-x.jpg"
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-10-08T07:12:55.023Z",
-      "titre": "Poule Marans : l’œuf de James Bond se note de 1 à 9",
-      "lien": "https://passion-aquitaine.ouest-france.fr/oeuf-poule-marans-echelle-couleur/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1745177484274799",
-      "format": null,
-      "texte": "En Charente-Maritime, un œuf de poule Marans doit décrocher au moins 4 sur 9 pour avoir le droit de porter son nom 🐔",
-      "image": null
     }
   ],
   "file": [
-    {
-      "channel": "x",
-      "dueAt": "2026-10-09T11:00:00.000Z",
-      "prochainPassage": "2026-10-09T11:00:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Une matière ultra-résistante très difficile à recycler : une entreprise de Mérignac a la solution"
-    },
     {
       "channel": "threads",
       "dueAt": "2026-10-09T11:32:05.393Z",
@@ -607,11 +606,11 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 218,
+    "releves": 219,
     "parReseau": {
       "instagram": {
-        "posts": 26,
-        "interactionsMoyennes": 14.7
+        "posts": 27,
+        "interactionsMoyennes": 14.3
       },
       "bluesky": {
         "posts": 25,
@@ -686,7 +685,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-09T09:38:14.474Z"
+    "derniere": "2026-10-09T11:00:39.462Z"
   },
   "abonnes": {
     "instagram": {
@@ -725,12 +724,12 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-09T10:34:40.157Z",
+    "genereLe": "2026-10-09T11:00:57.096Z",
     "posts": 35,
     "parReseau": {
       "instagram": {
         "posts": 8,
-        "moyenne": 10.1
+        "moyenne": 10.4
       },
       "threads": {
         "posts": 9,
@@ -770,7 +769,7 @@
     "parCreneau": {
       "après-midi": {
         "posts": 7,
-        "moyenne": 11
+        "moyenne": 11.3
       },
       "soir": {
         "posts": 2,
@@ -815,7 +814,7 @@
       "instagram": {
         "12 h – 13 h 30": {
           "posts": 6,
-          "moyenne": 12.8
+          "moyenne": 13.2
         },
         "18 h – 19 h 30": {
           "posts": 1,
@@ -827,7 +826,7 @@
         }
       }
     },
-    "interactionsTotal": 89,
+    "interactionsTotal": 91,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35575",
       "channel": "instagram",
@@ -871,7 +870,7 @@
     "mentions": {
       "avec": {
         "posts": 19,
-        "moyenne": 4.4
+        "moyenne": 4.5
       },
       "sans": {
         "posts": 16,
@@ -882,7 +881,7 @@
       "threads": 11,
       "facebook": 10,
       "bluesky": 11,
-      "x": 10,
+      "x": 11,
       "instagram": 10
     },
     "abonnes": {
@@ -928,7 +927,7 @@
     "conseils": [
       "Le format « reponse » fait 10 fois mieux que « lien » (1 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « lien » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+2, +0,2 %) ; Facebook recule (−11), à surveiller.",
-      "Les posts avec mention font 4.1 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
+      "Les posts avec mention font 4.2 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
     ]
   },
   "couts": {

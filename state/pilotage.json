@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-09T07:00:41.786Z",
+  "genereLe": "2026-10-09T07:20:43.829Z",
   "jour": "2026-10-09",
   "reseaux": {
     "instagram": {
@@ -60,11 +60,11 @@
         "image",
         "reply"
       ],
-      "aujourdhui": 0,
-      "semaine": 8,
-      "total": 32,
-      "dernier": "2026-10-08T07:09:45.122Z",
-      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mxdvpdcc272k"
+      "aujourdhui": 1,
+      "semaine": 9,
+      "total": 33,
+      "dernier": "2026-10-09T07:26:50.285Z",
+      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mxgh4sarms22"
     },
     "facebook": {
       "actif": true,
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 0,
+      "aujourdhui": 1,
       "semaine": 8,
-      "total": 29,
-      "dernier": "2026-10-08T07:12:55.023Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1745177484274799"
+      "total": 30,
+      "dernier": "2026-10-09T07:23:13.513Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1746252927500588"
     },
     "threads": {
       "actif": true,
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35715",
       "titre": "Bars à La Rochelle : 5 adresses incontournables et insolites",
       "lien": "https://passion-aquitaine.ouest-france.fr/top-5-bars-incontournables-la-rochelle/",
-      "at": "2026-10-09T07:00:51.987Z",
+      "at": "2026-10-09T07:26:50.285Z",
       "reseaux": {
         "threads": {
           "texte": "🤐 Un cocktail bar caché à La Rochelle, vous en aviez entendu parler ? Il fait partie de nos cinq adresses pour une soirée qui démarre à l’apéro et se termine à 2 h. Au programme aussi : une guinguette glacée et deux bars installés face aux tours. Et vous, c’est quoi votre adresse rochelaise pour un dernier verre ?",
@@ -185,6 +185,22 @@
           "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/top-5-bars-incontournables-la-rochelle/",
           "sujet": null,
           "publieLe": "2026-10-09T07:00:51.987Z"
+        },
+        "facebook": {
+          "texte": "À La Rochelle, l’un des meilleurs bars pour finir la soirée se cache littéralement, encore faut-il savoir où le trouver 🍹",
+          "image": null,
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-09T07:23:13.513Z"
+        },
+        "bluesky": {
+          "texte": "Une soirée complète sans chercher : cinq bars de #LaRochelle à enchaîner, d’une guinguette glacée à un #cocktail #bar caché, avec deux adresses face aux tours ouvertes jusqu’à 2 h 🥂\n➡️ Lire l’article",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-1d143348-bsky.jpg",
+          "mode": "image",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-09T07:26:50.285Z"
         }
       }
     },
@@ -431,6 +447,26 @@
   ],
   "publications": [
     {
+      "channel": "bluesky",
+      "at": "2026-10-09T07:26:50.285Z",
+      "titre": "Bars à La Rochelle : 5 adresses incontournables et insolites",
+      "lien": "https://passion-aquitaine.ouest-france.fr/top-5-bars-incontournables-la-rochelle/",
+      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mxgh4sarms22",
+      "format": "image",
+      "texte": "Une soirée complète sans chercher : cinq bars de #LaRochelle à enchaîner, d’une guinguette glacée à un #cocktail #bar caché, avec deux adresses face aux tours ouvertes jusqu’à 2 h 🥂\n➡️ Lire l’article",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-1d143348-bsky.jpg"
+    },
+    {
+      "channel": "facebook",
+      "at": "2026-10-09T07:23:13.513Z",
+      "titre": "Bars à La Rochelle : 5 adresses incontournables et insolites",
+      "lien": "https://passion-aquitaine.ouest-france.fr/top-5-bars-incontournables-la-rochelle/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1746252927500588",
+      "format": null,
+      "texte": "À La Rochelle, l’un des meilleurs bars pour finir la soirée se cache littéralement, encore faut-il savoir où le trouver 🍹",
+      "image": null
+    },
+    {
       "channel": "x",
       "at": "2026-10-09T07:00:51.987Z",
       "titre": "Bars à La Rochelle : 5 adresses incontournables et insolites",
@@ -509,47 +545,9 @@
       "format": null,
       "texte": "Que cache vraiment le fromage culte des religieuses d’Échourgnac ?\n⠀\nExilées puis éprouvées par le feu, ces religieuses de Dordogne produisent un fromage devenu culte. Son secret, lui, vient de Bretagne 🤫\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Dordogne #Fromage #ProduitsLocaux",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261007-c3fc4b16-1.jpg"
-    },
-    {
-      "channel": "x",
-      "at": "2026-10-07T08:00:57.983Z",
-      "titre": "En Dordogne, des religieuses en exil cachent un secret gourmand",
-      "lien": "https://passion-aquitaine.ouest-france.fr/trappe-echourgnac-fromage-religieuses-dordogne/",
-      "lienPost": null,
-      "format": "reponse",
-      "texte": "Amateurs de fromage, le produit culte des religieuses d’Échourgnac, en #Dordogne, a une histoire d’exil, de feu et un secret venu de Bretagne 🍽️",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261007-c3fc4b16-x.jpg"
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-10-07T07:26:13.040Z",
-      "titre": "En Dordogne, des religieuses en exil cachent un secret gourmand",
-      "lien": "https://passion-aquitaine.ouest-france.fr/trappe-echourgnac-fromage-religieuses-dordogne/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1744155084377039",
-      "format": null,
-      "texte": "Un fromage devenu culte en Dordogne doit son secret à une région bien loin d’ici : la Bretagne 🧀",
-      "image": null
     }
   ],
   "file": [
-    {
-      "channel": "facebook",
-      "dueAt": "2026-10-09T07:23:04.512Z",
-      "prochainPassage": "2026-10-09T08:00:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Bars à La Rochelle : 5 adresses incontournables et insolites"
-    },
-    {
-      "channel": "bluesky",
-      "dueAt": "2026-10-09T07:26:48.349Z",
-      "prochainPassage": "2026-10-09T08:00:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Bars à La Rochelle : 5 adresses incontournables et insolites"
-    },
     {
       "channel": "instagram",
       "dueAt": "2026-10-09T10:13:40.273Z",
@@ -562,7 +560,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 214,
+    "releves": 217,
     "parReseau": {
       "instagram": {
         "posts": 26,
@@ -573,7 +571,7 @@
         "interactionsMoyennes": 0.1
       },
       "facebook": {
-        "posts": 21,
+        "posts": 22,
         "interactionsMoyennes": 0
       },
       "threads": {
@@ -641,7 +639,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-09T06:00:46.729Z"
+    "derniere": "2026-10-09T07:20:43.829Z"
   },
   "abonnes": {
     "instagram": {
@@ -680,8 +678,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-09T07:01:01.107Z",
-    "posts": 33,
+    "genereLe": "2026-10-09T07:27:06.577Z",
+    "posts": 35,
     "parReseau": {
       "instagram": {
         "posts": 8,
@@ -692,11 +690,11 @@
         "moyenne": 0.8
       },
       "bluesky": {
-        "posts": 8,
+        "posts": 9,
         "moyenne": 0.1
       },
       "facebook": {
-        "posts": 8,
+        "posts": 9,
         "moyenne": 0
       }
     },
@@ -714,7 +712,7 @@
         "moyenne": 0
       },
       "image": {
-        "posts": 3,
+        "posts": 4,
         "moyenne": 0
       },
       "lien": {
@@ -732,7 +730,7 @@
         "moyenne": 1
       },
       "matin": {
-        "posts": 24,
+        "posts": 26,
         "moyenne": 0.4
       }
     },
@@ -749,7 +747,7 @@
       },
       "facebook": {
         "8 h – 9 h 30": {
-          "posts": 7,
+          "posts": 8,
           "moyenne": 0
         },
         "20 h – 21 h 30": {
@@ -759,7 +757,7 @@
       },
       "bluesky": {
         "8 h – 9 h 30": {
-          "posts": 7,
+          "posts": 8,
           "moyenne": 0.1
         },
         "12 h – 13 h 30": {
@@ -804,20 +802,20 @@
       "creneauReseau": "12 h – 13 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=28601",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=29413",
       "channel": "facebook",
-      "mediaId": "227437307428711_1744155084377039",
-      "publieLe": "2026-10-07T07:26:13.040Z",
+      "mediaId": "227437307428711_1745177484274799",
+      "publieLe": "2026-10-08T07:12:55.023Z",
       "jalon": 1,
-      "releveLe": "2026-10-08T08:00:48.111Z",
+      "releveLe": "2026-10-09T07:20:43.829Z",
       "likes": 0,
       "commentairesBruts": 0,
       "partages": 0,
       "vues": null,
       "commentaires": 0,
       "v": 2,
-      "titre": "En Dordogne, des religieuses en exil cachent un secret gourmand",
-      "lien": "https://www.facebook.com/1720946116697936/posts/1744155084377039",
+      "titre": "Poule Marans : l’œuf de James Bond se note de 1 à 9",
+      "lien": "https://www.facebook.com/1720946116697936/posts/1745177484274799",
       "format": null,
       "mention": false,
       "creneau": "matin",
@@ -829,14 +827,14 @@
         "moyenne": 4.4
       },
       "sans": {
-        "posts": 14,
-        "moyenne": 0.4
+        "posts": 16,
+        "moyenne": 0.3
       }
     },
     "publies": {
       "threads": 10,
-      "facebook": 9,
-      "bluesky": 9,
+      "facebook": 10,
+      "bluesky": 10,
       "x": 10,
       "instagram": 9
     },
@@ -883,7 +881,7 @@
     "conseils": [
       "Le format « reponse » fait 10 fois mieux que « lien » (1 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « lien » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+2, +0,2 %) ; Facebook recule (−11), à surveiller.",
-      "Les posts avec mention font 4 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
+      "Les posts avec mention font 4.1 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
     ]
   },
   "couts": {

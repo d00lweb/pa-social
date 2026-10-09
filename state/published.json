@@ -2842,5 +2842,23 @@
       "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/dune-du-pilat-atelier-sel-fouilles/",
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35756",
+    "channel": "bluesky",
+    "at": "2026-10-09T17:08:52.828Z",
+    "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mxhhnkyvh422",
+    "titre": "Fouilles à la dune du Pilat, un vestige de 2 500 ans ressurgit",
+    "lien": "https://passion-aquitaine.ouest-france.fr/dune-du-pilat-atelier-sel-fouilles/",
+    "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mxhhnkyvh422",
+    "format": "reply",
+    "mention": false,
+    "apercu": {
+      "texte": "Le sable recule et laisse apparaître un atelier de sel vieux de plus de 2 500 ans 🏺 Au pied de la dune du Pilat, sur le Bassin d’Arcachon, les archéologues travaillent vite : l’érosion pourrait l’effacer. #BassinDArcachon",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-7fe1d4e9-bsky.jpg",
+      "mode": "reply",
+      "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/dune-du-pilat-atelier-sel-fouilles/",
+      "sujet": null
+    }
   }
 ]

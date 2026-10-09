@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-09T07:20:43.829Z",
+  "genereLe": "2026-10-09T08:00:36.088Z",
   "jour": "2026-10-09",
   "reseaux": {
     "instagram": {
@@ -61,7 +61,7 @@
         "reply"
       ],
       "aujourdhui": 1,
-      "semaine": 9,
+      "semaine": 8,
       "total": 33,
       "dernier": "2026-10-09T07:26:50.285Z",
       "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mxgh4sarms22"
@@ -157,7 +157,7 @@
         "reponse"
       ],
       "aujourdhui": 1,
-      "semaine": 9,
+      "semaine": 8,
       "total": 33,
       "dernier": "2026-10-09T07:00:51.987Z",
       "lienDernier": null
@@ -549,6 +549,15 @@
   ],
   "file": [
     {
+      "channel": "threads",
+      "dueAt": "2026-10-09T09:07:15.232Z",
+      "prochainPassage": "2026-10-09T09:20:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Une matière ultra-résistante très difficile à recycler : une entreprise de Mérignac a la solution"
+    },
+    {
       "channel": "instagram",
       "dueAt": "2026-10-09T10:13:40.273Z",
       "prochainPassage": "2026-10-09T10:20:00.000Z",
@@ -556,18 +565,54 @@
       "prevuInitialement": null,
       "raison": null,
       "titre": "Bars à La Rochelle : 5 adresses incontournables et insolites"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-10-09T10:34:19.182Z",
+      "prochainPassage": "2026-10-09T11:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Une matière ultra-résistante très difficile à recycler : une entreprise de Mérignac a la solution"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-10-09T11:00:00.000Z",
+      "prochainPassage": "2026-10-09T11:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Une matière ultra-résistante très difficile à recycler : une entreprise de Mérignac a la solution"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-10-09T17:28:28.633Z",
+      "prochainPassage": "2026-10-09T18:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Une matière ultra-résistante très difficile à recycler : une entreprise de Mérignac a la solution"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-10-09T18:06:15.199Z",
+      "prochainPassage": "2026-10-09T18:20:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Une matière ultra-résistante très difficile à recycler : une entreprise de Mérignac a la solution"
     }
   ],
   "alertes": [],
   "mesures": {
-    "releves": 217,
+    "releves": 218,
     "parReseau": {
       "instagram": {
         "posts": 26,
         "interactionsMoyennes": 14.7
       },
       "bluesky": {
-        "posts": 24,
+        "posts": 25,
         "interactionsMoyennes": 0.1
       },
       "facebook": {
@@ -678,7 +723,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-09T07:27:06.577Z",
+    "genereLe": "2026-10-09T08:01:33.768Z",
     "posts": 35,
     "parReseau": {
       "instagram": {
@@ -886,29 +931,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 1,
-      "entree": 7948,
-      "sortie": 896,
-      "cout": 0.049712,
+      "appels": 4,
+      "entree": 31868,
+      "sortie": 3866,
+      "cout": 0.204792,
       "cle": "2026-10-09"
     },
     "semaine": {
-      "appels": 14,
-      "entree": 108994,
-      "sortie": 14373,
-      "cout": 0.723436
+      "appels": 17,
+      "entree": 132914,
+      "sortie": 17343,
+      "cout": 0.8785160000000001
     },
     "mois": {
-      "appels": 18,
-      "entree": 139705,
-      "sortie": 17768,
-      "cout": 0.91418,
+      "appels": 21,
+      "entree": 163625,
+      "sortie": 20738,
+      "cout": 1.06926,
       "cle": "2026-10"
     },
-    "projection": 3.15,
-    "moyenneAppel": 0.0508,
+    "projection": 3.68,
+    "moyenneAppel": 0.0509,
     "parModele": {
-      "claude-opus-5-5": 18
+      "claude-opus-5-5": 21
     },
     "serie": [
       [
@@ -965,7 +1010,7 @@
       ],
       [
         "2026-10-09",
-        0.0497
+        0.2048
       ]
     ],
     "depuis": "2026-09-23"

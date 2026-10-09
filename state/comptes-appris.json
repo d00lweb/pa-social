@@ -173,5 +173,112 @@
     "instagram": [],
     "threads": [],
     "bluesky": []
+  },
+  "commune:mairie:merignac": {
+    "v": 3,
+    "cherche": "2026-10-09T08:01:09.031Z",
+    "instagram": [
+      {
+        "handle": "villedemerignac",
+        "nom": "Mérignac",
+        "abonnes": 18971,
+        "preuve": 3
+      },
+      {
+        "handle": "merignacculture",
+        "nom": "Mérignac Culture",
+        "abonnes": 1982,
+        "preuve": 3
+      }
+    ],
+    "x": [
+      {
+        "handle": "merignac",
+        "nom": "",
+        "abonnes": null,
+        "preuve": 3
+      }
+    ],
+    "threads": [
+      {
+        "handle": "villedemerignac",
+        "nom": "Mérignac",
+        "abonnes": 18971,
+        "preuve": 3
+      }
+    ],
+    "bluesky": []
+  },
+  "locale:merignac:recyclage": {
+    "v": 3,
+    "cherche": "2026-10-09T08:01:09.031Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:merignac:industrie": {
+    "v": 3,
+    "cherche": "2026-10-09T08:01:09.031Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:merignac:ecologie": {
+    "v": 3,
+    "cherche": "2026-10-09T08:01:09.031Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "territoire:gironde:departementgironde,girondetourisme": {
+    "v": 3,
+    "cherche": "2026-10-09T08:01:09.031Z",
+    "conseil": {
+      "instagram": [
+        {
+          "handle": "departementgironde",
+          "nom": "Département de la Gironde",
+          "abonnes": 29189,
+          "preuve": 3
+        }
+      ],
+      "threads": [
+        {
+          "handle": "departementgironde",
+          "nom": "Département de la Gironde",
+          "abonnes": 29189,
+          "preuve": 3
+        }
+      ],
+      "bluesky": [
+        {
+          "handle": "departementgironde.bsky.social",
+          "nom": "",
+          "abonnes": null,
+          "preuve": 3
+        }
+      ],
+      "x": [
+        {
+          "handle": "gironde",
+          "nom": "",
+          "abonnes": null,
+          "preuve": 3
+        }
+      ]
+    },
+    "tourisme": {
+      "instagram": [
+        {
+          "handle": "girondetourisme",
+          "nom": "Gironde Tourisme",
+          "abonnes": 25794,
+          "preuve": 3
+        }
+      ],
+      "threads": [],
+      "bluesky": [],
+      "x": []
+    }
   }
 }

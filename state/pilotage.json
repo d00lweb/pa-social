@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-09T06:20:45.682Z",
+  "genereLe": "2026-10-09T07:00:41.786Z",
   "jour": "2026-10-09",
   "reseaux": {
     "instagram": {
@@ -123,7 +123,7 @@
         "reponse"
       ],
       "aujourdhui": 1,
-      "semaine": 9,
+      "semaine": 8,
       "total": 30,
       "dernier": "2026-10-09T06:31:16.196Z",
       "lienDernier": "https://www.threads.com/@lovaquitaine/post/DeQ3SlNGyXe"
@@ -156,10 +156,10 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 8,
-      "total": 32,
-      "dernier": "2026-10-08T08:20:51.804Z",
+      "aujourdhui": 1,
+      "semaine": 9,
+      "total": 33,
+      "dernier": "2026-10-09T07:00:51.987Z",
       "lienDernier": null
     }
   },
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35715",
       "titre": "Bars à La Rochelle : 5 adresses incontournables et insolites",
       "lien": "https://passion-aquitaine.ouest-france.fr/top-5-bars-incontournables-la-rochelle/",
-      "at": "2026-10-09T06:31:16.196Z",
+      "at": "2026-10-09T07:00:51.987Z",
       "reseaux": {
         "threads": {
           "texte": "🤐 Un cocktail bar caché à La Rochelle, vous en aviez entendu parler ? Il fait partie de nos cinq adresses pour une soirée qui démarre à l’apéro et se termine à 2 h. Au programme aussi : une guinguette glacée et deux bars installés face aux tours. Et vous, c’est quoi votre adresse rochelaise pour un dernier verre ?",
@@ -177,6 +177,14 @@
           "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/top-5-bars-incontournables-la-rochelle/",
           "sujet": "La Rochelle",
           "publieLe": "2026-10-09T06:31:16.196Z"
+        },
+        "x": {
+          "texte": "Les tours de La Rochelle en face, un verre à la main jusqu’à 2 h 🌙 Guinguette glacée, cocktail bar caché : cinq bars pour une soirée rochelaise de l’apéro à la nuit.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-1d143348-x.jpg",
+          "mode": "reponse",
+          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/top-5-bars-incontournables-la-rochelle/",
+          "sujet": null,
+          "publieLe": "2026-10-09T07:00:51.987Z"
         }
       }
     },
@@ -423,6 +431,16 @@
   ],
   "publications": [
     {
+      "channel": "x",
+      "at": "2026-10-09T07:00:51.987Z",
+      "titre": "Bars à La Rochelle : 5 adresses incontournables et insolites",
+      "lien": "https://passion-aquitaine.ouest-france.fr/top-5-bars-incontournables-la-rochelle/",
+      "lienPost": null,
+      "format": "reponse",
+      "texte": "Les tours de La Rochelle en face, un verre à la main jusqu’à 2 h 🌙 Guinguette glacée, cocktail bar caché : cinq bars pour une soirée rochelaise de l’apéro à la nuit.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-1d143348-x.jpg"
+    },
+    {
       "channel": "threads",
       "at": "2026-10-09T06:31:16.196Z",
       "titre": "Bars à La Rochelle : 5 adresses incontournables et insolites",
@@ -511,28 +529,9 @@
       "format": null,
       "texte": "Un fromage devenu culte en Dordogne doit son secret à une région bien loin d’ici : la Bretagne 🧀",
       "image": null
-    },
-    {
-      "channel": "bluesky",
-      "at": "2026-10-07T07:05:03.867Z",
-      "titre": "En Dordogne, des religieuses en exil cachent un secret gourmand",
-      "lien": "https://passion-aquitaine.ouest-france.fr/trappe-echourgnac-fromage-religieuses-dordogne/",
-      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mxbexzh6s52s",
-      "format": "image",
-      "texte": "En #Dordogne, à #Échourgnac, des religieuses exilées produisent un #fromage devenu culte ⛪ Leur communauté a traversé l’exil et l’épreuve du feu, et leur fromage cache un secret venu de Bretagne.\n➡️ Lire l’article",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261007-c3fc4b16-bsky.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "x",
-      "dueAt": "2026-10-09T07:00:00.000Z",
-      "prochainPassage": "2026-10-09T07:00:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Bars à La Rochelle : 5 adresses incontournables et insolites"
-    },
     {
       "channel": "facebook",
       "dueAt": "2026-10-09T07:23:04.512Z",
@@ -563,7 +562,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 212,
+    "releves": 214,
     "parReseau": {
       "instagram": {
         "posts": 26,
@@ -578,8 +577,8 @@
         "interactionsMoyennes": 0
       },
       "threads": {
-        "posts": 21,
-        "interactionsMoyennes": 8.6
+        "posts": 22,
+        "interactionsMoyennes": 8.2
       }
     }
   },
@@ -681,16 +680,16 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-09T06:31:20.402Z",
-    "posts": 32,
+    "genereLe": "2026-10-09T07:01:01.107Z",
+    "posts": 33,
     "parReseau": {
       "instagram": {
         "posts": 8,
         "moyenne": 10.1
       },
       "threads": {
-        "posts": 8,
-        "moyenne": 0.5
+        "posts": 9,
+        "moyenne": 0.8
       },
       "bluesky": {
         "posts": 8,
@@ -702,13 +701,13 @@
       }
     },
     "parFormat": {
+      "reponse": {
+        "posts": 7,
+        "moyenne": 1
+      },
       "card": {
         "posts": 1,
         "moyenne": 1
-      },
-      "reponse": {
-        "posts": 6,
-        "moyenne": 0.7
       },
       "reply": {
         "posts": 5,
@@ -733,8 +732,8 @@
         "moyenne": 1
       },
       "matin": {
-        "posts": 23,
-        "moyenne": 0.3
+        "posts": 24,
+        "moyenne": 0.4
       }
     },
     "parCreneauReseau": {
@@ -744,8 +743,8 @@
           "moyenne": 1
         },
         "7 h – 8 h 30": {
-          "posts": 7,
-          "moyenne": 0.4
+          "posts": 8,
+          "moyenne": 0.8
         }
       },
       "facebook": {
@@ -783,7 +782,7 @@
         }
       }
     },
-    "interactionsTotal": 86,
+    "interactionsTotal": 89,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35575",
       "channel": "instagram",
@@ -830,15 +829,15 @@
         "moyenne": 4.4
       },
       "sans": {
-        "posts": 13,
-        "moyenne": 0.2
+        "posts": 14,
+        "moyenne": 0.4
       }
     },
     "publies": {
       "threads": 10,
       "facebook": 9,
       "bluesky": 9,
-      "x": 9,
+      "x": 10,
       "instagram": 9
     },
     "abonnes": {
@@ -878,13 +877,13 @@
     },
     "engagement": {
       "instagram": 0.1,
-      "threads": 0.04,
+      "threads": 0.07,
       "facebook": 0
     },
     "conseils": [
-      "Le format « card » fait 10 fois mieux que « lien » (1 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « lien » de la rotation dans config/channels.json.",
+      "Le format « reponse » fait 10 fois mieux que « lien » (1 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « lien » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+2, +0,2 %) ; Facebook recule (−11), à surveiller.",
-      "Les posts avec mention font 4.2 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
+      "Les posts avec mention font 4 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
     ]
   },
   "couts": {

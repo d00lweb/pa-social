@@ -2680,5 +2680,23 @@
       "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/top-5-bars-incontournables-la-rochelle/",
       "sujet": "La Rochelle"
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35715",
+    "channel": "x",
+    "at": "2026-10-09T07:00:51.987Z",
+    "mediaId": "kit-telegram",
+    "titre": "Bars à La Rochelle : 5 adresses incontournables et insolites",
+    "lien": "https://passion-aquitaine.ouest-france.fr/top-5-bars-incontournables-la-rochelle/",
+    "lienPost": null,
+    "format": "reponse",
+    "mention": false,
+    "apercu": {
+      "texte": "Les tours de La Rochelle en face, un verre à la main jusqu’à 2 h 🌙 Guinguette glacée, cocktail bar caché : cinq bars pour une soirée rochelaise de l’apéro à la nuit.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-1d143348-x.jpg",
+      "mode": "reponse",
+      "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/top-5-bars-incontournables-la-rochelle/",
+      "sujet": null
+    }
   }
 ]

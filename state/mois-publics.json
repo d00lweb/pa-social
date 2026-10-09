@@ -1,13 +1,13 @@
 {
   "2026-10": {
     "cle": "2026-10",
-    "publications": 46,
+    "publications": 47,
     "articles": 10,
-    "interactions": 86,
+    "interactions": 89,
     "parReseau": {
       "facebook": 9,
       "instagram": 9,
-      "x": 9,
+      "x": 10,
       "threads": 10,
       "bluesky": 9
     },
@@ -34,6 +34,13 @@
         "interactions": 4
       },
       {
+        "reseau": "threads",
+        "titre": "Poule Marans : l’œuf de James Bond se note de 1 à 9",
+        "lien": "https://www.threads.com/@lovaquitaine/post/DeOSG-YlvO_",
+        "image": "https://passion-aquitaine.ouest-france.fr/social/20261008-aa4ea9c1-1-vignette.jpg",
+        "interactions": 3
+      },
+      {
         "reseau": "instagram",
         "titre": "À Vouillé, un lieu vieux de 500 ans devient salle de mariage",
         "lien": "https://www.instagram.com/p/Dd8qT5nmPi0/",
@@ -45,13 +52,6 @@
         "titre": "À Poitiers, une doctorante restaure des tablettes du Louvre",
         "lien": "https://www.instagram.com/p/Dd_RjCQmOsy/",
         "image": "https://passion-aquitaine.ouest-france.fr/social/20261002-fa646ed7-1-vignette.jpg",
-        "interactions": 2
-      },
-      {
-        "reseau": "instagram",
-        "titre": "Les Deux-Sèvres, département le plus fécond de toute la région",
-        "lien": "https://www.instagram.com/p/DeB0esZjo1X/",
-        "image": "https://passion-aquitaine.ouest-france.fr/social/20261003-536318f0-1-vignette.jpg",
         "interactions": 2
       }
     ]

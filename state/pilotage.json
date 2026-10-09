@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-09T08:20:46.653Z",
+  "genereLe": "2026-10-09T09:00:45.289Z",
   "jour": "2026-10-09",
   "reseaux": {
     "instagram": {
@@ -122,11 +122,11 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 1,
-      "semaine": 8,
-      "total": 30,
-      "dernier": "2026-10-09T06:31:16.196Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DeQ3SlNGyXe"
+      "aujourdhui": 2,
+      "semaine": 9,
+      "total": 31,
+      "dernier": "2026-10-09T09:10:34.124Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DeRJlPXlma1"
     },
     "x": {
       "actif": true,
@@ -164,6 +164,22 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35708",
+      "titre": "Une matière ultra-résistante très difficile à recycler : une entreprise de Mérignac a la solution",
+      "lien": "https://passion-aquitaine.ouest-france.fr/recyclage-fibre-carbone-nova-carbon-merignac/",
+      "at": "2026-10-09T09:10:34.124Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Imaginez une matière assez solide pour durer, et justement trop solide pour disparaître proprement. C’est toute l’histoire de la fibre de carbone. En Gironde, à Mérignac, Nova Carbon travaille à lui inventer une seconde vie plutôt qu’une fin au rebut 🏭\n@villedemerignac",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-67a97308-th.jpg",
+          "mode": "reponse",
+          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/recyclage-fibre-carbone-nova-carbon-merignac/",
+          "sujet": "Mérignac",
+          "publieLe": "2026-10-09T09:10:34.124Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35715",
       "titre": "Bars à La Rochelle : 5 adresses incontournables et insolites",
@@ -395,57 +411,19 @@
           "publieLe": "2026-10-05T06:18:18.323Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35474",
-      "titre": "À Hendaye, un château cache un observatoire actif jusqu’en 1975",
-      "lien": "https://passion-aquitaine.ouest-france.fr/chateau-abbadia-hendaye-observatoire/",
-      "at": "2026-10-04T11:29:33.669Z",
-      "reseaux": {
-        "threads": {
-          "texte": "Un château basque peut-il aussi être un lieu de science ? À Hendaye, la réponse est oui 🔭 Le château d’Abbadia abrite un observatoire astronomique voulu par l’explorateur Antoine d’Abbadie, et il a fonctionné jusqu’en 1975. Vous imaginiez qu’on observait encore le ciel depuis ce château il y a cinquante ans ?\n@fondationdupatrimoine @paysbasque_net",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261004-fbd02dce-th.jpg",
-          "mode": "reponse",
-          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/chateau-abbadia-hendaye-observatoire/",
-          "sujet": "Hendaye",
-          "publieLe": "2026-10-04T06:28:15.388Z"
-        },
-        "bluesky": {
-          "texte": "Un château tourné vers les étoiles, face à l’océan à #Hendaye 🌌 Au château d’Abbadia, l’explorateur Antoine d’Abbadie a fait construire un observatoire astronomique, resté en activité jusqu’en 1975.\n@fond-patrimoine.bsky.social",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261004-fbd02dce-bsky.jpg",
-          "mode": "reply",
-          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/chateau-abbadia-hendaye-observatoire/",
-          "sujet": null,
-          "publieLe": "2026-10-04T06:31:27.066Z"
-        },
-        "facebook": {
-          "texte": "Derrière les murs d’un château de Hendaye, des astronomes ont scruté le ciel jusqu’ 🔭",
-          "image": null,
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-04T07:03:35.330Z"
-        },
-        "x": {
-          "texte": "Jusqu’en 1975, on observait encore les astres depuis le château d’Abbadia, à #Hendaye, dans l’observatoire bâti par l’explorateur Antoine d’Abbadie 🔭",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261004-fbd02dce-x.jpg",
-          "mode": "reponse",
-          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/chateau-abbadia-hendaye-observatoire/",
-          "sujet": null,
-          "publieLe": "2026-10-04T08:00:51.028Z"
-        },
-        "instagram": {
-          "texte": "Une visite à Hendaye qui mène des salons d’un château jusqu’aux étoiles 🔭\n⠀\nAu château d’Abbadia, l’explorateur Antoine d’Abbadie a fait bâtir un observatoire astronomique. Une idée de sortie au Pays basque pour remonter le temps de la science, active jusqu’en 1975 🏰\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Hendaye #PaysBasque #Astronomie",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261004-fbd02dce-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-04T11:29:33.669Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "threads",
+      "at": "2026-10-09T09:10:34.124Z",
+      "titre": "Une matière ultra-résistante très difficile à recycler : une entreprise de Mérignac a la solution",
+      "lien": "https://passion-aquitaine.ouest-france.fr/recyclage-fibre-carbone-nova-carbon-merignac/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/DeRJlPXlma1",
+      "format": "reponse",
+      "texte": "Imaginez une matière assez solide pour durer, et justement trop solide pour disparaître proprement. C’est toute l’histoire de la fibre de carbone. En Gironde, à Mérignac, Nova Carbon travaille à lui inventer une seconde vie plutôt qu’une fin au rebut 🏭\n@villedemerignac",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-67a97308-th.jpg"
+    },
     {
       "channel": "bluesky",
       "at": "2026-10-09T07:26:50.285Z",
@@ -535,28 +513,9 @@
       "format": "reponse",
       "texte": "Envie de reconnaître un vrai œuf de poule Marans 🥚 En Charente-Maritime, il existe une échelle de 1 à 9 pour le juger, et il faut au moins le niveau 4 pour porter ce nom. Un repère utile la prochaine fois que vous en croiserez un sur un marché. Petit bonus : James Bond en a déjà mangé.",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261008-aa4ea9c1-th.jpg"
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-10-07T11:14:39.306Z",
-      "titre": "En Dordogne, des religieuses en exil cachent un secret gourmand",
-      "lien": "https://passion-aquitaine.ouest-france.fr/trappe-echourgnac-fromage-religieuses-dordogne/",
-      "lienPost": "https://www.instagram.com/p/DeMOiicDODc/",
-      "format": null,
-      "texte": "Que cache vraiment le fromage culte des religieuses d’Échourgnac ?\n⠀\nExilées puis éprouvées par le feu, ces religieuses de Dordogne produisent un fromage devenu culte. Son secret, lui, vient de Bretagne 🤫\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Dordogne #Fromage #ProduitsLocaux",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261007-c3fc4b16-1.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "threads",
-      "dueAt": "2026-10-09T09:07:15.232Z",
-      "prochainPassage": "2026-10-09T09:20:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Une matière ultra-résistante très difficile à recycler : une entreprise de Mérignac a la solution"
-    },
     {
       "channel": "instagram",
       "dueAt": "2026-10-09T10:13:40.273Z",
@@ -723,7 +682,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-09T08:20:53.849Z",
+    "genereLe": "2026-10-09T09:10:37.967Z",
     "posts": 35,
     "parReseau": {
       "instagram": {
@@ -877,7 +836,7 @@
       }
     },
     "publies": {
-      "threads": 10,
+      "threads": 11,
       "facebook": 10,
       "bluesky": 10,
       "x": 10,

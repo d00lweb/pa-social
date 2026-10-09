@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-09T17:20:42.029Z",
+  "genereLe": "2026-10-09T18:00:37.678Z",
   "jour": "2026-10-09",
   "reseaux": {
     "instagram": {
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 1,
-      "semaine": 8,
-      "total": 30,
-      "dernier": "2026-10-09T07:23:13.513Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1746252927500588"
+      "aujourdhui": 2,
+      "semaine": 9,
+      "total": 31,
+      "dernier": "2026-10-09T18:06:23.616Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1746786767447204"
     },
     "threads": {
       "actif": true,
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35708",
       "titre": "Une matière ultra-résistante très difficile à recycler : une entreprise de Mérignac a la solution",
       "lien": "https://passion-aquitaine.ouest-france.fr/recyclage-fibre-carbone-nova-carbon-merignac/",
-      "at": "2026-10-09T17:29:00.597Z",
+      "at": "2026-10-09T18:06:23.616Z",
       "reseaux": {
         "threads": {
           "texte": "Imaginez une matière assez solide pour durer, et justement trop solide pour disparaître proprement. C’est toute l’histoire de la fibre de carbone. En Gironde, à Mérignac, Nova Carbon travaille à lui inventer une seconde vie plutôt qu’une fin au rebut 🏭\n@villedemerignac",
@@ -201,6 +201,14 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-10-09T17:29:00.597Z"
+        },
+        "facebook": {
+          "texte": "Recycler enfin la fibre de carbone, c’est le pari d’une entreprise de Mérignac qui veut offrir une seconde vie à ce matériau ♻️",
+          "image": null,
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-09T18:06:23.616Z"
         }
       }
     },
@@ -431,6 +439,16 @@
   ],
   "publications": [
     {
+      "channel": "facebook",
+      "at": "2026-10-09T18:06:23.616Z",
+      "titre": "Une matière ultra-résistante très difficile à recycler : une entreprise de Mérignac a la solution",
+      "lien": "https://passion-aquitaine.ouest-france.fr/recyclage-fibre-carbone-nova-carbon-merignac/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1746786767447204",
+      "format": null,
+      "texte": "Recycler enfin la fibre de carbone, c’est le pari d’une entreprise de Mérignac qui veut offrir une seconde vie à ce matériau ♻️",
+      "image": null
+    },
+    {
       "channel": "instagram",
       "at": "2026-10-09T17:29:00.597Z",
       "titre": "Une matière ultra-résistante très difficile à recycler : une entreprise de Mérignac a la solution",
@@ -519,28 +537,9 @@
       "format": "image",
       "texte": "Une soirée complète sans chercher : cinq bars de #LaRochelle à enchaîner, d’une guinguette glacée à un #cocktail #bar caché, avec deux adresses face aux tours ouvertes jusqu’à 2 h 🥂\n➡️ Lire l’article",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-1d143348-bsky.jpg"
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-10-09T07:23:13.513Z",
-      "titre": "Bars à La Rochelle : 5 adresses incontournables et insolites",
-      "lien": "https://passion-aquitaine.ouest-france.fr/top-5-bars-incontournables-la-rochelle/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1746252927500588",
-      "format": null,
-      "texte": "À La Rochelle, l’un des meilleurs bars pour finir la soirée se cache littéralement, encore faut-il savoir où le trouver 🍹",
-      "image": null
     }
   ],
   "file": [
-    {
-      "channel": "facebook",
-      "dueAt": "2026-10-09T18:06:15.199Z",
-      "prochainPassage": "2026-10-09T18:20:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Une matière ultra-résistante très difficile à recycler : une entreprise de Mérignac a la solution"
-    },
     {
       "channel": "facebook",
       "dueAt": "2026-10-10T06:12:29.895Z",
@@ -680,7 +679,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-09T17:29:08.182Z",
+    "genereLe": "2026-10-09T18:06:30.073Z",
     "posts": 36,
     "parReseau": {
       "instagram": {
@@ -835,7 +834,7 @@
     },
     "publies": {
       "threads": 12,
-      "facebook": 10,
+      "facebook": 11,
       "bluesky": 12,
       "x": 12,
       "instagram": 11

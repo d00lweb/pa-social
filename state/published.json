@@ -2770,5 +2770,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35708",
+    "channel": "bluesky",
+    "at": "2026-10-09T10:34:20.459Z",
+    "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mxgrm3ehs22s",
+    "titre": "Une matière ultra-résistante très difficile à recycler : une entreprise de Mérignac a la solution",
+    "lien": "https://passion-aquitaine.ouest-france.fr/recyclage-fibre-carbone-nova-carbon-merignac/",
+    "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mxgrm3ehs22s",
+    "format": "reply",
+    "mention": false,
+    "apercu": {
+      "texte": "Robuste mais quasi impossible à recycler : c’est le paradoxe de la fibre de carbone. À #Mérignac, une entreprise s’attaque au problème 🧪 Nova Carbon développe des solutions pour lui offrir une seconde vie.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-67a97308-bsky.jpg",
+      "mode": "reply",
+      "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/recyclage-fibre-carbone-nova-carbon-merignac/",
+      "sujet": null
+    }
   }
 ]

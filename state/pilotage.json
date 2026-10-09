@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-09T10:00:54.087Z",
+  "genereLe": "2026-10-09T10:20:45.824Z",
   "jour": "2026-10-09",
   "reseaux": {
     "instagram": {
@@ -60,11 +60,11 @@
         "image",
         "reply"
       ],
-      "aujourdhui": 1,
-      "semaine": 8,
-      "total": 33,
-      "dernier": "2026-10-09T07:26:50.285Z",
-      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mxgh4sarms22"
+      "aujourdhui": 2,
+      "semaine": 9,
+      "total": 34,
+      "dernier": "2026-10-09T10:34:20.459Z",
+      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mxgrm3ehs22s"
     },
     "facebook": {
       "actif": true,
@@ -165,6 +165,30 @@
   },
   "articles": [
     {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35708",
+      "titre": "Une matière ultra-résistante très difficile à recycler : une entreprise de Mérignac a la solution",
+      "lien": "https://passion-aquitaine.ouest-france.fr/recyclage-fibre-carbone-nova-carbon-merignac/",
+      "at": "2026-10-09T10:34:20.459Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Imaginez une matière assez solide pour durer, et justement trop solide pour disparaître proprement. C’est toute l’histoire de la fibre de carbone. En Gironde, à Mérignac, Nova Carbon travaille à lui inventer une seconde vie plutôt qu’une fin au rebut 🏭\n@villedemerignac",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-67a97308-th.jpg",
+          "mode": "reponse",
+          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/recyclage-fibre-carbone-nova-carbon-merignac/",
+          "sujet": "Mérignac",
+          "publieLe": "2026-10-09T09:10:34.124Z"
+        },
+        "bluesky": {
+          "texte": "Robuste mais quasi impossible à recycler : c’est le paradoxe de la fibre de carbone. À #Mérignac, une entreprise s’attaque au problème 🧪 Nova Carbon développe des solutions pour lui offrir une seconde vie.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-67a97308-bsky.jpg",
+          "mode": "reply",
+          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/recyclage-fibre-carbone-nova-carbon-merignac/",
+          "sujet": null,
+          "publieLe": "2026-10-09T10:34:20.459Z"
+        }
+      }
+    },
+    {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35715",
       "titre": "Bars à La Rochelle : 5 adresses incontournables et insolites",
       "lien": "https://passion-aquitaine.ouest-france.fr/top-5-bars-incontournables-la-rochelle/",
@@ -209,22 +233,6 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-10-09T10:14:16.585Z"
-        }
-      }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35708",
-      "titre": "Une matière ultra-résistante très difficile à recycler : une entreprise de Mérignac a la solution",
-      "lien": "https://passion-aquitaine.ouest-france.fr/recyclage-fibre-carbone-nova-carbon-merignac/",
-      "at": "2026-10-09T09:10:34.124Z",
-      "reseaux": {
-        "threads": {
-          "texte": "Imaginez une matière assez solide pour durer, et justement trop solide pour disparaître proprement. C’est toute l’histoire de la fibre de carbone. En Gironde, à Mérignac, Nova Carbon travaille à lui inventer une seconde vie plutôt qu’une fin au rebut 🏭\n@villedemerignac",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-67a97308-th.jpg",
-          "mode": "reponse",
-          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/recyclage-fibre-carbone-nova-carbon-merignac/",
-          "sujet": "Mérignac",
-          "publieLe": "2026-10-09T09:10:34.124Z"
         }
       }
     },
@@ -423,6 +431,16 @@
   ],
   "publications": [
     {
+      "channel": "bluesky",
+      "at": "2026-10-09T10:34:20.459Z",
+      "titre": "Une matière ultra-résistante très difficile à recycler : une entreprise de Mérignac a la solution",
+      "lien": "https://passion-aquitaine.ouest-france.fr/recyclage-fibre-carbone-nova-carbon-merignac/",
+      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mxgrm3ehs22s",
+      "format": "reply",
+      "texte": "Robuste mais quasi impossible à recycler : c’est le paradoxe de la fibre de carbone. À #Mérignac, une entreprise s’attaque au problème 🧪 Nova Carbon développe des solutions pour lui offrir une seconde vie.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-67a97308-bsky.jpg"
+    },
+    {
       "channel": "instagram",
       "at": "2026-10-09T10:14:16.585Z",
       "titre": "Bars à La Rochelle : 5 adresses incontournables et insolites",
@@ -511,28 +529,9 @@
       "format": null,
       "texte": "En Charente-Maritime, un œuf de poule Marans doit décrocher au moins 4 sur 9 pour avoir le droit de porter son nom 🐔",
       "image": null
-    },
-    {
-      "channel": "bluesky",
-      "at": "2026-10-08T07:09:45.122Z",
-      "titre": "Poule Marans : l’œuf de James Bond se note de 1 à 9",
-      "lien": "https://passion-aquitaine.ouest-france.fr/oeuf-poule-marans-echelle-couleur/",
-      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mxdvpdcc272k",
-      "format": "image",
-      "texte": "🍳 James Bond a déjà goûté un œuf de poule Marans. Mais en #CharenteMaritime, tous les œufs de cette poule ne se valent pas : ils sont notés de 1 à 9, et seuls ceux qui atteignent au moins le niveau 4 méritent ce nom.\n➡️ Lire l’article",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261008-aa4ea9c1-bsky.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "bluesky",
-      "dueAt": "2026-10-09T10:34:19.182Z",
-      "prochainPassage": "2026-10-09T11:00:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Une matière ultra-résistante très difficile à recycler : une entreprise de Mérignac a la solution"
-    },
     {
       "channel": "x",
       "dueAt": "2026-10-09T11:00:00.000Z",
@@ -541,6 +540,33 @@
       "prevuInitialement": null,
       "raison": null,
       "titre": "Une matière ultra-résistante très difficile à recycler : une entreprise de Mérignac a la solution"
+    },
+    {
+      "channel": "threads",
+      "dueAt": "2026-10-09T11:32:05.393Z",
+      "prochainPassage": "2026-10-09T12:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Fouilles à la dune du Pilat, un vestige de 2 500 ans ressurgit"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-10-09T15:20:00.000Z",
+      "prochainPassage": "2026-10-09T15:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Fouilles à la dune du Pilat, un vestige de 2 500 ans ressurgit"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-10-09T17:08:51.242Z",
+      "prochainPassage": "2026-10-09T17:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Fouilles à la dune du Pilat, un vestige de 2 500 ans ressurgit"
     },
     {
       "channel": "instagram",
@@ -559,6 +585,24 @@
       "prevuInitialement": null,
       "raison": null,
       "titre": "Une matière ultra-résistante très difficile à recycler : une entreprise de Mérignac a la solution"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-10-10T06:12:29.895Z",
+      "prochainPassage": "2026-10-10T06:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Fouilles à la dune du Pilat, un vestige de 2 500 ans ressurgit"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-10-10T10:03:30.997Z",
+      "prochainPassage": "2026-10-10T10:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Fouilles à la dune du Pilat, un vestige de 2 500 ans ressurgit"
     }
   ],
   "alertes": [],
@@ -681,7 +725,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-09T10:14:24.889Z",
+    "genereLe": "2026-10-09T10:34:40.157Z",
     "posts": 35,
     "parReseau": {
       "instagram": {
@@ -837,7 +881,7 @@
     "publies": {
       "threads": 11,
       "facebook": 10,
-      "bluesky": 10,
+      "bluesky": 11,
       "x": 10,
       "instagram": 10
     },
@@ -889,29 +933,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 4,
-      "entree": 31868,
-      "sortie": 3866,
-      "cout": 0.204792,
+      "appels": 5,
+      "entree": 39861,
+      "sortie": 4767,
+      "cout": 0.254784,
       "cle": "2026-10-09"
     },
     "semaine": {
-      "appels": 17,
-      "entree": 132914,
-      "sortie": 17343,
-      "cout": 0.8785160000000001
+      "appels": 18,
+      "entree": 140907,
+      "sortie": 18244,
+      "cout": 0.9285079999999999
     },
     "mois": {
-      "appels": 21,
-      "entree": 163625,
-      "sortie": 20738,
-      "cout": 1.06926,
+      "appels": 22,
+      "entree": 171618,
+      "sortie": 21639,
+      "cout": 1.119252,
       "cle": "2026-10"
     },
-    "projection": 3.68,
+    "projection": 3.86,
     "moyenneAppel": 0.0509,
     "parModele": {
-      "claude-opus-5-5": 21
+      "claude-opus-5-5": 22
     },
     "serie": [
       [
@@ -968,7 +1012,7 @@
       ],
       [
         "2026-10-09",
-        0.2048
+        0.2548
       ]
     ],
     "depuis": "2026-09-23"

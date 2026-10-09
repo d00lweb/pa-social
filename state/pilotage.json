@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-09T09:38:14.474Z",
+  "genereLe": "2026-10-09T10:00:54.087Z",
   "jour": "2026-10-09",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 8,
-      "total": 34,
-      "dernier": "2026-10-08T11:29:14.929Z",
-      "lienDernier": "https://www.instagram.com/p/DeO1ASYGAG9/"
+      "aujourdhui": 1,
+      "semaine": 9,
+      "total": 35,
+      "dernier": "2026-10-09T10:14:16.585Z",
+      "lienDernier": "https://www.instagram.com/p/DeRRODaGFGE/"
     },
     "bluesky": {
       "actif": true,
@@ -165,26 +165,10 @@
   },
   "articles": [
     {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35708",
-      "titre": "Une matière ultra-résistante très difficile à recycler : une entreprise de Mérignac a la solution",
-      "lien": "https://passion-aquitaine.ouest-france.fr/recyclage-fibre-carbone-nova-carbon-merignac/",
-      "at": "2026-10-09T09:10:34.124Z",
-      "reseaux": {
-        "threads": {
-          "texte": "Imaginez une matière assez solide pour durer, et justement trop solide pour disparaître proprement. C’est toute l’histoire de la fibre de carbone. En Gironde, à Mérignac, Nova Carbon travaille à lui inventer une seconde vie plutôt qu’une fin au rebut 🏭\n@villedemerignac",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-67a97308-th.jpg",
-          "mode": "reponse",
-          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/recyclage-fibre-carbone-nova-carbon-merignac/",
-          "sujet": "Mérignac",
-          "publieLe": "2026-10-09T09:10:34.124Z"
-        }
-      }
-    },
-    {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35715",
       "titre": "Bars à La Rochelle : 5 adresses incontournables et insolites",
       "lien": "https://passion-aquitaine.ouest-france.fr/top-5-bars-incontournables-la-rochelle/",
-      "at": "2026-10-09T07:26:50.285Z",
+      "at": "2026-10-09T10:14:16.585Z",
       "reseaux": {
         "threads": {
           "texte": "🤐 Un cocktail bar caché à La Rochelle, vous en aviez entendu parler ? Il fait partie de nos cinq adresses pour une soirée qui démarre à l’apéro et se termine à 2 h. Au programme aussi : une guinguette glacée et deux bars installés face aux tours. Et vous, c’est quoi votre adresse rochelaise pour un dernier verre ?",
@@ -217,6 +201,30 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-10-09T07:26:50.285Z"
+        },
+        "instagram": {
+          "texte": "La Rochelle by night : cinq bars pour tenir de l’apéro jusqu’à 2 h 🍸\n⠀\nUne guinguette glacée, deux comptoirs face aux tours et un cocktail bar bien caché. Notre sélection d’adresses insolites pour une soirée réussie en Charente-Maritime.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#LaRochelle #BarsLaRochelle #CharenteMaritime",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-1d143348-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-09T10:14:16.585Z"
+        }
+      }
+    },
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35708",
+      "titre": "Une matière ultra-résistante très difficile à recycler : une entreprise de Mérignac a la solution",
+      "lien": "https://passion-aquitaine.ouest-france.fr/recyclage-fibre-carbone-nova-carbon-merignac/",
+      "at": "2026-10-09T09:10:34.124Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Imaginez une matière assez solide pour durer, et justement trop solide pour disparaître proprement. C’est toute l’histoire de la fibre de carbone. En Gironde, à Mérignac, Nova Carbon travaille à lui inventer une seconde vie plutôt qu’une fin au rebut 🏭\n@villedemerignac",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-67a97308-th.jpg",
+          "mode": "reponse",
+          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/recyclage-fibre-carbone-nova-carbon-merignac/",
+          "sujet": "Mérignac",
+          "publieLe": "2026-10-09T09:10:34.124Z"
         }
       }
     },
@@ -415,6 +423,16 @@
   ],
   "publications": [
     {
+      "channel": "instagram",
+      "at": "2026-10-09T10:14:16.585Z",
+      "titre": "Bars à La Rochelle : 5 adresses incontournables et insolites",
+      "lien": "https://passion-aquitaine.ouest-france.fr/top-5-bars-incontournables-la-rochelle/",
+      "lienPost": "https://www.instagram.com/p/DeRRODaGFGE/",
+      "format": null,
+      "texte": "La Rochelle by night : cinq bars pour tenir de l’apéro jusqu’à 2 h 🍸\n⠀\nUne guinguette glacée, deux comptoirs face aux tours et un cocktail bar bien caché. Notre sélection d’adresses insolites pour une soirée réussie en Charente-Maritime.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#LaRochelle #BarsLaRochelle #CharenteMaritime",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-1d143348-1.jpg"
+    },
+    {
       "channel": "threads",
       "at": "2026-10-09T09:10:34.124Z",
       "titre": "Une matière ultra-résistante très difficile à recycler : une entreprise de Mérignac a la solution",
@@ -503,28 +521,9 @@
       "format": "image",
       "texte": "🍳 James Bond a déjà goûté un œuf de poule Marans. Mais en #CharenteMaritime, tous les œufs de cette poule ne se valent pas : ils sont notés de 1 à 9, et seuls ceux qui atteignent au moins le niveau 4 méritent ce nom.\n➡️ Lire l’article",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261008-aa4ea9c1-bsky.jpg"
-    },
-    {
-      "channel": "threads",
-      "at": "2026-10-08T06:27:45.299Z",
-      "titre": "Poule Marans : l’œuf de James Bond se note de 1 à 9",
-      "lien": "https://passion-aquitaine.ouest-france.fr/oeuf-poule-marans-echelle-couleur/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/DeOSG-YlvO_",
-      "format": "reponse",
-      "texte": "Envie de reconnaître un vrai œuf de poule Marans 🥚 En Charente-Maritime, il existe une échelle de 1 à 9 pour le juger, et il faut au moins le niveau 4 pour porter ce nom. Un repère utile la prochaine fois que vous en croiserez un sur un marché. Petit bonus : James Bond en a déjà mangé.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261008-aa4ea9c1-th.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "instagram",
-      "dueAt": "2026-10-09T10:13:40.273Z",
-      "prochainPassage": "2026-10-09T10:20:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Bars à La Rochelle : 5 adresses incontournables et insolites"
-    },
     {
       "channel": "bluesky",
       "dueAt": "2026-10-09T10:34:19.182Z",
@@ -682,7 +681,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-09T09:38:20.401Z",
+    "genereLe": "2026-10-09T10:14:24.889Z",
     "posts": 35,
     "parReseau": {
       "instagram": {
@@ -840,7 +839,7 @@
       "facebook": 10,
       "bluesky": 10,
       "x": 10,
-      "instagram": 9
+      "instagram": 10
     },
     "abonnes": {
       "instagram": {

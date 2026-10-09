@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-09T11:00:39.462Z",
+  "genereLe": "2026-10-09T11:20:35.707Z",
   "jour": "2026-10-09",
   "reseaux": {
     "instagram": {
@@ -122,11 +122,11 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 2,
-      "semaine": 9,
-      "total": 31,
-      "dernier": "2026-10-09T09:10:34.124Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DeRJlPXlma1"
+      "aujourdhui": 3,
+      "semaine": 10,
+      "total": 32,
+      "dernier": "2026-10-09T11:36:10.451Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DeRaJ-jlY-S"
     },
     "x": {
       "actif": true,
@@ -164,6 +164,22 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35756",
+      "titre": "Fouilles à la dune du Pilat, un vestige de 2 500 ans ressurgit",
+      "lien": "https://passion-aquitaine.ouest-france.fr/dune-du-pilat-atelier-sel-fouilles/",
+      "at": "2026-10-09T11:36:10.451Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Que faisait-on au pied de la dune du Pilat il y a plus de 2 500 ans ? Réponse : 🧂 on y produisait du sel. Un ancien atelier vient de ressurgir, et les archéologues fouillent avant que l’érosion ne l’emporte. Vous imaginiez le Bassin d’Arcachon aussi ancien ?",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-7fe1d4e9-th.jpg",
+          "mode": "reponse",
+          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/dune-du-pilat-atelier-sel-fouilles/",
+          "sujet": "Bassin d'Arcachon",
+          "publieLe": "2026-10-09T11:36:10.451Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35708",
       "titre": "Une matière ultra-résistante très difficile à recycler : une entreprise de Mérignac a la solution",
@@ -387,57 +403,19 @@
           "publieLe": "2026-10-06T11:12:40.157Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=30656",
-      "titre": "Ce week-end à Bègles, Cerrone et Morcheeba montent sur scène",
-      "lien": "https://passion-aquitaine.ouest-france.fr/green-paradize-festival-begles-2026/",
-      "at": "2026-10-05T06:18:18.323Z",
-      "reseaux": {
-        "x": {
-          "texte": "À #Bègles, le Green Paradize Festival n’a qu’un an et frappe fort : 🕺 Cerrone, Morcheeba et Purple Disco Machine sont attendus sur scène ce week-end.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261005-0255fe27-x.jpg",
-          "mode": "reponse",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/green-paradize-festival-begles-2026/",
-          "sujet": null,
-          "publieLe": "2026-10-05T06:00:46.273Z"
-        },
-        "facebook": {
-          "texte": "Imaginez Bègles transformée en grande piste de danse, avec Cerrone et Purple Disco Machine sur scène ce week-end 🎶",
-          "image": null,
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-05T06:03:15.421Z"
-        },
-        "bluesky": {
-          "texte": "🎤 Jusqu’où peut aller un festival né il y a à peine un an ? À #Bègles, le Green Paradize Festival revient déjà, avec Cerrone et Purple Disco Machine en têtes d’affiche ce week-end.\n@francemusique.fr @departementgironde.bsky.social",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261005-0255fe27-bsky.jpg",
-          "mode": "reply",
-          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/green-paradize-festival-begles-2026/",
-          "sujet": null,
-          "publieLe": "2026-10-05T06:06:35.383Z"
-        },
-        "instagram": {
-          "texte": "Le Green Paradize Festival n’a qu’un an, et il s’offre déjà 🪩 Cerrone en tête d’affiche\n⠀\nÀ Bègles, aux portes de Bordeaux, le jeune festival revient ce week-end. Purple Disco Machine et Morcheeba complètent une affiche taillée pour danser.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bègles #GreenParadizeFestival #Musique",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261005-0255fe27-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-05T06:11:34.862Z"
-        },
-        "threads": {
-          "texte": "Un an à peine après sa création, le Green Paradize Festival revient déjà à Bègles 🎧 Au programme ce week-end : Cerrone, Morcheeba et Purple Disco Machine. De quoi réunir plusieurs générations de fans de musique. Vous êtes plutôt disco des origines ou disco revisité ?\n@villedebegles @francemusique @departementgironde",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261005-0255fe27-th.jpg",
-          "mode": "reponse",
-          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/green-paradize-festival-begles-2026/",
-          "sujet": "Bègles",
-          "publieLe": "2026-10-05T06:18:18.323Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "threads",
+      "at": "2026-10-09T11:36:10.451Z",
+      "titre": "Fouilles à la dune du Pilat, un vestige de 2 500 ans ressurgit",
+      "lien": "https://passion-aquitaine.ouest-france.fr/dune-du-pilat-atelier-sel-fouilles/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/DeRaJ-jlY-S",
+      "format": "reponse",
+      "texte": "Que faisait-on au pied de la dune du Pilat il y a plus de 2 500 ans ? Réponse : 🧂 on y produisait du sel. Un ancien atelier vient de ressurgir, et les archéologues fouillent avant que l’érosion ne l’emporte. Vous imaginiez le Bassin d’Arcachon aussi ancien ?",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-7fe1d4e9-th.jpg"
+    },
     {
       "channel": "x",
       "at": "2026-10-09T11:00:48.706Z",
@@ -527,28 +505,9 @@
       "format": null,
       "texte": "Au moins 4 sur 9 : c’est la note qu’un 🥚 œuf doit décrocher pour mériter le nom de poule Marans\n⠀\nCe produit local de Charente-Maritime a même eu les honneurs de l’assiette de James Bond. Découvrez comment on évalue cet œuf pas comme les autres.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#CharenteMaritime #PouleMarans #ProduitsLocaux",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261008-aa4ea9c1-1.jpg"
-    },
-    {
-      "channel": "x",
-      "at": "2026-10-08T08:20:51.804Z",
-      "titre": "Poule Marans : l’œuf de James Bond se note de 1 à 9",
-      "lien": "https://passion-aquitaine.ouest-france.fr/oeuf-poule-marans-echelle-couleur/",
-      "lienPost": null,
-      "format": "reponse",
-      "texte": "Un œuf de poule Marans se note : en Charente-Maritime, il faut atteindre 🐓 au moins 4 sur 9 pour porter ce nom. Un produit local qui a même nourri James Bond.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261008-aa4ea9c1-x.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "threads",
-      "dueAt": "2026-10-09T11:32:05.393Z",
-      "prochainPassage": "2026-10-09T12:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Fouilles à la dune du Pilat, un vestige de 2 500 ans ressurgit"
-    },
     {
       "channel": "x",
       "dueAt": "2026-10-09T15:20:00.000Z",
@@ -724,7 +683,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-09T11:00:57.096Z",
+    "genereLe": "2026-10-09T11:36:14.757Z",
     "posts": 35,
     "parReseau": {
       "instagram": {
@@ -878,7 +837,7 @@
       }
     },
     "publies": {
-      "threads": 11,
+      "threads": 12,
       "facebook": 10,
       "bluesky": 11,
       "x": 11,

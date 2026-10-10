@@ -2968,5 +2968,23 @@
       "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/top-golfs-bordeaux-gironde/",
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35717",
+    "channel": "threads",
+    "at": "2026-10-10T09:07:00.124Z",
+    "mediaId": "17896437120609578",
+    "titre": "Elle parcourt les vergers sans GPS : cette machine du Lot-et-Garonne sait où aller",
+    "lien": "https://passion-aquitaine.ouest-france.fr/robot-agricole-sans-gps-verger-lot-et-garonne/",
+    "lienPost": "https://www.threads.com/@lovaquitaine/post/DeTt_yKlVvb",
+    "format": "reponse",
+    "mention": false,
+    "apercu": {
+      "texte": "🌳 Cancon, Lot-et-Garonne. C’est ici qu’est née une machine agricole un peu à part : elle se déplace dans les vergers sans GPS. Son secret tient en deux idées, une navigation autonome et une pulvérisation intelligente. De quoi changer le quotidien des arboriculteurs du coin.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261010-c29a0140-th.jpg",
+      "mode": "reponse",
+      "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/robot-agricole-sans-gps-verger-lot-et-garonne/",
+      "sujet": "Cancon"
+    }
   }
 ]

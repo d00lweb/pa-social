@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-10T08:20:49.621Z",
+  "genereLe": "2026-10-10T09:00:38.906Z",
   "jour": "2026-10-10",
   "reseaux": {
     "instagram": {
@@ -122,11 +122,11 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 1,
-      "semaine": 9,
-      "total": 33,
-      "dernier": "2026-10-10T06:28:30.346Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DeTb26IkTaM"
+      "aujourdhui": 2,
+      "semaine": 10,
+      "total": 34,
+      "dernier": "2026-10-10T09:07:00.124Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DeTt_yKlVvb"
     },
     "x": {
       "actif": true,
@@ -164,6 +164,22 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35717",
+      "titre": "Elle parcourt les vergers sans GPS : cette machine du Lot-et-Garonne sait où aller",
+      "lien": "https://passion-aquitaine.ouest-france.fr/robot-agricole-sans-gps-verger-lot-et-garonne/",
+      "at": "2026-10-10T09:07:00.124Z",
+      "reseaux": {
+        "threads": {
+          "texte": "🌳 Cancon, Lot-et-Garonne. C’est ici qu’est née une machine agricole un peu à part : elle se déplace dans les vergers sans GPS. Son secret tient en deux idées, une navigation autonome et une pulvérisation intelligente. De quoi changer le quotidien des arboriculteurs du coin.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261010-c29a0140-th.jpg",
+          "mode": "reponse",
+          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/robot-agricole-sans-gps-verger-lot-et-garonne/",
+          "sujet": "Cancon",
+          "publieLe": "2026-10-10T09:07:00.124Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=28053",
       "titre": "Golfs de Gironde : top 3 des meilleurs parcours près de Bordeaux",
@@ -379,57 +395,19 @@
           "publieLe": "2026-10-08T11:29:14.929Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=28601",
-      "titre": "En Dordogne, des religieuses en exil cachent un secret gourmand",
-      "lien": "https://passion-aquitaine.ouest-france.fr/trappe-echourgnac-fromage-religieuses-dordogne/",
-      "at": "2026-10-07T11:14:39.306Z",
-      "reseaux": {
-        "threads": {
-          "texte": "Un fromage culte du Périgord vert, une communauté de religieuses exilées… et un secret breton. À Échourgnac, ces religieuses ont été 🔥 éprouvées par le feu, sans cesser de produire ce fromage devenu culte. Pourtant, son origine ne se trouve pas en Dordogne mais en Bretagne.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261007-c3fc4b16-th.jpg",
-          "mode": "reponse",
-          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/trappe-echourgnac-fromage-religieuses-dordogne/",
-          "sujet": "Échourgnac",
-          "publieLe": "2026-10-07T06:28:17.062Z"
-        },
-        "bluesky": {
-          "texte": "En #Dordogne, à #Échourgnac, des religieuses exilées produisent un #fromage devenu culte ⛪ Leur communauté a traversé l’exil et l’épreuve du feu, et leur fromage cache un secret venu de Bretagne.\n➡️ Lire l’article",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261007-c3fc4b16-bsky.jpg",
-          "mode": "image",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-07T07:05:03.867Z"
-        },
-        "facebook": {
-          "texte": "Un fromage devenu culte en Dordogne doit son secret à une région bien loin d’ici : la Bretagne 🧀",
-          "image": null,
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-07T07:26:13.040Z"
-        },
-        "x": {
-          "texte": "Amateurs de fromage, le produit culte des religieuses d’Échourgnac, en #Dordogne, a une histoire d’exil, de feu et un secret venu de Bretagne 🍽️",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261007-c3fc4b16-x.jpg",
-          "mode": "reponse",
-          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/trappe-echourgnac-fromage-religieuses-dordogne/",
-          "sujet": null,
-          "publieLe": "2026-10-07T08:00:57.983Z"
-        },
-        "instagram": {
-          "texte": "Que cache vraiment le fromage culte des religieuses d’Échourgnac ?\n⠀\nExilées puis éprouvées par le feu, ces religieuses de Dordogne produisent un fromage devenu culte. Son secret, lui, vient de Bretagne 🤫\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Dordogne #Fromage #ProduitsLocaux",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261007-c3fc4b16-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-07T11:14:39.306Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "threads",
+      "at": "2026-10-10T09:07:00.124Z",
+      "titre": "Elle parcourt les vergers sans GPS : cette machine du Lot-et-Garonne sait où aller",
+      "lien": "https://passion-aquitaine.ouest-france.fr/robot-agricole-sans-gps-verger-lot-et-garonne/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/DeTt_yKlVvb",
+      "format": "reponse",
+      "texte": "🌳 Cancon, Lot-et-Garonne. C’est ici qu’est née une machine agricole un peu à part : elle se déplace dans les vergers sans GPS. Son secret tient en deux idées, une navigation autonome et une pulvérisation intelligente. De quoi changer le quotidien des arboriculteurs du coin.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261010-c29a0140-th.jpg"
+    },
     {
       "channel": "x",
       "at": "2026-10-10T08:01:01.950Z",
@@ -519,28 +497,9 @@
       "format": "reponse",
       "texte": "Que faisait-on au pied de la dune du Pilat il y a plus de 2 500 ans ? Réponse : 🧂 on y produisait du sel. Un ancien atelier vient de ressurgir, et les archéologues fouillent avant que l’érosion ne l’emporte. Vous imaginiez le Bassin d’Arcachon aussi ancien ?",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-7fe1d4e9-th.jpg"
-    },
-    {
-      "channel": "x",
-      "at": "2026-10-09T11:00:48.706Z",
-      "titre": "Une matière ultra-résistante très difficile à recycler : une entreprise de Mérignac a la solution",
-      "lien": "https://passion-aquitaine.ouest-france.fr/recyclage-fibre-carbone-nova-carbon-merignac/",
-      "lienPost": null,
-      "format": "reponse",
-      "texte": "🔁 Que faire d’une matière conçue pour ne jamais céder ? Nova Carbon, à #Mérignac, développe des solutions pour recycler la fibre de carbone et lui donner une seconde vie.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-67a97308-x.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "threads",
-      "dueAt": "2026-10-10T09:03:55.464Z",
-      "prochainPassage": "2026-10-10T09:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Elle parcourt les vergers sans GPS : cette machine du Lot-et-Garonne sait où aller"
-    },
     {
       "channel": "instagram",
       "dueAt": "2026-10-10T10:03:30.997Z",
@@ -725,7 +684,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-10T08:20:57.068Z",
+    "genereLe": "2026-10-10T09:07:04.326Z",
     "posts": 39,
     "parReseau": {
       "instagram": {
@@ -879,7 +838,7 @@
       }
     },
     "publies": {
-      "threads": 13,
+      "threads": 14,
       "facebook": 12,
       "bluesky": 13,
       "x": 13,

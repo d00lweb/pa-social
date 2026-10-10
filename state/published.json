@@ -2914,5 +2914,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=28053",
+    "channel": "threads",
+    "at": "2026-10-10T06:28:30.346Z",
+    "mediaId": "18017481455943393",
+    "titre": "Golfs de Gironde : top 3 des meilleurs parcours près de Bordeaux",
+    "lien": "https://passion-aquitaine.ouest-france.fr/top-golfs-bordeaux-gironde/",
+    "lienPost": "https://www.threads.com/@lovaquitaine/post/DeTb26IkTaM",
+    "format": "reponse",
+    "mention": true,
+    "apercu": {
+      "texte": "Trois golfs, pas un de plus ⛳ C’est notre sélection des meilleurs parcours de Gironde, tous accessibles depuis Bordeaux. On va du Bassin d’Arcachon jusqu’à Saint-Émilion, de quoi varier les décors d’un week-end à l’autre. Plutôt parcours côté océan ou côté vignes, vous ?\n@villedebordeaux @visitbordeaux",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261010-83f46501-th.jpg",
+      "mode": "reponse",
+      "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/top-golfs-bordeaux-gironde/",
+      "sujet": "Bordeaux"
+    }
   }
 ]

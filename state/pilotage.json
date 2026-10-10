@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-10T06:00:43.887Z",
+  "genereLe": "2026-10-10T06:20:37.647Z",
   "jour": "2026-10-10",
   "reseaux": {
     "instagram": {
@@ -122,11 +122,11 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 10,
-      "total": 32,
-      "dernier": "2026-10-09T11:36:10.451Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DeRaJ-jlY-S"
+      "aujourdhui": 1,
+      "semaine": 11,
+      "total": 33,
+      "dernier": "2026-10-10T06:28:30.346Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DeTb26IkTaM"
     },
     "x": {
       "actif": true,
@@ -164,6 +164,22 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=28053",
+      "titre": "Golfs de Gironde : top 3 des meilleurs parcours près de Bordeaux",
+      "lien": "https://passion-aquitaine.ouest-france.fr/top-golfs-bordeaux-gironde/",
+      "at": "2026-10-10T06:28:30.346Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Trois golfs, pas un de plus ⛳ C’est notre sélection des meilleurs parcours de Gironde, tous accessibles depuis Bordeaux. On va du Bassin d’Arcachon jusqu’à Saint-Émilion, de quoi varier les décors d’un week-end à l’autre. Plutôt parcours côté océan ou côté vignes, vous ?\n@villedebordeaux @visitbordeaux",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261010-83f46501-th.jpg",
+          "mode": "reponse",
+          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/top-golfs-bordeaux-gironde/",
+          "sujet": "Bordeaux",
+          "publieLe": "2026-10-10T06:28:30.346Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35756",
       "titre": "Fouilles à la dune du Pilat, un vestige de 2 500 ans ressurgit",
@@ -395,57 +411,19 @@
           "publieLe": "2026-10-07T11:14:39.306Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35575",
-      "titre": "À Limoges, Le Cheverny abrite une des meilleures caves de France",
-      "lien": "https://passion-aquitaine.ouest-france.fr/cheverny-limoges-restaurant-usine-cave/",
-      "at": "2026-10-06T11:12:40.157Z",
-      "reseaux": {
-        "bluesky": {
-          "texte": "L’une des meilleures cartes des vins de France se trouve dans un restaurant familial de #Limoges. Le Cheverny a pris place dans une ancienne usine, devenue une adresse de choix pour les amateurs 🥂\n➡️ Lire l’article",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261006-9ec21692-bsky.jpg",
-          "mode": "image",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-06T06:23:57.806Z"
-        },
-        "threads": {
-          "texte": "🍇 Limoges, une ancienne usine, et à l’intérieur un restaurant familial : Le Cheverny. Rien ne laisse deviner que sa cave figure parmi les meilleures de France. Une belle surprise pour qui aime le vin et les lieux chargés d’histoire.\n@ville_de_limoges",
-          "image": null,
-          "mode": "lien",
-          "reponse": null,
-          "sujet": "Limoges",
-          "publieLe": "2026-10-06T06:29:47.480Z"
-        },
-        "facebook": {
-          "texte": "Qui imaginerait qu’une ancienne usine de Limoges cache l’une des plus belles cartes des vins de France ? 🍷",
-          "image": null,
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-06T06:34:24.340Z"
-        },
-        "x": {
-          "texte": "Une ancienne usine de #Limoges abrite l’une des meilleures caves de France 🍷 Derrière ce trésor, un restaurant familial : Le Cheverny.\n➡️ https://passion-aquitaine.ouest-france.fr/cheverny-limoges-restaurant-usine-cave/",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261006-9ec21692-x.jpg",
-          "mode": "lien",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-06T07:00:47.234Z"
-        },
-        "instagram": {
-          "texte": "Des bouteilles d’exception là où tournaient autrefois des machines 🍾\n⠀\nÀ Limoges, Le Cheverny, restaurant familial niché dans une ancienne usine, cache l’une des meilleures cartes des vins de France. Une adresse à connaître pour les amateurs de vin en Haute-Vienne.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Limoges #CarteDesVins #HauteVienne",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261006-9ec21692-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-06T11:12:40.157Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "threads",
+      "at": "2026-10-10T06:28:30.346Z",
+      "titre": "Golfs de Gironde : top 3 des meilleurs parcours près de Bordeaux",
+      "lien": "https://passion-aquitaine.ouest-france.fr/top-golfs-bordeaux-gironde/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/DeTb26IkTaM",
+      "format": "reponse",
+      "texte": "Trois golfs, pas un de plus ⛳ C’est notre sélection des meilleurs parcours de Gironde, tous accessibles depuis Bordeaux. On va du Bassin d’Arcachon jusqu’à Saint-Émilion, de quoi varier les décors d’un week-end à l’autre. Plutôt parcours côté océan ou côté vignes, vous ?\n@villedebordeaux @visitbordeaux",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261010-83f46501-th.jpg"
+    },
     {
       "channel": "facebook",
       "at": "2026-10-10T06:12:34.658Z",
@@ -535,28 +513,9 @@
       "format": null,
       "texte": "La Rochelle by night : cinq bars pour tenir de l’apéro jusqu’à 2 h 🍸\n⠀\nUne guinguette glacée, deux comptoirs face aux tours et un cocktail bar bien caché. Notre sélection d’adresses insolites pour une soirée réussie en Charente-Maritime.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#LaRochelle #BarsLaRochelle #CharenteMaritime",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-1d143348-1.jpg"
-    },
-    {
-      "channel": "threads",
-      "at": "2026-10-09T09:10:34.124Z",
-      "titre": "Une matière ultra-résistante très difficile à recycler : une entreprise de Mérignac a la solution",
-      "lien": "https://passion-aquitaine.ouest-france.fr/recyclage-fibre-carbone-nova-carbon-merignac/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/DeRJlPXlma1",
-      "format": "reponse",
-      "texte": "Imaginez une matière assez solide pour durer, et justement trop solide pour disparaître proprement. C’est toute l’histoire de la fibre de carbone. En Gironde, à Mérignac, Nova Carbon travaille à lui inventer une seconde vie plutôt qu’une fin au rebut 🏭\n@villedemerignac",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-67a97308-th.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "threads",
-      "dueAt": "2026-10-10T06:25:24.797Z",
-      "prochainPassage": "2026-10-10T07:00:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Golfs de Gironde : top 3 des meilleurs parcours près de Bordeaux"
-    },
     {
       "channel": "bluesky",
       "dueAt": "2026-10-10T07:29:32.364Z",
@@ -723,7 +682,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-10T06:12:45.217Z",
+    "genereLe": "2026-10-10T06:28:34.744Z",
     "posts": 36,
     "parReseau": {
       "instagram": {
@@ -877,7 +836,7 @@
       }
     },
     "publies": {
-      "threads": 12,
+      "threads": 13,
       "facebook": 12,
       "bluesky": 12,
       "x": 12,

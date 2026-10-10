@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-10T18:00:44.113Z",
+  "genereLe": "2026-10-10T18:07:28.315Z",
   "jour": "2026-10-10",
   "reseaux": {
     "instagram": {
@@ -89,7 +89,7 @@
       },
       "formats": null,
       "aujourdhui": 2,
-      "semaine": 10,
+      "semaine": 9,
       "total": 33,
       "dernier": "2026-10-10T18:06:31.941Z",
       "lienDernier": "https://www.facebook.com/1720946116697936/posts/1747841514008396"
@@ -561,7 +561,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 236,
+    "releves": 238,
     "parReseau": {
       "instagram": {
         "posts": 29,
@@ -572,7 +572,7 @@
         "interactionsMoyennes": 0.1
       },
       "facebook": {
-        "posts": 23,
+        "posts": 24,
         "interactionsMoyennes": 0
       },
       "threads": {
@@ -640,7 +640,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-10T17:00:52.883Z"
+    "derniere": "2026-10-10T18:07:28.315Z"
   },
   "abonnes": {
     "instagram": {
@@ -679,8 +679,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-10T18:06:46.600Z",
-    "posts": 45,
+    "genereLe": "2026-10-10T18:07:33.831Z",
+    "posts": 46,
     "parReseau": {
       "instagram": {
         "posts": 11,
@@ -695,7 +695,7 @@
         "moyenne": 0.5
       },
       "facebook": {
-        "posts": 10,
+        "posts": 11,
         "moyenne": 0
       }
     },
@@ -727,8 +727,8 @@
         "moyenne": 8.5
       },
       "soir": {
-        "posts": 4,
-        "moyenne": 2.5
+        "posts": 5,
+        "moyenne": 2
       },
       "matin": {
         "posts": 30,
@@ -756,7 +756,7 @@
           "moyenne": 0
         },
         "20 h – 21 h 30": {
-          "posts": 1,
+          "posts": 2,
           "moyenne": 0
         }
       },
@@ -812,23 +812,23 @@
     },
     "moinsBon": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35708",
-      "channel": "bluesky",
-      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mxgrm3ehs22s",
-      "publieLe": "2026-10-09T10:34:20.459Z",
+      "channel": "facebook",
+      "mediaId": "227437307428711_1746786767447204",
+      "publieLe": "2026-10-09T18:06:23.616Z",
       "jalon": 1,
-      "releveLe": "2026-10-10T11:00:44.507Z",
+      "releveLe": "2026-10-10T18:07:28.315Z",
       "likes": 0,
-      "commentairesBruts": 1,
+      "commentairesBruts": 0,
       "partages": 0,
       "vues": null,
       "commentaires": 0,
       "v": 2,
       "titre": "Une matière ultra-résistante très difficile à recycler : une entreprise de Mérignac a la solution",
-      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mxgrm3ehs22s",
-      "format": "reply",
+      "lien": "https://www.facebook.com/1720946116697936/posts/1746786767447204",
+      "format": null,
       "mention": false,
-      "creneau": "après-midi",
-      "creneauReseau": "12 h – 13 h 30"
+      "creneau": "soir",
+      "creneauReseau": "20 h – 21 h 30"
     },
     "mentions": {
       "avec": {
@@ -836,7 +836,7 @@
         "moyenne": 4.2
       },
       "sans": {
-        "posts": 22,
+        "posts": 23,
         "moyenne": 0.7
       }
     },

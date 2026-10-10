@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-10T17:20:44.414Z",
+  "genereLe": "2026-10-10T18:00:44.113Z",
   "jour": "2026-10-10",
   "reseaux": {
     "instagram": {
@@ -25,7 +25,7 @@
       },
       "formats": null,
       "aujourdhui": 2,
-      "semaine": 10,
+      "semaine": 9,
       "total": 38,
       "dernier": "2026-10-10T16:33:52.028Z",
       "lienDernier": "https://www.instagram.com/p/DeUhc8VmGxq/"
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 1,
-      "semaine": 9,
-      "total": 32,
-      "dernier": "2026-10-10T06:12:34.658Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1747281594064388"
+      "aujourdhui": 2,
+      "semaine": 10,
+      "total": 33,
+      "dernier": "2026-10-10T18:06:31.941Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1747841514008396"
     },
     "threads": {
       "actif": true,
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=28053",
       "titre": "Golfs de Gironde : top 3 des meilleurs parcours près de Bordeaux",
       "lien": "https://passion-aquitaine.ouest-france.fr/top-golfs-bordeaux-gironde/",
-      "at": "2026-10-10T16:33:52.028Z",
+      "at": "2026-10-10T18:06:31.941Z",
       "reseaux": {
         "threads": {
           "texte": "Trois golfs, pas un de plus ⛳ C’est notre sélection des meilleurs parcours de Gironde, tous accessibles depuis Bordeaux. On va du Bassin d’Arcachon jusqu’à Saint-Émilion, de quoi varier les décors d’un week-end à l’autre. Plutôt parcours côté océan ou côté vignes, vous ?\n@villedebordeaux @visitbordeaux",
@@ -201,6 +201,14 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-10-10T16:33:52.028Z"
+        },
+        "facebook": {
+          "texte": "Un swing près des pins du Bassin ou au milieu des vignes de Saint-Émilion, lequel vous tente le plus ? 🏌️",
+          "image": null,
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-10T18:06:31.941Z"
         }
       }
     },
@@ -431,6 +439,16 @@
   ],
   "publications": [
     {
+      "channel": "facebook",
+      "at": "2026-10-10T18:06:31.941Z",
+      "titre": "Golfs de Gironde : top 3 des meilleurs parcours près de Bordeaux",
+      "lien": "https://passion-aquitaine.ouest-france.fr/top-golfs-bordeaux-gironde/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1747841514008396",
+      "format": null,
+      "texte": "Un swing près des pins du Bassin ou au milieu des vignes de Saint-Émilion, lequel vous tente le plus ? 🏌️",
+      "image": null
+    },
+    {
       "channel": "instagram",
       "at": "2026-10-10T16:33:52.028Z",
       "titre": "Golfs de Gironde : top 3 des meilleurs parcours près de Bordeaux",
@@ -519,28 +537,9 @@
       "format": null,
       "texte": "Bien avant les touristes, on fabriquait déjà du sel au pied de la dune du Pilat, et la preuve refait surface 🧂",
       "image": null
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-10-09T18:06:23.616Z",
-      "titre": "Une matière ultra-résistante très difficile à recycler : une entreprise de Mérignac a la solution",
-      "lien": "https://passion-aquitaine.ouest-france.fr/recyclage-fibre-carbone-nova-carbon-merignac/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1746786767447204",
-      "format": null,
-      "texte": "Recycler enfin la fibre de carbone, c’est le pari d’une entreprise de Mérignac qui veut offrir une seconde vie à ce matériau ♻️",
-      "image": null
     }
   ],
   "file": [
-    {
-      "channel": "facebook",
-      "dueAt": "2026-10-10T18:06:20.428Z",
-      "prochainPassage": "2026-10-10T18:20:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Golfs de Gironde : top 3 des meilleurs parcours près de Bordeaux"
-    },
     {
       "channel": "facebook",
       "dueAt": "2026-10-11T07:26:45.640Z",
@@ -562,11 +561,11 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 234,
+    "releves": 236,
     "parReseau": {
       "instagram": {
-        "posts": 28,
-        "interactionsMoyennes": 13.9
+        "posts": 29,
+        "interactionsMoyennes": 13.5
       },
       "bluesky": {
         "posts": 27,
@@ -680,12 +679,12 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-10T17:20:49.441Z",
-    "posts": 44,
+    "genereLe": "2026-10-10T18:06:46.600Z",
+    "posts": 45,
     "parReseau": {
       "instagram": {
-        "posts": 10,
-        "moyenne": 9.1
+        "posts": 11,
+        "moyenne": 8.5
       },
       "threads": {
         "posts": 12,
@@ -728,8 +727,8 @@
         "moyenne": 8.5
       },
       "soir": {
-        "posts": 3,
-        "moyenne": 2.3
+        "posts": 4,
+        "moyenne": 2.5
       },
       "matin": {
         "posts": 30,
@@ -781,8 +780,8 @@
           "moyenne": 10.9
         },
         "18 h – 19 h 30": {
-          "posts": 1,
-          "moyenne": 2
+          "posts": 2,
+          "moyenne": 2.5
         },
         "hors créneau": {
           "posts": 1,
@@ -790,7 +789,7 @@
         }
       }
     },
-    "interactionsTotal": 110,
+    "interactionsTotal": 113,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35575",
       "channel": "instagram",
@@ -833,8 +832,8 @@
     },
     "mentions": {
       "avec": {
-        "posts": 22,
-        "moyenne": 4.3
+        "posts": 23,
+        "moyenne": 4.2
       },
       "sans": {
         "posts": 22,
@@ -843,7 +842,7 @@
     },
     "publies": {
       "threads": 14,
-      "facebook": 12,
+      "facebook": 13,
       "bluesky": 14,
       "x": 14,
       "instagram": 13
@@ -884,14 +883,14 @@
       "x": null
     },
     "engagement": {
-      "instagram": 0.09,
+      "instagram": 0.08,
       "threads": 0.1,
       "facebook": 0
     },
     "conseils": [
       "Le format « reponse » fait 13 fois mieux que « lien » (1.3 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « lien » de la rotation dans config/channels.json.",
       "Abonnés : Instagram progresse le plus (+6, +0,1 %) ; Facebook recule (−14), à surveiller.",
-      "Les posts avec mention font 3.6 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
+      "Les posts avec mention font 3.5 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
     ]
   },
   "couts": {

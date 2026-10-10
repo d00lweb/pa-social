@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-10T09:00:38.906Z",
+  "genereLe": "2026-10-10T09:20:46.385Z",
   "jour": "2026-10-10",
   "reseaux": {
     "instagram": {
@@ -566,7 +566,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 227,
+    "releves": 228,
     "parReseau": {
       "instagram": {
         "posts": 27,
@@ -684,16 +684,16 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-10T09:07:04.326Z",
-    "posts": 39,
+    "genereLe": "2026-10-10T09:20:57.167Z",
+    "posts": 40,
     "parReseau": {
       "instagram": {
         "posts": 9,
         "moyenne": 9.4
       },
       "threads": {
-        "posts": 10,
-        "moyenne": 0.7
+        "posts": 11,
+        "moyenne": 0.6
       },
       "bluesky": {
         "posts": 10,
@@ -710,8 +710,8 @@
         "moyenne": 1
       },
       "reponse": {
-        "posts": 8,
-        "moyenne": 0.9
+        "posts": 9,
+        "moyenne": 0.8
       },
       "reply": {
         "posts": 5,
@@ -736,19 +736,19 @@
         "moyenne": 1
       },
       "matin": {
-        "posts": 29,
+        "posts": 30,
         "moyenne": 0.3
       }
     },
     "parCreneauReseau": {
       "threads": {
-        "10 h – 11 h 30": {
-          "posts": 1,
-          "moyenne": 1
-        },
         "7 h – 8 h 30": {
           "posts": 9,
           "moyenne": 0.7
+        },
+        "10 h – 11 h 30": {
+          "posts": 2,
+          "moyenne": 0.5
         }
       },
       "facebook": {
@@ -808,29 +808,29 @@
       "creneauReseau": "12 h – 13 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35715",
-      "channel": "bluesky",
-      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mxgh4sarms22",
-      "publieLe": "2026-10-09T07:26:50.285Z",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35708",
+      "channel": "threads",
+      "mediaId": "18126111700851651",
+      "publieLe": "2026-10-09T09:10:34.124Z",
       "jalon": 1,
-      "releveLe": "2026-10-10T08:00:36.768Z",
+      "releveLe": "2026-10-10T09:20:46.385Z",
       "likes": 0,
-      "commentairesBruts": 0,
+      "commentairesBruts": 1,
       "partages": 0,
-      "vues": null,
+      "vues": 92,
       "commentaires": 0,
       "v": 2,
-      "titre": "Bars à La Rochelle : 5 adresses incontournables et insolites",
-      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mxgh4sarms22",
-      "format": "image",
-      "mention": false,
+      "titre": "Une matière ultra-résistante très difficile à recycler : une entreprise de Mérignac a la solution",
+      "lien": "https://www.threads.com/@lovaquitaine/post/DeRJlPXlma1",
+      "format": "reponse",
+      "mention": true,
       "creneau": "matin",
-      "creneauReseau": "8 h – 9 h 30"
+      "creneauReseau": "10 h – 11 h 30"
     },
     "mentions": {
       "avec": {
-        "posts": 20,
-        "moyenne": 4.4
+        "posts": 21,
+        "moyenne": 4.2
       },
       "sans": {
         "posts": 19,
@@ -881,13 +881,13 @@
     },
     "engagement": {
       "instagram": 0.09,
-      "threads": 0.06,
+      "threads": 0.05,
       "facebook": 0
     },
     "conseils": [
       "Le format « card » fait 10 fois mieux que « lien » (1 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « lien » de la rotation dans config/channels.json.",
       "Abonnés : Instagram progresse le plus (+6, +0,1 %) ; Facebook recule (−14), à surveiller.",
-      "Les posts avec mention font 4.1 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
+      "Les posts avec mention font 3.9 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
     ]
   },
   "couts": {

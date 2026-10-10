@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-10T16:00:43.169Z",
+  "genereLe": "2026-10-10T16:20:41.878Z",
   "jour": "2026-10-10",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 1,
-      "semaine": 9,
-      "total": 37,
-      "dernier": "2026-10-10T10:04:00.482Z",
-      "lienDernier": "https://www.instagram.com/p/DeT010pDA3R/"
+      "aujourdhui": 2,
+      "semaine": 10,
+      "total": 38,
+      "dernier": "2026-10-10T16:33:52.028Z",
+      "lienDernier": "https://www.instagram.com/p/DeUhc8VmGxq/"
     },
     "bluesky": {
       "actif": true,
@@ -165,6 +165,46 @@
   },
   "articles": [
     {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=28053",
+      "titre": "Golfs de Gironde : top 3 des meilleurs parcours près de Bordeaux",
+      "lien": "https://passion-aquitaine.ouest-france.fr/top-golfs-bordeaux-gironde/",
+      "at": "2026-10-10T16:33:52.028Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Trois golfs, pas un de plus ⛳ C’est notre sélection des meilleurs parcours de Gironde, tous accessibles depuis Bordeaux. On va du Bassin d’Arcachon jusqu’à Saint-Émilion, de quoi varier les décors d’un week-end à l’autre. Plutôt parcours côté océan ou côté vignes, vous ?\n@villedebordeaux @visitbordeaux",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261010-83f46501-th.jpg",
+          "mode": "reponse",
+          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/top-golfs-bordeaux-gironde/",
+          "sujet": "Bordeaux",
+          "publieLe": "2026-10-10T06:28:30.346Z"
+        },
+        "bluesky": {
+          "texte": "🌳 Où taper la balle en #Gironde sans trop s’éloigner de #Bordeaux ? Trois parcours sortent du lot, du Bassin d’Arcachon jusqu’à Saint-Émilion. Voici notre top 3.\n@villedebordeaux.bsky.social",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261010-83f46501-bsky.jpg",
+          "mode": "card",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-10T07:29:34.362Z"
+        },
+        "x": {
+          "texte": "Gironde : du Bassin d’Arcachon à Saint-Émilion, 🏌️‍♂️ trois golfs dominent le classement des meilleurs parcours, tous proches de #Bordeaux.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261010-83f46501-x.jpg",
+          "mode": "reponse",
+          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/top-golfs-bordeaux-gironde/",
+          "sujet": null,
+          "publieLe": "2026-10-10T08:01:01.950Z"
+        },
+        "instagram": {
+          "texte": "Du Bassin d’Arcachon à Saint-Émilion, les plus beaux golfs de Gironde restent à deux pas de Bordeaux ⛳\n⠀\nTrois parcours se détachent dans le département, entre littoral et vignobles. Notre sélection pour golfeurs girondins et visiteurs de passage.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Gironde #Golf #Bordeaux",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261010-83f46501-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-10T16:33:52.028Z"
+        }
+      }
+    },
+    {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35717",
       "titre": "Elle parcourt les vergers sans GPS : cette machine du Lot-et-Garonne sait où aller",
       "lien": "https://passion-aquitaine.ouest-france.fr/robot-agricole-sans-gps-verger-lot-et-garonne/",
@@ -241,38 +281,6 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-10-10T10:04:00.482Z"
-        }
-      }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=28053",
-      "titre": "Golfs de Gironde : top 3 des meilleurs parcours près de Bordeaux",
-      "lien": "https://passion-aquitaine.ouest-france.fr/top-golfs-bordeaux-gironde/",
-      "at": "2026-10-10T08:01:01.950Z",
-      "reseaux": {
-        "threads": {
-          "texte": "Trois golfs, pas un de plus ⛳ C’est notre sélection des meilleurs parcours de Gironde, tous accessibles depuis Bordeaux. On va du Bassin d’Arcachon jusqu’à Saint-Émilion, de quoi varier les décors d’un week-end à l’autre. Plutôt parcours côté océan ou côté vignes, vous ?\n@villedebordeaux @visitbordeaux",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261010-83f46501-th.jpg",
-          "mode": "reponse",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/top-golfs-bordeaux-gironde/",
-          "sujet": "Bordeaux",
-          "publieLe": "2026-10-10T06:28:30.346Z"
-        },
-        "bluesky": {
-          "texte": "🌳 Où taper la balle en #Gironde sans trop s’éloigner de #Bordeaux ? Trois parcours sortent du lot, du Bassin d’Arcachon jusqu’à Saint-Émilion. Voici notre top 3.\n@villedebordeaux.bsky.social",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261010-83f46501-bsky.jpg",
-          "mode": "card",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-10T07:29:34.362Z"
-        },
-        "x": {
-          "texte": "Gironde : du Bassin d’Arcachon à Saint-Émilion, 🏌️‍♂️ trois golfs dominent le classement des meilleurs parcours, tous proches de #Bordeaux.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261010-83f46501-x.jpg",
-          "mode": "reponse",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/top-golfs-bordeaux-gironde/",
-          "sujet": null,
-          "publieLe": "2026-10-10T08:01:01.950Z"
         }
       }
     },
@@ -423,6 +431,16 @@
   ],
   "publications": [
     {
+      "channel": "instagram",
+      "at": "2026-10-10T16:33:52.028Z",
+      "titre": "Golfs de Gironde : top 3 des meilleurs parcours près de Bordeaux",
+      "lien": "https://passion-aquitaine.ouest-france.fr/top-golfs-bordeaux-gironde/",
+      "lienPost": "https://www.instagram.com/p/DeUhc8VmGxq/",
+      "format": null,
+      "texte": "Du Bassin d’Arcachon à Saint-Émilion, les plus beaux golfs de Gironde restent à deux pas de Bordeaux ⛳\n⠀\nTrois parcours se détachent dans le département, entre littoral et vignobles. Notre sélection pour golfeurs girondins et visiteurs de passage.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Gironde #Golf #Bordeaux",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261010-83f46501-1.jpg"
+    },
+    {
       "channel": "x",
       "at": "2026-10-10T11:20:54.398Z",
       "titre": "Elle parcourt les vergers sans GPS : cette machine du Lot-et-Garonne sait où aller",
@@ -511,28 +529,9 @@
       "format": null,
       "texte": "Recycler enfin la fibre de carbone, c’est le pari d’une entreprise de Mérignac qui veut offrir une seconde vie à ce matériau ♻️",
       "image": null
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-10-09T17:29:00.597Z",
-      "titre": "Une matière ultra-résistante très difficile à recycler : une entreprise de Mérignac a la solution",
-      "lien": "https://passion-aquitaine.ouest-france.fr/recyclage-fibre-carbone-nova-carbon-merignac/",
-      "lienPost": "https://www.instagram.com/p/DeSC-RKGHLo/",
-      "format": null,
-      "texte": "♻️ Plus un matériau est solide, plus il est dur à recycler : la fibre de carbone en est la preuve\n⠀\nÀ Mérignac, près de Bordeaux, l’entreprise Nova Carbon développe des solutions pour donner une seconde vie à cette matière ultra-résistante. Une piste concrète pour l’industrie girondine.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Mérignac #FibreDeCarbone #Recyclage",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-67a97308-1.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "instagram",
-      "dueAt": "2026-10-10T16:33:14.534Z",
-      "prochainPassage": "2026-10-10T17:00:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Golfs de Gironde : top 3 des meilleurs parcours près de Bordeaux"
-    },
     {
       "channel": "facebook",
       "dueAt": "2026-10-10T18:06:20.428Z",
@@ -681,7 +680,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-10T16:00:53.839Z",
+    "genereLe": "2026-10-10T16:33:58.663Z",
     "posts": 43,
     "parReseau": {
       "instagram": {
@@ -843,7 +842,7 @@
       "facebook": 12,
       "bluesky": 14,
       "x": 14,
-      "instagram": 12
+      "instagram": 13
     },
     "abonnes": {
       "instagram": {

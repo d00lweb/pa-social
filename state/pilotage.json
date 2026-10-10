@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-10T10:20:35.494Z",
+  "genereLe": "2026-10-10T11:00:44.507Z",
   "jour": "2026-10-10",
   "reseaux": {
     "instagram": {
@@ -157,7 +157,7 @@
         "reponse"
       ],
       "aujourdhui": 1,
-      "semaine": 10,
+      "semaine": 9,
       "total": 36,
       "dernier": "2026-10-10T08:01:01.950Z",
       "lienDernier": null
@@ -518,8 +518,8 @@
   "file": [
     {
       "channel": "x",
-      "dueAt": "2026-10-10T11:00:00.000Z",
-      "prochainPassage": "2026-10-10T11:00:00.000Z",
+      "dueAt": "2026-10-10T11:20:00.000Z",
+      "prochainPassage": "2026-10-10T11:20:00.000Z",
       "nature": "actu",
       "prevuInitialement": null,
       "raison": null,
@@ -564,7 +564,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 231,
+    "releves": 232,
     "parReseau": {
       "instagram": {
         "posts": 28,
@@ -643,7 +643,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-10T10:00:36.224Z"
+    "derniere": "2026-10-10T11:00:44.507Z"
   },
   "abonnes": {
     "instagram": {
@@ -682,8 +682,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-10T10:31:27.726Z",
-    "posts": 41,
+    "genereLe": "2026-10-10T11:00:59.200Z",
+    "posts": 42,
     "parReseau": {
       "instagram": {
         "posts": 10,
@@ -694,7 +694,7 @@
         "moyenne": 0.6
       },
       "bluesky": {
-        "posts": 10,
+        "posts": 11,
         "moyenne": 0.1
       },
       "facebook": {
@@ -712,7 +712,7 @@
         "moyenne": 0.8
       },
       "reply": {
-        "posts": 5,
+        "posts": 6,
         "moyenne": 0
       },
       "image": {
@@ -726,8 +726,8 @@
     },
     "parCreneau": {
       "après-midi": {
-        "posts": 9,
-        "moyenne": 9.7
+        "posts": 10,
+        "moyenne": 8.7
       },
       "soir": {
         "posts": 2,
@@ -765,7 +765,7 @@
           "moyenne": 0.1
         },
         "12 h – 13 h 30": {
-          "posts": 1,
+          "posts": 2,
           "moyenne": 0
         }
       },
@@ -807,23 +807,23 @@
     },
     "moinsBon": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35708",
-      "channel": "threads",
-      "mediaId": "18126111700851651",
-      "publieLe": "2026-10-09T09:10:34.124Z",
+      "channel": "bluesky",
+      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mxgrm3ehs22s",
+      "publieLe": "2026-10-09T10:34:20.459Z",
       "jalon": 1,
-      "releveLe": "2026-10-10T09:20:46.385Z",
+      "releveLe": "2026-10-10T11:00:44.507Z",
       "likes": 0,
       "commentairesBruts": 1,
       "partages": 0,
-      "vues": 92,
+      "vues": null,
       "commentaires": 0,
       "v": 2,
       "titre": "Une matière ultra-résistante très difficile à recycler : une entreprise de Mérignac a la solution",
-      "lien": "https://www.threads.com/@lovaquitaine/post/DeRJlPXlma1",
-      "format": "reponse",
-      "mention": true,
-      "creneau": "matin",
-      "creneauReseau": "10 h – 11 h 30"
+      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mxgrm3ehs22s",
+      "format": "reply",
+      "mention": false,
+      "creneau": "après-midi",
+      "creneauReseau": "12 h – 13 h 30"
     },
     "mentions": {
       "avec": {
@@ -831,7 +831,7 @@
         "moyenne": 4.3
       },
       "sans": {
-        "posts": 19,
+        "posts": 20,
         "moyenne": 0.3
       }
     },

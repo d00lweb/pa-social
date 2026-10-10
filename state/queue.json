@@ -570,9 +570,9 @@
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=35717",
     "channel": "x",
-    "dueAt": 1791630000000,
+    "dueAt": 1791631200000,
     "status": "pending",
-    "attempts": 0,
+    "attempts": 1,
     "article": {
       "title": "Elle parcourt les vergers sans GPS : cette machine du Lot-et-Garonne sait où aller",
       "link": "https://passion-aquitaine.ouest-france.fr/robot-agricole-sans-gps-verger-lot-et-garonne/",
@@ -674,6 +674,7 @@
         "facebook": []
       }
     },
-    "previewSent": false
+    "previewSent": false,
+    "lastError": "fetch failed"
   }
 ]

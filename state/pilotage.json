@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-10T06:20:37.647Z",
+  "genereLe": "2026-10-10T07:00:43.100Z",
   "jour": "2026-10-10",
   "reseaux": {
     "instagram": {
@@ -61,7 +61,7 @@
         "reply"
       ],
       "aujourdhui": 0,
-      "semaine": 10,
+      "semaine": 9,
       "total": 35,
       "dernier": "2026-10-09T17:08:52.828Z",
       "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mxhhnkyvh422"
@@ -123,7 +123,7 @@
         "reponse"
       ],
       "aujourdhui": 1,
-      "semaine": 11,
+      "semaine": 10,
       "total": 33,
       "dernier": "2026-10-10T06:28:30.346Z",
       "lienDernier": "https://www.threads.com/@lovaquitaine/post/DeTb26IkTaM"
@@ -564,14 +564,14 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 220,
+    "releves": 223,
     "parReseau": {
       "instagram": {
         "posts": 27,
         "interactionsMoyennes": 14.3
       },
       "bluesky": {
-        "posts": 25,
+        "posts": 26,
         "interactionsMoyennes": 0.1
       },
       "facebook": {
@@ -579,8 +579,8 @@
         "interactionsMoyennes": 0
       },
       "threads": {
-        "posts": 22,
-        "interactionsMoyennes": 8.2
+        "posts": 23,
+        "interactionsMoyennes": 7.8
       }
     }
   },
@@ -682,16 +682,16 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-10T06:28:34.744Z",
-    "posts": 36,
+    "genereLe": "2026-10-10T07:00:51.026Z",
+    "posts": 37,
     "parReseau": {
       "instagram": {
         "posts": 9,
         "moyenne": 9.4
       },
       "threads": {
-        "posts": 9,
-        "moyenne": 0.8
+        "posts": 10,
+        "moyenne": 0.7
       },
       "bluesky": {
         "posts": 9,
@@ -703,13 +703,13 @@
       }
     },
     "parFormat": {
-      "reponse": {
-        "posts": 7,
-        "moyenne": 1
-      },
       "card": {
         "posts": 1,
         "moyenne": 1
+      },
+      "reponse": {
+        "posts": 8,
+        "moyenne": 0.9
       },
       "reply": {
         "posts": 5,
@@ -734,7 +734,7 @@
         "moyenne": 1
       },
       "matin": {
-        "posts": 26,
+        "posts": 27,
         "moyenne": 0.4
       }
     },
@@ -745,8 +745,8 @@
           "moyenne": 1
         },
         "7 h – 8 h 30": {
-          "posts": 8,
-          "moyenne": 0.8
+          "posts": 9,
+          "moyenne": 0.7
         }
       },
       "facebook": {
@@ -806,24 +806,24 @@
       "creneauReseau": "12 h – 13 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=29413",
-      "channel": "facebook",
-      "mediaId": "227437307428711_1745177484274799",
-      "publieLe": "2026-10-08T07:12:55.023Z",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35715",
+      "channel": "threads",
+      "mediaId": "17988788472025428",
+      "publieLe": "2026-10-09T06:31:16.196Z",
       "jalon": 1,
-      "releveLe": "2026-10-09T07:20:43.829Z",
+      "releveLe": "2026-10-10T07:00:43.100Z",
       "likes": 0,
-      "commentairesBruts": 0,
+      "commentairesBruts": 1,
       "partages": 0,
-      "vues": null,
+      "vues": 384,
       "commentaires": 0,
       "v": 2,
-      "titre": "Poule Marans : l’œuf de James Bond se note de 1 à 9",
-      "lien": "https://www.facebook.com/1720946116697936/posts/1745177484274799",
-      "format": null,
+      "titre": "Bars à La Rochelle : 5 adresses incontournables et insolites",
+      "lien": "https://www.threads.com/@lovaquitaine/post/DeQ3SlNGyXe",
+      "format": "reponse",
       "mention": false,
       "creneau": "matin",
-      "creneauReseau": "8 h – 9 h 30"
+      "creneauReseau": "7 h – 8 h 30"
     },
     "mentions": {
       "avec": {
@@ -831,7 +831,7 @@
         "moyenne": 4.4
       },
       "sans": {
-        "posts": 16,
+        "posts": 17,
         "moyenne": 0.3
       }
     },
@@ -879,11 +879,11 @@
     },
     "engagement": {
       "instagram": 0.09,
-      "threads": 0.07,
+      "threads": 0.06,
       "facebook": 0
     },
     "conseils": [
-      "Le format « reponse » fait 10 fois mieux que « lien » (1 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « lien » de la rotation dans config/channels.json.",
+      "Le format « card » fait 10 fois mieux que « lien » (1 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « lien » de la rotation dans config/channels.json.",
       "Abonnés : Instagram progresse le plus (+6, +0,1 %) ; Facebook recule (−14), à surveiller.",
       "Les posts avec mention font 4.1 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
     ]

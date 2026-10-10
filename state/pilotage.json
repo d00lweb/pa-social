@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-10T07:03:46.506Z",
+  "genereLe": "2026-10-10T07:20:34.044Z",
   "jour": "2026-10-10",
   "reseaux": {
     "instagram": {
@@ -60,11 +60,11 @@
         "image",
         "reply"
       ],
-      "aujourdhui": 0,
-      "semaine": 9,
-      "total": 35,
-      "dernier": "2026-10-09T17:08:52.828Z",
-      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mxhhnkyvh422"
+      "aujourdhui": 1,
+      "semaine": 10,
+      "total": 36,
+      "dernier": "2026-10-10T07:29:34.362Z",
+      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mxixqmd7yq22"
     },
     "facebook": {
       "actif": true,
@@ -89,7 +89,7 @@
       },
       "formats": null,
       "aujourdhui": 1,
-      "semaine": 10,
+      "semaine": 9,
       "total": 32,
       "dernier": "2026-10-10T06:12:34.658Z",
       "lienDernier": "https://www.facebook.com/1720946116697936/posts/1747281594064388"
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=28053",
       "titre": "Golfs de Gironde : top 3 des meilleurs parcours près de Bordeaux",
       "lien": "https://passion-aquitaine.ouest-france.fr/top-golfs-bordeaux-gironde/",
-      "at": "2026-10-10T06:28:30.346Z",
+      "at": "2026-10-10T07:29:34.362Z",
       "reseaux": {
         "threads": {
           "texte": "Trois golfs, pas un de plus ⛳ C’est notre sélection des meilleurs parcours de Gironde, tous accessibles depuis Bordeaux. On va du Bassin d’Arcachon jusqu’à Saint-Émilion, de quoi varier les décors d’un week-end à l’autre. Plutôt parcours côté océan ou côté vignes, vous ?\n@villedebordeaux @visitbordeaux",
@@ -177,6 +177,14 @@
           "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/top-golfs-bordeaux-gironde/",
           "sujet": "Bordeaux",
           "publieLe": "2026-10-10T06:28:30.346Z"
+        },
+        "bluesky": {
+          "texte": "🌳 Où taper la balle en #Gironde sans trop s’éloigner de #Bordeaux ? Trois parcours sortent du lot, du Bassin d’Arcachon jusqu’à Saint-Émilion. Voici notre top 3.\n@villedebordeaux.bsky.social",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261010-83f46501-bsky.jpg",
+          "mode": "card",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-10T07:29:34.362Z"
         }
       }
     },
@@ -415,6 +423,16 @@
   ],
   "publications": [
     {
+      "channel": "bluesky",
+      "at": "2026-10-10T07:29:34.362Z",
+      "titre": "Golfs de Gironde : top 3 des meilleurs parcours près de Bordeaux",
+      "lien": "https://passion-aquitaine.ouest-france.fr/top-golfs-bordeaux-gironde/",
+      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mxixqmd7yq22",
+      "format": "card",
+      "texte": "🌳 Où taper la balle en #Gironde sans trop s’éloigner de #Bordeaux ? Trois parcours sortent du lot, du Bassin d’Arcachon jusqu’à Saint-Émilion. Voici notre top 3.\n@villedebordeaux.bsky.social",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261010-83f46501-bsky.jpg"
+    },
+    {
       "channel": "threads",
       "at": "2026-10-10T06:28:30.346Z",
       "titre": "Golfs de Gironde : top 3 des meilleurs parcours près de Bordeaux",
@@ -503,28 +521,9 @@
       "format": "reply",
       "texte": "Robuste mais quasi impossible à recycler : c’est le paradoxe de la fibre de carbone. À #Mérignac, une entreprise s’attaque au problème 🧪 Nova Carbon développe des solutions pour lui offrir une seconde vie.",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-67a97308-bsky.jpg"
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-10-09T10:14:16.585Z",
-      "titre": "Bars à La Rochelle : 5 adresses incontournables et insolites",
-      "lien": "https://passion-aquitaine.ouest-france.fr/top-5-bars-incontournables-la-rochelle/",
-      "lienPost": "https://www.instagram.com/p/DeRRODaGFGE/",
-      "format": null,
-      "texte": "La Rochelle by night : cinq bars pour tenir de l’apéro jusqu’à 2 h 🍸\n⠀\nUne guinguette glacée, deux comptoirs face aux tours et un cocktail bar bien caché. Notre sélection d’adresses insolites pour une soirée réussie en Charente-Maritime.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#LaRochelle #BarsLaRochelle #CharenteMaritime",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-1d143348-1.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "bluesky",
-      "dueAt": "2026-10-10T07:29:32.364Z",
-      "prochainPassage": "2026-10-10T08:00:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Golfs de Gironde : top 3 des meilleurs parcours près de Bordeaux"
-    },
     {
       "channel": "x",
       "dueAt": "2026-10-10T08:00:00.000Z",
@@ -564,7 +563,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 223,
+    "releves": 224,
     "parReseau": {
       "instagram": {
         "posts": 27,
@@ -575,7 +574,7 @@
         "interactionsMoyennes": 0.1
       },
       "facebook": {
-        "posts": 22,
+        "posts": 23,
         "interactionsMoyennes": 0
       },
       "threads": {
@@ -682,7 +681,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-10T07:03:51.190Z",
+    "genereLe": "2026-10-10T07:29:42.082Z",
     "posts": 37,
     "parReseau": {
       "instagram": {
@@ -838,7 +837,7 @@
     "publies": {
       "threads": 13,
       "facebook": 12,
-      "bluesky": 12,
+      "bluesky": 13,
       "x": 12,
       "instagram": 11
     },

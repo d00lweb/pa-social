@@ -1,15 +1,15 @@
 {
   "2026-10": {
     "cle": "2026-10",
-    "publications": 64,
+    "publications": 65,
     "articles": 14,
-    "interactions": 93,
+    "interactions": 99,
     "parReseau": {
       "facebook": 12,
       "instagram": 12,
       "x": 13,
       "threads": 14,
-      "bluesky": 13
+      "bluesky": 14
     },
     "gains": {
       "facebook": -14,
@@ -35,24 +35,24 @@
       },
       {
         "reseau": "instagram",
+        "titre": "Les Deux-Sèvres, département le plus fécond de toute la région",
+        "lien": "https://www.instagram.com/p/DeB0esZjo1X/",
+        "image": "https://passion-aquitaine.ouest-france.fr/social/20261003-536318f0-1-vignette.jpg",
+        "interactions": 4
+      },
+      {
+        "reseau": "instagram",
         "titre": "À Hendaye, un château cache un observatoire actif jusqu’en 1975",
         "lien": "https://www.instagram.com/p/DeEh3MYjNDP/",
         "image": "https://passion-aquitaine.ouest-france.fr/social/20261004-fbd02dce-1-vignette.jpg",
         "interactions": 4
       },
       {
-        "reseau": "threads",
-        "titre": "Poule Marans : l’œuf de James Bond se note de 1 à 9",
-        "lien": "https://www.threads.com/@lovaquitaine/post/DeOSG-YlvO_",
-        "image": "https://passion-aquitaine.ouest-france.fr/social/20261008-aa4ea9c1-1-vignette.jpg",
-        "interactions": 3
-      },
-      {
         "reseau": "instagram",
-        "titre": "À Vouillé, un lieu vieux de 500 ans devient salle de mariage",
-        "lien": "https://www.instagram.com/p/Dd8qT5nmPi0/",
-        "image": "https://passion-aquitaine.ouest-france.fr/social/20261001-b7818531-1-vignette.jpg",
-        "interactions": 2
+        "titre": "Bars à La Rochelle : 5 adresses incontournables et insolites",
+        "lien": "https://www.instagram.com/p/DeRRODaGFGE/",
+        "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-1d143348-1-vignette.jpg",
+        "interactions": 4
       }
     ]
   },

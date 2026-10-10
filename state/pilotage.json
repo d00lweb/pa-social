@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-10T10:00:36.224Z",
+  "genereLe": "2026-10-10T10:20:35.494Z",
   "jour": "2026-10-10",
   "reseaux": {
     "instagram": {
@@ -25,7 +25,7 @@
       },
       "formats": null,
       "aujourdhui": 1,
-      "semaine": 10,
+      "semaine": 9,
       "total": 37,
       "dernier": "2026-10-10T10:04:00.482Z",
       "lienDernier": "https://www.instagram.com/p/DeT010pDA3R/"
@@ -60,11 +60,11 @@
         "image",
         "reply"
       ],
-      "aujourdhui": 1,
+      "aujourdhui": 2,
       "semaine": 10,
-      "total": 36,
-      "dernier": "2026-10-10T07:29:34.362Z",
-      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mxixqmd7yq22"
+      "total": 37,
+      "dernier": "2026-10-10T10:31:18.013Z",
+      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mxjbvkq4ay2a"
     },
     "facebook": {
       "actif": true,
@@ -165,6 +165,30 @@
   },
   "articles": [
     {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35717",
+      "titre": "Elle parcourt les vergers sans GPS : cette machine du Lot-et-Garonne sait où aller",
+      "lien": "https://passion-aquitaine.ouest-france.fr/robot-agricole-sans-gps-verger-lot-et-garonne/",
+      "at": "2026-10-10T10:31:18.013Z",
+      "reseaux": {
+        "threads": {
+          "texte": "🌳 Cancon, Lot-et-Garonne. C’est ici qu’est née une machine agricole un peu à part : elle se déplace dans les vergers sans GPS. Son secret tient en deux idées, une navigation autonome et une pulvérisation intelligente. De quoi changer le quotidien des arboriculteurs du coin.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261010-c29a0140-th.jpg",
+          "mode": "reponse",
+          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/robot-agricole-sans-gps-verger-lot-et-garonne/",
+          "sujet": "Cancon",
+          "publieLe": "2026-10-10T09:07:00.124Z"
+        },
+        "bluesky": {
+          "texte": "Aucun GPS à bord, et pourtant elle sait où aller. Dans le #LotEtGaronne, une machine agricole de #Cancon circule dans les vergers grâce à la navigation autonome et pulvérise de manière intelligente 🚜",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261010-c29a0140-bsky.jpg",
+          "mode": "reply",
+          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/robot-agricole-sans-gps-verger-lot-et-garonne/",
+          "sujet": null,
+          "publieLe": "2026-10-10T10:31:18.013Z"
+        }
+      }
+    },
+    {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35756",
       "titre": "Fouilles à la dune du Pilat, un vestige de 2 500 ans ressurgit",
       "lien": "https://passion-aquitaine.ouest-france.fr/dune-du-pilat-atelier-sel-fouilles/",
@@ -209,22 +233,6 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-10-10T10:04:00.482Z"
-        }
-      }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35717",
-      "titre": "Elle parcourt les vergers sans GPS : cette machine du Lot-et-Garonne sait où aller",
-      "lien": "https://passion-aquitaine.ouest-france.fr/robot-agricole-sans-gps-verger-lot-et-garonne/",
-      "at": "2026-10-10T09:07:00.124Z",
-      "reseaux": {
-        "threads": {
-          "texte": "🌳 Cancon, Lot-et-Garonne. C’est ici qu’est née une machine agricole un peu à part : elle se déplace dans les vergers sans GPS. Son secret tient en deux idées, une navigation autonome et une pulvérisation intelligente. De quoi changer le quotidien des arboriculteurs du coin.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261010-c29a0140-th.jpg",
-          "mode": "reponse",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/robot-agricole-sans-gps-verger-lot-et-garonne/",
-          "sujet": "Cancon",
-          "publieLe": "2026-10-10T09:07:00.124Z"
         }
       }
     },
@@ -407,6 +415,16 @@
   ],
   "publications": [
     {
+      "channel": "bluesky",
+      "at": "2026-10-10T10:31:18.013Z",
+      "titre": "Elle parcourt les vergers sans GPS : cette machine du Lot-et-Garonne sait où aller",
+      "lien": "https://passion-aquitaine.ouest-france.fr/robot-agricole-sans-gps-verger-lot-et-garonne/",
+      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mxjbvkq4ay2a",
+      "format": "reply",
+      "texte": "Aucun GPS à bord, et pourtant elle sait où aller. Dans le #LotEtGaronne, une machine agricole de #Cancon circule dans les vergers grâce à la navigation autonome et pulvérise de manière intelligente 🚜",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261010-c29a0140-bsky.jpg"
+    },
+    {
       "channel": "instagram",
       "at": "2026-10-10T10:04:00.482Z",
       "titre": "Fouilles à la dune du Pilat, un vestige de 2 500 ans ressurgit",
@@ -495,28 +513,9 @@
       "format": "reply",
       "texte": "Le sable recule et laisse apparaître un atelier de sel vieux de plus de 2 500 ans 🏺 Au pied de la dune du Pilat, sur le Bassin d’Arcachon, les archéologues travaillent vite : l’érosion pourrait l’effacer. #BassinDArcachon",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-7fe1d4e9-bsky.jpg"
-    },
-    {
-      "channel": "x",
-      "at": "2026-10-09T15:20:59.631Z",
-      "titre": "Fouilles à la dune du Pilat, un vestige de 2 500 ans ressurgit",
-      "lien": "https://passion-aquitaine.ouest-france.fr/dune-du-pilat-atelier-sel-fouilles/",
-      "lienPost": null,
-      "format": "reponse",
-      "texte": "Plus de 2 500 ans : c’est l’âge d’un atelier de sel ressurgi au pied de la dune du Pilat. Les archéologues fouillent avant que l’érosion ne l’efface ⏳",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-7fe1d4e9-x.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "bluesky",
-      "dueAt": "2026-10-10T10:31:15.820Z",
-      "prochainPassage": "2026-10-10T11:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Elle parcourt les vergers sans GPS : cette machine du Lot-et-Garonne sait où aller"
-    },
     {
       "channel": "x",
       "dueAt": "2026-10-10T11:00:00.000Z",
@@ -565,14 +564,14 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 228,
+    "releves": 231,
     "parReseau": {
       "instagram": {
-        "posts": 27,
-        "interactionsMoyennes": 14.3
+        "posts": 28,
+        "interactionsMoyennes": 13.9
       },
       "bluesky": {
-        "posts": 26,
+        "posts": 27,
         "interactionsMoyennes": 0.1
       },
       "facebook": {
@@ -683,12 +682,12 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-10T10:04:05.059Z",
-    "posts": 40,
+    "genereLe": "2026-10-10T10:31:27.726Z",
+    "posts": 41,
     "parReseau": {
       "instagram": {
-        "posts": 9,
-        "moyenne": 9.4
+        "posts": 10,
+        "moyenne": 9.1
       },
       "threads": {
         "posts": 11,
@@ -727,8 +726,8 @@
     },
     "parCreneau": {
       "après-midi": {
-        "posts": 8,
-        "moyenne": 10.1
+        "posts": 9,
+        "moyenne": 9.7
       },
       "soir": {
         "posts": 2,
@@ -772,8 +771,8 @@
       },
       "instagram": {
         "12 h – 13 h 30": {
-          "posts": 7,
-          "moyenne": 11.6
+          "posts": 8,
+          "moyenne": 10.9
         },
         "18 h – 19 h 30": {
           "posts": 1,
@@ -785,7 +784,7 @@
         }
       }
     },
-    "interactionsTotal": 93,
+    "interactionsTotal": 99,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35575",
       "channel": "instagram",
@@ -828,8 +827,8 @@
     },
     "mentions": {
       "avec": {
-        "posts": 21,
-        "moyenne": 4.2
+        "posts": 22,
+        "moyenne": 4.3
       },
       "sans": {
         "posts": 19,
@@ -839,7 +838,7 @@
     "publies": {
       "threads": 14,
       "facebook": 12,
-      "bluesky": 13,
+      "bluesky": 14,
       "x": 13,
       "instagram": 12
     },
@@ -886,7 +885,7 @@
     "conseils": [
       "Le format « card » fait 10 fois mieux que « lien » (1 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « lien » de la rotation dans config/channels.json.",
       "Abonnés : Instagram progresse le plus (+6, +0,1 %) ; Facebook recule (−14), à surveiller.",
-      "Les posts avec mention font 3.9 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
+      "Les posts avec mention font 4 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
     ]
   },
   "couts": {

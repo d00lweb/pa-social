@@ -3022,5 +3022,23 @@
       "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/robot-agricole-sans-gps-verger-lot-et-garonne/",
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35717",
+    "channel": "x",
+    "at": "2026-10-10T11:20:54.398Z",
+    "mediaId": "kit-telegram",
+    "titre": "Elle parcourt les vergers sans GPS : cette machine du Lot-et-Garonne sait où aller",
+    "lien": "https://passion-aquitaine.ouest-france.fr/robot-agricole-sans-gps-verger-lot-et-garonne/",
+    "lienPost": null,
+    "format": "reponse",
+    "mention": false,
+    "apercu": {
+      "texte": "Pas de GPS, pas de conducteur au guidage, et pourtant elle ne se perd pas 🤖 À #Cancon, une machine agricole parcourt les vergers grâce à la navigation autonome et pulvérise de façon intelligente.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261010-c29a0140-x.jpg",
+      "mode": "reponse",
+      "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/robot-agricole-sans-gps-verger-lot-et-garonne/",
+      "sujet": null
+    }
   }
 ]

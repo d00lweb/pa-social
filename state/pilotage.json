@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-10T11:20:43.772Z",
+  "genereLe": "2026-10-10T12:00:39.294Z",
   "jour": "2026-10-10",
   "reseaux": {
     "instagram": {
@@ -563,7 +563,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 232,
+    "releves": 233,
     "parReseau": {
       "instagram": {
         "posts": 28,
@@ -681,16 +681,16 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-10T11:21:03.719Z",
-    "posts": 42,
+    "genereLe": "2026-10-10T12:00:43.938Z",
+    "posts": 43,
     "parReseau": {
       "instagram": {
         "posts": 10,
         "moyenne": 9.1
       },
       "threads": {
-        "posts": 11,
-        "moyenne": 0.6
+        "posts": 12,
+        "moyenne": 1.1
       },
       "bluesky": {
         "posts": 11,
@@ -702,13 +702,13 @@
       }
     },
     "parFormat": {
+      "reponse": {
+        "posts": 10,
+        "moyenne": 1.3
+      },
       "card": {
         "posts": 1,
         "moyenne": 1
-      },
-      "reponse": {
-        "posts": 9,
-        "moyenne": 0.8
       },
       "reply": {
         "posts": 6,
@@ -725,8 +725,8 @@
     },
     "parCreneau": {
       "après-midi": {
-        "posts": 10,
-        "moyenne": 8.7
+        "posts": 11,
+        "moyenne": 8.5
       },
       "soir": {
         "posts": 2,
@@ -739,6 +739,10 @@
     },
     "parCreneauReseau": {
       "threads": {
+        "13 h – 14 h 30": {
+          "posts": 1,
+          "moyenne": 6
+        },
         "7 h – 8 h 30": {
           "posts": 9,
           "moyenne": 0.7
@@ -783,7 +787,7 @@
         }
       }
     },
-    "interactionsTotal": 99,
+    "interactionsTotal": 105,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35575",
       "channel": "instagram",
@@ -830,8 +834,8 @@
         "moyenne": 4.3
       },
       "sans": {
-        "posts": 20,
-        "moyenne": 0.3
+        "posts": 21,
+        "moyenne": 0.5
       }
     },
     "publies": {
@@ -878,13 +882,13 @@
     },
     "engagement": {
       "instagram": 0.09,
-      "threads": 0.05,
+      "threads": 0.1,
       "facebook": 0
     },
     "conseils": [
-      "Le format « card » fait 10 fois mieux que « lien » (1 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « lien » de la rotation dans config/channels.json.",
+      "Le format « reponse » fait 13 fois mieux que « lien » (1.3 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « lien » de la rotation dans config/channels.json.",
       "Abonnés : Instagram progresse le plus (+6, +0,1 %) ; Facebook recule (−14), à surveiller.",
-      "Les posts avec mention font 4 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
+      "Les posts avec mention font 3.8 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
     ]
   },
   "couts": {

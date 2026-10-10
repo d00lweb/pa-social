@@ -3,7 +3,7 @@
     "cle": "2026-10",
     "publications": 66,
     "articles": 14,
-    "interactions": 99,
+    "interactions": 105,
     "parReseau": {
       "facebook": 12,
       "instagram": 12,
@@ -27,6 +27,13 @@
         "interactions": 65
       },
       {
+        "reseau": "threads",
+        "titre": "Fouilles à la dune du Pilat, un vestige de 2 500 ans ressurgit",
+        "lien": "https://www.threads.com/@lovaquitaine/post/DeRaJ-jlY-S",
+        "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-7fe1d4e9-1-vignette.jpg",
+        "interactions": 6
+      },
+      {
         "reseau": "instagram",
         "titre": "À Poitiers, une doctorante restaure des tablettes du Louvre",
         "lien": "https://www.instagram.com/p/Dd_RjCQmOsy/",
@@ -45,13 +52,6 @@
         "titre": "À Hendaye, un château cache un observatoire actif jusqu’en 1975",
         "lien": "https://www.instagram.com/p/DeEh3MYjNDP/",
         "image": "https://passion-aquitaine.ouest-france.fr/social/20261004-fbd02dce-1-vignette.jpg",
-        "interactions": 4
-      },
-      {
-        "reseau": "instagram",
-        "titre": "Bars à La Rochelle : 5 adresses incontournables et insolites",
-        "lien": "https://www.instagram.com/p/DeRRODaGFGE/",
-        "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-1d143348-1-vignette.jpg",
         "interactions": 4
       }
     ]

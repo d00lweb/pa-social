@@ -3,7 +3,7 @@
     "cle": "2026-10",
     "publications": 67,
     "articles": 14,
-    "interactions": 105,
+    "interactions": 110,
     "parReseau": {
       "facebook": 12,
       "instagram": 13,
@@ -34,6 +34,13 @@
         "interactions": 6
       },
       {
+        "reseau": "bluesky",
+        "titre": "Fouilles à la dune du Pilat, un vestige de 2 500 ans ressurgit",
+        "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mxhhnkyvh422",
+        "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-7fe1d4e9-1-vignette.jpg",
+        "interactions": 5
+      },
+      {
         "reseau": "instagram",
         "titre": "À Poitiers, une doctorante restaure des tablettes du Louvre",
         "lien": "https://www.instagram.com/p/Dd_RjCQmOsy/",
@@ -45,13 +52,6 @@
         "titre": "Les Deux-Sèvres, département le plus fécond de toute la région",
         "lien": "https://www.instagram.com/p/DeB0esZjo1X/",
         "image": "https://passion-aquitaine.ouest-france.fr/social/20261003-536318f0-1-vignette.jpg",
-        "interactions": 4
-      },
-      {
-        "reseau": "instagram",
-        "titre": "À Hendaye, un château cache un observatoire actif jusqu’en 1975",
-        "lien": "https://www.instagram.com/p/DeEh3MYjNDP/",
-        "image": "https://passion-aquitaine.ouest-france.fr/social/20261004-fbd02dce-1-vignette.jpg",
         "interactions": 4
       }
     ]

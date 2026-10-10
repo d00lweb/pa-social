@@ -352,5 +352,71 @@
     "instagram": [],
     "threads": [],
     "bluesky": []
+  },
+  "commune:mairie:cancon": {
+    "v": 3,
+    "cherche": "2026-10-10T08:00:46.798Z",
+    "instagram": [
+      {
+        "handle": "mairiedecancon",
+        "nom": "Mairie de Cancon",
+        "abonnes": 104,
+        "preuve": 3
+      }
+    ],
+    "x": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:cancon:arboriculture": {
+    "v": 3,
+    "cherche": "2026-10-10T08:00:46.798Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:cancon:agriculture": {
+    "v": 3,
+    "cherche": "2026-10-10T08:00:46.798Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:cancon:robotique": {
+    "v": 3,
+    "cherche": "2026-10-10T08:00:46.798Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "territoire:lot-et-garonne:lotetgaronneledepartement,tourismelotetgaronne": {
+    "v": 3,
+    "cherche": "2026-10-10T08:00:46.798Z",
+    "conseil": {
+      "instagram": [
+        {
+          "handle": "lotetgaronneledepartement",
+          "nom": "Bienvenue dans le Lot-et-Garonne ! 🌿",
+          "abonnes": 5945,
+          "preuve": 3
+        }
+      ],
+      "threads": [],
+      "bluesky": [],
+      "x": []
+    },
+    "tourisme": {
+      "instagram": [
+        {
+          "handle": "tourismelotetgaronne",
+          "nom": "Tourisme Lot-et-Garonne",
+          "abonnes": 12338,
+          "preuve": 3
+        }
+      ],
+      "threads": [],
+      "bluesky": [],
+      "x": []
+    }
   }
 }

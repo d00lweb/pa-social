@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-10T05:20:35.446Z",
+  "genereLe": "2026-10-10T06:00:43.887Z",
   "jour": "2026-10-10",
   "reseaux": {
     "instagram": {
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 9,
-      "total": 31,
-      "dernier": "2026-10-09T18:06:23.616Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1746786767447204"
+      "aujourdhui": 1,
+      "semaine": 10,
+      "total": 32,
+      "dernier": "2026-10-10T06:12:34.658Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1747281594064388"
     },
     "threads": {
       "actif": true,
@@ -165,6 +165,46 @@
   },
   "articles": [
     {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35756",
+      "titre": "Fouilles à la dune du Pilat, un vestige de 2 500 ans ressurgit",
+      "lien": "https://passion-aquitaine.ouest-france.fr/dune-du-pilat-atelier-sel-fouilles/",
+      "at": "2026-10-10T06:12:34.658Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Que faisait-on au pied de la dune du Pilat il y a plus de 2 500 ans ? Réponse : 🧂 on y produisait du sel. Un ancien atelier vient de ressurgir, et les archéologues fouillent avant que l’érosion ne l’emporte. Vous imaginiez le Bassin d’Arcachon aussi ancien ?",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-7fe1d4e9-th.jpg",
+          "mode": "reponse",
+          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/dune-du-pilat-atelier-sel-fouilles/",
+          "sujet": "Bassin d'Arcachon",
+          "publieLe": "2026-10-09T11:36:10.451Z"
+        },
+        "x": {
+          "texte": "Plus de 2 500 ans : c’est l’âge d’un atelier de sel ressurgi au pied de la dune du Pilat. Les archéologues fouillent avant que l’érosion ne l’efface ⏳",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-7fe1d4e9-x.jpg",
+          "mode": "reponse",
+          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/dune-du-pilat-atelier-sel-fouilles/",
+          "sujet": null,
+          "publieLe": "2026-10-09T15:20:59.631Z"
+        },
+        "bluesky": {
+          "texte": "Le sable recule et laisse apparaître un atelier de sel vieux de plus de 2 500 ans 🏺 Au pied de la dune du Pilat, sur le Bassin d’Arcachon, les archéologues travaillent vite : l’érosion pourrait l’effacer. #BassinDArcachon",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-7fe1d4e9-bsky.jpg",
+          "mode": "reply",
+          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/dune-du-pilat-atelier-sel-fouilles/",
+          "sujet": null,
+          "publieLe": "2026-10-09T17:08:52.828Z"
+        },
+        "facebook": {
+          "texte": "Bien avant les touristes, on fabriquait déjà du sel au pied de la dune du Pilat, et la preuve refait surface 🧂",
+          "image": null,
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-10T06:12:34.658Z"
+        }
+      }
+    },
+    {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35708",
       "titre": "Une matière ultra-résistante très difficile à recycler : une entreprise de Mérignac a la solution",
       "lien": "https://passion-aquitaine.ouest-france.fr/recyclage-fibre-carbone-nova-carbon-merignac/",
@@ -209,38 +249,6 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-10-09T18:06:23.616Z"
-        }
-      }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35756",
-      "titre": "Fouilles à la dune du Pilat, un vestige de 2 500 ans ressurgit",
-      "lien": "https://passion-aquitaine.ouest-france.fr/dune-du-pilat-atelier-sel-fouilles/",
-      "at": "2026-10-09T17:08:52.828Z",
-      "reseaux": {
-        "threads": {
-          "texte": "Que faisait-on au pied de la dune du Pilat il y a plus de 2 500 ans ? Réponse : 🧂 on y produisait du sel. Un ancien atelier vient de ressurgir, et les archéologues fouillent avant que l’érosion ne l’emporte. Vous imaginiez le Bassin d’Arcachon aussi ancien ?",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-7fe1d4e9-th.jpg",
-          "mode": "reponse",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/dune-du-pilat-atelier-sel-fouilles/",
-          "sujet": "Bassin d'Arcachon",
-          "publieLe": "2026-10-09T11:36:10.451Z"
-        },
-        "x": {
-          "texte": "Plus de 2 500 ans : c’est l’âge d’un atelier de sel ressurgi au pied de la dune du Pilat. Les archéologues fouillent avant que l’érosion ne l’efface ⏳",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-7fe1d4e9-x.jpg",
-          "mode": "reponse",
-          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/dune-du-pilat-atelier-sel-fouilles/",
-          "sujet": null,
-          "publieLe": "2026-10-09T15:20:59.631Z"
-        },
-        "bluesky": {
-          "texte": "Le sable recule et laisse apparaître un atelier de sel vieux de plus de 2 500 ans 🏺 Au pied de la dune du Pilat, sur le Bassin d’Arcachon, les archéologues travaillent vite : l’érosion pourrait l’effacer. #BassinDArcachon",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-7fe1d4e9-bsky.jpg",
-          "mode": "reply",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/dune-du-pilat-atelier-sel-fouilles/",
-          "sujet": null,
-          "publieLe": "2026-10-09T17:08:52.828Z"
         }
       }
     },
@@ -440,6 +448,16 @@
   "publications": [
     {
       "channel": "facebook",
+      "at": "2026-10-10T06:12:34.658Z",
+      "titre": "Fouilles à la dune du Pilat, un vestige de 2 500 ans ressurgit",
+      "lien": "https://passion-aquitaine.ouest-france.fr/dune-du-pilat-atelier-sel-fouilles/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1747281594064388",
+      "format": null,
+      "texte": "Bien avant les touristes, on fabriquait déjà du sel au pied de la dune du Pilat, et la preuve refait surface 🧂",
+      "image": null
+    },
+    {
+      "channel": "facebook",
       "at": "2026-10-09T18:06:23.616Z",
       "titre": "Une matière ultra-résistante très difficile à recycler : une entreprise de Mérignac a la solution",
       "lien": "https://passion-aquitaine.ouest-france.fr/recyclage-fibre-carbone-nova-carbon-merignac/",
@@ -527,27 +545,35 @@
       "format": "reponse",
       "texte": "Imaginez une matière assez solide pour durer, et justement trop solide pour disparaître proprement. C’est toute l’histoire de la fibre de carbone. En Gironde, à Mérignac, Nova Carbon travaille à lui inventer une seconde vie plutôt qu’une fin au rebut 🏭\n@villedemerignac",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-67a97308-th.jpg"
-    },
-    {
-      "channel": "bluesky",
-      "at": "2026-10-09T07:26:50.285Z",
-      "titre": "Bars à La Rochelle : 5 adresses incontournables et insolites",
-      "lien": "https://passion-aquitaine.ouest-france.fr/top-5-bars-incontournables-la-rochelle/",
-      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mxgh4sarms22",
-      "format": "image",
-      "texte": "Une soirée complète sans chercher : cinq bars de #LaRochelle à enchaîner, d’une guinguette glacée à un #cocktail #bar caché, avec deux adresses face aux tours ouvertes jusqu’à 2 h 🥂\n➡️ Lire l’article",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-1d143348-bsky.jpg"
     }
   ],
   "file": [
     {
-      "channel": "facebook",
-      "dueAt": "2026-10-10T06:12:29.895Z",
-      "prochainPassage": "2026-10-10T06:20:00.000Z",
-      "nature": "actu",
+      "channel": "threads",
+      "dueAt": "2026-10-10T06:25:24.797Z",
+      "prochainPassage": "2026-10-10T07:00:00.000Z",
+      "nature": "evergreen",
       "prevuInitialement": null,
       "raison": null,
-      "titre": "Fouilles à la dune du Pilat, un vestige de 2 500 ans ressurgit"
+      "titre": "Golfs de Gironde : top 3 des meilleurs parcours près de Bordeaux"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-10-10T07:29:32.364Z",
+      "prochainPassage": "2026-10-10T08:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Golfs de Gironde : top 3 des meilleurs parcours près de Bordeaux"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-10-10T08:00:00.000Z",
+      "prochainPassage": "2026-10-10T08:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Golfs de Gironde : top 3 des meilleurs parcours près de Bordeaux"
     },
     {
       "channel": "instagram",
@@ -557,6 +583,24 @@
       "prevuInitialement": null,
       "raison": null,
       "titre": "Fouilles à la dune du Pilat, un vestige de 2 500 ans ressurgit"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-10-10T16:33:14.534Z",
+      "prochainPassage": "2026-10-10T17:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Golfs de Gironde : top 3 des meilleurs parcours près de Bordeaux"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-10-10T18:06:20.428Z",
+      "prochainPassage": "2026-10-10T18:20:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Golfs de Gironde : top 3 des meilleurs parcours près de Bordeaux"
     }
   ],
   "alertes": [],
@@ -640,7 +684,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-10T04:20:40.400Z"
+    "derniere": "2026-10-10T06:00:43.887Z"
   },
   "abonnes": {
     "instagram": {
@@ -679,7 +723,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-10T05:20:42.833Z",
+    "genereLe": "2026-10-10T06:12:45.217Z",
     "posts": 36,
     "parReseau": {
       "instagram": {
@@ -834,7 +878,7 @@
     },
     "publies": {
       "threads": 12,
-      "facebook": 11,
+      "facebook": 12,
       "bluesky": 12,
       "x": 12,
       "instagram": 11
@@ -887,29 +931,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 0,
-      "entree": 0,
-      "sortie": 0,
-      "cout": 0,
+      "appels": 1,
+      "entree": 8009,
+      "sortie": 840,
+      "cout": 0.048836,
       "cle": "2026-10-10"
     },
     "semaine": {
-      "appels": 12,
-      "entree": 94670,
-      "sortie": 12857,
-      "cout": 0.6358199999999999
+      "appels": 13,
+      "entree": 102679,
+      "sortie": 13697,
+      "cout": 0.6846559999999999
     },
     "mois": {
-      "appels": 22,
-      "entree": 171618,
-      "sortie": 21639,
-      "cout": 1.119252,
+      "appels": 23,
+      "entree": 179627,
+      "sortie": 22479,
+      "cout": 1.168088,
       "cle": "2026-10"
     },
-    "projection": 3.47,
-    "moyenneAppel": 0.0509,
+    "projection": 3.62,
+    "moyenneAppel": 0.0508,
     "parModele": {
-      "claude-opus-5-5": 22
+      "claude-opus-5-5": 23
     },
     "serie": [
       [
@@ -966,7 +1010,7 @@
       ],
       [
         "2026-10-10",
-        0
+        0.0488
       ]
     ],
     "depuis": "2026-09-23"

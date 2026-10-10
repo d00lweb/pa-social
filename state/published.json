@@ -2896,5 +2896,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35756",
+    "channel": "facebook",
+    "at": "2026-10-10T06:12:34.658Z",
+    "mediaId": "227437307428711_1747281594064388",
+    "titre": "Fouilles à la dune du Pilat, un vestige de 2 500 ans ressurgit",
+    "lien": "https://passion-aquitaine.ouest-france.fr/dune-du-pilat-atelier-sel-fouilles/",
+    "lienPost": "https://www.facebook.com/1720946116697936/posts/1747281594064388",
+    "format": null,
+    "mention": false,
+    "apercu": {
+      "texte": "Bien avant les touristes, on fabriquait déjà du sel au pied de la dune du Pilat, et la preuve refait surface 🧂",
+      "image": null,
+      "mode": null,
+      "reponse": null,
+      "sujet": null
+    }
   }
 ]

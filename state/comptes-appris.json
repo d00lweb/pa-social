@@ -280,5 +280,77 @@
       "bluesky": [],
       "x": []
     }
+  },
+  "commune:mairie:bordeaux": {
+    "v": 3,
+    "cherche": "2026-10-10T06:00:53.926Z",
+    "instagram": [
+      {
+        "handle": "villedebordeaux",
+        "nom": "Bordeaux",
+        "abonnes": 205360,
+        "preuve": 3
+      }
+    ],
+    "x": [
+      {
+        "handle": "Bordeaux",
+        "nom": "",
+        "abonnes": null,
+        "preuve": 3
+      }
+    ],
+    "threads": [
+      {
+        "handle": "villedebordeaux",
+        "nom": "Bordeaux",
+        "abonnes": 205360,
+        "preuve": 3
+      }
+    ],
+    "bluesky": [
+      {
+        "handle": "villedebordeaux.bsky.social",
+        "nom": "Ville de Bordeaux",
+        "abonnes": 1011,
+        "preuve": 3
+      }
+    ]
+  },
+  "commune:tourisme:bordeaux": {
+    "v": 3,
+    "cherche": "2026-10-10T06:00:53.926Z",
+    "instagram": [
+      {
+        "handle": "visitbordeaux",
+        "nom": "visitbordeaux",
+        "abonnes": 118993,
+        "preuve": 2
+      }
+    ],
+    "x": [],
+    "threads": [
+      {
+        "handle": "visitbordeaux",
+        "nom": "visitbordeaux",
+        "abonnes": 118993,
+        "preuve": 2
+      }
+    ],
+    "bluesky": []
+  },
+  "locale:bordeaux:golf": {
+    "v": 3,
+    "cherche": "2026-10-10T06:00:53.926Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:bordeaux:sport": {
+    "v": 3,
+    "cherche": "2026-10-10T06:00:53.926Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
   }
 }

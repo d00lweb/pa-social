@@ -3202,5 +3202,41 @@
       "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/lait-fromage-dromadaire-dordogne/",
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35475",
+    "channel": "instagram",
+    "at": "2026-10-11T16:05:13.141Z",
+    "mediaId": "18114678620039766",
+    "titre": "4 châteaux du Pays basque qu’il faut absolument visiter",
+    "lien": "https://passion-aquitaine.ouest-france.fr/visiter-chateaux-pays-basque/",
+    "lienPost": "https://www.instagram.com/p/DeXC-SjF520/",
+    "format": null,
+    "mention": true,
+    "apercu": {
+      "texte": "Depuis 1341, 🗝️ les mêmes murs restent habités à Urrugne, au cœur du Pays basque\n⠀\nÀ Hendaye, c’est un observatoire signé Viollet-le-Duc qui attend les curieux. Quatre châteaux basques à mettre sur la liste de vos prochaines visites.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#PaysBasque #Chateaux #Patrimoine",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-81a127fe-1.jpg",
+      "mode": null,
+      "reponse": null,
+      "sujet": null
+    }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35766",
+    "channel": "bluesky",
+    "at": "2026-10-11T16:14:51.712Z",
+    "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mxmfksvesu2r",
+    "titre": "Un Périgourdin veut faire du fromage de dromadaire, un lait qui caille mal",
+    "lien": "https://passion-aquitaine.ouest-france.fr/lait-fromage-dromadaire-dordogne/",
+    "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mxmfksvesu2r",
+    "format": "reply",
+    "mention": false,
+    "apercu": {
+      "texte": "Le lait de dromadaire caille mal, et ce n’est pas le seul obstacle pour un Périgourdin de #SavignacLedrier, en #Dordogne : entre un agrément rare et 🐪 une gestation de 13 mois, le premier lait pourrait ne pas couler avant 2028.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-14ec6da8-bsky.jpg",
+      "mode": "reply",
+      "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/lait-fromage-dromadaire-dordogne/",
+      "sujet": null
+    }
   }
 ]

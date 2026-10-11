@@ -1,5 +1,5 @@
 {
-  "angleIndex": 1,
+  "angleIndex": 2,
   "recent": {
     "instagram": [
       "Le Green Paradize Festival n’a qu’un an, et il s’offre déjà 🪩 Cerrone en tête d’affiche\nÀ Bègles, aux portes de Bordeaux, le jeune festival revient ce week-end",
@@ -161,7 +161,10 @@
       "girondetourisme",
       "mairiedecancon",
       "lotetgaronneledepartement",
-      "paysbasque_net"
+      "paysbasque_net",
+      "villehendaye64700",
+      "hendaye_tourisme_et_commerce",
+      "bienvenue_au_pays_basque"
     ],
     "x": [
       "cddordogne",
@@ -169,7 +172,8 @@
       "merignac",
       "gironde",
       "Bordeaux",
-      "gironde"
+      "gironde",
+      "departement64"
     ],
     "threads": [
       "villedemerignac",
@@ -182,9 +186,13 @@
   },
   "dernieresMentions": {
     "instagram": [
-      "paysbasque_net"
+      "villehendaye64700",
+      "hendaye_tourisme_et_commerce",
+      "bienvenue_au_pays_basque"
     ],
-    "x": [],
+    "x": [
+      "departement64"
+    ],
     "bluesky": [],
     "threads": [],
     "facebook": []

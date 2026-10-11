@@ -467,5 +467,86 @@
     "threads": [],
     "bluesky": [],
     "x": []
+  },
+  "commune:mairie:hendaye": {
+    "v": 3,
+    "cherche": "2026-10-11T06:20:48.104Z",
+    "instagram": [
+      {
+        "handle": "villehendaye64700",
+        "nom": "Ville d'Hendaye 🐳",
+        "abonnes": 6251,
+        "preuve": 3
+      }
+    ],
+    "x": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "commune:tourisme:hendaye": {
+    "v": 3,
+    "cherche": "2026-10-11T06:20:48.104Z",
+    "instagram": [
+      {
+        "handle": "hendaye_tourisme_et_commerce",
+        "nom": "Hendaye Tourisme & Commerce",
+        "abonnes": 11725,
+        "preuve": 3
+      }
+    ],
+    "x": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:hendaye:chateau": {
+    "v": 3,
+    "cherche": "2026-10-11T06:20:48.104Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:hendaye:patrimoine": {
+    "v": 3,
+    "cherche": "2026-10-11T06:20:48.104Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:hendaye:tourisme": {
+    "v": 3,
+    "cherche": "2026-10-11T06:20:48.104Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "territoire:pyrenees-atlantiques:departement64": {
+    "v": 3,
+    "cherche": "2026-10-11T06:20:48.104Z",
+    "conseil": {
+      "instagram": [
+        {
+          "handle": "departement64",
+          "nom": "Département 64",
+          "abonnes": 10385,
+          "preuve": 3
+        }
+      ],
+      "threads": [],
+      "bluesky": [],
+      "x": [
+        {
+          "handle": "departement64",
+          "nom": "",
+          "abonnes": null,
+          "preuve": 3
+        }
+      ]
+    },
+    "tourisme": {
+      "instagram": [],
+      "threads": [],
+      "bluesky": [],
+      "x": []
+    }
   }
 }

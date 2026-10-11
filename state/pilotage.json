@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-11T06:00:37.678Z",
+  "genereLe": "2026-10-11T06:20:38.209Z",
   "jour": "2026-10-11",
   "reseaux": {
     "instagram": {
@@ -122,11 +122,11 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 10,
-      "total": 34,
-      "dernier": "2026-10-10T09:07:00.124Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DeTt_yKlVvb"
+      "aujourdhui": 1,
+      "semaine": 11,
+      "total": 35,
+      "dernier": "2026-10-11T06:32:44.546Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DeWBAR9ETM-"
     },
     "x": {
       "actif": true,
@@ -164,6 +164,22 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35475",
+      "titre": "4 châteaux du Pays basque qu’il faut absolument visiter",
+      "lien": "https://passion-aquitaine.ouest-france.fr/visiter-chateaux-pays-basque/",
+      "at": "2026-10-11T06:32:44.546Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Envie d’une sortie patrimoine au Pays basque ce week-end 🧭 Voici quatre châteaux qui valent le détour. Parmi eux, un observatoire imaginé par Viollet-le-Duc à Hendaye et une demeure d’Urrugne habitée sans interruption depuis 1341. De quoi composer une belle journée entre histoire et architecture, à quelques kilomètres les uns des autres.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-81a127fe-th.jpg",
+          "mode": "reponse",
+          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/visiter-chateaux-pays-basque/",
+          "sujet": "Hendaye",
+          "publieLe": "2026-10-11T06:32:44.546Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=28053",
       "titre": "Golfs de Gironde : top 3 des meilleurs parcours près de Bordeaux",
@@ -387,57 +403,19 @@
           "publieLe": "2026-10-09T10:14:16.585Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=29413",
-      "titre": "Poule Marans : l’œuf de James Bond se note de 1 à 9",
-      "lien": "https://passion-aquitaine.ouest-france.fr/oeuf-poule-marans-echelle-couleur/",
-      "at": "2026-10-08T11:29:14.929Z",
-      "reseaux": {
-        "threads": {
-          "texte": "Envie de reconnaître un vrai œuf de poule Marans 🥚 En Charente-Maritime, il existe une échelle de 1 à 9 pour le juger, et il faut au moins le niveau 4 pour porter ce nom. Un repère utile la prochaine fois que vous en croiserez un sur un marché. Petit bonus : James Bond en a déjà mangé.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261008-aa4ea9c1-th.jpg",
-          "mode": "reponse",
-          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/oeuf-poule-marans-echelle-couleur/",
-          "sujet": "Charente-Maritime",
-          "publieLe": "2026-10-08T06:27:45.299Z"
-        },
-        "bluesky": {
-          "texte": "🍳 James Bond a déjà goûté un œuf de poule Marans. Mais en #CharenteMaritime, tous les œufs de cette poule ne se valent pas : ils sont notés de 1 à 9, et seuls ceux qui atteignent au moins le niveau 4 méritent ce nom.\n➡️ Lire l’article",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261008-aa4ea9c1-bsky.jpg",
-          "mode": "image",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-08T07:09:45.122Z"
-        },
-        "facebook": {
-          "texte": "En Charente-Maritime, un œuf de poule Marans doit décrocher au moins 4 sur 9 pour avoir le droit de porter son nom 🐔",
-          "image": null,
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-08T07:12:55.023Z"
-        },
-        "x": {
-          "texte": "Un œuf de poule Marans se note : en Charente-Maritime, il faut atteindre 🐓 au moins 4 sur 9 pour porter ce nom. Un produit local qui a même nourri James Bond.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261008-aa4ea9c1-x.jpg",
-          "mode": "reponse",
-          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/oeuf-poule-marans-echelle-couleur/",
-          "sujet": null,
-          "publieLe": "2026-10-08T08:20:51.804Z"
-        },
-        "instagram": {
-          "texte": "Au moins 4 sur 9 : c’est la note qu’un 🥚 œuf doit décrocher pour mériter le nom de poule Marans\n⠀\nCe produit local de Charente-Maritime a même eu les honneurs de l’assiette de James Bond. Découvrez comment on évalue cet œuf pas comme les autres.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#CharenteMaritime #PouleMarans #ProduitsLocaux",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261008-aa4ea9c1-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-08T11:29:14.929Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "threads",
+      "at": "2026-10-11T06:32:44.546Z",
+      "titre": "4 châteaux du Pays basque qu’il faut absolument visiter",
+      "lien": "https://passion-aquitaine.ouest-france.fr/visiter-chateaux-pays-basque/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/DeWBAR9ETM-",
+      "format": "reponse",
+      "texte": "Envie d’une sortie patrimoine au Pays basque ce week-end 🧭 Voici quatre châteaux qui valent le détour. Parmi eux, un observatoire imaginé par Viollet-le-Duc à Hendaye et une demeure d’Urrugne habitée sans interruption depuis 1341. De quoi composer une belle journée entre histoire et architecture, à quelques kilomètres les uns des autres.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-81a127fe-th.jpg"
+    },
     {
       "channel": "facebook",
       "at": "2026-10-10T18:06:31.941Z",
@@ -527,33 +505,14 @@
       "format": "reponse",
       "texte": "Trois golfs, pas un de plus ⛳ C’est notre sélection des meilleurs parcours de Gironde, tous accessibles depuis Bordeaux. On va du Bassin d’Arcachon jusqu’à Saint-Émilion, de quoi varier les décors d’un week-end à l’autre. Plutôt parcours côté océan ou côté vignes, vous ?\n@villedebordeaux @visitbordeaux",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261010-83f46501-th.jpg"
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-10-10T06:12:34.658Z",
-      "titre": "Fouilles à la dune du Pilat, un vestige de 2 500 ans ressurgit",
-      "lien": "https://passion-aquitaine.ouest-france.fr/dune-du-pilat-atelier-sel-fouilles/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1747281594064388",
-      "format": null,
-      "texte": "Bien avant les touristes, on fabriquait déjà du sel au pied de la dune du Pilat, et la preuve refait surface 🧂",
-      "image": null
     }
   ],
   "file": [
     {
-      "channel": "threads",
-      "dueAt": "2026-10-11T06:28:29.656Z",
-      "prochainPassage": "2026-10-11T07:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "4 châteaux du Pays basque qu’il faut absolument visiter"
-    },
-    {
       "channel": "bluesky",
       "dueAt": "2026-10-11T07:05:16.748Z",
       "prochainPassage": "2026-10-11T07:20:00.000Z",
-      "nature": "actu",
+      "nature": "evergreen",
       "prevuInitialement": null,
       "raison": null,
       "titre": "4 châteaux du Pays basque qu’il faut absolument visiter"
@@ -571,7 +530,7 @@
       "channel": "x",
       "dueAt": "2026-10-11T08:00:00.000Z",
       "prochainPassage": "2026-10-11T08:00:00.000Z",
-      "nature": "actu",
+      "nature": "evergreen",
       "prevuInitialement": null,
       "raison": null,
       "titre": "4 châteaux du Pays basque qu’il faut absolument visiter"
@@ -589,7 +548,7 @@
       "channel": "instagram",
       "dueAt": "2026-10-11T16:04:41.373Z",
       "prochainPassage": "2026-10-11T16:20:00.000Z",
-      "nature": "actu",
+      "nature": "evergreen",
       "prevuInitialement": null,
       "raison": null,
       "titre": "4 châteaux du Pays basque qu’il faut absolument visiter"
@@ -598,7 +557,7 @@
       "channel": "facebook",
       "dueAt": "2026-10-11T18:33:23.020Z",
       "prochainPassage": "2026-10-11T19:00:00.000Z",
-      "nature": "actu",
+      "nature": "evergreen",
       "prevuInitialement": null,
       "raison": null,
       "titre": "4 châteaux du Pays basque qu’il faut absolument visiter"
@@ -606,7 +565,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 238,
+    "releves": 239,
     "parReseau": {
       "instagram": {
         "posts": 29,
@@ -724,8 +683,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-11T06:01:10.059Z",
-    "posts": 46,
+    "genereLe": "2026-10-11T06:32:48.464Z",
+    "posts": 47,
     "parReseau": {
       "instagram": {
         "posts": 11,
@@ -740,7 +699,7 @@
         "moyenne": 0.5
       },
       "facebook": {
-        "posts": 11,
+        "posts": 12,
         "moyenne": 0
       }
     },
@@ -776,7 +735,7 @@
         "moyenne": 2
       },
       "matin": {
-        "posts": 30,
+        "posts": 31,
         "moyenne": 0.3
       }
     },
@@ -797,7 +756,7 @@
       },
       "facebook": {
         "8 h – 9 h 30": {
-          "posts": 9,
+          "posts": 10,
           "moyenne": 0
         },
         "20 h – 21 h 30": {
@@ -856,24 +815,24 @@
       "creneauReseau": "12 h – 13 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35708",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35756",
       "channel": "facebook",
-      "mediaId": "227437307428711_1746786767447204",
-      "publieLe": "2026-10-09T18:06:23.616Z",
+      "mediaId": "227437307428711_1747281594064388",
+      "publieLe": "2026-10-10T06:12:34.658Z",
       "jalon": 1,
-      "releveLe": "2026-10-10T18:07:28.315Z",
+      "releveLe": "2026-10-11T06:20:38.209Z",
       "likes": 0,
       "commentairesBruts": 0,
       "partages": 0,
       "vues": null,
       "commentaires": 0,
       "v": 2,
-      "titre": "Une matière ultra-résistante très difficile à recycler : une entreprise de Mérignac a la solution",
-      "lien": "https://www.facebook.com/1720946116697936/posts/1746786767447204",
+      "titre": "Fouilles à la dune du Pilat, un vestige de 2 500 ans ressurgit",
+      "lien": "https://www.facebook.com/1720946116697936/posts/1747281594064388",
       "format": null,
       "mention": false,
-      "creneau": "soir",
-      "creneauReseau": "20 h – 21 h 30"
+      "creneau": "matin",
+      "creneauReseau": "8 h – 9 h 30"
     },
     "mentions": {
       "avec": {
@@ -881,12 +840,12 @@
         "moyenne": 4.2
       },
       "sans": {
-        "posts": 23,
+        "posts": 24,
         "moyenne": 0.7
       }
     },
     "publies": {
-      "threads": 14,
+      "threads": 15,
       "facebook": 13,
       "bluesky": 14,
       "x": 14,
@@ -940,29 +899,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 3,
-      "entree": 24104,
-      "sortie": 2545,
-      "cout": 0.147316,
+      "appels": 4,
+      "entree": 32111,
+      "sortie": 3488,
+      "cout": 0.198204,
       "cle": "2026-10-11"
     },
     "semaine": {
-      "appels": 16,
-      "entree": 127066,
-      "sortie": 16186,
-      "cout": 0.8319840000000001
+      "appels": 17,
+      "entree": 135073,
+      "sortie": 17129,
+      "cout": 0.8828720000000001
     },
     "mois": {
-      "appels": 27,
-      "entree": 211712,
-      "sortie": 25881,
-      "cout": 1.364468,
+      "appels": 28,
+      "entree": 219719,
+      "sortie": 26824,
+      "cout": 1.415356,
       "cle": "2026-10"
     },
-    "projection": 3.85,
+    "projection": 3.99,
     "moyenneAppel": 0.0505,
     "parModele": {
-      "claude-opus-5-5": 27
+      "claude-opus-5-5": 28
     },
     "serie": [
       [
@@ -1019,7 +978,7 @@
       ],
       [
         "2026-10-11",
-        0.1473
+        0.1982
       ]
     ],
     "depuis": "2026-09-23"

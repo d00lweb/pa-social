@@ -3112,5 +3112,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35717",
+    "channel": "facebook",
+    "at": "2026-10-11T07:26:54.159Z",
+    "mediaId": "227437307428711_1748411700618044",
+    "titre": "Elle parcourt les vergers sans GPS : cette machine du Lot-et-Garonne sait où aller",
+    "lien": "https://passion-aquitaine.ouest-france.fr/robot-agricole-sans-gps-verger-lot-et-garonne/",
+    "lienPost": "https://www.facebook.com/1720946116697936/posts/1748411700618044",
+    "format": null,
+    "mention": false,
+    "apercu": {
+      "texte": "Comment une machine agricole peut-elle trouver son chemin dans un verger sans le moindre GPS, comme celle imaginée à Cancon 🍎",
+      "image": null,
+      "mode": null,
+      "reponse": null,
+      "sujet": null
+    }
   }
 ]

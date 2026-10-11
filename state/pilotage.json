@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-11T11:20:35.339Z",
+  "genereLe": "2026-10-11T12:00:45.635Z",
   "jour": "2026-10-11",
   "reseaux": {
     "instagram": {
@@ -25,7 +25,7 @@
       },
       "formats": null,
       "aujourdhui": 1,
-      "semaine": 10,
+      "semaine": 9,
       "total": 39,
       "dernier": "2026-10-11T11:13:12.252Z",
       "lienDernier": "https://www.instagram.com/p/DeWhjrWGD3e/"
@@ -541,6 +541,24 @@
   ],
   "file": [
     {
+      "channel": "threads",
+      "dueAt": "2026-10-11T12:29:17.012Z",
+      "prochainPassage": "2026-10-11T13:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Un Périgourdin veut faire du fromage de dromadaire, un lait qui caille mal"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-10-11T14:20:00.000Z",
+      "prochainPassage": "2026-10-11T14:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Un Périgourdin veut faire du fromage de dromadaire, un lait qui caille mal"
+    },
+    {
       "channel": "instagram",
       "dueAt": "2026-10-11T16:04:41.373Z",
       "prochainPassage": "2026-10-11T16:20:00.000Z",
@@ -550,6 +568,15 @@
       "titre": "4 châteaux du Pays basque qu’il faut absolument visiter"
     },
     {
+      "channel": "bluesky",
+      "dueAt": "2026-10-11T16:14:49.813Z",
+      "prochainPassage": "2026-10-11T16:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Un Périgourdin veut faire du fromage de dromadaire, un lait qui caille mal"
+    },
+    {
       "channel": "facebook",
       "dueAt": "2026-10-11T18:33:23.020Z",
       "prochainPassage": "2026-10-11T19:00:00.000Z",
@@ -557,15 +584,33 @@
       "prevuInitialement": null,
       "raison": null,
       "titre": "4 châteaux du Pays basque qu’il faut absolument visiter"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-10-12T06:09:58.951Z",
+      "prochainPassage": "2026-10-12T06:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Un Périgourdin veut faire du fromage de dromadaire, un lait qui caille mal"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-10-12T11:28:08.522Z",
+      "prochainPassage": "2026-10-12T12:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Un Périgourdin veut faire du fromage de dromadaire, un lait qui caille mal"
     }
   ],
   "alertes": [],
   "mesures": {
-    "releves": 247,
+    "releves": 248,
     "parReseau": {
       "instagram": {
-        "posts": 29,
-        "interactionsMoyennes": 13.5
+        "posts": 30,
+        "interactionsMoyennes": 13.2
       },
       "bluesky": {
         "posts": 28,
@@ -640,7 +685,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-11T11:00:43.559Z"
+    "derniere": "2026-10-11T12:00:45.635Z"
   },
   "abonnes": {
     "instagram": {
@@ -679,7 +724,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-11T11:20:38.567Z",
+    "genereLe": "2026-10-11T12:01:25.417Z",
     "posts": 52,
     "parReseau": {
       "instagram": {
@@ -724,7 +769,7 @@
     "parCreneau": {
       "après-midi": {
         "posts": 13,
-        "moyenne": 7.5
+        "moyenne": 7.6
       },
       "soir": {
         "posts": 5,
@@ -777,7 +822,7 @@
       "instagram": {
         "12 h – 13 h 30": {
           "posts": 9,
-          "moyenne": 10.2
+          "moyenne": 10.3
         },
         "18 h – 19 h 30": {
           "posts": 2,
@@ -789,7 +834,7 @@
         }
       }
     },
-    "interactionsTotal": 121,
+    "interactionsTotal": 122,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35575",
       "channel": "instagram",
@@ -896,29 +941,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 4,
-      "entree": 32111,
-      "sortie": 3488,
-      "cout": 0.198204,
+      "appels": 7,
+      "entree": 56177,
+      "sortie": 6594,
+      "cout": 0.356588,
       "cle": "2026-10-11"
     },
     "semaine": {
-      "appels": 17,
-      "entree": 135073,
-      "sortie": 17129,
-      "cout": 0.8828720000000001
+      "appels": 20,
+      "entree": 159139,
+      "sortie": 20235,
+      "cout": 1.0412560000000002
     },
     "mois": {
-      "appels": 28,
-      "entree": 219719,
-      "sortie": 26824,
-      "cout": 1.415356,
+      "appels": 31,
+      "entree": 243785,
+      "sortie": 29930,
+      "cout": 1.57374,
       "cle": "2026-10"
     },
-    "projection": 3.99,
-    "moyenneAppel": 0.0505,
+    "projection": 4.44,
+    "moyenneAppel": 0.0508,
     "parModele": {
-      "claude-opus-5-5": 28
+      "claude-opus-5-5": 31
     },
     "serie": [
       [
@@ -975,7 +1020,7 @@
       ],
       [
         "2026-10-11",
-        0.1982
+        0.3566
       ]
     ],
     "depuis": "2026-09-23"

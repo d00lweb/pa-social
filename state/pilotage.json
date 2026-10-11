@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-11T10:00:38.388Z",
+  "genereLe": "2026-10-11T10:20:40.933Z",
   "jour": "2026-10-11",
   "reseaux": {
     "instagram": {
@@ -562,7 +562,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 245,
+    "releves": 246,
     "parReseau": {
       "instagram": {
         "posts": 29,
@@ -680,12 +680,12 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-11T10:00:43.096Z",
-    "posts": 50,
+    "genereLe": "2026-10-11T10:20:44.798Z",
+    "posts": 51,
     "parReseau": {
       "instagram": {
-        "posts": 11,
-        "moyenne": 8.5
+        "posts": 12,
+        "moyenne": 8.3
       },
       "threads": {
         "posts": 14,
@@ -724,8 +724,8 @@
     },
     "parCreneau": {
       "après-midi": {
-        "posts": 11,
-        "moyenne": 8.5
+        "posts": 12,
+        "moyenne": 8.2
       },
       "soir": {
         "posts": 5,
@@ -777,8 +777,8 @@
       },
       "instagram": {
         "12 h – 13 h 30": {
-          "posts": 8,
-          "moyenne": 10.9
+          "posts": 9,
+          "moyenne": 10.2
         },
         "18 h – 19 h 30": {
           "posts": 2,
@@ -790,7 +790,7 @@
         }
       }
     },
-    "interactionsTotal": 116,
+    "interactionsTotal": 121,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35575",
       "channel": "instagram",
@@ -837,8 +837,8 @@
         "moyenne": 3.9
       },
       "sans": {
-        "posts": 25,
-        "moyenne": 0.8
+        "posts": 26,
+        "moyenne": 0.9
       }
     },
     "publies": {
@@ -892,7 +892,7 @@
       "Threads : le créneau 10 h – 11 h 30 fait 2,2 fois mieux que 7 h – 8 h 30 (1.3 contre 0.6 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Le format « reponse » fait 13 fois mieux que « lien » (1.3 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « lien » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+2, +0,2 %) ; Facebook recule (−13), à surveiller.",
-      "Les posts avec mention font 3.1 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
+      "Les posts avec mention font 3 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
     ]
   },
   "couts": {

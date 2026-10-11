@@ -3,7 +3,7 @@
     "cle": "2026-10",
     "publications": 72,
     "articles": 15,
-    "interactions": 116,
+    "interactions": 121,
     "parReseau": {
       "facebook": 14,
       "instagram": 13,
@@ -42,16 +42,16 @@
       },
       {
         "reseau": "instagram",
-        "titre": "À Poitiers, une doctorante restaure des tablettes du Louvre",
-        "lien": "https://www.instagram.com/p/Dd_RjCQmOsy/",
-        "image": "https://passion-aquitaine.ouest-france.fr/social/20261002-fa646ed7-1-vignette.jpg",
-        "interactions": 4
+        "titre": "Fouilles à la dune du Pilat, un vestige de 2 500 ans ressurgit",
+        "lien": "https://www.instagram.com/p/DeT010pDA3R/",
+        "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-7fe1d4e9-1-vignette.jpg",
+        "interactions": 5
       },
       {
         "reseau": "instagram",
-        "titre": "Les Deux-Sèvres, département le plus fécond de toute la région",
-        "lien": "https://www.instagram.com/p/DeB0esZjo1X/",
-        "image": "https://passion-aquitaine.ouest-france.fr/social/20261003-536318f0-1-vignette.jpg",
+        "titre": "À Poitiers, une doctorante restaure des tablettes du Louvre",
+        "lien": "https://www.instagram.com/p/Dd_RjCQmOsy/",
+        "image": "https://passion-aquitaine.ouest-france.fr/social/20261002-fa646ed7-1-vignette.jpg",
         "interactions": 4
       }
     ]

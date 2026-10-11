@@ -3184,5 +3184,23 @@
       "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/lait-fromage-dromadaire-dordogne/",
       "sujet": "Savignac-Lédrier"
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35766",
+    "channel": "x",
+    "at": "2026-10-11T14:21:15.508Z",
+    "mediaId": "kit-telegram",
+    "titre": "Un Périgourdin veut faire du fromage de dromadaire, un lait qui caille mal",
+    "lien": "https://passion-aquitaine.ouest-france.fr/lait-fromage-dromadaire-dordogne/",
+    "lienPost": null,
+    "format": "reponse",
+    "mention": true,
+    "apercu": {
+      "texte": "🐪 Peut-on faire du fromage avec un lait qui caille mal ? Un Périgourdin s’y attelle à Savignac-Lédrier, mais agrément rare et gestation de 13 mois repoussent le premier lait de dromadaire à 2028.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-14ec6da8-x.jpg",
+      "mode": "reponse",
+      "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/lait-fromage-dromadaire-dordogne/",
+      "sujet": null
+    }
   }
 ]

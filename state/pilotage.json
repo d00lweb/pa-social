@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-11T18:00:39.431Z",
+  "genereLe": "2026-10-11T18:20:38.164Z",
   "jour": "2026-10-11",
   "reseaux": {
     "instagram": {
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 1,
-      "semaine": 9,
-      "total": 34,
-      "dernier": "2026-10-11T07:26:54.159Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1748411700618044"
+      "aujourdhui": 2,
+      "semaine": 10,
+      "total": 35,
+      "dernier": "2026-10-11T18:33:26.550Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1748961130563101"
     },
     "threads": {
       "actif": true,
@@ -165,42 +165,10 @@
   },
   "articles": [
     {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35766",
-      "titre": "Un Périgourdin veut faire du fromage de dromadaire, un lait qui caille mal",
-      "lien": "https://passion-aquitaine.ouest-france.fr/lait-fromage-dromadaire-dordogne/",
-      "at": "2026-10-11T16:14:51.712Z",
-      "reseaux": {
-        "threads": {
-          "texte": "Imaginez des dromadaires dans la campagne de Savignac-Lédrier, en pleine Dordogne. C’est le projet d’un Périgourdin qui rêve d’en tirer du fromage. Sauf que tout prend du temps : un agrément rare à décrocher, treize mois de gestation, et un lait qui, en plus, caille mal. Le premier lait pourrait ne pas couler avant 2028 🥛",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-14ec6da8-th.jpg",
-          "mode": "reponse",
-          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/lait-fromage-dromadaire-dordogne/",
-          "sujet": "Savignac-Lédrier",
-          "publieLe": "2026-10-11T12:32:52.001Z"
-        },
-        "x": {
-          "texte": "🐪 Peut-on faire du fromage avec un lait qui caille mal ? Un Périgourdin s’y attelle à Savignac-Lédrier, mais agrément rare et gestation de 13 mois repoussent le premier lait de dromadaire à 2028.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-14ec6da8-x.jpg",
-          "mode": "reponse",
-          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/lait-fromage-dromadaire-dordogne/",
-          "sujet": null,
-          "publieLe": "2026-10-11T14:21:15.508Z"
-        },
-        "bluesky": {
-          "texte": "Le lait de dromadaire caille mal, et ce n’est pas le seul obstacle pour un Périgourdin de #SavignacLedrier, en #Dordogne : entre un agrément rare et 🐪 une gestation de 13 mois, le premier lait pourrait ne pas couler avant 2028.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-14ec6da8-bsky.jpg",
-          "mode": "reply",
-          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/lait-fromage-dromadaire-dordogne/",
-          "sujet": null,
-          "publieLe": "2026-10-11T16:14:51.712Z"
-        }
-      }
-    },
-    {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35475",
       "titre": "4 châteaux du Pays basque qu’il faut absolument visiter",
       "lien": "https://passion-aquitaine.ouest-france.fr/visiter-chateaux-pays-basque/",
-      "at": "2026-10-11T16:05:13.141Z",
+      "at": "2026-10-11T18:33:26.550Z",
       "reseaux": {
         "threads": {
           "texte": "Envie d’une sortie patrimoine au Pays basque ce week-end 🧭 Voici quatre châteaux qui valent le détour. Parmi eux, un observatoire imaginé par Viollet-le-Duc à Hendaye et une demeure d’Urrugne habitée sans interruption depuis 1341. De quoi composer une belle journée entre histoire et architecture, à quelques kilomètres les uns des autres.",
@@ -233,6 +201,46 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-10-11T16:05:13.141Z"
+        },
+        "facebook": {
+          "texte": "Au Pays basque, un château d’Urrugne n’a jamais cessé d’être habité depuis 1341, et ce n’est pas le seul à visiter 🗝️",
+          "image": null,
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-11T18:33:26.550Z"
+        }
+      }
+    },
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35766",
+      "titre": "Un Périgourdin veut faire du fromage de dromadaire, un lait qui caille mal",
+      "lien": "https://passion-aquitaine.ouest-france.fr/lait-fromage-dromadaire-dordogne/",
+      "at": "2026-10-11T16:14:51.712Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Imaginez des dromadaires dans la campagne de Savignac-Lédrier, en pleine Dordogne. C’est le projet d’un Périgourdin qui rêve d’en tirer du fromage. Sauf que tout prend du temps : un agrément rare à décrocher, treize mois de gestation, et un lait qui, en plus, caille mal. Le premier lait pourrait ne pas couler avant 2028 🥛",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-14ec6da8-th.jpg",
+          "mode": "reponse",
+          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/lait-fromage-dromadaire-dordogne/",
+          "sujet": "Savignac-Lédrier",
+          "publieLe": "2026-10-11T12:32:52.001Z"
+        },
+        "x": {
+          "texte": "🐪 Peut-on faire du fromage avec un lait qui caille mal ? Un Périgourdin s’y attelle à Savignac-Lédrier, mais agrément rare et gestation de 13 mois repoussent le premier lait de dromadaire à 2028.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-14ec6da8-x.jpg",
+          "mode": "reponse",
+          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/lait-fromage-dromadaire-dordogne/",
+          "sujet": null,
+          "publieLe": "2026-10-11T14:21:15.508Z"
+        },
+        "bluesky": {
+          "texte": "Le lait de dromadaire caille mal, et ce n’est pas le seul obstacle pour un Périgourdin de #SavignacLedrier, en #Dordogne : entre un agrément rare et 🐪 une gestation de 13 mois, le premier lait pourrait ne pas couler avant 2028.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-14ec6da8-bsky.jpg",
+          "mode": "reply",
+          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/lait-fromage-dromadaire-dordogne/",
+          "sujet": null,
+          "publieLe": "2026-10-11T16:14:51.712Z"
         }
       }
     },
@@ -431,6 +439,16 @@
   ],
   "publications": [
     {
+      "channel": "facebook",
+      "at": "2026-10-11T18:33:26.550Z",
+      "titre": "4 châteaux du Pays basque qu’il faut absolument visiter",
+      "lien": "https://passion-aquitaine.ouest-france.fr/visiter-chateaux-pays-basque/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1748961130563101",
+      "format": null,
+      "texte": "Au Pays basque, un château d’Urrugne n’a jamais cessé d’être habité depuis 1341, et ce n’est pas le seul à visiter 🗝️",
+      "image": null
+    },
+    {
       "channel": "bluesky",
       "at": "2026-10-11T16:14:51.712Z",
       "titre": "Un Périgourdin veut faire du fromage de dromadaire, un lait qui caille mal",
@@ -519,28 +537,9 @@
       "format": "reponse",
       "texte": "Envie d’une sortie patrimoine au Pays basque ce week-end 🧭 Voici quatre châteaux qui valent le détour. Parmi eux, un observatoire imaginé par Viollet-le-Duc à Hendaye et une demeure d’Urrugne habitée sans interruption depuis 1341. De quoi composer une belle journée entre histoire et architecture, à quelques kilomètres les uns des autres.",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-81a127fe-th.jpg"
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-10-10T18:06:31.941Z",
-      "titre": "Golfs de Gironde : top 3 des meilleurs parcours près de Bordeaux",
-      "lien": "https://passion-aquitaine.ouest-france.fr/top-golfs-bordeaux-gironde/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1747841514008396",
-      "format": null,
-      "texte": "Un swing près des pins du Bassin ou au milieu des vignes de Saint-Émilion, lequel vous tente le plus ? 🏌️",
-      "image": null
     }
   ],
   "file": [
-    {
-      "channel": "facebook",
-      "dueAt": "2026-10-11T18:33:23.020Z",
-      "prochainPassage": "2026-10-11T19:00:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "4 châteaux du Pays basque qu’il faut absolument visiter"
-    },
     {
       "channel": "threads",
       "dueAt": "2026-10-12T06:04:10.913Z",
@@ -607,7 +606,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 249,
+    "releves": 250,
     "parReseau": {
       "instagram": {
         "posts": 30,
@@ -686,7 +685,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-11T17:00:49.484Z"
+    "derniere": "2026-10-11T18:20:38.164Z"
   },
   "abonnes": {
     "instagram": {
@@ -725,8 +724,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-11T18:00:45.930Z",
-    "posts": 53,
+    "genereLe": "2026-10-11T18:33:34.260Z",
+    "posts": 54,
     "parReseau": {
       "instagram": {
         "posts": 13,
@@ -741,7 +740,7 @@
         "moyenne": 0.4
       },
       "facebook": {
-        "posts": 12,
+        "posts": 13,
         "moyenne": 0
       }
     },
@@ -773,8 +772,8 @@
         "moyenne": 7.6
       },
       "soir": {
-        "posts": 6,
-        "moyenne": 2
+        "posts": 7,
+        "moyenne": 1.7
       },
       "matin": {
         "posts": 34,
@@ -802,7 +801,7 @@
           "moyenne": 0
         },
         "20 h – 21 h 30": {
-          "posts": 2,
+          "posts": 3,
           "moyenne": 0
         }
       },
@@ -857,24 +856,24 @@
       "creneauReseau": "12 h – 13 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35717",
-      "channel": "bluesky",
-      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mxjbvkq4ay2a",
-      "publieLe": "2026-10-10T10:31:18.013Z",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=28053",
+      "channel": "facebook",
+      "mediaId": "227437307428711_1747841514008396",
+      "publieLe": "2026-10-10T18:06:31.941Z",
       "jalon": 1,
-      "releveLe": "2026-10-11T11:00:43.559Z",
+      "releveLe": "2026-10-11T18:20:38.164Z",
       "likes": 0,
-      "commentairesBruts": 1,
+      "commentairesBruts": 0,
       "partages": 0,
       "vues": null,
       "commentaires": 0,
       "v": 2,
-      "titre": "Elle parcourt les vergers sans GPS : cette machine du Lot-et-Garonne sait où aller",
-      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mxjbvkq4ay2a",
-      "format": "reply",
+      "titre": "Golfs de Gironde : top 3 des meilleurs parcours près de Bordeaux",
+      "lien": "https://www.facebook.com/1720946116697936/posts/1747841514008396",
+      "format": null,
       "mention": false,
-      "creneau": "après-midi",
-      "creneauReseau": "12 h – 13 h 30"
+      "creneau": "soir",
+      "creneauReseau": "20 h – 21 h 30"
     },
     "mentions": {
       "avec": {
@@ -882,13 +881,13 @@
         "moyenne": 3.8
       },
       "sans": {
-        "posts": 27,
+        "posts": 28,
         "moyenne": 0.9
       }
     },
     "publies": {
       "threads": 16,
-      "facebook": 14,
+      "facebook": 15,
       "bluesky": 16,
       "x": 16,
       "instagram": 15

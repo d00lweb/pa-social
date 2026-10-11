@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-11T10:20:40.933Z",
+  "genereLe": "2026-10-11T11:00:43.559Z",
   "jour": "2026-10-11",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 9,
-      "total": 38,
-      "dernier": "2026-10-10T16:33:52.028Z",
-      "lienDernier": "https://www.instagram.com/p/DeUhc8VmGxq/"
+      "aujourdhui": 1,
+      "semaine": 10,
+      "total": 39,
+      "dernier": "2026-10-11T11:13:12.252Z",
+      "lienDernier": "https://www.instagram.com/p/DeWhjrWGD3e/"
     },
     "bluesky": {
       "actif": true,
@@ -165,42 +165,10 @@
   },
   "articles": [
     {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35475",
-      "titre": "4 châteaux du Pays basque qu’il faut absolument visiter",
-      "lien": "https://passion-aquitaine.ouest-france.fr/visiter-chateaux-pays-basque/",
-      "at": "2026-10-11T08:00:48.436Z",
-      "reseaux": {
-        "threads": {
-          "texte": "Envie d’une sortie patrimoine au Pays basque ce week-end 🧭 Voici quatre châteaux qui valent le détour. Parmi eux, un observatoire imaginé par Viollet-le-Duc à Hendaye et une demeure d’Urrugne habitée sans interruption depuis 1341. De quoi composer une belle journée entre histoire et architecture, à quelques kilomètres les uns des autres.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-81a127fe-th.jpg",
-          "mode": "reponse",
-          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/visiter-chateaux-pays-basque/",
-          "sujet": "Hendaye",
-          "publieLe": "2026-10-11T06:32:44.546Z"
-        },
-        "bluesky": {
-          "texte": "🔭 Un observatoire dessiné par Viollet-le-Duc, face à l’océan, à #Hendaye. Ce n’est pas le genre de #château qu’on attend au #PaysBasque, et pourtant il figure parmi les quatre à visiter, avec une demeure d’Urrugne habitée depuis 1341.\n➡️ Lire l’article",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-81a127fe-bsky.jpg",
-          "mode": "image",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-11T07:05:19.112Z"
-        },
-        "x": {
-          "texte": "À Urrugne, un château est habité depuis 1341. À #Hendaye, 🔭 Viollet-le-Duc a signé un observatoire. Quatre châteaux du Pays basque méritent la visite.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-81a127fe-x.jpg",
-          "mode": "reponse",
-          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/visiter-chateaux-pays-basque/",
-          "sujet": null,
-          "publieLe": "2026-10-11T08:00:48.436Z"
-        }
-      }
-    },
-    {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35717",
       "titre": "Elle parcourt les vergers sans GPS : cette machine du Lot-et-Garonne sait où aller",
       "lien": "https://passion-aquitaine.ouest-france.fr/robot-agricole-sans-gps-verger-lot-et-garonne/",
-      "at": "2026-10-11T07:26:54.159Z",
+      "at": "2026-10-11T11:13:12.252Z",
       "reseaux": {
         "threads": {
           "texte": "🌳 Cancon, Lot-et-Garonne. C’est ici qu’est née une machine agricole un peu à part : elle se déplace dans les vergers sans GPS. Son secret tient en deux idées, une navigation autonome et une pulvérisation intelligente. De quoi changer le quotidien des arboriculteurs du coin.",
@@ -233,6 +201,46 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-10-11T07:26:54.159Z"
+        },
+        "instagram": {
+          "texte": "Entre les rangées d’arbres fruitiers, une machine avance seule, sans le moindre GPS 🍏\n⠀\nÀ Cancon, dans le Lot-et-Garonne, cet engin agricole mise sur la navigation autonome et la pulvérisation intelligente. Une innovation née au cœur des vergers.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#LotEtGaronne #Vergers #Agriculture",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261010-c29a0140-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-11T11:13:12.252Z"
+        }
+      }
+    },
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35475",
+      "titre": "4 châteaux du Pays basque qu’il faut absolument visiter",
+      "lien": "https://passion-aquitaine.ouest-france.fr/visiter-chateaux-pays-basque/",
+      "at": "2026-10-11T08:00:48.436Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Envie d’une sortie patrimoine au Pays basque ce week-end 🧭 Voici quatre châteaux qui valent le détour. Parmi eux, un observatoire imaginé par Viollet-le-Duc à Hendaye et une demeure d’Urrugne habitée sans interruption depuis 1341. De quoi composer une belle journée entre histoire et architecture, à quelques kilomètres les uns des autres.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-81a127fe-th.jpg",
+          "mode": "reponse",
+          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/visiter-chateaux-pays-basque/",
+          "sujet": "Hendaye",
+          "publieLe": "2026-10-11T06:32:44.546Z"
+        },
+        "bluesky": {
+          "texte": "🔭 Un observatoire dessiné par Viollet-le-Duc, face à l’océan, à #Hendaye. Ce n’est pas le genre de #château qu’on attend au #PaysBasque, et pourtant il figure parmi les quatre à visiter, avec une demeure d’Urrugne habitée depuis 1341.\n➡️ Lire l’article",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-81a127fe-bsky.jpg",
+          "mode": "image",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-11T07:05:19.112Z"
+        },
+        "x": {
+          "texte": "À Urrugne, un château est habité depuis 1341. À #Hendaye, 🔭 Viollet-le-Duc a signé un observatoire. Quatre châteaux du Pays basque méritent la visite.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-81a127fe-x.jpg",
+          "mode": "reponse",
+          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/visiter-chateaux-pays-basque/",
+          "sujet": null,
+          "publieLe": "2026-10-11T08:00:48.436Z"
         }
       }
     },
@@ -431,6 +439,16 @@
   ],
   "publications": [
     {
+      "channel": "instagram",
+      "at": "2026-10-11T11:13:12.252Z",
+      "titre": "Elle parcourt les vergers sans GPS : cette machine du Lot-et-Garonne sait où aller",
+      "lien": "https://passion-aquitaine.ouest-france.fr/robot-agricole-sans-gps-verger-lot-et-garonne/",
+      "lienPost": "https://www.instagram.com/p/DeWhjrWGD3e/",
+      "format": null,
+      "texte": "Entre les rangées d’arbres fruitiers, une machine avance seule, sans le moindre GPS 🍏\n⠀\nÀ Cancon, dans le Lot-et-Garonne, cet engin agricole mise sur la navigation autonome et la pulvérisation intelligente. Une innovation née au cœur des vergers.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#LotEtGaronne #Vergers #Agriculture",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261010-c29a0140-1.jpg"
+    },
+    {
       "channel": "x",
       "at": "2026-10-11T08:00:48.436Z",
       "titre": "4 châteaux du Pays basque qu’il faut absolument visiter",
@@ -519,28 +537,9 @@
       "format": null,
       "texte": "La dune du Pilat cache bien plus que du sable : un atelier de sel de plus de 2 500 ans vient de ressurgir à son pied\n⠀\nSur le Bassin d’Arcachon, les archéologues fouillent ce vestige avant que l’érosion ne l’efface. Une occasion rare de découvrir comment on produisait déjà du sel ici il y a des millénaires ⛏️\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#DuneDuPilat #BassinDArcachon #Archeologie",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-7fe1d4e9-1.jpg"
-    },
-    {
-      "channel": "threads",
-      "at": "2026-10-10T09:07:00.124Z",
-      "titre": "Elle parcourt les vergers sans GPS : cette machine du Lot-et-Garonne sait où aller",
-      "lien": "https://passion-aquitaine.ouest-france.fr/robot-agricole-sans-gps-verger-lot-et-garonne/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/DeTt_yKlVvb",
-      "format": "reponse",
-      "texte": "🌳 Cancon, Lot-et-Garonne. C’est ici qu’est née une machine agricole un peu à part : elle se déplace dans les vergers sans GPS. Son secret tient en deux idées, une navigation autonome et une pulvérisation intelligente. De quoi changer le quotidien des arboriculteurs du coin.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261010-c29a0140-th.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "instagram",
-      "dueAt": "2026-10-11T11:12:38.286Z",
-      "prochainPassage": "2026-10-11T11:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Elle parcourt les vergers sans GPS : cette machine du Lot-et-Garonne sait où aller"
-    },
     {
       "channel": "instagram",
       "dueAt": "2026-10-11T16:04:41.373Z",
@@ -562,7 +561,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 246,
+    "releves": 247,
     "parReseau": {
       "instagram": {
         "posts": 29,
@@ -641,7 +640,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-11T09:20:45.671Z"
+    "derniere": "2026-10-11T11:00:43.559Z"
   },
   "abonnes": {
     "instagram": {
@@ -680,8 +679,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-11T10:20:44.798Z",
-    "posts": 51,
+    "genereLe": "2026-10-11T11:13:17.836Z",
+    "posts": 52,
     "parReseau": {
       "instagram": {
         "posts": 12,
@@ -692,8 +691,8 @@
         "moyenne": 1.1
       },
       "bluesky": {
-        "posts": 13,
-        "moyenne": 0.5
+        "posts": 14,
+        "moyenne": 0.4
       },
       "facebook": {
         "posts": 12,
@@ -706,8 +705,8 @@
         "moyenne": 1.3
       },
       "reply": {
-        "posts": 7,
-        "moyenne": 0.7
+        "posts": 8,
+        "moyenne": 0.6
       },
       "card": {
         "posts": 2,
@@ -724,8 +723,8 @@
     },
     "parCreneau": {
       "après-midi": {
-        "posts": 12,
-        "moyenne": 8.2
+        "posts": 13,
+        "moyenne": 7.5
       },
       "soir": {
         "posts": 5,
@@ -771,7 +770,7 @@
           "moyenne": 0.1
         },
         "12 h – 13 h 30": {
-          "posts": 2,
+          "posts": 3,
           "moyenne": 0
         }
       },
@@ -812,24 +811,24 @@
       "creneauReseau": "12 h – 13 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=28053",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35717",
       "channel": "bluesky",
-      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mxixqmd7yq22",
-      "publieLe": "2026-10-10T07:29:34.362Z",
+      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mxjbvkq4ay2a",
+      "publieLe": "2026-10-10T10:31:18.013Z",
       "jalon": 1,
-      "releveLe": "2026-10-11T08:00:38.194Z",
+      "releveLe": "2026-10-11T11:00:43.559Z",
       "likes": 0,
-      "commentairesBruts": 0,
+      "commentairesBruts": 1,
       "partages": 0,
       "vues": null,
       "commentaires": 0,
       "v": 2,
-      "titre": "Golfs de Gironde : top 3 des meilleurs parcours près de Bordeaux",
-      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mxixqmd7yq22",
-      "format": "card",
-      "mention": true,
-      "creneau": "matin",
-      "creneauReseau": "8 h – 9 h 30"
+      "titre": "Elle parcourt les vergers sans GPS : cette machine du Lot-et-Garonne sait où aller",
+      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mxjbvkq4ay2a",
+      "format": "reply",
+      "mention": false,
+      "creneau": "après-midi",
+      "creneauReseau": "12 h – 13 h 30"
     },
     "mentions": {
       "avec": {
@@ -837,7 +836,7 @@
         "moyenne": 3.9
       },
       "sans": {
-        "posts": 26,
+        "posts": 27,
         "moyenne": 0.9
       }
     },
@@ -846,7 +845,7 @@
       "facebook": 14,
       "bluesky": 15,
       "x": 15,
-      "instagram": 13
+      "instagram": 14
     },
     "abonnes": {
       "instagram": {

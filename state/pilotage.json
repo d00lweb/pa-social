@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-11T09:00:43.605Z",
+  "genereLe": "2026-10-11T09:20:45.671Z",
   "jour": "2026-10-11",
   "reseaux": {
     "instagram": {
@@ -562,7 +562,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 244,
+    "releves": 245,
     "parReseau": {
       "instagram": {
         "posts": 29,
@@ -641,7 +641,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-11T08:20:40.544Z"
+    "derniere": "2026-10-11T09:20:45.671Z"
   },
   "abonnes": {
     "instagram": {
@@ -680,16 +680,16 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-11T09:00:50.295Z",
-    "posts": 49,
+    "genereLe": "2026-10-11T09:20:52.918Z",
+    "posts": 50,
     "parReseau": {
       "instagram": {
         "posts": 11,
         "moyenne": 8.5
       },
       "threads": {
-        "posts": 13,
-        "moyenne": 1
+        "posts": 14,
+        "moyenne": 1.1
       },
       "bluesky": {
         "posts": 13,
@@ -702,8 +702,8 @@
     },
     "parFormat": {
       "reponse": {
-        "posts": 11,
-        "moyenne": 1.2
+        "posts": 12,
+        "moyenne": 1.3
       },
       "reply": {
         "posts": 7,
@@ -732,8 +732,8 @@
         "moyenne": 2
       },
       "matin": {
-        "posts": 33,
-        "moyenne": 0.3
+        "posts": 34,
+        "moyenne": 0.4
       }
     },
     "parCreneauReseau": {
@@ -742,13 +742,13 @@
           "posts": 1,
           "moyenne": 6
         },
+        "10 h – 11 h 30": {
+          "posts": 3,
+          "moyenne": 1.3
+        },
         "7 h – 8 h 30": {
           "posts": 10,
           "moyenne": 0.6
-        },
-        "10 h – 11 h 30": {
-          "posts": 2,
-          "moyenne": 0.5
         }
       },
       "facebook": {
@@ -790,7 +790,7 @@
         }
       }
     },
-    "interactionsTotal": 113,
+    "interactionsTotal": 116,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35575",
       "channel": "instagram",
@@ -837,8 +837,8 @@
         "moyenne": 3.9
       },
       "sans": {
-        "posts": 24,
-        "moyenne": 0.7
+        "posts": 25,
+        "moyenne": 0.8
       }
     },
     "publies": {
@@ -885,13 +885,14 @@
     },
     "engagement": {
       "instagram": 0.08,
-      "threads": 0.09,
+      "threads": 0.1,
       "facebook": 0
     },
     "conseils": [
-      "Le format « reponse » fait 12 fois mieux que « lien » (1.2 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « lien » de la rotation dans config/channels.json.",
+      "Threads : le créneau 10 h – 11 h 30 fait 2,2 fois mieux que 7 h – 8 h 30 (1.3 contre 0.6 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
+      "Le format « reponse » fait 13 fois mieux que « lien » (1.3 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « lien » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+2, +0,2 %) ; Facebook recule (−13), à surveiller.",
-      "Les posts avec mention font 3.2 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
+      "Les posts avec mention font 3.1 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
     ]
   },
   "couts": {

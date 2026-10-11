@@ -548,5 +548,34 @@
       "bluesky": [],
       "x": []
     }
+  },
+  "commune:mairie:savignac-ledrier": {
+    "v": 3,
+    "cherche": "2026-10-11T12:21:10.237Z",
+    "instagram": [],
+    "x": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:savignac-ledrier:fromage": {
+    "v": 3,
+    "cherche": "2026-10-11T12:21:10.237Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:savignac-ledrier:elevage": {
+    "v": 3,
+    "cherche": "2026-10-11T12:21:10.237Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:savignac-ledrier:agriculture": {
+    "v": 3,
+    "cherche": "2026-10-11T12:21:10.237Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
   }
 }

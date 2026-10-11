@@ -294,47 +294,84 @@
       "nature": "actu",
       "sensible": false,
       "rubrique": "Dordogne",
-      "entites": [],
-      "lieu": null,
       "visuel": {
         "titre": "Un Périgourdin veut faire du fromage de dromadaire, un lait qui caille mal",
-        "surlignage": "Un Périgourdin",
-        "description": "Agrément rare, gestation de 13 mois : le lait de dromadaire espéré à Savignac-Lédrier, en Dordogne, pourrait ne pas couler avant 2028.",
-        "texte_alternatif": "Dordogne : Un Périgourdin veut faire du fromage de dromadaire, un lait qui caille mal"
+        "surlignage": "dromadaire",
+        "description": "À Savignac-Lédrier, le projet se heurte à un agrément rare et à une gestation de 13 mois. Résultat : le premier lait de dromadaire pourrait ne pas couler avant 2028.",
+        "texte_alternatif": "Un Périgourdin prépare à Savignac-Lédrier, en Dordogne, un projet de fromage au lait de dromadaire, un lait qui caille mal et qui pourrait ne pas couler avant 2028."
       },
+      "entites": [],
+      "domaines": [
+        "fromage",
+        "élevage",
+        "agriculture"
+      ],
+      "lieu": null,
       "instagram": {
-        "texte": "Agrément rare, gestation de 13 mois : le lait de dromadaire espéré à Savignac-Lédrier, en Dordogne, pourrait ne pas couler avant 2028 🧀",
+        "texte": "🐫 Des dromadaires en Dordogne, et bientôt du fromage avec leur lait : le pari d’un Périgourdin\nÀ Savignac-Lédrier, le projet avance lentement. Un agrément rare à obtenir, 13 mois de gestation, et un lait qui caille mal : les premières gouttes pourraient ne pas couler avant 2028.",
         "hashtags": [
           "#Dordogne",
-          "#Gastronomie",
-          "#NouvelleAquitaine"
+          "#FromageDeDromadaire",
+          "#Agriculture"
         ]
       },
       "facebook": {
-        "texte": "Agrément rare, gestation de 13 mois : le lait de dromadaire espéré à Savignac-Lédrier, en Dordogne, pourrait ne pas couler avant 2028 🧀"
+        "texte": "Treize mois de gestation : voilà pourquoi le fromage de dromadaire rêvé en Dordogne va se faire attendre ⏳"
       },
       "bluesky": {
-        "texte": "Agrément rare, gestation de 13 mois : le lait de dromadaire espéré à Savignac-Lédrier, en Dordogne, pourrait ne pas couler avant 2028 🧀",
+        "texte": "Le lait de dromadaire caille mal, et ce n’est pas le seul obstacle pour un Périgourdin de Savignac-Lédrier, en Dordogne : entre un agrément rare et 🐪 une gestation de 13 mois, le premier lait pourrait ne pas couler avant 2028.",
         "hashtag": "#Dordogne"
       },
       "threads": {
-        "texte": "Agrément rare, gestation de 13 mois : le lait de dromadaire espéré à Savignac-Lédrier, en Dordogne, pourrait ne pas couler avant 2028 🧀",
-        "sujet": "Gastronomie"
+        "texte": "Imaginez des dromadaires dans la campagne de Savignac-Lédrier, en pleine Dordogne. C’est le projet d’un Périgourdin qui rêve d’en tirer du fromage. Sauf que tout prend du temps : un agrément rare à décrocher, treize mois de gestation, et un lait qui, en plus, caille mal. Le premier lait pourrait ne pas couler avant 2028 🥛",
+        "sujet": "Dordogne"
       },
       "x": {
-        "texte": "Agrément rare, gestation de 13 mois : le lait de dromadaire espéré à Savignac-Lédrier, en Dordogne, pourrait ne pas couler avant 2028 🧀"
+        "texte": "🐪 Peut-on faire du fromage avec un lait qui caille mal ? Un Périgourdin s’y attelle à Savignac-Lédrier, mais agrément rare et gestation de 13 mois repoussent le premier lait de dromadaire à 2028."
       },
-      "source": "regles",
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 8027,
+        "output": 1767
+      },
+      "angles": {
+        "instagram": "effet de surprise",
+        "facebook": "bénéfice pour le lecteur",
+        "bluesky": "détail méconnu",
+        "threads": "image évocatrice",
+        "x": "question intrigante"
+      },
       "lieuSource": {
         "precis": "",
-        "ville": "",
-        "departement": ""
+        "ville": "Savignac-Lédrier",
+        "departement": "Dordogne"
       },
-      "lieuNom": "Dordogne",
-      "commune": null,
+      "lieuNom": "Savignac-Lédrier",
+      "commune": "Savignac-Lédrier",
       "comptes": {
-        "instagram": [],
-        "x": [],
+        "instagram": [
+          {
+            "nom": "Conseil départemental de la Dordogne",
+            "handle": "cddordogne24",
+            "abonnes": 3545,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "Dordogne",
+            "handle": "cddordogne",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
         "bluesky": [],
         "threads": [],
         "facebook": []
@@ -367,47 +404,84 @@
       "nature": "actu",
       "sensible": false,
       "rubrique": "Dordogne",
-      "entites": [],
-      "lieu": null,
       "visuel": {
         "titre": "Un Périgourdin veut faire du fromage de dromadaire, un lait qui caille mal",
-        "surlignage": "Un Périgourdin",
-        "description": "Agrément rare, gestation de 13 mois : le lait de dromadaire espéré à Savignac-Lédrier, en Dordogne, pourrait ne pas couler avant 2028.",
-        "texte_alternatif": "Dordogne : Un Périgourdin veut faire du fromage de dromadaire, un lait qui caille mal"
+        "surlignage": "dromadaire",
+        "description": "À Savignac-Lédrier, le projet se heurte à un agrément rare et à une gestation de 13 mois. Résultat : le premier lait de dromadaire pourrait ne pas couler avant 2028.",
+        "texte_alternatif": "Un Périgourdin prépare à Savignac-Lédrier, en Dordogne, un projet de fromage au lait de dromadaire, un lait qui caille mal et qui pourrait ne pas couler avant 2028."
       },
+      "entites": [],
+      "domaines": [
+        "fromage",
+        "élevage",
+        "agriculture"
+      ],
+      "lieu": null,
       "instagram": {
-        "texte": "Agrément rare, gestation de 13 mois : le lait de dromadaire espéré à Savignac-Lédrier, en Dordogne, pourrait ne pas couler avant 2028 🧀",
+        "texte": "🐫 Des dromadaires en Dordogne, et bientôt du fromage avec leur lait : le pari d’un Périgourdin\nÀ Savignac-Lédrier, le projet avance lentement. Un agrément rare à obtenir, 13 mois de gestation, et un lait qui caille mal : les premières gouttes pourraient ne pas couler avant 2028.",
         "hashtags": [
           "#Dordogne",
-          "#Gastronomie",
-          "#NouvelleAquitaine"
+          "#FromageDeDromadaire",
+          "#Agriculture"
         ]
       },
       "facebook": {
-        "texte": "Agrément rare, gestation de 13 mois : le lait de dromadaire espéré à Savignac-Lédrier, en Dordogne, pourrait ne pas couler avant 2028 🧀"
+        "texte": "Treize mois de gestation : voilà pourquoi le fromage de dromadaire rêvé en Dordogne va se faire attendre ⏳"
       },
       "bluesky": {
-        "texte": "Agrément rare, gestation de 13 mois : le lait de dromadaire espéré à Savignac-Lédrier, en Dordogne, pourrait ne pas couler avant 2028 🧀",
+        "texte": "Le lait de dromadaire caille mal, et ce n’est pas le seul obstacle pour un Périgourdin de Savignac-Lédrier, en Dordogne : entre un agrément rare et 🐪 une gestation de 13 mois, le premier lait pourrait ne pas couler avant 2028.",
         "hashtag": "#Dordogne"
       },
       "threads": {
-        "texte": "Agrément rare, gestation de 13 mois : le lait de dromadaire espéré à Savignac-Lédrier, en Dordogne, pourrait ne pas couler avant 2028 🧀",
-        "sujet": "Gastronomie"
+        "texte": "Imaginez des dromadaires dans la campagne de Savignac-Lédrier, en pleine Dordogne. C’est le projet d’un Périgourdin qui rêve d’en tirer du fromage. Sauf que tout prend du temps : un agrément rare à décrocher, treize mois de gestation, et un lait qui, en plus, caille mal. Le premier lait pourrait ne pas couler avant 2028 🥛",
+        "sujet": "Dordogne"
       },
       "x": {
-        "texte": "Agrément rare, gestation de 13 mois : le lait de dromadaire espéré à Savignac-Lédrier, en Dordogne, pourrait ne pas couler avant 2028 🧀"
+        "texte": "🐪 Peut-on faire du fromage avec un lait qui caille mal ? Un Périgourdin s’y attelle à Savignac-Lédrier, mais agrément rare et gestation de 13 mois repoussent le premier lait de dromadaire à 2028."
       },
-      "source": "regles",
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 8027,
+        "output": 1767
+      },
+      "angles": {
+        "instagram": "effet de surprise",
+        "facebook": "bénéfice pour le lecteur",
+        "bluesky": "détail méconnu",
+        "threads": "image évocatrice",
+        "x": "question intrigante"
+      },
       "lieuSource": {
         "precis": "",
-        "ville": "",
-        "departement": ""
+        "ville": "Savignac-Lédrier",
+        "departement": "Dordogne"
       },
-      "lieuNom": "Dordogne",
-      "commune": null,
+      "lieuNom": "Savignac-Lédrier",
+      "commune": "Savignac-Lédrier",
       "comptes": {
-        "instagram": [],
-        "x": [],
+        "instagram": [
+          {
+            "nom": "Conseil départemental de la Dordogne",
+            "handle": "cddordogne24",
+            "abonnes": 3545,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "Dordogne",
+            "handle": "cddordogne",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
         "bluesky": [],
         "threads": [],
         "facebook": []
@@ -440,120 +514,84 @@
       "nature": "actu",
       "sensible": false,
       "rubrique": "Dordogne",
-      "entites": [],
-      "lieu": null,
       "visuel": {
         "titre": "Un Périgourdin veut faire du fromage de dromadaire, un lait qui caille mal",
-        "surlignage": "Un Périgourdin",
-        "description": "Agrément rare, gestation de 13 mois : le lait de dromadaire espéré à Savignac-Lédrier, en Dordogne, pourrait ne pas couler avant 2028.",
-        "texte_alternatif": "Dordogne : Un Périgourdin veut faire du fromage de dromadaire, un lait qui caille mal"
+        "surlignage": "dromadaire",
+        "description": "À Savignac-Lédrier, le projet se heurte à un agrément rare et à une gestation de 13 mois. Résultat : le premier lait de dromadaire pourrait ne pas couler avant 2028.",
+        "texte_alternatif": "Un Périgourdin prépare à Savignac-Lédrier, en Dordogne, un projet de fromage au lait de dromadaire, un lait qui caille mal et qui pourrait ne pas couler avant 2028."
       },
-      "instagram": {
-        "texte": "Agrément rare, gestation de 13 mois : le lait de dromadaire espéré à Savignac-Lédrier, en Dordogne, pourrait ne pas couler avant 2028 🧀",
-        "hashtags": [
-          "#Dordogne",
-          "#Gastronomie",
-          "#NouvelleAquitaine"
-        ]
-      },
-      "facebook": {
-        "texte": "Agrément rare, gestation de 13 mois : le lait de dromadaire espéré à Savignac-Lédrier, en Dordogne, pourrait ne pas couler avant 2028 🧀"
-      },
-      "bluesky": {
-        "texte": "Agrément rare, gestation de 13 mois : le lait de dromadaire espéré à Savignac-Lédrier, en Dordogne, pourrait ne pas couler avant 2028 🧀",
-        "hashtag": "#Dordogne"
-      },
-      "threads": {
-        "texte": "Agrément rare, gestation de 13 mois : le lait de dromadaire espéré à Savignac-Lédrier, en Dordogne, pourrait ne pas couler avant 2028 🧀",
-        "sujet": "Gastronomie"
-      },
-      "x": {
-        "texte": "Agrément rare, gestation de 13 mois : le lait de dromadaire espéré à Savignac-Lédrier, en Dordogne, pourrait ne pas couler avant 2028 🧀"
-      },
-      "source": "regles",
-      "lieuSource": {
-        "precis": "",
-        "ville": "",
-        "departement": ""
-      },
-      "lieuNom": "Dordogne",
-      "commune": null,
-      "comptes": {
-        "instagram": [],
-        "x": [],
-        "bluesky": [],
-        "threads": [],
-        "facebook": []
-      }
-    },
-    "previewSent": false
-  },
-  {
-    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35766",
-    "channel": "threads",
-    "dueAt": 1791721757012,
-    "status": "pending",
-    "attempts": 0,
-    "article": {
-      "title": "Un Périgourdin veut faire du fromage de dromadaire, un lait qui caille mal",
-      "link": "https://passion-aquitaine.ouest-france.fr/lait-fromage-dromadaire-dordogne/",
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35766",
-      "pubDate": "Sun, 11 Oct 2026 11:54:44 +0000",
-      "date": 1791719684000,
-      "categories": [
-        "Actus",
-        "Agriculture",
-        "Dordogne",
-        "Dordogne LOI"
+      "entites": [],
+      "domaines": [
+        "fromage",
+        "élevage",
+        "agriculture"
       ],
-      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/10/dromadaire-france.jpg",
-      "description": "Agrément rare, gestation de 13 mois : le lait de dromadaire espéré à Savignac-Lédrier, en Dordogne, pourrait ne pas couler avant 2028."
-    },
-    "dossier": {
-      "nature": "actu",
-      "sensible": false,
-      "rubrique": "Dordogne",
-      "entites": [],
       "lieu": null,
-      "visuel": {
-        "titre": "Un Périgourdin veut faire du fromage de dromadaire, un lait qui caille mal",
-        "surlignage": "Un Périgourdin",
-        "description": "Agrément rare, gestation de 13 mois : le lait de dromadaire espéré à Savignac-Lédrier, en Dordogne, pourrait ne pas couler avant 2028.",
-        "texte_alternatif": "Dordogne : Un Périgourdin veut faire du fromage de dromadaire, un lait qui caille mal"
-      },
       "instagram": {
-        "texte": "Agrément rare, gestation de 13 mois : le lait de dromadaire espéré à Savignac-Lédrier, en Dordogne, pourrait ne pas couler avant 2028 🧀",
+        "texte": "🐫 Des dromadaires en Dordogne, et bientôt du fromage avec leur lait : le pari d’un Périgourdin\nÀ Savignac-Lédrier, le projet avance lentement. Un agrément rare à obtenir, 13 mois de gestation, et un lait qui caille mal : les premières gouttes pourraient ne pas couler avant 2028.",
         "hashtags": [
           "#Dordogne",
-          "#Gastronomie",
-          "#NouvelleAquitaine"
+          "#FromageDeDromadaire",
+          "#Agriculture"
         ]
       },
       "facebook": {
-        "texte": "Agrément rare, gestation de 13 mois : le lait de dromadaire espéré à Savignac-Lédrier, en Dordogne, pourrait ne pas couler avant 2028 🧀"
+        "texte": "Treize mois de gestation : voilà pourquoi le fromage de dromadaire rêvé en Dordogne va se faire attendre ⏳"
       },
       "bluesky": {
-        "texte": "Agrément rare, gestation de 13 mois : le lait de dromadaire espéré à Savignac-Lédrier, en Dordogne, pourrait ne pas couler avant 2028 🧀",
+        "texte": "Le lait de dromadaire caille mal, et ce n’est pas le seul obstacle pour un Périgourdin de Savignac-Lédrier, en Dordogne : entre un agrément rare et 🐪 une gestation de 13 mois, le premier lait pourrait ne pas couler avant 2028.",
         "hashtag": "#Dordogne"
       },
       "threads": {
-        "texte": "Agrément rare, gestation de 13 mois : le lait de dromadaire espéré à Savignac-Lédrier, en Dordogne, pourrait ne pas couler avant 2028 🧀",
-        "sujet": "Gastronomie"
+        "texte": "Imaginez des dromadaires dans la campagne de Savignac-Lédrier, en pleine Dordogne. C’est le projet d’un Périgourdin qui rêve d’en tirer du fromage. Sauf que tout prend du temps : un agrément rare à décrocher, treize mois de gestation, et un lait qui, en plus, caille mal. Le premier lait pourrait ne pas couler avant 2028 🥛",
+        "sujet": "Dordogne"
       },
       "x": {
-        "texte": "Agrément rare, gestation de 13 mois : le lait de dromadaire espéré à Savignac-Lédrier, en Dordogne, pourrait ne pas couler avant 2028 🧀"
+        "texte": "🐪 Peut-on faire du fromage avec un lait qui caille mal ? Un Périgourdin s’y attelle à Savignac-Lédrier, mais agrément rare et gestation de 13 mois repoussent le premier lait de dromadaire à 2028."
       },
-      "source": "regles",
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 8027,
+        "output": 1767
+      },
+      "angles": {
+        "instagram": "effet de surprise",
+        "facebook": "bénéfice pour le lecteur",
+        "bluesky": "détail méconnu",
+        "threads": "image évocatrice",
+        "x": "question intrigante"
+      },
       "lieuSource": {
         "precis": "",
-        "ville": "",
-        "departement": ""
+        "ville": "Savignac-Lédrier",
+        "departement": "Dordogne"
       },
-      "lieuNom": "Dordogne",
-      "commune": null,
+      "lieuNom": "Savignac-Lédrier",
+      "commune": "Savignac-Lédrier",
       "comptes": {
-        "instagram": [],
-        "x": [],
+        "instagram": [
+          {
+            "nom": "Conseil départemental de la Dordogne",
+            "handle": "cddordogne24",
+            "abonnes": 3545,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "Dordogne",
+            "handle": "cddordogne",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
         "bluesky": [],
         "threads": [],
         "facebook": []
@@ -586,47 +624,84 @@
       "nature": "actu",
       "sensible": false,
       "rubrique": "Dordogne",
-      "entites": [],
-      "lieu": null,
       "visuel": {
         "titre": "Un Périgourdin veut faire du fromage de dromadaire, un lait qui caille mal",
-        "surlignage": "Un Périgourdin",
-        "description": "Agrément rare, gestation de 13 mois : le lait de dromadaire espéré à Savignac-Lédrier, en Dordogne, pourrait ne pas couler avant 2028.",
-        "texte_alternatif": "Dordogne : Un Périgourdin veut faire du fromage de dromadaire, un lait qui caille mal"
+        "surlignage": "dromadaire",
+        "description": "À Savignac-Lédrier, le projet se heurte à un agrément rare et à une gestation de 13 mois. Résultat : le premier lait de dromadaire pourrait ne pas couler avant 2028.",
+        "texte_alternatif": "Un Périgourdin prépare à Savignac-Lédrier, en Dordogne, un projet de fromage au lait de dromadaire, un lait qui caille mal et qui pourrait ne pas couler avant 2028."
       },
+      "entites": [],
+      "domaines": [
+        "fromage",
+        "élevage",
+        "agriculture"
+      ],
+      "lieu": null,
       "instagram": {
-        "texte": "Agrément rare, gestation de 13 mois : le lait de dromadaire espéré à Savignac-Lédrier, en Dordogne, pourrait ne pas couler avant 2028 🧀",
+        "texte": "🐫 Des dromadaires en Dordogne, et bientôt du fromage avec leur lait : le pari d’un Périgourdin\nÀ Savignac-Lédrier, le projet avance lentement. Un agrément rare à obtenir, 13 mois de gestation, et un lait qui caille mal : les premières gouttes pourraient ne pas couler avant 2028.",
         "hashtags": [
           "#Dordogne",
-          "#Gastronomie",
-          "#NouvelleAquitaine"
+          "#FromageDeDromadaire",
+          "#Agriculture"
         ]
       },
       "facebook": {
-        "texte": "Agrément rare, gestation de 13 mois : le lait de dromadaire espéré à Savignac-Lédrier, en Dordogne, pourrait ne pas couler avant 2028 🧀"
+        "texte": "Treize mois de gestation : voilà pourquoi le fromage de dromadaire rêvé en Dordogne va se faire attendre ⏳"
       },
       "bluesky": {
-        "texte": "Agrément rare, gestation de 13 mois : le lait de dromadaire espéré à Savignac-Lédrier, en Dordogne, pourrait ne pas couler avant 2028 🧀",
+        "texte": "Le lait de dromadaire caille mal, et ce n’est pas le seul obstacle pour un Périgourdin de Savignac-Lédrier, en Dordogne : entre un agrément rare et 🐪 une gestation de 13 mois, le premier lait pourrait ne pas couler avant 2028.",
         "hashtag": "#Dordogne"
       },
       "threads": {
-        "texte": "Agrément rare, gestation de 13 mois : le lait de dromadaire espéré à Savignac-Lédrier, en Dordogne, pourrait ne pas couler avant 2028 🧀",
-        "sujet": "Gastronomie"
+        "texte": "Imaginez des dromadaires dans la campagne de Savignac-Lédrier, en pleine Dordogne. C’est le projet d’un Périgourdin qui rêve d’en tirer du fromage. Sauf que tout prend du temps : un agrément rare à décrocher, treize mois de gestation, et un lait qui, en plus, caille mal. Le premier lait pourrait ne pas couler avant 2028 🥛",
+        "sujet": "Dordogne"
       },
       "x": {
-        "texte": "Agrément rare, gestation de 13 mois : le lait de dromadaire espéré à Savignac-Lédrier, en Dordogne, pourrait ne pas couler avant 2028 🧀"
+        "texte": "🐪 Peut-on faire du fromage avec un lait qui caille mal ? Un Périgourdin s’y attelle à Savignac-Lédrier, mais agrément rare et gestation de 13 mois repoussent le premier lait de dromadaire à 2028."
       },
-      "source": "regles",
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 8027,
+        "output": 1767
+      },
+      "angles": {
+        "instagram": "effet de surprise",
+        "facebook": "bénéfice pour le lecteur",
+        "bluesky": "détail méconnu",
+        "threads": "image évocatrice",
+        "x": "question intrigante"
+      },
       "lieuSource": {
         "precis": "",
-        "ville": "",
-        "departement": ""
+        "ville": "Savignac-Lédrier",
+        "departement": "Dordogne"
       },
-      "lieuNom": "Dordogne",
-      "commune": null,
+      "lieuNom": "Savignac-Lédrier",
+      "commune": "Savignac-Lédrier",
       "comptes": {
-        "instagram": [],
-        "x": [],
+        "instagram": [
+          {
+            "nom": "Conseil départemental de la Dordogne",
+            "handle": "cddordogne24",
+            "abonnes": 3545,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "Dordogne",
+            "handle": "cddordogne",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
         "bluesky": [],
         "threads": [],
         "facebook": []

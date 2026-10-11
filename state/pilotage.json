@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-11T12:00:45.635Z",
+  "genereLe": "2026-10-11T12:20:42.788Z",
   "jour": "2026-10-11",
   "reseaux": {
     "instagram": {
@@ -122,11 +122,11 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 1,
-      "semaine": 10,
-      "total": 35,
-      "dernier": "2026-10-11T06:32:44.546Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DeWBAR9ETM-"
+      "aujourdhui": 2,
+      "semaine": 11,
+      "total": 36,
+      "dernier": "2026-10-11T12:32:52.001Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DeWqSzKlqX4"
     },
     "x": {
       "actif": true,
@@ -164,6 +164,22 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35766",
+      "titre": "Un Périgourdin veut faire du fromage de dromadaire, un lait qui caille mal",
+      "lien": "https://passion-aquitaine.ouest-france.fr/lait-fromage-dromadaire-dordogne/",
+      "at": "2026-10-11T12:32:52.001Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Imaginez des dromadaires dans la campagne de Savignac-Lédrier, en pleine Dordogne. C’est le projet d’un Périgourdin qui rêve d’en tirer du fromage. Sauf que tout prend du temps : un agrément rare à décrocher, treize mois de gestation, et un lait qui, en plus, caille mal. Le premier lait pourrait ne pas couler avant 2028 🥛",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-14ec6da8-th.jpg",
+          "mode": "reponse",
+          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/lait-fromage-dromadaire-dordogne/",
+          "sujet": "Savignac-Lédrier",
+          "publieLe": "2026-10-11T12:32:52.001Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35717",
       "titre": "Elle parcourt les vergers sans GPS : cette machine du Lot-et-Garonne sait où aller",
@@ -387,57 +403,19 @@
           "publieLe": "2026-10-09T18:06:23.616Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35715",
-      "titre": "Bars à La Rochelle : 5 adresses incontournables et insolites",
-      "lien": "https://passion-aquitaine.ouest-france.fr/top-5-bars-incontournables-la-rochelle/",
-      "at": "2026-10-09T10:14:16.585Z",
-      "reseaux": {
-        "threads": {
-          "texte": "🤐 Un cocktail bar caché à La Rochelle, vous en aviez entendu parler ? Il fait partie de nos cinq adresses pour une soirée qui démarre à l’apéro et se termine à 2 h. Au programme aussi : une guinguette glacée et deux bars installés face aux tours. Et vous, c’est quoi votre adresse rochelaise pour un dernier verre ?",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-1d143348-th.jpg",
-          "mode": "reponse",
-          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/top-5-bars-incontournables-la-rochelle/",
-          "sujet": "La Rochelle",
-          "publieLe": "2026-10-09T06:31:16.196Z"
-        },
-        "x": {
-          "texte": "Les tours de La Rochelle en face, un verre à la main jusqu’à 2 h 🌙 Guinguette glacée, cocktail bar caché : cinq bars pour une soirée rochelaise de l’apéro à la nuit.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-1d143348-x.jpg",
-          "mode": "reponse",
-          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/top-5-bars-incontournables-la-rochelle/",
-          "sujet": null,
-          "publieLe": "2026-10-09T07:00:51.987Z"
-        },
-        "facebook": {
-          "texte": "À La Rochelle, l’un des meilleurs bars pour finir la soirée se cache littéralement, encore faut-il savoir où le trouver 🍹",
-          "image": null,
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-09T07:23:13.513Z"
-        },
-        "bluesky": {
-          "texte": "Une soirée complète sans chercher : cinq bars de #LaRochelle à enchaîner, d’une guinguette glacée à un #cocktail #bar caché, avec deux adresses face aux tours ouvertes jusqu’à 2 h 🥂\n➡️ Lire l’article",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-1d143348-bsky.jpg",
-          "mode": "image",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-09T07:26:50.285Z"
-        },
-        "instagram": {
-          "texte": "La Rochelle by night : cinq bars pour tenir de l’apéro jusqu’à 2 h 🍸\n⠀\nUne guinguette glacée, deux comptoirs face aux tours et un cocktail bar bien caché. Notre sélection d’adresses insolites pour une soirée réussie en Charente-Maritime.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#LaRochelle #BarsLaRochelle #CharenteMaritime",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-1d143348-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-09T10:14:16.585Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "threads",
+      "at": "2026-10-11T12:32:52.001Z",
+      "titre": "Un Périgourdin veut faire du fromage de dromadaire, un lait qui caille mal",
+      "lien": "https://passion-aquitaine.ouest-france.fr/lait-fromage-dromadaire-dordogne/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/DeWqSzKlqX4",
+      "format": "reponse",
+      "texte": "Imaginez des dromadaires dans la campagne de Savignac-Lédrier, en pleine Dordogne. C’est le projet d’un Périgourdin qui rêve d’en tirer du fromage. Sauf que tout prend du temps : un agrément rare à décrocher, treize mois de gestation, et un lait qui, en plus, caille mal. Le premier lait pourrait ne pas couler avant 2028 🥛",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-14ec6da8-th.jpg"
+    },
     {
       "channel": "instagram",
       "at": "2026-10-11T11:13:12.252Z",
@@ -527,28 +505,9 @@
       "format": "reply",
       "texte": "Aucun GPS à bord, et pourtant elle sait où aller. Dans le #LotEtGaronne, une machine agricole de #Cancon circule dans les vergers grâce à la navigation autonome et pulvérise de manière intelligente 🚜",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261010-c29a0140-bsky.jpg"
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-10-10T10:04:00.482Z",
-      "titre": "Fouilles à la dune du Pilat, un vestige de 2 500 ans ressurgit",
-      "lien": "https://passion-aquitaine.ouest-france.fr/dune-du-pilat-atelier-sel-fouilles/",
-      "lienPost": "https://www.instagram.com/p/DeT010pDA3R/",
-      "format": null,
-      "texte": "La dune du Pilat cache bien plus que du sable : un atelier de sel de plus de 2 500 ans vient de ressurgir à son pied\n⠀\nSur le Bassin d’Arcachon, les archéologues fouillent ce vestige avant que l’érosion ne l’efface. Une occasion rare de découvrir comment on produisait déjà du sel ici il y a des millénaires ⛏️\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#DuneDuPilat #BassinDArcachon #Archeologie",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-7fe1d4e9-1.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "threads",
-      "dueAt": "2026-10-11T12:29:17.012Z",
-      "prochainPassage": "2026-10-11T13:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Un Périgourdin veut faire du fromage de dromadaire, un lait qui caille mal"
-    },
     {
       "channel": "x",
       "dueAt": "2026-10-11T14:20:00.000Z",
@@ -724,7 +683,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-11T12:01:25.417Z",
+    "genereLe": "2026-10-11T12:33:02.398Z",
     "posts": 52,
     "parReseau": {
       "instagram": {
@@ -886,7 +845,7 @@
       }
     },
     "publies": {
-      "threads": 15,
+      "threads": 16,
       "facebook": 14,
       "bluesky": 15,
       "x": 15,
@@ -941,29 +900,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 7,
-      "entree": 56177,
-      "sortie": 6594,
-      "cout": 0.356588,
+      "appels": 9,
+      "entree": 72179,
+      "sortie": 9242,
+      "cout": 0.473556,
       "cle": "2026-10-11"
     },
     "semaine": {
-      "appels": 20,
-      "entree": 159139,
-      "sortie": 20235,
-      "cout": 1.0412560000000002
+      "appels": 22,
+      "entree": 175141,
+      "sortie": 22883,
+      "cout": 1.1582240000000001
     },
     "mois": {
-      "appels": 31,
-      "entree": 243785,
-      "sortie": 29930,
-      "cout": 1.57374,
+      "appels": 33,
+      "entree": 259787,
+      "sortie": 32578,
+      "cout": 1.6907079999999999,
       "cle": "2026-10"
     },
-    "projection": 4.44,
-    "moyenneAppel": 0.0508,
+    "projection": 4.76,
+    "moyenneAppel": 0.0512,
     "parModele": {
-      "claude-opus-5-5": 31
+      "claude-opus-5-5": 33
     },
     "serie": [
       [
@@ -1020,7 +979,7 @@
       ],
       [
         "2026-10-11",
-        0.3566
+        0.4736
       ]
     ],
     "depuis": "2026-09-23"

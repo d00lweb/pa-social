@@ -3166,5 +3166,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35766",
+    "channel": "threads",
+    "at": "2026-10-11T12:32:52.001Z",
+    "mediaId": "18081086624524753",
+    "titre": "Un Périgourdin veut faire du fromage de dromadaire, un lait qui caille mal",
+    "lien": "https://passion-aquitaine.ouest-france.fr/lait-fromage-dromadaire-dordogne/",
+    "lienPost": "https://www.threads.com/@lovaquitaine/post/DeWqSzKlqX4",
+    "format": "reponse",
+    "mention": false,
+    "apercu": {
+      "texte": "Imaginez des dromadaires dans la campagne de Savignac-Lédrier, en pleine Dordogne. C’est le projet d’un Périgourdin qui rêve d’en tirer du fromage. Sauf que tout prend du temps : un agrément rare à décrocher, treize mois de gestation, et un lait qui, en plus, caille mal. Le premier lait pourrait ne pas couler avant 2028 🥛",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-14ec6da8-th.jpg",
+      "mode": "reponse",
+      "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/lait-fromage-dromadaire-dordogne/",
+      "sujet": "Savignac-Lédrier"
+    }
   }
 ]

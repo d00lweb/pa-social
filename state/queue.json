@@ -216,5 +216,415 @@
       }
     },
     "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35475",
+    "channel": "instagram",
+    "dueAt": 1791734681373,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "4 châteaux du Pays basque qu’il faut absolument visiter",
+      "link": "https://passion-aquitaine.ouest-france.fr/visiter-chateaux-pays-basque/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35475",
+      "pubDate": "Sun, 11 Oct 2026 05:30:04 +0000",
+      "date": 1791696604000,
+      "categories": [
+        "Pyrénées-Atlantiques",
+        "Visites & loisirs",
+        "Basque LOI"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/10/chateau-urtubie-urrugne.jpg",
+      "description": "Un observatoire signé Viollet-le-Duc à Hendaye, un château habité depuis 1341 à Urrugne : quatre châteaux du Pays basque à visiter."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Pays basque",
+      "entites": [],
+      "lieu": null,
+      "visuel": {
+        "titre": "4 châteaux du Pays basque qu’il faut absolument visiter",
+        "surlignage": "4 châteaux",
+        "description": "Un observatoire signé Viollet-le-Duc à Hendaye, un château habité depuis 1341 à Urrugne : quatre châteaux du Pays basque à visiter.",
+        "texte_alternatif": "Pays basque : 4 châteaux du Pays basque qu’il faut absolument visiter"
+      },
+      "instagram": {
+        "texte": "Un observatoire signé Viollet-le-Duc à Hendaye, un château habité depuis 1341 à Urrugne : quatre châteaux du Pays basque à visiter 🏰",
+        "hashtags": [
+          "#PaysBasque",
+          "#Patrimoine",
+          "#NouvelleAquitaine"
+        ]
+      },
+      "facebook": {
+        "texte": "Un observatoire signé Viollet-le-Duc à Hendaye, un château habité depuis 1341 à Urrugne : quatre châteaux du Pays basque à visiter 🏰"
+      },
+      "bluesky": {
+        "texte": "Un observatoire signé Viollet-le-Duc à Hendaye, un château habité depuis 1341 à Urrugne : quatre châteaux du Pays basque à visiter 🏰",
+        "hashtag": "#PaysBasque"
+      },
+      "threads": {
+        "texte": "Un observatoire signé Viollet-le-Duc à Hendaye, un château habité depuis 1341 à Urrugne : quatre châteaux du Pays basque à visiter 🏰",
+        "sujet": "Pays basque"
+      },
+      "x": {
+        "texte": "Un observatoire signé Viollet-le-Duc à Hendaye, un château habité depuis 1341 à Urrugne : quatre châteaux du Pays basque à visiter 🏰"
+      },
+      "source": "regles",
+      "lieuSource": {
+        "precis": "",
+        "ville": "",
+        "departement": "Pays basque"
+      },
+      "lieuNom": "Pays basque",
+      "commune": null,
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Pays basque",
+            "handle": "paysbasque_net",
+            "abonnes": 129619,
+            "preuve": 3,
+            "role": "theme",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35475",
+    "channel": "bluesky",
+    "dueAt": 1791702316748,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "4 châteaux du Pays basque qu’il faut absolument visiter",
+      "link": "https://passion-aquitaine.ouest-france.fr/visiter-chateaux-pays-basque/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35475",
+      "pubDate": "Sun, 11 Oct 2026 05:30:04 +0000",
+      "date": 1791696604000,
+      "categories": [
+        "Pyrénées-Atlantiques",
+        "Visites & loisirs",
+        "Basque LOI"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/10/chateau-urtubie-urrugne.jpg",
+      "description": "Un observatoire signé Viollet-le-Duc à Hendaye, un château habité depuis 1341 à Urrugne : quatre châteaux du Pays basque à visiter."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Pays basque",
+      "entites": [],
+      "lieu": null,
+      "visuel": {
+        "titre": "4 châteaux du Pays basque qu’il faut absolument visiter",
+        "surlignage": "4 châteaux",
+        "description": "Un observatoire signé Viollet-le-Duc à Hendaye, un château habité depuis 1341 à Urrugne : quatre châteaux du Pays basque à visiter.",
+        "texte_alternatif": "Pays basque : 4 châteaux du Pays basque qu’il faut absolument visiter"
+      },
+      "instagram": {
+        "texte": "Un observatoire signé Viollet-le-Duc à Hendaye, un château habité depuis 1341 à Urrugne : quatre châteaux du Pays basque à visiter 🏰",
+        "hashtags": [
+          "#PaysBasque",
+          "#Patrimoine",
+          "#NouvelleAquitaine"
+        ]
+      },
+      "facebook": {
+        "texte": "Un observatoire signé Viollet-le-Duc à Hendaye, un château habité depuis 1341 à Urrugne : quatre châteaux du Pays basque à visiter 🏰"
+      },
+      "bluesky": {
+        "texte": "Un observatoire signé Viollet-le-Duc à Hendaye, un château habité depuis 1341 à Urrugne : quatre châteaux du Pays basque à visiter 🏰",
+        "hashtag": "#PaysBasque"
+      },
+      "threads": {
+        "texte": "Un observatoire signé Viollet-le-Duc à Hendaye, un château habité depuis 1341 à Urrugne : quatre châteaux du Pays basque à visiter 🏰",
+        "sujet": "Pays basque"
+      },
+      "x": {
+        "texte": "Un observatoire signé Viollet-le-Duc à Hendaye, un château habité depuis 1341 à Urrugne : quatre châteaux du Pays basque à visiter 🏰"
+      },
+      "source": "regles",
+      "lieuSource": {
+        "precis": "",
+        "ville": "",
+        "departement": "Pays basque"
+      },
+      "lieuNom": "Pays basque",
+      "commune": null,
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Pays basque",
+            "handle": "paysbasque_net",
+            "abonnes": 129619,
+            "preuve": 3,
+            "role": "theme",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35475",
+    "channel": "facebook",
+    "dueAt": 1791743603020,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "4 châteaux du Pays basque qu’il faut absolument visiter",
+      "link": "https://passion-aquitaine.ouest-france.fr/visiter-chateaux-pays-basque/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35475",
+      "pubDate": "Sun, 11 Oct 2026 05:30:04 +0000",
+      "date": 1791696604000,
+      "categories": [
+        "Pyrénées-Atlantiques",
+        "Visites & loisirs",
+        "Basque LOI"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/10/chateau-urtubie-urrugne.jpg",
+      "description": "Un observatoire signé Viollet-le-Duc à Hendaye, un château habité depuis 1341 à Urrugne : quatre châteaux du Pays basque à visiter."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Pays basque",
+      "entites": [],
+      "lieu": null,
+      "visuel": {
+        "titre": "4 châteaux du Pays basque qu’il faut absolument visiter",
+        "surlignage": "4 châteaux",
+        "description": "Un observatoire signé Viollet-le-Duc à Hendaye, un château habité depuis 1341 à Urrugne : quatre châteaux du Pays basque à visiter.",
+        "texte_alternatif": "Pays basque : 4 châteaux du Pays basque qu’il faut absolument visiter"
+      },
+      "instagram": {
+        "texte": "Un observatoire signé Viollet-le-Duc à Hendaye, un château habité depuis 1341 à Urrugne : quatre châteaux du Pays basque à visiter 🏰",
+        "hashtags": [
+          "#PaysBasque",
+          "#Patrimoine",
+          "#NouvelleAquitaine"
+        ]
+      },
+      "facebook": {
+        "texte": "Un observatoire signé Viollet-le-Duc à Hendaye, un château habité depuis 1341 à Urrugne : quatre châteaux du Pays basque à visiter 🏰"
+      },
+      "bluesky": {
+        "texte": "Un observatoire signé Viollet-le-Duc à Hendaye, un château habité depuis 1341 à Urrugne : quatre châteaux du Pays basque à visiter 🏰",
+        "hashtag": "#PaysBasque"
+      },
+      "threads": {
+        "texte": "Un observatoire signé Viollet-le-Duc à Hendaye, un château habité depuis 1341 à Urrugne : quatre châteaux du Pays basque à visiter 🏰",
+        "sujet": "Pays basque"
+      },
+      "x": {
+        "texte": "Un observatoire signé Viollet-le-Duc à Hendaye, un château habité depuis 1341 à Urrugne : quatre châteaux du Pays basque à visiter 🏰"
+      },
+      "source": "regles",
+      "lieuSource": {
+        "precis": "",
+        "ville": "",
+        "departement": "Pays basque"
+      },
+      "lieuNom": "Pays basque",
+      "commune": null,
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Pays basque",
+            "handle": "paysbasque_net",
+            "abonnes": 129619,
+            "preuve": 3,
+            "role": "theme",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35475",
+    "channel": "threads",
+    "dueAt": 1791700109656,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "4 châteaux du Pays basque qu’il faut absolument visiter",
+      "link": "https://passion-aquitaine.ouest-france.fr/visiter-chateaux-pays-basque/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35475",
+      "pubDate": "Sun, 11 Oct 2026 05:30:04 +0000",
+      "date": 1791696604000,
+      "categories": [
+        "Pyrénées-Atlantiques",
+        "Visites & loisirs",
+        "Basque LOI"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/10/chateau-urtubie-urrugne.jpg",
+      "description": "Un observatoire signé Viollet-le-Duc à Hendaye, un château habité depuis 1341 à Urrugne : quatre châteaux du Pays basque à visiter."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Pays basque",
+      "entites": [],
+      "lieu": null,
+      "visuel": {
+        "titre": "4 châteaux du Pays basque qu’il faut absolument visiter",
+        "surlignage": "4 châteaux",
+        "description": "Un observatoire signé Viollet-le-Duc à Hendaye, un château habité depuis 1341 à Urrugne : quatre châteaux du Pays basque à visiter.",
+        "texte_alternatif": "Pays basque : 4 châteaux du Pays basque qu’il faut absolument visiter"
+      },
+      "instagram": {
+        "texte": "Un observatoire signé Viollet-le-Duc à Hendaye, un château habité depuis 1341 à Urrugne : quatre châteaux du Pays basque à visiter 🏰",
+        "hashtags": [
+          "#PaysBasque",
+          "#Patrimoine",
+          "#NouvelleAquitaine"
+        ]
+      },
+      "facebook": {
+        "texte": "Un observatoire signé Viollet-le-Duc à Hendaye, un château habité depuis 1341 à Urrugne : quatre châteaux du Pays basque à visiter 🏰"
+      },
+      "bluesky": {
+        "texte": "Un observatoire signé Viollet-le-Duc à Hendaye, un château habité depuis 1341 à Urrugne : quatre châteaux du Pays basque à visiter 🏰",
+        "hashtag": "#PaysBasque"
+      },
+      "threads": {
+        "texte": "Un observatoire signé Viollet-le-Duc à Hendaye, un château habité depuis 1341 à Urrugne : quatre châteaux du Pays basque à visiter 🏰",
+        "sujet": "Pays basque"
+      },
+      "x": {
+        "texte": "Un observatoire signé Viollet-le-Duc à Hendaye, un château habité depuis 1341 à Urrugne : quatre châteaux du Pays basque à visiter 🏰"
+      },
+      "source": "regles",
+      "lieuSource": {
+        "precis": "",
+        "ville": "",
+        "departement": "Pays basque"
+      },
+      "lieuNom": "Pays basque",
+      "commune": null,
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Pays basque",
+            "handle": "paysbasque_net",
+            "abonnes": 129619,
+            "preuve": 3,
+            "role": "theme",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35475",
+    "channel": "x",
+    "dueAt": 1791705600000,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "4 châteaux du Pays basque qu’il faut absolument visiter",
+      "link": "https://passion-aquitaine.ouest-france.fr/visiter-chateaux-pays-basque/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35475",
+      "pubDate": "Sun, 11 Oct 2026 05:30:04 +0000",
+      "date": 1791696604000,
+      "categories": [
+        "Pyrénées-Atlantiques",
+        "Visites & loisirs",
+        "Basque LOI"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/10/chateau-urtubie-urrugne.jpg",
+      "description": "Un observatoire signé Viollet-le-Duc à Hendaye, un château habité depuis 1341 à Urrugne : quatre châteaux du Pays basque à visiter."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Pays basque",
+      "entites": [],
+      "lieu": null,
+      "visuel": {
+        "titre": "4 châteaux du Pays basque qu’il faut absolument visiter",
+        "surlignage": "4 châteaux",
+        "description": "Un observatoire signé Viollet-le-Duc à Hendaye, un château habité depuis 1341 à Urrugne : quatre châteaux du Pays basque à visiter.",
+        "texte_alternatif": "Pays basque : 4 châteaux du Pays basque qu’il faut absolument visiter"
+      },
+      "instagram": {
+        "texte": "Un observatoire signé Viollet-le-Duc à Hendaye, un château habité depuis 1341 à Urrugne : quatre châteaux du Pays basque à visiter 🏰",
+        "hashtags": [
+          "#PaysBasque",
+          "#Patrimoine",
+          "#NouvelleAquitaine"
+        ]
+      },
+      "facebook": {
+        "texte": "Un observatoire signé Viollet-le-Duc à Hendaye, un château habité depuis 1341 à Urrugne : quatre châteaux du Pays basque à visiter 🏰"
+      },
+      "bluesky": {
+        "texte": "Un observatoire signé Viollet-le-Duc à Hendaye, un château habité depuis 1341 à Urrugne : quatre châteaux du Pays basque à visiter 🏰",
+        "hashtag": "#PaysBasque"
+      },
+      "threads": {
+        "texte": "Un observatoire signé Viollet-le-Duc à Hendaye, un château habité depuis 1341 à Urrugne : quatre châteaux du Pays basque à visiter 🏰",
+        "sujet": "Pays basque"
+      },
+      "x": {
+        "texte": "Un observatoire signé Viollet-le-Duc à Hendaye, un château habité depuis 1341 à Urrugne : quatre châteaux du Pays basque à visiter 🏰"
+      },
+      "source": "regles",
+      "lieuSource": {
+        "precis": "",
+        "ville": "",
+        "departement": "Pays basque"
+      },
+      "lieuNom": "Pays basque",
+      "commune": null,
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Pays basque",
+            "handle": "paysbasque_net",
+            "abonnes": 129619,
+            "preuve": 3,
+            "role": "theme",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
   }
 ]

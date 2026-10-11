@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-11T05:20:38.579Z",
+  "genereLe": "2026-10-11T06:00:37.678Z",
   "jour": "2026-10-11",
   "reseaux": {
     "instagram": {
@@ -541,6 +541,24 @@
   ],
   "file": [
     {
+      "channel": "threads",
+      "dueAt": "2026-10-11T06:28:29.656Z",
+      "prochainPassage": "2026-10-11T07:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "4 châteaux du Pays basque qu’il faut absolument visiter"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-10-11T07:05:16.748Z",
+      "prochainPassage": "2026-10-11T07:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "4 châteaux du Pays basque qu’il faut absolument visiter"
+    },
+    {
       "channel": "facebook",
       "dueAt": "2026-10-11T07:26:45.640Z",
       "prochainPassage": "2026-10-11T08:00:00.000Z",
@@ -550,6 +568,15 @@
       "titre": "Elle parcourt les vergers sans GPS : cette machine du Lot-et-Garonne sait où aller"
     },
     {
+      "channel": "x",
+      "dueAt": "2026-10-11T08:00:00.000Z",
+      "prochainPassage": "2026-10-11T08:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "4 châteaux du Pays basque qu’il faut absolument visiter"
+    },
+    {
       "channel": "instagram",
       "dueAt": "2026-10-11T11:12:38.286Z",
       "prochainPassage": "2026-10-11T11:20:00.000Z",
@@ -557,6 +584,24 @@
       "prevuInitialement": null,
       "raison": null,
       "titre": "Elle parcourt les vergers sans GPS : cette machine du Lot-et-Garonne sait où aller"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-10-11T16:04:41.373Z",
+      "prochainPassage": "2026-10-11T16:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "4 châteaux du Pays basque qu’il faut absolument visiter"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-10-11T18:33:23.020Z",
+      "prochainPassage": "2026-10-11T19:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "4 châteaux du Pays basque qu’il faut absolument visiter"
     }
   ],
   "alertes": [],
@@ -640,7 +685,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-11T04:20:41.151Z"
+    "derniere": "2026-10-11T06:00:37.678Z"
   },
   "abonnes": {
     "instagram": {
@@ -679,7 +724,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-11T05:20:42.820Z",
+    "genereLe": "2026-10-11T06:01:10.059Z",
     "posts": 46,
     "parReseau": {
       "instagram": {
@@ -895,29 +940,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 0,
-      "entree": 0,
-      "sortie": 0,
-      "cout": 0,
+      "appels": 3,
+      "entree": 24104,
+      "sortie": 2545,
+      "cout": 0.147316,
       "cle": "2026-10-11"
     },
     "semaine": {
-      "appels": 13,
-      "entree": 102962,
-      "sortie": 13641,
-      "cout": 0.6846679999999999
+      "appels": 16,
+      "entree": 127066,
+      "sortie": 16186,
+      "cout": 0.8319840000000001
     },
     "mois": {
-      "appels": 24,
-      "entree": 187608,
-      "sortie": 23336,
-      "cout": 1.217152,
+      "appels": 27,
+      "entree": 211712,
+      "sortie": 25881,
+      "cout": 1.364468,
       "cle": "2026-10"
     },
-    "projection": 3.43,
-    "moyenneAppel": 0.0507,
+    "projection": 3.85,
+    "moyenneAppel": 0.0505,
     "parModele": {
-      "claude-opus-5-5": 24
+      "claude-opus-5-5": 27
     },
     "serie": [
       [
@@ -974,7 +1019,7 @@
       ],
       [
         "2026-10-11",
-        0
+        0.1473
       ]
     ],
     "depuis": "2026-09-23"

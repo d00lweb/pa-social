@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-11T07:20:38.618Z",
+  "genereLe": "2026-10-11T08:00:38.194Z",
   "jour": "2026-10-11",
   "reseaux": {
     "instagram": {
@@ -156,14 +156,46 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 10,
-      "total": 37,
-      "dernier": "2026-10-10T11:20:54.398Z",
+      "aujourdhui": 1,
+      "semaine": 11,
+      "total": 38,
+      "dernier": "2026-10-11T08:00:48.436Z",
       "lienDernier": null
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35475",
+      "titre": "4 châteaux du Pays basque qu’il faut absolument visiter",
+      "lien": "https://passion-aquitaine.ouest-france.fr/visiter-chateaux-pays-basque/",
+      "at": "2026-10-11T08:00:48.436Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Envie d’une sortie patrimoine au Pays basque ce week-end 🧭 Voici quatre châteaux qui valent le détour. Parmi eux, un observatoire imaginé par Viollet-le-Duc à Hendaye et une demeure d’Urrugne habitée sans interruption depuis 1341. De quoi composer une belle journée entre histoire et architecture, à quelques kilomètres les uns des autres.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-81a127fe-th.jpg",
+          "mode": "reponse",
+          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/visiter-chateaux-pays-basque/",
+          "sujet": "Hendaye",
+          "publieLe": "2026-10-11T06:32:44.546Z"
+        },
+        "bluesky": {
+          "texte": "🔭 Un observatoire dessiné par Viollet-le-Duc, face à l’océan, à #Hendaye. Ce n’est pas le genre de #château qu’on attend au #PaysBasque, et pourtant il figure parmi les quatre à visiter, avec une demeure d’Urrugne habitée depuis 1341.\n➡️ Lire l’article",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-81a127fe-bsky.jpg",
+          "mode": "image",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-11T07:05:19.112Z"
+        },
+        "x": {
+          "texte": "À Urrugne, un château est habité depuis 1341. À #Hendaye, 🔭 Viollet-le-Duc a signé un observatoire. Quatre châteaux du Pays basque méritent la visite.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-81a127fe-x.jpg",
+          "mode": "reponse",
+          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/visiter-chateaux-pays-basque/",
+          "sujet": null,
+          "publieLe": "2026-10-11T08:00:48.436Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35717",
       "titre": "Elle parcourt les vergers sans GPS : cette machine du Lot-et-Garonne sait où aller",
@@ -201,30 +233,6 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-10-11T07:26:54.159Z"
-        }
-      }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35475",
-      "titre": "4 châteaux du Pays basque qu’il faut absolument visiter",
-      "lien": "https://passion-aquitaine.ouest-france.fr/visiter-chateaux-pays-basque/",
-      "at": "2026-10-11T07:05:19.112Z",
-      "reseaux": {
-        "threads": {
-          "texte": "Envie d’une sortie patrimoine au Pays basque ce week-end 🧭 Voici quatre châteaux qui valent le détour. Parmi eux, un observatoire imaginé par Viollet-le-Duc à Hendaye et une demeure d’Urrugne habitée sans interruption depuis 1341. De quoi composer une belle journée entre histoire et architecture, à quelques kilomètres les uns des autres.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-81a127fe-th.jpg",
-          "mode": "reponse",
-          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/visiter-chateaux-pays-basque/",
-          "sujet": "Hendaye",
-          "publieLe": "2026-10-11T06:32:44.546Z"
-        },
-        "bluesky": {
-          "texte": "🔭 Un observatoire dessiné par Viollet-le-Duc, face à l’océan, à #Hendaye. Ce n’est pas le genre de #château qu’on attend au #PaysBasque, et pourtant il figure parmi les quatre à visiter, avec une demeure d’Urrugne habitée depuis 1341.\n➡️ Lire l’article",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-81a127fe-bsky.jpg",
-          "mode": "image",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-11T07:05:19.112Z"
         }
       }
     },
@@ -423,6 +431,16 @@
   ],
   "publications": [
     {
+      "channel": "x",
+      "at": "2026-10-11T08:00:48.436Z",
+      "titre": "4 châteaux du Pays basque qu’il faut absolument visiter",
+      "lien": "https://passion-aquitaine.ouest-france.fr/visiter-chateaux-pays-basque/",
+      "lienPost": null,
+      "format": "reponse",
+      "texte": "À Urrugne, un château est habité depuis 1341. À #Hendaye, 🔭 Viollet-le-Duc a signé un observatoire. Quatre châteaux du Pays basque méritent la visite.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-81a127fe-x.jpg"
+    },
+    {
       "channel": "facebook",
       "at": "2026-10-11T07:26:54.159Z",
       "titre": "Elle parcourt les vergers sans GPS : cette machine du Lot-et-Garonne sait où aller",
@@ -511,28 +529,9 @@
       "format": "reponse",
       "texte": "🌳 Cancon, Lot-et-Garonne. C’est ici qu’est née une machine agricole un peu à part : elle se déplace dans les vergers sans GPS. Son secret tient en deux idées, une navigation autonome et une pulvérisation intelligente. De quoi changer le quotidien des arboriculteurs du coin.",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261010-c29a0140-th.jpg"
-    },
-    {
-      "channel": "x",
-      "at": "2026-10-10T08:01:01.950Z",
-      "titre": "Golfs de Gironde : top 3 des meilleurs parcours près de Bordeaux",
-      "lien": "https://passion-aquitaine.ouest-france.fr/top-golfs-bordeaux-gironde/",
-      "lienPost": null,
-      "format": "reponse",
-      "texte": "Gironde : du Bassin d’Arcachon à Saint-Émilion, 🏌️‍♂️ trois golfs dominent le classement des meilleurs parcours, tous proches de #Bordeaux.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261010-83f46501-x.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "x",
-      "dueAt": "2026-10-11T08:00:00.000Z",
-      "prochainPassage": "2026-10-11T08:00:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "4 châteaux du Pays basque qu’il faut absolument visiter"
-    },
     {
       "channel": "instagram",
       "dueAt": "2026-10-11T11:12:38.286Z",
@@ -563,7 +562,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 243,
+    "releves": 244,
     "parReseau": {
       "instagram": {
         "posts": 29,
@@ -681,8 +680,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-11T07:27:03.633Z",
-    "posts": 48,
+    "genereLe": "2026-10-11T08:00:54.964Z",
+    "posts": 49,
     "parReseau": {
       "instagram": {
         "posts": 11,
@@ -693,7 +692,7 @@
         "moyenne": 1
       },
       "bluesky": {
-        "posts": 12,
+        "posts": 13,
         "moyenne": 0.5
       },
       "facebook": {
@@ -706,13 +705,13 @@
         "posts": 11,
         "moyenne": 1.2
       },
-      "card": {
-        "posts": 1,
-        "moyenne": 1
-      },
       "reply": {
         "posts": 7,
         "moyenne": 0.7
+      },
+      "card": {
+        "posts": 2,
+        "moyenne": 0.5
       },
       "image": {
         "posts": 5,
@@ -733,7 +732,7 @@
         "moyenne": 2
       },
       "matin": {
-        "posts": 32,
+        "posts": 33,
         "moyenne": 0.3
       }
     },
@@ -768,7 +767,7 @@
           "moyenne": 5
         },
         "8 h – 9 h 30": {
-          "posts": 9,
+          "posts": 10,
           "moyenne": 0.1
         },
         "12 h – 13 h 30": {
@@ -814,28 +813,28 @@
     },
     "moinsBon": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=28053",
-      "channel": "threads",
-      "mediaId": "18017481455943393",
-      "publieLe": "2026-10-10T06:28:30.346Z",
+      "channel": "bluesky",
+      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mxixqmd7yq22",
+      "publieLe": "2026-10-10T07:29:34.362Z",
       "jalon": 1,
-      "releveLe": "2026-10-11T06:33:32.536Z",
+      "releveLe": "2026-10-11T08:00:38.194Z",
       "likes": 0,
-      "commentairesBruts": 1,
+      "commentairesBruts": 0,
       "partages": 0,
-      "vues": 22,
+      "vues": null,
       "commentaires": 0,
       "v": 2,
       "titre": "Golfs de Gironde : top 3 des meilleurs parcours près de Bordeaux",
-      "lien": "https://www.threads.com/@lovaquitaine/post/DeTb26IkTaM",
-      "format": "reponse",
+      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mxixqmd7yq22",
+      "format": "card",
       "mention": true,
       "creneau": "matin",
-      "creneauReseau": "7 h – 8 h 30"
+      "creneauReseau": "8 h – 9 h 30"
     },
     "mentions": {
       "avec": {
-        "posts": 24,
-        "moyenne": 4
+        "posts": 25,
+        "moyenne": 3.9
       },
       "sans": {
         "posts": 24,
@@ -846,7 +845,7 @@
       "threads": 15,
       "facebook": 14,
       "bluesky": 15,
-      "x": 14,
+      "x": 15,
       "instagram": 13
     },
     "abonnes": {
@@ -892,7 +891,7 @@
     "conseils": [
       "Le format « reponse » fait 12 fois mieux que « lien » (1.2 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « lien » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+2, +0,2 %) ; Facebook recule (−13), à surveiller.",
-      "Les posts avec mention font 3.3 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
+      "Les posts avec mention font 3.2 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
     ]
   },
   "couts": {

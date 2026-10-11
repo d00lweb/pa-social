@@ -3130,5 +3130,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35475",
+    "channel": "x",
+    "at": "2026-10-11T08:00:48.436Z",
+    "mediaId": "kit-telegram",
+    "titre": "4 châteaux du Pays basque qu’il faut absolument visiter",
+    "lien": "https://passion-aquitaine.ouest-france.fr/visiter-chateaux-pays-basque/",
+    "lienPost": null,
+    "format": "reponse",
+    "mention": true,
+    "apercu": {
+      "texte": "À Urrugne, un château est habité depuis 1341. À #Hendaye, 🔭 Viollet-le-Duc a signé un observatoire. Quatre châteaux du Pays basque méritent la visite.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-81a127fe-x.jpg",
+      "mode": "reponse",
+      "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/visiter-chateaux-pays-basque/",
+      "sujet": null
+    }
   }
 ]

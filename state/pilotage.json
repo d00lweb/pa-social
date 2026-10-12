@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-12T06:00:48.298Z",
+  "genereLe": "2026-10-12T06:20:50.115Z",
   "jour": "2026-10-12",
   "reseaux": {
     "instagram": {
@@ -25,7 +25,7 @@
       },
       "formats": null,
       "aujourdhui": 0,
-      "semaine": 10,
+      "semaine": 9,
       "total": 40,
       "dernier": "2026-10-11T16:05:13.141Z",
       "lienDernier": "https://www.instagram.com/p/DeXC-SjF520/"
@@ -61,7 +61,7 @@
         "reply"
       ],
       "aujourdhui": 1,
-      "semaine": 12,
+      "semaine": 11,
       "total": 40,
       "dernier": "2026-10-12T06:14:38.144Z",
       "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mxnuigvpdh2p"
@@ -89,7 +89,7 @@
       },
       "formats": null,
       "aujourdhui": 1,
-      "semaine": 11,
+      "semaine": 10,
       "total": 36,
       "dernier": "2026-10-12T06:10:06.291Z",
       "lienDernier": "https://www.facebook.com/1720946116697936/posts/1749443177181563"
@@ -123,7 +123,7 @@
         "reponse"
       ],
       "aujourdhui": 1,
-      "semaine": 12,
+      "semaine": 11,
       "total": 37,
       "dernier": "2026-10-12T06:08:19.899Z",
       "lienDernier": "https://www.threads.com/@lovaquitaine/post/DeYjBNRGyQ7"
@@ -608,23 +608,23 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 250,
+    "releves": 254,
     "parReseau": {
       "instagram": {
-        "posts": 30,
-        "interactionsMoyennes": 13.2
+        "posts": 31,
+        "interactionsMoyennes": 12.8
       },
       "bluesky": {
-        "posts": 28,
+        "posts": 29,
         "interactionsMoyennes": 0.1
       },
       "facebook": {
-        "posts": 25,
+        "posts": 26,
         "interactionsMoyennes": 0
       },
       "threads": {
-        "posts": 25,
-        "interactionsMoyennes": 7.2
+        "posts": 26,
+        "interactionsMoyennes": 7
       }
     }
   },
@@ -726,7 +726,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-12T06:14:48.311Z",
+    "genereLe": "2026-10-12T06:20:56.271Z",
     "posts": 54,
     "parReseau": {
       "instagram": {

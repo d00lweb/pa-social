@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-12T05:20:33.641Z",
+  "genereLe": "2026-10-12T06:00:48.298Z",
   "jour": "2026-10-12",
   "reseaux": {
     "instagram": {
@@ -60,11 +60,11 @@
         "image",
         "reply"
       ],
-      "aujourdhui": 0,
-      "semaine": 11,
-      "total": 39,
-      "dernier": "2026-10-11T16:14:51.712Z",
-      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mxmfksvesu2r"
+      "aujourdhui": 1,
+      "semaine": 12,
+      "total": 40,
+      "dernier": "2026-10-12T06:14:38.144Z",
+      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mxnuigvpdh2p"
     },
     "facebook": {
       "actif": true,
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 10,
-      "total": 35,
-      "dernier": "2026-10-11T18:33:26.550Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1748961130563101"
+      "aujourdhui": 1,
+      "semaine": 11,
+      "total": 36,
+      "dernier": "2026-10-12T06:10:06.291Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1749443177181563"
     },
     "threads": {
       "actif": true,
@@ -122,11 +122,11 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 11,
-      "total": 36,
-      "dernier": "2026-10-11T12:32:52.001Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DeWqSzKlqX4"
+      "aujourdhui": 1,
+      "semaine": 12,
+      "total": 37,
+      "dernier": "2026-10-12T06:08:19.899Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DeYjBNRGyQ7"
     },
     "x": {
       "actif": true,
@@ -157,13 +157,77 @@
         "reponse"
       ],
       "aujourdhui": 0,
-      "semaine": 11,
+      "semaine": 10,
       "total": 39,
       "dernier": "2026-10-11T14:21:15.508Z",
       "lienDernier": null
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35776",
+      "titre": "Sous un arrêt de bus de Bordeaux, 40 sarcophages cachaient un habitat antique",
+      "lien": "https://passion-aquitaine.ouest-france.fr/fouille-archeologique-sarcophage-bordeaux/",
+      "at": "2026-10-12T06:14:38.144Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Qu’y a-t-il sous nos pieds quand on attend le bus ? À Bordeaux, les fouilles de Saint-Seurin ont livré 40 sarcophages mérovingiens 🏛️ Et dessous, surprise : un habitat des Ier et IIe siècles, que les archéologues n’attendaient pas du tout. Vous imaginiez la ville antique aussi proche de la surface ?\n@villedebordeaux",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-6a2c2b25-th.jpg",
+          "mode": "reponse",
+          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/fouille-archeologique-sarcophage-bordeaux/",
+          "sujet": "Bordeaux",
+          "publieLe": "2026-10-12T06:08:19.899Z"
+        },
+        "bluesky": {
+          "texte": "Des sarcophages alignés sous le bitume, et plus bas encore, des murs vieux de près de deux millénaires 🏺 À #Bordeaux, les fouilles de Saint-Seurin révèlent un habitat des Ier et IIe siècles, juste sous un arrêt de bus.\n@villedebordeaux.bsky.social",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-6a2c2b25-bsky.jpg",
+          "mode": "reply",
+          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/fouille-archeologique-sarcophage-bordeaux/",
+          "sujet": null,
+          "publieLe": "2026-10-12T06:14:38.144Z"
+        }
+      }
+    },
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35766",
+      "titre": "Un Périgourdin veut faire du fromage de dromadaire, un lait qui caille mal",
+      "lien": "https://passion-aquitaine.ouest-france.fr/lait-fromage-dromadaire-dordogne/",
+      "at": "2026-10-12T06:10:06.291Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Imaginez des dromadaires dans la campagne de Savignac-Lédrier, en pleine Dordogne. C’est le projet d’un Périgourdin qui rêve d’en tirer du fromage. Sauf que tout prend du temps : un agrément rare à décrocher, treize mois de gestation, et un lait qui, en plus, caille mal. Le premier lait pourrait ne pas couler avant 2028 🥛",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-14ec6da8-th.jpg",
+          "mode": "reponse",
+          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/lait-fromage-dromadaire-dordogne/",
+          "sujet": "Savignac-Lédrier",
+          "publieLe": "2026-10-11T12:32:52.001Z"
+        },
+        "x": {
+          "texte": "🐪 Peut-on faire du fromage avec un lait qui caille mal ? Un Périgourdin s’y attelle à Savignac-Lédrier, mais agrément rare et gestation de 13 mois repoussent le premier lait de dromadaire à 2028.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-14ec6da8-x.jpg",
+          "mode": "reponse",
+          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/lait-fromage-dromadaire-dordogne/",
+          "sujet": null,
+          "publieLe": "2026-10-11T14:21:15.508Z"
+        },
+        "bluesky": {
+          "texte": "Le lait de dromadaire caille mal, et ce n’est pas le seul obstacle pour un Périgourdin de #SavignacLedrier, en #Dordogne : entre un agrément rare et 🐪 une gestation de 13 mois, le premier lait pourrait ne pas couler avant 2028.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-14ec6da8-bsky.jpg",
+          "mode": "reply",
+          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/lait-fromage-dromadaire-dordogne/",
+          "sujet": null,
+          "publieLe": "2026-10-11T16:14:51.712Z"
+        },
+        "facebook": {
+          "texte": "Treize mois de gestation : voilà pourquoi le fromage de dromadaire rêvé en Dordogne va se faire attendre ⏳",
+          "image": null,
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-12T06:10:06.291Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35475",
       "titre": "4 châteaux du Pays basque qu’il faut absolument visiter",
@@ -209,38 +273,6 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-10-11T18:33:26.550Z"
-        }
-      }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35766",
-      "titre": "Un Périgourdin veut faire du fromage de dromadaire, un lait qui caille mal",
-      "lien": "https://passion-aquitaine.ouest-france.fr/lait-fromage-dromadaire-dordogne/",
-      "at": "2026-10-11T16:14:51.712Z",
-      "reseaux": {
-        "threads": {
-          "texte": "Imaginez des dromadaires dans la campagne de Savignac-Lédrier, en pleine Dordogne. C’est le projet d’un Périgourdin qui rêve d’en tirer du fromage. Sauf que tout prend du temps : un agrément rare à décrocher, treize mois de gestation, et un lait qui, en plus, caille mal. Le premier lait pourrait ne pas couler avant 2028 🥛",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-14ec6da8-th.jpg",
-          "mode": "reponse",
-          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/lait-fromage-dromadaire-dordogne/",
-          "sujet": "Savignac-Lédrier",
-          "publieLe": "2026-10-11T12:32:52.001Z"
-        },
-        "x": {
-          "texte": "🐪 Peut-on faire du fromage avec un lait qui caille mal ? Un Périgourdin s’y attelle à Savignac-Lédrier, mais agrément rare et gestation de 13 mois repoussent le premier lait de dromadaire à 2028.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-14ec6da8-x.jpg",
-          "mode": "reponse",
-          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/lait-fromage-dromadaire-dordogne/",
-          "sujet": null,
-          "publieLe": "2026-10-11T14:21:15.508Z"
-        },
-        "bluesky": {
-          "texte": "Le lait de dromadaire caille mal, et ce n’est pas le seul obstacle pour un Périgourdin de #SavignacLedrier, en #Dordogne : entre un agrément rare et 🐪 une gestation de 13 mois, le premier lait pourrait ne pas couler avant 2028.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-14ec6da8-bsky.jpg",
-          "mode": "reply",
-          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/lait-fromage-dromadaire-dordogne/",
-          "sujet": null,
-          "publieLe": "2026-10-11T16:14:51.712Z"
         }
       }
     },
@@ -387,57 +419,39 @@
           "publieLe": "2026-10-10T10:04:00.482Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35708",
-      "titre": "Une matière ultra-résistante très difficile à recycler : une entreprise de Mérignac a la solution",
-      "lien": "https://passion-aquitaine.ouest-france.fr/recyclage-fibre-carbone-nova-carbon-merignac/",
-      "at": "2026-10-09T18:06:23.616Z",
-      "reseaux": {
-        "threads": {
-          "texte": "Imaginez une matière assez solide pour durer, et justement trop solide pour disparaître proprement. C’est toute l’histoire de la fibre de carbone. En Gironde, à Mérignac, Nova Carbon travaille à lui inventer une seconde vie plutôt qu’une fin au rebut 🏭\n@villedemerignac",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-67a97308-th.jpg",
-          "mode": "reponse",
-          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/recyclage-fibre-carbone-nova-carbon-merignac/",
-          "sujet": "Mérignac",
-          "publieLe": "2026-10-09T09:10:34.124Z"
-        },
-        "bluesky": {
-          "texte": "Robuste mais quasi impossible à recycler : c’est le paradoxe de la fibre de carbone. À #Mérignac, une entreprise s’attaque au problème 🧪 Nova Carbon développe des solutions pour lui offrir une seconde vie.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-67a97308-bsky.jpg",
-          "mode": "reply",
-          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/recyclage-fibre-carbone-nova-carbon-merignac/",
-          "sujet": null,
-          "publieLe": "2026-10-09T10:34:20.459Z"
-        },
-        "x": {
-          "texte": "🔁 Que faire d’une matière conçue pour ne jamais céder ? Nova Carbon, à #Mérignac, développe des solutions pour recycler la fibre de carbone et lui donner une seconde vie.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-67a97308-x.jpg",
-          "mode": "reponse",
-          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/recyclage-fibre-carbone-nova-carbon-merignac/",
-          "sujet": null,
-          "publieLe": "2026-10-09T11:00:48.706Z"
-        },
-        "instagram": {
-          "texte": "♻️ Plus un matériau est solide, plus il est dur à recycler : la fibre de carbone en est la preuve\n⠀\nÀ Mérignac, près de Bordeaux, l’entreprise Nova Carbon développe des solutions pour donner une seconde vie à cette matière ultra-résistante. Une piste concrète pour l’industrie girondine.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Mérignac #FibreDeCarbone #Recyclage",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-67a97308-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-09T17:29:00.597Z"
-        },
-        "facebook": {
-          "texte": "Recycler enfin la fibre de carbone, c’est le pari d’une entreprise de Mérignac qui veut offrir une seconde vie à ce matériau ♻️",
-          "image": null,
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-09T18:06:23.616Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "bluesky",
+      "at": "2026-10-12T06:14:38.144Z",
+      "titre": "Sous un arrêt de bus de Bordeaux, 40 sarcophages cachaient un habitat antique",
+      "lien": "https://passion-aquitaine.ouest-france.fr/fouille-archeologique-sarcophage-bordeaux/",
+      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mxnuigvpdh2p",
+      "format": "reply",
+      "texte": "Des sarcophages alignés sous le bitume, et plus bas encore, des murs vieux de près de deux millénaires 🏺 À #Bordeaux, les fouilles de Saint-Seurin révèlent un habitat des Ier et IIe siècles, juste sous un arrêt de bus.\n@villedebordeaux.bsky.social",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-6a2c2b25-bsky.jpg"
+    },
+    {
+      "channel": "facebook",
+      "at": "2026-10-12T06:10:06.291Z",
+      "titre": "Un Périgourdin veut faire du fromage de dromadaire, un lait qui caille mal",
+      "lien": "https://passion-aquitaine.ouest-france.fr/lait-fromage-dromadaire-dordogne/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1749443177181563",
+      "format": null,
+      "texte": "Treize mois de gestation : voilà pourquoi le fromage de dromadaire rêvé en Dordogne va se faire attendre ⏳",
+      "image": null
+    },
+    {
+      "channel": "threads",
+      "at": "2026-10-12T06:08:19.899Z",
+      "titre": "Sous un arrêt de bus de Bordeaux, 40 sarcophages cachaient un habitat antique",
+      "lien": "https://passion-aquitaine.ouest-france.fr/fouille-archeologique-sarcophage-bordeaux/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/DeYjBNRGyQ7",
+      "format": "reponse",
+      "texte": "Qu’y a-t-il sous nos pieds quand on attend le bus ? À Bordeaux, les fouilles de Saint-Seurin ont livré 40 sarcophages mérovingiens 🏛️ Et dessous, surprise : un habitat des Ier et IIe siècles, que les archéologues n’attendaient pas du tout. Vous imaginiez la ville antique aussi proche de la surface ?\n@villedebordeaux",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-6a2c2b25-th.jpg"
+    },
     {
       "channel": "facebook",
       "at": "2026-10-11T18:33:26.550Z",
@@ -507,66 +521,9 @@
       "format": "reponse",
       "texte": "À Urrugne, un château est habité depuis 1341. À #Hendaye, 🔭 Viollet-le-Duc a signé un observatoire. Quatre châteaux du Pays basque méritent la visite.",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-81a127fe-x.jpg"
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-10-11T07:26:54.159Z",
-      "titre": "Elle parcourt les vergers sans GPS : cette machine du Lot-et-Garonne sait où aller",
-      "lien": "https://passion-aquitaine.ouest-france.fr/robot-agricole-sans-gps-verger-lot-et-garonne/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1748411700618044",
-      "format": null,
-      "texte": "Comment une machine agricole peut-elle trouver son chemin dans un verger sans le moindre GPS, comme celle imaginée à Cancon 🍎",
-      "image": null
-    },
-    {
-      "channel": "bluesky",
-      "at": "2026-10-11T07:05:19.112Z",
-      "titre": "4 châteaux du Pays basque qu’il faut absolument visiter",
-      "lien": "https://passion-aquitaine.ouest-france.fr/visiter-chateaux-pays-basque/",
-      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mxlgu5wtrp2n",
-      "format": "image",
-      "texte": "🔭 Un observatoire dessiné par Viollet-le-Duc, face à l’océan, à #Hendaye. Ce n’est pas le genre de #château qu’on attend au #PaysBasque, et pourtant il figure parmi les quatre à visiter, avec une demeure d’Urrugne habitée depuis 1341.\n➡️ Lire l’article",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-81a127fe-bsky.jpg"
-    },
-    {
-      "channel": "threads",
-      "at": "2026-10-11T06:32:44.546Z",
-      "titre": "4 châteaux du Pays basque qu’il faut absolument visiter",
-      "lien": "https://passion-aquitaine.ouest-france.fr/visiter-chateaux-pays-basque/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/DeWBAR9ETM-",
-      "format": "reponse",
-      "texte": "Envie d’une sortie patrimoine au Pays basque ce week-end 🧭 Voici quatre châteaux qui valent le détour. Parmi eux, un observatoire imaginé par Viollet-le-Duc à Hendaye et une demeure d’Urrugne habitée sans interruption depuis 1341. De quoi composer une belle journée entre histoire et architecture, à quelques kilomètres les uns des autres.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-81a127fe-th.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "threads",
-      "dueAt": "2026-10-12T06:04:10.913Z",
-      "prochainPassage": "2026-10-12T06:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Sous un arrêt de bus de Bordeaux, 40 sarcophages cachaient un habitat antique"
-    },
-    {
-      "channel": "facebook",
-      "dueAt": "2026-10-12T06:09:58.951Z",
-      "prochainPassage": "2026-10-12T06:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Un Périgourdin veut faire du fromage de dromadaire, un lait qui caille mal"
-    },
-    {
-      "channel": "bluesky",
-      "dueAt": "2026-10-12T06:14:35.339Z",
-      "prochainPassage": "2026-10-12T06:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Sous un arrêt de bus de Bordeaux, 40 sarcophages cachaient un habitat antique"
-    },
     {
       "channel": "x",
       "dueAt": "2026-10-12T07:00:00.000Z",
@@ -575,6 +532,33 @@
       "prevuInitialement": null,
       "raison": null,
       "titre": "Sous un arrêt de bus de Bordeaux, 40 sarcophages cachaient un habitat antique"
+    },
+    {
+      "channel": "threads",
+      "dueAt": "2026-10-12T09:08:31.168Z",
+      "prochainPassage": "2026-10-12T09:20:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Près de Bordeaux, on dort face à des tigres et des jaguars"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-10-12T11:13:26.364Z",
+      "prochainPassage": "2026-10-12T11:20:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Près de Bordeaux, on dort face à des tigres et des jaguars"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-10-12T11:20:00.000Z",
+      "prochainPassage": "2026-10-12T11:20:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Près de Bordeaux, on dort face à des tigres et des jaguars"
     },
     {
       "channel": "instagram",
@@ -602,6 +586,24 @@
       "prevuInitialement": null,
       "raison": null,
       "titre": "Sous un arrêt de bus de Bordeaux, 40 sarcophages cachaient un habitat antique"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-10-13T06:34:08.736Z",
+      "prochainPassage": "2026-10-13T07:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Près de Bordeaux, on dort face à des tigres et des jaguars"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-10-13T10:34:23.332Z",
+      "prochainPassage": "2026-10-13T11:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Près de Bordeaux, on dort face à des tigres et des jaguars"
     }
   ],
   "alertes": [],
@@ -685,7 +687,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-12T05:00:46.947Z"
+    "derniere": "2026-10-12T06:00:48.298Z"
   },
   "abonnes": {
     "instagram": {
@@ -724,7 +726,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-12T05:20:40.038Z",
+    "genereLe": "2026-10-12T06:14:48.311Z",
     "posts": 54,
     "parReseau": {
       "instagram": {
@@ -886,9 +888,9 @@
       }
     },
     "publies": {
-      "threads": 16,
-      "facebook": 15,
-      "bluesky": 16,
+      "threads": 17,
+      "facebook": 16,
+      "bluesky": 17,
       "x": 16,
       "instagram": 15
     },
@@ -941,29 +943,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 0,
-      "entree": 0,
-      "sortie": 0,
-      "cout": 0,
+      "appels": 1,
+      "entree": 7989,
+      "sortie": 927,
+      "cout": 0.050496,
       "cle": "2026-10-12"
     },
     "semaine": {
-      "appels": 21,
-      "entree": 167611,
-      "sortie": 20637,
-      "cout": 1.083184
+      "appels": 22,
+      "entree": 175600,
+      "sortie": 21564,
+      "cout": 1.13368
     },
     "mois": {
-      "appels": 34,
-      "entree": 267801,
-      "sortie": 33511,
-      "cout": 1.7414239999999999,
+      "appels": 35,
+      "entree": 275790,
+      "sortie": 34438,
+      "cout": 1.79192,
       "cle": "2026-10"
     },
-    "projection": 4.5,
+    "projection": 4.63,
     "moyenneAppel": 0.0512,
     "parModele": {
-      "claude-opus-5-5": 34
+      "claude-opus-5-5": 35
     },
     "serie": [
       [
@@ -1020,7 +1022,7 @@
       ],
       [
         "2026-10-12",
-        0
+        0.0505
       ]
     ],
     "depuis": "2026-09-23"

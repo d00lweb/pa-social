@@ -598,5 +598,56 @@
     "instagram": [],
     "threads": [],
     "bluesky": []
+  },
+  "commune:mairie:pessac": {
+    "v": 3,
+    "cherche": "2026-10-12T06:00:58.630Z",
+    "instagram": [
+      {
+        "handle": "ville_de_pessac",
+        "nom": "Ville De Pessac",
+        "abonnes": 14773,
+        "preuve": 2
+      }
+    ],
+    "x": [
+      {
+        "handle": "Villedepessac",
+        "nom": "",
+        "abonnes": null,
+        "preuve": 3
+      }
+    ],
+    "threads": [],
+    "bluesky": []
+  },
+  "commune:tourisme:pessac": {
+    "v": 3,
+    "cherche": "2026-10-12T06:00:58.630Z",
+    "instagram": [],
+    "x": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:pessac:zoo": {
+    "v": 3,
+    "cherche": "2026-10-12T06:00:58.630Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:pessac:hebergement": {
+    "v": 3,
+    "cherche": "2026-10-12T06:00:58.630Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:pessac:tourisme": {
+    "v": 3,
+    "cherche": "2026-10-12T06:00:58.630Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
   }
 }

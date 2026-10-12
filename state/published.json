@@ -3256,5 +3256,59 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35776",
+    "channel": "threads",
+    "at": "2026-10-12T06:08:19.899Z",
+    "mediaId": "18485159935128675",
+    "titre": "Sous un arrêt de bus de Bordeaux, 40 sarcophages cachaient un habitat antique",
+    "lien": "https://passion-aquitaine.ouest-france.fr/fouille-archeologique-sarcophage-bordeaux/",
+    "lienPost": "https://www.threads.com/@lovaquitaine/post/DeYjBNRGyQ7",
+    "format": "reponse",
+    "mention": true,
+    "apercu": {
+      "texte": "Qu’y a-t-il sous nos pieds quand on attend le bus ? À Bordeaux, les fouilles de Saint-Seurin ont livré 40 sarcophages mérovingiens 🏛️ Et dessous, surprise : un habitat des Ier et IIe siècles, que les archéologues n’attendaient pas du tout. Vous imaginiez la ville antique aussi proche de la surface ?\n@villedebordeaux",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-6a2c2b25-th.jpg",
+      "mode": "reponse",
+      "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/fouille-archeologique-sarcophage-bordeaux/",
+      "sujet": "Bordeaux"
+    }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35766",
+    "channel": "facebook",
+    "at": "2026-10-12T06:10:06.291Z",
+    "mediaId": "227437307428711_1749443177181563",
+    "titre": "Un Périgourdin veut faire du fromage de dromadaire, un lait qui caille mal",
+    "lien": "https://passion-aquitaine.ouest-france.fr/lait-fromage-dromadaire-dordogne/",
+    "lienPost": "https://www.facebook.com/1720946116697936/posts/1749443177181563",
+    "format": null,
+    "mention": false,
+    "apercu": {
+      "texte": "Treize mois de gestation : voilà pourquoi le fromage de dromadaire rêvé en Dordogne va se faire attendre ⏳",
+      "image": null,
+      "mode": null,
+      "reponse": null,
+      "sujet": null
+    }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35776",
+    "channel": "bluesky",
+    "at": "2026-10-12T06:14:38.144Z",
+    "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mxnuigvpdh2p",
+    "titre": "Sous un arrêt de bus de Bordeaux, 40 sarcophages cachaient un habitat antique",
+    "lien": "https://passion-aquitaine.ouest-france.fr/fouille-archeologique-sarcophage-bordeaux/",
+    "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mxnuigvpdh2p",
+    "format": "reply",
+    "mention": true,
+    "apercu": {
+      "texte": "Des sarcophages alignés sous le bitume, et plus bas encore, des murs vieux de près de deux millénaires 🏺 À #Bordeaux, les fouilles de Saint-Seurin révèlent un habitat des Ier et IIe siècles, juste sous un arrêt de bus.\n@villedebordeaux.bsky.social",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-6a2c2b25-bsky.jpg",
+      "mode": "reply",
+      "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/fouille-archeologique-sarcophage-bordeaux/",
+      "sujet": null
+    }
   }
 ]

@@ -3364,5 +3364,41 @@
       "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/dormir-zoo-bordeaux-pessac-lodges-fauves/",
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35384",
+    "channel": "x",
+    "at": "2026-10-12T11:20:57.836Z",
+    "mediaId": "kit-telegram",
+    "titre": "Près de Bordeaux, on dort face à des tigres et des jaguars",
+    "lien": "https://passion-aquitaine.ouest-france.fr/dormir-zoo-bordeaux-pessac-lodges-fauves/",
+    "lienPost": null,
+    "format": "reponse",
+    "mention": true,
+    "apercu": {
+      "texte": "Zoo de Bordeaux-#Pessac : trois lodges pour dormir face aux fauves. Au choix, jaguars, tigres blancs ou 🦁 lions rescapés d’Ukraine.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261012-e0fae2d6-x.jpg",
+      "mode": "reponse",
+      "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/dormir-zoo-bordeaux-pessac-lodges-fauves/",
+      "sujet": null
+    }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35766",
+    "channel": "instagram",
+    "at": "2026-10-12T11:28:39.066Z",
+    "mediaId": "18122295937992765",
+    "titre": "Un Périgourdin veut faire du fromage de dromadaire, un lait qui caille mal",
+    "lien": "https://passion-aquitaine.ouest-france.fr/lait-fromage-dromadaire-dordogne/",
+    "lienPost": "https://www.instagram.com/p/DeZIHfxGLmb/",
+    "format": null,
+    "mention": true,
+    "apercu": {
+      "texte": "🐫 Des dromadaires en Dordogne, et bientôt du fromage avec leur lait : le pari d’un Périgourdin\n⠀\nÀ Savignac-Lédrier, le projet avance lentement. Un agrément rare à obtenir, 13 mois de gestation, et un lait qui caille mal : les premières gouttes pourraient ne pas couler avant 2028.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Dordogne #FromageDeDromadaire #Agriculture",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-14ec6da8-1.jpg",
+      "mode": null,
+      "reponse": null,
+      "sujet": null
+    }
   }
 ]

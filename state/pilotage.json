@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-12T11:00:43.582Z",
+  "genereLe": "2026-10-12T11:20:46.868Z",
   "jour": "2026-10-12",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 9,
-      "total": 40,
-      "dernier": "2026-10-11T16:05:13.141Z",
-      "lienDernier": "https://www.instagram.com/p/DeXC-SjF520/"
+      "aujourdhui": 1,
+      "semaine": 10,
+      "total": 41,
+      "dernier": "2026-10-12T11:28:39.066Z",
+      "lienDernier": "https://www.instagram.com/p/DeZIHfxGLmb/"
     },
     "bluesky": {
       "actif": true,
@@ -156,75 +156,19 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 1,
-      "semaine": 11,
-      "total": 40,
-      "dernier": "2026-10-12T07:00:56.846Z",
+      "aujourdhui": 2,
+      "semaine": 12,
+      "total": 41,
+      "dernier": "2026-10-12T11:20:57.836Z",
       "lienDernier": null
     }
   },
   "articles": [
     {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35384",
-      "titre": "Près de Bordeaux, on dort face à des tigres et des jaguars",
-      "lien": "https://passion-aquitaine.ouest-france.fr/dormir-zoo-bordeaux-pessac-lodges-fauves/",
-      "at": "2026-10-12T11:13:28.751Z",
-      "reseaux": {
-        "threads": {
-          "texte": "Trois lodges, et derrière la vitre, des fauves 🐯 Au zoo de Bordeaux-Pessac, on peut passer la nuit face aux jaguars, aux tigres blancs ou à des lions rescapés d’Ukraine. Une façon très différente de découvrir les animaux, au calme, quand le public est parti. Vous choisiriez quel voisin pour la nuit ?",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261012-e0fae2d6-th.jpg",
-          "mode": "reponse",
-          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/dormir-zoo-bordeaux-pessac-lodges-fauves/",
-          "sujet": "Pessac",
-          "publieLe": "2026-10-12T09:11:10.740Z"
-        },
-        "bluesky": {
-          "texte": "🐆 Et si votre fenêtre donnait sur un enclos de jaguars ? Au #zoo de Bordeaux-Pessac, trois lodges proposent de dormir face aux fauves, dont des lions rescapés d’Ukraine.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261012-e0fae2d6-bsky.jpg",
-          "mode": "reply",
-          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/dormir-zoo-bordeaux-pessac-lodges-fauves/",
-          "sujet": null,
-          "publieLe": "2026-10-12T11:13:28.751Z"
-        }
-      }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35776",
-      "titre": "Sous un arrêt de bus de Bordeaux, 40 sarcophages cachaient un habitat antique",
-      "lien": "https://passion-aquitaine.ouest-france.fr/fouille-archeologique-sarcophage-bordeaux/",
-      "at": "2026-10-12T07:00:56.846Z",
-      "reseaux": {
-        "threads": {
-          "texte": "Qu’y a-t-il sous nos pieds quand on attend le bus ? À Bordeaux, les fouilles de Saint-Seurin ont livré 40 sarcophages mérovingiens 🏛️ Et dessous, surprise : un habitat des Ier et IIe siècles, que les archéologues n’attendaient pas du tout. Vous imaginiez la ville antique aussi proche de la surface ?\n@villedebordeaux",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-6a2c2b25-th.jpg",
-          "mode": "reponse",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/fouille-archeologique-sarcophage-bordeaux/",
-          "sujet": "Bordeaux",
-          "publieLe": "2026-10-12T06:08:19.899Z"
-        },
-        "bluesky": {
-          "texte": "Des sarcophages alignés sous le bitume, et plus bas encore, des murs vieux de près de deux millénaires 🏺 À #Bordeaux, les fouilles de Saint-Seurin révèlent un habitat des Ier et IIe siècles, juste sous un arrêt de bus.\n@villedebordeaux.bsky.social",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-6a2c2b25-bsky.jpg",
-          "mode": "reply",
-          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/fouille-archeologique-sarcophage-bordeaux/",
-          "sujet": null,
-          "publieLe": "2026-10-12T06:14:38.144Z"
-        },
-        "x": {
-          "texte": "40 sarcophages mérovingiens sous un arrêt de bus de #Bordeaux, et dessous un habitat antique des Ier et IIe siècles : la surprise des fouilles de Saint-Seurin 🦴",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-6a2c2b25-x.jpg",
-          "mode": "reponse",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/fouille-archeologique-sarcophage-bordeaux/",
-          "sujet": null,
-          "publieLe": "2026-10-12T07:00:56.846Z"
-        }
-      }
-    },
-    {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35766",
       "titre": "Un Périgourdin veut faire du fromage de dromadaire, un lait qui caille mal",
       "lien": "https://passion-aquitaine.ouest-france.fr/lait-fromage-dromadaire-dordogne/",
-      "at": "2026-10-12T06:10:06.291Z",
+      "at": "2026-10-12T11:28:39.066Z",
       "reseaux": {
         "threads": {
           "texte": "Imaginez des dromadaires dans la campagne de Savignac-Lédrier, en pleine Dordogne. C’est le projet d’un Périgourdin qui rêve d’en tirer du fromage. Sauf que tout prend du temps : un agrément rare à décrocher, treize mois de gestation, et un lait qui, en plus, caille mal. Le premier lait pourrait ne pas couler avant 2028 🥛",
@@ -257,6 +201,78 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-10-12T06:10:06.291Z"
+        },
+        "instagram": {
+          "texte": "🐫 Des dromadaires en Dordogne, et bientôt du fromage avec leur lait : le pari d’un Périgourdin\n⠀\nÀ Savignac-Lédrier, le projet avance lentement. Un agrément rare à obtenir, 13 mois de gestation, et un lait qui caille mal : les premières gouttes pourraient ne pas couler avant 2028.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Dordogne #FromageDeDromadaire #Agriculture",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-14ec6da8-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-12T11:28:39.066Z"
+        }
+      }
+    },
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35384",
+      "titre": "Près de Bordeaux, on dort face à des tigres et des jaguars",
+      "lien": "https://passion-aquitaine.ouest-france.fr/dormir-zoo-bordeaux-pessac-lodges-fauves/",
+      "at": "2026-10-12T11:20:57.836Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Trois lodges, et derrière la vitre, des fauves 🐯 Au zoo de Bordeaux-Pessac, on peut passer la nuit face aux jaguars, aux tigres blancs ou à des lions rescapés d’Ukraine. Une façon très différente de découvrir les animaux, au calme, quand le public est parti. Vous choisiriez quel voisin pour la nuit ?",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261012-e0fae2d6-th.jpg",
+          "mode": "reponse",
+          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/dormir-zoo-bordeaux-pessac-lodges-fauves/",
+          "sujet": "Pessac",
+          "publieLe": "2026-10-12T09:11:10.740Z"
+        },
+        "bluesky": {
+          "texte": "🐆 Et si votre fenêtre donnait sur un enclos de jaguars ? Au #zoo de Bordeaux-Pessac, trois lodges proposent de dormir face aux fauves, dont des lions rescapés d’Ukraine.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261012-e0fae2d6-bsky.jpg",
+          "mode": "reply",
+          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/dormir-zoo-bordeaux-pessac-lodges-fauves/",
+          "sujet": null,
+          "publieLe": "2026-10-12T11:13:28.751Z"
+        },
+        "x": {
+          "texte": "Zoo de Bordeaux-#Pessac : trois lodges pour dormir face aux fauves. Au choix, jaguars, tigres blancs ou 🦁 lions rescapés d’Ukraine.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261012-e0fae2d6-x.jpg",
+          "mode": "reponse",
+          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/dormir-zoo-bordeaux-pessac-lodges-fauves/",
+          "sujet": null,
+          "publieLe": "2026-10-12T11:20:57.836Z"
+        }
+      }
+    },
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35776",
+      "titre": "Sous un arrêt de bus de Bordeaux, 40 sarcophages cachaient un habitat antique",
+      "lien": "https://passion-aquitaine.ouest-france.fr/fouille-archeologique-sarcophage-bordeaux/",
+      "at": "2026-10-12T07:00:56.846Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Qu’y a-t-il sous nos pieds quand on attend le bus ? À Bordeaux, les fouilles de Saint-Seurin ont livré 40 sarcophages mérovingiens 🏛️ Et dessous, surprise : un habitat des Ier et IIe siècles, que les archéologues n’attendaient pas du tout. Vous imaginiez la ville antique aussi proche de la surface ?\n@villedebordeaux",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-6a2c2b25-th.jpg",
+          "mode": "reponse",
+          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/fouille-archeologique-sarcophage-bordeaux/",
+          "sujet": "Bordeaux",
+          "publieLe": "2026-10-12T06:08:19.899Z"
+        },
+        "bluesky": {
+          "texte": "Des sarcophages alignés sous le bitume, et plus bas encore, des murs vieux de près de deux millénaires 🏺 À #Bordeaux, les fouilles de Saint-Seurin révèlent un habitat des Ier et IIe siècles, juste sous un arrêt de bus.\n@villedebordeaux.bsky.social",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-6a2c2b25-bsky.jpg",
+          "mode": "reply",
+          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/fouille-archeologique-sarcophage-bordeaux/",
+          "sujet": null,
+          "publieLe": "2026-10-12T06:14:38.144Z"
+        },
+        "x": {
+          "texte": "40 sarcophages mérovingiens sous un arrêt de bus de #Bordeaux, et dessous un habitat antique des Ier et IIe siècles : la surprise des fouilles de Saint-Seurin 🦴",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-6a2c2b25-x.jpg",
+          "mode": "reponse",
+          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/fouille-archeologique-sarcophage-bordeaux/",
+          "sujet": null,
+          "publieLe": "2026-10-12T07:00:56.846Z"
         }
       }
     },
@@ -407,6 +423,26 @@
   ],
   "publications": [
     {
+      "channel": "instagram",
+      "at": "2026-10-12T11:28:39.066Z",
+      "titre": "Un Périgourdin veut faire du fromage de dromadaire, un lait qui caille mal",
+      "lien": "https://passion-aquitaine.ouest-france.fr/lait-fromage-dromadaire-dordogne/",
+      "lienPost": "https://www.instagram.com/p/DeZIHfxGLmb/",
+      "format": null,
+      "texte": "🐫 Des dromadaires en Dordogne, et bientôt du fromage avec leur lait : le pari d’un Périgourdin\n⠀\nÀ Savignac-Lédrier, le projet avance lentement. Un agrément rare à obtenir, 13 mois de gestation, et un lait qui caille mal : les premières gouttes pourraient ne pas couler avant 2028.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Dordogne #FromageDeDromadaire #Agriculture",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-14ec6da8-1.jpg"
+    },
+    {
+      "channel": "x",
+      "at": "2026-10-12T11:20:57.836Z",
+      "titre": "Près de Bordeaux, on dort face à des tigres et des jaguars",
+      "lien": "https://passion-aquitaine.ouest-france.fr/dormir-zoo-bordeaux-pessac-lodges-fauves/",
+      "lienPost": null,
+      "format": "reponse",
+      "texte": "Zoo de Bordeaux-#Pessac : trois lodges pour dormir face aux fauves. Au choix, jaguars, tigres blancs ou 🦁 lions rescapés d’Ukraine.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261012-e0fae2d6-x.jpg"
+    },
+    {
       "channel": "bluesky",
       "at": "2026-10-12T11:13:28.751Z",
       "titre": "Près de Bordeaux, on dort face à des tigres et des jaguars",
@@ -485,47 +521,9 @@
       "format": "reply",
       "texte": "Le lait de dromadaire caille mal, et ce n’est pas le seul obstacle pour un Périgourdin de #SavignacLedrier, en #Dordogne : entre un agrément rare et 🐪 une gestation de 13 mois, le premier lait pourrait ne pas couler avant 2028.",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-14ec6da8-bsky.jpg"
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-10-11T16:05:13.141Z",
-      "titre": "4 châteaux du Pays basque qu’il faut absolument visiter",
-      "lien": "https://passion-aquitaine.ouest-france.fr/visiter-chateaux-pays-basque/",
-      "lienPost": "https://www.instagram.com/p/DeXC-SjF520/",
-      "format": null,
-      "texte": "Depuis 1341, 🗝️ les mêmes murs restent habités à Urrugne, au cœur du Pays basque\n⠀\nÀ Hendaye, c’est un observatoire signé Viollet-le-Duc qui attend les curieux. Quatre châteaux basques à mettre sur la liste de vos prochaines visites.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#PaysBasque #Chateaux #Patrimoine",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-81a127fe-1.jpg"
-    },
-    {
-      "channel": "x",
-      "at": "2026-10-11T14:21:15.508Z",
-      "titre": "Un Périgourdin veut faire du fromage de dromadaire, un lait qui caille mal",
-      "lien": "https://passion-aquitaine.ouest-france.fr/lait-fromage-dromadaire-dordogne/",
-      "lienPost": null,
-      "format": "reponse",
-      "texte": "🐪 Peut-on faire du fromage avec un lait qui caille mal ? Un Périgourdin s’y attelle à Savignac-Lédrier, mais agrément rare et gestation de 13 mois repoussent le premier lait de dromadaire à 2028.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-14ec6da8-x.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "x",
-      "dueAt": "2026-10-12T11:20:00.000Z",
-      "prochainPassage": "2026-10-12T11:20:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Près de Bordeaux, on dort face à des tigres et des jaguars"
-    },
-    {
-      "channel": "instagram",
-      "dueAt": "2026-10-12T11:28:08.522Z",
-      "prochainPassage": "2026-10-12T12:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Un Périgourdin veut faire du fromage de dromadaire, un lait qui caille mal"
-    },
     {
       "channel": "instagram",
       "dueAt": "2026-10-12T16:31:55.503Z",
@@ -565,7 +563,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 257,
+    "releves": 258,
     "parReseau": {
       "instagram": {
         "posts": 31,
@@ -644,7 +642,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-12T10:00:44.676Z"
+    "derniere": "2026-10-12T11:20:46.868Z"
   },
   "abonnes": {
     "instagram": {
@@ -683,12 +681,12 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-12T11:13:37.556Z",
-    "posts": 57,
+    "genereLe": "2026-10-12T11:28:44.946Z",
+    "posts": 58,
     "parReseau": {
       "instagram": {
-        "posts": 13,
-        "moyenne": 7.8
+        "posts": 14,
+        "moyenne": 7.7
       },
       "threads": {
         "posts": 15,
@@ -727,8 +725,8 @@
     },
     "parCreneau": {
       "après-midi": {
-        "posts": 13,
-        "moyenne": 7.6
+        "posts": 14,
+        "moyenne": 7.5
       },
       "soir": {
         "posts": 7,
@@ -780,8 +778,8 @@
       },
       "instagram": {
         "12 h – 13 h 30": {
-          "posts": 9,
-          "moyenne": 10.3
+          "posts": 10,
+          "moyenne": 9.9
         },
         "18 h – 19 h 30": {
           "posts": 3,
@@ -793,7 +791,7 @@
         }
       }
     },
-    "interactionsTotal": 128,
+    "interactionsTotal": 134,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35575",
       "channel": "instagram",
@@ -836,8 +834,8 @@
     },
     "mentions": {
       "avec": {
-        "posts": 26,
-        "moyenne": 3.8
+        "posts": 27,
+        "moyenne": 3.9
       },
       "sans": {
         "posts": 31,
@@ -848,8 +846,8 @@
       "threads": 18,
       "facebook": 16,
       "bluesky": 18,
-      "x": 17,
-      "instagram": 15
+      "x": 18,
+      "instagram": 16
     },
     "abonnes": {
       "instagram": {
@@ -892,10 +890,10 @@
       "facebook": 0
     },
     "conseils": [
-      "Instagram : le créneau 12 h – 13 h 30 fait 4,5 fois mieux que 18 h – 19 h 30 (10.3 contre 2.3 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
+      "Instagram : le créneau 12 h – 13 h 30 fait 4,3 fois mieux que 18 h – 19 h 30 (9.9 contre 2.3 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Le format « reponse » fait 15 fois mieux que « lien » (1.5 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « lien » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+2, +0,2 %) ; Facebook recule (−15), à surveiller.",
-      "Les posts avec mention font 2.9 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
+      "Les posts avec mention font 3 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
     ]
   },
   "couts": {

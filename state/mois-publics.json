@@ -1,13 +1,13 @@
 {
   "2026-10": {
     "cle": "2026-10",
-    "publications": 84,
+    "publications": 86,
     "articles": 18,
-    "interactions": 128,
+    "interactions": 134,
     "parReseau": {
       "facebook": 16,
-      "instagram": 15,
-      "x": 17,
+      "instagram": 16,
+      "x": 18,
       "threads": 18,
       "bluesky": 18
     },
@@ -35,6 +35,13 @@
       },
       {
         "reseau": "instagram",
+        "titre": "Elle parcourt les vergers sans GPS : cette machine du Lot-et-Garonne sait où aller",
+        "lien": "https://www.instagram.com/p/DeWhjrWGD3e/",
+        "image": "https://passion-aquitaine.ouest-france.fr/social/20261010-c29a0140-1-vignette.jpg",
+        "interactions": 6
+      },
+      {
+        "reseau": "instagram",
         "titre": "À Hendaye, un château cache un observatoire actif jusqu’en 1975",
         "lien": "https://www.instagram.com/p/DeEh3MYjNDP/",
         "image": "https://passion-aquitaine.ouest-france.fr/social/20261004-fbd02dce-1-vignette.jpg",
@@ -44,13 +51,6 @@
         "reseau": "bluesky",
         "titre": "Fouilles à la dune du Pilat, un vestige de 2 500 ans ressurgit",
         "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mxhhnkyvh422",
-        "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-7fe1d4e9-1-vignette.jpg",
-        "interactions": 5
-      },
-      {
-        "reseau": "instagram",
-        "titre": "Fouilles à la dune du Pilat, un vestige de 2 500 ans ressurgit",
-        "lien": "https://www.instagram.com/p/DeT010pDA3R/",
         "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-7fe1d4e9-1-vignette.jpg",
         "interactions": 5
       }

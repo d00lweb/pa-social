@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-12T10:20:40.125Z",
+  "genereLe": "2026-10-12T11:00:43.582Z",
   "jour": "2026-10-12",
   "reseaux": {
     "instagram": {
@@ -60,11 +60,11 @@
         "image",
         "reply"
       ],
-      "aujourdhui": 1,
-      "semaine": 11,
-      "total": 40,
-      "dernier": "2026-10-12T06:14:38.144Z",
-      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mxnuigvpdh2p"
+      "aujourdhui": 2,
+      "semaine": 12,
+      "total": 41,
+      "dernier": "2026-10-12T11:13:28.751Z",
+      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mxof6syr272k"
     },
     "facebook": {
       "actif": true,
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35384",
       "titre": "Près de Bordeaux, on dort face à des tigres et des jaguars",
       "lien": "https://passion-aquitaine.ouest-france.fr/dormir-zoo-bordeaux-pessac-lodges-fauves/",
-      "at": "2026-10-12T09:11:10.740Z",
+      "at": "2026-10-12T11:13:28.751Z",
       "reseaux": {
         "threads": {
           "texte": "Trois lodges, et derrière la vitre, des fauves 🐯 Au zoo de Bordeaux-Pessac, on peut passer la nuit face aux jaguars, aux tigres blancs ou à des lions rescapés d’Ukraine. Une façon très différente de découvrir les animaux, au calme, quand le public est parti. Vous choisiriez quel voisin pour la nuit ?",
@@ -177,6 +177,14 @@
           "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/dormir-zoo-bordeaux-pessac-lodges-fauves/",
           "sujet": "Pessac",
           "publieLe": "2026-10-12T09:11:10.740Z"
+        },
+        "bluesky": {
+          "texte": "🐆 Et si votre fenêtre donnait sur un enclos de jaguars ? Au #zoo de Bordeaux-Pessac, trois lodges proposent de dormir face aux fauves, dont des lions rescapés d’Ukraine.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261012-e0fae2d6-bsky.jpg",
+          "mode": "reply",
+          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/dormir-zoo-bordeaux-pessac-lodges-fauves/",
+          "sujet": null,
+          "publieLe": "2026-10-12T11:13:28.751Z"
         }
       }
     },
@@ -399,6 +407,16 @@
   ],
   "publications": [
     {
+      "channel": "bluesky",
+      "at": "2026-10-12T11:13:28.751Z",
+      "titre": "Près de Bordeaux, on dort face à des tigres et des jaguars",
+      "lien": "https://passion-aquitaine.ouest-france.fr/dormir-zoo-bordeaux-pessac-lodges-fauves/",
+      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mxof6syr272k",
+      "format": "reply",
+      "texte": "🐆 Et si votre fenêtre donnait sur un enclos de jaguars ? Au #zoo de Bordeaux-Pessac, trois lodges proposent de dormir face aux fauves, dont des lions rescapés d’Ukraine.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261012-e0fae2d6-bsky.jpg"
+    },
+    {
       "channel": "threads",
       "at": "2026-10-12T09:11:10.740Z",
       "titre": "Près de Bordeaux, on dort face à des tigres et des jaguars",
@@ -487,28 +505,9 @@
       "format": "reponse",
       "texte": "🐪 Peut-on faire du fromage avec un lait qui caille mal ? Un Périgourdin s’y attelle à Savignac-Lédrier, mais agrément rare et gestation de 13 mois repoussent le premier lait de dromadaire à 2028.",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-14ec6da8-x.jpg"
-    },
-    {
-      "channel": "threads",
-      "at": "2026-10-11T12:32:52.001Z",
-      "titre": "Un Périgourdin veut faire du fromage de dromadaire, un lait qui caille mal",
-      "lien": "https://passion-aquitaine.ouest-france.fr/lait-fromage-dromadaire-dordogne/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/DeWqSzKlqX4",
-      "format": "reponse",
-      "texte": "Imaginez des dromadaires dans la campagne de Savignac-Lédrier, en pleine Dordogne. C’est le projet d’un Périgourdin qui rêve d’en tirer du fromage. Sauf que tout prend du temps : un agrément rare à décrocher, treize mois de gestation, et un lait qui, en plus, caille mal. Le premier lait pourrait ne pas couler avant 2028 🥛",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-14ec6da8-th.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "bluesky",
-      "dueAt": "2026-10-12T11:13:26.364Z",
-      "prochainPassage": "2026-10-12T11:20:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Près de Bordeaux, on dort face à des tigres et des jaguars"
-    },
     {
       "channel": "x",
       "dueAt": "2026-10-12T11:20:00.000Z",
@@ -684,7 +683,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-12T10:20:45.522Z",
+    "genereLe": "2026-10-12T11:13:37.556Z",
     "posts": 57,
     "parReseau": {
       "instagram": {
@@ -848,7 +847,7 @@
     "publies": {
       "threads": 18,
       "facebook": 16,
-      "bluesky": 17,
+      "bluesky": 18,
       "x": 17,
       "instagram": 15
     },

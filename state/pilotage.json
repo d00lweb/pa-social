@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-12T19:00:45.391Z",
+  "genereLe": "2026-10-12T19:20:41.695Z",
   "jour": "2026-10-12",
   "reseaux": {
     "instagram": {
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 1,
-      "semaine": 10,
-      "total": 36,
-      "dernier": "2026-10-12T06:10:06.291Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1749443177181563"
+      "aujourdhui": 2,
+      "semaine": 11,
+      "total": 37,
+      "dernier": "2026-10-12T19:26:05.200Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1750126087113272"
     },
     "threads": {
       "actif": true,
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35776",
       "titre": "Sous un arrêt de bus de Bordeaux, 40 sarcophages cachaient un habitat antique",
       "lien": "https://passion-aquitaine.ouest-france.fr/fouille-archeologique-sarcophage-bordeaux/",
-      "at": "2026-10-12T16:32:27.522Z",
+      "at": "2026-10-12T19:26:05.200Z",
       "reseaux": {
         "threads": {
           "texte": "Qu’y a-t-il sous nos pieds quand on attend le bus ? À Bordeaux, les fouilles de Saint-Seurin ont livré 40 sarcophages mérovingiens 🏛️ Et dessous, surprise : un habitat des Ier et IIe siècles, que les archéologues n’attendaient pas du tout. Vous imaginiez la ville antique aussi proche de la surface ?\n@villedebordeaux",
@@ -201,6 +201,14 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-10-12T16:32:27.522Z"
+        },
+        "facebook": {
+          "texte": "Sous les sarcophages mérovingiens de Saint-Seurin, les archéologues ont trouvé bien plus ancien : des maisons antiques ⛏️",
+          "image": null,
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-12T19:26:05.200Z"
         }
       }
     },
@@ -431,6 +439,16 @@
   ],
   "publications": [
     {
+      "channel": "facebook",
+      "at": "2026-10-12T19:26:05.200Z",
+      "titre": "Sous un arrêt de bus de Bordeaux, 40 sarcophages cachaient un habitat antique",
+      "lien": "https://passion-aquitaine.ouest-france.fr/fouille-archeologique-sarcophage-bordeaux/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1750126087113272",
+      "format": null,
+      "texte": "Sous les sarcophages mérovingiens de Saint-Seurin, les archéologues ont trouvé bien plus ancien : des maisons antiques ⛏️",
+      "image": null
+    },
+    {
       "channel": "instagram",
       "at": "2026-10-12T16:32:27.522Z",
       "titre": "Sous un arrêt de bus de Bordeaux, 40 sarcophages cachaient un habitat antique",
@@ -519,28 +537,9 @@
       "format": "reponse",
       "texte": "Qu’y a-t-il sous nos pieds quand on attend le bus ? À Bordeaux, les fouilles de Saint-Seurin ont livré 40 sarcophages mérovingiens 🏛️ Et dessous, surprise : un habitat des Ier et IIe siècles, que les archéologues n’attendaient pas du tout. Vous imaginiez la ville antique aussi proche de la surface ?\n@villedebordeaux",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-6a2c2b25-th.jpg"
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-10-11T18:33:26.550Z",
-      "titre": "4 châteaux du Pays basque qu’il faut absolument visiter",
-      "lien": "https://passion-aquitaine.ouest-france.fr/visiter-chateaux-pays-basque/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1748961130563101",
-      "format": null,
-      "texte": "Au Pays basque, un château d’Urrugne n’a jamais cessé d’être habité depuis 1341, et ce n’est pas le seul à visiter 🗝️",
-      "image": null
     }
   ],
   "file": [
-    {
-      "channel": "facebook",
-      "dueAt": "2026-10-12T19:26:00.019Z",
-      "prochainPassage": "2026-10-12T20:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Sous un arrêt de bus de Bordeaux, 40 sarcophages cachaient un habitat antique"
-    },
     {
       "channel": "facebook",
       "dueAt": "2026-10-13T06:34:08.736Z",
@@ -680,7 +679,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-12T19:00:50.979Z",
+    "genereLe": "2026-10-12T19:26:11.341Z",
     "posts": 62,
     "parReseau": {
       "instagram": {
@@ -843,7 +842,7 @@
     },
     "publies": {
       "threads": 18,
-      "facebook": 16,
+      "facebook": 17,
       "bluesky": 18,
       "x": 18,
       "instagram": 17

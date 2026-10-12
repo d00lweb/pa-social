@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-12T07:20:45.376Z",
+  "genereLe": "2026-10-12T08:00:41.498Z",
   "jour": "2026-10-12",
   "reseaux": {
     "instagram": {
@@ -607,7 +607,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 256,
+    "releves": 257,
     "parReseau": {
       "instagram": {
         "posts": 31,
@@ -725,8 +725,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-12T07:20:54.483Z",
-    "posts": 56,
+    "genereLe": "2026-10-12T08:00:49.070Z",
+    "posts": 57,
     "parReseau": {
       "instagram": {
         "posts": 13,
@@ -741,7 +741,7 @@
         "moyenne": 0.4
       },
       "facebook": {
-        "posts": 13,
+        "posts": 14,
         "moyenne": 0
       }
     },
@@ -777,7 +777,7 @@
         "moyenne": 1.7
       },
       "matin": {
-        "posts": 36,
+        "posts": 37,
         "moyenne": 0.5
       }
     },
@@ -798,7 +798,7 @@
       },
       "facebook": {
         "8 h – 9 h 30": {
-          "posts": 10,
+          "posts": 11,
           "moyenne": 0
         },
         "20 h – 21 h 30": {
@@ -857,21 +857,21 @@
       "creneauReseau": "12 h – 13 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35475",
-      "channel": "bluesky",
-      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mxlgu5wtrp2n",
-      "publieLe": "2026-10-11T07:05:19.112Z",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35717",
+      "channel": "facebook",
+      "mediaId": "227437307428711_1748411700618044",
+      "publieLe": "2026-10-11T07:26:54.159Z",
       "jalon": 1,
-      "releveLe": "2026-10-12T07:20:45.376Z",
+      "releveLe": "2026-10-12T08:00:41.498Z",
       "likes": 0,
       "commentairesBruts": 0,
       "partages": 0,
       "vues": null,
       "commentaires": 0,
       "v": 2,
-      "titre": "4 châteaux du Pays basque qu’il faut absolument visiter",
-      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mxlgu5wtrp2n",
-      "format": "image",
+      "titre": "Elle parcourt les vergers sans GPS : cette machine du Lot-et-Garonne sait où aller",
+      "lien": "https://www.facebook.com/1720946116697936/posts/1748411700618044",
+      "format": null,
       "mention": false,
       "creneau": "matin",
       "creneauReseau": "8 h – 9 h 30"
@@ -882,7 +882,7 @@
         "moyenne": 3.8
       },
       "sans": {
-        "posts": 30,
+        "posts": 31,
         "moyenne": 0.9
       }
     },

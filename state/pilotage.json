@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-12T08:20:43.516Z",
+  "genereLe": "2026-10-12T09:00:39.269Z",
   "jour": "2026-10-12",
   "reseaux": {
     "instagram": {
@@ -122,11 +122,11 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 1,
-      "semaine": 11,
-      "total": 37,
-      "dernier": "2026-10-12T06:08:19.899Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DeYjBNRGyQ7"
+      "aujourdhui": 2,
+      "semaine": 12,
+      "total": 38,
+      "dernier": "2026-10-12T09:11:10.740Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DeY4HLKFrfH"
     },
     "x": {
       "actif": true,
@@ -164,6 +164,22 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35384",
+      "titre": "Près de Bordeaux, on dort face à des tigres et des jaguars",
+      "lien": "https://passion-aquitaine.ouest-france.fr/dormir-zoo-bordeaux-pessac-lodges-fauves/",
+      "at": "2026-10-12T09:11:10.740Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Trois lodges, et derrière la vitre, des fauves 🐯 Au zoo de Bordeaux-Pessac, on peut passer la nuit face aux jaguars, aux tigres blancs ou à des lions rescapés d’Ukraine. Une façon très différente de découvrir les animaux, au calme, quand le public est parti. Vous choisiriez quel voisin pour la nuit ?",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261012-e0fae2d6-th.jpg",
+          "mode": "reponse",
+          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/dormir-zoo-bordeaux-pessac-lodges-fauves/",
+          "sujet": "Pessac",
+          "publieLe": "2026-10-12T09:11:10.740Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35776",
       "titre": "Sous un arrêt de bus de Bordeaux, 40 sarcophages cachaient un habitat antique",
@@ -379,57 +395,19 @@
           "publieLe": "2026-10-10T18:06:31.941Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35756",
-      "titre": "Fouilles à la dune du Pilat, un vestige de 2 500 ans ressurgit",
-      "lien": "https://passion-aquitaine.ouest-france.fr/dune-du-pilat-atelier-sel-fouilles/",
-      "at": "2026-10-10T10:04:00.482Z",
-      "reseaux": {
-        "threads": {
-          "texte": "Que faisait-on au pied de la dune du Pilat il y a plus de 2 500 ans ? Réponse : 🧂 on y produisait du sel. Un ancien atelier vient de ressurgir, et les archéologues fouillent avant que l’érosion ne l’emporte. Vous imaginiez le Bassin d’Arcachon aussi ancien ?",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-7fe1d4e9-th.jpg",
-          "mode": "reponse",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/dune-du-pilat-atelier-sel-fouilles/",
-          "sujet": "Bassin d'Arcachon",
-          "publieLe": "2026-10-09T11:36:10.451Z"
-        },
-        "x": {
-          "texte": "Plus de 2 500 ans : c’est l’âge d’un atelier de sel ressurgi au pied de la dune du Pilat. Les archéologues fouillent avant que l’érosion ne l’efface ⏳",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-7fe1d4e9-x.jpg",
-          "mode": "reponse",
-          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/dune-du-pilat-atelier-sel-fouilles/",
-          "sujet": null,
-          "publieLe": "2026-10-09T15:20:59.631Z"
-        },
-        "bluesky": {
-          "texte": "Le sable recule et laisse apparaître un atelier de sel vieux de plus de 2 500 ans 🏺 Au pied de la dune du Pilat, sur le Bassin d’Arcachon, les archéologues travaillent vite : l’érosion pourrait l’effacer. #BassinDArcachon",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-7fe1d4e9-bsky.jpg",
-          "mode": "reply",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/dune-du-pilat-atelier-sel-fouilles/",
-          "sujet": null,
-          "publieLe": "2026-10-09T17:08:52.828Z"
-        },
-        "facebook": {
-          "texte": "Bien avant les touristes, on fabriquait déjà du sel au pied de la dune du Pilat, et la preuve refait surface 🧂",
-          "image": null,
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-10T06:12:34.658Z"
-        },
-        "instagram": {
-          "texte": "La dune du Pilat cache bien plus que du sable : un atelier de sel de plus de 2 500 ans vient de ressurgir à son pied\n⠀\nSur le Bassin d’Arcachon, les archéologues fouillent ce vestige avant que l’érosion ne l’efface. Une occasion rare de découvrir comment on produisait déjà du sel ici il y a des millénaires ⛏️\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#DuneDuPilat #BassinDArcachon #Archeologie",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-7fe1d4e9-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-10T10:04:00.482Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "threads",
+      "at": "2026-10-12T09:11:10.740Z",
+      "titre": "Près de Bordeaux, on dort face à des tigres et des jaguars",
+      "lien": "https://passion-aquitaine.ouest-france.fr/dormir-zoo-bordeaux-pessac-lodges-fauves/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/DeY4HLKFrfH",
+      "format": "reponse",
+      "texte": "Trois lodges, et derrière la vitre, des fauves 🐯 Au zoo de Bordeaux-Pessac, on peut passer la nuit face aux jaguars, aux tigres blancs ou à des lions rescapés d’Ukraine. Une façon très différente de découvrir les animaux, au calme, quand le public est parti. Vous choisiriez quel voisin pour la nuit ?",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261012-e0fae2d6-th.jpg"
+    },
     {
       "channel": "x",
       "at": "2026-10-12T07:00:56.846Z",
@@ -519,28 +497,9 @@
       "format": "reponse",
       "texte": "Imaginez des dromadaires dans la campagne de Savignac-Lédrier, en pleine Dordogne. C’est le projet d’un Périgourdin qui rêve d’en tirer du fromage. Sauf que tout prend du temps : un agrément rare à décrocher, treize mois de gestation, et un lait qui, en plus, caille mal. Le premier lait pourrait ne pas couler avant 2028 🥛",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-14ec6da8-th.jpg"
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-10-11T11:13:12.252Z",
-      "titre": "Elle parcourt les vergers sans GPS : cette machine du Lot-et-Garonne sait où aller",
-      "lien": "https://passion-aquitaine.ouest-france.fr/robot-agricole-sans-gps-verger-lot-et-garonne/",
-      "lienPost": "https://www.instagram.com/p/DeWhjrWGD3e/",
-      "format": null,
-      "texte": "Entre les rangées d’arbres fruitiers, une machine avance seule, sans le moindre GPS 🍏\n⠀\nÀ Cancon, dans le Lot-et-Garonne, cet engin agricole mise sur la navigation autonome et la pulvérisation intelligente. Une innovation née au cœur des vergers.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#LotEtGaronne #Vergers #Agriculture",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261010-c29a0140-1.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "threads",
-      "dueAt": "2026-10-12T09:08:31.168Z",
-      "prochainPassage": "2026-10-12T09:20:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Près de Bordeaux, on dort face à des tigres et des jaguars"
-    },
     {
       "channel": "bluesky",
       "dueAt": "2026-10-12T11:13:26.364Z",
@@ -686,7 +645,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-12T07:20:45.376Z"
+    "derniere": "2026-10-12T09:00:39.269Z"
   },
   "abonnes": {
     "instagram": {
@@ -725,7 +684,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-12T08:20:48.280Z",
+    "genereLe": "2026-10-12T09:11:16.934Z",
     "posts": 57,
     "parReseau": {
       "instagram": {
@@ -887,7 +846,7 @@
       }
     },
     "publies": {
-      "threads": 17,
+      "threads": 18,
       "facebook": 16,
       "bluesky": 17,
       "x": 17,

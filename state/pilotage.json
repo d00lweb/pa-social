@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-12T18:20:49.438Z",
+  "genereLe": "2026-10-12T19:00:45.391Z",
   "jour": "2026-10-12",
   "reseaux": {
     "instagram": {
@@ -562,7 +562,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 261,
+    "releves": 262,
     "parReseau": {
       "instagram": {
         "posts": 31,
@@ -680,8 +680,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-12T18:20:55.424Z",
-    "posts": 61,
+    "genereLe": "2026-10-12T19:00:50.979Z",
+    "posts": 62,
     "parReseau": {
       "instagram": {
         "posts": 15,
@@ -696,7 +696,7 @@
         "moyenne": 0.4
       },
       "facebook": {
-        "posts": 14,
+        "posts": 15,
         "moyenne": 0
       }
     },
@@ -728,8 +728,8 @@
         "moyenne": 7.1
       },
       "soir": {
-        "posts": 9,
-        "moyenne": 1.8
+        "posts": 10,
+        "moyenne": 1.6
       },
       "matin": {
         "posts": 37,
@@ -757,7 +757,7 @@
           "moyenne": 0
         },
         "20 h – 21 h 30": {
-          "posts": 3,
+          "posts": 4,
           "moyenne": 0
         }
       },
@@ -812,24 +812,24 @@
       "creneauReseau": "12 h – 13 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35766",
-      "channel": "bluesky",
-      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mxmfksvesu2r",
-      "publieLe": "2026-10-11T16:14:51.712Z",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35475",
+      "channel": "facebook",
+      "mediaId": "227437307428711_1748961130563101",
+      "publieLe": "2026-10-11T18:33:26.550Z",
       "jalon": 1,
-      "releveLe": "2026-10-12T16:20:42.294Z",
+      "releveLe": "2026-10-12T19:00:45.391Z",
       "likes": 0,
-      "commentairesBruts": 1,
+      "commentairesBruts": 0,
       "partages": 0,
       "vues": null,
       "commentaires": 0,
       "v": 2,
-      "titre": "Un Périgourdin veut faire du fromage de dromadaire, un lait qui caille mal",
-      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mxmfksvesu2r",
-      "format": "reply",
+      "titre": "4 châteaux du Pays basque qu’il faut absolument visiter",
+      "lien": "https://www.facebook.com/1720946116697936/posts/1748961130563101",
+      "format": null,
       "mention": false,
       "creneau": "soir",
-      "creneauReseau": "18 h – 19 h 30"
+      "creneauReseau": "20 h – 21 h 30"
     },
     "mentions": {
       "avec": {
@@ -837,7 +837,7 @@
         "moyenne": 3.9
       },
       "sans": {
-        "posts": 33,
+        "posts": 34,
         "moyenne": 0.9
       }
     },

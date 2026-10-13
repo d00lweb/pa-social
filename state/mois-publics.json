@@ -1,14 +1,14 @@
 {
   "2026-10": {
     "cle": "2026-10",
-    "publications": 88,
-    "articles": 18,
-    "interactions": 139,
+    "publications": 90,
+    "articles": 19,
+    "interactions": 198,
     "parReseau": {
-      "facebook": 17,
+      "facebook": 18,
       "instagram": 17,
       "x": 18,
-      "threads": 18,
+      "threads": 19,
       "bluesky": 18
     },
     "gains": {
@@ -25,6 +25,13 @@
         "lien": "https://www.instagram.com/p/DeJpgtklzof/",
         "image": "https://passion-aquitaine.ouest-france.fr/social/20261006-9ec21692-1-vignette.jpg",
         "interactions": 65
+      },
+      {
+        "reseau": "threads",
+        "titre": "Sous un arrêt de bus de Bordeaux, 40 sarcophages cachaient un habitat antique",
+        "lien": "https://www.threads.com/@lovaquitaine/post/DeYjBNRGyQ7",
+        "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-6a2c2b25-1-vignette.jpg",
+        "interactions": 58
       },
       {
         "reseau": "threads",
@@ -45,13 +52,6 @@
         "titre": "À Hendaye, un château cache un observatoire actif jusqu’en 1975",
         "lien": "https://www.instagram.com/p/DeEh3MYjNDP/",
         "image": "https://passion-aquitaine.ouest-france.fr/social/20261004-fbd02dce-1-vignette.jpg",
-        "interactions": 5
-      },
-      {
-        "reseau": "bluesky",
-        "titre": "Fouilles à la dune du Pilat, un vestige de 2 500 ans ressurgit",
-        "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mxhhnkyvh422",
-        "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-7fe1d4e9-1-vignette.jpg",
         "interactions": 5
       }
     ]

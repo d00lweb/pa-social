@@ -3436,5 +3436,41 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=32967",
+    "channel": "threads",
+    "at": "2026-10-13T06:30:26.832Z",
+    "mediaId": "18566241250078011",
+    "titre": "Écoles de surf à Biscarrosse : les 3 meilleures pour apprendre",
+    "lien": "https://passion-aquitaine.ouest-france.fr/ecoles-surf-biscarrosse/",
+    "lienPost": "https://www.threads.com/@lovaquitaine/post/DebKgR2lcPv",
+    "format": "reponse",
+    "mention": false,
+    "apercu": {
+      "texte": "🌊 Biscarrosse, ses plages et ses vagues : ici, le surf fait presque partie de l’identité. Dans les Landes, beaucoup apprennent à glisser très tôt. Et si vous n’avez jamais tenu sur une planche, trois écoles de la station sortent du lot pour débuter dans de bonnes conditions.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261013-e9332e02-th.jpg",
+      "mode": "reponse",
+      "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/ecoles-surf-biscarrosse/",
+      "sujet": "Biscarrosse"
+    }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35384",
+    "channel": "facebook",
+    "at": "2026-10-13T06:34:12.839Z",
+    "mediaId": "227437307428711_1750582220400992",
+    "titre": "Près de Bordeaux, on dort face à des tigres et des jaguars",
+    "lien": "https://passion-aquitaine.ouest-france.fr/dormir-zoo-bordeaux-pessac-lodges-fauves/",
+    "lienPost": "https://www.facebook.com/1720946116697936/posts/1750582220400992",
+    "format": null,
+    "mention": false,
+    "apercu": {
+      "texte": "Ouvrir les rideaux le matin et croiser le regard d’un tigre blanc, c’est possible dans trois lodges près de Bordeaux 🐅",
+      "image": null,
+      "mode": null,
+      "reponse": null,
+      "sujet": null
+    }
   }
 ]

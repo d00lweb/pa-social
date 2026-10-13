@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-13T06:00:48.227Z",
+  "genereLe": "2026-10-13T06:20:42.380Z",
   "jour": "2026-10-13",
   "reseaux": {
     "instagram": {
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 11,
-      "total": 37,
-      "dernier": "2026-10-12T19:26:05.200Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1750126087113272"
+      "aujourdhui": 1,
+      "semaine": 12,
+      "total": 38,
+      "dernier": "2026-10-13T06:34:12.839Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1750582220400992"
     },
     "threads": {
       "actif": true,
@@ -122,11 +122,11 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 12,
-      "total": 38,
-      "dernier": "2026-10-12T09:11:10.740Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DeY4HLKFrfH"
+      "aujourdhui": 1,
+      "semaine": 13,
+      "total": 39,
+      "dernier": "2026-10-13T06:30:26.832Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DebKgR2lcPv"
     },
     "x": {
       "actif": true,
@@ -164,6 +164,62 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35384",
+      "titre": "Près de Bordeaux, on dort face à des tigres et des jaguars",
+      "lien": "https://passion-aquitaine.ouest-france.fr/dormir-zoo-bordeaux-pessac-lodges-fauves/",
+      "at": "2026-10-13T06:34:12.839Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Trois lodges, et derrière la vitre, des fauves 🐯 Au zoo de Bordeaux-Pessac, on peut passer la nuit face aux jaguars, aux tigres blancs ou à des lions rescapés d’Ukraine. Une façon très différente de découvrir les animaux, au calme, quand le public est parti. Vous choisiriez quel voisin pour la nuit ?",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261012-e0fae2d6-th.jpg",
+          "mode": "reponse",
+          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/dormir-zoo-bordeaux-pessac-lodges-fauves/",
+          "sujet": "Pessac",
+          "publieLe": "2026-10-12T09:11:10.740Z"
+        },
+        "bluesky": {
+          "texte": "🐆 Et si votre fenêtre donnait sur un enclos de jaguars ? Au #zoo de Bordeaux-Pessac, trois lodges proposent de dormir face aux fauves, dont des lions rescapés d’Ukraine.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261012-e0fae2d6-bsky.jpg",
+          "mode": "reply",
+          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/dormir-zoo-bordeaux-pessac-lodges-fauves/",
+          "sujet": null,
+          "publieLe": "2026-10-12T11:13:28.751Z"
+        },
+        "x": {
+          "texte": "Zoo de Bordeaux-#Pessac : trois lodges pour dormir face aux fauves. Au choix, jaguars, tigres blancs ou 🦁 lions rescapés d’Ukraine.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261012-e0fae2d6-x.jpg",
+          "mode": "reponse",
+          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/dormir-zoo-bordeaux-pessac-lodges-fauves/",
+          "sujet": null,
+          "publieLe": "2026-10-12T11:20:57.836Z"
+        },
+        "facebook": {
+          "texte": "Ouvrir les rideaux le matin et croiser le regard d’un tigre blanc, c’est possible dans trois lodges près de Bordeaux 🐅",
+          "image": null,
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-13T06:34:12.839Z"
+        }
+      }
+    },
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=32967",
+      "titre": "Écoles de surf à Biscarrosse : les 3 meilleures pour apprendre",
+      "lien": "https://passion-aquitaine.ouest-france.fr/ecoles-surf-biscarrosse/",
+      "at": "2026-10-13T06:30:26.832Z",
+      "reseaux": {
+        "threads": {
+          "texte": "🌊 Biscarrosse, ses plages et ses vagues : ici, le surf fait presque partie de l’identité. Dans les Landes, beaucoup apprennent à glisser très tôt. Et si vous n’avez jamais tenu sur une planche, trois écoles de la station sortent du lot pour débuter dans de bonnes conditions.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261013-e9332e02-th.jpg",
+          "mode": "reponse",
+          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/ecoles-surf-biscarrosse/",
+          "sujet": "Biscarrosse",
+          "publieLe": "2026-10-13T06:30:26.832Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35776",
       "titre": "Sous un arrêt de bus de Bordeaux, 40 sarcophages cachaient un habitat antique",
@@ -257,38 +313,6 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-10-12T11:28:39.066Z"
-        }
-      }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35384",
-      "titre": "Près de Bordeaux, on dort face à des tigres et des jaguars",
-      "lien": "https://passion-aquitaine.ouest-france.fr/dormir-zoo-bordeaux-pessac-lodges-fauves/",
-      "at": "2026-10-12T11:20:57.836Z",
-      "reseaux": {
-        "threads": {
-          "texte": "Trois lodges, et derrière la vitre, des fauves 🐯 Au zoo de Bordeaux-Pessac, on peut passer la nuit face aux jaguars, aux tigres blancs ou à des lions rescapés d’Ukraine. Une façon très différente de découvrir les animaux, au calme, quand le public est parti. Vous choisiriez quel voisin pour la nuit ?",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261012-e0fae2d6-th.jpg",
-          "mode": "reponse",
-          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/dormir-zoo-bordeaux-pessac-lodges-fauves/",
-          "sujet": "Pessac",
-          "publieLe": "2026-10-12T09:11:10.740Z"
-        },
-        "bluesky": {
-          "texte": "🐆 Et si votre fenêtre donnait sur un enclos de jaguars ? Au #zoo de Bordeaux-Pessac, trois lodges proposent de dormir face aux fauves, dont des lions rescapés d’Ukraine.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261012-e0fae2d6-bsky.jpg",
-          "mode": "reply",
-          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/dormir-zoo-bordeaux-pessac-lodges-fauves/",
-          "sujet": null,
-          "publieLe": "2026-10-12T11:13:28.751Z"
-        },
-        "x": {
-          "texte": "Zoo de Bordeaux-#Pessac : trois lodges pour dormir face aux fauves. Au choix, jaguars, tigres blancs ou 🦁 lions rescapés d’Ukraine.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261012-e0fae2d6-x.jpg",
-          "mode": "reponse",
-          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/dormir-zoo-bordeaux-pessac-lodges-fauves/",
-          "sujet": null,
-          "publieLe": "2026-10-12T11:20:57.836Z"
         }
       }
     },
@@ -387,57 +411,29 @@
           "publieLe": "2026-10-11T11:13:12.252Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=28053",
-      "titre": "Golfs de Gironde : top 3 des meilleurs parcours près de Bordeaux",
-      "lien": "https://passion-aquitaine.ouest-france.fr/top-golfs-bordeaux-gironde/",
-      "at": "2026-10-10T18:06:31.941Z",
-      "reseaux": {
-        "threads": {
-          "texte": "Trois golfs, pas un de plus ⛳ C’est notre sélection des meilleurs parcours de Gironde, tous accessibles depuis Bordeaux. On va du Bassin d’Arcachon jusqu’à Saint-Émilion, de quoi varier les décors d’un week-end à l’autre. Plutôt parcours côté océan ou côté vignes, vous ?\n@villedebordeaux @visitbordeaux",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261010-83f46501-th.jpg",
-          "mode": "reponse",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/top-golfs-bordeaux-gironde/",
-          "sujet": "Bordeaux",
-          "publieLe": "2026-10-10T06:28:30.346Z"
-        },
-        "bluesky": {
-          "texte": "🌳 Où taper la balle en #Gironde sans trop s’éloigner de #Bordeaux ? Trois parcours sortent du lot, du Bassin d’Arcachon jusqu’à Saint-Émilion. Voici notre top 3.\n@villedebordeaux.bsky.social",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261010-83f46501-bsky.jpg",
-          "mode": "card",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-10T07:29:34.362Z"
-        },
-        "x": {
-          "texte": "Gironde : du Bassin d’Arcachon à Saint-Émilion, 🏌️‍♂️ trois golfs dominent le classement des meilleurs parcours, tous proches de #Bordeaux.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261010-83f46501-x.jpg",
-          "mode": "reponse",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/top-golfs-bordeaux-gironde/",
-          "sujet": null,
-          "publieLe": "2026-10-10T08:01:01.950Z"
-        },
-        "instagram": {
-          "texte": "Du Bassin d’Arcachon à Saint-Émilion, les plus beaux golfs de Gironde restent à deux pas de Bordeaux ⛳\n⠀\nTrois parcours se détachent dans le département, entre littoral et vignobles. Notre sélection pour golfeurs girondins et visiteurs de passage.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Gironde #Golf #Bordeaux",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261010-83f46501-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-10T16:33:52.028Z"
-        },
-        "facebook": {
-          "texte": "Un swing près des pins du Bassin ou au milieu des vignes de Saint-Émilion, lequel vous tente le plus ? 🏌️",
-          "image": null,
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-10T18:06:31.941Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "facebook",
+      "at": "2026-10-13T06:34:12.839Z",
+      "titre": "Près de Bordeaux, on dort face à des tigres et des jaguars",
+      "lien": "https://passion-aquitaine.ouest-france.fr/dormir-zoo-bordeaux-pessac-lodges-fauves/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1750582220400992",
+      "format": null,
+      "texte": "Ouvrir les rideaux le matin et croiser le regard d’un tigre blanc, c’est possible dans trois lodges près de Bordeaux 🐅",
+      "image": null
+    },
+    {
+      "channel": "threads",
+      "at": "2026-10-13T06:30:26.832Z",
+      "titre": "Écoles de surf à Biscarrosse : les 3 meilleures pour apprendre",
+      "lien": "https://passion-aquitaine.ouest-france.fr/ecoles-surf-biscarrosse/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/DebKgR2lcPv",
+      "format": "reponse",
+      "texte": "🌊 Biscarrosse, ses plages et ses vagues : ici, le surf fait presque partie de l’identité. Dans les Landes, beaucoup apprennent à glisser très tôt. Et si vous n’avez jamais tenu sur une planche, trois écoles de la station sortent du lot pour débuter dans de bonnes conditions.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261013-e9332e02-th.jpg"
+    },
     {
       "channel": "facebook",
       "at": "2026-10-12T19:26:05.200Z",
@@ -517,47 +513,9 @@
       "format": "reply",
       "texte": "Des sarcophages alignés sous le bitume, et plus bas encore, des murs vieux de près de deux millénaires 🏺 À #Bordeaux, les fouilles de Saint-Seurin révèlent un habitat des Ier et IIe siècles, juste sous un arrêt de bus.\n@villedebordeaux.bsky.social",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-6a2c2b25-bsky.jpg"
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-10-12T06:10:06.291Z",
-      "titre": "Un Périgourdin veut faire du fromage de dromadaire, un lait qui caille mal",
-      "lien": "https://passion-aquitaine.ouest-france.fr/lait-fromage-dromadaire-dordogne/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1749443177181563",
-      "format": null,
-      "texte": "Treize mois de gestation : voilà pourquoi le fromage de dromadaire rêvé en Dordogne va se faire attendre ⏳",
-      "image": null
-    },
-    {
-      "channel": "threads",
-      "at": "2026-10-12T06:08:19.899Z",
-      "titre": "Sous un arrêt de bus de Bordeaux, 40 sarcophages cachaient un habitat antique",
-      "lien": "https://passion-aquitaine.ouest-france.fr/fouille-archeologique-sarcophage-bordeaux/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/DeYjBNRGyQ7",
-      "format": "reponse",
-      "texte": "Qu’y a-t-il sous nos pieds quand on attend le bus ? À Bordeaux, les fouilles de Saint-Seurin ont livré 40 sarcophages mérovingiens 🏛️ Et dessous, surprise : un habitat des Ier et IIe siècles, que les archéologues n’attendaient pas du tout. Vous imaginiez la ville antique aussi proche de la surface ?\n@villedebordeaux",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-6a2c2b25-th.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "threads",
-      "dueAt": "2026-10-13T06:27:42.636Z",
-      "prochainPassage": "2026-10-13T07:00:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Écoles de surf à Biscarrosse : les 3 meilleures pour apprendre"
-    },
-    {
-      "channel": "facebook",
-      "dueAt": "2026-10-13T06:34:08.736Z",
-      "prochainPassage": "2026-10-13T07:00:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Près de Bordeaux, on dort face à des tigres et des jaguars"
-    },
     {
       "channel": "x",
       "dueAt": "2026-10-13T07:20:00.000Z",
@@ -606,7 +564,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 262,
+    "releves": 265,
     "parReseau": {
       "instagram": {
         "posts": 31,
@@ -724,33 +682,33 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-13T06:01:36.751Z",
-    "posts": 62,
+    "genereLe": "2026-10-13T06:34:18.847Z",
+    "posts": 65,
     "parReseau": {
       "instagram": {
         "posts": 15,
         "moyenne": 7.5
       },
       "threads": {
-        "posts": 16,
-        "moyenne": 1.3
+        "posts": 17,
+        "moyenne": 4.6
       },
       "bluesky": {
-        "posts": 16,
+        "posts": 17,
         "moyenne": 0.4
       },
       "facebook": {
-        "posts": 15,
+        "posts": 16,
         "moyenne": 0
       }
     },
     "parFormat": {
       "reponse": {
-        "posts": 14,
-        "moyenne": 1.5
+        "posts": 15,
+        "moyenne": 5.3
       },
       "reply": {
-        "posts": 9,
+        "posts": 10,
         "moyenne": 0.6
       },
       "card": {
@@ -771,17 +729,21 @@
         "posts": 15,
         "moyenne": 7.1
       },
+      "matin": {
+        "posts": 40,
+        "moyenne": 1.9
+      },
       "soir": {
         "posts": 10,
         "moyenne": 1.6
-      },
-      "matin": {
-        "posts": 37,
-        "moyenne": 0.5
       }
     },
     "parCreneauReseau": {
       "threads": {
+        "7 h – 8 h 30": {
+          "posts": 12,
+          "moyenne": 5.7
+        },
         "13 h – 14 h 30": {
           "posts": 2,
           "moyenne": 3.5
@@ -789,15 +751,11 @@
         "10 h – 11 h 30": {
           "posts": 3,
           "moyenne": 1.3
-        },
-        "7 h – 8 h 30": {
-          "posts": 11,
-          "moyenne": 0.9
         }
       },
       "facebook": {
         "8 h – 9 h 30": {
-          "posts": 11,
+          "posts": 12,
           "moyenne": 0
         },
         "20 h – 21 h 30": {
@@ -811,8 +769,8 @@
           "moyenne": 2.5
         },
         "8 h – 9 h 30": {
-          "posts": 11,
-          "moyenne": 0.1
+          "posts": 12,
+          "moyenne": 0.2
         },
         "12 h – 13 h 30": {
           "posts": 3,
@@ -834,7 +792,7 @@
         }
       }
     },
-    "interactionsTotal": 139,
+    "interactionsTotal": 198,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35575",
       "channel": "instagram",
@@ -856,38 +814,38 @@
       "creneauReseau": "12 h – 13 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35475",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35766",
       "channel": "facebook",
-      "mediaId": "227437307428711_1748961130563101",
-      "publieLe": "2026-10-11T18:33:26.550Z",
+      "mediaId": "227437307428711_1749443177181563",
+      "publieLe": "2026-10-12T06:10:06.291Z",
       "jalon": 1,
-      "releveLe": "2026-10-12T19:00:45.391Z",
+      "releveLe": "2026-10-13T06:20:42.380Z",
       "likes": 0,
       "commentairesBruts": 0,
       "partages": 0,
       "vues": null,
       "commentaires": 0,
       "v": 2,
-      "titre": "4 châteaux du Pays basque qu’il faut absolument visiter",
-      "lien": "https://www.facebook.com/1720946116697936/posts/1748961130563101",
+      "titre": "Un Périgourdin veut faire du fromage de dromadaire, un lait qui caille mal",
+      "lien": "https://www.facebook.com/1720946116697936/posts/1749443177181563",
       "format": null,
       "mention": false,
-      "creneau": "soir",
-      "creneauReseau": "20 h – 21 h 30"
+      "creneau": "matin",
+      "creneauReseau": "8 h – 9 h 30"
     },
     "mentions": {
       "avec": {
-        "posts": 28,
-        "moyenne": 3.9
+        "posts": 30,
+        "moyenne": 5.6
       },
       "sans": {
-        "posts": 34,
-        "moyenne": 0.9
+        "posts": 35,
+        "moyenne": 0.8
       }
     },
     "publies": {
-      "threads": 18,
-      "facebook": 17,
+      "threads": 19,
+      "facebook": 18,
       "bluesky": 18,
       "x": 18,
       "instagram": 17
@@ -929,14 +887,14 @@
     },
     "engagement": {
       "instagram": 0.07,
-      "threads": 0.11,
+      "threads": 0.4,
       "facebook": 0
     },
     "conseils": [
+      "Threads : le créneau 7 h – 8 h 30 fait 4,4 fois mieux que 10 h – 11 h 30 (5.7 contre 1.3 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Instagram : le créneau 12 h – 13 h 30 fait 3,5 fois mieux que 18 h – 19 h 30 (9.9 contre 2.8 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
-      "Le format « reponse » fait 15 fois mieux que « lien » (1.5 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « lien » de la rotation dans config/channels.json.",
-      "Abonnés : Threads progresse le plus (+2, +0,2 %) ; Facebook recule (−15), à surveiller.",
-      "Les posts avec mention font 3 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
+      "Le format « reponse » fait 53 fois mieux que « lien » (5.3 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « lien » de la rotation dans config/channels.json.",
+      "Abonnés : Threads progresse le plus (+2, +0,2 %) ; Facebook recule (−15), à surveiller."
     ]
   },
   "couts": {

@@ -649,5 +649,114 @@
     "instagram": [],
     "threads": [],
     "bluesky": []
+  },
+  "commune:mairie:biscarrosse": {
+    "v": 3,
+    "cherche": "2026-10-13T06:01:09.584Z",
+    "instagram": [
+      {
+        "handle": "villedebiscarrosse",
+        "nom": "Ville de Biscarrosse",
+        "abonnes": 9969,
+        "preuve": 3
+      }
+    ],
+    "x": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "commune:tourisme:biscarrosse": {
+    "v": 3,
+    "cherche": "2026-10-13T06:01:09.584Z",
+    "instagram": [],
+    "x": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "vivier:surf:surfingfrance,ripitup.fr": {
+    "v": 3,
+    "cherche": "2026-10-13T06:01:09.584Z",
+    "instagram": [
+      {
+        "handle": "surfingfrance",
+        "nom": "Fédération Française Surf",
+        "abonnes": 73152,
+        "preuve": 3
+      },
+      {
+        "handle": "ripitup.fr",
+        "nom": "RIPITUP",
+        "abonnes": 71203,
+        "preuve": 3
+      }
+    ],
+    "threads": [
+      {
+        "handle": "surfingfrance",
+        "nom": "Fédération Française Surf",
+        "abonnes": 73152,
+        "preuve": 3
+      }
+    ],
+    "bluesky": [],
+    "x": []
+  },
+  "locale:biscarrosse:surf": {
+    "v": 3,
+    "cherche": "2026-10-13T06:01:09.584Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:biscarrosse:sport": {
+    "v": 3,
+    "cherche": "2026-10-13T06:01:09.584Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "territoire:landes:departement_landes,les_landes": {
+    "v": 3,
+    "cherche": "2026-10-13T06:01:09.584Z",
+    "conseil": {
+      "instagram": [
+        {
+          "handle": "departement_landes",
+          "nom": "Département des Landes",
+          "abonnes": 13202,
+          "preuve": 3
+        }
+      ],
+      "threads": [
+        {
+          "handle": "departement_landes",
+          "nom": "Département des Landes",
+          "abonnes": 13202,
+          "preuve": 3
+        }
+      ],
+      "bluesky": [
+        {
+          "handle": "departementlandes.bsky.social",
+          "nom": "Département des Landes",
+          "abonnes": 231,
+          "preuve": 2
+        }
+      ],
+      "x": []
+    },
+    "tourisme": {
+      "instagram": [
+        {
+          "handle": "les_landes",
+          "nom": "Les Landes",
+          "abonnes": 99419,
+          "preuve": 3
+        }
+      ],
+      "threads": [],
+      "bluesky": [],
+      "x": []
+    }
   }
 }

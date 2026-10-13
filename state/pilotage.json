@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-13T05:20:40.701Z",
+  "genereLe": "2026-10-13T06:00:48.227Z",
   "jour": "2026-10-13",
   "reseaux": {
     "instagram": {
@@ -541,6 +541,15 @@
   ],
   "file": [
     {
+      "channel": "threads",
+      "dueAt": "2026-10-13T06:27:42.636Z",
+      "prochainPassage": "2026-10-13T07:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Écoles de surf à Biscarrosse : les 3 meilleures pour apprendre"
+    },
+    {
       "channel": "facebook",
       "dueAt": "2026-10-13T06:34:08.736Z",
       "prochainPassage": "2026-10-13T07:00:00.000Z",
@@ -550,6 +559,24 @@
       "titre": "Près de Bordeaux, on dort face à des tigres et des jaguars"
     },
     {
+      "channel": "x",
+      "dueAt": "2026-10-13T07:20:00.000Z",
+      "prochainPassage": "2026-10-13T07:20:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Écoles de surf à Biscarrosse : les 3 meilleures pour apprendre"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-10-13T07:28:23.011Z",
+      "prochainPassage": "2026-10-13T08:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Écoles de surf à Biscarrosse : les 3 meilleures pour apprendre"
+    },
+    {
       "channel": "instagram",
       "dueAt": "2026-10-13T10:34:23.332Z",
       "prochainPassage": "2026-10-13T11:00:00.000Z",
@@ -557,6 +584,24 @@
       "prevuInitialement": null,
       "raison": null,
       "titre": "Près de Bordeaux, on dort face à des tigres et des jaguars"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-10-13T16:26:07.803Z",
+      "prochainPassage": "2026-10-13T17:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Écoles de surf à Biscarrosse : les 3 meilleures pour apprendre"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-10-13T19:11:22.032Z",
+      "prochainPassage": "2026-10-13T19:20:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Écoles de surf à Biscarrosse : les 3 meilleures pour apprendre"
     }
   ],
   "alertes": [],
@@ -640,7 +685,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-13T05:00:46.771Z"
+    "derniere": "2026-10-13T06:00:48.227Z"
   },
   "abonnes": {
     "instagram": {
@@ -679,7 +724,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-13T05:20:45.768Z",
+    "genereLe": "2026-10-13T06:01:36.751Z",
     "posts": 62,
     "parReseau": {
       "instagram": {
@@ -896,29 +941,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 0,
-      "entree": 0,
-      "sortie": 0,
-      "cout": 0,
+      "appels": 2,
+      "entree": 16046,
+      "sortie": 1574,
+      "cout": 0.095664,
       "cle": "2026-10-13"
     },
     "semaine": {
-      "appels": 21,
-      "entree": 167879,
-      "sortie": 20777,
-      "cout": 1.087056
+      "appels": 23,
+      "entree": 183925,
+      "sortie": 22351,
+      "cout": 1.18272
     },
     "mois": {
-      "appels": 35,
-      "entree": 275790,
-      "sortie": 34438,
-      "cout": 1.79192,
+      "appels": 37,
+      "entree": 291836,
+      "sortie": 36012,
+      "cout": 1.887584,
       "cle": "2026-10"
     },
-    "projection": 4.27,
-    "moyenneAppel": 0.0512,
+    "projection": 4.5,
+    "moyenneAppel": 0.051,
     "parModele": {
-      "claude-opus-5-5": 35
+      "claude-opus-5-5": 37
     },
     "serie": [
       [
@@ -975,7 +1020,7 @@
       ],
       [
         "2026-10-13",
-        0
+        0.0957
       ]
     ],
     "depuis": "2026-09-23"

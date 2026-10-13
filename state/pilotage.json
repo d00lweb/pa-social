@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-13T06:20:42.380Z",
+  "genereLe": "2026-10-13T07:00:43.165Z",
   "jour": "2026-10-13",
   "reseaux": {
     "instagram": {
@@ -61,7 +61,7 @@
         "reply"
       ],
       "aujourdhui": 0,
-      "semaine": 12,
+      "semaine": 11,
       "total": 41,
       "dernier": "2026-10-12T11:13:28.751Z",
       "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mxof6syr272k"
@@ -89,7 +89,7 @@
       },
       "formats": null,
       "aujourdhui": 1,
-      "semaine": 12,
+      "semaine": 11,
       "total": 38,
       "dernier": "2026-10-13T06:34:12.839Z",
       "lienDernier": "https://www.facebook.com/1720946116697936/posts/1750582220400992"
@@ -123,7 +123,7 @@
         "reponse"
       ],
       "aujourdhui": 1,
-      "semaine": 13,
+      "semaine": 12,
       "total": 39,
       "dernier": "2026-10-13T06:30:26.832Z",
       "lienDernier": "https://www.threads.com/@lovaquitaine/post/DebKgR2lcPv"
@@ -564,23 +564,23 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 265,
+    "releves": 268,
     "parReseau": {
       "instagram": {
         "posts": 31,
         "interactionsMoyennes": 12.8
       },
       "bluesky": {
-        "posts": 29,
+        "posts": 30,
         "interactionsMoyennes": 0.1
       },
       "facebook": {
-        "posts": 26,
+        "posts": 27,
         "interactionsMoyennes": 0
       },
       "threads": {
-        "posts": 26,
-        "interactionsMoyennes": 7
+        "posts": 27,
+        "interactionsMoyennes": 6.7
       }
     }
   },
@@ -682,7 +682,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-13T06:34:18.847Z",
+    "genereLe": "2026-10-13T07:00:48.691Z",
     "posts": 65,
     "parReseau": {
       "instagram": {

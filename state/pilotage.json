@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-13T19:20:39.675Z",
+  "genereLe": "2026-10-13T20:00:46.940Z",
   "jour": "2026-10-13",
   "reseaux": {
     "instagram": {
@@ -558,7 +558,7 @@
   "file": [],
   "alertes": [],
   "mesures": {
-    "releves": 273,
+    "releves": 274,
     "parReseau": {
       "instagram": {
         "posts": 32,
@@ -637,7 +637,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-13T18:20:42.844Z"
+    "derniere": "2026-10-13T20:00:46.940Z"
   },
   "abonnes": {
     "instagram": {
@@ -676,8 +676,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-13T19:20:44.726Z",
-    "posts": 69,
+    "genereLe": "2026-10-13T20:00:58.596Z",
+    "posts": 70,
     "parReseau": {
       "instagram": {
         "posts": 17,
@@ -692,7 +692,7 @@
         "moyenne": 0.4
       },
       "facebook": {
-        "posts": 16,
+        "posts": 17,
         "moyenne": 0
       }
     },
@@ -724,8 +724,8 @@
         "moyenne": 7.6
       },
       "soir": {
-        "posts": 11,
-        "moyenne": 2.2
+        "posts": 12,
+        "moyenne": 2
       },
       "matin": {
         "posts": 41,
@@ -753,7 +753,7 @@
           "moyenne": 0
         },
         "20 h – 21 h 30": {
-          "posts": 4,
+          "posts": 5,
           "moyenne": 0
         }
       },
@@ -808,24 +808,24 @@
       "creneauReseau": "12 h – 13 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35384",
-      "channel": "bluesky",
-      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mxof6syr272k",
-      "publieLe": "2026-10-12T11:13:28.751Z",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35776",
+      "channel": "facebook",
+      "mediaId": "227437307428711_1750126087113272",
+      "publieLe": "2026-10-12T19:26:05.200Z",
       "jalon": 1,
-      "releveLe": "2026-10-13T11:20:46.028Z",
+      "releveLe": "2026-10-13T20:00:46.940Z",
       "likes": 0,
-      "commentairesBruts": 1,
+      "commentairesBruts": 0,
       "partages": 0,
       "vues": null,
       "commentaires": 0,
       "v": 2,
-      "titre": "Près de Bordeaux, on dort face à des tigres et des jaguars",
-      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mxof6syr272k",
-      "format": "reply",
+      "titre": "Sous un arrêt de bus de Bordeaux, 40 sarcophages cachaient un habitat antique",
+      "lien": "https://www.facebook.com/1720946116697936/posts/1750126087113272",
+      "format": null,
       "mention": false,
-      "creneau": "après-midi",
-      "creneauReseau": "12 h – 13 h 30"
+      "creneau": "soir",
+      "creneauReseau": "20 h – 21 h 30"
     },
     "mentions": {
       "avec": {
@@ -833,7 +833,7 @@
         "moyenne": 6.3
       },
       "sans": {
-        "posts": 37,
+        "posts": 38,
         "moyenne": 0.8
       }
     },

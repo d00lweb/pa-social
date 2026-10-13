@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-13T11:00:41.531Z",
+  "genereLe": "2026-10-13T11:20:46.028Z",
   "jour": "2026-10-13",
   "reseaux": {
     "instagram": {
@@ -25,7 +25,7 @@
       },
       "formats": null,
       "aujourdhui": 1,
-      "semaine": 12,
+      "semaine": 11,
       "total": 43,
       "dernier": "2026-10-13T10:34:58.602Z",
       "lienDernier": "https://www.instagram.com/p/Debmw2lDpP4/"
@@ -561,11 +561,11 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 269,
+    "releves": 271,
     "parReseau": {
       "instagram": {
-        "posts": 31,
-        "interactionsMoyennes": 12.8
+        "posts": 32,
+        "interactionsMoyennes": 15.1
       },
       "bluesky": {
         "posts": 30,
@@ -679,19 +679,19 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-13T11:00:46.857Z",
-    "posts": 66,
+    "genereLe": "2026-10-13T11:20:51.982Z",
+    "posts": 67,
     "parReseau": {
       "instagram": {
         "posts": 15,
-        "moyenne": 7.5
+        "moyenne": 8.8
       },
       "threads": {
         "posts": 18,
         "moyenne": 4.4
       },
       "bluesky": {
-        "posts": 17,
+        "posts": 18,
         "moyenne": 0.4
       },
       "facebook": {
@@ -705,8 +705,8 @@
         "moyenne": 4.9
       },
       "reply": {
-        "posts": 10,
-        "moyenne": 0.6
+        "posts": 11,
+        "moyenne": 0.5
       },
       "card": {
         "posts": 2,
@@ -723,8 +723,8 @@
     },
     "parCreneau": {
       "après-midi": {
-        "posts": 15,
-        "moyenne": 7.1
+        "posts": 16,
+        "moyenne": 7.9
       },
       "matin": {
         "posts": 41,
@@ -770,14 +770,14 @@
           "moyenne": 0.2
         },
         "12 h – 13 h 30": {
-          "posts": 3,
+          "posts": 4,
           "moyenne": 0
         }
       },
       "instagram": {
         "12 h – 13 h 30": {
           "posts": 10,
-          "moyenne": 9.9
+          "moyenne": 11.9
         },
         "18 h – 19 h 30": {
           "posts": 4,
@@ -789,15 +789,15 @@
         }
       }
     },
-    "interactionsTotal": 198,
+    "interactionsTotal": 218,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35575",
       "channel": "instagram",
       "mediaId": "17981511146907952",
       "publieLe": "2026-10-06T11:12:40.157Z",
-      "jalon": 1,
-      "releveLe": "2026-10-07T11:20:40.763Z",
-      "likes": 65,
+      "jalon": 7,
+      "releveLe": "2026-10-13T11:20:46.028Z",
+      "likes": 85,
       "commentairesBruts": 18,
       "partages": null,
       "vues": null,
@@ -812,31 +812,31 @@
     },
     "moinsBon": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35384",
-      "channel": "threads",
-      "mediaId": "18166513804467674",
-      "publieLe": "2026-10-12T09:11:10.740Z",
+      "channel": "bluesky",
+      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mxof6syr272k",
+      "publieLe": "2026-10-12T11:13:28.751Z",
       "jalon": 1,
-      "releveLe": "2026-10-13T09:22:16.078Z",
+      "releveLe": "2026-10-13T11:20:46.028Z",
       "likes": 0,
       "commentairesBruts": 1,
       "partages": 0,
-      "vues": 69,
+      "vues": null,
       "commentaires": 0,
       "v": 2,
       "titre": "Près de Bordeaux, on dort face à des tigres et des jaguars",
-      "lien": "https://www.threads.com/@lovaquitaine/post/DeY4HLKFrfH",
-      "format": "reponse",
+      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mxof6syr272k",
+      "format": "reply",
       "mention": false,
-      "creneau": "matin",
-      "creneauReseau": "10 h – 11 h 30"
+      "creneau": "après-midi",
+      "creneauReseau": "12 h – 13 h 30"
     },
     "mentions": {
       "avec": {
         "posts": 30,
-        "moyenne": 5.6
+        "moyenne": 6.3
       },
       "sans": {
-        "posts": 36,
+        "posts": 37,
         "moyenne": 0.8
       }
     },
@@ -883,13 +883,13 @@
       "x": null
     },
     "engagement": {
-      "instagram": 0.07,
+      "instagram": 0.09,
       "threads": 0.38,
       "facebook": 0
     },
     "conseils": [
       "Threads : le créneau 7 h – 8 h 30 fait 5,7 fois mieux que 10 h – 11 h 30 (5.7 contre 1 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
-      "Instagram : le créneau 12 h – 13 h 30 fait 3,5 fois mieux que 18 h – 19 h 30 (9.9 contre 2.8 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
+      "Instagram : le créneau 12 h – 13 h 30 fait 4,3 fois mieux que 18 h – 19 h 30 (11.9 contre 2.8 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Le format « reponse » fait 49 fois mieux que « lien » (4.9 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « lien » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+2, +0,2 %) ; Facebook recule (−15), à surveiller."
     ]

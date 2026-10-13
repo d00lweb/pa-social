@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-13T16:00:53.062Z",
+  "genereLe": "2026-10-13T16:20:50.622Z",
   "jour": "2026-10-13",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 1,
-      "semaine": 11,
-      "total": 43,
-      "dernier": "2026-10-13T10:34:58.602Z",
-      "lienDernier": "https://www.instagram.com/p/Debmw2lDpP4/"
+      "aujourdhui": 2,
+      "semaine": 12,
+      "total": 44,
+      "dernier": "2026-10-13T16:26:42.373Z",
+      "lienDernier": "https://www.instagram.com/p/DecPBOPGHsn/"
     },
     "bluesky": {
       "actif": true,
@@ -165,6 +165,46 @@
   },
   "articles": [
     {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=32967",
+      "titre": "Écoles de surf à Biscarrosse : les 3 meilleures pour apprendre",
+      "lien": "https://passion-aquitaine.ouest-france.fr/ecoles-surf-biscarrosse/",
+      "at": "2026-10-13T16:26:42.373Z",
+      "reseaux": {
+        "threads": {
+          "texte": "🌊 Biscarrosse, ses plages et ses vagues : ici, le surf fait presque partie de l’identité. Dans les Landes, beaucoup apprennent à glisser très tôt. Et si vous n’avez jamais tenu sur une planche, trois écoles de la station sortent du lot pour débuter dans de bonnes conditions.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261013-e9332e02-th.jpg",
+          "mode": "reponse",
+          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/ecoles-surf-biscarrosse/",
+          "sujet": "Biscarrosse",
+          "publieLe": "2026-10-13T06:30:26.832Z"
+        },
+        "x": {
+          "texte": "Dans les Landes, le surf n’est pas qu’un loisir, c’est un trait d’identité 🏄 À #Biscarrosse, trois écoles se distinguent pour apprendre à glisser.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261013-e9332e02-x.jpg",
+          "mode": "reponse",
+          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/ecoles-surf-biscarrosse/",
+          "sujet": null,
+          "publieLe": "2026-10-13T07:20:49.651Z"
+        },
+        "bluesky": {
+          "texte": "Trois écoles sortent du lot pour apprendre le #surf à #Biscarrosse. Dans les #Landes, la glisse fait partie de l’ADN local, et cette station de la côte en est l’un des meilleurs exemples 🌊",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261013-e9332e02-bsky.jpg",
+          "mode": "reply",
+          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/ecoles-surf-biscarrosse/",
+          "sujet": null,
+          "publieLe": "2026-10-13T07:28:24.515Z"
+        },
+        "instagram": {
+          "texte": "Une planche sous le bras, l’océan devant soi à Biscarrosse 🏄\n⠀\nDans les Landes, le surf fait partie de l’ADN local. Voici les trois meilleures écoles de surf de Biscarrosse pour se lancer sur la côte landaise.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Biscarrosse #Surf #CoteLandaise",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261013-e9332e02-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-13T16:26:42.373Z"
+        }
+      }
+    },
+    {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35384",
       "titre": "Près de Bordeaux, on dort face à des tigres et des jaguars",
       "lien": "https://passion-aquitaine.ouest-france.fr/dormir-zoo-bordeaux-pessac-lodges-fauves/",
@@ -209,38 +249,6 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-10-13T10:34:58.602Z"
-        }
-      }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=32967",
-      "titre": "Écoles de surf à Biscarrosse : les 3 meilleures pour apprendre",
-      "lien": "https://passion-aquitaine.ouest-france.fr/ecoles-surf-biscarrosse/",
-      "at": "2026-10-13T07:28:24.515Z",
-      "reseaux": {
-        "threads": {
-          "texte": "🌊 Biscarrosse, ses plages et ses vagues : ici, le surf fait presque partie de l’identité. Dans les Landes, beaucoup apprennent à glisser très tôt. Et si vous n’avez jamais tenu sur une planche, trois écoles de la station sortent du lot pour débuter dans de bonnes conditions.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261013-e9332e02-th.jpg",
-          "mode": "reponse",
-          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/ecoles-surf-biscarrosse/",
-          "sujet": "Biscarrosse",
-          "publieLe": "2026-10-13T06:30:26.832Z"
-        },
-        "x": {
-          "texte": "Dans les Landes, le surf n’est pas qu’un loisir, c’est un trait d’identité 🏄 À #Biscarrosse, trois écoles se distinguent pour apprendre à glisser.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261013-e9332e02-x.jpg",
-          "mode": "reponse",
-          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/ecoles-surf-biscarrosse/",
-          "sujet": null,
-          "publieLe": "2026-10-13T07:20:49.651Z"
-        },
-        "bluesky": {
-          "texte": "Trois écoles sortent du lot pour apprendre le #surf à #Biscarrosse. Dans les #Landes, la glisse fait partie de l’ADN local, et cette station de la côte en est l’un des meilleurs exemples 🌊",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261013-e9332e02-bsky.jpg",
-          "mode": "reply",
-          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/ecoles-surf-biscarrosse/",
-          "sujet": null,
-          "publieLe": "2026-10-13T07:28:24.515Z"
         }
       }
     },
@@ -440,6 +448,16 @@
   "publications": [
     {
       "channel": "instagram",
+      "at": "2026-10-13T16:26:42.373Z",
+      "titre": "Écoles de surf à Biscarrosse : les 3 meilleures pour apprendre",
+      "lien": "https://passion-aquitaine.ouest-france.fr/ecoles-surf-biscarrosse/",
+      "lienPost": "https://www.instagram.com/p/DecPBOPGHsn/",
+      "format": null,
+      "texte": "Une planche sous le bras, l’océan devant soi à Biscarrosse 🏄\n⠀\nDans les Landes, le surf fait partie de l’ADN local. Voici les trois meilleures écoles de surf de Biscarrosse pour se lancer sur la côte landaise.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Biscarrosse #Surf #CoteLandaise",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261013-e9332e02-1.jpg"
+    },
+    {
+      "channel": "instagram",
       "at": "2026-10-13T10:34:58.602Z",
       "titre": "Près de Bordeaux, on dort face à des tigres et des jaguars",
       "lien": "https://passion-aquitaine.ouest-france.fr/dormir-zoo-bordeaux-pessac-lodges-fauves/",
@@ -527,28 +545,9 @@
       "format": "reponse",
       "texte": "Zoo de Bordeaux-#Pessac : trois lodges pour dormir face aux fauves. Au choix, jaguars, tigres blancs ou 🦁 lions rescapés d’Ukraine.",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261012-e0fae2d6-x.jpg"
-    },
-    {
-      "channel": "bluesky",
-      "at": "2026-10-12T11:13:28.751Z",
-      "titre": "Près de Bordeaux, on dort face à des tigres et des jaguars",
-      "lien": "https://passion-aquitaine.ouest-france.fr/dormir-zoo-bordeaux-pessac-lodges-fauves/",
-      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mxof6syr272k",
-      "format": "reply",
-      "texte": "🐆 Et si votre fenêtre donnait sur un enclos de jaguars ? Au #zoo de Bordeaux-Pessac, trois lodges proposent de dormir face aux fauves, dont des lions rescapés d’Ukraine.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261012-e0fae2d6-bsky.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "instagram",
-      "dueAt": "2026-10-13T16:26:07.803Z",
-      "prochainPassage": "2026-10-13T17:00:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Écoles de surf à Biscarrosse : les 3 meilleures pour apprendre"
-    },
     {
       "channel": "facebook",
       "dueAt": "2026-10-13T19:11:22.032Z",
@@ -679,7 +678,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-13T16:01:00.813Z",
+    "genereLe": "2026-10-13T16:26:48.861Z",
     "posts": 68,
     "parReseau": {
       "instagram": {
@@ -845,7 +844,7 @@
       "facebook": 18,
       "bluesky": 19,
       "x": 19,
-      "instagram": 18
+      "instagram": 19
     },
     "abonnes": {
       "instagram": {

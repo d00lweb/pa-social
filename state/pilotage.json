@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-13T10:00:36.876Z",
+  "genereLe": "2026-10-13T10:20:42.956Z",
   "jour": "2026-10-13",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 11,
-      "total": 42,
-      "dernier": "2026-10-12T16:32:27.522Z",
-      "lienDernier": "https://www.instagram.com/p/DeZq4qWGPd0/"
+      "aujourdhui": 1,
+      "semaine": 12,
+      "total": 43,
+      "dernier": "2026-10-13T10:34:58.602Z",
+      "lienDernier": "https://www.instagram.com/p/Debmw2lDpP4/"
     },
     "bluesky": {
       "actif": true,
@@ -165,42 +165,10 @@
   },
   "articles": [
     {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=32967",
-      "titre": "Écoles de surf à Biscarrosse : les 3 meilleures pour apprendre",
-      "lien": "https://passion-aquitaine.ouest-france.fr/ecoles-surf-biscarrosse/",
-      "at": "2026-10-13T07:28:24.515Z",
-      "reseaux": {
-        "threads": {
-          "texte": "🌊 Biscarrosse, ses plages et ses vagues : ici, le surf fait presque partie de l’identité. Dans les Landes, beaucoup apprennent à glisser très tôt. Et si vous n’avez jamais tenu sur une planche, trois écoles de la station sortent du lot pour débuter dans de bonnes conditions.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261013-e9332e02-th.jpg",
-          "mode": "reponse",
-          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/ecoles-surf-biscarrosse/",
-          "sujet": "Biscarrosse",
-          "publieLe": "2026-10-13T06:30:26.832Z"
-        },
-        "x": {
-          "texte": "Dans les Landes, le surf n’est pas qu’un loisir, c’est un trait d’identité 🏄 À #Biscarrosse, trois écoles se distinguent pour apprendre à glisser.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261013-e9332e02-x.jpg",
-          "mode": "reponse",
-          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/ecoles-surf-biscarrosse/",
-          "sujet": null,
-          "publieLe": "2026-10-13T07:20:49.651Z"
-        },
-        "bluesky": {
-          "texte": "Trois écoles sortent du lot pour apprendre le #surf à #Biscarrosse. Dans les #Landes, la glisse fait partie de l’ADN local, et cette station de la côte en est l’un des meilleurs exemples 🌊",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261013-e9332e02-bsky.jpg",
-          "mode": "reply",
-          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/ecoles-surf-biscarrosse/",
-          "sujet": null,
-          "publieLe": "2026-10-13T07:28:24.515Z"
-        }
-      }
-    },
-    {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35384",
       "titre": "Près de Bordeaux, on dort face à des tigres et des jaguars",
       "lien": "https://passion-aquitaine.ouest-france.fr/dormir-zoo-bordeaux-pessac-lodges-fauves/",
-      "at": "2026-10-13T06:34:12.839Z",
+      "at": "2026-10-13T10:34:58.602Z",
       "reseaux": {
         "threads": {
           "texte": "Trois lodges, et derrière la vitre, des fauves 🐯 Au zoo de Bordeaux-Pessac, on peut passer la nuit face aux jaguars, aux tigres blancs ou à des lions rescapés d’Ukraine. Une façon très différente de découvrir les animaux, au calme, quand le public est parti. Vous choisiriez quel voisin pour la nuit ?",
@@ -233,6 +201,46 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-10-13T06:34:12.839Z"
+        },
+        "instagram": {
+          "texte": "Parmi les voisins de chambre possibles au zoo de Bordeaux-Pessac : 🦁 des lions rescapés d’Ukraine\n⠀\nTrois lodges permettent d’y dormir face aux jaguars, aux tigres blancs ou à ces lions. Une nuit insolite près de Bordeaux, à deux pas des fauves.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Pessac #ZooDeBordeauxPessac #NuitInsolite",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261012-e0fae2d6-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-13T10:34:58.602Z"
+        }
+      }
+    },
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=32967",
+      "titre": "Écoles de surf à Biscarrosse : les 3 meilleures pour apprendre",
+      "lien": "https://passion-aquitaine.ouest-france.fr/ecoles-surf-biscarrosse/",
+      "at": "2026-10-13T07:28:24.515Z",
+      "reseaux": {
+        "threads": {
+          "texte": "🌊 Biscarrosse, ses plages et ses vagues : ici, le surf fait presque partie de l’identité. Dans les Landes, beaucoup apprennent à glisser très tôt. Et si vous n’avez jamais tenu sur une planche, trois écoles de la station sortent du lot pour débuter dans de bonnes conditions.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261013-e9332e02-th.jpg",
+          "mode": "reponse",
+          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/ecoles-surf-biscarrosse/",
+          "sujet": "Biscarrosse",
+          "publieLe": "2026-10-13T06:30:26.832Z"
+        },
+        "x": {
+          "texte": "Dans les Landes, le surf n’est pas qu’un loisir, c’est un trait d’identité 🏄 À #Biscarrosse, trois écoles se distinguent pour apprendre à glisser.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261013-e9332e02-x.jpg",
+          "mode": "reponse",
+          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/ecoles-surf-biscarrosse/",
+          "sujet": null,
+          "publieLe": "2026-10-13T07:20:49.651Z"
+        },
+        "bluesky": {
+          "texte": "Trois écoles sortent du lot pour apprendre le #surf à #Biscarrosse. Dans les #Landes, la glisse fait partie de l’ADN local, et cette station de la côte en est l’un des meilleurs exemples 🌊",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261013-e9332e02-bsky.jpg",
+          "mode": "reply",
+          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/ecoles-surf-biscarrosse/",
+          "sujet": null,
+          "publieLe": "2026-10-13T07:28:24.515Z"
         }
       }
     },
@@ -431,6 +439,16 @@
   ],
   "publications": [
     {
+      "channel": "instagram",
+      "at": "2026-10-13T10:34:58.602Z",
+      "titre": "Près de Bordeaux, on dort face à des tigres et des jaguars",
+      "lien": "https://passion-aquitaine.ouest-france.fr/dormir-zoo-bordeaux-pessac-lodges-fauves/",
+      "lienPost": "https://www.instagram.com/p/Debmw2lDpP4/",
+      "format": null,
+      "texte": "Parmi les voisins de chambre possibles au zoo de Bordeaux-Pessac : 🦁 des lions rescapés d’Ukraine\n⠀\nTrois lodges permettent d’y dormir face aux jaguars, aux tigres blancs ou à ces lions. Une nuit insolite près de Bordeaux, à deux pas des fauves.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Pessac #ZooDeBordeauxPessac #NuitInsolite",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261012-e0fae2d6-1.jpg"
+    },
+    {
       "channel": "bluesky",
       "at": "2026-10-13T07:28:24.515Z",
       "titre": "Écoles de surf à Biscarrosse : les 3 meilleures pour apprendre",
@@ -519,28 +537,9 @@
       "format": "reply",
       "texte": "🐆 Et si votre fenêtre donnait sur un enclos de jaguars ? Au #zoo de Bordeaux-Pessac, trois lodges proposent de dormir face aux fauves, dont des lions rescapés d’Ukraine.",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261012-e0fae2d6-bsky.jpg"
-    },
-    {
-      "channel": "threads",
-      "at": "2026-10-12T09:11:10.740Z",
-      "titre": "Près de Bordeaux, on dort face à des tigres et des jaguars",
-      "lien": "https://passion-aquitaine.ouest-france.fr/dormir-zoo-bordeaux-pessac-lodges-fauves/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/DeY4HLKFrfH",
-      "format": "reponse",
-      "texte": "Trois lodges, et derrière la vitre, des fauves 🐯 Au zoo de Bordeaux-Pessac, on peut passer la nuit face aux jaguars, aux tigres blancs ou à des lions rescapés d’Ukraine. Une façon très différente de découvrir les animaux, au calme, quand le public est parti. Vous choisiriez quel voisin pour la nuit ?",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261012-e0fae2d6-th.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "instagram",
-      "dueAt": "2026-10-13T10:34:23.332Z",
-      "prochainPassage": "2026-10-13T11:00:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Près de Bordeaux, on dort face à des tigres et des jaguars"
-    },
     {
       "channel": "instagram",
       "dueAt": "2026-10-13T16:26:07.803Z",
@@ -680,7 +679,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-13T10:00:42.344Z",
+    "genereLe": "2026-10-13T10:35:04.483Z",
     "posts": 66,
     "parReseau": {
       "instagram": {
@@ -846,7 +845,7 @@
       "facebook": 18,
       "bluesky": 19,
       "x": 19,
-      "instagram": 17
+      "instagram": 18
     },
     "abonnes": {
       "instagram": {

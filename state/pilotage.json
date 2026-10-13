@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-13T18:20:42.844Z",
+  "genereLe": "2026-10-13T19:00:51.222Z",
   "jour": "2026-10-13",
   "reseaux": {
     "instagram": {
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 1,
-      "semaine": 11,
-      "total": 38,
-      "dernier": "2026-10-13T06:34:12.839Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1750582220400992"
+      "aujourdhui": 2,
+      "semaine": 12,
+      "total": 39,
+      "dernier": "2026-10-13T19:11:26.079Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1751212267004654"
     },
     "threads": {
       "actif": true,
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=32967",
       "titre": "Écoles de surf à Biscarrosse : les 3 meilleures pour apprendre",
       "lien": "https://passion-aquitaine.ouest-france.fr/ecoles-surf-biscarrosse/",
-      "at": "2026-10-13T16:26:42.373Z",
+      "at": "2026-10-13T19:11:26.079Z",
       "reseaux": {
         "threads": {
           "texte": "🌊 Biscarrosse, ses plages et ses vagues : ici, le surf fait presque partie de l’identité. Dans les Landes, beaucoup apprennent à glisser très tôt. Et si vous n’avez jamais tenu sur une planche, trois écoles de la station sortent du lot pour débuter dans de bonnes conditions.",
@@ -201,6 +201,14 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-10-13T16:26:42.373Z"
+        },
+        "facebook": {
+          "texte": "Envie de vous lever sur votre première vague, et si c’était dans l’une de ces trois écoles de Biscarrosse 🏄",
+          "image": null,
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-13T19:11:26.079Z"
         }
       }
     },
@@ -447,6 +455,16 @@
   ],
   "publications": [
     {
+      "channel": "facebook",
+      "at": "2026-10-13T19:11:26.079Z",
+      "titre": "Écoles de surf à Biscarrosse : les 3 meilleures pour apprendre",
+      "lien": "https://passion-aquitaine.ouest-france.fr/ecoles-surf-biscarrosse/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1751212267004654",
+      "format": null,
+      "texte": "Envie de vous lever sur votre première vague, et si c’était dans l’une de ces trois écoles de Biscarrosse 🏄",
+      "image": null
+    },
+    {
       "channel": "instagram",
       "at": "2026-10-13T16:26:42.373Z",
       "titre": "Écoles de surf à Biscarrosse : les 3 meilleures pour apprendre",
@@ -535,29 +553,9 @@
       "format": null,
       "texte": "🐫 Des dromadaires en Dordogne, et bientôt du fromage avec leur lait : le pari d’un Périgourdin\n⠀\nÀ Savignac-Lédrier, le projet avance lentement. Un agrément rare à obtenir, 13 mois de gestation, et un lait qui caille mal : les premières gouttes pourraient ne pas couler avant 2028.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Dordogne #FromageDeDromadaire #Agriculture",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-14ec6da8-1.jpg"
-    },
-    {
-      "channel": "x",
-      "at": "2026-10-12T11:20:57.836Z",
-      "titre": "Près de Bordeaux, on dort face à des tigres et des jaguars",
-      "lien": "https://passion-aquitaine.ouest-france.fr/dormir-zoo-bordeaux-pessac-lodges-fauves/",
-      "lienPost": null,
-      "format": "reponse",
-      "texte": "Zoo de Bordeaux-#Pessac : trois lodges pour dormir face aux fauves. Au choix, jaguars, tigres blancs ou 🦁 lions rescapés d’Ukraine.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261012-e0fae2d6-x.jpg"
     }
   ],
-  "file": [
-    {
-      "channel": "facebook",
-      "dueAt": "2026-10-13T19:11:22.032Z",
-      "prochainPassage": "2026-10-13T19:20:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Écoles de surf à Biscarrosse : les 3 meilleures pour apprendre"
-    }
-  ],
+  "file": [],
   "alertes": [],
   "mesures": {
     "releves": 273,
@@ -678,7 +676,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-13T18:20:52.144Z",
+    "genereLe": "2026-10-13T19:11:32.096Z",
     "posts": 69,
     "parReseau": {
       "instagram": {
@@ -841,7 +839,7 @@
     },
     "publies": {
       "threads": 19,
-      "facebook": 18,
+      "facebook": 19,
       "bluesky": 19,
       "x": 19,
       "instagram": 19

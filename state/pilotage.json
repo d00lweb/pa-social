@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-13T09:00:43.999Z",
+  "genereLe": "2026-10-13T09:22:16.078Z",
   "jour": "2026-10-13",
   "reseaux": {
     "instagram": {
@@ -562,7 +562,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 268,
+    "releves": 269,
     "parReseau": {
       "instagram": {
         "posts": 31,
@@ -641,7 +641,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-13T08:20:44.106Z"
+    "derniere": "2026-10-13T09:22:16.078Z"
   },
   "abonnes": {
     "instagram": {
@@ -680,16 +680,16 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-13T09:00:49.841Z",
-    "posts": 65,
+    "genereLe": "2026-10-13T09:22:25.668Z",
+    "posts": 66,
     "parReseau": {
       "instagram": {
         "posts": 15,
         "moyenne": 7.5
       },
       "threads": {
-        "posts": 17,
-        "moyenne": 4.6
+        "posts": 18,
+        "moyenne": 4.4
       },
       "bluesky": {
         "posts": 17,
@@ -702,8 +702,8 @@
     },
     "parFormat": {
       "reponse": {
-        "posts": 15,
-        "moyenne": 5.3
+        "posts": 16,
+        "moyenne": 4.9
       },
       "reply": {
         "posts": 10,
@@ -728,7 +728,7 @@
         "moyenne": 7.1
       },
       "matin": {
-        "posts": 40,
+        "posts": 41,
         "moyenne": 1.9
       },
       "soir": {
@@ -747,8 +747,8 @@
           "moyenne": 3.5
         },
         "10 h – 11 h 30": {
-          "posts": 3,
-          "moyenne": 1.3
+          "posts": 4,
+          "moyenne": 1
         }
       },
       "facebook": {
@@ -812,24 +812,24 @@
       "creneauReseau": "12 h – 13 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35766",
-      "channel": "facebook",
-      "mediaId": "227437307428711_1749443177181563",
-      "publieLe": "2026-10-12T06:10:06.291Z",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35384",
+      "channel": "threads",
+      "mediaId": "18166513804467674",
+      "publieLe": "2026-10-12T09:11:10.740Z",
       "jalon": 1,
-      "releveLe": "2026-10-13T06:20:42.380Z",
+      "releveLe": "2026-10-13T09:22:16.078Z",
       "likes": 0,
-      "commentairesBruts": 0,
+      "commentairesBruts": 1,
       "partages": 0,
-      "vues": null,
+      "vues": 69,
       "commentaires": 0,
       "v": 2,
-      "titre": "Un Périgourdin veut faire du fromage de dromadaire, un lait qui caille mal",
-      "lien": "https://www.facebook.com/1720946116697936/posts/1749443177181563",
-      "format": null,
+      "titre": "Près de Bordeaux, on dort face à des tigres et des jaguars",
+      "lien": "https://www.threads.com/@lovaquitaine/post/DeY4HLKFrfH",
+      "format": "reponse",
       "mention": false,
       "creneau": "matin",
-      "creneauReseau": "8 h – 9 h 30"
+      "creneauReseau": "10 h – 11 h 30"
     },
     "mentions": {
       "avec": {
@@ -837,7 +837,7 @@
         "moyenne": 5.6
       },
       "sans": {
-        "posts": 35,
+        "posts": 36,
         "moyenne": 0.8
       }
     },
@@ -885,13 +885,13 @@
     },
     "engagement": {
       "instagram": 0.07,
-      "threads": 0.4,
+      "threads": 0.38,
       "facebook": 0
     },
     "conseils": [
-      "Threads : le créneau 7 h – 8 h 30 fait 4,4 fois mieux que 10 h – 11 h 30 (5.7 contre 1.3 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
+      "Threads : le créneau 7 h – 8 h 30 fait 5,7 fois mieux que 10 h – 11 h 30 (5.7 contre 1 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Instagram : le créneau 12 h – 13 h 30 fait 3,5 fois mieux que 18 h – 19 h 30 (9.9 contre 2.8 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
-      "Le format « reponse » fait 53 fois mieux que « lien » (5.3 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « lien » de la rotation dans config/channels.json.",
+      "Le format « reponse » fait 49 fois mieux que « lien » (4.9 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « lien » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+2, +0,2 %) ; Facebook recule (−15), à surveiller."
     ]
   },

@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-14T10:00:40.670Z",
+  "genereLe": "2026-10-14T10:20:43.742Z",
   "jour": "2026-10-14",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 12,
-      "total": 44,
-      "dernier": "2026-10-13T16:26:42.373Z",
-      "lienDernier": "https://www.instagram.com/p/DecPBOPGHsn/"
+      "aujourdhui": 1,
+      "semaine": 13,
+      "total": 45,
+      "dernier": "2026-10-14T10:35:25.291Z",
+      "lienDernier": "https://www.instagram.com/p/DeeLnU8FDSj/"
     },
     "bluesky": {
       "actif": true,
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35699",
       "titre": "Isulia 2026 à Bordeaux : la techno investit la Base sous-marine",
       "lien": "https://passion-aquitaine.ouest-france.fr/festival-isulia-2026-bordeaux/",
-      "at": "2026-10-14T07:11:54.140Z",
+      "at": "2026-10-14T10:35:25.291Z",
       "reseaux": {
         "threads": {
           "texte": "Un bunker de 1941 transformé en dancefloor pour trois jours. À Bordeaux, la Base sous-marine accueille du 5 au 7 novembre le festival Isulia, et l’affiche tient la route 🎶 22 artistes, avec Nastia, @octaveone et Maara en tête.\n@villedebordeaux @visitbordeaux",
@@ -201,6 +201,14 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-10-14T07:11:54.140Z"
+        },
+        "instagram": {
+          "texte": "Danser sur de la techno entre les murs d’une base sous-marine de 1941, ça vous tente ?\n⠀\nÀ Bordeaux, le festival Isulia réunit 22 artistes du 5 au 7 novembre. Nastia, Octave One et Maara sont à l’affiche de ce rendez-vous électro dans la Base sous-marine 🎧\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #Techno #BaseSousMarine",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261014-ab410b4f-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-14T10:35:25.291Z"
         }
       }
     },
@@ -447,6 +455,16 @@
   ],
   "publications": [
     {
+      "channel": "instagram",
+      "at": "2026-10-14T10:35:25.291Z",
+      "titre": "Isulia 2026 à Bordeaux : la techno investit la Base sous-marine",
+      "lien": "https://passion-aquitaine.ouest-france.fr/festival-isulia-2026-bordeaux/",
+      "lienPost": "https://www.instagram.com/p/DeeLnU8FDSj/",
+      "format": null,
+      "texte": "Danser sur de la techno entre les murs d’une base sous-marine de 1941, ça vous tente ?\n⠀\nÀ Bordeaux, le festival Isulia réunit 22 artistes du 5 au 7 novembre. Nastia, Octave One et Maara sont à l’affiche de ce rendez-vous électro dans la Base sous-marine 🎧\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #Techno #BaseSousMarine",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261014-ab410b4f-1.jpg"
+    },
+    {
       "channel": "facebook",
       "at": "2026-10-14T07:11:54.140Z",
       "titre": "Isulia 2026 à Bordeaux : la techno investit la Base sous-marine",
@@ -535,29 +553,9 @@
       "format": "reponse",
       "texte": "Dans les Landes, le surf n’est pas qu’un loisir, c’est un trait d’identité 🏄 À #Biscarrosse, trois écoles se distinguent pour apprendre à glisser.",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261013-e9332e02-x.jpg"
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-10-13T06:34:12.839Z",
-      "titre": "Près de Bordeaux, on dort face à des tigres et des jaguars",
-      "lien": "https://passion-aquitaine.ouest-france.fr/dormir-zoo-bordeaux-pessac-lodges-fauves/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1750582220400992",
-      "format": null,
-      "texte": "Ouvrir les rideaux le matin et croiser le regard d’un tigre blanc, c’est possible dans trois lodges près de Bordeaux 🐅",
-      "image": null
     }
   ],
-  "file": [
-    {
-      "channel": "instagram",
-      "dueAt": "2026-10-14T10:34:56.511Z",
-      "prochainPassage": "2026-10-14T11:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Isulia 2026 à Bordeaux : la techno investit la Base sous-marine"
-    }
-  ],
+  "file": [],
   "alertes": [],
   "mesures": {
     "releves": 280,
@@ -678,7 +676,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-14T10:00:44.538Z",
+    "genereLe": "2026-10-14T10:35:29.894Z",
     "posts": 73,
     "parReseau": {
       "instagram": {
@@ -844,7 +842,7 @@
       "facebook": 20,
       "bluesky": 20,
       "x": 20,
-      "instagram": 19
+      "instagram": 20
     },
     "abonnes": {
       "instagram": {

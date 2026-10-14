@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-14T19:00:56.050Z",
+  "genereLe": "2026-10-14T19:20:38.722Z",
   "jour": "2026-10-14",
   "reseaux": {
     "instagram": {
@@ -558,7 +558,7 @@
   "file": [],
   "alertes": [],
   "mesures": {
-    "releves": 283,
+    "releves": 284,
     "parReseau": {
       "instagram": {
         "posts": 33,
@@ -637,7 +637,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-14T18:01:03.085Z"
+    "derniere": "2026-10-14T19:20:38.722Z"
   },
   "abonnes": {
     "instagram": {
@@ -676,8 +676,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-14T19:01:00.391Z",
-    "posts": 75,
+    "genereLe": "2026-10-14T19:20:47.659Z",
+    "posts": 76,
     "parReseau": {
       "instagram": {
         "posts": 19,
@@ -692,7 +692,7 @@
         "moyenne": 0.4
       },
       "facebook": {
-        "posts": 18,
+        "posts": 19,
         "moyenne": 0
       }
     },
@@ -724,8 +724,8 @@
         "moyenne": 7.4
       },
       "soir": {
-        "posts": 13,
-        "moyenne": 2.1
+        "posts": 14,
+        "moyenne": 1.9
       },
       "matin": {
         "posts": 44,
@@ -753,7 +753,7 @@
           "moyenne": 0
         },
         "20 h – 21 h 30": {
-          "posts": 5,
+          "posts": 6,
           "moyenne": 0
         }
       },
@@ -809,23 +809,23 @@
     },
     "moinsBon": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=32967",
-      "channel": "bluesky",
-      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mxqj3bxot42p",
-      "publieLe": "2026-10-13T07:28:24.515Z",
+      "channel": "facebook",
+      "mediaId": "227437307428711_1751212267004654",
+      "publieLe": "2026-10-13T19:11:26.079Z",
       "jalon": 1,
-      "releveLe": "2026-10-14T08:00:35.718Z",
+      "releveLe": "2026-10-14T19:20:38.722Z",
       "likes": 0,
-      "commentairesBruts": 1,
+      "commentairesBruts": 0,
       "partages": 0,
       "vues": null,
       "commentaires": 0,
       "v": 2,
       "titre": "Écoles de surf à Biscarrosse : les 3 meilleures pour apprendre",
-      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mxqj3bxot42p",
-      "format": "reply",
+      "lien": "https://www.facebook.com/1720946116697936/posts/1751212267004654",
+      "format": null,
       "mention": false,
-      "creneau": "matin",
-      "creneauReseau": "8 h – 9 h 30"
+      "creneau": "soir",
+      "creneauReseau": "20 h – 21 h 30"
     },
     "mentions": {
       "avec": {
@@ -833,7 +833,7 @@
         "moyenne": 6.1
       },
       "sans": {
-        "posts": 41,
+        "posts": 42,
         "moyenne": 0.7
       }
     },

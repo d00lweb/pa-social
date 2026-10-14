@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-14T05:20:37.926Z",
+  "genereLe": "2026-10-14T06:00:40.655Z",
   "jour": "2026-10-14",
   "reseaux": {
     "instagram": {
@@ -555,7 +555,53 @@
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-14ec6da8-1.jpg"
     }
   ],
-  "file": [],
+  "file": [
+    {
+      "channel": "threads",
+      "dueAt": "2026-10-14T06:25:45.910Z",
+      "prochainPassage": "2026-10-14T07:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Isulia 2026 à Bordeaux : la techno investit la Base sous-marine"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-10-14T07:00:00.000Z",
+      "prochainPassage": "2026-10-14T07:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Isulia 2026 à Bordeaux : la techno investit la Base sous-marine"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-10-14T07:05:34.865Z",
+      "prochainPassage": "2026-10-14T07:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Isulia 2026 à Bordeaux : la techno investit la Base sous-marine"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-10-14T07:11:47.057Z",
+      "prochainPassage": "2026-10-14T07:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Isulia 2026 à Bordeaux : la techno investit la Base sous-marine"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-10-14T10:34:56.511Z",
+      "prochainPassage": "2026-10-14T11:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Isulia 2026 à Bordeaux : la techno investit la Base sous-marine"
+    }
+  ],
   "alertes": [],
   "mesures": {
     "releves": 274,
@@ -676,7 +722,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-14T05:20:43.748Z",
+    "genereLe": "2026-10-14T06:01:10.606Z",
     "posts": 70,
     "parReseau": {
       "instagram": {
@@ -893,29 +939,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 0,
-      "entree": 0,
-      "sortie": 0,
-      "cout": 0,
+      "appels": 2,
+      "entree": 16044,
+      "sortie": 1906,
+      "cout": 0.102296,
       "cle": "2026-10-14"
     },
     "semaine": {
-      "appels": 21,
-      "entree": 168002,
-      "sortie": 20028,
-      "cout": 1.072568
+      "appels": 23,
+      "entree": 184046,
+      "sortie": 21934,
+      "cout": 1.174864
     },
     "mois": {
-      "appels": 37,
-      "entree": 291836,
-      "sortie": 36012,
-      "cout": 1.887584,
+      "appels": 39,
+      "entree": 307880,
+      "sortie": 37918,
+      "cout": 1.9898799999999999,
       "cle": "2026-10"
     },
-    "projection": 4.18,
+    "projection": 4.41,
     "moyenneAppel": 0.051,
     "parModele": {
-      "claude-opus-5-5": 37
+      "claude-opus-5-5": 39
     },
     "serie": [
       [
@@ -972,7 +1018,7 @@
       ],
       [
         "2026-10-14",
-        0
+        0.1023
       ]
     ],
     "depuis": "2026-09-23"

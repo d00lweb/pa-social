@@ -758,5 +758,19 @@
       "bluesky": [],
       "x": []
     }
+  },
+  "locale:bordeaux:techno": {
+    "v": 3,
+    "cherche": "2026-10-14T06:00:59.318Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:bordeaux:musique": {
+    "v": 3,
+    "cherche": "2026-10-14T06:00:59.318Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
   }
 }

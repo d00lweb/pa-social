@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-14T07:20:47.572Z",
+  "genereLe": "2026-10-14T08:00:35.718Z",
   "jour": "2026-10-14",
   "reseaux": {
     "instagram": {
@@ -89,7 +89,7 @@
       },
       "formats": null,
       "aujourdhui": 1,
-      "semaine": 13,
+      "semaine": 12,
       "total": 40,
       "dernier": "2026-10-14T07:11:54.140Z",
       "lienDernier": "https://www.facebook.com/1720946116697936/posts/1751712773621270"
@@ -560,7 +560,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 278,
+    "releves": 280,
     "parReseau": {
       "instagram": {
         "posts": 32,
@@ -571,7 +571,7 @@
         "interactionsMoyennes": 0.1
       },
       "facebook": {
-        "posts": 27,
+        "posts": 28,
         "interactionsMoyennes": 0
       },
       "threads": {
@@ -678,8 +678,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-14T07:20:54.305Z",
-    "posts": 72,
+    "genereLe": "2026-10-14T08:00:41.497Z",
+    "posts": 73,
     "parReseau": {
       "instagram": {
         "posts": 17,
@@ -690,7 +690,7 @@
         "moyenne": 4.2
       },
       "bluesky": {
-        "posts": 18,
+        "posts": 19,
         "moyenne": 0.4
       },
       "facebook": {
@@ -704,7 +704,7 @@
         "moyenne": 4.6
       },
       "reply": {
-        "posts": 11,
+        "posts": 12,
         "moyenne": 0.5
       },
       "card": {
@@ -730,8 +730,8 @@
         "moyenne": 2
       },
       "matin": {
-        "posts": 43,
-        "moyenne": 1.8
+        "posts": 44,
+        "moyenne": 1.7
       }
     },
     "parCreneauReseau": {
@@ -765,7 +765,7 @@
           "moyenne": 2.5
         },
         "8 h – 9 h 30": {
-          "posts": 12,
+          "posts": 13,
           "moyenne": 0.2
         },
         "12 h – 13 h 30": {
@@ -810,21 +810,21 @@
       "creneauReseau": "12 h – 13 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35384",
-      "channel": "facebook",
-      "mediaId": "227437307428711_1750582220400992",
-      "publieLe": "2026-10-13T06:34:12.839Z",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=32967",
+      "channel": "bluesky",
+      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mxqj3bxot42p",
+      "publieLe": "2026-10-13T07:28:24.515Z",
       "jalon": 1,
-      "releveLe": "2026-10-14T07:00:42.211Z",
+      "releveLe": "2026-10-14T08:00:35.718Z",
       "likes": 0,
-      "commentairesBruts": 0,
+      "commentairesBruts": 1,
       "partages": 0,
       "vues": null,
       "commentaires": 0,
       "v": 2,
-      "titre": "Près de Bordeaux, on dort face à des tigres et des jaguars",
-      "lien": "https://www.facebook.com/1720946116697936/posts/1750582220400992",
-      "format": null,
+      "titre": "Écoles de surf à Biscarrosse : les 3 meilleures pour apprendre",
+      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mxqj3bxot42p",
+      "format": "reply",
       "mention": false,
       "creneau": "matin",
       "creneauReseau": "8 h – 9 h 30"
@@ -835,7 +835,7 @@
         "moyenne": 6.3
       },
       "sans": {
-        "posts": 40,
+        "posts": 41,
         "moyenne": 0.7
       }
     },

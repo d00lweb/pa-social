@@ -3583,5 +3583,59 @@
       "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/festival-isulia-2026-bordeaux/",
       "sujet": "Bordeaux"
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35699",
+    "channel": "x",
+    "at": "2026-10-14T07:00:52.170Z",
+    "mediaId": "kit-telegram",
+    "titre": "Isulia 2026 à Bordeaux : la techno investit la Base sous-marine",
+    "lien": "https://passion-aquitaine.ouest-france.fr/festival-isulia-2026-bordeaux/",
+    "lienPost": null,
+    "format": "reponse",
+    "mention": true,
+    "apercu": {
+      "texte": "Fans de techno, notez vos soirées du 5 au 7 novembre : Isulia programme 22 artistes, dont Nastia, Octave One et Maara, à la Base sous-marine de #Bordeaux 🪩",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261014-ab410b4f-x.jpg",
+      "mode": "reponse",
+      "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/festival-isulia-2026-bordeaux/",
+      "sujet": null
+    }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35699",
+    "channel": "bluesky",
+    "at": "2026-10-14T07:05:37.476Z",
+    "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mxsybhnryn2a",
+    "titre": "Isulia 2026 à Bordeaux : la techno investit la Base sous-marine",
+    "lien": "https://passion-aquitaine.ouest-france.fr/festival-isulia-2026-bordeaux/",
+    "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mxsybhnryn2a",
+    "format": "reply",
+    "mention": true,
+    "apercu": {
+      "texte": "À #Bordeaux, la Base sous-marine change de fréquence 🔊 Du 5 au 7 novembre, le festival Isulia y fait résonner la #techno de 22 artistes, dont @demystifysci.bsky.social, Octave One et Maara.\n@villedebordeaux.bsky.social",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261014-ab410b4f-bsky.jpg",
+      "mode": "reply",
+      "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/festival-isulia-2026-bordeaux/",
+      "sujet": null
+    }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35699",
+    "channel": "facebook",
+    "at": "2026-10-14T07:11:54.140Z",
+    "mediaId": "227437307428711_1751712773621270",
+    "titre": "Isulia 2026 à Bordeaux : la techno investit la Base sous-marine",
+    "lien": "https://passion-aquitaine.ouest-france.fr/festival-isulia-2026-bordeaux/",
+    "lienPost": "https://www.facebook.com/1720946116697936/posts/1751712773621270",
+    "format": null,
+    "mention": false,
+    "apercu": {
+      "texte": "22 artistes techno, trois nuits et un décor de béton bâti : le festival Isulia s’installe dans la Base sous-marine 🎛️",
+      "image": null,
+      "mode": null,
+      "reponse": null,
+      "sujet": null
+    }
   }
 ]

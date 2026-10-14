@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-14T06:20:44.782Z",
+  "genereLe": "2026-10-14T07:00:42.211Z",
   "jour": "2026-10-14",
   "reseaux": {
     "instagram": {
@@ -60,11 +60,11 @@
         "image",
         "reply"
       ],
-      "aujourdhui": 0,
-      "semaine": 12,
-      "total": 42,
-      "dernier": "2026-10-13T07:28:24.515Z",
-      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mxqj3bxot42p"
+      "aujourdhui": 1,
+      "semaine": 13,
+      "total": 43,
+      "dernier": "2026-10-14T07:05:37.476Z",
+      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mxsybhnryn2a"
     },
     "facebook": {
       "actif": true,
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 12,
-      "total": 39,
-      "dernier": "2026-10-13T19:11:26.079Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1751212267004654"
+      "aujourdhui": 1,
+      "semaine": 13,
+      "total": 40,
+      "dernier": "2026-10-14T07:11:54.140Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1751712773621270"
     },
     "threads": {
       "actif": true,
@@ -123,7 +123,7 @@
         "reponse"
       ],
       "aujourdhui": 1,
-      "semaine": 13,
+      "semaine": 12,
       "total": 40,
       "dernier": "2026-10-14T06:28:49.834Z",
       "lienDernier": "https://www.threads.com/@lovaquitaine/post/DedvE8Rlggy"
@@ -156,10 +156,10 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 12,
-      "total": 42,
-      "dernier": "2026-10-13T07:20:49.651Z",
+      "aujourdhui": 1,
+      "semaine": 13,
+      "total": 43,
+      "dernier": "2026-10-14T07:00:52.170Z",
       "lienDernier": null
     }
   },
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35699",
       "titre": "Isulia 2026 à Bordeaux : la techno investit la Base sous-marine",
       "lien": "https://passion-aquitaine.ouest-france.fr/festival-isulia-2026-bordeaux/",
-      "at": "2026-10-14T06:28:49.834Z",
+      "at": "2026-10-14T07:11:54.140Z",
       "reseaux": {
         "threads": {
           "texte": "Un bunker de 1941 transformé en dancefloor pour trois jours. À Bordeaux, la Base sous-marine accueille du 5 au 7 novembre le festival Isulia, et l’affiche tient la route 🎶 22 artistes, avec Nastia, @octaveone et Maara en tête.\n@villedebordeaux @visitbordeaux",
@@ -177,6 +177,30 @@
           "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/festival-isulia-2026-bordeaux/",
           "sujet": "Bordeaux",
           "publieLe": "2026-10-14T06:28:49.834Z"
+        },
+        "x": {
+          "texte": "Fans de techno, notez vos soirées du 5 au 7 novembre : Isulia programme 22 artistes, dont Nastia, Octave One et Maara, à la Base sous-marine de #Bordeaux 🪩",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261014-ab410b4f-x.jpg",
+          "mode": "reponse",
+          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/festival-isulia-2026-bordeaux/",
+          "sujet": null,
+          "publieLe": "2026-10-14T07:00:52.170Z"
+        },
+        "bluesky": {
+          "texte": "À #Bordeaux, la Base sous-marine change de fréquence 🔊 Du 5 au 7 novembre, le festival Isulia y fait résonner la #techno de 22 artistes, dont @demystifysci.bsky.social, Octave One et Maara.\n@villedebordeaux.bsky.social",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261014-ab410b4f-bsky.jpg",
+          "mode": "reply",
+          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/festival-isulia-2026-bordeaux/",
+          "sujet": null,
+          "publieLe": "2026-10-14T07:05:37.476Z"
+        },
+        "facebook": {
+          "texte": "22 artistes techno, trois nuits et un décor de béton bâti : le festival Isulia s’installe dans la Base sous-marine 🎛️",
+          "image": null,
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-14T07:11:54.140Z"
         }
       }
     },
@@ -423,6 +447,36 @@
   ],
   "publications": [
     {
+      "channel": "facebook",
+      "at": "2026-10-14T07:11:54.140Z",
+      "titre": "Isulia 2026 à Bordeaux : la techno investit la Base sous-marine",
+      "lien": "https://passion-aquitaine.ouest-france.fr/festival-isulia-2026-bordeaux/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1751712773621270",
+      "format": null,
+      "texte": "22 artistes techno, trois nuits et un décor de béton bâti : le festival Isulia s’installe dans la Base sous-marine 🎛️",
+      "image": null
+    },
+    {
+      "channel": "bluesky",
+      "at": "2026-10-14T07:05:37.476Z",
+      "titre": "Isulia 2026 à Bordeaux : la techno investit la Base sous-marine",
+      "lien": "https://passion-aquitaine.ouest-france.fr/festival-isulia-2026-bordeaux/",
+      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mxsybhnryn2a",
+      "format": "reply",
+      "texte": "À #Bordeaux, la Base sous-marine change de fréquence 🔊 Du 5 au 7 novembre, le festival Isulia y fait résonner la #techno de 22 artistes, dont @demystifysci.bsky.social, Octave One et Maara.\n@villedebordeaux.bsky.social",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261014-ab410b4f-bsky.jpg"
+    },
+    {
+      "channel": "x",
+      "at": "2026-10-14T07:00:52.170Z",
+      "titre": "Isulia 2026 à Bordeaux : la techno investit la Base sous-marine",
+      "lien": "https://passion-aquitaine.ouest-france.fr/festival-isulia-2026-bordeaux/",
+      "lienPost": null,
+      "format": "reponse",
+      "texte": "Fans de techno, notez vos soirées du 5 au 7 novembre : Isulia programme 22 artistes, dont Nastia, Octave One et Maara, à la Base sous-marine de #Bordeaux 🪩",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261014-ab410b4f-x.jpg"
+    },
+    {
       "channel": "threads",
       "at": "2026-10-14T06:28:49.834Z",
       "titre": "Isulia 2026 à Bordeaux : la techno investit la Base sous-marine",
@@ -491,66 +545,9 @@
       "format": null,
       "texte": "Ouvrir les rideaux le matin et croiser le regard d’un tigre blanc, c’est possible dans trois lodges près de Bordeaux 🐅",
       "image": null
-    },
-    {
-      "channel": "threads",
-      "at": "2026-10-13T06:30:26.832Z",
-      "titre": "Écoles de surf à Biscarrosse : les 3 meilleures pour apprendre",
-      "lien": "https://passion-aquitaine.ouest-france.fr/ecoles-surf-biscarrosse/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/DebKgR2lcPv",
-      "format": "reponse",
-      "texte": "🌊 Biscarrosse, ses plages et ses vagues : ici, le surf fait presque partie de l’identité. Dans les Landes, beaucoup apprennent à glisser très tôt. Et si vous n’avez jamais tenu sur une planche, trois écoles de la station sortent du lot pour débuter dans de bonnes conditions.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261013-e9332e02-th.jpg"
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-10-12T19:26:05.200Z",
-      "titre": "Sous un arrêt de bus de Bordeaux, 40 sarcophages cachaient un habitat antique",
-      "lien": "https://passion-aquitaine.ouest-france.fr/fouille-archeologique-sarcophage-bordeaux/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1750126087113272",
-      "format": null,
-      "texte": "Sous les sarcophages mérovingiens de Saint-Seurin, les archéologues ont trouvé bien plus ancien : des maisons antiques ⛏️",
-      "image": null
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-10-12T16:32:27.522Z",
-      "titre": "Sous un arrêt de bus de Bordeaux, 40 sarcophages cachaient un habitat antique",
-      "lien": "https://passion-aquitaine.ouest-france.fr/fouille-archeologique-sarcophage-bordeaux/",
-      "lienPost": "https://www.instagram.com/p/DeZq4qWGPd0/",
-      "format": null,
-      "texte": "Votre arrêt de bus bordelais repose peut-être sur deux mille ans d’histoire\n⠀\nAux fouilles de Saint-Seurin, à Bordeaux, 40 sarcophages mérovingiens recouvraient un habitat des Ier et IIe siècles. Une découverte que les archéologues n’attendaient pas ⚱️\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #Archeologie #Antiquite",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-6a2c2b25-1.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "x",
-      "dueAt": "2026-10-14T07:00:00.000Z",
-      "prochainPassage": "2026-10-14T07:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Isulia 2026 à Bordeaux : la techno investit la Base sous-marine"
-    },
-    {
-      "channel": "bluesky",
-      "dueAt": "2026-10-14T07:05:34.865Z",
-      "prochainPassage": "2026-10-14T07:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Isulia 2026 à Bordeaux : la techno investit la Base sous-marine"
-    },
-    {
-      "channel": "facebook",
-      "dueAt": "2026-10-14T07:11:47.057Z",
-      "prochainPassage": "2026-10-14T07:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Isulia 2026 à Bordeaux : la techno investit la Base sous-marine"
-    },
     {
       "channel": "instagram",
       "dueAt": "2026-10-14T10:34:56.511Z",
@@ -563,7 +560,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 274,
+    "releves": 277,
     "parReseau": {
       "instagram": {
         "posts": 32,
@@ -578,8 +575,8 @@
         "interactionsMoyennes": 0
       },
       "threads": {
-        "posts": 27,
-        "interactionsMoyennes": 6.7
+        "posts": 28,
+        "interactionsMoyennes": 6.5
       }
     }
   },
@@ -681,30 +678,30 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-14T06:28:56.174Z",
-    "posts": 70,
+    "genereLe": "2026-10-14T07:12:01.166Z",
+    "posts": 72,
     "parReseau": {
       "instagram": {
         "posts": 17,
         "moyenne": 8.4
       },
       "threads": {
-        "posts": 18,
-        "moyenne": 4.4
+        "posts": 19,
+        "moyenne": 4.2
       },
       "bluesky": {
         "posts": 18,
         "moyenne": 0.4
       },
       "facebook": {
-        "posts": 17,
+        "posts": 18,
         "moyenne": 0
       }
     },
     "parFormat": {
       "reponse": {
-        "posts": 16,
-        "moyenne": 4.9
+        "posts": 17,
+        "moyenne": 4.6
       },
       "reply": {
         "posts": 11,
@@ -733,15 +730,15 @@
         "moyenne": 2
       },
       "matin": {
-        "posts": 41,
-        "moyenne": 1.9
+        "posts": 43,
+        "moyenne": 1.8
       }
     },
     "parCreneauReseau": {
       "threads": {
         "7 h – 8 h 30": {
-          "posts": 12,
-          "moyenne": 5.7
+          "posts": 13,
+          "moyenne": 5.2
         },
         "13 h – 14 h 30": {
           "posts": 2,
@@ -754,7 +751,7 @@
       },
       "facebook": {
         "8 h – 9 h 30": {
-          "posts": 12,
+          "posts": 13,
           "moyenne": 0
         },
         "20 h – 21 h 30": {
@@ -813,24 +810,24 @@
       "creneauReseau": "12 h – 13 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35776",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35384",
       "channel": "facebook",
-      "mediaId": "227437307428711_1750126087113272",
-      "publieLe": "2026-10-12T19:26:05.200Z",
+      "mediaId": "227437307428711_1750582220400992",
+      "publieLe": "2026-10-13T06:34:12.839Z",
       "jalon": 1,
-      "releveLe": "2026-10-13T20:00:46.940Z",
+      "releveLe": "2026-10-14T07:00:42.211Z",
       "likes": 0,
       "commentairesBruts": 0,
       "partages": 0,
       "vues": null,
       "commentaires": 0,
       "v": 2,
-      "titre": "Sous un arrêt de bus de Bordeaux, 40 sarcophages cachaient un habitat antique",
-      "lien": "https://www.facebook.com/1720946116697936/posts/1750126087113272",
+      "titre": "Près de Bordeaux, on dort face à des tigres et des jaguars",
+      "lien": "https://www.facebook.com/1720946116697936/posts/1750582220400992",
       "format": null,
       "mention": false,
-      "creneau": "soir",
-      "creneauReseau": "20 h – 21 h 30"
+      "creneau": "matin",
+      "creneauReseau": "8 h – 9 h 30"
     },
     "mentions": {
       "avec": {
@@ -838,15 +835,15 @@
         "moyenne": 6.3
       },
       "sans": {
-        "posts": 38,
-        "moyenne": 0.8
+        "posts": 40,
+        "moyenne": 0.7
       }
     },
     "publies": {
       "threads": 20,
-      "facebook": 19,
-      "bluesky": 19,
-      "x": 19,
+      "facebook": 20,
+      "bluesky": 20,
+      "x": 20,
       "instagram": 19
     },
     "abonnes": {
@@ -886,13 +883,13 @@
     },
     "engagement": {
       "instagram": 0.08,
-      "threads": 0.38,
+      "threads": 0.36,
       "facebook": 0
     },
     "conseils": [
-      "Threads : le créneau 7 h – 8 h 30 fait 5,7 fois mieux que 10 h – 11 h 30 (5.7 contre 1 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
+      "Threads : le créneau 7 h – 8 h 30 fait 5,2 fois mieux que 10 h – 11 h 30 (5.2 contre 1 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Instagram : le créneau 12 h – 13 h 30 fait 2,9 fois mieux que 18 h – 19 h 30 (11.1 contre 3.8 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
-      "Le format « reponse » fait 49 fois mieux que « lien » (4.9 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « lien » de la rotation dans config/channels.json.",
+      "Le format « reponse » fait 46 fois mieux que « lien » (4.6 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « lien » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+3, +0,3 %) ; Facebook recule (−16), à surveiller."
     ]
   },

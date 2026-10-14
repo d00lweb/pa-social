@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-14T06:00:40.655Z",
+  "genereLe": "2026-10-14T06:20:44.782Z",
   "jour": "2026-10-14",
   "reseaux": {
     "instagram": {
@@ -122,11 +122,11 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 12,
-      "total": 39,
-      "dernier": "2026-10-13T06:30:26.832Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DebKgR2lcPv"
+      "aujourdhui": 1,
+      "semaine": 13,
+      "total": 40,
+      "dernier": "2026-10-14T06:28:49.834Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DedvE8Rlggy"
     },
     "x": {
       "actif": true,
@@ -164,6 +164,22 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35699",
+      "titre": "Isulia 2026 à Bordeaux : la techno investit la Base sous-marine",
+      "lien": "https://passion-aquitaine.ouest-france.fr/festival-isulia-2026-bordeaux/",
+      "at": "2026-10-14T06:28:49.834Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Un bunker de 1941 transformé en dancefloor pour trois jours. À Bordeaux, la Base sous-marine accueille du 5 au 7 novembre le festival Isulia, et l’affiche tient la route 🎶 22 artistes, avec Nastia, @octaveone et Maara en tête.\n@villedebordeaux @visitbordeaux",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261014-ab410b4f-th.jpg",
+          "mode": "reponse",
+          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/festival-isulia-2026-bordeaux/",
+          "sujet": "Bordeaux",
+          "publieLe": "2026-10-14T06:28:49.834Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=32967",
       "titre": "Écoles de surf à Biscarrosse : les 3 meilleures pour apprendre",
@@ -403,57 +419,19 @@
           "publieLe": "2026-10-11T18:33:26.550Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35717",
-      "titre": "Elle parcourt les vergers sans GPS : cette machine du Lot-et-Garonne sait où aller",
-      "lien": "https://passion-aquitaine.ouest-france.fr/robot-agricole-sans-gps-verger-lot-et-garonne/",
-      "at": "2026-10-11T11:13:12.252Z",
-      "reseaux": {
-        "threads": {
-          "texte": "🌳 Cancon, Lot-et-Garonne. C’est ici qu’est née une machine agricole un peu à part : elle se déplace dans les vergers sans GPS. Son secret tient en deux idées, une navigation autonome et une pulvérisation intelligente. De quoi changer le quotidien des arboriculteurs du coin.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261010-c29a0140-th.jpg",
-          "mode": "reponse",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/robot-agricole-sans-gps-verger-lot-et-garonne/",
-          "sujet": "Cancon",
-          "publieLe": "2026-10-10T09:07:00.124Z"
-        },
-        "bluesky": {
-          "texte": "Aucun GPS à bord, et pourtant elle sait où aller. Dans le #LotEtGaronne, une machine agricole de #Cancon circule dans les vergers grâce à la navigation autonome et pulvérise de manière intelligente 🚜",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261010-c29a0140-bsky.jpg",
-          "mode": "reply",
-          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/robot-agricole-sans-gps-verger-lot-et-garonne/",
-          "sujet": null,
-          "publieLe": "2026-10-10T10:31:18.013Z"
-        },
-        "x": {
-          "texte": "Pas de GPS, pas de conducteur au guidage, et pourtant elle ne se perd pas 🤖 À #Cancon, une machine agricole parcourt les vergers grâce à la navigation autonome et pulvérise de façon intelligente.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261010-c29a0140-x.jpg",
-          "mode": "reponse",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/robot-agricole-sans-gps-verger-lot-et-garonne/",
-          "sujet": null,
-          "publieLe": "2026-10-10T11:20:54.398Z"
-        },
-        "facebook": {
-          "texte": "Comment une machine agricole peut-elle trouver son chemin dans un verger sans le moindre GPS, comme celle imaginée à Cancon 🍎",
-          "image": null,
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-11T07:26:54.159Z"
-        },
-        "instagram": {
-          "texte": "Entre les rangées d’arbres fruitiers, une machine avance seule, sans le moindre GPS 🍏\n⠀\nÀ Cancon, dans le Lot-et-Garonne, cet engin agricole mise sur la navigation autonome et la pulvérisation intelligente. Une innovation née au cœur des vergers.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#LotEtGaronne #Vergers #Agriculture",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261010-c29a0140-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-11T11:13:12.252Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "threads",
+      "at": "2026-10-14T06:28:49.834Z",
+      "titre": "Isulia 2026 à Bordeaux : la techno investit la Base sous-marine",
+      "lien": "https://passion-aquitaine.ouest-france.fr/festival-isulia-2026-bordeaux/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/DedvE8Rlggy",
+      "format": "reponse",
+      "texte": "Un bunker de 1941 transformé en dancefloor pour trois jours. À Bordeaux, la Base sous-marine accueille du 5 au 7 novembre le festival Isulia, et l’affiche tient la route 🎶 22 artistes, avec Nastia, @octaveone et Maara en tête.\n@villedebordeaux @visitbordeaux",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261014-ab410b4f-th.jpg"
+    },
     {
       "channel": "facebook",
       "at": "2026-10-13T19:11:26.079Z",
@@ -543,28 +521,9 @@
       "format": null,
       "texte": "Votre arrêt de bus bordelais repose peut-être sur deux mille ans d’histoire\n⠀\nAux fouilles de Saint-Seurin, à Bordeaux, 40 sarcophages mérovingiens recouvraient un habitat des Ier et IIe siècles. Une découverte que les archéologues n’attendaient pas ⚱️\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #Archeologie #Antiquite",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-6a2c2b25-1.jpg"
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-10-12T11:28:39.066Z",
-      "titre": "Un Périgourdin veut faire du fromage de dromadaire, un lait qui caille mal",
-      "lien": "https://passion-aquitaine.ouest-france.fr/lait-fromage-dromadaire-dordogne/",
-      "lienPost": "https://www.instagram.com/p/DeZIHfxGLmb/",
-      "format": null,
-      "texte": "🐫 Des dromadaires en Dordogne, et bientôt du fromage avec leur lait : le pari d’un Périgourdin\n⠀\nÀ Savignac-Lédrier, le projet avance lentement. Un agrément rare à obtenir, 13 mois de gestation, et un lait qui caille mal : les premières gouttes pourraient ne pas couler avant 2028.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Dordogne #FromageDeDromadaire #Agriculture",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-14ec6da8-1.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "threads",
-      "dueAt": "2026-10-14T06:25:45.910Z",
-      "prochainPassage": "2026-10-14T07:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Isulia 2026 à Bordeaux : la techno investit la Base sous-marine"
-    },
     {
       "channel": "x",
       "dueAt": "2026-10-14T07:00:00.000Z",
@@ -683,7 +642,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-14T05:20:37.926Z"
+    "derniere": "2026-10-14T06:20:44.782Z"
   },
   "abonnes": {
     "instagram": {
@@ -722,7 +681,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-14T06:01:10.606Z",
+    "genereLe": "2026-10-14T06:28:56.174Z",
     "posts": 70,
     "parReseau": {
       "instagram": {
@@ -884,7 +843,7 @@
       }
     },
     "publies": {
-      "threads": 19,
+      "threads": 20,
       "facebook": 19,
       "bluesky": 19,
       "x": 19,

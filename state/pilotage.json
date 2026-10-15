@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-15T06:00:46.629Z",
+  "genereLe": "2026-10-15T06:20:37.087Z",
   "jour": "2026-10-15",
   "reseaux": {
     "instagram": {
@@ -122,11 +122,11 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 12,
-      "total": 40,
-      "dernier": "2026-10-14T06:28:49.834Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DedvE8Rlggy"
+      "aujourdhui": 1,
+      "semaine": 13,
+      "total": 41,
+      "dernier": "2026-10-15T06:31:53.578Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DegULRrHLwb"
     },
     "x": {
       "actif": true,
@@ -164,6 +164,22 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=28331",
+      "titre": "Activités en famille en Corrèze : de Néandertal au labyrinthe",
+      "lien": "https://passion-aquitaine.ouest-france.fr/activites-famille-correze-neandertal-labyrinthe/",
+      "at": "2026-10-15T06:31:53.578Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Cinq sorties en famille pour sortir des sentiers battus en Corrèze 🧭 Au programme, un gouffre où l’on descend à 20 m sous terre, une rencontre avec Néandertal et un labyrinthe de 5 000 m² où se perdre avec les enfants. De quoi remplir un week-end ou des vacances sans s’ennuyer.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261015-47e5964e-th.jpg",
+          "mode": "reponse",
+          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/activites-famille-correze-neandertal-labyrinthe/",
+          "sujet": "Corrèze",
+          "publieLe": "2026-10-15T06:31:53.578Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35699",
       "titre": "Isulia 2026 à Bordeaux : la techno investit la Base sous-marine",
@@ -403,57 +419,19 @@
           "publieLe": "2026-10-12T11:28:39.066Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35475",
-      "titre": "4 châteaux du Pays basque qu’il faut absolument visiter",
-      "lien": "https://passion-aquitaine.ouest-france.fr/visiter-chateaux-pays-basque/",
-      "at": "2026-10-11T18:33:26.550Z",
-      "reseaux": {
-        "threads": {
-          "texte": "Envie d’une sortie patrimoine au Pays basque ce week-end 🧭 Voici quatre châteaux qui valent le détour. Parmi eux, un observatoire imaginé par Viollet-le-Duc à Hendaye et une demeure d’Urrugne habitée sans interruption depuis 1341. De quoi composer une belle journée entre histoire et architecture, à quelques kilomètres les uns des autres.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-81a127fe-th.jpg",
-          "mode": "reponse",
-          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/visiter-chateaux-pays-basque/",
-          "sujet": "Hendaye",
-          "publieLe": "2026-10-11T06:32:44.546Z"
-        },
-        "bluesky": {
-          "texte": "🔭 Un observatoire dessiné par Viollet-le-Duc, face à l’océan, à #Hendaye. Ce n’est pas le genre de #château qu’on attend au #PaysBasque, et pourtant il figure parmi les quatre à visiter, avec une demeure d’Urrugne habitée depuis 1341.\n➡️ Lire l’article",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-81a127fe-bsky.jpg",
-          "mode": "image",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-11T07:05:19.112Z"
-        },
-        "x": {
-          "texte": "À Urrugne, un château est habité depuis 1341. À #Hendaye, 🔭 Viollet-le-Duc a signé un observatoire. Quatre châteaux du Pays basque méritent la visite.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-81a127fe-x.jpg",
-          "mode": "reponse",
-          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/visiter-chateaux-pays-basque/",
-          "sujet": null,
-          "publieLe": "2026-10-11T08:00:48.436Z"
-        },
-        "instagram": {
-          "texte": "Depuis 1341, 🗝️ les mêmes murs restent habités à Urrugne, au cœur du Pays basque\n⠀\nÀ Hendaye, c’est un observatoire signé Viollet-le-Duc qui attend les curieux. Quatre châteaux basques à mettre sur la liste de vos prochaines visites.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#PaysBasque #Chateaux #Patrimoine",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-81a127fe-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-11T16:05:13.141Z"
-        },
-        "facebook": {
-          "texte": "Au Pays basque, un château d’Urrugne n’a jamais cessé d’être habité depuis 1341, et ce n’est pas le seul à visiter 🗝️",
-          "image": null,
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-11T18:33:26.550Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "threads",
+      "at": "2026-10-15T06:31:53.578Z",
+      "titre": "Activités en famille en Corrèze : de Néandertal au labyrinthe",
+      "lien": "https://passion-aquitaine.ouest-france.fr/activites-famille-correze-neandertal-labyrinthe/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/DegULRrHLwb",
+      "format": "reponse",
+      "texte": "Cinq sorties en famille pour sortir des sentiers battus en Corrèze 🧭 Au programme, un gouffre où l’on descend à 20 m sous terre, une rencontre avec Néandertal et un labyrinthe de 5 000 m² où se perdre avec les enfants. De quoi remplir un week-end ou des vacances sans s’ennuyer.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261015-47e5964e-th.jpg"
+    },
     {
       "channel": "instagram",
       "at": "2026-10-14T10:35:25.291Z",
@@ -543,28 +521,9 @@
       "format": "reply",
       "texte": "Trois écoles sortent du lot pour apprendre le #surf à #Biscarrosse. Dans les #Landes, la glisse fait partie de l’ADN local, et cette station de la côte en est l’un des meilleurs exemples 🌊",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261013-e9332e02-bsky.jpg"
-    },
-    {
-      "channel": "x",
-      "at": "2026-10-13T07:20:49.651Z",
-      "titre": "Écoles de surf à Biscarrosse : les 3 meilleures pour apprendre",
-      "lien": "https://passion-aquitaine.ouest-france.fr/ecoles-surf-biscarrosse/",
-      "lienPost": null,
-      "format": "reponse",
-      "texte": "Dans les Landes, le surf n’est pas qu’un loisir, c’est un trait d’identité 🏄 À #Biscarrosse, trois écoles se distinguent pour apprendre à glisser.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261013-e9332e02-x.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "threads",
-      "dueAt": "2026-10-15T06:28:26.395Z",
-      "prochainPassage": "2026-10-15T07:00:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Activités en famille en Corrèze : de Néandertal au labyrinthe"
-    },
     {
       "channel": "bluesky",
       "dueAt": "2026-10-15T07:14:02.805Z",
@@ -683,7 +642,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-15T05:01:02.816Z"
+    "derniere": "2026-10-15T06:20:37.087Z"
   },
   "abonnes": {
     "instagram": {
@@ -722,7 +681,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-15T06:01:03.441Z",
+    "genereLe": "2026-10-15T06:31:58.508Z",
     "posts": 76,
     "parReseau": {
       "instagram": {
@@ -884,7 +843,7 @@
       }
     },
     "publies": {
-      "threads": 20,
+      "threads": 21,
       "facebook": 20,
       "bluesky": 20,
       "x": 20,

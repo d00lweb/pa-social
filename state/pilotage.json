@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-15T19:04:13.656Z",
+  "genereLe": "2026-10-15T19:20:37.997Z",
   "jour": "2026-10-15",
   "reseaux": {
     "instagram": {
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 1,
-      "semaine": 12,
-      "total": 41,
-      "dernier": "2026-10-15T07:29:22.141Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1752854613507086"
+      "aujourdhui": 2,
+      "semaine": 13,
+      "total": 42,
+      "dernier": "2026-10-15T19:26:43.800Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1753460690113145"
     },
     "threads": {
       "actif": true,
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35821",
       "titre": "Cette micro algue pourrait finir dans vos lasagnes ou vos gâteaux : le pari bordelais",
       "lien": "https://passion-aquitaine.ouest-france.fr/spiruline-alimentation-edonia-bordeaux/",
-      "at": "2026-10-15T17:06:40.175Z",
+      "at": "2026-10-15T19:26:43.800Z",
       "reseaux": {
         "threads": {
           "texte": "🦠 La spiruline, on la connaît surtout en poudre ou en gélules. Mais à Bordeaux, la start-up Edonia veut la faire entrer dans nos plats : elle la transforme en ingrédient protéiné capable de se glisser dans des lasagnes ou des gâteaux. Vous seriez tentés d’y goûter ?\n@villedebordeaux",
@@ -201,6 +201,14 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-10-15T17:06:40.175Z"
+        },
+        "facebook": {
+          "texte": "Des lasagnes ou un gâteau enrichis à l’algue verte, vous seriez prêts à goûter ce que prépare une start-up bordelaise 🍰",
+          "image": null,
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-15T19:26:43.800Z"
         }
       }
     },
@@ -447,6 +455,16 @@
   ],
   "publications": [
     {
+      "channel": "facebook",
+      "at": "2026-10-15T19:26:43.800Z",
+      "titre": "Cette micro algue pourrait finir dans vos lasagnes ou vos gâteaux : le pari bordelais",
+      "lien": "https://passion-aquitaine.ouest-france.fr/spiruline-alimentation-edonia-bordeaux/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1753460690113145",
+      "format": null,
+      "texte": "Des lasagnes ou un gâteau enrichis à l’algue verte, vous seriez prêts à goûter ce que prépare une start-up bordelaise 🍰",
+      "image": null
+    },
+    {
       "channel": "instagram",
       "at": "2026-10-15T17:06:40.175Z",
       "titre": "Cette micro algue pourrait finir dans vos lasagnes ou vos gâteaux : le pari bordelais",
@@ -535,29 +553,9 @@
       "format": "reponse",
       "texte": "Cinq sorties en famille pour sortir des sentiers battus en Corrèze 🧭 Au programme, un gouffre où l’on descend à 20 m sous terre, une rencontre avec Néandertal et un labyrinthe de 5 000 m² où se perdre avec les enfants. De quoi remplir un week-end ou des vacances sans s’ennuyer.",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261015-47e5964e-th.jpg"
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-10-14T10:35:25.291Z",
-      "titre": "Isulia 2026 à Bordeaux : la techno investit la Base sous-marine",
-      "lien": "https://passion-aquitaine.ouest-france.fr/festival-isulia-2026-bordeaux/",
-      "lienPost": "https://www.instagram.com/p/DeeLnU8FDSj/",
-      "format": null,
-      "texte": "Danser sur de la techno entre les murs d’une base sous-marine de 1941, ça vous tente ?\n⠀\nÀ Bordeaux, le festival Isulia réunit 22 artistes du 5 au 7 novembre. Nastia, Octave One et Maara sont à l’affiche de ce rendez-vous électro dans la Base sous-marine 🎧\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #Techno #BaseSousMarine",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261014-ab410b4f-1.jpg"
     }
   ],
-  "file": [
-    {
-      "channel": "facebook",
-      "dueAt": "2026-10-15T19:26:37.990Z",
-      "prochainPassage": "2026-10-15T20:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Cette micro algue pourrait finir dans vos lasagnes ou vos gâteaux : le pari bordelais"
-    }
-  ],
+  "file": [],
   "alertes": [],
   "mesures": {
     "releves": 292,
@@ -678,7 +676,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-15T19:04:20.756Z",
+    "genereLe": "2026-10-15T19:26:47.084Z",
     "posts": 80,
     "parReseau": {
       "instagram": {
@@ -841,7 +839,7 @@
     },
     "publies": {
       "threads": 22,
-      "facebook": 21,
+      "facebook": 22,
       "bluesky": 22,
       "x": 22,
       "instagram": 22

@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-15T09:00:41.161Z",
+  "genereLe": "2026-10-15T09:20:40.574Z",
   "jour": "2026-10-15",
   "reseaux": {
     "instagram": {
@@ -122,11 +122,11 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 1,
-      "semaine": 12,
-      "total": 41,
-      "dernier": "2026-10-15T06:31:53.578Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DegULRrHLwb"
+      "aujourdhui": 2,
+      "semaine": 13,
+      "total": 42,
+      "dernier": "2026-10-15T09:27:59.303Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DegoRWwFvob"
     },
     "x": {
       "actif": true,
@@ -164,6 +164,22 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35821",
+      "titre": "Cette micro algue pourrait finir dans vos lasagnes ou vos gâteaux : le pari bordelais",
+      "lien": "https://passion-aquitaine.ouest-france.fr/spiruline-alimentation-edonia-bordeaux/",
+      "at": "2026-10-15T09:27:59.303Z",
+      "reseaux": {
+        "threads": {
+          "texte": "🦠 La spiruline, on la connaît surtout en poudre ou en gélules. Mais à Bordeaux, la start-up Edonia veut la faire entrer dans nos plats : elle la transforme en ingrédient protéiné capable de se glisser dans des lasagnes ou des gâteaux. Vous seriez tentés d’y goûter ?\n@villedebordeaux",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261015-b69932c1-th.jpg",
+          "mode": "reponse",
+          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/spiruline-alimentation-edonia-bordeaux/",
+          "sujet": "Bordeaux",
+          "publieLe": "2026-10-15T09:27:59.303Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=28331",
       "titre": "Activités en famille en Corrèze : de Néandertal au labyrinthe",
@@ -395,57 +411,19 @@
           "publieLe": "2026-10-12T19:26:05.200Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35766",
-      "titre": "Un Périgourdin veut faire du fromage de dromadaire, un lait qui caille mal",
-      "lien": "https://passion-aquitaine.ouest-france.fr/lait-fromage-dromadaire-dordogne/",
-      "at": "2026-10-12T11:28:39.066Z",
-      "reseaux": {
-        "threads": {
-          "texte": "Imaginez des dromadaires dans la campagne de Savignac-Lédrier, en pleine Dordogne. C’est le projet d’un Périgourdin qui rêve d’en tirer du fromage. Sauf que tout prend du temps : un agrément rare à décrocher, treize mois de gestation, et un lait qui, en plus, caille mal. Le premier lait pourrait ne pas couler avant 2028 🥛",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-14ec6da8-th.jpg",
-          "mode": "reponse",
-          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/lait-fromage-dromadaire-dordogne/",
-          "sujet": "Savignac-Lédrier",
-          "publieLe": "2026-10-11T12:32:52.001Z"
-        },
-        "x": {
-          "texte": "🐪 Peut-on faire du fromage avec un lait qui caille mal ? Un Périgourdin s’y attelle à Savignac-Lédrier, mais agrément rare et gestation de 13 mois repoussent le premier lait de dromadaire à 2028.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-14ec6da8-x.jpg",
-          "mode": "reponse",
-          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/lait-fromage-dromadaire-dordogne/",
-          "sujet": null,
-          "publieLe": "2026-10-11T14:21:15.508Z"
-        },
-        "bluesky": {
-          "texte": "Le lait de dromadaire caille mal, et ce n’est pas le seul obstacle pour un Périgourdin de #SavignacLedrier, en #Dordogne : entre un agrément rare et 🐪 une gestation de 13 mois, le premier lait pourrait ne pas couler avant 2028.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-14ec6da8-bsky.jpg",
-          "mode": "reply",
-          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/lait-fromage-dromadaire-dordogne/",
-          "sujet": null,
-          "publieLe": "2026-10-11T16:14:51.712Z"
-        },
-        "facebook": {
-          "texte": "Treize mois de gestation : voilà pourquoi le fromage de dromadaire rêvé en Dordogne va se faire attendre ⏳",
-          "image": null,
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-12T06:10:06.291Z"
-        },
-        "instagram": {
-          "texte": "🐫 Des dromadaires en Dordogne, et bientôt du fromage avec leur lait : le pari d’un Périgourdin\n⠀\nÀ Savignac-Lédrier, le projet avance lentement. Un agrément rare à obtenir, 13 mois de gestation, et un lait qui caille mal : les premières gouttes pourraient ne pas couler avant 2028.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Dordogne #FromageDeDromadaire #Agriculture",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-14ec6da8-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-12T11:28:39.066Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "threads",
+      "at": "2026-10-15T09:27:59.303Z",
+      "titre": "Cette micro algue pourrait finir dans vos lasagnes ou vos gâteaux : le pari bordelais",
+      "lien": "https://passion-aquitaine.ouest-france.fr/spiruline-alimentation-edonia-bordeaux/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/DegoRWwFvob",
+      "format": "reponse",
+      "texte": "🦠 La spiruline, on la connaît surtout en poudre ou en gélules. Mais à Bordeaux, la start-up Edonia veut la faire entrer dans nos plats : elle la transforme en ingrédient protéiné capable de se glisser dans des lasagnes ou des gâteaux. Vous seriez tentés d’y goûter ?\n@villedebordeaux",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261015-b69932c1-th.jpg"
+    },
     {
       "channel": "x",
       "at": "2026-10-15T08:01:01.969Z",
@@ -535,28 +513,9 @@
       "format": "reponse",
       "texte": "Un bunker de 1941 transformé en dancefloor pour trois jours. À Bordeaux, la Base sous-marine accueille du 5 au 7 novembre le festival Isulia, et l’affiche tient la route 🎶 22 artistes, avec Nastia, @octaveone et Maara en tête.\n@villedebordeaux @visitbordeaux",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261014-ab410b4f-th.jpg"
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-10-13T19:11:26.079Z",
-      "titre": "Écoles de surf à Biscarrosse : les 3 meilleures pour apprendre",
-      "lien": "https://passion-aquitaine.ouest-france.fr/ecoles-surf-biscarrosse/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1751212267004654",
-      "format": null,
-      "texte": "Envie de vous lever sur votre première vague, et si c’était dans l’une de ces trois écoles de Biscarrosse 🏄",
-      "image": null
     }
   ],
   "file": [
-    {
-      "channel": "threads",
-      "dueAt": "2026-10-15T09:23:43.516Z",
-      "prochainPassage": "2026-10-15T10:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Cette micro algue pourrait finir dans vos lasagnes ou vos gâteaux : le pari bordelais"
-    },
     {
       "channel": "x",
       "dueAt": "2026-10-15T10:00:00.000Z",
@@ -723,7 +682,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-15T09:00:58.077Z",
+    "genereLe": "2026-10-15T09:28:08.443Z",
     "posts": 79,
     "parReseau": {
       "instagram": {
@@ -885,7 +844,7 @@
       }
     },
     "publies": {
-      "threads": 21,
+      "threads": 22,
       "facebook": 21,
       "bluesky": 21,
       "x": 21,

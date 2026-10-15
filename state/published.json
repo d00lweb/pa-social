@@ -3748,5 +3748,23 @@
       "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/spiruline-alimentation-edonia-bordeaux/",
       "sujet": "Bordeaux"
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35821",
+    "channel": "x",
+    "at": "2026-10-15T10:00:49.781Z",
+    "mediaId": "kit-telegram",
+    "titre": "Cette micro algue pourrait finir dans vos lasagnes ou vos gâteaux : le pari bordelais",
+    "lien": "https://passion-aquitaine.ouest-france.fr/spiruline-alimentation-edonia-bordeaux/",
+    "lienPost": null,
+    "format": "reponse",
+    "mention": true,
+    "apercu": {
+      "texte": "Une algue verte cachée dans une part de lasagnes 🍝 À #Bordeaux, Edonia transforme la spiruline en ingrédient protéiné pensé pour s’intégrer à nos plats.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261015-b69932c1-x.jpg",
+      "mode": "reponse",
+      "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/spiruline-alimentation-edonia-bordeaux/",
+      "sujet": null
+    }
   }
 ]

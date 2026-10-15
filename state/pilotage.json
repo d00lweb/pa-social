@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-15T05:20:39.749Z",
+  "genereLe": "2026-10-15T06:00:46.629Z",
   "jour": "2026-10-15",
   "reseaux": {
     "instagram": {
@@ -555,7 +555,53 @@
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261013-e9332e02-x.jpg"
     }
   ],
-  "file": [],
+  "file": [
+    {
+      "channel": "threads",
+      "dueAt": "2026-10-15T06:28:26.395Z",
+      "prochainPassage": "2026-10-15T07:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Activités en famille en Corrèze : de Néandertal au labyrinthe"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-10-15T07:14:02.805Z",
+      "prochainPassage": "2026-10-15T07:20:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Activités en famille en Corrèze : de Néandertal au labyrinthe"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-10-15T07:29:15.572Z",
+      "prochainPassage": "2026-10-15T08:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Activités en famille en Corrèze : de Néandertal au labyrinthe"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-10-15T08:00:00.000Z",
+      "prochainPassage": "2026-10-15T08:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Activités en famille en Corrèze : de Néandertal au labyrinthe"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-10-15T11:26:29.293Z",
+      "prochainPassage": "2026-10-15T12:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Activités en famille en Corrèze : de Néandertal au labyrinthe"
+    }
+  ],
   "alertes": [],
   "mesures": {
     "releves": 284,
@@ -676,7 +722,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-15T05:20:43.109Z",
+    "genereLe": "2026-10-15T06:01:03.441Z",
     "posts": 76,
     "parReseau": {
       "instagram": {
@@ -893,29 +939,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 0,
-      "entree": 0,
-      "sortie": 0,
-      "cout": 0,
+      "appels": 1,
+      "entree": 7961,
+      "sortie": 845,
+      "cout": 0.048744,
       "cle": "2026-10-15"
     },
     "semaine": {
-      "appels": 22,
-      "entree": 176123,
-      "sortie": 21046,
-      "cout": 1.1254119999999999
+      "appels": 23,
+      "entree": 184084,
+      "sortie": 21891,
+      "cout": 1.174156
     },
     "mois": {
-      "appels": 39,
-      "entree": 307880,
-      "sortie": 37918,
-      "cout": 1.9898799999999999,
+      "appels": 40,
+      "entree": 315841,
+      "sortie": 38763,
+      "cout": 2.038624,
       "cle": "2026-10"
     },
-    "projection": 4.11,
+    "projection": 4.21,
     "moyenneAppel": 0.051,
     "parModele": {
-      "claude-opus-5-5": 39
+      "claude-opus-5-5": 40
     },
     "serie": [
       [
@@ -972,7 +1018,7 @@
       ],
       [
         "2026-10-15",
-        0
+        0.0487
       ]
     ],
     "depuis": "2026-09-23"

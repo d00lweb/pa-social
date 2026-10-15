@@ -772,5 +772,42 @@
     "instagram": [],
     "threads": [],
     "bluesky": []
+  },
+  "territoire:correze:correzeledepartement,tourismecorreze": {
+    "v": 3,
+    "cherche": "2026-10-15T06:00:56.258Z",
+    "conseil": {
+      "instagram": [
+        {
+          "handle": "correzeledepartement",
+          "nom": "Corrèze le Département",
+          "abonnes": 8357,
+          "preuve": 3
+        }
+      ],
+      "threads": [],
+      "bluesky": [],
+      "x": []
+    },
+    "tourisme": {
+      "instagram": [
+        {
+          "handle": "tourismecorreze",
+          "nom": "Correze Tourisme",
+          "abonnes": 39297,
+          "preuve": 3
+        }
+      ],
+      "threads": [
+        {
+          "handle": "tourismecorreze",
+          "nom": "Correze Tourisme",
+          "abonnes": 39297,
+          "preuve": 3
+        }
+      ],
+      "bluesky": [],
+      "x": []
+    }
   }
 }

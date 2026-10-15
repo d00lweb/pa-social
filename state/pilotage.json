@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-15T07:00:37.049Z",
+  "genereLe": "2026-10-15T07:20:38.556Z",
   "jour": "2026-10-15",
   "reseaux": {
     "instagram": {
@@ -61,7 +61,7 @@
         "reply"
       ],
       "aujourdhui": 1,
-      "semaine": 13,
+      "semaine": 12,
       "total": 44,
       "dernier": "2026-10-15T07:14:04.515Z",
       "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mxvj7itse52u"
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 0,
+      "aujourdhui": 1,
       "semaine": 12,
-      "total": 40,
-      "dernier": "2026-10-14T07:11:54.140Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1751712773621270"
+      "total": 41,
+      "dernier": "2026-10-15T07:29:22.141Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1752854613507086"
     },
     "threads": {
       "actif": true,
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=28331",
       "titre": "Activités en famille en Corrèze : de Néandertal au labyrinthe",
       "lien": "https://passion-aquitaine.ouest-france.fr/activites-famille-correze-neandertal-labyrinthe/",
-      "at": "2026-10-15T07:14:04.515Z",
+      "at": "2026-10-15T07:29:22.141Z",
       "reseaux": {
         "threads": {
           "texte": "Cinq sorties en famille pour sortir des sentiers battus en Corrèze 🧭 Au programme, un gouffre où l’on descend à 20 m sous terre, une rencontre avec Néandertal et un labyrinthe de 5 000 m² où se perdre avec les enfants. De quoi remplir un week-end ou des vacances sans s’ennuyer.",
@@ -185,6 +185,14 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-10-15T07:14:04.515Z"
+        },
+        "facebook": {
+          "texte": "En Corrèze, les enfants peuvent se perdre dans un labyrinthe de 5 000 m² puis croiser un Néandertal 🌽",
+          "image": null,
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-15T07:29:22.141Z"
         }
       }
     },
@@ -431,6 +439,16 @@
   ],
   "publications": [
     {
+      "channel": "facebook",
+      "at": "2026-10-15T07:29:22.141Z",
+      "titre": "Activités en famille en Corrèze : de Néandertal au labyrinthe",
+      "lien": "https://passion-aquitaine.ouest-france.fr/activites-famille-correze-neandertal-labyrinthe/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1752854613507086",
+      "format": null,
+      "texte": "En Corrèze, les enfants peuvent se perdre dans un labyrinthe de 5 000 m² puis croiser un Néandertal 🌽",
+      "image": null
+    },
+    {
       "channel": "bluesky",
       "at": "2026-10-15T07:14:04.515Z",
       "titre": "Activités en famille en Corrèze : de Néandertal au labyrinthe",
@@ -519,28 +537,9 @@
       "format": null,
       "texte": "Une planche sous le bras, l’océan devant soi à Biscarrosse 🏄\n⠀\nDans les Landes, le surf fait partie de l’ADN local. Voici les trois meilleures écoles de surf de Biscarrosse pour se lancer sur la côte landaise.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Biscarrosse #Surf #CoteLandaise",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261013-e9332e02-1.jpg"
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-10-13T10:34:58.602Z",
-      "titre": "Près de Bordeaux, on dort face à des tigres et des jaguars",
-      "lien": "https://passion-aquitaine.ouest-france.fr/dormir-zoo-bordeaux-pessac-lodges-fauves/",
-      "lienPost": "https://www.instagram.com/p/Debmw2lDpP4/",
-      "format": null,
-      "texte": "Parmi les voisins de chambre possibles au zoo de Bordeaux-Pessac : 🦁 des lions rescapés d’Ukraine\n⠀\nTrois lodges permettent d’y dormir face aux jaguars, aux tigres blancs ou à ces lions. Une nuit insolite près de Bordeaux, à deux pas des fauves.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Pessac #ZooDeBordeauxPessac #NuitInsolite",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261012-e0fae2d6-1.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "facebook",
-      "dueAt": "2026-10-15T07:29:15.572Z",
-      "prochainPassage": "2026-10-15T08:00:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Activités en famille en Corrèze : de Néandertal au labyrinthe"
-    },
     {
       "channel": "x",
       "dueAt": "2026-10-15T08:00:00.000Z",
@@ -562,18 +561,18 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 286,
+    "releves": 290,
     "parReseau": {
       "instagram": {
         "posts": 33,
         "interactionsMoyennes": 14.7
       },
       "bluesky": {
-        "posts": 31,
+        "posts": 32,
         "interactionsMoyennes": 0.1
       },
       "facebook": {
-        "posts": 28,
+        "posts": 29,
         "interactionsMoyennes": 0
       },
       "threads": {
@@ -641,7 +640,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-15T06:20:37.087Z"
+    "derniere": "2026-10-15T07:20:38.556Z"
   },
   "abonnes": {
     "instagram": {
@@ -680,8 +679,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-15T07:14:13.315Z",
-    "posts": 77,
+    "genereLe": "2026-10-15T07:29:29.721Z",
+    "posts": 79,
     "parReseau": {
       "instagram": {
         "posts": 19,
@@ -692,11 +691,11 @@
         "moyenne": 4
       },
       "bluesky": {
-        "posts": 19,
+        "posts": 20,
         "moyenne": 0.4
       },
       "facebook": {
-        "posts": 19,
+        "posts": 20,
         "moyenne": 0
       }
     },
@@ -706,7 +705,7 @@
         "moyenne": 4.4
       },
       "reply": {
-        "posts": 12,
+        "posts": 13,
         "moyenne": 0.5
       },
       "card": {
@@ -732,7 +731,7 @@
         "moyenne": 1.9
       },
       "matin": {
-        "posts": 45,
+        "posts": 47,
         "moyenne": 1.7
       }
     },
@@ -753,7 +752,7 @@
       },
       "facebook": {
         "8 h – 9 h 30": {
-          "posts": 13,
+          "posts": 14,
           "moyenne": 0
         },
         "20 h – 21 h 30": {
@@ -767,7 +766,7 @@
           "moyenne": 2.5
         },
         "8 h – 9 h 30": {
-          "posts": 13,
+          "posts": 14,
           "moyenne": 0.2
         },
         "12 h – 13 h 30": {
@@ -790,7 +789,7 @@
         }
       }
     },
-    "interactionsTotal": 237,
+    "interactionsTotal": 238,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35575",
       "channel": "instagram",
@@ -812,38 +811,38 @@
       "creneauReseau": "12 h – 13 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=32967",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35699",
       "channel": "facebook",
-      "mediaId": "227437307428711_1751212267004654",
-      "publieLe": "2026-10-13T19:11:26.079Z",
+      "mediaId": "227437307428711_1751712773621270",
+      "publieLe": "2026-10-14T07:11:54.140Z",
       "jalon": 1,
-      "releveLe": "2026-10-14T19:20:38.722Z",
+      "releveLe": "2026-10-15T07:20:38.556Z",
       "likes": 0,
       "commentairesBruts": 0,
       "partages": 0,
       "vues": null,
       "commentaires": 0,
       "v": 2,
-      "titre": "Écoles de surf à Biscarrosse : les 3 meilleures pour apprendre",
-      "lien": "https://www.facebook.com/1720946116697936/posts/1751212267004654",
+      "titre": "Isulia 2026 à Bordeaux : la techno investit la Base sous-marine",
+      "lien": "https://www.facebook.com/1720946116697936/posts/1751712773621270",
       "format": null,
       "mention": false,
-      "creneau": "soir",
-      "creneauReseau": "20 h – 21 h 30"
+      "creneau": "matin",
+      "creneauReseau": "8 h – 9 h 30"
     },
     "mentions": {
       "avec": {
-        "posts": 35,
-        "moyenne": 5.9
+        "posts": 36,
+        "moyenne": 5.8
       },
       "sans": {
-        "posts": 42,
+        "posts": 43,
         "moyenne": 0.7
       }
     },
     "publies": {
       "threads": 21,
-      "facebook": 20,
+      "facebook": 21,
       "bluesky": 21,
       "x": 20,
       "instagram": 20

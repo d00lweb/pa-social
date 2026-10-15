@@ -3712,5 +3712,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=28331",
+    "channel": "x",
+    "at": "2026-10-15T08:01:01.969Z",
+    "mediaId": "kit-telegram",
+    "titre": "Activités en famille en Corrèze : de Néandertal au labyrinthe",
+    "lien": "https://passion-aquitaine.ouest-france.fr/activites-famille-correze-neandertal-labyrinthe/",
+    "lienPost": null,
+    "format": "reponse",
+    "mention": false,
+    "apercu": {
+      "texte": "En Corrèze, une sortie en famille peut mener à 🕳️ 20 m sous terre, au fond d’un gouffre. Néandertal et un labyrinthe de 5 000 m² complètent cinq idées inattendues.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261015-47e5964e-x.jpg",
+      "mode": "reponse",
+      "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/activites-famille-correze-neandertal-labyrinthe/",
+      "sujet": null
+    }
   }
 ]

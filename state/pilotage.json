@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-15T07:20:38.556Z",
+  "genereLe": "2026-10-15T08:00:51.571Z",
   "jour": "2026-10-15",
   "reseaux": {
     "instagram": {
@@ -156,10 +156,10 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 12,
-      "total": 43,
-      "dernier": "2026-10-14T07:00:52.170Z",
+      "aujourdhui": 1,
+      "semaine": 13,
+      "total": 44,
+      "dernier": "2026-10-15T08:01:01.969Z",
       "lienDernier": null
     }
   },
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=28331",
       "titre": "Activités en famille en Corrèze : de Néandertal au labyrinthe",
       "lien": "https://passion-aquitaine.ouest-france.fr/activites-famille-correze-neandertal-labyrinthe/",
-      "at": "2026-10-15T07:29:22.141Z",
+      "at": "2026-10-15T08:01:01.969Z",
       "reseaux": {
         "threads": {
           "texte": "Cinq sorties en famille pour sortir des sentiers battus en Corrèze 🧭 Au programme, un gouffre où l’on descend à 20 m sous terre, une rencontre avec Néandertal et un labyrinthe de 5 000 m² où se perdre avec les enfants. De quoi remplir un week-end ou des vacances sans s’ennuyer.",
@@ -193,6 +193,14 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-10-15T07:29:22.141Z"
+        },
+        "x": {
+          "texte": "En Corrèze, une sortie en famille peut mener à 🕳️ 20 m sous terre, au fond d’un gouffre. Néandertal et un labyrinthe de 5 000 m² complètent cinq idées inattendues.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261015-47e5964e-x.jpg",
+          "mode": "reponse",
+          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/activites-famille-correze-neandertal-labyrinthe/",
+          "sujet": null,
+          "publieLe": "2026-10-15T08:01:01.969Z"
         }
       }
     },
@@ -439,6 +447,16 @@
   ],
   "publications": [
     {
+      "channel": "x",
+      "at": "2026-10-15T08:01:01.969Z",
+      "titre": "Activités en famille en Corrèze : de Néandertal au labyrinthe",
+      "lien": "https://passion-aquitaine.ouest-france.fr/activites-famille-correze-neandertal-labyrinthe/",
+      "lienPost": null,
+      "format": "reponse",
+      "texte": "En Corrèze, une sortie en famille peut mener à 🕳️ 20 m sous terre, au fond d’un gouffre. Néandertal et un labyrinthe de 5 000 m² complètent cinq idées inattendues.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261015-47e5964e-x.jpg"
+    },
+    {
       "channel": "facebook",
       "at": "2026-10-15T07:29:22.141Z",
       "titre": "Activités en famille en Corrèze : de Néandertal au labyrinthe",
@@ -527,28 +545,9 @@
       "format": null,
       "texte": "Envie de vous lever sur votre première vague, et si c’était dans l’une de ces trois écoles de Biscarrosse 🏄",
       "image": null
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-10-13T16:26:42.373Z",
-      "titre": "Écoles de surf à Biscarrosse : les 3 meilleures pour apprendre",
-      "lien": "https://passion-aquitaine.ouest-france.fr/ecoles-surf-biscarrosse/",
-      "lienPost": "https://www.instagram.com/p/DecPBOPGHsn/",
-      "format": null,
-      "texte": "Une planche sous le bras, l’océan devant soi à Biscarrosse 🏄\n⠀\nDans les Landes, le surf fait partie de l’ADN local. Voici les trois meilleures écoles de surf de Biscarrosse pour se lancer sur la côte landaise.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Biscarrosse #Surf #CoteLandaise",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261013-e9332e02-1.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "x",
-      "dueAt": "2026-10-15T08:00:00.000Z",
-      "prochainPassage": "2026-10-15T08:00:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Activités en famille en Corrèze : de Néandertal au labyrinthe"
-    },
     {
       "channel": "instagram",
       "dueAt": "2026-10-15T11:26:29.293Z",
@@ -679,7 +678,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-15T07:29:29.721Z",
+    "genereLe": "2026-10-15T08:01:11.441Z",
     "posts": 79,
     "parReseau": {
       "instagram": {
@@ -844,7 +843,7 @@
       "threads": 21,
       "facebook": 21,
       "bluesky": 21,
-      "x": 20,
+      "x": 21,
       "instagram": 20
     },
     "abonnes": {

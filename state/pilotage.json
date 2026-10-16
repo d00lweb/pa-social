@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-16T05:20:37.760Z",
+  "genereLe": "2026-10-16T06:01:02.844Z",
   "jour": "2026-10-16",
   "reseaux": {
     "instagram": {
@@ -555,7 +555,53 @@
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261015-47e5964e-th.jpg"
     }
   ],
-  "file": [],
+  "file": [
+    {
+      "channel": "x",
+      "dueAt": "2026-10-16T06:20:00.000Z",
+      "prochainPassage": "2026-10-16T06:20:00.000Z",
+      "nature": "actu_chaude",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Festival Koruak : 25 chœurs chantent gratuitement à Bayonne"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-10-16T06:24:42.892Z",
+      "prochainPassage": "2026-10-16T07:00:00.000Z",
+      "nature": "actu_chaude",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Festival Koruak : 25 chœurs chantent gratuitement à Bayonne"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-10-16T06:27:58.158Z",
+      "prochainPassage": "2026-10-16T07:00:00.000Z",
+      "nature": "actu_chaude",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Festival Koruak : 25 chœurs chantent gratuitement à Bayonne"
+    },
+    {
+      "channel": "threads",
+      "dueAt": "2026-10-16T06:31:08.780Z",
+      "prochainPassage": "2026-10-16T07:00:00.000Z",
+      "nature": "actu_chaude",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Festival Koruak : 25 chœurs chantent gratuitement à Bayonne"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-10-16T06:34:37.771Z",
+      "prochainPassage": "2026-10-16T07:00:00.000Z",
+      "nature": "actu_chaude",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Festival Koruak : 25 chœurs chantent gratuitement à Bayonne"
+    }
+  ],
   "alertes": [],
   "mesures": {
     "releves": 292,
@@ -676,7 +722,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-16T05:20:42.127Z",
+    "genereLe": "2026-10-16T06:01:36.369Z",
     "posts": 80,
     "parReseau": {
       "instagram": {
@@ -893,29 +939,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 0,
-      "entree": 0,
-      "sortie": 0,
-      "cout": 0,
+      "appels": 1,
+      "entree": 7971,
+      "sortie": 851,
+      "cout": 0.048904,
       "cle": "2026-10-16"
     },
     "semaine": {
-      "appels": 19,
-      "entree": 152196,
-      "sortie": 17975,
-      "cout": 0.9682839999999999
+      "appels": 20,
+      "entree": 160167,
+      "sortie": 18826,
+      "cout": 1.017188
     },
     "mois": {
-      "appels": 41,
-      "entree": 323814,
-      "sortie": 39614,
-      "cout": 2.087536,
+      "appels": 42,
+      "entree": 331785,
+      "sortie": 40465,
+      "cout": 2.13644,
       "cle": "2026-10"
     },
-    "projection": 4.04,
+    "projection": 4.14,
     "moyenneAppel": 0.0509,
     "parModele": {
-      "claude-opus-5-5": 41
+      "claude-opus-5-5": 42
     },
     "serie": [
       [
@@ -972,7 +1018,7 @@
       ],
       [
         "2026-10-16",
-        0
+        0.0489
       ]
     ],
     "depuis": "2026-09-23"

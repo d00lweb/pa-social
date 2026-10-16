@@ -823,5 +823,63 @@
     "instagram": [],
     "threads": [],
     "bluesky": []
+  },
+  "commune:mairie:bayonne": {
+    "v": 3,
+    "cherche": "2026-10-16T06:01:24.620Z",
+    "instagram": [
+      {
+        "handle": "bayonnemaville",
+        "nom": "Ville de Bayonne",
+        "abonnes": 54356,
+        "preuve": 3
+      }
+    ],
+    "x": [
+      {
+        "handle": "VilleDeBayonne",
+        "nom": "",
+        "abonnes": null,
+        "preuve": 3
+      }
+    ],
+    "threads": [
+      {
+        "handle": "bayonnemaville",
+        "nom": "Ville de Bayonne",
+        "abonnes": 54356,
+        "preuve": 3
+      }
+    ],
+    "bluesky": []
+  },
+  "commune:tourisme:bayonne": {
+    "v": 3,
+    "cherche": "2026-10-16T06:01:24.620Z",
+    "instagram": [
+      {
+        "handle": "visitbayonne",
+        "nom": "Visit Bayonne",
+        "abonnes": 34596,
+        "preuve": 2
+      }
+    ],
+    "x": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:bayonne:chant": {
+    "v": 3,
+    "cherche": "2026-10-16T06:01:24.620Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:bayonne:musique": {
+    "v": 3,
+    "cherche": "2026-10-16T06:01:24.620Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
   }
 }

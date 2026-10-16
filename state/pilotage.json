@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-16T19:20:48.827Z",
+  "genereLe": "2026-10-16T20:00:37.245Z",
   "jour": "2026-10-16",
   "reseaux": {
     "instagram": {
@@ -558,7 +558,7 @@
   "file": [],
   "alertes": [],
   "mesures": {
-    "releves": 309,
+    "releves": 310,
     "parReseau": {
       "instagram": {
         "posts": 36,
@@ -676,8 +676,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-16T19:20:56.269Z",
-    "posts": 87,
+    "genereLe": "2026-10-16T20:00:41.392Z",
+    "posts": 88,
     "parReseau": {
       "instagram": {
         "posts": 22,
@@ -692,7 +692,7 @@
         "moyenne": 0.4
       },
       "facebook": {
-        "posts": 21,
+        "posts": 22,
         "moyenne": 0
       }
     },
@@ -724,8 +724,8 @@
         "moyenne": 6.6
       },
       "soir": {
-        "posts": 15,
-        "moyenne": 2
+        "posts": 16,
+        "moyenne": 1.9
       },
       "matin": {
         "posts": 51,
@@ -753,7 +753,7 @@
           "moyenne": 0
         },
         "20 h – 21 h 30": {
-          "posts": 6,
+          "posts": 7,
           "moyenne": 0
         }
       },
@@ -809,23 +809,23 @@
     },
     "moinsBon": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35821",
-      "channel": "bluesky",
-      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mxvttojrym2x",
-      "publieLe": "2026-10-15T10:24:19.323Z",
+      "channel": "facebook",
+      "mediaId": "227437307428711_1753460690113145",
+      "publieLe": "2026-10-15T19:26:43.800Z",
       "jalon": 1,
-      "releveLe": "2026-10-16T11:00:45.604Z",
+      "releveLe": "2026-10-16T20:00:37.245Z",
       "likes": 0,
-      "commentairesBruts": 1,
+      "commentairesBruts": 0,
       "partages": 0,
       "vues": null,
       "commentaires": 0,
       "v": 2,
       "titre": "Cette micro algue pourrait finir dans vos lasagnes ou vos gâteaux : le pari bordelais",
-      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mxvttojrym2x",
-      "format": "reply",
-      "mention": true,
-      "creneau": "après-midi",
-      "creneauReseau": "12 h – 13 h 30"
+      "lien": "https://www.facebook.com/1720946116697936/posts/1753460690113145",
+      "format": null,
+      "mention": false,
+      "creneau": "soir",
+      "creneauReseau": "20 h – 21 h 30"
     },
     "mentions": {
       "avec": {
@@ -833,7 +833,7 @@
         "moyenne": 5.3
       },
       "sans": {
-        "posts": 46,
+        "posts": 47,
         "moyenne": 0.6
       }
     },

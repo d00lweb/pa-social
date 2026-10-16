@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-16T06:01:02.844Z",
+  "genereLe": "2026-10-16T06:20:33.719Z",
   "jour": "2026-10-16",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 13,
-      "total": 47,
-      "dernier": "2026-10-15T17:06:40.175Z",
-      "lienDernier": "https://www.instagram.com/p/DehdLyAmP9Z/"
+      "aujourdhui": 1,
+      "semaine": 14,
+      "total": 48,
+      "dernier": "2026-10-16T06:28:26.144Z",
+      "lienDernier": "https://www.instagram.com/p/Dei48TpjXWT/"
     },
     "bluesky": {
       "actif": true,
@@ -60,11 +60,11 @@
         "image",
         "reply"
       ],
-      "aujourdhui": 0,
-      "semaine": 13,
-      "total": 45,
-      "dernier": "2026-10-15T10:24:19.323Z",
-      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mxvttojrym2x"
+      "aujourdhui": 1,
+      "semaine": 14,
+      "total": 46,
+      "dernier": "2026-10-16T06:24:44.643Z",
+      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mxxww7ij5r2x"
     },
     "facebook": {
       "actif": true,
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 13,
-      "total": 42,
-      "dernier": "2026-10-15T19:26:43.800Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1753460690113145"
+      "aujourdhui": 1,
+      "semaine": 14,
+      "total": 43,
+      "dernier": "2026-10-16T06:34:46.586Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1753899483402599"
     },
     "threads": {
       "actif": true,
@@ -122,11 +122,11 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 13,
-      "total": 42,
-      "dernier": "2026-10-15T09:27:59.303Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DegoRWwFvob"
+      "aujourdhui": 1,
+      "semaine": 14,
+      "total": 43,
+      "dernier": "2026-10-16T06:33:41.257Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/Dei5SEdHN8l"
     },
     "x": {
       "actif": true,
@@ -156,14 +156,62 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 13,
-      "total": 45,
-      "dernier": "2026-10-15T10:00:49.781Z",
+      "aujourdhui": 1,
+      "semaine": 14,
+      "total": 46,
+      "dernier": "2026-10-16T06:20:42.752Z",
       "lienDernier": null
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=29086",
+      "titre": "Festival Koruak : 25 chœurs chantent gratuitement à Bayonne",
+      "lien": "https://passion-aquitaine.ouest-france.fr/festival-koruak-2026-bayonne-choeurs/",
+      "at": "2026-10-16T06:34:46.586Z",
+      "reseaux": {
+        "x": {
+          "texte": "🗣️ 25 chœurs dans une même ville, le même jour, sans payer ? C’est le programme du festival Koruak à #Bayonne le 24 octobre, au sein d’un festival qui court jusqu’au 1er novembre.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261016-b570ee70-x.jpg",
+          "mode": "reponse",
+          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/festival-koruak-2026-bayonne-choeurs/",
+          "sujet": null,
+          "publieLe": "2026-10-16T06:20:42.752Z"
+        },
+        "bluesky": {
+          "texte": "Le festival Koruak s’étend sur deux semaines à #Bayonne, mais une date se détache : 🎼 le 24 octobre, 25 chœurs s’y produisent gratuitement. Le #chant choral occupe la ville jusqu’au 1er novembre.\n➡️ Lire l’article",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261016-b570ee70-bsky.jpg",
+          "mode": "image",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-16T06:24:44.643Z"
+        },
+        "instagram": {
+          "texte": "🎶 Une ville entière qui chante : 25 chœurs se succèdent à Bayonne, et c’est gratuit\n⠀\nLe 24 octobre, le festival Koruak offre une journée de chant choral au cœur du Pays basque. Le festival se poursuit jusqu’au 1er novembre.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bayonne #ChantChoral #PaysBasque",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261016-b570ee70-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-16T06:28:26.144Z"
+        },
+        "threads": {
+          "texte": "Imaginez les rues de Bayonne portées par des voix de toutes parts. Le 24 octobre, le festival Koruak réunit 25 chœurs, à écouter gratuitement. Le festival, lui, fait chanter la ville du 18 octobre au 1er novembre 🎙️\n@bayonnemaville",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261016-b570ee70-th.jpg",
+          "mode": "reponse",
+          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/festival-koruak-2026-bayonne-choeurs/",
+          "sujet": "Bayonne",
+          "publieLe": "2026-10-16T06:33:41.257Z"
+        },
+        "facebook": {
+          "texte": "Pas besoin de billet pour écouter 25 chœurs à Bayonne : le festival Koruak ouvre ses voix à tous gratuitement 🎤",
+          "image": null,
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-16T06:34:46.586Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35821",
       "titre": "Cette micro algue pourrait finir dans vos lasagnes ou vos gâteaux : le pari bordelais",
@@ -403,57 +451,59 @@
           "publieLe": "2026-10-13T10:34:58.602Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35776",
-      "titre": "Sous un arrêt de bus de Bordeaux, 40 sarcophages cachaient un habitat antique",
-      "lien": "https://passion-aquitaine.ouest-france.fr/fouille-archeologique-sarcophage-bordeaux/",
-      "at": "2026-10-12T19:26:05.200Z",
-      "reseaux": {
-        "threads": {
-          "texte": "Qu’y a-t-il sous nos pieds quand on attend le bus ? À Bordeaux, les fouilles de Saint-Seurin ont livré 40 sarcophages mérovingiens 🏛️ Et dessous, surprise : un habitat des Ier et IIe siècles, que les archéologues n’attendaient pas du tout. Vous imaginiez la ville antique aussi proche de la surface ?\n@villedebordeaux",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-6a2c2b25-th.jpg",
-          "mode": "reponse",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/fouille-archeologique-sarcophage-bordeaux/",
-          "sujet": "Bordeaux",
-          "publieLe": "2026-10-12T06:08:19.899Z"
-        },
-        "bluesky": {
-          "texte": "Des sarcophages alignés sous le bitume, et plus bas encore, des murs vieux de près de deux millénaires 🏺 À #Bordeaux, les fouilles de Saint-Seurin révèlent un habitat des Ier et IIe siècles, juste sous un arrêt de bus.\n@villedebordeaux.bsky.social",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-6a2c2b25-bsky.jpg",
-          "mode": "reply",
-          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/fouille-archeologique-sarcophage-bordeaux/",
-          "sujet": null,
-          "publieLe": "2026-10-12T06:14:38.144Z"
-        },
-        "x": {
-          "texte": "40 sarcophages mérovingiens sous un arrêt de bus de #Bordeaux, et dessous un habitat antique des Ier et IIe siècles : la surprise des fouilles de Saint-Seurin 🦴",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-6a2c2b25-x.jpg",
-          "mode": "reponse",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/fouille-archeologique-sarcophage-bordeaux/",
-          "sujet": null,
-          "publieLe": "2026-10-12T07:00:56.846Z"
-        },
-        "instagram": {
-          "texte": "Votre arrêt de bus bordelais repose peut-être sur deux mille ans d’histoire\n⠀\nAux fouilles de Saint-Seurin, à Bordeaux, 40 sarcophages mérovingiens recouvraient un habitat des Ier et IIe siècles. Une découverte que les archéologues n’attendaient pas ⚱️\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #Archeologie #Antiquite",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-6a2c2b25-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-12T16:32:27.522Z"
-        },
-        "facebook": {
-          "texte": "Sous les sarcophages mérovingiens de Saint-Seurin, les archéologues ont trouvé bien plus ancien : des maisons antiques ⛏️",
-          "image": null,
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-12T19:26:05.200Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "facebook",
+      "at": "2026-10-16T06:34:46.586Z",
+      "titre": "Festival Koruak : 25 chœurs chantent gratuitement à Bayonne",
+      "lien": "https://passion-aquitaine.ouest-france.fr/festival-koruak-2026-bayonne-choeurs/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1753899483402599",
+      "format": null,
+      "texte": "Pas besoin de billet pour écouter 25 chœurs à Bayonne : le festival Koruak ouvre ses voix à tous gratuitement 🎤",
+      "image": null
+    },
+    {
+      "channel": "threads",
+      "at": "2026-10-16T06:33:41.257Z",
+      "titre": "Festival Koruak : 25 chœurs chantent gratuitement à Bayonne",
+      "lien": "https://passion-aquitaine.ouest-france.fr/festival-koruak-2026-bayonne-choeurs/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/Dei5SEdHN8l",
+      "format": "reponse",
+      "texte": "Imaginez les rues de Bayonne portées par des voix de toutes parts. Le 24 octobre, le festival Koruak réunit 25 chœurs, à écouter gratuitement. Le festival, lui, fait chanter la ville du 18 octobre au 1er novembre 🎙️\n@bayonnemaville",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261016-b570ee70-th.jpg"
+    },
+    {
+      "channel": "instagram",
+      "at": "2026-10-16T06:28:26.144Z",
+      "titre": "Festival Koruak : 25 chœurs chantent gratuitement à Bayonne",
+      "lien": "https://passion-aquitaine.ouest-france.fr/festival-koruak-2026-bayonne-choeurs/",
+      "lienPost": "https://www.instagram.com/p/Dei48TpjXWT/",
+      "format": null,
+      "texte": "🎶 Une ville entière qui chante : 25 chœurs se succèdent à Bayonne, et c’est gratuit\n⠀\nLe 24 octobre, le festival Koruak offre une journée de chant choral au cœur du Pays basque. Le festival se poursuit jusqu’au 1er novembre.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bayonne #ChantChoral #PaysBasque",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261016-b570ee70-1.jpg"
+    },
+    {
+      "channel": "bluesky",
+      "at": "2026-10-16T06:24:44.643Z",
+      "titre": "Festival Koruak : 25 chœurs chantent gratuitement à Bayonne",
+      "lien": "https://passion-aquitaine.ouest-france.fr/festival-koruak-2026-bayonne-choeurs/",
+      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mxxww7ij5r2x",
+      "format": "image",
+      "texte": "Le festival Koruak s’étend sur deux semaines à #Bayonne, mais une date se détache : 🎼 le 24 octobre, 25 chœurs s’y produisent gratuitement. Le #chant choral occupe la ville jusqu’au 1er novembre.\n➡️ Lire l’article",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261016-b570ee70-bsky.jpg"
+    },
+    {
+      "channel": "x",
+      "at": "2026-10-16T06:20:42.752Z",
+      "titre": "Festival Koruak : 25 chœurs chantent gratuitement à Bayonne",
+      "lien": "https://passion-aquitaine.ouest-france.fr/festival-koruak-2026-bayonne-choeurs/",
+      "lienPost": null,
+      "format": "reponse",
+      "texte": "🗣️ 25 chœurs dans une même ville, le même jour, sans payer ? C’est le programme du festival Koruak à #Bayonne le 24 octobre, au sein d’un festival qui court jusqu’au 1er novembre.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261016-b570ee70-x.jpg"
+    },
     {
       "channel": "facebook",
       "at": "2026-10-15T19:26:43.800Z",
@@ -503,105 +553,9 @@
       "format": "reponse",
       "texte": "Une algue verte cachée dans une part de lasagnes 🍝 À #Bordeaux, Edonia transforme la spiruline en ingrédient protéiné pensé pour s’intégrer à nos plats.",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261015-b69932c1-x.jpg"
-    },
-    {
-      "channel": "threads",
-      "at": "2026-10-15T09:27:59.303Z",
-      "titre": "Cette micro algue pourrait finir dans vos lasagnes ou vos gâteaux : le pari bordelais",
-      "lien": "https://passion-aquitaine.ouest-france.fr/spiruline-alimentation-edonia-bordeaux/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/DegoRWwFvob",
-      "format": "reponse",
-      "texte": "🦠 La spiruline, on la connaît surtout en poudre ou en gélules. Mais à Bordeaux, la start-up Edonia veut la faire entrer dans nos plats : elle la transforme en ingrédient protéiné capable de se glisser dans des lasagnes ou des gâteaux. Vous seriez tentés d’y goûter ?\n@villedebordeaux",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261015-b69932c1-th.jpg"
-    },
-    {
-      "channel": "x",
-      "at": "2026-10-15T08:01:01.969Z",
-      "titre": "Activités en famille en Corrèze : de Néandertal au labyrinthe",
-      "lien": "https://passion-aquitaine.ouest-france.fr/activites-famille-correze-neandertal-labyrinthe/",
-      "lienPost": null,
-      "format": "reponse",
-      "texte": "En Corrèze, une sortie en famille peut mener à 🕳️ 20 m sous terre, au fond d’un gouffre. Néandertal et un labyrinthe de 5 000 m² complètent cinq idées inattendues.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261015-47e5964e-x.jpg"
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-10-15T07:29:22.141Z",
-      "titre": "Activités en famille en Corrèze : de Néandertal au labyrinthe",
-      "lien": "https://passion-aquitaine.ouest-france.fr/activites-famille-correze-neandertal-labyrinthe/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1752854613507086",
-      "format": null,
-      "texte": "En Corrèze, les enfants peuvent se perdre dans un labyrinthe de 5 000 m² puis croiser un Néandertal 🌽",
-      "image": null
-    },
-    {
-      "channel": "bluesky",
-      "at": "2026-10-15T07:14:04.515Z",
-      "titre": "Activités en famille en Corrèze : de Néandertal au labyrinthe",
-      "lien": "https://passion-aquitaine.ouest-france.fr/activites-famille-correze-neandertal-labyrinthe/",
-      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mxvj7itse52u",
-      "format": "card",
-      "texte": "🦴 Un Néandertal, un gouffre à 20 m sous terre et un labyrinthe de 5 000 m² : la #Corrèze cache des sorties familiales bien plus surprenantes qu’on ne l’imagine. Cinq idées pour changer des balades habituelles.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261015-47e5964e-bsky.jpg"
-    },
-    {
-      "channel": "threads",
-      "at": "2026-10-15T06:31:53.578Z",
-      "titre": "Activités en famille en Corrèze : de Néandertal au labyrinthe",
-      "lien": "https://passion-aquitaine.ouest-france.fr/activites-famille-correze-neandertal-labyrinthe/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/DegULRrHLwb",
-      "format": "reponse",
-      "texte": "Cinq sorties en famille pour sortir des sentiers battus en Corrèze 🧭 Au programme, un gouffre où l’on descend à 20 m sous terre, une rencontre avec Néandertal et un labyrinthe de 5 000 m² où se perdre avec les enfants. De quoi remplir un week-end ou des vacances sans s’ennuyer.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261015-47e5964e-th.jpg"
     }
   ],
-  "file": [
-    {
-      "channel": "x",
-      "dueAt": "2026-10-16T06:20:00.000Z",
-      "prochainPassage": "2026-10-16T06:20:00.000Z",
-      "nature": "actu_chaude",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Festival Koruak : 25 chœurs chantent gratuitement à Bayonne"
-    },
-    {
-      "channel": "bluesky",
-      "dueAt": "2026-10-16T06:24:42.892Z",
-      "prochainPassage": "2026-10-16T07:00:00.000Z",
-      "nature": "actu_chaude",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Festival Koruak : 25 chœurs chantent gratuitement à Bayonne"
-    },
-    {
-      "channel": "instagram",
-      "dueAt": "2026-10-16T06:27:58.158Z",
-      "prochainPassage": "2026-10-16T07:00:00.000Z",
-      "nature": "actu_chaude",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Festival Koruak : 25 chœurs chantent gratuitement à Bayonne"
-    },
-    {
-      "channel": "threads",
-      "dueAt": "2026-10-16T06:31:08.780Z",
-      "prochainPassage": "2026-10-16T07:00:00.000Z",
-      "nature": "actu_chaude",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Festival Koruak : 25 chœurs chantent gratuitement à Bayonne"
-    },
-    {
-      "channel": "facebook",
-      "dueAt": "2026-10-16T06:34:37.771Z",
-      "prochainPassage": "2026-10-16T07:00:00.000Z",
-      "nature": "actu_chaude",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Festival Koruak : 25 chœurs chantent gratuitement à Bayonne"
-    }
-  ],
+  "file": [],
   "alertes": [],
   "mesures": {
     "releves": 292,
@@ -722,7 +676,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-16T06:01:36.369Z",
+    "genereLe": "2026-10-16T06:34:53.166Z",
     "posts": 80,
     "parReseau": {
       "instagram": {
@@ -884,11 +838,11 @@
       }
     },
     "publies": {
-      "threads": 22,
-      "facebook": 22,
-      "bluesky": 22,
-      "x": 22,
-      "instagram": 22
+      "threads": 23,
+      "facebook": 23,
+      "bluesky": 23,
+      "x": 23,
+      "instagram": 23
     },
     "abonnes": {
       "instagram": {

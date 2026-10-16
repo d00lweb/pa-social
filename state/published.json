@@ -3838,5 +3838,95 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=29086",
+    "channel": "x",
+    "at": "2026-10-16T06:20:42.752Z",
+    "mediaId": "kit-telegram",
+    "titre": "Festival Koruak : 25 chœurs chantent gratuitement à Bayonne",
+    "lien": "https://passion-aquitaine.ouest-france.fr/festival-koruak-2026-bayonne-choeurs/",
+    "lienPost": null,
+    "format": "reponse",
+    "mention": true,
+    "apercu": {
+      "texte": "🗣️ 25 chœurs dans une même ville, le même jour, sans payer ? C’est le programme du festival Koruak à #Bayonne le 24 octobre, au sein d’un festival qui court jusqu’au 1er novembre.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261016-b570ee70-x.jpg",
+      "mode": "reponse",
+      "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/festival-koruak-2026-bayonne-choeurs/",
+      "sujet": null
+    }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=29086",
+    "channel": "bluesky",
+    "at": "2026-10-16T06:24:44.643Z",
+    "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mxxww7ij5r2x",
+    "titre": "Festival Koruak : 25 chœurs chantent gratuitement à Bayonne",
+    "lien": "https://passion-aquitaine.ouest-france.fr/festival-koruak-2026-bayonne-choeurs/",
+    "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mxxww7ij5r2x",
+    "format": "image",
+    "mention": false,
+    "apercu": {
+      "texte": "Le festival Koruak s’étend sur deux semaines à #Bayonne, mais une date se détache : 🎼 le 24 octobre, 25 chœurs s’y produisent gratuitement. Le #chant choral occupe la ville jusqu’au 1er novembre.\n➡️ Lire l’article",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261016-b570ee70-bsky.jpg",
+      "mode": "image",
+      "reponse": null,
+      "sujet": null
+    }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=29086",
+    "channel": "instagram",
+    "at": "2026-10-16T06:28:26.144Z",
+    "mediaId": "18118738660808329",
+    "titre": "Festival Koruak : 25 chœurs chantent gratuitement à Bayonne",
+    "lien": "https://passion-aquitaine.ouest-france.fr/festival-koruak-2026-bayonne-choeurs/",
+    "lienPost": "https://www.instagram.com/p/Dei48TpjXWT/",
+    "format": null,
+    "mention": true,
+    "apercu": {
+      "texte": "🎶 Une ville entière qui chante : 25 chœurs se succèdent à Bayonne, et c’est gratuit\n⠀\nLe 24 octobre, le festival Koruak offre une journée de chant choral au cœur du Pays basque. Le festival se poursuit jusqu’au 1er novembre.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bayonne #ChantChoral #PaysBasque",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261016-b570ee70-1.jpg",
+      "mode": null,
+      "reponse": null,
+      "sujet": null
+    }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=29086",
+    "channel": "threads",
+    "at": "2026-10-16T06:33:41.257Z",
+    "mediaId": "18335133547278448",
+    "titre": "Festival Koruak : 25 chœurs chantent gratuitement à Bayonne",
+    "lien": "https://passion-aquitaine.ouest-france.fr/festival-koruak-2026-bayonne-choeurs/",
+    "lienPost": "https://www.threads.com/@lovaquitaine/post/Dei5SEdHN8l",
+    "format": "reponse",
+    "mention": true,
+    "apercu": {
+      "texte": "Imaginez les rues de Bayonne portées par des voix de toutes parts. Le 24 octobre, le festival Koruak réunit 25 chœurs, à écouter gratuitement. Le festival, lui, fait chanter la ville du 18 octobre au 1er novembre 🎙️\n@bayonnemaville",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261016-b570ee70-th.jpg",
+      "mode": "reponse",
+      "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/festival-koruak-2026-bayonne-choeurs/",
+      "sujet": "Bayonne"
+    }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=29086",
+    "channel": "facebook",
+    "at": "2026-10-16T06:34:46.586Z",
+    "mediaId": "227437307428711_1753899483402599",
+    "titre": "Festival Koruak : 25 chœurs chantent gratuitement à Bayonne",
+    "lien": "https://passion-aquitaine.ouest-france.fr/festival-koruak-2026-bayonne-choeurs/",
+    "lienPost": "https://www.facebook.com/1720946116697936/posts/1753899483402599",
+    "format": null,
+    "mention": false,
+    "apercu": {
+      "texte": "Pas besoin de billet pour écouter 25 chœurs à Bayonne : le festival Koruak ouvre ses voix à tous gratuitement 🎤",
+      "image": null,
+      "mode": null,
+      "reponse": null,
+      "sujet": null
+    }
   }
 ]

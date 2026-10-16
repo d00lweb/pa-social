@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-16T07:20:40.064Z",
+  "genereLe": "2026-10-16T08:00:42.992Z",
   "jour": "2026-10-16",
   "reseaux": {
     "instagram": {
@@ -61,7 +61,7 @@
         "reply"
       ],
       "aujourdhui": 1,
-      "semaine": 14,
+      "semaine": 13,
       "total": 46,
       "dernier": "2026-10-16T06:24:44.643Z",
       "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mxxww7ij5r2x"
@@ -89,7 +89,7 @@
       },
       "formats": null,
       "aujourdhui": 1,
-      "semaine": 14,
+      "semaine": 13,
       "total": 43,
       "dernier": "2026-10-16T06:34:46.586Z",
       "lienDernier": "https://www.facebook.com/1720946116697936/posts/1753899483402599"
@@ -558,18 +558,18 @@
   "file": [],
   "alertes": [],
   "mesures": {
-    "releves": 295,
+    "releves": 298,
     "parReseau": {
       "instagram": {
         "posts": 34,
         "interactionsMoyennes": 14.3
       },
       "bluesky": {
-        "posts": 32,
+        "posts": 33,
         "interactionsMoyennes": 0.1
       },
       "facebook": {
-        "posts": 29,
+        "posts": 30,
         "interactionsMoyennes": 0
       },
       "threads": {
@@ -637,7 +637,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-16T07:00:36.500Z"
+    "derniere": "2026-10-16T08:00:42.992Z"
   },
   "abonnes": {
     "instagram": {
@@ -676,8 +676,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-16T07:20:43.966Z",
-    "posts": 82,
+    "genereLe": "2026-10-16T08:00:48.880Z",
+    "posts": 83,
     "parReseau": {
       "instagram": {
         "posts": 20,
@@ -692,7 +692,7 @@
         "moyenne": 0.4
       },
       "facebook": {
-        "posts": 20,
+        "posts": 21,
         "moyenne": 0
       }
     },
@@ -728,7 +728,7 @@
         "moyenne": 1.9
       },
       "matin": {
-        "posts": 49,
+        "posts": 50,
         "moyenne": 1.6
       }
     },
@@ -749,7 +749,7 @@
       },
       "facebook": {
         "8 h – 9 h 30": {
-          "posts": 14,
+          "posts": 15,
           "moyenne": 0
         },
         "20 h – 21 h 30": {
@@ -809,11 +809,11 @@
     },
     "moinsBon": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=28331",
-      "channel": "bluesky",
-      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mxvj7itse52u",
-      "publieLe": "2026-10-15T07:14:04.515Z",
+      "channel": "facebook",
+      "mediaId": "227437307428711_1752854613507086",
+      "publieLe": "2026-10-15T07:29:22.141Z",
       "jalon": 1,
-      "releveLe": "2026-10-16T07:20:40.064Z",
+      "releveLe": "2026-10-16T08:00:42.992Z",
       "likes": 0,
       "commentairesBruts": 0,
       "partages": 0,
@@ -821,8 +821,8 @@
       "commentaires": 0,
       "v": 2,
       "titre": "Activités en famille en Corrèze : de Néandertal au labyrinthe",
-      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mxvj7itse52u",
-      "format": "card",
+      "lien": "https://www.facebook.com/1720946116697936/posts/1752854613507086",
+      "format": null,
       "mention": false,
       "creneau": "matin",
       "creneauReseau": "8 h – 9 h 30"
@@ -833,7 +833,7 @@
         "moyenne": 5.7
       },
       "sans": {
-        "posts": 45,
+        "posts": 46,
         "moyenne": 0.6
       }
     },

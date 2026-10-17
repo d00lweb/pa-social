@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-17T10:20:41.836Z",
+  "genereLe": "2026-10-17T11:00:38.821Z",
   "jour": "2026-10-17",
   "reseaux": {
     "instagram": {
@@ -61,7 +61,7 @@
         "reply"
       ],
       "aujourdhui": 1,
-      "semaine": 11,
+      "semaine": 10,
       "total": 47,
       "dernier": "2026-10-17T07:08:20.195Z",
       "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3my2jt3fvli2r"
@@ -558,14 +558,14 @@
   "file": [],
   "alertes": [],
   "mesures": {
-    "releves": 319,
+    "releves": 320,
     "parReseau": {
       "instagram": {
         "posts": 37,
         "interactionsMoyennes": 13.5
       },
       "bluesky": {
-        "posts": 36,
+        "posts": 37,
         "interactionsMoyennes": 0.2
       },
       "facebook": {
@@ -676,7 +676,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-17T10:30:57.327Z",
+    "genereLe": "2026-10-17T11:00:43.702Z",
     "posts": 92,
     "parReseau": {
       "instagram": {

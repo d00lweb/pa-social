@@ -1,12 +1,12 @@
 {
   "2026-10": {
     "cle": "2026-10",
-    "publications": 119,
+    "publications": 120,
     "articles": 24,
-    "interactions": 253,
+    "interactions": 255,
     "parReseau": {
       "facebook": 24,
-      "instagram": 23,
+      "instagram": 24,
       "x": 24,
       "threads": 24,
       "bluesky": 24
@@ -41,17 +41,17 @@
         "interactions": 8
       },
       {
+        "reseau": "instagram",
+        "titre": "Fouilles à la dune du Pilat, un vestige de 2 500 ans ressurgit",
+        "lien": "https://www.instagram.com/p/DeT010pDA3R/",
+        "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-7fe1d4e9-1-vignette.jpg",
+        "interactions": 7
+      },
+      {
         "reseau": "threads",
         "titre": "Fouilles à la dune du Pilat, un vestige de 2 500 ans ressurgit",
         "lien": "https://www.threads.com/@lovaquitaine/post/DeRaJ-jlY-S",
         "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-7fe1d4e9-1-vignette.jpg",
-        "interactions": 6
-      },
-      {
-        "reseau": "instagram",
-        "titre": "Elle parcourt les vergers sans GPS : cette machine du Lot-et-Garonne sait où aller",
-        "lien": "https://www.instagram.com/p/DeWhjrWGD3e/",
-        "image": "https://passion-aquitaine.ouest-france.fr/social/20261010-c29a0140-1-vignette.jpg",
         "interactions": 6
       }
     ]

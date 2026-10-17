@@ -3982,5 +3982,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35803",
+    "channel": "x",
+    "at": "2026-10-17T08:20:51.794Z",
+    "mediaId": "kit-telegram",
+    "titre": "Lanternes des morts : à quoi servaient ces tours de cimetière ?",
+    "lien": "https://passion-aquitaine.ouest-france.fr/lanternes-morts-cellefrouin-mystere-cimetiere/",
+    "lienPost": null,
+    "format": "reponse",
+    "mention": false,
+    "apercu": {
+      "texte": "12 mètres de pierre et une lampe au sommet : à #Cellefrouin, en Charente, la lanterne des morts veille sur le cimetière depuis le XIIe siècle, sans livrer son secret 🏰",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261017-cb195e32-x.jpg",
+      "mode": "reponse",
+      "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/lanternes-morts-cellefrouin-mystere-cimetiere/",
+      "sujet": null
+    }
   }
 ]

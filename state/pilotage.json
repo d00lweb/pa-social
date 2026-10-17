@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-17T08:00:43.072Z",
+  "genereLe": "2026-10-17T08:20:43.170Z",
   "jour": "2026-10-17",
   "reseaux": {
     "instagram": {
@@ -156,10 +156,10 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
+      "aujourdhui": 1,
       "semaine": 11,
-      "total": 46,
-      "dernier": "2026-10-16T06:20:42.752Z",
+      "total": 47,
+      "dernier": "2026-10-17T08:20:51.794Z",
       "lienDernier": null
     }
   },
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35803",
       "titre": "Lanternes des morts : à quoi servaient ces tours de cimetière ?",
       "lien": "https://passion-aquitaine.ouest-france.fr/lanternes-morts-cellefrouin-mystere-cimetiere/",
-      "at": "2026-10-17T07:08:20.195Z",
+      "at": "2026-10-17T08:20:51.794Z",
       "reseaux": {
         "threads": {
           "texte": "Pourquoi allumer une lampe au sommet d’une tour, au milieu d’un cimetière ? À Cellefrouin, en Charente, 🏛️ une lanterne des morts de 12 mètres se dresse depuis le XIIe siècle. Son usage reste une énigme. Vous en aviez déjà croisé une ?",
@@ -193,6 +193,14 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-10-17T07:08:20.195Z"
+        },
+        "x": {
+          "texte": "12 mètres de pierre et une lampe au sommet : à #Cellefrouin, en Charente, la lanterne des morts veille sur le cimetière depuis le XIIe siècle, sans livrer son secret 🏰",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261017-cb195e32-x.jpg",
+          "mode": "reponse",
+          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/lanternes-morts-cellefrouin-mystere-cimetiere/",
+          "sujet": null,
+          "publieLe": "2026-10-17T08:20:51.794Z"
         }
       }
     },
@@ -439,6 +447,16 @@
   ],
   "publications": [
     {
+      "channel": "x",
+      "at": "2026-10-17T08:20:51.794Z",
+      "titre": "Lanternes des morts : à quoi servaient ces tours de cimetière ?",
+      "lien": "https://passion-aquitaine.ouest-france.fr/lanternes-morts-cellefrouin-mystere-cimetiere/",
+      "lienPost": null,
+      "format": "reponse",
+      "texte": "12 mètres de pierre et une lampe au sommet : à #Cellefrouin, en Charente, la lanterne des morts veille sur le cimetière depuis le XIIe siècle, sans livrer son secret 🏰",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261017-cb195e32-x.jpg"
+    },
+    {
       "channel": "bluesky",
       "at": "2026-10-17T07:08:20.195Z",
       "titre": "Lanternes des morts : à quoi servaient ces tours de cimetière ?",
@@ -527,28 +545,9 @@
       "format": null,
       "texte": "Des lasagnes ou un gâteau enrichis à l’algue verte, vous seriez prêts à goûter ce que prépare une start-up bordelaise 🍰",
       "image": null
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-10-15T17:06:40.175Z",
-      "titre": "Cette micro algue pourrait finir dans vos lasagnes ou vos gâteaux : le pari bordelais",
-      "lien": "https://passion-aquitaine.ouest-france.fr/spiruline-alimentation-edonia-bordeaux/",
-      "lienPost": "https://www.instagram.com/p/DehdLyAmP9Z/",
-      "format": null,
-      "texte": "À Bordeaux, une start-up mise sur la spiruline pour enrichir nos assiettes 🌿\n⠀\nEdonia transforme cette micro algue en ingrédient protéiné capable de se fondre dans des lasagnes ou des gâteaux. Un pari gourmand et innovant venu de Gironde.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #Spiruline #Gastronomie",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261015-b69932c1-1.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "x",
-      "dueAt": "2026-10-17T08:20:00.000Z",
-      "prochainPassage": "2026-10-17T08:20:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Lanternes des morts : à quoi servaient ces tours de cimetière ?"
-    },
     {
       "channel": "instagram",
       "dueAt": "2026-10-17T10:30:17.398Z",
@@ -679,7 +678,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-17T08:00:46.982Z",
+    "genereLe": "2026-10-17T08:20:59.401Z",
     "posts": 92,
     "parReseau": {
       "instagram": {
@@ -844,7 +843,7 @@
       "threads": 24,
       "facebook": 24,
       "bluesky": 24,
-      "x": 23,
+      "x": 24,
       "instagram": 23
     },
     "abonnes": {

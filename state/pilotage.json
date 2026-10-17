@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-17T06:20:36.185Z",
+  "genereLe": "2026-10-17T07:00:40.370Z",
   "jour": "2026-10-17",
   "reseaux": {
     "instagram": {
@@ -60,11 +60,11 @@
         "image",
         "reply"
       ],
-      "aujourdhui": 0,
-      "semaine": 11,
-      "total": 46,
-      "dernier": "2026-10-16T06:24:44.643Z",
-      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mxxww7ij5r2x"
+      "aujourdhui": 1,
+      "semaine": 12,
+      "total": 47,
+      "dernier": "2026-10-17T07:08:20.195Z",
+      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3my2jt3fvli2r"
     },
     "facebook": {
       "actif": true,
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 11,
-      "total": 43,
-      "dernier": "2026-10-16T06:34:46.586Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1753899483402599"
+      "aujourdhui": 1,
+      "semaine": 12,
+      "total": 44,
+      "dernier": "2026-10-17T07:03:08.973Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1754996289959585"
     },
     "threads": {
       "actif": true,
@@ -123,7 +123,7 @@
         "reponse"
       ],
       "aujourdhui": 1,
-      "semaine": 12,
+      "semaine": 11,
       "total": 44,
       "dernier": "2026-10-17T06:28:08.406Z",
       "lienDernier": "https://www.threads.com/@lovaquitaine/post/DeldXl9ltVl"
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35803",
       "titre": "Lanternes des morts : à quoi servaient ces tours de cimetière ?",
       "lien": "https://passion-aquitaine.ouest-france.fr/lanternes-morts-cellefrouin-mystere-cimetiere/",
-      "at": "2026-10-17T06:28:08.406Z",
+      "at": "2026-10-17T07:08:20.195Z",
       "reseaux": {
         "threads": {
           "texte": "Pourquoi allumer une lampe au sommet d’une tour, au milieu d’un cimetière ? À Cellefrouin, en Charente, 🏛️ une lanterne des morts de 12 mètres se dresse depuis le XIIe siècle. Son usage reste une énigme. Vous en aviez déjà croisé une ?",
@@ -177,6 +177,22 @@
           "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/lanternes-morts-cellefrouin-mystere-cimetiere/",
           "sujet": "Cellefrouin",
           "publieLe": "2026-10-17T06:28:08.406Z"
+        },
+        "facebook": {
+          "texte": "Tout en haut de cette colonne de cimetière, haute de 12 mètres, brûlait autrefois une lampe dont on ignore encore le vrai rôle 🕯️",
+          "image": null,
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-17T07:03:08.973Z"
+        },
+        "bluesky": {
+          "texte": "Imaginez une flamme perchée à 12 mètres au-dessus des tombes 🔦 En #Charente, à #Cellefrouin, cette lanterne des morts se dresse depuis le XIIe siècle et garde toujours son secret.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261017-cb195e32-bsky.jpg",
+          "mode": "card",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-17T07:08:20.195Z"
         }
       }
     },
@@ -423,6 +439,26 @@
   ],
   "publications": [
     {
+      "channel": "bluesky",
+      "at": "2026-10-17T07:08:20.195Z",
+      "titre": "Lanternes des morts : à quoi servaient ces tours de cimetière ?",
+      "lien": "https://passion-aquitaine.ouest-france.fr/lanternes-morts-cellefrouin-mystere-cimetiere/",
+      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3my2jt3fvli2r",
+      "format": "card",
+      "texte": "Imaginez une flamme perchée à 12 mètres au-dessus des tombes 🔦 En #Charente, à #Cellefrouin, cette lanterne des morts se dresse depuis le XIIe siècle et garde toujours son secret.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261017-cb195e32-bsky.jpg"
+    },
+    {
+      "channel": "facebook",
+      "at": "2026-10-17T07:03:08.973Z",
+      "titre": "Lanternes des morts : à quoi servaient ces tours de cimetière ?",
+      "lien": "https://passion-aquitaine.ouest-france.fr/lanternes-morts-cellefrouin-mystere-cimetiere/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1754996289959585",
+      "format": null,
+      "texte": "Tout en haut de cette colonne de cimetière, haute de 12 mètres, brûlait autrefois une lampe dont on ignore encore le vrai rôle 🕯️",
+      "image": null
+    },
+    {
       "channel": "threads",
       "at": "2026-10-17T06:28:08.406Z",
       "titre": "Lanternes des morts : à quoi servaient ces tours de cimetière ?",
@@ -501,47 +537,9 @@
       "format": null,
       "texte": "À Bordeaux, une start-up mise sur la spiruline pour enrichir nos assiettes 🌿\n⠀\nEdonia transforme cette micro algue en ingrédient protéiné capable de se fondre dans des lasagnes ou des gâteaux. Un pari gourmand et innovant venu de Gironde.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #Spiruline #Gastronomie",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261015-b69932c1-1.jpg"
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-10-15T11:26:56.496Z",
-      "titre": "Activités en famille en Corrèze : de Néandertal au labyrinthe",
-      "lien": "https://passion-aquitaine.ouest-france.fr/activites-famille-correze-neandertal-labyrinthe/",
-      "lienPost": "https://www.instagram.com/p/Deg2TxGoGxq/",
-      "format": null,
-      "texte": "Descendre à 🕳️ 20 m sous terre en famille, c’est possible en Corrèze\n⠀\nUn gouffre, un Néandertal et un labyrinthe de 5 000 m² : cinq sorties inattendues pour occuper petits et grands le temps d’un week-end ou des vacances.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Correze #SortieEnFamille #Prehistoire",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261015-47e5964e-1.jpg"
-    },
-    {
-      "channel": "bluesky",
-      "at": "2026-10-15T10:24:19.323Z",
-      "titre": "Cette micro algue pourrait finir dans vos lasagnes ou vos gâteaux : le pari bordelais",
-      "lien": "https://passion-aquitaine.ouest-france.fr/spiruline-alimentation-edonia-bordeaux/",
-      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mxvttojrym2x",
-      "format": "reply",
-      "texte": "Plus de protéines sans changer vos recettes favorites : à #Bordeaux, la start-up Edonia transforme la spiruline en ingrédient qui s’intègre dans des plats du quotidien 🥗\n@villedebordeaux.bsky.social",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261015-b69932c1-bsky.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "facebook",
-      "dueAt": "2026-10-17T07:03:01.310Z",
-      "prochainPassage": "2026-10-17T07:20:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Lanternes des morts : à quoi servaient ces tours de cimetière ?"
-    },
-    {
-      "channel": "bluesky",
-      "dueAt": "2026-10-17T07:08:17.862Z",
-      "prochainPassage": "2026-10-17T07:20:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Lanternes des morts : à quoi servaient ces tours de cimetière ?"
-    },
     {
       "channel": "x",
       "dueAt": "2026-10-17T08:20:00.000Z",
@@ -563,7 +561,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 311,
+    "releves": 316,
     "parReseau": {
       "instagram": {
         "posts": 36,
@@ -578,8 +576,8 @@
         "interactionsMoyennes": 0
       },
       "threads": {
-        "posts": 32,
-        "interactionsMoyennes": 6
+        "posts": 33,
+        "interactionsMoyennes": 5.8
       }
     }
   },
@@ -642,7 +640,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-17T06:00:38.844Z"
+    "derniere": "2026-10-17T07:00:40.370Z"
   },
   "abonnes": {
     "instagram": {
@@ -681,30 +679,30 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-17T06:28:11.613Z",
-    "posts": 88,
+    "genereLe": "2026-10-17T07:08:29.811Z",
+    "posts": 92,
     "parReseau": {
       "instagram": {
-        "posts": 22,
-        "moyenne": 7.2
+        "posts": 23,
+        "moyenne": 7.1
       },
       "threads": {
-        "posts": 22,
-        "moyenne": 3.7
+        "posts": 23,
+        "moyenne": 3.6
       },
       "bluesky": {
-        "posts": 22,
-        "moyenne": 0.4
+        "posts": 23,
+        "moyenne": 0.3
       },
       "facebook": {
-        "posts": 22,
+        "posts": 23,
         "moyenne": 0
       }
     },
     "parFormat": {
       "reponse": {
-        "posts": 20,
-        "moyenne": 4.1
+        "posts": 21,
+        "moyenne": 3.9
       },
       "reply": {
         "posts": 14,
@@ -715,7 +713,7 @@
         "moyenne": 0.3
       },
       "image": {
-        "posts": 6,
+        "posts": 7,
         "moyenne": 0
       },
       "lien": {
@@ -733,15 +731,15 @@
         "moyenne": 1.9
       },
       "matin": {
-        "posts": 51,
-        "moyenne": 1.6
+        "posts": 55,
+        "moyenne": 1.5
       }
     },
     "parCreneauReseau": {
       "threads": {
         "7 h – 8 h 30": {
-          "posts": 15,
-          "moyenne": 4.6
+          "posts": 16,
+          "moyenne": 4.3
         },
         "13 h – 14 h 30": {
           "posts": 2,
@@ -754,7 +752,7 @@
       },
       "facebook": {
         "8 h – 9 h 30": {
-          "posts": 15,
+          "posts": 16,
           "moyenne": 0
         },
         "20 h – 21 h 30": {
@@ -768,7 +766,7 @@
           "moyenne": 2.5
         },
         "8 h – 9 h 30": {
-          "posts": 15,
+          "posts": 16,
           "moyenne": 0.2
         },
         "12 h – 13 h 30": {
@@ -786,12 +784,12 @@
           "moyenne": 3.6
         },
         "hors créneau": {
-          "posts": 1,
-          "moyenne": 2
+          "posts": 2,
+          "moyenne": 3.5
         }
       }
     },
-    "interactionsTotal": 248,
+    "interactionsTotal": 253,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35575",
       "channel": "instagram",
@@ -813,39 +811,39 @@
       "creneauReseau": "12 h – 13 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35821",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=29086",
       "channel": "facebook",
-      "mediaId": "227437307428711_1753460690113145",
-      "publieLe": "2026-10-15T19:26:43.800Z",
+      "mediaId": "227437307428711_1753899483402599",
+      "publieLe": "2026-10-16T06:34:46.586Z",
       "jalon": 1,
-      "releveLe": "2026-10-16T20:00:37.245Z",
+      "releveLe": "2026-10-17T07:00:40.370Z",
       "likes": 0,
       "commentairesBruts": 0,
       "partages": 0,
       "vues": null,
       "commentaires": 0,
       "v": 2,
-      "titre": "Cette micro algue pourrait finir dans vos lasagnes ou vos gâteaux : le pari bordelais",
-      "lien": "https://www.facebook.com/1720946116697936/posts/1753460690113145",
+      "titre": "Festival Koruak : 25 chœurs chantent gratuitement à Bayonne",
+      "lien": "https://www.facebook.com/1720946116697936/posts/1753899483402599",
       "format": null,
       "mention": false,
-      "creneau": "soir",
-      "creneauReseau": "20 h – 21 h 30"
+      "creneau": "matin",
+      "creneauReseau": "8 h – 9 h 30"
     },
     "mentions": {
       "avec": {
-        "posts": 41,
-        "moyenne": 5.3
+        "posts": 43,
+        "moyenne": 5.2
       },
       "sans": {
-        "posts": 47,
+        "posts": 49,
         "moyenne": 0.6
       }
     },
     "publies": {
       "threads": 24,
-      "facebook": 23,
-      "bluesky": 23,
+      "facebook": 24,
+      "bluesky": 24,
       "x": 23,
       "instagram": 23
     },
@@ -886,13 +884,13 @@
     },
     "engagement": {
       "instagram": 0.07,
-      "threads": 0.32,
+      "threads": 0.31,
       "facebook": 0
     },
     "conseils": [
-      "Threads : le créneau 7 h – 8 h 30 fait 3,8 fois mieux que 10 h – 11 h 30 (4.6 contre 1.2 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
+      "Threads : le créneau 7 h – 8 h 30 fait 3,6 fois mieux que 10 h – 11 h 30 (4.3 contre 1.2 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Instagram : le créneau 12 h – 13 h 30 fait 2,6 fois mieux que 18 h – 19 h 30 (9.4 contre 3.6 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
-      "Le format « reponse » fait 41 fois mieux que « lien » (4.1 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « lien » de la rotation dans config/channels.json.",
+      "Le format « reponse » fait 39 fois mieux que « lien » (3.9 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « lien » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+2, +0,2 %) ; Facebook recule (−19), à surveiller."
     ]
   },

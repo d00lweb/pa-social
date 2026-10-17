@@ -3946,5 +3946,41 @@
       "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/lanternes-morts-cellefrouin-mystere-cimetiere/",
       "sujet": "Cellefrouin"
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35803",
+    "channel": "facebook",
+    "at": "2026-10-17T07:03:08.973Z",
+    "mediaId": "227437307428711_1754996289959585",
+    "titre": "Lanternes des morts : à quoi servaient ces tours de cimetière ?",
+    "lien": "https://passion-aquitaine.ouest-france.fr/lanternes-morts-cellefrouin-mystere-cimetiere/",
+    "lienPost": "https://www.facebook.com/1720946116697936/posts/1754996289959585",
+    "format": null,
+    "mention": false,
+    "apercu": {
+      "texte": "Tout en haut de cette colonne de cimetière, haute de 12 mètres, brûlait autrefois une lampe dont on ignore encore le vrai rôle 🕯️",
+      "image": null,
+      "mode": null,
+      "reponse": null,
+      "sujet": null
+    }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35803",
+    "channel": "bluesky",
+    "at": "2026-10-17T07:08:20.195Z",
+    "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3my2jt3fvli2r",
+    "titre": "Lanternes des morts : à quoi servaient ces tours de cimetière ?",
+    "lien": "https://passion-aquitaine.ouest-france.fr/lanternes-morts-cellefrouin-mystere-cimetiere/",
+    "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3my2jt3fvli2r",
+    "format": "card",
+    "mention": false,
+    "apercu": {
+      "texte": "Imaginez une flamme perchée à 12 mètres au-dessus des tombes 🔦 En #Charente, à #Cellefrouin, cette lanterne des morts se dresse depuis le XIIe siècle et garde toujours son secret.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261017-cb195e32-bsky.jpg",
+      "mode": "card",
+      "reponse": null,
+      "sujet": null
+    }
   }
 ]

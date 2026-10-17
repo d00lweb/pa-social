@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-17T05:20:35.720Z",
+  "genereLe": "2026-10-17T06:00:38.844Z",
   "jour": "2026-10-17",
   "reseaux": {
     "instagram": {
@@ -555,7 +555,53 @@
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261015-b69932c1-x.jpg"
     }
   ],
-  "file": [],
+  "file": [
+    {
+      "channel": "threads",
+      "dueAt": "2026-10-17T06:24:58.333Z",
+      "prochainPassage": "2026-10-17T07:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Lanternes des morts : à quoi servaient ces tours de cimetière ?"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-10-17T07:03:01.310Z",
+      "prochainPassage": "2026-10-17T07:20:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Lanternes des morts : à quoi servaient ces tours de cimetière ?"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-10-17T07:08:17.862Z",
+      "prochainPassage": "2026-10-17T07:20:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Lanternes des morts : à quoi servaient ces tours de cimetière ?"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-10-17T08:20:00.000Z",
+      "prochainPassage": "2026-10-17T08:20:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Lanternes des morts : à quoi servaient ces tours de cimetière ?"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-10-17T10:30:17.398Z",
+      "prochainPassage": "2026-10-17T11:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Lanternes des morts : à quoi servaient ces tours de cimetière ?"
+    }
+  ],
   "alertes": [],
   "mesures": {
     "releves": 310,
@@ -637,7 +683,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-17T04:20:46.013Z"
+    "derniere": "2026-10-17T06:00:38.844Z"
   },
   "abonnes": {
     "instagram": {
@@ -676,7 +722,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-17T05:20:39.313Z",
+    "genereLe": "2026-10-17T06:01:07.887Z",
     "posts": 88,
     "parReseau": {
       "instagram": {
@@ -893,29 +939,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 0,
-      "entree": 0,
-      "sortie": 0,
-      "cout": 0,
+      "appels": 1,
+      "entree": 7953,
+      "sortie": 834,
+      "cout": 0.048492,
       "cle": "2026-10-17"
     },
     "semaine": {
-      "appels": 18,
-      "entree": 144177,
-      "sortie": 17129,
-      "cout": 0.919288
+      "appels": 19,
+      "entree": 152130,
+      "sortie": 17963,
+      "cout": 0.96778
     },
     "mois": {
-      "appels": 42,
-      "entree": 331785,
-      "sortie": 40465,
-      "cout": 2.13644,
+      "appels": 43,
+      "entree": 339738,
+      "sortie": 41299,
+      "cout": 2.184932,
       "cle": "2026-10"
     },
-    "projection": 3.9,
-    "moyenneAppel": 0.0509,
+    "projection": 3.98,
+    "moyenneAppel": 0.0508,
     "parModele": {
-      "claude-opus-5-5": 42
+      "claude-opus-5-5": 43
     },
     "serie": [
       [
@@ -972,7 +1018,7 @@
       ],
       [
         "2026-10-17",
-        0
+        0.0485
       ]
     ],
     "depuis": "2026-09-23"

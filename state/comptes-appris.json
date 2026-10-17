@@ -881,5 +881,71 @@
     "instagram": [],
     "threads": [],
     "bluesky": []
+  },
+  "commune:mairie:cellefrouin": {
+    "v": 3,
+    "cherche": "2026-10-17T06:00:48.419Z",
+    "instagram": [],
+    "x": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "commune:tourisme:cellefrouin": {
+    "v": 3,
+    "cherche": "2026-10-17T06:00:48.419Z",
+    "instagram": [],
+    "x": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:cellefrouin:patrimoine": {
+    "v": 3,
+    "cherche": "2026-10-17T06:00:48.419Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:cellefrouin:histoire": {
+    "v": 3,
+    "cherche": "2026-10-17T06:00:48.419Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "territoire:charente:departementcharente,infinimentcharentes,charente_tourisme": {
+    "v": 3,
+    "cherche": "2026-10-17T06:00:48.419Z",
+    "conseil": {
+      "instagram": [
+        {
+          "handle": "departementcharente",
+          "nom": "Département de la Charente",
+          "abonnes": 5889,
+          "preuve": 3
+        }
+      ],
+      "threads": [],
+      "bluesky": [],
+      "x": []
+    },
+    "tourisme": {
+      "instagram": [
+        {
+          "handle": "infinimentcharentes",
+          "nom": "Infiniment Charentes",
+          "abonnes": 27748,
+          "preuve": 3
+        },
+        {
+          "handle": "charente_tourisme",
+          "nom": "Charente Tourisme",
+          "abonnes": 3198,
+          "preuve": 3
+        }
+      ],
+      "threads": [],
+      "bluesky": [],
+      "x": []
+    }
   }
 }

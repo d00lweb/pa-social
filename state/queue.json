@@ -1,1 +1,487 @@
-[]
+[
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35803",
+    "channel": "instagram",
+    "dueAt": 1792233017398,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Lanternes des morts : à quoi servaient ces tours de cimetière ?",
+      "link": "https://passion-aquitaine.ouest-france.fr/lanternes-morts-cellefrouin-mystere-cimetiere/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35803",
+      "pubDate": "Sat, 17 Oct 2026 05:30:15 +0000",
+      "date": 1792215015000,
+      "categories": [
+        "Charente",
+        "Culture & traditions"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/10/lanterne-cellefrouin.jpeg",
+      "description": "Une colonne de 12 mètres, une lampe au sommet : à Cellefrouin, la lanterne des morts garde son secret depuis le XIIe siècle."
+    },
+    "dossier": {
+      "nature": "evergreen",
+      "sensible": false,
+      "rubrique": "Charente",
+      "visuel": {
+        "titre": "Lanternes des morts : à quoi servaient ces tours de cimetière ?",
+        "surlignage": "Lanternes des morts",
+        "description": "À Cellefrouin, une colonne de 12 mètres coiffée d’une lampe veille depuis le XIIe siècle. Un monument rare, qui garde encore son secret.",
+        "texte_alternatif": "La lanterne des morts de Cellefrouin, en Charente, est une colonne de 12 mètres surmontée d’une lampe, élevée au XIIe siècle."
+      },
+      "entites": [],
+      "domaines": [
+        "patrimoine",
+        "histoire"
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "Une idée de balade insolite en Charente : la lanterne des morts de Cellefrouin, debout depuis le XIIe siècle\nUne colonne de 12 mètres, une lampe au sommet et un mystère jamais vraiment levé. De quoi regarder autrement ce patrimoine médiéval 🕯️",
+        "hashtags": [
+          "#Charente",
+          "#PatrimoineMedieval",
+          "#Histoire"
+        ]
+      },
+      "facebook": {
+        "texte": "Tout en haut de cette colonne de cimetière, haute de 12 mètres, brûlait autrefois une lampe dont on ignore encore le vrai rôle 🕯️"
+      },
+      "bluesky": {
+        "texte": "Imaginez une flamme perchée à 12 mètres au-dessus des tombes 🔦 En Charente, à Cellefrouin, cette lanterne des morts se dresse depuis le XIIe siècle et garde toujours son secret.",
+        "hashtag": "#Charente"
+      },
+      "threads": {
+        "texte": "Pourquoi allumer une lampe au sommet d’une tour, au milieu d’un cimetière ? À Cellefrouin, en Charente, 🏛️ une lanterne des morts de 12 mètres se dresse depuis le XIIe siècle. Son usage reste une énigme. Vous en aviez déjà croisé une ?",
+        "sujet": "Patrimoine"
+      },
+      "x": {
+        "texte": "12 mètres de pierre et une lampe au sommet : à Cellefrouin, en Charente, la lanterne des morts veille sur le cimetière depuis le XIIe siècle, sans livrer son secret 🏰"
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 7953,
+        "output": 834
+      },
+      "angles": {
+        "instagram": "bénéfice pour le lecteur",
+        "facebook": "détail méconnu",
+        "bluesky": "image évocatrice",
+        "threads": "question intrigante",
+        "x": "chiffre ou fait marquant en tête"
+      },
+      "lieuSource": {
+        "precis": "Lanterne des morts",
+        "ville": "Cellefrouin",
+        "departement": "Charente"
+      },
+      "lieuNom": "Lanterne des morts",
+      "commune": "Cellefrouin",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Charente Tourisme",
+            "handle": "charente_tourisme",
+            "abonnes": 3198,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35803",
+    "channel": "bluesky",
+    "dueAt": 1792220897862,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Lanternes des morts : à quoi servaient ces tours de cimetière ?",
+      "link": "https://passion-aquitaine.ouest-france.fr/lanternes-morts-cellefrouin-mystere-cimetiere/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35803",
+      "pubDate": "Sat, 17 Oct 2026 05:30:15 +0000",
+      "date": 1792215015000,
+      "categories": [
+        "Charente",
+        "Culture & traditions"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/10/lanterne-cellefrouin.jpeg",
+      "description": "Une colonne de 12 mètres, une lampe au sommet : à Cellefrouin, la lanterne des morts garde son secret depuis le XIIe siècle."
+    },
+    "dossier": {
+      "nature": "evergreen",
+      "sensible": false,
+      "rubrique": "Charente",
+      "visuel": {
+        "titre": "Lanternes des morts : à quoi servaient ces tours de cimetière ?",
+        "surlignage": "Lanternes des morts",
+        "description": "À Cellefrouin, une colonne de 12 mètres coiffée d’une lampe veille depuis le XIIe siècle. Un monument rare, qui garde encore son secret.",
+        "texte_alternatif": "La lanterne des morts de Cellefrouin, en Charente, est une colonne de 12 mètres surmontée d’une lampe, élevée au XIIe siècle."
+      },
+      "entites": [],
+      "domaines": [
+        "patrimoine",
+        "histoire"
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "Une idée de balade insolite en Charente : la lanterne des morts de Cellefrouin, debout depuis le XIIe siècle\nUne colonne de 12 mètres, une lampe au sommet et un mystère jamais vraiment levé. De quoi regarder autrement ce patrimoine médiéval 🕯️",
+        "hashtags": [
+          "#Charente",
+          "#PatrimoineMedieval",
+          "#Histoire"
+        ]
+      },
+      "facebook": {
+        "texte": "Tout en haut de cette colonne de cimetière, haute de 12 mètres, brûlait autrefois une lampe dont on ignore encore le vrai rôle 🕯️"
+      },
+      "bluesky": {
+        "texte": "Imaginez une flamme perchée à 12 mètres au-dessus des tombes 🔦 En Charente, à Cellefrouin, cette lanterne des morts se dresse depuis le XIIe siècle et garde toujours son secret.",
+        "hashtag": "#Charente"
+      },
+      "threads": {
+        "texte": "Pourquoi allumer une lampe au sommet d’une tour, au milieu d’un cimetière ? À Cellefrouin, en Charente, 🏛️ une lanterne des morts de 12 mètres se dresse depuis le XIIe siècle. Son usage reste une énigme. Vous en aviez déjà croisé une ?",
+        "sujet": "Patrimoine"
+      },
+      "x": {
+        "texte": "12 mètres de pierre et une lampe au sommet : à Cellefrouin, en Charente, la lanterne des morts veille sur le cimetière depuis le XIIe siècle, sans livrer son secret 🏰"
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 7953,
+        "output": 834
+      },
+      "angles": {
+        "instagram": "bénéfice pour le lecteur",
+        "facebook": "détail méconnu",
+        "bluesky": "image évocatrice",
+        "threads": "question intrigante",
+        "x": "chiffre ou fait marquant en tête"
+      },
+      "lieuSource": {
+        "precis": "Lanterne des morts",
+        "ville": "Cellefrouin",
+        "departement": "Charente"
+      },
+      "lieuNom": "Lanterne des morts",
+      "commune": "Cellefrouin",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Charente Tourisme",
+            "handle": "charente_tourisme",
+            "abonnes": 3198,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35803",
+    "channel": "facebook",
+    "dueAt": 1792220581310,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Lanternes des morts : à quoi servaient ces tours de cimetière ?",
+      "link": "https://passion-aquitaine.ouest-france.fr/lanternes-morts-cellefrouin-mystere-cimetiere/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35803",
+      "pubDate": "Sat, 17 Oct 2026 05:30:15 +0000",
+      "date": 1792215015000,
+      "categories": [
+        "Charente",
+        "Culture & traditions"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/10/lanterne-cellefrouin.jpeg",
+      "description": "Une colonne de 12 mètres, une lampe au sommet : à Cellefrouin, la lanterne des morts garde son secret depuis le XIIe siècle."
+    },
+    "dossier": {
+      "nature": "evergreen",
+      "sensible": false,
+      "rubrique": "Charente",
+      "visuel": {
+        "titre": "Lanternes des morts : à quoi servaient ces tours de cimetière ?",
+        "surlignage": "Lanternes des morts",
+        "description": "À Cellefrouin, une colonne de 12 mètres coiffée d’une lampe veille depuis le XIIe siècle. Un monument rare, qui garde encore son secret.",
+        "texte_alternatif": "La lanterne des morts de Cellefrouin, en Charente, est une colonne de 12 mètres surmontée d’une lampe, élevée au XIIe siècle."
+      },
+      "entites": [],
+      "domaines": [
+        "patrimoine",
+        "histoire"
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "Une idée de balade insolite en Charente : la lanterne des morts de Cellefrouin, debout depuis le XIIe siècle\nUne colonne de 12 mètres, une lampe au sommet et un mystère jamais vraiment levé. De quoi regarder autrement ce patrimoine médiéval 🕯️",
+        "hashtags": [
+          "#Charente",
+          "#PatrimoineMedieval",
+          "#Histoire"
+        ]
+      },
+      "facebook": {
+        "texte": "Tout en haut de cette colonne de cimetière, haute de 12 mètres, brûlait autrefois une lampe dont on ignore encore le vrai rôle 🕯️"
+      },
+      "bluesky": {
+        "texte": "Imaginez une flamme perchée à 12 mètres au-dessus des tombes 🔦 En Charente, à Cellefrouin, cette lanterne des morts se dresse depuis le XIIe siècle et garde toujours son secret.",
+        "hashtag": "#Charente"
+      },
+      "threads": {
+        "texte": "Pourquoi allumer une lampe au sommet d’une tour, au milieu d’un cimetière ? À Cellefrouin, en Charente, 🏛️ une lanterne des morts de 12 mètres se dresse depuis le XIIe siècle. Son usage reste une énigme. Vous en aviez déjà croisé une ?",
+        "sujet": "Patrimoine"
+      },
+      "x": {
+        "texte": "12 mètres de pierre et une lampe au sommet : à Cellefrouin, en Charente, la lanterne des morts veille sur le cimetière depuis le XIIe siècle, sans livrer son secret 🏰"
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 7953,
+        "output": 834
+      },
+      "angles": {
+        "instagram": "bénéfice pour le lecteur",
+        "facebook": "détail méconnu",
+        "bluesky": "image évocatrice",
+        "threads": "question intrigante",
+        "x": "chiffre ou fait marquant en tête"
+      },
+      "lieuSource": {
+        "precis": "Lanterne des morts",
+        "ville": "Cellefrouin",
+        "departement": "Charente"
+      },
+      "lieuNom": "Lanterne des morts",
+      "commune": "Cellefrouin",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Charente Tourisme",
+            "handle": "charente_tourisme",
+            "abonnes": 3198,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35803",
+    "channel": "threads",
+    "dueAt": 1792218298333,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Lanternes des morts : à quoi servaient ces tours de cimetière ?",
+      "link": "https://passion-aquitaine.ouest-france.fr/lanternes-morts-cellefrouin-mystere-cimetiere/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35803",
+      "pubDate": "Sat, 17 Oct 2026 05:30:15 +0000",
+      "date": 1792215015000,
+      "categories": [
+        "Charente",
+        "Culture & traditions"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/10/lanterne-cellefrouin.jpeg",
+      "description": "Une colonne de 12 mètres, une lampe au sommet : à Cellefrouin, la lanterne des morts garde son secret depuis le XIIe siècle."
+    },
+    "dossier": {
+      "nature": "evergreen",
+      "sensible": false,
+      "rubrique": "Charente",
+      "visuel": {
+        "titre": "Lanternes des morts : à quoi servaient ces tours de cimetière ?",
+        "surlignage": "Lanternes des morts",
+        "description": "À Cellefrouin, une colonne de 12 mètres coiffée d’une lampe veille depuis le XIIe siècle. Un monument rare, qui garde encore son secret.",
+        "texte_alternatif": "La lanterne des morts de Cellefrouin, en Charente, est une colonne de 12 mètres surmontée d’une lampe, élevée au XIIe siècle."
+      },
+      "entites": [],
+      "domaines": [
+        "patrimoine",
+        "histoire"
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "Une idée de balade insolite en Charente : la lanterne des morts de Cellefrouin, debout depuis le XIIe siècle\nUne colonne de 12 mètres, une lampe au sommet et un mystère jamais vraiment levé. De quoi regarder autrement ce patrimoine médiéval 🕯️",
+        "hashtags": [
+          "#Charente",
+          "#PatrimoineMedieval",
+          "#Histoire"
+        ]
+      },
+      "facebook": {
+        "texte": "Tout en haut de cette colonne de cimetière, haute de 12 mètres, brûlait autrefois une lampe dont on ignore encore le vrai rôle 🕯️"
+      },
+      "bluesky": {
+        "texte": "Imaginez une flamme perchée à 12 mètres au-dessus des tombes 🔦 En Charente, à Cellefrouin, cette lanterne des morts se dresse depuis le XIIe siècle et garde toujours son secret.",
+        "hashtag": "#Charente"
+      },
+      "threads": {
+        "texte": "Pourquoi allumer une lampe au sommet d’une tour, au milieu d’un cimetière ? À Cellefrouin, en Charente, 🏛️ une lanterne des morts de 12 mètres se dresse depuis le XIIe siècle. Son usage reste une énigme. Vous en aviez déjà croisé une ?",
+        "sujet": "Patrimoine"
+      },
+      "x": {
+        "texte": "12 mètres de pierre et une lampe au sommet : à Cellefrouin, en Charente, la lanterne des morts veille sur le cimetière depuis le XIIe siècle, sans livrer son secret 🏰"
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 7953,
+        "output": 834
+      },
+      "angles": {
+        "instagram": "bénéfice pour le lecteur",
+        "facebook": "détail méconnu",
+        "bluesky": "image évocatrice",
+        "threads": "question intrigante",
+        "x": "chiffre ou fait marquant en tête"
+      },
+      "lieuSource": {
+        "precis": "Lanterne des morts",
+        "ville": "Cellefrouin",
+        "departement": "Charente"
+      },
+      "lieuNom": "Lanterne des morts",
+      "commune": "Cellefrouin",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Charente Tourisme",
+            "handle": "charente_tourisme",
+            "abonnes": 3198,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35803",
+    "channel": "x",
+    "dueAt": 1792225200000,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Lanternes des morts : à quoi servaient ces tours de cimetière ?",
+      "link": "https://passion-aquitaine.ouest-france.fr/lanternes-morts-cellefrouin-mystere-cimetiere/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35803",
+      "pubDate": "Sat, 17 Oct 2026 05:30:15 +0000",
+      "date": 1792215015000,
+      "categories": [
+        "Charente",
+        "Culture & traditions"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/10/lanterne-cellefrouin.jpeg",
+      "description": "Une colonne de 12 mètres, une lampe au sommet : à Cellefrouin, la lanterne des morts garde son secret depuis le XIIe siècle."
+    },
+    "dossier": {
+      "nature": "evergreen",
+      "sensible": false,
+      "rubrique": "Charente",
+      "visuel": {
+        "titre": "Lanternes des morts : à quoi servaient ces tours de cimetière ?",
+        "surlignage": "Lanternes des morts",
+        "description": "À Cellefrouin, une colonne de 12 mètres coiffée d’une lampe veille depuis le XIIe siècle. Un monument rare, qui garde encore son secret.",
+        "texte_alternatif": "La lanterne des morts de Cellefrouin, en Charente, est une colonne de 12 mètres surmontée d’une lampe, élevée au XIIe siècle."
+      },
+      "entites": [],
+      "domaines": [
+        "patrimoine",
+        "histoire"
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "Une idée de balade insolite en Charente : la lanterne des morts de Cellefrouin, debout depuis le XIIe siècle\nUne colonne de 12 mètres, une lampe au sommet et un mystère jamais vraiment levé. De quoi regarder autrement ce patrimoine médiéval 🕯️",
+        "hashtags": [
+          "#Charente",
+          "#PatrimoineMedieval",
+          "#Histoire"
+        ]
+      },
+      "facebook": {
+        "texte": "Tout en haut de cette colonne de cimetière, haute de 12 mètres, brûlait autrefois une lampe dont on ignore encore le vrai rôle 🕯️"
+      },
+      "bluesky": {
+        "texte": "Imaginez une flamme perchée à 12 mètres au-dessus des tombes 🔦 En Charente, à Cellefrouin, cette lanterne des morts se dresse depuis le XIIe siècle et garde toujours son secret.",
+        "hashtag": "#Charente"
+      },
+      "threads": {
+        "texte": "Pourquoi allumer une lampe au sommet d’une tour, au milieu d’un cimetière ? À Cellefrouin, en Charente, 🏛️ une lanterne des morts de 12 mètres se dresse depuis le XIIe siècle. Son usage reste une énigme. Vous en aviez déjà croisé une ?",
+        "sujet": "Patrimoine"
+      },
+      "x": {
+        "texte": "12 mètres de pierre et une lampe au sommet : à Cellefrouin, en Charente, la lanterne des morts veille sur le cimetière depuis le XIIe siècle, sans livrer son secret 🏰"
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 7953,
+        "output": 834
+      },
+      "angles": {
+        "instagram": "bénéfice pour le lecteur",
+        "facebook": "détail méconnu",
+        "bluesky": "image évocatrice",
+        "threads": "question intrigante",
+        "x": "chiffre ou fait marquant en tête"
+      },
+      "lieuSource": {
+        "precis": "Lanterne des morts",
+        "ville": "Cellefrouin",
+        "departement": "Charente"
+      },
+      "lieuNom": "Lanterne des morts",
+      "commune": "Cellefrouin",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Charente Tourisme",
+            "handle": "charente_tourisme",
+            "abonnes": 3198,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  }
+]

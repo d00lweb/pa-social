@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-17T06:19:38.362Z",
+  "genereLe": "2026-10-17T06:20:36.185Z",
   "jour": "2026-10-17",
   "reseaux": {
     "instagram": {
@@ -122,11 +122,11 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 11,
-      "total": 43,
-      "dernier": "2026-10-16T06:33:41.257Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/Dei5SEdHN8l"
+      "aujourdhui": 1,
+      "semaine": 12,
+      "total": 44,
+      "dernier": "2026-10-17T06:28:08.406Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DeldXl9ltVl"
     },
     "x": {
       "actif": true,
@@ -164,6 +164,22 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35803",
+      "titre": "Lanternes des morts : à quoi servaient ces tours de cimetière ?",
+      "lien": "https://passion-aquitaine.ouest-france.fr/lanternes-morts-cellefrouin-mystere-cimetiere/",
+      "at": "2026-10-17T06:28:08.406Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Pourquoi allumer une lampe au sommet d’une tour, au milieu d’un cimetière ? À Cellefrouin, en Charente, 🏛️ une lanterne des morts de 12 mètres se dresse depuis le XIIe siècle. Son usage reste une énigme. Vous en aviez déjà croisé une ?",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261017-cb195e32-th.jpg",
+          "mode": "reponse",
+          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/lanternes-morts-cellefrouin-mystere-cimetiere/",
+          "sujet": "Cellefrouin",
+          "publieLe": "2026-10-17T06:28:08.406Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=29086",
       "titre": "Festival Koruak : 25 chœurs chantent gratuitement à Bayonne",
@@ -403,57 +419,19 @@
           "publieLe": "2026-10-13T19:11:26.079Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35384",
-      "titre": "Près de Bordeaux, on dort face à des tigres et des jaguars",
-      "lien": "https://passion-aquitaine.ouest-france.fr/dormir-zoo-bordeaux-pessac-lodges-fauves/",
-      "at": "2026-10-13T10:34:58.602Z",
-      "reseaux": {
-        "threads": {
-          "texte": "Trois lodges, et derrière la vitre, des fauves 🐯 Au zoo de Bordeaux-Pessac, on peut passer la nuit face aux jaguars, aux tigres blancs ou à des lions rescapés d’Ukraine. Une façon très différente de découvrir les animaux, au calme, quand le public est parti. Vous choisiriez quel voisin pour la nuit ?",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261012-e0fae2d6-th.jpg",
-          "mode": "reponse",
-          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/dormir-zoo-bordeaux-pessac-lodges-fauves/",
-          "sujet": "Pessac",
-          "publieLe": "2026-10-12T09:11:10.740Z"
-        },
-        "bluesky": {
-          "texte": "🐆 Et si votre fenêtre donnait sur un enclos de jaguars ? Au #zoo de Bordeaux-Pessac, trois lodges proposent de dormir face aux fauves, dont des lions rescapés d’Ukraine.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261012-e0fae2d6-bsky.jpg",
-          "mode": "reply",
-          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/dormir-zoo-bordeaux-pessac-lodges-fauves/",
-          "sujet": null,
-          "publieLe": "2026-10-12T11:13:28.751Z"
-        },
-        "x": {
-          "texte": "Zoo de Bordeaux-#Pessac : trois lodges pour dormir face aux fauves. Au choix, jaguars, tigres blancs ou 🦁 lions rescapés d’Ukraine.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261012-e0fae2d6-x.jpg",
-          "mode": "reponse",
-          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/dormir-zoo-bordeaux-pessac-lodges-fauves/",
-          "sujet": null,
-          "publieLe": "2026-10-12T11:20:57.836Z"
-        },
-        "facebook": {
-          "texte": "Ouvrir les rideaux le matin et croiser le regard d’un tigre blanc, c’est possible dans trois lodges près de Bordeaux 🐅",
-          "image": null,
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-13T06:34:12.839Z"
-        },
-        "instagram": {
-          "texte": "Parmi les voisins de chambre possibles au zoo de Bordeaux-Pessac : 🦁 des lions rescapés d’Ukraine\n⠀\nTrois lodges permettent d’y dormir face aux jaguars, aux tigres blancs ou à ces lions. Une nuit insolite près de Bordeaux, à deux pas des fauves.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Pessac #ZooDeBordeauxPessac #NuitInsolite",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261012-e0fae2d6-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-13T10:34:58.602Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "threads",
+      "at": "2026-10-17T06:28:08.406Z",
+      "titre": "Lanternes des morts : à quoi servaient ces tours de cimetière ?",
+      "lien": "https://passion-aquitaine.ouest-france.fr/lanternes-morts-cellefrouin-mystere-cimetiere/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/DeldXl9ltVl",
+      "format": "reponse",
+      "texte": "Pourquoi allumer une lampe au sommet d’une tour, au milieu d’un cimetière ? À Cellefrouin, en Charente, 🏛️ une lanterne des morts de 12 mètres se dresse depuis le XIIe siècle. Son usage reste une énigme. Vous en aviez déjà croisé une ?",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261017-cb195e32-th.jpg"
+    },
     {
       "channel": "facebook",
       "at": "2026-10-16T06:34:46.586Z",
@@ -543,28 +521,9 @@
       "format": "reply",
       "texte": "Plus de protéines sans changer vos recettes favorites : à #Bordeaux, la start-up Edonia transforme la spiruline en ingrédient qui s’intègre dans des plats du quotidien 🥗\n@villedebordeaux.bsky.social",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261015-b69932c1-bsky.jpg"
-    },
-    {
-      "channel": "x",
-      "at": "2026-10-15T10:00:49.781Z",
-      "titre": "Cette micro algue pourrait finir dans vos lasagnes ou vos gâteaux : le pari bordelais",
-      "lien": "https://passion-aquitaine.ouest-france.fr/spiruline-alimentation-edonia-bordeaux/",
-      "lienPost": null,
-      "format": "reponse",
-      "texte": "Une algue verte cachée dans une part de lasagnes 🍝 À #Bordeaux, Edonia transforme la spiruline en ingrédient protéiné pensé pour s’intégrer à nos plats.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261015-b69932c1-x.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "threads",
-      "dueAt": "2026-10-17T06:24:58.333Z",
-      "prochainPassage": "2026-10-17T07:00:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Lanternes des morts : à quoi servaient ces tours de cimetière ?"
-    },
     {
       "channel": "facebook",
       "dueAt": "2026-10-17T07:03:01.310Z",
@@ -722,7 +681,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-17T06:19:43.711Z",
+    "genereLe": "2026-10-17T06:28:11.613Z",
     "posts": 88,
     "parReseau": {
       "instagram": {
@@ -884,7 +843,7 @@
       }
     },
     "publies": {
-      "threads": 23,
+      "threads": 24,
       "facebook": 23,
       "bluesky": 23,
       "x": 23,

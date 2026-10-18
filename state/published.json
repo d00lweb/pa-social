@@ -4054,5 +4054,41 @@
       "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/flutes-isturitz-pays-basque-os-vautour/",
       "sujet": "Isturitz"
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35801",
+    "channel": "x",
+    "at": "2026-10-18T07:20:45.990Z",
+    "mediaId": "kit-telegram",
+    "titre": "Ces flûtes en os de vautour venaient du Pays basque",
+    "lien": "https://passion-aquitaine.ouest-france.fr/flutes-isturitz-pays-basque-os-vautour/",
+    "lienPost": null,
+    "format": "reponse",
+    "mention": true,
+    "apercu": {
+      "texte": "Au Pays basque, à #Isturitz, des humains jouaient déjà de la musique : 🪈 la grande flûte, en os de vautour, a plus de 25 000 ans. Elle est aujourd’hui en Île-de-France.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261018-f5704e68-x.jpg",
+      "mode": "reponse",
+      "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/flutes-isturitz-pays-basque-os-vautour/",
+      "sujet": null
+    }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35801",
+    "channel": "bluesky",
+    "at": "2026-10-18T07:27:41.328Z",
+    "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3my53elzvdb2d",
+    "titre": "Ces flûtes en os de vautour venaient du Pays basque",
+    "lien": "https://passion-aquitaine.ouest-france.fr/flutes-isturitz-pays-basque-os-vautour/",
+    "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3my53elzvdb2d",
+    "format": "reply",
+    "mention": false,
+    "apercu": {
+      "texte": "🦅 Que pouvait jouer un musicien du #PaysBasque il y a plus de 25 000 ans ? La grande flûte d’Isturitz, taillée dans un os de vautour et percée de quatre trous, en garde la trace. Elle se trouve aujourd’hui en Île-de-France.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261018-f5704e68-bsky.jpg",
+      "mode": "reply",
+      "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/flutes-isturitz-pays-basque-os-vautour/",
+      "sujet": null
+    }
   }
 ]

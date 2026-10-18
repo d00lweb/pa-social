@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-18T07:00:42.243Z",
+  "genereLe": "2026-10-18T07:20:37.829Z",
   "jour": "2026-10-18",
   "reseaux": {
     "instagram": {
@@ -60,11 +60,11 @@
         "image",
         "reply"
       ],
-      "aujourdhui": 0,
+      "aujourdhui": 1,
       "semaine": 10,
-      "total": 47,
-      "dernier": "2026-10-17T07:08:20.195Z",
-      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3my2jt3fvli2r"
+      "total": 48,
+      "dernier": "2026-10-18T07:27:41.328Z",
+      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3my53elzvdb2d"
     },
     "facebook": {
       "actif": true,
@@ -156,10 +156,10 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 10,
-      "total": 47,
-      "dernier": "2026-10-17T08:20:51.794Z",
+      "aujourdhui": 1,
+      "semaine": 11,
+      "total": 48,
+      "dernier": "2026-10-18T07:20:45.990Z",
       "lienDernier": null
     }
   },
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35801",
       "titre": "Ces flûtes en os de vautour venaient du Pays basque",
       "lien": "https://passion-aquitaine.ouest-france.fr/flutes-isturitz-pays-basque-os-vautour/",
-      "at": "2026-10-18T06:29:37.590Z",
+      "at": "2026-10-18T07:27:41.328Z",
       "reseaux": {
         "facebook": {
           "texte": "Imaginez le son d’une flûte taillée dans un os de vautour il y a plus de 25 000 ans, quelque part au Pays basque 🪶",
@@ -185,6 +185,22 @@
           "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/flutes-isturitz-pays-basque-os-vautour/",
           "sujet": "Isturitz",
           "publieLe": "2026-10-18T06:29:37.590Z"
+        },
+        "x": {
+          "texte": "Au Pays basque, à #Isturitz, des humains jouaient déjà de la musique : 🪈 la grande flûte, en os de vautour, a plus de 25 000 ans. Elle est aujourd’hui en Île-de-France.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261018-f5704e68-x.jpg",
+          "mode": "reponse",
+          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/flutes-isturitz-pays-basque-os-vautour/",
+          "sujet": null,
+          "publieLe": "2026-10-18T07:20:45.990Z"
+        },
+        "bluesky": {
+          "texte": "🦅 Que pouvait jouer un musicien du #PaysBasque il y a plus de 25 000 ans ? La grande flûte d’Isturitz, taillée dans un os de vautour et percée de quatre trous, en garde la trace. Elle se trouve aujourd’hui en Île-de-France.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261018-f5704e68-bsky.jpg",
+          "mode": "reply",
+          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/flutes-isturitz-pays-basque-os-vautour/",
+          "sujet": null,
+          "publieLe": "2026-10-18T07:27:41.328Z"
         }
       }
     },
@@ -431,6 +447,26 @@
   ],
   "publications": [
     {
+      "channel": "bluesky",
+      "at": "2026-10-18T07:27:41.328Z",
+      "titre": "Ces flûtes en os de vautour venaient du Pays basque",
+      "lien": "https://passion-aquitaine.ouest-france.fr/flutes-isturitz-pays-basque-os-vautour/",
+      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3my53elzvdb2d",
+      "format": "reply",
+      "texte": "🦅 Que pouvait jouer un musicien du #PaysBasque il y a plus de 25 000 ans ? La grande flûte d’Isturitz, taillée dans un os de vautour et percée de quatre trous, en garde la trace. Elle se trouve aujourd’hui en Île-de-France.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261018-f5704e68-bsky.jpg"
+    },
+    {
+      "channel": "x",
+      "at": "2026-10-18T07:20:45.990Z",
+      "titre": "Ces flûtes en os de vautour venaient du Pays basque",
+      "lien": "https://passion-aquitaine.ouest-france.fr/flutes-isturitz-pays-basque-os-vautour/",
+      "lienPost": null,
+      "format": "reponse",
+      "texte": "Au Pays basque, à #Isturitz, des humains jouaient déjà de la musique : 🪈 la grande flûte, en os de vautour, a plus de 25 000 ans. Elle est aujourd’hui en Île-de-France.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261018-f5704e68-x.jpg"
+    },
+    {
       "channel": "threads",
       "at": "2026-10-18T06:29:37.590Z",
       "titre": "Ces flûtes en os de vautour venaient du Pays basque",
@@ -509,47 +545,9 @@
       "format": null,
       "texte": "Pas besoin de billet pour écouter 25 chœurs à Bayonne : le festival Koruak ouvre ses voix à tous gratuitement 🎤",
       "image": null
-    },
-    {
-      "channel": "threads",
-      "at": "2026-10-16T06:33:41.257Z",
-      "titre": "Festival Koruak : 25 chœurs chantent gratuitement à Bayonne",
-      "lien": "https://passion-aquitaine.ouest-france.fr/festival-koruak-2026-bayonne-choeurs/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/Dei5SEdHN8l",
-      "format": "reponse",
-      "texte": "Imaginez les rues de Bayonne portées par des voix de toutes parts. Le 24 octobre, le festival Koruak réunit 25 chœurs, à écouter gratuitement. Le festival, lui, fait chanter la ville du 18 octobre au 1er novembre 🎙️\n@bayonnemaville",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261016-b570ee70-th.jpg"
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-10-16T06:28:26.144Z",
-      "titre": "Festival Koruak : 25 chœurs chantent gratuitement à Bayonne",
-      "lien": "https://passion-aquitaine.ouest-france.fr/festival-koruak-2026-bayonne-choeurs/",
-      "lienPost": "https://www.instagram.com/p/Dei48TpjXWT/",
-      "format": null,
-      "texte": "🎶 Une ville entière qui chante : 25 chœurs se succèdent à Bayonne, et c’est gratuit\n⠀\nLe 24 octobre, le festival Koruak offre une journée de chant choral au cœur du Pays basque. Le festival se poursuit jusqu’au 1er novembre.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bayonne #ChantChoral #PaysBasque",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261016-b570ee70-1.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "x",
-      "dueAt": "2026-10-18T07:20:00.000Z",
-      "prochainPassage": "2026-10-18T07:20:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Ces flûtes en os de vautour venaient du Pays basque"
-    },
-    {
-      "channel": "bluesky",
-      "dueAt": "2026-10-18T07:27:39.020Z",
-      "prochainPassage": "2026-10-18T08:00:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Ces flûtes en os de vautour venaient du Pays basque"
-    },
     {
       "channel": "instagram",
       "dueAt": "2026-10-18T10:27:07.300Z",
@@ -562,14 +560,14 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 324,
+    "releves": 327,
     "parReseau": {
       "instagram": {
         "posts": 38,
         "interactionsMoyennes": 13.2
       },
       "bluesky": {
-        "posts": 37,
+        "posts": 38,
         "interactionsMoyennes": 0.2
       },
       "facebook": {
@@ -680,8 +678,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-18T07:00:47.833Z",
-    "posts": 93,
+    "genereLe": "2026-10-18T07:27:48.505Z",
+    "posts": 95,
     "parReseau": {
       "instagram": {
         "posts": 23,
@@ -692,11 +690,11 @@
         "moyenne": 3.4
       },
       "bluesky": {
-        "posts": 23,
+        "posts": 24,
         "moyenne": 0.3
       },
       "facebook": {
-        "posts": 23,
+        "posts": 24,
         "moyenne": 0
       }
     },
@@ -710,7 +708,7 @@
         "moyenne": 0.5
       },
       "card": {
-        "posts": 3,
+        "posts": 4,
         "moyenne": 0.3
       },
       "image": {
@@ -732,7 +730,7 @@
         "moyenne": 1.9
       },
       "matin": {
-        "posts": 56,
+        "posts": 58,
         "moyenne": 1.5
       }
     },
@@ -753,7 +751,7 @@
       },
       "facebook": {
         "8 h – 9 h 30": {
-          "posts": 16,
+          "posts": 17,
           "moyenne": 0
         },
         "20 h – 21 h 30": {
@@ -767,7 +765,7 @@
           "moyenne": 2.5
         },
         "8 h – 9 h 30": {
-          "posts": 16,
+          "posts": 17,
           "moyenne": 0.2
         },
         "12 h – 13 h 30": {
@@ -813,23 +811,23 @@
     },
     "moinsBon": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35803",
-      "channel": "threads",
-      "mediaId": "18123384745926952",
-      "publieLe": "2026-10-17T06:28:08.406Z",
+      "channel": "bluesky",
+      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3my2jt3fvli2r",
+      "publieLe": "2026-10-17T07:08:20.195Z",
       "jalon": 1,
-      "releveLe": "2026-10-18T06:35:49.349Z",
+      "releveLe": "2026-10-18T07:20:37.829Z",
       "likes": 0,
-      "commentairesBruts": 1,
+      "commentairesBruts": 0,
       "partages": 0,
-      "vues": 739,
+      "vues": null,
       "commentaires": 0,
       "v": 2,
       "titre": "Lanternes des morts : à quoi servaient ces tours de cimetière ?",
-      "lien": "https://www.threads.com/@lovaquitaine/post/DeldXl9ltVl",
-      "format": "reponse",
+      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3my2jt3fvli2r",
+      "format": "card",
       "mention": false,
       "creneau": "matin",
-      "creneauReseau": "7 h – 8 h 30"
+      "creneauReseau": "8 h – 9 h 30"
     },
     "mentions": {
       "avec": {
@@ -837,15 +835,15 @@
         "moyenne": 5.2
       },
       "sans": {
-        "posts": 50,
+        "posts": 52,
         "moyenne": 0.6
       }
     },
     "publies": {
       "threads": 25,
       "facebook": 25,
-      "bluesky": 24,
-      "x": 24,
+      "bluesky": 25,
+      "x": 25,
       "instagram": 24
     },
     "abonnes": {

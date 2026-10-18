@@ -947,5 +947,42 @@
       "bluesky": [],
       "x": []
     }
+  },
+  "commune:mairie:isturitz": {
+    "v": 3,
+    "cherche": "2026-10-18T06:00:45.438Z",
+    "instagram": [],
+    "x": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "commune:tourisme:isturitz": {
+    "v": 3,
+    "cherche": "2026-10-18T06:00:45.438Z",
+    "instagram": [],
+    "x": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:isturitz:prehistoire": {
+    "v": 3,
+    "cherche": "2026-10-18T06:00:45.438Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:isturitz:archeologie": {
+    "v": 3,
+    "cherche": "2026-10-18T06:00:45.438Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:isturitz:musique": {
+    "v": 3,
+    "cherche": "2026-10-18T06:00:45.438Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
   }
 }

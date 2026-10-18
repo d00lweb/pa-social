@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-18T10:00:41.365Z",
+  "genereLe": "2026-10-18T10:20:40.261Z",
   "jour": "2026-10-18",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 11,
-      "total": 49,
-      "dernier": "2026-10-17T10:30:51.065Z",
-      "lienDernier": "https://www.instagram.com/p/Del5eczDYe6/"
+      "aujourdhui": 1,
+      "semaine": 12,
+      "total": 50,
+      "dernier": "2026-10-18T10:27:53.108Z",
+      "lienDernier": "https://www.instagram.com/p/Deod73-nf4t/"
     },
     "bluesky": {
       "actif": true,
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35801",
       "titre": "Ces flûtes en os de vautour venaient du Pays basque",
       "lien": "https://passion-aquitaine.ouest-france.fr/flutes-isturitz-pays-basque-os-vautour/",
-      "at": "2026-10-18T07:27:41.328Z",
+      "at": "2026-10-18T10:27:53.108Z",
       "reseaux": {
         "facebook": {
           "texte": "Imaginez le son d’une flûte taillée dans un os de vautour il y a plus de 25 000 ans, quelque part au Pays basque 🪶",
@@ -201,6 +201,14 @@
           "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/flutes-isturitz-pays-basque-os-vautour/",
           "sujet": null,
           "publieLe": "2026-10-18T07:27:41.328Z"
+        },
+        "instagram": {
+          "texte": "Un os de vautour, quatre trous et plus de 25 000 ans d’histoire : 🦴 la grande flûte d’Isturitz est née au Pays basque.\n⠀\nLongue de 21 cm, cette flûte préhistorique a quitté sa terre d’origine : elle est aujourd’hui conservée en Île-de-France.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#PaysBasque #Prehistoire #Archeologie",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261018-f5704e68-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-18T10:27:53.108Z"
         }
       }
     },
@@ -447,6 +455,16 @@
   ],
   "publications": [
     {
+      "channel": "instagram",
+      "at": "2026-10-18T10:27:53.108Z",
+      "titre": "Ces flûtes en os de vautour venaient du Pays basque",
+      "lien": "https://passion-aquitaine.ouest-france.fr/flutes-isturitz-pays-basque-os-vautour/",
+      "lienPost": "https://www.instagram.com/p/Deod73-nf4t/",
+      "format": null,
+      "texte": "Un os de vautour, quatre trous et plus de 25 000 ans d’histoire : 🦴 la grande flûte d’Isturitz est née au Pays basque.\n⠀\nLongue de 21 cm, cette flûte préhistorique a quitté sa terre d’origine : elle est aujourd’hui conservée en Île-de-France.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#PaysBasque #Prehistoire #Archeologie",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261018-f5704e68-1.jpg"
+    },
+    {
       "channel": "bluesky",
       "at": "2026-10-18T07:27:41.328Z",
       "titre": "Ces flûtes en os de vautour venaient du Pays basque",
@@ -535,29 +553,9 @@
       "format": "reponse",
       "texte": "Pourquoi allumer une lampe au sommet d’une tour, au milieu d’un cimetière ? À Cellefrouin, en Charente, 🏛️ une lanterne des morts de 12 mètres se dresse depuis le XIIe siècle. Son usage reste une énigme. Vous en aviez déjà croisé une ?",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261017-cb195e32-th.jpg"
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-10-16T06:34:46.586Z",
-      "titre": "Festival Koruak : 25 chœurs chantent gratuitement à Bayonne",
-      "lien": "https://passion-aquitaine.ouest-france.fr/festival-koruak-2026-bayonne-choeurs/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1753899483402599",
-      "format": null,
-      "texte": "Pas besoin de billet pour écouter 25 chœurs à Bayonne : le festival Koruak ouvre ses voix à tous gratuitement 🎤",
-      "image": null
     }
   ],
-  "file": [
-    {
-      "channel": "instagram",
-      "dueAt": "2026-10-18T10:27:07.300Z",
-      "prochainPassage": "2026-10-18T11:00:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Ces flûtes en os de vautour venaient du Pays basque"
-    }
-  ],
+  "file": [],
   "alertes": [],
   "mesures": {
     "releves": 328,
@@ -639,7 +637,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-18T09:20:38.702Z"
+    "derniere": "2026-10-18T10:20:40.261Z"
   },
   "abonnes": {
     "instagram": {
@@ -678,7 +676,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-18T10:00:44.794Z",
+    "genereLe": "2026-10-18T10:27:58.045Z",
     "posts": 95,
     "parReseau": {
       "instagram": {
@@ -844,7 +842,7 @@
       "facebook": 25,
       "bluesky": 25,
       "x": 25,
-      "instagram": 24
+      "instagram": 25
     },
     "abonnes": {
       "instagram": {

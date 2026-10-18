@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-18T06:20:35.380Z",
+  "genereLe": "2026-10-18T06:35:49.349Z",
   "jour": "2026-10-18",
   "reseaux": {
     "instagram": {
@@ -123,7 +123,7 @@
         "reponse"
       ],
       "aujourdhui": 1,
-      "semaine": 11,
+      "semaine": 10,
       "total": 45,
       "dernier": "2026-10-18T06:29:37.590Z",
       "lienDernier": "https://www.threads.com/@lovaquitaine/post/DeoCZ30kSfL"
@@ -562,7 +562,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 322,
+    "releves": 324,
     "parReseau": {
       "instagram": {
         "posts": 38,
@@ -577,7 +577,7 @@
         "interactionsMoyennes": 0
       },
       "threads": {
-        "posts": 34,
+        "posts": 35,
         "interactionsMoyennes": 5.7
       }
     }
@@ -680,16 +680,16 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-18T06:29:42.774Z",
-    "posts": 92,
+    "genereLe": "2026-10-18T06:35:53.248Z",
+    "posts": 93,
     "parReseau": {
       "instagram": {
         "posts": 23,
         "moyenne": 7.2
       },
       "threads": {
-        "posts": 23,
-        "moyenne": 3.6
+        "posts": 24,
+        "moyenne": 3.4
       },
       "bluesky": {
         "posts": 23,
@@ -702,8 +702,8 @@
     },
     "parFormat": {
       "reponse": {
-        "posts": 21,
-        "moyenne": 3.9
+        "posts": 22,
+        "moyenne": 3.7
       },
       "reply": {
         "posts": 14,
@@ -732,15 +732,15 @@
         "moyenne": 1.9
       },
       "matin": {
-        "posts": 55,
+        "posts": 56,
         "moyenne": 1.5
       }
     },
     "parCreneauReseau": {
       "threads": {
         "7 h – 8 h 30": {
-          "posts": 16,
-          "moyenne": 4.3
+          "posts": 17,
+          "moyenne": 4.1
         },
         "13 h – 14 h 30": {
           "posts": 2,
@@ -812,24 +812,24 @@
       "creneauReseau": "12 h – 13 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=29086",
-      "channel": "facebook",
-      "mediaId": "227437307428711_1753899483402599",
-      "publieLe": "2026-10-16T06:34:46.586Z",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35803",
+      "channel": "threads",
+      "mediaId": "18123384745926952",
+      "publieLe": "2026-10-17T06:28:08.406Z",
       "jalon": 1,
-      "releveLe": "2026-10-17T07:00:40.370Z",
+      "releveLe": "2026-10-18T06:35:49.349Z",
       "likes": 0,
-      "commentairesBruts": 0,
+      "commentairesBruts": 1,
       "partages": 0,
-      "vues": null,
+      "vues": 739,
       "commentaires": 0,
       "v": 2,
-      "titre": "Festival Koruak : 25 chœurs chantent gratuitement à Bayonne",
-      "lien": "https://www.facebook.com/1720946116697936/posts/1753899483402599",
-      "format": null,
+      "titre": "Lanternes des morts : à quoi servaient ces tours de cimetière ?",
+      "lien": "https://www.threads.com/@lovaquitaine/post/DeldXl9ltVl",
+      "format": "reponse",
       "mention": false,
       "creneau": "matin",
-      "creneauReseau": "8 h – 9 h 30"
+      "creneauReseau": "7 h – 8 h 30"
     },
     "mentions": {
       "avec": {
@@ -837,7 +837,7 @@
         "moyenne": 5.2
       },
       "sans": {
-        "posts": 49,
+        "posts": 50,
         "moyenne": 0.6
       }
     },
@@ -885,13 +885,13 @@
     },
     "engagement": {
       "instagram": 0.07,
-      "threads": 0.31,
+      "threads": 0.3,
       "facebook": 0
     },
     "conseils": [
-      "Threads : le créneau 7 h – 8 h 30 fait 3,6 fois mieux que 10 h – 11 h 30 (4.3 contre 1.2 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
+      "Threads : le créneau 7 h – 8 h 30 fait 3,4 fois mieux que 10 h – 11 h 30 (4.1 contre 1.2 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Instagram : le créneau 12 h – 13 h 30 fait 2,6 fois mieux que 18 h – 19 h 30 (9.5 contre 3.6 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
-      "Le format « reponse » fait 39 fois mieux que « lien » (3.9 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « lien » de la rotation dans config/channels.json.",
+      "Le format « reponse » fait 37 fois mieux que « lien » (3.7 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « lien » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+3, +0,3 %) ; Facebook recule (−18), à surveiller."
     ]
   },

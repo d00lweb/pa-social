@@ -4018,5 +4018,41 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35801",
+    "channel": "facebook",
+    "at": "2026-10-18T06:23:39.094Z",
+    "mediaId": "227437307428711_1756014119857802",
+    "titre": "Ces flûtes en os de vautour venaient du Pays basque",
+    "lien": "https://passion-aquitaine.ouest-france.fr/flutes-isturitz-pays-basque-os-vautour/",
+    "lienPost": "https://www.facebook.com/1720946116697936/posts/1756014119857802",
+    "format": null,
+    "mention": false,
+    "apercu": {
+      "texte": "Imaginez le son d’une flûte taillée dans un os de vautour il y a plus de 25 000 ans, quelque part au Pays basque 🪶",
+      "image": null,
+      "mode": null,
+      "reponse": null,
+      "sujet": null
+    }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35801",
+    "channel": "threads",
+    "at": "2026-10-18T06:29:37.590Z",
+    "mediaId": "18118062005006886",
+    "titre": "Ces flûtes en os de vautour venaient du Pays basque",
+    "lien": "https://passion-aquitaine.ouest-france.fr/flutes-isturitz-pays-basque-os-vautour/",
+    "lienPost": "https://www.threads.com/@lovaquitaine/post/DeoCZ30kSfL",
+    "format": "reponse",
+    "mention": false,
+    "apercu": {
+      "texte": "Plus de 25 000 ans : c’est l’âge de la grande flûte d’Isturitz 🎵 Un os de vautour, 21 cm, quatre trous… et un instrument venu tout droit du Pays basque. Étonnant détail : ce trésor préhistorique n’est plus sur place, il est conservé en Île-de-France. Vous auriez imaginé que la musique résonnait déjà dans ces vallées il y a si longtemps ?",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261018-f5704e68-th.jpg",
+      "mode": "reponse",
+      "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/flutes-isturitz-pays-basque-os-vautour/",
+      "sujet": "Isturitz"
+    }
   }
 ]

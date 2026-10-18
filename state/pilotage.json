@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-18T06:00:35.149Z",
+  "genereLe": "2026-10-18T06:20:35.380Z",
   "jour": "2026-10-18",
   "reseaux": {
     "instagram": {
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 11,
-      "total": 44,
-      "dernier": "2026-10-17T07:03:08.973Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1754996289959585"
+      "aujourdhui": 1,
+      "semaine": 12,
+      "total": 45,
+      "dernier": "2026-10-18T06:23:39.094Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1756014119857802"
     },
     "threads": {
       "actif": true,
@@ -122,11 +122,11 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 10,
-      "total": 44,
-      "dernier": "2026-10-17T06:28:08.406Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DeldXl9ltVl"
+      "aujourdhui": 1,
+      "semaine": 11,
+      "total": 45,
+      "dernier": "2026-10-18T06:29:37.590Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DeoCZ30kSfL"
     },
     "x": {
       "actif": true,
@@ -164,6 +164,30 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35801",
+      "titre": "Ces flûtes en os de vautour venaient du Pays basque",
+      "lien": "https://passion-aquitaine.ouest-france.fr/flutes-isturitz-pays-basque-os-vautour/",
+      "at": "2026-10-18T06:29:37.590Z",
+      "reseaux": {
+        "facebook": {
+          "texte": "Imaginez le son d’une flûte taillée dans un os de vautour il y a plus de 25 000 ans, quelque part au Pays basque 🪶",
+          "image": null,
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-18T06:23:39.094Z"
+        },
+        "threads": {
+          "texte": "Plus de 25 000 ans : c’est l’âge de la grande flûte d’Isturitz 🎵 Un os de vautour, 21 cm, quatre trous… et un instrument venu tout droit du Pays basque. Étonnant détail : ce trésor préhistorique n’est plus sur place, il est conservé en Île-de-France. Vous auriez imaginé que la musique résonnait déjà dans ces vallées il y a si longtemps ?",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261018-f5704e68-th.jpg",
+          "mode": "reponse",
+          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/flutes-isturitz-pays-basque-os-vautour/",
+          "sujet": "Isturitz",
+          "publieLe": "2026-10-18T06:29:37.590Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35803",
       "titre": "Lanternes des morts : à quoi servaient ces tours de cimetière ?",
@@ -403,57 +427,29 @@
           "publieLe": "2026-10-14T10:35:25.291Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=32967",
-      "titre": "Écoles de surf à Biscarrosse : les 3 meilleures pour apprendre",
-      "lien": "https://passion-aquitaine.ouest-france.fr/ecoles-surf-biscarrosse/",
-      "at": "2026-10-13T19:11:26.079Z",
-      "reseaux": {
-        "threads": {
-          "texte": "🌊 Biscarrosse, ses plages et ses vagues : ici, le surf fait presque partie de l’identité. Dans les Landes, beaucoup apprennent à glisser très tôt. Et si vous n’avez jamais tenu sur une planche, trois écoles de la station sortent du lot pour débuter dans de bonnes conditions.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261013-e9332e02-th.jpg",
-          "mode": "reponse",
-          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/ecoles-surf-biscarrosse/",
-          "sujet": "Biscarrosse",
-          "publieLe": "2026-10-13T06:30:26.832Z"
-        },
-        "x": {
-          "texte": "Dans les Landes, le surf n’est pas qu’un loisir, c’est un trait d’identité 🏄 À #Biscarrosse, trois écoles se distinguent pour apprendre à glisser.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261013-e9332e02-x.jpg",
-          "mode": "reponse",
-          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/ecoles-surf-biscarrosse/",
-          "sujet": null,
-          "publieLe": "2026-10-13T07:20:49.651Z"
-        },
-        "bluesky": {
-          "texte": "Trois écoles sortent du lot pour apprendre le #surf à #Biscarrosse. Dans les #Landes, la glisse fait partie de l’ADN local, et cette station de la côte en est l’un des meilleurs exemples 🌊",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261013-e9332e02-bsky.jpg",
-          "mode": "reply",
-          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/ecoles-surf-biscarrosse/",
-          "sujet": null,
-          "publieLe": "2026-10-13T07:28:24.515Z"
-        },
-        "instagram": {
-          "texte": "Une planche sous le bras, l’océan devant soi à Biscarrosse 🏄\n⠀\nDans les Landes, le surf fait partie de l’ADN local. Voici les trois meilleures écoles de surf de Biscarrosse pour se lancer sur la côte landaise.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Biscarrosse #Surf #CoteLandaise",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261013-e9332e02-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-13T16:26:42.373Z"
-        },
-        "facebook": {
-          "texte": "Envie de vous lever sur votre première vague, et si c’était dans l’une de ces trois écoles de Biscarrosse 🏄",
-          "image": null,
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-13T19:11:26.079Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "threads",
+      "at": "2026-10-18T06:29:37.590Z",
+      "titre": "Ces flûtes en os de vautour venaient du Pays basque",
+      "lien": "https://passion-aquitaine.ouest-france.fr/flutes-isturitz-pays-basque-os-vautour/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/DeoCZ30kSfL",
+      "format": "reponse",
+      "texte": "Plus de 25 000 ans : c’est l’âge de la grande flûte d’Isturitz 🎵 Un os de vautour, 21 cm, quatre trous… et un instrument venu tout droit du Pays basque. Étonnant détail : ce trésor préhistorique n’est plus sur place, il est conservé en Île-de-France. Vous auriez imaginé que la musique résonnait déjà dans ces vallées il y a si longtemps ?",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261018-f5704e68-th.jpg"
+    },
+    {
+      "channel": "facebook",
+      "at": "2026-10-18T06:23:39.094Z",
+      "titre": "Ces flûtes en os de vautour venaient du Pays basque",
+      "lien": "https://passion-aquitaine.ouest-france.fr/flutes-isturitz-pays-basque-os-vautour/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1756014119857802",
+      "format": null,
+      "texte": "Imaginez le son d’une flûte taillée dans un os de vautour il y a plus de 25 000 ans, quelque part au Pays basque 🪶",
+      "image": null
+    },
     {
       "channel": "instagram",
       "at": "2026-10-17T10:30:51.065Z",
@@ -533,47 +529,9 @@
       "format": null,
       "texte": "🎶 Une ville entière qui chante : 25 chœurs se succèdent à Bayonne, et c’est gratuit\n⠀\nLe 24 octobre, le festival Koruak offre une journée de chant choral au cœur du Pays basque. Le festival se poursuit jusqu’au 1er novembre.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bayonne #ChantChoral #PaysBasque",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261016-b570ee70-1.jpg"
-    },
-    {
-      "channel": "bluesky",
-      "at": "2026-10-16T06:24:44.643Z",
-      "titre": "Festival Koruak : 25 chœurs chantent gratuitement à Bayonne",
-      "lien": "https://passion-aquitaine.ouest-france.fr/festival-koruak-2026-bayonne-choeurs/",
-      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mxxww7ij5r2x",
-      "format": "image",
-      "texte": "Le festival Koruak s’étend sur deux semaines à #Bayonne, mais une date se détache : 🎼 le 24 octobre, 25 chœurs s’y produisent gratuitement. Le #chant choral occupe la ville jusqu’au 1er novembre.\n➡️ Lire l’article",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261016-b570ee70-bsky.jpg"
-    },
-    {
-      "channel": "x",
-      "at": "2026-10-16T06:20:42.752Z",
-      "titre": "Festival Koruak : 25 chœurs chantent gratuitement à Bayonne",
-      "lien": "https://passion-aquitaine.ouest-france.fr/festival-koruak-2026-bayonne-choeurs/",
-      "lienPost": null,
-      "format": "reponse",
-      "texte": "🗣️ 25 chœurs dans une même ville, le même jour, sans payer ? C’est le programme du festival Koruak à #Bayonne le 24 octobre, au sein d’un festival qui court jusqu’au 1er novembre.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261016-b570ee70-x.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "facebook",
-      "dueAt": "2026-10-18T06:23:26.973Z",
-      "prochainPassage": "2026-10-18T07:00:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Ces flûtes en os de vautour venaient du Pays basque"
-    },
-    {
-      "channel": "threads",
-      "dueAt": "2026-10-18T06:27:03.664Z",
-      "prochainPassage": "2026-10-18T07:00:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Ces flûtes en os de vautour venaient du Pays basque"
-    },
     {
       "channel": "x",
       "dueAt": "2026-10-18T07:20:00.000Z",
@@ -722,7 +680,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-18T06:00:58.172Z",
+    "genereLe": "2026-10-18T06:29:42.774Z",
     "posts": 92,
     "parReseau": {
       "instagram": {
@@ -884,8 +842,8 @@
       }
     },
     "publies": {
-      "threads": 24,
-      "facebook": 24,
+      "threads": 25,
+      "facebook": 25,
       "bluesky": 24,
       "x": 24,
       "instagram": 24

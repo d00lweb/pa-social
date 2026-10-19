@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-19T05:20:35.926Z",
+  "genereLe": "2026-10-19T06:00:37.869Z",
   "jour": "2026-10-19",
   "reseaux": {
     "instagram": {
@@ -555,7 +555,53 @@
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261017-cb195e32-th.jpg"
     }
   ],
-  "file": [],
+  "file": [
+    {
+      "channel": "facebook",
+      "dueAt": "2026-10-19T06:23:39.442Z",
+      "prochainPassage": "2026-10-19T07:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Pays basque : ces vautours qui dévorent un cadavre en 10 minutes"
+    },
+    {
+      "channel": "threads",
+      "dueAt": "2026-10-19T06:28:46.277Z",
+      "prochainPassage": "2026-10-19T07:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Pays basque : ces vautours qui dévorent un cadavre en 10 minutes"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-10-19T07:23:43.962Z",
+      "prochainPassage": "2026-10-19T08:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Pays basque : ces vautours qui dévorent un cadavre en 10 minutes"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-10-19T08:20:00.000Z",
+      "prochainPassage": "2026-10-19T08:20:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Pays basque : ces vautours qui dévorent un cadavre en 10 minutes"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-10-19T10:12:25.003Z",
+      "prochainPassage": "2026-10-19T10:20:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Pays basque : ces vautours qui dévorent un cadavre en 10 minutes"
+    }
+  ],
   "alertes": [],
   "mesures": {
     "releves": 334,
@@ -637,7 +683,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-19T04:20:37.428Z"
+    "derniere": "2026-10-19T06:00:37.869Z"
   },
   "abonnes": {
     "instagram": {
@@ -676,7 +722,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-19T05:20:39.241Z",
+    "genereLe": "2026-10-19T06:00:57.228Z",
     "posts": 96,
     "parReseau": {
       "instagram": {
@@ -893,29 +939,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 0,
-      "entree": 0,
-      "sortie": 0,
-      "cout": 0,
+      "appels": 1,
+      "entree": 7993,
+      "sortie": 807,
+      "cout": 0.048112,
       "cle": "2026-10-19"
     },
     "semaine": {
-      "appels": 9,
-      "entree": 71937,
-      "sortie": 7779,
-      "cout": 0.44332800000000006
+      "appels": 10,
+      "entree": 79930,
+      "sortie": 8586,
+      "cout": 0.49144
     },
     "mois": {
-      "appels": 44,
-      "entree": 347727,
-      "sortie": 42217,
-      "cout": 2.235248,
+      "appels": 45,
+      "entree": 355720,
+      "sortie": 43024,
+      "cout": 2.28336,
       "cle": "2026-10"
     },
-    "projection": 3.65,
-    "moyenneAppel": 0.0508,
+    "projection": 3.73,
+    "moyenneAppel": 0.0507,
     "parModele": {
-      "claude-opus-5-5": 44
+      "claude-opus-5-5": 45
     },
     "serie": [
       [
@@ -972,7 +1018,7 @@
       ],
       [
         "2026-10-19",
-        0
+        0.0481
       ]
     ],
     "depuis": "2026-09-23"

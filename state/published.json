@@ -4144,5 +4144,23 @@
       "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/vautours-fauves-pays-basque-bearn/",
       "sujet": "Pays basque"
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35814",
+    "channel": "bluesky",
+    "at": "2026-10-19T07:23:46.133Z",
+    "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3my7lmjdyax26",
+    "titre": "Pays basque : ces vautours qui dévorent un cadavre en 10 minutes",
+    "lien": "https://passion-aquitaine.ouest-france.fr/vautours-fauves-pays-basque-bearn/",
+    "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3my7lmjdyax26",
+    "format": "card",
+    "mention": false,
+    "apercu": {
+      "texte": "1 055 couples de vautours fauves nichent en Béarn et au #PaysBasque. Leur efficacité a de quoi surprendre : un mouton mort est dévoré en moins de 10 minutes 🦴",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261019-5b4d97c5-bsky.jpg",
+      "mode": "card",
+      "reponse": null,
+      "sujet": null
+    }
   }
 ]

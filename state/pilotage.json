@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-19T08:00:44.910Z",
+  "genereLe": "2026-10-19T08:20:38.683Z",
   "jour": "2026-10-19",
   "reseaux": {
     "instagram": {
@@ -156,10 +156,10 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 8,
-      "total": 48,
-      "dernier": "2026-10-18T07:20:45.990Z",
+      "aujourdhui": 1,
+      "semaine": 9,
+      "total": 49,
+      "dernier": "2026-10-19T08:20:47.097Z",
       "lienDernier": null
     }
   },
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35814",
       "titre": "Pays basque : ces vautours qui dévorent un cadavre en 10 minutes",
       "lien": "https://passion-aquitaine.ouest-france.fr/vautours-fauves-pays-basque-bearn/",
-      "at": "2026-10-19T07:23:46.133Z",
+      "at": "2026-10-19T08:20:47.097Z",
       "reseaux": {
         "facebook": {
           "texte": "Combien de temps faut-il à des vautours fauves pour faire disparaître un mouton mort au Pays basque ? Moins de 10 minutes 🐑",
@@ -193,6 +193,14 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-10-19T07:23:46.133Z"
+        },
+        "x": {
+          "texte": "Moins de 10 minutes pour dévorer un mouton mort ⏱️ C’est la performance des vautours fauves, dont 1 055 couples nichent en Béarn et au Pays basque.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261019-5b4d97c5-x.jpg",
+          "mode": "reponse",
+          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/vautours-fauves-pays-basque-bearn/",
+          "sujet": null,
+          "publieLe": "2026-10-19T08:20:47.097Z"
         }
       }
     },
@@ -439,6 +447,16 @@
   ],
   "publications": [
     {
+      "channel": "x",
+      "at": "2026-10-19T08:20:47.097Z",
+      "titre": "Pays basque : ces vautours qui dévorent un cadavre en 10 minutes",
+      "lien": "https://passion-aquitaine.ouest-france.fr/vautours-fauves-pays-basque-bearn/",
+      "lienPost": null,
+      "format": "reponse",
+      "texte": "Moins de 10 minutes pour dévorer un mouton mort ⏱️ C’est la performance des vautours fauves, dont 1 055 couples nichent en Béarn et au Pays basque.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261019-5b4d97c5-x.jpg"
+    },
+    {
       "channel": "bluesky",
       "at": "2026-10-19T07:23:46.133Z",
       "titre": "Pays basque : ces vautours qui dévorent un cadavre en 10 minutes",
@@ -527,28 +545,9 @@
       "format": null,
       "texte": "Une idée de balade insolite en Charente : la lanterne des morts de Cellefrouin, debout depuis le XIIe siècle\n⠀\nUne colonne de 12 mètres, une lampe au sommet et un mystère jamais vraiment levé. De quoi regarder autrement ce patrimoine médiéval 🕯️\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Charente #PatrimoineMedieval #Histoire",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261017-cb195e32-1.jpg"
-    },
-    {
-      "channel": "x",
-      "at": "2026-10-17T08:20:51.794Z",
-      "titre": "Lanternes des morts : à quoi servaient ces tours de cimetière ?",
-      "lien": "https://passion-aquitaine.ouest-france.fr/lanternes-morts-cellefrouin-mystere-cimetiere/",
-      "lienPost": null,
-      "format": "reponse",
-      "texte": "12 mètres de pierre et une lampe au sommet : à #Cellefrouin, en Charente, la lanterne des morts veille sur le cimetière depuis le XIIe siècle, sans livrer son secret 🏰",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261017-cb195e32-x.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "x",
-      "dueAt": "2026-10-19T08:20:00.000Z",
-      "prochainPassage": "2026-10-19T08:20:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Pays basque : ces vautours qui dévorent un cadavre en 10 minutes"
-    },
     {
       "channel": "instagram",
       "dueAt": "2026-10-19T10:12:25.003Z",
@@ -679,7 +678,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-19T08:00:51.369Z",
+    "genereLe": "2026-10-19T08:20:56.612Z",
     "posts": 99,
     "parReseau": {
       "instagram": {
@@ -844,7 +843,7 @@
       "threads": 26,
       "facebook": 26,
       "bluesky": 26,
-      "x": 25,
+      "x": 26,
       "instagram": 25
     },
     "abonnes": {

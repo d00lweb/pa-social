@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-19T09:20:45.572Z",
+  "genereLe": "2026-10-19T10:00:34.996Z",
   "jour": "2026-10-19",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 10,
-      "total": 50,
-      "dernier": "2026-10-18T10:27:53.108Z",
-      "lienDernier": "https://www.instagram.com/p/Deod73-nf4t/"
+      "aujourdhui": 1,
+      "semaine": 11,
+      "total": 51,
+      "dernier": "2026-10-19T10:12:57.094Z",
+      "lienDernier": "https://www.instagram.com/p/DerBBPlj-Sy/"
     },
     "bluesky": {
       "actif": true,
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35814",
       "titre": "Pays basque : ces vautours qui dévorent un cadavre en 10 minutes",
       "lien": "https://passion-aquitaine.ouest-france.fr/vautours-fauves-pays-basque-bearn/",
-      "at": "2026-10-19T08:20:47.097Z",
+      "at": "2026-10-19T10:12:57.094Z",
       "reseaux": {
         "facebook": {
           "texte": "Combien de temps faut-il à des vautours fauves pour faire disparaître un mouton mort au Pays basque ? Moins de 10 minutes 🐑",
@@ -201,6 +201,14 @@
           "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/vautours-fauves-pays-basque-bearn/",
           "sujet": null,
           "publieLe": "2026-10-19T08:20:47.097Z"
+        },
+        "instagram": {
+          "texte": "Un mouton mort au sol, des ailes immenses qui tournoient 🪽 En moins de 10 minutes, il ne reste plus rien.\n⠀\nAu Pays basque et en Béarn, 1 055 couples de vautours fauves nichent et jouent les nettoyeurs des montagnes.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#PaysBasque #VautourFauve #Pyrenees",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261019-5b4d97c5-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-19T10:12:57.094Z"
         }
       }
     },
@@ -447,6 +455,16 @@
   ],
   "publications": [
     {
+      "channel": "instagram",
+      "at": "2026-10-19T10:12:57.094Z",
+      "titre": "Pays basque : ces vautours qui dévorent un cadavre en 10 minutes",
+      "lien": "https://passion-aquitaine.ouest-france.fr/vautours-fauves-pays-basque-bearn/",
+      "lienPost": "https://www.instagram.com/p/DerBBPlj-Sy/",
+      "format": null,
+      "texte": "Un mouton mort au sol, des ailes immenses qui tournoient 🪽 En moins de 10 minutes, il ne reste plus rien.\n⠀\nAu Pays basque et en Béarn, 1 055 couples de vautours fauves nichent et jouent les nettoyeurs des montagnes.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#PaysBasque #VautourFauve #Pyrenees",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261019-5b4d97c5-1.jpg"
+    },
+    {
       "channel": "x",
       "at": "2026-10-19T08:20:47.097Z",
       "titre": "Pays basque : ces vautours qui dévorent un cadavre en 10 minutes",
@@ -535,29 +553,9 @@
       "format": null,
       "texte": "Imaginez le son d’une flûte taillée dans un os de vautour il y a plus de 25 000 ans, quelque part au Pays basque 🪶",
       "image": null
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-10-17T10:30:51.065Z",
-      "titre": "Lanternes des morts : à quoi servaient ces tours de cimetière ?",
-      "lien": "https://passion-aquitaine.ouest-france.fr/lanternes-morts-cellefrouin-mystere-cimetiere/",
-      "lienPost": "https://www.instagram.com/p/Del5eczDYe6/",
-      "format": null,
-      "texte": "Une idée de balade insolite en Charente : la lanterne des morts de Cellefrouin, debout depuis le XIIe siècle\n⠀\nUne colonne de 12 mètres, une lampe au sommet et un mystère jamais vraiment levé. De quoi regarder autrement ce patrimoine médiéval 🕯️\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Charente #PatrimoineMedieval #Histoire",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261017-cb195e32-1.jpg"
     }
   ],
-  "file": [
-    {
-      "channel": "instagram",
-      "dueAt": "2026-10-19T10:12:25.003Z",
-      "prochainPassage": "2026-10-19T10:20:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Pays basque : ces vautours qui dévorent un cadavre en 10 minutes"
-    }
-  ],
+  "file": [],
   "alertes": [],
   "mesures": {
     "releves": 341,
@@ -678,7 +676,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-19T09:20:52.349Z",
+    "genereLe": "2026-10-19T10:13:01.223Z",
     "posts": 99,
     "parReseau": {
       "instagram": {
@@ -844,7 +842,7 @@
       "facebook": 26,
       "bluesky": 26,
       "x": 26,
-      "instagram": 25
+      "instagram": 26
     },
     "abonnes": {
       "instagram": {

@@ -3,7 +3,7 @@
     "cle": "2026-10",
     "publications": 130,
     "articles": 26,
-    "interactions": 260,
+    "interactions": 271,
     "parReseau": {
       "facebook": 26,
       "instagram": 26,
@@ -35,6 +35,13 @@
       },
       {
         "reseau": "instagram",
+        "titre": "Ces flûtes en os de vautour venaient du Pays basque",
+        "lien": "https://www.instagram.com/p/Deod73-nf4t/",
+        "image": "https://passion-aquitaine.ouest-france.fr/social/20261018-f5704e68-1-vignette.jpg",
+        "interactions": 11
+      },
+      {
+        "reseau": "instagram",
         "titre": "Sous un arrêt de bus de Bordeaux, 40 sarcophages cachaient un habitat antique",
         "lien": "https://www.instagram.com/p/DeZq4qWGPd0/",
         "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-6a2c2b25-1-vignette.jpg",
@@ -46,13 +53,6 @@
         "lien": "https://www.instagram.com/p/DeT010pDA3R/",
         "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-7fe1d4e9-1-vignette.jpg",
         "interactions": 7
-      },
-      {
-        "reseau": "threads",
-        "titre": "Fouilles à la dune du Pilat, un vestige de 2 500 ans ressurgit",
-        "lien": "https://www.threads.com/@lovaquitaine/post/DeRaJ-jlY-S",
-        "image": "https://passion-aquitaine.ouest-france.fr/social/20261009-7fe1d4e9-1-vignette.jpg",
-        "interactions": 6
       }
     ]
   },

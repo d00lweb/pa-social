@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-19T06:00:37.869Z",
+  "genereLe": "2026-10-19T06:20:41.306Z",
   "jour": "2026-10-19",
   "reseaux": {
     "instagram": {
@@ -61,7 +61,7 @@
         "reply"
       ],
       "aujourdhui": 0,
-      "semaine": 9,
+      "semaine": 8,
       "total": 48,
       "dernier": "2026-10-18T07:27:41.328Z",
       "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3my53elzvdb2d"
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 0,
+      "aujourdhui": 1,
       "semaine": 10,
-      "total": 45,
-      "dernier": "2026-10-18T06:23:39.094Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1756014119857802"
+      "total": 46,
+      "dernier": "2026-10-19T06:23:49.617Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1757101083082439"
     },
     "threads": {
       "actif": true,
@@ -122,11 +122,11 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
+      "aujourdhui": 1,
       "semaine": 9,
-      "total": 45,
-      "dernier": "2026-10-18T06:29:37.590Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DeoCZ30kSfL"
+      "total": 46,
+      "dernier": "2026-10-19T06:31:33.439Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DeqnZRulaaK"
     },
     "x": {
       "actif": true,
@@ -164,6 +164,30 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35814",
+      "titre": "Pays basque : ces vautours qui dévorent un cadavre en 10 minutes",
+      "lien": "https://passion-aquitaine.ouest-france.fr/vautours-fauves-pays-basque-bearn/",
+      "at": "2026-10-19T06:31:33.439Z",
+      "reseaux": {
+        "facebook": {
+          "texte": "Combien de temps faut-il à des vautours fauves pour faire disparaître un mouton mort au Pays basque ? Moins de 10 minutes 🐑",
+          "image": null,
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-19T06:23:49.617Z"
+        },
+        "threads": {
+          "texte": "🏔️ Pays basque et Béarn : c’est ici que nichent 1 055 couples de vautours fauves. Ces grands rapaces ont un rôle bien à eux dans les montagnes. Quand un mouton meurt, ils s’en chargent, et vite : moins de 10 minutes suffisent pour qu’il n’en reste presque rien.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261019-5b4d97c5-th.jpg",
+          "mode": "reponse",
+          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/vautours-fauves-pays-basque-bearn/",
+          "sujet": "Pays basque",
+          "publieLe": "2026-10-19T06:31:33.439Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35801",
       "titre": "Ces flûtes en os de vautour venaient du Pays basque",
@@ -403,57 +427,29 @@
           "publieLe": "2026-10-15T11:26:56.496Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35699",
-      "titre": "Isulia 2026 à Bordeaux : la techno investit la Base sous-marine",
-      "lien": "https://passion-aquitaine.ouest-france.fr/festival-isulia-2026-bordeaux/",
-      "at": "2026-10-14T10:35:25.291Z",
-      "reseaux": {
-        "threads": {
-          "texte": "Un bunker de 1941 transformé en dancefloor pour trois jours. À Bordeaux, la Base sous-marine accueille du 5 au 7 novembre le festival Isulia, et l’affiche tient la route 🎶 22 artistes, avec Nastia, @octaveone et Maara en tête.\n@villedebordeaux @visitbordeaux",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261014-ab410b4f-th.jpg",
-          "mode": "reponse",
-          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/festival-isulia-2026-bordeaux/",
-          "sujet": "Bordeaux",
-          "publieLe": "2026-10-14T06:28:49.834Z"
-        },
-        "x": {
-          "texte": "Fans de techno, notez vos soirées du 5 au 7 novembre : Isulia programme 22 artistes, dont Nastia, Octave One et Maara, à la Base sous-marine de #Bordeaux 🪩",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261014-ab410b4f-x.jpg",
-          "mode": "reponse",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/festival-isulia-2026-bordeaux/",
-          "sujet": null,
-          "publieLe": "2026-10-14T07:00:52.170Z"
-        },
-        "bluesky": {
-          "texte": "À #Bordeaux, la Base sous-marine change de fréquence 🔊 Du 5 au 7 novembre, le festival Isulia y fait résonner la #techno de 22 artistes, dont @demystifysci.bsky.social, Octave One et Maara.\n@villedebordeaux.bsky.social",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261014-ab410b4f-bsky.jpg",
-          "mode": "reply",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/festival-isulia-2026-bordeaux/",
-          "sujet": null,
-          "publieLe": "2026-10-14T07:05:37.476Z"
-        },
-        "facebook": {
-          "texte": "22 artistes techno, trois nuits et un décor de béton bâti : le festival Isulia s’installe dans la Base sous-marine 🎛️",
-          "image": null,
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-14T07:11:54.140Z"
-        },
-        "instagram": {
-          "texte": "Danser sur de la techno entre les murs d’une base sous-marine de 1941, ça vous tente ?\n⠀\nÀ Bordeaux, le festival Isulia réunit 22 artistes du 5 au 7 novembre. Nastia, Octave One et Maara sont à l’affiche de ce rendez-vous électro dans la Base sous-marine 🎧\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #Techno #BaseSousMarine",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261014-ab410b4f-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-14T10:35:25.291Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "threads",
+      "at": "2026-10-19T06:31:33.439Z",
+      "titre": "Pays basque : ces vautours qui dévorent un cadavre en 10 minutes",
+      "lien": "https://passion-aquitaine.ouest-france.fr/vautours-fauves-pays-basque-bearn/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/DeqnZRulaaK",
+      "format": "reponse",
+      "texte": "🏔️ Pays basque et Béarn : c’est ici que nichent 1 055 couples de vautours fauves. Ces grands rapaces ont un rôle bien à eux dans les montagnes. Quand un mouton meurt, ils s’en chargent, et vite : moins de 10 minutes suffisent pour qu’il n’en reste presque rien.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261019-5b4d97c5-th.jpg"
+    },
+    {
+      "channel": "facebook",
+      "at": "2026-10-19T06:23:49.617Z",
+      "titre": "Pays basque : ces vautours qui dévorent un cadavre en 10 minutes",
+      "lien": "https://passion-aquitaine.ouest-france.fr/vautours-fauves-pays-basque-bearn/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1757101083082439",
+      "format": null,
+      "texte": "Combien de temps faut-il à des vautours fauves pour faire disparaître un mouton mort au Pays basque ? Moins de 10 minutes 🐑",
+      "image": null
+    },
     {
       "channel": "instagram",
       "at": "2026-10-18T10:27:53.108Z",
@@ -533,47 +529,9 @@
       "format": "card",
       "texte": "Imaginez une flamme perchée à 12 mètres au-dessus des tombes 🔦 En #Charente, à #Cellefrouin, cette lanterne des morts se dresse depuis le XIIe siècle et garde toujours son secret.",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261017-cb195e32-bsky.jpg"
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-10-17T07:03:08.973Z",
-      "titre": "Lanternes des morts : à quoi servaient ces tours de cimetière ?",
-      "lien": "https://passion-aquitaine.ouest-france.fr/lanternes-morts-cellefrouin-mystere-cimetiere/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1754996289959585",
-      "format": null,
-      "texte": "Tout en haut de cette colonne de cimetière, haute de 12 mètres, brûlait autrefois une lampe dont on ignore encore le vrai rôle 🕯️",
-      "image": null
-    },
-    {
-      "channel": "threads",
-      "at": "2026-10-17T06:28:08.406Z",
-      "titre": "Lanternes des morts : à quoi servaient ces tours de cimetière ?",
-      "lien": "https://passion-aquitaine.ouest-france.fr/lanternes-morts-cellefrouin-mystere-cimetiere/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/DeldXl9ltVl",
-      "format": "reponse",
-      "texte": "Pourquoi allumer une lampe au sommet d’une tour, au milieu d’un cimetière ? À Cellefrouin, en Charente, 🏛️ une lanterne des morts de 12 mètres se dresse depuis le XIIe siècle. Son usage reste une énigme. Vous en aviez déjà croisé une ?",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261017-cb195e32-th.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "facebook",
-      "dueAt": "2026-10-19T06:23:39.442Z",
-      "prochainPassage": "2026-10-19T07:00:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Pays basque : ces vautours qui dévorent un cadavre en 10 minutes"
-    },
-    {
-      "channel": "threads",
-      "dueAt": "2026-10-19T06:28:46.277Z",
-      "prochainPassage": "2026-10-19T07:00:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Pays basque : ces vautours qui dévorent un cadavre en 10 minutes"
-    },
     {
       "channel": "bluesky",
       "dueAt": "2026-10-19T07:23:43.962Z",
@@ -604,23 +562,23 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 334,
+    "releves": 337,
     "parReseau": {
       "instagram": {
         "posts": 40,
         "interactionsMoyennes": 12.8
       },
       "bluesky": {
-        "posts": 39,
+        "posts": 40,
         "interactionsMoyennes": 0.2
       },
       "facebook": {
-        "posts": 35,
+        "posts": 36,
         "interactionsMoyennes": 0
       },
       "threads": {
-        "posts": 36,
-        "interactionsMoyennes": 5.6
+        "posts": 37,
+        "interactionsMoyennes": 7
       }
     }
   },
@@ -722,7 +680,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-19T06:00:57.228Z",
+    "genereLe": "2026-10-19T06:31:39.696Z",
     "posts": 96,
     "parReseau": {
       "instagram": {
@@ -884,8 +842,8 @@
       }
     },
     "publies": {
-      "threads": 25,
-      "facebook": 25,
+      "threads": 26,
+      "facebook": 26,
       "bluesky": 25,
       "x": 25,
       "instagram": 25

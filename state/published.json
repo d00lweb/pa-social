@@ -4108,5 +4108,41 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35814",
+    "channel": "facebook",
+    "at": "2026-10-19T06:23:49.617Z",
+    "mediaId": "227437307428711_1757101083082439",
+    "titre": "Pays basque : ces vautours qui dévorent un cadavre en 10 minutes",
+    "lien": "https://passion-aquitaine.ouest-france.fr/vautours-fauves-pays-basque-bearn/",
+    "lienPost": "https://www.facebook.com/1720946116697936/posts/1757101083082439",
+    "format": null,
+    "mention": false,
+    "apercu": {
+      "texte": "Combien de temps faut-il à des vautours fauves pour faire disparaître un mouton mort au Pays basque ? Moins de 10 minutes 🐑",
+      "image": null,
+      "mode": null,
+      "reponse": null,
+      "sujet": null
+    }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35814",
+    "channel": "threads",
+    "at": "2026-10-19T06:31:33.439Z",
+    "mediaId": "17952899616049053",
+    "titre": "Pays basque : ces vautours qui dévorent un cadavre en 10 minutes",
+    "lien": "https://passion-aquitaine.ouest-france.fr/vautours-fauves-pays-basque-bearn/",
+    "lienPost": "https://www.threads.com/@lovaquitaine/post/DeqnZRulaaK",
+    "format": "reponse",
+    "mention": false,
+    "apercu": {
+      "texte": "🏔️ Pays basque et Béarn : c’est ici que nichent 1 055 couples de vautours fauves. Ces grands rapaces ont un rôle bien à eux dans les montagnes. Quand un mouton meurt, ils s’en chargent, et vite : moins de 10 minutes suffisent pour qu’il n’en reste presque rien.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261019-5b4d97c5-th.jpg",
+      "mode": "reponse",
+      "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/vautours-fauves-pays-basque-bearn/",
+      "sujet": "Pays basque"
+    }
   }
 ]

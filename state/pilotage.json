@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-19T07:20:44.451Z",
+  "genereLe": "2026-10-19T08:00:44.910Z",
   "jour": "2026-10-19",
   "reseaux": {
     "instagram": {
@@ -561,7 +561,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 339,
+    "releves": 340,
     "parReseau": {
       "instagram": {
         "posts": 40,
@@ -640,7 +640,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-19T07:00:37.979Z"
+    "derniere": "2026-10-19T08:00:44.910Z"
   },
   "abonnes": {
     "instagram": {
@@ -679,8 +679,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-19T07:23:55.228Z",
-    "posts": 98,
+    "genereLe": "2026-10-19T08:00:51.369Z",
+    "posts": 99,
     "parReseau": {
       "instagram": {
         "posts": 24,
@@ -691,7 +691,7 @@
         "moyenne": 3.3
       },
       "bluesky": {
-        "posts": 24,
+        "posts": 25,
         "moyenne": 0.3
       },
       "facebook": {
@@ -705,7 +705,7 @@
         "moyenne": 3.6
       },
       "reply": {
-        "posts": 14,
+        "posts": 15,
         "moyenne": 0.5
       },
       "card": {
@@ -731,7 +731,7 @@
         "moyenne": 1.9
       },
       "matin": {
-        "posts": 60,
+        "posts": 61,
         "moyenne": 1.4
       }
     },
@@ -766,7 +766,7 @@
           "moyenne": 2.5
         },
         "8 h – 9 h 30": {
-          "posts": 17,
+          "posts": 18,
           "moyenne": 0.2
         },
         "12 h – 13 h 30": {
@@ -812,20 +812,20 @@
     },
     "moinsBon": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35801",
-      "channel": "facebook",
-      "mediaId": "227437307428711_1756014119857802",
-      "publieLe": "2026-10-18T06:23:39.094Z",
+      "channel": "bluesky",
+      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3my53elzvdb2d",
+      "publieLe": "2026-10-18T07:27:41.328Z",
       "jalon": 1,
-      "releveLe": "2026-10-19T07:00:37.979Z",
+      "releveLe": "2026-10-19T08:00:44.910Z",
       "likes": 0,
-      "commentairesBruts": 0,
+      "commentairesBruts": 1,
       "partages": 0,
       "vues": null,
       "commentaires": 0,
       "v": 2,
       "titre": "Ces flûtes en os de vautour venaient du Pays basque",
-      "lien": "https://www.facebook.com/1720946116697936/posts/1756014119857802",
-      "format": null,
+      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3my53elzvdb2d",
+      "format": "reply",
       "mention": false,
       "creneau": "matin",
       "creneauReseau": "8 h – 9 h 30"
@@ -836,7 +836,7 @@
         "moyenne": 5.2
       },
       "sans": {
-        "posts": 54,
+        "posts": 55,
         "moyenne": 0.6
       }
     },

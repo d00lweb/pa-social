@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-20T17:20:41.711Z",
+  "genereLe": "2026-10-20T18:01:02.353Z",
   "jour": "2026-10-20",
   "reseaux": {
     "instagram": {
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 8,
-      "total": 46,
-      "dernier": "2026-10-19T06:23:49.617Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1757101083082439"
+      "aujourdhui": 1,
+      "semaine": 9,
+      "total": 47,
+      "dernier": "2026-10-20T18:06:26.382Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1758761719583042"
     },
     "threads": {
       "actif": true,
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35835",
       "titre": "Il avait presque disparu : en Dordogne, ce rapace bat un record avec 95 naissances en 2026",
       "lien": "https://passion-aquitaine.ouest-france.fr/faucon-pelerin-dordogne-record-2026/",
-      "at": "2026-10-20T17:26:55.026Z",
+      "at": "2026-10-20T18:06:26.382Z",
       "reseaux": {
         "threads": {
           "texte": "On le croyait presque perdu, et pourtant… Le faucon pèlerin vient de battre un record en Dordogne : 🪺 95 jeunes ont pris leur envol en 2026. Un retour spectaculaire pour ce rapace, avec le meilleur résultat jamais enregistré dans le département.",
@@ -201,6 +201,14 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-10-20T17:26:55.026Z"
+        },
+        "facebook": {
+          "texte": "95 jeunes faucons pèlerins à l’envol en Dordogne : un record pour un rapace qui avait presque disparu 🐣",
+          "image": null,
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-20T18:06:26.382Z"
         }
       }
     },
@@ -447,6 +455,16 @@
   ],
   "publications": [
     {
+      "channel": "facebook",
+      "at": "2026-10-20T18:06:26.382Z",
+      "titre": "Il avait presque disparu : en Dordogne, ce rapace bat un record avec 95 naissances en 2026",
+      "lien": "https://passion-aquitaine.ouest-france.fr/faucon-pelerin-dordogne-record-2026/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1758761719583042",
+      "format": null,
+      "texte": "95 jeunes faucons pèlerins à l’envol en Dordogne : un record pour un rapace qui avait presque disparu 🐣",
+      "image": null
+    },
+    {
       "channel": "instagram",
       "at": "2026-10-20T17:26:55.026Z",
       "titre": "Il avait presque disparu : en Dordogne, ce rapace bat un record avec 95 naissances en 2026",
@@ -535,29 +553,9 @@
       "format": null,
       "texte": "Combien de temps faut-il à des vautours fauves pour faire disparaître un mouton mort au Pays basque ? Moins de 10 minutes 🐑",
       "image": null
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-10-18T10:27:53.108Z",
-      "titre": "Ces flûtes en os de vautour venaient du Pays basque",
-      "lien": "https://passion-aquitaine.ouest-france.fr/flutes-isturitz-pays-basque-os-vautour/",
-      "lienPost": "https://www.instagram.com/p/Deod73-nf4t/",
-      "format": null,
-      "texte": "Un os de vautour, quatre trous et plus de 25 000 ans d’histoire : 🦴 la grande flûte d’Isturitz est née au Pays basque.\n⠀\nLongue de 21 cm, cette flûte préhistorique a quitté sa terre d’origine : elle est aujourd’hui conservée en Île-de-France.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#PaysBasque #Prehistoire #Archeologie",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261018-f5704e68-1.jpg"
     }
   ],
-  "file": [
-    {
-      "channel": "facebook",
-      "dueAt": "2026-10-20T18:06:16.473Z",
-      "prochainPassage": "2026-10-20T18:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Il avait presque disparu : en Dordogne, ce rapace bat un record avec 95 naissances en 2026"
-    }
-  ],
+  "file": [],
   "alertes": [],
   "mesures": {
     "releves": 355,
@@ -639,7 +637,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-20T17:00:49.416Z"
+    "derniere": "2026-10-20T18:01:02.353Z"
   },
   "abonnes": {
     "instagram": {
@@ -678,7 +676,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-20T17:26:59.325Z",
+    "genereLe": "2026-10-20T18:06:30.589Z",
     "posts": 104,
     "parReseau": {
       "instagram": {
@@ -841,7 +839,7 @@
     },
     "publies": {
       "threads": 27,
-      "facebook": 26,
+      "facebook": 27,
       "bluesky": 27,
       "x": 27,
       "instagram": 27

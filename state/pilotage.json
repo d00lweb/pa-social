@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-20T12:00:46.037Z",
+  "genereLe": "2026-10-20T12:20:34.617Z",
   "jour": "2026-10-20",
   "reseaux": {
     "instagram": {
@@ -122,11 +122,11 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 7,
-      "total": 46,
-      "dernier": "2026-10-19T06:31:33.439Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DeqnZRulaaK"
+      "aujourdhui": 1,
+      "semaine": 8,
+      "total": 47,
+      "dernier": "2026-10-20T12:28:50.795Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/Det09fCFWUZ"
     },
     "x": {
       "actif": true,
@@ -164,6 +164,22 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35835",
+      "titre": "Il avait presque disparu : en Dordogne, ce rapace bat un record avec 95 naissances en 2026",
+      "lien": "https://passion-aquitaine.ouest-france.fr/faucon-pelerin-dordogne-record-2026/",
+      "at": "2026-10-20T12:28:50.795Z",
+      "reseaux": {
+        "threads": {
+          "texte": "On le croyait presque perdu, et pourtant… Le faucon pèlerin vient de battre un record en Dordogne : 🪺 95 jeunes ont pris leur envol en 2026. Un retour spectaculaire pour ce rapace, avec le meilleur résultat jamais enregistré dans le département.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261020-441e6c72-th.jpg",
+          "mode": "reponse",
+          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/faucon-pelerin-dordogne-record-2026/",
+          "sujet": "Dordogne",
+          "publieLe": "2026-10-20T12:28:50.795Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35814",
       "titre": "Pays basque : ces vautours qui dévorent un cadavre en 10 minutes",
@@ -403,57 +419,19 @@
           "publieLe": "2026-10-15T19:26:43.800Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=28331",
-      "titre": "Activités en famille en Corrèze : de Néandertal au labyrinthe",
-      "lien": "https://passion-aquitaine.ouest-france.fr/activites-famille-correze-neandertal-labyrinthe/",
-      "at": "2026-10-15T11:26:56.496Z",
-      "reseaux": {
-        "threads": {
-          "texte": "Cinq sorties en famille pour sortir des sentiers battus en Corrèze 🧭 Au programme, un gouffre où l’on descend à 20 m sous terre, une rencontre avec Néandertal et un labyrinthe de 5 000 m² où se perdre avec les enfants. De quoi remplir un week-end ou des vacances sans s’ennuyer.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261015-47e5964e-th.jpg",
-          "mode": "reponse",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/activites-famille-correze-neandertal-labyrinthe/",
-          "sujet": "Corrèze",
-          "publieLe": "2026-10-15T06:31:53.578Z"
-        },
-        "bluesky": {
-          "texte": "🦴 Un Néandertal, un gouffre à 20 m sous terre et un labyrinthe de 5 000 m² : la #Corrèze cache des sorties familiales bien plus surprenantes qu’on ne l’imagine. Cinq idées pour changer des balades habituelles.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261015-47e5964e-bsky.jpg",
-          "mode": "card",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-15T07:14:04.515Z"
-        },
-        "facebook": {
-          "texte": "En Corrèze, les enfants peuvent se perdre dans un labyrinthe de 5 000 m² puis croiser un Néandertal 🌽",
-          "image": null,
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-15T07:29:22.141Z"
-        },
-        "x": {
-          "texte": "En Corrèze, une sortie en famille peut mener à 🕳️ 20 m sous terre, au fond d’un gouffre. Néandertal et un labyrinthe de 5 000 m² complètent cinq idées inattendues.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261015-47e5964e-x.jpg",
-          "mode": "reponse",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/activites-famille-correze-neandertal-labyrinthe/",
-          "sujet": null,
-          "publieLe": "2026-10-15T08:01:01.969Z"
-        },
-        "instagram": {
-          "texte": "Descendre à 🕳️ 20 m sous terre en famille, c’est possible en Corrèze\n⠀\nUn gouffre, un Néandertal et un labyrinthe de 5 000 m² : cinq sorties inattendues pour occuper petits et grands le temps d’un week-end ou des vacances.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Correze #SortieEnFamille #Prehistoire",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261015-47e5964e-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-15T11:26:56.496Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "threads",
+      "at": "2026-10-20T12:28:50.795Z",
+      "titre": "Il avait presque disparu : en Dordogne, ce rapace bat un record avec 95 naissances en 2026",
+      "lien": "https://passion-aquitaine.ouest-france.fr/faucon-pelerin-dordogne-record-2026/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/Det09fCFWUZ",
+      "format": "reponse",
+      "texte": "On le croyait presque perdu, et pourtant… Le faucon pèlerin vient de battre un record en Dordogne : 🪺 95 jeunes ont pris leur envol en 2026. Un retour spectaculaire pour ce rapace, avec le meilleur résultat jamais enregistré dans le département.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261020-441e6c72-th.jpg"
+    },
     {
       "channel": "instagram",
       "at": "2026-10-19T10:12:57.094Z",
@@ -543,28 +521,9 @@
       "format": "reponse",
       "texte": "Plus de 25 000 ans : c’est l’âge de la grande flûte d’Isturitz 🎵 Un os de vautour, 21 cm, quatre trous… et un instrument venu tout droit du Pays basque. Étonnant détail : ce trésor préhistorique n’est plus sur place, il est conservé en Île-de-France. Vous auriez imaginé que la musique résonnait déjà dans ces vallées il y a si longtemps ?",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261018-f5704e68-th.jpg"
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-10-18T06:23:39.094Z",
-      "titre": "Ces flûtes en os de vautour venaient du Pays basque",
-      "lien": "https://passion-aquitaine.ouest-france.fr/flutes-isturitz-pays-basque-os-vautour/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1756014119857802",
-      "format": null,
-      "texte": "Imaginez le son d’une flûte taillée dans un os de vautour il y a plus de 25 000 ans, quelque part au Pays basque 🪶",
-      "image": null
     }
   ],
   "file": [
-    {
-      "channel": "threads",
-      "dueAt": "2026-10-20T12:25:02.027Z",
-      "prochainPassage": "2026-10-20T13:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Il avait presque disparu : en Dordogne, ce rapace bat un record avec 95 naissances en 2026"
-    },
     {
       "channel": "x",
       "dueAt": "2026-10-20T14:00:00.000Z",
@@ -683,7 +642,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-20T11:00:58.137Z"
+    "derniere": "2026-10-20T12:20:34.617Z"
   },
   "abonnes": {
     "instagram": {
@@ -722,7 +681,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-20T12:01:31.270Z",
+    "genereLe": "2026-10-20T12:29:00.677Z",
     "posts": 104,
     "parReseau": {
       "instagram": {
@@ -884,7 +843,7 @@
       }
     },
     "publies": {
-      "threads": 26,
+      "threads": 27,
       "facebook": 26,
       "bluesky": 26,
       "x": 26,

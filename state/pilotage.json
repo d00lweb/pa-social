@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-20T16:20:32.390Z",
+  "genereLe": "2026-10-20T17:00:49.416Z",
   "jour": "2026-10-20",
   "reseaux": {
     "instagram": {
@@ -25,7 +25,7 @@
       },
       "formats": null,
       "aujourdhui": 0,
-      "semaine": 8,
+      "semaine": 7,
       "total": 51,
       "dernier": "2026-10-19T10:12:57.094Z",
       "lienDernier": "https://www.instagram.com/p/DerBBPlj-Sy/"
@@ -561,11 +561,11 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 354,
+    "releves": 355,
     "parReseau": {
       "instagram": {
-        "posts": 43,
-        "interactionsMoyennes": 14
+        "posts": 44,
+        "interactionsMoyennes": 13.7
       },
       "bluesky": {
         "posts": 42,
@@ -640,7 +640,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-20T15:20:54.957Z"
+    "derniere": "2026-10-20T17:00:49.416Z"
   },
   "abonnes": {
     "instagram": {
@@ -679,7 +679,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-20T16:25:11.878Z",
+    "genereLe": "2026-10-20T17:00:56.639Z",
     "posts": 104,
     "parReseau": {
       "instagram": {

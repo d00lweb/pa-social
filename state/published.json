@@ -4216,5 +4216,23 @@
       "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/faucon-pelerin-dordogne-record-2026/",
       "sujet": "Dordogne"
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35835",
+    "channel": "x",
+    "at": "2026-10-20T14:01:21.262Z",
+    "mediaId": "kit-telegram",
+    "titre": "Il avait presque disparu : en Dordogne, ce rapace bat un record avec 95 naissances en 2026",
+    "lien": "https://passion-aquitaine.ouest-france.fr/faucon-pelerin-dordogne-record-2026/",
+    "lienPost": null,
+    "format": "reponse",
+    "mention": true,
+    "apercu": {
+      "texte": "Lever les yeux au ciel en #Dordogne vaut de nouveau le coup : le faucon pèlerin, presque disparu, y compte 95 jeunes à l’envol en 2026, un record 🔭",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261020-441e6c72-x.jpg",
+      "mode": "reponse",
+      "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/faucon-pelerin-dordogne-record-2026/",
+      "sujet": null
+    }
   }
 ]

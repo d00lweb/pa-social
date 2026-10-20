@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-20T13:20:37.630Z",
+  "genereLe": "2026-10-20T14:01:15.360Z",
   "jour": "2026-10-20",
   "reseaux": {
     "instagram": {
@@ -156,10 +156,10 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 7,
-      "total": 49,
-      "dernier": "2026-10-19T08:20:47.097Z",
+      "aujourdhui": 1,
+      "semaine": 8,
+      "total": 50,
+      "dernier": "2026-10-20T14:01:21.262Z",
       "lienDernier": null
     }
   },
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35835",
       "titre": "Il avait presque disparu : en Dordogne, ce rapace bat un record avec 95 naissances en 2026",
       "lien": "https://passion-aquitaine.ouest-france.fr/faucon-pelerin-dordogne-record-2026/",
-      "at": "2026-10-20T12:28:50.795Z",
+      "at": "2026-10-20T14:01:21.262Z",
       "reseaux": {
         "threads": {
           "texte": "On le croyait presque perdu, et pourtant… Le faucon pèlerin vient de battre un record en Dordogne : 🪺 95 jeunes ont pris leur envol en 2026. Un retour spectaculaire pour ce rapace, avec le meilleur résultat jamais enregistré dans le département.",
@@ -177,6 +177,14 @@
           "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/faucon-pelerin-dordogne-record-2026/",
           "sujet": "Dordogne",
           "publieLe": "2026-10-20T12:28:50.795Z"
+        },
+        "x": {
+          "texte": "Lever les yeux au ciel en #Dordogne vaut de nouveau le coup : le faucon pèlerin, presque disparu, y compte 95 jeunes à l’envol en 2026, un record 🔭",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261020-441e6c72-x.jpg",
+          "mode": "reponse",
+          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/faucon-pelerin-dordogne-record-2026/",
+          "sujet": null,
+          "publieLe": "2026-10-20T14:01:21.262Z"
         }
       }
     },
@@ -423,6 +431,16 @@
   ],
   "publications": [
     {
+      "channel": "x",
+      "at": "2026-10-20T14:01:21.262Z",
+      "titre": "Il avait presque disparu : en Dordogne, ce rapace bat un record avec 95 naissances en 2026",
+      "lien": "https://passion-aquitaine.ouest-france.fr/faucon-pelerin-dordogne-record-2026/",
+      "lienPost": null,
+      "format": "reponse",
+      "texte": "Lever les yeux au ciel en #Dordogne vaut de nouveau le coup : le faucon pèlerin, presque disparu, y compte 95 jeunes à l’envol en 2026, un record 🔭",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261020-441e6c72-x.jpg"
+    },
+    {
       "channel": "threads",
       "at": "2026-10-20T12:28:50.795Z",
       "titre": "Il avait presque disparu : en Dordogne, ce rapace bat un record avec 95 naissances en 2026",
@@ -511,28 +529,9 @@
       "format": "reponse",
       "texte": "Au Pays basque, à #Isturitz, des humains jouaient déjà de la musique : 🪈 la grande flûte, en os de vautour, a plus de 25 000 ans. Elle est aujourd’hui en Île-de-France.",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261018-f5704e68-x.jpg"
-    },
-    {
-      "channel": "threads",
-      "at": "2026-10-18T06:29:37.590Z",
-      "titre": "Ces flûtes en os de vautour venaient du Pays basque",
-      "lien": "https://passion-aquitaine.ouest-france.fr/flutes-isturitz-pays-basque-os-vautour/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/DeoCZ30kSfL",
-      "format": "reponse",
-      "texte": "Plus de 25 000 ans : c’est l’âge de la grande flûte d’Isturitz 🎵 Un os de vautour, 21 cm, quatre trous… et un instrument venu tout droit du Pays basque. Étonnant détail : ce trésor préhistorique n’est plus sur place, il est conservé en Île-de-France. Vous auriez imaginé que la musique résonnait déjà dans ces vallées il y a si longtemps ?",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261018-f5704e68-th.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "x",
-      "dueAt": "2026-10-20T14:00:00.000Z",
-      "prochainPassage": "2026-10-20T14:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Il avait presque disparu : en Dordogne, ce rapace bat un record avec 95 naissances en 2026"
-    },
     {
       "channel": "bluesky",
       "dueAt": "2026-10-20T16:24:59.949Z",
@@ -681,7 +680,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-20T13:20:44.733Z",
+    "genereLe": "2026-10-20T14:01:28.213Z",
     "posts": 104,
     "parReseau": {
       "instagram": {
@@ -846,7 +845,7 @@
       "threads": 27,
       "facebook": 26,
       "bluesky": 26,
-      "x": 26,
+      "x": 27,
       "instagram": 26
     },
     "abonnes": {

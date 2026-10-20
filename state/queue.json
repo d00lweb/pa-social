@@ -1,1 +1,542 @@
-[]
+[
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35835",
+    "channel": "instagram",
+    "dueAt": 1792517185459,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Il avait presque disparu : en Dordogne, ce rapace bat un record avec 95 naissances en 2026",
+      "link": "https://passion-aquitaine.ouest-france.fr/faucon-pelerin-dordogne-record-2026/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35835",
+      "pubDate": "Tue, 20 Oct 2026 11:21:33 +0000",
+      "date": 1792495293000,
+      "categories": [
+        "Actus",
+        "Dordogne",
+        "Dordogne LOI"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/10/faucon_pelerin_01.jpg",
+      "description": "Le faucon pèlerin effectue un retour spectaculaire en Dordogne, avec 95 jeunes à l’envol en 2026, un record pour le département."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Dordogne",
+      "visuel": {
+        "titre": "Il avait presque disparu : ce rapace bat un record avec 95 naissances en 2026",
+        "surlignage": "95 naissances",
+        "description": "Le faucon pèlerin signe un retour spectaculaire : 95 jeunes ont pris leur envol cette année, un record pour le département.",
+        "texte_alternatif": "Le faucon pèlerin, rapace qui avait presque disparu, fait son retour en Dordogne avec 95 jeunes à l’envol en 2026, un record pour le département."
+      },
+      "entites": [],
+      "domaines": [
+        "ornithologie",
+        "biodiversité"
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "Quel rapace, presque disparu, vient de battre un record en Dordogne ?\nLe faucon pèlerin signe un retour spectaculaire : 95 jeunes à l’envol en 2026, du jamais vu dans le département 🦅",
+        "hashtags": [
+          "#Dordogne",
+          "#FauconPelerin",
+          "#Biodiversite"
+        ]
+      },
+      "facebook": {
+        "texte": "95 jeunes faucons pèlerins à l’envol en Dordogne : un record pour un rapace qui avait presque disparu 🐣"
+      },
+      "bluesky": {
+        "texte": "En Dordogne, le faucon pèlerin revient de loin 📈 Le rapace, qui avait presque disparu, compte 95 jeunes à l’envol en 2026. Jamais le département n’en avait recensé autant.",
+        "hashtag": "#Dordogne"
+      },
+      "threads": {
+        "texte": "On le croyait presque perdu, et pourtant… Le faucon pèlerin vient de battre un record en Dordogne : 🪺 95 jeunes ont pris leur envol en 2026. Un retour spectaculaire pour ce rapace, avec le meilleur résultat jamais enregistré dans le département.",
+        "sujet": "Dordogne"
+      },
+      "x": {
+        "texte": "Lever les yeux au ciel en Dordogne vaut de nouveau le coup : le faucon pèlerin, presque disparu, y compte 95 jeunes à l’envol en 2026, un record 🔭"
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 8025,
+        "output": 1736
+      },
+      "angles": {
+        "instagram": "question intrigante",
+        "facebook": "chiffre ou fait marquant en tête",
+        "bluesky": "lieu en tête",
+        "threads": "effet de surprise",
+        "x": "bénéfice pour le lecteur"
+      },
+      "lieuSource": {
+        "precis": "",
+        "ville": "",
+        "departement": "Dordogne"
+      },
+      "lieuNom": "Dordogne",
+      "commune": null,
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Conseil départemental de la Dordogne",
+            "handle": "cddordogne24",
+            "abonnes": 3545,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "Dordogne",
+            "handle": "cddordogne",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35835",
+    "channel": "bluesky",
+    "dueAt": 1792513499949,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Il avait presque disparu : en Dordogne, ce rapace bat un record avec 95 naissances en 2026",
+      "link": "https://passion-aquitaine.ouest-france.fr/faucon-pelerin-dordogne-record-2026/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35835",
+      "pubDate": "Tue, 20 Oct 2026 11:21:33 +0000",
+      "date": 1792495293000,
+      "categories": [
+        "Actus",
+        "Dordogne",
+        "Dordogne LOI"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/10/faucon_pelerin_01.jpg",
+      "description": "Le faucon pèlerin effectue un retour spectaculaire en Dordogne, avec 95 jeunes à l’envol en 2026, un record pour le département."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Dordogne",
+      "visuel": {
+        "titre": "Il avait presque disparu : ce rapace bat un record avec 95 naissances en 2026",
+        "surlignage": "95 naissances",
+        "description": "Le faucon pèlerin signe un retour spectaculaire : 95 jeunes ont pris leur envol cette année, un record pour le département.",
+        "texte_alternatif": "Le faucon pèlerin, rapace qui avait presque disparu, fait son retour en Dordogne avec 95 jeunes à l’envol en 2026, un record pour le département."
+      },
+      "entites": [],
+      "domaines": [
+        "ornithologie",
+        "biodiversité"
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "Quel rapace, presque disparu, vient de battre un record en Dordogne ?\nLe faucon pèlerin signe un retour spectaculaire : 95 jeunes à l’envol en 2026, du jamais vu dans le département 🦅",
+        "hashtags": [
+          "#Dordogne",
+          "#FauconPelerin",
+          "#Biodiversite"
+        ]
+      },
+      "facebook": {
+        "texte": "95 jeunes faucons pèlerins à l’envol en Dordogne : un record pour un rapace qui avait presque disparu 🐣"
+      },
+      "bluesky": {
+        "texte": "En Dordogne, le faucon pèlerin revient de loin 📈 Le rapace, qui avait presque disparu, compte 95 jeunes à l’envol en 2026. Jamais le département n’en avait recensé autant.",
+        "hashtag": "#Dordogne"
+      },
+      "threads": {
+        "texte": "On le croyait presque perdu, et pourtant… Le faucon pèlerin vient de battre un record en Dordogne : 🪺 95 jeunes ont pris leur envol en 2026. Un retour spectaculaire pour ce rapace, avec le meilleur résultat jamais enregistré dans le département.",
+        "sujet": "Dordogne"
+      },
+      "x": {
+        "texte": "Lever les yeux au ciel en Dordogne vaut de nouveau le coup : le faucon pèlerin, presque disparu, y compte 95 jeunes à l’envol en 2026, un record 🔭"
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 8025,
+        "output": 1736
+      },
+      "angles": {
+        "instagram": "question intrigante",
+        "facebook": "chiffre ou fait marquant en tête",
+        "bluesky": "lieu en tête",
+        "threads": "effet de surprise",
+        "x": "bénéfice pour le lecteur"
+      },
+      "lieuSource": {
+        "precis": "",
+        "ville": "",
+        "departement": "Dordogne"
+      },
+      "lieuNom": "Dordogne",
+      "commune": null,
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Conseil départemental de la Dordogne",
+            "handle": "cddordogne24",
+            "abonnes": 3545,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "Dordogne",
+            "handle": "cddordogne",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35835",
+    "channel": "facebook",
+    "dueAt": 1792519576473,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Il avait presque disparu : en Dordogne, ce rapace bat un record avec 95 naissances en 2026",
+      "link": "https://passion-aquitaine.ouest-france.fr/faucon-pelerin-dordogne-record-2026/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35835",
+      "pubDate": "Tue, 20 Oct 2026 11:21:33 +0000",
+      "date": 1792495293000,
+      "categories": [
+        "Actus",
+        "Dordogne",
+        "Dordogne LOI"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/10/faucon_pelerin_01.jpg",
+      "description": "Le faucon pèlerin effectue un retour spectaculaire en Dordogne, avec 95 jeunes à l’envol en 2026, un record pour le département."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Dordogne",
+      "visuel": {
+        "titre": "Il avait presque disparu : ce rapace bat un record avec 95 naissances en 2026",
+        "surlignage": "95 naissances",
+        "description": "Le faucon pèlerin signe un retour spectaculaire : 95 jeunes ont pris leur envol cette année, un record pour le département.",
+        "texte_alternatif": "Le faucon pèlerin, rapace qui avait presque disparu, fait son retour en Dordogne avec 95 jeunes à l’envol en 2026, un record pour le département."
+      },
+      "entites": [],
+      "domaines": [
+        "ornithologie",
+        "biodiversité"
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "Quel rapace, presque disparu, vient de battre un record en Dordogne ?\nLe faucon pèlerin signe un retour spectaculaire : 95 jeunes à l’envol en 2026, du jamais vu dans le département 🦅",
+        "hashtags": [
+          "#Dordogne",
+          "#FauconPelerin",
+          "#Biodiversite"
+        ]
+      },
+      "facebook": {
+        "texte": "95 jeunes faucons pèlerins à l’envol en Dordogne : un record pour un rapace qui avait presque disparu 🐣"
+      },
+      "bluesky": {
+        "texte": "En Dordogne, le faucon pèlerin revient de loin 📈 Le rapace, qui avait presque disparu, compte 95 jeunes à l’envol en 2026. Jamais le département n’en avait recensé autant.",
+        "hashtag": "#Dordogne"
+      },
+      "threads": {
+        "texte": "On le croyait presque perdu, et pourtant… Le faucon pèlerin vient de battre un record en Dordogne : 🪺 95 jeunes ont pris leur envol en 2026. Un retour spectaculaire pour ce rapace, avec le meilleur résultat jamais enregistré dans le département.",
+        "sujet": "Dordogne"
+      },
+      "x": {
+        "texte": "Lever les yeux au ciel en Dordogne vaut de nouveau le coup : le faucon pèlerin, presque disparu, y compte 95 jeunes à l’envol en 2026, un record 🔭"
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 8025,
+        "output": 1736
+      },
+      "angles": {
+        "instagram": "question intrigante",
+        "facebook": "chiffre ou fait marquant en tête",
+        "bluesky": "lieu en tête",
+        "threads": "effet de surprise",
+        "x": "bénéfice pour le lecteur"
+      },
+      "lieuSource": {
+        "precis": "",
+        "ville": "",
+        "departement": "Dordogne"
+      },
+      "lieuNom": "Dordogne",
+      "commune": null,
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Conseil départemental de la Dordogne",
+            "handle": "cddordogne24",
+            "abonnes": 3545,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "Dordogne",
+            "handle": "cddordogne",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35835",
+    "channel": "threads",
+    "dueAt": 1792499102027,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Il avait presque disparu : en Dordogne, ce rapace bat un record avec 95 naissances en 2026",
+      "link": "https://passion-aquitaine.ouest-france.fr/faucon-pelerin-dordogne-record-2026/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35835",
+      "pubDate": "Tue, 20 Oct 2026 11:21:33 +0000",
+      "date": 1792495293000,
+      "categories": [
+        "Actus",
+        "Dordogne",
+        "Dordogne LOI"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/10/faucon_pelerin_01.jpg",
+      "description": "Le faucon pèlerin effectue un retour spectaculaire en Dordogne, avec 95 jeunes à l’envol en 2026, un record pour le département."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Dordogne",
+      "visuel": {
+        "titre": "Il avait presque disparu : ce rapace bat un record avec 95 naissances en 2026",
+        "surlignage": "95 naissances",
+        "description": "Le faucon pèlerin signe un retour spectaculaire : 95 jeunes ont pris leur envol cette année, un record pour le département.",
+        "texte_alternatif": "Le faucon pèlerin, rapace qui avait presque disparu, fait son retour en Dordogne avec 95 jeunes à l’envol en 2026, un record pour le département."
+      },
+      "entites": [],
+      "domaines": [
+        "ornithologie",
+        "biodiversité"
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "Quel rapace, presque disparu, vient de battre un record en Dordogne ?\nLe faucon pèlerin signe un retour spectaculaire : 95 jeunes à l’envol en 2026, du jamais vu dans le département 🦅",
+        "hashtags": [
+          "#Dordogne",
+          "#FauconPelerin",
+          "#Biodiversite"
+        ]
+      },
+      "facebook": {
+        "texte": "95 jeunes faucons pèlerins à l’envol en Dordogne : un record pour un rapace qui avait presque disparu 🐣"
+      },
+      "bluesky": {
+        "texte": "En Dordogne, le faucon pèlerin revient de loin 📈 Le rapace, qui avait presque disparu, compte 95 jeunes à l’envol en 2026. Jamais le département n’en avait recensé autant.",
+        "hashtag": "#Dordogne"
+      },
+      "threads": {
+        "texte": "On le croyait presque perdu, et pourtant… Le faucon pèlerin vient de battre un record en Dordogne : 🪺 95 jeunes ont pris leur envol en 2026. Un retour spectaculaire pour ce rapace, avec le meilleur résultat jamais enregistré dans le département.",
+        "sujet": "Dordogne"
+      },
+      "x": {
+        "texte": "Lever les yeux au ciel en Dordogne vaut de nouveau le coup : le faucon pèlerin, presque disparu, y compte 95 jeunes à l’envol en 2026, un record 🔭"
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 8025,
+        "output": 1736
+      },
+      "angles": {
+        "instagram": "question intrigante",
+        "facebook": "chiffre ou fait marquant en tête",
+        "bluesky": "lieu en tête",
+        "threads": "effet de surprise",
+        "x": "bénéfice pour le lecteur"
+      },
+      "lieuSource": {
+        "precis": "",
+        "ville": "",
+        "departement": "Dordogne"
+      },
+      "lieuNom": "Dordogne",
+      "commune": null,
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Conseil départemental de la Dordogne",
+            "handle": "cddordogne24",
+            "abonnes": 3545,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "Dordogne",
+            "handle": "cddordogne",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35835",
+    "channel": "x",
+    "dueAt": 1792504800000,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Il avait presque disparu : en Dordogne, ce rapace bat un record avec 95 naissances en 2026",
+      "link": "https://passion-aquitaine.ouest-france.fr/faucon-pelerin-dordogne-record-2026/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35835",
+      "pubDate": "Tue, 20 Oct 2026 11:21:33 +0000",
+      "date": 1792495293000,
+      "categories": [
+        "Actus",
+        "Dordogne",
+        "Dordogne LOI"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/10/faucon_pelerin_01.jpg",
+      "description": "Le faucon pèlerin effectue un retour spectaculaire en Dordogne, avec 95 jeunes à l’envol en 2026, un record pour le département."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Dordogne",
+      "visuel": {
+        "titre": "Il avait presque disparu : ce rapace bat un record avec 95 naissances en 2026",
+        "surlignage": "95 naissances",
+        "description": "Le faucon pèlerin signe un retour spectaculaire : 95 jeunes ont pris leur envol cette année, un record pour le département.",
+        "texte_alternatif": "Le faucon pèlerin, rapace qui avait presque disparu, fait son retour en Dordogne avec 95 jeunes à l’envol en 2026, un record pour le département."
+      },
+      "entites": [],
+      "domaines": [
+        "ornithologie",
+        "biodiversité"
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "Quel rapace, presque disparu, vient de battre un record en Dordogne ?\nLe faucon pèlerin signe un retour spectaculaire : 95 jeunes à l’envol en 2026, du jamais vu dans le département 🦅",
+        "hashtags": [
+          "#Dordogne",
+          "#FauconPelerin",
+          "#Biodiversite"
+        ]
+      },
+      "facebook": {
+        "texte": "95 jeunes faucons pèlerins à l’envol en Dordogne : un record pour un rapace qui avait presque disparu 🐣"
+      },
+      "bluesky": {
+        "texte": "En Dordogne, le faucon pèlerin revient de loin 📈 Le rapace, qui avait presque disparu, compte 95 jeunes à l’envol en 2026. Jamais le département n’en avait recensé autant.",
+        "hashtag": "#Dordogne"
+      },
+      "threads": {
+        "texte": "On le croyait presque perdu, et pourtant… Le faucon pèlerin vient de battre un record en Dordogne : 🪺 95 jeunes ont pris leur envol en 2026. Un retour spectaculaire pour ce rapace, avec le meilleur résultat jamais enregistré dans le département.",
+        "sujet": "Dordogne"
+      },
+      "x": {
+        "texte": "Lever les yeux au ciel en Dordogne vaut de nouveau le coup : le faucon pèlerin, presque disparu, y compte 95 jeunes à l’envol en 2026, un record 🔭"
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 8025,
+        "output": 1736
+      },
+      "angles": {
+        "instagram": "question intrigante",
+        "facebook": "chiffre ou fait marquant en tête",
+        "bluesky": "lieu en tête",
+        "threads": "effet de surprise",
+        "x": "bénéfice pour le lecteur"
+      },
+      "lieuSource": {
+        "precis": "",
+        "ville": "",
+        "departement": "Dordogne"
+      },
+      "lieuNom": "Dordogne",
+      "commune": null,
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Conseil départemental de la Dordogne",
+            "handle": "cddordogne24",
+            "abonnes": 3545,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "Dordogne",
+            "handle": "cddordogne",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  }
+]

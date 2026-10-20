@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-20T11:20:39.864Z",
+  "genereLe": "2026-10-20T12:00:46.037Z",
   "jour": "2026-10-20",
   "reseaux": {
     "instagram": {
@@ -555,7 +555,53 @@
       "image": null
     }
   ],
-  "file": [],
+  "file": [
+    {
+      "channel": "threads",
+      "dueAt": "2026-10-20T12:25:02.027Z",
+      "prochainPassage": "2026-10-20T13:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Il avait presque disparu : en Dordogne, ce rapace bat un record avec 95 naissances en 2026"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-10-20T14:00:00.000Z",
+      "prochainPassage": "2026-10-20T14:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Il avait presque disparu : en Dordogne, ce rapace bat un record avec 95 naissances en 2026"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-10-20T16:24:59.949Z",
+      "prochainPassage": "2026-10-20T17:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Il avait presque disparu : en Dordogne, ce rapace bat un record avec 95 naissances en 2026"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-10-20T17:26:25.459Z",
+      "prochainPassage": "2026-10-20T18:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Il avait presque disparu : en Dordogne, ce rapace bat un record avec 95 naissances en 2026"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-10-20T18:06:16.473Z",
+      "prochainPassage": "2026-10-20T18:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Il avait presque disparu : en Dordogne, ce rapace bat un record avec 95 naissances en 2026"
+    }
+  ],
   "alertes": [],
   "mesures": {
     "releves": 354,
@@ -676,7 +722,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-20T11:20:44.040Z",
+    "genereLe": "2026-10-20T12:01:31.270Z",
     "posts": 104,
     "parReseau": {
       "instagram": {
@@ -893,29 +939,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 0,
-      "entree": 0,
-      "sortie": 0,
-      "cout": 0,
+      "appels": 2,
+      "entree": 15997,
+      "sortie": 2512,
+      "cout": 0.114228,
       "cle": "2026-10-20"
     },
     "semaine": {
-      "appels": 8,
-      "entree": 63884,
-      "sortie": 7012,
-      "cout": 0.395776
+      "appels": 10,
+      "entree": 79881,
+      "sortie": 9524,
+      "cout": 0.510004
     },
     "mois": {
-      "appels": 45,
-      "entree": 355720,
-      "sortie": 43024,
-      "cout": 2.28336,
+      "appels": 47,
+      "entree": 371717,
+      "sortie": 45536,
+      "cout": 2.397588,
       "cle": "2026-10"
     },
-    "projection": 3.54,
-    "moyenneAppel": 0.0507,
+    "projection": 3.72,
+    "moyenneAppel": 0.051,
     "parModele": {
-      "claude-opus-5-5": 45
+      "claude-opus-5-5": 47
     },
     "serie": [
       [
@@ -972,7 +1018,7 @@
       ],
       [
         "2026-10-20",
-        0
+        0.1142
       ]
     ],
     "depuis": "2026-09-23"

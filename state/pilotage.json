@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-20T10:22:21.047Z",
+  "genereLe": "2026-10-20T11:00:58.137Z",
   "jour": "2026-10-20",
   "reseaux": {
     "instagram": {
@@ -25,7 +25,7 @@
       },
       "formats": null,
       "aujourdhui": 0,
-      "semaine": 9,
+      "semaine": 8,
       "total": 51,
       "dernier": "2026-10-19T10:12:57.094Z",
       "lienDernier": "https://www.instagram.com/p/DerBBPlj-Sy/"
@@ -558,11 +558,11 @@
   "file": [],
   "alertes": [],
   "mesures": {
-    "releves": 353,
+    "releves": 354,
     "parReseau": {
       "instagram": {
-        "posts": 42,
-        "interactionsMoyennes": 12.6
+        "posts": 43,
+        "interactionsMoyennes": 14
       },
       "bluesky": {
         "posts": 42,
@@ -637,7 +637,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-20T10:00:43.794Z"
+    "derniere": "2026-10-20T11:00:58.137Z"
   },
   "abonnes": {
     "instagram": {
@@ -676,12 +676,12 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-20T10:22:25.125Z",
+    "genereLe": "2026-10-20T11:01:07.688Z",
     "posts": 104,
     "parReseau": {
       "instagram": {
         "posts": 26,
-        "moyenne": 7.3
+        "moyenne": 9.8
       },
       "threads": {
         "posts": 26,
@@ -721,7 +721,7 @@
     "parCreneau": {
       "après-midi": {
         "posts": 24,
-        "moyenne": 6.6
+        "moyenne": 9.3
       },
       "soir": {
         "posts": 16,
@@ -774,7 +774,7 @@
       "instagram": {
         "12 h – 13 h 30": {
           "posts": 17,
-          "moyenne": 8.9
+          "moyenne": 12.8
         },
         "18 h – 19 h 30": {
           "posts": 7,
@@ -786,7 +786,7 @@
         }
       }
     },
-    "interactionsTotal": 291,
+    "interactionsTotal": 357,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35575",
       "channel": "instagram",
@@ -830,7 +830,7 @@
     "mentions": {
       "avec": {
         "posts": 46,
-        "moyenne": 5.4
+        "moyenne": 6.8
       },
       "sans": {
         "posts": 58,
@@ -880,13 +880,13 @@
       "x": null
     },
     "engagement": {
-      "instagram": 0.07,
+      "instagram": 0.1,
       "threads": 0.31,
       "facebook": 0
     },
     "conseils": [
       "Threads : le créneau 7 h – 8 h 30 fait 3,6 fois mieux que 10 h – 11 h 30 (4.3 contre 1.2 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
-      "Instagram : le créneau 12 h – 13 h 30 fait 2 fois mieux que 18 h – 19 h 30 (8.9 contre 4.4 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
+      "Instagram : le créneau 12 h – 13 h 30 fait 2,9 fois mieux que 18 h – 19 h 30 (12.8 contre 4.4 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Le format « reponse » fait 39 fois mieux que « lien » (3.9 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « lien » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+3, +0,3 %) ; Facebook recule (−18), à surveiller."
     ]

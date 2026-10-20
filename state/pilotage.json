@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-20T06:20:39.440Z",
+  "genereLe": "2026-10-20T07:00:40.454Z",
   "jour": "2026-10-20",
   "reseaux": {
     "instagram": {
@@ -89,7 +89,7 @@
       },
       "formats": null,
       "aujourdhui": 0,
-      "semaine": 9,
+      "semaine": 8,
       "total": 46,
       "dernier": "2026-10-19T06:23:49.617Z",
       "lienDernier": "https://www.facebook.com/1720946116697936/posts/1757101083082439"
@@ -123,7 +123,7 @@
         "reponse"
       ],
       "aujourdhui": 0,
-      "semaine": 8,
+      "semaine": 7,
       "total": 46,
       "dernier": "2026-10-19T06:31:33.439Z",
       "lienDernier": "https://www.threads.com/@lovaquitaine/post/DeqnZRulaaK"
@@ -558,7 +558,7 @@
   "file": [],
   "alertes": [],
   "mesures": {
-    "releves": 346,
+    "releves": 350,
     "parReseau": {
       "instagram": {
         "posts": 42,
@@ -569,12 +569,12 @@
         "interactionsMoyennes": 0.2
       },
       "facebook": {
-        "posts": 37,
+        "posts": 38,
         "interactionsMoyennes": 0
       },
       "threads": {
-        "posts": 38,
-        "interactionsMoyennes": 6.8
+        "posts": 39,
+        "interactionsMoyennes": 6.6
       }
     }
   },
@@ -676,30 +676,30 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-20T06:20:46.866Z",
-    "posts": 100,
+    "genereLe": "2026-10-20T07:00:46.088Z",
+    "posts": 102,
     "parReseau": {
       "instagram": {
         "posts": 25,
         "moyenne": 7.4
       },
       "threads": {
-        "posts": 25,
-        "moyenne": 3.3
+        "posts": 26,
+        "moyenne": 3.6
       },
       "bluesky": {
         "posts": 25,
         "moyenne": 0.3
       },
       "facebook": {
-        "posts": 25,
+        "posts": 26,
         "moyenne": 0
       }
     },
     "parFormat": {
       "reponse": {
-        "posts": 23,
-        "moyenne": 3.6
+        "posts": 24,
+        "moyenne": 3.9
       },
       "reply": {
         "posts": 15,
@@ -728,15 +728,15 @@
         "moyenne": 2.3
       },
       "matin": {
-        "posts": 61,
-        "moyenne": 1.4
+        "posts": 63,
+        "moyenne": 1.5
       }
     },
     "parCreneauReseau": {
       "threads": {
         "7 h – 8 h 30": {
-          "posts": 18,
-          "moyenne": 3.9
+          "posts": 19,
+          "moyenne": 4.3
         },
         "13 h – 14 h 30": {
           "posts": 2,
@@ -749,7 +749,7 @@
       },
       "facebook": {
         "8 h – 9 h 30": {
-          "posts": 18,
+          "posts": 19,
           "moyenne": 0
         },
         "20 h – 21 h 30": {
@@ -786,7 +786,7 @@
         }
       }
     },
-    "interactionsTotal": 277,
+    "interactionsTotal": 288,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35575",
       "channel": "instagram",
@@ -808,21 +808,21 @@
       "creneauReseau": "12 h – 13 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35801",
-      "channel": "bluesky",
-      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3my53elzvdb2d",
-      "publieLe": "2026-10-18T07:27:41.328Z",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35814",
+      "channel": "facebook",
+      "mediaId": "227437307428711_1757101083082439",
+      "publieLe": "2026-10-19T06:23:49.617Z",
       "jalon": 1,
-      "releveLe": "2026-10-19T08:00:44.910Z",
+      "releveLe": "2026-10-20T07:00:40.454Z",
       "likes": 0,
-      "commentairesBruts": 1,
+      "commentairesBruts": 0,
       "partages": 0,
       "vues": null,
       "commentaires": 0,
       "v": 2,
-      "titre": "Ces flûtes en os de vautour venaient du Pays basque",
-      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3my53elzvdb2d",
-      "format": "reply",
+      "titre": "Pays basque : ces vautours qui dévorent un cadavre en 10 minutes",
+      "lien": "https://www.facebook.com/1720946116697936/posts/1757101083082439",
+      "format": null,
       "mention": false,
       "creneau": "matin",
       "creneauReseau": "8 h – 9 h 30"
@@ -833,8 +833,8 @@
         "moyenne": 5.4
       },
       "sans": {
-        "posts": 55,
-        "moyenne": 0.6
+        "posts": 57,
+        "moyenne": 0.8
       }
     },
     "publies": {
@@ -881,13 +881,13 @@
     },
     "engagement": {
       "instagram": 0.07,
-      "threads": 0.29,
+      "threads": 0.31,
       "facebook": 0
     },
     "conseils": [
-      "Threads : le créneau 7 h – 8 h 30 fait 3,3 fois mieux que 10 h – 11 h 30 (3.9 contre 1.2 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
+      "Threads : le créneau 7 h – 8 h 30 fait 3,6 fois mieux que 10 h – 11 h 30 (4.3 contre 1.2 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Instagram : le créneau 12 h – 13 h 30 fait 2,1 fois mieux que 18 h – 19 h 30 (9.3 contre 4.4 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
-      "Le format « reponse » fait 36 fois mieux que « lien » (3.6 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « lien » de la rotation dans config/channels.json.",
+      "Le format « reponse » fait 39 fois mieux que « lien » (3.9 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « lien » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+3, +0,3 %) ; Facebook recule (−18), à surveiller."
     ]
   },

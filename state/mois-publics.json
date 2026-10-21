@@ -3,7 +3,7 @@
     "cle": "2026-10",
     "publications": 135,
     "articles": 27,
-    "interactions": 358,
+    "interactions": 602,
     "parReseau": {
       "facebook": 27,
       "instagram": 27,
@@ -19,6 +19,13 @@
       "bluesky": 5
     },
     "top": [
+      {
+        "reseau": "threads",
+        "titre": "Il avait presque disparu : en Dordogne, ce rapace bat un record avec 95 naissances en 2026",
+        "lien": "https://www.threads.com/@lovaquitaine/post/Det09fCFWUZ",
+        "image": "https://passion-aquitaine.ouest-france.fr/social/20261020-441e6c72-1-vignette.jpg",
+        "interactions": 244
+      },
       {
         "reseau": "instagram",
         "titre": "À Limoges, Le Cheverny abrite une des meilleures caves de France",
@@ -46,13 +53,6 @@
         "lien": "https://www.instagram.com/p/DeZq4qWGPd0/",
         "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-6a2c2b25-1-vignette.jpg",
         "interactions": 14
-      },
-      {
-        "reseau": "instagram",
-        "titre": "Ces flûtes en os de vautour venaient du Pays basque",
-        "lien": "https://www.instagram.com/p/Deod73-nf4t/",
-        "image": "https://passion-aquitaine.ouest-france.fr/social/20261018-f5704e68-1-vignette.jpg",
-        "interactions": 11
       }
     ]
   },

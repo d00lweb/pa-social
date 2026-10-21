@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-21T12:20:41.873Z",
+  "genereLe": "2026-10-21T13:00:43.694Z",
   "jour": "2026-10-21",
   "reseaux": {
     "instagram": {
@@ -558,7 +558,7 @@
   "file": [],
   "alertes": [],
   "mesures": {
-    "releves": 360,
+    "releves": 361,
     "parReseau": {
       "instagram": {
         "posts": 45,
@@ -676,16 +676,16 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-21T12:20:46.699Z",
-    "posts": 104,
+    "genereLe": "2026-10-21T13:00:49.897Z",
+    "posts": 105,
     "parReseau": {
+      "threads": {
+        "posts": 27,
+        "moyenne": 12.5
+      },
       "instagram": {
         "posts": 26,
         "moyenne": 9.8
-      },
-      "threads": {
-        "posts": 26,
-        "moyenne": 3.6
       },
       "bluesky": {
         "posts": 26,
@@ -698,8 +698,8 @@
     },
     "parFormat": {
       "reponse": {
-        "posts": 24,
-        "moyenne": 3.9
+        "posts": 25,
+        "moyenne": 13.5
       },
       "reply": {
         "posts": 15,
@@ -720,8 +720,8 @@
     },
     "parCreneau": {
       "après-midi": {
-        "posts": 24,
-        "moyenne": 9.3
+        "posts": 25,
+        "moyenne": 18.7
       },
       "soir": {
         "posts": 16,
@@ -734,13 +734,13 @@
     },
     "parCreneauReseau": {
       "threads": {
+        "13 h – 14 h 30": {
+          "posts": 3,
+          "moyenne": 83.7
+        },
         "7 h – 8 h 30": {
           "posts": 19,
           "moyenne": 4.3
-        },
-        "13 h – 14 h 30": {
-          "posts": 2,
-          "moyenne": 3.5
         },
         "10 h – 11 h 30": {
           "posts": 5,
@@ -786,26 +786,26 @@
         }
       }
     },
-    "interactionsTotal": 358,
+    "interactionsTotal": 602,
     "meilleur": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35575",
-      "channel": "instagram",
-      "mediaId": "17981511146907952",
-      "publieLe": "2026-10-06T11:12:40.157Z",
-      "jalon": 7,
-      "releveLe": "2026-10-13T11:20:46.028Z",
-      "likes": 85,
-      "commentairesBruts": 18,
-      "partages": null,
-      "vues": null,
-      "commentaires": 0,
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35835",
+      "channel": "threads",
+      "mediaId": "18103935524378802",
+      "publieLe": "2026-10-20T12:28:50.795Z",
+      "jalon": 1,
+      "releveLe": "2026-10-21T13:00:43.694Z",
+      "likes": 237,
+      "commentairesBruts": 3,
+      "partages": 5,
+      "vues": 7589,
+      "commentaires": 2,
       "v": 2,
-      "titre": "À Limoges, Le Cheverny abrite une des meilleures caves de France",
-      "lien": "https://www.instagram.com/p/DeJpgtklzof/",
-      "format": null,
-      "mention": true,
+      "titre": "Il avait presque disparu : en Dordogne, ce rapace bat un record avec 95 naissances en 2026",
+      "lien": "https://www.threads.com/@lovaquitaine/post/Det09fCFWUZ",
+      "format": "reponse",
+      "mention": false,
       "creneau": "après-midi",
-      "creneauReseau": "12 h – 13 h 30"
+      "creneauReseau": "13 h – 14 h 30"
     },
     "moinsBon": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35814",
@@ -833,8 +833,8 @@
         "moyenne": 6.8
       },
       "sans": {
-        "posts": 58,
-        "moyenne": 0.7
+        "posts": 59,
+        "moyenne": 4.9
       }
     },
     "publies": {
@@ -880,14 +880,14 @@
       "x": null
     },
     "engagement": {
+      "threads": 1.09,
       "instagram": 0.1,
-      "threads": 0.31,
       "facebook": 0
     },
     "conseils": [
-      "Threads : le créneau 7 h – 8 h 30 fait 3,6 fois mieux que 10 h – 11 h 30 (4.3 contre 1.2 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
+      "Threads : le créneau 13 h – 14 h 30 fait 69,8 fois mieux que 10 h – 11 h 30 (83.7 contre 1.2 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Instagram : le créneau 12 h – 13 h 30 fait 2,9 fois mieux que 18 h – 19 h 30 (12.8 contre 4.4 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
-      "Le format « reponse » fait 39 fois mieux que « lien » (3.9 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « lien » de la rotation dans config/channels.json.",
+      "Le format « reponse » fait 135 fois mieux que « lien » (13.5 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « lien » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+3, +0,3 %) ; Facebook recule (−22), à surveiller."
     ]
   },

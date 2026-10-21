@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-21T18:00:37.809Z",
+  "genereLe": "2026-10-21T18:20:35.748Z",
   "jour": "2026-10-21",
   "reseaux": {
     "instagram": {
@@ -558,7 +558,7 @@
   "file": [],
   "alertes": [],
   "mesures": {
-    "releves": 363,
+    "releves": 364,
     "parReseau": {
       "instagram": {
         "posts": 45,
@@ -637,7 +637,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-21T17:00:54.838Z"
+    "derniere": "2026-10-21T18:20:35.748Z"
   },
   "abonnes": {
     "instagram": {
@@ -676,8 +676,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-21T18:00:41.317Z",
-    "posts": 106,
+    "genereLe": "2026-10-21T18:20:40.923Z",
+    "posts": 107,
     "parReseau": {
       "threads": {
         "posts": 27,
@@ -692,7 +692,7 @@
         "moyenne": 0.3
       },
       "facebook": {
-        "posts": 26,
+        "posts": 27,
         "moyenne": 0
       }
     },
@@ -724,8 +724,8 @@
         "moyenne": 18.7
       },
       "soir": {
-        "posts": 17,
-        "moyenne": 2.1
+        "posts": 18,
+        "moyenne": 2
       },
       "matin": {
         "posts": 64,
@@ -753,7 +753,7 @@
           "moyenne": 0
         },
         "20 h – 21 h 30": {
-          "posts": 7,
+          "posts": 8,
           "moyenne": 0
         }
       },
@@ -809,23 +809,23 @@
     },
     "moinsBon": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35835",
-      "channel": "bluesky",
-      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3myd2dc2mls22",
-      "publieLe": "2026-10-20T16:25:03.286Z",
+      "channel": "facebook",
+      "mediaId": "227437307428711_1758761719583042",
+      "publieLe": "2026-10-20T18:06:26.382Z",
       "jalon": 1,
-      "releveLe": "2026-10-21T17:00:54.838Z",
+      "releveLe": "2026-10-21T18:20:35.748Z",
       "likes": 0,
-      "commentairesBruts": 1,
+      "commentairesBruts": 0,
       "partages": 0,
       "vues": null,
       "commentaires": 0,
       "v": 2,
       "titre": "Il avait presque disparu : en Dordogne, ce rapace bat un record avec 95 naissances en 2026",
-      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3myd2dc2mls22",
-      "format": "reply",
+      "lien": "https://www.facebook.com/1720946116697936/posts/1758761719583042",
+      "format": null,
       "mention": false,
       "creneau": "soir",
-      "creneauReseau": "18 h – 19 h 30"
+      "creneauReseau": "20 h – 21 h 30"
     },
     "mentions": {
       "avec": {
@@ -833,8 +833,8 @@
         "moyenne": 6.8
       },
       "sans": {
-        "posts": 60,
-        "moyenne": 4.8
+        "posts": 61,
+        "moyenne": 4.7
       }
     },
     "publies": {

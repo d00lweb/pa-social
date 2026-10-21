@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-21T16:20:46.509Z",
+  "genereLe": "2026-10-21T17:00:54.838Z",
   "jour": "2026-10-21",
   "reseaux": {
     "instagram": {
@@ -558,7 +558,7 @@
   "file": [],
   "alertes": [],
   "mesures": {
-    "releves": 361,
+    "releves": 362,
     "parReseau": {
       "instagram": {
         "posts": 45,
@@ -637,7 +637,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-21T16:00:45.545Z"
+    "derniere": "2026-10-21T17:00:54.838Z"
   },
   "abonnes": {
     "instagram": {
@@ -676,8 +676,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-21T16:20:50.588Z",
-    "posts": 105,
+    "genereLe": "2026-10-21T17:01:01.019Z",
+    "posts": 106,
     "parReseau": {
       "threads": {
         "posts": 27,
@@ -688,7 +688,7 @@
         "moyenne": 9.8
       },
       "bluesky": {
-        "posts": 26,
+        "posts": 27,
         "moyenne": 0.3
       },
       "facebook": {
@@ -702,7 +702,7 @@
         "moyenne": 13.5
       },
       "reply": {
-        "posts": 15,
+        "posts": 16,
         "moyenne": 0.5
       },
       "card": {
@@ -724,8 +724,8 @@
         "moyenne": 18.7
       },
       "soir": {
-        "posts": 16,
-        "moyenne": 2.3
+        "posts": 17,
+        "moyenne": 2.1
       },
       "matin": {
         "posts": 64,
@@ -759,8 +759,8 @@
       },
       "bluesky": {
         "18 h – 19 h 30": {
-          "posts": 2,
-          "moyenne": 2.5
+          "posts": 3,
+          "moyenne": 1.7
         },
         "8 h – 9 h 30": {
           "posts": 19,
@@ -808,24 +808,24 @@
       "creneauReseau": "13 h – 14 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35814",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35835",
       "channel": "bluesky",
-      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3my7lmjdyax26",
-      "publieLe": "2026-10-19T07:23:46.133Z",
+      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3myd2dc2mls22",
+      "publieLe": "2026-10-20T16:25:03.286Z",
       "jalon": 1,
-      "releveLe": "2026-10-20T08:00:44.230Z",
+      "releveLe": "2026-10-21T17:00:54.838Z",
       "likes": 0,
-      "commentairesBruts": 0,
+      "commentairesBruts": 1,
       "partages": 0,
       "vues": null,
       "commentaires": 0,
       "v": 2,
-      "titre": "Pays basque : ces vautours qui dévorent un cadavre en 10 minutes",
-      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3my7lmjdyax26",
-      "format": "card",
+      "titre": "Il avait presque disparu : en Dordogne, ce rapace bat un record avec 95 naissances en 2026",
+      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3myd2dc2mls22",
+      "format": "reply",
       "mention": false,
-      "creneau": "matin",
-      "creneauReseau": "8 h – 9 h 30"
+      "creneau": "soir",
+      "creneauReseau": "18 h – 19 h 30"
     },
     "mentions": {
       "avec": {
@@ -833,8 +833,8 @@
         "moyenne": 6.8
       },
       "sans": {
-        "posts": 59,
-        "moyenne": 4.9
+        "posts": 60,
+        "moyenne": 4.8
       }
     },
     "publies": {

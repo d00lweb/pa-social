@@ -1,6 +1,6 @@
 {
-  "genereLe": "2026-10-21T21:20:39.863Z",
-  "jour": "2026-10-21",
+  "genereLe": "2026-10-21T22:00:43.690Z",
+  "jour": "2026-10-22",
   "reseaux": {
     "instagram": {
       "actif": true,
@@ -582,7 +582,7 @@
     "2026-09"
   ],
   "jetons": {
-    "verifieLe": "2026-10-20T22:00:43.125Z",
+    "verifieLe": "2026-10-21T22:00:43.690Z",
     "meta": {
       "expireLe": "2026-12-16T20:08:59.000Z",
       "restant": 86,
@@ -590,7 +590,7 @@
     },
     "threads": {
       "expireLe": "2026-11-16T21:12:39.531Z",
-      "restant": 27,
+      "restant": 26,
       "renouvellement": "commande npm run threads:refresh"
     },
     "alertes": {}
@@ -641,42 +641,42 @@
   },
   "abonnes": {
     "instagram": {
-      "debut": 10139,
-      "fin": 10138,
+      "debut": 10138,
+      "fin": 10137,
       "gain": -1,
       "pct": 0,
-      "depuis": "2026-10-14",
-      "au": "2026-10-21"
+      "depuis": "2026-10-15",
+      "au": "2026-10-22"
     },
     "facebook": {
-      "debut": 42591,
-      "fin": 42585,
-      "gain": -6,
+      "debut": 42590,
+      "fin": 42582,
+      "gain": -8,
       "pct": 0,
-      "depuis": "2026-10-14",
-      "au": "2026-10-21"
+      "depuis": "2026-10-15",
+      "au": "2026-10-22"
     },
     "bluesky": {
       "debut": 8,
       "fin": 9,
       "gain": 1,
       "pct": 12.5,
-      "depuis": "2026-10-14",
-      "au": "2026-10-21"
+      "depuis": "2026-10-15",
+      "au": "2026-10-22"
     },
     "threads": {
       "debut": 1152,
-      "fin": 1152,
-      "gain": 0,
-      "pct": 0,
-      "depuis": "2026-10-14",
-      "au": "2026-10-21"
+      "fin": 1153,
+      "gain": 1,
+      "pct": 0.1,
+      "depuis": "2026-10-15",
+      "au": "2026-10-22"
     },
     "x": null
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-21T21:20:43.374Z",
+    "genereLe": "2026-10-21T22:00:49.817Z",
     "posts": 107,
     "parReseau": {
       "threads": {
@@ -847,19 +847,19 @@
     "abonnes": {
       "instagram": {
         "debut": 10136,
-        "fin": 10138,
-        "gain": 2,
+        "fin": 10137,
+        "gain": 1,
         "pct": 0,
         "depuis": "2026-10-01",
-        "au": "2026-10-21"
+        "au": "2026-10-22"
       },
       "facebook": {
         "debut": 42607,
-        "fin": 42585,
-        "gain": -22,
+        "fin": 42582,
+        "gain": -25,
         "pct": -0.1,
         "depuis": "2026-10-01",
-        "au": "2026-10-21"
+        "au": "2026-10-22"
       },
       "bluesky": {
         "debut": 4,
@@ -867,20 +867,20 @@
         "gain": 5,
         "pct": 125,
         "depuis": "2026-10-01",
-        "au": "2026-10-21"
+        "au": "2026-10-22"
       },
       "threads": {
         "debut": 1149,
-        "fin": 1152,
-        "gain": 3,
+        "fin": 1153,
+        "gain": 4,
         "pct": 0.3,
         "depuis": "2026-10-01",
-        "au": "2026-10-21"
+        "au": "2026-10-22"
       },
       "x": null
     },
     "engagement": {
-      "threads": 1.09,
+      "threads": 1.08,
       "instagram": 0.1,
       "facebook": 0
     },
@@ -888,7 +888,7 @@
       "Threads : le créneau 13 h – 14 h 30 fait 69,8 fois mieux que 10 h – 11 h 30 (83.7 contre 1.2 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Instagram : le créneau 12 h – 13 h 30 fait 2,9 fois mieux que 18 h – 19 h 30 (12.8 contre 4.4 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Le format « reponse » fait 135 fois mieux que « lien » (13.5 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « lien » de la rotation dans config/channels.json.",
-      "Abonnés : Threads progresse le plus (+3, +0,3 %) ; Facebook recule (−22), à surveiller."
+      "Abonnés : Threads progresse le plus (+4, +0,3 %) ; Facebook recule (−25), à surveiller."
     ]
   },
   "couts": {
@@ -897,13 +897,13 @@
       "entree": 0,
       "sortie": 0,
       "cout": 0,
-      "cle": "2026-10-21"
+      "cle": "2026-10-22"
     },
     "semaine": {
-      "appels": 8,
-      "entree": 63837,
-      "sortie": 7618,
-      "cout": 0.407708
+      "appels": 6,
+      "entree": 47903,
+      "sortie": 5922,
+      "cout": 0.310052
     },
     "mois": {
       "appels": 47,
@@ -912,16 +912,12 @@
       "cout": 2.397588,
       "cle": "2026-10"
     },
-    "projection": 3.54,
+    "projection": 3.38,
     "moyenneAppel": 0.051,
     "parModele": {
       "claude-opus-5-5": 47
     },
     "serie": [
-      [
-        "2026-10-08",
-        0.0495
-      ],
       [
         "2026-10-09",
         0.2548
@@ -972,6 +968,10 @@
       ],
       [
         "2026-10-21",
+        0
+      ],
+      [
+        "2026-10-22",
         0
       ]
     ],

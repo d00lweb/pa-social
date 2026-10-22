@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-22T17:00:53.704Z",
+  "genereLe": "2026-10-22T17:20:41.401Z",
   "jour": "2026-10-22",
   "reseaux": {
     "instagram": {
@@ -25,7 +25,7 @@
       },
       "formats": null,
       "aujourdhui": 0,
-      "semaine": 6,
+      "semaine": 5,
       "total": 52,
       "dernier": "2026-10-20T17:26:55.026Z",
       "lienDernier": "https://www.instagram.com/p/DeuXeiQnwoL/"
@@ -558,11 +558,11 @@
   "file": [],
   "alertes": [],
   "mesures": {
-    "releves": 370,
+    "releves": 371,
     "parReseau": {
       "instagram": {
-        "posts": 46,
-        "interactionsMoyennes": 13.2
+        "posts": 47,
+        "interactionsMoyennes": 13
       },
       "bluesky": {
         "posts": 45,
@@ -676,7 +676,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-22T17:00:57.086Z",
+    "genereLe": "2026-10-22T17:20:45.486Z",
     "posts": 107,
     "parReseau": {
       "threads": {
@@ -725,7 +725,7 @@
       },
       "soir": {
         "posts": 18,
-        "moyenne": 2
+        "moyenne": 2.1
       },
       "matin": {
         "posts": 64,
@@ -778,7 +778,7 @@
         },
         "18 h – 19 h 30": {
           "posts": 7,
-          "moyenne": 4.4
+          "moyenne": 4.6
         },
         "hors créneau": {
           "posts": 2,
@@ -786,7 +786,7 @@
         }
       }
     },
-    "interactionsTotal": 602,
+    "interactionsTotal": 603,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35835",
       "channel": "threads",
@@ -830,7 +830,7 @@
     "mentions": {
       "avec": {
         "posts": 46,
-        "moyenne": 6.8
+        "moyenne": 6.9
       },
       "sans": {
         "posts": 61,
@@ -886,7 +886,7 @@
     },
     "conseils": [
       "Threads : le créneau 13 h – 14 h 30 fait 69,8 fois mieux que 10 h – 11 h 30 (83.7 contre 1.2 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
-      "Instagram : le créneau 12 h – 13 h 30 fait 2,9 fois mieux que 18 h – 19 h 30 (12.8 contre 4.4 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
+      "Instagram : le créneau 12 h – 13 h 30 fait 2,8 fois mieux que 18 h – 19 h 30 (12.8 contre 4.6 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Le format « reponse » fait 135 fois mieux que « lien » (13.5 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « lien » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+4, +0,3 %) ; Facebook recule (−25), à surveiller."
     ]

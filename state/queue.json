@@ -2,9 +2,9 @@
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=35852",
     "channel": "instagram",
-    "dueAt": 1792753681881,
+    "dueAt": 1792754639547,
     "status": "pending",
-    "attempts": 0,
+    "attempts": 1,
     "article": {
       "title": "Biarritz : le Port-Vieux s’écroule, la mairie veut le démolir",
       "link": "https://passion-aquitaine.ouest-france.fr/biarritz-port-vieux-ecroule-demolition/",
@@ -131,7 +131,8 @@
         "facebook": []
       }
     },
-    "previewSent": false
+    "previewSent": false,
+    "lastError": "unable to verify the first certificate; if the root CA is installed locally, try running Node.js with --use-system-ca"
   },
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=35852",

@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-23T10:20:43.213Z",
+  "genereLe": "2026-10-23T11:00:37.610Z",
   "jour": "2026-10-23",
   "reseaux": {
     "instagram": {
@@ -534,8 +534,8 @@
   "file": [
     {
       "channel": "instagram",
-      "dueAt": "2026-10-23T11:08:01.881Z",
-      "prochainPassage": "2026-10-23T11:20:00.000Z",
+      "dueAt": "2026-10-23T11:23:59.547Z",
+      "prochainPassage": "2026-10-23T12:00:00.000Z",
       "nature": "actu",
       "prevuInitialement": null,
       "raison": null,
@@ -680,7 +680,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-23T10:20:46.811Z",
+    "genereLe": "2026-10-23T11:08:07.562Z",
     "posts": 107,
     "parReseau": {
       "threads": {

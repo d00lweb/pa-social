@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-23T17:00:37.129Z",
+  "genereLe": "2026-10-23T17:20:39.150Z",
   "jour": "2026-10-23",
   "reseaux": {
     "instagram": {
@@ -60,11 +60,11 @@
         "image",
         "reply"
       ],
-      "aujourdhui": 1,
-      "semaine": 5,
-      "total": 51,
-      "dernier": "2026-10-23T11:28:15.573Z",
-      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3myk35f3f3o24"
+      "aujourdhui": 2,
+      "semaine": 6,
+      "total": 52,
+      "dernier": "2026-10-23T17:26:07.602Z",
+      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mykp5cdvwc2n"
     },
     "facebook": {
       "actif": true,
@@ -165,6 +165,38 @@
   },
   "articles": [
     {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35845",
+      "titre": "Ce miel des Landes a mis 20 ans à être reconnu : il cache en réalité 7 miels différents",
+      "lien": "https://passion-aquitaine.ouest-france.fr/miel-landes-igp-20-ans/",
+      "at": "2026-10-23T17:26:07.602Z",
+      "reseaux": {
+        "threads": {
+          "texte": "🐝 On parle du Miel des Landes comme d’un seul produit… alors qu’il cache en réalité sept miels différents. Ce miel vient d’obtenir son IGP, au bout de vingt ans de démarches et de multiples rebondissements. Une longue patience pour une reconnaissance officielle. Vous saviez qu’il existait autant de miels derrière ce nom ?",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261023-c30322fc-th.jpg",
+          "mode": "reponse",
+          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/miel-landes-igp-20-ans/",
+          "sujet": "Landes",
+          "publieLe": "2026-10-23T12:33:02.405Z"
+        },
+        "x": {
+          "texte": "Un seul pot, sept miels différents 🍯 Le Miel des #Landes obtient son IGP après vingt ans de démarches et de multiples rebondissements.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261023-c30322fc-x.jpg",
+          "mode": "reponse",
+          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/miel-landes-igp-20-ans/",
+          "sujet": null,
+          "publieLe": "2026-10-23T14:00:55.098Z"
+        },
+        "bluesky": {
+          "texte": "Vingt ans de démarches et de rebondissements : le miel des #Landes obtient son IGP. Une garantie d’origine pour les amateurs, qui découvriront qu’il regroupe en réalité sept miels différents 🍯\n➡️ Lire l’article",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261023-c30322fc-bsky.jpg",
+          "mode": "image",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-23T17:26:07.602Z"
+        }
+      }
+    },
+    {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35852",
       "titre": "Biarritz : le Port-Vieux s’écroule, la mairie veut le démolir",
       "lien": "https://passion-aquitaine.ouest-france.fr/biarritz-port-vieux-ecroule-demolition/",
@@ -201,30 +233,6 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-10-23T17:07:50.660Z"
-        }
-      }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35845",
-      "titre": "Ce miel des Landes a mis 20 ans à être reconnu : il cache en réalité 7 miels différents",
-      "lien": "https://passion-aquitaine.ouest-france.fr/miel-landes-igp-20-ans/",
-      "at": "2026-10-23T14:00:55.098Z",
-      "reseaux": {
-        "threads": {
-          "texte": "🐝 On parle du Miel des Landes comme d’un seul produit… alors qu’il cache en réalité sept miels différents. Ce miel vient d’obtenir son IGP, au bout de vingt ans de démarches et de multiples rebondissements. Une longue patience pour une reconnaissance officielle. Vous saviez qu’il existait autant de miels derrière ce nom ?",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261023-c30322fc-th.jpg",
-          "mode": "reponse",
-          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/miel-landes-igp-20-ans/",
-          "sujet": "Landes",
-          "publieLe": "2026-10-23T12:33:02.405Z"
-        },
-        "x": {
-          "texte": "Un seul pot, sept miels différents 🍯 Le Miel des #Landes obtient son IGP après vingt ans de démarches et de multiples rebondissements.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261023-c30322fc-x.jpg",
-          "mode": "reponse",
-          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/miel-landes-igp-20-ans/",
-          "sujet": null,
-          "publieLe": "2026-10-23T14:00:55.098Z"
         }
       }
     },
@@ -423,6 +431,16 @@
   ],
   "publications": [
     {
+      "channel": "bluesky",
+      "at": "2026-10-23T17:26:07.602Z",
+      "titre": "Ce miel des Landes a mis 20 ans à être reconnu : il cache en réalité 7 miels différents",
+      "lien": "https://passion-aquitaine.ouest-france.fr/miel-landes-igp-20-ans/",
+      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mykp5cdvwc2n",
+      "format": "image",
+      "texte": "Vingt ans de démarches et de rebondissements : le miel des #Landes obtient son IGP. Une garantie d’origine pour les amateurs, qui découvriront qu’il regroupe en réalité sept miels différents 🍯\n➡️ Lire l’article",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261023-c30322fc-bsky.jpg"
+    },
+    {
       "channel": "instagram",
       "at": "2026-10-23T17:07:50.660Z",
       "titre": "Biarritz : le Port-Vieux s’écroule, la mairie veut le démolir",
@@ -511,28 +529,9 @@
       "format": "reply",
       "texte": "En #Dordogne, le faucon pèlerin revient de loin 📈 Le rapace, qui avait presque disparu, compte 95 jeunes à l’envol en 2026. Jamais le département n’en avait recensé autant.",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261020-441e6c72-bsky.jpg"
-    },
-    {
-      "channel": "x",
-      "at": "2026-10-20T14:01:21.262Z",
-      "titre": "Il avait presque disparu : en Dordogne, ce rapace bat un record avec 95 naissances en 2026",
-      "lien": "https://passion-aquitaine.ouest-france.fr/faucon-pelerin-dordogne-record-2026/",
-      "lienPost": null,
-      "format": "reponse",
-      "texte": "Lever les yeux au ciel en #Dordogne vaut de nouveau le coup : le faucon pèlerin, presque disparu, y compte 95 jeunes à l’envol en 2026, un record 🔭",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261020-441e6c72-x.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "bluesky",
-      "dueAt": "2026-10-23T17:26:05.983Z",
-      "prochainPassage": "2026-10-23T18:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Ce miel des Landes a mis 20 ans à être reconnu : il cache en réalité 7 miels différents"
-    },
     {
       "channel": "facebook",
       "dueAt": "2026-10-23T19:25:36.280Z",
@@ -681,7 +680,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-23T17:07:56.151Z",
+    "genereLe": "2026-10-23T17:26:18.106Z",
     "posts": 107,
     "parReseau": {
       "threads": {
@@ -845,7 +844,7 @@
     "publies": {
       "threads": 29,
       "facebook": 27,
-      "bluesky": 28,
+      "bluesky": 29,
       "x": 29,
       "instagram": 28
     },

@@ -2,7 +2,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync, readdirSync } from 'node:fs';
 import { fromRoot } from '../src/core/config.mjs';
-import { aCopier, esc, COPIE_MAX, CATALOGUE, alerteBudget, alerteIa, alerteJeton, alerteJetonRefuse, alerteThreadsReponse } from '../src/channels/messages.mjs';
+import { aCopier, esc, COPIE_MAX, CATALOGUE, alerteBudget, alerteIa, alerteJeton, alerteJetonRefuse, alerteThreadsReponse, alerteFlux } from '../src/channels/messages.mjs';
 
 // 23/09/2026, retours d'usage : des messages arrivaient avec « <b> » affiché en clair, et copier
 // un texte à publier ramenait son titre (« 📝 Texte du post »), qu'il fallait effacer dans X — la
@@ -33,6 +33,7 @@ const exemples = () => [
   ['jeton Threads', alerteJeton('threads', { restant: 9 })],
   ['jeton refusé', alerteJetonRefuse('Facebook & Instagram', 'code 190 <sous-code 460>')],
   ['réponse Threads', alerteThreadsReponse('Un titre & <balise>', '📖 https://site.fr/a')],
+  ['flux en panne', alerteFlux(3.2, 'Flux RSS 500 : <https://site/feed/>')],
 ];
 
 test('chaque message est du HTML valide pour Telegram', () => {

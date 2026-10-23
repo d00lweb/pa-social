@@ -67,6 +67,9 @@ export function alerteJeton(nom, jeton) {
     : `🔑 <b>Jeton Threads</b> — ${jeton.restant} jours restants.\nLancer <code>npm run threads:refresh -- --ecrire</code> puis <code>gh secret set SOCIAL &lt; .env</code> depuis Git Bash.`;
 }
 
+export const alerteFlux = (heures, detail) =>
+  `📡 <b>Flux RSS du site injoignable</b> depuis ${Math.max(1, Math.round(heures))} h\n${esc(String(detail ?? '').slice(0, 200))}\nLes publications déjà programmées partent normalement ; aucun nouvel article n’entre en file tant que le flux ne répond pas.`;
+
 export const alerteJetonRefuse = (reseau, detail) =>
   `🔑 <b>Jeton refusé</b> · ${esc(reseau)}\n${esc(detail)}\nLes publications concernées sont reportées d’heure en heure : rien n’est perdu, elles repartiront dès le jeton remplacé.`;
 
@@ -87,6 +90,7 @@ export const CATALOGUE = [
   { id: 'budget', titre: 'Alerte budget', quand: '70 % du plafond, puis dépassement', frequence: 'au plus 1 par jour et par seuil', copiable: false, module: 'brain/couts.mjs' },
   { id: 'ia-indisponible', titre: 'Rédacteur IA injoignable', quand: 'panne ou crédit épuisé', frequence: 'au plus 1 par jour', copiable: false, module: 'brain/couts.mjs' },
   { id: 'jeton-echeance', titre: 'Jeton bientôt expiré', quand: 'seuil de jours restants', frequence: 'au plus 1 par semaine et par jeton', copiable: false, module: 'measure/jetons.mjs' },
+  { id: 'flux-indisponible', titre: 'Flux RSS du site injoignable', quand: 'flux en panne depuis 3 h', frequence: 'au plus 1 par jour', copiable: false, module: 'index.mjs' },
   { id: 'jeton-refuse', titre: 'Jeton refusé', quand: 'refus du réseau à la publication', frequence: 'au plus 1 par jour', copiable: false, module: 'index.mjs' },
   { id: 'threads-reponse', titre: 'Réponse Threads non postée', quand: 'échec de la réponse portant le lien', frequence: 'rare', copiable: true, module: 'channels/threads.mjs' },
   { id: 'commandes', titre: 'Réponses aux commandes', quand: '/statut /file /pause /reprise /validation /x /compte /jamais /oublier /comptes /aide', frequence: 'à la demande', copiable: false, module: 'core/control.mjs' },

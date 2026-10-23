@@ -4,7 +4,7 @@ import { GuardError, DeferError, jetonInvalide } from './core/errors.mjs';
 import { loadHistory, saveHistory, loadQueue, saveQueue, loadJson, saveJson, hasPublished, lastPublishedAt } from './core/state.mjs';
 import { planDueAt, recheck, countToday, nextDay, passageDe, ordonnerFile, dayKey } from './core/scheduler.mjs';
 import { NETWORKS, NAMES, shortId, parseCommand, defaultControls, isPaused, needsValidation, targets, applyDecision } from './core/control.mjs';
-import { fetchItems, matchArticle } from './sources/rss.mjs';
+import { fetchItems, lireFlux, matchArticle } from './sources/rss.mjs';
 import { buildDossier, rubriqueJustifiee } from './brain/dossier.mjs';
 import { resoudreComptes } from './brain/comptes.mjs';
 import { lireEnseignes, enregistrerEnseignes, enseigner, exclure, oublier, texteEnseignes } from './brain/enseignes.mjs';
@@ -23,7 +23,7 @@ import { capturer as capturerApercu } from './measure/apercus.mjs';
 import { loadMemory, saveMemory, remember, retenirMentions } from './brain/memory.mjs';
 import { alert, telegramEnabled, send, sendPhotos, getUpdates, answerCallback, clearButtons } from './channels/telegram.mjs';
 import { buildPreviewText, previewButtons } from './channels/preview.mjs';
-import { esc, alerteJetonRefuse, messagePublie } from './channels/messages.mjs';
+import { esc, alerteJetonRefuse, alerteFlux, messagePublie } from './channels/messages.mjs';
 import * as instagram from './channels/instagram.mjs';
 import * as x from './channels/x.mjs';
 import * as bluesky from './channels/bluesky.mjs';
@@ -496,19 +496,23 @@ ${esc(item.article.title)}`);
 
 async function main() {
   requireEnv(['IG_USER_ID', 'IG_TOKEN', 'SFTP_HOST', 'SFTP_USER', 'SFTP_PASS', 'SFTP_DIR']);
-  const items = await fetchItems(process.env.RSS_URL || DEFAULT_RSS);
-  if (DRY_RUN) return dryRun(items);
+  const url = process.env.RSS_URL || DEFAULT_RSS;
+  if (DRY_RUN) return dryRun(await fetchItems(url));
 
   const [history, queue, memory, controls, tg] = await Promise.all([
     loadHistory(), loadQueue(), loadMemory(), loadJson('controls.json', defaultControls()), loadJson('telegram.json', { offset: 0 }),
   ]);
   controls.paused ??= {};
   controls.validation ??= {};
-  const ctx = { now: Date.now(), history, queue, memory, controls, tg };
+  const now = Date.now();
+  // flux du site en panne : le passage continue sans nouveaux articles (voir lireFlux)
+  const { items, ok: fluxOk } = await lireFlux(url, memory, { now, alerter: (heures, detail) => notify(alerteFlux(heures, detail)) });
+  const ctx = { now, history, queue, memory, controls, tg };
 
   // RELANCE=mots du titre : remet un ancien article dans la file (déclenchement manuel du workflow)
   const relance = process.env.RELANCE?.trim();
   if (relance) {
+    if (!fluxOk) throw new Error('Relance impossible : le flux RSS du site ne répond pas');
     const forced = matchArticle(items, relance);
     if (!forced) throw new Error(`Relance : aucun article du flux ne correspond à « ${relance} »`);
     ctx.forcedGuid = forced.guid;
@@ -556,7 +560,9 @@ async function main() {
     await modererCommentaires({ history, now: ctx.now }).catch((e) => console.error(`Modération : ${e.message}`));
     await ecrirePilotage({ history, queue, controls, now: ctx.now });
     // page publique de l'équipe : données filtrées par liste blanche, déposées sur le site
-    await publierPublic({ history, queue, controls, articles: items, maintenant: ctx.now }).catch((e) => console.error(`Page équipe : ${e.message}`));
+    // elle a besoin des titres et des images des articles : sans flux, elle attend le passage suivant
+    if (fluxOk) await publierPublic({ history, queue, controls, articles: items, maintenant: ctx.now }).catch((e) => console.error(`Page équipe : ${e.message}`));
+    else console.log('Page équipe : non mise à jour, flux RSS indisponible.');
   } finally {
     await Promise.all([saveHistory(history), saveQueue(queue), saveMemory(memory), saveJson('controls.json', controls), saveJson('telegram.json', tg)]);
   }

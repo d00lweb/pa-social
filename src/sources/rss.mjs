@@ -76,8 +76,40 @@ export function matchArticle(items, term) {
   return items.filter((a) => words.every((w) => fold(a.title).includes(w))).sort((a, b) => b.date - a.date)[0] ?? null;
 }
 
+// Le flux du site en panne ne doit pas bloquer ce qui est déjà en file. Le 22/10/2026, deux réponses
+// « 500 » du site ont fait échouer deux passages entiers : rien de ce qui était programmé n'est parti,
+// ni mesure, ni modération. Désormais : un second essai 5 s plus tard, puis le passage continue sans
+// nouveaux articles. La panne est datée dans la mémoire ; l'alerte part si elle dure (3 h), une fois
+// par jour, et la mémoire est nettoyée dès que le flux répond. Rend { items, ok }.
+export const PANNE_ALERTE_H = 3;
+export async function lireFlux(url, memory, { now = Date.now(), lire = fetchItems, attendre = (ms) => new Promise((r) => setTimeout(r, ms)), alerter = async () => {}, log = console.log } = {}) {
+  let erreur;
+  for (let essai = 1; essai <= 2; essai++) {
+    try {
+      const items = await lire(url);
+      if (memory.fluxEnPanneDepuis) log('Flux RSS rétabli.');
+      delete memory.fluxEnPanneDepuis;
+      delete memory.fluxAlerte;
+      return { items, ok: true };
+    } catch (e) {
+      erreur = e;
+      if (essai === 1) await attendre(5000);
+    }
+  }
+  memory.fluxEnPanneDepuis ??= now;
+  const heures = (now - memory.fluxEnPanneDepuis) / 3600e3;
+  log(`Flux RSS indisponible (${erreur.message}) : passage sans nouveaux articles, la file continue.`);
+  const jour = new Date(now).toISOString().slice(0, 10);
+  if (heures >= PANNE_ALERTE_H && memory.fluxAlerte !== jour) {
+    memory.fluxAlerte = jour;
+    await alerter(heures, erreur.message);
+  }
+  return { items: [], ok: false };
+}
+
 export async function fetchItems(url) {
-  const res = await fetch(url, { headers: { 'User-Agent': UA } });
+  // sans délai, un site qui ne répond pas figerait tout le passage
+  const res = await fetch(url, { headers: { 'User-Agent': UA }, signal: AbortSignal.timeout(30000) });
   if (!res.ok) throw new Error(`Flux RSS ${res.status} : ${url}`);
   const xml = parser.parse(await res.text());
   const items = xml?.rss?.channel?.item ?? [];

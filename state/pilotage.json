@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-23T13:20:41.290Z",
+  "genereLe": "2026-10-23T14:00:42.974Z",
   "jour": "2026-10-23",
   "reseaux": {
     "instagram": {
@@ -156,10 +156,10 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 1,
-      "semaine": 5,
-      "total": 51,
-      "dernier": "2026-10-23T08:01:15.406Z",
+      "aujourdhui": 2,
+      "semaine": 6,
+      "total": 52,
+      "dernier": "2026-10-23T14:00:55.098Z",
       "lienDernier": null
     }
   },
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35845",
       "titre": "Ce miel des Landes a mis 20 ans à être reconnu : il cache en réalité 7 miels différents",
       "lien": "https://passion-aquitaine.ouest-france.fr/miel-landes-igp-20-ans/",
-      "at": "2026-10-23T12:33:02.405Z",
+      "at": "2026-10-23T14:00:55.098Z",
       "reseaux": {
         "threads": {
           "texte": "🐝 On parle du Miel des Landes comme d’un seul produit… alors qu’il cache en réalité sept miels différents. Ce miel vient d’obtenir son IGP, au bout de vingt ans de démarches et de multiples rebondissements. Une longue patience pour une reconnaissance officielle. Vous saviez qu’il existait autant de miels derrière ce nom ?",
@@ -177,6 +177,14 @@
           "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/miel-landes-igp-20-ans/",
           "sujet": "Landes",
           "publieLe": "2026-10-23T12:33:02.405Z"
+        },
+        "x": {
+          "texte": "Un seul pot, sept miels différents 🍯 Le Miel des #Landes obtient son IGP après vingt ans de démarches et de multiples rebondissements.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261023-c30322fc-x.jpg",
+          "mode": "reponse",
+          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/miel-landes-igp-20-ans/",
+          "sujet": null,
+          "publieLe": "2026-10-23T14:00:55.098Z"
         }
       }
     },
@@ -407,6 +415,16 @@
   ],
   "publications": [
     {
+      "channel": "x",
+      "at": "2026-10-23T14:00:55.098Z",
+      "titre": "Ce miel des Landes a mis 20 ans à être reconnu : il cache en réalité 7 miels différents",
+      "lien": "https://passion-aquitaine.ouest-france.fr/miel-landes-igp-20-ans/",
+      "lienPost": null,
+      "format": "reponse",
+      "texte": "Un seul pot, sept miels différents 🍯 Le Miel des #Landes obtient son IGP après vingt ans de démarches et de multiples rebondissements.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261023-c30322fc-x.jpg"
+    },
+    {
       "channel": "threads",
       "at": "2026-10-23T12:33:02.405Z",
       "titre": "Ce miel des Landes a mis 20 ans à être reconnu : il cache en réalité 7 miels différents",
@@ -495,28 +513,9 @@
       "format": "reponse",
       "texte": "On le croyait presque perdu, et pourtant… Le faucon pèlerin vient de battre un record en Dordogne : 🪺 95 jeunes ont pris leur envol en 2026. Un retour spectaculaire pour ce rapace, avec le meilleur résultat jamais enregistré dans le département.",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261020-441e6c72-th.jpg"
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-10-19T10:12:57.094Z",
-      "titre": "Pays basque : ces vautours qui dévorent un cadavre en 10 minutes",
-      "lien": "https://passion-aquitaine.ouest-france.fr/vautours-fauves-pays-basque-bearn/",
-      "lienPost": "https://www.instagram.com/p/DerBBPlj-Sy/",
-      "format": null,
-      "texte": "Un mouton mort au sol, des ailes immenses qui tournoient 🪽 En moins de 10 minutes, il ne reste plus rien.\n⠀\nAu Pays basque et en Béarn, 1 055 couples de vautours fauves nichent et jouent les nettoyeurs des montagnes.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#PaysBasque #VautourFauve #Pyrenees",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261019-5b4d97c5-1.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "x",
-      "dueAt": "2026-10-23T14:00:00.000Z",
-      "prochainPassage": "2026-10-23T14:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Ce miel des Landes a mis 20 ans à être reconnu : il cache en réalité 7 miels différents"
-    },
     {
       "channel": "instagram",
       "dueAt": "2026-10-23T17:07:22.562Z",
@@ -644,7 +643,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-23T12:21:01.456Z"
+    "derniere": "2026-10-23T14:00:42.974Z"
   },
   "abonnes": {
     "instagram": {
@@ -683,7 +682,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-23T13:20:47.319Z",
+    "genereLe": "2026-10-23T14:01:17.653Z",
     "posts": 107,
     "parReseau": {
       "threads": {
@@ -848,7 +847,7 @@
       "threads": 29,
       "facebook": 27,
       "bluesky": 28,
-      "x": 28,
+      "x": 29,
       "instagram": 27
     },
     "abonnes": {

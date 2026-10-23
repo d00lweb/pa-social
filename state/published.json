@@ -4342,5 +4342,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35845",
+    "channel": "threads",
+    "at": "2026-10-23T12:33:02.405Z",
+    "mediaId": "18072560264772621",
+    "titre": "Ce miel des Landes a mis 20 ans à être reconnu : il cache en réalité 7 miels différents",
+    "lien": "https://passion-aquitaine.ouest-france.fr/miel-landes-igp-20-ans/",
+    "lienPost": "https://www.threads.com/@lovaquitaine/post/De1j2ttm513",
+    "format": "reponse",
+    "mention": false,
+    "apercu": {
+      "texte": "🐝 On parle du Miel des Landes comme d’un seul produit… alors qu’il cache en réalité sept miels différents. Ce miel vient d’obtenir son IGP, au bout de vingt ans de démarches et de multiples rebondissements. Une longue patience pour une reconnaissance officielle. Vous saviez qu’il existait autant de miels derrière ce nom ?",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261023-c30322fc-th.jpg",
+      "mode": "reponse",
+      "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/miel-landes-igp-20-ans/",
+      "sujet": "Landes"
+    }
   }
 ]

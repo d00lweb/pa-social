@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-23T12:00:36.706Z",
+  "genereLe": "2026-10-23T12:21:01.456Z",
   "jour": "2026-10-23",
   "reseaux": {
     "instagram": {
@@ -122,11 +122,11 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 1,
-      "semaine": 5,
-      "total": 48,
-      "dernier": "2026-10-23T09:33:26.106Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/De1PQdoFlQJ"
+      "aujourdhui": 2,
+      "semaine": 6,
+      "total": 49,
+      "dernier": "2026-10-23T12:33:02.405Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/De1j2ttm513"
     },
     "x": {
       "actif": true,
@@ -164,6 +164,22 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35845",
+      "titre": "Ce miel des Landes a mis 20 ans à être reconnu : il cache en réalité 7 miels différents",
+      "lien": "https://passion-aquitaine.ouest-france.fr/miel-landes-igp-20-ans/",
+      "at": "2026-10-23T12:33:02.405Z",
+      "reseaux": {
+        "threads": {
+          "texte": "🐝 On parle du Miel des Landes comme d’un seul produit… alors qu’il cache en réalité sept miels différents. Ce miel vient d’obtenir son IGP, au bout de vingt ans de démarches et de multiples rebondissements. Une longue patience pour une reconnaissance officielle. Vous saviez qu’il existait autant de miels derrière ce nom ?",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261023-c30322fc-th.jpg",
+          "mode": "reponse",
+          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/miel-landes-igp-20-ans/",
+          "sujet": "Landes",
+          "publieLe": "2026-10-23T12:33:02.405Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35852",
       "titre": "Biarritz : le Port-Vieux s’écroule, la mairie veut le démolir",
@@ -387,57 +403,19 @@
           "publieLe": "2026-10-17T10:30:51.065Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=29086",
-      "titre": "Festival Koruak : 25 chœurs chantent gratuitement à Bayonne",
-      "lien": "https://passion-aquitaine.ouest-france.fr/festival-koruak-2026-bayonne-choeurs/",
-      "at": "2026-10-16T06:34:46.586Z",
-      "reseaux": {
-        "x": {
-          "texte": "🗣️ 25 chœurs dans une même ville, le même jour, sans payer ? C’est le programme du festival Koruak à #Bayonne le 24 octobre, au sein d’un festival qui court jusqu’au 1er novembre.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261016-b570ee70-x.jpg",
-          "mode": "reponse",
-          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/festival-koruak-2026-bayonne-choeurs/",
-          "sujet": null,
-          "publieLe": "2026-10-16T06:20:42.752Z"
-        },
-        "bluesky": {
-          "texte": "Le festival Koruak s’étend sur deux semaines à #Bayonne, mais une date se détache : 🎼 le 24 octobre, 25 chœurs s’y produisent gratuitement. Le #chant choral occupe la ville jusqu’au 1er novembre.\n➡️ Lire l’article",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261016-b570ee70-bsky.jpg",
-          "mode": "image",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-16T06:24:44.643Z"
-        },
-        "instagram": {
-          "texte": "🎶 Une ville entière qui chante : 25 chœurs se succèdent à Bayonne, et c’est gratuit\n⠀\nLe 24 octobre, le festival Koruak offre une journée de chant choral au cœur du Pays basque. Le festival se poursuit jusqu’au 1er novembre.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bayonne #ChantChoral #PaysBasque",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261016-b570ee70-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-16T06:28:26.144Z"
-        },
-        "threads": {
-          "texte": "Imaginez les rues de Bayonne portées par des voix de toutes parts. Le 24 octobre, le festival Koruak réunit 25 chœurs, à écouter gratuitement. Le festival, lui, fait chanter la ville du 18 octobre au 1er novembre 🎙️\n@bayonnemaville",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261016-b570ee70-th.jpg",
-          "mode": "reponse",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/festival-koruak-2026-bayonne-choeurs/",
-          "sujet": "Bayonne",
-          "publieLe": "2026-10-16T06:33:41.257Z"
-        },
-        "facebook": {
-          "texte": "Pas besoin de billet pour écouter 25 chœurs à Bayonne : le festival Koruak ouvre ses voix à tous gratuitement 🎤",
-          "image": null,
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-16T06:34:46.586Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "threads",
+      "at": "2026-10-23T12:33:02.405Z",
+      "titre": "Ce miel des Landes a mis 20 ans à être reconnu : il cache en réalité 7 miels différents",
+      "lien": "https://passion-aquitaine.ouest-france.fr/miel-landes-igp-20-ans/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/De1j2ttm513",
+      "format": "reponse",
+      "texte": "🐝 On parle du Miel des Landes comme d’un seul produit… alors qu’il cache en réalité sept miels différents. Ce miel vient d’obtenir son IGP, au bout de vingt ans de démarches et de multiples rebondissements. Une longue patience pour une reconnaissance officielle. Vous saviez qu’il existait autant de miels derrière ce nom ?",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261023-c30322fc-th.jpg"
+    },
     {
       "channel": "bluesky",
       "at": "2026-10-23T11:28:15.573Z",
@@ -527,28 +505,9 @@
       "format": null,
       "texte": "Un mouton mort au sol, des ailes immenses qui tournoient 🪽 En moins de 10 minutes, il ne reste plus rien.\n⠀\nAu Pays basque et en Béarn, 1 055 couples de vautours fauves nichent et jouent les nettoyeurs des montagnes.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#PaysBasque #VautourFauve #Pyrenees",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261019-5b4d97c5-1.jpg"
-    },
-    {
-      "channel": "x",
-      "at": "2026-10-19T08:20:47.097Z",
-      "titre": "Pays basque : ces vautours qui dévorent un cadavre en 10 minutes",
-      "lien": "https://passion-aquitaine.ouest-france.fr/vautours-fauves-pays-basque-bearn/",
-      "lienPost": null,
-      "format": "reponse",
-      "texte": "Moins de 10 minutes pour dévorer un mouton mort ⏱️ C’est la performance des vautours fauves, dont 1 055 couples nichent en Béarn et au Pays basque.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261019-5b4d97c5-x.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "threads",
-      "dueAt": "2026-10-23T12:29:25.756Z",
-      "prochainPassage": "2026-10-23T13:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Ce miel des Landes a mis 20 ans à être reconnu : il cache en réalité 7 miels différents"
-    },
     {
       "channel": "x",
       "dueAt": "2026-10-23T14:00:00.000Z",
@@ -685,7 +644,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-23T11:20:39.662Z"
+    "derniere": "2026-10-23T12:21:01.456Z"
   },
   "abonnes": {
     "instagram": {
@@ -724,7 +683,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-23T12:00:55.017Z",
+    "genereLe": "2026-10-23T12:33:09.098Z",
     "posts": 107,
     "parReseau": {
       "threads": {
@@ -886,7 +845,7 @@
       }
     },
     "publies": {
-      "threads": 28,
+      "threads": 29,
       "facebook": 27,
       "bluesky": 28,
       "x": 28,

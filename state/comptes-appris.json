@@ -984,5 +984,41 @@
     "instagram": [],
     "threads": [],
     "bluesky": []
+  },
+  "commune:mairie:biarritz": {
+    "v": 3,
+    "cherche": "2026-10-23T07:20:46.514Z",
+    "instagram": [
+      {
+        "handle": "ville2biarritz",
+        "nom": "Ville de Biarritz",
+        "abonnes": 45032,
+        "preuve": 3
+      }
+    ],
+    "x": [
+      {
+        "handle": "Ville2Biarritz",
+        "nom": "",
+        "abonnes": null,
+        "preuve": 3
+      }
+    ],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:biarritz:patrimoine": {
+    "v": 3,
+    "cherche": "2026-10-23T07:20:46.514Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:biarritz:littoral": {
+    "v": 3,
+    "cherche": "2026-10-23T07:20:46.514Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
   }
 }

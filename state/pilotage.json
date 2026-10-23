@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-23T07:00:47.550Z",
+  "genereLe": "2026-10-23T07:20:34.177Z",
   "jour": "2026-10-23",
   "reseaux": {
     "instagram": {
@@ -555,7 +555,53 @@
       "image": null
     }
   ],
-  "file": [],
+  "file": [
+    {
+      "channel": "x",
+      "dueAt": "2026-10-23T08:00:00.000Z",
+      "prochainPassage": "2026-10-23T08:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Biarritz : le Port-Vieux s’écroule, la mairie veut le démolir"
+    },
+    {
+      "channel": "threads",
+      "dueAt": "2026-10-23T09:29:29.481Z",
+      "prochainPassage": "2026-10-23T10:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Biarritz : le Port-Vieux s’écroule, la mairie veut le démolir"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-10-23T11:08:01.881Z",
+      "prochainPassage": "2026-10-23T11:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Biarritz : le Port-Vieux s’écroule, la mairie veut le démolir"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-10-23T11:28:13.618Z",
+      "prochainPassage": "2026-10-23T12:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Biarritz : le Port-Vieux s’écroule, la mairie veut le démolir"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-10-23T19:25:36.280Z",
+      "prochainPassage": "2026-10-23T20:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Biarritz : le Port-Vieux s’écroule, la mairie veut le démolir"
+    }
+  ],
   "alertes": [],
   "mesures": {
     "releves": 376,
@@ -637,7 +683,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-23T06:00:59.246Z"
+    "derniere": "2026-10-23T07:20:34.177Z"
   },
   "abonnes": {
     "instagram": {
@@ -676,7 +722,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-23T07:00:53.208Z",
+    "genereLe": "2026-10-23T07:20:56.823Z",
     "posts": 107,
     "parReseau": {
       "threads": {
@@ -893,29 +939,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 0,
-      "entree": 0,
-      "sortie": 0,
-      "cout": 0,
+      "appels": 1,
+      "entree": 7977,
+      "sortie": 811,
+      "cout": 0.048128,
       "cle": "2026-10-23"
     },
     "semaine": {
-      "appels": 5,
-      "entree": 39932,
-      "sortie": 5071,
-      "cout": 0.261148
+      "appels": 6,
+      "entree": 47909,
+      "sortie": 5882,
+      "cout": 0.309276
     },
     "mois": {
-      "appels": 47,
-      "entree": 371717,
-      "sortie": 45536,
-      "cout": 2.397588,
+      "appels": 48,
+      "entree": 379694,
+      "sortie": 46347,
+      "cout": 2.445716,
       "cle": "2026-10"
     },
-    "projection": 3.23,
+    "projection": 3.3,
     "moyenneAppel": 0.051,
     "parModele": {
-      "claude-opus-5-5": 47
+      "claude-opus-5-5": 48
     },
     "serie": [
       [
@@ -972,7 +1018,7 @@
       ],
       [
         "2026-10-23",
-        0
+        0.0481
       ]
     ],
     "depuis": "2026-09-23"

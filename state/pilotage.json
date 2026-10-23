@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-23T11:20:39.662Z",
+  "genereLe": "2026-10-23T12:00:36.706Z",
   "jour": "2026-10-23",
   "reseaux": {
     "instagram": {
@@ -541,6 +541,24 @@
   ],
   "file": [
     {
+      "channel": "threads",
+      "dueAt": "2026-10-23T12:29:25.756Z",
+      "prochainPassage": "2026-10-23T13:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Ce miel des Landes a mis 20 ans à être reconnu : il cache en réalité 7 miels différents"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-10-23T14:00:00.000Z",
+      "prochainPassage": "2026-10-23T14:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Ce miel des Landes a mis 20 ans à être reconnu : il cache en réalité 7 miels différents"
+    },
+    {
       "channel": "instagram",
       "dueAt": "2026-10-23T17:07:22.562Z",
       "prochainPassage": "2026-10-23T17:20:00.000Z",
@@ -550,6 +568,15 @@
       "titre": "Biarritz : le Port-Vieux s’écroule, la mairie veut le démolir"
     },
     {
+      "channel": "bluesky",
+      "dueAt": "2026-10-23T17:26:05.983Z",
+      "prochainPassage": "2026-10-23T18:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Ce miel des Landes a mis 20 ans à être reconnu : il cache en réalité 7 miels différents"
+    },
+    {
       "channel": "facebook",
       "dueAt": "2026-10-23T19:25:36.280Z",
       "prochainPassage": "2026-10-23T20:00:00.000Z",
@@ -557,6 +584,24 @@
       "prevuInitialement": null,
       "raison": null,
       "titre": "Biarritz : le Port-Vieux s’écroule, la mairie veut le démolir"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-10-24T06:08:59.956Z",
+      "prochainPassage": "2026-10-24T06:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Ce miel des Landes a mis 20 ans à être reconnu : il cache en réalité 7 miels différents"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-10-24T11:09:43.707Z",
+      "prochainPassage": "2026-10-24T11:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Ce miel des Landes a mis 20 ans à être reconnu : il cache en réalité 7 miels différents"
     }
   ],
   "alertes": [],
@@ -679,7 +724,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-23T11:28:22.158Z",
+    "genereLe": "2026-10-23T12:00:55.017Z",
     "posts": 107,
     "parReseau": {
       "threads": {
@@ -896,29 +941,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 1,
-      "entree": 7977,
-      "sortie": 811,
-      "cout": 0.048128,
+      "appels": 2,
+      "entree": 15916,
+      "sortie": 1614,
+      "cout": 0.095944,
       "cle": "2026-10-23"
     },
     "semaine": {
-      "appels": 6,
-      "entree": 47909,
-      "sortie": 5882,
-      "cout": 0.309276
+      "appels": 7,
+      "entree": 55848,
+      "sortie": 6685,
+      "cout": 0.35709199999999996
     },
     "mois": {
-      "appels": 48,
-      "entree": 379694,
-      "sortie": 46347,
-      "cout": 2.445716,
+      "appels": 49,
+      "entree": 387633,
+      "sortie": 47150,
+      "cout": 2.4935319999999996,
       "cle": "2026-10"
     },
-    "projection": 3.3,
-    "moyenneAppel": 0.051,
+    "projection": 3.36,
+    "moyenneAppel": 0.0509,
     "parModele": {
-      "claude-opus-5-5": 48
+      "claude-opus-5-5": 49
     },
     "serie": [
       [
@@ -975,7 +1020,7 @@
       ],
       [
         "2026-10-23",
-        0.0481
+        0.0959
       ]
     ],
     "depuis": "2026-09-23"

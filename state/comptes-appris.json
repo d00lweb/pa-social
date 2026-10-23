@@ -1020,5 +1020,27 @@
     "instagram": [],
     "threads": [],
     "bluesky": []
+  },
+  "vivier:apiculture:unafapiculture": {
+    "v": 3,
+    "cherche": "2026-10-23T12:00:46.687Z",
+    "instagram": [
+      {
+        "handle": "unafapiculture",
+        "nom": "UNAF Apiculture",
+        "abonnes": 4792,
+        "preuve": 3
+      }
+    ],
+    "threads": [],
+    "bluesky": [
+      {
+        "handle": "unafapiculture.bsky.social",
+        "nom": "Union nationale de l'apiculture française",
+        "abonnes": 389,
+        "preuve": 2
+      }
+    ],
+    "x": []
   }
 }

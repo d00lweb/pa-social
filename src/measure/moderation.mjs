@@ -127,7 +127,15 @@ async function commentairesInstagram(history, lire) {
   const posts = history.filter((e) => e.channel === 'instagram' && e.mediaId && !String(e.mediaId).startsWith('kit')).slice(-PUBLICATIONS_SUIVIES);
   const out = [];
   for (const p of posts) {
-    const j = await lire(`https://graph.facebook.com/${V()}/${p.mediaId}/comments?fields=id,text,timestamp,hidden&limit=50&access_token=${process.env.IG_TOKEN}`);
+    // Un post supprimé depuis ne doit pas priver les autres de leur relevé (23/10/2026 : un seul
+    // identifiant disparu arrêtait la lecture des douze). Toute autre erreur remonte, comme avant.
+    let j;
+    try {
+      j = await lire(`https://graph.facebook.com/${V()}/${p.mediaId}/comments?fields=id,text,timestamp,hidden&limit=50&access_token=${process.env.IG_TOKEN}`);
+    } catch (e) {
+      if (/does not exist|Unsupported get request|Object with ID/i.test(e.message)) continue;
+      throw e;
+    }
     for (const c of j.data ?? []) {
       if (c.hidden) continue;
       out.push({ id: c.id, texte: c.text ?? '', publication: p.mediaId, titre: p.titre, date: c.timestamp });

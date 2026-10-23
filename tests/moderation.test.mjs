@@ -135,3 +135,25 @@ test('aucun lecteur n’est pris pour un spammeur, même avec un emoji composé 
   // un lecteur qui conseille une adresse n'est jamais supprimé : au pire masqué, ce qui se défait
   assert.equal(verdictSpam('Cherchez sur hendaye-tourisme.fr pour les horaires')?.action, 'masquer');
 });
+
+test('un post supprimé ne prive pas les autres de leur relevé', async () => {
+  const avant = process.env.IG_TOKEN;
+  process.env.IG_TOKEN = 'jeton';
+  try {
+    const history = [
+      { channel: 'instagram', mediaId: 'disparu', titre: 'Supprimé' },
+      { channel: 'instagram', mediaId: 'm2', titre: 'Article B' },
+    ];
+    const lire = async (url) => {
+      // 23/10/2026 : « Object with ID '18412467781091791' does not exist » arrêtait toute la lecture
+      if (url.includes('/disparu/')) throw new Error("Unsupported get request. Object with ID 'disparu' does not exist");
+      return { data: [{ id: 'c1', text: 'Quelle heure ?' }] };
+    };
+    const journal = [];
+    const { verdicts } = await modererCommentaires({ history, lire, ecrire: async () => ({}), log: (l) => journal.push(l) });
+    assert.deepEqual(verdicts, []);
+    assert.ok(journal.some((l) => /1 commentaires lus, aucun spam/.test(l)), journal.join(' | '));
+  } finally {
+    process.env.IG_TOKEN = avant;
+  }
+});

@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-23T09:00:46.445Z",
+  "genereLe": "2026-10-23T09:20:37.094Z",
   "jour": "2026-10-23",
   "reseaux": {
     "instagram": {
@@ -122,11 +122,11 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 4,
-      "total": 47,
-      "dernier": "2026-10-20T12:28:50.795Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/Det09fCFWUZ"
+      "aujourdhui": 1,
+      "semaine": 5,
+      "total": 48,
+      "dernier": "2026-10-23T09:33:26.106Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/De1PQdoFlQJ"
     },
     "x": {
       "actif": true,
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35852",
       "titre": "Biarritz : le Port-Vieux s’écroule, la mairie veut le démolir",
       "lien": "https://passion-aquitaine.ouest-france.fr/biarritz-port-vieux-ecroule-demolition/",
-      "at": "2026-10-23T08:01:15.406Z",
+      "at": "2026-10-23T09:33:26.106Z",
       "reseaux": {
         "x": {
           "texte": "#Biarritz est née dans une crique : 🏚️ le Port-Vieux, dont les ouvrages s’écroulent aujourd’hui. La mairie prévoit de les démolir puis de les rebâtir.",
@@ -177,6 +177,14 @@
           "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/biarritz-port-vieux-ecroule-demolition/",
           "sujet": null,
           "publieLe": "2026-10-23T08:01:15.406Z"
+        },
+        "threads": {
+          "texte": "Si vous aimez flâner au Port-Vieux de Biarritz, ce dossier vous concerne 🌊 Les ouvrages de la crique s’écroulent, et la mairie prévoit de les démolir pour les rebâtir. Un chantier qui touche au cœur de l’histoire locale, puisque c’est ici que la ville est née.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261023-612685db-th.jpg",
+          "mode": "reponse",
+          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/biarritz-port-vieux-ecroule-demolition/",
+          "sujet": "Biarritz",
+          "publieLe": "2026-10-23T09:33:26.106Z"
         }
       }
     },
@@ -423,6 +431,16 @@
   ],
   "publications": [
     {
+      "channel": "threads",
+      "at": "2026-10-23T09:33:26.106Z",
+      "titre": "Biarritz : le Port-Vieux s’écroule, la mairie veut le démolir",
+      "lien": "https://passion-aquitaine.ouest-france.fr/biarritz-port-vieux-ecroule-demolition/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/De1PQdoFlQJ",
+      "format": "reponse",
+      "texte": "Si vous aimez flâner au Port-Vieux de Biarritz, ce dossier vous concerne 🌊 Les ouvrages de la crique s’écroulent, et la mairie prévoit de les démolir pour les rebâtir. Un chantier qui touche au cœur de l’histoire locale, puisque c’est ici que la ville est née.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261023-612685db-th.jpg"
+    },
+    {
       "channel": "x",
       "at": "2026-10-23T08:01:15.406Z",
       "titre": "Biarritz : le Port-Vieux s’écroule, la mairie veut le démolir",
@@ -511,28 +529,9 @@
       "format": "card",
       "texte": "1 055 couples de vautours fauves nichent en Béarn et au #PaysBasque. Leur efficacité a de quoi surprendre : un mouton mort est dévoré en moins de 10 minutes 🦴",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261019-5b4d97c5-bsky.jpg"
-    },
-    {
-      "channel": "threads",
-      "at": "2026-10-19T06:31:33.439Z",
-      "titre": "Pays basque : ces vautours qui dévorent un cadavre en 10 minutes",
-      "lien": "https://passion-aquitaine.ouest-france.fr/vautours-fauves-pays-basque-bearn/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/DeqnZRulaaK",
-      "format": "reponse",
-      "texte": "🏔️ Pays basque et Béarn : c’est ici que nichent 1 055 couples de vautours fauves. Ces grands rapaces ont un rôle bien à eux dans les montagnes. Quand un mouton meurt, ils s’en chargent, et vite : moins de 10 minutes suffisent pour qu’il n’en reste presque rien.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261019-5b4d97c5-th.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "threads",
-      "dueAt": "2026-10-23T09:29:29.481Z",
-      "prochainPassage": "2026-10-23T10:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Biarritz : le Port-Vieux s’écroule, la mairie veut le démolir"
-    },
     {
       "channel": "instagram",
       "dueAt": "2026-10-23T11:08:01.881Z",
@@ -681,7 +680,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-23T09:00:49.202Z",
+    "genereLe": "2026-10-23T09:33:29.880Z",
     "posts": 107,
     "parReseau": {
       "threads": {
@@ -843,7 +842,7 @@
       }
     },
     "publies": {
-      "threads": 27,
+      "threads": 28,
       "facebook": 27,
       "bluesky": 27,
       "x": 28,

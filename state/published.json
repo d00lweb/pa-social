@@ -4288,5 +4288,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35852",
+    "channel": "x",
+    "at": "2026-10-23T08:01:15.406Z",
+    "mediaId": "kit-telegram",
+    "titre": "Biarritz : le Port-Vieux s’écroule, la mairie veut le démolir",
+    "lien": "https://passion-aquitaine.ouest-france.fr/biarritz-port-vieux-ecroule-demolition/",
+    "lienPost": null,
+    "format": "reponse",
+    "mention": true,
+    "apercu": {
+      "texte": "#Biarritz est née dans une crique : 🏚️ le Port-Vieux, dont les ouvrages s’écroulent aujourd’hui. La mairie prévoit de les démolir puis de les rebâtir.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261023-612685db-x.jpg",
+      "mode": "reponse",
+      "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/biarritz-port-vieux-ecroule-demolition/",
+      "sujet": null
+    }
   }
 ]

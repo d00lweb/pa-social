@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-23T07:28:00.450Z",
+  "genereLe": "2026-10-23T08:01:03.971Z",
   "jour": "2026-10-23",
   "reseaux": {
     "instagram": {
@@ -156,14 +156,30 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 4,
-      "total": 50,
-      "dernier": "2026-10-20T14:01:21.262Z",
+      "aujourdhui": 1,
+      "semaine": 5,
+      "total": 51,
+      "dernier": "2026-10-23T08:01:15.406Z",
       "lienDernier": null
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35852",
+      "titre": "Biarritz : le Port-Vieux s’écroule, la mairie veut le démolir",
+      "lien": "https://passion-aquitaine.ouest-france.fr/biarritz-port-vieux-ecroule-demolition/",
+      "at": "2026-10-23T08:01:15.406Z",
+      "reseaux": {
+        "x": {
+          "texte": "#Biarritz est née dans une crique : 🏚️ le Port-Vieux, dont les ouvrages s’écroulent aujourd’hui. La mairie prévoit de les démolir puis de les rebâtir.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261023-612685db-x.jpg",
+          "mode": "reponse",
+          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/biarritz-port-vieux-ecroule-demolition/",
+          "sujet": null,
+          "publieLe": "2026-10-23T08:01:15.406Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35835",
       "titre": "Il avait presque disparu : en Dordogne, ce rapace bat un record avec 95 naissances en 2026",
@@ -403,57 +419,19 @@
           "publieLe": "2026-10-16T06:34:46.586Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35821",
-      "titre": "Cette micro algue pourrait finir dans vos lasagnes ou vos gâteaux : le pari bordelais",
-      "lien": "https://passion-aquitaine.ouest-france.fr/spiruline-alimentation-edonia-bordeaux/",
-      "at": "2026-10-15T19:26:43.800Z",
-      "reseaux": {
-        "threads": {
-          "texte": "🦠 La spiruline, on la connaît surtout en poudre ou en gélules. Mais à Bordeaux, la start-up Edonia veut la faire entrer dans nos plats : elle la transforme en ingrédient protéiné capable de se glisser dans des lasagnes ou des gâteaux. Vous seriez tentés d’y goûter ?\n@villedebordeaux",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261015-b69932c1-th.jpg",
-          "mode": "reponse",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/spiruline-alimentation-edonia-bordeaux/",
-          "sujet": "Bordeaux",
-          "publieLe": "2026-10-15T09:27:59.303Z"
-        },
-        "x": {
-          "texte": "Une algue verte cachée dans une part de lasagnes 🍝 À #Bordeaux, Edonia transforme la spiruline en ingrédient protéiné pensé pour s’intégrer à nos plats.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261015-b69932c1-x.jpg",
-          "mode": "reponse",
-          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/spiruline-alimentation-edonia-bordeaux/",
-          "sujet": null,
-          "publieLe": "2026-10-15T10:00:49.781Z"
-        },
-        "bluesky": {
-          "texte": "Plus de protéines sans changer vos recettes favorites : à #Bordeaux, la start-up Edonia transforme la spiruline en ingrédient qui s’intègre dans des plats du quotidien 🥗\n@villedebordeaux.bsky.social",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261015-b69932c1-bsky.jpg",
-          "mode": "reply",
-          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/spiruline-alimentation-edonia-bordeaux/",
-          "sujet": null,
-          "publieLe": "2026-10-15T10:24:19.323Z"
-        },
-        "instagram": {
-          "texte": "À Bordeaux, une start-up mise sur la spiruline pour enrichir nos assiettes 🌿\n⠀\nEdonia transforme cette micro algue en ingrédient protéiné capable de se fondre dans des lasagnes ou des gâteaux. Un pari gourmand et innovant venu de Gironde.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #Spiruline #Gastronomie",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261015-b69932c1-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-15T17:06:40.175Z"
-        },
-        "facebook": {
-          "texte": "Des lasagnes ou un gâteau enrichis à l’algue verte, vous seriez prêts à goûter ce que prépare une start-up bordelaise 🍰",
-          "image": null,
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-15T19:26:43.800Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "x",
+      "at": "2026-10-23T08:01:15.406Z",
+      "titre": "Biarritz : le Port-Vieux s’écroule, la mairie veut le démolir",
+      "lien": "https://passion-aquitaine.ouest-france.fr/biarritz-port-vieux-ecroule-demolition/",
+      "lienPost": null,
+      "format": "reponse",
+      "texte": "#Biarritz est née dans une crique : 🏚️ le Port-Vieux, dont les ouvrages s’écroulent aujourd’hui. La mairie prévoit de les démolir puis de les rebâtir.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261023-612685db-x.jpg"
+    },
     {
       "channel": "facebook",
       "at": "2026-10-20T18:06:26.382Z",
@@ -543,28 +521,9 @@
       "format": "reponse",
       "texte": "🏔️ Pays basque et Béarn : c’est ici que nichent 1 055 couples de vautours fauves. Ces grands rapaces ont un rôle bien à eux dans les montagnes. Quand un mouton meurt, ils s’en chargent, et vite : moins de 10 minutes suffisent pour qu’il n’en reste presque rien.",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261019-5b4d97c5-th.jpg"
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-10-19T06:23:49.617Z",
-      "titre": "Pays basque : ces vautours qui dévorent un cadavre en 10 minutes",
-      "lien": "https://passion-aquitaine.ouest-france.fr/vautours-fauves-pays-basque-bearn/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1757101083082439",
-      "format": null,
-      "texte": "Combien de temps faut-il à des vautours fauves pour faire disparaître un mouton mort au Pays basque ? Moins de 10 minutes 🐑",
-      "image": null
     }
   ],
   "file": [
-    {
-      "channel": "x",
-      "dueAt": "2026-10-23T08:00:00.000Z",
-      "prochainPassage": "2026-10-23T08:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Biarritz : le Port-Vieux s’écroule, la mairie veut le démolir"
-    },
     {
       "channel": "threads",
       "dueAt": "2026-10-23T09:29:29.481Z",
@@ -722,7 +681,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-23T07:28:04.252Z",
+    "genereLe": "2026-10-23T08:01:23.366Z",
     "posts": 107,
     "parReseau": {
       "threads": {
@@ -887,7 +846,7 @@
       "threads": 27,
       "facebook": 27,
       "bluesky": 27,
-      "x": 27,
+      "x": 28,
       "instagram": 27
     },
     "abonnes": {

@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-24T18:00:42.580Z",
+  "genereLe": "2026-10-24T18:20:37.269Z",
   "jour": "2026-10-24",
   "reseaux": {
     "instagram": {
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 1,
-      "semaine": 5,
-      "total": 49,
-      "dernier": "2026-10-24T06:09:07.453Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1762529092539638"
+      "aujourdhui": 2,
+      "semaine": 6,
+      "total": 50,
+      "dernier": "2026-10-24T18:26:07.756Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1763201399139074"
     },
     "threads": {
       "actif": true,
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35863",
       "titre": "Puy du Fou : le parc rêvé des familles de Nouvelle-Aquitaine",
       "lien": "https://passion-aquitaine.ouest-france.fr/puy-du-fou-meilleur-parc-famille-nouvelle-aquitaine/",
-      "at": "2026-10-24T16:29:52.894Z",
+      "at": "2026-10-24T18:26:07.756Z",
       "reseaux": {
         "threads": {
           "texte": "Des souvenirs d’enfance, des week-ends en famille, des étoiles plein les yeux… Pour beaucoup de familles de Nouvelle-Aquitaine, le @puydufou reste le parc rêvé. Élu deux fois meilleur parc du monde, il n’a rien perdu de son pouvoir de séduction 🎠",
@@ -201,6 +201,14 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-10-24T16:29:52.894Z"
+        },
+        "facebook": {
+          "texte": "Une sortie qui met d’accord petits et grands : le parc élu deux fois meilleur du monde plaît toujours autant aux familles d’ici 🎢",
+          "image": null,
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-24T18:26:07.756Z"
         }
       }
     },
@@ -447,6 +455,16 @@
   ],
   "publications": [
     {
+      "channel": "facebook",
+      "at": "2026-10-24T18:26:07.756Z",
+      "titre": "Puy du Fou : le parc rêvé des familles de Nouvelle-Aquitaine",
+      "lien": "https://passion-aquitaine.ouest-france.fr/puy-du-fou-meilleur-parc-famille-nouvelle-aquitaine/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1763201399139074",
+      "format": null,
+      "texte": "Une sortie qui met d’accord petits et grands : le parc élu deux fois meilleur du monde plaît toujours autant aux familles d’ici 🎢",
+      "image": null
+    },
+    {
       "channel": "instagram",
       "at": "2026-10-24T16:29:52.894Z",
       "titre": "Puy du Fou : le parc rêvé des familles de Nouvelle-Aquitaine",
@@ -535,29 +553,9 @@
       "format": null,
       "texte": "Le berceau de Biarritz menace de céder : 🧱 le Port-Vieux s’écroule\n⠀\nLa mairie prévoit de démolir puis de rebâtir les ouvrages de cette crique du Pays basque, celle où la ville est née.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Biarritz #PaysBasque #Patrimoine",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261023-612685db-1.jpg"
-    },
-    {
-      "channel": "x",
-      "at": "2026-10-23T14:00:55.098Z",
-      "titre": "Ce miel des Landes a mis 20 ans à être reconnu : il cache en réalité 7 miels différents",
-      "lien": "https://passion-aquitaine.ouest-france.fr/miel-landes-igp-20-ans/",
-      "lienPost": null,
-      "format": "reponse",
-      "texte": "Un seul pot, sept miels différents 🍯 Le Miel des #Landes obtient son IGP après vingt ans de démarches et de multiples rebondissements.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261023-c30322fc-x.jpg"
     }
   ],
-  "file": [
-    {
-      "channel": "facebook",
-      "dueAt": "2026-10-24T18:26:01.572Z",
-      "prochainPassage": "2026-10-24T19:00:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Puy du Fou : le parc rêvé des familles de Nouvelle-Aquitaine"
-    }
-  ],
+  "file": [],
   "alertes": [],
   "mesures": {
     "releves": 385,
@@ -678,7 +676,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-24T18:00:48.920Z",
+    "genereLe": "2026-10-24T18:26:13.167Z",
     "posts": 112,
     "parReseau": {
       "threads": {
@@ -841,7 +839,7 @@
     },
     "publies": {
       "threads": 30,
-      "facebook": 29,
+      "facebook": 30,
       "bluesky": 30,
       "x": 30,
       "instagram": 30

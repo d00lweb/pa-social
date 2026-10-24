@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-24T16:00:37.570Z",
+  "genereLe": "2026-10-24T16:20:50.405Z",
   "jour": "2026-10-24",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 1,
-      "semaine": 5,
-      "total": 54,
-      "dernier": "2026-10-24T11:10:19.141Z",
-      "lienDernier": "https://www.instagram.com/p/De3_juiDw32/"
+      "aujourdhui": 2,
+      "semaine": 6,
+      "total": 55,
+      "dernier": "2026-10-24T16:29:52.894Z",
+      "lienDernier": "https://www.instagram.com/p/De4kHkfmBzj/"
     },
     "bluesky": {
       "actif": true,
@@ -165,6 +165,46 @@
   },
   "articles": [
     {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35863",
+      "titre": "Puy du Fou : le parc rêvé des familles de Nouvelle-Aquitaine",
+      "lien": "https://passion-aquitaine.ouest-france.fr/puy-du-fou-meilleur-parc-famille-nouvelle-aquitaine/",
+      "at": "2026-10-24T16:29:52.894Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Des souvenirs d’enfance, des week-ends en famille, des étoiles plein les yeux… Pour beaucoup de familles de Nouvelle-Aquitaine, le @puydufou reste le parc rêvé. Élu deux fois meilleur parc du monde, il n’a rien perdu de son pouvoir de séduction 🎠",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261024-2d5724e5-th.jpg",
+          "mode": "reponse",
+          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/puy-du-fou-meilleur-parc-famille-nouvelle-aquitaine/",
+          "sujet": "Puy du Fou",
+          "publieLe": "2026-10-24T06:30:47.639Z"
+        },
+        "bluesky": {
+          "texte": "Les familles de #NouvelleAquitaine ont leur #parc de prédilection, et il a déjà reçu à deux reprises le titre de 🏆 meilleur parc du monde : le Puy du Fou continue de les séduire.\n➡️ Lire l’article",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261024-2d5724e5-bsky.jpg",
+          "mode": "image",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-24T07:04:44.658Z"
+        },
+        "x": {
+          "texte": "🎟️ Quel parc fait rêver les familles de Nouvelle-Aquitaine ? Le Puy du Fou, élu deux fois meilleur parc du monde, continue de les séduire.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261024-2d5724e5-x.jpg",
+          "mode": "reponse",
+          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/puy-du-fou-meilleur-parc-famille-nouvelle-aquitaine/",
+          "sujet": null,
+          "publieLe": "2026-10-24T08:20:47.915Z"
+        },
+        "instagram": {
+          "texte": "🏰 Deux fois sacré meilleur parc du monde, et toujours le rêve des familles de Nouvelle-Aquitaine\n⠀\nLe Puy du Fou garde une place à part dans le cœur des familles de la région. Retour sur un parc de loisirs qui ne lasse pas.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#PuyDuFou #NouvelleAquitaine #SortieEnFamille",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261024-2d5724e5-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-24T16:29:52.894Z"
+        }
+      }
+    },
+    {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35845",
       "titre": "Ce miel des Landes a mis 20 ans à être reconnu : il cache en réalité 7 miels différents",
       "lien": "https://passion-aquitaine.ouest-france.fr/miel-landes-igp-20-ans/",
@@ -209,38 +249,6 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-10-24T11:10:19.141Z"
-        }
-      }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35863",
-      "titre": "Puy du Fou : le parc rêvé des familles de Nouvelle-Aquitaine",
-      "lien": "https://passion-aquitaine.ouest-france.fr/puy-du-fou-meilleur-parc-famille-nouvelle-aquitaine/",
-      "at": "2026-10-24T08:20:47.915Z",
-      "reseaux": {
-        "threads": {
-          "texte": "Des souvenirs d’enfance, des week-ends en famille, des étoiles plein les yeux… Pour beaucoup de familles de Nouvelle-Aquitaine, le @puydufou reste le parc rêvé. Élu deux fois meilleur parc du monde, il n’a rien perdu de son pouvoir de séduction 🎠",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261024-2d5724e5-th.jpg",
-          "mode": "reponse",
-          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/puy-du-fou-meilleur-parc-famille-nouvelle-aquitaine/",
-          "sujet": "Puy du Fou",
-          "publieLe": "2026-10-24T06:30:47.639Z"
-        },
-        "bluesky": {
-          "texte": "Les familles de #NouvelleAquitaine ont leur #parc de prédilection, et il a déjà reçu à deux reprises le titre de 🏆 meilleur parc du monde : le Puy du Fou continue de les séduire.\n➡️ Lire l’article",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261024-2d5724e5-bsky.jpg",
-          "mode": "image",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-24T07:04:44.658Z"
-        },
-        "x": {
-          "texte": "🎟️ Quel parc fait rêver les familles de Nouvelle-Aquitaine ? Le Puy du Fou, élu deux fois meilleur parc du monde, continue de les séduire.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261024-2d5724e5-x.jpg",
-          "mode": "reponse",
-          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/puy-du-fou-meilleur-parc-famille-nouvelle-aquitaine/",
-          "sujet": null,
-          "publieLe": "2026-10-24T08:20:47.915Z"
         }
       }
     },
@@ -440,6 +448,16 @@
   "publications": [
     {
       "channel": "instagram",
+      "at": "2026-10-24T16:29:52.894Z",
+      "titre": "Puy du Fou : le parc rêvé des familles de Nouvelle-Aquitaine",
+      "lien": "https://passion-aquitaine.ouest-france.fr/puy-du-fou-meilleur-parc-famille-nouvelle-aquitaine/",
+      "lienPost": "https://www.instagram.com/p/De4kHkfmBzj/",
+      "format": null,
+      "texte": "🏰 Deux fois sacré meilleur parc du monde, et toujours le rêve des familles de Nouvelle-Aquitaine\n⠀\nLe Puy du Fou garde une place à part dans le cœur des familles de la région. Retour sur un parc de loisirs qui ne lasse pas.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#PuyDuFou #NouvelleAquitaine #SortieEnFamille",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261024-2d5724e5-1.jpg"
+    },
+    {
+      "channel": "instagram",
       "at": "2026-10-24T11:10:19.141Z",
       "titre": "Ce miel des Landes a mis 20 ans à être reconnu : il cache en réalité 7 miels différents",
       "lien": "https://passion-aquitaine.ouest-france.fr/miel-landes-igp-20-ans/",
@@ -527,28 +545,9 @@
       "format": "reponse",
       "texte": "Un seul pot, sept miels différents 🍯 Le Miel des #Landes obtient son IGP après vingt ans de démarches et de multiples rebondissements.",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261023-c30322fc-x.jpg"
-    },
-    {
-      "channel": "threads",
-      "at": "2026-10-23T12:33:02.405Z",
-      "titre": "Ce miel des Landes a mis 20 ans à être reconnu : il cache en réalité 7 miels différents",
-      "lien": "https://passion-aquitaine.ouest-france.fr/miel-landes-igp-20-ans/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/De1j2ttm513",
-      "format": "reponse",
-      "texte": "🐝 On parle du Miel des Landes comme d’un seul produit… alors qu’il cache en réalité sept miels différents. Ce miel vient d’obtenir son IGP, au bout de vingt ans de démarches et de multiples rebondissements. Une longue patience pour une reconnaissance officielle. Vous saviez qu’il existait autant de miels derrière ce nom ?",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261023-c30322fc-th.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "instagram",
-      "dueAt": "2026-10-24T16:29:11.553Z",
-      "prochainPassage": "2026-10-24T17:00:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Puy du Fou : le parc rêvé des familles de Nouvelle-Aquitaine"
-    },
     {
       "channel": "facebook",
       "dueAt": "2026-10-24T18:26:01.572Z",
@@ -679,7 +678,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-24T16:00:44.021Z",
+    "genereLe": "2026-10-24T16:29:58.799Z",
     "posts": 110,
     "parReseau": {
       "threads": {
@@ -845,7 +844,7 @@
       "facebook": 29,
       "bluesky": 30,
       "x": 30,
-      "instagram": 29
+      "instagram": 30
     },
     "abonnes": {
       "instagram": {

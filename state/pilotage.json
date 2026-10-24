@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-24T19:20:42.675Z",
+  "genereLe": "2026-10-24T20:00:59.442Z",
   "jour": "2026-10-24",
   "reseaux": {
     "instagram": {
@@ -558,7 +558,7 @@
   "file": [],
   "alertes": [],
   "mesures": {
-    "releves": 385,
+    "releves": 386,
     "parReseau": {
       "instagram": {
         "posts": 49,
@@ -676,8 +676,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-24T19:20:49.743Z",
-    "posts": 112,
+    "genereLe": "2026-10-24T20:01:05.419Z",
+    "posts": 113,
     "parReseau": {
       "threads": {
         "posts": 29,
@@ -692,7 +692,7 @@
         "moyenne": 0.3
       },
       "facebook": {
-        "posts": 27,
+        "posts": 28,
         "moyenne": 0
       }
     },
@@ -724,8 +724,8 @@
         "moyenne": 17.4
       },
       "soir": {
-        "posts": 20,
-        "moyenne": 2.6
+        "posts": 21,
+        "moyenne": 2.5
       },
       "matin": {
         "posts": 65,
@@ -753,7 +753,7 @@
           "moyenne": 0
         },
         "20 h – 21 h 30": {
-          "posts": 8,
+          "posts": 9,
           "moyenne": 0
         }
       },
@@ -808,24 +808,24 @@
       "creneauReseau": "13 h – 14 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35845",
-      "channel": "bluesky",
-      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mykp5cdvwc2n",
-      "publieLe": "2026-10-23T17:26:07.602Z",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35852",
+      "channel": "facebook",
+      "mediaId": "227437307428711_1762022752590272",
+      "publieLe": "2026-10-23T19:25:45.177Z",
       "jalon": 1,
-      "releveLe": "2026-10-24T18:00:42.580Z",
+      "releveLe": "2026-10-24T20:00:59.442Z",
       "likes": 0,
       "commentairesBruts": 0,
       "partages": 0,
       "vues": null,
       "commentaires": 0,
       "v": 2,
-      "titre": "Ce miel des Landes a mis 20 ans à être reconnu : il cache en réalité 7 miels différents",
-      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mykp5cdvwc2n",
-      "format": "image",
+      "titre": "Biarritz : le Port-Vieux s’écroule, la mairie veut le démolir",
+      "lien": "https://www.facebook.com/1720946116697936/posts/1762022752590272",
+      "format": null,
       "mention": false,
       "creneau": "soir",
-      "creneauReseau": "18 h – 19 h 30"
+      "creneauReseau": "20 h – 21 h 30"
     },
     "mentions": {
       "avec": {
@@ -833,7 +833,7 @@
         "moyenne": 7.4
       },
       "sans": {
-        "posts": 65,
+        "posts": 66,
         "moyenne": 4.5
       }
     },

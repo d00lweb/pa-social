@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-24T08:00:36.364Z",
+  "genereLe": "2026-10-24T08:20:37.613Z",
   "jour": "2026-10-24",
   "reseaux": {
     "instagram": {
@@ -156,10 +156,10 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 6,
-      "total": 52,
-      "dernier": "2026-10-23T14:00:55.098Z",
+      "aujourdhui": 1,
+      "semaine": 7,
+      "total": 53,
+      "dernier": "2026-10-24T08:20:47.915Z",
       "lienDernier": null
     }
   },
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35863",
       "titre": "Puy du Fou : le parc rêvé des familles de Nouvelle-Aquitaine",
       "lien": "https://passion-aquitaine.ouest-france.fr/puy-du-fou-meilleur-parc-famille-nouvelle-aquitaine/",
-      "at": "2026-10-24T07:04:44.658Z",
+      "at": "2026-10-24T08:20:47.915Z",
       "reseaux": {
         "threads": {
           "texte": "Des souvenirs d’enfance, des week-ends en famille, des étoiles plein les yeux… Pour beaucoup de familles de Nouvelle-Aquitaine, le @puydufou reste le parc rêvé. Élu deux fois meilleur parc du monde, il n’a rien perdu de son pouvoir de séduction 🎠",
@@ -185,6 +185,14 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-10-24T07:04:44.658Z"
+        },
+        "x": {
+          "texte": "🎟️ Quel parc fait rêver les familles de Nouvelle-Aquitaine ? Le Puy du Fou, élu deux fois meilleur parc du monde, continue de les séduire.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261024-2d5724e5-x.jpg",
+          "mode": "reponse",
+          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/puy-du-fou-meilleur-parc-famille-nouvelle-aquitaine/",
+          "sujet": null,
+          "publieLe": "2026-10-24T08:20:47.915Z"
         }
       }
     },
@@ -423,6 +431,16 @@
   ],
   "publications": [
     {
+      "channel": "x",
+      "at": "2026-10-24T08:20:47.915Z",
+      "titre": "Puy du Fou : le parc rêvé des familles de Nouvelle-Aquitaine",
+      "lien": "https://passion-aquitaine.ouest-france.fr/puy-du-fou-meilleur-parc-famille-nouvelle-aquitaine/",
+      "lienPost": null,
+      "format": "reponse",
+      "texte": "🎟️ Quel parc fait rêver les familles de Nouvelle-Aquitaine ? Le Puy du Fou, élu deux fois meilleur parc du monde, continue de les séduire.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261024-2d5724e5-x.jpg"
+    },
+    {
       "channel": "bluesky",
       "at": "2026-10-24T07:04:44.658Z",
       "titre": "Puy du Fou : le parc rêvé des familles de Nouvelle-Aquitaine",
@@ -511,28 +529,9 @@
       "format": "image",
       "texte": "⚓ La crique où #Biarritz est née pourrait changer de visage. Le Port-Vieux s’écroule, et la mairie prévoit de démolir ses ouvrages avant de les rebâtir.\n➡️ Lire l’article",
       "image": null
-    },
-    {
-      "channel": "threads",
-      "at": "2026-10-23T09:33:26.106Z",
-      "titre": "Biarritz : le Port-Vieux s’écroule, la mairie veut le démolir",
-      "lien": "https://passion-aquitaine.ouest-france.fr/biarritz-port-vieux-ecroule-demolition/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/De1PQdoFlQJ",
-      "format": "reponse",
-      "texte": "Si vous aimez flâner au Port-Vieux de Biarritz, ce dossier vous concerne 🌊 Les ouvrages de la crique s’écroulent, et la mairie prévoit de les démolir pour les rebâtir. Un chantier qui touche au cœur de l’histoire locale, puisque c’est ici que la ville est née.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261023-612685db-th.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "x",
-      "dueAt": "2026-10-24T08:20:00.000Z",
-      "prochainPassage": "2026-10-24T08:20:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Puy du Fou : le parc rêvé des familles de Nouvelle-Aquitaine"
-    },
     {
       "channel": "instagram",
       "dueAt": "2026-10-24T11:09:43.707Z",
@@ -681,7 +680,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-24T08:00:42.654Z",
+    "genereLe": "2026-10-24T08:20:58.235Z",
     "posts": 107,
     "parReseau": {
       "threads": {
@@ -846,7 +845,7 @@
       "threads": 30,
       "facebook": 29,
       "bluesky": 30,
-      "x": 29,
+      "x": 30,
       "instagram": 28
     },
     "abonnes": {

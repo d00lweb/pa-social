@@ -1042,5 +1042,27 @@
       }
     ],
     "x": []
+  },
+  "vivier:nouvelle-aquitaine tourisme:en_nouvelle_aquitaine": {
+    "v": 3,
+    "cherche": "2026-10-24T06:00:47.285Z",
+    "instagram": [
+      {
+        "handle": "en_nouvelle_aquitaine",
+        "nom": "En Nouvelle-Aquitaine",
+        "abonnes": 18616,
+        "preuve": 3
+      }
+    ],
+    "threads": [
+      {
+        "handle": "en_nouvelle_aquitaine",
+        "nom": "En Nouvelle-Aquitaine",
+        "abonnes": 18616,
+        "preuve": 3
+      }
+    ],
+    "bluesky": [],
+    "x": []
   }
 }

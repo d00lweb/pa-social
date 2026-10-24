@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-24T17:20:42.263Z",
+  "genereLe": "2026-10-24T18:00:42.580Z",
   "jour": "2026-10-24",
   "reseaux": {
     "instagram": {
@@ -560,7 +560,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 384,
+    "releves": 385,
     "parReseau": {
       "instagram": {
         "posts": 49,
@@ -639,7 +639,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-24T17:00:39.842Z"
+    "derniere": "2026-10-24T18:00:42.580Z"
   },
   "abonnes": {
     "instagram": {
@@ -678,8 +678,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-24T17:20:48.630Z",
-    "posts": 111,
+    "genereLe": "2026-10-24T18:00:48.920Z",
+    "posts": 112,
     "parReseau": {
       "threads": {
         "posts": 29,
@@ -690,7 +690,7 @@
         "moyenne": 10.6
       },
       "bluesky": {
-        "posts": 28,
+        "posts": 29,
         "moyenne": 0.3
       },
       "facebook": {
@@ -712,7 +712,7 @@
         "moyenne": 0.2
       },
       "image": {
-        "posts": 8,
+        "posts": 9,
         "moyenne": 0
       },
       "lien": {
@@ -726,8 +726,8 @@
         "moyenne": 17.4
       },
       "soir": {
-        "posts": 19,
-        "moyenne": 2.7
+        "posts": 20,
+        "moyenne": 2.6
       },
       "matin": {
         "posts": 65,
@@ -761,8 +761,8 @@
       },
       "bluesky": {
         "18 h – 19 h 30": {
-          "posts": 3,
-          "moyenne": 1.7
+          "posts": 4,
+          "moyenne": 1.3
         },
         "8 h – 9 h 30": {
           "posts": 19,
@@ -810,24 +810,24 @@
       "creneauReseau": "13 h – 14 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35852",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35845",
       "channel": "bluesky",
-      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3myk35f3f3o24",
-      "publieLe": "2026-10-23T11:28:15.573Z",
+      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mykp5cdvwc2n",
+      "publieLe": "2026-10-23T17:26:07.602Z",
       "jalon": 1,
-      "releveLe": "2026-10-24T12:00:45.134Z",
+      "releveLe": "2026-10-24T18:00:42.580Z",
       "likes": 0,
       "commentairesBruts": 0,
       "partages": 0,
       "vues": null,
       "commentaires": 0,
       "v": 2,
-      "titre": "Biarritz : le Port-Vieux s’écroule, la mairie veut le démolir",
-      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3myk35f3f3o24",
+      "titre": "Ce miel des Landes a mis 20 ans à être reconnu : il cache en réalité 7 miels différents",
+      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mykp5cdvwc2n",
       "format": "image",
       "mention": false,
-      "creneau": "après-midi",
-      "creneauReseau": "12 h – 13 h 30"
+      "creneau": "soir",
+      "creneauReseau": "18 h – 19 h 30"
     },
     "mentions": {
       "avec": {
@@ -835,8 +835,8 @@
         "moyenne": 7.4
       },
       "sans": {
-        "posts": 64,
-        "moyenne": 4.6
+        "posts": 65,
+        "moyenne": 4.5
       }
     },
     "publies": {

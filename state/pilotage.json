@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-24T10:21:04.564Z",
+  "genereLe": "2026-10-24T11:00:58.074Z",
   "jour": "2026-10-24",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 0,
+      "aujourdhui": 1,
       "semaine": 5,
-      "total": 53,
-      "dernier": "2026-10-23T17:07:50.660Z",
-      "lienDernier": "https://www.instagram.com/p/De2DrfglN5M/"
+      "total": 54,
+      "dernier": "2026-10-24T11:10:19.141Z",
+      "lienDernier": "https://www.instagram.com/p/De3_juiDw32/"
     },
     "bluesky": {
       "actif": true,
@@ -165,42 +165,10 @@
   },
   "articles": [
     {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35863",
-      "titre": "Puy du Fou : le parc rêvé des familles de Nouvelle-Aquitaine",
-      "lien": "https://passion-aquitaine.ouest-france.fr/puy-du-fou-meilleur-parc-famille-nouvelle-aquitaine/",
-      "at": "2026-10-24T08:20:47.915Z",
-      "reseaux": {
-        "threads": {
-          "texte": "Des souvenirs d’enfance, des week-ends en famille, des étoiles plein les yeux… Pour beaucoup de familles de Nouvelle-Aquitaine, le @puydufou reste le parc rêvé. Élu deux fois meilleur parc du monde, il n’a rien perdu de son pouvoir de séduction 🎠",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261024-2d5724e5-th.jpg",
-          "mode": "reponse",
-          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/puy-du-fou-meilleur-parc-famille-nouvelle-aquitaine/",
-          "sujet": "Puy du Fou",
-          "publieLe": "2026-10-24T06:30:47.639Z"
-        },
-        "bluesky": {
-          "texte": "Les familles de #NouvelleAquitaine ont leur #parc de prédilection, et il a déjà reçu à deux reprises le titre de 🏆 meilleur parc du monde : le Puy du Fou continue de les séduire.\n➡️ Lire l’article",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261024-2d5724e5-bsky.jpg",
-          "mode": "image",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-24T07:04:44.658Z"
-        },
-        "x": {
-          "texte": "🎟️ Quel parc fait rêver les familles de Nouvelle-Aquitaine ? Le Puy du Fou, élu deux fois meilleur parc du monde, continue de les séduire.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261024-2d5724e5-x.jpg",
-          "mode": "reponse",
-          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/puy-du-fou-meilleur-parc-famille-nouvelle-aquitaine/",
-          "sujet": null,
-          "publieLe": "2026-10-24T08:20:47.915Z"
-        }
-      }
-    },
-    {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35845",
       "titre": "Ce miel des Landes a mis 20 ans à être reconnu : il cache en réalité 7 miels différents",
       "lien": "https://passion-aquitaine.ouest-france.fr/miel-landes-igp-20-ans/",
-      "at": "2026-10-24T06:09:07.453Z",
+      "at": "2026-10-24T11:10:19.141Z",
       "reseaux": {
         "threads": {
           "texte": "🐝 On parle du Miel des Landes comme d’un seul produit… alors qu’il cache en réalité sept miels différents. Ce miel vient d’obtenir son IGP, au bout de vingt ans de démarches et de multiples rebondissements. Une longue patience pour une reconnaissance officielle. Vous saviez qu’il existait autant de miels derrière ce nom ?",
@@ -233,6 +201,46 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-10-24T06:09:07.453Z"
+        },
+        "instagram": {
+          "texte": "Landes : le miel du département décroche enfin son IGP 🍯\n⠀\nVingt ans de démarches et de multiples rebondissements ont été nécessaires pour faire reconnaître le Miel des Landes. Et sous ce nom unique se cachent en réalité sept miels différents.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Landes #MielDesLandes #Apiculture",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261023-c30322fc-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-24T11:10:19.141Z"
+        }
+      }
+    },
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35863",
+      "titre": "Puy du Fou : le parc rêvé des familles de Nouvelle-Aquitaine",
+      "lien": "https://passion-aquitaine.ouest-france.fr/puy-du-fou-meilleur-parc-famille-nouvelle-aquitaine/",
+      "at": "2026-10-24T08:20:47.915Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Des souvenirs d’enfance, des week-ends en famille, des étoiles plein les yeux… Pour beaucoup de familles de Nouvelle-Aquitaine, le @puydufou reste le parc rêvé. Élu deux fois meilleur parc du monde, il n’a rien perdu de son pouvoir de séduction 🎠",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261024-2d5724e5-th.jpg",
+          "mode": "reponse",
+          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/puy-du-fou-meilleur-parc-famille-nouvelle-aquitaine/",
+          "sujet": "Puy du Fou",
+          "publieLe": "2026-10-24T06:30:47.639Z"
+        },
+        "bluesky": {
+          "texte": "Les familles de #NouvelleAquitaine ont leur #parc de prédilection, et il a déjà reçu à deux reprises le titre de 🏆 meilleur parc du monde : le Puy du Fou continue de les séduire.\n➡️ Lire l’article",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261024-2d5724e5-bsky.jpg",
+          "mode": "image",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-24T07:04:44.658Z"
+        },
+        "x": {
+          "texte": "🎟️ Quel parc fait rêver les familles de Nouvelle-Aquitaine ? Le Puy du Fou, élu deux fois meilleur parc du monde, continue de les séduire.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261024-2d5724e5-x.jpg",
+          "mode": "reponse",
+          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/puy-du-fou-meilleur-parc-famille-nouvelle-aquitaine/",
+          "sujet": null,
+          "publieLe": "2026-10-24T08:20:47.915Z"
         }
       }
     },
@@ -431,6 +439,16 @@
   ],
   "publications": [
     {
+      "channel": "instagram",
+      "at": "2026-10-24T11:10:19.141Z",
+      "titre": "Ce miel des Landes a mis 20 ans à être reconnu : il cache en réalité 7 miels différents",
+      "lien": "https://passion-aquitaine.ouest-france.fr/miel-landes-igp-20-ans/",
+      "lienPost": "https://www.instagram.com/p/De3_juiDw32/",
+      "format": null,
+      "texte": "Landes : le miel du département décroche enfin son IGP 🍯\n⠀\nVingt ans de démarches et de multiples rebondissements ont été nécessaires pour faire reconnaître le Miel des Landes. Et sous ce nom unique se cachent en réalité sept miels différents.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Landes #MielDesLandes #Apiculture",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261023-c30322fc-1.jpg"
+    },
+    {
       "channel": "x",
       "at": "2026-10-24T08:20:47.915Z",
       "titre": "Puy du Fou : le parc rêvé des familles de Nouvelle-Aquitaine",
@@ -519,28 +537,9 @@
       "format": "reponse",
       "texte": "🐝 On parle du Miel des Landes comme d’un seul produit… alors qu’il cache en réalité sept miels différents. Ce miel vient d’obtenir son IGP, au bout de vingt ans de démarches et de multiples rebondissements. Une longue patience pour une reconnaissance officielle. Vous saviez qu’il existait autant de miels derrière ce nom ?",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261023-c30322fc-th.jpg"
-    },
-    {
-      "channel": "bluesky",
-      "at": "2026-10-23T11:28:15.573Z",
-      "titre": "Biarritz : le Port-Vieux s’écroule, la mairie veut le démolir",
-      "lien": "https://passion-aquitaine.ouest-france.fr/biarritz-port-vieux-ecroule-demolition/",
-      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3myk35f3f3o24",
-      "format": "image",
-      "texte": "⚓ La crique où #Biarritz est née pourrait changer de visage. Le Port-Vieux s’écroule, et la mairie prévoit de démolir ses ouvrages avant de les rebâtir.\n➡️ Lire l’article",
-      "image": null
     }
   ],
   "file": [
-    {
-      "channel": "instagram",
-      "dueAt": "2026-10-24T11:09:43.707Z",
-      "prochainPassage": "2026-10-24T11:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Ce miel des Landes a mis 20 ans à être reconnu : il cache en réalité 7 miels différents"
-    },
     {
       "channel": "instagram",
       "dueAt": "2026-10-24T16:29:11.553Z",
@@ -562,11 +561,11 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 380,
+    "releves": 381,
     "parReseau": {
       "instagram": {
-        "posts": 48,
-        "interactionsMoyennes": 13.2
+        "posts": 49,
+        "interactionsMoyennes": 13
       },
       "bluesky": {
         "posts": 47,
@@ -680,7 +679,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-24T10:21:13.735Z",
+    "genereLe": "2026-10-24T11:10:24.265Z",
     "posts": 108,
     "parReseau": {
       "threads": {
@@ -689,7 +688,7 @@
       },
       "instagram": {
         "posts": 26,
-        "moyenne": 10.4
+        "moyenne": 10.5
       },
       "bluesky": {
         "posts": 27,
@@ -725,7 +724,7 @@
     "parCreneau": {
       "après-midi": {
         "posts": 25,
-        "moyenne": 18.7
+        "moyenne": 18.8
       },
       "soir": {
         "posts": 18,
@@ -790,7 +789,7 @@
         }
       }
     },
-    "interactionsTotal": 623,
+    "interactionsTotal": 624,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35835",
       "channel": "threads",
@@ -846,7 +845,7 @@
       "facebook": 29,
       "bluesky": 30,
       "x": 30,
-      "instagram": 28
+      "instagram": 29
     },
     "abonnes": {
       "instagram": {

@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-24T06:00:36.950Z",
+  "genereLe": "2026-10-24T06:20:47.777Z",
   "jour": "2026-10-24",
   "reseaux": {
     "instagram": {
@@ -122,11 +122,11 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 6,
-      "total": 49,
-      "dernier": "2026-10-23T12:33:02.405Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/De1j2ttm513"
+      "aujourdhui": 1,
+      "semaine": 7,
+      "total": 50,
+      "dernier": "2026-10-24T06:30:47.639Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/De3fRbDlh9A"
     },
     "x": {
       "actif": true,
@@ -164,6 +164,22 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35863",
+      "titre": "Puy du Fou : le parc rêvé des familles de Nouvelle-Aquitaine",
+      "lien": "https://passion-aquitaine.ouest-france.fr/puy-du-fou-meilleur-parc-famille-nouvelle-aquitaine/",
+      "at": "2026-10-24T06:30:47.639Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Des souvenirs d’enfance, des week-ends en famille, des étoiles plein les yeux… Pour beaucoup de familles de Nouvelle-Aquitaine, le @puydufou reste le parc rêvé. Élu deux fois meilleur parc du monde, il n’a rien perdu de son pouvoir de séduction 🎠",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261024-2d5724e5-th.jpg",
+          "mode": "reponse",
+          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/puy-du-fou-meilleur-parc-famille-nouvelle-aquitaine/",
+          "sujet": "Puy du Fou",
+          "publieLe": "2026-10-24T06:30:47.639Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35845",
       "titre": "Ce miel des Landes a mis 20 ans à être reconnu : il cache en réalité 7 miels différents",
@@ -395,57 +411,19 @@
           "publieLe": "2026-10-18T10:27:53.108Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35803",
-      "titre": "Lanternes des morts : à quoi servaient ces tours de cimetière ?",
-      "lien": "https://passion-aquitaine.ouest-france.fr/lanternes-morts-cellefrouin-mystere-cimetiere/",
-      "at": "2026-10-17T10:30:51.065Z",
-      "reseaux": {
-        "threads": {
-          "texte": "Pourquoi allumer une lampe au sommet d’une tour, au milieu d’un cimetière ? À Cellefrouin, en Charente, 🏛️ une lanterne des morts de 12 mètres se dresse depuis le XIIe siècle. Son usage reste une énigme. Vous en aviez déjà croisé une ?",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261017-cb195e32-th.jpg",
-          "mode": "reponse",
-          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/lanternes-morts-cellefrouin-mystere-cimetiere/",
-          "sujet": "Cellefrouin",
-          "publieLe": "2026-10-17T06:28:08.406Z"
-        },
-        "facebook": {
-          "texte": "Tout en haut de cette colonne de cimetière, haute de 12 mètres, brûlait autrefois une lampe dont on ignore encore le vrai rôle 🕯️",
-          "image": null,
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-17T07:03:08.973Z"
-        },
-        "bluesky": {
-          "texte": "Imaginez une flamme perchée à 12 mètres au-dessus des tombes 🔦 En #Charente, à #Cellefrouin, cette lanterne des morts se dresse depuis le XIIe siècle et garde toujours son secret.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261017-cb195e32-bsky.jpg",
-          "mode": "card",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-17T07:08:20.195Z"
-        },
-        "x": {
-          "texte": "12 mètres de pierre et une lampe au sommet : à #Cellefrouin, en Charente, la lanterne des morts veille sur le cimetière depuis le XIIe siècle, sans livrer son secret 🏰",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261017-cb195e32-x.jpg",
-          "mode": "reponse",
-          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/lanternes-morts-cellefrouin-mystere-cimetiere/",
-          "sujet": null,
-          "publieLe": "2026-10-17T08:20:51.794Z"
-        },
-        "instagram": {
-          "texte": "Une idée de balade insolite en Charente : la lanterne des morts de Cellefrouin, debout depuis le XIIe siècle\n⠀\nUne colonne de 12 mètres, une lampe au sommet et un mystère jamais vraiment levé. De quoi regarder autrement ce patrimoine médiéval 🕯️\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Charente #PatrimoineMedieval #Histoire",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261017-cb195e32-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-17T10:30:51.065Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "threads",
+      "at": "2026-10-24T06:30:47.639Z",
+      "titre": "Puy du Fou : le parc rêvé des familles de Nouvelle-Aquitaine",
+      "lien": "https://passion-aquitaine.ouest-france.fr/puy-du-fou-meilleur-parc-famille-nouvelle-aquitaine/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/De3fRbDlh9A",
+      "format": "reponse",
+      "texte": "Des souvenirs d’enfance, des week-ends en famille, des étoiles plein les yeux… Pour beaucoup de familles de Nouvelle-Aquitaine, le @puydufou reste le parc rêvé. Élu deux fois meilleur parc du monde, il n’a rien perdu de son pouvoir de séduction 🎠",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261024-2d5724e5-th.jpg"
+    },
     {
       "channel": "facebook",
       "at": "2026-10-24T06:09:07.453Z",
@@ -535,28 +513,9 @@
       "format": "reponse",
       "texte": "#Biarritz est née dans une crique : 🏚️ le Port-Vieux, dont les ouvrages s’écroulent aujourd’hui. La mairie prévoit de les démolir puis de les rebâtir.",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261023-612685db-x.jpg"
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-10-20T18:06:26.382Z",
-      "titre": "Il avait presque disparu : en Dordogne, ce rapace bat un record avec 95 naissances en 2026",
-      "lien": "https://passion-aquitaine.ouest-france.fr/faucon-pelerin-dordogne-record-2026/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1758761719583042",
-      "format": null,
-      "texte": "95 jeunes faucons pèlerins à l’envol en Dordogne : un record pour un rapace qui avait presque disparu 🐣",
-      "image": null
     }
   ],
   "file": [
-    {
-      "channel": "threads",
-      "dueAt": "2026-10-24T06:27:51.593Z",
-      "prochainPassage": "2026-10-24T07:00:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Puy du Fou : le parc rêvé des familles de Nouvelle-Aquitaine"
-    },
     {
       "channel": "bluesky",
       "dueAt": "2026-10-24T07:04:42.782Z",
@@ -684,7 +643,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-24T05:20:34.724Z"
+    "derniere": "2026-10-24T06:20:47.777Z"
   },
   "abonnes": {
     "instagram": {
@@ -723,7 +682,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-24T06:09:10.857Z",
+    "genereLe": "2026-10-24T06:30:52.709Z",
     "posts": 107,
     "parReseau": {
       "threads": {
@@ -885,7 +844,7 @@
       }
     },
     "publies": {
-      "threads": 29,
+      "threads": 30,
       "facebook": 29,
       "bluesky": 29,
       "x": 29,

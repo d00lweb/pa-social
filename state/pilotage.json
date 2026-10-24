@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-24T11:20:36.315Z",
+  "genereLe": "2026-10-24T12:00:45.134Z",
   "jour": "2026-10-24",
   "reseaux": {
     "instagram": {
@@ -561,7 +561,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 381,
+    "releves": 382,
     "parReseau": {
       "instagram": {
         "posts": 49,
@@ -640,7 +640,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-24T10:21:04.564Z"
+    "derniere": "2026-10-24T12:00:45.134Z"
   },
   "abonnes": {
     "instagram": {
@@ -679,8 +679,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-24T11:20:42.989Z",
-    "posts": 108,
+    "genereLe": "2026-10-24T12:00:54.690Z",
+    "posts": 109,
     "parReseau": {
       "threads": {
         "posts": 28,
@@ -691,7 +691,7 @@
         "moyenne": 10.5
       },
       "bluesky": {
-        "posts": 27,
+        "posts": 28,
         "moyenne": 0.3
       },
       "facebook": {
@@ -713,7 +713,7 @@
         "moyenne": 0.2
       },
       "image": {
-        "posts": 7,
+        "posts": 8,
         "moyenne": 0
       },
       "lien": {
@@ -723,8 +723,8 @@
     },
     "parCreneau": {
       "après-midi": {
-        "posts": 25,
-        "moyenne": 18.8
+        "posts": 26,
+        "moyenne": 18
       },
       "soir": {
         "posts": 18,
@@ -770,7 +770,7 @@
           "moyenne": 0.2
         },
         "12 h – 13 h 30": {
-          "posts": 5,
+          "posts": 6,
           "moyenne": 0
         }
       },
@@ -811,24 +811,24 @@
       "creneauReseau": "13 h – 14 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35835",
-      "channel": "facebook",
-      "mediaId": "227437307428711_1758761719583042",
-      "publieLe": "2026-10-20T18:06:26.382Z",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35852",
+      "channel": "bluesky",
+      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3myk35f3f3o24",
+      "publieLe": "2026-10-23T11:28:15.573Z",
       "jalon": 1,
-      "releveLe": "2026-10-21T18:20:35.748Z",
+      "releveLe": "2026-10-24T12:00:45.134Z",
       "likes": 0,
       "commentairesBruts": 0,
       "partages": 0,
       "vues": null,
       "commentaires": 0,
       "v": 2,
-      "titre": "Il avait presque disparu : en Dordogne, ce rapace bat un record avec 95 naissances en 2026",
-      "lien": "https://www.facebook.com/1720946116697936/posts/1758761719583042",
-      "format": null,
+      "titre": "Biarritz : le Port-Vieux s’écroule, la mairie veut le démolir",
+      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3myk35f3f3o24",
+      "format": "image",
       "mention": false,
-      "creneau": "soir",
-      "creneauReseau": "20 h – 21 h 30"
+      "creneau": "après-midi",
+      "creneauReseau": "12 h – 13 h 30"
     },
     "mentions": {
       "avec": {
@@ -836,8 +836,8 @@
         "moyenne": 7.2
       },
       "sans": {
-        "posts": 62,
-        "moyenne": 4.7
+        "posts": 63,
+        "moyenne": 4.6
       }
     },
     "publies": {

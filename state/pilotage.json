@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-24T06:20:47.777Z",
+  "genereLe": "2026-10-24T07:00:34.239Z",
   "jour": "2026-10-24",
   "reseaux": {
     "instagram": {
@@ -60,11 +60,11 @@
         "image",
         "reply"
       ],
-      "aujourdhui": 0,
-      "semaine": 6,
-      "total": 52,
-      "dernier": "2026-10-23T17:26:07.602Z",
-      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mykp5cdvwc2n"
+      "aujourdhui": 1,
+      "semaine": 7,
+      "total": 53,
+      "dernier": "2026-10-24T07:04:44.658Z",
+      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mym4v3zkpd2y"
     },
     "facebook": {
       "actif": true,
@@ -123,7 +123,7 @@
         "reponse"
       ],
       "aujourdhui": 1,
-      "semaine": 7,
+      "semaine": 6,
       "total": 50,
       "dernier": "2026-10-24T06:30:47.639Z",
       "lienDernier": "https://www.threads.com/@lovaquitaine/post/De3fRbDlh9A"
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35863",
       "titre": "Puy du Fou : le parc rêvé des familles de Nouvelle-Aquitaine",
       "lien": "https://passion-aquitaine.ouest-france.fr/puy-du-fou-meilleur-parc-famille-nouvelle-aquitaine/",
-      "at": "2026-10-24T06:30:47.639Z",
+      "at": "2026-10-24T07:04:44.658Z",
       "reseaux": {
         "threads": {
           "texte": "Des souvenirs d’enfance, des week-ends en famille, des étoiles plein les yeux… Pour beaucoup de familles de Nouvelle-Aquitaine, le @puydufou reste le parc rêvé. Élu deux fois meilleur parc du monde, il n’a rien perdu de son pouvoir de séduction 🎠",
@@ -177,6 +177,14 @@
           "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/puy-du-fou-meilleur-parc-famille-nouvelle-aquitaine/",
           "sujet": "Puy du Fou",
           "publieLe": "2026-10-24T06:30:47.639Z"
+        },
+        "bluesky": {
+          "texte": "Les familles de #NouvelleAquitaine ont leur #parc de prédilection, et il a déjà reçu à deux reprises le titre de 🏆 meilleur parc du monde : le Puy du Fou continue de les séduire.\n➡️ Lire l’article",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261024-2d5724e5-bsky.jpg",
+          "mode": "image",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-24T07:04:44.658Z"
         }
       }
     },
@@ -415,6 +423,16 @@
   ],
   "publications": [
     {
+      "channel": "bluesky",
+      "at": "2026-10-24T07:04:44.658Z",
+      "titre": "Puy du Fou : le parc rêvé des familles de Nouvelle-Aquitaine",
+      "lien": "https://passion-aquitaine.ouest-france.fr/puy-du-fou-meilleur-parc-famille-nouvelle-aquitaine/",
+      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mym4v3zkpd2y",
+      "format": "image",
+      "texte": "Les familles de #NouvelleAquitaine ont leur #parc de prédilection, et il a déjà reçu à deux reprises le titre de 🏆 meilleur parc du monde : le Puy du Fou continue de les séduire.\n➡️ Lire l’article",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261024-2d5724e5-bsky.jpg"
+    },
+    {
       "channel": "threads",
       "at": "2026-10-24T06:30:47.639Z",
       "titre": "Puy du Fou : le parc rêvé des familles de Nouvelle-Aquitaine",
@@ -503,28 +521,9 @@
       "format": "reponse",
       "texte": "Si vous aimez flâner au Port-Vieux de Biarritz, ce dossier vous concerne 🌊 Les ouvrages de la crique s’écroulent, et la mairie prévoit de les démolir pour les rebâtir. Un chantier qui touche au cœur de l’histoire locale, puisque c’est ici que la ville est née.",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261023-612685db-th.jpg"
-    },
-    {
-      "channel": "x",
-      "at": "2026-10-23T08:01:15.406Z",
-      "titre": "Biarritz : le Port-Vieux s’écroule, la mairie veut le démolir",
-      "lien": "https://passion-aquitaine.ouest-france.fr/biarritz-port-vieux-ecroule-demolition/",
-      "lienPost": null,
-      "format": "reponse",
-      "texte": "#Biarritz est née dans une crique : 🏚️ le Port-Vieux, dont les ouvrages s’écroulent aujourd’hui. La mairie prévoit de les démolir puis de les rebâtir.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261023-612685db-x.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "bluesky",
-      "dueAt": "2026-10-24T07:04:42.782Z",
-      "prochainPassage": "2026-10-24T07:20:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Puy du Fou : le parc rêvé des familles de Nouvelle-Aquitaine"
-    },
     {
       "channel": "x",
       "dueAt": "2026-10-24T08:20:00.000Z",
@@ -564,7 +563,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 376,
+    "releves": 377,
     "parReseau": {
       "instagram": {
         "posts": 48,
@@ -579,8 +578,8 @@
         "interactionsMoyennes": 0
       },
       "threads": {
-        "posts": 43,
-        "interactionsMoyennes": 6.1
+        "posts": 44,
+        "interactionsMoyennes": 5.9
       }
     }
   },
@@ -682,7 +681,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-24T06:30:52.709Z",
+    "genereLe": "2026-10-24T07:05:03.637Z",
     "posts": 107,
     "parReseau": {
       "threads": {
@@ -846,7 +845,7 @@
     "publies": {
       "threads": 30,
       "facebook": 29,
-      "bluesky": 29,
+      "bluesky": 30,
       "x": 29,
       "instagram": 28
     },

@@ -4468,5 +4468,23 @@
       "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/puy-du-fou-meilleur-parc-famille-nouvelle-aquitaine/",
       "sujet": "Puy du Fou"
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35863",
+    "channel": "bluesky",
+    "at": "2026-10-24T07:04:44.658Z",
+    "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mym4v3zkpd2y",
+    "titre": "Puy du Fou : le parc rêvé des familles de Nouvelle-Aquitaine",
+    "lien": "https://passion-aquitaine.ouest-france.fr/puy-du-fou-meilleur-parc-famille-nouvelle-aquitaine/",
+    "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mym4v3zkpd2y",
+    "format": "image",
+    "mention": false,
+    "apercu": {
+      "texte": "Les familles de #NouvelleAquitaine ont leur #parc de prédilection, et il a déjà reçu à deux reprises le titre de 🏆 meilleur parc du monde : le Puy du Fou continue de les séduire.\n➡️ Lire l’article",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261024-2d5724e5-bsky.jpg",
+      "mode": "image",
+      "reponse": null,
+      "sujet": null
+    }
   }
 ]

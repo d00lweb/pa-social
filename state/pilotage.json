@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-25T06:20:54.198Z",
+  "genereLe": "2026-10-25T06:46:28.252Z",
   "jour": "2026-10-25",
   "reseaux": {
     "instagram": {
@@ -89,7 +89,7 @@
       },
       "formats": null,
       "aujourdhui": 0,
-      "semaine": 6,
+      "semaine": 5,
       "total": 50,
       "dernier": "2026-10-24T18:26:07.756Z",
       "lienDernier": "https://www.facebook.com/1720946116697936/posts/1763201399139074"
@@ -123,7 +123,7 @@
         "reponse"
       ],
       "aujourdhui": 0,
-      "semaine": 6,
+      "semaine": 5,
       "total": 50,
       "dernier": "2026-10-24T06:30:47.639Z",
       "lienDernier": "https://www.threads.com/@lovaquitaine/post/De3fRbDlh9A"
@@ -555,10 +555,56 @@
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261023-612685db-1.jpg"
     }
   ],
-  "file": [],
+  "file": [
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-10-25T07:08:13.526Z",
+      "prochainPassage": "2026-10-25T07:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "En Gironde, des kiwis et des bovins à la place des vignes"
+    },
+    {
+      "channel": "threads",
+      "dueAt": "2026-10-25T07:26:23.967Z",
+      "prochainPassage": "2026-10-25T08:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "En Gironde, des kiwis et des bovins à la place des vignes"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-10-25T07:30:40.653Z",
+      "prochainPassage": "2026-10-25T08:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "En Gironde, des kiwis et des bovins à la place des vignes"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-10-25T08:00:00.000Z",
+      "prochainPassage": "2026-10-25T08:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "En Gironde, des kiwis et des bovins à la place des vignes"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-10-25T11:26:31.138Z",
+      "prochainPassage": "2026-10-25T12:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "En Gironde, des kiwis et des bovins à la place des vignes"
+    }
+  ],
   "alertes": [],
   "mesures": {
-    "releves": 387,
+    "releves": 390,
     "parReseau": {
       "instagram": {
         "posts": 49,
@@ -569,12 +615,12 @@
         "interactionsMoyennes": 0.2
       },
       "facebook": {
-        "posts": 44,
+        "posts": 45,
         "interactionsMoyennes": 0
       },
       "threads": {
-        "posts": 44,
-        "interactionsMoyennes": 5.9
+        "posts": 45,
+        "interactionsMoyennes": 5.8
       }
     }
   },
@@ -676,12 +722,12 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-25T06:21:09.447Z",
-    "posts": 114,
+    "genereLe": "2026-10-25T06:46:47.714Z",
+    "posts": 115,
     "parReseau": {
       "threads": {
-        "posts": 29,
-        "moyenne": 11.9
+        "posts": 30,
+        "moyenne": 11.5
       },
       "instagram": {
         "posts": 27,
@@ -698,8 +744,8 @@
     },
     "parFormat": {
       "reponse": {
-        "posts": 27,
-        "moyenne": 12.8
+        "posts": 28,
+        "moyenne": 12.3
       },
       "reply": {
         "posts": 16,
@@ -728,7 +774,7 @@
         "moyenne": 2.5
       },
       "matin": {
-        "posts": 66,
+        "posts": 67,
         "moyenne": 1.8
       }
     },
@@ -739,8 +785,8 @@
           "moyenne": 63.3
         },
         "7 h – 8 h 30": {
-          "posts": 19,
-          "moyenne": 4.3
+          "posts": 20,
+          "moyenne": 4.1
         },
         "10 h – 11 h 30": {
           "posts": 6,
@@ -808,29 +854,29 @@
       "creneauReseau": "13 h – 14 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35845",
-      "channel": "facebook",
-      "mediaId": "227437307428711_1762529092539638",
-      "publieLe": "2026-10-24T06:09:07.453Z",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35863",
+      "channel": "threads",
+      "mediaId": "18066123104518200",
+      "publieLe": "2026-10-24T06:30:47.639Z",
       "jalon": 1,
-      "releveLe": "2026-10-25T06:20:54.198Z",
+      "releveLe": "2026-10-25T06:46:28.252Z",
       "likes": 0,
-      "commentairesBruts": 0,
+      "commentairesBruts": 1,
       "partages": 0,
-      "vues": null,
+      "vues": 267,
       "commentaires": 0,
       "v": 2,
-      "titre": "Ce miel des Landes a mis 20 ans à être reconnu : il cache en réalité 7 miels différents",
-      "lien": "https://www.facebook.com/1720946116697936/posts/1762529092539638",
-      "format": null,
-      "mention": false,
+      "titre": "Puy du Fou : le parc rêvé des familles de Nouvelle-Aquitaine",
+      "lien": "https://www.threads.com/@lovaquitaine/post/De3fRbDlh9A",
+      "format": "reponse",
+      "mention": true,
       "creneau": "matin",
-      "creneauReseau": "8 h – 9 h 30"
+      "creneauReseau": "7 h – 8 h 30"
     },
     "mentions": {
       "avec": {
-        "posts": 47,
-        "moyenne": 7.4
+        "posts": 48,
+        "moyenne": 7.2
       },
       "sans": {
         "posts": 67,
@@ -880,42 +926,42 @@
       "x": null
     },
     "engagement": {
-      "threads": 1.03,
+      "threads": 1,
       "instagram": 0.1,
       "facebook": 0
     },
     "conseils": [
       "Threads : le créneau 13 h – 14 h 30 fait 35,2 fois mieux que 10 h – 11 h 30 (63.3 contre 1.8 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Instagram : le créneau 12 h – 13 h 30 fait 2,2 fois mieux que 18 h – 19 h 30 (12.8 contre 5.9 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
-      "Le format « reponse » fait 128 fois mieux que « lien » (12.8 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « lien » de la rotation dans config/channels.json.",
+      "Le format « reponse » fait 123 fois mieux que « lien » (12.3 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « lien » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+6, +0,5 %) ; Facebook recule (−29), à surveiller."
     ]
   },
   "couts": {
     "jour": {
-      "appels": 0,
-      "entree": 0,
-      "sortie": 0,
-      "cout": 0,
+      "appels": 1,
+      "entree": 7923,
+      "sortie": 793,
+      "cout": 0.047552,
       "cle": "2026-10-25"
     },
     "semaine": {
-      "appels": 6,
-      "entree": 47808,
-      "sortie": 5785,
-      "cout": 0.306932
+      "appels": 7,
+      "entree": 55731,
+      "sortie": 6578,
+      "cout": 0.35448399999999997
     },
     "mois": {
-      "appels": 50,
-      "entree": 395535,
-      "sortie": 48002,
-      "cout": 2.5421799999999997,
+      "appels": 51,
+      "entree": 403458,
+      "sortie": 48795,
+      "cout": 2.5897319999999997,
       "cle": "2026-10"
     },
-    "projection": 3.15,
+    "projection": 3.21,
     "moyenneAppel": 0.0508,
     "parModele": {
-      "claude-opus-5-5": 50
+      "claude-opus-5-5": 51
     },
     "serie": [
       [
@@ -972,7 +1018,7 @@
       ],
       [
         "2026-10-25",
-        0
+        0.0476
       ]
     ],
     "depuis": "2026-09-23"

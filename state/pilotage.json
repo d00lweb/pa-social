@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-25T18:20:43.123Z",
+  "genereLe": "2026-10-25T19:00:44.803Z",
   "jour": "2026-10-25",
   "reseaux": {
     "instagram": {
@@ -558,7 +558,7 @@
   "file": [],
   "alertes": [],
   "mesures": {
-    "releves": 395,
+    "releves": 396,
     "parReseau": {
       "instagram": {
         "posts": 50,
@@ -676,8 +676,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-25T18:20:49.513Z",
-    "posts": 118,
+    "genereLe": "2026-10-25T19:00:49.539Z",
+    "posts": 119,
     "parReseau": {
       "threads": {
         "posts": 30,
@@ -692,7 +692,7 @@
         "moyenne": 0.3
       },
       "facebook": {
-        "posts": 29,
+        "posts": 30,
         "moyenne": 0
       }
     },
@@ -724,8 +724,8 @@
         "moyenne": 17.8
       },
       "soir": {
-        "posts": 22,
-        "moyenne": 2.5
+        "posts": 23,
+        "moyenne": 2.4
       },
       "matin": {
         "posts": 68,
@@ -753,7 +753,7 @@
           "moyenne": 0
         },
         "20 h – 21 h 30": {
-          "posts": 9,
+          "posts": 10,
           "moyenne": 0
         }
       },
@@ -809,11 +809,11 @@
     },
     "moinsBon": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35863",
-      "channel": "bluesky",
-      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mym4v3zkpd2y",
-      "publieLe": "2026-10-24T07:04:44.658Z",
+      "channel": "facebook",
+      "mediaId": "227437307428711_1763201399139074",
+      "publieLe": "2026-10-24T18:26:07.756Z",
       "jalon": 1,
-      "releveLe": "2026-10-25T07:20:45.300Z",
+      "releveLe": "2026-10-25T19:00:44.803Z",
       "likes": 0,
       "commentairesBruts": 0,
       "partages": 0,
@@ -821,11 +821,11 @@
       "commentaires": 0,
       "v": 2,
       "titre": "Puy du Fou : le parc rêvé des familles de Nouvelle-Aquitaine",
-      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mym4v3zkpd2y",
-      "format": "image",
+      "lien": "https://www.facebook.com/1720946116697936/posts/1763201399139074",
+      "format": null,
       "mention": false,
-      "creneau": "matin",
-      "creneauReseau": "8 h – 9 h 30"
+      "creneau": "soir",
+      "creneauReseau": "20 h – 21 h 30"
     },
     "mentions": {
       "avec": {
@@ -833,7 +833,7 @@
         "moyenne": 7.5
       },
       "sans": {
-        "posts": 68,
+        "posts": 69,
         "moyenne": 4.3
       }
     },

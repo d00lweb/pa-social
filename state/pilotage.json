@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-25T06:46:28.252Z",
+  "genereLe": "2026-10-25T07:00:35.943Z",
   "jour": "2026-10-25",
   "reseaux": {
     "instagram": {
@@ -60,11 +60,11 @@
         "image",
         "reply"
       ],
-      "aujourdhui": 0,
-      "semaine": 6,
-      "total": 53,
-      "dernier": "2026-10-24T07:04:44.658Z",
-      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mym4v3zkpd2y"
+      "aujourdhui": 1,
+      "semaine": 7,
+      "total": 54,
+      "dernier": "2026-10-25T07:08:15.017Z",
+      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3myonkc7cjn2j"
     },
     "facebook": {
       "actif": true,
@@ -164,6 +164,22 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35877",
+      "titre": "En Gironde, des kiwis et des bovins à la place des vignes",
+      "lien": "https://passion-aquitaine.ouest-france.fr/vignoble-bordelais-arrachage-oliviers-kiwis-bovins/",
+      "at": "2026-10-25T07:08:15.017Z",
+      "reseaux": {
+        "bluesky": {
+          "texte": "Des rangs d’oliviers et des troupeaux de bovins là où s’alignaient les ceps 🫒 En #Gironde, 21 000 hectares de vignes ont été arrachés depuis 2023, et le paysage agricole se réinvente.\n➡️ Lire l’article",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261025-683b11c4-bsky.jpg",
+          "mode": "image",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-25T07:08:15.017Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35863",
       "titre": "Puy du Fou : le parc rêvé des familles de Nouvelle-Aquitaine",
@@ -403,57 +419,19 @@
           "publieLe": "2026-10-19T10:12:57.094Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35801",
-      "titre": "Ces flûtes en os de vautour venaient du Pays basque",
-      "lien": "https://passion-aquitaine.ouest-france.fr/flutes-isturitz-pays-basque-os-vautour/",
-      "at": "2026-10-18T10:27:53.108Z",
-      "reseaux": {
-        "facebook": {
-          "texte": "Imaginez le son d’une flûte taillée dans un os de vautour il y a plus de 25 000 ans, quelque part au Pays basque 🪶",
-          "image": null,
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-18T06:23:39.094Z"
-        },
-        "threads": {
-          "texte": "Plus de 25 000 ans : c’est l’âge de la grande flûte d’Isturitz 🎵 Un os de vautour, 21 cm, quatre trous… et un instrument venu tout droit du Pays basque. Étonnant détail : ce trésor préhistorique n’est plus sur place, il est conservé en Île-de-France. Vous auriez imaginé que la musique résonnait déjà dans ces vallées il y a si longtemps ?",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261018-f5704e68-th.jpg",
-          "mode": "reponse",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/flutes-isturitz-pays-basque-os-vautour/",
-          "sujet": "Isturitz",
-          "publieLe": "2026-10-18T06:29:37.590Z"
-        },
-        "x": {
-          "texte": "Au Pays basque, à #Isturitz, des humains jouaient déjà de la musique : 🪈 la grande flûte, en os de vautour, a plus de 25 000 ans. Elle est aujourd’hui en Île-de-France.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261018-f5704e68-x.jpg",
-          "mode": "reponse",
-          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/flutes-isturitz-pays-basque-os-vautour/",
-          "sujet": null,
-          "publieLe": "2026-10-18T07:20:45.990Z"
-        },
-        "bluesky": {
-          "texte": "🦅 Que pouvait jouer un musicien du #PaysBasque il y a plus de 25 000 ans ? La grande flûte d’Isturitz, taillée dans un os de vautour et percée de quatre trous, en garde la trace. Elle se trouve aujourd’hui en Île-de-France.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261018-f5704e68-bsky.jpg",
-          "mode": "reply",
-          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/flutes-isturitz-pays-basque-os-vautour/",
-          "sujet": null,
-          "publieLe": "2026-10-18T07:27:41.328Z"
-        },
-        "instagram": {
-          "texte": "Un os de vautour, quatre trous et plus de 25 000 ans d’histoire : 🦴 la grande flûte d’Isturitz est née au Pays basque.\n⠀\nLongue de 21 cm, cette flûte préhistorique a quitté sa terre d’origine : elle est aujourd’hui conservée en Île-de-France.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#PaysBasque #Prehistoire #Archeologie",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261018-f5704e68-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-18T10:27:53.108Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "bluesky",
+      "at": "2026-10-25T07:08:15.017Z",
+      "titre": "En Gironde, des kiwis et des bovins à la place des vignes",
+      "lien": "https://passion-aquitaine.ouest-france.fr/vignoble-bordelais-arrachage-oliviers-kiwis-bovins/",
+      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3myonkc7cjn2j",
+      "format": "image",
+      "texte": "Des rangs d’oliviers et des troupeaux de bovins là où s’alignaient les ceps 🫒 En #Gironde, 21 000 hectares de vignes ont été arrachés depuis 2023, et le paysage agricole se réinvente.\n➡️ Lire l’article",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261025-683b11c4-bsky.jpg"
+    },
     {
       "channel": "facebook",
       "at": "2026-10-24T18:26:07.756Z",
@@ -543,28 +521,9 @@
       "format": "image",
       "texte": "Vingt ans de démarches et de rebondissements : le miel des #Landes obtient son IGP. Une garantie d’origine pour les amateurs, qui découvriront qu’il regroupe en réalité sept miels différents 🍯\n➡️ Lire l’article",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261023-c30322fc-bsky.jpg"
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-10-23T17:07:50.660Z",
-      "titre": "Biarritz : le Port-Vieux s’écroule, la mairie veut le démolir",
-      "lien": "https://passion-aquitaine.ouest-france.fr/biarritz-port-vieux-ecroule-demolition/",
-      "lienPost": "https://www.instagram.com/p/De2DrfglN5M/",
-      "format": null,
-      "texte": "Le berceau de Biarritz menace de céder : 🧱 le Port-Vieux s’écroule\n⠀\nLa mairie prévoit de démolir puis de rebâtir les ouvrages de cette crique du Pays basque, celle où la ville est née.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Biarritz #PaysBasque #Patrimoine",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261023-612685db-1.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "bluesky",
-      "dueAt": "2026-10-25T07:08:13.526Z",
-      "prochainPassage": "2026-10-25T07:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "En Gironde, des kiwis et des bovins à la place des vignes"
-    },
     {
       "channel": "threads",
       "dueAt": "2026-10-25T07:26:23.967Z",
@@ -722,7 +681,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-25T06:46:47.714Z",
+    "genereLe": "2026-10-25T07:08:22.292Z",
     "posts": 115,
     "parReseau": {
       "threads": {
@@ -886,7 +845,7 @@
     "publies": {
       "threads": 30,
       "facebook": 30,
-      "bluesky": 30,
+      "bluesky": 31,
       "x": 30,
       "instagram": 30
     },

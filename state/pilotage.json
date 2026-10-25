@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-25T07:20:45.300Z",
+  "genereLe": "2026-10-25T08:00:42.437Z",
   "jour": "2026-10-25",
   "reseaux": {
     "instagram": {
@@ -61,7 +61,7 @@
         "reply"
       ],
       "aujourdhui": 1,
-      "semaine": 7,
+      "semaine": 6,
       "total": 54,
       "dernier": "2026-10-25T07:08:15.017Z",
       "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3myonkc7cjn2j"
@@ -156,10 +156,10 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
+      "aujourdhui": 1,
       "semaine": 6,
-      "total": 53,
-      "dernier": "2026-10-24T08:20:47.915Z",
+      "total": 54,
+      "dernier": "2026-10-25T08:00:52.977Z",
       "lienDernier": null
     }
   },
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35877",
       "titre": "En Gironde, des kiwis et des bovins à la place des vignes",
       "lien": "https://passion-aquitaine.ouest-france.fr/vignoble-bordelais-arrachage-oliviers-kiwis-bovins/",
-      "at": "2026-10-25T07:30:46.973Z",
+      "at": "2026-10-25T08:00:52.977Z",
       "reseaux": {
         "bluesky": {
           "texte": "Des rangs d’oliviers et des troupeaux de bovins là où s’alignaient les ceps 🫒 En #Gironde, 21 000 hectares de vignes ont été arrachés depuis 2023, et le paysage agricole se réinvente.\n➡️ Lire l’article",
@@ -193,6 +193,14 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-10-25T07:30:46.973Z"
+        },
+        "x": {
+          "texte": "21 000 hectares de vignes arrachés en #Gironde depuis 2023. À leur place poussent des kiwis et des oliviers, et paissent des bovins 🐄",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261025-683b11c4-x.jpg",
+          "mode": "reponse",
+          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/vignoble-bordelais-arrachage-oliviers-kiwis-bovins/",
+          "sujet": null,
+          "publieLe": "2026-10-25T08:00:52.977Z"
         }
       }
     },
@@ -439,6 +447,16 @@
   ],
   "publications": [
     {
+      "channel": "x",
+      "at": "2026-10-25T08:00:52.977Z",
+      "titre": "En Gironde, des kiwis et des bovins à la place des vignes",
+      "lien": "https://passion-aquitaine.ouest-france.fr/vignoble-bordelais-arrachage-oliviers-kiwis-bovins/",
+      "lienPost": null,
+      "format": "reponse",
+      "texte": "21 000 hectares de vignes arrachés en #Gironde depuis 2023. À leur place poussent des kiwis et des oliviers, et paissent des bovins 🐄",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261025-683b11c4-x.jpg"
+    },
+    {
       "channel": "facebook",
       "at": "2026-10-25T07:30:46.973Z",
       "titre": "En Gironde, des kiwis et des bovins à la place des vignes",
@@ -527,28 +545,9 @@
       "format": "reponse",
       "texte": "Des souvenirs d’enfance, des week-ends en famille, des étoiles plein les yeux… Pour beaucoup de familles de Nouvelle-Aquitaine, le @puydufou reste le parc rêvé. Élu deux fois meilleur parc du monde, il n’a rien perdu de son pouvoir de séduction 🎠",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261024-2d5724e5-th.jpg"
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-10-24T06:09:07.453Z",
-      "titre": "Ce miel des Landes a mis 20 ans à être reconnu : il cache en réalité 7 miels différents",
-      "lien": "https://passion-aquitaine.ouest-france.fr/miel-landes-igp-20-ans/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1762529092539638",
-      "format": null,
-      "texte": "Sous un seul nom, le Miel des Landes réunit en fait sept miels différents, et il a fallu vingt ans pour le faire reconnaître 🐝",
-      "image": null
     }
   ],
   "file": [
-    {
-      "channel": "x",
-      "dueAt": "2026-10-25T08:00:00.000Z",
-      "prochainPassage": "2026-10-25T08:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "En Gironde, des kiwis et des bovins à la place des vignes"
-    },
     {
       "channel": "instagram",
       "dueAt": "2026-10-25T11:26:31.138Z",
@@ -561,14 +560,14 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 391,
+    "releves": 392,
     "parReseau": {
       "instagram": {
         "posts": 49,
         "interactionsMoyennes": 13
       },
       "bluesky": {
-        "posts": 47,
+        "posts": 48,
         "interactionsMoyennes": 0.2
       },
       "facebook": {
@@ -640,7 +639,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-25T06:20:54.198Z"
+    "derniere": "2026-10-25T08:00:42.437Z"
   },
   "abonnes": {
     "instagram": {
@@ -679,7 +678,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-25T07:30:51.325Z",
+    "genereLe": "2026-10-25T08:01:08.734Z",
     "posts": 116,
     "parReseau": {
       "threads": {
@@ -844,7 +843,7 @@
       "threads": 31,
       "facebook": 31,
       "bluesky": 31,
-      "x": 30,
+      "x": 31,
       "instagram": 30
     },
     "abonnes": {

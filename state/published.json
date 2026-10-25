@@ -4615,5 +4615,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35877",
+    "channel": "x",
+    "at": "2026-10-25T08:00:52.977Z",
+    "mediaId": "kit-telegram",
+    "titre": "En Gironde, des kiwis et des bovins à la place des vignes",
+    "lien": "https://passion-aquitaine.ouest-france.fr/vignoble-bordelais-arrachage-oliviers-kiwis-bovins/",
+    "lienPost": null,
+    "format": "reponse",
+    "mention": true,
+    "apercu": {
+      "texte": "21 000 hectares de vignes arrachés en #Gironde depuis 2023. À leur place poussent des kiwis et des oliviers, et paissent des bovins 🐄",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261025-683b11c4-x.jpg",
+      "mode": "reponse",
+      "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/vignoble-bordelais-arrachage-oliviers-kiwis-bovins/",
+      "sujet": null
+    }
   }
 ]

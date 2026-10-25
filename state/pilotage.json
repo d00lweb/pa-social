@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-25T11:00:37.106Z",
+  "genereLe": "2026-10-25T11:20:36.928Z",
   "jour": "2026-10-25",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 5,
-      "total": 55,
-      "dernier": "2026-10-24T16:29:52.894Z",
-      "lienDernier": "https://www.instagram.com/p/De4kHkfmBzj/"
+      "aujourdhui": 1,
+      "semaine": 6,
+      "total": 56,
+      "dernier": "2026-10-25T11:26:57.917Z",
+      "lienDernier": "https://www.instagram.com/p/De6mQzHFwGO/"
     },
     "bluesky": {
       "actif": true,
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35877",
       "titre": "En Gironde, des kiwis et des bovins à la place des vignes",
       "lien": "https://passion-aquitaine.ouest-france.fr/vignoble-bordelais-arrachage-oliviers-kiwis-bovins/",
-      "at": "2026-10-25T08:00:52.977Z",
+      "at": "2026-10-25T11:26:57.917Z",
       "reseaux": {
         "bluesky": {
           "texte": "Des rangs d’oliviers et des troupeaux de bovins là où s’alignaient les ceps 🫒 En #Gironde, 21 000 hectares de vignes ont été arrachés depuis 2023, et le paysage agricole se réinvente.\n➡️ Lire l’article",
@@ -201,6 +201,14 @@
           "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/vignoble-bordelais-arrachage-oliviers-kiwis-bovins/",
           "sujet": null,
           "publieLe": "2026-10-25T08:00:52.977Z"
+        },
+        "instagram": {
+          "texte": "Kiwis, oliviers et bovins : voici ce qui pousse désormais à la place des vignes en Gironde\n⠀\nDepuis 2023, 21 000 hectares de vignes ont été arrachés dans le département. Découvrez les nouvelles cultures qui redessinent les paysages du vignoble bordelais 🥝\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Gironde #Agriculture #Vignoble",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261025-683b11c4-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-25T11:26:57.917Z"
         }
       }
     },
@@ -447,6 +455,16 @@
   ],
   "publications": [
     {
+      "channel": "instagram",
+      "at": "2026-10-25T11:26:57.917Z",
+      "titre": "En Gironde, des kiwis et des bovins à la place des vignes",
+      "lien": "https://passion-aquitaine.ouest-france.fr/vignoble-bordelais-arrachage-oliviers-kiwis-bovins/",
+      "lienPost": "https://www.instagram.com/p/De6mQzHFwGO/",
+      "format": null,
+      "texte": "Kiwis, oliviers et bovins : voici ce qui pousse désormais à la place des vignes en Gironde\n⠀\nDepuis 2023, 21 000 hectares de vignes ont été arrachés dans le département. Découvrez les nouvelles cultures qui redessinent les paysages du vignoble bordelais 🥝\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Gironde #Agriculture #Vignoble",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261025-683b11c4-1.jpg"
+    },
+    {
       "channel": "x",
       "at": "2026-10-25T08:00:52.977Z",
       "titre": "En Gironde, des kiwis et des bovins à la place des vignes",
@@ -535,32 +553,12 @@
       "format": "image",
       "texte": "Les familles de #NouvelleAquitaine ont leur #parc de prédilection, et il a déjà reçu à deux reprises le titre de 🏆 meilleur parc du monde : le Puy du Fou continue de les séduire.\n➡️ Lire l’article",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261024-2d5724e5-bsky.jpg"
-    },
-    {
-      "channel": "threads",
-      "at": "2026-10-24T06:30:47.639Z",
-      "titre": "Puy du Fou : le parc rêvé des familles de Nouvelle-Aquitaine",
-      "lien": "https://passion-aquitaine.ouest-france.fr/puy-du-fou-meilleur-parc-famille-nouvelle-aquitaine/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/De3fRbDlh9A",
-      "format": "reponse",
-      "texte": "Des souvenirs d’enfance, des week-ends en famille, des étoiles plein les yeux… Pour beaucoup de familles de Nouvelle-Aquitaine, le @puydufou reste le parc rêvé. Élu deux fois meilleur parc du monde, il n’a rien perdu de son pouvoir de séduction 🎠",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261024-2d5724e5-th.jpg"
     }
   ],
-  "file": [
-    {
-      "channel": "instagram",
-      "dueAt": "2026-10-25T11:26:31.138Z",
-      "prochainPassage": "2026-10-25T12:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "En Gironde, des kiwis et des bovins à la place des vignes"
-    }
-  ],
+  "file": [],
   "alertes": [],
   "mesures": {
-    "releves": 393,
+    "releves": 394,
     "parReseau": {
       "instagram": {
         "posts": 50,
@@ -678,16 +676,16 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-25T11:00:41.406Z",
-    "posts": 116,
+    "genereLe": "2026-10-25T11:27:00.611Z",
+    "posts": 117,
     "parReseau": {
       "threads": {
         "posts": 30,
         "moyenne": 11.5
       },
       "instagram": {
-        "posts": 27,
-        "moyenne": 10.7
+        "posts": 28,
+        "moyenne": 11.2
       },
       "bluesky": {
         "posts": 30,
@@ -722,8 +720,8 @@
     },
     "parCreneau": {
       "après-midi": {
-        "posts": 27,
-        "moyenne": 17.5
+        "posts": 28,
+        "moyenne": 17.8
       },
       "soir": {
         "posts": 21,
@@ -775,8 +773,8 @@
       },
       "instagram": {
         "12 h – 13 h 30": {
-          "posts": 17,
-          "moyenne": 12.9
+          "posts": 18,
+          "moyenne": 13.6
         },
         "hors créneau": {
           "posts": 2,
@@ -788,7 +786,7 @@
         }
       }
     },
-    "interactionsTotal": 643,
+    "interactionsTotal": 667,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35835",
       "channel": "threads",
@@ -831,8 +829,8 @@
     },
     "mentions": {
       "avec": {
-        "posts": 48,
-        "moyenne": 7.3
+        "posts": 49,
+        "moyenne": 7.6
       },
       "sans": {
         "posts": 68,
@@ -844,7 +842,7 @@
       "facebook": 31,
       "bluesky": 31,
       "x": 31,
-      "instagram": 30
+      "instagram": 31
     },
     "abonnes": {
       "instagram": {
@@ -888,7 +886,7 @@
     },
     "conseils": [
       "Threads : le créneau 13 h – 14 h 30 fait 35,2 fois mieux que 10 h – 11 h 30 (63.3 contre 1.8 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
-      "Instagram : le créneau 12 h – 13 h 30 fait 2,2 fois mieux que 18 h – 19 h 30 (12.9 contre 5.9 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
+      "Instagram : le créneau 12 h – 13 h 30 fait 2,3 fois mieux que 18 h – 19 h 30 (13.6 contre 5.9 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Le format « reponse » fait 123 fois mieux que « lien » (12.3 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « lien » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+6, +0,5 %) ; Facebook recule (−29), à surveiller."
     ]

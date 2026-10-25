@@ -1,12 +1,12 @@
 {
   "2026-10": {
     "cle": "2026-10",
-    "publications": 154,
+    "publications": 155,
     "articles": 31,
-    "interactions": 643,
+    "interactions": 667,
     "parReseau": {
       "facebook": 31,
-      "instagram": 30,
+      "instagram": 31,
       "x": 31,
       "threads": 31,
       "bluesky": 31
@@ -49,10 +49,10 @@
       },
       {
         "reseau": "instagram",
-        "titre": "Festival Koruak : 25 chœurs chantent gratuitement à Bayonne",
-        "lien": "https://www.instagram.com/p/Dei48TpjXWT/",
-        "image": "https://passion-aquitaine.ouest-france.fr/social/20261016-b570ee70-1-vignette.jpg",
-        "interactions": 20
+        "titre": "Ce miel des Landes a mis 20 ans à être reconnu : il cache en réalité 7 miels différents",
+        "lien": "https://www.instagram.com/p/De3_juiDw32/",
+        "image": "https://passion-aquitaine.ouest-france.fr/social/20261023-c30322fc-1-vignette.jpg",
+        "interactions": 24
       }
     ]
   },

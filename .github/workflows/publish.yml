@@ -93,15 +93,24 @@ jobs:
 
       # always() : l'état est poussé même si une étape après publication échoue.
       # En cas de course entre deux exécutions, les historiques sont fusionnés au lieu d'être écrasés.
+      # L'état produit par l'exécution est copié une seule fois, avant les essais : chaque essai le
+      # fusionne avec la dernière version du dépôt. Le recopier à chaque tour reprenait l'état déjà
+      # fusionné, et le relevé des coûts, qui additionne, aurait compté deux fois ce que le dépôt
+      # avait reçu entre-temps. Entre deux essais, une attente croissante : le 26/10/2026, trois
+      # « Internal Server Error » de GitHub en trois secondes ont fait échouer un passage.
       - name: Enregistrer l'état
         if: always()
         run: |
           rm -f .env
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          for essai in 1 2 3; do
-            rm -rf /tmp/etat-local && cp -a state /tmp/etat-local
-            git fetch -q origin main
+          rm -rf /tmp/etat-local && cp -a state /tmp/etat-local
+          for essai in 1 2 3 4 5; do
+            if ! git fetch -q origin main; then
+              echo "GitHub injoignable : nouvel essai dans $((essai * 10)) s…"
+              sleep $((essai * 10))
+              continue
+            fi
             git reset -q --hard origin/main
             node scripts/fusion-etat.mjs /tmp/etat-local /tmp/etat-base
             if [ -z "$(git status --porcelain -- state/)" ]; then
@@ -114,7 +123,8 @@ jobs:
               echo "État enregistré (tentative $essai)."
               exit 0
             fi
-            echo "Le distant a bougé, nouvelle fusion…"
+            echo "Envoi refusé (le dépôt a bougé, ou GitHub ne répond pas) : nouvelle fusion dans $((essai * 10)) s…"
+            sleep $((essai * 10))
           done
-          echo "::error::État non enregistré après 3 tentatives"
+          echo "::error::État non enregistré après 5 tentatives"
           exit 1

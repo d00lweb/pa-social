@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-26T08:00:50.444Z",
+  "genereLe": "2026-10-26T08:20:48.609Z",
   "jour": "2026-10-26",
   "reseaux": {
     "instagram": {
@@ -157,7 +157,7 @@
         "reponse"
       ],
       "aujourdhui": 1,
-      "semaine": 7,
+      "semaine": 6,
       "total": 55,
       "dernier": "2026-10-26T08:01:01.359Z",
       "lienDernier": null
@@ -639,7 +639,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-26T07:20:37.057Z"
+    "derniere": "2026-10-26T08:20:48.609Z"
   },
   "abonnes": {
     "instagram": {
@@ -678,7 +678,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-26T08:01:11.702Z",
+    "genereLe": "2026-10-26T08:20:52.485Z",
     "posts": 122,
     "parReseau": {
       "threads": {

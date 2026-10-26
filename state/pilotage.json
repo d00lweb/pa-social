@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-26T07:20:37.057Z",
+  "genereLe": "2026-10-26T08:00:50.444Z",
   "jour": "2026-10-26",
   "reseaux": {
     "instagram": {
@@ -61,7 +61,7 @@
         "reply"
       ],
       "aujourdhui": 1,
-      "semaine": 7,
+      "semaine": 6,
       "total": 55,
       "dernier": "2026-10-26T07:35:01.138Z",
       "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3myr7j3dxdl2d"
@@ -156,10 +156,10 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 6,
-      "total": 54,
-      "dernier": "2026-10-25T08:00:52.977Z",
+      "aujourdhui": 1,
+      "semaine": 7,
+      "total": 55,
+      "dernier": "2026-10-26T08:01:01.359Z",
       "lienDernier": null
     }
   },
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35882",
       "titre": "Bordeaux : le pont de pierre s’enfonce dans la Garonne",
       "lien": "https://passion-aquitaine.ouest-france.fr/bordeaux-pont-de-pierre-enfonce-garonne/",
-      "at": "2026-10-26T07:35:01.138Z",
+      "at": "2026-10-26T08:01:01.359Z",
       "reseaux": {
         "threads": {
           "texte": "4 à 5 millimètres par an : c’est la vitesse à laquelle le pont de pierre de Bordeaux s’enfonce dans la Garonne 📐 Ça paraît minuscule, mais l’ouvrage voit passer 60 000 personnes chaque jour. Vous l’aviez déjà remarqué en le traversant ?\n@villedebordeaux",
@@ -193,6 +193,14 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-10-26T07:35:01.138Z"
+        },
+        "x": {
+          "texte": "#Bordeaux, pont de pierre : ⚠️ l’ouvrage s’enfonce de 4 à 5 millimètres par an dans la Garonne. 60 000 personnes le traversent chaque jour.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261026-96f95772-x.jpg",
+          "mode": "reponse",
+          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/bordeaux-pont-de-pierre-enfonce-garonne/",
+          "sujet": null,
+          "publieLe": "2026-10-26T08:01:01.359Z"
         }
       }
     },
@@ -439,6 +447,16 @@
   ],
   "publications": [
     {
+      "channel": "x",
+      "at": "2026-10-26T08:01:01.359Z",
+      "titre": "Bordeaux : le pont de pierre s’enfonce dans la Garonne",
+      "lien": "https://passion-aquitaine.ouest-france.fr/bordeaux-pont-de-pierre-enfonce-garonne/",
+      "lienPost": null,
+      "format": "reponse",
+      "texte": "#Bordeaux, pont de pierre : ⚠️ l’ouvrage s’enfonce de 4 à 5 millimètres par an dans la Garonne. 60 000 personnes le traversent chaque jour.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261026-96f95772-x.jpg"
+    },
+    {
       "channel": "bluesky",
       "at": "2026-10-26T07:35:01.138Z",
       "titre": "Bordeaux : le pont de pierre s’enfonce dans la Garonne",
@@ -527,28 +545,9 @@
       "format": null,
       "texte": "Une sortie qui met d’accord petits et grands : le parc élu deux fois meilleur du monde plaît toujours autant aux familles d’ici 🎢",
       "image": null
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-10-24T16:29:52.894Z",
-      "titre": "Puy du Fou : le parc rêvé des familles de Nouvelle-Aquitaine",
-      "lien": "https://passion-aquitaine.ouest-france.fr/puy-du-fou-meilleur-parc-famille-nouvelle-aquitaine/",
-      "lienPost": "https://www.instagram.com/p/De4kHkfmBzj/",
-      "format": null,
-      "texte": "🏰 Deux fois sacré meilleur parc du monde, et toujours le rêve des familles de Nouvelle-Aquitaine\n⠀\nLe Puy du Fou garde une place à part dans le cœur des familles de la région. Retour sur un parc de loisirs qui ne lasse pas.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#PuyDuFou #NouvelleAquitaine #SortieEnFamille",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261024-2d5724e5-1.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "x",
-      "dueAt": "2026-10-26T08:00:00.000Z",
-      "prochainPassage": "2026-10-26T08:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Bordeaux : le pont de pierre s’enfonce dans la Garonne"
-    },
     {
       "channel": "instagram",
       "dueAt": "2026-10-26T11:04:59.284Z",
@@ -561,14 +560,14 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 399,
+    "releves": 402,
     "parReseau": {
       "instagram": {
         "posts": 50,
         "interactionsMoyennes": 13
       },
       "bluesky": {
-        "posts": 48,
+        "posts": 49,
         "interactionsMoyennes": 0.2
       },
       "facebook": {
@@ -679,12 +678,12 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-26T07:35:06.871Z",
-    "posts": 120,
+    "genereLe": "2026-10-26T08:01:11.702Z",
+    "posts": 122,
     "parReseau": {
       "threads": {
-        "posts": 30,
-        "moyenne": 11.5
+        "posts": 31,
+        "moyenne": 11.7
       },
       "instagram": {
         "posts": 29,
@@ -695,14 +694,14 @@
         "moyenne": 0.3
       },
       "facebook": {
-        "posts": 30,
+        "posts": 31,
         "moyenne": 0
       }
     },
     "parFormat": {
       "reponse": {
-        "posts": 28,
-        "moyenne": 12.3
+        "posts": 29,
+        "moyenne": 12.6
       },
       "reply": {
         "posts": 16,
@@ -731,8 +730,8 @@
         "moyenne": 2.4
       },
       "matin": {
-        "posts": 69,
-        "moyenne": 1.7
+        "posts": 71,
+        "moyenne": 1.9
       }
     },
     "parCreneauReseau": {
@@ -742,8 +741,8 @@
           "moyenne": 63.3
         },
         "7 h – 8 h 30": {
-          "posts": 20,
-          "moyenne": 4.1
+          "posts": 21,
+          "moyenne": 4.8
         },
         "10 h – 11 h 30": {
           "posts": 6,
@@ -752,7 +751,7 @@
       },
       "facebook": {
         "8 h – 9 h 30": {
-          "posts": 20,
+          "posts": 21,
           "moyenne": 0
         },
         "20 h – 21 h 30": {
@@ -789,7 +788,7 @@
         }
       }
     },
-    "interactionsTotal": 671,
+    "interactionsTotal": 690,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35835",
       "channel": "threads",
@@ -812,11 +811,11 @@
     },
     "moinsBon": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35877",
-      "channel": "bluesky",
-      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3myonkc7cjn2j",
-      "publieLe": "2026-10-25T07:08:15.017Z",
+      "channel": "facebook",
+      "mediaId": "227437307428711_1763816562410891",
+      "publieLe": "2026-10-25T07:30:46.973Z",
       "jalon": 1,
-      "releveLe": "2026-10-26T07:20:37.057Z",
+      "releveLe": "2026-10-26T08:00:50.444Z",
       "likes": 0,
       "commentairesBruts": 0,
       "partages": 0,
@@ -824,8 +823,8 @@
       "commentaires": 0,
       "v": 2,
       "titre": "En Gironde, des kiwis et des bovins à la place des vignes",
-      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3myonkc7cjn2j",
-      "format": "image",
+      "lien": "https://www.facebook.com/1720946116697936/posts/1763816562410891",
+      "format": null,
       "mention": false,
       "creneau": "matin",
       "creneauReseau": "8 h – 9 h 30"
@@ -836,15 +835,15 @@
         "moyenne": 7.5
       },
       "sans": {
-        "posts": 70,
-        "moyenne": 4.2
+        "posts": 72,
+        "moyenne": 4.3
       }
     },
     "publies": {
       "threads": 32,
       "facebook": 32,
       "bluesky": 32,
-      "x": 31,
+      "x": 32,
       "instagram": 31
     },
     "abonnes": {
@@ -883,14 +882,14 @@
       "x": null
     },
     "engagement": {
-      "threads": 1,
+      "threads": 1.01,
       "instagram": 0.11,
       "facebook": 0
     },
     "conseils": [
       "Threads : le créneau 13 h – 14 h 30 fait 35,2 fois mieux que 10 h – 11 h 30 (63.3 contre 1.8 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Instagram : le créneau 12 h – 13 h 30 fait 2,4 fois mieux que 18 h – 19 h 30 (13.6 contre 5.7 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
-      "Le format « reponse » fait 123 fois mieux que « lien » (12.3 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « lien » de la rotation dans config/channels.json.",
+      "Le format « reponse » fait 126 fois mieux que « lien » (12.6 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « lien » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+6, +0,5 %) ; Facebook recule (−32), à surveiller."
     ]
   },

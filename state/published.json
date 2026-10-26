@@ -4705,5 +4705,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35882",
+    "channel": "x",
+    "at": "2026-10-26T08:01:01.359Z",
+    "mediaId": "kit-telegram",
+    "titre": "Bordeaux : le pont de pierre s’enfonce dans la Garonne",
+    "lien": "https://passion-aquitaine.ouest-france.fr/bordeaux-pont-de-pierre-enfonce-garonne/",
+    "lienPost": null,
+    "format": "reponse",
+    "mention": true,
+    "apercu": {
+      "texte": "#Bordeaux, pont de pierre : ⚠️ l’ouvrage s’enfonce de 4 à 5 millimètres par an dans la Garonne. 60 000 personnes le traversent chaque jour.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261026-96f95772-x.jpg",
+      "mode": "reponse",
+      "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/bordeaux-pont-de-pierre-enfonce-garonne/",
+      "sujet": null
+    }
   }
 ]

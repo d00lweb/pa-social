@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-26T07:07:38.195Z",
+  "genereLe": "2026-10-26T07:20:37.057Z",
   "jour": "2026-10-26",
   "reseaux": {
     "instagram": {
@@ -60,11 +60,11 @@
         "image",
         "reply"
       ],
-      "aujourdhui": 0,
-      "semaine": 6,
-      "total": 54,
-      "dernier": "2026-10-25T07:08:15.017Z",
-      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3myonkc7cjn2j"
+      "aujourdhui": 1,
+      "semaine": 7,
+      "total": 55,
+      "dernier": "2026-10-26T07:35:01.138Z",
+      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3myr7j3dxdl2d"
     },
     "facebook": {
       "actif": true,
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 5,
-      "total": 51,
-      "dernier": "2026-10-25T07:30:46.973Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1763816562410891"
+      "aujourdhui": 1,
+      "semaine": 6,
+      "total": 52,
+      "dernier": "2026-10-26T07:31:52.258Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1765020908957123"
     },
     "threads": {
       "actif": true,
@@ -122,11 +122,11 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 5,
-      "total": 51,
-      "dernier": "2026-10-25T07:29:04.234Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/De6Kw1pEa7N"
+      "aujourdhui": 1,
+      "semaine": 6,
+      "total": 52,
+      "dernier": "2026-10-26T07:30:52.653Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/De8vlLxFalL"
     },
     "x": {
       "actif": true,
@@ -164,6 +164,38 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35882",
+      "titre": "Bordeaux : le pont de pierre s’enfonce dans la Garonne",
+      "lien": "https://passion-aquitaine.ouest-france.fr/bordeaux-pont-de-pierre-enfonce-garonne/",
+      "at": "2026-10-26T07:35:01.138Z",
+      "reseaux": {
+        "threads": {
+          "texte": "4 à 5 millimètres par an : c’est la vitesse à laquelle le pont de pierre de Bordeaux s’enfonce dans la Garonne 📐 Ça paraît minuscule, mais l’ouvrage voit passer 60 000 personnes chaque jour. Vous l’aviez déjà remarqué en le traversant ?\n@villedebordeaux",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261026-96f95772-th.jpg",
+          "mode": "reponse",
+          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/bordeaux-pont-de-pierre-enfonce-garonne/",
+          "sujet": "Bordeaux",
+          "publieLe": "2026-10-26T07:30:52.653Z"
+        },
+        "facebook": {
+          "texte": "Imaginez le pont de pierre qui glisse doucement vers le lit de la Garonne, quelques millimètres chaque année 🌊",
+          "image": null,
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-26T07:31:52.258Z"
+        },
+        "bluesky": {
+          "texte": "🌉 Que se passe-t-il sous le #pont de pierre de #Bordeaux ? Emprunté chaque jour par 60 000 personnes, l’ouvrage s’enfonce lentement dans la Garonne, à raison de 4 à 5 millimètres par an.\n@villedebordeaux.bsky.social",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261026-96f95772-bsky.jpg",
+          "mode": "card",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-26T07:35:01.138Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35877",
       "titre": "En Gironde, des kiwis et des bovins à la place des vignes",
@@ -403,57 +435,39 @@
           "publieLe": "2026-10-20T18:06:26.382Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35814",
-      "titre": "Pays basque : ces vautours qui dévorent un cadavre en 10 minutes",
-      "lien": "https://passion-aquitaine.ouest-france.fr/vautours-fauves-pays-basque-bearn/",
-      "at": "2026-10-19T10:12:57.094Z",
-      "reseaux": {
-        "facebook": {
-          "texte": "Combien de temps faut-il à des vautours fauves pour faire disparaître un mouton mort au Pays basque ? Moins de 10 minutes 🐑",
-          "image": null,
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-19T06:23:49.617Z"
-        },
-        "threads": {
-          "texte": "🏔️ Pays basque et Béarn : c’est ici que nichent 1 055 couples de vautours fauves. Ces grands rapaces ont un rôle bien à eux dans les montagnes. Quand un mouton meurt, ils s’en chargent, et vite : moins de 10 minutes suffisent pour qu’il n’en reste presque rien.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261019-5b4d97c5-th.jpg",
-          "mode": "reponse",
-          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/vautours-fauves-pays-basque-bearn/",
-          "sujet": "Pays basque",
-          "publieLe": "2026-10-19T06:31:33.439Z"
-        },
-        "bluesky": {
-          "texte": "1 055 couples de vautours fauves nichent en Béarn et au #PaysBasque. Leur efficacité a de quoi surprendre : un mouton mort est dévoré en moins de 10 minutes 🦴",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261019-5b4d97c5-bsky.jpg",
-          "mode": "card",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-19T07:23:46.133Z"
-        },
-        "x": {
-          "texte": "Moins de 10 minutes pour dévorer un mouton mort ⏱️ C’est la performance des vautours fauves, dont 1 055 couples nichent en Béarn et au Pays basque.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261019-5b4d97c5-x.jpg",
-          "mode": "reponse",
-          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/vautours-fauves-pays-basque-bearn/",
-          "sujet": null,
-          "publieLe": "2026-10-19T08:20:47.097Z"
-        },
-        "instagram": {
-          "texte": "Un mouton mort au sol, des ailes immenses qui tournoient 🪽 En moins de 10 minutes, il ne reste plus rien.\n⠀\nAu Pays basque et en Béarn, 1 055 couples de vautours fauves nichent et jouent les nettoyeurs des montagnes.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#PaysBasque #VautourFauve #Pyrenees",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261019-5b4d97c5-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-19T10:12:57.094Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "bluesky",
+      "at": "2026-10-26T07:35:01.138Z",
+      "titre": "Bordeaux : le pont de pierre s’enfonce dans la Garonne",
+      "lien": "https://passion-aquitaine.ouest-france.fr/bordeaux-pont-de-pierre-enfonce-garonne/",
+      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3myr7j3dxdl2d",
+      "format": "card",
+      "texte": "🌉 Que se passe-t-il sous le #pont de pierre de #Bordeaux ? Emprunté chaque jour par 60 000 personnes, l’ouvrage s’enfonce lentement dans la Garonne, à raison de 4 à 5 millimètres par an.\n@villedebordeaux.bsky.social",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261026-96f95772-bsky.jpg"
+    },
+    {
+      "channel": "facebook",
+      "at": "2026-10-26T07:31:52.258Z",
+      "titre": "Bordeaux : le pont de pierre s’enfonce dans la Garonne",
+      "lien": "https://passion-aquitaine.ouest-france.fr/bordeaux-pont-de-pierre-enfonce-garonne/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1765020908957123",
+      "format": null,
+      "texte": "Imaginez le pont de pierre qui glisse doucement vers le lit de la Garonne, quelques millimètres chaque année 🌊",
+      "image": null
+    },
+    {
+      "channel": "threads",
+      "at": "2026-10-26T07:30:52.653Z",
+      "titre": "Bordeaux : le pont de pierre s’enfonce dans la Garonne",
+      "lien": "https://passion-aquitaine.ouest-france.fr/bordeaux-pont-de-pierre-enfonce-garonne/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/De8vlLxFalL",
+      "format": "reponse",
+      "texte": "4 à 5 millimètres par an : c’est la vitesse à laquelle le pont de pierre de Bordeaux s’enfonce dans la Garonne 📐 Ça paraît minuscule, mais l’ouvrage voit passer 60 000 personnes chaque jour. Vous l’aviez déjà remarqué en le traversant ?\n@villedebordeaux",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261026-96f95772-th.jpg"
+    },
     {
       "channel": "instagram",
       "at": "2026-10-25T11:26:57.917Z",
@@ -523,66 +537,9 @@
       "format": null,
       "texte": "🏰 Deux fois sacré meilleur parc du monde, et toujours le rêve des familles de Nouvelle-Aquitaine\n⠀\nLe Puy du Fou garde une place à part dans le cœur des familles de la région. Retour sur un parc de loisirs qui ne lasse pas.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#PuyDuFou #NouvelleAquitaine #SortieEnFamille",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261024-2d5724e5-1.jpg"
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-10-24T11:10:19.141Z",
-      "titre": "Ce miel des Landes a mis 20 ans à être reconnu : il cache en réalité 7 miels différents",
-      "lien": "https://passion-aquitaine.ouest-france.fr/miel-landes-igp-20-ans/",
-      "lienPost": "https://www.instagram.com/p/De3_juiDw32/",
-      "format": null,
-      "texte": "Landes : le miel du département décroche enfin son IGP 🍯\n⠀\nVingt ans de démarches et de multiples rebondissements ont été nécessaires pour faire reconnaître le Miel des Landes. Et sous ce nom unique se cachent en réalité sept miels différents.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Landes #MielDesLandes #Apiculture",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261023-c30322fc-1.jpg"
-    },
-    {
-      "channel": "x",
-      "at": "2026-10-24T08:20:47.915Z",
-      "titre": "Puy du Fou : le parc rêvé des familles de Nouvelle-Aquitaine",
-      "lien": "https://passion-aquitaine.ouest-france.fr/puy-du-fou-meilleur-parc-famille-nouvelle-aquitaine/",
-      "lienPost": null,
-      "format": "reponse",
-      "texte": "🎟️ Quel parc fait rêver les familles de Nouvelle-Aquitaine ? Le Puy du Fou, élu deux fois meilleur parc du monde, continue de les séduire.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261024-2d5724e5-x.jpg"
-    },
-    {
-      "channel": "bluesky",
-      "at": "2026-10-24T07:04:44.658Z",
-      "titre": "Puy du Fou : le parc rêvé des familles de Nouvelle-Aquitaine",
-      "lien": "https://passion-aquitaine.ouest-france.fr/puy-du-fou-meilleur-parc-famille-nouvelle-aquitaine/",
-      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mym4v3zkpd2y",
-      "format": "image",
-      "texte": "Les familles de #NouvelleAquitaine ont leur #parc de prédilection, et il a déjà reçu à deux reprises le titre de 🏆 meilleur parc du monde : le Puy du Fou continue de les séduire.\n➡️ Lire l’article",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261024-2d5724e5-bsky.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "threads",
-      "dueAt": "2026-10-26T07:26:37.810Z",
-      "prochainPassage": "2026-10-26T08:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Bordeaux : le pont de pierre s’enfonce dans la Garonne"
-    },
-    {
-      "channel": "facebook",
-      "dueAt": "2026-10-26T07:31:46.432Z",
-      "prochainPassage": "2026-10-26T08:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Bordeaux : le pont de pierre s’enfonce dans la Garonne"
-    },
-    {
-      "channel": "bluesky",
-      "dueAt": "2026-10-26T07:34:59.187Z",
-      "prochainPassage": "2026-10-26T08:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Bordeaux : le pont de pierre s’enfonce dans la Garonne"
-    },
     {
       "channel": "x",
       "dueAt": "2026-10-26T08:00:00.000Z",
@@ -604,7 +561,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 398,
+    "releves": 399,
     "parReseau": {
       "instagram": {
         "posts": 50,
@@ -683,7 +640,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-26T06:20:36.165Z"
+    "derniere": "2026-10-26T07:20:37.057Z"
   },
   "abonnes": {
     "instagram": {
@@ -722,8 +679,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-26T07:07:42.988Z",
-    "posts": 119,
+    "genereLe": "2026-10-26T07:35:06.871Z",
+    "posts": 120,
     "parReseau": {
       "threads": {
         "posts": 30,
@@ -734,7 +691,7 @@
         "moyenne": 10.9
       },
       "bluesky": {
-        "posts": 30,
+        "posts": 31,
         "moyenne": 0.3
       },
       "facebook": {
@@ -756,7 +713,7 @@
         "moyenne": 0.2
       },
       "image": {
-        "posts": 10,
+        "posts": 11,
         "moyenne": 0
       },
       "lien": {
@@ -774,7 +731,7 @@
         "moyenne": 2.4
       },
       "matin": {
-        "posts": 68,
+        "posts": 69,
         "moyenne": 1.7
       }
     },
@@ -809,7 +766,7 @@
           "moyenne": 1.3
         },
         "8 h – 9 h 30": {
-          "posts": 20,
+          "posts": 21,
           "moyenne": 0.2
         },
         "12 h – 13 h 30": {
@@ -854,24 +811,24 @@
       "creneauReseau": "13 h – 14 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35863",
-      "channel": "facebook",
-      "mediaId": "227437307428711_1763201399139074",
-      "publieLe": "2026-10-24T18:26:07.756Z",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35877",
+      "channel": "bluesky",
+      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3myonkc7cjn2j",
+      "publieLe": "2026-10-25T07:08:15.017Z",
       "jalon": 1,
-      "releveLe": "2026-10-25T19:00:44.803Z",
+      "releveLe": "2026-10-26T07:20:37.057Z",
       "likes": 0,
       "commentairesBruts": 0,
       "partages": 0,
       "vues": null,
       "commentaires": 0,
       "v": 2,
-      "titre": "Puy du Fou : le parc rêvé des familles de Nouvelle-Aquitaine",
-      "lien": "https://www.facebook.com/1720946116697936/posts/1763201399139074",
-      "format": null,
+      "titre": "En Gironde, des kiwis et des bovins à la place des vignes",
+      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3myonkc7cjn2j",
+      "format": "image",
       "mention": false,
-      "creneau": "soir",
-      "creneauReseau": "20 h – 21 h 30"
+      "creneau": "matin",
+      "creneauReseau": "8 h – 9 h 30"
     },
     "mentions": {
       "avec": {
@@ -879,14 +836,14 @@
         "moyenne": 7.5
       },
       "sans": {
-        "posts": 69,
-        "moyenne": 4.3
+        "posts": 70,
+        "moyenne": 4.2
       }
     },
     "publies": {
-      "threads": 31,
-      "facebook": 31,
-      "bluesky": 31,
+      "threads": 32,
+      "facebook": 32,
+      "bluesky": 32,
       "x": 31,
       "instagram": 31
     },

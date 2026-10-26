@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-26T21:20:36.796Z",
+  "genereLe": "2026-10-26T22:00:37.422Z",
   "jour": "2026-10-26",
   "reseaux": {
     "instagram": {
@@ -637,23 +637,23 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-26T20:25:25.001Z"
+    "derniere": "2026-10-26T22:00:37.422Z"
   },
   "abonnes": {
     "instagram": {
-      "debut": 10138,
+      "debut": 10139,
       "fin": 10130,
-      "gain": -8,
+      "gain": -9,
       "pct": -0.1,
-      "depuis": "2026-10-19",
+      "depuis": "2026-10-20",
       "au": "2026-10-26"
     },
     "facebook": {
-      "debut": 42588,
+      "debut": 42589,
       "fin": 42575,
-      "gain": -13,
+      "gain": -14,
       "pct": 0,
-      "depuis": "2026-10-19",
+      "depuis": "2026-10-20",
       "au": "2026-10-26"
     },
     "bluesky": {
@@ -661,7 +661,7 @@
       "fin": 9,
       "gain": 0,
       "pct": 0,
-      "depuis": "2026-10-19",
+      "depuis": "2026-10-20",
       "au": "2026-10-26"
     },
     "threads": {
@@ -669,14 +669,14 @@
       "fin": 1155,
       "gain": 3,
       "pct": 0.3,
-      "depuis": "2026-10-19",
+      "depuis": "2026-10-20",
       "au": "2026-10-26"
     },
     "x": null
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-26T21:20:45.088Z",
+    "genereLe": "2026-10-26T22:00:42.500Z",
     "posts": 123,
     "parReseau": {
       "threads": {

@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-26T06:20:36.165Z",
+  "genereLe": "2026-10-26T07:00:47.050Z",
   "jour": "2026-10-26",
   "reseaux": {
     "instagram": {
@@ -89,7 +89,7 @@
       },
       "formats": null,
       "aujourdhui": 0,
-      "semaine": 6,
+      "semaine": 5,
       "total": 51,
       "dernier": "2026-10-25T07:30:46.973Z",
       "lienDernier": "https://www.facebook.com/1720946116697936/posts/1763816562410891"
@@ -123,7 +123,7 @@
         "reponse"
       ],
       "aujourdhui": 0,
-      "semaine": 6,
+      "semaine": 5,
       "total": 51,
       "dernier": "2026-10-25T07:29:04.234Z",
       "lienDernier": "https://www.threads.com/@lovaquitaine/post/De6Kw1pEa7N"
@@ -555,10 +555,56 @@
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261024-2d5724e5-bsky.jpg"
     }
   ],
-  "file": [],
+  "file": [
+    {
+      "channel": "threads",
+      "dueAt": "2026-10-26T07:26:37.810Z",
+      "prochainPassage": "2026-10-26T08:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Bordeaux : le pont de pierre s’enfonce dans la Garonne"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-10-26T07:31:46.432Z",
+      "prochainPassage": "2026-10-26T08:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Bordeaux : le pont de pierre s’enfonce dans la Garonne"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-10-26T07:34:59.187Z",
+      "prochainPassage": "2026-10-26T08:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Bordeaux : le pont de pierre s’enfonce dans la Garonne"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-10-26T08:00:00.000Z",
+      "prochainPassage": "2026-10-26T08:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Bordeaux : le pont de pierre s’enfonce dans la Garonne"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-10-26T11:04:59.284Z",
+      "prochainPassage": "2026-10-26T11:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Bordeaux : le pont de pierre s’enfonce dans la Garonne"
+    }
+  ],
   "alertes": [],
   "mesures": {
-    "releves": 396,
+    "releves": 398,
     "parReseau": {
       "instagram": {
         "posts": 50,
@@ -569,12 +615,12 @@
         "interactionsMoyennes": 0.2
       },
       "facebook": {
-        "posts": 45,
+        "posts": 46,
         "interactionsMoyennes": 0
       },
       "threads": {
-        "posts": 45,
-        "interactionsMoyennes": 5.8
+        "posts": 46,
+        "interactionsMoyennes": 5.9
       }
     }
   },
@@ -676,7 +722,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-26T06:20:41.291Z",
+    "genereLe": "2026-10-26T07:01:10.778Z",
     "posts": 119,
     "parReseau": {
       "threads": {
@@ -893,29 +939,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 0,
-      "entree": 0,
-      "sortie": 0,
-      "cout": 0,
+      "appels": 1,
+      "entree": 7939,
+      "sortie": 879,
+      "cout": 0.049336,
       "cle": "2026-10-26"
     },
     "semaine": {
-      "appels": 6,
-      "entree": 47738,
-      "sortie": 5771,
-      "cout": 0.306372
+      "appels": 7,
+      "entree": 55677,
+      "sortie": 6650,
+      "cout": 0.355708
     },
     "mois": {
-      "appels": 51,
-      "entree": 403458,
-      "sortie": 48795,
-      "cout": 2.5897319999999997,
+      "appels": 52,
+      "entree": 411397,
+      "sortie": 49674,
+      "cout": 2.6390679999999995,
       "cle": "2026-10"
     },
-    "projection": 3.09,
+    "projection": 3.15,
     "moyenneAppel": 0.0508,
     "parModele": {
-      "claude-opus-5-5": 51
+      "claude-opus-5-5": 52
     },
     "serie": [
       [
@@ -972,7 +1018,7 @@
       ],
       [
         "2026-10-26",
-        0
+        0.0493
       ]
     ],
     "depuis": "2026-09-23"

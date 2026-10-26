@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-26T10:26:39.545Z",
+  "genereLe": "2026-10-26T11:11:48.814Z",
   "jour": "2026-10-26",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 5,
-      "total": 56,
-      "dernier": "2026-10-25T11:26:57.917Z",
-      "lienDernier": "https://www.instagram.com/p/De6mQzHFwGO/"
+      "aujourdhui": 1,
+      "semaine": 6,
+      "total": 57,
+      "dernier": "2026-10-26T11:12:32.844Z",
+      "lienDernier": "https://www.instagram.com/p/De9JZyIGEwH/"
     },
     "bluesky": {
       "actif": true,
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35882",
       "titre": "Bordeaux : le pont de pierre s’enfonce dans la Garonne",
       "lien": "https://passion-aquitaine.ouest-france.fr/bordeaux-pont-de-pierre-enfonce-garonne/",
-      "at": "2026-10-26T08:01:01.359Z",
+      "at": "2026-10-26T11:12:32.844Z",
       "reseaux": {
         "threads": {
           "texte": "4 à 5 millimètres par an : c’est la vitesse à laquelle le pont de pierre de Bordeaux s’enfonce dans la Garonne 📐 Ça paraît minuscule, mais l’ouvrage voit passer 60 000 personnes chaque jour. Vous l’aviez déjà remarqué en le traversant ?\n@villedebordeaux",
@@ -201,6 +201,14 @@
           "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/bordeaux-pont-de-pierre-enfonce-garonne/",
           "sujet": null,
           "publieLe": "2026-10-26T08:01:01.359Z"
+        },
+        "instagram": {
+          "texte": "Sous vos pieds, le pont de pierre de Bordeaux bouge : 📏 il s’enfonce de 4 à 5 millimètres par an\n⠀\nUn mouvement invisible à l’œil nu, sur un ouvrage que 60 000 personnes traversent chaque jour au-dessus de la Garonne.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #PontDePierre #Garonne",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261026-96f95772-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-26T11:12:32.844Z"
         }
       }
     },
@@ -447,6 +455,16 @@
   ],
   "publications": [
     {
+      "channel": "instagram",
+      "at": "2026-10-26T11:12:32.844Z",
+      "titre": "Bordeaux : le pont de pierre s’enfonce dans la Garonne",
+      "lien": "https://passion-aquitaine.ouest-france.fr/bordeaux-pont-de-pierre-enfonce-garonne/",
+      "lienPost": "https://www.instagram.com/p/De9JZyIGEwH/",
+      "format": null,
+      "texte": "Sous vos pieds, le pont de pierre de Bordeaux bouge : 📏 il s’enfonce de 4 à 5 millimètres par an\n⠀\nUn mouvement invisible à l’œil nu, sur un ouvrage que 60 000 personnes traversent chaque jour au-dessus de la Garonne.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #PontDePierre #Garonne",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261026-96f95772-1.jpg"
+    },
+    {
       "channel": "x",
       "at": "2026-10-26T08:01:01.359Z",
       "titre": "Bordeaux : le pont de pierre s’enfonce dans la Garonne",
@@ -535,29 +553,9 @@
       "format": "image",
       "texte": "Des rangs d’oliviers et des troupeaux de bovins là où s’alignaient les ceps 🫒 En #Gironde, 21 000 hectares de vignes ont été arrachés depuis 2023, et le paysage agricole se réinvente.\n➡️ Lire l’article",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261025-683b11c4-bsky.jpg"
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-10-24T18:26:07.756Z",
-      "titre": "Puy du Fou : le parc rêvé des familles de Nouvelle-Aquitaine",
-      "lien": "https://passion-aquitaine.ouest-france.fr/puy-du-fou-meilleur-parc-famille-nouvelle-aquitaine/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1763201399139074",
-      "format": null,
-      "texte": "Une sortie qui met d’accord petits et grands : le parc élu deux fois meilleur du monde plaît toujours autant aux familles d’ici 🎢",
-      "image": null
     }
   ],
-  "file": [
-    {
-      "channel": "instagram",
-      "dueAt": "2026-10-26T11:04:59.284Z",
-      "prochainPassage": "2026-10-26T11:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Bordeaux : le pont de pierre s’enfonce dans la Garonne"
-    }
-  ],
+  "file": [],
   "alertes": [],
   "mesures": {
     "releves": 403,
@@ -678,7 +676,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-26T10:26:48.685Z",
+    "genereLe": "2026-10-26T11:12:37.987Z",
     "posts": 122,
     "parReseau": {
       "threads": {
@@ -844,7 +842,7 @@
       "facebook": 32,
       "bluesky": 32,
       "x": 32,
-      "instagram": 31
+      "instagram": 32
     },
     "abonnes": {
       "instagram": {

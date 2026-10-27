@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-27T09:00:37.815Z",
+  "genereLe": "2026-10-27T09:20:41.032Z",
   "jour": "2026-10-27",
   "reseaux": {
     "instagram": {
@@ -156,10 +156,10 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 6,
-      "total": 55,
-      "dernier": "2026-10-26T08:01:01.359Z",
+      "aujourdhui": 1,
+      "semaine": 7,
+      "total": 56,
+      "dernier": "2026-10-27T09:20:51.795Z",
       "lienDernier": null
     }
   },
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35888",
       "titre": "Incendie de Saumos : la forêt brûlée classée en lande, et après ?",
       "lien": "https://passion-aquitaine.ouest-france.fr/incendie-saumos-foret-reclassee-lande/",
-      "at": "2026-10-27T08:24:47.472Z",
+      "at": "2026-10-27T09:20:51.795Z",
       "reseaux": {
         "threads": {
           "texte": "📍 Saumos, en Gironde. Après l’incendie qui a parcouru 42 000 hectares, la forêt brûlée a changé de statut : elle est désormais classée en « landes ». Une décision qui interroge, d’autant que la replantation ne commencera pas tout de suite. L’article revient sur les raisons de cette attente.",
@@ -193,6 +193,14 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-10-27T08:24:47.472Z"
+        },
+        "x": {
+          "texte": "Après l’incendie de #Saumos, la forêt n’est plus une forêt sur le papier 📰 Les 42 000 hectares brûlés en Gironde sont classés en « landes », et on ne replante pas tout de suite.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261027-6aff9da6-x.jpg",
+          "mode": "reponse",
+          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/incendie-saumos-foret-reclassee-lande/",
+          "sujet": null,
+          "publieLe": "2026-10-27T09:20:51.795Z"
         }
       }
     },
@@ -439,6 +447,16 @@
   ],
   "publications": [
     {
+      "channel": "x",
+      "at": "2026-10-27T09:20:51.795Z",
+      "titre": "Incendie de Saumos : la forêt brûlée classée en lande, et après ?",
+      "lien": "https://passion-aquitaine.ouest-france.fr/incendie-saumos-foret-reclassee-lande/",
+      "lienPost": null,
+      "format": "reponse",
+      "texte": "Après l’incendie de #Saumos, la forêt n’est plus une forêt sur le papier 📰 Les 42 000 hectares brûlés en Gironde sont classés en « landes », et on ne replante pas tout de suite.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261027-6aff9da6-x.jpg"
+    },
+    {
       "channel": "facebook",
       "at": "2026-10-27T08:24:47.472Z",
       "titre": "Incendie de Saumos : la forêt brûlée classée en lande, et après ?",
@@ -527,28 +545,9 @@
       "format": null,
       "texte": "Kiwis, oliviers et bovins : voici ce qui pousse désormais à la place des vignes en Gironde\n⠀\nDepuis 2023, 21 000 hectares de vignes ont été arrachés dans le département. Découvrez les nouvelles cultures qui redessinent les paysages du vignoble bordelais 🥝\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Gironde #Agriculture #Vignoble",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261025-683b11c4-1.jpg"
-    },
-    {
-      "channel": "x",
-      "at": "2026-10-25T08:00:52.977Z",
-      "titre": "En Gironde, des kiwis et des bovins à la place des vignes",
-      "lien": "https://passion-aquitaine.ouest-france.fr/vignoble-bordelais-arrachage-oliviers-kiwis-bovins/",
-      "lienPost": null,
-      "format": "reponse",
-      "texte": "21 000 hectares de vignes arrachés en #Gironde depuis 2023. À leur place poussent des kiwis et des oliviers, et paissent des bovins 🐄",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261025-683b11c4-x.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "x",
-      "dueAt": "2026-10-27T09:20:00.000Z",
-      "prochainPassage": "2026-10-27T09:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Incendie de Saumos : la forêt brûlée classée en lande, et après ?"
-    },
     {
       "channel": "instagram",
       "dueAt": "2026-10-27T12:24:40.495Z",
@@ -679,7 +678,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-27T09:00:48.043Z",
+    "genereLe": "2026-10-27T09:20:59.395Z",
     "posts": 126,
     "parReseau": {
       "threads": {
@@ -844,7 +843,7 @@
       "threads": 33,
       "facebook": 33,
       "bluesky": 33,
-      "x": 32,
+      "x": 33,
       "instagram": 32
     },
     "abonnes": {

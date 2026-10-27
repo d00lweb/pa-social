@@ -4741,5 +4741,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35888",
+    "channel": "threads",
+    "at": "2026-10-27T07:26:29.112Z",
+    "mediaId": "18111972416462919",
+    "titre": "Incendie de Saumos : la forêt brûlée classée en lande, et après ?",
+    "lien": "https://passion-aquitaine.ouest-france.fr/incendie-saumos-foret-reclassee-lande/",
+    "lienPost": "https://www.threads.com/@lovaquitaine/post/De_UFfskVxK",
+    "format": "reponse",
+    "mention": false,
+    "apercu": {
+      "texte": "📍 Saumos, en Gironde. Après l’incendie qui a parcouru 42 000 hectares, la forêt brûlée a changé de statut : elle est désormais classée en « landes ». Une décision qui interroge, d’autant que la replantation ne commencera pas tout de suite. L’article revient sur les raisons de cette attente.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261027-6aff9da6-th.jpg",
+      "mode": "reponse",
+      "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/incendie-saumos-foret-reclassee-lande/",
+      "sujet": "Saumos"
+    }
   }
 ]

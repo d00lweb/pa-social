@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-27T07:00:50.569Z",
+  "genereLe": "2026-10-27T07:20:41.572Z",
   "jour": "2026-10-27",
   "reseaux": {
     "instagram": {
@@ -122,11 +122,11 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 6,
-      "total": 52,
-      "dernier": "2026-10-26T07:30:52.653Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/De8vlLxFalL"
+      "aujourdhui": 1,
+      "semaine": 7,
+      "total": 53,
+      "dernier": "2026-10-27T07:26:29.112Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/De_UFfskVxK"
     },
     "x": {
       "actif": true,
@@ -164,6 +164,22 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35888",
+      "titre": "Incendie de Saumos : la forêt brûlée classée en lande, et après ?",
+      "lien": "https://passion-aquitaine.ouest-france.fr/incendie-saumos-foret-reclassee-lande/",
+      "at": "2026-10-27T07:26:29.112Z",
+      "reseaux": {
+        "threads": {
+          "texte": "📍 Saumos, en Gironde. Après l’incendie qui a parcouru 42 000 hectares, la forêt brûlée a changé de statut : elle est désormais classée en « landes ». Une décision qui interroge, d’autant que la replantation ne commencera pas tout de suite. L’article revient sur les raisons de cette attente.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261027-6aff9da6-th.jpg",
+          "mode": "reponse",
+          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/incendie-saumos-foret-reclassee-lande/",
+          "sujet": "Saumos",
+          "publieLe": "2026-10-27T07:26:29.112Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35882",
       "titre": "Bordeaux : le pont de pierre s’enfonce dans la Garonne",
@@ -403,57 +419,19 @@
           "publieLe": "2026-10-23T19:25:45.177Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35835",
-      "titre": "Il avait presque disparu : en Dordogne, ce rapace bat un record avec 95 naissances en 2026",
-      "lien": "https://passion-aquitaine.ouest-france.fr/faucon-pelerin-dordogne-record-2026/",
-      "at": "2026-10-20T18:06:26.382Z",
-      "reseaux": {
-        "threads": {
-          "texte": "On le croyait presque perdu, et pourtant… Le faucon pèlerin vient de battre un record en Dordogne : 🪺 95 jeunes ont pris leur envol en 2026. Un retour spectaculaire pour ce rapace, avec le meilleur résultat jamais enregistré dans le département.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261020-441e6c72-th.jpg",
-          "mode": "reponse",
-          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/faucon-pelerin-dordogne-record-2026/",
-          "sujet": "Dordogne",
-          "publieLe": "2026-10-20T12:28:50.795Z"
-        },
-        "x": {
-          "texte": "Lever les yeux au ciel en #Dordogne vaut de nouveau le coup : le faucon pèlerin, presque disparu, y compte 95 jeunes à l’envol en 2026, un record 🔭",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261020-441e6c72-x.jpg",
-          "mode": "reponse",
-          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/faucon-pelerin-dordogne-record-2026/",
-          "sujet": null,
-          "publieLe": "2026-10-20T14:01:21.262Z"
-        },
-        "bluesky": {
-          "texte": "En #Dordogne, le faucon pèlerin revient de loin 📈 Le rapace, qui avait presque disparu, compte 95 jeunes à l’envol en 2026. Jamais le département n’en avait recensé autant.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261020-441e6c72-bsky.jpg",
-          "mode": "reply",
-          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/faucon-pelerin-dordogne-record-2026/",
-          "sujet": null,
-          "publieLe": "2026-10-20T16:25:03.286Z"
-        },
-        "instagram": {
-          "texte": "Quel rapace, presque disparu, vient de battre un record en Dordogne ?\n⠀\nLe faucon pèlerin signe un retour spectaculaire : 95 jeunes à l’envol en 2026, du jamais vu dans le département 🦅\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Dordogne #FauconPelerin #Biodiversite",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261020-441e6c72-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-20T17:26:55.026Z"
-        },
-        "facebook": {
-          "texte": "95 jeunes faucons pèlerins à l’envol en Dordogne : un record pour un rapace qui avait presque disparu 🐣",
-          "image": null,
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-20T18:06:26.382Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "threads",
+      "at": "2026-10-27T07:26:29.112Z",
+      "titre": "Incendie de Saumos : la forêt brûlée classée en lande, et après ?",
+      "lien": "https://passion-aquitaine.ouest-france.fr/incendie-saumos-foret-reclassee-lande/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/De_UFfskVxK",
+      "format": "reponse",
+      "texte": "📍 Saumos, en Gironde. Après l’incendie qui a parcouru 42 000 hectares, la forêt brûlée a changé de statut : elle est désormais classée en « landes ». Une décision qui interroge, d’autant que la replantation ne commencera pas tout de suite. L’article revient sur les raisons de cette attente.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261027-6aff9da6-th.jpg"
+    },
     {
       "channel": "instagram",
       "at": "2026-10-26T11:12:32.844Z",
@@ -543,28 +521,9 @@
       "format": "reponse",
       "texte": "Et si le prochain fruit star de Gironde était le kiwi ? Depuis 2023, le département a arraché 🍇 21 000 hectares de vignes. À leur place, des kiwis, des oliviers et même des bovins. Une reconversion qui change le visage des campagnes girondines. Vous imaginiez un jour voir des oliviers au milieu du vignoble ?",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261025-683b11c4-th.jpg"
-    },
-    {
-      "channel": "bluesky",
-      "at": "2026-10-25T07:08:15.017Z",
-      "titre": "En Gironde, des kiwis et des bovins à la place des vignes",
-      "lien": "https://passion-aquitaine.ouest-france.fr/vignoble-bordelais-arrachage-oliviers-kiwis-bovins/",
-      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3myonkc7cjn2j",
-      "format": "image",
-      "texte": "Des rangs d’oliviers et des troupeaux de bovins là où s’alignaient les ceps 🫒 En #Gironde, 21 000 hectares de vignes ont été arrachés depuis 2023, et le paysage agricole se réinvente.\n➡️ Lire l’article",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261025-683b11c4-bsky.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "threads",
-      "dueAt": "2026-10-27T07:24:02.708Z",
-      "prochainPassage": "2026-10-27T08:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Incendie de Saumos : la forêt brûlée classée en lande, et après ?"
-    },
     {
       "channel": "bluesky",
       "dueAt": "2026-10-27T08:05:01.944Z",
@@ -683,7 +642,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-27T06:00:56.049Z"
+    "derniere": "2026-10-27T07:20:41.572Z"
   },
   "abonnes": {
     "instagram": {
@@ -722,7 +681,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-27T07:01:08.059Z",
+    "genereLe": "2026-10-27T07:26:33.210Z",
     "posts": 123,
     "parReseau": {
       "threads": {
@@ -884,7 +843,7 @@
       }
     },
     "publies": {
-      "threads": 32,
+      "threads": 33,
       "facebook": 32,
       "bluesky": 32,
       "x": 32,

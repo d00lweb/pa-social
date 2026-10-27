@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-27T08:00:40.089Z",
+  "genereLe": "2026-10-27T08:20:41.036Z",
   "jour": "2026-10-27",
   "reseaux": {
     "instagram": {
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 6,
-      "total": 52,
-      "dernier": "2026-10-26T07:31:52.258Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1765020908957123"
+      "aujourdhui": 1,
+      "semaine": 7,
+      "total": 53,
+      "dernier": "2026-10-27T08:24:47.472Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1766208638838350"
     },
     "threads": {
       "actif": true,
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35888",
       "titre": "Incendie de Saumos : la forêt brûlée classée en lande, et après ?",
       "lien": "https://passion-aquitaine.ouest-france.fr/incendie-saumos-foret-reclassee-lande/",
-      "at": "2026-10-27T08:05:03.766Z",
+      "at": "2026-10-27T08:24:47.472Z",
       "reseaux": {
         "threads": {
           "texte": "📍 Saumos, en Gironde. Après l’incendie qui a parcouru 42 000 hectares, la forêt brûlée a changé de statut : elle est désormais classée en « landes ». Une décision qui interroge, d’autant que la replantation ne commencera pas tout de suite. L’article revient sur les raisons de cette attente.",
@@ -185,6 +185,14 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-10-27T08:05:03.766Z"
+        },
+        "facebook": {
+          "texte": "Après l’incendie de Saumos, pourquoi ne replante-t-on pas tout de suite les arbres sur la forêt brûlée 🗞️",
+          "image": null,
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-27T08:24:47.472Z"
         }
       }
     },
@@ -431,6 +439,16 @@
   ],
   "publications": [
     {
+      "channel": "facebook",
+      "at": "2026-10-27T08:24:47.472Z",
+      "titre": "Incendie de Saumos : la forêt brûlée classée en lande, et après ?",
+      "lien": "https://passion-aquitaine.ouest-france.fr/incendie-saumos-foret-reclassee-lande/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1766208638838350",
+      "format": null,
+      "texte": "Après l’incendie de Saumos, pourquoi ne replante-t-on pas tout de suite les arbres sur la forêt brûlée 🗞️",
+      "image": null
+    },
+    {
       "channel": "bluesky",
       "at": "2026-10-27T08:05:03.766Z",
       "titre": "Incendie de Saumos : la forêt brûlée classée en lande, et après ?",
@@ -519,28 +537,9 @@
       "format": "reponse",
       "texte": "21 000 hectares de vignes arrachés en #Gironde depuis 2023. À leur place poussent des kiwis et des oliviers, et paissent des bovins 🐄",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261025-683b11c4-x.jpg"
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-10-25T07:30:46.973Z",
-      "titre": "En Gironde, des kiwis et des bovins à la place des vignes",
-      "lien": "https://passion-aquitaine.ouest-france.fr/vignoble-bordelais-arrachage-oliviers-kiwis-bovins/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1763816562410891",
-      "format": null,
-      "texte": "Là où mûrissait le raisin girondin, on récolte maintenant des kiwis et on croise des oliviers 🥝",
-      "image": null
     }
   ],
   "file": [
-    {
-      "channel": "facebook",
-      "dueAt": "2026-10-27T08:24:41.544Z",
-      "prochainPassage": "2026-10-27T09:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Incendie de Saumos : la forêt brûlée classée en lande, et après ?"
-    },
     {
       "channel": "x",
       "dueAt": "2026-10-27T09:20:00.000Z",
@@ -680,7 +679,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-27T08:05:12.548Z",
+    "genereLe": "2026-10-27T08:24:49.939Z",
     "posts": 126,
     "parReseau": {
       "threads": {
@@ -843,7 +842,7 @@
     },
     "publies": {
       "threads": 33,
-      "facebook": 32,
+      "facebook": 33,
       "bluesky": 33,
       "x": 32,
       "instagram": 32

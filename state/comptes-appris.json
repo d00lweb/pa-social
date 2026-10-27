@@ -1071,5 +1071,34 @@
     "instagram": [],
     "threads": [],
     "bluesky": []
+  },
+  "commune:mairie:saumos": {
+    "v": 3,
+    "cherche": "2026-10-27T07:01:01.003Z",
+    "instagram": [],
+    "x": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:saumos:foret": {
+    "v": 3,
+    "cherche": "2026-10-27T07:01:01.003Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:saumos:incendie": {
+    "v": 3,
+    "cherche": "2026-10-27T07:01:01.003Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:saumos:environnement": {
+    "v": 3,
+    "cherche": "2026-10-27T07:01:01.003Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
   }
 }

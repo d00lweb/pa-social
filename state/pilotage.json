@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-27T06:20:56.111Z",
+  "genereLe": "2026-10-27T07:00:50.569Z",
   "jour": "2026-10-27",
   "reseaux": {
     "instagram": {
@@ -555,7 +555,53 @@
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261025-683b11c4-bsky.jpg"
     }
   ],
-  "file": [],
+  "file": [
+    {
+      "channel": "threads",
+      "dueAt": "2026-10-27T07:24:02.708Z",
+      "prochainPassage": "2026-10-27T08:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Incendie de Saumos : la forêt brûlée classée en lande, et après ?"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-10-27T08:05:01.944Z",
+      "prochainPassage": "2026-10-27T08:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Incendie de Saumos : la forêt brûlée classée en lande, et après ?"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-10-27T08:24:41.544Z",
+      "prochainPassage": "2026-10-27T09:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Incendie de Saumos : la forêt brûlée classée en lande, et après ?"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-10-27T09:20:00.000Z",
+      "prochainPassage": "2026-10-27T09:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Incendie de Saumos : la forêt brûlée classée en lande, et après ?"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-10-27T12:24:40.495Z",
+      "prochainPassage": "2026-10-27T13:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Incendie de Saumos : la forêt brûlée classée en lande, et après ?"
+    }
+  ],
   "alertes": [],
   "mesures": {
     "releves": 404,
@@ -676,7 +722,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-27T06:21:02.135Z",
+    "genereLe": "2026-10-27T07:01:08.059Z",
     "posts": 123,
     "parReseau": {
       "threads": {
@@ -893,29 +939,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 0,
-      "entree": 0,
-      "sortie": 0,
-      "cout": 0,
+      "appels": 1,
+      "entree": 7965,
+      "sortie": 796,
+      "cout": 0.04778,
       "cle": "2026-10-27"
     },
     "semaine": {
-      "appels": 5,
-      "entree": 39680,
-      "sortie": 4138,
-      "cout": 0.24148
+      "appels": 6,
+      "entree": 47645,
+      "sortie": 4934,
+      "cout": 0.28926
     },
     "mois": {
-      "appels": 52,
-      "entree": 411397,
-      "sortie": 49674,
-      "cout": 2.6390679999999995,
+      "appels": 53,
+      "entree": 419362,
+      "sortie": 50470,
+      "cout": 2.6868479999999995,
       "cle": "2026-10"
     },
-    "projection": 3.03,
-    "moyenneAppel": 0.0508,
+    "projection": 3.08,
+    "moyenneAppel": 0.0507,
     "parModele": {
-      "claude-opus-5-5": 52
+      "claude-opus-5-5": 53
     },
     "serie": [
       [
@@ -972,7 +1018,7 @@
       ],
       [
         "2026-10-27",
-        0
+        0.0478
       ]
     ],
     "depuis": "2026-09-23"

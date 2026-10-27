@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-27T07:20:41.572Z",
+  "genereLe": "2026-10-27T08:00:40.089Z",
   "jour": "2026-10-27",
   "reseaux": {
     "instagram": {
@@ -60,11 +60,11 @@
         "image",
         "reply"
       ],
-      "aujourdhui": 0,
-      "semaine": 6,
-      "total": 55,
-      "dernier": "2026-10-26T07:35:01.138Z",
-      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3myr7j3dxdl2d"
+      "aujourdhui": 1,
+      "semaine": 7,
+      "total": 56,
+      "dernier": "2026-10-27T08:05:03.766Z",
+      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mytrnpuroe23"
     },
     "facebook": {
       "actif": true,
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35888",
       "titre": "Incendie de Saumos : la forêt brûlée classée en lande, et après ?",
       "lien": "https://passion-aquitaine.ouest-france.fr/incendie-saumos-foret-reclassee-lande/",
-      "at": "2026-10-27T07:26:29.112Z",
+      "at": "2026-10-27T08:05:03.766Z",
       "reseaux": {
         "threads": {
           "texte": "📍 Saumos, en Gironde. Après l’incendie qui a parcouru 42 000 hectares, la forêt brûlée a changé de statut : elle est désormais classée en « landes ». Une décision qui interroge, d’autant que la replantation ne commencera pas tout de suite. L’article revient sur les raisons de cette attente.",
@@ -177,6 +177,14 @@
           "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/incendie-saumos-foret-reclassee-lande/",
           "sujet": "Saumos",
           "publieLe": "2026-10-27T07:26:29.112Z"
+        },
+        "bluesky": {
+          "texte": "42 000 hectares brûlés en #Gironde. Après l’incendie de #Saumos, la #forêt détruite est désormais classée en « landes », et la replantation ne se fera pas tout de suite. Les explications 📰",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261027-6aff9da6-bsky.jpg",
+          "mode": "card",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-27T08:05:03.766Z"
         }
       }
     },
@@ -423,6 +431,16 @@
   ],
   "publications": [
     {
+      "channel": "bluesky",
+      "at": "2026-10-27T08:05:03.766Z",
+      "titre": "Incendie de Saumos : la forêt brûlée classée en lande, et après ?",
+      "lien": "https://passion-aquitaine.ouest-france.fr/incendie-saumos-foret-reclassee-lande/",
+      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mytrnpuroe23",
+      "format": "card",
+      "texte": "42 000 hectares brûlés en #Gironde. Après l’incendie de #Saumos, la #forêt détruite est désormais classée en « landes », et la replantation ne se fera pas tout de suite. Les explications 📰",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261027-6aff9da6-bsky.jpg"
+    },
+    {
       "channel": "threads",
       "at": "2026-10-27T07:26:29.112Z",
       "titre": "Incendie de Saumos : la forêt brûlée classée en lande, et après ?",
@@ -511,28 +529,9 @@
       "format": null,
       "texte": "Là où mûrissait le raisin girondin, on récolte maintenant des kiwis et on croise des oliviers 🥝",
       "image": null
-    },
-    {
-      "channel": "threads",
-      "at": "2026-10-25T07:29:04.234Z",
-      "titre": "En Gironde, des kiwis et des bovins à la place des vignes",
-      "lien": "https://passion-aquitaine.ouest-france.fr/vignoble-bordelais-arrachage-oliviers-kiwis-bovins/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/De6Kw1pEa7N",
-      "format": "reponse",
-      "texte": "Et si le prochain fruit star de Gironde était le kiwi ? Depuis 2023, le département a arraché 🍇 21 000 hectares de vignes. À leur place, des kiwis, des oliviers et même des bovins. Une reconversion qui change le visage des campagnes girondines. Vous imaginiez un jour voir des oliviers au milieu du vignoble ?",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261025-683b11c4-th.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "bluesky",
-      "dueAt": "2026-10-27T08:05:01.944Z",
-      "prochainPassage": "2026-10-27T08:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Incendie de Saumos : la forêt brûlée classée en lande, et après ?"
-    },
     {
       "channel": "facebook",
       "dueAt": "2026-10-27T08:24:41.544Z",
@@ -563,7 +562,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 404,
+    "releves": 407,
     "parReseau": {
       "instagram": {
         "posts": 51,
@@ -681,37 +680,37 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-27T07:26:33.210Z",
-    "posts": 123,
+    "genereLe": "2026-10-27T08:05:12.548Z",
+    "posts": 126,
     "parReseau": {
       "threads": {
-        "posts": 31,
-        "moyenne": 11.7
+        "posts": 32,
+        "moyenne": 11.5
       },
       "instagram": {
         "posts": 30,
         "moyenne": 10.8
       },
       "bluesky": {
-        "posts": 31,
+        "posts": 32,
         "moyenne": 0.3
       },
       "facebook": {
-        "posts": 31,
+        "posts": 32,
         "moyenne": 0
       }
     },
     "parFormat": {
       "reponse": {
-        "posts": 29,
-        "moyenne": 12.6
+        "posts": 30,
+        "moyenne": 12.3
       },
       "reply": {
         "posts": 16,
         "moyenne": 0.5
       },
       "card": {
-        "posts": 5,
+        "posts": 6,
         "moyenne": 0.2
       },
       "image": {
@@ -733,7 +732,7 @@
         "moyenne": 2.4
       },
       "matin": {
-        "posts": 71,
+        "posts": 74,
         "moyenne": 1.9
       }
     },
@@ -744,7 +743,7 @@
           "moyenne": 63.3
         },
         "7 h – 8 h 30": {
-          "posts": 21,
+          "posts": 22,
           "moyenne": 4.8
         },
         "10 h – 11 h 30": {
@@ -754,7 +753,7 @@
       },
       "facebook": {
         "8 h – 9 h 30": {
-          "posts": 21,
+          "posts": 22,
           "moyenne": 0
         },
         "20 h – 21 h 30": {
@@ -768,7 +767,7 @@
           "moyenne": 1.3
         },
         "8 h – 9 h 30": {
-          "posts": 21,
+          "posts": 22,
           "moyenne": 0.2
         },
         "12 h – 13 h 30": {
@@ -791,7 +790,7 @@
         }
       }
     },
-    "interactionsTotal": 698,
+    "interactionsTotal": 703,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35835",
       "channel": "threads",
@@ -813,39 +812,39 @@
       "creneauReseau": "13 h – 14 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35877",
-      "channel": "facebook",
-      "mediaId": "227437307428711_1763816562410891",
-      "publieLe": "2026-10-25T07:30:46.973Z",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35882",
+      "channel": "bluesky",
+      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3myr7j3dxdl2d",
+      "publieLe": "2026-10-26T07:35:01.138Z",
       "jalon": 1,
-      "releveLe": "2026-10-26T08:00:50.444Z",
+      "releveLe": "2026-10-27T08:00:40.089Z",
       "likes": 0,
       "commentairesBruts": 0,
       "partages": 0,
       "vues": null,
       "commentaires": 0,
       "v": 2,
-      "titre": "En Gironde, des kiwis et des bovins à la place des vignes",
-      "lien": "https://www.facebook.com/1720946116697936/posts/1763816562410891",
-      "format": null,
-      "mention": false,
+      "titre": "Bordeaux : le pont de pierre s’enfonce dans la Garonne",
+      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3myr7j3dxdl2d",
+      "format": "card",
+      "mention": true,
       "creneau": "matin",
       "creneauReseau": "8 h – 9 h 30"
     },
     "mentions": {
       "avec": {
-        "posts": 51,
-        "moyenne": 7.5
+        "posts": 53,
+        "moyenne": 7.4
       },
       "sans": {
-        "posts": 72,
+        "posts": 73,
         "moyenne": 4.3
       }
     },
     "publies": {
       "threads": 33,
       "facebook": 32,
-      "bluesky": 32,
+      "bluesky": 33,
       "x": 32,
       "instagram": 32
     },
@@ -885,14 +884,14 @@
       "x": null
     },
     "engagement": {
-      "threads": 1.01,
+      "threads": 0.99,
       "instagram": 0.11,
       "facebook": 0
     },
     "conseils": [
       "Threads : le créneau 13 h – 14 h 30 fait 35,2 fois mieux que 10 h – 11 h 30 (63.3 contre 1.8 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Instagram : le créneau 12 h – 13 h 30 fait 2,3 fois mieux que 18 h – 19 h 30 (13.3 contre 5.7 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
-      "Le format « reponse » fait 126 fois mieux que « lien » (12.6 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « lien » de la rotation dans config/channels.json.",
+      "Le format « reponse » fait 123 fois mieux que « lien » (12.3 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « lien » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+7, +0,6 %) ; Facebook recule (−34), à surveiller."
     ]
   },

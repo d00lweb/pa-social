@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-28T19:20:37.821Z",
+  "genereLe": "2026-10-28T20:00:32.360Z",
   "jour": "2026-10-28",
   "reseaux": {
     "instagram": {
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 1,
-      "semaine": 7,
-      "total": 54,
-      "dernier": "2026-10-28T08:04:57.633Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1767426175383263"
+      "aujourdhui": 2,
+      "semaine": 8,
+      "total": 55,
+      "dernier": "2026-10-28T20:08:26.707Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1768151735310707"
     },
     "threads": {
       "actif": true,
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35870",
       "titre": "En Corrèze, on a détruit un étang vieux de 200 ans pour… restaurer la nature",
       "lien": "https://passion-aquitaine.ouest-france.fr/etang-chareneuve-palisse-zone-humide/",
-      "at": "2026-10-28T17:13:46.923Z",
+      "at": "2026-10-28T20:08:26.707Z",
       "reseaux": {
         "threads": {
           "texte": "Imaginez une eau immobile depuis deux siècles, puis la vidange, et peu à peu une terre gorgée d’eau qui reprend ses droits. C’est ce qui se passe en Corrèze : un étang vieux de 200 ans disparaît pour laisser place à une zone humide, avec un but assumé, restaurer la nature 🌾",
@@ -201,6 +201,14 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-10-28T17:13:46.923Z"
+        },
+        "facebook": {
+          "texte": "Moins d’eau stagnante, plus de vie : voilà ce que change une zone humide à la place d’un vieil étang corrézien 🌿",
+          "image": null,
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-28T20:08:26.707Z"
         }
       }
     },
@@ -447,6 +455,16 @@
   ],
   "publications": [
     {
+      "channel": "facebook",
+      "at": "2026-10-28T20:08:26.707Z",
+      "titre": "En Corrèze, on a détruit un étang vieux de 200 ans pour… restaurer la nature",
+      "lien": "https://passion-aquitaine.ouest-france.fr/etang-chareneuve-palisse-zone-humide/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1768151735310707",
+      "format": null,
+      "texte": "Moins d’eau stagnante, plus de vie : voilà ce que change une zone humide à la place d’un vieil étang corrézien 🌿",
+      "image": null
+    },
+    {
       "channel": "instagram",
       "at": "2026-10-28T17:13:46.923Z",
       "titre": "En Corrèze, on a détruit un étang vieux de 200 ans pour… restaurer la nature",
@@ -535,29 +553,9 @@
       "format": "reponse",
       "texte": "Acteurs grimés, lasers et hard techno jusqu’à 6 h : le 31 octobre, le Parc des expositions d’Agen devient un asile hanté géant 🖼️",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261028-eea988b8-th.jpg"
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-10-27T12:25:21.181Z",
-      "titre": "Incendie de Saumos : la forêt brûlée classée en lande, et après ?",
-      "lien": "https://passion-aquitaine.ouest-france.fr/incendie-saumos-foret-reclassee-lande/",
-      "lienPost": "https://www.instagram.com/p/De_2hiNj4nn/",
-      "format": null,
-      "texte": "À Saumos, là où se dressaient les pins, s’étend désormais une lande 📰\n⠀\nAprès l’incendie, 42 000 hectares de forêt brûlée en Gironde sont classés en « landes ». Et la replantation n’est pas immédiate : voici pourquoi.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Gironde #Saumos #Forêt",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261027-6aff9da6-1.jpg"
     }
   ],
-  "file": [
-    {
-      "channel": "facebook",
-      "dueAt": "2026-10-28T20:08:20.986Z",
-      "prochainPassage": "2026-10-28T20:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "En Corrèze, on a détruit un étang vieux de 200 ans pour… restaurer la nature"
-    }
-  ],
+  "file": [],
   "alertes": [],
   "mesures": {
     "releves": 416,
@@ -678,7 +676,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-28T19:20:42.324Z",
+    "genereLe": "2026-10-28T20:08:29.598Z",
     "posts": 131,
     "parReseau": {
       "threads": {
@@ -841,7 +839,7 @@
     },
     "publies": {
       "threads": 35,
-      "facebook": 34,
+      "facebook": 35,
       "bluesky": 35,
       "x": 35,
       "instagram": 35

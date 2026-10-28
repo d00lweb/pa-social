@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-28T07:00:40.581Z",
+  "genereLe": "2026-10-28T07:20:39.287Z",
   "jour": "2026-10-28",
   "reseaux": {
     "instagram": {
@@ -122,11 +122,11 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 6,
-      "total": 53,
-      "dernier": "2026-10-27T07:26:29.112Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/De_UFfskVxK"
+      "aujourdhui": 1,
+      "semaine": 7,
+      "total": 54,
+      "dernier": "2026-10-28T07:26:59.549Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DfB45w3lebJ"
     },
     "x": {
       "actif": true,
@@ -164,6 +164,22 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35901",
+      "titre": "Halloween à Agen : passez la nuit dans un asile hanté géant",
+      "lien": "https://passion-aquitaine.ouest-france.fr/halloween-agen-asile-agora-techno-win/",
+      "at": "2026-10-28T07:26:59.549Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Acteurs grimés, lasers et hard techno jusqu’à 6 h : le 31 octobre, le Parc des expositions d’Agen devient un asile hanté géant 🖼️",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261028-eea988b8-th.jpg",
+          "mode": "reponse",
+          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/halloween-agen-asile-agora-techno-win/",
+          "sujet": "Agenais",
+          "publieLe": "2026-10-28T07:26:59.549Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35888",
       "titre": "Incendie de Saumos : la forêt brûlée classée en lande, et après ?",
@@ -403,57 +419,19 @@
           "publieLe": "2026-10-24T11:10:19.141Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35852",
-      "titre": "Biarritz : le Port-Vieux s’écroule, la mairie veut le démolir",
-      "lien": "https://passion-aquitaine.ouest-france.fr/biarritz-port-vieux-ecroule-demolition/",
-      "at": "2026-10-23T19:25:45.177Z",
-      "reseaux": {
-        "x": {
-          "texte": "#Biarritz est née dans une crique : 🏚️ le Port-Vieux, dont les ouvrages s’écroulent aujourd’hui. La mairie prévoit de les démolir puis de les rebâtir.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261023-612685db-x.jpg",
-          "mode": "reponse",
-          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/biarritz-port-vieux-ecroule-demolition/",
-          "sujet": null,
-          "publieLe": "2026-10-23T08:01:15.406Z"
-        },
-        "threads": {
-          "texte": "Si vous aimez flâner au Port-Vieux de Biarritz, ce dossier vous concerne 🌊 Les ouvrages de la crique s’écroulent, et la mairie prévoit de les démolir pour les rebâtir. Un chantier qui touche au cœur de l’histoire locale, puisque c’est ici que la ville est née.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261023-612685db-th.jpg",
-          "mode": "reponse",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/biarritz-port-vieux-ecroule-demolition/",
-          "sujet": "Biarritz",
-          "publieLe": "2026-10-23T09:33:26.106Z"
-        },
-        "bluesky": {
-          "texte": "⚓ La crique où #Biarritz est née pourrait changer de visage. Le Port-Vieux s’écroule, et la mairie prévoit de démolir ses ouvrages avant de les rebâtir.\n➡️ Lire l’article",
-          "image": null,
-          "mode": "image",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-23T11:28:15.573Z"
-        },
-        "instagram": {
-          "texte": "Le berceau de Biarritz menace de céder : 🧱 le Port-Vieux s’écroule\n⠀\nLa mairie prévoit de démolir puis de rebâtir les ouvrages de cette crique du Pays basque, celle où la ville est née.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Biarritz #PaysBasque #Patrimoine",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261023-612685db-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-23T17:07:50.660Z"
-        },
-        "facebook": {
-          "texte": "À Biarritz, les ouvrages de la crique où la ville est née vont être démolis puis reconstruits par la mairie 🏗️",
-          "image": null,
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-23T19:25:45.177Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "threads",
+      "at": "2026-10-28T07:26:59.549Z",
+      "titre": "Halloween à Agen : passez la nuit dans un asile hanté géant",
+      "lien": "https://passion-aquitaine.ouest-france.fr/halloween-agen-asile-agora-techno-win/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/DfB45w3lebJ",
+      "format": "reponse",
+      "texte": "Acteurs grimés, lasers et hard techno jusqu’à 6 h : le 31 octobre, le Parc des expositions d’Agen devient un asile hanté géant 🖼️",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261028-eea988b8-th.jpg"
+    },
     {
       "channel": "instagram",
       "at": "2026-10-27T12:25:21.181Z",
@@ -543,28 +521,9 @@
       "format": null,
       "texte": "Imaginez le pont de pierre qui glisse doucement vers le lit de la Garonne, quelques millimètres chaque année 🌊",
       "image": null
-    },
-    {
-      "channel": "threads",
-      "at": "2026-10-26T07:30:52.653Z",
-      "titre": "Bordeaux : le pont de pierre s’enfonce dans la Garonne",
-      "lien": "https://passion-aquitaine.ouest-france.fr/bordeaux-pont-de-pierre-enfonce-garonne/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/De8vlLxFalL",
-      "format": "reponse",
-      "texte": "4 à 5 millimètres par an : c’est la vitesse à laquelle le pont de pierre de Bordeaux s’enfonce dans la Garonne 📐 Ça paraît minuscule, mais l’ouvrage voit passer 60 000 personnes chaque jour. Vous l’aviez déjà remarqué en le traversant ?\n@villedebordeaux",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261026-96f95772-th.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "threads",
-      "dueAt": "2026-10-28T07:24:16.667Z",
-      "prochainPassage": "2026-10-28T08:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Halloween à Agen : passez la nuit dans un asile hanté géant"
-    },
     {
       "channel": "facebook",
       "dueAt": "2026-10-28T08:04:49.356Z",
@@ -722,7 +681,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-28T07:01:16.166Z",
+    "genereLe": "2026-10-28T07:27:01.569Z",
     "posts": 127,
     "parReseau": {
       "threads": {
@@ -884,7 +843,7 @@
       }
     },
     "publies": {
-      "threads": 33,
+      "threads": 34,
       "facebook": 33,
       "bluesky": 33,
       "x": 33,
@@ -939,29 +898,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 3,
-      "entree": 24051,
-      "sortie": 2666,
-      "cout": 0.149524,
+      "appels": 6,
+      "entree": 48184,
+      "sortie": 5397,
+      "cout": 0.300676,
       "cle": "2026-10-28"
     },
     "semaine": {
-      "appels": 9,
-      "entree": 71696,
-      "sortie": 7600,
-      "cout": 0.43878399999999995
+      "appels": 12,
+      "entree": 95829,
+      "sortie": 10331,
+      "cout": 0.589936
     },
     "mois": {
-      "appels": 56,
-      "entree": 443413,
-      "sortie": 53136,
-      "cout": 2.8363719999999994,
+      "appels": 59,
+      "entree": 467546,
+      "sortie": 55867,
+      "cout": 2.9875239999999996,
       "cle": "2026-10"
     },
-    "projection": 3.14,
+    "projection": 3.31,
     "moyenneAppel": 0.0506,
     "parModele": {
-      "claude-opus-5-5": 56
+      "claude-opus-5-5": 59
     },
     "serie": [
       [
@@ -1018,7 +977,7 @@
       ],
       [
         "2026-10-28",
-        0.1495
+        0.3007
       ]
     ],
     "depuis": "2026-09-23"

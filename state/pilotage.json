@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-28T21:52:14.282Z",
+  "genereLe": "2026-10-28T22:00:36.724Z",
   "jour": "2026-10-28",
   "reseaux": {
     "instagram": {
@@ -641,19 +641,19 @@
   },
   "abonnes": {
     "instagram": {
-      "debut": 10138,
+      "debut": 10137,
       "fin": 10128,
-      "gain": -10,
+      "gain": -9,
       "pct": -0.1,
-      "depuis": "2026-10-21",
+      "depuis": "2026-10-22",
       "au": "2026-10-28"
     },
     "facebook": {
-      "debut": 42585,
+      "debut": 42582,
       "fin": 42571,
-      "gain": -14,
+      "gain": -11,
       "pct": 0,
-      "depuis": "2026-10-21",
+      "depuis": "2026-10-22",
       "au": "2026-10-28"
     },
     "bluesky": {
@@ -661,22 +661,22 @@
       "fin": 9,
       "gain": 0,
       "pct": 0,
-      "depuis": "2026-10-21",
+      "depuis": "2026-10-22",
       "au": "2026-10-28"
     },
     "threads": {
-      "debut": 1152,
+      "debut": 1153,
       "fin": 1156,
-      "gain": 4,
+      "gain": 3,
       "pct": 0.3,
-      "depuis": "2026-10-21",
+      "depuis": "2026-10-22",
       "au": "2026-10-28"
     },
     "x": null
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-28T21:52:18.782Z",
+    "genereLe": "2026-10-28T22:00:40.421Z",
     "posts": 131,
     "parReseau": {
       "threads": {

@@ -1,5 +1,5 @@
 {
-  "angleIndex": 2,
+  "angleIndex": 3,
   "recent": {
     "instagram": [
       "Un os de vautour, quatre trous et plus de 25 000 ans d’histoire : 🦴 la grande flûte d’Isturitz est née au Pays basque.\nLongue de 21 cm, cette flûte préhistoriq",
@@ -195,7 +195,10 @@
       "en_nouvelle_aquitaine",
       "departementgironde",
       "villedebordeaux",
-      "departementgironde"
+      "departementgironde",
+      "agen_ville",
+      "destinationagen",
+      "tourismelotetgaronne"
     ],
     "x": [
       "cddordogne",
@@ -221,7 +224,8 @@
       "departement64",
       "gironde",
       "Bordeaux",
-      "gironde"
+      "gironde",
+      "villeagen"
     ],
     "threads": [
       "villedemerignac",
@@ -234,7 +238,8 @@
       "villedebordeaux",
       "bayonnemaville",
       "puydufou",
-      "villedebordeaux"
+      "villedebordeaux",
+      "destinationagen"
     ],
     "bluesky": [
       "villedebordeaux.bsky.social",
@@ -246,10 +251,18 @@
     ]
   },
   "dernieresMentions": {
-    "instagram": [],
-    "x": [],
+    "instagram": [
+      "agen_ville",
+      "destinationagen",
+      "tourismelotetgaronne"
+    ],
+    "x": [
+      "villeagen"
+    ],
     "bluesky": [],
-    "threads": [],
+    "threads": [
+      "destinationagen"
+    ],
     "facebook": []
   }
 }

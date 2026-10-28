@@ -21,52 +21,127 @@
       "description": "Acteurs grimés, lasers et hard techno jusqu’à 6 h : le 31 octobre, le Parc des expositions d’Agen devient un asile hanté géant."
     },
     "dossier": {
-      "nature": "actu",
+      "nature": "actu_chaude",
       "sensible": false,
       "rubrique": "Agenais",
-      "entites": [],
-      "lieu": null,
       "visuel": {
         "titre": "Halloween à Agen : passez la nuit dans un asile hanté géant",
-        "surlignage": "Agen",
-        "description": "Acteurs grimés, lasers et hard techno jusqu’à 6 h : le 31 octobre, le Parc des expositions d’Agen devient un asile hanté géant.",
-        "texte_alternatif": "Agenais : Halloween à Agen : passez la nuit dans un asile hanté géant"
+        "surlignage": "asile hanté géant",
+        "description": "Le 31 octobre, le Parc des expositions se transforme pour une nuit d’épouvante : acteurs grimés, lasers et hard techno jusqu’à 6 h du matin.",
+        "texte_alternatif": "Le Parc des expositions d’Agen se transforme en asile hanté géant pour une nuit d’Halloween, avec acteurs grimés, lasers et hard techno jusqu’à 6 h."
       },
+      "entites": [
+        {
+          "nom": "Parc des expositions d'Agen",
+          "role": "sujet",
+          "type": "lieu"
+        }
+      ],
+      "domaines": [
+        "halloween",
+        "techno",
+        "fête"
+      ],
+      "lieu": null,
       "instagram": {
-        "texte": "Acteurs grimés, lasers et hard techno jusqu’à 6 h : le 31 octobre, le Parc des expositions d’Agen devient un asile hanté géant 🖼️",
+        "texte": "Agen, nuit du 31 octobre : le Parc des expositions se change en asile hanté géant 🎃\nActeurs grimés dans les couloirs, lasers et hard techno jusqu’à 6 h du matin. Une soirée d’Halloween pensée pour faire frissonner l’Agenais jusqu’à l’aube.",
         "hashtags": [
           "#Agen",
-          "#Culture",
-          "#NouvelleAquitaine"
+          "#Halloween",
+          "#HardTechno"
         ]
       },
       "facebook": {
-        "texte": "Acteurs grimés, lasers et hard techno jusqu’à 6 h :, le Parc des expositions d’Agen devient un asile hanté géant 🖼️"
+        "texte": "Des acteurs grimés vous attendent dans un asile hanté, et la hard techno ne s’arrête qu’à 6 h du matin 👻"
       },
       "bluesky": {
-        "texte": "Acteurs grimés, lasers et hard techno jusqu’à 6 h : le 31 octobre, le Parc des expositions d’Agen devient un asile hanté géant 🖼️",
+        "texte": "Pour Halloween, Agen offre une nuit entière de frissons : le Parc des expositions devient un asile hanté géant le 31 octobre, avec acteurs grimés, lasers et hard techno jusqu’à 6 h. De quoi danser et trembler jusqu’au matin 🦇",
         "hashtag": "#Agen"
       },
       "threads": {
-        "texte": "Acteurs grimés, lasers et hard techno jusqu’à 6 h : le 31 octobre, le Parc des expositions d’Agen devient un asile hanté géant 🖼️",
-        "sujet": "Agenais"
+        "texte": "💀 Ce qui surprend dans cet Halloween agenais, c’est la durée : la fête ne s’arrête qu’à 6 h du matin. Le 31 octobre, le Parc des expositions d’Agen se transforme en asile hanté géant, peuplé d’acteurs grimés, traversé de lasers et porté par la hard techno. Vous tiendriez jusqu’à l’aube ?",
+        "sujet": "Agen"
       },
       "x": {
-        "texte": "Acteurs grimés, lasers et hard techno jusqu’à 6 h :, le Parc des expositions d’Agen devient un asile hanté géant 🖼️"
+        "texte": "Des silhouettes grimées surgissent entre les faisceaux laser 🧟 Le 31 octobre, un asile hanté géant s’installe au Parc des expositions d’Agen, sur fond de hard techno jusqu’à 6 h."
       },
-      "source": "regles",
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 8066,
+        "output": 930
+      },
+      "angles": {
+        "instagram": "lieu en tête",
+        "facebook": "effet de surprise",
+        "bluesky": "bénéfice pour le lecteur",
+        "threads": "détail méconnu",
+        "x": "image évocatrice"
+      },
       "lieuSource": {
-        "precis": "",
-        "ville": "",
-        "departement": "Agenais"
+        "precis": "Parc des expositions d'Agen",
+        "ville": "Agen",
+        "departement": "Lot-et-Garonne"
       },
-      "lieuNom": "Agenais",
-      "commune": null,
+      "lieuNom": "Parc des expositions d'Agen",
+      "commune": "Agen",
       "comptes": {
-        "instagram": [],
-        "x": [],
+        "instagram": [
+          {
+            "nom": "Ville d'Agen",
+            "handle": "agen_ville",
+            "abonnes": 12968,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          },
+          {
+            "nom": "Office de tourisme Agen",
+            "handle": "destinationagen",
+            "abonnes": 5794,
+            "preuve": 2,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "tourisme"
+          },
+          {
+            "nom": "Tourisme Lot-et-Garonne",
+            "handle": "tourismelotetgaronne",
+            "abonnes": 12338,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "Agen",
+            "handle": "villeagen",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          }
+        ],
         "bluesky": [],
-        "threads": [],
+        "threads": [
+          {
+            "nom": "Office de tourisme Agen",
+            "handle": "destinationagen",
+            "abonnes": 5794,
+            "preuve": 2,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "tourisme"
+          }
+        ],
         "facebook": []
       }
     },
@@ -94,125 +169,127 @@
       "description": "Acteurs grimés, lasers et hard techno jusqu’à 6 h : le 31 octobre, le Parc des expositions d’Agen devient un asile hanté géant."
     },
     "dossier": {
-      "nature": "actu",
+      "nature": "actu_chaude",
       "sensible": false,
       "rubrique": "Agenais",
-      "entites": [],
-      "lieu": null,
       "visuel": {
         "titre": "Halloween à Agen : passez la nuit dans un asile hanté géant",
-        "surlignage": "Agen",
-        "description": "Acteurs grimés, lasers et hard techno jusqu’à 6 h : le 31 octobre, le Parc des expositions d’Agen devient un asile hanté géant.",
-        "texte_alternatif": "Agenais : Halloween à Agen : passez la nuit dans un asile hanté géant"
+        "surlignage": "asile hanté géant",
+        "description": "Le 31 octobre, le Parc des expositions se transforme pour une nuit d’épouvante : acteurs grimés, lasers et hard techno jusqu’à 6 h du matin.",
+        "texte_alternatif": "Le Parc des expositions d’Agen se transforme en asile hanté géant pour une nuit d’Halloween, avec acteurs grimés, lasers et hard techno jusqu’à 6 h."
       },
-      "instagram": {
-        "texte": "Acteurs grimés, lasers et hard techno jusqu’à 6 h : le 31 octobre, le Parc des expositions d’Agen devient un asile hanté géant 🖼️",
-        "hashtags": [
-          "#Agen",
-          "#Culture",
-          "#NouvelleAquitaine"
-        ]
-      },
-      "facebook": {
-        "texte": "Acteurs grimés, lasers et hard techno jusqu’à 6 h :, le Parc des expositions d’Agen devient un asile hanté géant 🖼️"
-      },
-      "bluesky": {
-        "texte": "Acteurs grimés, lasers et hard techno jusqu’à 6 h : le 31 octobre, le Parc des expositions d’Agen devient un asile hanté géant 🖼️",
-        "hashtag": "#Agen"
-      },
-      "threads": {
-        "texte": "Acteurs grimés, lasers et hard techno jusqu’à 6 h : le 31 octobre, le Parc des expositions d’Agen devient un asile hanté géant 🖼️",
-        "sujet": "Agenais"
-      },
-      "x": {
-        "texte": "Acteurs grimés, lasers et hard techno jusqu’à 6 h :, le Parc des expositions d’Agen devient un asile hanté géant 🖼️"
-      },
-      "source": "regles",
-      "lieuSource": {
-        "precis": "",
-        "ville": "",
-        "departement": "Agenais"
-      },
-      "lieuNom": "Agenais",
-      "commune": null,
-      "comptes": {
-        "instagram": [],
-        "x": [],
-        "bluesky": [],
-        "threads": [],
-        "facebook": []
-      }
-    },
-    "previewSent": false
-  },
-  {
-    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35901",
-    "channel": "facebook",
-    "dueAt": 1793174689356,
-    "status": "pending",
-    "attempts": 0,
-    "article": {
-      "title": "Halloween à Agen : passez la nuit dans un asile hanté géant",
-      "link": "https://passion-aquitaine.ouest-france.fr/halloween-agen-asile-agora-techno-win/",
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35901",
-      "pubDate": "Wed, 28 Oct 2026 06:30:38 +0000",
-      "date": 1793169038000,
-      "categories": [
-        "Actus",
-        "Agenda",
-        "Lot-et-Garonne",
-        "Musique"
+      "entites": [
+        {
+          "nom": "Parc des expositions d'Agen",
+          "role": "sujet",
+          "type": "lieu"
+        }
       ],
-      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/10/agen-halloween-techno.jpg",
-      "description": "Acteurs grimés, lasers et hard techno jusqu’à 6 h : le 31 octobre, le Parc des expositions d’Agen devient un asile hanté géant."
-    },
-    "dossier": {
-      "nature": "actu",
-      "sensible": false,
-      "rubrique": "Agenais",
-      "entites": [],
+      "domaines": [
+        "halloween",
+        "techno",
+        "fête"
+      ],
       "lieu": null,
-      "visuel": {
-        "titre": "Halloween à Agen : passez la nuit dans un asile hanté géant",
-        "surlignage": "Agen",
-        "description": "Acteurs grimés, lasers et hard techno jusqu’à 6 h : le 31 octobre, le Parc des expositions d’Agen devient un asile hanté géant.",
-        "texte_alternatif": "Agenais : Halloween à Agen : passez la nuit dans un asile hanté géant"
-      },
       "instagram": {
-        "texte": "Acteurs grimés, lasers et hard techno jusqu’à 6 h : le 31 octobre, le Parc des expositions d’Agen devient un asile hanté géant 🖼️",
+        "texte": "Agen, nuit du 31 octobre : le Parc des expositions se change en asile hanté géant 🎃\nActeurs grimés dans les couloirs, lasers et hard techno jusqu’à 6 h du matin. Une soirée d’Halloween pensée pour faire frissonner l’Agenais jusqu’à l’aube.",
         "hashtags": [
           "#Agen",
-          "#Culture",
-          "#NouvelleAquitaine"
+          "#Halloween",
+          "#HardTechno"
         ]
       },
       "facebook": {
-        "texte": "Acteurs grimés, lasers et hard techno jusqu’à 6 h :, le Parc des expositions d’Agen devient un asile hanté géant 🖼️"
+        "texte": "Des acteurs grimés vous attendent dans un asile hanté, et la hard techno ne s’arrête qu’à 6 h du matin 👻"
       },
       "bluesky": {
-        "texte": "Acteurs grimés, lasers et hard techno jusqu’à 6 h : le 31 octobre, le Parc des expositions d’Agen devient un asile hanté géant 🖼️",
+        "texte": "Pour Halloween, Agen offre une nuit entière de frissons : le Parc des expositions devient un asile hanté géant le 31 octobre, avec acteurs grimés, lasers et hard techno jusqu’à 6 h. De quoi danser et trembler jusqu’au matin 🦇",
         "hashtag": "#Agen"
       },
       "threads": {
-        "texte": "Acteurs grimés, lasers et hard techno jusqu’à 6 h : le 31 octobre, le Parc des expositions d’Agen devient un asile hanté géant 🖼️",
-        "sujet": "Agenais"
+        "texte": "💀 Ce qui surprend dans cet Halloween agenais, c’est la durée : la fête ne s’arrête qu’à 6 h du matin. Le 31 octobre, le Parc des expositions d’Agen se transforme en asile hanté géant, peuplé d’acteurs grimés, traversé de lasers et porté par la hard techno. Vous tiendriez jusqu’à l’aube ?",
+        "sujet": "Agen"
       },
       "x": {
-        "texte": "Acteurs grimés, lasers et hard techno jusqu’à 6 h :, le Parc des expositions d’Agen devient un asile hanté géant 🖼️"
+        "texte": "Des silhouettes grimées surgissent entre les faisceaux laser 🧟 Le 31 octobre, un asile hanté géant s’installe au Parc des expositions d’Agen, sur fond de hard techno jusqu’à 6 h."
       },
-      "source": "regles",
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 8066,
+        "output": 930
+      },
+      "angles": {
+        "instagram": "lieu en tête",
+        "facebook": "effet de surprise",
+        "bluesky": "bénéfice pour le lecteur",
+        "threads": "détail méconnu",
+        "x": "image évocatrice"
+      },
       "lieuSource": {
-        "precis": "",
-        "ville": "",
-        "departement": "Agenais"
+        "precis": "Parc des expositions d'Agen",
+        "ville": "Agen",
+        "departement": "Lot-et-Garonne"
       },
-      "lieuNom": "Agenais",
-      "commune": null,
+      "lieuNom": "Parc des expositions d'Agen",
+      "commune": "Agen",
       "comptes": {
-        "instagram": [],
-        "x": [],
+        "instagram": [
+          {
+            "nom": "Ville d'Agen",
+            "handle": "agen_ville",
+            "abonnes": 12968,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          },
+          {
+            "nom": "Office de tourisme Agen",
+            "handle": "destinationagen",
+            "abonnes": 5794,
+            "preuve": 2,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "tourisme"
+          },
+          {
+            "nom": "Tourisme Lot-et-Garonne",
+            "handle": "tourismelotetgaronne",
+            "abonnes": 12338,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "Agen",
+            "handle": "villeagen",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          }
+        ],
         "bluesky": [],
-        "threads": [],
+        "threads": [
+          {
+            "nom": "Office de tourisme Agen",
+            "handle": "destinationagen",
+            "abonnes": 5794,
+            "preuve": 2,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "tourisme"
+          }
+        ],
         "facebook": []
       }
     },
@@ -240,52 +317,127 @@
       "description": "Acteurs grimés, lasers et hard techno jusqu’à 6 h : le 31 octobre, le Parc des expositions d’Agen devient un asile hanté géant."
     },
     "dossier": {
-      "nature": "actu",
+      "nature": "actu_chaude",
       "sensible": false,
       "rubrique": "Agenais",
-      "entites": [],
-      "lieu": null,
       "visuel": {
         "titre": "Halloween à Agen : passez la nuit dans un asile hanté géant",
-        "surlignage": "Agen",
-        "description": "Acteurs grimés, lasers et hard techno jusqu’à 6 h : le 31 octobre, le Parc des expositions d’Agen devient un asile hanté géant.",
-        "texte_alternatif": "Agenais : Halloween à Agen : passez la nuit dans un asile hanté géant"
+        "surlignage": "asile hanté géant",
+        "description": "Le 31 octobre, le Parc des expositions se transforme pour une nuit d’épouvante : acteurs grimés, lasers et hard techno jusqu’à 6 h du matin.",
+        "texte_alternatif": "Le Parc des expositions d’Agen se transforme en asile hanté géant pour une nuit d’Halloween, avec acteurs grimés, lasers et hard techno jusqu’à 6 h."
       },
+      "entites": [
+        {
+          "nom": "Parc des expositions d'Agen",
+          "role": "sujet",
+          "type": "lieu"
+        }
+      ],
+      "domaines": [
+        "halloween",
+        "techno",
+        "fête"
+      ],
+      "lieu": null,
       "instagram": {
-        "texte": "Acteurs grimés, lasers et hard techno jusqu’à 6 h : le 31 octobre, le Parc des expositions d’Agen devient un asile hanté géant 🖼️",
+        "texte": "Agen, nuit du 31 octobre : le Parc des expositions se change en asile hanté géant 🎃\nActeurs grimés dans les couloirs, lasers et hard techno jusqu’à 6 h du matin. Une soirée d’Halloween pensée pour faire frissonner l’Agenais jusqu’à l’aube.",
         "hashtags": [
           "#Agen",
-          "#Culture",
-          "#NouvelleAquitaine"
+          "#Halloween",
+          "#HardTechno"
         ]
       },
       "facebook": {
-        "texte": "Acteurs grimés, lasers et hard techno jusqu’à 6 h :, le Parc des expositions d’Agen devient un asile hanté géant 🖼️"
+        "texte": "Des acteurs grimés vous attendent dans un asile hanté, et la hard techno ne s’arrête qu’à 6 h du matin 👻"
       },
       "bluesky": {
-        "texte": "Acteurs grimés, lasers et hard techno jusqu’à 6 h : le 31 octobre, le Parc des expositions d’Agen devient un asile hanté géant 🖼️",
+        "texte": "Pour Halloween, Agen offre une nuit entière de frissons : le Parc des expositions devient un asile hanté géant le 31 octobre, avec acteurs grimés, lasers et hard techno jusqu’à 6 h. De quoi danser et trembler jusqu’au matin 🦇",
         "hashtag": "#Agen"
       },
       "threads": {
-        "texte": "Acteurs grimés, lasers et hard techno jusqu’à 6 h : le 31 octobre, le Parc des expositions d’Agen devient un asile hanté géant 🖼️",
-        "sujet": "Agenais"
+        "texte": "💀 Ce qui surprend dans cet Halloween agenais, c’est la durée : la fête ne s’arrête qu’à 6 h du matin. Le 31 octobre, le Parc des expositions d’Agen se transforme en asile hanté géant, peuplé d’acteurs grimés, traversé de lasers et porté par la hard techno. Vous tiendriez jusqu’à l’aube ?",
+        "sujet": "Agen"
       },
       "x": {
-        "texte": "Acteurs grimés, lasers et hard techno jusqu’à 6 h :, le Parc des expositions d’Agen devient un asile hanté géant 🖼️"
+        "texte": "Des silhouettes grimées surgissent entre les faisceaux laser 🧟 Le 31 octobre, un asile hanté géant s’installe au Parc des expositions d’Agen, sur fond de hard techno jusqu’à 6 h."
       },
-      "source": "regles",
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 8066,
+        "output": 930
+      },
+      "angles": {
+        "instagram": "lieu en tête",
+        "facebook": "effet de surprise",
+        "bluesky": "bénéfice pour le lecteur",
+        "threads": "détail méconnu",
+        "x": "image évocatrice"
+      },
       "lieuSource": {
-        "precis": "",
-        "ville": "",
-        "departement": "Agenais"
+        "precis": "Parc des expositions d'Agen",
+        "ville": "Agen",
+        "departement": "Lot-et-Garonne"
       },
-      "lieuNom": "Agenais",
-      "commune": null,
+      "lieuNom": "Parc des expositions d'Agen",
+      "commune": "Agen",
       "comptes": {
-        "instagram": [],
-        "x": [],
+        "instagram": [
+          {
+            "nom": "Ville d'Agen",
+            "handle": "agen_ville",
+            "abonnes": 12968,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          },
+          {
+            "nom": "Office de tourisme Agen",
+            "handle": "destinationagen",
+            "abonnes": 5794,
+            "preuve": 2,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "tourisme"
+          },
+          {
+            "nom": "Tourisme Lot-et-Garonne",
+            "handle": "tourismelotetgaronne",
+            "abonnes": 12338,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "Agen",
+            "handle": "villeagen",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          }
+        ],
         "bluesky": [],
-        "threads": [],
+        "threads": [
+          {
+            "nom": "Office de tourisme Agen",
+            "handle": "destinationagen",
+            "abonnes": 5794,
+            "preuve": 2,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "tourisme"
+          }
+        ],
         "facebook": []
       }
     },

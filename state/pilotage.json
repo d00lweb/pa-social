@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-28T07:20:39.287Z",
+  "genereLe": "2026-10-28T08:01:07.695Z",
   "jour": "2026-10-28",
   "reseaux": {
     "instagram": {
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 6,
-      "total": 53,
-      "dernier": "2026-10-27T08:24:47.472Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1766208638838350"
+      "aujourdhui": 1,
+      "semaine": 7,
+      "total": 54,
+      "dernier": "2026-10-28T08:04:57.633Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1767426175383263"
     },
     "threads": {
       "actif": true,
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35901",
       "titre": "Halloween à Agen : passez la nuit dans un asile hanté géant",
       "lien": "https://passion-aquitaine.ouest-france.fr/halloween-agen-asile-agora-techno-win/",
-      "at": "2026-10-28T07:26:59.549Z",
+      "at": "2026-10-28T08:04:57.633Z",
       "reseaux": {
         "threads": {
           "texte": "Acteurs grimés, lasers et hard techno jusqu’à 6 h : le 31 octobre, le Parc des expositions d’Agen devient un asile hanté géant 🖼️",
@@ -177,6 +177,14 @@
           "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/halloween-agen-asile-agora-techno-win/",
           "sujet": "Agenais",
           "publieLe": "2026-10-28T07:26:59.549Z"
+        },
+        "facebook": {
+          "texte": "Des acteurs grimés vous attendent dans un asile hanté, et la hard techno ne s’arrête qu’à 6 h du matin 👻",
+          "image": null,
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-28T08:04:57.633Z"
         }
       }
     },
@@ -423,6 +431,16 @@
   ],
   "publications": [
     {
+      "channel": "facebook",
+      "at": "2026-10-28T08:04:57.633Z",
+      "titre": "Halloween à Agen : passez la nuit dans un asile hanté géant",
+      "lien": "https://passion-aquitaine.ouest-france.fr/halloween-agen-asile-agora-techno-win/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1767426175383263",
+      "format": null,
+      "texte": "Des acteurs grimés vous attendent dans un asile hanté, et la hard techno ne s’arrête qu’à 6 h du matin 👻",
+      "image": null
+    },
+    {
       "channel": "threads",
       "at": "2026-10-28T07:26:59.549Z",
       "titre": "Halloween à Agen : passez la nuit dans un asile hanté géant",
@@ -511,33 +529,14 @@
       "format": "card",
       "texte": "🌉 Que se passe-t-il sous le #pont de pierre de #Bordeaux ? Emprunté chaque jour par 60 000 personnes, l’ouvrage s’enfonce lentement dans la Garonne, à raison de 4 à 5 millimètres par an.\n@villedebordeaux.bsky.social",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261026-96f95772-bsky.jpg"
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-10-26T07:31:52.258Z",
-      "titre": "Bordeaux : le pont de pierre s’enfonce dans la Garonne",
-      "lien": "https://passion-aquitaine.ouest-france.fr/bordeaux-pont-de-pierre-enfonce-garonne/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1765020908957123",
-      "format": null,
-      "texte": "Imaginez le pont de pierre qui glisse doucement vers le lit de la Garonne, quelques millimètres chaque année 🌊",
-      "image": null
     }
   ],
   "file": [
     {
-      "channel": "facebook",
-      "dueAt": "2026-10-28T08:04:49.356Z",
-      "prochainPassage": "2026-10-28T08:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Halloween à Agen : passez la nuit dans un asile hanté géant"
-    },
-    {
       "channel": "x",
       "dueAt": "2026-10-28T08:20:00.000Z",
       "prochainPassage": "2026-10-28T08:20:00.000Z",
-      "nature": "actu",
+      "nature": "actu_chaude",
       "prevuInitialement": null,
       "raison": null,
       "titre": "Halloween à Agen : passez la nuit dans un asile hanté géant"
@@ -546,7 +545,7 @@
       "channel": "bluesky",
       "dueAt": "2026-10-28T08:25:49.343Z",
       "prochainPassage": "2026-10-28T09:00:00.000Z",
-      "nature": "actu",
+      "nature": "actu_chaude",
       "prevuInitialement": null,
       "raison": null,
       "titre": "Halloween à Agen : passez la nuit dans un asile hanté géant"
@@ -555,7 +554,7 @@
       "channel": "instagram",
       "dueAt": "2026-10-28T12:10:38.744Z",
       "prochainPassage": "2026-10-28T12:20:00.000Z",
-      "nature": "actu",
+      "nature": "actu_chaude",
       "prevuInitialement": null,
       "raison": null,
       "titre": "Halloween à Agen : passez la nuit dans un asile hanté géant"
@@ -563,7 +562,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 412,
+    "releves": 413,
     "parReseau": {
       "instagram": {
         "posts": 52,
@@ -642,7 +641,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-28T07:00:40.581Z"
+    "derniere": "2026-10-28T08:01:07.695Z"
   },
   "abonnes": {
     "instagram": {
@@ -681,12 +680,12 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-28T07:27:01.569Z",
-    "posts": 127,
+    "genereLe": "2026-10-28T08:05:02.289Z",
+    "posts": 128,
     "parReseau": {
       "threads": {
-        "posts": 32,
-        "moyenne": 11.5
+        "posts": 33,
+        "moyenne": 11.3
       },
       "instagram": {
         "posts": 31,
@@ -703,8 +702,8 @@
     },
     "parFormat": {
       "reponse": {
-        "posts": 30,
-        "moyenne": 12.3
+        "posts": 31,
+        "moyenne": 12
       },
       "reply": {
         "posts": 16,
@@ -733,7 +732,7 @@
         "moyenne": 2.4
       },
       "matin": {
-        "posts": 74,
+        "posts": 75,
         "moyenne": 1.9
       }
     },
@@ -744,8 +743,8 @@
           "moyenne": 63.3
         },
         "7 h – 8 h 30": {
-          "posts": 22,
-          "moyenne": 4.8
+          "posts": 23,
+          "moyenne": 4.7
         },
         "10 h – 11 h 30": {
           "posts": 6,
@@ -791,7 +790,7 @@
         }
       }
     },
-    "interactionsTotal": 719,
+    "interactionsTotal": 722,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35835",
       "channel": "threads",
@@ -838,13 +837,13 @@
         "moyenne": 7.5
       },
       "sans": {
-        "posts": 73,
+        "posts": 74,
         "moyenne": 4.3
       }
     },
     "publies": {
       "threads": 34,
-      "facebook": 33,
+      "facebook": 34,
       "bluesky": 33,
       "x": 33,
       "instagram": 33
@@ -885,42 +884,42 @@
       "x": null
     },
     "engagement": {
-      "threads": 0.99,
+      "threads": 0.98,
       "instagram": 0.11,
       "facebook": 0
     },
     "conseils": [
       "Threads : le créneau 13 h – 14 h 30 fait 35,2 fois mieux que 10 h – 11 h 30 (63.3 contre 1.8 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Instagram : le créneau 12 h – 13 h 30 fait 2,4 fois mieux que 18 h – 19 h 30 (13.4 contre 5.7 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
-      "Le format « reponse » fait 123 fois mieux que « lien » (12.3 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « lien » de la rotation dans config/channels.json.",
+      "Le format « reponse » fait 120 fois mieux que « lien » (12 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « lien » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+7, +0,6 %) ; Facebook recule (−36), à surveiller."
     ]
   },
   "couts": {
     "jour": {
-      "appels": 6,
-      "entree": 48184,
-      "sortie": 5397,
-      "cout": 0.300676,
+      "appels": 9,
+      "entree": 72304,
+      "sortie": 8174,
+      "cout": 0.452696,
       "cle": "2026-10-28"
     },
     "semaine": {
-      "appels": 12,
-      "entree": 95829,
-      "sortie": 10331,
-      "cout": 0.589936
+      "appels": 15,
+      "entree": 119949,
+      "sortie": 13108,
+      "cout": 0.7419560000000002
     },
     "mois": {
-      "appels": 59,
-      "entree": 467546,
-      "sortie": 55867,
-      "cout": 2.9875239999999996,
+      "appels": 62,
+      "entree": 491666,
+      "sortie": 58644,
+      "cout": 3.1395439999999994,
       "cle": "2026-10"
     },
-    "projection": 3.31,
+    "projection": 3.48,
     "moyenneAppel": 0.0506,
     "parModele": {
-      "claude-opus-5-5": 59
+      "claude-opus-5-5": 62
     },
     "serie": [
       [
@@ -977,7 +976,7 @@
       ],
       [
         "2026-10-28",
-        0.3007
+        0.4527
       ]
     ],
     "depuis": "2026-09-23"

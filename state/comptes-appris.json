@@ -1100,5 +1100,70 @@
     "instagram": [],
     "threads": [],
     "bluesky": []
+  },
+  "commune:mairie:agen": {
+    "v": 3,
+    "cherche": "2026-10-28T08:01:40.127Z",
+    "instagram": [
+      {
+        "handle": "agen_ville",
+        "nom": "Ville d'Agen",
+        "abonnes": 12968,
+        "preuve": 3
+      }
+    ],
+    "x": [
+      {
+        "handle": "villeagen",
+        "nom": "",
+        "abonnes": null,
+        "preuve": 3
+      }
+    ],
+    "threads": [],
+    "bluesky": []
+  },
+  "commune:tourisme:agen": {
+    "v": 3,
+    "cherche": "2026-10-28T08:01:40.127Z",
+    "instagram": [
+      {
+        "handle": "destinationagen",
+        "nom": "Office de tourisme Agen",
+        "abonnes": 5794,
+        "preuve": 2
+      }
+    ],
+    "x": [],
+    "threads": [
+      {
+        "handle": "destinationagen",
+        "nom": "Office de tourisme Agen",
+        "abonnes": 5794,
+        "preuve": 2
+      }
+    ],
+    "bluesky": []
+  },
+  "locale:agen:halloween": {
+    "v": 3,
+    "cherche": "2026-10-28T08:01:40.127Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:agen:techno": {
+    "v": 3,
+    "cherche": "2026-10-28T08:01:40.127Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:agen:fete": {
+    "v": 3,
+    "cherche": "2026-10-28T08:01:40.127Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
   }
 }

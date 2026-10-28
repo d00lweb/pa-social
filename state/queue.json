@@ -1,1 +1,367 @@
-[]
+[
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35901",
+    "channel": "instagram",
+    "dueAt": 1793189438744,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Halloween à Agen : passez la nuit dans un asile hanté géant",
+      "link": "https://passion-aquitaine.ouest-france.fr/halloween-agen-asile-agora-techno-win/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35901",
+      "pubDate": "Wed, 28 Oct 2026 06:30:38 +0000",
+      "date": 1793169038000,
+      "categories": [
+        "Actus",
+        "Agenda",
+        "Lot-et-Garonne",
+        "Musique"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/10/agen-halloween-techno.jpg",
+      "description": "Acteurs grimés, lasers et hard techno jusqu’à 6 h : le 31 octobre, le Parc des expositions d’Agen devient un asile hanté géant."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Agenais",
+      "entites": [],
+      "lieu": null,
+      "visuel": {
+        "titre": "Halloween à Agen : passez la nuit dans un asile hanté géant",
+        "surlignage": "Agen",
+        "description": "Acteurs grimés, lasers et hard techno jusqu’à 6 h : le 31 octobre, le Parc des expositions d’Agen devient un asile hanté géant.",
+        "texte_alternatif": "Agenais : Halloween à Agen : passez la nuit dans un asile hanté géant"
+      },
+      "instagram": {
+        "texte": "Acteurs grimés, lasers et hard techno jusqu’à 6 h : le 31 octobre, le Parc des expositions d’Agen devient un asile hanté géant 🖼️",
+        "hashtags": [
+          "#Agen",
+          "#Culture",
+          "#NouvelleAquitaine"
+        ]
+      },
+      "facebook": {
+        "texte": "Acteurs grimés, lasers et hard techno jusqu’à 6 h :, le Parc des expositions d’Agen devient un asile hanté géant 🖼️"
+      },
+      "bluesky": {
+        "texte": "Acteurs grimés, lasers et hard techno jusqu’à 6 h : le 31 octobre, le Parc des expositions d’Agen devient un asile hanté géant 🖼️",
+        "hashtag": "#Agen"
+      },
+      "threads": {
+        "texte": "Acteurs grimés, lasers et hard techno jusqu’à 6 h : le 31 octobre, le Parc des expositions d’Agen devient un asile hanté géant 🖼️",
+        "sujet": "Agenais"
+      },
+      "x": {
+        "texte": "Acteurs grimés, lasers et hard techno jusqu’à 6 h :, le Parc des expositions d’Agen devient un asile hanté géant 🖼️"
+      },
+      "source": "regles",
+      "lieuSource": {
+        "precis": "",
+        "ville": "",
+        "departement": "Agenais"
+      },
+      "lieuNom": "Agenais",
+      "commune": null,
+      "comptes": {
+        "instagram": [],
+        "x": [],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35901",
+    "channel": "bluesky",
+    "dueAt": 1793175949343,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Halloween à Agen : passez la nuit dans un asile hanté géant",
+      "link": "https://passion-aquitaine.ouest-france.fr/halloween-agen-asile-agora-techno-win/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35901",
+      "pubDate": "Wed, 28 Oct 2026 06:30:38 +0000",
+      "date": 1793169038000,
+      "categories": [
+        "Actus",
+        "Agenda",
+        "Lot-et-Garonne",
+        "Musique"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/10/agen-halloween-techno.jpg",
+      "description": "Acteurs grimés, lasers et hard techno jusqu’à 6 h : le 31 octobre, le Parc des expositions d’Agen devient un asile hanté géant."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Agenais",
+      "entites": [],
+      "lieu": null,
+      "visuel": {
+        "titre": "Halloween à Agen : passez la nuit dans un asile hanté géant",
+        "surlignage": "Agen",
+        "description": "Acteurs grimés, lasers et hard techno jusqu’à 6 h : le 31 octobre, le Parc des expositions d’Agen devient un asile hanté géant.",
+        "texte_alternatif": "Agenais : Halloween à Agen : passez la nuit dans un asile hanté géant"
+      },
+      "instagram": {
+        "texte": "Acteurs grimés, lasers et hard techno jusqu’à 6 h : le 31 octobre, le Parc des expositions d’Agen devient un asile hanté géant 🖼️",
+        "hashtags": [
+          "#Agen",
+          "#Culture",
+          "#NouvelleAquitaine"
+        ]
+      },
+      "facebook": {
+        "texte": "Acteurs grimés, lasers et hard techno jusqu’à 6 h :, le Parc des expositions d’Agen devient un asile hanté géant 🖼️"
+      },
+      "bluesky": {
+        "texte": "Acteurs grimés, lasers et hard techno jusqu’à 6 h : le 31 octobre, le Parc des expositions d’Agen devient un asile hanté géant 🖼️",
+        "hashtag": "#Agen"
+      },
+      "threads": {
+        "texte": "Acteurs grimés, lasers et hard techno jusqu’à 6 h : le 31 octobre, le Parc des expositions d’Agen devient un asile hanté géant 🖼️",
+        "sujet": "Agenais"
+      },
+      "x": {
+        "texte": "Acteurs grimés, lasers et hard techno jusqu’à 6 h :, le Parc des expositions d’Agen devient un asile hanté géant 🖼️"
+      },
+      "source": "regles",
+      "lieuSource": {
+        "precis": "",
+        "ville": "",
+        "departement": "Agenais"
+      },
+      "lieuNom": "Agenais",
+      "commune": null,
+      "comptes": {
+        "instagram": [],
+        "x": [],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35901",
+    "channel": "facebook",
+    "dueAt": 1793174689356,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Halloween à Agen : passez la nuit dans un asile hanté géant",
+      "link": "https://passion-aquitaine.ouest-france.fr/halloween-agen-asile-agora-techno-win/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35901",
+      "pubDate": "Wed, 28 Oct 2026 06:30:38 +0000",
+      "date": 1793169038000,
+      "categories": [
+        "Actus",
+        "Agenda",
+        "Lot-et-Garonne",
+        "Musique"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/10/agen-halloween-techno.jpg",
+      "description": "Acteurs grimés, lasers et hard techno jusqu’à 6 h : le 31 octobre, le Parc des expositions d’Agen devient un asile hanté géant."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Agenais",
+      "entites": [],
+      "lieu": null,
+      "visuel": {
+        "titre": "Halloween à Agen : passez la nuit dans un asile hanté géant",
+        "surlignage": "Agen",
+        "description": "Acteurs grimés, lasers et hard techno jusqu’à 6 h : le 31 octobre, le Parc des expositions d’Agen devient un asile hanté géant.",
+        "texte_alternatif": "Agenais : Halloween à Agen : passez la nuit dans un asile hanté géant"
+      },
+      "instagram": {
+        "texte": "Acteurs grimés, lasers et hard techno jusqu’à 6 h : le 31 octobre, le Parc des expositions d’Agen devient un asile hanté géant 🖼️",
+        "hashtags": [
+          "#Agen",
+          "#Culture",
+          "#NouvelleAquitaine"
+        ]
+      },
+      "facebook": {
+        "texte": "Acteurs grimés, lasers et hard techno jusqu’à 6 h :, le Parc des expositions d’Agen devient un asile hanté géant 🖼️"
+      },
+      "bluesky": {
+        "texte": "Acteurs grimés, lasers et hard techno jusqu’à 6 h : le 31 octobre, le Parc des expositions d’Agen devient un asile hanté géant 🖼️",
+        "hashtag": "#Agen"
+      },
+      "threads": {
+        "texte": "Acteurs grimés, lasers et hard techno jusqu’à 6 h : le 31 octobre, le Parc des expositions d’Agen devient un asile hanté géant 🖼️",
+        "sujet": "Agenais"
+      },
+      "x": {
+        "texte": "Acteurs grimés, lasers et hard techno jusqu’à 6 h :, le Parc des expositions d’Agen devient un asile hanté géant 🖼️"
+      },
+      "source": "regles",
+      "lieuSource": {
+        "precis": "",
+        "ville": "",
+        "departement": "Agenais"
+      },
+      "lieuNom": "Agenais",
+      "commune": null,
+      "comptes": {
+        "instagram": [],
+        "x": [],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35901",
+    "channel": "threads",
+    "dueAt": 1793172256667,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Halloween à Agen : passez la nuit dans un asile hanté géant",
+      "link": "https://passion-aquitaine.ouest-france.fr/halloween-agen-asile-agora-techno-win/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35901",
+      "pubDate": "Wed, 28 Oct 2026 06:30:38 +0000",
+      "date": 1793169038000,
+      "categories": [
+        "Actus",
+        "Agenda",
+        "Lot-et-Garonne",
+        "Musique"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/10/agen-halloween-techno.jpg",
+      "description": "Acteurs grimés, lasers et hard techno jusqu’à 6 h : le 31 octobre, le Parc des expositions d’Agen devient un asile hanté géant."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Agenais",
+      "entites": [],
+      "lieu": null,
+      "visuel": {
+        "titre": "Halloween à Agen : passez la nuit dans un asile hanté géant",
+        "surlignage": "Agen",
+        "description": "Acteurs grimés, lasers et hard techno jusqu’à 6 h : le 31 octobre, le Parc des expositions d’Agen devient un asile hanté géant.",
+        "texte_alternatif": "Agenais : Halloween à Agen : passez la nuit dans un asile hanté géant"
+      },
+      "instagram": {
+        "texte": "Acteurs grimés, lasers et hard techno jusqu’à 6 h : le 31 octobre, le Parc des expositions d’Agen devient un asile hanté géant 🖼️",
+        "hashtags": [
+          "#Agen",
+          "#Culture",
+          "#NouvelleAquitaine"
+        ]
+      },
+      "facebook": {
+        "texte": "Acteurs grimés, lasers et hard techno jusqu’à 6 h :, le Parc des expositions d’Agen devient un asile hanté géant 🖼️"
+      },
+      "bluesky": {
+        "texte": "Acteurs grimés, lasers et hard techno jusqu’à 6 h : le 31 octobre, le Parc des expositions d’Agen devient un asile hanté géant 🖼️",
+        "hashtag": "#Agen"
+      },
+      "threads": {
+        "texte": "Acteurs grimés, lasers et hard techno jusqu’à 6 h : le 31 octobre, le Parc des expositions d’Agen devient un asile hanté géant 🖼️",
+        "sujet": "Agenais"
+      },
+      "x": {
+        "texte": "Acteurs grimés, lasers et hard techno jusqu’à 6 h :, le Parc des expositions d’Agen devient un asile hanté géant 🖼️"
+      },
+      "source": "regles",
+      "lieuSource": {
+        "precis": "",
+        "ville": "",
+        "departement": "Agenais"
+      },
+      "lieuNom": "Agenais",
+      "commune": null,
+      "comptes": {
+        "instagram": [],
+        "x": [],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35901",
+    "channel": "x",
+    "dueAt": 1793175600000,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Halloween à Agen : passez la nuit dans un asile hanté géant",
+      "link": "https://passion-aquitaine.ouest-france.fr/halloween-agen-asile-agora-techno-win/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35901",
+      "pubDate": "Wed, 28 Oct 2026 06:30:38 +0000",
+      "date": 1793169038000,
+      "categories": [
+        "Actus",
+        "Agenda",
+        "Lot-et-Garonne",
+        "Musique"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/10/agen-halloween-techno.jpg",
+      "description": "Acteurs grimés, lasers et hard techno jusqu’à 6 h : le 31 octobre, le Parc des expositions d’Agen devient un asile hanté géant."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Agenais",
+      "entites": [],
+      "lieu": null,
+      "visuel": {
+        "titre": "Halloween à Agen : passez la nuit dans un asile hanté géant",
+        "surlignage": "Agen",
+        "description": "Acteurs grimés, lasers et hard techno jusqu’à 6 h : le 31 octobre, le Parc des expositions d’Agen devient un asile hanté géant.",
+        "texte_alternatif": "Agenais : Halloween à Agen : passez la nuit dans un asile hanté géant"
+      },
+      "instagram": {
+        "texte": "Acteurs grimés, lasers et hard techno jusqu’à 6 h : le 31 octobre, le Parc des expositions d’Agen devient un asile hanté géant 🖼️",
+        "hashtags": [
+          "#Agen",
+          "#Culture",
+          "#NouvelleAquitaine"
+        ]
+      },
+      "facebook": {
+        "texte": "Acteurs grimés, lasers et hard techno jusqu’à 6 h :, le Parc des expositions d’Agen devient un asile hanté géant 🖼️"
+      },
+      "bluesky": {
+        "texte": "Acteurs grimés, lasers et hard techno jusqu’à 6 h : le 31 octobre, le Parc des expositions d’Agen devient un asile hanté géant 🖼️",
+        "hashtag": "#Agen"
+      },
+      "threads": {
+        "texte": "Acteurs grimés, lasers et hard techno jusqu’à 6 h : le 31 octobre, le Parc des expositions d’Agen devient un asile hanté géant 🖼️",
+        "sujet": "Agenais"
+      },
+      "x": {
+        "texte": "Acteurs grimés, lasers et hard techno jusqu’à 6 h :, le Parc des expositions d’Agen devient un asile hanté géant 🖼️"
+      },
+      "source": "regles",
+      "lieuSource": {
+        "precis": "",
+        "ville": "",
+        "departement": "Agenais"
+      },
+      "lieuNom": "Agenais",
+      "commune": null,
+      "comptes": {
+        "instagram": [],
+        "x": [],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  }
+]

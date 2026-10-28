@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-28T06:20:40.692Z",
+  "genereLe": "2026-10-28T07:00:40.581Z",
   "jour": "2026-10-28",
   "reseaux": {
     "instagram": {
@@ -555,7 +555,53 @@
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261026-96f95772-th.jpg"
     }
   ],
-  "file": [],
+  "file": [
+    {
+      "channel": "threads",
+      "dueAt": "2026-10-28T07:24:16.667Z",
+      "prochainPassage": "2026-10-28T08:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Halloween à Agen : passez la nuit dans un asile hanté géant"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-10-28T08:04:49.356Z",
+      "prochainPassage": "2026-10-28T08:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Halloween à Agen : passez la nuit dans un asile hanté géant"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-10-28T08:20:00.000Z",
+      "prochainPassage": "2026-10-28T08:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Halloween à Agen : passez la nuit dans un asile hanté géant"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-10-28T08:25:49.343Z",
+      "prochainPassage": "2026-10-28T09:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Halloween à Agen : passez la nuit dans un asile hanté géant"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-10-28T12:10:38.744Z",
+      "prochainPassage": "2026-10-28T12:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Halloween à Agen : passez la nuit dans un asile hanté géant"
+    }
+  ],
   "alertes": [],
   "mesures": {
     "releves": 412,
@@ -637,7 +683,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-28T05:21:02.771Z"
+    "derniere": "2026-10-28T07:00:40.581Z"
   },
   "abonnes": {
     "instagram": {
@@ -676,7 +722,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-28T06:20:46.544Z",
+    "genereLe": "2026-10-28T07:01:16.166Z",
     "posts": 127,
     "parReseau": {
       "threads": {
@@ -893,29 +939,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 0,
-      "entree": 0,
-      "sortie": 0,
-      "cout": 0,
+      "appels": 3,
+      "entree": 24051,
+      "sortie": 2666,
+      "cout": 0.149524,
       "cle": "2026-10-28"
     },
     "semaine": {
-      "appels": 6,
-      "entree": 47645,
-      "sortie": 4934,
-      "cout": 0.28926
+      "appels": 9,
+      "entree": 71696,
+      "sortie": 7600,
+      "cout": 0.43878399999999995
     },
     "mois": {
-      "appels": 53,
-      "entree": 419362,
-      "sortie": 50470,
-      "cout": 2.6868479999999995,
+      "appels": 56,
+      "entree": 443413,
+      "sortie": 53136,
+      "cout": 2.8363719999999994,
       "cle": "2026-10"
     },
-    "projection": 2.97,
-    "moyenneAppel": 0.0507,
+    "projection": 3.14,
+    "moyenneAppel": 0.0506,
     "parModele": {
-      "claude-opus-5-5": 53
+      "claude-opus-5-5": 56
     },
     "serie": [
       [
@@ -972,7 +1018,7 @@
       ],
       [
         "2026-10-28",
-        0
+        0.1495
       ]
     ],
     "depuis": "2026-09-23"

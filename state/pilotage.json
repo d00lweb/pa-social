@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-28T08:20:49.449Z",
+  "genereLe": "2026-10-28T09:00:36.016Z",
   "jour": "2026-10-28",
   "reseaux": {
     "instagram": {
@@ -560,7 +560,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 414,
+    "releves": 415,
     "parReseau": {
       "instagram": {
         "posts": 52,
@@ -678,8 +678,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-28T08:26:00.242Z",
-    "posts": 129,
+    "genereLe": "2026-10-28T09:00:39.474Z",
+    "posts": 130,
     "parReseau": {
       "threads": {
         "posts": 33,
@@ -694,7 +694,7 @@
         "moyenne": 0.3
       },
       "facebook": {
-        "posts": 32,
+        "posts": 33,
         "moyenne": 0
       }
     },
@@ -730,7 +730,7 @@
         "moyenne": 2.4
       },
       "matin": {
-        "posts": 76,
+        "posts": 77,
         "moyenne": 1.9
       }
     },
@@ -751,7 +751,7 @@
       },
       "facebook": {
         "8 h – 9 h 30": {
-          "posts": 22,
+          "posts": 23,
           "moyenne": 0
         },
         "20 h – 21 h 30": {
@@ -811,11 +811,11 @@
     },
     "moinsBon": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35888",
-      "channel": "bluesky",
-      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mytrnpuroe23",
-      "publieLe": "2026-10-27T08:05:03.766Z",
+      "channel": "facebook",
+      "mediaId": "227437307428711_1766208638838350",
+      "publieLe": "2026-10-27T08:24:47.472Z",
       "jalon": 1,
-      "releveLe": "2026-10-28T08:20:49.449Z",
+      "releveLe": "2026-10-28T09:00:36.016Z",
       "likes": 0,
       "commentairesBruts": 0,
       "partages": 0,
@@ -823,8 +823,8 @@
       "commentaires": 0,
       "v": 2,
       "titre": "Incendie de Saumos : la forêt brûlée classée en lande, et après ?",
-      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mytrnpuroe23",
-      "format": "card",
+      "lien": "https://www.facebook.com/1720946116697936/posts/1766208638838350",
+      "format": null,
       "mention": false,
       "creneau": "matin",
       "creneauReseau": "8 h – 9 h 30"
@@ -835,7 +835,7 @@
         "moyenne": 7.5
       },
       "sans": {
-        "posts": 75,
+        "posts": 76,
         "moyenne": 4.2
       }
     },

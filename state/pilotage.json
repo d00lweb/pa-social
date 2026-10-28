@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-28T16:20:37.296Z",
+  "genereLe": "2026-10-28T17:00:55.102Z",
   "jour": "2026-10-28",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 1,
-      "semaine": 7,
-      "total": 59,
-      "dernier": "2026-10-28T12:11:08.566Z",
-      "lienDernier": "https://www.instagram.com/p/DfCZskclOEN/"
+      "aujourdhui": 2,
+      "semaine": 8,
+      "total": 60,
+      "dernier": "2026-10-28T17:13:46.923Z",
+      "lienDernier": "https://www.instagram.com/p/DfC8VV7F7hQ/"
     },
     "bluesky": {
       "actif": true,
@@ -165,6 +165,46 @@
   },
   "articles": [
     {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35870",
+      "titre": "En Corrèze, on a détruit un étang vieux de 200 ans pour… restaurer la nature",
+      "lien": "https://passion-aquitaine.ouest-france.fr/etang-chareneuve-palisse-zone-humide/",
+      "at": "2026-10-28T17:13:46.923Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Imaginez une eau immobile depuis deux siècles, puis la vidange, et peu à peu une terre gorgée d’eau qui reprend ses droits. C’est ce qui se passe en Corrèze : un étang vieux de 200 ans disparaît pour laisser place à une zone humide, avec un but assumé, restaurer la nature 🌾",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261028-e300bb54-th.jpg",
+          "mode": "reponse",
+          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/etang-chareneuve-palisse-zone-humide/",
+          "sujet": "Corrèze",
+          "publieLe": "2026-10-28T10:32:20.317Z"
+        },
+        "x": {
+          "texte": "🤔 Pourquoi supprimer un étang vieux de 200 ans quand on veut protéger la nature ? En #Corrèze, il cède sa place à une zone humide pour restaurer le milieu naturel.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261028-e300bb54-x.jpg",
+          "mode": "reponse",
+          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/etang-chareneuve-palisse-zone-humide/",
+          "sujet": null,
+          "publieLe": "2026-10-28T11:21:10.741Z"
+        },
+        "bluesky": {
+          "texte": "En #Corrèze, un étang creusé il y a deux siècles disparaît. À sa place : 🐸 une zone humide, choisie pour restaurer la nature. Un étang n’est donc pas toujours l’allié qu’on imagine.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261028-e300bb54-bsky.jpg",
+          "mode": "card",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-28T12:06:34.074Z"
+        },
+        "instagram": {
+          "texte": "🦆 Détruire un étang de 200 ans pour aider la nature : en Corrèze, c’est le pari qui vient d’être fait\n⠀\nL’étang disparaît et laisse place à une zone humide. Un paradoxe apparent pour restaurer les paysages corréziens.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Correze #ZoneHumide #Biodiversite",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261028-e300bb54-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-28T17:13:46.923Z"
+        }
+      }
+    },
+    {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35901",
       "titre": "Halloween à Agen : passez la nuit dans un asile hanté géant",
       "lien": "https://passion-aquitaine.ouest-france.fr/halloween-agen-asile-agora-techno-win/",
@@ -209,38 +249,6 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-10-28T12:11:08.566Z"
-        }
-      }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35870",
-      "titre": "En Corrèze, on a détruit un étang vieux de 200 ans pour… restaurer la nature",
-      "lien": "https://passion-aquitaine.ouest-france.fr/etang-chareneuve-palisse-zone-humide/",
-      "at": "2026-10-28T12:06:34.074Z",
-      "reseaux": {
-        "threads": {
-          "texte": "Imaginez une eau immobile depuis deux siècles, puis la vidange, et peu à peu une terre gorgée d’eau qui reprend ses droits. C’est ce qui se passe en Corrèze : un étang vieux de 200 ans disparaît pour laisser place à une zone humide, avec un but assumé, restaurer la nature 🌾",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261028-e300bb54-th.jpg",
-          "mode": "reponse",
-          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/etang-chareneuve-palisse-zone-humide/",
-          "sujet": "Corrèze",
-          "publieLe": "2026-10-28T10:32:20.317Z"
-        },
-        "x": {
-          "texte": "🤔 Pourquoi supprimer un étang vieux de 200 ans quand on veut protéger la nature ? En #Corrèze, il cède sa place à une zone humide pour restaurer le milieu naturel.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261028-e300bb54-x.jpg",
-          "mode": "reponse",
-          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/etang-chareneuve-palisse-zone-humide/",
-          "sujet": null,
-          "publieLe": "2026-10-28T11:21:10.741Z"
-        },
-        "bluesky": {
-          "texte": "En #Corrèze, un étang creusé il y a deux siècles disparaît. À sa place : 🐸 une zone humide, choisie pour restaurer la nature. Un étang n’est donc pas toujours l’allié qu’on imagine.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261028-e300bb54-bsky.jpg",
-          "mode": "card",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-28T12:06:34.074Z"
         }
       }
     },
@@ -440,6 +448,16 @@
   "publications": [
     {
       "channel": "instagram",
+      "at": "2026-10-28T17:13:46.923Z",
+      "titre": "En Corrèze, on a détruit un étang vieux de 200 ans pour… restaurer la nature",
+      "lien": "https://passion-aquitaine.ouest-france.fr/etang-chareneuve-palisse-zone-humide/",
+      "lienPost": "https://www.instagram.com/p/DfC8VV7F7hQ/",
+      "format": null,
+      "texte": "🦆 Détruire un étang de 200 ans pour aider la nature : en Corrèze, c’est le pari qui vient d’être fait\n⠀\nL’étang disparaît et laisse place à une zone humide. Un paradoxe apparent pour restaurer les paysages corréziens.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Correze #ZoneHumide #Biodiversite",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261028-e300bb54-1.jpg"
+    },
+    {
+      "channel": "instagram",
       "at": "2026-10-28T12:11:08.566Z",
       "titre": "Halloween à Agen : passez la nuit dans un asile hanté géant",
       "lien": "https://passion-aquitaine.ouest-france.fr/halloween-agen-asile-agora-techno-win/",
@@ -527,28 +545,9 @@
       "format": null,
       "texte": "À Saumos, là où se dressaient les pins, s’étend désormais une lande 📰\n⠀\nAprès l’incendie, 42 000 hectares de forêt brûlée en Gironde sont classés en « landes ». Et la replantation n’est pas immédiate : voici pourquoi.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Gironde #Saumos #Forêt",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261027-6aff9da6-1.jpg"
-    },
-    {
-      "channel": "x",
-      "at": "2026-10-27T09:20:51.795Z",
-      "titre": "Incendie de Saumos : la forêt brûlée classée en lande, et après ?",
-      "lien": "https://passion-aquitaine.ouest-france.fr/incendie-saumos-foret-reclassee-lande/",
-      "lienPost": null,
-      "format": "reponse",
-      "texte": "Après l’incendie de #Saumos, la forêt n’est plus une forêt sur le papier 📰 Les 42 000 hectares brûlés en Gironde sont classés en « landes », et on ne replante pas tout de suite.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261027-6aff9da6-x.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "instagram",
-      "dueAt": "2026-10-28T17:13:07.797Z",
-      "prochainPassage": "2026-10-28T17:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "En Corrèze, on a détruit un étang vieux de 200 ans pour… restaurer la nature"
-    },
     {
       "channel": "facebook",
       "dueAt": "2026-10-28T20:08:20.986Z",
@@ -640,7 +639,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-28T16:00:47.516Z"
+    "derniere": "2026-10-28T17:00:55.102Z"
   },
   "abonnes": {
     "instagram": {
@@ -679,7 +678,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-28T16:20:41.750Z",
+    "genereLe": "2026-10-28T17:13:55.294Z",
     "posts": 131,
     "parReseau": {
       "threads": {
@@ -845,7 +844,7 @@
       "facebook": 34,
       "bluesky": 35,
       "x": 35,
-      "instagram": 34
+      "instagram": 35
     },
     "abonnes": {
       "instagram": {

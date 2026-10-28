@@ -4903,5 +4903,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35870",
+    "channel": "threads",
+    "at": "2026-10-28T10:32:20.317Z",
+    "mediaId": "17903455362375590",
+    "titre": "En Corrèze, on a détruit un étang vieux de 200 ans pour… restaurer la nature",
+    "lien": "https://passion-aquitaine.ouest-france.fr/etang-chareneuve-palisse-zone-humide/",
+    "lienPost": "https://www.threads.com/@lovaquitaine/post/DfCOCkTG8zH",
+    "format": "reponse",
+    "mention": false,
+    "apercu": {
+      "texte": "Imaginez une eau immobile depuis deux siècles, puis la vidange, et peu à peu une terre gorgée d’eau qui reprend ses droits. C’est ce qui se passe en Corrèze : un étang vieux de 200 ans disparaît pour laisser place à une zone humide, avec un but assumé, restaurer la nature 🌾",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261028-e300bb54-th.jpg",
+      "mode": "reponse",
+      "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/etang-chareneuve-palisse-zone-humide/",
+      "sujet": "Corrèze"
+    }
   }
 ]

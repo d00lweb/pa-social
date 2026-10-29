@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-29T08:20:37.972Z",
+  "genereLe": "2026-10-29T09:01:02.041Z",
   "jour": "2026-10-29",
   "reseaux": {
     "instagram": {
@@ -605,7 +605,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 418,
+    "releves": 419,
     "parReseau": {
       "instagram": {
         "posts": 52,
@@ -684,7 +684,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-29T07:41:51.239Z"
+    "derniere": "2026-10-29T09:01:02.041Z"
   },
   "abonnes": {
     "instagram": {
@@ -723,8 +723,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-29T08:29:31.265Z",
-    "posts": 133,
+    "genereLe": "2026-10-29T09:01:07.330Z",
+    "posts": 134,
     "parReseau": {
       "threads": {
         "posts": 34,
@@ -735,7 +735,7 @@
         "moyenne": 10.8
       },
       "bluesky": {
-        "posts": 33,
+        "posts": 34,
         "moyenne": 0.3
       },
       "facebook": {
@@ -752,13 +752,13 @@
         "posts": 16,
         "moyenne": 0.5
       },
+      "image": {
+        "posts": 12,
+        "moyenne": 0.2
+      },
       "card": {
         "posts": 7,
         "moyenne": 0.1
-      },
-      "image": {
-        "posts": 11,
-        "moyenne": 0
       },
       "lien": {
         "posts": 1,
@@ -775,7 +775,7 @@
         "moyenne": 2.4
       },
       "matin": {
-        "posts": 79,
+        "posts": 80,
         "moyenne": 1.8
       }
     },
@@ -810,8 +810,8 @@
           "moyenne": 1.3
         },
         "8 h – 9 h 30": {
-          "posts": 23,
-          "moyenne": 0.2
+          "posts": 24,
+          "moyenne": 0.3
         },
         "12 h – 13 h 30": {
           "posts": 6,
@@ -833,7 +833,7 @@
         }
       }
     },
-    "interactionsTotal": 726,
+    "interactionsTotal": 728,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35835",
       "channel": "threads",
@@ -880,8 +880,8 @@
         "moyenne": 7.5
       },
       "sans": {
-        "posts": 78,
-        "moyenne": 4.1
+        "posts": 79,
+        "moyenne": 4
       }
     },
     "publies": {

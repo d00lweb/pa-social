@@ -5173,5 +5173,23 @@
       "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/bebes-raies-biarritz-quarantaine/",
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35929",
+    "channel": "bluesky",
+    "at": "2026-10-29T17:12:22.621Z",
+    "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3myzr6ae4tp22",
+    "titre": "Ces deux bébés raies arrivent à Biarritz : pourquoi elles ont passé 3 mois cachées",
+    "lien": "https://passion-aquitaine.ouest-france.fr/bebes-raies-biarritz-quarantaine/",
+    "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3myzr6ae4tp22",
+    "format": "card",
+    "mention": false,
+    "apercu": {
+      "texte": "Trois mois de quarantaine, puis un entraînement : à #Biarritz, deux bébés raies ont enfin rejoint le bassin tropical. Retour sur les coulisses d’une arrivée très préparée 🌊",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261029-cf1b1551-bsky.jpg",
+      "mode": "card",
+      "reponse": null,
+      "sujet": null
+    }
   }
 ]

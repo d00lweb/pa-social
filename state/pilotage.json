@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-29T17:00:40.917Z",
+  "genereLe": "2026-10-29T17:20:39.737Z",
   "jour": "2026-10-29",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 1,
-      "semaine": 9,
-      "total": 61,
-      "dernier": "2026-10-29T11:03:53.306Z",
-      "lienDernier": "https://www.instagram.com/p/DfE2zQelKJj/"
+      "aujourdhui": 2,
+      "semaine": 10,
+      "total": 62,
+      "dernier": "2026-10-29T17:24:07.489Z",
+      "lienDernier": "https://www.instagram.com/p/DfFiTUrlF_7/"
     },
     "bluesky": {
       "actif": true,
@@ -165,34 +165,10 @@
   },
   "articles": [
     {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35929",
-      "titre": "Ces deux bébés raies arrivent à Biarritz : pourquoi elles ont passé 3 mois cachées",
-      "lien": "https://passion-aquitaine.ouest-france.fr/bebes-raies-biarritz-quarantaine/",
-      "at": "2026-10-29T17:12:22.621Z",
-      "reseaux": {
-        "x": {
-          "texte": "Elles ont suivi un entraînement avant de faire leurs débuts 🎓 À #Biarritz, deux bébés raies sortent de trois mois de quarantaine et rejoignent le bassin tropical.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261029-cf1b1551-x.jpg",
-          "mode": "reponse",
-          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/bebes-raies-biarritz-quarantaine/",
-          "sujet": null,
-          "publieLe": "2026-10-29T15:20:48.550Z"
-        },
-        "bluesky": {
-          "texte": "Trois mois de quarantaine, puis un entraînement : à #Biarritz, deux bébés raies ont enfin rejoint le bassin tropical. Retour sur les coulisses d’une arrivée très préparée 🌊",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261029-cf1b1551-bsky.jpg",
-          "mode": "card",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-29T17:12:22.621Z"
-        }
-      }
-    },
-    {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35919",
       "titre": "Bayonne obtient trois étoiles au Guide Michelin, la note maximale",
       "lien": "https://passion-aquitaine.ouest-france.fr/bayonne-trois-etoiles-guide-michelin-voyage/",
-      "at": "2026-10-29T11:30:37.016Z",
+      "at": "2026-10-29T17:24:07.489Z",
       "reseaux": {
         "threads": {
           "texte": "Trois étoiles, la note maximale du Guide Michelin 🏙️ Et cette fois, ce ne sont pas les chefs qui sont à l’honneur : c’est @bayonnemaville, la ville elle-même, que le Guide Michelin Voyage 2026 classe « vaut le voyage ». Vous auriez mis quelle ville du Pays basque sur le podium ?",
@@ -217,6 +193,38 @@
           "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/bayonne-trois-etoiles-guide-michelin-voyage/",
           "sujet": null,
           "publieLe": "2026-10-29T11:30:37.016Z"
+        },
+        "instagram": {
+          "texte": "Trois étoiles au Michelin, et ce n’est pas pour une table : c’est 🧭 Bayonne tout entière qui est récompensée.\n⠀\nLe Guide Michelin Voyage 2026 attribue à la ville sa note maximale, « vaut le voyage ». Une belle reconnaissance pour la cité du Pays basque.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bayonne #PaysBasque #Tourisme",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261029-2dbec919-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-29T17:24:07.489Z"
+        }
+      }
+    },
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35929",
+      "titre": "Ces deux bébés raies arrivent à Biarritz : pourquoi elles ont passé 3 mois cachées",
+      "lien": "https://passion-aquitaine.ouest-france.fr/bebes-raies-biarritz-quarantaine/",
+      "at": "2026-10-29T17:12:22.621Z",
+      "reseaux": {
+        "x": {
+          "texte": "Elles ont suivi un entraînement avant de faire leurs débuts 🎓 À #Biarritz, deux bébés raies sortent de trois mois de quarantaine et rejoignent le bassin tropical.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261029-cf1b1551-x.jpg",
+          "mode": "reponse",
+          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/bebes-raies-biarritz-quarantaine/",
+          "sujet": null,
+          "publieLe": "2026-10-29T15:20:48.550Z"
+        },
+        "bluesky": {
+          "texte": "Trois mois de quarantaine, puis un entraînement : à #Biarritz, deux bébés raies ont enfin rejoint le bassin tropical. Retour sur les coulisses d’une arrivée très préparée 🌊",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261029-cf1b1551-bsky.jpg",
+          "mode": "card",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-29T17:12:22.621Z"
         }
       }
     },
@@ -415,6 +423,16 @@
   ],
   "publications": [
     {
+      "channel": "instagram",
+      "at": "2026-10-29T17:24:07.489Z",
+      "titre": "Bayonne obtient trois étoiles au Guide Michelin, la note maximale",
+      "lien": "https://passion-aquitaine.ouest-france.fr/bayonne-trois-etoiles-guide-michelin-voyage/",
+      "lienPost": "https://www.instagram.com/p/DfFiTUrlF_7/",
+      "format": null,
+      "texte": "Trois étoiles au Michelin, et ce n’est pas pour une table : c’est 🧭 Bayonne tout entière qui est récompensée.\n⠀\nLe Guide Michelin Voyage 2026 attribue à la ville sa note maximale, « vaut le voyage ». Une belle reconnaissance pour la cité du Pays basque.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bayonne #PaysBasque #Tourisme",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261029-2dbec919-1.jpg"
+    },
+    {
       "channel": "bluesky",
       "at": "2026-10-29T17:12:22.621Z",
       "titre": "Ces deux bébés raies arrivent à Biarritz : pourquoi elles ont passé 3 mois cachées",
@@ -503,28 +521,9 @@
       "format": "reponse",
       "texte": "Plus de 60 000 tonnes : c’est le poids des huîtres sauvages qui encombrent le Bassin d’#Arcachon. La préfète de la Gironde autorise un grand nettoyage pour les faire reculer ⚖️",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261029-e2f7730f-x.jpg"
-    },
-    {
-      "channel": "threads",
-      "at": "2026-10-29T07:33:03.879Z",
-      "titre": "Le bassin d’Arcachon abrite plus de 60 000 tonnes d’huîtres que personne n’élève",
-      "lien": "https://passion-aquitaine.ouest-france.fr/huitres-sauvages-bassin-arcachon/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/DfEeN2iHCr0",
-      "format": "reponse",
-      "texte": "Une huître, c’est forcément l’œuvre d’un ostréiculteur ? Pas sur le Bassin d’Arcachon. Des huîtres sauvages s’y installent sans que personne ne les élève, et elles finissent par nuire au plan d’eau 🧹 La préfète de la Gironde a donc autorisé un vaste nettoyage pour les faire reculer. Vous imaginiez que ces coquillages pouvaient devenir un problème ?",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261029-e2f7730f-th.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "instagram",
-      "dueAt": "2026-10-29T17:23:32.696Z",
-      "prochainPassage": "2026-10-29T18:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Bayonne obtient trois étoiles au Guide Michelin, la note maximale"
-    },
     {
       "channel": "facebook",
       "dueAt": "2026-10-29T20:05:06.916Z",
@@ -564,7 +563,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 422,
+    "releves": 423,
     "parReseau": {
       "instagram": {
         "posts": 52,
@@ -682,16 +681,16 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-29T17:12:33.940Z",
-    "posts": 137,
+    "genereLe": "2026-10-29T17:24:10.266Z",
+    "posts": 138,
     "parReseau": {
       "threads": {
         "posts": 35,
         "moyenne": 10.7
       },
       "instagram": {
-        "posts": 33,
-        "moyenne": 10.5
+        "posts": 34,
+        "moyenne": 10.3
       },
       "bluesky": {
         "posts": 35,
@@ -730,7 +729,7 @@
         "moyenne": 16
       },
       "soir": {
-        "posts": 23,
+        "posts": 24,
         "moyenne": 2.4
       },
       "matin": {
@@ -787,12 +786,12 @@
           "moyenne": 11
         },
         "18 h – 19 h 30": {
-          "posts": 9,
-          "moyenne": 5.7
+          "posts": 10,
+          "moyenne": 5.3
         }
       }
     },
-    "interactionsTotal": 735,
+    "interactionsTotal": 737,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35835",
       "channel": "threads",
@@ -835,8 +834,8 @@
     },
     "mentions": {
       "avec": {
-        "posts": 56,
-        "moyenne": 7.4
+        "posts": 57,
+        "moyenne": 7.3
       },
       "sans": {
         "posts": 81,
@@ -848,7 +847,7 @@
       "facebook": 36,
       "bluesky": 38,
       "x": 38,
-      "instagram": 36
+      "instagram": 37
     },
     "abonnes": {
       "instagram": {
@@ -892,7 +891,7 @@
     },
     "conseils": [
       "Threads : le créneau 13 h – 14 h 30 fait 30,1 fois mieux que 10 h – 11 h 30 (63.3 contre 2.1 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
-      "Instagram : le créneau 12 h – 13 h 30 fait 2,2 fois mieux que 18 h – 19 h 30 (12.5 contre 5.7 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
+      "Instagram : le créneau 12 h – 13 h 30 fait 2,4 fois mieux que 18 h – 19 h 30 (12.5 contre 5.3 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Le format « reponse » fait 114 fois mieux que « lien » (11.4 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « lien » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+7, +0,6 %) ; Facebook recule (−37), à surveiller."
     ]

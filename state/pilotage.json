@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-29T07:20:36.513Z",
+  "genereLe": "2026-10-29T07:41:51.239Z",
   "jour": "2026-10-29",
   "reseaux": {
     "instagram": {
@@ -608,7 +608,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 416,
+    "releves": 417,
     "parReseau": {
       "instagram": {
         "posts": 52,
@@ -687,7 +687,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-29T06:20:47.229Z"
+    "derniere": "2026-10-29T07:41:51.239Z"
   },
   "abonnes": {
     "instagram": {
@@ -726,12 +726,12 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-29T07:33:06.739Z",
-    "posts": 131,
+    "genereLe": "2026-10-29T07:41:56.422Z",
+    "posts": 132,
     "parReseau": {
       "threads": {
-        "posts": 33,
-        "moyenne": 11.3
+        "posts": 34,
+        "moyenne": 10.9
       },
       "instagram": {
         "posts": 32,
@@ -748,8 +748,8 @@
     },
     "parFormat": {
       "reponse": {
-        "posts": 31,
-        "moyenne": 12
+        "posts": 32,
+        "moyenne": 11.6
       },
       "reply": {
         "posts": 16,
@@ -778,7 +778,7 @@
         "moyenne": 2.4
       },
       "matin": {
-        "posts": 77,
+        "posts": 78,
         "moyenne": 1.9
       }
     },
@@ -789,8 +789,8 @@
           "moyenne": 63.3
         },
         "7 h – 8 h 30": {
-          "posts": 23,
-          "moyenne": 4.7
+          "posts": 24,
+          "moyenne": 4.5
         },
         "10 h – 11 h 30": {
           "posts": 6,
@@ -858,24 +858,24 @@
       "creneauReseau": "13 h – 14 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35888",
-      "channel": "facebook",
-      "mediaId": "227437307428711_1766208638838350",
-      "publieLe": "2026-10-27T08:24:47.472Z",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35901",
+      "channel": "threads",
+      "mediaId": "18088037750297889",
+      "publieLe": "2026-10-28T07:26:59.549Z",
       "jalon": 1,
-      "releveLe": "2026-10-28T09:00:36.016Z",
+      "releveLe": "2026-10-29T07:41:51.239Z",
       "likes": 0,
-      "commentairesBruts": 0,
+      "commentairesBruts": 1,
       "partages": 0,
-      "vues": null,
+      "vues": 129,
       "commentaires": 0,
       "v": 2,
-      "titre": "Incendie de Saumos : la forêt brûlée classée en lande, et après ?",
-      "lien": "https://www.facebook.com/1720946116697936/posts/1766208638838350",
-      "format": null,
+      "titre": "Halloween à Agen : passez la nuit dans un asile hanté géant",
+      "lien": "https://www.threads.com/@lovaquitaine/post/DfB45w3lebJ",
+      "format": "reponse",
       "mention": false,
       "creneau": "matin",
-      "creneauReseau": "8 h – 9 h 30"
+      "creneauReseau": "7 h – 8 h 30"
     },
     "mentions": {
       "avec": {
@@ -883,8 +883,8 @@
         "moyenne": 7.5
       },
       "sans": {
-        "posts": 76,
-        "moyenne": 4.2
+        "posts": 77,
+        "moyenne": 4.1
       }
     },
     "publies": {
@@ -930,14 +930,14 @@
       "x": null
     },
     "engagement": {
-      "threads": 0.98,
+      "threads": 0.94,
       "instagram": 0.11,
       "facebook": 0
     },
     "conseils": [
       "Threads : le créneau 13 h – 14 h 30 fait 35,2 fois mieux que 10 h – 11 h 30 (63.3 contre 1.8 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Instagram : le créneau 12 h – 13 h 30 fait 2,3 fois mieux que 18 h – 19 h 30 (13 contre 5.7 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
-      "Le format « reponse » fait 120 fois mieux que « lien » (12 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « lien » de la rotation dans config/channels.json.",
+      "Le format « reponse » fait 116 fois mieux que « lien » (11.6 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « lien » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+7, +0,6 %) ; Facebook recule (−37), à surveiller."
     ]
   },

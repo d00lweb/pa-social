@@ -5083,5 +5083,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35919",
+    "channel": "threads",
+    "at": "2026-10-29T10:27:55.192Z",
+    "mediaId": "17867531460680119",
+    "titre": "Bayonne obtient trois étoiles au Guide Michelin, la note maximale",
+    "lien": "https://passion-aquitaine.ouest-france.fr/bayonne-trois-etoiles-guide-michelin-voyage/",
+    "lienPost": "https://www.threads.com/@lovaquitaine/post/DfEyY2HFUsc",
+    "format": "reponse",
+    "mention": true,
+    "apercu": {
+      "texte": "Trois étoiles, la note maximale du Guide Michelin 🏙️ Et cette fois, ce ne sont pas les chefs qui sont à l’honneur : c’est @bayonnemaville, la ville elle-même, que le Guide Michelin Voyage 2026 classe « vaut le voyage ». Vous auriez mis quelle ville du Pays basque sur le podium ?",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261029-2dbec919-th.jpg",
+      "mode": "reponse",
+      "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/bayonne-trois-etoiles-guide-michelin-voyage/",
+      "sujet": "Bayonne"
+    }
   }
 ]

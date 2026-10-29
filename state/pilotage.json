@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-29T10:00:36.157Z",
+  "genereLe": "2026-10-29T10:20:37.364Z",
   "jour": "2026-10-29",
   "reseaux": {
     "instagram": {
@@ -122,11 +122,11 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 1,
-      "semaine": 9,
-      "total": 56,
-      "dernier": "2026-10-29T07:33:03.879Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DfEeN2iHCr0"
+      "aujourdhui": 2,
+      "semaine": 10,
+      "total": 57,
+      "dernier": "2026-10-29T10:27:55.192Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DfEyY2HFUsc"
     },
     "x": {
       "actif": true,
@@ -164,6 +164,22 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35919",
+      "titre": "Bayonne obtient trois étoiles au Guide Michelin, la note maximale",
+      "lien": "https://passion-aquitaine.ouest-france.fr/bayonne-trois-etoiles-guide-michelin-voyage/",
+      "at": "2026-10-29T10:27:55.192Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Trois étoiles, la note maximale du Guide Michelin 🏙️ Et cette fois, ce ne sont pas les chefs qui sont à l’honneur : c’est @bayonnemaville, la ville elle-même, que le Guide Michelin Voyage 2026 classe « vaut le voyage ». Vous auriez mis quelle ville du Pays basque sur le podium ?",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261029-2dbec919-th.jpg",
+          "mode": "reponse",
+          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/bayonne-trois-etoiles-guide-michelin-voyage/",
+          "sujet": "Bayonne",
+          "publieLe": "2026-10-29T10:27:55.192Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35937",
       "titre": "Le bassin d’Arcachon abrite plus de 60 000 tonnes d’huîtres que personne n’élève",
@@ -395,57 +411,19 @@
           "publieLe": "2026-10-26T11:12:32.844Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35877",
-      "titre": "En Gironde, des kiwis et des bovins à la place des vignes",
-      "lien": "https://passion-aquitaine.ouest-france.fr/vignoble-bordelais-arrachage-oliviers-kiwis-bovins/",
-      "at": "2026-10-25T11:26:57.917Z",
-      "reseaux": {
-        "bluesky": {
-          "texte": "Des rangs d’oliviers et des troupeaux de bovins là où s’alignaient les ceps 🫒 En #Gironde, 21 000 hectares de vignes ont été arrachés depuis 2023, et le paysage agricole se réinvente.\n➡️ Lire l’article",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261025-683b11c4-bsky.jpg",
-          "mode": "image",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-25T07:08:15.017Z"
-        },
-        "threads": {
-          "texte": "Et si le prochain fruit star de Gironde était le kiwi ? Depuis 2023, le département a arraché 🍇 21 000 hectares de vignes. À leur place, des kiwis, des oliviers et même des bovins. Une reconversion qui change le visage des campagnes girondines. Vous imaginiez un jour voir des oliviers au milieu du vignoble ?",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261025-683b11c4-th.jpg",
-          "mode": "reponse",
-          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/vignoble-bordelais-arrachage-oliviers-kiwis-bovins/",
-          "sujet": "Gironde",
-          "publieLe": "2026-10-25T07:29:04.234Z"
-        },
-        "facebook": {
-          "texte": "Là où mûrissait le raisin girondin, on récolte maintenant des kiwis et on croise des oliviers 🥝",
-          "image": null,
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-25T07:30:46.973Z"
-        },
-        "x": {
-          "texte": "21 000 hectares de vignes arrachés en #Gironde depuis 2023. À leur place poussent des kiwis et des oliviers, et paissent des bovins 🐄",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261025-683b11c4-x.jpg",
-          "mode": "reponse",
-          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/vignoble-bordelais-arrachage-oliviers-kiwis-bovins/",
-          "sujet": null,
-          "publieLe": "2026-10-25T08:00:52.977Z"
-        },
-        "instagram": {
-          "texte": "Kiwis, oliviers et bovins : voici ce qui pousse désormais à la place des vignes en Gironde\n⠀\nDepuis 2023, 21 000 hectares de vignes ont été arrachés dans le département. Découvrez les nouvelles cultures qui redessinent les paysages du vignoble bordelais 🥝\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Gironde #Agriculture #Vignoble",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261025-683b11c4-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-25T11:26:57.917Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "threads",
+      "at": "2026-10-29T10:27:55.192Z",
+      "titre": "Bayonne obtient trois étoiles au Guide Michelin, la note maximale",
+      "lien": "https://passion-aquitaine.ouest-france.fr/bayonne-trois-etoiles-guide-michelin-voyage/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/DfEyY2HFUsc",
+      "format": "reponse",
+      "texte": "Trois étoiles, la note maximale du Guide Michelin 🏙️ Et cette fois, ce ne sont pas les chefs qui sont à l’honneur : c’est @bayonnemaville, la ville elle-même, que le Guide Michelin Voyage 2026 classe « vaut le voyage ». Vous auriez mis quelle ville du Pays basque sur le podium ?",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261029-2dbec919-th.jpg"
+    },
     {
       "channel": "bluesky",
       "at": "2026-10-29T08:29:24.998Z",
@@ -535,28 +513,9 @@
       "format": "reponse",
       "texte": "🤔 Pourquoi supprimer un étang vieux de 200 ans quand on veut protéger la nature ? En #Corrèze, il cède sa place à une zone humide pour restaurer le milieu naturel.",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261028-e300bb54-x.jpg"
-    },
-    {
-      "channel": "threads",
-      "at": "2026-10-28T10:32:20.317Z",
-      "titre": "En Corrèze, on a détruit un étang vieux de 200 ans pour… restaurer la nature",
-      "lien": "https://passion-aquitaine.ouest-france.fr/etang-chareneuve-palisse-zone-humide/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/DfCOCkTG8zH",
-      "format": "reponse",
-      "texte": "Imaginez une eau immobile depuis deux siècles, puis la vidange, et peu à peu une terre gorgée d’eau qui reprend ses droits. C’est ce qui se passe en Corrèze : un étang vieux de 200 ans disparaît pour laisser place à une zone humide, avec un but assumé, restaurer la nature 🌾",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261028-e300bb54-th.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "threads",
-      "dueAt": "2026-10-29T10:25:04.798Z",
-      "prochainPassage": "2026-10-29T11:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Bayonne obtient trois étoiles au Guide Michelin, la note maximale"
-    },
     {
       "channel": "x",
       "dueAt": "2026-10-29T11:00:00.000Z",
@@ -684,7 +643,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-29T09:01:02.041Z"
+    "derniere": "2026-10-29T10:20:37.364Z"
   },
   "abonnes": {
     "instagram": {
@@ -723,7 +682,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-29T10:00:40.573Z",
+    "genereLe": "2026-10-29T10:27:59.707Z",
     "posts": 134,
     "parReseau": {
       "threads": {
@@ -885,7 +844,7 @@
       }
     },
     "publies": {
-      "threads": 36,
+      "threads": 37,
       "facebook": 36,
       "bluesky": 36,
       "x": 36,

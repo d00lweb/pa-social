@@ -1318,5 +1318,34 @@
     "instagram": [],
     "threads": [],
     "bluesky": []
+  },
+  "commune:tourisme:biarritz": {
+    "v": 3,
+    "cherche": "2026-10-29T13:20:47.092Z",
+    "instagram": [],
+    "x": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:biarritz:aquarium": {
+    "v": 3,
+    "cherche": "2026-10-29T13:20:47.092Z",
+    "instagram": [
+      {
+        "handle": "aquariumbiarritz",
+        "nom": "Aquarium de Biarritz",
+        "abonnes": 14366,
+        "preuve": 2
+      }
+    ],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:biarritz:biodiversite": {
+    "v": 3,
+    "cherche": "2026-10-29T13:20:47.092Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
   }
 }

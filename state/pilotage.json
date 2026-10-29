@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-29T06:20:47.229Z",
+  "genereLe": "2026-10-29T07:00:34.821Z",
   "jour": "2026-10-29",
   "reseaux": {
     "instagram": {
@@ -555,7 +555,98 @@
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261028-eea988b8-th.jpg"
     }
   ],
-  "file": [],
+  "file": [
+    {
+      "channel": "threads",
+      "dueAt": "2026-10-29T07:28:48.165Z",
+      "prochainPassage": "2026-10-29T08:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Le bassin d’Arcachon abrite plus de 60 000 tonnes d’huîtres que personne n’élève"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-10-29T08:20:00.000Z",
+      "prochainPassage": "2026-10-29T08:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Le bassin d’Arcachon abrite plus de 60 000 tonnes d’huîtres que personne n’élève"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-10-29T08:25:09.669Z",
+      "prochainPassage": "2026-10-29T09:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Le bassin d’Arcachon abrite plus de 60 000 tonnes d’huîtres que personne n’élève"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-10-29T08:29:23.189Z",
+      "prochainPassage": "2026-10-29T09:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Le bassin d’Arcachon abrite plus de 60 000 tonnes d’huîtres que personne n’élève"
+    },
+    {
+      "channel": "threads",
+      "dueAt": "2026-10-29T10:25:04.798Z",
+      "prochainPassage": "2026-10-29T11:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Bayonne obtient trois étoiles au Guide Michelin, la note maximale"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-10-29T11:00:00.000Z",
+      "prochainPassage": "2026-10-29T11:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Bayonne obtient trois étoiles au Guide Michelin, la note maximale"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-10-29T11:03:27.454Z",
+      "prochainPassage": "2026-10-29T11:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Le bassin d’Arcachon abrite plus de 60 000 tonnes d’huîtres que personne n’élève"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-10-29T11:30:34.722Z",
+      "prochainPassage": "2026-10-29T12:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Bayonne obtient trois étoiles au Guide Michelin, la note maximale"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-10-29T17:23:32.696Z",
+      "prochainPassage": "2026-10-29T18:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Bayonne obtient trois étoiles au Guide Michelin, la note maximale"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-10-29T20:05:06.916Z",
+      "prochainPassage": "2026-10-29T20:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Bayonne obtient trois étoiles au Guide Michelin, la note maximale"
+    }
+  ],
   "alertes": [],
   "mesures": {
     "releves": 416,
@@ -676,7 +767,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-29T06:20:52.817Z",
+    "genereLe": "2026-10-29T07:01:28.406Z",
     "posts": 131,
     "parReseau": {
       "threads": {
@@ -893,29 +984,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 0,
-      "entree": 0,
-      "sortie": 0,
-      "cout": 0,
+      "appels": 3,
+      "entree": 24040,
+      "sortie": 2869,
+      "cout": 0.15354,
       "cle": "2026-10-29"
     },
     "semaine": {
-      "appels": 16,
-      "entree": 127924,
-      "sortie": 13887,
-      "cout": 0.7894360000000001
+      "appels": 19,
+      "entree": 151964,
+      "sortie": 16756,
+      "cout": 0.9429760000000001
     },
     "mois": {
-      "appels": 63,
-      "entree": 499641,
-      "sortie": 59423,
-      "cout": 3.187023999999999,
+      "appels": 66,
+      "entree": 523681,
+      "sortie": 62292,
+      "cout": 3.340563999999999,
       "cle": "2026-10"
     },
-    "projection": 3.41,
+    "projection": 3.57,
     "moyenneAppel": 0.0506,
     "parModele": {
-      "claude-opus-5-5": 63
+      "claude-opus-5-5": 66
     },
     "serie": [
       [
@@ -972,7 +1063,7 @@
       ],
       [
         "2026-10-29",
-        0
+        0.1535
       ]
     ],
     "depuis": "2026-09-23"

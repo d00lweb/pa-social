@@ -1289,5 +1289,34 @@
       }
     ],
     "x": []
+  },
+  "vivier:huitres du bassin:huitresarcachoncapferret": {
+    "v": 3,
+    "cherche": "2026-10-29T07:00:57.073Z",
+    "instagram": [
+      {
+        "handle": "huitresarcachoncapferret",
+        "nom": "Huîtres Arcachon Cap Ferret",
+        "abonnes": 5632,
+        "preuve": 3
+      }
+    ],
+    "threads": [],
+    "bluesky": [],
+    "x": []
+  },
+  "locale:bayonne:tourisme": {
+    "v": 3,
+    "cherche": "2026-10-29T07:01:20.313Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:bayonne:patrimoine": {
+    "v": 3,
+    "cherche": "2026-10-29T07:01:20.313Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
   }
 }

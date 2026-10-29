@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-29T11:00:36.945Z",
+  "genereLe": "2026-10-29T11:20:39.414Z",
   "jour": "2026-10-29",
   "reseaux": {
     "instagram": {
@@ -60,11 +60,11 @@
         "image",
         "reply"
       ],
-      "aujourdhui": 1,
-      "semaine": 9,
-      "total": 59,
-      "dernier": "2026-10-29T08:29:24.998Z",
-      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3myytx47xin24"
+      "aujourdhui": 2,
+      "semaine": 10,
+      "total": 60,
+      "dernier": "2026-10-29T11:30:37.016Z",
+      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3myz634hn6p2q"
     },
     "facebook": {
       "actif": true,
@@ -165,6 +165,38 @@
   },
   "articles": [
     {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35919",
+      "titre": "Bayonne obtient trois étoiles au Guide Michelin, la note maximale",
+      "lien": "https://passion-aquitaine.ouest-france.fr/bayonne-trois-etoiles-guide-michelin-voyage/",
+      "at": "2026-10-29T11:30:37.016Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Trois étoiles, la note maximale du Guide Michelin 🏙️ Et cette fois, ce ne sont pas les chefs qui sont à l’honneur : c’est @bayonnemaville, la ville elle-même, que le Guide Michelin Voyage 2026 classe « vaut le voyage ». Vous auriez mis quelle ville du Pays basque sur le podium ?",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261029-2dbec919-th.jpg",
+          "mode": "reponse",
+          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/bayonne-trois-etoiles-guide-michelin-voyage/",
+          "sujet": "Bayonne",
+          "publieLe": "2026-10-29T10:27:55.192Z"
+        },
+        "x": {
+          "texte": "#Bayonne décroche la note maximale du Guide Michelin Voyage 2026 : 🌟 trois étoiles pour la ville elle-même, pas pour ses restaurants. Verdict : « vaut le voyage ».",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261029-2dbec919-x.jpg",
+          "mode": "reponse",
+          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/bayonne-trois-etoiles-guide-michelin-voyage/",
+          "sujet": null,
+          "publieLe": "2026-10-29T11:00:48.932Z"
+        },
+        "bluesky": {
+          "texte": "⭐ Trois étoiles Michelin sans parler cuisine, c’est possible ? Le Guide Michelin Voyage 2026 décerne sa note maximale à #Bayonne elle-même, jugée « vaut le voyage ».",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261029-2dbec919-bsky.jpg",
+          "mode": "reply",
+          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/bayonne-trois-etoiles-guide-michelin-voyage/",
+          "sujet": null,
+          "publieLe": "2026-10-29T11:30:37.016Z"
+        }
+      }
+    },
+    {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35937",
       "titre": "Le bassin d’Arcachon abrite plus de 60 000 tonnes d’huîtres que personne n’élève",
       "lien": "https://passion-aquitaine.ouest-france.fr/huitres-sauvages-bassin-arcachon/",
@@ -209,30 +241,6 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-10-29T11:03:53.306Z"
-        }
-      }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35919",
-      "titre": "Bayonne obtient trois étoiles au Guide Michelin, la note maximale",
-      "lien": "https://passion-aquitaine.ouest-france.fr/bayonne-trois-etoiles-guide-michelin-voyage/",
-      "at": "2026-10-29T11:00:48.932Z",
-      "reseaux": {
-        "threads": {
-          "texte": "Trois étoiles, la note maximale du Guide Michelin 🏙️ Et cette fois, ce ne sont pas les chefs qui sont à l’honneur : c’est @bayonnemaville, la ville elle-même, que le Guide Michelin Voyage 2026 classe « vaut le voyage ». Vous auriez mis quelle ville du Pays basque sur le podium ?",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261029-2dbec919-th.jpg",
-          "mode": "reponse",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/bayonne-trois-etoiles-guide-michelin-voyage/",
-          "sujet": "Bayonne",
-          "publieLe": "2026-10-29T10:27:55.192Z"
-        },
-        "x": {
-          "texte": "#Bayonne décroche la note maximale du Guide Michelin Voyage 2026 : 🌟 trois étoiles pour la ville elle-même, pas pour ses restaurants. Verdict : « vaut le voyage ».",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261029-2dbec919-x.jpg",
-          "mode": "reponse",
-          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/bayonne-trois-etoiles-guide-michelin-voyage/",
-          "sujet": null,
-          "publieLe": "2026-10-29T11:00:48.932Z"
         }
       }
     },
@@ -431,6 +439,16 @@
   ],
   "publications": [
     {
+      "channel": "bluesky",
+      "at": "2026-10-29T11:30:37.016Z",
+      "titre": "Bayonne obtient trois étoiles au Guide Michelin, la note maximale",
+      "lien": "https://passion-aquitaine.ouest-france.fr/bayonne-trois-etoiles-guide-michelin-voyage/",
+      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3myz634hn6p2q",
+      "format": "reply",
+      "texte": "⭐ Trois étoiles Michelin sans parler cuisine, c’est possible ? Le Guide Michelin Voyage 2026 décerne sa note maximale à #Bayonne elle-même, jugée « vaut le voyage ».",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261029-2dbec919-bsky.jpg"
+    },
+    {
       "channel": "instagram",
       "at": "2026-10-29T11:03:53.306Z",
       "titre": "Le bassin d’Arcachon abrite plus de 60 000 tonnes d’huîtres que personne n’élève",
@@ -519,28 +537,9 @@
       "format": null,
       "texte": "🦆 Détruire un étang de 200 ans pour aider la nature : en Corrèze, c’est le pari qui vient d’être fait\n⠀\nL’étang disparaît et laisse place à une zone humide. Un paradoxe apparent pour restaurer les paysages corréziens.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Correze #ZoneHumide #Biodiversite",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261028-e300bb54-1.jpg"
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-10-28T12:11:08.566Z",
-      "titre": "Halloween à Agen : passez la nuit dans un asile hanté géant",
-      "lien": "https://passion-aquitaine.ouest-france.fr/halloween-agen-asile-agora-techno-win/",
-      "lienPost": "https://www.instagram.com/p/DfCZskclOEN/",
-      "format": null,
-      "texte": "Agen, nuit du 31 octobre : le Parc des expositions se change en asile hanté géant 🎃\n⠀\nActeurs grimés dans les couloirs, lasers et hard techno jusqu’à 6 h du matin. Une soirée d’Halloween pensée pour faire frissonner l’Agenais jusqu’à l’aube.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Agen #Halloween #HardTechno",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261028-eea988b8-1.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "bluesky",
-      "dueAt": "2026-10-29T11:30:34.722Z",
-      "prochainPassage": "2026-10-29T12:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Bayonne obtient trois étoiles au Guide Michelin, la note maximale"
-    },
     {
       "channel": "instagram",
       "dueAt": "2026-10-29T17:23:32.696Z",
@@ -641,7 +640,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-29T10:20:37.364Z"
+    "derniere": "2026-10-29T11:20:39.414Z"
   },
   "abonnes": {
     "instagram": {
@@ -680,7 +679,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-29T11:03:56.363Z",
+    "genereLe": "2026-10-29T11:30:46.009Z",
     "posts": 135,
     "parReseau": {
       "instagram": {
@@ -844,7 +843,7 @@
     "publies": {
       "threads": 37,
       "facebook": 36,
-      "bluesky": 36,
+      "bluesky": 37,
       "x": 37,
       "instagram": 36
     },

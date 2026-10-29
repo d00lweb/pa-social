@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-29T10:20:37.364Z",
+  "genereLe": "2026-10-29T11:00:36.945Z",
   "jour": "2026-10-29",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 8,
-      "total": 60,
-      "dernier": "2026-10-28T17:13:46.923Z",
-      "lienDernier": "https://www.instagram.com/p/DfC8VV7F7hQ/"
+      "aujourdhui": 1,
+      "semaine": 9,
+      "total": 61,
+      "dernier": "2026-10-29T11:03:53.306Z",
+      "lienDernier": "https://www.instagram.com/p/DfE2zQelKJj/"
     },
     "bluesky": {
       "actif": true,
@@ -156,35 +156,19 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 1,
-      "semaine": 9,
-      "total": 59,
-      "dernier": "2026-10-29T08:20:49.213Z",
+      "aujourdhui": 2,
+      "semaine": 10,
+      "total": 60,
+      "dernier": "2026-10-29T11:00:48.932Z",
       "lienDernier": null
     }
   },
   "articles": [
     {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35919",
-      "titre": "Bayonne obtient trois étoiles au Guide Michelin, la note maximale",
-      "lien": "https://passion-aquitaine.ouest-france.fr/bayonne-trois-etoiles-guide-michelin-voyage/",
-      "at": "2026-10-29T10:27:55.192Z",
-      "reseaux": {
-        "threads": {
-          "texte": "Trois étoiles, la note maximale du Guide Michelin 🏙️ Et cette fois, ce ne sont pas les chefs qui sont à l’honneur : c’est @bayonnemaville, la ville elle-même, que le Guide Michelin Voyage 2026 classe « vaut le voyage ». Vous auriez mis quelle ville du Pays basque sur le podium ?",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261029-2dbec919-th.jpg",
-          "mode": "reponse",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/bayonne-trois-etoiles-guide-michelin-voyage/",
-          "sujet": "Bayonne",
-          "publieLe": "2026-10-29T10:27:55.192Z"
-        }
-      }
-    },
-    {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35937",
       "titre": "Le bassin d’Arcachon abrite plus de 60 000 tonnes d’huîtres que personne n’élève",
       "lien": "https://passion-aquitaine.ouest-france.fr/huitres-sauvages-bassin-arcachon/",
-      "at": "2026-10-29T08:29:24.998Z",
+      "at": "2026-10-29T11:03:53.306Z",
       "reseaux": {
         "threads": {
           "texte": "Une huître, c’est forcément l’œuvre d’un ostréiculteur ? Pas sur le Bassin d’Arcachon. Des huîtres sauvages s’y installent sans que personne ne les élève, et elles finissent par nuire au plan d’eau 🧹 La préfète de la Gironde a donc autorisé un vaste nettoyage pour les faire reculer. Vous imaginiez que ces coquillages pouvaient devenir un problème ?",
@@ -217,6 +201,38 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-10-29T08:29:24.998Z"
+        },
+        "instagram": {
+          "texte": "Sur le Bassin d’Arcachon, des huîtres poussent toutes seules et finissent par gêner tout le monde\n⠀\nCes huîtres sauvages nuisent au Bassin. La préfète de la Gironde a autorisé un vaste nettoyage pour les faire reculer et préserver ce coin d’eau que l’on aime tant 🦪\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#BassinDArcachon #Huîtres #Gironde",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261029-e2f7730f-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-29T11:03:53.306Z"
+        }
+      }
+    },
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35919",
+      "titre": "Bayonne obtient trois étoiles au Guide Michelin, la note maximale",
+      "lien": "https://passion-aquitaine.ouest-france.fr/bayonne-trois-etoiles-guide-michelin-voyage/",
+      "at": "2026-10-29T11:00:48.932Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Trois étoiles, la note maximale du Guide Michelin 🏙️ Et cette fois, ce ne sont pas les chefs qui sont à l’honneur : c’est @bayonnemaville, la ville elle-même, que le Guide Michelin Voyage 2026 classe « vaut le voyage ». Vous auriez mis quelle ville du Pays basque sur le podium ?",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261029-2dbec919-th.jpg",
+          "mode": "reponse",
+          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/bayonne-trois-etoiles-guide-michelin-voyage/",
+          "sujet": "Bayonne",
+          "publieLe": "2026-10-29T10:27:55.192Z"
+        },
+        "x": {
+          "texte": "#Bayonne décroche la note maximale du Guide Michelin Voyage 2026 : 🌟 trois étoiles pour la ville elle-même, pas pour ses restaurants. Verdict : « vaut le voyage ».",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261029-2dbec919-x.jpg",
+          "mode": "reponse",
+          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/bayonne-trois-etoiles-guide-michelin-voyage/",
+          "sujet": null,
+          "publieLe": "2026-10-29T11:00:48.932Z"
         }
       }
     },
@@ -415,6 +431,26 @@
   ],
   "publications": [
     {
+      "channel": "instagram",
+      "at": "2026-10-29T11:03:53.306Z",
+      "titre": "Le bassin d’Arcachon abrite plus de 60 000 tonnes d’huîtres que personne n’élève",
+      "lien": "https://passion-aquitaine.ouest-france.fr/huitres-sauvages-bassin-arcachon/",
+      "lienPost": "https://www.instagram.com/p/DfE2zQelKJj/",
+      "format": null,
+      "texte": "Sur le Bassin d’Arcachon, des huîtres poussent toutes seules et finissent par gêner tout le monde\n⠀\nCes huîtres sauvages nuisent au Bassin. La préfète de la Gironde a autorisé un vaste nettoyage pour les faire reculer et préserver ce coin d’eau que l’on aime tant 🦪\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#BassinDArcachon #Huîtres #Gironde",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261029-e2f7730f-1.jpg"
+    },
+    {
+      "channel": "x",
+      "at": "2026-10-29T11:00:48.932Z",
+      "titre": "Bayonne obtient trois étoiles au Guide Michelin, la note maximale",
+      "lien": "https://passion-aquitaine.ouest-france.fr/bayonne-trois-etoiles-guide-michelin-voyage/",
+      "lienPost": null,
+      "format": "reponse",
+      "texte": "#Bayonne décroche la note maximale du Guide Michelin Voyage 2026 : 🌟 trois étoiles pour la ville elle-même, pas pour ses restaurants. Verdict : « vaut le voyage ».",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261029-2dbec919-x.jpg"
+    },
+    {
       "channel": "threads",
       "at": "2026-10-29T10:27:55.192Z",
       "titre": "Bayonne obtient trois étoiles au Guide Michelin, la note maximale",
@@ -493,47 +529,9 @@
       "format": null,
       "texte": "Agen, nuit du 31 octobre : le Parc des expositions se change en asile hanté géant 🎃\n⠀\nActeurs grimés dans les couloirs, lasers et hard techno jusqu’à 6 h du matin. Une soirée d’Halloween pensée pour faire frissonner l’Agenais jusqu’à l’aube.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Agen #Halloween #HardTechno",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261028-eea988b8-1.jpg"
-    },
-    {
-      "channel": "bluesky",
-      "at": "2026-10-28T12:06:34.074Z",
-      "titre": "En Corrèze, on a détruit un étang vieux de 200 ans pour… restaurer la nature",
-      "lien": "https://passion-aquitaine.ouest-france.fr/etang-chareneuve-palisse-zone-humide/",
-      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mywpmibbza2c",
-      "format": "card",
-      "texte": "En #Corrèze, un étang creusé il y a deux siècles disparaît. À sa place : 🐸 une zone humide, choisie pour restaurer la nature. Un étang n’est donc pas toujours l’allié qu’on imagine.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261028-e300bb54-bsky.jpg"
-    },
-    {
-      "channel": "x",
-      "at": "2026-10-28T11:21:10.741Z",
-      "titre": "En Corrèze, on a détruit un étang vieux de 200 ans pour… restaurer la nature",
-      "lien": "https://passion-aquitaine.ouest-france.fr/etang-chareneuve-palisse-zone-humide/",
-      "lienPost": null,
-      "format": "reponse",
-      "texte": "🤔 Pourquoi supprimer un étang vieux de 200 ans quand on veut protéger la nature ? En #Corrèze, il cède sa place à une zone humide pour restaurer le milieu naturel.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261028-e300bb54-x.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "x",
-      "dueAt": "2026-10-29T11:00:00.000Z",
-      "prochainPassage": "2026-10-29T11:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Bayonne obtient trois étoiles au Guide Michelin, la note maximale"
-    },
-    {
-      "channel": "instagram",
-      "dueAt": "2026-10-29T11:03:27.454Z",
-      "prochainPassage": "2026-10-29T11:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Le bassin d’Arcachon abrite plus de 60 000 tonnes d’huîtres que personne n’élève"
-    },
     {
       "channel": "bluesky",
       "dueAt": "2026-10-29T11:30:34.722Z",
@@ -564,7 +562,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 419,
+    "releves": 420,
     "parReseau": {
       "instagram": {
         "posts": 52,
@@ -682,16 +680,16 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-29T10:27:59.707Z",
-    "posts": 134,
+    "genereLe": "2026-10-29T11:03:56.363Z",
+    "posts": 135,
     "parReseau": {
-      "threads": {
-        "posts": 34,
-        "moyenne": 10.9
-      },
       "instagram": {
         "posts": 32,
         "moyenne": 10.8
+      },
+      "threads": {
+        "posts": 35,
+        "moyenne": 10.7
       },
       "bluesky": {
         "posts": 34,
@@ -704,8 +702,8 @@
     },
     "parFormat": {
       "reponse": {
-        "posts": 32,
-        "moyenne": 11.6
+        "posts": 33,
+        "moyenne": 11.4
       },
       "reply": {
         "posts": 16,
@@ -734,8 +732,8 @@
         "moyenne": 2.4
       },
       "matin": {
-        "posts": 80,
-        "moyenne": 1.8
+        "posts": 81,
+        "moyenne": 1.9
       }
     },
     "parCreneauReseau": {
@@ -749,8 +747,8 @@
           "moyenne": 4.5
         },
         "10 h – 11 h 30": {
-          "posts": 6,
-          "moyenne": 1.8
+          "posts": 7,
+          "moyenne": 2.1
         }
       },
       "facebook": {
@@ -792,7 +790,7 @@
         }
       }
     },
-    "interactionsTotal": 728,
+    "interactionsTotal": 732,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35835",
       "channel": "threads",
@@ -839,7 +837,7 @@
         "moyenne": 7.5
       },
       "sans": {
-        "posts": 79,
+        "posts": 80,
         "moyenne": 4
       }
     },
@@ -847,8 +845,8 @@
       "threads": 37,
       "facebook": 36,
       "bluesky": 36,
-      "x": 36,
-      "instagram": 35
+      "x": 37,
+      "instagram": 36
     },
     "abonnes": {
       "instagram": {
@@ -886,14 +884,14 @@
       "x": null
     },
     "engagement": {
-      "threads": 0.94,
       "instagram": 0.11,
+      "threads": 0.93,
       "facebook": 0
     },
     "conseils": [
-      "Threads : le créneau 13 h – 14 h 30 fait 35,2 fois mieux que 10 h – 11 h 30 (63.3 contre 1.8 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
+      "Threads : le créneau 13 h – 14 h 30 fait 30,1 fois mieux que 10 h – 11 h 30 (63.3 contre 2.1 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Instagram : le créneau 12 h – 13 h 30 fait 2,3 fois mieux que 18 h – 19 h 30 (13 contre 5.7 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
-      "Le format « reponse » fait 116 fois mieux que « lien » (11.6 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « lien » de la rotation dans config/channels.json.",
+      "Le format « reponse » fait 114 fois mieux que « lien » (11.4 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « lien » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+7, +0,6 %) ; Facebook recule (−37), à surveiller."
     ]
   },

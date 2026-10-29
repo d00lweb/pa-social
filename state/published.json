@@ -5101,5 +5101,41 @@
       "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/bayonne-trois-etoiles-guide-michelin-voyage/",
       "sujet": "Bayonne"
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35919",
+    "channel": "x",
+    "at": "2026-10-29T11:00:48.932Z",
+    "mediaId": "kit-telegram",
+    "titre": "Bayonne obtient trois étoiles au Guide Michelin, la note maximale",
+    "lien": "https://passion-aquitaine.ouest-france.fr/bayonne-trois-etoiles-guide-michelin-voyage/",
+    "lienPost": null,
+    "format": "reponse",
+    "mention": true,
+    "apercu": {
+      "texte": "#Bayonne décroche la note maximale du Guide Michelin Voyage 2026 : 🌟 trois étoiles pour la ville elle-même, pas pour ses restaurants. Verdict : « vaut le voyage ».",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261029-2dbec919-x.jpg",
+      "mode": "reponse",
+      "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/bayonne-trois-etoiles-guide-michelin-voyage/",
+      "sujet": null
+    }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35937",
+    "channel": "instagram",
+    "at": "2026-10-29T11:03:53.306Z",
+    "mediaId": "17989835214119816",
+    "titre": "Le bassin d’Arcachon abrite plus de 60 000 tonnes d’huîtres que personne n’élève",
+    "lien": "https://passion-aquitaine.ouest-france.fr/huitres-sauvages-bassin-arcachon/",
+    "lienPost": "https://www.instagram.com/p/DfE2zQelKJj/",
+    "format": null,
+    "mention": true,
+    "apercu": {
+      "texte": "Sur le Bassin d’Arcachon, des huîtres poussent toutes seules et finissent par gêner tout le monde\n⠀\nCes huîtres sauvages nuisent au Bassin. La préfète de la Gironde a autorisé un vaste nettoyage pour les faire reculer et préserver ce coin d’eau que l’on aime tant 🦪\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#BassinDArcachon #Huîtres #Gironde",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261029-e2f7730f-1.jpg",
+      "mode": null,
+      "reponse": null,
+      "sujet": null
+    }
   }
 ]

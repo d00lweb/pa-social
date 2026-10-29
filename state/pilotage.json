@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-29T20:00:40.051Z",
+  "genereLe": "2026-10-29T20:20:35.838Z",
   "jour": "2026-10-29",
   "reseaux": {
     "instagram": {
@@ -562,7 +562,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 423,
+    "releves": 424,
     "parReseau": {
       "instagram": {
         "posts": 52,
@@ -680,8 +680,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-29T20:05:13.409Z",
-    "posts": 138,
+    "genereLe": "2026-10-29T20:20:39.571Z",
+    "posts": 139,
     "parReseau": {
       "threads": {
         "posts": 35,
@@ -696,7 +696,7 @@
         "moyenne": 0.3
       },
       "facebook": {
-        "posts": 34,
+        "posts": 35,
         "moyenne": 0
       }
     },
@@ -728,8 +728,8 @@
         "moyenne": 16
       },
       "soir": {
-        "posts": 24,
-        "moyenne": 2.4
+        "posts": 25,
+        "moyenne": 2.3
       },
       "matin": {
         "posts": 81,
@@ -757,7 +757,7 @@
           "moyenne": 0
         },
         "20 h – 21 h 30": {
-          "posts": 10,
+          "posts": 11,
           "moyenne": 0
         }
       },
@@ -813,11 +813,11 @@
     },
     "moinsBon": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35870",
-      "channel": "bluesky",
-      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mywpmibbza2c",
-      "publieLe": "2026-10-28T12:06:34.074Z",
+      "channel": "facebook",
+      "mediaId": "227437307428711_1768151735310707",
+      "publieLe": "2026-10-28T20:08:26.707Z",
       "jalon": 1,
-      "releveLe": "2026-10-29T12:20:49.509Z",
+      "releveLe": "2026-10-29T20:20:35.838Z",
       "likes": 0,
       "commentairesBruts": 0,
       "partages": 0,
@@ -825,11 +825,11 @@
       "commentaires": 0,
       "v": 2,
       "titre": "En Corrèze, on a détruit un étang vieux de 200 ans pour… restaurer la nature",
-      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mywpmibbza2c",
-      "format": "card",
+      "lien": "https://www.facebook.com/1720946116697936/posts/1768151735310707",
+      "format": null,
       "mention": false,
-      "creneau": "après-midi",
-      "creneauReseau": "12 h – 13 h 30"
+      "creneau": "soir",
+      "creneauReseau": "20 h – 21 h 30"
     },
     "mentions": {
       "avec": {
@@ -837,8 +837,8 @@
         "moyenne": 7.3
       },
       "sans": {
-        "posts": 81,
-        "moyenne": 4
+        "posts": 82,
+        "moyenne": 3.9
       }
     },
     "publies": {

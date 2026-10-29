@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-29T12:00:38.483Z",
+  "genereLe": "2026-10-29T12:20:49.509Z",
   "jour": "2026-10-29",
   "reseaux": {
     "instagram": {
@@ -561,7 +561,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 420,
+    "releves": 422,
     "parReseau": {
       "instagram": {
         "posts": 52,
@@ -640,7 +640,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-29T11:20:39.414Z"
+    "derniere": "2026-10-29T12:20:49.509Z"
   },
   "abonnes": {
     "instagram": {
@@ -679,19 +679,19 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-29T12:00:43.148Z",
-    "posts": 135,
+    "genereLe": "2026-10-29T12:20:55.929Z",
+    "posts": 137,
     "parReseau": {
-      "instagram": {
-        "posts": 32,
-        "moyenne": 10.8
-      },
       "threads": {
         "posts": 35,
         "moyenne": 10.7
       },
+      "instagram": {
+        "posts": 33,
+        "moyenne": 10.5
+      },
       "bluesky": {
-        "posts": 34,
+        "posts": 35,
         "moyenne": 0.3
       },
       "facebook": {
@@ -713,7 +713,7 @@
         "moyenne": 0.2
       },
       "card": {
-        "posts": 7,
+        "posts": 8,
         "moyenne": 0.1
       },
       "lien": {
@@ -723,8 +723,8 @@
     },
     "parCreneau": {
       "après-midi": {
-        "posts": 31,
-        "moyenne": 16.9
+        "posts": 33,
+        "moyenne": 16
       },
       "soir": {
         "posts": 23,
@@ -770,14 +770,14 @@
           "moyenne": 0.3
         },
         "12 h – 13 h 30": {
-          "posts": 6,
+          "posts": 7,
           "moyenne": 0
         }
       },
       "instagram": {
         "12 h – 13 h 30": {
-          "posts": 21,
-          "moyenne": 13
+          "posts": 22,
+          "moyenne": 12.5
         },
         "hors créneau": {
           "posts": 2,
@@ -789,7 +789,7 @@
         }
       }
     },
-    "interactionsTotal": 732,
+    "interactionsTotal": 735,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35835",
       "channel": "threads",
@@ -811,32 +811,32 @@
       "creneauReseau": "13 h – 14 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35901",
-      "channel": "facebook",
-      "mediaId": "227437307428711_1767426175383263",
-      "publieLe": "2026-10-28T08:04:57.633Z",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35870",
+      "channel": "bluesky",
+      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mywpmibbza2c",
+      "publieLe": "2026-10-28T12:06:34.074Z",
       "jalon": 1,
-      "releveLe": "2026-10-29T08:20:37.972Z",
+      "releveLe": "2026-10-29T12:20:49.509Z",
       "likes": 0,
       "commentairesBruts": 0,
       "partages": 0,
       "vues": null,
       "commentaires": 0,
       "v": 2,
-      "titre": "Halloween à Agen : passez la nuit dans un asile hanté géant",
-      "lien": "https://www.facebook.com/1720946116697936/posts/1767426175383263",
-      "format": null,
+      "titre": "En Corrèze, on a détruit un étang vieux de 200 ans pour… restaurer la nature",
+      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mywpmibbza2c",
+      "format": "card",
       "mention": false,
-      "creneau": "matin",
-      "creneauReseau": "8 h – 9 h 30"
+      "creneau": "après-midi",
+      "creneauReseau": "12 h – 13 h 30"
     },
     "mentions": {
       "avec": {
-        "posts": 55,
-        "moyenne": 7.5
+        "posts": 56,
+        "moyenne": 7.4
       },
       "sans": {
-        "posts": 80,
+        "posts": 81,
         "moyenne": 4
       }
     },
@@ -883,13 +883,13 @@
       "x": null
     },
     "engagement": {
-      "instagram": 0.11,
       "threads": 0.93,
+      "instagram": 0.1,
       "facebook": 0
     },
     "conseils": [
       "Threads : le créneau 13 h – 14 h 30 fait 30,1 fois mieux que 10 h – 11 h 30 (63.3 contre 2.1 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
-      "Instagram : le créneau 12 h – 13 h 30 fait 2,3 fois mieux que 18 h – 19 h 30 (13 contre 5.7 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
+      "Instagram : le créneau 12 h – 13 h 30 fait 2,2 fois mieux que 18 h – 19 h 30 (12.5 contre 5.7 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Le format « reponse » fait 114 fois mieux que « lien » (11.4 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « lien » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+7, +0,6 %) ; Facebook recule (−37), à surveiller."
     ]

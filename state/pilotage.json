@@ -1,6 +1,6 @@
 {
-  "genereLe": "2026-10-29T22:20:35.783Z",
-  "jour": "2026-10-29",
+  "genereLe": "2026-10-29T23:00:34.226Z",
+  "jour": "2026-10-30",
   "reseaux": {
     "instagram": {
       "actif": true,
@@ -24,7 +24,7 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 2,
+      "aujourdhui": 0,
       "semaine": 10,
       "total": 62,
       "dernier": "2026-10-29T17:24:07.489Z",
@@ -60,7 +60,7 @@
         "image",
         "reply"
       ],
-      "aujourdhui": 3,
+      "aujourdhui": 0,
       "semaine": 11,
       "total": 61,
       "dernier": "2026-10-29T17:12:22.621Z",
@@ -88,7 +88,7 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 2,
+      "aujourdhui": 0,
       "semaine": 10,
       "total": 57,
       "dernier": "2026-10-29T20:05:10.654Z",
@@ -122,7 +122,7 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 2,
+      "aujourdhui": 0,
       "semaine": 10,
       "total": 57,
       "dernier": "2026-10-29T10:27:55.192Z",
@@ -156,7 +156,7 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 3,
+      "aujourdhui": 0,
       "semaine": 11,
       "total": 61,
       "dernier": "2026-10-29T15:20:48.550Z",
@@ -586,7 +586,7 @@
     "2026-09"
   ],
   "jetons": {
-    "verifieLe": "2026-10-28T23:00:31.900Z",
+    "verifieLe": "2026-10-29T23:00:34.226Z",
     "meta": {
       "expireLe": "2026-12-16T20:08:59.000Z",
       "restant": 86,
@@ -594,7 +594,7 @@
     },
     "threads": {
       "expireLe": "2026-11-16T21:12:39.531Z",
-      "restant": 19,
+      "restant": 18,
       "renouvellement": "commande npm run threads:refresh"
     },
     "alertes": {}
@@ -646,11 +646,11 @@
   "abonnes": {
     "instagram": {
       "debut": 10136,
-      "fin": 10129,
-      "gain": -7,
-      "pct": -0.1,
+      "fin": 10132,
+      "gain": -4,
+      "pct": 0,
       "depuis": "2026-10-23",
-      "au": "2026-10-29"
+      "au": "2026-10-30"
     },
     "facebook": {
       "debut": 42580,
@@ -658,15 +658,15 @@
       "gain": -10,
       "pct": 0,
       "depuis": "2026-10-23",
-      "au": "2026-10-29"
+      "au": "2026-10-30"
     },
     "bluesky": {
       "debut": 9,
-      "fin": 9,
-      "gain": 0,
-      "pct": 0,
+      "fin": 10,
+      "gain": 1,
+      "pct": 11.1,
       "depuis": "2026-10-23",
-      "au": "2026-10-29"
+      "au": "2026-10-30"
     },
     "threads": {
       "debut": 1155,
@@ -674,13 +674,13 @@
       "gain": 1,
       "pct": 0.1,
       "depuis": "2026-10-23",
-      "au": "2026-10-29"
+      "au": "2026-10-30"
     },
     "x": null
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-29T22:20:39.105Z",
+    "genereLe": "2026-10-29T23:00:39.995Z",
     "posts": 139,
     "parReseau": {
       "threads": {
@@ -851,11 +851,11 @@
     "abonnes": {
       "instagram": {
         "debut": 10136,
-        "fin": 10129,
-        "gain": -7,
-        "pct": -0.1,
+        "fin": 10132,
+        "gain": -4,
+        "pct": 0,
         "depuis": "2026-10-01",
-        "au": "2026-10-29"
+        "au": "2026-10-30"
       },
       "facebook": {
         "debut": 42607,
@@ -863,15 +863,15 @@
         "gain": -37,
         "pct": -0.1,
         "depuis": "2026-10-01",
-        "au": "2026-10-29"
+        "au": "2026-10-30"
       },
       "bluesky": {
         "debut": 4,
-        "fin": 9,
-        "gain": 5,
-        "pct": 125,
+        "fin": 10,
+        "gain": 6,
+        "pct": 150,
         "depuis": "2026-10-01",
-        "au": "2026-10-29"
+        "au": "2026-10-30"
       },
       "threads": {
         "debut": 1149,
@@ -879,7 +879,7 @@
         "gain": 7,
         "pct": 0.6,
         "depuis": "2026-10-01",
-        "au": "2026-10-29"
+        "au": "2026-10-30"
       },
       "x": null
     },
@@ -897,17 +897,17 @@
   },
   "couts": {
     "jour": {
-      "appels": 4,
-      "entree": 32062,
-      "sortie": 3703,
-      "cout": 0.202308,
-      "cle": "2026-10-29"
+      "appels": 0,
+      "entree": 0,
+      "sortie": 0,
+      "cout": 0,
+      "cle": "2026-10-30"
     },
     "semaine": {
-      "appels": 20,
-      "entree": 159986,
-      "sortie": 17590,
-      "cout": 0.9917440000000001
+      "appels": 18,
+      "entree": 144070,
+      "sortie": 15976,
+      "cout": 0.8958
     },
     "mois": {
       "appels": 67,
@@ -916,16 +916,12 @@
       "cout": 3.389331999999999,
       "cle": "2026-10"
     },
-    "projection": 3.62,
+    "projection": 3.5,
     "moyenneAppel": 0.0506,
     "parModele": {
       "claude-opus-5-5": 67
     },
     "serie": [
-      [
-        "2026-10-16",
-        0.0489
-      ],
       [
         "2026-10-17",
         0.0485
@@ -977,6 +973,10 @@
       [
         "2026-10-29",
         0.2023
+      ],
+      [
+        "2026-10-30",
+        0
       ]
     ],
     "depuis": "2026-09-23"

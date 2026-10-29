@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-29T07:00:34.821Z",
+  "genereLe": "2026-10-29T07:20:36.513Z",
   "jour": "2026-10-29",
   "reseaux": {
     "instagram": {
@@ -122,11 +122,11 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 8,
-      "total": 55,
-      "dernier": "2026-10-28T10:32:20.317Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DfCOCkTG8zH"
+      "aujourdhui": 1,
+      "semaine": 9,
+      "total": 56,
+      "dernier": "2026-10-29T07:33:03.879Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DfEeN2iHCr0"
     },
     "x": {
       "actif": true,
@@ -164,6 +164,22 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35937",
+      "titre": "Le bassin d’Arcachon abrite plus de 60 000 tonnes d’huîtres que personne n’élève",
+      "lien": "https://passion-aquitaine.ouest-france.fr/huitres-sauvages-bassin-arcachon/",
+      "at": "2026-10-29T07:33:03.879Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Une huître, c’est forcément l’œuvre d’un ostréiculteur ? Pas sur le Bassin d’Arcachon. Des huîtres sauvages s’y installent sans que personne ne les élève, et elles finissent par nuire au plan d’eau 🧹 La préfète de la Gironde a donc autorisé un vaste nettoyage pour les faire reculer. Vous imaginiez que ces coquillages pouvaient devenir un problème ?",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261029-e2f7730f-th.jpg",
+          "mode": "reponse",
+          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/huitres-sauvages-bassin-arcachon/",
+          "sujet": "Bassin d’Arcachon",
+          "publieLe": "2026-10-29T07:33:03.879Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35870",
       "titre": "En Corrèze, on a détruit un étang vieux de 200 ans pour… restaurer la nature",
@@ -403,57 +419,19 @@
           "publieLe": "2026-10-25T11:26:57.917Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35863",
-      "titre": "Puy du Fou : le parc rêvé des familles de Nouvelle-Aquitaine",
-      "lien": "https://passion-aquitaine.ouest-france.fr/puy-du-fou-meilleur-parc-famille-nouvelle-aquitaine/",
-      "at": "2026-10-24T18:26:07.756Z",
-      "reseaux": {
-        "threads": {
-          "texte": "Des souvenirs d’enfance, des week-ends en famille, des étoiles plein les yeux… Pour beaucoup de familles de Nouvelle-Aquitaine, le @puydufou reste le parc rêvé. Élu deux fois meilleur parc du monde, il n’a rien perdu de son pouvoir de séduction 🎠",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261024-2d5724e5-th.jpg",
-          "mode": "reponse",
-          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/puy-du-fou-meilleur-parc-famille-nouvelle-aquitaine/",
-          "sujet": "Puy du Fou",
-          "publieLe": "2026-10-24T06:30:47.639Z"
-        },
-        "bluesky": {
-          "texte": "Les familles de #NouvelleAquitaine ont leur #parc de prédilection, et il a déjà reçu à deux reprises le titre de 🏆 meilleur parc du monde : le Puy du Fou continue de les séduire.\n➡️ Lire l’article",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261024-2d5724e5-bsky.jpg",
-          "mode": "image",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-24T07:04:44.658Z"
-        },
-        "x": {
-          "texte": "🎟️ Quel parc fait rêver les familles de Nouvelle-Aquitaine ? Le Puy du Fou, élu deux fois meilleur parc du monde, continue de les séduire.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261024-2d5724e5-x.jpg",
-          "mode": "reponse",
-          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/puy-du-fou-meilleur-parc-famille-nouvelle-aquitaine/",
-          "sujet": null,
-          "publieLe": "2026-10-24T08:20:47.915Z"
-        },
-        "instagram": {
-          "texte": "🏰 Deux fois sacré meilleur parc du monde, et toujours le rêve des familles de Nouvelle-Aquitaine\n⠀\nLe Puy du Fou garde une place à part dans le cœur des familles de la région. Retour sur un parc de loisirs qui ne lasse pas.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#PuyDuFou #NouvelleAquitaine #SortieEnFamille",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261024-2d5724e5-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-24T16:29:52.894Z"
-        },
-        "facebook": {
-          "texte": "Une sortie qui met d’accord petits et grands : le parc élu deux fois meilleur du monde plaît toujours autant aux familles d’ici 🎢",
-          "image": null,
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-24T18:26:07.756Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "threads",
+      "at": "2026-10-29T07:33:03.879Z",
+      "titre": "Le bassin d’Arcachon abrite plus de 60 000 tonnes d’huîtres que personne n’élève",
+      "lien": "https://passion-aquitaine.ouest-france.fr/huitres-sauvages-bassin-arcachon/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/DfEeN2iHCr0",
+      "format": "reponse",
+      "texte": "Une huître, c’est forcément l’œuvre d’un ostréiculteur ? Pas sur le Bassin d’Arcachon. Des huîtres sauvages s’y installent sans que personne ne les élève, et elles finissent par nuire au plan d’eau 🧹 La préfète de la Gironde a donc autorisé un vaste nettoyage pour les faire reculer. Vous imaginiez que ces coquillages pouvaient devenir un problème ?",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261029-e2f7730f-th.jpg"
+    },
     {
       "channel": "facebook",
       "at": "2026-10-28T20:08:26.707Z",
@@ -543,28 +521,9 @@
       "format": null,
       "texte": "Des acteurs grimés vous attendent dans un asile hanté, et la hard techno ne s’arrête qu’à 6 h du matin 👻",
       "image": null
-    },
-    {
-      "channel": "threads",
-      "at": "2026-10-28T07:26:59.549Z",
-      "titre": "Halloween à Agen : passez la nuit dans un asile hanté géant",
-      "lien": "https://passion-aquitaine.ouest-france.fr/halloween-agen-asile-agora-techno-win/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/DfB45w3lebJ",
-      "format": "reponse",
-      "texte": "Acteurs grimés, lasers et hard techno jusqu’à 6 h : le 31 octobre, le Parc des expositions d’Agen devient un asile hanté géant 🖼️",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261028-eea988b8-th.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "threads",
-      "dueAt": "2026-10-29T07:28:48.165Z",
-      "prochainPassage": "2026-10-29T08:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Le bassin d’Arcachon abrite plus de 60 000 tonnes d’huîtres que personne n’élève"
-    },
     {
       "channel": "x",
       "dueAt": "2026-10-29T08:20:00.000Z",
@@ -767,7 +726,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-29T07:01:28.406Z",
+    "genereLe": "2026-10-29T07:33:06.739Z",
     "posts": 131,
     "parReseau": {
       "threads": {
@@ -929,7 +888,7 @@
       }
     },
     "publies": {
-      "threads": 35,
+      "threads": 36,
       "facebook": 35,
       "bluesky": 35,
       "x": 35,

@@ -5011,5 +5011,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35937",
+    "channel": "threads",
+    "at": "2026-10-29T07:33:03.879Z",
+    "mediaId": "18501496474097664",
+    "titre": "Le bassin d’Arcachon abrite plus de 60 000 tonnes d’huîtres que personne n’élève",
+    "lien": "https://passion-aquitaine.ouest-france.fr/huitres-sauvages-bassin-arcachon/",
+    "lienPost": "https://www.threads.com/@lovaquitaine/post/DfEeN2iHCr0",
+    "format": "reponse",
+    "mention": false,
+    "apercu": {
+      "texte": "Une huître, c’est forcément l’œuvre d’un ostréiculteur ? Pas sur le Bassin d’Arcachon. Des huîtres sauvages s’y installent sans que personne ne les élève, et elles finissent par nuire au plan d’eau 🧹 La préfète de la Gironde a donc autorisé un vaste nettoyage pour les faire reculer. Vous imaginiez que ces coquillages pouvaient devenir un problème ?",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261029-e2f7730f-th.jpg",
+      "mode": "reponse",
+      "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/huitres-sauvages-bassin-arcachon/",
+      "sujet": "Bassin d’Arcachon"
+    }
   }
 ]

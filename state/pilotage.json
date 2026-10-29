@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-29T19:55:18.270Z",
+  "genereLe": "2026-10-29T20:00:40.051Z",
   "jour": "2026-10-29",
   "reseaux": {
     "instagram": {
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 1,
-      "semaine": 9,
-      "total": 56,
-      "dernier": "2026-10-29T08:25:15.362Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1768730571919490"
+      "aujourdhui": 2,
+      "semaine": 10,
+      "total": 57,
+      "dernier": "2026-10-29T20:05:10.654Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1769399611852586"
     },
     "threads": {
       "actif": true,
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35919",
       "titre": "Bayonne obtient trois étoiles au Guide Michelin, la note maximale",
       "lien": "https://passion-aquitaine.ouest-france.fr/bayonne-trois-etoiles-guide-michelin-voyage/",
-      "at": "2026-10-29T17:24:07.489Z",
+      "at": "2026-10-29T20:05:10.654Z",
       "reseaux": {
         "threads": {
           "texte": "Trois étoiles, la note maximale du Guide Michelin 🏙️ Et cette fois, ce ne sont pas les chefs qui sont à l’honneur : c’est @bayonnemaville, la ville elle-même, que le Guide Michelin Voyage 2026 classe « vaut le voyage ». Vous auriez mis quelle ville du Pays basque sur le podium ?",
@@ -201,6 +201,14 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-10-29T17:24:07.489Z"
+        },
+        "facebook": {
+          "texte": "Ses ruelles, ses quais, son ambiance : c’est la ville entière que le Michelin juge digne d’un voyage, pas seulement ses assiettes 🗺️",
+          "image": null,
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-29T20:05:10.654Z"
         }
       }
     },
@@ -423,6 +431,16 @@
   ],
   "publications": [
     {
+      "channel": "facebook",
+      "at": "2026-10-29T20:05:10.654Z",
+      "titre": "Bayonne obtient trois étoiles au Guide Michelin, la note maximale",
+      "lien": "https://passion-aquitaine.ouest-france.fr/bayonne-trois-etoiles-guide-michelin-voyage/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1769399611852586",
+      "format": null,
+      "texte": "Ses ruelles, ses quais, son ambiance : c’est la ville entière que le Michelin juge digne d’un voyage, pas seulement ses assiettes 🗺️",
+      "image": null
+    },
+    {
       "channel": "instagram",
       "at": "2026-10-29T17:24:07.489Z",
       "titre": "Bayonne obtient trois étoiles au Guide Michelin, la note maximale",
@@ -511,28 +529,9 @@
       "format": null,
       "texte": "Personne ne les cultive, pourtant ces huîtres sauvages du Bassin pèsent plus lourd qu’on ne l’imagine 🦪",
       "image": null
-    },
-    {
-      "channel": "x",
-      "at": "2026-10-29T08:20:49.213Z",
-      "titre": "Le bassin d’Arcachon abrite plus de 60 000 tonnes d’huîtres que personne n’élève",
-      "lien": "https://passion-aquitaine.ouest-france.fr/huitres-sauvages-bassin-arcachon/",
-      "lienPost": null,
-      "format": "reponse",
-      "texte": "Plus de 60 000 tonnes : c’est le poids des huîtres sauvages qui encombrent le Bassin d’#Arcachon. La préfète de la Gironde autorise un grand nettoyage pour les faire reculer ⚖️",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261029-e2f7730f-x.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "facebook",
-      "dueAt": "2026-10-29T20:05:06.916Z",
-      "prochainPassage": "2026-10-29T20:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Bayonne obtient trois étoiles au Guide Michelin, la note maximale"
-    },
     {
       "channel": "threads",
       "dueAt": "2026-10-30T06:12:23.892Z",
@@ -681,7 +680,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-29T19:55:23.028Z",
+    "genereLe": "2026-10-29T20:05:13.409Z",
     "posts": 138,
     "parReseau": {
       "threads": {
@@ -844,7 +843,7 @@
     },
     "publies": {
       "threads": 37,
-      "facebook": 36,
+      "facebook": 37,
       "bluesky": 38,
       "x": 38,
       "instagram": 37

@@ -5212,5 +5212,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35919",
+    "channel": "facebook",
+    "at": "2026-10-29T20:05:10.654Z",
+    "mediaId": "227437307428711_1769399611852586",
+    "titre": "Bayonne obtient trois étoiles au Guide Michelin, la note maximale",
+    "lien": "https://passion-aquitaine.ouest-france.fr/bayonne-trois-etoiles-guide-michelin-voyage/",
+    "lienPost": "https://www.facebook.com/1720946116697936/posts/1769399611852586",
+    "format": null,
+    "mention": false,
+    "apercu": {
+      "texte": "Ses ruelles, ses quais, son ambiance : c’est la ville entière que le Michelin juge digne d’un voyage, pas seulement ses assiettes 🗺️",
+      "image": null,
+      "mode": null,
+      "reponse": null,
+      "sujet": null
+    }
   }
 ]

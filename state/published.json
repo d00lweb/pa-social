@@ -5029,5 +5029,59 @@
       "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/huitres-sauvages-bassin-arcachon/",
       "sujet": "Bassin d’Arcachon"
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35937",
+    "channel": "x",
+    "at": "2026-10-29T08:20:49.213Z",
+    "mediaId": "kit-telegram",
+    "titre": "Le bassin d’Arcachon abrite plus de 60 000 tonnes d’huîtres que personne n’élève",
+    "lien": "https://passion-aquitaine.ouest-france.fr/huitres-sauvages-bassin-arcachon/",
+    "lienPost": null,
+    "format": "reponse",
+    "mention": true,
+    "apercu": {
+      "texte": "Plus de 60 000 tonnes : c’est le poids des huîtres sauvages qui encombrent le Bassin d’#Arcachon. La préfète de la Gironde autorise un grand nettoyage pour les faire reculer ⚖️",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261029-e2f7730f-x.jpg",
+      "mode": "reponse",
+      "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/huitres-sauvages-bassin-arcachon/",
+      "sujet": null
+    }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35937",
+    "channel": "facebook",
+    "at": "2026-10-29T08:25:15.362Z",
+    "mediaId": "227437307428711_1768730571919490",
+    "titre": "Le bassin d’Arcachon abrite plus de 60 000 tonnes d’huîtres que personne n’élève",
+    "lien": "https://passion-aquitaine.ouest-france.fr/huitres-sauvages-bassin-arcachon/",
+    "lienPost": "https://www.facebook.com/1720946116697936/posts/1768730571919490",
+    "format": null,
+    "mention": false,
+    "apercu": {
+      "texte": "Personne ne les cultive, pourtant ces huîtres sauvages du Bassin pèsent plus lourd qu’on ne l’imagine 🦪",
+      "image": null,
+      "mode": null,
+      "reponse": null,
+      "sujet": null
+    }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35937",
+    "channel": "bluesky",
+    "at": "2026-10-29T08:29:24.998Z",
+    "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3myytx47xin24",
+    "titre": "Le bassin d’Arcachon abrite plus de 60 000 tonnes d’huîtres que personne n’élève",
+    "lien": "https://passion-aquitaine.ouest-france.fr/huitres-sauvages-bassin-arcachon/",
+    "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3myytx47xin24",
+    "format": "card",
+    "mention": false,
+    "apercu": {
+      "texte": "Des bancs d’huîtres que nul ne plante ni ne récolte tapissent le Bassin d’Arcachon 🐚 Ces coquillages sauvages lui nuisent, et la préfète de la #Gironde vient d’autoriser un vaste nettoyage pour les faire reculer.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261029-e2f7730f-bsky.jpg",
+      "mode": "card",
+      "reponse": null,
+      "sujet": null
+    }
   }
 ]

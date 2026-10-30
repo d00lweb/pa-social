@@ -1,6 +1,6 @@
 {
-  "genereLe": "2026-10-30T22:20:33.931Z",
-  "jour": "2026-10-30",
+  "genereLe": "2026-10-30T23:00:34.993Z",
+  "jour": "2026-10-31",
   "reseaux": {
     "instagram": {
       "actif": true,
@@ -24,7 +24,7 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 2,
+      "aujourdhui": 0,
       "semaine": 11,
       "total": 64,
       "dernier": "2026-10-30T17:26:54.007Z",
@@ -60,7 +60,7 @@
         "image",
         "reply"
       ],
-      "aujourdhui": 1,
+      "aujourdhui": 0,
       "semaine": 10,
       "total": 62,
       "dernier": "2026-10-30T08:07:18.902Z",
@@ -88,7 +88,7 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 2,
+      "aujourdhui": 0,
       "semaine": 11,
       "total": 59,
       "dernier": "2026-10-30T19:06:14.284Z",
@@ -122,7 +122,7 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 2,
+      "aujourdhui": 0,
       "semaine": 10,
       "total": 59,
       "dernier": "2026-10-30T09:07:08.335Z",
@@ -156,7 +156,7 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 1,
+      "aujourdhui": 0,
       "semaine": 10,
       "total": 62,
       "dernier": "2026-10-30T08:00:52.514Z",
@@ -582,7 +582,7 @@
     "2026-09"
   ],
   "jetons": {
-    "verifieLe": "2026-10-29T23:00:34.226Z",
+    "verifieLe": "2026-10-30T23:00:34.993Z",
     "meta": {
       "expireLe": "2026-12-16T20:08:59.000Z",
       "restant": 86,
@@ -590,7 +590,7 @@
     },
     "threads": {
       "expireLe": "2026-11-16T21:12:39.531Z",
-      "restant": 18,
+      "restant": 17,
       "renouvellement": "commande npm run threads:refresh"
     },
     "alertes": {}
@@ -642,19 +642,19 @@
   "abonnes": {
     "instagram": {
       "debut": 10133,
-      "fin": 10132,
-      "gain": -1,
+      "fin": 10134,
+      "gain": 1,
       "pct": 0,
       "depuis": "2026-10-24",
-      "au": "2026-10-30"
+      "au": "2026-10-31"
     },
     "facebook": {
       "debut": 42579,
-      "fin": 42570,
-      "gain": -9,
+      "fin": 42568,
+      "gain": -11,
       "pct": 0,
       "depuis": "2026-10-24",
-      "au": "2026-10-30"
+      "au": "2026-10-31"
     },
     "bluesky": {
       "debut": 9,
@@ -662,7 +662,7 @@
       "gain": 1,
       "pct": 11.1,
       "depuis": "2026-10-24",
-      "au": "2026-10-30"
+      "au": "2026-10-31"
     },
     "threads": {
       "debut": 1154,
@@ -670,13 +670,13 @@
       "gain": 2,
       "pct": 0.2,
       "depuis": "2026-10-24",
-      "au": "2026-10-30"
+      "au": "2026-10-31"
     },
     "x": null
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-30T22:20:38.144Z",
+    "genereLe": "2026-10-30T23:00:42.637Z",
     "posts": 148,
     "parReseau": {
       "instagram": {
@@ -847,19 +847,19 @@
     "abonnes": {
       "instagram": {
         "debut": 10136,
-        "fin": 10132,
-        "gain": -4,
+        "fin": 10134,
+        "gain": -2,
         "pct": 0,
         "depuis": "2026-10-01",
-        "au": "2026-10-30"
+        "au": "2026-10-31"
       },
       "facebook": {
         "debut": 42607,
-        "fin": 42570,
-        "gain": -37,
+        "fin": 42568,
+        "gain": -39,
         "pct": -0.1,
         "depuis": "2026-10-01",
-        "au": "2026-10-30"
+        "au": "2026-10-31"
       },
       "bluesky": {
         "debut": 4,
@@ -867,7 +867,7 @@
         "gain": 6,
         "pct": 150,
         "depuis": "2026-10-01",
-        "au": "2026-10-30"
+        "au": "2026-10-31"
       },
       "threads": {
         "debut": 1149,
@@ -875,7 +875,7 @@
         "gain": 7,
         "pct": 0.6,
         "depuis": "2026-10-01",
-        "au": "2026-10-30"
+        "au": "2026-10-31"
       },
       "x": null
     },
@@ -887,23 +887,23 @@
     "conseils": [
       "Threads : le créneau 13 h – 14 h 30 fait 24,3 fois mieux que 10 h – 11 h 30 (63.3 contre 2.6 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Le format « reponse » fait 110 fois mieux que « lien » (11 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « lien » de la rotation dans config/channels.json.",
-      "Abonnés : Threads progresse le plus (+7, +0,6 %) ; Facebook recule (−37), à surveiller.",
+      "Abonnés : Threads progresse le plus (+7, +0,6 %) ; Facebook recule (−39), à surveiller.",
       "Les posts avec mention font 4.9 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
     ]
   },
   "couts": {
     "jour": {
-      "appels": 2,
-      "entree": 16067,
-      "sortie": 1777,
-      "cout": 0.099808,
-      "cle": "2026-10-30"
+      "appels": 0,
+      "entree": 0,
+      "sortie": 0,
+      "cout": 0,
+      "cle": "2026-10-31"
     },
     "semaine": {
-      "appels": 20,
-      "entree": 160137,
-      "sortie": 17753,
-      "cout": 0.9956080000000002
+      "appels": 19,
+      "entree": 152235,
+      "sortie": 16901,
+      "cout": 0.9469600000000001
     },
     "mois": {
       "appels": 69,
@@ -912,16 +912,12 @@
       "cout": 3.489139999999999,
       "cle": "2026-10"
     },
-    "projection": 3.61,
+    "projection": 3.49,
     "moyenneAppel": 0.0506,
     "parModele": {
       "claude-opus-5-5": 69
     },
     "serie": [
-      [
-        "2026-10-17",
-        0.0485
-      ],
       [
         "2026-10-18",
         0.0503
@@ -973,6 +969,10 @@
       [
         "2026-10-30",
         0.0998
+      ],
+      [
+        "2026-10-31",
+        0
       ]
     ],
     "depuis": "2026-09-23"

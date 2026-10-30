@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-30T09:20:34.952Z",
+  "genereLe": "2026-10-30T10:00:34.208Z",
   "jour": "2026-10-30",
   "reseaux": {
     "instagram": {
@@ -123,7 +123,7 @@
         "reponse"
       ],
       "aujourdhui": 2,
-      "semaine": 12,
+      "semaine": 11,
       "total": 59,
       "dernier": "2026-10-30T09:07:08.335Z",
       "lienDernier": "https://www.threads.com/@lovaquitaine/post/DfHN-EnFvSA"
@@ -562,7 +562,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 427,
+    "releves": 428,
     "parReseau": {
       "instagram": {
         "posts": 52,
@@ -577,8 +577,8 @@
         "interactionsMoyennes": 0
       },
       "threads": {
-        "posts": 47,
-        "interactionsMoyennes": 11
+        "posts": 48,
+        "interactionsMoyennes": 10.9
       }
     }
   },
@@ -641,7 +641,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-30T09:00:33.081Z"
+    "derniere": "2026-10-30T10:00:34.208Z"
   },
   "abonnes": {
     "instagram": {
@@ -680,7 +680,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-30T09:20:39.708Z",
+    "genereLe": "2026-10-30T10:00:38.964Z",
     "posts": 142,
     "parReseau": {
       "threads": {

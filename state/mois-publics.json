@@ -3,7 +3,7 @@
     "cle": "2026-10",
     "publications": 194,
     "articles": 39,
-    "interactions": 760,
+    "interactions": 843,
     "parReseau": {
       "facebook": 38,
       "instagram": 39,
@@ -35,6 +35,13 @@
       },
       {
         "reseau": "instagram",
+        "titre": "Bayonne obtient trois étoiles au Guide Michelin, la note maximale",
+        "lien": "https://www.instagram.com/p/DfFiTUrlF_7/",
+        "image": "https://passion-aquitaine.ouest-france.fr/social/20261029-2dbec919-1-vignette.jpg",
+        "interactions": 83
+      },
+      {
+        "reseau": "instagram",
         "titre": "Près de Bordeaux, on dort face à des tigres et des jaguars",
         "lien": "https://www.instagram.com/p/Debmw2lDpP4/",
         "image": "https://passion-aquitaine.ouest-france.fr/social/20261012-e0fae2d6-1-vignette.jpg",
@@ -46,13 +53,6 @@
         "lien": "https://www.threads.com/@lovaquitaine/post/DeYjBNRGyQ7",
         "image": "https://passion-aquitaine.ouest-france.fr/social/20261011-6a2c2b25-1-vignette.jpg",
         "interactions": 58
-      },
-      {
-        "reseau": "instagram",
-        "titre": "Ce miel des Landes a mis 20 ans à être reconnu : il cache en réalité 7 miels différents",
-        "lien": "https://www.instagram.com/p/De3_juiDw32/",
-        "image": "https://passion-aquitaine.ouest-france.fr/social/20261023-c30322fc-1-vignette.jpg",
-        "interactions": 24
       }
     ]
   },

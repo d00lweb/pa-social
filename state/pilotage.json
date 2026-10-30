@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-30T12:20:38.508Z",
+  "genereLe": "2026-10-30T13:00:39.916Z",
   "jour": "2026-10-30",
   "reseaux": {
     "instagram": {
@@ -123,7 +123,7 @@
         "reponse"
       ],
       "aujourdhui": 2,
-      "semaine": 11,
+      "semaine": 10,
       "total": 59,
       "dernier": "2026-10-30T09:07:08.335Z",
       "lienDernier": "https://www.threads.com/@lovaquitaine/post/DfHN-EnFvSA"
@@ -561,7 +561,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 432,
+    "releves": 433,
     "parReseau": {
       "instagram": {
         "posts": 52,
@@ -576,8 +576,8 @@
         "interactionsMoyennes": 0
       },
       "threads": {
-        "posts": 48,
-        "interactionsMoyennes": 10.9
+        "posts": 49,
+        "interactionsMoyennes": 10.7
       }
     }
   },
@@ -679,7 +679,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-30T12:20:44.706Z",
+    "genereLe": "2026-10-30T13:00:45.935Z",
     "posts": 145,
     "parReseau": {
       "threads": {

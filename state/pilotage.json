@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-30T05:25:20.403Z",
+  "genereLe": "2026-10-30T06:00:37.710Z",
   "jour": "2026-10-30",
   "reseaux": {
     "instagram": {
@@ -122,11 +122,11 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 10,
-      "total": 57,
-      "dernier": "2026-10-29T10:27:55.192Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DfEyY2HFUsc"
+      "aujourdhui": 1,
+      "semaine": 11,
+      "total": 58,
+      "dernier": "2026-10-30T06:15:42.539Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DfG6RPzEU2d"
     },
     "x": {
       "actif": true,
@@ -164,6 +164,38 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35929",
+      "titre": "Ces deux bébés raies arrivent à Biarritz : pourquoi elles ont passé 3 mois cachées",
+      "lien": "https://passion-aquitaine.ouest-france.fr/bebes-raies-biarritz-quarantaine/",
+      "at": "2026-10-30T06:15:42.539Z",
+      "reseaux": {
+        "x": {
+          "texte": "Elles ont suivi un entraînement avant de faire leurs débuts 🎓 À #Biarritz, deux bébés raies sortent de trois mois de quarantaine et rejoignent le bassin tropical.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261029-cf1b1551-x.jpg",
+          "mode": "reponse",
+          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/bebes-raies-biarritz-quarantaine/",
+          "sujet": null,
+          "publieLe": "2026-10-29T15:20:48.550Z"
+        },
+        "bluesky": {
+          "texte": "Trois mois de quarantaine, puis un entraînement : à #Biarritz, deux bébés raies ont enfin rejoint le bassin tropical. Retour sur les coulisses d’une arrivée très préparée 🌊",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261029-cf1b1551-bsky.jpg",
+          "mode": "card",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-29T17:12:22.621Z"
+        },
+        "threads": {
+          "texte": "🐟 Biarritz accueille deux nouvelles pensionnaires dans son bassin tropical : deux bébés raies. Mais avant de les voir nager devant le public, il a fallu patienter. Trois mois de quarantaine, cachées, puis un entraînement pour être prêtes. Une arrivée qui se prépare longtemps en coulisses, bien avant la première apparition.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261029-cf1b1551-th.jpg",
+          "mode": "reponse",
+          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/bebes-raies-biarritz-quarantaine/",
+          "sujet": "Biarritz",
+          "publieLe": "2026-10-30T06:15:42.539Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35919",
       "titre": "Bayonne obtient trois étoiles au Guide Michelin, la note maximale",
@@ -209,30 +241,6 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-10-29T20:05:10.654Z"
-        }
-      }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35929",
-      "titre": "Ces deux bébés raies arrivent à Biarritz : pourquoi elles ont passé 3 mois cachées",
-      "lien": "https://passion-aquitaine.ouest-france.fr/bebes-raies-biarritz-quarantaine/",
-      "at": "2026-10-29T17:12:22.621Z",
-      "reseaux": {
-        "x": {
-          "texte": "Elles ont suivi un entraînement avant de faire leurs débuts 🎓 À #Biarritz, deux bébés raies sortent de trois mois de quarantaine et rejoignent le bassin tropical.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261029-cf1b1551-x.jpg",
-          "mode": "reponse",
-          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/bebes-raies-biarritz-quarantaine/",
-          "sujet": null,
-          "publieLe": "2026-10-29T15:20:48.550Z"
-        },
-        "bluesky": {
-          "texte": "Trois mois de quarantaine, puis un entraînement : à #Biarritz, deux bébés raies ont enfin rejoint le bassin tropical. Retour sur les coulisses d’une arrivée très préparée 🌊",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261029-cf1b1551-bsky.jpg",
-          "mode": "card",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-29T17:12:22.621Z"
         }
       }
     },
@@ -431,6 +439,16 @@
   ],
   "publications": [
     {
+      "channel": "threads",
+      "at": "2026-10-30T06:15:42.539Z",
+      "titre": "Ces deux bébés raies arrivent à Biarritz : pourquoi elles ont passé 3 mois cachées",
+      "lien": "https://passion-aquitaine.ouest-france.fr/bebes-raies-biarritz-quarantaine/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/DfG6RPzEU2d",
+      "format": "reponse",
+      "texte": "🐟 Biarritz accueille deux nouvelles pensionnaires dans son bassin tropical : deux bébés raies. Mais avant de les voir nager devant le public, il a fallu patienter. Trois mois de quarantaine, cachées, puis un entraînement pour être prêtes. Une arrivée qui se prépare longtemps en coulisses, bien avant la première apparition.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261029-cf1b1551-th.jpg"
+    },
+    {
       "channel": "facebook",
       "at": "2026-10-29T20:05:10.654Z",
       "titre": "Bayonne obtient trois étoiles au Guide Michelin, la note maximale",
@@ -519,28 +537,9 @@
       "format": "card",
       "texte": "Des bancs d’huîtres que nul ne plante ni ne récolte tapissent le Bassin d’Arcachon 🐚 Ces coquillages sauvages lui nuisent, et la préfète de la #Gironde vient d’autoriser un vaste nettoyage pour les faire reculer.",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261029-e2f7730f-bsky.jpg"
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-10-29T08:25:15.362Z",
-      "titre": "Le bassin d’Arcachon abrite plus de 60 000 tonnes d’huîtres que personne n’élève",
-      "lien": "https://passion-aquitaine.ouest-france.fr/huitres-sauvages-bassin-arcachon/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1768730571919490",
-      "format": null,
-      "texte": "Personne ne les cultive, pourtant ces huîtres sauvages du Bassin pèsent plus lourd qu’on ne l’imagine 🦪",
-      "image": null
     }
   ],
   "file": [
-    {
-      "channel": "threads",
-      "dueAt": "2026-10-30T06:12:23.892Z",
-      "prochainPassage": "2026-10-30T06:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Ces deux bébés raies arrivent à Biarritz : pourquoi elles ont passé 3 mois cachées"
-    },
     {
       "channel": "facebook",
       "dueAt": "2026-10-30T07:13:50.541Z",
@@ -680,7 +679,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-30T05:25:25.960Z",
+    "genereLe": "2026-10-30T06:15:46.028Z",
     "posts": 139,
     "parReseau": {
       "threads": {
@@ -842,7 +841,7 @@
       }
     },
     "publies": {
-      "threads": 37,
+      "threads": 38,
       "facebook": 37,
       "bluesky": 38,
       "x": 38,

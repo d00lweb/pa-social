@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-30T08:20:29.697Z",
+  "genereLe": "2026-10-30T09:00:33.081Z",
   "jour": "2026-10-30",
   "reseaux": {
     "instagram": {
@@ -122,11 +122,11 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 1,
-      "semaine": 11,
-      "total": 58,
-      "dernier": "2026-10-30T06:15:42.539Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DfG6RPzEU2d"
+      "aujourdhui": 2,
+      "semaine": 12,
+      "total": 59,
+      "dernier": "2026-10-30T09:07:08.335Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DfHN-EnFvSA"
     },
     "x": {
       "actif": true,
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35893",
       "titre": "Bordeaux : cette piscine de 1935 est un monument historique",
       "lien": "https://passion-aquitaine.ouest-france.fr/piscine-judaique-bordeaux-art-deco-monument-historique/",
-      "at": "2026-10-30T08:07:18.902Z",
+      "at": "2026-10-30T09:07:08.335Z",
       "reseaux": {
         "x": {
           "texte": "Nager sous un toit ouvrant, entre des mosaïques de 1935, avec un plongeoir de 5 m au-dessus de la tête : c’est possible à la piscine Judaïque de #Bordeaux, monument historique ouvert aux baigneurs 💦",
@@ -185,6 +185,14 @@
           "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/piscine-judaique-bordeaux-art-deco-monument-historique/",
           "sujet": null,
           "publieLe": "2026-10-30T08:07:18.902Z"
+        },
+        "threads": {
+          "texte": "Un monument historique, on le visite en général avec un audioguide. À Bordeaux, il faut plutôt prévoir un maillot de bain 🩱 La piscine Judaïque, construite en 1935, est classée et se découvre en nageant, entre mosaïques, toit ouvrant et plongeoir de 5 m.\n@villedebordeaux @visitbordeaux",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261030-69a609ca-th.jpg",
+          "mode": "reponse",
+          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/piscine-judaique-bordeaux-art-deco-monument-historique/",
+          "sujet": "Bordeaux",
+          "publieLe": "2026-10-30T09:07:08.335Z"
         }
       }
     },
@@ -423,6 +431,16 @@
   ],
   "publications": [
     {
+      "channel": "threads",
+      "at": "2026-10-30T09:07:08.335Z",
+      "titre": "Bordeaux : cette piscine de 1935 est un monument historique",
+      "lien": "https://passion-aquitaine.ouest-france.fr/piscine-judaique-bordeaux-art-deco-monument-historique/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/DfHN-EnFvSA",
+      "format": "reponse",
+      "texte": "Un monument historique, on le visite en général avec un audioguide. À Bordeaux, il faut plutôt prévoir un maillot de bain 🩱 La piscine Judaïque, construite en 1935, est classée et se découvre en nageant, entre mosaïques, toit ouvrant et plongeoir de 5 m.\n@villedebordeaux @visitbordeaux",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261030-69a609ca-th.jpg"
+    },
+    {
       "channel": "bluesky",
       "at": "2026-10-30T08:07:18.902Z",
       "titre": "Bordeaux : cette piscine de 1935 est un monument historique",
@@ -511,28 +529,9 @@
       "format": "reply",
       "texte": "⭐ Trois étoiles Michelin sans parler cuisine, c’est possible ? Le Guide Michelin Voyage 2026 décerne sa note maximale à #Bayonne elle-même, jugée « vaut le voyage ».",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261029-2dbec919-bsky.jpg"
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-10-29T11:03:53.306Z",
-      "titre": "Le bassin d’Arcachon abrite plus de 60 000 tonnes d’huîtres que personne n’élève",
-      "lien": "https://passion-aquitaine.ouest-france.fr/huitres-sauvages-bassin-arcachon/",
-      "lienPost": "https://www.instagram.com/p/DfE2zQelKJj/",
-      "format": null,
-      "texte": "Sur le Bassin d’Arcachon, des huîtres poussent toutes seules et finissent par gêner tout le monde\n⠀\nCes huîtres sauvages nuisent au Bassin. La préfète de la Gironde a autorisé un vaste nettoyage pour les faire reculer et préserver ce coin d’eau que l’on aime tant 🦪\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#BassinDArcachon #Huîtres #Gironde",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261029-e2f7730f-1.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "threads",
-      "dueAt": "2026-10-30T09:04:32.995Z",
-      "prochainPassage": "2026-10-30T09:20:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Bordeaux : cette piscine de 1935 est un monument historique"
-    },
     {
       "channel": "instagram",
       "dueAt": "2026-10-30T11:13:19.510Z",
@@ -563,7 +562,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 425,
+    "releves": 427,
     "parReseau": {
       "instagram": {
         "posts": 52,
@@ -642,7 +641,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-30T07:20:35.442Z"
+    "derniere": "2026-10-30T09:00:33.081Z"
   },
   "abonnes": {
     "instagram": {
@@ -681,8 +680,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-30T08:20:34.163Z",
-    "posts": 140,
+    "genereLe": "2026-10-30T09:07:12.933Z",
+    "posts": 142,
     "parReseau": {
       "threads": {
         "posts": 36,
@@ -693,11 +692,11 @@
         "moyenne": 10.3
       },
       "bluesky": {
-        "posts": 35,
+        "posts": 36,
         "moyenne": 0.3
       },
       "facebook": {
-        "posts": 35,
+        "posts": 36,
         "moyenne": 0
       }
     },
@@ -715,7 +714,7 @@
         "moyenne": 0.2
       },
       "card": {
-        "posts": 8,
+        "posts": 9,
         "moyenne": 0.1
       },
       "lien": {
@@ -733,8 +732,8 @@
         "moyenne": 2.3
       },
       "matin": {
-        "posts": 82,
-        "moyenne": 1.9
+        "posts": 84,
+        "moyenne": 1.8
       }
     },
     "parCreneauReseau": {
@@ -754,7 +753,7 @@
       },
       "facebook": {
         "8 h – 9 h 30": {
-          "posts": 24,
+          "posts": 25,
           "moyenne": 0
         },
         "20 h – 21 h 30": {
@@ -768,8 +767,8 @@
           "moyenne": 1.3
         },
         "8 h – 9 h 30": {
-          "posts": 24,
-          "moyenne": 0.3
+          "posts": 25,
+          "moyenne": 0.2
         },
         "12 h – 13 h 30": {
           "posts": 7,
@@ -813,24 +812,24 @@
       "creneauReseau": "13 h – 14 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35870",
-      "channel": "facebook",
-      "mediaId": "227437307428711_1768151735310707",
-      "publieLe": "2026-10-28T20:08:26.707Z",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35937",
+      "channel": "bluesky",
+      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3myytx47xin24",
+      "publieLe": "2026-10-29T08:29:24.998Z",
       "jalon": 1,
-      "releveLe": "2026-10-29T20:20:35.838Z",
+      "releveLe": "2026-10-30T09:00:33.081Z",
       "likes": 0,
       "commentairesBruts": 0,
       "partages": 0,
       "vues": null,
       "commentaires": 0,
       "v": 2,
-      "titre": "En Corrèze, on a détruit un étang vieux de 200 ans pour… restaurer la nature",
-      "lien": "https://www.facebook.com/1720946116697936/posts/1768151735310707",
-      "format": null,
+      "titre": "Le bassin d’Arcachon abrite plus de 60 000 tonnes d’huîtres que personne n’élève",
+      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3myytx47xin24",
+      "format": "card",
       "mention": false,
-      "creneau": "soir",
-      "creneauReseau": "20 h – 21 h 30"
+      "creneau": "matin",
+      "creneauReseau": "8 h – 9 h 30"
     },
     "mentions": {
       "avec": {
@@ -838,12 +837,12 @@
         "moyenne": 7.3
       },
       "sans": {
-        "posts": 83,
-        "moyenne": 3.9
+        "posts": 85,
+        "moyenne": 3.8
       }
     },
     "publies": {
-      "threads": 38,
+      "threads": 39,
       "facebook": 38,
       "bluesky": 39,
       "x": 39,

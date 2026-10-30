@@ -5266,5 +5266,41 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35893",
+    "channel": "x",
+    "at": "2026-10-30T08:00:52.514Z",
+    "mediaId": "kit-telegram",
+    "titre": "Bordeaux : cette piscine de 1935 est un monument historique",
+    "lien": "https://passion-aquitaine.ouest-france.fr/piscine-judaique-bordeaux-art-deco-monument-historique/",
+    "lienPost": null,
+    "format": "reponse",
+    "mention": true,
+    "apercu": {
+      "texte": "Nager sous un toit ouvrant, entre des mosaïques de 1935, avec un plongeoir de 5 m au-dessus de la tête : c’est possible à la piscine Judaïque de #Bordeaux, monument historique ouvert aux baigneurs 💦",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261030-69a609ca-x.jpg",
+      "mode": "reponse",
+      "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/piscine-judaique-bordeaux-art-deco-monument-historique/",
+      "sujet": null
+    }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35893",
+    "channel": "bluesky",
+    "at": "2026-10-30T08:07:18.902Z",
+    "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mz3d6il2ye2z",
+    "titre": "Bordeaux : cette piscine de 1935 est un monument historique",
+    "lien": "https://passion-aquitaine.ouest-france.fr/piscine-judaique-bordeaux-art-deco-monument-historique/",
+    "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mz3d6il2ye2z",
+    "format": "reply",
+    "mention": true,
+    "apercu": {
+      "texte": "#Bordeaux possède une piscine classée monument historique 🏛️ La piscine Judaïque, inaugurée en 1935, conserve mosaïques, toit ouvrant et plongeoir de 5 m, et ce #patrimoine se découvre depuis l’eau.\n@villedebordeaux.bsky.social",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261030-69a609ca-bsky.jpg",
+      "mode": "reply",
+      "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/piscine-judaique-bordeaux-art-deco-monument-historique/",
+      "sujet": null
+    }
   }
 ]

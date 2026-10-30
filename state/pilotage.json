@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-30T07:20:35.442Z",
+  "genereLe": "2026-10-30T08:00:41.042Z",
   "jour": "2026-10-30",
   "reseaux": {
     "instagram": {
@@ -60,11 +60,11 @@
         "image",
         "reply"
       ],
-      "aujourdhui": 0,
-      "semaine": 11,
-      "total": 61,
-      "dernier": "2026-10-29T17:12:22.621Z",
-      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3myzr6ae4tp22"
+      "aujourdhui": 1,
+      "semaine": 12,
+      "total": 62,
+      "dernier": "2026-10-30T08:07:18.902Z",
+      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mz3d6il2ye2z"
     },
     "facebook": {
       "actif": true,
@@ -156,14 +156,38 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 11,
-      "total": 61,
-      "dernier": "2026-10-29T15:20:48.550Z",
+      "aujourdhui": 1,
+      "semaine": 12,
+      "total": 62,
+      "dernier": "2026-10-30T08:00:52.514Z",
       "lienDernier": null
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35893",
+      "titre": "Bordeaux : cette piscine de 1935 est un monument historique",
+      "lien": "https://passion-aquitaine.ouest-france.fr/piscine-judaique-bordeaux-art-deco-monument-historique/",
+      "at": "2026-10-30T08:07:18.902Z",
+      "reseaux": {
+        "x": {
+          "texte": "Nager sous un toit ouvrant, entre des mosaïques de 1935, avec un plongeoir de 5 m au-dessus de la tête : c’est possible à la piscine Judaïque de #Bordeaux, monument historique ouvert aux baigneurs 💦",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261030-69a609ca-x.jpg",
+          "mode": "reponse",
+          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/piscine-judaique-bordeaux-art-deco-monument-historique/",
+          "sujet": null,
+          "publieLe": "2026-10-30T08:00:52.514Z"
+        },
+        "bluesky": {
+          "texte": "#Bordeaux possède une piscine classée monument historique 🏛️ La piscine Judaïque, inaugurée en 1935, conserve mosaïques, toit ouvrant et plongeoir de 5 m, et ce #patrimoine se découvre depuis l’eau.\n@villedebordeaux.bsky.social",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261030-69a609ca-bsky.jpg",
+          "mode": "reply",
+          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/piscine-judaique-bordeaux-art-deco-monument-historique/",
+          "sujet": null,
+          "publieLe": "2026-10-30T08:07:18.902Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35929",
       "titre": "Ces deux bébés raies arrivent à Biarritz : pourquoi elles ont passé 3 mois cachées",
@@ -395,57 +419,29 @@
           "publieLe": "2026-10-28T12:11:08.566Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35888",
-      "titre": "Incendie de Saumos : la forêt brûlée classée en lande, et après ?",
-      "lien": "https://passion-aquitaine.ouest-france.fr/incendie-saumos-foret-reclassee-lande/",
-      "at": "2026-10-27T12:25:21.181Z",
-      "reseaux": {
-        "threads": {
-          "texte": "📍 Saumos, en Gironde. Après l’incendie qui a parcouru 42 000 hectares, la forêt brûlée a changé de statut : elle est désormais classée en « landes ». Une décision qui interroge, d’autant que la replantation ne commencera pas tout de suite. L’article revient sur les raisons de cette attente.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261027-6aff9da6-th.jpg",
-          "mode": "reponse",
-          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/incendie-saumos-foret-reclassee-lande/",
-          "sujet": "Saumos",
-          "publieLe": "2026-10-27T07:26:29.112Z"
-        },
-        "bluesky": {
-          "texte": "42 000 hectares brûlés en #Gironde. Après l’incendie de #Saumos, la #forêt détruite est désormais classée en « landes », et la replantation ne se fera pas tout de suite. Les explications 📰",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261027-6aff9da6-bsky.jpg",
-          "mode": "card",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-27T08:05:03.766Z"
-        },
-        "facebook": {
-          "texte": "Après l’incendie de Saumos, pourquoi ne replante-t-on pas tout de suite les arbres sur la forêt brûlée 🗞️",
-          "image": null,
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-27T08:24:47.472Z"
-        },
-        "x": {
-          "texte": "Après l’incendie de #Saumos, la forêt n’est plus une forêt sur le papier 📰 Les 42 000 hectares brûlés en Gironde sont classés en « landes », et on ne replante pas tout de suite.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261027-6aff9da6-x.jpg",
-          "mode": "reponse",
-          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/incendie-saumos-foret-reclassee-lande/",
-          "sujet": null,
-          "publieLe": "2026-10-27T09:20:51.795Z"
-        },
-        "instagram": {
-          "texte": "À Saumos, là où se dressaient les pins, s’étend désormais une lande 📰\n⠀\nAprès l’incendie, 42 000 hectares de forêt brûlée en Gironde sont classés en « landes ». Et la replantation n’est pas immédiate : voici pourquoi.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Gironde #Saumos #Forêt",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261027-6aff9da6-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-27T12:25:21.181Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "bluesky",
+      "at": "2026-10-30T08:07:18.902Z",
+      "titre": "Bordeaux : cette piscine de 1935 est un monument historique",
+      "lien": "https://passion-aquitaine.ouest-france.fr/piscine-judaique-bordeaux-art-deco-monument-historique/",
+      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mz3d6il2ye2z",
+      "format": "reply",
+      "texte": "#Bordeaux possède une piscine classée monument historique 🏛️ La piscine Judaïque, inaugurée en 1935, conserve mosaïques, toit ouvrant et plongeoir de 5 m, et ce #patrimoine se découvre depuis l’eau.\n@villedebordeaux.bsky.social",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261030-69a609ca-bsky.jpg"
+    },
+    {
+      "channel": "x",
+      "at": "2026-10-30T08:00:52.514Z",
+      "titre": "Bordeaux : cette piscine de 1935 est un monument historique",
+      "lien": "https://passion-aquitaine.ouest-france.fr/piscine-judaique-bordeaux-art-deco-monument-historique/",
+      "lienPost": null,
+      "format": "reponse",
+      "texte": "Nager sous un toit ouvrant, entre des mosaïques de 1935, avec un plongeoir de 5 m au-dessus de la tête : c’est possible à la piscine Judaïque de #Bordeaux, monument historique ouvert aux baigneurs 💦",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261030-69a609ca-x.jpg"
+    },
     {
       "channel": "facebook",
       "at": "2026-10-30T07:14:01.993Z",
@@ -525,47 +521,9 @@
       "format": null,
       "texte": "Sur le Bassin d’Arcachon, des huîtres poussent toutes seules et finissent par gêner tout le monde\n⠀\nCes huîtres sauvages nuisent au Bassin. La préfète de la Gironde a autorisé un vaste nettoyage pour les faire reculer et préserver ce coin d’eau que l’on aime tant 🦪\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#BassinDArcachon #Huîtres #Gironde",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261029-e2f7730f-1.jpg"
-    },
-    {
-      "channel": "x",
-      "at": "2026-10-29T11:00:48.932Z",
-      "titre": "Bayonne obtient trois étoiles au Guide Michelin, la note maximale",
-      "lien": "https://passion-aquitaine.ouest-france.fr/bayonne-trois-etoiles-guide-michelin-voyage/",
-      "lienPost": null,
-      "format": "reponse",
-      "texte": "#Bayonne décroche la note maximale du Guide Michelin Voyage 2026 : 🌟 trois étoiles pour la ville elle-même, pas pour ses restaurants. Verdict : « vaut le voyage ».",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261029-2dbec919-x.jpg"
-    },
-    {
-      "channel": "threads",
-      "at": "2026-10-29T10:27:55.192Z",
-      "titre": "Bayonne obtient trois étoiles au Guide Michelin, la note maximale",
-      "lien": "https://passion-aquitaine.ouest-france.fr/bayonne-trois-etoiles-guide-michelin-voyage/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/DfEyY2HFUsc",
-      "format": "reponse",
-      "texte": "Trois étoiles, la note maximale du Guide Michelin 🏙️ Et cette fois, ce ne sont pas les chefs qui sont à l’honneur : c’est @bayonnemaville, la ville elle-même, que le Guide Michelin Voyage 2026 classe « vaut le voyage ». Vous auriez mis quelle ville du Pays basque sur le podium ?",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261029-2dbec919-th.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "x",
-      "dueAt": "2026-10-30T08:00:00.000Z",
-      "prochainPassage": "2026-10-30T08:00:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Bordeaux : cette piscine de 1935 est un monument historique"
-    },
-    {
-      "channel": "bluesky",
-      "dueAt": "2026-10-30T08:07:16.222Z",
-      "prochainPassage": "2026-10-30T08:20:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Bordeaux : cette piscine de 1935 est un monument historique"
-    },
     {
       "channel": "threads",
       "dueAt": "2026-10-30T09:04:32.995Z",
@@ -605,7 +563,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 424,
+    "releves": 425,
     "parReseau": {
       "instagram": {
         "posts": 52,
@@ -723,12 +681,12 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-30T07:20:43.878Z",
-    "posts": 139,
+    "genereLe": "2026-10-30T08:07:27.769Z",
+    "posts": 140,
     "parReseau": {
       "threads": {
-        "posts": 35,
-        "moyenne": 10.7
+        "posts": 36,
+        "moyenne": 10.6
       },
       "instagram": {
         "posts": 34,
@@ -745,8 +703,8 @@
     },
     "parFormat": {
       "reponse": {
-        "posts": 33,
-        "moyenne": 11.4
+        "posts": 34,
+        "moyenne": 11.2
       },
       "reply": {
         "posts": 16,
@@ -775,7 +733,7 @@
         "moyenne": 2.3
       },
       "matin": {
-        "posts": 81,
+        "posts": 82,
         "moyenne": 1.9
       }
     },
@@ -786,7 +744,7 @@
           "moyenne": 63.3
         },
         "7 h – 8 h 30": {
-          "posts": 24,
+          "posts": 25,
           "moyenne": 4.5
         },
         "10 h – 11 h 30": {
@@ -833,7 +791,7 @@
         }
       }
     },
-    "interactionsTotal": 737,
+    "interactionsTotal": 741,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35835",
       "channel": "threads",
@@ -880,15 +838,15 @@
         "moyenne": 7.3
       },
       "sans": {
-        "posts": 82,
+        "posts": 83,
         "moyenne": 3.9
       }
     },
     "publies": {
       "threads": 38,
       "facebook": 38,
-      "bluesky": 38,
-      "x": 38,
+      "bluesky": 39,
+      "x": 39,
       "instagram": 37
     },
     "abonnes": {
@@ -927,14 +885,14 @@
       "x": null
     },
     "engagement": {
-      "threads": 0.93,
+      "threads": 0.92,
       "instagram": 0.1,
       "facebook": 0
     },
     "conseils": [
       "Threads : le créneau 13 h – 14 h 30 fait 30,1 fois mieux que 10 h – 11 h 30 (63.3 contre 2.1 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Instagram : le créneau 12 h – 13 h 30 fait 2,4 fois mieux que 18 h – 19 h 30 (12.5 contre 5.3 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
-      "Le format « reponse » fait 114 fois mieux que « lien » (11.4 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « lien » de la rotation dans config/channels.json.",
+      "Le format « reponse » fait 112 fois mieux que « lien » (11.2 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « lien » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+7, +0,6 %) ; Facebook recule (−37), à surveiller."
     ]
   },

@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-30T17:11:06.939Z",
+  "genereLe": "2026-10-30T17:20:47.895Z",
   "jour": "2026-10-30",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 1,
-      "semaine": 10,
-      "total": 63,
-      "dernier": "2026-10-30T11:13:49.961Z",
-      "lienDernier": "https://www.instagram.com/p/DfHcuzAl04U/"
+      "aujourdhui": 2,
+      "semaine": 11,
+      "total": 64,
+      "dernier": "2026-10-30T17:26:54.007Z",
+      "lienDernier": "https://www.instagram.com/p/DfIHbOmkkNt/"
     },
     "bluesky": {
       "actif": true,
@@ -165,6 +165,46 @@
   },
   "articles": [
     {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35893",
+      "titre": "Bordeaux : cette piscine de 1935 est un monument historique",
+      "lien": "https://passion-aquitaine.ouest-france.fr/piscine-judaique-bordeaux-art-deco-monument-historique/",
+      "at": "2026-10-30T17:26:54.007Z",
+      "reseaux": {
+        "x": {
+          "texte": "Nager sous un toit ouvrant, entre des mosaïques de 1935, avec un plongeoir de 5 m au-dessus de la tête : c’est possible à la piscine Judaïque de #Bordeaux, monument historique ouvert aux baigneurs 💦",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261030-69a609ca-x.jpg",
+          "mode": "reponse",
+          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/piscine-judaique-bordeaux-art-deco-monument-historique/",
+          "sujet": null,
+          "publieLe": "2026-10-30T08:00:52.514Z"
+        },
+        "bluesky": {
+          "texte": "#Bordeaux possède une piscine classée monument historique 🏛️ La piscine Judaïque, inaugurée en 1935, conserve mosaïques, toit ouvrant et plongeoir de 5 m, et ce #patrimoine se découvre depuis l’eau.\n@villedebordeaux.bsky.social",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261030-69a609ca-bsky.jpg",
+          "mode": "reply",
+          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/piscine-judaique-bordeaux-art-deco-monument-historique/",
+          "sujet": null,
+          "publieLe": "2026-10-30T08:07:18.902Z"
+        },
+        "threads": {
+          "texte": "Un monument historique, on le visite en général avec un audioguide. À Bordeaux, il faut plutôt prévoir un maillot de bain 🩱 La piscine Judaïque, construite en 1935, est classée et se découvre en nageant, entre mosaïques, toit ouvrant et plongeoir de 5 m.\n@villedebordeaux @visitbordeaux",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261030-69a609ca-th.jpg",
+          "mode": "reponse",
+          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/piscine-judaique-bordeaux-art-deco-monument-historique/",
+          "sujet": "Bordeaux",
+          "publieLe": "2026-10-30T09:07:08.335Z"
+        },
+        "instagram": {
+          "texte": "Et si votre prochaine visite de monument historique se faisait en maillot de bain ?\n⠀\nÀ Bordeaux, la piscine Judaïque date de 1935 et a gardé ses mosaïques, son plongeoir de 5 m et son toit ouvrant. Un patrimoine où l’on nage 🏊\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #PiscineJudaique #Patrimoine",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261030-69a609ca-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-30T17:26:54.007Z"
+        }
+      }
+    },
+    {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35929",
       "titre": "Ces deux bébés raies arrivent à Biarritz : pourquoi elles ont passé 3 mois cachées",
       "lien": "https://passion-aquitaine.ouest-france.fr/bebes-raies-biarritz-quarantaine/",
@@ -209,38 +249,6 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-10-30T11:13:49.961Z"
-        }
-      }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35893",
-      "titre": "Bordeaux : cette piscine de 1935 est un monument historique",
-      "lien": "https://passion-aquitaine.ouest-france.fr/piscine-judaique-bordeaux-art-deco-monument-historique/",
-      "at": "2026-10-30T09:07:08.335Z",
-      "reseaux": {
-        "x": {
-          "texte": "Nager sous un toit ouvrant, entre des mosaïques de 1935, avec un plongeoir de 5 m au-dessus de la tête : c’est possible à la piscine Judaïque de #Bordeaux, monument historique ouvert aux baigneurs 💦",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261030-69a609ca-x.jpg",
-          "mode": "reponse",
-          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/piscine-judaique-bordeaux-art-deco-monument-historique/",
-          "sujet": null,
-          "publieLe": "2026-10-30T08:00:52.514Z"
-        },
-        "bluesky": {
-          "texte": "#Bordeaux possède une piscine classée monument historique 🏛️ La piscine Judaïque, inaugurée en 1935, conserve mosaïques, toit ouvrant et plongeoir de 5 m, et ce #patrimoine se découvre depuis l’eau.\n@villedebordeaux.bsky.social",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261030-69a609ca-bsky.jpg",
-          "mode": "reply",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/piscine-judaique-bordeaux-art-deco-monument-historique/",
-          "sujet": null,
-          "publieLe": "2026-10-30T08:07:18.902Z"
-        },
-        "threads": {
-          "texte": "Un monument historique, on le visite en général avec un audioguide. À Bordeaux, il faut plutôt prévoir un maillot de bain 🩱 La piscine Judaïque, construite en 1935, est classée et se découvre en nageant, entre mosaïques, toit ouvrant et plongeoir de 5 m.\n@villedebordeaux @visitbordeaux",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261030-69a609ca-th.jpg",
-          "mode": "reponse",
-          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/piscine-judaique-bordeaux-art-deco-monument-historique/",
-          "sujet": "Bordeaux",
-          "publieLe": "2026-10-30T09:07:08.335Z"
         }
       }
     },
@@ -440,6 +448,16 @@
   "publications": [
     {
       "channel": "instagram",
+      "at": "2026-10-30T17:26:54.007Z",
+      "titre": "Bordeaux : cette piscine de 1935 est un monument historique",
+      "lien": "https://passion-aquitaine.ouest-france.fr/piscine-judaique-bordeaux-art-deco-monument-historique/",
+      "lienPost": "https://www.instagram.com/p/DfIHbOmkkNt/",
+      "format": null,
+      "texte": "Et si votre prochaine visite de monument historique se faisait en maillot de bain ?\n⠀\nÀ Bordeaux, la piscine Judaïque date de 1935 et a gardé ses mosaïques, son plongeoir de 5 m et son toit ouvrant. Un patrimoine où l’on nage 🏊\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #PiscineJudaique #Patrimoine",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261030-69a609ca-1.jpg"
+    },
+    {
+      "channel": "instagram",
       "at": "2026-10-30T11:13:49.961Z",
       "titre": "Ces deux bébés raies arrivent à Biarritz : pourquoi elles ont passé 3 mois cachées",
       "lien": "https://passion-aquitaine.ouest-france.fr/bebes-raies-biarritz-quarantaine/",
@@ -527,28 +545,9 @@
       "format": "card",
       "texte": "Trois mois de quarantaine, puis un entraînement : à #Biarritz, deux bébés raies ont enfin rejoint le bassin tropical. Retour sur les coulisses d’une arrivée très préparée 🌊",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261029-cf1b1551-bsky.jpg"
-    },
-    {
-      "channel": "x",
-      "at": "2026-10-29T15:20:48.550Z",
-      "titre": "Ces deux bébés raies arrivent à Biarritz : pourquoi elles ont passé 3 mois cachées",
-      "lien": "https://passion-aquitaine.ouest-france.fr/bebes-raies-biarritz-quarantaine/",
-      "lienPost": null,
-      "format": "reponse",
-      "texte": "Elles ont suivi un entraînement avant de faire leurs débuts 🎓 À #Biarritz, deux bébés raies sortent de trois mois de quarantaine et rejoignent le bassin tropical.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261029-cf1b1551-x.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "instagram",
-      "dueAt": "2026-10-30T17:26:23.182Z",
-      "prochainPassage": "2026-10-30T18:00:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Bordeaux : cette piscine de 1935 est un monument historique"
-    },
     {
       "channel": "facebook",
       "dueAt": "2026-10-30T19:06:10.044Z",
@@ -561,7 +560,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 434,
+    "releves": 435,
     "parReseau": {
       "instagram": {
         "posts": 53,
@@ -679,8 +678,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-30T17:11:13.124Z",
-    "posts": 145,
+    "genereLe": "2026-10-30T17:26:56.951Z",
+    "posts": 146,
     "parReseau": {
       "threads": {
         "posts": 37,
@@ -691,7 +690,7 @@
         "moyenne": 10.4
       },
       "bluesky": {
-        "posts": 37,
+        "posts": 38,
         "moyenne": 0.3
       },
       "facebook": {
@@ -713,7 +712,7 @@
         "moyenne": 0.2
       },
       "card": {
-        "posts": 9,
+        "posts": 10,
         "moyenne": 0.1
       },
       "lien": {
@@ -727,8 +726,8 @@
         "moyenne": 15.4
       },
       "soir": {
-        "posts": 25,
-        "moyenne": 2.4
+        "posts": 26,
+        "moyenne": 2.3
       },
       "matin": {
         "posts": 85,
@@ -762,8 +761,8 @@
       },
       "bluesky": {
         "18 h – 19 h 30": {
-          "posts": 4,
-          "moyenne": 1.3
+          "posts": 5,
+          "moyenne": 1
         },
         "8 h – 9 h 30": {
           "posts": 25,
@@ -811,24 +810,24 @@
       "creneauReseau": "13 h – 14 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35919",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35929",
       "channel": "bluesky",
-      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3myz634hn6p2q",
-      "publieLe": "2026-10-29T11:30:37.016Z",
+      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3myzr6ae4tp22",
+      "publieLe": "2026-10-29T17:12:22.621Z",
       "jalon": 1,
-      "releveLe": "2026-10-30T11:33:39.832Z",
+      "releveLe": "2026-10-30T17:20:47.895Z",
       "likes": 0,
-      "commentairesBruts": 1,
+      "commentairesBruts": 0,
       "partages": 0,
       "vues": null,
       "commentaires": 0,
       "v": 2,
-      "titre": "Bayonne obtient trois étoiles au Guide Michelin, la note maximale",
-      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3myz634hn6p2q",
-      "format": "reply",
+      "titre": "Ces deux bébés raies arrivent à Biarritz : pourquoi elles ont passé 3 mois cachées",
+      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3myzr6ae4tp22",
+      "format": "card",
       "mention": false,
-      "creneau": "après-midi",
-      "creneauReseau": "12 h – 13 h 30"
+      "creneau": "soir",
+      "creneauReseau": "18 h – 19 h 30"
     },
     "mentions": {
       "avec": {
@@ -836,8 +835,8 @@
         "moyenne": 7.4
       },
       "sans": {
-        "posts": 86,
-        "moyenne": 3.8
+        "posts": 87,
+        "moyenne": 3.7
       }
     },
     "publies": {
@@ -845,7 +844,7 @@
       "facebook": 38,
       "bluesky": 39,
       "x": 39,
-      "instagram": 38
+      "instagram": 39
     },
     "abonnes": {
       "instagram": {

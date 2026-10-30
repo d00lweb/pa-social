@@ -6050,5 +6050,19 @@
     "vues": null,
     "commentaires": 1,
     "v": 2
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35929",
+    "channel": "bluesky",
+    "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3myzr6ae4tp22",
+    "publieLe": "2026-10-29T17:12:22.621Z",
+    "jalon": 1,
+    "releveLe": "2026-10-30T17:20:47.895Z",
+    "likes": 0,
+    "commentairesBruts": 0,
+    "partages": 0,
+    "vues": null,
+    "commentaires": 0,
+    "v": 2
   }
 ]

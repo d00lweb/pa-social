@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-31T06:00:39.297Z",
+  "genereLe": "2026-10-31T06:20:39.555Z",
   "jour": "2026-10-31",
   "reseaux": {
     "instagram": {
@@ -89,7 +89,7 @@
       },
       "formats": null,
       "aujourdhui": 0,
-      "semaine": 11,
+      "semaine": 10,
       "total": 59,
       "dernier": "2026-10-30T19:06:14.284Z",
       "lienDernier": "https://www.facebook.com/1720946116697936/posts/1770560538403160"
@@ -558,7 +558,7 @@
   "file": [],
   "alertes": [],
   "mesures": {
-    "releves": 439,
+    "releves": 441,
     "parReseau": {
       "instagram": {
         "posts": 53,
@@ -569,7 +569,7 @@
         "interactionsMoyennes": 0.2
       },
       "facebook": {
-        "posts": 48,
+        "posts": 49,
         "interactionsMoyennes": 0
       },
       "threads": {
@@ -676,15 +676,15 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-31T06:00:46.153Z",
-    "posts": 148,
+    "genereLe": "2026-10-31T06:20:47.589Z",
+    "posts": 149,
     "parReseau": {
       "instagram": {
         "posts": 36,
         "moyenne": 12.4
       },
       "threads": {
-        "posts": 37,
+        "posts": 38,
         "moyenne": 10.4
       },
       "bluesky": {
@@ -698,7 +698,7 @@
     },
     "parFormat": {
       "reponse": {
-        "posts": 35,
+        "posts": 36,
         "moyenne": 11
       },
       "reply": {
@@ -728,8 +728,8 @@
         "moyenne": 5.1
       },
       "matin": {
-        "posts": 85,
-        "moyenne": 1.9
+        "posts": 86,
+        "moyenne": 2
       }
     },
     "parCreneauReseau": {
@@ -739,8 +739,8 @@
           "moyenne": 63.3
         },
         "7 h – 8 h 30": {
-          "posts": 25,
-          "moyenne": 4.5
+          "posts": 26,
+          "moyenne": 4.7
         },
         "10 h – 11 h 30": {
           "posts": 8,
@@ -786,7 +786,7 @@
         }
       }
     },
-    "interactionsTotal": 843,
+    "interactionsTotal": 852,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35835",
       "channel": "threads",
@@ -833,8 +833,8 @@
         "moyenne": 8.6
       },
       "sans": {
-        "posts": 88,
-        "moyenne": 3.7
+        "posts": 89,
+        "moyenne": 3.8
       }
     },
     "publies": {
@@ -888,7 +888,7 @@
       "Threads : le créneau 13 h – 14 h 30 fait 24,3 fois mieux que 10 h – 11 h 30 (63.3 contre 2.6 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Le format « reponse » fait 110 fois mieux que « lien » (11 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « lien » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+7, +0,6 %) ; Facebook recule (−39), à surveiller.",
-      "Les posts avec mention font 4.9 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
+      "Les posts avec mention font 4.8 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
     ]
   },
   "couts": {

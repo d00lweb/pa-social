@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-31T09:01:00.852Z",
+  "genereLe": "2026-10-31T09:20:59.670Z",
   "jour": "2026-10-31",
   "reseaux": {
     "instagram": {
@@ -156,10 +156,10 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 9,
-      "total": 62,
-      "dernier": "2026-10-30T08:00:52.514Z",
+      "aujourdhui": 1,
+      "semaine": 10,
+      "total": 63,
+      "dernier": "2026-10-31T09:21:12.994Z",
       "lienDernier": null
     }
   },
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35926",
       "titre": "Biarritz : la Gare du Midi n’était plus aux normes de sécurité",
       "lien": "https://passion-aquitaine.ouest-france.fr/biarritz-gare-du-midi-sieges-retires/",
-      "at": "2026-10-31T07:32:45.813Z",
+      "at": "2026-10-31T09:21:12.994Z",
       "reseaux": {
         "facebook": {
           "texte": "À Biarritz, la Gare du Midi doit se passer d’une centaine de sièges pour respecter enfin les règles de sécurité 🪑",
@@ -193,6 +193,14 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-10-31T07:32:45.813Z"
+        },
+        "x": {
+          "texte": "La Gare du Midi de #Biarritz n’a plus vu passer de train 🚂 depuis 1980. Non conforme aux normes de sécurité, elle perd une centaine de sièges.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261031-f328a9da-x.jpg",
+          "mode": "reponse",
+          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/biarritz-gare-du-midi-sieges-retires/",
+          "sujet": null,
+          "publieLe": "2026-10-31T09:21:12.994Z"
         }
       }
     },
@@ -439,6 +447,16 @@
   ],
   "publications": [
     {
+      "channel": "x",
+      "at": "2026-10-31T09:21:12.994Z",
+      "titre": "Biarritz : la Gare du Midi n’était plus aux normes de sécurité",
+      "lien": "https://passion-aquitaine.ouest-france.fr/biarritz-gare-du-midi-sieges-retires/",
+      "lienPost": null,
+      "format": "reponse",
+      "texte": "La Gare du Midi de #Biarritz n’a plus vu passer de train 🚂 depuis 1980. Non conforme aux normes de sécurité, elle perd une centaine de sièges.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261031-f328a9da-x.jpg"
+    },
+    {
       "channel": "bluesky",
       "at": "2026-10-31T07:32:45.813Z",
       "titre": "Biarritz : la Gare du Midi n’était plus aux normes de sécurité",
@@ -527,28 +545,9 @@
       "format": "reponse",
       "texte": "Nager sous un toit ouvrant, entre des mosaïques de 1935, avec un plongeoir de 5 m au-dessus de la tête : c’est possible à la piscine Judaïque de #Bordeaux, monument historique ouvert aux baigneurs 💦",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261030-69a609ca-x.jpg"
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-10-30T07:14:01.993Z",
-      "titre": "Ces deux bébés raies arrivent à Biarritz : pourquoi elles ont passé 3 mois cachées",
-      "lien": "https://passion-aquitaine.ouest-france.fr/bebes-raies-biarritz-quarantaine/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1769905381802009",
-      "format": null,
-      "texte": "Pourquoi deux bébés raies ont-elles dû suivre un entraînement avant de rejoindre le bassin tropical de Biarritz 🤔",
-      "image": null
     }
   ],
   "file": [
-    {
-      "channel": "x",
-      "dueAt": "2026-10-31T09:20:00.000Z",
-      "prochainPassage": "2026-10-31T09:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Biarritz : la Gare du Midi n’était plus aux normes de sécurité"
-    },
     {
       "channel": "instagram",
       "dueAt": "2026-10-31T12:03:04.434Z",
@@ -561,7 +560,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 445,
+    "releves": 446,
     "parReseau": {
       "instagram": {
         "posts": 53,
@@ -679,16 +678,16 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-31T09:01:08.990Z",
-    "posts": 151,
+    "genereLe": "2026-10-31T09:21:22.934Z",
+    "posts": 152,
     "parReseau": {
       "instagram": {
         "posts": 36,
         "moyenne": 12.4
       },
       "threads": {
-        "posts": 38,
-        "moyenne": 10.4
+        "posts": 39,
+        "moyenne": 10.3
       },
       "bluesky": {
         "posts": 39,
@@ -701,8 +700,8 @@
     },
     "parFormat": {
       "reponse": {
-        "posts": 36,
-        "moyenne": 11
+        "posts": 37,
+        "moyenne": 10.8
       },
       "reply": {
         "posts": 18,
@@ -731,8 +730,8 @@
         "moyenne": 5.1
       },
       "matin": {
-        "posts": 88,
-        "moyenne": 1.9
+        "posts": 89,
+        "moyenne": 2
       }
     },
     "parCreneauReseau": {
@@ -746,8 +745,8 @@
           "moyenne": 4.7
         },
         "10 h – 11 h 30": {
-          "posts": 8,
-          "moyenne": 2.6
+          "posts": 9,
+          "moyenne": 2.9
         }
       },
       "facebook": {
@@ -789,7 +788,7 @@
         }
       }
     },
-    "interactionsTotal": 852,
+    "interactionsTotal": 857,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35835",
       "channel": "threads",
@@ -832,8 +831,8 @@
     },
     "mentions": {
       "avec": {
-        "posts": 61,
-        "moyenne": 8.5
+        "posts": 62,
+        "moyenne": 8.4
       },
       "sans": {
         "posts": 90,
@@ -844,7 +843,7 @@
       "threads": 40,
       "facebook": 40,
       "bluesky": 40,
-      "x": 39,
+      "x": 40,
       "instagram": 39
     },
     "abonnes": {
@@ -884,14 +883,14 @@
     },
     "engagement": {
       "instagram": 0.12,
-      "threads": 0.9,
+      "threads": 0.89,
       "facebook": 0
     },
     "conseils": [
-      "Threads : le créneau 13 h – 14 h 30 fait 24,3 fois mieux que 10 h – 11 h 30 (63.3 contre 2.6 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
-      "Le format « reponse » fait 110 fois mieux que « lien » (11 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « lien » de la rotation dans config/channels.json.",
+      "Threads : le créneau 13 h – 14 h 30 fait 21,8 fois mieux que 10 h – 11 h 30 (63.3 contre 2.9 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
+      "Le format « reponse » fait 108 fois mieux que « lien » (10.8 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « lien » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+7, +0,6 %) ; Facebook recule (−39), à surveiller.",
-      "Les posts avec mention font 4.8 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
+      "Les posts avec mention font 4.7 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
     ]
   },
   "couts": {

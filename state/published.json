@@ -5428,5 +5428,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35926",
+    "channel": "x",
+    "at": "2026-10-31T09:21:12.994Z",
+    "mediaId": "kit-telegram",
+    "titre": "Biarritz : la Gare du Midi n’était plus aux normes de sécurité",
+    "lien": "https://passion-aquitaine.ouest-france.fr/biarritz-gare-du-midi-sieges-retires/",
+    "lienPost": null,
+    "format": "reponse",
+    "mention": true,
+    "apercu": {
+      "texte": "La Gare du Midi de #Biarritz n’a plus vu passer de train 🚂 depuis 1980. Non conforme aux normes de sécurité, elle perd une centaine de sièges.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261031-f328a9da-x.jpg",
+      "mode": "reponse",
+      "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/biarritz-gare-du-midi-sieges-retires/",
+      "sujet": null
+    }
   }
 ]

@@ -729,5 +729,25 @@
         "cout": 0.099808
       }
     }
+  },
+  "2026-10-31": {
+    "appels": 2,
+    "entree": 15942,
+    "sortie": 1700,
+    "cacheLu": 0,
+    "cacheEcrit": 0,
+    "cout": 0.097768,
+    "parModele": {
+      "claude-opus-5-5": 2
+    },
+    "parUsage": {
+      "dossier": 2
+    },
+    "parOrigine": {
+      "robot": {
+        "appels": 2,
+        "cout": 0.097768
+      }
+    }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-31T06:20:39.555Z",
+  "genereLe": "2026-10-31T06:58:15.864Z",
   "jour": "2026-10-31",
   "reseaux": {
     "instagram": {
@@ -123,7 +123,7 @@
         "reponse"
       ],
       "aujourdhui": 0,
-      "semaine": 10,
+      "semaine": 9,
       "total": 59,
       "dernier": "2026-10-30T09:07:08.335Z",
       "lienDernier": "https://www.threads.com/@lovaquitaine/post/DfHN-EnFvSA"
@@ -555,10 +555,56 @@
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261029-2dbec919-1.jpg"
     }
   ],
-  "file": [],
+  "file": [
+    {
+      "channel": "facebook",
+      "dueAt": "2026-10-31T07:05:53.052Z",
+      "prochainPassage": "2026-10-31T07:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Biarritz : la Gare du Midi n’était plus aux normes de sécurité"
+    },
+    {
+      "channel": "threads",
+      "dueAt": "2026-10-31T07:27:35.768Z",
+      "prochainPassage": "2026-10-31T08:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Biarritz : la Gare du Midi n’était plus aux normes de sécurité"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-10-31T07:32:43.925Z",
+      "prochainPassage": "2026-10-31T08:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Biarritz : la Gare du Midi n’était plus aux normes de sécurité"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-10-31T09:20:00.000Z",
+      "prochainPassage": "2026-10-31T09:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Biarritz : la Gare du Midi n’était plus aux normes de sécurité"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-10-31T12:03:04.434Z",
+      "prochainPassage": "2026-10-31T12:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Biarritz : la Gare du Midi n’était plus aux normes de sécurité"
+    }
+  ],
   "alertes": [],
   "mesures": {
-    "releves": 441,
+    "releves": 442,
     "parReseau": {
       "instagram": {
         "posts": 53,
@@ -573,8 +619,8 @@
         "interactionsMoyennes": 0
       },
       "threads": {
-        "posts": 49,
-        "interactionsMoyennes": 10.7
+        "posts": 50,
+        "interactionsMoyennes": 10.5
       }
     }
   },
@@ -676,7 +722,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-31T06:20:47.589Z",
+    "genereLe": "2026-10-31T06:58:49.999Z",
     "posts": 149,
     "parReseau": {
       "instagram": {
@@ -893,29 +939,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 0,
-      "entree": 0,
-      "sortie": 0,
-      "cout": 0,
+      "appels": 2,
+      "entree": 15942,
+      "sortie": 1700,
+      "cout": 0.097768,
       "cle": "2026-10-31"
     },
     "semaine": {
-      "appels": 19,
-      "entree": 152235,
-      "sortie": 16901,
-      "cout": 0.9469600000000001
+      "appels": 21,
+      "entree": 168177,
+      "sortie": 18601,
+      "cout": 1.0447279999999999
     },
     "mois": {
-      "appels": 69,
-      "entree": 547770,
-      "sortie": 64903,
-      "cout": 3.489139999999999,
+      "appels": 71,
+      "entree": 563712,
+      "sortie": 66603,
+      "cout": 3.586907999999999,
       "cle": "2026-10"
     },
-    "projection": 3.49,
-    "moyenneAppel": 0.0506,
+    "projection": 3.59,
+    "moyenneAppel": 0.0505,
     "parModele": {
-      "claude-opus-5-5": 69
+      "claude-opus-5-5": 71
     },
     "serie": [
       [
@@ -972,7 +1018,7 @@
       ],
       [
         "2026-10-31",
-        0
+        0.0978
       ]
     ],
     "depuis": "2026-09-23"

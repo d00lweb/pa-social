@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-31T19:00:37.137Z",
+  "genereLe": "2026-10-31T19:20:38.650Z",
   "jour": "2026-10-31",
   "reseaux": {
     "instagram": {
@@ -558,7 +558,7 @@
   "file": [],
   "alertes": [],
   "mesures": {
-    "releves": 451,
+    "releves": 452,
     "parReseau": {
       "instagram": {
         "posts": 55,
@@ -676,8 +676,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-31T19:00:43.800Z",
-    "posts": 154,
+    "genereLe": "2026-10-31T19:20:43.328Z",
+    "posts": 155,
     "parReseau": {
       "instagram": {
         "posts": 38,
@@ -692,7 +692,7 @@
         "moyenne": 0.3
       },
       "facebook": {
-        "posts": 38,
+        "posts": 39,
         "moyenne": 0
       }
     },
@@ -724,8 +724,8 @@
         "moyenne": 15.5
       },
       "soir": {
-        "posts": 29,
-        "moyenne": 5.1
+        "posts": 30,
+        "moyenne": 4.9
       },
       "matin": {
         "posts": 89,
@@ -753,7 +753,7 @@
           "moyenne": 0
         },
         "20 h – 21 h 30": {
-          "posts": 12,
+          "posts": 13,
           "moyenne": 0
         }
       },
@@ -809,23 +809,23 @@
     },
     "moinsBon": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35893",
-      "channel": "bluesky",
-      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mz3d6il2ye2z",
-      "publieLe": "2026-10-30T08:07:18.902Z",
+      "channel": "facebook",
+      "mediaId": "227437307428711_1770560538403160",
+      "publieLe": "2026-10-30T19:06:14.284Z",
       "jalon": 1,
-      "releveLe": "2026-10-31T08:20:35.848Z",
+      "releveLe": "2026-10-31T19:20:38.650Z",
       "likes": 0,
-      "commentairesBruts": 1,
+      "commentairesBruts": 0,
       "partages": 0,
       "vues": null,
       "commentaires": 0,
       "v": 2,
       "titre": "Bordeaux : cette piscine de 1935 est un monument historique",
-      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mz3d6il2ye2z",
-      "format": "reply",
-      "mention": true,
-      "creneau": "matin",
-      "creneauReseau": "8 h – 9 h 30"
+      "lien": "https://www.facebook.com/1720946116697936/posts/1770560538403160",
+      "format": null,
+      "mention": false,
+      "creneau": "soir",
+      "creneauReseau": "20 h – 21 h 30"
     },
     "mentions": {
       "avec": {
@@ -833,7 +833,7 @@
         "moyenne": 8.5
       },
       "sans": {
-        "posts": 90,
+        "posts": 91,
         "moyenne": 3.7
       }
     },

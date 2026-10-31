@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-31T08:00:32.730Z",
+  "genereLe": "2026-10-31T08:20:35.848Z",
   "jour": "2026-10-31",
   "reseaux": {
     "instagram": {
@@ -561,7 +561,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 444,
+    "releves": 445,
     "parReseau": {
       "instagram": {
         "posts": 53,
@@ -679,8 +679,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-31T08:00:37.437Z",
-    "posts": 150,
+    "genereLe": "2026-10-31T08:20:40.704Z",
+    "posts": 151,
     "parReseau": {
       "instagram": {
         "posts": 36,
@@ -691,7 +691,7 @@
         "moyenne": 10.4
       },
       "bluesky": {
-        "posts": 38,
+        "posts": 39,
         "moyenne": 0.3
       },
       "facebook": {
@@ -705,8 +705,8 @@
         "moyenne": 11
       },
       "reply": {
-        "posts": 17,
-        "moyenne": 0.5
+        "posts": 18,
+        "moyenne": 0.4
       },
       "image": {
         "posts": 12,
@@ -731,8 +731,8 @@
         "moyenne": 5.1
       },
       "matin": {
-        "posts": 87,
-        "moyenne": 2
+        "posts": 88,
+        "moyenne": 1.9
       }
     },
     "parCreneauReseau": {
@@ -766,7 +766,7 @@
           "moyenne": 1
         },
         "8 h – 9 h 30": {
-          "posts": 25,
+          "posts": 26,
           "moyenne": 0.2
         },
         "12 h – 13 h 30": {
@@ -811,29 +811,29 @@
       "creneauReseau": "13 h – 14 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35929",
-      "channel": "facebook",
-      "mediaId": "227437307428711_1769905381802009",
-      "publieLe": "2026-10-30T07:14:01.993Z",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35893",
+      "channel": "bluesky",
+      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mz3d6il2ye2z",
+      "publieLe": "2026-10-30T08:07:18.902Z",
       "jalon": 1,
-      "releveLe": "2026-10-31T07:20:36.625Z",
+      "releveLe": "2026-10-31T08:20:35.848Z",
       "likes": 0,
-      "commentairesBruts": 0,
+      "commentairesBruts": 1,
       "partages": 0,
       "vues": null,
       "commentaires": 0,
       "v": 2,
-      "titre": "Ces deux bébés raies arrivent à Biarritz : pourquoi elles ont passé 3 mois cachées",
-      "lien": "https://www.facebook.com/1720946116697936/posts/1769905381802009",
-      "format": null,
-      "mention": false,
+      "titre": "Bordeaux : cette piscine de 1935 est un monument historique",
+      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mz3d6il2ye2z",
+      "format": "reply",
+      "mention": true,
       "creneau": "matin",
       "creneauReseau": "8 h – 9 h 30"
     },
     "mentions": {
       "avec": {
-        "posts": 60,
-        "moyenne": 8.6
+        "posts": 61,
+        "moyenne": 8.5
       },
       "sans": {
         "posts": 90,
@@ -891,7 +891,7 @@
       "Threads : le créneau 13 h – 14 h 30 fait 24,3 fois mieux que 10 h – 11 h 30 (63.3 contre 2.6 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Le format « reponse » fait 110 fois mieux que « lien » (11 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « lien » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+7, +0,6 %) ; Facebook recule (−39), à surveiller.",
-      "Les posts avec mention font 4.9 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
+      "Les posts avec mention font 4.8 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
     ]
   },
   "couts": {

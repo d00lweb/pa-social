@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-31T11:20:30.852Z",
+  "genereLe": "2026-10-31T12:00:35.398Z",
   "jour": "2026-10-31",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 10,
-      "total": 64,
-      "dernier": "2026-10-30T17:26:54.007Z",
-      "lienDernier": "https://www.instagram.com/p/DfIHbOmkkNt/"
+      "aujourdhui": 1,
+      "semaine": 11,
+      "total": 65,
+      "dernier": "2026-10-31T12:03:41.128Z",
+      "lienDernier": "https://www.instagram.com/p/DfKHN8al3Az/"
     },
     "bluesky": {
       "actif": true,
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35926",
       "titre": "Biarritz : la Gare du Midi n’était plus aux normes de sécurité",
       "lien": "https://passion-aquitaine.ouest-france.fr/biarritz-gare-du-midi-sieges-retires/",
-      "at": "2026-10-31T09:21:12.994Z",
+      "at": "2026-10-31T12:03:41.128Z",
       "reseaux": {
         "facebook": {
           "texte": "À Biarritz, la Gare du Midi doit se passer d’une centaine de sièges pour respecter enfin les règles de sécurité 🪑",
@@ -201,6 +201,14 @@
           "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/biarritz-gare-du-midi-sieges-retires/",
           "sujet": null,
           "publieLe": "2026-10-31T09:21:12.994Z"
+        },
+        "instagram": {
+          "texte": "Une centaine de sièges en moins 💺 à la Gare du Midi de Biarritz\n⠀\nCe lieu emblématique du Pays basque, sans trains depuis 1980, n’était plus aux normes de sécurité. On vous explique ce qui change.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Biarritz #PaysBasque #GareDuMidi",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261031-f328a9da-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-31T12:03:41.128Z"
         }
       }
     },
@@ -447,6 +455,16 @@
   ],
   "publications": [
     {
+      "channel": "instagram",
+      "at": "2026-10-31T12:03:41.128Z",
+      "titre": "Biarritz : la Gare du Midi n’était plus aux normes de sécurité",
+      "lien": "https://passion-aquitaine.ouest-france.fr/biarritz-gare-du-midi-sieges-retires/",
+      "lienPost": "https://www.instagram.com/p/DfKHN8al3Az/",
+      "format": null,
+      "texte": "Une centaine de sièges en moins 💺 à la Gare du Midi de Biarritz\n⠀\nCe lieu emblématique du Pays basque, sans trains depuis 1980, n’était plus aux normes de sécurité. On vous explique ce qui change.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Biarritz #PaysBasque #GareDuMidi",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261031-f328a9da-1.jpg"
+    },
+    {
       "channel": "x",
       "at": "2026-10-31T09:21:12.994Z",
       "titre": "Biarritz : la Gare du Midi n’était plus aux normes de sécurité",
@@ -535,29 +553,9 @@
       "format": "reply",
       "texte": "#Bordeaux possède une piscine classée monument historique 🏛️ La piscine Judaïque, inaugurée en 1935, conserve mosaïques, toit ouvrant et plongeoir de 5 m, et ce #patrimoine se découvre depuis l’eau.\n@villedebordeaux.bsky.social",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261030-69a609ca-bsky.jpg"
-    },
-    {
-      "channel": "x",
-      "at": "2026-10-30T08:00:52.514Z",
-      "titre": "Bordeaux : cette piscine de 1935 est un monument historique",
-      "lien": "https://passion-aquitaine.ouest-france.fr/piscine-judaique-bordeaux-art-deco-monument-historique/",
-      "lienPost": null,
-      "format": "reponse",
-      "texte": "Nager sous un toit ouvrant, entre des mosaïques de 1935, avec un plongeoir de 5 m au-dessus de la tête : c’est possible à la piscine Judaïque de #Bordeaux, monument historique ouvert aux baigneurs 💦",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261030-69a609ca-x.jpg"
     }
   ],
-  "file": [
-    {
-      "channel": "instagram",
-      "dueAt": "2026-10-31T12:03:04.434Z",
-      "prochainPassage": "2026-10-31T12:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Biarritz : la Gare du Midi n’était plus aux normes de sécurité"
-    }
-  ],
+  "file": [],
   "alertes": [],
   "mesures": {
     "releves": 448,
@@ -639,7 +637,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-31T10:20:44.680Z"
+    "derniere": "2026-10-31T12:00:35.398Z"
   },
   "abonnes": {
     "instagram": {
@@ -678,7 +676,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-31T11:20:35.705Z",
+    "genereLe": "2026-10-31T12:03:44.022Z",
     "posts": 153,
     "parReseau": {
       "instagram": {
@@ -844,7 +842,7 @@
       "facebook": 40,
       "bluesky": 40,
       "x": 40,
-      "instagram": 39
+      "instagram": 40
     },
     "abonnes": {
       "instagram": {

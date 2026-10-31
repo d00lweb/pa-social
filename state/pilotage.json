@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-31T06:58:15.864Z",
+  "genereLe": "2026-10-31T07:00:36.410Z",
   "jour": "2026-10-31",
   "reseaux": {
     "instagram": {
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 10,
-      "total": 59,
-      "dernier": "2026-10-30T19:06:14.284Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1770560538403160"
+      "aujourdhui": 1,
+      "semaine": 11,
+      "total": 60,
+      "dernier": "2026-10-31T07:06:01.690Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1771103605015520"
     },
     "threads": {
       "actif": true,
@@ -164,6 +164,22 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35926",
+      "titre": "Biarritz : la Gare du Midi n’était plus aux normes de sécurité",
+      "lien": "https://passion-aquitaine.ouest-france.fr/biarritz-gare-du-midi-sieges-retires/",
+      "at": "2026-10-31T07:06:01.690Z",
+      "reseaux": {
+        "facebook": {
+          "texte": "À Biarritz, la Gare du Midi doit se passer d’une centaine de sièges pour respecter enfin les règles de sécurité 🪑",
+          "image": null,
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-31T07:06:01.690Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35893",
       "titre": "Bordeaux : cette piscine de 1935 est un monument historique",
@@ -403,57 +419,19 @@
           "publieLe": "2026-10-28T20:08:26.707Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35901",
-      "titre": "Halloween à Agen : passez la nuit dans un asile hanté géant",
-      "lien": "https://passion-aquitaine.ouest-france.fr/halloween-agen-asile-agora-techno-win/",
-      "at": "2026-10-28T12:11:08.566Z",
-      "reseaux": {
-        "threads": {
-          "texte": "Acteurs grimés, lasers et hard techno jusqu’à 6 h : le 31 octobre, le Parc des expositions d’Agen devient un asile hanté géant 🖼️",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261028-eea988b8-th.jpg",
-          "mode": "reponse",
-          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/halloween-agen-asile-agora-techno-win/",
-          "sujet": "Agenais",
-          "publieLe": "2026-10-28T07:26:59.549Z"
-        },
-        "facebook": {
-          "texte": "Des acteurs grimés vous attendent dans un asile hanté, et la hard techno ne s’arrête qu’à 6 h du matin 👻",
-          "image": null,
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-28T08:04:57.633Z"
-        },
-        "x": {
-          "texte": "Des silhouettes grimées surgissent entre les faisceaux laser 🧟 Le 31 octobre, un asile hanté géant s’installe au Parc des expositions d’#Agen, sur fond de hard techno jusqu’à 6 h.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261028-eea988b8-x.jpg",
-          "mode": "reponse",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/halloween-agen-asile-agora-techno-win/",
-          "sujet": null,
-          "publieLe": "2026-10-28T08:20:56.434Z"
-        },
-        "bluesky": {
-          "texte": "Pour #Halloween, #Agen offre une nuit entière de frissons : le Parc des expositions devient un asile hanté géant le 31 octobre, avec acteurs grimés, lasers et hard #techno jusqu’à 6 h. De quoi danser et trembler jusqu’au matin 🦇\n➡️ Lire l’article",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261028-eea988b8-bsky.jpg",
-          "mode": "image",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-28T08:25:51.167Z"
-        },
-        "instagram": {
-          "texte": "Agen, nuit du 31 octobre : le Parc des expositions se change en asile hanté géant 🎃\n⠀\nActeurs grimés dans les couloirs, lasers et hard techno jusqu’à 6 h du matin. Une soirée d’Halloween pensée pour faire frissonner l’Agenais jusqu’à l’aube.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Agen #Halloween #HardTechno",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261028-eea988b8-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-28T12:11:08.566Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "facebook",
+      "at": "2026-10-31T07:06:01.690Z",
+      "titre": "Biarritz : la Gare du Midi n’était plus aux normes de sécurité",
+      "lien": "https://passion-aquitaine.ouest-france.fr/biarritz-gare-du-midi-sieges-retires/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1771103605015520",
+      "format": null,
+      "texte": "À Biarritz, la Gare du Midi doit se passer d’une centaine de sièges pour respecter enfin les règles de sécurité 🪑",
+      "image": null
+    },
     {
       "channel": "facebook",
       "at": "2026-10-30T19:06:14.284Z",
@@ -543,28 +521,9 @@
       "format": null,
       "texte": "Ses ruelles, ses quais, son ambiance : c’est la ville entière que le Michelin juge digne d’un voyage, pas seulement ses assiettes 🗺️",
       "image": null
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-10-29T17:24:07.489Z",
-      "titre": "Bayonne obtient trois étoiles au Guide Michelin, la note maximale",
-      "lien": "https://passion-aquitaine.ouest-france.fr/bayonne-trois-etoiles-guide-michelin-voyage/",
-      "lienPost": "https://www.instagram.com/p/DfFiTUrlF_7/",
-      "format": null,
-      "texte": "Trois étoiles au Michelin, et ce n’est pas pour une table : c’est 🧭 Bayonne tout entière qui est récompensée.\n⠀\nLe Guide Michelin Voyage 2026 attribue à la ville sa note maximale, « vaut le voyage ». Une belle reconnaissance pour la cité du Pays basque.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bayonne #PaysBasque #Tourisme",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261029-2dbec919-1.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "facebook",
-      "dueAt": "2026-10-31T07:05:53.052Z",
-      "prochainPassage": "2026-10-31T07:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Biarritz : la Gare du Midi n’était plus aux normes de sécurité"
-    },
     {
       "channel": "threads",
       "dueAt": "2026-10-31T07:27:35.768Z",
@@ -722,7 +681,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-31T06:58:49.999Z",
+    "genereLe": "2026-10-31T07:06:03.965Z",
     "posts": 149,
     "parReseau": {
       "instagram": {
@@ -885,7 +844,7 @@
     },
     "publies": {
       "threads": 39,
-      "facebook": 39,
+      "facebook": 40,
       "bluesky": 39,
       "x": 39,
       "instagram": 39

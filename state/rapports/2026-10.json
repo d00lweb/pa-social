@@ -1,0 +1,218 @@
+{
+  "mois": "2026-10",
+  "genereLe": "2026-10-31T23:01:01.741Z",
+  "posts": 155,
+  "parReseau": {
+    "instagram": {
+      "posts": 38,
+      "moyenne": 12.3
+    },
+    "threads": {
+      "posts": 39,
+      "moyenne": 10.3
+    },
+    "bluesky": {
+      "posts": 39,
+      "moyenne": 0.3
+    },
+    "facebook": {
+      "posts": 39,
+      "moyenne": 0
+    }
+  },
+  "parFormat": {
+    "reponse": {
+      "posts": 37,
+      "moyenne": 10.8
+    },
+    "reply": {
+      "posts": 18,
+      "moyenne": 0.4
+    },
+    "image": {
+      "posts": 12,
+      "moyenne": 0.2
+    },
+    "card": {
+      "posts": 10,
+      "moyenne": 0.1
+    },
+    "lien": {
+      "posts": 1,
+      "moyenne": 0
+    }
+  },
+  "parCreneau": {
+    "après-midi": {
+      "posts": 36,
+      "moyenne": 15.5
+    },
+    "soir": {
+      "posts": 30,
+      "moyenne": 4.9
+    },
+    "matin": {
+      "posts": 89,
+      "moyenne": 2
+    }
+  },
+  "parCreneauReseau": {
+    "threads": {
+      "13 h – 14 h 30": {
+        "posts": 4,
+        "moyenne": 63.3
+      },
+      "7 h – 8 h 30": {
+        "posts": 26,
+        "moyenne": 4.7
+      },
+      "10 h – 11 h 30": {
+        "posts": 9,
+        "moyenne": 2.9
+      }
+    },
+    "facebook": {
+      "8 h – 9 h 30": {
+        "posts": 26,
+        "moyenne": 0
+      },
+      "20 h – 21 h 30": {
+        "posts": 13,
+        "moyenne": 0
+      }
+    },
+    "bluesky": {
+      "18 h – 19 h 30": {
+        "posts": 5,
+        "moyenne": 1
+      },
+      "8 h – 9 h 30": {
+        "posts": 26,
+        "moyenne": 0.2
+      },
+      "12 h – 13 h 30": {
+        "posts": 8,
+        "moyenne": 0
+      }
+    },
+    "instagram": {
+      "12 h – 13 h 30": {
+        "posts": 24,
+        "moyenne": 12.7
+      },
+      "18 h – 19 h 30": {
+        "posts": 12,
+        "moyenne": 11.8
+      },
+      "hors créneau": {
+        "posts": 2,
+        "moyenne": 11
+      }
+    }
+  },
+  "interactionsTotal": 879,
+  "meilleur": {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35835",
+    "channel": "threads",
+    "mediaId": "18103935524378802",
+    "publieLe": "2026-10-20T12:28:50.795Z",
+    "jalon": 7,
+    "releveLe": "2026-10-27T13:00:45.440Z",
+    "likes": 237,
+    "commentairesBruts": 3,
+    "partages": 5,
+    "vues": 7675,
+    "commentaires": 2,
+    "v": 2,
+    "titre": "Il avait presque disparu : en Dordogne, ce rapace bat un record avec 95 naissances en 2026",
+    "lien": "https://www.threads.com/@lovaquitaine/post/Det09fCFWUZ",
+    "format": "reponse",
+    "mention": false,
+    "creneau": "après-midi",
+    "creneauReseau": "13 h – 14 h 30"
+  },
+  "moinsBon": {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35893",
+    "channel": "facebook",
+    "mediaId": "227437307428711_1770560538403160",
+    "publieLe": "2026-10-30T19:06:14.284Z",
+    "jalon": 1,
+    "releveLe": "2026-10-31T19:20:38.650Z",
+    "likes": 0,
+    "commentairesBruts": 0,
+    "partages": 0,
+    "vues": null,
+    "commentaires": 0,
+    "v": 2,
+    "titre": "Bordeaux : cette piscine de 1935 est un monument historique",
+    "lien": "https://www.facebook.com/1720946116697936/posts/1770560538403160",
+    "format": null,
+    "mention": false,
+    "creneau": "soir",
+    "creneauReseau": "20 h – 21 h 30"
+  },
+  "mentions": {
+    "avec": {
+      "posts": 64,
+      "moyenne": 8.5
+    },
+    "sans": {
+      "posts": 91,
+      "moyenne": 3.7
+    }
+  },
+  "publies": {
+    "threads": 40,
+    "facebook": 40,
+    "bluesky": 40,
+    "x": 40,
+    "instagram": 40
+  },
+  "abonnes": {
+    "instagram": {
+      "debut": 10136,
+      "fin": 10134,
+      "gain": -2,
+      "pct": 0,
+      "depuis": "2026-10-01",
+      "au": "2026-10-31"
+    },
+    "facebook": {
+      "debut": 42607,
+      "fin": 42568,
+      "gain": -39,
+      "pct": -0.1,
+      "depuis": "2026-10-01",
+      "au": "2026-10-31"
+    },
+    "bluesky": {
+      "debut": 4,
+      "fin": 10,
+      "gain": 6,
+      "pct": 150,
+      "depuis": "2026-10-01",
+      "au": "2026-10-31"
+    },
+    "threads": {
+      "debut": 1149,
+      "fin": 1156,
+      "gain": 7,
+      "pct": 0.6,
+      "depuis": "2026-10-01",
+      "au": "2026-10-31"
+    },
+    "x": null
+  },
+  "engagement": {
+    "instagram": 0.12,
+    "threads": 0.89,
+    "facebook": 0
+  },
+  "conseils": [
+    "Threads : le créneau 13 h – 14 h 30 fait 21,8 fois mieux que 10 h – 11 h 30 (63.3 contre 2.9 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
+    "Le format « reponse » fait 108 fois mieux que « lien » (10.8 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « lien » de la rotation dans config/channels.json.",
+    "Abonnés : Threads progresse le plus (+7, +0,6 %) ; Facebook recule (−39), à surveiller.",
+    "Les posts avec mention font 4.8 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
+  ],
+  "comptage": 2
+}

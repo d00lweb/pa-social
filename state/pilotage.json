@@ -1,6 +1,6 @@
 {
-  "genereLe": "2026-10-31T22:20:35.378Z",
-  "jour": "2026-10-31",
+  "genereLe": "2026-10-31T23:00:58.360Z",
+  "jour": "2026-11-01",
   "reseaux": {
     "instagram": {
       "actif": true,
@@ -24,7 +24,7 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 1,
+      "aujourdhui": 0,
       "semaine": 10,
       "total": 65,
       "dernier": "2026-10-31T12:03:41.128Z",
@@ -60,7 +60,7 @@
         "image",
         "reply"
       ],
-      "aujourdhui": 1,
+      "aujourdhui": 0,
       "semaine": 10,
       "total": 63,
       "dernier": "2026-10-31T07:32:45.813Z",
@@ -88,7 +88,7 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 1,
+      "aujourdhui": 0,
       "semaine": 10,
       "total": 60,
       "dernier": "2026-10-31T07:06:01.690Z",
@@ -122,7 +122,7 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 1,
+      "aujourdhui": 0,
       "semaine": 10,
       "total": 60,
       "dernier": "2026-10-31T07:31:03.230Z",
@@ -156,7 +156,7 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 1,
+      "aujourdhui": 0,
       "semaine": 10,
       "total": 63,
       "dernier": "2026-10-31T09:21:12.994Z",
@@ -579,10 +579,11 @@
     }
   },
   "rapports": [
+    "2026-10",
     "2026-09"
   ],
   "jetons": {
-    "verifieLe": "2026-10-30T23:00:34.993Z",
+    "verifieLe": "2026-10-31T23:00:58.360Z",
     "meta": {
       "expireLe": "2026-12-16T20:08:59.000Z",
       "restant": 86,
@@ -590,7 +591,7 @@
     },
     "threads": {
       "expireLe": "2026-11-16T21:12:39.531Z",
-      "restant": 17,
+      "restant": 16,
       "renouvellement": "commande npm run threads:refresh"
     },
     "alertes": {}
@@ -637,24 +638,24 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-31T21:20:36.040Z"
+    "derniere": "2026-10-31T23:00:58.360Z"
   },
   "abonnes": {
     "instagram": {
       "debut": 10130,
-      "fin": 10134,
-      "gain": 4,
+      "fin": 10135,
+      "gain": 5,
       "pct": 0,
       "depuis": "2026-10-25",
-      "au": "2026-10-31"
+      "au": "2026-11-01"
     },
     "facebook": {
       "debut": 42578,
-      "fin": 42568,
-      "gain": -10,
+      "fin": 42567,
+      "gain": -11,
       "pct": 0,
       "depuis": "2026-10-25",
-      "au": "2026-10-31"
+      "au": "2026-11-01"
     },
     "bluesky": {
       "debut": 9,
@@ -662,7 +663,7 @@
       "gain": 1,
       "pct": 11.1,
       "depuis": "2026-10-25",
-      "au": "2026-10-31"
+      "au": "2026-11-01"
     },
     "threads": {
       "debut": 1155,
@@ -670,258 +671,97 @@
       "gain": 1,
       "pct": 0.1,
       "depuis": "2026-10-25",
-      "au": "2026-10-31"
+      "au": "2026-11-01"
     },
     "x": null
   },
   "rapportEnCours": {
-    "mois": "2026-10",
-    "genereLe": "2026-10-31T22:20:39.791Z",
-    "posts": 155,
-    "parReseau": {
-      "instagram": {
-        "posts": 38,
-        "moyenne": 12.3
-      },
-      "threads": {
-        "posts": 39,
-        "moyenne": 10.3
-      },
-      "bluesky": {
-        "posts": 39,
-        "moyenne": 0.3
-      },
-      "facebook": {
-        "posts": 39,
-        "moyenne": 0
-      }
-    },
-    "parFormat": {
-      "reponse": {
-        "posts": 37,
-        "moyenne": 10.8
-      },
-      "reply": {
-        "posts": 18,
-        "moyenne": 0.4
-      },
-      "image": {
-        "posts": 12,
-        "moyenne": 0.2
-      },
-      "card": {
-        "posts": 10,
-        "moyenne": 0.1
-      },
-      "lien": {
-        "posts": 1,
-        "moyenne": 0
-      }
-    },
-    "parCreneau": {
-      "après-midi": {
-        "posts": 36,
-        "moyenne": 15.5
-      },
-      "soir": {
-        "posts": 30,
-        "moyenne": 4.9
-      },
-      "matin": {
-        "posts": 89,
-        "moyenne": 2
-      }
-    },
-    "parCreneauReseau": {
-      "threads": {
-        "13 h – 14 h 30": {
-          "posts": 4,
-          "moyenne": 63.3
-        },
-        "7 h – 8 h 30": {
-          "posts": 26,
-          "moyenne": 4.7
-        },
-        "10 h – 11 h 30": {
-          "posts": 9,
-          "moyenne": 2.9
-        }
-      },
-      "facebook": {
-        "8 h – 9 h 30": {
-          "posts": 26,
-          "moyenne": 0
-        },
-        "20 h – 21 h 30": {
-          "posts": 13,
-          "moyenne": 0
-        }
-      },
-      "bluesky": {
-        "18 h – 19 h 30": {
-          "posts": 5,
-          "moyenne": 1
-        },
-        "8 h – 9 h 30": {
-          "posts": 26,
-          "moyenne": 0.2
-        },
-        "12 h – 13 h 30": {
-          "posts": 8,
-          "moyenne": 0
-        }
-      },
-      "instagram": {
-        "12 h – 13 h 30": {
-          "posts": 24,
-          "moyenne": 12.7
-        },
-        "18 h – 19 h 30": {
-          "posts": 12,
-          "moyenne": 11.8
-        },
-        "hors créneau": {
-          "posts": 2,
-          "moyenne": 11
-        }
-      }
-    },
-    "interactionsTotal": 879,
-    "meilleur": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35835",
-      "channel": "threads",
-      "mediaId": "18103935524378802",
-      "publieLe": "2026-10-20T12:28:50.795Z",
-      "jalon": 7,
-      "releveLe": "2026-10-27T13:00:45.440Z",
-      "likes": 237,
-      "commentairesBruts": 3,
-      "partages": 5,
-      "vues": 7675,
-      "commentaires": 2,
-      "v": 2,
-      "titre": "Il avait presque disparu : en Dordogne, ce rapace bat un record avec 95 naissances en 2026",
-      "lien": "https://www.threads.com/@lovaquitaine/post/Det09fCFWUZ",
-      "format": "reponse",
-      "mention": false,
-      "creneau": "après-midi",
-      "creneauReseau": "13 h – 14 h 30"
-    },
-    "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35893",
-      "channel": "facebook",
-      "mediaId": "227437307428711_1770560538403160",
-      "publieLe": "2026-10-30T19:06:14.284Z",
-      "jalon": 1,
-      "releveLe": "2026-10-31T19:20:38.650Z",
-      "likes": 0,
-      "commentairesBruts": 0,
-      "partages": 0,
-      "vues": null,
-      "commentaires": 0,
-      "v": 2,
-      "titre": "Bordeaux : cette piscine de 1935 est un monument historique",
-      "lien": "https://www.facebook.com/1720946116697936/posts/1770560538403160",
-      "format": null,
-      "mention": false,
-      "creneau": "soir",
-      "creneauReseau": "20 h – 21 h 30"
-    },
+    "mois": "2026-11",
+    "genereLe": "2026-10-31T23:01:06.816Z",
+    "posts": 0,
+    "parReseau": {},
+    "parFormat": {},
+    "parCreneau": {},
+    "parCreneauReseau": {},
+    "interactionsTotal": 0,
+    "meilleur": null,
+    "moinsBon": null,
     "mentions": {
       "avec": {
-        "posts": 64,
-        "moyenne": 8.5
+        "posts": 0,
+        "moyenne": 0
       },
       "sans": {
-        "posts": 91,
-        "moyenne": 3.7
+        "posts": 0,
+        "moyenne": 0
       }
     },
-    "publies": {
-      "threads": 40,
-      "facebook": 40,
-      "bluesky": 40,
-      "x": 40,
-      "instagram": 40
-    },
+    "publies": {},
     "abonnes": {
       "instagram": {
-        "debut": 10136,
-        "fin": 10134,
-        "gain": -2,
+        "debut": 10135,
+        "fin": 10135,
+        "gain": 0,
         "pct": 0,
-        "depuis": "2026-10-01",
-        "au": "2026-10-31"
+        "depuis": "2026-11-01",
+        "au": "2026-11-01"
       },
       "facebook": {
-        "debut": 42607,
-        "fin": 42568,
-        "gain": -39,
-        "pct": -0.1,
-        "depuis": "2026-10-01",
-        "au": "2026-10-31"
+        "debut": 42567,
+        "fin": 42567,
+        "gain": 0,
+        "pct": 0,
+        "depuis": "2026-11-01",
+        "au": "2026-11-01"
       },
       "bluesky": {
-        "debut": 4,
+        "debut": 10,
         "fin": 10,
-        "gain": 6,
-        "pct": 150,
-        "depuis": "2026-10-01",
-        "au": "2026-10-31"
+        "gain": 0,
+        "pct": 0,
+        "depuis": "2026-11-01",
+        "au": "2026-11-01"
       },
       "threads": {
-        "debut": 1149,
+        "debut": 1156,
         "fin": 1156,
-        "gain": 7,
-        "pct": 0.6,
-        "depuis": "2026-10-01",
-        "au": "2026-10-31"
+        "gain": 0,
+        "pct": 0,
+        "depuis": "2026-11-01",
+        "au": "2026-11-01"
       },
       "x": null
     },
-    "engagement": {
-      "instagram": 0.12,
-      "threads": 0.89,
-      "facebook": 0
-    },
+    "engagement": {},
     "conseils": [
-      "Threads : le créneau 13 h – 14 h 30 fait 21,8 fois mieux que 10 h – 11 h 30 (63.3 contre 2.9 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
-      "Le format « reponse » fait 108 fois mieux que « lien » (10.8 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « lien » de la rotation dans config/channels.json.",
-      "Abonnés : Threads progresse le plus (+7, +0,6 %) ; Facebook recule (−39), à surveiller.",
-      "Les posts avec mention font 4.8 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
+      "Trop peu de recul pour conseiller quoi que ce soit : il faut une dizaine de posts mesurés."
     ]
   },
   "couts": {
     "jour": {
-      "appels": 2,
-      "entree": 15942,
-      "sortie": 1700,
-      "cout": 0.097768,
-      "cle": "2026-10-31"
+      "appels": 0,
+      "entree": 0,
+      "sortie": 0,
+      "cout": 0,
+      "cle": "2026-11-01"
     },
     "semaine": {
-      "appels": 21,
-      "entree": 168177,
-      "sortie": 18601,
-      "cout": 1.0447279999999999
+      "appels": 20,
+      "entree": 160254,
+      "sortie": 17808,
+      "cout": 0.997176
     },
     "mois": {
-      "appels": 71,
-      "entree": 563712,
-      "sortie": 66603,
-      "cout": 3.586907999999999,
-      "cle": "2026-10"
+      "appels": 0,
+      "entree": 0,
+      "sortie": 0,
+      "cout": 0,
+      "cle": "2026-11"
     },
-    "projection": 3.59,
-    "moyenneAppel": 0.0505,
-    "parModele": {
-      "claude-opus-5-5": 71
-    },
+    "projection": 0,
+    "moyenneAppel": 0,
+    "parModele": {},
     "serie": [
-      [
-        "2026-10-18",
-        0.0503
-      ],
       [
         "2026-10-19",
         0.0481
@@ -973,6 +813,10 @@
       [
         "2026-10-31",
         0.0978
+      ],
+      [
+        "2026-11-01",
+        0
       ]
     ],
     "depuis": "2026-09-23"

@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-31T07:00:36.410Z",
+  "genereLe": "2026-10-31T07:20:36.625Z",
   "jour": "2026-10-31",
   "reseaux": {
     "instagram": {
@@ -60,11 +60,11 @@
         "image",
         "reply"
       ],
-      "aujourdhui": 0,
+      "aujourdhui": 1,
       "semaine": 10,
-      "total": 62,
-      "dernier": "2026-10-30T08:07:18.902Z",
-      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mz3d6il2ye2z"
+      "total": 63,
+      "dernier": "2026-10-31T07:32:45.813Z",
+      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mz5rpnliex2z"
     },
     "facebook": {
       "actif": true,
@@ -122,11 +122,11 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 9,
-      "total": 59,
-      "dernier": "2026-10-30T09:07:08.335Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DfHN-EnFvSA"
+      "aujourdhui": 1,
+      "semaine": 10,
+      "total": 60,
+      "dernier": "2026-10-31T07:31:03.230Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DfJnq2fFu_R"
     },
     "x": {
       "actif": true,
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35926",
       "titre": "Biarritz : la Gare du Midi n’était plus aux normes de sécurité",
       "lien": "https://passion-aquitaine.ouest-france.fr/biarritz-gare-du-midi-sieges-retires/",
-      "at": "2026-10-31T07:06:01.690Z",
+      "at": "2026-10-31T07:32:45.813Z",
       "reseaux": {
         "facebook": {
           "texte": "À Biarritz, la Gare du Midi doit se passer d’une centaine de sièges pour respecter enfin les règles de sécurité 🪑",
@@ -177,6 +177,22 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-10-31T07:06:01.690Z"
+        },
+        "threads": {
+          "texte": "Si vous avez l’habitude de fréquenter la Gare du Midi à Biarritz, attendez-vous à un changement 🎟️ Le lieu n’était plus aux normes de sécurité et compte désormais une centaine de sièges en moins. Une gare devenue autre chose depuis longtemps : plus aucun train n’y circule depuis 1980.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261031-f328a9da-th.jpg",
+          "mode": "reponse",
+          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/biarritz-gare-du-midi-sieges-retires/",
+          "sujet": "Biarritz",
+          "publieLe": "2026-10-31T07:31:03.230Z"
+        },
+        "bluesky": {
+          "texte": "🚉 Elle s’appelle toujours gare, mais aucun train ne s’y arrête depuis 1980. À #Biarritz, la Gare du Midi ne respectait plus les normes de #sécurité et perd une centaine de sièges.\n➡️ Lire l’article",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261031-f328a9da-bsky.jpg",
+          "mode": "image",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-10-31T07:32:45.813Z"
         }
       }
     },
@@ -423,6 +439,26 @@
   ],
   "publications": [
     {
+      "channel": "bluesky",
+      "at": "2026-10-31T07:32:45.813Z",
+      "titre": "Biarritz : la Gare du Midi n’était plus aux normes de sécurité",
+      "lien": "https://passion-aquitaine.ouest-france.fr/biarritz-gare-du-midi-sieges-retires/",
+      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mz5rpnliex2z",
+      "format": "image",
+      "texte": "🚉 Elle s’appelle toujours gare, mais aucun train ne s’y arrête depuis 1980. À #Biarritz, la Gare du Midi ne respectait plus les normes de #sécurité et perd une centaine de sièges.\n➡️ Lire l’article",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261031-f328a9da-bsky.jpg"
+    },
+    {
+      "channel": "threads",
+      "at": "2026-10-31T07:31:03.230Z",
+      "titre": "Biarritz : la Gare du Midi n’était plus aux normes de sécurité",
+      "lien": "https://passion-aquitaine.ouest-france.fr/biarritz-gare-du-midi-sieges-retires/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/DfJnq2fFu_R",
+      "format": "reponse",
+      "texte": "Si vous avez l’habitude de fréquenter la Gare du Midi à Biarritz, attendez-vous à un changement 🎟️ Le lieu n’était plus aux normes de sécurité et compte désormais une centaine de sièges en moins. Une gare devenue autre chose depuis longtemps : plus aucun train n’y circule depuis 1980.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261031-f328a9da-th.jpg"
+    },
+    {
       "channel": "facebook",
       "at": "2026-10-31T07:06:01.690Z",
       "titre": "Biarritz : la Gare du Midi n’était plus aux normes de sécurité",
@@ -501,47 +537,9 @@
       "format": null,
       "texte": "Pourquoi deux bébés raies ont-elles dû suivre un entraînement avant de rejoindre le bassin tropical de Biarritz 🤔",
       "image": null
-    },
-    {
-      "channel": "threads",
-      "at": "2026-10-30T06:15:42.539Z",
-      "titre": "Ces deux bébés raies arrivent à Biarritz : pourquoi elles ont passé 3 mois cachées",
-      "lien": "https://passion-aquitaine.ouest-france.fr/bebes-raies-biarritz-quarantaine/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/DfG6RPzEU2d",
-      "format": "reponse",
-      "texte": "🐟 Biarritz accueille deux nouvelles pensionnaires dans son bassin tropical : deux bébés raies. Mais avant de les voir nager devant le public, il a fallu patienter. Trois mois de quarantaine, cachées, puis un entraînement pour être prêtes. Une arrivée qui se prépare longtemps en coulisses, bien avant la première apparition.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261029-cf1b1551-th.jpg"
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-10-29T20:05:10.654Z",
-      "titre": "Bayonne obtient trois étoiles au Guide Michelin, la note maximale",
-      "lien": "https://passion-aquitaine.ouest-france.fr/bayonne-trois-etoiles-guide-michelin-voyage/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1769399611852586",
-      "format": null,
-      "texte": "Ses ruelles, ses quais, son ambiance : c’est la ville entière que le Michelin juge digne d’un voyage, pas seulement ses assiettes 🗺️",
-      "image": null
     }
   ],
   "file": [
-    {
-      "channel": "threads",
-      "dueAt": "2026-10-31T07:27:35.768Z",
-      "prochainPassage": "2026-10-31T08:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Biarritz : la Gare du Midi n’était plus aux normes de sécurité"
-    },
-    {
-      "channel": "bluesky",
-      "dueAt": "2026-10-31T07:32:43.925Z",
-      "prochainPassage": "2026-10-31T08:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Biarritz : la Gare du Midi n’était plus aux normes de sécurité"
-    },
     {
       "channel": "x",
       "dueAt": "2026-10-31T09:20:00.000Z",
@@ -563,14 +561,14 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 442,
+    "releves": 444,
     "parReseau": {
       "instagram": {
         "posts": 53,
         "interactionsMoyennes": 12.7
       },
       "bluesky": {
-        "posts": 52,
+        "posts": 53,
         "interactionsMoyennes": 0.2
       },
       "facebook": {
@@ -642,7 +640,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-10-31T06:00:39.297Z"
+    "derniere": "2026-10-31T07:20:36.625Z"
   },
   "abonnes": {
     "instagram": {
@@ -681,8 +679,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-10",
-    "genereLe": "2026-10-31T07:06:03.965Z",
-    "posts": 149,
+    "genereLe": "2026-10-31T07:32:57.818Z",
+    "posts": 150,
     "parReseau": {
       "instagram": {
         "posts": 36,
@@ -697,7 +695,7 @@
         "moyenne": 0.3
       },
       "facebook": {
-        "posts": 37,
+        "posts": 38,
         "moyenne": 0
       }
     },
@@ -733,7 +731,7 @@
         "moyenne": 5.1
       },
       "matin": {
-        "posts": 86,
+        "posts": 87,
         "moyenne": 2
       }
     },
@@ -754,7 +752,7 @@
       },
       "facebook": {
         "8 h – 9 h 30": {
-          "posts": 25,
+          "posts": 26,
           "moyenne": 0
         },
         "20 h – 21 h 30": {
@@ -813,24 +811,24 @@
       "creneauReseau": "13 h – 14 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35919",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35929",
       "channel": "facebook",
-      "mediaId": "227437307428711_1769399611852586",
-      "publieLe": "2026-10-29T20:05:10.654Z",
+      "mediaId": "227437307428711_1769905381802009",
+      "publieLe": "2026-10-30T07:14:01.993Z",
       "jalon": 1,
-      "releveLe": "2026-10-30T20:20:37.847Z",
+      "releveLe": "2026-10-31T07:20:36.625Z",
       "likes": 0,
       "commentairesBruts": 0,
       "partages": 0,
       "vues": null,
       "commentaires": 0,
       "v": 2,
-      "titre": "Bayonne obtient trois étoiles au Guide Michelin, la note maximale",
-      "lien": "https://www.facebook.com/1720946116697936/posts/1769399611852586",
+      "titre": "Ces deux bébés raies arrivent à Biarritz : pourquoi elles ont passé 3 mois cachées",
+      "lien": "https://www.facebook.com/1720946116697936/posts/1769905381802009",
       "format": null,
       "mention": false,
-      "creneau": "soir",
-      "creneauReseau": "20 h – 21 h 30"
+      "creneau": "matin",
+      "creneauReseau": "8 h – 9 h 30"
     },
     "mentions": {
       "avec": {
@@ -838,14 +836,14 @@
         "moyenne": 8.6
       },
       "sans": {
-        "posts": 89,
-        "moyenne": 3.8
+        "posts": 90,
+        "moyenne": 3.7
       }
     },
     "publies": {
-      "threads": 39,
+      "threads": 40,
       "facebook": 40,
-      "bluesky": 39,
+      "bluesky": 40,
       "x": 39,
       "instagram": 39
     },
@@ -893,7 +891,7 @@
       "Threads : le créneau 13 h – 14 h 30 fait 24,3 fois mieux que 10 h – 11 h 30 (63.3 contre 2.6 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Le format « reponse » fait 110 fois mieux que « lien » (11 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « lien » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+7, +0,6 %) ; Facebook recule (−39), à surveiller.",
-      "Les posts avec mention font 4.8 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
+      "Les posts avec mention font 4.9 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
     ]
   },
   "couts": {

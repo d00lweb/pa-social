@@ -5392,5 +5392,41 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35926",
+    "channel": "threads",
+    "at": "2026-10-31T07:31:03.230Z",
+    "mediaId": "18131672821691129",
+    "titre": "Biarritz : la Gare du Midi n’était plus aux normes de sécurité",
+    "lien": "https://passion-aquitaine.ouest-france.fr/biarritz-gare-du-midi-sieges-retires/",
+    "lienPost": "https://www.threads.com/@lovaquitaine/post/DfJnq2fFu_R",
+    "format": "reponse",
+    "mention": false,
+    "apercu": {
+      "texte": "Si vous avez l’habitude de fréquenter la Gare du Midi à Biarritz, attendez-vous à un changement 🎟️ Le lieu n’était plus aux normes de sécurité et compte désormais une centaine de sièges en moins. Une gare devenue autre chose depuis longtemps : plus aucun train n’y circule depuis 1980.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261031-f328a9da-th.jpg",
+      "mode": "reponse",
+      "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/biarritz-gare-du-midi-sieges-retires/",
+      "sujet": "Biarritz"
+    }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35926",
+    "channel": "bluesky",
+    "at": "2026-10-31T07:32:45.813Z",
+    "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mz5rpnliex2z",
+    "titre": "Biarritz : la Gare du Midi n’était plus aux normes de sécurité",
+    "lien": "https://passion-aquitaine.ouest-france.fr/biarritz-gare-du-midi-sieges-retires/",
+    "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mz5rpnliex2z",
+    "format": "image",
+    "mention": false,
+    "apercu": {
+      "texte": "🚉 Elle s’appelle toujours gare, mais aucun train ne s’y arrête depuis 1980. À #Biarritz, la Gare du Midi ne respectait plus les normes de #sécurité et perd une centaine de sièges.\n➡️ Lire l’article",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261031-f328a9da-bsky.jpg",
+      "mode": "image",
+      "reponse": null,
+      "sujet": null
+    }
   }
 ]

@@ -1,1 +1,592 @@
-[]
+[
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35991",
+    "channel": "instagram",
+    "dueAt": 1793535103213,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Angoulême ouvre la première classe BD de France en primaire",
+      "link": "https://passion-aquitaine.ouest-france.fr/angouleme-classe-bd-ecole-premiere-france/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35991",
+      "pubDate": "Sun, 01 Nov 2026 06:30:31 +0000",
+      "date": 1793514631000,
+      "categories": [
+        "Actus",
+        "Charente"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/10/ecole-bd-enfants.jpeg",
+      "description": "À Angoulême, des CM1 et CM2 suivent deux heures de BD par semaine avec un auteur. Une première en France en école élémentaire."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Angoulême",
+      "visuel": {
+        "titre": "Angoulême ouvre la première classe BD de France en primaire",
+        "surlignage": "classe BD",
+        "description": "Des élèves de CM1 et CM2 suivent deux heures de bande dessinée par semaine, aux côtés d’un auteur. Une première en France en école élémentaire.",
+        "texte_alternatif": "Des écoliers de CM1 et CM2 d’Angoulême, en Charente, apprennent la bande dessinée avec un auteur, dans la première classe BD de France en primaire."
+      },
+      "entites": [],
+      "domaines": [
+        "bd",
+        "éducation"
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "Angoulême, capitale de la BD, ouvre désormais ses cases aux écoliers ✏️\nDes CM1 et CM2 y suivent deux heures de bande dessinée par semaine avec un auteur. Une première en France dans une école élémentaire, en Charente.",
+        "hashtags": [
+          "#Angouleme",
+          "#BandeDessinee",
+          "#Ecole"
+        ]
+      },
+      "facebook": {
+        "texte": "Deux heures par semaine à dessiner des bulles avec un vrai auteur de BD, c’est désormais au programme de certains écoliers 💬"
+      },
+      "bluesky": {
+        "texte": "Apprendre à raconter une histoire en cases, dès le CM1 : à Angoulême, des élèves suivent deux heures de bande dessinée par semaine avec un auteur. Une première en France en école élémentaire 📚",
+        "hashtag": "#Angoulême"
+      },
+      "threads": {
+        "texte": "🖍️ En école élémentaire, aucune classe en France n’était encore consacrée à la bande dessinée. C’est Angoulême qui ouvre la voie : des CM1 et CM2 y passent deux heures par semaine avec un auteur, crayon en main. Une initiative qui colle bien à la ville. Vous auriez aimé avoir ce cours à leur âge ?",
+        "sujet": "Angoulême"
+      },
+      "x": {
+        "texte": "Des crayons, des planches et des bulles qui prennent vie sur les pupitres 🎨 À Angoulême, des CM1 et CM2 font deux heures de BD par semaine avec un auteur, une première en France en primaire."
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 7918,
+        "output": 802
+      },
+      "angles": {
+        "instagram": "lieu en tête",
+        "facebook": "effet de surprise",
+        "bluesky": "bénéfice pour le lecteur",
+        "threads": "détail méconnu",
+        "x": "image évocatrice"
+      },
+      "lieuSource": {
+        "precis": "",
+        "ville": "Angoulême",
+        "departement": "Charente"
+      },
+      "lieuNom": "Angoulême",
+      "commune": "Angoulême",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Ville d’Angoulême",
+            "handle": "villeangouleme",
+            "abonnes": 12026,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          },
+          {
+            "nom": "Département de la Charente",
+            "handle": "departementcharente",
+            "abonnes": 5889,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "Angoulême",
+            "handle": "MairieAngouleme",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          }
+        ],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35991",
+    "channel": "bluesky",
+    "dueAt": 1793520633635,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Angoulême ouvre la première classe BD de France en primaire",
+      "link": "https://passion-aquitaine.ouest-france.fr/angouleme-classe-bd-ecole-premiere-france/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35991",
+      "pubDate": "Sun, 01 Nov 2026 06:30:31 +0000",
+      "date": 1793514631000,
+      "categories": [
+        "Actus",
+        "Charente"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/10/ecole-bd-enfants.jpeg",
+      "description": "À Angoulême, des CM1 et CM2 suivent deux heures de BD par semaine avec un auteur. Une première en France en école élémentaire."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Angoulême",
+      "visuel": {
+        "titre": "Angoulême ouvre la première classe BD de France en primaire",
+        "surlignage": "classe BD",
+        "description": "Des élèves de CM1 et CM2 suivent deux heures de bande dessinée par semaine, aux côtés d’un auteur. Une première en France en école élémentaire.",
+        "texte_alternatif": "Des écoliers de CM1 et CM2 d’Angoulême, en Charente, apprennent la bande dessinée avec un auteur, dans la première classe BD de France en primaire."
+      },
+      "entites": [],
+      "domaines": [
+        "bd",
+        "éducation"
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "Angoulême, capitale de la BD, ouvre désormais ses cases aux écoliers ✏️\nDes CM1 et CM2 y suivent deux heures de bande dessinée par semaine avec un auteur. Une première en France dans une école élémentaire, en Charente.",
+        "hashtags": [
+          "#Angouleme",
+          "#BandeDessinee",
+          "#Ecole"
+        ]
+      },
+      "facebook": {
+        "texte": "Deux heures par semaine à dessiner des bulles avec un vrai auteur de BD, c’est désormais au programme de certains écoliers 💬"
+      },
+      "bluesky": {
+        "texte": "Apprendre à raconter une histoire en cases, dès le CM1 : à Angoulême, des élèves suivent deux heures de bande dessinée par semaine avec un auteur. Une première en France en école élémentaire 📚",
+        "hashtag": "#Angoulême"
+      },
+      "threads": {
+        "texte": "🖍️ En école élémentaire, aucune classe en France n’était encore consacrée à la bande dessinée. C’est Angoulême qui ouvre la voie : des CM1 et CM2 y passent deux heures par semaine avec un auteur, crayon en main. Une initiative qui colle bien à la ville. Vous auriez aimé avoir ce cours à leur âge ?",
+        "sujet": "Angoulême"
+      },
+      "x": {
+        "texte": "Des crayons, des planches et des bulles qui prennent vie sur les pupitres 🎨 À Angoulême, des CM1 et CM2 font deux heures de BD par semaine avec un auteur, une première en France en primaire."
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 7918,
+        "output": 802
+      },
+      "angles": {
+        "instagram": "lieu en tête",
+        "facebook": "effet de surprise",
+        "bluesky": "bénéfice pour le lecteur",
+        "threads": "détail méconnu",
+        "x": "image évocatrice"
+      },
+      "lieuSource": {
+        "precis": "",
+        "ville": "Angoulême",
+        "departement": "Charente"
+      },
+      "lieuNom": "Angoulême",
+      "commune": "Angoulême",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Ville d’Angoulême",
+            "handle": "villeangouleme",
+            "abonnes": 12026,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          },
+          {
+            "nom": "Département de la Charente",
+            "handle": "departementcharente",
+            "abonnes": 5889,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "Angoulême",
+            "handle": "MairieAngouleme",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          }
+        ],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35991",
+    "channel": "facebook",
+    "dueAt": 1793518383513,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Angoulême ouvre la première classe BD de France en primaire",
+      "link": "https://passion-aquitaine.ouest-france.fr/angouleme-classe-bd-ecole-premiere-france/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35991",
+      "pubDate": "Sun, 01 Nov 2026 06:30:31 +0000",
+      "date": 1793514631000,
+      "categories": [
+        "Actus",
+        "Charente"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/10/ecole-bd-enfants.jpeg",
+      "description": "À Angoulême, des CM1 et CM2 suivent deux heures de BD par semaine avec un auteur. Une première en France en école élémentaire."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Angoulême",
+      "visuel": {
+        "titre": "Angoulême ouvre la première classe BD de France en primaire",
+        "surlignage": "classe BD",
+        "description": "Des élèves de CM1 et CM2 suivent deux heures de bande dessinée par semaine, aux côtés d’un auteur. Une première en France en école élémentaire.",
+        "texte_alternatif": "Des écoliers de CM1 et CM2 d’Angoulême, en Charente, apprennent la bande dessinée avec un auteur, dans la première classe BD de France en primaire."
+      },
+      "entites": [],
+      "domaines": [
+        "bd",
+        "éducation"
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "Angoulême, capitale de la BD, ouvre désormais ses cases aux écoliers ✏️\nDes CM1 et CM2 y suivent deux heures de bande dessinée par semaine avec un auteur. Une première en France dans une école élémentaire, en Charente.",
+        "hashtags": [
+          "#Angouleme",
+          "#BandeDessinee",
+          "#Ecole"
+        ]
+      },
+      "facebook": {
+        "texte": "Deux heures par semaine à dessiner des bulles avec un vrai auteur de BD, c’est désormais au programme de certains écoliers 💬"
+      },
+      "bluesky": {
+        "texte": "Apprendre à raconter une histoire en cases, dès le CM1 : à Angoulême, des élèves suivent deux heures de bande dessinée par semaine avec un auteur. Une première en France en école élémentaire 📚",
+        "hashtag": "#Angoulême"
+      },
+      "threads": {
+        "texte": "🖍️ En école élémentaire, aucune classe en France n’était encore consacrée à la bande dessinée. C’est Angoulême qui ouvre la voie : des CM1 et CM2 y passent deux heures par semaine avec un auteur, crayon en main. Une initiative qui colle bien à la ville. Vous auriez aimé avoir ce cours à leur âge ?",
+        "sujet": "Angoulême"
+      },
+      "x": {
+        "texte": "Des crayons, des planches et des bulles qui prennent vie sur les pupitres 🎨 À Angoulême, des CM1 et CM2 font deux heures de BD par semaine avec un auteur, une première en France en primaire."
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 7918,
+        "output": 802
+      },
+      "angles": {
+        "instagram": "lieu en tête",
+        "facebook": "effet de surprise",
+        "bluesky": "bénéfice pour le lecteur",
+        "threads": "détail méconnu",
+        "x": "image évocatrice"
+      },
+      "lieuSource": {
+        "precis": "",
+        "ville": "Angoulême",
+        "departement": "Charente"
+      },
+      "lieuNom": "Angoulême",
+      "commune": "Angoulême",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Ville d’Angoulême",
+            "handle": "villeangouleme",
+            "abonnes": 12026,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          },
+          {
+            "nom": "Département de la Charente",
+            "handle": "departementcharente",
+            "abonnes": 5889,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "Angoulême",
+            "handle": "MairieAngouleme",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          }
+        ],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35991",
+    "channel": "threads",
+    "dueAt": 1793517991272,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Angoulême ouvre la première classe BD de France en primaire",
+      "link": "https://passion-aquitaine.ouest-france.fr/angouleme-classe-bd-ecole-premiere-france/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35991",
+      "pubDate": "Sun, 01 Nov 2026 06:30:31 +0000",
+      "date": 1793514631000,
+      "categories": [
+        "Actus",
+        "Charente"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/10/ecole-bd-enfants.jpeg",
+      "description": "À Angoulême, des CM1 et CM2 suivent deux heures de BD par semaine avec un auteur. Une première en France en école élémentaire."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Angoulême",
+      "visuel": {
+        "titre": "Angoulême ouvre la première classe BD de France en primaire",
+        "surlignage": "classe BD",
+        "description": "Des élèves de CM1 et CM2 suivent deux heures de bande dessinée par semaine, aux côtés d’un auteur. Une première en France en école élémentaire.",
+        "texte_alternatif": "Des écoliers de CM1 et CM2 d’Angoulême, en Charente, apprennent la bande dessinée avec un auteur, dans la première classe BD de France en primaire."
+      },
+      "entites": [],
+      "domaines": [
+        "bd",
+        "éducation"
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "Angoulême, capitale de la BD, ouvre désormais ses cases aux écoliers ✏️\nDes CM1 et CM2 y suivent deux heures de bande dessinée par semaine avec un auteur. Une première en France dans une école élémentaire, en Charente.",
+        "hashtags": [
+          "#Angouleme",
+          "#BandeDessinee",
+          "#Ecole"
+        ]
+      },
+      "facebook": {
+        "texte": "Deux heures par semaine à dessiner des bulles avec un vrai auteur de BD, c’est désormais au programme de certains écoliers 💬"
+      },
+      "bluesky": {
+        "texte": "Apprendre à raconter une histoire en cases, dès le CM1 : à Angoulême, des élèves suivent deux heures de bande dessinée par semaine avec un auteur. Une première en France en école élémentaire 📚",
+        "hashtag": "#Angoulême"
+      },
+      "threads": {
+        "texte": "🖍️ En école élémentaire, aucune classe en France n’était encore consacrée à la bande dessinée. C’est Angoulême qui ouvre la voie : des CM1 et CM2 y passent deux heures par semaine avec un auteur, crayon en main. Une initiative qui colle bien à la ville. Vous auriez aimé avoir ce cours à leur âge ?",
+        "sujet": "Angoulême"
+      },
+      "x": {
+        "texte": "Des crayons, des planches et des bulles qui prennent vie sur les pupitres 🎨 À Angoulême, des CM1 et CM2 font deux heures de BD par semaine avec un auteur, une première en France en primaire."
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 7918,
+        "output": 802
+      },
+      "angles": {
+        "instagram": "lieu en tête",
+        "facebook": "effet de surprise",
+        "bluesky": "bénéfice pour le lecteur",
+        "threads": "détail méconnu",
+        "x": "image évocatrice"
+      },
+      "lieuSource": {
+        "precis": "",
+        "ville": "Angoulême",
+        "departement": "Charente"
+      },
+      "lieuNom": "Angoulême",
+      "commune": "Angoulême",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Ville d’Angoulême",
+            "handle": "villeangouleme",
+            "abonnes": 12026,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          },
+          {
+            "nom": "Département de la Charente",
+            "handle": "departementcharente",
+            "abonnes": 5889,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "Angoulême",
+            "handle": "MairieAngouleme",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          }
+        ],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35991",
+    "channel": "x",
+    "dueAt": 1793524800000,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Angoulême ouvre la première classe BD de France en primaire",
+      "link": "https://passion-aquitaine.ouest-france.fr/angouleme-classe-bd-ecole-premiere-france/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35991",
+      "pubDate": "Sun, 01 Nov 2026 06:30:31 +0000",
+      "date": 1793514631000,
+      "categories": [
+        "Actus",
+        "Charente"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/10/ecole-bd-enfants.jpeg",
+      "description": "À Angoulême, des CM1 et CM2 suivent deux heures de BD par semaine avec un auteur. Une première en France en école élémentaire."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Angoulême",
+      "visuel": {
+        "titre": "Angoulême ouvre la première classe BD de France en primaire",
+        "surlignage": "classe BD",
+        "description": "Des élèves de CM1 et CM2 suivent deux heures de bande dessinée par semaine, aux côtés d’un auteur. Une première en France en école élémentaire.",
+        "texte_alternatif": "Des écoliers de CM1 et CM2 d’Angoulême, en Charente, apprennent la bande dessinée avec un auteur, dans la première classe BD de France en primaire."
+      },
+      "entites": [],
+      "domaines": [
+        "bd",
+        "éducation"
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "Angoulême, capitale de la BD, ouvre désormais ses cases aux écoliers ✏️\nDes CM1 et CM2 y suivent deux heures de bande dessinée par semaine avec un auteur. Une première en France dans une école élémentaire, en Charente.",
+        "hashtags": [
+          "#Angouleme",
+          "#BandeDessinee",
+          "#Ecole"
+        ]
+      },
+      "facebook": {
+        "texte": "Deux heures par semaine à dessiner des bulles avec un vrai auteur de BD, c’est désormais au programme de certains écoliers 💬"
+      },
+      "bluesky": {
+        "texte": "Apprendre à raconter une histoire en cases, dès le CM1 : à Angoulême, des élèves suivent deux heures de bande dessinée par semaine avec un auteur. Une première en France en école élémentaire 📚",
+        "hashtag": "#Angoulême"
+      },
+      "threads": {
+        "texte": "🖍️ En école élémentaire, aucune classe en France n’était encore consacrée à la bande dessinée. C’est Angoulême qui ouvre la voie : des CM1 et CM2 y passent deux heures par semaine avec un auteur, crayon en main. Une initiative qui colle bien à la ville. Vous auriez aimé avoir ce cours à leur âge ?",
+        "sujet": "Angoulême"
+      },
+      "x": {
+        "texte": "Des crayons, des planches et des bulles qui prennent vie sur les pupitres 🎨 À Angoulême, des CM1 et CM2 font deux heures de BD par semaine avec un auteur, une première en France en primaire."
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 7918,
+        "output": 802
+      },
+      "angles": {
+        "instagram": "lieu en tête",
+        "facebook": "effet de surprise",
+        "bluesky": "bénéfice pour le lecteur",
+        "threads": "détail méconnu",
+        "x": "image évocatrice"
+      },
+      "lieuSource": {
+        "precis": "",
+        "ville": "Angoulême",
+        "departement": "Charente"
+      },
+      "lieuNom": "Angoulême",
+      "commune": "Angoulême",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Ville d’Angoulême",
+            "handle": "villeangouleme",
+            "abonnes": 12026,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          },
+          {
+            "nom": "Département de la Charente",
+            "handle": "departementcharente",
+            "abonnes": 5889,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "Angoulême",
+            "handle": "MairieAngouleme",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          }
+        ],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  }
+]

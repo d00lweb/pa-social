@@ -1413,5 +1413,41 @@
     "instagram": [],
     "threads": [],
     "bluesky": []
+  },
+  "commune:mairie:angouleme": {
+    "v": 3,
+    "cherche": "2026-11-01T06:42:59.184Z",
+    "instagram": [
+      {
+        "handle": "villeangouleme",
+        "nom": "Ville d’Angoulême",
+        "abonnes": 12026,
+        "preuve": 3
+      }
+    ],
+    "x": [
+      {
+        "handle": "MairieAngouleme",
+        "nom": "",
+        "abonnes": null,
+        "preuve": 3
+      }
+    ],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:angouleme:bd": {
+    "v": 3,
+    "cherche": "2026-11-01T06:42:59.184Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:angouleme:education": {
+    "v": 3,
+    "cherche": "2026-11-01T06:42:59.184Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
   }
 }

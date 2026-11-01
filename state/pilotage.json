@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-01T07:00:39.073Z",
+  "genereLe": "2026-11-01T07:20:32.030Z",
   "jour": "2026-11-01",
   "reseaux": {
     "instagram": {
@@ -61,7 +61,7 @@
         "reply"
       ],
       "aujourdhui": 0,
-      "semaine": 10,
+      "semaine": 9,
       "total": 63,
       "dernier": "2026-10-31T07:32:45.813Z",
       "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mz5rpnliex2z"
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 10,
-      "total": 60,
-      "dernier": "2026-10-31T07:06:01.690Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1771103605015520"
+      "aujourdhui": 1,
+      "semaine": 11,
+      "total": 61,
+      "dernier": "2026-11-01T07:33:07.317Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1772293898229824"
     },
     "threads": {
       "actif": true,
@@ -122,11 +122,11 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 10,
-      "total": 60,
-      "dernier": "2026-10-31T07:31:03.230Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DfJnq2fFu_R"
+      "aujourdhui": 1,
+      "semaine": 11,
+      "total": 61,
+      "dernier": "2026-11-01T07:30:49.179Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DfMMV0FERfp"
     },
     "x": {
       "actif": true,
@@ -164,6 +164,30 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35991",
+      "titre": "Angoulême ouvre la première classe BD de France en primaire",
+      "lien": "https://passion-aquitaine.ouest-france.fr/angouleme-classe-bd-ecole-premiere-france/",
+      "at": "2026-11-01T07:33:07.317Z",
+      "reseaux": {
+        "threads": {
+          "texte": "🖍️ En école élémentaire, aucune classe en France n’était encore consacrée à la bande dessinée. C’est Angoulême qui ouvre la voie : des CM1 et CM2 y passent deux heures par semaine avec un auteur, crayon en main. Une initiative qui colle bien à la ville. Vous auriez aimé avoir ce cours à leur âge ?",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261101-10635de7-th.jpg",
+          "mode": "reponse",
+          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/angouleme-classe-bd-ecole-premiere-france/",
+          "sujet": "Angoulême",
+          "publieLe": "2026-11-01T07:30:49.179Z"
+        },
+        "facebook": {
+          "texte": "Deux heures par semaine à dessiner des bulles avec un vrai auteur de BD, c’est désormais au programme de certains écoliers 💬",
+          "image": null,
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-01T07:33:07.317Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35926",
       "titre": "Biarritz : la Gare du Midi n’était plus aux normes de sécurité",
@@ -403,57 +427,29 @@
           "publieLe": "2026-10-29T11:03:53.306Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35870",
-      "titre": "En Corrèze, on a détruit un étang vieux de 200 ans pour… restaurer la nature",
-      "lien": "https://passion-aquitaine.ouest-france.fr/etang-chareneuve-palisse-zone-humide/",
-      "at": "2026-10-28T20:08:26.707Z",
-      "reseaux": {
-        "threads": {
-          "texte": "Imaginez une eau immobile depuis deux siècles, puis la vidange, et peu à peu une terre gorgée d’eau qui reprend ses droits. C’est ce qui se passe en Corrèze : un étang vieux de 200 ans disparaît pour laisser place à une zone humide, avec un but assumé, restaurer la nature 🌾",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261028-e300bb54-th.jpg",
-          "mode": "reponse",
-          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/etang-chareneuve-palisse-zone-humide/",
-          "sujet": "Corrèze",
-          "publieLe": "2026-10-28T10:32:20.317Z"
-        },
-        "x": {
-          "texte": "🤔 Pourquoi supprimer un étang vieux de 200 ans quand on veut protéger la nature ? En #Corrèze, il cède sa place à une zone humide pour restaurer le milieu naturel.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261028-e300bb54-x.jpg",
-          "mode": "reponse",
-          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/etang-chareneuve-palisse-zone-humide/",
-          "sujet": null,
-          "publieLe": "2026-10-28T11:21:10.741Z"
-        },
-        "bluesky": {
-          "texte": "En #Corrèze, un étang creusé il y a deux siècles disparaît. À sa place : 🐸 une zone humide, choisie pour restaurer la nature. Un étang n’est donc pas toujours l’allié qu’on imagine.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261028-e300bb54-bsky.jpg",
-          "mode": "card",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-28T12:06:34.074Z"
-        },
-        "instagram": {
-          "texte": "🦆 Détruire un étang de 200 ans pour aider la nature : en Corrèze, c’est le pari qui vient d’être fait\n⠀\nL’étang disparaît et laisse place à une zone humide. Un paradoxe apparent pour restaurer les paysages corréziens.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Correze #ZoneHumide #Biodiversite",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261028-e300bb54-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-28T17:13:46.923Z"
-        },
-        "facebook": {
-          "texte": "Moins d’eau stagnante, plus de vie : voilà ce que change une zone humide à la place d’un vieil étang corrézien 🌿",
-          "image": null,
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-28T20:08:26.707Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "facebook",
+      "at": "2026-11-01T07:33:07.317Z",
+      "titre": "Angoulême ouvre la première classe BD de France en primaire",
+      "lien": "https://passion-aquitaine.ouest-france.fr/angouleme-classe-bd-ecole-premiere-france/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1772293898229824",
+      "format": null,
+      "texte": "Deux heures par semaine à dessiner des bulles avec un vrai auteur de BD, c’est désormais au programme de certains écoliers 💬",
+      "image": null
+    },
+    {
+      "channel": "threads",
+      "at": "2026-11-01T07:30:49.179Z",
+      "titre": "Angoulême ouvre la première classe BD de France en primaire",
+      "lien": "https://passion-aquitaine.ouest-france.fr/angouleme-classe-bd-ecole-premiere-france/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/DfMMV0FERfp",
+      "format": "reponse",
+      "texte": "🖍️ En école élémentaire, aucune classe en France n’était encore consacrée à la bande dessinée. C’est Angoulême qui ouvre la voie : des CM1 et CM2 y passent deux heures par semaine avec un auteur, crayon en main. Une initiative qui colle bien à la ville. Vous auriez aimé avoir ce cours à leur âge ?",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261101-10635de7-th.jpg"
+    },
     {
       "channel": "instagram",
       "at": "2026-10-31T12:03:41.128Z",
@@ -533,47 +529,9 @@
       "format": null,
       "texte": "Deux petites ailes qui ondulent pour la première fois dans le grand bassin tropical de Biarritz 🐠\n⠀\nAvant ce baptême, les deux bébés raies ont passé trois mois en quarantaine, loin des regards. Un entraînement les a préparées à leur nouvelle vie au Pays basque.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Biarritz #PaysBasque #Raies",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261029-cf1b1551-1.jpg"
-    },
-    {
-      "channel": "threads",
-      "at": "2026-10-30T09:07:08.335Z",
-      "titre": "Bordeaux : cette piscine de 1935 est un monument historique",
-      "lien": "https://passion-aquitaine.ouest-france.fr/piscine-judaique-bordeaux-art-deco-monument-historique/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/DfHN-EnFvSA",
-      "format": "reponse",
-      "texte": "Un monument historique, on le visite en général avec un audioguide. À Bordeaux, il faut plutôt prévoir un maillot de bain 🩱 La piscine Judaïque, construite en 1935, est classée et se découvre en nageant, entre mosaïques, toit ouvrant et plongeoir de 5 m.\n@villedebordeaux @visitbordeaux",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261030-69a609ca-th.jpg"
-    },
-    {
-      "channel": "bluesky",
-      "at": "2026-10-30T08:07:18.902Z",
-      "titre": "Bordeaux : cette piscine de 1935 est un monument historique",
-      "lien": "https://passion-aquitaine.ouest-france.fr/piscine-judaique-bordeaux-art-deco-monument-historique/",
-      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mz3d6il2ye2z",
-      "format": "reply",
-      "texte": "#Bordeaux possède une piscine classée monument historique 🏛️ La piscine Judaïque, inaugurée en 1935, conserve mosaïques, toit ouvrant et plongeoir de 5 m, et ce #patrimoine se découvre depuis l’eau.\n@villedebordeaux.bsky.social",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261030-69a609ca-bsky.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "threads",
-      "dueAt": "2026-11-01T07:26:31.272Z",
-      "prochainPassage": "2026-11-01T08:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Angoulême ouvre la première classe BD de France en primaire"
-    },
-    {
-      "channel": "facebook",
-      "dueAt": "2026-11-01T07:33:03.513Z",
-      "prochainPassage": "2026-11-01T08:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Angoulême ouvre la première classe BD de France en primaire"
-    },
     {
       "channel": "bluesky",
       "dueAt": "2026-11-01T08:10:33.635Z",
@@ -604,14 +562,14 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 452,
+    "releves": 454,
     "parReseau": {
       "instagram": {
         "posts": 55,
         "interactionsMoyennes": 13
       },
       "bluesky": {
-        "posts": 53,
+        "posts": 54,
         "interactionsMoyennes": 0.2
       },
       "facebook": {
@@ -723,7 +681,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-01T07:00:43.678Z",
+    "genereLe": "2026-11-01T07:33:10.929Z",
     "posts": 0,
     "parReseau": {},
     "parFormat": {},
@@ -742,7 +700,10 @@
         "moyenne": 0
       }
     },
-    "publies": {},
+    "publies": {
+      "threads": 1,
+      "facebook": 1
+    },
     "abonnes": {
       "instagram": {
         "debut": 10135,

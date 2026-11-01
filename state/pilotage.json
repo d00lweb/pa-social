@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-01T11:20:43.203Z",
+  "genereLe": "2026-11-01T12:00:36.835Z",
   "jour": "2026-11-01",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 0,
+      "aujourdhui": 1,
       "semaine": 10,
-      "total": 65,
-      "dernier": "2026-10-31T12:03:41.128Z",
-      "lienDernier": "https://www.instagram.com/p/DfKHN8al3Az/"
+      "total": 66,
+      "dernier": "2026-11-01T12:12:15.409Z",
+      "lienDernier": "https://www.instagram.com/p/DfMtAfyDPLt/"
     },
     "bluesky": {
       "actif": true,
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35991",
       "titre": "Angoulême ouvre la première classe BD de France en primaire",
       "lien": "https://passion-aquitaine.ouest-france.fr/angouleme-classe-bd-ecole-premiere-france/",
-      "at": "2026-11-01T09:20:48.859Z",
+      "at": "2026-11-01T12:12:15.409Z",
       "reseaux": {
         "threads": {
           "texte": "🖍️ En école élémentaire, aucune classe en France n’était encore consacrée à la bande dessinée. C’est Angoulême qui ouvre la voie : des CM1 et CM2 y passent deux heures par semaine avec un auteur, crayon en main. Une initiative qui colle bien à la ville. Vous auriez aimé avoir ce cours à leur âge ?",
@@ -201,6 +201,14 @@
           "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/angouleme-classe-bd-ecole-premiere-france/",
           "sujet": null,
           "publieLe": "2026-11-01T09:20:48.859Z"
+        },
+        "instagram": {
+          "texte": "Angoulême, capitale de la BD, ouvre désormais ses cases aux écoliers ✏️\n⠀\nDes CM1 et CM2 y suivent deux heures de bande dessinée par semaine avec un auteur. Une première en France dans une école élémentaire, en Charente.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Angouleme #BandeDessinee #Ecole",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261101-10635de7-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-01T12:12:15.409Z"
         }
       }
     },
@@ -447,6 +455,16 @@
   ],
   "publications": [
     {
+      "channel": "instagram",
+      "at": "2026-11-01T12:12:15.409Z",
+      "titre": "Angoulême ouvre la première classe BD de France en primaire",
+      "lien": "https://passion-aquitaine.ouest-france.fr/angouleme-classe-bd-ecole-premiere-france/",
+      "lienPost": "https://www.instagram.com/p/DfMtAfyDPLt/",
+      "format": null,
+      "texte": "Angoulême, capitale de la BD, ouvre désormais ses cases aux écoliers ✏️\n⠀\nDes CM1 et CM2 y suivent deux heures de bande dessinée par semaine avec un auteur. Une première en France dans une école élémentaire, en Charente.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Angouleme #BandeDessinee #Ecole",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261101-10635de7-1.jpg"
+    },
+    {
       "channel": "x",
       "at": "2026-11-01T09:20:48.859Z",
       "titre": "Angoulême ouvre la première classe BD de France en primaire",
@@ -535,36 +553,16 @@
       "format": null,
       "texte": "À Biarritz, la Gare du Midi doit se passer d’une centaine de sièges pour respecter enfin les règles de sécurité 🪑",
       "image": null
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-10-30T19:06:14.284Z",
-      "titre": "Bordeaux : cette piscine de 1935 est un monument historique",
-      "lien": "https://passion-aquitaine.ouest-france.fr/piscine-judaique-bordeaux-art-deco-monument-historique/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1770560538403160",
-      "format": null,
-      "texte": "Un plongeoir de 5 mètres, des mosaïques et un toit qui s’ouvre, dans une piscine classée qu’on visite en nageant 🤿",
-      "image": null
     }
   ],
-  "file": [
-    {
-      "channel": "instagram",
-      "dueAt": "2026-11-01T12:11:43.213Z",
-      "prochainPassage": "2026-11-01T12:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Angoulême ouvre la première classe BD de France en primaire"
-    }
-  ],
+  "file": [],
   "alertes": [],
   "mesures": {
-    "releves": 458,
+    "releves": 459,
     "parReseau": {
       "instagram": {
-        "posts": 55,
-        "interactionsMoyennes": 13
+        "posts": 56,
+        "interactionsMoyennes": 12.9
       },
       "bluesky": {
         "posts": 54,
@@ -679,7 +677,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-01T11:20:49.708Z",
+    "genereLe": "2026-11-01T12:12:18.296Z",
     "posts": 0,
     "parReseau": {},
     "parFormat": {},
@@ -702,7 +700,8 @@
       "threads": 1,
       "facebook": 1,
       "bluesky": 1,
-      "x": 1
+      "x": 1,
+      "instagram": 1
     },
     "abonnes": {
       "instagram": {

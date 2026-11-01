@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-01T07:20:32.030Z",
+  "genereLe": "2026-11-01T08:00:41.106Z",
   "jour": "2026-11-01",
   "reseaux": {
     "instagram": {
@@ -60,11 +60,11 @@
         "image",
         "reply"
       ],
-      "aujourdhui": 0,
-      "semaine": 9,
-      "total": 63,
-      "dernier": "2026-10-31T07:32:45.813Z",
-      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mz5rpnliex2z"
+      "aujourdhui": 1,
+      "semaine": 10,
+      "total": 64,
+      "dernier": "2026-11-01T08:10:36.597Z",
+      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mzaec7yy5x2c"
     },
     "facebook": {
       "actif": true,
@@ -89,7 +89,7 @@
       },
       "formats": null,
       "aujourdhui": 1,
-      "semaine": 11,
+      "semaine": 10,
       "total": 61,
       "dernier": "2026-11-01T07:33:07.317Z",
       "lienDernier": "https://www.facebook.com/1720946116697936/posts/1772293898229824"
@@ -123,7 +123,7 @@
         "reponse"
       ],
       "aujourdhui": 1,
-      "semaine": 11,
+      "semaine": 10,
       "total": 61,
       "dernier": "2026-11-01T07:30:49.179Z",
       "lienDernier": "https://www.threads.com/@lovaquitaine/post/DfMMV0FERfp"
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35991",
       "titre": "Angoulême ouvre la première classe BD de France en primaire",
       "lien": "https://passion-aquitaine.ouest-france.fr/angouleme-classe-bd-ecole-premiere-france/",
-      "at": "2026-11-01T07:33:07.317Z",
+      "at": "2026-11-01T08:10:36.597Z",
       "reseaux": {
         "threads": {
           "texte": "🖍️ En école élémentaire, aucune classe en France n’était encore consacrée à la bande dessinée. C’est Angoulême qui ouvre la voie : des CM1 et CM2 y passent deux heures par semaine avec un auteur, crayon en main. Une initiative qui colle bien à la ville. Vous auriez aimé avoir ce cours à leur âge ?",
@@ -185,6 +185,14 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-11-01T07:33:07.317Z"
+        },
+        "bluesky": {
+          "texte": "Apprendre à raconter une histoire en cases, dès le CM1 : à #Angoulême, des élèves suivent deux heures de bande dessinée par semaine avec un auteur. Une première en France en école élémentaire 📚\n➡️ Lire l’article",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261101-10635de7-bsky.jpg",
+          "mode": "image",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-01T08:10:36.597Z"
         }
       }
     },
@@ -431,6 +439,16 @@
   ],
   "publications": [
     {
+      "channel": "bluesky",
+      "at": "2026-11-01T08:10:36.597Z",
+      "titre": "Angoulême ouvre la première classe BD de France en primaire",
+      "lien": "https://passion-aquitaine.ouest-france.fr/angouleme-classe-bd-ecole-premiere-france/",
+      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mzaec7yy5x2c",
+      "format": "image",
+      "texte": "Apprendre à raconter une histoire en cases, dès le CM1 : à #Angoulême, des élèves suivent deux heures de bande dessinée par semaine avec un auteur. Une première en France en école élémentaire 📚\n➡️ Lire l’article",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261101-10635de7-bsky.jpg"
+    },
+    {
       "channel": "facebook",
       "at": "2026-11-01T07:33:07.317Z",
       "titre": "Angoulême ouvre la première classe BD de France en primaire",
@@ -519,28 +537,9 @@
       "format": null,
       "texte": "Et si votre prochaine visite de monument historique se faisait en maillot de bain ?\n⠀\nÀ Bordeaux, la piscine Judaïque date de 1935 et a gardé ses mosaïques, son plongeoir de 5 m et son toit ouvrant. Un patrimoine où l’on nage 🏊\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #PiscineJudaique #Patrimoine",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261030-69a609ca-1.jpg"
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-10-30T11:13:49.961Z",
-      "titre": "Ces deux bébés raies arrivent à Biarritz : pourquoi elles ont passé 3 mois cachées",
-      "lien": "https://passion-aquitaine.ouest-france.fr/bebes-raies-biarritz-quarantaine/",
-      "lienPost": "https://www.instagram.com/p/DfHcuzAl04U/",
-      "format": null,
-      "texte": "Deux petites ailes qui ondulent pour la première fois dans le grand bassin tropical de Biarritz 🐠\n⠀\nAvant ce baptême, les deux bébés raies ont passé trois mois en quarantaine, loin des regards. Un entraînement les a préparées à leur nouvelle vie au Pays basque.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Biarritz #PaysBasque #Raies",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261029-cf1b1551-1.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "bluesky",
-      "dueAt": "2026-11-01T08:10:33.635Z",
-      "prochainPassage": "2026-11-01T08:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Angoulême ouvre la première classe BD de France en primaire"
-    },
     {
       "channel": "x",
       "dueAt": "2026-11-01T09:20:00.000Z",
@@ -562,7 +561,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 454,
+    "releves": 458,
     "parReseau": {
       "instagram": {
         "posts": 55,
@@ -573,12 +572,12 @@
         "interactionsMoyennes": 0.2
       },
       "facebook": {
-        "posts": 50,
+        "posts": 51,
         "interactionsMoyennes": 0
       },
       "threads": {
-        "posts": 50,
-        "interactionsMoyennes": 10.5
+        "posts": 51,
+        "interactionsMoyennes": 10.6
       }
     }
   },
@@ -642,7 +641,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-01T06:42:46.448Z"
+    "derniere": "2026-11-01T08:00:41.106Z"
   },
   "abonnes": {
     "instagram": {
@@ -681,7 +680,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-01T07:33:10.929Z",
+    "genereLe": "2026-11-01T08:10:49.132Z",
     "posts": 0,
     "parReseau": {},
     "parFormat": {},
@@ -702,7 +701,8 @@
     },
     "publies": {
       "threads": 1,
-      "facebook": 1
+      "facebook": 1,
+      "bluesky": 1
     },
     "abonnes": {
       "instagram": {

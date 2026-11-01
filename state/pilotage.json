@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-01T08:00:41.106Z",
+  "genereLe": "2026-11-01T08:20:38.543Z",
   "jour": "2026-11-01",
   "reseaux": {
     "instagram": {
@@ -157,7 +157,7 @@
         "reponse"
       ],
       "aujourdhui": 0,
-      "semaine": 10,
+      "semaine": 9,
       "total": 63,
       "dernier": "2026-10-31T09:21:12.994Z",
       "lienDernier": null
@@ -680,7 +680,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-01T08:10:49.132Z",
+    "genereLe": "2026-11-01T08:20:42.725Z",
     "posts": 0,
     "parReseau": {},
     "parFormat": {},

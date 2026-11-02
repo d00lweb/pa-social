@@ -5611,5 +5611,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35812",
+    "channel": "x",
+    "at": "2026-11-02T09:21:07.729Z",
+    "mediaId": "kit-telegram",
+    "titre": "Marché de Noël de Bruxelles : le Pays basque et le Béarn invités",
+    "lien": "https://passion-aquitaine.ouest-france.fr/marche-noel-bruxelles-pays-basque-bearn/",
+    "lienPost": null,
+    "format": "reponse",
+    "mention": false,
+    "apercu": {
+      "texte": "Plus de 4 millions de visites par an : du au, le marché de Noël de Bruxelles accueille un village basco-béarnais 🏛️",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261102-116575f8-x.jpg",
+      "mode": "reponse",
+      "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/marche-noel-bruxelles-pays-basque-bearn/",
+      "sujet": null
+    }
   }
 ]

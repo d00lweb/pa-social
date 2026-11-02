@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-02T09:15:12.164Z",
+  "genereLe": "2026-11-02T09:20:31.883Z",
   "jour": "2026-11-02",
   "reseaux": {
     "instagram": {
@@ -156,10 +156,10 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 9,
-      "total": 64,
-      "dernier": "2026-11-01T09:20:48.859Z",
+      "aujourdhui": 1,
+      "semaine": 10,
+      "total": 65,
+      "dernier": "2026-11-02T09:21:07.729Z",
       "lienDernier": null
     }
   },
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35812",
       "titre": "Marché de Noël de Bruxelles : le Pays basque et le Béarn invités",
       "lien": "https://passion-aquitaine.ouest-france.fr/marche-noel-bruxelles-pays-basque-bearn/",
-      "at": "2026-11-02T08:07:02.444Z",
+      "at": "2026-11-02T09:21:07.729Z",
       "reseaux": {
         "threads": {
           "texte": "Plus de 4 millions de visites par an : du 27 novembre au 3 janvier, le marché de Noël de Bruxelles accueille un village basco-béarnais 🏛️",
@@ -193,6 +193,14 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-11-02T08:07:02.444Z"
+        },
+        "x": {
+          "texte": "Plus de 4 millions de visites par an : du au, le marché de Noël de Bruxelles accueille un village basco-béarnais 🏛️",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261102-116575f8-x.jpg",
+          "mode": "reponse",
+          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/marche-noel-bruxelles-pays-basque-bearn/",
+          "sujet": null,
+          "publieLe": "2026-11-02T09:21:07.729Z"
         }
       }
     },
@@ -439,6 +447,16 @@
   ],
   "publications": [
     {
+      "channel": "x",
+      "at": "2026-11-02T09:21:07.729Z",
+      "titre": "Marché de Noël de Bruxelles : le Pays basque et le Béarn invités",
+      "lien": "https://passion-aquitaine.ouest-france.fr/marche-noel-bruxelles-pays-basque-bearn/",
+      "lienPost": null,
+      "format": "reponse",
+      "texte": "Plus de 4 millions de visites par an : du au, le marché de Noël de Bruxelles accueille un village basco-béarnais 🏛️",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261102-116575f8-x.jpg"
+    },
+    {
       "channel": "facebook",
       "at": "2026-11-02T08:07:02.444Z",
       "titre": "Marché de Noël de Bruxelles : le Pays basque et le Béarn invités",
@@ -527,28 +545,9 @@
       "format": null,
       "texte": "Une centaine de sièges en moins 💺 à la Gare du Midi de Biarritz\n⠀\nCe lieu emblématique du Pays basque, sans trains depuis 1980, n’était plus aux normes de sécurité. On vous explique ce qui change.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Biarritz #PaysBasque #GareDuMidi",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261031-f328a9da-1.jpg"
-    },
-    {
-      "channel": "x",
-      "at": "2026-10-31T09:21:12.994Z",
-      "titre": "Biarritz : la Gare du Midi n’était plus aux normes de sécurité",
-      "lien": "https://passion-aquitaine.ouest-france.fr/biarritz-gare-du-midi-sieges-retires/",
-      "lienPost": null,
-      "format": "reponse",
-      "texte": "La Gare du Midi de #Biarritz n’a plus vu passer de train 🚂 depuis 1980. Non conforme aux normes de sécurité, elle perd une centaine de sièges.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261031-f328a9da-x.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "x",
-      "dueAt": "2026-11-02T09:20:00.000Z",
-      "prochainPassage": "2026-11-02T09:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": "2026-11-02T08:20:00.000Z",
-      "raison": "son créneau était passé",
-      "titre": "Marché de Noël de Bruxelles : le Pays basque et le Béarn invités"
-    },
     {
       "channel": "instagram",
       "dueAt": "2026-11-02T12:09:27.601Z",
@@ -682,7 +681,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-02T09:15:16.242Z",
+    "genereLe": "2026-11-02T09:21:15.347Z",
     "posts": 3,
     "parReseau": {
       "threads": {
@@ -789,7 +788,7 @@
       "threads": 2,
       "facebook": 2,
       "bluesky": 2,
-      "x": 1,
+      "x": 2,
       "instagram": 1
     },
     "abonnes": {
@@ -837,29 +836,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 15,
-      "entree": 119998,
-      "sortie": 13730,
-      "cout": 0.754592,
+      "appels": 18,
+      "entree": 144073,
+      "sortie": 16430,
+      "cout": 0.904892,
       "cle": "2026-11-02"
     },
     "semaine": {
-      "appels": 35,
-      "entree": 280231,
-      "sortie": 31461,
-      "cout": 1.750144
+      "appels": 38,
+      "entree": 304306,
+      "sortie": 34161,
+      "cout": 1.9004439999999998
     },
     "mois": {
-      "appels": 16,
-      "entree": 127916,
-      "sortie": 14532,
-      "cout": 0.802304,
+      "appels": 19,
+      "entree": 151991,
+      "sortie": 17232,
+      "cout": 0.952604,
       "cle": "2026-11"
     },
-    "projection": 12.03,
+    "projection": 14.29,
     "moyenneAppel": 0.0501,
     "parModele": {
-      "claude-opus-5-5": 16
+      "claude-opus-5-5": 19
     },
     "serie": [
       [
@@ -916,7 +915,7 @@
       ],
       [
         "2026-11-02",
-        0.7546
+        0.9049
       ]
     ],
     "depuis": "2026-09-23"

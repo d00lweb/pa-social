@@ -1449,5 +1449,20 @@
     "instagram": [],
     "threads": [],
     "bluesky": []
+  },
+  "vivier:bearn tourisme:bearnpyrenees_tourisme": {
+    "v": 3,
+    "cherche": "2026-11-02T07:01:08.081Z",
+    "instagram": [
+      {
+        "handle": "bearnpyrenees_tourisme",
+        "nom": "Béarn Pyrénées Tourisme",
+        "abonnes": 34942,
+        "preuve": 3
+      }
+    ],
+    "threads": [],
+    "bluesky": [],
+    "x": []
   }
 }

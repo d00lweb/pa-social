@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-02T06:20:35.162Z",
+  "genereLe": "2026-11-02T07:00:37.031Z",
   "jour": "2026-11-02",
   "reseaux": {
     "instagram": {
@@ -555,7 +555,53 @@
       "image": null
     }
   ],
-  "file": [],
+  "file": [
+    {
+      "channel": "threads",
+      "dueAt": "2026-11-02T07:28:58.241Z",
+      "prochainPassage": "2026-11-02T08:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Marché de Noël de Bruxelles : le Pays basque et le Béarn invités"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-11-02T08:03:36.990Z",
+      "prochainPassage": "2026-11-02T08:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Marché de Noël de Bruxelles : le Pays basque et le Béarn invités"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-11-02T08:06:55.901Z",
+      "prochainPassage": "2026-11-02T08:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Marché de Noël de Bruxelles : le Pays basque et le Béarn invités"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-11-02T08:20:00.000Z",
+      "prochainPassage": "2026-11-02T08:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Marché de Noël de Bruxelles : le Pays basque et le Béarn invités"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-11-02T12:09:27.601Z",
+      "prochainPassage": "2026-11-02T12:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Marché de Noël de Bruxelles : le Pays basque et le Béarn invités"
+    }
+  ],
   "alertes": [],
   "mesures": {
     "releves": 460,
@@ -679,7 +725,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-02T06:20:38.118Z",
+    "genereLe": "2026-11-02T07:01:13.667Z",
     "posts": 0,
     "parReseau": {},
     "parFormat": {},
@@ -747,29 +793,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 0,
-      "entree": 0,
-      "sortie": 0,
-      "cout": 0,
+      "appels": 3,
+      "entree": 23968,
+      "sortie": 2776,
+      "cout": 0.151392,
       "cle": "2026-11-02"
     },
     "semaine": {
-      "appels": 20,
-      "entree": 160233,
-      "sortie": 17731,
-      "cout": 0.995552
+      "appels": 23,
+      "entree": 184201,
+      "sortie": 20507,
+      "cout": 1.146944
     },
     "mois": {
-      "appels": 1,
-      "entree": 7918,
-      "sortie": 802,
-      "cout": 0.047712,
+      "appels": 4,
+      "entree": 31886,
+      "sortie": 3578,
+      "cout": 0.199104,
       "cle": "2026-11"
     },
-    "projection": 0.72,
-    "moyenneAppel": 0.0477,
+    "projection": 2.99,
+    "moyenneAppel": 0.0498,
     "parModele": {
-      "claude-opus-5-5": 1
+      "claude-opus-5-5": 4
     },
     "serie": [
       [
@@ -826,7 +872,7 @@
       ],
       [
         "2026-11-02",
-        0
+        0.1514
       ]
     ],
     "depuis": "2026-09-23"

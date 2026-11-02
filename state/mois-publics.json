@@ -3,7 +3,7 @@
     "cle": "2026-11",
     "publications": 10,
     "articles": 2,
-    "interactions": 1,
+    "interactions": 4,
     "parReseau": {
       "facebook": 2,
       "instagram": 2,
@@ -19,6 +19,13 @@
       "bluesky": 1
     },
     "top": [
+      {
+        "reseau": "instagram",
+        "titre": "Angoulême ouvre la première classe BD de France en primaire",
+        "lien": "https://www.instagram.com/p/DfMtAfyDPLt/",
+        "image": "https://passion-aquitaine.ouest-france.fr/social/20261101-10635de7-1-vignette.jpg",
+        "interactions": 3
+      },
       {
         "reseau": "threads",
         "titre": "Angoulême ouvre la première classe BD de France en primaire",

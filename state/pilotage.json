@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-02T12:00:40.902Z",
+  "genereLe": "2026-11-02T12:20:54.100Z",
   "jour": "2026-11-02",
   "reseaux": {
     "instagram": {
@@ -558,7 +558,7 @@
   "file": [],
   "alertes": [],
   "mesures": {
-    "releves": 467,
+    "releves": 468,
     "parReseau": {
       "instagram": {
         "posts": 57,
@@ -640,7 +640,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-02T11:20:38.880Z"
+    "derniere": "2026-11-02T12:20:54.100Z"
   },
   "abonnes": {
     "instagram": {
@@ -679,9 +679,13 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-02T12:10:03.279Z",
-    "posts": 3,
+    "genereLe": "2026-11-02T12:20:59.317Z",
+    "posts": 4,
     "parReseau": {
+      "instagram": {
+        "posts": 1,
+        "moyenne": 3
+      },
       "threads": {
         "posts": 1,
         "moyenne": 1
@@ -706,6 +710,10 @@
       }
     },
     "parCreneau": {
+      "après-midi": {
+        "posts": 1,
+        "moyenne": 3
+      },
       "matin": {
         "posts": 3,
         "moyenne": 0.3
@@ -729,28 +737,34 @@
           "posts": 1,
           "moyenne": 0
         }
+      },
+      "instagram": {
+        "12 h – 13 h 30": {
+          "posts": 1,
+          "moyenne": 3
+        }
       }
     },
-    "interactionsTotal": 1,
+    "interactionsTotal": 4,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35991",
-      "channel": "threads",
-      "mediaId": "18118988591048909",
-      "publieLe": "2026-11-01T07:30:49.179Z",
+      "channel": "instagram",
+      "mediaId": "18125199292715036",
+      "publieLe": "2026-11-01T12:12:15.409Z",
       "jalon": 1,
-      "releveLe": "2026-11-02T08:01:05.679Z",
-      "likes": 1,
-      "commentairesBruts": 1,
-      "partages": 0,
-      "vues": 298,
+      "releveLe": "2026-11-02T12:20:54.100Z",
+      "likes": 3,
+      "commentairesBruts": 0,
+      "partages": null,
+      "vues": null,
       "commentaires": 0,
       "v": 2,
       "titre": "Angoulême ouvre la première classe BD de France en primaire",
-      "lien": "https://www.threads.com/@lovaquitaine/post/DfMMV0FERfp",
-      "format": "reponse",
-      "mention": false,
-      "creneau": "matin",
-      "creneauReseau": "7 h – 8 h 30"
+      "lien": "https://www.instagram.com/p/DfMtAfyDPLt/",
+      "format": null,
+      "mention": true,
+      "creneau": "après-midi",
+      "creneauReseau": "12 h – 13 h 30"
     },
     "moinsBon": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35991",
@@ -774,8 +788,8 @@
     },
     "mentions": {
       "avec": {
-        "posts": 0,
-        "moyenne": 0
+        "posts": 1,
+        "moyenne": 3
       },
       "sans": {
         "posts": 3,
@@ -825,6 +839,7 @@
       "x": null
     },
     "engagement": {
+      "instagram": 0.03,
       "threads": 0.09,
       "facebook": 0
     },

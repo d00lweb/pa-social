@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-02T11:20:38.880Z",
+  "genereLe": "2026-11-02T12:00:40.902Z",
   "jour": "2026-11-02",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 9,
-      "total": 66,
-      "dernier": "2026-11-01T12:12:15.409Z",
-      "lienDernier": "https://www.instagram.com/p/DfMtAfyDPLt/"
+      "aujourdhui": 1,
+      "semaine": 10,
+      "total": 67,
+      "dernier": "2026-11-02T12:10:00.686Z",
+      "lienDernier": "https://www.instagram.com/p/DfPRi5qjFR1/"
     },
     "bluesky": {
       "actif": true,
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35812",
       "titre": "Marché de Noël de Bruxelles : le Pays basque et le Béarn invités",
       "lien": "https://passion-aquitaine.ouest-france.fr/marche-noel-bruxelles-pays-basque-bearn/",
-      "at": "2026-11-02T09:21:07.729Z",
+      "at": "2026-11-02T12:10:00.686Z",
       "reseaux": {
         "threads": {
           "texte": "Plus de 4 millions de visites par an : du 27 novembre au 3 janvier, le marché de Noël de Bruxelles accueille un village basco-béarnais 🏛️",
@@ -201,6 +201,14 @@
           "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/marche-noel-bruxelles-pays-basque-bearn/",
           "sujet": null,
           "publieLe": "2026-11-02T09:21:07.729Z"
+        },
+        "instagram": {
+          "texte": "Plus de 4 millions de visites par an : du 27 novembre au 3 janvier, le marché de Noël de Bruxelles accueille un village basco-béarnais 🏛️\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#PaysBasque #Patrimoine #NouvelleAquitaine",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261102-116575f8-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-02T12:10:00.686Z"
         }
       }
     },
@@ -447,6 +455,16 @@
   ],
   "publications": [
     {
+      "channel": "instagram",
+      "at": "2026-11-02T12:10:00.686Z",
+      "titre": "Marché de Noël de Bruxelles : le Pays basque et le Béarn invités",
+      "lien": "https://passion-aquitaine.ouest-france.fr/marche-noel-bruxelles-pays-basque-bearn/",
+      "lienPost": "https://www.instagram.com/p/DfPRi5qjFR1/",
+      "format": null,
+      "texte": "Plus de 4 millions de visites par an : du 27 novembre au 3 janvier, le marché de Noël de Bruxelles accueille un village basco-béarnais 🏛️\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#PaysBasque #Patrimoine #NouvelleAquitaine",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261102-116575f8-1.jpg"
+    },
+    {
       "channel": "x",
       "at": "2026-11-02T09:21:07.729Z",
       "titre": "Marché de Noël de Bruxelles : le Pays basque et le Béarn invités",
@@ -535,29 +553,9 @@
       "format": "reponse",
       "texte": "🖍️ En école élémentaire, aucune classe en France n’était encore consacrée à la bande dessinée. C’est Angoulême qui ouvre la voie : des CM1 et CM2 y passent deux heures par semaine avec un auteur, crayon en main. Une initiative qui colle bien à la ville. Vous auriez aimé avoir ce cours à leur âge ?",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261101-10635de7-th.jpg"
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-10-31T12:03:41.128Z",
-      "titre": "Biarritz : la Gare du Midi n’était plus aux normes de sécurité",
-      "lien": "https://passion-aquitaine.ouest-france.fr/biarritz-gare-du-midi-sieges-retires/",
-      "lienPost": "https://www.instagram.com/p/DfKHN8al3Az/",
-      "format": null,
-      "texte": "Une centaine de sièges en moins 💺 à la Gare du Midi de Biarritz\n⠀\nCe lieu emblématique du Pays basque, sans trains depuis 1980, n’était plus aux normes de sécurité. On vous explique ce qui change.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Biarritz #PaysBasque #GareDuMidi",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261031-f328a9da-1.jpg"
     }
   ],
-  "file": [
-    {
-      "channel": "instagram",
-      "dueAt": "2026-11-02T12:09:27.601Z",
-      "prochainPassage": "2026-11-02T12:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Marché de Noël de Bruxelles : le Pays basque et le Béarn invités"
-    }
-  ],
+  "file": [],
   "alertes": [],
   "mesures": {
     "releves": 467,
@@ -681,7 +679,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-02T11:20:45.324Z",
+    "genereLe": "2026-11-02T12:10:03.279Z",
     "posts": 3,
     "parReseau": {
       "threads": {
@@ -789,7 +787,7 @@
       "facebook": 2,
       "bluesky": 2,
       "x": 2,
-      "instagram": 1
+      "instagram": 2
     },
     "abonnes": {
       "instagram": {
@@ -836,29 +834,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 18,
-      "entree": 144073,
-      "sortie": 16430,
-      "cout": 0.904892,
+      "appels": 21,
+      "entree": 168046,
+      "sortie": 19202,
+      "cout": 1.056224,
       "cle": "2026-11-02"
     },
     "semaine": {
-      "appels": 38,
-      "entree": 304306,
-      "sortie": 34161,
-      "cout": 1.9004439999999998
+      "appels": 41,
+      "entree": 328279,
+      "sortie": 36933,
+      "cout": 2.051776
     },
     "mois": {
-      "appels": 19,
-      "entree": 151991,
-      "sortie": 17232,
-      "cout": 0.952604,
+      "appels": 22,
+      "entree": 175964,
+      "sortie": 20004,
+      "cout": 1.103936,
       "cle": "2026-11"
     },
-    "projection": 14.29,
-    "moyenneAppel": 0.0501,
+    "projection": 16.56,
+    "moyenneAppel": 0.0502,
     "parModele": {
-      "claude-opus-5-5": 19
+      "claude-opus-5-5": 22
     },
     "serie": [
       [
@@ -915,7 +913,7 @@
       ],
       [
         "2026-11-02",
-        0.9049
+        1.0562
       ]
     ],
     "depuis": "2026-09-23"

@@ -84,7 +84,7 @@
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=35812",
     "channel": "x",
-    "dueAt": 1793607600000,
+    "dueAt": 1793611200000,
     "status": "pending",
     "attempts": 1,
     "article": {
@@ -162,6 +162,8 @@
       }
     },
     "previewSent": false,
-    "lastError": "fetch failed"
+    "lastError": "fetch failed",
+    "prevuInitialement": 1793607600000,
+    "raison": "son créneau était passé"
   }
 ]

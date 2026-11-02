@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-02T08:01:05.679Z",
+  "genereLe": "2026-11-02T08:20:33.199Z",
   "jour": "2026-11-02",
   "reseaux": {
     "instagram": {
@@ -543,7 +543,7 @@
     {
       "channel": "x",
       "dueAt": "2026-11-02T08:20:00.000Z",
-      "prochainPassage": "2026-11-02T08:20:00.000Z",
+      "prochainPassage": "2026-11-02T09:00:00.000Z",
       "nature": "actu",
       "prevuInitialement": null,
       "raison": null,
@@ -561,7 +561,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 465,
+    "releves": 466,
     "parReseau": {
       "instagram": {
         "posts": 56,
@@ -682,8 +682,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-02T08:07:08.138Z",
-    "posts": 2,
+    "genereLe": "2026-11-02T08:21:11.274Z",
+    "posts": 3,
     "parReseau": {
       "threads": {
         "posts": 1,
@@ -692,18 +692,26 @@
       "facebook": {
         "posts": 1,
         "moyenne": 0
+      },
+      "bluesky": {
+        "posts": 1,
+        "moyenne": 0
       }
     },
     "parFormat": {
       "reponse": {
         "posts": 1,
         "moyenne": 1
+      },
+      "image": {
+        "posts": 1,
+        "moyenne": 0
       }
     },
     "parCreneau": {
       "matin": {
-        "posts": 2,
-        "moyenne": 0.5
+        "posts": 3,
+        "moyenne": 0.3
       }
     },
     "parCreneauReseau": {
@@ -714,6 +722,12 @@
         }
       },
       "facebook": {
+        "8 h – 9 h 30": {
+          "posts": 1,
+          "moyenne": 0
+        }
+      },
+      "bluesky": {
         "8 h – 9 h 30": {
           "posts": 1,
           "moyenne": 0
@@ -743,11 +757,11 @@
     },
     "moinsBon": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35991",
-      "channel": "facebook",
-      "mediaId": "227437307428711_1772293898229824",
-      "publieLe": "2026-11-01T07:33:07.317Z",
+      "channel": "bluesky",
+      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mzaec7yy5x2c",
+      "publieLe": "2026-11-01T08:10:36.597Z",
       "jalon": 1,
-      "releveLe": "2026-11-02T08:01:05.679Z",
+      "releveLe": "2026-11-02T08:20:33.199Z",
       "likes": 0,
       "commentairesBruts": 0,
       "partages": 0,
@@ -755,8 +769,8 @@
       "commentaires": 0,
       "v": 2,
       "titre": "Angoulême ouvre la première classe BD de France en primaire",
-      "lien": "https://www.facebook.com/1720946116697936/posts/1772293898229824",
-      "format": null,
+      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mzaec7yy5x2c",
+      "format": "image",
       "mention": false,
       "creneau": "matin",
       "creneauReseau": "8 h – 9 h 30"
@@ -767,8 +781,8 @@
         "moyenne": 0
       },
       "sans": {
-        "posts": 2,
-        "moyenne": 0.5
+        "posts": 3,
+        "moyenne": 0.3
       }
     },
     "publies": {
@@ -823,29 +837,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 12,
-      "entree": 95885,
-      "sortie": 10943,
-      "cout": 0.6024,
+      "appels": 15,
+      "entree": 119998,
+      "sortie": 13730,
+      "cout": 0.754592,
       "cle": "2026-11-02"
     },
     "semaine": {
-      "appels": 32,
-      "entree": 256118,
-      "sortie": 28674,
-      "cout": 1.5979519999999998
+      "appels": 35,
+      "entree": 280231,
+      "sortie": 31461,
+      "cout": 1.750144
     },
     "mois": {
-      "appels": 13,
-      "entree": 103803,
-      "sortie": 11745,
-      "cout": 0.650112,
+      "appels": 16,
+      "entree": 127916,
+      "sortie": 14532,
+      "cout": 0.802304,
       "cle": "2026-11"
     },
-    "projection": 9.75,
-    "moyenneAppel": 0.05,
+    "projection": 12.03,
+    "moyenneAppel": 0.0501,
     "parModele": {
-      "claude-opus-5-5": 13
+      "claude-opus-5-5": 16
     },
     "serie": [
       [
@@ -902,7 +916,7 @@
       ],
       [
         "2026-11-02",
-        0.6024
+        0.7546
       ]
     ],
     "depuis": "2026-09-23"

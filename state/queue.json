@@ -86,7 +86,7 @@
     "channel": "x",
     "dueAt": 1793607600000,
     "status": "pending",
-    "attempts": 0,
+    "attempts": 1,
     "article": {
       "title": "Marché de Noël de Bruxelles : le Pays basque et le Béarn invités",
       "link": "https://passion-aquitaine.ouest-france.fr/marche-noel-bruxelles-pays-basque-bearn/",
@@ -161,6 +161,7 @@
         "facebook": []
       }
     },
-    "previewSent": false
+    "previewSent": false,
+    "lastError": "fetch failed"
   }
 ]

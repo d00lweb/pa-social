@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-02T07:00:37.031Z",
+  "genereLe": "2026-11-02T07:20:39.276Z",
   "jour": "2026-11-02",
   "reseaux": {
     "instagram": {
@@ -122,11 +122,11 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 10,
-      "total": 61,
-      "dernier": "2026-11-01T07:30:49.179Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DfMMV0FERfp"
+      "aujourdhui": 1,
+      "semaine": 11,
+      "total": 62,
+      "dernier": "2026-11-02T07:32:00.523Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DfOxaoREdJb"
     },
     "x": {
       "actif": true,
@@ -164,6 +164,22 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35812",
+      "titre": "Marché de Noël de Bruxelles : le Pays basque et le Béarn invités",
+      "lien": "https://passion-aquitaine.ouest-france.fr/marche-noel-bruxelles-pays-basque-bearn/",
+      "at": "2026-11-02T07:32:00.523Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Plus de 4 millions de visites par an : du 27 novembre au 3 janvier, le marché de Noël de Bruxelles accueille un village basco-béarnais 🏛️",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261102-116575f8-th.jpg",
+          "mode": "reponse",
+          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/marche-noel-bruxelles-pays-basque-bearn/",
+          "sujet": "Pays basque",
+          "publieLe": "2026-11-02T07:32:00.523Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35991",
       "titre": "Angoulême ouvre la première classe BD de France en primaire",
@@ -403,57 +419,19 @@
           "publieLe": "2026-10-29T20:05:10.654Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35937",
-      "titre": "Le bassin d’Arcachon abrite plus de 60 000 tonnes d’huîtres que personne n’élève",
-      "lien": "https://passion-aquitaine.ouest-france.fr/huitres-sauvages-bassin-arcachon/",
-      "at": "2026-10-29T11:03:53.306Z",
-      "reseaux": {
-        "threads": {
-          "texte": "Une huître, c’est forcément l’œuvre d’un ostréiculteur ? Pas sur le Bassin d’Arcachon. Des huîtres sauvages s’y installent sans que personne ne les élève, et elles finissent par nuire au plan d’eau 🧹 La préfète de la Gironde a donc autorisé un vaste nettoyage pour les faire reculer. Vous imaginiez que ces coquillages pouvaient devenir un problème ?",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261029-e2f7730f-th.jpg",
-          "mode": "reponse",
-          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/huitres-sauvages-bassin-arcachon/",
-          "sujet": "Bassin d’Arcachon",
-          "publieLe": "2026-10-29T07:33:03.879Z"
-        },
-        "x": {
-          "texte": "Plus de 60 000 tonnes : c’est le poids des huîtres sauvages qui encombrent le Bassin d’#Arcachon. La préfète de la Gironde autorise un grand nettoyage pour les faire reculer ⚖️",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261029-e2f7730f-x.jpg",
-          "mode": "reponse",
-          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/huitres-sauvages-bassin-arcachon/",
-          "sujet": null,
-          "publieLe": "2026-10-29T08:20:49.213Z"
-        },
-        "facebook": {
-          "texte": "Personne ne les cultive, pourtant ces huîtres sauvages du Bassin pèsent plus lourd qu’on ne l’imagine 🦪",
-          "image": null,
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-29T08:25:15.362Z"
-        },
-        "bluesky": {
-          "texte": "Des bancs d’huîtres que nul ne plante ni ne récolte tapissent le Bassin d’Arcachon 🐚 Ces coquillages sauvages lui nuisent, et la préfète de la #Gironde vient d’autoriser un vaste nettoyage pour les faire reculer.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261029-e2f7730f-bsky.jpg",
-          "mode": "card",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-29T08:29:24.998Z"
-        },
-        "instagram": {
-          "texte": "Sur le Bassin d’Arcachon, des huîtres poussent toutes seules et finissent par gêner tout le monde\n⠀\nCes huîtres sauvages nuisent au Bassin. La préfète de la Gironde a autorisé un vaste nettoyage pour les faire reculer et préserver ce coin d’eau que l’on aime tant 🦪\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#BassinDArcachon #Huîtres #Gironde",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261029-e2f7730f-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-29T11:03:53.306Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "threads",
+      "at": "2026-11-02T07:32:00.523Z",
+      "titre": "Marché de Noël de Bruxelles : le Pays basque et le Béarn invités",
+      "lien": "https://passion-aquitaine.ouest-france.fr/marche-noel-bruxelles-pays-basque-bearn/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/DfOxaoREdJb",
+      "format": "reponse",
+      "texte": "Plus de 4 millions de visites par an : du 27 novembre au 3 janvier, le marché de Noël de Bruxelles accueille un village basco-béarnais 🏛️",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261102-116575f8-th.jpg"
+    },
     {
       "channel": "instagram",
       "at": "2026-11-01T12:12:15.409Z",
@@ -543,28 +521,9 @@
       "format": "reponse",
       "texte": "Si vous avez l’habitude de fréquenter la Gare du Midi à Biarritz, attendez-vous à un changement 🎟️ Le lieu n’était plus aux normes de sécurité et compte désormais une centaine de sièges en moins. Une gare devenue autre chose depuis longtemps : plus aucun train n’y circule depuis 1980.",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261031-f328a9da-th.jpg"
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-10-31T07:06:01.690Z",
-      "titre": "Biarritz : la Gare du Midi n’était plus aux normes de sécurité",
-      "lien": "https://passion-aquitaine.ouest-france.fr/biarritz-gare-du-midi-sieges-retires/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1771103605015520",
-      "format": null,
-      "texte": "À Biarritz, la Gare du Midi doit se passer d’une centaine de sièges pour respecter enfin les règles de sécurité 🪑",
-      "image": null
     }
   ],
   "file": [
-    {
-      "channel": "threads",
-      "dueAt": "2026-11-02T07:28:58.241Z",
-      "prochainPassage": "2026-11-02T08:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Marché de Noël de Bruxelles : le Pays basque et le Béarn invités"
-    },
     {
       "channel": "bluesky",
       "dueAt": "2026-11-02T08:03:36.990Z",
@@ -686,7 +645,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-02T06:00:58.556Z"
+    "derniere": "2026-11-02T07:20:39.276Z"
   },
   "abonnes": {
     "instagram": {
@@ -725,7 +684,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-02T07:01:13.667Z",
+    "genereLe": "2026-11-02T07:32:03.169Z",
     "posts": 0,
     "parReseau": {},
     "parFormat": {},
@@ -745,7 +704,7 @@
       }
     },
     "publies": {
-      "threads": 1,
+      "threads": 2,
       "facebook": 1,
       "bluesky": 1,
       "x": 1,
@@ -793,29 +752,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 3,
-      "entree": 23968,
-      "sortie": 2776,
-      "cout": 0.151392,
+      "appels": 6,
+      "entree": 47991,
+      "sortie": 5552,
+      "cout": 0.303004,
       "cle": "2026-11-02"
     },
     "semaine": {
-      "appels": 23,
-      "entree": 184201,
-      "sortie": 20507,
-      "cout": 1.146944
+      "appels": 26,
+      "entree": 208224,
+      "sortie": 23283,
+      "cout": 1.2985559999999998
     },
     "mois": {
-      "appels": 4,
-      "entree": 31886,
-      "sortie": 3578,
-      "cout": 0.199104,
+      "appels": 7,
+      "entree": 55909,
+      "sortie": 6354,
+      "cout": 0.35071599999999997,
       "cle": "2026-11"
     },
-    "projection": 2.99,
-    "moyenneAppel": 0.0498,
+    "projection": 5.26,
+    "moyenneAppel": 0.0501,
     "parModele": {
-      "claude-opus-5-5": 4
+      "claude-opus-5-5": 7
     },
     "serie": [
       [
@@ -872,7 +831,7 @@
       ],
       [
         "2026-11-02",
-        0.1514
+        0.303
       ]
     ],
     "depuis": "2026-09-23"

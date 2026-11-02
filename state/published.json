@@ -5575,5 +5575,41 @@
       "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/marche-noel-bruxelles-pays-basque-bearn/",
       "sujet": "Pays basque"
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35812",
+    "channel": "bluesky",
+    "at": "2026-11-02T08:03:39.397Z",
+    "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mzcueptfq32z",
+    "titre": "Marché de Noël de Bruxelles : le Pays basque et le Béarn invités",
+    "lien": "https://passion-aquitaine.ouest-france.fr/marche-noel-bruxelles-pays-basque-bearn/",
+    "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mzcueptfq32z",
+    "format": "card",
+    "mention": false,
+    "apercu": {
+      "texte": "Plus de 4 millions de visites par an : du 27 novembre au 3 janvier, le marché de Noël de Bruxelles accueille un village basco-béarnais 🏛️ #PaysBasque",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261102-116575f8-bsky.jpg",
+      "mode": "card",
+      "reponse": null,
+      "sujet": null
+    }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=35812",
+    "channel": "facebook",
+    "at": "2026-11-02T08:07:02.444Z",
+    "mediaId": "227437307428711_1773494898109724",
+    "titre": "Marché de Noël de Bruxelles : le Pays basque et le Béarn invités",
+    "lien": "https://passion-aquitaine.ouest-france.fr/marche-noel-bruxelles-pays-basque-bearn/",
+    "lienPost": "https://www.facebook.com/1720946116697936/posts/1773494898109724",
+    "format": null,
+    "mention": false,
+    "apercu": {
+      "texte": "Plus de 4 millions de visites par an : du au, le marché de Noël de Bruxelles accueille un village basco-béarnais 🏛️",
+      "image": null,
+      "mode": null,
+      "reponse": null,
+      "sujet": null
+    }
   }
 ]

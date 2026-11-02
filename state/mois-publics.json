@@ -1,15 +1,15 @@
 {
   "2026-11": {
     "cle": "2026-11",
-    "publications": 6,
+    "publications": 8,
     "articles": 2,
-    "interactions": 0,
+    "interactions": 1,
     "parReseau": {
-      "facebook": 1,
+      "facebook": 2,
       "instagram": 1,
       "x": 1,
       "threads": 2,
-      "bluesky": 1
+      "bluesky": 2
     },
     "gains": {
       "facebook": -3,
@@ -18,7 +18,15 @@
       "threads": 1,
       "bluesky": 1
     },
-    "top": []
+    "top": [
+      {
+        "reseau": "threads",
+        "titre": "Angoulême ouvre la première classe BD de France en primaire",
+        "lien": "https://www.threads.com/@lovaquitaine/post/DfMMV0FERfp",
+        "image": "https://passion-aquitaine.ouest-france.fr/social/20261101-10635de7-1-vignette.jpg",
+        "interactions": 1
+      }
+    ]
   },
   "2026-10": {
     "cle": "2026-10",

@@ -1,6 +1,6 @@
 {
-  "genereLe": "2026-11-03T22:21:00.363Z",
-  "jour": "2026-11-03",
+  "genereLe": "2026-11-03T23:00:39.036Z",
+  "jour": "2026-11-04",
   "reseaux": {
     "instagram": {
       "actif": true,
@@ -24,7 +24,7 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 1,
+      "aujourdhui": 0,
       "semaine": 10,
       "total": 68,
       "dernier": "2026-11-03T12:28:54.777Z",
@@ -60,7 +60,7 @@
         "image",
         "reply"
       ],
-      "aujourdhui": 1,
+      "aujourdhui": 0,
       "semaine": 10,
       "total": 66,
       "dernier": "2026-11-03T08:08:14.571Z",
@@ -88,7 +88,7 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 1,
+      "aujourdhui": 0,
       "semaine": 10,
       "total": 63,
       "dernier": "2026-11-03T08:11:51.645Z",
@@ -122,7 +122,7 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 1,
+      "aujourdhui": 0,
       "semaine": 10,
       "total": 63,
       "dernier": "2026-11-03T07:28:24.000Z",
@@ -156,7 +156,7 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 1,
+      "aujourdhui": 0,
       "semaine": 10,
       "total": 66,
       "dernier": "2026-11-03T09:20:49.325Z",
@@ -583,7 +583,7 @@
     "2026-09"
   ],
   "jetons": {
-    "verifieLe": "2026-11-02T23:00:45.061Z",
+    "verifieLe": "2026-11-03T23:00:39.036Z",
     "meta": {
       "expireLe": "2026-12-16T20:08:59.000Z",
       "restant": 86,
@@ -591,7 +591,7 @@
     },
     "threads": {
       "expireLe": "2026-11-16T21:12:39.531Z",
-      "restant": 14,
+      "restant": 13,
       "renouvellement": "commande npm run threads:refresh"
     },
     "alertes": {
@@ -644,42 +644,42 @@
   },
   "abonnes": {
     "instagram": {
-      "debut": 10130,
+      "debut": 10128,
       "fin": 10133,
-      "gain": 3,
+      "gain": 5,
       "pct": 0,
-      "depuis": "2026-10-27",
-      "au": "2026-11-03"
+      "depuis": "2026-10-28",
+      "au": "2026-11-04"
     },
     "facebook": {
-      "debut": 42573,
+      "debut": 42571,
       "fin": 42563,
-      "gain": -10,
+      "gain": -8,
       "pct": 0,
-      "depuis": "2026-10-27",
-      "au": "2026-11-03"
+      "depuis": "2026-10-28",
+      "au": "2026-11-04"
     },
     "bluesky": {
       "debut": 9,
       "fin": 11,
       "gain": 2,
       "pct": 22.2,
-      "depuis": "2026-10-27",
-      "au": "2026-11-03"
+      "depuis": "2026-10-28",
+      "au": "2026-11-04"
     },
     "threads": {
       "debut": 1156,
-      "fin": 1156,
-      "gain": 0,
-      "pct": 0,
-      "depuis": "2026-10-27",
-      "au": "2026-11-03"
+      "fin": 1158,
+      "gain": 2,
+      "pct": 0.2,
+      "depuis": "2026-10-28",
+      "au": "2026-11-04"
     },
     "x": null
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-03T22:21:05.032Z",
+    "genereLe": "2026-11-03T23:00:51.227Z",
     "posts": 8,
     "parReseau": {
       "instagram": {
@@ -814,7 +814,7 @@
         "gain": -2,
         "pct": 0,
         "depuis": "2026-11-01",
-        "au": "2026-11-03"
+        "au": "2026-11-04"
       },
       "facebook": {
         "debut": 42567,
@@ -822,7 +822,7 @@
         "gain": -4,
         "pct": 0,
         "depuis": "2026-11-01",
-        "au": "2026-11-03"
+        "au": "2026-11-04"
       },
       "bluesky": {
         "debut": 10,
@@ -830,15 +830,15 @@
         "gain": 1,
         "pct": 10,
         "depuis": "2026-11-01",
-        "au": "2026-11-03"
+        "au": "2026-11-04"
       },
       "threads": {
         "debut": 1156,
-        "fin": 1156,
-        "gain": 0,
-        "pct": 0,
+        "fin": 1158,
+        "gain": 2,
+        "pct": 0.2,
         "depuis": "2026-11-01",
-        "au": "2026-11-03"
+        "au": "2026-11-04"
       },
       "x": null
     },
@@ -849,22 +849,22 @@
     },
     "conseils": [
       "Le format « reponse » fait 15 fois mieux que « card » (1.5 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « card » de la rotation dans config/channels.json.",
-      "Abonnés : aucun compte ne progresse."
+      "Abonnés : Threads progresse le plus (+2, +0,2 %) ; Facebook recule (−4), à surveiller."
     ]
   },
   "couts": {
     "jour": {
-      "appels": 2,
-      "entree": 15869,
-      "sortie": 1808,
-      "cout": 0.099636,
-      "cle": "2026-11-03"
+      "appels": 0,
+      "entree": 0,
+      "sortie": 0,
+      "cout": 0,
+      "cle": "2026-11-04"
     },
     "semaine": {
-      "appels": 42,
-      "entree": 336183,
-      "sortie": 37945,
-      "cout": 2.103632
+      "appels": 32,
+      "entree": 255904,
+      "sortie": 28992,
+      "cout": 1.603456
     },
     "mois": {
       "appels": 24,
@@ -873,16 +873,12 @@
       "cout": 1.203572,
       "cle": "2026-11"
     },
-    "projection": 12.04,
+    "projection": 9.03,
     "moyenneAppel": 0.0501,
     "parModele": {
       "claude-opus-5-5": 24
     },
     "serie": [
-      [
-        "2026-10-21",
-        0
-      ],
       [
         "2026-10-22",
         0
@@ -934,6 +930,10 @@
       [
         "2026-11-03",
         0.0996
+      ],
+      [
+        "2026-11-04",
+        0
       ]
     ],
     "depuis": "2026-09-23"

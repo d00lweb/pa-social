@@ -1,15 +1,15 @@
 {
   "2026-11": {
     "cle": "2026-11",
-    "publications": 11,
+    "publications": 13,
     "articles": 3,
-    "interactions": 4,
+    "interactions": 6,
     "parReseau": {
-      "facebook": 2,
+      "facebook": 3,
       "instagram": 2,
       "x": 2,
       "threads": 3,
-      "bluesky": 2
+      "bluesky": 3
     },
     "gains": {
       "facebook": -4,
@@ -25,6 +25,13 @@
         "lien": "https://www.instagram.com/p/DfMtAfyDPLt/",
         "image": "https://passion-aquitaine.ouest-france.fr/social/20261101-10635de7-1-vignette.jpg",
         "interactions": 3
+      },
+      {
+        "reseau": "threads",
+        "titre": "Marché de Noël de Bruxelles : le Pays basque et le Béarn invités",
+        "lien": "https://www.threads.com/@lovaquitaine/post/DfOxaoREdJb",
+        "image": "https://passion-aquitaine.ouest-france.fr/social/20261102-116575f8-1-vignette.jpg",
+        "interactions": 2
       },
       {
         "reseau": "threads",

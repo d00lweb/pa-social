@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-03T09:00:38.098Z",
+  "genereLe": "2026-11-03T09:20:38.250Z",
   "jour": "2026-11-03",
   "reseaux": {
     "instagram": {
@@ -156,10 +156,10 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 10,
-      "total": 65,
-      "dernier": "2026-11-02T09:21:07.729Z",
+      "aujourdhui": 1,
+      "semaine": 11,
+      "total": 66,
+      "dernier": "2026-11-03T09:20:49.325Z",
       "lienDernier": null
     }
   },
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35045",
       "titre": "Grands crus de Bordeaux : qui possède les plus grands châteaux ?",
       "lien": "https://passion-aquitaine.ouest-france.fr/grands-crus-bordeaux-familles-proprietaires/",
-      "at": "2026-11-03T08:11:51.645Z",
+      "at": "2026-11-03T09:20:49.325Z",
       "reseaux": {
         "threads": {
           "texte": "Des allées de vignes à perte de vue, des châteaux de pierre, des chais où dorment les plus grands crus de Bordeaux. Et derrière ces façades, des noms qui pèsent lourd : Rothschild, Pinault, Arnault, un prince… et même le patron de l’UBB. Le vignoble bordelais, c’est aussi une histoire de grandes fortunes 🍇\n@villedebordeaux",
@@ -193,6 +193,14 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-11-03T08:11:51.645Z"
+        },
+        "x": {
+          "texte": "🏰 Qu’ont en commun Rothschild, Pinault, Arnault, un prince et le patron de l’UBB ? Ils possèdent des grands crus de #Bordeaux. Voici qui détient les plus grands châteaux.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261103-3e179b3c-x.jpg",
+          "mode": "reponse",
+          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/grands-crus-bordeaux-familles-proprietaires/",
+          "sujet": null,
+          "publieLe": "2026-11-03T09:20:49.325Z"
         }
       }
     },
@@ -439,6 +447,16 @@
   ],
   "publications": [
     {
+      "channel": "x",
+      "at": "2026-11-03T09:20:49.325Z",
+      "titre": "Grands crus de Bordeaux : qui possède les plus grands châteaux ?",
+      "lien": "https://passion-aquitaine.ouest-france.fr/grands-crus-bordeaux-familles-proprietaires/",
+      "lienPost": null,
+      "format": "reponse",
+      "texte": "🏰 Qu’ont en commun Rothschild, Pinault, Arnault, un prince et le patron de l’UBB ? Ils possèdent des grands crus de #Bordeaux. Voici qui détient les plus grands châteaux.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261103-3e179b3c-x.jpg"
+    },
+    {
       "channel": "facebook",
       "at": "2026-11-03T08:11:51.645Z",
       "titre": "Grands crus de Bordeaux : qui possède les plus grands châteaux ?",
@@ -527,28 +545,9 @@
       "format": null,
       "texte": "Angoulême, capitale de la BD, ouvre désormais ses cases aux écoliers ✏️\n⠀\nDes CM1 et CM2 y suivent deux heures de bande dessinée par semaine avec un auteur. Une première en France dans une école élémentaire, en Charente.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Angouleme #BandeDessinee #Ecole",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261101-10635de7-1.jpg"
-    },
-    {
-      "channel": "x",
-      "at": "2026-11-01T09:20:48.859Z",
-      "titre": "Angoulême ouvre la première classe BD de France en primaire",
-      "lien": "https://passion-aquitaine.ouest-france.fr/angouleme-classe-bd-ecole-premiere-france/",
-      "lienPost": null,
-      "format": "reponse",
-      "texte": "Des crayons, des planches et des bulles qui prennent vie sur les pupitres 🎨 À #Angoulême, des CM1 et CM2 font deux heures de BD par semaine avec un auteur, une première en France en primaire.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261101-10635de7-x.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "x",
-      "dueAt": "2026-11-03T09:20:00.000Z",
-      "prochainPassage": "2026-11-03T09:20:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Grands crus de Bordeaux : qui possède les plus grands châteaux ?"
-    },
     {
       "channel": "instagram",
       "dueAt": "2026-11-03T12:28:20.642Z",
@@ -682,7 +681,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-03T09:00:43.185Z",
+    "genereLe": "2026-11-03T09:20:57.526Z",
     "posts": 7,
     "parReseau": {
       "instagram": {
@@ -807,7 +806,7 @@
       "threads": 3,
       "facebook": 3,
       "bluesky": 3,
-      "x": 2,
+      "x": 3,
       "instagram": 2
     },
     "abonnes": {

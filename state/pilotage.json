@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-03T08:00:37.958Z",
+  "genereLe": "2026-11-03T08:20:36.500Z",
   "jour": "2026-11-03",
   "reseaux": {
     "instagram": {
@@ -61,7 +61,7 @@
         "reply"
       ],
       "aujourdhui": 1,
-      "semaine": 11,
+      "semaine": 10,
       "total": 66,
       "dernier": "2026-11-03T08:08:14.571Z",
       "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mzff3tvzlo2j"
@@ -561,14 +561,14 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 470,
+    "releves": 473,
     "parReseau": {
       "instagram": {
         "posts": 57,
         "interactionsMoyennes": 13
       },
       "bluesky": {
-        "posts": 55,
+        "posts": 56,
         "interactionsMoyennes": 0.2
       },
       "facebook": {
@@ -682,8 +682,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-03T08:11:55.339Z",
-    "posts": 5,
+    "genereLe": "2026-11-03T08:20:41.926Z",
+    "posts": 7,
     "parReseau": {
       "instagram": {
         "posts": 1,
@@ -694,11 +694,11 @@
         "moyenne": 1.5
       },
       "facebook": {
-        "posts": 1,
+        "posts": 2,
         "moyenne": 0
       },
       "bluesky": {
-        "posts": 1,
+        "posts": 2,
         "moyenne": 0
       }
     },
@@ -710,6 +710,10 @@
       "image": {
         "posts": 1,
         "moyenne": 0
+      },
+      "card": {
+        "posts": 1,
+        "moyenne": 0
       }
     },
     "parCreneau": {
@@ -718,8 +722,8 @@
         "moyenne": 3
       },
       "matin": {
-        "posts": 4,
-        "moyenne": 0.8
+        "posts": 6,
+        "moyenne": 0.5
       }
     },
     "parCreneauReseau": {
@@ -731,13 +735,13 @@
       },
       "facebook": {
         "8 h – 9 h 30": {
-          "posts": 1,
+          "posts": 2,
           "moyenne": 0
         }
       },
       "bluesky": {
         "8 h – 9 h 30": {
-          "posts": 1,
+          "posts": 2,
           "moyenne": 0
         }
       },
@@ -770,21 +774,21 @@
       "creneauReseau": "12 h – 13 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35991",
-      "channel": "bluesky",
-      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mzaec7yy5x2c",
-      "publieLe": "2026-11-01T08:10:36.597Z",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35812",
+      "channel": "facebook",
+      "mediaId": "227437307428711_1773494898109724",
+      "publieLe": "2026-11-02T08:07:02.444Z",
       "jalon": 1,
-      "releveLe": "2026-11-02T08:20:33.199Z",
+      "releveLe": "2026-11-03T08:20:36.500Z",
       "likes": 0,
       "commentairesBruts": 0,
       "partages": 0,
       "vues": null,
       "commentaires": 0,
       "v": 2,
-      "titre": "Angoulême ouvre la première classe BD de France en primaire",
-      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mzaec7yy5x2c",
-      "format": "image",
+      "titre": "Marché de Noël de Bruxelles : le Pays basque et le Béarn invités",
+      "lien": "https://www.facebook.com/1720946116697936/posts/1773494898109724",
+      "format": null,
       "mention": false,
       "creneau": "matin",
       "creneauReseau": "8 h – 9 h 30"
@@ -795,8 +799,8 @@
         "moyenne": 3
       },
       "sans": {
-        "posts": 4,
-        "moyenne": 0.8
+        "posts": 6,
+        "moyenne": 0.5
       }
     },
     "publies": {
@@ -847,7 +851,7 @@
       "facebook": 0
     },
     "conseils": [
-      "Le format « reponse » fait 15 fois mieux que « image » (1.5 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « image » de la rotation dans config/channels.json.",
+      "Le format « reponse » fait 15 fois mieux que « card » (1.5 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « card » de la rotation dans config/channels.json.",
       "Abonnés : aucun compte ne progresse."
     ]
   },

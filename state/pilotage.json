@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-03T07:00:37.873Z",
+  "genereLe": "2026-11-03T07:20:40.571Z",
   "jour": "2026-11-03",
   "reseaux": {
     "instagram": {
@@ -122,11 +122,11 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 10,
-      "total": 62,
-      "dernier": "2026-11-02T07:32:00.523Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DfOxaoREdJb"
+      "aujourdhui": 1,
+      "semaine": 11,
+      "total": 63,
+      "dernier": "2026-11-03T07:28:24.000Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DfRVrWhm4iC"
     },
     "x": {
       "actif": true,
@@ -164,6 +164,22 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35045",
+      "titre": "Grands crus de Bordeaux : qui possède les plus grands châteaux ?",
+      "lien": "https://passion-aquitaine.ouest-france.fr/grands-crus-bordeaux-familles-proprietaires/",
+      "at": "2026-11-03T07:28:24.000Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Des allées de vignes à perte de vue, des châteaux de pierre, des chais où dorment les plus grands crus de Bordeaux. Et derrière ces façades, des noms qui pèsent lourd : Rothschild, Pinault, Arnault, un prince… et même le patron de l’UBB. Le vignoble bordelais, c’est aussi une histoire de grandes fortunes 🍇\n@villedebordeaux",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261103-3e179b3c-th.jpg",
+          "mode": "reponse",
+          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/grands-crus-bordeaux-familles-proprietaires/",
+          "sujet": "Bordeaux",
+          "publieLe": "2026-11-03T07:28:24.000Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35812",
       "titre": "Marché de Noël de Bruxelles : le Pays basque et le Béarn invités",
@@ -403,57 +419,19 @@
           "publieLe": "2026-10-30T11:13:49.961Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35919",
-      "titre": "Bayonne obtient trois étoiles au Guide Michelin, la note maximale",
-      "lien": "https://passion-aquitaine.ouest-france.fr/bayonne-trois-etoiles-guide-michelin-voyage/",
-      "at": "2026-10-29T20:05:10.654Z",
-      "reseaux": {
-        "threads": {
-          "texte": "Trois étoiles, la note maximale du Guide Michelin 🏙️ Et cette fois, ce ne sont pas les chefs qui sont à l’honneur : c’est @bayonnemaville, la ville elle-même, que le Guide Michelin Voyage 2026 classe « vaut le voyage ». Vous auriez mis quelle ville du Pays basque sur le podium ?",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261029-2dbec919-th.jpg",
-          "mode": "reponse",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/bayonne-trois-etoiles-guide-michelin-voyage/",
-          "sujet": "Bayonne",
-          "publieLe": "2026-10-29T10:27:55.192Z"
-        },
-        "x": {
-          "texte": "#Bayonne décroche la note maximale du Guide Michelin Voyage 2026 : 🌟 trois étoiles pour la ville elle-même, pas pour ses restaurants. Verdict : « vaut le voyage ».",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261029-2dbec919-x.jpg",
-          "mode": "reponse",
-          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/bayonne-trois-etoiles-guide-michelin-voyage/",
-          "sujet": null,
-          "publieLe": "2026-10-29T11:00:48.932Z"
-        },
-        "bluesky": {
-          "texte": "⭐ Trois étoiles Michelin sans parler cuisine, c’est possible ? Le Guide Michelin Voyage 2026 décerne sa note maximale à #Bayonne elle-même, jugée « vaut le voyage ».",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261029-2dbec919-bsky.jpg",
-          "mode": "reply",
-          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/bayonne-trois-etoiles-guide-michelin-voyage/",
-          "sujet": null,
-          "publieLe": "2026-10-29T11:30:37.016Z"
-        },
-        "instagram": {
-          "texte": "Trois étoiles au Michelin, et ce n’est pas pour une table : c’est 🧭 Bayonne tout entière qui est récompensée.\n⠀\nLe Guide Michelin Voyage 2026 attribue à la ville sa note maximale, « vaut le voyage ». Une belle reconnaissance pour la cité du Pays basque.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bayonne #PaysBasque #Tourisme",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261029-2dbec919-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-29T17:24:07.489Z"
-        },
-        "facebook": {
-          "texte": "Ses ruelles, ses quais, son ambiance : c’est la ville entière que le Michelin juge digne d’un voyage, pas seulement ses assiettes 🗺️",
-          "image": null,
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-29T20:05:10.654Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "threads",
+      "at": "2026-11-03T07:28:24.000Z",
+      "titre": "Grands crus de Bordeaux : qui possède les plus grands châteaux ?",
+      "lien": "https://passion-aquitaine.ouest-france.fr/grands-crus-bordeaux-familles-proprietaires/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/DfRVrWhm4iC",
+      "format": "reponse",
+      "texte": "Des allées de vignes à perte de vue, des châteaux de pierre, des chais où dorment les plus grands crus de Bordeaux. Et derrière ces façades, des noms qui pèsent lourd : Rothschild, Pinault, Arnault, un prince… et même le patron de l’UBB. Le vignoble bordelais, c’est aussi une histoire de grandes fortunes 🍇\n@villedebordeaux",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261103-3e179b3c-th.jpg"
+    },
     {
       "channel": "instagram",
       "at": "2026-11-02T12:10:00.686Z",
@@ -543,28 +521,9 @@
       "format": null,
       "texte": "Deux heures par semaine à dessiner des bulles avec un vrai auteur de BD, c’est désormais au programme de certains écoliers 💬",
       "image": null
-    },
-    {
-      "channel": "threads",
-      "at": "2026-11-01T07:30:49.179Z",
-      "titre": "Angoulême ouvre la première classe BD de France en primaire",
-      "lien": "https://passion-aquitaine.ouest-france.fr/angouleme-classe-bd-ecole-premiere-france/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/DfMMV0FERfp",
-      "format": "reponse",
-      "texte": "🖍️ En école élémentaire, aucune classe en France n’était encore consacrée à la bande dessinée. C’est Angoulême qui ouvre la voie : des CM1 et CM2 y passent deux heures par semaine avec un auteur, crayon en main. Une initiative qui colle bien à la ville. Vous auriez aimé avoir ce cours à leur âge ?",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261101-10635de7-th.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "threads",
-      "dueAt": "2026-11-03T07:24:17.300Z",
-      "prochainPassage": "2026-11-03T08:00:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Grands crus de Bordeaux : qui possède les plus grands châteaux ?"
-    },
     {
       "channel": "bluesky",
       "dueAt": "2026-11-03T08:08:12.142Z",
@@ -725,7 +684,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-03T07:01:15.444Z",
+    "genereLe": "2026-11-03T07:28:27.737Z",
     "posts": 4,
     "parReseau": {
       "instagram": {
@@ -843,7 +802,7 @@
       }
     },
     "publies": {
-      "threads": 2,
+      "threads": 3,
       "facebook": 2,
       "bluesky": 2,
       "x": 2,

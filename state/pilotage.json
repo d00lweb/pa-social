@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-03T06:20:29.616Z",
+  "genereLe": "2026-11-03T07:00:37.873Z",
   "jour": "2026-11-03",
   "reseaux": {
     "instagram": {
@@ -555,7 +555,53 @@
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261101-10635de7-th.jpg"
     }
   ],
-  "file": [],
+  "file": [
+    {
+      "channel": "threads",
+      "dueAt": "2026-11-03T07:24:17.300Z",
+      "prochainPassage": "2026-11-03T08:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Grands crus de Bordeaux : qui possède les plus grands châteaux ?"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-11-03T08:08:12.142Z",
+      "prochainPassage": "2026-11-03T08:20:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Grands crus de Bordeaux : qui possède les plus grands châteaux ?"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-11-03T08:11:44.627Z",
+      "prochainPassage": "2026-11-03T08:20:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Grands crus de Bordeaux : qui possède les plus grands châteaux ?"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-11-03T09:20:00.000Z",
+      "prochainPassage": "2026-11-03T09:20:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Grands crus de Bordeaux : qui possède les plus grands châteaux ?"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-11-03T12:28:20.642Z",
+      "prochainPassage": "2026-11-03T13:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Grands crus de Bordeaux : qui possède les plus grands châteaux ?"
+    }
+  ],
   "alertes": [],
   "mesures": {
     "releves": 468,
@@ -640,7 +686,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-03T05:20:57.967Z"
+    "derniere": "2026-11-03T07:00:37.873Z"
   },
   "abonnes": {
     "instagram": {
@@ -679,7 +725,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-03T06:20:35.256Z",
+    "genereLe": "2026-11-03T07:01:15.444Z",
     "posts": 4,
     "parReseau": {
       "instagram": {
@@ -849,29 +895,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 0,
-      "entree": 0,
-      "sortie": 0,
-      "cout": 0,
+      "appels": 2,
+      "entree": 15869,
+      "sortie": 1808,
+      "cout": 0.099636,
       "cle": "2026-11-03"
     },
     "semaine": {
-      "appels": 40,
-      "entree": 320314,
-      "sortie": 36137,
-      "cout": 2.003996
+      "appels": 42,
+      "entree": 336183,
+      "sortie": 37945,
+      "cout": 2.103632
     },
     "mois": {
-      "appels": 22,
-      "entree": 175964,
-      "sortie": 20004,
-      "cout": 1.103936,
+      "appels": 24,
+      "entree": 191833,
+      "sortie": 21812,
+      "cout": 1.203572,
       "cle": "2026-11"
     },
-    "projection": 11.04,
-    "moyenneAppel": 0.0502,
+    "projection": 12.04,
+    "moyenneAppel": 0.0501,
     "parModele": {
-      "claude-opus-5-5": 22
+      "claude-opus-5-5": 24
     },
     "serie": [
       [
@@ -928,7 +974,7 @@
       ],
       [
         "2026-11-03",
-        0
+        0.0996
       ]
     ],
     "depuis": "2026-09-23"

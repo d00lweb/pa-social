@@ -1464,5 +1464,19 @@
     "threads": [],
     "bluesky": [],
     "x": []
+  },
+  "locale:bordeaux:vin": {
+    "v": 3,
+    "cherche": "2026-11-03T07:01:03.313Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:bordeaux:economie": {
+    "v": 3,
+    "cherche": "2026-11-03T07:01:03.313Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
   }
 }

@@ -1,12 +1,12 @@
 {
   "2026-11": {
     "cle": "2026-11",
-    "publications": 14,
+    "publications": 15,
     "articles": 3,
-    "interactions": 6,
+    "interactions": 11,
     "parReseau": {
       "facebook": 3,
-      "instagram": 2,
+      "instagram": 3,
       "x": 3,
       "threads": 3,
       "bluesky": 3
@@ -19,6 +19,13 @@
       "bluesky": 1
     },
     "top": [
+      {
+        "reseau": "instagram",
+        "titre": "Marché de Noël de Bruxelles : le Pays basque et le Béarn invités",
+        "lien": "https://www.instagram.com/p/DfPRi5qjFR1/",
+        "image": "https://passion-aquitaine.ouest-france.fr/social/20261102-116575f8-1-vignette.jpg",
+        "interactions": 5
+      },
       {
         "reseau": "instagram",
         "titre": "Angoulême ouvre la première classe BD de France en primaire",

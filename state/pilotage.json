@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-03T12:00:34.618Z",
+  "genereLe": "2026-11-03T12:20:48.770Z",
   "jour": "2026-11-03",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 10,
-      "total": 67,
-      "dernier": "2026-11-02T12:10:00.686Z",
-      "lienDernier": "https://www.instagram.com/p/DfPRi5qjFR1/"
+      "aujourdhui": 1,
+      "semaine": 11,
+      "total": 68,
+      "dernier": "2026-11-03T12:28:54.777Z",
+      "lienDernier": "https://www.instagram.com/p/DfR4f94F5_R/"
     },
     "bluesky": {
       "actif": true,
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35045",
       "titre": "Grands crus de Bordeaux : qui possède les plus grands châteaux ?",
       "lien": "https://passion-aquitaine.ouest-france.fr/grands-crus-bordeaux-familles-proprietaires/",
-      "at": "2026-11-03T09:20:49.325Z",
+      "at": "2026-11-03T12:28:54.777Z",
       "reseaux": {
         "threads": {
           "texte": "Des allées de vignes à perte de vue, des châteaux de pierre, des chais où dorment les plus grands crus de Bordeaux. Et derrière ces façades, des noms qui pèsent lourd : Rothschild, Pinault, Arnault, un prince… et même le patron de l’UBB. Le vignoble bordelais, c’est aussi une histoire de grandes fortunes 🍇\n@villedebordeaux",
@@ -201,6 +201,14 @@
           "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/grands-crus-bordeaux-familles-proprietaires/",
           "sujet": null,
           "publieLe": "2026-11-03T09:20:49.325Z"
+        },
+        "instagram": {
+          "texte": "🍷 Le patron de l’UBB parmi les propriétaires des grands crus de Bordeaux, aux côtés d’un prince\n⠀\nRothschild, Pinault, Arnault : les grandes fortunes se partagent les plus prestigieux châteaux du vignoble bordelais. Tour d’horizon de ceux qui détiennent ces grands crus.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #GrandsCrus #Vin",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261103-3e179b3c-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-03T12:28:54.777Z"
         }
       }
     },
@@ -447,6 +455,16 @@
   ],
   "publications": [
     {
+      "channel": "instagram",
+      "at": "2026-11-03T12:28:54.777Z",
+      "titre": "Grands crus de Bordeaux : qui possède les plus grands châteaux ?",
+      "lien": "https://passion-aquitaine.ouest-france.fr/grands-crus-bordeaux-familles-proprietaires/",
+      "lienPost": "https://www.instagram.com/p/DfR4f94F5_R/",
+      "format": null,
+      "texte": "🍷 Le patron de l’UBB parmi les propriétaires des grands crus de Bordeaux, aux côtés d’un prince\n⠀\nRothschild, Pinault, Arnault : les grandes fortunes se partagent les plus prestigieux châteaux du vignoble bordelais. Tour d’horizon de ceux qui détiennent ces grands crus.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #GrandsCrus #Vin",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261103-3e179b3c-1.jpg"
+    },
+    {
       "channel": "x",
       "at": "2026-11-03T09:20:49.325Z",
       "titre": "Grands crus de Bordeaux : qui possède les plus grands châteaux ?",
@@ -535,32 +553,12 @@
       "format": "reponse",
       "texte": "Plus de 4 millions de visites par an : du 27 novembre au 3 janvier, le marché de Noël de Bruxelles accueille un village basco-béarnais 🏛️",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261102-116575f8-th.jpg"
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-11-01T12:12:15.409Z",
-      "titre": "Angoulême ouvre la première classe BD de France en primaire",
-      "lien": "https://passion-aquitaine.ouest-france.fr/angouleme-classe-bd-ecole-premiere-france/",
-      "lienPost": "https://www.instagram.com/p/DfMtAfyDPLt/",
-      "format": null,
-      "texte": "Angoulême, capitale de la BD, ouvre désormais ses cases aux écoliers ✏️\n⠀\nDes CM1 et CM2 y suivent deux heures de bande dessinée par semaine avec un auteur. Une première en France dans une école élémentaire, en Charente.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Angouleme #BandeDessinee #Ecole",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261101-10635de7-1.jpg"
     }
   ],
-  "file": [
-    {
-      "channel": "instagram",
-      "dueAt": "2026-11-03T12:28:20.642Z",
-      "prochainPassage": "2026-11-03T13:00:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Grands crus de Bordeaux : qui possède les plus grands châteaux ?"
-    }
-  ],
+  "file": [],
   "alertes": [],
   "mesures": {
-    "releves": 474,
+    "releves": 475,
     "parReseau": {
       "instagram": {
         "posts": 57,
@@ -681,12 +679,12 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-03T12:00:37.819Z",
-    "posts": 7,
+    "genereLe": "2026-11-03T12:28:57.730Z",
+    "posts": 8,
     "parReseau": {
       "instagram": {
-        "posts": 1,
-        "moyenne": 3
+        "posts": 2,
+        "moyenne": 4
       },
       "threads": {
         "posts": 2,
@@ -717,8 +715,8 @@
     },
     "parCreneau": {
       "après-midi": {
-        "posts": 1,
-        "moyenne": 3
+        "posts": 2,
+        "moyenne": 4
       },
       "matin": {
         "posts": 6,
@@ -746,27 +744,27 @@
       },
       "instagram": {
         "12 h – 13 h 30": {
-          "posts": 1,
-          "moyenne": 3
+          "posts": 2,
+          "moyenne": 4
         }
       }
     },
-    "interactionsTotal": 6,
+    "interactionsTotal": 11,
     "meilleur": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35991",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35812",
       "channel": "instagram",
-      "mediaId": "18125199292715036",
-      "publieLe": "2026-11-01T12:12:15.409Z",
+      "mediaId": "18112394429578433",
+      "publieLe": "2026-11-02T12:10:00.686Z",
       "jalon": 1,
-      "releveLe": "2026-11-02T12:20:54.100Z",
-      "likes": 3,
+      "releveLe": "2026-11-03T12:20:48.770Z",
+      "likes": 5,
       "commentairesBruts": 0,
       "partages": null,
       "vues": null,
       "commentaires": 0,
       "v": 2,
-      "titre": "Angoulême ouvre la première classe BD de France en primaire",
-      "lien": "https://www.instagram.com/p/DfMtAfyDPLt/",
+      "titre": "Marché de Noël de Bruxelles : le Pays basque et le Béarn invités",
+      "lien": "https://www.instagram.com/p/DfPRi5qjFR1/",
       "format": null,
       "mention": true,
       "creneau": "après-midi",
@@ -794,8 +792,8 @@
     },
     "mentions": {
       "avec": {
-        "posts": 1,
-        "moyenne": 3
+        "posts": 2,
+        "moyenne": 4
       },
       "sans": {
         "posts": 6,
@@ -807,7 +805,7 @@
       "facebook": 3,
       "bluesky": 3,
       "x": 3,
-      "instagram": 2
+      "instagram": 3
     },
     "abonnes": {
       "instagram": {
@@ -845,7 +843,7 @@
       "x": null
     },
     "engagement": {
-      "instagram": 0.03,
+      "instagram": 0.04,
       "threads": 0.13,
       "facebook": 0
     },

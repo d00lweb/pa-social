@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-04T11:00:40.855Z",
+  "genereLe": "2026-11-04T11:20:54.001Z",
   "jour": "2026-11-04",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 10,
-      "total": 68,
-      "dernier": "2026-11-03T12:28:54.777Z",
-      "lienDernier": "https://www.instagram.com/p/DfR4f94F5_R/"
+      "aujourdhui": 1,
+      "semaine": 11,
+      "total": 69,
+      "dernier": "2026-11-04T11:32:03.102Z",
+      "lienDernier": "https://www.instagram.com/p/DfUWyfPl9Yo/"
     },
     "bluesky": {
       "actif": true,
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36013",
       "titre": "Bordeaux : un spectacle immersif sur Mozart en première mondiale",
       "lien": "https://passion-aquitaine.ouest-france.fr/bordeaux-sonarela-mozart-spectacle-immersif/",
-      "at": "2026-11-04T09:00:57.629Z",
+      "at": "2026-11-04T11:32:03.102Z",
       "reseaux": {
         "threads": {
           "texte": "À quoi pouvait bien ressembler l’intérieur de la tête de Mozart ? Les créateurs de Luminiscence tentent une réponse à Bordeaux 🎶 Un spectacle immersif en première mondiale, avec musique live et projections à 360°, programmé sur 22 dates pendant les fêtes. Vous seriez tenté par l’expérience ?\n@visitbordeaux",
@@ -201,6 +201,14 @@
           "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/bordeaux-sonarela-mozart-spectacle-immersif/",
           "sujet": null,
           "publieLe": "2026-11-04T09:00:57.629Z"
+        },
+        "instagram": {
+          "texte": "Une sortie pour les fêtes : plonger dans la tête de Mozart, en première mondiale à Bordeaux\n⠀\nMusique live, projections à 360° et 22 dates pour vivre ce spectacle immersif signé par les créateurs de Luminiscence 🎻\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #Mozart #SpectacleImmersif",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261104-d60cc8ad-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-04T11:32:03.102Z"
         }
       }
     },
@@ -447,6 +455,16 @@
   ],
   "publications": [
     {
+      "channel": "instagram",
+      "at": "2026-11-04T11:32:03.102Z",
+      "titre": "Bordeaux : un spectacle immersif sur Mozart en première mondiale",
+      "lien": "https://passion-aquitaine.ouest-france.fr/bordeaux-sonarela-mozart-spectacle-immersif/",
+      "lienPost": "https://www.instagram.com/p/DfUWyfPl9Yo/",
+      "format": null,
+      "texte": "Une sortie pour les fêtes : plonger dans la tête de Mozart, en première mondiale à Bordeaux\n⠀\nMusique live, projections à 360° et 22 dates pour vivre ce spectacle immersif signé par les créateurs de Luminiscence 🎻\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #Mozart #SpectacleImmersif",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261104-d60cc8ad-1.jpg"
+    },
+    {
       "channel": "x",
       "at": "2026-11-04T09:00:57.629Z",
       "titre": "Bordeaux : un spectacle immersif sur Mozart en première mondiale",
@@ -535,29 +553,9 @@
       "format": "reponse",
       "texte": "Des allées de vignes à perte de vue, des châteaux de pierre, des chais où dorment les plus grands crus de Bordeaux. Et derrière ces façades, des noms qui pèsent lourd : Rothschild, Pinault, Arnault, un prince… et même le patron de l’UBB. Le vignoble bordelais, c’est aussi une histoire de grandes fortunes 🍇\n@villedebordeaux",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261103-3e179b3c-th.jpg"
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-11-02T12:10:00.686Z",
-      "titre": "Marché de Noël de Bruxelles : le Pays basque et le Béarn invités",
-      "lien": "https://passion-aquitaine.ouest-france.fr/marche-noel-bruxelles-pays-basque-bearn/",
-      "lienPost": "https://www.instagram.com/p/DfPRi5qjFR1/",
-      "format": null,
-      "texte": "Plus de 4 millions de visites par an : du 27 novembre au 3 janvier, le marché de Noël de Bruxelles accueille un village basco-béarnais 🏛️\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#PaysBasque #Patrimoine #NouvelleAquitaine",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261102-116575f8-1.jpg"
     }
   ],
-  "file": [
-    {
-      "channel": "instagram",
-      "dueAt": "2026-11-04T11:31:30.756Z",
-      "prochainPassage": "2026-11-04T12:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Bordeaux : un spectacle immersif sur Mozart en première mondiale"
-    }
-  ],
+  "file": [],
   "alertes": [],
   "mesures": {
     "releves": 483,
@@ -642,7 +640,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-04T10:00:52.134Z"
+    "derniere": "2026-11-04T11:20:54.001Z"
   },
   "abonnes": {
     "instagram": {
@@ -681,7 +679,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-04T11:00:49.692Z",
+    "genereLe": "2026-11-04T11:32:05.559Z",
     "posts": 11,
     "parReseau": {
       "instagram": {
@@ -807,7 +805,7 @@
       "facebook": 4,
       "bluesky": 4,
       "x": 4,
-      "instagram": 3
+      "instagram": 4
     },
     "abonnes": {
       "instagram": {

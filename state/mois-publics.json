@@ -3,7 +3,7 @@
     "cle": "2026-11",
     "publications": 20,
     "articles": 4,
-    "interactions": 14,
+    "interactions": 19,
     "parReseau": {
       "facebook": 4,
       "instagram": 4,
@@ -28,6 +28,13 @@
       },
       {
         "reseau": "instagram",
+        "titre": "Grands crus de Bordeaux : qui possède les plus grands châteaux ?",
+        "lien": "https://www.instagram.com/p/DfR4f94F5_R/",
+        "image": "https://passion-aquitaine.ouest-france.fr/social/20261103-3e179b3c-1-vignette.jpg",
+        "interactions": 5
+      },
+      {
+        "reseau": "instagram",
         "titre": "Angoulême ouvre la première classe BD de France en primaire",
         "lien": "https://www.instagram.com/p/DfMtAfyDPLt/",
         "image": "https://passion-aquitaine.ouest-france.fr/social/20261101-10635de7-1-vignette.jpg",
@@ -46,13 +53,6 @@
         "lien": "https://www.threads.com/@lovaquitaine/post/DfOxaoREdJb",
         "image": "https://passion-aquitaine.ouest-france.fr/social/20261102-116575f8-1-vignette.jpg",
         "interactions": 2
-      },
-      {
-        "reseau": "threads",
-        "titre": "Angoulême ouvre la première classe BD de France en primaire",
-        "lien": "https://www.threads.com/@lovaquitaine/post/DfMMV0FERfp",
-        "image": "https://passion-aquitaine.ouest-france.fr/social/20261101-10635de7-1-vignette.jpg",
-        "interactions": 1
       }
     ]
   },

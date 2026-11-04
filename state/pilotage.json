@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-04T06:20:38.810Z",
+  "genereLe": "2026-11-04T07:00:37.735Z",
   "jour": "2026-11-04",
   "reseaux": {
     "instagram": {
@@ -555,7 +555,53 @@
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261102-116575f8-th.jpg"
     }
   ],
-  "file": [],
+  "file": [
+    {
+      "channel": "threads",
+      "dueAt": "2026-11-04T07:27:30.228Z",
+      "prochainPassage": "2026-11-04T08:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Bordeaux : un spectacle immersif sur Mozart en première mondiale"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-11-04T07:30:57.505Z",
+      "prochainPassage": "2026-11-04T08:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Bordeaux : un spectacle immersif sur Mozart en première mondiale"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-11-04T08:05:48.470Z",
+      "prochainPassage": "2026-11-04T08:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Bordeaux : un spectacle immersif sur Mozart en première mondiale"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-11-04T09:00:00.000Z",
+      "prochainPassage": "2026-11-04T09:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Bordeaux : un spectacle immersif sur Mozart en première mondiale"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-11-04T11:31:30.756Z",
+      "prochainPassage": "2026-11-04T12:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Bordeaux : un spectacle immersif sur Mozart en première mondiale"
+    }
+  ],
   "alertes": [],
   "mesures": {
     "releves": 476,
@@ -679,7 +725,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-04T06:20:43.696Z",
+    "genereLe": "2026-11-04T07:00:53.454Z",
     "posts": 8,
     "parReseau": {
       "instagram": {
@@ -854,29 +900,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 0,
-      "entree": 0,
-      "sortie": 0,
-      "cout": 0,
+      "appels": 1,
+      "entree": 7945,
+      "sortie": 821,
+      "cout": 0.0482,
       "cle": "2026-11-04"
     },
     "semaine": {
-      "appels": 32,
-      "entree": 255904,
-      "sortie": 28992,
-      "cout": 1.603456
+      "appels": 33,
+      "entree": 263849,
+      "sortie": 29813,
+      "cout": 1.651656
     },
     "mois": {
-      "appels": 24,
-      "entree": 191833,
-      "sortie": 21812,
-      "cout": 1.203572,
+      "appels": 25,
+      "entree": 199778,
+      "sortie": 22633,
+      "cout": 1.251772,
       "cle": "2026-11"
     },
-    "projection": 9.03,
+    "projection": 9.39,
     "moyenneAppel": 0.0501,
     "parModele": {
-      "claude-opus-5-5": 24
+      "claude-opus-5-5": 25
     },
     "serie": [
       [
@@ -933,7 +979,7 @@
       ],
       [
         "2026-11-04",
-        0
+        0.0482
       ]
     ],
     "depuis": "2026-09-23"

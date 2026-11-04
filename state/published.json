@@ -5737,5 +5737,41 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36013",
+    "channel": "threads",
+    "at": "2026-11-04T07:31:26.728Z",
+    "mediaId": "18113895656225207",
+    "titre": "Bordeaux : un spectacle immersif sur Mozart en première mondiale",
+    "lien": "https://passion-aquitaine.ouest-france.fr/bordeaux-sonarela-mozart-spectacle-immersif/",
+    "lienPost": "https://www.threads.com/@lovaquitaine/post/DfT61rIFjPG",
+    "format": "reponse",
+    "mention": true,
+    "apercu": {
+      "texte": "À quoi pouvait bien ressembler l’intérieur de la tête de Mozart ? Les créateurs de Luminiscence tentent une réponse à Bordeaux 🎶 Un spectacle immersif en première mondiale, avec musique live et projections à 360°, programmé sur 22 dates pendant les fêtes. Vous seriez tenté par l’expérience ?\n@visitbordeaux",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261104-d60cc8ad-th.jpg",
+      "mode": "reponse",
+      "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/bordeaux-sonarela-mozart-spectacle-immersif/",
+      "sujet": "Bordeaux"
+    }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36013",
+    "channel": "bluesky",
+    "at": "2026-11-04T07:31:35.979Z",
+    "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mzhtjap2o42z",
+    "titre": "Bordeaux : un spectacle immersif sur Mozart en première mondiale",
+    "lien": "https://passion-aquitaine.ouest-france.fr/bordeaux-sonarela-mozart-spectacle-immersif/",
+    "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mzhtjap2o42z",
+    "format": "reply",
+    "mention": false,
+    "apercu": {
+      "texte": "Des images projetées tout autour de vous, la #musique jouée en direct 🎹 À #Bordeaux, un #spectacle immersif fait entrer le public dans la tête de Mozart, en première mondiale et sur 22 dates pour les fêtes.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261104-d60cc8ad-bsky.jpg",
+      "mode": "reply",
+      "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/bordeaux-sonarela-mozart-spectacle-immersif/",
+      "sujet": null
+    }
   }
 ]

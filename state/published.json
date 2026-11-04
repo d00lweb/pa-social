@@ -5791,5 +5791,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36013",
+    "channel": "x",
+    "at": "2026-11-04T09:00:57.629Z",
+    "mediaId": "kit-telegram",
+    "titre": "Bordeaux : un spectacle immersif sur Mozart en première mondiale",
+    "lien": "https://passion-aquitaine.ouest-france.fr/bordeaux-sonarela-mozart-spectacle-immersif/",
+    "lienPost": null,
+    "format": "reponse",
+    "mention": false,
+    "apercu": {
+      "texte": "22 dates, des projections à 360° et de la musique live : #Bordeaux accueille en première mondiale un spectacle immersif dans la tête de Mozart, pour les fêtes 🎵",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261104-d60cc8ad-x.jpg",
+      "mode": "reponse",
+      "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/bordeaux-sonarela-mozart-spectacle-immersif/",
+      "sujet": null
+    }
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-04T08:20:38.653Z",
+  "genereLe": "2026-11-04T09:00:46.628Z",
   "jour": "2026-11-04",
   "reseaux": {
     "instagram": {
@@ -61,7 +61,7 @@
         "reply"
       ],
       "aujourdhui": 1,
-      "semaine": 11,
+      "semaine": 10,
       "total": 67,
       "dernier": "2026-11-04T07:31:35.979Z",
       "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mzhtjap2o42z"
@@ -156,10 +156,10 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
+      "aujourdhui": 1,
       "semaine": 10,
-      "total": 66,
-      "dernier": "2026-11-03T09:20:49.325Z",
+      "total": 67,
+      "dernier": "2026-11-04T09:00:57.629Z",
       "lienDernier": null
     }
   },
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36013",
       "titre": "Bordeaux : un spectacle immersif sur Mozart en première mondiale",
       "lien": "https://passion-aquitaine.ouest-france.fr/bordeaux-sonarela-mozart-spectacle-immersif/",
-      "at": "2026-11-04T08:05:58.129Z",
+      "at": "2026-11-04T09:00:57.629Z",
       "reseaux": {
         "threads": {
           "texte": "À quoi pouvait bien ressembler l’intérieur de la tête de Mozart ? Les créateurs de Luminiscence tentent une réponse à Bordeaux 🎶 Un spectacle immersif en première mondiale, avec musique live et projections à 360°, programmé sur 22 dates pendant les fêtes. Vous seriez tenté par l’expérience ?\n@visitbordeaux",
@@ -193,6 +193,14 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-11-04T08:05:58.129Z"
+        },
+        "x": {
+          "texte": "22 dates, des projections à 360° et de la musique live : #Bordeaux accueille en première mondiale un spectacle immersif dans la tête de Mozart, pour les fêtes 🎵",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261104-d60cc8ad-x.jpg",
+          "mode": "reponse",
+          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/bordeaux-sonarela-mozart-spectacle-immersif/",
+          "sujet": null,
+          "publieLe": "2026-11-04T09:00:57.629Z"
         }
       }
     },
@@ -439,6 +447,16 @@
   ],
   "publications": [
     {
+      "channel": "x",
+      "at": "2026-11-04T09:00:57.629Z",
+      "titre": "Bordeaux : un spectacle immersif sur Mozart en première mondiale",
+      "lien": "https://passion-aquitaine.ouest-france.fr/bordeaux-sonarela-mozart-spectacle-immersif/",
+      "lienPost": null,
+      "format": "reponse",
+      "texte": "22 dates, des projections à 360° et de la musique live : #Bordeaux accueille en première mondiale un spectacle immersif dans la tête de Mozart, pour les fêtes 🎵",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261104-d60cc8ad-x.jpg"
+    },
+    {
       "channel": "facebook",
       "at": "2026-11-04T08:05:58.129Z",
       "titre": "Bordeaux : un spectacle immersif sur Mozart en première mondiale",
@@ -527,28 +545,9 @@
       "format": null,
       "texte": "Plus de 4 millions de visites par an : du 27 novembre au 3 janvier, le marché de Noël de Bruxelles accueille un village basco-béarnais 🏛️\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#PaysBasque #Patrimoine #NouvelleAquitaine",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261102-116575f8-1.jpg"
-    },
-    {
-      "channel": "x",
-      "at": "2026-11-02T09:21:07.729Z",
-      "titre": "Marché de Noël de Bruxelles : le Pays basque et le Béarn invités",
-      "lien": "https://passion-aquitaine.ouest-france.fr/marche-noel-bruxelles-pays-basque-bearn/",
-      "lienPost": null,
-      "format": "reponse",
-      "texte": "Plus de 4 millions de visites par an : du au, le marché de Noël de Bruxelles accueille un village basco-béarnais 🏛️",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261102-116575f8-x.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "x",
-      "dueAt": "2026-11-04T09:00:00.000Z",
-      "prochainPassage": "2026-11-04T09:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Bordeaux : un spectacle immersif sur Mozart en première mondiale"
-    },
     {
       "channel": "instagram",
       "dueAt": "2026-11-04T11:31:30.756Z",
@@ -561,14 +560,14 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 481,
+    "releves": 482,
     "parReseau": {
       "instagram": {
         "posts": 58,
         "interactionsMoyennes": 12.8
       },
       "bluesky": {
-        "posts": 56,
+        "posts": 57,
         "interactionsMoyennes": 0.2
       },
       "facebook": {
@@ -643,7 +642,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-04T08:00:43.143Z"
+    "derniere": "2026-11-04T09:00:46.628Z"
   },
   "abonnes": {
     "instagram": {
@@ -682,7 +681,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-04T08:20:43.015Z",
+    "genereLe": "2026-11-04T09:01:08.037Z",
     "posts": 11,
     "parReseau": {
       "instagram": {
@@ -807,7 +806,7 @@
       "threads": 4,
       "facebook": 4,
       "bluesky": 4,
-      "x": 3,
+      "x": 4,
       "instagram": 3
     },
     "abonnes": {

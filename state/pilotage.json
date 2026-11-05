@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-05T07:20:37.925Z",
+  "genereLe": "2026-11-05T08:00:38.117Z",
   "jour": "2026-11-05",
   "reseaux": {
     "instagram": {
@@ -123,7 +123,7 @@
         "reponse"
       ],
       "aujourdhui": 0,
-      "semaine": 10,
+      "semaine": 9,
       "total": 65,
       "dernier": "2026-11-04T20:26:20.803Z",
       "lienDernier": "https://www.threads.com/@lovaquitaine/post/DfVTpswFGEF"
@@ -558,7 +558,7 @@
   "file": [],
   "alertes": [],
   "mesures": {
-    "releves": 488,
+    "releves": 491,
     "parReseau": {
       "instagram": {
         "posts": 60,
@@ -573,8 +573,8 @@
         "interactionsMoyennes": 0
       },
       "threads": {
-        "posts": 55,
-        "interactionsMoyennes": 10.1
+        "posts": 56,
+        "interactionsMoyennes": 10
       }
     }
   },
@@ -679,30 +679,30 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-05T07:20:43.183Z",
-    "posts": 12,
+    "genereLe": "2026-11-05T08:00:45.093Z",
+    "posts": 14,
     "parReseau": {
       "instagram": {
         "posts": 3,
         "moyenne": 4.3
       },
       "threads": {
-        "posts": 3,
-        "moyenne": 2
+        "posts": 4,
+        "moyenne": 1.8
       },
       "facebook": {
         "posts": 3,
         "moyenne": 0
       },
       "bluesky": {
-        "posts": 3,
+        "posts": 4,
         "moyenne": 0
       }
     },
     "parFormat": {
       "reponse": {
-        "posts": 3,
-        "moyenne": 2
+        "posts": 4,
+        "moyenne": 1.8
       },
       "image": {
         "posts": 1,
@@ -710,6 +710,10 @@
       },
       "card": {
         "posts": 2,
+        "moyenne": 0
+      },
+      "reply": {
+        "posts": 1,
         "moyenne": 0
       }
     },
@@ -719,15 +723,15 @@
         "moyenne": 4.3
       },
       "matin": {
-        "posts": 9,
-        "moyenne": 0.7
+        "posts": 11,
+        "moyenne": 0.6
       }
     },
     "parCreneauReseau": {
       "threads": {
         "7 h – 8 h 30": {
-          "posts": 3,
-          "moyenne": 2
+          "posts": 4,
+          "moyenne": 1.8
         }
       },
       "facebook": {
@@ -738,7 +742,7 @@
       },
       "bluesky": {
         "8 h – 9 h 30": {
-          "posts": 3,
+          "posts": 4,
           "moyenne": 0
         }
       },
@@ -749,7 +753,7 @@
         }
       }
     },
-    "interactionsTotal": 19,
+    "interactionsTotal": 20,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35812",
       "channel": "instagram",
@@ -771,32 +775,32 @@
       "creneauReseau": "12 h – 13 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35045",
-      "channel": "facebook",
-      "mediaId": "227437307428711_1774652161327331",
-      "publieLe": "2026-11-03T08:11:51.645Z",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36013",
+      "channel": "bluesky",
+      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mzhtjap2o42z",
+      "publieLe": "2026-11-04T07:31:35.979Z",
       "jalon": 1,
-      "releveLe": "2026-11-04T08:20:38.653Z",
+      "releveLe": "2026-11-05T08:00:38.117Z",
       "likes": 0,
-      "commentairesBruts": 0,
+      "commentairesBruts": 1,
       "partages": 0,
       "vues": null,
       "commentaires": 0,
       "v": 2,
-      "titre": "Grands crus de Bordeaux : qui possède les plus grands châteaux ?",
-      "lien": "https://www.facebook.com/1720946116697936/posts/1774652161327331",
-      "format": null,
+      "titre": "Bordeaux : un spectacle immersif sur Mozart en première mondiale",
+      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mzhtjap2o42z",
+      "format": "reply",
       "mention": false,
       "creneau": "matin",
       "creneauReseau": "8 h – 9 h 30"
     },
     "mentions": {
       "avec": {
-        "posts": 5,
-        "moyenne": 3.2
+        "posts": 6,
+        "moyenne": 2.8
       },
       "sans": {
-        "posts": 7,
+        "posts": 8,
         "moyenne": 0.4
       }
     },
@@ -844,13 +848,13 @@
     },
     "engagement": {
       "instagram": 0.04,
-      "threads": 0.17,
+      "threads": 0.16,
       "facebook": 0
     },
     "conseils": [
-      "Le format « reponse » fait 20 fois mieux que « card » (2 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « card » de la rotation dans config/channels.json.",
+      "Le format « reponse » fait 18 fois mieux que « reply » (1.8 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « reply » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+3, +0,3 %) ; Facebook recule (−4), à surveiller.",
-      "Les posts avec mention font 2.8 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
+      "Les posts avec mention font 2.4 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
     ]
   },
   "couts": {

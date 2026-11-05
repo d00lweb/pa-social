@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-05T10:20:41.961Z",
+  "genereLe": "2026-11-05T11:00:40.456Z",
   "jour": "2026-11-05",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 10,
-      "total": 70,
-      "dernier": "2026-11-04T20:30:28.297Z",
-      "lienDernier": "https://www.instagram.com/p/DfVUaJLDSRn/"
+      "aujourdhui": 1,
+      "semaine": 11,
+      "total": 71,
+      "dernier": "2026-11-05T11:07:07.362Z",
+      "lienDernier": "https://www.instagram.com/p/DfW4umioEQ4/"
     },
     "bluesky": {
       "actif": true,
@@ -123,7 +123,7 @@
         "reponse"
       ],
       "aujourdhui": 1,
-      "semaine": 10,
+      "semaine": 9,
       "total": 66,
       "dernier": "2026-11-05T10:28:10.785Z",
       "lienDernier": "https://www.threads.com/@lovaquitaine/post/DfWz7dAIDkj"
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36018",
       "titre": "Ski en Béarn : les dates d’ouverture des stations pour 2026-2027",
       "lien": "https://passion-aquitaine.ouest-france.fr/ski-bearn-dates-ouverture-stations/",
-      "at": "2026-11-05T10:28:10.785Z",
+      "at": "2026-11-05T11:07:07.362Z",
       "reseaux": {
         "x": {
           "texte": "Plus qu’un mois avant de skier en #Béarn ❄️ Gourette et La Pierre Saint-Martin ouvrent dès le 5 décembre, Artouste le 19. Le calendrier 2026-2027 est connu.",
@@ -185,6 +185,14 @@
           "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/ski-bearn-dates-ouverture-stations/",
           "sujet": "Béarn",
           "publieLe": "2026-11-05T10:28:10.785Z"
+        },
+        "instagram": {
+          "texte": "Les premières traces dans la poudreuse béarnaise approchent ⛷️\n⠀\nGourette et La Pierre Saint-Martin lancent la saison de ski dès le 5 décembre, Artouste le 19. Toutes les dates d’ouverture 2026-2027 des stations du Béarn sont à retrouver dans l’article.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Béarn #SkiPyrénées #Montagne",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261105-b5131d5b-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-05T11:07:07.362Z"
         }
       }
     },
@@ -431,6 +439,16 @@
   ],
   "publications": [
     {
+      "channel": "instagram",
+      "at": "2026-11-05T11:07:07.362Z",
+      "titre": "Ski en Béarn : les dates d’ouverture des stations pour 2026-2027",
+      "lien": "https://passion-aquitaine.ouest-france.fr/ski-bearn-dates-ouverture-stations/",
+      "lienPost": "https://www.instagram.com/p/DfW4umioEQ4/",
+      "format": null,
+      "texte": "Les premières traces dans la poudreuse béarnaise approchent ⛷️\n⠀\nGourette et La Pierre Saint-Martin lancent la saison de ski dès le 5 décembre, Artouste le 19. Toutes les dates d’ouverture 2026-2027 des stations du Béarn sont à retrouver dans l’article.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Béarn #SkiPyrénées #Montagne",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261105-b5131d5b-1.jpg"
+    },
+    {
       "channel": "threads",
       "at": "2026-11-05T10:28:10.785Z",
       "titre": "Ski en Béarn : les dates d’ouverture des stations pour 2026-2027",
@@ -519,28 +537,9 @@
       "format": "reponse",
       "texte": "22 dates, des projections à 360° et de la musique live : #Bordeaux accueille en première mondiale un spectacle immersif dans la tête de Mozart, pour les fêtes 🎵",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261104-d60cc8ad-x.jpg"
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-11-04T08:05:58.129Z",
-      "titre": "Bordeaux : un spectacle immersif sur Mozart en première mondiale",
-      "lien": "https://passion-aquitaine.ouest-france.fr/bordeaux-sonarela-mozart-spectacle-immersif/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1775799331212614",
-      "format": null,
-      "texte": "Derrière ce voyage dans la tête de Mozart à Bordeaux, on retrouve les créateurs de Luminiscence 🎼",
-      "image": null
     }
   ],
   "file": [
-    {
-      "channel": "instagram",
-      "dueAt": "2026-11-05T11:06:34.093Z",
-      "prochainPassage": "2026-11-05T11:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Ski en Béarn : les dates d’ouverture des stations pour 2026-2027"
-    },
     {
       "channel": "bluesky",
       "dueAt": "2026-11-05T12:05:28.730Z",
@@ -562,7 +561,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 494,
+    "releves": 495,
     "parReseau": {
       "instagram": {
         "posts": 60,
@@ -577,8 +576,8 @@
         "interactionsMoyennes": 0
       },
       "threads": {
-        "posts": 56,
-        "interactionsMoyennes": 10
+        "posts": 57,
+        "interactionsMoyennes": 9.9
       }
     }
   },
@@ -644,7 +643,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-05T09:20:55.776Z"
+    "derniere": "2026-11-05T11:00:40.456Z"
   },
   "abonnes": {
     "instagram": {
@@ -683,7 +682,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-05T10:28:13.852Z",
+    "genereLe": "2026-11-05T11:07:12.922Z",
     "posts": 15,
     "parReseau": {
       "instagram": {
@@ -813,7 +812,7 @@
       "facebook": 5,
       "bluesky": 5,
       "x": 6,
-      "instagram": 5
+      "instagram": 6
     },
     "abonnes": {
       "instagram": {

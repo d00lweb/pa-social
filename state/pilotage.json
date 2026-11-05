@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-05T09:01:10.533Z",
+  "genereLe": "2026-11-05T09:20:55.776Z",
   "jour": "2026-11-05",
   "reseaux": {
     "instagram": {
@@ -156,14 +156,30 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 9,
-      "total": 68,
-      "dernier": "2026-11-04T20:21:02.856Z",
+      "aujourdhui": 1,
+      "semaine": 10,
+      "total": 69,
+      "dernier": "2026-11-05T09:21:09.236Z",
       "lienDernier": null
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36018",
+      "titre": "Ski en Béarn : les dates d’ouverture des stations pour 2026-2027",
+      "lien": "https://passion-aquitaine.ouest-france.fr/ski-bearn-dates-ouverture-stations/",
+      "at": "2026-11-05T09:21:09.236Z",
+      "reseaux": {
+        "x": {
+          "texte": "Plus qu’un mois avant de skier en #Béarn ❄️ Gourette et La Pierre Saint-Martin ouvrent dès le 5 décembre, Artouste le 19. Le calendrier 2026-2027 est connu.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261105-b5131d5b-x.jpg",
+          "mode": "reponse",
+          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/ski-bearn-dates-ouverture-stations/",
+          "sujet": null,
+          "publieLe": "2026-11-05T09:21:09.236Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36034",
       "titre": "Bordeaux : Ublo, l’ex-Iboat, rouvre ses portes ce week-end",
@@ -403,57 +419,19 @@
           "publieLe": "2026-11-01T12:12:15.409Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35926",
-      "titre": "Biarritz : la Gare du Midi n’était plus aux normes de sécurité",
-      "lien": "https://passion-aquitaine.ouest-france.fr/biarritz-gare-du-midi-sieges-retires/",
-      "at": "2026-10-31T12:03:41.128Z",
-      "reseaux": {
-        "facebook": {
-          "texte": "À Biarritz, la Gare du Midi doit se passer d’une centaine de sièges pour respecter enfin les règles de sécurité 🪑",
-          "image": null,
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-31T07:06:01.690Z"
-        },
-        "threads": {
-          "texte": "Si vous avez l’habitude de fréquenter la Gare du Midi à Biarritz, attendez-vous à un changement 🎟️ Le lieu n’était plus aux normes de sécurité et compte désormais une centaine de sièges en moins. Une gare devenue autre chose depuis longtemps : plus aucun train n’y circule depuis 1980.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261031-f328a9da-th.jpg",
-          "mode": "reponse",
-          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/biarritz-gare-du-midi-sieges-retires/",
-          "sujet": "Biarritz",
-          "publieLe": "2026-10-31T07:31:03.230Z"
-        },
-        "bluesky": {
-          "texte": "🚉 Elle s’appelle toujours gare, mais aucun train ne s’y arrête depuis 1980. À #Biarritz, la Gare du Midi ne respectait plus les normes de #sécurité et perd une centaine de sièges.\n➡️ Lire l’article",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261031-f328a9da-bsky.jpg",
-          "mode": "image",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-31T07:32:45.813Z"
-        },
-        "x": {
-          "texte": "La Gare du Midi de #Biarritz n’a plus vu passer de train 🚂 depuis 1980. Non conforme aux normes de sécurité, elle perd une centaine de sièges.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261031-f328a9da-x.jpg",
-          "mode": "reponse",
-          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/biarritz-gare-du-midi-sieges-retires/",
-          "sujet": null,
-          "publieLe": "2026-10-31T09:21:12.994Z"
-        },
-        "instagram": {
-          "texte": "Une centaine de sièges en moins 💺 à la Gare du Midi de Biarritz\n⠀\nCe lieu emblématique du Pays basque, sans trains depuis 1980, n’était plus aux normes de sécurité. On vous explique ce qui change.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Biarritz #PaysBasque #GareDuMidi",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261031-f328a9da-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-10-31T12:03:41.128Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "x",
+      "at": "2026-11-05T09:21:09.236Z",
+      "titre": "Ski en Béarn : les dates d’ouverture des stations pour 2026-2027",
+      "lien": "https://passion-aquitaine.ouest-france.fr/ski-bearn-dates-ouverture-stations/",
+      "lienPost": null,
+      "format": "reponse",
+      "texte": "Plus qu’un mois avant de skier en #Béarn ❄️ Gourette et La Pierre Saint-Martin ouvrent dès le 5 décembre, Artouste le 19. Le calendrier 2026-2027 est connu.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261105-b5131d5b-x.jpg"
+    },
     {
       "channel": "facebook",
       "at": "2026-11-04T20:33:15.443Z",
@@ -543,28 +521,9 @@
       "format": "reply",
       "texte": "Des images projetées tout autour de vous, la #musique jouée en direct 🎹 À #Bordeaux, un #spectacle immersif fait entrer le public dans la tête de Mozart, en première mondiale et sur 22 dates pour les fêtes.",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261104-d60cc8ad-bsky.jpg"
-    },
-    {
-      "channel": "threads",
-      "at": "2026-11-04T07:31:26.728Z",
-      "titre": "Bordeaux : un spectacle immersif sur Mozart en première mondiale",
-      "lien": "https://passion-aquitaine.ouest-france.fr/bordeaux-sonarela-mozart-spectacle-immersif/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/DfT61rIFjPG",
-      "format": "reponse",
-      "texte": "À quoi pouvait bien ressembler l’intérieur de la tête de Mozart ? Les créateurs de Luminiscence tentent une réponse à Bordeaux 🎶 Un spectacle immersif en première mondiale, avec musique live et projections à 360°, programmé sur 22 dates pendant les fêtes. Vous seriez tenté par l’expérience ?\n@visitbordeaux",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261104-d60cc8ad-th.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "x",
-      "dueAt": "2026-11-05T09:20:00.000Z",
-      "prochainPassage": "2026-11-05T09:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Ski en Béarn : les dates d’ouverture des stations pour 2026-2027"
-    },
     {
       "channel": "threads",
       "dueAt": "2026-11-05T10:24:49.502Z",
@@ -686,7 +645,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-05T08:20:45.036Z"
+    "derniere": "2026-11-05T09:20:55.776Z"
   },
   "abonnes": {
     "instagram": {
@@ -725,7 +684,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-05T09:01:30.211Z",
+    "genereLe": "2026-11-05T09:21:20.778Z",
     "posts": 15,
     "parReseau": {
       "instagram": {
@@ -854,7 +813,7 @@
       "threads": 5,
       "facebook": 5,
       "bluesky": 5,
-      "x": 5,
+      "x": 6,
       "instagram": 5
     },
     "abonnes": {

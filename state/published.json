@@ -5917,5 +5917,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36018",
+    "channel": "x",
+    "at": "2026-11-05T09:21:09.236Z",
+    "mediaId": "kit-telegram",
+    "titre": "Ski en Béarn : les dates d’ouverture des stations pour 2026-2027",
+    "lien": "https://passion-aquitaine.ouest-france.fr/ski-bearn-dates-ouverture-stations/",
+    "lienPost": null,
+    "format": "reponse",
+    "mention": true,
+    "apercu": {
+      "texte": "Plus qu’un mois avant de skier en #Béarn ❄️ Gourette et La Pierre Saint-Martin ouvrent dès le 5 décembre, Artouste le 19. Le calendrier 2026-2027 est connu.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261105-b5131d5b-x.jpg",
+      "mode": "reponse",
+      "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/ski-bearn-dates-ouverture-stations/",
+      "sujet": null
+    }
   }
 ]

@@ -60,7 +60,7 @@
     "cle": "2026-10",
     "publications": 200,
     "articles": 40,
-    "interactions": 903,
+    "interactions": 923,
     "parReseau": {
       "facebook": 40,
       "instagram": 40,
@@ -85,17 +85,17 @@
       },
       {
         "reseau": "instagram",
+        "titre": "Bayonne obtient trois étoiles au Guide Michelin, la note maximale",
+        "lien": "https://www.instagram.com/p/DfFiTUrlF_7/",
+        "image": "https://passion-aquitaine.ouest-france.fr/social/20261029-2dbec919-1-vignette.jpg",
+        "interactions": 103
+      },
+      {
+        "reseau": "instagram",
         "titre": "À Limoges, Le Cheverny abrite une des meilleures caves de France",
         "lien": "https://www.instagram.com/p/DeJpgtklzof/",
         "image": "https://passion-aquitaine.ouest-france.fr/social/20261006-9ec21692-1-vignette.jpg",
         "interactions": 85
-      },
-      {
-        "reseau": "instagram",
-        "titre": "Bayonne obtient trois étoiles au Guide Michelin, la note maximale",
-        "lien": "https://www.instagram.com/p/DfFiTUrlF_7/",
-        "image": "https://passion-aquitaine.ouest-france.fr/social/20261029-2dbec919-1-vignette.jpg",
-        "interactions": 83
       },
       {
         "reseau": "instagram",

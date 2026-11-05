@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-05T20:09:37.902Z",
+  "genereLe": "2026-11-05T20:20:39.279Z",
   "jour": "2026-11-05",
   "reseaux": {
     "instagram": {
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 8,
-      "total": 65,
-      "dernier": "2026-11-04T20:33:15.443Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1776437267815487"
+      "aujourdhui": 1,
+      "semaine": 9,
+      "total": 66,
+      "dernier": "2026-11-05T20:29:17.814Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1777603461032201"
     },
     "threads": {
       "actif": true,
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36018",
       "titre": "Ski en Béarn : les dates d’ouverture des stations pour 2026-2027",
       "lien": "https://passion-aquitaine.ouest-france.fr/ski-bearn-dates-ouverture-stations/",
-      "at": "2026-11-05T12:05:30.940Z",
+      "at": "2026-11-05T20:29:17.814Z",
       "reseaux": {
         "x": {
           "texte": "Plus qu’un mois avant de skier en #Béarn ❄️ Gourette et La Pierre Saint-Martin ouvrent dès le 5 décembre, Artouste le 19. Le calendrier 2026-2027 est connu.",
@@ -201,6 +201,14 @@
           "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/ski-bearn-dates-ouverture-stations/",
           "sujet": null,
           "publieLe": "2026-11-05T12:05:30.940Z"
+        },
+        "facebook": {
+          "texte": "Vous savez déjà quelle station du Béarn ouvrira la première cet hiver pour chausser les skis 🎿",
+          "image": null,
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-05T20:29:17.814Z"
         }
       }
     },
@@ -447,6 +455,16 @@
   ],
   "publications": [
     {
+      "channel": "facebook",
+      "at": "2026-11-05T20:29:17.814Z",
+      "titre": "Ski en Béarn : les dates d’ouverture des stations pour 2026-2027",
+      "lien": "https://passion-aquitaine.ouest-france.fr/ski-bearn-dates-ouverture-stations/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1777603461032201",
+      "format": null,
+      "texte": "Vous savez déjà quelle station du Béarn ouvrira la première cet hiver pour chausser les skis 🎿",
+      "image": null
+    },
+    {
       "channel": "bluesky",
       "at": "2026-11-05T12:05:30.940Z",
       "titre": "Ski en Béarn : les dates d’ouverture des stations pour 2026-2027",
@@ -535,29 +553,9 @@
       "format": "reponse",
       "texte": "Bassins à flot, #Bordeaux : l’ex-Iboat rouvre les 6 et 7 novembre sous le nom ⛴️ Ublo. Même ferry, même quai, neuf mois après sa fermeture.",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261104-badf7c8c-x.jpg"
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-11-04T11:32:03.102Z",
-      "titre": "Bordeaux : un spectacle immersif sur Mozart en première mondiale",
-      "lien": "https://passion-aquitaine.ouest-france.fr/bordeaux-sonarela-mozart-spectacle-immersif/",
-      "lienPost": "https://www.instagram.com/p/DfUWyfPl9Yo/",
-      "format": null,
-      "texte": "Une sortie pour les fêtes : plonger dans la tête de Mozart, en première mondiale à Bordeaux\n⠀\nMusique live, projections à 360° et 22 dates pour vivre ce spectacle immersif signé par les créateurs de Luminiscence 🎻\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #Mozart #SpectacleImmersif",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261104-d60cc8ad-1.jpg"
     }
   ],
-  "file": [
-    {
-      "channel": "facebook",
-      "dueAt": "2026-11-05T20:29:10.046Z",
-      "prochainPassage": "2026-11-05T21:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Ski en Béarn : les dates d’ouverture des stations pour 2026-2027"
-    }
-  ],
+  "file": [],
   "alertes": [],
   "mesures": {
     "releves": 501,
@@ -681,7 +679,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-05T20:09:43.310Z",
+    "genereLe": "2026-11-05T20:29:21.233Z",
     "posts": 16,
     "parReseau": {
       "instagram": {
@@ -808,7 +806,7 @@
     },
     "publies": {
       "threads": 6,
-      "facebook": 5,
+      "facebook": 6,
       "bluesky": 6,
       "x": 6,
       "instagram": 6

@@ -3,7 +3,7 @@
     "cle": "2026-11",
     "publications": 30,
     "articles": 6,
-    "interactions": 22,
+    "interactions": 29,
     "parReseau": {
       "facebook": 6,
       "instagram": 6,
@@ -35,6 +35,13 @@
       },
       {
         "reseau": "instagram",
+        "titre": "Bordeaux : Ublo, l’ex-Iboat, rouvre ses portes ce week-end",
+        "lien": "https://www.instagram.com/p/DfVUaJLDSRn/",
+        "image": "https://passion-aquitaine.ouest-france.fr/social/20261104-badf7c8c-1-vignette.jpg",
+        "interactions": 5
+      },
+      {
+        "reseau": "instagram",
         "titre": "Angoulême ouvre la première classe BD de France en primaire",
         "lien": "https://www.instagram.com/p/DfMtAfyDPLt/",
         "image": "https://passion-aquitaine.ouest-france.fr/social/20261101-10635de7-1-vignette.jpg",
@@ -46,13 +53,6 @@
         "lien": "https://www.threads.com/@lovaquitaine/post/DfRVrWhm4iC",
         "image": "https://passion-aquitaine.ouest-france.fr/social/20261103-3e179b3c-1-vignette.jpg",
         "interactions": 3
-      },
-      {
-        "reseau": "threads",
-        "titre": "Marché de Noël de Bruxelles : le Pays basque et le Béarn invités",
-        "lien": "https://www.threads.com/@lovaquitaine/post/DfOxaoREdJb",
-        "image": "https://passion-aquitaine.ouest-france.fr/social/20261102-116575f8-1-vignette.jpg",
-        "interactions": 2
       }
     ]
   },

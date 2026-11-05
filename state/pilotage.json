@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-05T20:20:39.279Z",
+  "genereLe": "2026-11-05T21:00:35.640Z",
   "jour": "2026-11-05",
   "reseaux": {
     "instagram": {
@@ -558,7 +558,7 @@
   "file": [],
   "alertes": [],
   "mesures": {
-    "releves": 501,
+    "releves": 505,
     "parReseau": {
       "instagram": {
         "posts": 62,
@@ -679,33 +679,33 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-05T20:29:21.233Z",
-    "posts": 16,
+    "genereLe": "2026-11-05T21:00:40.129Z",
+    "posts": 20,
     "parReseau": {
       "instagram": {
-        "posts": 4,
-        "moyenne": 3.8
+        "posts": 5,
+        "moyenne": 4
       },
       "threads": {
-        "posts": 4,
+        "posts": 5,
         "moyenne": 1.8
       },
       "facebook": {
-        "posts": 4,
+        "posts": 5,
         "moyenne": 0
       },
       "bluesky": {
-        "posts": 4,
+        "posts": 5,
         "moyenne": 0
       }
     },
     "parFormat": {
       "reponse": {
-        "posts": 4,
+        "posts": 5,
         "moyenne": 1.8
       },
       "image": {
-        "posts": 1,
+        "posts": 2,
         "moyenne": 0
       },
       "card": {
@@ -722,6 +722,10 @@
         "posts": 4,
         "moyenne": 3.8
       },
+      "soir": {
+        "posts": 4,
+        "moyenne": 1.8
+      },
       "matin": {
         "posts": 12,
         "moyenne": 0.6
@@ -729,6 +733,10 @@
     },
     "parCreneauReseau": {
       "threads": {
+        "hors créneau": {
+          "posts": 1,
+          "moyenne": 2
+        },
         "7 h – 8 h 30": {
           "posts": 4,
           "moyenne": 1.8
@@ -738,22 +746,34 @@
         "8 h – 9 h 30": {
           "posts": 4,
           "moyenne": 0
+        },
+        "20 h – 21 h 30": {
+          "posts": 1,
+          "moyenne": 0
         }
       },
       "bluesky": {
         "8 h – 9 h 30": {
           "posts": 4,
           "moyenne": 0
+        },
+        "hors créneau": {
+          "posts": 1,
+          "moyenne": 0
         }
       },
       "instagram": {
+        "hors créneau": {
+          "posts": 1,
+          "moyenne": 5
+        },
         "12 h – 13 h 30": {
           "posts": 4,
           "moyenne": 3.8
         }
       }
     },
-    "interactionsTotal": 22,
+    "interactionsTotal": 29,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35812",
       "channel": "instagram",
@@ -775,32 +795,32 @@
       "creneauReseau": "12 h – 13 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36013",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36034",
       "channel": "facebook",
-      "mediaId": "227437307428711_1775799331212614",
-      "publieLe": "2026-11-04T08:05:58.129Z",
+      "mediaId": "227437307428711_1776437267815487",
+      "publieLe": "2026-11-04T20:33:15.443Z",
       "jalon": 1,
-      "releveLe": "2026-11-05T08:20:45.036Z",
+      "releveLe": "2026-11-05T21:00:35.640Z",
       "likes": 0,
       "commentairesBruts": 0,
       "partages": 0,
       "vues": null,
       "commentaires": 0,
       "v": 2,
-      "titre": "Bordeaux : un spectacle immersif sur Mozart en première mondiale",
-      "lien": "https://www.facebook.com/1720946116697936/posts/1775799331212614",
+      "titre": "Bordeaux : Ublo, l’ex-Iboat, rouvre ses portes ce week-end",
+      "lien": "https://www.facebook.com/1720946116697936/posts/1776437267815487",
       "format": null,
       "mention": false,
-      "creneau": "matin",
-      "creneauReseau": "8 h – 9 h 30"
+      "creneau": "soir",
+      "creneauReseau": "20 h – 21 h 30"
     },
     "mentions": {
       "avec": {
-        "posts": 7,
-        "moyenne": 2.7
+        "posts": 10,
+        "moyenne": 2.6
       },
       "sans": {
-        "posts": 9,
+        "posts": 10,
         "moyenne": 0.3
       }
     },
@@ -854,7 +874,7 @@
     "conseils": [
       "Le format « reponse » fait 18 fois mieux que « reply » (1.8 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « reply » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+3, +0,3 %) ; Facebook recule (−4), à surveiller.",
-      "Les posts avec mention font 2.4 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
+      "Les posts avec mention font 2.3 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
     ]
   },
   "couts": {

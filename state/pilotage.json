@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-05T08:20:45.036Z",
+  "genereLe": "2026-11-05T09:01:10.533Z",
   "jour": "2026-11-05",
   "reseaux": {
     "instagram": {
@@ -61,7 +61,7 @@
         "reply"
       ],
       "aujourdhui": 0,
-      "semaine": 10,
+      "semaine": 9,
       "total": 68,
       "dernier": "2026-11-04T20:26:40.460Z",
       "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mzj6t6nzun2z"
@@ -89,7 +89,7 @@
       },
       "formats": null,
       "aujourdhui": 0,
-      "semaine": 10,
+      "semaine": 9,
       "total": 65,
       "dernier": "2026-11-04T20:33:15.443Z",
       "lienDernier": "https://www.facebook.com/1720946116697936/posts/1776437267815487"
@@ -157,7 +157,7 @@
         "reponse"
       ],
       "aujourdhui": 0,
-      "semaine": 10,
+      "semaine": 9,
       "total": 68,
       "dernier": "2026-11-04T20:21:02.856Z",
       "lienDernier": null
@@ -555,21 +555,67 @@
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261104-d60cc8ad-th.jpg"
     }
   ],
-  "file": [],
+  "file": [
+    {
+      "channel": "x",
+      "dueAt": "2026-11-05T09:20:00.000Z",
+      "prochainPassage": "2026-11-05T09:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Ski en Béarn : les dates d’ouverture des stations pour 2026-2027"
+    },
+    {
+      "channel": "threads",
+      "dueAt": "2026-11-05T10:24:49.502Z",
+      "prochainPassage": "2026-11-05T11:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Ski en Béarn : les dates d’ouverture des stations pour 2026-2027"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-11-05T11:06:34.093Z",
+      "prochainPassage": "2026-11-05T11:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Ski en Béarn : les dates d’ouverture des stations pour 2026-2027"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-11-05T12:05:28.730Z",
+      "prochainPassage": "2026-11-05T12:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Ski en Béarn : les dates d’ouverture des stations pour 2026-2027"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-11-05T20:29:10.046Z",
+      "prochainPassage": "2026-11-05T21:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Ski en Béarn : les dates d’ouverture des stations pour 2026-2027"
+    }
+  ],
   "alertes": [],
   "mesures": {
-    "releves": 492,
+    "releves": 494,
     "parReseau": {
       "instagram": {
         "posts": 60,
         "interactionsMoyennes": 12.5
       },
       "bluesky": {
-        "posts": 58,
+        "posts": 59,
         "interactionsMoyennes": 0.2
       },
       "facebook": {
-        "posts": 55,
+        "posts": 56,
         "interactionsMoyennes": 0
       },
       "threads": {
@@ -679,7 +725,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-05T08:20:53.026Z",
+    "genereLe": "2026-11-05T09:01:30.211Z",
     "posts": 15,
     "parReseau": {
       "instagram": {
@@ -859,29 +905,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 0,
-      "entree": 0,
-      "sortie": 0,
-      "cout": 0,
+      "appels": 1,
+      "entree": 8005,
+      "sortie": 931,
+      "cout": 0.05064,
       "cle": "2026-11-05"
     },
     "semaine": {
-      "appels": 30,
-      "entree": 239744,
-      "sortie": 27032,
-      "cout": 1.499616
+      "appels": 31,
+      "entree": 247749,
+      "sortie": 27963,
+      "cout": 1.550256
     },
     "mois": {
-      "appels": 26,
-      "entree": 207735,
-      "sortie": 23555,
-      "cout": 1.30204,
+      "appels": 27,
+      "entree": 215740,
+      "sortie": 24486,
+      "cout": 1.35268,
       "cle": "2026-11"
     },
-    "projection": 7.81,
+    "projection": 8.12,
     "moyenneAppel": 0.0501,
     "parModele": {
-      "claude-opus-5-5": 26
+      "claude-opus-5-5": 27
     },
     "serie": [
       [
@@ -938,7 +984,7 @@
       ],
       [
         "2026-11-05",
-        0
+        0.0506
       ]
     ],
     "depuis": "2026-09-23"

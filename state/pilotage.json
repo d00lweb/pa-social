@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-05T08:00:38.117Z",
+  "genereLe": "2026-11-05T08:20:45.036Z",
   "jour": "2026-11-05",
   "reseaux": {
     "instagram": {
@@ -558,7 +558,7 @@
   "file": [],
   "alertes": [],
   "mesures": {
-    "releves": 491,
+    "releves": 492,
     "parReseau": {
       "instagram": {
         "posts": 60,
@@ -640,7 +640,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-05T07:00:58.610Z"
+    "derniere": "2026-11-05T08:20:45.036Z"
   },
   "abonnes": {
     "instagram": {
@@ -679,8 +679,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-05T08:00:45.093Z",
-    "posts": 14,
+    "genereLe": "2026-11-05T08:20:53.026Z",
+    "posts": 15,
     "parReseau": {
       "instagram": {
         "posts": 3,
@@ -691,7 +691,7 @@
         "moyenne": 1.8
       },
       "facebook": {
-        "posts": 3,
+        "posts": 4,
         "moyenne": 0
       },
       "bluesky": {
@@ -723,7 +723,7 @@
         "moyenne": 4.3
       },
       "matin": {
-        "posts": 11,
+        "posts": 12,
         "moyenne": 0.6
       }
     },
@@ -736,7 +736,7 @@
       },
       "facebook": {
         "8 h – 9 h 30": {
-          "posts": 3,
+          "posts": 4,
           "moyenne": 0
         }
       },
@@ -776,20 +776,20 @@
     },
     "moinsBon": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36013",
-      "channel": "bluesky",
-      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mzhtjap2o42z",
-      "publieLe": "2026-11-04T07:31:35.979Z",
+      "channel": "facebook",
+      "mediaId": "227437307428711_1775799331212614",
+      "publieLe": "2026-11-04T08:05:58.129Z",
       "jalon": 1,
-      "releveLe": "2026-11-05T08:00:38.117Z",
+      "releveLe": "2026-11-05T08:20:45.036Z",
       "likes": 0,
-      "commentairesBruts": 1,
+      "commentairesBruts": 0,
       "partages": 0,
       "vues": null,
       "commentaires": 0,
       "v": 2,
       "titre": "Bordeaux : un spectacle immersif sur Mozart en première mondiale",
-      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mzhtjap2o42z",
-      "format": "reply",
+      "lien": "https://www.facebook.com/1720946116697936/posts/1775799331212614",
+      "format": null,
       "mention": false,
       "creneau": "matin",
       "creneauReseau": "8 h – 9 h 30"
@@ -800,8 +800,8 @@
         "moyenne": 2.8
       },
       "sans": {
-        "posts": 8,
-        "moyenne": 0.4
+        "posts": 9,
+        "moyenne": 0.3
       }
     },
     "publies": {
@@ -854,7 +854,7 @@
     "conseils": [
       "Le format « reponse » fait 18 fois mieux que « reply » (1.8 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « reply » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+3, +0,3 %) ; Facebook recule (−4), à surveiller.",
-      "Les posts avec mention font 2.4 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
+      "Les posts avec mention font 2.5 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
     ]
   },
   "couts": {

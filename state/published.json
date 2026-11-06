@@ -6065,5 +6065,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36004",
+    "channel": "bluesky",
+    "at": "2026-11-06T18:08:18.732Z",
+    "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mznxzmgk2c23",
+    "titre": "Requins, crocodiliens, coquillages : pourquoi la mer recouvrait Amberre ?",
+    "lien": "https://passion-aquitaine.ouest-france.fr/faluns-amberre-mer-fossiles/",
+    "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mznxzmgk2c23",
+    "format": "card",
+    "mention": false,
+    "apercu": {
+      "texte": "#Amberre, dans la #Vienne, cache un passé marin 🐚 Les carrières de Moulin-Pochas regorgent de fossiles de requins, de crocodiliens et de coquillages, témoins d’une mer aujourd’hui disparue.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261106-d2e04441-bsky.jpg",
+      "mode": "card",
+      "reponse": null,
+      "sujet": null
+    }
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-06T20:20:29.791Z",
+  "genereLe": "2026-11-06T20:35:41.309Z",
   "jour": "2026-11-06",
   "reseaux": {
     "instagram": {
@@ -558,7 +558,7 @@
   "file": [],
   "alertes": [],
   "mesures": {
-    "releves": 515,
+    "releves": 516,
     "parReseau": {
       "instagram": {
         "posts": 64,
@@ -679,8 +679,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-06T20:20:35.652Z",
-    "posts": 23,
+    "genereLe": "2026-11-06T20:35:46.730Z",
+    "posts": 24,
     "parReseau": {
       "instagram": {
         "posts": 6,
@@ -691,7 +691,7 @@
         "moyenne": 1.5
       },
       "facebook": {
-        "posts": 5,
+        "posts": 6,
         "moyenne": 0
       },
       "bluesky": {
@@ -723,8 +723,8 @@
         "moyenne": 3
       },
       "soir": {
-        "posts": 4,
-        "moyenne": 1.8
+        "posts": 5,
+        "moyenne": 1.4
       },
       "matin": {
         "posts": 13,
@@ -752,7 +752,7 @@
           "moyenne": 0
         },
         "20 h – 21 h 30": {
-          "posts": 1,
+          "posts": 2,
           "moyenne": 0
         }
       },
@@ -804,23 +804,23 @@
     },
     "moinsBon": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36018",
-      "channel": "bluesky",
-      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mzktbxm2wj25",
-      "publieLe": "2026-11-05T12:05:30.940Z",
+      "channel": "facebook",
+      "mediaId": "227437307428711_1777603461032201",
+      "publieLe": "2026-11-05T20:29:17.814Z",
       "jalon": 1,
-      "releveLe": "2026-11-06T12:20:49.235Z",
+      "releveLe": "2026-11-06T20:35:41.309Z",
       "likes": 0,
-      "commentairesBruts": 1,
+      "commentairesBruts": 0,
       "partages": 0,
       "vues": null,
       "commentaires": 0,
       "v": 2,
       "titre": "Ski en Béarn : les dates d’ouverture des stations pour 2026-2027",
-      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mzktbxm2wj25",
-      "format": "reply",
+      "lien": "https://www.facebook.com/1720946116697936/posts/1777603461032201",
+      "format": null,
       "mention": false,
-      "creneau": "après-midi",
-      "creneauReseau": "12 h – 13 h 30"
+      "creneau": "soir",
+      "creneauReseau": "20 h – 21 h 30"
     },
     "mentions": {
       "avec": {
@@ -828,7 +828,7 @@
         "moyenne": 2.4
       },
       "sans": {
-        "posts": 11,
+        "posts": 12,
         "moyenne": 0.3
       }
     },

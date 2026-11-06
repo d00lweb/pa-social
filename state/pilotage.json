@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-06T19:00:34.733Z",
+  "genereLe": "2026-11-06T19:20:29.742Z",
   "jour": "2026-11-06",
   "reseaux": {
     "instagram": {
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 0,
+      "aujourdhui": 1,
       "semaine": 8,
-      "total": 66,
-      "dernier": "2026-11-05T20:29:17.814Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1777603461032201"
+      "total": 67,
+      "dernier": "2026-11-06T19:33:50.518Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1778791877580026"
     },
     "threads": {
       "actif": true,
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36004",
       "titre": "Requins, crocodiliens, coquillages : pourquoi la mer recouvrait Amberre ?",
       "lien": "https://passion-aquitaine.ouest-france.fr/faluns-amberre-mer-fossiles/",
-      "at": "2026-11-06T18:08:18.732Z",
+      "at": "2026-11-06T19:33:50.518Z",
       "reseaux": {
         "threads": {
           "texte": "Loin de toute côte, la Vienne a pourtant été recouverte par la mer 🦈 Requins, crocodiliens, coquillages : les carrières de Moulin-Pochas, à Amberre, regorgent de fossiles marins. De quoi regarder autrement les paysages de ce coin du département.",
@@ -201,6 +201,14 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-11-06T18:08:18.732Z"
+        },
+        "facebook": {
+          "texte": "Des dents de requins et des restes de crocodiliens dorment dans les carrières de Moulin-Pochas, en pleine Vienne 🦴",
+          "image": null,
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-06T19:33:50.518Z"
         }
       }
     },
@@ -447,6 +455,16 @@
   ],
   "publications": [
     {
+      "channel": "facebook",
+      "at": "2026-11-06T19:33:50.518Z",
+      "titre": "Requins, crocodiliens, coquillages : pourquoi la mer recouvrait Amberre ?",
+      "lien": "https://passion-aquitaine.ouest-france.fr/faluns-amberre-mer-fossiles/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1778791877580026",
+      "format": null,
+      "texte": "Des dents de requins et des restes de crocodiliens dorment dans les carrières de Moulin-Pochas, en pleine Vienne 🦴",
+      "image": null
+    },
+    {
       "channel": "bluesky",
       "at": "2026-11-06T18:08:18.732Z",
       "titre": "Requins, crocodiliens, coquillages : pourquoi la mer recouvrait Amberre ?",
@@ -535,32 +553,12 @@
       "format": "reponse",
       "texte": "Plus qu’un mois avant de skier en #Béarn ❄️ Gourette et La Pierre Saint-Martin ouvrent dès le 5 décembre, Artouste le 19. Le calendrier 2026-2027 est connu.",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261105-b5131d5b-x.jpg"
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-11-04T20:33:15.443Z",
-      "titre": "Bordeaux : Ublo, l’ex-Iboat, rouvre ses portes ce week-end",
-      "lien": "https://passion-aquitaine.ouest-france.fr/bordeaux-ublo-ex-iboat-ouverture/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1776437267815487",
-      "format": null,
-      "texte": "Le même ferry, amarré au même quai des Bassins à flot, va de nouveau s’animer ce week-end sous un nouveau nom ⚓",
-      "image": null
     }
   ],
-  "file": [
-    {
-      "channel": "facebook",
-      "dueAt": "2026-11-06T19:33:44.968Z",
-      "prochainPassage": "2026-11-06T20:00:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Requins, crocodiliens, coquillages : pourquoi la mer recouvrait Amberre ?"
-    }
-  ],
+  "file": [],
   "alertes": [],
   "mesures": {
-    "releves": 514,
+    "releves": 515,
     "parReseau": {
       "instagram": {
         "posts": 64,
@@ -571,7 +569,7 @@
         "interactionsMoyennes": 0.2
       },
       "facebook": {
-        "posts": 58,
+        "posts": 59,
         "interactionsMoyennes": 0
       },
       "threads": {
@@ -642,7 +640,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-06T18:00:40.126Z"
+    "derniere": "2026-11-06T19:20:29.742Z"
   },
   "abonnes": {
     "instagram": {
@@ -681,7 +679,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-06T19:00:39.159Z",
+    "genereLe": "2026-11-06T19:33:53.987Z",
     "posts": 23,
     "parReseau": {
       "instagram": {
@@ -836,7 +834,7 @@
     },
     "publies": {
       "threads": 7,
-      "facebook": 6,
+      "facebook": 7,
       "bluesky": 7,
       "x": 7,
       "instagram": 7

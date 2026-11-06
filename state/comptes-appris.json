@@ -1492,5 +1492,64 @@
     "instagram": [],
     "threads": [],
     "bluesky": []
+  },
+  "commune:mairie:amberre": {
+    "v": 3,
+    "cherche": "2026-11-06T13:01:02.801Z",
+    "instagram": [],
+    "x": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:amberre:paleontologie": {
+    "v": 3,
+    "cherche": "2026-11-06T13:01:02.801Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:amberre:geologie": {
+    "v": 3,
+    "cherche": "2026-11-06T13:01:02.801Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "territoire:vienne:departement86,laviennetourisme": {
+    "v": 3,
+    "cherche": "2026-11-06T13:01:02.801Z",
+    "conseil": {
+      "instagram": [
+        {
+          "handle": "departement86",
+          "nom": "Département de la Vienne",
+          "abonnes": 9583,
+          "preuve": 3
+        }
+      ],
+      "threads": [],
+      "bluesky": [],
+      "x": [
+        {
+          "handle": "departement86",
+          "nom": "",
+          "abonnes": null,
+          "preuve": 3
+        }
+      ]
+    },
+    "tourisme": {
+      "instagram": [
+        {
+          "handle": "laviennetourisme",
+          "nom": "La Vienne, à vous de jouer",
+          "abonnes": 8333,
+          "preuve": 3
+        }
+      ],
+      "threads": [],
+      "bluesky": [],
+      "x": []
+    }
   }
 }

@@ -1,1 +1,537 @@
-[]
+[
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36004",
+    "channel": "instagram",
+    "dueAt": 1793986470801,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Requins, crocodiliens, coquillages : pourquoi la mer recouvrait Amberre ?",
+      "link": "https://passion-aquitaine.ouest-france.fr/faluns-amberre-mer-fossiles/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36004",
+      "pubDate": "Fri, 06 Nov 2026 12:27:51 +0000",
+      "date": 1793968071000,
+      "categories": [
+        "Actus",
+        "Vienne"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/carrieres_moulin_pochas_04.jpg",
+      "description": "Les carrières de Moulin-Pochas regorgent de fossiles marins. On vous explique pourquoi la mer était présente dans la Vienne."
+    },
+    "dossier": {
+      "nature": "evergreen",
+      "sensible": false,
+      "rubrique": "Vienne",
+      "visuel": {
+        "titre": "Requins, crocodiliens, coquillages : pourquoi la mer recouvrait Amberre ?",
+        "surlignage": "crocodiliens",
+        "description": "Les carrières de Moulin-Pochas regorgent de fossiles marins. Retour sur l’époque où la mer était présente dans la Vienne, et sur ce qu’elle a laissé derrière elle.",
+        "texte_alternatif": "Les carrières de Moulin-Pochas, à Amberre dans la Vienne, renferment des fossiles marins de requins, de crocodiliens et de coquillages."
+      },
+      "entites": [],
+      "domaines": [
+        "paléontologie",
+        "géologie"
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "Des requins et des crocodiliens dans la Vienne, vous l’auriez imaginé ?\nÀ Amberre, les carrières de Moulin-Pochas regorgent de fossiles marins. On vous explique pourquoi la mer recouvrait autrefois ce coin de la Vienne 🦈",
+        "hashtags": [
+          "#Vienne",
+          "#Fossiles",
+          "#Paleontologie"
+        ]
+      },
+      "facebook": {
+        "texte": "Des dents de requins et des restes de crocodiliens dorment dans les carrières de Moulin-Pochas, en pleine Vienne 🦴"
+      },
+      "bluesky": {
+        "texte": "Amberre, dans la Vienne, cache un passé marin 🐚 Les carrières de Moulin-Pochas regorgent de fossiles de requins, de crocodiliens et de coquillages, témoins d’une mer aujourd’hui disparue.",
+        "hashtag": "#Amberre"
+      },
+      "threads": {
+        "texte": "Loin de toute côte, la Vienne a pourtant été recouverte par la mer 🦈 Requins, crocodiliens, coquillages : les carrières de Moulin-Pochas, à Amberre, regorgent de fossiles marins. De quoi regarder autrement les paysages de ce coin du département.",
+        "sujet": "Vienne"
+      },
+      "x": {
+        "texte": "Comprendre pourquoi la mer recouvrait Amberre : les carrières de Moulin-Pochas livrent des fossiles de requins, de crocodiliens et de coquillages, preuves d’un passé marin dans la Vienne 🐊"
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 7993,
+        "output": 844
+      },
+      "angles": {
+        "instagram": "question intrigante",
+        "facebook": "chiffre ou fait marquant en tête",
+        "bluesky": "lieu en tête",
+        "threads": "effet de surprise",
+        "x": "bénéfice pour le lecteur"
+      },
+      "lieuSource": {
+        "precis": "Carrières de Moulin-Pochas",
+        "ville": "Amberre",
+        "departement": "Vienne"
+      },
+      "lieuNom": "Carrières de Moulin-Pochas",
+      "commune": "Amberre",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Département de la Vienne",
+            "handle": "departement86",
+            "abonnes": 9583,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "Vienne",
+            "handle": "departement86",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36004",
+    "channel": "bluesky",
+    "dueAt": 1793988496687,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Requins, crocodiliens, coquillages : pourquoi la mer recouvrait Amberre ?",
+      "link": "https://passion-aquitaine.ouest-france.fr/faluns-amberre-mer-fossiles/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36004",
+      "pubDate": "Fri, 06 Nov 2026 12:27:51 +0000",
+      "date": 1793968071000,
+      "categories": [
+        "Actus",
+        "Vienne"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/carrieres_moulin_pochas_04.jpg",
+      "description": "Les carrières de Moulin-Pochas regorgent de fossiles marins. On vous explique pourquoi la mer était présente dans la Vienne."
+    },
+    "dossier": {
+      "nature": "evergreen",
+      "sensible": false,
+      "rubrique": "Vienne",
+      "visuel": {
+        "titre": "Requins, crocodiliens, coquillages : pourquoi la mer recouvrait Amberre ?",
+        "surlignage": "crocodiliens",
+        "description": "Les carrières de Moulin-Pochas regorgent de fossiles marins. Retour sur l’époque où la mer était présente dans la Vienne, et sur ce qu’elle a laissé derrière elle.",
+        "texte_alternatif": "Les carrières de Moulin-Pochas, à Amberre dans la Vienne, renferment des fossiles marins de requins, de crocodiliens et de coquillages."
+      },
+      "entites": [],
+      "domaines": [
+        "paléontologie",
+        "géologie"
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "Des requins et des crocodiliens dans la Vienne, vous l’auriez imaginé ?\nÀ Amberre, les carrières de Moulin-Pochas regorgent de fossiles marins. On vous explique pourquoi la mer recouvrait autrefois ce coin de la Vienne 🦈",
+        "hashtags": [
+          "#Vienne",
+          "#Fossiles",
+          "#Paleontologie"
+        ]
+      },
+      "facebook": {
+        "texte": "Des dents de requins et des restes de crocodiliens dorment dans les carrières de Moulin-Pochas, en pleine Vienne 🦴"
+      },
+      "bluesky": {
+        "texte": "Amberre, dans la Vienne, cache un passé marin 🐚 Les carrières de Moulin-Pochas regorgent de fossiles de requins, de crocodiliens et de coquillages, témoins d’une mer aujourd’hui disparue.",
+        "hashtag": "#Amberre"
+      },
+      "threads": {
+        "texte": "Loin de toute côte, la Vienne a pourtant été recouverte par la mer 🦈 Requins, crocodiliens, coquillages : les carrières de Moulin-Pochas, à Amberre, regorgent de fossiles marins. De quoi regarder autrement les paysages de ce coin du département.",
+        "sujet": "Vienne"
+      },
+      "x": {
+        "texte": "Comprendre pourquoi la mer recouvrait Amberre : les carrières de Moulin-Pochas livrent des fossiles de requins, de crocodiliens et de coquillages, preuves d’un passé marin dans la Vienne 🐊"
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 7993,
+        "output": 844
+      },
+      "angles": {
+        "instagram": "question intrigante",
+        "facebook": "chiffre ou fait marquant en tête",
+        "bluesky": "lieu en tête",
+        "threads": "effet de surprise",
+        "x": "bénéfice pour le lecteur"
+      },
+      "lieuSource": {
+        "precis": "Carrières de Moulin-Pochas",
+        "ville": "Amberre",
+        "departement": "Vienne"
+      },
+      "lieuNom": "Carrières de Moulin-Pochas",
+      "commune": "Amberre",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Département de la Vienne",
+            "handle": "departement86",
+            "abonnes": 9583,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "Vienne",
+            "handle": "departement86",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36004",
+    "channel": "facebook",
+    "dueAt": 1793993624968,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Requins, crocodiliens, coquillages : pourquoi la mer recouvrait Amberre ?",
+      "link": "https://passion-aquitaine.ouest-france.fr/faluns-amberre-mer-fossiles/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36004",
+      "pubDate": "Fri, 06 Nov 2026 12:27:51 +0000",
+      "date": 1793968071000,
+      "categories": [
+        "Actus",
+        "Vienne"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/carrieres_moulin_pochas_04.jpg",
+      "description": "Les carrières de Moulin-Pochas regorgent de fossiles marins. On vous explique pourquoi la mer était présente dans la Vienne."
+    },
+    "dossier": {
+      "nature": "evergreen",
+      "sensible": false,
+      "rubrique": "Vienne",
+      "visuel": {
+        "titre": "Requins, crocodiliens, coquillages : pourquoi la mer recouvrait Amberre ?",
+        "surlignage": "crocodiliens",
+        "description": "Les carrières de Moulin-Pochas regorgent de fossiles marins. Retour sur l’époque où la mer était présente dans la Vienne, et sur ce qu’elle a laissé derrière elle.",
+        "texte_alternatif": "Les carrières de Moulin-Pochas, à Amberre dans la Vienne, renferment des fossiles marins de requins, de crocodiliens et de coquillages."
+      },
+      "entites": [],
+      "domaines": [
+        "paléontologie",
+        "géologie"
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "Des requins et des crocodiliens dans la Vienne, vous l’auriez imaginé ?\nÀ Amberre, les carrières de Moulin-Pochas regorgent de fossiles marins. On vous explique pourquoi la mer recouvrait autrefois ce coin de la Vienne 🦈",
+        "hashtags": [
+          "#Vienne",
+          "#Fossiles",
+          "#Paleontologie"
+        ]
+      },
+      "facebook": {
+        "texte": "Des dents de requins et des restes de crocodiliens dorment dans les carrières de Moulin-Pochas, en pleine Vienne 🦴"
+      },
+      "bluesky": {
+        "texte": "Amberre, dans la Vienne, cache un passé marin 🐚 Les carrières de Moulin-Pochas regorgent de fossiles de requins, de crocodiliens et de coquillages, témoins d’une mer aujourd’hui disparue.",
+        "hashtag": "#Amberre"
+      },
+      "threads": {
+        "texte": "Loin de toute côte, la Vienne a pourtant été recouverte par la mer 🦈 Requins, crocodiliens, coquillages : les carrières de Moulin-Pochas, à Amberre, regorgent de fossiles marins. De quoi regarder autrement les paysages de ce coin du département.",
+        "sujet": "Vienne"
+      },
+      "x": {
+        "texte": "Comprendre pourquoi la mer recouvrait Amberre : les carrières de Moulin-Pochas livrent des fossiles de requins, de crocodiliens et de coquillages, preuves d’un passé marin dans la Vienne 🐊"
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 7993,
+        "output": 844
+      },
+      "angles": {
+        "instagram": "question intrigante",
+        "facebook": "chiffre ou fait marquant en tête",
+        "bluesky": "lieu en tête",
+        "threads": "effet de surprise",
+        "x": "bénéfice pour le lecteur"
+      },
+      "lieuSource": {
+        "precis": "Carrières de Moulin-Pochas",
+        "ville": "Amberre",
+        "departement": "Vienne"
+      },
+      "lieuNom": "Carrières de Moulin-Pochas",
+      "commune": "Amberre",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Département de la Vienne",
+            "handle": "departement86",
+            "abonnes": 9583,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "Vienne",
+            "handle": "departement86",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36004",
+    "channel": "threads",
+    "dueAt": 1793971715637,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Requins, crocodiliens, coquillages : pourquoi la mer recouvrait Amberre ?",
+      "link": "https://passion-aquitaine.ouest-france.fr/faluns-amberre-mer-fossiles/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36004",
+      "pubDate": "Fri, 06 Nov 2026 12:27:51 +0000",
+      "date": 1793968071000,
+      "categories": [
+        "Actus",
+        "Vienne"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/carrieres_moulin_pochas_04.jpg",
+      "description": "Les carrières de Moulin-Pochas regorgent de fossiles marins. On vous explique pourquoi la mer était présente dans la Vienne."
+    },
+    "dossier": {
+      "nature": "evergreen",
+      "sensible": false,
+      "rubrique": "Vienne",
+      "visuel": {
+        "titre": "Requins, crocodiliens, coquillages : pourquoi la mer recouvrait Amberre ?",
+        "surlignage": "crocodiliens",
+        "description": "Les carrières de Moulin-Pochas regorgent de fossiles marins. Retour sur l’époque où la mer était présente dans la Vienne, et sur ce qu’elle a laissé derrière elle.",
+        "texte_alternatif": "Les carrières de Moulin-Pochas, à Amberre dans la Vienne, renferment des fossiles marins de requins, de crocodiliens et de coquillages."
+      },
+      "entites": [],
+      "domaines": [
+        "paléontologie",
+        "géologie"
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "Des requins et des crocodiliens dans la Vienne, vous l’auriez imaginé ?\nÀ Amberre, les carrières de Moulin-Pochas regorgent de fossiles marins. On vous explique pourquoi la mer recouvrait autrefois ce coin de la Vienne 🦈",
+        "hashtags": [
+          "#Vienne",
+          "#Fossiles",
+          "#Paleontologie"
+        ]
+      },
+      "facebook": {
+        "texte": "Des dents de requins et des restes de crocodiliens dorment dans les carrières de Moulin-Pochas, en pleine Vienne 🦴"
+      },
+      "bluesky": {
+        "texte": "Amberre, dans la Vienne, cache un passé marin 🐚 Les carrières de Moulin-Pochas regorgent de fossiles de requins, de crocodiliens et de coquillages, témoins d’une mer aujourd’hui disparue.",
+        "hashtag": "#Amberre"
+      },
+      "threads": {
+        "texte": "Loin de toute côte, la Vienne a pourtant été recouverte par la mer 🦈 Requins, crocodiliens, coquillages : les carrières de Moulin-Pochas, à Amberre, regorgent de fossiles marins. De quoi regarder autrement les paysages de ce coin du département.",
+        "sujet": "Vienne"
+      },
+      "x": {
+        "texte": "Comprendre pourquoi la mer recouvrait Amberre : les carrières de Moulin-Pochas livrent des fossiles de requins, de crocodiliens et de coquillages, preuves d’un passé marin dans la Vienne 🐊"
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 7993,
+        "output": 844
+      },
+      "angles": {
+        "instagram": "question intrigante",
+        "facebook": "chiffre ou fait marquant en tête",
+        "bluesky": "lieu en tête",
+        "threads": "effet de surprise",
+        "x": "bénéfice pour le lecteur"
+      },
+      "lieuSource": {
+        "precis": "Carrières de Moulin-Pochas",
+        "ville": "Amberre",
+        "departement": "Vienne"
+      },
+      "lieuNom": "Carrières de Moulin-Pochas",
+      "commune": "Amberre",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Département de la Vienne",
+            "handle": "departement86",
+            "abonnes": 9583,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "Vienne",
+            "handle": "departement86",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36004",
+    "channel": "x",
+    "dueAt": 1793982000000,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Requins, crocodiliens, coquillages : pourquoi la mer recouvrait Amberre ?",
+      "link": "https://passion-aquitaine.ouest-france.fr/faluns-amberre-mer-fossiles/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36004",
+      "pubDate": "Fri, 06 Nov 2026 12:27:51 +0000",
+      "date": 1793968071000,
+      "categories": [
+        "Actus",
+        "Vienne"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/carrieres_moulin_pochas_04.jpg",
+      "description": "Les carrières de Moulin-Pochas regorgent de fossiles marins. On vous explique pourquoi la mer était présente dans la Vienne."
+    },
+    "dossier": {
+      "nature": "evergreen",
+      "sensible": false,
+      "rubrique": "Vienne",
+      "visuel": {
+        "titre": "Requins, crocodiliens, coquillages : pourquoi la mer recouvrait Amberre ?",
+        "surlignage": "crocodiliens",
+        "description": "Les carrières de Moulin-Pochas regorgent de fossiles marins. Retour sur l’époque où la mer était présente dans la Vienne, et sur ce qu’elle a laissé derrière elle.",
+        "texte_alternatif": "Les carrières de Moulin-Pochas, à Amberre dans la Vienne, renferment des fossiles marins de requins, de crocodiliens et de coquillages."
+      },
+      "entites": [],
+      "domaines": [
+        "paléontologie",
+        "géologie"
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "Des requins et des crocodiliens dans la Vienne, vous l’auriez imaginé ?\nÀ Amberre, les carrières de Moulin-Pochas regorgent de fossiles marins. On vous explique pourquoi la mer recouvrait autrefois ce coin de la Vienne 🦈",
+        "hashtags": [
+          "#Vienne",
+          "#Fossiles",
+          "#Paleontologie"
+        ]
+      },
+      "facebook": {
+        "texte": "Des dents de requins et des restes de crocodiliens dorment dans les carrières de Moulin-Pochas, en pleine Vienne 🦴"
+      },
+      "bluesky": {
+        "texte": "Amberre, dans la Vienne, cache un passé marin 🐚 Les carrières de Moulin-Pochas regorgent de fossiles de requins, de crocodiliens et de coquillages, témoins d’une mer aujourd’hui disparue.",
+        "hashtag": "#Amberre"
+      },
+      "threads": {
+        "texte": "Loin de toute côte, la Vienne a pourtant été recouverte par la mer 🦈 Requins, crocodiliens, coquillages : les carrières de Moulin-Pochas, à Amberre, regorgent de fossiles marins. De quoi regarder autrement les paysages de ce coin du département.",
+        "sujet": "Vienne"
+      },
+      "x": {
+        "texte": "Comprendre pourquoi la mer recouvrait Amberre : les carrières de Moulin-Pochas livrent des fossiles de requins, de crocodiliens et de coquillages, preuves d’un passé marin dans la Vienne 🐊"
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 7993,
+        "output": 844
+      },
+      "angles": {
+        "instagram": "question intrigante",
+        "facebook": "chiffre ou fait marquant en tête",
+        "bluesky": "lieu en tête",
+        "threads": "effet de surprise",
+        "x": "bénéfice pour le lecteur"
+      },
+      "lieuSource": {
+        "precis": "Carrières de Moulin-Pochas",
+        "ville": "Amberre",
+        "departement": "Vienne"
+      },
+      "lieuNom": "Carrières de Moulin-Pochas",
+      "commune": "Amberre",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Département de la Vienne",
+            "handle": "departement86",
+            "abonnes": 9583,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "Vienne",
+            "handle": "departement86",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  }
+]

@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-06T12:20:49.235Z",
+  "genereLe": "2026-11-06T13:00:32.406Z",
   "jour": "2026-11-06",
   "reseaux": {
     "instagram": {
@@ -555,7 +555,53 @@
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261104-badf7c8c-x.jpg"
     }
   ],
-  "file": [],
+  "file": [
+    {
+      "channel": "threads",
+      "dueAt": "2026-11-06T13:28:35.637Z",
+      "prochainPassage": "2026-11-06T14:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Requins, crocodiliens, coquillages : pourquoi la mer recouvrait Amberre ?"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-11-06T16:20:00.000Z",
+      "prochainPassage": "2026-11-06T16:20:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Requins, crocodiliens, coquillages : pourquoi la mer recouvrait Amberre ?"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-11-06T17:34:30.801Z",
+      "prochainPassage": "2026-11-06T18:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Requins, crocodiliens, coquillages : pourquoi la mer recouvrait Amberre ?"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-11-06T18:08:16.687Z",
+      "prochainPassage": "2026-11-06T18:20:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Requins, crocodiliens, coquillages : pourquoi la mer recouvrait Amberre ?"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-11-06T19:33:44.968Z",
+      "prochainPassage": "2026-11-06T20:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Requins, crocodiliens, coquillages : pourquoi la mer recouvrait Amberre ?"
+    }
+  ],
   "alertes": [],
   "mesures": {
     "releves": 513,
@@ -640,7 +686,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-06T12:00:30.543Z"
+    "derniere": "2026-11-06T13:00:32.406Z"
   },
   "abonnes": {
     "instagram": {
@@ -679,7 +725,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-06T12:20:54.401Z",
+    "genereLe": "2026-11-06T13:01:13.875Z",
     "posts": 23,
     "parReseau": {
       "instagram": {
@@ -887,29 +933,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 0,
-      "entree": 0,
-      "sortie": 0,
-      "cout": 0,
+      "appels": 3,
+      "entree": 23955,
+      "sortie": 2533,
+      "cout": 0.14648,
       "cle": "2026-11-06"
     },
     "semaine": {
-      "appels": 29,
-      "entree": 231682,
-      "sortie": 26186,
-      "cout": 1.4504480000000002
+      "appels": 32,
+      "entree": 255637,
+      "sortie": 28719,
+      "cout": 1.5969280000000001
     },
     "mois": {
-      "appels": 27,
-      "entree": 215740,
-      "sortie": 24486,
-      "cout": 1.35268,
+      "appels": 30,
+      "entree": 239695,
+      "sortie": 27019,
+      "cout": 1.49916,
       "cle": "2026-11"
     },
-    "projection": 6.76,
-    "moyenneAppel": 0.0501,
+    "projection": 7.5,
+    "moyenneAppel": 0.05,
     "parModele": {
-      "claude-opus-5-5": 27
+      "claude-opus-5-5": 30
     },
     "serie": [
       [
@@ -966,7 +1012,7 @@
       ],
       [
         "2026-11-06",
-        0
+        0.1465
       ]
     ],
     "depuis": "2026-09-23"

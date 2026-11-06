@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-06T16:01:07.339Z",
+  "genereLe": "2026-11-06T16:20:53.426Z",
   "jour": "2026-11-06",
   "reseaux": {
     "instagram": {
@@ -156,10 +156,10 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 7,
-      "total": 69,
-      "dernier": "2026-11-05T09:21:09.236Z",
+      "aujourdhui": 1,
+      "semaine": 8,
+      "total": 70,
+      "dernier": "2026-11-06T16:21:05.022Z",
       "lienDernier": null
     }
   },
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36004",
       "titre": "Requins, crocodiliens, coquillages : pourquoi la mer recouvrait Amberre ?",
       "lien": "https://passion-aquitaine.ouest-france.fr/faluns-amberre-mer-fossiles/",
-      "at": "2026-11-06T13:35:46.226Z",
+      "at": "2026-11-06T16:21:05.022Z",
       "reseaux": {
         "threads": {
           "texte": "Loin de toute côte, la Vienne a pourtant été recouverte par la mer 🦈 Requins, crocodiliens, coquillages : les carrières de Moulin-Pochas, à Amberre, regorgent de fossiles marins. De quoi regarder autrement les paysages de ce coin du département.",
@@ -177,6 +177,14 @@
           "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/faluns-amberre-mer-fossiles/",
           "sujet": "Amberre",
           "publieLe": "2026-11-06T13:35:46.226Z"
+        },
+        "x": {
+          "texte": "Comprendre pourquoi la mer recouvrait #Amberre : les carrières de Moulin-Pochas livrent des fossiles de requins, de crocodiliens et de coquillages, preuves d’un passé marin dans la Vienne 🐊",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261106-d2e04441-x.jpg",
+          "mode": "reponse",
+          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/faluns-amberre-mer-fossiles/",
+          "sujet": null,
+          "publieLe": "2026-11-06T16:21:05.022Z"
         }
       }
     },
@@ -423,6 +431,16 @@
   ],
   "publications": [
     {
+      "channel": "x",
+      "at": "2026-11-06T16:21:05.022Z",
+      "titre": "Requins, crocodiliens, coquillages : pourquoi la mer recouvrait Amberre ?",
+      "lien": "https://passion-aquitaine.ouest-france.fr/faluns-amberre-mer-fossiles/",
+      "lienPost": null,
+      "format": "reponse",
+      "texte": "Comprendre pourquoi la mer recouvrait #Amberre : les carrières de Moulin-Pochas livrent des fossiles de requins, de crocodiliens et de coquillages, preuves d’un passé marin dans la Vienne 🐊",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261106-d2e04441-x.jpg"
+    },
+    {
       "channel": "threads",
       "at": "2026-11-06T13:35:46.226Z",
       "titre": "Requins, crocodiliens, coquillages : pourquoi la mer recouvrait Amberre ?",
@@ -511,28 +529,9 @@
       "format": "image",
       "texte": "🛳️ Que devient un bateau culte quand il change de nom ? À #Bordeaux, l’ex-Iboat renaît en Ublo : même ferry, même quai aux Bassins à flot, réouverture les 6 et 7 novembre, neuf mois après sa fermeture.\n@villedebordeaux.bsky.social\n➡️ Lire l’article",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261104-badf7c8c-bsky.jpg"
-    },
-    {
-      "channel": "threads",
-      "at": "2026-11-04T20:26:20.803Z",
-      "titre": "Bordeaux : Ublo, l’ex-Iboat, rouvre ses portes ce week-end",
-      "lien": "https://passion-aquitaine.ouest-france.fr/bordeaux-ublo-ex-iboat-ouverture/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/DfVTpswFGEF",
-      "format": "reponse",
-      "texte": "Neuf mois de silence, et le ferry revient à la vie 🚢 L’ancien Iboat rouvre ce week-end, les 6 et 7 novembre, sous un nouveau nom : Ublo. Même bateau, même quai aux Bassins à flot de Bordeaux. Vous y aviez vos habitudes ?\n@villedebordeaux",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261104-badf7c8c-th.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "x",
-      "dueAt": "2026-11-06T16:20:00.000Z",
-      "prochainPassage": "2026-11-06T16:20:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Requins, crocodiliens, coquillages : pourquoi la mer recouvrait Amberre ?"
-    },
     {
       "channel": "instagram",
       "dueAt": "2026-11-06T17:34:30.801Z",
@@ -645,7 +644,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-06T15:20:36.551Z"
+    "derniere": "2026-11-06T16:20:53.426Z"
   },
   "abonnes": {
     "instagram": {
@@ -684,7 +683,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-06T16:01:12.523Z",
+    "genereLe": "2026-11-06T16:21:12.330Z",
     "posts": 23,
     "parReseau": {
       "instagram": {
@@ -841,7 +840,7 @@
       "threads": 7,
       "facebook": 6,
       "bluesky": 6,
-      "x": 6,
+      "x": 7,
       "instagram": 6
     },
     "abonnes": {

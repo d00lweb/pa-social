@@ -6029,5 +6029,23 @@
       "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/faluns-amberre-mer-fossiles/",
       "sujet": "Amberre"
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36004",
+    "channel": "x",
+    "at": "2026-11-06T16:21:05.022Z",
+    "mediaId": "kit-telegram",
+    "titre": "Requins, crocodiliens, coquillages : pourquoi la mer recouvrait Amberre ?",
+    "lien": "https://passion-aquitaine.ouest-france.fr/faluns-amberre-mer-fossiles/",
+    "lienPost": null,
+    "format": "reponse",
+    "mention": true,
+    "apercu": {
+      "texte": "Comprendre pourquoi la mer recouvrait #Amberre : les carrières de Moulin-Pochas livrent des fossiles de requins, de crocodiliens et de coquillages, preuves d’un passé marin dans la Vienne 🐊",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261106-d2e04441-x.jpg",
+      "mode": "reponse",
+      "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/faluns-amberre-mer-fossiles/",
+      "sujet": null
+    }
   }
 ]

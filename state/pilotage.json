@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-06T12:00:30.543Z",
+  "genereLe": "2026-11-06T12:20:49.235Z",
   "jour": "2026-11-06",
   "reseaux": {
     "instagram": {
@@ -558,7 +558,7 @@
   "file": [],
   "alertes": [],
   "mesures": {
-    "releves": 512,
+    "releves": 513,
     "parReseau": {
       "instagram": {
         "posts": 63,
@@ -679,8 +679,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-06T12:00:36.844Z",
-    "posts": 22,
+    "genereLe": "2026-11-06T12:20:54.401Z",
+    "posts": 23,
     "parReseau": {
       "instagram": {
         "posts": 6,
@@ -695,7 +695,7 @@
         "moyenne": 0
       },
       "bluesky": {
-        "posts": 5,
+        "posts": 6,
         "moyenne": 0
       }
     },
@@ -713,14 +713,14 @@
         "moyenne": 0
       },
       "reply": {
-        "posts": 1,
+        "posts": 2,
         "moyenne": 0
       }
     },
     "parCreneau": {
       "après-midi": {
-        "posts": 5,
-        "moyenne": 3.6
+        "posts": 6,
+        "moyenne": 3
       },
       "soir": {
         "posts": 4,
@@ -764,6 +764,10 @@
         "hors créneau": {
           "posts": 1,
           "moyenne": 0
+        },
+        "12 h – 13 h 30": {
+          "posts": 1,
+          "moyenne": 0
         }
       },
       "instagram": {
@@ -800,23 +804,23 @@
     },
     "moinsBon": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36018",
-      "channel": "threads",
-      "mediaId": "18089830991317318",
-      "publieLe": "2026-11-05T10:28:10.785Z",
+      "channel": "bluesky",
+      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mzktbxm2wj25",
+      "publieLe": "2026-11-05T12:05:30.940Z",
       "jalon": 1,
-      "releveLe": "2026-11-06T10:28:54.386Z",
+      "releveLe": "2026-11-06T12:20:49.235Z",
       "likes": 0,
       "commentairesBruts": 1,
       "partages": 0,
-      "vues": 133,
+      "vues": null,
       "commentaires": 0,
       "v": 2,
       "titre": "Ski en Béarn : les dates d’ouverture des stations pour 2026-2027",
-      "lien": "https://www.threads.com/@lovaquitaine/post/DfWz7dAIDkj",
-      "format": "reponse",
-      "mention": true,
-      "creneau": "matin",
-      "creneauReseau": "10 h – 11 h 30"
+      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mzktbxm2wj25",
+      "format": "reply",
+      "mention": false,
+      "creneau": "après-midi",
+      "creneauReseau": "12 h – 13 h 30"
     },
     "mentions": {
       "avec": {
@@ -824,7 +828,7 @@
         "moyenne": 2.4
       },
       "sans": {
-        "posts": 10,
+        "posts": 11,
         "moyenne": 0.3
       }
     },

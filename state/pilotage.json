@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-06T13:00:32.406Z",
+  "genereLe": "2026-11-06T13:31:12.904Z",
   "jour": "2026-11-06",
   "reseaux": {
     "instagram": {
@@ -122,11 +122,11 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 7,
-      "total": 66,
-      "dernier": "2026-11-05T10:28:10.785Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DfWz7dAIDkj"
+      "aujourdhui": 1,
+      "semaine": 8,
+      "total": 67,
+      "dernier": "2026-11-06T13:35:46.226Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DfZuEj8m_n3"
     },
     "x": {
       "actif": true,
@@ -164,6 +164,22 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36004",
+      "titre": "Requins, crocodiliens, coquillages : pourquoi la mer recouvrait Amberre ?",
+      "lien": "https://passion-aquitaine.ouest-france.fr/faluns-amberre-mer-fossiles/",
+      "at": "2026-11-06T13:35:46.226Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Loin de toute côte, la Vienne a pourtant été recouverte par la mer 🦈 Requins, crocodiliens, coquillages : les carrières de Moulin-Pochas, à Amberre, regorgent de fossiles marins. De quoi regarder autrement les paysages de ce coin du département.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261106-d2e04441-th.jpg",
+          "mode": "reponse",
+          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/faluns-amberre-mer-fossiles/",
+          "sujet": "Amberre",
+          "publieLe": "2026-11-06T13:35:46.226Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36018",
       "titre": "Ski en Béarn : les dates d’ouverture des stations pour 2026-2027",
@@ -403,57 +419,19 @@
           "publieLe": "2026-11-02T12:10:00.686Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35991",
-      "titre": "Angoulême ouvre la première classe BD de France en primaire",
-      "lien": "https://passion-aquitaine.ouest-france.fr/angouleme-classe-bd-ecole-premiere-france/",
-      "at": "2026-11-01T12:12:15.409Z",
-      "reseaux": {
-        "threads": {
-          "texte": "🖍️ En école élémentaire, aucune classe en France n’était encore consacrée à la bande dessinée. C’est Angoulême qui ouvre la voie : des CM1 et CM2 y passent deux heures par semaine avec un auteur, crayon en main. Une initiative qui colle bien à la ville. Vous auriez aimé avoir ce cours à leur âge ?",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261101-10635de7-th.jpg",
-          "mode": "reponse",
-          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/angouleme-classe-bd-ecole-premiere-france/",
-          "sujet": "Angoulême",
-          "publieLe": "2026-11-01T07:30:49.179Z"
-        },
-        "facebook": {
-          "texte": "Deux heures par semaine à dessiner des bulles avec un vrai auteur de BD, c’est désormais au programme de certains écoliers 💬",
-          "image": null,
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-01T07:33:07.317Z"
-        },
-        "bluesky": {
-          "texte": "Apprendre à raconter une histoire en cases, dès le CM1 : à #Angoulême, des élèves suivent deux heures de bande dessinée par semaine avec un auteur. Une première en France en école élémentaire 📚\n➡️ Lire l’article",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261101-10635de7-bsky.jpg",
-          "mode": "image",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-01T08:10:36.597Z"
-        },
-        "x": {
-          "texte": "Des crayons, des planches et des bulles qui prennent vie sur les pupitres 🎨 À #Angoulême, des CM1 et CM2 font deux heures de BD par semaine avec un auteur, une première en France en primaire.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261101-10635de7-x.jpg",
-          "mode": "reponse",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/angouleme-classe-bd-ecole-premiere-france/",
-          "sujet": null,
-          "publieLe": "2026-11-01T09:20:48.859Z"
-        },
-        "instagram": {
-          "texte": "Angoulême, capitale de la BD, ouvre désormais ses cases aux écoliers ✏️\n⠀\nDes CM1 et CM2 y suivent deux heures de bande dessinée par semaine avec un auteur. Une première en France dans une école élémentaire, en Charente.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Angouleme #BandeDessinee #Ecole",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261101-10635de7-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-01T12:12:15.409Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "threads",
+      "at": "2026-11-06T13:35:46.226Z",
+      "titre": "Requins, crocodiliens, coquillages : pourquoi la mer recouvrait Amberre ?",
+      "lien": "https://passion-aquitaine.ouest-france.fr/faluns-amberre-mer-fossiles/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/DfZuEj8m_n3",
+      "format": "reponse",
+      "texte": "Loin de toute côte, la Vienne a pourtant été recouverte par la mer 🦈 Requins, crocodiliens, coquillages : les carrières de Moulin-Pochas, à Amberre, regorgent de fossiles marins. De quoi regarder autrement les paysages de ce coin du département.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261106-d2e04441-th.jpg"
+    },
     {
       "channel": "facebook",
       "at": "2026-11-05T20:29:17.814Z",
@@ -543,28 +521,9 @@
       "format": "reponse",
       "texte": "Neuf mois de silence, et le ferry revient à la vie 🚢 L’ancien Iboat rouvre ce week-end, les 6 et 7 novembre, sous un nouveau nom : Ublo. Même bateau, même quai aux Bassins à flot de Bordeaux. Vous y aviez vos habitudes ?\n@villedebordeaux",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261104-badf7c8c-th.jpg"
-    },
-    {
-      "channel": "x",
-      "at": "2026-11-04T20:21:02.856Z",
-      "titre": "Bordeaux : Ublo, l’ex-Iboat, rouvre ses portes ce week-end",
-      "lien": "https://passion-aquitaine.ouest-france.fr/bordeaux-ublo-ex-iboat-ouverture/",
-      "lienPost": null,
-      "format": "reponse",
-      "texte": "Bassins à flot, #Bordeaux : l’ex-Iboat rouvre les 6 et 7 novembre sous le nom ⛴️ Ublo. Même ferry, même quai, neuf mois après sa fermeture.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261104-badf7c8c-x.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "threads",
-      "dueAt": "2026-11-06T13:28:35.637Z",
-      "prochainPassage": "2026-11-06T14:00:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Requins, crocodiliens, coquillages : pourquoi la mer recouvrait Amberre ?"
-    },
     {
       "channel": "x",
       "dueAt": "2026-11-06T16:20:00.000Z",
@@ -725,7 +684,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-06T13:01:13.875Z",
+    "genereLe": "2026-11-06T13:35:49.894Z",
     "posts": 23,
     "parReseau": {
       "instagram": {
@@ -879,7 +838,7 @@
       }
     },
     "publies": {
-      "threads": 6,
+      "threads": 7,
       "facebook": 6,
       "bluesky": 6,
       "x": 6,

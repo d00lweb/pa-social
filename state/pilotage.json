@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-06T10:00:34.094Z",
+  "genereLe": "2026-11-06T10:28:54.386Z",
   "jour": "2026-11-06",
   "reseaux": {
     "instagram": {
@@ -558,7 +558,7 @@
   "file": [],
   "alertes": [],
   "mesures": {
-    "releves": 509,
+    "releves": 510,
     "parReseau": {
       "instagram": {
         "posts": 62,
@@ -640,7 +640,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-06T09:00:37.750Z"
+    "derniere": "2026-11-06T10:28:54.386Z"
   },
   "abonnes": {
     "instagram": {
@@ -679,16 +679,16 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-06T10:00:38.377Z",
-    "posts": 20,
+    "genereLe": "2026-11-06T10:28:59.974Z",
+    "posts": 21,
     "parReseau": {
       "instagram": {
         "posts": 5,
         "moyenne": 4
       },
       "threads": {
-        "posts": 5,
-        "moyenne": 1.8
+        "posts": 6,
+        "moyenne": 1.5
       },
       "facebook": {
         "posts": 5,
@@ -701,8 +701,8 @@
     },
     "parFormat": {
       "reponse": {
-        "posts": 5,
-        "moyenne": 1.8
+        "posts": 6,
+        "moyenne": 1.5
       },
       "image": {
         "posts": 2,
@@ -727,8 +727,8 @@
         "moyenne": 1.8
       },
       "matin": {
-        "posts": 12,
-        "moyenne": 0.6
+        "posts": 13,
+        "moyenne": 0.5
       }
     },
     "parCreneauReseau": {
@@ -740,6 +740,10 @@
         "7 h – 8 h 30": {
           "posts": 4,
           "moyenne": 1.8
+        },
+        "10 h – 11 h 30": {
+          "posts": 1,
+          "moyenne": 0
         }
       },
       "facebook": {
@@ -795,29 +799,29 @@
       "creneauReseau": "12 h – 13 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36034",
-      "channel": "facebook",
-      "mediaId": "227437307428711_1776437267815487",
-      "publieLe": "2026-11-04T20:33:15.443Z",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36018",
+      "channel": "threads",
+      "mediaId": "18089830991317318",
+      "publieLe": "2026-11-05T10:28:10.785Z",
       "jalon": 1,
-      "releveLe": "2026-11-05T21:00:35.640Z",
+      "releveLe": "2026-11-06T10:28:54.386Z",
       "likes": 0,
-      "commentairesBruts": 0,
+      "commentairesBruts": 1,
       "partages": 0,
-      "vues": null,
+      "vues": 133,
       "commentaires": 0,
       "v": 2,
-      "titre": "Bordeaux : Ublo, l’ex-Iboat, rouvre ses portes ce week-end",
-      "lien": "https://www.facebook.com/1720946116697936/posts/1776437267815487",
-      "format": null,
-      "mention": false,
-      "creneau": "soir",
-      "creneauReseau": "20 h – 21 h 30"
+      "titre": "Ski en Béarn : les dates d’ouverture des stations pour 2026-2027",
+      "lien": "https://www.threads.com/@lovaquitaine/post/DfWz7dAIDkj",
+      "format": "reponse",
+      "mention": true,
+      "creneau": "matin",
+      "creneauReseau": "10 h – 11 h 30"
     },
     "mentions": {
       "avec": {
-        "posts": 10,
-        "moyenne": 2.6
+        "posts": 11,
+        "moyenne": 2.4
       },
       "sans": {
         "posts": 10,
@@ -868,13 +872,13 @@
     },
     "engagement": {
       "instagram": 0.04,
-      "threads": 0.16,
+      "threads": 0.13,
       "facebook": 0
     },
     "conseils": [
-      "Le format « reponse » fait 18 fois mieux que « reply » (1.8 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « reply » de la rotation dans config/channels.json.",
+      "Le format « reponse » fait 15 fois mieux que « reply » (1.5 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « reply » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+3, +0,3 %) ; Facebook recule (−5), à surveiller.",
-      "Les posts avec mention font 2.3 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
+      "Les posts avec mention font 2.1 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
     ]
   },
   "couts": {

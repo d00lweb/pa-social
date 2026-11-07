@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-07T08:20:39.067Z",
+  "genereLe": "2026-11-07T09:00:31.192Z",
   "jour": "2026-11-07",
   "reseaux": {
     "instagram": {
@@ -156,14 +156,30 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 8,
-      "total": 70,
-      "dernier": "2026-11-06T16:21:05.022Z",
+      "aujourdhui": 1,
+      "semaine": 9,
+      "total": 71,
+      "dernier": "2026-11-07T09:00:40.603Z",
       "lienDernier": null
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36047",
+      "titre": "Sécheresse : en novembre, la crise persiste près de Pomerol",
+      "lien": "https://passion-aquitaine.ouest-france.fr/gironde-secheresse-crise-novembre-barbanne/",
+      "at": "2026-11-07T09:00:40.603Z",
+      "reseaux": {
+        "x": {
+          "texte": "Même à l’automne, la sécheresse tient bon en Gironde : la Barbanne, près de #Pomerol, figure parmi les trois secteurs encore au 🚱 niveau crise.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261107-4d9477ef-x.jpg",
+          "mode": "reponse",
+          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/gironde-secheresse-crise-novembre-barbanne/",
+          "sujet": null,
+          "publieLe": "2026-11-07T09:00:40.603Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36004",
       "titre": "Requins, crocodiliens, coquillages : pourquoi la mer recouvrait Amberre ?",
@@ -403,57 +419,19 @@
           "publieLe": "2026-11-03T12:28:54.777Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35812",
-      "titre": "Marché de Noël de Bruxelles : le Pays basque et le Béarn invités",
-      "lien": "https://passion-aquitaine.ouest-france.fr/marche-noel-bruxelles-pays-basque-bearn/",
-      "at": "2026-11-02T12:10:00.686Z",
-      "reseaux": {
-        "threads": {
-          "texte": "Plus de 4 millions de visites par an : du 27 novembre au 3 janvier, le marché de Noël de Bruxelles accueille un village basco-béarnais 🏛️",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261102-116575f8-th.jpg",
-          "mode": "reponse",
-          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/marche-noel-bruxelles-pays-basque-bearn/",
-          "sujet": "Pays basque",
-          "publieLe": "2026-11-02T07:32:00.523Z"
-        },
-        "bluesky": {
-          "texte": "Plus de 4 millions de visites par an : du 27 novembre au 3 janvier, le marché de Noël de Bruxelles accueille un village basco-béarnais 🏛️ #PaysBasque",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261102-116575f8-bsky.jpg",
-          "mode": "card",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-02T08:03:39.397Z"
-        },
-        "facebook": {
-          "texte": "Plus de 4 millions de visites par an : du au, le marché de Noël de Bruxelles accueille un village basco-béarnais 🏛️",
-          "image": null,
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-02T08:07:02.444Z"
-        },
-        "x": {
-          "texte": "Plus de 4 millions de visites par an : du au, le marché de Noël de Bruxelles accueille un village basco-béarnais 🏛️",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261102-116575f8-x.jpg",
-          "mode": "reponse",
-          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/marche-noel-bruxelles-pays-basque-bearn/",
-          "sujet": null,
-          "publieLe": "2026-11-02T09:21:07.729Z"
-        },
-        "instagram": {
-          "texte": "Plus de 4 millions de visites par an : du 27 novembre au 3 janvier, le marché de Noël de Bruxelles accueille un village basco-béarnais 🏛️\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#PaysBasque #Patrimoine #NouvelleAquitaine",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261102-116575f8-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-02T12:10:00.686Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "x",
+      "at": "2026-11-07T09:00:40.603Z",
+      "titre": "Sécheresse : en novembre, la crise persiste près de Pomerol",
+      "lien": "https://passion-aquitaine.ouest-france.fr/gironde-secheresse-crise-novembre-barbanne/",
+      "lienPost": null,
+      "format": "reponse",
+      "texte": "Même à l’automne, la sécheresse tient bon en Gironde : la Barbanne, près de #Pomerol, figure parmi les trois secteurs encore au 🚱 niveau crise.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261107-4d9477ef-x.jpg"
+    },
     {
       "channel": "facebook",
       "at": "2026-11-06T19:33:50.518Z",
@@ -543,28 +521,9 @@
       "format": "reponse",
       "texte": "🏔️ Béarn : la saison de ski a désormais ses dates. @gourette_officiel et @lapierrestmartin ouvrent dès le 5 décembre, Artouste attend le 19. De quoi caler ses premières sorties en montagne et réserver son week-end sur les pistes. Toutes les dates d’ouverture des stations pour 2026-2027 sont réunies dans l’article.",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261105-b5131d5b-th.jpg"
-    },
-    {
-      "channel": "x",
-      "at": "2026-11-05T09:21:09.236Z",
-      "titre": "Ski en Béarn : les dates d’ouverture des stations pour 2026-2027",
-      "lien": "https://passion-aquitaine.ouest-france.fr/ski-bearn-dates-ouverture-stations/",
-      "lienPost": null,
-      "format": "reponse",
-      "texte": "Plus qu’un mois avant de skier en #Béarn ❄️ Gourette et La Pierre Saint-Martin ouvrent dès le 5 décembre, Artouste le 19. Le calendrier 2026-2027 est connu.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261105-b5131d5b-x.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "x",
-      "dueAt": "2026-11-07T09:00:00.000Z",
-      "prochainPassage": "2026-11-07T09:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Sécheresse : en novembre, la crise persiste près de Pomerol"
-    },
     {
       "channel": "threads",
       "dueAt": "2026-11-07T10:26:27.425Z",
@@ -725,7 +684,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-07T08:21:00.679Z",
+    "genereLe": "2026-11-07T09:00:48.241Z",
     "posts": 24,
     "parReseau": {
       "instagram": {
@@ -882,7 +841,7 @@
       "threads": 7,
       "facebook": 7,
       "bluesky": 7,
-      "x": 7,
+      "x": 8,
       "instagram": 7
     },
     "abonnes": {

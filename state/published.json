@@ -6101,5 +6101,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36047",
+    "channel": "x",
+    "at": "2026-11-07T09:00:40.603Z",
+    "mediaId": "kit-telegram",
+    "titre": "Sécheresse : en novembre, la crise persiste près de Pomerol",
+    "lien": "https://passion-aquitaine.ouest-france.fr/gironde-secheresse-crise-novembre-barbanne/",
+    "lienPost": null,
+    "format": "reponse",
+    "mention": true,
+    "apercu": {
+      "texte": "Même à l’automne, la sécheresse tient bon en Gironde : la Barbanne, près de #Pomerol, figure parmi les trois secteurs encore au 🚱 niveau crise.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261107-4d9477ef-x.jpg",
+      "mode": "reponse",
+      "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/gironde-secheresse-crise-novembre-barbanne/",
+      "sujet": null
+    }
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-07T11:00:30.513Z",
+  "genereLe": "2026-11-07T11:20:41.279Z",
   "jour": "2026-11-07",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 8,
-      "total": 72,
-      "dernier": "2026-11-06T17:35:03.827Z",
-      "lienDernier": "https://www.instagram.com/p/DfaJ6_ODfV7/"
+      "aujourdhui": 1,
+      "semaine": 9,
+      "total": 73,
+      "dernier": "2026-11-07T11:30:09.231Z",
+      "lienDernier": "https://www.instagram.com/p/DfcE9TmE0QX/"
     },
     "bluesky": {
       "actif": true,
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36047",
       "titre": "Sécheresse : en novembre, la crise persiste près de Pomerol",
       "lien": "https://passion-aquitaine.ouest-france.fr/gironde-secheresse-crise-novembre-barbanne/",
-      "at": "2026-11-07T10:29:07.370Z",
+      "at": "2026-11-07T11:30:09.231Z",
       "reseaux": {
         "x": {
           "texte": "Même à l’automne, la sécheresse tient bon en Gironde : la Barbanne, près de #Pomerol, figure parmi les trois secteurs encore au 🚱 niveau crise.",
@@ -185,6 +185,14 @@
           "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/gironde-secheresse-crise-novembre-barbanne/",
           "sujet": "Pomerol",
           "publieLe": "2026-11-07T10:29:07.370Z"
+        },
+        "instagram": {
+          "texte": "Trois secteurs de Gironde toujours au niveau 💧 crise, alors que l’automne est bien installé\n⠀\nLes feuilles tombent, mais la sécheresse persiste. Près de Pomerol, le secteur de la Barbanne fait partie des zones encore les plus touchées.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Gironde #Secheresse #Pomerol",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261107-4d9477ef-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-07T11:30:09.231Z"
         }
       }
     },
@@ -431,6 +439,16 @@
   ],
   "publications": [
     {
+      "channel": "instagram",
+      "at": "2026-11-07T11:30:09.231Z",
+      "titre": "Sécheresse : en novembre, la crise persiste près de Pomerol",
+      "lien": "https://passion-aquitaine.ouest-france.fr/gironde-secheresse-crise-novembre-barbanne/",
+      "lienPost": "https://www.instagram.com/p/DfcE9TmE0QX/",
+      "format": null,
+      "texte": "Trois secteurs de Gironde toujours au niveau 💧 crise, alors que l’automne est bien installé\n⠀\nLes feuilles tombent, mais la sécheresse persiste. Près de Pomerol, le secteur de la Barbanne fait partie des zones encore les plus touchées.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Gironde #Secheresse #Pomerol",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261107-4d9477ef-1.jpg"
+    },
+    {
       "channel": "threads",
       "at": "2026-11-07T10:29:07.370Z",
       "titre": "Sécheresse : en novembre, la crise persiste près de Pomerol",
@@ -519,28 +537,9 @@
       "format": "reply",
       "texte": "Le 5 décembre, Gourette et La Pierre Saint-Martin ouvriront leurs pistes, avant Artouste le 19. Les stations du #Béarn ont fixé le calendrier de la saison de #ski 2026-2027 🏔️",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261105-b5131d5b-bsky.jpg"
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-11-05T11:07:07.362Z",
-      "titre": "Ski en Béarn : les dates d’ouverture des stations pour 2026-2027",
-      "lien": "https://passion-aquitaine.ouest-france.fr/ski-bearn-dates-ouverture-stations/",
-      "lienPost": "https://www.instagram.com/p/DfW4umioEQ4/",
-      "format": null,
-      "texte": "Les premières traces dans la poudreuse béarnaise approchent ⛷️\n⠀\nGourette et La Pierre Saint-Martin lancent la saison de ski dès le 5 décembre, Artouste le 19. Toutes les dates d’ouverture 2026-2027 des stations du Béarn sont à retrouver dans l’article.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Béarn #SkiPyrénées #Montagne",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261105-b5131d5b-1.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "instagram",
-      "dueAt": "2026-11-07T11:29:34.304Z",
-      "prochainPassage": "2026-11-07T12:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Sécheresse : en novembre, la crise persiste près de Pomerol"
-    },
     {
       "channel": "bluesky",
       "dueAt": "2026-11-07T12:23:40.066Z",
@@ -683,7 +682,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-07T11:00:35.602Z",
+    "genereLe": "2026-11-07T11:30:11.707Z",
     "posts": 24,
     "parReseau": {
       "instagram": {
@@ -841,7 +840,7 @@
       "facebook": 7,
       "bluesky": 7,
       "x": 8,
-      "instagram": 7
+      "instagram": 8
     },
     "abonnes": {
       "instagram": {

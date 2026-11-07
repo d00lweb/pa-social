@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-07T10:00:40.208Z",
+  "genereLe": "2026-11-07T10:20:34.400Z",
   "jour": "2026-11-07",
   "reseaux": {
     "instagram": {
@@ -122,11 +122,11 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 7,
-      "total": 67,
-      "dernier": "2026-11-06T13:35:46.226Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DfZuEj8m_n3"
+      "aujourdhui": 1,
+      "semaine": 8,
+      "total": 68,
+      "dernier": "2026-11-07T10:29:07.370Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/Dfb9s-qFjzD"
     },
     "x": {
       "actif": true,
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36047",
       "titre": "Sécheresse : en novembre, la crise persiste près de Pomerol",
       "lien": "https://passion-aquitaine.ouest-france.fr/gironde-secheresse-crise-novembre-barbanne/",
-      "at": "2026-11-07T09:00:40.603Z",
+      "at": "2026-11-07T10:29:07.370Z",
       "reseaux": {
         "x": {
           "texte": "Même à l’automne, la sécheresse tient bon en Gironde : la Barbanne, près de #Pomerol, figure parmi les trois secteurs encore au 🚱 niveau crise.",
@@ -177,6 +177,14 @@
           "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/gironde-secheresse-crise-novembre-barbanne/",
           "sujet": null,
           "publieLe": "2026-11-07T09:00:40.603Z"
+        },
+        "threads": {
+          "texte": "La sécheresse ne s’arrête pas avec l’été 🌾 Les feuilles tombent, mais trois secteurs de Gironde restaient au niveau crise. Parmi eux, la Barbanne, près de Pomerol. Un point utile pour savoir où en est votre secteur et comprendre que la vigilance sur l’eau reste de mise, même à l’automne.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261107-4d9477ef-th.jpg",
+          "mode": "reponse",
+          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/gironde-secheresse-crise-novembre-barbanne/",
+          "sujet": "Pomerol",
+          "publieLe": "2026-11-07T10:29:07.370Z"
         }
       }
     },
@@ -423,6 +431,16 @@
   ],
   "publications": [
     {
+      "channel": "threads",
+      "at": "2026-11-07T10:29:07.370Z",
+      "titre": "Sécheresse : en novembre, la crise persiste près de Pomerol",
+      "lien": "https://passion-aquitaine.ouest-france.fr/gironde-secheresse-crise-novembre-barbanne/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/Dfb9s-qFjzD",
+      "format": "reponse",
+      "texte": "La sécheresse ne s’arrête pas avec l’été 🌾 Les feuilles tombent, mais trois secteurs de Gironde restaient au niveau crise. Parmi eux, la Barbanne, près de Pomerol. Un point utile pour savoir où en est votre secteur et comprendre que la vigilance sur l’eau reste de mise, même à l’automne.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261107-4d9477ef-th.jpg"
+    },
+    {
       "channel": "x",
       "at": "2026-11-07T09:00:40.603Z",
       "titre": "Sécheresse : en novembre, la crise persiste près de Pomerol",
@@ -511,28 +529,9 @@
       "format": null,
       "texte": "Les premières traces dans la poudreuse béarnaise approchent ⛷️\n⠀\nGourette et La Pierre Saint-Martin lancent la saison de ski dès le 5 décembre, Artouste le 19. Toutes les dates d’ouverture 2026-2027 des stations du Béarn sont à retrouver dans l’article.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Béarn #SkiPyrénées #Montagne",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261105-b5131d5b-1.jpg"
-    },
-    {
-      "channel": "threads",
-      "at": "2026-11-05T10:28:10.785Z",
-      "titre": "Ski en Béarn : les dates d’ouverture des stations pour 2026-2027",
-      "lien": "https://passion-aquitaine.ouest-france.fr/ski-bearn-dates-ouverture-stations/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/DfWz7dAIDkj",
-      "format": "reponse",
-      "texte": "🏔️ Béarn : la saison de ski a désormais ses dates. @gourette_officiel et @lapierrestmartin ouvrent dès le 5 décembre, Artouste attend le 19. De quoi caler ses premières sorties en montagne et réserver son week-end sur les pistes. Toutes les dates d’ouverture des stations pour 2026-2027 sont réunies dans l’article.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261105-b5131d5b-th.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "threads",
-      "dueAt": "2026-11-07T10:26:27.425Z",
-      "prochainPassage": "2026-11-07T11:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Sécheresse : en novembre, la crise persiste près de Pomerol"
-    },
     {
       "channel": "instagram",
       "dueAt": "2026-11-07T11:29:34.304Z",
@@ -684,7 +683,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-07T10:00:45.898Z",
+    "genereLe": "2026-11-07T10:29:09.991Z",
     "posts": 24,
     "parReseau": {
       "instagram": {
@@ -838,7 +837,7 @@
       }
     },
     "publies": {
-      "threads": 7,
+      "threads": 8,
       "facebook": 7,
       "bluesky": 7,
       "x": 8,

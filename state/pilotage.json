@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-07T08:00:36.423Z",
+  "genereLe": "2026-11-07T08:20:39.067Z",
   "jour": "2026-11-07",
   "reseaux": {
     "instagram": {
@@ -555,7 +555,53 @@
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261105-b5131d5b-x.jpg"
     }
   ],
-  "file": [],
+  "file": [
+    {
+      "channel": "x",
+      "dueAt": "2026-11-07T09:00:00.000Z",
+      "prochainPassage": "2026-11-07T09:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Sécheresse : en novembre, la crise persiste près de Pomerol"
+    },
+    {
+      "channel": "threads",
+      "dueAt": "2026-11-07T10:26:27.425Z",
+      "prochainPassage": "2026-11-07T11:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Sécheresse : en novembre, la crise persiste près de Pomerol"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-11-07T11:29:34.304Z",
+      "prochainPassage": "2026-11-07T12:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Sécheresse : en novembre, la crise persiste près de Pomerol"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-11-07T12:23:40.066Z",
+      "prochainPassage": "2026-11-07T13:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Sécheresse : en novembre, la crise persiste près de Pomerol"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-11-07T19:14:54.438Z",
+      "prochainPassage": "2026-11-07T19:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Sécheresse : en novembre, la crise persiste près de Pomerol"
+    }
+  ],
   "alertes": [],
   "mesures": {
     "releves": 519,
@@ -679,7 +725,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-07T08:00:42.876Z",
+    "genereLe": "2026-11-07T08:21:00.679Z",
     "posts": 24,
     "parReseau": {
       "instagram": {
@@ -887,29 +933,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 0,
-      "entree": 0,
-      "sortie": 0,
-      "cout": 0,
+      "appels": 1,
+      "entree": 7966,
+      "sortie": 808,
+      "cout": 0.048024,
       "cle": "2026-11-07"
     },
     "semaine": {
-      "appels": 30,
-      "entree": 239695,
-      "sortie": 27019,
-      "cout": 1.49916
+      "appels": 31,
+      "entree": 247661,
+      "sortie": 27827,
+      "cout": 1.5471840000000001
     },
     "mois": {
-      "appels": 30,
-      "entree": 239695,
-      "sortie": 27019,
-      "cout": 1.49916,
+      "appels": 31,
+      "entree": 247661,
+      "sortie": 27827,
+      "cout": 1.5471840000000001,
       "cle": "2026-11"
     },
-    "projection": 6.42,
-    "moyenneAppel": 0.05,
+    "projection": 6.63,
+    "moyenneAppel": 0.0499,
     "parModele": {
-      "claude-opus-5-5": 30
+      "claude-opus-5-5": 31
     },
     "serie": [
       [
@@ -966,7 +1012,7 @@
       ],
       [
         "2026-11-07",
-        0
+        0.048
       ]
     ],
     "depuis": "2026-09-23"

@@ -1551,5 +1551,34 @@
       "bluesky": [],
       "x": []
     }
+  },
+  "commune:mairie:pomerol": {
+    "v": 3,
+    "cherche": "2026-11-07T08:20:49.316Z",
+    "instagram": [],
+    "x": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:pomerol:secheresse": {
+    "v": 3,
+    "cherche": "2026-11-07T08:20:49.316Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:pomerol:eau": {
+    "v": 3,
+    "cherche": "2026-11-07T08:20:49.316Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:pomerol:environnement": {
+    "v": 3,
+    "cherche": "2026-11-07T08:20:49.316Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
   }
 }

@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-07T18:20:44.138Z",
+  "genereLe": "2026-11-07T19:00:36.296Z",
   "jour": "2026-11-07",
   "reseaux": {
     "instagram": {
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 7,
-      "total": 67,
-      "dernier": "2026-11-06T19:33:50.518Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1778791877580026"
+      "aujourdhui": 1,
+      "semaine": 8,
+      "total": 68,
+      "dernier": "2026-11-07T19:14:59.246Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1779968794129001"
     },
     "threads": {
       "actif": true,
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36047",
       "titre": "Sécheresse : en novembre, la crise persiste près de Pomerol",
       "lien": "https://passion-aquitaine.ouest-france.fr/gironde-secheresse-crise-novembre-barbanne/",
-      "at": "2026-11-07T12:23:41.753Z",
+      "at": "2026-11-07T19:14:59.246Z",
       "reseaux": {
         "x": {
           "texte": "Même à l’automne, la sécheresse tient bon en Gironde : la Barbanne, près de #Pomerol, figure parmi les trois secteurs encore au 🚱 niveau crise.",
@@ -201,6 +201,14 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-11-07T12:23:41.753Z"
+        },
+        "facebook": {
+          "texte": "Près de Pomerol, la Barbanne fait partie des trois secteurs girondins encore au niveau crise malgré l’automne 💧",
+          "image": null,
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-07T19:14:59.246Z"
         }
       }
     },
@@ -447,6 +455,16 @@
   ],
   "publications": [
     {
+      "channel": "facebook",
+      "at": "2026-11-07T19:14:59.246Z",
+      "titre": "Sécheresse : en novembre, la crise persiste près de Pomerol",
+      "lien": "https://passion-aquitaine.ouest-france.fr/gironde-secheresse-crise-novembre-barbanne/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1779968794129001",
+      "format": null,
+      "texte": "Près de Pomerol, la Barbanne fait partie des trois secteurs girondins encore au niveau crise malgré l’automne 💧",
+      "image": null
+    },
+    {
       "channel": "bluesky",
       "at": "2026-11-07T12:23:41.753Z",
       "titre": "Sécheresse : en novembre, la crise persiste près de Pomerol",
@@ -535,29 +553,9 @@
       "format": "reponse",
       "texte": "Loin de toute côte, la Vienne a pourtant été recouverte par la mer 🦈 Requins, crocodiliens, coquillages : les carrières de Moulin-Pochas, à Amberre, regorgent de fossiles marins. De quoi regarder autrement les paysages de ce coin du département.",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261106-d2e04441-th.jpg"
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-11-05T20:29:17.814Z",
-      "titre": "Ski en Béarn : les dates d’ouverture des stations pour 2026-2027",
-      "lien": "https://passion-aquitaine.ouest-france.fr/ski-bearn-dates-ouverture-stations/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1777603461032201",
-      "format": null,
-      "texte": "Vous savez déjà quelle station du Béarn ouvrira la première cet hiver pour chausser les skis 🎿",
-      "image": null
     }
   ],
-  "file": [
-    {
-      "channel": "facebook",
-      "dueAt": "2026-11-07T19:14:54.438Z",
-      "prochainPassage": "2026-11-07T19:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Sécheresse : en novembre, la crise persiste près de Pomerol"
-    }
-  ],
+  "file": [],
   "alertes": [],
   "mesures": {
     "releves": 523,
@@ -681,7 +679,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-07T18:20:52.970Z",
+    "genereLe": "2026-11-07T19:15:02.110Z",
     "posts": 27,
     "parReseau": {
       "instagram": {
@@ -848,7 +846,7 @@
     },
     "publies": {
       "threads": 8,
-      "facebook": 7,
+      "facebook": 8,
       "bluesky": 8,
       "x": 8,
       "instagram": 8

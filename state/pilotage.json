@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-08T12:20:40.390Z",
+  "genereLe": "2026-11-08T13:00:41.034Z",
   "jour": "2026-11-08",
   "reseaux": {
     "instagram": {
@@ -558,7 +558,7 @@
   "file": [],
   "alertes": [],
   "mesures": {
-    "releves": 530,
+    "releves": 531,
     "parReseau": {
       "instagram": {
         "posts": 66,
@@ -679,8 +679,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-08T12:20:45.935Z",
-    "posts": 30,
+    "genereLe": "2026-11-08T13:00:46.638Z",
+    "posts": 31,
     "parReseau": {
       "instagram": {
         "posts": 8,
@@ -695,7 +695,7 @@
         "moyenne": 0
       },
       "bluesky": {
-        "posts": 7,
+        "posts": 8,
         "moyenne": 0
       }
     },
@@ -705,7 +705,7 @@
         "moyenne": 1.3
       },
       "image": {
-        "posts": 2,
+        "posts": 3,
         "moyenne": 0
       },
       "card": {
@@ -719,8 +719,8 @@
     },
     "parCreneau": {
       "après-midi": {
-        "posts": 8,
-        "moyenne": 2.8
+        "posts": 9,
+        "moyenne": 2.4
       },
       "soir": {
         "posts": 8,
@@ -770,7 +770,7 @@
           "moyenne": 0
         },
         "12 h – 13 h 30": {
-          "posts": 1,
+          "posts": 2,
           "moyenne": 0
         },
         "18 h – 19 h 30": {
@@ -816,23 +816,23 @@
     },
     "moinsBon": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36047",
-      "channel": "threads",
-      "mediaId": "18637850656014328",
-      "publieLe": "2026-11-07T10:29:07.370Z",
+      "channel": "bluesky",
+      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mzpvacwouz2h",
+      "publieLe": "2026-11-07T12:23:41.753Z",
       "jalon": 1,
-      "releveLe": "2026-11-08T11:00:39.411Z",
+      "releveLe": "2026-11-08T13:00:41.034Z",
       "likes": 0,
-      "commentairesBruts": 1,
+      "commentairesBruts": 0,
       "partages": 0,
-      "vues": 107,
+      "vues": null,
       "commentaires": 0,
       "v": 2,
       "titre": "Sécheresse : en novembre, la crise persiste près de Pomerol",
-      "lien": "https://www.threads.com/@lovaquitaine/post/Dfb9s-qFjzD",
-      "format": "reponse",
+      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mzpvacwouz2h",
+      "format": "image",
       "mention": false,
-      "creneau": "matin",
-      "creneauReseau": "10 h – 11 h 30"
+      "creneau": "après-midi",
+      "creneauReseau": "12 h – 13 h 30"
     },
     "mentions": {
       "avec": {
@@ -840,8 +840,8 @@
         "moyenne": 2.4
       },
       "sans": {
-        "posts": 16,
-        "moyenne": 0.3
+        "posts": 17,
+        "moyenne": 0.2
       }
     },
     "publies": {
@@ -894,7 +894,7 @@
     "conseils": [
       "Le format « reponse » fait 13 fois mieux que « reply » (1.3 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « reply » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+3, +0,3 %) ; Facebook recule (−8), à surveiller.",
-      "Les posts avec mention font 2.1 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
+      "Les posts avec mention font 2.2 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
     ]
   },
   "couts": {

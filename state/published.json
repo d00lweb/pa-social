@@ -6227,5 +6227,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36056",
+    "channel": "x",
+    "at": "2026-11-08T08:00:54.964Z",
+    "mediaId": "kit-telegram",
+    "titre": "Bayonne : cette crèche propose aux bébés de dormir dehors",
+    "lien": "https://passion-aquitaine.ouest-france.fr/bayonne-creche-bebes-sieste-dehors/",
+    "lienPost": null,
+    "format": "reponse",
+    "mention": true,
+    "apercu": {
+      "texte": "Des berceaux dans une grande cour, des bébés endormis au grand air 🍃 À #Bayonne, la crèche Pyrène a adopté une habitude finlandaise : la sieste dehors.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261108-1c7b9a95-x.jpg",
+      "mode": "reponse",
+      "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/bayonne-creche-bebes-sieste-dehors/",
+      "sujet": null
+    }
   }
 ]

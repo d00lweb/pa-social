@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-08T07:52:02.120Z",
+  "genereLe": "2026-11-08T08:00:43.244Z",
   "jour": "2026-11-08",
   "reseaux": {
     "instagram": {
@@ -156,10 +156,10 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 8,
-      "total": 71,
-      "dernier": "2026-11-07T09:00:40.603Z",
+      "aujourdhui": 1,
+      "semaine": 9,
+      "total": 72,
+      "dernier": "2026-11-08T08:00:54.964Z",
       "lienDernier": null
     }
   },
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36056",
       "titre": "Bayonne : cette crèche propose aux bébés de dormir dehors",
       "lien": "https://passion-aquitaine.ouest-france.fr/bayonne-creche-bebes-sieste-dehors/",
-      "at": "2026-11-08T07:34:23.063Z",
+      "at": "2026-11-08T08:00:54.964Z",
       "reseaux": {
         "threads": {
           "texte": "🛌 Peu de gens le savent, mais à Bayonne, certains bébés font la sieste en plein air. La crèche Pyrène, au Pays basque, a adopté une habitude finlandaise : laisser les tout-petits dormir dehors, dans sa grande cour. Vous auriez confié la sieste de votre enfant au grand air ?\n@bayonnemaville",
@@ -185,6 +185,14 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-11-08T07:34:23.063Z"
+        },
+        "x": {
+          "texte": "Des berceaux dans une grande cour, des bébés endormis au grand air 🍃 À #Bayonne, la crèche Pyrène a adopté une habitude finlandaise : la sieste dehors.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261108-1c7b9a95-x.jpg",
+          "mode": "reponse",
+          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/bayonne-creche-bebes-sieste-dehors/",
+          "sujet": null,
+          "publieLe": "2026-11-08T08:00:54.964Z"
         }
       }
     },
@@ -431,6 +439,16 @@
   ],
   "publications": [
     {
+      "channel": "x",
+      "at": "2026-11-08T08:00:54.964Z",
+      "titre": "Bayonne : cette crèche propose aux bébés de dormir dehors",
+      "lien": "https://passion-aquitaine.ouest-france.fr/bayonne-creche-bebes-sieste-dehors/",
+      "lienPost": null,
+      "format": "reponse",
+      "texte": "Des berceaux dans une grande cour, des bébés endormis au grand air 🍃 À #Bayonne, la crèche Pyrène a adopté une habitude finlandaise : la sieste dehors.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261108-1c7b9a95-x.jpg"
+    },
+    {
       "channel": "bluesky",
       "at": "2026-11-08T07:34:23.063Z",
       "titre": "Bayonne : cette crèche propose aux bébés de dormir dehors",
@@ -519,28 +537,9 @@
       "format": "card",
       "texte": "#Amberre, dans la #Vienne, cache un passé marin 🐚 Les carrières de Moulin-Pochas regorgent de fossiles de requins, de crocodiliens et de coquillages, témoins d’une mer aujourd’hui disparue.",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261106-d2e04441-bsky.jpg"
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-11-06T17:35:03.827Z",
-      "titre": "Requins, crocodiliens, coquillages : pourquoi la mer recouvrait Amberre ?",
-      "lien": "https://passion-aquitaine.ouest-france.fr/faluns-amberre-mer-fossiles/",
-      "lienPost": "https://www.instagram.com/p/DfaJ6_ODfV7/",
-      "format": null,
-      "texte": "Des requins et des crocodiliens dans la Vienne, vous l’auriez imaginé ?\n⠀\nÀ Amberre, les carrières de Moulin-Pochas regorgent de fossiles marins. On vous explique pourquoi la mer recouvrait autrefois ce coin de la Vienne 🦈\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Vienne #Fossiles #Paleontologie",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261106-d2e04441-1.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "x",
-      "dueAt": "2026-11-08T08:00:00.000Z",
-      "prochainPassage": "2026-11-08T08:00:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Bayonne : cette crèche propose aux bébés de dormir dehors"
-    },
     {
       "channel": "facebook",
       "dueAt": "2026-11-08T08:29:50.080Z",
@@ -683,7 +682,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-08T07:52:10.625Z",
+    "genereLe": "2026-11-08T08:01:03.894Z",
     "posts": 28,
     "parReseau": {
       "instagram": {
@@ -852,7 +851,7 @@
       "threads": 9,
       "facebook": 8,
       "bluesky": 9,
-      "x": 8,
+      "x": 9,
       "instagram": 8
     },
     "abonnes": {

@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-08T11:20:31.349Z",
+  "genereLe": "2026-11-08T12:00:45.124Z",
   "jour": "2026-11-08",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 8,
-      "total": 73,
-      "dernier": "2026-11-07T11:30:09.231Z",
-      "lienDernier": "https://www.instagram.com/p/DfcE9TmE0QX/"
+      "aujourdhui": 1,
+      "semaine": 9,
+      "total": 74,
+      "dernier": "2026-11-08T12:04:30.848Z",
+      "lienDernier": "https://www.instagram.com/p/Dfetr1KF6oZ/"
     },
     "bluesky": {
       "actif": true,
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36056",
       "titre": "Bayonne : cette crèche propose aux bébés de dormir dehors",
       "lien": "https://passion-aquitaine.ouest-france.fr/bayonne-creche-bebes-sieste-dehors/",
-      "at": "2026-11-08T08:29:56.403Z",
+      "at": "2026-11-08T12:04:30.848Z",
       "reseaux": {
         "threads": {
           "texte": "🛌 Peu de gens le savent, mais à Bayonne, certains bébés font la sieste en plein air. La crèche Pyrène, au Pays basque, a adopté une habitude finlandaise : laisser les tout-petits dormir dehors, dans sa grande cour. Vous auriez confié la sieste de votre enfant au grand air ?\n@bayonnemaville",
@@ -201,6 +201,14 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-11-08T08:29:56.403Z"
+        },
+        "instagram": {
+          "texte": "À Bayonne, la sieste des tout-petits se fait à l’air libre 👶\n⠀\nLa crèche Pyrène, au Pays basque, permet aux bébés de dormir dehors dans sa grande cour. Une habitude finlandaise qui trouve sa place au pied des Pyrénées.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bayonne #PaysBasque #PetiteEnfance",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261108-1c7b9a95-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-08T12:04:30.848Z"
         }
       }
     },
@@ -447,6 +455,16 @@
   ],
   "publications": [
     {
+      "channel": "instagram",
+      "at": "2026-11-08T12:04:30.848Z",
+      "titre": "Bayonne : cette crèche propose aux bébés de dormir dehors",
+      "lien": "https://passion-aquitaine.ouest-france.fr/bayonne-creche-bebes-sieste-dehors/",
+      "lienPost": "https://www.instagram.com/p/Dfetr1KF6oZ/",
+      "format": null,
+      "texte": "À Bayonne, la sieste des tout-petits se fait à l’air libre 👶\n⠀\nLa crèche Pyrène, au Pays basque, permet aux bébés de dormir dehors dans sa grande cour. Une habitude finlandaise qui trouve sa place au pied des Pyrénées.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bayonne #PaysBasque #PetiteEnfance",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261108-1c7b9a95-1.jpg"
+    },
+    {
       "channel": "facebook",
       "at": "2026-11-08T08:29:56.403Z",
       "titre": "Bayonne : cette crèche propose aux bébés de dormir dehors",
@@ -535,32 +553,12 @@
       "format": "reponse",
       "texte": "Même à l’automne, la sécheresse tient bon en Gironde : la Barbanne, près de #Pomerol, figure parmi les trois secteurs encore au 🚱 niveau crise.",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261107-4d9477ef-x.jpg"
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-11-06T19:33:50.518Z",
-      "titre": "Requins, crocodiliens, coquillages : pourquoi la mer recouvrait Amberre ?",
-      "lien": "https://passion-aquitaine.ouest-france.fr/faluns-amberre-mer-fossiles/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1778791877580026",
-      "format": null,
-      "texte": "Des dents de requins et des restes de crocodiliens dorment dans les carrières de Moulin-Pochas, en pleine Vienne 🦴",
-      "image": null
     }
   ],
-  "file": [
-    {
-      "channel": "instagram",
-      "dueAt": "2026-11-08T12:03:59.961Z",
-      "prochainPassage": "2026-11-08T12:20:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Bayonne : cette crèche propose aux bébés de dormir dehors"
-    }
-  ],
+  "file": [],
   "alertes": [],
   "mesures": {
-    "releves": 528,
+    "releves": 529,
     "parReseau": {
       "instagram": {
         "posts": 65,
@@ -681,12 +679,12 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-08T11:20:36.126Z",
-    "posts": 29,
+    "genereLe": "2026-11-08T12:04:34.067Z",
+    "posts": 30,
     "parReseau": {
       "instagram": {
-        "posts": 7,
-        "moyenne": 3.6
+        "posts": 8,
+        "moyenne": 3.4
       },
       "threads": {
         "posts": 8,
@@ -721,8 +719,8 @@
     },
     "parCreneau": {
       "après-midi": {
-        "posts": 7,
-        "moyenne": 2.7
+        "posts": 8,
+        "moyenne": 2.6
       },
       "soir": {
         "posts": 8,
@@ -786,8 +784,8 @@
           "moyenne": 5
         },
         "12 h – 13 h 30": {
-          "posts": 5,
-          "moyenne": 3.6
+          "posts": 6,
+          "moyenne": 3.3
         },
         "18 h – 19 h 30": {
           "posts": 1,
@@ -795,7 +793,7 @@
         }
       }
     },
-    "interactionsTotal": 35,
+    "interactionsTotal": 37,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=35812",
       "channel": "instagram",
@@ -838,7 +836,7 @@
     },
     "mentions": {
       "avec": {
-        "posts": 13,
+        "posts": 14,
         "moyenne": 2.4
       },
       "sans": {
@@ -851,7 +849,7 @@
       "facebook": 9,
       "bluesky": 9,
       "x": 9,
-      "instagram": 8
+      "instagram": 9
     },
     "abonnes": {
       "instagram": {
@@ -889,7 +887,7 @@
       "x": null
     },
     "engagement": {
-      "instagram": 0.04,
+      "instagram": 0.03,
       "threads": 0.11,
       "facebook": 0
     },

@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-08T06:20:38.115Z",
+  "genereLe": "2026-11-08T07:00:36.843Z",
   "jour": "2026-11-08",
   "reseaux": {
     "instagram": {
@@ -555,7 +555,53 @@
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261106-d2e04441-th.jpg"
     }
   ],
-  "file": [],
+  "file": [
+    {
+      "channel": "threads",
+      "dueAt": "2026-11-08T07:24:25.649Z",
+      "prochainPassage": "2026-11-08T08:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Bayonne : cette crèche propose aux bébés de dormir dehors"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-11-08T07:34:20.679Z",
+      "prochainPassage": "2026-11-08T08:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Bayonne : cette crèche propose aux bébés de dormir dehors"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-11-08T08:00:00.000Z",
+      "prochainPassage": "2026-11-08T08:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Bayonne : cette crèche propose aux bébés de dormir dehors"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-11-08T08:29:50.080Z",
+      "prochainPassage": "2026-11-08T09:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Bayonne : cette crèche propose aux bébés de dormir dehors"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-11-08T12:03:59.961Z",
+      "prochainPassage": "2026-11-08T12:20:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Bayonne : cette crèche propose aux bébés de dormir dehors"
+    }
+  ],
   "alertes": [],
   "mesures": {
     "releves": 524,
@@ -679,7 +725,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-08T06:20:43.175Z",
+    "genereLe": "2026-11-08T07:01:09.530Z",
     "posts": 28,
     "parReseau": {
       "instagram": {
@@ -899,29 +945,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 0,
-      "entree": 0,
-      "sortie": 0,
-      "cout": 0,
+      "appels": 3,
+      "entree": 23980,
+      "sortie": 2579,
+      "cout": 0.1475,
       "cle": "2026-11-08"
     },
     "semaine": {
-      "appels": 30,
-      "entree": 239743,
-      "sortie": 27025,
-      "cout": 1.4994720000000001
+      "appels": 33,
+      "entree": 263723,
+      "sortie": 29604,
+      "cout": 1.646972
     },
     "mois": {
-      "appels": 31,
-      "entree": 247661,
-      "sortie": 27827,
-      "cout": 1.5471840000000001,
+      "appels": 34,
+      "entree": 271641,
+      "sortie": 30406,
+      "cout": 1.694684,
       "cle": "2026-11"
     },
-    "projection": 5.8,
-    "moyenneAppel": 0.0499,
+    "projection": 6.36,
+    "moyenneAppel": 0.0498,
     "parModele": {
-      "claude-opus-5-5": 31
+      "claude-opus-5-5": 34
     },
     "serie": [
       [
@@ -978,7 +1024,7 @@
       ],
       [
         "2026-11-08",
-        0
+        0.1475
       ]
     ],
     "depuis": "2026-09-23"

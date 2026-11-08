@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-08T19:00:39.028Z",
+  "genereLe": "2026-11-08T19:20:32.997Z",
   "jour": "2026-11-08",
   "reseaux": {
     "instagram": {
@@ -558,7 +558,7 @@
   "file": [],
   "alertes": [],
   "mesures": {
-    "releves": 531,
+    "releves": 532,
     "parReseau": {
       "instagram": {
         "posts": 66,
@@ -679,8 +679,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-08T19:00:43.107Z",
-    "posts": 31,
+    "genereLe": "2026-11-08T19:20:37.599Z",
+    "posts": 32,
     "parReseau": {
       "instagram": {
         "posts": 8,
@@ -691,7 +691,7 @@
         "moyenne": 1.3
       },
       "facebook": {
-        "posts": 7,
+        "posts": 8,
         "moyenne": 0
       },
       "bluesky": {
@@ -723,8 +723,8 @@
         "moyenne": 2.4
       },
       "soir": {
-        "posts": 8,
-        "moyenne": 1.1
+        "posts": 9,
+        "moyenne": 1
       },
       "matin": {
         "posts": 14,
@@ -756,7 +756,7 @@
           "moyenne": 0
         },
         "20 h – 21 h 30": {
-          "posts": 3,
+          "posts": 4,
           "moyenne": 0
         }
       },
@@ -816,11 +816,11 @@
     },
     "moinsBon": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36047",
-      "channel": "bluesky",
-      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mzpvacwouz2h",
-      "publieLe": "2026-11-07T12:23:41.753Z",
+      "channel": "facebook",
+      "mediaId": "227437307428711_1779968794129001",
+      "publieLe": "2026-11-07T19:14:59.246Z",
       "jalon": 1,
-      "releveLe": "2026-11-08T13:00:41.034Z",
+      "releveLe": "2026-11-08T19:20:32.997Z",
       "likes": 0,
       "commentairesBruts": 0,
       "partages": 0,
@@ -828,11 +828,11 @@
       "commentaires": 0,
       "v": 2,
       "titre": "Sécheresse : en novembre, la crise persiste près de Pomerol",
-      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mzpvacwouz2h",
-      "format": "image",
+      "lien": "https://www.facebook.com/1720946116697936/posts/1779968794129001",
+      "format": null,
       "mention": false,
-      "creneau": "après-midi",
-      "creneauReseau": "12 h – 13 h 30"
+      "creneau": "soir",
+      "creneauReseau": "20 h – 21 h 30"
     },
     "mentions": {
       "avec": {
@@ -840,7 +840,7 @@
         "moyenne": 2.4
       },
       "sans": {
-        "posts": 17,
+        "posts": 18,
         "moyenne": 0.2
       }
     },

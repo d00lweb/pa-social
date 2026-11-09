@@ -3,7 +3,7 @@
     "cle": "2026-11",
     "publications": 50,
     "articles": 10,
-    "interactions": 72,
+    "interactions": 95,
     "parReseau": {
       "facebook": 10,
       "instagram": 10,
@@ -28,10 +28,17 @@
       },
       {
         "reseau": "instagram",
+        "titre": "Bayonne : cette crèche propose aux bébés de dormir dehors",
+        "lien": "https://www.instagram.com/p/Dfetr1KF6oZ/",
+        "image": "https://passion-aquitaine.ouest-france.fr/social/20261108-1c7b9a95-1-vignette.jpg",
+        "interactions": 19
+      },
+      {
+        "reseau": "instagram",
         "titre": "Marché de Noël de Bruxelles : le Pays basque et le Béarn invités",
         "lien": "https://www.instagram.com/p/DfPRi5qjFR1/",
         "image": "https://passion-aquitaine.ouest-france.fr/social/20261102-116575f8-1-vignette.jpg",
-        "interactions": 5
+        "interactions": 9
       },
       {
         "reseau": "instagram",
@@ -46,13 +53,6 @@
         "lien": "https://www.instagram.com/p/DfVUaJLDSRn/",
         "image": "https://passion-aquitaine.ouest-france.fr/social/20261104-badf7c8c-1-vignette.jpg",
         "interactions": 5
-      },
-      {
-        "reseau": "instagram",
-        "titre": "Angoulême ouvre la première classe BD de France en primaire",
-        "lien": "https://www.instagram.com/p/DfMtAfyDPLt/",
-        "image": "https://passion-aquitaine.ouest-france.fr/social/20261101-10635de7-1-vignette.jpg",
-        "interactions": 4
       }
     ]
   },

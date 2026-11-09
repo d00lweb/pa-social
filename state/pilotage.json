@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-09T12:00:38.976Z",
+  "genereLe": "2026-11-09T12:20:38.364Z",
   "jour": "2026-11-09",
   "reseaux": {
     "instagram": {
@@ -25,7 +25,7 @@
       },
       "formats": null,
       "aujourdhui": 1,
-      "semaine": 9,
+      "semaine": 8,
       "total": 75,
       "dernier": "2026-11-09T12:14:39.741Z",
       "lienDernier": "https://www.instagram.com/p/DfhTo86mFsu/"
@@ -558,11 +558,11 @@
   "file": [],
   "alertes": [],
   "mesures": {
-    "releves": 538,
+    "releves": 540,
     "parReseau": {
       "instagram": {
-        "posts": 66,
-        "interactionsMoyennes": 13.5
+        "posts": 67,
+        "interactionsMoyennes": 13.4
       },
       "bluesky": {
         "posts": 65,
@@ -679,16 +679,16 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-09T12:14:42.030Z",
-    "posts": 35,
+    "genereLe": "2026-11-09T12:20:42.033Z",
+    "posts": 36,
     "parReseau": {
+      "instagram": {
+        "posts": 9,
+        "moyenne": 5.7
+      },
       "threads": {
         "posts": 9,
         "moyenne": 4.9
-      },
-      "instagram": {
-        "posts": 8,
-        "moyenne": 3.5
       },
       "facebook": {
         "posts": 9,
@@ -718,12 +718,12 @@
       }
     },
     "parCreneau": {
+      "après-midi": {
+        "posts": 10,
+        "moyenne": 4.5
+      },
       "matin": {
         "posts": 17,
-        "moyenne": 2.4
-      },
-      "après-midi": {
-        "posts": 9,
         "moyenne": 2.4
       },
       "soir": {
@@ -779,13 +779,13 @@
         }
       },
       "instagram": {
+        "12 h – 13 h 30": {
+          "posts": 7,
+          "moyenne": 6.3
+        },
         "hors créneau": {
           "posts": 1,
           "moyenne": 5
-        },
-        "12 h – 13 h 30": {
-          "posts": 6,
-          "moyenne": 3.5
         },
         "18 h – 19 h 30": {
           "posts": 1,
@@ -793,7 +793,7 @@
         }
       }
     },
-    "interactionsTotal": 72,
+    "interactionsTotal": 95,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36056",
       "channel": "threads",
@@ -836,8 +836,8 @@
     },
     "mentions": {
       "avec": {
-        "posts": 15,
-        "moyenne": 4.5
+        "posts": 16,
+        "moyenne": 5.7
       },
       "sans": {
         "posts": 20,
@@ -887,14 +887,14 @@
       "x": null
     },
     "engagement": {
+      "instagram": 0.06,
       "threads": 0.42,
-      "instagram": 0.03,
       "facebook": 0
     },
     "conseils": [
       "Le format « reponse » fait 49 fois mieux que « reply » (4.9 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « reply » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+4, +0,3 %) ; Facebook recule (−11), à surveiller.",
-      "Les posts avec mention font 4.3 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
+      "Les posts avec mention font 5.5 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
     ]
   },
   "couts": {

@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-09T09:00:36.522Z",
+  "genereLe": "2026-11-09T09:20:35.939Z",
   "jour": "2026-11-09",
   "reseaux": {
     "instagram": {
@@ -156,10 +156,10 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 8,
-      "total": 72,
-      "dernier": "2026-11-08T08:00:54.964Z",
+      "aujourdhui": 1,
+      "semaine": 9,
+      "total": 73,
+      "dernier": "2026-11-09T09:20:46.285Z",
       "lienDernier": null
     }
   },
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36054",
       "titre": "Gironde : une start-up spatiale invente un moteur qui « respire »",
       "lien": "https://passion-aquitaine.ouest-france.fr/gironde-hyprspace-moteur-oxygene-air/",
-      "at": "2026-11-09T08:24:10.252Z",
+      "at": "2026-11-09T09:20:46.285Z",
       "reseaux": {
         "threads": {
           "texte": "Imaginez un moteur qui inspire l’air comme un poumon avant de propulser son engin vers le ciel. C’est l’idée de SHADow, développé au Haillan par la start-up HyPrSpace. Là où les fusées emportent leur réserve d’oxygène, lui irait la chercher autour de lui 🌌",
@@ -193,6 +193,14 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-11-09T08:24:10.252Z"
+        },
+        "x": {
+          "texte": "🔭 Et si un moteur spatial n’avait plus besoin d’emporter son oxygène ? Au Haillan, HyPrSpace développe SHADow, conçu pour le puiser dans l’air.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261109-4d9875c5-x.jpg",
+          "mode": "reponse",
+          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/gironde-hyprspace-moteur-oxygene-air/",
+          "sujet": null,
+          "publieLe": "2026-11-09T09:20:46.285Z"
         }
       }
     },
@@ -439,6 +447,16 @@
   ],
   "publications": [
     {
+      "channel": "x",
+      "at": "2026-11-09T09:20:46.285Z",
+      "titre": "Gironde : une start-up spatiale invente un moteur qui « respire »",
+      "lien": "https://passion-aquitaine.ouest-france.fr/gironde-hyprspace-moteur-oxygene-air/",
+      "lienPost": null,
+      "format": "reponse",
+      "texte": "🔭 Et si un moteur spatial n’avait plus besoin d’emporter son oxygène ? Au Haillan, HyPrSpace développe SHADow, conçu pour le puiser dans l’air.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261109-4d9875c5-x.jpg"
+    },
+    {
       "channel": "facebook",
       "at": "2026-11-09T08:24:10.252Z",
       "titre": "Gironde : une start-up spatiale invente un moteur qui « respire »",
@@ -527,28 +545,9 @@
       "format": null,
       "texte": "Près de Pomerol, la Barbanne fait partie des trois secteurs girondins encore au niveau crise malgré l’automne 💧",
       "image": null
-    },
-    {
-      "channel": "bluesky",
-      "at": "2026-11-07T12:23:41.753Z",
-      "titre": "Sécheresse : en novembre, la crise persiste près de Pomerol",
-      "lien": "https://passion-aquitaine.ouest-france.fr/gironde-secheresse-crise-novembre-barbanne/",
-      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mzpvacwouz2h",
-      "format": "image",
-      "texte": "🍂 On pourrait croire l’épisode terminé avec l’automne. Pourtant, en #Gironde, trois secteurs restaient au niveau crise face à la #sécheresse, dont la Barbanne, près de #Pomerol.\n➡️ Lire l’article",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261107-4d9477ef-bsky.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "x",
-      "dueAt": "2026-11-09T09:20:00.000Z",
-      "prochainPassage": "2026-11-09T09:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Gironde : une start-up spatiale invente un moteur qui « respire »"
-    },
     {
       "channel": "instagram",
       "dueAt": "2026-11-09T12:14:05.327Z",
@@ -682,7 +681,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-09T09:00:44.037Z",
+    "genereLe": "2026-11-09T09:20:52.797Z",
     "posts": 35,
     "parReseau": {
       "threads": {
@@ -851,7 +850,7 @@
       "threads": 10,
       "facebook": 10,
       "bluesky": 10,
-      "x": 9,
+      "x": 10,
       "instagram": 9
     },
     "abonnes": {

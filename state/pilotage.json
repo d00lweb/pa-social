@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-09T06:20:40.791Z",
+  "genereLe": "2026-11-09T07:00:43.762Z",
   "jour": "2026-11-09",
   "reseaux": {
     "instagram": {
@@ -555,7 +555,53 @@
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261107-4d9477ef-x.jpg"
     }
   ],
-  "file": [],
+  "file": [
+    {
+      "channel": "threads",
+      "dueAt": "2026-11-09T07:23:38.662Z",
+      "prochainPassage": "2026-11-09T08:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Gironde : une start-up spatiale invente un moteur qui « respire »"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-11-09T08:13:28.952Z",
+      "prochainPassage": "2026-11-09T08:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Gironde : une start-up spatiale invente un moteur qui « respire »"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-11-09T08:24:04.985Z",
+      "prochainPassage": "2026-11-09T09:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Gironde : une start-up spatiale invente un moteur qui « respire »"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-11-09T09:20:00.000Z",
+      "prochainPassage": "2026-11-09T09:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Gironde : une start-up spatiale invente un moteur qui « respire »"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-11-09T12:14:05.327Z",
+      "prochainPassage": "2026-11-09T12:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Gironde : une start-up spatiale invente un moteur qui « respire »"
+    }
+  ],
   "alertes": [],
   "mesures": {
     "releves": 532,
@@ -679,7 +725,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-09T06:20:45.636Z",
+    "genereLe": "2026-11-09T07:01:11.246Z",
     "posts": 32,
     "parReseau": {
       "instagram": {
@@ -899,29 +945,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 0,
-      "entree": 0,
-      "sortie": 0,
-      "cout": 0,
+      "appels": 1,
+      "entree": 7907,
+      "sortie": 847,
+      "cout": 0.048568,
       "cle": "2026-11-09"
     },
     "semaine": {
-      "appels": 12,
-      "entree": 95677,
-      "sortie": 10402,
-      "cout": 0.590748
+      "appels": 13,
+      "entree": 103584,
+      "sortie": 11249,
+      "cout": 0.639316
     },
     "mois": {
-      "appels": 34,
-      "entree": 271641,
-      "sortie": 30406,
-      "cout": 1.694684,
+      "appels": 35,
+      "entree": 279548,
+      "sortie": 31253,
+      "cout": 1.743252,
       "cle": "2026-11"
     },
-    "projection": 5.65,
+    "projection": 5.81,
     "moyenneAppel": 0.0498,
     "parModele": {
-      "claude-opus-5-5": 34
+      "claude-opus-5-5": 35
     },
     "serie": [
       [
@@ -978,7 +1024,7 @@
       ],
       [
         "2026-11-09",
-        0
+        0.0486
       ]
     ],
     "depuis": "2026-09-23"

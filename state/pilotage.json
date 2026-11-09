@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-09T08:20:40.998Z",
+  "genereLe": "2026-11-09T09:00:36.522Z",
   "jour": "2026-11-09",
   "reseaux": {
     "instagram": {
@@ -561,7 +561,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 537,
+    "releves": 538,
     "parReseau": {
       "instagram": {
         "posts": 66,
@@ -643,7 +643,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-09T07:20:42.198Z"
+    "derniere": "2026-11-09T09:00:36.522Z"
   },
   "abonnes": {
     "instagram": {
@@ -682,8 +682,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-09T08:24:14.456Z",
-    "posts": 34,
+    "genereLe": "2026-11-09T09:00:44.037Z",
+    "posts": 35,
     "parReseau": {
       "threads": {
         "posts": 9,
@@ -694,7 +694,7 @@
         "moyenne": 3.5
       },
       "facebook": {
-        "posts": 8,
+        "posts": 9,
         "moyenne": 0
       },
       "bluesky": {
@@ -722,8 +722,8 @@
     },
     "parCreneau": {
       "matin": {
-        "posts": 16,
-        "moyenne": 2.6
+        "posts": 17,
+        "moyenne": 2.4
       },
       "après-midi": {
         "posts": 9,
@@ -755,7 +755,7 @@
       },
       "facebook": {
         "8 h – 9 h 30": {
-          "posts": 4,
+          "posts": 5,
           "moyenne": 0
         },
         "20 h – 21 h 30": {
@@ -819,11 +819,11 @@
     },
     "moinsBon": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36056",
-      "channel": "bluesky",
-      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mzrvjvvb2c24",
-      "publieLe": "2026-11-08T07:34:23.063Z",
+      "channel": "facebook",
+      "mediaId": "227437307428711_1780582450734302",
+      "publieLe": "2026-11-08T08:29:56.403Z",
       "jalon": 1,
-      "releveLe": "2026-11-09T08:00:37.239Z",
+      "releveLe": "2026-11-09T09:00:36.522Z",
       "likes": 0,
       "commentairesBruts": 0,
       "partages": 0,
@@ -831,8 +831,8 @@
       "commentaires": 0,
       "v": 2,
       "titre": "Bayonne : cette crèche propose aux bébés de dormir dehors",
-      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mzrvjvvb2c24",
-      "format": "image",
+      "lien": "https://www.facebook.com/1720946116697936/posts/1780582450734302",
+      "format": null,
       "mention": false,
       "creneau": "matin",
       "creneauReseau": "8 h – 9 h 30"
@@ -843,7 +843,7 @@
         "moyenne": 4.5
       },
       "sans": {
-        "posts": 19,
+        "posts": 20,
         "moyenne": 0.2
       }
     },

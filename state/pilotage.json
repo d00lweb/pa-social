@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-09T08:00:37.239Z",
+  "genereLe": "2026-11-09T08:20:40.998Z",
   "jour": "2026-11-09",
   "reseaux": {
     "instagram": {
@@ -61,7 +61,7 @@
         "reply"
       ],
       "aujourdhui": 1,
-      "semaine": 9,
+      "semaine": 8,
       "total": 73,
       "dernier": "2026-11-09T08:13:31.196Z",
       "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mzui6sn4lc2f"
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 0,
+      "aujourdhui": 1,
       "semaine": 8,
-      "total": 69,
-      "dernier": "2026-11-08T08:29:56.403Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1780582450734302"
+      "total": 70,
+      "dernier": "2026-11-09T08:24:10.252Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1781785397280674"
     },
     "threads": {
       "actif": true,
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36054",
       "titre": "Gironde : une start-up spatiale invente un moteur qui « respire »",
       "lien": "https://passion-aquitaine.ouest-france.fr/gironde-hyprspace-moteur-oxygene-air/",
-      "at": "2026-11-09T08:13:31.196Z",
+      "at": "2026-11-09T08:24:10.252Z",
       "reseaux": {
         "threads": {
           "texte": "Imaginez un moteur qui inspire l’air comme un poumon avant de propulser son engin vers le ciel. C’est l’idée de SHADow, développé au Haillan par la start-up HyPrSpace. Là où les fusées emportent leur réserve d’oxygène, lui irait la chercher autour de lui 🌌",
@@ -185,6 +185,14 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-11-09T08:13:31.196Z"
+        },
+        "facebook": {
+          "texte": "Moins d’oxygène à embarquer, c’est l’idée du moteur SHADow que met au point une jeune entreprise installée au Haillan 🛰️",
+          "image": null,
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-09T08:24:10.252Z"
         }
       }
     },
@@ -431,6 +439,16 @@
   ],
   "publications": [
     {
+      "channel": "facebook",
+      "at": "2026-11-09T08:24:10.252Z",
+      "titre": "Gironde : une start-up spatiale invente un moteur qui « respire »",
+      "lien": "https://passion-aquitaine.ouest-france.fr/gironde-hyprspace-moteur-oxygene-air/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1781785397280674",
+      "format": null,
+      "texte": "Moins d’oxygène à embarquer, c’est l’idée du moteur SHADow que met au point une jeune entreprise installée au Haillan 🛰️",
+      "image": null
+    },
+    {
       "channel": "bluesky",
       "at": "2026-11-09T08:13:31.196Z",
       "titre": "Gironde : une start-up spatiale invente un moteur qui « respire »",
@@ -519,28 +537,9 @@
       "format": "image",
       "texte": "🍂 On pourrait croire l’épisode terminé avec l’automne. Pourtant, en #Gironde, trois secteurs restaient au niveau crise face à la #sécheresse, dont la Barbanne, près de #Pomerol.\n➡️ Lire l’article",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261107-4d9477ef-bsky.jpg"
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-11-07T11:30:09.231Z",
-      "titre": "Sécheresse : en novembre, la crise persiste près de Pomerol",
-      "lien": "https://passion-aquitaine.ouest-france.fr/gironde-secheresse-crise-novembre-barbanne/",
-      "lienPost": "https://www.instagram.com/p/DfcE9TmE0QX/",
-      "format": null,
-      "texte": "Trois secteurs de Gironde toujours au niveau 💧 crise, alors que l’automne est bien installé\n⠀\nLes feuilles tombent, mais la sécheresse persiste. Près de Pomerol, le secteur de la Barbanne fait partie des zones encore les plus touchées.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Gironde #Secheresse #Pomerol",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261107-4d9477ef-1.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "facebook",
-      "dueAt": "2026-11-09T08:24:04.985Z",
-      "prochainPassage": "2026-11-09T09:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Gironde : une start-up spatiale invente un moteur qui « respire »"
-    },
     {
       "channel": "x",
       "dueAt": "2026-11-09T09:20:00.000Z",
@@ -562,18 +561,18 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 535,
+    "releves": 537,
     "parReseau": {
       "instagram": {
         "posts": 66,
         "interactionsMoyennes": 13.5
       },
       "bluesky": {
-        "posts": 64,
+        "posts": 65,
         "interactionsMoyennes": 0.2
       },
       "facebook": {
-        "posts": 61,
+        "posts": 62,
         "interactionsMoyennes": 0
       },
       "threads": {
@@ -683,7 +682,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-09T08:13:42.399Z",
+    "genereLe": "2026-11-09T08:24:14.456Z",
     "posts": 34,
     "parReseau": {
       "threads": {
@@ -850,7 +849,7 @@
     },
     "publies": {
       "threads": 10,
-      "facebook": 9,
+      "facebook": 10,
       "bluesky": 10,
       "x": 9,
       "instagram": 9

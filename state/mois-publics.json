@@ -1,15 +1,15 @@
 {
   "2026-11": {
     "cle": "2026-11",
-    "publications": 46,
+    "publications": 47,
     "articles": 10,
-    "interactions": 38,
+    "interactions": 72,
     "parReseau": {
       "facebook": 9,
       "instagram": 9,
       "x": 9,
       "threads": 10,
-      "bluesky": 9
+      "bluesky": 10
     },
     "gains": {
       "facebook": -11,
@@ -19,6 +19,13 @@
       "bluesky": 1
     },
     "top": [
+      {
+        "reseau": "threads",
+        "titre": "Bayonne : cette crèche propose aux bébés de dormir dehors",
+        "lien": "https://www.threads.com/@lovaquitaine/post/DfeNqg2Fpy_",
+        "image": "https://passion-aquitaine.ouest-france.fr/social/20261108-1c7b9a95-1-vignette.jpg",
+        "interactions": 34
+      },
       {
         "reseau": "instagram",
         "titre": "Marché de Noël de Bruxelles : le Pays basque et le Béarn invités",
@@ -46,13 +53,6 @@
         "lien": "https://www.instagram.com/p/DfMtAfyDPLt/",
         "image": "https://passion-aquitaine.ouest-france.fr/social/20261101-10635de7-1-vignette.jpg",
         "interactions": 4
-      },
-      {
-        "reseau": "threads",
-        "titre": "Grands crus de Bordeaux : qui possède les plus grands châteaux ?",
-        "lien": "https://www.threads.com/@lovaquitaine/post/DfRVrWhm4iC",
-        "image": "https://passion-aquitaine.ouest-france.fr/social/20261103-3e179b3c-1-vignette.jpg",
-        "interactions": 3
       }
     ]
   },

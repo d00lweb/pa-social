@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-09T07:20:42.198Z",
+  "genereLe": "2026-11-09T08:00:37.239Z",
   "jour": "2026-11-09",
   "reseaux": {
     "instagram": {
@@ -60,11 +60,11 @@
         "image",
         "reply"
       ],
-      "aujourdhui": 0,
-      "semaine": 8,
-      "total": 72,
-      "dernier": "2026-11-08T07:34:23.063Z",
-      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mzrvjvvb2c24"
+      "aujourdhui": 1,
+      "semaine": 9,
+      "total": 73,
+      "dernier": "2026-11-09T08:13:31.196Z",
+      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mzui6sn4lc2f"
     },
     "facebook": {
       "actif": true,
@@ -123,7 +123,7 @@
         "reponse"
       ],
       "aujourdhui": 1,
-      "semaine": 9,
+      "semaine": 8,
       "total": 70,
       "dernier": "2026-11-09T07:27:01.630Z",
       "lienDernier": "https://www.threads.com/@lovaquitaine/post/DfgyX09m-eu"
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36054",
       "titre": "Gironde : une start-up spatiale invente un moteur qui « respire »",
       "lien": "https://passion-aquitaine.ouest-france.fr/gironde-hyprspace-moteur-oxygene-air/",
-      "at": "2026-11-09T07:27:01.630Z",
+      "at": "2026-11-09T08:13:31.196Z",
       "reseaux": {
         "threads": {
           "texte": "Imaginez un moteur qui inspire l’air comme un poumon avant de propulser son engin vers le ciel. C’est l’idée de SHADow, développé au Haillan par la start-up HyPrSpace. Là où les fusées emportent leur réserve d’oxygène, lui irait la chercher autour de lui 🌌",
@@ -177,6 +177,14 @@
           "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/gironde-hyprspace-moteur-oxygene-air/",
           "sujet": "Le Haillan",
           "publieLe": "2026-11-09T07:27:01.630Z"
+        },
+        "bluesky": {
+          "texte": "Une fusée transporte toujours son propre oxygène. En #Gironde, au Haillan, HyPrSpace veut s’en passer : 🌍 son moteur SHADow puiserait l’oxygène directement dans l’air ambiant.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261109-4d9875c5-bsky.jpg",
+          "mode": "card",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-09T08:13:31.196Z"
         }
       }
     },
@@ -423,6 +431,16 @@
   ],
   "publications": [
     {
+      "channel": "bluesky",
+      "at": "2026-11-09T08:13:31.196Z",
+      "titre": "Gironde : une start-up spatiale invente un moteur qui « respire »",
+      "lien": "https://passion-aquitaine.ouest-france.fr/gironde-hyprspace-moteur-oxygene-air/",
+      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mzui6sn4lc2f",
+      "format": "card",
+      "texte": "Une fusée transporte toujours son propre oxygène. En #Gironde, au Haillan, HyPrSpace veut s’en passer : 🌍 son moteur SHADow puiserait l’oxygène directement dans l’air ambiant.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261109-4d9875c5-bsky.jpg"
+    },
+    {
       "channel": "threads",
       "at": "2026-11-09T07:27:01.630Z",
       "titre": "Gironde : une start-up spatiale invente un moteur qui « respire »",
@@ -511,28 +529,9 @@
       "format": null,
       "texte": "Trois secteurs de Gironde toujours au niveau 💧 crise, alors que l’automne est bien installé\n⠀\nLes feuilles tombent, mais la sécheresse persiste. Près de Pomerol, le secteur de la Barbanne fait partie des zones encore les plus touchées.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Gironde #Secheresse #Pomerol",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261107-4d9477ef-1.jpg"
-    },
-    {
-      "channel": "threads",
-      "at": "2026-11-07T10:29:07.370Z",
-      "titre": "Sécheresse : en novembre, la crise persiste près de Pomerol",
-      "lien": "https://passion-aquitaine.ouest-france.fr/gironde-secheresse-crise-novembre-barbanne/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/Dfb9s-qFjzD",
-      "format": "reponse",
-      "texte": "La sécheresse ne s’arrête pas avec l’été 🌾 Les feuilles tombent, mais trois secteurs de Gironde restaient au niveau crise. Parmi eux, la Barbanne, près de Pomerol. Un point utile pour savoir où en est votre secteur et comprendre que la vigilance sur l’eau reste de mise, même à l’automne.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261107-4d9477ef-th.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "bluesky",
-      "dueAt": "2026-11-09T08:13:28.952Z",
-      "prochainPassage": "2026-11-09T08:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Gironde : une start-up spatiale invente un moteur qui « respire »"
-    },
     {
       "channel": "facebook",
       "dueAt": "2026-11-09T08:24:04.985Z",
@@ -563,7 +562,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 532,
+    "releves": 535,
     "parReseau": {
       "instagram": {
         "posts": 66,
@@ -578,8 +577,8 @@
         "interactionsMoyennes": 0
       },
       "threads": {
-        "posts": 61,
-        "interactionsMoyennes": 9.6
+        "posts": 62,
+        "interactionsMoyennes": 9.5
       }
     }
   },
@@ -684,33 +683,33 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-09T07:27:08.139Z",
-    "posts": 32,
+    "genereLe": "2026-11-09T08:13:42.399Z",
+    "posts": 34,
     "parReseau": {
+      "threads": {
+        "posts": 9,
+        "moyenne": 4.9
+      },
       "instagram": {
         "posts": 8,
         "moyenne": 3.5
-      },
-      "threads": {
-        "posts": 8,
-        "moyenne": 1.3
       },
       "facebook": {
         "posts": 8,
         "moyenne": 0
       },
       "bluesky": {
-        "posts": 8,
+        "posts": 9,
         "moyenne": 0
       }
     },
     "parFormat": {
       "reponse": {
-        "posts": 8,
-        "moyenne": 1.3
+        "posts": 9,
+        "moyenne": 4.9
       },
       "image": {
-        "posts": 3,
+        "posts": 4,
         "moyenne": 0
       },
       "card": {
@@ -723,6 +722,10 @@
       }
     },
     "parCreneau": {
+      "matin": {
+        "posts": 16,
+        "moyenne": 2.6
+      },
       "après-midi": {
         "posts": 9,
         "moyenne": 2.4
@@ -730,21 +733,17 @@
       "soir": {
         "posts": 9,
         "moyenne": 1
-      },
-      "matin": {
-        "posts": 14,
-        "moyenne": 0.5
       }
     },
     "parCreneauReseau": {
       "threads": {
+        "7 h – 8 h 30": {
+          "posts": 5,
+          "moyenne": 8.2
+        },
         "hors créneau": {
           "posts": 1,
           "moyenne": 2
-        },
-        "7 h – 8 h 30": {
-          "posts": 4,
-          "moyenne": 1.8
         },
         "13 h – 14 h 30": {
           "posts": 1,
@@ -767,7 +766,7 @@
       },
       "bluesky": {
         "8 h – 9 h 30": {
-          "posts": 4,
+          "posts": 5,
           "moyenne": 0
         },
         "hors créneau": {
@@ -798,61 +797,61 @@
         }
       }
     },
-    "interactionsTotal": 38,
+    "interactionsTotal": 72,
     "meilleur": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=35812",
-      "channel": "instagram",
-      "mediaId": "18112394429578433",
-      "publieLe": "2026-11-02T12:10:00.686Z",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36056",
+      "channel": "threads",
+      "mediaId": "18110635505623598",
+      "publieLe": "2026-11-08T07:28:16.875Z",
       "jalon": 1,
-      "releveLe": "2026-11-03T12:20:48.770Z",
-      "likes": 5,
-      "commentairesBruts": 0,
-      "partages": null,
-      "vues": null,
-      "commentaires": 0,
+      "releveLe": "2026-11-09T08:00:37.239Z",
+      "likes": 28,
+      "commentairesBruts": 6,
+      "partages": 1,
+      "vues": 2902,
+      "commentaires": 5,
       "v": 2,
-      "titre": "Marché de Noël de Bruxelles : le Pays basque et le Béarn invités",
-      "lien": "https://www.instagram.com/p/DfPRi5qjFR1/",
-      "format": null,
+      "titre": "Bayonne : cette crèche propose aux bébés de dormir dehors",
+      "lien": "https://www.threads.com/@lovaquitaine/post/DfeNqg2Fpy_",
+      "format": "reponse",
       "mention": true,
-      "creneau": "après-midi",
-      "creneauReseau": "12 h – 13 h 30"
+      "creneau": "matin",
+      "creneauReseau": "7 h – 8 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36047",
-      "channel": "facebook",
-      "mediaId": "227437307428711_1779968794129001",
-      "publieLe": "2026-11-07T19:14:59.246Z",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36056",
+      "channel": "bluesky",
+      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mzrvjvvb2c24",
+      "publieLe": "2026-11-08T07:34:23.063Z",
       "jalon": 1,
-      "releveLe": "2026-11-08T19:20:32.997Z",
+      "releveLe": "2026-11-09T08:00:37.239Z",
       "likes": 0,
       "commentairesBruts": 0,
       "partages": 0,
       "vues": null,
       "commentaires": 0,
       "v": 2,
-      "titre": "Sécheresse : en novembre, la crise persiste près de Pomerol",
-      "lien": "https://www.facebook.com/1720946116697936/posts/1779968794129001",
-      "format": null,
+      "titre": "Bayonne : cette crèche propose aux bébés de dormir dehors",
+      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mzrvjvvb2c24",
+      "format": "image",
       "mention": false,
-      "creneau": "soir",
-      "creneauReseau": "20 h – 21 h 30"
+      "creneau": "matin",
+      "creneauReseau": "8 h – 9 h 30"
     },
     "mentions": {
       "avec": {
-        "posts": 14,
-        "moyenne": 2.4
+        "posts": 15,
+        "moyenne": 4.5
       },
       "sans": {
-        "posts": 18,
+        "posts": 19,
         "moyenne": 0.2
       }
     },
     "publies": {
       "threads": 10,
       "facebook": 9,
-      "bluesky": 9,
+      "bluesky": 10,
       "x": 9,
       "instagram": 9
     },
@@ -892,14 +891,14 @@
       "x": null
     },
     "engagement": {
+      "threads": 0.42,
       "instagram": 0.03,
-      "threads": 0.11,
       "facebook": 0
     },
     "conseils": [
-      "Le format « reponse » fait 13 fois mieux que « reply » (1.3 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « reply » de la rotation dans config/channels.json.",
+      "Le format « reponse » fait 49 fois mieux que « reply » (4.9 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « reply » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+4, +0,3 %) ; Facebook recule (−11), à surveiller.",
-      "Les posts avec mention font 2.2 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
+      "Les posts avec mention font 4.3 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
     ]
   },
   "couts": {

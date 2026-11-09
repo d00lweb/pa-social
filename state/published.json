@@ -6281,5 +6281,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36054",
+    "channel": "threads",
+    "at": "2026-11-09T07:27:01.630Z",
+    "mediaId": "18384428518237073",
+    "titre": "Gironde : une start-up spatiale invente un moteur qui « respire »",
+    "lien": "https://passion-aquitaine.ouest-france.fr/gironde-hyprspace-moteur-oxygene-air/",
+    "lienPost": "https://www.threads.com/@lovaquitaine/post/DfgyX09m-eu",
+    "format": "reponse",
+    "mention": false,
+    "apercu": {
+      "texte": "Imaginez un moteur qui inspire l’air comme un poumon avant de propulser son engin vers le ciel. C’est l’idée de SHADow, développé au Haillan par la start-up HyPrSpace. Là où les fusées emportent leur réserve d’oxygène, lui irait la chercher autour de lui 🌌",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261109-4d9875c5-th.jpg",
+      "mode": "reponse",
+      "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/gironde-hyprspace-moteur-oxygene-air/",
+      "sujet": "Le Haillan"
+    }
   }
 ]

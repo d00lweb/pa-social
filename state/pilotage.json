@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-10T07:00:33.867Z",
+  "genereLe": "2026-11-10T07:20:33.552Z",
   "jour": "2026-11-10",
   "reseaux": {
     "instagram": {
@@ -555,7 +555,53 @@
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261108-1c7b9a95-th.jpg"
     }
   ],
-  "file": [],
+  "file": [
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-11-10T08:08:22.472Z",
+      "prochainPassage": "2026-11-10T08:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Géminides : jusqu’à 150 étoiles filantes à voir depuis les Landes"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-11-10T08:13:14.704Z",
+      "prochainPassage": "2026-11-10T08:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Géminides : jusqu’à 150 étoiles filantes à voir depuis les Landes"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-11-10T08:20:00.000Z",
+      "prochainPassage": "2026-11-10T08:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Géminides : jusqu’à 150 étoiles filantes à voir depuis les Landes"
+    },
+    {
+      "channel": "threads",
+      "dueAt": "2026-11-10T10:11:28.642Z",
+      "prochainPassage": "2026-11-10T10:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Géminides : jusqu’à 150 étoiles filantes à voir depuis les Landes"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-11-10T12:25:43.805Z",
+      "prochainPassage": "2026-11-10T13:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Géminides : jusqu’à 150 étoiles filantes à voir depuis les Landes"
+    }
+  ],
   "alertes": [],
   "mesures": {
     "releves": 540,
@@ -640,7 +686,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-10T06:00:50.277Z"
+    "derniere": "2026-11-10T07:20:33.552Z"
   },
   "abonnes": {
     "instagram": {
@@ -679,7 +725,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-10T07:00:37.474Z",
+    "genereLe": "2026-11-10T07:20:52.664Z",
     "posts": 36,
     "parReseau": {
       "instagram": {
@@ -899,29 +945,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 0,
-      "entree": 0,
-      "sortie": 0,
-      "cout": 0,
+      "appels": 1,
+      "entree": 7940,
+      "sortie": 893,
+      "cout": 0.04962,
       "cle": "2026-11-10"
     },
     "semaine": {
-      "appels": 11,
-      "entree": 87715,
-      "sortie": 9441,
-      "cout": 0.5396799999999999
+      "appels": 12,
+      "entree": 95655,
+      "sortie": 10334,
+      "cout": 0.5892999999999999
     },
     "mois": {
-      "appels": 35,
-      "entree": 279548,
-      "sortie": 31253,
-      "cout": 1.743252,
+      "appels": 36,
+      "entree": 287488,
+      "sortie": 32146,
+      "cout": 1.792872,
       "cle": "2026-11"
     },
-    "projection": 5.23,
+    "projection": 5.38,
     "moyenneAppel": 0.0498,
     "parModele": {
-      "claude-opus-5-5": 35
+      "claude-opus-5-5": 36
     },
     "serie": [
       [
@@ -978,7 +1024,7 @@
       ],
       [
         "2026-11-10",
-        0
+        0.0496
       ]
     ],
     "depuis": "2026-09-23"

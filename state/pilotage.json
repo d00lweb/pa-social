@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-10T08:00:32.998Z",
+  "genereLe": "2026-11-10T08:20:47.106Z",
   "jour": "2026-11-10",
   "reseaux": {
     "instagram": {
@@ -61,7 +61,7 @@
         "reply"
       ],
       "aujourdhui": 1,
-      "semaine": 9,
+      "semaine": 8,
       "total": 74,
       "dernier": "2026-11-10T08:08:25.135Z",
       "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mzwyelzrxy2d"
@@ -89,7 +89,7 @@
       },
       "formats": null,
       "aujourdhui": 1,
-      "semaine": 9,
+      "semaine": 8,
       "total": 71,
       "dernier": "2026-11-10T08:13:23.890Z",
       "lienDernier": "https://www.facebook.com/1720946116697936/posts/1782949707164243"
@@ -156,10 +156,10 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 8,
-      "total": 73,
-      "dernier": "2026-11-09T09:20:46.285Z",
+      "aujourdhui": 1,
+      "semaine": 9,
+      "total": 74,
+      "dernier": "2026-11-10T08:20:57.836Z",
       "lienDernier": null
     }
   },
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36052",
       "titre": "Géminides : jusqu’à 150 étoiles filantes à voir depuis les Landes",
       "lien": "https://passion-aquitaine.ouest-france.fr/geminides-2026-etoiles-filantes-landes/",
-      "at": "2026-11-10T08:13:23.890Z",
+      "at": "2026-11-10T08:20:57.836Z",
       "reseaux": {
         "bluesky": {
           "texte": "Des traînées de lumière qui strient la nuit au-dessus des pins des #Landes 🌲 Le 13 décembre, les Géminides pourraient offrir jusqu’à 150 étoiles filantes par heure, à admirer depuis une réserve de ciel étoilé en pleine forêt.\n➡️ Lire l’article",
@@ -185,6 +185,14 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-11-10T08:13:23.890Z"
+        },
+        "x": {
+          "texte": "Jusqu’à 150 étoiles filantes par heure : les Géminides culminent le 13 décembre, et une réserve de ciel étoilé en pleine forêt landaise promet un poste d’observation idéal 💫",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261110-7bd6dea8-x.jpg",
+          "mode": "reponse",
+          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/geminides-2026-etoiles-filantes-landes/",
+          "sujet": null,
+          "publieLe": "2026-11-10T08:20:57.836Z"
         }
       }
     },
@@ -431,6 +439,16 @@
   ],
   "publications": [
     {
+      "channel": "x",
+      "at": "2026-11-10T08:20:57.836Z",
+      "titre": "Géminides : jusqu’à 150 étoiles filantes à voir depuis les Landes",
+      "lien": "https://passion-aquitaine.ouest-france.fr/geminides-2026-etoiles-filantes-landes/",
+      "lienPost": null,
+      "format": "reponse",
+      "texte": "Jusqu’à 150 étoiles filantes par heure : les Géminides culminent le 13 décembre, et une réserve de ciel étoilé en pleine forêt landaise promet un poste d’observation idéal 💫",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261110-7bd6dea8-x.jpg"
+    },
+    {
       "channel": "facebook",
       "at": "2026-11-10T08:13:23.890Z",
       "titre": "Géminides : jusqu’à 150 étoiles filantes à voir depuis les Landes",
@@ -519,28 +537,9 @@
       "format": null,
       "texte": "Dans une crèche de Bayonne, les bébés font leur sieste dehors, comme le veut une habitude finlandaise 😴",
       "image": null
-    },
-    {
-      "channel": "x",
-      "at": "2026-11-08T08:00:54.964Z",
-      "titre": "Bayonne : cette crèche propose aux bébés de dormir dehors",
-      "lien": "https://passion-aquitaine.ouest-france.fr/bayonne-creche-bebes-sieste-dehors/",
-      "lienPost": null,
-      "format": "reponse",
-      "texte": "Des berceaux dans une grande cour, des bébés endormis au grand air 🍃 À #Bayonne, la crèche Pyrène a adopté une habitude finlandaise : la sieste dehors.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261108-1c7b9a95-x.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "x",
-      "dueAt": "2026-11-10T08:20:00.000Z",
-      "prochainPassage": "2026-11-10T08:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Géminides : jusqu’à 150 étoiles filantes à voir depuis les Landes"
-    },
     {
       "channel": "threads",
       "dueAt": "2026-11-10T10:11:28.642Z",
@@ -562,18 +561,18 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 542,
+    "releves": 545,
     "parReseau": {
       "instagram": {
         "posts": 67,
         "interactionsMoyennes": 13.4
       },
       "bluesky": {
-        "posts": 65,
+        "posts": 66,
         "interactionsMoyennes": 0.2
       },
       "facebook": {
-        "posts": 62,
+        "posts": 63,
         "interactionsMoyennes": 0
       },
       "threads": {
@@ -644,7 +643,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-10T07:20:33.552Z"
+    "derniere": "2026-11-10T08:20:47.106Z"
   },
   "abonnes": {
     "instagram": {
@@ -683,8 +682,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-10T08:13:28.767Z",
-    "posts": 37,
+    "genereLe": "2026-11-10T08:21:09.301Z",
+    "posts": 38,
     "parReseau": {
       "instagram": {
         "posts": 9,
@@ -699,7 +698,7 @@
         "moyenne": 0
       },
       "bluesky": {
-        "posts": 9,
+        "posts": 10,
         "moyenne": 0
       }
     },
@@ -713,7 +712,7 @@
         "moyenne": 0
       },
       "card": {
-        "posts": 3,
+        "posts": 4,
         "moyenne": 0
       },
       "reply": {
@@ -727,8 +726,8 @@
         "moyenne": 4.5
       },
       "matin": {
-        "posts": 18,
-        "moyenne": 2.4
+        "posts": 19,
+        "moyenne": 2.3
       },
       "soir": {
         "posts": 9,
@@ -766,7 +765,7 @@
       },
       "bluesky": {
         "8 h – 9 h 30": {
-          "posts": 5,
+          "posts": 6,
           "moyenne": 0
         },
         "hors créneau": {
@@ -819,21 +818,21 @@
       "creneauReseau": "7 h – 8 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36056",
-      "channel": "facebook",
-      "mediaId": "227437307428711_1780582450734302",
-      "publieLe": "2026-11-08T08:29:56.403Z",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36054",
+      "channel": "bluesky",
+      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mzui6sn4lc2f",
+      "publieLe": "2026-11-09T08:13:31.196Z",
       "jalon": 1,
-      "releveLe": "2026-11-09T09:00:36.522Z",
+      "releveLe": "2026-11-10T08:20:47.106Z",
       "likes": 0,
       "commentairesBruts": 0,
       "partages": 0,
       "vues": null,
       "commentaires": 0,
       "v": 2,
-      "titre": "Bayonne : cette crèche propose aux bébés de dormir dehors",
-      "lien": "https://www.facebook.com/1720946116697936/posts/1780582450734302",
-      "format": null,
+      "titre": "Gironde : une start-up spatiale invente un moteur qui « respire »",
+      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mzui6sn4lc2f",
+      "format": "card",
       "mention": false,
       "creneau": "matin",
       "creneauReseau": "8 h – 9 h 30"
@@ -844,7 +843,7 @@
         "moyenne": 5.7
       },
       "sans": {
-        "posts": 21,
+        "posts": 22,
         "moyenne": 0.3
       }
     },
@@ -852,7 +851,7 @@
       "threads": 10,
       "facebook": 11,
       "bluesky": 11,
-      "x": 10,
+      "x": 11,
       "instagram": 10
     },
     "abonnes": {

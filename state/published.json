@@ -6407,5 +6407,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36052",
+    "channel": "x",
+    "at": "2026-11-10T08:20:57.836Z",
+    "mediaId": "kit-telegram",
+    "titre": "Géminides : jusqu’à 150 étoiles filantes à voir depuis les Landes",
+    "lien": "https://passion-aquitaine.ouest-france.fr/geminides-2026-etoiles-filantes-landes/",
+    "lienPost": null,
+    "format": "reponse",
+    "mention": false,
+    "apercu": {
+      "texte": "Jusqu’à 150 étoiles filantes par heure : les Géminides culminent le 13 décembre, et une réserve de ciel étoilé en pleine forêt landaise promet un poste d’observation idéal 💫",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261110-7bd6dea8-x.jpg",
+      "mode": "reponse",
+      "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/geminides-2026-etoiles-filantes-landes/",
+      "sujet": null
+    }
   }
 ]

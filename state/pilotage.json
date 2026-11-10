@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-10T09:20:35.513Z",
+  "genereLe": "2026-11-10T10:00:41.386Z",
   "jour": "2026-11-10",
   "reseaux": {
     "instagram": {
@@ -122,11 +122,11 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 7,
-      "total": 70,
-      "dernier": "2026-11-09T07:27:01.630Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DfgyX09m-eu"
+      "aujourdhui": 1,
+      "semaine": 8,
+      "total": 71,
+      "dernier": "2026-11-10T10:15:42.556Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DfjqX47Ebi9"
     },
     "x": {
       "actif": true,
@@ -157,7 +157,7 @@
         "reponse"
       ],
       "aujourdhui": 1,
-      "semaine": 9,
+      "semaine": 8,
       "total": 74,
       "dernier": "2026-11-10T08:20:57.836Z",
       "lienDernier": null
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36052",
       "titre": "Géminides : jusqu’à 150 étoiles filantes à voir depuis les Landes",
       "lien": "https://passion-aquitaine.ouest-france.fr/geminides-2026-etoiles-filantes-landes/",
-      "at": "2026-11-10T08:20:57.836Z",
+      "at": "2026-11-10T10:15:42.556Z",
       "reseaux": {
         "bluesky": {
           "texte": "Des traînées de lumière qui strient la nuit au-dessus des pins des #Landes 🌲 Le 13 décembre, les Géminides pourraient offrir jusqu’à 150 étoiles filantes par heure, à admirer depuis une réserve de ciel étoilé en pleine forêt.\n➡️ Lire l’article",
@@ -193,6 +193,14 @@
           "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/geminides-2026-etoiles-filantes-landes/",
           "sujet": null,
           "publieLe": "2026-11-10T08:20:57.836Z"
+        },
+        "threads": {
+          "texte": "Où regarder la plus belle pluie d’étoiles filantes de l’année ? Dans les Landes, une réserve de ciel étoilé se niche en pleine forêt. Et la date à retenir, c’est le 13 décembre : ✨ les Géminides pourraient y offrir jusqu’à 150 étoiles filantes par heure. Vous avez déjà passé une nuit à guetter le ciel ?",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261110-7bd6dea8-th.jpg",
+          "mode": "reponse",
+          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/geminides-2026-etoiles-filantes-landes/",
+          "sujet": "Landes",
+          "publieLe": "2026-11-10T10:15:42.556Z"
         }
       }
     },
@@ -439,6 +447,16 @@
   ],
   "publications": [
     {
+      "channel": "threads",
+      "at": "2026-11-10T10:15:42.556Z",
+      "titre": "Géminides : jusqu’à 150 étoiles filantes à voir depuis les Landes",
+      "lien": "https://passion-aquitaine.ouest-france.fr/geminides-2026-etoiles-filantes-landes/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/DfjqX47Ebi9",
+      "format": "reponse",
+      "texte": "Où regarder la plus belle pluie d’étoiles filantes de l’année ? Dans les Landes, une réserve de ciel étoilé se niche en pleine forêt. Et la date à retenir, c’est le 13 décembre : ✨ les Géminides pourraient y offrir jusqu’à 150 étoiles filantes par heure. Vous avez déjà passé une nuit à guetter le ciel ?",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261110-7bd6dea8-th.jpg"
+    },
+    {
       "channel": "x",
       "at": "2026-11-10T08:20:57.836Z",
       "titre": "Géminides : jusqu’à 150 étoiles filantes à voir depuis les Landes",
@@ -527,28 +545,9 @@
       "format": null,
       "texte": "À Bayonne, la sieste des tout-petits se fait à l’air libre 👶\n⠀\nLa crèche Pyrène, au Pays basque, permet aux bébés de dormir dehors dans sa grande cour. Une habitude finlandaise qui trouve sa place au pied des Pyrénées.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bayonne #PaysBasque #PetiteEnfance",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261108-1c7b9a95-1.jpg"
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-11-08T08:29:56.403Z",
-      "titre": "Bayonne : cette crèche propose aux bébés de dormir dehors",
-      "lien": "https://passion-aquitaine.ouest-france.fr/bayonne-creche-bebes-sieste-dehors/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1780582450734302",
-      "format": null,
-      "texte": "Dans une crèche de Bayonne, les bébés font leur sieste dehors, comme le veut une habitude finlandaise 😴",
-      "image": null
     }
   ],
   "file": [
-    {
-      "channel": "threads",
-      "dueAt": "2026-11-10T10:11:28.642Z",
-      "prochainPassage": "2026-11-10T10:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Géminides : jusqu’à 150 étoiles filantes à voir depuis les Landes"
-    },
     {
       "channel": "instagram",
       "dueAt": "2026-11-10T12:25:43.805Z",
@@ -643,7 +642,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-10T08:20:47.106Z"
+    "derniere": "2026-11-10T10:00:41.386Z"
   },
   "abonnes": {
     "instagram": {
@@ -682,7 +681,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-10T09:20:39.276Z",
+    "genereLe": "2026-11-10T10:15:45.894Z",
     "posts": 39,
     "parReseau": {
       "instagram": {
@@ -848,7 +847,7 @@
       }
     },
     "publies": {
-      "threads": 10,
+      "threads": 11,
       "facebook": 11,
       "bluesky": 11,
       "x": 11,

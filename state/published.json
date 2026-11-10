@@ -6371,5 +6371,41 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36052",
+    "channel": "bluesky",
+    "at": "2026-11-10T08:08:25.135Z",
+    "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mzwyelzrxy2d",
+    "titre": "Géminides : jusqu’à 150 étoiles filantes à voir depuis les Landes",
+    "lien": "https://passion-aquitaine.ouest-france.fr/geminides-2026-etoiles-filantes-landes/",
+    "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mzwyelzrxy2d",
+    "format": "image",
+    "mention": false,
+    "apercu": {
+      "texte": "Des traînées de lumière qui strient la nuit au-dessus des pins des #Landes 🌲 Le 13 décembre, les Géminides pourraient offrir jusqu’à 150 étoiles filantes par heure, à admirer depuis une réserve de ciel étoilé en pleine forêt.\n➡️ Lire l’article",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261110-7bd6dea8-bsky.jpg",
+      "mode": "image",
+      "reponse": null,
+      "sujet": null
+    }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36052",
+    "channel": "facebook",
+    "at": "2026-11-10T08:13:23.890Z",
+    "mediaId": "227437307428711_1782949707164243",
+    "titre": "Géminides : jusqu’à 150 étoiles filantes à voir depuis les Landes",
+    "lien": "https://passion-aquitaine.ouest-france.fr/geminides-2026-etoiles-filantes-landes/",
+    "lienPost": "https://www.facebook.com/1720946116697936/posts/1782949707164243",
+    "format": null,
+    "mention": false,
+    "apercu": {
+      "texte": "Au cœur de la forêt landaise se cache une réserve de ciel étoilé, idéale pour guetter les Géminides 🌠",
+      "image": null,
+      "mode": null,
+      "reponse": null,
+      "sujet": null
+    }
   }
 ]

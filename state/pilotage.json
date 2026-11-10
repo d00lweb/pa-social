@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-10T12:03:19.558Z",
+  "genereLe": "2026-11-10T12:21:29.545Z",
   "jour": "2026-11-10",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 8,
-      "total": 75,
-      "dernier": "2026-11-09T12:14:39.741Z",
-      "lienDernier": "https://www.instagram.com/p/DfhTo86mFsu/"
+      "aujourdhui": 1,
+      "semaine": 9,
+      "total": 76,
+      "dernier": "2026-11-10T12:26:15.308Z",
+      "lienDernier": "https://www.instagram.com/p/Dfj5xC6F-gS/"
     },
     "bluesky": {
       "actif": true,
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36052",
       "titre": "Géminides : jusqu’à 150 étoiles filantes à voir depuis les Landes",
       "lien": "https://passion-aquitaine.ouest-france.fr/geminides-2026-etoiles-filantes-landes/",
-      "at": "2026-11-10T10:15:42.556Z",
+      "at": "2026-11-10T12:26:15.308Z",
       "reseaux": {
         "bluesky": {
           "texte": "Des traînées de lumière qui strient la nuit au-dessus des pins des #Landes 🌲 Le 13 décembre, les Géminides pourraient offrir jusqu’à 150 étoiles filantes par heure, à admirer depuis une réserve de ciel étoilé en pleine forêt.\n➡️ Lire l’article",
@@ -201,6 +201,14 @@
           "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/geminides-2026-etoiles-filantes-landes/",
           "sujet": "Landes",
           "publieLe": "2026-11-10T10:15:42.556Z"
+        },
+        "instagram": {
+          "texte": "Jusqu’à 150 étoiles filantes par heure : la nuit du 13 décembre, les Landes offrent un spectacle rare\n⠀\nLa pluie des Géminides se savoure loin des lumières de la ville. En pleine forêt landaise, une réserve de ciel étoilé vous attend pour lever les yeux ☄️\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Landes #Geminides #EtoilesFilantes",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261110-7bd6dea8-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-10T12:26:15.308Z"
         }
       }
     },
@@ -447,6 +455,16 @@
   ],
   "publications": [
     {
+      "channel": "instagram",
+      "at": "2026-11-10T12:26:15.308Z",
+      "titre": "Géminides : jusqu’à 150 étoiles filantes à voir depuis les Landes",
+      "lien": "https://passion-aquitaine.ouest-france.fr/geminides-2026-etoiles-filantes-landes/",
+      "lienPost": "https://www.instagram.com/p/Dfj5xC6F-gS/",
+      "format": null,
+      "texte": "Jusqu’à 150 étoiles filantes par heure : la nuit du 13 décembre, les Landes offrent un spectacle rare\n⠀\nLa pluie des Géminides se savoure loin des lumières de la ville. En pleine forêt landaise, une réserve de ciel étoilé vous attend pour lever les yeux ☄️\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Landes #Geminides #EtoilesFilantes",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261110-7bd6dea8-1.jpg"
+    },
+    {
       "channel": "threads",
       "at": "2026-11-10T10:15:42.556Z",
       "titre": "Géminides : jusqu’à 150 étoiles filantes à voir depuis les Landes",
@@ -535,32 +553,12 @@
       "format": "reponse",
       "texte": "Imaginez un moteur qui inspire l’air comme un poumon avant de propulser son engin vers le ciel. C’est l’idée de SHADow, développé au Haillan par la start-up HyPrSpace. Là où les fusées emportent leur réserve d’oxygène, lui irait la chercher autour de lui 🌌",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261109-4d9875c5-th.jpg"
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-11-08T12:04:30.848Z",
-      "titre": "Bayonne : cette crèche propose aux bébés de dormir dehors",
-      "lien": "https://passion-aquitaine.ouest-france.fr/bayonne-creche-bebes-sieste-dehors/",
-      "lienPost": "https://www.instagram.com/p/Dfetr1KF6oZ/",
-      "format": null,
-      "texte": "À Bayonne, la sieste des tout-petits se fait à l’air libre 👶\n⠀\nLa crèche Pyrène, au Pays basque, permet aux bébés de dormir dehors dans sa grande cour. Une habitude finlandaise qui trouve sa place au pied des Pyrénées.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bayonne #PaysBasque #PetiteEnfance",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261108-1c7b9a95-1.jpg"
     }
   ],
-  "file": [
-    {
-      "channel": "instagram",
-      "dueAt": "2026-11-10T12:25:43.805Z",
-      "prochainPassage": "2026-11-10T13:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Géminides : jusqu’à 150 étoiles filantes à voir depuis les Landes"
-    }
-  ],
+  "file": [],
   "alertes": [],
   "mesures": {
-    "releves": 546,
+    "releves": 547,
     "parReseau": {
       "instagram": {
         "posts": 67,
@@ -681,12 +679,12 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-10T12:03:24.415Z",
-    "posts": 39,
+    "genereLe": "2026-11-10T12:26:18.171Z",
+    "posts": 40,
     "parReseau": {
       "instagram": {
-        "posts": 9,
-        "moyenne": 5.7
+        "posts": 10,
+        "moyenne": 5.5
       },
       "threads": {
         "posts": 10,
@@ -721,7 +719,7 @@
     },
     "parCreneau": {
       "après-midi": {
-        "posts": 10,
+        "posts": 11,
         "moyenne": 4.5
       },
       "matin": {
@@ -782,8 +780,8 @@
       },
       "instagram": {
         "12 h – 13 h 30": {
-          "posts": 7,
-          "moyenne": 6.3
+          "posts": 8,
+          "moyenne": 6
         },
         "hors créneau": {
           "posts": 1,
@@ -795,7 +793,7 @@
         }
       }
     },
-    "interactionsTotal": 97,
+    "interactionsTotal": 101,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36056",
       "channel": "threads",
@@ -838,8 +836,8 @@
     },
     "mentions": {
       "avec": {
-        "posts": 16,
-        "moyenne": 5.7
+        "posts": 17,
+        "moyenne": 5.6
       },
       "sans": {
         "posts": 23,
@@ -851,7 +849,7 @@
       "facebook": 11,
       "bluesky": 11,
       "x": 11,
-      "instagram": 10
+      "instagram": 11
     },
     "abonnes": {
       "instagram": {
@@ -889,14 +887,14 @@
       "x": null
     },
     "engagement": {
-      "instagram": 0.06,
+      "instagram": 0.05,
       "threads": 0.4,
       "facebook": 0
     },
     "conseils": [
       "Le format « reponse » fait 46 fois mieux que « reply » (4.6 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « reply » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+5, +0,4 %) ; Facebook recule (−10), à surveiller.",
-      "Les posts avec mention font 5.4 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
+      "Les posts avec mention font 5.3 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
     ]
   },
   "couts": {

@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-10T08:20:47.106Z",
+  "genereLe": "2026-11-10T09:00:39.188Z",
   "jour": "2026-11-10",
   "reseaux": {
     "instagram": {
@@ -561,7 +561,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 545,
+    "releves": 546,
     "parReseau": {
       "instagram": {
         "posts": 67,
@@ -682,8 +682,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-10T08:21:09.301Z",
-    "posts": 38,
+    "genereLe": "2026-11-10T09:00:44.637Z",
+    "posts": 39,
     "parReseau": {
       "instagram": {
         "posts": 9,
@@ -694,7 +694,7 @@
         "moyenne": 4.6
       },
       "facebook": {
-        "posts": 9,
+        "posts": 10,
         "moyenne": 0
       },
       "bluesky": {
@@ -726,8 +726,8 @@
         "moyenne": 4.5
       },
       "matin": {
-        "posts": 19,
-        "moyenne": 2.3
+        "posts": 20,
+        "moyenne": 2.2
       },
       "soir": {
         "posts": 9,
@@ -755,7 +755,7 @@
       },
       "facebook": {
         "8 h – 9 h 30": {
-          "posts": 5,
+          "posts": 6,
           "moyenne": 0
         },
         "20 h – 21 h 30": {
@@ -819,11 +819,11 @@
     },
     "moinsBon": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36054",
-      "channel": "bluesky",
-      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mzui6sn4lc2f",
-      "publieLe": "2026-11-09T08:13:31.196Z",
+      "channel": "facebook",
+      "mediaId": "227437307428711_1781785397280674",
+      "publieLe": "2026-11-09T08:24:10.252Z",
       "jalon": 1,
-      "releveLe": "2026-11-10T08:20:47.106Z",
+      "releveLe": "2026-11-10T09:00:39.188Z",
       "likes": 0,
       "commentairesBruts": 0,
       "partages": 0,
@@ -831,8 +831,8 @@
       "commentaires": 0,
       "v": 2,
       "titre": "Gironde : une start-up spatiale invente un moteur qui « respire »",
-      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mzui6sn4lc2f",
-      "format": "card",
+      "lien": "https://www.facebook.com/1720946116697936/posts/1781785397280674",
+      "format": null,
       "mention": false,
       "creneau": "matin",
       "creneauReseau": "8 h – 9 h 30"
@@ -843,7 +843,7 @@
         "moyenne": 5.7
       },
       "sans": {
-        "posts": 22,
+        "posts": 23,
         "moyenne": 0.3
       }
     },

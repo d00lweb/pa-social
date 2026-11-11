@@ -1,12 +1,12 @@
 {
   "2026-11": {
     "cle": "2026-11",
-    "publications": 64,
+    "publications": 65,
     "articles": 13,
-    "interactions": 102,
+    "interactions": 121,
     "parReseau": {
       "facebook": 13,
-      "instagram": 12,
+      "instagram": 13,
       "x": 13,
       "threads": 13,
       "bluesky": 13
@@ -35,6 +35,13 @@
       },
       {
         "reseau": "instagram",
+        "titre": "Géminides : jusqu’à 150 étoiles filantes à voir depuis les Landes",
+        "lien": "https://www.instagram.com/p/Dfj5xC6F-gS/",
+        "image": "https://passion-aquitaine.ouest-france.fr/social/20261110-7bd6dea8-1-vignette.jpg",
+        "interactions": 19
+      },
+      {
+        "reseau": "instagram",
         "titre": "Marché de Noël de Bruxelles : le Pays basque et le Béarn invités",
         "lien": "https://www.instagram.com/p/DfPRi5qjFR1/",
         "image": "https://passion-aquitaine.ouest-france.fr/social/20261102-116575f8-1-vignette.jpg",
@@ -46,13 +53,6 @@
         "lien": "https://www.instagram.com/p/DfR4f94F5_R/",
         "image": "https://passion-aquitaine.ouest-france.fr/social/20261103-3e179b3c-1-vignette.jpg",
         "interactions": 6
-      },
-      {
-        "reseau": "instagram",
-        "titre": "Bordeaux : Ublo, l’ex-Iboat, rouvre ses portes ce week-end",
-        "lien": "https://www.instagram.com/p/DfVUaJLDSRn/",
-        "image": "https://passion-aquitaine.ouest-france.fr/social/20261104-badf7c8c-1-vignette.jpg",
-        "interactions": 5
       }
     ]
   },

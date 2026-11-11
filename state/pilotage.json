@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-11T11:00:33.963Z",
+  "genereLe": "2026-11-11T11:20:33.384Z",
   "jour": "2026-11-11",
   "reseaux": {
     "instagram": {
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 1,
-      "semaine": 8,
-      "total": 72,
-      "dernier": "2026-11-11T08:07:43.352Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1784192210373326"
+      "aujourdhui": 2,
+      "semaine": 9,
+      "total": 73,
+      "dernier": "2026-11-11T11:30:03.793Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1784378303688050"
     },
     "threads": {
       "actif": true,
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36123",
       "titre": "France-Turquie : le 8e match des Bleus en Gironde sera une grande première",
       "lien": "https://passion-aquitaine.ouest-france.fr/france-turquie-bordeaux-matches-bleus/",
-      "at": "2026-11-11T11:05:05.084Z",
+      "at": "2026-11-11T11:30:03.793Z",
       "reseaux": {
         "instagram": {
           "texte": "Les Bleus ont déjà joué sept fois à Bordeaux : vous vous souvenez de ces matches ?\n⠀\nAvant France-Turquie le dimanche 15 novembre, retour sur l’histoire de l’équipe de France en Gironde. Ce 8e rendez-vous sera une grande première ⚽\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #EquipeDeFrance #FranceTurquie",
@@ -193,6 +193,14 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-11-11T11:05:05.084Z"
+        },
+        "facebook": {
+          "texte": "Sept matches des Bleus à Bordeaux avant celui-ci, et le huitième, face à la Turquie, sera une grande première ⚽",
+          "image": null,
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-11T11:30:03.793Z"
         }
       }
     },
@@ -431,6 +439,16 @@
   ],
   "publications": [
     {
+      "channel": "facebook",
+      "at": "2026-11-11T11:30:03.793Z",
+      "titre": "France-Turquie : le 8e match des Bleus en Gironde sera une grande première",
+      "lien": "https://passion-aquitaine.ouest-france.fr/france-turquie-bordeaux-matches-bleus/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1784378303688050",
+      "format": null,
+      "texte": "Sept matches des Bleus à Bordeaux avant celui-ci, et le huitième, face à la Turquie, sera une grande première ⚽",
+      "image": null
+    },
+    {
       "channel": "bluesky",
       "at": "2026-11-11T11:05:05.084Z",
       "titre": "France-Turquie : le 8e match des Bleus en Gironde sera une grande première",
@@ -519,28 +537,9 @@
       "format": "reponse",
       "texte": "Où regarder la plus belle pluie d’étoiles filantes de l’année ? Dans les Landes, une réserve de ciel étoilé se niche en pleine forêt. Et la date à retenir, c’est le 13 décembre : ✨ les Géminides pourraient y offrir jusqu’à 150 étoiles filantes par heure. Vous avez déjà passé une nuit à guetter le ciel ?",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261110-7bd6dea8-th.jpg"
-    },
-    {
-      "channel": "x",
-      "at": "2026-11-10T08:20:57.836Z",
-      "titre": "Géminides : jusqu’à 150 étoiles filantes à voir depuis les Landes",
-      "lien": "https://passion-aquitaine.ouest-france.fr/geminides-2026-etoiles-filantes-landes/",
-      "lienPost": null,
-      "format": "reponse",
-      "texte": "Jusqu’à 150 étoiles filantes par heure : les Géminides culminent le 13 décembre, et une réserve de ciel étoilé en pleine forêt landaise promet un poste d’observation idéal 💫",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261110-7bd6dea8-x.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "facebook",
-      "dueAt": "2026-11-11T11:29:54.798Z",
-      "prochainPassage": "2026-11-11T12:00:00.000Z",
-      "nature": "actu_chaude",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "France-Turquie : le 8e match des Bleus en Gironde sera une grande première"
-    },
     {
       "channel": "threads",
       "dueAt": "2026-11-11T12:12:27.753Z",
@@ -683,7 +682,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-11T11:05:12.435Z",
+    "genereLe": "2026-11-11T11:30:05.798Z",
     "posts": 43,
     "parReseau": {
       "instagram": {
@@ -850,7 +849,7 @@
     },
     "publies": {
       "threads": 12,
-      "facebook": 12,
+      "facebook": 13,
       "bluesky": 13,
       "x": 13,
       "instagram": 12

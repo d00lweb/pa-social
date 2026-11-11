@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-11T09:20:32.828Z",
+  "genereLe": "2026-11-11T10:00:44.486Z",
   "jour": "2026-11-11",
   "reseaux": {
     "instagram": {
@@ -122,11 +122,11 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 7,
-      "total": 71,
-      "dernier": "2026-11-10T10:15:42.556Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DfjqX47Ebi9"
+      "aujourdhui": 1,
+      "semaine": 8,
+      "total": 72,
+      "dernier": "2026-11-11T10:10:22.714Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DfmOtzjG95d"
     },
     "x": {
       "actif": true,
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36140",
       "titre": "Maisons fissurées : 4 villages girondins ont jusqu’au 22 novembre",
       "lien": "https://passion-aquitaine.ouest-france.fr/gironde-maisons-fissurees-catastrophe-naturelle/",
-      "at": "2026-11-11T09:00:40.460Z",
+      "at": "2026-11-11T10:10:22.714Z",
       "reseaux": {
         "facebook": {
           "texte": "Votre maison est fissurée et vous habitez l’un de ces quatre villages girondins : avez-vous pensé à le déclarer à temps ⏳",
@@ -193,6 +193,14 @@
           "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/gironde-maisons-fissurees-catastrophe-naturelle/",
           "sujet": null,
           "publieLe": "2026-11-11T09:00:40.460Z"
+        },
+        "threads": {
+          "texte": "🏚️ Camarsac, Coimères, Saint-Jean-de-Blaignac, Saint-Laurent-du-Bois : si vous vivez dans l’une de ces communes de Gironde et que vos murs se fissurent, le calendrier presse. Les habitants concernés ont jusqu’au 22 novembre pour faire leur déclaration. Mieux vaut ne pas laisser filer la date.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261111-31894d88-th.jpg",
+          "mode": "reponse",
+          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/gironde-maisons-fissurees-catastrophe-naturelle/",
+          "sujet": "Camarsac",
+          "publieLe": "2026-11-11T10:10:22.714Z"
         }
       }
     },
@@ -439,6 +447,16 @@
   ],
   "publications": [
     {
+      "channel": "threads",
+      "at": "2026-11-11T10:10:22.714Z",
+      "titre": "Maisons fissurées : 4 villages girondins ont jusqu’au 22 novembre",
+      "lien": "https://passion-aquitaine.ouest-france.fr/gironde-maisons-fissurees-catastrophe-naturelle/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/DfmOtzjG95d",
+      "format": "reponse",
+      "texte": "🏚️ Camarsac, Coimères, Saint-Jean-de-Blaignac, Saint-Laurent-du-Bois : si vous vivez dans l’une de ces communes de Gironde et que vos murs se fissurent, le calendrier presse. Les habitants concernés ont jusqu’au 22 novembre pour faire leur déclaration. Mieux vaut ne pas laisser filer la date.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261111-31894d88-th.jpg"
+    },
+    {
       "channel": "x",
       "at": "2026-11-11T09:00:40.460Z",
       "titre": "Maisons fissurées : 4 villages girondins ont jusqu’au 22 novembre",
@@ -527,35 +545,61 @@
       "format": null,
       "texte": "🚀 Un moteur de fusée qui respire l’air ambiant : c’est le pari d’une start-up girondine.\n⠀\nAu Haillan, HyPrSpace développe SHADow. Là où une fusée emporte son oxygène, ce moteur irait le puiser directement dans l’air.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Gironde #Spatial #Innovation",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261109-4d9875c5-1.jpg"
-    },
-    {
-      "channel": "x",
-      "at": "2026-11-09T09:20:46.285Z",
-      "titre": "Gironde : une start-up spatiale invente un moteur qui « respire »",
-      "lien": "https://passion-aquitaine.ouest-france.fr/gironde-hyprspace-moteur-oxygene-air/",
-      "lienPost": null,
-      "format": "reponse",
-      "texte": "🔭 Et si un moteur spatial n’avait plus besoin d’emporter son oxygène ? Au Haillan, HyPrSpace développe SHADow, conçu pour le puiser dans l’air.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261109-4d9875c5-x.jpg"
     }
   ],
   "file": [
     {
-      "channel": "threads",
-      "dueAt": "2026-11-11T10:07:30.112Z",
-      "prochainPassage": "2026-11-11T10:20:00.000Z",
+      "channel": "instagram",
+      "dueAt": "2026-11-11T10:24:02.596Z",
+      "prochainPassage": "2026-11-11T11:00:00.000Z",
       "nature": "actu_chaude",
       "prevuInitialement": null,
       "raison": null,
-      "titre": "Maisons fissurées : 4 villages girondins ont jusqu’au 22 novembre"
+      "titre": "France-Turquie : le 8e match des Bleus en Gironde sera une grande première"
     },
     {
-      "channel": "instagram",
-      "dueAt": "2026-11-11T11:03:00.656Z",
+      "channel": "x",
+      "dueAt": "2026-11-11T11:00:00.000Z",
+      "prochainPassage": "2026-11-11T11:00:00.000Z",
+      "nature": "actu_chaude",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "France-Turquie : le 8e match des Bleus en Gironde sera une grande première"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-11-11T11:05:02.441Z",
       "prochainPassage": "2026-11-11T11:20:00.000Z",
       "nature": "actu_chaude",
       "prevuInitialement": null,
       "raison": null,
+      "titre": "France-Turquie : le 8e match des Bleus en Gironde sera une grande première"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-11-11T11:29:54.798Z",
+      "prochainPassage": "2026-11-11T12:00:00.000Z",
+      "nature": "actu_chaude",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "France-Turquie : le 8e match des Bleus en Gironde sera une grande première"
+    },
+    {
+      "channel": "threads",
+      "dueAt": "2026-11-11T12:12:27.753Z",
+      "prochainPassage": "2026-11-11T12:20:00.000Z",
+      "nature": "actu_chaude",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "France-Turquie : le 8e match des Bleus en Gironde sera une grande première"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-11-11T13:07:19.807Z",
+      "prochainPassage": "2026-11-11T13:20:00.000Z",
+      "nature": "actu_chaude",
+      "prevuInitialement": "2026-11-11T11:03:00.656Z",
+      "raison": "trop proche du post précédent",
       "titre": "Maisons fissurées : 4 villages girondins ont jusqu’au 22 novembre"
     }
   ],
@@ -682,7 +726,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-11T09:20:37.358Z",
+    "genereLe": "2026-11-11T10:10:25.028Z",
     "posts": 42,
     "parReseau": {
       "instagram": {
@@ -848,7 +892,7 @@
       }
     },
     "publies": {
-      "threads": 11,
+      "threads": 12,
       "facebook": 12,
       "bluesky": 12,
       "x": 12,
@@ -902,29 +946,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 4,
-      "entree": 32027,
-      "sortie": 3650,
-      "cout": 0.201108,
+      "appels": 5,
+      "entree": 40044,
+      "sortie": 4525,
+      "cout": 0.250676,
       "cle": "2026-11-11"
     },
     "semaine": {
-      "appels": 14,
-      "entree": 111780,
-      "sortie": 12241,
-      "cout": 0.69194
+      "appels": 15,
+      "entree": 119797,
+      "sortie": 13116,
+      "cout": 0.7415080000000001
     },
     "mois": {
-      "appels": 40,
-      "entree": 319515,
-      "sortie": 35796,
-      "cout": 1.99398,
+      "appels": 41,
+      "entree": 327532,
+      "sortie": 36671,
+      "cout": 2.043548,
       "cle": "2026-11"
     },
-    "projection": 5.44,
+    "projection": 5.57,
     "moyenneAppel": 0.0498,
     "parModele": {
-      "claude-opus-5-5": 40
+      "claude-opus-5-5": 41
     },
     "serie": [
       [
@@ -981,7 +1025,7 @@
       ],
       [
         "2026-11-11",
-        0.2011
+        0.2507
       ]
     ],
     "depuis": "2026-09-23"

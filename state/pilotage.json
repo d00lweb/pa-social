@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-11T07:00:44.379Z",
+  "genereLe": "2026-11-11T07:20:36.437Z",
   "jour": "2026-11-11",
   "reseaux": {
     "instagram": {
@@ -555,7 +555,53 @@
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261109-4d9875c5-th.jpg"
     }
   ],
-  "file": [],
+  "file": [
+    {
+      "channel": "facebook",
+      "dueAt": "2026-11-11T08:07:33.798Z",
+      "prochainPassage": "2026-11-11T08:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Maisons fissurées : 4 villages girondins ont jusqu’au 22 novembre"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-11-11T08:28:47.386Z",
+      "prochainPassage": "2026-11-11T09:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Maisons fissurées : 4 villages girondins ont jusqu’au 22 novembre"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-11-11T09:00:00.000Z",
+      "prochainPassage": "2026-11-11T09:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Maisons fissurées : 4 villages girondins ont jusqu’au 22 novembre"
+    },
+    {
+      "channel": "threads",
+      "dueAt": "2026-11-11T10:07:30.112Z",
+      "prochainPassage": "2026-11-11T10:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Maisons fissurées : 4 villages girondins ont jusqu’au 22 novembre"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-11-11T11:03:00.656Z",
+      "prochainPassage": "2026-11-11T11:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Maisons fissurées : 4 villages girondins ont jusqu’au 22 novembre"
+    }
+  ],
   "alertes": [],
   "mesures": {
     "releves": 548,
@@ -679,7 +725,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-11T07:00:49.206Z",
+    "genereLe": "2026-11-11T07:21:12.440Z",
     "posts": 40,
     "parReseau": {
       "instagram": {
@@ -899,29 +945,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 0,
-      "entree": 0,
-      "sortie": 0,
-      "cout": 0,
+      "appels": 3,
+      "entree": 23993,
+      "sortie": 2722,
+      "cout": 0.150412,
       "cle": "2026-11-11"
     },
     "semaine": {
-      "appels": 10,
-      "entree": 79753,
-      "sortie": 8591,
-      "cout": 0.490832
+      "appels": 13,
+      "entree": 103746,
+      "sortie": 11313,
+      "cout": 0.641244
     },
     "mois": {
-      "appels": 36,
-      "entree": 287488,
-      "sortie": 32146,
-      "cout": 1.792872,
+      "appels": 39,
+      "entree": 311481,
+      "sortie": 34868,
+      "cout": 1.943284,
       "cle": "2026-11"
     },
-    "projection": 4.89,
+    "projection": 5.3,
     "moyenneAppel": 0.0498,
     "parModele": {
-      "claude-opus-5-5": 36
+      "claude-opus-5-5": 39
     },
     "serie": [
       [
@@ -978,7 +1024,7 @@
       ],
       [
         "2026-11-11",
-        0
+        0.1504
       ]
     ],
     "depuis": "2026-09-23"

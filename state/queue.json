@@ -1,1 +1,382 @@
-[]
+[
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36140",
+    "channel": "instagram",
+    "dueAt": 1794394980656,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Maisons fissurées : 4 villages girondins ont jusqu’au 22 novembre",
+      "link": "https://passion-aquitaine.ouest-france.fr/gironde-maisons-fissurees-catastrophe-naturelle/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36140",
+      "pubDate": "Wed, 11 Nov 2026 07:08:10 +0000",
+      "date": 1794380890000,
+      "categories": [
+        "Actus",
+        "Économie",
+        "Gironde"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/maison-fissuree-gironde.jpg",
+      "description": "Camarsac, Coimères, Saint-Jean-de-Blaignac, Saint-Laurent-du-Bois : leurs habitants ont jusqu’au 22 novembre pour déclarer."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Bordeaux",
+      "entites": [],
+      "lieu": {
+        "id": "115838035093755",
+        "nom": "Bordeaux",
+        "niveau": "departement"
+      },
+      "visuel": {
+        "titre": "Maisons fissurées : 4 villages girondins ont jusqu’au 22 novembre",
+        "surlignage": "4 villages",
+        "description": "Camarsac, Coimères, Saint-Jean-de-Blaignac, Saint-Laurent-du-Bois : leurs habitants ont jusqu’au 22 novembre pour déclarer.",
+        "texte_alternatif": "Bordeaux : Maisons fissurées : 4 villages girondins ont jusqu’au 22 novembre"
+      },
+      "instagram": {
+        "texte": "Camarsac, Coimères, Saint-Jean-de-Blaignac, Saint-Laurent-du-Bois : leurs habitants ont jusqu’au 22 novembre pour déclarer 🏛️",
+        "hashtags": [
+          "#Bordeaux",
+          "#Patrimoine",
+          "#NouvelleAquitaine"
+        ]
+      },
+      "facebook": {
+        "texte": "Camarsac, Coimères, Saint-Jean-de-Blaignac, Saint-Laurent-du-Bois : leurs habitants ont jusqu’au pour déclarer 🏛️"
+      },
+      "bluesky": {
+        "texte": "Camarsac, Coimères, Saint-Jean-de-Blaignac, Saint-Laurent-du-Bois : leurs habitants ont jusqu’au 22 novembre pour déclarer 🏛️",
+        "hashtag": "#Bordeaux"
+      },
+      "threads": {
+        "texte": "Camarsac, Coimères, Saint-Jean-de-Blaignac, Saint-Laurent-du-Bois : leurs habitants ont jusqu’au 22 novembre pour déclarer 🏛️",
+        "sujet": "Bordeaux"
+      },
+      "x": {
+        "texte": "Camarsac, Coimères, Saint-Jean-de-Blaignac, Saint-Laurent-du-Bois : leurs habitants ont jusqu’au pour déclarer 🏛️"
+      },
+      "source": "regles",
+      "lieuSource": {
+        "precis": "",
+        "ville": "",
+        "departement": "Bordeaux"
+      },
+      "lieuNom": "Bordeaux",
+      "commune": null,
+      "comptes": {
+        "instagram": [],
+        "x": [],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36140",
+    "channel": "bluesky",
+    "dueAt": 1794385727386,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Maisons fissurées : 4 villages girondins ont jusqu’au 22 novembre",
+      "link": "https://passion-aquitaine.ouest-france.fr/gironde-maisons-fissurees-catastrophe-naturelle/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36140",
+      "pubDate": "Wed, 11 Nov 2026 07:08:10 +0000",
+      "date": 1794380890000,
+      "categories": [
+        "Actus",
+        "Économie",
+        "Gironde"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/maison-fissuree-gironde.jpg",
+      "description": "Camarsac, Coimères, Saint-Jean-de-Blaignac, Saint-Laurent-du-Bois : leurs habitants ont jusqu’au 22 novembre pour déclarer."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Bordeaux",
+      "entites": [],
+      "lieu": {
+        "id": "115838035093755",
+        "nom": "Bordeaux",
+        "niveau": "departement"
+      },
+      "visuel": {
+        "titre": "Maisons fissurées : 4 villages girondins ont jusqu’au 22 novembre",
+        "surlignage": "4 villages",
+        "description": "Camarsac, Coimères, Saint-Jean-de-Blaignac, Saint-Laurent-du-Bois : leurs habitants ont jusqu’au 22 novembre pour déclarer.",
+        "texte_alternatif": "Bordeaux : Maisons fissurées : 4 villages girondins ont jusqu’au 22 novembre"
+      },
+      "instagram": {
+        "texte": "Camarsac, Coimères, Saint-Jean-de-Blaignac, Saint-Laurent-du-Bois : leurs habitants ont jusqu’au 22 novembre pour déclarer 🏛️",
+        "hashtags": [
+          "#Bordeaux",
+          "#Patrimoine",
+          "#NouvelleAquitaine"
+        ]
+      },
+      "facebook": {
+        "texte": "Camarsac, Coimères, Saint-Jean-de-Blaignac, Saint-Laurent-du-Bois : leurs habitants ont jusqu’au pour déclarer 🏛️"
+      },
+      "bluesky": {
+        "texte": "Camarsac, Coimères, Saint-Jean-de-Blaignac, Saint-Laurent-du-Bois : leurs habitants ont jusqu’au 22 novembre pour déclarer 🏛️",
+        "hashtag": "#Bordeaux"
+      },
+      "threads": {
+        "texte": "Camarsac, Coimères, Saint-Jean-de-Blaignac, Saint-Laurent-du-Bois : leurs habitants ont jusqu’au 22 novembre pour déclarer 🏛️",
+        "sujet": "Bordeaux"
+      },
+      "x": {
+        "texte": "Camarsac, Coimères, Saint-Jean-de-Blaignac, Saint-Laurent-du-Bois : leurs habitants ont jusqu’au pour déclarer 🏛️"
+      },
+      "source": "regles",
+      "lieuSource": {
+        "precis": "",
+        "ville": "",
+        "departement": "Bordeaux"
+      },
+      "lieuNom": "Bordeaux",
+      "commune": null,
+      "comptes": {
+        "instagram": [],
+        "x": [],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36140",
+    "channel": "facebook",
+    "dueAt": 1794384453798,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Maisons fissurées : 4 villages girondins ont jusqu’au 22 novembre",
+      "link": "https://passion-aquitaine.ouest-france.fr/gironde-maisons-fissurees-catastrophe-naturelle/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36140",
+      "pubDate": "Wed, 11 Nov 2026 07:08:10 +0000",
+      "date": 1794380890000,
+      "categories": [
+        "Actus",
+        "Économie",
+        "Gironde"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/maison-fissuree-gironde.jpg",
+      "description": "Camarsac, Coimères, Saint-Jean-de-Blaignac, Saint-Laurent-du-Bois : leurs habitants ont jusqu’au 22 novembre pour déclarer."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Bordeaux",
+      "entites": [],
+      "lieu": {
+        "id": "115838035093755",
+        "nom": "Bordeaux",
+        "niveau": "departement"
+      },
+      "visuel": {
+        "titre": "Maisons fissurées : 4 villages girondins ont jusqu’au 22 novembre",
+        "surlignage": "4 villages",
+        "description": "Camarsac, Coimères, Saint-Jean-de-Blaignac, Saint-Laurent-du-Bois : leurs habitants ont jusqu’au 22 novembre pour déclarer.",
+        "texte_alternatif": "Bordeaux : Maisons fissurées : 4 villages girondins ont jusqu’au 22 novembre"
+      },
+      "instagram": {
+        "texte": "Camarsac, Coimères, Saint-Jean-de-Blaignac, Saint-Laurent-du-Bois : leurs habitants ont jusqu’au 22 novembre pour déclarer 🏛️",
+        "hashtags": [
+          "#Bordeaux",
+          "#Patrimoine",
+          "#NouvelleAquitaine"
+        ]
+      },
+      "facebook": {
+        "texte": "Camarsac, Coimères, Saint-Jean-de-Blaignac, Saint-Laurent-du-Bois : leurs habitants ont jusqu’au pour déclarer 🏛️"
+      },
+      "bluesky": {
+        "texte": "Camarsac, Coimères, Saint-Jean-de-Blaignac, Saint-Laurent-du-Bois : leurs habitants ont jusqu’au 22 novembre pour déclarer 🏛️",
+        "hashtag": "#Bordeaux"
+      },
+      "threads": {
+        "texte": "Camarsac, Coimères, Saint-Jean-de-Blaignac, Saint-Laurent-du-Bois : leurs habitants ont jusqu’au 22 novembre pour déclarer 🏛️",
+        "sujet": "Bordeaux"
+      },
+      "x": {
+        "texte": "Camarsac, Coimères, Saint-Jean-de-Blaignac, Saint-Laurent-du-Bois : leurs habitants ont jusqu’au pour déclarer 🏛️"
+      },
+      "source": "regles",
+      "lieuSource": {
+        "precis": "",
+        "ville": "",
+        "departement": "Bordeaux"
+      },
+      "lieuNom": "Bordeaux",
+      "commune": null,
+      "comptes": {
+        "instagram": [],
+        "x": [],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36140",
+    "channel": "threads",
+    "dueAt": 1794391650112,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Maisons fissurées : 4 villages girondins ont jusqu’au 22 novembre",
+      "link": "https://passion-aquitaine.ouest-france.fr/gironde-maisons-fissurees-catastrophe-naturelle/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36140",
+      "pubDate": "Wed, 11 Nov 2026 07:08:10 +0000",
+      "date": 1794380890000,
+      "categories": [
+        "Actus",
+        "Économie",
+        "Gironde"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/maison-fissuree-gironde.jpg",
+      "description": "Camarsac, Coimères, Saint-Jean-de-Blaignac, Saint-Laurent-du-Bois : leurs habitants ont jusqu’au 22 novembre pour déclarer."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Bordeaux",
+      "entites": [],
+      "lieu": {
+        "id": "115838035093755",
+        "nom": "Bordeaux",
+        "niveau": "departement"
+      },
+      "visuel": {
+        "titre": "Maisons fissurées : 4 villages girondins ont jusqu’au 22 novembre",
+        "surlignage": "4 villages",
+        "description": "Camarsac, Coimères, Saint-Jean-de-Blaignac, Saint-Laurent-du-Bois : leurs habitants ont jusqu’au 22 novembre pour déclarer.",
+        "texte_alternatif": "Bordeaux : Maisons fissurées : 4 villages girondins ont jusqu’au 22 novembre"
+      },
+      "instagram": {
+        "texte": "Camarsac, Coimères, Saint-Jean-de-Blaignac, Saint-Laurent-du-Bois : leurs habitants ont jusqu’au 22 novembre pour déclarer 🏛️",
+        "hashtags": [
+          "#Bordeaux",
+          "#Patrimoine",
+          "#NouvelleAquitaine"
+        ]
+      },
+      "facebook": {
+        "texte": "Camarsac, Coimères, Saint-Jean-de-Blaignac, Saint-Laurent-du-Bois : leurs habitants ont jusqu’au pour déclarer 🏛️"
+      },
+      "bluesky": {
+        "texte": "Camarsac, Coimères, Saint-Jean-de-Blaignac, Saint-Laurent-du-Bois : leurs habitants ont jusqu’au 22 novembre pour déclarer 🏛️",
+        "hashtag": "#Bordeaux"
+      },
+      "threads": {
+        "texte": "Camarsac, Coimères, Saint-Jean-de-Blaignac, Saint-Laurent-du-Bois : leurs habitants ont jusqu’au 22 novembre pour déclarer 🏛️",
+        "sujet": "Bordeaux"
+      },
+      "x": {
+        "texte": "Camarsac, Coimères, Saint-Jean-de-Blaignac, Saint-Laurent-du-Bois : leurs habitants ont jusqu’au pour déclarer 🏛️"
+      },
+      "source": "regles",
+      "lieuSource": {
+        "precis": "",
+        "ville": "",
+        "departement": "Bordeaux"
+      },
+      "lieuNom": "Bordeaux",
+      "commune": null,
+      "comptes": {
+        "instagram": [],
+        "x": [],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36140",
+    "channel": "x",
+    "dueAt": 1794387600000,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Maisons fissurées : 4 villages girondins ont jusqu’au 22 novembre",
+      "link": "https://passion-aquitaine.ouest-france.fr/gironde-maisons-fissurees-catastrophe-naturelle/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36140",
+      "pubDate": "Wed, 11 Nov 2026 07:08:10 +0000",
+      "date": 1794380890000,
+      "categories": [
+        "Actus",
+        "Économie",
+        "Gironde"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/maison-fissuree-gironde.jpg",
+      "description": "Camarsac, Coimères, Saint-Jean-de-Blaignac, Saint-Laurent-du-Bois : leurs habitants ont jusqu’au 22 novembre pour déclarer."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Bordeaux",
+      "entites": [],
+      "lieu": {
+        "id": "115838035093755",
+        "nom": "Bordeaux",
+        "niveau": "departement"
+      },
+      "visuel": {
+        "titre": "Maisons fissurées : 4 villages girondins ont jusqu’au 22 novembre",
+        "surlignage": "4 villages",
+        "description": "Camarsac, Coimères, Saint-Jean-de-Blaignac, Saint-Laurent-du-Bois : leurs habitants ont jusqu’au 22 novembre pour déclarer.",
+        "texte_alternatif": "Bordeaux : Maisons fissurées : 4 villages girondins ont jusqu’au 22 novembre"
+      },
+      "instagram": {
+        "texte": "Camarsac, Coimères, Saint-Jean-de-Blaignac, Saint-Laurent-du-Bois : leurs habitants ont jusqu’au 22 novembre pour déclarer 🏛️",
+        "hashtags": [
+          "#Bordeaux",
+          "#Patrimoine",
+          "#NouvelleAquitaine"
+        ]
+      },
+      "facebook": {
+        "texte": "Camarsac, Coimères, Saint-Jean-de-Blaignac, Saint-Laurent-du-Bois : leurs habitants ont jusqu’au pour déclarer 🏛️"
+      },
+      "bluesky": {
+        "texte": "Camarsac, Coimères, Saint-Jean-de-Blaignac, Saint-Laurent-du-Bois : leurs habitants ont jusqu’au 22 novembre pour déclarer 🏛️",
+        "hashtag": "#Bordeaux"
+      },
+      "threads": {
+        "texte": "Camarsac, Coimères, Saint-Jean-de-Blaignac, Saint-Laurent-du-Bois : leurs habitants ont jusqu’au 22 novembre pour déclarer 🏛️",
+        "sujet": "Bordeaux"
+      },
+      "x": {
+        "texte": "Camarsac, Coimères, Saint-Jean-de-Blaignac, Saint-Laurent-du-Bois : leurs habitants ont jusqu’au pour déclarer 🏛️"
+      },
+      "source": "regles",
+      "lieuSource": {
+        "precis": "",
+        "ville": "",
+        "departement": "Bordeaux"
+      },
+      "lieuNom": "Bordeaux",
+      "commune": null,
+      "comptes": {
+        "instagram": [],
+        "x": [],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  }
+]

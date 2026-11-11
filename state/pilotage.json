@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-11T10:00:44.486Z",
+  "genereLe": "2026-11-11T10:20:38.062Z",
   "jour": "2026-11-11",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 8,
-      "total": 76,
-      "dernier": "2026-11-10T12:26:15.308Z",
-      "lienDernier": "https://www.instagram.com/p/Dfj5xC6F-gS/"
+      "aujourdhui": 1,
+      "semaine": 9,
+      "total": 77,
+      "dernier": "2026-11-11T10:24:36.617Z",
+      "lienDernier": "https://www.instagram.com/p/DfmQoUEDfJK/"
     },
     "bluesky": {
       "actif": true,
@@ -164,6 +164,22 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36123",
+      "titre": "France-Turquie : le 8e match des Bleus en Gironde sera une grande première",
+      "lien": "https://passion-aquitaine.ouest-france.fr/france-turquie-bordeaux-matches-bleus/",
+      "at": "2026-11-11T10:24:36.617Z",
+      "reseaux": {
+        "instagram": {
+          "texte": "Les Bleus ont déjà joué sept fois à Bordeaux : vous vous souvenez de ces matches ?\n⠀\nAvant France-Turquie le dimanche 15 novembre, retour sur l’histoire de l’équipe de France en Gironde. Ce 8e rendez-vous sera une grande première ⚽\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #EquipeDeFrance #FranceTurquie",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261111-208fc27f-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-11T10:24:36.617Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36140",
       "titre": "Maisons fissurées : 4 villages girondins ont jusqu’au 22 novembre",
@@ -395,57 +411,19 @@
           "publieLe": "2026-11-07T19:14:59.246Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36004",
-      "titre": "Requins, crocodiliens, coquillages : pourquoi la mer recouvrait Amberre ?",
-      "lien": "https://passion-aquitaine.ouest-france.fr/faluns-amberre-mer-fossiles/",
-      "at": "2026-11-06T19:33:50.518Z",
-      "reseaux": {
-        "threads": {
-          "texte": "Loin de toute côte, la Vienne a pourtant été recouverte par la mer 🦈 Requins, crocodiliens, coquillages : les carrières de Moulin-Pochas, à Amberre, regorgent de fossiles marins. De quoi regarder autrement les paysages de ce coin du département.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261106-d2e04441-th.jpg",
-          "mode": "reponse",
-          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/faluns-amberre-mer-fossiles/",
-          "sujet": "Amberre",
-          "publieLe": "2026-11-06T13:35:46.226Z"
-        },
-        "x": {
-          "texte": "Comprendre pourquoi la mer recouvrait #Amberre : les carrières de Moulin-Pochas livrent des fossiles de requins, de crocodiliens et de coquillages, preuves d’un passé marin dans la Vienne 🐊",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261106-d2e04441-x.jpg",
-          "mode": "reponse",
-          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/faluns-amberre-mer-fossiles/",
-          "sujet": null,
-          "publieLe": "2026-11-06T16:21:05.022Z"
-        },
-        "instagram": {
-          "texte": "Des requins et des crocodiliens dans la Vienne, vous l’auriez imaginé ?\n⠀\nÀ Amberre, les carrières de Moulin-Pochas regorgent de fossiles marins. On vous explique pourquoi la mer recouvrait autrefois ce coin de la Vienne 🦈\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Vienne #Fossiles #Paleontologie",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261106-d2e04441-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-06T17:35:03.827Z"
-        },
-        "bluesky": {
-          "texte": "#Amberre, dans la #Vienne, cache un passé marin 🐚 Les carrières de Moulin-Pochas regorgent de fossiles de requins, de crocodiliens et de coquillages, témoins d’une mer aujourd’hui disparue.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261106-d2e04441-bsky.jpg",
-          "mode": "card",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-06T18:08:18.732Z"
-        },
-        "facebook": {
-          "texte": "Des dents de requins et des restes de crocodiliens dorment dans les carrières de Moulin-Pochas, en pleine Vienne 🦴",
-          "image": null,
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-06T19:33:50.518Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "instagram",
+      "at": "2026-11-11T10:24:36.617Z",
+      "titre": "France-Turquie : le 8e match des Bleus en Gironde sera une grande première",
+      "lien": "https://passion-aquitaine.ouest-france.fr/france-turquie-bordeaux-matches-bleus/",
+      "lienPost": "https://www.instagram.com/p/DfmQoUEDfJK/",
+      "format": null,
+      "texte": "Les Bleus ont déjà joué sept fois à Bordeaux : vous vous souvenez de ces matches ?\n⠀\nAvant France-Turquie le dimanche 15 novembre, retour sur l’histoire de l’équipe de France en Gironde. Ce 8e rendez-vous sera une grande première ⚽\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #EquipeDeFrance #FranceTurquie",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261111-208fc27f-1.jpg"
+    },
     {
       "channel": "threads",
       "at": "2026-11-11T10:10:22.714Z",
@@ -535,28 +513,9 @@
       "format": "image",
       "texte": "Des traînées de lumière qui strient la nuit au-dessus des pins des #Landes 🌲 Le 13 décembre, les Géminides pourraient offrir jusqu’à 150 étoiles filantes par heure, à admirer depuis une réserve de ciel étoilé en pleine forêt.\n➡️ Lire l’article",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261110-7bd6dea8-bsky.jpg"
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-11-09T12:14:39.741Z",
-      "titre": "Gironde : une start-up spatiale invente un moteur qui « respire »",
-      "lien": "https://passion-aquitaine.ouest-france.fr/gironde-hyprspace-moteur-oxygene-air/",
-      "lienPost": "https://www.instagram.com/p/DfhTo86mFsu/",
-      "format": null,
-      "texte": "🚀 Un moteur de fusée qui respire l’air ambiant : c’est le pari d’une start-up girondine.\n⠀\nAu Haillan, HyPrSpace développe SHADow. Là où une fusée emporte son oxygène, ce moteur irait le puiser directement dans l’air.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Gironde #Spatial #Innovation",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261109-4d9875c5-1.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "instagram",
-      "dueAt": "2026-11-11T10:24:02.596Z",
-      "prochainPassage": "2026-11-11T11:00:00.000Z",
-      "nature": "actu_chaude",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "France-Turquie : le 8e match des Bleus en Gironde sera une grande première"
-    },
     {
       "channel": "x",
       "dueAt": "2026-11-11T11:00:00.000Z",
@@ -605,7 +564,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 553,
+    "releves": 554,
     "parReseau": {
       "instagram": {
         "posts": 68,
@@ -687,7 +646,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-11T09:20:32.828Z"
+    "derniere": "2026-11-11T10:20:38.062Z"
   },
   "abonnes": {
     "instagram": {
@@ -726,16 +685,16 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-11T10:10:25.028Z",
-    "posts": 42,
+    "genereLe": "2026-11-11T10:24:40.010Z",
+    "posts": 43,
     "parReseau": {
       "instagram": {
         "posts": 10,
         "moyenne": 5.6
       },
       "threads": {
-        "posts": 10,
-        "moyenne": 4.6
+        "posts": 11,
+        "moyenne": 4.2
       },
       "facebook": {
         "posts": 11,
@@ -748,8 +707,8 @@
     },
     "parFormat": {
       "reponse": {
-        "posts": 10,
-        "moyenne": 4.6
+        "posts": 11,
+        "moyenne": 4.2
       },
       "image": {
         "posts": 5,
@@ -770,8 +729,8 @@
         "moyenne": 4.5
       },
       "matin": {
-        "posts": 22,
-        "moyenne": 2
+        "posts": 23,
+        "moyenne": 1.9
       },
       "soir": {
         "posts": 9,
@@ -793,7 +752,7 @@
           "moyenne": 1
         },
         "10 h – 11 h 30": {
-          "posts": 2,
+          "posts": 3,
           "moyenne": 0
         }
       },
@@ -863,23 +822,23 @@
     },
     "moinsBon": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36052",
-      "channel": "facebook",
-      "mediaId": "227437307428711_1782949707164243",
-      "publieLe": "2026-11-10T08:13:23.890Z",
+      "channel": "threads",
+      "mediaId": "18102351053643504",
+      "publieLe": "2026-11-10T10:15:42.556Z",
       "jalon": 1,
-      "releveLe": "2026-11-11T08:20:41.433Z",
+      "releveLe": "2026-11-11T10:20:38.062Z",
       "likes": 0,
-      "commentairesBruts": 0,
+      "commentairesBruts": 1,
       "partages": 0,
-      "vues": null,
+      "vues": 169,
       "commentaires": 0,
       "v": 2,
       "titre": "Géminides : jusqu’à 150 étoiles filantes à voir depuis les Landes",
-      "lien": "https://www.facebook.com/1720946116697936/posts/1782949707164243",
-      "format": null,
+      "lien": "https://www.threads.com/@lovaquitaine/post/DfjqX47Ebi9",
+      "format": "reponse",
       "mention": false,
       "creneau": "matin",
-      "creneauReseau": "8 h – 9 h 30"
+      "creneauReseau": "10 h – 11 h 30"
     },
     "mentions": {
       "avec": {
@@ -887,7 +846,7 @@
         "moyenne": 5.6
       },
       "sans": {
-        "posts": 25,
+        "posts": 26,
         "moyenne": 0.2
       }
     },
@@ -896,7 +855,7 @@
       "facebook": 12,
       "bluesky": 12,
       "x": 12,
-      "instagram": 11
+      "instagram": 12
     },
     "abonnes": {
       "instagram": {
@@ -935,11 +894,11 @@
     },
     "engagement": {
       "instagram": 0.06,
-      "threads": 0.4,
+      "threads": 0.36,
       "facebook": 0
     },
     "conseils": [
-      "Le format « reponse » fait 46 fois mieux que « reply » (4.6 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « reply » de la rotation dans config/channels.json.",
+      "Le format « reponse » fait 42 fois mieux que « reply » (4.2 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « reply » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+5, +0,4 %) ; Facebook recule (−15), à surveiller.",
       "Les posts avec mention font 5.4 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
     ]

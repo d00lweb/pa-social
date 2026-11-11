@@ -6461,5 +6461,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36140",
+    "channel": "facebook",
+    "at": "2026-11-11T08:07:43.352Z",
+    "mediaId": "227437307428711_1784192210373326",
+    "titre": "Maisons fissurées : 4 villages girondins ont jusqu’au 22 novembre",
+    "lien": "https://passion-aquitaine.ouest-france.fr/gironde-maisons-fissurees-catastrophe-naturelle/",
+    "lienPost": "https://www.facebook.com/1720946116697936/posts/1784192210373326",
+    "format": null,
+    "mention": false,
+    "apercu": {
+      "texte": "Votre maison est fissurée et vous habitez l’un de ces quatre villages girondins : avez-vous pensé à le déclarer à temps ⏳",
+      "image": null,
+      "mode": null,
+      "reponse": null,
+      "sujet": null
+    }
   }
 ]

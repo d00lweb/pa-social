@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-11T07:20:36.437Z",
+  "genereLe": "2026-11-11T08:00:45.843Z",
   "jour": "2026-11-11",
   "reseaux": {
     "instagram": {
@@ -61,7 +61,7 @@
         "reply"
       ],
       "aujourdhui": 0,
-      "semaine": 8,
+      "semaine": 7,
       "total": 74,
       "dernier": "2026-11-10T08:08:25.135Z",
       "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mzwyelzrxy2d"
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 8,
-      "total": 71,
-      "dernier": "2026-11-10T08:13:23.890Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1782949707164243"
+      "aujourdhui": 1,
+      "semaine": 9,
+      "total": 72,
+      "dernier": "2026-11-11T08:07:43.352Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1784192210373326"
     },
     "threads": {
       "actif": true,
@@ -123,7 +123,7 @@
         "reponse"
       ],
       "aujourdhui": 0,
-      "semaine": 8,
+      "semaine": 7,
       "total": 71,
       "dernier": "2026-11-10T10:15:42.556Z",
       "lienDernier": "https://www.threads.com/@lovaquitaine/post/DfjqX47Ebi9"
@@ -164,6 +164,22 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36140",
+      "titre": "Maisons fissurées : 4 villages girondins ont jusqu’au 22 novembre",
+      "lien": "https://passion-aquitaine.ouest-france.fr/gironde-maisons-fissurees-catastrophe-naturelle/",
+      "at": "2026-11-11T08:07:43.352Z",
+      "reseaux": {
+        "facebook": {
+          "texte": "Votre maison est fissurée et vous habitez l’un de ces quatre villages girondins : avez-vous pensé à le déclarer à temps ⏳",
+          "image": null,
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-11T08:07:43.352Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36052",
       "titre": "Géminides : jusqu’à 150 étoiles filantes à voir depuis les Landes",
@@ -403,57 +419,19 @@
           "publieLe": "2026-11-06T19:33:50.518Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36018",
-      "titre": "Ski en Béarn : les dates d’ouverture des stations pour 2026-2027",
-      "lien": "https://passion-aquitaine.ouest-france.fr/ski-bearn-dates-ouverture-stations/",
-      "at": "2026-11-05T20:29:17.814Z",
-      "reseaux": {
-        "x": {
-          "texte": "Plus qu’un mois avant de skier en #Béarn ❄️ Gourette et La Pierre Saint-Martin ouvrent dès le 5 décembre, Artouste le 19. Le calendrier 2026-2027 est connu.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261105-b5131d5b-x.jpg",
-          "mode": "reponse",
-          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/ski-bearn-dates-ouverture-stations/",
-          "sujet": null,
-          "publieLe": "2026-11-05T09:21:09.236Z"
-        },
-        "threads": {
-          "texte": "🏔️ Béarn : la saison de ski a désormais ses dates. @gourette_officiel et @lapierrestmartin ouvrent dès le 5 décembre, Artouste attend le 19. De quoi caler ses premières sorties en montagne et réserver son week-end sur les pistes. Toutes les dates d’ouverture des stations pour 2026-2027 sont réunies dans l’article.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261105-b5131d5b-th.jpg",
-          "mode": "reponse",
-          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/ski-bearn-dates-ouverture-stations/",
-          "sujet": "Béarn",
-          "publieLe": "2026-11-05T10:28:10.785Z"
-        },
-        "instagram": {
-          "texte": "Les premières traces dans la poudreuse béarnaise approchent ⛷️\n⠀\nGourette et La Pierre Saint-Martin lancent la saison de ski dès le 5 décembre, Artouste le 19. Toutes les dates d’ouverture 2026-2027 des stations du Béarn sont à retrouver dans l’article.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Béarn #SkiPyrénées #Montagne",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261105-b5131d5b-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-05T11:07:07.362Z"
-        },
-        "bluesky": {
-          "texte": "Le 5 décembre, Gourette et La Pierre Saint-Martin ouvriront leurs pistes, avant Artouste le 19. Les stations du #Béarn ont fixé le calendrier de la saison de #ski 2026-2027 🏔️",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261105-b5131d5b-bsky.jpg",
-          "mode": "reply",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/ski-bearn-dates-ouverture-stations/",
-          "sujet": null,
-          "publieLe": "2026-11-05T12:05:30.940Z"
-        },
-        "facebook": {
-          "texte": "Vous savez déjà quelle station du Béarn ouvrira la première cet hiver pour chausser les skis 🎿",
-          "image": null,
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-05T20:29:17.814Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "facebook",
+      "at": "2026-11-11T08:07:43.352Z",
+      "titre": "Maisons fissurées : 4 villages girondins ont jusqu’au 22 novembre",
+      "lien": "https://passion-aquitaine.ouest-france.fr/gironde-maisons-fissurees-catastrophe-naturelle/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1784192210373326",
+      "format": null,
+      "texte": "Votre maison est fissurée et vous habitez l’un de ces quatre villages girondins : avez-vous pensé à le déclarer à temps ⏳",
+      "image": null
+    },
     {
       "channel": "instagram",
       "at": "2026-11-10T12:26:15.308Z",
@@ -543,33 +521,14 @@
       "format": "card",
       "texte": "Une fusée transporte toujours son propre oxygène. En #Gironde, au Haillan, HyPrSpace veut s’en passer : 🌍 son moteur SHADow puiserait l’oxygène directement dans l’air ambiant.",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261109-4d9875c5-bsky.jpg"
-    },
-    {
-      "channel": "threads",
-      "at": "2026-11-09T07:27:01.630Z",
-      "titre": "Gironde : une start-up spatiale invente un moteur qui « respire »",
-      "lien": "https://passion-aquitaine.ouest-france.fr/gironde-hyprspace-moteur-oxygene-air/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/DfgyX09m-eu",
-      "format": "reponse",
-      "texte": "Imaginez un moteur qui inspire l’air comme un poumon avant de propulser son engin vers le ciel. C’est l’idée de SHADow, développé au Haillan par la start-up HyPrSpace. Là où les fusées emportent leur réserve d’oxygène, lui irait la chercher autour de lui 🌌",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261109-4d9875c5-th.jpg"
     }
   ],
   "file": [
     {
-      "channel": "facebook",
-      "dueAt": "2026-11-11T08:07:33.798Z",
-      "prochainPassage": "2026-11-11T08:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Maisons fissurées : 4 villages girondins ont jusqu’au 22 novembre"
-    },
-    {
       "channel": "bluesky",
       "dueAt": "2026-11-11T08:28:47.386Z",
       "prochainPassage": "2026-11-11T09:00:00.000Z",
-      "nature": "actu",
+      "nature": "actu_chaude",
       "prevuInitialement": null,
       "raison": null,
       "titre": "Maisons fissurées : 4 villages girondins ont jusqu’au 22 novembre"
@@ -578,7 +537,7 @@
       "channel": "x",
       "dueAt": "2026-11-11T09:00:00.000Z",
       "prochainPassage": "2026-11-11T09:00:00.000Z",
-      "nature": "actu",
+      "nature": "actu_chaude",
       "prevuInitialement": null,
       "raison": null,
       "titre": "Maisons fissurées : 4 villages girondins ont jusqu’au 22 novembre"
@@ -587,7 +546,7 @@
       "channel": "threads",
       "dueAt": "2026-11-11T10:07:30.112Z",
       "prochainPassage": "2026-11-11T10:20:00.000Z",
-      "nature": "actu",
+      "nature": "actu_chaude",
       "prevuInitialement": null,
       "raison": null,
       "titre": "Maisons fissurées : 4 villages girondins ont jusqu’au 22 novembre"
@@ -596,7 +555,7 @@
       "channel": "instagram",
       "dueAt": "2026-11-11T11:03:00.656Z",
       "prochainPassage": "2026-11-11T11:20:00.000Z",
-      "nature": "actu",
+      "nature": "actu_chaude",
       "prevuInitialement": null,
       "raison": null,
       "titre": "Maisons fissurées : 4 villages girondins ont jusqu’au 22 novembre"
@@ -604,14 +563,14 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 548,
+    "releves": 550,
     "parReseau": {
       "instagram": {
         "posts": 68,
         "interactionsMoyennes": 13.3
       },
       "bluesky": {
-        "posts": 66,
+        "posts": 67,
         "interactionsMoyennes": 0.2
       },
       "facebook": {
@@ -619,8 +578,8 @@
         "interactionsMoyennes": 0
       },
       "threads": {
-        "posts": 63,
-        "interactionsMoyennes": 9.4
+        "posts": 64,
+        "interactionsMoyennes": 9.3
       }
     }
   },
@@ -686,7 +645,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-11T06:20:46.124Z"
+    "derniere": "2026-11-11T08:00:45.843Z"
   },
   "abonnes": {
     "instagram": {
@@ -725,7 +684,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-11T07:21:12.440Z",
+    "genereLe": "2026-11-11T08:07:49.861Z",
     "posts": 40,
     "parReseau": {
       "instagram": {
@@ -892,7 +851,7 @@
     },
     "publies": {
       "threads": 11,
-      "facebook": 11,
+      "facebook": 12,
       "bluesky": 11,
       "x": 11,
       "instagram": 11
@@ -945,29 +904,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 3,
-      "entree": 23993,
-      "sortie": 2722,
-      "cout": 0.150412,
+      "appels": 4,
+      "entree": 32027,
+      "sortie": 3650,
+      "cout": 0.201108,
       "cle": "2026-11-11"
     },
     "semaine": {
-      "appels": 13,
-      "entree": 103746,
-      "sortie": 11313,
-      "cout": 0.641244
+      "appels": 14,
+      "entree": 111780,
+      "sortie": 12241,
+      "cout": 0.69194
     },
     "mois": {
-      "appels": 39,
-      "entree": 311481,
-      "sortie": 34868,
-      "cout": 1.943284,
+      "appels": 40,
+      "entree": 319515,
+      "sortie": 35796,
+      "cout": 1.99398,
       "cle": "2026-11"
     },
-    "projection": 5.3,
+    "projection": 5.44,
     "moyenneAppel": 0.0498,
     "parModele": {
-      "claude-opus-5-5": 39
+      "claude-opus-5-5": 40
     },
     "serie": [
       [
@@ -1024,7 +983,7 @@
       ],
       [
         "2026-11-11",
-        0.1504
+        0.2011
       ]
     ],
     "depuis": "2026-09-23"

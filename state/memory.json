@@ -1,5 +1,5 @@
 {
-  "angleIndex": 6,
+  "angleIndex": 7,
   "recent": {
     "instagram": [
       "🍷 Le patron de l’UBB parmi les propriétaires des grands crus de Bordeaux, aux côtés d’un prince\nRothschild, Pinault, Arnault : les grandes fortunes se partagen",
@@ -148,7 +148,6 @@
   ],
   "mentionsParReseau": {
     "instagram": [
-      "surfingfrance",
       "basesousmarine",
       "nastiamusic",
       "octaveone",
@@ -207,7 +206,8 @@
       "visitbayonne",
       "enpaysbasque_euskalherrian",
       "departementgironde",
-      "departement_landes"
+      "departement_landes",
+      "departementgironde"
     ],
     "x": [
       "cddordogne",
@@ -255,6 +255,7 @@
       "gironde",
       "VilleDeBayonne",
       "departement64",
+      "gironde",
       "gironde"
     ],
     "threads": [
@@ -293,8 +294,12 @@
     ]
   },
   "dernieresMentions": {
-    "instagram": [],
-    "x": [],
+    "instagram": [
+      "departementgironde"
+    ],
+    "x": [
+      "gironde"
+    ],
     "bluesky": [],
     "threads": [],
     "facebook": []

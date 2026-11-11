@@ -1630,5 +1630,27 @@
     "instagram": [],
     "threads": [],
     "bluesky": []
+  },
+  "commune:mairie:camarsac": {
+    "v": 3,
+    "cherche": "2026-11-11T08:00:57.794Z",
+    "instagram": [],
+    "x": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:camarsac:logement": {
+    "v": 3,
+    "cherche": "2026-11-11T08:00:57.794Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:camarsac:assurance": {
+    "v": 3,
+    "cherche": "2026-11-11T08:00:57.794Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
   }
 }

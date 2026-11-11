@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-11T08:20:41.433Z",
+  "genereLe": "2026-11-11T09:00:32.446Z",
   "jour": "2026-11-11",
   "reseaux": {
     "instagram": {
@@ -156,10 +156,10 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 8,
-      "total": 74,
-      "dernier": "2026-11-10T08:20:57.836Z",
+      "aujourdhui": 1,
+      "semaine": 9,
+      "total": 75,
+      "dernier": "2026-11-11T09:00:40.460Z",
       "lienDernier": null
     }
   },
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36140",
       "titre": "Maisons fissurées : 4 villages girondins ont jusqu’au 22 novembre",
       "lien": "https://passion-aquitaine.ouest-france.fr/gironde-maisons-fissurees-catastrophe-naturelle/",
-      "at": "2026-11-11T08:28:50.391Z",
+      "at": "2026-11-11T09:00:40.460Z",
       "reseaux": {
         "facebook": {
           "texte": "Votre maison est fissurée et vous habitez l’un de ces quatre villages girondins : avez-vous pensé à le déclarer à temps ⏳",
@@ -185,6 +185,14 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-11-11T08:28:50.391Z"
+        },
+        "x": {
+          "texte": "Des murs qui se fendent, et une date limite toute proche 🧱 Dans quatre villages de #Gironde, les habitants aux maisons fissurées ont jusqu’au 22 novembre pour déclarer.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261111-31894d88-x.jpg",
+          "mode": "reponse",
+          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/gironde-maisons-fissurees-catastrophe-naturelle/",
+          "sujet": null,
+          "publieLe": "2026-11-11T09:00:40.460Z"
         }
       }
     },
@@ -431,6 +439,16 @@
   ],
   "publications": [
     {
+      "channel": "x",
+      "at": "2026-11-11T09:00:40.460Z",
+      "titre": "Maisons fissurées : 4 villages girondins ont jusqu’au 22 novembre",
+      "lien": "https://passion-aquitaine.ouest-france.fr/gironde-maisons-fissurees-catastrophe-naturelle/",
+      "lienPost": null,
+      "format": "reponse",
+      "texte": "Des murs qui se fendent, et une date limite toute proche 🧱 Dans quatre villages de #Gironde, les habitants aux maisons fissurées ont jusqu’au 22 novembre pour déclarer.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261111-31894d88-x.jpg"
+    },
+    {
       "channel": "bluesky",
       "at": "2026-11-11T08:28:50.391Z",
       "titre": "Maisons fissurées : 4 villages girondins ont jusqu’au 22 novembre",
@@ -519,28 +537,9 @@
       "format": "reponse",
       "texte": "🔭 Et si un moteur spatial n’avait plus besoin d’emporter son oxygène ? Au Haillan, HyPrSpace développe SHADow, conçu pour le puiser dans l’air.",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261109-4d9875c5-x.jpg"
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-11-09T08:24:10.252Z",
-      "titre": "Gironde : une start-up spatiale invente un moteur qui « respire »",
-      "lien": "https://passion-aquitaine.ouest-france.fr/gironde-hyprspace-moteur-oxygene-air/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1781785397280674",
-      "format": null,
-      "texte": "Moins d’oxygène à embarquer, c’est l’idée du moteur SHADow que met au point une jeune entreprise installée au Haillan 🛰️",
-      "image": null
     }
   ],
   "file": [
-    {
-      "channel": "x",
-      "dueAt": "2026-11-11T09:00:00.000Z",
-      "prochainPassage": "2026-11-11T09:00:00.000Z",
-      "nature": "actu_chaude",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Maisons fissurées : 4 villages girondins ont jusqu’au 22 novembre"
-    },
     {
       "channel": "threads",
       "dueAt": "2026-11-11T10:07:30.112Z",
@@ -683,7 +682,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-11T08:29:00.613Z",
+    "genereLe": "2026-11-11T09:00:50.337Z",
     "posts": 42,
     "parReseau": {
       "instagram": {
@@ -852,7 +851,7 @@
       "threads": 11,
       "facebook": 12,
       "bluesky": 12,
-      "x": 11,
+      "x": 12,
       "instagram": 11
     },
     "abonnes": {

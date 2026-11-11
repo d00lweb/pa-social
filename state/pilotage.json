@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-11T20:00:33.449Z",
+  "genereLe": "2026-11-11T21:00:41.818Z",
   "jour": "2026-11-11",
   "reseaux": {
     "instagram": {
@@ -25,7 +25,7 @@
       },
       "formats": null,
       "aujourdhui": 2,
-      "semaine": 9,
+      "semaine": 8,
       "total": 78,
       "dernier": "2026-11-11T13:07:50.170Z",
       "lienDernier": "https://www.instagram.com/p/DfmjUMYFz-H/"
@@ -61,7 +61,7 @@
         "reply"
       ],
       "aujourdhui": 2,
-      "semaine": 9,
+      "semaine": 8,
       "total": 76,
       "dernier": "2026-11-11T11:05:05.084Z",
       "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mzzspgit7k22"
@@ -89,7 +89,7 @@
       },
       "formats": null,
       "aujourdhui": 2,
-      "semaine": 9,
+      "semaine": 8,
       "total": 73,
       "dernier": "2026-11-11T11:30:03.793Z",
       "lienDernier": "https://www.facebook.com/1720946116697936/posts/1784378303688050"
@@ -123,7 +123,7 @@
         "reponse"
       ],
       "aujourdhui": 2,
-      "semaine": 9,
+      "semaine": 8,
       "total": 73,
       "dernier": "2026-11-11T12:15:05.163Z",
       "lienDernier": "https://www.threads.com/@lovaquitaine/post/DfmdAxulCau"
@@ -157,7 +157,7 @@
         "reponse"
       ],
       "aujourdhui": 2,
-      "semaine": 9,
+      "semaine": 8,
       "total": 76,
       "dernier": "2026-11-11T11:00:43.796Z",
       "lienDernier": null
@@ -558,23 +558,23 @@
   "file": [],
   "alertes": [],
   "mesures": {
-    "releves": 556,
+    "releves": 560,
     "parReseau": {
       "instagram": {
-        "posts": 69,
-        "interactionsMoyennes": 13.2
+        "posts": 70,
+        "interactionsMoyennes": 13.1
       },
       "bluesky": {
-        "posts": 67,
+        "posts": 68,
         "interactionsMoyennes": 0.2
       },
       "facebook": {
-        "posts": 64,
+        "posts": 65,
         "interactionsMoyennes": 0
       },
       "threads": {
-        "posts": 64,
-        "interactionsMoyennes": 9.3
+        "posts": 65,
+        "interactionsMoyennes": 9.1
       }
     }
   },
@@ -640,7 +640,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-11T19:20:33.608Z"
+    "derniere": "2026-11-11T21:00:41.818Z"
   },
   "abonnes": {
     "instagram": {
@@ -679,7 +679,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-11T20:00:37.412Z",
+    "genereLe": "2026-11-11T21:00:48.170Z",
     "posts": 44,
     "parReseau": {
       "instagram": {

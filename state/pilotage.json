@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-11T10:20:38.062Z",
+  "genereLe": "2026-11-11T11:00:33.963Z",
   "jour": "2026-11-11",
   "reseaux": {
     "instagram": {
@@ -60,11 +60,11 @@
         "image",
         "reply"
       ],
-      "aujourdhui": 1,
-      "semaine": 8,
-      "total": 75,
-      "dernier": "2026-11-11T08:28:50.391Z",
-      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mzzjxzutxn2t"
+      "aujourdhui": 2,
+      "semaine": 9,
+      "total": 76,
+      "dernier": "2026-11-11T11:05:05.084Z",
+      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mzzspgit7k22"
     },
     "facebook": {
       "actif": true,
@@ -156,10 +156,10 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 1,
-      "semaine": 8,
-      "total": 75,
-      "dernier": "2026-11-11T09:00:40.460Z",
+      "aujourdhui": 2,
+      "semaine": 9,
+      "total": 76,
+      "dernier": "2026-11-11T11:00:43.796Z",
       "lienDernier": null
     }
   },
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36123",
       "titre": "France-Turquie : le 8e match des Bleus en Gironde sera une grande première",
       "lien": "https://passion-aquitaine.ouest-france.fr/france-turquie-bordeaux-matches-bleus/",
-      "at": "2026-11-11T10:24:36.617Z",
+      "at": "2026-11-11T11:05:05.084Z",
       "reseaux": {
         "instagram": {
           "texte": "Les Bleus ont déjà joué sept fois à Bordeaux : vous vous souvenez de ces matches ?\n⠀\nAvant France-Turquie le dimanche 15 novembre, retour sur l’histoire de l’équipe de France en Gironde. Ce 8e rendez-vous sera une grande première ⚽\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #EquipeDeFrance #FranceTurquie",
@@ -177,6 +177,22 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-11-11T10:24:36.617Z"
+        },
+        "x": {
+          "texte": "Avant France-Turquie dimanche 15 novembre, revivez les sept précédents matches de l’équipe de France à #Bordeaux. Le huitième sera une grande première ⚽",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261111-208fc27f-x.jpg",
+          "mode": "reponse",
+          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/france-turquie-bordeaux-matches-bleus/",
+          "sujet": null,
+          "publieLe": "2026-11-11T11:00:43.796Z"
+        },
+        "bluesky": {
+          "texte": "À #Bordeaux, l’@equipedefrance.bsky.social a déjà joué sept matches 🇫🇷 Le huitième, France-Turquie le dimanche 15 novembre, s’annonce comme une grande première ⚽ Retour sur les précédents passages des Bleus en #Gironde.\n@villedebordeaux.bsky.social\n➡️ Lire l’article",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261111-208fc27f-bsky.jpg",
+          "mode": "image",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-11T11:05:05.084Z"
         }
       }
     },
@@ -415,6 +431,26 @@
   ],
   "publications": [
     {
+      "channel": "bluesky",
+      "at": "2026-11-11T11:05:05.084Z",
+      "titre": "France-Turquie : le 8e match des Bleus en Gironde sera une grande première",
+      "lien": "https://passion-aquitaine.ouest-france.fr/france-turquie-bordeaux-matches-bleus/",
+      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mzzspgit7k22",
+      "format": "image",
+      "texte": "À #Bordeaux, l’@equipedefrance.bsky.social a déjà joué sept matches 🇫🇷 Le huitième, France-Turquie le dimanche 15 novembre, s’annonce comme une grande première ⚽ Retour sur les précédents passages des Bleus en #Gironde.\n@villedebordeaux.bsky.social\n➡️ Lire l’article",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261111-208fc27f-bsky.jpg"
+    },
+    {
+      "channel": "x",
+      "at": "2026-11-11T11:00:43.796Z",
+      "titre": "France-Turquie : le 8e match des Bleus en Gironde sera une grande première",
+      "lien": "https://passion-aquitaine.ouest-france.fr/france-turquie-bordeaux-matches-bleus/",
+      "lienPost": null,
+      "format": "reponse",
+      "texte": "Avant France-Turquie dimanche 15 novembre, revivez les sept précédents matches de l’équipe de France à #Bordeaux. Le huitième sera une grande première ⚽",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261111-208fc27f-x.jpg"
+    },
+    {
       "channel": "instagram",
       "at": "2026-11-11T10:24:36.617Z",
       "titre": "France-Turquie : le 8e match des Bleus en Gironde sera une grande première",
@@ -493,47 +529,9 @@
       "format": "reponse",
       "texte": "Jusqu’à 150 étoiles filantes par heure : les Géminides culminent le 13 décembre, et une réserve de ciel étoilé en pleine forêt landaise promet un poste d’observation idéal 💫",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261110-7bd6dea8-x.jpg"
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-11-10T08:13:23.890Z",
-      "titre": "Géminides : jusqu’à 150 étoiles filantes à voir depuis les Landes",
-      "lien": "https://passion-aquitaine.ouest-france.fr/geminides-2026-etoiles-filantes-landes/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1782949707164243",
-      "format": null,
-      "texte": "Au cœur de la forêt landaise se cache une réserve de ciel étoilé, idéale pour guetter les Géminides 🌠",
-      "image": null
-    },
-    {
-      "channel": "bluesky",
-      "at": "2026-11-10T08:08:25.135Z",
-      "titre": "Géminides : jusqu’à 150 étoiles filantes à voir depuis les Landes",
-      "lien": "https://passion-aquitaine.ouest-france.fr/geminides-2026-etoiles-filantes-landes/",
-      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mzwyelzrxy2d",
-      "format": "image",
-      "texte": "Des traînées de lumière qui strient la nuit au-dessus des pins des #Landes 🌲 Le 13 décembre, les Géminides pourraient offrir jusqu’à 150 étoiles filantes par heure, à admirer depuis une réserve de ciel étoilé en pleine forêt.\n➡️ Lire l’article",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261110-7bd6dea8-bsky.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "x",
-      "dueAt": "2026-11-11T11:00:00.000Z",
-      "prochainPassage": "2026-11-11T11:00:00.000Z",
-      "nature": "actu_chaude",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "France-Turquie : le 8e match des Bleus en Gironde sera une grande première"
-    },
-    {
-      "channel": "bluesky",
-      "dueAt": "2026-11-11T11:05:02.441Z",
-      "prochainPassage": "2026-11-11T11:20:00.000Z",
-      "nature": "actu_chaude",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "France-Turquie : le 8e match des Bleus en Gironde sera une grande première"
-    },
     {
       "channel": "facebook",
       "dueAt": "2026-11-11T11:29:54.798Z",
@@ -685,7 +683,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-11T10:24:40.010Z",
+    "genereLe": "2026-11-11T11:05:12.435Z",
     "posts": 43,
     "parReseau": {
       "instagram": {
@@ -853,8 +851,8 @@
     "publies": {
       "threads": 12,
       "facebook": 12,
-      "bluesky": 12,
-      "x": 12,
+      "bluesky": 13,
+      "x": 13,
       "instagram": 12
     },
     "abonnes": {

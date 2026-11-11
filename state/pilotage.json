@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-11T11:20:33.384Z",
+  "genereLe": "2026-11-11T12:00:37.792Z",
   "jour": "2026-11-11",
   "reseaux": {
     "instagram": {
@@ -25,7 +25,7 @@
       },
       "formats": null,
       "aujourdhui": 1,
-      "semaine": 9,
+      "semaine": 8,
       "total": 77,
       "dernier": "2026-11-11T10:24:36.617Z",
       "lienDernier": "https://www.instagram.com/p/DfmQoUEDfJK/"
@@ -122,11 +122,11 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 1,
-      "semaine": 8,
-      "total": 72,
-      "dernier": "2026-11-11T10:10:22.714Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DfmOtzjG95d"
+      "aujourdhui": 2,
+      "semaine": 9,
+      "total": 73,
+      "dernier": "2026-11-11T12:15:05.163Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DfmdAxulCau"
     },
     "x": {
       "actif": true,
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36123",
       "titre": "France-Turquie : le 8e match des Bleus en Gironde sera une grande première",
       "lien": "https://passion-aquitaine.ouest-france.fr/france-turquie-bordeaux-matches-bleus/",
-      "at": "2026-11-11T11:30:03.793Z",
+      "at": "2026-11-11T12:15:05.163Z",
       "reseaux": {
         "instagram": {
           "texte": "Les Bleus ont déjà joué sept fois à Bordeaux : vous vous souvenez de ces matches ?\n⠀\nAvant France-Turquie le dimanche 15 novembre, retour sur l’histoire de l’équipe de France en Gironde. Ce 8e rendez-vous sera une grande première ⚽\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #EquipeDeFrance #FranceTurquie",
@@ -201,6 +201,14 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-11-11T11:30:03.793Z"
+        },
+        "threads": {
+          "texte": "Les Bleus en Gironde, ce n’est pas nouveau : sept matches s’y sont déjà joués. Pourtant, le prochain sortira de l’ordinaire 🏟️ France-Turquie, dimanche 15 novembre à Bordeaux, sera une grande première. L’occasion de replonger dans les sept précédents rendez-vous de l’équipe de France dans la ville.\n@villedebordeaux",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261111-208fc27f-th.jpg",
+          "mode": "reponse",
+          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/france-turquie-bordeaux-matches-bleus/",
+          "sujet": "Bordeaux",
+          "publieLe": "2026-11-11T12:15:05.163Z"
         }
       }
     },
@@ -439,6 +447,16 @@
   ],
   "publications": [
     {
+      "channel": "threads",
+      "at": "2026-11-11T12:15:05.163Z",
+      "titre": "France-Turquie : le 8e match des Bleus en Gironde sera une grande première",
+      "lien": "https://passion-aquitaine.ouest-france.fr/france-turquie-bordeaux-matches-bleus/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/DfmdAxulCau",
+      "format": "reponse",
+      "texte": "Les Bleus en Gironde, ce n’est pas nouveau : sept matches s’y sont déjà joués. Pourtant, le prochain sortira de l’ordinaire 🏟️ France-Turquie, dimanche 15 novembre à Bordeaux, sera une grande première. L’occasion de replonger dans les sept précédents rendez-vous de l’équipe de France dans la ville.\n@villedebordeaux",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261111-208fc27f-th.jpg"
+    },
+    {
       "channel": "facebook",
       "at": "2026-11-11T11:30:03.793Z",
       "titre": "France-Turquie : le 8e match des Bleus en Gironde sera une grande première",
@@ -527,28 +545,9 @@
       "format": null,
       "texte": "Jusqu’à 150 étoiles filantes par heure : la nuit du 13 décembre, les Landes offrent un spectacle rare\n⠀\nLa pluie des Géminides se savoure loin des lumières de la ville. En pleine forêt landaise, une réserve de ciel étoilé vous attend pour lever les yeux ☄️\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Landes #Geminides #EtoilesFilantes",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261110-7bd6dea8-1.jpg"
-    },
-    {
-      "channel": "threads",
-      "at": "2026-11-10T10:15:42.556Z",
-      "titre": "Géminides : jusqu’à 150 étoiles filantes à voir depuis les Landes",
-      "lien": "https://passion-aquitaine.ouest-france.fr/geminides-2026-etoiles-filantes-landes/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/DfjqX47Ebi9",
-      "format": "reponse",
-      "texte": "Où regarder la plus belle pluie d’étoiles filantes de l’année ? Dans les Landes, une réserve de ciel étoilé se niche en pleine forêt. Et la date à retenir, c’est le 13 décembre : ✨ les Géminides pourraient y offrir jusqu’à 150 étoiles filantes par heure. Vous avez déjà passé une nuit à guetter le ciel ?",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261110-7bd6dea8-th.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "threads",
-      "dueAt": "2026-11-11T12:12:27.753Z",
-      "prochainPassage": "2026-11-11T12:20:00.000Z",
-      "nature": "actu_chaude",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "France-Turquie : le 8e match des Bleus en Gironde sera une grande première"
-    },
     {
       "channel": "instagram",
       "dueAt": "2026-11-11T13:07:19.807Z",
@@ -561,11 +560,11 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 554,
+    "releves": 555,
     "parReseau": {
       "instagram": {
-        "posts": 68,
-        "interactionsMoyennes": 13.3
+        "posts": 69,
+        "interactionsMoyennes": 13.2
       },
       "bluesky": {
         "posts": 67,
@@ -643,7 +642,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-11T10:20:38.062Z"
+    "derniere": "2026-11-11T12:00:37.792Z"
   },
   "abonnes": {
     "instagram": {
@@ -682,7 +681,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-11T11:30:05.798Z",
+    "genereLe": "2026-11-11T12:15:08.396Z",
     "posts": 43,
     "parReseau": {
       "instagram": {
@@ -848,7 +847,7 @@
       }
     },
     "publies": {
-      "threads": 12,
+      "threads": 13,
       "facebook": 13,
       "bluesky": 13,
       "x": 13,

@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-12T08:20:32.096Z",
+  "genereLe": "2026-11-12T09:00:37.725Z",
   "jour": "2026-11-12",
   "reseaux": {
     "instagram": {
@@ -156,10 +156,10 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 8,
-      "total": 76,
-      "dernier": "2026-11-11T11:00:43.796Z",
+      "aujourdhui": 1,
+      "semaine": 9,
+      "total": 77,
+      "dernier": "2026-11-12T09:00:47.350Z",
       "lienDernier": null
     }
   },
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36145",
       "titre": "Bordeaux : nager dehors en plein hiver dans une eau à 27 °C",
       "lien": "https://passion-aquitaine.ouest-france.fr/bordeaux-piscine-jean-zay-bassin-nordique/",
-      "at": "2026-11-12T08:03:08.586Z",
+      "at": "2026-11-12T09:00:47.350Z",
       "reseaux": {
         "threads": {
           "texte": "Bonne nouvelle pour les nageurs bordelais qui pensaient ranger leur maillot jusqu’au printemps 🏊‍♀️ L’ex-piscine Stéhelin garde désormais son bassin extérieur ouvert tout l’hiver, avec une eau à 27 °C. Longtemps, ce bassin n’accueillait le public que l’été. De quoi garder le rythme des longueurs et profiter du grand air même quand Bordeaux se refroidit.\n@visitbordeaux",
@@ -193,6 +193,14 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-11-12T08:03:08.586Z"
+        },
+        "x": {
+          "texte": "Longtemps ouverte l’été seulement, l’ex-piscine Stéhelin à #Bordeaux change de rythme : son bassin extérieur reste désormais ouvert tout l’hiver, avec une eau à 🌡️ 27 °C.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261112-d181c42b-x.jpg",
+          "mode": "reponse",
+          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/bordeaux-piscine-jean-zay-bassin-nordique/",
+          "sujet": null,
+          "publieLe": "2026-11-12T09:00:47.350Z"
         }
       }
     },
@@ -439,6 +447,16 @@
   ],
   "publications": [
     {
+      "channel": "x",
+      "at": "2026-11-12T09:00:47.350Z",
+      "titre": "Bordeaux : nager dehors en plein hiver dans une eau à 27 °C",
+      "lien": "https://passion-aquitaine.ouest-france.fr/bordeaux-piscine-jean-zay-bassin-nordique/",
+      "lienPost": null,
+      "format": "reponse",
+      "texte": "Longtemps ouverte l’été seulement, l’ex-piscine Stéhelin à #Bordeaux change de rythme : son bassin extérieur reste désormais ouvert tout l’hiver, avec une eau à 🌡️ 27 °C.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261112-d181c42b-x.jpg"
+    },
+    {
       "channel": "bluesky",
       "at": "2026-11-12T08:03:08.586Z",
       "titre": "Bordeaux : nager dehors en plein hiver dans une eau à 27 °C",
@@ -527,28 +545,9 @@
       "format": null,
       "texte": "Les Bleus ont déjà joué sept fois à Bordeaux : vous vous souvenez de ces matches ?\n⠀\nAvant France-Turquie le dimanche 15 novembre, retour sur l’histoire de l’équipe de France en Gironde. Ce 8e rendez-vous sera une grande première ⚽\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #EquipeDeFrance #FranceTurquie",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261111-208fc27f-1.jpg"
-    },
-    {
-      "channel": "threads",
-      "at": "2026-11-11T10:10:22.714Z",
-      "titre": "Maisons fissurées : 4 villages girondins ont jusqu’au 22 novembre",
-      "lien": "https://passion-aquitaine.ouest-france.fr/gironde-maisons-fissurees-catastrophe-naturelle/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/DfmOtzjG95d",
-      "format": "reponse",
-      "texte": "🏚️ Camarsac, Coimères, Saint-Jean-de-Blaignac, Saint-Laurent-du-Bois : si vous vivez dans l’une de ces communes de Gironde et que vos murs se fissurent, le calendrier presse. Les habitants concernés ont jusqu’au 22 novembre pour faire leur déclaration. Mieux vaut ne pas laisser filer la date.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261111-31894d88-th.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "x",
-      "dueAt": "2026-11-12T09:00:00.000Z",
-      "prochainPassage": "2026-11-12T09:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Bordeaux : nager dehors en plein hiver dans une eau à 27 °C"
-    },
     {
       "channel": "instagram",
       "dueAt": "2026-11-12T11:33:57.163Z",
@@ -561,7 +560,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 561,
+    "releves": 562,
     "parReseau": {
       "instagram": {
         "posts": 70,
@@ -682,8 +681,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-12T08:20:36.122Z",
-    "posts": 45,
+    "genereLe": "2026-11-12T09:00:54.069Z",
+    "posts": 46,
     "parReseau": {
       "instagram": {
         "posts": 11,
@@ -698,7 +697,7 @@
         "moyenne": 0
       },
       "bluesky": {
-        "posts": 11,
+        "posts": 12,
         "moyenne": 0
       }
     },
@@ -712,7 +711,7 @@
         "moyenne": 0
       },
       "card": {
-        "posts": 4,
+        "posts": 5,
         "moyenne": 0
       },
       "reply": {
@@ -726,8 +725,8 @@
         "moyenne": 5.8
       },
       "matin": {
-        "posts": 24,
-        "moyenne": 1.8
+        "posts": 25,
+        "moyenne": 1.7
       },
       "soir": {
         "posts": 9,
@@ -765,7 +764,7 @@
       },
       "bluesky": {
         "8 h – 9 h 30": {
-          "posts": 7,
+          "posts": 8,
           "moyenne": 0
         },
         "hors créneau": {
@@ -819,11 +818,11 @@
     },
     "moinsBon": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36140",
-      "channel": "facebook",
-      "mediaId": "227437307428711_1784192210373326",
-      "publieLe": "2026-11-11T08:07:43.352Z",
+      "channel": "bluesky",
+      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mzzjxzutxn2t",
+      "publieLe": "2026-11-11T08:28:50.391Z",
       "jalon": 1,
-      "releveLe": "2026-11-12T08:20:32.096Z",
+      "releveLe": "2026-11-12T09:00:37.725Z",
       "likes": 0,
       "commentairesBruts": 0,
       "partages": 0,
@@ -831,8 +830,8 @@
       "commentaires": 0,
       "v": 2,
       "titre": "Maisons fissurées : 4 villages girondins ont jusqu’au 22 novembre",
-      "lien": "https://www.facebook.com/1720946116697936/posts/1784192210373326",
-      "format": null,
+      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mzzjxzutxn2t",
+      "format": "card",
       "mention": false,
       "creneau": "matin",
       "creneauReseau": "8 h – 9 h 30"
@@ -843,7 +842,7 @@
         "moyenne": 6.4
       },
       "sans": {
-        "posts": 27,
+        "posts": 28,
         "moyenne": 0.2
       }
     },
@@ -851,7 +850,7 @@
       "threads": 14,
       "facebook": 14,
       "bluesky": 14,
-      "x": 13,
+      "x": 14,
       "instagram": 13
     },
     "abonnes": {

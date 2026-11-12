@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-12T10:00:37.731Z",
+  "genereLe": "2026-11-12T10:10:41.481Z",
   "jour": "2026-11-12",
   "reseaux": {
     "instagram": {
@@ -560,7 +560,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 562,
+    "releves": 563,
     "parReseau": {
       "instagram": {
         "posts": 70,
@@ -681,16 +681,16 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-12T10:00:41.286Z",
-    "posts": 46,
+    "genereLe": "2026-11-12T10:10:47.140Z",
+    "posts": 47,
     "parReseau": {
       "instagram": {
         "posts": 11,
         "moyenne": 6.8
       },
       "threads": {
-        "posts": 11,
-        "moyenne": 4.2
+        "posts": 12,
+        "moyenne": 3.9
       },
       "facebook": {
         "posts": 12,
@@ -703,8 +703,8 @@
     },
     "parFormat": {
       "reponse": {
-        "posts": 11,
-        "moyenne": 4.2
+        "posts": 12,
+        "moyenne": 3.9
       },
       "image": {
         "posts": 5,
@@ -725,7 +725,7 @@
         "moyenne": 5.8
       },
       "matin": {
-        "posts": 25,
+        "posts": 26,
         "moyenne": 1.7
       },
       "soir": {
@@ -748,8 +748,8 @@
           "moyenne": 1
         },
         "10 h – 11 h 30": {
-          "posts": 3,
-          "moyenne": 0
+          "posts": 4,
+          "moyenne": 0.3
         }
       },
       "facebook": {
@@ -795,7 +795,7 @@
         }
       }
     },
-    "interactionsTotal": 121,
+    "interactionsTotal": 122,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36056",
       "channel": "threads",
@@ -842,7 +842,7 @@
         "moyenne": 6.4
       },
       "sans": {
-        "posts": 28,
+        "posts": 29,
         "moyenne": 0.2
       }
     },
@@ -890,11 +890,12 @@
     },
     "engagement": {
       "instagram": 0.07,
-      "threads": 0.36,
+      "threads": 0.34,
       "facebook": 0
     },
     "conseils": [
-      "Le format « reponse » fait 42 fois mieux que « reply » (4.2 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « reply » de la rotation dans config/channels.json.",
+      "Threads : le créneau 7 h – 8 h 30 fait 24 fois mieux que 10 h – 11 h 30 (7.2 contre 0.3 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
+      "Le format « reponse » fait 39 fois mieux que « reply » (3.9 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « reply » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+5, +0,4 %) ; Facebook recule (−21), à surveiller.",
       "Les posts avec mention font 6.2 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
     ]

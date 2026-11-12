@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-12T11:20:36.588Z",
+  "genereLe": "2026-11-12T12:00:51.493Z",
   "jour": "2026-11-12",
   "reseaux": {
     "instagram": {
@@ -558,7 +558,7 @@
   "file": [],
   "alertes": [],
   "mesures": {
-    "releves": 567,
+    "releves": 568,
     "parReseau": {
       "instagram": {
         "posts": 71,
@@ -640,7 +640,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-12T11:00:36.152Z"
+    "derniere": "2026-11-12T12:00:51.493Z"
   },
   "abonnes": {
     "instagram": {
@@ -679,8 +679,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-12T11:34:45.014Z",
-    "posts": 49,
+    "genereLe": "2026-11-12T12:00:57.218Z",
+    "posts": 50,
     "parReseau": {
       "instagram": {
         "posts": 12,
@@ -691,7 +691,7 @@
         "moyenne": 3.9
       },
       "facebook": {
-        "posts": 12,
+        "posts": 13,
         "moyenne": 0
       },
       "bluesky": {
@@ -719,8 +719,8 @@
     },
     "parCreneau": {
       "après-midi": {
-        "posts": 13,
-        "moyenne": 5.3
+        "posts": 14,
+        "moyenne": 4.9
       },
       "matin": {
         "posts": 27,
@@ -757,6 +757,10 @@
         },
         "20 h – 21 h 30": {
           "posts": 4,
+          "moyenne": 0
+        },
+        "hors créneau": {
+          "posts": 1,
           "moyenne": 0
         }
       },
@@ -816,11 +820,11 @@
     },
     "moinsBon": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36123",
-      "channel": "bluesky",
-      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mzzspgit7k22",
-      "publieLe": "2026-11-11T11:05:05.084Z",
+      "channel": "facebook",
+      "mediaId": "227437307428711_1784378303688050",
+      "publieLe": "2026-11-11T11:30:03.793Z",
       "jalon": 1,
-      "releveLe": "2026-11-12T11:20:36.588Z",
+      "releveLe": "2026-11-12T12:00:51.493Z",
       "likes": 0,
       "commentairesBruts": 0,
       "partages": 0,
@@ -828,11 +832,11 @@
       "commentaires": 0,
       "v": 2,
       "titre": "France-Turquie : le 8e match des Bleus en Gironde sera une grande première",
-      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mzzspgit7k22",
-      "format": "image",
-      "mention": true,
+      "lien": "https://www.facebook.com/1720946116697936/posts/1784378303688050",
+      "format": null,
+      "mention": false,
       "creneau": "après-midi",
-      "creneauReseau": "12 h – 13 h 30"
+      "creneauReseau": "hors créneau"
     },
     "mentions": {
       "avec": {
@@ -840,7 +844,7 @@
         "moyenne": 5.9
       },
       "sans": {
-        "posts": 29,
+        "posts": 30,
         "moyenne": 0.2
       }
     },

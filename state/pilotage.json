@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-12T11:00:36.152Z",
+  "genereLe": "2026-11-12T11:20:36.588Z",
   "jour": "2026-11-12",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 0,
+      "aujourdhui": 1,
       "semaine": 8,
-      "total": 78,
-      "dernier": "2026-11-11T13:07:50.170Z",
-      "lienDernier": "https://www.instagram.com/p/DfmjUMYFz-H/"
+      "total": 79,
+      "dernier": "2026-11-12T11:34:30.827Z",
+      "lienDernier": "https://www.instagram.com/p/Dfo9bgykwjD/"
     },
     "bluesky": {
       "actif": true,
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36145",
       "titre": "Bordeaux : nager dehors en plein hiver dans une eau à 27 °C",
       "lien": "https://passion-aquitaine.ouest-france.fr/bordeaux-piscine-jean-zay-bassin-nordique/",
-      "at": "2026-11-12T09:00:47.350Z",
+      "at": "2026-11-12T11:34:30.827Z",
       "reseaux": {
         "threads": {
           "texte": "Bonne nouvelle pour les nageurs bordelais qui pensaient ranger leur maillot jusqu’au printemps 🏊‍♀️ L’ex-piscine Stéhelin garde désormais son bassin extérieur ouvert tout l’hiver, avec une eau à 27 °C. Longtemps, ce bassin n’accueillait le public que l’été. De quoi garder le rythme des longueurs et profiter du grand air même quand Bordeaux se refroidit.\n@visitbordeaux",
@@ -201,6 +201,14 @@
           "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/bordeaux-piscine-jean-zay-bassin-nordique/",
           "sujet": null,
           "publieLe": "2026-11-12T09:00:47.350Z"
+        },
+        "instagram": {
+          "texte": "Une eau à 27 °C 🏊 en plein air, même au cœur de l’hiver, à Bordeaux.\n⠀\nL’ex-piscine Stéhelin, longtemps ouverte l’été seulement, garde désormais son bassin extérieur ouvert toute la saison froide. De quoi enchaîner les longueurs sous le ciel bordelais.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #Piscine #Natation",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261112-d181c42b-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-12T11:34:30.827Z"
         }
       }
     },
@@ -447,6 +455,16 @@
   ],
   "publications": [
     {
+      "channel": "instagram",
+      "at": "2026-11-12T11:34:30.827Z",
+      "titre": "Bordeaux : nager dehors en plein hiver dans une eau à 27 °C",
+      "lien": "https://passion-aquitaine.ouest-france.fr/bordeaux-piscine-jean-zay-bassin-nordique/",
+      "lienPost": "https://www.instagram.com/p/Dfo9bgykwjD/",
+      "format": null,
+      "texte": "Une eau à 27 °C 🏊 en plein air, même au cœur de l’hiver, à Bordeaux.\n⠀\nL’ex-piscine Stéhelin, longtemps ouverte l’été seulement, garde désormais son bassin extérieur ouvert toute la saison froide. De quoi enchaîner les longueurs sous le ciel bordelais.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #Piscine #Natation",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261112-d181c42b-1.jpg"
+    },
+    {
       "channel": "x",
       "at": "2026-11-12T09:00:47.350Z",
       "titre": "Bordeaux : nager dehors en plein hiver dans une eau à 27 °C",
@@ -535,36 +553,16 @@
       "format": "reponse",
       "texte": "Avant France-Turquie dimanche 15 novembre, revivez les sept précédents matches de l’équipe de France à #Bordeaux. Le huitième sera une grande première ⚽",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261111-208fc27f-x.jpg"
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-11-11T10:24:36.617Z",
-      "titre": "France-Turquie : le 8e match des Bleus en Gironde sera une grande première",
-      "lien": "https://passion-aquitaine.ouest-france.fr/france-turquie-bordeaux-matches-bleus/",
-      "lienPost": "https://www.instagram.com/p/DfmQoUEDfJK/",
-      "format": null,
-      "texte": "Les Bleus ont déjà joué sept fois à Bordeaux : vous vous souvenez de ces matches ?\n⠀\nAvant France-Turquie le dimanche 15 novembre, retour sur l’histoire de l’équipe de France en Gironde. Ce 8e rendez-vous sera une grande première ⚽\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #EquipeDeFrance #FranceTurquie",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261111-208fc27f-1.jpg"
     }
   ],
-  "file": [
-    {
-      "channel": "instagram",
-      "dueAt": "2026-11-12T11:33:57.163Z",
-      "prochainPassage": "2026-11-12T12:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Bordeaux : nager dehors en plein hiver dans une eau à 27 °C"
-    }
-  ],
+  "file": [],
   "alertes": [],
   "mesures": {
-    "releves": 565,
+    "releves": 567,
     "parReseau": {
       "instagram": {
-        "posts": 70,
-        "interactionsMoyennes": 13.1
+        "posts": 71,
+        "interactionsMoyennes": 12.9
       },
       "bluesky": {
         "posts": 68,
@@ -681,8 +679,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-12T11:00:41.858Z",
-    "posts": 48,
+    "genereLe": "2026-11-12T11:34:45.014Z",
+    "posts": 49,
     "parReseau": {
       "instagram": {
         "posts": 12,
@@ -697,7 +695,7 @@
         "moyenne": 0
       },
       "bluesky": {
-        "posts": 12,
+        "posts": 13,
         "moyenne": 0
       }
     },
@@ -707,7 +705,7 @@
         "moyenne": 3.9
       },
       "image": {
-        "posts": 5,
+        "posts": 6,
         "moyenne": 0
       },
       "card": {
@@ -721,8 +719,8 @@
     },
     "parCreneau": {
       "après-midi": {
-        "posts": 12,
-        "moyenne": 5.8
+        "posts": 13,
+        "moyenne": 5.3
       },
       "matin": {
         "posts": 27,
@@ -772,7 +770,7 @@
           "moyenne": 0
         },
         "12 h – 13 h 30": {
-          "posts": 2,
+          "posts": 3,
           "moyenne": 0
         },
         "18 h – 19 h 30": {
@@ -817,29 +815,29 @@
       "creneauReseau": "7 h – 8 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36140",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36123",
       "channel": "bluesky",
-      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mzzjxzutxn2t",
-      "publieLe": "2026-11-11T08:28:50.391Z",
+      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3mzzspgit7k22",
+      "publieLe": "2026-11-11T11:05:05.084Z",
       "jalon": 1,
-      "releveLe": "2026-11-12T09:00:37.725Z",
+      "releveLe": "2026-11-12T11:20:36.588Z",
       "likes": 0,
       "commentairesBruts": 0,
       "partages": 0,
       "vues": null,
       "commentaires": 0,
       "v": 2,
-      "titre": "Maisons fissurées : 4 villages girondins ont jusqu’au 22 novembre",
-      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mzzjxzutxn2t",
-      "format": "card",
-      "mention": false,
-      "creneau": "matin",
-      "creneauReseau": "8 h – 9 h 30"
+      "titre": "France-Turquie : le 8e match des Bleus en Gironde sera une grande première",
+      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mzzspgit7k22",
+      "format": "image",
+      "mention": true,
+      "creneau": "après-midi",
+      "creneauReseau": "12 h – 13 h 30"
     },
     "mentions": {
       "avec": {
-        "posts": 19,
-        "moyenne": 6.2
+        "posts": 20,
+        "moyenne": 5.9
       },
       "sans": {
         "posts": 29,
@@ -851,7 +849,7 @@
       "facebook": 14,
       "bluesky": 14,
       "x": 14,
-      "instagram": 13
+      "instagram": 14
     },
     "abonnes": {
       "instagram": {
@@ -897,7 +895,7 @@
       "Threads : le créneau 7 h – 8 h 30 fait 24 fois mieux que 10 h – 11 h 30 (7.2 contre 0.3 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Le format « reponse » fait 39 fois mieux que « reply » (3.9 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « reply » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+5, +0,4 %) ; Facebook recule (−21), à surveiller.",
-      "Les posts avec mention font 6 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
+      "Les posts avec mention font 5.7 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
     ]
   },
   "couts": {

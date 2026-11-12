@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-12T12:00:51.493Z",
+  "genereLe": "2026-11-12T12:20:42.247Z",
   "jour": "2026-11-12",
   "reseaux": {
     "instagram": {
@@ -61,7 +61,7 @@
         "reply"
       ],
       "aujourdhui": 1,
-      "semaine": 9,
+      "semaine": 8,
       "total": 77,
       "dernier": "2026-11-12T08:03:08.586Z",
       "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n23yyzdiyz26"
@@ -558,14 +558,14 @@
   "file": [],
   "alertes": [],
   "mesures": {
-    "releves": 568,
+    "releves": 570,
     "parReseau": {
       "instagram": {
         "posts": 71,
         "interactionsMoyennes": 12.9
       },
       "bluesky": {
-        "posts": 68,
+        "posts": 69,
         "interactionsMoyennes": 0.2
       },
       "facebook": {
@@ -679,16 +679,16 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-12T12:00:57.218Z",
-    "posts": 50,
+    "genereLe": "2026-11-12T12:20:48.422Z",
+    "posts": 51,
     "parReseau": {
       "instagram": {
         "posts": 12,
         "moyenne": 6.4
       },
       "threads": {
-        "posts": 12,
-        "moyenne": 3.9
+        "posts": 13,
+        "moyenne": 4.5
       },
       "facebook": {
         "posts": 13,
@@ -701,8 +701,8 @@
     },
     "parFormat": {
       "reponse": {
-        "posts": 12,
-        "moyenne": 3.9
+        "posts": 13,
+        "moyenne": 4.5
       },
       "image": {
         "posts": 6,
@@ -719,8 +719,8 @@
     },
     "parCreneau": {
       "après-midi": {
-        "posts": 14,
-        "moyenne": 4.9
+        "posts": 15,
+        "moyenne": 5.3
       },
       "matin": {
         "posts": 27,
@@ -737,13 +737,13 @@
           "posts": 6,
           "moyenne": 7.2
         },
+        "13 h – 14 h 30": {
+          "posts": 2,
+          "moyenne": 6
+        },
         "hors créneau": {
           "posts": 1,
           "moyenne": 2
-        },
-        "13 h – 14 h 30": {
-          "posts": 1,
-          "moyenne": 1
         },
         "10 h – 11 h 30": {
           "posts": 4,
@@ -797,7 +797,7 @@
         }
       }
     },
-    "interactionsTotal": 124,
+    "interactionsTotal": 135,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36056",
       "channel": "threads",
@@ -840,8 +840,8 @@
     },
     "mentions": {
       "avec": {
-        "posts": 20,
-        "moyenne": 5.9
+        "posts": 21,
+        "moyenne": 6.1
       },
       "sans": {
         "posts": 30,
@@ -892,14 +892,14 @@
     },
     "engagement": {
       "instagram": 0.06,
-      "threads": 0.34,
+      "threads": 0.39,
       "facebook": 0
     },
     "conseils": [
       "Threads : le créneau 7 h – 8 h 30 fait 24 fois mieux que 10 h – 11 h 30 (7.2 contre 0.3 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
-      "Le format « reponse » fait 39 fois mieux que « reply » (3.9 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « reply » de la rotation dans config/channels.json.",
+      "Le format « reponse » fait 45 fois mieux que « reply » (4.5 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « reply » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+5, +0,4 %) ; Facebook recule (−21), à surveiller.",
-      "Les posts avec mention font 5.7 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
+      "Les posts avec mention font 5.9 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
     ]
   },
   "couts": {

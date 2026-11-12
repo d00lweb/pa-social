@@ -3,7 +3,7 @@
     "cle": "2026-11",
     "publications": 70,
     "articles": 14,
-    "interactions": 124,
+    "interactions": 135,
     "parReseau": {
       "facebook": 14,
       "instagram": 14,
@@ -41,18 +41,18 @@
         "interactions": 19
       },
       {
+        "reseau": "threads",
+        "titre": "France-Turquie : le 8e match des Bleus en Gironde sera une grande première",
+        "lien": "https://www.threads.com/@lovaquitaine/post/DfmdAxulCau",
+        "image": "https://passion-aquitaine.ouest-france.fr/social/20261111-208fc27f-1-vignette.jpg",
+        "interactions": 11
+      },
+      {
         "reseau": "instagram",
         "titre": "Marché de Noël de Bruxelles : le Pays basque et le Béarn invités",
         "lien": "https://www.instagram.com/p/DfPRi5qjFR1/",
         "image": "https://passion-aquitaine.ouest-france.fr/social/20261102-116575f8-1-vignette.jpg",
         "interactions": 9
-      },
-      {
-        "reseau": "instagram",
-        "titre": "Grands crus de Bordeaux : qui possède les plus grands châteaux ?",
-        "lien": "https://www.instagram.com/p/DfR4f94F5_R/",
-        "image": "https://passion-aquitaine.ouest-france.fr/social/20261103-3e179b3c-1-vignette.jpg",
-        "interactions": 6
       }
     ]
   },

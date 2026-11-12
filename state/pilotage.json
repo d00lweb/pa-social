@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-12T06:20:32.256Z",
+  "genereLe": "2026-11-12T07:00:35.676Z",
   "jour": "2026-11-12",
   "reseaux": {
     "instagram": {
@@ -555,7 +555,53 @@
       "image": null
     }
   ],
-  "file": [],
+  "file": [
+    {
+      "channel": "threads",
+      "dueAt": "2026-11-12T07:28:34.448Z",
+      "prochainPassage": "2026-11-12T08:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Bordeaux : nager dehors en plein hiver dans une eau à 27 °C"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-11-12T07:34:34.322Z",
+      "prochainPassage": "2026-11-12T08:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Bordeaux : nager dehors en plein hiver dans une eau à 27 °C"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-11-12T08:03:06.596Z",
+      "prochainPassage": "2026-11-12T08:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Bordeaux : nager dehors en plein hiver dans une eau à 27 °C"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-11-12T09:00:00.000Z",
+      "prochainPassage": "2026-11-12T09:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Bordeaux : nager dehors en plein hiver dans une eau à 27 °C"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-11-12T11:33:57.163Z",
+      "prochainPassage": "2026-11-12T12:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Bordeaux : nager dehors en plein hiver dans une eau à 27 °C"
+    }
+  ],
   "alertes": [],
   "mesures": {
     "releves": 560,
@@ -640,7 +686,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-12T05:20:42.674Z"
+    "derniere": "2026-11-12T07:00:35.676Z"
   },
   "abonnes": {
     "instagram": {
@@ -679,7 +725,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-12T06:20:36.284Z",
+    "genereLe": "2026-11-12T07:01:11.439Z",
     "posts": 44,
     "parReseau": {
       "instagram": {
@@ -899,29 +945,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 0,
-      "entree": 0,
-      "sortie": 0,
-      "cout": 0,
+      "appels": 3,
+      "entree": 24235,
+      "sortie": 2863,
+      "cout": 0.1542,
       "cle": "2026-11-12"
     },
     "semaine": {
-      "appels": 14,
-      "entree": 111792,
-      "sortie": 12185,
-      "cout": 0.690868
+      "appels": 17,
+      "entree": 136027,
+      "sortie": 15048,
+      "cout": 0.8450679999999999
     },
     "mois": {
-      "appels": 41,
-      "entree": 327532,
-      "sortie": 36671,
-      "cout": 2.043548,
+      "appels": 44,
+      "entree": 351767,
+      "sortie": 39534,
+      "cout": 2.197748,
       "cle": "2026-11"
     },
-    "projection": 5.11,
-    "moyenneAppel": 0.0498,
+    "projection": 5.49,
+    "moyenneAppel": 0.0499,
     "parModele": {
-      "claude-opus-5-5": 41
+      "claude-opus-5-5": 44
     },
     "serie": [
       [
@@ -978,7 +1024,7 @@
       ],
       [
         "2026-11-12",
-        0
+        0.1542
       ]
     ],
     "depuis": "2026-09-23"

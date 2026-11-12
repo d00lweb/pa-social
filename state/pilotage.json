@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-12T07:00:35.676Z",
+  "genereLe": "2026-11-12T07:20:49.044Z",
   "jour": "2026-11-12",
   "reseaux": {
     "instagram": {
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 8,
-      "total": 73,
-      "dernier": "2026-11-11T11:30:03.793Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1784378303688050"
+      "aujourdhui": 1,
+      "semaine": 9,
+      "total": 74,
+      "dernier": "2026-11-12T07:34:39.909Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1785427890249758"
     },
     "threads": {
       "actif": true,
@@ -122,11 +122,11 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 8,
-      "total": 73,
-      "dernier": "2026-11-11T12:15:05.163Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DfmdAxulCau"
+      "aujourdhui": 1,
+      "semaine": 9,
+      "total": 74,
+      "dernier": "2026-11-12T07:31:58.588Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DfohUi1m10m"
     },
     "x": {
       "actif": true,
@@ -164,6 +164,30 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36145",
+      "titre": "Bordeaux : nager dehors en plein hiver dans une eau à 27 °C",
+      "lien": "https://passion-aquitaine.ouest-france.fr/bordeaux-piscine-jean-zay-bassin-nordique/",
+      "at": "2026-11-12T07:34:39.909Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Bonne nouvelle pour les nageurs bordelais qui pensaient ranger leur maillot jusqu’au printemps 🏊‍♀️ L’ex-piscine Stéhelin garde désormais son bassin extérieur ouvert tout l’hiver, avec une eau à 27 °C. Longtemps, ce bassin n’accueillait le public que l’été. De quoi garder le rythme des longueurs et profiter du grand air même quand Bordeaux se refroidit.\n@visitbordeaux",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261112-d181c42b-th.jpg",
+          "mode": "reponse",
+          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/bordeaux-piscine-jean-zay-bassin-nordique/",
+          "sujet": "Bordeaux",
+          "publieLe": "2026-11-12T07:31:58.588Z"
+        },
+        "facebook": {
+          "texte": "À Bordeaux, l’ex-piscine Stéhelin ne ferme plus son bassin extérieur à la fin de l’été, et l’eau y reste à 27 °C 🏊",
+          "image": null,
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-12T07:34:39.909Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36140",
       "titre": "Maisons fissurées : 4 villages girondins ont jusqu’au 22 novembre",
@@ -403,57 +427,29 @@
           "publieLe": "2026-11-08T12:04:30.848Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36047",
-      "titre": "Sécheresse : en novembre, la crise persiste près de Pomerol",
-      "lien": "https://passion-aquitaine.ouest-france.fr/gironde-secheresse-crise-novembre-barbanne/",
-      "at": "2026-11-07T19:14:59.246Z",
-      "reseaux": {
-        "x": {
-          "texte": "Même à l’automne, la sécheresse tient bon en Gironde : la Barbanne, près de #Pomerol, figure parmi les trois secteurs encore au 🚱 niveau crise.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261107-4d9477ef-x.jpg",
-          "mode": "reponse",
-          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/gironde-secheresse-crise-novembre-barbanne/",
-          "sujet": null,
-          "publieLe": "2026-11-07T09:00:40.603Z"
-        },
-        "threads": {
-          "texte": "La sécheresse ne s’arrête pas avec l’été 🌾 Les feuilles tombent, mais trois secteurs de Gironde restaient au niveau crise. Parmi eux, la Barbanne, près de Pomerol. Un point utile pour savoir où en est votre secteur et comprendre que la vigilance sur l’eau reste de mise, même à l’automne.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261107-4d9477ef-th.jpg",
-          "mode": "reponse",
-          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/gironde-secheresse-crise-novembre-barbanne/",
-          "sujet": "Pomerol",
-          "publieLe": "2026-11-07T10:29:07.370Z"
-        },
-        "instagram": {
-          "texte": "Trois secteurs de Gironde toujours au niveau 💧 crise, alors que l’automne est bien installé\n⠀\nLes feuilles tombent, mais la sécheresse persiste. Près de Pomerol, le secteur de la Barbanne fait partie des zones encore les plus touchées.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Gironde #Secheresse #Pomerol",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261107-4d9477ef-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-07T11:30:09.231Z"
-        },
-        "bluesky": {
-          "texte": "🍂 On pourrait croire l’épisode terminé avec l’automne. Pourtant, en #Gironde, trois secteurs restaient au niveau crise face à la #sécheresse, dont la Barbanne, près de #Pomerol.\n➡️ Lire l’article",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261107-4d9477ef-bsky.jpg",
-          "mode": "image",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-07T12:23:41.753Z"
-        },
-        "facebook": {
-          "texte": "Près de Pomerol, la Barbanne fait partie des trois secteurs girondins encore au niveau crise malgré l’automne 💧",
-          "image": null,
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-07T19:14:59.246Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "facebook",
+      "at": "2026-11-12T07:34:39.909Z",
+      "titre": "Bordeaux : nager dehors en plein hiver dans une eau à 27 °C",
+      "lien": "https://passion-aquitaine.ouest-france.fr/bordeaux-piscine-jean-zay-bassin-nordique/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1785427890249758",
+      "format": null,
+      "texte": "À Bordeaux, l’ex-piscine Stéhelin ne ferme plus son bassin extérieur à la fin de l’été, et l’eau y reste à 27 °C 🏊",
+      "image": null
+    },
+    {
+      "channel": "threads",
+      "at": "2026-11-12T07:31:58.588Z",
+      "titre": "Bordeaux : nager dehors en plein hiver dans une eau à 27 °C",
+      "lien": "https://passion-aquitaine.ouest-france.fr/bordeaux-piscine-jean-zay-bassin-nordique/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/DfohUi1m10m",
+      "format": "reponse",
+      "texte": "Bonne nouvelle pour les nageurs bordelais qui pensaient ranger leur maillot jusqu’au printemps 🏊‍♀️ L’ex-piscine Stéhelin garde désormais son bassin extérieur ouvert tout l’hiver, avec une eau à 27 °C. Longtemps, ce bassin n’accueillait le public que l’été. De quoi garder le rythme des longueurs et profiter du grand air même quand Bordeaux se refroidit.\n@visitbordeaux",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261112-d181c42b-th.jpg"
+    },
     {
       "channel": "instagram",
       "at": "2026-11-11T13:07:50.170Z",
@@ -533,47 +529,9 @@
       "format": "reponse",
       "texte": "Des murs qui se fendent, et une date limite toute proche 🧱 Dans quatre villages de #Gironde, les habitants aux maisons fissurées ont jusqu’au 22 novembre pour déclarer.",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261111-31894d88-x.jpg"
-    },
-    {
-      "channel": "bluesky",
-      "at": "2026-11-11T08:28:50.391Z",
-      "titre": "Maisons fissurées : 4 villages girondins ont jusqu’au 22 novembre",
-      "lien": "https://passion-aquitaine.ouest-france.fr/gironde-maisons-fissurees-catastrophe-naturelle/",
-      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mzzjxzutxn2t",
-      "format": "card",
-      "texte": "Quatre villages, une échéance : à #Camarsac, Coimères, Saint-Jean-de-Blaignac et Saint-Laurent-du-Bois, en #Gironde, les propriétaires de maisons fissurées doivent déclarer avant le 22 novembre 📋",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261111-31894d88-bsky.jpg"
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-11-11T08:07:43.352Z",
-      "titre": "Maisons fissurées : 4 villages girondins ont jusqu’au 22 novembre",
-      "lien": "https://passion-aquitaine.ouest-france.fr/gironde-maisons-fissurees-catastrophe-naturelle/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1784192210373326",
-      "format": null,
-      "texte": "Votre maison est fissurée et vous habitez l’un de ces quatre villages girondins : avez-vous pensé à le déclarer à temps ⏳",
-      "image": null
     }
   ],
   "file": [
-    {
-      "channel": "threads",
-      "dueAt": "2026-11-12T07:28:34.448Z",
-      "prochainPassage": "2026-11-12T08:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Bordeaux : nager dehors en plein hiver dans une eau à 27 °C"
-    },
-    {
-      "channel": "facebook",
-      "dueAt": "2026-11-12T07:34:34.322Z",
-      "prochainPassage": "2026-11-12T08:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Bordeaux : nager dehors en plein hiver dans une eau à 27 °C"
-    },
     {
       "channel": "bluesky",
       "dueAt": "2026-11-12T08:03:06.596Z",
@@ -725,7 +683,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-12T07:01:11.439Z",
+    "genereLe": "2026-11-12T07:34:44.114Z",
     "posts": 44,
     "parReseau": {
       "instagram": {
@@ -891,8 +849,8 @@
       }
     },
     "publies": {
-      "threads": 13,
-      "facebook": 13,
+      "threads": 14,
+      "facebook": 14,
       "bluesky": 13,
       "x": 13,
       "instagram": 13

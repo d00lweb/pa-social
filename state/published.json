@@ -6645,5 +6645,41 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36145",
+    "channel": "threads",
+    "at": "2026-11-12T07:31:58.588Z",
+    "mediaId": "18122940166948366",
+    "titre": "Bordeaux : nager dehors en plein hiver dans une eau à 27 °C",
+    "lien": "https://passion-aquitaine.ouest-france.fr/bordeaux-piscine-jean-zay-bassin-nordique/",
+    "lienPost": "https://www.threads.com/@lovaquitaine/post/DfohUi1m10m",
+    "format": "reponse",
+    "mention": true,
+    "apercu": {
+      "texte": "Bonne nouvelle pour les nageurs bordelais qui pensaient ranger leur maillot jusqu’au printemps 🏊‍♀️ L’ex-piscine Stéhelin garde désormais son bassin extérieur ouvert tout l’hiver, avec une eau à 27 °C. Longtemps, ce bassin n’accueillait le public que l’été. De quoi garder le rythme des longueurs et profiter du grand air même quand Bordeaux se refroidit.\n@visitbordeaux",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261112-d181c42b-th.jpg",
+      "mode": "reponse",
+      "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/bordeaux-piscine-jean-zay-bassin-nordique/",
+      "sujet": "Bordeaux"
+    }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36145",
+    "channel": "facebook",
+    "at": "2026-11-12T07:34:39.909Z",
+    "mediaId": "227437307428711_1785427890249758",
+    "titre": "Bordeaux : nager dehors en plein hiver dans une eau à 27 °C",
+    "lien": "https://passion-aquitaine.ouest-france.fr/bordeaux-piscine-jean-zay-bassin-nordique/",
+    "lienPost": "https://www.facebook.com/1720946116697936/posts/1785427890249758",
+    "format": null,
+    "mention": false,
+    "apercu": {
+      "texte": "À Bordeaux, l’ex-piscine Stéhelin ne ferme plus son bassin extérieur à la fin de l’été, et l’eau y reste à 27 °C 🏊",
+      "image": null,
+      "mode": null,
+      "reponse": null,
+      "sujet": null
+    }
   }
 ]

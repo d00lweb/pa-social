@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-12T08:00:41.990Z",
+  "genereLe": "2026-11-12T08:20:32.096Z",
   "jour": "2026-11-12",
   "reseaux": {
     "instagram": {
@@ -561,7 +561,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 560,
+    "releves": 561,
     "parReseau": {
       "instagram": {
         "posts": 70,
@@ -682,8 +682,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-12T08:03:19.115Z",
-    "posts": 44,
+    "genereLe": "2026-11-12T08:20:36.122Z",
+    "posts": 45,
     "parReseau": {
       "instagram": {
         "posts": 11,
@@ -694,7 +694,7 @@
         "moyenne": 4.2
       },
       "facebook": {
-        "posts": 11,
+        "posts": 12,
         "moyenne": 0
       },
       "bluesky": {
@@ -726,8 +726,8 @@
         "moyenne": 5.8
       },
       "matin": {
-        "posts": 23,
-        "moyenne": 1.9
+        "posts": 24,
+        "moyenne": 1.8
       },
       "soir": {
         "posts": 9,
@@ -755,7 +755,7 @@
       },
       "facebook": {
         "8 h – 9 h 30": {
-          "posts": 7,
+          "posts": 8,
           "moyenne": 0
         },
         "20 h – 21 h 30": {
@@ -818,24 +818,24 @@
       "creneauReseau": "7 h – 8 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36052",
-      "channel": "threads",
-      "mediaId": "18102351053643504",
-      "publieLe": "2026-11-10T10:15:42.556Z",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36140",
+      "channel": "facebook",
+      "mediaId": "227437307428711_1784192210373326",
+      "publieLe": "2026-11-11T08:07:43.352Z",
       "jalon": 1,
-      "releveLe": "2026-11-11T10:20:38.062Z",
+      "releveLe": "2026-11-12T08:20:32.096Z",
       "likes": 0,
-      "commentairesBruts": 1,
+      "commentairesBruts": 0,
       "partages": 0,
-      "vues": 169,
+      "vues": null,
       "commentaires": 0,
       "v": 2,
-      "titre": "Géminides : jusqu’à 150 étoiles filantes à voir depuis les Landes",
-      "lien": "https://www.threads.com/@lovaquitaine/post/DfjqX47Ebi9",
-      "format": "reponse",
+      "titre": "Maisons fissurées : 4 villages girondins ont jusqu’au 22 novembre",
+      "lien": "https://www.facebook.com/1720946116697936/posts/1784192210373326",
+      "format": null,
       "mention": false,
       "creneau": "matin",
-      "creneauReseau": "10 h – 11 h 30"
+      "creneauReseau": "8 h – 9 h 30"
     },
     "mentions": {
       "avec": {
@@ -843,7 +843,7 @@
         "moyenne": 6.4
       },
       "sans": {
-        "posts": 26,
+        "posts": 27,
         "moyenne": 0.2
       }
     },

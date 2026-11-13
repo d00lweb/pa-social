@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-13T11:20:32.875Z",
+  "genereLe": "2026-11-13T11:38:41.953Z",
   "jour": "2026-11-13",
   "reseaux": {
     "instagram": {
@@ -563,7 +563,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 575,
+    "releves": 576,
     "parReseau": {
       "instagram": {
         "posts": 71,
@@ -645,7 +645,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-13T10:20:35.173Z"
+    "derniere": "2026-11-13T11:38:41.953Z"
   },
   "abonnes": {
     "instagram": {
@@ -684,12 +684,12 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-13T11:20:51.266Z",
-    "posts": 55,
+    "genereLe": "2026-11-13T11:38:45.662Z",
+    "posts": 56,
     "parReseau": {
       "instagram": {
-        "posts": 13,
-        "moyenne": 6.1
+        "posts": 14,
+        "moyenne": 5.9
       },
       "threads": {
         "posts": 14,
@@ -724,7 +724,7 @@
     },
     "parCreneau": {
       "après-midi": {
-        "posts": 16,
+        "posts": 17,
         "moyenne": 5.1
       },
       "matin": {
@@ -789,8 +789,8 @@
       },
       "instagram": {
         "12 h – 13 h 30": {
-          "posts": 9,
-          "moyenne": 7.6
+          "posts": 10,
+          "moyenne": 7.2
         },
         "hors créneau": {
           "posts": 3,
@@ -802,7 +802,7 @@
         }
       }
     },
-    "interactionsTotal": 144,
+    "interactionsTotal": 148,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36056",
       "channel": "threads",
@@ -845,8 +845,8 @@
     },
     "mentions": {
       "avec": {
-        "posts": 23,
-        "moyenne": 6
+        "posts": 24,
+        "moyenne": 5.9
       },
       "sans": {
         "posts": 32,
@@ -904,7 +904,7 @@
       "Threads : le créneau 7 h – 8 h 30 fait 23,7 fois mieux que 10 h – 11 h 30 (7.1 contre 0.3 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Le format « reponse » fait 46 fois mieux que « reply » (4.6 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « reply » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+7, +0,6 %) ; Facebook recule (−21), à surveiller.",
-      "Les posts avec mention font 5.8 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
+      "Les posts avec mention font 5.7 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
     ]
   },
   "couts": {

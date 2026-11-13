@@ -1659,5 +1659,56 @@
     "instagram": [],
     "threads": [],
     "bluesky": []
+  },
+  "commune:mairie:sarlat": {
+    "v": 3,
+    "cherche": "2026-11-13T07:01:15.013Z",
+    "instagram": [
+      {
+        "handle": "villedesarlat",
+        "nom": "Ville de Sarlat",
+        "abonnes": 5958,
+        "preuve": 2
+      }
+    ],
+    "x": [],
+    "threads": [
+      {
+        "handle": "villedesarlat",
+        "nom": "Ville de Sarlat",
+        "abonnes": 5958,
+        "preuve": 2
+      }
+    ],
+    "bluesky": []
+  },
+  "commune:tourisme:sarlat": {
+    "v": 3,
+    "cherche": "2026-11-13T07:01:15.013Z",
+    "instagram": [
+      {
+        "handle": "sarlattourisme",
+        "nom": "Sarlat Tourisme",
+        "abonnes": 25849,
+        "preuve": 2
+      }
+    ],
+    "x": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:sarlat:noel": {
+    "v": 3,
+    "cherche": "2026-11-13T07:01:15.013Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:sarlat:tradition": {
+    "v": 3,
+    "cherche": "2026-11-13T07:01:15.013Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
   }
 }

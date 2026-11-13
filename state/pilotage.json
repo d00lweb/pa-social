@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-13T06:20:34.388Z",
+  "genereLe": "2026-11-13T07:00:44.772Z",
   "jour": "2026-11-13",
   "reseaux": {
     "instagram": {
@@ -555,7 +555,53 @@
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261111-208fc27f-x.jpg"
     }
   ],
-  "file": [],
+  "file": [
+    {
+      "channel": "threads",
+      "dueAt": "2026-11-13T07:24:23.355Z",
+      "prochainPassage": "2026-11-13T08:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Marché de Noël de Sarlat : la Corse invitée pour les 20 ans"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-11-13T08:10:50.630Z",
+      "prochainPassage": "2026-11-13T08:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Marché de Noël de Sarlat : la Corse invitée pour les 20 ans"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-11-13T08:14:52.575Z",
+      "prochainPassage": "2026-11-13T08:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Marché de Noël de Sarlat : la Corse invitée pour les 20 ans"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-11-13T09:00:00.000Z",
+      "prochainPassage": "2026-11-13T09:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Marché de Noël de Sarlat : la Corse invitée pour les 20 ans"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-11-13T12:07:14.945Z",
+      "prochainPassage": "2026-11-13T12:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Marché de Noël de Sarlat : la Corse invitée pour les 20 ans"
+    }
+  ],
   "alertes": [],
   "mesures": {
     "releves": 572,
@@ -679,7 +725,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-13T06:20:38.710Z",
+    "genereLe": "2026-11-13T07:01:28.261Z",
     "posts": 52,
     "parReseau": {
       "instagram": {
@@ -904,29 +950,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 0,
-      "entree": 0,
-      "sortie": 0,
-      "cout": 0,
+      "appels": 3,
+      "entree": 24317,
+      "sortie": 2700,
+      "cout": 0.151268,
       "cle": "2026-11-13"
     },
     "semaine": {
-      "appels": 14,
-      "entree": 112072,
-      "sortie": 12515,
-      "cout": 0.6985879999999999
+      "appels": 17,
+      "entree": 136389,
+      "sortie": 15215,
+      "cout": 0.8498559999999998
     },
     "mois": {
-      "appels": 44,
-      "entree": 351767,
-      "sortie": 39534,
-      "cout": 2.197748,
+      "appels": 47,
+      "entree": 376084,
+      "sortie": 42234,
+      "cout": 2.3490159999999998,
       "cle": "2026-11"
     },
-    "projection": 5.07,
-    "moyenneAppel": 0.0499,
+    "projection": 5.42,
+    "moyenneAppel": 0.05,
     "parModele": {
-      "claude-opus-5-5": 44
+      "claude-opus-5-5": 47
     },
     "serie": [
       [
@@ -983,7 +1029,7 @@
       ],
       [
         "2026-11-13",
-        0
+        0.1513
       ]
     ],
     "depuis": "2026-09-23"

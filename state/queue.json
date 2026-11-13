@@ -1,1 +1,837 @@
-[]
+[
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36150",
+    "channel": "instagram",
+    "dueAt": 1794571634945,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Marché de Noël de Sarlat : la Corse invitée pour les 20 ans",
+      "link": "https://passion-aquitaine.ouest-france.fr/sarlat-marche-noel-2026-corse-i-muvrini/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36150",
+      "pubDate": "Fri, 13 Nov 2026 06:55:37 +0000",
+      "date": 1794552937000,
+      "categories": [
+        "Actus",
+        "Culture",
+        "Dordogne",
+        "Fêtes & férias"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2025/11/noel-sarlat.jpg",
+      "description": "La Corse au cœur du Périgord noir : pour ses 20 ans, le marché de Noël de Sarlat invite la Corse et offre un concert gratuit d’I Muvrini."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Périgord",
+      "visuel": {
+        "titre": "Marché de Noël de Sarlat : la Corse invitée pour les 20 ans",
+        "surlignage": "Corse",
+        "description": "Pour fêter ses 20 ans, le marché de Noël de Sarlat met la Corse à l’honneur au cœur du Périgord noir. Et offre au public un concert gratuit d’I Muvrini.",
+        "texte_alternatif": "Le marché de Noël de Sarlat, en Périgord noir, fête ses 20 ans en invitant la Corse, avec un concert gratuit d’I Muvrini."
+      },
+      "entites": [
+        {
+          "nom": "Marché de Noël de Sarlat",
+          "role": "sujet",
+          "type": "evenement"
+        },
+        {
+          "nom": "I Muvrini",
+          "role": "acteur",
+          "type": "artiste"
+        }
+      ],
+      "domaines": [
+        "noël",
+        "tradition"
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "Sarlat, en Périgord noir, se met à l’heure corse pour Noël 🎄\nPour ses 20 ans, le marché de Noël de Sarlat invite la Corse. Au programme aussi : un concert gratuit d’I Muvrini.",
+        "hashtags": [
+          "#Sarlat",
+          "#MarchéDeNoël",
+          "#Corse"
+        ]
+      },
+      "facebook": {
+        "texte": "Des polyphonies corses au pied des maisons de Sarlat, et en concert gratuit : I Muvrini s’invite au marché de Noël 🎶"
+      },
+      "bluesky": {
+        "texte": "Un concert gratuit d’I Muvrini à Sarlat : c’est le cadeau du marché de Noël, qui fête ses 20 ans en invitant la Corse au cœur du Périgord noir 🎄",
+        "hashtag": "#Sarlat"
+      },
+      "threads": {
+        "texte": "🎤 Pour ses 20 ans, le marché de Noël de Sarlat ne se contente pas de ses chalets : il a choisi une région invitée, la Corse. Et cerise sur le gâteau, un concert gratuit d’I Muvrini en plein Périgord noir. Vous imaginiez la Corse et le Périgord réunis pour Noël ?",
+        "sujet": "Périgord"
+      },
+      "x": {
+        "texte": "Les chants corses résonnent dans les ruelles de Sarlat 🎶 Pour ses 20 ans, le marché de Noël invite la Corse et offre un concert gratuit d’I Muvrini."
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 8096,
+        "output": 878
+      },
+      "angles": {
+        "instagram": "lieu en tête",
+        "facebook": "effet de surprise",
+        "bluesky": "bénéfice pour le lecteur",
+        "threads": "détail méconnu",
+        "x": "image évocatrice"
+      },
+      "lieuSource": {
+        "precis": "Marché de Noël de Sarlat",
+        "ville": "Sarlat",
+        "departement": "Dordogne"
+      },
+      "lieuNom": "Marché de Noël de Sarlat",
+      "commune": "Sarlat",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "I Muvrini",
+            "handle": "imuvriniofficiel",
+            "abonnes": 8230,
+            "preuve": 3,
+            "role": "acteur",
+            "echelon": "sujet"
+          },
+          {
+            "nom": "Ville de Sarlat",
+            "handle": "villedesarlat",
+            "abonnes": 5958,
+            "preuve": 2,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          },
+          {
+            "nom": "Sarlat Tourisme",
+            "handle": "sarlattourisme",
+            "abonnes": 25849,
+            "preuve": 2,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "tourisme"
+          },
+          {
+            "nom": "Dordogne Périgord Tourisme",
+            "handle": "dordogneperigordtourisme",
+            "abonnes": 47562,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "I Muvrini",
+            "handle": "i_muvrini",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "acteur",
+            "echelon": "sujet"
+          },
+          {
+            "nom": "Dordogne",
+            "handle": "cddordogne",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "bluesky": [],
+        "threads": [
+          {
+            "nom": "Ville de Sarlat",
+            "handle": "villedesarlat",
+            "abonnes": 5958,
+            "preuve": 2,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          }
+        ],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36150",
+    "channel": "bluesky",
+    "dueAt": 1794557450630,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Marché de Noël de Sarlat : la Corse invitée pour les 20 ans",
+      "link": "https://passion-aquitaine.ouest-france.fr/sarlat-marche-noel-2026-corse-i-muvrini/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36150",
+      "pubDate": "Fri, 13 Nov 2026 06:55:37 +0000",
+      "date": 1794552937000,
+      "categories": [
+        "Actus",
+        "Culture",
+        "Dordogne",
+        "Fêtes & férias"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2025/11/noel-sarlat.jpg",
+      "description": "La Corse au cœur du Périgord noir : pour ses 20 ans, le marché de Noël de Sarlat invite la Corse et offre un concert gratuit d’I Muvrini."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Périgord",
+      "visuel": {
+        "titre": "Marché de Noël de Sarlat : la Corse invitée pour les 20 ans",
+        "surlignage": "Corse",
+        "description": "Pour fêter ses 20 ans, le marché de Noël de Sarlat met la Corse à l’honneur au cœur du Périgord noir. Et offre au public un concert gratuit d’I Muvrini.",
+        "texte_alternatif": "Le marché de Noël de Sarlat, en Périgord noir, fête ses 20 ans en invitant la Corse, avec un concert gratuit d’I Muvrini."
+      },
+      "entites": [
+        {
+          "nom": "Marché de Noël de Sarlat",
+          "role": "sujet",
+          "type": "evenement"
+        },
+        {
+          "nom": "I Muvrini",
+          "role": "acteur",
+          "type": "artiste"
+        }
+      ],
+      "domaines": [
+        "noël",
+        "tradition"
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "Sarlat, en Périgord noir, se met à l’heure corse pour Noël 🎄\nPour ses 20 ans, le marché de Noël de Sarlat invite la Corse. Au programme aussi : un concert gratuit d’I Muvrini.",
+        "hashtags": [
+          "#Sarlat",
+          "#MarchéDeNoël",
+          "#Corse"
+        ]
+      },
+      "facebook": {
+        "texte": "Des polyphonies corses au pied des maisons de Sarlat, et en concert gratuit : I Muvrini s’invite au marché de Noël 🎶"
+      },
+      "bluesky": {
+        "texte": "Un concert gratuit d’I Muvrini à Sarlat : c’est le cadeau du marché de Noël, qui fête ses 20 ans en invitant la Corse au cœur du Périgord noir 🎄",
+        "hashtag": "#Sarlat"
+      },
+      "threads": {
+        "texte": "🎤 Pour ses 20 ans, le marché de Noël de Sarlat ne se contente pas de ses chalets : il a choisi une région invitée, la Corse. Et cerise sur le gâteau, un concert gratuit d’I Muvrini en plein Périgord noir. Vous imaginiez la Corse et le Périgord réunis pour Noël ?",
+        "sujet": "Périgord"
+      },
+      "x": {
+        "texte": "Les chants corses résonnent dans les ruelles de Sarlat 🎶 Pour ses 20 ans, le marché de Noël invite la Corse et offre un concert gratuit d’I Muvrini."
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 8096,
+        "output": 878
+      },
+      "angles": {
+        "instagram": "lieu en tête",
+        "facebook": "effet de surprise",
+        "bluesky": "bénéfice pour le lecteur",
+        "threads": "détail méconnu",
+        "x": "image évocatrice"
+      },
+      "lieuSource": {
+        "precis": "Marché de Noël de Sarlat",
+        "ville": "Sarlat",
+        "departement": "Dordogne"
+      },
+      "lieuNom": "Marché de Noël de Sarlat",
+      "commune": "Sarlat",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "I Muvrini",
+            "handle": "imuvriniofficiel",
+            "abonnes": 8230,
+            "preuve": 3,
+            "role": "acteur",
+            "echelon": "sujet"
+          },
+          {
+            "nom": "Ville de Sarlat",
+            "handle": "villedesarlat",
+            "abonnes": 5958,
+            "preuve": 2,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          },
+          {
+            "nom": "Sarlat Tourisme",
+            "handle": "sarlattourisme",
+            "abonnes": 25849,
+            "preuve": 2,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "tourisme"
+          },
+          {
+            "nom": "Dordogne Périgord Tourisme",
+            "handle": "dordogneperigordtourisme",
+            "abonnes": 47562,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "I Muvrini",
+            "handle": "i_muvrini",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "acteur",
+            "echelon": "sujet"
+          },
+          {
+            "nom": "Dordogne",
+            "handle": "cddordogne",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "bluesky": [],
+        "threads": [
+          {
+            "nom": "Ville de Sarlat",
+            "handle": "villedesarlat",
+            "abonnes": 5958,
+            "preuve": 2,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          }
+        ],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36150",
+    "channel": "facebook",
+    "dueAt": 1794557692575,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Marché de Noël de Sarlat : la Corse invitée pour les 20 ans",
+      "link": "https://passion-aquitaine.ouest-france.fr/sarlat-marche-noel-2026-corse-i-muvrini/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36150",
+      "pubDate": "Fri, 13 Nov 2026 06:55:37 +0000",
+      "date": 1794552937000,
+      "categories": [
+        "Actus",
+        "Culture",
+        "Dordogne",
+        "Fêtes & férias"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2025/11/noel-sarlat.jpg",
+      "description": "La Corse au cœur du Périgord noir : pour ses 20 ans, le marché de Noël de Sarlat invite la Corse et offre un concert gratuit d’I Muvrini."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Périgord",
+      "visuel": {
+        "titre": "Marché de Noël de Sarlat : la Corse invitée pour les 20 ans",
+        "surlignage": "Corse",
+        "description": "Pour fêter ses 20 ans, le marché de Noël de Sarlat met la Corse à l’honneur au cœur du Périgord noir. Et offre au public un concert gratuit d’I Muvrini.",
+        "texte_alternatif": "Le marché de Noël de Sarlat, en Périgord noir, fête ses 20 ans en invitant la Corse, avec un concert gratuit d’I Muvrini."
+      },
+      "entites": [
+        {
+          "nom": "Marché de Noël de Sarlat",
+          "role": "sujet",
+          "type": "evenement"
+        },
+        {
+          "nom": "I Muvrini",
+          "role": "acteur",
+          "type": "artiste"
+        }
+      ],
+      "domaines": [
+        "noël",
+        "tradition"
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "Sarlat, en Périgord noir, se met à l’heure corse pour Noël 🎄\nPour ses 20 ans, le marché de Noël de Sarlat invite la Corse. Au programme aussi : un concert gratuit d’I Muvrini.",
+        "hashtags": [
+          "#Sarlat",
+          "#MarchéDeNoël",
+          "#Corse"
+        ]
+      },
+      "facebook": {
+        "texte": "Des polyphonies corses au pied des maisons de Sarlat, et en concert gratuit : I Muvrini s’invite au marché de Noël 🎶"
+      },
+      "bluesky": {
+        "texte": "Un concert gratuit d’I Muvrini à Sarlat : c’est le cadeau du marché de Noël, qui fête ses 20 ans en invitant la Corse au cœur du Périgord noir 🎄",
+        "hashtag": "#Sarlat"
+      },
+      "threads": {
+        "texte": "🎤 Pour ses 20 ans, le marché de Noël de Sarlat ne se contente pas de ses chalets : il a choisi une région invitée, la Corse. Et cerise sur le gâteau, un concert gratuit d’I Muvrini en plein Périgord noir. Vous imaginiez la Corse et le Périgord réunis pour Noël ?",
+        "sujet": "Périgord"
+      },
+      "x": {
+        "texte": "Les chants corses résonnent dans les ruelles de Sarlat 🎶 Pour ses 20 ans, le marché de Noël invite la Corse et offre un concert gratuit d’I Muvrini."
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 8096,
+        "output": 878
+      },
+      "angles": {
+        "instagram": "lieu en tête",
+        "facebook": "effet de surprise",
+        "bluesky": "bénéfice pour le lecteur",
+        "threads": "détail méconnu",
+        "x": "image évocatrice"
+      },
+      "lieuSource": {
+        "precis": "Marché de Noël de Sarlat",
+        "ville": "Sarlat",
+        "departement": "Dordogne"
+      },
+      "lieuNom": "Marché de Noël de Sarlat",
+      "commune": "Sarlat",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "I Muvrini",
+            "handle": "imuvriniofficiel",
+            "abonnes": 8230,
+            "preuve": 3,
+            "role": "acteur",
+            "echelon": "sujet"
+          },
+          {
+            "nom": "Ville de Sarlat",
+            "handle": "villedesarlat",
+            "abonnes": 5958,
+            "preuve": 2,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          },
+          {
+            "nom": "Sarlat Tourisme",
+            "handle": "sarlattourisme",
+            "abonnes": 25849,
+            "preuve": 2,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "tourisme"
+          },
+          {
+            "nom": "Dordogne Périgord Tourisme",
+            "handle": "dordogneperigordtourisme",
+            "abonnes": 47562,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "I Muvrini",
+            "handle": "i_muvrini",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "acteur",
+            "echelon": "sujet"
+          },
+          {
+            "nom": "Dordogne",
+            "handle": "cddordogne",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "bluesky": [],
+        "threads": [
+          {
+            "nom": "Ville de Sarlat",
+            "handle": "villedesarlat",
+            "abonnes": 5958,
+            "preuve": 2,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          }
+        ],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36150",
+    "channel": "threads",
+    "dueAt": 1794554663355,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Marché de Noël de Sarlat : la Corse invitée pour les 20 ans",
+      "link": "https://passion-aquitaine.ouest-france.fr/sarlat-marche-noel-2026-corse-i-muvrini/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36150",
+      "pubDate": "Fri, 13 Nov 2026 06:55:37 +0000",
+      "date": 1794552937000,
+      "categories": [
+        "Actus",
+        "Culture",
+        "Dordogne",
+        "Fêtes & férias"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2025/11/noel-sarlat.jpg",
+      "description": "La Corse au cœur du Périgord noir : pour ses 20 ans, le marché de Noël de Sarlat invite la Corse et offre un concert gratuit d’I Muvrini."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Périgord",
+      "visuel": {
+        "titre": "Marché de Noël de Sarlat : la Corse invitée pour les 20 ans",
+        "surlignage": "Corse",
+        "description": "Pour fêter ses 20 ans, le marché de Noël de Sarlat met la Corse à l’honneur au cœur du Périgord noir. Et offre au public un concert gratuit d’I Muvrini.",
+        "texte_alternatif": "Le marché de Noël de Sarlat, en Périgord noir, fête ses 20 ans en invitant la Corse, avec un concert gratuit d’I Muvrini."
+      },
+      "entites": [
+        {
+          "nom": "Marché de Noël de Sarlat",
+          "role": "sujet",
+          "type": "evenement"
+        },
+        {
+          "nom": "I Muvrini",
+          "role": "acteur",
+          "type": "artiste"
+        }
+      ],
+      "domaines": [
+        "noël",
+        "tradition"
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "Sarlat, en Périgord noir, se met à l’heure corse pour Noël 🎄\nPour ses 20 ans, le marché de Noël de Sarlat invite la Corse. Au programme aussi : un concert gratuit d’I Muvrini.",
+        "hashtags": [
+          "#Sarlat",
+          "#MarchéDeNoël",
+          "#Corse"
+        ]
+      },
+      "facebook": {
+        "texte": "Des polyphonies corses au pied des maisons de Sarlat, et en concert gratuit : I Muvrini s’invite au marché de Noël 🎶"
+      },
+      "bluesky": {
+        "texte": "Un concert gratuit d’I Muvrini à Sarlat : c’est le cadeau du marché de Noël, qui fête ses 20 ans en invitant la Corse au cœur du Périgord noir 🎄",
+        "hashtag": "#Sarlat"
+      },
+      "threads": {
+        "texte": "🎤 Pour ses 20 ans, le marché de Noël de Sarlat ne se contente pas de ses chalets : il a choisi une région invitée, la Corse. Et cerise sur le gâteau, un concert gratuit d’I Muvrini en plein Périgord noir. Vous imaginiez la Corse et le Périgord réunis pour Noël ?",
+        "sujet": "Périgord"
+      },
+      "x": {
+        "texte": "Les chants corses résonnent dans les ruelles de Sarlat 🎶 Pour ses 20 ans, le marché de Noël invite la Corse et offre un concert gratuit d’I Muvrini."
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 8096,
+        "output": 878
+      },
+      "angles": {
+        "instagram": "lieu en tête",
+        "facebook": "effet de surprise",
+        "bluesky": "bénéfice pour le lecteur",
+        "threads": "détail méconnu",
+        "x": "image évocatrice"
+      },
+      "lieuSource": {
+        "precis": "Marché de Noël de Sarlat",
+        "ville": "Sarlat",
+        "departement": "Dordogne"
+      },
+      "lieuNom": "Marché de Noël de Sarlat",
+      "commune": "Sarlat",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "I Muvrini",
+            "handle": "imuvriniofficiel",
+            "abonnes": 8230,
+            "preuve": 3,
+            "role": "acteur",
+            "echelon": "sujet"
+          },
+          {
+            "nom": "Ville de Sarlat",
+            "handle": "villedesarlat",
+            "abonnes": 5958,
+            "preuve": 2,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          },
+          {
+            "nom": "Sarlat Tourisme",
+            "handle": "sarlattourisme",
+            "abonnes": 25849,
+            "preuve": 2,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "tourisme"
+          },
+          {
+            "nom": "Dordogne Périgord Tourisme",
+            "handle": "dordogneperigordtourisme",
+            "abonnes": 47562,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "I Muvrini",
+            "handle": "i_muvrini",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "acteur",
+            "echelon": "sujet"
+          },
+          {
+            "nom": "Dordogne",
+            "handle": "cddordogne",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "bluesky": [],
+        "threads": [
+          {
+            "nom": "Ville de Sarlat",
+            "handle": "villedesarlat",
+            "abonnes": 5958,
+            "preuve": 2,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          }
+        ],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36150",
+    "channel": "x",
+    "dueAt": 1794560400000,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Marché de Noël de Sarlat : la Corse invitée pour les 20 ans",
+      "link": "https://passion-aquitaine.ouest-france.fr/sarlat-marche-noel-2026-corse-i-muvrini/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36150",
+      "pubDate": "Fri, 13 Nov 2026 06:55:37 +0000",
+      "date": 1794552937000,
+      "categories": [
+        "Actus",
+        "Culture",
+        "Dordogne",
+        "Fêtes & férias"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2025/11/noel-sarlat.jpg",
+      "description": "La Corse au cœur du Périgord noir : pour ses 20 ans, le marché de Noël de Sarlat invite la Corse et offre un concert gratuit d’I Muvrini."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Périgord",
+      "visuel": {
+        "titre": "Marché de Noël de Sarlat : la Corse invitée pour les 20 ans",
+        "surlignage": "Corse",
+        "description": "Pour fêter ses 20 ans, le marché de Noël de Sarlat met la Corse à l’honneur au cœur du Périgord noir. Et offre au public un concert gratuit d’I Muvrini.",
+        "texte_alternatif": "Le marché de Noël de Sarlat, en Périgord noir, fête ses 20 ans en invitant la Corse, avec un concert gratuit d’I Muvrini."
+      },
+      "entites": [
+        {
+          "nom": "Marché de Noël de Sarlat",
+          "role": "sujet",
+          "type": "evenement"
+        },
+        {
+          "nom": "I Muvrini",
+          "role": "acteur",
+          "type": "artiste"
+        }
+      ],
+      "domaines": [
+        "noël",
+        "tradition"
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "Sarlat, en Périgord noir, se met à l’heure corse pour Noël 🎄\nPour ses 20 ans, le marché de Noël de Sarlat invite la Corse. Au programme aussi : un concert gratuit d’I Muvrini.",
+        "hashtags": [
+          "#Sarlat",
+          "#MarchéDeNoël",
+          "#Corse"
+        ]
+      },
+      "facebook": {
+        "texte": "Des polyphonies corses au pied des maisons de Sarlat, et en concert gratuit : I Muvrini s’invite au marché de Noël 🎶"
+      },
+      "bluesky": {
+        "texte": "Un concert gratuit d’I Muvrini à Sarlat : c’est le cadeau du marché de Noël, qui fête ses 20 ans en invitant la Corse au cœur du Périgord noir 🎄",
+        "hashtag": "#Sarlat"
+      },
+      "threads": {
+        "texte": "🎤 Pour ses 20 ans, le marché de Noël de Sarlat ne se contente pas de ses chalets : il a choisi une région invitée, la Corse. Et cerise sur le gâteau, un concert gratuit d’I Muvrini en plein Périgord noir. Vous imaginiez la Corse et le Périgord réunis pour Noël ?",
+        "sujet": "Périgord"
+      },
+      "x": {
+        "texte": "Les chants corses résonnent dans les ruelles de Sarlat 🎶 Pour ses 20 ans, le marché de Noël invite la Corse et offre un concert gratuit d’I Muvrini."
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 8096,
+        "output": 878
+      },
+      "angles": {
+        "instagram": "lieu en tête",
+        "facebook": "effet de surprise",
+        "bluesky": "bénéfice pour le lecteur",
+        "threads": "détail méconnu",
+        "x": "image évocatrice"
+      },
+      "lieuSource": {
+        "precis": "Marché de Noël de Sarlat",
+        "ville": "Sarlat",
+        "departement": "Dordogne"
+      },
+      "lieuNom": "Marché de Noël de Sarlat",
+      "commune": "Sarlat",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "I Muvrini",
+            "handle": "imuvriniofficiel",
+            "abonnes": 8230,
+            "preuve": 3,
+            "role": "acteur",
+            "echelon": "sujet"
+          },
+          {
+            "nom": "Ville de Sarlat",
+            "handle": "villedesarlat",
+            "abonnes": 5958,
+            "preuve": 2,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          },
+          {
+            "nom": "Sarlat Tourisme",
+            "handle": "sarlattourisme",
+            "abonnes": 25849,
+            "preuve": 2,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "tourisme"
+          },
+          {
+            "nom": "Dordogne Périgord Tourisme",
+            "handle": "dordogneperigordtourisme",
+            "abonnes": 47562,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "I Muvrini",
+            "handle": "i_muvrini",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "acteur",
+            "echelon": "sujet"
+          },
+          {
+            "nom": "Dordogne",
+            "handle": "cddordogne",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "bluesky": [],
+        "threads": [
+          {
+            "nom": "Ville de Sarlat",
+            "handle": "villedesarlat",
+            "abonnes": 5958,
+            "preuve": 2,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          }
+        ],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  }
+]

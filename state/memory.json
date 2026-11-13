@@ -1,5 +1,5 @@
 {
-  "angleIndex": 4,
+  "angleIndex": 5,
   "recent": {
     "instagram": [
       "Des requins et des crocodiliens dans la Vienne, vous l’auriez imaginé ?\nÀ Amberre, les carrières de Moulin-Pochas regorgent de fossiles marins. On vous explique",
@@ -148,8 +148,6 @@
   ],
   "mentionsParReseau": {
     "instagram": [
-      "visitbayonne",
-      "enpaysbasque_euskalherrian",
       "charente_tourisme",
       "paysbasque_tourisme",
       "departement64",
@@ -207,7 +205,9 @@
       "imuvriniofficiel",
       "villedesarlat",
       "sarlattourisme",
-      "dordogneperigordtourisme"
+      "dordogneperigordtourisme",
+      "villedebordeaux",
+      "departementgironde"
     ],
     "x": [
       "cddordogne",
@@ -260,7 +260,10 @@
       "Bordeaux",
       "gironde",
       "i_muvrini",
-      "cddordogne"
+      "cddordogne",
+      "MatmutAtl",
+      "Bordeaux",
+      "gironde"
     ],
     "threads": [
       "villedemerignac",
@@ -286,7 +289,8 @@
       "bayonnemaville",
       "villedebordeaux",
       "visitbordeaux",
-      "villedesarlat"
+      "villedesarlat",
+      "villedebordeaux"
     ],
     "bluesky": [
       "villedebordeaux.bsky.social",
@@ -299,14 +303,26 @@
       "villedebordeaux.bsky.social",
       "villedebordeaux.bsky.social",
       "equipedefrance.bsky.social",
+      "villedebordeaux.bsky.social",
       "villedebordeaux.bsky.social"
     ]
   },
   "dernieresMentions": {
-    "instagram": [],
-    "x": [],
-    "bluesky": [],
-    "threads": [],
+    "instagram": [
+      "villedebordeaux",
+      "departementgironde"
+    ],
+    "x": [
+      "MatmutAtl",
+      "Bordeaux",
+      "gironde"
+    ],
+    "bluesky": [
+      "villedebordeaux.bsky.social"
+    ],
+    "threads": [
+      "villedebordeaux"
+    ],
     "facebook": []
   }
 }

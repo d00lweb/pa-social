@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-13T09:20:47.124Z",
+  "genereLe": "2026-11-13T10:00:34.044Z",
   "jour": "2026-11-13",
   "reseaux": {
     "instagram": {
@@ -122,11 +122,11 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 1,
-      "semaine": 9,
-      "total": 75,
-      "dernier": "2026-11-13T07:27:21.284Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DfrFowKnApC"
+      "aujourdhui": 2,
+      "semaine": 10,
+      "total": 76,
+      "dernier": "2026-11-13T10:12:13.013Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DfrYXi0FT5v"
     },
     "x": {
       "actif": true,
@@ -164,6 +164,22 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36152",
+      "titre": "France-Turquie à Bordeaux : comment se rendre au Stade Atlantique sans galérer ?",
+      "lien": "https://passion-aquitaine.ouest-france.fr/france-turquie-bordeaux-acces-stade-atlantique/",
+      "at": "2026-11-13T10:12:13.013Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Vous avez votre place pour France-Turquie à Bordeaux, mais savez-vous déjà comment rejoindre le stade ? 🚌 Le match se joue dimanche 15 novembre à 20h45 au Stade Atlantique, et anticiper sa venue peut tout changer. Vous comptez y aller comment ?\n@villedebordeaux",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261113-9cb43d45-th.jpg",
+          "mode": "reponse",
+          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/france-turquie-bordeaux-acces-stade-atlantique/",
+          "sujet": "Bordeaux",
+          "publieLe": "2026-11-13T10:12:13.013Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36150",
       "titre": "Marché de Noël de Sarlat : la Corse invitée pour les 20 ans",
@@ -395,57 +411,19 @@
           "publieLe": "2026-11-10T12:26:15.308Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36054",
-      "titre": "Gironde : une start-up spatiale invente un moteur qui « respire »",
-      "lien": "https://passion-aquitaine.ouest-france.fr/gironde-hyprspace-moteur-oxygene-air/",
-      "at": "2026-11-09T12:14:39.741Z",
-      "reseaux": {
-        "threads": {
-          "texte": "Imaginez un moteur qui inspire l’air comme un poumon avant de propulser son engin vers le ciel. C’est l’idée de SHADow, développé au Haillan par la start-up HyPrSpace. Là où les fusées emportent leur réserve d’oxygène, lui irait la chercher autour de lui 🌌",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261109-4d9875c5-th.jpg",
-          "mode": "reponse",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/gironde-hyprspace-moteur-oxygene-air/",
-          "sujet": "Le Haillan",
-          "publieLe": "2026-11-09T07:27:01.630Z"
-        },
-        "bluesky": {
-          "texte": "Une fusée transporte toujours son propre oxygène. En #Gironde, au Haillan, HyPrSpace veut s’en passer : 🌍 son moteur SHADow puiserait l’oxygène directement dans l’air ambiant.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261109-4d9875c5-bsky.jpg",
-          "mode": "card",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-09T08:13:31.196Z"
-        },
-        "facebook": {
-          "texte": "Moins d’oxygène à embarquer, c’est l’idée du moteur SHADow que met au point une jeune entreprise installée au Haillan 🛰️",
-          "image": null,
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-09T08:24:10.252Z"
-        },
-        "x": {
-          "texte": "🔭 Et si un moteur spatial n’avait plus besoin d’emporter son oxygène ? Au Haillan, HyPrSpace développe SHADow, conçu pour le puiser dans l’air.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261109-4d9875c5-x.jpg",
-          "mode": "reponse",
-          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/gironde-hyprspace-moteur-oxygene-air/",
-          "sujet": null,
-          "publieLe": "2026-11-09T09:20:46.285Z"
-        },
-        "instagram": {
-          "texte": "🚀 Un moteur de fusée qui respire l’air ambiant : c’est le pari d’une start-up girondine.\n⠀\nAu Haillan, HyPrSpace développe SHADow. Là où une fusée emporte son oxygène, ce moteur irait le puiser directement dans l’air.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Gironde #Spatial #Innovation",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261109-4d9875c5-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-09T12:14:39.741Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "threads",
+      "at": "2026-11-13T10:12:13.013Z",
+      "titre": "France-Turquie à Bordeaux : comment se rendre au Stade Atlantique sans galérer ?",
+      "lien": "https://passion-aquitaine.ouest-france.fr/france-turquie-bordeaux-acces-stade-atlantique/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/DfrYXi0FT5v",
+      "format": "reponse",
+      "texte": "Vous avez votre place pour France-Turquie à Bordeaux, mais savez-vous déjà comment rejoindre le stade ? 🚌 Le match se joue dimanche 15 novembre à 20h45 au Stade Atlantique, et anticiper sa venue peut tout changer. Vous comptez y aller comment ?\n@villedebordeaux",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261113-9cb43d45-th.jpg"
+    },
     {
       "channel": "x",
       "at": "2026-11-13T09:01:33.428Z",
@@ -535,33 +513,14 @@
       "format": "reponse",
       "texte": "Bonne nouvelle pour les nageurs bordelais qui pensaient ranger leur maillot jusqu’au printemps 🏊‍♀️ L’ex-piscine Stéhelin garde désormais son bassin extérieur ouvert tout l’hiver, avec une eau à 27 °C. Longtemps, ce bassin n’accueillait le public que l’été. De quoi garder le rythme des longueurs et profiter du grand air même quand Bordeaux se refroidit.\n@visitbordeaux",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261112-d181c42b-th.jpg"
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-11-11T13:07:50.170Z",
-      "titre": "Maisons fissurées : 4 villages girondins ont jusqu’au 22 novembre",
-      "lien": "https://passion-aquitaine.ouest-france.fr/gironde-maisons-fissurees-catastrophe-naturelle/",
-      "lienPost": "https://www.instagram.com/p/DfmjUMYFz-H/",
-      "format": null,
-      "texte": "Une lézarde qui court sur un mur de maison, et l’horloge qui tourne 🏠\n⠀\nÀ Camarsac, Coimères, Saint-Jean-de-Blaignac et Saint-Laurent-du-Bois, en Gironde, les habitants touchés ont jusqu’au 22 novembre pour déclarer. Tout est à lire dans l’article.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Gironde #MaisonsFissurées #EntreDeuxMers",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261111-31894d88-1.jpg"
     }
   ],
   "file": [
     {
-      "channel": "threads",
-      "dueAt": "2026-11-13T10:08:04.378Z",
-      "prochainPassage": "2026-11-13T10:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "France-Turquie à Bordeaux : comment se rendre au Stade Atlantique sans galérer ?"
-    },
-    {
       "channel": "x",
       "dueAt": "2026-11-13T11:20:00.000Z",
       "prochainPassage": "2026-11-13T11:20:00.000Z",
-      "nature": "actu",
+      "nature": "actu_chaude",
       "prevuInitialement": null,
       "raison": null,
       "titre": "France-Turquie à Bordeaux : comment se rendre au Stade Atlantique sans galérer ?"
@@ -579,7 +538,7 @@
       "channel": "bluesky",
       "dueAt": "2026-11-13T12:11:15.577Z",
       "prochainPassage": "2026-11-13T12:20:00.000Z",
-      "nature": "actu",
+      "nature": "actu_chaude",
       "prevuInitialement": null,
       "raison": null,
       "titre": "France-Turquie à Bordeaux : comment se rendre au Stade Atlantique sans galérer ?"
@@ -588,7 +547,7 @@
       "channel": "instagram",
       "dueAt": "2026-11-13T18:04:47.636Z",
       "prochainPassage": "2026-11-13T18:20:00.000Z",
-      "nature": "actu",
+      "nature": "actu_chaude",
       "prevuInitialement": null,
       "raison": null,
       "titre": "France-Turquie à Bordeaux : comment se rendre au Stade Atlantique sans galérer ?"
@@ -597,7 +556,7 @@
       "channel": "facebook",
       "dueAt": "2026-11-13T19:23:40.431Z",
       "prochainPassage": "2026-11-13T20:00:00.000Z",
-      "nature": "actu",
+      "nature": "actu_chaude",
       "prevuInitialement": null,
       "raison": null,
       "titre": "France-Turquie à Bordeaux : comment se rendre au Stade Atlantique sans galérer ?"
@@ -726,7 +685,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-13T09:20:52.243Z",
+    "genereLe": "2026-11-13T10:12:17.062Z",
     "posts": 55,
     "parReseau": {
       "instagram": {
@@ -896,7 +855,7 @@
       }
     },
     "publies": {
-      "threads": 15,
+      "threads": 16,
       "facebook": 15,
       "bluesky": 15,
       "x": 15,
@@ -951,29 +910,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 6,
-      "entree": 48518,
-      "sortie": 5410,
-      "cout": 0.302272,
+      "appels": 7,
+      "entree": 56510,
+      "sortie": 6274,
+      "cout": 0.35152,
       "cle": "2026-11-13"
     },
     "semaine": {
-      "appels": 20,
-      "entree": 160590,
-      "sortie": 17925,
-      "cout": 1.00086
+      "appels": 21,
+      "entree": 168582,
+      "sortie": 18789,
+      "cout": 1.050108
     },
     "mois": {
-      "appels": 50,
-      "entree": 400285,
-      "sortie": 44944,
-      "cout": 2.5000199999999997,
+      "appels": 51,
+      "entree": 408277,
+      "sortie": 45808,
+      "cout": 2.5492679999999996,
       "cle": "2026-11"
     },
-    "projection": 5.77,
+    "projection": 5.88,
     "moyenneAppel": 0.05,
     "parModele": {
-      "claude-opus-5-5": 50
+      "claude-opus-5-5": 51
     },
     "serie": [
       [
@@ -1030,7 +989,7 @@
       ],
       [
         "2026-11-13",
-        0.3023
+        0.3515
       ]
     ],
     "depuis": "2026-09-23"

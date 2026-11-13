@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-13T11:38:41.953Z",
+  "genereLe": "2026-11-13T12:00:39.579Z",
   "jour": "2026-11-13",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 8,
-      "total": 79,
-      "dernier": "2026-11-12T11:34:30.827Z",
-      "lienDernier": "https://www.instagram.com/p/Dfo9bgykwjD/"
+      "aujourdhui": 1,
+      "semaine": 9,
+      "total": 80,
+      "dernier": "2026-11-13T12:07:47.214Z",
+      "lienDernier": "https://www.instagram.com/p/DfrmCREDWXf/"
     },
     "bluesky": {
       "actif": true,
@@ -60,11 +60,11 @@
         "image",
         "reply"
       ],
-      "aujourdhui": 1,
-      "semaine": 9,
-      "total": 78,
-      "dernier": "2026-11-13T08:10:52.802Z",
-      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n26jvrdqda2m"
+      "aujourdhui": 2,
+      "semaine": 10,
+      "total": 79,
+      "dernier": "2026-11-13T12:11:18.035Z",
+      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n26xdogjfx2m"
     },
     "facebook": {
       "actif": true,
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36152",
       "titre": "France-Turquie à Bordeaux : comment se rendre au Stade Atlantique sans galérer ?",
       "lien": "https://passion-aquitaine.ouest-france.fr/france-turquie-bordeaux-acces-stade-atlantique/",
-      "at": "2026-11-13T11:20:43.557Z",
+      "at": "2026-11-13T12:11:18.035Z",
       "reseaux": {
         "threads": {
           "texte": "Vous avez votre place pour France-Turquie à Bordeaux, mais savez-vous déjà comment rejoindre le stade ? 🚌 Le match se joue dimanche 15 novembre à 20h45 au Stade Atlantique, et anticiper sa venue peut tout changer. Vous comptez y aller comment ?\n@villedebordeaux",
@@ -185,6 +185,14 @@
           "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/france-turquie-bordeaux-acces-stade-atlantique/",
           "sujet": null,
           "publieLe": "2026-11-13T11:20:43.557Z"
+        },
+        "bluesky": {
+          "texte": "Des milliers de supporters convergent vers le Stade Atlantique de #Bordeaux 🏟️ Dimanche 15 novembre à 20h45, France et Turquie s’y affrontent, et l’accès au stade se prépare à l’avance.\n@villedebordeaux.bsky.social\n➡️ Lire l’article",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261113-9cb43d45-bsky.jpg",
+          "mode": "image",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-13T12:11:18.035Z"
         }
       }
     },
@@ -192,7 +200,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36150",
       "titre": "Marché de Noël de Sarlat : la Corse invitée pour les 20 ans",
       "lien": "https://passion-aquitaine.ouest-france.fr/sarlat-marche-noel-2026-corse-i-muvrini/",
-      "at": "2026-11-13T09:01:33.428Z",
+      "at": "2026-11-13T12:07:47.214Z",
       "reseaux": {
         "threads": {
           "texte": "🎤 Pour ses 20 ans, le marché de Noël de Sarlat ne se contente pas de ses chalets : il a choisi une région invitée, la Corse. Et cerise sur le gâteau, un concert gratuit d’I Muvrini en plein Périgord noir. Vous imaginiez la Corse et le Périgord réunis pour Noël ?\n@villedesarlat",
@@ -225,6 +233,14 @@
           "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/sarlat-marche-noel-2026-corse-i-muvrini/",
           "sujet": null,
           "publieLe": "2026-11-13T09:01:33.428Z"
+        },
+        "instagram": {
+          "texte": "Sarlat, en Périgord noir, se met à l’heure corse pour Noël 🎄\n⠀\nPour ses 20 ans, le marché de Noël de Sarlat invite la Corse. Au programme aussi : un concert gratuit d’I Muvrini.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Sarlat #MarchéDeNoël #Corse",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261113-152f6cb9-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-13T12:07:47.214Z"
         }
       }
     },
@@ -423,6 +439,26 @@
   ],
   "publications": [
     {
+      "channel": "bluesky",
+      "at": "2026-11-13T12:11:18.035Z",
+      "titre": "France-Turquie à Bordeaux : comment se rendre au Stade Atlantique sans galérer ?",
+      "lien": "https://passion-aquitaine.ouest-france.fr/france-turquie-bordeaux-acces-stade-atlantique/",
+      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n26xdogjfx2m",
+      "format": "image",
+      "texte": "Des milliers de supporters convergent vers le Stade Atlantique de #Bordeaux 🏟️ Dimanche 15 novembre à 20h45, France et Turquie s’y affrontent, et l’accès au stade se prépare à l’avance.\n@villedebordeaux.bsky.social\n➡️ Lire l’article",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261113-9cb43d45-bsky.jpg"
+    },
+    {
+      "channel": "instagram",
+      "at": "2026-11-13T12:07:47.214Z",
+      "titre": "Marché de Noël de Sarlat : la Corse invitée pour les 20 ans",
+      "lien": "https://passion-aquitaine.ouest-france.fr/sarlat-marche-noel-2026-corse-i-muvrini/",
+      "lienPost": "https://www.instagram.com/p/DfrmCREDWXf/",
+      "format": null,
+      "texte": "Sarlat, en Périgord noir, se met à l’heure corse pour Noël 🎄\n⠀\nPour ses 20 ans, le marché de Noël de Sarlat invite la Corse. Au programme aussi : un concert gratuit d’I Muvrini.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Sarlat #MarchéDeNoël #Corse",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261113-152f6cb9-1.jpg"
+    },
+    {
       "channel": "x",
       "at": "2026-11-13T11:20:43.557Z",
       "titre": "France-Turquie à Bordeaux : comment se rendre au Stade Atlantique sans galérer ?",
@@ -501,47 +537,9 @@
       "format": "reponse",
       "texte": "Longtemps ouverte l’été seulement, l’ex-piscine Stéhelin à #Bordeaux change de rythme : son bassin extérieur reste désormais ouvert tout l’hiver, avec une eau à 🌡️ 27 °C.",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261112-d181c42b-x.jpg"
-    },
-    {
-      "channel": "bluesky",
-      "at": "2026-11-12T08:03:08.586Z",
-      "titre": "Bordeaux : nager dehors en plein hiver dans une eau à 27 °C",
-      "lien": "https://passion-aquitaine.ouest-france.fr/bordeaux-piscine-jean-zay-bassin-nordique/",
-      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n23yyzdiyz26",
-      "format": "image",
-      "texte": "🩱 Nager dehors en hiver, sans grelotter : l’ex-piscine Stéhelin, à #Bordeaux, longtemps réservée à l’été, maintient désormais son bassin extérieur à 27 °C tout au long de la saison froide.\n➡️ Lire l’article",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261112-d181c42b-bsky.jpg"
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-11-12T07:34:39.909Z",
-      "titre": "Bordeaux : nager dehors en plein hiver dans une eau à 27 °C",
-      "lien": "https://passion-aquitaine.ouest-france.fr/bordeaux-piscine-jean-zay-bassin-nordique/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1785427890249758",
-      "format": null,
-      "texte": "À Bordeaux, l’ex-piscine Stéhelin ne ferme plus son bassin extérieur à la fin de l’été, et l’eau y reste à 27 °C 🏊",
-      "image": null
     }
   ],
   "file": [
-    {
-      "channel": "instagram",
-      "dueAt": "2026-11-13T12:07:14.945Z",
-      "prochainPassage": "2026-11-13T12:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Marché de Noël de Sarlat : la Corse invitée pour les 20 ans"
-    },
-    {
-      "channel": "bluesky",
-      "dueAt": "2026-11-13T12:11:15.577Z",
-      "prochainPassage": "2026-11-13T12:20:00.000Z",
-      "nature": "actu_chaude",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "France-Turquie à Bordeaux : comment se rendre au Stade Atlantique sans galérer ?"
-    },
     {
       "channel": "instagram",
       "dueAt": "2026-11-13T18:04:47.636Z",
@@ -684,7 +682,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-13T11:38:45.662Z",
+    "genereLe": "2026-11-13T12:11:26.727Z",
     "posts": 56,
     "parReseau": {
       "instagram": {
@@ -856,9 +854,9 @@
     "publies": {
       "threads": 16,
       "facebook": 15,
-      "bluesky": 15,
+      "bluesky": 16,
       "x": 16,
-      "instagram": 14
+      "instagram": 15
     },
     "abonnes": {
       "instagram": {

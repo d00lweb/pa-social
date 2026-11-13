@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-13T07:20:42.691Z",
+  "genereLe": "2026-11-13T08:00:36.816Z",
   "jour": "2026-11-13",
   "reseaux": {
     "instagram": {
@@ -60,11 +60,11 @@
         "image",
         "reply"
       ],
-      "aujourdhui": 0,
-      "semaine": 8,
-      "total": 77,
-      "dernier": "2026-11-12T08:03:08.586Z",
-      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n23yyzdiyz26"
+      "aujourdhui": 1,
+      "semaine": 9,
+      "total": 78,
+      "dernier": "2026-11-13T08:10:52.802Z",
+      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n26jvrdqda2m"
     },
     "facebook": {
       "actif": true,
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 8,
-      "total": 74,
-      "dernier": "2026-11-12T07:34:39.909Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1785427890249758"
+      "aujourdhui": 1,
+      "semaine": 9,
+      "total": 75,
+      "dernier": "2026-11-13T08:14:57.789Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1786755693450311"
     },
     "threads": {
       "actif": true,
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36150",
       "titre": "Marché de Noël de Sarlat : la Corse invitée pour les 20 ans",
       "lien": "https://passion-aquitaine.ouest-france.fr/sarlat-marche-noel-2026-corse-i-muvrini/",
-      "at": "2026-11-13T07:27:21.284Z",
+      "at": "2026-11-13T08:14:57.789Z",
       "reseaux": {
         "threads": {
           "texte": "🎤 Pour ses 20 ans, le marché de Noël de Sarlat ne se contente pas de ses chalets : il a choisi une région invitée, la Corse. Et cerise sur le gâteau, un concert gratuit d’I Muvrini en plein Périgord noir. Vous imaginiez la Corse et le Périgord réunis pour Noël ?\n@villedesarlat",
@@ -177,6 +177,22 @@
           "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/sarlat-marche-noel-2026-corse-i-muvrini/",
           "sujet": "Sarlat",
           "publieLe": "2026-11-13T07:27:21.284Z"
+        },
+        "bluesky": {
+          "texte": "Un concert gratuit d’I Muvrini à #Sarlat : c’est le cadeau du marché de #Noël, qui fête ses 20 ans en invitant la Corse au cœur du #Périgord noir 🎄\n➡️ Lire l’article",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261113-152f6cb9-bsky.jpg",
+          "mode": "image",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-13T08:10:52.802Z"
+        },
+        "facebook": {
+          "texte": "Des polyphonies corses au pied des maisons de Sarlat, et en concert gratuit : I Muvrini s’invite au marché de Noël 🎶",
+          "image": null,
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-13T08:14:57.789Z"
         }
       }
     },
@@ -423,6 +439,26 @@
   ],
   "publications": [
     {
+      "channel": "facebook",
+      "at": "2026-11-13T08:14:57.789Z",
+      "titre": "Marché de Noël de Sarlat : la Corse invitée pour les 20 ans",
+      "lien": "https://passion-aquitaine.ouest-france.fr/sarlat-marche-noel-2026-corse-i-muvrini/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1786755693450311",
+      "format": null,
+      "texte": "Des polyphonies corses au pied des maisons de Sarlat, et en concert gratuit : I Muvrini s’invite au marché de Noël 🎶",
+      "image": null
+    },
+    {
+      "channel": "bluesky",
+      "at": "2026-11-13T08:10:52.802Z",
+      "titre": "Marché de Noël de Sarlat : la Corse invitée pour les 20 ans",
+      "lien": "https://passion-aquitaine.ouest-france.fr/sarlat-marche-noel-2026-corse-i-muvrini/",
+      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n26jvrdqda2m",
+      "format": "image",
+      "texte": "Un concert gratuit d’I Muvrini à #Sarlat : c’est le cadeau du marché de #Noël, qui fête ses 20 ans en invitant la Corse au cœur du #Périgord noir 🎄\n➡️ Lire l’article",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261113-152f6cb9-bsky.jpg"
+    },
+    {
       "channel": "threads",
       "at": "2026-11-13T07:27:21.284Z",
       "titre": "Marché de Noël de Sarlat : la Corse invitée pour les 20 ans",
@@ -501,47 +537,9 @@
       "format": "reponse",
       "texte": "Les Bleus en Gironde, ce n’est pas nouveau : sept matches s’y sont déjà joués. Pourtant, le prochain sortira de l’ordinaire 🏟️ France-Turquie, dimanche 15 novembre à Bordeaux, sera une grande première. L’occasion de replonger dans les sept précédents rendez-vous de l’équipe de France dans la ville.\n@villedebordeaux",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261111-208fc27f-th.jpg"
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-11-11T11:30:03.793Z",
-      "titre": "France-Turquie : le 8e match des Bleus en Gironde sera une grande première",
-      "lien": "https://passion-aquitaine.ouest-france.fr/france-turquie-bordeaux-matches-bleus/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1784378303688050",
-      "format": null,
-      "texte": "Sept matches des Bleus à Bordeaux avant celui-ci, et le huitième, face à la Turquie, sera une grande première ⚽",
-      "image": null
-    },
-    {
-      "channel": "bluesky",
-      "at": "2026-11-11T11:05:05.084Z",
-      "titre": "France-Turquie : le 8e match des Bleus en Gironde sera une grande première",
-      "lien": "https://passion-aquitaine.ouest-france.fr/france-turquie-bordeaux-matches-bleus/",
-      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3mzzspgit7k22",
-      "format": "image",
-      "texte": "À #Bordeaux, l’@equipedefrance.bsky.social a déjà joué sept matches 🇫🇷 Le huitième, France-Turquie le dimanche 15 novembre, s’annonce comme une grande première ⚽ Retour sur les précédents passages des Bleus en #Gironde.\n@villedebordeaux.bsky.social\n➡️ Lire l’article",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261111-208fc27f-bsky.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "bluesky",
-      "dueAt": "2026-11-13T08:10:50.630Z",
-      "prochainPassage": "2026-11-13T08:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Marché de Noël de Sarlat : la Corse invitée pour les 20 ans"
-    },
-    {
-      "channel": "facebook",
-      "dueAt": "2026-11-13T08:14:52.575Z",
-      "prochainPassage": "2026-11-13T08:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Marché de Noël de Sarlat : la Corse invitée pour les 20 ans"
-    },
     {
       "channel": "x",
       "dueAt": "2026-11-13T09:00:00.000Z",
@@ -563,7 +561,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 572,
+    "releves": 574,
     "parReseau": {
       "instagram": {
         "posts": 71,
@@ -684,19 +682,19 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-13T07:27:24.135Z",
-    "posts": 52,
+    "genereLe": "2026-11-13T08:15:01.460Z",
+    "posts": 54,
     "parReseau": {
       "instagram": {
         "posts": 13,
         "moyenne": 6.1
       },
       "threads": {
-        "posts": 13,
-        "moyenne": 4.5
+        "posts": 14,
+        "moyenne": 4.6
       },
       "facebook": {
-        "posts": 13,
+        "posts": 14,
         "moyenne": 0
       },
       "bluesky": {
@@ -706,8 +704,8 @@
     },
     "parFormat": {
       "reponse": {
-        "posts": 13,
-        "moyenne": 4.5
+        "posts": 14,
+        "moyenne": 4.6
       },
       "image": {
         "posts": 6,
@@ -728,8 +726,8 @@
         "moyenne": 5.1
       },
       "matin": {
-        "posts": 27,
-        "moyenne": 1.7
+        "posts": 29,
+        "moyenne": 1.8
       },
       "soir": {
         "posts": 9,
@@ -739,8 +737,8 @@
     "parCreneauReseau": {
       "threads": {
         "7 h – 8 h 30": {
-          "posts": 6,
-          "moyenne": 7.2
+          "posts": 7,
+          "moyenne": 7.1
         },
         "13 h – 14 h 30": {
           "posts": 2,
@@ -757,7 +755,7 @@
       },
       "facebook": {
         "8 h – 9 h 30": {
-          "posts": 8,
+          "posts": 9,
           "moyenne": 0
         },
         "20 h – 21 h 30": {
@@ -802,7 +800,7 @@
         }
       }
     },
-    "interactionsTotal": 137,
+    "interactionsTotal": 144,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36056",
       "channel": "threads",
@@ -824,39 +822,39 @@
       "creneauReseau": "7 h – 8 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36123",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36145",
       "channel": "facebook",
-      "mediaId": "227437307428711_1784378303688050",
-      "publieLe": "2026-11-11T11:30:03.793Z",
+      "mediaId": "227437307428711_1785427890249758",
+      "publieLe": "2026-11-12T07:34:39.909Z",
       "jalon": 1,
-      "releveLe": "2026-11-12T12:00:51.493Z",
+      "releveLe": "2026-11-13T08:00:36.816Z",
       "likes": 0,
       "commentairesBruts": 0,
       "partages": 0,
       "vues": null,
       "commentaires": 0,
       "v": 2,
-      "titre": "France-Turquie : le 8e match des Bleus en Gironde sera une grande première",
-      "lien": "https://www.facebook.com/1720946116697936/posts/1784378303688050",
+      "titre": "Bordeaux : nager dehors en plein hiver dans une eau à 27 °C",
+      "lien": "https://www.facebook.com/1720946116697936/posts/1785427890249758",
       "format": null,
       "mention": false,
-      "creneau": "après-midi",
-      "creneauReseau": "hors créneau"
+      "creneau": "matin",
+      "creneauReseau": "8 h – 9 h 30"
     },
     "mentions": {
       "avec": {
-        "posts": 22,
-        "moyenne": 5.9
+        "posts": 23,
+        "moyenne": 6
       },
       "sans": {
-        "posts": 30,
+        "posts": 31,
         "moyenne": 0.2
       }
     },
     "publies": {
       "threads": 15,
-      "facebook": 14,
-      "bluesky": 14,
+      "facebook": 15,
+      "bluesky": 15,
       "x": 14,
       "instagram": 14
     },
@@ -897,14 +895,14 @@
     },
     "engagement": {
       "instagram": 0.06,
-      "threads": 0.39,
+      "threads": 0.4,
       "facebook": 0
     },
     "conseils": [
-      "Threads : le créneau 7 h – 8 h 30 fait 24 fois mieux que 10 h – 11 h 30 (7.2 contre 0.3 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
-      "Le format « reponse » fait 45 fois mieux que « reply » (4.5 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « reply » de la rotation dans config/channels.json.",
+      "Threads : le créneau 7 h – 8 h 30 fait 23,7 fois mieux que 10 h – 11 h 30 (7.1 contre 0.3 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
+      "Le format « reponse » fait 46 fois mieux que « reply » (4.6 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « reply » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+7, +0,6 %) ; Facebook recule (−21), à surveiller.",
-      "Les posts avec mention font 5.7 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
+      "Les posts avec mention font 5.8 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
     ]
   },
   "couts": {

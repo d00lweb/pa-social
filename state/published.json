@@ -6789,5 +6789,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36150",
+    "channel": "x",
+    "at": "2026-11-13T09:01:33.428Z",
+    "mediaId": "kit-telegram",
+    "titre": "Marché de Noël de Sarlat : la Corse invitée pour les 20 ans",
+    "lien": "https://passion-aquitaine.ouest-france.fr/sarlat-marche-noel-2026-corse-i-muvrini/",
+    "lienPost": null,
+    "format": "reponse",
+    "mention": true,
+    "apercu": {
+      "texte": "Les chants corses résonnent dans les ruelles de #Sarlat 🎶 Pour ses 20 ans, le marché de Noël invite la Corse et offre un concert gratuit d’I Muvrini.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261113-152f6cb9-x.jpg",
+      "mode": "reponse",
+      "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/sarlat-marche-noel-2026-corse-i-muvrini/",
+      "sujet": null
+    }
   }
 ]

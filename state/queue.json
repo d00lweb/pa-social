@@ -167,167 +167,395 @@
     "previewSent": false
   },
   {
-    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36150",
-    "channel": "x",
-    "dueAt": 1794560400000,
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36152",
+    "channel": "instagram",
+    "dueAt": 1794593087636,
     "status": "pending",
     "attempts": 0,
     "article": {
-      "title": "Marché de Noël de Sarlat : la Corse invitée pour les 20 ans",
-      "link": "https://passion-aquitaine.ouest-france.fr/sarlat-marche-noel-2026-corse-i-muvrini/",
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36150",
-      "pubDate": "Fri, 13 Nov 2026 06:55:37 +0000",
-      "date": 1794552937000,
+      "title": "France-Turquie à Bordeaux : comment se rendre au Stade Atlantique sans galérer ?",
+      "link": "https://passion-aquitaine.ouest-france.fr/france-turquie-bordeaux-acces-stade-atlantique/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36152",
+      "pubDate": "Fri, 13 Nov 2026 08:44:01 +0000",
+      "date": 1794559441000,
       "categories": [
         "Actus",
-        "Culture",
-        "Dordogne",
-        "Fêtes & férias"
+        "Bordeaux",
+        "Économie",
+        "Gironde",
+        "Sport",
+        "Transports"
       ],
-      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2025/11/noel-sarlat.jpg",
-      "description": "La Corse au cœur du Périgord noir : pour ses 20 ans, le marché de Noël de Sarlat invite la Corse et offre un concert gratuit d’I Muvrini."
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/stade_atlantique_bordeaux_01.jpg",
+      "description": "Anticipez votre venue au Stade Atlantique à l’occasion du match France-Turquie organisé le dimanche 15 novembre à 20h45."
     },
     "dossier": {
       "nature": "actu",
       "sensible": false,
-      "rubrique": "Périgord",
-      "visuel": {
-        "titre": "Marché de Noël de Sarlat : la Corse invitée pour les 20 ans",
-        "surlignage": "Corse",
-        "description": "Pour fêter ses 20 ans, le marché de Noël de Sarlat met la Corse à l’honneur au cœur du Périgord noir. Et offre au public un concert gratuit d’I Muvrini.",
-        "texte_alternatif": "Le marché de Noël de Sarlat, en Périgord noir, fête ses 20 ans en invitant la Corse, avec un concert gratuit d’I Muvrini."
+      "rubrique": "Bordeaux",
+      "entites": [],
+      "lieu": {
+        "id": "115838035093755",
+        "nom": "Bordeaux",
+        "niveau": "departement"
       },
-      "entites": [
-        {
-          "nom": "Marché de Noël de Sarlat",
-          "role": "sujet",
-          "type": "evenement"
-        },
-        {
-          "nom": "I Muvrini",
-          "role": "acteur",
-          "type": "artiste"
-        }
-      ],
-      "domaines": [
-        "noël",
-        "tradition"
-      ],
-      "lieu": null,
+      "visuel": {
+        "titre": "France-Turquie à Bordeaux : comment se rendre au Stade Atlantique sans galérer ?",
+        "surlignage": "Stade Atlantique",
+        "description": "Anticipez votre venue au Stade Atlantique à l’occasion du match France-Turquie organisé le dimanche 15 novembre à 20h45.",
+        "texte_alternatif": "Bordeaux : France-Turquie à Bordeaux : comment se rendre au Stade Atlantique sans galérer ?"
+      },
       "instagram": {
-        "texte": "Sarlat, en Périgord noir, se met à l’heure corse pour Noël 🎄\nPour ses 20 ans, le marché de Noël de Sarlat invite la Corse. Au programme aussi : un concert gratuit d’I Muvrini.",
+        "texte": "Anticipez votre venue au Stade Atlantique à l’occasion du match France-Turquie organisé le dimanche 15 novembre à 20h45 🏅",
         "hashtags": [
-          "#Sarlat",
-          "#MarchéDeNoël",
-          "#Corse"
+          "#Bordeaux",
+          "#Sport",
+          "#NouvelleAquitaine"
         ]
       },
       "facebook": {
-        "texte": "Des polyphonies corses au pied des maisons de Sarlat, et en concert gratuit : I Muvrini s’invite au marché de Noël 🎶"
+        "texte": "Anticipez votre venue au Stade Atlantique à l’occasion du match France-Turquie organisé le dimanche à 20h45 🏅"
       },
       "bluesky": {
-        "texte": "Un concert gratuit d’I Muvrini à Sarlat : c’est le cadeau du marché de Noël, qui fête ses 20 ans en invitant la Corse au cœur du Périgord noir 🎄",
-        "hashtag": "#Sarlat"
+        "texte": "Anticipez votre venue au Stade Atlantique à l’occasion du match France-Turquie organisé le dimanche 15 novembre à 20h45 🏅",
+        "hashtag": "#Bordeaux"
       },
       "threads": {
-        "texte": "🎤 Pour ses 20 ans, le marché de Noël de Sarlat ne se contente pas de ses chalets : il a choisi une région invitée, la Corse. Et cerise sur le gâteau, un concert gratuit d’I Muvrini en plein Périgord noir. Vous imaginiez la Corse et le Périgord réunis pour Noël ?",
-        "sujet": "Périgord"
+        "texte": "Anticipez votre venue au Stade Atlantique à l’occasion du match France-Turquie organisé le dimanche 15 novembre à 20h45 🏅",
+        "sujet": "Bordeaux"
       },
       "x": {
-        "texte": "Les chants corses résonnent dans les ruelles de Sarlat 🎶 Pour ses 20 ans, le marché de Noël invite la Corse et offre un concert gratuit d’I Muvrini."
+        "texte": "Anticipez votre venue au Stade Atlantique à l’occasion du match France-Turquie organisé le dimanche à 20h45 🏅"
       },
-      "source": "ia",
-      "model": "claude-opus-5-5",
-      "usage": {
-        "input": 8096,
-        "output": 878
-      },
-      "angles": {
-        "instagram": "lieu en tête",
-        "facebook": "effet de surprise",
-        "bluesky": "bénéfice pour le lecteur",
-        "threads": "détail méconnu",
-        "x": "image évocatrice"
-      },
+      "source": "regles",
       "lieuSource": {
-        "precis": "Marché de Noël de Sarlat",
-        "ville": "Sarlat",
-        "departement": "Dordogne"
+        "precis": "",
+        "ville": "",
+        "departement": "Bordeaux"
       },
-      "lieuNom": "Marché de Noël de Sarlat",
-      "commune": "Sarlat",
+      "lieuNom": "Bordeaux",
+      "commune": null,
       "comptes": {
-        "instagram": [
-          {
-            "nom": "I Muvrini",
-            "handle": "imuvriniofficiel",
-            "abonnes": 8230,
-            "preuve": 3,
-            "role": "acteur",
-            "echelon": "sujet"
-          },
-          {
-            "nom": "Ville de Sarlat",
-            "handle": "villedesarlat",
-            "abonnes": 5958,
-            "preuve": 2,
-            "role": "commune",
-            "echelon": "commune",
-            "thematique": true,
-            "nature": "mairie"
-          },
-          {
-            "nom": "Sarlat Tourisme",
-            "handle": "sarlattourisme",
-            "abonnes": 25849,
-            "preuve": 2,
-            "role": "commune",
-            "echelon": "commune",
-            "thematique": true,
-            "nature": "tourisme"
-          },
-          {
-            "nom": "Dordogne Périgord Tourisme",
-            "handle": "dordogneperigordtourisme",
-            "abonnes": 47562,
-            "preuve": 3,
-            "role": "territoire",
-            "echelon": "territoire",
-            "thematique": true
-          }
-        ],
-        "x": [
-          {
-            "nom": "I Muvrini",
-            "handle": "i_muvrini",
-            "abonnes": null,
-            "preuve": 3,
-            "role": "acteur",
-            "echelon": "sujet"
-          },
-          {
-            "nom": "Dordogne",
-            "handle": "cddordogne",
-            "abonnes": null,
-            "preuve": 3,
-            "role": "territoire",
-            "echelon": "territoire",
-            "thematique": true
-          }
-        ],
+        "instagram": [],
+        "x": [],
         "bluesky": [],
-        "threads": [
-          {
-            "nom": "Ville de Sarlat",
-            "handle": "villedesarlat",
-            "abonnes": 5958,
-            "preuve": 2,
-            "role": "commune",
-            "echelon": "commune",
-            "thematique": true,
-            "nature": "mairie"
-          }
-        ],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36152",
+    "channel": "bluesky",
+    "dueAt": 1794571875577,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "France-Turquie à Bordeaux : comment se rendre au Stade Atlantique sans galérer ?",
+      "link": "https://passion-aquitaine.ouest-france.fr/france-turquie-bordeaux-acces-stade-atlantique/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36152",
+      "pubDate": "Fri, 13 Nov 2026 08:44:01 +0000",
+      "date": 1794559441000,
+      "categories": [
+        "Actus",
+        "Bordeaux",
+        "Économie",
+        "Gironde",
+        "Sport",
+        "Transports"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/stade_atlantique_bordeaux_01.jpg",
+      "description": "Anticipez votre venue au Stade Atlantique à l’occasion du match France-Turquie organisé le dimanche 15 novembre à 20h45."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Bordeaux",
+      "entites": [],
+      "lieu": {
+        "id": "115838035093755",
+        "nom": "Bordeaux",
+        "niveau": "departement"
+      },
+      "visuel": {
+        "titre": "France-Turquie à Bordeaux : comment se rendre au Stade Atlantique sans galérer ?",
+        "surlignage": "Stade Atlantique",
+        "description": "Anticipez votre venue au Stade Atlantique à l’occasion du match France-Turquie organisé le dimanche 15 novembre à 20h45.",
+        "texte_alternatif": "Bordeaux : France-Turquie à Bordeaux : comment se rendre au Stade Atlantique sans galérer ?"
+      },
+      "instagram": {
+        "texte": "Anticipez votre venue au Stade Atlantique à l’occasion du match France-Turquie organisé le dimanche 15 novembre à 20h45 🏅",
+        "hashtags": [
+          "#Bordeaux",
+          "#Sport",
+          "#NouvelleAquitaine"
+        ]
+      },
+      "facebook": {
+        "texte": "Anticipez votre venue au Stade Atlantique à l’occasion du match France-Turquie organisé le dimanche à 20h45 🏅"
+      },
+      "bluesky": {
+        "texte": "Anticipez votre venue au Stade Atlantique à l’occasion du match France-Turquie organisé le dimanche 15 novembre à 20h45 🏅",
+        "hashtag": "#Bordeaux"
+      },
+      "threads": {
+        "texte": "Anticipez votre venue au Stade Atlantique à l’occasion du match France-Turquie organisé le dimanche 15 novembre à 20h45 🏅",
+        "sujet": "Bordeaux"
+      },
+      "x": {
+        "texte": "Anticipez votre venue au Stade Atlantique à l’occasion du match France-Turquie organisé le dimanche à 20h45 🏅"
+      },
+      "source": "regles",
+      "lieuSource": {
+        "precis": "",
+        "ville": "",
+        "departement": "Bordeaux"
+      },
+      "lieuNom": "Bordeaux",
+      "commune": null,
+      "comptes": {
+        "instagram": [],
+        "x": [],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36152",
+    "channel": "facebook",
+    "dueAt": 1794597820431,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "France-Turquie à Bordeaux : comment se rendre au Stade Atlantique sans galérer ?",
+      "link": "https://passion-aquitaine.ouest-france.fr/france-turquie-bordeaux-acces-stade-atlantique/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36152",
+      "pubDate": "Fri, 13 Nov 2026 08:44:01 +0000",
+      "date": 1794559441000,
+      "categories": [
+        "Actus",
+        "Bordeaux",
+        "Économie",
+        "Gironde",
+        "Sport",
+        "Transports"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/stade_atlantique_bordeaux_01.jpg",
+      "description": "Anticipez votre venue au Stade Atlantique à l’occasion du match France-Turquie organisé le dimanche 15 novembre à 20h45."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Bordeaux",
+      "entites": [],
+      "lieu": {
+        "id": "115838035093755",
+        "nom": "Bordeaux",
+        "niveau": "departement"
+      },
+      "visuel": {
+        "titre": "France-Turquie à Bordeaux : comment se rendre au Stade Atlantique sans galérer ?",
+        "surlignage": "Stade Atlantique",
+        "description": "Anticipez votre venue au Stade Atlantique à l’occasion du match France-Turquie organisé le dimanche 15 novembre à 20h45.",
+        "texte_alternatif": "Bordeaux : France-Turquie à Bordeaux : comment se rendre au Stade Atlantique sans galérer ?"
+      },
+      "instagram": {
+        "texte": "Anticipez votre venue au Stade Atlantique à l’occasion du match France-Turquie organisé le dimanche 15 novembre à 20h45 🏅",
+        "hashtags": [
+          "#Bordeaux",
+          "#Sport",
+          "#NouvelleAquitaine"
+        ]
+      },
+      "facebook": {
+        "texte": "Anticipez votre venue au Stade Atlantique à l’occasion du match France-Turquie organisé le dimanche à 20h45 🏅"
+      },
+      "bluesky": {
+        "texte": "Anticipez votre venue au Stade Atlantique à l’occasion du match France-Turquie organisé le dimanche 15 novembre à 20h45 🏅",
+        "hashtag": "#Bordeaux"
+      },
+      "threads": {
+        "texte": "Anticipez votre venue au Stade Atlantique à l’occasion du match France-Turquie organisé le dimanche 15 novembre à 20h45 🏅",
+        "sujet": "Bordeaux"
+      },
+      "x": {
+        "texte": "Anticipez votre venue au Stade Atlantique à l’occasion du match France-Turquie organisé le dimanche à 20h45 🏅"
+      },
+      "source": "regles",
+      "lieuSource": {
+        "precis": "",
+        "ville": "",
+        "departement": "Bordeaux"
+      },
+      "lieuNom": "Bordeaux",
+      "commune": null,
+      "comptes": {
+        "instagram": [],
+        "x": [],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36152",
+    "channel": "threads",
+    "dueAt": 1794564484378,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "France-Turquie à Bordeaux : comment se rendre au Stade Atlantique sans galérer ?",
+      "link": "https://passion-aquitaine.ouest-france.fr/france-turquie-bordeaux-acces-stade-atlantique/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36152",
+      "pubDate": "Fri, 13 Nov 2026 08:44:01 +0000",
+      "date": 1794559441000,
+      "categories": [
+        "Actus",
+        "Bordeaux",
+        "Économie",
+        "Gironde",
+        "Sport",
+        "Transports"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/stade_atlantique_bordeaux_01.jpg",
+      "description": "Anticipez votre venue au Stade Atlantique à l’occasion du match France-Turquie organisé le dimanche 15 novembre à 20h45."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Bordeaux",
+      "entites": [],
+      "lieu": {
+        "id": "115838035093755",
+        "nom": "Bordeaux",
+        "niveau": "departement"
+      },
+      "visuel": {
+        "titre": "France-Turquie à Bordeaux : comment se rendre au Stade Atlantique sans galérer ?",
+        "surlignage": "Stade Atlantique",
+        "description": "Anticipez votre venue au Stade Atlantique à l’occasion du match France-Turquie organisé le dimanche 15 novembre à 20h45.",
+        "texte_alternatif": "Bordeaux : France-Turquie à Bordeaux : comment se rendre au Stade Atlantique sans galérer ?"
+      },
+      "instagram": {
+        "texte": "Anticipez votre venue au Stade Atlantique à l’occasion du match France-Turquie organisé le dimanche 15 novembre à 20h45 🏅",
+        "hashtags": [
+          "#Bordeaux",
+          "#Sport",
+          "#NouvelleAquitaine"
+        ]
+      },
+      "facebook": {
+        "texte": "Anticipez votre venue au Stade Atlantique à l’occasion du match France-Turquie organisé le dimanche à 20h45 🏅"
+      },
+      "bluesky": {
+        "texte": "Anticipez votre venue au Stade Atlantique à l’occasion du match France-Turquie organisé le dimanche 15 novembre à 20h45 🏅",
+        "hashtag": "#Bordeaux"
+      },
+      "threads": {
+        "texte": "Anticipez votre venue au Stade Atlantique à l’occasion du match France-Turquie organisé le dimanche 15 novembre à 20h45 🏅",
+        "sujet": "Bordeaux"
+      },
+      "x": {
+        "texte": "Anticipez votre venue au Stade Atlantique à l’occasion du match France-Turquie organisé le dimanche à 20h45 🏅"
+      },
+      "source": "regles",
+      "lieuSource": {
+        "precis": "",
+        "ville": "",
+        "departement": "Bordeaux"
+      },
+      "lieuNom": "Bordeaux",
+      "commune": null,
+      "comptes": {
+        "instagram": [],
+        "x": [],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36152",
+    "channel": "x",
+    "dueAt": 1794568800000,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "France-Turquie à Bordeaux : comment se rendre au Stade Atlantique sans galérer ?",
+      "link": "https://passion-aquitaine.ouest-france.fr/france-turquie-bordeaux-acces-stade-atlantique/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36152",
+      "pubDate": "Fri, 13 Nov 2026 08:44:01 +0000",
+      "date": 1794559441000,
+      "categories": [
+        "Actus",
+        "Bordeaux",
+        "Économie",
+        "Gironde",
+        "Sport",
+        "Transports"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/stade_atlantique_bordeaux_01.jpg",
+      "description": "Anticipez votre venue au Stade Atlantique à l’occasion du match France-Turquie organisé le dimanche 15 novembre à 20h45."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Bordeaux",
+      "entites": [],
+      "lieu": {
+        "id": "115838035093755",
+        "nom": "Bordeaux",
+        "niveau": "departement"
+      },
+      "visuel": {
+        "titre": "France-Turquie à Bordeaux : comment se rendre au Stade Atlantique sans galérer ?",
+        "surlignage": "Stade Atlantique",
+        "description": "Anticipez votre venue au Stade Atlantique à l’occasion du match France-Turquie organisé le dimanche 15 novembre à 20h45.",
+        "texte_alternatif": "Bordeaux : France-Turquie à Bordeaux : comment se rendre au Stade Atlantique sans galérer ?"
+      },
+      "instagram": {
+        "texte": "Anticipez votre venue au Stade Atlantique à l’occasion du match France-Turquie organisé le dimanche 15 novembre à 20h45 🏅",
+        "hashtags": [
+          "#Bordeaux",
+          "#Sport",
+          "#NouvelleAquitaine"
+        ]
+      },
+      "facebook": {
+        "texte": "Anticipez votre venue au Stade Atlantique à l’occasion du match France-Turquie organisé le dimanche à 20h45 🏅"
+      },
+      "bluesky": {
+        "texte": "Anticipez votre venue au Stade Atlantique à l’occasion du match France-Turquie organisé le dimanche 15 novembre à 20h45 🏅",
+        "hashtag": "#Bordeaux"
+      },
+      "threads": {
+        "texte": "Anticipez votre venue au Stade Atlantique à l’occasion du match France-Turquie organisé le dimanche 15 novembre à 20h45 🏅",
+        "sujet": "Bordeaux"
+      },
+      "x": {
+        "texte": "Anticipez votre venue au Stade Atlantique à l’occasion du match France-Turquie organisé le dimanche à 20h45 🏅"
+      },
+      "source": "regles",
+      "lieuSource": {
+        "precis": "",
+        "ville": "",
+        "departement": "Bordeaux"
+      },
+      "lieuNom": "Bordeaux",
+      "commune": null,
+      "comptes": {
+        "instagram": [],
+        "x": [],
+        "bluesky": [],
+        "threads": [],
         "facebook": []
       }
     },

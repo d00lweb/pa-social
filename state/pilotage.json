@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-13T08:20:37.682Z",
+  "genereLe": "2026-11-13T09:00:47.376Z",
   "jour": "2026-11-13",
   "reseaux": {
     "instagram": {
@@ -156,10 +156,10 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 8,
-      "total": 77,
-      "dernier": "2026-11-12T09:00:47.350Z",
+      "aujourdhui": 1,
+      "semaine": 9,
+      "total": 78,
+      "dernier": "2026-11-13T09:01:33.428Z",
       "lienDernier": null
     }
   },
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36150",
       "titre": "Marché de Noël de Sarlat : la Corse invitée pour les 20 ans",
       "lien": "https://passion-aquitaine.ouest-france.fr/sarlat-marche-noel-2026-corse-i-muvrini/",
-      "at": "2026-11-13T08:14:57.789Z",
+      "at": "2026-11-13T09:01:33.428Z",
       "reseaux": {
         "threads": {
           "texte": "🎤 Pour ses 20 ans, le marché de Noël de Sarlat ne se contente pas de ses chalets : il a choisi une région invitée, la Corse. Et cerise sur le gâteau, un concert gratuit d’I Muvrini en plein Périgord noir. Vous imaginiez la Corse et le Périgord réunis pour Noël ?\n@villedesarlat",
@@ -193,6 +193,14 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-11-13T08:14:57.789Z"
+        },
+        "x": {
+          "texte": "Les chants corses résonnent dans les ruelles de #Sarlat 🎶 Pour ses 20 ans, le marché de Noël invite la Corse et offre un concert gratuit d’I Muvrini.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261113-152f6cb9-x.jpg",
+          "mode": "reponse",
+          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/sarlat-marche-noel-2026-corse-i-muvrini/",
+          "sujet": null,
+          "publieLe": "2026-11-13T09:01:33.428Z"
         }
       }
     },
@@ -439,6 +447,16 @@
   ],
   "publications": [
     {
+      "channel": "x",
+      "at": "2026-11-13T09:01:33.428Z",
+      "titre": "Marché de Noël de Sarlat : la Corse invitée pour les 20 ans",
+      "lien": "https://passion-aquitaine.ouest-france.fr/sarlat-marche-noel-2026-corse-i-muvrini/",
+      "lienPost": null,
+      "format": "reponse",
+      "texte": "Les chants corses résonnent dans les ruelles de #Sarlat 🎶 Pour ses 20 ans, le marché de Noël invite la Corse et offre un concert gratuit d’I Muvrini.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261113-152f6cb9-x.jpg"
+    },
+    {
       "channel": "facebook",
       "at": "2026-11-13T08:14:57.789Z",
       "titre": "Marché de Noël de Sarlat : la Corse invitée pour les 20 ans",
@@ -527,27 +545,26 @@
       "format": null,
       "texte": "Une lézarde qui court sur un mur de maison, et l’horloge qui tourne 🏠\n⠀\nÀ Camarsac, Coimères, Saint-Jean-de-Blaignac et Saint-Laurent-du-Bois, en Gironde, les habitants touchés ont jusqu’au 22 novembre pour déclarer. Tout est à lire dans l’article.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Gironde #MaisonsFissurées #EntreDeuxMers",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261111-31894d88-1.jpg"
-    },
-    {
-      "channel": "threads",
-      "at": "2026-11-11T12:15:05.163Z",
-      "titre": "France-Turquie : le 8e match des Bleus en Gironde sera une grande première",
-      "lien": "https://passion-aquitaine.ouest-france.fr/france-turquie-bordeaux-matches-bleus/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/DfmdAxulCau",
-      "format": "reponse",
-      "texte": "Les Bleus en Gironde, ce n’est pas nouveau : sept matches s’y sont déjà joués. Pourtant, le prochain sortira de l’ordinaire 🏟️ France-Turquie, dimanche 15 novembre à Bordeaux, sera une grande première. L’occasion de replonger dans les sept précédents rendez-vous de l’équipe de France dans la ville.\n@villedebordeaux",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261111-208fc27f-th.jpg"
     }
   ],
   "file": [
     {
-      "channel": "x",
-      "dueAt": "2026-11-13T09:00:00.000Z",
-      "prochainPassage": "2026-11-13T09:00:00.000Z",
+      "channel": "threads",
+      "dueAt": "2026-11-13T10:08:04.378Z",
+      "prochainPassage": "2026-11-13T10:20:00.000Z",
       "nature": "actu",
       "prevuInitialement": null,
       "raison": null,
-      "titre": "Marché de Noël de Sarlat : la Corse invitée pour les 20 ans"
+      "titre": "France-Turquie à Bordeaux : comment se rendre au Stade Atlantique sans galérer ?"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-11-13T11:20:00.000Z",
+      "prochainPassage": "2026-11-13T11:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "France-Turquie à Bordeaux : comment se rendre au Stade Atlantique sans galérer ?"
     },
     {
       "channel": "instagram",
@@ -557,6 +574,33 @@
       "prevuInitialement": null,
       "raison": null,
       "titre": "Marché de Noël de Sarlat : la Corse invitée pour les 20 ans"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-11-13T12:11:15.577Z",
+      "prochainPassage": "2026-11-13T12:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "France-Turquie à Bordeaux : comment se rendre au Stade Atlantique sans galérer ?"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-11-13T18:04:47.636Z",
+      "prochainPassage": "2026-11-13T18:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "France-Turquie à Bordeaux : comment se rendre au Stade Atlantique sans galérer ?"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-11-13T19:23:40.431Z",
+      "prochainPassage": "2026-11-13T20:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "France-Turquie à Bordeaux : comment se rendre au Stade Atlantique sans galérer ?"
     }
   ],
   "alertes": [],
@@ -643,7 +687,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-13T07:20:42.691Z"
+    "derniere": "2026-11-13T09:00:47.376Z"
   },
   "abonnes": {
     "instagram": {
@@ -682,7 +726,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-13T08:20:42.741Z",
+    "genereLe": "2026-11-13T09:01:41.449Z",
     "posts": 55,
     "parReseau": {
       "instagram": {
@@ -855,7 +899,7 @@
       "threads": 15,
       "facebook": 15,
       "bluesky": 15,
-      "x": 14,
+      "x": 15,
       "instagram": 14
     },
     "abonnes": {
@@ -907,29 +951,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 3,
-      "entree": 24317,
-      "sortie": 2700,
-      "cout": 0.151268,
+      "appels": 6,
+      "entree": 48518,
+      "sortie": 5410,
+      "cout": 0.302272,
       "cle": "2026-11-13"
     },
     "semaine": {
-      "appels": 17,
-      "entree": 136389,
-      "sortie": 15215,
-      "cout": 0.8498559999999998
+      "appels": 20,
+      "entree": 160590,
+      "sortie": 17925,
+      "cout": 1.00086
     },
     "mois": {
-      "appels": 47,
-      "entree": 376084,
-      "sortie": 42234,
-      "cout": 2.3490159999999998,
+      "appels": 50,
+      "entree": 400285,
+      "sortie": 44944,
+      "cout": 2.5000199999999997,
       "cle": "2026-11"
     },
-    "projection": 5.42,
+    "projection": 5.77,
     "moyenneAppel": 0.05,
     "parModele": {
-      "claude-opus-5-5": 47
+      "claude-opus-5-5": 50
     },
     "serie": [
       [
@@ -986,7 +1030,7 @@
       ],
       [
         "2026-11-13",
-        0.1513
+        0.3023
       ]
     ],
     "depuis": "2026-09-23"

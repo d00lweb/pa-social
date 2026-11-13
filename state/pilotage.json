@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-13T11:00:43.678Z",
+  "genereLe": "2026-11-13T11:20:32.875Z",
   "jour": "2026-11-13",
   "reseaux": {
     "instagram": {
@@ -156,10 +156,10 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 1,
-      "semaine": 9,
-      "total": 78,
-      "dernier": "2026-11-13T09:01:33.428Z",
+      "aujourdhui": 2,
+      "semaine": 10,
+      "total": 79,
+      "dernier": "2026-11-13T11:20:43.557Z",
       "lienDernier": null
     }
   },
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36152",
       "titre": "France-Turquie à Bordeaux : comment se rendre au Stade Atlantique sans galérer ?",
       "lien": "https://passion-aquitaine.ouest-france.fr/france-turquie-bordeaux-acces-stade-atlantique/",
-      "at": "2026-11-13T10:12:13.013Z",
+      "at": "2026-11-13T11:20:43.557Z",
       "reseaux": {
         "threads": {
           "texte": "Vous avez votre place pour France-Turquie à Bordeaux, mais savez-vous déjà comment rejoindre le stade ? 🚌 Le match se joue dimanche 15 novembre à 20h45 au Stade Atlantique, et anticiper sa venue peut tout changer. Vous comptez y aller comment ?\n@villedebordeaux",
@@ -177,6 +177,14 @@
           "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/france-turquie-bordeaux-acces-stade-atlantique/",
           "sujet": "Bordeaux",
           "publieLe": "2026-11-13T10:12:13.013Z"
+        },
+        "x": {
+          "texte": "20h45 ce dimanche 15 novembre : France-Turquie au Stade Atlantique de #Bordeaux. Pour arriver à l’heure, mieux vaut préparer son trajet dès maintenant ⚽",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261113-9cb43d45-x.jpg",
+          "mode": "reponse",
+          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/france-turquie-bordeaux-acces-stade-atlantique/",
+          "sujet": null,
+          "publieLe": "2026-11-13T11:20:43.557Z"
         }
       }
     },
@@ -415,6 +423,16 @@
   ],
   "publications": [
     {
+      "channel": "x",
+      "at": "2026-11-13T11:20:43.557Z",
+      "titre": "France-Turquie à Bordeaux : comment se rendre au Stade Atlantique sans galérer ?",
+      "lien": "https://passion-aquitaine.ouest-france.fr/france-turquie-bordeaux-acces-stade-atlantique/",
+      "lienPost": null,
+      "format": "reponse",
+      "texte": "20h45 ce dimanche 15 novembre : France-Turquie au Stade Atlantique de #Bordeaux. Pour arriver à l’heure, mieux vaut préparer son trajet dès maintenant ⚽",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261113-9cb43d45-x.jpg"
+    },
+    {
       "channel": "threads",
       "at": "2026-11-13T10:12:13.013Z",
       "titre": "France-Turquie à Bordeaux : comment se rendre au Stade Atlantique sans galérer ?",
@@ -503,28 +521,9 @@
       "format": null,
       "texte": "À Bordeaux, l’ex-piscine Stéhelin ne ferme plus son bassin extérieur à la fin de l’été, et l’eau y reste à 27 °C 🏊",
       "image": null
-    },
-    {
-      "channel": "threads",
-      "at": "2026-11-12T07:31:58.588Z",
-      "titre": "Bordeaux : nager dehors en plein hiver dans une eau à 27 °C",
-      "lien": "https://passion-aquitaine.ouest-france.fr/bordeaux-piscine-jean-zay-bassin-nordique/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/DfohUi1m10m",
-      "format": "reponse",
-      "texte": "Bonne nouvelle pour les nageurs bordelais qui pensaient ranger leur maillot jusqu’au printemps 🏊‍♀️ L’ex-piscine Stéhelin garde désormais son bassin extérieur ouvert tout l’hiver, avec une eau à 27 °C. Longtemps, ce bassin n’accueillait le public que l’été. De quoi garder le rythme des longueurs et profiter du grand air même quand Bordeaux se refroidit.\n@visitbordeaux",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261112-d181c42b-th.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "x",
-      "dueAt": "2026-11-13T11:20:00.000Z",
-      "prochainPassage": "2026-11-13T11:20:00.000Z",
-      "nature": "actu_chaude",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "France-Turquie à Bordeaux : comment se rendre au Stade Atlantique sans galérer ?"
-    },
     {
       "channel": "instagram",
       "dueAt": "2026-11-13T12:07:14.945Z",
@@ -685,7 +684,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-13T11:00:48.172Z",
+    "genereLe": "2026-11-13T11:20:51.266Z",
     "posts": 55,
     "parReseau": {
       "instagram": {
@@ -858,7 +857,7 @@
       "threads": 16,
       "facebook": 15,
       "bluesky": 15,
-      "x": 15,
+      "x": 16,
       "instagram": 14
     },
     "abonnes": {

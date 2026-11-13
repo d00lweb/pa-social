@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-13T08:00:36.816Z",
+  "genereLe": "2026-11-13T08:20:37.682Z",
   "jour": "2026-11-13",
   "reseaux": {
     "instagram": {
@@ -561,7 +561,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 574,
+    "releves": 575,
     "parReseau": {
       "instagram": {
         "posts": 71,
@@ -682,8 +682,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-13T08:15:01.460Z",
-    "posts": 54,
+    "genereLe": "2026-11-13T08:20:42.741Z",
+    "posts": 55,
     "parReseau": {
       "instagram": {
         "posts": 13,
@@ -698,7 +698,7 @@
         "moyenne": 0
       },
       "bluesky": {
-        "posts": 13,
+        "posts": 14,
         "moyenne": 0
       }
     },
@@ -708,7 +708,7 @@
         "moyenne": 4.6
       },
       "image": {
-        "posts": 6,
+        "posts": 7,
         "moyenne": 0
       },
       "card": {
@@ -726,7 +726,7 @@
         "moyenne": 5.1
       },
       "matin": {
-        "posts": 29,
+        "posts": 30,
         "moyenne": 1.8
       },
       "soir": {
@@ -769,7 +769,7 @@
       },
       "bluesky": {
         "8 h – 9 h 30": {
-          "posts": 8,
+          "posts": 9,
           "moyenne": 0
         },
         "hors créneau": {
@@ -823,11 +823,11 @@
     },
     "moinsBon": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36145",
-      "channel": "facebook",
-      "mediaId": "227437307428711_1785427890249758",
-      "publieLe": "2026-11-12T07:34:39.909Z",
+      "channel": "bluesky",
+      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3n23yyzdiyz26",
+      "publieLe": "2026-11-12T08:03:08.586Z",
       "jalon": 1,
-      "releveLe": "2026-11-13T08:00:36.816Z",
+      "releveLe": "2026-11-13T08:20:37.682Z",
       "likes": 0,
       "commentairesBruts": 0,
       "partages": 0,
@@ -835,8 +835,8 @@
       "commentaires": 0,
       "v": 2,
       "titre": "Bordeaux : nager dehors en plein hiver dans une eau à 27 °C",
-      "lien": "https://www.facebook.com/1720946116697936/posts/1785427890249758",
-      "format": null,
+      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n23yyzdiyz26",
+      "format": "image",
       "mention": false,
       "creneau": "matin",
       "creneauReseau": "8 h – 9 h 30"
@@ -847,7 +847,7 @@
         "moyenne": 6
       },
       "sans": {
-        "posts": 31,
+        "posts": 32,
         "moyenne": 0.2
       }
     },

@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-14T10:20:46.392Z",
+  "genereLe": "2026-11-14T11:00:37.430Z",
   "jour": "2026-11-14",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 9,
-      "total": 81,
-      "dernier": "2026-11-13T18:05:19.389Z",
-      "lienDernier": "https://www.instagram.com/p/DfsO9Hql7Yb/"
+      "aujourdhui": 1,
+      "semaine": 10,
+      "total": 82,
+      "dernier": "2026-11-14T11:07:10.144Z",
+      "lienDernier": "https://www.instagram.com/p/DfuD49fJe5k/"
     },
     "bluesky": {
       "actif": true,
@@ -123,7 +123,7 @@
         "reponse"
       ],
       "aujourdhui": 2,
-      "semaine": 11,
+      "semaine": 10,
       "total": 78,
       "dernier": "2026-11-14T10:27:49.836Z",
       "lienDernier": "https://www.threads.com/@lovaquitaine/post/Dft_DN5lrRD"
@@ -165,26 +165,10 @@
   },
   "articles": [
     {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36208",
-      "titre": "Aéroport de Bordeaux : privé de Ryanair, il s’envole au Caire",
-      "lien": "https://passion-aquitaine.ouest-france.fr/aeroport-bordeaux-vol-direct-caire-hiver/",
-      "at": "2026-11-14T10:27:49.836Z",
-      "reseaux": {
-        "threads": {
-          "texte": "🛬 À Bordeaux, l’aéroport encaisse le coup. Le départ de Ryanair lui a fait perdre près de 700 000 passagers, un trou difficile à combler. Sa réponse ne manque pas d’ambition : miser sur Le Caire. Un pari pour retrouver des voyageurs et redonner de l’élan à ses pistes.\n@villedebordeaux",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261114-6495f52d-th.jpg",
-          "mode": "reponse",
-          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/aeroport-bordeaux-vol-direct-caire-hiver/",
-          "sujet": "Bordeaux",
-          "publieLe": "2026-11-14T10:27:49.836Z"
-        }
-      }
-    },
-    {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36171",
       "titre": "Bordeaux : on va valser à la douane pour les 100 ans de Monet",
       "lien": "https://passion-aquitaine.ouest-france.fr/bordeaux-bal-costume-musee-douanes-monet/",
-      "at": "2026-11-14T08:29:36.059Z",
+      "at": "2026-11-14T11:07:10.144Z",
       "reseaux": {
         "threads": {
           "texte": "Cent ans jour pour jour après la mort de Monet, on danse 🎭 Le 5 décembre, le Musée national des douanes de Bordeaux organise un bal costumé pour marquer l’anniversaire. Un hommage plutôt original pour un musée consacré aux douanes. Vous iriez en costume d’époque ?\n@visitbordeaux",
@@ -217,6 +201,30 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-11-14T08:29:36.059Z"
+        },
+        "instagram": {
+          "texte": "Un bal costumé dans un musée des douanes 🎨 pour saluer Monet, cent ans après sa mort.\n⠀\nÀ Bordeaux, le Musée national des douanes invite à valser le 5 décembre, jour anniversaire de la disparition du peintre. Une façon inattendue de célébrer l’impressionnisme.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #Monet #BalCostume",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261114-0eedb13e-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-14T11:07:10.144Z"
+        }
+      }
+    },
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36208",
+      "titre": "Aéroport de Bordeaux : privé de Ryanair, il s’envole au Caire",
+      "lien": "https://passion-aquitaine.ouest-france.fr/aeroport-bordeaux-vol-direct-caire-hiver/",
+      "at": "2026-11-14T10:27:49.836Z",
+      "reseaux": {
+        "threads": {
+          "texte": "🛬 À Bordeaux, l’aéroport encaisse le coup. Le départ de Ryanair lui a fait perdre près de 700 000 passagers, un trou difficile à combler. Sa réponse ne manque pas d’ambition : miser sur Le Caire. Un pari pour retrouver des voyageurs et redonner de l’élan à ses pistes.\n@villedebordeaux",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261114-6495f52d-th.jpg",
+          "mode": "reponse",
+          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/aeroport-bordeaux-vol-direct-caire-hiver/",
+          "sujet": "Bordeaux",
+          "publieLe": "2026-11-14T10:27:49.836Z"
         }
       }
     },
@@ -415,6 +423,16 @@
   ],
   "publications": [
     {
+      "channel": "instagram",
+      "at": "2026-11-14T11:07:10.144Z",
+      "titre": "Bordeaux : on va valser à la douane pour les 100 ans de Monet",
+      "lien": "https://passion-aquitaine.ouest-france.fr/bordeaux-bal-costume-musee-douanes-monet/",
+      "lienPost": "https://www.instagram.com/p/DfuD49fJe5k/",
+      "format": null,
+      "texte": "Un bal costumé dans un musée des douanes 🎨 pour saluer Monet, cent ans après sa mort.\n⠀\nÀ Bordeaux, le Musée national des douanes invite à valser le 5 décembre, jour anniversaire de la disparition du peintre. Une façon inattendue de célébrer l’impressionnisme.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #Monet #BalCostume",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261114-0eedb13e-1.jpg"
+    },
+    {
       "channel": "threads",
       "at": "2026-11-14T10:27:49.836Z",
       "titre": "Aéroport de Bordeaux : privé de Ryanair, il s’envole au Caire",
@@ -503,28 +521,9 @@
       "format": null,
       "texte": "Sarlat, en Périgord noir, se met à l’heure corse pour Noël 🎄\n⠀\nPour ses 20 ans, le marché de Noël de Sarlat invite la Corse. Au programme aussi : un concert gratuit d’I Muvrini.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Sarlat #MarchéDeNoël #Corse",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261113-152f6cb9-1.jpg"
-    },
-    {
-      "channel": "x",
-      "at": "2026-11-13T11:20:43.557Z",
-      "titre": "France-Turquie à Bordeaux : comment se rendre au Stade Atlantique sans galérer ?",
-      "lien": "https://passion-aquitaine.ouest-france.fr/france-turquie-bordeaux-acces-stade-atlantique/",
-      "lienPost": null,
-      "format": "reponse",
-      "texte": "20h45 ce dimanche 15 novembre : France-Turquie au Stade Atlantique de #Bordeaux. Pour arriver à l’heure, mieux vaut préparer son trajet dès maintenant ⚽",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261113-9cb43d45-x.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "instagram",
-      "dueAt": "2026-11-14T11:06:38.104Z",
-      "prochainPassage": "2026-11-14T11:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Bordeaux : on va valser à la douane pour les 100 ans de Monet"
-    },
     {
       "channel": "x",
       "dueAt": "2026-11-14T12:00:00.000Z",
@@ -564,7 +563,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 584,
+    "releves": 585,
     "parReseau": {
       "instagram": {
         "posts": 72,
@@ -579,8 +578,8 @@
         "interactionsMoyennes": 0
       },
       "threads": {
-        "posts": 67,
-        "interactionsMoyennes": 8.9
+        "posts": 68,
+        "interactionsMoyennes": 8.8
       }
     }
   },
@@ -685,7 +684,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-14T10:27:54.229Z",
+    "genereLe": "2026-11-14T11:07:12.897Z",
     "posts": 60,
     "parReseau": {
       "instagram": {
@@ -859,7 +858,7 @@
       "facebook": 17,
       "bluesky": 17,
       "x": 17,
-      "instagram": 16
+      "instagram": 17
     },
     "abonnes": {
       "instagram": {

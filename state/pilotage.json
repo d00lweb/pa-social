@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-14T06:20:51.625Z",
+  "genereLe": "2026-11-14T07:00:43.511Z",
   "jour": "2026-11-14",
   "reseaux": {
     "instagram": {
@@ -555,7 +555,53 @@
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261113-152f6cb9-th.jpg"
     }
   ],
-  "file": [],
+  "file": [
+    {
+      "channel": "threads",
+      "dueAt": "2026-11-14T07:28:48.648Z",
+      "prochainPassage": "2026-11-14T08:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Bordeaux : on va valser à la douane pour les 100 ans de Monet"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-11-14T08:00:00.000Z",
+      "prochainPassage": "2026-11-14T08:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Bordeaux : on va valser à la douane pour les 100 ans de Monet"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-11-14T08:26:27.561Z",
+      "prochainPassage": "2026-11-14T09:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Bordeaux : on va valser à la douane pour les 100 ans de Monet"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-11-14T08:29:28.615Z",
+      "prochainPassage": "2026-11-14T09:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Bordeaux : on va valser à la douane pour les 100 ans de Monet"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-11-14T11:06:38.104Z",
+      "prochainPassage": "2026-11-14T11:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Bordeaux : on va valser à la douane pour les 100 ans de Monet"
+    }
+  ],
   "alertes": [],
   "mesures": {
     "releves": 580,
@@ -640,7 +686,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-14T06:00:37.756Z"
+    "derniere": "2026-11-14T07:00:43.511Z"
   },
   "abonnes": {
     "instagram": {
@@ -679,7 +725,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-14T06:20:54.983Z",
+    "genereLe": "2026-11-14T07:01:16.247Z",
     "posts": 56,
     "parReseau": {
       "instagram": {
@@ -904,29 +950,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 0,
-      "entree": 0,
-      "sortie": 0,
-      "cout": 0,
+      "appels": 2,
+      "entree": 16000,
+      "sortie": 1625,
+      "cout": 0.0965,
       "cle": "2026-11-14"
     },
     "semaine": {
-      "appels": 20,
-      "entree": 160616,
-      "sortie": 17981,
-      "cout": 1.002084
+      "appels": 22,
+      "entree": 176616,
+      "sortie": 19606,
+      "cout": 1.098584
     },
     "mois": {
-      "appels": 51,
-      "entree": 408277,
-      "sortie": 45808,
-      "cout": 2.5492679999999996,
+      "appels": 53,
+      "entree": 424277,
+      "sortie": 47433,
+      "cout": 2.6457679999999995,
       "cle": "2026-11"
     },
-    "projection": 5.46,
-    "moyenneAppel": 0.05,
+    "projection": 5.67,
+    "moyenneAppel": 0.0499,
     "parModele": {
-      "claude-opus-5-5": 51
+      "claude-opus-5-5": 53
     },
     "serie": [
       [
@@ -983,7 +1029,7 @@
       ],
       [
         "2026-11-14",
-        0
+        0.0965
       ]
     ],
     "depuis": "2026-09-23"

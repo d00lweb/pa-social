@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-14T18:00:37.748Z",
+  "genereLe": "2026-11-14T18:20:35.209Z",
   "jour": "2026-11-14",
   "reseaux": {
     "instagram": {
@@ -560,7 +560,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 589,
+    "releves": 590,
     "parReseau": {
       "instagram": {
         "posts": 73,
@@ -681,12 +681,12 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-14T18:05:19.714Z",
-    "posts": 62,
+    "genereLe": "2026-11-14T18:20:38.945Z",
+    "posts": 63,
     "parReseau": {
       "instagram": {
-        "posts": 15,
-        "moyenne": 5.7
+        "posts": 16,
+        "moyenne": 5.4
       },
       "threads": {
         "posts": 16,
@@ -729,8 +729,8 @@
         "moyenne": 1.7
       },
       "soir": {
-        "posts": 9,
-        "moyenne": 1
+        "posts": 10,
+        "moyenne": 1.1
       }
     },
     "parCreneauReseau": {
@@ -794,12 +794,12 @@
           "moyenne": 3
         },
         "18 h – 19 h 30": {
-          "posts": 1,
+          "posts": 2,
           "moyenne": 2
         }
       }
     },
-    "interactionsTotal": 154,
+    "interactionsTotal": 156,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36056",
       "channel": "threads",
@@ -842,8 +842,8 @@
     },
     "mentions": {
       "avec": {
-        "posts": 28,
-        "moyenne": 5.3
+        "posts": 29,
+        "moyenne": 5.1
       },
       "sans": {
         "posts": 34,
@@ -893,7 +893,7 @@
       "x": null
     },
     "engagement": {
-      "instagram": 0.06,
+      "instagram": 0.05,
       "threads": 0.37,
       "facebook": 0
     },
@@ -901,7 +901,7 @@
       "Threads : le créneau 7 h – 8 h 30 fait 34 fois mieux que 10 h – 11 h 30 (6.8 contre 0.2 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Le format « reponse » fait 43 fois mieux que « reply » (4.3 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « reply » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+8, +0,7 %) ; Facebook recule (−22), à surveiller.",
-      "Les posts avec mention font 5.1 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
+      "Les posts avec mention font 4.9 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
     ]
   },
   "couts": {

@@ -7026,5 +7026,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36208",
+    "channel": "x",
+    "at": "2026-11-14T12:01:03.318Z",
+    "mediaId": "kit-telegram",
+    "titre": "Aéroport de Bordeaux : privé de Ryanair, il s’envole au Caire",
+    "lien": "https://passion-aquitaine.ouest-france.fr/aeroport-bordeaux-vol-direct-caire-hiver/",
+    "lienPost": null,
+    "format": "reponse",
+    "mention": true,
+    "apercu": {
+      "texte": "Lâché par Ryanair, l’aéroport de #Bordeaux regarde vers Le Caire 🐪 Après la perte de près de 700 000 passagers, c’est sur cette destination qu’il mise désormais pour rebondir.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261114-6495f52d-x.jpg",
+      "mode": "reponse",
+      "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/aeroport-bordeaux-vol-direct-caire-hiver/",
+      "sujet": null
+    }
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-14T11:20:42.627Z",
+  "genereLe": "2026-11-14T12:00:51.919Z",
   "jour": "2026-11-14",
   "reseaux": {
     "instagram": {
@@ -25,7 +25,7 @@
       },
       "formats": null,
       "aujourdhui": 1,
-      "semaine": 10,
+      "semaine": 9,
       "total": 82,
       "dernier": "2026-11-14T11:07:10.144Z",
       "lienDernier": "https://www.instagram.com/p/DfuD49fJe5k/"
@@ -156,14 +156,38 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 1,
-      "semaine": 9,
-      "total": 80,
-      "dernier": "2026-11-14T08:00:56.765Z",
+      "aujourdhui": 2,
+      "semaine": 10,
+      "total": 81,
+      "dernier": "2026-11-14T12:01:03.318Z",
       "lienDernier": null
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36208",
+      "titre": "Aéroport de Bordeaux : privé de Ryanair, il s’envole au Caire",
+      "lien": "https://passion-aquitaine.ouest-france.fr/aeroport-bordeaux-vol-direct-caire-hiver/",
+      "at": "2026-11-14T12:01:03.318Z",
+      "reseaux": {
+        "threads": {
+          "texte": "🛬 À Bordeaux, l’aéroport encaisse le coup. Le départ de Ryanair lui a fait perdre près de 700 000 passagers, un trou difficile à combler. Sa réponse ne manque pas d’ambition : miser sur Le Caire. Un pari pour retrouver des voyageurs et redonner de l’élan à ses pistes.\n@villedebordeaux",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261114-6495f52d-th.jpg",
+          "mode": "reponse",
+          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/aeroport-bordeaux-vol-direct-caire-hiver/",
+          "sujet": "Bordeaux",
+          "publieLe": "2026-11-14T10:27:49.836Z"
+        },
+        "x": {
+          "texte": "Lâché par Ryanair, l’aéroport de #Bordeaux regarde vers Le Caire 🐪 Après la perte de près de 700 000 passagers, c’est sur cette destination qu’il mise désormais pour rebondir.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261114-6495f52d-x.jpg",
+          "mode": "reponse",
+          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/aeroport-bordeaux-vol-direct-caire-hiver/",
+          "sujet": null,
+          "publieLe": "2026-11-14T12:01:03.318Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36171",
       "titre": "Bordeaux : on va valser à la douane pour les 100 ans de Monet",
@@ -209,22 +233,6 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-11-14T11:07:10.144Z"
-        }
-      }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36208",
-      "titre": "Aéroport de Bordeaux : privé de Ryanair, il s’envole au Caire",
-      "lien": "https://passion-aquitaine.ouest-france.fr/aeroport-bordeaux-vol-direct-caire-hiver/",
-      "at": "2026-11-14T10:27:49.836Z",
-      "reseaux": {
-        "threads": {
-          "texte": "🛬 À Bordeaux, l’aéroport encaisse le coup. Le départ de Ryanair lui a fait perdre près de 700 000 passagers, un trou difficile à combler. Sa réponse ne manque pas d’ambition : miser sur Le Caire. Un pari pour retrouver des voyageurs et redonner de l’élan à ses pistes.\n@villedebordeaux",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261114-6495f52d-th.jpg",
-          "mode": "reponse",
-          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/aeroport-bordeaux-vol-direct-caire-hiver/",
-          "sujet": "Bordeaux",
-          "publieLe": "2026-11-14T10:27:49.836Z"
         }
       }
     },
@@ -423,6 +431,16 @@
   ],
   "publications": [
     {
+      "channel": "x",
+      "at": "2026-11-14T12:01:03.318Z",
+      "titre": "Aéroport de Bordeaux : privé de Ryanair, il s’envole au Caire",
+      "lien": "https://passion-aquitaine.ouest-france.fr/aeroport-bordeaux-vol-direct-caire-hiver/",
+      "lienPost": null,
+      "format": "reponse",
+      "texte": "Lâché par Ryanair, l’aéroport de #Bordeaux regarde vers Le Caire 🐪 Après la perte de près de 700 000 passagers, c’est sur cette destination qu’il mise désormais pour rebondir.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261114-6495f52d-x.jpg"
+    },
+    {
       "channel": "instagram",
       "at": "2026-11-14T11:07:10.144Z",
       "titre": "Bordeaux : on va valser à la douane pour les 100 ans de Monet",
@@ -511,28 +529,9 @@
       "format": "image",
       "texte": "Des milliers de supporters convergent vers le Stade Atlantique de #Bordeaux 🏟️ Dimanche 15 novembre à 20h45, France et Turquie s’y affrontent, et l’accès au stade se prépare à l’avance.\n@villedebordeaux.bsky.social\n➡️ Lire l’article",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261113-9cb43d45-bsky.jpg"
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-11-13T12:07:47.214Z",
-      "titre": "Marché de Noël de Sarlat : la Corse invitée pour les 20 ans",
-      "lien": "https://passion-aquitaine.ouest-france.fr/sarlat-marche-noel-2026-corse-i-muvrini/",
-      "lienPost": "https://www.instagram.com/p/DfrmCREDWXf/",
-      "format": null,
-      "texte": "Sarlat, en Périgord noir, se met à l’heure corse pour Noël 🎄\n⠀\nPour ses 20 ans, le marché de Noël de Sarlat invite la Corse. Au programme aussi : un concert gratuit d’I Muvrini.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Sarlat #MarchéDeNoël #Corse",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261113-152f6cb9-1.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "x",
-      "dueAt": "2026-11-14T12:00:00.000Z",
-      "prochainPassage": "2026-11-14T12:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Aéroport de Bordeaux : privé de Ryanair, il s’envole au Caire"
-    },
     {
       "channel": "bluesky",
       "dueAt": "2026-11-14T12:26:39.210Z",
@@ -563,11 +562,11 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 585,
+    "releves": 586,
     "parReseau": {
       "instagram": {
-        "posts": 72,
-        "interactionsMoyennes": 12.8
+        "posts": 73,
+        "interactionsMoyennes": 12.6
       },
       "bluesky": {
         "posts": 70,
@@ -645,7 +644,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-14T10:20:46.392Z"
+    "derniere": "2026-11-14T12:00:51.919Z"
   },
   "abonnes": {
     "instagram": {
@@ -684,7 +683,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-14T11:20:47.504Z",
+    "genereLe": "2026-11-14T12:01:09.144Z",
     "posts": 60,
     "parReseau": {
       "instagram": {
@@ -857,7 +856,7 @@
       "threads": 18,
       "facebook": 17,
       "bluesky": 17,
-      "x": 17,
+      "x": 18,
       "instagram": 17
     },
     "abonnes": {

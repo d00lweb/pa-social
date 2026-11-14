@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-14T09:20:41.494Z",
+  "genereLe": "2026-11-14T10:00:36.982Z",
   "jour": "2026-11-14",
   "reseaux": {
     "instagram": {
@@ -549,6 +549,15 @@
   ],
   "file": [
     {
+      "channel": "threads",
+      "dueAt": "2026-11-14T10:24:32.378Z",
+      "prochainPassage": "2026-11-14T11:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Aéroport de Bordeaux : privé de Ryanair, il s’envole au Caire"
+    },
+    {
       "channel": "instagram",
       "dueAt": "2026-11-14T11:06:38.104Z",
       "prochainPassage": "2026-11-14T11:20:00.000Z",
@@ -556,6 +565,42 @@
       "prevuInitialement": null,
       "raison": null,
       "titre": "Bordeaux : on va valser à la douane pour les 100 ans de Monet"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-11-14T12:00:00.000Z",
+      "prochainPassage": "2026-11-14T12:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Aéroport de Bordeaux : privé de Ryanair, il s’envole au Caire"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-11-14T12:26:39.210Z",
+      "prochainPassage": "2026-11-14T13:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Aéroport de Bordeaux : privé de Ryanair, il s’envole au Caire"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-11-14T18:04:52.845Z",
+      "prochainPassage": "2026-11-14T18:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Aéroport de Bordeaux : privé de Ryanair, il s’envole au Caire"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-11-14T19:09:08.347Z",
+      "prochainPassage": "2026-11-14T19:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Aéroport de Bordeaux : privé de Ryanair, il s’envole au Caire"
     }
   ],
   "alertes": [],
@@ -681,7 +726,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-14T09:20:46.718Z",
+    "genereLe": "2026-11-14T10:01:06.688Z",
     "posts": 59,
     "parReseau": {
       "instagram": {
@@ -906,29 +951,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 2,
-      "entree": 16000,
-      "sortie": 1625,
-      "cout": 0.0965,
+      "appels": 4,
+      "entree": 32020,
+      "sortie": 3469,
+      "cout": 0.19746,
       "cle": "2026-11-14"
     },
     "semaine": {
-      "appels": 22,
-      "entree": 176616,
-      "sortie": 19606,
-      "cout": 1.098584
+      "appels": 24,
+      "entree": 192636,
+      "sortie": 21450,
+      "cout": 1.199544
     },
     "mois": {
-      "appels": 53,
-      "entree": 424277,
-      "sortie": 47433,
-      "cout": 2.6457679999999995,
+      "appels": 55,
+      "entree": 440297,
+      "sortie": 49277,
+      "cout": 2.7467279999999996,
       "cle": "2026-11"
     },
-    "projection": 5.67,
+    "projection": 5.89,
     "moyenneAppel": 0.0499,
     "parModele": {
-      "claude-opus-5-5": 53
+      "claude-opus-5-5": 55
     },
     "serie": [
       [
@@ -985,7 +1030,7 @@
       ],
       [
         "2026-11-14",
-        0.0965
+        0.1975
       ]
     ],
     "depuis": "2026-09-23"

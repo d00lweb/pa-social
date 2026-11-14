@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-14T10:00:36.982Z",
+  "genereLe": "2026-11-14T10:20:46.392Z",
   "jour": "2026-11-14",
   "reseaux": {
     "instagram": {
@@ -122,11 +122,11 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 1,
-      "semaine": 10,
-      "total": 77,
-      "dernier": "2026-11-14T07:31:42.692Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/Dftq8GmlGQ6"
+      "aujourdhui": 2,
+      "semaine": 11,
+      "total": 78,
+      "dernier": "2026-11-14T10:27:49.836Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/Dft_DN5lrRD"
     },
     "x": {
       "actif": true,
@@ -164,6 +164,22 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36208",
+      "titre": "Aéroport de Bordeaux : privé de Ryanair, il s’envole au Caire",
+      "lien": "https://passion-aquitaine.ouest-france.fr/aeroport-bordeaux-vol-direct-caire-hiver/",
+      "at": "2026-11-14T10:27:49.836Z",
+      "reseaux": {
+        "threads": {
+          "texte": "🛬 À Bordeaux, l’aéroport encaisse le coup. Le départ de Ryanair lui a fait perdre près de 700 000 passagers, un trou difficile à combler. Sa réponse ne manque pas d’ambition : miser sur Le Caire. Un pari pour retrouver des voyageurs et redonner de l’élan à ses pistes.\n@villedebordeaux",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261114-6495f52d-th.jpg",
+          "mode": "reponse",
+          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/aeroport-bordeaux-vol-direct-caire-hiver/",
+          "sujet": "Bordeaux",
+          "publieLe": "2026-11-14T10:27:49.836Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36171",
       "titre": "Bordeaux : on va valser à la douane pour les 100 ans de Monet",
@@ -395,57 +411,19 @@
           "publieLe": "2026-11-11T13:07:50.170Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36123",
-      "titre": "France-Turquie : le 8e match des Bleus en Gironde sera une grande première",
-      "lien": "https://passion-aquitaine.ouest-france.fr/france-turquie-bordeaux-matches-bleus/",
-      "at": "2026-11-11T12:15:05.163Z",
-      "reseaux": {
-        "instagram": {
-          "texte": "Les Bleus ont déjà joué sept fois à Bordeaux : vous vous souvenez de ces matches ?\n⠀\nAvant France-Turquie le dimanche 15 novembre, retour sur l’histoire de l’équipe de France en Gironde. Ce 8e rendez-vous sera une grande première ⚽\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #EquipeDeFrance #FranceTurquie",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261111-208fc27f-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-11T10:24:36.617Z"
-        },
-        "x": {
-          "texte": "Avant France-Turquie dimanche 15 novembre, revivez les sept précédents matches de l’équipe de France à #Bordeaux. Le huitième sera une grande première ⚽",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261111-208fc27f-x.jpg",
-          "mode": "reponse",
-          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/france-turquie-bordeaux-matches-bleus/",
-          "sujet": null,
-          "publieLe": "2026-11-11T11:00:43.796Z"
-        },
-        "bluesky": {
-          "texte": "À #Bordeaux, l’@equipedefrance.bsky.social a déjà joué sept matches 🇫🇷 Le huitième, France-Turquie le dimanche 15 novembre, s’annonce comme une grande première ⚽ Retour sur les précédents passages des Bleus en #Gironde.\n@villedebordeaux.bsky.social\n➡️ Lire l’article",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261111-208fc27f-bsky.jpg",
-          "mode": "image",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-11T11:05:05.084Z"
-        },
-        "facebook": {
-          "texte": "Sept matches des Bleus à Bordeaux avant celui-ci, et le huitième, face à la Turquie, sera une grande première ⚽",
-          "image": null,
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-11T11:30:03.793Z"
-        },
-        "threads": {
-          "texte": "Les Bleus en Gironde, ce n’est pas nouveau : sept matches s’y sont déjà joués. Pourtant, le prochain sortira de l’ordinaire 🏟️ France-Turquie, dimanche 15 novembre à Bordeaux, sera une grande première. L’occasion de replonger dans les sept précédents rendez-vous de l’équipe de France dans la ville.\n@villedebordeaux",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261111-208fc27f-th.jpg",
-          "mode": "reponse",
-          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/france-turquie-bordeaux-matches-bleus/",
-          "sujet": "Bordeaux",
-          "publieLe": "2026-11-11T12:15:05.163Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "threads",
+      "at": "2026-11-14T10:27:49.836Z",
+      "titre": "Aéroport de Bordeaux : privé de Ryanair, il s’envole au Caire",
+      "lien": "https://passion-aquitaine.ouest-france.fr/aeroport-bordeaux-vol-direct-caire-hiver/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/Dft_DN5lrRD",
+      "format": "reponse",
+      "texte": "🛬 À Bordeaux, l’aéroport encaisse le coup. Le départ de Ryanair lui a fait perdre près de 700 000 passagers, un trou difficile à combler. Sa réponse ne manque pas d’ambition : miser sur Le Caire. Un pari pour retrouver des voyageurs et redonner de l’élan à ses pistes.\n@villedebordeaux",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261114-6495f52d-th.jpg"
+    },
     {
       "channel": "facebook",
       "at": "2026-11-14T08:29:36.059Z",
@@ -535,28 +513,9 @@
       "format": "reponse",
       "texte": "20h45 ce dimanche 15 novembre : France-Turquie au Stade Atlantique de #Bordeaux. Pour arriver à l’heure, mieux vaut préparer son trajet dès maintenant ⚽",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261113-9cb43d45-x.jpg"
-    },
-    {
-      "channel": "threads",
-      "at": "2026-11-13T10:12:13.013Z",
-      "titre": "France-Turquie à Bordeaux : comment se rendre au Stade Atlantique sans galérer ?",
-      "lien": "https://passion-aquitaine.ouest-france.fr/france-turquie-bordeaux-acces-stade-atlantique/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/DfrYXi0FT5v",
-      "format": "reponse",
-      "texte": "Vous avez votre place pour France-Turquie à Bordeaux, mais savez-vous déjà comment rejoindre le stade ? 🚌 Le match se joue dimanche 15 novembre à 20h45 au Stade Atlantique, et anticiper sa venue peut tout changer. Vous comptez y aller comment ?\n@villedebordeaux",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261113-9cb43d45-th.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "threads",
-      "dueAt": "2026-11-14T10:24:32.378Z",
-      "prochainPassage": "2026-11-14T11:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Aéroport de Bordeaux : privé de Ryanair, il s’envole au Caire"
-    },
     {
       "channel": "instagram",
       "dueAt": "2026-11-14T11:06:38.104Z",
@@ -605,7 +564,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 583,
+    "releves": 584,
     "parReseau": {
       "instagram": {
         "posts": 72,
@@ -687,7 +646,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-14T09:20:41.494Z"
+    "derniere": "2026-11-14T10:20:46.392Z"
   },
   "abonnes": {
     "instagram": {
@@ -726,16 +685,16 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-14T10:01:06.688Z",
-    "posts": 59,
+    "genereLe": "2026-11-14T10:27:54.229Z",
+    "posts": 60,
     "parReseau": {
       "instagram": {
         "posts": 14,
         "moyenne": 5.9
       },
       "threads": {
-        "posts": 15,
-        "moyenne": 4.6
+        "posts": 16,
+        "moyenne": 4.3
       },
       "facebook": {
         "posts": 15,
@@ -748,8 +707,8 @@
     },
     "parFormat": {
       "reponse": {
-        "posts": 15,
-        "moyenne": 4.6
+        "posts": 16,
+        "moyenne": 4.3
       },
       "image": {
         "posts": 8,
@@ -770,7 +729,7 @@
         "moyenne": 5.1
       },
       "matin": {
-        "posts": 33,
+        "posts": 34,
         "moyenne": 1.7
       },
       "soir": {
@@ -793,8 +752,8 @@
           "moyenne": 2
         },
         "10 h – 11 h 30": {
-          "posts": 4,
-          "moyenne": 0.3
+          "posts": 5,
+          "moyenne": 0.2
         }
       },
       "facebook": {
@@ -866,29 +825,29 @@
       "creneauReseau": "7 h – 8 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36150",
-      "channel": "facebook",
-      "mediaId": "227437307428711_1786755693450311",
-      "publieLe": "2026-11-13T08:14:57.789Z",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36152",
+      "channel": "threads",
+      "mediaId": "18115797605144355",
+      "publieLe": "2026-11-13T10:12:13.013Z",
       "jalon": 1,
-      "releveLe": "2026-11-14T08:20:40.176Z",
+      "releveLe": "2026-11-14T10:20:46.392Z",
       "likes": 0,
-      "commentairesBruts": 0,
+      "commentairesBruts": 1,
       "partages": 0,
-      "vues": null,
+      "vues": 1131,
       "commentaires": 0,
       "v": 2,
-      "titre": "Marché de Noël de Sarlat : la Corse invitée pour les 20 ans",
-      "lien": "https://www.facebook.com/1720946116697936/posts/1786755693450311",
-      "format": null,
-      "mention": false,
+      "titre": "France-Turquie à Bordeaux : comment se rendre au Stade Atlantique sans galérer ?",
+      "lien": "https://www.threads.com/@lovaquitaine/post/DfrYXi0FT5v",
+      "format": "reponse",
+      "mention": true,
       "creneau": "matin",
-      "creneauReseau": "8 h – 9 h 30"
+      "creneauReseau": "10 h – 11 h 30"
     },
     "mentions": {
       "avec": {
-        "posts": 25,
-        "moyenne": 5.8
+        "posts": 26,
+        "moyenne": 5.6
       },
       "sans": {
         "posts": 34,
@@ -896,7 +855,7 @@
       }
     },
     "publies": {
-      "threads": 17,
+      "threads": 18,
       "facebook": 17,
       "bluesky": 17,
       "x": 17,
@@ -939,14 +898,14 @@
     },
     "engagement": {
       "instagram": 0.06,
-      "threads": 0.4,
+      "threads": 0.37,
       "facebook": 0
     },
     "conseils": [
-      "Threads : le créneau 7 h – 8 h 30 fait 22,7 fois mieux que 10 h – 11 h 30 (6.8 contre 0.3 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
-      "Le format « reponse » fait 46 fois mieux que « reply » (4.6 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « reply » de la rotation dans config/channels.json.",
+      "Threads : le créneau 7 h – 8 h 30 fait 34 fois mieux que 10 h – 11 h 30 (6.8 contre 0.2 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
+      "Le format « reponse » fait 43 fois mieux que « reply » (4.3 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « reply » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+8, +0,7 %) ; Facebook recule (−22), à surveiller.",
-      "Les posts avec mention font 5.6 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
+      "Les posts avec mention font 5.4 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
     ]
   },
   "couts": {

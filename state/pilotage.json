@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-14T12:00:51.919Z",
+  "genereLe": "2026-11-14T12:20:32.574Z",
   "jour": "2026-11-14",
   "reseaux": {
     "instagram": {
@@ -60,11 +60,11 @@
         "image",
         "reply"
       ],
-      "aujourdhui": 1,
-      "semaine": 10,
-      "total": 80,
-      "dernier": "2026-11-14T08:26:30.027Z",
-      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2b3amn5vl2m"
+      "aujourdhui": 2,
+      "semaine": 11,
+      "total": 81,
+      "dernier": "2026-11-14T12:26:42.152Z",
+      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2bio4z3te27"
     },
     "facebook": {
       "actif": true,
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36208",
       "titre": "Aéroport de Bordeaux : privé de Ryanair, il s’envole au Caire",
       "lien": "https://passion-aquitaine.ouest-france.fr/aeroport-bordeaux-vol-direct-caire-hiver/",
-      "at": "2026-11-14T12:01:03.318Z",
+      "at": "2026-11-14T12:26:42.152Z",
       "reseaux": {
         "threads": {
           "texte": "🛬 À Bordeaux, l’aéroport encaisse le coup. Le départ de Ryanair lui a fait perdre près de 700 000 passagers, un trou difficile à combler. Sa réponse ne manque pas d’ambition : miser sur Le Caire. Un pari pour retrouver des voyageurs et redonner de l’élan à ses pistes.\n@villedebordeaux",
@@ -185,6 +185,14 @@
           "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/aeroport-bordeaux-vol-direct-caire-hiver/",
           "sujet": null,
           "publieLe": "2026-11-14T12:01:03.318Z"
+        },
+        "bluesky": {
+          "texte": "Près de 700 000 passagers envolés : c’est ce qu’a coûté à l’aéroport de #Bordeaux le départ de Ryanair. Pour remonter la pente, la plateforme girondine mise désormais sur une destination inattendue, Le Caire 🌍\n@villedebordeaux.bsky.social",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261114-6495f52d-bsky.jpg",
+          "mode": "reply",
+          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/aeroport-bordeaux-vol-direct-caire-hiver/",
+          "sujet": null,
+          "publieLe": "2026-11-14T12:26:42.152Z"
         }
       }
     },
@@ -431,6 +439,16 @@
   ],
   "publications": [
     {
+      "channel": "bluesky",
+      "at": "2026-11-14T12:26:42.152Z",
+      "titre": "Aéroport de Bordeaux : privé de Ryanair, il s’envole au Caire",
+      "lien": "https://passion-aquitaine.ouest-france.fr/aeroport-bordeaux-vol-direct-caire-hiver/",
+      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2bio4z3te27",
+      "format": "reply",
+      "texte": "Près de 700 000 passagers envolés : c’est ce qu’a coûté à l’aéroport de #Bordeaux le départ de Ryanair. Pour remonter la pente, la plateforme girondine mise désormais sur une destination inattendue, Le Caire 🌍\n@villedebordeaux.bsky.social",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261114-6495f52d-bsky.jpg"
+    },
+    {
       "channel": "x",
       "at": "2026-11-14T12:01:03.318Z",
       "titre": "Aéroport de Bordeaux : privé de Ryanair, il s’envole au Caire",
@@ -519,28 +537,9 @@
       "format": null,
       "texte": "France-Turquie à Bordeaux : arrivez au Stade Atlantique sans stress dimanche soir\n⠀\nLe match débute à 20h45 le dimanche 15 novembre. Nos conseils pour anticiper votre trajet et ne rien rater du coup d’envoi ⚽\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #FranceTurquie #StadeAtlantique",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261113-9cb43d45-1.jpg"
-    },
-    {
-      "channel": "bluesky",
-      "at": "2026-11-13T12:11:18.035Z",
-      "titre": "France-Turquie à Bordeaux : comment se rendre au Stade Atlantique sans galérer ?",
-      "lien": "https://passion-aquitaine.ouest-france.fr/france-turquie-bordeaux-acces-stade-atlantique/",
-      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n26xdogjfx2m",
-      "format": "image",
-      "texte": "Des milliers de supporters convergent vers le Stade Atlantique de #Bordeaux 🏟️ Dimanche 15 novembre à 20h45, France et Turquie s’y affrontent, et l’accès au stade se prépare à l’avance.\n@villedebordeaux.bsky.social\n➡️ Lire l’article",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261113-9cb43d45-bsky.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "bluesky",
-      "dueAt": "2026-11-14T12:26:39.210Z",
-      "prochainPassage": "2026-11-14T13:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Aéroport de Bordeaux : privé de Ryanair, il s’envole au Caire"
-    },
     {
       "channel": "instagram",
       "dueAt": "2026-11-14T18:04:52.845Z",
@@ -562,7 +561,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 586,
+    "releves": 588,
     "parReseau": {
       "instagram": {
         "posts": 73,
@@ -683,12 +682,12 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-14T12:01:09.144Z",
-    "posts": 60,
+    "genereLe": "2026-11-14T12:26:53.535Z",
+    "posts": 62,
     "parReseau": {
       "instagram": {
-        "posts": 14,
-        "moyenne": 5.9
+        "posts": 15,
+        "moyenne": 5.7
       },
       "threads": {
         "posts": 16,
@@ -699,7 +698,7 @@
         "moyenne": 0
       },
       "bluesky": {
-        "posts": 15,
+        "posts": 16,
         "moyenne": 0
       }
     },
@@ -709,7 +708,7 @@
         "moyenne": 4.3
       },
       "image": {
-        "posts": 8,
+        "posts": 9,
         "moyenne": 0
       },
       "card": {
@@ -723,8 +722,8 @@
     },
     "parCreneau": {
       "après-midi": {
-        "posts": 17,
-        "moyenne": 5.1
+        "posts": 19,
+        "moyenne": 4.6
       },
       "matin": {
         "posts": 34,
@@ -778,7 +777,7 @@
           "moyenne": 0
         },
         "12 h – 13 h 30": {
-          "posts": 3,
+          "posts": 4,
           "moyenne": 0
         },
         "18 h – 19 h 30": {
@@ -788,8 +787,8 @@
       },
       "instagram": {
         "12 h – 13 h 30": {
-          "posts": 10,
-          "moyenne": 7.2
+          "posts": 11,
+          "moyenne": 6.7
         },
         "hors créneau": {
           "posts": 3,
@@ -801,7 +800,7 @@
         }
       }
     },
-    "interactionsTotal": 152,
+    "interactionsTotal": 154,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36056",
       "channel": "threads",
@@ -824,28 +823,28 @@
     },
     "moinsBon": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36152",
-      "channel": "threads",
-      "mediaId": "18115797605144355",
-      "publieLe": "2026-11-13T10:12:13.013Z",
+      "channel": "bluesky",
+      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3n26xdogjfx2m",
+      "publieLe": "2026-11-13T12:11:18.035Z",
       "jalon": 1,
-      "releveLe": "2026-11-14T10:20:46.392Z",
+      "releveLe": "2026-11-14T12:20:32.574Z",
       "likes": 0,
-      "commentairesBruts": 1,
+      "commentairesBruts": 0,
       "partages": 0,
-      "vues": 1131,
+      "vues": null,
       "commentaires": 0,
       "v": 2,
       "titre": "France-Turquie à Bordeaux : comment se rendre au Stade Atlantique sans galérer ?",
-      "lien": "https://www.threads.com/@lovaquitaine/post/DfrYXi0FT5v",
-      "format": "reponse",
+      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n26xdogjfx2m",
+      "format": "image",
       "mention": true,
-      "creneau": "matin",
-      "creneauReseau": "10 h – 11 h 30"
+      "creneau": "après-midi",
+      "creneauReseau": "12 h – 13 h 30"
     },
     "mentions": {
       "avec": {
-        "posts": 26,
-        "moyenne": 5.6
+        "posts": 28,
+        "moyenne": 5.3
       },
       "sans": {
         "posts": 34,
@@ -855,7 +854,7 @@
     "publies": {
       "threads": 18,
       "facebook": 17,
-      "bluesky": 17,
+      "bluesky": 18,
       "x": 18,
       "instagram": 17
     },
@@ -903,7 +902,7 @@
       "Threads : le créneau 7 h – 8 h 30 fait 34 fois mieux que 10 h – 11 h 30 (6.8 contre 0.2 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Le format « reponse » fait 43 fois mieux que « reply » (4.3 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « reply » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+8, +0,7 %) ; Facebook recule (−22), à surveiller.",
-      "Les posts avec mention font 5.4 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
+      "Les posts avec mention font 5.1 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
     ]
   },
   "couts": {

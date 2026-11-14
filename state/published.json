@@ -6933,5 +6933,23 @@
       "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/bordeaux-bal-costume-musee-douanes-monet/",
       "sujet": "Bordeaux"
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36171",
+    "channel": "x",
+    "at": "2026-11-14T08:00:56.765Z",
+    "mediaId": "kit-telegram",
+    "titre": "Bordeaux : on va valser à la douane pour les 100 ans de Monet",
+    "lien": "https://passion-aquitaine.ouest-france.fr/bordeaux-bal-costume-musee-douanes-monet/",
+    "lienPost": null,
+    "format": "reponse",
+    "mention": true,
+    "apercu": {
+      "texte": "#Bordeaux, Musée national des douanes : 🩰 un bal costumé y est prévu le 5 décembre, centenaire exact de la disparition de Monet. Les visiteurs sont invités à valser pour l’occasion.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261114-0eedb13e-x.jpg",
+      "mode": "reponse",
+      "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/bordeaux-bal-costume-musee-douanes-monet/",
+      "sujet": null
+    }
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-14T07:00:43.511Z",
+  "genereLe": "2026-11-14T07:20:36.663Z",
   "jour": "2026-11-14",
   "reseaux": {
     "instagram": {
@@ -122,11 +122,11 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 9,
-      "total": 76,
-      "dernier": "2026-11-13T10:12:13.013Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DfrYXi0FT5v"
+      "aujourdhui": 1,
+      "semaine": 10,
+      "total": 77,
+      "dernier": "2026-11-14T07:31:42.692Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/Dftq8GmlGQ6"
     },
     "x": {
       "actif": true,
@@ -164,6 +164,22 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36171",
+      "titre": "Bordeaux : on va valser à la douane pour les 100 ans de Monet",
+      "lien": "https://passion-aquitaine.ouest-france.fr/bordeaux-bal-costume-musee-douanes-monet/",
+      "at": "2026-11-14T07:31:42.692Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Cent ans jour pour jour après la mort de Monet, on danse 🎭 Le 5 décembre, le Musée national des douanes de Bordeaux organise un bal costumé pour marquer l’anniversaire. Un hommage plutôt original pour un musée consacré aux douanes. Vous iriez en costume d’époque ?\n@visitbordeaux",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261114-0eedb13e-th.jpg",
+          "mode": "reponse",
+          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/bordeaux-bal-costume-musee-douanes-monet/",
+          "sujet": "Bordeaux",
+          "publieLe": "2026-11-14T07:31:42.692Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36152",
       "titre": "France-Turquie à Bordeaux : comment se rendre au Stade Atlantique sans galérer ?",
@@ -403,57 +419,19 @@
           "publieLe": "2026-11-11T12:15:05.163Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36052",
-      "titre": "Géminides : jusqu’à 150 étoiles filantes à voir depuis les Landes",
-      "lien": "https://passion-aquitaine.ouest-france.fr/geminides-2026-etoiles-filantes-landes/",
-      "at": "2026-11-10T12:26:15.308Z",
-      "reseaux": {
-        "bluesky": {
-          "texte": "Des traînées de lumière qui strient la nuit au-dessus des pins des #Landes 🌲 Le 13 décembre, les Géminides pourraient offrir jusqu’à 150 étoiles filantes par heure, à admirer depuis une réserve de ciel étoilé en pleine forêt.\n➡️ Lire l’article",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261110-7bd6dea8-bsky.jpg",
-          "mode": "image",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-10T08:08:25.135Z"
-        },
-        "facebook": {
-          "texte": "Au cœur de la forêt landaise se cache une réserve de ciel étoilé, idéale pour guetter les Géminides 🌠",
-          "image": null,
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-10T08:13:23.890Z"
-        },
-        "x": {
-          "texte": "Jusqu’à 150 étoiles filantes par heure : les Géminides culminent le 13 décembre, et une réserve de ciel étoilé en pleine forêt landaise promet un poste d’observation idéal 💫",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261110-7bd6dea8-x.jpg",
-          "mode": "reponse",
-          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/geminides-2026-etoiles-filantes-landes/",
-          "sujet": null,
-          "publieLe": "2026-11-10T08:20:57.836Z"
-        },
-        "threads": {
-          "texte": "Où regarder la plus belle pluie d’étoiles filantes de l’année ? Dans les Landes, une réserve de ciel étoilé se niche en pleine forêt. Et la date à retenir, c’est le 13 décembre : ✨ les Géminides pourraient y offrir jusqu’à 150 étoiles filantes par heure. Vous avez déjà passé une nuit à guetter le ciel ?",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261110-7bd6dea8-th.jpg",
-          "mode": "reponse",
-          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/geminides-2026-etoiles-filantes-landes/",
-          "sujet": "Landes",
-          "publieLe": "2026-11-10T10:15:42.556Z"
-        },
-        "instagram": {
-          "texte": "Jusqu’à 150 étoiles filantes par heure : la nuit du 13 décembre, les Landes offrent un spectacle rare\n⠀\nLa pluie des Géminides se savoure loin des lumières de la ville. En pleine forêt landaise, une réserve de ciel étoilé vous attend pour lever les yeux ☄️\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Landes #Geminides #EtoilesFilantes",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261110-7bd6dea8-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-10T12:26:15.308Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "threads",
+      "at": "2026-11-14T07:31:42.692Z",
+      "titre": "Bordeaux : on va valser à la douane pour les 100 ans de Monet",
+      "lien": "https://passion-aquitaine.ouest-france.fr/bordeaux-bal-costume-musee-douanes-monet/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/Dftq8GmlGQ6",
+      "format": "reponse",
+      "texte": "Cent ans jour pour jour après la mort de Monet, on danse 🎭 Le 5 décembre, le Musée national des douanes de Bordeaux organise un bal costumé pour marquer l’anniversaire. Un hommage plutôt original pour un musée consacré aux douanes. Vous iriez en costume d’époque ?\n@visitbordeaux",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261114-0eedb13e-th.jpg"
+    },
     {
       "channel": "facebook",
       "at": "2026-11-13T19:23:49.433Z",
@@ -543,28 +521,9 @@
       "format": "image",
       "texte": "Un concert gratuit d’I Muvrini à #Sarlat : c’est le cadeau du marché de #Noël, qui fête ses 20 ans en invitant la Corse au cœur du #Périgord noir 🎄\n➡️ Lire l’article",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261113-152f6cb9-bsky.jpg"
-    },
-    {
-      "channel": "threads",
-      "at": "2026-11-13T07:27:21.284Z",
-      "titre": "Marché de Noël de Sarlat : la Corse invitée pour les 20 ans",
-      "lien": "https://passion-aquitaine.ouest-france.fr/sarlat-marche-noel-2026-corse-i-muvrini/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/DfrFowKnApC",
-      "format": "reponse",
-      "texte": "🎤 Pour ses 20 ans, le marché de Noël de Sarlat ne se contente pas de ses chalets : il a choisi une région invitée, la Corse. Et cerise sur le gâteau, un concert gratuit d’I Muvrini en plein Périgord noir. Vous imaginiez la Corse et le Périgord réunis pour Noël ?\n@villedesarlat",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261113-152f6cb9-th.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "threads",
-      "dueAt": "2026-11-14T07:28:48.648Z",
-      "prochainPassage": "2026-11-14T08:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Bordeaux : on va valser à la douane pour les 100 ans de Monet"
-    },
     {
       "channel": "x",
       "dueAt": "2026-11-14T08:00:00.000Z",
@@ -725,7 +684,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-14T07:01:16.247Z",
+    "genereLe": "2026-11-14T07:31:45.409Z",
     "posts": 56,
     "parReseau": {
       "instagram": {
@@ -895,7 +854,7 @@
       }
     },
     "publies": {
-      "threads": 16,
+      "threads": 17,
       "facebook": 16,
       "bluesky": 16,
       "x": 16,

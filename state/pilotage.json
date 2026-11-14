@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-14T19:21:01.761Z",
+  "genereLe": "2026-11-14T20:00:42.629Z",
   "jour": "2026-11-14",
   "reseaux": {
     "instagram": {
@@ -558,7 +558,7 @@
   "file": [],
   "alertes": [],
   "mesures": {
-    "releves": 591,
+    "releves": 592,
     "parReseau": {
       "instagram": {
         "posts": 73,
@@ -640,7 +640,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-14T18:49:52.675Z"
+    "derniere": "2026-11-14T20:00:42.629Z"
   },
   "abonnes": {
     "instagram": {
@@ -679,8 +679,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-14T19:21:06.382Z",
-    "posts": 63,
+    "genereLe": "2026-11-14T20:00:48.753Z",
+    "posts": 64,
     "parReseau": {
       "instagram": {
         "posts": 16,
@@ -691,7 +691,7 @@
         "moyenne": 4.3
       },
       "facebook": {
-        "posts": 15,
+        "posts": 16,
         "moyenne": 0
       },
       "bluesky": {
@@ -727,8 +727,8 @@
         "moyenne": 1.7
       },
       "soir": {
-        "posts": 10,
-        "moyenne": 1.1
+        "posts": 11,
+        "moyenne": 1
       }
     },
     "parCreneauReseau": {
@@ -756,7 +756,7 @@
           "moyenne": 0
         },
         "20 h – 21 h 30": {
-          "posts": 4,
+          "posts": 5,
           "moyenne": 0
         },
         "hors créneau": {
@@ -820,11 +820,11 @@
     },
     "moinsBon": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36152",
-      "channel": "bluesky",
-      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3n26xdogjfx2m",
-      "publieLe": "2026-11-13T12:11:18.035Z",
+      "channel": "facebook",
+      "mediaId": "227437307428711_1787443723381508",
+      "publieLe": "2026-11-13T19:23:49.433Z",
       "jalon": 1,
-      "releveLe": "2026-11-14T12:20:32.574Z",
+      "releveLe": "2026-11-14T20:00:42.629Z",
       "likes": 0,
       "commentairesBruts": 0,
       "partages": 0,
@@ -832,11 +832,11 @@
       "commentaires": 0,
       "v": 2,
       "titre": "France-Turquie à Bordeaux : comment se rendre au Stade Atlantique sans galérer ?",
-      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n26xdogjfx2m",
-      "format": "image",
-      "mention": true,
-      "creneau": "après-midi",
-      "creneauReseau": "12 h – 13 h 30"
+      "lien": "https://www.facebook.com/1720946116697936/posts/1787443723381508",
+      "format": null,
+      "mention": false,
+      "creneau": "soir",
+      "creneauReseau": "20 h – 21 h 30"
     },
     "mentions": {
       "avec": {
@@ -844,7 +844,7 @@
         "moyenne": 5.1
       },
       "sans": {
-        "posts": 34,
+        "posts": 35,
         "moyenne": 0.2
       }
     },

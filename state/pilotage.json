@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-14T17:20:35.255Z",
+  "genereLe": "2026-11-14T18:00:37.748Z",
   "jour": "2026-11-14",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 1,
-      "semaine": 9,
-      "total": 82,
-      "dernier": "2026-11-14T11:07:10.144Z",
-      "lienDernier": "https://www.instagram.com/p/DfuD49fJe5k/"
+      "aujourdhui": 2,
+      "semaine": 10,
+      "total": 83,
+      "dernier": "2026-11-14T18:05:17.236Z",
+      "lienDernier": "https://www.instagram.com/p/DfuzvvoFCNh/"
     },
     "bluesky": {
       "actif": true,
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36208",
       "titre": "Aéroport de Bordeaux : privé de Ryanair, il s’envole au Caire",
       "lien": "https://passion-aquitaine.ouest-france.fr/aeroport-bordeaux-vol-direct-caire-hiver/",
-      "at": "2026-11-14T12:26:42.152Z",
+      "at": "2026-11-14T18:05:17.236Z",
       "reseaux": {
         "threads": {
           "texte": "🛬 À Bordeaux, l’aéroport encaisse le coup. Le départ de Ryanair lui a fait perdre près de 700 000 passagers, un trou difficile à combler. Sa réponse ne manque pas d’ambition : miser sur Le Caire. Un pari pour retrouver des voyageurs et redonner de l’élan à ses pistes.\n@villedebordeaux",
@@ -193,6 +193,14 @@
           "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/aeroport-bordeaux-vol-direct-caire-hiver/",
           "sujet": null,
           "publieLe": "2026-11-14T12:26:42.152Z"
+        },
+        "instagram": {
+          "texte": "Des pistes bordelaises tournées vers les pyramides ✈️\n⠀\nAprès le départ de Ryanair, l’aéroport de Bordeaux a perdu près de 700 000 passagers. Pour se relancer, il parie désormais sur Le Caire.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #AeroportDeBordeaux #Transports",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261114-6495f52d-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-14T18:05:17.236Z"
         }
       }
     },
@@ -439,6 +447,16 @@
   ],
   "publications": [
     {
+      "channel": "instagram",
+      "at": "2026-11-14T18:05:17.236Z",
+      "titre": "Aéroport de Bordeaux : privé de Ryanair, il s’envole au Caire",
+      "lien": "https://passion-aquitaine.ouest-france.fr/aeroport-bordeaux-vol-direct-caire-hiver/",
+      "lienPost": "https://www.instagram.com/p/DfuzvvoFCNh/",
+      "format": null,
+      "texte": "Des pistes bordelaises tournées vers les pyramides ✈️\n⠀\nAprès le départ de Ryanair, l’aéroport de Bordeaux a perdu près de 700 000 passagers. Pour se relancer, il parie désormais sur Le Caire.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #AeroportDeBordeaux #Transports",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261114-6495f52d-1.jpg"
+    },
+    {
       "channel": "bluesky",
       "at": "2026-11-14T12:26:42.152Z",
       "titre": "Aéroport de Bordeaux : privé de Ryanair, il s’envole au Caire",
@@ -527,28 +545,9 @@
       "format": null,
       "texte": "Pour France-Turquie, le vrai match commence bien avant le coup d’envoi : celui du trajet jusqu’au Stade Atlantique 🚋",
       "image": null
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-11-13T18:05:19.389Z",
-      "titre": "France-Turquie à Bordeaux : comment se rendre au Stade Atlantique sans galérer ?",
-      "lien": "https://passion-aquitaine.ouest-france.fr/france-turquie-bordeaux-acces-stade-atlantique/",
-      "lienPost": "https://www.instagram.com/p/DfsO9Hql7Yb/",
-      "format": null,
-      "texte": "France-Turquie à Bordeaux : arrivez au Stade Atlantique sans stress dimanche soir\n⠀\nLe match débute à 20h45 le dimanche 15 novembre. Nos conseils pour anticiper votre trajet et ne rien rater du coup d’envoi ⚽\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #FranceTurquie #StadeAtlantique",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261113-9cb43d45-1.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "instagram",
-      "dueAt": "2026-11-14T18:04:52.845Z",
-      "prochainPassage": "2026-11-14T18:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Aéroport de Bordeaux : privé de Ryanair, il s’envole au Caire"
-    },
     {
       "channel": "facebook",
       "dueAt": "2026-11-14T19:09:08.347Z",
@@ -682,7 +681,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-14T17:20:40.327Z",
+    "genereLe": "2026-11-14T18:05:19.714Z",
     "posts": 62,
     "parReseau": {
       "instagram": {
@@ -856,7 +855,7 @@
       "facebook": 17,
       "bluesky": 18,
       "x": 18,
-      "instagram": 17
+      "instagram": 18
     },
     "abonnes": {
       "instagram": {

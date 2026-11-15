@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-15T08:21:02.270Z",
+  "genereLe": "2026-11-15T09:00:38.423Z",
   "jour": "2026-11-15",
   "reseaux": {
     "instagram": {
@@ -89,7 +89,7 @@
       },
       "formats": null,
       "aujourdhui": 1,
-      "semaine": 11,
+      "semaine": 10,
       "total": 79,
       "dernier": "2026-11-15T07:34:05.747Z",
       "lienDernier": "https://www.facebook.com/1720946116697936/posts/1789491286510085"
@@ -560,7 +560,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 595,
+    "releves": 598,
     "parReseau": {
       "instagram": {
         "posts": 73,
@@ -571,7 +571,7 @@
         "interactionsMoyennes": 0.2
       },
       "facebook": {
-        "posts": 68,
+        "posts": 69,
         "interactionsMoyennes": 0
       },
       "threads": {
@@ -681,8 +681,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-15T08:21:18.240Z",
-    "posts": 65,
+    "genereLe": "2026-11-15T09:00:44.002Z",
+    "posts": 67,
     "parReseau": {
       "instagram": {
         "posts": 16,
@@ -693,11 +693,11 @@
         "moyenne": 4.7
       },
       "facebook": {
-        "posts": 16,
+        "posts": 17,
         "moyenne": 0
       },
       "bluesky": {
-        "posts": 16,
+        "posts": 17,
         "moyenne": 0
       }
     },
@@ -707,7 +707,7 @@
         "moyenne": 4.7
       },
       "image": {
-        "posts": 9,
+        "posts": 10,
         "moyenne": 0
       },
       "card": {
@@ -725,8 +725,8 @@
         "moyenne": 4.6
       },
       "matin": {
-        "posts": 35,
-        "moyenne": 1.9
+        "posts": 37,
+        "moyenne": 1.8
       },
       "soir": {
         "posts": 11,
@@ -754,7 +754,7 @@
       },
       "facebook": {
         "8 h – 9 h 30": {
-          "posts": 10,
+          "posts": 11,
           "moyenne": 0
         },
         "20 h – 21 h 30": {
@@ -768,7 +768,7 @@
       },
       "bluesky": {
         "8 h – 9 h 30": {
-          "posts": 10,
+          "posts": 11,
           "moyenne": 0
         },
         "hors créneau": {
@@ -821,24 +821,24 @@
       "creneauReseau": "7 h – 8 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36152",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36171",
       "channel": "facebook",
-      "mediaId": "227437307428711_1787443723381508",
-      "publieLe": "2026-11-13T19:23:49.433Z",
+      "mediaId": "227437307428711_1788176299974917",
+      "publieLe": "2026-11-14T08:29:36.059Z",
       "jalon": 1,
-      "releveLe": "2026-11-14T20:00:42.629Z",
+      "releveLe": "2026-11-15T09:00:38.423Z",
       "likes": 0,
       "commentairesBruts": 0,
       "partages": 0,
       "vues": null,
       "commentaires": 0,
       "v": 2,
-      "titre": "France-Turquie à Bordeaux : comment se rendre au Stade Atlantique sans galérer ?",
-      "lien": "https://www.facebook.com/1720946116697936/posts/1787443723381508",
+      "titre": "Bordeaux : on va valser à la douane pour les 100 ans de Monet",
+      "lien": "https://www.facebook.com/1720946116697936/posts/1788176299974917",
       "format": null,
       "mention": false,
-      "creneau": "soir",
-      "creneauReseau": "20 h – 21 h 30"
+      "creneau": "matin",
+      "creneauReseau": "8 h – 9 h 30"
     },
     "mentions": {
       "avec": {
@@ -846,7 +846,7 @@
         "moyenne": 5.3
       },
       "sans": {
-        "posts": 35,
+        "posts": 37,
         "moyenne": 0.2
       }
     },

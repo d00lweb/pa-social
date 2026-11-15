@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-15T07:00:51.045Z",
+  "genereLe": "2026-11-15T07:20:35.211Z",
   "jour": "2026-11-15",
   "reseaux": {
     "instagram": {
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 10,
-      "total": 78,
-      "dernier": "2026-11-14T19:09:15.107Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1788808723245008"
+      "aujourdhui": 1,
+      "semaine": 11,
+      "total": 79,
+      "dernier": "2026-11-15T07:34:05.747Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1789491286510085"
     },
     "threads": {
       "actif": true,
@@ -122,11 +122,11 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 10,
-      "total": 78,
-      "dernier": "2026-11-14T10:27:49.836Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/Dft_DN5lrRD"
+      "aujourdhui": 1,
+      "semaine": 11,
+      "total": 79,
+      "dernier": "2026-11-15T07:29:58.543Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DfwPXx-nK7V"
     },
     "x": {
       "actif": true,
@@ -164,6 +164,30 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36189",
+      "titre": "Déjà 20 200 grues cendrées à Arjuzanx, 2,6 fois plus qu’en 2025",
+      "lien": "https://passion-aquitaine.ouest-france.fr/grues-cendrees-arjuzanx-novembre-2026/",
+      "at": "2026-11-15T07:34:05.747Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Une ancienne mine qui se remplit d’oiseaux, ça ne s’invente pas. À Arjuzanx, dans les Landes, 🦩 20 200 grues cendrées ont été comptées le 9 novembre. Un an plus tôt, elles étaient 7 706. Soit 2,6 fois plus en un an.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261115-4e3e2639-th.jpg",
+          "mode": "reponse",
+          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/grues-cendrees-arjuzanx-novembre-2026/",
+          "sujet": "Arjuzanx",
+          "publieLe": "2026-11-15T07:29:58.543Z"
+        },
+        "facebook": {
+          "texte": "20 200 grues cendrées comptées dans une ancienne mine landaise, contre 7 706 seulement un an plus tôt 🪶",
+          "image": null,
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-15T07:34:05.747Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36208",
       "titre": "Aéroport de Bordeaux : privé de Ryanair, il s’envole au Caire",
@@ -403,57 +427,29 @@
           "publieLe": "2026-11-12T11:34:30.827Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36140",
-      "titre": "Maisons fissurées : 4 villages girondins ont jusqu’au 22 novembre",
-      "lien": "https://passion-aquitaine.ouest-france.fr/gironde-maisons-fissurees-catastrophe-naturelle/",
-      "at": "2026-11-11T13:07:50.170Z",
-      "reseaux": {
-        "facebook": {
-          "texte": "Votre maison est fissurée et vous habitez l’un de ces quatre villages girondins : avez-vous pensé à le déclarer à temps ⏳",
-          "image": null,
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-11T08:07:43.352Z"
-        },
-        "bluesky": {
-          "texte": "Quatre villages, une échéance : à #Camarsac, Coimères, Saint-Jean-de-Blaignac et Saint-Laurent-du-Bois, en #Gironde, les propriétaires de maisons fissurées doivent déclarer avant le 22 novembre 📋",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261111-31894d88-bsky.jpg",
-          "mode": "card",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-11T08:28:50.391Z"
-        },
-        "x": {
-          "texte": "Des murs qui se fendent, et une date limite toute proche 🧱 Dans quatre villages de #Gironde, les habitants aux maisons fissurées ont jusqu’au 22 novembre pour déclarer.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261111-31894d88-x.jpg",
-          "mode": "reponse",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/gironde-maisons-fissurees-catastrophe-naturelle/",
-          "sujet": null,
-          "publieLe": "2026-11-11T09:00:40.460Z"
-        },
-        "threads": {
-          "texte": "🏚️ Camarsac, Coimères, Saint-Jean-de-Blaignac, Saint-Laurent-du-Bois : si vous vivez dans l’une de ces communes de Gironde et que vos murs se fissurent, le calendrier presse. Les habitants concernés ont jusqu’au 22 novembre pour faire leur déclaration. Mieux vaut ne pas laisser filer la date.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261111-31894d88-th.jpg",
-          "mode": "reponse",
-          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/gironde-maisons-fissurees-catastrophe-naturelle/",
-          "sujet": "Camarsac",
-          "publieLe": "2026-11-11T10:10:22.714Z"
-        },
-        "instagram": {
-          "texte": "Une lézarde qui court sur un mur de maison, et l’horloge qui tourne 🏠\n⠀\nÀ Camarsac, Coimères, Saint-Jean-de-Blaignac et Saint-Laurent-du-Bois, en Gironde, les habitants touchés ont jusqu’au 22 novembre pour déclarer. Tout est à lire dans l’article.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Gironde #MaisonsFissurées #EntreDeuxMers",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261111-31894d88-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-11T13:07:50.170Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "facebook",
+      "at": "2026-11-15T07:34:05.747Z",
+      "titre": "Déjà 20 200 grues cendrées à Arjuzanx, 2,6 fois plus qu’en 2025",
+      "lien": "https://passion-aquitaine.ouest-france.fr/grues-cendrees-arjuzanx-novembre-2026/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1789491286510085",
+      "format": null,
+      "texte": "20 200 grues cendrées comptées dans une ancienne mine landaise, contre 7 706 seulement un an plus tôt 🪶",
+      "image": null
+    },
+    {
+      "channel": "threads",
+      "at": "2026-11-15T07:29:58.543Z",
+      "titre": "Déjà 20 200 grues cendrées à Arjuzanx, 2,6 fois plus qu’en 2025",
+      "lien": "https://passion-aquitaine.ouest-france.fr/grues-cendrees-arjuzanx-novembre-2026/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/DfwPXx-nK7V",
+      "format": "reponse",
+      "texte": "Une ancienne mine qui se remplit d’oiseaux, ça ne s’invente pas. À Arjuzanx, dans les Landes, 🦩 20 200 grues cendrées ont été comptées le 9 novembre. Un an plus tôt, elles étaient 7 706. Soit 2,6 fois plus en un an.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261115-4e3e2639-th.jpg"
+    },
     {
       "channel": "facebook",
       "at": "2026-11-14T19:09:15.107Z",
@@ -533,47 +529,9 @@
       "format": "image",
       "texte": "🖼️ Que vient faire Monet chez les douaniers ? À #Bordeaux, le #Musée national des douanes marque le centenaire de la mort du peintre par un bal costumé, le 5 décembre, jour pour jour.\n➡️ Lire l’article",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261114-0eedb13e-bsky.jpg"
-    },
-    {
-      "channel": "x",
-      "at": "2026-11-14T08:00:56.765Z",
-      "titre": "Bordeaux : on va valser à la douane pour les 100 ans de Monet",
-      "lien": "https://passion-aquitaine.ouest-france.fr/bordeaux-bal-costume-musee-douanes-monet/",
-      "lienPost": null,
-      "format": "reponse",
-      "texte": "#Bordeaux, Musée national des douanes : 🩰 un bal costumé y est prévu le 5 décembre, centenaire exact de la disparition de Monet. Les visiteurs sont invités à valser pour l’occasion.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261114-0eedb13e-x.jpg"
-    },
-    {
-      "channel": "threads",
-      "at": "2026-11-14T07:31:42.692Z",
-      "titre": "Bordeaux : on va valser à la douane pour les 100 ans de Monet",
-      "lien": "https://passion-aquitaine.ouest-france.fr/bordeaux-bal-costume-musee-douanes-monet/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/Dftq8GmlGQ6",
-      "format": "reponse",
-      "texte": "Cent ans jour pour jour après la mort de Monet, on danse 🎭 Le 5 décembre, le Musée national des douanes de Bordeaux organise un bal costumé pour marquer l’anniversaire. Un hommage plutôt original pour un musée consacré aux douanes. Vous iriez en costume d’époque ?\n@visitbordeaux",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261114-0eedb13e-th.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "threads",
-      "dueAt": "2026-11-15T07:25:40.264Z",
-      "prochainPassage": "2026-11-15T08:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Déjà 20 200 grues cendrées à Arjuzanx, 2,6 fois plus qu’en 2025"
-    },
-    {
-      "channel": "facebook",
-      "dueAt": "2026-11-15T07:33:59.491Z",
-      "prochainPassage": "2026-11-15T08:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Déjà 20 200 grues cendrées à Arjuzanx, 2,6 fois plus qu’en 2025"
-    },
     {
       "channel": "bluesky",
       "dueAt": "2026-11-15T08:03:09.031Z",
@@ -725,7 +683,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-15T07:01:07.010Z",
+    "genereLe": "2026-11-15T07:34:08.259Z",
     "posts": 64,
     "parReseau": {
       "instagram": {
@@ -895,8 +853,8 @@
       }
     },
     "publies": {
-      "threads": 18,
-      "facebook": 18,
+      "threads": 19,
+      "facebook": 19,
       "bluesky": 18,
       "x": 18,
       "instagram": 18

@@ -7098,5 +7098,41 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36189",
+    "channel": "threads",
+    "at": "2026-11-15T07:29:58.543Z",
+    "mediaId": "18031459883876591",
+    "titre": "Déjà 20 200 grues cendrées à Arjuzanx, 2,6 fois plus qu’en 2025",
+    "lien": "https://passion-aquitaine.ouest-france.fr/grues-cendrees-arjuzanx-novembre-2026/",
+    "lienPost": "https://www.threads.com/@lovaquitaine/post/DfwPXx-nK7V",
+    "format": "reponse",
+    "mention": false,
+    "apercu": {
+      "texte": "Une ancienne mine qui se remplit d’oiseaux, ça ne s’invente pas. À Arjuzanx, dans les Landes, 🦩 20 200 grues cendrées ont été comptées le 9 novembre. Un an plus tôt, elles étaient 7 706. Soit 2,6 fois plus en un an.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261115-4e3e2639-th.jpg",
+      "mode": "reponse",
+      "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/grues-cendrees-arjuzanx-novembre-2026/",
+      "sujet": "Arjuzanx"
+    }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36189",
+    "channel": "facebook",
+    "at": "2026-11-15T07:34:05.747Z",
+    "mediaId": "227437307428711_1789491286510085",
+    "titre": "Déjà 20 200 grues cendrées à Arjuzanx, 2,6 fois plus qu’en 2025",
+    "lien": "https://passion-aquitaine.ouest-france.fr/grues-cendrees-arjuzanx-novembre-2026/",
+    "lienPost": "https://www.facebook.com/1720946116697936/posts/1789491286510085",
+    "format": null,
+    "mention": false,
+    "apercu": {
+      "texte": "20 200 grues cendrées comptées dans une ancienne mine landaise, contre 7 706 seulement un an plus tôt 🪶",
+      "image": null,
+      "mode": null,
+      "reponse": null,
+      "sujet": null
+    }
   }
 ]

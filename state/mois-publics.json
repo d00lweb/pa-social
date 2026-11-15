@@ -3,7 +3,7 @@
     "cle": "2026-11",
     "publications": 95,
     "articles": 19,
-    "interactions": 183,
+    "interactions": 199,
     "parReseau": {
       "facebook": 19,
       "instagram": 19,
@@ -41,17 +41,17 @@
         "interactions": 19
       },
       {
+        "reseau": "instagram",
+        "titre": "Aéroport de Bordeaux : privé de Ryanair, il s’envole au Caire",
+        "lien": "https://www.instagram.com/p/DfuzvvoFCNh/",
+        "image": "https://passion-aquitaine.ouest-france.fr/social/20261114-6495f52d-1-vignette.jpg",
+        "interactions": 16
+      },
+      {
         "reseau": "threads",
         "titre": "France-Turquie : le 8e match des Bleus en Gironde sera une grande première",
         "lien": "https://www.threads.com/@lovaquitaine/post/DfmdAxulCau",
         "image": "https://passion-aquitaine.ouest-france.fr/social/20261111-208fc27f-1-vignette.jpg",
-        "interactions": 11
-      },
-      {
-        "reseau": "threads",
-        "titre": "Bordeaux : on va valser à la douane pour les 100 ans de Monet",
-        "lien": "https://www.threads.com/@lovaquitaine/post/Dftq8GmlGQ6",
-        "image": "https://passion-aquitaine.ouest-france.fr/social/20261114-0eedb13e-1-vignette.jpg",
         "interactions": 11
       }
     ]

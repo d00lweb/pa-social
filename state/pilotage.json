@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-15T12:00:41.365Z",
+  "genereLe": "2026-11-15T12:20:55.499Z",
   "jour": "2026-11-15",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 0,
+      "aujourdhui": 1,
       "semaine": 10,
-      "total": 83,
-      "dernier": "2026-11-14T18:05:17.236Z",
-      "lienDernier": "https://www.instagram.com/p/DfuzvvoFCNh/"
+      "total": 84,
+      "dernier": "2026-11-15T12:30:28.129Z",
+      "lienDernier": "https://www.instagram.com/p/DfwyOAkF50r/"
     },
     "bluesky": {
       "actif": true,
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36189",
       "titre": "Déjà 20 200 grues cendrées à Arjuzanx, 2,6 fois plus qu’en 2025",
       "lien": "https://passion-aquitaine.ouest-france.fr/grues-cendrees-arjuzanx-novembre-2026/",
-      "at": "2026-11-15T08:21:12.882Z",
+      "at": "2026-11-15T12:30:28.129Z",
       "reseaux": {
         "threads": {
           "texte": "Une ancienne mine qui se remplit d’oiseaux, ça ne s’invente pas. À Arjuzanx, dans les Landes, 🦩 20 200 grues cendrées ont été comptées le 9 novembre. Un an plus tôt, elles étaient 7 706. Soit 2,6 fois plus en un an.",
@@ -201,6 +201,14 @@
           "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/grues-cendrees-arjuzanx-novembre-2026/",
           "sujet": null,
           "publieLe": "2026-11-15T08:21:12.882Z"
+        },
+        "instagram": {
+          "texte": "Pourquoi une ancienne mine des Landes attire-t-elle autant de grues cendrées ?\n⠀\nÀ Arjuzanx, 20 200 grues ont été comptées le 9 novembre, contre 7 706 un an plus tôt. Un rassemblement 2,6 fois plus important qu’en 2025 🦢\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Landes #GruesCendrees #Ornithologie",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261115-4e3e2639-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-15T12:30:28.129Z"
         }
       }
     },
@@ -447,6 +455,16 @@
   ],
   "publications": [
     {
+      "channel": "instagram",
+      "at": "2026-11-15T12:30:28.129Z",
+      "titre": "Déjà 20 200 grues cendrées à Arjuzanx, 2,6 fois plus qu’en 2025",
+      "lien": "https://passion-aquitaine.ouest-france.fr/grues-cendrees-arjuzanx-novembre-2026/",
+      "lienPost": "https://www.instagram.com/p/DfwyOAkF50r/",
+      "format": null,
+      "texte": "Pourquoi une ancienne mine des Landes attire-t-elle autant de grues cendrées ?\n⠀\nÀ Arjuzanx, 20 200 grues ont été comptées le 9 novembre, contre 7 706 un an plus tôt. Un rassemblement 2,6 fois plus important qu’en 2025 🦢\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Landes #GruesCendrees #Ornithologie",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261115-4e3e2639-1.jpg"
+    },
+    {
       "channel": "x",
       "at": "2026-11-15T08:21:12.882Z",
       "titre": "Déjà 20 200 grues cendrées à Arjuzanx, 2,6 fois plus qu’en 2025",
@@ -535,36 +553,16 @@
       "format": null,
       "texte": "Un bal costumé dans un musée des douanes 🎨 pour saluer Monet, cent ans après sa mort.\n⠀\nÀ Bordeaux, le Musée national des douanes invite à valser le 5 décembre, jour anniversaire de la disparition du peintre. Une façon inattendue de célébrer l’impressionnisme.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #Monet #BalCostume",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261114-0eedb13e-1.jpg"
-    },
-    {
-      "channel": "threads",
-      "at": "2026-11-14T10:27:49.836Z",
-      "titre": "Aéroport de Bordeaux : privé de Ryanair, il s’envole au Caire",
-      "lien": "https://passion-aquitaine.ouest-france.fr/aeroport-bordeaux-vol-direct-caire-hiver/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/Dft_DN5lrRD",
-      "format": "reponse",
-      "texte": "🛬 À Bordeaux, l’aéroport encaisse le coup. Le départ de Ryanair lui a fait perdre près de 700 000 passagers, un trou difficile à combler. Sa réponse ne manque pas d’ambition : miser sur Le Caire. Un pari pour retrouver des voyageurs et redonner de l’élan à ses pistes.\n@villedebordeaux",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261114-6495f52d-th.jpg"
     }
   ],
-  "file": [
-    {
-      "channel": "instagram",
-      "dueAt": "2026-11-15T12:29:59.681Z",
-      "prochainPassage": "2026-11-15T13:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Déjà 20 200 grues cendrées à Arjuzanx, 2,6 fois plus qu’en 2025"
-    }
-  ],
+  "file": [],
   "alertes": [],
   "mesures": {
-    "releves": 600,
+    "releves": 601,
     "parReseau": {
       "instagram": {
-        "posts": 73,
-        "interactionsMoyennes": 12.6
+        "posts": 74,
+        "interactionsMoyennes": 12.9
       },
       "bluesky": {
         "posts": 72,
@@ -642,7 +640,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-15T11:00:53.026Z"
+    "derniere": "2026-11-15T12:20:55.499Z"
   },
   "abonnes": {
     "instagram": {
@@ -681,12 +679,12 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-15T12:00:45.251Z",
+    "genereLe": "2026-11-15T12:30:30.713Z",
     "posts": 69,
     "parReseau": {
       "instagram": {
         "posts": 17,
-        "moyenne": 5.2
+        "moyenne": 5.8
       },
       "threads": {
         "posts": 18,
@@ -722,7 +720,7 @@
     "parCreneau": {
       "après-midi": {
         "posts": 20,
-        "moyenne": 4.5
+        "moyenne": 5
       },
       "matin": {
         "posts": 38,
@@ -787,7 +785,7 @@
       "instagram": {
         "12 h – 13 h 30": {
           "posts": 12,
-          "moyenne": 6.3
+          "moyenne": 7.2
         },
         "hors créneau": {
           "posts": 3,
@@ -799,7 +797,7 @@
         }
       }
     },
-    "interactionsTotal": 172,
+    "interactionsTotal": 183,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36056",
       "channel": "threads",
@@ -843,7 +841,7 @@
     "mentions": {
       "avec": {
         "posts": 32,
-        "moyenne": 5.2
+        "moyenne": 5.5
       },
       "sans": {
         "posts": 37,
@@ -855,7 +853,7 @@
       "facebook": 19,
       "bluesky": 19,
       "x": 19,
-      "instagram": 18
+      "instagram": 19
     },
     "abonnes": {
       "instagram": {
@@ -893,7 +891,7 @@
       "x": null
     },
     "engagement": {
-      "instagram": 0.05,
+      "instagram": 0.06,
       "threads": 0.4,
       "facebook": 0
     },
@@ -901,7 +899,7 @@
       "Threads : le créneau 7 h – 8 h 30 fait 9 fois mieux que 10 h – 11 h 30 (7.2 contre 0.8 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Le format « reponse » fait 47 fois mieux que « reply » (4.7 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « reply » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+8, +0,7 %) ; Facebook recule (−23), à surveiller.",
-      "Les posts avec mention font 5 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
+      "Les posts avec mention font 5.3 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
     ]
   },
   "couts": {

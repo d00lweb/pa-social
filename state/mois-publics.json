@@ -1,12 +1,12 @@
 {
   "2026-11": {
     "cle": "2026-11",
-    "publications": 94,
+    "publications": 95,
     "articles": 19,
-    "interactions": 172,
+    "interactions": 183,
     "parReseau": {
       "facebook": 19,
-      "instagram": 18,
+      "instagram": 19,
       "x": 19,
       "threads": 19,
       "bluesky": 19
@@ -31,7 +31,7 @@
         "titre": "Bayonne : cette crèche propose aux bébés de dormir dehors",
         "lien": "https://www.instagram.com/p/Dfetr1KF6oZ/",
         "image": "https://passion-aquitaine.ouest-france.fr/social/20261108-1c7b9a95-1-vignette.jpg",
-        "interactions": 19
+        "interactions": 30
       },
       {
         "reseau": "instagram",

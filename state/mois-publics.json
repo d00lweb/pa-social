@@ -1,15 +1,15 @@
 {
   "2026-11": {
     "cle": "2026-11",
-    "publications": 92,
+    "publications": 93,
     "articles": 19,
-    "interactions": 156,
+    "interactions": 167,
     "parReseau": {
       "facebook": 19,
       "instagram": 18,
       "x": 18,
       "threads": 19,
-      "bluesky": 18
+      "bluesky": 19
     },
     "gains": {
       "facebook": -23,
@@ -48,11 +48,11 @@
         "interactions": 11
       },
       {
-        "reseau": "instagram",
-        "titre": "Marché de Noël de Bruxelles : le Pays basque et le Béarn invités",
-        "lien": "https://www.instagram.com/p/DfPRi5qjFR1/",
-        "image": "https://passion-aquitaine.ouest-france.fr/social/20261102-116575f8-1-vignette.jpg",
-        "interactions": 9
+        "reseau": "threads",
+        "titre": "Bordeaux : on va valser à la douane pour les 100 ans de Monet",
+        "lien": "https://www.threads.com/@lovaquitaine/post/Dftq8GmlGQ6",
+        "image": "https://passion-aquitaine.ouest-france.fr/social/20261114-0eedb13e-1-vignette.jpg",
+        "interactions": 11
       }
     ]
   },

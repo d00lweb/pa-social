@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-15T07:20:35.211Z",
+  "genereLe": "2026-11-15T08:00:41.127Z",
   "jour": "2026-11-15",
   "reseaux": {
     "instagram": {
@@ -60,11 +60,11 @@
         "image",
         "reply"
       ],
-      "aujourdhui": 0,
+      "aujourdhui": 1,
       "semaine": 10,
-      "total": 81,
-      "dernier": "2026-11-14T12:26:42.152Z",
-      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2bio4z3te27"
+      "total": 82,
+      "dernier": "2026-11-15T08:03:11.031Z",
+      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2dkfu2bt22o"
     },
     "facebook": {
       "actif": true,
@@ -123,7 +123,7 @@
         "reponse"
       ],
       "aujourdhui": 1,
-      "semaine": 11,
+      "semaine": 10,
       "total": 79,
       "dernier": "2026-11-15T07:29:58.543Z",
       "lienDernier": "https://www.threads.com/@lovaquitaine/post/DfwPXx-nK7V"
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36189",
       "titre": "Déjà 20 200 grues cendrées à Arjuzanx, 2,6 fois plus qu’en 2025",
       "lien": "https://passion-aquitaine.ouest-france.fr/grues-cendrees-arjuzanx-novembre-2026/",
-      "at": "2026-11-15T07:34:05.747Z",
+      "at": "2026-11-15T08:03:11.031Z",
       "reseaux": {
         "threads": {
           "texte": "Une ancienne mine qui se remplit d’oiseaux, ça ne s’invente pas. À Arjuzanx, dans les Landes, 🦩 20 200 grues cendrées ont été comptées le 9 novembre. Un an plus tôt, elles étaient 7 706. Soit 2,6 fois plus en un an.",
@@ -185,6 +185,14 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-11-15T07:34:05.747Z"
+        },
+        "bluesky": {
+          "texte": "#Arjuzanx, dans les #Landes, voit affluer les grues cendrées 🐦 Le comptage du 9 novembre en recense 20 200, contre 7 706 un an plus tôt. Une ancienne mine transformée en dortoir géant.\n➡️ Lire l’article",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261115-4e3e2639-bsky.jpg",
+          "mode": "image",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-15T08:03:11.031Z"
         }
       }
     },
@@ -431,6 +439,16 @@
   ],
   "publications": [
     {
+      "channel": "bluesky",
+      "at": "2026-11-15T08:03:11.031Z",
+      "titre": "Déjà 20 200 grues cendrées à Arjuzanx, 2,6 fois plus qu’en 2025",
+      "lien": "https://passion-aquitaine.ouest-france.fr/grues-cendrees-arjuzanx-novembre-2026/",
+      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2dkfu2bt22o",
+      "format": "image",
+      "texte": "#Arjuzanx, dans les #Landes, voit affluer les grues cendrées 🐦 Le comptage du 9 novembre en recense 20 200, contre 7 706 un an plus tôt. Une ancienne mine transformée en dortoir géant.\n➡️ Lire l’article",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261115-4e3e2639-bsky.jpg"
+    },
+    {
       "channel": "facebook",
       "at": "2026-11-15T07:34:05.747Z",
       "titre": "Déjà 20 200 grues cendrées à Arjuzanx, 2,6 fois plus qu’en 2025",
@@ -519,28 +537,9 @@
       "format": null,
       "texte": "Imaginez des costumes qui tournoient entre les collections d’un musée des douanes, en hommage au peintre des nymphéas 💃",
       "image": null
-    },
-    {
-      "channel": "bluesky",
-      "at": "2026-11-14T08:26:30.027Z",
-      "titre": "Bordeaux : on va valser à la douane pour les 100 ans de Monet",
-      "lien": "https://passion-aquitaine.ouest-france.fr/bordeaux-bal-costume-musee-douanes-monet/",
-      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2b3amn5vl2m",
-      "format": "image",
-      "texte": "🖼️ Que vient faire Monet chez les douaniers ? À #Bordeaux, le #Musée national des douanes marque le centenaire de la mort du peintre par un bal costumé, le 5 décembre, jour pour jour.\n➡️ Lire l’article",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261114-0eedb13e-bsky.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "bluesky",
-      "dueAt": "2026-11-15T08:03:09.031Z",
-      "prochainPassage": "2026-11-15T08:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Déjà 20 200 grues cendrées à Arjuzanx, 2,6 fois plus qu’en 2025"
-    },
     {
       "channel": "x",
       "dueAt": "2026-11-15T08:20:00.000Z",
@@ -562,14 +561,14 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 592,
+    "releves": 595,
     "parReseau": {
       "instagram": {
         "posts": 73,
         "interactionsMoyennes": 12.6
       },
       "bluesky": {
-        "posts": 71,
+        "posts": 72,
         "interactionsMoyennes": 0.2
       },
       "facebook": {
@@ -577,8 +576,8 @@
         "interactionsMoyennes": 0
       },
       "threads": {
-        "posts": 68,
-        "interactionsMoyennes": 8.8
+        "posts": 69,
+        "interactionsMoyennes": 9.1
       }
     }
   },
@@ -683,16 +682,16 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-15T07:34:08.259Z",
-    "posts": 64,
+    "genereLe": "2026-11-15T08:03:21.420Z",
+    "posts": 65,
     "parReseau": {
       "instagram": {
         "posts": 16,
         "moyenne": 5.4
       },
       "threads": {
-        "posts": 16,
-        "moyenne": 4.3
+        "posts": 17,
+        "moyenne": 4.7
       },
       "facebook": {
         "posts": 16,
@@ -705,8 +704,8 @@
     },
     "parFormat": {
       "reponse": {
-        "posts": 16,
-        "moyenne": 4.3
+        "posts": 17,
+        "moyenne": 4.7
       },
       "image": {
         "posts": 9,
@@ -727,8 +726,8 @@
         "moyenne": 4.6
       },
       "matin": {
-        "posts": 34,
-        "moyenne": 1.7
+        "posts": 35,
+        "moyenne": 1.9
       },
       "soir": {
         "posts": 11,
@@ -738,8 +737,8 @@
     "parCreneauReseau": {
       "threads": {
         "7 h – 8 h 30": {
-          "posts": 8,
-          "moyenne": 6.8
+          "posts": 9,
+          "moyenne": 7.2
         },
         "13 h – 14 h 30": {
           "posts": 2,
@@ -801,18 +800,18 @@
         }
       }
     },
-    "interactionsTotal": 156,
+    "interactionsTotal": 167,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36056",
       "channel": "threads",
       "mediaId": "18110635505623598",
       "publieLe": "2026-11-08T07:28:16.875Z",
-      "jalon": 1,
-      "releveLe": "2026-11-09T08:00:37.239Z",
+      "jalon": 7,
+      "releveLe": "2026-11-15T08:00:41.127Z",
       "likes": 28,
       "commentairesBruts": 6,
       "partages": 1,
-      "vues": 2902,
+      "vues": 2924,
       "commentaires": 5,
       "v": 2,
       "titre": "Bayonne : cette crèche propose aux bébés de dormir dehors",
@@ -844,8 +843,8 @@
     },
     "mentions": {
       "avec": {
-        "posts": 29,
-        "moyenne": 5.1
+        "posts": 30,
+        "moyenne": 5.3
       },
       "sans": {
         "posts": 35,
@@ -855,7 +854,7 @@
     "publies": {
       "threads": 19,
       "facebook": 19,
-      "bluesky": 18,
+      "bluesky": 19,
       "x": 18,
       "instagram": 18
     },
@@ -896,14 +895,14 @@
     },
     "engagement": {
       "instagram": 0.05,
-      "threads": 0.37,
+      "threads": 0.4,
       "facebook": 0
     },
     "conseils": [
-      "Threads : le créneau 7 h – 8 h 30 fait 34 fois mieux que 10 h – 11 h 30 (6.8 contre 0.2 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
-      "Le format « reponse » fait 43 fois mieux que « reply » (4.3 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « reply » de la rotation dans config/channels.json.",
+      "Threads : le créneau 7 h – 8 h 30 fait 36 fois mieux que 10 h – 11 h 30 (7.2 contre 0.2 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
+      "Le format « reponse » fait 47 fois mieux que « reply » (4.7 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « reply » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+8, +0,7 %) ; Facebook recule (−23), à surveiller.",
-      "Les posts avec mention font 4.9 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
+      "Les posts avec mention font 5.1 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
     ]
   },
   "couts": {

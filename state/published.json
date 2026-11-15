@@ -7134,5 +7134,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36189",
+    "channel": "bluesky",
+    "at": "2026-11-15T08:03:11.031Z",
+    "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3n2dkfu2bt22o",
+    "titre": "Déjà 20 200 grues cendrées à Arjuzanx, 2,6 fois plus qu’en 2025",
+    "lien": "https://passion-aquitaine.ouest-france.fr/grues-cendrees-arjuzanx-novembre-2026/",
+    "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2dkfu2bt22o",
+    "format": "image",
+    "mention": false,
+    "apercu": {
+      "texte": "#Arjuzanx, dans les #Landes, voit affluer les grues cendrées 🐦 Le comptage du 9 novembre en recense 20 200, contre 7 706 un an plus tôt. Une ancienne mine transformée en dortoir géant.\n➡️ Lire l’article",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261115-4e3e2639-bsky.jpg",
+      "mode": "image",
+      "reponse": null,
+      "sujet": null
+    }
   }
 ]

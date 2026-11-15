@@ -7152,5 +7152,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36189",
+    "channel": "x",
+    "at": "2026-11-15T08:21:12.882Z",
+    "mediaId": "kit-telegram",
+    "titre": "Déjà 20 200 grues cendrées à Arjuzanx, 2,6 fois plus qu’en 2025",
+    "lien": "https://passion-aquitaine.ouest-france.fr/grues-cendrees-arjuzanx-novembre-2026/",
+    "lienPost": null,
+    "format": "reponse",
+    "mention": false,
+    "apercu": {
+      "texte": "Spectacle à ne pas manquer dans les Landes : 20 200 grues cendrées déjà comptées à #Arjuzanx, 2,6 fois plus qu’en 2025 🔭",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261115-4e3e2639-x.jpg",
+      "mode": "reponse",
+      "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/grues-cendrees-arjuzanx-novembre-2026/",
+      "sujet": null
+    }
   }
 ]

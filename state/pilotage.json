@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-15T08:00:41.127Z",
+  "genereLe": "2026-11-15T08:21:02.270Z",
   "jour": "2026-11-15",
   "reseaux": {
     "instagram": {
@@ -156,10 +156,10 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
+      "aujourdhui": 1,
       "semaine": 10,
-      "total": 81,
-      "dernier": "2026-11-14T12:01:03.318Z",
+      "total": 82,
+      "dernier": "2026-11-15T08:21:12.882Z",
       "lienDernier": null
     }
   },
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36189",
       "titre": "Déjà 20 200 grues cendrées à Arjuzanx, 2,6 fois plus qu’en 2025",
       "lien": "https://passion-aquitaine.ouest-france.fr/grues-cendrees-arjuzanx-novembre-2026/",
-      "at": "2026-11-15T08:03:11.031Z",
+      "at": "2026-11-15T08:21:12.882Z",
       "reseaux": {
         "threads": {
           "texte": "Une ancienne mine qui se remplit d’oiseaux, ça ne s’invente pas. À Arjuzanx, dans les Landes, 🦩 20 200 grues cendrées ont été comptées le 9 novembre. Un an plus tôt, elles étaient 7 706. Soit 2,6 fois plus en un an.",
@@ -193,6 +193,14 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-11-15T08:03:11.031Z"
+        },
+        "x": {
+          "texte": "Spectacle à ne pas manquer dans les Landes : 20 200 grues cendrées déjà comptées à #Arjuzanx, 2,6 fois plus qu’en 2025 🔭",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261115-4e3e2639-x.jpg",
+          "mode": "reponse",
+          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/grues-cendrees-arjuzanx-novembre-2026/",
+          "sujet": null,
+          "publieLe": "2026-11-15T08:21:12.882Z"
         }
       }
     },
@@ -439,6 +447,16 @@
   ],
   "publications": [
     {
+      "channel": "x",
+      "at": "2026-11-15T08:21:12.882Z",
+      "titre": "Déjà 20 200 grues cendrées à Arjuzanx, 2,6 fois plus qu’en 2025",
+      "lien": "https://passion-aquitaine.ouest-france.fr/grues-cendrees-arjuzanx-novembre-2026/",
+      "lienPost": null,
+      "format": "reponse",
+      "texte": "Spectacle à ne pas manquer dans les Landes : 20 200 grues cendrées déjà comptées à #Arjuzanx, 2,6 fois plus qu’en 2025 🔭",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261115-4e3e2639-x.jpg"
+    },
+    {
       "channel": "bluesky",
       "at": "2026-11-15T08:03:11.031Z",
       "titre": "Déjà 20 200 grues cendrées à Arjuzanx, 2,6 fois plus qu’en 2025",
@@ -527,28 +545,9 @@
       "format": "reponse",
       "texte": "🛬 À Bordeaux, l’aéroport encaisse le coup. Le départ de Ryanair lui a fait perdre près de 700 000 passagers, un trou difficile à combler. Sa réponse ne manque pas d’ambition : miser sur Le Caire. Un pari pour retrouver des voyageurs et redonner de l’élan à ses pistes.\n@villedebordeaux",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261114-6495f52d-th.jpg"
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-11-14T08:29:36.059Z",
-      "titre": "Bordeaux : on va valser à la douane pour les 100 ans de Monet",
-      "lien": "https://passion-aquitaine.ouest-france.fr/bordeaux-bal-costume-musee-douanes-monet/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1788176299974917",
-      "format": null,
-      "texte": "Imaginez des costumes qui tournoient entre les collections d’un musée des douanes, en hommage au peintre des nymphéas 💃",
-      "image": null
     }
   ],
   "file": [
-    {
-      "channel": "x",
-      "dueAt": "2026-11-15T08:20:00.000Z",
-      "prochainPassage": "2026-11-15T08:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Déjà 20 200 grues cendrées à Arjuzanx, 2,6 fois plus qu’en 2025"
-    },
     {
       "channel": "instagram",
       "dueAt": "2026-11-15T12:29:59.681Z",
@@ -643,7 +642,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-15T07:00:51.045Z"
+    "derniere": "2026-11-15T08:21:02.270Z"
   },
   "abonnes": {
     "instagram": {
@@ -682,7 +681,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-15T08:03:21.420Z",
+    "genereLe": "2026-11-15T08:21:18.240Z",
     "posts": 65,
     "parReseau": {
       "instagram": {
@@ -855,7 +854,7 @@
       "threads": 19,
       "facebook": 19,
       "bluesky": 19,
-      "x": 18,
+      "x": 19,
       "instagram": 18
     },
     "abonnes": {

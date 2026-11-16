@@ -7260,5 +7260,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36200",
+    "channel": "facebook",
+    "at": "2026-11-16T20:14:10.277Z",
+    "mediaId": "227437307428711_1791748229617724",
+    "titre": "Deux-Sèvres : cette association a acheté 1 000 hectares de nature",
+    "lien": "https://passion-aquitaine.ouest-france.fr/deux-sevres-conservatoire-1000-hectares-nature/",
+    "lienPost": "https://www.facebook.com/1720946116697936/posts/1791748229617724",
+    "format": null,
+    "mention": false,
+    "apercu": {
+      "texte": "Imaginez plus de mille hectares de prairies, de bois et de zones humides achetés un à un pour rester sauvages 🌿",
+      "image": null,
+      "mode": null,
+      "reponse": null,
+      "sujet": null
+    }
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-16T09:00:43.058Z",
+  "genereLe": "2026-11-16T09:20:43.664Z",
   "jour": "2026-11-16",
   "reseaux": {
     "instagram": {
@@ -156,10 +156,10 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 10,
-      "total": 82,
-      "dernier": "2026-11-15T08:21:12.882Z",
+      "aujourdhui": 1,
+      "semaine": 11,
+      "total": 83,
+      "dernier": "2026-11-16T09:20:54.546Z",
       "lienDernier": null
     }
   },
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36200",
       "titre": "Deux-Sèvres : cette association a acheté 1 000 hectares de nature",
       "lien": "https://passion-aquitaine.ouest-france.fr/deux-sevres-conservatoire-1000-hectares-nature/",
-      "at": "2026-11-16T09:17:04.427Z",
+      "at": "2026-11-16T09:20:54.546Z",
       "reseaux": {
         "threads": {
           "texte": "1 012 hectares de nature, rachetés pour être préservés 🍃 C’est ce que possède aujourd’hui le Conservatoire d’espaces naturels en Deux-Sèvres. Tout a commencé en 1996, avec une première acquisition. Trente ans plus tard, le patrimoine naturel de l’association dépasse le millier d’hectares. Vous connaissiez ce travail discret mené dans le département ?",
@@ -177,6 +177,14 @@
           "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/deux-sevres-conservatoire-1000-hectares-nature/",
           "sujet": "Deux-Sèvres",
           "publieLe": "2026-11-16T09:17:04.427Z"
+        },
+        "x": {
+          "texte": "Deux-Sèvres : depuis 1996, le Conservatoire d’espaces naturels rachète des terres pour les protéger. Résultat trente ans plus tard 🦋 1 012 hectares de nature lui appartiennent.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261116-44cfe04e-x.jpg",
+          "mode": "reponse",
+          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/deux-sevres-conservatoire-1000-hectares-nature/",
+          "sujet": null,
+          "publieLe": "2026-11-16T09:20:54.546Z"
         }
       }
     },
@@ -423,6 +431,16 @@
   ],
   "publications": [
     {
+      "channel": "x",
+      "at": "2026-11-16T09:20:54.546Z",
+      "titre": "Deux-Sèvres : cette association a acheté 1 000 hectares de nature",
+      "lien": "https://passion-aquitaine.ouest-france.fr/deux-sevres-conservatoire-1000-hectares-nature/",
+      "lienPost": null,
+      "format": "reponse",
+      "texte": "Deux-Sèvres : depuis 1996, le Conservatoire d’espaces naturels rachète des terres pour les protéger. Résultat trente ans plus tard 🦋 1 012 hectares de nature lui appartiennent.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261116-44cfe04e-x.jpg"
+    },
+    {
       "channel": "threads",
       "at": "2026-11-16T09:17:04.427Z",
       "titre": "Deux-Sèvres : cette association a acheté 1 000 hectares de nature",
@@ -511,28 +529,9 @@
       "format": "reply",
       "texte": "Près de 700 000 passagers envolés : c’est ce qu’a coûté à l’aéroport de #Bordeaux le départ de Ryanair. Pour remonter la pente, la plateforme girondine mise désormais sur une destination inattendue, Le Caire 🌍\n@villedebordeaux.bsky.social",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261114-6495f52d-bsky.jpg"
-    },
-    {
-      "channel": "x",
-      "at": "2026-11-14T12:01:03.318Z",
-      "titre": "Aéroport de Bordeaux : privé de Ryanair, il s’envole au Caire",
-      "lien": "https://passion-aquitaine.ouest-france.fr/aeroport-bordeaux-vol-direct-caire-hiver/",
-      "lienPost": null,
-      "format": "reponse",
-      "texte": "Lâché par Ryanair, l’aéroport de #Bordeaux regarde vers Le Caire 🐪 Après la perte de près de 700 000 passagers, c’est sur cette destination qu’il mise désormais pour rebondir.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261114-6495f52d-x.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "x",
-      "dueAt": "2026-11-16T09:20:00.000Z",
-      "prochainPassage": "2026-11-16T09:20:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Deux-Sèvres : cette association a acheté 1 000 hectares de nature"
-    },
     {
       "channel": "bluesky",
       "dueAt": "2026-11-16T11:25:02.033Z",
@@ -645,7 +644,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-16T08:01:11.595Z"
+    "derniere": "2026-11-16T09:20:43.664Z"
   },
   "abonnes": {
     "instagram": {
@@ -684,7 +683,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-16T09:17:07.566Z",
+    "genereLe": "2026-11-16T09:21:05.607Z",
     "posts": 75,
     "parReseau": {
       "threads": {
@@ -857,7 +856,7 @@
       "threads": 20,
       "facebook": 19,
       "bluesky": 19,
-      "x": 19,
+      "x": 20,
       "instagram": 19
     },
     "abonnes": {

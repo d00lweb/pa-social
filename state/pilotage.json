@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-16T07:20:51.902Z",
+  "genereLe": "2026-11-16T08:01:11.595Z",
   "jour": "2026-11-16",
   "reseaux": {
     "instagram": {
@@ -123,7 +123,7 @@
         "reponse"
       ],
       "aujourdhui": 0,
-      "semaine": 10,
+      "semaine": 9,
       "total": 79,
       "dernier": "2026-11-15T07:29:58.543Z",
       "lienDernier": "https://www.threads.com/@lovaquitaine/post/DfwPXx-nK7V"
@@ -558,7 +558,7 @@
   "file": [],
   "alertes": [],
   "mesures": {
-    "releves": 604,
+    "releves": 607,
     "parReseau": {
       "instagram": {
         "posts": 74,
@@ -573,8 +573,8 @@
         "interactionsMoyennes": 0
       },
       "threads": {
-        "posts": 69,
-        "interactionsMoyennes": 9.1
+        "posts": 70,
+        "interactionsMoyennes": 9
       }
     }
   },
@@ -640,7 +640,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-16T06:20:56.796Z"
+    "derniere": "2026-11-16T08:01:11.595Z"
   },
   "abonnes": {
     "instagram": {
@@ -679,19 +679,19 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-16T07:21:00.531Z",
-    "posts": 72,
+    "genereLe": "2026-11-16T08:01:19.248Z",
+    "posts": 74,
     "parReseau": {
+      "threads": {
+        "posts": 19,
+        "moyenne": 10.1
+      },
       "instagram": {
         "posts": 18,
         "moyenne": 6.4
       },
-      "threads": {
-        "posts": 18,
-        "moyenne": 4.7
-      },
       "facebook": {
-        "posts": 18,
+        "posts": 19,
         "moyenne": 0
       },
       "bluesky": {
@@ -701,8 +701,8 @@
     },
     "parFormat": {
       "reponse": {
-        "posts": 18,
-        "moyenne": 4.7
+        "posts": 19,
+        "moyenne": 10.1
       },
       "image": {
         "posts": 10,
@@ -722,20 +722,20 @@
         "posts": 21,
         "moyenne": 4.8
       },
+      "matin": {
+        "posts": 40,
+        "moyenne": 4.5
+      },
       "soir": {
         "posts": 13,
         "moyenne": 2.1
-      },
-      "matin": {
-        "posts": 38,
-        "moyenne": 1.9
       }
     },
     "parCreneauReseau": {
       "threads": {
         "7 h – 8 h 30": {
-          "posts": 9,
-          "moyenne": 7.2
+          "posts": 10,
+          "moyenne": 17.3
         },
         "13 h – 14 h 30": {
           "posts": 2,
@@ -752,7 +752,7 @@
       },
       "facebook": {
         "8 h – 9 h 30": {
-          "posts": 11,
+          "posts": 12,
           "moyenne": 0
         },
         "20 h – 21 h 30": {
@@ -797,46 +797,46 @@
         }
       }
     },
-    "interactionsTotal": 199,
+    "interactionsTotal": 307,
     "meilleur": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36056",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36189",
       "channel": "threads",
-      "mediaId": "18110635505623598",
-      "publieLe": "2026-11-08T07:28:16.875Z",
-      "jalon": 7,
-      "releveLe": "2026-11-15T08:00:41.127Z",
-      "likes": 28,
-      "commentairesBruts": 6,
-      "partages": 1,
-      "vues": 2924,
-      "commentaires": 5,
+      "mediaId": "18031459883876591",
+      "publieLe": "2026-11-15T07:29:58.543Z",
+      "jalon": 1,
+      "releveLe": "2026-11-16T08:01:11.595Z",
+      "likes": 101,
+      "commentairesBruts": 4,
+      "partages": 4,
+      "vues": 3653,
+      "commentaires": 3,
       "v": 2,
-      "titre": "Bayonne : cette crèche propose aux bébés de dormir dehors",
-      "lien": "https://www.threads.com/@lovaquitaine/post/DfeNqg2Fpy_",
+      "titre": "Déjà 20 200 grues cendrées à Arjuzanx, 2,6 fois plus qu’en 2025",
+      "lien": "https://www.threads.com/@lovaquitaine/post/DfwPXx-nK7V",
       "format": "reponse",
-      "mention": true,
+      "mention": false,
       "creneau": "matin",
       "creneauReseau": "7 h – 8 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36208",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36189",
       "channel": "facebook",
-      "mediaId": "227437307428711_1788808723245008",
-      "publieLe": "2026-11-14T19:09:15.107Z",
+      "mediaId": "227437307428711_1789491286510085",
+      "publieLe": "2026-11-15T07:34:05.747Z",
       "jalon": 1,
-      "releveLe": "2026-11-15T19:20:32.773Z",
+      "releveLe": "2026-11-16T08:01:11.595Z",
       "likes": 0,
       "commentairesBruts": 0,
       "partages": 0,
       "vues": null,
       "commentaires": 0,
       "v": 2,
-      "titre": "Aéroport de Bordeaux : privé de Ryanair, il s’envole au Caire",
-      "lien": "https://www.facebook.com/1720946116697936/posts/1788808723245008",
+      "titre": "Déjà 20 200 grues cendrées à Arjuzanx, 2,6 fois plus qu’en 2025",
+      "lien": "https://www.facebook.com/1720946116697936/posts/1789491286510085",
       "format": null,
       "mention": false,
-      "creneau": "soir",
-      "creneauReseau": "20 h – 21 h 30"
+      "creneau": "matin",
+      "creneauReseau": "8 h – 9 h 30"
     },
     "mentions": {
       "avec": {
@@ -844,8 +844,8 @@
         "moyenne": 5.6
       },
       "sans": {
-        "posts": 38,
-        "moyenne": 0.2
+        "posts": 40,
+        "moyenne": 2.9
       }
     },
     "publies": {
@@ -891,15 +891,15 @@
       "x": null
     },
     "engagement": {
+      "threads": 0.87,
       "instagram": 0.06,
-      "threads": 0.4,
       "facebook": 0
     },
     "conseils": [
-      "Threads : le créneau 7 h – 8 h 30 fait 9 fois mieux que 10 h – 11 h 30 (7.2 contre 0.8 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
-      "Le format « reponse » fait 47 fois mieux que « reply » (4.7 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « reply » de la rotation dans config/channels.json.",
+      "Threads : le créneau 7 h – 8 h 30 fait 21,6 fois mieux que 10 h – 11 h 30 (17.3 contre 0.8 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
+      "Le format « reponse » fait 101 fois mieux que « reply » (10.1 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « reply » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+11, +1 %) ; Facebook recule (−23), à surveiller.",
-      "Les posts avec mention font 5.4 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
+      "Les posts avec mention font 2.7 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
     ]
   },
   "couts": {

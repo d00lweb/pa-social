@@ -3,7 +3,7 @@
     "cle": "2026-11",
     "publications": 95,
     "articles": 19,
-    "interactions": 199,
+    "interactions": 307,
     "parReseau": {
       "facebook": 19,
       "instagram": 19,
@@ -19,6 +19,13 @@
       "bluesky": 2
     },
     "top": [
+      {
+        "reseau": "threads",
+        "titre": "Déjà 20 200 grues cendrées à Arjuzanx, 2,6 fois plus qu’en 2025",
+        "lien": "https://www.threads.com/@lovaquitaine/post/DfwPXx-nK7V",
+        "image": "https://passion-aquitaine.ouest-france.fr/social/20261115-4e3e2639-1-vignette.jpg",
+        "interactions": 108
+      },
       {
         "reseau": "threads",
         "titre": "Bayonne : cette crèche propose aux bébés de dormir dehors",
@@ -46,13 +53,6 @@
         "lien": "https://www.instagram.com/p/DfuzvvoFCNh/",
         "image": "https://passion-aquitaine.ouest-france.fr/social/20261114-6495f52d-1-vignette.jpg",
         "interactions": 16
-      },
-      {
-        "reseau": "threads",
-        "titre": "France-Turquie : le 8e match des Bleus en Gironde sera une grande première",
-        "lien": "https://www.threads.com/@lovaquitaine/post/DfmdAxulCau",
-        "image": "https://passion-aquitaine.ouest-france.fr/social/20261111-208fc27f-1-vignette.jpg",
-        "interactions": 11
       }
     ]
   },

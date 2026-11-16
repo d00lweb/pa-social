@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-16T08:20:36.382Z",
+  "genereLe": "2026-11-16T09:00:43.058Z",
   "jour": "2026-11-16",
   "reseaux": {
     "instagram": {
@@ -89,7 +89,7 @@
       },
       "formats": null,
       "aujourdhui": 0,
-      "semaine": 10,
+      "semaine": 9,
       "total": 79,
       "dernier": "2026-11-15T07:34:05.747Z",
       "lienDernier": "https://www.facebook.com/1720946116697936/posts/1789491286510085"
@@ -122,11 +122,11 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 9,
-      "total": 79,
-      "dernier": "2026-11-15T07:29:58.543Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DfwPXx-nK7V"
+      "aujourdhui": 1,
+      "semaine": 10,
+      "total": 80,
+      "dernier": "2026-11-16T09:17:04.427Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DfzAgKdIDYr"
     },
     "x": {
       "actif": true,
@@ -164,6 +164,22 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36200",
+      "titre": "Deux-Sèvres : cette association a acheté 1 000 hectares de nature",
+      "lien": "https://passion-aquitaine.ouest-france.fr/deux-sevres-conservatoire-1000-hectares-nature/",
+      "at": "2026-11-16T09:17:04.427Z",
+      "reseaux": {
+        "threads": {
+          "texte": "1 012 hectares de nature, rachetés pour être préservés 🍃 C’est ce que possède aujourd’hui le Conservatoire d’espaces naturels en Deux-Sèvres. Tout a commencé en 1996, avec une première acquisition. Trente ans plus tard, le patrimoine naturel de l’association dépasse le millier d’hectares. Vous connaissiez ce travail discret mené dans le département ?",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261116-44cfe04e-th.jpg",
+          "mode": "reponse",
+          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/deux-sevres-conservatoire-1000-hectares-nature/",
+          "sujet": "Deux-Sèvres",
+          "publieLe": "2026-11-16T09:17:04.427Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36189",
       "titre": "Déjà 20 200 grues cendrées à Arjuzanx, 2,6 fois plus qu’en 2025",
@@ -403,57 +419,19 @@
           "publieLe": "2026-11-13T12:07:47.214Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36145",
-      "titre": "Bordeaux : nager dehors en plein hiver dans une eau à 27 °C",
-      "lien": "https://passion-aquitaine.ouest-france.fr/bordeaux-piscine-jean-zay-bassin-nordique/",
-      "at": "2026-11-12T11:34:30.827Z",
-      "reseaux": {
-        "threads": {
-          "texte": "Bonne nouvelle pour les nageurs bordelais qui pensaient ranger leur maillot jusqu’au printemps 🏊‍♀️ L’ex-piscine Stéhelin garde désormais son bassin extérieur ouvert tout l’hiver, avec une eau à 27 °C. Longtemps, ce bassin n’accueillait le public que l’été. De quoi garder le rythme des longueurs et profiter du grand air même quand Bordeaux se refroidit.\n@visitbordeaux",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261112-d181c42b-th.jpg",
-          "mode": "reponse",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/bordeaux-piscine-jean-zay-bassin-nordique/",
-          "sujet": "Bordeaux",
-          "publieLe": "2026-11-12T07:31:58.588Z"
-        },
-        "facebook": {
-          "texte": "À Bordeaux, l’ex-piscine Stéhelin ne ferme plus son bassin extérieur à la fin de l’été, et l’eau y reste à 27 °C 🏊",
-          "image": null,
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-12T07:34:39.909Z"
-        },
-        "bluesky": {
-          "texte": "🩱 Nager dehors en hiver, sans grelotter : l’ex-piscine Stéhelin, à #Bordeaux, longtemps réservée à l’été, maintient désormais son bassin extérieur à 27 °C tout au long de la saison froide.\n➡️ Lire l’article",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261112-d181c42b-bsky.jpg",
-          "mode": "image",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-12T08:03:08.586Z"
-        },
-        "x": {
-          "texte": "Longtemps ouverte l’été seulement, l’ex-piscine Stéhelin à #Bordeaux change de rythme : son bassin extérieur reste désormais ouvert tout l’hiver, avec une eau à 🌡️ 27 °C.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261112-d181c42b-x.jpg",
-          "mode": "reponse",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/bordeaux-piscine-jean-zay-bassin-nordique/",
-          "sujet": null,
-          "publieLe": "2026-11-12T09:00:47.350Z"
-        },
-        "instagram": {
-          "texte": "Une eau à 27 °C 🏊 en plein air, même au cœur de l’hiver, à Bordeaux.\n⠀\nL’ex-piscine Stéhelin, longtemps ouverte l’été seulement, garde désormais son bassin extérieur ouvert toute la saison froide. De quoi enchaîner les longueurs sous le ciel bordelais.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #Piscine #Natation",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261112-d181c42b-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-12T11:34:30.827Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "threads",
+      "at": "2026-11-16T09:17:04.427Z",
+      "titre": "Deux-Sèvres : cette association a acheté 1 000 hectares de nature",
+      "lien": "https://passion-aquitaine.ouest-france.fr/deux-sevres-conservatoire-1000-hectares-nature/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/DfzAgKdIDYr",
+      "format": "reponse",
+      "texte": "1 012 hectares de nature, rachetés pour être préservés 🍃 C’est ce que possède aujourd’hui le Conservatoire d’espaces naturels en Deux-Sèvres. Tout a commencé en 1996, avec une première acquisition. Trente ans plus tard, le patrimoine naturel de l’association dépasse le millier d’hectares. Vous connaissiez ce travail discret mené dans le département ?",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261116-44cfe04e-th.jpg"
+    },
     {
       "channel": "instagram",
       "at": "2026-11-15T12:30:28.129Z",
@@ -543,28 +521,9 @@
       "format": "reponse",
       "texte": "Lâché par Ryanair, l’aéroport de #Bordeaux regarde vers Le Caire 🐪 Après la perte de près de 700 000 passagers, c’est sur cette destination qu’il mise désormais pour rebondir.",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261114-6495f52d-x.jpg"
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-11-14T11:07:10.144Z",
-      "titre": "Bordeaux : on va valser à la douane pour les 100 ans de Monet",
-      "lien": "https://passion-aquitaine.ouest-france.fr/bordeaux-bal-costume-musee-douanes-monet/",
-      "lienPost": "https://www.instagram.com/p/DfuD49fJe5k/",
-      "format": null,
-      "texte": "Un bal costumé dans un musée des douanes 🎨 pour saluer Monet, cent ans après sa mort.\n⠀\nÀ Bordeaux, le Musée national des douanes invite à valser le 5 décembre, jour anniversaire de la disparition du peintre. Une façon inattendue de célébrer l’impressionnisme.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #Monet #BalCostume",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261114-0eedb13e-1.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "threads",
-      "dueAt": "2026-11-16T09:13:27.712Z",
-      "prochainPassage": "2026-11-16T09:20:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Deux-Sèvres : cette association a acheté 1 000 hectares de nature"
-    },
     {
       "channel": "x",
       "dueAt": "2026-11-16T09:20:00.000Z",
@@ -604,7 +563,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 609,
+    "releves": 610,
     "parReseau": {
       "instagram": {
         "posts": 74,
@@ -615,7 +574,7 @@
         "interactionsMoyennes": 0.2
       },
       "facebook": {
-        "posts": 69,
+        "posts": 70,
         "interactionsMoyennes": 0
       },
       "threads": {
@@ -725,7 +684,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-16T08:20:57.626Z",
+    "genereLe": "2026-11-16T09:17:07.566Z",
     "posts": 75,
     "parReseau": {
       "threads": {
@@ -895,7 +854,7 @@
       }
     },
     "publies": {
-      "threads": 19,
+      "threads": 20,
       "facebook": 19,
       "bluesky": 19,
       "x": 19,

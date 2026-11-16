@@ -3,7 +3,7 @@
     "cle": "2026-11",
     "publications": 99,
     "articles": 20,
-    "interactions": 308,
+    "interactions": 339,
     "parReseau": {
       "facebook": 19,
       "instagram": 20,
@@ -35,6 +35,13 @@
       },
       {
         "reseau": "instagram",
+        "titre": "Déjà 20 200 grues cendrées à Arjuzanx, 2,6 fois plus qu’en 2025",
+        "lien": "https://www.instagram.com/p/DfwyOAkF50r/",
+        "image": "https://passion-aquitaine.ouest-france.fr/social/20261115-4e3e2639-1-vignette.jpg",
+        "interactions": 31
+      },
+      {
+        "reseau": "instagram",
         "titre": "Bayonne : cette crèche propose aux bébés de dormir dehors",
         "lien": "https://www.instagram.com/p/Dfetr1KF6oZ/",
         "image": "https://passion-aquitaine.ouest-france.fr/social/20261108-1c7b9a95-1-vignette.jpg",
@@ -46,13 +53,6 @@
         "lien": "https://www.instagram.com/p/Dfj5xC6F-gS/",
         "image": "https://passion-aquitaine.ouest-france.fr/social/20261110-7bd6dea8-1-vignette.jpg",
         "interactions": 19
-      },
-      {
-        "reseau": "instagram",
-        "titre": "Aéroport de Bordeaux : privé de Ryanair, il s’envole au Caire",
-        "lien": "https://www.instagram.com/p/DfuzvvoFCNh/",
-        "image": "https://passion-aquitaine.ouest-france.fr/social/20261114-6495f52d-1-vignette.jpg",
-        "interactions": 16
       }
     ]
   },

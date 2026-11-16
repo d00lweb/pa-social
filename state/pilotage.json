@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-16T08:01:11.595Z",
+  "genereLe": "2026-11-16T08:04:31.483Z",
   "jour": "2026-11-16",
   "reseaux": {
     "instagram": {
@@ -558,7 +558,7 @@
   "file": [],
   "alertes": [],
   "mesures": {
-    "releves": 607,
+    "releves": 608,
     "parReseau": {
       "instagram": {
         "posts": 74,
@@ -679,8 +679,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-16T08:01:19.248Z",
-    "posts": 74,
+    "genereLe": "2026-11-16T08:04:37.010Z",
+    "posts": 75,
     "parReseau": {
       "threads": {
         "posts": 19,
@@ -695,7 +695,7 @@
         "moyenne": 0
       },
       "bluesky": {
-        "posts": 18,
+        "posts": 19,
         "moyenne": 0
       }
     },
@@ -705,7 +705,7 @@
         "moyenne": 10.1
       },
       "image": {
-        "posts": 10,
+        "posts": 11,
         "moyenne": 0
       },
       "card": {
@@ -723,8 +723,8 @@
         "moyenne": 4.8
       },
       "matin": {
-        "posts": 40,
-        "moyenne": 4.5
+        "posts": 41,
+        "moyenne": 4.4
       },
       "soir": {
         "posts": 13,
@@ -766,7 +766,7 @@
       },
       "bluesky": {
         "8 h – 9 h 30": {
-          "posts": 11,
+          "posts": 12,
           "moyenne": 0
         },
         "hors créneau": {
@@ -820,11 +820,11 @@
     },
     "moinsBon": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36189",
-      "channel": "facebook",
-      "mediaId": "227437307428711_1789491286510085",
-      "publieLe": "2026-11-15T07:34:05.747Z",
+      "channel": "bluesky",
+      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3n2dkfu2bt22o",
+      "publieLe": "2026-11-15T08:03:11.031Z",
       "jalon": 1,
-      "releveLe": "2026-11-16T08:01:11.595Z",
+      "releveLe": "2026-11-16T08:04:31.483Z",
       "likes": 0,
       "commentairesBruts": 0,
       "partages": 0,
@@ -832,8 +832,8 @@
       "commentaires": 0,
       "v": 2,
       "titre": "Déjà 20 200 grues cendrées à Arjuzanx, 2,6 fois plus qu’en 2025",
-      "lien": "https://www.facebook.com/1720946116697936/posts/1789491286510085",
-      "format": null,
+      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2dkfu2bt22o",
+      "format": "image",
       "mention": false,
       "creneau": "matin",
       "creneauReseau": "8 h – 9 h 30"
@@ -844,8 +844,8 @@
         "moyenne": 5.6
       },
       "sans": {
-        "posts": 40,
-        "moyenne": 2.9
+        "posts": 41,
+        "moyenne": 2.8
       }
     },
     "publies": {
@@ -899,7 +899,7 @@
       "Threads : le créneau 7 h – 8 h 30 fait 21,6 fois mieux que 10 h – 11 h 30 (17.3 contre 0.8 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Le format « reponse » fait 101 fois mieux que « reply » (10.1 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « reply » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+11, +1 %) ; Facebook recule (−23), à surveiller.",
-      "Les posts avec mention font 2.7 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
+      "Les posts avec mention font 2.8 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
     ]
   },
   "couts": {

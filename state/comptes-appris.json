@@ -1767,5 +1767,42 @@
     "instagram": [],
     "threads": [],
     "bluesky": []
+  },
+  "territoire:deux-sevres:deuxsevres79,deuxsevres_tourisme": {
+    "v": 3,
+    "cherche": "2026-11-16T08:20:48.990Z",
+    "conseil": {
+      "instagram": [
+        {
+          "handle": "deuxsevres79",
+          "nom": "Département des Deux-Sèvres",
+          "abonnes": 2959,
+          "preuve": 3
+        }
+      ],
+      "threads": [],
+      "bluesky": [],
+      "x": [
+        {
+          "handle": "DeuxSevres",
+          "nom": "",
+          "abonnes": null,
+          "preuve": 3
+        }
+      ]
+    },
+    "tourisme": {
+      "instagram": [
+        {
+          "handle": "deuxsevres_tourisme",
+          "nom": "Deux-Sèvres Tourisme",
+          "abonnes": 9488,
+          "preuve": 3
+        }
+      ],
+      "threads": [],
+      "bluesky": [],
+      "x": []
+    }
   }
 }

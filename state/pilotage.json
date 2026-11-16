@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-16T08:04:31.483Z",
+  "genereLe": "2026-11-16T08:20:36.382Z",
   "jour": "2026-11-16",
   "reseaux": {
     "instagram": {
@@ -61,7 +61,7 @@
         "reply"
       ],
       "aujourdhui": 0,
-      "semaine": 10,
+      "semaine": 9,
       "total": 82,
       "dernier": "2026-11-15T08:03:11.031Z",
       "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2dkfu2bt22o"
@@ -555,17 +555,63 @@
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261114-0eedb13e-1.jpg"
     }
   ],
-  "file": [],
+  "file": [
+    {
+      "channel": "threads",
+      "dueAt": "2026-11-16T09:13:27.712Z",
+      "prochainPassage": "2026-11-16T09:20:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Deux-Sèvres : cette association a acheté 1 000 hectares de nature"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-11-16T09:20:00.000Z",
+      "prochainPassage": "2026-11-16T09:20:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Deux-Sèvres : cette association a acheté 1 000 hectares de nature"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-11-16T11:25:02.033Z",
+      "prochainPassage": "2026-11-16T12:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Deux-Sèvres : cette association a acheté 1 000 hectares de nature"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-11-16T12:28:10.169Z",
+      "prochainPassage": "2026-11-16T13:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Deux-Sèvres : cette association a acheté 1 000 hectares de nature"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-11-16T20:14:05.205Z",
+      "prochainPassage": "2026-11-16T20:20:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Deux-Sèvres : cette association a acheté 1 000 hectares de nature"
+    }
+  ],
   "alertes": [],
   "mesures": {
-    "releves": 608,
+    "releves": 609,
     "parReseau": {
       "instagram": {
         "posts": 74,
         "interactionsMoyennes": 12.9
       },
       "bluesky": {
-        "posts": 72,
+        "posts": 73,
         "interactionsMoyennes": 0.2
       },
       "facebook": {
@@ -679,7 +725,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-16T08:04:37.010Z",
+    "genereLe": "2026-11-16T08:20:57.626Z",
     "posts": 75,
     "parReseau": {
       "threads": {
@@ -690,11 +736,11 @@
         "posts": 18,
         "moyenne": 6.4
       },
-      "facebook": {
-        "posts": 19,
-        "moyenne": 0
-      },
       "bluesky": {
+        "posts": 19,
+        "moyenne": 0.1
+      },
+      "facebook": {
         "posts": 19,
         "moyenne": 0
       }
@@ -704,12 +750,12 @@
         "posts": 19,
         "moyenne": 10.1
       },
-      "image": {
-        "posts": 11,
-        "moyenne": 0
-      },
       "card": {
         "posts": 5,
+        "moyenne": 0.2
+      },
+      "image": {
+        "posts": 11,
         "moyenne": 0
       },
       "reply": {
@@ -767,7 +813,7 @@
       "bluesky": {
         "8 h – 9 h 30": {
           "posts": 12,
-          "moyenne": 0
+          "moyenne": 0.1
         },
         "hors créneau": {
           "posts": 1,
@@ -797,7 +843,7 @@
         }
       }
     },
-    "interactionsTotal": 307,
+    "interactionsTotal": 308,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36189",
       "channel": "threads",
@@ -904,29 +950,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 0,
-      "entree": 0,
-      "sortie": 0,
-      "cout": 0,
+      "appels": 1,
+      "entree": 7951,
+      "sortie": 890,
+      "cout": 0.049604,
       "cle": "2026-11-16"
     },
     "semaine": {
-      "appels": 21,
-      "entree": 168691,
-      "sortie": 18874,
-      "cout": 1.052244
+      "appels": 22,
+      "entree": 176642,
+      "sortie": 19764,
+      "cout": 1.101848
     },
     "mois": {
-      "appels": 56,
-      "entree": 448239,
-      "sortie": 50127,
-      "cout": 2.7954959999999995,
+      "appels": 57,
+      "entree": 456190,
+      "sortie": 51017,
+      "cout": 2.8450999999999995,
       "cle": "2026-11"
     },
-    "projection": 5.24,
+    "projection": 5.33,
     "moyenneAppel": 0.0499,
     "parModele": {
-      "claude-opus-5-5": 56
+      "claude-opus-5-5": 57
     },
     "serie": [
       [
@@ -983,7 +1029,7 @@
       ],
       [
         "2026-11-16",
-        0
+        0.0496
       ]
     ],
     "depuis": "2026-09-23"

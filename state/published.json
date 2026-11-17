@@ -7314,5 +7314,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36227",
+    "channel": "x",
+    "at": "2026-11-17T08:01:03.007Z",
+    "mediaId": "kit-telegram",
+    "titre": "Bus gratuits le week-end à Limoges : faudra-t-il payer en 2027 ?",
+    "lien": "https://passion-aquitaine.ouest-france.fr/limoges-bus-gratuits-week-end-2027/",
+    "lienPost": null,
+    "format": "reponse",
+    "mention": true,
+    "apercu": {
+      "texte": "La gratuité des bus le week-end à #Limoges a une date de fin ⏳ L’essai lancé en juillet 2025 par Limoges Métropole repose sur un texte qui expire le 31 décembre 2026.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261117-8aef387a-x.jpg",
+      "mode": "reponse",
+      "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/limoges-bus-gratuits-week-end-2027/",
+      "sujet": null
+    }
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-17T08:00:52.966Z",
+  "genereLe": "2026-11-17T08:20:59.884Z",
   "jour": "2026-11-17",
   "reseaux": {
     "instagram": {
@@ -61,7 +61,7 @@
         "reply"
       ],
       "aujourdhui": 1,
-      "semaine": 11,
+      "semaine": 10,
       "total": 84,
       "dernier": "2026-11-17T07:34:12.259Z",
       "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2ijpujvkr2v"
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 0,
+      "aujourdhui": 1,
       "semaine": 10,
-      "total": 80,
-      "dernier": "2026-11-16T20:14:10.277Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1791748229617724"
+      "total": 81,
+      "dernier": "2026-11-17T08:29:27.745Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1792524652873415"
     },
     "threads": {
       "actif": true,
@@ -157,7 +157,7 @@
         "reponse"
       ],
       "aujourdhui": 1,
-      "semaine": 11,
+      "semaine": 10,
       "total": 84,
       "dernier": "2026-11-17T08:01:03.007Z",
       "lienDernier": null
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36227",
       "titre": "Bus gratuits le week-end à Limoges : faudra-t-il payer en 2027 ?",
       "lien": "https://passion-aquitaine.ouest-france.fr/limoges-bus-gratuits-week-end-2027/",
-      "at": "2026-11-17T08:01:03.007Z",
+      "at": "2026-11-17T08:29:27.745Z",
       "reseaux": {
         "threads": {
           "texte": "🚍 À Limoges, prendre le bus le week-end ne coûte rien depuis juillet 2025. Limoges Métropole a lancé cet essai de gratuité, et beaucoup s’y sont sans doute habitués. Seulement voilà : le texte qui l’encadre s’arrête au 31 décembre 2026. Passé cette date, rien ne dit encore si le dispositif sera prolongé ou si les tickets reviendront.\n@ville_de_limoges",
@@ -193,6 +193,14 @@
           "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/limoges-bus-gratuits-week-end-2027/",
           "sujet": null,
           "publieLe": "2026-11-17T08:01:03.007Z"
+        },
+        "facebook": {
+          "texte": "Le ticket de bus du dimanche va-t-il refaire son apparition à Limoges dans quelques semaines 🎫",
+          "image": null,
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-17T08:29:27.745Z"
         }
       }
     },
@@ -439,6 +447,16 @@
   ],
   "publications": [
     {
+      "channel": "facebook",
+      "at": "2026-11-17T08:29:27.745Z",
+      "titre": "Bus gratuits le week-end à Limoges : faudra-t-il payer en 2027 ?",
+      "lien": "https://passion-aquitaine.ouest-france.fr/limoges-bus-gratuits-week-end-2027/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1792524652873415",
+      "format": null,
+      "texte": "Le ticket de bus du dimanche va-t-il refaire son apparition à Limoges dans quelques semaines 🎫",
+      "image": null
+    },
+    {
       "channel": "x",
       "at": "2026-11-17T08:01:03.007Z",
       "titre": "Bus gratuits le week-end à Limoges : faudra-t-il payer en 2027 ?",
@@ -527,28 +545,9 @@
       "format": null,
       "texte": "Pourquoi une ancienne mine des Landes attire-t-elle autant de grues cendrées ?\n⠀\nÀ Arjuzanx, 20 200 grues ont été comptées le 9 novembre, contre 7 706 un an plus tôt. Un rassemblement 2,6 fois plus important qu’en 2025 🦢\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Landes #GruesCendrees #Ornithologie",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261115-4e3e2639-1.jpg"
-    },
-    {
-      "channel": "x",
-      "at": "2026-11-15T08:21:12.882Z",
-      "titre": "Déjà 20 200 grues cendrées à Arjuzanx, 2,6 fois plus qu’en 2025",
-      "lien": "https://passion-aquitaine.ouest-france.fr/grues-cendrees-arjuzanx-novembre-2026/",
-      "lienPost": null,
-      "format": "reponse",
-      "texte": "Spectacle à ne pas manquer dans les Landes : 20 200 grues cendrées déjà comptées à #Arjuzanx, 2,6 fois plus qu’en 2025 🔭",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261115-4e3e2639-x.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "facebook",
-      "dueAt": "2026-11-17T08:29:19.679Z",
-      "prochainPassage": "2026-11-17T09:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Bus gratuits le week-end à Limoges : faudra-t-il payer en 2027 ?"
-    },
     {
       "channel": "instagram",
       "dueAt": "2026-11-17T11:23:34.451Z",
@@ -561,18 +560,18 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 612,
+    "releves": 614,
     "parReseau": {
       "instagram": {
         "posts": 75,
         "interactionsMoyennes": 12.7
       },
       "bluesky": {
-        "posts": 73,
+        "posts": 74,
         "interactionsMoyennes": 0.2
       },
       "facebook": {
-        "posts": 70,
+        "posts": 71,
         "interactionsMoyennes": 0
       },
       "threads": {
@@ -682,7 +681,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-17T08:01:08.753Z",
+    "genereLe": "2026-11-17T08:29:30.452Z",
     "posts": 76,
     "parReseau": {
       "threads": {
@@ -853,7 +852,7 @@
     },
     "publies": {
       "threads": 21,
-      "facebook": 20,
+      "facebook": 21,
       "bluesky": 21,
       "x": 21,
       "instagram": 20

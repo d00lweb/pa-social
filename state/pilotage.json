@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-17T06:21:19.084Z",
+  "genereLe": "2026-11-17T07:00:52.139Z",
   "jour": "2026-11-17",
   "reseaux": {
     "instagram": {
@@ -555,7 +555,53 @@
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261115-4e3e2639-th.jpg"
     }
   ],
-  "file": [],
+  "file": [
+    {
+      "channel": "threads",
+      "dueAt": "2026-11-17T07:28:14.088Z",
+      "prochainPassage": "2026-11-17T08:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Bus gratuits le week-end à Limoges : faudra-t-il payer en 2027 ?"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-11-17T07:34:09.735Z",
+      "prochainPassage": "2026-11-17T08:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Bus gratuits le week-end à Limoges : faudra-t-il payer en 2027 ?"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-11-17T08:00:00.000Z",
+      "prochainPassage": "2026-11-17T08:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Bus gratuits le week-end à Limoges : faudra-t-il payer en 2027 ?"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-11-17T08:29:19.679Z",
+      "prochainPassage": "2026-11-17T09:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Bus gratuits le week-end à Limoges : faudra-t-il payer en 2027 ?"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-11-17T11:23:34.451Z",
+      "prochainPassage": "2026-11-17T12:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Bus gratuits le week-end à Limoges : faudra-t-il payer en 2027 ?"
+    }
+  ],
   "alertes": [],
   "mesures": {
     "releves": 612,
@@ -679,7 +725,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-17T06:21:24.877Z",
+    "genereLe": "2026-11-17T07:01:09.892Z",
     "posts": 76,
     "parReseau": {
       "threads": {
@@ -904,29 +950,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 0,
-      "entree": 0,
-      "sortie": 0,
-      "cout": 0,
+      "appels": 1,
+      "entree": 7986,
+      "sortie": 892,
+      "cout": 0.049784,
       "cle": "2026-11-17"
     },
     "semaine": {
-      "appels": 21,
-      "entree": 168702,
-      "sortie": 18871,
-      "cout": 1.052228
+      "appels": 22,
+      "entree": 176688,
+      "sortie": 19763,
+      "cout": 1.102012
     },
     "mois": {
-      "appels": 57,
-      "entree": 456190,
-      "sortie": 51017,
-      "cout": 2.8450999999999995,
+      "appels": 58,
+      "entree": 464176,
+      "sortie": 51909,
+      "cout": 2.8948839999999993,
       "cle": "2026-11"
     },
-    "projection": 5.02,
+    "projection": 5.11,
     "moyenneAppel": 0.0499,
     "parModele": {
-      "claude-opus-5-5": 57
+      "claude-opus-5-5": 58
     },
     "serie": [
       [
@@ -983,7 +1029,7 @@
       ],
       [
         "2026-11-17",
-        0
+        0.0498
       ]
     ],
     "depuis": "2026-09-23"

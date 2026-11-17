@@ -1804,5 +1804,86 @@
       "bluesky": [],
       "x": []
     }
+  },
+  "commune:mairie:limoges": {
+    "v": 3,
+    "cherche": "2026-11-17T07:01:02.595Z",
+    "instagram": [
+      {
+        "handle": "ville_de_limoges",
+        "nom": "Ville de Limoges",
+        "abonnes": 46661,
+        "preuve": 3
+      }
+    ],
+    "x": [
+      {
+        "handle": "VilleLimoges87",
+        "nom": "",
+        "abonnes": null,
+        "preuve": 3
+      }
+    ],
+    "threads": [
+      {
+        "handle": "ville_de_limoges",
+        "nom": "Ville de Limoges",
+        "abonnes": 46661,
+        "preuve": 3
+      }
+    ],
+    "bluesky": []
+  },
+  "commune:tourisme:limoges": {
+    "v": 3,
+    "cherche": "2026-11-17T07:01:02.595Z",
+    "instagram": [
+      {
+        "handle": "limogestourisme",
+        "nom": "Limoges Tourisme",
+        "abonnes": 23419,
+        "preuve": 2
+      }
+    ],
+    "x": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:limoges:transport": {
+    "v": 3,
+    "cherche": "2026-11-17T07:01:02.595Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:limoges:mobilite": {
+    "v": 3,
+    "cherche": "2026-11-17T07:01:02.595Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "territoire:haute-vienne:hautevienne_dep": {
+    "v": 3,
+    "cherche": "2026-11-17T07:01:02.595Z",
+    "conseil": {
+      "instagram": [
+        {
+          "handle": "hautevienne_dep",
+          "nom": "Département de la Haute-Vienne",
+          "abonnes": 14205,
+          "preuve": 3
+        }
+      ],
+      "threads": [],
+      "bluesky": [],
+      "x": []
+    },
+    "tourisme": {
+      "instagram": [],
+      "threads": [],
+      "bluesky": [],
+      "x": []
+    }
   }
 }

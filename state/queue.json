@@ -1,1 +1,842 @@
-[]
+[
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36227",
+    "channel": "instagram",
+    "dueAt": 1794914614451,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Bus gratuits le week-end à Limoges : faudra-t-il payer en 2027 ?",
+      "link": "https://passion-aquitaine.ouest-france.fr/limoges-bus-gratuits-week-end-2027/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36227",
+      "pubDate": "Tue, 17 Nov 2026 06:30:47 +0000",
+      "date": 1794897047000,
+      "categories": [
+        "Actus",
+        "Économie",
+        "Haute-Vienne",
+        "Limoges",
+        "Transports"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/bus-gare-limoges.jpeg",
+      "description": "Depuis juillet 2025, les bus de Limoges Métropole sont gratuits le week-end. Mais le texte qui encadre l’essai s’arrête au 31 décembre 2026."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Limoges",
+      "visuel": {
+        "titre": "Bus gratuits le week-end : faudra-t-il payer en 2027 ?",
+        "surlignage": "Bus gratuits",
+        "description": "Depuis juillet 2025, les bus de Limoges Métropole ne coûtent rien le samedi et le dimanche. Mais le texte qui encadre cet essai prend fin le 31 décembre 2026.",
+        "texte_alternatif": "Un bus de Limoges Métropole, dont le réseau est gratuit le week-end depuis juillet 2025, à titre d’essai jusqu’à fin 2026."
+      },
+      "entites": [
+        {
+          "nom": "Limoges Métropole",
+          "role": "sujet",
+          "type": "organisation"
+        }
+      ],
+      "domaines": [
+        "transport",
+        "mobilité"
+      ],
+      "lieu": {
+        "id": "111518152200515",
+        "nom": "Limoges",
+        "niveau": "ville"
+      },
+      "instagram": {
+        "texte": "Le samedi, on monte dans le bus à Limoges sans sortir son ticket 🚌\nDepuis juillet 2025, les bus de Limoges Métropole sont gratuits le week-end. Mais l’essai repose sur un texte qui s’arrête au 31 décembre 2026, et la suite reste à écrire.",
+        "hashtags": [
+          "#Limoges",
+          "#TransportsEnCommun",
+          "#HauteVienne"
+        ]
+      },
+      "facebook": {
+        "texte": "Le ticket de bus du dimanche va-t-il refaire son apparition à Limoges dans quelques semaines 🎫"
+      },
+      "bluesky": {
+        "texte": "31 décembre 2026 : c’est la date où s’arrête le texte qui encadre la gratuité des bus le week-end à Limoges. L’essai, lancé en juillet 2025 par Limoges Métropole, arrive à son terme 🗓️",
+        "hashtag": "#Limoges"
+      },
+      "threads": {
+        "texte": "🚍 À Limoges, prendre le bus le week-end ne coûte rien depuis juillet 2025. Limoges Métropole a lancé cet essai de gratuité, et beaucoup s’y sont sans doute habitués. Seulement voilà : le texte qui l’encadre s’arrête au 31 décembre 2026. Passé cette date, rien ne dit encore si le dispositif sera prolongé ou si les tickets reviendront.",
+        "sujet": "Limoges"
+      },
+      "x": {
+        "texte": "La gratuité des bus le week-end à Limoges a une date de fin ⏳ L’essai lancé en juillet 2025 par Limoges Métropole repose sur un texte qui expire le 31 décembre 2026."
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 7986,
+        "output": 892
+      },
+      "angles": {
+        "instagram": "image évocatrice",
+        "facebook": "question intrigante",
+        "bluesky": "chiffre ou fait marquant en tête",
+        "threads": "lieu en tête",
+        "x": "effet de surprise"
+      },
+      "lieuSource": {
+        "precis": "",
+        "ville": "Limoges",
+        "departement": "Haute-Vienne"
+      },
+      "lieuNom": "Limoges",
+      "commune": "Limoges",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Limoges Métropole",
+            "handle": "limogesmetropole",
+            "abonnes": 8844,
+            "preuve": 3,
+            "role": "sujet",
+            "echelon": "sujet"
+          },
+          {
+            "nom": "Ville de Limoges",
+            "handle": "ville_de_limoges",
+            "abonnes": 46661,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          },
+          {
+            "nom": "Limoges Tourisme",
+            "handle": "limogestourisme",
+            "abonnes": 23419,
+            "preuve": 2,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "tourisme"
+          },
+          {
+            "nom": "Département de la Haute-Vienne",
+            "handle": "hautevienne_dep",
+            "abonnes": 14205,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "Limoges Métropole",
+            "handle": "LimMetropole",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "sujet",
+            "echelon": "sujet"
+          },
+          {
+            "nom": "Limoges",
+            "handle": "VilleLimoges87",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          }
+        ],
+        "bluesky": [],
+        "threads": [
+          {
+            "nom": "Ville de Limoges",
+            "handle": "ville_de_limoges",
+            "abonnes": 46661,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          }
+        ],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36227",
+    "channel": "bluesky",
+    "dueAt": 1794900849735,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Bus gratuits le week-end à Limoges : faudra-t-il payer en 2027 ?",
+      "link": "https://passion-aquitaine.ouest-france.fr/limoges-bus-gratuits-week-end-2027/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36227",
+      "pubDate": "Tue, 17 Nov 2026 06:30:47 +0000",
+      "date": 1794897047000,
+      "categories": [
+        "Actus",
+        "Économie",
+        "Haute-Vienne",
+        "Limoges",
+        "Transports"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/bus-gare-limoges.jpeg",
+      "description": "Depuis juillet 2025, les bus de Limoges Métropole sont gratuits le week-end. Mais le texte qui encadre l’essai s’arrête au 31 décembre 2026."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Limoges",
+      "visuel": {
+        "titre": "Bus gratuits le week-end : faudra-t-il payer en 2027 ?",
+        "surlignage": "Bus gratuits",
+        "description": "Depuis juillet 2025, les bus de Limoges Métropole ne coûtent rien le samedi et le dimanche. Mais le texte qui encadre cet essai prend fin le 31 décembre 2026.",
+        "texte_alternatif": "Un bus de Limoges Métropole, dont le réseau est gratuit le week-end depuis juillet 2025, à titre d’essai jusqu’à fin 2026."
+      },
+      "entites": [
+        {
+          "nom": "Limoges Métropole",
+          "role": "sujet",
+          "type": "organisation"
+        }
+      ],
+      "domaines": [
+        "transport",
+        "mobilité"
+      ],
+      "lieu": {
+        "id": "111518152200515",
+        "nom": "Limoges",
+        "niveau": "ville"
+      },
+      "instagram": {
+        "texte": "Le samedi, on monte dans le bus à Limoges sans sortir son ticket 🚌\nDepuis juillet 2025, les bus de Limoges Métropole sont gratuits le week-end. Mais l’essai repose sur un texte qui s’arrête au 31 décembre 2026, et la suite reste à écrire.",
+        "hashtags": [
+          "#Limoges",
+          "#TransportsEnCommun",
+          "#HauteVienne"
+        ]
+      },
+      "facebook": {
+        "texte": "Le ticket de bus du dimanche va-t-il refaire son apparition à Limoges dans quelques semaines 🎫"
+      },
+      "bluesky": {
+        "texte": "31 décembre 2026 : c’est la date où s’arrête le texte qui encadre la gratuité des bus le week-end à Limoges. L’essai, lancé en juillet 2025 par Limoges Métropole, arrive à son terme 🗓️",
+        "hashtag": "#Limoges"
+      },
+      "threads": {
+        "texte": "🚍 À Limoges, prendre le bus le week-end ne coûte rien depuis juillet 2025. Limoges Métropole a lancé cet essai de gratuité, et beaucoup s’y sont sans doute habitués. Seulement voilà : le texte qui l’encadre s’arrête au 31 décembre 2026. Passé cette date, rien ne dit encore si le dispositif sera prolongé ou si les tickets reviendront.",
+        "sujet": "Limoges"
+      },
+      "x": {
+        "texte": "La gratuité des bus le week-end à Limoges a une date de fin ⏳ L’essai lancé en juillet 2025 par Limoges Métropole repose sur un texte qui expire le 31 décembre 2026."
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 7986,
+        "output": 892
+      },
+      "angles": {
+        "instagram": "image évocatrice",
+        "facebook": "question intrigante",
+        "bluesky": "chiffre ou fait marquant en tête",
+        "threads": "lieu en tête",
+        "x": "effet de surprise"
+      },
+      "lieuSource": {
+        "precis": "",
+        "ville": "Limoges",
+        "departement": "Haute-Vienne"
+      },
+      "lieuNom": "Limoges",
+      "commune": "Limoges",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Limoges Métropole",
+            "handle": "limogesmetropole",
+            "abonnes": 8844,
+            "preuve": 3,
+            "role": "sujet",
+            "echelon": "sujet"
+          },
+          {
+            "nom": "Ville de Limoges",
+            "handle": "ville_de_limoges",
+            "abonnes": 46661,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          },
+          {
+            "nom": "Limoges Tourisme",
+            "handle": "limogestourisme",
+            "abonnes": 23419,
+            "preuve": 2,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "tourisme"
+          },
+          {
+            "nom": "Département de la Haute-Vienne",
+            "handle": "hautevienne_dep",
+            "abonnes": 14205,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "Limoges Métropole",
+            "handle": "LimMetropole",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "sujet",
+            "echelon": "sujet"
+          },
+          {
+            "nom": "Limoges",
+            "handle": "VilleLimoges87",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          }
+        ],
+        "bluesky": [],
+        "threads": [
+          {
+            "nom": "Ville de Limoges",
+            "handle": "ville_de_limoges",
+            "abonnes": 46661,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          }
+        ],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36227",
+    "channel": "facebook",
+    "dueAt": 1794904159679,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Bus gratuits le week-end à Limoges : faudra-t-il payer en 2027 ?",
+      "link": "https://passion-aquitaine.ouest-france.fr/limoges-bus-gratuits-week-end-2027/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36227",
+      "pubDate": "Tue, 17 Nov 2026 06:30:47 +0000",
+      "date": 1794897047000,
+      "categories": [
+        "Actus",
+        "Économie",
+        "Haute-Vienne",
+        "Limoges",
+        "Transports"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/bus-gare-limoges.jpeg",
+      "description": "Depuis juillet 2025, les bus de Limoges Métropole sont gratuits le week-end. Mais le texte qui encadre l’essai s’arrête au 31 décembre 2026."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Limoges",
+      "visuel": {
+        "titre": "Bus gratuits le week-end : faudra-t-il payer en 2027 ?",
+        "surlignage": "Bus gratuits",
+        "description": "Depuis juillet 2025, les bus de Limoges Métropole ne coûtent rien le samedi et le dimanche. Mais le texte qui encadre cet essai prend fin le 31 décembre 2026.",
+        "texte_alternatif": "Un bus de Limoges Métropole, dont le réseau est gratuit le week-end depuis juillet 2025, à titre d’essai jusqu’à fin 2026."
+      },
+      "entites": [
+        {
+          "nom": "Limoges Métropole",
+          "role": "sujet",
+          "type": "organisation"
+        }
+      ],
+      "domaines": [
+        "transport",
+        "mobilité"
+      ],
+      "lieu": {
+        "id": "111518152200515",
+        "nom": "Limoges",
+        "niveau": "ville"
+      },
+      "instagram": {
+        "texte": "Le samedi, on monte dans le bus à Limoges sans sortir son ticket 🚌\nDepuis juillet 2025, les bus de Limoges Métropole sont gratuits le week-end. Mais l’essai repose sur un texte qui s’arrête au 31 décembre 2026, et la suite reste à écrire.",
+        "hashtags": [
+          "#Limoges",
+          "#TransportsEnCommun",
+          "#HauteVienne"
+        ]
+      },
+      "facebook": {
+        "texte": "Le ticket de bus du dimanche va-t-il refaire son apparition à Limoges dans quelques semaines 🎫"
+      },
+      "bluesky": {
+        "texte": "31 décembre 2026 : c’est la date où s’arrête le texte qui encadre la gratuité des bus le week-end à Limoges. L’essai, lancé en juillet 2025 par Limoges Métropole, arrive à son terme 🗓️",
+        "hashtag": "#Limoges"
+      },
+      "threads": {
+        "texte": "🚍 À Limoges, prendre le bus le week-end ne coûte rien depuis juillet 2025. Limoges Métropole a lancé cet essai de gratuité, et beaucoup s’y sont sans doute habitués. Seulement voilà : le texte qui l’encadre s’arrête au 31 décembre 2026. Passé cette date, rien ne dit encore si le dispositif sera prolongé ou si les tickets reviendront.",
+        "sujet": "Limoges"
+      },
+      "x": {
+        "texte": "La gratuité des bus le week-end à Limoges a une date de fin ⏳ L’essai lancé en juillet 2025 par Limoges Métropole repose sur un texte qui expire le 31 décembre 2026."
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 7986,
+        "output": 892
+      },
+      "angles": {
+        "instagram": "image évocatrice",
+        "facebook": "question intrigante",
+        "bluesky": "chiffre ou fait marquant en tête",
+        "threads": "lieu en tête",
+        "x": "effet de surprise"
+      },
+      "lieuSource": {
+        "precis": "",
+        "ville": "Limoges",
+        "departement": "Haute-Vienne"
+      },
+      "lieuNom": "Limoges",
+      "commune": "Limoges",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Limoges Métropole",
+            "handle": "limogesmetropole",
+            "abonnes": 8844,
+            "preuve": 3,
+            "role": "sujet",
+            "echelon": "sujet"
+          },
+          {
+            "nom": "Ville de Limoges",
+            "handle": "ville_de_limoges",
+            "abonnes": 46661,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          },
+          {
+            "nom": "Limoges Tourisme",
+            "handle": "limogestourisme",
+            "abonnes": 23419,
+            "preuve": 2,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "tourisme"
+          },
+          {
+            "nom": "Département de la Haute-Vienne",
+            "handle": "hautevienne_dep",
+            "abonnes": 14205,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "Limoges Métropole",
+            "handle": "LimMetropole",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "sujet",
+            "echelon": "sujet"
+          },
+          {
+            "nom": "Limoges",
+            "handle": "VilleLimoges87",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          }
+        ],
+        "bluesky": [],
+        "threads": [
+          {
+            "nom": "Ville de Limoges",
+            "handle": "ville_de_limoges",
+            "abonnes": 46661,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          }
+        ],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36227",
+    "channel": "threads",
+    "dueAt": 1794900494088,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Bus gratuits le week-end à Limoges : faudra-t-il payer en 2027 ?",
+      "link": "https://passion-aquitaine.ouest-france.fr/limoges-bus-gratuits-week-end-2027/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36227",
+      "pubDate": "Tue, 17 Nov 2026 06:30:47 +0000",
+      "date": 1794897047000,
+      "categories": [
+        "Actus",
+        "Économie",
+        "Haute-Vienne",
+        "Limoges",
+        "Transports"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/bus-gare-limoges.jpeg",
+      "description": "Depuis juillet 2025, les bus de Limoges Métropole sont gratuits le week-end. Mais le texte qui encadre l’essai s’arrête au 31 décembre 2026."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Limoges",
+      "visuel": {
+        "titre": "Bus gratuits le week-end : faudra-t-il payer en 2027 ?",
+        "surlignage": "Bus gratuits",
+        "description": "Depuis juillet 2025, les bus de Limoges Métropole ne coûtent rien le samedi et le dimanche. Mais le texte qui encadre cet essai prend fin le 31 décembre 2026.",
+        "texte_alternatif": "Un bus de Limoges Métropole, dont le réseau est gratuit le week-end depuis juillet 2025, à titre d’essai jusqu’à fin 2026."
+      },
+      "entites": [
+        {
+          "nom": "Limoges Métropole",
+          "role": "sujet",
+          "type": "organisation"
+        }
+      ],
+      "domaines": [
+        "transport",
+        "mobilité"
+      ],
+      "lieu": {
+        "id": "111518152200515",
+        "nom": "Limoges",
+        "niveau": "ville"
+      },
+      "instagram": {
+        "texte": "Le samedi, on monte dans le bus à Limoges sans sortir son ticket 🚌\nDepuis juillet 2025, les bus de Limoges Métropole sont gratuits le week-end. Mais l’essai repose sur un texte qui s’arrête au 31 décembre 2026, et la suite reste à écrire.",
+        "hashtags": [
+          "#Limoges",
+          "#TransportsEnCommun",
+          "#HauteVienne"
+        ]
+      },
+      "facebook": {
+        "texte": "Le ticket de bus du dimanche va-t-il refaire son apparition à Limoges dans quelques semaines 🎫"
+      },
+      "bluesky": {
+        "texte": "31 décembre 2026 : c’est la date où s’arrête le texte qui encadre la gratuité des bus le week-end à Limoges. L’essai, lancé en juillet 2025 par Limoges Métropole, arrive à son terme 🗓️",
+        "hashtag": "#Limoges"
+      },
+      "threads": {
+        "texte": "🚍 À Limoges, prendre le bus le week-end ne coûte rien depuis juillet 2025. Limoges Métropole a lancé cet essai de gratuité, et beaucoup s’y sont sans doute habitués. Seulement voilà : le texte qui l’encadre s’arrête au 31 décembre 2026. Passé cette date, rien ne dit encore si le dispositif sera prolongé ou si les tickets reviendront.",
+        "sujet": "Limoges"
+      },
+      "x": {
+        "texte": "La gratuité des bus le week-end à Limoges a une date de fin ⏳ L’essai lancé en juillet 2025 par Limoges Métropole repose sur un texte qui expire le 31 décembre 2026."
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 7986,
+        "output": 892
+      },
+      "angles": {
+        "instagram": "image évocatrice",
+        "facebook": "question intrigante",
+        "bluesky": "chiffre ou fait marquant en tête",
+        "threads": "lieu en tête",
+        "x": "effet de surprise"
+      },
+      "lieuSource": {
+        "precis": "",
+        "ville": "Limoges",
+        "departement": "Haute-Vienne"
+      },
+      "lieuNom": "Limoges",
+      "commune": "Limoges",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Limoges Métropole",
+            "handle": "limogesmetropole",
+            "abonnes": 8844,
+            "preuve": 3,
+            "role": "sujet",
+            "echelon": "sujet"
+          },
+          {
+            "nom": "Ville de Limoges",
+            "handle": "ville_de_limoges",
+            "abonnes": 46661,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          },
+          {
+            "nom": "Limoges Tourisme",
+            "handle": "limogestourisme",
+            "abonnes": 23419,
+            "preuve": 2,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "tourisme"
+          },
+          {
+            "nom": "Département de la Haute-Vienne",
+            "handle": "hautevienne_dep",
+            "abonnes": 14205,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "Limoges Métropole",
+            "handle": "LimMetropole",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "sujet",
+            "echelon": "sujet"
+          },
+          {
+            "nom": "Limoges",
+            "handle": "VilleLimoges87",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          }
+        ],
+        "bluesky": [],
+        "threads": [
+          {
+            "nom": "Ville de Limoges",
+            "handle": "ville_de_limoges",
+            "abonnes": 46661,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          }
+        ],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36227",
+    "channel": "x",
+    "dueAt": 1794902400000,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Bus gratuits le week-end à Limoges : faudra-t-il payer en 2027 ?",
+      "link": "https://passion-aquitaine.ouest-france.fr/limoges-bus-gratuits-week-end-2027/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36227",
+      "pubDate": "Tue, 17 Nov 2026 06:30:47 +0000",
+      "date": 1794897047000,
+      "categories": [
+        "Actus",
+        "Économie",
+        "Haute-Vienne",
+        "Limoges",
+        "Transports"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/bus-gare-limoges.jpeg",
+      "description": "Depuis juillet 2025, les bus de Limoges Métropole sont gratuits le week-end. Mais le texte qui encadre l’essai s’arrête au 31 décembre 2026."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Limoges",
+      "visuel": {
+        "titre": "Bus gratuits le week-end : faudra-t-il payer en 2027 ?",
+        "surlignage": "Bus gratuits",
+        "description": "Depuis juillet 2025, les bus de Limoges Métropole ne coûtent rien le samedi et le dimanche. Mais le texte qui encadre cet essai prend fin le 31 décembre 2026.",
+        "texte_alternatif": "Un bus de Limoges Métropole, dont le réseau est gratuit le week-end depuis juillet 2025, à titre d’essai jusqu’à fin 2026."
+      },
+      "entites": [
+        {
+          "nom": "Limoges Métropole",
+          "role": "sujet",
+          "type": "organisation"
+        }
+      ],
+      "domaines": [
+        "transport",
+        "mobilité"
+      ],
+      "lieu": {
+        "id": "111518152200515",
+        "nom": "Limoges",
+        "niveau": "ville"
+      },
+      "instagram": {
+        "texte": "Le samedi, on monte dans le bus à Limoges sans sortir son ticket 🚌\nDepuis juillet 2025, les bus de Limoges Métropole sont gratuits le week-end. Mais l’essai repose sur un texte qui s’arrête au 31 décembre 2026, et la suite reste à écrire.",
+        "hashtags": [
+          "#Limoges",
+          "#TransportsEnCommun",
+          "#HauteVienne"
+        ]
+      },
+      "facebook": {
+        "texte": "Le ticket de bus du dimanche va-t-il refaire son apparition à Limoges dans quelques semaines 🎫"
+      },
+      "bluesky": {
+        "texte": "31 décembre 2026 : c’est la date où s’arrête le texte qui encadre la gratuité des bus le week-end à Limoges. L’essai, lancé en juillet 2025 par Limoges Métropole, arrive à son terme 🗓️",
+        "hashtag": "#Limoges"
+      },
+      "threads": {
+        "texte": "🚍 À Limoges, prendre le bus le week-end ne coûte rien depuis juillet 2025. Limoges Métropole a lancé cet essai de gratuité, et beaucoup s’y sont sans doute habitués. Seulement voilà : le texte qui l’encadre s’arrête au 31 décembre 2026. Passé cette date, rien ne dit encore si le dispositif sera prolongé ou si les tickets reviendront.",
+        "sujet": "Limoges"
+      },
+      "x": {
+        "texte": "La gratuité des bus le week-end à Limoges a une date de fin ⏳ L’essai lancé en juillet 2025 par Limoges Métropole repose sur un texte qui expire le 31 décembre 2026."
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 7986,
+        "output": 892
+      },
+      "angles": {
+        "instagram": "image évocatrice",
+        "facebook": "question intrigante",
+        "bluesky": "chiffre ou fait marquant en tête",
+        "threads": "lieu en tête",
+        "x": "effet de surprise"
+      },
+      "lieuSource": {
+        "precis": "",
+        "ville": "Limoges",
+        "departement": "Haute-Vienne"
+      },
+      "lieuNom": "Limoges",
+      "commune": "Limoges",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Limoges Métropole",
+            "handle": "limogesmetropole",
+            "abonnes": 8844,
+            "preuve": 3,
+            "role": "sujet",
+            "echelon": "sujet"
+          },
+          {
+            "nom": "Ville de Limoges",
+            "handle": "ville_de_limoges",
+            "abonnes": 46661,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          },
+          {
+            "nom": "Limoges Tourisme",
+            "handle": "limogestourisme",
+            "abonnes": 23419,
+            "preuve": 2,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "tourisme"
+          },
+          {
+            "nom": "Département de la Haute-Vienne",
+            "handle": "hautevienne_dep",
+            "abonnes": 14205,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "Limoges Métropole",
+            "handle": "LimMetropole",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "sujet",
+            "echelon": "sujet"
+          },
+          {
+            "nom": "Limoges",
+            "handle": "VilleLimoges87",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          }
+        ],
+        "bluesky": [],
+        "threads": [
+          {
+            "nom": "Ville de Limoges",
+            "handle": "ville_de_limoges",
+            "abonnes": 46661,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          }
+        ],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  }
+]

@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-17T20:00:32.912Z",
+  "genereLe": "2026-11-17T20:20:35.872Z",
   "jour": "2026-11-17",
   "reseaux": {
     "instagram": {
@@ -558,7 +558,7 @@
   "file": [],
   "alertes": [],
   "mesures": {
-    "releves": 619,
+    "releves": 620,
     "parReseau": {
       "instagram": {
         "posts": 76,
@@ -640,7 +640,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-17T19:01:25.711Z"
+    "derniere": "2026-11-17T20:20:35.872Z"
   },
   "abonnes": {
     "instagram": {
@@ -679,8 +679,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-17T20:00:37.868Z",
-    "posts": 79,
+    "genereLe": "2026-11-17T20:20:41.938Z",
+    "posts": 80,
     "parReseau": {
       "threads": {
         "posts": 20,
@@ -695,7 +695,7 @@
         "moyenne": 0.1
       },
       "facebook": {
-        "posts": 19,
+        "posts": 20,
         "moyenne": 0
       }
     },
@@ -727,8 +727,8 @@
         "moyenne": 5.8
       },
       "soir": {
-        "posts": 13,
-        "moyenne": 2.1
+        "posts": 14,
+        "moyenne": 1.9
       }
     },
     "parCreneauReseau": {
@@ -756,7 +756,7 @@
           "moyenne": 0
         },
         "20 h – 21 h 30": {
-          "posts": 6,
+          "posts": 7,
           "moyenne": 0
         },
         "hors créneau": {
@@ -820,11 +820,11 @@
     },
     "moinsBon": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36200",
-      "channel": "bluesky",
-      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3n2gg5rearv23",
-      "publieLe": "2026-11-16T11:25:04.077Z",
+      "channel": "facebook",
+      "mediaId": "227437307428711_1791748229617724",
+      "publieLe": "2026-11-16T20:14:10.277Z",
       "jalon": 1,
-      "releveLe": "2026-11-17T12:01:06.359Z",
+      "releveLe": "2026-11-17T20:20:35.872Z",
       "likes": 0,
       "commentairesBruts": 0,
       "partages": 0,
@@ -832,11 +832,11 @@
       "commentaires": 0,
       "v": 2,
       "titre": "Deux-Sèvres : cette association a acheté 1 000 hectares de nature",
-      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2gg5rearv23",
-      "format": "image",
+      "lien": "https://www.facebook.com/1720946116697936/posts/1791748229617724",
+      "format": null,
       "mention": false,
-      "creneau": "après-midi",
-      "creneauReseau": "12 h – 13 h 30"
+      "creneau": "soir",
+      "creneauReseau": "20 h – 21 h 30"
     },
     "mentions": {
       "avec": {
@@ -844,8 +844,8 @@
         "moyenne": 6.4
       },
       "sans": {
-        "posts": 43,
-        "moyenne": 4.2
+        "posts": 44,
+        "moyenne": 4.1
       }
     },
     "publies": {
@@ -899,7 +899,7 @@
       "Threads : le créneau 7 h – 8 h 30 fait 1,7 fois mieux que 10 h – 11 h 30 (17.3 contre 10 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Le format « reponse » fait 129 fois mieux que « reply » (12.9 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « reply » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+12, +1 %) ; Facebook recule (−23), à surveiller.",
-      "Les posts avec mention font 2.2 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
+      "Les posts avec mention font 2.3 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
     ]
   },
   "couts": {

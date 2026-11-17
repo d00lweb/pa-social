@@ -3,7 +3,7 @@
     "cle": "2026-11",
     "publications": 104,
     "articles": 21,
-    "interactions": 339,
+    "interactions": 404,
     "parReseau": {
       "facebook": 21,
       "instagram": 20,
@@ -28,6 +28,13 @@
       },
       {
         "reseau": "threads",
+        "titre": "Deux-Sèvres : cette association a acheté 1 000 hectares de nature",
+        "lien": "https://www.threads.com/@lovaquitaine/post/DfzAgKdIDYr",
+        "image": "https://passion-aquitaine.ouest-france.fr/social/20261116-44cfe04e-1-vignette.jpg",
+        "interactions": 65
+      },
+      {
+        "reseau": "threads",
         "titre": "Bayonne : cette crèche propose aux bébés de dormir dehors",
         "lien": "https://www.threads.com/@lovaquitaine/post/DfeNqg2Fpy_",
         "image": "https://passion-aquitaine.ouest-france.fr/social/20261108-1c7b9a95-1-vignette.jpg",
@@ -46,13 +53,6 @@
         "lien": "https://www.instagram.com/p/Dfetr1KF6oZ/",
         "image": "https://passion-aquitaine.ouest-france.fr/social/20261108-1c7b9a95-1-vignette.jpg",
         "interactions": 30
-      },
-      {
-        "reseau": "instagram",
-        "titre": "Géminides : jusqu’à 150 étoiles filantes à voir depuis les Landes",
-        "lien": "https://www.instagram.com/p/Dfj5xC6F-gS/",
-        "image": "https://passion-aquitaine.ouest-france.fr/social/20261110-7bd6dea8-1-vignette.jpg",
-        "interactions": 19
       }
     ]
   },

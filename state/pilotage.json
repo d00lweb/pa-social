@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-17T11:00:38.424Z",
+  "genereLe": "2026-11-17T11:20:47.206Z",
   "jour": "2026-11-17",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 10,
-      "total": 85,
-      "dernier": "2026-11-16T12:28:45.914Z",
-      "lienDernier": "https://www.instagram.com/p/DfzWzySDYPj/"
+      "aujourdhui": 1,
+      "semaine": 11,
+      "total": 86,
+      "dernier": "2026-11-17T11:24:15.261Z",
+      "lienDernier": "https://www.instagram.com/p/Df10OAUF4_Q/"
     },
     "bluesky": {
       "actif": true,
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36227",
       "titre": "Bus gratuits le week-end à Limoges : faudra-t-il payer en 2027 ?",
       "lien": "https://passion-aquitaine.ouest-france.fr/limoges-bus-gratuits-week-end-2027/",
-      "at": "2026-11-17T08:29:27.745Z",
+      "at": "2026-11-17T11:24:15.261Z",
       "reseaux": {
         "threads": {
           "texte": "🚍 À Limoges, prendre le bus le week-end ne coûte rien depuis juillet 2025. Limoges Métropole a lancé cet essai de gratuité, et beaucoup s’y sont sans doute habitués. Seulement voilà : le texte qui l’encadre s’arrête au 31 décembre 2026. Passé cette date, rien ne dit encore si le dispositif sera prolongé ou si les tickets reviendront.\n@ville_de_limoges",
@@ -201,6 +201,14 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-11-17T08:29:27.745Z"
+        },
+        "instagram": {
+          "texte": "Le samedi, on monte dans le bus à Limoges sans sortir son ticket 🚌\n⠀\nDepuis juillet 2025, les bus de Limoges Métropole sont gratuits le week-end. Mais l’essai repose sur un texte qui s’arrête au 31 décembre 2026, et la suite reste à écrire.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Limoges #TransportsEnCommun #HauteVienne",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261117-8aef387a-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-17T11:24:15.261Z"
         }
       }
     },
@@ -447,6 +455,16 @@
   ],
   "publications": [
     {
+      "channel": "instagram",
+      "at": "2026-11-17T11:24:15.261Z",
+      "titre": "Bus gratuits le week-end à Limoges : faudra-t-il payer en 2027 ?",
+      "lien": "https://passion-aquitaine.ouest-france.fr/limoges-bus-gratuits-week-end-2027/",
+      "lienPost": "https://www.instagram.com/p/Df10OAUF4_Q/",
+      "format": null,
+      "texte": "Le samedi, on monte dans le bus à Limoges sans sortir son ticket 🚌\n⠀\nDepuis juillet 2025, les bus de Limoges Métropole sont gratuits le week-end. Mais l’essai repose sur un texte qui s’arrête au 31 décembre 2026, et la suite reste à écrire.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Limoges #TransportsEnCommun #HauteVienne",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261117-8aef387a-1.jpg"
+    },
+    {
       "channel": "facebook",
       "at": "2026-11-17T08:29:27.745Z",
       "titre": "Bus gratuits le week-end à Limoges : faudra-t-il payer en 2027 ?",
@@ -535,29 +553,9 @@
       "format": "reponse",
       "texte": "1 012 hectares de nature, rachetés pour être préservés 🍃 C’est ce que possède aujourd’hui le Conservatoire d’espaces naturels en Deux-Sèvres. Tout a commencé en 1996, avec une première acquisition. Trente ans plus tard, le patrimoine naturel de l’association dépasse le millier d’hectares. Vous connaissiez ce travail discret mené dans le département ?",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261116-44cfe04e-th.jpg"
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-11-15T12:30:28.129Z",
-      "titre": "Déjà 20 200 grues cendrées à Arjuzanx, 2,6 fois plus qu’en 2025",
-      "lien": "https://passion-aquitaine.ouest-france.fr/grues-cendrees-arjuzanx-novembre-2026/",
-      "lienPost": "https://www.instagram.com/p/DfwyOAkF50r/",
-      "format": null,
-      "texte": "Pourquoi une ancienne mine des Landes attire-t-elle autant de grues cendrées ?\n⠀\nÀ Arjuzanx, 20 200 grues ont été comptées le 9 novembre, contre 7 706 un an plus tôt. Un rassemblement 2,6 fois plus important qu’en 2025 🦢\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Landes #GruesCendrees #Ornithologie",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261115-4e3e2639-1.jpg"
     }
   ],
-  "file": [
-    {
-      "channel": "instagram",
-      "dueAt": "2026-11-17T11:23:34.451Z",
-      "prochainPassage": "2026-11-17T12:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Bus gratuits le week-end à Limoges : faudra-t-il payer en 2027 ?"
-    }
-  ],
+  "file": [],
   "alertes": [],
   "mesures": {
     "releves": 616,
@@ -681,7 +679,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-17T11:00:42.694Z",
+    "genereLe": "2026-11-17T11:24:17.680Z",
     "posts": 77,
     "parReseau": {
       "threads": {
@@ -855,7 +853,7 @@
       "facebook": 21,
       "bluesky": 21,
       "x": 21,
-      "instagram": 20
+      "instagram": 21
     },
     "abonnes": {
       "instagram": {

@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-18T11:00:40.549Z",
+  "genereLe": "2026-11-18T11:26:19.037Z",
   "jour": "2026-11-18",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 9,
-      "total": 86,
-      "dernier": "2026-11-17T11:24:15.261Z",
-      "lienDernier": "https://www.instagram.com/p/Df10OAUF4_Q/"
+      "aujourdhui": 1,
+      "semaine": 10,
+      "total": 87,
+      "dernier": "2026-11-18T11:27:21.345Z",
+      "lienDernier": "https://www.instagram.com/p/Df4ZYMDk67R/"
     },
     "bluesky": {
       "actif": true,
@@ -61,7 +61,7 @@
         "reply"
       ],
       "aujourdhui": 1,
-      "semaine": 10,
+      "semaine": 9,
       "total": 85,
       "dernier": "2026-11-18T08:28:34.444Z",
       "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2l57yo22323"
@@ -156,35 +156,19 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 1,
+      "aujourdhui": 2,
       "semaine": 10,
-      "total": 85,
-      "dernier": "2026-11-18T08:28:19.768Z",
+      "total": 86,
+      "dernier": "2026-11-18T11:26:30.847Z",
       "lienDernier": null
     }
   },
   "articles": [
     {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36234",
-      "titre": "À Bergerac, ces conteneurs deviennent des usines, des labos ou des bases militaires",
-      "lien": "https://passion-aquitaine.ouest-france.fr/calcub-bergerac-conteneurs-usines/",
-      "at": "2026-11-18T10:14:33.222Z",
-      "reseaux": {
-        "threads": {
-          "texte": "🔬 Un laboratoire installé dans un conteneur maritime, vous y auriez pensé ? À Bergerac, l’entreprise CALCUB s’est fait une spécialité de leur donner une seconde vie. Usines, labos, bases militaires : de nombreux secteurs industriels les exploitent. Vous en avez déjà croisé un, transformé ?\n@villedebergerac",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261118-0bd64f36-th.jpg",
-          "mode": "reponse",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/calcub-bergerac-conteneurs-usines/",
-          "sujet": "Bergerac",
-          "publieLe": "2026-11-18T10:14:33.222Z"
-        }
-      }
-    },
-    {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36194",
       "titre": "Bordeaux-Langon : 130 heures sans train du 21 au 26 novembre",
       "lien": "https://passion-aquitaine.ouest-france.fr/bordeaux-langon-trains-interrompus-novembre/",
-      "at": "2026-11-18T08:28:34.444Z",
+      "at": "2026-11-18T11:27:21.345Z",
       "reseaux": {
         "threads": {
           "texte": "Si vous prenez le train entre Bordeaux et Langon, notez bien ces dates 🛤️ Du 21 au 26 novembre, aucun train ne circulera sur cette portion, soit 130 heures de coupure. Le chantier sert à préparer la future ligne vers Toulouse. De quoi prévoir dès maintenant une autre solution pour vos trajets.\n@villedebordeaux",
@@ -217,6 +201,38 @@
           "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/bordeaux-langon-trains-interrompus-novembre/",
           "sujet": null,
           "publieLe": "2026-11-18T08:28:34.444Z"
+        },
+        "instagram": {
+          "texte": "130 heures d’affilée : c’est le temps de coupure totale des trains entre Bordeaux et Langon 🚧\n⠀\nDu 21 au 26 novembre, la ligne s’arrête en Gironde pour laisser place au chantier de la future liaison vers Toulouse. Mieux vaut anticiper ses trajets.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #Langon #Train",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261118-a54a170d-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-18T11:27:21.345Z"
+        }
+      }
+    },
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36234",
+      "titre": "À Bergerac, ces conteneurs deviennent des usines, des labos ou des bases militaires",
+      "lien": "https://passion-aquitaine.ouest-france.fr/calcub-bergerac-conteneurs-usines/",
+      "at": "2026-11-18T11:26:30.847Z",
+      "reseaux": {
+        "threads": {
+          "texte": "🔬 Un laboratoire installé dans un conteneur maritime, vous y auriez pensé ? À Bergerac, l’entreprise CALCUB s’est fait une spécialité de leur donner une seconde vie. Usines, labos, bases militaires : de nombreux secteurs industriels les exploitent. Vous en avez déjà croisé un, transformé ?\n@villedebergerac",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261118-0bd64f36-th.jpg",
+          "mode": "reponse",
+          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/calcub-bergerac-conteneurs-usines/",
+          "sujet": "Bergerac",
+          "publieLe": "2026-11-18T10:14:33.222Z"
+        },
+        "x": {
+          "texte": "Des boîtes d’acier qui ont traversé les océans finissent en usines, en labos ou en bases militaires 🚢 À #Bergerac, CALCUB offre une seconde vie aux conteneurs maritimes, exploités par de nombreux secteurs industriels.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261118-0bd64f36-x.jpg",
+          "mode": "reponse",
+          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/calcub-bergerac-conteneurs-usines/",
+          "sujet": null,
+          "publieLe": "2026-11-18T11:26:30.847Z"
         }
       }
     },
@@ -415,6 +431,26 @@
   ],
   "publications": [
     {
+      "channel": "instagram",
+      "at": "2026-11-18T11:27:21.345Z",
+      "titre": "Bordeaux-Langon : 130 heures sans train du 21 au 26 novembre",
+      "lien": "https://passion-aquitaine.ouest-france.fr/bordeaux-langon-trains-interrompus-novembre/",
+      "lienPost": "https://www.instagram.com/p/Df4ZYMDk67R/",
+      "format": null,
+      "texte": "130 heures d’affilée : c’est le temps de coupure totale des trains entre Bordeaux et Langon 🚧\n⠀\nDu 21 au 26 novembre, la ligne s’arrête en Gironde pour laisser place au chantier de la future liaison vers Toulouse. Mieux vaut anticiper ses trajets.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #Langon #Train",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261118-a54a170d-1.jpg"
+    },
+    {
+      "channel": "x",
+      "at": "2026-11-18T11:26:30.847Z",
+      "titre": "À Bergerac, ces conteneurs deviennent des usines, des labos ou des bases militaires",
+      "lien": "https://passion-aquitaine.ouest-france.fr/calcub-bergerac-conteneurs-usines/",
+      "lienPost": null,
+      "format": "reponse",
+      "texte": "Des boîtes d’acier qui ont traversé les océans finissent en usines, en labos ou en bases militaires 🚢 À #Bergerac, CALCUB offre une seconde vie aux conteneurs maritimes, exploités par de nombreux secteurs industriels.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261118-0bd64f36-x.jpg"
+    },
+    {
       "channel": "threads",
       "at": "2026-11-18T10:14:33.222Z",
       "titre": "À Bergerac, ces conteneurs deviennent des usines, des labos ou des bases militaires",
@@ -493,47 +529,9 @@
       "format": "reponse",
       "texte": "La gratuité des bus le week-end à #Limoges a une date de fin ⏳ L’essai lancé en juillet 2025 par Limoges Métropole repose sur un texte qui expire le 31 décembre 2026.",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261117-8aef387a-x.jpg"
-    },
-    {
-      "channel": "bluesky",
-      "at": "2026-11-17T07:34:12.259Z",
-      "titre": "Bus gratuits le week-end à Limoges : faudra-t-il payer en 2027 ?",
-      "lien": "https://passion-aquitaine.ouest-france.fr/limoges-bus-gratuits-week-end-2027/",
-      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2ijpujvkr2v",
-      "format": "card",
-      "texte": "31 décembre 2026 : c’est la date où s’arrête le texte qui encadre la gratuité des bus le week-end à #Limoges. L’essai, lancé en juillet 2025 par Limoges Métropole, arrive à son terme 🗓️",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261117-8aef387a-bsky.jpg"
-    },
-    {
-      "channel": "threads",
-      "at": "2026-11-17T07:31:00.315Z",
-      "titre": "Bus gratuits le week-end à Limoges : faudra-t-il payer en 2027 ?",
-      "lien": "https://passion-aquitaine.ouest-france.fr/limoges-bus-gratuits-week-end-2027/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/Df1ZQbClldx",
-      "format": "reponse",
-      "texte": "🚍 À Limoges, prendre le bus le week-end ne coûte rien depuis juillet 2025. Limoges Métropole a lancé cet essai de gratuité, et beaucoup s’y sont sans doute habitués. Seulement voilà : le texte qui l’encadre s’arrête au 31 décembre 2026. Passé cette date, rien ne dit encore si le dispositif sera prolongé ou si les tickets reviendront.\n@ville_de_limoges",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261117-8aef387a-th.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "x",
-      "dueAt": "2026-11-18T11:20:00.000Z",
-      "prochainPassage": "2026-11-18T11:20:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "À Bergerac, ces conteneurs deviennent des usines, des labos ou des bases militaires"
-    },
-    {
-      "channel": "instagram",
-      "dueAt": "2026-11-18T11:25:39.449Z",
-      "prochainPassage": "2026-11-18T12:00:00.000Z",
-      "nature": "actu_chaude",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Bordeaux-Langon : 130 heures sans train du 21 au 26 novembre"
-    },
     {
       "channel": "bluesky",
       "dueAt": "2026-11-18T12:11:27.804Z",
@@ -564,14 +562,14 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 627,
+    "releves": 629,
     "parReseau": {
       "instagram": {
         "posts": 77,
         "interactionsMoyennes": 12.7
       },
       "bluesky": {
-        "posts": 75,
+        "posts": 76,
         "interactionsMoyennes": 0.2
       },
       "facebook": {
@@ -685,16 +683,16 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-18T11:00:46.191Z",
-    "posts": 83,
+    "genereLe": "2026-11-18T11:27:24.546Z",
+    "posts": 84,
     "parReseau": {
       "threads": {
         "posts": 21,
         "moyenne": 12.2
       },
       "instagram": {
-        "posts": 20,
-        "moyenne": 7.8
+        "posts": 21,
+        "moyenne": 7.5
       },
       "facebook": {
         "posts": 21,
@@ -725,8 +723,8 @@
     },
     "parCreneau": {
       "après-midi": {
-        "posts": 24,
-        "moyenne": 5.8
+        "posts": 25,
+        "moyenne": 5.7
       },
       "matin": {
         "posts": 45,
@@ -790,8 +788,8 @@
       },
       "instagram": {
         "12 h – 13 h 30": {
-          "posts": 14,
-          "moyenne": 9
+          "posts": 15,
+          "moyenne": 8.6
         },
         "18 h – 19 h 30": {
           "posts": 3,
@@ -803,7 +801,7 @@
         }
       }
     },
-    "interactionsTotal": 413,
+    "interactionsTotal": 416,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36189",
       "channel": "threads",
@@ -846,8 +844,8 @@
     },
     "mentions": {
       "avec": {
-        "posts": 37,
-        "moyenne": 6.3
+        "posts": 38,
+        "moyenne": 6.2
       },
       "sans": {
         "posts": 46,
@@ -858,8 +856,8 @@
       "threads": 23,
       "facebook": 22,
       "bluesky": 22,
-      "x": 22,
-      "instagram": 21
+      "x": 23,
+      "instagram": 22
     },
     "abonnes": {
       "instagram": {
@@ -898,14 +896,14 @@
     },
     "engagement": {
       "threads": 1.04,
-      "instagram": 0.08,
+      "instagram": 0.07,
       "facebook": 0
     },
     "conseils": [
       "Threads : le créneau 7 h – 8 h 30 fait 1,6 fois mieux que 10 h – 11 h 30 (15.7 contre 10 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Le format « reponse » fait 122 fois mieux que « reply » (12.2 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « reply » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+12, +1 %) ; Facebook recule (−24), à surveiller.",
-      "Les posts avec mention font 2.4 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
+      "Les posts avec mention font 2.3 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
     ]
   },
   "couts": {

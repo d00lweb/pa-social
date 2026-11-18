@@ -7461,5 +7461,41 @@
       "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/calcub-bergerac-conteneurs-usines/",
       "sujet": "Bergerac"
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36234",
+    "channel": "x",
+    "at": "2026-11-18T11:26:30.847Z",
+    "mediaId": "kit-telegram",
+    "titre": "À Bergerac, ces conteneurs deviennent des usines, des labos ou des bases militaires",
+    "lien": "https://passion-aquitaine.ouest-france.fr/calcub-bergerac-conteneurs-usines/",
+    "lienPost": null,
+    "format": "reponse",
+    "mention": true,
+    "apercu": {
+      "texte": "Des boîtes d’acier qui ont traversé les océans finissent en usines, en labos ou en bases militaires 🚢 À #Bergerac, CALCUB offre une seconde vie aux conteneurs maritimes, exploités par de nombreux secteurs industriels.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261118-0bd64f36-x.jpg",
+      "mode": "reponse",
+      "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/calcub-bergerac-conteneurs-usines/",
+      "sujet": null
+    }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36194",
+    "channel": "instagram",
+    "at": "2026-11-18T11:27:21.345Z",
+    "mediaId": "18658394527062879",
+    "titre": "Bordeaux-Langon : 130 heures sans train du 21 au 26 novembre",
+    "lien": "https://passion-aquitaine.ouest-france.fr/bordeaux-langon-trains-interrompus-novembre/",
+    "lienPost": "https://www.instagram.com/p/Df4ZYMDk67R/",
+    "format": null,
+    "mention": true,
+    "apercu": {
+      "texte": "130 heures d’affilée : c’est le temps de coupure totale des trains entre Bordeaux et Langon 🚧\n⠀\nDu 21 au 26 novembre, la ligne s’arrête en Gironde pour laisser place au chantier de la future liaison vers Toulouse. Mieux vaut anticiper ses trajets.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #Langon #Train",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261118-a54a170d-1.jpg",
+      "mode": null,
+      "reponse": null,
+      "sujet": null
+    }
   }
 ]

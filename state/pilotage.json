@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-18T08:05:17.263Z",
+  "genereLe": "2026-11-18T08:28:07.609Z",
   "jour": "2026-11-18",
   "reseaux": {
     "instagram": {
@@ -60,11 +60,11 @@
         "image",
         "reply"
       ],
-      "aujourdhui": 0,
-      "semaine": 10,
-      "total": 84,
-      "dernier": "2026-11-17T07:34:12.259Z",
-      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2ijpujvkr2v"
+      "aujourdhui": 1,
+      "semaine": 11,
+      "total": 85,
+      "dernier": "2026-11-18T08:28:34.444Z",
+      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2l57yo22323"
     },
     "facebook": {
       "actif": true,
@@ -89,7 +89,7 @@
       },
       "formats": null,
       "aujourdhui": 1,
-      "semaine": 11,
+      "semaine": 10,
       "total": 82,
       "dernier": "2026-11-18T07:29:57.799Z",
       "lienDernier": "https://www.facebook.com/1720946116697936/posts/1793705886088625"
@@ -156,10 +156,10 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 10,
-      "total": 84,
-      "dernier": "2026-11-17T08:01:03.007Z",
+      "aujourdhui": 1,
+      "semaine": 11,
+      "total": 85,
+      "dernier": "2026-11-18T08:28:19.768Z",
       "lienDernier": null
     }
   },
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36194",
       "titre": "Bordeaux-Langon : 130 heures sans train du 21 au 26 novembre",
       "lien": "https://passion-aquitaine.ouest-france.fr/bordeaux-langon-trains-interrompus-novembre/",
-      "at": "2026-11-18T07:29:57.799Z",
+      "at": "2026-11-18T08:28:34.444Z",
       "reseaux": {
         "threads": {
           "texte": "Si vous prenez le train entre Bordeaux et Langon, notez bien ces dates 🛤️ Du 21 au 26 novembre, aucun train ne circulera sur cette portion, soit 130 heures de coupure. Le chantier sert à préparer la future ligne vers Toulouse. De quoi prévoir dès maintenant une autre solution pour vos trajets.\n@villedebordeaux",
@@ -185,6 +185,22 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-11-18T07:29:57.799Z"
+        },
+        "x": {
+          "texte": "La coupure #Bordeaux-Langon du 21 au 26 novembre ne vise pas la ligne actuelle : ces 🚧 130 heures de chantier préparent la future ligne vers Toulouse.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261118-a54a170d-x.jpg",
+          "mode": "reponse",
+          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/bordeaux-langon-trains-interrompus-novembre/",
+          "sujet": null,
+          "publieLe": "2026-11-18T08:28:19.768Z"
+        },
+        "bluesky": {
+          "texte": "🏗️ Pas un seul #train entre #Bordeaux et Langon pendant 130 heures, du 21 au 26 novembre. La raison de cette coupure totale : un chantier pour la future ligne vers Toulouse.\n@villedebordeaux.bsky.social",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261118-a54a170d-bsky.jpg",
+          "mode": "reply",
+          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/bordeaux-langon-trains-interrompus-novembre/",
+          "sujet": null,
+          "publieLe": "2026-11-18T08:28:34.444Z"
         }
       }
     },
@@ -431,6 +447,26 @@
   ],
   "publications": [
     {
+      "channel": "bluesky",
+      "at": "2026-11-18T08:28:34.444Z",
+      "titre": "Bordeaux-Langon : 130 heures sans train du 21 au 26 novembre",
+      "lien": "https://passion-aquitaine.ouest-france.fr/bordeaux-langon-trains-interrompus-novembre/",
+      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2l57yo22323",
+      "format": "reply",
+      "texte": "🏗️ Pas un seul #train entre #Bordeaux et Langon pendant 130 heures, du 21 au 26 novembre. La raison de cette coupure totale : un chantier pour la future ligne vers Toulouse.\n@villedebordeaux.bsky.social",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261118-a54a170d-bsky.jpg"
+    },
+    {
+      "channel": "x",
+      "at": "2026-11-18T08:28:19.768Z",
+      "titre": "Bordeaux-Langon : 130 heures sans train du 21 au 26 novembre",
+      "lien": "https://passion-aquitaine.ouest-france.fr/bordeaux-langon-trains-interrompus-novembre/",
+      "lienPost": null,
+      "format": "reponse",
+      "texte": "La coupure #Bordeaux-Langon du 21 au 26 novembre ne vise pas la ligne actuelle : ces 🚧 130 heures de chantier préparent la future ligne vers Toulouse.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261118-a54a170d-x.jpg"
+    },
+    {
       "channel": "facebook",
       "at": "2026-11-18T07:29:57.799Z",
       "titre": "Bordeaux-Langon : 130 heures sans train du 21 au 26 novembre",
@@ -509,47 +545,9 @@
       "format": null,
       "texte": "Imaginez plus de mille hectares de prairies, de bois et de zones humides achetés un à un pour rester sauvages 🌿",
       "image": null
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-11-16T12:28:45.914Z",
-      "titre": "Deux-Sèvres : cette association a acheté 1 000 hectares de nature",
-      "lien": "https://passion-aquitaine.ouest-france.fr/deux-sevres-conservatoire-1000-hectares-nature/",
-      "lienPost": "https://www.instagram.com/p/DfzWzySDYPj/",
-      "format": null,
-      "texte": "En Deux-Sèvres, une association achète la nature hectare après hectare depuis 1996 🌳\n⠀\nTrente ans plus tard, le Conservatoire d’espaces naturels possède 1 012 hectares dans le département. Une patiente collection de terres sauvages, à découvrir.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#DeuxSèvres #EspacesNaturels #Biodiversité",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261116-44cfe04e-1.jpg"
-    },
-    {
-      "channel": "bluesky",
-      "at": "2026-11-16T11:25:04.077Z",
-      "titre": "Deux-Sèvres : cette association a acheté 1 000 hectares de nature",
-      "lien": "https://passion-aquitaine.ouest-france.fr/deux-sevres-conservatoire-1000-hectares-nature/",
-      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2gg5rearv23",
-      "format": "image",
-      "texte": "🌾 Peut-on acheter la nature pour la protéger ? En #DeuxSevres, le Conservatoire d’espaces naturels le fait depuis 1996 : trente ans plus tard, il possède 1 012 hectares dans le département.\n➡️ Lire l’article",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261116-44cfe04e-bsky.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "x",
-      "dueAt": "2026-11-18T08:20:00.000Z",
-      "prochainPassage": "2026-11-18T08:20:00.000Z",
-      "nature": "actu_chaude",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Bordeaux-Langon : 130 heures sans train du 21 au 26 novembre"
-    },
-    {
-      "channel": "bluesky",
-      "dueAt": "2026-11-18T08:25:02.255Z",
-      "prochainPassage": "2026-11-18T09:00:00.000Z",
-      "nature": "actu_chaude",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Bordeaux-Langon : 130 heures sans train du 21 au 26 novembre"
-    },
     {
       "channel": "threads",
       "dueAt": "2026-11-18T10:10:08.283Z",
@@ -607,7 +605,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 622,
+    "releves": 623,
     "parReseau": {
       "instagram": {
         "posts": 76,
@@ -618,7 +616,7 @@
         "interactionsMoyennes": 0.2
       },
       "facebook": {
-        "posts": 71,
+        "posts": 72,
         "interactionsMoyennes": 0
       },
       "threads": {
@@ -689,7 +687,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-18T07:26:09.699Z"
+    "derniere": "2026-11-18T08:28:07.609Z"
   },
   "abonnes": {
     "instagram": {
@@ -728,7 +726,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-18T08:05:54.361Z",
+    "genereLe": "2026-11-18T08:28:42.641Z",
     "posts": 82,
     "parReseau": {
       "threads": {
@@ -900,8 +898,8 @@
     "publies": {
       "threads": 22,
       "facebook": 22,
-      "bluesky": 21,
-      "x": 21,
+      "bluesky": 22,
+      "x": 22,
       "instagram": 21
     },
     "abonnes": {

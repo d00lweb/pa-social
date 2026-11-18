@@ -7407,5 +7407,41 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36194",
+    "channel": "x",
+    "at": "2026-11-18T08:28:19.768Z",
+    "mediaId": "kit-telegram",
+    "titre": "Bordeaux-Langon : 130 heures sans train du 21 au 26 novembre",
+    "lien": "https://passion-aquitaine.ouest-france.fr/bordeaux-langon-trains-interrompus-novembre/",
+    "lienPost": null,
+    "format": "reponse",
+    "mention": true,
+    "apercu": {
+      "texte": "La coupure #Bordeaux-Langon du 21 au 26 novembre ne vise pas la ligne actuelle : ces 🚧 130 heures de chantier préparent la future ligne vers Toulouse.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261118-a54a170d-x.jpg",
+      "mode": "reponse",
+      "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/bordeaux-langon-trains-interrompus-novembre/",
+      "sujet": null
+    }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36194",
+    "channel": "bluesky",
+    "at": "2026-11-18T08:28:34.444Z",
+    "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3n2l57yo22323",
+    "titre": "Bordeaux-Langon : 130 heures sans train du 21 au 26 novembre",
+    "lien": "https://passion-aquitaine.ouest-france.fr/bordeaux-langon-trains-interrompus-novembre/",
+    "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2l57yo22323",
+    "format": "reply",
+    "mention": true,
+    "apercu": {
+      "texte": "🏗️ Pas un seul #train entre #Bordeaux et Langon pendant 130 heures, du 21 au 26 novembre. La raison de cette coupure totale : un chantier pour la future ligne vers Toulouse.\n@villedebordeaux.bsky.social",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261118-a54a170d-bsky.jpg",
+      "mode": "reply",
+      "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/bordeaux-langon-trains-interrompus-novembre/",
+      "sujet": null
+    }
   }
 ]

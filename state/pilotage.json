@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-18T11:26:19.037Z",
+  "genereLe": "2026-11-18T12:04:32.448Z",
   "jour": "2026-11-18",
   "reseaux": {
     "instagram": {
@@ -60,11 +60,11 @@
         "image",
         "reply"
       ],
-      "aujourdhui": 1,
-      "semaine": 9,
-      "total": 85,
-      "dernier": "2026-11-18T08:28:34.444Z",
-      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2l57yo22323"
+      "aujourdhui": 2,
+      "semaine": 10,
+      "total": 86,
+      "dernier": "2026-11-18T12:11:29.779Z",
+      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2ljomy54q2v"
     },
     "facebook": {
       "actif": true,
@@ -89,7 +89,7 @@
       },
       "formats": null,
       "aujourdhui": 1,
-      "semaine": 10,
+      "semaine": 9,
       "total": 82,
       "dernier": "2026-11-18T07:29:57.799Z",
       "lienDernier": "https://www.facebook.com/1720946116697936/posts/1793705886088625"
@@ -165,6 +165,38 @@
   },
   "articles": [
     {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36234",
+      "titre": "À Bergerac, ces conteneurs deviennent des usines, des labos ou des bases militaires",
+      "lien": "https://passion-aquitaine.ouest-france.fr/calcub-bergerac-conteneurs-usines/",
+      "at": "2026-11-18T12:11:29.779Z",
+      "reseaux": {
+        "threads": {
+          "texte": "🔬 Un laboratoire installé dans un conteneur maritime, vous y auriez pensé ? À Bergerac, l’entreprise CALCUB s’est fait une spécialité de leur donner une seconde vie. Usines, labos, bases militaires : de nombreux secteurs industriels les exploitent. Vous en avez déjà croisé un, transformé ?\n@villedebergerac",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261118-0bd64f36-th.jpg",
+          "mode": "reponse",
+          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/calcub-bergerac-conteneurs-usines/",
+          "sujet": "Bergerac",
+          "publieLe": "2026-11-18T10:14:33.222Z"
+        },
+        "x": {
+          "texte": "Des boîtes d’acier qui ont traversé les océans finissent en usines, en labos ou en bases militaires 🚢 À #Bergerac, CALCUB offre une seconde vie aux conteneurs maritimes, exploités par de nombreux secteurs industriels.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261118-0bd64f36-x.jpg",
+          "mode": "reponse",
+          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/calcub-bergerac-conteneurs-usines/",
+          "sujet": null,
+          "publieLe": "2026-11-18T11:26:30.847Z"
+        },
+        "bluesky": {
+          "texte": "Usine, laboratoire, base militaire : un simple conteneur maritime peut tout devenir. À #Bergerac, CALCUB leur offre une seconde vie et de nombreux secteurs industriels en profitent ♻️\n@villedebergerac.bsky.social\n➡️ Lire l’article",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261118-0bd64f36-bsky.jpg",
+          "mode": "image",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-18T12:11:29.779Z"
+        }
+      }
+    },
+    {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36194",
       "titre": "Bordeaux-Langon : 130 heures sans train du 21 au 26 novembre",
       "lien": "https://passion-aquitaine.ouest-france.fr/bordeaux-langon-trains-interrompus-novembre/",
@@ -209,30 +241,6 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-11-18T11:27:21.345Z"
-        }
-      }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36234",
-      "titre": "À Bergerac, ces conteneurs deviennent des usines, des labos ou des bases militaires",
-      "lien": "https://passion-aquitaine.ouest-france.fr/calcub-bergerac-conteneurs-usines/",
-      "at": "2026-11-18T11:26:30.847Z",
-      "reseaux": {
-        "threads": {
-          "texte": "🔬 Un laboratoire installé dans un conteneur maritime, vous y auriez pensé ? À Bergerac, l’entreprise CALCUB s’est fait une spécialité de leur donner une seconde vie. Usines, labos, bases militaires : de nombreux secteurs industriels les exploitent. Vous en avez déjà croisé un, transformé ?\n@villedebergerac",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261118-0bd64f36-th.jpg",
-          "mode": "reponse",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/calcub-bergerac-conteneurs-usines/",
-          "sujet": "Bergerac",
-          "publieLe": "2026-11-18T10:14:33.222Z"
-        },
-        "x": {
-          "texte": "Des boîtes d’acier qui ont traversé les océans finissent en usines, en labos ou en bases militaires 🚢 À #Bergerac, CALCUB offre une seconde vie aux conteneurs maritimes, exploités par de nombreux secteurs industriels.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261118-0bd64f36-x.jpg",
-          "mode": "reponse",
-          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/calcub-bergerac-conteneurs-usines/",
-          "sujet": null,
-          "publieLe": "2026-11-18T11:26:30.847Z"
         }
       }
     },
@@ -431,6 +439,16 @@
   ],
   "publications": [
     {
+      "channel": "bluesky",
+      "at": "2026-11-18T12:11:29.779Z",
+      "titre": "À Bergerac, ces conteneurs deviennent des usines, des labos ou des bases militaires",
+      "lien": "https://passion-aquitaine.ouest-france.fr/calcub-bergerac-conteneurs-usines/",
+      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2ljomy54q2v",
+      "format": "image",
+      "texte": "Usine, laboratoire, base militaire : un simple conteneur maritime peut tout devenir. À #Bergerac, CALCUB leur offre une seconde vie et de nombreux secteurs industriels en profitent ♻️\n@villedebergerac.bsky.social\n➡️ Lire l’article",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261118-0bd64f36-bsky.jpg"
+    },
+    {
       "channel": "instagram",
       "at": "2026-11-18T11:27:21.345Z",
       "titre": "Bordeaux-Langon : 130 heures sans train du 21 au 26 novembre",
@@ -519,28 +537,9 @@
       "format": null,
       "texte": "Le ticket de bus du dimanche va-t-il refaire son apparition à Limoges dans quelques semaines 🎫",
       "image": null
-    },
-    {
-      "channel": "x",
-      "at": "2026-11-17T08:01:03.007Z",
-      "titre": "Bus gratuits le week-end à Limoges : faudra-t-il payer en 2027 ?",
-      "lien": "https://passion-aquitaine.ouest-france.fr/limoges-bus-gratuits-week-end-2027/",
-      "lienPost": null,
-      "format": "reponse",
-      "texte": "La gratuité des bus le week-end à #Limoges a une date de fin ⏳ L’essai lancé en juillet 2025 par Limoges Métropole repose sur un texte qui expire le 31 décembre 2026.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261117-8aef387a-x.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "bluesky",
-      "dueAt": "2026-11-18T12:11:27.804Z",
-      "prochainPassage": "2026-11-18T12:20:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "À Bergerac, ces conteneurs deviennent des usines, des labos ou des bases militaires"
-    },
     {
       "channel": "instagram",
       "dueAt": "2026-11-18T17:34:13.812Z",
@@ -562,7 +561,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 629,
+    "releves": 630,
     "parReseau": {
       "instagram": {
         "posts": 77,
@@ -573,7 +572,7 @@
         "interactionsMoyennes": 0.2
       },
       "facebook": {
-        "posts": 72,
+        "posts": 73,
         "interactionsMoyennes": 0
       },
       "threads": {
@@ -644,7 +643,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-18T11:00:40.549Z"
+    "derniere": "2026-11-18T12:04:32.448Z"
   },
   "abonnes": {
     "instagram": {
@@ -683,7 +682,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-18T11:27:24.546Z",
+    "genereLe": "2026-11-18T12:11:36.181Z",
     "posts": 84,
     "parReseau": {
       "threads": {
@@ -855,7 +854,7 @@
     "publies": {
       "threads": 23,
       "facebook": 22,
-      "bluesky": 22,
+      "bluesky": 23,
       "x": 23,
       "instagram": 22
     },

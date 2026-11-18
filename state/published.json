@@ -7497,5 +7497,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36234",
+    "channel": "bluesky",
+    "at": "2026-11-18T12:11:29.779Z",
+    "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3n2ljomy54q2v",
+    "titre": "À Bergerac, ces conteneurs deviennent des usines, des labos ou des bases militaires",
+    "lien": "https://passion-aquitaine.ouest-france.fr/calcub-bergerac-conteneurs-usines/",
+    "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2ljomy54q2v",
+    "format": "image",
+    "mention": true,
+    "apercu": {
+      "texte": "Usine, laboratoire, base militaire : un simple conteneur maritime peut tout devenir. À #Bergerac, CALCUB leur offre une seconde vie et de nombreux secteurs industriels en profitent ♻️\n@villedebergerac.bsky.social\n➡️ Lire l’article",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261118-0bd64f36-bsky.jpg",
+      "mode": "image",
+      "reponse": null,
+      "sujet": null
+    }
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-18T13:00:54.326Z",
+  "genereLe": "2026-11-18T13:23:08.088Z",
   "jour": "2026-11-18",
   "reseaux": {
     "instagram": {
@@ -25,7 +25,7 @@
       },
       "formats": null,
       "aujourdhui": 1,
-      "semaine": 10,
+      "semaine": 9,
       "total": 87,
       "dernier": "2026-11-18T11:27:21.345Z",
       "lienDernier": "https://www.instagram.com/p/Df4ZYMDk67R/"
@@ -561,11 +561,11 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 631,
+    "releves": 632,
     "parReseau": {
       "instagram": {
-        "posts": 77,
-        "interactionsMoyennes": 12.7
+        "posts": 78,
+        "interactionsMoyennes": 12.6
       },
       "bluesky": {
         "posts": 76,
@@ -643,7 +643,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-18T12:04:32.448Z"
+    "derniere": "2026-11-18T13:23:08.088Z"
   },
   "abonnes": {
     "instagram": {
@@ -682,7 +682,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-18T13:00:59.392Z",
+    "genereLe": "2026-11-18T13:23:11.866Z",
     "posts": 84,
     "parReseau": {
       "threads": {
@@ -691,7 +691,7 @@
       },
       "instagram": {
         "posts": 21,
-        "moyenne": 7.5
+        "moyenne": 7.6
       },
       "facebook": {
         "posts": 21,
@@ -723,7 +723,7 @@
     "parCreneau": {
       "après-midi": {
         "posts": 25,
-        "moyenne": 5.7
+        "moyenne": 5.8
       },
       "matin": {
         "posts": 45,
@@ -796,11 +796,11 @@
         },
         "hors créneau": {
           "posts": 3,
-          "moyenne": 3
+          "moyenne": 3.3
         }
       }
     },
-    "interactionsTotal": 416,
+    "interactionsTotal": 417,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36189",
       "channel": "threads",
@@ -895,7 +895,7 @@
     },
     "engagement": {
       "threads": 1.04,
-      "instagram": 0.07,
+      "instagram": 0.08,
       "facebook": 0
     },
     "conseils": [

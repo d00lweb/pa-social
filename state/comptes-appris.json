@@ -1892,5 +1892,55 @@
     "instagram": [],
     "threads": [],
     "bluesky": []
+  },
+  "commune:mairie:bergerac": {
+    "v": 3,
+    "cherche": "2026-11-18T08:05:35.394Z",
+    "instagram": [
+      {
+        "handle": "villedebergerac",
+        "nom": "Ville de Bergerac",
+        "abonnes": 21153,
+        "preuve": 3
+      }
+    ],
+    "x": [
+      {
+        "handle": "VilledeBergerac",
+        "nom": "",
+        "abonnes": null,
+        "preuve": 3
+      }
+    ],
+    "threads": [
+      {
+        "handle": "villedebergerac",
+        "nom": "Ville de Bergerac",
+        "abonnes": 21153,
+        "preuve": 3
+      }
+    ],
+    "bluesky": [
+      {
+        "handle": "villedebergerac.bsky.social",
+        "nom": "Ville de Bergerac",
+        "abonnes": 125,
+        "preuve": 2
+      }
+    ]
+  },
+  "locale:bergerac:recyclage": {
+    "v": 3,
+    "cherche": "2026-11-18T08:05:35.394Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:bergerac:industrie": {
+    "v": 3,
+    "cherche": "2026-11-18T08:05:35.394Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
   }
 }

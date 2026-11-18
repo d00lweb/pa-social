@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-18T07:26:09.699Z",
+  "genereLe": "2026-11-18T08:05:17.263Z",
   "jour": "2026-11-18",
   "reseaux": {
     "instagram": {
@@ -551,6 +551,24 @@
       "titre": "Bordeaux-Langon : 130 heures sans train du 21 au 26 novembre"
     },
     {
+      "channel": "threads",
+      "dueAt": "2026-11-18T10:10:08.283Z",
+      "prochainPassage": "2026-11-18T10:20:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "À Bergerac, ces conteneurs deviennent des usines, des labos ou des bases militaires"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-11-18T11:20:00.000Z",
+      "prochainPassage": "2026-11-18T11:20:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "À Bergerac, ces conteneurs deviennent des usines, des labos ou des bases militaires"
+    },
+    {
       "channel": "instagram",
       "dueAt": "2026-11-18T11:25:39.449Z",
       "prochainPassage": "2026-11-18T12:00:00.000Z",
@@ -558,11 +576,38 @@
       "prevuInitialement": null,
       "raison": null,
       "titre": "Bordeaux-Langon : 130 heures sans train du 21 au 26 novembre"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-11-18T12:11:27.804Z",
+      "prochainPassage": "2026-11-18T12:20:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "À Bergerac, ces conteneurs deviennent des usines, des labos ou des bases militaires"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-11-18T17:34:13.812Z",
+      "prochainPassage": "2026-11-18T18:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "À Bergerac, ces conteneurs deviennent des usines, des labos ou des bases militaires"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-11-18T19:27:47.743Z",
+      "prochainPassage": "2026-11-18T20:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "À Bergerac, ces conteneurs deviennent des usines, des labos ou des bases militaires"
     }
   ],
   "alertes": [],
   "mesures": {
-    "releves": 620,
+    "releves": 622,
     "parReseau": {
       "instagram": {
         "posts": 76,
@@ -683,33 +728,33 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-18T07:30:00.981Z",
-    "posts": 80,
+    "genereLe": "2026-11-18T08:05:54.361Z",
+    "posts": 82,
     "parReseau": {
       "threads": {
-        "posts": 20,
-        "moyenne": 12.9
+        "posts": 21,
+        "moyenne": 12.2
       },
       "instagram": {
         "posts": 20,
         "moyenne": 7.8
       },
-      "bluesky": {
-        "posts": 20,
-        "moyenne": 0.1
-      },
       "facebook": {
         "posts": 20,
+        "moyenne": 0
+      },
+      "bluesky": {
+        "posts": 21,
         "moyenne": 0
       }
     },
     "parFormat": {
       "reponse": {
-        "posts": 20,
-        "moyenne": 12.9
+        "posts": 21,
+        "moyenne": 12.2
       },
       "card": {
-        "posts": 5,
+        "posts": 6,
         "moyenne": 0.2
       },
       "image": {
@@ -722,13 +767,13 @@
       }
     },
     "parCreneau": {
-      "matin": {
-        "posts": 42,
-        "moyenne": 5.9
-      },
       "après-midi": {
         "posts": 24,
         "moyenne": 5.8
+      },
+      "matin": {
+        "posts": 44,
+        "moyenne": 5.6
       },
       "soir": {
         "posts": 14,
@@ -738,8 +783,8 @@
     "parCreneauReseau": {
       "threads": {
         "7 h – 8 h 30": {
-          "posts": 10,
-          "moyenne": 17.3
+          "posts": 11,
+          "moyenne": 15.7
         },
         "10 h – 11 h 30": {
           "posts": 7,
@@ -770,7 +815,7 @@
       },
       "bluesky": {
         "8 h – 9 h 30": {
-          "posts": 12,
+          "posts": 13,
           "moyenne": 0.1
         },
         "hors créneau": {
@@ -823,33 +868,33 @@
       "creneauReseau": "7 h – 8 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36200",
-      "channel": "facebook",
-      "mediaId": "227437307428711_1791748229617724",
-      "publieLe": "2026-11-16T20:14:10.277Z",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36227",
+      "channel": "bluesky",
+      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3n2ijpujvkr2v",
+      "publieLe": "2026-11-17T07:34:12.259Z",
       "jalon": 1,
-      "releveLe": "2026-11-17T20:20:35.872Z",
+      "releveLe": "2026-11-18T08:05:17.263Z",
       "likes": 0,
       "commentairesBruts": 0,
       "partages": 0,
       "vues": null,
       "commentaires": 0,
       "v": 2,
-      "titre": "Deux-Sèvres : cette association a acheté 1 000 hectares de nature",
-      "lien": "https://www.facebook.com/1720946116697936/posts/1791748229617724",
-      "format": null,
+      "titre": "Bus gratuits le week-end à Limoges : faudra-t-il payer en 2027 ?",
+      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2ijpujvkr2v",
+      "format": "card",
       "mention": false,
-      "creneau": "soir",
-      "creneauReseau": "20 h – 21 h 30"
+      "creneau": "matin",
+      "creneauReseau": "8 h – 9 h 30"
     },
     "mentions": {
       "avec": {
-        "posts": 36,
-        "moyenne": 6.4
+        "posts": 37,
+        "moyenne": 6.3
       },
       "sans": {
-        "posts": 44,
-        "moyenne": 4.1
+        "posts": 45,
+        "moyenne": 4
       }
     },
     "publies": {
@@ -895,42 +940,42 @@
       "x": null
     },
     "engagement": {
-      "threads": 1.1,
+      "threads": 1.04,
       "instagram": 0.08,
       "facebook": 0
     },
     "conseils": [
-      "Threads : le créneau 7 h – 8 h 30 fait 1,7 fois mieux que 10 h – 11 h 30 (17.3 contre 10 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
-      "Le format « reponse » fait 129 fois mieux que « reply » (12.9 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « reply » de la rotation dans config/channels.json.",
+      "Threads : le créneau 7 h – 8 h 30 fait 1,6 fois mieux que 10 h – 11 h 30 (15.7 contre 10 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
+      "Le format « reponse » fait 122 fois mieux que « reply » (12.2 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « reply » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+12, +1 %) ; Facebook recule (−24), à surveiller.",
       "Les posts avec mention font 2.3 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
     ]
   },
   "couts": {
     "jour": {
-      "appels": 4,
-      "entree": 31959,
-      "sortie": 3226,
-      "cout": 0.192356,
+      "appels": 6,
+      "entree": 47882,
+      "sortie": 4919,
+      "cout": 0.289908,
       "cle": "2026-11-18"
     },
     "semaine": {
-      "appels": 21,
-      "entree": 168603,
-      "sortie": 18464,
-      "cout": 1.043692
+      "appels": 23,
+      "entree": 184526,
+      "sortie": 20157,
+      "cout": 1.141244
     },
     "mois": {
-      "appels": 62,
-      "entree": 496135,
-      "sortie": 55135,
-      "cout": 3.0872399999999995,
+      "appels": 64,
+      "entree": 512058,
+      "sortie": 56828,
+      "cout": 3.1847919999999994,
       "cle": "2026-11"
     },
-    "projection": 5.15,
+    "projection": 5.31,
     "moyenneAppel": 0.0498,
     "parModele": {
-      "claude-opus-5-5": 62
+      "claude-opus-5-5": 64
     },
     "serie": [
       [
@@ -987,7 +1032,7 @@
       ],
       [
         "2026-11-18",
-        0.1924
+        0.2899
       ]
     ],
     "depuis": "2026-09-23"

@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-18T17:00:40.127Z",
+  "genereLe": "2026-11-18T17:26:27.451Z",
   "jour": "2026-11-18",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 1,
-      "semaine": 9,
-      "total": 87,
-      "dernier": "2026-11-18T11:27:21.345Z",
-      "lienDernier": "https://www.instagram.com/p/Df4ZYMDk67R/"
+      "aujourdhui": 2,
+      "semaine": 10,
+      "total": 88,
+      "dernier": "2026-11-18T17:34:49.194Z",
+      "lienDernier": "https://www.instagram.com/p/Df5Dbl5EwNh/"
     },
     "bluesky": {
       "actif": true,
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36234",
       "titre": "À Bergerac, ces conteneurs deviennent des usines, des labos ou des bases militaires",
       "lien": "https://passion-aquitaine.ouest-france.fr/calcub-bergerac-conteneurs-usines/",
-      "at": "2026-11-18T12:11:29.779Z",
+      "at": "2026-11-18T17:34:49.194Z",
       "reseaux": {
         "threads": {
           "texte": "🔬 Un laboratoire installé dans un conteneur maritime, vous y auriez pensé ? À Bergerac, l’entreprise CALCUB s’est fait une spécialité de leur donner une seconde vie. Usines, labos, bases militaires : de nombreux secteurs industriels les exploitent. Vous en avez déjà croisé un, transformé ?\n@villedebergerac",
@@ -193,6 +193,14 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-11-18T12:11:29.779Z"
+        },
+        "instagram": {
+          "texte": "Bergerac, en Périgord : ici, les conteneurs maritimes repartent pour une seconde vie 🏭\n⠀\nL’entreprise CALCUB les transforme en usines, en laboratoires ou même en bases militaires. De nombreux secteurs industriels les exploitent déjà.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bergerac #Conteneurs #Industrie",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261118-0bd64f36-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-18T17:34:49.194Z"
         }
       }
     },
@@ -439,6 +447,16 @@
   ],
   "publications": [
     {
+      "channel": "instagram",
+      "at": "2026-11-18T17:34:49.194Z",
+      "titre": "À Bergerac, ces conteneurs deviennent des usines, des labos ou des bases militaires",
+      "lien": "https://passion-aquitaine.ouest-france.fr/calcub-bergerac-conteneurs-usines/",
+      "lienPost": "https://www.instagram.com/p/Df5Dbl5EwNh/",
+      "format": null,
+      "texte": "Bergerac, en Périgord : ici, les conteneurs maritimes repartent pour une seconde vie 🏭\n⠀\nL’entreprise CALCUB les transforme en usines, en laboratoires ou même en bases militaires. De nombreux secteurs industriels les exploitent déjà.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bergerac #Conteneurs #Industrie",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261118-0bd64f36-1.jpg"
+    },
+    {
       "channel": "bluesky",
       "at": "2026-11-18T12:11:29.779Z",
       "titre": "À Bergerac, ces conteneurs deviennent des usines, des labos ou des bases militaires",
@@ -527,28 +545,9 @@
       "format": null,
       "texte": "Le samedi, on monte dans le bus à Limoges sans sortir son ticket 🚌\n⠀\nDepuis juillet 2025, les bus de Limoges Métropole sont gratuits le week-end. Mais l’essai repose sur un texte qui s’arrête au 31 décembre 2026, et la suite reste à écrire.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Limoges #TransportsEnCommun #HauteVienne",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261117-8aef387a-1.jpg"
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-11-17T08:29:27.745Z",
-      "titre": "Bus gratuits le week-end à Limoges : faudra-t-il payer en 2027 ?",
-      "lien": "https://passion-aquitaine.ouest-france.fr/limoges-bus-gratuits-week-end-2027/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1792524652873415",
-      "format": null,
-      "texte": "Le ticket de bus du dimanche va-t-il refaire son apparition à Limoges dans quelques semaines 🎫",
-      "image": null
     }
   ],
   "file": [
-    {
-      "channel": "instagram",
-      "dueAt": "2026-11-18T17:34:13.812Z",
-      "prochainPassage": "2026-11-18T18:00:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "À Bergerac, ces conteneurs deviennent des usines, des labos ou des bases militaires"
-    },
     {
       "channel": "facebook",
       "dueAt": "2026-11-18T19:27:47.743Z",
@@ -643,7 +642,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-18T16:01:15.033Z"
+    "derniere": "2026-11-18T17:26:27.451Z"
   },
   "abonnes": {
     "instagram": {
@@ -682,7 +681,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-18T17:00:43.955Z",
+    "genereLe": "2026-11-18T17:34:52.812Z",
     "posts": 84,
     "parReseau": {
       "threads": {
@@ -856,7 +855,7 @@
       "facebook": 22,
       "bluesky": 23,
       "x": 23,
-      "instagram": 22
+      "instagram": 23
     },
     "abonnes": {
       "instagram": {

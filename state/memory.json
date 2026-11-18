@@ -1,5 +1,5 @@
 {
-  "angleIndex": 1,
+  "angleIndex": 2,
   "recent": {
     "instagram": [
       "Les Bleus ont déjà joué sept fois à Bordeaux : vous vous souvenez de ces matches ?\nAvant France-Turquie le dimanche 15 novembre, retour sur l’histoire de l’équi",
@@ -148,8 +148,6 @@
   ],
   "mentionsParReseau": {
     "instagram": [
-      "destinationagen",
-      "tourismelotetgaronne",
       "ofbiodiversite",
       "prefet33",
       "huitresarcachoncapferret",
@@ -207,11 +205,11 @@
       "ville_de_limoges",
       "limogestourisme",
       "hautevienne_dep",
-      "voyagerentrain.fr"
+      "voyagerentrain.fr",
+      "villedebordeaux",
+      "groupesncf"
     ],
     "x": [
-      "cddordogne",
-      "departement17",
       "merignac",
       "gironde",
       "Bordeaux",
@@ -269,7 +267,9 @@
       "gironde",
       "DeuxSevres",
       "LimMetropole",
-      "VilleLimoges87"
+      "VilleLimoges87",
+      "Bordeaux",
+      "gironde"
     ],
     "threads": [
       "villedemerignac",
@@ -299,7 +299,8 @@
       "villedebordeaux",
       "visitbordeaux",
       "villedebordeaux",
-      "ville_de_limoges"
+      "ville_de_limoges",
+      "villedebordeaux"
     ],
     "bluesky": [
       "villedebordeaux.bsky.social",
@@ -314,16 +315,25 @@
       "equipedefrance.bsky.social",
       "villedebordeaux.bsky.social",
       "villedebordeaux.bsky.social",
+      "villedebordeaux.bsky.social",
       "villedebordeaux.bsky.social"
     ]
   },
   "dernieresMentions": {
     "instagram": [
-      "voyagerentrain.fr"
+      "villedebordeaux",
+      "groupesncf"
     ],
-    "x": [],
-    "bluesky": [],
-    "threads": [],
+    "x": [
+      "Bordeaux",
+      "gironde"
+    ],
+    "bluesky": [
+      "villedebordeaux.bsky.social"
+    ],
+    "threads": [
+      "villedebordeaux"
+    ],
     "facebook": []
   }
 }

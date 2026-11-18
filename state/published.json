@@ -7371,5 +7371,41 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36194",
+    "channel": "threads",
+    "at": "2026-11-18T07:29:49.520Z",
+    "mediaId": "18018618965977202",
+    "titre": "Bordeaux-Langon : 130 heures sans train du 21 au 26 novembre",
+    "lien": "https://passion-aquitaine.ouest-france.fr/bordeaux-langon-trains-interrompus-novembre/",
+    "lienPost": "https://www.threads.com/@lovaquitaine/post/Df3923im7mA",
+    "format": "reponse",
+    "mention": true,
+    "apercu": {
+      "texte": "Si vous prenez le train entre Bordeaux et Langon, notez bien ces dates 🛤️ Du 21 au 26 novembre, aucun train ne circulera sur cette portion, soit 130 heures de coupure. Le chantier sert à préparer la future ligne vers Toulouse. De quoi prévoir dès maintenant une autre solution pour vos trajets.\n@villedebordeaux",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261118-a54a170d-th.jpg",
+      "mode": "reponse",
+      "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/bordeaux-langon-trains-interrompus-novembre/",
+      "sujet": "Bordeaux"
+    }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36194",
+    "channel": "facebook",
+    "at": "2026-11-18T07:29:57.799Z",
+    "mediaId": "227437307428711_1793705886088625",
+    "titre": "Bordeaux-Langon : 130 heures sans train du 21 au 26 novembre",
+    "lien": "https://passion-aquitaine.ouest-france.fr/bordeaux-langon-trains-interrompus-novembre/",
+    "lienPost": "https://www.facebook.com/1720946116697936/posts/1793705886088625",
+    "format": null,
+    "mention": false,
+    "apercu": {
+      "texte": "Entre Bordeaux et Langon, les rails resteront vides près de six jours d’affilée pour préparer la ligne vers Toulouse 🛤️",
+      "image": null,
+      "mode": null,
+      "reponse": null,
+      "sujet": null
+    }
   }
 ]

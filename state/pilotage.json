@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-18T07:03:36.728Z",
+  "genereLe": "2026-11-18T07:26:09.699Z",
   "jour": "2026-11-18",
   "reseaux": {
     "instagram": {
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 10,
-      "total": 81,
-      "dernier": "2026-11-17T08:29:27.745Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1792524652873415"
+      "aujourdhui": 1,
+      "semaine": 11,
+      "total": 82,
+      "dernier": "2026-11-18T07:29:57.799Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1793705886088625"
     },
     "threads": {
       "actif": true,
@@ -122,11 +122,11 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 10,
-      "total": 81,
-      "dernier": "2026-11-17T07:31:00.315Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/Df1ZQbClldx"
+      "aujourdhui": 1,
+      "semaine": 11,
+      "total": 82,
+      "dernier": "2026-11-18T07:29:49.520Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/Df3923im7mA"
     },
     "x": {
       "actif": true,
@@ -164,6 +164,30 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36194",
+      "titre": "Bordeaux-Langon : 130 heures sans train du 21 au 26 novembre",
+      "lien": "https://passion-aquitaine.ouest-france.fr/bordeaux-langon-trains-interrompus-novembre/",
+      "at": "2026-11-18T07:29:57.799Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Si vous prenez le train entre Bordeaux et Langon, notez bien ces dates 🛤️ Du 21 au 26 novembre, aucun train ne circulera sur cette portion, soit 130 heures de coupure. Le chantier sert à préparer la future ligne vers Toulouse. De quoi prévoir dès maintenant une autre solution pour vos trajets.\n@villedebordeaux",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261118-a54a170d-th.jpg",
+          "mode": "reponse",
+          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/bordeaux-langon-trains-interrompus-novembre/",
+          "sujet": "Bordeaux",
+          "publieLe": "2026-11-18T07:29:49.520Z"
+        },
+        "facebook": {
+          "texte": "Entre Bordeaux et Langon, les rails resteront vides près de six jours d’affilée pour préparer la ligne vers Toulouse 🛤️",
+          "image": null,
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-18T07:29:57.799Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36227",
       "titre": "Bus gratuits le week-end à Limoges : faudra-t-il payer en 2027 ?",
@@ -403,57 +427,29 @@
           "publieLe": "2026-11-14T11:07:10.144Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36152",
-      "titre": "France-Turquie à Bordeaux : comment se rendre au Stade Atlantique sans galérer ?",
-      "lien": "https://passion-aquitaine.ouest-france.fr/france-turquie-bordeaux-acces-stade-atlantique/",
-      "at": "2026-11-13T19:23:49.433Z",
-      "reseaux": {
-        "threads": {
-          "texte": "Vous avez votre place pour France-Turquie à Bordeaux, mais savez-vous déjà comment rejoindre le stade ? 🚌 Le match se joue dimanche 15 novembre à 20h45 au Stade Atlantique, et anticiper sa venue peut tout changer. Vous comptez y aller comment ?\n@villedebordeaux",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261113-9cb43d45-th.jpg",
-          "mode": "reponse",
-          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/france-turquie-bordeaux-acces-stade-atlantique/",
-          "sujet": "Bordeaux",
-          "publieLe": "2026-11-13T10:12:13.013Z"
-        },
-        "x": {
-          "texte": "20h45 ce dimanche 15 novembre : France-Turquie au Stade Atlantique de #Bordeaux. Pour arriver à l’heure, mieux vaut préparer son trajet dès maintenant ⚽",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261113-9cb43d45-x.jpg",
-          "mode": "reponse",
-          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/france-turquie-bordeaux-acces-stade-atlantique/",
-          "sujet": null,
-          "publieLe": "2026-11-13T11:20:43.557Z"
-        },
-        "bluesky": {
-          "texte": "Des milliers de supporters convergent vers le Stade Atlantique de #Bordeaux 🏟️ Dimanche 15 novembre à 20h45, France et Turquie s’y affrontent, et l’accès au stade se prépare à l’avance.\n@villedebordeaux.bsky.social\n➡️ Lire l’article",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261113-9cb43d45-bsky.jpg",
-          "mode": "image",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-13T12:11:18.035Z"
-        },
-        "instagram": {
-          "texte": "France-Turquie à Bordeaux : arrivez au Stade Atlantique sans stress dimanche soir\n⠀\nLe match débute à 20h45 le dimanche 15 novembre. Nos conseils pour anticiper votre trajet et ne rien rater du coup d’envoi ⚽\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #FranceTurquie #StadeAtlantique",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261113-9cb43d45-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-13T18:05:19.389Z"
-        },
-        "facebook": {
-          "texte": "Pour France-Turquie, le vrai match commence bien avant le coup d’envoi : celui du trajet jusqu’au Stade Atlantique 🚋",
-          "image": null,
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-13T19:23:49.433Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "facebook",
+      "at": "2026-11-18T07:29:57.799Z",
+      "titre": "Bordeaux-Langon : 130 heures sans train du 21 au 26 novembre",
+      "lien": "https://passion-aquitaine.ouest-france.fr/bordeaux-langon-trains-interrompus-novembre/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1793705886088625",
+      "format": null,
+      "texte": "Entre Bordeaux et Langon, les rails resteront vides près de six jours d’affilée pour préparer la ligne vers Toulouse 🛤️",
+      "image": null
+    },
+    {
+      "channel": "threads",
+      "at": "2026-11-18T07:29:49.520Z",
+      "titre": "Bordeaux-Langon : 130 heures sans train du 21 au 26 novembre",
+      "lien": "https://passion-aquitaine.ouest-france.fr/bordeaux-langon-trains-interrompus-novembre/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/Df3923im7mA",
+      "format": "reponse",
+      "texte": "Si vous prenez le train entre Bordeaux et Langon, notez bien ces dates 🛤️ Du 21 au 26 novembre, aucun train ne circulera sur cette portion, soit 130 heures de coupure. Le chantier sert à préparer la future ligne vers Toulouse. De quoi prévoir dès maintenant une autre solution pour vos trajets.\n@villedebordeaux",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261118-a54a170d-th.jpg"
+    },
     {
       "channel": "instagram",
       "at": "2026-11-17T11:24:15.261Z",
@@ -533,52 +529,14 @@
       "format": "image",
       "texte": "🌾 Peut-on acheter la nature pour la protéger ? En #DeuxSevres, le Conservatoire d’espaces naturels le fait depuis 1996 : trente ans plus tard, il possède 1 012 hectares dans le département.\n➡️ Lire l’article",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261116-44cfe04e-bsky.jpg"
-    },
-    {
-      "channel": "x",
-      "at": "2026-11-16T09:20:54.546Z",
-      "titre": "Deux-Sèvres : cette association a acheté 1 000 hectares de nature",
-      "lien": "https://passion-aquitaine.ouest-france.fr/deux-sevres-conservatoire-1000-hectares-nature/",
-      "lienPost": null,
-      "format": "reponse",
-      "texte": "Deux-Sèvres : depuis 1996, le Conservatoire d’espaces naturels rachète des terres pour les protéger. Résultat trente ans plus tard 🦋 1 012 hectares de nature lui appartiennent.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261116-44cfe04e-x.jpg"
-    },
-    {
-      "channel": "threads",
-      "at": "2026-11-16T09:17:04.427Z",
-      "titre": "Deux-Sèvres : cette association a acheté 1 000 hectares de nature",
-      "lien": "https://passion-aquitaine.ouest-france.fr/deux-sevres-conservatoire-1000-hectares-nature/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/DfzAgKdIDYr",
-      "format": "reponse",
-      "texte": "1 012 hectares de nature, rachetés pour être préservés 🍃 C’est ce que possède aujourd’hui le Conservatoire d’espaces naturels en Deux-Sèvres. Tout a commencé en 1996, avec une première acquisition. Trente ans plus tard, le patrimoine naturel de l’association dépasse le millier d’hectares. Vous connaissiez ce travail discret mené dans le département ?",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261116-44cfe04e-th.jpg"
     }
   ],
   "file": [
     {
-      "channel": "threads",
-      "dueAt": "2026-11-18T07:25:05.178Z",
-      "prochainPassage": "2026-11-18T08:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Bordeaux-Langon : 130 heures sans train du 21 au 26 novembre"
-    },
-    {
-      "channel": "facebook",
-      "dueAt": "2026-11-18T07:28:43.748Z",
-      "prochainPassage": "2026-11-18T08:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Bordeaux-Langon : 130 heures sans train du 21 au 26 novembre"
-    },
-    {
       "channel": "x",
       "dueAt": "2026-11-18T08:20:00.000Z",
       "prochainPassage": "2026-11-18T08:20:00.000Z",
-      "nature": "actu",
+      "nature": "actu_chaude",
       "prevuInitialement": null,
       "raison": null,
       "titre": "Bordeaux-Langon : 130 heures sans train du 21 au 26 novembre"
@@ -587,7 +545,7 @@
       "channel": "bluesky",
       "dueAt": "2026-11-18T08:25:02.255Z",
       "prochainPassage": "2026-11-18T09:00:00.000Z",
-      "nature": "actu",
+      "nature": "actu_chaude",
       "prevuInitialement": null,
       "raison": null,
       "titre": "Bordeaux-Langon : 130 heures sans train du 21 au 26 novembre"
@@ -596,7 +554,7 @@
       "channel": "instagram",
       "dueAt": "2026-11-18T11:25:39.449Z",
       "prochainPassage": "2026-11-18T12:00:00.000Z",
-      "nature": "actu",
+      "nature": "actu_chaude",
       "prevuInitialement": null,
       "raison": null,
       "titre": "Bordeaux-Langon : 130 heures sans train du 21 au 26 novembre"
@@ -686,7 +644,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-18T06:09:30.992Z"
+    "derniere": "2026-11-18T07:26:09.699Z"
   },
   "abonnes": {
     "instagram": {
@@ -725,7 +683,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-18T07:04:05.268Z",
+    "genereLe": "2026-11-18T07:30:00.981Z",
     "posts": 80,
     "parReseau": {
       "threads": {
@@ -895,8 +853,8 @@
       }
     },
     "publies": {
-      "threads": 21,
-      "facebook": 21,
+      "threads": 22,
+      "facebook": 22,
       "bluesky": 21,
       "x": 21,
       "instagram": 21
@@ -950,29 +908,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 3,
-      "entree": 23987,
-      "sortie": 2390,
-      "cout": 0.143748,
+      "appels": 4,
+      "entree": 31959,
+      "sortie": 3226,
+      "cout": 0.192356,
       "cle": "2026-11-18"
     },
     "semaine": {
-      "appels": 20,
-      "entree": 160631,
-      "sortie": 17628,
-      "cout": 0.995084
+      "appels": 21,
+      "entree": 168603,
+      "sortie": 18464,
+      "cout": 1.043692
     },
     "mois": {
-      "appels": 61,
-      "entree": 488163,
-      "sortie": 54299,
-      "cout": 3.0386319999999993,
+      "appels": 62,
+      "entree": 496135,
+      "sortie": 55135,
+      "cout": 3.0872399999999995,
       "cle": "2026-11"
     },
-    "projection": 5.06,
+    "projection": 5.15,
     "moyenneAppel": 0.0498,
     "parModele": {
-      "claude-opus-5-5": 61
+      "claude-opus-5-5": 62
     },
     "serie": [
       [
@@ -1029,7 +987,7 @@
       ],
       [
         "2026-11-18",
-        0.1437
+        0.1924
       ]
     ],
     "depuis": "2026-09-23"

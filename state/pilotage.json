@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-18T08:28:07.609Z",
+  "genereLe": "2026-11-18T09:08:09.982Z",
   "jour": "2026-11-18",
   "reseaux": {
     "instagram": {
@@ -61,7 +61,7 @@
         "reply"
       ],
       "aujourdhui": 1,
-      "semaine": 11,
+      "semaine": 10,
       "total": 85,
       "dernier": "2026-11-18T08:28:34.444Z",
       "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2l57yo22323"
@@ -157,7 +157,7 @@
         "reponse"
       ],
       "aujourdhui": 1,
-      "semaine": 11,
+      "semaine": 10,
       "total": 85,
       "dernier": "2026-11-18T08:28:19.768Z",
       "lienDernier": null
@@ -605,14 +605,14 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 623,
+    "releves": 625,
     "parReseau": {
       "instagram": {
         "posts": 76,
         "interactionsMoyennes": 12.9
       },
       "bluesky": {
-        "posts": 74,
+        "posts": 75,
         "interactionsMoyennes": 0.2
       },
       "facebook": {
@@ -726,8 +726,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-18T08:28:42.641Z",
-    "posts": 82,
+    "genereLe": "2026-11-18T09:08:13.722Z",
+    "posts": 83,
     "parReseau": {
       "threads": {
         "posts": 21,
@@ -738,7 +738,7 @@
         "moyenne": 7.8
       },
       "facebook": {
-        "posts": 20,
+        "posts": 21,
         "moyenne": 0
       },
       "bluesky": {
@@ -770,8 +770,8 @@
         "moyenne": 5.8
       },
       "matin": {
-        "posts": 44,
-        "moyenne": 5.6
+        "posts": 45,
+        "moyenne": 5.5
       },
       "soir": {
         "posts": 14,
@@ -799,7 +799,7 @@
       },
       "facebook": {
         "8 h – 9 h 30": {
-          "posts": 12,
+          "posts": 13,
           "moyenne": 0
         },
         "20 h – 21 h 30": {
@@ -867,11 +867,11 @@
     },
     "moinsBon": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36227",
-      "channel": "bluesky",
-      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3n2ijpujvkr2v",
-      "publieLe": "2026-11-17T07:34:12.259Z",
+      "channel": "facebook",
+      "mediaId": "227437307428711_1792524652873415",
+      "publieLe": "2026-11-17T08:29:27.745Z",
       "jalon": 1,
-      "releveLe": "2026-11-18T08:05:17.263Z",
+      "releveLe": "2026-11-18T09:08:09.982Z",
       "likes": 0,
       "commentairesBruts": 0,
       "partages": 0,
@@ -879,8 +879,8 @@
       "commentaires": 0,
       "v": 2,
       "titre": "Bus gratuits le week-end à Limoges : faudra-t-il payer en 2027 ?",
-      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2ijpujvkr2v",
-      "format": "card",
+      "lien": "https://www.facebook.com/1720946116697936/posts/1792524652873415",
+      "format": null,
       "mention": false,
       "creneau": "matin",
       "creneauReseau": "8 h – 9 h 30"
@@ -891,8 +891,8 @@
         "moyenne": 6.3
       },
       "sans": {
-        "posts": 45,
-        "moyenne": 4
+        "posts": 46,
+        "moyenne": 3.9
       }
     },
     "publies": {
@@ -946,7 +946,7 @@
       "Threads : le créneau 7 h – 8 h 30 fait 1,6 fois mieux que 10 h – 11 h 30 (15.7 contre 10 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Le format « reponse » fait 122 fois mieux que « reply » (12.2 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « reply » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+12, +1 %) ; Facebook recule (−24), à surveiller.",
-      "Les posts avec mention font 2.3 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
+      "Les posts avec mention font 2.4 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
     ]
   },
   "couts": {

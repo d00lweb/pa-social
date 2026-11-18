@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-18T06:23:00.886Z",
+  "genereLe": "2026-11-18T07:03:36.728Z",
   "jour": "2026-11-18",
   "reseaux": {
     "instagram": {
@@ -555,7 +555,53 @@
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261116-44cfe04e-th.jpg"
     }
   ],
-  "file": [],
+  "file": [
+    {
+      "channel": "threads",
+      "dueAt": "2026-11-18T07:25:05.178Z",
+      "prochainPassage": "2026-11-18T08:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Bordeaux-Langon : 130 heures sans train du 21 au 26 novembre"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-11-18T07:28:43.748Z",
+      "prochainPassage": "2026-11-18T08:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Bordeaux-Langon : 130 heures sans train du 21 au 26 novembre"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-11-18T08:20:00.000Z",
+      "prochainPassage": "2026-11-18T08:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Bordeaux-Langon : 130 heures sans train du 21 au 26 novembre"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-11-18T08:25:02.255Z",
+      "prochainPassage": "2026-11-18T09:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Bordeaux-Langon : 130 heures sans train du 21 au 26 novembre"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-11-18T11:25:39.449Z",
+      "prochainPassage": "2026-11-18T12:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Bordeaux-Langon : 130 heures sans train du 21 au 26 novembre"
+    }
+  ],
   "alertes": [],
   "mesures": {
     "releves": 620,
@@ -679,7 +725,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-18T06:23:05.882Z",
+    "genereLe": "2026-11-18T07:04:05.268Z",
     "posts": 80,
     "parReseau": {
       "threads": {
@@ -904,29 +950,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 0,
-      "entree": 0,
-      "sortie": 0,
-      "cout": 0,
+      "appels": 3,
+      "entree": 23987,
+      "sortie": 2390,
+      "cout": 0.143748,
       "cle": "2026-11-18"
     },
     "semaine": {
-      "appels": 17,
-      "entree": 136644,
-      "sortie": 15238,
-      "cout": 0.851336
+      "appels": 20,
+      "entree": 160631,
+      "sortie": 17628,
+      "cout": 0.995084
     },
     "mois": {
-      "appels": 58,
-      "entree": 464176,
-      "sortie": 51909,
-      "cout": 2.8948839999999993,
+      "appels": 61,
+      "entree": 488163,
+      "sortie": 54299,
+      "cout": 3.0386319999999993,
       "cle": "2026-11"
     },
-    "projection": 4.82,
-    "moyenneAppel": 0.0499,
+    "projection": 5.06,
+    "moyenneAppel": 0.0498,
     "parModele": {
-      "claude-opus-5-5": 58
+      "claude-opus-5-5": 61
     },
     "serie": [
       [
@@ -983,7 +1029,7 @@
       ],
       [
         "2026-11-18",
-        0
+        0.1437
       ]
     ],
     "depuis": "2026-09-23"

@@ -1,1 +1,442 @@
-[]
+[
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36194",
+    "channel": "instagram",
+    "dueAt": 1795001139449,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Bordeaux-Langon : 130 heures sans train du 21 au 26 novembre",
+      "link": "https://passion-aquitaine.ouest-france.fr/bordeaux-langon-trains-interrompus-novembre/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36194",
+      "pubDate": "Wed, 18 Nov 2026 06:30:06 +0000",
+      "date": 1794983406000,
+      "categories": [
+        "Actus",
+        "Bordeaux",
+        "Économie",
+        "Gironde",
+        "Transports"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/gare-bordeaux.jpg",
+      "description": "Du 21 au 26 novembre, plus aucun train entre Bordeaux et Langon : 130 heures de chantier pour la future ligne vers Toulouse."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Bordeaux",
+      "entites": [],
+      "lieu": {
+        "id": "115838035093755",
+        "nom": "Bordeaux",
+        "niveau": "departement"
+      },
+      "visuel": {
+        "titre": "Bordeaux-Langon : 130 heures sans train du 21 au 26 novembre",
+        "surlignage": "130 heures",
+        "description": "Du 21 au 26 novembre, plus aucun train entre Bordeaux et Langon : 130 heures de chantier pour la future ligne vers Toulouse.",
+        "texte_alternatif": "Bordeaux : Bordeaux-Langon : 130 heures sans train du 21 au 26 novembre"
+      },
+      "instagram": {
+        "texte": "Du 21 au 26 novembre, plus aucun train entre Bordeaux et Langon : 130 heures de chantier pour la future ligne vers Toulouse 🚂",
+        "hashtags": [
+          "#Bordeaux",
+          "#Economie",
+          "#NouvelleAquitaine"
+        ]
+      },
+      "facebook": {
+        "texte": "Du 21 au, plus aucun train entre Bordeaux et Langon : 130 heures de chantier pour la future ligne vers Toulouse 🚂"
+      },
+      "bluesky": {
+        "texte": "Du 21 au 26 novembre, plus aucun train entre Bordeaux et Langon : 130 heures de chantier pour la future ligne vers Toulouse 🚂",
+        "hashtag": "#Bordeaux"
+      },
+      "threads": {
+        "texte": "Du 21 au 26 novembre, plus aucun train entre Bordeaux et Langon : 130 heures de chantier pour la future ligne vers Toulouse 🚂",
+        "sujet": "Bordeaux"
+      },
+      "x": {
+        "texte": "Du 21 au, plus aucun train entre Bordeaux et Langon : 130 heures de chantier pour la future ligne vers Toulouse 🚂"
+      },
+      "source": "regles",
+      "lieuSource": {
+        "precis": "",
+        "ville": "",
+        "departement": "Bordeaux"
+      },
+      "lieuNom": "Bordeaux",
+      "commune": null,
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Voyager en train",
+            "handle": "voyagerentrain.fr",
+            "abonnes": 61599,
+            "preuve": 3,
+            "role": "theme",
+            "echelon": "domaine",
+            "thematique": true
+          }
+        ],
+        "x": [],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36194",
+    "channel": "bluesky",
+    "dueAt": 1794990302255,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Bordeaux-Langon : 130 heures sans train du 21 au 26 novembre",
+      "link": "https://passion-aquitaine.ouest-france.fr/bordeaux-langon-trains-interrompus-novembre/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36194",
+      "pubDate": "Wed, 18 Nov 2026 06:30:06 +0000",
+      "date": 1794983406000,
+      "categories": [
+        "Actus",
+        "Bordeaux",
+        "Économie",
+        "Gironde",
+        "Transports"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/gare-bordeaux.jpg",
+      "description": "Du 21 au 26 novembre, plus aucun train entre Bordeaux et Langon : 130 heures de chantier pour la future ligne vers Toulouse."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Bordeaux",
+      "entites": [],
+      "lieu": {
+        "id": "115838035093755",
+        "nom": "Bordeaux",
+        "niveau": "departement"
+      },
+      "visuel": {
+        "titre": "Bordeaux-Langon : 130 heures sans train du 21 au 26 novembre",
+        "surlignage": "130 heures",
+        "description": "Du 21 au 26 novembre, plus aucun train entre Bordeaux et Langon : 130 heures de chantier pour la future ligne vers Toulouse.",
+        "texte_alternatif": "Bordeaux : Bordeaux-Langon : 130 heures sans train du 21 au 26 novembre"
+      },
+      "instagram": {
+        "texte": "Du 21 au 26 novembre, plus aucun train entre Bordeaux et Langon : 130 heures de chantier pour la future ligne vers Toulouse 🚂",
+        "hashtags": [
+          "#Bordeaux",
+          "#Economie",
+          "#NouvelleAquitaine"
+        ]
+      },
+      "facebook": {
+        "texte": "Du 21 au, plus aucun train entre Bordeaux et Langon : 130 heures de chantier pour la future ligne vers Toulouse 🚂"
+      },
+      "bluesky": {
+        "texte": "Du 21 au 26 novembre, plus aucun train entre Bordeaux et Langon : 130 heures de chantier pour la future ligne vers Toulouse 🚂",
+        "hashtag": "#Bordeaux"
+      },
+      "threads": {
+        "texte": "Du 21 au 26 novembre, plus aucun train entre Bordeaux et Langon : 130 heures de chantier pour la future ligne vers Toulouse 🚂",
+        "sujet": "Bordeaux"
+      },
+      "x": {
+        "texte": "Du 21 au, plus aucun train entre Bordeaux et Langon : 130 heures de chantier pour la future ligne vers Toulouse 🚂"
+      },
+      "source": "regles",
+      "lieuSource": {
+        "precis": "",
+        "ville": "",
+        "departement": "Bordeaux"
+      },
+      "lieuNom": "Bordeaux",
+      "commune": null,
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Voyager en train",
+            "handle": "voyagerentrain.fr",
+            "abonnes": 61599,
+            "preuve": 3,
+            "role": "theme",
+            "echelon": "domaine",
+            "thematique": true
+          }
+        ],
+        "x": [],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36194",
+    "channel": "facebook",
+    "dueAt": 1794986923748,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Bordeaux-Langon : 130 heures sans train du 21 au 26 novembre",
+      "link": "https://passion-aquitaine.ouest-france.fr/bordeaux-langon-trains-interrompus-novembre/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36194",
+      "pubDate": "Wed, 18 Nov 2026 06:30:06 +0000",
+      "date": 1794983406000,
+      "categories": [
+        "Actus",
+        "Bordeaux",
+        "Économie",
+        "Gironde",
+        "Transports"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/gare-bordeaux.jpg",
+      "description": "Du 21 au 26 novembre, plus aucun train entre Bordeaux et Langon : 130 heures de chantier pour la future ligne vers Toulouse."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Bordeaux",
+      "entites": [],
+      "lieu": {
+        "id": "115838035093755",
+        "nom": "Bordeaux",
+        "niveau": "departement"
+      },
+      "visuel": {
+        "titre": "Bordeaux-Langon : 130 heures sans train du 21 au 26 novembre",
+        "surlignage": "130 heures",
+        "description": "Du 21 au 26 novembre, plus aucun train entre Bordeaux et Langon : 130 heures de chantier pour la future ligne vers Toulouse.",
+        "texte_alternatif": "Bordeaux : Bordeaux-Langon : 130 heures sans train du 21 au 26 novembre"
+      },
+      "instagram": {
+        "texte": "Du 21 au 26 novembre, plus aucun train entre Bordeaux et Langon : 130 heures de chantier pour la future ligne vers Toulouse 🚂",
+        "hashtags": [
+          "#Bordeaux",
+          "#Economie",
+          "#NouvelleAquitaine"
+        ]
+      },
+      "facebook": {
+        "texte": "Du 21 au, plus aucun train entre Bordeaux et Langon : 130 heures de chantier pour la future ligne vers Toulouse 🚂"
+      },
+      "bluesky": {
+        "texte": "Du 21 au 26 novembre, plus aucun train entre Bordeaux et Langon : 130 heures de chantier pour la future ligne vers Toulouse 🚂",
+        "hashtag": "#Bordeaux"
+      },
+      "threads": {
+        "texte": "Du 21 au 26 novembre, plus aucun train entre Bordeaux et Langon : 130 heures de chantier pour la future ligne vers Toulouse 🚂",
+        "sujet": "Bordeaux"
+      },
+      "x": {
+        "texte": "Du 21 au, plus aucun train entre Bordeaux et Langon : 130 heures de chantier pour la future ligne vers Toulouse 🚂"
+      },
+      "source": "regles",
+      "lieuSource": {
+        "precis": "",
+        "ville": "",
+        "departement": "Bordeaux"
+      },
+      "lieuNom": "Bordeaux",
+      "commune": null,
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Voyager en train",
+            "handle": "voyagerentrain.fr",
+            "abonnes": 61599,
+            "preuve": 3,
+            "role": "theme",
+            "echelon": "domaine",
+            "thematique": true
+          }
+        ],
+        "x": [],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36194",
+    "channel": "threads",
+    "dueAt": 1794986705178,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Bordeaux-Langon : 130 heures sans train du 21 au 26 novembre",
+      "link": "https://passion-aquitaine.ouest-france.fr/bordeaux-langon-trains-interrompus-novembre/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36194",
+      "pubDate": "Wed, 18 Nov 2026 06:30:06 +0000",
+      "date": 1794983406000,
+      "categories": [
+        "Actus",
+        "Bordeaux",
+        "Économie",
+        "Gironde",
+        "Transports"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/gare-bordeaux.jpg",
+      "description": "Du 21 au 26 novembre, plus aucun train entre Bordeaux et Langon : 130 heures de chantier pour la future ligne vers Toulouse."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Bordeaux",
+      "entites": [],
+      "lieu": {
+        "id": "115838035093755",
+        "nom": "Bordeaux",
+        "niveau": "departement"
+      },
+      "visuel": {
+        "titre": "Bordeaux-Langon : 130 heures sans train du 21 au 26 novembre",
+        "surlignage": "130 heures",
+        "description": "Du 21 au 26 novembre, plus aucun train entre Bordeaux et Langon : 130 heures de chantier pour la future ligne vers Toulouse.",
+        "texte_alternatif": "Bordeaux : Bordeaux-Langon : 130 heures sans train du 21 au 26 novembre"
+      },
+      "instagram": {
+        "texte": "Du 21 au 26 novembre, plus aucun train entre Bordeaux et Langon : 130 heures de chantier pour la future ligne vers Toulouse 🚂",
+        "hashtags": [
+          "#Bordeaux",
+          "#Economie",
+          "#NouvelleAquitaine"
+        ]
+      },
+      "facebook": {
+        "texte": "Du 21 au, plus aucun train entre Bordeaux et Langon : 130 heures de chantier pour la future ligne vers Toulouse 🚂"
+      },
+      "bluesky": {
+        "texte": "Du 21 au 26 novembre, plus aucun train entre Bordeaux et Langon : 130 heures de chantier pour la future ligne vers Toulouse 🚂",
+        "hashtag": "#Bordeaux"
+      },
+      "threads": {
+        "texte": "Du 21 au 26 novembre, plus aucun train entre Bordeaux et Langon : 130 heures de chantier pour la future ligne vers Toulouse 🚂",
+        "sujet": "Bordeaux"
+      },
+      "x": {
+        "texte": "Du 21 au, plus aucun train entre Bordeaux et Langon : 130 heures de chantier pour la future ligne vers Toulouse 🚂"
+      },
+      "source": "regles",
+      "lieuSource": {
+        "precis": "",
+        "ville": "",
+        "departement": "Bordeaux"
+      },
+      "lieuNom": "Bordeaux",
+      "commune": null,
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Voyager en train",
+            "handle": "voyagerentrain.fr",
+            "abonnes": 61599,
+            "preuve": 3,
+            "role": "theme",
+            "echelon": "domaine",
+            "thematique": true
+          }
+        ],
+        "x": [],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36194",
+    "channel": "x",
+    "dueAt": 1794990000000,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Bordeaux-Langon : 130 heures sans train du 21 au 26 novembre",
+      "link": "https://passion-aquitaine.ouest-france.fr/bordeaux-langon-trains-interrompus-novembre/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36194",
+      "pubDate": "Wed, 18 Nov 2026 06:30:06 +0000",
+      "date": 1794983406000,
+      "categories": [
+        "Actus",
+        "Bordeaux",
+        "Économie",
+        "Gironde",
+        "Transports"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/gare-bordeaux.jpg",
+      "description": "Du 21 au 26 novembre, plus aucun train entre Bordeaux et Langon : 130 heures de chantier pour la future ligne vers Toulouse."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Bordeaux",
+      "entites": [],
+      "lieu": {
+        "id": "115838035093755",
+        "nom": "Bordeaux",
+        "niveau": "departement"
+      },
+      "visuel": {
+        "titre": "Bordeaux-Langon : 130 heures sans train du 21 au 26 novembre",
+        "surlignage": "130 heures",
+        "description": "Du 21 au 26 novembre, plus aucun train entre Bordeaux et Langon : 130 heures de chantier pour la future ligne vers Toulouse.",
+        "texte_alternatif": "Bordeaux : Bordeaux-Langon : 130 heures sans train du 21 au 26 novembre"
+      },
+      "instagram": {
+        "texte": "Du 21 au 26 novembre, plus aucun train entre Bordeaux et Langon : 130 heures de chantier pour la future ligne vers Toulouse 🚂",
+        "hashtags": [
+          "#Bordeaux",
+          "#Economie",
+          "#NouvelleAquitaine"
+        ]
+      },
+      "facebook": {
+        "texte": "Du 21 au, plus aucun train entre Bordeaux et Langon : 130 heures de chantier pour la future ligne vers Toulouse 🚂"
+      },
+      "bluesky": {
+        "texte": "Du 21 au 26 novembre, plus aucun train entre Bordeaux et Langon : 130 heures de chantier pour la future ligne vers Toulouse 🚂",
+        "hashtag": "#Bordeaux"
+      },
+      "threads": {
+        "texte": "Du 21 au 26 novembre, plus aucun train entre Bordeaux et Langon : 130 heures de chantier pour la future ligne vers Toulouse 🚂",
+        "sujet": "Bordeaux"
+      },
+      "x": {
+        "texte": "Du 21 au, plus aucun train entre Bordeaux et Langon : 130 heures de chantier pour la future ligne vers Toulouse 🚂"
+      },
+      "source": "regles",
+      "lieuSource": {
+        "precis": "",
+        "ville": "",
+        "departement": "Bordeaux"
+      },
+      "lieuNom": "Bordeaux",
+      "commune": null,
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Voyager en train",
+            "handle": "voyagerentrain.fr",
+            "abonnes": 61599,
+            "preuve": 3,
+            "role": "theme",
+            "echelon": "domaine",
+            "thematique": true
+          }
+        ],
+        "x": [],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  }
+]

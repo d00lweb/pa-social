@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-19T11:00:39.290Z",
+  "genereLe": "2026-11-19T11:22:51.579Z",
   "jour": "2026-11-19",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 10,
-      "total": 88,
-      "dernier": "2026-11-18T17:34:49.194Z",
-      "lienDernier": "https://www.instagram.com/p/Df5Dbl5EwNh/"
+      "aujourdhui": 1,
+      "semaine": 11,
+      "total": 89,
+      "dernier": "2026-11-19T11:27:12.148Z",
+      "lienDernier": "https://www.instagram.com/p/Df6-JXEl5a8/"
     },
     "bluesky": {
       "actif": true,
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36221",
       "titre": "Labenne : 250 tonnes d’amiante à ôter avant l’arrivée des vagues",
       "lien": "https://passion-aquitaine.ouest-france.fr/labenne-helio-marin-rase-dune-chapelle/",
-      "at": "2026-11-19T09:01:07.741Z",
+      "at": "2026-11-19T11:27:12.148Z",
       "reseaux": {
         "threads": {
           "texte": "Imaginez un vieux bâtiment posé sur le sable, à 67 m des vagues, avec 250 tonnes d’amiante dans ses murs. C’est l’ancien hélio-marin de Labenne. Une fois démoli, il laissera la place à 3,4 hectares de dune landaise rendus à la nature 🌾",
@@ -201,6 +201,14 @@
           "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/labenne-helio-marin-rase-dune-chapelle/",
           "sujet": null,
           "publieLe": "2026-11-19T09:01:07.741Z"
+        },
+        "instagram": {
+          "texte": "🌊 À Labenne, 250 tonnes d’amiante dormaient à 67 m des vagues.\n⠀\nC’est l’ancien hélio-marin qui les renfermait. Sa démolition rend 3,4 hectares à la dune landaise, sur la côte des Landes.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Labenne #Landes #DuneLandaise",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261119-55b9a683-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-19T11:27:12.148Z"
         }
       }
     },
@@ -447,6 +455,16 @@
   ],
   "publications": [
     {
+      "channel": "instagram",
+      "at": "2026-11-19T11:27:12.148Z",
+      "titre": "Labenne : 250 tonnes d’amiante à ôter avant l’arrivée des vagues",
+      "lien": "https://passion-aquitaine.ouest-france.fr/labenne-helio-marin-rase-dune-chapelle/",
+      "lienPost": "https://www.instagram.com/p/Df6-JXEl5a8/",
+      "format": null,
+      "texte": "🌊 À Labenne, 250 tonnes d’amiante dormaient à 67 m des vagues.\n⠀\nC’est l’ancien hélio-marin qui les renfermait. Sa démolition rend 3,4 hectares à la dune landaise, sur la côte des Landes.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Labenne #Landes #DuneLandaise",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261119-55b9a683-1.jpg"
+    },
+    {
       "channel": "x",
       "at": "2026-11-19T09:01:07.741Z",
       "titre": "Labenne : 250 tonnes d’amiante à ôter avant l’arrivée des vagues",
@@ -535,29 +553,9 @@
       "format": "reponse",
       "texte": "Des boîtes d’acier qui ont traversé les océans finissent en usines, en labos ou en bases militaires 🚢 À #Bergerac, CALCUB offre une seconde vie aux conteneurs maritimes, exploités par de nombreux secteurs industriels.",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261118-0bd64f36-x.jpg"
-    },
-    {
-      "channel": "threads",
-      "at": "2026-11-18T10:14:33.222Z",
-      "titre": "À Bergerac, ces conteneurs deviennent des usines, des labos ou des bases militaires",
-      "lien": "https://passion-aquitaine.ouest-france.fr/calcub-bergerac-conteneurs-usines/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/Df4Qk6LlY08",
-      "format": "reponse",
-      "texte": "🔬 Un laboratoire installé dans un conteneur maritime, vous y auriez pensé ? À Bergerac, l’entreprise CALCUB s’est fait une spécialité de leur donner une seconde vie. Usines, labos, bases militaires : de nombreux secteurs industriels les exploitent. Vous en avez déjà croisé un, transformé ?\n@villedebergerac",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261118-0bd64f36-th.jpg"
     }
   ],
-  "file": [
-    {
-      "channel": "instagram",
-      "dueAt": "2026-11-19T11:26:30.249Z",
-      "prochainPassage": "2026-11-19T12:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Labenne : 250 tonnes d’amiante à ôter avant l’arrivée des vagues"
-    }
-  ],
+  "file": [],
   "alertes": [],
   "mesures": {
     "releves": 639,
@@ -681,7 +679,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-19T11:00:44.355Z",
+    "genereLe": "2026-11-19T11:27:15.042Z",
     "posts": 88,
     "parReseau": {
       "threads": {
@@ -855,7 +853,7 @@
       "facebook": 24,
       "bluesky": 24,
       "x": 24,
-      "instagram": 23
+      "instagram": 24
     },
     "abonnes": {
       "instagram": {

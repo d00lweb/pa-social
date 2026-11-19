@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-19T19:20:43.792Z",
+  "genereLe": "2026-11-19T20:02:33.694Z",
   "jour": "2026-11-19",
   "reseaux": {
     "instagram": {
@@ -558,7 +558,7 @@
   "file": [],
   "alertes": [],
   "mesures": {
-    "releves": 643,
+    "releves": 644,
     "parReseau": {
       "instagram": {
         "posts": 79,
@@ -679,8 +679,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-19T19:20:48.243Z",
-    "posts": 91,
+    "genereLe": "2026-11-19T20:02:36.757Z",
+    "posts": 92,
     "parReseau": {
       "threads": {
         "posts": 23,
@@ -691,7 +691,7 @@
         "moyenne": 7.1
       },
       "facebook": {
-        "posts": 22,
+        "posts": 23,
         "moyenne": 0
       },
       "bluesky": {
@@ -727,8 +727,8 @@
         "moyenne": 5.1
       },
       "soir": {
-        "posts": 15,
-        "moyenne": 1.9
+        "posts": 16,
+        "moyenne": 1.8
       }
     },
     "parCreneauReseau": {
@@ -756,7 +756,7 @@
           "moyenne": 0
         },
         "20 h – 21 h 30": {
-          "posts": 7,
+          "posts": 8,
           "moyenne": 0
         },
         "hors créneau": {
@@ -820,11 +820,11 @@
     },
     "moinsBon": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36234",
-      "channel": "bluesky",
-      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3n2ljomy54q2v",
-      "publieLe": "2026-11-18T12:11:29.779Z",
+      "channel": "facebook",
+      "mediaId": "227437307428711_1794345496024664",
+      "publieLe": "2026-11-18T19:27:53.625Z",
       "jalon": 1,
-      "releveLe": "2026-11-19T13:00:40.846Z",
+      "releveLe": "2026-11-19T20:02:33.694Z",
       "likes": 0,
       "commentairesBruts": 0,
       "partages": 0,
@@ -832,11 +832,11 @@
       "commentaires": 0,
       "v": 2,
       "titre": "À Bergerac, ces conteneurs deviennent des usines, des labos ou des bases militaires",
-      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2ljomy54q2v",
-      "format": "image",
-      "mention": true,
-      "creneau": "après-midi",
-      "creneauReseau": "12 h – 13 h 30"
+      "lien": "https://www.facebook.com/1720946116697936/posts/1794345496024664",
+      "format": null,
+      "mention": false,
+      "creneau": "soir",
+      "creneauReseau": "20 h – 21 h 30"
     },
     "mentions": {
       "avec": {
@@ -844,8 +844,8 @@
         "moyenne": 5.6
       },
       "sans": {
-        "posts": 47,
-        "moyenne": 3.9
+        "posts": 48,
+        "moyenne": 3.8
       }
     },
     "publies": {

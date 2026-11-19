@@ -1,6 +1,6 @@
 {
-  "genereLe": "2026-11-19T22:20:42.384Z",
-  "jour": "2026-11-19",
+  "genereLe": "2026-11-19T23:04:58.982Z",
+  "jour": "2026-11-20",
   "reseaux": {
     "instagram": {
       "actif": true,
@@ -24,7 +24,7 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 1,
+      "aujourdhui": 0,
       "semaine": 10,
       "total": 89,
       "dernier": "2026-11-19T11:27:12.148Z",
@@ -60,7 +60,7 @@
         "image",
         "reply"
       ],
-      "aujourdhui": 1,
+      "aujourdhui": 0,
       "semaine": 10,
       "total": 87,
       "dernier": "2026-11-19T08:08:00.434Z",
@@ -88,7 +88,7 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 1,
+      "aujourdhui": 0,
       "semaine": 10,
       "total": 84,
       "dernier": "2026-11-19T08:26:14.548Z",
@@ -122,7 +122,7 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 1,
+      "aujourdhui": 0,
       "semaine": 10,
       "total": 84,
       "dernier": "2026-11-19T07:29:24.500Z",
@@ -156,7 +156,7 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 1,
+      "aujourdhui": 0,
       "semaine": 10,
       "total": 87,
       "dernier": "2026-11-19T09:01:07.741Z",
@@ -583,7 +583,7 @@
     "2026-09"
   ],
   "jetons": {
-    "verifieLe": "2026-11-18T23:00:43.105Z",
+    "verifieLe": "2026-11-19T23:04:58.982Z",
     "meta": {
       "expireLe": "2026-12-16T20:08:59.000Z",
       "restant": 86,
@@ -591,7 +591,7 @@
     },
     "threads": {
       "expireLe": "2026-11-16T21:12:39.531Z",
-      "restant": -2,
+      "restant": -3,
       "renouvellement": "commande npm run threads:refresh"
     },
     "alertes": {
@@ -640,46 +640,46 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-19T22:00:34.834Z"
+    "derniere": "2026-11-19T23:04:58.982Z"
   },
   "abonnes": {
     "instagram": {
       "debut": 10131,
-      "fin": 10126,
-      "gain": -5,
-      "pct": 0,
-      "depuis": "2026-11-12",
-      "au": "2026-11-19"
+      "fin": 10125,
+      "gain": -6,
+      "pct": -0.1,
+      "depuis": "2026-11-13",
+      "au": "2026-11-20"
     },
     "facebook": {
       "debut": 42546,
-      "fin": 42543,
-      "gain": -3,
+      "fin": 42540,
+      "gain": -6,
       "pct": 0,
-      "depuis": "2026-11-12",
-      "au": "2026-11-19"
+      "depuis": "2026-11-13",
+      "au": "2026-11-20"
     },
     "bluesky": {
       "debut": 12,
       "fin": 12,
       "gain": 0,
       "pct": 0,
-      "depuis": "2026-11-12",
-      "au": "2026-11-19"
+      "depuis": "2026-11-13",
+      "au": "2026-11-20"
     },
     "threads": {
-      "debut": 1161,
-      "fin": 1169,
+      "debut": 1163,
+      "fin": 1171,
       "gain": 8,
       "pct": 0.7,
-      "depuis": "2026-11-12",
-      "au": "2026-11-19"
+      "depuis": "2026-11-13",
+      "au": "2026-11-20"
     },
     "x": null
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-19T22:20:47.271Z",
+    "genereLe": "2026-11-19T23:05:06.558Z",
     "posts": 92,
     "parReseau": {
       "threads": {
@@ -858,19 +858,19 @@
     "abonnes": {
       "instagram": {
         "debut": 10135,
-        "fin": 10126,
-        "gain": -9,
+        "fin": 10125,
+        "gain": -10,
         "pct": -0.1,
         "depuis": "2026-11-01",
-        "au": "2026-11-19"
+        "au": "2026-11-20"
       },
       "facebook": {
         "debut": 42567,
-        "fin": 42543,
-        "gain": -24,
+        "fin": 42540,
+        "gain": -27,
         "pct": -0.1,
         "depuis": "2026-11-01",
-        "au": "2026-11-19"
+        "au": "2026-11-20"
       },
       "bluesky": {
         "debut": 10,
@@ -878,20 +878,20 @@
         "gain": 2,
         "pct": 20,
         "depuis": "2026-11-01",
-        "au": "2026-11-19"
+        "au": "2026-11-20"
       },
       "threads": {
         "debut": 1156,
-        "fin": 1169,
-        "gain": 13,
-        "pct": 1.1,
+        "fin": 1171,
+        "gain": 15,
+        "pct": 1.3,
         "depuis": "2026-11-01",
-        "au": "2026-11-19"
+        "au": "2026-11-20"
       },
       "x": null
     },
     "engagement": {
-      "threads": 0.98,
+      "threads": 0.97,
       "instagram": 0.07,
       "facebook": 0
     },
@@ -899,22 +899,22 @@
       "Threads : le créneau 7 h – 8 h 30 fait 1,6 fois mieux que 10 h – 11 h 30 (14.7 contre 9 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Instagram : le créneau 12 h – 13 h 30 fait 1,5 fois mieux que 18 h – 19 h 30 (8.3 contre 5.5 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Le format « reponse » fait 114 fois mieux que « reply » (11.4 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « reply » de la rotation dans config/channels.json.",
-      "Abonnés : Threads progresse le plus (+13, +1,1 %) ; Facebook recule (−24), à surveiller."
+      "Abonnés : Threads progresse le plus (+15, +1,3 %) ; Facebook recule (−27), à surveiller."
     ]
   },
   "couts": {
     "jour": {
-      "appels": 1,
-      "entree": 7936,
-      "sortie": 839,
-      "cout": 0.048524,
-      "cle": "2026-11-19"
+      "appels": 0,
+      "entree": 0,
+      "sortie": 0,
+      "cout": 0,
+      "cle": "2026-11-20"
     },
     "semaine": {
-      "appels": 21,
-      "entree": 168227,
-      "sortie": 18133,
-      "cout": 1.035568
+      "appels": 14,
+      "entree": 111717,
+      "sortie": 11859,
+      "cout": 0.684048
     },
     "mois": {
       "appels": 65,
@@ -923,16 +923,12 @@
       "cout": 3.2333159999999994,
       "cle": "2026-11"
     },
-    "projection": 5.11,
+    "projection": 4.85,
     "moyenneAppel": 0.0497,
     "parModele": {
       "claude-opus-5-5": 65
     },
     "serie": [
-      [
-        "2026-11-06",
-        0.1465
-      ],
       [
         "2026-11-07",
         0.048
@@ -984,6 +980,10 @@
       [
         "2026-11-19",
         0.0485
+      ],
+      [
+        "2026-11-20",
+        0
       ]
     ],
     "depuis": "2026-09-23"

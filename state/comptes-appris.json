@@ -1942,5 +1942,34 @@
     "instagram": [],
     "threads": [],
     "bluesky": []
+  },
+  "commune:mairie:labenne": {
+    "v": 3,
+    "cherche": "2026-11-19T07:01:24.996Z",
+    "instagram": [
+      {
+        "handle": "ville_de_labenne",
+        "nom": "Ville de LABENNE",
+        "abonnes": 1596,
+        "preuve": 3
+      }
+    ],
+    "x": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:labenne:littoral": {
+    "v": 3,
+    "cherche": "2026-11-19T07:01:24.996Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:labenne:environnement": {
+    "v": 3,
+    "cherche": "2026-11-19T07:01:24.996Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
   }
 }

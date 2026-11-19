@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-19T06:27:58.610Z",
+  "genereLe": "2026-11-19T07:01:15.283Z",
   "jour": "2026-11-19",
   "reseaux": {
     "instagram": {
@@ -555,7 +555,53 @@
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261118-a54a170d-th.jpg"
     }
   ],
-  "file": [],
+  "file": [
+    {
+      "channel": "threads",
+      "dueAt": "2026-11-19T07:26:28.894Z",
+      "prochainPassage": "2026-11-19T08:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Labenne : 250 tonnes d’amiante à ôter avant l’arrivée des vagues"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-11-19T08:07:58.506Z",
+      "prochainPassage": "2026-11-19T08:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Labenne : 250 tonnes d’amiante à ôter avant l’arrivée des vagues"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-11-19T08:26:07.149Z",
+      "prochainPassage": "2026-11-19T09:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Labenne : 250 tonnes d’amiante à ôter avant l’arrivée des vagues"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-11-19T09:00:00.000Z",
+      "prochainPassage": "2026-11-19T09:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Labenne : 250 tonnes d’amiante à ôter avant l’arrivée des vagues"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-11-19T11:26:30.249Z",
+      "prochainPassage": "2026-11-19T12:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Labenne : 250 tonnes d’amiante à ôter avant l’arrivée des vagues"
+    }
+  ],
   "alertes": [],
   "mesures": {
     "releves": 632,
@@ -679,7 +725,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-19T06:28:02.733Z",
+    "genereLe": "2026-11-19T07:01:31.602Z",
     "posts": 84,
     "parReseau": {
       "threads": {
@@ -904,29 +950,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 0,
-      "entree": 0,
-      "sortie": 0,
-      "cout": 0,
+      "appels": 1,
+      "entree": 7936,
+      "sortie": 839,
+      "cout": 0.048524,
       "cle": "2026-11-19"
     },
     "semaine": {
-      "appels": 20,
-      "entree": 160291,
-      "sortie": 17294,
-      "cout": 0.987044
+      "appels": 21,
+      "entree": 168227,
+      "sortie": 18133,
+      "cout": 1.035568
     },
     "mois": {
-      "appels": 64,
-      "entree": 512058,
-      "sortie": 56828,
-      "cout": 3.1847919999999994,
+      "appels": 65,
+      "entree": 519994,
+      "sortie": 57667,
+      "cout": 3.2333159999999994,
       "cle": "2026-11"
     },
-    "projection": 5.03,
-    "moyenneAppel": 0.0498,
+    "projection": 5.11,
+    "moyenneAppel": 0.0497,
     "parModele": {
-      "claude-opus-5-5": 64
+      "claude-opus-5-5": 65
     },
     "serie": [
       [
@@ -983,7 +1029,7 @@
       ],
       [
         "2026-11-19",
-        0
+        0.0485
       ]
     ],
     "depuis": "2026-09-23"

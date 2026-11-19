@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-19T07:21:53.176Z",
+  "genereLe": "2026-11-19T08:04:31.445Z",
   "jour": "2026-11-19",
   "reseaux": {
     "instagram": {
@@ -60,11 +60,11 @@
         "image",
         "reply"
       ],
-      "aujourdhui": 0,
+      "aujourdhui": 1,
       "semaine": 10,
-      "total": 86,
-      "dernier": "2026-11-18T12:11:29.779Z",
-      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2ljomy54q2v"
+      "total": 87,
+      "dernier": "2026-11-19T08:08:00.434Z",
+      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2nmk5rx2t2t"
     },
     "facebook": {
       "actif": true,
@@ -89,7 +89,7 @@
       },
       "formats": null,
       "aujourdhui": 0,
-      "semaine": 10,
+      "semaine": 9,
       "total": 83,
       "dernier": "2026-11-18T19:27:53.625Z",
       "lienDernier": "https://www.facebook.com/1720946116697936/posts/1794345496024664"
@@ -123,7 +123,7 @@
         "reponse"
       ],
       "aujourdhui": 1,
-      "semaine": 11,
+      "semaine": 10,
       "total": 84,
       "dernier": "2026-11-19T07:29:24.500Z",
       "lienDernier": "https://www.threads.com/@lovaquitaine/post/Df6ipdflFzw"
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36221",
       "titre": "Labenne : 250 tonnes d’amiante à ôter avant l’arrivée des vagues",
       "lien": "https://passion-aquitaine.ouest-france.fr/labenne-helio-marin-rase-dune-chapelle/",
-      "at": "2026-11-19T07:29:24.500Z",
+      "at": "2026-11-19T08:08:00.434Z",
       "reseaux": {
         "threads": {
           "texte": "Imaginez un vieux bâtiment posé sur le sable, à 67 m des vagues, avec 250 tonnes d’amiante dans ses murs. C’est l’ancien hélio-marin de Labenne. Une fois démoli, il laissera la place à 3,4 hectares de dune landaise rendus à la nature 🌾",
@@ -177,6 +177,14 @@
           "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/labenne-helio-marin-rase-dune-chapelle/",
           "sujet": "Labenne",
           "publieLe": "2026-11-19T07:29:24.500Z"
+        },
+        "bluesky": {
+          "texte": "Sur le #littoral de #Labenne, l’ancien hélio-marin cachait un lourd héritage : ⚠️ 250 tonnes d’amiante, à seulement 67 m de l’océan. Sa démolition doit rendre 3,4 hectares à la dune landaise.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261119-55b9a683-bsky.jpg",
+          "mode": "card",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-19T08:08:00.434Z"
         }
       }
     },
@@ -423,6 +431,16 @@
   ],
   "publications": [
     {
+      "channel": "bluesky",
+      "at": "2026-11-19T08:08:00.434Z",
+      "titre": "Labenne : 250 tonnes d’amiante à ôter avant l’arrivée des vagues",
+      "lien": "https://passion-aquitaine.ouest-france.fr/labenne-helio-marin-rase-dune-chapelle/",
+      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2nmk5rx2t2t",
+      "format": "card",
+      "texte": "Sur le #littoral de #Labenne, l’ancien hélio-marin cachait un lourd héritage : ⚠️ 250 tonnes d’amiante, à seulement 67 m de l’océan. Sa démolition doit rendre 3,4 hectares à la dune landaise.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261119-55b9a683-bsky.jpg"
+    },
+    {
       "channel": "threads",
       "at": "2026-11-19T07:29:24.500Z",
       "titre": "Labenne : 250 tonnes d’amiante à ôter avant l’arrivée des vagues",
@@ -511,28 +529,9 @@
       "format": "reponse",
       "texte": "La coupure #Bordeaux-Langon du 21 au 26 novembre ne vise pas la ligne actuelle : ces 🚧 130 heures de chantier préparent la future ligne vers Toulouse.",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261118-a54a170d-x.jpg"
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-11-18T07:29:57.799Z",
-      "titre": "Bordeaux-Langon : 130 heures sans train du 21 au 26 novembre",
-      "lien": "https://passion-aquitaine.ouest-france.fr/bordeaux-langon-trains-interrompus-novembre/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1793705886088625",
-      "format": null,
-      "texte": "Entre Bordeaux et Langon, les rails resteront vides près de six jours d’affilée pour préparer la ligne vers Toulouse 🛤️",
-      "image": null
     }
   ],
   "file": [
-    {
-      "channel": "bluesky",
-      "dueAt": "2026-11-19T08:07:58.506Z",
-      "prochainPassage": "2026-11-19T08:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Labenne : 250 tonnes d’amiante à ôter avant l’arrivée des vagues"
-    },
     {
       "channel": "facebook",
       "dueAt": "2026-11-19T08:26:07.149Z",
@@ -563,22 +562,22 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 632,
+    "releves": 637,
     "parReseau": {
       "instagram": {
         "posts": 78,
         "interactionsMoyennes": 12.6
       },
       "bluesky": {
-        "posts": 76,
+        "posts": 77,
         "interactionsMoyennes": 0.2
       },
       "facebook": {
-        "posts": 73,
+        "posts": 74,
         "interactionsMoyennes": 0
       },
       "threads": {
-        "posts": 73,
+        "posts": 74,
         "interactionsMoyennes": 8.8
       }
     }
@@ -645,7 +644,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-19T06:27:58.610Z"
+    "derniere": "2026-11-19T08:04:31.445Z"
   },
   "abonnes": {
     "instagram": {
@@ -684,19 +683,19 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-19T07:29:27.219Z",
-    "posts": 84,
+    "genereLe": "2026-11-19T08:08:08.890Z",
+    "posts": 86,
     "parReseau": {
       "threads": {
-        "posts": 21,
-        "moyenne": 12.2
+        "posts": 22,
+        "moyenne": 11.8
       },
       "instagram": {
         "posts": 21,
         "moyenne": 7.6
       },
       "facebook": {
-        "posts": 21,
+        "posts": 22,
         "moyenne": 0
       },
       "bluesky": {
@@ -706,8 +705,8 @@
     },
     "parFormat": {
       "reponse": {
-        "posts": 21,
-        "moyenne": 12.2
+        "posts": 22,
+        "moyenne": 11.8
       },
       "card": {
         "posts": 6,
@@ -728,8 +727,8 @@
         "moyenne": 5.8
       },
       "matin": {
-        "posts": 45,
-        "moyenne": 5.5
+        "posts": 47,
+        "moyenne": 5.3
       },
       "soir": {
         "posts": 14,
@@ -739,8 +738,8 @@
     "parCreneauReseau": {
       "threads": {
         "7 h – 8 h 30": {
-          "posts": 11,
-          "moyenne": 15.7
+          "posts": 12,
+          "moyenne": 14.7
         },
         "10 h – 11 h 30": {
           "posts": 7,
@@ -757,7 +756,7 @@
       },
       "facebook": {
         "8 h – 9 h 30": {
-          "posts": 13,
+          "posts": 14,
           "moyenne": 0
         },
         "20 h – 21 h 30": {
@@ -802,7 +801,7 @@
         }
       }
     },
-    "interactionsTotal": 417,
+    "interactionsTotal": 420,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36189",
       "channel": "threads",
@@ -824,20 +823,20 @@
       "creneauReseau": "7 h – 8 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36227",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36194",
       "channel": "facebook",
-      "mediaId": "227437307428711_1792524652873415",
-      "publieLe": "2026-11-17T08:29:27.745Z",
+      "mediaId": "227437307428711_1793705886088625",
+      "publieLe": "2026-11-18T07:29:57.799Z",
       "jalon": 1,
-      "releveLe": "2026-11-18T09:08:09.982Z",
+      "releveLe": "2026-11-19T08:04:31.445Z",
       "likes": 0,
       "commentairesBruts": 0,
       "partages": 0,
       "vues": null,
       "commentaires": 0,
       "v": 2,
-      "titre": "Bus gratuits le week-end à Limoges : faudra-t-il payer en 2027 ?",
-      "lien": "https://www.facebook.com/1720946116697936/posts/1792524652873415",
+      "titre": "Bordeaux-Langon : 130 heures sans train du 21 au 26 novembre",
+      "lien": "https://www.facebook.com/1720946116697936/posts/1793705886088625",
       "format": null,
       "mention": false,
       "creneau": "matin",
@@ -845,18 +844,18 @@
     },
     "mentions": {
       "avec": {
-        "posts": 38,
-        "moyenne": 6.2
+        "posts": 39,
+        "moyenne": 6.1
       },
       "sans": {
-        "posts": 46,
+        "posts": 47,
         "moyenne": 3.9
       }
     },
     "publies": {
       "threads": 24,
       "facebook": 23,
-      "bluesky": 23,
+      "bluesky": 24,
       "x": 23,
       "instagram": 23
     },
@@ -896,15 +895,14 @@
       "x": null
     },
     "engagement": {
-      "threads": 1.04,
+      "threads": 1.01,
       "instagram": 0.08,
       "facebook": 0
     },
     "conseils": [
-      "Threads : le créneau 7 h – 8 h 30 fait 1,6 fois mieux que 10 h – 11 h 30 (15.7 contre 10 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
-      "Le format « reponse » fait 122 fois mieux que « reply » (12.2 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « reply » de la rotation dans config/channels.json.",
+      "Le format « reponse » fait 118 fois mieux que « reply » (11.8 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « reply » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+13, +1,1 %) ; Facebook recule (−24), à surveiller.",
-      "Les posts avec mention font 2.3 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
+      "Les posts avec mention font 2.2 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
     ]
   },
   "couts": {

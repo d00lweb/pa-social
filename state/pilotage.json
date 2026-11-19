@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-19T08:20:37.471Z",
+  "genereLe": "2026-11-19T09:00:57.891Z",
   "jour": "2026-11-19",
   "reseaux": {
     "instagram": {
@@ -156,10 +156,10 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
+      "aujourdhui": 1,
       "semaine": 10,
-      "total": 86,
-      "dernier": "2026-11-18T11:26:30.847Z",
+      "total": 87,
+      "dernier": "2026-11-19T09:01:07.741Z",
       "lienDernier": null
     }
   },
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36221",
       "titre": "Labenne : 250 tonnes d’amiante à ôter avant l’arrivée des vagues",
       "lien": "https://passion-aquitaine.ouest-france.fr/labenne-helio-marin-rase-dune-chapelle/",
-      "at": "2026-11-19T08:26:14.548Z",
+      "at": "2026-11-19T09:01:07.741Z",
       "reseaux": {
         "threads": {
           "texte": "Imaginez un vieux bâtiment posé sur le sable, à 67 m des vagues, avec 250 tonnes d’amiante dans ses murs. C’est l’ancien hélio-marin de Labenne. Une fois démoli, il laissera la place à 3,4 hectares de dune landaise rendus à la nature 🌾",
@@ -193,6 +193,14 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-11-19T08:26:14.548Z"
+        },
+        "x": {
+          "texte": "🧱 Que faire de 250 tonnes d’amiante posées à 67 m de l’océan ? À #Labenne, l’ancien hélio-marin est démoli pour rendre 3,4 hectares à la dune landaise.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261119-55b9a683-x.jpg",
+          "mode": "reponse",
+          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/labenne-helio-marin-rase-dune-chapelle/",
+          "sujet": null,
+          "publieLe": "2026-11-19T09:01:07.741Z"
         }
       }
     },
@@ -439,6 +447,16 @@
   ],
   "publications": [
     {
+      "channel": "x",
+      "at": "2026-11-19T09:01:07.741Z",
+      "titre": "Labenne : 250 tonnes d’amiante à ôter avant l’arrivée des vagues",
+      "lien": "https://passion-aquitaine.ouest-france.fr/labenne-helio-marin-rase-dune-chapelle/",
+      "lienPost": null,
+      "format": "reponse",
+      "texte": "🧱 Que faire de 250 tonnes d’amiante posées à 67 m de l’océan ? À #Labenne, l’ancien hélio-marin est démoli pour rendre 3,4 hectares à la dune landaise.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261119-55b9a683-x.jpg"
+    },
+    {
       "channel": "facebook",
       "at": "2026-11-19T08:26:14.548Z",
       "titre": "Labenne : 250 tonnes d’amiante à ôter avant l’arrivée des vagues",
@@ -527,28 +545,9 @@
       "format": "reponse",
       "texte": "🔬 Un laboratoire installé dans un conteneur maritime, vous y auriez pensé ? À Bergerac, l’entreprise CALCUB s’est fait une spécialité de leur donner une seconde vie. Usines, labos, bases militaires : de nombreux secteurs industriels les exploitent. Vous en avez déjà croisé un, transformé ?\n@villedebergerac",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261118-0bd64f36-th.jpg"
-    },
-    {
-      "channel": "bluesky",
-      "at": "2026-11-18T08:28:34.444Z",
-      "titre": "Bordeaux-Langon : 130 heures sans train du 21 au 26 novembre",
-      "lien": "https://passion-aquitaine.ouest-france.fr/bordeaux-langon-trains-interrompus-novembre/",
-      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2l57yo22323",
-      "format": "reply",
-      "texte": "🏗️ Pas un seul #train entre #Bordeaux et Langon pendant 130 heures, du 21 au 26 novembre. La raison de cette coupure totale : un chantier pour la future ligne vers Toulouse.\n@villedebordeaux.bsky.social",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261118-a54a170d-bsky.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "x",
-      "dueAt": "2026-11-19T09:00:00.000Z",
-      "prochainPassage": "2026-11-19T09:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Labenne : 250 tonnes d’amiante à ôter avant l’arrivée des vagues"
-    },
     {
       "channel": "instagram",
       "dueAt": "2026-11-19T11:26:30.249Z",
@@ -561,7 +560,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 637,
+    "releves": 638,
     "parReseau": {
       "instagram": {
         "posts": 78,
@@ -682,8 +681,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-19T08:26:18.021Z",
-    "posts": 86,
+    "genereLe": "2026-11-19T09:01:15.183Z",
+    "posts": 87,
     "parReseau": {
       "threads": {
         "posts": 22,
@@ -698,7 +697,7 @@
         "moyenne": 0
       },
       "bluesky": {
-        "posts": 21,
+        "posts": 22,
         "moyenne": 0
       }
     },
@@ -716,7 +715,7 @@
         "moyenne": 0
       },
       "reply": {
-        "posts": 3,
+        "posts": 4,
         "moyenne": 0
       }
     },
@@ -726,8 +725,8 @@
         "moyenne": 5.8
       },
       "matin": {
-        "posts": 47,
-        "moyenne": 5.3
+        "posts": 48,
+        "moyenne": 5.2
       },
       "soir": {
         "posts": 14,
@@ -769,7 +768,7 @@
       },
       "bluesky": {
         "8 h – 9 h 30": {
-          "posts": 13,
+          "posts": 14,
           "moyenne": 0.1
         },
         "hors créneau": {
@@ -823,28 +822,28 @@
     },
     "moinsBon": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36194",
-      "channel": "facebook",
-      "mediaId": "227437307428711_1793705886088625",
-      "publieLe": "2026-11-18T07:29:57.799Z",
+      "channel": "bluesky",
+      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3n2l57yo22323",
+      "publieLe": "2026-11-18T08:28:34.444Z",
       "jalon": 1,
-      "releveLe": "2026-11-19T08:04:31.445Z",
+      "releveLe": "2026-11-19T09:00:57.891Z",
       "likes": 0,
-      "commentairesBruts": 0,
+      "commentairesBruts": 1,
       "partages": 0,
       "vues": null,
       "commentaires": 0,
       "v": 2,
       "titre": "Bordeaux-Langon : 130 heures sans train du 21 au 26 novembre",
-      "lien": "https://www.facebook.com/1720946116697936/posts/1793705886088625",
-      "format": null,
-      "mention": false,
+      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2l57yo22323",
+      "format": "reply",
+      "mention": true,
       "creneau": "matin",
       "creneauReseau": "8 h – 9 h 30"
     },
     "mentions": {
       "avec": {
-        "posts": 39,
-        "moyenne": 6.1
+        "posts": 40,
+        "moyenne": 6
       },
       "sans": {
         "posts": 47,
@@ -855,7 +854,7 @@
       "threads": 24,
       "facebook": 24,
       "bluesky": 24,
-      "x": 23,
+      "x": 24,
       "instagram": 23
     },
     "abonnes": {
@@ -901,7 +900,7 @@
     "conseils": [
       "Le format « reponse » fait 118 fois mieux que « reply » (11.8 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « reply » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+13, +1,1 %) ; Facebook recule (−24), à surveiller.",
-      "Les posts avec mention font 2.2 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
+      "Les posts avec mention font 2.1 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
     ]
   },
   "couts": {

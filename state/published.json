@@ -7605,5 +7605,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36221",
+    "channel": "x",
+    "at": "2026-11-19T09:01:07.741Z",
+    "mediaId": "kit-telegram",
+    "titre": "Labenne : 250 tonnes d’amiante à ôter avant l’arrivée des vagues",
+    "lien": "https://passion-aquitaine.ouest-france.fr/labenne-helio-marin-rase-dune-chapelle/",
+    "lienPost": null,
+    "format": "reponse",
+    "mention": false,
+    "apercu": {
+      "texte": "🧱 Que faire de 250 tonnes d’amiante posées à 67 m de l’océan ? À #Labenne, l’ancien hélio-marin est démoli pour rendre 3,4 hectares à la dune landaise.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261119-55b9a683-x.jpg",
+      "mode": "reponse",
+      "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/labenne-helio-marin-rase-dune-chapelle/",
+      "sujet": null
+    }
   }
 ]

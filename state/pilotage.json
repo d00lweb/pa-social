@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-19T07:01:15.283Z",
+  "genereLe": "2026-11-19T07:21:53.176Z",
   "jour": "2026-11-19",
   "reseaux": {
     "instagram": {
@@ -122,11 +122,11 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 10,
-      "total": 83,
-      "dernier": "2026-11-18T10:14:33.222Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/Df4Qk6LlY08"
+      "aujourdhui": 1,
+      "semaine": 11,
+      "total": 84,
+      "dernier": "2026-11-19T07:29:24.500Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/Df6ipdflFzw"
     },
     "x": {
       "actif": true,
@@ -164,6 +164,22 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36221",
+      "titre": "Labenne : 250 tonnes d’amiante à ôter avant l’arrivée des vagues",
+      "lien": "https://passion-aquitaine.ouest-france.fr/labenne-helio-marin-rase-dune-chapelle/",
+      "at": "2026-11-19T07:29:24.500Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Imaginez un vieux bâtiment posé sur le sable, à 67 m des vagues, avec 250 tonnes d’amiante dans ses murs. C’est l’ancien hélio-marin de Labenne. Une fois démoli, il laissera la place à 3,4 hectares de dune landaise rendus à la nature 🌾",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261119-55b9a683-th.jpg",
+          "mode": "reponse",
+          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/labenne-helio-marin-rase-dune-chapelle/",
+          "sujet": "Labenne",
+          "publieLe": "2026-11-19T07:29:24.500Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36234",
       "titre": "À Bergerac, ces conteneurs deviennent des usines, des labos ou des bases militaires",
@@ -403,57 +419,19 @@
           "publieLe": "2026-11-15T12:30:28.129Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36208",
-      "titre": "Aéroport de Bordeaux : privé de Ryanair, il s’envole au Caire",
-      "lien": "https://passion-aquitaine.ouest-france.fr/aeroport-bordeaux-vol-direct-caire-hiver/",
-      "at": "2026-11-14T19:09:15.107Z",
-      "reseaux": {
-        "threads": {
-          "texte": "🛬 À Bordeaux, l’aéroport encaisse le coup. Le départ de Ryanair lui a fait perdre près de 700 000 passagers, un trou difficile à combler. Sa réponse ne manque pas d’ambition : miser sur Le Caire. Un pari pour retrouver des voyageurs et redonner de l’élan à ses pistes.\n@villedebordeaux",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261114-6495f52d-th.jpg",
-          "mode": "reponse",
-          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/aeroport-bordeaux-vol-direct-caire-hiver/",
-          "sujet": "Bordeaux",
-          "publieLe": "2026-11-14T10:27:49.836Z"
-        },
-        "x": {
-          "texte": "Lâché par Ryanair, l’aéroport de #Bordeaux regarde vers Le Caire 🐪 Après la perte de près de 700 000 passagers, c’est sur cette destination qu’il mise désormais pour rebondir.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261114-6495f52d-x.jpg",
-          "mode": "reponse",
-          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/aeroport-bordeaux-vol-direct-caire-hiver/",
-          "sujet": null,
-          "publieLe": "2026-11-14T12:01:03.318Z"
-        },
-        "bluesky": {
-          "texte": "Près de 700 000 passagers envolés : c’est ce qu’a coûté à l’aéroport de #Bordeaux le départ de Ryanair. Pour remonter la pente, la plateforme girondine mise désormais sur une destination inattendue, Le Caire 🌍\n@villedebordeaux.bsky.social",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261114-6495f52d-bsky.jpg",
-          "mode": "reply",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/aeroport-bordeaux-vol-direct-caire-hiver/",
-          "sujet": null,
-          "publieLe": "2026-11-14T12:26:42.152Z"
-        },
-        "instagram": {
-          "texte": "Des pistes bordelaises tournées vers les pyramides ✈️\n⠀\nAprès le départ de Ryanair, l’aéroport de Bordeaux a perdu près de 700 000 passagers. Pour se relancer, il parie désormais sur Le Caire.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #AeroportDeBordeaux #Transports",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261114-6495f52d-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-14T18:05:17.236Z"
-        },
-        "facebook": {
-          "texte": "Comment un aéroport qui a vu filer près de 700 000 passagers compte-t-il rebondir, sinon en regardant vers Le Caire 🛫",
-          "image": null,
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-14T19:09:15.107Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "threads",
+      "at": "2026-11-19T07:29:24.500Z",
+      "titre": "Labenne : 250 tonnes d’amiante à ôter avant l’arrivée des vagues",
+      "lien": "https://passion-aquitaine.ouest-france.fr/labenne-helio-marin-rase-dune-chapelle/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/Df6ipdflFzw",
+      "format": "reponse",
+      "texte": "Imaginez un vieux bâtiment posé sur le sable, à 67 m des vagues, avec 250 tonnes d’amiante dans ses murs. C’est l’ancien hélio-marin de Labenne. Une fois démoli, il laissera la place à 3,4 hectares de dune landaise rendus à la nature 🌾",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261119-55b9a683-th.jpg"
+    },
     {
       "channel": "facebook",
       "at": "2026-11-18T19:27:53.625Z",
@@ -543,28 +521,9 @@
       "format": null,
       "texte": "Entre Bordeaux et Langon, les rails resteront vides près de six jours d’affilée pour préparer la ligne vers Toulouse 🛤️",
       "image": null
-    },
-    {
-      "channel": "threads",
-      "at": "2026-11-18T07:29:49.520Z",
-      "titre": "Bordeaux-Langon : 130 heures sans train du 21 au 26 novembre",
-      "lien": "https://passion-aquitaine.ouest-france.fr/bordeaux-langon-trains-interrompus-novembre/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/Df3923im7mA",
-      "format": "reponse",
-      "texte": "Si vous prenez le train entre Bordeaux et Langon, notez bien ces dates 🛤️ Du 21 au 26 novembre, aucun train ne circulera sur cette portion, soit 130 heures de coupure. Le chantier sert à préparer la future ligne vers Toulouse. De quoi prévoir dès maintenant une autre solution pour vos trajets.\n@villedebordeaux",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261118-a54a170d-th.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "threads",
-      "dueAt": "2026-11-19T07:26:28.894Z",
-      "prochainPassage": "2026-11-19T08:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Labenne : 250 tonnes d’amiante à ôter avant l’arrivée des vagues"
-    },
     {
       "channel": "bluesky",
       "dueAt": "2026-11-19T08:07:58.506Z",
@@ -725,7 +684,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-19T07:01:31.602Z",
+    "genereLe": "2026-11-19T07:29:27.219Z",
     "posts": 84,
     "parReseau": {
       "threads": {
@@ -895,7 +854,7 @@
       }
     },
     "publies": {
-      "threads": 23,
+      "threads": 24,
       "facebook": 23,
       "bluesky": 23,
       "x": 23,

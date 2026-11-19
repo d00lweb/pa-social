@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-19T12:01:43.335Z",
+  "genereLe": "2026-11-19T13:00:40.846Z",
   "jour": "2026-11-19",
   "reseaux": {
     "instagram": {
@@ -558,7 +558,7 @@
   "file": [],
   "alertes": [],
   "mesures": {
-    "releves": 641,
+    "releves": 642,
     "parReseau": {
       "instagram": {
         "posts": 79,
@@ -679,8 +679,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-19T12:01:49.191Z",
-    "posts": 89,
+    "genereLe": "2026-11-19T13:00:46.352Z",
+    "posts": 90,
     "parReseau": {
       "threads": {
         "posts": 23,
@@ -695,7 +695,7 @@
         "moyenne": 0
       },
       "bluesky": {
-        "posts": 22,
+        "posts": 23,
         "moyenne": 0
       }
     },
@@ -709,7 +709,7 @@
         "moyenne": 0.2
       },
       "image": {
-        "posts": 12,
+        "posts": 13,
         "moyenne": 0
       },
       "reply": {
@@ -719,8 +719,8 @@
     },
     "parCreneau": {
       "après-midi": {
-        "posts": 26,
-        "moyenne": 5.7
+        "posts": 27,
+        "moyenne": 5.4
       },
       "matin": {
         "posts": 49,
@@ -774,7 +774,7 @@
           "moyenne": 0
         },
         "12 h – 13 h 30": {
-          "posts": 6,
+          "posts": 7,
           "moyenne": 0
         },
         "18 h – 19 h 30": {
@@ -819,29 +819,29 @@
       "creneauReseau": "7 h – 8 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36194",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36234",
       "channel": "bluesky",
-      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3n2l57yo22323",
-      "publieLe": "2026-11-18T08:28:34.444Z",
+      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3n2ljomy54q2v",
+      "publieLe": "2026-11-18T12:11:29.779Z",
       "jalon": 1,
-      "releveLe": "2026-11-19T09:00:57.891Z",
+      "releveLe": "2026-11-19T13:00:40.846Z",
       "likes": 0,
-      "commentairesBruts": 1,
+      "commentairesBruts": 0,
       "partages": 0,
       "vues": null,
       "commentaires": 0,
       "v": 2,
-      "titre": "Bordeaux-Langon : 130 heures sans train du 21 au 26 novembre",
-      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2l57yo22323",
-      "format": "reply",
+      "titre": "À Bergerac, ces conteneurs deviennent des usines, des labos ou des bases militaires",
+      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2ljomy54q2v",
+      "format": "image",
       "mention": true,
-      "creneau": "matin",
-      "creneauReseau": "8 h – 9 h 30"
+      "creneau": "après-midi",
+      "creneauReseau": "12 h – 13 h 30"
     },
     "mentions": {
       "avec": {
-        "posts": 42,
-        "moyenne": 5.8
+        "posts": 43,
+        "moyenne": 5.7
       },
       "sans": {
         "posts": 47,
@@ -899,7 +899,7 @@
       "Threads : le créneau 7 h – 8 h 30 fait 1,6 fois mieux que 10 h – 11 h 30 (14.7 contre 9 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Le format « reponse » fait 114 fois mieux que « reply » (11.4 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « reply » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+13, +1,1 %) ; Facebook recule (−24), à surveiller.",
-      "Les posts avec mention font 1.9 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
+      "Les posts avec mention font 1.8 interactions de plus en moyenne : le mécanisme mérite d'être étendu."
     ]
   },
   "couts": {

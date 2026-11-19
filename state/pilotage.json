@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-19T08:09:12.994Z",
+  "genereLe": "2026-11-19T08:20:37.471Z",
   "jour": "2026-11-19",
   "reseaux": {
     "instagram": {
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 9,
-      "total": 83,
-      "dernier": "2026-11-18T19:27:53.625Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1794345496024664"
+      "aujourdhui": 1,
+      "semaine": 10,
+      "total": 84,
+      "dernier": "2026-11-19T08:26:14.548Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1795109362614944"
     },
     "threads": {
       "actif": true,
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36221",
       "titre": "Labenne : 250 tonnes d’amiante à ôter avant l’arrivée des vagues",
       "lien": "https://passion-aquitaine.ouest-france.fr/labenne-helio-marin-rase-dune-chapelle/",
-      "at": "2026-11-19T08:08:00.434Z",
+      "at": "2026-11-19T08:26:14.548Z",
       "reseaux": {
         "threads": {
           "texte": "Imaginez un vieux bâtiment posé sur le sable, à 67 m des vagues, avec 250 tonnes d’amiante dans ses murs. C’est l’ancien hélio-marin de Labenne. Une fois démoli, il laissera la place à 3,4 hectares de dune landaise rendus à la nature 🌾",
@@ -185,6 +185,14 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-11-19T08:08:00.434Z"
+        },
+        "facebook": {
+          "texte": "Bientôt 3,4 hectares de dune en plus à Labenne, une fois l’amiante de l’ancien hélio-marin retirée 🏖️",
+          "image": null,
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-19T08:26:14.548Z"
         }
       }
     },
@@ -431,6 +439,16 @@
   ],
   "publications": [
     {
+      "channel": "facebook",
+      "at": "2026-11-19T08:26:14.548Z",
+      "titre": "Labenne : 250 tonnes d’amiante à ôter avant l’arrivée des vagues",
+      "lien": "https://passion-aquitaine.ouest-france.fr/labenne-helio-marin-rase-dune-chapelle/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1795109362614944",
+      "format": null,
+      "texte": "Bientôt 3,4 hectares de dune en plus à Labenne, une fois l’amiante de l’ancien hélio-marin retirée 🏖️",
+      "image": null
+    },
+    {
       "channel": "bluesky",
       "at": "2026-11-19T08:08:00.434Z",
       "titre": "Labenne : 250 tonnes d’amiante à ôter avant l’arrivée des vagues",
@@ -519,28 +537,9 @@
       "format": "reply",
       "texte": "🏗️ Pas un seul #train entre #Bordeaux et Langon pendant 130 heures, du 21 au 26 novembre. La raison de cette coupure totale : un chantier pour la future ligne vers Toulouse.\n@villedebordeaux.bsky.social",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261118-a54a170d-bsky.jpg"
-    },
-    {
-      "channel": "x",
-      "at": "2026-11-18T08:28:19.768Z",
-      "titre": "Bordeaux-Langon : 130 heures sans train du 21 au 26 novembre",
-      "lien": "https://passion-aquitaine.ouest-france.fr/bordeaux-langon-trains-interrompus-novembre/",
-      "lienPost": null,
-      "format": "reponse",
-      "texte": "La coupure #Bordeaux-Langon du 21 au 26 novembre ne vise pas la ligne actuelle : ces 🚧 130 heures de chantier préparent la future ligne vers Toulouse.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261118-a54a170d-x.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "facebook",
-      "dueAt": "2026-11-19T08:26:07.149Z",
-      "prochainPassage": "2026-11-19T09:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Labenne : 250 tonnes d’amiante à ôter avant l’arrivée des vagues"
-    },
     {
       "channel": "x",
       "dueAt": "2026-11-19T09:00:00.000Z",
@@ -683,7 +682,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-19T08:09:18.996Z",
+    "genereLe": "2026-11-19T08:26:18.021Z",
     "posts": 86,
     "parReseau": {
       "threads": {
@@ -854,7 +853,7 @@
     },
     "publies": {
       "threads": 24,
-      "facebook": 23,
+      "facebook": 24,
       "bluesky": 24,
       "x": 23,
       "instagram": 23

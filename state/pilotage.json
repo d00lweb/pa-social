@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-20T20:20:33.601Z",
+  "genereLe": "2026-11-20T21:01:18.531Z",
   "jour": "2026-11-20",
   "reseaux": {
     "instagram": {
@@ -561,6 +561,24 @@
       "titre": "Ils sont encore là, mais presque invisibles : le plan pour sauver les visons d’Europe"
     },
     {
+      "channel": "threads",
+      "dueAt": "2026-11-21T10:27:21.765Z",
+      "prochainPassage": "2026-11-21T11:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Jugé à Angoulême, ce voleur de notaires s’offrait des cartes Pokémon estimées à 20 000 €"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-11-21T11:20:00.000Z",
+      "prochainPassage": "2026-11-21T11:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Jugé à Angoulême, ce voleur de notaires s’offrait des cartes Pokémon estimées à 20 000 €"
+    },
+    {
       "channel": "instagram",
       "dueAt": "2026-11-21T11:23:48.199Z",
       "prochainPassage": "2026-11-21T12:00:00.000Z",
@@ -586,6 +604,33 @@
       "prevuInitialement": "2026-11-21T12:14:04.101Z",
       "raison": "un autre post occupait déjà ce créneau",
       "titre": "Ils sont encore là, mais presque invisibles : le plan pour sauver les visons d’Europe"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-11-21T18:11:00.629Z",
+      "prochainPassage": "2026-11-21T18:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Jugé à Angoulême, ce voleur de notaires s’offrait des cartes Pokémon estimées à 20 000 €"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-11-21T20:13:55.481Z",
+      "prochainPassage": "2026-11-21T20:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Jugé à Angoulême, ce voleur de notaires s’offrait des cartes Pokémon estimées à 20 000 €"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-11-22T11:03:01.319Z",
+      "prochainPassage": "2026-11-22T11:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Jugé à Angoulême, ce voleur de notaires s’offrait des cartes Pokémon estimées à 20 000 €"
     }
   ],
   "alertes": [
@@ -687,7 +732,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-20T20:00:41.073Z"
+    "derniere": "2026-11-20T21:01:18.531Z"
   },
   "abonnes": {
     "instagram": {
@@ -726,7 +771,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-20T20:20:37.803Z",
+    "genereLe": "2026-11-20T21:01:41.375Z",
     "posts": 96,
     "parReseau": {
       "threads": {
@@ -951,29 +996,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 6,
-      "entree": 48224,
-      "sortie": 6309,
-      "cout": 0.319076,
+      "appels": 7,
+      "entree": 56199,
+      "sortie": 7495,
+      "cout": 0.374696,
       "cle": "2026-11-20"
     },
     "semaine": {
-      "appels": 20,
-      "entree": 159941,
-      "sortie": 18168,
-      "cout": 1.0031240000000001
+      "appels": 21,
+      "entree": 167916,
+      "sortie": 19354,
+      "cout": 1.0587440000000001
     },
     "mois": {
-      "appels": 71,
-      "entree": 568218,
-      "sortie": 63976,
-      "cout": 3.5523919999999993,
+      "appels": 72,
+      "entree": 576193,
+      "sortie": 65162,
+      "cout": 3.6080119999999996,
       "cle": "2026-11"
     },
-    "projection": 5.33,
-    "moyenneAppel": 0.05,
+    "projection": 5.41,
+    "moyenneAppel": 0.0501,
     "parModele": {
-      "claude-opus-5-5": 71
+      "claude-opus-5-5": 72
     },
     "serie": [
       [
@@ -1030,7 +1075,7 @@
       ],
       [
         "2026-11-20",
-        0.3191
+        0.3747
       ]
     ],
     "depuis": "2026-09-23"

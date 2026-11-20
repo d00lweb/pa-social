@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-20T08:21:07.559Z",
+  "genereLe": "2026-11-20T09:01:11.292Z",
   "jour": "2026-11-20",
   "reseaux": {
     "instagram": {
@@ -576,6 +576,15 @@
       "titre": "Golfe de Gascogne : l’hiver 2025, les dauphins sont surtout morts avant l’arrêt de pêche"
     },
     {
+      "channel": "threads",
+      "dueAt": "2026-11-20T12:24:33.982Z",
+      "prochainPassage": "2026-11-20T13:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Ils sont encore là, mais presque invisibles : le plan pour sauver les visons d’Europe"
+    },
+    {
       "channel": "bluesky",
       "dueAt": "2026-11-20T12:28:12.700Z",
       "prochainPassage": "2026-11-20T13:00:00.000Z",
@@ -583,6 +592,15 @@
       "prevuInitialement": null,
       "raison": null,
       "titre": "Golfe de Gascogne : l’hiver 2025, les dauphins sont surtout morts avant l’arrêt de pêche"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-11-20T16:20:00.000Z",
+      "prochainPassage": "2026-11-20T16:20:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Ils sont encore là, mais presque invisibles : le plan pour sauver les visons d’Europe"
     },
     {
       "channel": "instagram",
@@ -594,6 +612,15 @@
       "titre": "Golfe de Gascogne : l’hiver 2025, les dauphins sont surtout morts avant l’arrêt de pêche"
     },
     {
+      "channel": "bluesky",
+      "dueAt": "2026-11-20T18:26:46.099Z",
+      "prochainPassage": "2026-11-20T19:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Ils sont encore là, mais presque invisibles : le plan pour sauver les visons d’Europe"
+    },
+    {
       "channel": "facebook",
       "dueAt": "2026-11-20T20:05:21.306Z",
       "prochainPassage": "2026-11-20T20:20:00.000Z",
@@ -601,11 +628,29 @@
       "prevuInitialement": null,
       "raison": null,
       "titre": "Golfe de Gascogne : l’hiver 2025, les dauphins sont surtout morts avant l’arrêt de pêche"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-11-21T07:03:05.836Z",
+      "prochainPassage": "2026-11-21T07:20:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Ils sont encore là, mais presque invisibles : le plan pour sauver les visons d’Europe"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-11-21T12:14:04.101Z",
+      "prochainPassage": "2026-11-21T12:20:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Ils sont encore là, mais presque invisibles : le plan pour sauver les visons d’Europe"
     }
   ],
   "alertes": [],
   "mesures": {
-    "releves": 649,
+    "releves": 650,
     "parReseau": {
       "instagram": {
         "posts": 79,
@@ -726,8 +771,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-20T08:26:24.693Z",
-    "posts": 94,
+    "genereLe": "2026-11-20T09:01:59.962Z",
+    "posts": 95,
     "parReseau": {
       "threads": {
         "posts": 24,
@@ -738,7 +783,7 @@
         "moyenne": 7.1
       },
       "facebook": {
-        "posts": 23,
+        "posts": 24,
         "moyenne": 0
       },
       "bluesky": {
@@ -766,8 +811,8 @@
     },
     "parCreneau": {
       "matin": {
-        "posts": 51,
-        "moyenne": 5.5
+        "posts": 52,
+        "moyenne": 5.4
       },
       "après-midi": {
         "posts": 27,
@@ -799,7 +844,7 @@
       },
       "facebook": {
         "8 h – 9 h 30": {
-          "posts": 14,
+          "posts": 15,
           "moyenne": 0
         },
         "20 h – 21 h 30": {
@@ -867,11 +912,11 @@
     },
     "moinsBon": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36221",
-      "channel": "bluesky",
-      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3n2nmk5rx2t2t",
-      "publieLe": "2026-11-19T08:08:00.434Z",
+      "channel": "facebook",
+      "mediaId": "227437307428711_1795109362614944",
+      "publieLe": "2026-11-19T08:26:14.548Z",
       "jalon": 1,
-      "releveLe": "2026-11-20T08:21:07.559Z",
+      "releveLe": "2026-11-20T09:01:11.292Z",
       "likes": 0,
       "commentairesBruts": 0,
       "partages": 0,
@@ -879,8 +924,8 @@
       "commentaires": 0,
       "v": 2,
       "titre": "Labenne : 250 tonnes d’amiante à ôter avant l’arrivée des vagues",
-      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2nmk5rx2t2t",
-      "format": "card",
+      "lien": "https://www.facebook.com/1720946116697936/posts/1795109362614944",
+      "format": null,
       "mention": false,
       "creneau": "matin",
       "creneauReseau": "8 h – 9 h 30"
@@ -891,8 +936,8 @@
         "moyenne": 5.6
       },
       "sans": {
-        "posts": 50,
-        "moyenne": 4.2
+        "posts": 51,
+        "moyenne": 4.1
       }
     },
     "publies": {
@@ -951,29 +996,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 3,
-      "entree": 24090,
-      "sortie": 2735,
-      "cout": 0.15106,
+      "appels": 6,
+      "entree": 48224,
+      "sortie": 6309,
+      "cout": 0.319076,
       "cle": "2026-11-20"
     },
     "semaine": {
-      "appels": 17,
-      "entree": 135807,
-      "sortie": 14594,
-      "cout": 0.835108
+      "appels": 20,
+      "entree": 159941,
+      "sortie": 18168,
+      "cout": 1.0031240000000001
     },
     "mois": {
-      "appels": 68,
-      "entree": 544084,
-      "sortie": 60402,
-      "cout": 3.3843759999999996,
+      "appels": 71,
+      "entree": 568218,
+      "sortie": 63976,
+      "cout": 3.5523919999999993,
       "cle": "2026-11"
     },
-    "projection": 5.08,
-    "moyenneAppel": 0.0498,
+    "projection": 5.33,
+    "moyenneAppel": 0.05,
     "parModele": {
-      "claude-opus-5-5": 68
+      "claude-opus-5-5": 71
     },
     "serie": [
       [
@@ -1030,7 +1075,7 @@
       ],
       [
         "2026-11-20",
-        0.1511
+        0.3191
       ]
     ],
     "depuis": "2026-09-23"

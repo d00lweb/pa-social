@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-20T07:00:50.820Z",
+  "genereLe": "2026-11-20T07:20:44.734Z",
   "jour": "2026-11-20",
   "reseaux": {
     "instagram": {
@@ -122,11 +122,11 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 10,
-      "total": 84,
-      "dernier": "2026-11-19T07:29:24.500Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/Df6ipdflFzw"
+      "aujourdhui": 1,
+      "semaine": 11,
+      "total": 85,
+      "dernier": "2026-11-20T07:30:43.088Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/Df9Hf3elU0g"
     },
     "x": {
       "actif": true,
@@ -164,6 +164,22 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36183",
+      "titre": "8 000 arbres fruitiers anciens seront mis en vente près d’Agen",
+      "lien": "https://passion-aquitaine.ouest-france.fr/fete-arbre-barolle-fruitiers-anciens-montesquieu/",
+      "at": "2026-11-20T07:30:43.088Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Et si votre prochain arbre venait d’une variété que plus personne ne cultive ? 🍎 144 variétés anciennes de fruitiers seront proposées le 29 novembre à Montesquieu, près d’Agen, pendant la Fête de l’Arbre. Au total, 8 000 arbres à adopter. Vous avez déjà un fruit d’antan en tête pour votre jardin ?",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261120-cde6fa54-th.jpg",
+          "mode": "reponse",
+          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/fete-arbre-barolle-fruitiers-anciens-montesquieu/",
+          "sujet": "Montesquieu",
+          "publieLe": "2026-11-20T07:30:43.088Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36221",
       "titre": "Labenne : 250 tonnes d’amiante à ôter avant l’arrivée des vagues",
@@ -403,57 +419,19 @@
           "publieLe": "2026-11-16T20:14:10.277Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36189",
-      "titre": "Déjà 20 200 grues cendrées à Arjuzanx, 2,6 fois plus qu’en 2025",
-      "lien": "https://passion-aquitaine.ouest-france.fr/grues-cendrees-arjuzanx-novembre-2026/",
-      "at": "2026-11-15T12:30:28.129Z",
-      "reseaux": {
-        "threads": {
-          "texte": "Une ancienne mine qui se remplit d’oiseaux, ça ne s’invente pas. À Arjuzanx, dans les Landes, 🦩 20 200 grues cendrées ont été comptées le 9 novembre. Un an plus tôt, elles étaient 7 706. Soit 2,6 fois plus en un an.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261115-4e3e2639-th.jpg",
-          "mode": "reponse",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/grues-cendrees-arjuzanx-novembre-2026/",
-          "sujet": "Arjuzanx",
-          "publieLe": "2026-11-15T07:29:58.543Z"
-        },
-        "facebook": {
-          "texte": "20 200 grues cendrées comptées dans une ancienne mine landaise, contre 7 706 seulement un an plus tôt 🪶",
-          "image": null,
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-15T07:34:05.747Z"
-        },
-        "bluesky": {
-          "texte": "#Arjuzanx, dans les #Landes, voit affluer les grues cendrées 🐦 Le comptage du 9 novembre en recense 20 200, contre 7 706 un an plus tôt. Une ancienne mine transformée en dortoir géant.\n➡️ Lire l’article",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261115-4e3e2639-bsky.jpg",
-          "mode": "image",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-15T08:03:11.031Z"
-        },
-        "x": {
-          "texte": "Spectacle à ne pas manquer dans les Landes : 20 200 grues cendrées déjà comptées à #Arjuzanx, 2,6 fois plus qu’en 2025 🔭",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261115-4e3e2639-x.jpg",
-          "mode": "reponse",
-          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/grues-cendrees-arjuzanx-novembre-2026/",
-          "sujet": null,
-          "publieLe": "2026-11-15T08:21:12.882Z"
-        },
-        "instagram": {
-          "texte": "Pourquoi une ancienne mine des Landes attire-t-elle autant de grues cendrées ?\n⠀\nÀ Arjuzanx, 20 200 grues ont été comptées le 9 novembre, contre 7 706 un an plus tôt. Un rassemblement 2,6 fois plus important qu’en 2025 🦢\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Landes #GruesCendrees #Ornithologie",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261115-4e3e2639-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-15T12:30:28.129Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "threads",
+      "at": "2026-11-20T07:30:43.088Z",
+      "titre": "8 000 arbres fruitiers anciens seront mis en vente près d’Agen",
+      "lien": "https://passion-aquitaine.ouest-france.fr/fete-arbre-barolle-fruitiers-anciens-montesquieu/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/Df9Hf3elU0g",
+      "format": "reponse",
+      "texte": "Et si votre prochain arbre venait d’une variété que plus personne ne cultive ? 🍎 144 variétés anciennes de fruitiers seront proposées le 29 novembre à Montesquieu, près d’Agen, pendant la Fête de l’Arbre. Au total, 8 000 arbres à adopter. Vous avez déjà un fruit d’antan en tête pour votre jardin ?",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261120-cde6fa54-th.jpg"
+    },
     {
       "channel": "instagram",
       "at": "2026-11-19T11:27:12.148Z",
@@ -543,28 +521,9 @@
       "format": null,
       "texte": "130 heures d’affilée : c’est le temps de coupure totale des trains entre Bordeaux et Langon 🚧\n⠀\nDu 21 au 26 novembre, la ligne s’arrête en Gironde pour laisser place au chantier de la future liaison vers Toulouse. Mieux vaut anticiper ses trajets.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #Langon #Train",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261118-a54a170d-1.jpg"
-    },
-    {
-      "channel": "x",
-      "at": "2026-11-18T11:26:30.847Z",
-      "titre": "À Bergerac, ces conteneurs deviennent des usines, des labos ou des bases militaires",
-      "lien": "https://passion-aquitaine.ouest-france.fr/calcub-bergerac-conteneurs-usines/",
-      "lienPost": null,
-      "format": "reponse",
-      "texte": "Des boîtes d’acier qui ont traversé les océans finissent en usines, en labos ou en bases militaires 🚢 À #Bergerac, CALCUB offre une seconde vie aux conteneurs maritimes, exploités par de nombreux secteurs industriels.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261118-0bd64f36-x.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "threads",
-      "dueAt": "2026-11-20T07:26:57.660Z",
-      "prochainPassage": "2026-11-20T08:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "8 000 arbres fruitiers anciens seront mis en vente près d’Agen"
-    },
     {
       "channel": "x",
       "dueAt": "2026-11-20T08:00:00.000Z",
@@ -731,7 +690,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-20T06:04:50.621Z"
+    "derniere": "2026-11-20T07:20:44.734Z"
   },
   "abonnes": {
     "instagram": {
@@ -770,7 +729,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-20T07:01:48.252Z",
+    "genereLe": "2026-11-20T07:30:46.799Z",
     "posts": 92,
     "parReseau": {
       "threads": {
@@ -940,7 +899,7 @@
       }
     },
     "publies": {
-      "threads": 24,
+      "threads": 25,
       "facebook": 24,
       "bluesky": 24,
       "x": 24,

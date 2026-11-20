@@ -318,8 +318,8 @@
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=36255",
     "channel": "threads",
     "dueAt": 1795181007384,
-    "status": "pending",
-    "attempts": 2,
+    "status": "failed",
+    "attempts": 3,
     "article": {
       "title": "Golfe de Gascogne : l’hiver 2025, les dauphins sont surtout morts avant l’arrêt de pêche",
       "link": "https://passion-aquitaine.ouest-france.fr/dauphins-golfe-gascogne-peche-fermeture/",

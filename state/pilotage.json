@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-20T13:00:38.374Z",
+  "genereLe": "2026-11-20T13:20:44.924Z",
   "jour": "2026-11-20",
   "reseaux": {
     "instagram": {
@@ -557,15 +557,6 @@
   ],
   "file": [
     {
-      "channel": "threads",
-      "dueAt": "2026-11-20T13:23:27.384Z",
-      "prochainPassage": "2026-11-20T14:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": "2026-11-20T10:29:22.336Z",
-      "raison": "l’heure n’était pas dans les créneaux du réseau",
-      "titre": "Golfe de Gascogne : l’hiver 2025, les dauphins sont surtout morts avant l’arrêt de pêche"
-    },
-    {
       "channel": "x",
       "dueAt": "2026-11-20T16:20:00.000Z",
       "prochainPassage": "2026-11-20T16:20:00.000Z",
@@ -647,7 +638,15 @@
       "titre": "Ils sont encore là, mais presque invisibles : le plan pour sauver les visons d’Europe"
     }
   ],
-  "alertes": [],
+  "alertes": [
+    {
+      "channel": "threads",
+      "statut": "failed",
+      "titre": "Golfe de Gascogne : l’hiver 2025, les dauphins sont surtout morts avant l’arrêt de pêche",
+      "raison": "Image 404 : https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/tete-dauphin.jpg",
+      "quand": "2026-11-20T13:23:27.384Z"
+    }
+  ],
   "mesures": {
     "releves": 654,
     "parReseau": {
@@ -731,7 +730,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-20T12:01:11.562Z"
+    "derniere": "2026-11-20T13:20:44.924Z"
   },
   "abonnes": {
     "instagram": {
@@ -770,7 +769,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-20T13:00:42.297Z",
+    "genereLe": "2026-11-20T13:20:49.937Z",
     "posts": 96,
     "parReseau": {
       "threads": {

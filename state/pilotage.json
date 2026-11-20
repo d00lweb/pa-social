@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-20T12:21:19.192Z",
+  "genereLe": "2026-11-20T13:00:38.374Z",
   "jour": "2026-11-20",
   "reseaux": {
     "instagram": {
@@ -557,21 +557,12 @@
   ],
   "file": [
     {
-      "channel": "bluesky",
-      "dueAt": "2026-11-20T12:26:36.975Z",
-      "prochainPassage": "2026-11-20T13:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Golfe de Gascogne : l’hiver 2025, les dauphins sont surtout morts avant l’arrêt de pêche"
-    },
-    {
       "channel": "threads",
-      "dueAt": "2026-11-20T13:14:15.552Z",
-      "prochainPassage": "2026-11-20T13:20:00.000Z",
+      "dueAt": "2026-11-20T13:23:27.384Z",
+      "prochainPassage": "2026-11-20T14:00:00.000Z",
       "nature": "actu",
       "prevuInitialement": "2026-11-20T10:29:22.336Z",
-      "raison": "son créneau était passé",
+      "raison": "l’heure n’était pas dans les créneaux du réseau",
       "titre": "Golfe de Gascogne : l’hiver 2025, les dauphins sont surtout morts avant l’arrêt de pêche"
     },
     {
@@ -594,12 +585,12 @@
     },
     {
       "channel": "bluesky",
-      "dueAt": "2026-11-20T18:26:46.099Z",
+      "dueAt": "2026-11-20T18:29:13.386Z",
       "prochainPassage": "2026-11-20T19:00:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Ils sont encore là, mais presque invisibles : le plan pour sauver les visons d’Europe"
+      "nature": "actu",
+      "prevuInitialement": "2026-11-20T12:26:36.975Z",
+      "raison": "son créneau était passé",
+      "titre": "Golfe de Gascogne : l’hiver 2025, les dauphins sont surtout morts avant l’arrêt de pêche"
     },
     {
       "channel": "facebook",
@@ -625,6 +616,15 @@
       "prochainPassage": "2026-11-21T07:20:00.000Z",
       "nature": "evergreen",
       "prevuInitialement": "2026-11-20T12:24:33.982Z",
+      "raison": "un autre post occupait déjà ce créneau",
+      "titre": "Ils sont encore là, mais presque invisibles : le plan pour sauver les visons d’Europe"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-11-21T08:10:28.521Z",
+      "prochainPassage": "2026-11-21T08:20:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": "2026-11-20T18:26:46.099Z",
       "raison": "un autre post occupait déjà ce créneau",
       "titre": "Ils sont encore là, mais presque invisibles : le plan pour sauver les visons d’Europe"
     },
@@ -770,7 +770,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-20T12:21:24.598Z",
+    "genereLe": "2026-11-20T13:00:42.297Z",
     "posts": 96,
     "parReseau": {
       "threads": {

@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-20T06:26:43.435Z",
+  "genereLe": "2026-11-20T07:00:50.820Z",
   "jour": "2026-11-20",
   "reseaux": {
     "instagram": {
@@ -555,7 +555,98 @@
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261118-0bd64f36-x.jpg"
     }
   ],
-  "file": [],
+  "file": [
+    {
+      "channel": "threads",
+      "dueAt": "2026-11-20T07:26:57.660Z",
+      "prochainPassage": "2026-11-20T08:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "8 000 arbres fruitiers anciens seront mis en vente près d’Agen"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-11-20T08:00:00.000Z",
+      "prochainPassage": "2026-11-20T08:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "8 000 arbres fruitiers anciens seront mis en vente près d’Agen"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-11-20T08:04:10.635Z",
+      "prochainPassage": "2026-11-20T08:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "8 000 arbres fruitiers anciens seront mis en vente près d’Agen"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-11-20T08:26:16.805Z",
+      "prochainPassage": "2026-11-20T09:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "8 000 arbres fruitiers anciens seront mis en vente près d’Agen"
+    },
+    {
+      "channel": "threads",
+      "dueAt": "2026-11-20T10:24:46.414Z",
+      "prochainPassage": "2026-11-20T11:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Golfe de Gascogne : l’hiver 2025, les dauphins sont surtout morts avant l’arrêt de pêche"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-11-20T11:23:10.016Z",
+      "prochainPassage": "2026-11-20T12:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "8 000 arbres fruitiers anciens seront mis en vente près d’Agen"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-11-20T12:00:00.000Z",
+      "prochainPassage": "2026-11-20T12:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Golfe de Gascogne : l’hiver 2025, les dauphins sont surtout morts avant l’arrêt de pêche"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-11-20T12:28:12.700Z",
+      "prochainPassage": "2026-11-20T13:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Golfe de Gascogne : l’hiver 2025, les dauphins sont surtout morts avant l’arrêt de pêche"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-11-20T18:14:10.180Z",
+      "prochainPassage": "2026-11-20T18:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Golfe de Gascogne : l’hiver 2025, les dauphins sont surtout morts avant l’arrêt de pêche"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-11-20T20:05:21.306Z",
+      "prochainPassage": "2026-11-20T20:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Golfe de Gascogne : l’hiver 2025, les dauphins sont surtout morts avant l’arrêt de pêche"
+    }
+  ],
   "alertes": [],
   "mesures": {
     "releves": 644,
@@ -679,7 +770,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-20T06:26:46.290Z",
+    "genereLe": "2026-11-20T07:01:48.252Z",
     "posts": 92,
     "parReseau": {
       "threads": {
@@ -904,29 +995,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 0,
-      "entree": 0,
-      "sortie": 0,
-      "cout": 0,
+      "appels": 3,
+      "entree": 24090,
+      "sortie": 2735,
+      "cout": 0.15106,
       "cle": "2026-11-20"
     },
     "semaine": {
-      "appels": 14,
-      "entree": 111717,
-      "sortie": 11859,
-      "cout": 0.684048
+      "appels": 17,
+      "entree": 135807,
+      "sortie": 14594,
+      "cout": 0.835108
     },
     "mois": {
-      "appels": 65,
-      "entree": 519994,
-      "sortie": 57667,
-      "cout": 3.2333159999999994,
+      "appels": 68,
+      "entree": 544084,
+      "sortie": 60402,
+      "cout": 3.3843759999999996,
       "cle": "2026-11"
     },
-    "projection": 4.85,
-    "moyenneAppel": 0.0497,
+    "projection": 5.08,
+    "moyenneAppel": 0.0498,
     "parModele": {
-      "claude-opus-5-5": 65
+      "claude-opus-5-5": 68
     },
     "serie": [
       [
@@ -983,7 +1074,7 @@
       ],
       [
         "2026-11-20",
-        0
+        0.1511
       ]
     ],
     "depuis": "2026-09-23"

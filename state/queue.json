@@ -1,1 +1,1052 @@
-[]
+[
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36183",
+    "channel": "instagram",
+    "dueAt": 1795173790016,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "8 000 arbres fruitiers anciens seront mis en vente près d’Agen",
+      "link": "https://passion-aquitaine.ouest-france.fr/fete-arbre-barolle-fruitiers-anciens-montesquieu/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36183",
+      "pubDate": "Fri, 20 Nov 2026 06:30:10 +0000",
+      "date": 1795156210000,
+      "categories": [
+        "Actus",
+        "Agriculture",
+        "Économie",
+        "Lot-et-Garonne"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/vente-arbres-fruitiers-1.jpg",
+      "description": "Le 29 novembre, à Montesquieu, près d’Agen, 8 000 fruitiers de 144 variétés anciennes sont en vente durant la Fête de l’Arbre."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Agenais",
+      "visuel": {
+        "titre": "8 000 arbres fruitiers anciens seront mis en vente près d’Agen",
+        "surlignage": "8 000 arbres",
+        "description": "Le 29 novembre, la Fête de l’Arbre de Montesquieu propose 144 variétés anciennes de fruitiers. De quoi planter au verger des saveurs d’autrefois.",
+        "texte_alternatif": "Des arbres fruitiers de variétés anciennes, mis en vente lors de la Fête de l’Arbre à Montesquieu, près d’Agen."
+      },
+      "entites": [
+        {
+          "nom": "Fête de l’Arbre",
+          "role": "sujet",
+          "type": "evenement"
+        }
+      ],
+      "domaines": [
+        "arboriculture",
+        "jardinage",
+        "agriculture"
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "Un verger aux saveurs d’autrefois, c’est possible : 144 variétés anciennes de fruitiers vous attendent près d’Agen.\nLe 29 novembre, la Fête de l’Arbre de Montesquieu met en vente 8 000 arbres. L’occasion de choisir des fruits oubliés pour son jardin en Lot-et-Garonne 🍐",
+        "hashtags": [
+          "#Agenais",
+          "#ArbresFruitiers",
+          "#VarietesAnciennes"
+        ]
+      },
+      "facebook": {
+        "texte": "Pas moins de 144 variétés anciennes de fruitiers attendent un jardin à Montesquieu, de quoi retrouver des goûts disparus des étals 🍏"
+      },
+      "bluesky": {
+        "texte": "Imaginez des milliers de jeunes pommiers, poiriers et pruniers alignés, prêts à partir 🌳. À Montesquieu, dans l’Agenais, la Fête de l’Arbre réunit 144 variétés anciennes le 29 novembre.",
+        "hashtag": "#Agenais"
+      },
+      "threads": {
+        "texte": "Et si votre prochain arbre venait d’une variété que plus personne ne cultive ? 🍎 144 variétés anciennes de fruitiers seront proposées le 29 novembre à Montesquieu, près d’Agen, pendant la Fête de l’Arbre. Au total, 8 000 arbres à adopter. Vous avez déjà un fruit d’antan en tête pour votre jardin ?",
+        "sujet": "Agenais"
+      },
+      "x": {
+        "texte": "8 000 fruitiers à vendre en une journée : le 29 novembre, Montesquieu accueille la Fête de l’Arbre, avec 144 variétés anciennes au choix, près d’Agen 🍑"
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 8051,
+        "output": 939
+      },
+      "angles": {
+        "instagram": "bénéfice pour le lecteur",
+        "facebook": "détail méconnu",
+        "bluesky": "image évocatrice",
+        "threads": "question intrigante",
+        "x": "chiffre ou fait marquant en tête"
+      },
+      "lieuSource": {
+        "precis": "Fête de l’Arbre",
+        "ville": "Montesquieu",
+        "departement": "Lot-et-Garonne"
+      },
+      "lieuNom": "Fête de l’Arbre",
+      "commune": "Montesquieu",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Bienvenue dans le Lot-et-Garonne ! 🌿",
+            "handle": "lotetgaronneledepartement",
+            "abonnes": 5945,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36183",
+    "channel": "bluesky",
+    "dueAt": 1795163176805,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "8 000 arbres fruitiers anciens seront mis en vente près d’Agen",
+      "link": "https://passion-aquitaine.ouest-france.fr/fete-arbre-barolle-fruitiers-anciens-montesquieu/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36183",
+      "pubDate": "Fri, 20 Nov 2026 06:30:10 +0000",
+      "date": 1795156210000,
+      "categories": [
+        "Actus",
+        "Agriculture",
+        "Économie",
+        "Lot-et-Garonne"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/vente-arbres-fruitiers-1.jpg",
+      "description": "Le 29 novembre, à Montesquieu, près d’Agen, 8 000 fruitiers de 144 variétés anciennes sont en vente durant la Fête de l’Arbre."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Agenais",
+      "visuel": {
+        "titre": "8 000 arbres fruitiers anciens seront mis en vente près d’Agen",
+        "surlignage": "8 000 arbres",
+        "description": "Le 29 novembre, la Fête de l’Arbre de Montesquieu propose 144 variétés anciennes de fruitiers. De quoi planter au verger des saveurs d’autrefois.",
+        "texte_alternatif": "Des arbres fruitiers de variétés anciennes, mis en vente lors de la Fête de l’Arbre à Montesquieu, près d’Agen."
+      },
+      "entites": [
+        {
+          "nom": "Fête de l’Arbre",
+          "role": "sujet",
+          "type": "evenement"
+        }
+      ],
+      "domaines": [
+        "arboriculture",
+        "jardinage",
+        "agriculture"
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "Un verger aux saveurs d’autrefois, c’est possible : 144 variétés anciennes de fruitiers vous attendent près d’Agen.\nLe 29 novembre, la Fête de l’Arbre de Montesquieu met en vente 8 000 arbres. L’occasion de choisir des fruits oubliés pour son jardin en Lot-et-Garonne 🍐",
+        "hashtags": [
+          "#Agenais",
+          "#ArbresFruitiers",
+          "#VarietesAnciennes"
+        ]
+      },
+      "facebook": {
+        "texte": "Pas moins de 144 variétés anciennes de fruitiers attendent un jardin à Montesquieu, de quoi retrouver des goûts disparus des étals 🍏"
+      },
+      "bluesky": {
+        "texte": "Imaginez des milliers de jeunes pommiers, poiriers et pruniers alignés, prêts à partir 🌳. À Montesquieu, dans l’Agenais, la Fête de l’Arbre réunit 144 variétés anciennes le 29 novembre.",
+        "hashtag": "#Agenais"
+      },
+      "threads": {
+        "texte": "Et si votre prochain arbre venait d’une variété que plus personne ne cultive ? 🍎 144 variétés anciennes de fruitiers seront proposées le 29 novembre à Montesquieu, près d’Agen, pendant la Fête de l’Arbre. Au total, 8 000 arbres à adopter. Vous avez déjà un fruit d’antan en tête pour votre jardin ?",
+        "sujet": "Agenais"
+      },
+      "x": {
+        "texte": "8 000 fruitiers à vendre en une journée : le 29 novembre, Montesquieu accueille la Fête de l’Arbre, avec 144 variétés anciennes au choix, près d’Agen 🍑"
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 8051,
+        "output": 939
+      },
+      "angles": {
+        "instagram": "bénéfice pour le lecteur",
+        "facebook": "détail méconnu",
+        "bluesky": "image évocatrice",
+        "threads": "question intrigante",
+        "x": "chiffre ou fait marquant en tête"
+      },
+      "lieuSource": {
+        "precis": "Fête de l’Arbre",
+        "ville": "Montesquieu",
+        "departement": "Lot-et-Garonne"
+      },
+      "lieuNom": "Fête de l’Arbre",
+      "commune": "Montesquieu",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Bienvenue dans le Lot-et-Garonne ! 🌿",
+            "handle": "lotetgaronneledepartement",
+            "abonnes": 5945,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36183",
+    "channel": "facebook",
+    "dueAt": 1795161850635,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "8 000 arbres fruitiers anciens seront mis en vente près d’Agen",
+      "link": "https://passion-aquitaine.ouest-france.fr/fete-arbre-barolle-fruitiers-anciens-montesquieu/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36183",
+      "pubDate": "Fri, 20 Nov 2026 06:30:10 +0000",
+      "date": 1795156210000,
+      "categories": [
+        "Actus",
+        "Agriculture",
+        "Économie",
+        "Lot-et-Garonne"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/vente-arbres-fruitiers-1.jpg",
+      "description": "Le 29 novembre, à Montesquieu, près d’Agen, 8 000 fruitiers de 144 variétés anciennes sont en vente durant la Fête de l’Arbre."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Agenais",
+      "visuel": {
+        "titre": "8 000 arbres fruitiers anciens seront mis en vente près d’Agen",
+        "surlignage": "8 000 arbres",
+        "description": "Le 29 novembre, la Fête de l’Arbre de Montesquieu propose 144 variétés anciennes de fruitiers. De quoi planter au verger des saveurs d’autrefois.",
+        "texte_alternatif": "Des arbres fruitiers de variétés anciennes, mis en vente lors de la Fête de l’Arbre à Montesquieu, près d’Agen."
+      },
+      "entites": [
+        {
+          "nom": "Fête de l’Arbre",
+          "role": "sujet",
+          "type": "evenement"
+        }
+      ],
+      "domaines": [
+        "arboriculture",
+        "jardinage",
+        "agriculture"
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "Un verger aux saveurs d’autrefois, c’est possible : 144 variétés anciennes de fruitiers vous attendent près d’Agen.\nLe 29 novembre, la Fête de l’Arbre de Montesquieu met en vente 8 000 arbres. L’occasion de choisir des fruits oubliés pour son jardin en Lot-et-Garonne 🍐",
+        "hashtags": [
+          "#Agenais",
+          "#ArbresFruitiers",
+          "#VarietesAnciennes"
+        ]
+      },
+      "facebook": {
+        "texte": "Pas moins de 144 variétés anciennes de fruitiers attendent un jardin à Montesquieu, de quoi retrouver des goûts disparus des étals 🍏"
+      },
+      "bluesky": {
+        "texte": "Imaginez des milliers de jeunes pommiers, poiriers et pruniers alignés, prêts à partir 🌳. À Montesquieu, dans l’Agenais, la Fête de l’Arbre réunit 144 variétés anciennes le 29 novembre.",
+        "hashtag": "#Agenais"
+      },
+      "threads": {
+        "texte": "Et si votre prochain arbre venait d’une variété que plus personne ne cultive ? 🍎 144 variétés anciennes de fruitiers seront proposées le 29 novembre à Montesquieu, près d’Agen, pendant la Fête de l’Arbre. Au total, 8 000 arbres à adopter. Vous avez déjà un fruit d’antan en tête pour votre jardin ?",
+        "sujet": "Agenais"
+      },
+      "x": {
+        "texte": "8 000 fruitiers à vendre en une journée : le 29 novembre, Montesquieu accueille la Fête de l’Arbre, avec 144 variétés anciennes au choix, près d’Agen 🍑"
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 8051,
+        "output": 939
+      },
+      "angles": {
+        "instagram": "bénéfice pour le lecteur",
+        "facebook": "détail méconnu",
+        "bluesky": "image évocatrice",
+        "threads": "question intrigante",
+        "x": "chiffre ou fait marquant en tête"
+      },
+      "lieuSource": {
+        "precis": "Fête de l’Arbre",
+        "ville": "Montesquieu",
+        "departement": "Lot-et-Garonne"
+      },
+      "lieuNom": "Fête de l’Arbre",
+      "commune": "Montesquieu",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Bienvenue dans le Lot-et-Garonne ! 🌿",
+            "handle": "lotetgaronneledepartement",
+            "abonnes": 5945,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36183",
+    "channel": "threads",
+    "dueAt": 1795159617660,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "8 000 arbres fruitiers anciens seront mis en vente près d’Agen",
+      "link": "https://passion-aquitaine.ouest-france.fr/fete-arbre-barolle-fruitiers-anciens-montesquieu/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36183",
+      "pubDate": "Fri, 20 Nov 2026 06:30:10 +0000",
+      "date": 1795156210000,
+      "categories": [
+        "Actus",
+        "Agriculture",
+        "Économie",
+        "Lot-et-Garonne"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/vente-arbres-fruitiers-1.jpg",
+      "description": "Le 29 novembre, à Montesquieu, près d’Agen, 8 000 fruitiers de 144 variétés anciennes sont en vente durant la Fête de l’Arbre."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Agenais",
+      "visuel": {
+        "titre": "8 000 arbres fruitiers anciens seront mis en vente près d’Agen",
+        "surlignage": "8 000 arbres",
+        "description": "Le 29 novembre, la Fête de l’Arbre de Montesquieu propose 144 variétés anciennes de fruitiers. De quoi planter au verger des saveurs d’autrefois.",
+        "texte_alternatif": "Des arbres fruitiers de variétés anciennes, mis en vente lors de la Fête de l’Arbre à Montesquieu, près d’Agen."
+      },
+      "entites": [
+        {
+          "nom": "Fête de l’Arbre",
+          "role": "sujet",
+          "type": "evenement"
+        }
+      ],
+      "domaines": [
+        "arboriculture",
+        "jardinage",
+        "agriculture"
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "Un verger aux saveurs d’autrefois, c’est possible : 144 variétés anciennes de fruitiers vous attendent près d’Agen.\nLe 29 novembre, la Fête de l’Arbre de Montesquieu met en vente 8 000 arbres. L’occasion de choisir des fruits oubliés pour son jardin en Lot-et-Garonne 🍐",
+        "hashtags": [
+          "#Agenais",
+          "#ArbresFruitiers",
+          "#VarietesAnciennes"
+        ]
+      },
+      "facebook": {
+        "texte": "Pas moins de 144 variétés anciennes de fruitiers attendent un jardin à Montesquieu, de quoi retrouver des goûts disparus des étals 🍏"
+      },
+      "bluesky": {
+        "texte": "Imaginez des milliers de jeunes pommiers, poiriers et pruniers alignés, prêts à partir 🌳. À Montesquieu, dans l’Agenais, la Fête de l’Arbre réunit 144 variétés anciennes le 29 novembre.",
+        "hashtag": "#Agenais"
+      },
+      "threads": {
+        "texte": "Et si votre prochain arbre venait d’une variété que plus personne ne cultive ? 🍎 144 variétés anciennes de fruitiers seront proposées le 29 novembre à Montesquieu, près d’Agen, pendant la Fête de l’Arbre. Au total, 8 000 arbres à adopter. Vous avez déjà un fruit d’antan en tête pour votre jardin ?",
+        "sujet": "Agenais"
+      },
+      "x": {
+        "texte": "8 000 fruitiers à vendre en une journée : le 29 novembre, Montesquieu accueille la Fête de l’Arbre, avec 144 variétés anciennes au choix, près d’Agen 🍑"
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 8051,
+        "output": 939
+      },
+      "angles": {
+        "instagram": "bénéfice pour le lecteur",
+        "facebook": "détail méconnu",
+        "bluesky": "image évocatrice",
+        "threads": "question intrigante",
+        "x": "chiffre ou fait marquant en tête"
+      },
+      "lieuSource": {
+        "precis": "Fête de l’Arbre",
+        "ville": "Montesquieu",
+        "departement": "Lot-et-Garonne"
+      },
+      "lieuNom": "Fête de l’Arbre",
+      "commune": "Montesquieu",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Bienvenue dans le Lot-et-Garonne ! 🌿",
+            "handle": "lotetgaronneledepartement",
+            "abonnes": 5945,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36183",
+    "channel": "x",
+    "dueAt": 1795161600000,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "8 000 arbres fruitiers anciens seront mis en vente près d’Agen",
+      "link": "https://passion-aquitaine.ouest-france.fr/fete-arbre-barolle-fruitiers-anciens-montesquieu/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36183",
+      "pubDate": "Fri, 20 Nov 2026 06:30:10 +0000",
+      "date": 1795156210000,
+      "categories": [
+        "Actus",
+        "Agriculture",
+        "Économie",
+        "Lot-et-Garonne"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/vente-arbres-fruitiers-1.jpg",
+      "description": "Le 29 novembre, à Montesquieu, près d’Agen, 8 000 fruitiers de 144 variétés anciennes sont en vente durant la Fête de l’Arbre."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": false,
+      "rubrique": "Agenais",
+      "visuel": {
+        "titre": "8 000 arbres fruitiers anciens seront mis en vente près d’Agen",
+        "surlignage": "8 000 arbres",
+        "description": "Le 29 novembre, la Fête de l’Arbre de Montesquieu propose 144 variétés anciennes de fruitiers. De quoi planter au verger des saveurs d’autrefois.",
+        "texte_alternatif": "Des arbres fruitiers de variétés anciennes, mis en vente lors de la Fête de l’Arbre à Montesquieu, près d’Agen."
+      },
+      "entites": [
+        {
+          "nom": "Fête de l’Arbre",
+          "role": "sujet",
+          "type": "evenement"
+        }
+      ],
+      "domaines": [
+        "arboriculture",
+        "jardinage",
+        "agriculture"
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "Un verger aux saveurs d’autrefois, c’est possible : 144 variétés anciennes de fruitiers vous attendent près d’Agen.\nLe 29 novembre, la Fête de l’Arbre de Montesquieu met en vente 8 000 arbres. L’occasion de choisir des fruits oubliés pour son jardin en Lot-et-Garonne 🍐",
+        "hashtags": [
+          "#Agenais",
+          "#ArbresFruitiers",
+          "#VarietesAnciennes"
+        ]
+      },
+      "facebook": {
+        "texte": "Pas moins de 144 variétés anciennes de fruitiers attendent un jardin à Montesquieu, de quoi retrouver des goûts disparus des étals 🍏"
+      },
+      "bluesky": {
+        "texte": "Imaginez des milliers de jeunes pommiers, poiriers et pruniers alignés, prêts à partir 🌳. À Montesquieu, dans l’Agenais, la Fête de l’Arbre réunit 144 variétés anciennes le 29 novembre.",
+        "hashtag": "#Agenais"
+      },
+      "threads": {
+        "texte": "Et si votre prochain arbre venait d’une variété que plus personne ne cultive ? 🍎 144 variétés anciennes de fruitiers seront proposées le 29 novembre à Montesquieu, près d’Agen, pendant la Fête de l’Arbre. Au total, 8 000 arbres à adopter. Vous avez déjà un fruit d’antan en tête pour votre jardin ?",
+        "sujet": "Agenais"
+      },
+      "x": {
+        "texte": "8 000 fruitiers à vendre en une journée : le 29 novembre, Montesquieu accueille la Fête de l’Arbre, avec 144 variétés anciennes au choix, près d’Agen 🍑"
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 8051,
+        "output": 939
+      },
+      "angles": {
+        "instagram": "bénéfice pour le lecteur",
+        "facebook": "détail méconnu",
+        "bluesky": "image évocatrice",
+        "threads": "question intrigante",
+        "x": "chiffre ou fait marquant en tête"
+      },
+      "lieuSource": {
+        "precis": "Fête de l’Arbre",
+        "ville": "Montesquieu",
+        "departement": "Lot-et-Garonne"
+      },
+      "lieuNom": "Fête de l’Arbre",
+      "commune": "Montesquieu",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Bienvenue dans le Lot-et-Garonne ! 🌿",
+            "handle": "lotetgaronneledepartement",
+            "abonnes": 5945,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36255",
+    "channel": "instagram",
+    "dueAt": 1795198450180,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Golfe de Gascogne : l’hiver 2025, les dauphins sont surtout morts avant l’arrêt de pêche",
+      "link": "https://passion-aquitaine.ouest-france.fr/dauphins-golfe-gascogne-peche-fermeture/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36255",
+      "pubDate": "Fri, 20 Nov 2026 06:45:57 +0000",
+      "date": 1795157157000,
+      "categories": [
+        "Actus",
+        "Animaux",
+        "Charente-Maritime",
+        "Gironde",
+        "Landes",
+        "Nature",
+        "Pays basque",
+        "Pyrénées-Atlantiques"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/tete-dauphin.jpg",
+      "description": "Plus de la moitié des dauphins tués l’hiver 2025 dans le golfe de Gascogne ont péri avant l’arrêt de pêche. La justice fixe le plafond à 809 par an."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": true,
+      "rubrique": "Golfe de Gascogne",
+      "visuel": {
+        "titre": "L’hiver 2025, les dauphins sont surtout morts avant l’arrêt de pêche",
+        "surlignage": "dauphins",
+        "description": "Plus de la moitié des dauphins tués dans le golfe de Gascogne l’hiver 2025 ont péri avant l’arrêt de pêche. La justice fixe un plafond de 809 dauphins par an.",
+        "texte_alternatif": "Des dauphins du golfe de Gascogne, dont plus de la moitié de ceux tués l’hiver 2025 ont péri avant l’arrêt de pêche."
+      },
+      "entites": [],
+      "domaines": [
+        "dauphin",
+        "pêche",
+        "biodiversité"
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "Dans le golfe de Gascogne, l’arrêt de pêche n’a pas empêché l’essentiel des morts de dauphins l’hiver 2025.\nPlus de la moitié des dauphins tués ont péri avant cette période d’arrêt 📰 La justice fixe désormais un plafond de 809 dauphins par an, de la Charente-Maritime au Pays basque.",
+        "hashtags": [
+          "#GolfeDeGascogne",
+          "#Dauphins",
+          "#PayasBasque"
+        ]
+      },
+      "facebook": {
+        "texte": "Plus de la moitié des dauphins tués l’hiver dernier dans le golfe de Gascogne l’ont été avant même l’arrêt de pêche 📰"
+      },
+      "bluesky": {
+        "texte": "📰 Quand les dauphins du golfe de Gascogne meurent-ils le plus ? L’hiver 2025, plus de la moitié de ceux tués ont péri avant l’arrêt de pêche. La justice fixe un plafond de 809 par an, au large des Landes au Pays basque.",
+        "hashtag": "#PaysBasque"
+      },
+      "threads": {
+        "texte": "809 dauphins par an : c’est le plafond fixé par la justice dans le golfe de Gascogne 📰 Et l’hiver 2025 révèle un décalage : plus de la moitié des dauphins tués ont péri avant l’arrêt de pêche, censé les protéger.",
+        "sujet": "Golfe de Gascogne"
+      },
+      "x": {
+        "texte": "Golfe de Gascogne : 📰 plus de la moitié des dauphins tués l’hiver 2025 sont morts avant l’arrêt de pêche. La justice fixe le plafond à 809 par an."
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 8047,
+        "output": 881
+      },
+      "angles": {
+        "instagram": "détail méconnu",
+        "facebook": "image évocatrice",
+        "bluesky": "question intrigante",
+        "threads": "chiffre ou fait marquant en tête",
+        "x": "lieu en tête"
+      },
+      "lieuSource": {
+        "precis": "Golfe de Gascogne",
+        "ville": "",
+        "departement": ""
+      },
+      "lieuNom": "Golfe de Gascogne",
+      "commune": null,
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Pays basque",
+            "handle": "paysbasque_net",
+            "abonnes": 130649,
+            "preuve": 3,
+            "role": "theme",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36255",
+    "channel": "bluesky",
+    "dueAt": 1795177692700,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Golfe de Gascogne : l’hiver 2025, les dauphins sont surtout morts avant l’arrêt de pêche",
+      "link": "https://passion-aquitaine.ouest-france.fr/dauphins-golfe-gascogne-peche-fermeture/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36255",
+      "pubDate": "Fri, 20 Nov 2026 06:45:57 +0000",
+      "date": 1795157157000,
+      "categories": [
+        "Actus",
+        "Animaux",
+        "Charente-Maritime",
+        "Gironde",
+        "Landes",
+        "Nature",
+        "Pays basque",
+        "Pyrénées-Atlantiques"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/tete-dauphin.jpg",
+      "description": "Plus de la moitié des dauphins tués l’hiver 2025 dans le golfe de Gascogne ont péri avant l’arrêt de pêche. La justice fixe le plafond à 809 par an."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": true,
+      "rubrique": "Golfe de Gascogne",
+      "visuel": {
+        "titre": "L’hiver 2025, les dauphins sont surtout morts avant l’arrêt de pêche",
+        "surlignage": "dauphins",
+        "description": "Plus de la moitié des dauphins tués dans le golfe de Gascogne l’hiver 2025 ont péri avant l’arrêt de pêche. La justice fixe un plafond de 809 dauphins par an.",
+        "texte_alternatif": "Des dauphins du golfe de Gascogne, dont plus de la moitié de ceux tués l’hiver 2025 ont péri avant l’arrêt de pêche."
+      },
+      "entites": [],
+      "domaines": [
+        "dauphin",
+        "pêche",
+        "biodiversité"
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "Dans le golfe de Gascogne, l’arrêt de pêche n’a pas empêché l’essentiel des morts de dauphins l’hiver 2025.\nPlus de la moitié des dauphins tués ont péri avant cette période d’arrêt 📰 La justice fixe désormais un plafond de 809 dauphins par an, de la Charente-Maritime au Pays basque.",
+        "hashtags": [
+          "#GolfeDeGascogne",
+          "#Dauphins",
+          "#PayasBasque"
+        ]
+      },
+      "facebook": {
+        "texte": "Plus de la moitié des dauphins tués l’hiver dernier dans le golfe de Gascogne l’ont été avant même l’arrêt de pêche 📰"
+      },
+      "bluesky": {
+        "texte": "📰 Quand les dauphins du golfe de Gascogne meurent-ils le plus ? L’hiver 2025, plus de la moitié de ceux tués ont péri avant l’arrêt de pêche. La justice fixe un plafond de 809 par an, au large des Landes au Pays basque.",
+        "hashtag": "#PaysBasque"
+      },
+      "threads": {
+        "texte": "809 dauphins par an : c’est le plafond fixé par la justice dans le golfe de Gascogne 📰 Et l’hiver 2025 révèle un décalage : plus de la moitié des dauphins tués ont péri avant l’arrêt de pêche, censé les protéger.",
+        "sujet": "Golfe de Gascogne"
+      },
+      "x": {
+        "texte": "Golfe de Gascogne : 📰 plus de la moitié des dauphins tués l’hiver 2025 sont morts avant l’arrêt de pêche. La justice fixe le plafond à 809 par an."
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 8047,
+        "output": 881
+      },
+      "angles": {
+        "instagram": "détail méconnu",
+        "facebook": "image évocatrice",
+        "bluesky": "question intrigante",
+        "threads": "chiffre ou fait marquant en tête",
+        "x": "lieu en tête"
+      },
+      "lieuSource": {
+        "precis": "Golfe de Gascogne",
+        "ville": "",
+        "departement": ""
+      },
+      "lieuNom": "Golfe de Gascogne",
+      "commune": null,
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Pays basque",
+            "handle": "paysbasque_net",
+            "abonnes": 130649,
+            "preuve": 3,
+            "role": "theme",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36255",
+    "channel": "facebook",
+    "dueAt": 1795205121306,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Golfe de Gascogne : l’hiver 2025, les dauphins sont surtout morts avant l’arrêt de pêche",
+      "link": "https://passion-aquitaine.ouest-france.fr/dauphins-golfe-gascogne-peche-fermeture/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36255",
+      "pubDate": "Fri, 20 Nov 2026 06:45:57 +0000",
+      "date": 1795157157000,
+      "categories": [
+        "Actus",
+        "Animaux",
+        "Charente-Maritime",
+        "Gironde",
+        "Landes",
+        "Nature",
+        "Pays basque",
+        "Pyrénées-Atlantiques"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/tete-dauphin.jpg",
+      "description": "Plus de la moitié des dauphins tués l’hiver 2025 dans le golfe de Gascogne ont péri avant l’arrêt de pêche. La justice fixe le plafond à 809 par an."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": true,
+      "rubrique": "Golfe de Gascogne",
+      "visuel": {
+        "titre": "L’hiver 2025, les dauphins sont surtout morts avant l’arrêt de pêche",
+        "surlignage": "dauphins",
+        "description": "Plus de la moitié des dauphins tués dans le golfe de Gascogne l’hiver 2025 ont péri avant l’arrêt de pêche. La justice fixe un plafond de 809 dauphins par an.",
+        "texte_alternatif": "Des dauphins du golfe de Gascogne, dont plus de la moitié de ceux tués l’hiver 2025 ont péri avant l’arrêt de pêche."
+      },
+      "entites": [],
+      "domaines": [
+        "dauphin",
+        "pêche",
+        "biodiversité"
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "Dans le golfe de Gascogne, l’arrêt de pêche n’a pas empêché l’essentiel des morts de dauphins l’hiver 2025.\nPlus de la moitié des dauphins tués ont péri avant cette période d’arrêt 📰 La justice fixe désormais un plafond de 809 dauphins par an, de la Charente-Maritime au Pays basque.",
+        "hashtags": [
+          "#GolfeDeGascogne",
+          "#Dauphins",
+          "#PayasBasque"
+        ]
+      },
+      "facebook": {
+        "texte": "Plus de la moitié des dauphins tués l’hiver dernier dans le golfe de Gascogne l’ont été avant même l’arrêt de pêche 📰"
+      },
+      "bluesky": {
+        "texte": "📰 Quand les dauphins du golfe de Gascogne meurent-ils le plus ? L’hiver 2025, plus de la moitié de ceux tués ont péri avant l’arrêt de pêche. La justice fixe un plafond de 809 par an, au large des Landes au Pays basque.",
+        "hashtag": "#PaysBasque"
+      },
+      "threads": {
+        "texte": "809 dauphins par an : c’est le plafond fixé par la justice dans le golfe de Gascogne 📰 Et l’hiver 2025 révèle un décalage : plus de la moitié des dauphins tués ont péri avant l’arrêt de pêche, censé les protéger.",
+        "sujet": "Golfe de Gascogne"
+      },
+      "x": {
+        "texte": "Golfe de Gascogne : 📰 plus de la moitié des dauphins tués l’hiver 2025 sont morts avant l’arrêt de pêche. La justice fixe le plafond à 809 par an."
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 8047,
+        "output": 881
+      },
+      "angles": {
+        "instagram": "détail méconnu",
+        "facebook": "image évocatrice",
+        "bluesky": "question intrigante",
+        "threads": "chiffre ou fait marquant en tête",
+        "x": "lieu en tête"
+      },
+      "lieuSource": {
+        "precis": "Golfe de Gascogne",
+        "ville": "",
+        "departement": ""
+      },
+      "lieuNom": "Golfe de Gascogne",
+      "commune": null,
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Pays basque",
+            "handle": "paysbasque_net",
+            "abonnes": 130649,
+            "preuve": 3,
+            "role": "theme",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36255",
+    "channel": "threads",
+    "dueAt": 1795170286414,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Golfe de Gascogne : l’hiver 2025, les dauphins sont surtout morts avant l’arrêt de pêche",
+      "link": "https://passion-aquitaine.ouest-france.fr/dauphins-golfe-gascogne-peche-fermeture/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36255",
+      "pubDate": "Fri, 20 Nov 2026 06:45:57 +0000",
+      "date": 1795157157000,
+      "categories": [
+        "Actus",
+        "Animaux",
+        "Charente-Maritime",
+        "Gironde",
+        "Landes",
+        "Nature",
+        "Pays basque",
+        "Pyrénées-Atlantiques"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/tete-dauphin.jpg",
+      "description": "Plus de la moitié des dauphins tués l’hiver 2025 dans le golfe de Gascogne ont péri avant l’arrêt de pêche. La justice fixe le plafond à 809 par an."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": true,
+      "rubrique": "Golfe de Gascogne",
+      "visuel": {
+        "titre": "L’hiver 2025, les dauphins sont surtout morts avant l’arrêt de pêche",
+        "surlignage": "dauphins",
+        "description": "Plus de la moitié des dauphins tués dans le golfe de Gascogne l’hiver 2025 ont péri avant l’arrêt de pêche. La justice fixe un plafond de 809 dauphins par an.",
+        "texte_alternatif": "Des dauphins du golfe de Gascogne, dont plus de la moitié de ceux tués l’hiver 2025 ont péri avant l’arrêt de pêche."
+      },
+      "entites": [],
+      "domaines": [
+        "dauphin",
+        "pêche",
+        "biodiversité"
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "Dans le golfe de Gascogne, l’arrêt de pêche n’a pas empêché l’essentiel des morts de dauphins l’hiver 2025.\nPlus de la moitié des dauphins tués ont péri avant cette période d’arrêt 📰 La justice fixe désormais un plafond de 809 dauphins par an, de la Charente-Maritime au Pays basque.",
+        "hashtags": [
+          "#GolfeDeGascogne",
+          "#Dauphins",
+          "#PayasBasque"
+        ]
+      },
+      "facebook": {
+        "texte": "Plus de la moitié des dauphins tués l’hiver dernier dans le golfe de Gascogne l’ont été avant même l’arrêt de pêche 📰"
+      },
+      "bluesky": {
+        "texte": "📰 Quand les dauphins du golfe de Gascogne meurent-ils le plus ? L’hiver 2025, plus de la moitié de ceux tués ont péri avant l’arrêt de pêche. La justice fixe un plafond de 809 par an, au large des Landes au Pays basque.",
+        "hashtag": "#PaysBasque"
+      },
+      "threads": {
+        "texte": "809 dauphins par an : c’est le plafond fixé par la justice dans le golfe de Gascogne 📰 Et l’hiver 2025 révèle un décalage : plus de la moitié des dauphins tués ont péri avant l’arrêt de pêche, censé les protéger.",
+        "sujet": "Golfe de Gascogne"
+      },
+      "x": {
+        "texte": "Golfe de Gascogne : 📰 plus de la moitié des dauphins tués l’hiver 2025 sont morts avant l’arrêt de pêche. La justice fixe le plafond à 809 par an."
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 8047,
+        "output": 881
+      },
+      "angles": {
+        "instagram": "détail méconnu",
+        "facebook": "image évocatrice",
+        "bluesky": "question intrigante",
+        "threads": "chiffre ou fait marquant en tête",
+        "x": "lieu en tête"
+      },
+      "lieuSource": {
+        "precis": "Golfe de Gascogne",
+        "ville": "",
+        "departement": ""
+      },
+      "lieuNom": "Golfe de Gascogne",
+      "commune": null,
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Pays basque",
+            "handle": "paysbasque_net",
+            "abonnes": 130649,
+            "preuve": 3,
+            "role": "theme",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36255",
+    "channel": "x",
+    "dueAt": 1795176000000,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Golfe de Gascogne : l’hiver 2025, les dauphins sont surtout morts avant l’arrêt de pêche",
+      "link": "https://passion-aquitaine.ouest-france.fr/dauphins-golfe-gascogne-peche-fermeture/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36255",
+      "pubDate": "Fri, 20 Nov 2026 06:45:57 +0000",
+      "date": 1795157157000,
+      "categories": [
+        "Actus",
+        "Animaux",
+        "Charente-Maritime",
+        "Gironde",
+        "Landes",
+        "Nature",
+        "Pays basque",
+        "Pyrénées-Atlantiques"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/tete-dauphin.jpg",
+      "description": "Plus de la moitié des dauphins tués l’hiver 2025 dans le golfe de Gascogne ont péri avant l’arrêt de pêche. La justice fixe le plafond à 809 par an."
+    },
+    "dossier": {
+      "nature": "actu",
+      "sensible": true,
+      "rubrique": "Golfe de Gascogne",
+      "visuel": {
+        "titre": "L’hiver 2025, les dauphins sont surtout morts avant l’arrêt de pêche",
+        "surlignage": "dauphins",
+        "description": "Plus de la moitié des dauphins tués dans le golfe de Gascogne l’hiver 2025 ont péri avant l’arrêt de pêche. La justice fixe un plafond de 809 dauphins par an.",
+        "texte_alternatif": "Des dauphins du golfe de Gascogne, dont plus de la moitié de ceux tués l’hiver 2025 ont péri avant l’arrêt de pêche."
+      },
+      "entites": [],
+      "domaines": [
+        "dauphin",
+        "pêche",
+        "biodiversité"
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "Dans le golfe de Gascogne, l’arrêt de pêche n’a pas empêché l’essentiel des morts de dauphins l’hiver 2025.\nPlus de la moitié des dauphins tués ont péri avant cette période d’arrêt 📰 La justice fixe désormais un plafond de 809 dauphins par an, de la Charente-Maritime au Pays basque.",
+        "hashtags": [
+          "#GolfeDeGascogne",
+          "#Dauphins",
+          "#PayasBasque"
+        ]
+      },
+      "facebook": {
+        "texte": "Plus de la moitié des dauphins tués l’hiver dernier dans le golfe de Gascogne l’ont été avant même l’arrêt de pêche 📰"
+      },
+      "bluesky": {
+        "texte": "📰 Quand les dauphins du golfe de Gascogne meurent-ils le plus ? L’hiver 2025, plus de la moitié de ceux tués ont péri avant l’arrêt de pêche. La justice fixe un plafond de 809 par an, au large des Landes au Pays basque.",
+        "hashtag": "#PaysBasque"
+      },
+      "threads": {
+        "texte": "809 dauphins par an : c’est le plafond fixé par la justice dans le golfe de Gascogne 📰 Et l’hiver 2025 révèle un décalage : plus de la moitié des dauphins tués ont péri avant l’arrêt de pêche, censé les protéger.",
+        "sujet": "Golfe de Gascogne"
+      },
+      "x": {
+        "texte": "Golfe de Gascogne : 📰 plus de la moitié des dauphins tués l’hiver 2025 sont morts avant l’arrêt de pêche. La justice fixe le plafond à 809 par an."
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 8047,
+        "output": 881
+      },
+      "angles": {
+        "instagram": "détail méconnu",
+        "facebook": "image évocatrice",
+        "bluesky": "question intrigante",
+        "threads": "chiffre ou fait marquant en tête",
+        "x": "lieu en tête"
+      },
+      "lieuSource": {
+        "precis": "Golfe de Gascogne",
+        "ville": "",
+        "departement": ""
+      },
+      "lieuNom": "Golfe de Gascogne",
+      "commune": null,
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Pays basque",
+            "handle": "paysbasque_net",
+            "abonnes": 130649,
+            "preuve": 3,
+            "role": "theme",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  }
+]

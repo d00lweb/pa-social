@@ -420,7 +420,7 @@
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=36255",
     "channel": "threads",
-    "dueAt": 1795170562336,
+    "dueAt": 1795180455552,
     "status": "pending",
     "attempts": 1,
     "article": {
@@ -520,7 +520,9 @@
       }
     },
     "previewSent": false,
-    "lastError": "Image 404 : https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/tete-dauphin.jpg"
+    "lastError": "Image 404 : https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/tete-dauphin.jpg",
+    "prevuInitialement": 1795170562336,
+    "raison": "son créneau était passé"
   },
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=36255",
@@ -971,7 +973,7 @@
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=36241",
     "channel": "threads",
-    "dueAt": 1795177473982,
+    "dueAt": 1795245268493,
     "status": "pending",
     "attempts": 0,
     "article": {
@@ -1080,7 +1082,9 @@
         "facebook": []
       }
     },
-    "previewSent": false
+    "previewSent": false,
+    "prevuInitialement": 1795177473982,
+    "raison": "un autre post occupait déjà ce créneau"
   },
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=36241",

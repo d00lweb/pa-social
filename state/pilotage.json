@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-20T10:21:07.429Z",
+  "genereLe": "2026-11-20T11:00:46.216Z",
   "jour": "2026-11-20",
   "reseaux": {
     "instagram": {
@@ -549,15 +549,6 @@
   ],
   "file": [
     {
-      "channel": "threads",
-      "dueAt": "2026-11-20T10:29:22.336Z",
-      "prochainPassage": "2026-11-20T11:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Golfe de Gascogne : l’hiver 2025, les dauphins sont surtout morts avant l’arrêt de pêche"
-    },
-    {
       "channel": "instagram",
       "dueAt": "2026-11-20T11:23:10.016Z",
       "prochainPassage": "2026-11-20T12:00:00.000Z",
@@ -576,21 +567,21 @@
       "titre": "Golfe de Gascogne : l’hiver 2025, les dauphins sont surtout morts avant l’arrêt de pêche"
     },
     {
-      "channel": "threads",
-      "dueAt": "2026-11-20T12:24:33.982Z",
-      "prochainPassage": "2026-11-20T13:00:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Ils sont encore là, mais presque invisibles : le plan pour sauver les visons d’Europe"
-    },
-    {
       "channel": "bluesky",
       "dueAt": "2026-11-20T12:28:12.700Z",
       "prochainPassage": "2026-11-20T13:00:00.000Z",
       "nature": "actu",
       "prevuInitialement": null,
       "raison": null,
+      "titre": "Golfe de Gascogne : l’hiver 2025, les dauphins sont surtout morts avant l’arrêt de pêche"
+    },
+    {
+      "channel": "threads",
+      "dueAt": "2026-11-20T13:14:15.552Z",
+      "prochainPassage": "2026-11-20T13:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": "2026-11-20T10:29:22.336Z",
+      "raison": "son créneau était passé",
       "titre": "Golfe de Gascogne : l’hiver 2025, les dauphins sont surtout morts avant l’arrêt de pêche"
     },
     {
@@ -636,6 +627,15 @@
       "nature": "evergreen",
       "prevuInitialement": null,
       "raison": null,
+      "titre": "Ils sont encore là, mais presque invisibles : le plan pour sauver les visons d’Europe"
+    },
+    {
+      "channel": "threads",
+      "dueAt": "2026-11-21T07:14:28.493Z",
+      "prochainPassage": "2026-11-21T07:20:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": "2026-11-20T12:24:33.982Z",
+      "raison": "un autre post occupait déjà ce créneau",
       "titre": "Ils sont encore là, mais presque invisibles : le plan pour sauver les visons d’Europe"
     },
     {
@@ -732,7 +732,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-20T10:00:34.376Z"
+    "derniere": "2026-11-20T11:00:46.216Z"
   },
   "abonnes": {
     "instagram": {
@@ -771,7 +771,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-20T10:21:12.426Z",
+    "genereLe": "2026-11-20T11:00:51.784Z",
     "posts": 95,
     "parReseau": {
       "threads": {

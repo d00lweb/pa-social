@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-20T07:20:44.734Z",
+  "genereLe": "2026-11-20T08:01:07.897Z",
   "jour": "2026-11-20",
   "reseaux": {
     "instagram": {
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 10,
-      "total": 84,
-      "dernier": "2026-11-19T08:26:14.548Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1795109362614944"
+      "aujourdhui": 1,
+      "semaine": 11,
+      "total": 85,
+      "dernier": "2026-11-20T08:04:16.468Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1796271429165404"
     },
     "threads": {
       "actif": true,
@@ -123,7 +123,7 @@
         "reponse"
       ],
       "aujourdhui": 1,
-      "semaine": 11,
+      "semaine": 10,
       "total": 85,
       "dernier": "2026-11-20T07:30:43.088Z",
       "lienDernier": "https://www.threads.com/@lovaquitaine/post/Df9Hf3elU0g"
@@ -156,10 +156,10 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 10,
-      "total": 87,
-      "dernier": "2026-11-19T09:01:07.741Z",
+      "aujourdhui": 1,
+      "semaine": 11,
+      "total": 88,
+      "dernier": "2026-11-20T08:01:17.440Z",
       "lienDernier": null
     }
   },
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36183",
       "titre": "8 000 arbres fruitiers anciens seront mis en vente près d’Agen",
       "lien": "https://passion-aquitaine.ouest-france.fr/fete-arbre-barolle-fruitiers-anciens-montesquieu/",
-      "at": "2026-11-20T07:30:43.088Z",
+      "at": "2026-11-20T08:04:16.468Z",
       "reseaux": {
         "threads": {
           "texte": "Et si votre prochain arbre venait d’une variété que plus personne ne cultive ? 🍎 144 variétés anciennes de fruitiers seront proposées le 29 novembre à Montesquieu, près d’Agen, pendant la Fête de l’Arbre. Au total, 8 000 arbres à adopter. Vous avez déjà un fruit d’antan en tête pour votre jardin ?",
@@ -177,6 +177,22 @@
           "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/fete-arbre-barolle-fruitiers-anciens-montesquieu/",
           "sujet": "Montesquieu",
           "publieLe": "2026-11-20T07:30:43.088Z"
+        },
+        "x": {
+          "texte": "8 000 fruitiers à vendre en une journée : le 29 novembre, #Montesquieu accueille la Fête de l’Arbre, avec 144 variétés anciennes au choix, près d’Agen 🍑",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261120-cde6fa54-x.jpg",
+          "mode": "reponse",
+          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/fete-arbre-barolle-fruitiers-anciens-montesquieu/",
+          "sujet": null,
+          "publieLe": "2026-11-20T08:01:17.440Z"
+        },
+        "facebook": {
+          "texte": "Pas moins de 144 variétés anciennes de fruitiers attendent un jardin à Montesquieu, de quoi retrouver des goûts disparus des étals 🍏",
+          "image": null,
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-20T08:04:16.468Z"
         }
       }
     },
@@ -423,6 +439,26 @@
   ],
   "publications": [
     {
+      "channel": "facebook",
+      "at": "2026-11-20T08:04:16.468Z",
+      "titre": "8 000 arbres fruitiers anciens seront mis en vente près d’Agen",
+      "lien": "https://passion-aquitaine.ouest-france.fr/fete-arbre-barolle-fruitiers-anciens-montesquieu/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1796271429165404",
+      "format": null,
+      "texte": "Pas moins de 144 variétés anciennes de fruitiers attendent un jardin à Montesquieu, de quoi retrouver des goûts disparus des étals 🍏",
+      "image": null
+    },
+    {
+      "channel": "x",
+      "at": "2026-11-20T08:01:17.440Z",
+      "titre": "8 000 arbres fruitiers anciens seront mis en vente près d’Agen",
+      "lien": "https://passion-aquitaine.ouest-france.fr/fete-arbre-barolle-fruitiers-anciens-montesquieu/",
+      "lienPost": null,
+      "format": "reponse",
+      "texte": "8 000 fruitiers à vendre en une journée : le 29 novembre, #Montesquieu accueille la Fête de l’Arbre, avec 144 variétés anciennes au choix, près d’Agen 🍑",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261120-cde6fa54-x.jpg"
+    },
+    {
       "channel": "threads",
       "at": "2026-11-20T07:30:43.088Z",
       "titre": "8 000 arbres fruitiers anciens seront mis en vente près d’Agen",
@@ -501,47 +537,9 @@
       "format": null,
       "texte": "Bergerac, en Périgord : ici, les conteneurs maritimes repartent pour une seconde vie 🏭\n⠀\nL’entreprise CALCUB les transforme en usines, en laboratoires ou même en bases militaires. De nombreux secteurs industriels les exploitent déjà.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bergerac #Conteneurs #Industrie",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261118-0bd64f36-1.jpg"
-    },
-    {
-      "channel": "bluesky",
-      "at": "2026-11-18T12:11:29.779Z",
-      "titre": "À Bergerac, ces conteneurs deviennent des usines, des labos ou des bases militaires",
-      "lien": "https://passion-aquitaine.ouest-france.fr/calcub-bergerac-conteneurs-usines/",
-      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2ljomy54q2v",
-      "format": "image",
-      "texte": "Usine, laboratoire, base militaire : un simple conteneur maritime peut tout devenir. À #Bergerac, CALCUB leur offre une seconde vie et de nombreux secteurs industriels en profitent ♻️\n@villedebergerac.bsky.social\n➡️ Lire l’article",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261118-0bd64f36-bsky.jpg"
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-11-18T11:27:21.345Z",
-      "titre": "Bordeaux-Langon : 130 heures sans train du 21 au 26 novembre",
-      "lien": "https://passion-aquitaine.ouest-france.fr/bordeaux-langon-trains-interrompus-novembre/",
-      "lienPost": "https://www.instagram.com/p/Df4ZYMDk67R/",
-      "format": null,
-      "texte": "130 heures d’affilée : c’est le temps de coupure totale des trains entre Bordeaux et Langon 🚧\n⠀\nDu 21 au 26 novembre, la ligne s’arrête en Gironde pour laisser place au chantier de la future liaison vers Toulouse. Mieux vaut anticiper ses trajets.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #Langon #Train",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261118-a54a170d-1.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "x",
-      "dueAt": "2026-11-20T08:00:00.000Z",
-      "prochainPassage": "2026-11-20T08:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "8 000 arbres fruitiers anciens seront mis en vente près d’Agen"
-    },
-    {
-      "channel": "facebook",
-      "dueAt": "2026-11-20T08:04:10.635Z",
-      "prochainPassage": "2026-11-20T08:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "8 000 arbres fruitiers anciens seront mis en vente près d’Agen"
-    },
     {
       "channel": "bluesky",
       "dueAt": "2026-11-20T08:26:16.805Z",
@@ -608,7 +606,7 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 644,
+    "releves": 646,
     "parReseau": {
       "instagram": {
         "posts": 79,
@@ -623,8 +621,8 @@
         "interactionsMoyennes": 0
       },
       "threads": {
-        "posts": 74,
-        "interactionsMoyennes": 8.8
+        "posts": 75,
+        "interactionsMoyennes": 8.7
       }
     }
   },
@@ -729,12 +727,12 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-20T07:30:46.799Z",
-    "posts": 92,
+    "genereLe": "2026-11-20T08:04:19.396Z",
+    "posts": 93,
     "parReseau": {
       "threads": {
-        "posts": 23,
-        "moyenne": 11.4
+        "posts": 24,
+        "moyenne": 12.2
       },
       "instagram": {
         "posts": 23,
@@ -751,8 +749,8 @@
     },
     "parFormat": {
       "reponse": {
-        "posts": 23,
-        "moyenne": 11.4
+        "posts": 24,
+        "moyenne": 12.2
       },
       "card": {
         "posts": 6,
@@ -768,13 +766,13 @@
       }
     },
     "parCreneau": {
+      "matin": {
+        "posts": 50,
+        "moyenne": 5.6
+      },
       "après-midi": {
         "posts": 27,
         "moyenne": 5.4
-      },
-      "matin": {
-        "posts": 49,
-        "moyenne": 5.1
       },
       "soir": {
         "posts": 16,
@@ -784,8 +782,8 @@
     "parCreneauReseau": {
       "threads": {
         "7 h – 8 h 30": {
-          "posts": 12,
-          "moyenne": 14.7
+          "posts": 13,
+          "moyenne": 15.8
         },
         "10 h – 11 h 30": {
           "posts": 8,
@@ -847,7 +845,7 @@
         }
       }
     },
-    "interactionsTotal": 427,
+    "interactionsTotal": 457,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36189",
       "channel": "threads",
@@ -894,15 +892,15 @@
         "moyenne": 5.6
       },
       "sans": {
-        "posts": 48,
-        "moyenne": 3.8
+        "posts": 49,
+        "moyenne": 4.3
       }
     },
     "publies": {
       "threads": 25,
-      "facebook": 24,
+      "facebook": 25,
       "bluesky": 24,
-      "x": 24,
+      "x": 25,
       "instagram": 24
     },
     "abonnes": {
@@ -941,14 +939,14 @@
       "x": null
     },
     "engagement": {
-      "threads": 0.97,
+      "threads": 1.04,
       "instagram": 0.07,
       "facebook": 0
     },
     "conseils": [
-      "Threads : le créneau 7 h – 8 h 30 fait 1,6 fois mieux que 10 h – 11 h 30 (14.7 contre 9 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
+      "Threads : le créneau 7 h – 8 h 30 fait 1,8 fois mieux que 10 h – 11 h 30 (15.8 contre 9 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Instagram : le créneau 12 h – 13 h 30 fait 1,5 fois mieux que 18 h – 19 h 30 (8.3 contre 5.5 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
-      "Le format « reponse » fait 114 fois mieux que « reply » (11.4 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « reply » de la rotation dans config/channels.json.",
+      "Le format « reponse » fait 122 fois mieux que « reply » (12.2 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « reply » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+15, +1,3 %) ; Facebook recule (−27), à surveiller."
     ]
   },

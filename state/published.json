@@ -7662,5 +7662,41 @@
       "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/fete-arbre-barolle-fruitiers-anciens-montesquieu/",
       "sujet": "Montesquieu"
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36183",
+    "channel": "x",
+    "at": "2026-11-20T08:01:17.440Z",
+    "mediaId": "kit-telegram",
+    "titre": "8 000 arbres fruitiers anciens seront mis en vente près d’Agen",
+    "lien": "https://passion-aquitaine.ouest-france.fr/fete-arbre-barolle-fruitiers-anciens-montesquieu/",
+    "lienPost": null,
+    "format": "reponse",
+    "mention": false,
+    "apercu": {
+      "texte": "8 000 fruitiers à vendre en une journée : le 29 novembre, #Montesquieu accueille la Fête de l’Arbre, avec 144 variétés anciennes au choix, près d’Agen 🍑",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261120-cde6fa54-x.jpg",
+      "mode": "reponse",
+      "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/fete-arbre-barolle-fruitiers-anciens-montesquieu/",
+      "sujet": null
+    }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36183",
+    "channel": "facebook",
+    "at": "2026-11-20T08:04:16.468Z",
+    "mediaId": "227437307428711_1796271429165404",
+    "titre": "8 000 arbres fruitiers anciens seront mis en vente près d’Agen",
+    "lien": "https://passion-aquitaine.ouest-france.fr/fete-arbre-barolle-fruitiers-anciens-montesquieu/",
+    "lienPost": "https://www.facebook.com/1720946116697936/posts/1796271429165404",
+    "format": null,
+    "mention": false,
+    "apercu": {
+      "texte": "Pas moins de 144 variétés anciennes de fruitiers attendent un jardin à Montesquieu, de quoi retrouver des goûts disparus des étals 🍏",
+      "image": null,
+      "mode": null,
+      "reponse": null,
+      "sujet": null
+    }
   }
 ]

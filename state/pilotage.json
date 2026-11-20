@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-20T16:00:56.589Z",
+  "genereLe": "2026-11-20T16:21:19.854Z",
   "jour": "2026-11-20",
   "reseaux": {
     "instagram": {
@@ -557,15 +557,6 @@
   ],
   "file": [
     {
-      "channel": "x",
-      "dueAt": "2026-11-20T16:20:00.000Z",
-      "prochainPassage": "2026-11-20T16:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": "2026-11-20T13:21:19.192Z",
-      "raison": "l’heure n’était pas dans les créneaux du réseau",
-      "titre": "Golfe de Gascogne : l’hiver 2025, les dauphins sont surtout morts avant l’arrêt de pêche"
-    },
-    {
       "channel": "instagram",
       "dueAt": "2026-11-20T18:14:10.180Z",
       "prochainPassage": "2026-11-20T18:20:00.000Z",
@@ -645,6 +636,13 @@
       "titre": "Golfe de Gascogne : l’hiver 2025, les dauphins sont surtout morts avant l’arrêt de pêche",
       "raison": "Image 404 : https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/tete-dauphin.jpg",
       "quand": "2026-11-20T13:23:27.384Z"
+    },
+    {
+      "channel": "x",
+      "statut": "failed",
+      "titre": "Golfe de Gascogne : l’hiver 2025, les dauphins sont surtout morts avant l’arrêt de pêche",
+      "raison": "Image 404 : https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/tete-dauphin.jpg",
+      "quand": "2026-11-20T16:20:00.000Z"
     }
   ],
   "mesures": {
@@ -769,7 +767,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-20T16:01:01.898Z",
+    "genereLe": "2026-11-20T16:21:24.240Z",
     "posts": 96,
     "parReseau": {
       "threads": {

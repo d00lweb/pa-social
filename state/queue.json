@@ -106,9 +106,9 @@
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=36255",
     "channel": "bluesky",
-    "dueAt": 1795177692700,
+    "dueAt": 1795177596975,
     "status": "pending",
-    "attempts": 0,
+    "attempts": 1,
     "article": {
       "title": "Golfe de Gascogne : l’hiver 2025, les dauphins sont surtout morts avant l’arrêt de pêche",
       "link": "https://passion-aquitaine.ouest-france.fr/dauphins-golfe-gascogne-peche-fermeture/",
@@ -205,7 +205,8 @@
         "facebook": []
       }
     },
-    "previewSent": false
+    "previewSent": false,
+    "lastError": "Image 404 : https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/tete-dauphin.jpg"
   },
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=36255",
@@ -421,9 +422,9 @@
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=36255",
     "channel": "x",
-    "dueAt": 1795177200000,
+    "dueAt": 1795191600000,
     "status": "pending",
-    "attempts": 1,
+    "attempts": 2,
     "article": {
       "title": "Golfe de Gascogne : l’hiver 2025, les dauphins sont surtout morts avant l’arrêt de pêche",
       "link": "https://passion-aquitaine.ouest-france.fr/dauphins-golfe-gascogne-peche-fermeture/",
@@ -521,7 +522,9 @@
       }
     },
     "previewSent": false,
-    "lastError": "Image 404 : https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/tete-dauphin.jpg"
+    "lastError": "Image 404 : https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/tete-dauphin.jpg",
+    "prevuInitialement": 1795180879192,
+    "raison": "l’heure n’était pas dans les créneaux du réseau"
   },
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=36241",
@@ -984,7 +987,7 @@
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=36241",
     "channel": "x",
-    "dueAt": 1795191600000,
+    "dueAt": 1795249200000,
     "status": "pending",
     "attempts": 0,
     "article": {
@@ -1093,6 +1096,8 @@
         "facebook": []
       }
     },
-    "previewSent": false
+    "previewSent": false,
+    "prevuInitialement": 1795191600000,
+    "raison": "un autre post occupait déjà ce créneau"
   }
 ]

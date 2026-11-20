@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-20T12:01:11.562Z",
+  "genereLe": "2026-11-20T12:21:19.192Z",
   "jour": "2026-11-20",
   "reseaux": {
     "instagram": {
@@ -25,7 +25,7 @@
       },
       "formats": null,
       "aujourdhui": 1,
-      "semaine": 11,
+      "semaine": 10,
       "total": 90,
       "dernier": "2026-11-20T11:23:43.080Z",
       "lienDernier": "https://www.instagram.com/p/Df9ijJOF-ke/"
@@ -61,7 +61,7 @@
         "reply"
       ],
       "aujourdhui": 1,
-      "semaine": 10,
+      "semaine": 9,
       "total": 88,
       "dernier": "2026-11-20T08:26:18.682Z",
       "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2q5zsntx42g"
@@ -557,17 +557,8 @@
   ],
   "file": [
     {
-      "channel": "x",
-      "dueAt": "2026-11-20T12:20:00.000Z",
-      "prochainPassage": "2026-11-20T12:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Golfe de Gascogne : l’hiver 2025, les dauphins sont surtout morts avant l’arrêt de pêche"
-    },
-    {
       "channel": "bluesky",
-      "dueAt": "2026-11-20T12:28:12.700Z",
+      "dueAt": "2026-11-20T12:26:36.975Z",
       "prochainPassage": "2026-11-20T13:00:00.000Z",
       "nature": "actu",
       "prevuInitialement": null,
@@ -587,10 +578,10 @@
       "channel": "x",
       "dueAt": "2026-11-20T16:20:00.000Z",
       "prochainPassage": "2026-11-20T16:20:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Ils sont encore là, mais presque invisibles : le plan pour sauver les visons d’Europe"
+      "nature": "actu",
+      "prevuInitialement": "2026-11-20T13:21:19.192Z",
+      "raison": "l’heure n’était pas dans les créneaux du réseau",
+      "titre": "Golfe de Gascogne : l’hiver 2025, les dauphins sont surtout morts avant l’arrêt de pêche"
     },
     {
       "channel": "instagram",
@@ -638,6 +629,15 @@
       "titre": "Ils sont encore là, mais presque invisibles : le plan pour sauver les visons d’Europe"
     },
     {
+      "channel": "x",
+      "dueAt": "2026-11-21T08:20:00.000Z",
+      "prochainPassage": "2026-11-21T08:20:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": "2026-11-20T16:20:00.000Z",
+      "raison": "un autre post occupait déjà ce créneau",
+      "titre": "Ils sont encore là, mais presque invisibles : le plan pour sauver les visons d’Europe"
+    },
+    {
       "channel": "instagram",
       "dueAt": "2026-11-21T12:14:04.101Z",
       "prochainPassage": "2026-11-21T12:20:00.000Z",
@@ -649,14 +649,14 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 652,
+    "releves": 654,
     "parReseau": {
       "instagram": {
-        "posts": 79,
-        "interactionsMoyennes": 12.5
+        "posts": 80,
+        "interactionsMoyennes": 12.4
       },
       "bluesky": {
-        "posts": 78,
+        "posts": 79,
         "interactionsMoyennes": 0.2
       },
       "facebook": {
@@ -770,7 +770,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-20T12:01:17.083Z",
+    "genereLe": "2026-11-20T12:21:24.598Z",
     "posts": 96,
     "parReseau": {
       "threads": {

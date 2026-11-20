@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-20T18:00:48.007Z",
+  "genereLe": "2026-11-20T18:21:13.700Z",
   "jour": "2026-11-20",
   "reseaux": {
     "instagram": {
@@ -25,7 +25,7 @@
       },
       "formats": null,
       "aujourdhui": 1,
-      "semaine": 10,
+      "semaine": 9,
       "total": 90,
       "dernier": "2026-11-20T11:23:43.080Z",
       "lienDernier": "https://www.instagram.com/p/Df9ijJOF-ke/"
@@ -557,24 +557,6 @@
   ],
   "file": [
     {
-      "channel": "instagram",
-      "dueAt": "2026-11-20T18:25:06.391Z",
-      "prochainPassage": "2026-11-20T19:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Golfe de Gascogne : l’hiver 2025, les dauphins sont surtout morts avant l’arrêt de pêche"
-    },
-    {
-      "channel": "bluesky",
-      "dueAt": "2026-11-20T18:29:13.386Z",
-      "prochainPassage": "2026-11-20T19:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": "2026-11-20T12:26:36.975Z",
-      "raison": "son créneau était passé",
-      "titre": "Golfe de Gascogne : l’hiver 2025, les dauphins sont surtout morts avant l’arrêt de pêche"
-    },
-    {
       "channel": "facebook",
       "dueAt": "2026-11-20T20:05:21.306Z",
       "prochainPassage": "2026-11-20T20:20:00.000Z",
@@ -603,12 +585,12 @@
     },
     {
       "channel": "bluesky",
-      "dueAt": "2026-11-21T08:10:28.521Z",
-      "prochainPassage": "2026-11-21T08:20:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": "2026-11-20T18:26:46.099Z",
-      "raison": "un autre post occupait déjà ce créneau",
-      "titre": "Ils sont encore là, mais presque invisibles : le plan pour sauver les visons d’Europe"
+      "dueAt": "2026-11-21T07:32:16.148Z",
+      "prochainPassage": "2026-11-21T08:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": "2026-11-20T12:26:36.975Z",
+      "raison": "l’heure n’était pas dans les créneaux du réseau",
+      "titre": "Golfe de Gascogne : l’hiver 2025, les dauphins sont surtout morts avant l’arrêt de pêche"
     },
     {
       "channel": "x",
@@ -621,11 +603,29 @@
     },
     {
       "channel": "instagram",
-      "dueAt": "2026-11-21T12:14:04.101Z",
-      "prochainPassage": "2026-11-21T12:20:00.000Z",
+      "dueAt": "2026-11-21T11:23:48.199Z",
+      "prochainPassage": "2026-11-21T12:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": "2026-11-20T19:21:13.700Z",
+      "raison": "l’heure n’était pas dans les créneaux du réseau",
+      "titre": "Golfe de Gascogne : l’hiver 2025, les dauphins sont surtout morts avant l’arrêt de pêche"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-11-21T11:29:43.419Z",
+      "prochainPassage": "2026-11-21T12:00:00.000Z",
       "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
+      "prevuInitialement": "2026-11-20T18:26:46.099Z",
+      "raison": "un autre post occupait déjà ce créneau",
+      "titre": "Ils sont encore là, mais presque invisibles : le plan pour sauver les visons d’Europe"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-11-21T17:33:10.610Z",
+      "prochainPassage": "2026-11-21T18:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": "2026-11-21T12:14:04.101Z",
+      "raison": "un autre post occupait déjà ce créneau",
       "titre": "Ils sont encore là, mais presque invisibles : le plan pour sauver les visons d’Europe"
     }
   ],
@@ -646,11 +646,11 @@
     }
   ],
   "mesures": {
-    "releves": 654,
+    "releves": 655,
     "parReseau": {
       "instagram": {
-        "posts": 80,
-        "interactionsMoyennes": 12.4
+        "posts": 81,
+        "interactionsMoyennes": 12.2
       },
       "bluesky": {
         "posts": 79,
@@ -728,7 +728,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-20T17:01:01.327Z"
+    "derniere": "2026-11-20T18:21:13.700Z"
   },
   "abonnes": {
     "instagram": {
@@ -767,7 +767,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-20T18:00:53.675Z",
+    "genereLe": "2026-11-20T18:21:21.132Z",
     "posts": 96,
     "parReseau": {
       "threads": {

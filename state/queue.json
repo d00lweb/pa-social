@@ -2,9 +2,9 @@
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=36255",
     "channel": "instagram",
-    "dueAt": 1795199106391,
+    "dueAt": 1795260228199,
     "status": "pending",
-    "attempts": 1,
+    "attempts": 2,
     "article": {
       "title": "Golfe de Gascogne : l’hiver 2025, les dauphins sont surtout morts avant l’arrêt de pêche",
       "link": "https://passion-aquitaine.ouest-france.fr/dauphins-golfe-gascogne-peche-fermeture/",
@@ -102,14 +102,16 @@
       }
     },
     "previewSent": false,
-    "lastError": "Image 404 : https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/tete-dauphin.jpg"
+    "lastError": "Image 404 : https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/tete-dauphin.jpg",
+    "prevuInitialement": 1795202473700,
+    "raison": "l’heure n’était pas dans les créneaux du réseau"
   },
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=36255",
     "channel": "bluesky",
-    "dueAt": 1795199353386,
+    "dueAt": 1795246336148,
     "status": "pending",
-    "attempts": 1,
+    "attempts": 2,
     "article": {
       "title": "Golfe de Gascogne : l’hiver 2025, les dauphins sont surtout morts avant l’arrêt de pêche",
       "link": "https://passion-aquitaine.ouest-france.fr/dauphins-golfe-gascogne-peche-fermeture/",
@@ -209,7 +211,7 @@
     "previewSent": false,
     "lastError": "Image 404 : https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/tete-dauphin.jpg",
     "prevuInitialement": 1795177596975,
-    "raison": "son créneau était passé"
+    "raison": "l’heure n’était pas dans les créneaux du réseau"
   },
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=36255",
@@ -532,7 +534,7 @@
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=36241",
     "channel": "instagram",
-    "dueAt": 1795263244101,
+    "dueAt": 1795282390610,
     "status": "pending",
     "attempts": 0,
     "article": {
@@ -641,12 +643,14 @@
         "facebook": []
       }
     },
-    "previewSent": false
+    "previewSent": false,
+    "prevuInitialement": 1795263244101,
+    "raison": "un autre post occupait déjà ce créneau"
   },
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=36241",
     "channel": "bluesky",
-    "dueAt": 1795248628521,
+    "dueAt": 1795260583419,
     "status": "pending",
     "attempts": 0,
     "article": {

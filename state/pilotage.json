@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-20T11:00:46.216Z",
+  "genereLe": "2026-11-20T11:21:07.624Z",
   "jour": "2026-11-20",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 10,
-      "total": 89,
-      "dernier": "2026-11-19T11:27:12.148Z",
-      "lienDernier": "https://www.instagram.com/p/Df6-JXEl5a8/"
+      "aujourdhui": 1,
+      "semaine": 11,
+      "total": 90,
+      "dernier": "2026-11-20T11:23:43.080Z",
+      "lienDernier": "https://www.instagram.com/p/Df9ijJOF-ke/"
     },
     "bluesky": {
       "actif": true,
@@ -157,7 +157,7 @@
         "reponse"
       ],
       "aujourdhui": 1,
-      "semaine": 10,
+      "semaine": 9,
       "total": 88,
       "dernier": "2026-11-20T08:01:17.440Z",
       "lienDernier": null
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36183",
       "titre": "8 000 arbres fruitiers anciens seront mis en vente près d’Agen",
       "lien": "https://passion-aquitaine.ouest-france.fr/fete-arbre-barolle-fruitiers-anciens-montesquieu/",
-      "at": "2026-11-20T08:26:18.682Z",
+      "at": "2026-11-20T11:23:43.080Z",
       "reseaux": {
         "threads": {
           "texte": "Et si votre prochain arbre venait d’une variété que plus personne ne cultive ? 🍎 144 variétés anciennes de fruitiers seront proposées le 29 novembre à Montesquieu, près d’Agen, pendant la Fête de l’Arbre. Au total, 8 000 arbres à adopter. Vous avez déjà un fruit d’antan en tête pour votre jardin ?",
@@ -201,6 +201,14 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-11-20T08:26:18.682Z"
+        },
+        "instagram": {
+          "texte": "Un verger aux saveurs d’autrefois, c’est possible : 144 variétés anciennes de fruitiers vous attendent près d’Agen.\n⠀\nLe 29 novembre, la Fête de l’Arbre de Montesquieu met en vente 8 000 arbres. L’occasion de choisir des fruits oubliés pour son jardin en Lot-et-Garonne 🍐\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Agenais #ArbresFruitiers #VarietesAnciennes",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261120-cde6fa54-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-20T11:23:43.080Z"
         }
       }
     },
@@ -447,6 +455,16 @@
   ],
   "publications": [
     {
+      "channel": "instagram",
+      "at": "2026-11-20T11:23:43.080Z",
+      "titre": "8 000 arbres fruitiers anciens seront mis en vente près d’Agen",
+      "lien": "https://passion-aquitaine.ouest-france.fr/fete-arbre-barolle-fruitiers-anciens-montesquieu/",
+      "lienPost": "https://www.instagram.com/p/Df9ijJOF-ke/",
+      "format": null,
+      "texte": "Un verger aux saveurs d’autrefois, c’est possible : 144 variétés anciennes de fruitiers vous attendent près d’Agen.\n⠀\nLe 29 novembre, la Fête de l’Arbre de Montesquieu met en vente 8 000 arbres. L’occasion de choisir des fruits oubliés pour son jardin en Lot-et-Garonne 🍐\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Agenais #ArbresFruitiers #VarietesAnciennes",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261120-cde6fa54-1.jpg"
+    },
+    {
       "channel": "bluesky",
       "at": "2026-11-20T08:26:18.682Z",
       "titre": "8 000 arbres fruitiers anciens seront mis en vente près d’Agen",
@@ -535,28 +553,9 @@
       "format": "reponse",
       "texte": "Imaginez un vieux bâtiment posé sur le sable, à 67 m des vagues, avec 250 tonnes d’amiante dans ses murs. C’est l’ancien hélio-marin de Labenne. Une fois démoli, il laissera la place à 3,4 hectares de dune landaise rendus à la nature 🌾",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261119-55b9a683-th.jpg"
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-11-18T19:27:53.625Z",
-      "titre": "À Bergerac, ces conteneurs deviennent des usines, des labos ou des bases militaires",
-      "lien": "https://passion-aquitaine.ouest-france.fr/calcub-bergerac-conteneurs-usines/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1794345496024664",
-      "format": null,
-      "texte": "Une base militaire dans un conteneur maritime, c’est ce que sait faire une entreprise de Bergerac 🪖",
-      "image": null
     }
   ],
   "file": [
-    {
-      "channel": "instagram",
-      "dueAt": "2026-11-20T11:23:10.016Z",
-      "prochainPassage": "2026-11-20T12:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "8 000 arbres fruitiers anciens seront mis en vente près d’Agen"
-    },
     {
       "channel": "x",
       "dueAt": "2026-11-20T12:00:00.000Z",
@@ -771,7 +770,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-20T11:00:51.784Z",
+    "genereLe": "2026-11-20T11:23:45.330Z",
     "posts": 95,
     "parReseau": {
       "threads": {
@@ -945,7 +944,7 @@
       "facebook": 25,
       "bluesky": 25,
       "x": 25,
-      "instagram": 24
+      "instagram": 25
     },
     "abonnes": {
       "instagram": {

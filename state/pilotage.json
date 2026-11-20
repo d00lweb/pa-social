@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-20T08:01:07.897Z",
+  "genereLe": "2026-11-20T08:21:07.559Z",
   "jour": "2026-11-20",
   "reseaux": {
     "instagram": {
@@ -60,11 +60,11 @@
         "image",
         "reply"
       ],
-      "aujourdhui": 0,
+      "aujourdhui": 1,
       "semaine": 10,
-      "total": 87,
-      "dernier": "2026-11-19T08:08:00.434Z",
-      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2nmk5rx2t2t"
+      "total": 88,
+      "dernier": "2026-11-20T08:26:18.682Z",
+      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2q5zsntx42g"
     },
     "facebook": {
       "actif": true,
@@ -89,7 +89,7 @@
       },
       "formats": null,
       "aujourdhui": 1,
-      "semaine": 11,
+      "semaine": 10,
       "total": 85,
       "dernier": "2026-11-20T08:04:16.468Z",
       "lienDernier": "https://www.facebook.com/1720946116697936/posts/1796271429165404"
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36183",
       "titre": "8 000 arbres fruitiers anciens seront mis en vente près d’Agen",
       "lien": "https://passion-aquitaine.ouest-france.fr/fete-arbre-barolle-fruitiers-anciens-montesquieu/",
-      "at": "2026-11-20T08:04:16.468Z",
+      "at": "2026-11-20T08:26:18.682Z",
       "reseaux": {
         "threads": {
           "texte": "Et si votre prochain arbre venait d’une variété que plus personne ne cultive ? 🍎 144 variétés anciennes de fruitiers seront proposées le 29 novembre à Montesquieu, près d’Agen, pendant la Fête de l’Arbre. Au total, 8 000 arbres à adopter. Vous avez déjà un fruit d’antan en tête pour votre jardin ?",
@@ -193,6 +193,14 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-11-20T08:04:16.468Z"
+        },
+        "bluesky": {
+          "texte": "Imaginez des milliers de jeunes pommiers, poiriers et pruniers alignés, prêts à partir 🌳. À #Montesquieu, dans l’Agenais, la Fête de l’Arbre réunit 144 variétés anciennes le 29 novembre.\n➡️ Lire l’article",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261120-cde6fa54-bsky.jpg",
+          "mode": "image",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-20T08:26:18.682Z"
         }
       }
     },
@@ -439,6 +447,16 @@
   ],
   "publications": [
     {
+      "channel": "bluesky",
+      "at": "2026-11-20T08:26:18.682Z",
+      "titre": "8 000 arbres fruitiers anciens seront mis en vente près d’Agen",
+      "lien": "https://passion-aquitaine.ouest-france.fr/fete-arbre-barolle-fruitiers-anciens-montesquieu/",
+      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2q5zsntx42g",
+      "format": "image",
+      "texte": "Imaginez des milliers de jeunes pommiers, poiriers et pruniers alignés, prêts à partir 🌳. À #Montesquieu, dans l’Agenais, la Fête de l’Arbre réunit 144 variétés anciennes le 29 novembre.\n➡️ Lire l’article",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261120-cde6fa54-bsky.jpg"
+    },
+    {
       "channel": "facebook",
       "at": "2026-11-20T08:04:16.468Z",
       "titre": "8 000 arbres fruitiers anciens seront mis en vente près d’Agen",
@@ -527,28 +545,9 @@
       "format": null,
       "texte": "Une base militaire dans un conteneur maritime, c’est ce que sait faire une entreprise de Bergerac 🪖",
       "image": null
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-11-18T17:34:49.194Z",
-      "titre": "À Bergerac, ces conteneurs deviennent des usines, des labos ou des bases militaires",
-      "lien": "https://passion-aquitaine.ouest-france.fr/calcub-bergerac-conteneurs-usines/",
-      "lienPost": "https://www.instagram.com/p/Df5Dbl5EwNh/",
-      "format": null,
-      "texte": "Bergerac, en Périgord : ici, les conteneurs maritimes repartent pour une seconde vie 🏭\n⠀\nL’entreprise CALCUB les transforme en usines, en laboratoires ou même en bases militaires. De nombreux secteurs industriels les exploitent déjà.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bergerac #Conteneurs #Industrie",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261118-0bd64f36-1.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "bluesky",
-      "dueAt": "2026-11-20T08:26:16.805Z",
-      "prochainPassage": "2026-11-20T09:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "8 000 arbres fruitiers anciens seront mis en vente près d’Agen"
-    },
     {
       "channel": "threads",
       "dueAt": "2026-11-20T10:24:46.414Z",
@@ -606,18 +605,18 @@
   ],
   "alertes": [],
   "mesures": {
-    "releves": 646,
+    "releves": 649,
     "parReseau": {
       "instagram": {
         "posts": 79,
         "interactionsMoyennes": 12.5
       },
       "bluesky": {
-        "posts": 77,
+        "posts": 78,
         "interactionsMoyennes": 0.2
       },
       "facebook": {
-        "posts": 74,
+        "posts": 75,
         "interactionsMoyennes": 0
       },
       "threads": {
@@ -688,7 +687,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-20T07:20:44.734Z"
+    "derniere": "2026-11-20T08:21:07.559Z"
   },
   "abonnes": {
     "instagram": {
@@ -727,8 +726,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-20T08:04:19.396Z",
-    "posts": 93,
+    "genereLe": "2026-11-20T08:26:24.693Z",
+    "posts": 94,
     "parReseau": {
       "threads": {
         "posts": 24,
@@ -743,7 +742,7 @@
         "moyenne": 0
       },
       "bluesky": {
-        "posts": 23,
+        "posts": 24,
         "moyenne": 0
       }
     },
@@ -753,8 +752,8 @@
         "moyenne": 12.2
       },
       "card": {
-        "posts": 6,
-        "moyenne": 0.2
+        "posts": 7,
+        "moyenne": 0.1
       },
       "image": {
         "posts": 13,
@@ -767,8 +766,8 @@
     },
     "parCreneau": {
       "matin": {
-        "posts": 50,
-        "moyenne": 5.6
+        "posts": 51,
+        "moyenne": 5.5
       },
       "après-midi": {
         "posts": 27,
@@ -814,7 +813,7 @@
       },
       "bluesky": {
         "8 h – 9 h 30": {
-          "posts": 14,
+          "posts": 15,
           "moyenne": 0.1
         },
         "hors créneau": {
@@ -867,24 +866,24 @@
       "creneauReseau": "7 h – 8 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36234",
-      "channel": "facebook",
-      "mediaId": "227437307428711_1794345496024664",
-      "publieLe": "2026-11-18T19:27:53.625Z",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36221",
+      "channel": "bluesky",
+      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3n2nmk5rx2t2t",
+      "publieLe": "2026-11-19T08:08:00.434Z",
       "jalon": 1,
-      "releveLe": "2026-11-19T20:02:33.694Z",
+      "releveLe": "2026-11-20T08:21:07.559Z",
       "likes": 0,
       "commentairesBruts": 0,
       "partages": 0,
       "vues": null,
       "commentaires": 0,
       "v": 2,
-      "titre": "À Bergerac, ces conteneurs deviennent des usines, des labos ou des bases militaires",
-      "lien": "https://www.facebook.com/1720946116697936/posts/1794345496024664",
-      "format": null,
+      "titre": "Labenne : 250 tonnes d’amiante à ôter avant l’arrivée des vagues",
+      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2nmk5rx2t2t",
+      "format": "card",
       "mention": false,
-      "creneau": "soir",
-      "creneauReseau": "20 h – 21 h 30"
+      "creneau": "matin",
+      "creneauReseau": "8 h – 9 h 30"
     },
     "mentions": {
       "avec": {
@@ -892,14 +891,14 @@
         "moyenne": 5.6
       },
       "sans": {
-        "posts": 49,
-        "moyenne": 4.3
+        "posts": 50,
+        "moyenne": 4.2
       }
     },
     "publies": {
       "threads": 25,
       "facebook": 25,
-      "bluesky": 24,
+      "bluesky": 25,
       "x": 25,
       "instagram": 24
     },

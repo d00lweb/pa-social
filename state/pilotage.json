@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-21T17:40:53.498Z",
+  "genereLe": "2026-11-21T18:00:41.707Z",
   "jour": "2026-11-21",
   "reseaux": {
     "instagram": {
@@ -60,11 +60,11 @@
         "image",
         "reply"
       ],
-      "aujourdhui": 1,
-      "semaine": 8,
-      "total": 89,
-      "dernier": "2026-11-21T11:29:45.175Z",
-      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2syqqrfvv2d"
+      "aujourdhui": 2,
+      "semaine": 9,
+      "total": 90,
+      "dernier": "2026-11-21T18:11:02.889Z",
+      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2tp6crw3c23"
     },
     "facebook": {
       "actif": true,
@@ -165,6 +165,38 @@
   },
   "articles": [
     {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36272",
+      "titre": "Jugé à Angoulême, ce voleur de notaires s’offrait des cartes Pokémon estimées à 20 000 €",
+      "lien": "https://passion-aquitaine.ouest-france.fr/cartes-pokemon-cambrioleurs-notaires-angouleme/",
+      "at": "2026-11-21T18:11:02.889Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Un procès hors norme à Angoulême. Deux hommes roulaient la nuit, Google Maps en main, pour cibler des études de notaires. Au total, 37 études visées. Et l’or revendu ne finançait pas un train de vie classique : ℹ️ il servait à acheter des cartes Pokémon par milliers, estimées à 20 000 €.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261120-d51b109a-th.jpg",
+          "mode": "reponse",
+          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/cartes-pokemon-cambrioleurs-notaires-angouleme/",
+          "sujet": "Angoulême",
+          "publieLe": "2026-11-21T10:29:51.486Z"
+        },
+        "x": {
+          "texte": "Comment l’or volé dans 37 études de notaires a fini en cartes Pokémon : le duo jugé à #Angoulême avait amassé une collection estimée à 20 000 € 🗞️",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261120-d51b109a-x.jpg",
+          "mode": "reponse",
+          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/cartes-pokemon-cambrioleurs-notaires-angouleme/",
+          "sujet": null,
+          "publieLe": "2026-11-21T11:20:56.800Z"
+        },
+        "bluesky": {
+          "texte": "À #Angoulême, un duo est jugé pour des vols dans 37 études de notaires 🗞️ L’or revendu servait à acheter des cartes Pokémon par milliers, une collection estimée à 20 000 €.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261120-d51b109a-bsky.jpg",
+          "mode": "reply",
+          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/cartes-pokemon-cambrioleurs-notaires-angouleme/",
+          "sujet": null,
+          "publieLe": "2026-11-21T18:11:02.889Z"
+        }
+      }
+    },
+    {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36241",
       "titre": "Ils sont encore là, mais presque invisibles : le plan pour sauver les visons d’Europe",
       "lien": "https://passion-aquitaine.ouest-france.fr/vison-europe-nouvelle-aquitaine-life-care/",
@@ -233,30 +265,6 @@
           "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/baie-bonne-anse-reserve-naturelle-palmyre/",
           "sujet": null,
           "publieLe": "2026-11-21T16:21:05.880Z"
-        }
-      }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36272",
-      "titre": "Jugé à Angoulême, ce voleur de notaires s’offrait des cartes Pokémon estimées à 20 000 €",
-      "lien": "https://passion-aquitaine.ouest-france.fr/cartes-pokemon-cambrioleurs-notaires-angouleme/",
-      "at": "2026-11-21T11:20:56.800Z",
-      "reseaux": {
-        "threads": {
-          "texte": "Un procès hors norme à Angoulême. Deux hommes roulaient la nuit, Google Maps en main, pour cibler des études de notaires. Au total, 37 études visées. Et l’or revendu ne finançait pas un train de vie classique : ℹ️ il servait à acheter des cartes Pokémon par milliers, estimées à 20 000 €.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261120-d51b109a-th.jpg",
-          "mode": "reponse",
-          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/cartes-pokemon-cambrioleurs-notaires-angouleme/",
-          "sujet": "Angoulême",
-          "publieLe": "2026-11-21T10:29:51.486Z"
-        },
-        "x": {
-          "texte": "Comment l’or volé dans 37 études de notaires a fini en cartes Pokémon : le duo jugé à #Angoulême avait amassé une collection estimée à 20 000 € 🗞️",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261120-d51b109a-x.jpg",
-          "mode": "reponse",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/cartes-pokemon-cambrioleurs-notaires-angouleme/",
-          "sujet": null,
-          "publieLe": "2026-11-21T11:20:56.800Z"
         }
       }
     },
@@ -375,6 +383,16 @@
   ],
   "publications": [
     {
+      "channel": "bluesky",
+      "at": "2026-11-21T18:11:02.889Z",
+      "titre": "Jugé à Angoulême, ce voleur de notaires s’offrait des cartes Pokémon estimées à 20 000 €",
+      "lien": "https://passion-aquitaine.ouest-france.fr/cartes-pokemon-cambrioleurs-notaires-angouleme/",
+      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2tp6crw3c23",
+      "format": "reply",
+      "texte": "À #Angoulême, un duo est jugé pour des vols dans 37 études de notaires 🗞️ L’or revendu servait à acheter des cartes Pokémon par milliers, une collection estimée à 20 000 €.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261120-d51b109a-bsky.jpg"
+    },
+    {
       "channel": "instagram",
       "at": "2026-11-21T17:33:51.073Z",
       "titre": "Ils sont encore là, mais presque invisibles : le plan pour sauver les visons d’Europe",
@@ -463,28 +481,9 @@
       "format": null,
       "texte": "Et si l’un des animaux les plus menacés d’Europe vivait encore tout près de chez vous, en Charente ou en Charente-Maritime ? 🦦",
       "image": null
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-11-20T20:05:31.494Z",
-      "titre": "Golfe de Gascogne : l’hiver 2025, les dauphins sont surtout morts avant l’arrêt de pêche",
-      "lien": "https://passion-aquitaine.ouest-france.fr/dauphins-golfe-gascogne-peche-fermeture/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1796959495763264",
-      "format": null,
-      "texte": "Plus de la moitié des dauphins tués l’hiver dernier dans le golfe de Gascogne l’ont été avant même l’arrêt de pêche 📰",
-      "image": null
     }
   ],
   "file": [
-    {
-      "channel": "bluesky",
-      "dueAt": "2026-11-21T18:11:00.629Z",
-      "prochainPassage": "2026-11-21T18:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Jugé à Angoulême, ce voleur de notaires s’offrait des cartes Pokémon estimées à 20 000 €"
-    },
     {
       "channel": "facebook",
       "dueAt": "2026-11-21T20:13:55.481Z",
@@ -728,7 +727,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-21T17:40:56.741Z",
+    "genereLe": "2026-11-21T18:11:11.224Z",
     "posts": 100,
     "parReseau": {
       "threads": {
@@ -900,7 +899,7 @@
     "publies": {
       "threads": 28,
       "facebook": 27,
-      "bluesky": 26,
+      "bluesky": 27,
       "x": 28,
       "instagram": 26
     },

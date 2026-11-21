@@ -7914,5 +7914,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36272",
+    "channel": "bluesky",
+    "at": "2026-11-21T18:11:02.889Z",
+    "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3n2tp6crw3c23",
+    "titre": "Jugé à Angoulême, ce voleur de notaires s’offrait des cartes Pokémon estimées à 20 000 €",
+    "lien": "https://passion-aquitaine.ouest-france.fr/cartes-pokemon-cambrioleurs-notaires-angouleme/",
+    "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2tp6crw3c23",
+    "format": "reply",
+    "mention": false,
+    "apercu": {
+      "texte": "À #Angoulême, un duo est jugé pour des vols dans 37 études de notaires 🗞️ L’or revendu servait à acheter des cartes Pokémon par milliers, une collection estimée à 20 000 €.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261120-d51b109a-bsky.jpg",
+      "mode": "reply",
+      "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/cartes-pokemon-cambrioleurs-notaires-angouleme/",
+      "sujet": null
+    }
   }
 ]

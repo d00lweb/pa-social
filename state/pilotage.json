@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-21T10:18:55.223Z",
+  "genereLe": "2026-11-21T10:21:05.340Z",
   "jour": "2026-11-21",
   "reseaux": {
     "instagram": {
@@ -122,11 +122,11 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 1,
-      "semaine": 9,
-      "total": 86,
-      "dernier": "2026-11-21T07:17:19.046Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/Df_q3CnFSjQ"
+      "aujourdhui": 2,
+      "semaine": 10,
+      "total": 87,
+      "dernier": "2026-11-21T10:29:51.486Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DgAA8AiGx3Z"
     },
     "x": {
       "actif": true,
@@ -164,6 +164,22 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36272",
+      "titre": "Jugé à Angoulême, ce voleur de notaires s’offrait des cartes Pokémon estimées à 20 000 €",
+      "lien": "https://passion-aquitaine.ouest-france.fr/cartes-pokemon-cambrioleurs-notaires-angouleme/",
+      "at": "2026-11-21T10:29:51.486Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Un procès hors norme à Angoulême. Deux hommes roulaient la nuit, Google Maps en main, pour cibler des études de notaires. Au total, 37 études visées. Et l’or revendu ne finançait pas un train de vie classique : ℹ️ il servait à acheter des cartes Pokémon par milliers, estimées à 20 000 €.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261120-d51b109a-th.jpg",
+          "mode": "reponse",
+          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/cartes-pokemon-cambrioleurs-notaires-angouleme/",
+          "sujet": "Angoulême",
+          "publieLe": "2026-11-21T10:29:51.486Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36241",
       "titre": "Ils sont encore là, mais presque invisibles : le plan pour sauver les visons d’Europe",
@@ -355,57 +371,19 @@
           "publieLe": "2026-11-18T19:27:53.625Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36194",
-      "titre": "Bordeaux-Langon : 130 heures sans train du 21 au 26 novembre",
-      "lien": "https://passion-aquitaine.ouest-france.fr/bordeaux-langon-trains-interrompus-novembre/",
-      "at": "2026-11-18T11:27:21.345Z",
-      "reseaux": {
-        "threads": {
-          "texte": "Si vous prenez le train entre Bordeaux et Langon, notez bien ces dates 🛤️ Du 21 au 26 novembre, aucun train ne circulera sur cette portion, soit 130 heures de coupure. Le chantier sert à préparer la future ligne vers Toulouse. De quoi prévoir dès maintenant une autre solution pour vos trajets.\n@villedebordeaux",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261118-a54a170d-th.jpg",
-          "mode": "reponse",
-          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/bordeaux-langon-trains-interrompus-novembre/",
-          "sujet": "Bordeaux",
-          "publieLe": "2026-11-18T07:29:49.520Z"
-        },
-        "facebook": {
-          "texte": "Entre Bordeaux et Langon, les rails resteront vides près de six jours d’affilée pour préparer la ligne vers Toulouse 🛤️",
-          "image": null,
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-18T07:29:57.799Z"
-        },
-        "x": {
-          "texte": "La coupure #Bordeaux-Langon du 21 au 26 novembre ne vise pas la ligne actuelle : ces 🚧 130 heures de chantier préparent la future ligne vers Toulouse.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261118-a54a170d-x.jpg",
-          "mode": "reponse",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/bordeaux-langon-trains-interrompus-novembre/",
-          "sujet": null,
-          "publieLe": "2026-11-18T08:28:19.768Z"
-        },
-        "bluesky": {
-          "texte": "🏗️ Pas un seul #train entre #Bordeaux et Langon pendant 130 heures, du 21 au 26 novembre. La raison de cette coupure totale : un chantier pour la future ligne vers Toulouse.\n@villedebordeaux.bsky.social",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261118-a54a170d-bsky.jpg",
-          "mode": "reply",
-          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/bordeaux-langon-trains-interrompus-novembre/",
-          "sujet": null,
-          "publieLe": "2026-11-18T08:28:34.444Z"
-        },
-        "instagram": {
-          "texte": "130 heures d’affilée : c’est le temps de coupure totale des trains entre Bordeaux et Langon 🚧\n⠀\nDu 21 au 26 novembre, la ligne s’arrête en Gironde pour laisser place au chantier de la future liaison vers Toulouse. Mieux vaut anticiper ses trajets.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #Langon #Train",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261118-a54a170d-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-18T11:27:21.345Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "threads",
+      "at": "2026-11-21T10:29:51.486Z",
+      "titre": "Jugé à Angoulême, ce voleur de notaires s’offrait des cartes Pokémon estimées à 20 000 €",
+      "lien": "https://passion-aquitaine.ouest-france.fr/cartes-pokemon-cambrioleurs-notaires-angouleme/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/DgAA8AiGx3Z",
+      "format": "reponse",
+      "texte": "Un procès hors norme à Angoulême. Deux hommes roulaient la nuit, Google Maps en main, pour cibler des études de notaires. Au total, 37 études visées. Et l’or revendu ne finançait pas un train de vie classique : ℹ️ il servait à acheter des cartes Pokémon par milliers, estimées à 20 000 €.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261120-d51b109a-th.jpg"
+    },
     {
       "channel": "x",
       "at": "2026-11-21T08:21:09.410Z",
@@ -495,28 +473,9 @@
       "format": "reponse",
       "texte": "Et si votre prochain arbre venait d’une variété que plus personne ne cultive ? 🍎 144 variétés anciennes de fruitiers seront proposées le 29 novembre à Montesquieu, près d’Agen, pendant la Fête de l’Arbre. Au total, 8 000 arbres à adopter. Vous avez déjà un fruit d’antan en tête pour votre jardin ?",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261120-cde6fa54-th.jpg"
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-11-19T11:27:12.148Z",
-      "titre": "Labenne : 250 tonnes d’amiante à ôter avant l’arrivée des vagues",
-      "lien": "https://passion-aquitaine.ouest-france.fr/labenne-helio-marin-rase-dune-chapelle/",
-      "lienPost": "https://www.instagram.com/p/Df6-JXEl5a8/",
-      "format": null,
-      "texte": "🌊 À Labenne, 250 tonnes d’amiante dormaient à 67 m des vagues.\n⠀\nC’est l’ancien hélio-marin qui les renfermait. Sa démolition rend 3,4 hectares à la dune landaise, sur la côte des Landes.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Labenne #Landes #DuneLandaise",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261119-55b9a683-1.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "threads",
-      "dueAt": "2026-11-21T10:27:21.765Z",
-      "prochainPassage": "2026-11-21T11:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Jugé à Angoulême, ce voleur de notaires s’offrait des cartes Pokémon estimées à 20 000 €"
-    },
     {
       "channel": "x",
       "dueAt": "2026-11-21T11:20:00.000Z",
@@ -816,7 +775,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-21T10:19:00.263Z",
+    "genereLe": "2026-11-21T10:29:54.575Z",
     "posts": 99,
     "parReseau": {
       "threads": {
@@ -986,7 +945,7 @@
       }
     },
     "publies": {
-      "threads": 26,
+      "threads": 27,
       "facebook": 27,
       "bluesky": 25,
       "x": 26,

@@ -7752,5 +7752,41 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36241",
+    "channel": "facebook",
+    "at": "2026-11-21T07:03:15.401Z",
+    "mediaId": "227437307428711_1797456175713596",
+    "titre": "Ils sont encore là, mais presque invisibles : le plan pour sauver les visons d’Europe",
+    "lien": "https://passion-aquitaine.ouest-france.fr/vison-europe-nouvelle-aquitaine-life-care/",
+    "lienPost": "https://www.facebook.com/1720946116697936/posts/1797456175713596",
+    "format": null,
+    "mention": false,
+    "apercu": {
+      "texte": "Et si l’un des animaux les plus menacés d’Europe vivait encore tout près de chez vous, en Charente ou en Charente-Maritime ? 🦦",
+      "image": null,
+      "mode": null,
+      "reponse": null,
+      "sujet": null
+    }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36241",
+    "channel": "threads",
+    "at": "2026-11-21T07:17:19.046Z",
+    "mediaId": "18022897964737102",
+    "titre": "Ils sont encore là, mais presque invisibles : le plan pour sauver les visons d’Europe",
+    "lien": "https://passion-aquitaine.ouest-france.fr/vison-europe-nouvelle-aquitaine-life-care/",
+    "lienPost": "https://www.threads.com/@lovaquitaine/post/Df_q3CnFSjQ",
+    "format": "reponse",
+    "mention": false,
+    "apercu": {
+      "texte": "🌿 En Charente et en Charente-Maritime, un petit mammifère se fait presque invisible : le vison d’Europe. Il est toujours là, quelque part en Nouvelle-Aquitaine, mais l’espèce est en grand danger. C’est tout l’enjeu du projet LIFE CARE, pensé pour la sauver avant qu’il ne soit trop tard.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261120-9756dd6b-th.jpg",
+      "mode": "reponse",
+      "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/vison-europe-nouvelle-aquitaine-life-care/",
+      "sujet": "Biodiversité"
+    }
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-21T06:20:50.564Z",
+  "genereLe": "2026-11-21T07:00:39.593Z",
   "jour": "2026-11-21",
   "reseaux": {
     "instagram": {
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 10,
-      "total": 86,
-      "dernier": "2026-11-20T20:05:31.494Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1796959495763264"
+      "aujourdhui": 1,
+      "semaine": 11,
+      "total": 87,
+      "dernier": "2026-11-21T07:03:15.401Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1797456175713596"
     },
     "threads": {
       "actif": true,
@@ -122,11 +122,11 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 9,
-      "total": 85,
-      "dernier": "2026-11-20T07:30:43.088Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/Df9Hf3elU0g"
+      "aujourdhui": 1,
+      "semaine": 10,
+      "total": 86,
+      "dernier": "2026-11-21T07:17:19.046Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/Df_q3CnFSjQ"
     },
     "x": {
       "actif": true,
@@ -164,6 +164,30 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36241",
+      "titre": "Ils sont encore là, mais presque invisibles : le plan pour sauver les visons d’Europe",
+      "lien": "https://passion-aquitaine.ouest-france.fr/vison-europe-nouvelle-aquitaine-life-care/",
+      "at": "2026-11-21T07:17:19.046Z",
+      "reseaux": {
+        "facebook": {
+          "texte": "Et si l’un des animaux les plus menacés d’Europe vivait encore tout près de chez vous, en Charente ou en Charente-Maritime ? 🦦",
+          "image": null,
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-21T07:03:15.401Z"
+        },
+        "threads": {
+          "texte": "🌿 En Charente et en Charente-Maritime, un petit mammifère se fait presque invisible : le vison d’Europe. Il est toujours là, quelque part en Nouvelle-Aquitaine, mais l’espèce est en grand danger. C’est tout l’enjeu du projet LIFE CARE, pensé pour la sauver avant qu’il ne soit trop tard.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261120-9756dd6b-th.jpg",
+          "mode": "reponse",
+          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/vison-europe-nouvelle-aquitaine-life-care/",
+          "sujet": "Biodiversité",
+          "publieLe": "2026-11-21T07:17:19.046Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36255",
       "titre": "Golfe de Gascogne : l’hiver 2025, les dauphins sont surtout morts avant l’arrêt de pêche",
@@ -371,57 +395,29 @@
           "publieLe": "2026-11-18T11:27:21.345Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36227",
-      "titre": "Bus gratuits le week-end à Limoges : faudra-t-il payer en 2027 ?",
-      "lien": "https://passion-aquitaine.ouest-france.fr/limoges-bus-gratuits-week-end-2027/",
-      "at": "2026-11-17T11:24:15.261Z",
-      "reseaux": {
-        "threads": {
-          "texte": "🚍 À Limoges, prendre le bus le week-end ne coûte rien depuis juillet 2025. Limoges Métropole a lancé cet essai de gratuité, et beaucoup s’y sont sans doute habitués. Seulement voilà : le texte qui l’encadre s’arrête au 31 décembre 2026. Passé cette date, rien ne dit encore si le dispositif sera prolongé ou si les tickets reviendront.\n@ville_de_limoges",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261117-8aef387a-th.jpg",
-          "mode": "reponse",
-          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/limoges-bus-gratuits-week-end-2027/",
-          "sujet": "Limoges",
-          "publieLe": "2026-11-17T07:31:00.315Z"
-        },
-        "bluesky": {
-          "texte": "31 décembre 2026 : c’est la date où s’arrête le texte qui encadre la gratuité des bus le week-end à #Limoges. L’essai, lancé en juillet 2025 par Limoges Métropole, arrive à son terme 🗓️",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261117-8aef387a-bsky.jpg",
-          "mode": "card",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-17T07:34:12.259Z"
-        },
-        "x": {
-          "texte": "La gratuité des bus le week-end à #Limoges a une date de fin ⏳ L’essai lancé en juillet 2025 par Limoges Métropole repose sur un texte qui expire le 31 décembre 2026.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261117-8aef387a-x.jpg",
-          "mode": "reponse",
-          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/limoges-bus-gratuits-week-end-2027/",
-          "sujet": null,
-          "publieLe": "2026-11-17T08:01:03.007Z"
-        },
-        "facebook": {
-          "texte": "Le ticket de bus du dimanche va-t-il refaire son apparition à Limoges dans quelques semaines 🎫",
-          "image": null,
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-17T08:29:27.745Z"
-        },
-        "instagram": {
-          "texte": "Le samedi, on monte dans le bus à Limoges sans sortir son ticket 🚌\n⠀\nDepuis juillet 2025, les bus de Limoges Métropole sont gratuits le week-end. Mais l’essai repose sur un texte qui s’arrête au 31 décembre 2026, et la suite reste à écrire.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Limoges #TransportsEnCommun #HauteVienne",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261117-8aef387a-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-17T11:24:15.261Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "threads",
+      "at": "2026-11-21T07:17:19.046Z",
+      "titre": "Ils sont encore là, mais presque invisibles : le plan pour sauver les visons d’Europe",
+      "lien": "https://passion-aquitaine.ouest-france.fr/vison-europe-nouvelle-aquitaine-life-care/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/Df_q3CnFSjQ",
+      "format": "reponse",
+      "texte": "🌿 En Charente et en Charente-Maritime, un petit mammifère se fait presque invisible : le vison d’Europe. Il est toujours là, quelque part en Nouvelle-Aquitaine, mais l’espèce est en grand danger. C’est tout l’enjeu du projet LIFE CARE, pensé pour la sauver avant qu’il ne soit trop tard.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261120-9756dd6b-th.jpg"
+    },
+    {
+      "channel": "facebook",
+      "at": "2026-11-21T07:03:15.401Z",
+      "titre": "Ils sont encore là, mais presque invisibles : le plan pour sauver les visons d’Europe",
+      "lien": "https://passion-aquitaine.ouest-france.fr/vison-europe-nouvelle-aquitaine-life-care/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1797456175713596",
+      "format": null,
+      "texte": "Et si l’un des animaux les plus menacés d’Europe vivait encore tout près de chez vous, en Charente ou en Charente-Maritime ? 🦦",
+      "image": null
+    },
     {
       "channel": "facebook",
       "at": "2026-11-20T20:05:31.494Z",
@@ -501,47 +497,9 @@
       "format": "reponse",
       "texte": "🧱 Que faire de 250 tonnes d’amiante posées à 67 m de l’océan ? À #Labenne, l’ancien hélio-marin est démoli pour rendre 3,4 hectares à la dune landaise.",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261119-55b9a683-x.jpg"
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-11-19T08:26:14.548Z",
-      "titre": "Labenne : 250 tonnes d’amiante à ôter avant l’arrivée des vagues",
-      "lien": "https://passion-aquitaine.ouest-france.fr/labenne-helio-marin-rase-dune-chapelle/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1795109362614944",
-      "format": null,
-      "texte": "Bientôt 3,4 hectares de dune en plus à Labenne, une fois l’amiante de l’ancien hélio-marin retirée 🏖️",
-      "image": null
-    },
-    {
-      "channel": "bluesky",
-      "at": "2026-11-19T08:08:00.434Z",
-      "titre": "Labenne : 250 tonnes d’amiante à ôter avant l’arrivée des vagues",
-      "lien": "https://passion-aquitaine.ouest-france.fr/labenne-helio-marin-rase-dune-chapelle/",
-      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2nmk5rx2t2t",
-      "format": "card",
-      "texte": "Sur le #littoral de #Labenne, l’ancien hélio-marin cachait un lourd héritage : ⚠️ 250 tonnes d’amiante, à seulement 67 m de l’océan. Sa démolition doit rendre 3,4 hectares à la dune landaise.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261119-55b9a683-bsky.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "facebook",
-      "dueAt": "2026-11-21T07:03:05.836Z",
-      "prochainPassage": "2026-11-21T07:20:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Ils sont encore là, mais presque invisibles : le plan pour sauver les visons d’Europe"
-    },
-    {
-      "channel": "threads",
-      "dueAt": "2026-11-21T07:14:28.493Z",
-      "prochainPassage": "2026-11-21T07:20:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": "2026-11-20T12:24:33.982Z",
-      "raison": "un autre post occupait déjà ce créneau",
-      "titre": "Ils sont encore là, mais presque invisibles : le plan pour sauver les visons d’Europe"
-    },
     {
       "channel": "bluesky",
       "dueAt": "2026-11-21T07:32:16.148Z",
@@ -597,6 +555,24 @@
       "titre": "Ils sont encore là, mais presque invisibles : le plan pour sauver les visons d’Europe"
     },
     {
+      "channel": "threads",
+      "dueAt": "2026-11-21T13:27:48.941Z",
+      "prochainPassage": "2026-11-21T14:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "La Palmyre : 53 ans après, cette baie attend toujours sa réserve"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-11-21T16:20:00.000Z",
+      "prochainPassage": "2026-11-21T16:20:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "La Palmyre : 53 ans après, cette baie attend toujours sa réserve"
+    },
+    {
       "channel": "instagram",
       "dueAt": "2026-11-21T17:33:10.610Z",
       "prochainPassage": "2026-11-21T18:00:00.000Z",
@@ -624,6 +600,24 @@
       "titre": "Jugé à Angoulême, ce voleur de notaires s’offrait des cartes Pokémon estimées à 20 000 €"
     },
     {
+      "channel": "bluesky",
+      "dueAt": "2026-11-22T07:06:35.333Z",
+      "prochainPassage": "2026-11-22T07:20:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "La Palmyre : 53 ans après, cette baie attend toujours sa réserve"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-11-22T07:12:56.692Z",
+      "prochainPassage": "2026-11-22T07:20:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "La Palmyre : 53 ans après, cette baie attend toujours sa réserve"
+    },
+    {
       "channel": "instagram",
       "dueAt": "2026-11-22T11:03:01.319Z",
       "prochainPassage": "2026-11-22T11:20:00.000Z",
@@ -631,6 +625,15 @@
       "prevuInitialement": null,
       "raison": null,
       "titre": "Jugé à Angoulême, ce voleur de notaires s’offrait des cartes Pokémon estimées à 20 000 €"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-11-22T17:04:12.372Z",
+      "prochainPassage": "2026-11-22T17:20:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "La Palmyre : 53 ans après, cette baie attend toujours sa réserve"
     }
   ],
   "alertes": [
@@ -732,7 +735,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-21T05:21:06.494Z"
+    "derniere": "2026-11-21T07:00:39.593Z"
   },
   "abonnes": {
     "instagram": {
@@ -771,7 +774,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-21T06:20:54.233Z",
+    "genereLe": "2026-11-21T07:17:22.364Z",
     "posts": 96,
     "parReseau": {
       "threads": {
@@ -941,8 +944,8 @@
       }
     },
     "publies": {
-      "threads": 25,
-      "facebook": 26,
+      "threads": 26,
+      "facebook": 27,
       "bluesky": 25,
       "x": 25,
       "instagram": 25
@@ -996,29 +999,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 0,
-      "entree": 0,
-      "sortie": 0,
-      "cout": 0,
+      "appels": 1,
+      "entree": 7951,
+      "sortie": 926,
+      "cout": 0.050324,
       "cle": "2026-11-21"
     },
     "semaine": {
-      "appels": 17,
-      "entree": 135896,
-      "sortie": 15885,
-      "cout": 0.861284
+      "appels": 18,
+      "entree": 143847,
+      "sortie": 16811,
+      "cout": 0.9116080000000001
     },
     "mois": {
-      "appels": 72,
-      "entree": 576193,
-      "sortie": 65162,
-      "cout": 3.6080119999999996,
+      "appels": 73,
+      "entree": 584144,
+      "sortie": 66088,
+      "cout": 3.6583359999999994,
       "cle": "2026-11"
     },
-    "projection": 5.15,
+    "projection": 5.23,
     "moyenneAppel": 0.0501,
     "parModele": {
-      "claude-opus-5-5": 72
+      "claude-opus-5-5": 73
     },
     "serie": [
       [
@@ -1075,7 +1078,7 @@
       ],
       [
         "2026-11-21",
-        0
+        0.0503
       ]
     ],
     "depuis": "2026-09-23"

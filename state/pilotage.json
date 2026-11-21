@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-21T08:20:57.402Z",
+  "genereLe": "2026-11-21T09:01:00.282Z",
   "jour": "2026-11-21",
   "reseaux": {
     "instagram": {
@@ -61,7 +61,7 @@
         "reply"
       ],
       "aujourdhui": 0,
-      "semaine": 9,
+      "semaine": 8,
       "total": 88,
       "dernier": "2026-11-20T08:26:18.682Z",
       "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2q5zsntx42g"
@@ -89,7 +89,7 @@
       },
       "formats": null,
       "aujourdhui": 1,
-      "semaine": 11,
+      "semaine": 10,
       "total": 87,
       "dernier": "2026-11-21T07:03:15.401Z",
       "lienDernier": "https://www.facebook.com/1720946116697936/posts/1797456175713596"
@@ -695,18 +695,18 @@
     }
   ],
   "mesures": {
-    "releves": 659,
+    "releves": 662,
     "parReseau": {
       "instagram": {
         "posts": 81,
         "interactionsMoyennes": 12.2
       },
       "bluesky": {
-        "posts": 79,
+        "posts": 80,
         "interactionsMoyennes": 0.2
       },
       "facebook": {
-        "posts": 76,
+        "posts": 77,
         "interactionsMoyennes": 0
       },
       "threads": {
@@ -777,7 +777,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-21T08:00:48.406Z"
+    "derniere": "2026-11-21T09:01:00.282Z"
   },
   "abonnes": {
     "instagram": {
@@ -816,8 +816,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-21T08:21:19.336Z",
-    "posts": 98,
+    "genereLe": "2026-11-21T09:01:06.549Z",
+    "posts": 99,
     "parReseau": {
       "threads": {
         "posts": 25,
@@ -832,7 +832,7 @@
         "moyenne": 0
       },
       "bluesky": {
-        "posts": 24,
+        "posts": 25,
         "moyenne": 0
       }
     },
@@ -846,7 +846,7 @@
         "moyenne": 0.1
       },
       "image": {
-        "posts": 13,
+        "posts": 14,
         "moyenne": 0
       },
       "reply": {
@@ -856,8 +856,8 @@
     },
     "parCreneau": {
       "matin": {
-        "posts": 54,
-        "moyenne": 5.8
+        "posts": 55,
+        "moyenne": 5.7
       },
       "après-midi": {
         "posts": 28,
@@ -903,7 +903,7 @@
       },
       "bluesky": {
         "8 h – 9 h 30": {
-          "posts": 15,
+          "posts": 16,
           "moyenne": 0.1
         },
         "hors créneau": {
@@ -957,11 +957,11 @@
     },
     "moinsBon": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36183",
-      "channel": "facebook",
-      "mediaId": "227437307428711_1796271429165404",
-      "publieLe": "2026-11-20T08:04:16.468Z",
+      "channel": "bluesky",
+      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3n2q5zsntx42g",
+      "publieLe": "2026-11-20T08:26:18.682Z",
       "jalon": 1,
-      "releveLe": "2026-11-21T08:20:57.402Z",
+      "releveLe": "2026-11-21T09:01:00.282Z",
       "likes": 0,
       "commentairesBruts": 0,
       "partages": 0,
@@ -969,8 +969,8 @@
       "commentaires": 0,
       "v": 2,
       "titre": "8 000 arbres fruitiers anciens seront mis en vente près d’Agen",
-      "lien": "https://www.facebook.com/1720946116697936/posts/1796271429165404",
-      "format": null,
+      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2q5zsntx42g",
+      "format": "image",
       "mention": false,
       "creneau": "matin",
       "creneauReseau": "8 h – 9 h 30"
@@ -981,8 +981,8 @@
         "moyenne": 5.7
       },
       "sans": {
-        "posts": 53,
-        "moyenne": 4.6
+        "posts": 54,
+        "moyenne": 4.5
       }
     },
     "publies": {

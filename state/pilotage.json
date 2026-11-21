@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-21T13:00:40.629Z",
+  "genereLe": "2026-11-21T13:21:09.053Z",
   "jour": "2026-11-21",
   "reseaux": {
     "instagram": {
@@ -122,11 +122,11 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 2,
-      "semaine": 9,
-      "total": 87,
-      "dernier": "2026-11-21T10:29:51.486Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DgAA8AiGx3Z"
+      "aujourdhui": 3,
+      "semaine": 10,
+      "total": 88,
+      "dernier": "2026-11-21T13:30:48.096Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DgAVlrhGw9Z"
     },
     "x": {
       "actif": true,
@@ -164,6 +164,22 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36215",
+      "titre": "La Palmyre : 53 ans après, cette baie attend toujours sa réserve",
+      "lien": "https://passion-aquitaine.ouest-france.fr/baie-bonne-anse-reserve-naturelle-palmyre/",
+      "at": "2026-11-21T13:30:48.096Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Près de La Palmyre, la baie de Bonne Anse a une histoire étonnante 🌊 En 1973, elle faisait partie des 100 réserves naturelles à créer en priorité en France. 53 ans plus tard, ce statut n’est toujours pas arrivé. De quoi regarder autrement ce coin de Charente-Maritime lors de votre prochaine balade.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261121-7d65266b-th.jpg",
+          "mode": "reponse",
+          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/baie-bonne-anse-reserve-naturelle-palmyre/",
+          "sujet": "La Palmyre",
+          "publieLe": "2026-11-21T13:30:48.096Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36241",
       "titre": "Ils sont encore là, mais presque invisibles : le plan pour sauver les visons d’Europe",
@@ -339,57 +355,19 @@
           "publieLe": "2026-11-19T11:27:12.148Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36234",
-      "titre": "À Bergerac, ces conteneurs deviennent des usines, des labos ou des bases militaires",
-      "lien": "https://passion-aquitaine.ouest-france.fr/calcub-bergerac-conteneurs-usines/",
-      "at": "2026-11-18T19:27:53.625Z",
-      "reseaux": {
-        "threads": {
-          "texte": "🔬 Un laboratoire installé dans un conteneur maritime, vous y auriez pensé ? À Bergerac, l’entreprise CALCUB s’est fait une spécialité de leur donner une seconde vie. Usines, labos, bases militaires : de nombreux secteurs industriels les exploitent. Vous en avez déjà croisé un, transformé ?\n@villedebergerac",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261118-0bd64f36-th.jpg",
-          "mode": "reponse",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/calcub-bergerac-conteneurs-usines/",
-          "sujet": "Bergerac",
-          "publieLe": "2026-11-18T10:14:33.222Z"
-        },
-        "x": {
-          "texte": "Des boîtes d’acier qui ont traversé les océans finissent en usines, en labos ou en bases militaires 🚢 À #Bergerac, CALCUB offre une seconde vie aux conteneurs maritimes, exploités par de nombreux secteurs industriels.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261118-0bd64f36-x.jpg",
-          "mode": "reponse",
-          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/calcub-bergerac-conteneurs-usines/",
-          "sujet": null,
-          "publieLe": "2026-11-18T11:26:30.847Z"
-        },
-        "bluesky": {
-          "texte": "Usine, laboratoire, base militaire : un simple conteneur maritime peut tout devenir. À #Bergerac, CALCUB leur offre une seconde vie et de nombreux secteurs industriels en profitent ♻️\n@villedebergerac.bsky.social\n➡️ Lire l’article",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261118-0bd64f36-bsky.jpg",
-          "mode": "image",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-18T12:11:29.779Z"
-        },
-        "instagram": {
-          "texte": "Bergerac, en Périgord : ici, les conteneurs maritimes repartent pour une seconde vie 🏭\n⠀\nL’entreprise CALCUB les transforme en usines, en laboratoires ou même en bases militaires. De nombreux secteurs industriels les exploitent déjà.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bergerac #Conteneurs #Industrie",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261118-0bd64f36-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-18T17:34:49.194Z"
-        },
-        "facebook": {
-          "texte": "Une base militaire dans un conteneur maritime, c’est ce que sait faire une entreprise de Bergerac 🪖",
-          "image": null,
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-18T19:27:53.625Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "threads",
+      "at": "2026-11-21T13:30:48.096Z",
+      "titre": "La Palmyre : 53 ans après, cette baie attend toujours sa réserve",
+      "lien": "https://passion-aquitaine.ouest-france.fr/baie-bonne-anse-reserve-naturelle-palmyre/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/DgAVlrhGw9Z",
+      "format": "reponse",
+      "texte": "Près de La Palmyre, la baie de Bonne Anse a une histoire étonnante 🌊 En 1973, elle faisait partie des 100 réserves naturelles à créer en priorité en France. 53 ans plus tard, ce statut n’est toujours pas arrivé. De quoi regarder autrement ce coin de Charente-Maritime lors de votre prochaine balade.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261121-7d65266b-th.jpg"
+    },
     {
       "channel": "bluesky",
       "at": "2026-11-21T11:29:45.175Z",
@@ -479,28 +457,9 @@
       "format": "image",
       "texte": "Imaginez des milliers de jeunes pommiers, poiriers et pruniers alignés, prêts à partir 🌳. À #Montesquieu, dans l’Agenais, la Fête de l’Arbre réunit 144 variétés anciennes le 29 novembre.\n➡️ Lire l’article",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261120-cde6fa54-bsky.jpg"
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-11-20T08:04:16.468Z",
-      "titre": "8 000 arbres fruitiers anciens seront mis en vente près d’Agen",
-      "lien": "https://passion-aquitaine.ouest-france.fr/fete-arbre-barolle-fruitiers-anciens-montesquieu/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1796271429165404",
-      "format": null,
-      "texte": "Pas moins de 144 variétés anciennes de fruitiers attendent un jardin à Montesquieu, de quoi retrouver des goûts disparus des étals 🍏",
-      "image": null
     }
   ],
   "file": [
-    {
-      "channel": "threads",
-      "dueAt": "2026-11-21T13:27:48.941Z",
-      "prochainPassage": "2026-11-21T14:00:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "La Palmyre : 53 ans après, cette baie attend toujours sa réserve"
-    },
     {
       "channel": "x",
       "dueAt": "2026-11-21T16:20:00.000Z",
@@ -732,7 +691,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-21T12:20:54.212Z"
+    "derniere": "2026-11-21T13:21:09.053Z"
   },
   "abonnes": {
     "instagram": {
@@ -771,7 +730,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-21T13:00:46.303Z",
+    "genereLe": "2026-11-21T13:30:53.724Z",
     "posts": 100,
     "parReseau": {
       "threads": {
@@ -941,7 +900,7 @@
       }
     },
     "publies": {
-      "threads": 27,
+      "threads": 28,
       "facebook": 27,
       "bluesky": 26,
       "x": 27,

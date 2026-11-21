@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-21T19:20:56.092Z",
+  "genereLe": "2026-11-21T20:00:47.231Z",
   "jour": "2026-11-21",
   "reseaux": {
     "instagram": {
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 1,
-      "semaine": 9,
-      "total": 87,
-      "dernier": "2026-11-21T07:03:15.401Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1797456175713596"
+      "aujourdhui": 2,
+      "semaine": 10,
+      "total": 88,
+      "dernier": "2026-11-21T20:13:59.751Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1798166225642591"
     },
     "threads": {
       "actif": true,
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36272",
       "titre": "Jugé à Angoulême, ce voleur de notaires s’offrait des cartes Pokémon estimées à 20 000 €",
       "lien": "https://passion-aquitaine.ouest-france.fr/cartes-pokemon-cambrioleurs-notaires-angouleme/",
-      "at": "2026-11-21T18:11:02.889Z",
+      "at": "2026-11-21T20:13:59.751Z",
       "reseaux": {
         "threads": {
           "texte": "Un procès hors norme à Angoulême. Deux hommes roulaient la nuit, Google Maps en main, pour cibler des études de notaires. Au total, 37 études visées. Et l’or revendu ne finançait pas un train de vie classique : ℹ️ il servait à acheter des cartes Pokémon par milliers, estimées à 20 000 €.",
@@ -193,6 +193,14 @@
           "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/cartes-pokemon-cambrioleurs-notaires-angouleme/",
           "sujet": null,
           "publieLe": "2026-11-21T18:11:02.889Z"
+        },
+        "facebook": {
+          "texte": "37 études de notaires visitées de nuit, l’or revendu, et au bout du compte des milliers de cartes Pokémon 🗞️",
+          "image": null,
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-21T20:13:59.751Z"
         }
       }
     },
@@ -383,6 +391,16 @@
   ],
   "publications": [
     {
+      "channel": "facebook",
+      "at": "2026-11-21T20:13:59.751Z",
+      "titre": "Jugé à Angoulême, ce voleur de notaires s’offrait des cartes Pokémon estimées à 20 000 €",
+      "lien": "https://passion-aquitaine.ouest-france.fr/cartes-pokemon-cambrioleurs-notaires-angouleme/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1798166225642591",
+      "format": null,
+      "texte": "37 études de notaires visitées de nuit, l’or revendu, et au bout du compte des milliers de cartes Pokémon 🗞️",
+      "image": null
+    },
+    {
       "channel": "bluesky",
       "at": "2026-11-21T18:11:02.889Z",
       "titre": "Jugé à Angoulême, ce voleur de notaires s’offrait des cartes Pokémon estimées à 20 000 €",
@@ -471,28 +489,9 @@
       "format": "reponse",
       "texte": "🌿 En Charente et en Charente-Maritime, un petit mammifère se fait presque invisible : le vison d’Europe. Il est toujours là, quelque part en Nouvelle-Aquitaine, mais l’espèce est en grand danger. C’est tout l’enjeu du projet LIFE CARE, pensé pour la sauver avant qu’il ne soit trop tard.",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261120-9756dd6b-th.jpg"
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-11-21T07:03:15.401Z",
-      "titre": "Ils sont encore là, mais presque invisibles : le plan pour sauver les visons d’Europe",
-      "lien": "https://passion-aquitaine.ouest-france.fr/vison-europe-nouvelle-aquitaine-life-care/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1797456175713596",
-      "format": null,
-      "texte": "Et si l’un des animaux les plus menacés d’Europe vivait encore tout près de chez vous, en Charente ou en Charente-Maritime ? 🦦",
-      "image": null
     }
   ],
   "file": [
-    {
-      "channel": "facebook",
-      "dueAt": "2026-11-21T20:13:55.481Z",
-      "prochainPassage": "2026-11-21T20:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Jugé à Angoulême, ce voleur de notaires s’offrait des cartes Pokémon estimées à 20 000 €"
-    },
     {
       "channel": "threads",
       "dueAt": "2026-11-22T06:24:52.758Z",
@@ -727,7 +726,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-21T19:20:59.616Z",
+    "genereLe": "2026-11-21T20:14:01.617Z",
     "posts": 100,
     "parReseau": {
       "threads": {
@@ -898,7 +897,7 @@
     },
     "publies": {
       "threads": 28,
-      "facebook": 27,
+      "facebook": 28,
       "bluesky": 27,
       "x": 28,
       "instagram": 26

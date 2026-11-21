@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-21T20:00:47.231Z",
+  "genereLe": "2026-11-21T20:20:37.252Z",
   "jour": "2026-11-21",
   "reseaux": {
     "instagram": {
@@ -605,7 +605,7 @@
     }
   ],
   "mesures": {
-    "releves": 668,
+    "releves": 669,
     "parReseau": {
       "instagram": {
         "posts": 83,
@@ -687,7 +687,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-21T19:01:04.312Z"
+    "derniere": "2026-11-21T20:20:37.252Z"
   },
   "abonnes": {
     "instagram": {
@@ -726,8 +726,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-21T20:14:01.617Z",
-    "posts": 100,
+    "genereLe": "2026-11-21T20:20:43.260Z",
+    "posts": 101,
     "parReseau": {
       "threads": {
         "posts": 25,
@@ -738,7 +738,7 @@
         "moyenne": 8
       },
       "facebook": {
-        "posts": 25,
+        "posts": 26,
         "moyenne": 0
       },
       "bluesky": {
@@ -774,8 +774,8 @@
         "moyenne": 5.7
       },
       "soir": {
-        "posts": 16,
-        "moyenne": 1.9
+        "posts": 17,
+        "moyenne": 1.8
       }
     },
     "parCreneauReseau": {
@@ -803,7 +803,7 @@
           "moyenne": 0
         },
         "20 h – 21 h 30": {
-          "posts": 8,
+          "posts": 9,
           "moyenne": 0
         },
         "hors créneau": {
@@ -866,24 +866,24 @@
       "creneauReseau": "7 h – 8 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36183",
-      "channel": "bluesky",
-      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3n2q5zsntx42g",
-      "publieLe": "2026-11-20T08:26:18.682Z",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36255",
+      "channel": "facebook",
+      "mediaId": "227437307428711_1796959495763264",
+      "publieLe": "2026-11-20T20:05:31.494Z",
       "jalon": 1,
-      "releveLe": "2026-11-21T09:01:00.282Z",
+      "releveLe": "2026-11-21T20:20:37.252Z",
       "likes": 0,
       "commentairesBruts": 0,
       "partages": 0,
       "vues": null,
       "commentaires": 0,
       "v": 2,
-      "titre": "8 000 arbres fruitiers anciens seront mis en vente près d’Agen",
-      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2q5zsntx42g",
-      "format": "image",
+      "titre": "Golfe de Gascogne : l’hiver 2025, les dauphins sont surtout morts avant l’arrêt de pêche",
+      "lien": "https://www.facebook.com/1720946116697936/posts/1796959495763264",
+      "format": null,
       "mention": false,
-      "creneau": "matin",
-      "creneauReseau": "8 h – 9 h 30"
+      "creneau": "soir",
+      "creneauReseau": "20 h – 21 h 30"
     },
     "mentions": {
       "avec": {
@@ -891,8 +891,8 @@
         "moyenne": 6.2
       },
       "sans": {
-        "posts": 54,
-        "moyenne": 4.5
+        "posts": 55,
+        "moyenne": 4.4
       }
     },
     "publies": {

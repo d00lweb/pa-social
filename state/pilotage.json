@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-21T11:00:39.461Z",
+  "genereLe": "2026-11-21T11:20:46.205Z",
   "jour": "2026-11-21",
   "reseaux": {
     "instagram": {
@@ -25,7 +25,7 @@
       },
       "formats": null,
       "aujourdhui": 0,
-      "semaine": 9,
+      "semaine": 8,
       "total": 90,
       "dernier": "2026-11-20T11:23:43.080Z",
       "lienDernier": "https://www.instagram.com/p/Df9ijJOF-ke/"
@@ -60,11 +60,11 @@
         "image",
         "reply"
       ],
-      "aujourdhui": 0,
-      "semaine": 8,
-      "total": 88,
-      "dernier": "2026-11-20T08:26:18.682Z",
-      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2q5zsntx42g"
+      "aujourdhui": 1,
+      "semaine": 9,
+      "total": 89,
+      "dernier": "2026-11-21T11:29:45.175Z",
+      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2syqqrfvv2d"
     },
     "facebook": {
       "actif": true,
@@ -156,35 +156,19 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 1,
-      "semaine": 9,
-      "total": 89,
-      "dernier": "2026-11-21T08:21:09.410Z",
+      "aujourdhui": 2,
+      "semaine": 10,
+      "total": 90,
+      "dernier": "2026-11-21T11:20:56.800Z",
       "lienDernier": null
     }
   },
   "articles": [
     {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36272",
-      "titre": "Jugé à Angoulême, ce voleur de notaires s’offrait des cartes Pokémon estimées à 20 000 €",
-      "lien": "https://passion-aquitaine.ouest-france.fr/cartes-pokemon-cambrioleurs-notaires-angouleme/",
-      "at": "2026-11-21T10:29:51.486Z",
-      "reseaux": {
-        "threads": {
-          "texte": "Un procès hors norme à Angoulême. Deux hommes roulaient la nuit, Google Maps en main, pour cibler des études de notaires. Au total, 37 études visées. Et l’or revendu ne finançait pas un train de vie classique : ℹ️ il servait à acheter des cartes Pokémon par milliers, estimées à 20 000 €.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261120-d51b109a-th.jpg",
-          "mode": "reponse",
-          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/cartes-pokemon-cambrioleurs-notaires-angouleme/",
-          "sujet": "Angoulême",
-          "publieLe": "2026-11-21T10:29:51.486Z"
-        }
-      }
-    },
-    {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36241",
       "titre": "Ils sont encore là, mais presque invisibles : le plan pour sauver les visons d’Europe",
       "lien": "https://passion-aquitaine.ouest-france.fr/vison-europe-nouvelle-aquitaine-life-care/",
-      "at": "2026-11-21T08:21:09.410Z",
+      "at": "2026-11-21T11:29:45.175Z",
       "reseaux": {
         "facebook": {
           "texte": "Et si l’un des animaux les plus menacés d’Europe vivait encore tout près de chez vous, en Charente ou en Charente-Maritime ? 🦦",
@@ -209,6 +193,38 @@
           "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/vison-europe-nouvelle-aquitaine-life-care/",
           "sujet": null,
           "publieLe": "2026-11-21T08:21:09.410Z"
+        },
+        "bluesky": {
+          "texte": "Espèce en grand danger, le vison d’Europe survit encore en #NouvelleAquitaine. Pour éviter sa disparition, un programme de sauvegarde baptisé LIFE CARE vient d’être mis en place 🦦\n➡️ Lire l’article",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261120-9756dd6b-bsky.jpg",
+          "mode": "image",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-21T11:29:45.175Z"
+        }
+      }
+    },
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36272",
+      "titre": "Jugé à Angoulême, ce voleur de notaires s’offrait des cartes Pokémon estimées à 20 000 €",
+      "lien": "https://passion-aquitaine.ouest-france.fr/cartes-pokemon-cambrioleurs-notaires-angouleme/",
+      "at": "2026-11-21T11:20:56.800Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Un procès hors norme à Angoulême. Deux hommes roulaient la nuit, Google Maps en main, pour cibler des études de notaires. Au total, 37 études visées. Et l’or revendu ne finançait pas un train de vie classique : ℹ️ il servait à acheter des cartes Pokémon par milliers, estimées à 20 000 €.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261120-d51b109a-th.jpg",
+          "mode": "reponse",
+          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/cartes-pokemon-cambrioleurs-notaires-angouleme/",
+          "sujet": "Angoulême",
+          "publieLe": "2026-11-21T10:29:51.486Z"
+        },
+        "x": {
+          "texte": "Comment l’or volé dans 37 études de notaires a fini en cartes Pokémon : le duo jugé à #Angoulême avait amassé une collection estimée à 20 000 € 🗞️",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261120-d51b109a-x.jpg",
+          "mode": "reponse",
+          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/cartes-pokemon-cambrioleurs-notaires-angouleme/",
+          "sujet": null,
+          "publieLe": "2026-11-21T11:20:56.800Z"
         }
       }
     },
@@ -375,6 +391,26 @@
   ],
   "publications": [
     {
+      "channel": "bluesky",
+      "at": "2026-11-21T11:29:45.175Z",
+      "titre": "Ils sont encore là, mais presque invisibles : le plan pour sauver les visons d’Europe",
+      "lien": "https://passion-aquitaine.ouest-france.fr/vison-europe-nouvelle-aquitaine-life-care/",
+      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2syqqrfvv2d",
+      "format": "image",
+      "texte": "Espèce en grand danger, le vison d’Europe survit encore en #NouvelleAquitaine. Pour éviter sa disparition, un programme de sauvegarde baptisé LIFE CARE vient d’être mis en place 🦦\n➡️ Lire l’article",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261120-9756dd6b-bsky.jpg"
+    },
+    {
+      "channel": "x",
+      "at": "2026-11-21T11:20:56.800Z",
+      "titre": "Jugé à Angoulême, ce voleur de notaires s’offrait des cartes Pokémon estimées à 20 000 €",
+      "lien": "https://passion-aquitaine.ouest-france.fr/cartes-pokemon-cambrioleurs-notaires-angouleme/",
+      "lienPost": null,
+      "format": "reponse",
+      "texte": "Comment l’or volé dans 37 études de notaires a fini en cartes Pokémon : le duo jugé à #Angoulême avait amassé une collection estimée à 20 000 € 🗞️",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261120-d51b109a-x.jpg"
+    },
+    {
       "channel": "threads",
       "at": "2026-11-21T10:29:51.486Z",
       "titre": "Jugé à Angoulême, ce voleur de notaires s’offrait des cartes Pokémon estimées à 20 000 €",
@@ -453,56 +489,9 @@
       "format": null,
       "texte": "Pas moins de 144 variétés anciennes de fruitiers attendent un jardin à Montesquieu, de quoi retrouver des goûts disparus des étals 🍏",
       "image": null
-    },
-    {
-      "channel": "x",
-      "at": "2026-11-20T08:01:17.440Z",
-      "titre": "8 000 arbres fruitiers anciens seront mis en vente près d’Agen",
-      "lien": "https://passion-aquitaine.ouest-france.fr/fete-arbre-barolle-fruitiers-anciens-montesquieu/",
-      "lienPost": null,
-      "format": "reponse",
-      "texte": "8 000 fruitiers à vendre en une journée : le 29 novembre, #Montesquieu accueille la Fête de l’Arbre, avec 144 variétés anciennes au choix, près d’Agen 🍑",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261120-cde6fa54-x.jpg"
-    },
-    {
-      "channel": "threads",
-      "at": "2026-11-20T07:30:43.088Z",
-      "titre": "8 000 arbres fruitiers anciens seront mis en vente près d’Agen",
-      "lien": "https://passion-aquitaine.ouest-france.fr/fete-arbre-barolle-fruitiers-anciens-montesquieu/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/Df9Hf3elU0g",
-      "format": "reponse",
-      "texte": "Et si votre prochain arbre venait d’une variété que plus personne ne cultive ? 🍎 144 variétés anciennes de fruitiers seront proposées le 29 novembre à Montesquieu, près d’Agen, pendant la Fête de l’Arbre. Au total, 8 000 arbres à adopter. Vous avez déjà un fruit d’antan en tête pour votre jardin ?",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261120-cde6fa54-th.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "x",
-      "dueAt": "2026-11-21T11:20:00.000Z",
-      "prochainPassage": "2026-11-21T11:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Jugé à Angoulême, ce voleur de notaires s’offrait des cartes Pokémon estimées à 20 000 €"
-    },
-    {
-      "channel": "instagram",
-      "dueAt": "2026-11-21T11:23:48.199Z",
-      "prochainPassage": "2026-11-21T12:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": "2026-11-20T19:21:13.700Z",
-      "raison": "l’heure n’était pas dans les créneaux du réseau",
-      "titre": "Golfe de Gascogne : l’hiver 2025, les dauphins sont surtout morts avant l’arrêt de pêche"
-    },
-    {
-      "channel": "bluesky",
-      "dueAt": "2026-11-21T11:29:43.419Z",
-      "prochainPassage": "2026-11-21T12:00:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": "2026-11-20T18:26:46.099Z",
-      "raison": "un autre post occupait déjà ce créneau",
-      "titre": "Ils sont encore là, mais presque invisibles : le plan pour sauver les visons d’Europe"
-    },
     {
       "channel": "threads",
       "dueAt": "2026-11-21T13:27:48.941Z",
@@ -632,6 +621,13 @@
   ],
   "alertes": [
     {
+      "channel": "instagram",
+      "statut": "failed",
+      "titre": "Golfe de Gascogne : l’hiver 2025, les dauphins sont surtout morts avant l’arrêt de pêche",
+      "raison": "Image 404 : https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/tete-dauphin.jpg",
+      "quand": "2026-11-21T11:23:48.199Z"
+    },
+    {
       "channel": "bluesky",
       "statut": "failed",
       "titre": "Golfe de Gascogne : l’hiver 2025, les dauphins sont surtout morts avant l’arrêt de pêche",
@@ -654,11 +650,11 @@
     }
   ],
   "mesures": {
-    "releves": 663,
+    "releves": 664,
     "parReseau": {
       "instagram": {
-        "posts": 81,
-        "interactionsMoyennes": 12.2
+        "posts": 82,
+        "interactionsMoyennes": 12.3
       },
       "bluesky": {
         "posts": 80,
@@ -736,7 +732,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-21T10:18:55.223Z"
+    "derniere": "2026-11-21T11:20:46.205Z"
   },
   "abonnes": {
     "instagram": {
@@ -775,7 +771,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-21T11:00:44.877Z",
+    "genereLe": "2026-11-21T11:29:51.424Z",
     "posts": 99,
     "parReseau": {
       "threads": {
@@ -784,7 +780,7 @@
       },
       "instagram": {
         "posts": 24,
-        "moyenne": 7.3
+        "moyenne": 8
       },
       "facebook": {
         "posts": 25,
@@ -814,13 +810,13 @@
       }
     },
     "parCreneau": {
+      "après-midi": {
+        "posts": 28,
+        "moyenne": 6.3
+      },
       "matin": {
         "posts": 55,
         "moyenne": 5.7
-      },
-      "après-midi": {
-        "posts": 28,
-        "moyenne": 5.6
       },
       "soir": {
         "posts": 16,
@@ -881,7 +877,7 @@
       "instagram": {
         "12 h – 13 h 30": {
           "posts": 17,
-          "moyenne": 8.4
+          "moyenne": 9.4
         },
         "18 h – 19 h 30": {
           "posts": 4,
@@ -893,7 +889,7 @@
         }
       }
     },
-    "interactionsTotal": 498,
+    "interactionsTotal": 516,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36189",
       "channel": "threads",
@@ -937,7 +933,7 @@
     "mentions": {
       "avec": {
         "posts": 45,
-        "moyenne": 5.7
+        "moyenne": 6.1
       },
       "sans": {
         "posts": 54,
@@ -947,8 +943,8 @@
     "publies": {
       "threads": 27,
       "facebook": 27,
-      "bluesky": 25,
-      "x": 26,
+      "bluesky": 26,
+      "x": 27,
       "instagram": 25
     },
     "abonnes": {
@@ -988,12 +984,12 @@
     },
     "engagement": {
       "threads": 1.1,
-      "instagram": 0.07,
+      "instagram": 0.08,
       "facebook": 0
     },
     "conseils": [
       "Threads : le créneau 7 h – 8 h 30 fait 1,9 fois mieux que 10 h – 11 h 30 (16.9 contre 9 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
-      "Instagram : le créneau 12 h – 13 h 30 fait 1,5 fois mieux que 18 h – 19 h 30 (8.4 contre 5.5 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
+      "Instagram : le créneau 12 h – 13 h 30 fait 1,7 fois mieux que 18 h – 19 h 30 (9.4 contre 5.5 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Le format « reponse » fait 129 fois mieux que « reply » (12.9 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « reply » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+16, +1,4 %) ; Facebook recule (−37), à surveiller."
     ]

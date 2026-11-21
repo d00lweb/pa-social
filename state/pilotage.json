@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-21T07:00:39.593Z",
+  "genereLe": "2026-11-21T07:21:12.440Z",
   "jour": "2026-11-21",
   "reseaux": {
     "instagram": {
@@ -501,15 +501,6 @@
   ],
   "file": [
     {
-      "channel": "bluesky",
-      "dueAt": "2026-11-21T07:32:16.148Z",
-      "prochainPassage": "2026-11-21T08:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": "2026-11-20T12:26:36.975Z",
-      "raison": "l’heure n’était pas dans les créneaux du réseau",
-      "titre": "Golfe de Gascogne : l’hiver 2025, les dauphins sont surtout morts avant l’arrêt de pêche"
-    },
-    {
       "channel": "x",
       "dueAt": "2026-11-21T08:20:00.000Z",
       "prochainPassage": "2026-11-21T08:20:00.000Z",
@@ -600,6 +591,15 @@
       "titre": "Jugé à Angoulême, ce voleur de notaires s’offrait des cartes Pokémon estimées à 20 000 €"
     },
     {
+      "channel": "threads",
+      "dueAt": "2026-11-22T06:24:52.758Z",
+      "prochainPassage": "2026-11-22T07:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Quand la Gironde arrache des vignes, ce grand cru de Saint-Émilion augmente son prix"
+    },
+    {
       "channel": "bluesky",
       "dueAt": "2026-11-22T07:06:35.333Z",
       "prochainPassage": "2026-11-22T07:20:00.000Z",
@@ -618,6 +618,15 @@
       "titre": "La Palmyre : 53 ans après, cette baie attend toujours sa réserve"
     },
     {
+      "channel": "x",
+      "dueAt": "2026-11-22T09:20:00.000Z",
+      "prochainPassage": "2026-11-22T09:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Quand la Gironde arrache des vignes, ce grand cru de Saint-Émilion augmente son prix"
+    },
+    {
       "channel": "instagram",
       "dueAt": "2026-11-22T11:03:01.319Z",
       "prochainPassage": "2026-11-22T11:20:00.000Z",
@@ -627,6 +636,15 @@
       "titre": "Jugé à Angoulême, ce voleur de notaires s’offrait des cartes Pokémon estimées à 20 000 €"
     },
     {
+      "channel": "bluesky",
+      "dueAt": "2026-11-22T11:09:32.473Z",
+      "prochainPassage": "2026-11-22T11:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Quand la Gironde arrache des vignes, ce grand cru de Saint-Émilion augmente son prix"
+    },
+    {
       "channel": "instagram",
       "dueAt": "2026-11-22T17:04:12.372Z",
       "prochainPassage": "2026-11-22T17:20:00.000Z",
@@ -634,9 +652,34 @@
       "prevuInitialement": null,
       "raison": null,
       "titre": "La Palmyre : 53 ans après, cette baie attend toujours sa réserve"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-11-22T20:23:04.741Z",
+      "prochainPassage": "2026-11-22T21:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Quand la Gironde arrache des vignes, ce grand cru de Saint-Émilion augmente son prix"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-11-23T12:08:07.541Z",
+      "prochainPassage": "2026-11-23T12:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Quand la Gironde arrache des vignes, ce grand cru de Saint-Émilion augmente son prix"
     }
   ],
   "alertes": [
+    {
+      "channel": "bluesky",
+      "statut": "failed",
+      "titre": "Golfe de Gascogne : l’hiver 2025, les dauphins sont surtout morts avant l’arrêt de pêche",
+      "raison": "Image 404 : https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/tete-dauphin.jpg",
+      "quand": "2026-11-21T07:32:16.148Z"
+    },
     {
       "channel": "threads",
       "statut": "failed",
@@ -774,7 +817,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-21T07:17:22.364Z",
+    "genereLe": "2026-11-21T07:21:46.549Z",
     "posts": 96,
     "parReseau": {
       "threads": {
@@ -999,29 +1042,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 1,
-      "entree": 7951,
-      "sortie": 926,
-      "cout": 0.050324,
+      "appels": 3,
+      "entree": 24016,
+      "sortie": 2862,
+      "cout": 0.153304,
       "cle": "2026-11-21"
     },
     "semaine": {
-      "appels": 18,
-      "entree": 143847,
-      "sortie": 16811,
-      "cout": 0.9116080000000001
+      "appels": 20,
+      "entree": 159912,
+      "sortie": 18747,
+      "cout": 1.014588
     },
     "mois": {
-      "appels": 73,
-      "entree": 584144,
-      "sortie": 66088,
-      "cout": 3.6583359999999994,
+      "appels": 75,
+      "entree": 600209,
+      "sortie": 68024,
+      "cout": 3.7613159999999994,
       "cle": "2026-11"
     },
-    "projection": 5.23,
-    "moyenneAppel": 0.0501,
+    "projection": 5.37,
+    "moyenneAppel": 0.0502,
     "parModele": {
-      "claude-opus-5-5": 73
+      "claude-opus-5-5": 75
     },
     "serie": [
       [
@@ -1078,7 +1121,7 @@
       ],
       [
         "2026-11-21",
-        0.0503
+        0.1533
       ]
     ],
     "depuis": "2026-09-23"

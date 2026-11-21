@@ -2029,5 +2029,55 @@
     "instagram": [],
     "threads": [],
     "bluesky": []
+  },
+  "commune:mairie:saint-emilion": {
+    "v": 3,
+    "cherche": "2026-11-21T07:21:31.928Z",
+    "instagram": [],
+    "x": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "vivier:vin:vinsdebordeaux,vinetsociete": {
+    "v": 3,
+    "cherche": "2026-11-21T07:21:31.928Z",
+    "instagram": [
+      {
+        "handle": "vinsdebordeaux",
+        "nom": "Vins de Bordeaux",
+        "abonnes": 53816,
+        "preuve": 3
+      },
+      {
+        "handle": "vinetsociete",
+        "nom": "Vin & Société",
+        "abonnes": 2321,
+        "preuve": 3
+      }
+    ],
+    "threads": [],
+    "bluesky": [],
+    "x": []
+  },
+  "locale:saint-emilion:vin": {
+    "v": 3,
+    "cherche": "2026-11-21T07:21:31.928Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:saint-emilion:viticulture": {
+    "v": 3,
+    "cherche": "2026-11-21T07:21:31.928Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:saint-emilion:economie": {
+    "v": 3,
+    "cherche": "2026-11-21T07:21:31.928Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
   }
 }

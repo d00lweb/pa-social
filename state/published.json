@@ -8112,5 +8112,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36266",
+    "channel": "bluesky",
+    "at": "2026-11-22T17:31:32.398Z",
+    "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3n2w5glq6ne2d",
+    "titre": "Truffe du Périgord : la France en importe plus qu’elle n’en récolte",
+    "lien": "https://passion-aquitaine.ouest-france.fr/truffe-perigord-france-importe-plus-recolte/",
+    "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2w5glq6ne2d",
+    "format": "card",
+    "mention": false,
+    "apercu": {
+      "texte": "Le #Périgord a beau être sa terre d’élection, la France importe plus de truffes qu’elle n’en récolte ⚖️ 127 tonnes achetées, surtout en Italie et en Bulgarie, contre 75 tonnes sorties du sol français.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261122-ecd6c5a6-bsky.jpg",
+      "mode": "card",
+      "reponse": null,
+      "sujet": null
+    }
   }
 ]

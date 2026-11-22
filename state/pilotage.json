@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-22T17:00:55.373Z",
+  "genereLe": "2026-11-22T17:20:38.896Z",
   "jour": "2026-11-22",
   "reseaux": {
     "instagram": {
@@ -60,11 +60,11 @@
         "image",
         "reply"
       ],
-      "aujourdhui": 2,
-      "semaine": 10,
-      "total": 92,
-      "dernier": "2026-11-22T11:09:34.524Z",
-      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2vi3lhosh2j"
+      "aujourdhui": 3,
+      "semaine": 11,
+      "total": 93,
+      "dernier": "2026-11-22T17:31:32.398Z",
+      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2w5glq6ne2d"
     },
     "facebook": {
       "actif": true,
@@ -164,6 +164,38 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36266",
+      "titre": "Truffe du Périgord : la France en importe plus qu’elle n’en récolte",
+      "lien": "https://passion-aquitaine.ouest-france.fr/truffe-perigord-france-importe-plus-recolte/",
+      "at": "2026-11-22T17:31:32.398Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Imaginez un marché aux truffes du Périgord, le parfum qui monte des paniers… Sauf qu’une bonne part des truffes vendues en France n’a jamais poussé ici. Le pays en importe 127 tonnes, surtout d’Italie et de Bulgarie, pour seulement 75 tonnes récoltées. Un drôle de paradoxe pour une terre aussi attachée à son diamant noir 🌳",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261122-ecd6c5a6-th.jpg",
+          "mode": "reponse",
+          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/truffe-perigord-france-importe-plus-recolte/",
+          "sujet": "Périgord",
+          "publieLe": "2026-11-22T10:16:02.757Z"
+        },
+        "x": {
+          "texte": "🔍 Comment le pays de la truffe du #Périgord peut-il en importer plus qu’il n’en récolte ? 127 tonnes achetées, surtout en Italie et en Bulgarie, pour 75 tonnes produites en France.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261122-ecd6c5a6-x.jpg",
+          "mode": "reponse",
+          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/truffe-perigord-france-importe-plus-recolte/",
+          "sujet": null,
+          "publieLe": "2026-11-22T11:00:47.144Z"
+        },
+        "bluesky": {
+          "texte": "Le #Périgord a beau être sa terre d’élection, la France importe plus de truffes qu’elle n’en récolte ⚖️ 127 tonnes achetées, surtout en Italie et en Bulgarie, contre 75 tonnes sorties du sol français.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261122-ecd6c5a6-bsky.jpg",
+          "mode": "card",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-22T17:31:32.398Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36215",
       "titre": "La Palmyre : 53 ans après, cette baie attend toujours sa réserve",
@@ -293,30 +325,6 @@
       }
     },
     {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36266",
-      "titre": "Truffe du Périgord : la France en importe plus qu’elle n’en récolte",
-      "lien": "https://passion-aquitaine.ouest-france.fr/truffe-perigord-france-importe-plus-recolte/",
-      "at": "2026-11-22T11:00:47.144Z",
-      "reseaux": {
-        "threads": {
-          "texte": "Imaginez un marché aux truffes du Périgord, le parfum qui monte des paniers… Sauf qu’une bonne part des truffes vendues en France n’a jamais poussé ici. Le pays en importe 127 tonnes, surtout d’Italie et de Bulgarie, pour seulement 75 tonnes récoltées. Un drôle de paradoxe pour une terre aussi attachée à son diamant noir 🌳",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261122-ecd6c5a6-th.jpg",
-          "mode": "reponse",
-          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/truffe-perigord-france-importe-plus-recolte/",
-          "sujet": "Périgord",
-          "publieLe": "2026-11-22T10:16:02.757Z"
-        },
-        "x": {
-          "texte": "🔍 Comment le pays de la truffe du #Périgord peut-il en importer plus qu’il n’en récolte ? 127 tonnes achetées, surtout en Italie et en Bulgarie, pour 75 tonnes produites en France.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261122-ecd6c5a6-x.jpg",
-          "mode": "reponse",
-          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/truffe-perigord-france-importe-plus-recolte/",
-          "sujet": null,
-          "publieLe": "2026-11-22T11:00:47.144Z"
-        }
-      }
-    },
-    {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36241",
       "titre": "Ils sont encore là, mais presque invisibles : le plan pour sauver les visons d’Europe",
       "lien": "https://passion-aquitaine.ouest-france.fr/vison-europe-nouvelle-aquitaine-life-care/",
@@ -382,6 +390,16 @@
     }
   ],
   "publications": [
+    {
+      "channel": "bluesky",
+      "at": "2026-11-22T17:31:32.398Z",
+      "titre": "Truffe du Périgord : la France en importe plus qu’elle n’en récolte",
+      "lien": "https://passion-aquitaine.ouest-france.fr/truffe-perigord-france-importe-plus-recolte/",
+      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2w5glq6ne2d",
+      "format": "card",
+      "texte": "Le #Périgord a beau être sa terre d’élection, la France importe plus de truffes qu’elle n’en récolte ⚖️ 127 tonnes achetées, surtout en Italie et en Bulgarie, contre 75 tonnes sorties du sol français.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261122-ecd6c5a6-bsky.jpg"
+    },
     {
       "channel": "instagram",
       "at": "2026-11-22T17:04:47.163Z",
@@ -471,28 +489,9 @@
       "format": "reponse",
       "texte": "📈 Le prix d’un vin en primeur dit beaucoup de l’état du vignoble. À Saint-Émilion, le Château de Pressac vend son 2025 à 29,70 euros, en hausse. Dans le même temps, la Gironde arrache des vignes et certains vignerons bordelais touchent moins d’un euro la bouteille. Le même terroir, deux mondes. Vous aviez conscience d’un tel écart ?",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261121-62194883-th.jpg"
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-11-21T20:13:59.751Z",
-      "titre": "Jugé à Angoulême, ce voleur de notaires s’offrait des cartes Pokémon estimées à 20 000 €",
-      "lien": "https://passion-aquitaine.ouest-france.fr/cartes-pokemon-cambrioleurs-notaires-angouleme/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1798166225642591",
-      "format": null,
-      "texte": "37 études de notaires visitées de nuit, l’or revendu, et au bout du compte des milliers de cartes Pokémon 🗞️",
-      "image": null
     }
   ],
   "file": [
-    {
-      "channel": "bluesky",
-      "dueAt": "2026-11-22T17:31:30.139Z",
-      "prochainPassage": "2026-11-22T18:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Truffe du Périgord : la France en importe plus qu’elle n’en récolte"
-    },
     {
       "channel": "facebook",
       "dueAt": "2026-11-22T20:23:04.741Z",
@@ -683,7 +682,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-22T16:01:05.606Z"
+    "derniere": "2026-11-22T17:20:38.896Z"
   },
   "abonnes": {
     "instagram": {
@@ -722,7 +721,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-22T17:04:49.886Z",
+    "genereLe": "2026-11-22T17:31:44.664Z",
     "posts": 106,
     "parReseau": {
       "threads": {
@@ -894,7 +893,7 @@
     "publies": {
       "threads": 30,
       "facebook": 29,
-      "bluesky": 29,
+      "bluesky": 30,
       "x": 30,
       "instagram": 28
     },

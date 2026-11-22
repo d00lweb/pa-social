@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-22T11:21:01.822Z",
+  "genereLe": "2026-11-22T12:00:55.409Z",
   "jour": "2026-11-22",
   "reseaux": {
     "instagram": {
@@ -562,7 +562,7 @@
     }
   ],
   "mesures": {
-    "releves": 675,
+    "releves": 676,
     "parReseau": {
       "instagram": {
         "posts": 83,
@@ -684,7 +684,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-22T11:00:37.695Z"
+    "derniere": "2026-11-22T12:00:55.409Z"
   },
   "abonnes": {
     "instagram": {
@@ -723,8 +723,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-22T11:21:06.591Z",
-    "posts": 104,
+    "genereLe": "2026-11-22T12:00:59.606Z",
+    "posts": 105,
     "parReseau": {
       "threads": {
         "posts": 27,
@@ -739,7 +739,7 @@
         "moyenne": 0
       },
       "bluesky": {
-        "posts": 25,
+        "posts": 26,
         "moyenne": 0
       }
     },
@@ -753,7 +753,7 @@
         "moyenne": 0.1
       },
       "image": {
-        "posts": 14,
+        "posts": 15,
         "moyenne": 0
       },
       "reply": {
@@ -767,8 +767,8 @@
         "moyenne": 7.4
       },
       "après-midi": {
-        "posts": 29,
-        "moyenne": 6.3
+        "posts": 30,
+        "moyenne": 6.1
       },
       "soir": {
         "posts": 17,
@@ -818,7 +818,7 @@
           "moyenne": 0
         },
         "12 h – 13 h 30": {
-          "posts": 7,
+          "posts": 8,
           "moyenne": 0
         },
         "18 h – 19 h 30": {
@@ -864,25 +864,23 @@
     },
     "moinsBon": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36241",
-      "channel": "facebook",
-      "mediaId": "227437307428711_1797456175713596",
-      "publieLe": "2026-11-21T07:03:15.401Z",
+      "channel": "bluesky",
+      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3n2syqqrfvv2d",
+      "publieLe": "2026-11-21T11:29:45.175Z",
       "jalon": 1,
-      "releveLe": "2026-11-22T07:20:56.928Z",
+      "releveLe": "2026-11-22T12:00:55.409Z",
       "likes": 0,
       "commentairesBruts": 0,
       "partages": 0,
-      "vues": 0,
-      "portee": 0,
-      "clics": 0,
+      "vues": null,
       "commentaires": 0,
       "v": 2,
       "titre": "Ils sont encore là, mais presque invisibles : le plan pour sauver les visons d’Europe",
-      "lien": "https://www.facebook.com/1720946116697936/posts/1797456175713596",
-      "format": null,
+      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2syqqrfvv2d",
+      "format": "image",
       "mention": false,
-      "creneau": "matin",
-      "creneauReseau": "8 h – 9 h 30"
+      "creneau": "après-midi",
+      "creneauReseau": "12 h – 13 h 30"
     },
     "mentions": {
       "avec": {
@@ -890,8 +888,8 @@
         "moyenne": 6.2
       },
       "sans": {
-        "posts": 58,
-        "moyenne": 6.2
+        "posts": 59,
+        "moyenne": 6.1
       }
     },
     "publies": {

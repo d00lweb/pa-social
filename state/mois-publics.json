@@ -3,7 +3,7 @@
     "cle": "2026-11",
     "publications": 145,
     "articles": 31,
-    "interactions": 642,
+    "interactions": 646,
     "parReseau": {
       "facebook": 29,
       "instagram": 27,
@@ -41,18 +41,18 @@
         "interactions": 65
       },
       {
+        "reseau": "instagram",
+        "titre": "Déjà 20 200 grues cendrées à Arjuzanx, 2,6 fois plus qu’en 2025",
+        "lien": "https://www.instagram.com/p/DfwyOAkF50r/",
+        "image": "https://passion-aquitaine.ouest-france.fr/social/20261115-4e3e2639-1-vignette.jpg",
+        "interactions": 35
+      },
+      {
         "reseau": "threads",
         "titre": "Bayonne : cette crèche propose aux bébés de dormir dehors",
         "lien": "https://www.threads.com/@lovaquitaine/post/DfeNqg2Fpy_",
         "image": "https://passion-aquitaine.ouest-france.fr/social/20261108-1c7b9a95-1-vignette.jpg",
         "interactions": 34
-      },
-      {
-        "reseau": "instagram",
-        "titre": "Déjà 20 200 grues cendrées à Arjuzanx, 2,6 fois plus qu’en 2025",
-        "lien": "https://www.instagram.com/p/DfwyOAkF50r/",
-        "image": "https://passion-aquitaine.ouest-france.fr/social/20261115-4e3e2639-1-vignette.jpg",
-        "interactions": 31
       }
     ]
   },

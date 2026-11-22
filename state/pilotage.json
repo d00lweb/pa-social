@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-22T17:20:38.896Z",
+  "genereLe": "2026-11-22T17:56:04.006Z",
   "jour": "2026-11-22",
   "reseaux": {
     "instagram": {
@@ -502,6 +502,24 @@
       "titre": "Quand la Gironde arrache des vignes, ce grand cru de Saint-Émilion augmente son prix"
     },
     {
+      "channel": "threads",
+      "dueAt": "2026-11-23T07:08:53.099Z",
+      "prochainPassage": "2026-11-23T07:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Vignes bordelaises à vendre : l’auteur de Gomorra redoute l’argent des mafias"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-11-23T08:13:30.329Z",
+      "prochainPassage": "2026-11-23T08:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Vignes bordelaises à vendre : l’auteur de Gomorra redoute l’argent des mafias"
+    },
+    {
       "channel": "facebook",
       "dueAt": "2026-11-23T08:27:56.169Z",
       "prochainPassage": "2026-11-23T09:00:00.000Z",
@@ -509,6 +527,15 @@
       "prevuInitialement": null,
       "raison": null,
       "titre": "Truffe du Périgord : la France en importe plus qu’elle n’en récolte"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-11-23T09:20:00.000Z",
+      "prochainPassage": "2026-11-23T09:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Vignes bordelaises à vendre : l’auteur de Gomorra redoute l’argent des mafias"
     },
     {
       "channel": "instagram",
@@ -527,6 +554,24 @@
       "prevuInitialement": null,
       "raison": null,
       "titre": "Truffe du Périgord : la France en importe plus qu’elle n’en récolte"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-11-23T19:12:02.848Z",
+      "prochainPassage": "2026-11-23T19:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Vignes bordelaises à vendre : l’auteur de Gomorra redoute l’argent des mafias"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-11-24T12:29:40.160Z",
+      "prochainPassage": "2026-11-24T13:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Vignes bordelaises à vendre : l’auteur de Gomorra redoute l’argent des mafias"
     }
   ],
   "alertes": [
@@ -560,7 +605,7 @@
     }
   ],
   "mesures": {
-    "releves": 678,
+    "releves": 679,
     "parReseau": {
       "instagram": {
         "posts": 84,
@@ -721,16 +766,16 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-22T17:31:44.664Z",
-    "posts": 106,
+    "genereLe": "2026-11-22T17:56:21.008Z",
+    "posts": 107,
     "parReseau": {
       "threads": {
         "posts": 28,
         "moyenne": 15.9
       },
       "instagram": {
-        "posts": 25,
-        "moyenne": 8.2
+        "posts": 26,
+        "moyenne": 8.1
       },
       "facebook": {
         "posts": 27,
@@ -769,8 +814,8 @@
         "moyenne": 6.2
       },
       "soir": {
-        "posts": 17,
-        "moyenne": 1.8
+        "posts": 18,
+        "moyenne": 2
       }
     },
     "parCreneauReseau": {
@@ -830,8 +875,8 @@
           "moyenne": 9.5
         },
         "18 h – 19 h 30": {
-          "posts": 4,
-          "moyenne": 6
+          "posts": 5,
+          "moyenne": 5.8
         },
         "hors créneau": {
           "posts": 3,
@@ -839,7 +884,7 @@
         }
       }
     },
-    "interactionsTotal": 652,
+    "interactionsTotal": 657,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36189",
       "channel": "threads",
@@ -882,7 +927,7 @@
     },
     "mentions": {
       "avec": {
-        "posts": 46,
+        "posts": 47,
         "moyenne": 6.2
       },
       "sans": {
@@ -939,36 +984,36 @@
     },
     "conseils": [
       "Threads : le créneau 7 h – 8 h 30 fait 3,8 fois mieux que 13 h – 14 h 30 (22.7 contre 6 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
-      "Instagram : le créneau 12 h – 13 h 30 fait 1,6 fois mieux que 18 h – 19 h 30 (9.5 contre 6 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
+      "Instagram : le créneau 12 h – 13 h 30 fait 1,6 fois mieux que 18 h – 19 h 30 (9.5 contre 5.8 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Le format « reponse » fait 159 fois mieux que « reply » (15.9 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « reply » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+17, +1,5 %) ; Facebook recule (−40), à surveiller."
     ]
   },
   "couts": {
     "jour": {
-      "appels": 2,
-      "entree": 15961,
-      "sortie": 1796,
-      "cout": 0.099764,
+      "appels": 3,
+      "entree": 23945,
+      "sortie": 2643,
+      "cout": 0.14864,
       "cle": "2026-11-22"
     },
     "semaine": {
-      "appels": 21,
-      "entree": 167931,
-      "sortie": 19693,
-      "cout": 1.065584
+      "appels": 22,
+      "entree": 175915,
+      "sortie": 20540,
+      "cout": 1.11446
     },
     "mois": {
-      "appels": 77,
-      "entree": 616170,
-      "sortie": 69820,
-      "cout": 3.8610799999999994,
+      "appels": 78,
+      "entree": 624154,
+      "sortie": 70667,
+      "cout": 3.9099559999999993,
       "cle": "2026-11"
     },
-    "projection": 5.27,
+    "projection": 5.33,
     "moyenneAppel": 0.0501,
     "parModele": {
-      "claude-opus-5-5": 77
+      "claude-opus-5-5": 78
     },
     "serie": [
       [
@@ -1025,7 +1070,7 @@
       ],
       [
         "2026-11-22",
-        0.0998
+        0.1486
       ]
     ],
     "depuis": "2026-09-23"

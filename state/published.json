@@ -8004,5 +8004,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36276",
+    "channel": "x",
+    "at": "2026-11-22T09:21:18.358Z",
+    "mediaId": "kit-telegram",
+    "titre": "Quand la Gironde arrache des vignes, ce grand cru de Saint-Émilion augmente son prix",
+    "lien": "https://passion-aquitaine.ouest-france.fr/saint-emilion-grand-cru-prix-crise/",
+    "lienPost": null,
+    "format": "reponse",
+    "mention": true,
+    "apercu": {
+      "texte": "D’un côté, des vignes arrachées en Gironde 🚜 De l’autre, un grand cru de Saint-Émilion, le Château de Pressac, qui vend son 2025 à 29,70 euros en primeur, quand des vignerons bordelais touchent moins d’un euro la bouteille.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261121-62194883-x.jpg",
+      "mode": "reponse",
+      "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/saint-emilion-grand-cru-prix-crise/",
+      "sujet": null
+    }
   }
 ]

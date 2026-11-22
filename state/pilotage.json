@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-22T09:00:36.440Z",
+  "genereLe": "2026-11-22T09:21:06.370Z",
   "jour": "2026-11-22",
   "reseaux": {
     "instagram": {
@@ -156,14 +156,38 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 9,
-      "total": 91,
-      "dernier": "2026-11-21T16:21:05.880Z",
+      "aujourdhui": 1,
+      "semaine": 10,
+      "total": 92,
+      "dernier": "2026-11-22T09:21:18.358Z",
       "lienDernier": null
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36276",
+      "titre": "Quand la Gironde arrache des vignes, ce grand cru de Saint-Émilion augmente son prix",
+      "lien": "https://passion-aquitaine.ouest-france.fr/saint-emilion-grand-cru-prix-crise/",
+      "at": "2026-11-22T09:21:18.358Z",
+      "reseaux": {
+        "threads": {
+          "texte": "📈 Le prix d’un vin en primeur dit beaucoup de l’état du vignoble. À Saint-Émilion, le Château de Pressac vend son 2025 à 29,70 euros, en hausse. Dans le même temps, la Gironde arrache des vignes et certains vignerons bordelais touchent moins d’un euro la bouteille. Le même terroir, deux mondes. Vous aviez conscience d’un tel écart ?",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261121-62194883-th.jpg",
+          "mode": "reponse",
+          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/saint-emilion-grand-cru-prix-crise/",
+          "sujet": "Saint-Émilion",
+          "publieLe": "2026-11-22T06:27:42.498Z"
+        },
+        "x": {
+          "texte": "D’un côté, des vignes arrachées en Gironde 🚜 De l’autre, un grand cru de Saint-Émilion, le Château de Pressac, qui vend son 2025 à 29,70 euros en primeur, quand des vignerons bordelais touchent moins d’un euro la bouteille.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261121-62194883-x.jpg",
+          "mode": "reponse",
+          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/saint-emilion-grand-cru-prix-crise/",
+          "sujet": null,
+          "publieLe": "2026-11-22T09:21:18.358Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36215",
       "titre": "La Palmyre : 53 ans après, cette baie attend toujours sa réserve",
@@ -201,22 +225,6 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-11-22T07:13:04.500Z"
-        }
-      }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36276",
-      "titre": "Quand la Gironde arrache des vignes, ce grand cru de Saint-Émilion augmente son prix",
-      "lien": "https://passion-aquitaine.ouest-france.fr/saint-emilion-grand-cru-prix-crise/",
-      "at": "2026-11-22T06:27:42.498Z",
-      "reseaux": {
-        "threads": {
-          "texte": "📈 Le prix d’un vin en primeur dit beaucoup de l’état du vignoble. À Saint-Émilion, le Château de Pressac vend son 2025 à 29,70 euros, en hausse. Dans le même temps, la Gironde arrache des vignes et certains vignerons bordelais touchent moins d’un euro la bouteille. Le même terroir, deux mondes. Vous aviez conscience d’un tel écart ?",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261121-62194883-th.jpg",
-          "mode": "reponse",
-          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/saint-emilion-grand-cru-prix-crise/",
-          "sujet": "Saint-Émilion",
-          "publieLe": "2026-11-22T06:27:42.498Z"
         }
       }
     },
@@ -375,6 +383,16 @@
   ],
   "publications": [
     {
+      "channel": "x",
+      "at": "2026-11-22T09:21:18.358Z",
+      "titre": "Quand la Gironde arrache des vignes, ce grand cru de Saint-Émilion augmente son prix",
+      "lien": "https://passion-aquitaine.ouest-france.fr/saint-emilion-grand-cru-prix-crise/",
+      "lienPost": null,
+      "format": "reponse",
+      "texte": "D’un côté, des vignes arrachées en Gironde 🚜 De l’autre, un grand cru de Saint-Émilion, le Château de Pressac, qui vend son 2025 à 29,70 euros en primeur, quand des vignerons bordelais touchent moins d’un euro la bouteille.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261121-62194883-x.jpg"
+    },
+    {
       "channel": "facebook",
       "at": "2026-11-22T07:13:04.500Z",
       "titre": "La Palmyre : 53 ans après, cette baie attend toujours sa réserve",
@@ -463,28 +481,9 @@
       "format": "image",
       "texte": "Espèce en grand danger, le vison d’Europe survit encore en #NouvelleAquitaine. Pour éviter sa disparition, un programme de sauvegarde baptisé LIFE CARE vient d’être mis en place 🦦\n➡️ Lire l’article",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261120-9756dd6b-bsky.jpg"
-    },
-    {
-      "channel": "x",
-      "at": "2026-11-21T11:20:56.800Z",
-      "titre": "Jugé à Angoulême, ce voleur de notaires s’offrait des cartes Pokémon estimées à 20 000 €",
-      "lien": "https://passion-aquitaine.ouest-france.fr/cartes-pokemon-cambrioleurs-notaires-angouleme/",
-      "lienPost": null,
-      "format": "reponse",
-      "texte": "Comment l’or volé dans 37 études de notaires a fini en cartes Pokémon : le duo jugé à #Angoulême avait amassé une collection estimée à 20 000 € 🗞️",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261120-d51b109a-x.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "x",
-      "dueAt": "2026-11-22T09:20:00.000Z",
-      "prochainPassage": "2026-11-22T09:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Quand la Gironde arrache des vignes, ce grand cru de Saint-Émilion augmente son prix"
-    },
     {
       "channel": "threads",
       "dueAt": "2026-11-22T10:11:47.892Z",
@@ -729,7 +728,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-22T08:21:05.592Z"
+    "derniere": "2026-11-22T09:21:06.370Z"
   },
   "abonnes": {
     "instagram": {
@@ -768,7 +767,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-22T09:00:40.020Z",
+    "genereLe": "2026-11-22T09:21:28.615Z",
     "posts": 103,
     "parReseau": {
       "threads": {
@@ -943,7 +942,7 @@
       "threads": 29,
       "facebook": 29,
       "bluesky": 28,
-      "x": 28,
+      "x": 29,
       "instagram": 26
     },
     "abonnes": {

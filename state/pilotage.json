@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-22T16:20:36.447Z",
+  "genereLe": "2026-11-22T17:00:55.373Z",
   "jour": "2026-11-22",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 1,
-      "semaine": 8,
-      "total": 92,
-      "dernier": "2026-11-22T11:03:29.245Z",
-      "lienDernier": "https://www.instagram.com/p/DgCp1Hfj3lh/"
+      "aujourdhui": 2,
+      "semaine": 9,
+      "total": 93,
+      "dernier": "2026-11-22T17:04:47.163Z",
+      "lienDernier": "https://www.instagram.com/p/DgDTLRHl3Dz/"
     },
     "bluesky": {
       "actif": true,
@@ -165,6 +165,54 @@
   },
   "articles": [
     {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36215",
+      "titre": "La Palmyre : 53 ans après, cette baie attend toujours sa réserve",
+      "lien": "https://passion-aquitaine.ouest-france.fr/baie-bonne-anse-reserve-naturelle-palmyre/",
+      "at": "2026-11-22T17:04:47.163Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Près de La Palmyre, la baie de Bonne Anse a une histoire étonnante 🌊 En 1973, elle faisait partie des 100 réserves naturelles à créer en priorité en France. 53 ans plus tard, ce statut n’est toujours pas arrivé. De quoi regarder autrement ce coin de Charente-Maritime lors de votre prochaine balade.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261121-7d65266b-th.jpg",
+          "mode": "reponse",
+          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/baie-bonne-anse-reserve-naturelle-palmyre/",
+          "sujet": "La Palmyre",
+          "publieLe": "2026-11-21T13:30:48.096Z"
+        },
+        "x": {
+          "texte": "La baie de Bonne Anse, à La Palmyre, figurait en 1973 parmi les 100 réserves naturelles prioritaires ⌛ 53 ans plus tard, elle attend toujours d’être protégée.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261121-7d65266b-x.jpg",
+          "mode": "reponse",
+          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/baie-bonne-anse-reserve-naturelle-palmyre/",
+          "sujet": null,
+          "publieLe": "2026-11-21T16:21:05.880Z"
+        },
+        "bluesky": {
+          "texte": "🦆 Classée parmi les 100 réserves naturelles à créer en priorité dès 1973, la baie de Bonne Anse, à #LaPalmyre, attend encore son statut. Une priorité restée lettre morte pendant 53 ans en #CharenteMaritime.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261121-7d65266b-bsky.jpg",
+          "mode": "reply",
+          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/baie-bonne-anse-reserve-naturelle-palmyre/",
+          "sujet": null,
+          "publieLe": "2026-11-22T07:06:37.208Z"
+        },
+        "facebook": {
+          "texte": "À La Palmyre, la baie de Bonne Anse était jugée prioritaire pour devenir réserve naturelle… il y a plus d’un demi-siècle ⏳",
+          "image": null,
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-22T07:13:04.500Z"
+        },
+        "instagram": {
+          "texte": "53 ans d’attente : la baie de Bonne Anse n’est toujours pas une réserve naturelle 🕰️\n⠀\nÀ La Palmyre, en Charente-Maritime, cette baie figurait dès 1973 parmi les 100 réserves naturelles à créer en priorité. Un dossier de nature resté en suspens depuis plus d’un demi-siècle.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#LaPalmyre #ReserveNaturelle #CharenteMaritime",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261121-7d65266b-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-22T17:04:47.163Z"
+        }
+      }
+    },
+    {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36276",
       "titre": "Quand la Gironde arrache des vignes, ce grand cru de Saint-Émilion augmente son prix",
       "lien": "https://passion-aquitaine.ouest-france.fr/saint-emilion-grand-cru-prix-crise/",
@@ -269,46 +317,6 @@
       }
     },
     {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36215",
-      "titre": "La Palmyre : 53 ans après, cette baie attend toujours sa réserve",
-      "lien": "https://passion-aquitaine.ouest-france.fr/baie-bonne-anse-reserve-naturelle-palmyre/",
-      "at": "2026-11-22T07:13:04.500Z",
-      "reseaux": {
-        "threads": {
-          "texte": "Près de La Palmyre, la baie de Bonne Anse a une histoire étonnante 🌊 En 1973, elle faisait partie des 100 réserves naturelles à créer en priorité en France. 53 ans plus tard, ce statut n’est toujours pas arrivé. De quoi regarder autrement ce coin de Charente-Maritime lors de votre prochaine balade.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261121-7d65266b-th.jpg",
-          "mode": "reponse",
-          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/baie-bonne-anse-reserve-naturelle-palmyre/",
-          "sujet": "La Palmyre",
-          "publieLe": "2026-11-21T13:30:48.096Z"
-        },
-        "x": {
-          "texte": "La baie de Bonne Anse, à La Palmyre, figurait en 1973 parmi les 100 réserves naturelles prioritaires ⌛ 53 ans plus tard, elle attend toujours d’être protégée.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261121-7d65266b-x.jpg",
-          "mode": "reponse",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/baie-bonne-anse-reserve-naturelle-palmyre/",
-          "sujet": null,
-          "publieLe": "2026-11-21T16:21:05.880Z"
-        },
-        "bluesky": {
-          "texte": "🦆 Classée parmi les 100 réserves naturelles à créer en priorité dès 1973, la baie de Bonne Anse, à #LaPalmyre, attend encore son statut. Une priorité restée lettre morte pendant 53 ans en #CharenteMaritime.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261121-7d65266b-bsky.jpg",
-          "mode": "reply",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/baie-bonne-anse-reserve-naturelle-palmyre/",
-          "sujet": null,
-          "publieLe": "2026-11-22T07:06:37.208Z"
-        },
-        "facebook": {
-          "texte": "À La Palmyre, la baie de Bonne Anse était jugée prioritaire pour devenir réserve naturelle… il y a plus d’un demi-siècle ⏳",
-          "image": null,
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-22T07:13:04.500Z"
-        }
-      }
-    },
-    {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36241",
       "titre": "Ils sont encore là, mais presque invisibles : le plan pour sauver les visons d’Europe",
       "lien": "https://passion-aquitaine.ouest-france.fr/vison-europe-nouvelle-aquitaine-life-care/",
@@ -374,6 +382,16 @@
     }
   ],
   "publications": [
+    {
+      "channel": "instagram",
+      "at": "2026-11-22T17:04:47.163Z",
+      "titre": "La Palmyre : 53 ans après, cette baie attend toujours sa réserve",
+      "lien": "https://passion-aquitaine.ouest-france.fr/baie-bonne-anse-reserve-naturelle-palmyre/",
+      "lienPost": "https://www.instagram.com/p/DgDTLRHl3Dz/",
+      "format": null,
+      "texte": "53 ans d’attente : la baie de Bonne Anse n’est toujours pas une réserve naturelle 🕰️\n⠀\nÀ La Palmyre, en Charente-Maritime, cette baie figurait dès 1973 parmi les 100 réserves naturelles à créer en priorité. Un dossier de nature resté en suspens depuis plus d’un demi-siècle.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#LaPalmyre #ReserveNaturelle #CharenteMaritime",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261121-7d65266b-1.jpg"
+    },
     {
       "channel": "bluesky",
       "at": "2026-11-22T11:09:34.524Z",
@@ -463,28 +481,9 @@
       "format": null,
       "texte": "37 études de notaires visitées de nuit, l’or revendu, et au bout du compte des milliers de cartes Pokémon 🗞️",
       "image": null
-    },
-    {
-      "channel": "bluesky",
-      "at": "2026-11-21T18:11:02.889Z",
-      "titre": "Jugé à Angoulême, ce voleur de notaires s’offrait des cartes Pokémon estimées à 20 000 €",
-      "lien": "https://passion-aquitaine.ouest-france.fr/cartes-pokemon-cambrioleurs-notaires-angouleme/",
-      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2tp6crw3c23",
-      "format": "reply",
-      "texte": "À #Angoulême, un duo est jugé pour des vols dans 37 études de notaires 🗞️ L’or revendu servait à acheter des cartes Pokémon par milliers, une collection estimée à 20 000 €.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261120-d51b109a-bsky.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "instagram",
-      "dueAt": "2026-11-22T17:04:12.372Z",
-      "prochainPassage": "2026-11-22T17:20:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "La Palmyre : 53 ans après, cette baie attend toujours sa réserve"
-    },
     {
       "channel": "bluesky",
       "dueAt": "2026-11-22T17:31:30.139Z",
@@ -723,7 +722,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-22T16:20:40.748Z",
+    "genereLe": "2026-11-22T17:04:49.886Z",
     "posts": 106,
     "parReseau": {
       "threads": {
@@ -897,7 +896,7 @@
       "facebook": 29,
       "bluesky": 29,
       "x": 30,
-      "instagram": 27
+      "instagram": 28
     },
     "abonnes": {
       "instagram": {

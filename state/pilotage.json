@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-22T22:00:39.689Z",
+  "genereLe": "2026-11-22T22:20:56.494Z",
   "jour": "2026-11-22",
   "reseaux": {
     "instagram": {
@@ -673,12 +673,7 @@
       ],
       "emisLe": "2026-11-16T13:45:26.000Z"
     },
-    "facebook": {
-      "publications": 5,
-      "vues": 2,
-      "invisible": false,
-      "depuis": "2026-11-19T08:26:14.548Z"
-    },
+    "facebook": null,
     "alertes": {
       "threads": "2026-11-S3",
       "facebook": "2026-11-S4"
@@ -765,7 +760,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-22T22:00:43.731Z",
+    "genereLe": "2026-11-22T22:21:01.448Z",
     "posts": 109,
     "parReseau": {
       "threads": {

@@ -43,12 +43,7 @@
     ],
     "emisLe": "2026-11-16T13:45:26.000Z"
   },
-  "facebook": {
-    "publications": 5,
-    "vues": 2,
-    "invisible": false,
-    "depuis": "2026-11-19T08:26:14.548Z"
-  },
+  "facebook": null,
   "alertes": {
     "threads": "2026-11-S3",
     "facebook": "2026-11-S4"

@@ -1,6 +1,6 @@
 {
-  "genereLe": "2026-11-22T22:20:56.494Z",
-  "jour": "2026-11-22",
+  "genereLe": "2026-11-22T23:01:00.113Z",
+  "jour": "2026-11-23",
   "reseaux": {
     "instagram": {
       "actif": true,
@@ -24,7 +24,7 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 2,
+      "aujourdhui": 0,
       "semaine": 9,
       "total": 93,
       "dernier": "2026-11-22T17:04:47.163Z",
@@ -60,7 +60,7 @@
         "image",
         "reply"
       ],
-      "aujourdhui": 3,
+      "aujourdhui": 0,
       "semaine": 11,
       "total": 93,
       "dernier": "2026-11-22T17:31:32.398Z",
@@ -88,7 +88,7 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 2,
+      "aujourdhui": 0,
       "semaine": 11,
       "total": 90,
       "dernier": "2026-11-22T20:23:09.240Z",
@@ -122,7 +122,7 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 2,
+      "aujourdhui": 0,
       "semaine": 11,
       "total": 90,
       "dernier": "2026-11-22T10:16:02.757Z",
@@ -156,7 +156,7 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 2,
+      "aujourdhui": 0,
       "semaine": 11,
       "total": 93,
       "dernier": "2026-11-22T11:00:47.144Z",
@@ -630,7 +630,7 @@
   ],
   "jetons": {
     "v": 2,
-    "verifieLe": "2026-11-22T03:00:42.402Z",
+    "verifieLe": "2026-11-22T23:01:00.113Z",
     "meta": {
       "expireLe": null,
       "restant": null,
@@ -721,46 +721,46 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-22T21:21:02.184Z"
+    "derniere": "2026-11-22T23:01:00.113Z"
   },
   "abonnes": {
     "instagram": {
-      "debut": 10129,
-      "fin": 10124,
-      "gain": -5,
-      "pct": 0,
-      "depuis": "2026-11-15",
-      "au": "2026-11-22"
+      "debut": 10126,
+      "fin": 10120,
+      "gain": -6,
+      "pct": -0.1,
+      "depuis": "2026-11-16",
+      "au": "2026-11-23"
     },
     "facebook": {
       "debut": 42544,
-      "fin": 42527,
-      "gain": -17,
+      "fin": 42524,
+      "gain": -20,
       "pct": 0,
-      "depuis": "2026-11-15",
-      "au": "2026-11-22"
+      "depuis": "2026-11-16",
+      "au": "2026-11-23"
     },
     "bluesky": {
       "debut": 12,
       "fin": 13,
       "gain": 1,
       "pct": 8.3,
-      "depuis": "2026-11-15",
-      "au": "2026-11-22"
+      "depuis": "2026-11-16",
+      "au": "2026-11-23"
     },
     "threads": {
-      "debut": 1164,
+      "debut": 1167,
       "fin": 1173,
-      "gain": 9,
-      "pct": 0.8,
-      "depuis": "2026-11-15",
-      "au": "2026-11-22"
+      "gain": 6,
+      "pct": 0.5,
+      "depuis": "2026-11-16",
+      "au": "2026-11-23"
     },
     "x": null
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-22T22:21:01.448Z",
+    "genereLe": "2026-11-22T23:01:04.377Z",
     "posts": 109,
     "parReseau": {
       "threads": {
@@ -942,19 +942,19 @@
     "abonnes": {
       "instagram": {
         "debut": 10135,
-        "fin": 10124,
-        "gain": -11,
+        "fin": 10120,
+        "gain": -15,
         "pct": -0.1,
         "depuis": "2026-11-01",
-        "au": "2026-11-22"
+        "au": "2026-11-23"
       },
       "facebook": {
         "debut": 42567,
-        "fin": 42527,
-        "gain": -40,
+        "fin": 42524,
+        "gain": -43,
         "pct": -0.1,
         "depuis": "2026-11-01",
-        "au": "2026-11-22"
+        "au": "2026-11-23"
       },
       "bluesky": {
         "debut": 10,
@@ -962,7 +962,7 @@
         "gain": 3,
         "pct": 30,
         "depuis": "2026-11-01",
-        "au": "2026-11-22"
+        "au": "2026-11-23"
       },
       "threads": {
         "debut": 1156,
@@ -970,7 +970,7 @@
         "gain": 17,
         "pct": 1.5,
         "depuis": "2026-11-01",
-        "au": "2026-11-22"
+        "au": "2026-11-23"
       },
       "x": null
     },
@@ -983,22 +983,22 @@
       "Threads : le créneau 7 h – 8 h 30 fait 3,8 fois mieux que 13 h – 14 h 30 (22.7 contre 6 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Instagram : le créneau 12 h – 13 h 30 fait 1,6 fois mieux que 18 h – 19 h 30 (9.5 contre 5.8 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Le format « reponse » fait 159 fois mieux que « reply » (15.9 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « reply » de la rotation dans config/channels.json.",
-      "Abonnés : Threads progresse le plus (+17, +1,5 %) ; Facebook recule (−40), à surveiller."
+      "Abonnés : Threads progresse le plus (+17, +1,5 %) ; Facebook recule (−43), à surveiller."
     ]
   },
   "couts": {
     "jour": {
-      "appels": 3,
-      "entree": 23945,
-      "sortie": 2643,
-      "cout": 0.14864,
-      "cle": "2026-11-22"
+      "appels": 0,
+      "entree": 0,
+      "sortie": 0,
+      "cout": 0,
+      "cle": "2026-11-23"
     },
     "semaine": {
-      "appels": 22,
-      "entree": 175915,
-      "sortie": 20540,
-      "cout": 1.11446
+      "appels": 21,
+      "entree": 167964,
+      "sortie": 19650,
+      "cout": 1.064856
     },
     "mois": {
       "appels": 78,
@@ -1007,16 +1007,12 @@
       "cout": 3.9099559999999993,
       "cle": "2026-11"
     },
-    "projection": 5.33,
+    "projection": 5.1,
     "moyenneAppel": 0.0501,
     "parModele": {
       "claude-opus-5-5": 78
     },
     "serie": [
-      [
-        "2026-11-09",
-        0.0486
-      ],
       [
         "2026-11-10",
         0.0496
@@ -1068,6 +1064,10 @@
       [
         "2026-11-22",
         0.1486
+      ],
+      [
+        "2026-11-23",
+        0
       ]
     ],
     "depuis": "2026-09-23"

@@ -357,7 +357,7 @@
     "threads": 1155,
     "facebookMouvements": {
       "plus": 0,
-      "moins": 1
+      "moins": 0
     }
   },
   "2026-10-24": {
@@ -367,7 +367,7 @@
     "threads": 1154,
     "facebookMouvements": {
       "plus": 0,
-      "moins": 0
+      "moins": 2
     }
   },
   "2026-10-25": {
@@ -376,8 +376,8 @@
     "bluesky": 9,
     "threads": 1155,
     "facebookMouvements": {
-      "plus": 0,
-      "moins": 2
+      "plus": 1,
+      "moins": 4
     }
   },
   "2026-10-26": {
@@ -386,8 +386,8 @@
     "bluesky": 9,
     "threads": 1155,
     "facebookMouvements": {
-      "plus": 1,
-      "moins": 4
+      "plus": 0,
+      "moins": 1
     }
   },
   "2026-10-27": {
@@ -417,7 +417,7 @@
     "threads": 1156,
     "facebookMouvements": {
       "plus": 0,
-      "moins": 1
+      "moins": 0
     }
   },
   "2026-10-30": {
@@ -436,7 +436,7 @@
     "bluesky": 10,
     "threads": 1156,
     "facebookMouvements": {
-      "plus": 0,
+      "plus": 1,
       "moins": 0
     }
   },
@@ -446,8 +446,8 @@
     "bluesky": 10,
     "threads": 1156,
     "facebookMouvements": {
-      "plus": 1,
-      "moins": 0
+      "plus": 0,
+      "moins": 3
     }
   },
   "2026-11-02": {
@@ -456,8 +456,8 @@
     "bluesky": 11,
     "threads": 1157,
     "facebookMouvements": {
-      "plus": 0,
-      "moins": 3
+      "plus": 1,
+      "moins": 0
     }
   },
   "2026-11-03": {
@@ -466,7 +466,7 @@
     "bluesky": 11,
     "threads": 1156,
     "facebookMouvements": {
-      "plus": 1,
+      "plus": 0,
       "moins": 0
     }
   },
@@ -487,7 +487,7 @@
     "threads": 1159,
     "facebookMouvements": {
       "plus": 0,
-      "moins": 0
+      "moins": 1
     }
   },
   "2026-11-06": {
@@ -497,7 +497,7 @@
     "threads": 1159,
     "facebookMouvements": {
       "plus": 0,
-      "moins": 1
+      "moins": 0
     }
   },
   "2026-11-07": {
@@ -506,8 +506,8 @@
     "bluesky": 11,
     "threads": 1160,
     "facebookMouvements": {
-      "plus": 0,
-      "moins": 0
+      "plus": 1,
+      "moins": 1
     }
   },
   "2026-11-08": {
@@ -517,7 +517,7 @@
     "threads": 1159,
     "facebookMouvements": {
       "plus": 1,
-      "moins": 1
+      "moins": 0
     }
   },
   "2026-11-09": {
@@ -526,7 +526,7 @@
     "bluesky": 11,
     "threads": 1160,
     "facebookMouvements": {
-      "plus": 1,
+      "plus": 0,
       "moins": 0
     }
   },
@@ -537,7 +537,7 @@
     "threads": 1161,
     "facebookMouvements": {
       "plus": 0,
-      "moins": 0
+      "moins": 1
     }
   },
   "2026-11-11": {
@@ -557,7 +557,7 @@
     "threads": 1161,
     "facebookMouvements": {
       "plus": 0,
-      "moins": 1
+      "moins": 0
     }
   },
   "2026-11-13": {
@@ -587,7 +587,7 @@
     "threads": 1164,
     "facebookMouvements": {
       "plus": 0,
-      "moins": 0
+      "moins": 1
     }
   },
   "2026-11-16": {
@@ -607,7 +607,7 @@
     "threads": 1168,
     "facebookMouvements": {
       "plus": 0,
-      "moins": 1
+      "moins": 0
     }
   },
   "2026-11-18": {
@@ -627,7 +627,7 @@
     "threads": 1169,
     "facebookMouvements": {
       "plus": 0,
-      "moins": 0
+      "moins": 1
     }
   },
   "2026-11-20": {
@@ -647,12 +647,18 @@
     "threads": 1172,
     "facebookMouvements": {
       "plus": 0,
-      "moins": 1
+      "moins": 0
     }
   },
   "2026-11-22": {
     "instagram": 10124,
     "facebook": 42527,
+    "bluesky": 13,
+    "threads": 1173
+  },
+  "2026-11-23": {
+    "instagram": 10120,
+    "facebook": 42524,
     "bluesky": 13,
     "threads": 1173
   }

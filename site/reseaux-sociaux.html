@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-cJWw8Voq8poTaiJh03zXTV+X9ho+7CMe9VLIExQ4FZM='; style-src 'sha256-MgtQMUWLsdplmVCYMsi2slEHkvNhkDGXI1JkYDs0Ggk='; img-src 'self' data:; font-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-v9LRB98s+4ESXnygAMyF1VVlz2waVocky05ZcJm0hyU='; style-src 'sha256-5J8Oh+I5MjQSer9lNa5E+FCFlvbf4Em3UmviVNKhrZw='; img-src 'self' data:; font-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'">
 <meta name="referrer" content="no-referrer">
 <meta name="robots" content="noindex, nofollow, noarchive">
 <meta name="color-scheme" content="light dark">
@@ -296,6 +296,16 @@ a.puce--threads:hover,a.puce--x:hover{color:var(--bg)}
 .pilier h3{margin-top:18px;font-size:17px;font-weight:800;letter-spacing:-.02em}
 .pilier p{margin-top:8px;font-size:14px;color:var(--ink-2);line-height:1.55}
 
+/* ---------- Test Facebook ---------- */
+.essai{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.essai__carte{padding:24px;--c:var(--facebook)}
+.essai__carte h3{margin-top:14px;font-size:17px;font-weight:800;letter-spacing:-.02em}
+.essai__carte p{margin-top:8px;font-size:14px;color:var(--ink-2);line-height:1.55}
+.essai__carte--jour{border-color:var(--c);box-shadow:0 0 0 1px var(--c),var(--shadow)}
+.essai__quand{margin-top:14px;font-size:13px;font-weight:700;color:var(--c)}
+.essai__note{grid-column:1/-1;display:flex;gap:10px;align-items:flex-start;font-size:14px;color:var(--ink-2)}
+.essai__note .ico{margin-top:3px;color:var(--brand);font-size:16px}
+
 /* ---------- Pied ---------- */
 .pied{margin-top:clamp(64px,9vw,110px);padding:44px 0 calc(40px + env(safe-area-inset-bottom));background:var(--hero);color:var(--hero-ink)}
 .pied__in{display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap}
@@ -341,7 +351,7 @@ a.puce--threads:hover,a.puce--x:hover{color:var(--bg)}
   .legende span{overflow:visible}
   .legende b{font-size:13px}
   .anneau{width:56px;height:56px}
-  .piliers{grid-template-columns:minmax(0,1fr)}
+  .piliers,.essai{grid-template-columns:minmax(0,1fr)}
   .pubs{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
   .pub__corps{padding:10px 12px 12px}
   .pub__titre{font-size:13px}
@@ -449,6 +459,11 @@ a.puce--threads:hover,a.puce--x:hover{color:var(--bg)}
         <ul class="etats" id="etats"></ul>
       </aside>
     </div>
+  </section>
+
+  <section class="section wrap" id="test-facebook" aria-labelledby="t-test" hidden>
+    <div class="tete"><div><p class="kicker">Facebook</p><h2 id="t-test">Test de deux formats</h2><p class="chapo" id="test-chapo"></p></div></div>
+    <div class="essai" id="essai"></div>
   </section>
 
   <section class="section wrap" id="horaires" aria-labelledby="t-horaires">
@@ -560,7 +575,8 @@ a.puce--threads:hover,a.puce--x:hover{color:var(--bg)}
   }
   const icone = (id, cls = 'ico') => s('svg', { class: cls, 'aria-hidden': 'true' }, s('use', { href: '#i-' + id }));
   const couleur = (id) => `var(--${id})`;
-  const badge = (id, format) => h('span', { class: `badge badge--${id}`, c: couleur(id) }, icone(id), COMPTES[id].nom, format === 'story' ? ' · Story' : '');
+  const FORMES = { story: 'Story', photo: 'Photo', lien: 'Lien' };
+  const badge = (id, format) => h('span', { class: `badge badge--${id}`, c: couleur(id) }, icone(id), COMPTES[id].nom, FORMES[format] ? ` · ${FORMES[format]}` : '');
   // Publication faite à la main, au moment indiqué (X, stories Instagram)
   const manuelle = () => h('span', { class: 'manuel', title: 'Publiée à la main, au moment indiqué' }, icone('main', 'ico ico--trait'), 'Publication manuelle');
   const etiquettes = (p) => h('span', { class: 'rdv__etiquettes' }, badge(p.reseau, p.format), p.manuel ? manuelle() : null);
@@ -770,6 +786,31 @@ a.puce--threads:hover,a.puce--x:hover{color:var(--bg)}
     }));
   }
 
+  // Test de deux formats sur Facebook : ce qui est testé, jusqu'à quand, et la forme du jour
+  const FORMES_TEST = {
+    photo: ['Photo', 'Notre visuel avec le titre de l’article et une phrase qui donne l’essentiel. Le lien de l’article est en premier commentaire.'],
+    lien: ['Lien', 'Une phrase qui donne l’essentiel, puis l’aperçu de l’article : un clic suffit pour le lire.'],
+  };
+  function essai() {
+    const t = donnees.test;
+    const section = document.getElementById('test-facebook');
+    const formats = Array.isArray(t?.formats) ? t.formats.filter((f) => FORMES_TEST[f]) : [];
+    if (!t || formats.length < 2) { section.hidden = true; return; }
+    const date = (cle) => format({ day: 'numeric', month: 'long' }).format(new Date(dateJour(cle)));
+    document.getElementById('t-test').textContent = `Facebook : test de deux formats jusqu’au ${date(t.au)}`;
+    document.getElementById('test-chapo').textContent = `Du ${date(t.du)} au ${date(t.au)}, nos publications Facebook changent de forme un jour sur deux, pour savoir laquelle nos lecteurs préfèrent. Les deux publications d’une même journée ont la même forme.`;
+    const quand = (f) => (t.aujourdhui === f ? 'Aujourd’hui' : t.demain === f ? 'Demain' : '');
+    remplir(document.getElementById('essai'),
+      formats.map((f) => h('article', { class: `carte essai__carte${t.aujourdhui === f ? ' essai__carte--jour' : ''}` },
+        badge('facebook', f),
+        h('h3', { text: FORMES_TEST[f][0] }),
+        h('p', { text: FORMES_TEST[f][1] }),
+        quand(f) ? h('p', { class: 'essai__quand', text: quand(f) }) : null)),
+      h('p', { class: 'essai__note' }, icone('info', 'ico ico--trait'),
+        h('span', { text: `${t.jour ? `Jour ${t.jour} sur ${t.jours}.` : `Premier jour : ${fJour.format(new Date(dateJour(t.du)))}.`} Le planning indique la forme de chaque publication Facebook.` })));
+    section.hidden = false;
+  }
+
   // Créneau en cours ou prochain créneau d'un réseau, à l'heure de Paris
   function situation(r, now = Date.now()) {
     const p = parties(now);
@@ -943,7 +984,7 @@ a.puce--threads:hover,a.puce--x:hover{color:var(--bg)}
 
   // Chaque section est indépendante : un incident sur l'une n'empêche pas les autres de s'afficher
   function rendre() {
-    for (const f of [heros, comptes, planning, etats, grille, publications, mois, pied]) {
+    for (const f of [heros, comptes, planning, essai, etats, grille, publications, mois, pied]) {
       try { f(); } catch (e) { console.warn(e); }
     }
     observer();

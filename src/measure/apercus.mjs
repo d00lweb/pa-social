@@ -17,9 +17,10 @@ const dejaEnLigne = new Set(['instagram', 'facebook', 'threads']);
 export async function capturer(pkg, channel, { log = console.log } = {}) {
   const base = (process.env.PUBLIC_BASE_URL || DEFAULT_PUBLIC).replace(/\/+$/, '');
   const fichier = pkg.files?.[0];
-  let image = null;
+  // visuel déjà publié par son adresse (photo Facebook, y compris celle reprise d'Instagram)
+  let image = pkg.imageUrl ?? null;
 
-  if (fichier) {
+  if (!image && fichier) {
     image = `${base}/${fichier.name}`;
     if (!dejaEnLigne.has(channel)) {
       try {

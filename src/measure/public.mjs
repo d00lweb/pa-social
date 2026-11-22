@@ -4,6 +4,7 @@ import { uploadFiles } from '../storage/ftp.mjs';
 import { loadJson, saveJson } from '../core/state.mjs';
 import { config } from '../core/config.mjs';
 import { dayKey } from '../core/scheduler.mjs';
+import { jourDuTest, testFacebook } from '../core/formats-facebook.mjs';
 import { evolution, resumeSemaine } from './abonnes.mjs';
 import { interactions, parPost } from './rapport.mjs';
 
@@ -145,7 +146,9 @@ export function construirePublic({
     .sort((a, b) => a.dueAt - b.dueAt);
   for (const q of prevues) {
     const base = { reseau: q.channel, heure: iso(q.dueAt), titre: texte(q.article?.title), lien: lienArticle(q.article?.link), image: image(q.article?.image) };
-    planning.push({ ...base, format: null, manuel: MANUELS.has(q.channel) });
+    // Facebook pendant le test : la forme prévue ce jour-là (photo ou lien)
+    const format = q.channel === 'facebook' ? (jourDuTest(q.dueAt, canaux.facebook, TZ)?.format ?? null) : null;
+    planning.push({ ...base, format, manuel: MANUELS.has(q.channel) });
     if (q.channel === 'instagram') planning.push({ ...base, format: 'story', manuel: true });
   }
 
@@ -177,7 +180,24 @@ export function construirePublic({
   const recalcules = Object.fromEntries([...cles].map((cle) => [cle, bilanMois(cle, contexte)]));
   const mois = Object.values({ ...archive, ...recalcules }).sort((a, b) => b.cle.localeCompare(a.cle));
 
-  return { majLe: iso(maintenant), depuis: debut, reseaux, planning, publications, mois };
+  return { majLe: iso(maintenant), depuis: debut, reseaux, planning, publications, mois, test: testPublic(canaux.facebook, maintenant) };
+}
+
+// Le test de deux formats sur Facebook, tant qu'il n'est pas fini : dates, jour en cours, forme du jour
+export function testPublic(canal, maintenant = Date.now()) {
+  const t = testFacebook(canal);
+  if (!t || dayKey(maintenant, TZ) > t.fin) return null;
+  const jour = (ms) => jourDuTest(ms, canal, TZ);
+  return {
+    reseau: 'facebook',
+    du: t.debut,
+    au: t.fin,
+    jours: t.jours,
+    jour: jour(maintenant)?.jour ?? null,
+    formats: t.formats,
+    aujourdhui: jour(maintenant)?.format ?? null,
+    demain: jour(maintenant + JOUR)?.format ?? null,
+  };
 }
 
 // Vignettes manquantes : téléchargées, réduites, prêtes à déposer. Une vignette déjà en ligne

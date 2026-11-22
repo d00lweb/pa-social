@@ -108,7 +108,26 @@
         "start": 22,
         "end": 8
       },
-      "_format": "Publication avec lien : une phrase, puis la carte d aperçu construite par Facebook depuis les balises Open Graph de l article. Décidé le 23/09/2026 après 8 posts photo + lien en commentaire à 0 réaction et 0 clic."
+      "_format": "Format par défaut, hors test. lien : une phrase, puis la carte d aperçu construite par Facebook depuis les balises Open Graph de l article. photo : le visuel 4:5 avec le titre, la phrase, la ligne ligneCommentaire, puis le lien en premier commentaire 1 à 3 min après (commentDelayMinutes).",
+      "format": "lien",
+      "_test": "Test photo ou lien, décidé le 22/11/2026 : un format par jour, à tour de rôle à partir du premier jour (les deux publications du jour dans le même format), du debut au fin inclus. Après fin, retour seul au format par défaut. Pour arrêter le test plus tôt : actif à false.",
+      "test": {
+        "actif": true,
+        "debut": "2026-11-23",
+        "fin": "2026-12-13",
+        "formats": [
+          "photo",
+          "lien"
+        ],
+        "alternance": "jour"
+      },
+      "_utm": "Adresse de l article marquée par format, sur Facebook seulement ({format} devient lien ou photo). Supprimer la clé pour publier l adresse nue.",
+      "utm": "utm_source=facebook&utm_medium=social&utm_campaign=fb-{format}",
+      "ligneCommentaire": "L’article est en premier commentaire.",
+      "commentDelayMinutes": [
+        1,
+        3
+      ]
     },
     "threads": {
       "enabled": true,

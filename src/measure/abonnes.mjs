@@ -73,6 +73,11 @@ export async function releverAbonnes({ now = Date.now(), log = console.log, time
 // gagne aucun, ou parce qu'elle en perd trente et en gagne vingt-neuf : ce ne sont pas les mêmes
 // problèmes. Facebook sait distinguer les deux, on le relève donc, sur 30 jours glissants.
 // Mesuré le 25/09/2026 : 3 arrivées et 24 départs sur le mois écoulé — le média ne recrute pas.
+// Le jour de Meta va de minuit à minuit, heure de Californie (9 h à 9 h à Paris en hiver) ; end_time
+// en marque la fin. Le jour J (9 h J → 9 h J+1 à Paris) porte donc les deux publications du jour J.
+// Jusqu'au 22/11/2026, chaque jour était rangé au lendemain : les 30 derniers jours sont réécrits au
+// relevé suivant, les plus anciens restent décalés d'un jour.
+export const jourMeta = (endTime) => new Date(Date.parse(endTime) - 86400e3).toISOString().slice(0, 10);
 export async function relevrMouvements(releves, { log = console.log, lire: lecteur = lire } = {}) {
   if (!process.env.FB_PAGE_ID || !process.env.FB_TOKEN) return releves;
   const V = () => process.env.GRAPH_VERSION || 'v23.0';
@@ -83,8 +88,8 @@ export async function relevrMouvements(releves, { log = console.log, lire: lecte
   try {
     const [plus, moins] = await Promise.all([serie('page_daily_follows_unique'), serie('page_daily_unfollows_unique')]);
     const par = {};
-    for (const v of plus) par[v.end_time.slice(0, 10)] = { plus: v.value ?? 0, moins: 0 };
-    for (const v of moins) (par[v.end_time.slice(0, 10)] ??= { plus: 0, moins: 0 }).moins = v.value ?? 0;
+    for (const v of plus) par[jourMeta(v.end_time)] = { plus: v.value ?? 0, moins: 0 };
+    for (const v of moins) (par[jourMeta(v.end_time)] ??= { plus: 0, moins: 0 }).moins = v.value ?? 0;
     for (const [j, m] of Object.entries(par)) {
       if (!releves[j]) continue; // ne crée pas de jour que le suivi ne couvre pas
       releves[j] = { ...releves[j], facebookMouvements: m };

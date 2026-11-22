@@ -95,7 +95,8 @@ const lecteurs = {
   },
 
   async facebook(entree) {
-    const j = await graph(entree.mediaId, { fields: 'likes.summary(true),comments.summary(true),shares' }, process.env.FB_TOKEN);
+    // réactions : toutes (j'aime, j'adore, wouah…), quand likes ne compte que les j'aime
+    const j = await graph(entree.mediaId, { fields: 'likes.summary(true),reactions.summary(total_count).limit(0),comments.summary(true),shares' }, process.env.FB_TOKEN);
     // la page elle-même : l'identifiant de la page, ou celui qui préfixe l'identifiant du post
     const page = new Set([process.env.FB_PAGE_ID, String(entree.mediaId).split('_')[0]].filter(Boolean));
     const params = new URLSearchParams({ fields: 'id,message,created_time,from', filter: 'stream', limit: '100', access_token: process.env.FB_TOKEN });
@@ -104,6 +105,7 @@ const lecteurs = {
     return {
       ...vide,
       likes: j.likes?.summary?.total_count ?? null,
+      reactions: j.reactions?.summary?.total_count ?? null,
       commentairesBruts: j.comments?.summary?.total_count ?? null,
       partages: j.shares?.count ?? 0,
       liste,
@@ -211,6 +213,19 @@ export async function completerPortee(mesures, { lire = portee, log = () => {}, 
   return aFaire.length;
 }
 
+// Un relevé, tel qu'il est gardé dans state/mesures.json
+export const releve = (entree, jalon, chiffres, maintenant) => ({
+  guid: entree.guid,
+  channel: entree.channel,
+  mediaId: entree.mediaId,
+  publieLe: entree.at,
+  // format réellement publié (Facebook : lien ou photo), pour comparer sans relire l'historique
+  ...(entree.format ? { format: entree.format } : {}),
+  jalon,
+  releveLe: new Date(maintenant).toISOString(),
+  ...chiffres,
+});
+
 // Relève ce qui est dû et enrichit state/mesures.json. N'écrase jamais un relevé existant.
 // lirePortee : absent quand les lecteurs sont remplacés (tests), pour ne jamais appeler le réseau.
 export async function collecter({ log = console.log, maintenant = Date.now(), lire = lecteurs, lirePortee = lire === lecteurs ? portee : {} } = {}) {
@@ -228,16 +243,7 @@ export async function collecter({ log = console.log, maintenant = Date.now(), li
   let releves = 0;
   for (const { entree, jalon } of attendus) {
     try {
-      const chiffres = chiffresDe(await lire[entree.channel](entree), { avant: maintenant });
-      mesures.push({
-        guid: entree.guid,
-        channel: entree.channel,
-        mediaId: entree.mediaId,
-        publieLe: entree.at,
-        jalon,
-        releveLe: new Date(maintenant).toISOString(),
-        ...chiffres,
-      });
+      mesures.push(releve(entree, jalon, chiffresDe(await lire[entree.channel](entree), { avant: maintenant }), maintenant));
       releves++;
     } catch (err) {
       // un post supprimé ou une permission manquante ne doit pas interrompre le relevé

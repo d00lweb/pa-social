@@ -37,7 +37,7 @@ test('données publiques : aucune trace interne', () => {
   for (const interdit of ['mediaId', '18054866228802666', '1720946116697936', 'kit-telegram', 'EAAB', 'OAuth', 'lastError', 'raison', 'Fenêtre occupée', 'prevuInitialement', 'actu_chaude', 'dossier', 'attempts', 'paused', 'validation', 'awaiting', 'pending', 'failed', 'boom', 'légende', 'github', 'telegram', 'robot']) {
     assert.ok(!texte.toLowerCase().includes(interdit.toLowerCase()), `« ${interdit} » ne doit pas apparaître`);
   }
-  assert.deepEqual(Object.keys(d).sort(), ['depuis', 'majLe', 'mois', 'planning', 'publications', 'reseaux']);
+  assert.deepEqual(Object.keys(d).sort(), ['depuis', 'majLe', 'mois', 'planning', 'publications', 'reseaux', 'test']);
   assert.deepEqual(Object.keys(d.planning[0]).sort(), ['format', 'heure', 'image', 'lien', 'manuel', 'reseau', 'titre']);
   assert.deepEqual(Object.keys(d.publications[0]).sort(), ['heure', 'image', 'lien', 'reseaux', 'titre']);
   assert.deepEqual(Object.keys(d.publications[0].reseaux[0]).sort(), ['heure', 'lien', 'reseau']);

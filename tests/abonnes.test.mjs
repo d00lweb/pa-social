@@ -83,10 +83,11 @@ test('mouvements Facebook : les arrivées et les départs sont relevés à part 
     const lire = async (url) => ({
       data: [{
         values: /follows_unique/.test(url) && !/unfollows/.test(url)
-          ? [{ end_time: '2026-09-24T07:00:00+0000', value: 0 }, { end_time: '2026-09-25T07:00:00+0000', value: 2 }]
-          : [{ end_time: '2026-09-24T07:00:00+0000', value: 3 }, { end_time: '2026-09-25T07:00:00+0000', value: 1 }],
+          ? [{ end_time: '2026-09-25T07:00:00+0000', value: 0 }, { end_time: '2026-09-26T07:00:00+0000', value: 2 }]
+          : [{ end_time: '2026-09-25T07:00:00+0000', value: 3 }, { end_time: '2026-09-26T07:00:00+0000', value: 1 }],
       }],
     });
+    // end_time marque la fin du jour de Meta : 25/09 7 h UTC clôt le 24/09
     const releves = { '2026-09-24': { facebook: 42614 }, '2026-09-25': { facebook: 42612 } };
     await relevrMouvements(releves, { lire, log: () => {} });
     assert.deepEqual(releves['2026-09-24'].facebookMouvements, { plus: 0, moins: 3 });

@@ -94,6 +94,10 @@ export const alerteJetonRefuse = (reseau, detail) =>
 export const alerteThreadsReponse = (titre, texte) =>
   `⚠️ <b>Threads</b> — post publié, réponse (lien) non postée\n${esc(titre)}\n<code>${esc(texte)}</code>`;
 
+// Photo Facebook en ligne sans son premier commentaire : le texte à poster à la main
+export const alerteFacebookCommentaire = (titre, texte) =>
+  `⚠️ <b>Facebook</b> — photo publiée, premier commentaire (lien) non posté\n${esc(titre)}\n<code>${esc(texte)}</code>`;
+
 // ── Catalogue ──────────────────────────────────────────────────────────────────
 // La vue d’ensemble : chaque message que le robot peut envoyer, son déclencheur, sa fréquence, et
 // s’il se coupe. Elle vit dans config/notifications.json, que le dashboard lit et modifie aussi.

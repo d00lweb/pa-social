@@ -35,6 +35,17 @@
       "actif": true
     },
     {
+      "id": "facebook-commentaire",
+      "famille": "livrable",
+      "titre": "Lien Facebook non posté en commentaire",
+      "quand": "échec du premier commentaire qui porte le lien, sous une photo",
+      "frequence": "rare",
+      "copiable": true,
+      "module": "channels/facebook.mjs",
+      "reglable": false,
+      "actif": true
+    },
+    {
       "id": "apercu",
       "famille": "livrable",
       "titre": "Aperçu d’un article",

@@ -27,11 +27,12 @@ test('Facebook : deux posts par jour au plus, un le matin, un en fin de journée
   assert.equal(fb.quietHours.start, 22);
   assert.equal(fb.quietHours.end, 8);
   assert.ok(h(debutMatin) >= fb.quietHours.end && h(finSoir) <= fb.quietHours.start, 'aucun créneau pendant la nuit');
-  assert.equal(fb.commentDelayMinutes, undefined, 'plus de lien en commentaire : il est dans la carte d’aperçu');
+  // format photo : le lien part en premier commentaire, 1 à 3 min après, jamais dans le même souffle
+  assert.deepEqual(fb.commentDelayMinutes, [1, 3]);
 });
 
 test('Facebook : le lien part avec le post, et le lieu quand il est connu', () => {
-  const pkg = { text: 'Une phrase qui donne envie de cliquer 🐬', lien: 'https://site.fr/a', lieu: { id: '123', nom: 'Hossegor' } };
+  const pkg = { mode: 'lien', text: 'Une phrase qui donne le fait 🐬', lien: 'https://site.fr/a', lieu: { id: '123', nom: 'Hossegor' } };
   assert.deepEqual(parametres(pkg), { message: pkg.text, link: 'https://site.fr/a', published: 'true', place: '123' });
   assert.equal(parametres({ ...pkg, lieu: null }).place, undefined, 'sans lieu, aucun paramètre de lieu');
 });
@@ -41,7 +42,9 @@ test('Facebook : une seule phrase courte, un seul emoji', () => {
   assert.deepEqual(ed.limits.emoji.facebook, [1, 1], 'un emoji, choisi pour le sujet');
   const consigne = readFileSync(fromRoot('prompts/editorial.md'), 'utf8').match(/- `facebook\.texte` :.*/)[0];
   assert.match(consigne, /sans retour à la ligne/);
-  assert.match(consigne, /donner envie de cliquer/);
+  // 22/11/2026 : la phrase donne le fait, quel que soit le format (Meta freine celles qui retiennent l’information)
+  assert.match(consigne, /donne le fait/);
+  assert.match(consigne, /retient l'information/);
   assert.match(consigne, /Question seulement si `questions_autorisees\.facebook` est vrai/, 'la question n’est pas systématique');
   assert.match(consigne, /sans date/, 'aucune date dans le texte');
 });

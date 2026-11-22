@@ -29,6 +29,7 @@ import * as x from './channels/x.mjs';
 import * as bluesky from './channels/bluesky.mjs';
 import * as facebook from './channels/facebook.mjs';
 import * as threads from './channels/threads.mjs';
+import { FORMATS_FACEBOOK } from './core/formats-facebook.mjs';
 
 const CHANNELS = { instagram, x, bluesky, facebook, threads };
 const DEFAULT_RSS = 'https://passion-aquitaine.ouest-france.fr/feed/';
@@ -59,21 +60,36 @@ function requireEnv(keys) {
   if (missing.length) throw new Error(`Variables manquantes : ${missing.join(', ')}`);
 }
 
+// À blanc, Facebook : les deux formats préparés (visuel déposé pour la photo), ce qui partirait, sans publier
+async function essaiFacebook(article, dossier, history) {
+  for (const format of FORMATS_FACEBOOK) {
+    const canal = { ...config.channels.facebook, test: null, format };
+    const pkg = await facebook.prepare(article, { dossier, history, canal });
+    if (pkg.mode === 'photo') await facebook.deposer(pkg);
+    const envoi = facebook.parametres(pkg);
+    console.log(`   Facebook, format ${format} (${pkg.mode}) → ${pkg.mode === 'photo' ? 'photos' : 'feed'}`);
+    for (const [k, v] of Object.entries(envoi)) if (k !== 'published') console.log(`     ${k} : ${String(v).replace(/\n/g, ' ⏎ ')}`);
+    if (pkg.comment) console.log(`     premier commentaire : ${pkg.comment}`);
+  }
+}
+
 // À blanc : dossier IA + rendu + dépôt FTP des derniers articles, sans publication ni état
 async function dryRun(items) {
   console.log('Mode DRY_RUN : rien ne sera publié ni enregistré.');
   // révèle quels réseaux sont réellement configurés, sans rien publier
   console.log(`Canaux actifs : ${enabledChannels().map((c) => c.id).join(', ') || 'aucun'}`);
-  const memory = await loadMemory();
+  const [memory, history, queue] = await Promise.all([loadMemory(), loadHistory(), loadQueue()]);
   const newest = [...items].sort((a, b) => b.date - a.date).slice(0, DRY_RUN_LATEST || 1);
   let failed = 0;
   for (const article of newest) {
     try {
-      const dossier = await buildDossier(article, { memory, useCache: true });
+      // le dossier déjà en file s'il existe : aucun appel au rédacteur
+      const dossier = queue.find((q) => q.guid === article.guid && q.dossier)?.dossier ?? (await buildDossier(article, { memory, useCache: true }));
       const pkg = await instagram.prepare(article, { dossier });
       const urls = await instagram.stage(pkg);
       console.log(`   En ligne :\n     ${urls.join('\n     ')}`);
       console.log(`   Légende prévue :\n${pkg.caption.replace(/^/gm, '     | ')}`);
+      if (enabledChannels().some((c) => c.id === 'facebook')) await essaiFacebook(article, dossier, history);
     } catch (err) {
       failed++;
       console.error(err instanceof GuardError ? err.message : err.stack);
@@ -402,7 +418,8 @@ async function execute({ history, queue, memory, controls, now, items: articles 
       }
       await enrichir(item.dossier, item.article, memory);
       const impl = CHANNELS[channel.id];
-      const pkg = await impl.prepare(item.article, { dossier: item.dossier });
+      // history : visuel Instagram réutilisable (Facebook) ; quand : le jour de la publication fixe son format
+      const pkg = await impl.prepare(item.article, { dossier: item.dossier, history, quand: Math.max(Date.now(), item.dueAt) });
       // minute de départ fixée à l'avance par ordonnerFile : on l'attend, les visuels déjà prêts
       const attente = item.dueAt - Date.now();
       if (attente > 0) {

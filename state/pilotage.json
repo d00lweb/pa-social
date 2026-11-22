@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-22T02:36:30.030Z",
+  "genereLe": "2026-11-22T03:00:42.402Z",
   "jour": "2026-11-22",
   "reseaux": {
     "instagram": {
@@ -630,16 +630,55 @@
     "2026-09"
   ],
   "jetons": {
-    "verifieLe": "2026-11-21T23:00:39.593Z",
+    "v": 2,
+    "verifieLe": "2026-11-22T03:00:42.402Z",
     "meta": {
-      "expireLe": "2026-12-16T20:08:59.000Z",
-      "restant": 86,
-      "renouvellement": "manuel"
+      "expireLe": null,
+      "restant": null,
+      "renouvellement": "aucun",
+      "valide": true,
+      "type": "PAGE",
+      "droits": [
+        "read_insights",
+        "pages_show_list",
+        "business_management",
+        "instagram_basic",
+        "instagram_manage_insights",
+        "instagram_content_publish",
+        "pages_read_engagement",
+        "pages_read_user_content",
+        "pages_manage_posts",
+        "pages_manage_engagement",
+        "public_profile"
+      ],
+      "emisLe": "2026-09-23T07:22:45.000Z"
     },
     "threads": {
-      "expireLe": "2026-11-16T21:12:39.531Z",
-      "restant": -5,
-      "renouvellement": "commande npm run threads:refresh"
+      "expireLe": "2027-01-15T13:45:26.000Z",
+      "restant": 54,
+      "renouvellement": "automatique",
+      "valide": true,
+      "type": "USER",
+      "droits": [
+        "threads_basic",
+        "threads_content_publish",
+        "threads_manage_replies",
+        "threads_manage_insights",
+        "threads_read_replies",
+        "threads_manage_mentions",
+        "threads_keyword_search",
+        "threads_delete",
+        "threads_location_tagging",
+        "threads_profile_discovery",
+        "threads_share_to_instagram"
+      ],
+      "emisLe": "2026-11-16T13:45:26.000Z"
+    },
+    "facebook": {
+      "publications": 5,
+      "vues": 0,
+      "invisible": true,
+      "depuis": "2026-11-18T07:29:57.799Z"
     },
     "alertes": {
       "threads": "2026-11-S3"
@@ -726,7 +765,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-22T02:36:35.121Z",
+    "genereLe": "2026-11-22T03:00:57.646Z",
     "posts": 101,
     "parReseau": {
       "threads": {
@@ -875,9 +914,12 @@
       "likes": 0,
       "commentairesBruts": 0,
       "partages": 0,
-      "vues": null,
+      "vues": 0,
       "commentaires": 0,
       "v": 2,
+      "portee": 0,
+      "clics": 0,
+      "porteeApresCoup": true,
       "titre": "Golfe de Gascogne : l’hiver 2025, les dauphins sont surtout morts avant l’arrêt de pêche",
       "lien": "https://www.facebook.com/1720946116697936/posts/1796959495763264",
       "format": null,
@@ -951,29 +993,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 0,
-      "entree": 0,
-      "sortie": 0,
-      "cout": 0,
+      "appels": 1,
+      "entree": 8013,
+      "sortie": 935,
+      "cout": 0.050752,
       "cle": "2026-11-22"
     },
     "semaine": {
-      "appels": 19,
-      "entree": 151970,
-      "sortie": 17897,
-      "cout": 0.9658200000000001
+      "appels": 20,
+      "entree": 159983,
+      "sortie": 18832,
+      "cout": 1.016572
     },
     "mois": {
-      "appels": 75,
-      "entree": 600209,
-      "sortie": 68024,
-      "cout": 3.7613159999999994,
+      "appels": 76,
+      "entree": 608222,
+      "sortie": 68959,
+      "cout": 3.8120679999999996,
       "cle": "2026-11"
     },
-    "projection": 5.13,
+    "projection": 5.2,
     "moyenneAppel": 0.0502,
     "parModele": {
-      "claude-opus-5-5": 75
+      "claude-opus-5-5": 76
     },
     "serie": [
       [
@@ -1030,7 +1072,7 @@
       ],
       [
         "2026-11-22",
-        0
+        0.0508
       ]
     ],
     "depuis": "2026-09-23"

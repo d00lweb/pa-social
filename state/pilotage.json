@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-22T09:21:06.370Z",
+  "genereLe": "2026-11-22T10:00:40.637Z",
   "jour": "2026-11-22",
   "reseaux": {
     "instagram": {
@@ -122,11 +122,11 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 1,
-      "semaine": 10,
-      "total": 89,
-      "dernier": "2026-11-22T06:27:42.498Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DgCJ-1sG8pR"
+      "aujourdhui": 2,
+      "semaine": 11,
+      "total": 90,
+      "dernier": "2026-11-22T10:16:02.757Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DgCj8r5G4JV"
     },
     "x": {
       "actif": true,
@@ -164,6 +164,22 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36266",
+      "titre": "Truffe du Périgord : la France en importe plus qu’elle n’en récolte",
+      "lien": "https://passion-aquitaine.ouest-france.fr/truffe-perigord-france-importe-plus-recolte/",
+      "at": "2026-11-22T10:16:02.757Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Imaginez un marché aux truffes du Périgord, le parfum qui monte des paniers… Sauf qu’une bonne part des truffes vendues en France n’a jamais poussé ici. Le pays en importe 127 tonnes, surtout d’Italie et de Bulgarie, pour seulement 75 tonnes récoltées. Un drôle de paradoxe pour une terre aussi attachée à son diamant noir 🌳",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261122-ecd6c5a6-th.jpg",
+          "mode": "reponse",
+          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/truffe-perigord-france-importe-plus-recolte/",
+          "sujet": "Périgord",
+          "publieLe": "2026-11-22T10:16:02.757Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36276",
       "titre": "Quand la Gironde arrache des vignes, ce grand cru de Saint-Émilion augmente son prix",
@@ -331,57 +347,19 @@
           "publieLe": "2026-11-20T20:05:31.494Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36183",
-      "titre": "8 000 arbres fruitiers anciens seront mis en vente près d’Agen",
-      "lien": "https://passion-aquitaine.ouest-france.fr/fete-arbre-barolle-fruitiers-anciens-montesquieu/",
-      "at": "2026-11-20T11:23:43.080Z",
-      "reseaux": {
-        "threads": {
-          "texte": "Et si votre prochain arbre venait d’une variété que plus personne ne cultive ? 🍎 144 variétés anciennes de fruitiers seront proposées le 29 novembre à Montesquieu, près d’Agen, pendant la Fête de l’Arbre. Au total, 8 000 arbres à adopter. Vous avez déjà un fruit d’antan en tête pour votre jardin ?",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261120-cde6fa54-th.jpg",
-          "mode": "reponse",
-          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/fete-arbre-barolle-fruitiers-anciens-montesquieu/",
-          "sujet": "Montesquieu",
-          "publieLe": "2026-11-20T07:30:43.088Z"
-        },
-        "x": {
-          "texte": "8 000 fruitiers à vendre en une journée : le 29 novembre, #Montesquieu accueille la Fête de l’Arbre, avec 144 variétés anciennes au choix, près d’Agen 🍑",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261120-cde6fa54-x.jpg",
-          "mode": "reponse",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/fete-arbre-barolle-fruitiers-anciens-montesquieu/",
-          "sujet": null,
-          "publieLe": "2026-11-20T08:01:17.440Z"
-        },
-        "facebook": {
-          "texte": "Pas moins de 144 variétés anciennes de fruitiers attendent un jardin à Montesquieu, de quoi retrouver des goûts disparus des étals 🍏",
-          "image": null,
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-20T08:04:16.468Z"
-        },
-        "bluesky": {
-          "texte": "Imaginez des milliers de jeunes pommiers, poiriers et pruniers alignés, prêts à partir 🌳. À #Montesquieu, dans l’Agenais, la Fête de l’Arbre réunit 144 variétés anciennes le 29 novembre.\n➡️ Lire l’article",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261120-cde6fa54-bsky.jpg",
-          "mode": "image",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-20T08:26:18.682Z"
-        },
-        "instagram": {
-          "texte": "Un verger aux saveurs d’autrefois, c’est possible : 144 variétés anciennes de fruitiers vous attendent près d’Agen.\n⠀\nLe 29 novembre, la Fête de l’Arbre de Montesquieu met en vente 8 000 arbres. L’occasion de choisir des fruits oubliés pour son jardin en Lot-et-Garonne 🍐\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Agenais #ArbresFruitiers #VarietesAnciennes",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261120-cde6fa54-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-20T11:23:43.080Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "threads",
+      "at": "2026-11-22T10:16:02.757Z",
+      "titre": "Truffe du Périgord : la France en importe plus qu’elle n’en récolte",
+      "lien": "https://passion-aquitaine.ouest-france.fr/truffe-perigord-france-importe-plus-recolte/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/DgCj8r5G4JV",
+      "format": "reponse",
+      "texte": "Imaginez un marché aux truffes du Périgord, le parfum qui monte des paniers… Sauf qu’une bonne part des truffes vendues en France n’a jamais poussé ici. Le pays en importe 127 tonnes, surtout d’Italie et de Bulgarie, pour seulement 75 tonnes récoltées. Un drôle de paradoxe pour une terre aussi attachée à son diamant noir 🌳",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261122-ecd6c5a6-th.jpg"
+    },
     {
       "channel": "x",
       "at": "2026-11-22T09:21:18.358Z",
@@ -471,28 +449,9 @@
       "format": "reponse",
       "texte": "Près de La Palmyre, la baie de Bonne Anse a une histoire étonnante 🌊 En 1973, elle faisait partie des 100 réserves naturelles à créer en priorité en France. 53 ans plus tard, ce statut n’est toujours pas arrivé. De quoi regarder autrement ce coin de Charente-Maritime lors de votre prochaine balade.",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261121-7d65266b-th.jpg"
-    },
-    {
-      "channel": "bluesky",
-      "at": "2026-11-21T11:29:45.175Z",
-      "titre": "Ils sont encore là, mais presque invisibles : le plan pour sauver les visons d’Europe",
-      "lien": "https://passion-aquitaine.ouest-france.fr/vison-europe-nouvelle-aquitaine-life-care/",
-      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2syqqrfvv2d",
-      "format": "image",
-      "texte": "Espèce en grand danger, le vison d’Europe survit encore en #NouvelleAquitaine. Pour éviter sa disparition, un programme de sauvegarde baptisé LIFE CARE vient d’être mis en place 🦦\n➡️ Lire l’article",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261120-9756dd6b-bsky.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "threads",
-      "dueAt": "2026-11-22T10:11:47.892Z",
-      "prochainPassage": "2026-11-22T10:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Truffe du Périgord : la France en importe plus qu’elle n’en récolte"
-    },
     {
       "channel": "x",
       "dueAt": "2026-11-22T11:00:00.000Z",
@@ -767,7 +726,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-22T09:21:28.615Z",
+    "genereLe": "2026-11-22T10:16:06.234Z",
     "posts": 103,
     "parReseau": {
       "threads": {
@@ -939,7 +898,7 @@
       }
     },
     "publies": {
-      "threads": 29,
+      "threads": 30,
       "facebook": 29,
       "bluesky": 28,
       "x": 29,

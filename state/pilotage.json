@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-22T18:01:12.614Z",
+  "genereLe": "2026-11-22T18:20:35.449Z",
   "jour": "2026-11-22",
   "reseaux": {
     "instagram": {
@@ -605,7 +605,7 @@
     }
   ],
   "mesures": {
-    "releves": 679,
+    "releves": 680,
     "parReseau": {
       "instagram": {
         "posts": 84,
@@ -766,8 +766,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-22T18:01:17.559Z",
-    "posts": 107,
+    "genereLe": "2026-11-22T18:20:40.868Z",
+    "posts": 108,
     "parReseau": {
       "threads": {
         "posts": 28,
@@ -782,7 +782,7 @@
         "moyenne": 0
       },
       "bluesky": {
-        "posts": 26,
+        "posts": 27,
         "moyenne": 0
       }
     },
@@ -800,7 +800,7 @@
         "moyenne": 0
       },
       "reply": {
-        "posts": 4,
+        "posts": 5,
         "moyenne": 0
       }
     },
@@ -814,8 +814,8 @@
         "moyenne": 6.2
       },
       "soir": {
-        "posts": 18,
-        "moyenne": 2
+        "posts": 19,
+        "moyenne": 1.9
       }
     },
     "parCreneauReseau": {
@@ -865,7 +865,7 @@
           "moyenne": 0
         },
         "18 h – 19 h 30": {
-          "posts": 1,
+          "posts": 2,
           "moyenne": 0
         }
       },
@@ -906,24 +906,24 @@
       "creneauReseau": "7 h – 8 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36241",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36272",
       "channel": "bluesky",
-      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3n2syqqrfvv2d",
-      "publieLe": "2026-11-21T11:29:45.175Z",
+      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3n2tp6crw3c23",
+      "publieLe": "2026-11-21T18:11:02.889Z",
       "jalon": 1,
-      "releveLe": "2026-11-22T12:00:55.409Z",
+      "releveLe": "2026-11-22T18:20:35.449Z",
       "likes": 0,
-      "commentairesBruts": 0,
+      "commentairesBruts": 2,
       "partages": 0,
       "vues": null,
       "commentaires": 0,
       "v": 2,
-      "titre": "Ils sont encore là, mais presque invisibles : le plan pour sauver les visons d’Europe",
-      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2syqqrfvv2d",
-      "format": "image",
+      "titre": "Jugé à Angoulême, ce voleur de notaires s’offrait des cartes Pokémon estimées à 20 000 €",
+      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2tp6crw3c23",
+      "format": "reply",
       "mention": false,
-      "creneau": "après-midi",
-      "creneauReseau": "12 h – 13 h 30"
+      "creneau": "soir",
+      "creneauReseau": "18 h – 19 h 30"
     },
     "mentions": {
       "avec": {
@@ -931,8 +931,8 @@
         "moyenne": 6.2
       },
       "sans": {
-        "posts": 60,
-        "moyenne": 6.1
+        "posts": 61,
+        "moyenne": 6
       }
     },
     "publies": {

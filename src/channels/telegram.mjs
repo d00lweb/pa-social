@@ -1,4 +1,4 @@
-import { aCopier } from './messages.mjs';
+import { aCopier, notificationActive } from './messages.mjs';
 
 const API = 'https://api.telegram.org';
 
@@ -38,18 +38,27 @@ async function envoyer(text, extra = {}) {
 
 // Alerte : même rendu que les autres messages. Elle passait auparavant sans parse_mode, ce qui
 // affichait « <b>Budget IA</b> » en clair dans Telegram.
-export async function alert(text) {
+// `type` : identifiant du message dans config/notifications.json ; coupé, il reste dans le journal.
+export async function alert(text, { type = null } = {}) {
   console.error(sansBalises(text));
   const c = config();
   if (!c) return;
+  if (type && !notificationActive(type)) {
+    console.log(`   (message Telegram « ${type} » coupé dans les réglages)`);
+    return;
+  }
   await envoyer(text);
 }
 
 // Message HTML ; extra : reply_markup (JSON), reply_to_message_id…
-export async function send(text, extra = {}) {
+export async function send(text, extra = {}, { type = null } = {}) {
   const c = config();
   if (!c) {
     console.log(sansBalises(text));
+    return null;
+  }
+  if (type && !notificationActive(type)) {
+    console.log(`   (message Telegram « ${type} » coupé dans les réglages)`);
     return null;
   }
   return envoyer(text, extra);

@@ -1,6 +1,6 @@
 import { readFileSync } from 'node:fs';
 import { config, DRY_RUN, DRY_RUN_LATEST, enabledChannels, fromRoot } from './core/config.mjs';
-import { GuardError, DeferError, jetonInvalide } from './core/errors.mjs';
+import { GuardError, DeferError, jetonInvalide, sansSecret } from './core/errors.mjs';
 import { loadHistory, saveHistory, loadQueue, saveQueue, loadJson, saveJson, hasPublished, lastPublishedAt } from './core/state.mjs';
 import { planDueAt, recheck, countToday, nextDay, passageDe, ordonnerFile, dayKey } from './core/scheduler.mjs';
 import { NETWORKS, NAMES, shortId, parseCommand, defaultControls, isPaused, needsValidation, targets, applyDecision } from './core/control.mjs';
@@ -42,8 +42,9 @@ const ATTENTE_IA_MAX = 6 * HOUR;
 const ed = JSON.parse(readFileSync(fromRoot('config/editorial.json'), 'utf8'));
 
 const paris = (ms) => new Date(ms).toLocaleString('fr-FR', { timeZone: TZ, dateStyle: 'short', timeStyle: 'short' });
-const notify = (text) => alert(text).catch((e) => console.error(`Alerte Telegram impossible : ${e.message}`));
-const say = (text, extra) => send(text, extra).catch((e) => console.error(`Telegram : ${e.message}`));
+// `type` : identifiant du message dans config/notifications.json (un message coupé ne part pas)
+const notify = (text, type = null) => alert(text, { type }).catch((e) => console.error(`Alerte Telegram impossible : ${e.message}`));
+const say = (text, extra, type = null) => send(text, extra, { type }).catch((e) => console.error(`Telegram : ${e.message}`));
 
 function when(ms, now) {
   if (ms <= now) return 'dès que possible';
@@ -344,7 +345,7 @@ function ordonner({ queue, history, controls }) {
 
 // Posts de ce passage : au plus un par réseau actif et non en pause, publiés dans l'ordre de leur
 // minute de départ, fixée à l'avance par ordonnerFile. Le robot attend cette minute, puis publie.
-async function execute({ history, queue, memory, controls, now }) {
+async function execute({ history, queue, memory, controls, now, items: articles = [] }) {
   let failed = 0;
   const aPublier = enabledChannels()
     .filter((channel) => !isPaused(controls, channel.id))
@@ -438,7 +439,7 @@ async function execute({ history, queue, memory, controls, now }) {
       if (impl.publishedLabel) console.log(`Kit ${channel.id} envoyé`);
       else if (config.telegram?.publishedNotice) {
         const { text, options } = messagePublie(NAMES[channel.id], item.article.title, lienPost);
-        await say(text, options);
+        await say(text, options, 'publication');
       }
     } catch (err) {
       if (err instanceof DeferError) {
@@ -451,7 +452,7 @@ async function execute({ history, queue, memory, controls, now }) {
       // fois le jeton remplacé. Une alerte par jour, et le passage n'est en échec que ce jour-là :
       // un jeton mort ne doit pas signaler un échec toutes les 20 minutes.
       if (jetonInvalide(err)) {
-        item.lastError = err.message;
+        item.lastError = sansSecret(err.message);
         item.reportsJeton = (item.reportsJeton ?? 0) + 1;
         if (item.reportsJeton >= REPORTS_JETON_MAX) {
           item.status = 'failed';
@@ -465,16 +466,25 @@ ${esc(item.article.title)}`);
         if (controls.alerteJeton !== jour) {
           controls.alerteJeton = jour;
           failed++;
-          await notify(alerteJetonRefuse(NAMES[channel.id], err.message));
+          await notify(alerteJetonRefuse(NAMES[channel.id], err.message), 'jeton-refuse');
         }
+        continue;
+      }
+      // Image remplacée sur le site après la mise en file : l'adresse gardée ne répond plus. Le
+      // 20/11/2026, un article a ainsi été perdu sur quatre réseaux. On reprend l'image que le flux
+      // donne aujourd'hui, sans compter d'essai ; si elle n'a pas changé, l'échec suit son cours.
+      const frais = /^Image \d{3} /.test(err.message) ? articles.find((a) => a.guid === item.guid) : null;
+      if (frais?.image && frais.image !== item.article.image) {
+        for (const q of queue) if (q.guid === item.guid) q.article = { ...q.article, image: frais.image };
+        console.log(`Image remplacée sur le site : « ${item.article.title} » reprend l'image du flux, nouvel essai au prochain passage`);
         continue;
       }
       failed++;
       item.attempts += 1;
-      item.lastError = err.message;
+      item.lastError = sansSecret(err.message);
       if (err instanceof GuardError) {
         item.status = 'blocked';
-        await notify(err.message);
+        await notify(err.message, 'garde-fou');
       } else if (err.restriction || config.restriction.codes.includes(err.code) || config.restriction.subcodes.includes(err.subcode)) {
         // coupe-circuit : limite ou restriction du réseau → pause automatique, reprise manuelle
         controls.paused[channel.id] = true;
@@ -486,7 +496,7 @@ ${esc(item.article.title)}`);
         if (final) item.status = 'failed';
         else item.dueAt = now + config.retry.delayMinutes * 60e3 * item.attempts;
         if (item.attempts === 1 || final) {
-          await notify(`❌ ${channel.id} : échec ${item.attempts}/${config.retry.maxAttempts}${final ? ', abandon' : ', nouvel essai prévu'}\n${item.article.title}\n${err.message}`);
+          await notify(`❌ ${channel.id} : échec ${item.attempts}/${config.retry.maxAttempts}${final ? ', abandon' : ', nouvel essai prévu'}\n${esc(item.article.title)}\n${esc(err.message)}`, 'echec');
         }
       }
     }
@@ -506,8 +516,8 @@ async function main() {
   controls.validation ??= {};
   const now = Date.now();
   // flux du site en panne : le passage continue sans nouveaux articles (voir lireFlux)
-  const { items, ok: fluxOk } = await lireFlux(url, memory, { now, alerter: (heures, detail) => notify(alerteFlux(heures, detail)) });
-  const ctx = { now, history, queue, memory, controls, tg };
+  const { items, ok: fluxOk } = await lireFlux(url, memory, { now, alerter: (heures, detail) => notify(alerteFlux(heures, detail), 'flux-indisponible') });
+  const ctx = { now, history, queue, memory, controls, tg, items };
 
   // RELANCE=mots du titre : remet un ancien article dans la file (déclenchement manuel du workflow)
   const relance = process.env.RELANCE?.trim();
@@ -539,7 +549,7 @@ async function main() {
     await diffuser({ history, mesures, now: ctx.now });
     // point hebdomadaire sur la dépense du rédacteur IA : le dimanche soir
     await resumeHebdoCouts({ now: ctx.now }).catch((e) => console.error(`Point coûts hebdo : ${e.message}`));
-    await verifierJetons({ now: ctx.now });
+    await verifierJetons({ now: ctx.now, mesures });
     // Lieux tagués sur la page Facebook, à la main ou par le robot : appris une fois, réutilisés partout.
     // Le support des vérifications est une image déjà publiée, donc publique et hébergée chez nous.
     if (!DRY_RUN) {
@@ -551,7 +561,7 @@ async function main() {
       if (appris.length) {
         const noms = appris.map((l) => l.nom);
         const liste = noms.slice(0, 15).join(', ') + (noms.length > 15 ? ` et ${noms.length - 15} autres` : '');
-        await say(`📍 <b>${appris.length} lieu${appris.length > 1 ? 'x' : ''} appris</b> depuis la page Facebook\n${esc(liste)}\n\nDésormais tagué${appris.length > 1 ? 's' : ''} automatiquement sur Instagram et Facebook quand un article les nomme.`);
+        await say(`📍 <b>${appris.length} lieu${appris.length > 1 ? 'x' : ''} appris</b> depuis la page Facebook\n${esc(liste)}\n\nDésormais tagué${appris.length > 1 ? 's' : ''} automatiquement sur Instagram et Facebook quand un article les nomme.`, undefined, 'lieux-appris');
       }
     }
     // lien direct des publications anciennes, relevé avant le 18/09/2026 : retrouvé une fois pour toutes

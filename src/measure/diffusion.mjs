@@ -40,7 +40,7 @@ export async function diffuser({ history = [], mesures = [], now = Date.now(), l
   if (dueHebdo(etat, now)) {
     const du = now - 7 * JOUR;
     const bilan = agreger(mesures, { history, depuis: du, jusqu: now });
-    await send(messageHebdo(bilan, { du, au: now, abonnes: resumeSemaine(releves, now, TZ) }));
+    await send(messageHebdo(bilan, { du, au: now, abonnes: resumeSemaine(releves, now, TZ) }), {}, { type: 'bilan-hebdo' });
     etat.dernierHebdo = dayKey(now, TZ);
     change = true;
     log(`Rapport hebdomadaire envoyé (${bilan.posts} posts mesurés).`);
@@ -62,7 +62,7 @@ export async function diffuser({ history = [], mesures = [], now = Date.now(), l
     const rapport = { ...rapportMensuel(mesures, history, aFiger, { releves }), comptage: VERSION_COMPTAGE };
     await saveJson(`rapports/${aFiger}.json`, rapport);
     // le bilan part aussi sur Telegram, en version courte ; un échec d'envoi ne bloque pas le rapport
-    await send(messageMensuel(rapport)).catch((e) => log(`Bilan mensuel non envoyé : ${e.message}`));
+    await send(messageMensuel(rapport), {}, { type: 'bilan-mensuel' }).catch((e) => log(`Bilan mensuel non envoyé : ${e.message}`));
     if (!index.includes(aFiger)) index.unshift(aFiger);
     await saveJson('rapports/index.json', index.slice(0, 24));
     etat.dernierMensuel = aFiger;

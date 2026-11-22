@@ -19,3 +19,7 @@ export class DeferError extends Error {
 // rien : elle est reportée sans consommer d'essai, et repart d'elle-même dès le jeton refait.
 export const jetonInvalide = (err) => err?.code === 190
   || /access token|session has expired|oauthexception/i.test(err?.message ?? '');
+
+// Un réseau recopie parfois le jeton refusé dans son message d'erreur. Ce qui est gardé dans state/
+// (dépôt public) ou écrit dans un journal ne doit jamais le contenir.
+export const sansSecret = (texte) => String(texte ?? '').replace(/[A-Za-z0-9_]{32,}|[0-9]{8,}:[A-Za-z0-9_-]{30,}/g, '[…]');

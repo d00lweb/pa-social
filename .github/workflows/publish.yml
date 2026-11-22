@@ -66,7 +66,19 @@ jobs:
           path: ~/.cache/ms-playwright
           key: playwright-${{ runner.os }}-${{ steps.pw.outputs.version }}
 
-      - run: npx playwright install --with-deps chromium
+      # Trois essais espacés : l’installation télécharge des paquets Ubuntu, et un miroir qui ne répond
+      # pas faisait échouer tout le passage (7 passages perdus le 11/11/2026, 1 le 19/11).
+      - name: Navigateur du rendu
+        run: |
+          for essai in 1 2 3; do
+            if npx playwright install --with-deps chromium; then exit 0; fi
+            if [ "$essai" -lt 3 ]; then
+              echo "Installation du navigateur échouée (essai $essai) : nouvel essai dans $((essai * 20)) s…"
+              sleep $((essai * 20))
+            fi
+          done
+          echo "::error::Navigateur du rendu non installé après 3 essais"
+          exit 1
 
       # Le secret SOCIAL contient le .env complet
       - name: Préparer .env

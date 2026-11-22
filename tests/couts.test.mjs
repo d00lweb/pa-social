@@ -177,8 +177,9 @@ test('point conso : le dimanche vers 19 h, une seule fois, sur les 7 derniers jo
     assert.match(envoyes[0], /la semaine/);
     assert.match(envoyes[0], /21 articles rédigés/);
     // le relevé maison compte 1,68 $, la facturation saisie 1,40 : on ne descend jamais sous le relevé
-    assert.match(envoyes[0], /Ce mois-ci : <b>1,68 \$<\/b>/, 'le mois annoncé est celui facturé, tout compris');
-    assert.match(envoyes[0], /Dont 1,26 \$ de publications et 0,42 \$ de mises au point/, 'la part de chacun est dite');
+    // annoncé en euros : 1,68 $ = 1,53 € (1 € = 1,0989 $)
+    assert.match(envoyes[0], /Ce mois-ci : <b>1,53 €<\/b>/, 'le mois annoncé est celui facturé, tout compris');
+    assert.match(envoyes[0], /Dont 1,15 € de publications et 0,38 € de mises au point/, 'la part de chacun est dite');
     assert.doesNotMatch(envoyes[0], /\n\n/, 'aucune ligne vide dans le message');
 
     assert.equal(await resumeHebdoCouts({ now: Date.parse('2026-09-27T19:00:00Z'), envoyer }), null, 'une seule fois dans la soirée');

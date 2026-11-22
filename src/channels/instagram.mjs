@@ -7,6 +7,7 @@ import { loadSource, cropTo, SLIDE, STORY } from '../media/crop.mjs';
 import { createRenderer } from '../media/render.mjs';
 import { uploadFiles, assertPublic } from '../storage/ftp.mjs';
 import { sendStory } from './telegram.mjs';
+import { notificationActive } from './messages.mjs';
 import { createGraph } from './meta-graph.mjs';
 import { MAX_MENTIONS } from '../brain/comptes.mjs';
 import { GuardError, DeferError } from '../core/errors.mjs';
@@ -184,7 +185,9 @@ export async function publish(pkg, { channel }) {
 
   // story : envoi manuel, non bloquant
   try {
-    await sendStory({
+    // la story se coupe dans les réglages (config/notifications.json)
+    if (!notificationActive('story')) console.log('   Story non envoyée : coupée dans les réglages');
+    else await sendStory({
       buffer: pkg.files[2].buffer,
       url: storyUrl,
       title: pkg.article.title,

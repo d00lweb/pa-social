@@ -1,7 +1,7 @@
 import { loadJson, saveJson } from '../core/state.mjs';
 import { dayKey } from '../core/scheduler.mjs';
 import { config } from '../core/config.mjs';
-import { alerteBudget, alerteIa } from '../channels/messages.mjs';
+import { alerteBudget, alerteIa, euros } from '../channels/messages.mjs';
 
 // Ce que l'IA coûte réellement, relevé appel par appel dans state/couts.json.
 // Aucune estimation : les jetons viennent de la réponse de l'API, le prix de la grille publique.
@@ -121,7 +121,7 @@ export async function verifierBudget({ now = Date.now(), envoyer } = {}) {
     await saveJson('ia.json', memo);
     const texte = alerteBudget(etat, { couperAuPlafond: COUPER_AU_PLAFOND });
     const envoi = envoyer ?? (await import('../channels/telegram.mjs')).alert;
-    await envoi(texte).catch(() => {});
+    await envoi(texte, { type: 'budget' }).catch(() => {});
   }
   return etat;
 }
@@ -146,7 +146,6 @@ export async function resumeHebdoCouts({ now = Date.now(), envoyer } = {}) {
   memo.resume = jour;
   await saveJson('ia.json', memo);
 
-  const euros = (n) => `${n.toFixed(2).replace('.', ',')} $`;
   const numeroJour = Number(jour.slice(8));
   const joursDuMois = new Date(Number(jour.slice(0, 4)), Number(jour.slice(5, 7)), 0).getDate();
   const projection = numeroJour ? (etat.depense / numeroJour) * joursDuMois : 0;
@@ -158,7 +157,7 @@ export async function resumeHebdoCouts({ now = Date.now(), envoyer } = {}) {
     etat.local ? `<i>Dont ${euros(etat.robot)} de publications et ${euros(etat.local)} de mises au point lancées depuis un poste.</i>` : '',
   ];
   const envoi = envoyer ?? (await import('../channels/telegram.mjs')).send;
-  await envoi(lignes.filter(Boolean).join('\n')).catch(() => {});
+  await envoi(lignes.filter(Boolean).join('\n'), {}, { type: 'conso-hebdo' }).catch(() => {});
   return { semaine, depense: etat.depense, projection };
 }
 
@@ -179,7 +178,7 @@ export async function signalerIaIndisponible(message, { now = Date.now(), envoye
   const manqueDeCredit = /credit balance|insufficient|quota/i.test(message ?? '');
   const texte = alerteIa(message, { manqueDeCredit });
   const envoi = envoyer ?? (await import('../channels/telegram.mjs')).alert;
-  await envoi(texte);
+  await envoi(texte, { type: 'ia-indisponible' });
   return true;
 }
 

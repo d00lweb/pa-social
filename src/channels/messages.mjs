@@ -14,6 +14,9 @@
 //  4. Un seul geste. Le bouton « copier » (copy_text, Bot API 8.0) met le texte exact dans le
 //     presse-papier ; il ne passe pas 256 caractères, au-delà le message reste copiable à l'appui.
 
+import { readFileSync } from 'node:fs';
+import { fromRoot } from '../core/config.mjs';
+
 export const esc = (s) => String(s ?? '').replace(/[&<>]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' })[c]);
 
 // Limite de Telegram pour le texte d'un bouton copy_text
@@ -43,7 +46,9 @@ export function messagePublie(reseau, titre, lien) {
 }
 
 // ── Alertes ────────────────────────────────────────────────────────────────────
-const euros = (n) => `${Number(n).toFixed(2).replace('.', ',')} $`;
+// Les montants sont relevés en dollars et annoncés en euros (1 € = 1,0989 $)
+export const DOLLARS_PAR_EURO = 1.0989;
+export const euros = (dollars) => `${(Number(dollars) / DOLLARS_PAR_EURO).toFixed(2).replace('.', ',')} €`;
 
 export function alerteBudget(etat, { couperAuPlafond }) {
   if (!etat.depasse) {
@@ -62,10 +67,23 @@ export function alerteIa(message, { manqueDeCredit }) {
 }
 
 export function alerteJeton(nom, jeton) {
+  if (jeton.invalide || !jeton.expireLe) {
+    const qui = nom === 'meta' ? 'Meta (Facebook + Instagram)' : 'Threads';
+    return `🔑 <b>Jeton ${qui} refusé</b>\nLes publications concernées attendent. Écris à Claude, dans le dashboard : « Aide-moi à refaire le jeton ${nom === 'meta' ? 'Meta' : 'Threads'} ».`;
+  }
   return nom === 'meta'
-    ? `🔑 <b>Jeton Meta</b> (Facebook + Instagram)\nAccès aux données jusqu’au ${esc(new Date(jeton.expireLe).toLocaleDateString('fr-FR'))}.\nÀ refaire dans les paramètres Meta, ou passer à un jeton d’utilisateur système, qui n’expire jamais.`
-    : `🔑 <b>Jeton Threads</b> — ${jeton.restant} jours restants.\nLancer <code>npm run threads:refresh -- --ecrire</code> puis <code>gh secret set SOCIAL &lt; .env</code> depuis Git Bash.`;
+    ? `🔑 <b>Jeton Meta</b> (Facebook + Instagram)
+Il s’arrête le ${esc(new Date(jeton.expireLe).toLocaleDateString('fr-FR'))} (${jeton.restant} jours).
+Il faut le refaire avant. Écris à Claude, dans le dashboard : « Aide-moi à refaire le jeton Meta ».`
+    : `🔑 <b>Jeton Threads</b> — ${jeton.restant} jours restants.
+Son renouvellement automatique n’a pas fonctionné. Écris à Claude, dans le dashboard : « Renouvelle le jeton Threads ».`;
 }
+
+// Des publications que personne ne voit : le 22/11/2026, 88 publications Facebook avaient 0 vue
+// depuis deux mois, parce que l’application Meta était restée en mode développement.
+export const alerteFacebookInvisible = (combien) =>
+  `👻 <b>Facebook : aucune vue</b> sur les ${combien} dernières publications mesurées.
+Elles ne sont sans doute pas visibles du public. Écris à Claude, dans le dashboard : « Facebook n’est plus visible, aide-moi ».`;
 
 export const alerteFlux = (heures, detail) =>
   `📡 <b>Flux RSS du site injoignable</b> depuis ${Math.max(1, Math.round(heures))} h\n${esc(String(detail ?? '').slice(0, 200))}\nLes publications déjà programmées partent normalement ; aucun nouvel article n’entre en file tant que le flux ne répond pas.`;
@@ -77,22 +95,24 @@ export const alerteThreadsReponse = (titre, texte) =>
   `⚠️ <b>Threads</b> — post publié, réponse (lien) non postée\n${esc(titre)}\n<code>${esc(texte)}</code>`;
 
 // ── Catalogue ──────────────────────────────────────────────────────────────────
-// La vue d'ensemble : chaque message que le robot peut envoyer, son déclencheur et sa fréquence.
-// Sert de sommaire pour le README et de garde-fou : un message nouveau s'inscrit ici.
-export const CATALOGUE = [
-  { id: 'apercu', titre: 'Aperçu d’un article', quand: 'à chaque article retenu', frequence: '1 à 3 par jour', copiable: false, module: 'channels/preview.mjs' },
-  { id: 'kit-x', titre: 'Kit X', quand: 'au créneau X de l’article', frequence: '1 par article', copiable: true, module: 'channels/x.mjs' },
-  { id: 'story', titre: 'Story Instagram', quand: 'après la publication du carrousel', frequence: '1 par article', copiable: true, module: 'channels/instagram.mjs' },
-  { id: 'publication', titre: 'Publication faite', quand: 'après chaque publication automatique', frequence: '3 à 8 par jour', copiable: false, module: 'index.mjs' },
-  { id: 'bilan-hebdo', titre: 'Bilan de diffusion', quand: 'lundi matin', frequence: '1 par semaine', copiable: false, module: 'measure/diffusion.mjs' },
-  { id: 'bilan-mensuel', titre: 'Bilan du mois', quand: 'le 1er du mois', frequence: '1 par mois', copiable: false, module: 'measure/diffusion.mjs' },
-  { id: 'conso-hebdo', titre: 'Point conso du rédacteur IA', quand: 'dimanche après 19 h', frequence: '1 par semaine', copiable: false, module: 'brain/couts.mjs' },
-  { id: 'budget', titre: 'Alerte budget', quand: '70 % du plafond, puis dépassement', frequence: 'au plus 1 par jour et par seuil', copiable: false, module: 'brain/couts.mjs' },
-  { id: 'ia-indisponible', titre: 'Rédacteur IA injoignable', quand: 'panne ou crédit épuisé', frequence: 'au plus 1 par jour', copiable: false, module: 'brain/couts.mjs' },
-  { id: 'jeton-echeance', titre: 'Jeton bientôt expiré', quand: 'seuil de jours restants', frequence: 'au plus 1 par semaine et par jeton', copiable: false, module: 'measure/jetons.mjs' },
-  { id: 'flux-indisponible', titre: 'Flux RSS du site injoignable', quand: 'flux en panne depuis 3 h', frequence: 'au plus 1 par jour', copiable: false, module: 'index.mjs' },
-  { id: 'jeton-refuse', titre: 'Jeton refusé', quand: 'refus du réseau à la publication', frequence: 'au plus 1 par jour', copiable: false, module: 'index.mjs' },
-  { id: 'threads-reponse', titre: 'Réponse Threads non postée', quand: 'échec de la réponse portant le lien', frequence: 'rare', copiable: true, module: 'channels/threads.mjs' },
-  { id: 'commandes', titre: 'Réponses aux commandes', quand: '/statut /file /pause /reprise /validation /x /compte /jamais /oublier /comptes /aide', frequence: 'à la demande', copiable: false, module: 'core/control.mjs' },
-];
+// La vue d’ensemble : chaque message que le robot peut envoyer, son déclencheur, sa fréquence, et
+// s’il se coupe. Elle vit dans config/notifications.json, que le dashboard lit et modifie aussi.
+// Garde-fou : un message nouveau s’y inscrit (tests/messages.test.mjs, tests/notifications.test.mjs).
+function lireCatalogue() {
+  try {
+    const { messages } = JSON.parse(readFileSync(fromRoot('config/notifications.json'), 'utf8').replace(/^\uFEFF/, ''));
+    return Array.isArray(messages) ? messages : [];
+  } catch (e) {
+    // fichier absent ou abîmé : aucun message n'est coupé, et le passage continue
+    console.error(`config/notifications.json illisible (${e.message}) : tous les messages partent`);
+    return [];
+  }
+}
+export const CATALOGUE = lireCatalogue();
 
+// Un message coupé ne part pas. Seul un message réglable se coupe : un livrable à publier, une
+// réponse à une commande ou une mise en pause de sécurité partent toujours, quoi que dise le fichier.
+export function notificationActive(id, catalogue = CATALOGUE) {
+  const message = catalogue.find((m) => m.id === id);
+  return !message || !message.reglable || message.actif !== false;
+}

@@ -195,5 +195,5 @@ async function prevenirDroitManquant(combien, err, { now, envoyer, log }) {
     + `<i>${err.code === 10 ? 'Droit manquant : instagram_manage_comments' : err.message}</i>\n\n`
     + 'En attendant, le filtre d’Instagram les arrête à la source : Paramètres → Confidentialité du compte → <b>Mots masqués</b> → Mots-clés personnalisés.';
   const envoi = envoyer ?? (await import('../channels/telegram.mjs')).alert;
-  await envoi(texte).catch((e) => log(`   Alerte modération non envoyée : ${e.message}`));
+  await envoi(texte, { type: 'spam' }).catch((e) => log(`   Alerte modération non envoyée : ${e.message}`));
 }

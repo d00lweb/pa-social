@@ -1,10 +1,11 @@
 import { loadJson, saveJson } from '../core/state.mjs';
 import { verdictSpam } from './moderation.mjs';
+import { sansSecret } from '../core/errors.mjs';
 
 // Relevé des interactions, réseau par réseau. Lecture seule : rien n'est publié, rien n'est modifié.
 // Ce qui est accessible aujourd'hui sans permission supplémentaire :
-//   Instagram  : likes, commentaires        (portée : nécessite instagram_manage_insights)
-//   Facebook   : likes, commentaires, partages (portée : nécessite read_insights)
+//   Instagram  : likes, commentaires ; vues, comptes touchés, enregistrements, partages (instagram_manage_insights)
+//   Facebook   : likes, commentaires, partages ; vues, comptes touchés, clics (read_insights)
 //   Bluesky    : likes, reposts, réponses, citations — API publique, gratuite
 //   Threads    : likes, réponses, reposts, vues — nécessite threads_manage_insights
 const V = () => process.env.GRAPH_VERSION || 'v23.0';
@@ -48,6 +49,40 @@ export function commentairesDeLecteurs(liste, { avant = Infinity } = {}) {
   }).length;
 }
 
+// Portée : lue à part et jamais bloquante. Les deux droits sont sur le jeton depuis le 23/09/2026,
+// mais le relevé ne les lisait pas : pendant deux mois, rien n'a dit que les publications Facebook
+// avaient 0 vue. Un droit retiré ou une mesure renommée par Meta ne doit pas faire perdre les likes.
+const valeurs = (json) => Object.fromEntries((json?.data ?? []).map((d) => [d.name, d.values?.[0]?.value ?? d.total_value?.value ?? null]));
+const nombre = (v) => (typeof v === 'number' ? v : null);
+const sansNuls = (o) => Object.fromEntries(Object.entries(o).filter(([, v]) => v !== null && v !== undefined));
+
+export function porteeInstagram(json) {
+  const v = valeurs(json);
+  // « shares » d'Instagram = envois par message : gardés sous leur nom, hors du total des
+  // interactions, qui reste comparable d'un mois à l'autre
+  return sansNuls({ vues: nombre(v.views), portee: nombre(v.reach), enregistrements: nombre(v.saved), envois: nombre(v.shares) });
+}
+export function porteeFacebook(json) {
+  const v = valeurs(json);
+  return sansNuls({ vues: nombre(v.post_media_view), portee: nombre(v.post_total_media_view_unique), clics: nombre(v.post_clicks) });
+}
+
+const portee = {
+  async instagram(entree) {
+    return porteeInstagram(await graph(`${entree.mediaId}/insights`, { metric: 'reach,views,saved,shares' }, process.env.IG_TOKEN));
+  },
+  async facebook(entree) {
+    return porteeFacebook(await graph(`${entree.mediaId}/insights`, { metric: 'post_media_view,post_total_media_view_unique,post_clicks' }, process.env.FB_TOKEN));
+  },
+};
+const dejaDit = new Set();
+const porteeDe = (reseau, entree) => portee[reseau](entree).catch((e) => {
+  const motif = `${reseau} : ${sansSecret(e.message)}`;
+  if (!dejaDit.has(motif)) console.log(`   Portée illisible, ${motif}`);
+  dejaDit.add(motif);
+  return {};
+});
+
 const lecteurs = {
   async instagram(entree) {
     const j = await graph(entree.mediaId, { fields: 'like_count,comments_count' }, process.env.IG_TOKEN);
@@ -56,7 +91,7 @@ const lecteurs = {
     const params = new URLSearchParams({ fields: 'id,text,timestamp,hidden', limit: '100', access_token: process.env.IG_TOKEN });
     const liste = (await pages(`https://graph.facebook.com/${V()}/${entree.mediaId}/comments?${params}`))
       .map((c) => ({ texte: c.text ?? '', date: c.timestamp, masque: Boolean(c.hidden) }));
-    return { ...vide, likes: j.like_count ?? null, commentairesBruts: j.comments_count ?? null, liste };
+    return { ...vide, likes: j.like_count ?? null, commentairesBruts: j.comments_count ?? null, liste, ...(await porteeDe('instagram', entree)) };
   },
 
   async facebook(entree) {
@@ -72,6 +107,7 @@ const lecteurs = {
       commentairesBruts: j.comments?.summary?.total_count ?? null,
       partages: j.shares?.count ?? 0,
       liste,
+      ...(await porteeDe('facebook', entree)),
     };
   },
 
@@ -151,14 +187,40 @@ export async function recompter(mesures, history, { log = () => {}, lire = lecte
   return anciens.length;
 }
 
+// Relevés d'avant la lecture de la portée (Instagram, Facebook) : complétés après coup, quelques-uns
+// par passage, les plus récents d'abord. Le chiffre est celui d'aujourd'hui, pas celui du jalon :
+// il est marqué comme tel. Deux essais au plus par relevé (post supprimé, mesure absente).
+export const PORTEE_PAR_PASSAGE = 30;
+export async function completerPortee(mesures, { lire = portee, log = () => {}, max = PORTEE_PAR_PASSAGE } = {}) {
+  const aFaire = mesures
+    .filter((m) => lire[m.channel] && !m.introuvable && m.mediaId && typeof m.vues !== 'number' && !(m.porteeEssais >= 2))
+    .sort((a, b) => Date.parse(b.publieLe) - Date.parse(a.publieLe))
+    .slice(0, max);
+  let faits = 0;
+  for (const m of aFaire) {
+    const v = await lire[m.channel]({ mediaId: m.mediaId }).catch((e) => {
+      log(`   Portée après coup illisible (${m.channel}) : ${sansSecret(e.message)}`);
+      return {};
+    });
+    if (typeof v.vues === 'number') {
+      Object.assign(m, v, { porteeApresCoup: true });
+      faits++;
+    } else m.porteeEssais = (m.porteeEssais ?? 0) + 1;
+  }
+  if (aFaire.length) log(`Mesures : portée relevée après coup pour ${faits} relevé(s) sur ${aFaire.length}.`);
+  return aFaire.length;
+}
+
 // Relève ce qui est dû et enrichit state/mesures.json. N'écrase jamais un relevé existant.
-export async function collecter({ log = console.log, maintenant = Date.now(), lire = lecteurs } = {}) {
+// lirePortee : absent quand les lecteurs sont remplacés (tests), pour ne jamais appeler le réseau.
+export async function collecter({ log = console.log, maintenant = Date.now(), lire = lecteurs, lirePortee = lire === lecteurs ? portee : {} } = {}) {
   const history = await loadJson('published.json', []);
   const mesures = await loadJson('mesures.json', []);
   const attendus = aRelever(history, mesures, maintenant);
   const recomptes = await recompter(mesures, history, { log, lire });
+  const completes = await completerPortee(mesures, { lire: lirePortee, log });
   if (!attendus.length) {
-    if (recomptes) await saveJson('mesures.json', mesures);
+    if (recomptes || completes) await saveJson('mesures.json', mesures);
     log('Mesures : rien à relever.');
     return mesures;
   }

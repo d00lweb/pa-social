@@ -8,3 +8,5 @@
 - Dépôt public : aucun secret, mot de passe, token ou identifiant de compte dans le code, le README ou les commits. `.env` et `out/` restent ignorés.
 - Le bot commite `state/published.json` : faire `git pull` avant de committer.
 - Poste Windows / PowerShell 5.1 : dans `node -e`, utiliser des backticks JS (pas de guillemets doubles ni d'apostrophes typographiques), ou un fichier script.
+- Depuis le 22/11/2026, ce dossier est le dossier `social` du dashboard de la rédaction : l'onglet « Réseaux sociaux » lit `state/` et modifie `config/` (réglages par réseau, `config/notifications.json`). Ne jamais committer `state/` depuis un poste (c'est le robot qui l'écrit) ; `npm test` peut y toucher : `git checkout -- state/` avant de committer.
+- Dépôt public : n'y écrire aucun chemin de poste, aucun nom d'utilisateur, rien du dashboard lui-même.

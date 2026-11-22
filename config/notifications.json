@@ -98,7 +98,7 @@
       "copiable": false,
       "module": "index.mjs",
       "reglable": true,
-      "actif": true
+      "actif": false
     },
     {
       "id": "echec",

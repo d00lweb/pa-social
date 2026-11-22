@@ -7968,5 +7968,41 @@
       "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/saint-emilion-grand-cru-prix-crise/",
       "sujet": "Saint-Émilion"
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36215",
+    "channel": "bluesky",
+    "at": "2026-11-22T07:06:37.208Z",
+    "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3n2v2j5jibk2u",
+    "titre": "La Palmyre : 53 ans après, cette baie attend toujours sa réserve",
+    "lien": "https://passion-aquitaine.ouest-france.fr/baie-bonne-anse-reserve-naturelle-palmyre/",
+    "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2v2j5jibk2u",
+    "format": "reply",
+    "mention": false,
+    "apercu": {
+      "texte": "🦆 Classée parmi les 100 réserves naturelles à créer en priorité dès 1973, la baie de Bonne Anse, à #LaPalmyre, attend encore son statut. Une priorité restée lettre morte pendant 53 ans en #CharenteMaritime.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261121-7d65266b-bsky.jpg",
+      "mode": "reply",
+      "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/baie-bonne-anse-reserve-naturelle-palmyre/",
+      "sujet": null
+    }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36215",
+    "channel": "facebook",
+    "at": "2026-11-22T07:13:04.500Z",
+    "mediaId": "227437307428711_1798651542260726",
+    "titre": "La Palmyre : 53 ans après, cette baie attend toujours sa réserve",
+    "lien": "https://passion-aquitaine.ouest-france.fr/baie-bonne-anse-reserve-naturelle-palmyre/",
+    "lienPost": "https://www.facebook.com/1720946116697936/posts/1798651542260726",
+    "format": null,
+    "mention": false,
+    "apercu": {
+      "texte": "À La Palmyre, la baie de Bonne Anse était jugée prioritaire pour devenir réserve naturelle… il y a plus d’un demi-siècle ⏳",
+      "image": null,
+      "mode": null,
+      "reponse": null,
+      "sujet": null
+    }
   }
 ]

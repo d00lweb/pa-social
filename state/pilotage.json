@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-22T06:21:05.471Z",
+  "genereLe": "2026-11-22T07:01:05.276Z",
   "jour": "2026-11-22",
   "reseaux": {
     "instagram": {
@@ -60,11 +60,11 @@
         "image",
         "reply"
       ],
-      "aujourdhui": 0,
-      "semaine": 9,
-      "total": 90,
-      "dernier": "2026-11-21T18:11:02.889Z",
-      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2tp6crw3c23"
+      "aujourdhui": 1,
+      "semaine": 10,
+      "total": 91,
+      "dernier": "2026-11-22T07:06:37.208Z",
+      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2v2j5jibk2u"
     },
     "facebook": {
       "actif": true,
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 10,
-      "total": 88,
-      "dernier": "2026-11-21T20:13:59.751Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1798166225642591"
+      "aujourdhui": 1,
+      "semaine": 11,
+      "total": 89,
+      "dernier": "2026-11-22T07:13:04.500Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1798651542260726"
     },
     "threads": {
       "actif": true,
@@ -164,6 +164,46 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36215",
+      "titre": "La Palmyre : 53 ans après, cette baie attend toujours sa réserve",
+      "lien": "https://passion-aquitaine.ouest-france.fr/baie-bonne-anse-reserve-naturelle-palmyre/",
+      "at": "2026-11-22T07:13:04.500Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Près de La Palmyre, la baie de Bonne Anse a une histoire étonnante 🌊 En 1973, elle faisait partie des 100 réserves naturelles à créer en priorité en France. 53 ans plus tard, ce statut n’est toujours pas arrivé. De quoi regarder autrement ce coin de Charente-Maritime lors de votre prochaine balade.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261121-7d65266b-th.jpg",
+          "mode": "reponse",
+          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/baie-bonne-anse-reserve-naturelle-palmyre/",
+          "sujet": "La Palmyre",
+          "publieLe": "2026-11-21T13:30:48.096Z"
+        },
+        "x": {
+          "texte": "La baie de Bonne Anse, à La Palmyre, figurait en 1973 parmi les 100 réserves naturelles prioritaires ⌛ 53 ans plus tard, elle attend toujours d’être protégée.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261121-7d65266b-x.jpg",
+          "mode": "reponse",
+          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/baie-bonne-anse-reserve-naturelle-palmyre/",
+          "sujet": null,
+          "publieLe": "2026-11-21T16:21:05.880Z"
+        },
+        "bluesky": {
+          "texte": "🦆 Classée parmi les 100 réserves naturelles à créer en priorité dès 1973, la baie de Bonne Anse, à #LaPalmyre, attend encore son statut. Une priorité restée lettre morte pendant 53 ans en #CharenteMaritime.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261121-7d65266b-bsky.jpg",
+          "mode": "reply",
+          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/baie-bonne-anse-reserve-naturelle-palmyre/",
+          "sujet": null,
+          "publieLe": "2026-11-22T07:06:37.208Z"
+        },
+        "facebook": {
+          "texte": "À La Palmyre, la baie de Bonne Anse était jugée prioritaire pour devenir réserve naturelle… il y a plus d’un demi-siècle ⏳",
+          "image": null,
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-22T07:13:04.500Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36276",
       "titre": "Quand la Gironde arrache des vignes, ce grand cru de Saint-Émilion augmente son prix",
@@ -269,30 +309,6 @@
       }
     },
     {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36215",
-      "titre": "La Palmyre : 53 ans après, cette baie attend toujours sa réserve",
-      "lien": "https://passion-aquitaine.ouest-france.fr/baie-bonne-anse-reserve-naturelle-palmyre/",
-      "at": "2026-11-21T16:21:05.880Z",
-      "reseaux": {
-        "threads": {
-          "texte": "Près de La Palmyre, la baie de Bonne Anse a une histoire étonnante 🌊 En 1973, elle faisait partie des 100 réserves naturelles à créer en priorité en France. 53 ans plus tard, ce statut n’est toujours pas arrivé. De quoi regarder autrement ce coin de Charente-Maritime lors de votre prochaine balade.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261121-7d65266b-th.jpg",
-          "mode": "reponse",
-          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/baie-bonne-anse-reserve-naturelle-palmyre/",
-          "sujet": "La Palmyre",
-          "publieLe": "2026-11-21T13:30:48.096Z"
-        },
-        "x": {
-          "texte": "La baie de Bonne Anse, à La Palmyre, figurait en 1973 parmi les 100 réserves naturelles prioritaires ⌛ 53 ans plus tard, elle attend toujours d’être protégée.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261121-7d65266b-x.jpg",
-          "mode": "reponse",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/baie-bonne-anse-reserve-naturelle-palmyre/",
-          "sujet": null,
-          "publieLe": "2026-11-21T16:21:05.880Z"
-        }
-      }
-    },
-    {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36255",
       "titre": "Golfe de Gascogne : l’hiver 2025, les dauphins sont surtout morts avant l’arrêt de pêche",
       "lien": "https://passion-aquitaine.ouest-france.fr/dauphins-golfe-gascogne-peche-fermeture/",
@@ -358,6 +374,26 @@
     }
   ],
   "publications": [
+    {
+      "channel": "facebook",
+      "at": "2026-11-22T07:13:04.500Z",
+      "titre": "La Palmyre : 53 ans après, cette baie attend toujours sa réserve",
+      "lien": "https://passion-aquitaine.ouest-france.fr/baie-bonne-anse-reserve-naturelle-palmyre/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1798651542260726",
+      "format": null,
+      "texte": "À La Palmyre, la baie de Bonne Anse était jugée prioritaire pour devenir réserve naturelle… il y a plus d’un demi-siècle ⏳",
+      "image": null
+    },
+    {
+      "channel": "bluesky",
+      "at": "2026-11-22T07:06:37.208Z",
+      "titre": "La Palmyre : 53 ans après, cette baie attend toujours sa réserve",
+      "lien": "https://passion-aquitaine.ouest-france.fr/baie-bonne-anse-reserve-naturelle-palmyre/",
+      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2v2j5jibk2u",
+      "format": "reply",
+      "texte": "🦆 Classée parmi les 100 réserves naturelles à créer en priorité dès 1973, la baie de Bonne Anse, à #LaPalmyre, attend encore son statut. Une priorité restée lettre morte pendant 53 ans en #CharenteMaritime.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261121-7d65266b-bsky.jpg"
+    },
     {
       "channel": "threads",
       "at": "2026-11-22T06:27:42.498Z",
@@ -437,47 +473,9 @@
       "format": "reponse",
       "texte": "Comment l’or volé dans 37 études de notaires a fini en cartes Pokémon : le duo jugé à #Angoulême avait amassé une collection estimée à 20 000 € 🗞️",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261120-d51b109a-x.jpg"
-    },
-    {
-      "channel": "threads",
-      "at": "2026-11-21T10:29:51.486Z",
-      "titre": "Jugé à Angoulême, ce voleur de notaires s’offrait des cartes Pokémon estimées à 20 000 €",
-      "lien": "https://passion-aquitaine.ouest-france.fr/cartes-pokemon-cambrioleurs-notaires-angouleme/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/DgAA8AiGx3Z",
-      "format": "reponse",
-      "texte": "Un procès hors norme à Angoulême. Deux hommes roulaient la nuit, Google Maps en main, pour cibler des études de notaires. Au total, 37 études visées. Et l’or revendu ne finançait pas un train de vie classique : ℹ️ il servait à acheter des cartes Pokémon par milliers, estimées à 20 000 €.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261120-d51b109a-th.jpg"
-    },
-    {
-      "channel": "x",
-      "at": "2026-11-21T08:21:09.410Z",
-      "titre": "Ils sont encore là, mais presque invisibles : le plan pour sauver les visons d’Europe",
-      "lien": "https://passion-aquitaine.ouest-france.fr/vison-europe-nouvelle-aquitaine-life-care/",
-      "lienPost": null,
-      "format": "reponse",
-      "texte": "Discret au point d’être presque invisible, le vison d’Europe vit encore en Nouvelle-Aquitaine 🦦 L’espèce est en grand danger, et le projet LIFE CARE veut la sauver.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261120-9756dd6b-x.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "bluesky",
-      "dueAt": "2026-11-22T07:06:35.333Z",
-      "prochainPassage": "2026-11-22T07:20:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "La Palmyre : 53 ans après, cette baie attend toujours sa réserve"
-    },
-    {
-      "channel": "facebook",
-      "dueAt": "2026-11-22T07:12:56.692Z",
-      "prochainPassage": "2026-11-22T07:20:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "La Palmyre : 53 ans après, cette baie attend toujours sa réserve"
-    },
     {
       "channel": "x",
       "dueAt": "2026-11-22T09:20:00.000Z",
@@ -486,6 +484,24 @@
       "prevuInitialement": null,
       "raison": null,
       "titre": "Quand la Gironde arrache des vignes, ce grand cru de Saint-Émilion augmente son prix"
+    },
+    {
+      "channel": "threads",
+      "dueAt": "2026-11-22T10:11:47.892Z",
+      "prochainPassage": "2026-11-22T10:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Truffe du Périgord : la France en importe plus qu’elle n’en récolte"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-11-22T11:00:00.000Z",
+      "prochainPassage": "2026-11-22T11:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Truffe du Périgord : la France en importe plus qu’elle n’en récolte"
     },
     {
       "channel": "instagram",
@@ -515,6 +531,15 @@
       "titre": "La Palmyre : 53 ans après, cette baie attend toujours sa réserve"
     },
     {
+      "channel": "bluesky",
+      "dueAt": "2026-11-22T17:31:30.139Z",
+      "prochainPassage": "2026-11-22T18:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Truffe du Périgord : la France en importe plus qu’elle n’en récolte"
+    },
+    {
       "channel": "facebook",
       "dueAt": "2026-11-22T20:23:04.741Z",
       "prochainPassage": "2026-11-22T21:00:00.000Z",
@@ -524,6 +549,15 @@
       "titre": "Quand la Gironde arrache des vignes, ce grand cru de Saint-Émilion augmente son prix"
     },
     {
+      "channel": "facebook",
+      "dueAt": "2026-11-23T08:27:56.169Z",
+      "prochainPassage": "2026-11-23T09:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Truffe du Périgord : la France en importe plus qu’elle n’en récolte"
+    },
+    {
       "channel": "instagram",
       "dueAt": "2026-11-23T12:08:07.541Z",
       "prochainPassage": "2026-11-23T12:20:00.000Z",
@@ -531,6 +565,15 @@
       "prevuInitialement": null,
       "raison": null,
       "titre": "Quand la Gironde arrache des vignes, ce grand cru de Saint-Émilion augmente son prix"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-11-23T17:25:08.386Z",
+      "prochainPassage": "2026-11-23T18:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Truffe du Périgord : la France en importe plus qu’elle n’en récolte"
     }
   ],
   "alertes": [
@@ -640,7 +683,8 @@
       "depuis": "2026-11-18T07:29:57.799Z"
     },
     "alertes": {
-      "threads": "2026-11-S3"
+      "threads": "2026-11-S3",
+      "facebook": "2026-11-S4"
     }
   },
   "passages": [
@@ -685,7 +729,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-22T06:00:57.543Z"
+    "derniere": "2026-11-22T07:01:05.276Z"
   },
   "abonnes": {
     "instagram": {
@@ -724,7 +768,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-22T06:27:55.448Z",
+    "genereLe": "2026-11-22T07:13:13.406Z",
     "posts": 101,
     "parReseau": {
       "threads": {
@@ -898,8 +942,8 @@
     },
     "publies": {
       "threads": 29,
-      "facebook": 28,
-      "bluesky": 27,
+      "facebook": 29,
+      "bluesky": 28,
       "x": 28,
       "instagram": 26
     },
@@ -952,29 +996,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 1,
-      "entree": 8013,
-      "sortie": 935,
-      "cout": 0.050752,
+      "appels": 2,
+      "entree": 15961,
+      "sortie": 1796,
+      "cout": 0.099764,
       "cle": "2026-11-22"
     },
     "semaine": {
-      "appels": 20,
-      "entree": 159983,
-      "sortie": 18832,
-      "cout": 1.016572
+      "appels": 21,
+      "entree": 167931,
+      "sortie": 19693,
+      "cout": 1.065584
     },
     "mois": {
-      "appels": 76,
-      "entree": 608222,
-      "sortie": 68959,
-      "cout": 3.8120679999999996,
+      "appels": 77,
+      "entree": 616170,
+      "sortie": 69820,
+      "cout": 3.8610799999999994,
       "cle": "2026-11"
     },
-    "projection": 5.2,
-    "moyenneAppel": 0.0502,
+    "projection": 5.27,
+    "moyenneAppel": 0.0501,
     "parModele": {
-      "claude-opus-5-5": 76
+      "claude-opus-5-5": 77
     },
     "serie": [
       [
@@ -1031,7 +1075,7 @@
       ],
       [
         "2026-11-22",
-        0.0508
+        0.0998
       ]
     ],
     "depuis": "2026-09-23"

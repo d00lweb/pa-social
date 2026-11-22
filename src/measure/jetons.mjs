@@ -1,7 +1,6 @@
 import { loadJson, saveJson } from '../core/state.mjs';
 import { dayKey } from '../core/scheduler.mjs';
-import { alert } from '../channels/telegram.mjs';
-import { alerteJeton, alerteFacebookInvisible } from '../channels/messages.mjs';
+import { jetonRefuse, jetonEcheance, facebookInvisible, messageRegle } from '../channels/messages.mjs';
 import { config } from '../core/config.mjs';
 import { sansSecret } from '../core/errors.mjs';
 
@@ -29,6 +28,8 @@ const enIso = (secondes) => new Date(secondes * 1000).toISOString();
 // plus aucune échéance : la réponse sans date était prise pour une réponse vide, et l'ancien état
 // restait affiché tel quel.
 function etatDebug(json, connu, maintenant, renouvellement) {
+  // une erreur qui ne dit rien du jeton (quota, panne passagère) : on ne sait pas, on ne dit pas « refusé »
+  if (json?.error && !(json.error.code === 190 || /OAuth/i.test(json.error.type ?? ''))) return null;
   if (json?.error || json?.data?.is_valid === false) {
     const message = sansSecret(json?.error?.message ?? json?.data?.error?.message ?? 'jeton refusé');
     return { expireLe: connu?.expireLe ?? null, restant: 0, renouvellement: 'à refaire', invalide: true, valide: false, message };
@@ -93,10 +94,13 @@ async function threads(maintenant, connu) {
 // deux mois, parce que l'application Meta était restée en mode développement — ce qu'elle publie
 // n'est alors montré qu'à ses administrateurs. Les likes à zéro ne le disaient pas : il faut les vues.
 export const SANS_VUE_MIN = 5;
-export function facebookSansVue(mesures, min = SANS_VUE_MIN) {
+// Application Meta passée « en ligne » le 22/11/2026 vers 19 h 30 : les zéros d'avant ne disent plus rien
+export const FACEBOOK_VISIBLE_DEPUIS = '2026-11-22T18:30:00Z';
+export function facebookSansVue(mesures, min = SANS_VUE_MIN, { apres = FACEBOOK_VISIBLE_DEPUIS } = {}) {
   const parPost = new Map();
   for (const m of mesures ?? []) {
     if (m.channel !== 'facebook' || m.introuvable || typeof m.vues !== 'number') continue;
+    if (apres && !(Date.parse(m.publieLe) >= Date.parse(apres))) continue;
     const vu = parPost.get(m.guid);
     if (!vu || m.jalon > vu.jalon) parPost.set(m.guid, m);
   }
@@ -106,23 +110,19 @@ export function facebookSansVue(mesures, min = SANS_VUE_MIN) {
   return { publications: derniers.length, vues, invisible: vues === 0, depuis: derniers.at(-1).publieLe };
 }
 
-const semaineDe = (now) => dayKey(now, TZ).slice(0, 7) + '-S' + Math.ceil(new Date(now).getDate() / 7);
-
-const heureLocale = (now) => Number(new Intl.DateTimeFormat('en-GB', { timeZone: TZ, hour: '2-digit', hourCycle: 'h23' }).format(new Date(now)));
-// Les alertes de jeton et de visibilité ne réveillent personne : elles partent entre 8 h et 21 h.
-// La vérification du jour se fait au premier passage après minuit ; l'alerte attend le matin.
-export const heureDAlerte = (now) => heureLocale(now) >= 8 && heureLocale(now) < 21;
 
 // Une vérification des jetons par jour suffit ; la visibilité Facebook suit les relevés à chaque
 // passage. Le résultat est gardé dans state/jetons.json, lu par le pilotage et par le dashboard.
-export async function verifier({ now = Date.now(), log = console.log, mesures = null } = {}) {
+export async function verifier({ now = Date.now(), log = console.log, mesures = null, problemes = null } = {}) {
   const connu = await loadJson('jetons.json', null);
   // une vérification par jour, sauf tant qu'un jeton est refusé (on veut voir tout de suite qu'il est
   // réparé) et sauf si l'état a été écrit par une version antérieure
   const enPanne = Object.values(connu ?? {}).some((v) => v && typeof v === 'object' && v.invalide);
   const aJour = connu?.v === VERSION_JETONS;
   const duJour = aJour && !enPanne && connu?.verifieLe && dayKey(new Date(connu.verifieLe).getTime(), TZ) === dayKey(now, TZ);
-  const visibilite = facebookSansVue(mesures ?? (await loadJson('mesures.json', []))) ?? connu?.facebook ?? null;
+  // pas encore cinq publications mesurées depuis le passage en ligne : rien à conclure, pas « invisible »
+  const lues = mesures ?? (await loadJson('mesures.json', []));
+  const visibilite = facebookSansVue(lues) ?? (connu?.facebook?.depuis >= FACEBOOK_VISIBLE_DEPUIS ? connu.facebook : null);
 
   const etat = duJour
     ? { ...connu, facebook: visibilite, alertes: { ...(connu.alertes ?? {}) } }
@@ -134,27 +134,28 @@ export async function verifier({ now = Date.now(), log = console.log, mesures = 
       facebook: visibilite,
       alertes: { ...(connu?.alertes ?? {}) },
     };
-  const inchange = duJour && JSON.stringify(etat) === JSON.stringify(connu);
-  if (!heureDAlerte(now)) {
-    if (!inchange) await saveJson('jetons.json', etat);
-    return etat;
-  }
-
-  const semaine = semaineDe(now);
+  // Un message par problème tant qu'il dure (rappel hebdomadaire, « réglé » à la fin, rien la nuit) :
+  // la cadence vit dans src/channels/problemes.mjs (22/11/2026). Les jetons ne parlent qu'au passage
+  // qui vient de les vérifier : l'état du matin ne doit pas déclarer réglé un refus constaté à midi.
+  const p = problemes ?? (await import('../channels/problemes.mjs'));
+  const NOMS_JETONS = { meta: 'Meta', threads: 'Threads' };
   for (const [nom, seuil] of Object.entries(PREVENIR_A)) {
     const jeton = etat[nom];
-    if (!jeton || jeton.restant === null || jeton.restant === undefined || jeton.restant > seuil) continue;
-    // une seule alerte par jeton et par semaine, pour ne pas devenir du bruit
-    if (etat.alertes[nom] === semaine) continue;
-    etat.alertes[nom] = semaine;
-    await alert(alerteJeton(nom, jeton), { type: 'jeton-echeance' }).catch(() => {});
-    log(`Alerte jeton ${nom} : ${jeton.restant} jours restants.`);
+    if (!jeton || duJour) continue;
+    // « refusé » : une cause parmi d'autres (les refus à la publication, src/index.mjs)
+    if (jeton.invalide) await p.ajouterCause(`jeton:${nom}`, 'verification', { type: 'jeton', message: jetonRefuse(nom), maintenant: now });
+    else if (jeton.valide !== false) await p.retirerCause(`jeton:${nom}`, 'verification', { message: messageRegle(`Jeton ${NOMS_JETONS[nom]} : les publications reprennent.`) });
+    const proche = !jeton.invalide && typeof jeton.restant === 'number' && jeton.restant <= seuil;
+    if (proche) {
+      await p.signaler(`jeton-echeance:${nom}`, { type: 'jeton', message: jetonEcheance(nom, jeton), delaiMinutes: 0, maintenant: now });
+      log(`Jeton ${nom} : ${jeton.restant} jours restants.`);
+    } else if (jeton.invalide) await p.regler(`jeton-echeance:${nom}`, { silencieux: true });
+    else await p.regler(`jeton-echeance:${nom}`, { message: messageRegle(`Jeton ${NOMS_JETONS[nom]} renouvelé.`) });
   }
-  if (etat.facebook?.invisible && etat.alertes.facebook !== semaine) {
-    etat.alertes.facebook = semaine;
-    await alert(alerteFacebookInvisible(etat.facebook.publications), { type: 'facebook-invisible' }).catch(() => {});
-    log(`Alerte Facebook : aucune vue sur les ${etat.facebook.publications} dernières publications mesurées.`);
-  }
+  if (etat.facebook?.invisible) {
+    await p.signaler('facebook-invisible', { type: 'facebook-invisible', message: facebookInvisible(etat.facebook.publications), delaiMinutes: 0, maintenant: now });
+    log(`Facebook : aucune vue sur les ${etat.facebook.publications} dernières publications mesurées.`);
+  } else if (etat.facebook) await p.regler('facebook-invisible', { message: messageRegle('Facebook : les publications ont de nouveau des vues.') });
 
   if (!(duJour && JSON.stringify(etat) === JSON.stringify(connu))) await saveJson('jetons.json', etat);
   return etat;

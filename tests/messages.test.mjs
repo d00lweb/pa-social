@@ -2,15 +2,13 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync, readdirSync } from 'node:fs';
 import { fromRoot } from '../src/core/config.mjs';
-import { aCopier, esc, COPIE_MAX, CATALOGUE, alerteBudget, alerteIa, alerteJeton, alerteJetonRefuse, alerteThreadsReponse, alerteFlux } from '../src/channels/messages.mjs';
+import * as M from '../src/channels/messages.mjs';
 
-// 23/09/2026, retours d'usage : des messages arrivaient avec « <b> » affiché en clair, et copier
-// un texte à publier ramenait son titre (« 📝 Texte du post »), qu'il fallait effacer dans X — la
-// ligne vide laissée derrière faisait commencer le post par un saut de ligne.
+// Refonte du 22/11/2026 (« j'en reçois trop, en doublon ; que des messages pertinents ») : trois
+// familles, un gabarit. Ces tests tiennent le gabarit : HTML valide, première ligne qui dit tout,
+// textes à copier sur des boutons, rien venu d'ailleurs sans échappement.
 
 const BALISES = ['b', 'i', 'u', 's', 'code', 'pre', 'a', 'blockquote'];
-
-// Balisage valide : uniquement les balises acceptées par Telegram, et chacune refermée.
 function baliseInvalide(texte) {
   const ouvertes = [];
   for (const m of String(texte).matchAll(/<(\/?)([a-z]+)(?:\s[^>]*)?>/g)) {
@@ -23,59 +21,80 @@ function baliseInvalide(texte) {
   return ouvertes.length ? `balise non fermée : ${ouvertes.join(', ')}` : null;
 }
 
-const exemples = () => [
-  ['budget 70 %', alerteBudget({ depense: 4.2, budget: 6, part: 0.7, depasse: false }, { couperAuPlafond: false })],
-  ['budget dépassé', alerteBudget({ depense: 6.4, budget: 6, part: 1.07, depasse: true }, { couperAuPlafond: false })],
-  ['budget dépassé, coupure', alerteBudget({ depense: 6.4, budget: 6, part: 1.07, depasse: true }, { couperAuPlafond: true })],
-  ['plus de crédit', alerteIa('400 credit balance is too low', { manqueDeCredit: true })],
-  ['IA injoignable', alerteIa('fetch failed <socket>', { manqueDeCredit: false })],
-  ['jeton Meta', alerteJeton('meta', { expireLe: Date.parse('2026-12-01'), restant: 12 })],
-  ['jeton Threads', alerteJeton('threads', { restant: 9 })],
-  ['jeton refusé', alerteJetonRefuse('Facebook & Instagram', 'code 190 <sous-code 460>')],
-  ['réponse Threads', alerteThreadsReponse('Un titre & <balise>', '📖 https://site.fr/a')],
-  ['flux en panne', alerteFlux(3.2, 'Flux RSS 500 : <https://site/feed/>')],
+const titre = 'Un titre & <balise>';
+// Tous les messages qui peuvent partir, sur des valeurs piégées
+export const exemples = () => [
+  ['kit X', M.kitX({ titre, mode: 'reponse', texte: 'Texte <x> & 🎭', longueur: 120, reponse: '📖 L’article : https://site.fr/a', intent: 'https://x.com/intent/post?text=a', comptes: [{ nom: 'Musée', handle: 'musee' }], aChercher: [{ nom: 'Ville & Co', handle: 'ville' }], lieu: 'Bordeaux', alt: 'Une façade' })],
+  ['story', M.story({ titre, lienArticle: 'https://site.fr/a', comptes: ['villedebordeaux'], lieu: 'Bordeaux' })],
+  ['article pas parti', M.publicationRatee({ titre, lienArticle: 'https://site.fr/a', reseaux: [{ nom: 'Instagram', raison: 'image <404>' }, { nom: 'Threads', raison: 'x & y' }] })],
+  ['lien non posté', M.lienNonPoste({ reseau: 'Facebook', titre, texte: '📖 L’article : https://site.fr/a?b=1&c=2', lienPost: 'https://www.facebook.com/p/1' })],
+  ['jeton refusé', M.jetonRefuse('meta')],
+  ['jeton bientôt fini', M.jetonEcheance('meta', { expireLe: '2026-12-16T00:00:00Z', restant: 12 })],
+  ['jeton Threads', M.jetonEcheance('threads', { expireLe: null, restant: 9 })],
+  ['pause', M.pauseAuto('Instagram', 'instagram', 'code 368 <restriction>')],
+  ['flux', M.flux(3.2, 'Flux RSS 500 : <https://site/feed/>')],
+  ['plus de crédit', M.ia('400 credit balance is too low', { manqueDeCredit: true })],
+  ['IA injoignable', M.ia('fetch failed <socket>', { manqueDeCredit: false })],
+  ['budget', M.budget({ depense: 6.4, budget: 6 }, { couperAuPlafond: false })],
+  ['budget, coupure', M.budget({ depense: 6.4, budget: 6 }, { couperAuPlafond: true })],
+  ['Facebook invisible', M.facebookInvisible(5)],
+  ['passage', M.passageEnEchec('TypeError: x <y>')],
+  ['réglé', M.messageRegle('Le flux du site répond de nouveau.')],
+  ['rappel', M.rappel(M.flux(5, 'panne'), '2026-11-20T10:00:00Z')],
 ];
 
 test('chaque message est du HTML valide pour Telegram', () => {
-  for (const [nom, texte] of exemples()) {
-    assert.equal(baliseInvalide(texte), null, `${nom} : ${baliseInvalide(texte)}`);
+  for (const [nom, m] of exemples()) assert.equal(baliseInvalide(m.text), null, `${nom} : ${baliseInvalide(m.text)}`);
+});
+
+test('première ligne : un pictogramme par famille, ce qu’il faut savoir en gras', () => {
+  for (const [nom, m] of exemples()) {
+    const tete = m.text.split('\n')[0];
+    assert.match(tete, /^(📌|⚠️|✅) <b>[^<]+<\/b>/, `${nom} : « ${tete} »`);
   }
+  assert.match(M.kitX({ titre: 'T', texte: 'x', longueur: 1 }).text, /^📌 /, 'À faire');
+  assert.match(M.flux(4, 'x').text, /^⚠️ /, 'Problème');
+  assert.match(M.messageRegle('ok').text, /^✅ <b>Réglé<\/b> · ok$/, 'Réglé');
+  assert.match(M.rappel(M.flux(4, 'x'), '2026-11-20T10:00:00Z').text, /^⚠️ <b>Rappel<\/b>, depuis le 20 novembre · <b>Flux du site injoignable<\/b>/);
 });
 
 test('tout ce qui vient d’ailleurs est échappé', () => {
-  // un titre d'article ou un message d'erreur contenant « & » ou « < » ferait échouer l'envoi entier
-  assert.match(alerteIa('fetch failed <socket>', { manqueDeCredit: false }), /&lt;socket&gt;/);
-  assert.match(alerteJetonRefuse('Facebook & Instagram', 'x'), /Facebook &amp; Instagram/);
-  assert.match(alerteThreadsReponse('Un titre & <balise>', 'x'), /Un titre &amp; &lt;balise&gt;/);
-  assert.equal(esc('a & b < c > d'), 'a &amp; b &lt; c &gt; d');
+  for (const [nom, m] of exemples()) assert.doesNotMatch(m.text, /<balise>|<socket>|<restriction>|<x>|<404>|<y>/, `${nom} : texte venu d’ailleurs non échappé`);
+  assert.match(M.publicationRatee({ titre, reseaux: [{ nom: 'Instagram', raison: 'r' }] }).text, /Un titre &amp; &lt;balise&gt;/);
+  assert.equal(M.esc('a & b < c > d'), 'a &amp; b &lt; c &gt; d');
 });
 
-test('un message à copier ne contient que ce qu’il faut copier', () => {
-  const { text, options } = aCopier('Copier le texte du post', '  Une accroche 🎭  ');
-  assert.equal(text, '<code>Une accroche 🎭</code>', 'ni étiquette, ni emoji de titre, ni compteur');
-  assert.doesNotMatch(text, /Copier|Texte du post/, 'l’étiquette reste sur le bouton');
-  const bouton = JSON.parse(options.reply_markup).inline_keyboard[0][0];
-  assert.equal(bouton.text, '📋 Copier le texte du post');
-  assert.equal(bouton.copy_text.text, 'Une accroche 🎭', 'le bouton copie la valeur nettoyée, sans blanc de bordure');
+test('un texte à copier est sur un bouton, et le bouton copie la valeur exacte', () => {
+  const b = M.copie('Texte', '  Une accroche 🎭  ');
+  assert.deepEqual(b, { text: '📋 Texte', copy_text: { text: 'Une accroche 🎭' } }, 'sans blanc de bordure, sans étiquette');
+  assert.ok(M.copie('x', 'a'.repeat(M.COPIE_MAX)), `${M.COPIE_MAX} caractères : bouton`);
+  assert.equal(M.copie('x', 'a'.repeat(M.COPIE_MAX + 1)), null, 'au-delà, pas de bouton : Telegram le refuserait');
+  assert.equal(M.lien('Ouvrir', 'javascript:alert(1)'), null, 'un lien n’est jamais autre chose qu’une adresse https');
+  const lienNonPoste = M.lienNonPoste({ reseau: 'Threads', titre: 'T', texte: 'Le lien : https://site.fr/a', lienPost: 'https://www.threads.com/@lovaquitaine/post/1' });
+  const boutons = JSON.parse(lienNonPoste.reply_markup).inline_keyboard.flat();
+  assert.equal(boutons[0].url, 'https://www.threads.com/@lovaquitaine/post/1', 'le lien direct vers la publication');
+  assert.equal(boutons[1].copy_text.text, 'Le lien : https://site.fr/a', 'le texte à coller, d’un geste');
 });
 
-test('au-delà de la limite Telegram, le bouton disparaît mais le message reste copiable', () => {
-  const court = aCopier('x', 'a'.repeat(COPIE_MAX));
-  const long = aCopier('x', 'a'.repeat(COPIE_MAX + 1));
-  assert.ok(court.options.reply_markup, `${COPIE_MAX} caractères : bouton`);
-  assert.equal(long.options.reply_markup, undefined, 'au-delà : pas de bouton, Telegram le refuserait');
-  assert.match(long.text, /^<code>a+<\/code>$/, 'le message reste la valeur seule');
+test('article pas parti : un message pour tous les réseaux, et la phrase pour Claude', () => {
+  const m = M.publicationRatee({ titre: 'T', lienArticle: 'https://site.fr/a', reseaux: [{ nom: 'Instagram', raison: 'a' }, { nom: 'Threads', raison: 'b' }, { nom: 'Bluesky', raison: 'c' }] });
+  assert.match(m.text, /^⚠️ <b>Pas parti sur Instagram, Threads et Bluesky<\/b> · T/);
+  assert.equal((m.text.match(/^• /gm) ?? []).length, 3, 'une ligne par réseau');
+  assert.match(m.text, /Relance l’article bloqué sur les réseaux sociaux/);
+  assert.equal(M.raisonCourte(new Error('Image 404 : https://site.fr/x.jpg')), 'l’image de l’article ne répond plus sur le site');
+  assert.equal(M.raisonCourte({ message: 'x', problems: ['titre trop long'] }), 'titre trop long');
+  assert.equal(M.raisonCourte(new Error('Invalid OAuth access token')), 'jeton refusé par le réseau');
 });
 
-test('une note reste hors du texte copié', () => {
-  const { text, options } = aCopier('Copier le lieu', 'Musée d’Aquitaine', { note: 'S’il n’apparaît pas : Bordeaux' });
-  assert.match(text, /^<code>Musée d’Aquitaine<\/code>\n<i>/, 'la note vient après, en italique');
-  assert.equal(JSON.parse(options.reply_markup).inline_keyboard[0][0].copy_text.text, 'Musée d’Aquitaine');
+test('aucune statistique ni compte rendu de publication', () => {
+  const tout = exemples().map(([, m]) => m.text).join('\n');
+  assert.doesNotMatch(tout, /Publié sur|Bilan|interactions|abonnés|Point conso|lieux? appris/i);
+  assert.equal(M.messagePublie, undefined, 'le « Publié sur … » n’existe plus');
 });
 
 test('le catalogue couvre tous les envois du code', () => {
-  // Garde-fou : un module qui envoie sur Telegram doit figurer au catalogue, sinon la vue
-  // d'ensemble ment. Les scripts d'essai et le module Telegram lui-même sont hors sujet.
+  // Garde-fou : un module qui envoie sur Telegram (directement, ou par les problèmes et les messages
+  // uniques) doit figurer au catalogue, sinon la vue d'ensemble ment.
   const fichiers = [];
   const parcourir = (dir) => {
     for (const e of readdirSync(fromRoot(dir), { withFileTypes: true })) {
@@ -84,25 +103,13 @@ test('le catalogue couvre tous les envois du code', () => {
     }
   };
   parcourir('src');
+  const horsSujet = ['channels/telegram.mjs', 'channels/messages.mjs', 'channels/problemes.mjs'];
   const envoyeurs = fichiers.filter((f) => {
-    if (f === 'channels/telegram.mjs' || f === 'channels/messages.mjs') return false;
+    if (horsSujet.includes(f)) return false;
     const code = readFileSync(fromRoot('src', f), 'utf8');
-    return /\b(send|sendCopie|alert|sendStory|sendPhotos|sendDocument)\s*\(/.test(code) && /telegram\.mjs|messages\.mjs/.test(code);
+    return /\b(send|alert|sendPhotos|sendDocument|envoyerMessage|editText|signaler|unSeul)\s*\(/.test(code) && /telegram\.mjs|messages\.mjs|problemes\.mjs/.test(code);
   });
-  const couverts = new Set(CATALOGUE.map((m) => m.module));
+  const couverts = new Set(M.CATALOGUE.flatMap((m) => m.module.split(/,\s*/)));
   for (const f of envoyeurs) assert.ok(couverts.has(f), `${f} envoie sur Telegram mais n’est pas au catalogue`);
-  for (const m of CATALOGUE) {
-    assert.ok(m.id && m.titre && m.quand && m.frequence, `${m.id} : entrée incomplète`);
-  }
-});
-
-test('publication : le lien direct est dans un bouton, pas dans le texte', async () => {
-  const { messagePublie } = await import('../src/channels/messages.mjs');
-  const { text, options } = messagePublie('Instagram', 'Un titre & <balise>', 'https://www.instagram.com/p/Abc/');
-  assert.equal(text, '📣 <b>Publié sur Instagram</b>\nUn titre &amp; &lt;balise&gt;');
-  const bouton = JSON.parse(options.reply_markup).inline_keyboard[0][0];
-  assert.equal(bouton.text, '👁️ Voir sur Instagram');
-  assert.equal(bouton.url, 'https://www.instagram.com/p/Abc/');
-  // lien pas encore connu : le message part quand même, sans bouton mort
-  assert.deepEqual(messagePublie('Bluesky', 'T', null).options, {});
+  for (const m of M.CATALOGUE) assert.ok(m.id && m.titre && m.quand && m.frequence, `${m.id} : entrée incomplète`);
 });

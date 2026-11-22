@@ -10,8 +10,7 @@
   },
   "telegram": {
     "previews": false,
-    "publishedNotice": true,
-    "_telegram": "previews: aperçu avant publication (validation manuelle), désactivé — la publication est automatique. publishedNotice: message après chaque publication, avec un bouton vers le post."
+    "_telegram": "previews: aperçu avant publication (validation manuelle), désactivé — la publication est automatique. Plus de message après chaque publication depuis le 22/11/2026 : seuls partent les « À faire » (kit X, story) et les problèmes (config/notifications.json)."
   },
   "restriction": {
     "codes": [

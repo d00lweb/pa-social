@@ -38,9 +38,8 @@ test('réglages : Telegram prioritaire sur la configuration', () => {
   assert.equal(isPaused({ paused: { instagram: true } }, 'instagram'), true);
 });
 
-test('kit X : lien de rédaction pré-remplie, message copiable, statut « déjà publié »', async () => {
-  const { intentUrl, kitMessages, xLength } = await import('../src/channels/x.mjs');
-  const { aCopier } = await import('../src/channels/messages.mjs');
+test('kit X : lien de rédaction pré-remplie, longueur comptée comme X', async () => {
+  const { intentUrl, xLength } = await import('../src/channels/x.mjs');
   const post = 'Le matrimoine revient à #Bordeaux 🎭\n➡️ https://site.fr/un-tres-long-lien-d-article';
   const url = new URL(intentUrl(post));
   assert.equal(url.origin + url.pathname, 'https://x.com/intent/post');
@@ -50,42 +49,35 @@ ${post}
 `)).searchParams.get('text'), post, 'jamais de blanc de bordure : le post commencerait par une ligne vide');
   // 34 caractères + emoji (2) + saut de ligne (1) + ➡️ (2) + espace (1) + lien (23)
   assert.equal(xLength(post), 34 + 2 + 1 + 2 + 1 + 23);
-  // Un message à copier ne contient QUE ce qu'il faut copier : l'étiquette est sur le bouton.
-  // Avec le titre dans le message, une copie le ramenait avec ; l'effacer laissait une ligne vide,
-  // et le post partait sur X en commençant par un saut de ligne.
-  const texteX = `Texte <ok>\n➡️ https://site.fr/a`;
-  const kit1 = kitMessages({ article: { title: 'A & B' }, mode: 'image', text: texteX, link: 'https://site.fr/a', intent: intentUrl(texteX) });
-  assert.ok(kit1.sommaire.includes('A &amp; B'));
-  assert.equal(kit1.elements.length, 1, 'un seul élément à copier : le texte du post');
-  assert.equal(kit1.elements[0].valeur, texteX);
-  assert.match(kit1.elements[0].etiquette, /^Copier le texte \(\d+\/280\)$/);
-  // le bouton « Publier sur X » est contre le texte à coller, pas trois messages plus haut
-  const { options: boutonsTexte } = aCopier(kit1.elements[0].etiquette, kit1.elements[0].valeur, { lien: kit1.elements[0].lien });
-  const rangee = JSON.parse(boutonsTexte.reply_markup).inline_keyboard[0];
-  assert.equal(rangee.length, 2);
-  assert.equal(rangee[1].text, '✍️ Publier sur X');
-  assert.ok(rangee[1].url.startsWith('https://x.com/intent/post?text='));
-
-  // chaque élément dans son propre message, pour être copié indépendamment
-  const kit = kitMessages({
-    article: { title: 'T' },
-    mode: 'reponse',
-    text: 'Texte seul',
-    replyText: '📖 L’article : https://site.fr/a',
-    dossier: { comptes: { x: [{ nom: 'Musée', handle: 'MuseeAquitaine' }] }, lieu: { nom: 'Bordeaux' }, visuel: { texte_alternatif: 'Une façade' } },
-  });
-  assert.deepEqual(kit.elements.map((e) => e.valeur), ['Texte seul', '📖 L’article : https://site.fr/a', '@MuseeAquitaine', 'Bordeaux', 'Une façade']);
-  assert.ok(kit.sommaire.includes('le compte de Musée'), 'le sommaire annonce l’ordre des messages');
-
-  // le message ne porte que la valeur, échappée ; le bouton copie exactement cette valeur
-  const { text: corps, options } = aCopier('Copier le texte du post', kit1.elements[0].valeur);
-  assert.equal(corps, `<code>${texteX.replace('<ok>', '&lt;ok&gt;')}</code>`, 'rien que la valeur, échappée');
-  assert.equal(JSON.parse(options.reply_markup).inline_keyboard[0][0].copy_text.text, kit1.elements[0].valeur);
-  assert.equal(aCopier('x', 'a'.repeat(300)).options.reply_markup, undefined, 'au-delà de 256 caractères, pas de bouton');
 
   const dossier = { rubrique: 'R', source: 'ia', facebook: { texte: 'f' }, bluesky: { texte: 'b', hashtag: '#R' }, threads: { texte: 't' }, x: { texte: 'x' } };
   const text = buildPreviewText({ article: { guid: 'g', title: 'T', link: 'https://x' }, dossier, caption: 'c', items: [{ channel: 'x', status: 'awaiting', dueAt: 0 }], published: ['instagram'], when: () => 'vers 9h' });
   assert.ok(text.includes('<b>Instagram</b> · <i>déjà publié</i>') && text.includes('kit Telegram'));
+});
+
+test('kit X : un seul message, la consigne, les textes, un bouton par élément à copier', async () => {
+  const { intentUrl, kitDonnees } = await import('../src/channels/x.mjs');
+  const { kitX, longueurVisible, LEGENDE_MAX } = await import('../src/channels/messages.mjs');
+  // 22/11/2026 : jusqu'à neuf messages par article (image, sommaire, un message par élément,
+  // comptes à chercher). Désormais l'image et sa légende, avec tous les boutons.
+  const pkg = {
+    article: { title: 'A & B', guid: 'g' }, mode: 'reponse', text: 'Texte <ok> 🎭', replyText: '📖 L’article : https://site.fr/a', intent: intentUrl('Texte'),
+    dossier: { comptes: { x: [{ nom: 'Musée', handle: 'MuseeAquitaine' }], instagram: [{ nom: 'Ville de Bordeaux', handle: 'villedebordeaux' }] }, lieuNom: 'Bordeaux', visuel: { texte_alternatif: 'Une façade' } },
+  };
+  const m = kitX(kitDonnees(pkg));
+  assert.match(m.text.split('\n')[0], /^📌 <b>À publier sur X<\/b> · A &amp; B$/, 'première ligne : quoi, et l’article');
+  assert.ok(m.text.includes('<code>Texte &lt;ok&gt; 🎭</code>'), 'le texte, échappé, se lit dans le message');
+  assert.ok(m.text.includes('réponds à ton post'), 'la consigne suit le format');
+  assert.ok(m.text.includes('Ville de Bordeaux (@villedebordeaux ailleurs)'), 'les comptes à chercher sur X sont nommés');
+  const boutons = JSON.parse(m.reply_markup).inline_keyboard.flat();
+  assert.equal(boutons[0].text, '✍️ Publier sur X');
+  assert.ok(boutons[0].url.startsWith('https://x.com/intent/post?text='));
+  assert.deepEqual(boutons.filter((x) => x.copy_text).map((x) => x.copy_text.text), ['Texte <ok> 🎭', '📖 L’article : https://site.fr/a', '@MuseeAquitaine', 'Bordeaux', 'Une façade'], 'le bouton copie la valeur exacte, sans étiquette');
+  assert.ok(longueurVisible(m.text) <= LEGENDE_MAX, 'tient dans une légende d’image : un seul message');
+  // au-delà de 256 caractères, pas de bouton (Telegram le refuserait) : le texte reste dans le message
+  const long = kitX(kitDonnees({ ...pkg, text: 'a'.repeat(300) }));
+  assert.ok(!JSON.parse(long.reply_markup).inline_keyboard.flat().some((x) => x.copy_text?.text === 'a'.repeat(300)));
+  assert.ok(long.text.includes('a'.repeat(300)));
 });
 
 test('aperçu : échappement HTML, limite de 4000 caractères, boutons', () => {
@@ -99,24 +91,17 @@ test('aperçu : échappement HTML, limite de 4000 caractères, boutons', () => {
 });
 
 test('kit X : les comptes à chercher à la main sont proposés, pas devinés', async () => {
-  const { kitMessages } = await import('../src/channels/x.mjs');
+  const { kitDonnees } = await import('../src/channels/x.mjs');
   // X n'a pas d'API gratuite : aucun pseudo n'y est vérifiable. Plutôt que de se taire, le kit
   // donne les organisations confirmées sur les autres réseaux — le nom est sûr, le pseudo non.
-  const kit = kitMessages({
-    article: { title: 'T' }, mode: 'lien', text: 'Texte',
-    dossier: {
-      comptes: {
-        x: [],
-        instagram: [{ nom: 'Parc Zoo du Reynou', handle: 'parczooreynou' }, { nom: 'biodiversité', handle: 'ofbiodiversite', thematique: true }],
-        bluesky: [{ nom: 'biodiversité', handle: 'ofbiodiversite.bsky.social', thematique: true }],
-      },
-    },
-  });
+  const base = { article: { title: 'T', guid: 'g' }, mode: 'lien', text: 'Texte' };
+  const kit = kitDonnees({ ...base, dossier: { comptes: {
+    x: [],
+    instagram: [{ nom: 'Parc Zoo du Reynou', handle: 'parczooreynou' }, { nom: 'biodiversité', handle: 'ofbiodiversite', thematique: true }],
+    bluesky: [{ nom: 'biodiversité', handle: 'ofbiodiversite.bsky.social', thematique: true }],
+  } } });
   assert.deepEqual(kit.aChercher.map((c) => c.nom), ['Parc Zoo du Reynou', 'biodiversité'], 'une organisation citée une seule fois');
   // un compte déjà connu sur X n'est pas proposé à la recherche
-  const avecX = kitMessages({
-    article: { title: 'T' }, mode: 'lien', text: 'Texte',
-    dossier: { comptes: { x: [{ nom: 'Parc Zoo du Reynou', handle: 'parczooreynou' }], instagram: [{ nom: 'Parc Zoo du Reynou', handle: 'parczooreynou' }] } },
-  });
+  const avecX = kitDonnees({ ...base, dossier: { comptes: { x: [{ nom: 'Parc Zoo du Reynou', handle: 'parczooreynou' }], instagram: [{ nom: 'Parc Zoo du Reynou', handle: 'parczooreynou' }] } } });
   assert.deepEqual(avecX.aChercher, []);
 });

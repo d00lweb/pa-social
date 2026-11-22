@@ -184,16 +184,13 @@ export async function modererCommentaires({ history = [], log = console.log, lir
   return { verdicts, traites, refus };
 }
 
-// Une alerte par jour au plus : le spam arrive en rafale, le message ne doit pas la suivre.
-async function prevenirDroitManquant(combien, err, { now, envoyer, log }) {
+// Plus de message Telegram (22/11/2026) : le spam se compte, et le droit manquant se lit dans le
+// dashboard (jetons et connexions). Une ligne de journal par jour suffit.
+async function prevenirDroitManquant(combien, err, { now, log }) {
   const memo = await loadJson('moderation.json', {});
   const jour = new Date(now).toISOString().slice(0, 10);
   if (memo.alerte === jour) return;
   memo.alerte = jour;
   await saveJson('moderation.json', memo);
-  const texte = `🧹 <b>${combien} commentaire${combien > 1 ? 's' : ''} de spam</b> détecté${combien > 1 ? 's' : ''} sur Instagram, mais le jeton ne permet pas de les retirer.\n`
-    + `<i>${err.code === 10 ? 'Droit manquant : instagram_manage_comments' : err.message}</i>\n\n`
-    + 'En attendant, le filtre d’Instagram les arrête à la source : Paramètres → Confidentialité du compte → <b>Mots masqués</b> → Mots-clés personnalisés.';
-  const envoi = envoyer ?? (await import('../channels/telegram.mjs')).alert;
-  await envoi(texte, { type: 'spam' }).catch((e) => log(`   Alerte modération non envoyée : ${e.message}`));
+  log(`   ${combien} spam(s) non retirable(s) : ${err.code === 10 ? 'droit instagram_manage_comments manquant' : err.message}`);
 }

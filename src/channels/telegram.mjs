@@ -1,4 +1,4 @@
-import { aCopier, notificationActive } from './messages.mjs';
+import { notificationActive } from './messages.mjs';
 
 const API = 'https://api.telegram.org';
 
@@ -36,20 +36,6 @@ async function envoyer(text, extra = {}) {
   }
 }
 
-// Alerte : même rendu que les autres messages. Elle passait auparavant sans parse_mode, ce qui
-// affichait « <b>Budget IA</b> » en clair dans Telegram.
-// `type` : identifiant du message dans config/notifications.json ; coupé, il reste dans le journal.
-export async function alert(text, { type = null } = {}) {
-  console.error(sansBalises(text));
-  const c = config();
-  if (!c) return;
-  if (type && !notificationActive(type)) {
-    console.log(`   (message Telegram « ${type} » coupé dans les réglages)`);
-    return;
-  }
-  await envoyer(text);
-}
-
 // Message HTML ; extra : reply_markup (JSON), reply_to_message_id…
 export async function send(text, extra = {}, { type = null } = {}) {
   const c = config();
@@ -64,10 +50,20 @@ export async function send(text, extra = {}, { type = null } = {}) {
   return envoyer(text, extra);
 }
 
-// Élément à copier : le message ne porte que la valeur, l'étiquette est sur le bouton.
-export async function sendCopie(etiquette, valeur, options = {}) {
-  const { text, options: extra } = aCopier(etiquette, valeur, options);
-  return send(text, extra);
+// Un message du gabarit ({ text, reply_markup }, src/channels/messages.mjs)
+export const envoyerMessage = (message, options = {}) => send(message.text, message.reply_markup ? { reply_markup: message.reply_markup } : {}, options);
+
+// Corrige en place un message déjà envoyé (un problème qui s'étend à un autre réseau)
+export async function editText(messageId, message) {
+  const c = config();
+  if (!c || !messageId) return null;
+  const base = { chat_id: c.chat, message_id: String(messageId), disable_web_page_preview: 'true', ...(message.reply_markup ? { reply_markup: message.reply_markup } : {}) };
+  try {
+    return await call('editMessageText', new URLSearchParams({ ...base, text: message.text, parse_mode: 'HTML' }));
+  } catch (e) {
+    if (/not modified/i.test(e.message)) return null;
+    throw e;
+  }
 }
 
 export async function sendPhotos(buffers) {
@@ -108,39 +104,31 @@ export async function setCommands(commands) {
   await call('setMyCommands', new URLSearchParams({ commands: JSON.stringify(commands) }));
 }
 
-// Image envoyée en fichier (qualité d'origine, à enregistrer puis joindre au post)
-export async function sendDocument(buffer, filename, caption = '') {
-  const c = config();
-  if (!c) return null;
-  const form = new FormData();
-  form.append('chat_id', c.chat);
-  if (caption) form.append('caption', caption);
-  form.append('document', new Blob([buffer], { type: 'image/jpeg' }), filename);
-  return call('sendDocument', form);
-}
-
-// Story envoyée en document (pas de recompression) : le sticker lien se pose à la main.
-// Même forme que le kit X : l'image, puis un message par élément à copier — l'étiquette est sur
-// le bouton, le message ne contient que la valeur. La légende annonce l'ordre.
-export async function sendStory({ buffer, url, title, link, comptes = [], lieu = null }) {
+// Image envoyée en fichier (qualité d'origine, à enregistrer puis joindre au post), avec sa légende
+// HTML et ses boutons : un « À faire » tient ainsi en un seul message. Repli en texte nu si Telegram
+// refuse le balisage, comme pour les messages.
+export async function sendDocument(buffer, filename, { caption = '', reply_markup = null } = {}) {
   const c = config();
   if (!c) {
-    console.log(`Story à poster à la main : ${url}\n  Sticker lien : ${link}`);
-    return;
+    console.log(sansBalises(caption));
+    return null;
   }
-  const elements = [
-    { etiquette: 'Copier le lien du sticker', valeur: link, sommaire: 'le lien du sticker' },
-    ...comptes.map((h) => ({ etiquette: `Copier @${h}`, valeur: `@${h}`, sommaire: `le compte @${h} à mentionner` })),
-    ...(lieu ? [{ etiquette: 'Copier le lieu', valeur: lieu, sommaire: 'le lieu à taguer' }] : []),
-  ];
-
-  const form = new FormData();
-  form.append('chat_id', c.chat);
-  form.append('caption', `📲 Story à poster · ${title}\n\nEnregistre l’image, publie-la en story, puis pose le sticker lien.\nCi-dessous, dans l’ordre : ${elements.map((e) => e.sommaire).join(' · ')}.`);
-  form.append('document', new Blob([buffer], { type: 'image/jpeg' }), 'story.jpg');
-  await call('sendDocument', form);
-
-  for (const e of elements) await sendCopie(e.etiquette, e.valeur);
+  const form = (html) => {
+    const f = new FormData();
+    f.append('chat_id', c.chat);
+    if (caption) f.append('caption', html ? caption : sansBalises(caption));
+    if (caption && html) f.append('parse_mode', 'HTML');
+    if (reply_markup) f.append('reply_markup', reply_markup);
+    f.append('document', new Blob([buffer], { type: 'image/jpeg' }), filename);
+    return f;
+  };
+  try {
+    return await call('sendDocument', form(true));
+  } catch (e) {
+    if (!/parse|entit|tag/i.test(e.message)) throw e;
+    console.error(`Telegram : balisage refusé (${e.message}), légende en texte nu`);
+    return call('sendDocument', form(false));
+  }
 }
 
 export const BOT_COMMANDS = [
@@ -154,5 +142,5 @@ export const BOT_COMMANDS = [
   { command: 'jamais', description: 'Ne plus taguer un compte : /jamais @compte' },
   { command: 'oublier', description: 'Défaire : /oublier Hendaye ou /oublier @compte' },
   { command: 'comptes', description: 'Comptes enseignés et exclus' },
-  { command: 'aide', description: 'Liste des commandes' },
+  { command: 'aide', description: 'Ce que je t’envoie, et les commandes' },
 ];

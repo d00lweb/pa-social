@@ -4,12 +4,12 @@ import sharp from 'sharp';
 import { splitAround } from '../brain/editorial.mjs';
 import { linkLead } from '../brain/compose.mjs';
 import { placerMentions } from '../brain/annuaire.mjs';
-import { alerteThreadsReponse } from './messages.mjs';
+import { lienNonPoste } from './messages.mjs';
 import { loadSource, cropTo, toMetaJpeg, SLIDE } from '../media/crop.mjs';
 import { createRenderer } from '../media/render.mjs';
 import { uploadFiles, assertPublic } from '../storage/ftp.mjs';
 import { GraphError } from './meta-graph.mjs';
-import { alert } from './telegram.mjs';
+import { signaler } from './problemes.mjs';
 import { jitter } from '../core/scheduler.mjs';
 import { GuardError } from '../core/errors.mjs';
 import { config, fromRoot } from '../core/config.mjs';
@@ -160,7 +160,10 @@ export async function publish(pkg, { channel } = {}) {
       console.log('   Réponse publiée');
     } catch (err) {
       console.error(`   Réponse non publiée : ${err.message}`);
-      await alert(alerteThreadsReponse(pkg.article.title, pkg.replyText)).catch(() => {});
+      await signaler(`lien-non-poste:threads:${pkg.article.guid}`, {
+        type: 'lien-non-poste', rappel: false, dureeJours: 2,
+        message: lienNonPoste({ reseau: 'Threads', titre: pkg.article.title, texte: pkg.replyText, lienPost: lien }),
+      }).catch(() => {});
     }
   }
   return { mediaId: postId, lien };

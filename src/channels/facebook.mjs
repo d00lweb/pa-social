@@ -6,8 +6,8 @@ import { loadSource, cropTo, SLIDE } from '../media/crop.mjs';
 import { createRenderer } from '../media/render.mjs';
 import { uploadFiles, assertPublic } from '../storage/ftp.mjs';
 import { GraphError } from './meta-graph.mjs';
-import { alert } from './telegram.mjs';
-import { alerteFacebookCommentaire } from './messages.mjs';
+import { lienNonPoste } from './messages.mjs';
+import { signaler } from './problemes.mjs';
 import { jitter } from '../core/scheduler.mjs';
 import { GuardError } from '../core/errors.mjs';
 import { config, fromRoot } from '../core/config.mjs';
@@ -208,7 +208,10 @@ export async function publish(pkg, { channel } = {}) {
       console.log('   Commentaire (lien) publié');
     } catch (err) {
       console.error(`   Commentaire non publié : ${err.message}`);
-      await alert(alerteFacebookCommentaire(pkg.article.title, pkg.comment)).catch(() => {});
+      await signaler(`lien-non-poste:facebook:${pkg.article.guid}`, {
+        type: 'lien-non-poste', rappel: false, dureeJours: 2,
+        message: lienNonPoste({ reseau: 'Facebook', titre: pkg.article.title, texte: pkg.comment, lienPost: lien }),
+      }).catch(() => {});
     }
   }
   return { mediaId: postId, lien };

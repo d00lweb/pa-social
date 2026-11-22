@@ -6,8 +6,9 @@ import { fallbackDossier } from '../brain/fallback.mjs';
 import { loadSource, cropTo, SLIDE, STORY } from '../media/crop.mjs';
 import { createRenderer } from '../media/render.mjs';
 import { uploadFiles, assertPublic } from '../storage/ftp.mjs';
-import { sendStory } from './telegram.mjs';
-import { notificationActive } from './messages.mjs';
+import { sendDocument } from './telegram.mjs';
+import { notificationActive, story as storyMessage, storyNonEnvoyee } from './messages.mjs';
+import { unSeul, signaler } from './problemes.mjs';
 import { createGraph } from './meta-graph.mjs';
 import { MAX_MENTIONS } from '../brain/comptes.mjs';
 import { GuardError, DeferError } from '../core/errors.mjs';
@@ -183,21 +184,27 @@ export async function publish(pkg, { channel }) {
   // permalien pour l'avis Telegram : un échec ici ne doit rien casser, le post est déjà en ligne
   const lien = await graph.permalink(mediaId).catch(() => null);
 
-  // story : envoi manuel, non bloquant
+  // story : envoi manuel, non bloquant, UN message (l'image et ses boutons), une fois par article
   try {
     // la story se coupe dans les réglages (config/notifications.json)
     if (!notificationActive('story')) console.log('   Story non envoyée : coupée dans les réglages');
-    else await sendStory({
-      buffer: pkg.files[2].buffer,
-      url: storyUrl,
-      title: pkg.article.title,
-      link: pkg.article.link,
-      comptes: comptes.map((c) => c.handle),
-      // la story se tague à la main : le nom du lieu suffit, même sans identifiant Meta
-      lieu: pkg.dossier.lieuNom ?? lieu?.nom ?? null,
-    });
+    else {
+      const message = storyMessage({
+        titre: pkg.article.title,
+        lienArticle: pkg.article.link,
+        comptes: comptes.map((c) => c.handle),
+        // la story se tague à la main : le nom du lieu suffit, même sans identifiant Meta
+        lieu: pkg.dossier.lieuNom ?? lieu?.nom ?? null,
+      });
+      await unSeul(`story:${pkg.article.guid}`, () => sendDocument(pkg.files[2].buffer, 'story.jpg', { caption: message.text, reply_markup: message.reply_markup }));
+    }
   } catch (e) {
+    // le carrousel est en ligne : on ne rejoue rien, on prévient avec l'image et le lien
     console.error(`   Story non envoyée : ${e.message}\n   ${storyUrl}`);
+    await signaler(`story-non-envoyee:${pkg.article.guid}`, {
+      type: 'story', rappel: false, dureeJours: 1,
+      message: storyNonEnvoyee({ titre: pkg.article.title, imageUrl: storyUrl, lienArticle: pkg.article.link }),
+    });
   }
   return { mediaId, lien, collaborateurs: proposes };
 }

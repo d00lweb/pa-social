@@ -1,7 +1,7 @@
 import { loadJson, saveJson } from '../core/state.mjs';
 import { dayKey } from '../core/scheduler.mjs';
 import { config } from '../core/config.mjs';
-import { alerteBudget, alerteIa, euros } from '../channels/messages.mjs';
+import { budget, ia, messageRegle } from '../channels/messages.mjs';
 
 // Ce que l'IA coûte réellement, relevé appel par appel dans state/couts.json.
 // Aucune estimation : les jetons viennent de la réponse de l'API, le prix de la grille publique.
@@ -108,78 +108,36 @@ export function budgetDuMois(releve = {}, now = Date.now(), timeZone = TZ, factu
   return { depense: arrondi(depense), robot: arrondi(robot), local: arrondi(local), budget: BUDGET_MOIS, part: BUDGET_MOIS ? depense / BUDGET_MOIS : 0, depasse: depense >= BUDGET_MOIS };
 }
 
-// Prévient à 70 % du budget, puis refuse d'appeler au-delà de 100 %. Une alerte par jour et par seuil.
-export async function verifierBudget({ now = Date.now(), envoyer } = {}) {
+// Budget dépassé : un message tant que ça dure, un rappel par semaine au plus, « réglé » au mois
+// suivant (src/channels/problemes.mjs). Plus d'alerte à 70 % ni de rappel chaque jour (22/11/2026).
+// `problemes` : remplaçable par les tests.
+const lesProblemes = () => import('../channels/problemes.mjs');
+export async function verifierBudget({ now = Date.now(), problemes } = {}) {
   const releve = await loadJson('couts.json', {});
   const etat = budgetDuMois(releve, now, TZ, await loadJson('couts-console.json', null));
-  const seuil = etat.depasse ? 'plafond' : etat.part >= 0.7 ? 'alerte' : null;
-  if (!seuil) return etat;
-  const memo = await loadJson('ia.json', {});
-  const cle = `${seuil}-${dayKey(now, TZ)}`;
-  if (memo.budget !== cle) {
-    memo.budget = cle;
-    await saveJson('ia.json', memo);
-    const texte = alerteBudget(etat, { couperAuPlafond: COUPER_AU_PLAFOND });
-    const envoi = envoyer ?? (await import('../channels/telegram.mjs')).alert;
-    await envoi(texte, { type: 'budget' }).catch(() => {});
-  }
+  const p = problemes ?? (await lesProblemes());
+  if (etat.depasse) await p.signaler('budget', { type: 'budget', message: budget(etat, { couperAuPlafond: COUPER_AU_PLAFOND }), delaiMinutes: 0, maintenant: now });
+  else await p.regler('budget', { message: messageRegle('La dépense du rédacteur est repassée sous le plafond.') });
   return etat;
 }
 
-// Point hebdomadaire sur la dépense : le dimanche, au premier passage après 19 h.
-// C'est le suivi ordinaire ; les alertes de seuil, elles, signalent un écart.
-export async function resumeHebdoCouts({ now = Date.now(), envoyer } = {}) {
-  const jour = dayKey(now, TZ);
-  if (jourSemaine(now) !== 'Sun' || localHeure(now) < 19) return null;
-  const memo = await loadJson('ia.json', {});
-  if (memo.resume === jour) return null;
-
-  const releve = await loadJson('couts.json', {});
-  const septJours = Array.from({ length: 7 }, (_, i) => dayKey(now - i * 86400e3, TZ));
-  const semaine = septJours.reduce((n, j) => {
-    const l = releve[j];
-    if (!l) return n;
-    const robot = l.parOrigine?.robot ?? (l.parOrigine ? { appels: 0, cout: 0 } : { appels: l.appels, cout: l.cout });
-    return { appels: n.appels + robot.appels, cout: n.cout + robot.cout };
-  }, { appels: 0, cout: 0 });
-  const etat = budgetDuMois(releve, now, TZ, await loadJson('couts-console.json', null));
-  memo.resume = jour;
-  await saveJson('ia.json', memo);
-
-  const numeroJour = Number(jour.slice(8));
-  const joursDuMois = new Date(Number(jour.slice(0, 4)), Number(jour.slice(5, 7)), 0).getDate();
-  const projection = numeroJour ? (etat.depense / numeroJour) * joursDuMois : 0;
-  const lignes = [
-    '💶 <b>Rédacteur IA — la semaine</b>',
-    semaine.appels ? `7 derniers jours : ${semaine.appels} article${semaine.appels > 1 ? 's' : ''} rédigé${semaine.appels > 1 ? 's' : ''}, ${euros(semaine.cout)}` : '7 derniers jours : aucun article rédigé',
-    `Ce mois-ci : <b>${euros(etat.depense)}</b> sur ${euros(etat.budget)} (${Math.round(etat.part * 100)} %)`,
-    `Fin de mois au rythme actuel : ${euros(projection)}`,
-    etat.local ? `<i>Dont ${euros(etat.robot)} de publications et ${euros(etat.local)} de mises au point lancées depuis un poste.</i>` : '',
-  ];
-  const envoi = envoyer ?? (await import('../channels/telegram.mjs')).send;
-  await envoi(lignes.filter(Boolean).join('\n'), {}, { type: 'conso-hebdo' }).catch(() => {});
-  return { semaine, depense: etat.depense, projection };
-}
-
-const jourSemaine = (ms, timeZone = TZ) => new Intl.DateTimeFormat('en-GB', { timeZone, weekday: 'short' }).format(new Date(ms));
-
-const localHeure = (ms, timeZone = TZ) => Number(new Intl.DateTimeFormat('en-GB', { timeZone, hour: '2-digit', hourCycle: 'h23' }).format(new Date(ms)));
-
 // Rédacteur injoignable (crédit épuisé, panne de l'API, clé refusée) : sans lui, les cinq réseaux
-// publient une copie dégradée, sans accroche travaillée ni compte mentionné. Une alerte par jour,
-// pas une par passage : la panne dure, le rappel ne doit pas devenir du bruit.
-export async function signalerIaIndisponible(message, { now = Date.now(), envoyer } = {}) {
+// publient une copie dégradée. Un message tant que la panne dure (avant le 22/11 : un par jour),
+// « réglé » au premier article rédigé de nouveau (iaRetablie). ia.json garde la date pour le dashboard.
+export async function signalerIaIndisponible(message, { now = Date.now(), problemes } = {}) {
   const etat = await loadJson('ia.json', {});
-  const jour = dayKey(now, TZ);
-  if (etat.alerte === jour) return false;
-  etat.alerte = jour;
+  etat.alerte = dayKey(now, TZ);
   etat.dernierMessage = String(message ?? '').slice(0, 300);
   await saveJson('ia.json', etat);
   const manqueDeCredit = /credit balance|insufficient|quota/i.test(message ?? '');
-  const texte = alerteIa(message, { manqueDeCredit });
-  const envoi = envoyer ?? (await import('../channels/telegram.mjs')).alert;
-  await envoi(texte, { type: 'ia-indisponible' });
+  const p = problemes ?? (await lesProblemes());
+  await p.signaler('ia', { type: 'ia-indisponible', message: ia(message, { manqueDeCredit }), maintenant: now });
   return true;
+}
+
+export async function iaRetablie({ problemes } = {}) {
+  const p = problemes ?? (await lesProblemes());
+  return p.regler('ia', { message: messageRegle('Le rédacteur IA répond de nouveau : les textes sont de nouveau travaillés.') });
 }
 
 const vide = { appels: 0, entree: 0, sortie: 0, cout: 0 };

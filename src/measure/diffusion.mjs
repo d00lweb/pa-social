@@ -1,13 +1,11 @@
 import { loadJson, saveJson } from '../core/state.mjs';
 import { dayKey, localHour } from '../core/scheduler.mjs';
-import { send } from '../channels/telegram.mjs';
 import { config } from '../core/config.mjs';
-import { agreger, messageHebdo, messageMensuel, rapportMensuel } from './rapport.mjs';
-import { resumeSemaine } from './abonnes.mjs';
+import { rapportMensuel } from './rapport.mjs';
 import { VERSION_COMPTAGE } from './collect.mjs';
 
-// Quand diffuser les rapports. Le robot passe toutes les 20 minutes : un marqueur d'état
-// garantit un seul envoi par semaine et un seul rapport par mois.
+// Rapports mensuels figés une fois par mois (un marqueur d'état). Plus aucun envoi sur Telegram
+// depuis le 22/11/2026 ; dueHebdo ne sert plus qu'aux tests.
 const TZ = config.timezone;
 const JOUR = 86400e3;
 
@@ -37,14 +35,8 @@ export async function diffuser({ history = [], mesures = [], now = Date.now(), l
   const releves = await loadJson('abonnes.json', {});
   let change = false;
 
-  if (dueHebdo(etat, now)) {
-    const du = now - 7 * JOUR;
-    const bilan = agreger(mesures, { history, depuis: du, jusqu: now });
-    await send(messageHebdo(bilan, { du, au: now, abonnes: resumeSemaine(releves, now, TZ) }), {}, { type: 'bilan-hebdo' });
-    etat.dernierHebdo = dayKey(now, TZ);
-    change = true;
-    log(`Rapport hebdomadaire envoyé (${bilan.posts} posts mesurés).`);
-  }
+  // Plus aucun bilan sur Telegram depuis le 22/11/2026 (hebdomadaire ni mensuel) : les chiffres sont
+  // dans le dashboard. Les rapports mensuels restent figés ici, pour la page de pilotage.
 
   // Un rapport figé avec l'ancien comptage des commentaires (spam et réponses du robot compris) est
   // refait une fois, quand tous les relevés de son mois ont été recomptés. Sans nouvel envoi.
@@ -61,8 +53,6 @@ export async function diffuser({ history = [], mesures = [], now = Date.now(), l
   if (aFiger) {
     const rapport = { ...rapportMensuel(mesures, history, aFiger, { releves }), comptage: VERSION_COMPTAGE };
     await saveJson(`rapports/${aFiger}.json`, rapport);
-    // le bilan part aussi sur Telegram, en version courte ; un échec d'envoi ne bloque pas le rapport
-    await send(messageMensuel(rapport), {}, { type: 'bilan-mensuel' }).catch((e) => log(`Bilan mensuel non envoyé : ${e.message}`));
     if (!index.includes(aFiger)) index.unshift(aFiger);
     await saveJson('rapports/index.json', index.slice(0, 24));
     etat.dernierMensuel = aFiger;

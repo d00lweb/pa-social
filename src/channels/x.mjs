@@ -5,14 +5,16 @@ import { splitAround } from '../brain/editorial.mjs';
 import { composeX, composeXText, linkLead } from '../brain/compose.mjs';
 import { loadSource, cropTo, toMetaJpeg, SLIDE } from '../media/crop.mjs';
 import { createRenderer } from '../media/render.mjs';
-import { send, sendCopie, sendDocument } from './telegram.mjs';
-import { esc } from './messages.mjs';
+import { envoyerMessage, sendDocument } from './telegram.mjs';
+import { kitX, longueurVisible, LEGENDE_MAX } from './messages.mjs';
+import { unSeul } from './problemes.mjs';
 import { GuardError } from '../core/errors.mjs';
 import { config, fromRoot } from '../core/config.mjs';
 
 // X sans API (payante) : kit envoyé sur Telegram, publication à la main
 export const id = 'x';
-export const publishedLabel = '📨 <b>Kit X envoyé</b>, à publier depuis Telegram';
+// le kit part sur Telegram : pas de publication à confirmer (sert au journal du passage)
+export const publishedLabel = 'Kit X envoyé';
 const SIZE = [1080, 1350]; // 4:5, format choisi pour X
 
 // Rotation des 3 formats, stable par article
@@ -25,12 +27,6 @@ const LIBELLES = {
   lien: 'lien seul, X affiche l’aperçu',
   reponse: 'image, lien en réponse',
 };
-const CONSIGNES = {
-  image: 'Enregistre l’image ci-dessus, touche « Publier sur X », joins l’image et publie.',
-  lien: 'Touche « Publier sur X » et publie sans joindre l’image : X affiche l’aperçu du lien. Le visuel reste fourni si tu le préfères.',
-  reponse: 'Enregistre l’image, touche « Publier sur X », joins l’image et publie. Réponds ensuite à ton propre post avec le second texte.',
-};
-
 // Lien de rédaction pré-remplie : texte + « ➡️ lien » à la ligne.
 // Le texte est débarrassé de tout blanc de bordure — un saut de ligne en tête ferait commencer le
 // post par une ligne vide. Encodage en %20 plutôt qu'en « + » : tous les clients ne relisent pas
@@ -79,66 +75,47 @@ export async function prepare(article, { dossier, renderer: shared, log = consol
   return { article, dossier, mode, files: [{ name, buffer }], text, replyText, link: article.link, intent: intentUrl(text) };
 }
 
-// Un message par élément, et chaque message ne contient QUE ce qu'il faut copier : l'étiquette est
-// portée par le bouton. Auparavant le titre (« 📝 Texte du post (246/280) ») était dans le message :
-// une copie le ramenait avec, il fallait l'effacer dans X, et la ligne vide laissée derrière faisait
-// commencer le post par un saut de ligne. Le sommaire annonce l'ordre une fois pour toutes.
-export function kitMessages(pkg) {
-  const mode = pkg.mode ?? 'image';
+// Le kit en UN message (22/11/2026) : l'image, la consigne, les textes et un bouton par élément à
+// copier. Avant, jusqu'à neuf messages par article (image, sommaire, un message par élément, comptes à
+// chercher). Les comptes à chercher sont ceux que les autres réseaux ont confirmés : X n'ayant pas
+// d'API gratuite, leur pseudo reste à trouver à la main, souvent le même qu'ailleurs.
+export function kitDonnees(pkg) {
   const comptes = (pkg.dossier?.comptes?.x ?? []).slice(0, 3);
-  const pistes = comptes.length ? [] : (pkg.dossier?.comptes?.instagram ?? []).slice(0, 3);
-  const nomLieu = pkg.dossier?.lieuNom ?? pkg.dossier?.lieu?.nom;
-  const commune = pkg.dossier?.commune;
-  const alt = pkg.dossier?.visuel?.texte_alternatif;
-
-  const elements = [
-    { etiquette: `Copier le texte (${xLength(pkg.text)}/280)`, valeur: pkg.text, sommaire: 'le texte du post', lien: pkg.intent ? { texte: '✍️ Publier sur X', url: pkg.intent } : null },
-    pkg.replyText && { etiquette: 'Copier la réponse', valeur: pkg.replyText, sommaire: 'la réponse à publier juste après' },
-    ...comptes.map((c) => ({ etiquette: `Copier @${c.handle}`, valeur: `@${c.handle}`, sommaire: `le compte de ${c.nom}` })),
-    ...pistes.map((c) => ({ etiquette: `Copier @${c.handle}`, valeur: `@${c.handle}`, sommaire: `une piste : ${c.nom}, vérifié sur Instagram, à confirmer sur X` })),
-    nomLieu && { etiquette: 'Copier le lieu', valeur: nomLieu, sommaire: 'le lieu à taguer', note: commune && commune !== nomLieu ? `S'il n'apparaît pas sur X, essayer : ${commune}` : null },
-    alt && { etiquette: 'Copier la description', valeur: alt, sommaire: 'la description de l’image (bouton « ALT » sur X)' },
-  ].filter(Boolean);
-
-  // X n'a pas d'API gratuite : impossible d'y vérifier un pseudo. Plutôt que de ne rien dire, on
-  // donne les organisations à chercher — celles que les autres réseaux ont confirmées pour cet
-  // article. Le nom est sûr, le pseudo reste à trouver : trente secondes de recherche pour une
-  // mention qui, elle, touche une audience entière.
-  const aChercher = [
-    ...(pkg.dossier?.comptes?.instagram ?? []),
-    ...(pkg.dossier?.comptes?.bluesky ?? []),
-  ]
-    .filter((c) => !comptes.some((x) => x.handle === c.handle))
-    .filter((c, i, t) => t.findIndex((x) => (x.nom ?? '') === (c.nom ?? '')) === i)
-    .slice(0, 3);
-
-  const sommaire = [
-    `🐦 <b>Kit X</b> · ${esc(pkg.article.title)}`,
-    `<i>Format : ${LIBELLES[mode] ?? mode}</i>`,
-    '',
-    CONSIGNES[mode] ?? '',
-    comptes.length ? 'Les comptes se taguent sur l’image : ils ne comptent pas dans les 280 caractères.' : '',
-    '',
-    `<i>Ci-dessous, dans l’ordre : ${elements.map((e) => e.sommaire).join(' · ')}. Chaque message ne contient que le texte à copier, le bouton le met dans le presse-papier.</i>`,
-  ].filter(Boolean).join('\n');
-
-  return { sommaire, elements, aChercher };
+  const aChercher = [...(pkg.dossier?.comptes?.instagram ?? []), ...(pkg.dossier?.comptes?.bluesky ?? [])]
+    .filter((c) => c?.handle && !comptes.some((x) => x.handle === c.handle))
+    .filter((c, i, t) => t.findIndex((x) => (x.nom ?? x.handle) === (c.nom ?? c.handle)) === i)
+    .slice(0, 3)
+    .map((c) => ({ nom: c.nom ?? c.handle, handle: c.handle }));
+  const lieu = pkg.dossier?.lieuNom ?? pkg.dossier?.lieu?.nom ?? null;
+  const commune = pkg.dossier?.commune ?? null;
+  return {
+    titre: pkg.article.title,
+    mode: pkg.mode ?? 'image',
+    texte: pkg.text,
+    longueur: xLength(pkg.text),
+    reponse: pkg.replyText ?? null,
+    intent: pkg.intent,
+    comptes,
+    aChercher,
+    lieu,
+    lieuSecours: commune && commune !== lieu ? commune : null,
+    alt: pkg.dossier?.visuel?.texte_alternatif ?? null,
+  };
 }
 
 export async function publish(pkg) {
-  if (pkg.files.length) await sendDocument(pkg.files[0].buffer, pkg.files[0].name);
-  const { sommaire, elements, aChercher } = kitMessages(pkg);
-  await send(sommaire, { reply_markup: JSON.stringify({ inline_keyboard: [[{ text: '✍️ Publier sur X', url: pkg.intent }]] }) });
-  for (const e of elements) await sendCopie(e.etiquette, e.valeur, { note: e.note ?? null, lien: e.lien ?? null });
-  if (aChercher.length) {
-    // le pseudo Instagram est donné : c'est souvent le même sur X, et c'est la recherche la plus rapide
-    const pourquoi = { sujet: 'cité par l’article', commune: 'la commune', domaine: 'référence du sujet', territoire: 'le territoire' };
-    await send([
-      '🔎 <b>Comptes à chercher sur X</b>',
-      '<i>Confirmés sur les autres réseaux pour cet article ; X n’ayant pas d’API gratuite, leur pseudo reste à trouver à la main — souvent le même qu’ailleurs.</i>',
-      '',
-      ...aChercher.map((c) => `· <b>${esc(c.nom)}</b> — ${pourquoi[c.echelon] ?? (c.thematique ? 'référence du sujet' : 'cité par l’article')} · <code>@${esc(c.handle)}</code> ailleurs`),
-    ].join('\n'));
-  }
+  const message = kitX(kitDonnees(pkg));
+  await unSeul(`kit-x:${pkg.article.guid}`, async () => {
+    // une légende d'image tient en 1 024 caractères : au-delà (ou si Telegram la refuse), l'image puis le kit
+    if (longueurVisible(message.text) <= LEGENDE_MAX) {
+      try {
+        return await sendDocument(pkg.files[0].buffer, pkg.files[0].name, { caption: message.text, reply_markup: message.reply_markup });
+      } catch (e) {
+        if (!/caption|too long/i.test(e.message)) throw e;
+      }
+    }
+    await sendDocument(pkg.files[0].buffer, pkg.files[0].name, { caption: message.text.split('\n')[0] });
+    return envoyerMessage(message);
+  });
   return { mediaId: 'kit-telegram' };
 }

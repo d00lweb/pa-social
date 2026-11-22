@@ -6,7 +6,7 @@ import { frenchTypography } from './editorial.mjs';
 import { resolvePlace, candidateZones, placeNames, geo, fold } from './geo.mjs';
 import { checkDossier } from './guards.mjs';
 import { fallbackDossier, sansDate } from './fallback.mjs';
-import { signalerIaIndisponible, verifierBudget, COUPER_AU_PLAFOND } from './couts.mjs';
+import { signalerIaIndisponible, iaRetablie, verifierBudget, COUPER_AU_PLAFOND } from './couts.mjs';
 import { nextAngles, nextEmojiPositions } from './memory.mjs';
 import { reparer } from './reparations.mjs';
 
@@ -82,7 +82,7 @@ export async function buildDossier(article, { memory, useCache = false, log = co
     return fallbackDossier(article);
   }
 
-  // Suivi de la dépense : l'alerte Telegram part à 70 % puis au plafond. Le rédacteur ne s'arrête
+  // Suivi de la dépense : un message Telegram au dépassement du plafond. Le rédacteur ne s'arrête
   // que si `couperAuPlafond` est activé — sinon on préfère quelques centimes de dépassement à une
   // publication dégradée. L'article serait alors reporté (6 h) avant de partir avec les règles.
   const budget = await verifierBudget({ now: Date.now() });
@@ -117,10 +117,12 @@ export async function buildDossier(article, { memory, useCache = false, log = co
       result = await askEditor({ system, payload: corrections ? { ...payload, corrections } : payload, model: modele, effort });
     } catch (err) {
       log(`   IA indisponible (${err.message}) : règles de secours`);
-      // prévenir une fois par jour : sans rédacteur, les cinq réseaux publient une copie dégradée
+      // prévenir une fois tant que ça dure : sans rédacteur, les cinq réseaux publient une copie dégradée
       await signalerIaIndisponible(err.message, { now: Date.now() }).catch(() => {});
       return { ...fallbackDossier(article), raison: 'ia-indisponible' };
     }
+    // le rédacteur a répondu : une panne signalée plus tôt est réglée
+    if (attempt === 1) await iaRetablie().catch(() => {});
     // Les rubriques permises sont plus étroites que les noms propres permis : une zone d'identité
     // n'est acceptable que si les données la justifient (voir candidateZones), sinon la rubrique
     // retombe sur la commune, le département ou un thème.

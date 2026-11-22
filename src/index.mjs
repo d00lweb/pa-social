@@ -14,16 +14,16 @@ import { collecter } from './measure/collect.mjs';
 import { releverAbonnes, saisirAbonnes, lireNombre } from './measure/abonnes.mjs';
 import { completerLiens, LECTEURS } from './measure/liens.mjs';
 import { modererCommentaires } from './measure/moderation.mjs';
-import { resumeHebdoCouts } from './brain/couts.mjs';
 import { diffuser } from './measure/diffusion.mjs';
 import { ecrire as ecrirePilotage } from './measure/pilotage.mjs';
 import { publierPublic } from './measure/public.mjs';
 import { verifier as verifierJetons } from './measure/jetons.mjs';
 import { capturer as capturerApercu } from './measure/apercus.mjs';
 import { loadMemory, saveMemory, remember, retenirMentions } from './brain/memory.mjs';
-import { alert, telegramEnabled, send, sendPhotos, getUpdates, answerCallback, clearButtons } from './channels/telegram.mjs';
+import { telegramEnabled, send, sendPhotos, getUpdates, answerCallback, clearButtons, envoyerMessage, editText } from './channels/telegram.mjs';
 import { buildPreviewText, previewButtons } from './channels/preview.mjs';
-import { esc, alerteJetonRefuse, alerteFlux, messagePublie } from './channels/messages.mjs';
+import { esc, publicationRatee, raisonCourte, jetonRefuse, pauseAuto, flux as fluxMessage, passageEnEchec, messageRegle } from './channels/messages.mjs';
+import { signaler, regler, ajouterCause, retirerCause, distribuer, ouverts, etatDesProblemes, activerDisque } from './channels/problemes.mjs';
 import * as instagram from './channels/instagram.mjs';
 import * as x from './channels/x.mjs';
 import * as bluesky from './channels/bluesky.mjs';
@@ -44,8 +44,22 @@ const ed = JSON.parse(readFileSync(fromRoot('config/editorial.json'), 'utf8'));
 
 const paris = (ms) => new Date(ms).toLocaleString('fr-FR', { timeZone: TZ, dateStyle: 'short', timeStyle: 'short' });
 // `type` : identifiant du message dans config/notifications.json (un message coupé ne part pas)
-const notify = (text, type = null) => alert(text, { type }).catch((e) => console.error(`Alerte Telegram impossible : ${e.message}`));
 const say = (text, extra, type = null) => send(text, extra, { type }).catch((e) => console.error(`Telegram : ${e.message}`));
+
+// Jeton qui sert à chaque réseau : un refus Meta touche Facebook et Instagram, un seul message
+const JETONS = { meta: 'Meta', threads: 'Threads' };
+const jetonDe = (reseau) => (['instagram', 'facebook'].includes(reseau) ? 'meta' : reseau);
+
+// Un article perdu pour un réseau : un message par article, complété si d'autres réseaux échouent
+async function signalerRatee(item, channel, err) {
+  const cle = `ratee:${item.guid}`;
+  const avant = (await etatDesProblemes()).ouverts[cle]?.donnees?.reseaux ?? [];
+  const reseaux = [...avant.filter((r) => r.id !== channel.id), { id: channel.id, nom: NAMES[channel.id], raison: raisonCourte(err) }];
+  await signaler(cle, {
+    type: 'publication-ratee', rappel: false, editable: true, dureeJours: 7, donnees: { reseaux },
+    message: publicationRatee({ titre: item.article.title, lienArticle: item.article.link, reseaux }),
+  });
+}
 
 function when(ms, now) {
   if (ms <= now) return 'dès que possible';
@@ -148,20 +162,22 @@ function fileText({ queue, now }) {
   return ['📋 <b>File</b>', ...open.slice(0, 15).map((q) => `${q.status === 'awaiting' ? '⏳ à valider' : `🕒 ${when(q.dueAt, now)}`} · ${NAMES[q.channel]} · ${esc(q.article.title)}`)].join('\n');
 }
 
+// /aide : ce que le bot envoie, puis les commandes (22/11/2026)
 const HELP = [
-  '🤖 <b>Commandes</b>',
-  '/statut : état des réseaux et de la file',
-  '/file : posts à valider et programmés',
-  '/pause instagram (ou /pause tout)',
-  '/reprise instagram (ou /reprise tout)',
-  '/validation instagram on|off',
-  '/x 2940 : abonnés X du jour (X ne les donne pas autrement)',
-  '/compte Hendaye @villehendaye64700 : ce nom a ce compte (retenu pour toujours)',
-  '/jamais @compte : ne plus jamais taguer ce compte',
-  '/oublier Hendaye (ou @compte) · /comptes : ce qui a été enseigné',
+  '💬 <b>Ce que je t’envoie</b>',
+  '📌 <b>À faire</b> : ce que toi seul peux publier. Le kit X et la story Instagram, un message par article, avec l’image et un bouton pour chaque texte à copier.',
+  '⚠️ <b>Problème</b> : seulement quand il faut agir (article pas parti, jeton refusé ou bientôt fini, réseau en pause, site ou rédacteur injoignable, budget dépassé). Un message, un rappel par semaine au plus, puis ✅ <b>Réglé</b>. Rien entre 22 h et 8 h.',
+  'Les chiffres sont dans le dashboard, onglet Réseaux sociaux.',
   '',
-  'Sous chaque aperçu : ✅ Valider, ❌ Refuser, 🔁 Régénérer les textes.',
-  '<i>Le bot lit tes messages à chaque passage, toutes les 20 min environ.</i>',
+  '💬 <b>Commandes</b>',
+  '/statut : état des réseaux et de la file',
+  '/file : publications programmées',
+  '/pause instagram (ou /pause tout) · /reprise instagram',
+  '/x 2940 : abonnés X du jour (X ne les donne pas autrement)',
+  '/compte Hendaye @villehendaye64700 : ce nom a ce compte',
+  '/jamais @compte : ne plus jamais le taguer · /oublier Hendaye (ou @compte) · /comptes',
+  '/validation instagram on|off : valider chaque publication avant qu’elle parte',
+  '<i>Je lis tes messages à chaque passage, toutes les 20 min environ.</i>',
 ].join('\n');
 
 async function onCommand(text, ctx) {
@@ -328,8 +344,8 @@ async function sendPreviews({ queue, memory, history, now }) {
         for (const i of items) {
           i.status = 'blocked';
           i.lastError = err.message;
+          await signalerRatee(i, { id: i.channel }, err);
         }
-        await notify(err.message);
       } else {
         console.error(`Aperçu Telegram impossible (${article.title}) : ${err.message}`);
       }
@@ -458,10 +474,8 @@ async function execute({ history, queue, memory, controls, now, items: articles 
       await Promise.all([saveHistory(history), saveQueue(queue)]);
       console.log(`Publié ${channel.id} : ${mediaId}`);
       if (impl.publishedLabel) console.log(`Kit ${channel.id} envoyé`);
-      else if (config.telegram?.publishedNotice) {
-        const { text, options } = messagePublie(NAMES[channel.id], item.article.title, lienPost);
-        await say(text, options, 'publication');
-      }
+      // plus de « publication faite » sur Telegram (22/11/2026) ; un jeton qui publie de nouveau est réglé
+      await retirerCause(`jeton:${jetonDe(channel.id)}`, channel.id, { message: messageRegle(`Jeton ${JETONS[jetonDe(channel.id)] ?? NAMES[channel.id]} : les publications reprennent.`) });
     } catch (err) {
       if (err instanceof DeferError) {
         item.dueAt = now + HOUR;
@@ -477,17 +491,17 @@ async function execute({ history, queue, memory, controls, now, items: articles 
         item.reportsJeton = (item.reportsJeton ?? 0) + 1;
         if (item.reportsJeton >= REPORTS_JETON_MAX) {
           item.status = 'failed';
-          await notify(`❌ <b>${NAMES[channel.id]}</b> : abandon après ${item.reportsJeton} reports, le jeton est toujours refusé
-${esc(item.article.title)}`);
+          await signalerRatee(item, channel, err);
         } else {
           item.dueAt = now + HOUR;
         }
         console.error(`Jeton refusé par ${channel.id} : ${err.message}`);
+        // un seul message tant que dure le refus, quel que soit le nombre de réseaux et de passages
+        await ajouterCause(`jeton:${jetonDe(channel.id)}`, channel.id, { type: 'jeton', message: jetonRefuse(jetonDe(channel.id)) });
         const jour = dayKey(now, TZ);
         if (controls.alerteJeton !== jour) {
           controls.alerteJeton = jour;
           failed++;
-          await notify(alerteJetonRefuse(NAMES[channel.id], err.message), 'jeton-refuse');
         }
         continue;
       }
@@ -503,22 +517,25 @@ ${esc(item.article.title)}`);
       failed++;
       item.attempts += 1;
       item.lastError = sansSecret(err.message);
+      // Telegram seulement quand l'article est perdu pour ce réseau (bloqué, ou trois essais ratés) :
+      // un message par article, complété en place si un autre réseau échoue ensuite.
       if (err instanceof GuardError) {
         item.status = 'blocked';
-        await notify(err.message, 'garde-fou');
+        console.error(err.message);
+        await signalerRatee(item, channel, err);
       } else if (err.restriction || config.restriction.codes.includes(err.code) || config.restriction.subcodes.includes(err.subcode)) {
         // coupe-circuit : limite ou restriction du réseau → pause automatique, reprise manuelle
         controls.paused[channel.id] = true;
         item.dueAt = now + HOUR;
-        await notify(`🛑 ${NAMES[channel.id]} mis en pause automatiquement : le réseau signale une limite ou une restriction.\n${err.message}\nVérifie le compte dans l'app, puis envoie /reprise ${channel.id}`);
+        console.error(`${NAMES[channel.id]} mis en pause par sécurité : ${err.message}`);
+        await signaler(`pause:${channel.id}`, { type: 'pause-auto', message: pauseAuto(NAMES[channel.id], channel.id, err.message), delaiMinutes: 0 });
       } else {
         console.error(err.stack ?? err.message);
         const final = item.attempts >= config.retry.maxAttempts;
-        if (final) item.status = 'failed';
-        else item.dueAt = now + config.retry.delayMinutes * 60e3 * item.attempts;
-        if (item.attempts === 1 || final) {
-          await notify(`❌ ${channel.id} : échec ${item.attempts}/${config.retry.maxAttempts}${final ? ', abandon' : ', nouvel essai prévu'}\n${esc(item.article.title)}\n${esc(err.message)}`, 'echec');
-        }
+        if (final) {
+          item.status = 'failed';
+          await signalerRatee(item, channel, err);
+        } else item.dueAt = now + config.retry.delayMinutes * 60e3 * item.attempts;
       }
     }
   }
@@ -526,6 +543,9 @@ ${esc(item.article.title)}`);
 }
 
 async function main() {
+  // seul le passage du robot écrit l'état des messages (jamais l'essai à blanc, un test ni un poste) ;
+  // avant tout, pour qu'un passage qui plante dès le départ ne prévienne qu'une fois
+  if (!DRY_RUN) activerDisque();
   requireEnv(['IG_USER_ID', 'IG_TOKEN', 'SFTP_HOST', 'SFTP_USER', 'SFTP_PASS', 'SFTP_DIR']);
   const url = process.env.RSS_URL || DEFAULT_RSS;
   if (DRY_RUN) return dryRun(await fetchItems(url));
@@ -537,16 +557,24 @@ async function main() {
   controls.validation ??= {};
   const now = Date.now();
   // flux du site en panne : le passage continue sans nouveaux articles (voir lireFlux)
-  const { items, ok: fluxOk } = await lireFlux(url, memory, { now, alerter: (heures, detail) => notify(alerteFlux(heures, detail), 'flux-indisponible') });
+  const { items, ok: fluxOk } = await lireFlux(url, memory, {
+    now,
+    // l'alerte ne part qu'après 3 h de panne : pas de délai de plus
+    alerter: (heures, detail) => signaler('flux', { type: 'flux-indisponible', message: fluxMessage(heures, detail), delaiMinutes: 0 }),
+    retabli: () => regler('flux', { message: messageRegle('Le flux du site répond de nouveau : les nouveaux articles entrent en file.') }),
+  });
   const ctx = { now, history, queue, memory, controls, tg, items };
 
   // RELANCE=mots du titre : remet un ancien article dans la file (déclenchement manuel du workflow)
   const relance = process.env.RELANCE?.trim();
   if (relance) {
-    if (!fluxOk) throw new Error('Relance impossible : le flux RSS du site ne répond pas');
+    // une relance ratée n'est pas une panne du robot : pas de message « publication arrêtée »
+    if (!fluxOk) throw Object.assign(new Error('Relance impossible : le flux RSS du site ne répond pas'), { relance: true });
     const forced = matchArticle(items, relance);
-    if (!forced) throw new Error(`Relance : aucun article du flux ne correspond à « ${relance} »`);
+    if (!forced) throw Object.assign(new Error(`Relance : aucun article du flux ne correspond à « ${relance} »`), { relance: true });
     ctx.forcedGuid = forced.guid;
+    // un réseau en échec ou bloqué pour cet article repart : son entrée close lui fermait la file
+    for (const q of [...queue]) if (q.guid === forced.guid && ['failed', 'blocked'].includes(q.status)) queue.splice(queue.indexOf(q), 1);
     console.log(`Relance : ${forced.title} (article du ${paris(forced.date)})`);
   }
 
@@ -568,8 +596,6 @@ async function main() {
     // abonnés de chaque compte, une fois par jour : suivi commencé le 18/09/2026
     await releverAbonnes({ now: ctx.now, log: console.log }).catch((e) => console.error(`Abonnés : ${e.message}`));
     await diffuser({ history, mesures, now: ctx.now });
-    // point hebdomadaire sur la dépense du rédacteur IA : le dimanche soir
-    await resumeHebdoCouts({ now: ctx.now }).catch((e) => console.error(`Point coûts hebdo : ${e.message}`));
     await verifierJetons({ now: ctx.now, mesures });
     // Lieux tagués sur la page Facebook, à la main ou par le robot : appris une fois, réutilisés partout.
     // Le support des vérifications est une image déjà publiée, donc publique et hébergée chez nous.
@@ -579,11 +605,8 @@ async function main() {
         console.error(`Récolte des lieux : ${e.message}`);
         return [];
       });
-      if (appris.length) {
-        const noms = appris.map((l) => l.nom);
-        const liste = noms.slice(0, 15).join(', ') + (noms.length > 15 ? ` et ${noms.length - 15} autres` : '');
-        await say(`📍 <b>${appris.length} lieu${appris.length > 1 ? 'x' : ''} appris</b> depuis la page Facebook\n${esc(liste)}\n\nDésormais tagué${appris.length > 1 ? 's' : ''} automatiquement sur Instagram et Facebook quand un article les nomme.`, undefined, 'lieux-appris');
-      }
+      // appris en silence : plus de message Telegram (22/11/2026)
+      if (appris.length) console.log(`Lieux appris : ${appris.map((l) => l.nom).join(', ')}`);
     }
     // lien direct des publications anciennes, relevé avant le 18/09/2026 : retrouvé une fois pour toutes
     await completerLiens(history).catch((e) => console.error(`Liens des publications : ${e.message}`));
@@ -594,16 +617,30 @@ async function main() {
     // elle a besoin des titres et des images des articles : sans flux, elle attend le passage suivant
     if (fluxOk) await publierPublic({ history, queue, controls, articles: items, maintenant: ctx.now }).catch((e) => console.error(`Page équipe : ${e.message}`));
     else console.log('Page équipe : non mise à jour, flux RSS indisponible.');
+    // une pause de sécurité levée par /reprise : le problème est clos, sans « réglé » (la commande a répondu)
+    for (const cle of await ouverts('pause:')) {
+      const id = cle.slice('pause:'.length);
+      if (!controls.paused?.[id]) await regler(cle, { silencieux: true });
+    }
+    // ce passage est allé au bout : un arrêt signalé plus tôt est réglé
+    await regler('passage', { message: messageRegle('La publication automatique repart.') });
   } finally {
     await Promise.all([saveHistory(history), saveQueue(queue), saveMemory(memory), saveJson('controls.json', controls), saveJson('telegram.json', tg)]);
+    // problèmes : un message chacun, un rappel par semaine au plus, « réglé » à la fin, rien la nuit
+    if (!DRY_RUN) await distribuer({ envoyer: envoyerMessage, editer: editText }).catch((e) => console.error(`Telegram (problèmes) : ${e.message}`));
   }
   const open = queue.filter((q) => OPEN.includes(q.status));
   console.log(open.length ? `File : ${open.map((q) => `${q.channel} ${q.status} ${paris(q.dueAt)}`).join(' · ')}` : 'File vide.');
   if (failed) process.exitCode = 1;
 }
 
+// Un passage qui plante : un seul message tant que ça dure (avant le 22/11, un par passage, soit
+// trois par heure), et « réglé » au premier passage qui va au bout.
 main().catch(async (err) => {
   console.error(err.stack ?? err.message);
-  if (!DRY_RUN) await notify(`❌ Échec pa-social\n${err.message}`);
+  if (!DRY_RUN && !err.relance) {
+    await signaler('passage', { type: 'passage-en-echec', message: passageEnEchec(sansSecret(err.message)) });
+    await distribuer({ envoyer: envoyerMessage, editer: editText }).catch((e) => console.error(`Telegram (problèmes) : ${e.message}`));
+  }
   process.exitCode = 1;
 });

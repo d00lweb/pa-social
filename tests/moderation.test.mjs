@@ -93,17 +93,17 @@ test('passage complet : ce qui est supprimé, ce qui est masqué, et l’arrêt 
     assert.deepEqual(faits, ['DELETE c1', 'DELETE c4']);
     assert.equal(r.traites, 2);
 
-    // droit manquant : on n'insiste pas 26 fois, et on prévient une seule fois par jour
-    const envoyes = [];
+    // droit manquant : on n'insiste pas 26 fois, et plus rien sur Telegram (22/11/2026) : une ligne
+    // de journal par jour
+    const envoyes = [], journal = [];
     const refuse = async () => { throw Object.assign(new Error('(#10) Application does not have permission for this action'), { code: 10 }); };
-    const opts = { history, lire, ecrire: refuse, log: () => {}, envoyer: async (t) => envoyes.push(t), now: Date.parse('2026-09-25T12:00:00Z') };
+    const opts = { history, lire, ecrire: refuse, log: (l) => journal.push(l), envoyer: async (t) => envoyes.push(t), now: Date.parse('2026-09-25T12:00:00Z') };
     const r2 = await modererCommentaires(opts);
     assert.equal(r2.traites, 0);
-    assert.equal(envoyes.length, 1);
-    assert.match(envoyes[0], /instagram_manage_comments/);
-    assert.match(envoyes[0], /Mots masqués/, 'la solution immédiate est rappelée');
+    assert.equal(envoyes.length, 0, 'aucun message Telegram');
+    assert.ok(journal.some((l) => /instagram_manage_comments/.test(l)));
     await modererCommentaires(opts);
-    assert.equal(envoyes.length, 1, 'une alerte par jour, pas une par rafale');
+    assert.equal(journal.filter((l) => /non retirable/.test(l)).length, 1, 'une ligne par jour, pas une par rafale');
   } finally {
     if (avant === undefined) delete process.env.IG_TOKEN; else process.env.IG_TOKEN = avant;
     await (memo === null ? rm(fromRoot('state/moderation.json'), { force: true }) : writeFile(fromRoot('state/moderation.json'), memo));

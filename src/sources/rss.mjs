@@ -79,15 +79,18 @@ export function matchArticle(items, term) {
 // Le flux du site en panne ne doit pas bloquer ce qui est déjà en file. Le 22/10/2026, deux réponses
 // « 500 » du site ont fait échouer deux passages entiers : rien de ce qui était programmé n'est parti,
 // ni mesure, ni modération. Désormais : un second essai 5 s plus tard, puis le passage continue sans
-// nouveaux articles. La panne est datée dans la mémoire ; l'alerte part si elle dure (3 h), une fois
-// par jour, et la mémoire est nettoyée dès que le flux répond. Rend { items, ok }.
+// nouveaux articles. La panne est datée dans la mémoire ; le problème s'ouvre si elle dure (3 h) et se
+// règle dès que le flux répond (`retabli`) : un message, puis « réglé ». Rend { items, ok }.
 export const PANNE_ALERTE_H = 3;
-export async function lireFlux(url, memory, { now = Date.now(), lire = fetchItems, attendre = (ms) => new Promise((r) => setTimeout(r, ms)), alerter = async () => {}, log = console.log } = {}) {
+export async function lireFlux(url, memory, { now = Date.now(), lire = fetchItems, attendre = (ms) => new Promise((r) => setTimeout(r, ms)), alerter = async () => {}, retabli = async () => {}, log = console.log } = {}) {
   let erreur;
   for (let essai = 1; essai <= 2; essai++) {
     try {
       const items = await lire(url);
-      if (memory.fluxEnPanneDepuis) log('Flux RSS rétabli.');
+      if (memory.fluxEnPanneDepuis) {
+        log('Flux RSS rétabli.');
+        await retabli();
+      }
       delete memory.fluxEnPanneDepuis;
       delete memory.fluxAlerte;
       return { items, ok: true };

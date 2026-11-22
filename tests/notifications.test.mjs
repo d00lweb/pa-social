@@ -13,16 +13,25 @@ test('notifications : le fichier est complet et sans doublon', () => {
   assert.equal(new Set(ids).size, ids.length, 'un identifiant par message');
   for (const m of CATALOGUE) {
     assert.ok(m.id && m.titre && m.quand && m.frequence && m.module, `${m.id} : entrée incomplète`);
-    assert.ok(['livrable', 'suivi', 'alerte', 'reponse'].includes(m.famille), `${m.id} : famille inconnue`);
+    // trois familles depuis le 22/11/2026 : À faire (livrable), Problème (alerte), Réponses ; plus de « suivi »
+    assert.ok(['livrable', 'alerte', 'reponse'].includes(m.famille), `${m.id} : famille inconnue`);
     assert.equal(typeof m.reglable, 'boolean', `${m.id} : reglable doit être vrai ou faux`);
     assert.equal(typeof m.actif, 'boolean', `${m.id} : actif doit être vrai ou faux`);
   }
 });
 
 test('notifications : ce qui ne doit jamais se couper n’est pas réglable', () => {
-  for (const id of ['kit-x', 'threads-reponse', 'commandes', 'pause-auto']) {
+  for (const id of ['kit-x', 'lien-non-poste', 'commandes', 'pause-auto']) {
     assert.equal(CATALOGUE.find((m) => m.id === id)?.reglable, false, `${id} doit toujours partir`);
   }
+});
+
+test('notifications : plus aucune statistique ni compte rendu sur Telegram (22/11/2026)', () => {
+  const ids = CATALOGUE.map((m) => m.id);
+  for (const id of ['publication', 'bilan-hebdo', 'bilan-mensuel', 'conso-hebdo', 'lieux-appris', 'spam', 'echec']) {
+    assert.ok(!ids.includes(id), `« ${id} » ne doit plus exister`);
+  }
+  assert.ok(CATALOGUE.length <= 14, `${CATALOGUE.length} messages : la liste reste courte`);
 });
 
 test('notifications : un message coupé ne part pas, un livrable part toujours', () => {
@@ -74,7 +83,11 @@ test('la plus proche des deux échéances fait foi', () => {
 // Facebook : 88 publications à 0 vue pendant deux mois, sans que rien ne le signale.
 const releve = (guid, jour, vues, jalon = 7) => ({ guid, channel: 'facebook', jalon, publieLe: `2026-11-${jour}T08:00:00Z`, vues });
 
-test('Facebook sans aucune vue : signalé quand cinq publications mesurées sont à zéro', () => {
+test('Facebook sans aucune vue : signalé quand cinq publications mesurées sont à zéro', async () => {
+  const { facebookSansVue: avecDate } = await import('../src/measure/jetons.mjs');
+  // les zéros d'avant le passage en ligne de l'application (22/11/2026) ne comptent plus
+  assert.equal(avecDate(['10', '11', '12', '13', '14'].map((j) => releve(`g${j}`, j, 0))), null);
+  const facebookSansVue = (m) => avecDate(m, 5, { apres: null });
   const zero = ['10', '11', '12', '13', '14'].map((j) => releve(`g${j}`, j, 0));
   assert.deepEqual(facebookSansVue(zero), { publications: 5, vues: 0, invisible: true, depuis: '2026-11-10T08:00:00Z' });
   assert.equal(facebookSansVue([...zero.slice(1), releve('g15', '15', 412)]).invisible, false, 'une publication vue suffit');
@@ -118,15 +131,38 @@ test('un jeton recopié dans un message d’erreur n’est jamais gardé', async
 });
 
 test('jeton refusé : l’alerte ne donne pas de date inventée', async () => {
-  const { alerteJeton } = await import('../src/channels/messages.mjs');
-  const texte = alerteJeton('meta', { expireLe: null, restant: 0, invalide: true });
-  assert.match(texte, /Jeton Meta \(Facebook \+ Instagram\) refusé/);
-  assert.doesNotMatch(texte, /1970/);
+  const { jetonRefuse, jetonEcheance } = await import('../src/channels/messages.mjs');
+  const { text } = jetonRefuse('meta');
+  assert.match(text, /^⚠️ <b>Jeton Meta refusé<\/b> · Facebook et Instagram en attente/);
+  assert.doesNotMatch(text, /1970/);
+  assert.doesNotMatch(jetonEcheance('meta', { expireLe: null, restant: 3 }).text, /1970/, 'sans date connue, aucune date inventée');
 });
 
-test('les alertes de jeton et de visibilité ne partent pas la nuit', async () => {
-  const { heureDAlerte } = await import('../src/measure/jetons.mjs');
-  assert.equal(heureDAlerte(Date.parse('2026-11-22T03:00:00Z')), false, '4 h à Paris');
-  assert.equal(heureDAlerte(Date.parse('2026-11-22T08:30:00Z')), true, '9 h 30 à Paris');
-  assert.equal(heureDAlerte(Date.parse('2026-11-22T20:30:00Z')), false, '21 h 30 à Paris');
+test('les problèmes ne partent pas la nuit (22 h – 8 h, heure de Paris)', async () => {
+  const { nuit } = await import('../src/channels/problemes.mjs');
+  assert.equal(nuit(Date.parse('2026-11-22T03:00:00Z')), true, '4 h à Paris');
+  assert.equal(nuit(Date.parse('2026-11-22T08:30:00Z')), false, '9 h 30 à Paris');
+  assert.equal(nuit(Date.parse('2026-11-22T20:30:00Z')), false, '21 h 30 à Paris');
+  assert.equal(nuit(Date.parse('2026-11-22T21:10:00Z')), true, '22 h 10 à Paris');
+});
+
+test('jetons : la vérification du jour ne déclare pas réglé un refus constaté depuis', async () => {
+  const { verifier } = await import('../src/measure/jetons.mjs');
+  const { fromRoot } = await import('../src/core/config.mjs');
+  const { readFile, writeFile, rm } = await import('node:fs/promises');
+  const avant = await readFile(fromRoot('state/jetons.json'), 'utf8').catch(() => null);
+  const appels = [];
+  const p = {
+    signaler: async (cle) => appels.push(`signaler ${cle}`), regler: async (cle) => appels.push(`regler ${cle}`),
+    ajouterCause: async (cle, cause) => appels.push(`ajouter ${cle} ${cause}`), retirerCause: async (cle, cause) => appels.push(`retirer ${cle} ${cause}`),
+  };
+  try {
+    const now = Date.parse('2026-11-24T11:00:00Z');
+    // état déjà vérifié ce matin, jetons valides : aucun message de jeton ne doit en sortir
+    await writeFile(fromRoot('state/jetons.json'), JSON.stringify({ v: 2, verifieLe: '2026-11-24T00:10:00Z', meta: { valide: true, expireLe: null, restant: null }, threads: { valide: true, expireLe: '2027-01-15T00:00:00Z', restant: 52 }, alertes: {} }));
+    await verifier({ now, mesures: [], problemes: p, log: () => {} });
+    assert.deepEqual(appels.filter((a) => /jeton/.test(a)), [], 'sans nouvelle vérification, rien ne se règle ni ne s’ouvre');
+  } finally {
+    await (avant === null ? rm(fromRoot('state/jetons.json'), { force: true }) : writeFile(fromRoot('state/jetons.json'), avant));
+  }
 });

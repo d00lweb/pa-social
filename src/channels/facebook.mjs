@@ -130,9 +130,33 @@ export async function prepare(article, { dossier, history = [], quand = Date.now
     return lien();
   }
   const caption = textePhoto(texte, canal);
-  const comment = facebookComment({ ...article, link: lienMarque(article.link, 'photo', canal) }, dossier);
+  const lienCommentaire = lienMarque(article.link, 'photo', canal);
+  const comment = facebookComment({ ...article, link: lienCommentaire }, dossier);
   log(`   Facebook : photo 4:5, lien en commentaire, ${[...caption].length} caractères${lieu ? `, lieu ${lieu.nom}` : ''}`);
-  return { ...commun, mode: 'photo', text: caption, comment, alt: dossier.visuel?.texte_alternatif ?? null, ...image };
+  return { ...commun, mode: 'photo', text: caption, comment, lienCommentaire, alt: dossier.visuel?.texte_alternatif ?? null, ...image };
+}
+
+// Facebook relit l'adresse marquée avant qu'on la publie (comme son outil de débogage du partage).
+// Rend vrai s'il y trouve un titre, faux sinon, null si la relecture échoue (on ne sait pas).
+// Le 22/11/2026, une adresse marquée utm_ est partie avec une carte sans titre ni image.
+export async function lisibleParFacebook(url, { token = process.env.FB_TOKEN, version = process.env.GRAPH_VERSION } = {}) {
+  const res = await fetch(`https://graph.facebook.com/${version || 'v23.0'}/`, {
+    method: 'POST', body: new URLSearchParams({ id: url, scrape: 'true', access_token: token }), signal: AbortSignal.timeout(20000),
+  });
+  const json = await res.json().catch(() => ({}));
+  if (!res.ok || json.error) return null;
+  return Boolean(json.title);
+}
+
+// L'adresse à publier : la marquée si Facebook la lit, l'adresse nue s'il n'y trouve pas de titre
+export async function adresseLisible(marquee, nue, { lire = lisibleParFacebook, log = console.log } = {}) {
+  if (!marquee || marquee === nue) return nue;
+  const lu = await lire(marquee).catch(() => null);
+  if (lu === false) {
+    log('   Facebook ne lit pas l’adresse marquée (carte vide) : adresse nue');
+    return nue;
+  }
+  return marquee;
 }
 
 // Dépôt FTP du visuel rendu ici, puis vérification de l'URL publique : Meta la télécharge
@@ -153,6 +177,11 @@ export async function publish(pkg, { channel } = {}) {
   const pageId = process.env.FB_PAGE_ID;
   const photo = pkg.mode === 'photo';
   if (photo) await deposer(pkg);
+  // carte ou commentaire : jamais une adresse que Facebook ne sait pas lire
+  if (photo && pkg.lienCommentaire) {
+    const sure = await adresseLisible(pkg.lienCommentaire, pkg.article.link);
+    if (sure !== pkg.lienCommentaire) pkg.comment = pkg.comment.replace(pkg.lienCommentaire, sure);
+  } else if (!photo) pkg.lien = await adresseLisible(pkg.lien, pkg.article.link);
   const params = parametres(pkg);
   const chemin = `${pageId}/${photo ? 'photos' : 'feed'}`;
 

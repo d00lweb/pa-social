@@ -192,11 +192,14 @@ async function avecReseau(repondre, f) {
   }
 }
 const canalSansAttente = { ...FB, commentDelayMinutes: [0, 0] };
+// relecture d'une adresse par Facebook (POST à la racine de l'API, scrape=true)
+const RELECTURE = /graph\.facebook\.com\/v[\d.]+\/$/;
 
 test('publication photo : la photo, puis le lien en commentaire sous la publication de la Page', async () => {
   const pkg = await prepare(article, { dossier, quand: paris('2026-11-23T09:27:00'), canal: FB, log: muet, fabriquer: visuelFactice('https://site.fr/social/a-fb.jpg') });
   await avecReseau((u, m) => {
     if (u === 'https://site.fr/social/a-fb.jpg') return { texte: 'x', type: 'image/jpeg' };
+    if (m === 'POST' && RELECTURE.test(u)) return { json: { url: 'x', title: 'Un titre' } };
     if (m === 'POST' && u.endsWith('/42/photos')) return { json: { id: 'photo9', post_id: '42_777' } };
     if (m === 'GET' && u.includes('/42_777?')) return { json: { permalink_url: 'https://www.facebook.com/x/posts/777' } };
     if (m === 'POST' && u.endsWith('/42_777/comments')) return { json: { id: 'c1' } };
@@ -218,6 +221,7 @@ test('publication photo : commentaire refusé, la photo reste en ligne et rien n
   const pkg = await prepare(article, { dossier, quand: paris('2026-11-23T09:27:00'), canal: FB, log: muet, fabriquer: visuelFactice('https://site.fr/social/a-fb.jpg') });
   await avecReseau((u, m) => {
     if (u === 'https://site.fr/social/a-fb.jpg') return { texte: 'x', type: 'image/jpeg' };
+    if (m === 'POST' && RELECTURE.test(u)) return { json: { url: 'x', title: 'Un titre' } };
     if (m === 'POST' && u.endsWith('/42/photos')) return { json: { id: 'photo9', post_id: '42_777' } };
     if (m === 'GET' && u.includes('/42_777?')) return { json: { permalink_url: 'https://www.facebook.com/x/posts/777' } };
     if (m === 'POST' && u.endsWith('/comments')) return { statut: 400, json: { error: { message: 'refusé', code: 100 } } };
@@ -238,6 +242,7 @@ test('publication photo : commentaire refusé, la photo reste en ligne et rien n
 test('publication avec lien : une seule publication, sans commentaire', async () => {
   const pkg = await prepare(article, { dossier, quand: paris('2026-11-24T08:10:00'), canal: FB, log: muet });
   await avecReseau((u, m) => {
+    if (m === 'POST' && RELECTURE.test(u)) return { json: { url: 'x', title: 'Un titre' } };
     if (m === 'POST' && u.endsWith('/42/feed')) return { json: { id: '42_888' } };
     if (m === 'GET' && u.includes('/42_888?')) return { json: { permalink_url: 'https://www.facebook.com/x/posts/888' } };
     return null;
@@ -270,4 +275,45 @@ test('page de l’équipe : le test annoncé tant qu’il n’est pas fini, sans
   assert.equal(testPublic(FB, paris('2026-12-13T22:00:00')).demain, null, 'dernier jour : pas de lendemain');
   assert.equal(testPublic(FB, paris('2026-12-14T08:00:00')), null, 'fini : la section disparaît');
   assert.equal(testPublic({ ...FB, test: { ...FB.test, actif: false } }, paris('2026-11-25T10:00:00')), null);
+});
+
+test('adresse que Facebook ne lit pas (carte vide) : publication avec l’adresse nue', async () => {
+  const lienPkg = await prepare(article, { dossier, quand: paris('2026-11-24T08:10:00'), canal: FB, log: muet });
+  await avecReseau((u, m) => {
+    if (m === 'POST' && RELECTURE.test(u)) return { json: { url: 'x', type: 'website' } };
+    if (m === 'POST' && u.endsWith('/42/feed')) return { json: { id: '42_888' } };
+    if (m === 'GET' && u.includes('/42_888?')) return { json: {} };
+    return null;
+  }, async (appels) => {
+    const journal = console.log;
+    console.log = muet;
+    try { await publish(lienPkg, { channel: canalSansAttente }); } finally { console.log = journal; }
+    assert.equal(appels.find((a) => RELECTURE.test(a.url)).corps.id, 'https://site.fr/truffe/?at_medium=social&at_campaign=fb-lien', 'Facebook relit d’abord l’adresse marquée');
+    assert.equal(appels.find((a) => a.url.endsWith('/feed')).corps.link, 'https://site.fr/truffe/', 'puis on publie l’adresse nue');
+  });
+  // photo : le commentaire porte l'adresse nue
+  const photoPkg = await prepare(article, { dossier, quand: paris('2026-11-23T09:27:00'), canal: FB, log: muet, fabriquer: visuelFactice('https://site.fr/social/a-fb.jpg') });
+  await avecReseau((u, m) => {
+    if (u === 'https://site.fr/social/a-fb.jpg') return { texte: 'x', type: 'image/jpeg' };
+    if (m === 'POST' && RELECTURE.test(u)) return { json: { url: 'x' } };
+    if (m === 'POST' && u.endsWith('/42/photos')) return { json: { id: 'p', post_id: '42_9' } };
+    if (m === 'GET' && u.includes('/42_9?')) return { json: {} };
+    if (m === 'POST' && u.endsWith('/42_9/comments')) return { json: { id: 'c' } };
+    return null;
+  }, async (appels) => {
+    const journal = console.log;
+    console.log = muet;
+    try { await publish(photoPkg, { channel: canalSansAttente }); } finally { console.log = journal; }
+    assert.match(appels.find((a) => a.url.endsWith('/comments')).corps.message, / https:\/\/site\.fr\/truffe\/$/);
+  });
+});
+
+test('relecture par Facebook impossible : l’adresse marquée part quand même', async () => {
+  const { adresseLisible } = await import('../src/channels/facebook.mjs');
+  const m = 'https://site.fr/a/?at_campaign=fb-lien';
+  assert.equal(await adresseLisible(m, 'https://site.fr/a/', { lire: async () => null, log: muet }), m, 'on ne sait pas : rien ne change');
+  assert.equal(await adresseLisible(m, 'https://site.fr/a/', { lire: async () => { throw new Error('réseau'); }, log: muet }), m);
+  assert.equal(await adresseLisible(m, 'https://site.fr/a/', { lire: async () => true, log: muet }), m);
+  assert.equal(await adresseLisible(m, 'https://site.fr/a/', { lire: async () => false, log: muet }), 'https://site.fr/a/');
+  assert.equal(await adresseLisible('https://site.fr/a/', 'https://site.fr/a/', { lire: async () => { throw new Error('pas appelé'); }, log: muet }), 'https://site.fr/a/', 'adresse nue : rien à relire');
 });

@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-22T06:00:57.543Z",
+  "genereLe": "2026-11-22T06:21:05.471Z",
   "jour": "2026-11-22",
   "reseaux": {
     "instagram": {
@@ -122,11 +122,11 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 10,
-      "total": 88,
-      "dernier": "2026-11-21T13:30:48.096Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DgAVlrhGw9Z"
+      "aujourdhui": 1,
+      "semaine": 11,
+      "total": 89,
+      "dernier": "2026-11-22T06:27:42.498Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DgCJ-1sG8pR"
     },
     "x": {
       "actif": true,
@@ -164,6 +164,22 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36276",
+      "titre": "Quand la Gironde arrache des vignes, ce grand cru de Saint-Émilion augmente son prix",
+      "lien": "https://passion-aquitaine.ouest-france.fr/saint-emilion-grand-cru-prix-crise/",
+      "at": "2026-11-22T06:27:42.498Z",
+      "reseaux": {
+        "threads": {
+          "texte": "📈 Le prix d’un vin en primeur dit beaucoup de l’état du vignoble. À Saint-Émilion, le Château de Pressac vend son 2025 à 29,70 euros, en hausse. Dans le même temps, la Gironde arrache des vignes et certains vignerons bordelais touchent moins d’un euro la bouteille. Le même terroir, deux mondes. Vous aviez conscience d’un tel écart ?",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261121-62194883-th.jpg",
+          "mode": "reponse",
+          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/saint-emilion-grand-cru-prix-crise/",
+          "sujet": "Saint-Émilion",
+          "publieLe": "2026-11-22T06:27:42.498Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36272",
       "titre": "Jugé à Angoulême, ce voleur de notaires s’offrait des cartes Pokémon estimées à 20 000 €",
@@ -339,57 +355,19 @@
           "publieLe": "2026-11-20T11:23:43.080Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36221",
-      "titre": "Labenne : 250 tonnes d’amiante à ôter avant l’arrivée des vagues",
-      "lien": "https://passion-aquitaine.ouest-france.fr/labenne-helio-marin-rase-dune-chapelle/",
-      "at": "2026-11-19T11:27:12.148Z",
-      "reseaux": {
-        "threads": {
-          "texte": "Imaginez un vieux bâtiment posé sur le sable, à 67 m des vagues, avec 250 tonnes d’amiante dans ses murs. C’est l’ancien hélio-marin de Labenne. Une fois démoli, il laissera la place à 3,4 hectares de dune landaise rendus à la nature 🌾",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261119-55b9a683-th.jpg",
-          "mode": "reponse",
-          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/labenne-helio-marin-rase-dune-chapelle/",
-          "sujet": "Labenne",
-          "publieLe": "2026-11-19T07:29:24.500Z"
-        },
-        "bluesky": {
-          "texte": "Sur le #littoral de #Labenne, l’ancien hélio-marin cachait un lourd héritage : ⚠️ 250 tonnes d’amiante, à seulement 67 m de l’océan. Sa démolition doit rendre 3,4 hectares à la dune landaise.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261119-55b9a683-bsky.jpg",
-          "mode": "card",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-19T08:08:00.434Z"
-        },
-        "facebook": {
-          "texte": "Bientôt 3,4 hectares de dune en plus à Labenne, une fois l’amiante de l’ancien hélio-marin retirée 🏖️",
-          "image": null,
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-19T08:26:14.548Z"
-        },
-        "x": {
-          "texte": "🧱 Que faire de 250 tonnes d’amiante posées à 67 m de l’océan ? À #Labenne, l’ancien hélio-marin est démoli pour rendre 3,4 hectares à la dune landaise.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261119-55b9a683-x.jpg",
-          "mode": "reponse",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/labenne-helio-marin-rase-dune-chapelle/",
-          "sujet": null,
-          "publieLe": "2026-11-19T09:01:07.741Z"
-        },
-        "instagram": {
-          "texte": "🌊 À Labenne, 250 tonnes d’amiante dormaient à 67 m des vagues.\n⠀\nC’est l’ancien hélio-marin qui les renfermait. Sa démolition rend 3,4 hectares à la dune landaise, sur la côte des Landes.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Labenne #Landes #DuneLandaise",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261119-55b9a683-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-19T11:27:12.148Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "threads",
+      "at": "2026-11-22T06:27:42.498Z",
+      "titre": "Quand la Gironde arrache des vignes, ce grand cru de Saint-Émilion augmente son prix",
+      "lien": "https://passion-aquitaine.ouest-france.fr/saint-emilion-grand-cru-prix-crise/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/DgCJ-1sG8pR",
+      "format": "reponse",
+      "texte": "📈 Le prix d’un vin en primeur dit beaucoup de l’état du vignoble. À Saint-Émilion, le Château de Pressac vend son 2025 à 29,70 euros, en hausse. Dans le même temps, la Gironde arrache des vignes et certains vignerons bordelais touchent moins d’un euro la bouteille. Le même terroir, deux mondes. Vous aviez conscience d’un tel écart ?",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261121-62194883-th.jpg"
+    },
     {
       "channel": "facebook",
       "at": "2026-11-21T20:13:59.751Z",
@@ -479,28 +457,9 @@
       "format": "reponse",
       "texte": "Discret au point d’être presque invisible, le vison d’Europe vit encore en Nouvelle-Aquitaine 🦦 L’espèce est en grand danger, et le projet LIFE CARE veut la sauver.",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261120-9756dd6b-x.jpg"
-    },
-    {
-      "channel": "threads",
-      "at": "2026-11-21T07:17:19.046Z",
-      "titre": "Ils sont encore là, mais presque invisibles : le plan pour sauver les visons d’Europe",
-      "lien": "https://passion-aquitaine.ouest-france.fr/vison-europe-nouvelle-aquitaine-life-care/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/Df_q3CnFSjQ",
-      "format": "reponse",
-      "texte": "🌿 En Charente et en Charente-Maritime, un petit mammifère se fait presque invisible : le vison d’Europe. Il est toujours là, quelque part en Nouvelle-Aquitaine, mais l’espèce est en grand danger. C’est tout l’enjeu du projet LIFE CARE, pensé pour la sauver avant qu’il ne soit trop tard.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261120-9756dd6b-th.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "threads",
-      "dueAt": "2026-11-22T06:24:52.758Z",
-      "prochainPassage": "2026-11-22T07:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Quand la Gironde arrache des vignes, ce grand cru de Saint-Émilion augmente son prix"
-    },
     {
       "channel": "bluesky",
       "dueAt": "2026-11-22T07:06:35.333Z",
@@ -765,7 +724,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-22T06:01:12.251Z",
+    "genereLe": "2026-11-22T06:27:55.448Z",
     "posts": 101,
     "parReseau": {
       "threads": {
@@ -938,7 +897,7 @@
       }
     },
     "publies": {
-      "threads": 28,
+      "threads": 29,
       "facebook": 28,
       "bluesky": 27,
       "x": 28,

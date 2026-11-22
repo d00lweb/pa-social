@@ -123,3 +123,10 @@ test('jeton refusé : l’alerte ne donne pas de date inventée', async () => {
   assert.match(texte, /Jeton Meta \(Facebook \+ Instagram\) refusé/);
   assert.doesNotMatch(texte, /1970/);
 });
+
+test('les alertes de jeton et de visibilité ne partent pas la nuit', async () => {
+  const { heureDAlerte } = await import('../src/measure/jetons.mjs');
+  assert.equal(heureDAlerte(Date.parse('2026-11-22T03:00:00Z')), false, '4 h à Paris');
+  assert.equal(heureDAlerte(Date.parse('2026-11-22T08:30:00Z')), true, '9 h 30 à Paris');
+  assert.equal(heureDAlerte(Date.parse('2026-11-22T20:30:00Z')), false, '21 h 30 à Paris');
+});

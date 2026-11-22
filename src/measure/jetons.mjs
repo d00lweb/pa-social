@@ -108,23 +108,37 @@ export function facebookSansVue(mesures, min = SANS_VUE_MIN) {
 
 const semaineDe = (now) => dayKey(now, TZ).slice(0, 7) + '-S' + Math.ceil(new Date(now).getDate() / 7);
 
-// Une vérification par jour suffit : le résultat est gardé dans state/jetons.json, lu par le pilotage
+const heureLocale = (now) => Number(new Intl.DateTimeFormat('en-GB', { timeZone: TZ, hour: '2-digit', hourCycle: 'h23' }).format(new Date(now)));
+// Les alertes de jeton et de visibilité ne réveillent personne : elles partent entre 8 h et 21 h.
+// La vérification du jour se fait au premier passage après minuit ; l'alerte attend le matin.
+export const heureDAlerte = (now) => heureLocale(now) >= 8 && heureLocale(now) < 21;
+
+// Une vérification des jetons par jour suffit ; la visibilité Facebook suit les relevés à chaque
+// passage. Le résultat est gardé dans state/jetons.json, lu par le pilotage et par le dashboard.
 export async function verifier({ now = Date.now(), log = console.log, mesures = null } = {}) {
   const connu = await loadJson('jetons.json', null);
   // une vérification par jour, sauf tant qu'un jeton est refusé (on veut voir tout de suite qu'il est
   // réparé) et sauf si l'état a été écrit par une version antérieure
   const enPanne = Object.values(connu ?? {}).some((v) => v && typeof v === 'object' && v.invalide);
   const aJour = connu?.v === VERSION_JETONS;
-  if (aJour && !enPanne && connu?.verifieLe && dayKey(new Date(connu.verifieLe).getTime(), TZ) === dayKey(now, TZ)) return connu;
+  const duJour = aJour && !enPanne && connu?.verifieLe && dayKey(new Date(connu.verifieLe).getTime(), TZ) === dayKey(now, TZ);
+  const visibilite = facebookSansVue(mesures ?? (await loadJson('mesures.json', []))) ?? connu?.facebook ?? null;
 
-  const etat = {
-    v: VERSION_JETONS,
-    verifieLe: new Date(now).toISOString(),
-    meta: (await meta(now, connu)) ?? repris(connu?.meta, now),
-    threads: (await threads(now, connu)) ?? repris(connu?.threads, now),
-    facebook: facebookSansVue(mesures ?? (await loadJson('mesures.json', []))) ?? connu?.facebook ?? null,
-    alertes: connu?.alertes ?? {},
-  };
+  const etat = duJour
+    ? { ...connu, facebook: visibilite, alertes: { ...(connu.alertes ?? {}) } }
+    : {
+      v: VERSION_JETONS,
+      verifieLe: new Date(now).toISOString(),
+      meta: (await meta(now, connu)) ?? repris(connu?.meta, now),
+      threads: (await threads(now, connu)) ?? repris(connu?.threads, now),
+      facebook: visibilite,
+      alertes: { ...(connu?.alertes ?? {}) },
+    };
+  const inchange = duJour && JSON.stringify(etat) === JSON.stringify(connu);
+  if (!heureDAlerte(now)) {
+    if (!inchange) await saveJson('jetons.json', etat);
+    return etat;
+  }
 
   const semaine = semaineDe(now);
   for (const [nom, seuil] of Object.entries(PREVENIR_A)) {
@@ -142,6 +156,6 @@ export async function verifier({ now = Date.now(), log = console.log, mesures = 
     log(`Alerte Facebook : aucune vue sur les ${etat.facebook.publications} dernières publications mesurées.`);
   }
 
-  await saveJson('jetons.json', etat);
+  if (!(duJour && JSON.stringify(etat) === JSON.stringify(connu))) await saveJson('jetons.json', etat);
   return etat;
 }

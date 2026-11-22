@@ -442,6 +442,7 @@ Variables de test : `DRY_RUN=1` (rendu + FTP, sans Instagram ni Telegram ni éta
 | Republier un article déjà publié | retirer son entrée de `state/published.json`, committer (attention au doublon Instagram) |
 | Activer Facebook | renseigner `FB_PAGE_ID` et `FB_TOKEN` dans `.env` **et** dans le secret `SOCIAL`, vérifier avec `npm run smoke:fb` |
 | Contrôler les jetons | `npm run meta:check` — lecture seule, dit lequel est refusé et ce qui manque ; procédure complète : « Refaire les jetons Meta » |
+| Savoir si Facebook est visible, lire l’état réel des jetons et des connexions | `npm run diagnostic` — lecture seule : jetons (état, échéance, droits, jamais la valeur), publications de la Page par outil de publication avec leurs vues et leurs clics, lecture sans connexion d’une publication du robot et d’une publication faite à la main, Instagram, Threads, Telegram, Bluesky |
 | Mettre à jour les secrets | coller le `.env` complet dans le secret `SOCIAL`. En ligne de commande, **depuis Git Bash** : `gh secret set SOCIAL < .env`. Jamais via un tube PowerShell (`Get-Content \| gh secret set`) : il ajoute un marqueur d'encodage invisible qui casse la première variable, et toutes les exécutions échouent sur `Variables manquantes : IG_USER_ID`. |
 
 Commandes locales :

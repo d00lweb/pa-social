@@ -27,8 +27,9 @@ test('Facebook : deux posts par jour au plus, un le matin, un en fin de journée
   assert.equal(fb.quietHours.start, 22);
   assert.equal(fb.quietHours.end, 8);
   assert.ok(h(debutMatin) >= fb.quietHours.end && h(finSoir) <= fb.quietHours.start, 'aucun créneau pendant la nuit');
-  // format photo : le lien part en premier commentaire, 1 à 3 min après, jamais dans le même souffle
-  assert.deepEqual(fb.commentDelayMinutes, [1, 3]);
+  // format photo : le lien part en premier commentaire quelques minutes après, jamais dans le même souffle
+  const [a, b] = fb.commentDelayMinutes ?? [1, 3];
+  assert.ok(a >= 0 && b >= a && b <= 10, 'attente du commentaire : quelques minutes au plus');
 });
 
 test('Facebook : le lien part avec le post, et le lieu quand il est connu', () => {

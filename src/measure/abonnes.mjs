@@ -74,9 +74,10 @@ export async function releverAbonnes({ now = Date.now(), log = console.log, time
 // problèmes. Facebook sait distinguer les deux, on le relève donc, sur 30 jours glissants.
 // Mesuré le 25/09/2026 : 3 arrivées et 24 départs sur le mois écoulé — le média ne recrute pas.
 // Le jour de Meta va de minuit à minuit, heure de Californie (9 h à 9 h à Paris en hiver) ; end_time
-// en marque la fin. Le jour J (9 h J → 9 h J+1 à Paris) porte donc les deux publications du jour J.
-// Jusqu'au 22/11/2026, chaque jour était rangé au lendemain : les 30 derniers jours sont réécrits au
-// relevé suivant, les plus anciens restent décalés d'un jour.
+// en marque la fin, et le jour est rangé à sa date. Le jour J porte la publication du soir du jour J
+// et l'essentiel de celle du matin ; partie avant 9 h, celle-ci laisse ses premières minutes au jour
+// précédent. Jusqu'au 22/11/2026, chaque jour était rangé au lendemain : les 30 derniers jours sont
+// réécrits au relevé suivant, les plus anciens restent décalés d'un jour.
 export const jourMeta = (endTime) => new Date(Date.parse(endTime) - 86400e3).toISOString().slice(0, 10);
 export async function relevrMouvements(releves, { log = console.log, lire: lecteur = lire } = {}) {
   if (!process.env.FB_PAGE_ID || !process.env.FB_TOKEN) return releves;

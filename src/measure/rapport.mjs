@@ -61,7 +61,9 @@ export function agreger(mesures, { history = [], depuis, jusqu = Date.now() } = 
       ...m,
       titre: m.titre ?? post?.titre ?? null,
       lien: post?.lienPost ?? post?.lien ?? null,
-      format: post?.format ?? null,
+      // Facebook hors du classement par format : ses formats (lien, photo) se jugent sur les vues à
+      // J+7, réseau seul (test du 23/11/2026) ; mêlés ici, « lien » se comparait aux formats de Threads
+      format: m.channel === 'facebook' ? null : post?.format ?? null,
       mention: Boolean(post?.mention),
       creneau: creneau(m.publieLe),
       creneauReseau: creneauReseau(m.publieLe, m.channel),

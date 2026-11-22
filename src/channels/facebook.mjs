@@ -95,8 +95,9 @@ async function visuel(article, dossier, { history, renderer: shared, log }) {
   return { imageUrl: `${base()}/${name}`, files: [{ name, buffer: rendu.buffer }] };
 }
 
-// `quand` : l'instant de la publication, qui fixe le format du jour ; `fabriquer` : remplaçable par les tests
-export async function prepare(article, { dossier, history = [], quand = Date.now(), canal = config.channels.facebook, renderer, log = console.log, fabriquer = visuel } = {}) {
+// `quand` : l'instant de la publication, qui fixe le format du jour ; `dernierEssai` : on publie en lien
+// plutôt que de perdre l'article ; `fabriquer` : remplaçable par les tests
+export async function prepare(article, { dossier, history = [], quand = Date.now(), dernierEssai = false, canal = config.channels.facebook, renderer, log = console.log, fabriquer = visuel } = {}) {
   const texte = dossier.facebook?.texte?.trim();
   if (!texte) throw new GuardError(article, ['texte Facebook vide']);
   // le lien est porté par la carte d'aperçu ou par le commentaire : dans le texte, il ferait doublon
@@ -106,12 +107,18 @@ export async function prepare(article, { dossier, history = [], quand = Date.now
   if (!article.link) throw new GuardError(article, ['aucun lien d’article à publier']);
 
   const lieu = dossier.lieu ?? null;
-  const commun = { article, dossier, lieu };
+  // formatPrevu : celui du jour ; mode : celui qui part vraiment (les deux sont enregistrés s'ils diffèrent)
+  const formatPrevu = formatFacebook(quand, canal);
+  const commun = { article, dossier, lieu, formatPrevu };
   const lien = () => {
     log(`   Facebook : lien + aperçu, ${[...texte].length} caractères${lieu ? `, lieu ${lieu.nom}` : ''}`);
     return { ...commun, mode: 'lien', text: texte, lien: lienMarque(article.link, 'lien', canal), files: [] };
   };
-  if (formatFacebook(quand, canal) !== 'photo') return lien();
+  if (formatPrevu !== 'photo') return lien();
+  if (dernierEssai) {
+    log('   Facebook : dernier essai, publication avec lien plutôt que la photo');
+    return lien();
+  }
 
   let image;
   try {

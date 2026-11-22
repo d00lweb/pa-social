@@ -418,8 +418,10 @@ async function execute({ history, queue, memory, controls, now, items: articles 
       }
       await enrichir(item.dossier, item.article, memory);
       const impl = CHANNELS[channel.id];
-      // history : visuel Instagram réutilisable (Facebook) ; quand : le jour de la publication fixe son format
-      const pkg = await impl.prepare(item.article, { dossier: item.dossier, history, quand: Math.max(Date.now(), item.dueAt) });
+      // Facebook : history (visuel Instagram réutilisable), quand (le jour fixe le format), dernier essai (en lien)
+      const pkg = await impl.prepare(item.article, {
+        dossier: item.dossier, history, quand: Math.max(Date.now(), item.dueAt), dernierEssai: item.attempts >= config.retry.maxAttempts - 1,
+      });
       // minute de départ fixée à l'avance par ordonnerFile : on l'attend, les visuels déjà prêts
       const attente = item.dueAt - Date.now();
       if (attente > 0) {
@@ -445,6 +447,8 @@ async function execute({ history, queue, memory, controls, now, items: articles 
         lien: item.article.link,
         lienPost,
         format: pkg.mode ?? null,
+        // Facebook : format du jour, quand la publication a dû partir autrement (repli en lien)
+        ...(pkg.formatPrevu && pkg.formatPrevu !== pkg.mode ? { formatPrevu: pkg.formatPrevu } : {}),
         mention: (item.dossier.comptes?.[channel.id] ?? []).length > 0,
         // invitations à cosigner (Instagram) : leur acceptation se relira sur le post
         ...(collaborateurs.length ? { collaborateurs } : {}),

@@ -8130,5 +8130,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36276",
+    "channel": "facebook",
+    "at": "2026-11-22T20:23:09.240Z",
+    "mediaId": "227437307428711_1799352492190631",
+    "titre": "Quand la Gironde arrache des vignes, ce grand cru de Saint-Émilion augmente son prix",
+    "lien": "https://passion-aquitaine.ouest-france.fr/saint-emilion-grand-cru-prix-crise/",
+    "lienPost": "https://www.facebook.com/1720946116697936/posts/1799352492190631",
+    "format": "lien",
+    "mention": false,
+    "apercu": {
+      "texte": "Moins d’un euro la bouteille pour certains vignerons bordelais, 29,70 euros en primeur pour ce grand cru voisin 🍷",
+      "image": null,
+      "mode": "lien",
+      "reponse": null,
+      "sujet": null
+    }
   }
 ]

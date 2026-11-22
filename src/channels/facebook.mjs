@@ -16,7 +16,7 @@ import { formatFacebook, lienMarque } from '../core/formats-facebook.mjs';
 // Facebook : deux formats, choisis par jour (src/core/formats-facebook.mjs, test du 23/11 au 13/12/2026).
 //  - lien  : une phrase, et sous elle la carte d'aperçu que Facebook construit depuis l'article ;
 //  - photo : le visuel 4:5 avec le titre, la phrase, puis le lien en premier commentaire 1 à 3 min après.
-// Le lien porte le format (utm_campaign=fb-lien ou fb-photo) : le site sait d'où vient le lecteur.
+// Le lien porte le format (at_campaign=fb-lien ou fb-photo, jamais utm_) : le site sait d'où vient le lecteur.
 export const id = 'facebook';
 
 const DEFAULT_PUBLIC = 'https://passion-aquitaine.ouest-france.fr/social';

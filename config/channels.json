@@ -121,8 +121,8 @@
         ],
         "alternance": "jour"
       },
-      "_utm": "Adresse de l article marquée par format, sur Facebook seulement ({format} devient lien ou photo). Supprimer la clé pour publier l adresse nue.",
-      "utm": "utm_source=facebook&utm_medium=social&utm_campaign=fb-{format}",
+      "_utm": "Adresse de l article marquée par format, sur Facebook seulement ({format} devient lien ou photo), avec les paramètres de campagne de Piano. Jamais utm_ : le 22/11/2026, Facebook ne lisait plus les balises de nos articles dès qu un paramètre utm_ figurait dans l adresse (carte sans titre ni image), quand at_campaign, xtor ou tout autre paramètre passaient. Supprimer la clé pour publier l adresse nue.",
+      "utm": "at_medium=social&at_campaign=fb-{format}",
       "ligneCommentaire": "L’article est en premier commentaire.",
       "commentDelayMinutes": [
         1,

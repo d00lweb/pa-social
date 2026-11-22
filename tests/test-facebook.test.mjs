@@ -16,7 +16,7 @@ import { agreger } from '../src/measure/rapport.mjs';
 const FB = {
   format: 'lien',
   test: { actif: true, debut: '2026-11-23', fin: '2026-12-13', formats: ['photo', 'lien'], alternance: 'jour' },
-  utm: 'utm_source=facebook&utm_medium=social&utm_campaign=fb-{format}',
+  utm: 'at_medium=social&at_campaign=fb-{format}',
   ligneCommentaire: 'L’article est en premier commentaire.',
   commentDelayMinutes: [1, 3],
 };
@@ -97,10 +97,11 @@ test('test Facebook : une configuration mal écrite ne change rien', () => {
   assert.equal(formatFacebook(paris('2026-11-23T09:00:00'), { ...FB, test: undefined, format: 'reel' }, TZ), 'lien');
 });
 
+// Paramètres de campagne de Piano, jamais utm_ : Facebook ne lit plus nos articles quand l'adresse en porte un (22/11/2026)
 test('liens marqués : un marqueur par format, et seulement dans le module Facebook', () => {
-  assert.equal(lienMarque('https://site.fr/truffe/', 'photo', FB), 'https://site.fr/truffe/?utm_source=facebook&utm_medium=social&utm_campaign=fb-photo');
-  assert.equal(lienMarque('https://site.fr/truffe/', 'lien', FB), 'https://site.fr/truffe/?utm_source=facebook&utm_medium=social&utm_campaign=fb-lien');
-  assert.equal(lienMarque('https://site.fr/a/?x=1', 'lien', FB), 'https://site.fr/a/?x=1&utm_source=facebook&utm_medium=social&utm_campaign=fb-lien');
+  assert.equal(lienMarque('https://site.fr/truffe/', 'photo', FB), 'https://site.fr/truffe/?at_medium=social&at_campaign=fb-photo');
+  assert.equal(lienMarque('https://site.fr/truffe/', 'lien', FB), 'https://site.fr/truffe/?at_medium=social&at_campaign=fb-lien');
+  assert.equal(lienMarque('https://site.fr/a/?x=1', 'lien', FB), 'https://site.fr/a/?x=1&at_medium=social&at_campaign=fb-lien');
   assert.equal(lienMarque('https://site.fr/a/', 'lien', { ...FB, utm: undefined }), 'https://site.fr/a/', 'sans modèle : adresse nue');
   // aucun autre réseau ne marque ses liens : lienMarque n'est appelé que par channels/facebook.mjs
   const appelants = [];
@@ -119,7 +120,7 @@ test('format lien : la phrase, la carte d’aperçu, l’adresse marquée fb-lie
   assert.equal(pkg.mode, 'lien');
   assert.equal(pkg.formatPrevu, 'lien');
   assert.equal(pkg.text, dossier.facebook.texte, 'la phrase seule, sans ligne ajoutée');
-  assert.deepEqual(parametres(pkg), { message: dossier.facebook.texte, link: 'https://site.fr/truffe/?utm_source=facebook&utm_medium=social&utm_campaign=fb-lien', published: 'true' });
+  assert.deepEqual(parametres(pkg), { message: dossier.facebook.texte, link: 'https://site.fr/truffe/?at_medium=social&at_campaign=fb-lien', published: 'true' });
   assert.equal(pkg.article.link, 'https://site.fr/truffe/', 'l’historique garde l’adresse nue');
 });
 
@@ -134,7 +135,7 @@ test('format photo : visuel, phrase, ligne du commentaire, lien marqué fb-photo
   const ed = JSON.parse(readFileSync(fromRoot('config/editorial.json'), 'utf8'));
   const [lead, lien] = [pkg.comment.slice(0, pkg.comment.lastIndexOf(' ')), pkg.comment.slice(pkg.comment.lastIndexOf(' ') + 1)];
   assert.ok(ed.facebookCommentLeads.includes(lead), `formule tournante : « ${lead} »`);
-  assert.equal(lien, 'https://site.fr/truffe/?utm_source=facebook&utm_medium=social&utm_campaign=fb-photo');
+  assert.equal(lien, 'https://site.fr/truffe/?at_medium=social&at_campaign=fb-photo');
 });
 
 test('jour photo sans photo possible : l’article part quand même, en lien, et on le sait', async () => {
@@ -142,7 +143,7 @@ test('jour photo sans photo possible : l’article part quand même, en lien, et
   const sansImage = await prepare(article, { dossier, quand: paris('2026-11-23T09:27:00'), canal: FB, log: muet });
   assert.equal(sansImage.mode, 'lien', 'le format réellement publié est celui qu’on enregistre');
   assert.equal(sansImage.formatPrevu, 'photo', 'le format du jour reste connu');
-  assert.match(sansImage.lien, /utm_campaign=fb-lien$/);
+  assert.match(sansImage.lien, /at_campaign=fb-lien$/);
   // dernier des trois essais : en lien plutôt que perdre l'article
   let fabrique = false;
   const dernier = await prepare(article, { dossier, quand: paris('2026-11-23T09:27:00'), canal: FB, log: muet, dernierEssai: true, fabriquer: async () => { fabrique = true; return {}; } });
@@ -243,7 +244,7 @@ test('publication avec lien : une seule publication, sans commentaire', async ()
   }, async (appels) => {
     const r = await publish(pkg, { channel: canalSansAttente });
     assert.equal(r.mediaId, '42_888');
-    assert.deepEqual(appels.find((a) => a.url.endsWith('/feed')).corps, { message: dossier.facebook.texte, link: 'https://site.fr/truffe/?utm_source=facebook&utm_medium=social&utm_campaign=fb-lien', published: 'true' });
+    assert.deepEqual(appels.find((a) => a.url.endsWith('/feed')).corps, { message: dossier.facebook.texte, link: 'https://site.fr/truffe/?at_medium=social&at_campaign=fb-lien', published: 'true' });
     assert.ok(!appels.some((a) => a.url.endsWith('/comments') || a.url.endsWith('/photos')));
   });
 });

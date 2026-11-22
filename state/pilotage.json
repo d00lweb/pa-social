@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-22T07:01:05.276Z",
+  "genereLe": "2026-11-22T07:20:56.928Z",
   "jour": "2026-11-22",
   "reseaux": {
     "instagram": {
@@ -607,7 +607,7 @@
     }
   ],
   "mesures": {
-    "releves": 669,
+    "releves": 671,
     "parReseau": {
       "instagram": {
         "posts": 83,
@@ -680,7 +680,7 @@
       "publications": 5,
       "vues": 0,
       "invisible": true,
-      "depuis": "2026-11-18T07:29:57.799Z"
+      "depuis": "2026-11-18T19:27:53.625Z"
     },
     "alertes": {
       "threads": "2026-11-S3",
@@ -768,19 +768,19 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-22T07:13:13.406Z",
-    "posts": 101,
+    "genereLe": "2026-11-22T07:21:07.607Z",
+    "posts": 103,
     "parReseau": {
       "threads": {
-        "posts": 25,
-        "moyenne": 12.9
+        "posts": 26,
+        "moyenne": 16.1
       },
       "instagram": {
         "posts": 25,
         "moyenne": 8
       },
       "facebook": {
-        "posts": 26,
+        "posts": 27,
         "moyenne": 0
       },
       "bluesky": {
@@ -790,8 +790,8 @@
     },
     "parFormat": {
       "reponse": {
-        "posts": 25,
-        "moyenne": 12.9
+        "posts": 26,
+        "moyenne": 16.1
       },
       "card": {
         "posts": 7,
@@ -807,13 +807,13 @@
       }
     },
     "parCreneau": {
+      "matin": {
+        "posts": 57,
+        "moyenne": 7.2
+      },
       "après-midi": {
         "posts": 29,
         "moyenne": 6.3
-      },
-      "matin": {
-        "posts": 55,
-        "moyenne": 5.7
       },
       "soir": {
         "posts": 17,
@@ -823,8 +823,8 @@
     "parCreneauReseau": {
       "threads": {
         "7 h – 8 h 30": {
-          "posts": 14,
-          "moyenne": 16.9
+          "posts": 15,
+          "moyenne": 22.2
         },
         "10 h – 11 h 30": {
           "posts": 8,
@@ -841,7 +841,7 @@
       },
       "facebook": {
         "8 h – 9 h 30": {
-          "posts": 16,
+          "posts": 17,
           "moyenne": 0
         },
         "20 h – 21 h 30": {
@@ -886,7 +886,7 @@
         }
       }
     },
-    "interactionsTotal": 525,
+    "interactionsTotal": 621,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36189",
       "channel": "threads",
@@ -908,27 +908,26 @@
       "creneauReseau": "7 h – 8 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36255",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36241",
       "channel": "facebook",
-      "mediaId": "227437307428711_1796959495763264",
-      "publieLe": "2026-11-20T20:05:31.494Z",
+      "mediaId": "227437307428711_1797456175713596",
+      "publieLe": "2026-11-21T07:03:15.401Z",
       "jalon": 1,
-      "releveLe": "2026-11-21T20:20:37.252Z",
+      "releveLe": "2026-11-22T07:20:56.928Z",
       "likes": 0,
       "commentairesBruts": 0,
       "partages": 0,
       "vues": 0,
-      "commentaires": 0,
-      "v": 2,
       "portee": 0,
       "clics": 0,
-      "porteeApresCoup": true,
-      "titre": "Golfe de Gascogne : l’hiver 2025, les dauphins sont surtout morts avant l’arrêt de pêche",
-      "lien": "https://www.facebook.com/1720946116697936/posts/1796959495763264",
+      "commentaires": 0,
+      "v": 2,
+      "titre": "Ils sont encore là, mais presque invisibles : le plan pour sauver les visons d’Europe",
+      "lien": "https://www.facebook.com/1720946116697936/posts/1797456175713596",
       "format": null,
       "mention": false,
-      "creneau": "soir",
-      "creneauReseau": "20 h – 21 h 30"
+      "creneau": "matin",
+      "creneauReseau": "8 h – 9 h 30"
     },
     "mentions": {
       "avec": {
@@ -936,8 +935,8 @@
         "moyenne": 6.2
       },
       "sans": {
-        "posts": 55,
-        "moyenne": 4.4
+        "posts": 57,
+        "moyenne": 5.9
       }
     },
     "publies": {
@@ -983,14 +982,14 @@
       "x": null
     },
     "engagement": {
-      "threads": 1.1,
+      "threads": 1.37,
       "instagram": 0.08,
       "facebook": 0
     },
     "conseils": [
-      "Threads : le créneau 7 h – 8 h 30 fait 1,9 fois mieux que 10 h – 11 h 30 (16.9 contre 9 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
+      "Threads : le créneau 7 h – 8 h 30 fait 2,5 fois mieux que 10 h – 11 h 30 (22.2 contre 9 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Instagram : le créneau 12 h – 13 h 30 fait 1,6 fois mieux que 18 h – 19 h 30 (9.3 contre 6 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
-      "Le format « reponse » fait 129 fois mieux que « reply » (12.9 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « reply » de la rotation dans config/channels.json.",
+      "Le format « reponse » fait 161 fois mieux que « reply » (16.1 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « reply » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+17, +1,5 %) ; Facebook recule (−40), à surveiller."
     ]
   },

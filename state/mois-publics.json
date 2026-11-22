@@ -3,7 +3,7 @@
     "cle": "2026-11",
     "publications": 140,
     "articles": 30,
-    "interactions": 525,
+    "interactions": 621,
     "parReseau": {
       "facebook": 29,
       "instagram": 26,
@@ -28,6 +28,13 @@
       },
       {
         "reseau": "threads",
+        "titre": "Ils sont encore là, mais presque invisibles : le plan pour sauver les visons d’Europe",
+        "lien": "https://www.threads.com/@lovaquitaine/post/Df_q3CnFSjQ",
+        "image": "https://passion-aquitaine.ouest-france.fr/social/20261120-9756dd6b-1-vignette.jpg",
+        "interactions": 96
+      },
+      {
+        "reseau": "threads",
         "titre": "Deux-Sèvres : cette association a acheté 1 000 hectares de nature",
         "lien": "https://www.threads.com/@lovaquitaine/post/DfzAgKdIDYr",
         "image": "https://passion-aquitaine.ouest-france.fr/social/20261116-44cfe04e-1-vignette.jpg",
@@ -45,13 +52,6 @@
         "titre": "Déjà 20 200 grues cendrées à Arjuzanx, 2,6 fois plus qu’en 2025",
         "lien": "https://www.instagram.com/p/DfwyOAkF50r/",
         "image": "https://passion-aquitaine.ouest-france.fr/social/20261115-4e3e2639-1-vignette.jpg",
-        "interactions": 31
-      },
-      {
-        "reseau": "threads",
-        "titre": "8 000 arbres fruitiers anciens seront mis en vente près d’Agen",
-        "lien": "https://www.threads.com/@lovaquitaine/post/Df9Hf3elU0g",
-        "image": "https://passion-aquitaine.ouest-france.fr/social/20261120-cde6fa54-1-vignette.jpg",
         "interactions": 31
       }
     ]

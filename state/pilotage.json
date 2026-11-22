@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-22T10:20:59.626Z",
+  "genereLe": "2026-11-22T11:00:37.695Z",
   "jour": "2026-11-22",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 8,
-      "total": 91,
-      "dernier": "2026-11-21T17:33:51.073Z",
-      "lienDernier": "https://www.instagram.com/p/DgAxsiZElAP/"
+      "aujourdhui": 1,
+      "semaine": 9,
+      "total": 92,
+      "dernier": "2026-11-22T11:03:29.245Z",
+      "lienDernier": "https://www.instagram.com/p/DgCp1Hfj3lh/"
     },
     "bluesky": {
       "actif": true,
@@ -60,11 +60,11 @@
         "image",
         "reply"
       ],
-      "aujourdhui": 1,
-      "semaine": 9,
-      "total": 91,
-      "dernier": "2026-11-22T07:06:37.208Z",
-      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2v2j5jibk2u"
+      "aujourdhui": 2,
+      "semaine": 10,
+      "total": 92,
+      "dernier": "2026-11-22T11:09:34.524Z",
+      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2vi3lhosh2j"
     },
     "facebook": {
       "actif": true,
@@ -156,35 +156,19 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 1,
-      "semaine": 10,
-      "total": 92,
-      "dernier": "2026-11-22T09:21:18.358Z",
+      "aujourdhui": 2,
+      "semaine": 11,
+      "total": 93,
+      "dernier": "2026-11-22T11:00:47.144Z",
       "lienDernier": null
     }
   },
   "articles": [
     {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36266",
-      "titre": "Truffe du Périgord : la France en importe plus qu’elle n’en récolte",
-      "lien": "https://passion-aquitaine.ouest-france.fr/truffe-perigord-france-importe-plus-recolte/",
-      "at": "2026-11-22T10:16:02.757Z",
-      "reseaux": {
-        "threads": {
-          "texte": "Imaginez un marché aux truffes du Périgord, le parfum qui monte des paniers… Sauf qu’une bonne part des truffes vendues en France n’a jamais poussé ici. Le pays en importe 127 tonnes, surtout d’Italie et de Bulgarie, pour seulement 75 tonnes récoltées. Un drôle de paradoxe pour une terre aussi attachée à son diamant noir 🌳",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261122-ecd6c5a6-th.jpg",
-          "mode": "reponse",
-          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/truffe-perigord-france-importe-plus-recolte/",
-          "sujet": "Périgord",
-          "publieLe": "2026-11-22T10:16:02.757Z"
-        }
-      }
-    },
-    {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36276",
       "titre": "Quand la Gironde arrache des vignes, ce grand cru de Saint-Émilion augmente son prix",
       "lien": "https://passion-aquitaine.ouest-france.fr/saint-emilion-grand-cru-prix-crise/",
-      "at": "2026-11-22T09:21:18.358Z",
+      "at": "2026-11-22T11:09:34.524Z",
       "reseaux": {
         "threads": {
           "texte": "📈 Le prix d’un vin en primeur dit beaucoup de l’état du vignoble. À Saint-Émilion, le Château de Pressac vend son 2025 à 29,70 euros, en hausse. Dans le même temps, la Gironde arrache des vignes et certains vignerons bordelais touchent moins d’un euro la bouteille. Le même terroir, deux mondes. Vous aviez conscience d’un tel écart ?",
@@ -201,6 +185,86 @@
           "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/saint-emilion-grand-cru-prix-crise/",
           "sujet": null,
           "publieLe": "2026-11-22T09:21:18.358Z"
+        },
+        "bluesky": {
+          "texte": "Deux réalités du vignoble girondin : à #SaintEmilion, le Château de Pressac affiche son #vin 2025 à 29,70 euros en primeur, tandis que des vignerons bordelais vendent leur bouteille sous un euro. De quoi mieux comprendre ce que l’on paie 💶",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261121-62194883-bsky.jpg",
+          "mode": "reply",
+          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/saint-emilion-grand-cru-prix-crise/",
+          "sujet": null,
+          "publieLe": "2026-11-22T11:09:34.524Z"
+        }
+      }
+    },
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36272",
+      "titre": "Jugé à Angoulême, ce voleur de notaires s’offrait des cartes Pokémon estimées à 20 000 €",
+      "lien": "https://passion-aquitaine.ouest-france.fr/cartes-pokemon-cambrioleurs-notaires-angouleme/",
+      "at": "2026-11-22T11:03:29.245Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Un procès hors norme à Angoulême. Deux hommes roulaient la nuit, Google Maps en main, pour cibler des études de notaires. Au total, 37 études visées. Et l’or revendu ne finançait pas un train de vie classique : ℹ️ il servait à acheter des cartes Pokémon par milliers, estimées à 20 000 €.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261120-d51b109a-th.jpg",
+          "mode": "reponse",
+          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/cartes-pokemon-cambrioleurs-notaires-angouleme/",
+          "sujet": "Angoulême",
+          "publieLe": "2026-11-21T10:29:51.486Z"
+        },
+        "x": {
+          "texte": "Comment l’or volé dans 37 études de notaires a fini en cartes Pokémon : le duo jugé à #Angoulême avait amassé une collection estimée à 20 000 € 🗞️",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261120-d51b109a-x.jpg",
+          "mode": "reponse",
+          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/cartes-pokemon-cambrioleurs-notaires-angouleme/",
+          "sujet": null,
+          "publieLe": "2026-11-21T11:20:56.800Z"
+        },
+        "bluesky": {
+          "texte": "À #Angoulême, un duo est jugé pour des vols dans 37 études de notaires 🗞️ L’or revendu servait à acheter des cartes Pokémon par milliers, une collection estimée à 20 000 €.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261120-d51b109a-bsky.jpg",
+          "mode": "reply",
+          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/cartes-pokemon-cambrioleurs-notaires-angouleme/",
+          "sujet": null,
+          "publieLe": "2026-11-21T18:11:02.889Z"
+        },
+        "facebook": {
+          "texte": "37 études de notaires visitées de nuit, l’or revendu, et au bout du compte des milliers de cartes Pokémon 🗞️",
+          "image": null,
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-21T20:13:59.751Z"
+        },
+        "instagram": {
+          "texte": "Des milliers de cartes Pokémon, payées avec l’or de 37 études de notaires\n⠀\nLe duo jugé à Angoulême roulait la nuit, Google Maps en main. Une collection estimée à 20 000 € 🗞️\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Angoulême #Charente #Justice",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261120-d51b109a-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-22T11:03:29.245Z"
+        }
+      }
+    },
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36266",
+      "titre": "Truffe du Périgord : la France en importe plus qu’elle n’en récolte",
+      "lien": "https://passion-aquitaine.ouest-france.fr/truffe-perigord-france-importe-plus-recolte/",
+      "at": "2026-11-22T11:00:47.144Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Imaginez un marché aux truffes du Périgord, le parfum qui monte des paniers… Sauf qu’une bonne part des truffes vendues en France n’a jamais poussé ici. Le pays en importe 127 tonnes, surtout d’Italie et de Bulgarie, pour seulement 75 tonnes récoltées. Un drôle de paradoxe pour une terre aussi attachée à son diamant noir 🌳",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261122-ecd6c5a6-th.jpg",
+          "mode": "reponse",
+          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/truffe-perigord-france-importe-plus-recolte/",
+          "sujet": "Périgord",
+          "publieLe": "2026-11-22T10:16:02.757Z"
+        },
+        "x": {
+          "texte": "🔍 Comment le pays de la truffe du #Périgord peut-il en importer plus qu’il n’en récolte ? 127 tonnes achetées, surtout en Italie et en Bulgarie, pour 75 tonnes produites en France.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261122-ecd6c5a6-x.jpg",
+          "mode": "reponse",
+          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/truffe-perigord-france-importe-plus-recolte/",
+          "sujet": null,
+          "publieLe": "2026-11-22T11:00:47.144Z"
         }
       }
     },
@@ -241,46 +305,6 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-11-22T07:13:04.500Z"
-        }
-      }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36272",
-      "titre": "Jugé à Angoulême, ce voleur de notaires s’offrait des cartes Pokémon estimées à 20 000 €",
-      "lien": "https://passion-aquitaine.ouest-france.fr/cartes-pokemon-cambrioleurs-notaires-angouleme/",
-      "at": "2026-11-21T20:13:59.751Z",
-      "reseaux": {
-        "threads": {
-          "texte": "Un procès hors norme à Angoulême. Deux hommes roulaient la nuit, Google Maps en main, pour cibler des études de notaires. Au total, 37 études visées. Et l’or revendu ne finançait pas un train de vie classique : ℹ️ il servait à acheter des cartes Pokémon par milliers, estimées à 20 000 €.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261120-d51b109a-th.jpg",
-          "mode": "reponse",
-          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/cartes-pokemon-cambrioleurs-notaires-angouleme/",
-          "sujet": "Angoulême",
-          "publieLe": "2026-11-21T10:29:51.486Z"
-        },
-        "x": {
-          "texte": "Comment l’or volé dans 37 études de notaires a fini en cartes Pokémon : le duo jugé à #Angoulême avait amassé une collection estimée à 20 000 € 🗞️",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261120-d51b109a-x.jpg",
-          "mode": "reponse",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/cartes-pokemon-cambrioleurs-notaires-angouleme/",
-          "sujet": null,
-          "publieLe": "2026-11-21T11:20:56.800Z"
-        },
-        "bluesky": {
-          "texte": "À #Angoulême, un duo est jugé pour des vols dans 37 études de notaires 🗞️ L’or revendu servait à acheter des cartes Pokémon par milliers, une collection estimée à 20 000 €.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261120-d51b109a-bsky.jpg",
-          "mode": "reply",
-          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/cartes-pokemon-cambrioleurs-notaires-angouleme/",
-          "sujet": null,
-          "publieLe": "2026-11-21T18:11:02.889Z"
-        },
-        "facebook": {
-          "texte": "37 études de notaires visitées de nuit, l’or revendu, et au bout du compte des milliers de cartes Pokémon 🗞️",
-          "image": null,
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-21T20:13:59.751Z"
         }
       }
     },
@@ -351,6 +375,36 @@
   ],
   "publications": [
     {
+      "channel": "bluesky",
+      "at": "2026-11-22T11:09:34.524Z",
+      "titre": "Quand la Gironde arrache des vignes, ce grand cru de Saint-Émilion augmente son prix",
+      "lien": "https://passion-aquitaine.ouest-france.fr/saint-emilion-grand-cru-prix-crise/",
+      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2vi3lhosh2j",
+      "format": "reply",
+      "texte": "Deux réalités du vignoble girondin : à #SaintEmilion, le Château de Pressac affiche son #vin 2025 à 29,70 euros en primeur, tandis que des vignerons bordelais vendent leur bouteille sous un euro. De quoi mieux comprendre ce que l’on paie 💶",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261121-62194883-bsky.jpg"
+    },
+    {
+      "channel": "instagram",
+      "at": "2026-11-22T11:03:29.245Z",
+      "titre": "Jugé à Angoulême, ce voleur de notaires s’offrait des cartes Pokémon estimées à 20 000 €",
+      "lien": "https://passion-aquitaine.ouest-france.fr/cartes-pokemon-cambrioleurs-notaires-angouleme/",
+      "lienPost": "https://www.instagram.com/p/DgCp1Hfj3lh/",
+      "format": null,
+      "texte": "Des milliers de cartes Pokémon, payées avec l’or de 37 études de notaires\n⠀\nLe duo jugé à Angoulême roulait la nuit, Google Maps en main. Une collection estimée à 20 000 € 🗞️\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Angoulême #Charente #Justice",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261120-d51b109a-1.jpg"
+    },
+    {
+      "channel": "x",
+      "at": "2026-11-22T11:00:47.144Z",
+      "titre": "Truffe du Périgord : la France en importe plus qu’elle n’en récolte",
+      "lien": "https://passion-aquitaine.ouest-france.fr/truffe-perigord-france-importe-plus-recolte/",
+      "lienPost": null,
+      "format": "reponse",
+      "texte": "🔍 Comment le pays de la truffe du #Périgord peut-il en importer plus qu’il n’en récolte ? 127 tonnes achetées, surtout en Italie et en Bulgarie, pour 75 tonnes produites en France.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261122-ecd6c5a6-x.jpg"
+    },
+    {
       "channel": "threads",
       "at": "2026-11-22T10:16:02.757Z",
       "titre": "Truffe du Périgord : la France en importe plus qu’elle n’en récolte",
@@ -419,66 +473,9 @@
       "format": "reply",
       "texte": "À #Angoulême, un duo est jugé pour des vols dans 37 études de notaires 🗞️ L’or revendu servait à acheter des cartes Pokémon par milliers, une collection estimée à 20 000 €.",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261120-d51b109a-bsky.jpg"
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-11-21T17:33:51.073Z",
-      "titre": "Ils sont encore là, mais presque invisibles : le plan pour sauver les visons d’Europe",
-      "lien": "https://passion-aquitaine.ouest-france.fr/vison-europe-nouvelle-aquitaine-life-care/",
-      "lienPost": "https://www.instagram.com/p/DgAxsiZElAP/",
-      "format": null,
-      "texte": "Une petite silhouette discrète au bord de l’eau, que presque personne n’a jamais vue 🦦\n⠀\nLe vison d’Europe vit encore en Nouvelle-Aquitaine, en Charente et en Charente-Maritime, mais l’espèce est en grand danger. Le projet LIFE CARE a été lancé pour tenter de la sauver.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#NouvelleAquitaine #VisonDEurope #Biodiversite",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261120-9756dd6b-1.jpg"
-    },
-    {
-      "channel": "x",
-      "at": "2026-11-21T16:21:05.880Z",
-      "titre": "La Palmyre : 53 ans après, cette baie attend toujours sa réserve",
-      "lien": "https://passion-aquitaine.ouest-france.fr/baie-bonne-anse-reserve-naturelle-palmyre/",
-      "lienPost": null,
-      "format": "reponse",
-      "texte": "La baie de Bonne Anse, à La Palmyre, figurait en 1973 parmi les 100 réserves naturelles prioritaires ⌛ 53 ans plus tard, elle attend toujours d’être protégée.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261121-7d65266b-x.jpg"
-    },
-    {
-      "channel": "threads",
-      "at": "2026-11-21T13:30:48.096Z",
-      "titre": "La Palmyre : 53 ans après, cette baie attend toujours sa réserve",
-      "lien": "https://passion-aquitaine.ouest-france.fr/baie-bonne-anse-reserve-naturelle-palmyre/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/DgAVlrhGw9Z",
-      "format": "reponse",
-      "texte": "Près de La Palmyre, la baie de Bonne Anse a une histoire étonnante 🌊 En 1973, elle faisait partie des 100 réserves naturelles à créer en priorité en France. 53 ans plus tard, ce statut n’est toujours pas arrivé. De quoi regarder autrement ce coin de Charente-Maritime lors de votre prochaine balade.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261121-7d65266b-th.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "x",
-      "dueAt": "2026-11-22T11:00:00.000Z",
-      "prochainPassage": "2026-11-22T11:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Truffe du Périgord : la France en importe plus qu’elle n’en récolte"
-    },
-    {
-      "channel": "instagram",
-      "dueAt": "2026-11-22T11:03:01.319Z",
-      "prochainPassage": "2026-11-22T11:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Jugé à Angoulême, ce voleur de notaires s’offrait des cartes Pokémon estimées à 20 000 €"
-    },
-    {
-      "channel": "bluesky",
-      "dueAt": "2026-11-22T11:09:32.473Z",
-      "prochainPassage": "2026-11-22T11:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Quand la Gironde arrache des vignes, ce grand cru de Saint-Émilion augmente son prix"
-    },
     {
       "channel": "instagram",
       "dueAt": "2026-11-22T17:04:12.372Z",
@@ -565,7 +562,7 @@
     }
   ],
   "mesures": {
-    "releves": 674,
+    "releves": 675,
     "parReseau": {
       "instagram": {
         "posts": 83,
@@ -687,7 +684,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-22T09:21:06.370Z"
+    "derniere": "2026-11-22T11:00:37.695Z"
   },
   "abonnes": {
     "instagram": {
@@ -726,12 +723,12 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-22T10:21:02.603Z",
-    "posts": 103,
+    "genereLe": "2026-11-22T11:09:42.231Z",
+    "posts": 104,
     "parReseau": {
       "threads": {
-        "posts": 26,
-        "moyenne": 16.4
+        "posts": 27,
+        "moyenne": 16.3
       },
       "instagram": {
         "posts": 25,
@@ -748,8 +745,8 @@
     },
     "parFormat": {
       "reponse": {
-        "posts": 26,
-        "moyenne": 16.4
+        "posts": 27,
+        "moyenne": 16.3
       },
       "card": {
         "posts": 7,
@@ -766,8 +763,8 @@
     },
     "parCreneau": {
       "matin": {
-        "posts": 57,
-        "moyenne": 7.3
+        "posts": 58,
+        "moyenne": 7.4
       },
       "après-midi": {
         "posts": 29,
@@ -785,8 +782,8 @@
           "moyenne": 22.7
         },
         "10 h – 11 h 30": {
-          "posts": 8,
-          "moyenne": 9
+          "posts": 9,
+          "moyenne": 9.6
         },
         "13 h – 14 h 30": {
           "posts": 2,
@@ -844,7 +841,7 @@
         }
       }
     },
-    "interactionsTotal": 628,
+    "interactionsTotal": 642,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36189",
       "channel": "threads",
@@ -893,16 +890,16 @@
         "moyenne": 6.2
       },
       "sans": {
-        "posts": 57,
-        "moyenne": 6.1
+        "posts": 58,
+        "moyenne": 6.2
       }
     },
     "publies": {
       "threads": 30,
       "facebook": 29,
-      "bluesky": 28,
-      "x": 29,
-      "instagram": 26
+      "bluesky": 29,
+      "x": 30,
+      "instagram": 27
     },
     "abonnes": {
       "instagram": {
@@ -940,14 +937,14 @@
       "x": null
     },
     "engagement": {
-      "threads": 1.4,
+      "threads": 1.39,
       "instagram": 0.08,
       "facebook": 0
     },
     "conseils": [
-      "Threads : le créneau 7 h – 8 h 30 fait 2,5 fois mieux que 10 h – 11 h 30 (22.7 contre 9 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
+      "Threads : le créneau 7 h – 8 h 30 fait 2,4 fois mieux que 10 h – 11 h 30 (22.7 contre 9.6 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Instagram : le créneau 12 h – 13 h 30 fait 1,6 fois mieux que 18 h – 19 h 30 (9.3 contre 6 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
-      "Le format « reponse » fait 164 fois mieux que « reply » (16.4 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « reply » de la rotation dans config/channels.json.",
+      "Le format « reponse » fait 163 fois mieux que « reply » (16.3 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « reply » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+17, +1,5 %) ; Facebook recule (−40), à surveiller."
     ]
   },

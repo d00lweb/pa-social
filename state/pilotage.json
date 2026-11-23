@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-23T17:00:43.756Z",
+  "genereLe": "2026-11-23T17:20:44.517Z",
   "jour": "2026-11-23",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 1,
-      "semaine": 9,
-      "total": 94,
-      "dernier": "2026-11-23T12:08:40.971Z",
-      "lienDernier": "https://www.instagram.com/p/DgFWFUXjnaB/"
+      "aujourdhui": 2,
+      "semaine": 10,
+      "total": 95,
+      "dernier": "2026-11-23T17:25:41.855Z",
+      "lienDernier": "https://www.instagram.com/p/DgF6XDfDtC4/"
     },
     "bluesky": {
       "actif": true,
@@ -165,6 +165,54 @@
   },
   "articles": [
     {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36266",
+      "titre": "Truffe du Périgord : la France en importe plus qu’elle n’en récolte",
+      "lien": "https://passion-aquitaine.ouest-france.fr/truffe-perigord-france-importe-plus-recolte/",
+      "at": "2026-11-23T17:25:41.855Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Imaginez un marché aux truffes du Périgord, le parfum qui monte des paniers… Sauf qu’une bonne part des truffes vendues en France n’a jamais poussé ici. Le pays en importe 127 tonnes, surtout d’Italie et de Bulgarie, pour seulement 75 tonnes récoltées. Un drôle de paradoxe pour une terre aussi attachée à son diamant noir 🌳",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261122-ecd6c5a6-th.jpg",
+          "mode": "reponse",
+          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/truffe-perigord-france-importe-plus-recolte/",
+          "sujet": "Périgord",
+          "publieLe": "2026-11-22T10:16:02.757Z"
+        },
+        "x": {
+          "texte": "🔍 Comment le pays de la truffe du #Périgord peut-il en importer plus qu’il n’en récolte ? 127 tonnes achetées, surtout en Italie et en Bulgarie, pour 75 tonnes produites en France.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261122-ecd6c5a6-x.jpg",
+          "mode": "reponse",
+          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/truffe-perigord-france-importe-plus-recolte/",
+          "sujet": null,
+          "publieLe": "2026-11-22T11:00:47.144Z"
+        },
+        "bluesky": {
+          "texte": "Le #Périgord a beau être sa terre d’élection, la France importe plus de truffes qu’elle n’en récolte ⚖️ 127 tonnes achetées, surtout en Italie et en Bulgarie, contre 75 tonnes sorties du sol français.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261122-ecd6c5a6-bsky.jpg",
+          "mode": "card",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-22T17:31:32.398Z"
+        },
+        "facebook": {
+          "texte": "Avant d’acheter votre truffe pour les fêtes, sachez qu’elle a de bonnes chances de venir d’Italie ou de Bulgarie 🇮🇹 🍄\nL’article est en premier commentaire.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261122-ecd6c5a6-fb.jpg",
+          "mode": "photo",
+          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/truffe-perigord-france-importe-plus-recolte/?at_medium=social&at_campaign=fb-photo",
+          "sujet": null,
+          "publieLe": "2026-11-23T08:30:50.074Z"
+        },
+        "instagram": {
+          "texte": "🍄 127 tonnes importées, 75 récoltées : la France achète plus de truffes qu’elle n’en sort de terre\n⠀\nLe pays de la truffe du Périgord se fournit surtout en Italie et en Bulgarie. Un paradoxe qui interroge la filière en Dordogne.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Perigord #Truffe #Agriculture",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261122-ecd6c5a6-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-23T17:25:41.855Z"
+        }
+      }
+    },
+    {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36295",
       "titre": "Vautours d’Ossau : un bénévole de 89 ans fournit l’essentiel des données du Parc national",
       "lien": "https://passion-aquitaine.ouest-france.fr/vautours-fauves-ossau-benevole-donnees/",
@@ -293,46 +341,6 @@
       }
     },
     {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36266",
-      "titre": "Truffe du Périgord : la France en importe plus qu’elle n’en récolte",
-      "lien": "https://passion-aquitaine.ouest-france.fr/truffe-perigord-france-importe-plus-recolte/",
-      "at": "2026-11-23T08:30:50.074Z",
-      "reseaux": {
-        "threads": {
-          "texte": "Imaginez un marché aux truffes du Périgord, le parfum qui monte des paniers… Sauf qu’une bonne part des truffes vendues en France n’a jamais poussé ici. Le pays en importe 127 tonnes, surtout d’Italie et de Bulgarie, pour seulement 75 tonnes récoltées. Un drôle de paradoxe pour une terre aussi attachée à son diamant noir 🌳",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261122-ecd6c5a6-th.jpg",
-          "mode": "reponse",
-          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/truffe-perigord-france-importe-plus-recolte/",
-          "sujet": "Périgord",
-          "publieLe": "2026-11-22T10:16:02.757Z"
-        },
-        "x": {
-          "texte": "🔍 Comment le pays de la truffe du #Périgord peut-il en importer plus qu’il n’en récolte ? 127 tonnes achetées, surtout en Italie et en Bulgarie, pour 75 tonnes produites en France.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261122-ecd6c5a6-x.jpg",
-          "mode": "reponse",
-          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/truffe-perigord-france-importe-plus-recolte/",
-          "sujet": null,
-          "publieLe": "2026-11-22T11:00:47.144Z"
-        },
-        "bluesky": {
-          "texte": "Le #Périgord a beau être sa terre d’élection, la France importe plus de truffes qu’elle n’en récolte ⚖️ 127 tonnes achetées, surtout en Italie et en Bulgarie, contre 75 tonnes sorties du sol français.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261122-ecd6c5a6-bsky.jpg",
-          "mode": "card",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-22T17:31:32.398Z"
-        },
-        "facebook": {
-          "texte": "Avant d’acheter votre truffe pour les fêtes, sachez qu’elle a de bonnes chances de venir d’Italie ou de Bulgarie 🇮🇹 🍄\nL’article est en premier commentaire.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261122-ecd6c5a6-fb.jpg",
-          "mode": "photo",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/truffe-perigord-france-importe-plus-recolte/?at_medium=social&at_campaign=fb-photo",
-          "sujet": null,
-          "publieLe": "2026-11-23T08:30:50.074Z"
-        }
-      }
-    },
-    {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36215",
       "titre": "La Palmyre : 53 ans après, cette baie attend toujours sa réserve",
       "lien": "https://passion-aquitaine.ouest-france.fr/baie-bonne-anse-reserve-naturelle-palmyre/",
@@ -382,6 +390,16 @@
     }
   ],
   "publications": [
+    {
+      "channel": "instagram",
+      "at": "2026-11-23T17:25:41.855Z",
+      "titre": "Truffe du Périgord : la France en importe plus qu’elle n’en récolte",
+      "lien": "https://passion-aquitaine.ouest-france.fr/truffe-perigord-france-importe-plus-recolte/",
+      "lienPost": "https://www.instagram.com/p/DgF6XDfDtC4/",
+      "format": null,
+      "texte": "🍄 127 tonnes importées, 75 récoltées : la France achète plus de truffes qu’elle n’en sort de terre\n⠀\nLe pays de la truffe du Périgord se fournit surtout en Italie et en Bulgarie. Un paradoxe qui interroge la filière en Dordogne.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Perigord #Truffe #Agriculture",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261122-ecd6c5a6-1.jpg"
+    },
     {
       "channel": "x",
       "at": "2026-11-23T15:00:59.005Z",
@@ -471,28 +489,9 @@
       "format": "reponse",
       "texte": "Qui achète vraiment les vignes bordelaises mises en vente ? L’auteur de Gomorra pose la question sans détour ℹ️ En 2024, neuf châteaux du vignoble ont été confisqués pour blanchiment, et il y soupçonne l’appétit des mafias.\n@villedebordeaux",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261122-94a71a8e-th.jpg"
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-11-22T20:23:09.240Z",
-      "titre": "Quand la Gironde arrache des vignes, ce grand cru de Saint-Émilion augmente son prix",
-      "lien": "https://passion-aquitaine.ouest-france.fr/saint-emilion-grand-cru-prix-crise/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1799352492190631",
-      "format": "lien",
-      "texte": "Moins d’un euro la bouteille pour certains vignerons bordelais, 29,70 euros en primeur pour ce grand cru voisin 🍷",
-      "image": null
     }
   ],
   "file": [
-    {
-      "channel": "instagram",
-      "dueAt": "2026-11-23T17:25:08.386Z",
-      "prochainPassage": "2026-11-23T18:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Truffe du Périgord : la France en importe plus qu’elle n’en récolte"
-    },
     {
       "channel": "bluesky",
       "dueAt": "2026-11-23T18:03:52.060Z",
@@ -597,7 +596,7 @@
     }
   ],
   "mesures": {
-    "releves": 690,
+    "releves": 691,
     "parReseau": {
       "instagram": {
         "posts": 85,
@@ -714,7 +713,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-23T16:01:12.315Z"
+    "derniere": "2026-11-23T17:20:44.517Z"
   },
   "abonnes": {
     "instagram": {
@@ -753,16 +752,16 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-23T17:00:47.963Z",
-    "posts": 115,
+    "genereLe": "2026-11-23T17:25:44.981Z",
+    "posts": 116,
     "parReseau": {
       "threads": {
         "posts": 30,
         "moyenne": 15.3
       },
       "instagram": {
-        "posts": 27,
-        "moyenne": 8
+        "posts": 28,
+        "moyenne": 7.8
       },
       "facebook": {
         "posts": 29,
@@ -801,8 +800,8 @@
         "moyenne": 6
       },
       "soir": {
-        "posts": 20,
-        "moyenne": 1.8
+        "posts": 21,
+        "moyenne": 1.9
       }
     },
     "parCreneauReseau": {
@@ -862,8 +861,8 @@
           "moyenne": 9.3
         },
         "18 h – 19 h 30": {
-          "posts": 5,
-          "moyenne": 5.8
+          "posts": 6,
+          "moyenne": 5.5
         },
         "hors créneau": {
           "posts": 3,
@@ -871,7 +870,7 @@
         }
       }
     },
-    "interactionsTotal": 674,
+    "interactionsTotal": 678,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36189",
       "channel": "threads",
@@ -914,8 +913,8 @@
     },
     "mentions": {
       "avec": {
-        "posts": 48,
-        "moyenne": 6.2
+        "posts": 49,
+        "moyenne": 6.1
       },
       "sans": {
         "posts": 67,
@@ -927,7 +926,7 @@
       "facebook": 31,
       "bluesky": 32,
       "x": 33,
-      "instagram": 29
+      "instagram": 30
     },
     "abonnes": {
       "instagram": {
@@ -971,7 +970,7 @@
     },
     "conseils": [
       "Threads : le créneau 7 h – 8 h 30 fait 3,6 fois mieux que 13 h – 14 h 30 (21.5 contre 6 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
-      "Instagram : le créneau 12 h – 13 h 30 fait 1,6 fois mieux que 18 h – 19 h 30 (9.3 contre 5.8 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
+      "Instagram : le créneau 12 h – 13 h 30 fait 1,7 fois mieux que 18 h – 19 h 30 (9.3 contre 5.5 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Le format « reponse » fait 153 fois mieux que « reply » (15.3 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « reply » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+17, +1,5 %) ; Facebook recule (−43), à surveiller."
     ]

@@ -8184,5 +8184,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36266",
+    "channel": "facebook",
+    "at": "2026-11-23T08:30:50.074Z",
+    "mediaId": "227437307428711_1799890428803504",
+    "titre": "Truffe du Périgord : la France en importe plus qu’elle n’en récolte",
+    "lien": "https://passion-aquitaine.ouest-france.fr/truffe-perigord-france-importe-plus-recolte/",
+    "lienPost": "https://www.facebook.com/1720946116697936/posts/1799890428803504",
+    "format": "photo",
+    "mention": false,
+    "apercu": {
+      "texte": "Avant d’acheter votre truffe pour les fêtes, sachez qu’elle a de bonnes chances de venir d’Italie ou de Bulgarie 🇮🇹 🍄\nL’article est en premier commentaire.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261122-ecd6c5a6-fb.jpg",
+      "mode": "photo",
+      "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/truffe-perigord-france-importe-plus-recolte/?at_medium=social&at_campaign=fb-photo",
+      "sujet": null
+    }
   }
 ]

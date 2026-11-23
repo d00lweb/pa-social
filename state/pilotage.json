@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-23T06:20:43.290Z",
+  "genereLe": "2026-11-23T07:00:41.420Z",
   "jour": "2026-11-23",
   "reseaux": {
     "instagram": {
@@ -122,11 +122,11 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 11,
-      "total": 90,
-      "dernier": "2026-11-22T10:16:02.757Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DgCj8r5G4JV"
+      "aujourdhui": 1,
+      "semaine": 12,
+      "total": 91,
+      "dernier": "2026-11-23T07:12:24.648Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DgEzzwTFQnn"
     },
     "x": {
       "actif": true,
@@ -164,6 +164,22 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36291",
+      "titre": "Vignes bordelaises à vendre : l’auteur de Gomorra redoute l’argent des mafias",
+      "lien": "https://passion-aquitaine.ouest-france.fr/vignoble-bordelais-mafias-saviano-gomorra/",
+      "at": "2026-11-23T07:12:24.648Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Qui achète vraiment les vignes bordelaises mises en vente ? L’auteur de Gomorra pose la question sans détour ℹ️ En 2024, neuf châteaux du vignoble ont été confisqués pour blanchiment, et il y soupçonne l’appétit des mafias.\n@villedebordeaux",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261122-94a71a8e-th.jpg",
+          "mode": "reponse",
+          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/vignoble-bordelais-mafias-saviano-gomorra/",
+          "sujet": "Bordeaux",
+          "publieLe": "2026-11-23T07:12:24.648Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36276",
       "titre": "Quand la Gironde arrache des vignes, ce grand cru de Saint-Émilion augmente son prix",
@@ -379,25 +395,19 @@
           "publieLe": "2026-11-21T17:33:51.073Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36255",
-      "titre": "Golfe de Gascogne : l’hiver 2025, les dauphins sont surtout morts avant l’arrêt de pêche",
-      "lien": "https://passion-aquitaine.ouest-france.fr/dauphins-golfe-gascogne-peche-fermeture/",
-      "at": "2026-11-20T20:05:31.494Z",
-      "reseaux": {
-        "facebook": {
-          "texte": "Plus de la moitié des dauphins tués l’hiver dernier dans le golfe de Gascogne l’ont été avant même l’arrêt de pêche 📰",
-          "image": null,
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-20T20:05:31.494Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "threads",
+      "at": "2026-11-23T07:12:24.648Z",
+      "titre": "Vignes bordelaises à vendre : l’auteur de Gomorra redoute l’argent des mafias",
+      "lien": "https://passion-aquitaine.ouest-france.fr/vignoble-bordelais-mafias-saviano-gomorra/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/DgEzzwTFQnn",
+      "format": "reponse",
+      "texte": "Qui achète vraiment les vignes bordelaises mises en vente ? L’auteur de Gomorra pose la question sans détour ℹ️ En 2024, neuf châteaux du vignoble ont été confisqués pour blanchiment, et il y soupçonne l’appétit des mafias.\n@villedebordeaux",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261122-94a71a8e-th.jpg"
+    },
     {
       "channel": "facebook",
       "at": "2026-11-22T20:23:09.240Z",
@@ -487,28 +497,9 @@
       "format": null,
       "texte": "À La Palmyre, la baie de Bonne Anse était jugée prioritaire pour devenir réserve naturelle… il y a plus d’un demi-siècle ⏳",
       "image": null
-    },
-    {
-      "channel": "bluesky",
-      "at": "2026-11-22T07:06:37.208Z",
-      "titre": "La Palmyre : 53 ans après, cette baie attend toujours sa réserve",
-      "lien": "https://passion-aquitaine.ouest-france.fr/baie-bonne-anse-reserve-naturelle-palmyre/",
-      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2v2j5jibk2u",
-      "format": "reply",
-      "texte": "🦆 Classée parmi les 100 réserves naturelles à créer en priorité dès 1973, la baie de Bonne Anse, à #LaPalmyre, attend encore son statut. Une priorité restée lettre morte pendant 53 ans en #CharenteMaritime.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261121-7d65266b-bsky.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "threads",
-      "dueAt": "2026-11-23T07:08:53.099Z",
-      "prochainPassage": "2026-11-23T07:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Vignes bordelaises à vendre : l’auteur de Gomorra redoute l’argent des mafias"
-    },
     {
       "channel": "bluesky",
       "dueAt": "2026-11-23T08:13:30.329Z",
@@ -537,6 +528,24 @@
       "titre": "Vignes bordelaises à vendre : l’auteur de Gomorra redoute l’argent des mafias"
     },
     {
+      "channel": "threads",
+      "dueAt": "2026-11-23T09:28:47.774Z",
+      "prochainPassage": "2026-11-23T10:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Pont Rouchaud : le pont oublié où se touchent trois ex-régions"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-11-23T11:05:16.597Z",
+      "prochainPassage": "2026-11-23T11:20:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Pont Rouchaud : le pont oublié où se touchent trois ex-régions"
+    },
+    {
       "channel": "instagram",
       "dueAt": "2026-11-23T12:08:07.541Z",
       "prochainPassage": "2026-11-23T12:20:00.000Z",
@@ -544,6 +553,15 @@
       "prevuInitialement": null,
       "raison": null,
       "titre": "Quand la Gironde arrache des vignes, ce grand cru de Saint-Émilion augmente son prix"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-11-23T12:20:00.000Z",
+      "prochainPassage": "2026-11-23T12:20:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Pont Rouchaud : le pont oublié où se touchent trois ex-régions"
     },
     {
       "channel": "instagram",
@@ -564,6 +582,15 @@
       "titre": "Vignes bordelaises à vendre : l’auteur de Gomorra redoute l’argent des mafias"
     },
     {
+      "channel": "facebook",
+      "dueAt": "2026-11-24T07:06:57.122Z",
+      "prochainPassage": "2026-11-24T07:20:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Pont Rouchaud : le pont oublié où se touchent trois ex-régions"
+    },
+    {
       "channel": "instagram",
       "dueAt": "2026-11-24T12:29:40.160Z",
       "prochainPassage": "2026-11-24T13:00:00.000Z",
@@ -571,6 +598,15 @@
       "prevuInitialement": null,
       "raison": null,
       "titre": "Vignes bordelaises à vendre : l’auteur de Gomorra redoute l’argent des mafias"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-11-24T18:27:52.609Z",
+      "prochainPassage": "2026-11-24T19:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Pont Rouchaud : le pont oublié où se touchent trois ex-régions"
     }
   ],
   "alertes": [
@@ -604,7 +640,7 @@
     }
   ],
   "mesures": {
-    "releves": 681,
+    "releves": 682,
     "parReseau": {
       "instagram": {
         "posts": 84,
@@ -760,12 +796,12 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-23T06:20:48.399Z",
-    "posts": 109,
+    "genereLe": "2026-11-23T07:12:27.248Z",
+    "posts": 110,
     "parReseau": {
       "threads": {
-        "posts": 28,
-        "moyenne": 15.9
+        "posts": 29,
+        "moyenne": 15.5
       },
       "instagram": {
         "posts": 26,
@@ -782,8 +818,8 @@
     },
     "parFormat": {
       "reponse": {
-        "posts": 28,
-        "moyenne": 15.9
+        "posts": 29,
+        "moyenne": 15.5
       },
       "card": {
         "posts": 7,
@@ -800,8 +836,8 @@
     },
     "parCreneau": {
       "matin": {
-        "posts": 58,
-        "moyenne": 7.4
+        "posts": 59,
+        "moyenne": 7.3
       },
       "après-midi": {
         "posts": 31,
@@ -815,8 +851,8 @@
     "parCreneauReseau": {
       "threads": {
         "7 h – 8 h 30": {
-          "posts": 15,
-          "moyenne": 22.7
+          "posts": 16,
+          "moyenne": 21.5
         },
         "10 h – 11 h 30": {
           "posts": 9,
@@ -878,7 +914,7 @@
         }
       }
     },
-    "interactionsTotal": 657,
+    "interactionsTotal": 661,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36189",
       "channel": "threads",
@@ -928,12 +964,12 @@
         "moyenne": 6.2
       },
       "sans": {
-        "posts": 62,
+        "posts": 63,
         "moyenne": 5.9
       }
     },
     "publies": {
-      "threads": 30,
+      "threads": 31,
       "facebook": 30,
       "bluesky": 30,
       "x": 30,
@@ -975,42 +1011,42 @@
       "x": null
     },
     "engagement": {
-      "threads": 1.36,
+      "threads": 1.32,
       "instagram": 0.08,
       "facebook": 0
     },
     "conseils": [
-      "Threads : le créneau 7 h – 8 h 30 fait 3,8 fois mieux que 13 h – 14 h 30 (22.7 contre 6 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
+      "Threads : le créneau 7 h – 8 h 30 fait 3,6 fois mieux que 13 h – 14 h 30 (21.5 contre 6 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Instagram : le créneau 12 h – 13 h 30 fait 1,6 fois mieux que 18 h – 19 h 30 (9.5 contre 5.8 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
-      "Le format « reponse » fait 159 fois mieux que « reply » (15.9 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « reply » de la rotation dans config/channels.json.",
+      "Le format « reponse » fait 155 fois mieux que « reply » (15.5 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « reply » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+17, +1,5 %) ; Facebook recule (−43), à surveiller."
     ]
   },
   "couts": {
     "jour": {
-      "appels": 0,
-      "entree": 0,
-      "sortie": 0,
-      "cout": 0,
+      "appels": 1,
+      "entree": 8021,
+      "sortie": 857,
+      "cout": 0.049224,
       "cle": "2026-11-23"
     },
     "semaine": {
-      "appels": 21,
-      "entree": 167964,
-      "sortie": 19650,
-      "cout": 1.064856
+      "appels": 22,
+      "entree": 175985,
+      "sortie": 20507,
+      "cout": 1.11408
     },
     "mois": {
-      "appels": 78,
-      "entree": 624154,
-      "sortie": 70667,
-      "cout": 3.9099559999999993,
+      "appels": 79,
+      "entree": 632175,
+      "sortie": 71524,
+      "cout": 3.9591799999999995,
       "cle": "2026-11"
     },
-    "projection": 5.1,
+    "projection": 5.16,
     "moyenneAppel": 0.0501,
     "parModele": {
-      "claude-opus-5-5": 78
+      "claude-opus-5-5": 79
     },
     "serie": [
       [
@@ -1067,7 +1103,7 @@
       ],
       [
         "2026-11-23",
-        0
+        0.0492
       ]
     ],
     "depuis": "2026-09-23"

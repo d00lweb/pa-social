@@ -145,3 +145,10 @@ test('page : aucune injection de HTML, aucune ressource extérieure', () => {
   for (const u of externes) assert.ok(permis.some((p) => p.test(u)), `adresse inattendue : ${u}`);
   assert.doesNotMatch(html, /<script[^>]+src=|<link[^>]+stylesheet/);
 });
+
+test('données publiques : un post supprimé disparaît de la page', () => {
+  const h = [...history, { guid: 'g10', channel: 'facebook', at: '2026-09-18T12:00:00Z', mediaId: '1', titre: 'Article supprimé', lien: 'https://passion-aquitaine.ouest-france.fr/article-10/', lienPost: 'https://www.facebook.com/p/supprime', supprime: true }];
+  const s = JSON.stringify(construirePublic({ history: h, queue, mesures, releves, archive, vignette, maintenant }));
+  assert.ok(!s.includes('Article supprimé') && !s.includes('/p/supprime'));
+  assert.ok(s.includes('Article 1'));
+});

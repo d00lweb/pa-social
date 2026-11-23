@@ -113,7 +113,8 @@ export function construirePublic({
   const flux = new Map(articles.filter((a) => a?.guid).map((a) => [a.guid, a]));
   const jour = dayKey(maintenant, TZ);
   const actifs = PUBLICS.filter((id) => canaux[id] && canaux[id].enabled !== false && !controls.paused?.[id]);
-  const publics = history.filter((e) => e.at && PUBLICS.includes(e.channel));
+  // Post supprimé chez le réseau (marqué « supprime » dans l'historique) : plus de carte ni de lien mort
+  const publics = history.filter((e) => e.at && !e.supprime && PUBLICS.includes(e.channel));
   const semaine = resumeSemaine(releves, maintenant, TZ);
   const debut = Object.keys(releves).sort()[0] ?? null;
 

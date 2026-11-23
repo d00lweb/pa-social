@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-23T17:20:44.517Z",
+  "genereLe": "2026-11-23T18:02:57.697Z",
   "jour": "2026-11-23",
   "reseaux": {
     "instagram": {
@@ -60,11 +60,11 @@
         "image",
         "reply"
       ],
-      "aujourdhui": 2,
-      "semaine": 12,
-      "total": 95,
-      "dernier": "2026-11-23T11:05:18.655Z",
-      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2xycuxone2j"
+      "aujourdhui": 3,
+      "semaine": 13,
+      "total": 96,
+      "dernier": "2026-11-23T18:03:53.916Z",
+      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2yppeuqzs2v"
     },
     "facebook": {
       "actif": true,
@@ -165,6 +165,30 @@
   },
   "articles": [
     {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36295",
+      "titre": "Vautours d’Ossau : un bénévole de 89 ans fournit l’essentiel des données du Parc national",
+      "lien": "https://passion-aquitaine.ouest-france.fr/vautours-fauves-ossau-benevole-donnees/",
+      "at": "2026-11-23T18:03:53.916Z",
+      "reseaux": {
+        "x": {
+          "texte": "Le meilleur informateur du Parc national sur les vautours d’Ossau a 89 ans 🦅 Bénévole à #Castet, il lit leurs bagues et fournit l’essentiel des données.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261123-30597995-x.jpg",
+          "mode": "reponse",
+          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/vautours-fauves-ossau-benevole-donnees/",
+          "sujet": null,
+          "publieLe": "2026-11-23T15:00:59.005Z"
+        },
+        "bluesky": {
+          "texte": "89 ans, et l’essentiel des données du Parc national sur les vautours d’Ossau. En #Béarn, à #Castet, un bénévole relève les bagues des vautours fauves, alors que s’achève le plan conduit avec les éleveurs 🦅",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261123-30597995-bsky.jpg",
+          "mode": "reply",
+          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/vautours-fauves-ossau-benevole-donnees/",
+          "sujet": null,
+          "publieLe": "2026-11-23T18:03:53.916Z"
+        }
+      }
+    },
+    {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36266",
       "titre": "Truffe du Périgord : la France en importe plus qu’elle n’en récolte",
       "lien": "https://passion-aquitaine.ouest-france.fr/truffe-perigord-france-importe-plus-recolte/",
@@ -209,22 +233,6 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-11-23T17:25:41.855Z"
-        }
-      }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36295",
-      "titre": "Vautours d’Ossau : un bénévole de 89 ans fournit l’essentiel des données du Parc national",
-      "lien": "https://passion-aquitaine.ouest-france.fr/vautours-fauves-ossau-benevole-donnees/",
-      "at": "2026-11-23T15:00:59.005Z",
-      "reseaux": {
-        "x": {
-          "texte": "Le meilleur informateur du Parc national sur les vautours d’Ossau a 89 ans 🦅 Bénévole à #Castet, il lit leurs bagues et fournit l’essentiel des données.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261123-30597995-x.jpg",
-          "mode": "reponse",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/vautours-fauves-ossau-benevole-donnees/",
-          "sujet": null,
-          "publieLe": "2026-11-23T15:00:59.005Z"
         }
       }
     },
@@ -391,6 +399,16 @@
   ],
   "publications": [
     {
+      "channel": "bluesky",
+      "at": "2026-11-23T18:03:53.916Z",
+      "titre": "Vautours d’Ossau : un bénévole de 89 ans fournit l’essentiel des données du Parc national",
+      "lien": "https://passion-aquitaine.ouest-france.fr/vautours-fauves-ossau-benevole-donnees/",
+      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2yppeuqzs2v",
+      "format": "reply",
+      "texte": "89 ans, et l’essentiel des données du Parc national sur les vautours d’Ossau. En #Béarn, à #Castet, un bénévole relève les bagues des vautours fauves, alors que s’achève le plan conduit avec les éleveurs 🦅",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261123-30597995-bsky.jpg"
+    },
+    {
       "channel": "instagram",
       "at": "2026-11-23T17:25:41.855Z",
       "titre": "Truffe du Périgord : la France en importe plus qu’elle n’en récolte",
@@ -479,28 +497,9 @@
       "format": "card",
       "texte": "Des rangs de vignes à vendre, et dans l’ombre, l’argent sale 🗞️ Autour de #Bordeaux, neuf châteaux ont été confisqués pour blanchiment en 2024, et l’auteur de Gomorra redoute l’appétit des mafias.\n@villedebordeaux.bsky.social",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261122-94a71a8e-bsky.jpg"
-    },
-    {
-      "channel": "threads",
-      "at": "2026-11-23T07:12:24.648Z",
-      "titre": "Vignes bordelaises à vendre : l’auteur de Gomorra redoute l’argent des mafias",
-      "lien": "https://passion-aquitaine.ouest-france.fr/vignoble-bordelais-mafias-saviano-gomorra/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/DgEzzwTFQnn",
-      "format": "reponse",
-      "texte": "Qui achète vraiment les vignes bordelaises mises en vente ? L’auteur de Gomorra pose la question sans détour ℹ️ En 2024, neuf châteaux du vignoble ont été confisqués pour blanchiment, et il y soupçonne l’appétit des mafias.\n@villedebordeaux",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261122-94a71a8e-th.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "bluesky",
-      "dueAt": "2026-11-23T18:03:52.060Z",
-      "prochainPassage": "2026-11-23T18:20:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Vautours d’Ossau : un bénévole de 89 ans fournit l’essentiel des données du Parc national"
-    },
     {
       "channel": "facebook",
       "dueAt": "2026-11-23T19:12:02.848Z",
@@ -596,7 +595,7 @@
     }
   ],
   "mesures": {
-    "releves": 691,
+    "releves": 692,
     "parReseau": {
       "instagram": {
         "posts": 85,
@@ -752,8 +751,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-23T17:25:44.981Z",
-    "posts": 116,
+    "genereLe": "2026-11-23T18:04:02.628Z",
+    "posts": 117,
     "parReseau": {
       "threads": {
         "posts": 30,
@@ -768,7 +767,7 @@
         "moyenne": 0
       },
       "bluesky": {
-        "posts": 29,
+        "posts": 30,
         "moyenne": 0
       }
     },
@@ -778,7 +777,7 @@
         "moyenne": 15.3
       },
       "card": {
-        "posts": 7,
+        "posts": 8,
         "moyenne": 0.1
       },
       "image": {
@@ -800,8 +799,8 @@
         "moyenne": 6
       },
       "soir": {
-        "posts": 21,
-        "moyenne": 1.9
+        "posts": 22,
+        "moyenne": 1.8
       }
     },
     "parCreneauReseau": {
@@ -851,7 +850,7 @@
           "moyenne": 0
         },
         "18 h – 19 h 30": {
-          "posts": 2,
+          "posts": 3,
           "moyenne": 0
         }
       },
@@ -892,24 +891,24 @@
       "creneauReseau": "7 h – 8 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36276",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36266",
       "channel": "bluesky",
-      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3n2vi3lhosh2j",
-      "publieLe": "2026-11-22T11:09:34.524Z",
-      "format": "reply",
+      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3n2w5glq6ne2d",
+      "publieLe": "2026-11-22T17:31:32.398Z",
+      "format": "card",
       "jalon": 1,
-      "releveLe": "2026-11-23T11:21:44.154Z",
+      "releveLe": "2026-11-23T18:02:57.697Z",
       "likes": 0,
-      "commentairesBruts": 1,
+      "commentairesBruts": 0,
       "partages": 0,
       "vues": null,
       "commentaires": 0,
       "v": 2,
-      "titre": "Quand la Gironde arrache des vignes, ce grand cru de Saint-Émilion augmente son prix",
-      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2vi3lhosh2j",
+      "titre": "Truffe du Périgord : la France en importe plus qu’elle n’en récolte",
+      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2w5glq6ne2d",
       "mention": false,
-      "creneau": "après-midi",
-      "creneauReseau": "12 h – 13 h 30"
+      "creneau": "soir",
+      "creneauReseau": "18 h – 19 h 30"
     },
     "mentions": {
       "avec": {
@@ -917,14 +916,14 @@
         "moyenne": 6.1
       },
       "sans": {
-        "posts": 67,
-        "moyenne": 5.6
+        "posts": 68,
+        "moyenne": 5.5
       }
     },
     "publies": {
       "threads": 32,
       "facebook": 31,
-      "bluesky": 32,
+      "bluesky": 33,
       "x": 33,
       "instagram": 30
     },

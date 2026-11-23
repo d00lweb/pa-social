@@ -8332,5 +8332,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36295",
+    "channel": "bluesky",
+    "at": "2026-11-23T18:03:53.916Z",
+    "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3n2yppeuqzs2v",
+    "titre": "Vautours d’Ossau : un bénévole de 89 ans fournit l’essentiel des données du Parc national",
+    "lien": "https://passion-aquitaine.ouest-france.fr/vautours-fauves-ossau-benevole-donnees/",
+    "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2yppeuqzs2v",
+    "format": "reply",
+    "mention": false,
+    "apercu": {
+      "texte": "89 ans, et l’essentiel des données du Parc national sur les vautours d’Ossau. En #Béarn, à #Castet, un bénévole relève les bagues des vautours fauves, alors que s’achève le plan conduit avec les éleveurs 🦅",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261123-30597995-bsky.jpg",
+      "mode": "reply",
+      "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/vautours-fauves-ossau-benevole-donnees/",
+      "sujet": null
+    }
   }
 ]

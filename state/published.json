@@ -8277,5 +8277,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36251",
+    "channel": "x",
+    "at": "2026-11-23T12:23:20.615Z",
+    "mediaId": "kit-telegram",
+    "titre": "Pont Rouchaud : le pont oublié où se touchent trois ex-régions",
+    "lien": "https://passion-aquitaine.ouest-france.fr/pont-rouchaud-trois-regions-nouvelle-aquitaine/",
+    "lienPost": null,
+    "format": "reponse",
+    "mention": false,
+    "apercu": {
+      "texte": "Sur la Tardoire, le pont Rouchaud cache un secret géographique : 📌 #Charente, Dordogne et Haute-Vienne s’y touchent. C’est le centre symbolique de la plus vaste région de France.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261123-965863c4-x.jpg",
+      "mode": "reponse",
+      "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/pont-rouchaud-trois-regions-nouvelle-aquitaine/",
+      "sujet": null
+    }
   }
 ]

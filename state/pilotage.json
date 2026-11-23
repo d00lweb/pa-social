@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-23T11:21:44.154Z",
+  "genereLe": "2026-11-23T12:00:44.107Z",
   "jour": "2026-11-23",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 9,
-      "total": 93,
-      "dernier": "2026-11-22T17:04:47.163Z",
-      "lienDernier": "https://www.instagram.com/p/DgDTLRHl3Dz/"
+      "aujourdhui": 1,
+      "semaine": 10,
+      "total": 94,
+      "dernier": "2026-11-23T12:08:40.971Z",
+      "lienDernier": "https://www.instagram.com/p/DgFWFUXjnaB/"
     },
     "bluesky": {
       "actif": true,
@@ -61,7 +61,7 @@
         "reply"
       ],
       "aujourdhui": 2,
-      "semaine": 13,
+      "semaine": 12,
       "total": 95,
       "dernier": "2026-11-23T11:05:18.655Z",
       "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2xycuxone2j"
@@ -165,6 +165,54 @@
   },
   "articles": [
     {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36276",
+      "titre": "Quand la Gironde arrache des vignes, ce grand cru de Saint-Émilion augmente son prix",
+      "lien": "https://passion-aquitaine.ouest-france.fr/saint-emilion-grand-cru-prix-crise/",
+      "at": "2026-11-23T12:08:40.971Z",
+      "reseaux": {
+        "threads": {
+          "texte": "📈 Le prix d’un vin en primeur dit beaucoup de l’état du vignoble. À Saint-Émilion, le Château de Pressac vend son 2025 à 29,70 euros, en hausse. Dans le même temps, la Gironde arrache des vignes et certains vignerons bordelais touchent moins d’un euro la bouteille. Le même terroir, deux mondes. Vous aviez conscience d’un tel écart ?",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261121-62194883-th.jpg",
+          "mode": "reponse",
+          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/saint-emilion-grand-cru-prix-crise/",
+          "sujet": "Saint-Émilion",
+          "publieLe": "2026-11-22T06:27:42.498Z"
+        },
+        "x": {
+          "texte": "D’un côté, des vignes arrachées en Gironde 🚜 De l’autre, un grand cru de Saint-Émilion, le Château de Pressac, qui vend son 2025 à 29,70 euros en primeur, quand des vignerons bordelais touchent moins d’un euro la bouteille.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261121-62194883-x.jpg",
+          "mode": "reponse",
+          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/saint-emilion-grand-cru-prix-crise/",
+          "sujet": null,
+          "publieLe": "2026-11-22T09:21:18.358Z"
+        },
+        "bluesky": {
+          "texte": "Deux réalités du vignoble girondin : à #SaintEmilion, le Château de Pressac affiche son #vin 2025 à 29,70 euros en primeur, tandis que des vignerons bordelais vendent leur bouteille sous un euro. De quoi mieux comprendre ce que l’on paie 💶",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261121-62194883-bsky.jpg",
+          "mode": "reply",
+          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/saint-emilion-grand-cru-prix-crise/",
+          "sujet": null,
+          "publieLe": "2026-11-22T11:09:34.524Z"
+        },
+        "facebook": {
+          "texte": "Moins d’un euro la bouteille pour certains vignerons bordelais, 29,70 euros en primeur pour ce grand cru voisin 🍷",
+          "image": null,
+          "mode": "lien",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-22T20:23:09.240Z"
+        },
+        "instagram": {
+          "texte": "À Saint-Émilion, un grand cru fait monter son prix pendant que la Gironde arrache des vignes 🍇\n⠀\nLe Château de Pressac propose son millésime 2025 à 29,70 euros en primeur. Ailleurs dans le Bordelais, des vignerons touchent moins d’un euro la bouteille.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#SaintEmilion #VinDeBordeaux #Viticulture",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261121-62194883-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-23T12:08:40.971Z"
+        }
+      }
+    },
+    {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36251",
       "titre": "Pont Rouchaud : le pont oublié où se touchent trois ex-régions",
       "lien": "https://passion-aquitaine.ouest-france.fr/pont-rouchaud-trois-regions-nouvelle-aquitaine/",
@@ -257,46 +305,6 @@
           "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/truffe-perigord-france-importe-plus-recolte/?at_medium=social&at_campaign=fb-photo",
           "sujet": null,
           "publieLe": "2026-11-23T08:30:50.074Z"
-        }
-      }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36276",
-      "titre": "Quand la Gironde arrache des vignes, ce grand cru de Saint-Émilion augmente son prix",
-      "lien": "https://passion-aquitaine.ouest-france.fr/saint-emilion-grand-cru-prix-crise/",
-      "at": "2026-11-22T20:23:09.240Z",
-      "reseaux": {
-        "threads": {
-          "texte": "📈 Le prix d’un vin en primeur dit beaucoup de l’état du vignoble. À Saint-Émilion, le Château de Pressac vend son 2025 à 29,70 euros, en hausse. Dans le même temps, la Gironde arrache des vignes et certains vignerons bordelais touchent moins d’un euro la bouteille. Le même terroir, deux mondes. Vous aviez conscience d’un tel écart ?",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261121-62194883-th.jpg",
-          "mode": "reponse",
-          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/saint-emilion-grand-cru-prix-crise/",
-          "sujet": "Saint-Émilion",
-          "publieLe": "2026-11-22T06:27:42.498Z"
-        },
-        "x": {
-          "texte": "D’un côté, des vignes arrachées en Gironde 🚜 De l’autre, un grand cru de Saint-Émilion, le Château de Pressac, qui vend son 2025 à 29,70 euros en primeur, quand des vignerons bordelais touchent moins d’un euro la bouteille.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261121-62194883-x.jpg",
-          "mode": "reponse",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/saint-emilion-grand-cru-prix-crise/",
-          "sujet": null,
-          "publieLe": "2026-11-22T09:21:18.358Z"
-        },
-        "bluesky": {
-          "texte": "Deux réalités du vignoble girondin : à #SaintEmilion, le Château de Pressac affiche son #vin 2025 à 29,70 euros en primeur, tandis que des vignerons bordelais vendent leur bouteille sous un euro. De quoi mieux comprendre ce que l’on paie 💶",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261121-62194883-bsky.jpg",
-          "mode": "reply",
-          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/saint-emilion-grand-cru-prix-crise/",
-          "sujet": null,
-          "publieLe": "2026-11-22T11:09:34.524Z"
-        },
-        "facebook": {
-          "texte": "Moins d’un euro la bouteille pour certains vignerons bordelais, 29,70 euros en primeur pour ce grand cru voisin 🍷",
-          "image": null,
-          "mode": "lien",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-22T20:23:09.240Z"
         }
       }
     },
@@ -399,6 +407,16 @@
   ],
   "publications": [
     {
+      "channel": "instagram",
+      "at": "2026-11-23T12:08:40.971Z",
+      "titre": "Quand la Gironde arrache des vignes, ce grand cru de Saint-Émilion augmente son prix",
+      "lien": "https://passion-aquitaine.ouest-france.fr/saint-emilion-grand-cru-prix-crise/",
+      "lienPost": "https://www.instagram.com/p/DgFWFUXjnaB/",
+      "format": null,
+      "texte": "À Saint-Émilion, un grand cru fait monter son prix pendant que la Gironde arrache des vignes 🍇\n⠀\nLe Château de Pressac propose son millésime 2025 à 29,70 euros en primeur. Ailleurs dans le Bordelais, des vignerons touchent moins d’un euro la bouteille.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#SaintEmilion #VinDeBordeaux #Viticulture",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261121-62194883-1.jpg"
+    },
+    {
       "channel": "bluesky",
       "at": "2026-11-23T11:05:18.655Z",
       "titre": "Pont Rouchaud : le pont oublié où se touchent trois ex-régions",
@@ -487,28 +505,9 @@
       "format": null,
       "texte": "53 ans d’attente : la baie de Bonne Anse n’est toujours pas une réserve naturelle 🕰️\n⠀\nÀ La Palmyre, en Charente-Maritime, cette baie figurait dès 1973 parmi les 100 réserves naturelles à créer en priorité. Un dossier de nature resté en suspens depuis plus d’un demi-siècle.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#LaPalmyre #ReserveNaturelle #CharenteMaritime",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261121-7d65266b-1.jpg"
-    },
-    {
-      "channel": "bluesky",
-      "at": "2026-11-22T11:09:34.524Z",
-      "titre": "Quand la Gironde arrache des vignes, ce grand cru de Saint-Émilion augmente son prix",
-      "lien": "https://passion-aquitaine.ouest-france.fr/saint-emilion-grand-cru-prix-crise/",
-      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2vi3lhosh2j",
-      "format": "reply",
-      "texte": "Deux réalités du vignoble girondin : à #SaintEmilion, le Château de Pressac affiche son #vin 2025 à 29,70 euros en primeur, tandis que des vignerons bordelais vendent leur bouteille sous un euro. De quoi mieux comprendre ce que l’on paie 💶",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261121-62194883-bsky.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "instagram",
-      "dueAt": "2026-11-23T12:08:07.541Z",
-      "prochainPassage": "2026-11-23T12:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Quand la Gironde arrache des vignes, ce grand cru de Saint-Émilion augmente son prix"
-    },
     {
       "channel": "x",
       "dueAt": "2026-11-23T12:20:00.000Z",
@@ -595,14 +594,14 @@
     }
   ],
   "mesures": {
-    "releves": 688,
+    "releves": 689,
     "parReseau": {
       "instagram": {
         "posts": 84,
         "interactionsMoyennes": 12.7
       },
       "bluesky": {
-        "posts": 82,
+        "posts": 83,
         "interactionsMoyennes": 0.2
       },
       "facebook": {
@@ -751,7 +750,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-23T11:21:48.383Z",
+    "genereLe": "2026-11-23T12:08:43.362Z",
     "posts": 115,
     "parReseau": {
       "threads": {
@@ -925,7 +924,7 @@
       "facebook": 31,
       "bluesky": 32,
       "x": 31,
-      "instagram": 28
+      "instagram": 29
     },
     "abonnes": {
       "instagram": {

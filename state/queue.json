@@ -1038,5 +1038,625 @@
       }
     },
     "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36295",
+    "channel": "instagram",
+    "dueAt": 1795609398317,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Vautours d’Ossau : un bénévole de 89 ans fournit l’essentiel des données du Parc national",
+      "link": "https://passion-aquitaine.ouest-france.fr/vautours-fauves-ossau-benevole-donnees/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36295",
+      "pubDate": "Mon, 23 Nov 2026 13:03:55 +0000",
+      "date": 1795439035000,
+      "categories": [
+        "Actus",
+        "Béarn",
+        "Nature",
+        "Pyrénées",
+        "Pyrénées-Atlantiques"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/vautour-fauve-vol-ossau.jpg",
+      "description": "À Castet, les vautours fauves ont leur lecteur de bagues : un bénévole de 89 ans. Ce que ses relevés disent au Parc, à la fin du plan avec les éleveurs."
+    },
+    "dossier": {
+      "nature": "evergreen",
+      "sensible": false,
+      "rubrique": "Béarn",
+      "visuel": {
+        "titre": "Vautours d’Ossau : un bénévole de 89 ans fournit l’essentiel des données du Parc national",
+        "surlignage": "89 ans",
+        "description": "À Castet, il lit les bagues des vautours fauves. Ses relevés éclairent le Parc national, au moment où s’achève le plan mené avec les éleveurs.",
+        "texte_alternatif": "Des vautours fauves de la vallée d’Ossau, en Béarn, suivis à Castet par un bénévole de 89 ans qui relève leurs bagues pour le Parc national."
+      },
+      "entites": [
+        {
+          "nom": "Parc national des Pyrénées",
+          "role": "acteur",
+          "type": "organisation"
+        }
+      ],
+      "domaines": [
+        "ornithologie",
+        "biodiversité"
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "Au-dessus de Castet, les vautours fauves planent, et un homme de 89 ans lit leurs bagues 🦅\nEn vallée d’Ossau, ce bénévole fournit l’essentiel des données du Parc national. Ses relevés comptent au moment du bilan du plan avec les éleveurs.",
+        "hashtags": [
+          "#Béarn",
+          "#VautourFauve",
+          "#ValléeDOssau"
+        ]
+      },
+      "facebook": {
+        "texte": "À 89 ans, il lit à lui seul les bagues des vautours de Castet, et le Parc national compte sur ses relevés : vous l’imaginiez 🔭"
+      },
+      "bluesky": {
+        "texte": "89 ans, et l’essentiel des données du Parc national sur les vautours d’Ossau. En Béarn, à Castet, un bénévole relève les bagues des vautours fauves, alors que s’achève le plan conduit avec les éleveurs 🦅",
+        "hashtag": "#Béarn"
+      },
+      "threads": {
+        "texte": "🏔️ Castet, vallée d’Ossau. Ici, les vautours fauves ont leur lecteur de bagues attitré : un bénévole de 89 ans. C’est lui qui fournit l’essentiel des données du Parc national sur ces grands rapaces. Et ses relevés tombent à point, à la fin du plan mené avec les éleveurs.",
+        "sujet": "Béarn"
+      },
+      "x": {
+        "texte": "Le meilleur informateur du Parc national sur les vautours d’Ossau a 89 ans 🦅 Bénévole à Castet, il lit leurs bagues et fournit l’essentiel des données."
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 8082,
+        "output": 883
+      },
+      "angles": {
+        "instagram": "image évocatrice",
+        "facebook": "question intrigante",
+        "bluesky": "chiffre ou fait marquant en tête",
+        "threads": "lieu en tête",
+        "x": "effet de surprise"
+      },
+      "lieuSource": {
+        "precis": "",
+        "ville": "Castet",
+        "departement": "Pyrénées-Atlantiques"
+      },
+      "lieuNom": "Castet",
+      "commune": "Castet",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Parc national des Pyrénées",
+            "handle": "parc_national_pyrenees",
+            "abonnes": 27881,
+            "preuve": 3,
+            "role": "acteur",
+            "echelon": "sujet"
+          },
+          {
+            "nom": "Département 64",
+            "handle": "departement64",
+            "abonnes": 10385,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "Pyrénées-Atlantiques",
+            "handle": "departement64",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36295",
+    "channel": "bluesky",
+    "dueAt": 1795457032060,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Vautours d’Ossau : un bénévole de 89 ans fournit l’essentiel des données du Parc national",
+      "link": "https://passion-aquitaine.ouest-france.fr/vautours-fauves-ossau-benevole-donnees/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36295",
+      "pubDate": "Mon, 23 Nov 2026 13:03:55 +0000",
+      "date": 1795439035000,
+      "categories": [
+        "Actus",
+        "Béarn",
+        "Nature",
+        "Pyrénées",
+        "Pyrénées-Atlantiques"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/vautour-fauve-vol-ossau.jpg",
+      "description": "À Castet, les vautours fauves ont leur lecteur de bagues : un bénévole de 89 ans. Ce que ses relevés disent au Parc, à la fin du plan avec les éleveurs."
+    },
+    "dossier": {
+      "nature": "evergreen",
+      "sensible": false,
+      "rubrique": "Béarn",
+      "visuel": {
+        "titre": "Vautours d’Ossau : un bénévole de 89 ans fournit l’essentiel des données du Parc national",
+        "surlignage": "89 ans",
+        "description": "À Castet, il lit les bagues des vautours fauves. Ses relevés éclairent le Parc national, au moment où s’achève le plan mené avec les éleveurs.",
+        "texte_alternatif": "Des vautours fauves de la vallée d’Ossau, en Béarn, suivis à Castet par un bénévole de 89 ans qui relève leurs bagues pour le Parc national."
+      },
+      "entites": [
+        {
+          "nom": "Parc national des Pyrénées",
+          "role": "acteur",
+          "type": "organisation"
+        }
+      ],
+      "domaines": [
+        "ornithologie",
+        "biodiversité"
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "Au-dessus de Castet, les vautours fauves planent, et un homme de 89 ans lit leurs bagues 🦅\nEn vallée d’Ossau, ce bénévole fournit l’essentiel des données du Parc national. Ses relevés comptent au moment du bilan du plan avec les éleveurs.",
+        "hashtags": [
+          "#Béarn",
+          "#VautourFauve",
+          "#ValléeDOssau"
+        ]
+      },
+      "facebook": {
+        "texte": "À 89 ans, il lit à lui seul les bagues des vautours de Castet, et le Parc national compte sur ses relevés : vous l’imaginiez 🔭"
+      },
+      "bluesky": {
+        "texte": "89 ans, et l’essentiel des données du Parc national sur les vautours d’Ossau. En Béarn, à Castet, un bénévole relève les bagues des vautours fauves, alors que s’achève le plan conduit avec les éleveurs 🦅",
+        "hashtag": "#Béarn"
+      },
+      "threads": {
+        "texte": "🏔️ Castet, vallée d’Ossau. Ici, les vautours fauves ont leur lecteur de bagues attitré : un bénévole de 89 ans. C’est lui qui fournit l’essentiel des données du Parc national sur ces grands rapaces. Et ses relevés tombent à point, à la fin du plan mené avec les éleveurs.",
+        "sujet": "Béarn"
+      },
+      "x": {
+        "texte": "Le meilleur informateur du Parc national sur les vautours d’Ossau a 89 ans 🦅 Bénévole à Castet, il lit leurs bagues et fournit l’essentiel des données."
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 8082,
+        "output": 883
+      },
+      "angles": {
+        "instagram": "image évocatrice",
+        "facebook": "question intrigante",
+        "bluesky": "chiffre ou fait marquant en tête",
+        "threads": "lieu en tête",
+        "x": "effet de surprise"
+      },
+      "lieuSource": {
+        "precis": "",
+        "ville": "Castet",
+        "departement": "Pyrénées-Atlantiques"
+      },
+      "lieuNom": "Castet",
+      "commune": "Castet",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Parc national des Pyrénées",
+            "handle": "parc_national_pyrenees",
+            "abonnes": 27881,
+            "preuve": 3,
+            "role": "acteur",
+            "echelon": "sujet"
+          },
+          {
+            "nom": "Département 64",
+            "handle": "departement64",
+            "abonnes": 10385,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "Pyrénées-Atlantiques",
+            "handle": "departement64",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36295",
+    "channel": "facebook",
+    "dueAt": 1795548763248,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Vautours d’Ossau : un bénévole de 89 ans fournit l’essentiel des données du Parc national",
+      "link": "https://passion-aquitaine.ouest-france.fr/vautours-fauves-ossau-benevole-donnees/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36295",
+      "pubDate": "Mon, 23 Nov 2026 13:03:55 +0000",
+      "date": 1795439035000,
+      "categories": [
+        "Actus",
+        "Béarn",
+        "Nature",
+        "Pyrénées",
+        "Pyrénées-Atlantiques"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/vautour-fauve-vol-ossau.jpg",
+      "description": "À Castet, les vautours fauves ont leur lecteur de bagues : un bénévole de 89 ans. Ce que ses relevés disent au Parc, à la fin du plan avec les éleveurs."
+    },
+    "dossier": {
+      "nature": "evergreen",
+      "sensible": false,
+      "rubrique": "Béarn",
+      "visuel": {
+        "titre": "Vautours d’Ossau : un bénévole de 89 ans fournit l’essentiel des données du Parc national",
+        "surlignage": "89 ans",
+        "description": "À Castet, il lit les bagues des vautours fauves. Ses relevés éclairent le Parc national, au moment où s’achève le plan mené avec les éleveurs.",
+        "texte_alternatif": "Des vautours fauves de la vallée d’Ossau, en Béarn, suivis à Castet par un bénévole de 89 ans qui relève leurs bagues pour le Parc national."
+      },
+      "entites": [
+        {
+          "nom": "Parc national des Pyrénées",
+          "role": "acteur",
+          "type": "organisation"
+        }
+      ],
+      "domaines": [
+        "ornithologie",
+        "biodiversité"
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "Au-dessus de Castet, les vautours fauves planent, et un homme de 89 ans lit leurs bagues 🦅\nEn vallée d’Ossau, ce bénévole fournit l’essentiel des données du Parc national. Ses relevés comptent au moment du bilan du plan avec les éleveurs.",
+        "hashtags": [
+          "#Béarn",
+          "#VautourFauve",
+          "#ValléeDOssau"
+        ]
+      },
+      "facebook": {
+        "texte": "À 89 ans, il lit à lui seul les bagues des vautours de Castet, et le Parc national compte sur ses relevés : vous l’imaginiez 🔭"
+      },
+      "bluesky": {
+        "texte": "89 ans, et l’essentiel des données du Parc national sur les vautours d’Ossau. En Béarn, à Castet, un bénévole relève les bagues des vautours fauves, alors que s’achève le plan conduit avec les éleveurs 🦅",
+        "hashtag": "#Béarn"
+      },
+      "threads": {
+        "texte": "🏔️ Castet, vallée d’Ossau. Ici, les vautours fauves ont leur lecteur de bagues attitré : un bénévole de 89 ans. C’est lui qui fournit l’essentiel des données du Parc national sur ces grands rapaces. Et ses relevés tombent à point, à la fin du plan mené avec les éleveurs.",
+        "sujet": "Béarn"
+      },
+      "x": {
+        "texte": "Le meilleur informateur du Parc national sur les vautours d’Ossau a 89 ans 🦅 Bénévole à Castet, il lit leurs bagues et fournit l’essentiel des données."
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 8082,
+        "output": 883
+      },
+      "angles": {
+        "instagram": "image évocatrice",
+        "facebook": "question intrigante",
+        "bluesky": "chiffre ou fait marquant en tête",
+        "threads": "lieu en tête",
+        "x": "effet de surprise"
+      },
+      "lieuSource": {
+        "precis": "",
+        "ville": "Castet",
+        "departement": "Pyrénées-Atlantiques"
+      },
+      "lieuNom": "Castet",
+      "commune": "Castet",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Parc national des Pyrénées",
+            "handle": "parc_national_pyrenees",
+            "abonnes": 27881,
+            "preuve": 3,
+            "role": "acteur",
+            "echelon": "sujet"
+          },
+          {
+            "nom": "Département 64",
+            "handle": "departement64",
+            "abonnes": 10385,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "Pyrénées-Atlantiques",
+            "handle": "departement64",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36295",
+    "channel": "threads",
+    "dueAt": 1795500898810,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Vautours d’Ossau : un bénévole de 89 ans fournit l’essentiel des données du Parc national",
+      "link": "https://passion-aquitaine.ouest-france.fr/vautours-fauves-ossau-benevole-donnees/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36295",
+      "pubDate": "Mon, 23 Nov 2026 13:03:55 +0000",
+      "date": 1795439035000,
+      "categories": [
+        "Actus",
+        "Béarn",
+        "Nature",
+        "Pyrénées",
+        "Pyrénées-Atlantiques"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/vautour-fauve-vol-ossau.jpg",
+      "description": "À Castet, les vautours fauves ont leur lecteur de bagues : un bénévole de 89 ans. Ce que ses relevés disent au Parc, à la fin du plan avec les éleveurs."
+    },
+    "dossier": {
+      "nature": "evergreen",
+      "sensible": false,
+      "rubrique": "Béarn",
+      "visuel": {
+        "titre": "Vautours d’Ossau : un bénévole de 89 ans fournit l’essentiel des données du Parc national",
+        "surlignage": "89 ans",
+        "description": "À Castet, il lit les bagues des vautours fauves. Ses relevés éclairent le Parc national, au moment où s’achève le plan mené avec les éleveurs.",
+        "texte_alternatif": "Des vautours fauves de la vallée d’Ossau, en Béarn, suivis à Castet par un bénévole de 89 ans qui relève leurs bagues pour le Parc national."
+      },
+      "entites": [
+        {
+          "nom": "Parc national des Pyrénées",
+          "role": "acteur",
+          "type": "organisation"
+        }
+      ],
+      "domaines": [
+        "ornithologie",
+        "biodiversité"
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "Au-dessus de Castet, les vautours fauves planent, et un homme de 89 ans lit leurs bagues 🦅\nEn vallée d’Ossau, ce bénévole fournit l’essentiel des données du Parc national. Ses relevés comptent au moment du bilan du plan avec les éleveurs.",
+        "hashtags": [
+          "#Béarn",
+          "#VautourFauve",
+          "#ValléeDOssau"
+        ]
+      },
+      "facebook": {
+        "texte": "À 89 ans, il lit à lui seul les bagues des vautours de Castet, et le Parc national compte sur ses relevés : vous l’imaginiez 🔭"
+      },
+      "bluesky": {
+        "texte": "89 ans, et l’essentiel des données du Parc national sur les vautours d’Ossau. En Béarn, à Castet, un bénévole relève les bagues des vautours fauves, alors que s’achève le plan conduit avec les éleveurs 🦅",
+        "hashtag": "#Béarn"
+      },
+      "threads": {
+        "texte": "🏔️ Castet, vallée d’Ossau. Ici, les vautours fauves ont leur lecteur de bagues attitré : un bénévole de 89 ans. C’est lui qui fournit l’essentiel des données du Parc national sur ces grands rapaces. Et ses relevés tombent à point, à la fin du plan mené avec les éleveurs.",
+        "sujet": "Béarn"
+      },
+      "x": {
+        "texte": "Le meilleur informateur du Parc national sur les vautours d’Ossau a 89 ans 🦅 Bénévole à Castet, il lit leurs bagues et fournit l’essentiel des données."
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 8082,
+        "output": 883
+      },
+      "angles": {
+        "instagram": "image évocatrice",
+        "facebook": "question intrigante",
+        "bluesky": "chiffre ou fait marquant en tête",
+        "threads": "lieu en tête",
+        "x": "effet de surprise"
+      },
+      "lieuSource": {
+        "precis": "",
+        "ville": "Castet",
+        "departement": "Pyrénées-Atlantiques"
+      },
+      "lieuNom": "Castet",
+      "commune": "Castet",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Parc national des Pyrénées",
+            "handle": "parc_national_pyrenees",
+            "abonnes": 27881,
+            "preuve": 3,
+            "role": "acteur",
+            "echelon": "sujet"
+          },
+          {
+            "nom": "Département 64",
+            "handle": "departement64",
+            "abonnes": 10385,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "Pyrénées-Atlantiques",
+            "handle": "departement64",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36295",
+    "channel": "x",
+    "dueAt": 1795446000000,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Vautours d’Ossau : un bénévole de 89 ans fournit l’essentiel des données du Parc national",
+      "link": "https://passion-aquitaine.ouest-france.fr/vautours-fauves-ossau-benevole-donnees/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36295",
+      "pubDate": "Mon, 23 Nov 2026 13:03:55 +0000",
+      "date": 1795439035000,
+      "categories": [
+        "Actus",
+        "Béarn",
+        "Nature",
+        "Pyrénées",
+        "Pyrénées-Atlantiques"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/vautour-fauve-vol-ossau.jpg",
+      "description": "À Castet, les vautours fauves ont leur lecteur de bagues : un bénévole de 89 ans. Ce que ses relevés disent au Parc, à la fin du plan avec les éleveurs."
+    },
+    "dossier": {
+      "nature": "evergreen",
+      "sensible": false,
+      "rubrique": "Béarn",
+      "visuel": {
+        "titre": "Vautours d’Ossau : un bénévole de 89 ans fournit l’essentiel des données du Parc national",
+        "surlignage": "89 ans",
+        "description": "À Castet, il lit les bagues des vautours fauves. Ses relevés éclairent le Parc national, au moment où s’achève le plan mené avec les éleveurs.",
+        "texte_alternatif": "Des vautours fauves de la vallée d’Ossau, en Béarn, suivis à Castet par un bénévole de 89 ans qui relève leurs bagues pour le Parc national."
+      },
+      "entites": [
+        {
+          "nom": "Parc national des Pyrénées",
+          "role": "acteur",
+          "type": "organisation"
+        }
+      ],
+      "domaines": [
+        "ornithologie",
+        "biodiversité"
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "Au-dessus de Castet, les vautours fauves planent, et un homme de 89 ans lit leurs bagues 🦅\nEn vallée d’Ossau, ce bénévole fournit l’essentiel des données du Parc national. Ses relevés comptent au moment du bilan du plan avec les éleveurs.",
+        "hashtags": [
+          "#Béarn",
+          "#VautourFauve",
+          "#ValléeDOssau"
+        ]
+      },
+      "facebook": {
+        "texte": "À 89 ans, il lit à lui seul les bagues des vautours de Castet, et le Parc national compte sur ses relevés : vous l’imaginiez 🔭"
+      },
+      "bluesky": {
+        "texte": "89 ans, et l’essentiel des données du Parc national sur les vautours d’Ossau. En Béarn, à Castet, un bénévole relève les bagues des vautours fauves, alors que s’achève le plan conduit avec les éleveurs 🦅",
+        "hashtag": "#Béarn"
+      },
+      "threads": {
+        "texte": "🏔️ Castet, vallée d’Ossau. Ici, les vautours fauves ont leur lecteur de bagues attitré : un bénévole de 89 ans. C’est lui qui fournit l’essentiel des données du Parc national sur ces grands rapaces. Et ses relevés tombent à point, à la fin du plan mené avec les éleveurs.",
+        "sujet": "Béarn"
+      },
+      "x": {
+        "texte": "Le meilleur informateur du Parc national sur les vautours d’Ossau a 89 ans 🦅 Bénévole à Castet, il lit leurs bagues et fournit l’essentiel des données."
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 8082,
+        "output": 883
+      },
+      "angles": {
+        "instagram": "image évocatrice",
+        "facebook": "question intrigante",
+        "bluesky": "chiffre ou fait marquant en tête",
+        "threads": "lieu en tête",
+        "x": "effet de surprise"
+      },
+      "lieuSource": {
+        "precis": "",
+        "ville": "Castet",
+        "departement": "Pyrénées-Atlantiques"
+      },
+      "lieuNom": "Castet",
+      "commune": "Castet",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Parc national des Pyrénées",
+            "handle": "parc_national_pyrenees",
+            "abonnes": 27881,
+            "preuve": 3,
+            "role": "acteur",
+            "echelon": "sujet"
+          },
+          {
+            "nom": "Département 64",
+            "handle": "departement64",
+            "abonnes": 10385,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "Pyrénées-Atlantiques",
+            "handle": "departement64",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
   }
 ]

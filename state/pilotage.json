@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-23T13:00:41.288Z",
+  "genereLe": "2026-11-23T13:20:47.375Z",
   "jour": "2026-11-23",
   "reseaux": {
     "instagram": {
@@ -517,6 +517,15 @@
   ],
   "file": [
     {
+      "channel": "x",
+      "dueAt": "2026-11-23T15:00:00.000Z",
+      "prochainPassage": "2026-11-23T15:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Vautours d’Ossau : un bénévole de 89 ans fournit l’essentiel des données du Parc national"
+    },
+    {
       "channel": "instagram",
       "dueAt": "2026-11-23T17:25:08.386Z",
       "prochainPassage": "2026-11-23T18:00:00.000Z",
@@ -526,6 +535,15 @@
       "titre": "Truffe du Périgord : la France en importe plus qu’elle n’en récolte"
     },
     {
+      "channel": "bluesky",
+      "dueAt": "2026-11-23T18:03:52.060Z",
+      "prochainPassage": "2026-11-23T18:20:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Vautours d’Ossau : un bénévole de 89 ans fournit l’essentiel des données du Parc national"
+    },
+    {
       "channel": "facebook",
       "dueAt": "2026-11-23T19:12:02.848Z",
       "prochainPassage": "2026-11-23T19:20:00.000Z",
@@ -533,6 +551,15 @@
       "prevuInitialement": null,
       "raison": null,
       "titre": "Vignes bordelaises à vendre : l’auteur de Gomorra redoute l’argent des mafias"
+    },
+    {
+      "channel": "threads",
+      "dueAt": "2026-11-24T06:14:58.810Z",
+      "prochainPassage": "2026-11-24T06:20:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Vautours d’Ossau : un bénévole de 89 ans fournit l’essentiel des données du Parc national"
     },
     {
       "channel": "facebook",
@@ -560,6 +587,24 @@
       "prevuInitialement": null,
       "raison": null,
       "titre": "Pont Rouchaud : le pont oublié où se touchent trois ex-régions"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-11-24T19:32:43.248Z",
+      "prochainPassage": "2026-11-24T20:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Vautours d’Ossau : un bénévole de 89 ans fournit l’essentiel des données du Parc national"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-11-25T12:23:18.317Z",
+      "prochainPassage": "2026-11-25T13:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Vautours d’Ossau : un bénévole de 89 ans fournit l’essentiel des données du Parc national"
     }
   ],
   "alertes": [
@@ -749,7 +794,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-23T13:00:46.059Z",
+    "genereLe": "2026-11-23T13:21:16.994Z",
     "posts": 115,
     "parReseau": {
       "threads": {
@@ -974,29 +1019,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 1,
-      "entree": 8021,
-      "sortie": 857,
-      "cout": 0.049224,
+      "appels": 2,
+      "entree": 16103,
+      "sortie": 1740,
+      "cout": 0.099212,
       "cle": "2026-11-23"
     },
     "semaine": {
-      "appels": 22,
-      "entree": 175985,
-      "sortie": 20507,
-      "cout": 1.11408
+      "appels": 23,
+      "entree": 184067,
+      "sortie": 21390,
+      "cout": 1.164068
     },
     "mois": {
-      "appels": 79,
-      "entree": 632175,
-      "sortie": 71524,
-      "cout": 3.9591799999999995,
+      "appels": 80,
+      "entree": 640257,
+      "sortie": 72407,
+      "cout": 4.009167999999999,
       "cle": "2026-11"
     },
-    "projection": 5.16,
+    "projection": 5.23,
     "moyenneAppel": 0.0501,
     "parModele": {
-      "claude-opus-5-5": 79
+      "claude-opus-5-5": 80
     },
     "serie": [
       [
@@ -1053,7 +1098,7 @@
       ],
       [
         "2026-11-23",
-        0.0492
+        0.0992
       ]
     ],
     "depuis": "2026-09-23"

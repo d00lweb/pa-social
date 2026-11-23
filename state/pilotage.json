@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-23T07:00:41.420Z",
+  "genereLe": "2026-11-23T07:20:38.960Z",
   "jour": "2026-11-23",
   "reseaux": {
     "instagram": {
@@ -640,7 +640,7 @@
     }
   ],
   "mesures": {
-    "releves": 682,
+    "releves": 684,
     "parReseau": {
       "instagram": {
         "posts": 84,
@@ -796,8 +796,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-23T07:12:27.248Z",
-    "posts": 110,
+    "genereLe": "2026-11-23T07:20:45.247Z",
+    "posts": 112,
     "parReseau": {
       "threads": {
         "posts": 29,
@@ -808,11 +808,11 @@
         "moyenne": 8.1
       },
       "facebook": {
-        "posts": 28,
+        "posts": 29,
         "moyenne": 0
       },
       "bluesky": {
-        "posts": 27,
+        "posts": 28,
         "moyenne": 0
       }
     },
@@ -830,14 +830,14 @@
         "moyenne": 0
       },
       "reply": {
-        "posts": 5,
+        "posts": 6,
         "moyenne": 0
       }
     },
     "parCreneau": {
       "matin": {
-        "posts": 59,
-        "moyenne": 7.3
+        "posts": 61,
+        "moyenne": 7.1
       },
       "après-midi": {
         "posts": 31,
@@ -869,7 +869,7 @@
       },
       "facebook": {
         "8 h – 9 h 30": {
-          "posts": 17,
+          "posts": 18,
           "moyenne": 0
         },
         "20 h – 21 h 30": {
@@ -883,7 +883,7 @@
       },
       "bluesky": {
         "8 h – 9 h 30": {
-          "posts": 16,
+          "posts": 17,
           "moyenne": 0.1
         },
         "hors créneau": {
@@ -936,27 +936,27 @@
       "creneauReseau": "7 h – 8 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36272",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36215",
       "channel": "facebook",
-      "mediaId": "227437307428711_1798166225642591",
-      "publieLe": "2026-11-21T20:13:59.751Z",
+      "mediaId": "227437307428711_1798651542260726",
+      "publieLe": "2026-11-22T07:13:04.500Z",
       "jalon": 1,
-      "releveLe": "2026-11-22T20:20:33.768Z",
+      "releveLe": "2026-11-23T07:20:38.960Z",
       "likes": 0,
       "commentairesBruts": 0,
       "partages": 0,
-      "vues": 2,
+      "vues": 23,
       "reactions": 0,
       "portee": 0,
       "clics": 0,
       "commentaires": 0,
       "v": 2,
-      "titre": "Jugé à Angoulême, ce voleur de notaires s’offrait des cartes Pokémon estimées à 20 000 €",
-      "lien": "https://www.facebook.com/1720946116697936/posts/1798166225642591",
+      "titre": "La Palmyre : 53 ans après, cette baie attend toujours sa réserve",
+      "lien": "https://www.facebook.com/1720946116697936/posts/1798651542260726",
       "format": null,
       "mention": false,
-      "creneau": "soir",
-      "creneauReseau": "20 h – 21 h 30"
+      "creneau": "matin",
+      "creneauReseau": "8 h – 9 h 30"
     },
     "mentions": {
       "avec": {
@@ -964,8 +964,8 @@
         "moyenne": 6.2
       },
       "sans": {
-        "posts": 63,
-        "moyenne": 5.9
+        "posts": 65,
+        "moyenne": 5.7
       }
     },
     "publies": {

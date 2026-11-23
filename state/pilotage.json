@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-23T14:27:57.752Z",
+  "genereLe": "2026-11-23T15:00:53.368Z",
   "jour": "2026-11-23",
   "reseaux": {
     "instagram": {
@@ -156,14 +156,30 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 2,
-      "semaine": 12,
-      "total": 95,
-      "dernier": "2026-11-23T12:23:20.615Z",
+      "aujourdhui": 3,
+      "semaine": 13,
+      "total": 96,
+      "dernier": "2026-11-23T15:00:59.005Z",
       "lienDernier": null
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36295",
+      "titre": "Vautours d’Ossau : un bénévole de 89 ans fournit l’essentiel des données du Parc national",
+      "lien": "https://passion-aquitaine.ouest-france.fr/vautours-fauves-ossau-benevole-donnees/",
+      "at": "2026-11-23T15:00:59.005Z",
+      "reseaux": {
+        "x": {
+          "texte": "Le meilleur informateur du Parc national sur les vautours d’Ossau a 89 ans 🦅 Bénévole à #Castet, il lit leurs bagues et fournit l’essentiel des données.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261123-30597995-x.jpg",
+          "mode": "reponse",
+          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/vautours-fauves-ossau-benevole-donnees/",
+          "sujet": null,
+          "publieLe": "2026-11-23T15:00:59.005Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36251",
       "titre": "Pont Rouchaud : le pont oublié où se touchent trois ex-régions",
@@ -363,57 +379,19 @@
           "publieLe": "2026-11-22T17:04:47.163Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36272",
-      "titre": "Jugé à Angoulême, ce voleur de notaires s’offrait des cartes Pokémon estimées à 20 000 €",
-      "lien": "https://passion-aquitaine.ouest-france.fr/cartes-pokemon-cambrioleurs-notaires-angouleme/",
-      "at": "2026-11-22T11:03:29.245Z",
-      "reseaux": {
-        "threads": {
-          "texte": "Un procès hors norme à Angoulême. Deux hommes roulaient la nuit, Google Maps en main, pour cibler des études de notaires. Au total, 37 études visées. Et l’or revendu ne finançait pas un train de vie classique : ℹ️ il servait à acheter des cartes Pokémon par milliers, estimées à 20 000 €.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261120-d51b109a-th.jpg",
-          "mode": "reponse",
-          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/cartes-pokemon-cambrioleurs-notaires-angouleme/",
-          "sujet": "Angoulême",
-          "publieLe": "2026-11-21T10:29:51.486Z"
-        },
-        "x": {
-          "texte": "Comment l’or volé dans 37 études de notaires a fini en cartes Pokémon : le duo jugé à #Angoulême avait amassé une collection estimée à 20 000 € 🗞️",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261120-d51b109a-x.jpg",
-          "mode": "reponse",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/cartes-pokemon-cambrioleurs-notaires-angouleme/",
-          "sujet": null,
-          "publieLe": "2026-11-21T11:20:56.800Z"
-        },
-        "bluesky": {
-          "texte": "À #Angoulême, un duo est jugé pour des vols dans 37 études de notaires 🗞️ L’or revendu servait à acheter des cartes Pokémon par milliers, une collection estimée à 20 000 €.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261120-d51b109a-bsky.jpg",
-          "mode": "reply",
-          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/cartes-pokemon-cambrioleurs-notaires-angouleme/",
-          "sujet": null,
-          "publieLe": "2026-11-21T18:11:02.889Z"
-        },
-        "facebook": {
-          "texte": "37 études de notaires visitées de nuit, l’or revendu, et au bout du compte des milliers de cartes Pokémon 🗞️",
-          "image": null,
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-21T20:13:59.751Z"
-        },
-        "instagram": {
-          "texte": "Des milliers de cartes Pokémon, payées avec l’or de 37 études de notaires\n⠀\nLe duo jugé à Angoulême roulait la nuit, Google Maps en main. Une collection estimée à 20 000 € 🗞️\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Angoulême #Charente #Justice",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261120-d51b109a-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-22T11:03:29.245Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "x",
+      "at": "2026-11-23T15:00:59.005Z",
+      "titre": "Vautours d’Ossau : un bénévole de 89 ans fournit l’essentiel des données du Parc national",
+      "lien": "https://passion-aquitaine.ouest-france.fr/vautours-fauves-ossau-benevole-donnees/",
+      "lienPost": null,
+      "format": "reponse",
+      "texte": "Le meilleur informateur du Parc national sur les vautours d’Ossau a 89 ans 🦅 Bénévole à #Castet, il lit leurs bagues et fournit l’essentiel des données.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261123-30597995-x.jpg"
+    },
     {
       "channel": "x",
       "at": "2026-11-23T12:23:20.615Z",
@@ -503,28 +481,9 @@
       "format": "lien",
       "texte": "Moins d’un euro la bouteille pour certains vignerons bordelais, 29,70 euros en primeur pour ce grand cru voisin 🍷",
       "image": null
-    },
-    {
-      "channel": "bluesky",
-      "at": "2026-11-22T17:31:32.398Z",
-      "titre": "Truffe du Périgord : la France en importe plus qu’elle n’en récolte",
-      "lien": "https://passion-aquitaine.ouest-france.fr/truffe-perigord-france-importe-plus-recolte/",
-      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2w5glq6ne2d",
-      "format": "card",
-      "texte": "Le #Périgord a beau être sa terre d’élection, la France importe plus de truffes qu’elle n’en récolte ⚖️ 127 tonnes achetées, surtout en Italie et en Bulgarie, contre 75 tonnes sorties du sol français.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261122-ecd6c5a6-bsky.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "x",
-      "dueAt": "2026-11-23T15:00:00.000Z",
-      "prochainPassage": "2026-11-23T15:00:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Vautours d’Ossau : un bénévole de 89 ans fournit l’essentiel des données du Parc national"
-    },
     {
       "channel": "instagram",
       "dueAt": "2026-11-23T17:25:08.386Z",
@@ -755,7 +714,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-23T14:00:49.695Z"
+    "derniere": "2026-11-23T15:00:53.368Z"
   },
   "abonnes": {
     "instagram": {
@@ -794,7 +753,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-23T14:28:03.100Z",
+    "genereLe": "2026-11-23T15:01:07.796Z",
     "posts": 115,
     "parReseau": {
       "threads": {
@@ -967,7 +926,7 @@
       "threads": 32,
       "facebook": 31,
       "bluesky": 32,
-      "x": 32,
+      "x": 33,
       "instagram": 29
     },
     "abonnes": {

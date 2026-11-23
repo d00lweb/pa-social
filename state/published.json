@@ -8295,5 +8295,23 @@
       "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/pont-rouchaud-trois-regions-nouvelle-aquitaine/",
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36295",
+    "channel": "x",
+    "at": "2026-11-23T15:00:59.005Z",
+    "mediaId": "kit-telegram",
+    "titre": "Vautours d’Ossau : un bénévole de 89 ans fournit l’essentiel des données du Parc national",
+    "lien": "https://passion-aquitaine.ouest-france.fr/vautours-fauves-ossau-benevole-donnees/",
+    "lienPost": null,
+    "format": "reponse",
+    "mention": true,
+    "apercu": {
+      "texte": "Le meilleur informateur du Parc national sur les vautours d’Ossau a 89 ans 🦅 Bénévole à #Castet, il lit leurs bagues et fournit l’essentiel des données.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261123-30597995-x.jpg",
+      "mode": "reponse",
+      "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/vautours-fauves-ossau-benevole-donnees/",
+      "sujet": null
+    }
   }
 ]

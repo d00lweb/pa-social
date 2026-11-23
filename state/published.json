@@ -8202,5 +8202,41 @@
       "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/truffe-perigord-france-importe-plus-recolte/?at_medium=social&at_campaign=fb-photo",
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36291",
+    "channel": "x",
+    "at": "2026-11-23T09:22:32.753Z",
+    "mediaId": "kit-telegram",
+    "titre": "Vignes bordelaises à vendre : l’auteur de Gomorra redoute l’argent des mafias",
+    "lien": "https://passion-aquitaine.ouest-france.fr/vignoble-bordelais-mafias-saviano-gomorra/",
+    "lienPost": null,
+    "format": "reponse",
+    "mention": true,
+    "apercu": {
+      "texte": "Neuf châteaux du vignoble bordelais confisqués pour blanchiment en 2024. L’auteur de Gomorra redoute que l’argent des mafias lorgne sur les vignes à vendre 📍",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261122-94a71a8e-x.jpg",
+      "mode": "reponse",
+      "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/vignoble-bordelais-mafias-saviano-gomorra/",
+      "sujet": null
+    }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36251",
+    "channel": "threads",
+    "at": "2026-11-23T09:32:03.991Z",
+    "mediaId": "18035042300910131",
+    "titre": "Pont Rouchaud : le pont oublié où se touchent trois ex-régions",
+    "lien": "https://passion-aquitaine.ouest-france.fr/pont-rouchaud-trois-regions-nouvelle-aquitaine/",
+    "lienPost": "https://www.threads.com/@lovaquitaine/post/DgFD0lWmzY2",
+    "format": "reponse",
+    "mention": false,
+    "apercu": {
+      "texte": "Trois départements se rejoignent sur un seul pont 🌉 Le pont Rouchaud, au-dessus de la Tardoire, relie la Charente, la Dordogne et la Haute-Vienne, autrefois dans trois régions différentes. C’est là que la plus vaste région de France a son centre symbolique. Vous étiez déjà passé par ce pont oublié ?",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261123-965863c4-th.jpg",
+      "mode": "reponse",
+      "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/pont-rouchaud-trois-regions-nouvelle-aquitaine/",
+      "sujet": "Patrimoine"
+    }
   }
 ]

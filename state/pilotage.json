@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-23T09:00:41.342Z",
+  "genereLe": "2026-11-23T09:22:21.830Z",
   "jour": "2026-11-23",
   "reseaux": {
     "instagram": {
@@ -122,11 +122,11 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 1,
+      "aujourdhui": 2,
       "semaine": 12,
-      "total": 91,
-      "dernier": "2026-11-23T07:12:24.648Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DgEzzwTFQnn"
+      "total": 92,
+      "dernier": "2026-11-23T09:32:03.991Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DgFD0lWmzY2"
     },
     "x": {
       "actif": true,
@@ -156,14 +156,62 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
+      "aujourdhui": 1,
       "semaine": 11,
-      "total": 93,
-      "dernier": "2026-11-22T11:00:47.144Z",
+      "total": 94,
+      "dernier": "2026-11-23T09:22:32.753Z",
       "lienDernier": null
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36251",
+      "titre": "Pont Rouchaud : le pont oublié où se touchent trois ex-régions",
+      "lien": "https://passion-aquitaine.ouest-france.fr/pont-rouchaud-trois-regions-nouvelle-aquitaine/",
+      "at": "2026-11-23T09:32:03.991Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Trois départements se rejoignent sur un seul pont 🌉 Le pont Rouchaud, au-dessus de la Tardoire, relie la Charente, la Dordogne et la Haute-Vienne, autrefois dans trois régions différentes. C’est là que la plus vaste région de France a son centre symbolique. Vous étiez déjà passé par ce pont oublié ?",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261123-965863c4-th.jpg",
+          "mode": "reponse",
+          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/pont-rouchaud-trois-regions-nouvelle-aquitaine/",
+          "sujet": "Patrimoine",
+          "publieLe": "2026-11-23T09:32:03.991Z"
+        }
+      }
+    },
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36291",
+      "titre": "Vignes bordelaises à vendre : l’auteur de Gomorra redoute l’argent des mafias",
+      "lien": "https://passion-aquitaine.ouest-france.fr/vignoble-bordelais-mafias-saviano-gomorra/",
+      "at": "2026-11-23T09:22:32.753Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Qui achète vraiment les vignes bordelaises mises en vente ? L’auteur de Gomorra pose la question sans détour ℹ️ En 2024, neuf châteaux du vignoble ont été confisqués pour blanchiment, et il y soupçonne l’appétit des mafias.\n@villedebordeaux",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261122-94a71a8e-th.jpg",
+          "mode": "reponse",
+          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/vignoble-bordelais-mafias-saviano-gomorra/",
+          "sujet": "Bordeaux",
+          "publieLe": "2026-11-23T07:12:24.648Z"
+        },
+        "bluesky": {
+          "texte": "Des rangs de vignes à vendre, et dans l’ombre, l’argent sale 🗞️ Autour de #Bordeaux, neuf châteaux ont été confisqués pour blanchiment en 2024, et l’auteur de Gomorra redoute l’appétit des mafias.\n@villedebordeaux.bsky.social",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261122-94a71a8e-bsky.jpg",
+          "mode": "card",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-23T08:13:33.083Z"
+        },
+        "x": {
+          "texte": "Neuf châteaux du vignoble bordelais confisqués pour blanchiment en 2024. L’auteur de Gomorra redoute que l’argent des mafias lorgne sur les vignes à vendre 📍",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261122-94a71a8e-x.jpg",
+          "mode": "reponse",
+          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/vignoble-bordelais-mafias-saviano-gomorra/",
+          "sujet": null,
+          "publieLe": "2026-11-23T09:22:32.753Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36266",
       "titre": "Truffe du Périgord : la France en importe plus qu’elle n’en récolte",
@@ -201,30 +249,6 @@
           "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/truffe-perigord-france-importe-plus-recolte/?at_medium=social&at_campaign=fb-photo",
           "sujet": null,
           "publieLe": "2026-11-23T08:30:50.074Z"
-        }
-      }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36291",
-      "titre": "Vignes bordelaises à vendre : l’auteur de Gomorra redoute l’argent des mafias",
-      "lien": "https://passion-aquitaine.ouest-france.fr/vignoble-bordelais-mafias-saviano-gomorra/",
-      "at": "2026-11-23T08:13:33.083Z",
-      "reseaux": {
-        "threads": {
-          "texte": "Qui achète vraiment les vignes bordelaises mises en vente ? L’auteur de Gomorra pose la question sans détour ℹ️ En 2024, neuf châteaux du vignoble ont été confisqués pour blanchiment, et il y soupçonne l’appétit des mafias.\n@villedebordeaux",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261122-94a71a8e-th.jpg",
-          "mode": "reponse",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/vignoble-bordelais-mafias-saviano-gomorra/",
-          "sujet": "Bordeaux",
-          "publieLe": "2026-11-23T07:12:24.648Z"
-        },
-        "bluesky": {
-          "texte": "Des rangs de vignes à vendre, et dans l’ombre, l’argent sale 🗞️ Autour de #Bordeaux, neuf châteaux ont été confisqués pour blanchiment en 2024, et l’auteur de Gomorra redoute l’appétit des mafias.\n@villedebordeaux.bsky.social",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261122-94a71a8e-bsky.jpg",
-          "mode": "card",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-23T08:13:33.083Z"
         }
       }
     },
@@ -363,57 +387,29 @@
           "publieLe": "2026-11-22T11:03:29.245Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36241",
-      "titre": "Ils sont encore là, mais presque invisibles : le plan pour sauver les visons d’Europe",
-      "lien": "https://passion-aquitaine.ouest-france.fr/vison-europe-nouvelle-aquitaine-life-care/",
-      "at": "2026-11-21T17:33:51.073Z",
-      "reseaux": {
-        "facebook": {
-          "texte": "Et si l’un des animaux les plus menacés d’Europe vivait encore tout près de chez vous, en Charente ou en Charente-Maritime ? 🦦",
-          "image": null,
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-21T07:03:15.401Z"
-        },
-        "threads": {
-          "texte": "🌿 En Charente et en Charente-Maritime, un petit mammifère se fait presque invisible : le vison d’Europe. Il est toujours là, quelque part en Nouvelle-Aquitaine, mais l’espèce est en grand danger. C’est tout l’enjeu du projet LIFE CARE, pensé pour la sauver avant qu’il ne soit trop tard.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261120-9756dd6b-th.jpg",
-          "mode": "reponse",
-          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/vison-europe-nouvelle-aquitaine-life-care/",
-          "sujet": "Biodiversité",
-          "publieLe": "2026-11-21T07:17:19.046Z"
-        },
-        "x": {
-          "texte": "Discret au point d’être presque invisible, le vison d’Europe vit encore en Nouvelle-Aquitaine 🦦 L’espèce est en grand danger, et le projet LIFE CARE veut la sauver.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261120-9756dd6b-x.jpg",
-          "mode": "reponse",
-          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/vison-europe-nouvelle-aquitaine-life-care/",
-          "sujet": null,
-          "publieLe": "2026-11-21T08:21:09.410Z"
-        },
-        "bluesky": {
-          "texte": "Espèce en grand danger, le vison d’Europe survit encore en #NouvelleAquitaine. Pour éviter sa disparition, un programme de sauvegarde baptisé LIFE CARE vient d’être mis en place 🦦\n➡️ Lire l’article",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261120-9756dd6b-bsky.jpg",
-          "mode": "image",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-21T11:29:45.175Z"
-        },
-        "instagram": {
-          "texte": "Une petite silhouette discrète au bord de l’eau, que presque personne n’a jamais vue 🦦\n⠀\nLe vison d’Europe vit encore en Nouvelle-Aquitaine, en Charente et en Charente-Maritime, mais l’espèce est en grand danger. Le projet LIFE CARE a été lancé pour tenter de la sauver.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#NouvelleAquitaine #VisonDEurope #Biodiversite",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261120-9756dd6b-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-21T17:33:51.073Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "threads",
+      "at": "2026-11-23T09:32:03.991Z",
+      "titre": "Pont Rouchaud : le pont oublié où se touchent trois ex-régions",
+      "lien": "https://passion-aquitaine.ouest-france.fr/pont-rouchaud-trois-regions-nouvelle-aquitaine/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/DgFD0lWmzY2",
+      "format": "reponse",
+      "texte": "Trois départements se rejoignent sur un seul pont 🌉 Le pont Rouchaud, au-dessus de la Tardoire, relie la Charente, la Dordogne et la Haute-Vienne, autrefois dans trois régions différentes. C’est là que la plus vaste région de France a son centre symbolique. Vous étiez déjà passé par ce pont oublié ?",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261123-965863c4-th.jpg"
+    },
+    {
+      "channel": "x",
+      "at": "2026-11-23T09:22:32.753Z",
+      "titre": "Vignes bordelaises à vendre : l’auteur de Gomorra redoute l’argent des mafias",
+      "lien": "https://passion-aquitaine.ouest-france.fr/vignoble-bordelais-mafias-saviano-gomorra/",
+      "lienPost": null,
+      "format": "reponse",
+      "texte": "Neuf châteaux du vignoble bordelais confisqués pour blanchiment en 2024. L’auteur de Gomorra redoute que l’argent des mafias lorgne sur les vignes à vendre 📍",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261122-94a71a8e-x.jpg"
+    },
     {
       "channel": "facebook",
       "at": "2026-11-23T08:30:50.074Z",
@@ -493,47 +489,9 @@
       "format": null,
       "texte": "Des milliers de cartes Pokémon, payées avec l’or de 37 études de notaires\n⠀\nLe duo jugé à Angoulême roulait la nuit, Google Maps en main. Une collection estimée à 20 000 € 🗞️\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Angoulême #Charente #Justice",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261120-d51b109a-1.jpg"
-    },
-    {
-      "channel": "x",
-      "at": "2026-11-22T11:00:47.144Z",
-      "titre": "Truffe du Périgord : la France en importe plus qu’elle n’en récolte",
-      "lien": "https://passion-aquitaine.ouest-france.fr/truffe-perigord-france-importe-plus-recolte/",
-      "lienPost": null,
-      "format": "reponse",
-      "texte": "🔍 Comment le pays de la truffe du #Périgord peut-il en importer plus qu’il n’en récolte ? 127 tonnes achetées, surtout en Italie et en Bulgarie, pour 75 tonnes produites en France.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261122-ecd6c5a6-x.jpg"
-    },
-    {
-      "channel": "threads",
-      "at": "2026-11-22T10:16:02.757Z",
-      "titre": "Truffe du Périgord : la France en importe plus qu’elle n’en récolte",
-      "lien": "https://passion-aquitaine.ouest-france.fr/truffe-perigord-france-importe-plus-recolte/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/DgCj8r5G4JV",
-      "format": "reponse",
-      "texte": "Imaginez un marché aux truffes du Périgord, le parfum qui monte des paniers… Sauf qu’une bonne part des truffes vendues en France n’a jamais poussé ici. Le pays en importe 127 tonnes, surtout d’Italie et de Bulgarie, pour seulement 75 tonnes récoltées. Un drôle de paradoxe pour une terre aussi attachée à son diamant noir 🌳",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261122-ecd6c5a6-th.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "x",
-      "dueAt": "2026-11-23T09:20:00.000Z",
-      "prochainPassage": "2026-11-23T09:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Vignes bordelaises à vendre : l’auteur de Gomorra redoute l’argent des mafias"
-    },
-    {
-      "channel": "threads",
-      "dueAt": "2026-11-23T09:28:47.774Z",
-      "prochainPassage": "2026-11-23T10:00:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Pont Rouchaud : le pont oublié où se touchent trois ex-régions"
-    },
     {
       "channel": "bluesky",
       "dueAt": "2026-11-23T11:05:16.597Z",
@@ -638,7 +596,7 @@
     }
   ],
   "mesures": {
-    "releves": 684,
+    "releves": 685,
     "parReseau": {
       "instagram": {
         "posts": 84,
@@ -653,8 +611,8 @@
         "interactionsMoyennes": 0
       },
       "threads": {
-        "posts": 79,
-        "interactionsMoyennes": 9.9
+        "posts": 80,
+        "interactionsMoyennes": 10.7
       }
     }
   },
@@ -755,7 +713,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-23T08:00:49.560Z"
+    "derniere": "2026-11-23T09:22:21.830Z"
   },
   "abonnes": {
     "instagram": {
@@ -794,12 +752,12 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-23T09:00:44.570Z",
+    "genereLe": "2026-11-23T09:32:09.268Z",
     "posts": 112,
     "parReseau": {
       "threads": {
         "posts": 29,
-        "moyenne": 15.5
+        "moyenne": 15.6
       },
       "instagram": {
         "posts": 26,
@@ -817,7 +775,7 @@
     "parFormat": {
       "reponse": {
         "posts": 29,
-        "moyenne": 15.5
+        "moyenne": 15.6
       },
       "card": {
         "posts": 7,
@@ -854,7 +812,7 @@
         },
         "10 h – 11 h 30": {
           "posts": 9,
-          "moyenne": 9.6
+          "moyenne": 9.9
         },
         "13 h – 14 h 30": {
           "posts": 3,
@@ -912,7 +870,7 @@
         }
       }
     },
-    "interactionsTotal": 661,
+    "interactionsTotal": 664,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36189",
       "channel": "threads",
@@ -967,10 +925,10 @@
       }
     },
     "publies": {
-      "threads": 31,
+      "threads": 32,
       "facebook": 31,
       "bluesky": 31,
-      "x": 30,
+      "x": 31,
       "instagram": 28
     },
     "abonnes": {
@@ -1009,14 +967,14 @@
       "x": null
     },
     "engagement": {
-      "threads": 1.32,
+      "threads": 1.33,
       "instagram": 0.08,
       "facebook": 0
     },
     "conseils": [
       "Threads : le créneau 7 h – 8 h 30 fait 3,6 fois mieux que 13 h – 14 h 30 (21.5 contre 6 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Instagram : le créneau 12 h – 13 h 30 fait 1,6 fois mieux que 18 h – 19 h 30 (9.5 contre 5.8 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
-      "Le format « reponse » fait 155 fois mieux que « reply » (15.5 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « reply » de la rotation dans config/channels.json.",
+      "Le format « reponse » fait 156 fois mieux que « reply » (15.6 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « reply » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+17, +1,5 %) ; Facebook recule (−43), à surveiller."
     ]
   },

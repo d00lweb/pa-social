@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-23T11:03:35.384Z",
+  "genereLe": "2026-11-23T11:21:44.154Z",
   "jour": "2026-11-23",
   "reseaux": {
     "instagram": {
@@ -595,7 +595,7 @@
     }
   ],
   "mesures": {
-    "releves": 687,
+    "releves": 688,
     "parReseau": {
       "instagram": {
         "posts": 84,
@@ -751,8 +751,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-23T11:05:31.767Z",
-    "posts": 114,
+    "genereLe": "2026-11-23T11:21:48.383Z",
+    "posts": 115,
     "parReseau": {
       "threads": {
         "posts": 30,
@@ -767,7 +767,7 @@
         "moyenne": 0
       },
       "bluesky": {
-        "posts": 28,
+        "posts": 29,
         "moyenne": 0
       }
     },
@@ -785,7 +785,7 @@
         "moyenne": 0
       },
       "reply": {
-        "posts": 6,
+        "posts": 7,
         "moyenne": 0
       }
     },
@@ -795,8 +795,8 @@
         "moyenne": 7.1
       },
       "après-midi": {
-        "posts": 32,
-        "moyenne": 6.2
+        "posts": 33,
+        "moyenne": 6
       },
       "soir": {
         "posts": 20,
@@ -846,7 +846,7 @@
           "moyenne": 0
         },
         "12 h – 13 h 30": {
-          "posts": 8,
+          "posts": 9,
           "moyenne": 0
         },
         "18 h – 19 h 30": {
@@ -891,27 +891,24 @@
       "creneauReseau": "7 h – 8 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36215",
-      "channel": "facebook",
-      "mediaId": "227437307428711_1798651542260726",
-      "publieLe": "2026-11-22T07:13:04.500Z",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36276",
+      "channel": "bluesky",
+      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3n2vi3lhosh2j",
+      "publieLe": "2026-11-22T11:09:34.524Z",
+      "format": "reply",
       "jalon": 1,
-      "releveLe": "2026-11-23T07:20:38.960Z",
+      "releveLe": "2026-11-23T11:21:44.154Z",
       "likes": 0,
-      "commentairesBruts": 0,
+      "commentairesBruts": 1,
       "partages": 0,
-      "vues": 23,
-      "reactions": 0,
-      "portee": 0,
-      "clics": 0,
+      "vues": null,
       "commentaires": 0,
       "v": 2,
-      "titre": "La Palmyre : 53 ans après, cette baie attend toujours sa réserve",
-      "lien": "https://www.facebook.com/1720946116697936/posts/1798651542260726",
-      "format": null,
+      "titre": "Quand la Gironde arrache des vignes, ce grand cru de Saint-Émilion augmente son prix",
+      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2vi3lhosh2j",
       "mention": false,
-      "creneau": "matin",
-      "creneauReseau": "8 h – 9 h 30"
+      "creneau": "après-midi",
+      "creneauReseau": "12 h – 13 h 30"
     },
     "mentions": {
       "avec": {
@@ -919,8 +916,8 @@
         "moyenne": 6.2
       },
       "sans": {
-        "posts": 66,
-        "moyenne": 5.7
+        "posts": 67,
+        "moyenne": 5.6
       }
     },
     "publies": {

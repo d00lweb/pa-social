@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-24T18:01:04.541Z",
+  "genereLe": "2026-11-24T18:20:36.996Z",
   "jour": "2026-11-24",
   "reseaux": {
     "instagram": {
@@ -596,7 +596,7 @@
     }
   ],
   "mesures": {
-    "releves": 705,
+    "releves": 706,
     "parReseau": {
       "instagram": {
         "posts": 86,
@@ -752,8 +752,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-24T18:01:08.240Z",
-    "posts": 124,
+    "genereLe": "2026-11-24T18:20:40.791Z",
+    "posts": 125,
     "parReseau": {
       "threads": {
         "posts": 32,
@@ -768,7 +768,7 @@
         "moyenne": 0
       },
       "bluesky": {
-        "posts": 32,
+        "posts": 33,
         "moyenne": 0
       }
     },
@@ -786,7 +786,7 @@
         "moyenne": 0
       },
       "reply": {
-        "posts": 8,
+        "posts": 9,
         "moyenne": 0
       }
     },
@@ -800,8 +800,8 @@
         "moyenne": 5.7
       },
       "soir": {
-        "posts": 23,
-        "moyenne": 1.9
+        "posts": 24,
+        "moyenne": 1.8
       }
     },
     "parCreneauReseau": {
@@ -851,7 +851,7 @@
           "moyenne": 0
         },
         "18 h – 19 h 30": {
-          "posts": 3,
+          "posts": 4,
           "moyenne": 0
         }
       },
@@ -892,24 +892,24 @@
       "creneauReseau": "7 h – 8 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36251",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36295",
       "channel": "bluesky",
-      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3n2xycuxone2j",
-      "publieLe": "2026-11-23T11:05:18.655Z",
+      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3n2yppeuqzs2v",
+      "publieLe": "2026-11-23T18:03:53.916Z",
       "format": "reply",
       "jalon": 1,
-      "releveLe": "2026-11-24T11:21:05.459Z",
+      "releveLe": "2026-11-24T18:20:36.996Z",
       "likes": 0,
       "commentairesBruts": 1,
       "partages": 0,
       "vues": null,
       "commentaires": 0,
       "v": 2,
-      "titre": "Pont Rouchaud : le pont oublié où se touchent trois ex-régions",
-      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2xycuxone2j",
+      "titre": "Vautours d’Ossau : un bénévole de 89 ans fournit l’essentiel des données du Parc national",
+      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2yppeuqzs2v",
       "mention": false,
-      "creneau": "après-midi",
-      "creneauReseau": "12 h – 13 h 30"
+      "creneau": "soir",
+      "creneauReseau": "18 h – 19 h 30"
     },
     "mentions": {
       "avec": {
@@ -917,8 +917,8 @@
         "moyenne": 5.9
       },
       "sans": {
-        "posts": 71,
-        "moyenne": 5.4
+        "posts": 72,
+        "moyenne": 5.3
       }
     },
     "publies": {

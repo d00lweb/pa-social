@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-24T10:00:41.975Z",
+  "genereLe": "2026-11-24T10:21:10.878Z",
   "jour": "2026-11-24",
   "reseaux": {
     "instagram": {
@@ -122,11 +122,11 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 1,
-      "semaine": 12,
-      "total": 93,
-      "dernier": "2026-11-24T06:18:47.473Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DgHScLuoE8A"
+      "aujourdhui": 2,
+      "semaine": 13,
+      "total": 94,
+      "dernier": "2026-11-24T10:32:42.583Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DgHvj45m0iD"
     },
     "x": {
       "actif": true,
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36283",
       "titre": "Dans cette gare de Corrèze, il faut héler le train pour monter",
       "lien": "https://passion-aquitaine.ouest-france.fr/gare-perols-vezere-arret-demande-voyageurs/",
-      "at": "2026-11-24T09:21:24.652Z",
+      "at": "2026-11-24T10:32:42.583Z",
       "reseaux": {
         "bluesky": {
           "texte": "À #PerolsSurVezere, en #Corrèze, le TER ne s’arrête pas tout seul 🚉 Il faut lui faire signe pour monter. Avec 592 passages en 2025, soit moins de deux par jour, la halte vit au rythme de ses rares voyageurs.\n➡️ Lire l’article",
@@ -185,6 +185,14 @@
           "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/gare-perols-vezere-arret-demande-voyageurs/",
           "sujet": null,
           "publieLe": "2026-11-24T09:21:24.652Z"
+        },
+        "threads": {
+          "texte": "Imaginez un train qui file sans s’arrêter si vous ne lui faites pas signe. C’est la règle à Pérols-sur-Vézère, en Corrèze : 🚦 le TER ne marque l’arrêt que si on le hèle. En 2025, la gare a compté 592 passages, moins de deux par jour.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261124-0b305ed9-th.jpg",
+          "mode": "reponse",
+          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/gare-perols-vezere-arret-demande-voyageurs/",
+          "sujet": "Pérols-sur-Vézère",
+          "publieLe": "2026-11-24T10:32:42.583Z"
         }
       }
     },
@@ -399,6 +407,16 @@
   ],
   "publications": [
     {
+      "channel": "threads",
+      "at": "2026-11-24T10:32:42.583Z",
+      "titre": "Dans cette gare de Corrèze, il faut héler le train pour monter",
+      "lien": "https://passion-aquitaine.ouest-france.fr/gare-perols-vezere-arret-demande-voyageurs/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/DgHvj45m0iD",
+      "format": "reponse",
+      "texte": "Imaginez un train qui file sans s’arrêter si vous ne lui faites pas signe. C’est la règle à Pérols-sur-Vézère, en Corrèze : 🚦 le TER ne marque l’arrêt que si on le hèle. En 2025, la gare a compté 592 passages, moins de deux par jour.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261124-0b305ed9-th.jpg"
+    },
+    {
       "channel": "x",
       "at": "2026-11-24T09:21:24.652Z",
       "titre": "Dans cette gare de Corrèze, il faut héler le train pour monter",
@@ -487,28 +505,9 @@
       "format": "reponse",
       "texte": "Sur la Tardoire, le pont Rouchaud cache un secret géographique : 📌 #Charente, Dordogne et Haute-Vienne s’y touchent. C’est le centre symbolique de la plus vaste région de France.",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261123-965863c4-x.jpg"
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-11-23T12:08:40.971Z",
-      "titre": "Quand la Gironde arrache des vignes, ce grand cru de Saint-Émilion augmente son prix",
-      "lien": "https://passion-aquitaine.ouest-france.fr/saint-emilion-grand-cru-prix-crise/",
-      "lienPost": "https://www.instagram.com/p/DgFWFUXjnaB/",
-      "format": null,
-      "texte": "À Saint-Émilion, un grand cru fait monter son prix pendant que la Gironde arrache des vignes 🍇\n⠀\nLe Château de Pressac propose son millésime 2025 à 29,70 euros en primeur. Ailleurs dans le Bordelais, des vignerons touchent moins d’un euro la bouteille.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#SaintEmilion #VinDeBordeaux #Viticulture",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261121-62194883-1.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "threads",
-      "dueAt": "2026-11-24T10:29:26.372Z",
-      "prochainPassage": "2026-11-24T11:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Dans cette gare de Corrèze, il faut héler le train pour monter"
-    },
     {
       "channel": "x",
       "dueAt": "2026-11-24T11:00:00.000Z",
@@ -796,7 +795,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-24T10:00:51.127Z",
+    "genereLe": "2026-11-24T10:32:44.826Z",
     "posts": 121,
     "parReseau": {
       "threads": {
@@ -969,7 +968,7 @@
       }
     },
     "publies": {
-      "threads": 33,
+      "threads": 34,
       "facebook": 33,
       "bluesky": 34,
       "x": 34,

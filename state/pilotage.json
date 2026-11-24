@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-24T12:20:45.811Z",
+  "genereLe": "2026-11-24T13:00:37.577Z",
   "jour": "2026-11-24",
   "reseaux": {
     "instagram": {
@@ -122,11 +122,11 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 2,
-      "semaine": 13,
-      "total": 94,
-      "dernier": "2026-11-24T10:32:42.583Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DgHvj45m0iD"
+      "aujourdhui": 3,
+      "semaine": 14,
+      "total": 95,
+      "dernier": "2026-11-24T13:08:26.141Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DgIBdjXG8sD"
     },
     "x": {
       "actif": true,
@@ -164,6 +164,38 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36315",
+      "titre": "Installé à Djibouti, ce maire girondin touchait l’indemnité maximale autorisée",
+      "lien": "https://passion-aquitaine.ouest-france.fr/casseuil-maire-djibouti-indemnite-demission/",
+      "at": "2026-11-24T13:08:26.141Z",
+      "reseaux": {
+        "x": {
+          "texte": "#Casseuil, Gironde : impossible de démettre un maire absent. Installé à Djibouti, l’élu touchait le plafond légal, et ni le conseil ni le sous-préfet n’avaient ce ⚖️ pouvoir.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261124-16415a20-x.jpg",
+          "mode": "reponse",
+          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/casseuil-maire-djibouti-indemnite-demission/",
+          "sujet": null,
+          "publieLe": "2026-11-24T11:00:58.229Z"
+        },
+        "bluesky": {
+          "texte": "✈️ Un maire de #Gironde gérait sa commune depuis Djibouti. À #Casseuil, il percevait 1 155 euros par mois, le maximum autorisé, sans que le conseil ni le sous-préfet puissent le démettre.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261124-16415a20-bsky.jpg",
+          "mode": "reply",
+          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/casseuil-maire-djibouti-indemnite-demission/",
+          "sujet": null,
+          "publieLe": "2026-11-24T11:31:33.393Z"
+        },
+        "threads": {
+          "texte": "Un élu peut vivre à l’autre bout du monde et garder son écharpe 🏛️ C’est ce qui s’est passé à Casseuil, en Gironde : installé à Djibouti, le maire touchait 1 155 euros par mois, le plafond légal. Ni son conseil municipal ni le sous-préfet n’avaient les moyens juridiques de le démettre. De quoi mieux comprendre les limites du contrôle des mandats locaux.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261124-16415a20-th.jpg",
+          "mode": "reponse",
+          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/casseuil-maire-djibouti-indemnite-demission/",
+          "sujet": "Casseuil",
+          "publieLe": "2026-11-24T13:08:26.141Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36291",
       "titre": "Vignes bordelaises à vendre : l’auteur de Gomorra redoute l’argent des mafias",
@@ -209,30 +241,6 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-11-24T12:30:16.143Z"
-        }
-      }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36315",
-      "titre": "Installé à Djibouti, ce maire girondin touchait l’indemnité maximale autorisée",
-      "lien": "https://passion-aquitaine.ouest-france.fr/casseuil-maire-djibouti-indemnite-demission/",
-      "at": "2026-11-24T11:31:33.393Z",
-      "reseaux": {
-        "x": {
-          "texte": "#Casseuil, Gironde : impossible de démettre un maire absent. Installé à Djibouti, l’élu touchait le plafond légal, et ni le conseil ni le sous-préfet n’avaient ce ⚖️ pouvoir.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261124-16415a20-x.jpg",
-          "mode": "reponse",
-          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/casseuil-maire-djibouti-indemnite-demission/",
-          "sujet": null,
-          "publieLe": "2026-11-24T11:00:58.229Z"
-        },
-        "bluesky": {
-          "texte": "✈️ Un maire de #Gironde gérait sa commune depuis Djibouti. À #Casseuil, il percevait 1 155 euros par mois, le maximum autorisé, sans que le conseil ni le sous-préfet puissent le démettre.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261124-16415a20-bsky.jpg",
-          "mode": "reply",
-          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/casseuil-maire-djibouti-indemnite-demission/",
-          "sujet": null,
-          "publieLe": "2026-11-24T11:31:33.393Z"
         }
       }
     },
@@ -391,6 +399,16 @@
   ],
   "publications": [
     {
+      "channel": "threads",
+      "at": "2026-11-24T13:08:26.141Z",
+      "titre": "Installé à Djibouti, ce maire girondin touchait l’indemnité maximale autorisée",
+      "lien": "https://passion-aquitaine.ouest-france.fr/casseuil-maire-djibouti-indemnite-demission/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/DgIBdjXG8sD",
+      "format": "reponse",
+      "texte": "Un élu peut vivre à l’autre bout du monde et garder son écharpe 🏛️ C’est ce qui s’est passé à Casseuil, en Gironde : installé à Djibouti, le maire touchait 1 155 euros par mois, le plafond légal. Ni son conseil municipal ni le sous-préfet n’avaient les moyens juridiques de le démettre. De quoi mieux comprendre les limites du contrôle des mandats locaux.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261124-16415a20-th.jpg"
+    },
+    {
       "channel": "instagram",
       "at": "2026-11-24T12:30:16.143Z",
       "titre": "Vignes bordelaises à vendre : l’auteur de Gomorra redoute l’argent des mafias",
@@ -479,28 +497,9 @@
       "format": "photo",
       "texte": "Derrière certaines ventes de vignes bordelaises, l’auteur de Gomorra soupçonne l’argent du crime organisé 📰\nL’article est en premier commentaire.",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261122-94a71a8e-fb.jpg"
-    },
-    {
-      "channel": "bluesky",
-      "at": "2026-11-23T18:03:53.916Z",
-      "titre": "Vautours d’Ossau : un bénévole de 89 ans fournit l’essentiel des données du Parc national",
-      "lien": "https://passion-aquitaine.ouest-france.fr/vautours-fauves-ossau-benevole-donnees/",
-      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2yppeuqzs2v",
-      "format": "reply",
-      "texte": "89 ans, et l’essentiel des données du Parc national sur les vautours d’Ossau. En #Béarn, à #Castet, un bénévole relève les bagues des vautours fauves, alors que s’achève le plan conduit avec les éleveurs 🦅",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261123-30597995-bsky.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "threads",
-      "dueAt": "2026-11-24T13:05:53.767Z",
-      "prochainPassage": "2026-11-24T13:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Installé à Djibouti, ce maire girondin touchait l’indemnité maximale autorisée"
-    },
     {
       "channel": "instagram",
       "dueAt": "2026-11-24T18:27:52.609Z",
@@ -752,7 +751,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-24T12:30:18.012Z",
+    "genereLe": "2026-11-24T13:08:28.280Z",
     "posts": 123,
     "parReseau": {
       "threads": {
@@ -922,7 +921,7 @@
       }
     },
     "publies": {
-      "threads": 34,
+      "threads": 35,
       "facebook": 33,
       "bluesky": 35,
       "x": 35,

@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-24T05:28:02.857Z",
+  "genereLe": "2026-11-24T06:00:55.621Z",
   "jour": "2026-11-24",
   "reseaux": {
     "instagram": {
@@ -122,11 +122,11 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 12,
-      "total": 92,
-      "dernier": "2026-11-23T09:32:03.991Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DgFD0lWmzY2"
+      "aujourdhui": 1,
+      "semaine": 13,
+      "total": 93,
+      "dernier": "2026-11-24T06:18:47.473Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DgHScLuoE8A"
     },
     "x": {
       "actif": true,
@@ -165,6 +165,38 @@
   },
   "articles": [
     {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36295",
+      "titre": "Vautours d’Ossau : un bénévole de 89 ans fournit l’essentiel des données du Parc national",
+      "lien": "https://passion-aquitaine.ouest-france.fr/vautours-fauves-ossau-benevole-donnees/",
+      "at": "2026-11-24T06:18:47.473Z",
+      "reseaux": {
+        "x": {
+          "texte": "Le meilleur informateur du Parc national sur les vautours d’Ossau a 89 ans 🦅 Bénévole à #Castet, il lit leurs bagues et fournit l’essentiel des données.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261123-30597995-x.jpg",
+          "mode": "reponse",
+          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/vautours-fauves-ossau-benevole-donnees/",
+          "sujet": null,
+          "publieLe": "2026-11-23T15:00:59.005Z"
+        },
+        "bluesky": {
+          "texte": "89 ans, et l’essentiel des données du Parc national sur les vautours d’Ossau. En #Béarn, à #Castet, un bénévole relève les bagues des vautours fauves, alors que s’achève le plan conduit avec les éleveurs 🦅",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261123-30597995-bsky.jpg",
+          "mode": "reply",
+          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/vautours-fauves-ossau-benevole-donnees/",
+          "sujet": null,
+          "publieLe": "2026-11-23T18:03:53.916Z"
+        },
+        "threads": {
+          "texte": "🏔️ Castet, vallée d’Ossau. Ici, les vautours fauves ont leur lecteur de bagues attitré : un bénévole de 89 ans. C’est lui qui fournit l’essentiel des données du Parc national sur ces grands rapaces. Et ses relevés tombent à point, à la fin du plan mené avec les éleveurs.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261123-30597995-th.jpg",
+          "mode": "reponse",
+          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/vautours-fauves-ossau-benevole-donnees/",
+          "sujet": "Castet",
+          "publieLe": "2026-11-24T06:18:47.473Z"
+        }
+      }
+    },
+    {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36291",
       "titre": "Vignes bordelaises à vendre : l’auteur de Gomorra redoute l’argent des mafias",
       "lien": "https://passion-aquitaine.ouest-france.fr/vignoble-bordelais-mafias-saviano-gomorra/",
@@ -201,30 +233,6 @@
           "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/vignoble-bordelais-mafias-saviano-gomorra/?at_medium=social&at_campaign=fb-photo",
           "sujet": null,
           "publieLe": "2026-11-23T19:13:43.035Z"
-        }
-      }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36295",
-      "titre": "Vautours d’Ossau : un bénévole de 89 ans fournit l’essentiel des données du Parc national",
-      "lien": "https://passion-aquitaine.ouest-france.fr/vautours-fauves-ossau-benevole-donnees/",
-      "at": "2026-11-23T18:03:53.916Z",
-      "reseaux": {
-        "x": {
-          "texte": "Le meilleur informateur du Parc national sur les vautours d’Ossau a 89 ans 🦅 Bénévole à #Castet, il lit leurs bagues et fournit l’essentiel des données.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261123-30597995-x.jpg",
-          "mode": "reponse",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/vautours-fauves-ossau-benevole-donnees/",
-          "sujet": null,
-          "publieLe": "2026-11-23T15:00:59.005Z"
-        },
-        "bluesky": {
-          "texte": "89 ans, et l’essentiel des données du Parc national sur les vautours d’Ossau. En #Béarn, à #Castet, un bénévole relève les bagues des vautours fauves, alors que s’achève le plan conduit avec les éleveurs 🦅",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261123-30597995-bsky.jpg",
-          "mode": "reply",
-          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/vautours-fauves-ossau-benevole-donnees/",
-          "sujet": null,
-          "publieLe": "2026-11-23T18:03:53.916Z"
         }
       }
     },
@@ -407,6 +415,16 @@
   ],
   "publications": [
     {
+      "channel": "threads",
+      "at": "2026-11-24T06:18:47.473Z",
+      "titre": "Vautours d’Ossau : un bénévole de 89 ans fournit l’essentiel des données du Parc national",
+      "lien": "https://passion-aquitaine.ouest-france.fr/vautours-fauves-ossau-benevole-donnees/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/DgHScLuoE8A",
+      "format": "reponse",
+      "texte": "🏔️ Castet, vallée d’Ossau. Ici, les vautours fauves ont leur lecteur de bagues attitré : un bénévole de 89 ans. C’est lui qui fournit l’essentiel des données du Parc national sur ces grands rapaces. Et ses relevés tombent à point, à la fin du plan mené avec les éleveurs.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261123-30597995-th.jpg"
+    },
+    {
       "channel": "facebook",
       "at": "2026-11-23T19:13:43.035Z",
       "titre": "Vignes bordelaises à vendre : l’auteur de Gomorra redoute l’argent des mafias",
@@ -495,28 +513,9 @@
       "format": "reponse",
       "texte": "Neuf châteaux du vignoble bordelais confisqués pour blanchiment en 2024. L’auteur de Gomorra redoute que l’argent des mafias lorgne sur les vignes à vendre 📍",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261122-94a71a8e-x.jpg"
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-11-23T08:30:50.074Z",
-      "titre": "Truffe du Périgord : la France en importe plus qu’elle n’en récolte",
-      "lien": "https://passion-aquitaine.ouest-france.fr/truffe-perigord-france-importe-plus-recolte/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1799890428803504",
-      "format": "photo",
-      "texte": "Avant d’acheter votre truffe pour les fêtes, sachez qu’elle a de bonnes chances de venir d’Italie ou de Bulgarie 🇮🇹 🍄\nL’article est en premier commentaire.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261122-ecd6c5a6-fb.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "threads",
-      "dueAt": "2026-11-24T06:14:58.810Z",
-      "prochainPassage": "2026-11-24T06:20:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Vautours d’Ossau : un bénévole de 89 ans fournit l’essentiel des données du Parc national"
-    },
     {
       "channel": "facebook",
       "dueAt": "2026-11-24T07:06:57.122Z",
@@ -711,7 +710,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-24T04:28:42.904Z"
+    "derniere": "2026-11-24T06:00:55.621Z"
   },
   "abonnes": {
     "instagram": {
@@ -750,7 +749,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-24T05:28:06.557Z",
+    "genereLe": "2026-11-24T06:18:52.132Z",
     "posts": 117,
     "parReseau": {
       "threads": {
@@ -920,7 +919,7 @@
       }
     },
     "publies": {
-      "threads": 32,
+      "threads": 33,
       "facebook": 32,
       "bluesky": 33,
       "x": 33,

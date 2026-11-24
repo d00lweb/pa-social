@@ -2108,5 +2108,49 @@
     "instagram": [],
     "threads": [],
     "bluesky": []
+  },
+  "commune:mairie:perols-sur-vezere": {
+    "v": 3,
+    "cherche": "2026-11-24T07:08:17.937Z",
+    "instagram": [],
+    "x": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:perols-sur-vezere:train": {
+    "v": 3,
+    "cherche": "2026-11-24T07:08:17.937Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:perols-sur-vezere:transport": {
+    "v": 3,
+    "cherche": "2026-11-24T07:08:17.937Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "commune:mairie:casseuil": {
+    "v": 3,
+    "cherche": "2026-11-24T07:08:41.085Z",
+    "instagram": [],
+    "x": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:casseuil:democratie": {
+    "v": 3,
+    "cherche": "2026-11-24T07:08:41.085Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:casseuil:politique": {
+    "v": 3,
+    "cherche": "2026-11-24T07:08:41.085Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
   }
 }

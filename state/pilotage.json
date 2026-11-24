@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-24T06:20:38.338Z",
+  "genereLe": "2026-11-24T07:07:49.505Z",
   "jour": "2026-11-24",
   "reseaux": {
     "instagram": {
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 12,
-      "total": 92,
-      "dernier": "2026-11-23T19:13:43.035Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1800498012076079"
+      "aujourdhui": 1,
+      "semaine": 13,
+      "total": 93,
+      "dernier": "2026-11-24T07:08:51.095Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1801039145355299"
     },
     "threads": {
       "actif": true,
@@ -164,6 +164,46 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36251",
+      "titre": "Pont Rouchaud : le pont oublié où se touchent trois ex-régions",
+      "lien": "https://passion-aquitaine.ouest-france.fr/pont-rouchaud-trois-regions-nouvelle-aquitaine/",
+      "at": "2026-11-24T07:08:51.095Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Trois départements se rejoignent sur un seul pont 🌉 Le pont Rouchaud, au-dessus de la Tardoire, relie la Charente, la Dordogne et la Haute-Vienne, autrefois dans trois régions différentes. C’est là que la plus vaste région de France a son centre symbolique. Vous étiez déjà passé par ce pont oublié ?",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261123-965863c4-th.jpg",
+          "mode": "reponse",
+          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/pont-rouchaud-trois-regions-nouvelle-aquitaine/",
+          "sujet": "Patrimoine",
+          "publieLe": "2026-11-23T09:32:03.991Z"
+        },
+        "bluesky": {
+          "texte": "🗺️ Où se trouve le centre de la plus vaste région de France ? Sur un pont oublié de la Tardoire, le pont Rouchaud, où se touchent la #Charente, la Dordogne et la Haute-Vienne.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261123-965863c4-bsky.jpg",
+          "mode": "reply",
+          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/pont-rouchaud-trois-regions-nouvelle-aquitaine/",
+          "sujet": null,
+          "publieLe": "2026-11-23T11:05:18.655Z"
+        },
+        "x": {
+          "texte": "Sur la Tardoire, le pont Rouchaud cache un secret géographique : 📌 #Charente, Dordogne et Haute-Vienne s’y touchent. C’est le centre symbolique de la plus vaste région de France.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261123-965863c4-x.jpg",
+          "mode": "reponse",
+          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/pont-rouchaud-trois-regions-nouvelle-aquitaine/",
+          "sujet": null,
+          "publieLe": "2026-11-23T12:23:20.615Z"
+        },
+        "facebook": {
+          "texte": "Un pied en Charente, l’autre en Dordogne, la Haute-Vienne juste à côté : tout se joue sur ce pont de la Tardoire 🌉",
+          "image": null,
+          "mode": "lien",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-24T07:08:51.095Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36295",
       "titre": "Vautours d’Ossau : un bénévole de 89 ans fournit l’essentiel des données du Parc national",
@@ -285,38 +325,6 @@
       }
     },
     {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36251",
-      "titre": "Pont Rouchaud : le pont oublié où se touchent trois ex-régions",
-      "lien": "https://passion-aquitaine.ouest-france.fr/pont-rouchaud-trois-regions-nouvelle-aquitaine/",
-      "at": "2026-11-23T12:23:20.615Z",
-      "reseaux": {
-        "threads": {
-          "texte": "Trois départements se rejoignent sur un seul pont 🌉 Le pont Rouchaud, au-dessus de la Tardoire, relie la Charente, la Dordogne et la Haute-Vienne, autrefois dans trois régions différentes. C’est là que la plus vaste région de France a son centre symbolique. Vous étiez déjà passé par ce pont oublié ?",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261123-965863c4-th.jpg",
-          "mode": "reponse",
-          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/pont-rouchaud-trois-regions-nouvelle-aquitaine/",
-          "sujet": "Patrimoine",
-          "publieLe": "2026-11-23T09:32:03.991Z"
-        },
-        "bluesky": {
-          "texte": "🗺️ Où se trouve le centre de la plus vaste région de France ? Sur un pont oublié de la Tardoire, le pont Rouchaud, où se touchent la #Charente, la Dordogne et la Haute-Vienne.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261123-965863c4-bsky.jpg",
-          "mode": "reply",
-          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/pont-rouchaud-trois-regions-nouvelle-aquitaine/",
-          "sujet": null,
-          "publieLe": "2026-11-23T11:05:18.655Z"
-        },
-        "x": {
-          "texte": "Sur la Tardoire, le pont Rouchaud cache un secret géographique : 📌 #Charente, Dordogne et Haute-Vienne s’y touchent. C’est le centre symbolique de la plus vaste région de France.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261123-965863c4-x.jpg",
-          "mode": "reponse",
-          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/pont-rouchaud-trois-regions-nouvelle-aquitaine/",
-          "sujet": null,
-          "publieLe": "2026-11-23T12:23:20.615Z"
-        }
-      }
-    },
-    {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36276",
       "titre": "Quand la Gironde arrache des vignes, ce grand cru de Saint-Émilion augmente son prix",
       "lien": "https://passion-aquitaine.ouest-france.fr/saint-emilion-grand-cru-prix-crise/",
@@ -415,6 +423,16 @@
   ],
   "publications": [
     {
+      "channel": "facebook",
+      "at": "2026-11-24T07:08:51.095Z",
+      "titre": "Pont Rouchaud : le pont oublié où se touchent trois ex-régions",
+      "lien": "https://passion-aquitaine.ouest-france.fr/pont-rouchaud-trois-regions-nouvelle-aquitaine/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1801039145355299",
+      "format": "lien",
+      "texte": "Un pied en Charente, l’autre en Dordogne, la Haute-Vienne juste à côté : tout se joue sur ce pont de la Tardoire 🌉",
+      "image": null
+    },
+    {
       "channel": "threads",
       "at": "2026-11-24T06:18:47.473Z",
       "titre": "Vautours d’Ossau : un bénévole de 89 ans fournit l’essentiel des données du Parc national",
@@ -503,27 +521,53 @@
       "format": "reponse",
       "texte": "Trois départements se rejoignent sur un seul pont 🌉 Le pont Rouchaud, au-dessus de la Tardoire, relie la Charente, la Dordogne et la Haute-Vienne, autrefois dans trois régions différentes. C’est là que la plus vaste région de France a son centre symbolique. Vous étiez déjà passé par ce pont oublié ?",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261123-965863c4-th.jpg"
-    },
-    {
-      "channel": "x",
-      "at": "2026-11-23T09:22:32.753Z",
-      "titre": "Vignes bordelaises à vendre : l’auteur de Gomorra redoute l’argent des mafias",
-      "lien": "https://passion-aquitaine.ouest-france.fr/vignoble-bordelais-mafias-saviano-gomorra/",
-      "lienPost": null,
-      "format": "reponse",
-      "texte": "Neuf châteaux du vignoble bordelais confisqués pour blanchiment en 2024. L’auteur de Gomorra redoute que l’argent des mafias lorgne sur les vignes à vendre 📍",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261122-94a71a8e-x.jpg"
     }
   ],
   "file": [
     {
-      "channel": "facebook",
-      "dueAt": "2026-11-24T07:06:57.122Z",
-      "prochainPassage": "2026-11-24T07:20:00.000Z",
-      "nature": "evergreen",
+      "channel": "bluesky",
+      "dueAt": "2026-11-24T07:30:09.697Z",
+      "prochainPassage": "2026-11-24T08:00:00.000Z",
+      "nature": "actu",
       "prevuInitialement": null,
       "raison": null,
-      "titre": "Pont Rouchaud : le pont oublié où se touchent trois ex-régions"
+      "titre": "Dans cette gare de Corrèze, il faut héler le train pour monter"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-11-24T09:20:00.000Z",
+      "prochainPassage": "2026-11-24T09:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Dans cette gare de Corrèze, il faut héler le train pour monter"
+    },
+    {
+      "channel": "threads",
+      "dueAt": "2026-11-24T10:29:26.372Z",
+      "prochainPassage": "2026-11-24T11:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Dans cette gare de Corrèze, il faut héler le train pour monter"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-11-24T11:00:00.000Z",
+      "prochainPassage": "2026-11-24T11:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Installé à Djibouti, ce maire girondin touchait l’indemnité maximale autorisée"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-11-24T11:31:31.485Z",
+      "prochainPassage": "2026-11-24T12:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Installé à Djibouti, ce maire girondin touchait l’indemnité maximale autorisée"
     },
     {
       "channel": "instagram",
@@ -533,6 +577,15 @@
       "prevuInitialement": null,
       "raison": null,
       "titre": "Vignes bordelaises à vendre : l’auteur de Gomorra redoute l’argent des mafias"
+    },
+    {
+      "channel": "threads",
+      "dueAt": "2026-11-24T13:05:53.767Z",
+      "prochainPassage": "2026-11-24T13:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Installé à Djibouti, ce maire girondin touchait l’indemnité maximale autorisée"
     },
     {
       "channel": "instagram",
@@ -553,6 +606,15 @@
       "titre": "Vautours d’Ossau : un bénévole de 89 ans fournit l’essentiel des données du Parc national"
     },
     {
+      "channel": "facebook",
+      "dueAt": "2026-11-25T07:32:57.146Z",
+      "prochainPassage": "2026-11-25T08:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Dans cette gare de Corrèze, il faut héler le train pour monter"
+    },
+    {
       "channel": "instagram",
       "dueAt": "2026-11-25T12:23:18.317Z",
       "prochainPassage": "2026-11-25T13:00:00.000Z",
@@ -560,6 +622,33 @@
       "prevuInitialement": null,
       "raison": null,
       "titre": "Vautours d’Ossau : un bénévole de 89 ans fournit l’essentiel des données du Parc national"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-11-25T18:28:10.719Z",
+      "prochainPassage": "2026-11-25T19:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Dans cette gare de Corrèze, il faut héler le train pour monter"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-11-25T19:13:22.142Z",
+      "prochainPassage": "2026-11-25T19:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Installé à Djibouti, ce maire girondin touchait l’indemnité maximale autorisée"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-11-26T12:25:53.585Z",
+      "prochainPassage": "2026-11-26T13:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Installé à Djibouti, ce maire girondin touchait l’indemnité maximale autorisée"
     }
   ],
   "alertes": [
@@ -710,7 +799,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-24T06:00:55.621Z"
+    "derniere": "2026-11-24T07:07:49.505Z"
   },
   "abonnes": {
     "instagram": {
@@ -749,7 +838,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-24T06:20:42.424Z",
+    "genereLe": "2026-11-24T07:08:52.975Z",
     "posts": 117,
     "parReseau": {
       "threads": {
@@ -920,7 +1009,7 @@
     },
     "publies": {
       "threads": 33,
-      "facebook": 32,
+      "facebook": 33,
       "bluesky": 33,
       "x": 33,
       "instagram": 30
@@ -974,29 +1063,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 0,
-      "entree": 0,
-      "sortie": 0,
-      "cout": 0,
+      "appels": 4,
+      "entree": 32318,
+      "sortie": 4508,
+      "cout": 0.219432,
       "cle": "2026-11-24"
     },
     "semaine": {
-      "appels": 22,
-      "entree": 176081,
-      "sortie": 20498,
-      "cout": 1.114284
+      "appels": 26,
+      "entree": 208399,
+      "sortie": 25006,
+      "cout": 1.333716
     },
     "mois": {
-      "appels": 80,
-      "entree": 640257,
-      "sortie": 72407,
-      "cout": 4.009167999999999,
+      "appels": 84,
+      "entree": 672575,
+      "sortie": 76915,
+      "cout": 4.228599999999999,
       "cle": "2026-11"
     },
-    "projection": 5.01,
-    "moyenneAppel": 0.0501,
+    "projection": 5.29,
+    "moyenneAppel": 0.0503,
     "parModele": {
-      "claude-opus-5-5": 80
+      "claude-opus-5-5": 84
     },
     "serie": [
       [
@@ -1053,7 +1142,7 @@
       ],
       [
         "2026-11-24",
-        0
+        0.2194
       ]
     ],
     "depuis": "2026-09-23"

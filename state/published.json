@@ -8404,5 +8404,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36283",
+    "channel": "bluesky",
+    "at": "2026-11-24T07:30:11.720Z",
+    "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3n324r5hevb2s",
+    "titre": "Dans cette gare de Corrèze, il faut héler le train pour monter",
+    "lien": "https://passion-aquitaine.ouest-france.fr/gare-perols-vezere-arret-demande-voyageurs/",
+    "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n324r5hevb2s",
+    "format": "image",
+    "mention": false,
+    "apercu": {
+      "texte": "À #PerolsSurVezere, en #Corrèze, le TER ne s’arrête pas tout seul 🚉 Il faut lui faire signe pour monter. Avec 592 passages en 2025, soit moins de deux par jour, la halte vit au rythme de ses rares voyageurs.\n➡️ Lire l’article",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261124-0b305ed9-bsky.jpg",
+      "mode": "image",
+      "reponse": null,
+      "sujet": null
+    }
   }
 ]

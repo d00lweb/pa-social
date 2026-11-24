@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-24T07:07:49.505Z",
+  "genereLe": "2026-11-24T07:28:49.570Z",
   "jour": "2026-11-24",
   "reseaux": {
     "instagram": {
@@ -60,11 +60,11 @@
         "image",
         "reply"
       ],
-      "aujourdhui": 0,
-      "semaine": 13,
-      "total": 96,
-      "dernier": "2026-11-23T18:03:53.916Z",
-      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2yppeuqzs2v"
+      "aujourdhui": 1,
+      "semaine": 14,
+      "total": 97,
+      "dernier": "2026-11-24T07:30:11.720Z",
+      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n324r5hevb2s"
     },
     "facebook": {
       "actif": true,
@@ -164,6 +164,22 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36283",
+      "titre": "Dans cette gare de Corrèze, il faut héler le train pour monter",
+      "lien": "https://passion-aquitaine.ouest-france.fr/gare-perols-vezere-arret-demande-voyageurs/",
+      "at": "2026-11-24T07:30:11.720Z",
+      "reseaux": {
+        "bluesky": {
+          "texte": "À #PerolsSurVezere, en #Corrèze, le TER ne s’arrête pas tout seul 🚉 Il faut lui faire signe pour monter. Avec 592 passages en 2025, soit moins de deux par jour, la halte vit au rythme de ses rares voyageurs.\n➡️ Lire l’article",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261124-0b305ed9-bsky.jpg",
+          "mode": "image",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-24T07:30:11.720Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36251",
       "titre": "Pont Rouchaud : le pont oublié où se touchent trois ex-régions",
@@ -371,57 +387,19 @@
           "publieLe": "2026-11-23T12:08:40.971Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36215",
-      "titre": "La Palmyre : 53 ans après, cette baie attend toujours sa réserve",
-      "lien": "https://passion-aquitaine.ouest-france.fr/baie-bonne-anse-reserve-naturelle-palmyre/",
-      "at": "2026-11-22T17:04:47.163Z",
-      "reseaux": {
-        "threads": {
-          "texte": "Près de La Palmyre, la baie de Bonne Anse a une histoire étonnante 🌊 En 1973, elle faisait partie des 100 réserves naturelles à créer en priorité en France. 53 ans plus tard, ce statut n’est toujours pas arrivé. De quoi regarder autrement ce coin de Charente-Maritime lors de votre prochaine balade.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261121-7d65266b-th.jpg",
-          "mode": "reponse",
-          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/baie-bonne-anse-reserve-naturelle-palmyre/",
-          "sujet": "La Palmyre",
-          "publieLe": "2026-11-21T13:30:48.096Z"
-        },
-        "x": {
-          "texte": "La baie de Bonne Anse, à La Palmyre, figurait en 1973 parmi les 100 réserves naturelles prioritaires ⌛ 53 ans plus tard, elle attend toujours d’être protégée.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261121-7d65266b-x.jpg",
-          "mode": "reponse",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/baie-bonne-anse-reserve-naturelle-palmyre/",
-          "sujet": null,
-          "publieLe": "2026-11-21T16:21:05.880Z"
-        },
-        "bluesky": {
-          "texte": "🦆 Classée parmi les 100 réserves naturelles à créer en priorité dès 1973, la baie de Bonne Anse, à #LaPalmyre, attend encore son statut. Une priorité restée lettre morte pendant 53 ans en #CharenteMaritime.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261121-7d65266b-bsky.jpg",
-          "mode": "reply",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/baie-bonne-anse-reserve-naturelle-palmyre/",
-          "sujet": null,
-          "publieLe": "2026-11-22T07:06:37.208Z"
-        },
-        "facebook": {
-          "texte": "À La Palmyre, la baie de Bonne Anse était jugée prioritaire pour devenir réserve naturelle… il y a plus d’un demi-siècle ⏳",
-          "image": null,
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-22T07:13:04.500Z"
-        },
-        "instagram": {
-          "texte": "53 ans d’attente : la baie de Bonne Anse n’est toujours pas une réserve naturelle 🕰️\n⠀\nÀ La Palmyre, en Charente-Maritime, cette baie figurait dès 1973 parmi les 100 réserves naturelles à créer en priorité. Un dossier de nature resté en suspens depuis plus d’un demi-siècle.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#LaPalmyre #ReserveNaturelle #CharenteMaritime",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261121-7d65266b-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-22T17:04:47.163Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "bluesky",
+      "at": "2026-11-24T07:30:11.720Z",
+      "titre": "Dans cette gare de Corrèze, il faut héler le train pour monter",
+      "lien": "https://passion-aquitaine.ouest-france.fr/gare-perols-vezere-arret-demande-voyageurs/",
+      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n324r5hevb2s",
+      "format": "image",
+      "texte": "À #PerolsSurVezere, en #Corrèze, le TER ne s’arrête pas tout seul 🚉 Il faut lui faire signe pour monter. Avec 592 passages en 2025, soit moins de deux par jour, la halte vit au rythme de ses rares voyageurs.\n➡️ Lire l’article",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261124-0b305ed9-bsky.jpg"
+    },
     {
       "channel": "facebook",
       "at": "2026-11-24T07:08:51.095Z",
@@ -511,28 +489,9 @@
       "format": "reply",
       "texte": "🗺️ Où se trouve le centre de la plus vaste région de France ? Sur un pont oublié de la Tardoire, le pont Rouchaud, où se touchent la #Charente, la Dordogne et la Haute-Vienne.",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261123-965863c4-bsky.jpg"
-    },
-    {
-      "channel": "threads",
-      "at": "2026-11-23T09:32:03.991Z",
-      "titre": "Pont Rouchaud : le pont oublié où se touchent trois ex-régions",
-      "lien": "https://passion-aquitaine.ouest-france.fr/pont-rouchaud-trois-regions-nouvelle-aquitaine/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/DgFD0lWmzY2",
-      "format": "reponse",
-      "texte": "Trois départements se rejoignent sur un seul pont 🌉 Le pont Rouchaud, au-dessus de la Tardoire, relie la Charente, la Dordogne et la Haute-Vienne, autrefois dans trois régions différentes. C’est là que la plus vaste région de France a son centre symbolique. Vous étiez déjà passé par ce pont oublié ?",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261123-965863c4-th.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "bluesky",
-      "dueAt": "2026-11-24T07:30:09.697Z",
-      "prochainPassage": "2026-11-24T08:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Dans cette gare de Corrèze, il faut héler le train pour monter"
-    },
     {
       "channel": "x",
       "dueAt": "2026-11-24T09:20:00.000Z",
@@ -682,7 +641,7 @@
     }
   ],
   "mesures": {
-    "releves": 694,
+    "releves": 695,
     "parReseau": {
       "instagram": {
         "posts": 85,
@@ -838,12 +797,12 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-24T07:08:52.975Z",
-    "posts": 117,
+    "genereLe": "2026-11-24T07:30:20.448Z",
+    "posts": 118,
     "parReseau": {
       "threads": {
-        "posts": 30,
-        "moyenne": 15.3
+        "posts": 31,
+        "moyenne": 15
       },
       "instagram": {
         "posts": 28,
@@ -860,8 +819,8 @@
     },
     "parFormat": {
       "reponse": {
-        "posts": 30,
-        "moyenne": 15.3
+        "posts": 31,
+        "moyenne": 15
       },
       "card": {
         "posts": 8,
@@ -878,7 +837,7 @@
     },
     "parCreneau": {
       "matin": {
-        "posts": 62,
+        "posts": 63,
         "moyenne": 7.1
       },
       "après-midi": {
@@ -893,8 +852,8 @@
     "parCreneauReseau": {
       "threads": {
         "7 h – 8 h 30": {
-          "posts": 16,
-          "moyenne": 21.5
+          "posts": 17,
+          "moyenne": 20.6
         },
         "10 h – 11 h 30": {
           "posts": 10,
@@ -956,7 +915,7 @@
         }
       }
     },
-    "interactionsTotal": 678,
+    "interactionsTotal": 684,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36189",
       "channel": "threads",
@@ -999,7 +958,7 @@
     },
     "mentions": {
       "avec": {
-        "posts": 49,
+        "posts": 50,
         "moyenne": 6.1
       },
       "sans": {
@@ -1010,7 +969,7 @@
     "publies": {
       "threads": 33,
       "facebook": 33,
-      "bluesky": 33,
+      "bluesky": 34,
       "x": 33,
       "instagram": 30
     },
@@ -1050,14 +1009,14 @@
       "x": null
     },
     "engagement": {
-      "threads": 1.3,
+      "threads": 1.28,
       "instagram": 0.08,
       "facebook": 0
     },
     "conseils": [
-      "Threads : le créneau 7 h – 8 h 30 fait 3,6 fois mieux que 13 h – 14 h 30 (21.5 contre 6 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
+      "Threads : le créneau 7 h – 8 h 30 fait 3,4 fois mieux que 13 h – 14 h 30 (20.6 contre 6 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Instagram : le créneau 12 h – 13 h 30 fait 1,7 fois mieux que 18 h – 19 h 30 (9.3 contre 5.5 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
-      "Le format « reponse » fait 153 fois mieux que « reply » (15.3 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « reply » de la rotation dans config/channels.json.",
+      "Le format « reponse » fait 150 fois mieux que « reply » (15 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « reply » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+17, +1,5 %) ; Facebook recule (−43), à surveiller."
     ]
   },

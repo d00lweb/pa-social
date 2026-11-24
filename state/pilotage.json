@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-24T13:20:35.648Z",
+  "genereLe": "2026-11-24T14:00:52.846Z",
   "jour": "2026-11-24",
   "reseaux": {
     "instagram": {
@@ -501,66 +501,111 @@
   ],
   "file": [
     {
-      "channel": "instagram",
-      "dueAt": "2026-11-24T18:27:52.609Z",
-      "prochainPassage": "2026-11-24T19:00:00.000Z",
-      "nature": "evergreen",
+      "channel": "x",
+      "dueAt": "2026-11-24T14:20:00.000Z",
+      "prochainPassage": "2026-11-24T14:20:00.000Z",
+      "nature": "actu_chaude",
       "prevuInitialement": null,
       "raison": null,
+      "titre": "50 millions investis puis une fermeture : ce qui se joue vraiment dans cette verrerie de Vayres"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-11-24T14:30:48.728Z",
+      "prochainPassage": "2026-11-24T15:00:00.000Z",
+      "nature": "actu_chaude",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "50 millions investis puis une fermeture : ce qui se joue vraiment dans cette verrerie de Vayres"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-11-24T14:34:37.789Z",
+      "prochainPassage": "2026-11-24T15:00:00.000Z",
+      "nature": "actu_chaude",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "50 millions investis puis une fermeture : ce qui se joue vraiment dans cette verrerie de Vayres"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-11-24T15:05:07.870Z",
+      "prochainPassage": "2026-11-24T15:20:00.000Z",
+      "nature": "actu_chaude",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "50 millions investis puis une fermeture : ce qui se joue vraiment dans cette verrerie de Vayres"
+    },
+    {
+      "channel": "threads",
+      "dueAt": "2026-11-25T06:08:34.543Z",
+      "prochainPassage": "2026-11-25T06:20:00.000Z",
+      "nature": "actu_chaude",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "50 millions investis puis une fermeture : ce qui se joue vraiment dans cette verrerie de Vayres"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-11-25T07:11:57.580Z",
+      "prochainPassage": "2026-11-25T07:20:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": "2026-11-24T19:32:43.248Z",
+      "raison": "le nombre de posts du jour était atteint",
+      "titre": "Vautours d’Ossau : un bénévole de 89 ans fournit l’essentiel des données du Parc national"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-11-25T11:14:11.441Z",
+      "prochainPassage": "2026-11-25T11:20:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": "2026-11-24T18:27:52.609Z",
+      "raison": "le nombre de posts du jour était atteint",
       "titre": "Pont Rouchaud : le pont oublié où se touchent trois ex-régions"
     },
     {
-      "channel": "facebook",
-      "dueAt": "2026-11-24T19:32:43.248Z",
-      "prochainPassage": "2026-11-24T20:00:00.000Z",
+      "channel": "instagram",
+      "dueAt": "2026-11-25T18:12:10.011Z",
+      "prochainPassage": "2026-11-25T18:20:00.000Z",
       "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
+      "prevuInitialement": "2026-11-25T12:23:18.317Z",
+      "raison": "un autre post occupait déjà ce créneau",
       "titre": "Vautours d’Ossau : un bénévole de 89 ans fournit l’essentiel des données du Parc national"
     },
     {
       "channel": "facebook",
-      "dueAt": "2026-11-25T07:32:57.146Z",
-      "prochainPassage": "2026-11-25T08:00:00.000Z",
+      "dueAt": "2026-11-25T19:25:11.644Z",
+      "prochainPassage": "2026-11-25T20:00:00.000Z",
       "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Dans cette gare de Corrèze, il faut héler le train pour monter"
-    },
-    {
-      "channel": "instagram",
-      "dueAt": "2026-11-25T12:23:18.317Z",
-      "prochainPassage": "2026-11-25T13:00:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Vautours d’Ossau : un bénévole de 89 ans fournit l’essentiel des données du Parc national"
-    },
-    {
-      "channel": "instagram",
-      "dueAt": "2026-11-25T18:28:10.719Z",
-      "prochainPassage": "2026-11-25T19:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
+      "prevuInitialement": "2026-11-25T07:32:57.146Z",
+      "raison": "un autre post occupait déjà ce créneau",
       "titre": "Dans cette gare de Corrèze, il faut héler le train pour monter"
     },
     {
       "channel": "facebook",
-      "dueAt": "2026-11-25T19:13:22.142Z",
-      "prochainPassage": "2026-11-25T19:20:00.000Z",
+      "dueAt": "2026-11-26T08:11:17.900Z",
+      "prochainPassage": "2026-11-26T08:20:00.000Z",
       "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
+      "prevuInitialement": "2026-11-25T19:13:22.142Z",
+      "raison": "un autre post occupait déjà ce créneau",
       "titre": "Installé à Djibouti, ce maire girondin touchait l’indemnité maximale autorisée"
     },
     {
       "channel": "instagram",
-      "dueAt": "2026-11-26T12:25:53.585Z",
-      "prochainPassage": "2026-11-26T13:00:00.000Z",
+      "dueAt": "2026-11-26T11:03:01.086Z",
+      "prochainPassage": "2026-11-26T11:20:00.000Z",
       "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
+      "prevuInitialement": "2026-11-25T18:28:10.719Z",
+      "raison": "un autre post occupait déjà ce créneau",
+      "titre": "Dans cette gare de Corrèze, il faut héler le train pour monter"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-11-26T18:24:10.548Z",
+      "prochainPassage": "2026-11-26T19:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": "2026-11-26T12:25:53.585Z",
+      "raison": "un autre post occupait déjà ce créneau",
       "titre": "Installé à Djibouti, ce maire girondin touchait l’indemnité maximale autorisée"
     }
   ],
@@ -751,7 +796,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-24T13:20:40.747Z",
+    "genereLe": "2026-11-24T14:01:25.460Z",
     "posts": 123,
     "parReseau": {
       "threads": {
@@ -976,29 +1021,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 4,
-      "entree": 32318,
-      "sortie": 4508,
-      "cout": 0.219432,
+      "appels": 6,
+      "entree": 48404,
+      "sortie": 6200,
+      "cout": 0.317616,
       "cle": "2026-11-24"
     },
     "semaine": {
-      "appels": 26,
-      "entree": 208399,
-      "sortie": 25006,
-      "cout": 1.333716
+      "appels": 28,
+      "entree": 224485,
+      "sortie": 26698,
+      "cout": 1.4319
     },
     "mois": {
-      "appels": 84,
-      "entree": 672575,
-      "sortie": 76915,
-      "cout": 4.228599999999999,
+      "appels": 86,
+      "entree": 688661,
+      "sortie": 78607,
+      "cout": 4.326783999999999,
       "cle": "2026-11"
     },
-    "projection": 5.29,
+    "projection": 5.41,
     "moyenneAppel": 0.0503,
     "parModele": {
-      "claude-opus-5-5": 84
+      "claude-opus-5-5": 86
     },
     "serie": [
       [
@@ -1055,7 +1100,7 @@
       ],
       [
         "2026-11-24",
-        0.2194
+        0.3176
       ]
     ],
     "depuis": "2026-09-23"

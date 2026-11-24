@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-24T08:00:37.757Z",
+  "genereLe": "2026-11-24T08:29:02.281Z",
   "jour": "2026-11-24",
   "reseaux": {
     "instagram": {
@@ -157,7 +157,7 @@
         "reponse"
       ],
       "aujourdhui": 0,
-      "semaine": 13,
+      "semaine": 12,
       "total": 96,
       "dernier": "2026-11-23T15:00:59.005Z",
       "lienDernier": null
@@ -641,7 +641,7 @@
     }
   ],
   "mesures": {
-    "releves": 697,
+    "releves": 698,
     "parReseau": {
       "instagram": {
         "posts": 85,
@@ -758,7 +758,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-24T07:07:49.505Z"
+    "derniere": "2026-11-24T08:29:02.281Z"
   },
   "abonnes": {
     "instagram": {
@@ -797,8 +797,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-24T08:00:42.838Z",
-    "posts": 118,
+    "genereLe": "2026-11-24T08:29:07.947Z",
+    "posts": 119,
     "parReseau": {
       "threads": {
         "posts": 31,
@@ -813,7 +813,7 @@
         "moyenne": 0
       },
       "bluesky": {
-        "posts": 30,
+        "posts": 31,
         "moyenne": 0
       }
     },
@@ -823,7 +823,7 @@
         "moyenne": 15
       },
       "card": {
-        "posts": 8,
+        "posts": 9,
         "moyenne": 0.1
       },
       "image": {
@@ -837,8 +837,8 @@
     },
     "parCreneau": {
       "matin": {
-        "posts": 63,
-        "moyenne": 7.1
+        "posts": 64,
+        "moyenne": 7
       },
       "après-midi": {
         "posts": 33,
@@ -884,7 +884,7 @@
       },
       "bluesky": {
         "8 h – 9 h 30": {
-          "posts": 17,
+          "posts": 18,
           "moyenne": 0.1
         },
         "hors créneau": {
@@ -937,29 +937,29 @@
       "creneauReseau": "7 h – 8 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36266",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36291",
       "channel": "bluesky",
-      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3n2w5glq6ne2d",
-      "publieLe": "2026-11-22T17:31:32.398Z",
+      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3n2xopquptb2u",
+      "publieLe": "2026-11-23T08:13:33.083Z",
       "format": "card",
       "jalon": 1,
-      "releveLe": "2026-11-23T18:02:57.697Z",
+      "releveLe": "2026-11-24T08:29:02.281Z",
       "likes": 0,
       "commentairesBruts": 0,
       "partages": 0,
       "vues": null,
       "commentaires": 0,
       "v": 2,
-      "titre": "Truffe du Périgord : la France en importe plus qu’elle n’en récolte",
-      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2w5glq6ne2d",
-      "mention": false,
-      "creneau": "soir",
-      "creneauReseau": "18 h – 19 h 30"
+      "titre": "Vignes bordelaises à vendre : l’auteur de Gomorra redoute l’argent des mafias",
+      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2xopquptb2u",
+      "mention": true,
+      "creneau": "matin",
+      "creneauReseau": "8 h – 9 h 30"
     },
     "mentions": {
       "avec": {
-        "posts": 50,
-        "moyenne": 6.1
+        "posts": 51,
+        "moyenne": 6
       },
       "sans": {
         "posts": 68,

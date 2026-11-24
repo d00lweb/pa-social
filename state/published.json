@@ -8530,5 +8530,59 @@
       "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/casseuil-maire-djibouti-indemnite-demission/",
       "sujet": "Casseuil"
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36305",
+    "channel": "x",
+    "at": "2026-11-24T14:21:33.465Z",
+    "mediaId": "kit-telegram",
+    "titre": "50 millions investis puis une fermeture : ce qui se joue vraiment dans cette verrerie de Vayres",
+    "lien": "https://passion-aquitaine.ouest-france.fr/verrerie-vayres-fermeture/",
+    "lienPost": null,
+    "format": "reponse",
+    "mention": false,
+    "apercu": {
+      "texte": "Des fours modernisés à coups de millions, bientôt éteints 🔥 À #Vayres, en Gironde, un projet d’arrêt définitif de la production est annoncé à la verrerie, qui avait reçu 50 millions d’euros en 2023.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261124-fe633aba-x.jpg",
+      "mode": "reponse",
+      "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/verrerie-vayres-fermeture/",
+      "sujet": null
+    }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36305",
+    "channel": "bluesky",
+    "at": "2026-11-24T14:30:51.067Z",
+    "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3n32ubdcs4l2g",
+    "titre": "50 millions investis puis une fermeture : ce qui se joue vraiment dans cette verrerie de Vayres",
+    "lien": "https://passion-aquitaine.ouest-france.fr/verrerie-vayres-fermeture/",
+    "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n32ubdcs4l2g",
+    "format": "card",
+    "mention": false,
+    "apercu": {
+      "texte": "Pour comprendre l’avenir industriel du territoire : à #Vayres, la verrerie fait l’objet d’un projet d’arrêt définitif de production, malgré 50 millions d’euros investis en 2023 🏭",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261124-fe633aba-bsky.jpg",
+      "mode": "card",
+      "reponse": null,
+      "sujet": null
+    }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36305",
+    "channel": "facebook",
+    "at": "2026-11-24T14:34:53.132Z",
+    "mediaId": "227437307428711_1801447981981082",
+    "titre": "50 millions investis puis une fermeture : ce qui se joue vraiment dans cette verrerie de Vayres",
+    "lien": "https://passion-aquitaine.ouest-france.fr/verrerie-vayres-fermeture/",
+    "lienPost": "https://www.facebook.com/1720946116697936/posts/1801447981981082",
+    "format": "lien",
+    "mention": false,
+    "apercu": {
+      "texte": "50 millions d’euros avaient été injectés dans cette verrerie girondine, et aujourd’hui on parle d’arrêter la production 🏭",
+      "image": null,
+      "mode": "lien",
+      "reponse": null,
+      "sujet": null
+    }
   }
 ]

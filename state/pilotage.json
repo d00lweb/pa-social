@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-24T14:00:52.846Z",
+  "genereLe": "2026-11-24T14:21:21.852Z",
   "jour": "2026-11-24",
   "reseaux": {
     "instagram": {
@@ -60,11 +60,11 @@
         "image",
         "reply"
       ],
-      "aujourdhui": 2,
-      "semaine": 14,
-      "total": 98,
-      "dernier": "2026-11-24T11:31:33.393Z",
-      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n32kaqak5522"
+      "aujourdhui": 3,
+      "semaine": 15,
+      "total": 99,
+      "dernier": "2026-11-24T14:30:51.067Z",
+      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n32ubdcs4l2g"
     },
     "facebook": {
       "actif": true,
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 1,
-      "semaine": 12,
-      "total": 93,
-      "dernier": "2026-11-24T07:08:51.095Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1801039145355299"
+      "aujourdhui": 2,
+      "semaine": 13,
+      "total": 94,
+      "dernier": "2026-11-24T14:34:53.132Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1801447981981082"
     },
     "threads": {
       "actif": true,
@@ -156,14 +156,46 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 2,
-      "semaine": 14,
-      "total": 98,
-      "dernier": "2026-11-24T11:00:58.229Z",
+      "aujourdhui": 3,
+      "semaine": 15,
+      "total": 99,
+      "dernier": "2026-11-24T14:21:33.465Z",
       "lienDernier": null
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36305",
+      "titre": "50 millions investis puis une fermeture : ce qui se joue vraiment dans cette verrerie de Vayres",
+      "lien": "https://passion-aquitaine.ouest-france.fr/verrerie-vayres-fermeture/",
+      "at": "2026-11-24T14:34:53.132Z",
+      "reseaux": {
+        "x": {
+          "texte": "Des fours modernisés à coups de millions, bientôt éteints 🔥 À #Vayres, en Gironde, un projet d’arrêt définitif de la production est annoncé à la verrerie, qui avait reçu 50 millions d’euros en 2023.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261124-fe633aba-x.jpg",
+          "mode": "reponse",
+          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/verrerie-vayres-fermeture/",
+          "sujet": null,
+          "publieLe": "2026-11-24T14:21:33.465Z"
+        },
+        "bluesky": {
+          "texte": "Pour comprendre l’avenir industriel du territoire : à #Vayres, la verrerie fait l’objet d’un projet d’arrêt définitif de production, malgré 50 millions d’euros investis en 2023 🏭",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261124-fe633aba-bsky.jpg",
+          "mode": "card",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-24T14:30:51.067Z"
+        },
+        "facebook": {
+          "texte": "50 millions d’euros avaient été injectés dans cette verrerie girondine, et aujourd’hui on parle d’arrêter la production 🏭",
+          "image": null,
+          "mode": "lien",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-24T14:34:53.132Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36315",
       "titre": "Installé à Djibouti, ce maire girondin touchait l’indemnité maximale autorisée",
@@ -347,57 +379,39 @@
           "publieLe": "2026-11-24T06:18:47.473Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36266",
-      "titre": "Truffe du Périgord : la France en importe plus qu’elle n’en récolte",
-      "lien": "https://passion-aquitaine.ouest-france.fr/truffe-perigord-france-importe-plus-recolte/",
-      "at": "2026-11-23T17:25:41.855Z",
-      "reseaux": {
-        "threads": {
-          "texte": "Imaginez un marché aux truffes du Périgord, le parfum qui monte des paniers… Sauf qu’une bonne part des truffes vendues en France n’a jamais poussé ici. Le pays en importe 127 tonnes, surtout d’Italie et de Bulgarie, pour seulement 75 tonnes récoltées. Un drôle de paradoxe pour une terre aussi attachée à son diamant noir 🌳",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261122-ecd6c5a6-th.jpg",
-          "mode": "reponse",
-          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/truffe-perigord-france-importe-plus-recolte/",
-          "sujet": "Périgord",
-          "publieLe": "2026-11-22T10:16:02.757Z"
-        },
-        "x": {
-          "texte": "🔍 Comment le pays de la truffe du #Périgord peut-il en importer plus qu’il n’en récolte ? 127 tonnes achetées, surtout en Italie et en Bulgarie, pour 75 tonnes produites en France.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261122-ecd6c5a6-x.jpg",
-          "mode": "reponse",
-          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/truffe-perigord-france-importe-plus-recolte/",
-          "sujet": null,
-          "publieLe": "2026-11-22T11:00:47.144Z"
-        },
-        "bluesky": {
-          "texte": "Le #Périgord a beau être sa terre d’élection, la France importe plus de truffes qu’elle n’en récolte ⚖️ 127 tonnes achetées, surtout en Italie et en Bulgarie, contre 75 tonnes sorties du sol français.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261122-ecd6c5a6-bsky.jpg",
-          "mode": "card",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-22T17:31:32.398Z"
-        },
-        "facebook": {
-          "texte": "Avant d’acheter votre truffe pour les fêtes, sachez qu’elle a de bonnes chances de venir d’Italie ou de Bulgarie 🇮🇹 🍄\nL’article est en premier commentaire.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261122-ecd6c5a6-fb.jpg",
-          "mode": "photo",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/truffe-perigord-france-importe-plus-recolte/?at_medium=social&at_campaign=fb-photo",
-          "sujet": null,
-          "publieLe": "2026-11-23T08:30:50.074Z"
-        },
-        "instagram": {
-          "texte": "🍄 127 tonnes importées, 75 récoltées : la France achète plus de truffes qu’elle n’en sort de terre\n⠀\nLe pays de la truffe du Périgord se fournit surtout en Italie et en Bulgarie. Un paradoxe qui interroge la filière en Dordogne.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Perigord #Truffe #Agriculture",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261122-ecd6c5a6-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-23T17:25:41.855Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "facebook",
+      "at": "2026-11-24T14:34:53.132Z",
+      "titre": "50 millions investis puis une fermeture : ce qui se joue vraiment dans cette verrerie de Vayres",
+      "lien": "https://passion-aquitaine.ouest-france.fr/verrerie-vayres-fermeture/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1801447981981082",
+      "format": "lien",
+      "texte": "50 millions d’euros avaient été injectés dans cette verrerie girondine, et aujourd’hui on parle d’arrêter la production 🏭",
+      "image": null
+    },
+    {
+      "channel": "bluesky",
+      "at": "2026-11-24T14:30:51.067Z",
+      "titre": "50 millions investis puis une fermeture : ce qui se joue vraiment dans cette verrerie de Vayres",
+      "lien": "https://passion-aquitaine.ouest-france.fr/verrerie-vayres-fermeture/",
+      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n32ubdcs4l2g",
+      "format": "card",
+      "texte": "Pour comprendre l’avenir industriel du territoire : à #Vayres, la verrerie fait l’objet d’un projet d’arrêt définitif de production, malgré 50 millions d’euros investis en 2023 🏭",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261124-fe633aba-bsky.jpg"
+    },
+    {
+      "channel": "x",
+      "at": "2026-11-24T14:21:33.465Z",
+      "titre": "50 millions investis puis une fermeture : ce qui se joue vraiment dans cette verrerie de Vayres",
+      "lien": "https://passion-aquitaine.ouest-france.fr/verrerie-vayres-fermeture/",
+      "lienPost": null,
+      "format": "reponse",
+      "texte": "Des fours modernisés à coups de millions, bientôt éteints 🔥 À #Vayres, en Gironde, un projet d’arrêt définitif de la production est annoncé à la verrerie, qui avait reçu 50 millions d’euros en 2023.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261124-fe633aba-x.jpg"
+    },
     {
       "channel": "threads",
       "at": "2026-11-24T13:08:26.141Z",
@@ -467,66 +481,9 @@
       "format": "image",
       "texte": "À #PerolsSurVezere, en #Corrèze, le TER ne s’arrête pas tout seul 🚉 Il faut lui faire signe pour monter. Avec 592 passages en 2025, soit moins de deux par jour, la halte vit au rythme de ses rares voyageurs.\n➡️ Lire l’article",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261124-0b305ed9-bsky.jpg"
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-11-24T07:08:51.095Z",
-      "titre": "Pont Rouchaud : le pont oublié où se touchent trois ex-régions",
-      "lien": "https://passion-aquitaine.ouest-france.fr/pont-rouchaud-trois-regions-nouvelle-aquitaine/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1801039145355299",
-      "format": "lien",
-      "texte": "Un pied en Charente, l’autre en Dordogne, la Haute-Vienne juste à côté : tout se joue sur ce pont de la Tardoire 🌉",
-      "image": null
-    },
-    {
-      "channel": "threads",
-      "at": "2026-11-24T06:18:47.473Z",
-      "titre": "Vautours d’Ossau : un bénévole de 89 ans fournit l’essentiel des données du Parc national",
-      "lien": "https://passion-aquitaine.ouest-france.fr/vautours-fauves-ossau-benevole-donnees/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/DgHScLuoE8A",
-      "format": "reponse",
-      "texte": "🏔️ Castet, vallée d’Ossau. Ici, les vautours fauves ont leur lecteur de bagues attitré : un bénévole de 89 ans. C’est lui qui fournit l’essentiel des données du Parc national sur ces grands rapaces. Et ses relevés tombent à point, à la fin du plan mené avec les éleveurs.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261123-30597995-th.jpg"
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-11-23T19:13:43.035Z",
-      "titre": "Vignes bordelaises à vendre : l’auteur de Gomorra redoute l’argent des mafias",
-      "lien": "https://passion-aquitaine.ouest-france.fr/vignoble-bordelais-mafias-saviano-gomorra/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1800498012076079",
-      "format": "photo",
-      "texte": "Derrière certaines ventes de vignes bordelaises, l’auteur de Gomorra soupçonne l’argent du crime organisé 📰\nL’article est en premier commentaire.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261122-94a71a8e-fb.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "x",
-      "dueAt": "2026-11-24T14:20:00.000Z",
-      "prochainPassage": "2026-11-24T14:20:00.000Z",
-      "nature": "actu_chaude",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "50 millions investis puis une fermeture : ce qui se joue vraiment dans cette verrerie de Vayres"
-    },
-    {
-      "channel": "bluesky",
-      "dueAt": "2026-11-24T14:30:48.728Z",
-      "prochainPassage": "2026-11-24T15:00:00.000Z",
-      "nature": "actu_chaude",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "50 millions investis puis une fermeture : ce qui se joue vraiment dans cette verrerie de Vayres"
-    },
-    {
-      "channel": "facebook",
-      "dueAt": "2026-11-24T14:34:37.789Z",
-      "prochainPassage": "2026-11-24T15:00:00.000Z",
-      "nature": "actu_chaude",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "50 millions investis puis une fermeture : ce qui se joue vraiment dans cette verrerie de Vayres"
-    },
     {
       "channel": "instagram",
       "dueAt": "2026-11-24T15:05:07.870Z",
@@ -757,7 +714,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-24T13:20:35.648Z"
+    "derniere": "2026-11-24T14:21:21.852Z"
   },
   "abonnes": {
     "instagram": {
@@ -796,7 +753,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-24T14:01:25.460Z",
+    "genereLe": "2026-11-24T14:34:56.077Z",
     "posts": 123,
     "parReseau": {
       "threads": {
@@ -967,9 +924,9 @@
     },
     "publies": {
       "threads": 35,
-      "facebook": 33,
-      "bluesky": 35,
-      "x": 35,
+      "facebook": 34,
+      "bluesky": 36,
+      "x": 36,
       "instagram": 31
     },
     "abonnes": {

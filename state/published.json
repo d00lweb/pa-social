@@ -8422,5 +8422,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36283",
+    "channel": "x",
+    "at": "2026-11-24T09:21:24.652Z",
+    "mediaId": "kit-telegram",
+    "titre": "Dans cette gare de Corrèze, il faut héler le train pour monter",
+    "lien": "https://passion-aquitaine.ouest-france.fr/gare-perols-vezere-arret-demande-voyageurs/",
+    "lienPost": null,
+    "format": "reponse",
+    "mention": false,
+    "apercu": {
+      "texte": "Pour monter dans le TER à Pérols-sur-Vézère, en #Corrèze, un geste suffit : faire signe au train, sinon il ne s’arrête pas. Moins de deux passages par jour ici 🙋",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261124-0b305ed9-x.jpg",
+      "mode": "reponse",
+      "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/gare-perols-vezere-arret-demande-voyageurs/",
+      "sujet": null
+    }
   }
 ]

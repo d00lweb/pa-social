@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-24T12:19:18.726Z",
+  "genereLe": "2026-11-24T12:20:45.811Z",
   "jour": "2026-11-24",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 9,
-      "total": 95,
-      "dernier": "2026-11-23T17:25:41.855Z",
-      "lienDernier": "https://www.instagram.com/p/DgF6XDfDtC4/"
+      "aujourdhui": 1,
+      "semaine": 10,
+      "total": 96,
+      "dernier": "2026-11-24T12:30:16.143Z",
+      "lienDernier": "https://www.instagram.com/p/DgH9WvhmHVG/"
     },
     "bluesky": {
       "actif": true,
@@ -165,6 +165,54 @@
   },
   "articles": [
     {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36291",
+      "titre": "Vignes bordelaises à vendre : l’auteur de Gomorra redoute l’argent des mafias",
+      "lien": "https://passion-aquitaine.ouest-france.fr/vignoble-bordelais-mafias-saviano-gomorra/",
+      "at": "2026-11-24T12:30:16.143Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Qui achète vraiment les vignes bordelaises mises en vente ? L’auteur de Gomorra pose la question sans détour ℹ️ En 2024, neuf châteaux du vignoble ont été confisqués pour blanchiment, et il y soupçonne l’appétit des mafias.\n@villedebordeaux",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261122-94a71a8e-th.jpg",
+          "mode": "reponse",
+          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/vignoble-bordelais-mafias-saviano-gomorra/",
+          "sujet": "Bordeaux",
+          "publieLe": "2026-11-23T07:12:24.648Z"
+        },
+        "bluesky": {
+          "texte": "Des rangs de vignes à vendre, et dans l’ombre, l’argent sale 🗞️ Autour de #Bordeaux, neuf châteaux ont été confisqués pour blanchiment en 2024, et l’auteur de Gomorra redoute l’appétit des mafias.\n@villedebordeaux.bsky.social",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261122-94a71a8e-bsky.jpg",
+          "mode": "card",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-23T08:13:33.083Z"
+        },
+        "x": {
+          "texte": "Neuf châteaux du vignoble bordelais confisqués pour blanchiment en 2024. L’auteur de Gomorra redoute que l’argent des mafias lorgne sur les vignes à vendre 📍",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261122-94a71a8e-x.jpg",
+          "mode": "reponse",
+          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/vignoble-bordelais-mafias-saviano-gomorra/",
+          "sujet": null,
+          "publieLe": "2026-11-23T09:22:32.753Z"
+        },
+        "facebook": {
+          "texte": "Derrière certaines ventes de vignes bordelaises, l’auteur de Gomorra soupçonne l’argent du crime organisé 📰\nL’article est en premier commentaire.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261122-94a71a8e-fb.jpg",
+          "mode": "photo",
+          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/vignoble-bordelais-mafias-saviano-gomorra/?at_medium=social&at_campaign=fb-photo",
+          "sujet": null,
+          "publieLe": "2026-11-23T19:13:43.035Z"
+        },
+        "instagram": {
+          "texte": "Neuf châteaux du vignoble bordelais confisqués pour blanchiment en une seule année\n⠀\nL’auteur de Gomorra alerte sur l’argent des mafias qui pourrait s’intéresser aux vignes à vendre autour de Bordeaux. Un éclairage utile pour comprendre ce qui se joue derrière les ventes de domaines en Gironde 📰\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #VignobleBordelais #Vin",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261122-94a71a8e-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-24T12:30:16.143Z"
+        }
+      }
+    },
+    {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36315",
       "titre": "Installé à Djibouti, ce maire girondin touchait l’indemnité maximale autorisée",
       "lien": "https://passion-aquitaine.ouest-france.fr/casseuil-maire-djibouti-indemnite-demission/",
@@ -293,46 +341,6 @@
       }
     },
     {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36291",
-      "titre": "Vignes bordelaises à vendre : l’auteur de Gomorra redoute l’argent des mafias",
-      "lien": "https://passion-aquitaine.ouest-france.fr/vignoble-bordelais-mafias-saviano-gomorra/",
-      "at": "2026-11-23T19:13:43.035Z",
-      "reseaux": {
-        "threads": {
-          "texte": "Qui achète vraiment les vignes bordelaises mises en vente ? L’auteur de Gomorra pose la question sans détour ℹ️ En 2024, neuf châteaux du vignoble ont été confisqués pour blanchiment, et il y soupçonne l’appétit des mafias.\n@villedebordeaux",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261122-94a71a8e-th.jpg",
-          "mode": "reponse",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/vignoble-bordelais-mafias-saviano-gomorra/",
-          "sujet": "Bordeaux",
-          "publieLe": "2026-11-23T07:12:24.648Z"
-        },
-        "bluesky": {
-          "texte": "Des rangs de vignes à vendre, et dans l’ombre, l’argent sale 🗞️ Autour de #Bordeaux, neuf châteaux ont été confisqués pour blanchiment en 2024, et l’auteur de Gomorra redoute l’appétit des mafias.\n@villedebordeaux.bsky.social",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261122-94a71a8e-bsky.jpg",
-          "mode": "card",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-23T08:13:33.083Z"
-        },
-        "x": {
-          "texte": "Neuf châteaux du vignoble bordelais confisqués pour blanchiment en 2024. L’auteur de Gomorra redoute que l’argent des mafias lorgne sur les vignes à vendre 📍",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261122-94a71a8e-x.jpg",
-          "mode": "reponse",
-          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/vignoble-bordelais-mafias-saviano-gomorra/",
-          "sujet": null,
-          "publieLe": "2026-11-23T09:22:32.753Z"
-        },
-        "facebook": {
-          "texte": "Derrière certaines ventes de vignes bordelaises, l’auteur de Gomorra soupçonne l’argent du crime organisé 📰\nL’article est en premier commentaire.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261122-94a71a8e-fb.jpg",
-          "mode": "photo",
-          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/vignoble-bordelais-mafias-saviano-gomorra/?at_medium=social&at_campaign=fb-photo",
-          "sujet": null,
-          "publieLe": "2026-11-23T19:13:43.035Z"
-        }
-      }
-    },
-    {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36266",
       "titre": "Truffe du Périgord : la France en importe plus qu’elle n’en récolte",
       "lien": "https://passion-aquitaine.ouest-france.fr/truffe-perigord-france-importe-plus-recolte/",
@@ -382,6 +390,16 @@
     }
   ],
   "publications": [
+    {
+      "channel": "instagram",
+      "at": "2026-11-24T12:30:16.143Z",
+      "titre": "Vignes bordelaises à vendre : l’auteur de Gomorra redoute l’argent des mafias",
+      "lien": "https://passion-aquitaine.ouest-france.fr/vignoble-bordelais-mafias-saviano-gomorra/",
+      "lienPost": "https://www.instagram.com/p/DgH9WvhmHVG/",
+      "format": null,
+      "texte": "Neuf châteaux du vignoble bordelais confisqués pour blanchiment en une seule année\n⠀\nL’auteur de Gomorra alerte sur l’argent des mafias qui pourrait s’intéresser aux vignes à vendre autour de Bordeaux. Un éclairage utile pour comprendre ce qui se joue derrière les ventes de domaines en Gironde 📰\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #VignobleBordelais #Vin",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261122-94a71a8e-1.jpg"
+    },
     {
       "channel": "bluesky",
       "at": "2026-11-24T11:31:33.393Z",
@@ -471,28 +489,9 @@
       "format": "reply",
       "texte": "89 ans, et l’essentiel des données du Parc national sur les vautours d’Ossau. En #Béarn, à #Castet, un bénévole relève les bagues des vautours fauves, alors que s’achève le plan conduit avec les éleveurs 🦅",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261123-30597995-bsky.jpg"
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-11-23T17:25:41.855Z",
-      "titre": "Truffe du Périgord : la France en importe plus qu’elle n’en récolte",
-      "lien": "https://passion-aquitaine.ouest-france.fr/truffe-perigord-france-importe-plus-recolte/",
-      "lienPost": "https://www.instagram.com/p/DgF6XDfDtC4/",
-      "format": null,
-      "texte": "🍄 127 tonnes importées, 75 récoltées : la France achète plus de truffes qu’elle n’en sort de terre\n⠀\nLe pays de la truffe du Périgord se fournit surtout en Italie et en Bulgarie. Un paradoxe qui interroge la filière en Dordogne.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Perigord #Truffe #Agriculture",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261122-ecd6c5a6-1.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "instagram",
-      "dueAt": "2026-11-24T12:29:40.160Z",
-      "prochainPassage": "2026-11-24T13:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Vignes bordelaises à vendre : l’auteur de Gomorra redoute l’argent des mafias"
-    },
     {
       "channel": "threads",
       "dueAt": "2026-11-24T13:05:53.767Z",
@@ -753,7 +752,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-24T12:19:25.631Z",
+    "genereLe": "2026-11-24T12:30:18.012Z",
     "posts": 123,
     "parReseau": {
       "threads": {
@@ -927,7 +926,7 @@
       "facebook": 33,
       "bluesky": 35,
       "x": 35,
-      "instagram": 30
+      "instagram": 31
     },
     "abonnes": {
       "instagram": {

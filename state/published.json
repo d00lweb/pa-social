@@ -8458,5 +8458,23 @@
       "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/gare-perols-vezere-arret-demande-voyageurs/",
       "sujet": "Pérols-sur-Vézère"
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36315",
+    "channel": "x",
+    "at": "2026-11-24T11:00:58.229Z",
+    "mediaId": "kit-telegram",
+    "titre": "Installé à Djibouti, ce maire girondin touchait l’indemnité maximale autorisée",
+    "lien": "https://passion-aquitaine.ouest-france.fr/casseuil-maire-djibouti-indemnite-demission/",
+    "lienPost": null,
+    "format": "reponse",
+    "mention": true,
+    "apercu": {
+      "texte": "#Casseuil, Gironde : impossible de démettre un maire absent. Installé à Djibouti, l’élu touchait le plafond légal, et ni le conseil ni le sous-préfet n’avaient ce ⚖️ pouvoir.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261124-16415a20-x.jpg",
+      "mode": "reponse",
+      "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/casseuil-maire-djibouti-indemnite-demission/",
+      "sujet": null
+    }
   }
 ]

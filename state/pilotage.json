@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-24T10:21:10.878Z",
+  "genereLe": "2026-11-24T11:00:47.605Z",
   "jour": "2026-11-24",
   "reseaux": {
     "instagram": {
@@ -156,14 +156,30 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 1,
-      "semaine": 13,
-      "total": 97,
-      "dernier": "2026-11-24T09:21:24.652Z",
+      "aujourdhui": 2,
+      "semaine": 14,
+      "total": 98,
+      "dernier": "2026-11-24T11:00:58.229Z",
       "lienDernier": null
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36315",
+      "titre": "Installé à Djibouti, ce maire girondin touchait l’indemnité maximale autorisée",
+      "lien": "https://passion-aquitaine.ouest-france.fr/casseuil-maire-djibouti-indemnite-demission/",
+      "at": "2026-11-24T11:00:58.229Z",
+      "reseaux": {
+        "x": {
+          "texte": "#Casseuil, Gironde : impossible de démettre un maire absent. Installé à Djibouti, l’élu touchait le plafond légal, et ni le conseil ni le sous-préfet n’avaient ce ⚖️ pouvoir.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261124-16415a20-x.jpg",
+          "mode": "reponse",
+          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/casseuil-maire-djibouti-indemnite-demission/",
+          "sujet": null,
+          "publieLe": "2026-11-24T11:00:58.229Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36283",
       "titre": "Dans cette gare de Corrèze, il faut héler le train pour monter",
@@ -355,57 +371,19 @@
           "publieLe": "2026-11-23T17:25:41.855Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36276",
-      "titre": "Quand la Gironde arrache des vignes, ce grand cru de Saint-Émilion augmente son prix",
-      "lien": "https://passion-aquitaine.ouest-france.fr/saint-emilion-grand-cru-prix-crise/",
-      "at": "2026-11-23T12:08:40.971Z",
-      "reseaux": {
-        "threads": {
-          "texte": "📈 Le prix d’un vin en primeur dit beaucoup de l’état du vignoble. À Saint-Émilion, le Château de Pressac vend son 2025 à 29,70 euros, en hausse. Dans le même temps, la Gironde arrache des vignes et certains vignerons bordelais touchent moins d’un euro la bouteille. Le même terroir, deux mondes. Vous aviez conscience d’un tel écart ?",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261121-62194883-th.jpg",
-          "mode": "reponse",
-          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/saint-emilion-grand-cru-prix-crise/",
-          "sujet": "Saint-Émilion",
-          "publieLe": "2026-11-22T06:27:42.498Z"
-        },
-        "x": {
-          "texte": "D’un côté, des vignes arrachées en Gironde 🚜 De l’autre, un grand cru de Saint-Émilion, le Château de Pressac, qui vend son 2025 à 29,70 euros en primeur, quand des vignerons bordelais touchent moins d’un euro la bouteille.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261121-62194883-x.jpg",
-          "mode": "reponse",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/saint-emilion-grand-cru-prix-crise/",
-          "sujet": null,
-          "publieLe": "2026-11-22T09:21:18.358Z"
-        },
-        "bluesky": {
-          "texte": "Deux réalités du vignoble girondin : à #SaintEmilion, le Château de Pressac affiche son #vin 2025 à 29,70 euros en primeur, tandis que des vignerons bordelais vendent leur bouteille sous un euro. De quoi mieux comprendre ce que l’on paie 💶",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261121-62194883-bsky.jpg",
-          "mode": "reply",
-          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/saint-emilion-grand-cru-prix-crise/",
-          "sujet": null,
-          "publieLe": "2026-11-22T11:09:34.524Z"
-        },
-        "facebook": {
-          "texte": "Moins d’un euro la bouteille pour certains vignerons bordelais, 29,70 euros en primeur pour ce grand cru voisin 🍷",
-          "image": null,
-          "mode": "lien",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-22T20:23:09.240Z"
-        },
-        "instagram": {
-          "texte": "À Saint-Émilion, un grand cru fait monter son prix pendant que la Gironde arrache des vignes 🍇\n⠀\nLe Château de Pressac propose son millésime 2025 à 29,70 euros en primeur. Ailleurs dans le Bordelais, des vignerons touchent moins d’un euro la bouteille.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#SaintEmilion #VinDeBordeaux #Viticulture",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261121-62194883-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-23T12:08:40.971Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "x",
+      "at": "2026-11-24T11:00:58.229Z",
+      "titre": "Installé à Djibouti, ce maire girondin touchait l’indemnité maximale autorisée",
+      "lien": "https://passion-aquitaine.ouest-france.fr/casseuil-maire-djibouti-indemnite-demission/",
+      "lienPost": null,
+      "format": "reponse",
+      "texte": "#Casseuil, Gironde : impossible de démettre un maire absent. Installé à Djibouti, l’élu touchait le plafond légal, et ni le conseil ni le sous-préfet n’avaient ce ⚖️ pouvoir.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261124-16415a20-x.jpg"
+    },
     {
       "channel": "threads",
       "at": "2026-11-24T10:32:42.583Z",
@@ -495,28 +473,9 @@
       "format": "reponse",
       "texte": "Le meilleur informateur du Parc national sur les vautours d’Ossau a 89 ans 🦅 Bénévole à #Castet, il lit leurs bagues et fournit l’essentiel des données.",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261123-30597995-x.jpg"
-    },
-    {
-      "channel": "x",
-      "at": "2026-11-23T12:23:20.615Z",
-      "titre": "Pont Rouchaud : le pont oublié où se touchent trois ex-régions",
-      "lien": "https://passion-aquitaine.ouest-france.fr/pont-rouchaud-trois-regions-nouvelle-aquitaine/",
-      "lienPost": null,
-      "format": "reponse",
-      "texte": "Sur la Tardoire, le pont Rouchaud cache un secret géographique : 📌 #Charente, Dordogne et Haute-Vienne s’y touchent. C’est le centre symbolique de la plus vaste région de France.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261123-965863c4-x.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "x",
-      "dueAt": "2026-11-24T11:00:00.000Z",
-      "prochainPassage": "2026-11-24T11:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Installé à Djibouti, ce maire girondin touchait l’indemnité maximale autorisée"
-    },
     {
       "channel": "bluesky",
       "dueAt": "2026-11-24T11:31:31.485Z",
@@ -756,7 +715,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-24T10:00:41.975Z"
+    "derniere": "2026-11-24T11:00:47.605Z"
   },
   "abonnes": {
     "instagram": {
@@ -795,7 +754,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-24T10:32:44.826Z",
+    "genereLe": "2026-11-24T11:01:08.309Z",
     "posts": 121,
     "parReseau": {
       "threads": {
@@ -971,7 +930,7 @@
       "threads": 34,
       "facebook": 33,
       "bluesky": 34,
-      "x": 34,
+      "x": 35,
       "instagram": 30
     },
     "abonnes": {

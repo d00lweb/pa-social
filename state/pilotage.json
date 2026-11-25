@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-25T05:20:40.233Z",
+  "genereLe": "2026-11-25T06:00:41.481Z",
   "jour": "2026-11-25",
   "reseaux": {
     "instagram": {
@@ -122,11 +122,11 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 14,
-      "total": 95,
-      "dernier": "2026-11-24T13:08:26.141Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DgIBdjXG8sD"
+      "aujourdhui": 1,
+      "semaine": 15,
+      "total": 96,
+      "dernier": "2026-11-25T06:11:28.753Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DgJ2gAOjiIY"
     },
     "x": {
       "actif": true,
@@ -168,7 +168,7 @@
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36305",
       "titre": "50 millions investis puis une fermeture : ce qui se joue vraiment dans cette verrerie de Vayres",
       "lien": "https://passion-aquitaine.ouest-france.fr/verrerie-vayres-fermeture/",
-      "at": "2026-11-24T15:05:38.162Z",
+      "at": "2026-11-25T06:11:28.753Z",
       "reseaux": {
         "x": {
           "texte": "Des fours modernisés à coups de millions, bientôt éteints 🔥 À #Vayres, en Gironde, un projet d’arrêt définitif de la production est annoncé à la verrerie, qui avait reçu 50 millions d’euros en 2023.",
@@ -201,6 +201,14 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-11-24T15:05:38.162Z"
+        },
+        "threads": {
+          "texte": "🔥 Le détail qui interroge : en 2023, la verrerie de Vayres avait reçu 50 millions d’euros d’investissement. Aujourd’hui, c’est un projet d’arrêt définitif de la production qui est annoncé. Comment une usine passe-t-elle d’un tel pari sur l’avenir à une menace de fermeture ?",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261124-fe633aba-th.jpg",
+          "mode": "reponse",
+          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/verrerie-vayres-fermeture/",
+          "sujet": "Vayres",
+          "publieLe": "2026-11-25T06:11:28.753Z"
         }
       }
     },
@@ -391,6 +399,16 @@
   ],
   "publications": [
     {
+      "channel": "threads",
+      "at": "2026-11-25T06:11:28.753Z",
+      "titre": "50 millions investis puis une fermeture : ce qui se joue vraiment dans cette verrerie de Vayres",
+      "lien": "https://passion-aquitaine.ouest-france.fr/verrerie-vayres-fermeture/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/DgJ2gAOjiIY",
+      "format": "reponse",
+      "texte": "🔥 Le détail qui interroge : en 2023, la verrerie de Vayres avait reçu 50 millions d’euros d’investissement. Aujourd’hui, c’est un projet d’arrêt définitif de la production qui est annoncé. Comment une usine passe-t-elle d’un tel pari sur l’avenir à une menace de fermeture ?",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261124-fe633aba-th.jpg"
+    },
+    {
       "channel": "instagram",
       "at": "2026-11-24T15:05:38.162Z",
       "titre": "50 millions investis puis une fermeture : ce qui se joue vraiment dans cette verrerie de Vayres",
@@ -479,28 +497,9 @@
       "format": "reponse",
       "texte": "Imaginez un train qui file sans s’arrêter si vous ne lui faites pas signe. C’est la règle à Pérols-sur-Vézère, en Corrèze : 🚦 le TER ne marque l’arrêt que si on le hèle. En 2025, la gare a compté 592 passages, moins de deux par jour.",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261124-0b305ed9-th.jpg"
-    },
-    {
-      "channel": "x",
-      "at": "2026-11-24T09:21:24.652Z",
-      "titre": "Dans cette gare de Corrèze, il faut héler le train pour monter",
-      "lien": "https://passion-aquitaine.ouest-france.fr/gare-perols-vezere-arret-demande-voyageurs/",
-      "lienPost": null,
-      "format": "reponse",
-      "texte": "Pour monter dans le TER à Pérols-sur-Vézère, en #Corrèze, un geste suffit : faire signe au train, sinon il ne s’arrête pas. Moins de deux passages par jour ici 🙋",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261124-0b305ed9-x.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "threads",
-      "dueAt": "2026-11-25T06:08:34.543Z",
-      "prochainPassage": "2026-11-25T06:20:00.000Z",
-      "nature": "actu_chaude",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "50 millions investis puis une fermeture : ce qui se joue vraiment dans cette verrerie de Vayres"
-    },
     {
       "channel": "facebook",
       "dueAt": "2026-11-25T07:11:57.580Z",
@@ -713,7 +712,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-25T05:00:40.814Z"
+    "derniere": "2026-11-25T06:00:41.481Z"
   },
   "abonnes": {
     "instagram": {
@@ -752,7 +751,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-25T05:20:44.195Z",
+    "genereLe": "2026-11-25T06:11:34.852Z",
     "posts": 126,
     "parReseau": {
       "threads": {
@@ -922,7 +921,7 @@
       }
     },
     "publies": {
-      "threads": 35,
+      "threads": 36,
       "facebook": 34,
       "bluesky": 36,
       "x": 36,

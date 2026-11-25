@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-25T06:20:41.874Z",
+  "genereLe": "2026-11-25T07:00:36.737Z",
   "jour": "2026-11-25",
   "reseaux": {
     "instagram": {
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 13,
-      "total": 94,
-      "dernier": "2026-11-24T14:34:53.132Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1801447981981082"
+      "aujourdhui": 1,
+      "semaine": 14,
+      "total": 95,
+      "dernier": "2026-11-25T07:14:55.149Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1802290578563489"
     },
     "threads": {
       "actif": true,
@@ -164,6 +164,46 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36295",
+      "titre": "Vautours d’Ossau : un bénévole de 89 ans fournit l’essentiel des données du Parc national",
+      "lien": "https://passion-aquitaine.ouest-france.fr/vautours-fauves-ossau-benevole-donnees/",
+      "at": "2026-11-25T07:14:55.149Z",
+      "reseaux": {
+        "x": {
+          "texte": "Le meilleur informateur du Parc national sur les vautours d’Ossau a 89 ans 🦅 Bénévole à #Castet, il lit leurs bagues et fournit l’essentiel des données.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261123-30597995-x.jpg",
+          "mode": "reponse",
+          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/vautours-fauves-ossau-benevole-donnees/",
+          "sujet": null,
+          "publieLe": "2026-11-23T15:00:59.005Z"
+        },
+        "bluesky": {
+          "texte": "89 ans, et l’essentiel des données du Parc national sur les vautours d’Ossau. En #Béarn, à #Castet, un bénévole relève les bagues des vautours fauves, alors que s’achève le plan conduit avec les éleveurs 🦅",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261123-30597995-bsky.jpg",
+          "mode": "reply",
+          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/vautours-fauves-ossau-benevole-donnees/",
+          "sujet": null,
+          "publieLe": "2026-11-23T18:03:53.916Z"
+        },
+        "threads": {
+          "texte": "🏔️ Castet, vallée d’Ossau. Ici, les vautours fauves ont leur lecteur de bagues attitré : un bénévole de 89 ans. C’est lui qui fournit l’essentiel des données du Parc national sur ces grands rapaces. Et ses relevés tombent à point, à la fin du plan mené avec les éleveurs.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261123-30597995-th.jpg",
+          "mode": "reponse",
+          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/vautours-fauves-ossau-benevole-donnees/",
+          "sujet": "Castet",
+          "publieLe": "2026-11-24T06:18:47.473Z"
+        },
+        "facebook": {
+          "texte": "À 89 ans, il lit à lui seul les bagues des vautours de Castet, et le Parc national compte sur ses relevés : vous l’imaginiez 🔭\nL’article est en premier commentaire.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261123-30597995-fb.jpg",
+          "mode": "photo",
+          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/vautours-fauves-ossau-benevole-donnees/?at_medium=social&at_campaign=fb-photo",
+          "sujet": null,
+          "publieLe": "2026-11-25T07:14:55.149Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36305",
       "titre": "50 millions investis puis une fermeture : ce qui se joue vraiment dans cette verrerie de Vayres",
@@ -363,41 +403,19 @@
           "publieLe": "2026-11-24T07:08:51.095Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36295",
-      "titre": "Vautours d’Ossau : un bénévole de 89 ans fournit l’essentiel des données du Parc national",
-      "lien": "https://passion-aquitaine.ouest-france.fr/vautours-fauves-ossau-benevole-donnees/",
-      "at": "2026-11-24T06:18:47.473Z",
-      "reseaux": {
-        "x": {
-          "texte": "Le meilleur informateur du Parc national sur les vautours d’Ossau a 89 ans 🦅 Bénévole à #Castet, il lit leurs bagues et fournit l’essentiel des données.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261123-30597995-x.jpg",
-          "mode": "reponse",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/vautours-fauves-ossau-benevole-donnees/",
-          "sujet": null,
-          "publieLe": "2026-11-23T15:00:59.005Z"
-        },
-        "bluesky": {
-          "texte": "89 ans, et l’essentiel des données du Parc national sur les vautours d’Ossau. En #Béarn, à #Castet, un bénévole relève les bagues des vautours fauves, alors que s’achève le plan conduit avec les éleveurs 🦅",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261123-30597995-bsky.jpg",
-          "mode": "reply",
-          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/vautours-fauves-ossau-benevole-donnees/",
-          "sujet": null,
-          "publieLe": "2026-11-23T18:03:53.916Z"
-        },
-        "threads": {
-          "texte": "🏔️ Castet, vallée d’Ossau. Ici, les vautours fauves ont leur lecteur de bagues attitré : un bénévole de 89 ans. C’est lui qui fournit l’essentiel des données du Parc national sur ces grands rapaces. Et ses relevés tombent à point, à la fin du plan mené avec les éleveurs.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261123-30597995-th.jpg",
-          "mode": "reponse",
-          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/vautours-fauves-ossau-benevole-donnees/",
-          "sujet": "Castet",
-          "publieLe": "2026-11-24T06:18:47.473Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "facebook",
+      "at": "2026-11-25T07:14:55.149Z",
+      "titre": "Vautours d’Ossau : un bénévole de 89 ans fournit l’essentiel des données du Parc national",
+      "lien": "https://passion-aquitaine.ouest-france.fr/vautours-fauves-ossau-benevole-donnees/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1802290578563489",
+      "format": "photo",
+      "texte": "À 89 ans, il lit à lui seul les bagues des vautours de Castet, et le Parc national compte sur ses relevés : vous l’imaginiez 🔭\nL’article est en premier commentaire.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261123-30597995-fb.jpg"
+    },
     {
       "channel": "threads",
       "at": "2026-11-25T06:11:28.753Z",
@@ -487,27 +505,35 @@
       "format": "reponse",
       "texte": "#Casseuil, Gironde : impossible de démettre un maire absent. Installé à Djibouti, l’élu touchait le plafond légal, et ni le conseil ni le sous-préfet n’avaient ce ⚖️ pouvoir.",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261124-16415a20-x.jpg"
-    },
-    {
-      "channel": "threads",
-      "at": "2026-11-24T10:32:42.583Z",
-      "titre": "Dans cette gare de Corrèze, il faut héler le train pour monter",
-      "lien": "https://passion-aquitaine.ouest-france.fr/gare-perols-vezere-arret-demande-voyageurs/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/DgHvj45m0iD",
-      "format": "reponse",
-      "texte": "Imaginez un train qui file sans s’arrêter si vous ne lui faites pas signe. C’est la règle à Pérols-sur-Vézère, en Corrèze : 🚦 le TER ne marque l’arrêt que si on le hèle. En 2025, la gare a compté 592 passages, moins de deux par jour.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261124-0b305ed9-th.jpg"
     }
   ],
   "file": [
     {
-      "channel": "facebook",
-      "dueAt": "2026-11-25T07:11:57.580Z",
-      "prochainPassage": "2026-11-25T07:20:00.000Z",
+      "channel": "bluesky",
+      "dueAt": "2026-11-25T08:29:52.176Z",
+      "prochainPassage": "2026-11-25T09:00:00.000Z",
       "nature": "evergreen",
-      "prevuInitialement": "2026-11-24T19:32:43.248Z",
-      "raison": "le nombre de posts du jour était atteint",
-      "titre": "Vautours d’Ossau : un bénévole de 89 ans fournit l’essentiel des données du Parc national"
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Café céramique à Bordeaux : ici, la tasse ne sert pas à boire"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-11-25T09:00:00.000Z",
+      "prochainPassage": "2026-11-25T09:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Café céramique à Bordeaux : ici, la tasse ne sert pas à boire"
+    },
+    {
+      "channel": "threads",
+      "dueAt": "2026-11-25T10:14:36.713Z",
+      "prochainPassage": "2026-11-25T10:20:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Café céramique à Bordeaux : ici, la tasse ne sert pas à boire"
     },
     {
       "channel": "instagram",
@@ -562,6 +588,24 @@
       "prevuInitialement": "2026-11-26T12:25:53.585Z",
       "raison": "un autre post occupait déjà ce créneau",
       "titre": "Installé à Djibouti, ce maire girondin touchait l’indemnité maximale autorisée"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-11-26T19:27:33.900Z",
+      "prochainPassage": "2026-11-26T20:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Café céramique à Bordeaux : ici, la tasse ne sert pas à boire"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-11-27T11:06:55.624Z",
+      "prochainPassage": "2026-11-27T11:20:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Café céramique à Bordeaux : ici, la tasse ne sert pas à boire"
     }
   ],
   "alertes": [
@@ -751,7 +795,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-25T06:20:47.727Z",
+    "genereLe": "2026-11-25T07:14:57.282Z",
     "posts": 127,
     "parReseau": {
       "threads": {
@@ -922,7 +966,7 @@
     },
     "publies": {
       "threads": 36,
-      "facebook": 34,
+      "facebook": 35,
       "bluesky": 36,
       "x": 36,
       "instagram": 32
@@ -976,29 +1020,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 0,
-      "entree": 0,
-      "sortie": 0,
-      "cout": 0,
+      "appels": 1,
+      "entree": 8036,
+      "sortie": 896,
+      "cout": 0.050064,
       "cle": "2026-11-25"
     },
     "semaine": {
-      "appels": 22,
-      "entree": 176603,
-      "sortie": 21779,
-      "cout": 1.141992
+      "appels": 23,
+      "entree": 184639,
+      "sortie": 22675,
+      "cout": 1.192056
     },
     "mois": {
-      "appels": 86,
-      "entree": 688661,
-      "sortie": 78607,
-      "cout": 4.326783999999999,
+      "appels": 87,
+      "entree": 696697,
+      "sortie": 79503,
+      "cout": 4.376847999999999,
       "cle": "2026-11"
     },
-    "projection": 5.19,
+    "projection": 5.25,
     "moyenneAppel": 0.0503,
     "parModele": {
-      "claude-opus-5-5": 86
+      "claude-opus-5-5": 87
     },
     "serie": [
       [
@@ -1055,7 +1099,7 @@
       ],
       [
         "2026-11-25",
-        0
+        0.0501
       ]
     ],
     "depuis": "2026-09-23"

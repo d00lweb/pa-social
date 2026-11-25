@@ -654,132 +654,6 @@
     "raison": "un autre post occupait déjà ce créneau"
   },
   {
-    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36295",
-    "channel": "facebook",
-    "dueAt": 1795590717580,
-    "status": "pending",
-    "attempts": 0,
-    "article": {
-      "title": "Vautours d’Ossau : un bénévole de 89 ans fournit l’essentiel des données du Parc national",
-      "link": "https://passion-aquitaine.ouest-france.fr/vautours-fauves-ossau-benevole-donnees/",
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36295",
-      "pubDate": "Mon, 23 Nov 2026 13:03:55 +0000",
-      "date": 1795439035000,
-      "categories": [
-        "Actus",
-        "Béarn",
-        "Nature",
-        "Pyrénées",
-        "Pyrénées-Atlantiques"
-      ],
-      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/vautour-fauve-vol-ossau.jpg",
-      "description": "À Castet, les vautours fauves ont leur lecteur de bagues : un bénévole de 89 ans. Ce que ses relevés disent au Parc, à la fin du plan avec les éleveurs."
-    },
-    "dossier": {
-      "nature": "evergreen",
-      "sensible": false,
-      "rubrique": "Béarn",
-      "visuel": {
-        "titre": "Vautours d’Ossau : un bénévole de 89 ans fournit l’essentiel des données du Parc national",
-        "surlignage": "89 ans",
-        "description": "À Castet, il lit les bagues des vautours fauves. Ses relevés éclairent le Parc national, au moment où s’achève le plan mené avec les éleveurs.",
-        "texte_alternatif": "Des vautours fauves de la vallée d’Ossau, en Béarn, suivis à Castet par un bénévole de 89 ans qui relève leurs bagues pour le Parc national."
-      },
-      "entites": [
-        {
-          "nom": "Parc national des Pyrénées",
-          "role": "acteur",
-          "type": "organisation"
-        }
-      ],
-      "domaines": [
-        "ornithologie",
-        "biodiversité"
-      ],
-      "lieu": null,
-      "instagram": {
-        "texte": "Au-dessus de Castet, les vautours fauves planent, et un homme de 89 ans lit leurs bagues 🦅\nEn vallée d’Ossau, ce bénévole fournit l’essentiel des données du Parc national. Ses relevés comptent au moment du bilan du plan avec les éleveurs.",
-        "hashtags": [
-          "#Béarn",
-          "#VautourFauve",
-          "#ValléeDOssau"
-        ]
-      },
-      "facebook": {
-        "texte": "À 89 ans, il lit à lui seul les bagues des vautours de Castet, et le Parc national compte sur ses relevés : vous l’imaginiez 🔭"
-      },
-      "bluesky": {
-        "texte": "89 ans, et l’essentiel des données du Parc national sur les vautours d’Ossau. En Béarn, à Castet, un bénévole relève les bagues des vautours fauves, alors que s’achève le plan conduit avec les éleveurs 🦅",
-        "hashtag": "#Béarn"
-      },
-      "threads": {
-        "texte": "🏔️ Castet, vallée d’Ossau. Ici, les vautours fauves ont leur lecteur de bagues attitré : un bénévole de 89 ans. C’est lui qui fournit l’essentiel des données du Parc national sur ces grands rapaces. Et ses relevés tombent à point, à la fin du plan mené avec les éleveurs.",
-        "sujet": "Béarn"
-      },
-      "x": {
-        "texte": "Le meilleur informateur du Parc national sur les vautours d’Ossau a 89 ans 🦅 Bénévole à Castet, il lit leurs bagues et fournit l’essentiel des données."
-      },
-      "source": "ia",
-      "model": "claude-opus-5-5",
-      "usage": {
-        "input": 8082,
-        "output": 883
-      },
-      "angles": {
-        "instagram": "image évocatrice",
-        "facebook": "question intrigante",
-        "bluesky": "chiffre ou fait marquant en tête",
-        "threads": "lieu en tête",
-        "x": "effet de surprise"
-      },
-      "lieuSource": {
-        "precis": "",
-        "ville": "Castet",
-        "departement": "Pyrénées-Atlantiques"
-      },
-      "lieuNom": "Castet",
-      "commune": "Castet",
-      "comptes": {
-        "instagram": [
-          {
-            "nom": "Parc national des Pyrénées",
-            "handle": "parc_national_pyrenees",
-            "abonnes": 27881,
-            "preuve": 3,
-            "role": "acteur",
-            "echelon": "sujet"
-          },
-          {
-            "nom": "Département 64",
-            "handle": "departement64",
-            "abonnes": 10385,
-            "preuve": 3,
-            "role": "territoire",
-            "echelon": "territoire",
-            "thematique": true
-          }
-        ],
-        "x": [
-          {
-            "nom": "Pyrénées-Atlantiques",
-            "handle": "departement64",
-            "abonnes": null,
-            "preuve": 3,
-            "role": "territoire",
-            "echelon": "territoire",
-            "thematique": true
-          }
-        ],
-        "bluesky": [],
-        "threads": [],
-        "facebook": []
-      }
-    },
-    "previewSent": false,
-    "prevuInitialement": 1795548763248,
-    "raison": "le nombre de posts du jour était atteint"
-  },
-  {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=36283",
     "channel": "instagram",
     "dueAt": 1795690981086,
@@ -1210,5 +1084,990 @@
     "previewSent": false,
     "prevuInitialement": 1795634002142,
     "raison": "un autre post occupait déjà ce créneau"
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36306",
+    "channel": "instagram",
+    "dueAt": 1795777615624,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Café céramique à Bordeaux : ici, la tasse ne sert pas à boire",
+      "link": "https://passion-aquitaine.ouest-france.fr/kasbah-cafe-ceramique-bordeaux-peinture/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36306",
+      "pubDate": "Wed, 25 Nov 2026 06:30:57 +0000",
+      "date": 1795588257000,
+      "categories": [
+        "Bordeaux",
+        "Gironde",
+        "Tourisme",
+        "Visites & loisirs"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/kasbah-cafe-cceramique.jpg",
+      "description": "À Bordeaux, Kasbah Café Céramique fait peindre tasses et théières dont les couleurs s’épanouissent au four, à plus de 1 000 °C."
+    },
+    "dossier": {
+      "nature": "evergreen",
+      "sensible": false,
+      "rubrique": "Bordeaux",
+      "visuel": {
+        "titre": "Café céramique : ici, la tasse ne sert pas à boire",
+        "surlignage": "Café céramique",
+        "description": "Chez Kasbah Café Céramique, on peint soi-même tasses et théières. Les couleurs ne se révèlent vraiment qu’à la cuisson, dans un four qui dépasse les 1 000 °C.",
+        "texte_alternatif": "Des tasses et des théières à peindre soi-même au Kasbah Café Céramique, à Bordeaux, où les couleurs se révèlent au four à plus de 1 000 °C."
+      },
+      "entites": [
+        {
+          "nom": "Kasbah Café Céramique",
+          "role": "sujet",
+          "type": "lieu"
+        }
+      ],
+      "domaines": [
+        "céramique",
+        "loisirs"
+      ],
+      "lieu": {
+        "id": "115838035093755",
+        "nom": "Bordeaux",
+        "niveau": "ville"
+      },
+      "instagram": {
+        "texte": "🎨 Dans ce café de Bordeaux, on ne boit pas dans sa tasse : on la peint\nChez Kasbah Café Céramique, tasses et théières passent entre vos pinceaux avant de filer au four. C’est là, à plus de 1 000 °C, que les couleurs s’épanouissent vraiment.",
+        "hashtags": [
+          "#Bordeaux",
+          "#Ceramique",
+          "#LoisirsCreatifs"
+        ]
+      },
+      "facebook": {
+        "texte": "Chez Kasbah Café Céramique, vous repartez avec une théière peinte de vos mains, cuite à plus de 1 000 °C 🫖"
+      },
+      "bluesky": {
+        "texte": "À Bordeaux, Kasbah Café Céramique invite à peindre tasses et théières. Le secret tient à la cuisson : 🔆 les couleurs ne s’épanouissent qu’au four, à plus de 1 000 °C.",
+        "hashtag": "#Bordeaux"
+      },
+      "threads": {
+        "texte": "Un pinceau, une tasse encore blanche, une théière qui attend ses motifs. Chez Kasbah Café Céramique, à Bordeaux, on peint d’abord, puis tout part au four. Et c’est là, au-delà de 1 000 °C, que les couleurs prennent enfin tout leur éclat ☕",
+        "sujet": "Bordeaux"
+      },
+      "x": {
+        "texte": "🏺 Et si votre tasse servait à peindre plutôt qu’à boire ? À Bordeaux, Kasbah Café Céramique fait décorer tasses et théières, dont les couleurs éclosent au four à plus de 1 000 °C."
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 8036,
+        "output": 896
+      },
+      "angles": {
+        "instagram": "effet de surprise",
+        "facebook": "bénéfice pour le lecteur",
+        "bluesky": "détail méconnu",
+        "threads": "image évocatrice",
+        "x": "question intrigante"
+      },
+      "lieuSource": {
+        "precis": "Kasbah Café Céramique",
+        "ville": "Bordeaux",
+        "departement": "Gironde"
+      },
+      "lieuNom": "Kasbah Café Céramique",
+      "commune": "Bordeaux",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Kasbah Café Céramique",
+            "handle": "kasbah_cafe_ceramique",
+            "abonnes": 7023,
+            "preuve": 3,
+            "role": "sujet",
+            "echelon": "sujet"
+          },
+          {
+            "nom": "Bordeaux",
+            "handle": "villedebordeaux",
+            "abonnes": 205360,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          },
+          {
+            "nom": "visitbordeaux",
+            "handle": "visitbordeaux",
+            "abonnes": 118993,
+            "preuve": 2,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "tourisme"
+          },
+          {
+            "nom": "Festival Bordeaux Céramique",
+            "handle": "bordeauxceramique",
+            "abonnes": 1429,
+            "preuve": 2,
+            "role": "theme",
+            "echelon": "domaine",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "Bordeaux",
+            "handle": "Bordeaux",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          },
+          {
+            "nom": "Gironde",
+            "handle": "gironde",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "bluesky": [
+          {
+            "nom": "Ville de Bordeaux",
+            "handle": "villedebordeaux.bsky.social",
+            "abonnes": 1011,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          }
+        ],
+        "threads": [
+          {
+            "nom": "Kasbah Café Céramique",
+            "handle": "kasbah_cafe_ceramique",
+            "abonnes": 7023,
+            "preuve": 3,
+            "role": "sujet",
+            "echelon": "sujet"
+          },
+          {
+            "nom": "Bordeaux",
+            "handle": "villedebordeaux",
+            "abonnes": 205360,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          },
+          {
+            "nom": "visitbordeaux",
+            "handle": "visitbordeaux",
+            "abonnes": 118993,
+            "preuve": 2,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "tourisme"
+          }
+        ],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36306",
+    "channel": "bluesky",
+    "dueAt": 1795595392176,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Café céramique à Bordeaux : ici, la tasse ne sert pas à boire",
+      "link": "https://passion-aquitaine.ouest-france.fr/kasbah-cafe-ceramique-bordeaux-peinture/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36306",
+      "pubDate": "Wed, 25 Nov 2026 06:30:57 +0000",
+      "date": 1795588257000,
+      "categories": [
+        "Bordeaux",
+        "Gironde",
+        "Tourisme",
+        "Visites & loisirs"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/kasbah-cafe-cceramique.jpg",
+      "description": "À Bordeaux, Kasbah Café Céramique fait peindre tasses et théières dont les couleurs s’épanouissent au four, à plus de 1 000 °C."
+    },
+    "dossier": {
+      "nature": "evergreen",
+      "sensible": false,
+      "rubrique": "Bordeaux",
+      "visuel": {
+        "titre": "Café céramique : ici, la tasse ne sert pas à boire",
+        "surlignage": "Café céramique",
+        "description": "Chez Kasbah Café Céramique, on peint soi-même tasses et théières. Les couleurs ne se révèlent vraiment qu’à la cuisson, dans un four qui dépasse les 1 000 °C.",
+        "texte_alternatif": "Des tasses et des théières à peindre soi-même au Kasbah Café Céramique, à Bordeaux, où les couleurs se révèlent au four à plus de 1 000 °C."
+      },
+      "entites": [
+        {
+          "nom": "Kasbah Café Céramique",
+          "role": "sujet",
+          "type": "lieu"
+        }
+      ],
+      "domaines": [
+        "céramique",
+        "loisirs"
+      ],
+      "lieu": {
+        "id": "115838035093755",
+        "nom": "Bordeaux",
+        "niveau": "ville"
+      },
+      "instagram": {
+        "texte": "🎨 Dans ce café de Bordeaux, on ne boit pas dans sa tasse : on la peint\nChez Kasbah Café Céramique, tasses et théières passent entre vos pinceaux avant de filer au four. C’est là, à plus de 1 000 °C, que les couleurs s’épanouissent vraiment.",
+        "hashtags": [
+          "#Bordeaux",
+          "#Ceramique",
+          "#LoisirsCreatifs"
+        ]
+      },
+      "facebook": {
+        "texte": "Chez Kasbah Café Céramique, vous repartez avec une théière peinte de vos mains, cuite à plus de 1 000 °C 🫖"
+      },
+      "bluesky": {
+        "texte": "À Bordeaux, Kasbah Café Céramique invite à peindre tasses et théières. Le secret tient à la cuisson : 🔆 les couleurs ne s’épanouissent qu’au four, à plus de 1 000 °C.",
+        "hashtag": "#Bordeaux"
+      },
+      "threads": {
+        "texte": "Un pinceau, une tasse encore blanche, une théière qui attend ses motifs. Chez Kasbah Café Céramique, à Bordeaux, on peint d’abord, puis tout part au four. Et c’est là, au-delà de 1 000 °C, que les couleurs prennent enfin tout leur éclat ☕",
+        "sujet": "Bordeaux"
+      },
+      "x": {
+        "texte": "🏺 Et si votre tasse servait à peindre plutôt qu’à boire ? À Bordeaux, Kasbah Café Céramique fait décorer tasses et théières, dont les couleurs éclosent au four à plus de 1 000 °C."
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 8036,
+        "output": 896
+      },
+      "angles": {
+        "instagram": "effet de surprise",
+        "facebook": "bénéfice pour le lecteur",
+        "bluesky": "détail méconnu",
+        "threads": "image évocatrice",
+        "x": "question intrigante"
+      },
+      "lieuSource": {
+        "precis": "Kasbah Café Céramique",
+        "ville": "Bordeaux",
+        "departement": "Gironde"
+      },
+      "lieuNom": "Kasbah Café Céramique",
+      "commune": "Bordeaux",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Kasbah Café Céramique",
+            "handle": "kasbah_cafe_ceramique",
+            "abonnes": 7023,
+            "preuve": 3,
+            "role": "sujet",
+            "echelon": "sujet"
+          },
+          {
+            "nom": "Bordeaux",
+            "handle": "villedebordeaux",
+            "abonnes": 205360,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          },
+          {
+            "nom": "visitbordeaux",
+            "handle": "visitbordeaux",
+            "abonnes": 118993,
+            "preuve": 2,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "tourisme"
+          },
+          {
+            "nom": "Festival Bordeaux Céramique",
+            "handle": "bordeauxceramique",
+            "abonnes": 1429,
+            "preuve": 2,
+            "role": "theme",
+            "echelon": "domaine",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "Bordeaux",
+            "handle": "Bordeaux",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          },
+          {
+            "nom": "Gironde",
+            "handle": "gironde",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "bluesky": [
+          {
+            "nom": "Ville de Bordeaux",
+            "handle": "villedebordeaux.bsky.social",
+            "abonnes": 1011,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          }
+        ],
+        "threads": [
+          {
+            "nom": "Kasbah Café Céramique",
+            "handle": "kasbah_cafe_ceramique",
+            "abonnes": 7023,
+            "preuve": 3,
+            "role": "sujet",
+            "echelon": "sujet"
+          },
+          {
+            "nom": "Bordeaux",
+            "handle": "villedebordeaux",
+            "abonnes": 205360,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          },
+          {
+            "nom": "visitbordeaux",
+            "handle": "visitbordeaux",
+            "abonnes": 118993,
+            "preuve": 2,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "tourisme"
+          }
+        ],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36306",
+    "channel": "facebook",
+    "dueAt": 1795721253900,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Café céramique à Bordeaux : ici, la tasse ne sert pas à boire",
+      "link": "https://passion-aquitaine.ouest-france.fr/kasbah-cafe-ceramique-bordeaux-peinture/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36306",
+      "pubDate": "Wed, 25 Nov 2026 06:30:57 +0000",
+      "date": 1795588257000,
+      "categories": [
+        "Bordeaux",
+        "Gironde",
+        "Tourisme",
+        "Visites & loisirs"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/kasbah-cafe-cceramique.jpg",
+      "description": "À Bordeaux, Kasbah Café Céramique fait peindre tasses et théières dont les couleurs s’épanouissent au four, à plus de 1 000 °C."
+    },
+    "dossier": {
+      "nature": "evergreen",
+      "sensible": false,
+      "rubrique": "Bordeaux",
+      "visuel": {
+        "titre": "Café céramique : ici, la tasse ne sert pas à boire",
+        "surlignage": "Café céramique",
+        "description": "Chez Kasbah Café Céramique, on peint soi-même tasses et théières. Les couleurs ne se révèlent vraiment qu’à la cuisson, dans un four qui dépasse les 1 000 °C.",
+        "texte_alternatif": "Des tasses et des théières à peindre soi-même au Kasbah Café Céramique, à Bordeaux, où les couleurs se révèlent au four à plus de 1 000 °C."
+      },
+      "entites": [
+        {
+          "nom": "Kasbah Café Céramique",
+          "role": "sujet",
+          "type": "lieu"
+        }
+      ],
+      "domaines": [
+        "céramique",
+        "loisirs"
+      ],
+      "lieu": {
+        "id": "115838035093755",
+        "nom": "Bordeaux",
+        "niveau": "ville"
+      },
+      "instagram": {
+        "texte": "🎨 Dans ce café de Bordeaux, on ne boit pas dans sa tasse : on la peint\nChez Kasbah Café Céramique, tasses et théières passent entre vos pinceaux avant de filer au four. C’est là, à plus de 1 000 °C, que les couleurs s’épanouissent vraiment.",
+        "hashtags": [
+          "#Bordeaux",
+          "#Ceramique",
+          "#LoisirsCreatifs"
+        ]
+      },
+      "facebook": {
+        "texte": "Chez Kasbah Café Céramique, vous repartez avec une théière peinte de vos mains, cuite à plus de 1 000 °C 🫖"
+      },
+      "bluesky": {
+        "texte": "À Bordeaux, Kasbah Café Céramique invite à peindre tasses et théières. Le secret tient à la cuisson : 🔆 les couleurs ne s’épanouissent qu’au four, à plus de 1 000 °C.",
+        "hashtag": "#Bordeaux"
+      },
+      "threads": {
+        "texte": "Un pinceau, une tasse encore blanche, une théière qui attend ses motifs. Chez Kasbah Café Céramique, à Bordeaux, on peint d’abord, puis tout part au four. Et c’est là, au-delà de 1 000 °C, que les couleurs prennent enfin tout leur éclat ☕",
+        "sujet": "Bordeaux"
+      },
+      "x": {
+        "texte": "🏺 Et si votre tasse servait à peindre plutôt qu’à boire ? À Bordeaux, Kasbah Café Céramique fait décorer tasses et théières, dont les couleurs éclosent au four à plus de 1 000 °C."
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 8036,
+        "output": 896
+      },
+      "angles": {
+        "instagram": "effet de surprise",
+        "facebook": "bénéfice pour le lecteur",
+        "bluesky": "détail méconnu",
+        "threads": "image évocatrice",
+        "x": "question intrigante"
+      },
+      "lieuSource": {
+        "precis": "Kasbah Café Céramique",
+        "ville": "Bordeaux",
+        "departement": "Gironde"
+      },
+      "lieuNom": "Kasbah Café Céramique",
+      "commune": "Bordeaux",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Kasbah Café Céramique",
+            "handle": "kasbah_cafe_ceramique",
+            "abonnes": 7023,
+            "preuve": 3,
+            "role": "sujet",
+            "echelon": "sujet"
+          },
+          {
+            "nom": "Bordeaux",
+            "handle": "villedebordeaux",
+            "abonnes": 205360,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          },
+          {
+            "nom": "visitbordeaux",
+            "handle": "visitbordeaux",
+            "abonnes": 118993,
+            "preuve": 2,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "tourisme"
+          },
+          {
+            "nom": "Festival Bordeaux Céramique",
+            "handle": "bordeauxceramique",
+            "abonnes": 1429,
+            "preuve": 2,
+            "role": "theme",
+            "echelon": "domaine",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "Bordeaux",
+            "handle": "Bordeaux",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          },
+          {
+            "nom": "Gironde",
+            "handle": "gironde",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "bluesky": [
+          {
+            "nom": "Ville de Bordeaux",
+            "handle": "villedebordeaux.bsky.social",
+            "abonnes": 1011,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          }
+        ],
+        "threads": [
+          {
+            "nom": "Kasbah Café Céramique",
+            "handle": "kasbah_cafe_ceramique",
+            "abonnes": 7023,
+            "preuve": 3,
+            "role": "sujet",
+            "echelon": "sujet"
+          },
+          {
+            "nom": "Bordeaux",
+            "handle": "villedebordeaux",
+            "abonnes": 205360,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          },
+          {
+            "nom": "visitbordeaux",
+            "handle": "visitbordeaux",
+            "abonnes": 118993,
+            "preuve": 2,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "tourisme"
+          }
+        ],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36306",
+    "channel": "threads",
+    "dueAt": 1795601676713,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Café céramique à Bordeaux : ici, la tasse ne sert pas à boire",
+      "link": "https://passion-aquitaine.ouest-france.fr/kasbah-cafe-ceramique-bordeaux-peinture/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36306",
+      "pubDate": "Wed, 25 Nov 2026 06:30:57 +0000",
+      "date": 1795588257000,
+      "categories": [
+        "Bordeaux",
+        "Gironde",
+        "Tourisme",
+        "Visites & loisirs"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/kasbah-cafe-cceramique.jpg",
+      "description": "À Bordeaux, Kasbah Café Céramique fait peindre tasses et théières dont les couleurs s’épanouissent au four, à plus de 1 000 °C."
+    },
+    "dossier": {
+      "nature": "evergreen",
+      "sensible": false,
+      "rubrique": "Bordeaux",
+      "visuel": {
+        "titre": "Café céramique : ici, la tasse ne sert pas à boire",
+        "surlignage": "Café céramique",
+        "description": "Chez Kasbah Café Céramique, on peint soi-même tasses et théières. Les couleurs ne se révèlent vraiment qu’à la cuisson, dans un four qui dépasse les 1 000 °C.",
+        "texte_alternatif": "Des tasses et des théières à peindre soi-même au Kasbah Café Céramique, à Bordeaux, où les couleurs se révèlent au four à plus de 1 000 °C."
+      },
+      "entites": [
+        {
+          "nom": "Kasbah Café Céramique",
+          "role": "sujet",
+          "type": "lieu"
+        }
+      ],
+      "domaines": [
+        "céramique",
+        "loisirs"
+      ],
+      "lieu": {
+        "id": "115838035093755",
+        "nom": "Bordeaux",
+        "niveau": "ville"
+      },
+      "instagram": {
+        "texte": "🎨 Dans ce café de Bordeaux, on ne boit pas dans sa tasse : on la peint\nChez Kasbah Café Céramique, tasses et théières passent entre vos pinceaux avant de filer au four. C’est là, à plus de 1 000 °C, que les couleurs s’épanouissent vraiment.",
+        "hashtags": [
+          "#Bordeaux",
+          "#Ceramique",
+          "#LoisirsCreatifs"
+        ]
+      },
+      "facebook": {
+        "texte": "Chez Kasbah Café Céramique, vous repartez avec une théière peinte de vos mains, cuite à plus de 1 000 °C 🫖"
+      },
+      "bluesky": {
+        "texte": "À Bordeaux, Kasbah Café Céramique invite à peindre tasses et théières. Le secret tient à la cuisson : 🔆 les couleurs ne s’épanouissent qu’au four, à plus de 1 000 °C.",
+        "hashtag": "#Bordeaux"
+      },
+      "threads": {
+        "texte": "Un pinceau, une tasse encore blanche, une théière qui attend ses motifs. Chez Kasbah Café Céramique, à Bordeaux, on peint d’abord, puis tout part au four. Et c’est là, au-delà de 1 000 °C, que les couleurs prennent enfin tout leur éclat ☕",
+        "sujet": "Bordeaux"
+      },
+      "x": {
+        "texte": "🏺 Et si votre tasse servait à peindre plutôt qu’à boire ? À Bordeaux, Kasbah Café Céramique fait décorer tasses et théières, dont les couleurs éclosent au four à plus de 1 000 °C."
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 8036,
+        "output": 896
+      },
+      "angles": {
+        "instagram": "effet de surprise",
+        "facebook": "bénéfice pour le lecteur",
+        "bluesky": "détail méconnu",
+        "threads": "image évocatrice",
+        "x": "question intrigante"
+      },
+      "lieuSource": {
+        "precis": "Kasbah Café Céramique",
+        "ville": "Bordeaux",
+        "departement": "Gironde"
+      },
+      "lieuNom": "Kasbah Café Céramique",
+      "commune": "Bordeaux",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Kasbah Café Céramique",
+            "handle": "kasbah_cafe_ceramique",
+            "abonnes": 7023,
+            "preuve": 3,
+            "role": "sujet",
+            "echelon": "sujet"
+          },
+          {
+            "nom": "Bordeaux",
+            "handle": "villedebordeaux",
+            "abonnes": 205360,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          },
+          {
+            "nom": "visitbordeaux",
+            "handle": "visitbordeaux",
+            "abonnes": 118993,
+            "preuve": 2,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "tourisme"
+          },
+          {
+            "nom": "Festival Bordeaux Céramique",
+            "handle": "bordeauxceramique",
+            "abonnes": 1429,
+            "preuve": 2,
+            "role": "theme",
+            "echelon": "domaine",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "Bordeaux",
+            "handle": "Bordeaux",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          },
+          {
+            "nom": "Gironde",
+            "handle": "gironde",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "bluesky": [
+          {
+            "nom": "Ville de Bordeaux",
+            "handle": "villedebordeaux.bsky.social",
+            "abonnes": 1011,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          }
+        ],
+        "threads": [
+          {
+            "nom": "Kasbah Café Céramique",
+            "handle": "kasbah_cafe_ceramique",
+            "abonnes": 7023,
+            "preuve": 3,
+            "role": "sujet",
+            "echelon": "sujet"
+          },
+          {
+            "nom": "Bordeaux",
+            "handle": "villedebordeaux",
+            "abonnes": 205360,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          },
+          {
+            "nom": "visitbordeaux",
+            "handle": "visitbordeaux",
+            "abonnes": 118993,
+            "preuve": 2,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "tourisme"
+          }
+        ],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36306",
+    "channel": "x",
+    "dueAt": 1795597200000,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Café céramique à Bordeaux : ici, la tasse ne sert pas à boire",
+      "link": "https://passion-aquitaine.ouest-france.fr/kasbah-cafe-ceramique-bordeaux-peinture/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36306",
+      "pubDate": "Wed, 25 Nov 2026 06:30:57 +0000",
+      "date": 1795588257000,
+      "categories": [
+        "Bordeaux",
+        "Gironde",
+        "Tourisme",
+        "Visites & loisirs"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/kasbah-cafe-cceramique.jpg",
+      "description": "À Bordeaux, Kasbah Café Céramique fait peindre tasses et théières dont les couleurs s’épanouissent au four, à plus de 1 000 °C."
+    },
+    "dossier": {
+      "nature": "evergreen",
+      "sensible": false,
+      "rubrique": "Bordeaux",
+      "visuel": {
+        "titre": "Café céramique : ici, la tasse ne sert pas à boire",
+        "surlignage": "Café céramique",
+        "description": "Chez Kasbah Café Céramique, on peint soi-même tasses et théières. Les couleurs ne se révèlent vraiment qu’à la cuisson, dans un four qui dépasse les 1 000 °C.",
+        "texte_alternatif": "Des tasses et des théières à peindre soi-même au Kasbah Café Céramique, à Bordeaux, où les couleurs se révèlent au four à plus de 1 000 °C."
+      },
+      "entites": [
+        {
+          "nom": "Kasbah Café Céramique",
+          "role": "sujet",
+          "type": "lieu"
+        }
+      ],
+      "domaines": [
+        "céramique",
+        "loisirs"
+      ],
+      "lieu": {
+        "id": "115838035093755",
+        "nom": "Bordeaux",
+        "niveau": "ville"
+      },
+      "instagram": {
+        "texte": "🎨 Dans ce café de Bordeaux, on ne boit pas dans sa tasse : on la peint\nChez Kasbah Café Céramique, tasses et théières passent entre vos pinceaux avant de filer au four. C’est là, à plus de 1 000 °C, que les couleurs s’épanouissent vraiment.",
+        "hashtags": [
+          "#Bordeaux",
+          "#Ceramique",
+          "#LoisirsCreatifs"
+        ]
+      },
+      "facebook": {
+        "texte": "Chez Kasbah Café Céramique, vous repartez avec une théière peinte de vos mains, cuite à plus de 1 000 °C 🫖"
+      },
+      "bluesky": {
+        "texte": "À Bordeaux, Kasbah Café Céramique invite à peindre tasses et théières. Le secret tient à la cuisson : 🔆 les couleurs ne s’épanouissent qu’au four, à plus de 1 000 °C.",
+        "hashtag": "#Bordeaux"
+      },
+      "threads": {
+        "texte": "Un pinceau, une tasse encore blanche, une théière qui attend ses motifs. Chez Kasbah Café Céramique, à Bordeaux, on peint d’abord, puis tout part au four. Et c’est là, au-delà de 1 000 °C, que les couleurs prennent enfin tout leur éclat ☕",
+        "sujet": "Bordeaux"
+      },
+      "x": {
+        "texte": "🏺 Et si votre tasse servait à peindre plutôt qu’à boire ? À Bordeaux, Kasbah Café Céramique fait décorer tasses et théières, dont les couleurs éclosent au four à plus de 1 000 °C."
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 8036,
+        "output": 896
+      },
+      "angles": {
+        "instagram": "effet de surprise",
+        "facebook": "bénéfice pour le lecteur",
+        "bluesky": "détail méconnu",
+        "threads": "image évocatrice",
+        "x": "question intrigante"
+      },
+      "lieuSource": {
+        "precis": "Kasbah Café Céramique",
+        "ville": "Bordeaux",
+        "departement": "Gironde"
+      },
+      "lieuNom": "Kasbah Café Céramique",
+      "commune": "Bordeaux",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Kasbah Café Céramique",
+            "handle": "kasbah_cafe_ceramique",
+            "abonnes": 7023,
+            "preuve": 3,
+            "role": "sujet",
+            "echelon": "sujet"
+          },
+          {
+            "nom": "Bordeaux",
+            "handle": "villedebordeaux",
+            "abonnes": 205360,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          },
+          {
+            "nom": "visitbordeaux",
+            "handle": "visitbordeaux",
+            "abonnes": 118993,
+            "preuve": 2,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "tourisme"
+          },
+          {
+            "nom": "Festival Bordeaux Céramique",
+            "handle": "bordeauxceramique",
+            "abonnes": 1429,
+            "preuve": 2,
+            "role": "theme",
+            "echelon": "domaine",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "Bordeaux",
+            "handle": "Bordeaux",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          },
+          {
+            "nom": "Gironde",
+            "handle": "gironde",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "bluesky": [
+          {
+            "nom": "Ville de Bordeaux",
+            "handle": "villedebordeaux.bsky.social",
+            "abonnes": 1011,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          }
+        ],
+        "threads": [
+          {
+            "nom": "Kasbah Café Céramique",
+            "handle": "kasbah_cafe_ceramique",
+            "abonnes": 7023,
+            "preuve": 3,
+            "role": "sujet",
+            "echelon": "sujet"
+          },
+          {
+            "nom": "Bordeaux",
+            "handle": "villedebordeaux",
+            "abonnes": 205360,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          },
+          {
+            "nom": "visitbordeaux",
+            "handle": "visitbordeaux",
+            "abonnes": 118993,
+            "preuve": 2,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "tourisme"
+          }
+        ],
+        "facebook": []
+      }
+    },
+    "previewSent": false
   }
 ]

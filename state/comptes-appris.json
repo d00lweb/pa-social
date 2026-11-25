@@ -2181,5 +2181,26 @@
     "instagram": [],
     "threads": [],
     "bluesky": []
+  },
+  "locale:bordeaux:ceramique": {
+    "v": 3,
+    "cherche": "2026-11-25T07:00:47.974Z",
+    "instagram": [
+      {
+        "handle": "bordeauxceramique",
+        "nom": "Festival Bordeaux Céramique",
+        "abonnes": 1429,
+        "preuve": 2
+      }
+    ],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:bordeaux:loisirs": {
+    "v": 3,
+    "cherche": "2026-11-25T07:00:47.974Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
   }
 }

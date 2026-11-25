@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-25T11:21:16.491Z",
+  "genereLe": "2026-11-25T12:01:00.289Z",
   "jour": "2026-11-25",
   "reseaux": {
     "instagram": {
@@ -25,7 +25,7 @@
       },
       "formats": null,
       "aujourdhui": 1,
-      "semaine": 12,
+      "semaine": 11,
       "total": 98,
       "dernier": "2026-11-25T11:14:53.810Z",
       "lienDernier": "https://www.instagram.com/p/DgKZgLEjYry/"
@@ -157,7 +157,7 @@
         "reponse"
       ],
       "aujourdhui": 1,
-      "semaine": 15,
+      "semaine": 14,
       "total": 100,
       "dernier": "2026-11-25T09:00:53.771Z",
       "lienDernier": null
@@ -611,11 +611,11 @@
     }
   ],
   "mesures": {
-    "releves": 715,
+    "releves": 717,
     "parReseau": {
       "instagram": {
-        "posts": 86,
-        "interactionsMoyennes": 12.5
+        "posts": 87,
+        "interactionsMoyennes": 12.3
       },
       "bluesky": {
         "posts": 85,
@@ -728,7 +728,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-25T11:00:56.935Z"
+    "derniere": "2026-11-25T12:01:00.289Z"
   },
   "abonnes": {
     "instagram": {
@@ -767,8 +767,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-25T11:21:20.955Z",
-    "posts": 130,
+    "genereLe": "2026-11-25T12:01:05.079Z",
+    "posts": 131,
     "parReseau": {
       "threads": {
         "posts": 34,
@@ -783,7 +783,7 @@
         "moyenne": 1.4
       },
       "bluesky": {
-        "posts": 34,
+        "posts": 35,
         "moyenne": 0
       }
     },
@@ -801,7 +801,7 @@
         "moyenne": 0
       },
       "reply": {
-        "posts": 9,
+        "posts": 10,
         "moyenne": 0
       }
     },
@@ -811,8 +811,8 @@
         "moyenne": 6.8
       },
       "après-midi": {
-        "posts": 35,
-        "moyenne": 5.7
+        "posts": 36,
+        "moyenne": 5.6
       },
       "soir": {
         "posts": 25,
@@ -862,7 +862,7 @@
           "moyenne": 0
         },
         "12 h – 13 h 30": {
-          "posts": 10,
+          "posts": 11,
           "moyenne": 0
         },
         "18 h – 19 h 30": {
@@ -907,24 +907,24 @@
       "creneauReseau": "7 h – 8 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36283",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36315",
       "channel": "bluesky",
-      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3n324r5hevb2s",
-      "publieLe": "2026-11-24T07:30:11.720Z",
-      "format": "image",
+      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3n32kaqak5522",
+      "publieLe": "2026-11-24T11:31:33.393Z",
+      "format": "reply",
       "jalon": 1,
-      "releveLe": "2026-11-25T08:01:14.017Z",
+      "releveLe": "2026-11-25T12:01:00.289Z",
       "likes": 0,
-      "commentairesBruts": 0,
+      "commentairesBruts": 1,
       "partages": 0,
       "vues": null,
       "commentaires": 0,
       "v": 2,
-      "titre": "Dans cette gare de Corrèze, il faut héler le train pour monter",
-      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n324r5hevb2s",
+      "titre": "Installé à Djibouti, ce maire girondin touchait l’indemnité maximale autorisée",
+      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n32kaqak5522",
       "mention": false,
-      "creneau": "matin",
-      "creneauReseau": "8 h – 9 h 30"
+      "creneau": "après-midi",
+      "creneauReseau": "12 h – 13 h 30"
     },
     "mentions": {
       "avec": {
@@ -932,8 +932,8 @@
         "moyenne": 5.9
       },
       "sans": {
-        "posts": 77,
-        "moyenne": 5.9
+        "posts": 78,
+        "moyenne": 5.8
       }
     },
     "publies": {

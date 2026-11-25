@@ -8656,5 +8656,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36306",
+    "channel": "x",
+    "at": "2026-11-25T09:00:53.771Z",
+    "mediaId": "kit-telegram",
+    "titre": "Café céramique à Bordeaux : ici, la tasse ne sert pas à boire",
+    "lien": "https://passion-aquitaine.ouest-france.fr/kasbah-cafe-ceramique-bordeaux-peinture/",
+    "lienPost": null,
+    "format": "reponse",
+    "mention": true,
+    "apercu": {
+      "texte": "🏺 Et si votre tasse servait à peindre plutôt qu’à boire ? À #Bordeaux, Kasbah Café Céramique fait décorer tasses et théières, dont les couleurs éclosent au four à plus de 1 000 °C.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261125-433f1e9c-x.jpg",
+      "mode": "reponse",
+      "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/kasbah-cafe-ceramique-bordeaux-peinture/",
+      "sujet": null
+    }
   }
 ]

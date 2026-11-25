@@ -8638,5 +8638,23 @@
       "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/vautours-fauves-ossau-benevole-donnees/?at_medium=social&at_campaign=fb-photo",
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36306",
+    "channel": "bluesky",
+    "at": "2026-11-25T08:29:54.381Z",
+    "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3n34qktnd2o2d",
+    "titre": "Café céramique à Bordeaux : ici, la tasse ne sert pas à boire",
+    "lien": "https://passion-aquitaine.ouest-france.fr/kasbah-cafe-ceramique-bordeaux-peinture/",
+    "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n34qktnd2o2d",
+    "format": "image",
+    "mention": true,
+    "apercu": {
+      "texte": "À #Bordeaux, Kasbah Café #Céramique invite à peindre tasses et théières. Le secret tient à la cuisson : 🔆 les couleurs ne s’épanouissent qu’au four, à plus de 1 000 °C.\n@villedebordeaux.bsky.social\n➡️ Lire l’article",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261125-433f1e9c-bsky.jpg",
+      "mode": "image",
+      "reponse": null,
+      "sujet": null
+    }
   }
 ]

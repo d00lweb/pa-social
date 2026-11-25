@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-25T07:20:40.783Z",
+  "genereLe": "2026-11-25T08:01:14.017Z",
   "jour": "2026-11-25",
   "reseaux": {
     "instagram": {
@@ -89,7 +89,7 @@
       },
       "formats": null,
       "aujourdhui": 1,
-      "semaine": 14,
+      "semaine": 13,
       "total": 95,
       "dernier": "2026-11-25T07:14:55.149Z",
       "lienDernier": "https://www.facebook.com/1720946116697936/posts/1802290578563489"
@@ -123,7 +123,7 @@
         "reponse"
       ],
       "aujourdhui": 1,
-      "semaine": 15,
+      "semaine": 14,
       "total": 96,
       "dernier": "2026-11-25T06:11:28.753Z",
       "lienDernier": "https://www.threads.com/@lovaquitaine/post/DgJ2gAOjiIY"
@@ -639,7 +639,7 @@
     }
   ],
   "mesures": {
-    "releves": 709,
+    "releves": 712,
     "parReseau": {
       "instagram": {
         "posts": 86,
@@ -650,12 +650,12 @@
         "interactionsMoyennes": 0.2
       },
       "facebook": {
-        "posts": 81,
+        "posts": 82,
         "interactionsMoyennes": 0
       },
       "threads": {
-        "posts": 81,
-        "interactionsMoyennes": 10.5
+        "posts": 82,
+        "interactionsMoyennes": 10.4
       }
     }
   },
@@ -795,8 +795,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-25T07:20:45.998Z",
-    "posts": 128,
+    "genereLe": "2026-11-25T08:01:20.487Z",
+    "posts": 129,
     "parReseau": {
       "threads": {
         "posts": 33,
@@ -811,7 +811,7 @@
         "moyenne": 1.4
       },
       "bluesky": {
-        "posts": 33,
+        "posts": 34,
         "moyenne": 0
       }
     },
@@ -825,7 +825,7 @@
         "moyenne": 0.1
       },
       "image": {
-        "posts": 15,
+        "posts": 16,
         "moyenne": 0
       },
       "reply": {
@@ -835,8 +835,8 @@
     },
     "parCreneau": {
       "matin": {
-        "posts": 68,
-        "moyenne": 6.9
+        "posts": 69,
+        "moyenne": 6.8
       },
       "après-midi": {
         "posts": 35,
@@ -882,7 +882,7 @@
       },
       "bluesky": {
         "8 h – 9 h 30": {
-          "posts": 18,
+          "posts": 19,
           "moyenne": 0.1
         },
         "hors créneau": {
@@ -935,24 +935,24 @@
       "creneauReseau": "7 h – 8 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36295",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36283",
       "channel": "bluesky",
-      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3n2yppeuqzs2v",
-      "publieLe": "2026-11-23T18:03:53.916Z",
-      "format": "reply",
+      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3n324r5hevb2s",
+      "publieLe": "2026-11-24T07:30:11.720Z",
+      "format": "image",
       "jalon": 1,
-      "releveLe": "2026-11-24T18:20:36.996Z",
+      "releveLe": "2026-11-25T08:01:14.017Z",
       "likes": 0,
-      "commentairesBruts": 1,
+      "commentairesBruts": 0,
       "partages": 0,
       "vues": null,
       "commentaires": 0,
       "v": 2,
-      "titre": "Vautours d’Ossau : un bénévole de 89 ans fournit l’essentiel des données du Parc national",
-      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n2yppeuqzs2v",
+      "titre": "Dans cette gare de Corrèze, il faut héler le train pour monter",
+      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n324r5hevb2s",
       "mention": false,
-      "creneau": "soir",
-      "creneauReseau": "18 h – 19 h 30"
+      "creneau": "matin",
+      "creneauReseau": "8 h – 9 h 30"
     },
     "mentions": {
       "avec": {
@@ -960,8 +960,8 @@
         "moyenne": 5.9
       },
       "sans": {
-        "posts": 75,
-        "moyenne": 5.9
+        "posts": 76,
+        "moyenne": 5.8
       }
     },
     "publies": {

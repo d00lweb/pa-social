@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-25T10:20:44.204Z",
+  "genereLe": "2026-11-25T11:00:56.935Z",
   "jour": "2026-11-25",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 11,
-      "total": 97,
-      "dernier": "2026-11-24T15:05:38.162Z",
-      "lienDernier": "https://www.instagram.com/p/DgIPIXjDHM_/"
+      "aujourdhui": 1,
+      "semaine": 12,
+      "total": 98,
+      "dernier": "2026-11-25T11:14:53.810Z",
+      "lienDernier": "https://www.instagram.com/p/DgKZgLEjYry/"
     },
     "bluesky": {
       "actif": true,
@@ -164,6 +164,54 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36251",
+      "titre": "Pont Rouchaud : le pont oublié où se touchent trois ex-régions",
+      "lien": "https://passion-aquitaine.ouest-france.fr/pont-rouchaud-trois-regions-nouvelle-aquitaine/",
+      "at": "2026-11-25T11:14:53.810Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Trois départements se rejoignent sur un seul pont 🌉 Le pont Rouchaud, au-dessus de la Tardoire, relie la Charente, la Dordogne et la Haute-Vienne, autrefois dans trois régions différentes. C’est là que la plus vaste région de France a son centre symbolique. Vous étiez déjà passé par ce pont oublié ?",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261123-965863c4-th.jpg",
+          "mode": "reponse",
+          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/pont-rouchaud-trois-regions-nouvelle-aquitaine/",
+          "sujet": "Patrimoine",
+          "publieLe": "2026-11-23T09:32:03.991Z"
+        },
+        "bluesky": {
+          "texte": "🗺️ Où se trouve le centre de la plus vaste région de France ? Sur un pont oublié de la Tardoire, le pont Rouchaud, où se touchent la #Charente, la Dordogne et la Haute-Vienne.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261123-965863c4-bsky.jpg",
+          "mode": "reply",
+          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/pont-rouchaud-trois-regions-nouvelle-aquitaine/",
+          "sujet": null,
+          "publieLe": "2026-11-23T11:05:18.655Z"
+        },
+        "x": {
+          "texte": "Sur la Tardoire, le pont Rouchaud cache un secret géographique : 📌 #Charente, Dordogne et Haute-Vienne s’y touchent. C’est le centre symbolique de la plus vaste région de France.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261123-965863c4-x.jpg",
+          "mode": "reponse",
+          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/pont-rouchaud-trois-regions-nouvelle-aquitaine/",
+          "sujet": null,
+          "publieLe": "2026-11-23T12:23:20.615Z"
+        },
+        "facebook": {
+          "texte": "Un pied en Charente, l’autre en Dordogne, la Haute-Vienne juste à côté : tout se joue sur ce pont de la Tardoire 🌉",
+          "image": null,
+          "mode": "lien",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-24T07:08:51.095Z"
+        },
+        "instagram": {
+          "texte": "Un pont discret sur la Tardoire porte le 🧭 centre symbolique de la plus vaste région de France\n⠀\nAu pont Rouchaud se touchent trois départements : Charente, Dordogne et Haute-Vienne. Un lieu oublié où se croisent trois anciennes régions.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Charente #PontRouchaud #Patrimoine",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261123-965863c4-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-25T11:14:53.810Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36306",
       "titre": "Café céramique à Bordeaux : ici, la tasse ne sert pas à boire",
@@ -363,41 +411,19 @@
           "publieLe": "2026-11-24T12:30:16.143Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36283",
-      "titre": "Dans cette gare de Corrèze, il faut héler le train pour monter",
-      "lien": "https://passion-aquitaine.ouest-france.fr/gare-perols-vezere-arret-demande-voyageurs/",
-      "at": "2026-11-24T10:32:42.583Z",
-      "reseaux": {
-        "bluesky": {
-          "texte": "À #PerolsSurVezere, en #Corrèze, le TER ne s’arrête pas tout seul 🚉 Il faut lui faire signe pour monter. Avec 592 passages en 2025, soit moins de deux par jour, la halte vit au rythme de ses rares voyageurs.\n➡️ Lire l’article",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261124-0b305ed9-bsky.jpg",
-          "mode": "image",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-24T07:30:11.720Z"
-        },
-        "x": {
-          "texte": "Pour monter dans le TER à Pérols-sur-Vézère, en #Corrèze, un geste suffit : faire signe au train, sinon il ne s’arrête pas. Moins de deux passages par jour ici 🙋",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261124-0b305ed9-x.jpg",
-          "mode": "reponse",
-          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/gare-perols-vezere-arret-demande-voyageurs/",
-          "sujet": null,
-          "publieLe": "2026-11-24T09:21:24.652Z"
-        },
-        "threads": {
-          "texte": "Imaginez un train qui file sans s’arrêter si vous ne lui faites pas signe. C’est la règle à Pérols-sur-Vézère, en Corrèze : 🚦 le TER ne marque l’arrêt que si on le hèle. En 2025, la gare a compté 592 passages, moins de deux par jour.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261124-0b305ed9-th.jpg",
-          "mode": "reponse",
-          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/gare-perols-vezere-arret-demande-voyageurs/",
-          "sujet": "Pérols-sur-Vézère",
-          "publieLe": "2026-11-24T10:32:42.583Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "instagram",
+      "at": "2026-11-25T11:14:53.810Z",
+      "titre": "Pont Rouchaud : le pont oublié où se touchent trois ex-régions",
+      "lien": "https://passion-aquitaine.ouest-france.fr/pont-rouchaud-trois-regions-nouvelle-aquitaine/",
+      "lienPost": "https://www.instagram.com/p/DgKZgLEjYry/",
+      "format": null,
+      "texte": "Un pont discret sur la Tardoire porte le 🧭 centre symbolique de la plus vaste région de France\n⠀\nAu pont Rouchaud se touchent trois départements : Charente, Dordogne et Haute-Vienne. Un lieu oublié où se croisent trois anciennes régions.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Charente #PontRouchaud #Patrimoine",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261123-965863c4-1.jpg"
+    },
     {
       "channel": "threads",
       "at": "2026-11-25T10:18:55.237Z",
@@ -487,28 +513,9 @@
       "format": "reponse",
       "texte": "Des fours modernisés à coups de millions, bientôt éteints 🔥 À #Vayres, en Gironde, un projet d’arrêt définitif de la production est annoncé à la verrerie, qui avait reçu 50 millions d’euros en 2023.",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261124-fe633aba-x.jpg"
-    },
-    {
-      "channel": "threads",
-      "at": "2026-11-24T13:08:26.141Z",
-      "titre": "Installé à Djibouti, ce maire girondin touchait l’indemnité maximale autorisée",
-      "lien": "https://passion-aquitaine.ouest-france.fr/casseuil-maire-djibouti-indemnite-demission/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/DgIBdjXG8sD",
-      "format": "reponse",
-      "texte": "Un élu peut vivre à l’autre bout du monde et garder son écharpe 🏛️ C’est ce qui s’est passé à Casseuil, en Gironde : installé à Djibouti, le maire touchait 1 155 euros par mois, le plafond légal. Ni son conseil municipal ni le sous-préfet n’avaient les moyens juridiques de le démettre. De quoi mieux comprendre les limites du contrôle des mandats locaux.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261124-16415a20-th.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "instagram",
-      "dueAt": "2026-11-25T11:14:11.441Z",
-      "prochainPassage": "2026-11-25T11:20:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": "2026-11-24T18:27:52.609Z",
-      "raison": "le nombre de posts du jour était atteint",
-      "titre": "Pont Rouchaud : le pont oublié où se touchent trois ex-régions"
-    },
     {
       "channel": "instagram",
       "dueAt": "2026-11-25T18:12:10.011Z",
@@ -604,7 +611,7 @@
     }
   ],
   "mesures": {
-    "releves": 714,
+    "releves": 715,
     "parReseau": {
       "instagram": {
         "posts": 86,
@@ -721,7 +728,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-25T09:21:03.726Z"
+    "derniere": "2026-11-25T11:00:56.935Z"
   },
   "abonnes": {
     "instagram": {
@@ -760,12 +767,12 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-25T10:20:49.512Z",
-    "posts": 129,
+    "genereLe": "2026-11-25T11:14:57.645Z",
+    "posts": 130,
     "parReseau": {
       "threads": {
-        "posts": 33,
-        "moyenne": 14.7
+        "posts": 34,
+        "moyenne": 14.5
       },
       "instagram": {
         "posts": 30,
@@ -782,8 +789,8 @@
     },
     "parFormat": {
       "reponse": {
-        "posts": 33,
-        "moyenne": 14.7
+        "posts": 34,
+        "moyenne": 14.5
       },
       "card": {
         "posts": 9,
@@ -800,7 +807,7 @@
     },
     "parCreneau": {
       "matin": {
-        "posts": 69,
+        "posts": 70,
         "moyenne": 6.8
       },
       "après-midi": {
@@ -819,7 +826,7 @@
           "moyenne": 20.5
         },
         "10 h – 11 h 30": {
-          "posts": 11,
+          "posts": 12,
           "moyenne": 8.8
         },
         "13 h – 14 h 30": {
@@ -878,7 +885,7 @@
         }
       }
     },
-    "interactionsTotal": 756,
+    "interactionsTotal": 764,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36189",
       "channel": "threads",
@@ -925,8 +932,8 @@
         "moyenne": 5.9
       },
       "sans": {
-        "posts": 76,
-        "moyenne": 5.8
+        "posts": 77,
+        "moyenne": 5.9
       }
     },
     "publies": {
@@ -934,7 +941,7 @@
       "facebook": 35,
       "bluesky": 37,
       "x": 37,
-      "instagram": 32
+      "instagram": 33
     },
     "abonnes": {
       "instagram": {
@@ -972,7 +979,7 @@
       "x": null
     },
     "engagement": {
-      "threads": 1.25,
+      "threads": 1.24,
       "instagram": 0.07,
       "facebook": 0
     },
@@ -980,7 +987,7 @@
       "Threads : le créneau 7 h – 8 h 30 fait 3,4 fois mieux que 13 h – 14 h 30 (20.5 contre 6 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Facebook : le créneau 20 h – 21 h 30 fait 39 fois mieux que 8 h – 9 h 30 (3.9 contre 0.1 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Instagram : le créneau 12 h – 13 h 30 fait 1,8 fois mieux que 18 h – 19 h 30 (9 contre 5.1 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
-      "Le format « reponse » fait 147 fois mieux que « reply » (14.7 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « reply » de la rotation dans config/channels.json."
+      "Le format « reponse » fait 145 fois mieux que « reply » (14.5 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « reply » de la rotation dans config/channels.json."
     ]
   },
   "couts": {

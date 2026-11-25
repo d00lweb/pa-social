@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-25T14:20:52.342Z",
+  "genereLe": "2026-11-25T15:01:10.159Z",
   "jour": "2026-11-25",
   "reseaux": {
     "instagram": {
@@ -611,7 +611,7 @@
     }
   ],
   "mesures": {
-    "releves": 720,
+    "releves": 722,
     "parReseau": {
       "instagram": {
         "posts": 87,
@@ -767,8 +767,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-25T14:20:57.428Z",
-    "posts": 133,
+    "genereLe": "2026-11-25T15:01:16.548Z",
+    "posts": 135,
     "parReseau": {
       "threads": {
         "posts": 35,
@@ -779,11 +779,11 @@
         "moyenne": 7.7
       },
       "facebook": {
-        "posts": 32,
-        "moyenne": 1.4
+        "posts": 33,
+        "moyenne": 1.3
       },
       "bluesky": {
-        "posts": 35,
+        "posts": 36,
         "moyenne": 0
       }
     },
@@ -793,7 +793,7 @@
         "moyenne": 15
       },
       "card": {
-        "posts": 9,
+        "posts": 10,
         "moyenne": 0.1
       },
       "image": {
@@ -811,8 +811,8 @@
         "moyenne": 6.8
       },
       "après-midi": {
-        "posts": 38,
-        "moyenne": 6.5
+        "posts": 40,
+        "moyenne": 6.2
       },
       "soir": {
         "posts": 25,
@@ -848,7 +848,7 @@
           "moyenne": 0.1
         },
         "hors créneau": {
-          "posts": 1,
+          "posts": 2,
           "moyenne": 0
         }
       },
@@ -858,7 +858,7 @@
           "moyenne": 0.1
         },
         "hors créneau": {
-          "posts": 1,
+          "posts": 2,
           "moyenne": 0
         },
         "12 h – 13 h 30": {
@@ -907,24 +907,27 @@
       "creneauReseau": "7 h – 8 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36315",
-      "channel": "bluesky",
-      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3n32kaqak5522",
-      "publieLe": "2026-11-24T11:31:33.393Z",
-      "format": "reply",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36305",
+      "channel": "facebook",
+      "mediaId": "227437307428711_1801447981981082",
+      "publieLe": "2026-11-24T14:34:53.132Z",
+      "format": null,
       "jalon": 1,
-      "releveLe": "2026-11-25T12:01:00.289Z",
+      "releveLe": "2026-11-25T15:01:10.159Z",
       "likes": 0,
-      "commentairesBruts": 1,
+      "commentairesBruts": 0,
       "partages": 0,
-      "vues": null,
+      "vues": 298,
+      "reactions": 0,
+      "portee": 0,
+      "clics": 9,
       "commentaires": 0,
       "v": 2,
-      "titre": "Installé à Djibouti, ce maire girondin touchait l’indemnité maximale autorisée",
-      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n32kaqak5522",
+      "titre": "50 millions investis puis une fermeture : ce qui se joue vraiment dans cette verrerie de Vayres",
+      "lien": "https://www.facebook.com/1720946116697936/posts/1801447981981082",
       "mention": false,
       "creneau": "après-midi",
-      "creneauReseau": "12 h – 13 h 30"
+      "creneauReseau": "hors créneau"
     },
     "mentions": {
       "avec": {
@@ -932,8 +935,8 @@
         "moyenne": 6.1
       },
       "sans": {
-        "posts": 79,
-        "moyenne": 6.1
+        "posts": 81,
+        "moyenne": 6
       }
     },
     "publies": {

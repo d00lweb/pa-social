@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-25T19:01:07.620Z",
+  "genereLe": "2026-11-25T19:20:52.062Z",
   "jour": "2026-11-25",
   "reseaux": {
     "instagram": {
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 1,
-      "semaine": 13,
-      "total": 95,
-      "dernier": "2026-11-25T07:14:55.149Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1802290578563489"
+      "aujourdhui": 2,
+      "semaine": 14,
+      "total": 96,
+      "dernier": "2026-11-25T19:27:25.402Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1802980318494515"
     },
     "threads": {
       "actif": true,
@@ -164,6 +164,46 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36283",
+      "titre": "Dans cette gare de Corrèze, il faut héler le train pour monter",
+      "lien": "https://passion-aquitaine.ouest-france.fr/gare-perols-vezere-arret-demande-voyageurs/",
+      "at": "2026-11-25T19:27:25.402Z",
+      "reseaux": {
+        "bluesky": {
+          "texte": "À #PerolsSurVezere, en #Corrèze, le TER ne s’arrête pas tout seul 🚉 Il faut lui faire signe pour monter. Avec 592 passages en 2025, soit moins de deux par jour, la halte vit au rythme de ses rares voyageurs.\n➡️ Lire l’article",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261124-0b305ed9-bsky.jpg",
+          "mode": "image",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-24T07:30:11.720Z"
+        },
+        "x": {
+          "texte": "Pour monter dans le TER à Pérols-sur-Vézère, en #Corrèze, un geste suffit : faire signe au train, sinon il ne s’arrête pas. Moins de deux passages par jour ici 🙋",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261124-0b305ed9-x.jpg",
+          "mode": "reponse",
+          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/gare-perols-vezere-arret-demande-voyageurs/",
+          "sujet": null,
+          "publieLe": "2026-11-24T09:21:24.652Z"
+        },
+        "threads": {
+          "texte": "Imaginez un train qui file sans s’arrêter si vous ne lui faites pas signe. C’est la règle à Pérols-sur-Vézère, en Corrèze : 🚦 le TER ne marque l’arrêt que si on le hèle. En 2025, la gare a compté 592 passages, moins de deux par jour.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261124-0b305ed9-th.jpg",
+          "mode": "reponse",
+          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/gare-perols-vezere-arret-demande-voyageurs/",
+          "sujet": "Pérols-sur-Vézère",
+          "publieLe": "2026-11-24T10:32:42.583Z"
+        },
+        "facebook": {
+          "texte": "Moins de deux passages par jour : à Pérols-sur-Vézère, le TER ne s’arrête que si on lui fait signe 🚆\nL’article est en premier commentaire.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261124-0b305ed9-fb.jpg",
+          "mode": "photo",
+          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/gare-perols-vezere-arret-demande-voyageurs/?at_medium=social&at_campaign=fb-photo",
+          "sujet": null,
+          "publieLe": "2026-11-25T19:27:25.402Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36295",
       "titre": "Vautours d’Ossau : un bénévole de 89 ans fournit l’essentiel des données du Parc national",
@@ -371,57 +411,19 @@
           "publieLe": "2026-11-24T13:08:26.141Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36291",
-      "titre": "Vignes bordelaises à vendre : l’auteur de Gomorra redoute l’argent des mafias",
-      "lien": "https://passion-aquitaine.ouest-france.fr/vignoble-bordelais-mafias-saviano-gomorra/",
-      "at": "2026-11-24T12:30:16.143Z",
-      "reseaux": {
-        "threads": {
-          "texte": "Qui achète vraiment les vignes bordelaises mises en vente ? L’auteur de Gomorra pose la question sans détour ℹ️ En 2024, neuf châteaux du vignoble ont été confisqués pour blanchiment, et il y soupçonne l’appétit des mafias.\n@villedebordeaux",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261122-94a71a8e-th.jpg",
-          "mode": "reponse",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/vignoble-bordelais-mafias-saviano-gomorra/",
-          "sujet": "Bordeaux",
-          "publieLe": "2026-11-23T07:12:24.648Z"
-        },
-        "bluesky": {
-          "texte": "Des rangs de vignes à vendre, et dans l’ombre, l’argent sale 🗞️ Autour de #Bordeaux, neuf châteaux ont été confisqués pour blanchiment en 2024, et l’auteur de Gomorra redoute l’appétit des mafias.\n@villedebordeaux.bsky.social",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261122-94a71a8e-bsky.jpg",
-          "mode": "card",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-23T08:13:33.083Z"
-        },
-        "x": {
-          "texte": "Neuf châteaux du vignoble bordelais confisqués pour blanchiment en 2024. L’auteur de Gomorra redoute que l’argent des mafias lorgne sur les vignes à vendre 📍",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261122-94a71a8e-x.jpg",
-          "mode": "reponse",
-          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/vignoble-bordelais-mafias-saviano-gomorra/",
-          "sujet": null,
-          "publieLe": "2026-11-23T09:22:32.753Z"
-        },
-        "facebook": {
-          "texte": "Derrière certaines ventes de vignes bordelaises, l’auteur de Gomorra soupçonne l’argent du crime organisé 📰\nL’article est en premier commentaire.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261122-94a71a8e-fb.jpg",
-          "mode": "photo",
-          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/vignoble-bordelais-mafias-saviano-gomorra/?at_medium=social&at_campaign=fb-photo",
-          "sujet": null,
-          "publieLe": "2026-11-23T19:13:43.035Z"
-        },
-        "instagram": {
-          "texte": "Neuf châteaux du vignoble bordelais confisqués pour blanchiment en une seule année\n⠀\nL’auteur de Gomorra alerte sur l’argent des mafias qui pourrait s’intéresser aux vignes à vendre autour de Bordeaux. Un éclairage utile pour comprendre ce qui se joue derrière les ventes de domaines en Gironde 📰\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Bordeaux #VignobleBordelais #Vin",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261122-94a71a8e-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-24T12:30:16.143Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "facebook",
+      "at": "2026-11-25T19:27:25.402Z",
+      "titre": "Dans cette gare de Corrèze, il faut héler le train pour monter",
+      "lien": "https://passion-aquitaine.ouest-france.fr/gare-perols-vezere-arret-demande-voyageurs/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1802980318494515",
+      "format": "photo",
+      "texte": "Moins de deux passages par jour : à Pérols-sur-Vézère, le TER ne s’arrête que si on lui fait signe 🚆\nL’article est en premier commentaire.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261124-0b305ed9-fb.jpg"
+    },
     {
       "channel": "instagram",
       "at": "2026-11-25T18:12:45.304Z",
@@ -511,28 +513,9 @@
       "format": "lien",
       "texte": "50 millions d’euros avaient été injectés dans cette verrerie girondine, et aujourd’hui on parle d’arrêter la production 🏭",
       "image": null
-    },
-    {
-      "channel": "bluesky",
-      "at": "2026-11-24T14:30:51.067Z",
-      "titre": "50 millions investis puis une fermeture : ce qui se joue vraiment dans cette verrerie de Vayres",
-      "lien": "https://passion-aquitaine.ouest-france.fr/verrerie-vayres-fermeture/",
-      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n32ubdcs4l2g",
-      "format": "card",
-      "texte": "Pour comprendre l’avenir industriel du territoire : à #Vayres, la verrerie fait l’objet d’un projet d’arrêt définitif de production, malgré 50 millions d’euros investis en 2023 🏭",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261124-fe633aba-bsky.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "facebook",
-      "dueAt": "2026-11-25T19:25:11.644Z",
-      "prochainPassage": "2026-11-25T20:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": "2026-11-25T07:32:57.146Z",
-      "raison": "un autre post occupait déjà ce créneau",
-      "titre": "Dans cette gare de Corrèze, il faut héler le train pour monter"
-    },
     {
       "channel": "facebook",
       "dueAt": "2026-11-26T08:11:17.900Z",
@@ -766,7 +749,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-25T19:01:12.238Z",
+    "genereLe": "2026-11-25T19:27:27.888Z",
     "posts": 136,
     "parReseau": {
       "threads": {
@@ -940,7 +923,7 @@
     },
     "publies": {
       "threads": 37,
-      "facebook": 35,
+      "facebook": 36,
       "bluesky": 37,
       "x": 37,
       "instagram": 34

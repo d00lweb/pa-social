@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-26T07:00:45.895Z",
+  "genereLe": "2026-11-26T07:23:07.363Z",
   "jour": "2026-11-26",
   "reseaux": {
     "instagram": {
@@ -122,11 +122,11 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 14,
-      "total": 97,
-      "dernier": "2026-11-25T10:18:55.237Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DgKSpzKkUqG"
+      "aujourdhui": 1,
+      "semaine": 15,
+      "total": 98,
+      "dernier": "2026-11-26T07:30:15.596Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DgMkQ3ZG4H5"
     },
     "x": {
       "actif": true,
@@ -164,6 +164,22 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36323",
+      "titre": "Gare de Libourne : la petite ville qui a devancé Limoges",
+      "lien": "https://passion-aquitaine.ouest-france.fr/gare-libourne-voyageurs-limoges-2025/",
+      "at": "2026-11-26T07:30:15.596Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Comment une gare de petite ville peut-elle dépasser celle d’une capitale régionale historique ? À Libourne, la réponse tient en trois lettres 🚆 RER. Grâce au RER métropolitain, la gare a compté 2,11 millions de passages en 2025, plus que Limoges-Bénédictins. Vous l’empruntez, ce RER ?",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261126-49b560f0-th.jpg",
+          "mode": "reponse",
+          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/gare-libourne-voyageurs-limoges-2025/",
+          "sujet": "Libourne",
+          "publieLe": "2026-11-26T07:30:15.596Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36283",
       "titre": "Dans cette gare de Corrèze, il faut héler le train pour monter",
@@ -379,41 +395,19 @@
           "publieLe": "2026-11-25T06:11:28.753Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36315",
-      "titre": "Installé à Djibouti, ce maire girondin touchait l’indemnité maximale autorisée",
-      "lien": "https://passion-aquitaine.ouest-france.fr/casseuil-maire-djibouti-indemnite-demission/",
-      "at": "2026-11-24T13:08:26.141Z",
-      "reseaux": {
-        "x": {
-          "texte": "#Casseuil, Gironde : impossible de démettre un maire absent. Installé à Djibouti, l’élu touchait le plafond légal, et ni le conseil ni le sous-préfet n’avaient ce ⚖️ pouvoir.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261124-16415a20-x.jpg",
-          "mode": "reponse",
-          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/casseuil-maire-djibouti-indemnite-demission/",
-          "sujet": null,
-          "publieLe": "2026-11-24T11:00:58.229Z"
-        },
-        "bluesky": {
-          "texte": "✈️ Un maire de #Gironde gérait sa commune depuis Djibouti. À #Casseuil, il percevait 1 155 euros par mois, le maximum autorisé, sans que le conseil ni le sous-préfet puissent le démettre.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261124-16415a20-bsky.jpg",
-          "mode": "reply",
-          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/casseuil-maire-djibouti-indemnite-demission/",
-          "sujet": null,
-          "publieLe": "2026-11-24T11:31:33.393Z"
-        },
-        "threads": {
-          "texte": "Un élu peut vivre à l’autre bout du monde et garder son écharpe 🏛️ C’est ce qui s’est passé à Casseuil, en Gironde : installé à Djibouti, le maire touchait 1 155 euros par mois, le plafond légal. Ni son conseil municipal ni le sous-préfet n’avaient les moyens juridiques de le démettre. De quoi mieux comprendre les limites du contrôle des mandats locaux.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261124-16415a20-th.jpg",
-          "mode": "reponse",
-          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/casseuil-maire-djibouti-indemnite-demission/",
-          "sujet": "Casseuil",
-          "publieLe": "2026-11-24T13:08:26.141Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "threads",
+      "at": "2026-11-26T07:30:15.596Z",
+      "titre": "Gare de Libourne : la petite ville qui a devancé Limoges",
+      "lien": "https://passion-aquitaine.ouest-france.fr/gare-libourne-voyageurs-limoges-2025/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/DgMkQ3ZG4H5",
+      "format": "reponse",
+      "texte": "Comment une gare de petite ville peut-elle dépasser celle d’une capitale régionale historique ? À Libourne, la réponse tient en trois lettres 🚆 RER. Grâce au RER métropolitain, la gare a compté 2,11 millions de passages en 2025, plus que Limoges-Bénédictins. Vous l’empruntez, ce RER ?",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261126-49b560f0-th.jpg"
+    },
     {
       "channel": "facebook",
       "at": "2026-11-25T19:27:25.402Z",
@@ -503,28 +497,9 @@
       "format": null,
       "texte": "Vayres, en Gironde : la verrerie pourrait arrêter définitivement sa production 🏭\n⠀\nUn projet de fermeture a été annoncé, trois ans après 50 millions d’euros d’investissement en 2023. Retour sur ce qui se joue dans cette usine girondine.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Vayres #Verrerie #Industrie",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261124-fe633aba-1.jpg"
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-11-24T14:34:53.132Z",
-      "titre": "50 millions investis puis une fermeture : ce qui se joue vraiment dans cette verrerie de Vayres",
-      "lien": "https://passion-aquitaine.ouest-france.fr/verrerie-vayres-fermeture/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1801447981981082",
-      "format": "lien",
-      "texte": "50 millions d’euros avaient été injectés dans cette verrerie girondine, et aujourd’hui on parle d’arrêter la production 🏭",
-      "image": null
     }
   ],
   "file": [
-    {
-      "channel": "threads",
-      "dueAt": "2026-11-26T07:26:56.014Z",
-      "prochainPassage": "2026-11-26T08:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Gare de Libourne : la petite ville qui a devancé Limoges"
-    },
     {
       "channel": "x",
       "dueAt": "2026-11-26T08:00:00.000Z",
@@ -683,7 +658,7 @@
     }
   ],
   "mesures": {
-    "releves": 726,
+    "releves": 727,
     "parReseau": {
       "instagram": {
         "posts": 88,
@@ -752,7 +727,12 @@
       ],
       "emisLe": "2026-11-16T13:45:26.000Z"
     },
-    "facebook": null,
+    "facebook": {
+      "publications": 5,
+      "vues": 48756,
+      "invisible": false,
+      "depuis": "2026-11-23T08:30:50.074Z"
+    },
     "alertes": {
       "threads": "2026-11-S3",
       "facebook": "2026-11-S4"
@@ -839,8 +819,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-26T07:01:52.594Z",
-    "posts": 137,
+    "genereLe": "2026-11-26T07:30:19.509Z",
+    "posts": 138,
     "parReseau": {
       "threads": {
         "posts": 36,
@@ -851,8 +831,8 @@
         "moyenne": 7.6
       },
       "facebook": {
-        "posts": 33,
-        "moyenne": 1.3
+        "posts": 34,
+        "moyenne": 1.8
       },
       "bluesky": {
         "posts": 36,
@@ -879,8 +859,8 @@
     },
     "parCreneau": {
       "matin": {
-        "posts": 71,
-        "moyenne": 6.8
+        "posts": 72,
+        "moyenne": 6.9
       },
       "après-midi": {
         "posts": 41,
@@ -916,8 +896,8 @@
           "moyenne": 3.9
         },
         "8 h – 9 h 30": {
-          "posts": 20,
-          "moyenne": 0.1
+          "posts": 21,
+          "moyenne": 0.8
         },
         "hors créneau": {
           "posts": 2,
@@ -957,7 +937,7 @@
         }
       }
     },
-    "interactionsTotal": 816,
+    "interactionsTotal": 832,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36189",
       "channel": "threads",
@@ -1007,12 +987,12 @@
         "moyenne": 6.1
       },
       "sans": {
-        "posts": 83,
-        "moyenne": 5.9
+        "posts": 84,
+        "moyenne": 6
       }
     },
     "publies": {
-      "threads": 37,
+      "threads": 38,
       "facebook": 36,
       "bluesky": 37,
       "x": 37,
@@ -1060,7 +1040,7 @@
     },
     "conseils": [
       "Threads : le créneau 7 h – 8 h 30 fait 2,2 fois mieux que 10 h – 11 h 30 (19.5 contre 8.8 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
-      "Facebook : le créneau 20 h – 21 h 30 fait 39 fois mieux que 8 h – 9 h 30 (3.9 contre 0.1 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
+      "Facebook : le créneau 20 h – 21 h 30 fait 4,9 fois mieux que 8 h – 9 h 30 (3.9 contre 0.8 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Instagram : le créneau 12 h – 13 h 30 fait 1,7 fois mieux que 18 h – 19 h 30 (9.2 contre 5.3 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Le format « reponse » fait 147 fois mieux que « reply » (14.7 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « reply » de la rotation dans config/channels.json."
     ]

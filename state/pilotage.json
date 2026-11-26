@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-26T08:20:40.537Z",
+  "genereLe": "2026-11-26T09:00:36.203Z",
   "jour": "2026-11-26",
   "reseaux": {
     "instagram": {
@@ -89,7 +89,7 @@
       },
       "formats": null,
       "aujourdhui": 1,
-      "semaine": 14,
+      "semaine": 13,
       "total": 97,
       "dernier": "2026-11-26T08:11:28.549Z",
       "lienDernier": "https://www.facebook.com/1720946116697936/posts/1803577061768174"
@@ -639,7 +639,7 @@
     }
   ],
   "mesures": {
-    "releves": 729,
+    "releves": 731,
     "parReseau": {
       "instagram": {
         "posts": 88,
@@ -650,7 +650,7 @@
         "interactionsMoyennes": 0.2
       },
       "facebook": {
-        "posts": 83,
+        "posts": 84,
         "interactionsMoyennes": 0
       },
       "threads": {
@@ -800,8 +800,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-26T08:20:45.213Z",
-    "posts": 138,
+    "genereLe": "2026-11-26T09:00:40.893Z",
+    "posts": 139,
     "parReseau": {
       "threads": {
         "posts": 36,
@@ -816,7 +816,7 @@
         "moyenne": 1.8
       },
       "bluesky": {
-        "posts": 36,
+        "posts": 37,
         "moyenne": 0
       }
     },
@@ -830,7 +830,7 @@
         "moyenne": 0.1
       },
       "image": {
-        "posts": 16,
+        "posts": 17,
         "moyenne": 0
       },
       "reply": {
@@ -840,8 +840,8 @@
     },
     "parCreneau": {
       "matin": {
-        "posts": 72,
-        "moyenne": 6.9
+        "posts": 73,
+        "moyenne": 6.8
       },
       "après-midi": {
         "posts": 41,
@@ -887,7 +887,7 @@
       },
       "bluesky": {
         "8 h – 9 h 30": {
-          "posts": 19,
+          "posts": 20,
           "moyenne": 0.1
         },
         "hors créneau": {
@@ -940,32 +940,29 @@
       "creneauReseau": "7 h – 8 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36305",
-      "channel": "facebook",
-      "mediaId": "227437307428711_1801447981981082",
-      "publieLe": "2026-11-24T14:34:53.132Z",
-      "format": null,
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36306",
+      "channel": "bluesky",
+      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3n34qktnd2o2d",
+      "publieLe": "2026-11-25T08:29:54.381Z",
+      "format": "image",
       "jalon": 1,
-      "releveLe": "2026-11-25T15:01:10.159Z",
+      "releveLe": "2026-11-26T09:00:36.203Z",
       "likes": 0,
       "commentairesBruts": 0,
       "partages": 0,
-      "vues": 298,
-      "reactions": 0,
-      "portee": 0,
-      "clics": 9,
+      "vues": null,
       "commentaires": 0,
       "v": 2,
-      "titre": "50 millions investis puis une fermeture : ce qui se joue vraiment dans cette verrerie de Vayres",
-      "lien": "https://www.facebook.com/1720946116697936/posts/1801447981981082",
-      "mention": false,
-      "creneau": "après-midi",
-      "creneauReseau": "hors créneau"
+      "titre": "Café céramique à Bordeaux : ici, la tasse ne sert pas à boire",
+      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n34qktnd2o2d",
+      "mention": true,
+      "creneau": "matin",
+      "creneauReseau": "8 h – 9 h 30"
     },
     "mentions": {
       "avec": {
-        "posts": 54,
-        "moyenne": 6.1
+        "posts": 55,
+        "moyenne": 6
       },
       "sans": {
         "posts": 84,

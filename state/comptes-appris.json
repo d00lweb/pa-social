@@ -2245,5 +2245,41 @@
     "instagram": [],
     "threads": [],
     "bluesky": []
+  },
+  "commune:mairie:royan": {
+    "v": 3,
+    "cherche": "2026-11-26T12:21:19.321Z",
+    "instagram": [
+      {
+        "handle": "villederoyan",
+        "nom": "Ville de Royan",
+        "abonnes": 16335,
+        "preuve": 3
+      }
+    ],
+    "x": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:royan:vieillissement": {
+    "v": 3,
+    "cherche": "2026-11-26T12:21:19.321Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:royan:logement": {
+    "v": 3,
+    "cherche": "2026-11-26T12:21:19.321Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:royan:demographie": {
+    "v": 3,
+    "cherche": "2026-11-26T12:21:19.321Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
   }
 }

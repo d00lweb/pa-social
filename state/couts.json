@@ -1251,22 +1251,22 @@
     }
   },
   "2026-11-26": {
-    "appels": 8,
-    "entree": 64492,
-    "sortie": 7274,
+    "appels": 10,
+    "entree": 80600,
+    "sortie": 9085,
     "cacheLu": 0,
     "cacheEcrit": 0,
-    "cout": 0.403448,
+    "cout": 0.5041,
     "parModele": {
-      "claude-opus-5-5": 8
+      "claude-opus-5-5": 10
     },
     "parUsage": {
-      "dossier": 8
+      "dossier": 10
     },
     "parOrigine": {
       "robot": {
-        "appels": 8,
-        "cout": 0.403448
+        "appels": 10,
+        "cout": 0.5041
       }
     }
   }

@@ -8854,5 +8854,41 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36336",
+    "channel": "x",
+    "at": "2026-11-26T12:21:40.453Z",
+    "mediaId": "kit-telegram",
+    "titre": "En 2070, la Charente-Maritime ressemblera à Royan : pourquoi la station balnéaire vit déjà dans le futur",
+    "lien": "https://passion-aquitaine.ouest-france.fr/charente-maritime-seniors-royan-2070/",
+    "lienPost": null,
+    "format": "reponse",
+    "mention": true,
+    "apercu": {
+      "texte": "Comprendre la Charente-Maritime de 2070, c’est regarder #Royan aujourd’hui : 49,2 % de seniors, contre 44,4 % projetés par l’Insee pour le département, et des logements adaptés qui manquent 📊",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261126-7ee6e2d3-x.jpg",
+      "mode": "reponse",
+      "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/charente-maritime-seniors-royan-2070/",
+      "sujet": null
+    }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36336",
+    "channel": "bluesky",
+    "at": "2026-11-26T12:29:59.680Z",
+    "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3n37oh32vfy2i",
+    "titre": "En 2070, la Charente-Maritime ressemblera à Royan : pourquoi la station balnéaire vit déjà dans le futur",
+    "lien": "https://passion-aquitaine.ouest-france.fr/charente-maritime-seniors-royan-2070/",
+    "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n37oh32vfy2i",
+    "format": "image",
+    "mention": true,
+    "apercu": {
+      "texte": "#Royan a déjà 49,2 % de seniors 👵 La station balnéaire dépasse la projection de l’@insee.fr pour toute la #CharenteMaritime en 2070, fixée à 44,4 %. Les logements adaptés, eux, manquent.\n➡️ Lire l’article",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261126-7ee6e2d3-bsky.jpg",
+      "mode": "image",
+      "reponse": null,
+      "sujet": null
+    }
   }
 ]

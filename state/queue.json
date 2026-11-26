@@ -1263,119 +1263,126 @@
       "nature": "actu",
       "sensible": false,
       "rubrique": "Royan",
-      "entites": [],
-      "lieu": null,
       "visuel": {
-        "titre": "En 2070, la Charente-Maritime ressemblera à Royan : pourquoi la station balnéaire vit déjà dans le futur",
+        "titre": "En 2070, la Charente-Maritime ressemblera à Royan, station balnéaire qui vit déjà le futur",
         "surlignage": "2070",
-        "description": "L’Insee projette 44,4 % de seniors en Charente-Maritime en 2070. À Royan, ils sont déjà 49,2 %, et les logements adaptés à ces habitants manquent.",
-        "texte_alternatif": "Royan : En 2070, la Charente-Maritime ressemblera à Royan : pourquoi la station balnéaire vit déjà dans le futur"
+        "description": "L’Insee projette 44,4 % de seniors en Charente-Maritime en 2070. À Royan, ils représentent déjà 49,2 % des habitants, et les logements adaptés manquent.",
+        "texte_alternatif": "Royan, station balnéaire de Charente-Maritime où les seniors représentent déjà 49,2 % des habitants, une part que le département pourrait approcher en 2070."
       },
-      "instagram": {
-        "texte": "L’Insee projette 44,4 % de seniors en Charente-Maritime en 2070. À Royan, ils sont déjà 49,2 %, et les logements adaptés à ces habitants manquent 💃",
-        "hashtags": [
-          "#Royan",
-          "#Culture",
-          "#NouvelleAquitaine"
-        ]
-      },
-      "facebook": {
-        "texte": "L’Insee projette 44,4 % de seniors en Charente-Maritime 💃"
-      },
-      "bluesky": {
-        "texte": "L’Insee projette 44,4 % de seniors en Charente-Maritime en 2070. À Royan, ils sont déjà 49,2 %, et les logements adaptés à ces habitants manquent 💃",
-        "hashtag": "#Royan"
-      },
-      "threads": {
-        "texte": "L’Insee projette 44,4 % de seniors en Charente-Maritime en 2070. À Royan, ils sont déjà 49,2 %, et les logements adaptés à ces habitants manquent 💃",
-        "sujet": "Royan"
-      },
-      "x": {
-        "texte": "L’Insee projette 44,4 % de seniors en Charente-Maritime 💃"
-      },
-      "source": "regles",
-      "lieuSource": {
-        "precis": "",
-        "ville": "",
-        "departement": "Royan"
-      },
-      "lieuNom": "Royan",
-      "commune": null,
-      "comptes": {
-        "instagram": [],
-        "x": [],
-        "bluesky": [],
-        "threads": [],
-        "facebook": []
-      }
-    },
-    "previewSent": false
-  },
-  {
-    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36336",
-    "channel": "bluesky",
-    "dueAt": 1795696197135,
-    "status": "pending",
-    "attempts": 0,
-    "article": {
-      "title": "En 2070, la Charente-Maritime ressemblera à Royan : pourquoi la station balnéaire vit déjà dans le futur",
-      "link": "https://passion-aquitaine.ouest-france.fr/charente-maritime-seniors-royan-2070/",
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36336",
-      "pubDate": "Thu, 26 Nov 2026 06:58:04 +0000",
-      "date": 1795676284000,
-      "categories": [
-        "Actus",
-        "Charente-Maritime"
+      "entites": [
+        {
+          "nom": "Insee",
+          "role": "acteur",
+          "type": "organisation"
+        }
       ],
-      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/halle-marche-pietons-royan.jpg",
-      "description": "L’Insee projette 44,4 % de seniors en Charente-Maritime en 2070. À Royan, ils sont déjà 49,2 %, et les logements adaptés à ces habitants manquent."
-    },
-    "dossier": {
-      "nature": "actu",
-      "sensible": false,
-      "rubrique": "Royan",
-      "entites": [],
+      "domaines": [
+        "vieillissement",
+        "logement",
+        "démographie"
+      ],
       "lieu": null,
-      "visuel": {
-        "titre": "En 2070, la Charente-Maritime ressemblera à Royan : pourquoi la station balnéaire vit déjà dans le futur",
-        "surlignage": "2070",
-        "description": "L’Insee projette 44,4 % de seniors en Charente-Maritime en 2070. À Royan, ils sont déjà 49,2 %, et les logements adaptés à ces habitants manquent.",
-        "texte_alternatif": "Royan : En 2070, la Charente-Maritime ressemblera à Royan : pourquoi la station balnéaire vit déjà dans le futur"
-      },
       "instagram": {
-        "texte": "L’Insee projette 44,4 % de seniors en Charente-Maritime en 2070. À Royan, ils sont déjà 49,2 %, et les logements adaptés à ces habitants manquent 💃",
+        "texte": "Et si Royan montrait déjà à quoi ressemblera toute la Charente-Maritime en 2070 ?\nLes seniors y représentent 49,2 % des habitants, quand l’Insee en projette 44,4 % pour le département en 2070. Un défi concret : les logements adaptés manquent 🏠",
         "hashtags": [
           "#Royan",
-          "#Culture",
-          "#NouvelleAquitaine"
+          "#CharenteMaritime",
+          "#Seniors"
         ]
       },
       "facebook": {
-        "texte": "L’Insee projette 44,4 % de seniors en Charente-Maritime 💃"
+        "texte": "Près d’un habitant sur deux a passé l’âge de la retraite à Royan, et les logements adaptés à ces seniors manquent déjà 🏠"
       },
       "bluesky": {
-        "texte": "L’Insee projette 44,4 % de seniors en Charente-Maritime en 2070. À Royan, ils sont déjà 49,2 %, et les logements adaptés à ces habitants manquent 💃",
+        "texte": "Royan a déjà 49,2 % de seniors 👵 La station balnéaire dépasse la projection de l’Insee pour toute la Charente-Maritime en 2070, fixée à 44,4 %. Les logements adaptés, eux, manquent.",
         "hashtag": "#Royan"
       },
       "threads": {
-        "texte": "L’Insee projette 44,4 % de seniors en Charente-Maritime en 2070. À Royan, ils sont déjà 49,2 %, et les logements adaptés à ces habitants manquent 💃",
+        "texte": "On imagine souvent l’avenir loin devant nous. À Royan, il est déjà là : 👴 49,2 % des habitants sont des seniors. C’est plus que ce que l’Insee projette pour toute la Charente-Maritime en 2070, soit 44,4 %. La station balnéaire vit donc avec plusieurs décennies d’avance, et un manque se fait sentir : celui des logements adaptés.",
         "sujet": "Royan"
       },
       "x": {
-        "texte": "L’Insee projette 44,4 % de seniors en Charente-Maritime 💃"
+        "texte": "Comprendre la Charente-Maritime de 2070, c’est regarder Royan aujourd’hui : 49,2 % de seniors, contre 44,4 % projetés par l’Insee pour le département, et des logements adaptés qui manquent 📊"
       },
-      "source": "regles",
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 8069,
+        "output": 896
+      },
+      "angles": {
+        "instagram": "question intrigante",
+        "facebook": "chiffre ou fait marquant en tête",
+        "bluesky": "lieu en tête",
+        "threads": "effet de surprise",
+        "x": "bénéfice pour le lecteur"
+      },
       "lieuSource": {
         "precis": "",
-        "ville": "",
-        "departement": "Royan"
+        "ville": "Royan",
+        "departement": "Charente-Maritime"
       },
       "lieuNom": "Royan",
-      "commune": null,
+      "commune": "Royan",
       "comptes": {
-        "instagram": [],
-        "x": [],
-        "bluesky": [],
+        "instagram": [
+          {
+            "nom": "Insee",
+            "handle": "insee_fr",
+            "abonnes": 36117,
+            "preuve": 3,
+            "role": "acteur",
+            "echelon": "sujet"
+          },
+          {
+            "nom": "Ville de Royan",
+            "handle": "villederoyan",
+            "abonnes": 16335,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          },
+          {
+            "nom": "La Charente-Maritime",
+            "handle": "ma_charente_maritime",
+            "abonnes": 34903,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "Insee",
+            "handle": "InseeFr",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "acteur",
+            "echelon": "sujet"
+          },
+          {
+            "nom": "Charente-Maritime",
+            "handle": "departement17",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "bluesky": [
+          {
+            "nom": "Insee",
+            "handle": "insee.fr",
+            "abonnes": 12779,
+            "preuve": 3,
+            "role": "acteur",
+            "echelon": "sujet"
+          }
+        ],
         "threads": [],
         "facebook": []
       }
@@ -1405,119 +1412,126 @@
       "nature": "actu",
       "sensible": false,
       "rubrique": "Royan",
-      "entites": [],
-      "lieu": null,
       "visuel": {
-        "titre": "En 2070, la Charente-Maritime ressemblera à Royan : pourquoi la station balnéaire vit déjà dans le futur",
+        "titre": "En 2070, la Charente-Maritime ressemblera à Royan, station balnéaire qui vit déjà le futur",
         "surlignage": "2070",
-        "description": "L’Insee projette 44,4 % de seniors en Charente-Maritime en 2070. À Royan, ils sont déjà 49,2 %, et les logements adaptés à ces habitants manquent.",
-        "texte_alternatif": "Royan : En 2070, la Charente-Maritime ressemblera à Royan : pourquoi la station balnéaire vit déjà dans le futur"
+        "description": "L’Insee projette 44,4 % de seniors en Charente-Maritime en 2070. À Royan, ils représentent déjà 49,2 % des habitants, et les logements adaptés manquent.",
+        "texte_alternatif": "Royan, station balnéaire de Charente-Maritime où les seniors représentent déjà 49,2 % des habitants, une part que le département pourrait approcher en 2070."
       },
-      "instagram": {
-        "texte": "L’Insee projette 44,4 % de seniors en Charente-Maritime en 2070. À Royan, ils sont déjà 49,2 %, et les logements adaptés à ces habitants manquent 💃",
-        "hashtags": [
-          "#Royan",
-          "#Culture",
-          "#NouvelleAquitaine"
-        ]
-      },
-      "facebook": {
-        "texte": "L’Insee projette 44,4 % de seniors en Charente-Maritime 💃"
-      },
-      "bluesky": {
-        "texte": "L’Insee projette 44,4 % de seniors en Charente-Maritime en 2070. À Royan, ils sont déjà 49,2 %, et les logements adaptés à ces habitants manquent 💃",
-        "hashtag": "#Royan"
-      },
-      "threads": {
-        "texte": "L’Insee projette 44,4 % de seniors en Charente-Maritime en 2070. À Royan, ils sont déjà 49,2 %, et les logements adaptés à ces habitants manquent 💃",
-        "sujet": "Royan"
-      },
-      "x": {
-        "texte": "L’Insee projette 44,4 % de seniors en Charente-Maritime 💃"
-      },
-      "source": "regles",
-      "lieuSource": {
-        "precis": "",
-        "ville": "",
-        "departement": "Royan"
-      },
-      "lieuNom": "Royan",
-      "commune": null,
-      "comptes": {
-        "instagram": [],
-        "x": [],
-        "bluesky": [],
-        "threads": [],
-        "facebook": []
-      }
-    },
-    "previewSent": false
-  },
-  {
-    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36336",
-    "channel": "x",
-    "dueAt": 1795695600000,
-    "status": "pending",
-    "attempts": 0,
-    "article": {
-      "title": "En 2070, la Charente-Maritime ressemblera à Royan : pourquoi la station balnéaire vit déjà dans le futur",
-      "link": "https://passion-aquitaine.ouest-france.fr/charente-maritime-seniors-royan-2070/",
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36336",
-      "pubDate": "Thu, 26 Nov 2026 06:58:04 +0000",
-      "date": 1795676284000,
-      "categories": [
-        "Actus",
-        "Charente-Maritime"
+      "entites": [
+        {
+          "nom": "Insee",
+          "role": "acteur",
+          "type": "organisation"
+        }
       ],
-      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/halle-marche-pietons-royan.jpg",
-      "description": "L’Insee projette 44,4 % de seniors en Charente-Maritime en 2070. À Royan, ils sont déjà 49,2 %, et les logements adaptés à ces habitants manquent."
-    },
-    "dossier": {
-      "nature": "actu",
-      "sensible": false,
-      "rubrique": "Royan",
-      "entites": [],
+      "domaines": [
+        "vieillissement",
+        "logement",
+        "démographie"
+      ],
       "lieu": null,
-      "visuel": {
-        "titre": "En 2070, la Charente-Maritime ressemblera à Royan : pourquoi la station balnéaire vit déjà dans le futur",
-        "surlignage": "2070",
-        "description": "L’Insee projette 44,4 % de seniors en Charente-Maritime en 2070. À Royan, ils sont déjà 49,2 %, et les logements adaptés à ces habitants manquent.",
-        "texte_alternatif": "Royan : En 2070, la Charente-Maritime ressemblera à Royan : pourquoi la station balnéaire vit déjà dans le futur"
-      },
       "instagram": {
-        "texte": "L’Insee projette 44,4 % de seniors en Charente-Maritime en 2070. À Royan, ils sont déjà 49,2 %, et les logements adaptés à ces habitants manquent 💃",
+        "texte": "Et si Royan montrait déjà à quoi ressemblera toute la Charente-Maritime en 2070 ?\nLes seniors y représentent 49,2 % des habitants, quand l’Insee en projette 44,4 % pour le département en 2070. Un défi concret : les logements adaptés manquent 🏠",
         "hashtags": [
           "#Royan",
-          "#Culture",
-          "#NouvelleAquitaine"
+          "#CharenteMaritime",
+          "#Seniors"
         ]
       },
       "facebook": {
-        "texte": "L’Insee projette 44,4 % de seniors en Charente-Maritime 💃"
+        "texte": "Près d’un habitant sur deux a passé l’âge de la retraite à Royan, et les logements adaptés à ces seniors manquent déjà 🏠"
       },
       "bluesky": {
-        "texte": "L’Insee projette 44,4 % de seniors en Charente-Maritime en 2070. À Royan, ils sont déjà 49,2 %, et les logements adaptés à ces habitants manquent 💃",
+        "texte": "Royan a déjà 49,2 % de seniors 👵 La station balnéaire dépasse la projection de l’Insee pour toute la Charente-Maritime en 2070, fixée à 44,4 %. Les logements adaptés, eux, manquent.",
         "hashtag": "#Royan"
       },
       "threads": {
-        "texte": "L’Insee projette 44,4 % de seniors en Charente-Maritime en 2070. À Royan, ils sont déjà 49,2 %, et les logements adaptés à ces habitants manquent 💃",
+        "texte": "On imagine souvent l’avenir loin devant nous. À Royan, il est déjà là : 👴 49,2 % des habitants sont des seniors. C’est plus que ce que l’Insee projette pour toute la Charente-Maritime en 2070, soit 44,4 %. La station balnéaire vit donc avec plusieurs décennies d’avance, et un manque se fait sentir : celui des logements adaptés.",
         "sujet": "Royan"
       },
       "x": {
-        "texte": "L’Insee projette 44,4 % de seniors en Charente-Maritime 💃"
+        "texte": "Comprendre la Charente-Maritime de 2070, c’est regarder Royan aujourd’hui : 49,2 % de seniors, contre 44,4 % projetés par l’Insee pour le département, et des logements adaptés qui manquent 📊"
       },
-      "source": "regles",
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 8069,
+        "output": 896
+      },
+      "angles": {
+        "instagram": "question intrigante",
+        "facebook": "chiffre ou fait marquant en tête",
+        "bluesky": "lieu en tête",
+        "threads": "effet de surprise",
+        "x": "bénéfice pour le lecteur"
+      },
       "lieuSource": {
         "precis": "",
-        "ville": "",
-        "departement": "Royan"
+        "ville": "Royan",
+        "departement": "Charente-Maritime"
       },
       "lieuNom": "Royan",
-      "commune": null,
+      "commune": "Royan",
       "comptes": {
-        "instagram": [],
-        "x": [],
-        "bluesky": [],
+        "instagram": [
+          {
+            "nom": "Insee",
+            "handle": "insee_fr",
+            "abonnes": 36117,
+            "preuve": 3,
+            "role": "acteur",
+            "echelon": "sujet"
+          },
+          {
+            "nom": "Ville de Royan",
+            "handle": "villederoyan",
+            "abonnes": 16335,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          },
+          {
+            "nom": "La Charente-Maritime",
+            "handle": "ma_charente_maritime",
+            "abonnes": 34903,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "Insee",
+            "handle": "InseeFr",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "acteur",
+            "echelon": "sujet"
+          },
+          {
+            "nom": "Charente-Maritime",
+            "handle": "departement17",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "bluesky": [
+          {
+            "nom": "Insee",
+            "handle": "insee.fr",
+            "abonnes": 12779,
+            "preuve": 3,
+            "role": "acteur",
+            "echelon": "sujet"
+          }
+        ],
         "threads": [],
         "facebook": []
       }

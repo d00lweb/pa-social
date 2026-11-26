@@ -1,5 +1,5 @@
 {
-  "angleIndex": 7,
+  "angleIndex": 1,
   "recent": {
     "instagram": [
       "🍄 127 tonnes importées, 75 récoltées : la France achète plus de truffes qu’elle n’en sort de terre\nLe pays de la truffe du Périgord se fournit surtout en Itali",
@@ -148,9 +148,6 @@
   ],
   "mentionsParReseau": {
     "instagram": [
-      "bayonnemaville",
-      "visitbayonne",
-      "enpaysbasque_euskalherrian",
       "departementgironde",
       "departement_landes",
       "departementgironde",
@@ -207,11 +204,12 @@
       "bordeauxceramique",
       "limogesbenedictins",
       "libournefr",
-      "sncf.ter.nouvelle.aquitaine"
+      "sncf.ter.nouvelle.aquitaine",
+      "insee_fr",
+      "villederoyan",
+      "ma_charente_maritime"
     ],
     "x": [
-      "VilleDeBayonne",
-      "departement64",
       "departement64",
       "cddordogne",
       "Ville2Biarritz",
@@ -269,7 +267,9 @@
       "gironde",
       "Bordeaux",
       "gironde",
-      "ville_libourne"
+      "ville_libourne",
+      "InseeFr",
+      "departement17"
     ],
     "threads": [
       "villedemerignac",
@@ -325,13 +325,23 @@
       "villedebergerac.bsky.social",
       "villedebordeaux.bsky.social",
       "villedebordeaux.bsky.social",
-      "villelibourne.bsky.social"
+      "villelibourne.bsky.social",
+      "insee.fr"
     ]
   },
   "dernieresMentions": {
-    "instagram": [],
-    "x": [],
-    "bluesky": [],
+    "instagram": [
+      "insee_fr",
+      "villederoyan",
+      "ma_charente_maritime"
+    ],
+    "x": [
+      "InseeFr",
+      "departement17"
+    ],
+    "bluesky": [
+      "insee.fr"
+    ],
     "threads": [],
     "facebook": []
   }

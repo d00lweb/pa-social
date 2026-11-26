@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-26T12:00:40.195Z",
+  "genereLe": "2026-11-26T12:20:58.411Z",
   "jour": "2026-11-26",
   "reseaux": {
     "instagram": {
@@ -60,11 +60,11 @@
         "image",
         "reply"
       ],
-      "aujourdhui": 1,
-      "semaine": 14,
-      "total": 101,
-      "dernier": "2026-11-26T08:14:56.951Z",
-      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n37a6yp5gj22"
+      "aujourdhui": 2,
+      "semaine": 15,
+      "total": 102,
+      "dernier": "2026-11-26T12:29:59.680Z",
+      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n37oh32vfy2i"
     },
     "facebook": {
       "actif": true,
@@ -156,14 +156,46 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 1,
-      "semaine": 14,
-      "total": 101,
-      "dernier": "2026-11-26T08:00:51.067Z",
+      "aujourdhui": 2,
+      "semaine": 15,
+      "total": 102,
+      "dernier": "2026-11-26T12:21:40.453Z",
       "lienDernier": null
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36336",
+      "titre": "En 2070, la Charente-Maritime ressemblera à Royan : pourquoi la station balnéaire vit déjà dans le futur",
+      "lien": "https://passion-aquitaine.ouest-france.fr/charente-maritime-seniors-royan-2070/",
+      "at": "2026-11-26T12:29:59.680Z",
+      "reseaux": {
+        "threads": {
+          "texte": "L’Insee projette 44,4 % de seniors en Charente-Maritime en 2070. À Royan, ils sont déjà 49,2 %, et les logements adaptés à ces habitants manquent 💃",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261126-7ee6e2d3-th.jpg",
+          "mode": "reponse",
+          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/charente-maritime-seniors-royan-2070/",
+          "sujet": "Royan",
+          "publieLe": "2026-11-26T10:15:34.474Z"
+        },
+        "x": {
+          "texte": "Comprendre la Charente-Maritime de 2070, c’est regarder #Royan aujourd’hui : 49,2 % de seniors, contre 44,4 % projetés par l’Insee pour le département, et des logements adaptés qui manquent 📊",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261126-7ee6e2d3-x.jpg",
+          "mode": "reponse",
+          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/charente-maritime-seniors-royan-2070/",
+          "sujet": null,
+          "publieLe": "2026-11-26T12:21:40.453Z"
+        },
+        "bluesky": {
+          "texte": "#Royan a déjà 49,2 % de seniors 👵 La station balnéaire dépasse la projection de l’@insee.fr pour toute la #CharenteMaritime en 2070, fixée à 44,4 %. Les logements adaptés, eux, manquent.\n➡️ Lire l’article",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261126-7ee6e2d3-bsky.jpg",
+          "mode": "image",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-26T12:29:59.680Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36283",
       "titre": "Dans cette gare de Corrèze, il faut héler le train pour monter",
@@ -209,22 +241,6 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-11-26T11:03:35.135Z"
-        }
-      }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36336",
-      "titre": "En 2070, la Charente-Maritime ressemblera à Royan : pourquoi la station balnéaire vit déjà dans le futur",
-      "lien": "https://passion-aquitaine.ouest-france.fr/charente-maritime-seniors-royan-2070/",
-      "at": "2026-11-26T10:15:34.474Z",
-      "reseaux": {
-        "threads": {
-          "texte": "L’Insee projette 44,4 % de seniors en Charente-Maritime en 2070. À Royan, ils sont déjà 49,2 %, et les logements adaptés à ces habitants manquent 💃",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261126-7ee6e2d3-th.jpg",
-          "mode": "reponse",
-          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/charente-maritime-seniors-royan-2070/",
-          "sujet": "Royan",
-          "publieLe": "2026-11-26T10:15:34.474Z"
         }
       }
     },
@@ -399,6 +415,26 @@
   ],
   "publications": [
     {
+      "channel": "bluesky",
+      "at": "2026-11-26T12:29:59.680Z",
+      "titre": "En 2070, la Charente-Maritime ressemblera à Royan : pourquoi la station balnéaire vit déjà dans le futur",
+      "lien": "https://passion-aquitaine.ouest-france.fr/charente-maritime-seniors-royan-2070/",
+      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n37oh32vfy2i",
+      "format": "image",
+      "texte": "#Royan a déjà 49,2 % de seniors 👵 La station balnéaire dépasse la projection de l’@insee.fr pour toute la #CharenteMaritime en 2070, fixée à 44,4 %. Les logements adaptés, eux, manquent.\n➡️ Lire l’article",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261126-7ee6e2d3-bsky.jpg"
+    },
+    {
+      "channel": "x",
+      "at": "2026-11-26T12:21:40.453Z",
+      "titre": "En 2070, la Charente-Maritime ressemblera à Royan : pourquoi la station balnéaire vit déjà dans le futur",
+      "lien": "https://passion-aquitaine.ouest-france.fr/charente-maritime-seniors-royan-2070/",
+      "lienPost": null,
+      "format": "reponse",
+      "texte": "Comprendre la Charente-Maritime de 2070, c’est regarder #Royan aujourd’hui : 49,2 % de seniors, contre 44,4 % projetés par l’Insee pour le département, et des logements adaptés qui manquent 📊",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261126-7ee6e2d3-x.jpg"
+    },
+    {
       "channel": "instagram",
       "at": "2026-11-26T11:03:35.135Z",
       "titre": "Dans cette gare de Corrèze, il faut héler le train pour monter",
@@ -477,47 +513,9 @@
       "format": null,
       "texte": "Au-dessus de Castet, les vautours fauves planent, et un homme de 89 ans lit leurs bagues 🦅\n⠀\nEn vallée d’Ossau, ce bénévole fournit l’essentiel des données du Parc national. Ses relevés comptent au moment du bilan du plan avec les éleveurs.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Béarn #VautourFauve #ValléeDOssau",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261123-30597995-1.jpg"
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-11-25T11:14:53.810Z",
-      "titre": "Pont Rouchaud : le pont oublié où se touchent trois ex-régions",
-      "lien": "https://passion-aquitaine.ouest-france.fr/pont-rouchaud-trois-regions-nouvelle-aquitaine/",
-      "lienPost": "https://www.instagram.com/p/DgKZgLEjYry/",
-      "format": null,
-      "texte": "Un pont discret sur la Tardoire porte le 🧭 centre symbolique de la plus vaste région de France\n⠀\nAu pont Rouchaud se touchent trois départements : Charente, Dordogne et Haute-Vienne. Un lieu oublié où se croisent trois anciennes régions.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Charente #PontRouchaud #Patrimoine",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261123-965863c4-1.jpg"
-    },
-    {
-      "channel": "threads",
-      "at": "2026-11-25T10:18:55.237Z",
-      "titre": "Café céramique à Bordeaux : ici, la tasse ne sert pas à boire",
-      "lien": "https://passion-aquitaine.ouest-france.fr/kasbah-cafe-ceramique-bordeaux-peinture/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/DgKSpzKkUqG",
-      "format": "reponse",
-      "texte": "Un pinceau, une tasse encore blanche, une théière qui attend ses motifs. Chez @kasbah_cafe_ceramique, à Bordeaux, on peint d’abord, puis tout part au four. Et c’est là, au-delà de 1 000 °C, que les couleurs prennent enfin tout leur éclat ☕\n@villedebordeaux @visitbordeaux",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261125-433f1e9c-th.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "x",
-      "dueAt": "2026-11-26T12:20:00.000Z",
-      "prochainPassage": "2026-11-26T12:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "En 2070, la Charente-Maritime ressemblera à Royan : pourquoi la station balnéaire vit déjà dans le futur"
-    },
-    {
-      "channel": "bluesky",
-      "dueAt": "2026-11-26T12:29:57.135Z",
-      "prochainPassage": "2026-11-26T13:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "En 2070, la Charente-Maritime ressemblera à Royan : pourquoi la station balnéaire vit déjà dans le futur"
-    },
     {
       "channel": "instagram",
       "dueAt": "2026-11-26T18:24:10.548Z",
@@ -774,7 +772,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-26T12:00:45.927Z",
+    "genereLe": "2026-11-26T12:30:08.507Z",
     "posts": 141,
     "parReseau": {
       "threads": {
@@ -946,8 +944,8 @@
     "publies": {
       "threads": 39,
       "facebook": 37,
-      "bluesky": 38,
-      "x": 38,
+      "bluesky": 39,
+      "x": 39,
       "instagram": 35
     },
     "abonnes": {
@@ -999,29 +997,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 8,
-      "entree": 64492,
-      "sortie": 7274,
-      "cout": 0.403448,
+      "appels": 10,
+      "entree": 80600,
+      "sortie": 9085,
+      "cout": 0.5041,
       "cle": "2026-11-26"
     },
     "semaine": {
-      "appels": 30,
-      "entree": 241195,
-      "sortie": 29110,
-      "cout": 1.5469799999999998
+      "appels": 32,
+      "entree": 257303,
+      "sortie": 30921,
+      "cout": 1.647632
     },
     "mois": {
-      "appels": 95,
-      "entree": 761189,
-      "sortie": 86777,
-      "cout": 4.780295999999999,
+      "appels": 97,
+      "entree": 777297,
+      "sortie": 88588,
+      "cout": 4.880947999999999,
       "cle": "2026-11"
     },
-    "projection": 5.52,
+    "projection": 5.63,
     "moyenneAppel": 0.0503,
     "parModele": {
-      "claude-opus-5-5": 95
+      "claude-opus-5-5": 97
     },
     "serie": [
       [
@@ -1078,7 +1076,7 @@
       ],
       [
         "2026-11-26",
-        0.4034
+        0.5041
       ]
     ],
     "depuis": "2026-09-23"

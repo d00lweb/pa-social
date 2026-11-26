@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-26T19:00:58.886Z",
+  "genereLe": "2026-11-26T19:21:17.512Z",
   "jour": "2026-11-26",
   "reseaux": {
     "instagram": {
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 1,
-      "semaine": 13,
-      "total": 97,
-      "dernier": "2026-11-26T08:11:28.549Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1803577061768174"
+      "aujourdhui": 2,
+      "semaine": 14,
+      "total": 98,
+      "dernier": "2026-11-26T19:27:51.543Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1804231798369367"
     },
     "threads": {
       "actif": true,
@@ -164,6 +164,46 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36306",
+      "titre": "Café céramique à Bordeaux : ici, la tasse ne sert pas à boire",
+      "lien": "https://passion-aquitaine.ouest-france.fr/kasbah-cafe-ceramique-bordeaux-peinture/",
+      "at": "2026-11-26T19:27:51.543Z",
+      "reseaux": {
+        "bluesky": {
+          "texte": "À #Bordeaux, Kasbah Café #Céramique invite à peindre tasses et théières. Le secret tient à la cuisson : 🔆 les couleurs ne s’épanouissent qu’au four, à plus de 1 000 °C.\n@villedebordeaux.bsky.social\n➡️ Lire l’article",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261125-433f1e9c-bsky.jpg",
+          "mode": "image",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-25T08:29:54.381Z"
+        },
+        "x": {
+          "texte": "🏺 Et si votre tasse servait à peindre plutôt qu’à boire ? À #Bordeaux, Kasbah Café Céramique fait décorer tasses et théières, dont les couleurs éclosent au four à plus de 1 000 °C.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261125-433f1e9c-x.jpg",
+          "mode": "reponse",
+          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/kasbah-cafe-ceramique-bordeaux-peinture/",
+          "sujet": null,
+          "publieLe": "2026-11-25T09:00:53.771Z"
+        },
+        "threads": {
+          "texte": "Un pinceau, une tasse encore blanche, une théière qui attend ses motifs. Chez @kasbah_cafe_ceramique, à Bordeaux, on peint d’abord, puis tout part au four. Et c’est là, au-delà de 1 000 °C, que les couleurs prennent enfin tout leur éclat ☕\n@villedebordeaux @visitbordeaux",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261125-433f1e9c-th.jpg",
+          "mode": "reponse",
+          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/kasbah-cafe-ceramique-bordeaux-peinture/",
+          "sujet": "Bordeaux",
+          "publieLe": "2026-11-25T10:18:55.237Z"
+        },
+        "facebook": {
+          "texte": "Chez Kasbah Café Céramique, vous repartez avec une théière peinte de vos mains, cuite à plus de 1 000 °C 🫖",
+          "image": null,
+          "mode": "lien",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-26T19:27:51.543Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36315",
       "titre": "Installé à Djibouti, ce maire girondin touchait l’indemnité maximale autorisée",
@@ -371,57 +411,19 @@
           "publieLe": "2026-11-25T18:12:45.304Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36251",
-      "titre": "Pont Rouchaud : le pont oublié où se touchent trois ex-régions",
-      "lien": "https://passion-aquitaine.ouest-france.fr/pont-rouchaud-trois-regions-nouvelle-aquitaine/",
-      "at": "2026-11-25T11:14:53.810Z",
-      "reseaux": {
-        "threads": {
-          "texte": "Trois départements se rejoignent sur un seul pont 🌉 Le pont Rouchaud, au-dessus de la Tardoire, relie la Charente, la Dordogne et la Haute-Vienne, autrefois dans trois régions différentes. C’est là que la plus vaste région de France a son centre symbolique. Vous étiez déjà passé par ce pont oublié ?",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261123-965863c4-th.jpg",
-          "mode": "reponse",
-          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/pont-rouchaud-trois-regions-nouvelle-aquitaine/",
-          "sujet": "Patrimoine",
-          "publieLe": "2026-11-23T09:32:03.991Z"
-        },
-        "bluesky": {
-          "texte": "🗺️ Où se trouve le centre de la plus vaste région de France ? Sur un pont oublié de la Tardoire, le pont Rouchaud, où se touchent la #Charente, la Dordogne et la Haute-Vienne.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261123-965863c4-bsky.jpg",
-          "mode": "reply",
-          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/pont-rouchaud-trois-regions-nouvelle-aquitaine/",
-          "sujet": null,
-          "publieLe": "2026-11-23T11:05:18.655Z"
-        },
-        "x": {
-          "texte": "Sur la Tardoire, le pont Rouchaud cache un secret géographique : 📌 #Charente, Dordogne et Haute-Vienne s’y touchent. C’est le centre symbolique de la plus vaste région de France.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261123-965863c4-x.jpg",
-          "mode": "reponse",
-          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/pont-rouchaud-trois-regions-nouvelle-aquitaine/",
-          "sujet": null,
-          "publieLe": "2026-11-23T12:23:20.615Z"
-        },
-        "facebook": {
-          "texte": "Un pied en Charente, l’autre en Dordogne, la Haute-Vienne juste à côté : tout se joue sur ce pont de la Tardoire 🌉",
-          "image": null,
-          "mode": "lien",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-24T07:08:51.095Z"
-        },
-        "instagram": {
-          "texte": "Un pont discret sur la Tardoire porte le 🧭 centre symbolique de la plus vaste région de France\n⠀\nAu pont Rouchaud se touchent trois départements : Charente, Dordogne et Haute-Vienne. Un lieu oublié où se croisent trois anciennes régions.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Charente #PontRouchaud #Patrimoine",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261123-965863c4-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-25T11:14:53.810Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "facebook",
+      "at": "2026-11-26T19:27:51.543Z",
+      "titre": "Café céramique à Bordeaux : ici, la tasse ne sert pas à boire",
+      "lien": "https://passion-aquitaine.ouest-france.fr/kasbah-cafe-ceramique-bordeaux-peinture/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1804231798369367",
+      "format": "lien",
+      "texte": "Chez Kasbah Café Céramique, vous repartez avec une théière peinte de vos mains, cuite à plus de 1 000 °C 🫖",
+      "image": null
+    },
     {
       "channel": "instagram",
       "at": "2026-11-26T18:24:39.700Z",
@@ -511,28 +513,9 @@
       "format": "reponse",
       "texte": "Comment une gare de petite ville peut-elle dépasser celle d’une capitale régionale historique ? À Libourne, la réponse tient en trois lettres 🚆 RER. Grâce au RER métropolitain, la gare a compté 2,11 millions de passages en 2025, plus que Limoges-Bénédictins. Vous l’empruntez, ce RER ?",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261126-49b560f0-th.jpg"
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-11-25T19:27:25.402Z",
-      "titre": "Dans cette gare de Corrèze, il faut héler le train pour monter",
-      "lien": "https://passion-aquitaine.ouest-france.fr/gare-perols-vezere-arret-demande-voyageurs/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1802980318494515",
-      "format": "photo",
-      "texte": "Moins de deux passages par jour : à Pérols-sur-Vézère, le TER ne s’arrête que si on lui fait signe 🚆\nL’article est en premier commentaire.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261124-0b305ed9-fb.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "facebook",
-      "dueAt": "2026-11-26T19:27:33.900Z",
-      "prochainPassage": "2026-11-26T20:00:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Café céramique à Bordeaux : ici, la tasse ne sert pas à boire"
-    },
     {
       "channel": "facebook",
       "dueAt": "2026-11-27T08:11:53.003Z",
@@ -771,7 +754,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-26T19:01:02.359Z",
+    "genereLe": "2026-11-26T19:27:53.287Z",
     "posts": 142,
     "parReseau": {
       "threads": {
@@ -942,7 +925,7 @@
     },
     "publies": {
       "threads": 39,
-      "facebook": 37,
+      "facebook": 38,
       "bluesky": 39,
       "x": 39,
       "instagram": 36

@@ -2202,5 +2202,48 @@
     "instagram": [],
     "threads": [],
     "bluesky": []
+  },
+  "commune:mairie:libourne": {
+    "v": 3,
+    "cherche": "2026-11-26T07:01:07.220Z",
+    "instagram": [
+      {
+        "handle": "libournefr",
+        "nom": "Ville de Libourne",
+        "abonnes": 14316,
+        "preuve": 3
+      }
+    ],
+    "x": [
+      {
+        "handle": "ville_libourne",
+        "nom": "",
+        "abonnes": null,
+        "preuve": 3
+      }
+    ],
+    "threads": [],
+    "bluesky": [
+      {
+        "handle": "villelibourne.bsky.social",
+        "nom": "",
+        "abonnes": 91,
+        "preuve": 3
+      }
+    ]
+  },
+  "locale:libourne:train": {
+    "v": 3,
+    "cherche": "2026-11-26T07:01:07.220Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:libourne:transport": {
+    "v": 3,
+    "cherche": "2026-11-26T07:01:07.220Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
   }
 }

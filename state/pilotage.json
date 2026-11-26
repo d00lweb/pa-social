@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-26T06:21:08.013Z",
+  "genereLe": "2026-11-26T07:00:45.895Z",
   "jour": "2026-11-26",
   "reseaux": {
     "instagram": {
@@ -517,6 +517,24 @@
   ],
   "file": [
     {
+      "channel": "threads",
+      "dueAt": "2026-11-26T07:26:56.014Z",
+      "prochainPassage": "2026-11-26T08:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Gare de Libourne : la petite ville qui a devancé Limoges"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-11-26T08:00:00.000Z",
+      "prochainPassage": "2026-11-26T08:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Gare de Libourne : la petite ville qui a devancé Limoges"
+    },
+    {
       "channel": "facebook",
       "dueAt": "2026-11-26T08:11:17.900Z",
       "prochainPassage": "2026-11-26T08:20:00.000Z",
@@ -526,6 +544,24 @@
       "titre": "Installé à Djibouti, ce maire girondin touchait l’indemnité maximale autorisée"
     },
     {
+      "channel": "bluesky",
+      "dueAt": "2026-11-26T08:14:53.718Z",
+      "prochainPassage": "2026-11-26T08:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Gare de Libourne : la petite ville qui a devancé Limoges"
+    },
+    {
+      "channel": "threads",
+      "dueAt": "2026-11-26T10:12:20.350Z",
+      "prochainPassage": "2026-11-26T10:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "En 2070, la Charente-Maritime ressemblera à Royan : pourquoi la station balnéaire vit déjà dans le futur"
+    },
+    {
       "channel": "instagram",
       "dueAt": "2026-11-26T11:03:01.086Z",
       "prochainPassage": "2026-11-26T11:20:00.000Z",
@@ -533,6 +569,24 @@
       "prevuInitialement": "2026-11-25T18:28:10.719Z",
       "raison": "un autre post occupait déjà ce créneau",
       "titre": "Dans cette gare de Corrèze, il faut héler le train pour monter"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-11-26T12:20:00.000Z",
+      "prochainPassage": "2026-11-26T12:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "En 2070, la Charente-Maritime ressemblera à Royan : pourquoi la station balnéaire vit déjà dans le futur"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-11-26T12:29:57.135Z",
+      "prochainPassage": "2026-11-26T13:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "En 2070, la Charente-Maritime ressemblera à Royan : pourquoi la station balnéaire vit déjà dans le futur"
     },
     {
       "channel": "instagram",
@@ -553,6 +607,15 @@
       "titre": "Café céramique à Bordeaux : ici, la tasse ne sert pas à boire"
     },
     {
+      "channel": "facebook",
+      "dueAt": "2026-11-27T08:11:53.003Z",
+      "prochainPassage": "2026-11-27T08:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Gare de Libourne : la petite ville qui a devancé Limoges"
+    },
+    {
       "channel": "instagram",
       "dueAt": "2026-11-27T11:06:55.624Z",
       "prochainPassage": "2026-11-27T11:20:00.000Z",
@@ -560,6 +623,33 @@
       "prevuInitialement": null,
       "raison": null,
       "titre": "Café céramique à Bordeaux : ici, la tasse ne sert pas à boire"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-11-27T18:07:32.792Z",
+      "prochainPassage": "2026-11-27T18:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Gare de Libourne : la petite ville qui a devancé Limoges"
+    },
+    {
+      "channel": "facebook",
+      "dueAt": "2026-11-27T19:05:38.840Z",
+      "prochainPassage": "2026-11-27T19:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "En 2070, la Charente-Maritime ressemblera à Royan : pourquoi la station balnéaire vit déjà dans le futur"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-11-28T11:03:15.012Z",
+      "prochainPassage": "2026-11-28T11:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "En 2070, la Charente-Maritime ressemblera à Royan : pourquoi la station balnéaire vit déjà dans le futur"
     }
   ],
   "alertes": [
@@ -710,7 +800,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-26T05:32:23.057Z"
+    "derniere": "2026-11-26T07:00:45.895Z"
   },
   "abonnes": {
     "instagram": {
@@ -749,7 +839,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-26T06:21:11.161Z",
+    "genereLe": "2026-11-26T07:01:52.594Z",
     "posts": 137,
     "parReseau": {
       "threads": {
@@ -977,29 +1067,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 0,
-      "entree": 0,
-      "sortie": 0,
-      "cout": 0,
+      "appels": 5,
+      "entree": 40327,
+      "sortie": 4558,
+      "cout": 0.252468,
       "cle": "2026-11-26"
     },
     "semaine": {
-      "appels": 22,
-      "entree": 176703,
-      "sortie": 21836,
-      "cout": 1.143532
+      "appels": 27,
+      "entree": 217030,
+      "sortie": 26394,
+      "cout": 1.396
     },
     "mois": {
-      "appels": 87,
-      "entree": 696697,
-      "sortie": 79503,
-      "cout": 4.376847999999999,
+      "appels": 92,
+      "entree": 737024,
+      "sortie": 84061,
+      "cout": 4.629315999999999,
       "cle": "2026-11"
     },
-    "projection": 5.05,
+    "projection": 5.34,
     "moyenneAppel": 0.0503,
     "parModele": {
-      "claude-opus-5-5": 87
+      "claude-opus-5-5": 92
     },
     "serie": [
       [
@@ -1056,7 +1146,7 @@
       ],
       [
         "2026-11-26",
-        0
+        0.2525
       ]
     ],
     "depuis": "2026-09-23"

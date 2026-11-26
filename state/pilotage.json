@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-26T10:28:58.695Z",
+  "genereLe": "2026-11-26T11:01:26.828Z",
   "jour": "2026-11-26",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 11,
-      "total": 99,
-      "dernier": "2026-11-25T18:12:45.304Z",
-      "lienDernier": "https://www.instagram.com/p/DgLJVuwmvM2/"
+      "aujourdhui": 1,
+      "semaine": 12,
+      "total": 100,
+      "dernier": "2026-11-26T11:03:35.135Z",
+      "lienDernier": "https://www.instagram.com/p/DgM9BGHkt_f/"
     },
     "bluesky": {
       "actif": true,
@@ -165,6 +165,54 @@
   },
   "articles": [
     {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36283",
+      "titre": "Dans cette gare de Corrèze, il faut héler le train pour monter",
+      "lien": "https://passion-aquitaine.ouest-france.fr/gare-perols-vezere-arret-demande-voyageurs/",
+      "at": "2026-11-26T11:03:35.135Z",
+      "reseaux": {
+        "bluesky": {
+          "texte": "À #PerolsSurVezere, en #Corrèze, le TER ne s’arrête pas tout seul 🚉 Il faut lui faire signe pour monter. Avec 592 passages en 2025, soit moins de deux par jour, la halte vit au rythme de ses rares voyageurs.\n➡️ Lire l’article",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261124-0b305ed9-bsky.jpg",
+          "mode": "image",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-24T07:30:11.720Z"
+        },
+        "x": {
+          "texte": "Pour monter dans le TER à Pérols-sur-Vézère, en #Corrèze, un geste suffit : faire signe au train, sinon il ne s’arrête pas. Moins de deux passages par jour ici 🙋",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261124-0b305ed9-x.jpg",
+          "mode": "reponse",
+          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/gare-perols-vezere-arret-demande-voyageurs/",
+          "sujet": null,
+          "publieLe": "2026-11-24T09:21:24.652Z"
+        },
+        "threads": {
+          "texte": "Imaginez un train qui file sans s’arrêter si vous ne lui faites pas signe. C’est la règle à Pérols-sur-Vézère, en Corrèze : 🚦 le TER ne marque l’arrêt que si on le hèle. En 2025, la gare a compté 592 passages, moins de deux par jour.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261124-0b305ed9-th.jpg",
+          "mode": "reponse",
+          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/gare-perols-vezere-arret-demande-voyageurs/",
+          "sujet": "Pérols-sur-Vézère",
+          "publieLe": "2026-11-24T10:32:42.583Z"
+        },
+        "facebook": {
+          "texte": "Moins de deux passages par jour : à Pérols-sur-Vézère, le TER ne s’arrête que si on lui fait signe 🚆\nL’article est en premier commentaire.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261124-0b305ed9-fb.jpg",
+          "mode": "photo",
+          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/gare-perols-vezere-arret-demande-voyageurs/?at_medium=social&at_campaign=fb-photo",
+          "sujet": null,
+          "publieLe": "2026-11-25T19:27:25.402Z"
+        },
+        "instagram": {
+          "texte": "Et si le train ne s’arrêtait que pour vous ?\n⠀\nÀ Pérols-sur-Vézère, en Corrèze, le TER ne marque l’arrêt que si on lui fait signe. Avec 592 passages en 2025, moins de deux par jour, cette petite gare vit à un rythme bien à elle 🚂\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Correze #TER #Train",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261124-0b305ed9-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-26T11:03:35.135Z"
+        }
+      }
+    },
+    {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36336",
       "titre": "En 2070, la Charente-Maritime ressemblera à Royan : pourquoi la station balnéaire vit déjà dans le futur",
       "lien": "https://passion-aquitaine.ouest-france.fr/charente-maritime-seniors-royan-2070/",
@@ -249,46 +297,6 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-11-26T08:11:28.549Z"
-        }
-      }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36283",
-      "titre": "Dans cette gare de Corrèze, il faut héler le train pour monter",
-      "lien": "https://passion-aquitaine.ouest-france.fr/gare-perols-vezere-arret-demande-voyageurs/",
-      "at": "2026-11-25T19:27:25.402Z",
-      "reseaux": {
-        "bluesky": {
-          "texte": "À #PerolsSurVezere, en #Corrèze, le TER ne s’arrête pas tout seul 🚉 Il faut lui faire signe pour monter. Avec 592 passages en 2025, soit moins de deux par jour, la halte vit au rythme de ses rares voyageurs.\n➡️ Lire l’article",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261124-0b305ed9-bsky.jpg",
-          "mode": "image",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-24T07:30:11.720Z"
-        },
-        "x": {
-          "texte": "Pour monter dans le TER à Pérols-sur-Vézère, en #Corrèze, un geste suffit : faire signe au train, sinon il ne s’arrête pas. Moins de deux passages par jour ici 🙋",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261124-0b305ed9-x.jpg",
-          "mode": "reponse",
-          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/gare-perols-vezere-arret-demande-voyageurs/",
-          "sujet": null,
-          "publieLe": "2026-11-24T09:21:24.652Z"
-        },
-        "threads": {
-          "texte": "Imaginez un train qui file sans s’arrêter si vous ne lui faites pas signe. C’est la règle à Pérols-sur-Vézère, en Corrèze : 🚦 le TER ne marque l’arrêt que si on le hèle. En 2025, la gare a compté 592 passages, moins de deux par jour.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261124-0b305ed9-th.jpg",
-          "mode": "reponse",
-          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/gare-perols-vezere-arret-demande-voyageurs/",
-          "sujet": "Pérols-sur-Vézère",
-          "publieLe": "2026-11-24T10:32:42.583Z"
-        },
-        "facebook": {
-          "texte": "Moins de deux passages par jour : à Pérols-sur-Vézère, le TER ne s’arrête que si on lui fait signe 🚆\nL’article est en premier commentaire.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261124-0b305ed9-fb.jpg",
-          "mode": "photo",
-          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/gare-perols-vezere-arret-demande-voyageurs/?at_medium=social&at_campaign=fb-photo",
-          "sujet": null,
-          "publieLe": "2026-11-25T19:27:25.402Z"
         }
       }
     },
@@ -391,6 +399,16 @@
   ],
   "publications": [
     {
+      "channel": "instagram",
+      "at": "2026-11-26T11:03:35.135Z",
+      "titre": "Dans cette gare de Corrèze, il faut héler le train pour monter",
+      "lien": "https://passion-aquitaine.ouest-france.fr/gare-perols-vezere-arret-demande-voyageurs/",
+      "lienPost": "https://www.instagram.com/p/DgM9BGHkt_f/",
+      "format": null,
+      "texte": "Et si le train ne s’arrêtait que pour vous ?\n⠀\nÀ Pérols-sur-Vézère, en Corrèze, le TER ne marque l’arrêt que si on lui fait signe. Avec 592 passages en 2025, moins de deux par jour, cette petite gare vit à un rythme bien à elle 🚂\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Correze #TER #Train",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261124-0b305ed9-1.jpg"
+    },
+    {
       "channel": "threads",
       "at": "2026-11-26T10:15:34.474Z",
       "titre": "En 2070, la Charente-Maritime ressemblera à Royan : pourquoi la station balnéaire vit déjà dans le futur",
@@ -479,28 +497,9 @@
       "format": "reponse",
       "texte": "Un pinceau, une tasse encore blanche, une théière qui attend ses motifs. Chez @kasbah_cafe_ceramique, à Bordeaux, on peint d’abord, puis tout part au four. Et c’est là, au-delà de 1 000 °C, que les couleurs prennent enfin tout leur éclat ☕\n@villedebordeaux @visitbordeaux",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261125-433f1e9c-th.jpg"
-    },
-    {
-      "channel": "x",
-      "at": "2026-11-25T09:00:53.771Z",
-      "titre": "Café céramique à Bordeaux : ici, la tasse ne sert pas à boire",
-      "lien": "https://passion-aquitaine.ouest-france.fr/kasbah-cafe-ceramique-bordeaux-peinture/",
-      "lienPost": null,
-      "format": "reponse",
-      "texte": "🏺 Et si votre tasse servait à peindre plutôt qu’à boire ? À #Bordeaux, Kasbah Café Céramique fait décorer tasses et théières, dont les couleurs éclosent au four à plus de 1 000 °C.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261125-433f1e9c-x.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "instagram",
-      "dueAt": "2026-11-26T11:03:01.086Z",
-      "prochainPassage": "2026-11-26T11:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": "2026-11-25T18:28:10.719Z",
-      "raison": "un autre post occupait déjà ce créneau",
-      "titre": "Dans cette gare de Corrèze, il faut héler le train pour monter"
-    },
     {
       "channel": "x",
       "dueAt": "2026-11-26T12:20:00.000Z",
@@ -775,7 +774,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-26T10:29:02.504Z",
+    "genereLe": "2026-11-26T11:03:36.986Z",
     "posts": 140,
     "parReseau": {
       "threads": {
@@ -949,7 +948,7 @@
       "facebook": 37,
       "bluesky": 38,
       "x": 38,
-      "instagram": 34
+      "instagram": 35
     },
     "abonnes": {
       "instagram": {

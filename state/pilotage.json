@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-26T09:23:08.347Z",
+  "genereLe": "2026-11-26T10:00:41.325Z",
   "jour": "2026-11-26",
   "reseaux": {
     "instagram": {
@@ -122,11 +122,11 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 1,
-      "semaine": 14,
-      "total": 98,
-      "dernier": "2026-11-26T07:30:15.596Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DgMkQ3ZG4H5"
+      "aujourdhui": 2,
+      "semaine": 15,
+      "total": 99,
+      "dernier": "2026-11-26T10:15:34.474Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DgM3McykRLI"
     },
     "x": {
       "actif": true,
@@ -164,6 +164,22 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36336",
+      "titre": "En 2070, la Charente-Maritime ressemblera à Royan : pourquoi la station balnéaire vit déjà dans le futur",
+      "lien": "https://passion-aquitaine.ouest-france.fr/charente-maritime-seniors-royan-2070/",
+      "at": "2026-11-26T10:15:34.474Z",
+      "reseaux": {
+        "threads": {
+          "texte": "L’Insee projette 44,4 % de seniors en Charente-Maritime en 2070. À Royan, ils sont déjà 49,2 %, et les logements adaptés à ces habitants manquent 💃",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261126-7ee6e2d3-th.jpg",
+          "mode": "reponse",
+          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/charente-maritime-seniors-royan-2070/",
+          "sujet": "Royan",
+          "publieLe": "2026-11-26T10:15:34.474Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36323",
       "titre": "Gare de Libourne : la petite ville qui a devancé Limoges",
@@ -371,41 +387,19 @@
           "publieLe": "2026-11-25T11:14:53.810Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36306",
-      "titre": "Café céramique à Bordeaux : ici, la tasse ne sert pas à boire",
-      "lien": "https://passion-aquitaine.ouest-france.fr/kasbah-cafe-ceramique-bordeaux-peinture/",
-      "at": "2026-11-25T10:18:55.237Z",
-      "reseaux": {
-        "bluesky": {
-          "texte": "À #Bordeaux, Kasbah Café #Céramique invite à peindre tasses et théières. Le secret tient à la cuisson : 🔆 les couleurs ne s’épanouissent qu’au four, à plus de 1 000 °C.\n@villedebordeaux.bsky.social\n➡️ Lire l’article",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261125-433f1e9c-bsky.jpg",
-          "mode": "image",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-25T08:29:54.381Z"
-        },
-        "x": {
-          "texte": "🏺 Et si votre tasse servait à peindre plutôt qu’à boire ? À #Bordeaux, Kasbah Café Céramique fait décorer tasses et théières, dont les couleurs éclosent au four à plus de 1 000 °C.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261125-433f1e9c-x.jpg",
-          "mode": "reponse",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/kasbah-cafe-ceramique-bordeaux-peinture/",
-          "sujet": null,
-          "publieLe": "2026-11-25T09:00:53.771Z"
-        },
-        "threads": {
-          "texte": "Un pinceau, une tasse encore blanche, une théière qui attend ses motifs. Chez @kasbah_cafe_ceramique, à Bordeaux, on peint d’abord, puis tout part au four. Et c’est là, au-delà de 1 000 °C, que les couleurs prennent enfin tout leur éclat ☕\n@villedebordeaux @visitbordeaux",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261125-433f1e9c-th.jpg",
-          "mode": "reponse",
-          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/kasbah-cafe-ceramique-bordeaux-peinture/",
-          "sujet": "Bordeaux",
-          "publieLe": "2026-11-25T10:18:55.237Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "threads",
+      "at": "2026-11-26T10:15:34.474Z",
+      "titre": "En 2070, la Charente-Maritime ressemblera à Royan : pourquoi la station balnéaire vit déjà dans le futur",
+      "lien": "https://passion-aquitaine.ouest-france.fr/charente-maritime-seniors-royan-2070/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/DgM3McykRLI",
+      "format": "reponse",
+      "texte": "L’Insee projette 44,4 % de seniors en Charente-Maritime en 2070. À Royan, ils sont déjà 49,2 %, et les logements adaptés à ces habitants manquent 💃",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261126-7ee6e2d3-th.jpg"
+    },
     {
       "channel": "bluesky",
       "at": "2026-11-26T08:14:56.951Z",
@@ -495,28 +489,9 @@
       "format": "reponse",
       "texte": "🏺 Et si votre tasse servait à peindre plutôt qu’à boire ? À #Bordeaux, Kasbah Café Céramique fait décorer tasses et théières, dont les couleurs éclosent au four à plus de 1 000 °C.",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261125-433f1e9c-x.jpg"
-    },
-    {
-      "channel": "bluesky",
-      "at": "2026-11-25T08:29:54.381Z",
-      "titre": "Café céramique à Bordeaux : ici, la tasse ne sert pas à boire",
-      "lien": "https://passion-aquitaine.ouest-france.fr/kasbah-cafe-ceramique-bordeaux-peinture/",
-      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n34qktnd2o2d",
-      "format": "image",
-      "texte": "À #Bordeaux, Kasbah Café #Céramique invite à peindre tasses et théières. Le secret tient à la cuisson : 🔆 les couleurs ne s’épanouissent qu’au four, à plus de 1 000 °C.\n@villedebordeaux.bsky.social\n➡️ Lire l’article",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261125-433f1e9c-bsky.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "threads",
-      "dueAt": "2026-11-26T10:12:20.350Z",
-      "prochainPassage": "2026-11-26T10:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "En 2070, la Charente-Maritime ressemblera à Royan : pourquoi la station balnéaire vit déjà dans le futur"
-    },
     {
       "channel": "instagram",
       "dueAt": "2026-11-26T11:03:01.086Z",
@@ -800,7 +775,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-26T09:23:11.500Z",
+    "genereLe": "2026-11-26T10:15:36.807Z",
     "posts": 139,
     "parReseau": {
       "threads": {
@@ -970,7 +945,7 @@
       }
     },
     "publies": {
-      "threads": 38,
+      "threads": 39,
       "facebook": 37,
       "bluesky": 38,
       "x": 38,
@@ -1025,29 +1000,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 5,
-      "entree": 40327,
-      "sortie": 4558,
-      "cout": 0.252468,
+      "appels": 8,
+      "entree": 64492,
+      "sortie": 7274,
+      "cout": 0.403448,
       "cle": "2026-11-26"
     },
     "semaine": {
-      "appels": 27,
-      "entree": 217030,
-      "sortie": 26394,
-      "cout": 1.396
+      "appels": 30,
+      "entree": 241195,
+      "sortie": 29110,
+      "cout": 1.5469799999999998
     },
     "mois": {
-      "appels": 92,
-      "entree": 737024,
-      "sortie": 84061,
-      "cout": 4.629315999999999,
+      "appels": 95,
+      "entree": 761189,
+      "sortie": 86777,
+      "cout": 4.780295999999999,
       "cle": "2026-11"
     },
-    "projection": 5.34,
+    "projection": 5.52,
     "moyenneAppel": 0.0503,
     "parModele": {
-      "claude-opus-5-5": 92
+      "claude-opus-5-5": 95
     },
     "serie": [
       [
@@ -1104,7 +1079,7 @@
       ],
       [
         "2026-11-26",
-        0.2525
+        0.4034
       ]
     ],
     "depuis": "2026-09-23"

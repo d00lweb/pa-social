@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-26T18:00:58.450Z",
+  "genereLe": "2026-11-26T18:20:39.143Z",
   "jour": "2026-11-26",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 1,
-      "semaine": 11,
-      "total": 100,
-      "dernier": "2026-11-26T11:03:35.135Z",
-      "lienDernier": "https://www.instagram.com/p/DgM9BGHkt_f/"
+      "aujourdhui": 2,
+      "semaine": 12,
+      "total": 101,
+      "dernier": "2026-11-26T18:24:39.700Z",
+      "lienDernier": "https://www.instagram.com/p/DgNvgEMDe3T/"
     },
     "bluesky": {
       "actif": true,
@@ -165,6 +165,54 @@
   },
   "articles": [
     {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36315",
+      "titre": "Installé à Djibouti, ce maire girondin touchait l’indemnité maximale autorisée",
+      "lien": "https://passion-aquitaine.ouest-france.fr/casseuil-maire-djibouti-indemnite-demission/",
+      "at": "2026-11-26T18:24:39.700Z",
+      "reseaux": {
+        "x": {
+          "texte": "#Casseuil, Gironde : impossible de démettre un maire absent. Installé à Djibouti, l’élu touchait le plafond légal, et ni le conseil ni le sous-préfet n’avaient ce ⚖️ pouvoir.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261124-16415a20-x.jpg",
+          "mode": "reponse",
+          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/casseuil-maire-djibouti-indemnite-demission/",
+          "sujet": null,
+          "publieLe": "2026-11-24T11:00:58.229Z"
+        },
+        "bluesky": {
+          "texte": "✈️ Un maire de #Gironde gérait sa commune depuis Djibouti. À #Casseuil, il percevait 1 155 euros par mois, le maximum autorisé, sans que le conseil ni le sous-préfet puissent le démettre.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261124-16415a20-bsky.jpg",
+          "mode": "reply",
+          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/casseuil-maire-djibouti-indemnite-demission/",
+          "sujet": null,
+          "publieLe": "2026-11-24T11:31:33.393Z"
+        },
+        "threads": {
+          "texte": "Un élu peut vivre à l’autre bout du monde et garder son écharpe 🏛️ C’est ce qui s’est passé à Casseuil, en Gironde : installé à Djibouti, le maire touchait 1 155 euros par mois, le plafond légal. Ni son conseil municipal ni le sous-préfet n’avaient les moyens juridiques de le démettre. De quoi mieux comprendre les limites du contrôle des mandats locaux.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261124-16415a20-th.jpg",
+          "mode": "reponse",
+          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/casseuil-maire-djibouti-indemnite-demission/",
+          "sujet": "Casseuil",
+          "publieLe": "2026-11-24T13:08:26.141Z"
+        },
+        "facebook": {
+          "texte": "À Casseuil, le maire vivait à Djibouti et touchait chaque mois le plafond légal de son indemnité, soit 1 155 euros 💶",
+          "image": null,
+          "mode": "lien",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-26T08:11:28.549Z"
+        },
+        "instagram": {
+          "texte": "Maire d’une commune girondine, il vivait à Djibouti et percevait 💶 1 155 euros par mois\n⠀\nÀ Casseuil, cette indemnité correspondait au plafond légal. Et personne, ni le conseil municipal ni le sous-préfet, ne pouvait l’écarter de son mandat.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Gironde #Casseuil #ViePolitique",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261124-16415a20-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-26T18:24:39.700Z"
+        }
+      }
+    },
+    {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36336",
       "titre": "En 2070, la Charente-Maritime ressemblera à Royan : pourquoi la station balnéaire vit déjà dans le futur",
       "lien": "https://passion-aquitaine.ouest-france.fr/charente-maritime-seniors-royan-2070/",
@@ -277,46 +325,6 @@
       }
     },
     {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36315",
-      "titre": "Installé à Djibouti, ce maire girondin touchait l’indemnité maximale autorisée",
-      "lien": "https://passion-aquitaine.ouest-france.fr/casseuil-maire-djibouti-indemnite-demission/",
-      "at": "2026-11-26T08:11:28.549Z",
-      "reseaux": {
-        "x": {
-          "texte": "#Casseuil, Gironde : impossible de démettre un maire absent. Installé à Djibouti, l’élu touchait le plafond légal, et ni le conseil ni le sous-préfet n’avaient ce ⚖️ pouvoir.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261124-16415a20-x.jpg",
-          "mode": "reponse",
-          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/casseuil-maire-djibouti-indemnite-demission/",
-          "sujet": null,
-          "publieLe": "2026-11-24T11:00:58.229Z"
-        },
-        "bluesky": {
-          "texte": "✈️ Un maire de #Gironde gérait sa commune depuis Djibouti. À #Casseuil, il percevait 1 155 euros par mois, le maximum autorisé, sans que le conseil ni le sous-préfet puissent le démettre.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261124-16415a20-bsky.jpg",
-          "mode": "reply",
-          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/casseuil-maire-djibouti-indemnite-demission/",
-          "sujet": null,
-          "publieLe": "2026-11-24T11:31:33.393Z"
-        },
-        "threads": {
-          "texte": "Un élu peut vivre à l’autre bout du monde et garder son écharpe 🏛️ C’est ce qui s’est passé à Casseuil, en Gironde : installé à Djibouti, le maire touchait 1 155 euros par mois, le plafond légal. Ni son conseil municipal ni le sous-préfet n’avaient les moyens juridiques de le démettre. De quoi mieux comprendre les limites du contrôle des mandats locaux.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261124-16415a20-th.jpg",
-          "mode": "reponse",
-          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/casseuil-maire-djibouti-indemnite-demission/",
-          "sujet": "Casseuil",
-          "publieLe": "2026-11-24T13:08:26.141Z"
-        },
-        "facebook": {
-          "texte": "À Casseuil, le maire vivait à Djibouti et touchait chaque mois le plafond légal de son indemnité, soit 1 155 euros 💶",
-          "image": null,
-          "mode": "lien",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-26T08:11:28.549Z"
-        }
-      }
-    },
-    {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36295",
       "titre": "Vautours d’Ossau : un bénévole de 89 ans fournit l’essentiel des données du Parc national",
       "lien": "https://passion-aquitaine.ouest-france.fr/vautours-fauves-ossau-benevole-donnees/",
@@ -415,6 +423,16 @@
   ],
   "publications": [
     {
+      "channel": "instagram",
+      "at": "2026-11-26T18:24:39.700Z",
+      "titre": "Installé à Djibouti, ce maire girondin touchait l’indemnité maximale autorisée",
+      "lien": "https://passion-aquitaine.ouest-france.fr/casseuil-maire-djibouti-indemnite-demission/",
+      "lienPost": "https://www.instagram.com/p/DgNvgEMDe3T/",
+      "format": null,
+      "texte": "Maire d’une commune girondine, il vivait à Djibouti et percevait 💶 1 155 euros par mois\n⠀\nÀ Casseuil, cette indemnité correspondait au plafond légal. Et personne, ni le conseil municipal ni le sous-préfet, ne pouvait l’écarter de son mandat.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Gironde #Casseuil #ViePolitique",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261124-16415a20-1.jpg"
+    },
+    {
       "channel": "bluesky",
       "at": "2026-11-26T12:29:59.680Z",
       "titre": "En 2070, la Charente-Maritime ressemblera à Royan : pourquoi la station balnéaire vit déjà dans le futur",
@@ -503,28 +521,9 @@
       "format": "photo",
       "texte": "Moins de deux passages par jour : à Pérols-sur-Vézère, le TER ne s’arrête que si on lui fait signe 🚆\nL’article est en premier commentaire.",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261124-0b305ed9-fb.jpg"
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-11-25T18:12:45.304Z",
-      "titre": "Vautours d’Ossau : un bénévole de 89 ans fournit l’essentiel des données du Parc national",
-      "lien": "https://passion-aquitaine.ouest-france.fr/vautours-fauves-ossau-benevole-donnees/",
-      "lienPost": "https://www.instagram.com/p/DgLJVuwmvM2/",
-      "format": null,
-      "texte": "Au-dessus de Castet, les vautours fauves planent, et un homme de 89 ans lit leurs bagues 🦅\n⠀\nEn vallée d’Ossau, ce bénévole fournit l’essentiel des données du Parc national. Ses relevés comptent au moment du bilan du plan avec les éleveurs.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Béarn #VautourFauve #ValléeDOssau",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261123-30597995-1.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "instagram",
-      "dueAt": "2026-11-26T18:24:10.548Z",
-      "prochainPassage": "2026-11-26T19:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": "2026-11-26T12:25:53.585Z",
-      "raison": "un autre post occupait déjà ce créneau",
-      "titre": "Installé à Djibouti, ce maire girondin touchait l’indemnité maximale autorisée"
-    },
     {
       "channel": "facebook",
       "dueAt": "2026-11-26T19:27:33.900Z",
@@ -611,7 +610,7 @@
     }
   ],
   "mesures": {
-    "releves": 734,
+    "releves": 735,
     "parReseau": {
       "instagram": {
         "posts": 89,
@@ -772,16 +771,16 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-26T18:01:01.652Z",
-    "posts": 141,
+    "genereLe": "2026-11-26T18:24:41.757Z",
+    "posts": 142,
     "parReseau": {
       "threads": {
         "posts": 37,
         "moyenne": 14.4
       },
       "instagram": {
-        "posts": 33,
-        "moyenne": 7.7
+        "posts": 34,
+        "moyenne": 7.6
       },
       "facebook": {
         "posts": 34,
@@ -820,7 +819,7 @@
         "moyenne": 6.2
       },
       "soir": {
-        "posts": 25,
+        "posts": 26,
         "moyenne": 3.5
       }
     },
@@ -881,8 +880,8 @@
           "moyenne": 9.2
         },
         "18 h – 19 h 30": {
-          "posts": 7,
-          "moyenne": 5.3
+          "posts": 8,
+          "moyenne": 5.1
         },
         "hors créneau": {
           "posts": 4,
@@ -890,7 +889,7 @@
         }
       }
     },
-    "interactionsTotal": 845,
+    "interactionsTotal": 849,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36189",
       "channel": "threads",
@@ -933,8 +932,8 @@
     },
     "mentions": {
       "avec": {
-        "posts": 57,
-        "moyenne": 6
+        "posts": 58,
+        "moyenne": 5.9
       },
       "sans": {
         "posts": 84,
@@ -946,7 +945,7 @@
       "facebook": 37,
       "bluesky": 39,
       "x": 39,
-      "instagram": 35
+      "instagram": 36
     },
     "abonnes": {
       "instagram": {
@@ -991,7 +990,7 @@
     "conseils": [
       "Threads : le créneau 7 h – 8 h 30 fait 2,3 fois mieux que 10 h – 11 h 30 (19.5 contre 8.3 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Facebook : le créneau 20 h – 21 h 30 fait 4,9 fois mieux que 8 h – 9 h 30 (3.9 contre 0.8 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
-      "Instagram : le créneau 12 h – 13 h 30 fait 1,7 fois mieux que 18 h – 19 h 30 (9.2 contre 5.3 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
+      "Instagram : le créneau 12 h – 13 h 30 fait 1,8 fois mieux que 18 h – 19 h 30 (9.2 contre 5.1 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Le format « reponse » fait 144 fois mieux que « reply » (14.4 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « reply » de la rotation dans config/channels.json."
     ]
   },

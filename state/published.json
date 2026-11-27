@@ -9073,5 +9073,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36349",
+    "channel": "facebook",
+    "at": "2026-11-27T11:30:37.925Z",
+    "mediaId": "227437307428711_1804998021626078",
+    "titre": "Nitrates : dans six villages charentais, les biberons passent à l’eau en bouteille",
+    "lien": "https://passion-aquitaine.ouest-france.fr/nitrates-eau-robinet-charente-nanteuil-en-vallee/",
+    "lienPost": "https://www.facebook.com/1720946116697936/posts/1804998021626078",
+    "format": "photo",
+    "mention": false,
+    "apercu": {
+      "texte": "Dans six communes de Charente, les biberons ne se préparent plus avec l’eau du robinet, trop chargée en nitrates 📰\nL’article est en premier commentaire.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261127-2d7159d9-1.jpg",
+      "mode": "photo",
+      "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/nitrates-eau-robinet-charente-nanteuil-en-vallee/?at_medium=social&at_campaign=fb-photo",
+      "sujet": null
+    }
   }
 ]

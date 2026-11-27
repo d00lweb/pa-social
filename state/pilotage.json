@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-27T11:01:06.743Z",
+  "genereLe": "2026-11-27T11:20:54.148Z",
   "jour": "2026-11-27",
   "reseaux": {
     "instagram": {
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 1,
-      "semaine": 14,
-      "total": 99,
-      "dernier": "2026-11-27T08:14:42.737Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1804822434976970"
+      "aujourdhui": 2,
+      "semaine": 15,
+      "total": 100,
+      "dernier": "2026-11-27T11:30:37.925Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1804998021626078"
     },
     "threads": {
       "actif": true,
@@ -165,6 +165,54 @@
   },
   "articles": [
     {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36349",
+      "titre": "Nitrates : dans six villages charentais, les biberons passent à l’eau en bouteille",
+      "lien": "https://passion-aquitaine.ouest-france.fr/nitrates-eau-robinet-charente-nanteuil-en-vallee/",
+      "at": "2026-11-27T11:30:37.925Z",
+      "reseaux": {
+        "x": {
+          "texte": "Six communes de #Charente, des biberons préparés à l’eau en bouteille 🗞️ L’eau du robinet y contient trop de nitrates, selon l’ARS, qui le demande aussi aux femmes enceintes.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261127-2d7159d9-x.jpg",
+          "mode": "reponse",
+          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/nitrates-eau-robinet-charente-nanteuil-en-vallee/",
+          "sujet": null,
+          "publieLe": "2026-11-27T08:20:45.663Z"
+        },
+        "instagram": {
+          "texte": "En Charente, six communes ont une eau trop chargée en nitrates ℹ️\n⠀\nL’ARS demande aux femmes enceintes et aux bébés de passer à l’eau en bouteille, biberons compris.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Charente #Nitrates #EauPotable",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261127-2d7159d9-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-27T08:32:35.113Z"
+        },
+        "threads": {
+          "texte": "ℹ️ Ce sont les plus fragiles qui sont visés en premier : dans six communes de Charente, l’ARS demande aux femmes enceintes et aux bébés de passer à l’eau en bouteille. En cause, une teneur trop élevée en nitrates dans l’eau distribuée.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261127-2d7159d9-th.jpg",
+          "mode": "reponse",
+          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/nitrates-eau-robinet-charente-nanteuil-en-vallee/",
+          "sujet": "Charente",
+          "publieLe": "2026-11-27T09:27:28.393Z"
+        },
+        "bluesky": {
+          "texte": "Femmes enceintes et parents de bébés en #Charente : dans six communes, l’ARS recommande l’eau en bouteille, car l’eau du robinet contient trop de nitrates. Les communes concernées sont détaillées dans l’article 📰",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261127-2d7159d9-bsky.jpg",
+          "mode": "reply",
+          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/nitrates-eau-robinet-charente-nanteuil-en-vallee/",
+          "sujet": null,
+          "publieLe": "2026-11-27T10:34:15.711Z"
+        },
+        "facebook": {
+          "texte": "Dans six communes de Charente, les biberons ne se préparent plus avec l’eau du robinet, trop chargée en nitrates 📰\nL’article est en premier commentaire.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261127-2d7159d9-1.jpg",
+          "mode": "photo",
+          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/nitrates-eau-robinet-charente-nanteuil-en-vallee/?at_medium=social&at_campaign=fb-photo",
+          "sujet": null,
+          "publieLe": "2026-11-27T11:30:37.925Z"
+        }
+      }
+    },
+    {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36306",
       "titre": "Café céramique à Bordeaux : ici, la tasse ne sert pas à boire",
       "lien": "https://passion-aquitaine.ouest-france.fr/kasbah-cafe-ceramique-bordeaux-peinture/",
@@ -209,46 +257,6 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-11-27T11:07:55.289Z"
-        }
-      }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36349",
-      "titre": "Nitrates : dans six villages charentais, les biberons passent à l’eau en bouteille",
-      "lien": "https://passion-aquitaine.ouest-france.fr/nitrates-eau-robinet-charente-nanteuil-en-vallee/",
-      "at": "2026-11-27T10:34:15.711Z",
-      "reseaux": {
-        "x": {
-          "texte": "Six communes de #Charente, des biberons préparés à l’eau en bouteille 🗞️ L’eau du robinet y contient trop de nitrates, selon l’ARS, qui le demande aussi aux femmes enceintes.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261127-2d7159d9-x.jpg",
-          "mode": "reponse",
-          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/nitrates-eau-robinet-charente-nanteuil-en-vallee/",
-          "sujet": null,
-          "publieLe": "2026-11-27T08:20:45.663Z"
-        },
-        "instagram": {
-          "texte": "En Charente, six communes ont une eau trop chargée en nitrates ℹ️\n⠀\nL’ARS demande aux femmes enceintes et aux bébés de passer à l’eau en bouteille, biberons compris.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Charente #Nitrates #EauPotable",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261127-2d7159d9-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-27T08:32:35.113Z"
-        },
-        "threads": {
-          "texte": "ℹ️ Ce sont les plus fragiles qui sont visés en premier : dans six communes de Charente, l’ARS demande aux femmes enceintes et aux bébés de passer à l’eau en bouteille. En cause, une teneur trop élevée en nitrates dans l’eau distribuée.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261127-2d7159d9-th.jpg",
-          "mode": "reponse",
-          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/nitrates-eau-robinet-charente-nanteuil-en-vallee/",
-          "sujet": "Charente",
-          "publieLe": "2026-11-27T09:27:28.393Z"
-        },
-        "bluesky": {
-          "texte": "Femmes enceintes et parents de bébés en #Charente : dans six communes, l’ARS recommande l’eau en bouteille, car l’eau du robinet contient trop de nitrates. Les communes concernées sont détaillées dans l’article 📰",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261127-2d7159d9-bsky.jpg",
-          "mode": "reply",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/nitrates-eau-robinet-charente-nanteuil-en-vallee/",
-          "sujet": null,
-          "publieLe": "2026-11-27T10:34:15.711Z"
         }
       }
     },
@@ -399,6 +407,16 @@
   ],
   "publications": [
     {
+      "channel": "facebook",
+      "at": "2026-11-27T11:30:37.925Z",
+      "titre": "Nitrates : dans six villages charentais, les biberons passent à l’eau en bouteille",
+      "lien": "https://passion-aquitaine.ouest-france.fr/nitrates-eau-robinet-charente-nanteuil-en-vallee/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1804998021626078",
+      "format": "photo",
+      "texte": "Dans six communes de Charente, les biberons ne se préparent plus avec l’eau du robinet, trop chargée en nitrates 📰\nL’article est en premier commentaire.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261127-2d7159d9-1.jpg"
+    },
+    {
       "channel": "instagram",
       "at": "2026-11-27T11:07:55.289Z",
       "titre": "Café céramique à Bordeaux : ici, la tasse ne sert pas à boire",
@@ -487,28 +505,9 @@
       "format": "lien",
       "texte": "Chez Kasbah Café Céramique, vous repartez avec une théière peinte de vos mains, cuite à plus de 1 000 °C 🫖",
       "image": null
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-11-26T18:24:39.700Z",
-      "titre": "Installé à Djibouti, ce maire girondin touchait l’indemnité maximale autorisée",
-      "lien": "https://passion-aquitaine.ouest-france.fr/casseuil-maire-djibouti-indemnite-demission/",
-      "lienPost": "https://www.instagram.com/p/DgNvgEMDe3T/",
-      "format": null,
-      "texte": "Maire d’une commune girondine, il vivait à Djibouti et percevait 💶 1 155 euros par mois\n⠀\nÀ Casseuil, cette indemnité correspondait au plafond légal. Et personne, ni le conseil municipal ni le sous-préfet, ne pouvait l’écarter de son mandat.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Gironde #Casseuil #ViePolitique",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261124-16415a20-1.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "facebook",
-      "dueAt": "2026-11-27T11:28:43.702Z",
-      "prochainPassage": "2026-11-27T12:00:00.000Z",
-      "nature": "actu_chaude",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Nitrates : dans six villages charentais, les biberons passent à l’eau en bouteille"
-    },
     {
       "channel": "x",
       "dueAt": "2026-11-27T12:00:00.000Z",
@@ -595,7 +594,7 @@
     }
   ],
   "mesures": {
-    "releves": 743,
+    "releves": 744,
     "parReseau": {
       "instagram": {
         "posts": 89,
@@ -756,15 +755,15 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-27T11:07:58.532Z",
-    "posts": 147,
+    "genereLe": "2026-11-27T11:30:39.823Z",
+    "posts": 148,
     "parReseau": {
       "threads": {
         "posts": 39,
         "moyenne": 14.1
       },
       "instagram": {
-        "posts": 34,
+        "posts": 35,
         "moyenne": 7.6
       },
       "facebook": {
@@ -800,7 +799,7 @@
         "moyenne": 6.7
       },
       "après-midi": {
-        "posts": 42,
+        "posts": 43,
         "moyenne": 6.2
       },
       "soir": {
@@ -861,7 +860,7 @@
       },
       "instagram": {
         "12 h – 13 h 30": {
-          "posts": 22,
+          "posts": 23,
           "moyenne": 9.2
         },
         "18 h – 19 h 30": {
@@ -874,7 +873,7 @@
         }
       }
     },
-    "interactionsTotal": 876,
+    "interactionsTotal": 884,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36189",
       "channel": "threads",
@@ -917,8 +916,8 @@
     },
     "mentions": {
       "avec": {
-        "posts": 59,
-        "moyenne": 5.8
+        "posts": 60,
+        "moyenne": 5.9
       },
       "sans": {
         "posts": 88,
@@ -927,7 +926,7 @@
     },
     "publies": {
       "threads": 41,
-      "facebook": 39,
+      "facebook": 40,
       "bluesky": 41,
       "x": 40,
       "instagram": 38

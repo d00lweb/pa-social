@@ -8926,5 +8926,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36331",
+    "channel": "threads",
+    "at": "2026-11-27T07:31:02.390Z",
+    "mediaId": "17983706067138451",
+    "titre": "Gironde : au milieu des pins, ce laser recrée le cœur des étoiles",
+    "lien": "https://passion-aquitaine.ouest-france.fr/laser-megajoule-le-barp-gironde/",
+    "lienPost": "https://www.threads.com/@lovaquitaine/post/DgPJM1_nN5K",
+    "format": "reponse",
+    "mention": false,
+    "apercu": {
+      "texte": "Pas besoin d’aller loin pour toucher du doigt la science des étoiles ☀️ Au Barp, en Gironde, le Laser Mégajoule du CEA reproduit le cœur des astres grâce à 176 faisceaux. Comprendre ce qui s’y joue, c’est saisir l’un des piliers de la stratégie fusion, cette piste d’énergie dont on parle tant.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261127-f331e4ad-th.jpg",
+      "mode": "reponse",
+      "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/laser-megajoule-le-barp-gironde/",
+      "sujet": "Le Barp"
+    }
   }
 ]

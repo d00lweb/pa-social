@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-27T07:00:41.628Z",
+  "genereLe": "2026-11-27T07:20:39.629Z",
   "jour": "2026-11-27",
   "reseaux": {
     "instagram": {
@@ -122,11 +122,11 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 15,
-      "total": 99,
-      "dernier": "2026-11-26T10:15:34.474Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DgM3McykRLI"
+      "aujourdhui": 1,
+      "semaine": 16,
+      "total": 100,
+      "dernier": "2026-11-27T07:31:02.390Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DgPJM1_nN5K"
     },
     "x": {
       "actif": true,
@@ -164,6 +164,22 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36331",
+      "titre": "Gironde : au milieu des pins, ce laser recrée le cœur des étoiles",
+      "lien": "https://passion-aquitaine.ouest-france.fr/laser-megajoule-le-barp-gironde/",
+      "at": "2026-11-27T07:31:02.390Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Pas besoin d’aller loin pour toucher du doigt la science des étoiles ☀️ Au Barp, en Gironde, le Laser Mégajoule du CEA reproduit le cœur des astres grâce à 176 faisceaux. Comprendre ce qui s’y joue, c’est saisir l’un des piliers de la stratégie fusion, cette piste d’énergie dont on parle tant.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261127-f331e4ad-th.jpg",
+          "mode": "reponse",
+          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/laser-megajoule-le-barp-gironde/",
+          "sujet": "Le Barp",
+          "publieLe": "2026-11-27T07:31:02.390Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36306",
       "titre": "Café céramique à Bordeaux : ici, la tasse ne sert pas à boire",
@@ -363,57 +379,19 @@
           "publieLe": "2026-11-26T08:14:56.951Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36295",
-      "titre": "Vautours d’Ossau : un bénévole de 89 ans fournit l’essentiel des données du Parc national",
-      "lien": "https://passion-aquitaine.ouest-france.fr/vautours-fauves-ossau-benevole-donnees/",
-      "at": "2026-11-25T18:12:45.304Z",
-      "reseaux": {
-        "x": {
-          "texte": "Le meilleur informateur du Parc national sur les vautours d’Ossau a 89 ans 🦅 Bénévole à #Castet, il lit leurs bagues et fournit l’essentiel des données.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261123-30597995-x.jpg",
-          "mode": "reponse",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/vautours-fauves-ossau-benevole-donnees/",
-          "sujet": null,
-          "publieLe": "2026-11-23T15:00:59.005Z"
-        },
-        "bluesky": {
-          "texte": "89 ans, et l’essentiel des données du Parc national sur les vautours d’Ossau. En #Béarn, à #Castet, un bénévole relève les bagues des vautours fauves, alors que s’achève le plan conduit avec les éleveurs 🦅",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261123-30597995-bsky.jpg",
-          "mode": "reply",
-          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/vautours-fauves-ossau-benevole-donnees/",
-          "sujet": null,
-          "publieLe": "2026-11-23T18:03:53.916Z"
-        },
-        "threads": {
-          "texte": "🏔️ Castet, vallée d’Ossau. Ici, les vautours fauves ont leur lecteur de bagues attitré : un bénévole de 89 ans. C’est lui qui fournit l’essentiel des données du Parc national sur ces grands rapaces. Et ses relevés tombent à point, à la fin du plan mené avec les éleveurs.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261123-30597995-th.jpg",
-          "mode": "reponse",
-          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/vautours-fauves-ossau-benevole-donnees/",
-          "sujet": "Castet",
-          "publieLe": "2026-11-24T06:18:47.473Z"
-        },
-        "facebook": {
-          "texte": "À 89 ans, il lit à lui seul les bagues des vautours de Castet, et le Parc national compte sur ses relevés : vous l’imaginiez 🔭\nL’article est en premier commentaire.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261123-30597995-fb.jpg",
-          "mode": "photo",
-          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/vautours-fauves-ossau-benevole-donnees/?at_medium=social&at_campaign=fb-photo",
-          "sujet": null,
-          "publieLe": "2026-11-25T07:14:55.149Z"
-        },
-        "instagram": {
-          "texte": "Au-dessus de Castet, les vautours fauves planent, et un homme de 89 ans lit leurs bagues 🦅\n⠀\nEn vallée d’Ossau, ce bénévole fournit l’essentiel des données du Parc national. Ses relevés comptent au moment du bilan du plan avec les éleveurs.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Béarn #VautourFauve #ValléeDOssau",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261123-30597995-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-25T18:12:45.304Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "threads",
+      "at": "2026-11-27T07:31:02.390Z",
+      "titre": "Gironde : au milieu des pins, ce laser recrée le cœur des étoiles",
+      "lien": "https://passion-aquitaine.ouest-france.fr/laser-megajoule-le-barp-gironde/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/DgPJM1_nN5K",
+      "format": "reponse",
+      "texte": "Pas besoin d’aller loin pour toucher du doigt la science des étoiles ☀️ Au Barp, en Gironde, le Laser Mégajoule du CEA reproduit le cœur des astres grâce à 176 faisceaux. Comprendre ce qui s’y joue, c’est saisir l’un des piliers de la stratégie fusion, cette piste d’énergie dont on parle tant.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261127-f331e4ad-th.jpg"
+    },
     {
       "channel": "facebook",
       "at": "2026-11-26T19:27:51.543Z",
@@ -503,28 +481,9 @@
       "format": "reponse",
       "texte": "2,11 millions de passages en 2025 : la gare de #Libourne surpasse Limoges-Bénédictins. Le RER métropolitain a changé la donne en Gironde 🚄",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261126-49b560f0-x.jpg"
-    },
-    {
-      "channel": "threads",
-      "at": "2026-11-26T07:30:15.596Z",
-      "titre": "Gare de Libourne : la petite ville qui a devancé Limoges",
-      "lien": "https://passion-aquitaine.ouest-france.fr/gare-libourne-voyageurs-limoges-2025/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/DgMkQ3ZG4H5",
-      "format": "reponse",
-      "texte": "Comment une gare de petite ville peut-elle dépasser celle d’une capitale régionale historique ? À Libourne, la réponse tient en trois lettres 🚆 RER. Grâce au RER métropolitain, la gare a compté 2,11 millions de passages en 2025, plus que Limoges-Bénédictins. Vous l’empruntez, ce RER ?",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261126-49b560f0-th.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "threads",
-      "dueAt": "2026-11-27T07:28:11.290Z",
-      "prochainPassage": "2026-11-27T08:00:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Gironde : au milieu des pins, ce laser recrée le cœur des étoiles"
-    },
     {
       "channel": "bluesky",
       "dueAt": "2026-11-27T08:08:13.289Z",
@@ -760,7 +719,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-27T06:20:38.052Z"
+    "derniere": "2026-11-27T07:20:39.629Z"
   },
   "abonnes": {
     "instagram": {
@@ -799,7 +758,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-27T07:01:08.076Z",
+    "genereLe": "2026-11-27T07:31:04.521Z",
     "posts": 143,
     "parReseau": {
       "threads": {
@@ -969,7 +928,7 @@
       }
     },
     "publies": {
-      "threads": 39,
+      "threads": 40,
       "facebook": 38,
       "bluesky": 39,
       "x": 39,

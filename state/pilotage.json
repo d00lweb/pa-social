@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-27T06:20:38.052Z",
+  "genereLe": "2026-11-27T07:00:41.628Z",
   "jour": "2026-11-27",
   "reseaux": {
     "instagram": {
@@ -517,6 +517,24 @@
   ],
   "file": [
     {
+      "channel": "threads",
+      "dueAt": "2026-11-27T07:28:11.290Z",
+      "prochainPassage": "2026-11-27T08:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Gironde : au milieu des pins, ce laser recrée le cœur des étoiles"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-11-27T08:08:13.289Z",
+      "prochainPassage": "2026-11-27T08:20:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Gironde : au milieu des pins, ce laser recrée le cœur des étoiles"
+    },
+    {
       "channel": "facebook",
       "dueAt": "2026-11-27T08:11:53.003Z",
       "prochainPassage": "2026-11-27T08:20:00.000Z",
@@ -524,6 +542,15 @@
       "prevuInitialement": null,
       "raison": null,
       "titre": "Gare de Libourne : la petite ville qui a devancé Limoges"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-11-27T09:00:00.000Z",
+      "prochainPassage": "2026-11-27T09:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Gironde : au milieu des pins, ce laser recrée le cœur des étoiles"
     },
     {
       "channel": "instagram",
@@ -553,6 +580,15 @@
       "titre": "En 2070, la Charente-Maritime ressemblera à Royan : pourquoi la station balnéaire vit déjà dans le futur"
     },
     {
+      "channel": "facebook",
+      "dueAt": "2026-11-28T07:24:55.928Z",
+      "prochainPassage": "2026-11-28T08:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Gironde : au milieu des pins, ce laser recrée le cœur des étoiles"
+    },
+    {
       "channel": "instagram",
       "dueAt": "2026-11-28T11:03:15.012Z",
       "prochainPassage": "2026-11-28T11:20:00.000Z",
@@ -560,6 +596,15 @@
       "prevuInitialement": null,
       "raison": null,
       "titre": "En 2070, la Charente-Maritime ressemblera à Royan : pourquoi la station balnéaire vit déjà dans le futur"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-11-28T18:26:46.823Z",
+      "prochainPassage": "2026-11-28T19:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Gironde : au milieu des pins, ce laser recrée le cœur des étoiles"
     }
   ],
   "alertes": [
@@ -754,7 +799,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-27T06:20:45.973Z",
+    "genereLe": "2026-11-27T07:01:08.076Z",
     "posts": 143,
     "parReseau": {
       "threads": {
@@ -979,29 +1024,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 0,
-      "entree": 0,
-      "sortie": 0,
-      "cout": 0,
+      "appels": 1,
+      "entree": 7939,
+      "sortie": 937,
+      "cout": 0.050496,
       "cle": "2026-11-27"
     },
     "semaine": {
-      "appels": 25,
-      "entree": 201104,
-      "sortie": 23426,
-      "cout": 1.272936
+      "appels": 26,
+      "entree": 209043,
+      "sortie": 24363,
+      "cout": 1.323432
     },
     "mois": {
-      "appels": 97,
-      "entree": 777297,
-      "sortie": 88588,
-      "cout": 4.880947999999999,
+      "appels": 98,
+      "entree": 785236,
+      "sortie": 89525,
+      "cout": 4.931443999999999,
       "cle": "2026-11"
     },
-    "projection": 5.42,
+    "projection": 5.48,
     "moyenneAppel": 0.0503,
     "parModele": {
-      "claude-opus-5-5": 97
+      "claude-opus-5-5": 98
     },
     "serie": [
       [
@@ -1058,7 +1103,7 @@
       ],
       [
         "2026-11-27",
-        0
+        0.0505
       ]
     ],
     "depuis": "2026-09-23"

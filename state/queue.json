@@ -1231,5 +1231,650 @@
       }
     },
     "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36331",
+    "channel": "instagram",
+    "dueAt": 1795890406823,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Gironde : au milieu des pins, ce laser recrée le cœur des étoiles",
+      "link": "https://passion-aquitaine.ouest-france.fr/laser-megajoule-le-barp-gironde/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36331",
+      "pubDate": "Fri, 27 Nov 2026 06:30:21 +0000",
+      "date": 1795761021000,
+      "categories": [
+        "Actus",
+        "Gironde"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/construction-laser-megajoule-1.jpg",
+      "description": "Au Barp, en Gironde, le Laser Mégajoule du CEA recrée le cœur des étoiles avec 176 faisceaux. Il est l’un des piliers de la stratégie fusion."
+    },
+    "dossier": {
+      "nature": "evergreen",
+      "sensible": false,
+      "rubrique": "Gironde",
+      "visuel": {
+        "titre": "Au milieu des pins, ce laser recrée le cœur des étoiles",
+        "surlignage": "cœur des étoiles",
+        "description": "Au Barp, le Laser Mégajoule du CEA concentre 176 faisceaux pour reproduire ce qui se passe au cœur des étoiles. Une installation au centre de la stratégie fusion.",
+        "texte_alternatif": "Le Laser Mégajoule du CEA, installé au Barp en Gironde au milieu des pins, recrée le cœur des étoiles grâce à 176 faisceaux."
+      },
+      "entites": [
+        {
+          "nom": "Laser Mégajoule",
+          "role": "sujet",
+          "type": "lieu"
+        },
+        {
+          "nom": "CEA",
+          "role": "acteur",
+          "type": "organisation"
+        }
+      ],
+      "domaines": [
+        "fusion",
+        "énergie",
+        "science"
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "176 faisceaux ⭐ pour recréer le cœur des étoiles, au milieu des pins de Gironde\nAu Barp, le Laser Mégajoule du CEA reproduit des conditions dignes des astres. Une installation hors norme, pilier de la stratégie fusion en France.",
+        "hashtags": [
+          "#Gironde",
+          "#LaserMegajoule",
+          "#Fusion"
+        ]
+      },
+      "facebook": {
+        "texte": "Au Barp, en pleine forêt girondine, le Laser Mégajoule du CEA dirige 176 faisceaux pour recréer le cœur d’une étoile 🌟"
+      },
+      "bluesky": {
+        "texte": "🔬 On l’imagine dans l’espace, on le trouve dans les pins : en Gironde, au Barp, le Laser Mégajoule du CEA recrée le cœur des étoiles avec 176 faisceaux. Une pièce maîtresse de la stratégie fusion.",
+        "hashtag": "#Gironde"
+      },
+      "threads": {
+        "texte": "Pas besoin d’aller loin pour toucher du doigt la science des étoiles ☀️ Au Barp, en Gironde, le Laser Mégajoule du CEA reproduit le cœur des astres grâce à 176 faisceaux. Comprendre ce qui s’y joue, c’est saisir l’un des piliers de la stratégie fusion, cette piste d’énergie dont on parle tant.",
+        "sujet": "Gironde"
+      },
+      "x": {
+        "texte": "Caché au milieu des pins du Barp, en Gironde, le Laser Mégajoule du CEA aligne 💥 176 faisceaux pour recréer le cœur des étoiles. Un pilier discret de la stratégie fusion."
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 7939,
+        "output": 937
+      },
+      "angles": {
+        "instagram": "chiffre ou fait marquant en tête",
+        "facebook": "lieu en tête",
+        "bluesky": "effet de surprise",
+        "threads": "bénéfice pour le lecteur",
+        "x": "détail méconnu"
+      },
+      "lieuSource": {
+        "precis": "Laser Mégajoule",
+        "ville": "Le Barp",
+        "departement": "Gironde"
+      },
+      "lieuNom": "Laser Mégajoule",
+      "commune": "Le Barp",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Ville du Barp",
+            "handle": "villelebarp",
+            "abonnes": 1311,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          },
+          {
+            "nom": "Département de la Gironde",
+            "handle": "departementgironde",
+            "abonnes": 29189,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "Gironde",
+            "handle": "gironde",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36331",
+    "channel": "bluesky",
+    "dueAt": 1795766893289,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Gironde : au milieu des pins, ce laser recrée le cœur des étoiles",
+      "link": "https://passion-aquitaine.ouest-france.fr/laser-megajoule-le-barp-gironde/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36331",
+      "pubDate": "Fri, 27 Nov 2026 06:30:21 +0000",
+      "date": 1795761021000,
+      "categories": [
+        "Actus",
+        "Gironde"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/construction-laser-megajoule-1.jpg",
+      "description": "Au Barp, en Gironde, le Laser Mégajoule du CEA recrée le cœur des étoiles avec 176 faisceaux. Il est l’un des piliers de la stratégie fusion."
+    },
+    "dossier": {
+      "nature": "evergreen",
+      "sensible": false,
+      "rubrique": "Gironde",
+      "visuel": {
+        "titre": "Au milieu des pins, ce laser recrée le cœur des étoiles",
+        "surlignage": "cœur des étoiles",
+        "description": "Au Barp, le Laser Mégajoule du CEA concentre 176 faisceaux pour reproduire ce qui se passe au cœur des étoiles. Une installation au centre de la stratégie fusion.",
+        "texte_alternatif": "Le Laser Mégajoule du CEA, installé au Barp en Gironde au milieu des pins, recrée le cœur des étoiles grâce à 176 faisceaux."
+      },
+      "entites": [
+        {
+          "nom": "Laser Mégajoule",
+          "role": "sujet",
+          "type": "lieu"
+        },
+        {
+          "nom": "CEA",
+          "role": "acteur",
+          "type": "organisation"
+        }
+      ],
+      "domaines": [
+        "fusion",
+        "énergie",
+        "science"
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "176 faisceaux ⭐ pour recréer le cœur des étoiles, au milieu des pins de Gironde\nAu Barp, le Laser Mégajoule du CEA reproduit des conditions dignes des astres. Une installation hors norme, pilier de la stratégie fusion en France.",
+        "hashtags": [
+          "#Gironde",
+          "#LaserMegajoule",
+          "#Fusion"
+        ]
+      },
+      "facebook": {
+        "texte": "Au Barp, en pleine forêt girondine, le Laser Mégajoule du CEA dirige 176 faisceaux pour recréer le cœur d’une étoile 🌟"
+      },
+      "bluesky": {
+        "texte": "🔬 On l’imagine dans l’espace, on le trouve dans les pins : en Gironde, au Barp, le Laser Mégajoule du CEA recrée le cœur des étoiles avec 176 faisceaux. Une pièce maîtresse de la stratégie fusion.",
+        "hashtag": "#Gironde"
+      },
+      "threads": {
+        "texte": "Pas besoin d’aller loin pour toucher du doigt la science des étoiles ☀️ Au Barp, en Gironde, le Laser Mégajoule du CEA reproduit le cœur des astres grâce à 176 faisceaux. Comprendre ce qui s’y joue, c’est saisir l’un des piliers de la stratégie fusion, cette piste d’énergie dont on parle tant.",
+        "sujet": "Gironde"
+      },
+      "x": {
+        "texte": "Caché au milieu des pins du Barp, en Gironde, le Laser Mégajoule du CEA aligne 💥 176 faisceaux pour recréer le cœur des étoiles. Un pilier discret de la stratégie fusion."
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 7939,
+        "output": 937
+      },
+      "angles": {
+        "instagram": "chiffre ou fait marquant en tête",
+        "facebook": "lieu en tête",
+        "bluesky": "effet de surprise",
+        "threads": "bénéfice pour le lecteur",
+        "x": "détail méconnu"
+      },
+      "lieuSource": {
+        "precis": "Laser Mégajoule",
+        "ville": "Le Barp",
+        "departement": "Gironde"
+      },
+      "lieuNom": "Laser Mégajoule",
+      "commune": "Le Barp",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Ville du Barp",
+            "handle": "villelebarp",
+            "abonnes": 1311,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          },
+          {
+            "nom": "Département de la Gironde",
+            "handle": "departementgironde",
+            "abonnes": 29189,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "Gironde",
+            "handle": "gironde",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36331",
+    "channel": "facebook",
+    "dueAt": 1795850695928,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Gironde : au milieu des pins, ce laser recrée le cœur des étoiles",
+      "link": "https://passion-aquitaine.ouest-france.fr/laser-megajoule-le-barp-gironde/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36331",
+      "pubDate": "Fri, 27 Nov 2026 06:30:21 +0000",
+      "date": 1795761021000,
+      "categories": [
+        "Actus",
+        "Gironde"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/construction-laser-megajoule-1.jpg",
+      "description": "Au Barp, en Gironde, le Laser Mégajoule du CEA recrée le cœur des étoiles avec 176 faisceaux. Il est l’un des piliers de la stratégie fusion."
+    },
+    "dossier": {
+      "nature": "evergreen",
+      "sensible": false,
+      "rubrique": "Gironde",
+      "visuel": {
+        "titre": "Au milieu des pins, ce laser recrée le cœur des étoiles",
+        "surlignage": "cœur des étoiles",
+        "description": "Au Barp, le Laser Mégajoule du CEA concentre 176 faisceaux pour reproduire ce qui se passe au cœur des étoiles. Une installation au centre de la stratégie fusion.",
+        "texte_alternatif": "Le Laser Mégajoule du CEA, installé au Barp en Gironde au milieu des pins, recrée le cœur des étoiles grâce à 176 faisceaux."
+      },
+      "entites": [
+        {
+          "nom": "Laser Mégajoule",
+          "role": "sujet",
+          "type": "lieu"
+        },
+        {
+          "nom": "CEA",
+          "role": "acteur",
+          "type": "organisation"
+        }
+      ],
+      "domaines": [
+        "fusion",
+        "énergie",
+        "science"
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "176 faisceaux ⭐ pour recréer le cœur des étoiles, au milieu des pins de Gironde\nAu Barp, le Laser Mégajoule du CEA reproduit des conditions dignes des astres. Une installation hors norme, pilier de la stratégie fusion en France.",
+        "hashtags": [
+          "#Gironde",
+          "#LaserMegajoule",
+          "#Fusion"
+        ]
+      },
+      "facebook": {
+        "texte": "Au Barp, en pleine forêt girondine, le Laser Mégajoule du CEA dirige 176 faisceaux pour recréer le cœur d’une étoile 🌟"
+      },
+      "bluesky": {
+        "texte": "🔬 On l’imagine dans l’espace, on le trouve dans les pins : en Gironde, au Barp, le Laser Mégajoule du CEA recrée le cœur des étoiles avec 176 faisceaux. Une pièce maîtresse de la stratégie fusion.",
+        "hashtag": "#Gironde"
+      },
+      "threads": {
+        "texte": "Pas besoin d’aller loin pour toucher du doigt la science des étoiles ☀️ Au Barp, en Gironde, le Laser Mégajoule du CEA reproduit le cœur des astres grâce à 176 faisceaux. Comprendre ce qui s’y joue, c’est saisir l’un des piliers de la stratégie fusion, cette piste d’énergie dont on parle tant.",
+        "sujet": "Gironde"
+      },
+      "x": {
+        "texte": "Caché au milieu des pins du Barp, en Gironde, le Laser Mégajoule du CEA aligne 💥 176 faisceaux pour recréer le cœur des étoiles. Un pilier discret de la stratégie fusion."
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 7939,
+        "output": 937
+      },
+      "angles": {
+        "instagram": "chiffre ou fait marquant en tête",
+        "facebook": "lieu en tête",
+        "bluesky": "effet de surprise",
+        "threads": "bénéfice pour le lecteur",
+        "x": "détail méconnu"
+      },
+      "lieuSource": {
+        "precis": "Laser Mégajoule",
+        "ville": "Le Barp",
+        "departement": "Gironde"
+      },
+      "lieuNom": "Laser Mégajoule",
+      "commune": "Le Barp",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Ville du Barp",
+            "handle": "villelebarp",
+            "abonnes": 1311,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          },
+          {
+            "nom": "Département de la Gironde",
+            "handle": "departementgironde",
+            "abonnes": 29189,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "Gironde",
+            "handle": "gironde",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36331",
+    "channel": "threads",
+    "dueAt": 1795764491290,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Gironde : au milieu des pins, ce laser recrée le cœur des étoiles",
+      "link": "https://passion-aquitaine.ouest-france.fr/laser-megajoule-le-barp-gironde/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36331",
+      "pubDate": "Fri, 27 Nov 2026 06:30:21 +0000",
+      "date": 1795761021000,
+      "categories": [
+        "Actus",
+        "Gironde"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/construction-laser-megajoule-1.jpg",
+      "description": "Au Barp, en Gironde, le Laser Mégajoule du CEA recrée le cœur des étoiles avec 176 faisceaux. Il est l’un des piliers de la stratégie fusion."
+    },
+    "dossier": {
+      "nature": "evergreen",
+      "sensible": false,
+      "rubrique": "Gironde",
+      "visuel": {
+        "titre": "Au milieu des pins, ce laser recrée le cœur des étoiles",
+        "surlignage": "cœur des étoiles",
+        "description": "Au Barp, le Laser Mégajoule du CEA concentre 176 faisceaux pour reproduire ce qui se passe au cœur des étoiles. Une installation au centre de la stratégie fusion.",
+        "texte_alternatif": "Le Laser Mégajoule du CEA, installé au Barp en Gironde au milieu des pins, recrée le cœur des étoiles grâce à 176 faisceaux."
+      },
+      "entites": [
+        {
+          "nom": "Laser Mégajoule",
+          "role": "sujet",
+          "type": "lieu"
+        },
+        {
+          "nom": "CEA",
+          "role": "acteur",
+          "type": "organisation"
+        }
+      ],
+      "domaines": [
+        "fusion",
+        "énergie",
+        "science"
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "176 faisceaux ⭐ pour recréer le cœur des étoiles, au milieu des pins de Gironde\nAu Barp, le Laser Mégajoule du CEA reproduit des conditions dignes des astres. Une installation hors norme, pilier de la stratégie fusion en France.",
+        "hashtags": [
+          "#Gironde",
+          "#LaserMegajoule",
+          "#Fusion"
+        ]
+      },
+      "facebook": {
+        "texte": "Au Barp, en pleine forêt girondine, le Laser Mégajoule du CEA dirige 176 faisceaux pour recréer le cœur d’une étoile 🌟"
+      },
+      "bluesky": {
+        "texte": "🔬 On l’imagine dans l’espace, on le trouve dans les pins : en Gironde, au Barp, le Laser Mégajoule du CEA recrée le cœur des étoiles avec 176 faisceaux. Une pièce maîtresse de la stratégie fusion.",
+        "hashtag": "#Gironde"
+      },
+      "threads": {
+        "texte": "Pas besoin d’aller loin pour toucher du doigt la science des étoiles ☀️ Au Barp, en Gironde, le Laser Mégajoule du CEA reproduit le cœur des astres grâce à 176 faisceaux. Comprendre ce qui s’y joue, c’est saisir l’un des piliers de la stratégie fusion, cette piste d’énergie dont on parle tant.",
+        "sujet": "Gironde"
+      },
+      "x": {
+        "texte": "Caché au milieu des pins du Barp, en Gironde, le Laser Mégajoule du CEA aligne 💥 176 faisceaux pour recréer le cœur des étoiles. Un pilier discret de la stratégie fusion."
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 7939,
+        "output": 937
+      },
+      "angles": {
+        "instagram": "chiffre ou fait marquant en tête",
+        "facebook": "lieu en tête",
+        "bluesky": "effet de surprise",
+        "threads": "bénéfice pour le lecteur",
+        "x": "détail méconnu"
+      },
+      "lieuSource": {
+        "precis": "Laser Mégajoule",
+        "ville": "Le Barp",
+        "departement": "Gironde"
+      },
+      "lieuNom": "Laser Mégajoule",
+      "commune": "Le Barp",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Ville du Barp",
+            "handle": "villelebarp",
+            "abonnes": 1311,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          },
+          {
+            "nom": "Département de la Gironde",
+            "handle": "departementgironde",
+            "abonnes": 29189,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "Gironde",
+            "handle": "gironde",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36331",
+    "channel": "x",
+    "dueAt": 1795770000000,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Gironde : au milieu des pins, ce laser recrée le cœur des étoiles",
+      "link": "https://passion-aquitaine.ouest-france.fr/laser-megajoule-le-barp-gironde/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36331",
+      "pubDate": "Fri, 27 Nov 2026 06:30:21 +0000",
+      "date": 1795761021000,
+      "categories": [
+        "Actus",
+        "Gironde"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/construction-laser-megajoule-1.jpg",
+      "description": "Au Barp, en Gironde, le Laser Mégajoule du CEA recrée le cœur des étoiles avec 176 faisceaux. Il est l’un des piliers de la stratégie fusion."
+    },
+    "dossier": {
+      "nature": "evergreen",
+      "sensible": false,
+      "rubrique": "Gironde",
+      "visuel": {
+        "titre": "Au milieu des pins, ce laser recrée le cœur des étoiles",
+        "surlignage": "cœur des étoiles",
+        "description": "Au Barp, le Laser Mégajoule du CEA concentre 176 faisceaux pour reproduire ce qui se passe au cœur des étoiles. Une installation au centre de la stratégie fusion.",
+        "texte_alternatif": "Le Laser Mégajoule du CEA, installé au Barp en Gironde au milieu des pins, recrée le cœur des étoiles grâce à 176 faisceaux."
+      },
+      "entites": [
+        {
+          "nom": "Laser Mégajoule",
+          "role": "sujet",
+          "type": "lieu"
+        },
+        {
+          "nom": "CEA",
+          "role": "acteur",
+          "type": "organisation"
+        }
+      ],
+      "domaines": [
+        "fusion",
+        "énergie",
+        "science"
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "176 faisceaux ⭐ pour recréer le cœur des étoiles, au milieu des pins de Gironde\nAu Barp, le Laser Mégajoule du CEA reproduit des conditions dignes des astres. Une installation hors norme, pilier de la stratégie fusion en France.",
+        "hashtags": [
+          "#Gironde",
+          "#LaserMegajoule",
+          "#Fusion"
+        ]
+      },
+      "facebook": {
+        "texte": "Au Barp, en pleine forêt girondine, le Laser Mégajoule du CEA dirige 176 faisceaux pour recréer le cœur d’une étoile 🌟"
+      },
+      "bluesky": {
+        "texte": "🔬 On l’imagine dans l’espace, on le trouve dans les pins : en Gironde, au Barp, le Laser Mégajoule du CEA recrée le cœur des étoiles avec 176 faisceaux. Une pièce maîtresse de la stratégie fusion.",
+        "hashtag": "#Gironde"
+      },
+      "threads": {
+        "texte": "Pas besoin d’aller loin pour toucher du doigt la science des étoiles ☀️ Au Barp, en Gironde, le Laser Mégajoule du CEA reproduit le cœur des astres grâce à 176 faisceaux. Comprendre ce qui s’y joue, c’est saisir l’un des piliers de la stratégie fusion, cette piste d’énergie dont on parle tant.",
+        "sujet": "Gironde"
+      },
+      "x": {
+        "texte": "Caché au milieu des pins du Barp, en Gironde, le Laser Mégajoule du CEA aligne 💥 176 faisceaux pour recréer le cœur des étoiles. Un pilier discret de la stratégie fusion."
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 7939,
+        "output": 937
+      },
+      "angles": {
+        "instagram": "chiffre ou fait marquant en tête",
+        "facebook": "lieu en tête",
+        "bluesky": "effet de surprise",
+        "threads": "bénéfice pour le lecteur",
+        "x": "détail méconnu"
+      },
+      "lieuSource": {
+        "precis": "Laser Mégajoule",
+        "ville": "Le Barp",
+        "departement": "Gironde"
+      },
+      "lieuNom": "Laser Mégajoule",
+      "commune": "Le Barp",
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Ville du Barp",
+            "handle": "villelebarp",
+            "abonnes": 1311,
+            "preuve": 3,
+            "role": "commune",
+            "echelon": "commune",
+            "thematique": true,
+            "nature": "mairie"
+          },
+          {
+            "nom": "Département de la Gironde",
+            "handle": "departementgironde",
+            "abonnes": 29189,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [
+          {
+            "nom": "Gironde",
+            "handle": "gironde",
+            "abonnes": null,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
   }
 ]

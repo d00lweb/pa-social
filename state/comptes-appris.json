@@ -2281,5 +2281,41 @@
     "instagram": [],
     "threads": [],
     "bluesky": []
+  },
+  "commune:mairie:le barp": {
+    "v": 3,
+    "cherche": "2026-11-27T07:00:53.212Z",
+    "instagram": [
+      {
+        "handle": "villelebarp",
+        "nom": "Ville du Barp",
+        "abonnes": 1311,
+        "preuve": 3
+      }
+    ],
+    "x": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:le barp:fusion": {
+    "v": 3,
+    "cherche": "2026-11-27T07:00:53.212Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:le barp:energie": {
+    "v": 3,
+    "cherche": "2026-11-27T07:00:53.212Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
+  },
+  "locale:le barp:science": {
+    "v": 3,
+    "cherche": "2026-11-27T07:00:53.212Z",
+    "instagram": [],
+    "threads": [],
+    "bluesky": []
   }
 }

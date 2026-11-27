@@ -9016,5 +9016,23 @@
       "reponse": null,
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36349",
+    "channel": "threads",
+    "at": "2026-11-27T09:27:28.393Z",
+    "mediaId": "18136477288668527",
+    "titre": "Nitrates : dans six villages charentais, les biberons passent à l’eau en bouteille",
+    "lien": "https://passion-aquitaine.ouest-france.fr/nitrates-eau-robinet-charente-nanteuil-en-vallee/",
+    "lienPost": "https://www.threads.com/@lovaquitaine/post/DgPWkHcFa2v",
+    "format": "reponse",
+    "mention": false,
+    "apercu": {
+      "texte": "ℹ️ Ce sont les plus fragiles qui sont visés en premier : dans six communes de Charente, l’ARS demande aux femmes enceintes et aux bébés de passer à l’eau en bouteille. En cause, une teneur trop élevée en nitrates dans l’eau distribuée.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261127-2d7159d9-th.jpg",
+      "mode": "reponse",
+      "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/nitrates-eau-robinet-charente-nanteuil-en-vallee/",
+      "sujet": "Charente"
+    }
   }
 ]

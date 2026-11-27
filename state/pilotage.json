@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-27T08:00:58.451Z",
+  "genereLe": "2026-11-27T08:20:39.148Z",
   "jour": "2026-11-27",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 12,
-      "total": 101,
-      "dernier": "2026-11-26T18:24:39.700Z",
-      "lienDernier": "https://www.instagram.com/p/DgNvgEMDe3T/"
+      "aujourdhui": 1,
+      "semaine": 13,
+      "total": 102,
+      "dernier": "2026-11-27T08:32:35.113Z",
+      "lienDernier": "https://www.instagram.com/p/DgPQindGqLt/"
     },
     "bluesky": {
       "actif": true,
@@ -89,7 +89,7 @@
       },
       "formats": null,
       "aujourdhui": 1,
-      "semaine": 15,
+      "semaine": 14,
       "total": 99,
       "dernier": "2026-11-27T08:14:42.737Z",
       "lienDernier": "https://www.facebook.com/1720946116697936/posts/1804822434976970"
@@ -156,14 +156,38 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
+      "aujourdhui": 1,
       "semaine": 15,
-      "total": 102,
-      "dernier": "2026-11-26T12:21:40.453Z",
+      "total": 103,
+      "dernier": "2026-11-27T08:20:45.663Z",
       "lienDernier": null
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36349",
+      "titre": "Nitrates : dans six villages charentais, les biberons passent à l’eau en bouteille",
+      "lien": "https://passion-aquitaine.ouest-france.fr/nitrates-eau-robinet-charente-nanteuil-en-vallee/",
+      "at": "2026-11-27T08:32:35.113Z",
+      "reseaux": {
+        "x": {
+          "texte": "Six communes de #Charente, des biberons préparés à l’eau en bouteille 🗞️ L’eau du robinet y contient trop de nitrates, selon l’ARS, qui le demande aussi aux femmes enceintes.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261127-2d7159d9-x.jpg",
+          "mode": "reponse",
+          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/nitrates-eau-robinet-charente-nanteuil-en-vallee/",
+          "sujet": null,
+          "publieLe": "2026-11-27T08:20:45.663Z"
+        },
+        "instagram": {
+          "texte": "En Charente, six communes ont une eau trop chargée en nitrates ℹ️\n⠀\nL’ARS demande aux femmes enceintes et aux bébés de passer à l’eau en bouteille, biberons compris.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Charente #Nitrates #EauPotable",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261127-2d7159d9-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-27T08:32:35.113Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36323",
       "titre": "Gare de Libourne : la petite ville qui a devancé Limoges",
@@ -347,57 +371,29 @@
           "publieLe": "2026-11-26T12:29:59.680Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36283",
-      "titre": "Dans cette gare de Corrèze, il faut héler le train pour monter",
-      "lien": "https://passion-aquitaine.ouest-france.fr/gare-perols-vezere-arret-demande-voyageurs/",
-      "at": "2026-11-26T11:03:35.135Z",
-      "reseaux": {
-        "bluesky": {
-          "texte": "À #PerolsSurVezere, en #Corrèze, le TER ne s’arrête pas tout seul 🚉 Il faut lui faire signe pour monter. Avec 592 passages en 2025, soit moins de deux par jour, la halte vit au rythme de ses rares voyageurs.\n➡️ Lire l’article",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261124-0b305ed9-bsky.jpg",
-          "mode": "image",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-24T07:30:11.720Z"
-        },
-        "x": {
-          "texte": "Pour monter dans le TER à Pérols-sur-Vézère, en #Corrèze, un geste suffit : faire signe au train, sinon il ne s’arrête pas. Moins de deux passages par jour ici 🙋",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261124-0b305ed9-x.jpg",
-          "mode": "reponse",
-          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/gare-perols-vezere-arret-demande-voyageurs/",
-          "sujet": null,
-          "publieLe": "2026-11-24T09:21:24.652Z"
-        },
-        "threads": {
-          "texte": "Imaginez un train qui file sans s’arrêter si vous ne lui faites pas signe. C’est la règle à Pérols-sur-Vézère, en Corrèze : 🚦 le TER ne marque l’arrêt que si on le hèle. En 2025, la gare a compté 592 passages, moins de deux par jour.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261124-0b305ed9-th.jpg",
-          "mode": "reponse",
-          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/gare-perols-vezere-arret-demande-voyageurs/",
-          "sujet": "Pérols-sur-Vézère",
-          "publieLe": "2026-11-24T10:32:42.583Z"
-        },
-        "facebook": {
-          "texte": "Moins de deux passages par jour : à Pérols-sur-Vézère, le TER ne s’arrête que si on lui fait signe 🚆\nL’article est en premier commentaire.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261124-0b305ed9-fb.jpg",
-          "mode": "photo",
-          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/gare-perols-vezere-arret-demande-voyageurs/?at_medium=social&at_campaign=fb-photo",
-          "sujet": null,
-          "publieLe": "2026-11-25T19:27:25.402Z"
-        },
-        "instagram": {
-          "texte": "Et si le train ne s’arrêtait que pour vous ?\n⠀\nÀ Pérols-sur-Vézère, en Corrèze, le TER ne marque l’arrêt que si on lui fait signe. Avec 592 passages en 2025, moins de deux par jour, cette petite gare vit à un rythme bien à elle 🚂\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Correze #TER #Train",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261124-0b305ed9-1.jpg",
-          "mode": null,
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-26T11:03:35.135Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "instagram",
+      "at": "2026-11-27T08:32:35.113Z",
+      "titre": "Nitrates : dans six villages charentais, les biberons passent à l’eau en bouteille",
+      "lien": "https://passion-aquitaine.ouest-france.fr/nitrates-eau-robinet-charente-nanteuil-en-vallee/",
+      "lienPost": "https://www.instagram.com/p/DgPQindGqLt/",
+      "format": null,
+      "texte": "En Charente, six communes ont une eau trop chargée en nitrates ℹ️\n⠀\nL’ARS demande aux femmes enceintes et aux bébés de passer à l’eau en bouteille, biberons compris.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Charente #Nitrates #EauPotable",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261127-2d7159d9-1.jpg"
+    },
+    {
+      "channel": "x",
+      "at": "2026-11-27T08:20:45.663Z",
+      "titre": "Nitrates : dans six villages charentais, les biberons passent à l’eau en bouteille",
+      "lien": "https://passion-aquitaine.ouest-france.fr/nitrates-eau-robinet-charente-nanteuil-en-vallee/",
+      "lienPost": null,
+      "format": "reponse",
+      "texte": "Six communes de #Charente, des biberons préparés à l’eau en bouteille 🗞️ L’eau du robinet y contient trop de nitrates, selon l’ARS, qui le demande aussi aux femmes enceintes.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261127-2d7159d9-x.jpg"
+    },
     {
       "channel": "facebook",
       "at": "2026-11-27T08:14:42.737Z",
@@ -477,47 +473,9 @@
       "format": null,
       "texte": "Et si le train ne s’arrêtait que pour vous ?\n⠀\nÀ Pérols-sur-Vézère, en Corrèze, le TER ne marque l’arrêt que si on lui fait signe. Avec 592 passages en 2025, moins de deux par jour, cette petite gare vit à un rythme bien à elle 🚂\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Correze #TER #Train",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261124-0b305ed9-1.jpg"
-    },
-    {
-      "channel": "threads",
-      "at": "2026-11-26T10:15:34.474Z",
-      "titre": "En 2070, la Charente-Maritime ressemblera à Royan : pourquoi la station balnéaire vit déjà dans le futur",
-      "lien": "https://passion-aquitaine.ouest-france.fr/charente-maritime-seniors-royan-2070/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/DgM3McykRLI",
-      "format": "reponse",
-      "texte": "L’Insee projette 44,4 % de seniors en Charente-Maritime en 2070. À Royan, ils sont déjà 49,2 %, et les logements adaptés à ces habitants manquent 💃",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261126-7ee6e2d3-th.jpg"
-    },
-    {
-      "channel": "bluesky",
-      "at": "2026-11-26T08:14:56.951Z",
-      "titre": "Gare de Libourne : la petite ville qui a devancé Limoges",
-      "lien": "https://passion-aquitaine.ouest-france.fr/gare-libourne-voyageurs-limoges-2025/",
-      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n37a6yp5gj22",
-      "format": "reply",
-      "texte": "Des quais de #Libourne de plus en plus fréquentés 🚈 En 2025, la gare a vu passer 2,11 millions de voyageurs, davantage que Limoges-Bénédictins. Le moteur de cet essor : le RER métropolitain.\n@villelibourne.bsky.social",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261126-49b560f0-bsky.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "x",
-      "dueAt": "2026-11-27T08:20:00.000Z",
-      "prochainPassage": "2026-11-27T08:20:00.000Z",
-      "nature": "actu_chaude",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Nitrates : dans six villages charentais, les biberons passent à l’eau en bouteille"
-    },
-    {
-      "channel": "instagram",
-      "dueAt": "2026-11-27T08:32:08.709Z",
-      "prochainPassage": "2026-11-27T09:00:00.000Z",
-      "nature": "actu_chaude",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Nitrates : dans six villages charentais, les biberons passent à l’eau en bouteille"
-    },
     {
       "channel": "threads",
       "dueAt": "2026-11-27T09:25:00.353Z",
@@ -640,7 +598,7 @@
     }
   ],
   "mesures": {
-    "releves": 738,
+    "releves": 741,
     "parReseau": {
       "instagram": {
         "posts": 89,
@@ -651,7 +609,7 @@
         "interactionsMoyennes": 0.2
       },
       "facebook": {
-        "posts": 84,
+        "posts": 85,
         "interactionsMoyennes": 0
       },
       "threads": {
@@ -711,9 +669,9 @@
     },
     "facebook": {
       "publications": 5,
-      "vues": 51646,
+      "vues": 6530,
       "invisible": false,
-      "depuis": "2026-11-23T19:13:43.035Z"
+      "depuis": "2026-11-24T07:08:51.095Z"
     },
     "alertes": {
       "threads": "2026-11-S3",
@@ -801,8 +759,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-27T08:14:45.683Z",
-    "posts": 144,
+    "genereLe": "2026-11-27T08:32:41.496Z",
+    "posts": 146,
     "parReseau": {
       "threads": {
         "posts": 38,
@@ -813,11 +771,11 @@
         "moyenne": 7.6
       },
       "facebook": {
-        "posts": 35,
+        "posts": 36,
         "moyenne": 1.9
       },
       "bluesky": {
-        "posts": 37,
+        "posts": 38,
         "moyenne": 0
       }
     },
@@ -835,14 +793,14 @@
         "moyenne": 0
       },
       "reply": {
-        "posts": 10,
+        "posts": 11,
         "moyenne": 0
       }
     },
     "parCreneau": {
       "matin": {
-        "posts": 75,
-        "moyenne": 6.9
+        "posts": 77,
+        "moyenne": 6.7
       },
       "après-midi": {
         "posts": 42,
@@ -878,8 +836,8 @@
           "moyenne": 4.2
         },
         "8 h – 9 h 30": {
-          "posts": 21,
-          "moyenne": 0.8
+          "posts": 22,
+          "moyenne": 0.9
         },
         "hors créneau": {
           "posts": 2,
@@ -888,8 +846,8 @@
       },
       "bluesky": {
         "8 h – 9 h 30": {
-          "posts": 20,
-          "moyenne": 0.1
+          "posts": 21,
+          "moyenne": 0
         },
         "hors créneau": {
           "posts": 2,
@@ -919,7 +877,7 @@
         }
       }
     },
-    "interactionsTotal": 871,
+    "interactionsTotal": 874,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36189",
       "channel": "threads",
@@ -941,32 +899,32 @@
       "creneauReseau": "7 h – 8 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36306",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36323",
       "channel": "bluesky",
-      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3n34qktnd2o2d",
-      "publieLe": "2026-11-25T08:29:54.381Z",
-      "format": "image",
+      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3n37a6yp5gj22",
+      "publieLe": "2026-11-26T08:14:56.951Z",
+      "format": "reply",
       "jalon": 1,
-      "releveLe": "2026-11-26T09:00:36.203Z",
+      "releveLe": "2026-11-27T08:20:39.148Z",
       "likes": 0,
-      "commentairesBruts": 0,
+      "commentairesBruts": 1,
       "partages": 0,
       "vues": null,
       "commentaires": 0,
       "v": 2,
-      "titre": "Café céramique à Bordeaux : ici, la tasse ne sert pas à boire",
-      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n34qktnd2o2d",
+      "titre": "Gare de Libourne : la petite ville qui a devancé Limoges",
+      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n37a6yp5gj22",
       "mention": true,
       "creneau": "matin",
       "creneauReseau": "8 h – 9 h 30"
     },
     "mentions": {
       "avec": {
-        "posts": 58,
-        "moyenne": 5.9
+        "posts": 59,
+        "moyenne": 5.8
       },
       "sans": {
-        "posts": 86,
+        "posts": 87,
         "moyenne": 6.1
       }
     },
@@ -974,8 +932,8 @@
       "threads": 40,
       "facebook": 39,
       "bluesky": 40,
-      "x": 39,
-      "instagram": 36
+      "x": 40,
+      "instagram": 37
     },
     "abonnes": {
       "instagram": {
@@ -1019,7 +977,7 @@
     },
     "conseils": [
       "Threads : le créneau 7 h – 8 h 30 fait 2,3 fois mieux que 10 h – 11 h 30 (19.3 contre 8.3 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
-      "Facebook : le créneau 20 h – 21 h 30 fait 5,3 fois mieux que 8 h – 9 h 30 (4.2 contre 0.8 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
+      "Facebook : le créneau 20 h – 21 h 30 fait 4,7 fois mieux que 8 h – 9 h 30 (4.2 contre 0.9 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Instagram : le créneau 12 h – 13 h 30 fait 1,8 fois mieux que 18 h – 19 h 30 (9.2 contre 5.1 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Le format « reponse » fait 144 fois mieux que « reply » (14.4 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « reply » de la rotation dans config/channels.json."
     ]

@@ -8980,5 +8980,41 @@
       "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/gare-libourne-voyageurs-limoges-2025/?at_medium=social&at_campaign=fb-photo",
       "sujet": null
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36349",
+    "channel": "x",
+    "at": "2026-11-27T08:20:45.663Z",
+    "mediaId": "kit-telegram",
+    "titre": "Nitrates : dans six villages charentais, les biberons passent à l’eau en bouteille",
+    "lien": "https://passion-aquitaine.ouest-france.fr/nitrates-eau-robinet-charente-nanteuil-en-vallee/",
+    "lienPost": null,
+    "format": "reponse",
+    "mention": false,
+    "apercu": {
+      "texte": "Six communes de #Charente, des biberons préparés à l’eau en bouteille 🗞️ L’eau du robinet y contient trop de nitrates, selon l’ARS, qui le demande aussi aux femmes enceintes.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261127-2d7159d9-x.jpg",
+      "mode": "reponse",
+      "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/nitrates-eau-robinet-charente-nanteuil-en-vallee/",
+      "sujet": null
+    }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36349",
+    "channel": "instagram",
+    "at": "2026-11-27T08:32:35.113Z",
+    "mediaId": "18050449184829868",
+    "titre": "Nitrates : dans six villages charentais, les biberons passent à l’eau en bouteille",
+    "lien": "https://passion-aquitaine.ouest-france.fr/nitrates-eau-robinet-charente-nanteuil-en-vallee/",
+    "lienPost": "https://www.instagram.com/p/DgPQindGqLt/",
+    "format": null,
+    "mention": true,
+    "apercu": {
+      "texte": "En Charente, six communes ont une eau trop chargée en nitrates ℹ️\n⠀\nL’ARS demande aux femmes enceintes et aux bébés de passer à l’eau en bouteille, biberons compris.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Charente #Nitrates #EauPotable",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261127-2d7159d9-1.jpg",
+      "mode": null,
+      "reponse": null,
+      "sujet": null
+    }
   }
 ]

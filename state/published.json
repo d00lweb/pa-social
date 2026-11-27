@@ -8944,5 +8944,41 @@
       "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/laser-megajoule-le-barp-gironde/",
       "sujet": "Le Barp"
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36331",
+    "channel": "bluesky",
+    "at": "2026-11-27T08:08:15.017Z",
+    "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3n3bqbxeij425",
+    "titre": "Gironde : au milieu des pins, ce laser recrée le cœur des étoiles",
+    "lien": "https://passion-aquitaine.ouest-france.fr/laser-megajoule-le-barp-gironde/",
+    "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n3bqbxeij425",
+    "format": "card",
+    "mention": false,
+    "apercu": {
+      "texte": "🔬 On l’imagine dans l’espace, on le trouve dans les pins : en #Gironde, au Barp, le Laser Mégajoule du CEA recrée le cœur des étoiles avec 176 faisceaux. Une pièce maîtresse de la stratégie #fusion.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261127-f331e4ad-bsky.jpg",
+      "mode": "card",
+      "reponse": null,
+      "sujet": null
+    }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36323",
+    "channel": "facebook",
+    "at": "2026-11-27T08:14:42.737Z",
+    "mediaId": "227437307428711_1804822434976970",
+    "titre": "Gare de Libourne : la petite ville qui a devancé Limoges",
+    "lien": "https://passion-aquitaine.ouest-france.fr/gare-libourne-voyageurs-limoges-2025/",
+    "lienPost": "https://www.facebook.com/1720946116697936/posts/1804822434976970",
+    "format": "photo",
+    "mention": false,
+    "apercu": {
+      "texte": "Une sous-préfecture girondine fait désormais mieux que la grande gare de Limoges-Bénédictins, grâce au RER métropolitain 🚉\nL’article est en premier commentaire.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261126-49b560f0-fb.jpg",
+      "mode": "photo",
+      "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/gare-libourne-voyageurs-limoges-2025/?at_medium=social&at_campaign=fb-photo",
+      "sujet": null
+    }
   }
 ]

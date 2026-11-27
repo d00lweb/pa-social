@@ -627,7 +627,7 @@
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=36323",
     "channel": "instagram",
-    "dueAt": 1795802852792,
+    "dueAt": 1795864226965,
     "status": "pending",
     "attempts": 0,
     "article": {
@@ -777,167 +777,14 @@
         "facebook": []
       }
     },
-    "previewSent": false
-  },
-  {
-    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36323",
-    "channel": "facebook",
-    "dueAt": 1795767113003,
-    "status": "pending",
-    "attempts": 0,
-    "article": {
-      "title": "Gare de Libourne : la petite ville qui a devancé Limoges",
-      "link": "https://passion-aquitaine.ouest-france.fr/gare-libourne-voyageurs-limoges-2025/",
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36323",
-      "pubDate": "Thu, 26 Nov 2026 06:30:07 +0000",
-      "date": 1795674607000,
-      "categories": [
-        "Actus",
-        "Économie",
-        "Gironde",
-        "Transports"
-      ],
-      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/gare-libourne.jpg",
-      "description": "En 2025, la gare de Libourne a compté 2,11 millions de passages, plus que Limoges-Bénédictins. L’explication : le RER métropolitain."
-    },
-    "dossier": {
-      "nature": "actu",
-      "sensible": false,
-      "rubrique": "Libourne",
-      "visuel": {
-        "titre": "Gare de Libourne : la petite ville qui a devancé Limoges",
-        "surlignage": "devancé Limoges",
-        "description": "En 2025, la gare de Libourne a compté 2,11 millions de passages, plus que Limoges-Bénédictins. La raison tient au RER métropolitain.",
-        "texte_alternatif": "La gare de Libourne, en Gironde, qui a accueilli 2,11 millions de passages en 2025, davantage que la gare de Limoges-Bénédictins."
-      },
-      "entites": [
-        {
-          "nom": "Gare de Libourne",
-          "role": "sujet",
-          "type": "lieu"
-        },
-        {
-          "nom": "Limoges-Bénédictins",
-          "role": "acteur",
-          "type": "lieu"
-        },
-        {
-          "nom": "RER métropolitain",
-          "role": "acteur",
-          "type": "organisation"
-        }
-      ],
-      "domaines": [
-        "train",
-        "transport"
-      ],
-      "lieu": null,
-      "instagram": {
-        "texte": "Prendre le train à Libourne n’a jamais été aussi courant : sa gare dépasse désormais celle de Limoges\nAvec le RER métropolitain, les habitants du Libournais rejoignent plus facilement la métropole bordelaise. Résultat : 2,11 millions de passages en gare en 2025 🚆",
-        "hashtags": [
-          "#Libourne",
-          "#RERMetropolitain",
-          "#Transports"
-        ]
-      },
-      "facebook": {
-        "texte": "Une sous-préfecture girondine fait désormais mieux que la grande gare de Limoges-Bénédictins, grâce au RER métropolitain 🚉"
-      },
-      "bluesky": {
-        "texte": "Des quais de Libourne de plus en plus fréquentés 🚈 En 2025, la gare a vu passer 2,11 millions de voyageurs, davantage que Limoges-Bénédictins. Le moteur de cet essor : le RER métropolitain.",
-        "hashtag": "#Libourne"
-      },
-      "threads": {
-        "texte": "Comment une gare de petite ville peut-elle dépasser celle d’une capitale régionale historique ? À Libourne, la réponse tient en trois lettres 🚆 RER. Grâce au RER métropolitain, la gare a compté 2,11 millions de passages en 2025, plus que Limoges-Bénédictins. Vous l’empruntez, ce RER ?",
-        "sujet": "Libourne"
-      },
-      "x": {
-        "texte": "2,11 millions de passages en 2025 : la gare de Libourne surpasse Limoges-Bénédictins. Le RER métropolitain a changé la donne en Gironde 🚄"
-      },
-      "source": "ia",
-      "model": "claude-opus-5-5",
-      "usage": {
-        "input": 8086,
-        "output": 910
-      },
-      "angles": {
-        "instagram": "bénéfice pour le lecteur",
-        "facebook": "détail méconnu",
-        "bluesky": "image évocatrice",
-        "threads": "question intrigante",
-        "x": "chiffre ou fait marquant en tête"
-      },
-      "lieuSource": {
-        "precis": "Gare de Libourne",
-        "ville": "Libourne",
-        "departement": "Gironde"
-      },
-      "lieuNom": "Gare de Libourne",
-      "commune": "Libourne",
-      "comptes": {
-        "instagram": [
-          {
-            "nom": "Limoges-Bénédictins",
-            "handle": "limogesbenedictins",
-            "abonnes": null,
-            "preuve": 2,
-            "role": "acteur",
-            "echelon": "sujet"
-          },
-          {
-            "nom": "Ville de Libourne",
-            "handle": "libournefr",
-            "abonnes": 14316,
-            "preuve": 3,
-            "role": "commune",
-            "echelon": "commune",
-            "thematique": true,
-            "nature": "mairie"
-          },
-          {
-            "nom": "SNCF VOYAGEURS TER Nouvelle-Aquitaine",
-            "handle": "sncf.ter.nouvelle.aquitaine",
-            "abonnes": 8520,
-            "preuve": 3,
-            "role": "theme",
-            "echelon": "domaine",
-            "thematique": true
-          }
-        ],
-        "x": [
-          {
-            "nom": "Libourne",
-            "handle": "ville_libourne",
-            "abonnes": null,
-            "preuve": 3,
-            "role": "commune",
-            "echelon": "commune",
-            "thematique": true,
-            "nature": "mairie"
-          }
-        ],
-        "bluesky": [
-          {
-            "nom": "Libourne",
-            "handle": "villelibourne.bsky.social",
-            "abonnes": 91,
-            "preuve": 3,
-            "role": "commune",
-            "echelon": "commune",
-            "thematique": true,
-            "nature": "mairie"
-          }
-        ],
-        "threads": [],
-        "facebook": []
-      }
-    },
-    "previewSent": false
+    "previewSent": false,
+    "prevuInitialement": 1795802852792,
+    "raison": "le nombre de posts du jour était atteint"
   },
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=36336",
     "channel": "instagram",
-    "dueAt": 1795863795012,
+    "dueAt": 1795887225782,
     "status": "pending",
     "attempts": 0,
     "article": {
@@ -1081,12 +928,14 @@
         "facebook": []
       }
     },
-    "previewSent": false
+    "previewSent": false,
+    "prevuInitialement": 1795863795012,
+    "raison": "un autre post occupait déjà ce créneau"
   },
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=36336",
     "channel": "facebook",
-    "dueAt": 1795806338840,
+    "dueAt": 1795853552898,
     "status": "pending",
     "attempts": 0,
     "article": {
@@ -1230,12 +1079,14 @@
         "facebook": []
       }
     },
-    "previewSent": false
+    "previewSent": false,
+    "prevuInitialement": 1795806338840,
+    "raison": "le nombre de posts du jour était atteint"
   },
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=36331",
     "channel": "instagram",
-    "dueAt": 1795890406823,
+    "dueAt": 1795951479809,
     "status": "pending",
     "attempts": 0,
     "article": {
@@ -1359,141 +1210,14 @@
         "facebook": []
       }
     },
-    "previewSent": false
-  },
-  {
-    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36331",
-    "channel": "bluesky",
-    "dueAt": 1795766893289,
-    "status": "pending",
-    "attempts": 0,
-    "article": {
-      "title": "Gironde : au milieu des pins, ce laser recrée le cœur des étoiles",
-      "link": "https://passion-aquitaine.ouest-france.fr/laser-megajoule-le-barp-gironde/",
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36331",
-      "pubDate": "Fri, 27 Nov 2026 06:30:21 +0000",
-      "date": 1795761021000,
-      "categories": [
-        "Actus",
-        "Gironde"
-      ],
-      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/construction-laser-megajoule-1.jpg",
-      "description": "Au Barp, en Gironde, le Laser Mégajoule du CEA recrée le cœur des étoiles avec 176 faisceaux. Il est l’un des piliers de la stratégie fusion."
-    },
-    "dossier": {
-      "nature": "evergreen",
-      "sensible": false,
-      "rubrique": "Gironde",
-      "visuel": {
-        "titre": "Au milieu des pins, ce laser recrée le cœur des étoiles",
-        "surlignage": "cœur des étoiles",
-        "description": "Au Barp, le Laser Mégajoule du CEA concentre 176 faisceaux pour reproduire ce qui se passe au cœur des étoiles. Une installation au centre de la stratégie fusion.",
-        "texte_alternatif": "Le Laser Mégajoule du CEA, installé au Barp en Gironde au milieu des pins, recrée le cœur des étoiles grâce à 176 faisceaux."
-      },
-      "entites": [
-        {
-          "nom": "Laser Mégajoule",
-          "role": "sujet",
-          "type": "lieu"
-        },
-        {
-          "nom": "CEA",
-          "role": "acteur",
-          "type": "organisation"
-        }
-      ],
-      "domaines": [
-        "fusion",
-        "énergie",
-        "science"
-      ],
-      "lieu": null,
-      "instagram": {
-        "texte": "176 faisceaux ⭐ pour recréer le cœur des étoiles, au milieu des pins de Gironde\nAu Barp, le Laser Mégajoule du CEA reproduit des conditions dignes des astres. Une installation hors norme, pilier de la stratégie fusion en France.",
-        "hashtags": [
-          "#Gironde",
-          "#LaserMegajoule",
-          "#Fusion"
-        ]
-      },
-      "facebook": {
-        "texte": "Au Barp, en pleine forêt girondine, le Laser Mégajoule du CEA dirige 176 faisceaux pour recréer le cœur d’une étoile 🌟"
-      },
-      "bluesky": {
-        "texte": "🔬 On l’imagine dans l’espace, on le trouve dans les pins : en Gironde, au Barp, le Laser Mégajoule du CEA recrée le cœur des étoiles avec 176 faisceaux. Une pièce maîtresse de la stratégie fusion.",
-        "hashtag": "#Gironde"
-      },
-      "threads": {
-        "texte": "Pas besoin d’aller loin pour toucher du doigt la science des étoiles ☀️ Au Barp, en Gironde, le Laser Mégajoule du CEA reproduit le cœur des astres grâce à 176 faisceaux. Comprendre ce qui s’y joue, c’est saisir l’un des piliers de la stratégie fusion, cette piste d’énergie dont on parle tant.",
-        "sujet": "Gironde"
-      },
-      "x": {
-        "texte": "Caché au milieu des pins du Barp, en Gironde, le Laser Mégajoule du CEA aligne 💥 176 faisceaux pour recréer le cœur des étoiles. Un pilier discret de la stratégie fusion."
-      },
-      "source": "ia",
-      "model": "claude-opus-5-5",
-      "usage": {
-        "input": 7939,
-        "output": 937
-      },
-      "angles": {
-        "instagram": "chiffre ou fait marquant en tête",
-        "facebook": "lieu en tête",
-        "bluesky": "effet de surprise",
-        "threads": "bénéfice pour le lecteur",
-        "x": "détail méconnu"
-      },
-      "lieuSource": {
-        "precis": "Laser Mégajoule",
-        "ville": "Le Barp",
-        "departement": "Gironde"
-      },
-      "lieuNom": "Laser Mégajoule",
-      "commune": "Le Barp",
-      "comptes": {
-        "instagram": [
-          {
-            "nom": "Ville du Barp",
-            "handle": "villelebarp",
-            "abonnes": 1311,
-            "preuve": 3,
-            "role": "commune",
-            "echelon": "commune",
-            "thematique": true,
-            "nature": "mairie"
-          },
-          {
-            "nom": "Département de la Gironde",
-            "handle": "departementgironde",
-            "abonnes": 29189,
-            "preuve": 3,
-            "role": "territoire",
-            "echelon": "territoire",
-            "thematique": true
-          }
-        ],
-        "x": [
-          {
-            "nom": "Gironde",
-            "handle": "gironde",
-            "abonnes": null,
-            "preuve": 3,
-            "role": "territoire",
-            "echelon": "territoire",
-            "thematique": true
-          }
-        ],
-        "bluesky": [],
-        "threads": [],
-        "facebook": []
-      }
-    },
-    "previewSent": false
+    "previewSent": false,
+    "prevuInitialement": 1795890406823,
+    "raison": "un autre post occupait déjà ce créneau"
   },
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=36331",
     "channel": "facebook",
-    "dueAt": 1795850695928,
+    "dueAt": 1795897785996,
     "status": "pending",
     "attempts": 0,
     "article": {
@@ -1617,12 +1341,14 @@
         "facebook": []
       }
     },
-    "previewSent": false
+    "previewSent": false,
+    "prevuInitialement": 1795850695928,
+    "raison": "un autre post occupait déjà ce créneau"
   },
   {
     "guid": "https://passion-aquitaine.ouest-france.fr/?p=36331",
     "channel": "x",
-    "dueAt": 1795770000000,
+    "dueAt": 1795780800000,
     "status": "pending",
     "attempts": 0,
     "article": {
@@ -1741,6 +1467,523 @@
             "thematique": true
           }
         ],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false,
+    "prevuInitialement": 1795770000000,
+    "raison": "un autre post occupait déjà ce créneau"
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36349",
+    "channel": "instagram",
+    "dueAt": 1795768328709,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Nitrates : dans six villages charentais, les biberons passent à l’eau en bouteille",
+      "link": "https://passion-aquitaine.ouest-france.fr/nitrates-eau-robinet-charente-nanteuil-en-vallee/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36349",
+      "pubDate": "Fri, 27 Nov 2026 07:49:46 +0000",
+      "date": 1795765786000,
+      "categories": [
+        "Actus",
+        "Charente"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/nourrisson-biberon-nitrates-charente.jpg",
+      "description": "Trop de nitrates dans l’eau de six communes charentaises : l’ARS demande aux femmes enceintes et aux bébés de passer à l’eau en bouteille."
+    },
+    "dossier": {
+      "nature": "actu_chaude",
+      "sensible": true,
+      "rubrique": "Charente",
+      "visuel": {
+        "titre": "Nitrates : dans six villages charentais, les biberons passent à l’eau en bouteille",
+        "surlignage": "Nitrates",
+        "description": "L’eau de six communes charentaises contient trop de nitrates. L’ARS demande aux femmes enceintes et aux bébés de passer à l’eau en bouteille.",
+        "texte_alternatif": "Dans six communes de Charente, l’eau du robinet contient trop de nitrates : l’ARS recommande l’eau en bouteille pour les femmes enceintes et les bébés."
+      },
+      "entites": [
+        {
+          "nom": "ARS",
+          "role": "acteur",
+          "type": "organisation"
+        }
+      ],
+      "domaines": [
+        "eau",
+        "santé"
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "En Charente, six communes ont une eau trop chargée en nitrates ℹ️\nL’ARS demande aux femmes enceintes et aux bébés de passer à l’eau en bouteille, biberons compris.",
+        "hashtags": [
+          "#Charente",
+          "#Nitrates",
+          "#EauPotable"
+        ]
+      },
+      "facebook": {
+        "texte": "Dans six communes de Charente, les biberons ne se préparent plus avec l’eau du robinet, trop chargée en nitrates 📰"
+      },
+      "bluesky": {
+        "texte": "Femmes enceintes et parents de bébés en Charente : dans six communes, l’ARS recommande l’eau en bouteille, car l’eau du robinet contient trop de nitrates. Les communes concernées sont détaillées dans l’article 📰",
+        "hashtag": "#Charente"
+      },
+      "threads": {
+        "texte": "ℹ️ Ce sont les plus fragiles qui sont visés en premier : dans six communes de Charente, l’ARS demande aux femmes enceintes et aux bébés de passer à l’eau en bouteille. En cause, une teneur trop élevée en nitrates dans l’eau distribuée.",
+        "sujet": "Charente"
+      },
+      "x": {
+        "texte": "Six communes de Charente, des biberons préparés à l’eau en bouteille 🗞️ L’eau du robinet y contient trop de nitrates, selon l’ARS, qui le demande aussi aux femmes enceintes."
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 7930,
+        "output": 782
+      },
+      "angles": {
+        "instagram": "lieu en tête",
+        "facebook": "effet de surprise",
+        "bluesky": "bénéfice pour le lecteur",
+        "threads": "détail méconnu",
+        "x": "image évocatrice"
+      },
+      "lieuSource": {
+        "precis": "",
+        "ville": "",
+        "departement": "Charente"
+      },
+      "lieuNom": "Charente",
+      "commune": null,
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Département de la Charente",
+            "handle": "departementcharente",
+            "abonnes": 5889,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36349",
+    "channel": "bluesky",
+    "dueAt": 1795775653445,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Nitrates : dans six villages charentais, les biberons passent à l’eau en bouteille",
+      "link": "https://passion-aquitaine.ouest-france.fr/nitrates-eau-robinet-charente-nanteuil-en-vallee/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36349",
+      "pubDate": "Fri, 27 Nov 2026 07:49:46 +0000",
+      "date": 1795765786000,
+      "categories": [
+        "Actus",
+        "Charente"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/nourrisson-biberon-nitrates-charente.jpg",
+      "description": "Trop de nitrates dans l’eau de six communes charentaises : l’ARS demande aux femmes enceintes et aux bébés de passer à l’eau en bouteille."
+    },
+    "dossier": {
+      "nature": "actu_chaude",
+      "sensible": true,
+      "rubrique": "Charente",
+      "visuel": {
+        "titre": "Nitrates : dans six villages charentais, les biberons passent à l’eau en bouteille",
+        "surlignage": "Nitrates",
+        "description": "L’eau de six communes charentaises contient trop de nitrates. L’ARS demande aux femmes enceintes et aux bébés de passer à l’eau en bouteille.",
+        "texte_alternatif": "Dans six communes de Charente, l’eau du robinet contient trop de nitrates : l’ARS recommande l’eau en bouteille pour les femmes enceintes et les bébés."
+      },
+      "entites": [
+        {
+          "nom": "ARS",
+          "role": "acteur",
+          "type": "organisation"
+        }
+      ],
+      "domaines": [
+        "eau",
+        "santé"
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "En Charente, six communes ont une eau trop chargée en nitrates ℹ️\nL’ARS demande aux femmes enceintes et aux bébés de passer à l’eau en bouteille, biberons compris.",
+        "hashtags": [
+          "#Charente",
+          "#Nitrates",
+          "#EauPotable"
+        ]
+      },
+      "facebook": {
+        "texte": "Dans six communes de Charente, les biberons ne se préparent plus avec l’eau du robinet, trop chargée en nitrates 📰"
+      },
+      "bluesky": {
+        "texte": "Femmes enceintes et parents de bébés en Charente : dans six communes, l’ARS recommande l’eau en bouteille, car l’eau du robinet contient trop de nitrates. Les communes concernées sont détaillées dans l’article 📰",
+        "hashtag": "#Charente"
+      },
+      "threads": {
+        "texte": "ℹ️ Ce sont les plus fragiles qui sont visés en premier : dans six communes de Charente, l’ARS demande aux femmes enceintes et aux bébés de passer à l’eau en bouteille. En cause, une teneur trop élevée en nitrates dans l’eau distribuée.",
+        "sujet": "Charente"
+      },
+      "x": {
+        "texte": "Six communes de Charente, des biberons préparés à l’eau en bouteille 🗞️ L’eau du robinet y contient trop de nitrates, selon l’ARS, qui le demande aussi aux femmes enceintes."
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 7930,
+        "output": 782
+      },
+      "angles": {
+        "instagram": "lieu en tête",
+        "facebook": "effet de surprise",
+        "bluesky": "bénéfice pour le lecteur",
+        "threads": "détail méconnu",
+        "x": "image évocatrice"
+      },
+      "lieuSource": {
+        "precis": "",
+        "ville": "",
+        "departement": "Charente"
+      },
+      "lieuNom": "Charente",
+      "commune": null,
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Département de la Charente",
+            "handle": "departementcharente",
+            "abonnes": 5889,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36349",
+    "channel": "facebook",
+    "dueAt": 1795778923702,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Nitrates : dans six villages charentais, les biberons passent à l’eau en bouteille",
+      "link": "https://passion-aquitaine.ouest-france.fr/nitrates-eau-robinet-charente-nanteuil-en-vallee/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36349",
+      "pubDate": "Fri, 27 Nov 2026 07:49:46 +0000",
+      "date": 1795765786000,
+      "categories": [
+        "Actus",
+        "Charente"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/nourrisson-biberon-nitrates-charente.jpg",
+      "description": "Trop de nitrates dans l’eau de six communes charentaises : l’ARS demande aux femmes enceintes et aux bébés de passer à l’eau en bouteille."
+    },
+    "dossier": {
+      "nature": "actu_chaude",
+      "sensible": true,
+      "rubrique": "Charente",
+      "visuel": {
+        "titre": "Nitrates : dans six villages charentais, les biberons passent à l’eau en bouteille",
+        "surlignage": "Nitrates",
+        "description": "L’eau de six communes charentaises contient trop de nitrates. L’ARS demande aux femmes enceintes et aux bébés de passer à l’eau en bouteille.",
+        "texte_alternatif": "Dans six communes de Charente, l’eau du robinet contient trop de nitrates : l’ARS recommande l’eau en bouteille pour les femmes enceintes et les bébés."
+      },
+      "entites": [
+        {
+          "nom": "ARS",
+          "role": "acteur",
+          "type": "organisation"
+        }
+      ],
+      "domaines": [
+        "eau",
+        "santé"
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "En Charente, six communes ont une eau trop chargée en nitrates ℹ️\nL’ARS demande aux femmes enceintes et aux bébés de passer à l’eau en bouteille, biberons compris.",
+        "hashtags": [
+          "#Charente",
+          "#Nitrates",
+          "#EauPotable"
+        ]
+      },
+      "facebook": {
+        "texte": "Dans six communes de Charente, les biberons ne se préparent plus avec l’eau du robinet, trop chargée en nitrates 📰"
+      },
+      "bluesky": {
+        "texte": "Femmes enceintes et parents de bébés en Charente : dans six communes, l’ARS recommande l’eau en bouteille, car l’eau du robinet contient trop de nitrates. Les communes concernées sont détaillées dans l’article 📰",
+        "hashtag": "#Charente"
+      },
+      "threads": {
+        "texte": "ℹ️ Ce sont les plus fragiles qui sont visés en premier : dans six communes de Charente, l’ARS demande aux femmes enceintes et aux bébés de passer à l’eau en bouteille. En cause, une teneur trop élevée en nitrates dans l’eau distribuée.",
+        "sujet": "Charente"
+      },
+      "x": {
+        "texte": "Six communes de Charente, des biberons préparés à l’eau en bouteille 🗞️ L’eau du robinet y contient trop de nitrates, selon l’ARS, qui le demande aussi aux femmes enceintes."
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 7930,
+        "output": 782
+      },
+      "angles": {
+        "instagram": "lieu en tête",
+        "facebook": "effet de surprise",
+        "bluesky": "bénéfice pour le lecteur",
+        "threads": "détail méconnu",
+        "x": "image évocatrice"
+      },
+      "lieuSource": {
+        "precis": "",
+        "ville": "",
+        "departement": "Charente"
+      },
+      "lieuNom": "Charente",
+      "commune": null,
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Département de la Charente",
+            "handle": "departementcharente",
+            "abonnes": 5889,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36349",
+    "channel": "threads",
+    "dueAt": 1795771500353,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Nitrates : dans six villages charentais, les biberons passent à l’eau en bouteille",
+      "link": "https://passion-aquitaine.ouest-france.fr/nitrates-eau-robinet-charente-nanteuil-en-vallee/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36349",
+      "pubDate": "Fri, 27 Nov 2026 07:49:46 +0000",
+      "date": 1795765786000,
+      "categories": [
+        "Actus",
+        "Charente"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/nourrisson-biberon-nitrates-charente.jpg",
+      "description": "Trop de nitrates dans l’eau de six communes charentaises : l’ARS demande aux femmes enceintes et aux bébés de passer à l’eau en bouteille."
+    },
+    "dossier": {
+      "nature": "actu_chaude",
+      "sensible": true,
+      "rubrique": "Charente",
+      "visuel": {
+        "titre": "Nitrates : dans six villages charentais, les biberons passent à l’eau en bouteille",
+        "surlignage": "Nitrates",
+        "description": "L’eau de six communes charentaises contient trop de nitrates. L’ARS demande aux femmes enceintes et aux bébés de passer à l’eau en bouteille.",
+        "texte_alternatif": "Dans six communes de Charente, l’eau du robinet contient trop de nitrates : l’ARS recommande l’eau en bouteille pour les femmes enceintes et les bébés."
+      },
+      "entites": [
+        {
+          "nom": "ARS",
+          "role": "acteur",
+          "type": "organisation"
+        }
+      ],
+      "domaines": [
+        "eau",
+        "santé"
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "En Charente, six communes ont une eau trop chargée en nitrates ℹ️\nL’ARS demande aux femmes enceintes et aux bébés de passer à l’eau en bouteille, biberons compris.",
+        "hashtags": [
+          "#Charente",
+          "#Nitrates",
+          "#EauPotable"
+        ]
+      },
+      "facebook": {
+        "texte": "Dans six communes de Charente, les biberons ne se préparent plus avec l’eau du robinet, trop chargée en nitrates 📰"
+      },
+      "bluesky": {
+        "texte": "Femmes enceintes et parents de bébés en Charente : dans six communes, l’ARS recommande l’eau en bouteille, car l’eau du robinet contient trop de nitrates. Les communes concernées sont détaillées dans l’article 📰",
+        "hashtag": "#Charente"
+      },
+      "threads": {
+        "texte": "ℹ️ Ce sont les plus fragiles qui sont visés en premier : dans six communes de Charente, l’ARS demande aux femmes enceintes et aux bébés de passer à l’eau en bouteille. En cause, une teneur trop élevée en nitrates dans l’eau distribuée.",
+        "sujet": "Charente"
+      },
+      "x": {
+        "texte": "Six communes de Charente, des biberons préparés à l’eau en bouteille 🗞️ L’eau du robinet y contient trop de nitrates, selon l’ARS, qui le demande aussi aux femmes enceintes."
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 7930,
+        "output": 782
+      },
+      "angles": {
+        "instagram": "lieu en tête",
+        "facebook": "effet de surprise",
+        "bluesky": "bénéfice pour le lecteur",
+        "threads": "détail méconnu",
+        "x": "image évocatrice"
+      },
+      "lieuSource": {
+        "precis": "",
+        "ville": "",
+        "departement": "Charente"
+      },
+      "lieuNom": "Charente",
+      "commune": null,
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Département de la Charente",
+            "handle": "departementcharente",
+            "abonnes": 5889,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [],
+        "bluesky": [],
+        "threads": [],
+        "facebook": []
+      }
+    },
+    "previewSent": false
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36349",
+    "channel": "x",
+    "dueAt": 1795767600000,
+    "status": "pending",
+    "attempts": 0,
+    "article": {
+      "title": "Nitrates : dans six villages charentais, les biberons passent à l’eau en bouteille",
+      "link": "https://passion-aquitaine.ouest-france.fr/nitrates-eau-robinet-charente-nanteuil-en-vallee/",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36349",
+      "pubDate": "Fri, 27 Nov 2026 07:49:46 +0000",
+      "date": 1795765786000,
+      "categories": [
+        "Actus",
+        "Charente"
+      ],
+      "image": "https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/nourrisson-biberon-nitrates-charente.jpg",
+      "description": "Trop de nitrates dans l’eau de six communes charentaises : l’ARS demande aux femmes enceintes et aux bébés de passer à l’eau en bouteille."
+    },
+    "dossier": {
+      "nature": "actu_chaude",
+      "sensible": true,
+      "rubrique": "Charente",
+      "visuel": {
+        "titre": "Nitrates : dans six villages charentais, les biberons passent à l’eau en bouteille",
+        "surlignage": "Nitrates",
+        "description": "L’eau de six communes charentaises contient trop de nitrates. L’ARS demande aux femmes enceintes et aux bébés de passer à l’eau en bouteille.",
+        "texte_alternatif": "Dans six communes de Charente, l’eau du robinet contient trop de nitrates : l’ARS recommande l’eau en bouteille pour les femmes enceintes et les bébés."
+      },
+      "entites": [
+        {
+          "nom": "ARS",
+          "role": "acteur",
+          "type": "organisation"
+        }
+      ],
+      "domaines": [
+        "eau",
+        "santé"
+      ],
+      "lieu": null,
+      "instagram": {
+        "texte": "En Charente, six communes ont une eau trop chargée en nitrates ℹ️\nL’ARS demande aux femmes enceintes et aux bébés de passer à l’eau en bouteille, biberons compris.",
+        "hashtags": [
+          "#Charente",
+          "#Nitrates",
+          "#EauPotable"
+        ]
+      },
+      "facebook": {
+        "texte": "Dans six communes de Charente, les biberons ne se préparent plus avec l’eau du robinet, trop chargée en nitrates 📰"
+      },
+      "bluesky": {
+        "texte": "Femmes enceintes et parents de bébés en Charente : dans six communes, l’ARS recommande l’eau en bouteille, car l’eau du robinet contient trop de nitrates. Les communes concernées sont détaillées dans l’article 📰",
+        "hashtag": "#Charente"
+      },
+      "threads": {
+        "texte": "ℹ️ Ce sont les plus fragiles qui sont visés en premier : dans six communes de Charente, l’ARS demande aux femmes enceintes et aux bébés de passer à l’eau en bouteille. En cause, une teneur trop élevée en nitrates dans l’eau distribuée.",
+        "sujet": "Charente"
+      },
+      "x": {
+        "texte": "Six communes de Charente, des biberons préparés à l’eau en bouteille 🗞️ L’eau du robinet y contient trop de nitrates, selon l’ARS, qui le demande aussi aux femmes enceintes."
+      },
+      "source": "ia",
+      "model": "claude-opus-5-5",
+      "usage": {
+        "input": 7930,
+        "output": 782
+      },
+      "angles": {
+        "instagram": "lieu en tête",
+        "facebook": "effet de surprise",
+        "bluesky": "bénéfice pour le lecteur",
+        "threads": "détail méconnu",
+        "x": "image évocatrice"
+      },
+      "lieuSource": {
+        "precis": "",
+        "ville": "",
+        "departement": "Charente"
+      },
+      "lieuNom": "Charente",
+      "commune": null,
+      "comptes": {
+        "instagram": [
+          {
+            "nom": "Département de la Charente",
+            "handle": "departementcharente",
+            "abonnes": 5889,
+            "preuve": 3,
+            "role": "territoire",
+            "echelon": "territoire",
+            "thematique": true
+          }
+        ],
+        "x": [],
         "bluesky": [],
         "threads": [],
         "facebook": []

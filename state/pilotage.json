@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-27T07:20:39.629Z",
+  "genereLe": "2026-11-27T08:00:58.451Z",
   "jour": "2026-11-27",
   "reseaux": {
     "instagram": {
@@ -60,11 +60,11 @@
         "image",
         "reply"
       ],
-      "aujourdhui": 0,
-      "semaine": 15,
-      "total": 102,
-      "dernier": "2026-11-26T12:29:59.680Z",
-      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n37oh32vfy2i"
+      "aujourdhui": 1,
+      "semaine": 16,
+      "total": 103,
+      "dernier": "2026-11-27T08:08:15.017Z",
+      "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n3bqbxeij425"
     },
     "facebook": {
       "actif": true,
@@ -88,11 +88,11 @@
         "end": 8
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 14,
-      "total": 98,
-      "dernier": "2026-11-26T19:27:51.543Z",
-      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1804231798369367"
+      "aujourdhui": 1,
+      "semaine": 15,
+      "total": 99,
+      "dernier": "2026-11-27T08:14:42.737Z",
+      "lienDernier": "https://www.facebook.com/1720946116697936/posts/1804822434976970"
     },
     "threads": {
       "actif": true,
@@ -123,7 +123,7 @@
         "reponse"
       ],
       "aujourdhui": 1,
-      "semaine": 16,
+      "semaine": 15,
       "total": 100,
       "dernier": "2026-11-27T07:31:02.390Z",
       "lienDernier": "https://www.threads.com/@lovaquitaine/post/DgPJM1_nN5K"
@@ -165,10 +165,50 @@
   },
   "articles": [
     {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36323",
+      "titre": "Gare de Libourne : la petite ville qui a devancé Limoges",
+      "lien": "https://passion-aquitaine.ouest-france.fr/gare-libourne-voyageurs-limoges-2025/",
+      "at": "2026-11-27T08:14:42.737Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Comment une gare de petite ville peut-elle dépasser celle d’une capitale régionale historique ? À Libourne, la réponse tient en trois lettres 🚆 RER. Grâce au RER métropolitain, la gare a compté 2,11 millions de passages en 2025, plus que Limoges-Bénédictins. Vous l’empruntez, ce RER ?",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261126-49b560f0-th.jpg",
+          "mode": "reponse",
+          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/gare-libourne-voyageurs-limoges-2025/",
+          "sujet": "Libourne",
+          "publieLe": "2026-11-26T07:30:15.596Z"
+        },
+        "x": {
+          "texte": "2,11 millions de passages en 2025 : la gare de #Libourne surpasse Limoges-Bénédictins. Le RER métropolitain a changé la donne en Gironde 🚄",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261126-49b560f0-x.jpg",
+          "mode": "reponse",
+          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/gare-libourne-voyageurs-limoges-2025/",
+          "sujet": null,
+          "publieLe": "2026-11-26T08:00:51.067Z"
+        },
+        "bluesky": {
+          "texte": "Des quais de #Libourne de plus en plus fréquentés 🚈 En 2025, la gare a vu passer 2,11 millions de voyageurs, davantage que Limoges-Bénédictins. Le moteur de cet essor : le RER métropolitain.\n@villelibourne.bsky.social",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261126-49b560f0-bsky.jpg",
+          "mode": "reply",
+          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/gare-libourne-voyageurs-limoges-2025/",
+          "sujet": null,
+          "publieLe": "2026-11-26T08:14:56.951Z"
+        },
+        "facebook": {
+          "texte": "Une sous-préfecture girondine fait désormais mieux que la grande gare de Limoges-Bénédictins, grâce au RER métropolitain 🚉\nL’article est en premier commentaire.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261126-49b560f0-fb.jpg",
+          "mode": "photo",
+          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/gare-libourne-voyageurs-limoges-2025/?at_medium=social&at_campaign=fb-photo",
+          "sujet": null,
+          "publieLe": "2026-11-27T08:14:42.737Z"
+        }
+      }
+    },
+    {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36331",
       "titre": "Gironde : au milieu des pins, ce laser recrée le cœur des étoiles",
       "lien": "https://passion-aquitaine.ouest-france.fr/laser-megajoule-le-barp-gironde/",
-      "at": "2026-11-27T07:31:02.390Z",
+      "at": "2026-11-27T08:08:15.017Z",
       "reseaux": {
         "threads": {
           "texte": "Pas besoin d’aller loin pour toucher du doigt la science des étoiles ☀️ Au Barp, en Gironde, le Laser Mégajoule du CEA reproduit le cœur des astres grâce à 176 faisceaux. Comprendre ce qui s’y joue, c’est saisir l’un des piliers de la stratégie fusion, cette piste d’énergie dont on parle tant.",
@@ -177,6 +217,14 @@
           "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/laser-megajoule-le-barp-gironde/",
           "sujet": "Le Barp",
           "publieLe": "2026-11-27T07:31:02.390Z"
+        },
+        "bluesky": {
+          "texte": "🔬 On l’imagine dans l’espace, on le trouve dans les pins : en #Gironde, au Barp, le Laser Mégajoule du CEA recrée le cœur des étoiles avec 176 faisceaux. Une pièce maîtresse de la stratégie #fusion.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261127-f331e4ad-bsky.jpg",
+          "mode": "card",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-27T08:08:15.017Z"
         }
       }
     },
@@ -347,41 +395,29 @@
           "publieLe": "2026-11-26T11:03:35.135Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36323",
-      "titre": "Gare de Libourne : la petite ville qui a devancé Limoges",
-      "lien": "https://passion-aquitaine.ouest-france.fr/gare-libourne-voyageurs-limoges-2025/",
-      "at": "2026-11-26T08:14:56.951Z",
-      "reseaux": {
-        "threads": {
-          "texte": "Comment une gare de petite ville peut-elle dépasser celle d’une capitale régionale historique ? À Libourne, la réponse tient en trois lettres 🚆 RER. Grâce au RER métropolitain, la gare a compté 2,11 millions de passages en 2025, plus que Limoges-Bénédictins. Vous l’empruntez, ce RER ?",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261126-49b560f0-th.jpg",
-          "mode": "reponse",
-          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/gare-libourne-voyageurs-limoges-2025/",
-          "sujet": "Libourne",
-          "publieLe": "2026-11-26T07:30:15.596Z"
-        },
-        "x": {
-          "texte": "2,11 millions de passages en 2025 : la gare de #Libourne surpasse Limoges-Bénédictins. Le RER métropolitain a changé la donne en Gironde 🚄",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261126-49b560f0-x.jpg",
-          "mode": "reponse",
-          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/gare-libourne-voyageurs-limoges-2025/",
-          "sujet": null,
-          "publieLe": "2026-11-26T08:00:51.067Z"
-        },
-        "bluesky": {
-          "texte": "Des quais de #Libourne de plus en plus fréquentés 🚈 En 2025, la gare a vu passer 2,11 millions de voyageurs, davantage que Limoges-Bénédictins. Le moteur de cet essor : le RER métropolitain.\n@villelibourne.bsky.social",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261126-49b560f0-bsky.jpg",
-          "mode": "reply",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/gare-libourne-voyageurs-limoges-2025/",
-          "sujet": null,
-          "publieLe": "2026-11-26T08:14:56.951Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "facebook",
+      "at": "2026-11-27T08:14:42.737Z",
+      "titre": "Gare de Libourne : la petite ville qui a devancé Limoges",
+      "lien": "https://passion-aquitaine.ouest-france.fr/gare-libourne-voyageurs-limoges-2025/",
+      "lienPost": "https://www.facebook.com/1720946116697936/posts/1804822434976970",
+      "format": "photo",
+      "texte": "Une sous-préfecture girondine fait désormais mieux que la grande gare de Limoges-Bénédictins, grâce au RER métropolitain 🚉\nL’article est en premier commentaire.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261126-49b560f0-fb.jpg"
+    },
+    {
+      "channel": "bluesky",
+      "at": "2026-11-27T08:08:15.017Z",
+      "titre": "Gironde : au milieu des pins, ce laser recrée le cœur des étoiles",
+      "lien": "https://passion-aquitaine.ouest-france.fr/laser-megajoule-le-barp-gironde/",
+      "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n3bqbxeij425",
+      "format": "card",
+      "texte": "🔬 On l’imagine dans l’espace, on le trouve dans les pins : en #Gironde, au Barp, le Laser Mégajoule du CEA recrée le cœur des étoiles avec 176 faisceaux. Une pièce maîtresse de la stratégie #fusion.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261127-f331e4ad-bsky.jpg"
+    },
     {
       "channel": "threads",
       "at": "2026-11-27T07:31:02.390Z",
@@ -461,55 +497,44 @@
       "format": "reply",
       "texte": "Des quais de #Libourne de plus en plus fréquentés 🚈 En 2025, la gare a vu passer 2,11 millions de voyageurs, davantage que Limoges-Bénédictins. Le moteur de cet essor : le RER métropolitain.\n@villelibourne.bsky.social",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261126-49b560f0-bsky.jpg"
-    },
-    {
-      "channel": "facebook",
-      "at": "2026-11-26T08:11:28.549Z",
-      "titre": "Installé à Djibouti, ce maire girondin touchait l’indemnité maximale autorisée",
-      "lien": "https://passion-aquitaine.ouest-france.fr/casseuil-maire-djibouti-indemnite-demission/",
-      "lienPost": "https://www.facebook.com/1720946116697936/posts/1803577061768174",
-      "format": "lien",
-      "texte": "À Casseuil, le maire vivait à Djibouti et touchait chaque mois le plafond légal de son indemnité, soit 1 155 euros 💶",
-      "image": null
-    },
-    {
-      "channel": "x",
-      "at": "2026-11-26T08:00:51.067Z",
-      "titre": "Gare de Libourne : la petite ville qui a devancé Limoges",
-      "lien": "https://passion-aquitaine.ouest-france.fr/gare-libourne-voyageurs-limoges-2025/",
-      "lienPost": null,
-      "format": "reponse",
-      "texte": "2,11 millions de passages en 2025 : la gare de #Libourne surpasse Limoges-Bénédictins. Le RER métropolitain a changé la donne en Gironde 🚄",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261126-49b560f0-x.jpg"
     }
   ],
   "file": [
     {
-      "channel": "bluesky",
-      "dueAt": "2026-11-27T08:08:13.289Z",
-      "prochainPassage": "2026-11-27T08:20:00.000Z",
-      "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Gironde : au milieu des pins, ce laser recrée le cœur des étoiles"
-    },
-    {
-      "channel": "facebook",
-      "dueAt": "2026-11-27T08:11:53.003Z",
-      "prochainPassage": "2026-11-27T08:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Gare de Libourne : la petite ville qui a devancé Limoges"
-    },
-    {
       "channel": "x",
-      "dueAt": "2026-11-27T09:00:00.000Z",
-      "prochainPassage": "2026-11-27T09:00:00.000Z",
-      "nature": "evergreen",
+      "dueAt": "2026-11-27T08:20:00.000Z",
+      "prochainPassage": "2026-11-27T08:20:00.000Z",
+      "nature": "actu_chaude",
       "prevuInitialement": null,
       "raison": null,
-      "titre": "Gironde : au milieu des pins, ce laser recrée le cœur des étoiles"
+      "titre": "Nitrates : dans six villages charentais, les biberons passent à l’eau en bouteille"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-11-27T08:32:08.709Z",
+      "prochainPassage": "2026-11-27T09:00:00.000Z",
+      "nature": "actu_chaude",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Nitrates : dans six villages charentais, les biberons passent à l’eau en bouteille"
+    },
+    {
+      "channel": "threads",
+      "dueAt": "2026-11-27T09:25:00.353Z",
+      "prochainPassage": "2026-11-27T10:00:00.000Z",
+      "nature": "actu_chaude",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Nitrates : dans six villages charentais, les biberons passent à l’eau en bouteille"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-11-27T10:34:13.445Z",
+      "prochainPassage": "2026-11-27T11:00:00.000Z",
+      "nature": "actu_chaude",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Nitrates : dans six villages charentais, les biberons passent à l’eau en bouteille"
     },
     {
       "channel": "instagram",
@@ -521,48 +546,66 @@
       "titre": "Café céramique à Bordeaux : ici, la tasse ne sert pas à boire"
     },
     {
-      "channel": "instagram",
-      "dueAt": "2026-11-27T18:07:32.792Z",
-      "prochainPassage": "2026-11-27T18:20:00.000Z",
-      "nature": "actu",
+      "channel": "facebook",
+      "dueAt": "2026-11-27T11:28:43.702Z",
+      "prochainPassage": "2026-11-27T12:00:00.000Z",
+      "nature": "actu_chaude",
       "prevuInitialement": null,
       "raison": null,
-      "titre": "Gare de Libourne : la petite ville qui a devancé Limoges"
+      "titre": "Nitrates : dans six villages charentais, les biberons passent à l’eau en bouteille"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-11-27T12:00:00.000Z",
+      "prochainPassage": "2026-11-27T12:00:00.000Z",
+      "nature": "evergreen",
+      "prevuInitialement": "2026-11-27T09:00:00.000Z",
+      "raison": "un autre post occupait déjà ce créneau",
+      "titre": "Gironde : au milieu des pins, ce laser recrée le cœur des étoiles"
     },
     {
       "channel": "facebook",
-      "dueAt": "2026-11-27T19:05:38.840Z",
-      "prochainPassage": "2026-11-27T19:20:00.000Z",
+      "dueAt": "2026-11-28T08:12:32.898Z",
+      "prochainPassage": "2026-11-28T08:20:00.000Z",
       "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
+      "prevuInitialement": "2026-11-27T19:05:38.840Z",
+      "raison": "le nombre de posts du jour était atteint",
+      "titre": "En 2070, la Charente-Maritime ressemblera à Royan : pourquoi la station balnéaire vit déjà dans le futur"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-11-28T11:10:26.965Z",
+      "prochainPassage": "2026-11-28T11:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": "2026-11-27T18:07:32.792Z",
+      "raison": "le nombre de posts du jour était atteint",
+      "titre": "Gare de Libourne : la petite ville qui a devancé Limoges"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-11-28T17:33:45.782Z",
+      "prochainPassage": "2026-11-28T18:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": "2026-11-28T11:03:15.012Z",
+      "raison": "un autre post occupait déjà ce créneau",
       "titre": "En 2070, la Charente-Maritime ressemblera à Royan : pourquoi la station balnéaire vit déjà dans le futur"
     },
     {
       "channel": "facebook",
-      "dueAt": "2026-11-28T07:24:55.928Z",
-      "prochainPassage": "2026-11-28T08:00:00.000Z",
+      "dueAt": "2026-11-28T20:29:45.996Z",
+      "prochainPassage": "2026-11-28T21:00:00.000Z",
       "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
+      "prevuInitialement": "2026-11-28T07:24:55.928Z",
+      "raison": "un autre post occupait déjà ce créneau",
       "titre": "Gironde : au milieu des pins, ce laser recrée le cœur des étoiles"
     },
     {
       "channel": "instagram",
-      "dueAt": "2026-11-28T11:03:15.012Z",
-      "prochainPassage": "2026-11-28T11:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "En 2070, la Charente-Maritime ressemblera à Royan : pourquoi la station balnéaire vit déjà dans le futur"
-    },
-    {
-      "channel": "instagram",
-      "dueAt": "2026-11-28T18:26:46.823Z",
-      "prochainPassage": "2026-11-28T19:00:00.000Z",
+      "dueAt": "2026-11-29T11:24:39.809Z",
+      "prochainPassage": "2026-11-29T12:00:00.000Z",
       "nature": "evergreen",
-      "prevuInitialement": null,
-      "raison": null,
+      "prevuInitialement": "2026-11-28T18:26:46.823Z",
+      "raison": "un autre post occupait déjà ce créneau",
       "titre": "Gironde : au milieu des pins, ce laser recrée le cœur des étoiles"
     }
   ],
@@ -597,7 +640,7 @@
     }
   ],
   "mesures": {
-    "releves": 736,
+    "releves": 738,
     "parReseau": {
       "instagram": {
         "posts": 89,
@@ -612,8 +655,8 @@
         "interactionsMoyennes": 0
       },
       "threads": {
-        "posts": 84,
-        "interactionsMoyennes": 10.6
+        "posts": 85,
+        "interactionsMoyennes": 10.8
       }
     }
   },
@@ -758,11 +801,11 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-27T07:31:04.521Z",
-    "posts": 143,
+    "genereLe": "2026-11-27T08:14:45.683Z",
+    "posts": 144,
     "parReseau": {
       "threads": {
-        "posts": 37,
+        "posts": 38,
         "moyenne": 14.4
       },
       "instagram": {
@@ -780,7 +823,7 @@
     },
     "parFormat": {
       "reponse": {
-        "posts": 37,
+        "posts": 38,
         "moyenne": 14.4
       },
       "card": {
@@ -798,8 +841,8 @@
     },
     "parCreneau": {
       "matin": {
-        "posts": 74,
-        "moyenne": 6.7
+        "posts": 75,
+        "moyenne": 6.9
       },
       "après-midi": {
         "posts": 42,
@@ -813,8 +856,8 @@
     "parCreneauReseau": {
       "threads": {
         "7 h – 8 h 30": {
-          "posts": 19,
-          "moyenne": 19.5
+          "posts": 20,
+          "moyenne": 19.3
         },
         "13 h – 14 h 30": {
           "posts": 4,
@@ -876,7 +919,7 @@
         }
       }
     },
-    "interactionsTotal": 856,
+    "interactionsTotal": 871,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36189",
       "channel": "threads",
@@ -923,14 +966,14 @@
         "moyenne": 5.9
       },
       "sans": {
-        "posts": 85,
-        "moyenne": 6
+        "posts": 86,
+        "moyenne": 6.1
       }
     },
     "publies": {
       "threads": 40,
-      "facebook": 38,
-      "bluesky": 39,
+      "facebook": 39,
+      "bluesky": 40,
       "x": 39,
       "instagram": 36
     },
@@ -975,7 +1018,7 @@
       "facebook": 0
     },
     "conseils": [
-      "Threads : le créneau 7 h – 8 h 30 fait 2,3 fois mieux que 10 h – 11 h 30 (19.5 contre 8.3 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
+      "Threads : le créneau 7 h – 8 h 30 fait 2,3 fois mieux que 10 h – 11 h 30 (19.3 contre 8.3 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Facebook : le créneau 20 h – 21 h 30 fait 5,3 fois mieux que 8 h – 9 h 30 (4.2 contre 0.8 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Instagram : le créneau 12 h – 13 h 30 fait 1,8 fois mieux que 18 h – 19 h 30 (9.2 contre 5.1 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Le format « reponse » fait 144 fois mieux que « reply » (14.4 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « reply » de la rotation dans config/channels.json."
@@ -983,29 +1026,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 1,
-      "entree": 7939,
-      "sortie": 937,
-      "cout": 0.050496,
+      "appels": 2,
+      "entree": 15869,
+      "sortie": 1719,
+      "cout": 0.097856,
       "cle": "2026-11-27"
     },
     "semaine": {
-      "appels": 26,
-      "entree": 209043,
-      "sortie": 24363,
-      "cout": 1.323432
+      "appels": 27,
+      "entree": 216973,
+      "sortie": 25145,
+      "cout": 1.3707919999999998
     },
     "mois": {
-      "appels": 98,
-      "entree": 785236,
-      "sortie": 89525,
-      "cout": 4.931443999999999,
+      "appels": 99,
+      "entree": 793166,
+      "sortie": 90307,
+      "cout": 4.978803999999999,
       "cle": "2026-11"
     },
-    "projection": 5.48,
+    "projection": 5.53,
     "moyenneAppel": 0.0503,
     "parModele": {
-      "claude-opus-5-5": 98
+      "claude-opus-5-5": 99
     },
     "serie": [
       [
@@ -1062,7 +1105,7 @@
       ],
       [
         "2026-11-27",
-        0.0505
+        0.0979
       ]
     ],
     "depuis": "2026-09-23"

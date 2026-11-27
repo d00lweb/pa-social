@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-27T12:20:37.599Z",
+  "genereLe": "2026-11-27T13:01:15.474Z",
   "jour": "2026-11-27",
   "reseaux": {
     "instagram": {
@@ -593,7 +593,7 @@
     }
   ],
   "mesures": {
-    "releves": 745,
+    "releves": 746,
     "parReseau": {
       "instagram": {
         "posts": 90,
@@ -754,8 +754,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-27T12:20:42.880Z",
-    "posts": 148,
+    "genereLe": "2026-11-27T13:01:20.074Z",
+    "posts": 149,
     "parReseau": {
       "threads": {
         "posts": 39,
@@ -770,7 +770,7 @@
         "moyenne": 1.9
       },
       "bluesky": {
-        "posts": 38,
+        "posts": 39,
         "moyenne": 0
       }
     },
@@ -784,7 +784,7 @@
         "moyenne": 0.1
       },
       "image": {
-        "posts": 17,
+        "posts": 18,
         "moyenne": 0
       },
       "reply": {
@@ -798,8 +798,8 @@
         "moyenne": 6.7
       },
       "après-midi": {
-        "posts": 43,
-        "moyenne": 6.2
+        "posts": 44,
+        "moyenne": 6.1
       },
       "soir": {
         "posts": 27,
@@ -849,7 +849,7 @@
           "moyenne": 0
         },
         "12 h – 13 h 30": {
-          "posts": 11,
+          "posts": 12,
           "moyenne": 0
         },
         "18 h – 19 h 30": {
@@ -894,29 +894,29 @@
       "creneauReseau": "7 h – 8 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36323",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36336",
       "channel": "bluesky",
-      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3n37a6yp5gj22",
-      "publieLe": "2026-11-26T08:14:56.951Z",
-      "format": "reply",
+      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3n37oh32vfy2i",
+      "publieLe": "2026-11-26T12:29:59.680Z",
+      "format": "image",
       "jalon": 1,
-      "releveLe": "2026-11-27T08:20:39.148Z",
+      "releveLe": "2026-11-27T13:01:15.474Z",
       "likes": 0,
-      "commentairesBruts": 1,
+      "commentairesBruts": 0,
       "partages": 0,
       "vues": null,
       "commentaires": 0,
       "v": 2,
-      "titre": "Gare de Libourne : la petite ville qui a devancé Limoges",
-      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n37a6yp5gj22",
+      "titre": "En 2070, la Charente-Maritime ressemblera à Royan : pourquoi la station balnéaire vit déjà dans le futur",
+      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n37oh32vfy2i",
       "mention": true,
-      "creneau": "matin",
-      "creneauReseau": "8 h – 9 h 30"
+      "creneau": "après-midi",
+      "creneauReseau": "12 h – 13 h 30"
     },
     "mentions": {
       "avec": {
-        "posts": 60,
-        "moyenne": 5.9
+        "posts": 61,
+        "moyenne": 5.8
       },
       "sans": {
         "posts": 88,

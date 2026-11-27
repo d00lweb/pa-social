@@ -9034,5 +9034,23 @@
       "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/nitrates-eau-robinet-charente-nanteuil-en-vallee/",
       "sujet": "Charente"
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36349",
+    "channel": "bluesky",
+    "at": "2026-11-27T10:34:15.711Z",
+    "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3n3byh26bwf25",
+    "titre": "Nitrates : dans six villages charentais, les biberons passent à l’eau en bouteille",
+    "lien": "https://passion-aquitaine.ouest-france.fr/nitrates-eau-robinet-charente-nanteuil-en-vallee/",
+    "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n3byh26bwf25",
+    "format": "reply",
+    "mention": false,
+    "apercu": {
+      "texte": "Femmes enceintes et parents de bébés en #Charente : dans six communes, l’ARS recommande l’eau en bouteille, car l’eau du robinet contient trop de nitrates. Les communes concernées sont détaillées dans l’article 📰",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261127-2d7159d9-bsky.jpg",
+      "mode": "reply",
+      "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/nitrates-eau-robinet-charente-nanteuil-en-vallee/",
+      "sujet": null
+    }
   }
 ]

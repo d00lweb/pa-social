@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-27T19:20:55.831Z",
+  "genereLe": "2026-11-27T20:01:05.341Z",
   "jour": "2026-11-27",
   "reseaux": {
     "instagram": {
@@ -579,7 +579,7 @@
     }
   ],
   "mesures": {
-    "releves": 747,
+    "releves": 748,
     "parReseau": {
       "instagram": {
         "posts": 90,
@@ -650,9 +650,9 @@
     },
     "facebook": {
       "publications": 5,
-      "vues": 6530,
+      "vues": 6487,
       "invisible": false,
-      "depuis": "2026-11-24T07:08:51.095Z"
+      "depuis": "2026-11-24T14:34:53.132Z"
     },
     "alertes": {
       "threads": "2026-11-S3",
@@ -701,7 +701,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-27T19:00:47.563Z"
+    "derniere": "2026-11-27T20:01:05.341Z"
   },
   "abonnes": {
     "instagram": {
@@ -740,8 +740,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-27T19:20:58.879Z",
-    "posts": 150,
+    "genereLe": "2026-11-27T20:01:11.219Z",
+    "posts": 151,
     "parReseau": {
       "threads": {
         "posts": 39,
@@ -752,7 +752,7 @@
         "moyenne": 7.5
       },
       "facebook": {
-        "posts": 36,
+        "posts": 37,
         "moyenne": 1.9
       },
       "bluesky": {
@@ -788,8 +788,8 @@
         "moyenne": 6.1
       },
       "soir": {
-        "posts": 28,
-        "moyenne": 3.7
+        "posts": 29,
+        "moyenne": 3.6
       }
     },
     "parCreneauReseau": {
@@ -813,8 +813,8 @@
       },
       "facebook": {
         "20 h – 21 h 30": {
-          "posts": 12,
-          "moyenne": 4.2
+          "posts": 13,
+          "moyenne": 3.8
         },
         "8 h – 9 h 30": {
           "posts": 22,
@@ -880,24 +880,27 @@
       "creneauReseau": "7 h – 8 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36336",
-      "channel": "bluesky",
-      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3n37oh32vfy2i",
-      "publieLe": "2026-11-26T12:29:59.680Z",
-      "format": "image",
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36306",
+      "channel": "facebook",
+      "mediaId": "227437307428711_1804231798369367",
+      "publieLe": "2026-11-26T19:27:51.543Z",
+      "format": null,
       "jalon": 1,
-      "releveLe": "2026-11-27T13:01:15.474Z",
+      "releveLe": "2026-11-27T20:01:05.341Z",
       "likes": 0,
       "commentairesBruts": 0,
       "partages": 0,
-      "vues": null,
+      "vues": 168,
+      "reactions": 0,
+      "portee": 0,
+      "clics": 1,
       "commentaires": 0,
       "v": 2,
-      "titre": "En 2070, la Charente-Maritime ressemblera à Royan : pourquoi la station balnéaire vit déjà dans le futur",
-      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n37oh32vfy2i",
-      "mention": true,
-      "creneau": "après-midi",
-      "creneauReseau": "12 h – 13 h 30"
+      "titre": "Café céramique à Bordeaux : ici, la tasse ne sert pas à boire",
+      "lien": "https://www.facebook.com/1720946116697936/posts/1804231798369367",
+      "mention": false,
+      "creneau": "soir",
+      "creneauReseau": "20 h – 21 h 30"
     },
     "mentions": {
       "avec": {
@@ -905,7 +908,7 @@
         "moyenne": 5.8
       },
       "sans": {
-        "posts": 88,
+        "posts": 89,
         "moyenne": 6
       }
     },
@@ -958,7 +961,7 @@
     },
     "conseils": [
       "Threads : le créneau 7 h – 8 h 30 fait 2,4 fois mieux que 10 h – 11 h 30 (19.3 contre 7.9 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
-      "Facebook : le créneau 20 h – 21 h 30 fait 4,7 fois mieux que 8 h – 9 h 30 (4.2 contre 0.9 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
+      "Facebook : le créneau 20 h – 21 h 30 fait 4,2 fois mieux que 8 h – 9 h 30 (3.8 contre 0.9 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Instagram : le créneau 12 h – 13 h 30 fait 1,8 fois mieux que 18 h – 19 h 30 (9.2 contre 5.1 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Le format « reponse » fait 141 fois mieux que « reply » (14.1 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « reply » de la rotation dans config/channels.json."
     ]

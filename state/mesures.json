@@ -11739,5 +11739,23 @@
     "envois": 1,
     "commentaires": 1,
     "v": 2
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36306",
+    "channel": "facebook",
+    "mediaId": "227437307428711_1804231798369367",
+    "publieLe": "2026-11-26T19:27:51.543Z",
+    "format": "lien",
+    "jalon": 1,
+    "releveLe": "2026-11-27T20:01:05.341Z",
+    "likes": 0,
+    "commentairesBruts": 0,
+    "partages": 0,
+    "vues": 168,
+    "reactions": 0,
+    "portee": 0,
+    "clics": 1,
+    "commentaires": 0,
+    "v": 2
   }
 ]

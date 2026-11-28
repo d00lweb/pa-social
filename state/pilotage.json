@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-28T10:21:03.324Z",
+  "genereLe": "2026-11-28T11:01:01.645Z",
   "jour": "2026-11-28",
   "reseaux": {
     "instagram": {
@@ -24,11 +24,11 @@
         "end": 7
       },
       "formats": null,
-      "aujourdhui": 0,
-      "semaine": 13,
-      "total": 103,
-      "dernier": "2026-11-27T11:07:55.289Z",
-      "lienDernier": "https://www.instagram.com/p/DgPiQ2HEv8u/"
+      "aujourdhui": 1,
+      "semaine": 14,
+      "total": 104,
+      "dernier": "2026-11-28T11:11:03.167Z",
+      "lienDernier": "https://www.instagram.com/p/DgSHdTGkh2V/"
     },
     "bluesky": {
       "actif": true,
@@ -123,7 +123,7 @@
         "reponse"
       ],
       "aujourdhui": 1,
-      "semaine": 16,
+      "semaine": 15,
       "total": 102,
       "dernier": "2026-11-28T07:32:57.044Z",
       "lienDernier": "https://www.threads.com/@lovaquitaine/post/DgRuJEokZUv"
@@ -164,6 +164,54 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36323",
+      "titre": "Gare de Libourne : la petite ville qui a devancé Limoges",
+      "lien": "https://passion-aquitaine.ouest-france.fr/gare-libourne-voyageurs-limoges-2025/",
+      "at": "2026-11-28T11:11:03.167Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Comment une gare de petite ville peut-elle dépasser celle d’une capitale régionale historique ? À Libourne, la réponse tient en trois lettres 🚆 RER. Grâce au RER métropolitain, la gare a compté 2,11 millions de passages en 2025, plus que Limoges-Bénédictins. Vous l’empruntez, ce RER ?",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261126-49b560f0-th.jpg",
+          "mode": "reponse",
+          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/gare-libourne-voyageurs-limoges-2025/",
+          "sujet": "Libourne",
+          "publieLe": "2026-11-26T07:30:15.596Z"
+        },
+        "x": {
+          "texte": "2,11 millions de passages en 2025 : la gare de #Libourne surpasse Limoges-Bénédictins. Le RER métropolitain a changé la donne en Gironde 🚄",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261126-49b560f0-x.jpg",
+          "mode": "reponse",
+          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/gare-libourne-voyageurs-limoges-2025/",
+          "sujet": null,
+          "publieLe": "2026-11-26T08:00:51.067Z"
+        },
+        "bluesky": {
+          "texte": "Des quais de #Libourne de plus en plus fréquentés 🚈 En 2025, la gare a vu passer 2,11 millions de voyageurs, davantage que Limoges-Bénédictins. Le moteur de cet essor : le RER métropolitain.\n@villelibourne.bsky.social",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261126-49b560f0-bsky.jpg",
+          "mode": "reply",
+          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/gare-libourne-voyageurs-limoges-2025/",
+          "sujet": null,
+          "publieLe": "2026-11-26T08:14:56.951Z"
+        },
+        "facebook": {
+          "texte": "Une sous-préfecture girondine fait désormais mieux que la grande gare de Limoges-Bénédictins, grâce au RER métropolitain 🚉\nL’article est en premier commentaire.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261126-49b560f0-fb.jpg",
+          "mode": "photo",
+          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/gare-libourne-voyageurs-limoges-2025/?at_medium=social&at_campaign=fb-photo",
+          "sujet": null,
+          "publieLe": "2026-11-27T08:14:42.737Z"
+        },
+        "instagram": {
+          "texte": "Prendre le train à Libourne n’a jamais été aussi courant : sa gare dépasse désormais celle de Limoges\n⠀\nAvec le RER métropolitain, les habitants du Libournais rejoignent plus facilement la métropole bordelaise. Résultat : 2,11 millions de passages en gare en 2025 🚆\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Libourne #RERMetropolitain #Transports",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261126-49b560f0-1.jpg",
+          "mode": null,
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-28T11:11:03.167Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36356",
       "titre": "Prix du Bon : les 12 adresses préférées des Bordelais dévoilées",
@@ -363,49 +411,19 @@
           "publieLe": "2026-11-27T11:07:55.289Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36323",
-      "titre": "Gare de Libourne : la petite ville qui a devancé Limoges",
-      "lien": "https://passion-aquitaine.ouest-france.fr/gare-libourne-voyageurs-limoges-2025/",
-      "at": "2026-11-27T08:14:42.737Z",
-      "reseaux": {
-        "threads": {
-          "texte": "Comment une gare de petite ville peut-elle dépasser celle d’une capitale régionale historique ? À Libourne, la réponse tient en trois lettres 🚆 RER. Grâce au RER métropolitain, la gare a compté 2,11 millions de passages en 2025, plus que Limoges-Bénédictins. Vous l’empruntez, ce RER ?",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261126-49b560f0-th.jpg",
-          "mode": "reponse",
-          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/gare-libourne-voyageurs-limoges-2025/",
-          "sujet": "Libourne",
-          "publieLe": "2026-11-26T07:30:15.596Z"
-        },
-        "x": {
-          "texte": "2,11 millions de passages en 2025 : la gare de #Libourne surpasse Limoges-Bénédictins. Le RER métropolitain a changé la donne en Gironde 🚄",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261126-49b560f0-x.jpg",
-          "mode": "reponse",
-          "reponse": "🔎 Pour tout savoir : https://passion-aquitaine.ouest-france.fr/gare-libourne-voyageurs-limoges-2025/",
-          "sujet": null,
-          "publieLe": "2026-11-26T08:00:51.067Z"
-        },
-        "bluesky": {
-          "texte": "Des quais de #Libourne de plus en plus fréquentés 🚈 En 2025, la gare a vu passer 2,11 millions de voyageurs, davantage que Limoges-Bénédictins. Le moteur de cet essor : le RER métropolitain.\n@villelibourne.bsky.social",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261126-49b560f0-bsky.jpg",
-          "mode": "reply",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/gare-libourne-voyageurs-limoges-2025/",
-          "sujet": null,
-          "publieLe": "2026-11-26T08:14:56.951Z"
-        },
-        "facebook": {
-          "texte": "Une sous-préfecture girondine fait désormais mieux que la grande gare de Limoges-Bénédictins, grâce au RER métropolitain 🚉\nL’article est en premier commentaire.",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261126-49b560f0-fb.jpg",
-          "mode": "photo",
-          "reponse": "📖 L'article complet : https://passion-aquitaine.ouest-france.fr/gare-libourne-voyageurs-limoges-2025/?at_medium=social&at_campaign=fb-photo",
-          "sujet": null,
-          "publieLe": "2026-11-27T08:14:42.737Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "instagram",
+      "at": "2026-11-28T11:11:03.167Z",
+      "titre": "Gare de Libourne : la petite ville qui a devancé Limoges",
+      "lien": "https://passion-aquitaine.ouest-france.fr/gare-libourne-voyageurs-limoges-2025/",
+      "lienPost": "https://www.instagram.com/p/DgSHdTGkh2V/",
+      "format": null,
+      "texte": "Prendre le train à Libourne n’a jamais été aussi courant : sa gare dépasse désormais celle de Limoges\n⠀\nAvec le RER métropolitain, les habitants du Libournais rejoignent plus facilement la métropole bordelaise. Résultat : 2,11 millions de passages en gare en 2025 🚆\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Libourne #RERMetropolitain #Transports",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261126-49b560f0-1.jpg"
+    },
     {
       "channel": "x",
       "at": "2026-11-28T09:20:39.843Z",
@@ -495,28 +513,9 @@
       "format": "reponse",
       "texte": "ℹ️ Ce sont les plus fragiles qui sont visés en premier : dans six communes de Charente, l’ARS demande aux femmes enceintes et aux bébés de passer à l’eau en bouteille. En cause, une teneur trop élevée en nitrates dans l’eau distribuée.",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261127-2d7159d9-th.jpg"
-    },
-    {
-      "channel": "instagram",
-      "at": "2026-11-27T08:32:35.113Z",
-      "titre": "Nitrates : dans six villages charentais, les biberons passent à l’eau en bouteille",
-      "lien": "https://passion-aquitaine.ouest-france.fr/nitrates-eau-robinet-charente-nanteuil-en-vallee/",
-      "lienPost": "https://www.instagram.com/p/DgPQindGqLt/",
-      "format": null,
-      "texte": "En Charente, six communes ont une eau trop chargée en nitrates ℹ️\n⠀\nL’ARS demande aux femmes enceintes et aux bébés de passer à l’eau en bouteille, biberons compris.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Charente #Nitrates #EauPotable",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261127-2d7159d9-1.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "instagram",
-      "dueAt": "2026-11-28T11:10:26.965Z",
-      "prochainPassage": "2026-11-28T11:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": "2026-11-27T18:07:32.792Z",
-      "raison": "le nombre de posts du jour était atteint",
-      "titre": "Gare de Libourne : la petite ville qui a devancé Limoges"
-    },
     {
       "channel": "instagram",
       "dueAt": "2026-11-28T17:33:45.782Z",
@@ -573,7 +572,7 @@
     }
   ],
   "mesures": {
-    "releves": 756,
+    "releves": 758,
     "parReseau": {
       "instagram": {
         "posts": 90,
@@ -588,8 +587,8 @@
         "interactionsMoyennes": 0
       },
       "threads": {
-        "posts": 86,
-        "interactionsMoyennes": 11.8
+        "posts": 87,
+        "interactionsMoyennes": 11.9
       }
     }
   },
@@ -695,7 +694,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-28T09:27:35.136Z"
+    "derniere": "2026-11-28T11:01:01.645Z"
   },
   "abonnes": {
     "instagram": {
@@ -734,8 +733,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-28T10:21:07.208Z",
-    "posts": 156,
+    "genereLe": "2026-11-28T11:11:06.713Z",
+    "posts": 157,
     "parReseau": {
       "threads": {
         "posts": 41,
@@ -750,8 +749,8 @@
         "moyenne": 3.2
       },
       "bluesky": {
-        "posts": 40,
-        "moyenne": 0.1
+        "posts": 41,
+        "moyenne": 0
       }
     },
     "parFormat": {
@@ -768,14 +767,14 @@
         "moyenne": 0
       },
       "reply": {
-        "posts": 11,
+        "posts": 12,
         "moyenne": 0
       }
     },
     "parCreneau": {
       "matin": {
-        "posts": 83,
-        "moyenne": 7.2
+        "posts": 84,
+        "moyenne": 7.1
       },
       "après-midi": {
         "posts": 44,
@@ -825,7 +824,7 @@
           "moyenne": 0.1
         },
         "hors créneau": {
-          "posts": 2,
+          "posts": 3,
           "moyenne": 0
         },
         "12 h – 13 h 30": {
@@ -875,23 +874,23 @@
     },
     "moinsBon": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36349",
-      "channel": "threads",
-      "mediaId": "18136477288668527",
-      "publieLe": "2026-11-27T09:27:28.393Z",
-      "format": "reponse",
+      "channel": "bluesky",
+      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3n3byh26bwf25",
+      "publieLe": "2026-11-27T10:34:15.711Z",
+      "format": "reply",
       "jalon": 1,
-      "releveLe": "2026-11-28T09:27:35.136Z",
+      "releveLe": "2026-11-28T11:01:01.645Z",
       "likes": 0,
       "commentairesBruts": 1,
       "partages": 0,
-      "vues": 2022,
+      "vues": null,
       "commentaires": 0,
       "v": 2,
       "titre": "Nitrates : dans six villages charentais, les biberons passent à l’eau en bouteille",
-      "lien": "https://www.threads.com/@lovaquitaine/post/DgPWkHcFa2v",
+      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n3byh26bwf25",
       "mention": false,
       "creneau": "matin",
-      "creneauReseau": "10 h – 11 h 30"
+      "creneauReseau": "hors créneau"
     },
     "mentions": {
       "avec": {
@@ -899,8 +898,8 @@
         "moyenne": 5.7
       },
       "sans": {
-        "posts": 93,
-        "moyenne": 6.5
+        "posts": 94,
+        "moyenne": 6.4
       }
     },
     "publies": {
@@ -908,7 +907,7 @@
       "facebook": 41,
       "bluesky": 42,
       "x": 42,
-      "instagram": 38
+      "instagram": 39
     },
     "abonnes": {
       "instagram": {

@@ -1,14 +1,14 @@
 {
   "2026-11": {
     "cle": "2026-11",
-    "publications": 200,
-    "articles": 42,
-    "interactions": 890,
+    "publications": 201,
+    "articles": 43,
+    "interactions": 893,
     "parReseau": {
       "facebook": 39,
       "instagram": 38,
       "x": 41,
-      "threads": 41,
+      "threads": 42,
       "bluesky": 41
     },
     "gains": {
@@ -31,7 +31,7 @@
         "titre": "Ils sont encore là, mais presque invisibles : le plan pour sauver les visons d’Europe",
         "lien": "https://www.threads.com/@lovaquitaine/post/Df_q3CnFSjQ",
         "image": "https://passion-aquitaine.ouest-france.fr/social/20261120-9756dd6b-1-vignette.jpg",
-        "interactions": 96
+        "interactions": 99
       },
       {
         "reseau": "threads",

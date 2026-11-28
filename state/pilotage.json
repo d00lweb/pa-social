@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-28T07:00:59.739Z",
+  "genereLe": "2026-11-28T07:20:37.174Z",
   "jour": "2026-11-28",
   "reseaux": {
     "instagram": {
@@ -89,7 +89,7 @@
       },
       "formats": null,
       "aujourdhui": 0,
-      "semaine": 14,
+      "semaine": 13,
       "total": 100,
       "dernier": "2026-11-27T11:30:37.925Z",
       "lienDernier": "https://www.facebook.com/1720946116697936/posts/1804998021626078"
@@ -122,11 +122,11 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
+      "aujourdhui": 1,
       "semaine": 16,
-      "total": 101,
-      "dernier": "2026-11-27T09:27:28.393Z",
-      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DgPWkHcFa2v"
+      "total": 102,
+      "dernier": "2026-11-28T07:32:57.044Z",
+      "lienDernier": "https://www.threads.com/@lovaquitaine/post/DgRuJEokZUv"
     },
     "x": {
       "actif": true,
@@ -164,6 +164,22 @@
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36356",
+      "titre": "Prix du Bon : les 12 adresses préférées des Bordelais dévoilées",
+      "lien": "https://passion-aquitaine.ouest-france.fr/prix-du-bon-2026-bordeaux-palmares/",
+      "at": "2026-11-28T07:32:57.044Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Imaginez une vitrine de gâteaux sans beurre ni œufs, puis un camion-cuisine garé à Talence. Ce sont deux des 12 adresses que les Bordelais ont choisies pour le Prix du Bon 2026. Un palmarès voté par les habitants eux-mêmes, de quoi remplir l’agenda gourmand de l’hiver 🍰\n@villedebordeaux @visitbordeaux",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261128-6a7caa7a-th.jpg",
+          "mode": "reponse",
+          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/prix-du-bon-2026-bordeaux-palmares/",
+          "sujet": "Bordeaux",
+          "publieLe": "2026-11-28T07:32:57.044Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36331",
       "titre": "Gironde : au milieu des pins, ce laser recrée le cœur des étoiles",
@@ -379,41 +395,19 @@
           "publieLe": "2026-11-26T18:24:39.700Z"
         }
       }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36336",
-      "titre": "En 2070, la Charente-Maritime ressemblera à Royan : pourquoi la station balnéaire vit déjà dans le futur",
-      "lien": "https://passion-aquitaine.ouest-france.fr/charente-maritime-seniors-royan-2070/",
-      "at": "2026-11-26T12:29:59.680Z",
-      "reseaux": {
-        "threads": {
-          "texte": "L’Insee projette 44,4 % de seniors en Charente-Maritime en 2070. À Royan, ils sont déjà 49,2 %, et les logements adaptés à ces habitants manquent 💃",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261126-7ee6e2d3-th.jpg",
-          "mode": "reponse",
-          "reponse": "👉 Tous les détails : https://passion-aquitaine.ouest-france.fr/charente-maritime-seniors-royan-2070/",
-          "sujet": "Royan",
-          "publieLe": "2026-11-26T10:15:34.474Z"
-        },
-        "x": {
-          "texte": "Comprendre la Charente-Maritime de 2070, c’est regarder #Royan aujourd’hui : 49,2 % de seniors, contre 44,4 % projetés par l’Insee pour le département, et des logements adaptés qui manquent 📊",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261126-7ee6e2d3-x.jpg",
-          "mode": "reponse",
-          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/charente-maritime-seniors-royan-2070/",
-          "sujet": null,
-          "publieLe": "2026-11-26T12:21:40.453Z"
-        },
-        "bluesky": {
-          "texte": "#Royan a déjà 49,2 % de seniors 👵 La station balnéaire dépasse la projection de l’@insee.fr pour toute la #CharenteMaritime en 2070, fixée à 44,4 %. Les logements adaptés, eux, manquent.\n➡️ Lire l’article",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261126-7ee6e2d3-bsky.jpg",
-          "mode": "image",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-26T12:29:59.680Z"
-        }
-      }
     }
   ],
   "publications": [
+    {
+      "channel": "threads",
+      "at": "2026-11-28T07:32:57.044Z",
+      "titre": "Prix du Bon : les 12 adresses préférées des Bordelais dévoilées",
+      "lien": "https://passion-aquitaine.ouest-france.fr/prix-du-bon-2026-bordeaux-palmares/",
+      "lienPost": "https://www.threads.com/@lovaquitaine/post/DgRuJEokZUv",
+      "format": "reponse",
+      "texte": "Imaginez une vitrine de gâteaux sans beurre ni œufs, puis un camion-cuisine garé à Talence. Ce sont deux des 12 adresses que les Bordelais ont choisies pour le Prix du Bon 2026. Un palmarès voté par les habitants eux-mêmes, de quoi remplir l’agenda gourmand de l’hiver 🍰\n@villedebordeaux @visitbordeaux",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261128-6a7caa7a-th.jpg"
+    },
     {
       "channel": "x",
       "at": "2026-11-27T12:00:45.517Z",
@@ -503,28 +497,9 @@
       "format": "card",
       "texte": "🔬 On l’imagine dans l’espace, on le trouve dans les pins : en #Gironde, au Barp, le Laser Mégajoule du CEA recrée le cœur des étoiles avec 176 faisceaux. Une pièce maîtresse de la stratégie #fusion.",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261127-f331e4ad-bsky.jpg"
-    },
-    {
-      "channel": "threads",
-      "at": "2026-11-27T07:31:02.390Z",
-      "titre": "Gironde : au milieu des pins, ce laser recrée le cœur des étoiles",
-      "lien": "https://passion-aquitaine.ouest-france.fr/laser-megajoule-le-barp-gironde/",
-      "lienPost": "https://www.threads.com/@lovaquitaine/post/DgPJM1_nN5K",
-      "format": "reponse",
-      "texte": "Pas besoin d’aller loin pour toucher du doigt la science des étoiles ☀️ Au Barp, en Gironde, le Laser Mégajoule du CEA reproduit le cœur des astres grâce à 176 faisceaux. Comprendre ce qui s’y joue, c’est saisir l’un des piliers de la stratégie fusion, cette piste d’énergie dont on parle tant.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261127-f331e4ad-th.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "threads",
-      "dueAt": "2026-11-28T07:29:29.031Z",
-      "prochainPassage": "2026-11-28T08:00:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Prix du Bon : les 12 adresses préférées des Bordelais dévoilées"
-    },
     {
       "channel": "bluesky",
       "dueAt": "2026-11-28T08:05:43.036Z",
@@ -624,7 +599,7 @@
     }
   ],
   "mesures": {
-    "releves": 749,
+    "releves": 751,
     "parReseau": {
       "instagram": {
         "posts": 90,
@@ -635,12 +610,12 @@
         "interactionsMoyennes": 0.2
       },
       "facebook": {
-        "posts": 86,
+        "posts": 87,
         "interactionsMoyennes": 0
       },
       "threads": {
-        "posts": 85,
-        "interactionsMoyennes": 10.8
+        "posts": 86,
+        "interactionsMoyennes": 11.8
       }
     }
   },
@@ -746,7 +721,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-28T06:01:09.769Z"
+    "derniere": "2026-11-28T07:20:37.174Z"
   },
   "abonnes": {
     "instagram": {
@@ -785,7 +760,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-28T07:01:21.357Z",
+    "genereLe": "2026-11-28T07:33:01.214Z",
     "posts": 151,
     "parReseau": {
       "threads": {
@@ -841,7 +816,7 @@
       "threads": {
         "7 h – 8 h 30": {
           "posts": 20,
-          "moyenne": 19.3
+          "moyenne": 19.5
         },
         "13 h – 14 h 30": {
           "posts": 4,
@@ -903,7 +878,7 @@
         }
       }
     },
-    "interactionsTotal": 890,
+    "interactionsTotal": 893,
     "meilleur": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36189",
       "channel": "threads",
@@ -958,7 +933,7 @@
       }
     },
     "publies": {
-      "threads": 41,
+      "threads": 42,
       "facebook": 40,
       "bluesky": 41,
       "x": 41,
@@ -1005,7 +980,7 @@
       "facebook": 0
     },
     "conseils": [
-      "Threads : le créneau 7 h – 8 h 30 fait 2,4 fois mieux que 10 h – 11 h 30 (19.3 contre 7.9 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
+      "Threads : le créneau 7 h – 8 h 30 fait 2,5 fois mieux que 10 h – 11 h 30 (19.5 contre 7.9 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Facebook : le créneau 20 h – 21 h 30 fait 4,2 fois mieux que 8 h – 9 h 30 (3.8 contre 0.9 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Instagram : le créneau 12 h – 13 h 30 fait 1,8 fois mieux que 18 h – 19 h 30 (9.2 contre 5.1 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Le format « reponse » fait 141 fois mieux que « reply » (14.1 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « reply » de la rotation dans config/channels.json."

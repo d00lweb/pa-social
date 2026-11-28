@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-28T09:00:33.514Z",
+  "genereLe": "2026-11-28T09:20:33.968Z",
   "jour": "2026-11-28",
   "reseaux": {
     "instagram": {
@@ -156,14 +156,46 @@
       "formats": [
         "reponse"
       ],
-      "aujourdhui": 0,
-      "semaine": 15,
-      "total": 104,
-      "dernier": "2026-11-27T12:00:45.517Z",
+      "aujourdhui": 1,
+      "semaine": 16,
+      "total": 105,
+      "dernier": "2026-11-28T09:20:39.843Z",
       "lienDernier": null
     }
   },
   "articles": [
+    {
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36356",
+      "titre": "Prix du Bon : les 12 adresses préférées des Bordelais dévoilées",
+      "lien": "https://passion-aquitaine.ouest-france.fr/prix-du-bon-2026-bordeaux-palmares/",
+      "at": "2026-11-28T09:20:39.843Z",
+      "reseaux": {
+        "threads": {
+          "texte": "Imaginez une vitrine de gâteaux sans beurre ni œufs, puis un camion-cuisine garé à Talence. Ce sont deux des 12 adresses que les Bordelais ont choisies pour le Prix du Bon 2026. Un palmarès voté par les habitants eux-mêmes, de quoi remplir l’agenda gourmand de l’hiver 🍰\n@villedebordeaux @visitbordeaux",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261128-6a7caa7a-th.jpg",
+          "mode": "reponse",
+          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/prix-du-bon-2026-bordeaux-palmares/",
+          "sujet": "Bordeaux",
+          "publieLe": "2026-11-28T07:32:57.044Z"
+        },
+        "bluesky": {
+          "texte": "Au palmarès du Prix du Bon 2026, voté par les habitants de #Bordeaux, on ne trouve pas que des tables classiques : 🚚 un food truck installé à Talence figure parmi les 12 adresses préférées.\n@villedebordeaux.bsky.social",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261128-6a7caa7a-bsky.jpg",
+          "mode": "card",
+          "reponse": null,
+          "sujet": null,
+          "publieLe": "2026-11-28T08:05:45.001Z"
+        },
+        "x": {
+          "texte": "🍴 Où les Bordelais aiment-ils vraiment manger ? Le Prix du Bon 2026 révèle leurs 12 adresses préférées, dont un food truck de Talence et une pâtisserie 100 % vegan.",
+          "image": "https://passion-aquitaine.ouest-france.fr/social/20261128-6a7caa7a-x.jpg",
+          "mode": "reponse",
+          "reponse": "📰 À lire ici : https://passion-aquitaine.ouest-france.fr/prix-du-bon-2026-bordeaux-palmares/",
+          "sujet": null,
+          "publieLe": "2026-11-28T09:20:39.843Z"
+        }
+      }
+    },
     {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36336",
       "titre": "En 2070, la Charente-Maritime ressemblera à Royan : pourquoi la station balnéaire vit déjà dans le futur",
@@ -201,30 +233,6 @@
           "reponse": null,
           "sujet": null,
           "publieLe": "2026-11-28T08:12:39.890Z"
-        }
-      }
-    },
-    {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36356",
-      "titre": "Prix du Bon : les 12 adresses préférées des Bordelais dévoilées",
-      "lien": "https://passion-aquitaine.ouest-france.fr/prix-du-bon-2026-bordeaux-palmares/",
-      "at": "2026-11-28T08:05:45.001Z",
-      "reseaux": {
-        "threads": {
-          "texte": "Imaginez une vitrine de gâteaux sans beurre ni œufs, puis un camion-cuisine garé à Talence. Ce sont deux des 12 adresses que les Bordelais ont choisies pour le Prix du Bon 2026. Un palmarès voté par les habitants eux-mêmes, de quoi remplir l’agenda gourmand de l’hiver 🍰\n@villedebordeaux @visitbordeaux",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261128-6a7caa7a-th.jpg",
-          "mode": "reponse",
-          "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/prix-du-bon-2026-bordeaux-palmares/",
-          "sujet": "Bordeaux",
-          "publieLe": "2026-11-28T07:32:57.044Z"
-        },
-        "bluesky": {
-          "texte": "Au palmarès du Prix du Bon 2026, voté par les habitants de #Bordeaux, on ne trouve pas que des tables classiques : 🚚 un food truck installé à Talence figure parmi les 12 adresses préférées.\n@villedebordeaux.bsky.social",
-          "image": "https://passion-aquitaine.ouest-france.fr/social/20261128-6a7caa7a-bsky.jpg",
-          "mode": "card",
-          "reponse": null,
-          "sujet": null,
-          "publieLe": "2026-11-28T08:05:45.001Z"
         }
       }
     },
@@ -399,6 +407,16 @@
   ],
   "publications": [
     {
+      "channel": "x",
+      "at": "2026-11-28T09:20:39.843Z",
+      "titre": "Prix du Bon : les 12 adresses préférées des Bordelais dévoilées",
+      "lien": "https://passion-aquitaine.ouest-france.fr/prix-du-bon-2026-bordeaux-palmares/",
+      "lienPost": null,
+      "format": "reponse",
+      "texte": "🍴 Où les Bordelais aiment-ils vraiment manger ? Le Prix du Bon 2026 révèle leurs 12 adresses préférées, dont un food truck de Talence et une pâtisserie 100 % vegan.",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261128-6a7caa7a-x.jpg"
+    },
+    {
       "channel": "facebook",
       "at": "2026-11-28T08:12:39.890Z",
       "titre": "En 2070, la Charente-Maritime ressemblera à Royan : pourquoi la station balnéaire vit déjà dans le futur",
@@ -487,28 +505,9 @@
       "format": null,
       "texte": "En Charente, six communes ont une eau trop chargée en nitrates ℹ️\n⠀\nL’ARS demande aux femmes enceintes et aux bébés de passer à l’eau en bouteille, biberons compris.\n⠀\n➡️ Article complet sur le site Passion Aquitaine\n⠀\n#Charente #Nitrates #EauPotable",
       "image": "https://passion-aquitaine.ouest-france.fr/social/20261127-2d7159d9-1.jpg"
-    },
-    {
-      "channel": "x",
-      "at": "2026-11-27T08:20:45.663Z",
-      "titre": "Nitrates : dans six villages charentais, les biberons passent à l’eau en bouteille",
-      "lien": "https://passion-aquitaine.ouest-france.fr/nitrates-eau-robinet-charente-nanteuil-en-vallee/",
-      "lienPost": null,
-      "format": "reponse",
-      "texte": "Six communes de #Charente, des biberons préparés à l’eau en bouteille 🗞️ L’eau du robinet y contient trop de nitrates, selon l’ARS, qui le demande aussi aux femmes enceintes.",
-      "image": "https://passion-aquitaine.ouest-france.fr/social/20261127-2d7159d9-x.jpg"
     }
   ],
   "file": [
-    {
-      "channel": "x",
-      "dueAt": "2026-11-28T09:20:00.000Z",
-      "prochainPassage": "2026-11-28T09:20:00.000Z",
-      "nature": "actu",
-      "prevuInitialement": null,
-      "raison": null,
-      "titre": "Prix du Bon : les 12 adresses préférées des Bordelais dévoilées"
-    },
     {
       "channel": "instagram",
       "dueAt": "2026-11-28T11:10:26.965Z",
@@ -735,7 +734,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-28T09:00:38.940Z",
+    "genereLe": "2026-11-28T09:20:47.624Z",
     "posts": 155,
     "parReseau": {
       "threads": {
@@ -911,7 +910,7 @@
       "threads": 42,
       "facebook": 41,
       "bluesky": 42,
-      "x": 41,
+      "x": 42,
       "instagram": 38
     },
     "abonnes": {

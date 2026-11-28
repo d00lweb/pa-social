@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-28T11:21:08.823Z",
+  "genereLe": "2026-11-28T12:00:54.329Z",
   "jour": "2026-11-28",
   "reseaux": {
     "instagram": {
@@ -61,7 +61,7 @@
         "reply"
       ],
       "aujourdhui": 1,
-      "semaine": 17,
+      "semaine": 16,
       "total": 105,
       "dernier": "2026-11-28T08:05:45.001Z",
       "lienDernier": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n3eamg2fys2i"
@@ -562,24 +562,16 @@
       "titre": "Prix du Bon : les 12 adresses préférées des Bordelais dévoilées"
     }
   ],
-  "alertes": [
-    {
-      "channel": "instagram",
-      "statut": "failed",
-      "titre": "Golfe de Gascogne : l’hiver 2025, les dauphins sont surtout morts avant l’arrêt de pêche",
-      "raison": "Image 404 : https://passion-aquitaine.ouest-france.fr/wp-content/uploads/2026/11/tete-dauphin.jpg",
-      "quand": "2026-11-21T11:23:48.199Z"
-    }
-  ],
+  "alertes": [],
   "mesures": {
-    "releves": 759,
+    "releves": 761,
     "parReseau": {
       "instagram": {
         "posts": 90,
         "interactionsMoyennes": 12.2
       },
       "bluesky": {
-        "posts": 88,
+        "posts": 89,
         "interactionsMoyennes": 0.2
       },
       "facebook": {
@@ -643,9 +635,9 @@
     },
     "facebook": {
       "publications": 5,
-      "vues": 41183,
+      "vues": 40562,
       "invisible": false,
-      "depuis": "2026-11-25T07:14:55.149Z"
+      "depuis": "2026-11-25T19:27:25.402Z"
     },
     "alertes": {
       "threads": "2026-11-S3",
@@ -733,8 +725,8 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-28T11:21:13.108Z",
-    "posts": 158,
+    "genereLe": "2026-11-28T12:00:59.279Z",
+    "posts": 159,
     "parReseau": {
       "threads": {
         "posts": 41,
@@ -745,7 +737,7 @@
         "moyenne": 8.6
       },
       "facebook": {
-        "posts": 38,
+        "posts": 39,
         "moyenne": 3.2
       },
       "bluesky": {
@@ -777,8 +769,8 @@
         "moyenne": 7.1
       },
       "après-midi": {
-        "posts": 45,
-        "moyenne": 7.1
+        "posts": 46,
+        "moyenne": 7
       },
       "soir": {
         "posts": 29,
@@ -814,7 +806,7 @@
           "moyenne": 3.2
         },
         "hors créneau": {
-          "posts": 2,
+          "posts": 3,
           "moyenne": 0
         }
       },
@@ -874,22 +866,25 @@
     },
     "moinsBon": {
       "guid": "https://passion-aquitaine.ouest-france.fr/?p=36349",
-      "channel": "bluesky",
-      "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3n3byh26bwf25",
-      "publieLe": "2026-11-27T10:34:15.711Z",
-      "format": "reply",
+      "channel": "facebook",
+      "mediaId": "227437307428711_1804998021626078",
+      "publieLe": "2026-11-27T11:30:37.925Z",
+      "format": null,
       "jalon": 1,
-      "releveLe": "2026-11-28T11:01:01.645Z",
+      "releveLe": "2026-11-28T12:00:54.329Z",
       "likes": 0,
       "commentairesBruts": 1,
       "partages": 0,
-      "vues": null,
+      "vues": 1577,
+      "reactions": 0,
+      "portee": 0,
+      "clics": 27,
       "commentaires": 0,
       "v": 2,
       "titre": "Nitrates : dans six villages charentais, les biberons passent à l’eau en bouteille",
-      "lien": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n3byh26bwf25",
+      "lien": "https://www.facebook.com/1720946116697936/posts/1804998021626078",
       "mention": false,
-      "creneau": "matin",
+      "creneau": "après-midi",
       "creneauReseau": "hors créneau"
     },
     "mentions": {
@@ -898,7 +893,7 @@
         "moyenne": 6.5
       },
       "sans": {
-        "posts": 94,
+        "posts": 95,
         "moyenne": 6.4
       }
     },

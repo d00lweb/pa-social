@@ -3,7 +3,7 @@
     "cle": "2026-11",
     "publications": 203,
     "articles": 43,
-    "interactions": 909,
+    "interactions": 963,
     "parReseau": {
       "facebook": 40,
       "instagram": 38,
@@ -42,17 +42,17 @@
       },
       {
         "reseau": "facebook",
+        "titre": "Gare de Libourne : la petite ville qui a devancé Limoges",
+        "lien": "https://www.facebook.com/1720946116697936/posts/1804822434976970",
+        "image": "https://passion-aquitaine.ouest-france.fr/social/20261126-49b560f0-fb-vignette.jpg",
+        "interactions": 53
+      },
+      {
+        "reseau": "facebook",
         "titre": "Vignes bordelaises à vendre : l’auteur de Gomorra redoute l’argent des mafias",
         "lien": "https://www.facebook.com/1720946116697936/posts/1800498012076079",
         "image": "https://passion-aquitaine.ouest-france.fr/social/20261122-94a71a8e-1-vignette.jpg",
         "interactions": 43
-      },
-      {
-        "reseau": "instagram",
-        "titre": "Déjà 20 200 grues cendrées à Arjuzanx, 2,6 fois plus qu’en 2025",
-        "lien": "https://www.instagram.com/p/DfwyOAkF50r/",
-        "image": "https://passion-aquitaine.ouest-france.fr/social/20261115-4e3e2639-1-vignette.jpg",
-        "interactions": 35
       }
     ]
   },

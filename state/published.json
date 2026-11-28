@@ -9127,5 +9127,41 @@
       "reponse": "📍 L'histoire complète : https://passion-aquitaine.ouest-france.fr/prix-du-bon-2026-bordeaux-palmares/",
       "sujet": "Bordeaux"
     }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36356",
+    "channel": "bluesky",
+    "at": "2026-11-28T08:05:45.001Z",
+    "mediaId": "at://did:plc:ypqeiof554p2x7wxn5syoq7o/app.bsky.feed.post/3n3eamg2fys2i",
+    "titre": "Prix du Bon : les 12 adresses préférées des Bordelais dévoilées",
+    "lien": "https://passion-aquitaine.ouest-france.fr/prix-du-bon-2026-bordeaux-palmares/",
+    "lienPost": "https://bsky.app/profile/passion-aquitaine.ouest-france.fr/post/3n3eamg2fys2i",
+    "format": "card",
+    "mention": true,
+    "apercu": {
+      "texte": "Au palmarès du Prix du Bon 2026, voté par les habitants de #Bordeaux, on ne trouve pas que des tables classiques : 🚚 un food truck installé à Talence figure parmi les 12 adresses préférées.\n@villedebordeaux.bsky.social",
+      "image": "https://passion-aquitaine.ouest-france.fr/social/20261128-6a7caa7a-bsky.jpg",
+      "mode": "card",
+      "reponse": null,
+      "sujet": null
+    }
+  },
+  {
+    "guid": "https://passion-aquitaine.ouest-france.fr/?p=36336",
+    "channel": "facebook",
+    "at": "2026-11-28T08:12:39.890Z",
+    "mediaId": "227437307428711_1806060288186518",
+    "titre": "En 2070, la Charente-Maritime ressemblera à Royan : pourquoi la station balnéaire vit déjà dans le futur",
+    "lien": "https://passion-aquitaine.ouest-france.fr/charente-maritime-seniors-royan-2070/",
+    "lienPost": "https://www.facebook.com/1720946116697936/posts/1806060288186518",
+    "format": "lien",
+    "mention": false,
+    "apercu": {
+      "texte": "Près d’un habitant sur deux a passé l’âge de la retraite à Royan, et les logements adaptés à ces seniors manquent déjà 🏠",
+      "image": null,
+      "mode": "lien",
+      "reponse": null,
+      "sujet": null
+    }
   }
 ]

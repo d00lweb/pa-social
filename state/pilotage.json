@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-28T06:20:39.568Z",
+  "genereLe": "2026-11-28T07:00:59.739Z",
   "jour": "2026-11-28",
   "reseaux": {
     "instagram": {
@@ -517,6 +517,24 @@
   ],
   "file": [
     {
+      "channel": "threads",
+      "dueAt": "2026-11-28T07:29:29.031Z",
+      "prochainPassage": "2026-11-28T08:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Prix du Bon : les 12 adresses préférées des Bordelais dévoilées"
+    },
+    {
+      "channel": "bluesky",
+      "dueAt": "2026-11-28T08:05:43.036Z",
+      "prochainPassage": "2026-11-28T08:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Prix du Bon : les 12 adresses préférées des Bordelais dévoilées"
+    },
+    {
       "channel": "facebook",
       "dueAt": "2026-11-28T08:12:32.898Z",
       "prochainPassage": "2026-11-28T08:20:00.000Z",
@@ -524,6 +542,15 @@
       "prevuInitialement": "2026-11-27T19:05:38.840Z",
       "raison": "le nombre de posts du jour était atteint",
       "titre": "En 2070, la Charente-Maritime ressemblera à Royan : pourquoi la station balnéaire vit déjà dans le futur"
+    },
+    {
+      "channel": "x",
+      "dueAt": "2026-11-28T09:20:00.000Z",
+      "prochainPassage": "2026-11-28T09:20:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Prix du Bon : les 12 adresses préférées des Bordelais dévoilées"
     },
     {
       "channel": "instagram",
@@ -553,6 +580,15 @@
       "titre": "Gironde : au milieu des pins, ce laser recrée le cœur des étoiles"
     },
     {
+      "channel": "facebook",
+      "dueAt": "2026-11-29T08:25:05.552Z",
+      "prochainPassage": "2026-11-29T09:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Prix du Bon : les 12 adresses préférées des Bordelais dévoilées"
+    },
+    {
       "channel": "instagram",
       "dueAt": "2026-11-29T11:24:39.809Z",
       "prochainPassage": "2026-11-29T12:00:00.000Z",
@@ -560,6 +596,15 @@
       "prevuInitialement": "2026-11-28T18:26:46.823Z",
       "raison": "un autre post occupait déjà ce créneau",
       "titre": "Gironde : au milieu des pins, ce laser recrée le cœur des étoiles"
+    },
+    {
+      "channel": "instagram",
+      "dueAt": "2026-11-29T18:25:37.010Z",
+      "prochainPassage": "2026-11-29T19:00:00.000Z",
+      "nature": "actu",
+      "prevuInitialement": null,
+      "raison": null,
+      "titre": "Prix du Bon : les 12 adresses préférées des Bordelais dévoilées"
     }
   ],
   "alertes": [
@@ -740,7 +785,7 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-28T06:20:44.114Z",
+    "genereLe": "2026-11-28T07:01:21.357Z",
     "posts": 151,
     "parReseau": {
       "threads": {
@@ -968,29 +1013,29 @@
   },
   "couts": {
     "jour": {
-      "appels": 0,
-      "entree": 0,
-      "sortie": 0,
-      "cout": 0,
+      "appels": 1,
+      "entree": 7963,
+      "sortie": 923,
+      "cout": 0.050312,
       "cle": "2026-11-28"
     },
     "semaine": {
-      "appels": 24,
-      "entree": 192957,
-      "sortie": 22283,
-      "cout": 1.217488
+      "appels": 25,
+      "entree": 200920,
+      "sortie": 23206,
+      "cout": 1.2677999999999998
     },
     "mois": {
-      "appels": 99,
-      "entree": 793166,
-      "sortie": 90307,
-      "cout": 4.978803999999999,
+      "appels": 100,
+      "entree": 801129,
+      "sortie": 91230,
+      "cout": 5.029115999999999,
       "cle": "2026-11"
     },
-    "projection": 5.33,
+    "projection": 5.39,
     "moyenneAppel": 0.0503,
     "parModele": {
-      "claude-opus-5-5": 99
+      "claude-opus-5-5": 100
     },
     "serie": [
       [
@@ -1047,7 +1092,7 @@
       ],
       [
         "2026-11-28",
-        0
+        0.0503
       ]
     ],
     "depuis": "2026-09-23"

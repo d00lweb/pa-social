@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-11-28T09:20:33.968Z",
+  "genereLe": "2026-11-28T09:27:35.136Z",
   "jour": "2026-11-28",
   "reseaux": {
     "instagram": {
@@ -573,7 +573,7 @@
     }
   ],
   "mesures": {
-    "releves": 755,
+    "releves": 756,
     "parReseau": {
       "instagram": {
         "posts": 90,
@@ -695,7 +695,7 @@
       "Ville de Dax"
     ],
     "refuses": 3,
-    "derniere": "2026-11-28T08:21:08.169Z"
+    "derniere": "2026-11-28T09:27:35.136Z"
   },
   "abonnes": {
     "instagram": {
@@ -734,12 +734,12 @@
   },
   "rapportEnCours": {
     "mois": "2026-11",
-    "genereLe": "2026-11-28T09:20:47.624Z",
-    "posts": 155,
+    "genereLe": "2026-11-28T09:27:39.925Z",
+    "posts": 156,
     "parReseau": {
       "threads": {
-        "posts": 40,
-        "moyenne": 14.2
+        "posts": 41,
+        "moyenne": 13.8
       },
       "instagram": {
         "posts": 37,
@@ -756,8 +756,8 @@
     },
     "parFormat": {
       "reponse": {
-        "posts": 40,
-        "moyenne": 14.2
+        "posts": 41,
+        "moyenne": 13.8
       },
       "card": {
         "posts": 11,
@@ -774,8 +774,8 @@
     },
     "parCreneau": {
       "matin": {
-        "posts": 82,
-        "moyenne": 7.3
+        "posts": 83,
+        "moyenne": 7.2
       },
       "après-midi": {
         "posts": 44,
@@ -797,8 +797,8 @@
           "moyenne": 12.5
         },
         "10 h – 11 h 30": {
-          "posts": 14,
-          "moyenne": 7.9
+          "posts": 15,
+          "moyenne": 7.3
         },
         "hors créneau": {
           "posts": 1,
@@ -874,27 +874,24 @@
       "creneauReseau": "7 h – 8 h 30"
     },
     "moinsBon": {
-      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36306",
-      "channel": "facebook",
-      "mediaId": "227437307428711_1804231798369367",
-      "publieLe": "2026-11-26T19:27:51.543Z",
-      "format": null,
+      "guid": "https://passion-aquitaine.ouest-france.fr/?p=36349",
+      "channel": "threads",
+      "mediaId": "18136477288668527",
+      "publieLe": "2026-11-27T09:27:28.393Z",
+      "format": "reponse",
       "jalon": 1,
-      "releveLe": "2026-11-27T20:01:05.341Z",
+      "releveLe": "2026-11-28T09:27:35.136Z",
       "likes": 0,
-      "commentairesBruts": 0,
+      "commentairesBruts": 1,
       "partages": 0,
-      "vues": 168,
-      "reactions": 0,
-      "portee": 0,
-      "clics": 1,
+      "vues": 2022,
       "commentaires": 0,
       "v": 2,
-      "titre": "Café céramique à Bordeaux : ici, la tasse ne sert pas à boire",
-      "lien": "https://www.facebook.com/1720946116697936/posts/1804231798369367",
+      "titre": "Nitrates : dans six villages charentais, les biberons passent à l’eau en bouteille",
+      "lien": "https://www.threads.com/@lovaquitaine/post/DgPWkHcFa2v",
       "mention": false,
-      "creneau": "soir",
-      "creneauReseau": "20 h – 21 h 30"
+      "creneau": "matin",
+      "creneauReseau": "10 h – 11 h 30"
     },
     "mentions": {
       "avec": {
@@ -902,8 +899,8 @@
         "moyenne": 5.7
       },
       "sans": {
-        "posts": 92,
-        "moyenne": 6.6
+        "posts": 93,
+        "moyenne": 6.5
       }
     },
     "publies": {
@@ -949,14 +946,14 @@
       "x": null
     },
     "engagement": {
-      "threads": 1.2,
+      "threads": 1.17,
       "instagram": 0.07,
       "facebook": 0.01
     },
     "conseils": [
-      "Threads : le créneau 7 h – 8 h 30 fait 2,4 fois mieux que 10 h – 11 h 30 (19.3 contre 7.9 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
+      "Threads : le créneau 7 h – 8 h 30 fait 2,6 fois mieux que 10 h – 11 h 30 (19.3 contre 7.3 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
       "Instagram : le créneau 12 h – 13 h 30 fait 1,8 fois mieux que 18 h – 19 h 30 (9.2 contre 5.1 interactions par post). Si ça se confirme, on peut y renforcer la présence dans config/channels.json.",
-      "Le format « reponse » fait 142 fois mieux que « reply » (14.2 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « reply » de la rotation dans config/channels.json.",
+      "Le format « reponse » fait 138 fois mieux que « reply » (13.8 contre 0 interactions). Si ça se confirme le mois prochain, on peut retirer « reply » de la rotation dans config/channels.json.",
       "Abonnés : Threads progresse le plus (+24, +2,1 %) ; Facebook recule (−23), à surveiller."
     ]
   },
